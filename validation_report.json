@@ -1,0 +1,147 @@
+{
+  "timestamp": "2025-11-17T07:57:36.766180",
+  "checks": {
+    "grade_level_consistency": {
+      "passed": true,
+      "issues_found": 0,
+      "issues": []
+    },
+    "circular_dependencies": {
+      "passed": false,
+      "cycles_found": 23,
+      "cycles": [
+        [
+          "T10.G1.01",
+          "T10.G1.01"
+        ],
+        [
+          "T10.G1.02",
+          "T10.G1.01"
+        ],
+        [
+          "T10.G1.03",
+          "T10.G1.01"
+        ],
+        [
+          "T10.G2.01",
+          "T10.G2.01"
+        ],
+        [
+          "T10.G2.02",
+          "T10.G2.01"
+        ]
+      ]
+    },
+    "orphan_references": {
+      "passed": false,
+      "orphans_found": 2,
+      "examples": [
+        {
+          "skill": "T03.G2.01",
+          "missing_dep": "T03.G1.04"
+        },
+        {
+          "skill": "T03.G3.01",
+          "missing_dep": "T03.G2.04"
+        }
+      ]
+    },
+    "missing_dependency_data": {
+      "passed": true,
+      "missing_count": 0,
+      "missing_skills": []
+    },
+    "dependency_statistics": {
+      "total_skills": 1155,
+      "total_dependencies": 1174,
+      "avg_dependencies": 1.0164502164502165,
+      "max_dependencies": 5,
+      "min_dependencies": 0,
+      "orphan_skills_count": 134,
+      "top_gateway_skills": [
+        [
+          "T10.G4.01",
+          12
+        ],
+        [
+          "T09.G3.01",
+          11
+        ],
+        [
+          "T09.G4.01",
+          10
+        ],
+        [
+          "T08.G3.01",
+          9
+        ],
+        [
+          "T08.G4.01",
+          8
+        ],
+        [
+          "T08.G5.01",
+          8
+        ],
+        [
+          "T08.G7.01",
+          8
+        ],
+        [
+          "T10.G5.01",
+          8
+        ],
+        [
+          "T01.G2.01",
+          7
+        ],
+        [
+          "T06.G1.01",
+          7
+        ],
+        [
+          "T07.G3.01",
+          7
+        ],
+        [
+          "T08.G6.01",
+          7
+        ],
+        [
+          "T09.G7.01",
+          7
+        ],
+        [
+          "T11.G4.01",
+          7
+        ],
+        [
+          "T13.G4.01",
+          7
+        ],
+        [
+          "T09.G5.01",
+          6
+        ],
+        [
+          "T10.G7.01",
+          6
+        ],
+        [
+          "T25.G2.01",
+          6
+        ],
+        [
+          "T07.G4.01",
+          5
+        ],
+        [
+          "T07.G5.01",
+          5
+        ]
+      ]
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

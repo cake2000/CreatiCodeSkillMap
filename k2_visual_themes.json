@@ -1,0 +1,639 @@
+{
+  "visual_themes_version": "1.0.0",
+  "description": "Age-appropriate visual themes for K-2 picture-based activities",
+  "themes": {
+    "animals_pets": {
+      "name": "Animals & Pets",
+      "description": "Domestic and familiar animals, pets, zoo animals, farm animals",
+      "engagement_level": {
+        "kindergarten": "very_high",
+        "grade_1": "very_high",
+        "grade_2": "high"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (pet care routines)",
+        "T03 - Decomposition (animal habitats, body parts)",
+        "T04 - Patterns (animal patterns, tracks)",
+        "T07 - Loops (animal movements)",
+        "T25 - Data Representation (animal categories)"
+      ],
+      "example_contexts": [
+        "Daily routines for pets (feeding, walking, grooming)",
+        "Animal habitats (land, water, air)",
+        "Baby animals and their parents",
+        "Animals by characteristics (has fur, has feathers, etc.)",
+        "Pet care sequences",
+        "Zoo or farm animal grouping",
+        "Animal movements and sounds"
+      ],
+      "visual_guidelines": {
+        "style": "Friendly, cartoon-style animals with expressive faces",
+        "colors": "Bright, naturalistic colors",
+        "size": "Large, clear features",
+        "avoid": "Scary animals, realistic hunting/predation scenes"
+      },
+      "cultural_considerations": [
+        "Include diverse types of pets (not just dogs/cats)",
+        "Show animals from various climates/regions",
+        "Be mindful of cultural attitudes toward different animals",
+        "Avoid assumptions about pet ownership"
+      ],
+      "sample_assets": [
+        "puppy, kitten, bunny, hamster, fish, bird",
+        "cow, horse, pig, chicken, sheep",
+        "lion, elephant, giraffe, monkey, zebra",
+        "butterfly, bee, ladybug, caterpillar"
+      ]
+    },
+    "food_cooking": {
+      "name": "Food & Cooking",
+      "description": "Food items, meals, cooking processes, healthy eating",
+      "engagement_level": {
+        "kindergarten": "very_high",
+        "grade_1": "high",
+        "grade_2": "high"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (recipe steps, making meals)",
+        "T03 - Decomposition (meal parts, ingredients)",
+        "T04 - Patterns (food patterns, place settings)",
+        "T25 - Data Representation (sorting by food group)",
+        "T26 - Data Collection (food surveys, favorites)"
+      ],
+      "example_contexts": [
+        "Making a sandwich or simple recipe steps",
+        "Sorting foods by category (fruits, vegetables, grains, etc.)",
+        "Healthy vs. less healthy food choices",
+        "Breakfast, lunch, dinner sorting",
+        "Setting a table sequence",
+        "Food preparation steps (wash, cut, mix, cook)",
+        "Shopping for ingredients"
+      ],
+      "visual_guidelines": {
+        "style": "Colorful, appealing food illustrations",
+        "colors": "Appetizing, natural food colors",
+        "size": "Clear, recognizable food items",
+        "avoid": "Junk food as primary focus, messy or unappealing food"
+      },
+      "cultural_considerations": [
+        "Include diverse foods from many cultures",
+        "Be mindful of dietary restrictions (vegetarian, halal, kosher, etc.)",
+        "Don't emphasize sugary foods/candy",
+        "Show variety in meal styles across cultures",
+        "Be sensitive to food insecurity issues"
+      ],
+      "sample_assets": [
+        "apple, banana, orange, grapes, strawberries",
+        "carrot, broccoli, tomato, lettuce, corn",
+        "bread, rice, pasta, cereal",
+        "milk, water, juice",
+        "sandwich, salad, pizza, taco",
+        "mixing bowl, spoon, plate, cup, napkin"
+      ]
+    },
+    "home_family": {
+      "name": "Home & Family",
+      "description": "Home environments, family activities, daily routines, household items",
+      "engagement_level": {
+        "kindergarten": "very_high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (morning routines, bedtime routines)",
+        "T03 - Decomposition (parts of a house, chores breakdown)",
+        "T04 - Patterns (daily schedules)",
+        "T32 - Cybersecurity (home safety, personal info)",
+        "T35 - Impacts (technology at home)"
+      ],
+      "example_contexts": [
+        "Morning routine sequences (wake up, brush teeth, get dressed, eat)",
+        "Bedtime routine steps",
+        "Sorting household items by room",
+        "Chores and responsibilities",
+        "Family activities",
+        "Home safety rules",
+        "Keeping personal information private"
+      ],
+      "visual_guidelines": {
+        "style": "Warm, inviting home scenes",
+        "colors": "Comfortable, familiar color palettes",
+        "size": "Clear, identifiable household objects",
+        "avoid": "Stereotypical gender roles, single family structure only"
+      },
+      "cultural_considerations": [
+        "Show diverse family structures (single parent, two parents, grandparents, etc.)",
+        "Include various home types (apartments, houses, etc.)",
+        "Represent different cultural home environments",
+        "Avoid assumptions about family wealth or resources",
+        "Show different cultural routines and practices",
+        "Inclusive of all family types (adoption, foster, blended, etc.)"
+      ],
+      "sample_assets": [
+        "bed, toothbrush, clothes, breakfast table",
+        "various family configurations (diverse)",
+        "living room, bedroom, bathroom, kitchen",
+        "toys, books, backpack",
+        "door, window, chair, table, lamp"
+      ]
+    },
+    "school_classroom": {
+      "name": "School & Classroom",
+      "description": "School settings, classroom activities, learning materials, school routines",
+      "engagement_level": {
+        "kindergarten": "high",
+        "grade_1": "very_high",
+        "grade_2": "high"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (classroom routines, lining up)",
+        "T03 - Decomposition (parts of the school day)",
+        "T06 - Events (classroom events)",
+        "T25 - Data Representation (sorting school supplies)",
+        "T30 - Hardware (computers in the classroom)",
+        "T32 - Cybersecurity (safe computer use at school)"
+      ],
+      "example_contexts": [
+        "Morning arrival routine",
+        "Organizing classroom materials",
+        "Lining up procedures",
+        "Centers or stations rotation",
+        "School rules and expectations",
+        "Using classroom technology safely",
+        "Sorting school supplies",
+        "Following classroom schedules"
+      ],
+      "visual_guidelines": {
+        "style": "Bright, inviting classroom environments",
+        "colors": "Educational, cheerful colors",
+        "size": "Clear, recognizable school items",
+        "avoid": "Overwhelming clutter, outdated technology"
+      },
+      "cultural_considerations": [
+        "Show diverse students and teachers",
+        "Include various learning styles and abilities",
+        "Represent different school types and resources",
+        "Show inclusive classroom practices",
+        "Avoid assumptions about school resources"
+      ],
+      "sample_assets": [
+        "desk, chair, bookshelf, whiteboard",
+        "pencil, crayon, scissors, glue, paper",
+        "backpack, lunchbox, books",
+        "computer, tablet, headphones",
+        "diverse students of various abilities and backgrounds",
+        "teacher, librarian, principal",
+        "classroom areas (reading corner, computer station, etc.)"
+      ]
+    },
+    "nature_weather": {
+      "name": "Nature & Weather",
+      "description": "Natural world, weather, seasons, plants, outdoor environments",
+      "engagement_level": {
+        "kindergarten": "high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (planting seeds, life cycles)",
+        "T03 - Decomposition (parts of plants, weather elements)",
+        "T04 - Patterns (seasonal patterns, weather patterns)",
+        "T07 - Loops (seasons repeating, day/night cycle)",
+        "T25 - Data Representation (weather tracking, seasons)",
+        "T26 - Data Collection (weather observations)"
+      ],
+      "example_contexts": [
+        "Weather types and appropriate clothing",
+        "Seasonal changes",
+        "Plant life cycles (seed to flower)",
+        "Day and night cycle",
+        "Weather patterns",
+        "Preparing for different weather",
+        "Outdoor activities by season",
+        "Nature observation and sorting"
+      ],
+      "visual_guidelines": {
+        "style": "Bright, appealing nature illustrations",
+        "colors": "Natural, vibrant colors",
+        "size": "Clear weather icons and nature elements",
+        "avoid": "Severe weather that might frighten, pollution focus"
+      },
+      "cultural_considerations": [
+        "Include diverse climate zones",
+        "Show weather/seasons relevant to different regions",
+        "Be mindful that not all students experience four seasons",
+        "Include diverse outdoor activities and clothing"
+      ],
+      "sample_assets": [
+        "sun, cloud, rain, snow, wind",
+        "tree, flower, grass, leaf",
+        "spring, summer, fall, winter visuals",
+        "rainbow, puddle, snowflake, umbrella",
+        "outdoor clothing (jacket, boots, hat, sunglasses)",
+        "day/night imagery"
+      ]
+    },
+    "transportation": {
+      "name": "Transportation",
+      "description": "Vehicles, modes of travel, transportation systems, movement",
+      "engagement_level": {
+        "kindergarten": "very_high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (getting to school, travel routes)",
+        "T04 - Patterns (traffic patterns, schedules)",
+        "T07 - Loops (routes, repeated journeys)",
+        "T17 - Physics (movement, direction)",
+        "T25 - Data Representation (sorting vehicles by type)",
+        "T30 - Hardware (parts of vehicles)"
+      ],
+      "example_contexts": [
+        "How we get to school",
+        "Vehicles by land, water, air",
+        "Transportation safety rules",
+        "Journey sequences (home to school)",
+        "Matching vehicles to their uses",
+        "Public vs. private transportation",
+        "Parts of vehicles",
+        "Following routes or paths"
+      ],
+      "visual_guidelines": {
+        "style": "Colorful, friendly vehicle designs",
+        "colors": "Bright, recognizable vehicle colors",
+        "size": "Clear, distinct vehicle types",
+        "avoid": "Vehicle crashes or accidents, scary vehicles"
+      },
+      "cultural_considerations": [
+        "Show diverse transportation modes (not just cars)",
+        "Include walking, biking, public transit",
+        "Represent transportation from various regions",
+        "Be mindful that not all families have cars",
+        "Include accessibility vehicles (wheelchair-accessible buses, etc.)"
+      ],
+      "sample_assets": [
+        "car, bus, school bus, train, subway",
+        "bicycle, scooter, skateboard",
+        "airplane, helicopter, hot air balloon",
+        "boat, ship, ferry",
+        "walking, running icons",
+        "road, track, sky, water",
+        "traffic signs, traffic light"
+      ]
+    },
+    "toys_play": {
+      "name": "Toys & Play",
+      "description": "Toys, games, playground activities, play materials",
+      "engagement_level": {
+        "kindergarten": "very_high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (game rules, play sequences)",
+        "T03 - Decomposition (parts of games, toy categories)",
+        "T04 - Patterns (game patterns, toy patterns)",
+        "T14 - Games (game design basics)",
+        "T25 - Data Representation (sorting toys)"
+      ],
+      "example_contexts": [
+        "Following game rules in sequence",
+        "Sorting toys by type",
+        "Playground equipment and taking turns",
+        "Building with blocks (patterns, sequences)",
+        "Board game steps",
+        "Clean-up routines",
+        "Sharing and turn-taking",
+        "Types of play activities"
+      ],
+      "visual_guidelines": {
+        "style": "Bright, playful toy illustrations",
+        "colors": "Primary colors, cheerful palette",
+        "size": "Large, recognizable toys",
+        "avoid": "Expensive or branded toys, weapons, gender-stereotyped toys"
+      },
+      "cultural_considerations": [
+        "Show diverse types of toys and games from various cultures",
+        "Include traditional games from different regions",
+        "Avoid gender stereotypes (boys/girls toys)",
+        "Show toys at various price points",
+        "Include imaginative play, outdoor play, creative play"
+      ],
+      "sample_assets": [
+        "blocks, puzzle, ball, doll, stuffed animal",
+        "crayons, paint, clay, crafts",
+        "slide, swing, climbing structure",
+        "board game, cards, dice",
+        "jump rope, hula hoop, bubbles",
+        "books, music, pretend play items"
+      ]
+    },
+    "community_helpers": {
+      "name": "Community Helpers",
+      "description": "People in the community, jobs, helpers, community places",
+      "engagement_level": {
+        "kindergarten": "high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (job procedures, community routines)",
+        "T03 - Decomposition (job tasks, community services)",
+        "T25 - Data Representation (matching helpers to tools)",
+        "T30 - Hardware (tools and technology helpers use)",
+        "T34 - History of Computing (technology in different jobs)",
+        "T36 - Ethics & Careers (computing careers)"
+      ],
+      "example_contexts": [
+        "Matching community helpers to their tools",
+        "Where we go in the community (library, store, etc.)",
+        "What different helpers do",
+        "Safety helpers (firefighters, police, crossing guards)",
+        "Community places and their purposes",
+        "How helpers use technology",
+        "Helping at home and school"
+      ],
+      "visual_guidelines": {
+        "style": "Diverse, friendly representations of community members",
+        "colors": "Realistic but bright colors",
+        "size": "Clear, identifiable people and tools",
+        "avoid": "Stereotypes, limited diversity, scary representations"
+      },
+      "cultural_considerations": [
+        "Show racial, ethnic, and gender diversity in all roles",
+        "Include people with disabilities in helper roles",
+        "Represent various cultural community structures",
+        "Show variety of community places (urban, suburban, rural)",
+        "Include diverse family-owned businesses",
+        "Be mindful of differing relationships with authority figures across cultures"
+      ],
+      "sample_assets": [
+        "teacher, doctor, nurse, dentist",
+        "firefighter, police officer, crossing guard",
+        "mail carrier, sanitation worker, bus driver",
+        "librarian, store clerk, farmer",
+        "community buildings (library, fire station, hospital, store, school)",
+        "tools: stethoscope, fire hose, books, mail, etc."
+      ]
+    },
+    "seasons_holidays": {
+      "name": "Seasons & Holidays",
+      "description": "Seasonal activities, celebrations, holidays, special events",
+      "engagement_level": {
+        "kindergarten": "high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T01 - Everyday Algorithms (holiday preparations, seasonal activities)",
+        "T04 - Patterns (seasonal cycles, calendar patterns)",
+        "T07 - Loops (yearly cycles)",
+        "T25 - Data Representation (seasonal sorting)",
+        "T26 - Data Collection (tracking seasonal changes)"
+      ],
+      "example_contexts": [
+        "Seasonal clothing choices",
+        "Activities by season",
+        "Preparing for holidays or celebrations",
+        "Seasonal weather patterns",
+        "Calendar and time patterns",
+        "Seasonal foods",
+        "Seasonal nature changes"
+      ],
+      "visual_guidelines": {
+        "style": "Festive but inclusive seasonal imagery",
+        "colors": "Season-appropriate color palettes",
+        "size": "Clear seasonal indicators",
+        "avoid": "Religious specificity, commercial holiday focus"
+      },
+      "cultural_considerations": [
+        "Include diverse cultural celebrations",
+        "Focus on secular seasonal changes when possible",
+        "Acknowledge not all students celebrate the same holidays",
+        "Include celebrations from various cultures",
+        "Be mindful of varying family traditions",
+        "Consider families who don't celebrate certain holidays"
+      ],
+      "sample_assets": [
+        "seasonal trees (blooming, full, falling leaves, bare)",
+        "seasonal weather (spring rain, summer sun, fall leaves, winter snow)",
+        "seasonal activities (planting, swimming, raking, sledding)",
+        "seasonal clothing",
+        "generic celebration imagery (balloons, decorations, gathering)",
+        "calendar, clock, sun positions"
+      ]
+    },
+    "colors_shapes": {
+      "name": "Colors & Shapes",
+      "description": "Basic geometric shapes, colors, patterns, spatial relationships",
+      "engagement_level": {
+        "kindergarten": "very_high",
+        "grade_1": "high",
+        "grade_2": "medium"
+      },
+      "appropriate_topics": [
+        "T04 - Patterns (shape and color patterns)",
+        "T08 - Conditionals & Logic (sorting by attributes)",
+        "T20 - Algorithmic Art (shape-based art)",
+        "T25 - Data Representation (categorizing by color/shape)",
+        "T27 - Data Analysis (counting and grouping shapes)"
+      ],
+      "example_contexts": [
+        "Color identification and sorting",
+        "Shape recognition and matching",
+        "Creating and continuing patterns",
+        "Sorting by multiple attributes (color AND shape)",
+        "Finding shapes in the environment",
+        "Spatial relationships (inside, outside, next to)",
+        "Simple geometric art",
+        "Matching shapes to real objects"
+      ],
+      "visual_guidelines": {
+        "style": "Clean, simple geometric shapes",
+        "colors": "Primary and secondary colors, high contrast",
+        "size": "Large, clear shapes",
+        "avoid": "Complex or ambiguous shapes, muddy colors"
+      },
+      "cultural_considerations": [
+        "Shapes are generally universal",
+        "Be aware of color symbolism in different cultures",
+        "Include shapes in cultural patterns and art",
+        "Use colors accessibly (consider color blindness)"
+      ],
+      "sample_assets": [
+        "circle, square, triangle, rectangle, oval, diamond, star, heart",
+        "red, blue, yellow, green, orange, purple, pink, brown, black, white",
+        "pattern sequences",
+        "shape outlines and filled shapes",
+        "size variations (big, small, medium)",
+        "3D shapes (sphere, cube, cylinder, cone)"
+      ]
+    },
+    "technology_devices": {
+      "name": "Technology & Devices",
+      "description": "Computing devices, digital tools, technology in daily life",
+      "engagement_level": {
+        "kindergarten": "high",
+        "grade_1": "very_high",
+        "grade_2": "very_high"
+      },
+      "appropriate_topics": [
+        "T30 - Hardware (identifying devices and parts)",
+        "T31 - Internet & Cloud (connected devices)",
+        "T32 - Cybersecurity (safe device use)",
+        "T33 - Platforms & APIs (different devices and platforms)",
+        "T35 - Impacts (technology in our lives)",
+        "T36 - Ethics & Careers (technology jobs)"
+      ],
+      "example_contexts": [
+        "Identifying computing devices",
+        "Input and output devices",
+        "Parts of a computer",
+        "Where we see technology",
+        "Safe and responsible device use",
+        "How devices help us",
+        "Digital citizenship basics",
+        "Caring for technology"
+      ],
+      "visual_guidelines": {
+        "style": "Modern but not overly specific device models",
+        "colors": "Tech-appropriate colors (varied, realistic)",
+        "size": "Clear, recognizable devices",
+        "avoid": "Specific brands, outdated technology, very expensive devices only"
+      },
+      "cultural_considerations": [
+        "Show variety of devices (not just latest/most expensive)",
+        "Include assistive technology",
+        "Show technology in diverse settings",
+        "Be aware not all students have access to same technology",
+        "Include communal/shared technology (library computers, etc.)",
+        "Show technology used in various cultural contexts"
+      ],
+      "sample_assets": [
+        "desktop computer, laptop, tablet, smartphone",
+        "keyboard, mouse, monitor, speakers, headphones",
+        "printer, scanner, camera",
+        "TV, game console, smart speaker",
+        "parts: screen, keys, buttons, cable, plug",
+        "icons: wifi, power, volume, home button",
+        "various uses: learning, communicating, creating, playing"
+      ]
+    }
+  },
+  "theme_selection_guidelines": {
+    "best_practices": [
+      "Match theme to learning objective (use relevant, meaningful contexts)",
+      "Consider student interest and engagement levels",
+      "Rotate themes to maintain variety and engagement",
+      "Use familiar contexts before introducing unfamiliar ones",
+      "Ensure themes are culturally responsive and inclusive",
+      "Choose themes that work well visually (clear, distinct images)",
+      "Consider prerequisite knowledge (do students know these items?)"
+    ],
+    "accessibility_considerations": [
+      "High contrast between items and background",
+      "Clear, uncluttered visuals",
+      "Distinct shapes and outlines (not just color differences)",
+      "Large, easy-to-recognize imagery",
+      "Screen-reader friendly alt text",
+      "Support for color blindness",
+      "Audio descriptions available"
+    ],
+    "age_appropriateness_by_grade": {
+      "kindergarten": {
+        "preferred_themes": [
+          "animals_pets",
+          "colors_shapes",
+          "food_cooking",
+          "home_family",
+          "toys_play"
+        ],
+        "rationale": "Most familiar, concrete, daily experiences"
+      },
+      "grade_1": {
+        "preferred_themes": [
+          "school_classroom",
+          "animals_pets",
+          "community_helpers",
+          "transportation",
+          "technology_devices"
+        ],
+        "rationale": "Expanding world beyond home, more school focus"
+      },
+      "grade_2": {
+        "preferred_themes": [
+          "technology_devices",
+          "nature_weather",
+          "community_helpers",
+          "transportation",
+          "school_classroom"
+        ],
+        "rationale": "More abstract thinking, broader community awareness, technology comfort"
+      }
+    },
+    "theme_pairing_suggestions": {
+      "description": "Some skills work well with multiple theme options",
+      "examples": [
+        {
+          "skill_type": "sequencing",
+          "theme_options": [
+            "animals_pets (pet care routine)",
+            "home_family (morning routine)",
+            "food_cooking (recipe steps)"
+          ]
+        },
+        {
+          "skill_type": "sorting",
+          "theme_options": [
+            "colors_shapes (sort by color)",
+            "food_cooking (food groups)",
+            "transportation (by land/water/air)",
+            "technology_devices (input/output)"
+          ]
+        },
+        {
+          "skill_type": "patterns",
+          "theme_options": [
+            "colors_shapes (color/shape patterns)",
+            "nature_weather (seasonal patterns)",
+            "toys_play (block patterns)"
+          ]
+        }
+      ]
+    }
+  },
+  "asset_specification": {
+    "image_requirements": {
+      "format": "PNG or SVG preferred",
+      "resolution": "Minimum 150x150px for small items, 300x300px for featured items",
+      "background": "Transparent or white background",
+      "style": "Consistent illustration style across theme",
+      "detail_level": "Simple but recognizable, not overly detailed",
+      "edges": "Clear, defined edges for easy recognition"
+    },
+    "naming_convention": {
+      "format": "theme_item_variant.png",
+      "examples": [
+        "animals_puppy_sitting.png",
+        "food_apple_red.png",
+        "shapes_circle_blue.png"
+      ]
+    },
+    "alt_text_requirements": {
+      "format": "Brief, descriptive, functional",
+      "examples": [
+        "Red apple",
+        "Puppy sitting",
+        "Blue circle",
+        "Child brushing teeth"
+      ],
+      "guidelines": [
+        "Describe what's visible, not what it represents conceptually",
+        "Keep it brief (1-5 words for K-2)",
+        "Use student-friendly language",
+        "Include relevant colors, actions, expressions"
+      ]
+    }
+  }
+}

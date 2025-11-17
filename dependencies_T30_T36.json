@@ -1,0 +1,3187 @@
+[
+  {
+    "id": "T30.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students explain the purpose of common hardware components: display (shows information), keyboard (u",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students distinguish between devices or parts that let you control a computer (input: keyboard, mous",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students distinguish between hardware (the physical parts you can touch: computer box, keyboard, mou",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G1.04",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that programs (apps, games, scripts) run on devices (computers, tablets, robots)",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G2.01",
+    "dependencies": [
+      "T30.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students select and justify an appropriate software tool or app for a given task (e.g., \"I would use",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G2.02",
+    "dependencies": [
+      "T30.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn the basic I/O model: computers receive input (from keyboard, mouse, sensors), process",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G2.03",
+    "dependencies": [
+      "T30.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students identify simple sensors in their environment (motion sensor doors, light sensors controllin",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G2.04",
+    "dependencies": [
+      "T30.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01"
+    ],
+    "notes": "Students create or trace a simple CreatiCode project where a program (code) makes hardware (a sprite",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G3.01",
+    "dependencies": [
+      "T30.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students explain that hardware provides physical components for input (keyboard receives a keystroke",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G3.02",
+    "dependencies": [
+      "T30.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students identify sensors in devices they use (camera, microphone, accelerometer, touch sensor, temp",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G3.03",
+    "dependencies": [
+      "T30.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students apply basic troubleshooting steps (checking connections, restarting, trying again) to solve",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G3.04",
+    "dependencies": [
+      "T30.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students create a CreatiCode project where they simulate a sensor (e.g., a \"motion sensor\" sprite th",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G4.01",
+    "dependencies": [
+      "T30.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students describe real examples of sensors embedded in devices they encounter: motion sensor lights,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G4.02",
+    "dependencies": [
+      "T30.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students design a CreatiCode project that simulates a sensor-based system (e.g., a light-activated r",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G4.03",
+    "dependencies": [
+      "T30.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01"
+    ],
+    "notes": "Students understand that sensors generate data (measurements, yes/no readings, positions) that progr",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G4.04",
+    "dependencies": [
+      "T30.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01"
+    ],
+    "notes": "Students identify why a sensor-based system might fail (sensor disconnected, sensor blocked, softwar",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G5.01",
+    "dependencies": [
+      "T30.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students learn and practice systematic troubleshooting: checking connections, verifying power, resta",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G5.02",
+    "dependencies": [
+      "T30.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students create a CreatiCode project that collects data from simulated sensors (e.g., counting how m",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G5.03",
+    "dependencies": [
+      "T30.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T06.G2.01",
+      "T33.G4.01"
+    ],
+    "notes": "Students understand that embedded systems (robots, smart watches, microcontrollers) run software (fi",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G5.04",
+    "dependencies": [
+      "T30.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students design a more complex CreatiCode system combining multiple sensors, conditional logic, and ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G6.01",
+    "dependencies": [
+      "T30.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T33.G4.01"
+    ],
+    "notes": "Students understand that data and programs are stored in files and folders on hardware (hard drives,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G6.02",
+    "dependencies": [
+      "T30.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T33.G4.01"
+    ],
+    "notes": "Students distinguish between software that runs locally on a device (offline, stored locally) and we",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G6.03",
+    "dependencies": [
+      "T30.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students apply systematic troubleshooting to determine whether a problem is hardware (device broken,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G6.04",
+    "dependencies": [
+      "T30.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students create a CreatiCode project that simulates an embedded device (robot, smart home controller",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G7.01",
+    "dependencies": [
+      "T30.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T33.G4.01"
+    ],
+    "notes": "Students understand that an operating system (Windows, macOS, iOS, Android, Linux) is software that ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G7.02",
+    "dependencies": [
+      "T30.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students apply multi-step troubleshooting to diagnose and resolve complex issues that may involve ha",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G7.03",
+    "dependencies": [
+      "T30.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T06.G2.01",
+      "T33.G4.01"
+    ],
+    "notes": "Students understand how hardware specifications (CPU speed, RAM, storage size, screen resolution) af",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G7.04",
+    "dependencies": [
+      "T30.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01"
+    ],
+    "notes": "Students design a CreatiCode simulation of a more complex system (e.g., a home automation system wit",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T30.G8.01",
+    "dependencies": [
+      "T30.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students research and describe computing devices used in various industries (robots in manufacturing",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T30.G8.02",
+    "dependencies": [
+      "T30.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students understand that software is developed, tested, packaged, and distributed to devices (app st",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T30.G8.03",
+    "dependencies": [
+      "T30.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T33.G4.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students apply advanced troubleshooting: checking system logs, managing startup programs, diagnosing",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T30.G8.04",
+    "dependencies": [
+      "T30.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T33.G4.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students design and implement a comprehensive CreatiCode simulation that represents a complete syste",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T31.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that a message sent online has a destination (a person, device, or place), and t",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn that they can save projects or files \"in the cloud\" (on the internet) instead of only",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize that in multiplayer games, their actions appear on a friend's screen and vice ver",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G2.01",
+    "dependencies": [
+      "T31.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01"
+    ],
+    "notes": "Students learn that long messages (like a video or email) are broken into smaller pieces called pack",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G2.02",
+    "dependencies": [
+      "T31.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that the internet is made up of connected devices (computers, routers, servers) ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G2.03",
+    "dependencies": [
+      "T31.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn that the internet uses a client-server model: your device (the client) asks for infor",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G2.04",
+    "dependencies": [
+      "T31.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students create a simple variable in CreatiCode and use a cloud block to save it online. They learn ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G3.01",
+    "dependencies": [
+      "T31.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students distinguish between apps installed on their device (local apps) and web apps (apps that run",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G3.02",
+    "dependencies": [
+      "T31.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that passwords protect their personal accounts and data. They learn basic passwo",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G3.03",
+    "dependencies": [
+      "T31.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T19.G2.01"
+    ],
+    "notes": "Students use CreatiCode's multiplayer blocks to create a game room that another player can join. The",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G3.04",
+    "dependencies": [
+      "T31.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01"
+    ],
+    "notes": "Students follow a simple path of how a message travels from one device to another through the intern",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G4.01",
+    "dependencies": [
+      "T31.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T19.G2.01"
+    ],
+    "notes": "Students understand that in multiplayer games, the game needs to send each player's position or acti",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G4.02",
+    "dependencies": [
+      "T31.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T19.G2.01"
+    ],
+    "notes": "Students use CreatiCode's join-game block to connect to an existing multiplayer game by providing th",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G4.03",
+    "dependencies": [
+      "T31.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T19.G2.01"
+    ],
+    "notes": "Students use a broadcast block in CreatiCode multiplayer to send a message that all players in the g",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G4.04",
+    "dependencies": [
+      "T31.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students compare saving data locally (on their device) vs in the cloud (online). They recognize trad",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G5.01",
+    "dependencies": [
+      "T31.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T19.G2.01"
+    ],
+    "notes": "Students design a simple turn-based multiplayer game (e.g., tic-tac-toe, rock-paper-scissors) where ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G5.02",
+    "dependencies": [
+      "T31.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T19.G2.01"
+    ],
+    "notes": "Students recognize that messages over the network take time to travel (latency). In a multiplayer ga",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G5.03",
+    "dependencies": [
+      "T31.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students use CreatiCode cloud blocks to save complex data (scores, game state, user preferences) so ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G5.04",
+    "dependencies": [
+      "T31.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students choose a familiar website (e.g., YouTube, Google Docs, a game portal) and diagram its clien",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G6.01",
+    "dependencies": [
+      "T31.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students trace the steps of a typical HTTP or HTTPS request: client sends a request to a server, ser",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G6.02",
+    "dependencies": [
+      "T31.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students use CreatiCode cloud variables to store player scores in a shared leaderboard. Multiple pla",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G6.03",
+    "dependencies": [
+      "T31.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T19.G2.01"
+    ],
+    "notes": "Students analyze how network delays (latency) affect multiplayer games. A player's action might appe",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G6.04",
+    "dependencies": [
+      "T31.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize that cloud data can be accessed by others if not protected. They evaluate privacy",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G7.01",
+    "dependencies": [
+      "T31.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T19.G2.01"
+    ],
+    "notes": "Students understand that a multiplayer game uses a central server that receives data from all player",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G7.02",
+    "dependencies": [
+      "T31.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T19.G2.01"
+    ],
+    "notes": "Students design a simple protocol (message format) for multiplayer games, specifying what data gets ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G7.03",
+    "dependencies": [
+      "T31.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T19.G2.01"
+    ],
+    "notes": "Students compare different network topologies (star, mesh, peer-to-peer) for multiplayer games. They",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G7.04",
+    "dependencies": [
+      "T31.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T19.G2.01",
+      "T25.G6.02"
+    ],
+    "notes": "Students research and analyze how networked systems (the internet, social media, multiplayer games, ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T31.G8.01",
+    "dependencies": [
+      "T31.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G1.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students learn about the TCP/IP protocol: how data is split into packets, assigned IP addresses, and",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T31.G8.02",
+    "dependencies": [
+      "T31.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T19.G2.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students recognize that multiplayer games can be attacked or cheated (e.g., someone spoofing another",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T31.G8.03",
+    "dependencies": [
+      "T31.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T35.G8.01"
+    ],
+    "notes": "Students understand that sensitive data (passwords, personal info) should be encrypted before sendin",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": true
+  },
+  {
+    "id": "T31.G8.04",
+    "dependencies": [
+      "T31.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T35.G8.01"
+    ],
+    "notes": "Students learn that the internet is designed with redundancy: multiple paths for data, backup server",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": true
+  },
+  {
+    "id": "T32.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn that certain information (full name, address, school, phone number, birthday, photos)",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students distinguish between people they know in real life and strangers online, and understand that",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students understand that passwords prevent others from accessing their accounts and that they should",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G1.04",
+    "dependencies": [],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students see simplified examples of scams (e.g., \"You won a prize! Click here!\" or \"Enter your passw",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G2.01",
+    "dependencies": [
+      "T32.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G2.01",
+      "T09.G2.01"
+    ],
+    "notes": "Students list or order steps for keeping information safe online (e.g., use a strong password, don't",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G2.02",
+    "dependencies": [
+      "T32.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students create a password using a mix of uppercase, lowercase, and numbers (e.g., \"Tiger42Blue\"). T",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G2.03",
+    "dependencies": [
+      "T32.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students see examples of phishing emails or fake login screens and identify them as \"fake\" or \"suspi",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G2.04",
+    "dependencies": [
+      "T32.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students distinguish between safe and unsafe things to share online (e.g., safe: hobby interests, sc",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G3.01",
+    "dependencies": [
+      "T32.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students learn that authentication (proving you are you via password) prevents unauthorized access, ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G3.02",
+    "dependencies": [
+      "T32.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize common scam patterns: fake prizes or contests, urgent language (\"Act now!\"), requ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G3.03",
+    "dependencies": [
+      "T32.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that logging out prevents others from accessing an account if they use the same ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G3.04",
+    "dependencies": [
+      "T32.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn that what they post, comment, or create online stays and can be seen by others. They ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G4.01",
+    "dependencies": [
+      "T32.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students apply basic encryption (e.g., Caesar cipher, simple substitution) to understand that encryp",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G4.02",
+    "dependencies": [
+      "T32.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students understand that devices (phones, tablets, laptops) should be locked with passwords, PINs, o",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G4.03",
+    "dependencies": [
+      "T32.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students locate and adjust privacy settings in a simple app or platform (e.g., making a profile priv",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G4.04",
+    "dependencies": [
+      "T32.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize signs of malware or adware (unexpected pop\u2011ups, slow performance, strange toolbar",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G5.01",
+    "dependencies": [
+      "T32.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students learn that multi\u2011factor authentication (MFA) requires more than just a password (e.g., pass",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G5.02",
+    "dependencies": [
+      "T32.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn to review login history, connected devices, or recent activity in accounts to detect ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G5.03",
+    "dependencies": [
+      "T32.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students create longer, more complex passwords (e.g., with symbols, mixed case, numbers) and learn s",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G5.04",
+    "dependencies": [
+      "T32.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T31.G2.01"
+    ],
+    "notes": "Students examine a website or app for trust indicators (HTTPS, privacy policy, \"Contact Us\" page, re",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G6.01",
+    "dependencies": [
+      "T32.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn to categorize common attacks: phishing, malware, ransomware, DDoS, social engineering",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G6.02",
+    "dependencies": [
+      "T32.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students identify social engineering tactics: impersonation, pretexting, baiting, tailgating. They u",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G6.03",
+    "dependencies": [
+      "T32.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T09.G2.01"
+    ],
+    "notes": "Students analyze a scenario or system description to identify potential vulnerabilities (e.g., weak ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G6.04",
+    "dependencies": [
+      "T32.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01",
+      "T31.G2.01"
+    ],
+    "notes": "Students compare different security approaches (e.g., strong password vs. biometrics, frequent login",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G6.05",
+    "dependencies": [
+      "T32.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students understand that a data breach exposes personal or sensitive information, and can lead to id",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G7.01",
+    "dependencies": [
+      "T32.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T09.G2.01",
+      "T31.G2.01"
+    ],
+    "notes": "Students understand that security requires multiple layers: network firewalls, device passwords, mul",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G7.02",
+    "dependencies": [
+      "T32.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students learn incident response steps: stop using the account, change passwords, check account acti",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G7.03",
+    "dependencies": [
+      "T32.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T31.G2.01"
+    ],
+    "notes": "Students analyze how interface design, default settings, or feature choices affect security and user",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G7.04",
+    "dependencies": [
+      "T32.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "Students review simple code or system descriptions and identify insecure practices (e.g., storing pa",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T32.G8.01",
+    "dependencies": [
+      "T32.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T31.G2.01",
+      "T35.G8.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students examine documented cybersecurity incidents (e.g., major data breaches, ransomware attacks) ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T32.G8.02",
+    "dependencies": [
+      "T32.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T35.G8.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students critically examine when and with whom to share data, considering company policies, their ow",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T32.G8.03",
+    "dependencies": [
+      "T32.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T35.G8.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students understand that encryption protects data both when stored (at rest) and when transmitted (i",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T32.G8.04",
+    "dependencies": [
+      "T32.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T31.G2.01",
+      "T35.G8.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students comprehensively evaluate a technology (app, website, platform, device) for security feature",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T32.G8.05",
+    "dependencies": [
+      "T32.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T31.G2.01",
+      "T35.G8.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students reflect on ethical questions: Is monitoring employees ethical? Is encryption that prevents ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T33.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that the apps, websites, and games they use were created by people or teams at c",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students discuss or list both positive effects (e.g., \"I can talk to friends\") and negative effects ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize that some tools work on a device without connection (e.g., drawing offline) while",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G2.01",
+    "dependencies": [
+      "T33.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01"
+    ],
+    "notes": "Students learn that an \"app\" is software installed on a device that does specific things, while a \"w",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G2.02",
+    "dependencies": [
+      "T33.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01"
+    ],
+    "notes": "Students learn that when they use apps or websites, the tool (or the company behind it) collects som",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G2.03",
+    "dependencies": [
+      "T33.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01"
+    ],
+    "notes": "Students practice or describe using a username and password to log into a simple tool or website (e.",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G3.01",
+    "dependencies": [
+      "T33.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T06.G3.01"
+    ],
+    "notes": "Students learn that CreatiCode is an online platform\u2014a place where they can create, code, and share ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G3.02",
+    "dependencies": [
+      "T33.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students use a ChatGPT block in CreatiCode to send a text request to OpenAI's AI and get a response ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G3.03",
+    "dependencies": [
+      "T33.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students learn that CreatiCode projects that use AI, speech, or the internet might not work if the i",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G4.01",
+    "dependencies": [
+      "T33.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students use CreatiCode's speech recognition blocks to record their voice and convert it to text wit",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G4.02",
+    "dependencies": [
+      "T33.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students use CreatiCode's AI Speaker block to convert text to spoken audio. They can choose language",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G4.03",
+    "dependencies": [
+      "T33.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students use CreatiCode's AI image library to search for backdrop and sprite images. They learn that",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G4.04",
+    "dependencies": [
+      "T33.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T06.G3.01"
+    ],
+    "notes": "Students learn, at a high level, that some external services (like ChatGPT or Google Translate) need",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G5.01",
+    "dependencies": [
+      "T33.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students use CreatiCode's cloud variable blocks to store data (like a player's name or high score) o",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G5.02",
+    "dependencies": [
+      "T33.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students use a translation block (or Google Translate integration) to convert text from one language",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G5.03",
+    "dependencies": [
+      "T33.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students trace or diagram how data moves when using external services. For example: \"I ask the AI a ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G5.04",
+    "dependencies": [
+      "T33.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students list or discuss advantages (e.g., \"I can add voice without building it myself\") and disadva",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G6.01",
+    "dependencies": [
+      "T33.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students examine a CreatiCode project that uses external services (like ChatGPT or speech recognitio",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G6.02",
+    "dependencies": [
+      "T33.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T06.G3.01"
+    ],
+    "notes": "Students learn that when a CreatiCode project uses external services, some of their data (like typed",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G6.03",
+    "dependencies": [
+      "T33.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01"
+    ],
+    "notes": "Students use CreatiCode's multiplayer blocks to create a simple networked game where two players' ac",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G6.04",
+    "dependencies": [
+      "T33.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G6.01"
+    ],
+    "notes": "Students learn that API calls can fail (no internet, service down, invalid request). They design or ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G7.01",
+    "dependencies": [
+      "T33.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T11.G5.01",
+      "T22.G5.01",
+      "T23.G5.01"
+    ],
+    "notes": "Students compare cloud variables in CreatiCode with other ways to save data online (e.g., Google Dri",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G7.02",
+    "dependencies": [
+      "T33.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T22.G5.01",
+      "T23.G5.01"
+    ],
+    "notes": "Given a more complex CreatiCode project that uses multiple external services (e.g., ChatGPT, speech,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G7.03",
+    "dependencies": [
+      "T33.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G5.01",
+      "T23.G5.01"
+    ],
+    "notes": "Students learn that AI services (like ChatGPT, translation, or image generation) can have biases. Fo",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G7.04",
+    "dependencies": [
+      "T33.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T06.G6.01",
+      "T22.G5.01",
+      "T23.G5.01"
+    ],
+    "notes": "Students design or modify a CreatiCode project to work as much as possible even when the internet is",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": false
+  },
+  {
+    "id": "T33.G8.01",
+    "dependencies": [
+      "T33.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G3.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students learn that platforms like CreatiCode, YouTube, or ChatGPT have business models: some are fr",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T33.G8.02",
+    "dependencies": [
+      "T33.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T22.G5.01",
+      "T23.G5.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students learn that cloud services (where data and computations happen on distant servers) require s",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T33.G8.03",
+    "dependencies": [
+      "T33.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G2.01",
+      "T06.G6.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students recognize that access to platforms and APIs is not universal\u2014students in low-income areas, ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T33.G8.04",
+    "dependencies": [
+      "T33.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G5.01",
+      "T23.G5.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students design a new project concept that uses external services (AI, cloud data, multiplayer) and ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T34.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn that people from many different cultures, countries, and backgrounds helped create an",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students compare life before and after a specific computing technology was invented (before/after ca",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn and recall the names of some famous inventors or pioneers in computing (e.g., Steve J",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G1.04",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students think about a real problem they face (finding their toys, organizing their schedule, playin",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G2.01",
+    "dependencies": [
+      "T34.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students examine a specific computing innovation (computers in schools, smartphones, the internet, v",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G2.02",
+    "dependencies": [
+      "T34.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students are shown a computing technology or tool and explain what tasks or goals it helps people ac",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G2.03",
+    "dependencies": [
+      "T34.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students begin to think about both positive and negative impacts of a technology. For example, smart",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G2.04",
+    "dependencies": [
+      "T34.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students are given 3\u20135 key events or milestones in the history of a computing technology (e.g., firs",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G3.01",
+    "dependencies": [
+      "T34.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students research and describe how a computing technology or innovation has affected their local com",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G3.02",
+    "dependencies": [
+      "T34.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students examine historical examples where computing innovations were created to solve specific prob",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G3.03",
+    "dependencies": [
+      "T34.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students research or are shown what computing looked like decades ago (room-sized computers, punch c",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G3.04",
+    "dependencies": [
+      "T34.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students identify a real problem they or their community faces and design or sketch a computing solu",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G4.01",
+    "dependencies": [
+      "T34.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students research and create a detailed timeline showing how one technology evolved (e.g., cell phon",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G4.02",
+    "dependencies": [
+      "T34.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn about computing pioneers from diverse cultures, genders, ethnicities, and regions (Ad",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G4.03",
+    "dependencies": [
+      "T34.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students investigate a computing technology and articulate both positive impacts (e.g., social media",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G4.04",
+    "dependencies": [
+      "T34.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G3.01"
+    ],
+    "notes": "Students explore how a computing innovation, while solving one problem, sometimes created new challe",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G5.01",
+    "dependencies": [
+      "T34.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01"
+    ],
+    "notes": "Students examine a major computing innovation (the transistor, the microprocessor, the graphical use",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G5.02",
+    "dependencies": [
+      "T34.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01"
+    ],
+    "notes": "Students examine why certain computing technologies became obsolete (floppy disks, dial-up internet,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G5.03",
+    "dependencies": [
+      "T34.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01"
+    ],
+    "notes": "Students research and present on multiple computing pioneers, deliberately including women, people o",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G5.04",
+    "dependencies": [
+      "T34.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01"
+    ],
+    "notes": "Students examine how computing technologies have been developed to address large societal or environ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G6.01",
+    "dependencies": [
+      "T34.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G3.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students examine specific historical or social challenges that motivated computing innovations. For ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G6.02",
+    "dependencies": [
+      "T34.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students investigate how computing progress involved multiple actors: mathematicians and logicians d",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G6.03",
+    "dependencies": [
+      "T34.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students analyze a historical computing technology for its intended benefits and unintended harms (e",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G6.04",
+    "dependencies": [
+      "T34.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students trace a computing practice from history to a present-day ethical concern. For example, earl",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G7.01",
+    "dependencies": [
+      "T34.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students learn and distinguish major eras in computing history: mechanical computing (abacus, Babbag",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G7.02",
+    "dependencies": [
+      "T34.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students research and report on multiple notable computing figures from diverse backgrounds and eras",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G7.03",
+    "dependencies": [
+      "T34.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students compare two or more historical computing innovations (e.g., transistor vs integrated circui",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G7.04",
+    "dependencies": [
+      "T34.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01"
+    ],
+    "notes": "Students examine how computing technology expansion has affected the environment (e-waste, energy co",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T34.G8.01",
+    "dependencies": [
+      "T34.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students examine policies and legislation that have shaped computing development and use: intellectu",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T34.G8.02",
+    "dependencies": [
+      "T34.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students analyze historical patterns showing how computing benefits and access have been distributed",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T34.G8.03",
+    "dependencies": [
+      "T34.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G3.01",
+      "T05.G6.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students research and analyze multiple computing innovations developed in response to specific socie",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T34.G8.04",
+    "dependencies": [
+      "T34.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T01.G5.01",
+      "T05.G6.01",
+      "T35.G8.01"
+    ],
+    "notes": "Students examine current trends in computing (AI, quantum computing, biotechnology integration, inte",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T35.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students name both positive effects (e.g., learning, talking to friends) and negative effects (e.g.,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students hypothesize or discuss consequences of spending too much screen time on a game (e.g., missi",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students understand that every game or app they enjoy was designed and built by people (game makers,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G1.04",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students practice making reasonable choices about when to use a device (e.g., homework time, quiet t",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G2.01",
+    "dependencies": [
+      "T35.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students compare how people did a task before a computing technology existed and how they do it now,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G2.02",
+    "dependencies": [
+      "T35.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students propose ways that a new or existing technology could solve a real problem in their school o",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G2.03",
+    "dependencies": [
+      "T35.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize that a technology made to help can also cause problems that were not originally i",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G2.04",
+    "dependencies": [
+      "T35.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize that different groups of people (families, communities, regions) may use technolo",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G3.01",
+    "dependencies": [
+      "T35.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students evaluate whether using a particular technology suits their current needs and the likely con",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G3.02",
+    "dependencies": [
+      "T35.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students systematically list what a technology was intended to do and what unintended side effects i",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G3.03",
+    "dependencies": [
+      "T35.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students identify examples of AI or \"smart\" technologies in their lives (e.g., a voice assistant tha",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G3.04",
+    "dependencies": [
+      "T35.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students think about the reasons people adopt or use new technologies (e.g., saving time, solving a ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G4.01",
+    "dependencies": [
+      "T35.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students research or trace how a specific technology (e.g., phones, cameras, games, search engines) ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G4.02",
+    "dependencies": [
+      "T35.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G3.01"
+    ],
+    "notes": "Students recognize that a single app, game, or device requires people from many fields: programmers,",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G4.03",
+    "dependencies": [
+      "T35.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students examine whether a technology, game, or app is fair and accessible to different groups (e.g.",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G4.04",
+    "dependencies": [
+      "T35.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students propose features or changes to an existing app or game to make it healthier or fairer (e.g.",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G5.01",
+    "dependencies": [
+      "T35.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students investigate research or personal observations about how extended screen use affects attenti",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G5.02",
+    "dependencies": [
+      "T35.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T14.G5.01"
+    ],
+    "notes": "Students understand that AI systems in social media, recommendation apps, and search engines use alg",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G5.03",
+    "dependencies": [
+      "T35.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students learn that producing, transporting, and disposing of computing devices requires energy, mat",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G5.04",
+    "dependencies": [
+      "T35.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students set personal goals and create a plan for balanced technology use, considering school, homew",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G6.01",
+    "dependencies": [
+      "T35.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01"
+    ],
+    "notes": "Students contrast an emerging technology (e.g., AI chatbots, AR filters) with the older technology i",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G6.02",
+    "dependencies": [
+      "T35.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G3.01",
+      "T14.G5.01"
+    ],
+    "notes": "Students analyze how specific design decisions in a technology (e.g., interface color, game difficul",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G6.03",
+    "dependencies": [
+      "T35.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01"
+    ],
+    "notes": "Students research how a technology (e.g., spreadsheets, email, video conferencing, online shopping) ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G6.04",
+    "dependencies": [
+      "T35.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G3.01",
+      "T21.G6.01"
+    ],
+    "notes": "Students recognize that emerging technologies depend on knowledge from multiple fields (e.g., biolog",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G7.01",
+    "dependencies": [
+      "T35.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G3.01",
+      "T21.G6.01"
+    ],
+    "notes": "Students examine how a single technology can create ripple effects across society (e.g., smartphones",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G7.02",
+    "dependencies": [
+      "T35.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T14.G5.01",
+      "T21.G6.01"
+    ],
+    "notes": "Students research or analyze whether access to and benefits from a technology (e.g., broadband, AI t",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G7.03",
+    "dependencies": [
+      "T35.G6.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students trace the full environmental lifecycle of a computing device: extraction of materials, manu",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G7.04",
+    "dependencies": [
+      "T35.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G3.01",
+      "T14.G5.01"
+    ],
+    "notes": "Students propose a new technology (or improve an existing one) to solve a real problem while conside",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T35.G8.01",
+    "dependencies": [
+      "T35.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students evaluate a specific emerging technology (e.g., facial recognition, autonomous vehicles, AI ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": true
+  },
+  {
+    "id": "T35.G8.02",
+    "dependencies": [
+      "T35.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T28.G7.03",
+      "T36.G8.01"
+    ],
+    "notes": "Students examine how governments and organizations regulate or should regulate emerging technologies",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T35.G8.03",
+    "dependencies": [
+      "T35.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T14.G5.01",
+      "T21.G6.01",
+      "T36.G8.01"
+    ],
+    "notes": "Students investigate what personal data apps and websites collect about them (location, behavior, pr",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": true
+  },
+  {
+    "id": "T35.G8.04",
+    "dependencies": [
+      "T35.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T14.G5.01",
+      "T21.G6.01",
+      "T28.G7.03",
+      "T36.G8.01"
+    ],
+    "notes": "Students research an AI application (e.g., chatbots, image recognition, recommendation systems) and ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T36.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students name or recognize a variety of jobs and professions (scientists, teachers, artists, musicia",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students observe examples of a technology (smartphone, video game, social media, educational app) in",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G1.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students practice active listening when peers explain ideas\u2014making eye contact, waiting their turn, ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G1.04",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Students gain confidence in speaking their ideas and asking questions during group work, even if the",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G2.01",
+    "dependencies": [
+      "T36.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students observe a simple problem (kids lose toys, hard to find things, need to stay warm) and hypot",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G2.02",
+    "dependencies": [
+      "T36.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students practice strategies to include everyone in group work: asking quiet members for input, rota",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G2.03",
+    "dependencies": [
+      "T36.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G2.01"
+    ],
+    "notes": "Students prepare to share a completed CreatiCode project with peers or teachers, learning to explain",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G3.01",
+    "dependencies": [
+      "T36.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students analyze real or hypothetical scenarios where a person chooses whether to use a technology (",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G3.02",
+    "dependencies": [
+      "T36.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students recognize that a computer program (algorithm) can treat people differently or unfairly if n",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G3.03",
+    "dependencies": [
+      "T36.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G2.01"
+    ],
+    "notes": "Students add simple comments or descriptions to their CreatiCode projects so that someone else (a cl",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G3.04",
+    "dependencies": [
+      "T36.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students practice assigning roles in a group project (idea person, builder, tester, presenter) so th",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G4.01",
+    "dependencies": [
+      "T36.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students investigate how a technology (social media, educational software, automation, AI tool) was ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G4.02",
+    "dependencies": [
+      "T36.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T12.G4.01"
+    ],
+    "notes": "Students examine simple datasets or rules and spot patterns that might be unfair or biased. For exam",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G4.03",
+    "dependencies": [
+      "T36.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T12.G4.01"
+    ],
+    "notes": "Students create a presentation (using CreatiCode presentation tools, slides, or poster format) that ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G4.04",
+    "dependencies": [
+      "T36.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students reflect on a project they built or are planning: Does it include characters from different ",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G5.01",
+    "dependencies": [
+      "T36.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students analyze a real technology and articulate its limitations: what it can't do well, who it doe",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G5.02",
+    "dependencies": [
+      "T36.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students explore real examples where professionals from different fields (engineer, artist, biologis",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G5.03",
+    "dependencies": [
+      "T36.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T12.G4.01"
+    ],
+    "notes": "Students write or present an explanation of the major design decisions in a completed CreatiCode pro",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G5.04",
+    "dependencies": [
+      "T36.G4.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Students practice giving constructive criticism (\"I liked ___ because ___. A suggestion: ___\") and r",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G6.01",
+    "dependencies": [
+      "T36.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T22.G6.01"
+    ],
+    "notes": "Students examine real or realistic examples of bias in data-driven systems: hiring algorithms that d",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G6.02",
+    "dependencies": [
+      "T36.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T22.G6.01"
+    ],
+    "notes": "Students research professionals in various fields (medicine, environmental science, entertainment, b",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G6.03",
+    "dependencies": [
+      "T36.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T22.G6.01"
+    ],
+    "notes": "Students explore scenarios where computing professionals face ethical dilemmas: Should we collect th",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G6.04",
+    "dependencies": [
+      "T36.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T12.G4.01"
+    ],
+    "notes": "Students apply inclusive design principles to a project: considering users with different physical a",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G7.01",
+    "dependencies": [
+      "T36.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T22.G6.01"
+    ],
+    "notes": "Students examine a specific industry (agriculture, manufacturing, healthcare, entertainment) and tra",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G7.02",
+    "dependencies": [
+      "T36.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T21.G6.01",
+      "T22.G6.01"
+    ],
+    "notes": "Students select an emerging technology (AI, VR, IoT, blockchain, autonomous vehicles, facial recogni",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G7.03",
+    "dependencies": [
+      "T36.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T12.G4.01"
+    ],
+    "notes": "Students take on a leadership role in a multi-person, multi-week CreatiCode project. They practice p",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G7.04",
+    "dependencies": [
+      "T36.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G5.01",
+      "T21.G6.01",
+      "T22.G6.01"
+    ],
+    "notes": "Students reflect on two aspects: (1) Did our team work fairly\u2014did everyone contribute, were decision",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T36.G8.01",
+    "dependencies": [
+      "T36.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G8.01",
+      "T21.G6.01",
+      "T22.G6.01",
+      "T28.G8.04"
+    ],
+    "notes": "Students conduct a research project analyzing how a widely used technology (social media, smartphone",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T36.G8.02",
+    "dependencies": [
+      "T36.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G8.01",
+      "T21.G6.01",
+      "T22.G6.01",
+      "T28.G8.04"
+    ],
+    "notes": "Students deep-dive into a computing-related career of interest (game developer, data scientist, cybe",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T36.G8.03",
+    "dependencies": [
+      "T36.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G8.01",
+      "T12.G4.01",
+      "T28.G7.03",
+      "T28.G8.04",
+      "T35.G7.01"
+    ],
+    "notes": "Students identify a real problem or need (accessibility barrier, environmental challenge, educationa",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T36.G8.04",
+    "dependencies": [
+      "T36.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T05.G2.01",
+      "T05.G8.01",
+      "T21.G6.01",
+      "T22.G6.01",
+      "T28.G8.04"
+    ],
+    "notes": "Students develop a polished presentation or documentation of a substantial project suitable for mult",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  }
+]

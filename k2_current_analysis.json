@@ -1,0 +1,627 @@
+{
+  "analysis": {
+    "T01": {
+      "1": [
+        {
+          "id": "T01.G1.01",
+          "title": "Write or draw steps for a simple task",
+          "topic_id": "T01",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students create a sequence of simple, numbered steps to describe how to complete a task (e.g., \"Make a sandwich\" or \"Sharpen a pencil\"). They understa"
+        },
+        {
+          "id": "T01.G1.02",
+          "title": "Trace and predict the outcome of a simple algorithm",
+          "topic_id": "T01",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Given a short sequence of steps (e.g., \"Start at the door. Walk forward 3 steps. Turn left. Walk forward 2 steps. Stop.\"), students predict or trace w"
+        },
+        {
+          "id": "T01.G1.03",
+          "title": "Identify missing or incorrect steps in an algorithm",
+          "topic_id": "T01",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students read or listen to a short algorithm (e.g., \"To get to the playground: Leave classroom, go to playground entrance, go through gate, walk to sw"
+        },
+        {
+          "id": "T01.G1.04",
+          "title": "Compare two algorithms for the same task",
+          "topic_id": "T01",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students compare two different sequences of steps that accomplish the same goal (e.g., two different ways to arrange classroom supplies or two paths t"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Write an algorithm with \"if/then\" choice",
+          "topic_id": "T01",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students create or complete a simple algorithm that includes a branching point (e.g., \"If the door is locked, ask for a key. If it's open, go inside.\""
+        },
+        {
+          "id": "T01.G2.02",
+          "title": "Write an algorithm with a repeat statement",
+          "topic_id": "T01",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students create or describe an algorithm using natural language for repetition (e.g., \"Repeat 3 times: hop and clap\" or \"Do these steps until the cup "
+        },
+        {
+          "id": "T01.G2.03",
+          "title": "Trace an algorithm with branching or repetition",
+          "topic_id": "T01",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Given an algorithm that includes an if/then choice or a repeat, students mentally or physically trace through it step by step, predicting the final ou"
+        },
+        {
+          "id": "T01.G2.04",
+          "title": "Unplugged maze or robot navigation with instructions",
+          "topic_id": "T01",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students create a list of turn-and-move instructions (Forward, Left, Right, Stop) that guide a character or robot through a simple grid or maze to rea"
+        }
+      ]
+    },
+    "T04": {
+      "1": [
+        {
+          "id": "T04.G1.01",
+          "title": "Find repeated blocks in a script",
+          "topic_id": "T04",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students identify sequences of identical or very similar blocks that repeat within a short script (e.g., four `move 10 steps` blocks in a row). This b"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Match a repeated picture story to code",
+          "topic_id": "T04",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students match a short picture story showing repeated actions (e.g., jump, jump, jump) to one of several simple scripts that replicate the same repeat"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Recognize a template structure in sprite code",
+          "topic_id": "T04",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students examine a provided starter script (template) where a single sprite sequence repeats (e.g., \"step, pause, step, pause\" happening twice), and t"
+        },
+        {
+          "id": "T04.G1.04",
+          "title": "Build a simple repeating script (no loops)",
+          "topic_id": "T04",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students build a short script where a sprite repeats a simple action a given number of times (e.g., clap 3 times) by duplicating blocks, but without u"
+        }
+      ],
+      "2": [
+        {
+          "id": "T04.G2.01",
+          "title": "Identify repeating sections in longer scripts",
+          "topic_id": "T04",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students examine longer scripts (10\u201115 blocks) and identify sections that repeat, even if scattered or with small variations. They learn to spot ineff"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Replace repeated code with a loop",
+          "topic_id": "T04",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students refactor a script that contains repeated blocks (e.g., five `move 10 steps`) into an equivalent script that uses a `repeat` loop, understandi"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Use a template project and customize it",
+          "topic_id": "T04",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students are given a template CreatiCode project (e.g., a simple animation or interactive scene) and make small targeted changes (e.g., change colors,"
+        },
+        {
+          "id": "T04.G2.04",
+          "title": "Predict what a simple repeated pattern produces",
+          "topic_id": "T04",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students read or trace a script with repeated blocks (e.g., four `move 10 steps`) and predict the final outcome qualitatively (e.g., \"far to the right"
+        }
+      ]
+    },
+    "T25": {
+      "1": [
+        {
+          "id": "T25.G1.01",
+          "title": "Collect and sort data by simple categories",
+          "topic_id": "T25",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students gather simple data from classmates or classroom objects (e.g., favorite colors, pets owned, breakfast foods) and organize it into categories "
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "Compare numbers as \"more,\" \"less,\" or \"same\"",
+          "topic_id": "T25",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students compare two groups of objects or two numeric values using words like \"more,\" \"fewer,\" and \"equal,\" developing a sense of numeric comparison."
+        },
+        {
+          "id": "T25.G1.03",
+          "title": "Recognize that numbers have special meaning",
+          "topic_id": "T25",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students learn that numbers convey specific information (age, count, score, temperature) and that the same numeral can mean different things in differ"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Create a simple tally or picture chart",
+          "topic_id": "T25",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students create a simple visual record of collected data (tally marks, pictures in rows) to show the information more clearly. This introduces the ide"
+        }
+      ],
+      "2": [
+        {
+          "id": "T25.G2.01",
+          "title": "Compare numeric and non\u2011numeric data types",
+          "topic_id": "T25",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students identify and classify data as either numeric (numbers: age, score, quantity) or non\u2011numeric/categorical (words or categories: color, name, ty"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Create a variable to store a single piece of data",
+          "topic_id": "T25",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students learn to create a CreatiCode variable (e.g., `my score`, `favorite color`) and assign it a value, understanding that a variable is a named co"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "Identify when data is numeric vs. constant",
+          "topic_id": "T25",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students distinguish between constant values (e.g., a name, a fixed color choice) and values that change over time (e.g., score, age, temperature)."
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Use a variable to track changing information",
+          "topic_id": "T25",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students modify a variable's value as a program runs (e.g., increasing a score, updating a timer), understanding that variables allow us to keep track"
+        },
+        {
+          "id": "T25.G2.05",
+          "title": "Organize collected data into a simple table",
+          "topic_id": "T25",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students collect data (e.g., students' favorite foods) and organize it into a simple two\u2011column table (item and count or name and choice), understandi"
+        }
+      ]
+    },
+    "T26": {
+      "1": [
+        {
+          "id": "T26.G1.01",
+          "title": "Collect data by asking a question",
+          "topic_id": "T26",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students pose a simple yes/no or one-of-few-choices question (e.g., \"Do you like apples or oranges?\" \"What is your favorite color: red, blue, or yello"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare two groups of data",
+          "topic_id": "T26",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students collect two small datasets (e.g., favorite colors from boys and girls, or scores from two games) and compare them to answer simple questions "
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make a simple list from collected data",
+          "topic_id": "T26",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students collect information about a small set of items (e.g., names of three favorite snacks, types of plants in the classroom) and create a simple l"
+        }
+      ],
+      "2": [
+        {
+          "id": "T26.G2.01",
+          "title": "Collect data through observation and measurement",
+          "topic_id": "T26",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students collect data by observing or measuring something (e.g., plant heights over time, number of steps to cross the room, sound volume in different"
+        },
+        {
+          "id": "T26.G2.02",
+          "title": "Organize data into a simple table",
+          "topic_id": "T26",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students take collected data points and organize them into a table with rows and columns, where each row represents one record and each column represe"
+        },
+        {
+          "id": "T26.G2.03",
+          "title": "Use a survey to collect class data",
+          "topic_id": "T26",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students design and administer a very simple survey (one question with a few preset response options, e.g., \"What is your favorite pet: dog, cat, fish"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Recognize missing or incomplete data",
+          "topic_id": "T26",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students are shown a dataset with some missing values or incomplete entries and identify which pieces are missing (e.g., a table where some cells are "
+        }
+      ]
+    },
+    "T27": {
+      "1": [
+        {
+          "id": "T27.G1.01",
+          "title": "Collect and count data on a simple survey",
+          "topic_id": "T27",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students ask a simple yes/no or multiple-choice question of a few peers (e.g., \"Do you like apples or oranges?\") and record tally marks or objects to "
+        },
+        {
+          "id": "T27.G1.02",
+          "title": "Create a simple pictograph",
+          "topic_id": "T27",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students represent collected data (e.g., favorite fruits, pets, or colors) using a pictograph where each picture stands for one response. They arrange"
+        },
+        {
+          "id": "T27.G1.03",
+          "title": "Answer simple questions using counts",
+          "topic_id": "T27",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Given a pictograph or tally display that students created or are shown, they answer simple counting questions: \"How many people like blue?\" or \"Which "
+        }
+      ],
+      "2": [
+        {
+          "id": "T27.G2.01",
+          "title": "Create a simple bar chart",
+          "topic_id": "T27",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students take collected data (e.g., classroom survey responses) and create a bar chart using blocks or a template in CreatiCode. The chart displays ca"
+        },
+        {
+          "id": "T27.G2.02",
+          "title": "Predict the mode or highest count",
+          "topic_id": "T27",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students read a bar chart (pictograph or drawn bars) and determine which category has the highest count (the mode), strengthening data interpretation "
+        },
+        {
+          "id": "T27.G2.03",
+          "title": "Compare data using \"more,\" \"fewer,\" \"about the same\"",
+          "topic_id": "T27",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students compare the counts for two groups (e.g., \"Does blue have more or fewer votes than red?\") and use appropriate language (\"more,\" \"fewer,\" \"abou"
+        },
+        {
+          "id": "T27.G2.04",
+          "title": "Find the total by adding counts",
+          "topic_id": "T27",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students are given counts for several categories and compute the total (e.g., \"There are 3 cats, 2 dogs, and 4 birds. How many animals altogether?\"). "
+        }
+      ]
+    },
+    "T30": {
+      "1": [
+        {
+          "id": "T30.G1.01",
+          "title": "Describe purposes of computer hardware",
+          "topic_id": "T30",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students explain the purpose of common hardware components: display (shows information), keyboard (user input), mouse (user input), system unit (proce"
+        },
+        {
+          "id": "T30.G1.02",
+          "title": "Recognize input and output devices",
+          "topic_id": "T30",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students distinguish between devices or parts that let you control a computer (input: keyboard, mouse, microphone, touchscreen) and devices that show "
+        },
+        {
+          "id": "T30.G1.03",
+          "title": "Understand hardware and software roles",
+          "topic_id": "T30",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students distinguish between hardware (the physical parts you can touch: computer box, keyboard, mouse, robot body) and software (the programs/instruc"
+        },
+        {
+          "id": "T30.G1.04",
+          "title": "Recognize that programs run on devices",
+          "topic_id": "T30",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students understand that programs (apps, games, scripts) run on devices (computers, tablets, robots) and that the device executes the program's instru"
+        }
+      ],
+      "2": [
+        {
+          "id": "T30.G2.01",
+          "title": "Justify software for tasks",
+          "topic_id": "T30",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students select and justify an appropriate software tool or app for a given task (e.g., \"I would use a word processor to write a story,\" \"I would use "
+        },
+        {
+          "id": "T30.G2.02",
+          "title": "Understand input \u2192 processing \u2192 output",
+          "topic_id": "T30",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students learn the basic I/O model: computers receive input (from keyboard, mouse, sensors), process it internally, and produce output (display, sound"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "Recognize everyday sensors and their purposes",
+          "topic_id": "T30",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students identify simple sensors in their environment (motion sensor doors, light sensors controlling classroom lights, thermostats, touchscreens) and"
+        },
+        {
+          "id": "T30.G2.04",
+          "title": "Connect hardware and software in CreatiCode",
+          "topic_id": "T30",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students create or trace a simple CreatiCode project where a program (code) makes hardware (a sprite, simulated robot, or connected device) respond. T"
+        }
+      ]
+    },
+    "T32": {
+      "1": [
+        {
+          "id": "T32.G1.01",
+          "title": "Identify personally identifiable information (PII)",
+          "topic_id": "T32",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students learn that certain information (full name, address, school, phone number, birthday, photos) is private and should be protected. They recogniz"
+        },
+        {
+          "id": "T32.G1.02",
+          "title": "Choose whom to trust online",
+          "topic_id": "T32",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students distinguish between people they know in real life and strangers online, and understand that not all people online are who they say they are. "
+        },
+        {
+          "id": "T32.G1.03",
+          "title": "Describe why passwords matter",
+          "topic_id": "T32",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students understand that passwords prevent others from accessing their accounts and that they should not share their password even with friends or oth"
+        },
+        {
+          "id": "T32.G1.04",
+          "title": "Spot a simple online scam picture",
+          "topic_id": "T32",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students see simplified examples of scams (e.g., \"You won a prize! Click here!\" or \"Enter your password to play!\") and identify them as \"tricks\" or \"f"
+        }
+      ],
+      "2": [
+        {
+          "id": "T32.G2.01",
+          "title": "Explain how to keep information private",
+          "topic_id": "T32",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students list or order steps for keeping information safe online (e.g., use a strong password, don't share details with strangers, ask a trusted adult"
+        },
+        {
+          "id": "T32.G2.02",
+          "title": "Create a simple strong password",
+          "topic_id": "T32",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students create a password using a mix of uppercase, lowercase, and numbers (e.g., \"Tiger42Blue\"). They learn why mixing types makes passwords harder "
+        },
+        {
+          "id": "T32.G2.03",
+          "title": "Recognize a phishing message or fake login",
+          "topic_id": "T32",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students see examples of phishing emails or fake login screens and identify them as \"fake\" or \"suspicious.\" They learn that legitimate sites ask for p"
+        },
+        {
+          "id": "T32.G2.04",
+          "title": "List safe sharing practices",
+          "topic_id": "T32",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students distinguish between safe and unsafe things to share online (e.g., safe: hobby interests, school subject preference; unsafe: home address, pho"
+        }
+      ]
+    },
+    "T34": {
+      "1": [
+        {
+          "id": "T34.G1.01",
+          "title": "Explore computing contributions from different cultures",
+          "topic_id": "T34",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students learn that people from many different cultures, countries, and backgrounds helped create and shape computing technologies. They explore the i"
+        },
+        {
+          "id": "T34.G1.02",
+          "title": "Before and after a computing technology",
+          "topic_id": "T34",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students compare life before and after a specific computing technology was invented (before/after cameras on phones; before/after email; before/after "
+        },
+        {
+          "id": "T34.G1.03",
+          "title": "Name a computing inventor",
+          "topic_id": "T34",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students learn and recall the names of some famous inventors or pioneers in computing (e.g., Steve Jobs, Bill Gates, Ada Lovelace, Alan Turing, Grace "
+        },
+        {
+          "id": "T34.G1.04",
+          "title": "Draw or describe an invention",
+          "topic_id": "T34",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students think about a real problem they face (finding their toys, organizing their schedule, playing with friends) and imagine a computing device or "
+        }
+      ],
+      "2": [
+        {
+          "id": "T34.G2.01",
+          "title": "Compare daily life before and after a technology",
+          "topic_id": "T34",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students examine a specific computing innovation (computers in schools, smartphones, the internet, video calling, etc.) and describe tangible changes "
+        },
+        {
+          "id": "T34.G2.02",
+          "title": "Identify what a technology helps people do",
+          "topic_id": "T34",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students are shown a computing technology or tool and explain what tasks or goals it helps people accomplish (a calculator helps with math, a camera a"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and not-so-good impacts of a technology",
+          "topic_id": "T34",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students begin to think about both positive and negative impacts of a technology. For example, smartphones help people stay connected but can also dis"
+        },
+        {
+          "id": "T34.G2.04",
+          "title": "Timeline of a computing invention",
+          "topic_id": "T34",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students are given 3\u20135 key events or milestones in the history of a computing technology (e.g., first computer, first laptop, first smartphone) in scr"
+        }
+      ]
+    },
+    "T35": {
+      "1": [
+        {
+          "id": "T35.G1.01",
+          "title": "List both good and bad effects of a technology",
+          "topic_id": "T35",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students name both positive effects (e.g., learning, talking to friends) and negative effects (e.g., too much time, tiredness, lost focus) of a common"
+        },
+        {
+          "id": "T35.G1.02",
+          "title": "Predict what happens if you play too long",
+          "topic_id": "T35",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students hypothesize or discuss consequences of spending too much screen time on a game (e.g., missing homework, tired eyes, less playtime outside, mi"
+        },
+        {
+          "id": "T35.G1.03",
+          "title": "Recognize that games are made by people",
+          "topic_id": "T35",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students understand that every game or app they enjoy was designed and built by people (game makers, artists, programmers) and that someone made choic"
+        },
+        {
+          "id": "T35.G1.04",
+          "title": "Decide when to use a device and when not to",
+          "topic_id": "T35",
+          "grade": 1,
+          "skill_type": null,
+          "description": "Students practice making reasonable choices about when to use a device (e.g., homework time, quiet time) versus when to do other things (e.g., eat, pl"
+        }
+      ],
+      "2": [
+        {
+          "id": "T35.G2.01",
+          "title": "Compare life before and after a technology",
+          "topic_id": "T35",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students compare how people did a task before a computing technology existed and how they do it now, noticing the changes and whether life became easi"
+        },
+        {
+          "id": "T35.G2.02",
+          "title": "Brainstorm how a new technology could help",
+          "topic_id": "T35",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students propose ways that a new or existing technology could solve a real problem in their school or community (e.g., \"A robot could help carry heavy"
+        },
+        {
+          "id": "T35.G2.03",
+          "title": "Identify unintended problems from a technology",
+          "topic_id": "T35",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students recognize that a technology made to help can also cause problems that were not originally intended (e.g., video games are fun but can be addi"
+        },
+        {
+          "id": "T35.G2.04",
+          "title": "Describe how different communities use technology differently",
+          "topic_id": "T35",
+          "grade": 2,
+          "skill_type": null,
+          "description": "Students recognize that different groups of people (families, communities, regions) may use technology in different ways or have different access to i"
+        }
+      ]
+    }
+  },
+  "total_skills": 71
+}

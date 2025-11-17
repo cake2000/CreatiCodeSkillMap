@@ -1,0 +1,755 @@
+{
+  "activity_templates_version": "1.0.0",
+  "description": "Common K-2 activity type templates with specifications for picture-based, auto-gradable digital learning",
+  "templates": {
+    "drag_drop_sequence": {
+      "name": "Drag and Drop Sequencing",
+      "description": "Students drag items into numbered or labeled slots in the correct order",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View shuffled images/items in a source area",
+          "Drag items one at a time to numbered slots (1, 2, 3, etc.)",
+          "Rearrange items if needed before submitting",
+          "Click 'Check' or 'Submit' button to verify answer"
+        ],
+        "system_responses": [
+          "Highlight slot when item is being dragged over it",
+          "Snap item into slot when released",
+          "Allow swapping items between slots",
+          "Provide immediate feedback on submission"
+        ]
+      },
+      "visual_layout": {
+        "source_area": "Top or left side with randomized items",
+        "target_area": "Horizontal or vertical slots with clear numbering (1, 2, 3, 4)",
+        "minimum_spacing": "20px between slots",
+        "item_size": "120x120px minimum for K, 100x100px for G1-2",
+        "slot_visual": "Clear border, number visible, drop zone indication"
+      },
+      "auto_grading": {
+        "check_type": "sequence_order",
+        "validation": "Compare student sequence to correct sequence array",
+        "all_or_nothing": true,
+        "partial_credit_option": "Can award partial for mostly correct sequences (G2 only)",
+        "feedback_timing": "After submission only, not during dragging"
+      },
+      "typical_use_cases": [
+        "Daily routine steps (wake up, eat, brush teeth)",
+        "Story event ordering (beginning, middle, end)",
+        "Life cycle stages (egg, caterpillar, chrysalis, butterfly)",
+        "Recipe or procedure steps",
+        "Seasonal changes in order",
+        "Algorithm steps (making sandwich, planting seed)"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Morning Routine Sequence",
+          "items": 3,
+          "theme": "daily_life"
+        },
+        {
+          "grade": "1",
+          "title": "Plant Growth Stages",
+          "items": 4,
+          "theme": "nature"
+        },
+        {
+          "grade": "2",
+          "title": "Making Lemonade Steps",
+          "items": 5,
+          "theme": "food_cooking"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab to navigate slots, arrow keys to move items, Enter to place",
+        "screen_reader": "Announce slot numbers, item names, current position",
+        "audio": "Read prompt and each item name when focused",
+        "touch_targets": "Minimum 60px for K, 44px for G1-2"
+      },
+      "difficulty_scaling": {
+        "easier": "Fewer items (3), very distinct steps, visual clues (background shading)",
+        "harder": "More items (5-6), similar-looking steps, less obvious order"
+      }
+    },
+    "sort_categories": {
+      "name": "Sort into Categories",
+      "description": "Students drag items into 2-4 labeled containers/buckets based on classification rules",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View items to be sorted in central area",
+          "Read or hear category labels",
+          "Drag each item to appropriate category container",
+          "Submit when all items are sorted"
+        ],
+        "system_responses": [
+          "Highlight container when item dragged over",
+          "Item disappears into container or stays visible inside",
+          "Allow moving items between containers before submission",
+          "Show count in each container (optional)"
+        ]
+      },
+      "visual_layout": {
+        "category_containers": "2-4 clearly labeled boxes/buckets at top or sides",
+        "item_area": "Center or bottom with items to sort",
+        "container_labels": "Picture + text label for each category",
+        "container_size": "Large enough to show 2-6 items inside",
+        "visual_metaphor": "Buckets, boxes, baskets, folders, or bins"
+      },
+      "auto_grading": {
+        "check_type": "category_match",
+        "validation": "All items must be in correct category",
+        "partial_credit_option": "Percentage correct for G2",
+        "all_or_nothing": "Yes for K-G1, optional for G2"
+      },
+      "typical_use_cases": [
+        "Living vs. non-living things",
+        "Recyclable vs. trash",
+        "Healthy vs. unhealthy foods",
+        "Inputs vs. outputs (for devices)",
+        "True vs. false statements",
+        "Animals by habitat (land, water, air)",
+        "Objects by shape or color",
+        "Hot vs. cold items"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Sort the Recycling",
+          "categories": 2,
+          "items": 6,
+          "theme": "environment"
+        },
+        {
+          "grade": "1",
+          "title": "Where Do Animals Live?",
+          "categories": 3,
+          "items": 9,
+          "theme": "animals"
+        },
+        {
+          "grade": "2",
+          "title": "Computer Inputs and Outputs",
+          "categories": 2,
+          "items": 8,
+          "theme": "technology"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab between items and containers, Enter to place item in focused container",
+        "screen_reader": "Announce category names, item count in each, item being moved",
+        "audio": "Read category labels and item names",
+        "color_coding": "Use in addition to labels, not as sole differentiator"
+      },
+      "difficulty_scaling": {
+        "easier": "2 categories, obvious differences, fewer items (4-6)",
+        "harder": "3-4 categories, subtle differences, more items (9-12)"
+      }
+    },
+    "match_pairs": {
+      "name": "Match Pairs",
+      "description": "Students connect related items by drawing lines or dragging items to match",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View two columns of items (left and right)",
+          "Click item on left, then matching item on right to draw line",
+          "OR drag item from left column onto matching item in right column",
+          "Clear incorrect matches if needed",
+          "Submit when all pairs matched"
+        ],
+        "system_responses": [
+          "Draw connecting line between matched items",
+          "Highlight paired items in same color",
+          "Prevent matching one item to multiple partners",
+          "Show count of matched pairs vs. total"
+        ]
+      },
+      "visual_layout": {
+        "layout": "Two columns with items to match",
+        "column_spacing": "Adequate space in middle for visible connection lines",
+        "item_arrangement": "Randomized in each column",
+        "items_per_column": "3-6 pairs (K: 3-4, G1: 4-5, G2: 5-6)",
+        "visual_connection": "Colored lines or arrows showing matches"
+      },
+      "auto_grading": {
+        "check_type": "pair_match",
+        "validation": "All pairs must be correctly matched",
+        "partial_credit_option": "Percentage of correct pairs (G2)",
+        "all_or_nothing": "Yes for K-G1"
+      },
+      "typical_use_cases": [
+        "Match baby animals to adults",
+        "Match objects to their functions",
+        "Match tools to their uses",
+        "Match numbers to quantities",
+        "Match words to pictures",
+        "Match shapes to real-world objects",
+        "Match cause to effect",
+        "Match beginning to end of pattern"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Match Baby Animals to Adults",
+          "pairs": 4,
+          "theme": "animals"
+        },
+        {
+          "grade": "1",
+          "title": "Match Tools to Jobs",
+          "pairs": 5,
+          "theme": "community_helpers"
+        },
+        {
+          "grade": "2",
+          "title": "Match Input Devices to Uses",
+          "pairs": 6,
+          "theme": "technology"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab to items, arrow keys to navigate, Enter to select, Backspace to clear",
+        "screen_reader": "Announce item names, matched status, total progress",
+        "audio": "Read item names when focused",
+        "alternative_interaction": "Drag-to-match as alternative to line-drawing"
+      },
+      "difficulty_scaling": {
+        "easier": "3-4 pairs, very obvious matches, distinct images",
+        "harder": "5-6 pairs, less obvious relationships, similar images"
+      }
+    },
+    "click_select": {
+      "name": "Click to Select",
+      "description": "Students click on all correct items from a set displayed on screen",
+      "interaction_mechanics": {
+        "student_actions": [
+          "Read/hear prompt asking to find specific items",
+          "Click on items that match the criteria",
+          "Click again to deselect if needed",
+          "Submit when all correct items selected"
+        ],
+        "system_responses": [
+          "Visual indicator when item selected (checkmark, highlight, border)",
+          "Toggle selection on/off with repeated clicks",
+          "Show count of selected items (optional)",
+          "Provide feedback on submission"
+        ]
+      },
+      "visual_layout": {
+        "item_arrangement": "Grid layout (2x3, 3x3, etc.) or scattered naturally",
+        "total_items": "6-12 items total (K: 6, G1: 8, G2: 10-12)",
+        "correct_items": "2-5 items should be selected (K: 2-3, G1: 3-4, G2: 4-5)",
+        "item_size": "Large enough for easy clicking (100x100px minimum)",
+        "selection_indicator": "Clear visual (checkmark, colored border, overlay)"
+      },
+      "auto_grading": {
+        "check_type": "selection_set",
+        "validation": "Selected items must exactly match correct set (no extras, none missing)",
+        "partial_credit_option": "Percentage correct for G2",
+        "all_or_nothing": "Yes for K-G1"
+      },
+      "typical_use_cases": [
+        "Click all living things",
+        "Find all red shapes",
+        "Select all animals that fly",
+        "Click pictures showing safe internet use",
+        "Find all recycling items",
+        "Select all computing devices",
+        "Click all items used for measurement",
+        "Find all healthy snacks"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Find All the Living Things",
+          "total_items": 6,
+          "correct_count": 3,
+          "theme": "nature"
+        },
+        {
+          "grade": "1",
+          "title": "Click All the Computing Devices",
+          "total_items": 8,
+          "correct_count": 4,
+          "theme": "technology"
+        },
+        {
+          "grade": "2",
+          "title": "Find Safe Internet Behaviors",
+          "total_items": 10,
+          "correct_count": 5,
+          "theme": "digital_citizenship"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab/arrow keys to navigate, Space to toggle selection, Enter to submit",
+        "screen_reader": "Announce item name, selected status, total selected",
+        "audio": "Read prompt and each item when focused",
+        "visual_feedback": "Clear selected state independent of color"
+      },
+      "difficulty_scaling": {
+        "easier": "Fewer total items (6), obvious correct answers (2-3), clear differences",
+        "harder": "More items (10-12), more to select (4-5), subtle differences, similar distractors"
+      }
+    },
+    "pattern_complete": {
+      "name": "Complete the Pattern",
+      "description": "Students identify and fill in missing elements in visual or logical patterns",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View pattern with one or more blank spaces",
+          "Select correct item from choices to complete pattern",
+          "Click or drag item into blank space(s)",
+          "Submit answer"
+        ],
+        "system_responses": [
+          "Highlight blank space when selected",
+          "Show selected item in blank",
+          "Allow changing selection before submission",
+          "Provide feedback"
+        ]
+      },
+      "visual_layout": {
+        "pattern_display": "Horizontal row or 2D grid showing pattern",
+        "blank_indicators": "Clear empty boxes or question marks",
+        "choice_area": "2-4 possible answers below or to side",
+        "pattern_types": "AB, ABB, ABC, AAB patterns (K-G1), ABCD or complex patterns (G2)",
+        "visual_elements": "Shapes, colors, objects, or combinations"
+      },
+      "auto_grading": {
+        "check_type": "pattern_completion",
+        "validation": "Selected item(s) must correctly continue or complete pattern",
+        "partial_credit_option": "For multiple blanks, can award partial (G2)",
+        "all_or_nothing": "Yes for single blank or K-G1"
+      },
+      "typical_use_cases": [
+        "Color patterns (red, blue, red, blue, __)",
+        "Shape patterns (circle, square, circle, square, __)",
+        "Size patterns (big, small, big, small, __)",
+        "Number patterns (1, 2, 3, __)",
+        "Object patterns (apple, orange, apple, orange, __)",
+        "Algorithm patterns (turn, move, turn, move, __)",
+        "Growing patterns (1 block, 2 blocks, 3 blocks, __)"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "What Comes Next? (AB Pattern)",
+          "pattern_length": 5,
+          "blanks": 1,
+          "choices": 2
+        },
+        {
+          "grade": "1",
+          "title": "Complete the Shape Pattern (ABC)",
+          "pattern_length": 7,
+          "blanks": 2,
+          "choices": 3
+        },
+        {
+          "grade": "2",
+          "title": "Growing Pattern: What's Missing?",
+          "pattern_length": 8,
+          "blanks": 2,
+          "choices": 4
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab to choices, Enter to select, arrow keys to navigate blanks",
+        "screen_reader": "Announce pattern elements and blank positions",
+        "audio": "Read pattern description and choices",
+        "color_independence": "Patterns should work in grayscale if possible"
+      },
+      "difficulty_scaling": {
+        "easier": "Simple AB patterns, 1 blank, obvious continuation",
+        "harder": "Complex patterns (ABCD), multiple blanks, less obvious rules"
+      }
+    },
+    "hot_spot_click": {
+      "name": "Hot Spot Click",
+      "description": "Students click on specific area(s) of an image to identify locations, objects, or features",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View large image with prompt",
+          "Click on specified item or area in image",
+          "May need to find multiple items (click each one)",
+          "Submit or auto-advance after all items found"
+        ],
+        "system_responses": [
+          "Highlight or mark clicked areas",
+          "Provide audio/visual confirmation when correct area clicked",
+          "Show count if multiple items to find",
+          "Give feedback on completion"
+        ]
+      },
+      "visual_layout": {
+        "image_size": "Large, clear image (600x400px minimum)",
+        "hot_spot_size": "Generous click area (80x80px minimum for K)",
+        "items_to_find": "1-5 items (K: 1-2, G1: 2-3, G2: 3-5)",
+        "visual_clarity": "Items should be clearly visible, not tiny details",
+        "feedback_markers": "Checkmarks, circles, or highlights when found"
+      },
+      "auto_grading": {
+        "check_type": "location_accuracy",
+        "validation": "Click must be within defined hot spot boundaries",
+        "tolerance": "Generous hit boxes for young students",
+        "partial_credit_option": "For multiple items, percentage found (G2)",
+        "all_or_nothing": "Yes for single item or K-G1"
+      },
+      "typical_use_cases": [
+        "Find the computer mouse in the classroom",
+        "Click all the safety hazards in the picture",
+        "Find the input devices on the computer",
+        "Click the beginning of the maze",
+        "Find all the living things in the scene",
+        "Click where the robot should turn",
+        "Find examples of patterns in the image",
+        "Identify all recycling bins"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Find the Keyboard",
+          "items_to_find": 1,
+          "theme": "technology"
+        },
+        {
+          "grade": "1",
+          "title": "Click All the Safety Rules Being Followed",
+          "items_to_find": 3,
+          "theme": "safety"
+        },
+        {
+          "grade": "2",
+          "title": "Find All Computing Devices in the Library",
+          "items_to_find": 5,
+          "theme": "technology"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab to selectable areas, Enter to click",
+        "screen_reader": "Describe image and announce selectable areas",
+        "audio": "Read prompt and describe image content",
+        "alternative_input": "Support for touch and mouse equally"
+      },
+      "difficulty_scaling": {
+        "easier": "1 large, obvious item, high contrast, simple scene",
+        "harder": "Multiple items, busier scene, smaller targets, subtle differences"
+      }
+    },
+    "yes_no_sort": {
+      "name": "Yes/No Binary Sort",
+      "description": "Students sort items into two categories (Yes/No, True/False, Correct/Incorrect, Safe/Unsafe)",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View item or statement",
+          "Drag to Yes or No container (or click Yes/No button)",
+          "Continue for all items",
+          "Submit when all sorted"
+        ],
+        "system_responses": [
+          "Move item to selected category",
+          "Show progress (e.g., '3 of 6 sorted')",
+          "Allow changing before submission",
+          "Provide feedback"
+        ]
+      },
+      "visual_layout": {
+        "categories": "Two large, clearly labeled areas (Yes/No, True/False, etc.)",
+        "category_visuals": "Green checkmark for Yes/True, Red X for No/False (plus text)",
+        "items": "Presented one at a time OR all visible for sorting",
+        "item_count": "4-8 items (K: 4-5, G1: 5-6, G2: 6-8)",
+        "layout_options": "Two columns, two buckets, or flip-card style"
+      },
+      "auto_grading": {
+        "check_type": "binary_classification",
+        "validation": "Each item must be in correct category",
+        "partial_credit_option": "Percentage correct (G2)",
+        "all_or_nothing": "Yes for K-G1"
+      },
+      "typical_use_cases": [
+        "Is this safe online behavior? (Yes/No)",
+        "Is this a computing device? (Yes/No)",
+        "True or False: This shows kindness",
+        "Should you share this information online? (Yes/No)",
+        "Is this following the rule? (Yes/No)",
+        "Does this need electricity? (Yes/No)",
+        "Is this a healthy choice? (Yes/No)",
+        "Does this show good digital citizenship? (Yes/No)"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Is It a Computer? Yes or No",
+          "items": 5,
+          "theme": "technology"
+        },
+        {
+          "grade": "1",
+          "title": "Safe or Unsafe Online? Sort the Behaviors",
+          "items": 6,
+          "theme": "digital_citizenship"
+        },
+        {
+          "grade": "2",
+          "title": "True or False: Digital Citizenship",
+          "items": 8,
+          "theme": "digital_citizenship"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab to items, arrow keys for Yes/No, Enter to confirm",
+        "screen_reader": "Read item and category options",
+        "audio": "Read each item and category labels",
+        "color_independence": "Use checkmark/X icons in addition to color"
+      },
+      "difficulty_scaling": {
+        "easier": "Obvious answers, fewer items (4-5), clear situations",
+        "harder": "Nuanced scenarios, more items (7-8), requires thinking"
+      }
+    },
+    "multiple_choice_visual": {
+      "name": "Multiple Choice (Visual)",
+      "description": "Students choose the correct picture from 3-4 visual options in response to a question",
+      "interaction_mechanics": {
+        "student_actions": [
+          "Read/hear question or prompt",
+          "View 3-4 picture options",
+          "Click on correct picture",
+          "Submit answer"
+        ],
+        "system_responses": [
+          "Highlight selected option",
+          "Allow changing selection before submission",
+          "Provide immediate feedback",
+          "Show correct answer if incorrect (after attempts)"
+        ]
+      },
+      "visual_layout": {
+        "question_area": "Top of screen with text and audio button",
+        "options_layout": "2x2 grid or horizontal row",
+        "option_count": "3-4 choices (K: 3, G1-G2: 3-4)",
+        "option_size": "Large, equal-sized boxes (150x150px minimum)",
+        "selection_indicator": "Border highlight or checkmark on selected option"
+      },
+      "auto_grading": {
+        "check_type": "single_choice",
+        "validation": "Selected option must match correct answer",
+        "partial_credit_option": "No (single correct answer)",
+        "all_or_nothing": "Yes"
+      },
+      "typical_use_cases": [
+        "Which one is a computer?",
+        "What comes next in the pattern?",
+        "Which picture shows the rule being followed?",
+        "What should the robot do next?",
+        "Which tool would you use for this job?",
+        "Which picture shows the correct sequence?",
+        "What is the missing piece?",
+        "Which animal lives in water?"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Which One Is a Computer?",
+          "options": 3,
+          "theme": "technology"
+        },
+        {
+          "grade": "1",
+          "title": "What Comes Next in This Pattern?",
+          "options": 4,
+          "theme": "patterns"
+        },
+        {
+          "grade": "2",
+          "title": "Which Shows Safe Password Habits?",
+          "options": 4,
+          "theme": "digital_citizenship"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Arrow keys to navigate options, Enter to select",
+        "screen_reader": "Read question and describe each option",
+        "audio": "Read question and option labels/descriptions",
+        "visual_clarity": "High contrast options with clear differences"
+      },
+      "difficulty_scaling": {
+        "easier": "3 options, very different images, obvious correct answer",
+        "harder": "4 options, similar images, requires careful analysis"
+      }
+    },
+    "counting_interaction": {
+      "name": "Counting and Number Recognition",
+      "description": "Students count items, select quantities, or match numbers to sets",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View set of objects or pictures",
+          "Count items (may click each to count)",
+          "Select number OR drag number to match set",
+          "Submit answer"
+        ],
+        "system_responses": [
+          "Items may light up when clicked for counting",
+          "Show count in progress (optional)",
+          "Confirm number selection",
+          "Provide feedback"
+        ]
+      },
+      "visual_layout": {
+        "object_set": "Clear arrangement of 1-10 countable items",
+        "counting_support": "Items arranged in rows of 5 or familiar patterns",
+        "number_choices": "3-4 number options OR number line",
+        "item_size": "Large enough to tap individually",
+        "variety": "Different objects, arrangements, representations"
+      },
+      "auto_grading": {
+        "check_type": "single_choice",
+        "validation": "Selected number must match item count",
+        "partial_credit_option": "No",
+        "all_or_nothing": "Yes"
+      },
+      "typical_use_cases": [
+        "How many robots do you see?",
+        "Count the inputs on the computer",
+        "How many steps in the algorithm?",
+        "Match the number to the set",
+        "Count the loops in the pattern",
+        "How many items did we sort?",
+        "Count objects in the scene"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Count the Computers",
+          "range": "1-5",
+          "theme": "technology"
+        },
+        {
+          "grade": "1",
+          "title": "How Many Steps in the Algorithm?",
+          "range": "1-10",
+          "theme": "algorithms"
+        },
+        {
+          "grade": "2",
+          "title": "Count the Loops",
+          "range": "3-12",
+          "theme": "programming"
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Tab to items and numbers, Enter to select",
+        "screen_reader": "Announce items and counts",
+        "audio": "Read prompt and number choices",
+        "visual_support": "Group items in familiar patterns (dice, dominoes)"
+      },
+      "difficulty_scaling": {
+        "easier": "1-5 items, arranged in familiar patterns, clear spacing",
+        "harder": "6-12 items, random arrangement, overlapping, similar items"
+      }
+    },
+    "path_tracing": {
+      "name": "Path Tracing and Navigation",
+      "description": "Students trace or click along a path, make directional choices, or guide a character through a route",
+      "interaction_mechanics": {
+        "student_actions": [
+          "View start and end points on map/grid",
+          "Click squares to create path OR drag finger to trace",
+          "OR click directional arrows to guide character",
+          "Submit or auto-check when path complete"
+        ],
+        "system_responses": [
+          "Highlight path as student creates it",
+          "Animate character along path (optional)",
+          "Show direction arrows or footprints",
+          "Provide feedback on path correctness"
+        ]
+      },
+      "visual_layout": {
+        "grid_or_map": "Simple grid (4x4, 5x5) or pictorial map",
+        "start_end_markers": "Clear START and END/GOAL markers",
+        "obstacles": "Optional obstacles to navigate around (K-G2)",
+        "character": "Friendly character to guide (robot, animal, person)",
+        "path_width": "Wide enough for easy clicking/touching"
+      },
+      "auto_grading": {
+        "check_type": "sequence_order or location_accuracy",
+        "validation": "Path must reach goal, may need to match specific route or just any valid route",
+        "partial_credit_option": "No for K-G1, possibly yes for G2",
+        "all_or_nothing": "Typically yes, or any-valid-path accepted"
+      },
+      "typical_use_cases": [
+        "Help the robot reach the charging station",
+        "Trace the path from home to school",
+        "Guide the animal to its food",
+        "Navigate the maze",
+        "Follow the algorithm path",
+        "Help the character avoid obstacles",
+        "Create the shortest path"
+      ],
+      "example_skills": [
+        {
+          "grade": "K",
+          "title": "Help the Robot Get Home",
+          "grid_size": "4x4",
+          "obstacles": 0
+        },
+        {
+          "grade": "1",
+          "title": "Guide the Bunny to the Carrots",
+          "grid_size": "5x5",
+          "obstacles": 2
+        },
+        {
+          "grade": "2",
+          "title": "Navigate the Maze (Shortest Path)",
+          "grid_size": "6x6",
+          "obstacles": 4
+        }
+      ],
+      "accessibility_requirements": {
+        "keyboard_support": "Arrow keys to move character, Enter to confirm step",
+        "screen_reader": "Announce grid position and obstacles",
+        "audio": "Describe start, goal, and obstacles",
+        "visual_path": "Clear visual trail showing path taken"
+      },
+      "difficulty_scaling": {
+        "easier": "Smaller grid, no obstacles, clear straight path",
+        "harder": "Larger grid, multiple obstacles, requires planning, specific route required"
+      }
+    }
+  },
+  "implementation_notes": {
+    "general_principles": [
+      "All activities must work on touch screens (tablets) and with mouse input",
+      "Large, clear touch targets (minimum 44px, recommend 60px for K)",
+      "Immediate visual feedback for all interactions",
+      "Audio support for all text instructions",
+      "Generous error tolerance (e.g., wide hit boxes, forgiving timing)",
+      "Prevent accidental submissions (confirmation or clear submit button)",
+      "Consistent UI patterns across all activity types",
+      "Celebratory feedback for correct answers (stars, confetti, sounds)",
+      "Encouraging feedback for incorrect attempts (no negative language)",
+      "Auto-save progress for interrupted sessions"
+    ],
+    "technical_requirements": [
+      "HTML5 Canvas or SVG for graphics",
+      "Drag-drop using touch-friendly libraries (e.g., interact.js, SortableJS)",
+      "Text-to-speech API for audio (Web Speech API or service)",
+      "WCAG 2.1 AA compliance minimum",
+      "Works on iPad Safari, Chrome, Edge browsers",
+      "Responsive design for different screen sizes",
+      "No typing required for K-G1",
+      "Offline capability desirable for classroom use"
+    ],
+    "data_tracking": [
+      "Record all student attempts",
+      "Track time spent on activity",
+      "Log incorrect answers for teacher review",
+      "Monitor skip/quit rates",
+      "Track hint usage",
+      "Record accessibility features used"
+    ]
+  }
+}

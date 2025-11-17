@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "T25.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Foundational - recognizing and sorting data into categories",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G1.02",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Foundational - basic numerical comparison",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G1.03",
+    "dependencies": [
+      "T25.G1.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Understanding numeric meaning builds on comparison",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G1.04",
+    "dependencies": [
+      "T25.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T02.G1.01"
+    ],
+    "notes": "Creates visual representation from sorted data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G2.01",
+    "dependencies": [
+      "T25.G1.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Distinguishing data types builds on number understanding",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G2.02",
+    "dependencies": [
+      "T25.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01"
+    ],
+    "notes": "First use of variables to store data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G2.03",
+    "dependencies": [
+      "T25.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Identifying numeric vs constant data types",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G2.04",
+    "dependencies": [
+      "T25.G2.02"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.02"
+    ],
+    "notes": "Using variables to track changes",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G2.05",
+    "dependencies": [
+      "T25.G1.04",
+      "T25.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T02.G2.01"
+    ],
+    "notes": "Organizing data into tables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G3.01",
+    "dependencies": [
+      "T25.G2.05"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Understanding data quality",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G3.02",
+    "dependencies": [
+      "T25.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G3.01"
+    ],
+    "notes": "Creating surveys requires variables in code",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G3.03",
+    "dependencies": [
+      "T25.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G3.01"
+    ],
+    "notes": "Distinguishing data types in programs",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G3.04",
+    "dependencies": [
+      "T25.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G3.01"
+    ],
+    "notes": "Boolean values as data type",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G3.05",
+    "dependencies": [
+      "T25.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G3.01"
+    ],
+    "notes": "GATEWAY: First list data structures for data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": true,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G4.01",
+    "dependencies": [
+      "T25.G2.05",
+      "T25.G3.05"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G4.01"
+    ],
+    "notes": "Tables with rows and columns using lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G4.02",
+    "dependencies": [
+      "T25.G2.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Understanding binary representation",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G4.03",
+    "dependencies": [
+      "T25.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G4.01",
+      "T02.G4.01"
+    ],
+    "notes": "Tracing data flow through programs",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G4.04",
+    "dependencies": [
+      "T25.G3.05"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G4.01"
+    ],
+    "notes": "Accessing list data by position",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G4.05",
+    "dependencies": [
+      "T25.G4.01",
+      "T25.G4.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Converting between data representations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G5.01",
+    "dependencies": [
+      "T25.G3.03",
+      "T25.G4.04"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G5.01"
+    ],
+    "notes": "Using multiple data types together",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G5.02",
+    "dependencies": [
+      "T25.G4.01",
+      "T25.G4.04"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G5.01"
+    ],
+    "notes": "Tables as lists of records",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G5.03",
+    "dependencies": [
+      "T25.G4.05"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Different encodings for same data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G5.04",
+    "dependencies": [
+      "T25.G3.02",
+      "T25.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G5.01",
+      "T10.G5.01"
+    ],
+    "notes": "Designing data collection systems",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G5.05",
+    "dependencies": [
+      "T25.G5.01",
+      "T25.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G5.01"
+    ],
+    "notes": "Refactoring to use lists instead of separate variables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G6.01",
+    "dependencies": [
+      "T25.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Examining data type properties",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G6.02",
+    "dependencies": [
+      "T25.G2.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Local vs cloud-backed variables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G6.03",
+    "dependencies": [
+      "T25.G3.01",
+      "T25.G5.04"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Creating metadata for datasets",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G6.04",
+    "dependencies": [
+      "T25.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G6.01",
+      "T08.G6.01"
+    ],
+    "notes": "Filtering and organizing data with code",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G6.05",
+    "dependencies": [
+      "T25.G2.01",
+      "T25.G6.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Distinguishing data measurement levels",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G7.01",
+    "dependencies": [
+      "T25.G6.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Number precision and floating point",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G7.02",
+    "dependencies": [
+      "T25.G5.02",
+      "T25.G6.04"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G7.01"
+    ],
+    "notes": "Nested data structures (lists of lists)",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G7.03",
+    "dependencies": [
+      "T25.G6.01",
+      "T25.G6.05"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Evaluating data type appropriateness",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G7.04",
+    "dependencies": [
+      "T25.G3.01",
+      "T25.G7.03"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G7.01"
+    ],
+    "notes": "Handling missing/invalid data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G7.05",
+    "dependencies": [
+      "T25.G4.05",
+      "T25.G7.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Comparing storage efficiency of representations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G8.01",
+    "dependencies": [
+      "T25.G6.03",
+      "T25.G7.02"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G8.01"
+    ],
+    "notes": "Complete data schema design",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G8.02",
+    "dependencies": [
+      "T25.G3.01",
+      "T25.G7.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Recognizing bias in representation",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G8.03",
+    "dependencies": [
+      "T25.G7.02",
+      "T25.G7.05"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G8.01"
+    ],
+    "notes": "Advanced data structures for algorithms",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G8.04",
+    "dependencies": [
+      "T25.G7.04"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Data type mismatch errors",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T25.G8.05",
+    "dependencies": [
+      "T25.G8.01",
+      "T25.G8.02"
+    ],
+    "cross_domain_dependencies": [
+      "T35.G8.01"
+    ],
+    "notes": "Impact of representation on decisions - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [
+      "T25.G1.01"
+    ],
+    "notes": "Collecting data by asking questions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G1.02",
+    "dependencies": [
+      "T26.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G1.02"
+    ],
+    "notes": "Comparing groups of collected data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G1.03",
+    "dependencies": [
+      "T26.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G1.04"
+    ],
+    "notes": "Making lists from collected data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G2.01",
+    "dependencies": [
+      "T26.G1.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Collecting via observation and measurement",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G2.02",
+    "dependencies": [
+      "T26.G1.03"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G2.05"
+    ],
+    "notes": "Organizing into tables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G2.03",
+    "dependencies": [
+      "T26.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G2.02"
+    ],
+    "notes": "Using surveys to collect data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G2.04",
+    "dependencies": [
+      "T26.G2.02"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G2.05"
+    ],
+    "notes": "Recognizing missing data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G3.01",
+    "dependencies": [
+      "T26.G2.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Collaborating to collect consistent data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G3.02",
+    "dependencies": [
+      "T26.G2.04"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G3.01"
+    ],
+    "notes": "Evaluating data accuracy",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G3.03",
+    "dependencies": [
+      "T26.G2.02"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G3.05"
+    ],
+    "notes": "Multi-column tables using lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G3.04",
+    "dependencies": [
+      "T26.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G3.05",
+      "T10.G3.01"
+    ],
+    "notes": "Retrieving data from lists/tables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G4.01",
+    "dependencies": [
+      "T26.G3.01",
+      "T26.G3.02"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G3.02"
+    ],
+    "notes": "Designing surveys with clear questions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G4.02",
+    "dependencies": [
+      "T26.G3.04"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G4.01",
+      "T10.G4.01"
+    ],
+    "notes": "Logging events with counters/lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G4.03",
+    "dependencies": [
+      "T26.G3.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Creating metadata",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G4.04",
+    "dependencies": [
+      "T26.G3.04"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G4.01",
+      "T08.G4.01"
+    ],
+    "notes": "Spotting patterns in data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G5.01",
+    "dependencies": [
+      "T26.G4.02"
+    ],
+    "cross_domain_dependencies": [
+      "T06.G5.01"
+    ],
+    "notes": "Collecting data via sensors/automation",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G5.02",
+    "dependencies": [
+      "T26.G4.03"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G5.02"
+    ],
+    "notes": "Complex table structures",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G5.03",
+    "dependencies": [
+      "T26.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G5.01",
+      "T10.G5.01"
+    ],
+    "notes": "Filtering and sorting data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G5.04",
+    "dependencies": [
+      "T26.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G5.01"
+    ],
+    "notes": "Comparing datasets",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G5.05",
+    "dependencies": [
+      "T26.G5.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Saving and exporting data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G6.01",
+    "dependencies": [
+      "T26.G4.01",
+      "T26.G5.04"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G5.04"
+    ],
+    "notes": "Designing data collection plans",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G6.02",
+    "dependencies": [
+      "T26.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G5.04"
+    ],
+    "notes": "Multi-method data collection",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G6.03",
+    "dependencies": [
+      "T26.G5.05"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G6.02"
+    ],
+    "notes": "Sharing data via multiplayer/cloud",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G6.04",
+    "dependencies": [
+      "T26.G4.03",
+      "T26.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G6.03"
+    ],
+    "notes": "Organizing with metadata",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G6.05",
+    "dependencies": [
+      "T26.G2.04",
+      "T26.G5.03",
+      "T26.G3.02"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G6.01",
+      "T25.G6.01"
+    ],
+    "notes": "Cleaning and preparing data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  },
+  {
+    "id": "T26.G7.01",
+    "dependencies": [
+      "T26.G6.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Formulating testable questions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G7.02",
+    "dependencies": [
+      "T26.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G7.01"
+    ],
+    "notes": "Systematic collection with lists/tables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G7.03",
+    "dependencies": [
+      "T26.G5.03",
+      "T26.G7.02",
+      "T26.G6.05"
+    ],
+    "cross_domain_dependencies": [
+      "T11.G7.01",
+      "T08.G7.01",
+      "T10.G7.01"
+    ],
+    "notes": "Manipulating data with code",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T26.G7.04",
+    "dependencies": [
+      "T26.G6.05"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G7.04"
+    ],
+    "notes": "Identifying data quality issues",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G7.05",
+    "dependencies": [
+      "T26.G7.03",
+      "T26.G7.04"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Drawing conclusions from data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G8.01",
+    "dependencies": [
+      "T26.G7.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Ethical data collection processes",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G8.02",
+    "dependencies": [
+      "T26.G7.01",
+      "T26.G7.02",
+      "T26.G7.05",
+      "T26.G7.03",
+      "T26.G7.04"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G8.01",
+      "T11.G8.01"
+    ],
+    "notes": "Complete data investigation - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 7,
+    "capstone_skill": true
+  },
+  {
+    "id": "T26.G8.03",
+    "dependencies": [
+      "T26.G7.03"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G8.01"
+    ],
+    "notes": "Analyzing variable relationships",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G8.04",
+    "dependencies": [
+      "T26.G8.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G8.02"
+    ],
+    "notes": "Recognizing bias in collection",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T26.G8.05",
+    "dependencies": [
+      "T26.G6.03",
+      "T26.G8.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G6.02"
+    ],
+    "notes": "Group research with cloud data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [
+      "T26.G1.01"
+    ],
+    "notes": "Collecting and counting survey data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G1.02",
+    "dependencies": [
+      "T27.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G1.04"
+    ],
+    "notes": "Creating pictographs",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G1.03",
+    "dependencies": [
+      "T27.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G1.02"
+    ],
+    "notes": "Answering questions using counts",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G2.01",
+    "dependencies": [
+      "T27.G1.02"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G2.02"
+    ],
+    "notes": "Creating bar charts from tables",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G2.02",
+    "dependencies": [
+      "T27.G1.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Finding mode (most common value)",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G2.03",
+    "dependencies": [
+      "T27.G2.02"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G1.02"
+    ],
+    "notes": "Comparing data quantities",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G2.04",
+    "dependencies": [
+      "T27.G1.03"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.03"
+    ],
+    "notes": "Computing totals with addition",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G3.01",
+    "dependencies": [
+      "T27.G2.04"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G3.02",
+      "T07.G3.01"
+    ],
+    "notes": "Calculating average (needs loops)",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G3.02",
+    "dependencies": [
+      "T27.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G3.03"
+    ],
+    "notes": "Creating labeled charts",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G3.03",
+    "dependencies": [
+      "T27.G2.02",
+      "T27.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Identifying outliers",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G3.04",
+    "dependencies": [
+      "T27.G3.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Describing simple trends",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G4.01",
+    "dependencies": [
+      "T27.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G4.01"
+    ],
+    "notes": "Calculating mode and median from lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G4.02",
+    "dependencies": [
+      "T27.G3.01",
+      "T27.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G4.04"
+    ],
+    "notes": "Comparing datasets using averages",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G4.03",
+    "dependencies": [
+      "T27.G3.02",
+      "T27.G4.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Visualizing relationships",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G4.04",
+    "dependencies": [
+      "T27.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G2.04"
+    ],
+    "notes": "Identifying and fixing data errors",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G5.01",
+    "dependencies": [
+      "T27.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G5.01",
+      "T10.G5.01"
+    ],
+    "notes": "Using loops to aggregate data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G5.02",
+    "dependencies": [
+      "T27.G4.01",
+      "T27.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T11.G5.01"
+    ],
+    "notes": "Computing statistics with functions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G5.03",
+    "dependencies": [
+      "T27.G4.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G5.02"
+    ],
+    "notes": "Multi-variable visualizations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G5.04",
+    "dependencies": [
+      "T27.G3.03",
+      "T27.G5.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Describing variability and outliers",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G6.01",
+    "dependencies": [
+      "T27.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G6.01",
+      "T26.G5.03"
+    ],
+    "notes": "Filtering data by attributes",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G6.02",
+    "dependencies": [
+      "T27.G6.01",
+      "T27.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T11.G6.01",
+      "T10.G6.01"
+    ],
+    "notes": "Grouping and summarizing data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G6.03",
+    "dependencies": [
+      "T27.G6.02"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G6.04"
+    ],
+    "notes": "Identifying variable relationships",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G6.04",
+    "dependencies": [
+      "T27.G5.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Evaluating visualization design",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G7.01",
+    "dependencies": [
+      "T27.G6.02",
+      "T27.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G7.01",
+      "T28.G6.01"
+    ],
+    "notes": "Simulating data collection",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G7.02",
+    "dependencies": [
+      "T27.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G7.04"
+    ],
+    "notes": "Identifying collection bias",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G7.03",
+    "dependencies": [
+      "T27.G6.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Analyzing trends and predictions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G7.04",
+    "dependencies": [
+      "T27.G6.02",
+      "T27.G5.04"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Comparing data distributions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G8.01",
+    "dependencies": [
+      "T27.G7.01",
+      "T27.G6.02",
+      "T27.G6.01",
+      "T27.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G8.02",
+      "T11.G7.01"
+    ],
+    "notes": "Complete data investigation - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T27.G8.02",
+    "dependencies": [
+      "T27.G6.03",
+      "T27.G7.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G8.03"
+    ],
+    "notes": "Analyzing causal relationships",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T27.G8.03",
+    "dependencies": [
+      "T27.G6.04",
+      "T27.G5.03",
+      "T27.G6.02"
+    ],
+    "cross_domain_dependencies": [
+      "T16.G8.01",
+      "T06.G8.01",
+      "T09.G8.01"
+    ],
+    "notes": "Interactive data dashboard - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T27.G8.04",
+    "dependencies": [
+      "T27.G8.01",
+      "T27.G8.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Evaluating data-driven conclusions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [],
+    "notes": "Foundational - recognizing likelihood",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 0,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G1.02",
+    "dependencies": [
+      "T28.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G1.01"
+    ],
+    "notes": "Performing simple experiments",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G1.03",
+    "dependencies": [
+      "T28.G1.02"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G1.03"
+    ],
+    "notes": "Comparing predictions to results",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G2.01",
+    "dependencies": [
+      "T28.G1.02"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G2.01"
+    ],
+    "notes": "Using loops for many trials",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G2.02",
+    "dependencies": [
+      "T28.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.01",
+      "T27.G2.01"
+    ],
+    "notes": "Tallying experiment results",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G2.03",
+    "dependencies": [
+      "T28.G2.02"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G2.02"
+    ],
+    "notes": "Recognizing patterns in experiments",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G2.04",
+    "dependencies": [
+      "T28.G2.03"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Fair game concept",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G3.01",
+    "dependencies": [
+      "T28.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G3.01",
+      "T09.G3.01"
+    ],
+    "notes": "Simulating 50+ trials with code",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G3.02",
+    "dependencies": [
+      "T28.G3.01",
+      "T28.G2.03"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G3.01"
+    ],
+    "notes": "Comparing experiment frequencies",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G3.03",
+    "dependencies": [
+      "T28.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G3.01"
+    ],
+    "notes": "Planning surveys",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G3.04",
+    "dependencies": [
+      "T28.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G3.02"
+    ],
+    "notes": "Recognizing sampling bias",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G4.01",
+    "dependencies": [
+      "T28.G3.02"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G4.01"
+    ],
+    "notes": "Calculating theoretical probability",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G4.02",
+    "dependencies": [
+      "T28.G4.01",
+      "T28.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G4.02"
+    ],
+    "notes": "Comparing experimental vs theoretical",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G4.03",
+    "dependencies": [
+      "T28.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G4.01"
+    ],
+    "notes": "Weighted probability simulations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G4.04",
+    "dependencies": [
+      "T28.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G4.01"
+    ],
+    "notes": "Responsible survey data collection",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G5.01",
+    "dependencies": [
+      "T28.G4.03"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G5.01",
+      "T09.G5.01"
+    ],
+    "notes": "Designing realistic simulations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G5.02",
+    "dependencies": [
+      "T28.G4.02",
+      "T28.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G5.02"
+    ],
+    "notes": "Estimating probability from data",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G5.03",
+    "dependencies": [
+      "T28.G5.02"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G5.04"
+    ],
+    "notes": "Sample size effects on stability",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G5.04",
+    "dependencies": [
+      "T28.G3.04",
+      "T28.G5.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G5.04"
+    ],
+    "notes": "Analyzing bias in experiments",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G6.01",
+    "dependencies": [
+      "T28.G5.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G6.01"
+    ],
+    "notes": "Designing controlled experiments",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G6.02",
+    "dependencies": [
+      "T28.G5.01",
+      "T28.G5.03"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G6.02"
+    ],
+    "notes": "Analyzing variability in simulations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G6.03",
+    "dependencies": [
+      "T28.G6.02",
+      "T28.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G6.04",
+      "T27.G6.03"
+    ],
+    "notes": "Identifying variable relationships - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G6.04",
+    "dependencies": [
+      "T28.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T28.G2.04"
+    ],
+    "notes": "Evaluating fairness",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G7.01",
+    "dependencies": [
+      "T28.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G7.01"
+    ],
+    "notes": "Full experiment with hypothesis",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G7.02",
+    "dependencies": [
+      "T28.G7.01",
+      "T28.G5.02",
+      "T28.G6.02"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G7.01",
+      "T11.G7.01",
+      "T10.G7.01"
+    ],
+    "notes": "Monte Carlo simulation - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T28.G7.03",
+    "dependencies": [
+      "T28.G5.04"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G7.04",
+      "T27.G7.02",
+      "T35.G7.01"
+    ],
+    "notes": "Analyzing bias sources and impact",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G7.04",
+    "dependencies": [
+      "T28.G7.01",
+      "T28.G5.03"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G7.04"
+    ],
+    "notes": "Sampling experiments",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G8.01",
+    "dependencies": [
+      "T28.G7.01",
+      "T28.G7.02",
+      "T28.G7.04"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G8.02",
+      "T27.G8.01",
+      "T11.G8.01"
+    ],
+    "notes": "Real-world experiment design - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T28.G8.02",
+    "dependencies": [
+      "T28.G7.02",
+      "T28.G7.04"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G8.02"
+    ],
+    "notes": "Large-scale probability estimation",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G8.03",
+    "dependencies": [
+      "T28.G7.03",
+      "T28.G8.01"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G8.01",
+      "T21.G8.01"
+    ],
+    "notes": "Analyzing bias in AI models - AI BRIDGE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T28.G8.04",
+    "dependencies": [
+      "T28.G8.01",
+      "T28.G8.03"
+    ],
+    "cross_domain_dependencies": [
+      "T26.G8.04"
+    ],
+    "notes": "Ethical considerations in data decisions",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G1.01",
+    "dependencies": [],
+    "cross_domain_dependencies": [
+      "T09.G1.01"
+    ],
+    "notes": "Counting words in sentences",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G1.02",
+    "dependencies": [
+      "T29.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G1.01"
+    ],
+    "notes": "Finding words in lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G1.03",
+    "dependencies": [
+      "T29.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T25.G1.01"
+    ],
+    "notes": "Classifying words by letter",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G1.04",
+    "dependencies": [
+      "T29.G1.01"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G1.03"
+    ],
+    "notes": "Counting word repetition",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G2.01",
+    "dependencies": [
+      "T29.G1.02"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G2.01",
+      "T25.G2.01"
+    ],
+    "notes": "Creating word lists in projects",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G2.02",
+    "dependencies": [
+      "T29.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G2.02"
+    ],
+    "notes": "Searching word lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G2.03",
+    "dependencies": [
+      "T29.G1.04"
+    ],
+    "cross_domain_dependencies": [
+      "T09.G2.04"
+    ],
+    "notes": "Counting word frequency",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G2.04",
+    "dependencies": [
+      "T29.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G2.03"
+    ],
+    "notes": "Sorting words alphabetically",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G3.01",
+    "dependencies": [
+      "T29.G2.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G3.01"
+    ],
+    "notes": "Extracting first letter",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G3.02",
+    "dependencies": [
+      "T29.G2.02"
+    ],
+    "cross_domain_dependencies": [
+      "T08.G3.01"
+    ],
+    "notes": "Checking for substrings",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G3.03",
+    "dependencies": [],
+    "cross_domain_dependencies": [
+      "T22.G3.01"
+    ],
+    "notes": "GATEWAY: First AI interaction for text",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": true,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G3.04",
+    "dependencies": [
+      "T29.G3.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Text case conversion",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G4.01",
+    "dependencies": [
+      "T29.G3.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G4.01"
+    ],
+    "notes": "String length operations",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G4.02",
+    "dependencies": [
+      "T29.G1.01",
+      "T29.G4.01"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G4.01"
+    ],
+    "notes": "Counting words in passages",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G4.03",
+    "dependencies": [
+      "T29.G3.03"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G4.01"
+    ],
+    "notes": "AI text classification (sentiment)",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G4.04",
+    "dependencies": [
+      "T29.G3.02"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Removing spaces/punctuation",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G5.01",
+    "dependencies": [
+      "T29.G2.03",
+      "T29.G4.02"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G5.01",
+      "T10.G5.01"
+    ],
+    "notes": "Word frequency analysis with loops",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G5.02",
+    "dependencies": [
+      "T29.G5.01",
+      "T29.G4.02"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G5.03",
+      "T16.G5.01"
+    ],
+    "notes": "Visualizing text data - DATA VIZ BRIDGE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 4,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G5.03",
+    "dependencies": [
+      "T29.G4.03"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G5.01"
+    ],
+    "notes": "AI text summarization",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G5.04",
+    "dependencies": [
+      "T29.G5.01"
+    ],
+    "cross_domain_dependencies": [],
+    "notes": "Extracting keywords from text",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 1,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G6.01",
+    "dependencies": [
+      "T29.G4.04"
+    ],
+    "cross_domain_dependencies": [
+      "T10.G6.01"
+    ],
+    "notes": "Splitting text into word lists",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G6.02",
+    "dependencies": [
+      "T29.G3.02",
+      "T29.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T07.G6.01"
+    ],
+    "notes": "Finding all substring occurrences",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G6.03",
+    "dependencies": [
+      "T29.G5.03"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G6.01"
+    ],
+    "notes": "Multi-category AI text classification",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G6.04",
+    "dependencies": [
+      "T29.G5.01",
+      "T29.G6.01"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G6.02"
+    ],
+    "notes": "Text data analysis and statistics",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G7.01",
+    "dependencies": [
+      "T29.G6.01",
+      "T29.G4.04"
+    ],
+    "cross_domain_dependencies": [
+      "T11.G7.01"
+    ],
+    "notes": "Text preprocessing for analysis",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G7.02",
+    "dependencies": [
+      "T29.G7.01"
+    ],
+    "cross_domain_dependencies": [
+      "T27.G7.03"
+    ],
+    "notes": "Text similarity computation",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G7.03",
+    "dependencies": [
+      "T29.G6.03"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G7.01"
+    ],
+    "notes": "AI question-answering on text",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 2,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G8.01",
+    "dependencies": [
+      "T29.G6.02",
+      "T29.G7.01",
+      "T29.G7.02"
+    ],
+    "cross_domain_dependencies": [
+      "T11.G8.01",
+      "T10.G8.01",
+      "T08.G8.01"
+    ],
+    "notes": "Keyword search system - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 6,
+    "capstone_skill": true
+  },
+  {
+    "id": "T29.G8.02",
+    "dependencies": [
+      "T29.G6.03",
+      "T29.G7.03"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G8.01"
+    ],
+    "notes": "AI sentiment analysis at scale",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G8.03",
+    "dependencies": [
+      "T29.G7.03",
+      "T29.G8.01"
+    ],
+    "cross_domain_dependencies": [
+      "T22.G8.01"
+    ],
+    "notes": "AI entity extraction - AI BRIDGE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 3,
+    "capstone_skill": false
+  },
+  {
+    "id": "T29.G8.04",
+    "dependencies": [
+      "T29.G8.02",
+      "T29.G8.03",
+      "T29.G8.01"
+    ],
+    "cross_domain_dependencies": [
+      "T28.G8.04",
+      "T35.G8.01"
+    ],
+    "notes": "Ethical implications of NLP - CAPSTONE",
+    "grade_level_ok": true,
+    "quality_issues": [],
+    "gateway_skill": false,
+    "dependency_count": 5,
+    "capstone_skill": true
+  }
+]

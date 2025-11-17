@@ -1,0 +1,28 @@
+{
+  "total_skills": 156,
+  "by_topic": {
+    "T01": 32,
+    "T02": 31,
+    "T03": 29,
+    "T04": 32,
+    "T05": 32
+  },
+  "by_grade": {
+    "1": 18,
+    "2": 19,
+    "3": 19,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 20,
+    "8": 20
+  },
+  "grade_conflicts": [],
+  "quality_issues_count": 0,
+  "dependency_stats": {
+    "no_dependencies": 5,
+    "within_topic_only": 114,
+    "cross_topic": 37,
+    "avg_dependencies": 1.2371794871794872
+  }
+}

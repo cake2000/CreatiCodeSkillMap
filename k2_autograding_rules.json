@@ -1,0 +1,714 @@
+{
+  "autograding_rules_version": "1.0.0",
+  "description": "Auto-grading logic specifications for K-2 picture-based activities",
+  "grading_types": {
+    "sequence_order": {
+      "name": "Sequence Order Validation",
+      "description": "Validates that items are arranged in the correct sequential order",
+      "applicable_activities": ["drag_drop_sequence", "path_tracing"],
+      "validation_logic": {
+        "comparison_method": "array_equality",
+        "steps": [
+          "Extract student's ordered array of item IDs from submission",
+          "Compare to correct_answer array element by element",
+          "Return true if arrays match exactly, false otherwise"
+        ],
+        "code_example": "studentAnswer.every((item, index) => item === correctAnswer[index])"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false,
+          "reason": "All-or-nothing grading for simplicity and clarity"
+        },
+        "grade_1": {
+          "enabled": false,
+          "reason": "All-or-nothing grading for simplicity and clarity"
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "75% in correct position",
+              "credit_percentage": 50,
+              "feedback": "You're close! A few items are in the wrong order."
+            },
+            {
+              "condition": "All items present but order wrong",
+              "credit_percentage": 25,
+              "feedback": "All the pieces are there, but check the order!"
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "Perfect! You got all the steps in the right order!",
+            "Great job sequencing!",
+            "Excellent! That's the correct order!",
+            "You did it! Everything is in the right place!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["confetti", "stars", "dancing_character"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Not quite right. Try again!",
+            "hint": "Look at the first step. What should happen first?",
+            "audio": "Not quite right. Look at what should happen first, and try again!"
+          },
+          "attempt_2": {
+            "message": "Keep trying! Think about what comes first, next, and last.",
+            "hint": "What needs to happen before the last step?",
+            "audio": "Keep trying! Think carefully about the order from beginning to end."
+          },
+          "attempt_3": {
+            "message": "Let's look at the correct order together.",
+            "show_correct_answer": true,
+            "audio": "Let's look at the correct order together. You can try a new one next!"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": true,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "category_match": {
+      "name": "Category Matching Validation",
+      "description": "Validates that all items are sorted into correct categories",
+      "applicable_activities": ["sort_categories", "yes_no_sort"],
+      "validation_logic": {
+        "comparison_method": "object_comparison",
+        "steps": [
+          "Extract student's mapping of {item_id: category_id}",
+          "Compare each item's assigned category to correct mapping",
+          "Count correct placements",
+          "Return true if all correct, false otherwise"
+        ],
+        "code_example": "Object.keys(correctAnswer).every(item => studentAnswer[item] === correctAnswer[item])"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "80-99% correct",
+              "credit_percentage": 75,
+              "feedback": "Almost perfect! Just one or two are in the wrong place."
+            },
+            {
+              "condition": "60-79% correct",
+              "credit_percentage": 50,
+              "feedback": "Good start! A few items need to be moved."
+            },
+            {
+              "condition": "below 60%",
+              "credit_percentage": 0,
+              "feedback": "Let's try again. Think carefully about each category."
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "Perfect sorting!",
+            "You got them all in the right groups!",
+            "Excellent work! All sorted correctly!",
+            "Great job! Every item is where it belongs!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["checkmarks_on_containers", "stars", "happy_animation"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Some items are in the wrong group. Try moving them!",
+            "hint": "Look carefully at each item. Does it match the label?",
+            "audio": "Some items are in the wrong group. Look at the labels and try moving them!",
+            "visual_hint": false
+          },
+          "attempt_2": {
+            "message": "Keep going! Read each label carefully.",
+            "hint": "Which items don't match their group?",
+            "audio": "Keep going! Read each label carefully and match the items.",
+            "visual_hint": true,
+            "visual_hint_type": "shake_incorrect_items"
+          },
+          "attempt_3": {
+            "message": "Let's see where each item belongs.",
+            "show_correct_answer": true,
+            "audio": "Let's see where each item belongs. Watch closely!"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": false,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "pair_match": {
+      "name": "Pair Matching Validation",
+      "description": "Validates that items are correctly paired/matched",
+      "applicable_activities": ["match_pairs"],
+      "validation_logic": {
+        "comparison_method": "bijection_check",
+        "steps": [
+          "Extract student's pairing object {left_item_id: right_item_id}",
+          "Verify each pairing against correct answer",
+          "Count correct pairs",
+          "Return true if all pairs correct"
+        ],
+        "code_example": "Object.entries(correctAnswer).every(([left, right]) => studentAnswer[left] === right)"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "75-99% correct pairs",
+              "credit_percentage": 60,
+              "feedback": "You matched most of them! A couple need to be switched."
+            },
+            {
+              "condition": "50-74% correct pairs",
+              "credit_percentage": 40,
+              "feedback": "Good try! About half are correct. Keep working on it!"
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "Perfect matches!",
+            "You paired everything correctly!",
+            "Excellent! All matches are right!",
+            "Great work matching!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["connecting_lines_glow", "stars_at_connections"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Some pairs aren't quite right. Try switching!",
+            "hint": "Look carefully at what goes together.",
+            "audio": "Some pairs aren't quite right. Look carefully and try switching!"
+          },
+          "attempt_2": {
+            "message": "Keep trying! Think about how these items connect.",
+            "hint": "Which ones really go together?",
+            "audio": "Keep trying! Think about how these items connect to each other.",
+            "visual_hint": true,
+            "visual_hint_type": "highlight_category_groups"
+          },
+          "attempt_3": {
+            "message": "Let's see the correct matches!",
+            "show_correct_answer": true,
+            "audio": "Let's see the correct matches together!"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": true,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "selection_set": {
+      "name": "Selection Set Validation",
+      "description": "Validates that correct items are selected (and incorrect ones are not)",
+      "applicable_activities": ["click_select"],
+      "validation_logic": {
+        "comparison_method": "set_equality",
+        "steps": [
+          "Extract student's selected item IDs as a set",
+          "Compare to correct answer set",
+          "Check for missing items (should be selected but aren't)",
+          "Check for extra items (shouldn't be selected but are)",
+          "Return true if sets match exactly"
+        ],
+        "code_example": "new Set(correctAnswer).equals(new Set(studentAnswer)) && correctAnswer.length === studentAnswer.length"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "All correct items selected, but 1 extra",
+              "credit_percentage": 50,
+              "feedback": "You found all the right ones, but selected one extra!"
+            },
+            {
+              "condition": "Missing 1 correct item, no extras",
+              "credit_percentage": 50,
+              "feedback": "You're close! You missed one item."
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "You found them all!",
+            "Perfect! You selected all the right ones!",
+            "Great job! Those are all correct!",
+            "Excellent selection!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["selected_items_sparkle", "checkmarks_appear"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Not quite! Check your selections.",
+            "hint": "Did you get all of them? Are there any you should remove?",
+            "audio": "Not quite! Look again. Did you get all the right ones?"
+          },
+          "attempt_2": {
+            "message": "Keep looking! Read the question again.",
+            "hint": "Count how many you should select.",
+            "audio": "Keep looking! Read the question again and count carefully.",
+            "visual_hint": true,
+            "visual_hint_type": "show_expected_count"
+          },
+          "attempt_3": {
+            "message": "Let's see which ones are correct!",
+            "show_correct_answer": true,
+            "audio": "Let's see which ones are correct together!"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": false,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "pattern_completion": {
+      "name": "Pattern Completion Validation",
+      "description": "Validates that missing pattern elements are filled correctly",
+      "applicable_activities": ["pattern_complete"],
+      "validation_logic": {
+        "comparison_method": "position_match",
+        "steps": [
+          "Extract student's answers for blank position(s)",
+          "Compare each blank's answer to correct pattern element",
+          "Return true if all blanks filled correctly"
+        ],
+        "code_example": "blankPositions.every(pos => studentAnswer[pos] === correctAnswer[pos])"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "Multiple blanks, 75%+ correct",
+              "credit_percentage": 60,
+              "feedback": "You got most of the pattern right!"
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "Perfect! You completed the pattern!",
+            "Great pattern thinking!",
+            "You got it! The pattern is complete!",
+            "Excellent work with patterns!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["pattern_animates", "stars", "completion_glow"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "That doesn't fit the pattern. Try again!",
+            "hint": "Look at what repeats in the pattern.",
+            "audio": "That doesn't fit the pattern. Look at what repeats and try again!"
+          },
+          "attempt_2": {
+            "message": "Keep trying! Say the pattern out loud.",
+            "hint": "What comes after the pattern repeats?",
+            "audio": "Keep trying! Say the pattern parts out loud to help you see it.",
+            "visual_hint": true,
+            "visual_hint_type": "animate_pattern_sequence"
+          },
+          "attempt_3": {
+            "message": "Let's complete the pattern together!",
+            "show_correct_answer": true,
+            "audio": "Let's complete the pattern together. Watch the repeating part!"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": false,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "location_accuracy": {
+      "name": "Location Accuracy Validation",
+      "description": "Validates that clicks/taps are within correct hot spot boundaries",
+      "applicable_activities": ["hot_spot_click", "path_tracing"],
+      "validation_logic": {
+        "comparison_method": "coordinate_bounds_check",
+        "steps": [
+          "Extract student's click coordinates (x, y)",
+          "Check if coordinates fall within any correct hot spot boundary",
+          "For multiple hot spots, verify all required spots were clicked",
+          "Return true if all required spots clicked correctly"
+        ],
+        "code_example": "requiredHotSpots.every(spot => studentClicks.some(click => spot.contains(click.x, click.y)))"
+      },
+      "tolerance_settings": {
+        "grade_k": {
+          "hot_spot_padding": "30px",
+          "reason": "Extra generous hit boxes for developing motor skills"
+        },
+        "grade_1": {
+          "hot_spot_padding": "20px",
+          "reason": "Generous hit boxes"
+        },
+        "grade_2": {
+          "hot_spot_padding": "10px",
+          "reason": "Standard hit boxes with some tolerance"
+        }
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "Multiple hot spots, 75%+ found",
+              "credit_percentage": 60,
+              "feedback": "You found most of them!"
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "You found it!",
+            "Perfect! That's the right spot!",
+            "Great clicking!",
+            "You found them all!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["spot_highlights", "checkmark_appears", "ding_sound"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Not quite! Look more carefully.",
+            "hint": "Look at the whole picture. What do you see?",
+            "audio": "Not quite! Look at the whole picture more carefully."
+          },
+          "attempt_2": {
+            "message": "Keep looking! It's there!",
+            "hint": "Look in a different area.",
+            "audio": "Keep looking! Look in different areas of the picture.",
+            "visual_hint": true,
+            "visual_hint_type": "highlight_region"
+          },
+          "attempt_3": {
+            "message": "Here's where it is!",
+            "show_correct_answer": true,
+            "visual_hint_type": "circle_correct_spots",
+            "audio": "Here's where it is! Can you see it now?"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": false,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "binary_classification": {
+      "name": "Binary Classification Validation",
+      "description": "Validates Yes/No, True/False, or other two-category classifications",
+      "applicable_activities": ["yes_no_sort"],
+      "validation_logic": {
+        "comparison_method": "category_match",
+        "steps": [
+          "Extract student's classification for each item",
+          "Compare to correct binary category for each item",
+          "Count correct classifications",
+          "Return true if all correct"
+        ],
+        "code_example": "items.every(item => studentAnswer[item] === correctAnswer[item])"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": true,
+          "rules": [
+            {
+              "condition": "75-99% correct",
+              "credit_percentage": 70,
+              "feedback": "Almost! Just one or two need to be switched."
+            },
+            {
+              "condition": "60-74% correct",
+              "credit_percentage": 50,
+              "feedback": "Good try! Some need to be moved to the other group."
+            }
+          ]
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "Perfect sorting!",
+            "You got them all right!",
+            "Great job! All in the right groups!",
+            "Excellent thinking!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["checkmarks", "stars", "happy_animation"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Some are in the wrong group. Try again!",
+            "hint": "Think carefully about each one.",
+            "audio": "Some are in the wrong group. Think carefully about each one and try again!"
+          },
+          "attempt_2": {
+            "message": "Keep trying! Read the labels again.",
+            "hint": "Does this belong in Yes or No?",
+            "audio": "Keep trying! Read the labels again for each item.",
+            "visual_hint": false
+          },
+          "attempt_3": {
+            "message": "Let's see the correct groups!",
+            "show_correct_answer": true,
+            "audio": "Let's see which group each item belongs to!"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": false,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    },
+    "single_choice": {
+      "name": "Single Choice Validation",
+      "description": "Validates that one correct option is selected from multiple choices",
+      "applicable_activities": ["multiple_choice_visual", "counting_interaction"],
+      "validation_logic": {
+        "comparison_method": "simple_equality",
+        "steps": [
+          "Extract student's selected option ID",
+          "Compare to correct answer option ID",
+          "Return true if match, false otherwise"
+        ],
+        "code_example": "studentAnswer === correctAnswer"
+      },
+      "partial_credit_rules": {
+        "grade_k": {
+          "enabled": false
+        },
+        "grade_1": {
+          "enabled": false
+        },
+        "grade_2": {
+          "enabled": false
+        }
+      },
+      "feedback_generation": {
+        "correct": {
+          "messages": [
+            "That's right!",
+            "Perfect choice!",
+            "Yes! That's the correct one!",
+            "Great job!"
+          ],
+          "audio": "random_from_messages",
+          "visual_effects": ["selected_option_glows", "checkmark", "stars"]
+        },
+        "incorrect": {
+          "attempt_1": {
+            "message": "Not that one. Try again!",
+            "hint": "Look at all the choices carefully.",
+            "audio": "Not that one. Look at all the choices carefully and try again!"
+          },
+          "attempt_2": {
+            "message": "Keep trying! You can do it!",
+            "hint": "Think about what the question is asking.",
+            "audio": "Keep trying! Think about what the question is asking.",
+            "visual_hint": false
+          },
+          "attempt_3": {
+            "message": "The correct answer is...",
+            "show_correct_answer": true,
+            "audio": "Let me show you the correct answer!",
+            "visual_highlight": "border_correct_option_green"
+          }
+        }
+      },
+      "retry_configuration": {
+        "max_attempts": 3,
+        "reset_on_retry": true,
+        "show_answer_after_max": true,
+        "cooldown_seconds": 0
+      }
+    }
+  },
+  "common_validation_utilities": {
+    "input_sanitization": {
+      "description": "Clean and validate student input before grading",
+      "steps": [
+        "Check that submission is complete (all required fields present)",
+        "Validate data types (IDs are strings, counts are numbers, etc.)",
+        "Remove duplicate entries if applicable",
+        "Trim whitespace from text inputs (if any)",
+        "Ensure array lengths match expected values"
+      ]
+    },
+    "error_handling": {
+      "incomplete_submission": {
+        "message": "You're not done yet! Make sure to answer everything.",
+        "audio": "You're not done yet! Make sure to fill in all the spaces.",
+        "action": "do_not_grade"
+      },
+      "invalid_input": {
+        "message": "Something went wrong. Let's try again!",
+        "audio": "Oops! Something went wrong. Let's start this one again.",
+        "action": "reset_activity"
+      },
+      "timeout": {
+        "message": "Taking your time? Click submit when you're ready!",
+        "audio": "No rush! Click the submit button when you're ready.",
+        "action": "remind_to_submit"
+      }
+    },
+    "special_cases": {
+      "empty_submission": {
+        "description": "Student submits without any answer",
+        "response": "Please make your choice before clicking submit!",
+        "audio": "Please make your choice before clicking the submit button!",
+        "action": "do_not_grade"
+      },
+      "partial_submission": {
+        "description": "Only some required elements completed",
+        "response": "Make sure to complete all parts before submitting!",
+        "audio": "Make sure to complete all parts before you submit!",
+        "action": "do_not_grade"
+      }
+    }
+  },
+  "feedback_randomization": {
+    "description": "Keep feedback fresh by randomizing messages",
+    "correct_messages_pool": [
+      "Perfect!",
+      "Great job!",
+      "You did it!",
+      "Excellent!",
+      "Wonderful!",
+      "Amazing work!",
+      "Super!",
+      "You're a star!",
+      "Fantastic!",
+      "Way to go!"
+    ],
+    "encouragement_messages_pool": [
+      "Try again!",
+      "Give it another try!",
+      "Keep trying!",
+      "You can do it!",
+      "Don't give up!",
+      "Almost there!",
+      "Keep going!",
+      "You're learning!"
+    ],
+    "implementation_note": "Randomly select from pool for variety, but maintain age-appropriate language"
+  },
+  "accessibility_feedback": {
+    "screen_reader_announcements": {
+      "on_submit": "Checking your answer...",
+      "on_correct": "Correct! [specific feedback message]",
+      "on_incorrect": "Not quite right. [specific feedback message]",
+      "on_hint": "Hint: [hint text]",
+      "on_show_answer": "Here's the correct answer: [answer description]"
+    },
+    "visual_feedback": {
+      "correct": ["green_checkmark", "stars", "confetti", "happy_face", "thumbs_up"],
+      "incorrect": ["encouraging_message", "hint_icon", "try_again_button"],
+      "show_answer": ["highlight_correct_items", "animate_solution", "explanatory_overlay"]
+    },
+    "audio_feedback": {
+      "correct_sounds": ["happy_ding", "success_chime", "applause", "cheers"],
+      "incorrect_sounds": ["gentle_boop", "thinking_tone"],
+      "hint_sounds": ["lightbulb_ding", "question_tone"]
+    }
+  },
+  "analytics_tracking": {
+    "data_points_to_record": [
+      "activity_id",
+      "student_id",
+      "timestamp",
+      "attempt_number",
+      "student_answer",
+      "correct_answer",
+      "is_correct",
+      "time_spent_seconds",
+      "hints_used",
+      "accessibility_features_used",
+      "device_type",
+      "final_outcome (correct/incorrect/shown_answer/skipped)"
+    ],
+    "aggregate_metrics": [
+      "First-attempt accuracy rate",
+      "Average attempts before correct",
+      "Average time to completion",
+      "Hint usage rate",
+      "Most common errors",
+      "Skip/quit rate"
+    ]
+  }
+}

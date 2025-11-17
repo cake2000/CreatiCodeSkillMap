@@ -1,0 +1,187 @@
+{
+  "total_skills": 1155,
+  "original_deps": 1168,
+  "final_deps": 4220,
+  "added_deps": 3052,
+  "avg_deps": 3.653679653679654,
+  "topic_stats": {
+    "T01": {
+      "count": 32,
+      "deps": 41
+    },
+    "T02": {
+      "count": 31,
+      "deps": 63
+    },
+    "T03": {
+      "count": 29,
+      "deps": 58
+    },
+    "T04": {
+      "count": 32,
+      "deps": 63
+    },
+    "T05": {
+      "count": 32,
+      "deps": 39
+    },
+    "T06": {
+      "count": 32,
+      "deps": 59
+    },
+    "T07": {
+      "count": 32,
+      "deps": 79
+    },
+    "T08": {
+      "count": 32,
+      "deps": 116
+    },
+    "T09": {
+      "count": 40,
+      "deps": 106
+    },
+    "T10": {
+      "count": 33,
+      "deps": 121
+    },
+    "T11": {
+      "count": 32,
+      "deps": 96
+    },
+    "T12": {
+      "count": 32,
+      "deps": 100
+    },
+    "T13": {
+      "count": 32,
+      "deps": 128
+    },
+    "T14": {
+      "count": 32,
+      "deps": 190
+    },
+    "T15": {
+      "count": 32,
+      "deps": 180
+    },
+    "T16": {
+      "count": 32,
+      "deps": 182
+    },
+    "T17": {
+      "count": 32,
+      "deps": 170
+    },
+    "T18": {
+      "count": 32,
+      "deps": 191
+    },
+    "T19": {
+      "count": 31,
+      "deps": 200
+    },
+    "T20": {
+      "count": 32,
+      "deps": 173
+    },
+    "T21": {
+      "count": 32,
+      "deps": 185
+    },
+    "T22": {
+      "count": 31,
+      "deps": 187
+    },
+    "T23": {
+      "count": 32,
+      "deps": 194
+    },
+    "T24": {
+      "count": 28,
+      "deps": 190
+    },
+    "T25": {
+      "count": 39,
+      "deps": 156
+    },
+    "T26": {
+      "count": 35,
+      "deps": 177
+    },
+    "T27": {
+      "count": 31,
+      "deps": 181
+    },
+    "T28": {
+      "count": 31,
+      "deps": 154
+    },
+    "T29": {
+      "count": 31,
+      "deps": 140
+    },
+    "T30": {
+      "count": 32,
+      "deps": 28
+    },
+    "T31": {
+      "count": 31,
+      "deps": 44
+    },
+    "T32": {
+      "count": 34,
+      "deps": 52
+    },
+    "T33": {
+      "count": 29,
+      "deps": 58
+    },
+    "T34": {
+      "count": 32,
+      "deps": 28
+    },
+    "T35": {
+      "count": 32,
+      "deps": 40
+    },
+    "T36": {
+      "count": 31,
+      "deps": 51
+    }
+  },
+  "grade_stats": {
+    "1": {
+      "count": 133,
+      "deps": 80
+    },
+    "2": {
+      "count": 142,
+      "deps": 204
+    },
+    "3": {
+      "count": 143,
+      "deps": 518
+    },
+    "4": {
+      "count": 146,
+      "deps": 491
+    },
+    "5": {
+      "count": 149,
+      "deps": 538
+    },
+    "6": {
+      "count": 148,
+      "deps": 790
+    },
+    "7": {
+      "count": 145,
+      "deps": 782
+    },
+    "8": {
+      "count": 149,
+      "deps": 817
+    }
+  }
+}

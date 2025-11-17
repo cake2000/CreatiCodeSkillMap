@@ -1,0 +1,1906 @@
+[
+  {
+    "id": "T01.G1.01",
+    "title": "Write or draw steps for a simple task",
+    "topic": "T01",
+    "grade": 1,
+    "dependencies": [],
+    "notes": "Foundational skill - recognizing sequences in daily activities",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G1.02",
+    "title": "Trace and predict the outcome of a simple algorithm",
+    "topic": "T01",
+    "grade": 1,
+    "dependencies": [
+      "T01.G1.01"
+    ],
+    "notes": "Builds on sequence recognition to create simple step-by-step instructions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G1.03",
+    "title": "Identify missing or incorrect steps in an algorithm",
+    "topic": "T01",
+    "grade": 1,
+    "dependencies": [
+      "T01.G1.02"
+    ],
+    "notes": "Applies instruction creation to storytelling context",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G1.04",
+    "title": "Compare two algorithms for the same task",
+    "topic": "T01",
+    "grade": 1,
+    "dependencies": [
+      "T01.G1.02"
+    ],
+    "notes": "Applies sequential thinking to everyday tasks",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G2.01",
+    "title": "Write an algorithm with \"if/then\" choice",
+    "topic": "T01",
+    "grade": 2,
+    "dependencies": [
+      "T01.G1.02"
+    ],
+    "notes": "Extends simple instructions to more detailed algorithm writing",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G2.02",
+    "title": "Write an algorithm with a repeat statement",
+    "topic": "T01",
+    "grade": 2,
+    "dependencies": [
+      "T01.G2.01"
+    ],
+    "notes": "Adds precision and clarity to algorithm writing",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G2.03",
+    "title": "Trace an algorithm with branching or repetition",
+    "topic": "T01",
+    "grade": 2,
+    "dependencies": [
+      "T01.G2.01"
+    ],
+    "notes": "Introduces ordering and sequencing of algorithm steps",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G2.04",
+    "title": "Unplugged maze or robot navigation with instructions",
+    "topic": "T01",
+    "grade": 2,
+    "dependencies": [
+      "T01.G2.01",
+      "T01.G1.04"
+    ],
+    "notes": "Applies algorithm creation to real-world tasks",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G3.01",
+    "title": "Create a simple algorithm in code (sequence and events)",
+    "topic": "T01",
+    "grade": 3,
+    "dependencies": [
+      "T01.G2.02"
+    ],
+    "notes": "Introduces error detection in algorithms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G3.02",
+    "title": "Add a simple if/then (conditional) to an algorithm",
+    "topic": "T01",
+    "grade": 3,
+    "dependencies": [
+      "T01.G3.01"
+    ],
+    "notes": "Adds error correction to debugging skills",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G3.03",
+    "title": "Use a loop in code for repetition",
+    "topic": "T01",
+    "grade": 3,
+    "dependencies": [
+      "T01.G2.03"
+    ],
+    "notes": "Introduces comparison of different algorithmic approaches",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G3.04",
+    "title": "Describe an algorithm in words after running code",
+    "topic": "T01",
+    "grade": 3,
+    "dependencies": [
+      "T01.G2.01",
+      "T02.G3.01"
+    ],
+    "notes": "Applies algorithms in block coding context (cross-topic with T02)",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G4.01",
+    "title": "Create an algorithm to solve a simple problem",
+    "topic": "T01",
+    "grade": 4,
+    "dependencies": [
+      "T01.G3.03"
+    ],
+    "notes": "Introduces efficiency concepts in algorithm comparison",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G4.02",
+    "title": "Optimize an algorithm (fewer steps or faster)",
+    "topic": "T01",
+    "grade": 4,
+    "dependencies": [
+      "T01.G4.01"
+    ],
+    "notes": "Applies efficiency analysis to algorithm selection",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G4.03",
+    "title": "Use a variable (counter) in an algorithm",
+    "topic": "T01",
+    "grade": 4,
+    "dependencies": [
+      "T01.G3.02",
+      "T01.G4.01"
+    ],
+    "notes": "Combines debugging with efficiency improvement",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G4.04",
+    "title": "Trace and predict the behavior of a multi-step algorithm",
+    "topic": "T01",
+    "grade": 4,
+    "dependencies": [
+      "T01.G4.02",
+      "T03.G4.01"
+    ],
+    "notes": "Applies algorithmic thinking with decomposition (cross-topic with T03)",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G5.01",
+    "title": "Design an algorithm from a flowchart or pseudocode",
+    "topic": "T01",
+    "grade": 5,
+    "dependencies": [
+      "T01.G4.02"
+    ],
+    "notes": "Extends to multi-step algorithms with efficiency considerations",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G5.02",
+    "title": "Create a flowchart or pseudocode for an algorithm in code",
+    "topic": "T01",
+    "grade": 5,
+    "dependencies": [
+      "T01.G5.01"
+    ],
+    "notes": "Adds planning and pseudocode to algorithm design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G5.03",
+    "title": "Compare two algorithms for the same problem",
+    "topic": "T01",
+    "grade": 5,
+    "dependencies": [
+      "T01.G4.03"
+    ],
+    "notes": "Introduces systematic testing of algorithms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G5.04",
+    "title": "Debug an algorithm that doesn't work correctly",
+    "topic": "T01",
+    "grade": 5,
+    "dependencies": [
+      "T01.G5.02",
+      "T03.G5.01"
+    ],
+    "notes": "Combines algorithm design with decomposition strategies",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G6.01",
+    "title": "Analyze an algorithm's efficiency in different scenarios",
+    "topic": "T01",
+    "grade": 6,
+    "dependencies": [
+      "T01.G5.01"
+    ],
+    "notes": "Introduces different algorithm types (search, sort)",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G6.02",
+    "title": "Identify bias or unintended consequences in an algorithm",
+    "topic": "T01",
+    "grade": 6,
+    "dependencies": [
+      "T01.G6.01"
+    ],
+    "notes": "Compares algorithm types for different problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G6.03",
+    "title": "Create a flowchart for a multi-step problem",
+    "topic": "T01",
+    "grade": 6,
+    "dependencies": [
+      "T01.G5.03"
+    ],
+    "notes": "Extends testing to include edge cases and boundary conditions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G6.04",
+    "title": "Implement an algorithm in code from a complex flowchart",
+    "topic": "T01",
+    "grade": 6,
+    "dependencies": [
+      "T01.G6.02",
+      "T04.G6.01"
+    ],
+    "notes": "Combines algorithm selection with pattern recognition",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G7.01",
+    "title": "Recognize and apply common algorithm patterns (search, sort, accumulate)",
+    "topic": "T01",
+    "grade": 7,
+    "dependencies": [
+      "T01.G6.01"
+    ],
+    "notes": "Introduces more complex algorithm types including recursion",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G7.02",
+    "title": "Understand why different algorithms are chosen for different problems",
+    "topic": "T01",
+    "grade": 7,
+    "dependencies": [
+      "T01.G6.02",
+      "T01.G7.01"
+    ],
+    "notes": "Analyzes time and space complexity of algorithms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G7.03",
+    "title": "Represent an algorithm in pseudocode or text code",
+    "topic": "T01",
+    "grade": 7,
+    "dependencies": [
+      "T01.G7.02"
+    ],
+    "notes": "Optimizes algorithms based on complexity analysis",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G7.04",
+    "title": "Analyze an algorithm for correctness on edge cases",
+    "topic": "T01",
+    "grade": 7,
+    "dependencies": [
+      "T01.G7.02",
+      "T04.G7.01"
+    ],
+    "notes": "Applies algorithmic thinking to complex problem-solving",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G8.01",
+    "title": "Design an algorithm for a simulation or model",
+    "topic": "T01",
+    "grade": 8,
+    "dependencies": [
+      "T01.G7.01"
+    ],
+    "notes": "Explores advanced algorithmic techniques",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G8.02",
+    "title": "Understand recursion conceptually (algorithm calling itself)",
+    "topic": "T01",
+    "grade": 8,
+    "dependencies": [
+      "T01.G7.03",
+      "T01.G8.01"
+    ],
+    "notes": "Designs efficient algorithms for complex problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G8.03",
+    "title": "Analyze the impact of an algorithm on society or individuals",
+    "topic": "T01",
+    "grade": 8,
+    "dependencies": [
+      "T01.G8.02"
+    ],
+    "notes": "Evaluates algorithm trade-offs (time vs space, accuracy vs speed)",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T01.G8.04",
+    "title": "Refactor a complex algorithm for clarity or efficiency",
+    "topic": "T01",
+    "grade": 8,
+    "dependencies": [
+      "T01.G8.02",
+      "T03.G8.01"
+    ],
+    "notes": "Applies advanced algorithms to real-world computational problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G1.01",
+    "title": "Create an algorithm in pictures and words",
+    "topic": "T02",
+    "grade": 1,
+    "dependencies": [],
+    "notes": "Foundational - following simple visual directions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G1.02",
+    "title": "Trace a picture algorithm and predict the outcome",
+    "topic": "T02",
+    "grade": 1,
+    "dependencies": [
+      "T02.G1.01"
+    ],
+    "notes": "Extends following directions to multi-step sequences",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G1.03",
+    "title": "Spot when a step is missing or wrong",
+    "topic": "T02",
+    "grade": 1,
+    "dependencies": [
+      "T02.G1.02",
+      "T01.G1.01"
+    ],
+    "notes": "Connects visual sequences to algorithmic thinking",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G2.01",
+    "title": "Represent a simple algorithm with blocks or boxes",
+    "topic": "T02",
+    "grade": 2,
+    "dependencies": [
+      "T02.G1.03"
+    ],
+    "notes": "Introduces basic visual programming concepts",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G2.02",
+    "title": "Trace a simple block script and predict output",
+    "topic": "T02",
+    "grade": 2,
+    "dependencies": [
+      "T02.G2.01"
+    ],
+    "notes": "Adds predicting outcomes to program understanding",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G2.03",
+    "title": "Match a visual algorithm to a script",
+    "topic": "T02",
+    "grade": 2,
+    "dependencies": [
+      "T02.G2.01"
+    ],
+    "notes": "Introduces tracing program execution",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G2.04",
+    "title": "Spot and fix a sequencing error in code",
+    "topic": "T02",
+    "grade": 2,
+    "dependencies": [
+      "T02.G2.03",
+      "T01.G2.01"
+    ],
+    "notes": "Combines tracing with algorithm understanding",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G3.01",
+    "title": "Create a simple flowchart with start, end, and action boxes",
+    "topic": "T02",
+    "grade": 3,
+    "dependencies": [
+      "T02.G2.01"
+    ],
+    "notes": "Introduces block-based programming",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G3.02",
+    "title": "Trace a program with an if/else condition",
+    "topic": "T02",
+    "grade": 3,
+    "dependencies": [
+      "T02.G3.01"
+    ],
+    "notes": "Adds reading and interpreting block code",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G3.03",
+    "title": "Match a flowchart to code with a decision",
+    "topic": "T02",
+    "grade": 3,
+    "dependencies": [
+      "T02.G3.02",
+      "T02.G2.03"
+    ],
+    "notes": "Extends tracing to block-based programs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G3.04",
+    "title": "Trace a loop and count iterations",
+    "topic": "T02",
+    "grade": 3,
+    "dependencies": [
+      "T02.G3.03",
+      "T01.G3.01"
+    ],
+    "notes": "Applies tracing to debug programs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G4.01",
+    "title": "Create a flowchart with loops",
+    "topic": "T02",
+    "grade": 4,
+    "dependencies": [
+      "T02.G3.02"
+    ],
+    "notes": "Deepens understanding of block code structure",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G4.02",
+    "title": "Trace nested conditions and predict outcomes",
+    "topic": "T02",
+    "grade": 4,
+    "dependencies": [
+      "T02.G4.01"
+    ],
+    "notes": "Introduces translating between representations",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G4.03",
+    "title": "Convert a story or real-world process into pseudocode",
+    "topic": "T02",
+    "grade": 4,
+    "dependencies": [
+      "T02.G3.03"
+    ],
+    "notes": "Extends tracing to more complex programs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G4.04",
+    "title": "Trace a script with a loop and condition together",
+    "topic": "T02",
+    "grade": 4,
+    "dependencies": [
+      "T02.G4.03",
+      "T01.G4.01"
+    ],
+    "notes": "Uses tracing to analyze program efficiency",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G5.01",
+    "title": "Create a detailed flowchart with multiple branches",
+    "topic": "T02",
+    "grade": 5,
+    "dependencies": [
+      "T02.G4.02"
+    ],
+    "notes": "Introduces multiple programming representations",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G5.02",
+    "title": "Trace an algorithm with variables and counters",
+    "topic": "T02",
+    "grade": 5,
+    "dependencies": [
+      "T02.G5.01"
+    ],
+    "notes": "Converts between visual and text-based code",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G5.03",
+    "title": "Write pseudocode for a multi-step algorithm",
+    "topic": "T02",
+    "grade": 5,
+    "dependencies": [
+      "T02.G4.03"
+    ],
+    "notes": "Traces programs with multiple control flows",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G5.04",
+    "title": "Compare two algorithms and reason about efficiency",
+    "topic": "T02",
+    "grade": 5,
+    "dependencies": [
+      "T02.G5.03",
+      "T01.G5.03"
+    ],
+    "notes": "Combines tracing with systematic testing",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G6.01",
+    "title": "Create a flowchart for a guessing game",
+    "topic": "T02",
+    "grade": 6,
+    "dependencies": [
+      "T02.G5.02"
+    ],
+    "notes": "Understands different programming paradigms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G6.02",
+    "title": "Trace code with nested loops and variables",
+    "topic": "T02",
+    "grade": 6,
+    "dependencies": [
+      "T02.G6.01"
+    ],
+    "notes": "Compares programming representations and paradigms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G6.03",
+    "title": "Write pseudocode with nested structures",
+    "topic": "T02",
+    "grade": 6,
+    "dependencies": [
+      "T02.G5.03"
+    ],
+    "notes": "Traces programs with complex state changes",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G6.04",
+    "title": "Compare algorithm representations (flowchart vs. pseudocode vs. code)",
+    "topic": "T02",
+    "grade": 6,
+    "dependencies": [
+      "T02.G6.03",
+      "T01.G6.03"
+    ],
+    "notes": "Uses tracing for comprehensive testing",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G7.01",
+    "title": "Trace an algorithm with state changes over time",
+    "topic": "T02",
+    "grade": 7,
+    "dependencies": [
+      "T02.G6.01"
+    ],
+    "notes": "Analyzes programming language features",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G7.02",
+    "title": "Design a flowchart for a sorting or search algorithm",
+    "topic": "T02",
+    "grade": 7,
+    "dependencies": [
+      "T02.G7.01"
+    ],
+    "notes": "Evaluates trade-offs between programming approaches",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G7.03",
+    "title": "Analyze algorithm complexity and steps required",
+    "topic": "T02",
+    "grade": 7,
+    "dependencies": [
+      "T02.G6.03"
+    ],
+    "notes": "Traces programs with advanced control structures",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G7.04",
+    "title": "Trace an algorithm and identify a bug or edge case",
+    "topic": "T02",
+    "grade": 7,
+    "dependencies": [
+      "T02.G7.03",
+      "T01.G7.02"
+    ],
+    "notes": "Uses tracing for performance analysis",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G8.01",
+    "title": "Write and test pseudocode for a non-trivial algorithm",
+    "topic": "T02",
+    "grade": 8,
+    "dependencies": [
+      "T02.G7.01"
+    ],
+    "notes": "Masters multiple programming paradigms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G8.02",
+    "title": "Create a flowchart for a decision-making process",
+    "topic": "T02",
+    "grade": 8,
+    "dependencies": [
+      "T02.G8.01"
+    ],
+    "notes": "Selects optimal programming representation for problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G8.03",
+    "title": "Analyze and improve an algorithm's representation",
+    "topic": "T02",
+    "grade": 8,
+    "dependencies": [
+      "T02.G7.03"
+    ],
+    "notes": "Traces complex programs with advanced features",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T02.G8.04",
+    "title": "Compare deterministic and probabilistic algorithms",
+    "topic": "T02",
+    "grade": 8,
+    "dependencies": [
+      "T02.G8.03",
+      "T01.G8.02"
+    ],
+    "notes": "Integrates tracing with algorithm design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G1.01",
+    "title": "Explain what one part of a system does",
+    "topic": "T03",
+    "grade": 1,
+    "dependencies": [],
+    "notes": "Foundational - breaking simple tasks into steps",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G1.02",
+    "title": "Break a simple task into steps (unplugged)",
+    "topic": "T03",
+    "grade": 1,
+    "dependencies": [
+      "T03.G1.01"
+    ],
+    "notes": "Applies decomposition to familiar activities",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G1.03",
+    "title": "Match tasks to CreatiCode scenes",
+    "topic": "T03",
+    "grade": 1,
+    "dependencies": [
+      "T03.G1.01",
+      "T01.G1.01"
+    ],
+    "notes": "Connects part-to-whole thinking with sequences",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G2.01",
+    "title": "Replace repeated blocks with a loop (introductory)",
+    "topic": "T03",
+    "grade": 2,
+    "dependencies": [
+      "T03.G1.04"
+    ],
+    "notes": "Extends decomposition to more complex tasks",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G2.02",
+    "title": "Plan a two\u2011scene story",
+    "topic": "T03",
+    "grade": 2,
+    "dependencies": [
+      "T03.G2.01"
+    ],
+    "notes": "Introduces organizing sub-tasks",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G2.03",
+    "title": "Break a game idea into features",
+    "topic": "T03",
+    "grade": 2,
+    "dependencies": [
+      "T03.G2.01",
+      "T01.G2.01"
+    ],
+    "notes": "Combines decomposition with algorithm design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G3.01",
+    "title": "Decompose a project into scenes and features",
+    "topic": "T03",
+    "grade": 3,
+    "dependencies": [
+      "T03.G2.04"
+    ],
+    "notes": "Introduces identifying sub-problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G3.02",
+    "title": "Assign tasks in a team project",
+    "topic": "T03",
+    "grade": 3,
+    "dependencies": [
+      "T03.G3.01"
+    ],
+    "notes": "Adds solving sub-problems independently",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G3.03",
+    "title": "Create a to\u2011do checklist for a project",
+    "topic": "T03",
+    "grade": 3,
+    "dependencies": [
+      "T03.G3.02"
+    ],
+    "notes": "Introduces combining solutions from sub-problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G4.01",
+    "title": "Assess whether a design is well\u2011decomposed",
+    "topic": "T03",
+    "grade": 4,
+    "dependencies": [
+      "T03.G3.01"
+    ],
+    "notes": "Deepens sub-problem identification skills",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G4.02",
+    "title": "Refactor code to separate concerns",
+    "topic": "T03",
+    "grade": 4,
+    "dependencies": [
+      "T03.G4.01"
+    ],
+    "notes": "Introduces hierarchical decomposition",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G4.03",
+    "title": "Plan a multi\u2011level game with visuals",
+    "topic": "T03",
+    "grade": 4,
+    "dependencies": [
+      "T03.G3.03"
+    ],
+    "notes": "Manages relationships between sub-problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G4.04",
+    "title": "Identify dependencies between tasks",
+    "topic": "T03",
+    "grade": 4,
+    "dependencies": [
+      "T03.G4.02",
+      "T02.G4.01"
+    ],
+    "notes": "Applies structured decomposition in programs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G5.01",
+    "title": "Analyze a plan for efficiency",
+    "topic": "T03",
+    "grade": 5,
+    "dependencies": [
+      "T03.G4.02"
+    ],
+    "notes": "Masters multi-level decomposition",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G5.02",
+    "title": "Create a detailed project plan with stages",
+    "topic": "T03",
+    "grade": 5,
+    "dependencies": [
+      "T03.G5.01"
+    ],
+    "notes": "Introduces modular problem-solving",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G5.03",
+    "title": "Use XO to brainstorm and refine a project plan",
+    "topic": "T03",
+    "grade": 5,
+    "dependencies": [
+      "T03.G5.02"
+    ],
+    "notes": "Plans decomposition strategies before solving",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G5.04",
+    "title": "Refactor repeated logic into custom blocks",
+    "topic": "T03",
+    "grade": 5,
+    "dependencies": [
+      "T03.G5.03",
+      "T01.G5.02"
+    ],
+    "notes": "Integrates decomposition with algorithm planning",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G6.01",
+    "title": "Trace a complex plan and identify components",
+    "topic": "T03",
+    "grade": 6,
+    "dependencies": [
+      "T03.G5.02"
+    ],
+    "notes": "Introduces functional decomposition",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G6.02",
+    "title": "Refactor a design document to improve clarity",
+    "topic": "T03",
+    "grade": 6,
+    "dependencies": [
+      "T03.G6.01"
+    ],
+    "notes": "Designs reusable modules and components",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G6.03",
+    "title": "Use XO to generate a detailed project plan",
+    "topic": "T03",
+    "grade": 6,
+    "dependencies": [
+      "T03.G6.02"
+    ],
+    "notes": "Manages dependencies between modules",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G6.04",
+    "title": "Analyze algorithms for decomposable parts",
+    "topic": "T03",
+    "grade": 6,
+    "dependencies": [
+      "T03.G6.03",
+      "T02.G6.01"
+    ],
+    "notes": "Applies modular design in programming",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G7.01",
+    "title": "Design a multi-stage simulation plan",
+    "topic": "T03",
+    "grade": 7,
+    "dependencies": [
+      "T03.G6.02"
+    ],
+    "notes": "Introduces object-oriented decomposition concepts",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G7.02",
+    "title": "Use XO to brainstorm and structure a game design document",
+    "topic": "T03",
+    "grade": 7,
+    "dependencies": [
+      "T03.G7.01"
+    ],
+    "notes": "Designs systems with multiple interacting components",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G7.03",
+    "title": "Decompose a data-driven app into models and views",
+    "topic": "T03",
+    "grade": 7,
+    "dependencies": [
+      "T03.G7.02"
+    ],
+    "notes": "Analyzes decomposition trade-offs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G7.04",
+    "title": "Identify and fix poor decomposition in a plan",
+    "topic": "T03",
+    "grade": 7,
+    "dependencies": [
+      "T03.G7.03",
+      "T01.G7.02"
+    ],
+    "notes": "Optimizes decomposition for efficiency",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G8.01",
+    "title": "Plan a multi-feature interactive app with XO",
+    "topic": "T03",
+    "grade": 8,
+    "dependencies": [
+      "T03.G7.01"
+    ],
+    "notes": "Masters advanced decomposition techniques",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G8.02",
+    "title": "Create a formal project specification document",
+    "topic": "T03",
+    "grade": 8,
+    "dependencies": [
+      "T03.G8.01"
+    ],
+    "notes": "Applies design patterns and architectural principles",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G8.03",
+    "title": "Analyze project complexity and estimate effort",
+    "topic": "T03",
+    "grade": 8,
+    "dependencies": [
+      "T03.G8.02"
+    ],
+    "notes": "Evaluates and refactors decomposition strategies",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T03.G8.04",
+    "title": "Refactor a large codebase into modules",
+    "topic": "T03",
+    "grade": 8,
+    "dependencies": [
+      "T03.G8.03",
+      "T01.G8.02"
+    ],
+    "notes": "Designs scalable, maintainable systems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G1.01",
+    "title": "Find repeated blocks in a script",
+    "topic": "T04",
+    "grade": 1,
+    "dependencies": [],
+    "notes": "Foundational - recognizing simple repeating patterns",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G1.02",
+    "title": "Match a repeated picture story to code",
+    "topic": "T04",
+    "grade": 1,
+    "dependencies": [
+      "T04.G1.01"
+    ],
+    "notes": "Extends patterns to visual and audio sequences",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G1.03",
+    "title": "Recognize a template structure in sprite code",
+    "topic": "T04",
+    "grade": 1,
+    "dependencies": [
+      "T04.G1.01"
+    ],
+    "notes": "Introduces predicting pattern continuation",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G1.04",
+    "title": "Build a simple repeating script (no loops)",
+    "topic": "T04",
+    "grade": 1,
+    "dependencies": [
+      "T04.G1.02",
+      "T01.G1.01"
+    ],
+    "notes": "Connects patterns to sequences and algorithms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G2.01",
+    "title": "Identify repeating sections in longer scripts",
+    "topic": "T04",
+    "grade": 2,
+    "dependencies": [
+      "T04.G1.03"
+    ],
+    "notes": "Introduces creating original patterns",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G2.02",
+    "title": "Replace repeated code with a loop",
+    "topic": "T04",
+    "grade": 2,
+    "dependencies": [
+      "T04.G2.01"
+    ],
+    "notes": "Extends patterns to different contexts",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G2.03",
+    "title": "Use a template project and customize it",
+    "topic": "T04",
+    "grade": 2,
+    "dependencies": [
+      "T04.G1.01"
+    ],
+    "notes": "Introduces describing pattern rules",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G2.04",
+    "title": "Predict what a simple repeated pattern produces",
+    "topic": "T04",
+    "grade": 2,
+    "dependencies": [
+      "T04.G2.03",
+      "T01.G2.01"
+    ],
+    "notes": "Connects patterns to algorithmic steps",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G3.01",
+    "title": "Decompose a pattern into repeating units",
+    "topic": "T04",
+    "grade": 3,
+    "dependencies": [
+      "T04.G2.03"
+    ],
+    "notes": "Introduces identifying different pattern types",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G3.02",
+    "title": "Create a nested loop pattern",
+    "topic": "T04",
+    "grade": 3,
+    "dependencies": [
+      "T04.G3.01"
+    ],
+    "notes": "Analyzes pattern structure and rules",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G3.03",
+    "title": "Recognize a reusable behavior and create a custom block",
+    "topic": "T04",
+    "grade": 3,
+    "dependencies": [
+      "T04.G2.01"
+    ],
+    "notes": "Creates patterns following specific rules",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G3.04",
+    "title": "Trace a nested pattern and count outcomes",
+    "topic": "T04",
+    "grade": 3,
+    "dependencies": [
+      "T04.G3.02",
+      "T02.G3.01"
+    ],
+    "notes": "Applies patterns in block programming",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G4.01",
+    "title": "Analyze repeated code for abstraction opportunities",
+    "topic": "T04",
+    "grade": 4,
+    "dependencies": [
+      "T04.G3.02"
+    ],
+    "notes": "Introduces patterns in data and information",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G4.02",
+    "title": "Convert repeated blocks into a parameterized custom block",
+    "topic": "T04",
+    "grade": 4,
+    "dependencies": [
+      "T04.G4.01"
+    ],
+    "notes": "Uses patterns to make predictions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G4.03",
+    "title": "Refactor repeated code to use loops and custom blocks",
+    "topic": "T04",
+    "grade": 4,
+    "dependencies": [
+      "T04.G3.03"
+    ],
+    "notes": "Creates complex, nested patterns",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G4.04",
+    "title": "Assess effectiveness of a pattern recognition strategy",
+    "topic": "T04",
+    "grade": 4,
+    "dependencies": [
+      "T04.G4.02",
+      "T03.G4.01"
+    ],
+    "notes": "Applies pattern recognition to problem decomposition",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G5.01",
+    "title": "Identify patterns in data and represent them with variables",
+    "topic": "T04",
+    "grade": 5,
+    "dependencies": [
+      "T04.G4.01"
+    ],
+    "notes": "Introduces computational patterns and structures",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G5.02",
+    "title": "Create a reusable library of custom blocks",
+    "topic": "T04",
+    "grade": 5,
+    "dependencies": [
+      "T04.G5.01"
+    ],
+    "notes": "Identifies patterns in algorithms and programs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G5.03",
+    "title": "Generalize a pattern into an algorithm",
+    "topic": "T04",
+    "grade": 5,
+    "dependencies": [
+      "T04.G5.02"
+    ],
+    "notes": "Abstracts patterns into reusable solutions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G5.04",
+    "title": "Refactor a complex pattern into smaller, composable blocks",
+    "topic": "T04",
+    "grade": 5,
+    "dependencies": [
+      "T04.G5.03",
+      "T03.G5.02"
+    ],
+    "notes": "Combines pattern abstraction with modular design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G6.01",
+    "title": "Recognize structural patterns in algorithms",
+    "topic": "T04",
+    "grade": 6,
+    "dependencies": [
+      "T04.G5.03"
+    ],
+    "notes": "Introduces algorithmic patterns and templates",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G6.02",
+    "title": "Refactor repeated code into modular custom blocks",
+    "topic": "T04",
+    "grade": 6,
+    "dependencies": [
+      "T04.G6.01"
+    ],
+    "notes": "Applies design patterns to solve common problems",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G6.03",
+    "title": "Analyze template projects and customize them systematically",
+    "topic": "T04",
+    "grade": 6,
+    "dependencies": [
+      "T04.G6.02"
+    ],
+    "notes": "Adapts patterns to different contexts",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G6.04",
+    "title": "Compare efficiency of different pattern solutions",
+    "topic": "T04",
+    "grade": 6,
+    "dependencies": [
+      "T04.G6.03",
+      "T01.G6.02"
+    ],
+    "notes": "Selects appropriate patterns for algorithms",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G7.01",
+    "title": "Recognize iteration patterns in different contexts",
+    "topic": "T04",
+    "grade": 7,
+    "dependencies": [
+      "T04.G6.02"
+    ],
+    "notes": "Introduces advanced design patterns",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G7.02",
+    "title": "Design composite algorithms using smaller algorithmic patterns",
+    "topic": "T04",
+    "grade": 7,
+    "dependencies": [
+      "T04.G7.01"
+    ],
+    "notes": "Analyzes pattern trade-offs and applications",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G7.03",
+    "title": "Optimize code by eliminating redundant patterns",
+    "topic": "T04",
+    "grade": 7,
+    "dependencies": [
+      "T04.G7.02"
+    ],
+    "notes": "Combines multiple patterns in solutions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G7.04",
+    "title": "Explain how pattern recognition leads to better algorithm design",
+    "topic": "T04",
+    "grade": 7,
+    "dependencies": [
+      "T04.G7.03",
+      "T03.G7.02"
+    ],
+    "notes": "Designs pattern-based system architectures",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G8.01",
+    "title": "Recognize and leverage common algorithmic patterns",
+    "topic": "T04",
+    "grade": 8,
+    "dependencies": [
+      "T04.G7.01"
+    ],
+    "notes": "Masters software design patterns",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G8.02",
+    "title": "Design modular, reusable custom blocks for a project",
+    "topic": "T04",
+    "grade": 8,
+    "dependencies": [
+      "T04.G8.01"
+    ],
+    "notes": "Creates custom patterns for specific domains",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G8.03",
+    "title": "Generalize a specific solution into a parameterized template",
+    "topic": "T04",
+    "grade": 8,
+    "dependencies": [
+      "T04.G8.02"
+    ],
+    "notes": "Evaluates pattern effectiveness and appropriateness",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T04.G8.04",
+    "title": "Analyze and justify choices in pattern\u2011based design",
+    "topic": "T04",
+    "grade": 8,
+    "dependencies": [
+      "T04.G8.03",
+      "T03.G8.02"
+    ],
+    "notes": "Applies patterns in large-scale system design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G1.01",
+    "title": "Ask what someone needs",
+    "topic": "T05",
+    "grade": 1,
+    "dependencies": [],
+    "notes": "Foundational - understanding user needs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G1.02",
+    "title": "Improve a tool for someone",
+    "topic": "T05",
+    "grade": 1,
+    "dependencies": [
+      "T05.G1.01"
+    ],
+    "notes": "Introduces expressing preferences and choices",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G1.03",
+    "title": "Spot differences in how people do things",
+    "topic": "T05",
+    "grade": 1,
+    "dependencies": [
+      "T05.G1.01"
+    ],
+    "notes": "Introduces observing how others use things",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G1.04",
+    "title": "Design a simple app idea for someone",
+    "topic": "T05",
+    "grade": 1,
+    "dependencies": [
+      "T05.G1.02",
+      "T01.G1.02"
+    ],
+    "notes": "Applies user thinking to simple design tasks",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G2.01",
+    "title": "Name the problem and the solution",
+    "topic": "T05",
+    "grade": 2,
+    "dependencies": [
+      "T05.G1.03"
+    ],
+    "notes": "Introduces asking users questions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G2.02",
+    "title": "Trace a program and say who it helps",
+    "topic": "T05",
+    "grade": 2,
+    "dependencies": [
+      "T05.G2.01"
+    ],
+    "notes": "Uses feedback to improve designs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G2.03",
+    "title": "Identify what makes something easy or hard to use",
+    "topic": "T05",
+    "grade": 2,
+    "dependencies": [
+      "T05.G1.04"
+    ],
+    "notes": "Introduces thinking about different user types",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G2.04",
+    "title": "Pitch an improvement to a program",
+    "topic": "T05",
+    "grade": 2,
+    "dependencies": [
+      "T05.G2.02",
+      "T01.G2.04"
+    ],
+    "notes": "Applies user-centered thinking to practical tasks",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G3.01",
+    "title": "Plan a program with a user in mind",
+    "topic": "T05",
+    "grade": 3,
+    "dependencies": [
+      "T05.G2.01"
+    ],
+    "notes": "Introduces structured user research",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G3.02",
+    "title": "Create a simple user story",
+    "topic": "T05",
+    "grade": 3,
+    "dependencies": [
+      "T05.G3.01"
+    ],
+    "notes": "Identifies user problems and needs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G3.03",
+    "title": "Make a UX flow diagram for a simple app",
+    "topic": "T05",
+    "grade": 3,
+    "dependencies": [
+      "T05.G2.02"
+    ],
+    "notes": "Introduces iterative design and testing",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G3.04",
+    "title": "Test a program and give feedback",
+    "topic": "T05",
+    "grade": 3,
+    "dependencies": [
+      "T05.G3.03",
+      "T02.G3.01"
+    ],
+    "notes": "Applies user-centered design to programs",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G4.01",
+    "title": "Gather feedback and plan improvements",
+    "topic": "T05",
+    "grade": 4,
+    "dependencies": [
+      "T05.G3.02"
+    ],
+    "notes": "Introduces empathy in design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G4.02",
+    "title": "Code a program improvement based on feedback",
+    "topic": "T05",
+    "grade": 4,
+    "dependencies": [
+      "T05.G4.01"
+    ],
+    "notes": "Designs for diverse user groups",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G4.03",
+    "title": "Design for different users (accessibility)",
+    "topic": "T05",
+    "grade": 4,
+    "dependencies": [
+      "T05.G3.03"
+    ],
+    "notes": "Develops systematic testing with users",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G4.04",
+    "title": "Evaluate a program for different user groups",
+    "topic": "T05",
+    "grade": 4,
+    "dependencies": [
+      "T05.G4.03",
+      "T03.G4.01"
+    ],
+    "notes": "Combines user research with problem decomposition",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G5.01",
+    "title": "Create a simple design document",
+    "topic": "T05",
+    "grade": 5,
+    "dependencies": [
+      "T05.G4.02"
+    ],
+    "notes": "Introduces accessibility in design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G5.02",
+    "title": "Develop personas for your program",
+    "topic": "T05",
+    "grade": 5,
+    "dependencies": [
+      "T05.G5.01"
+    ],
+    "notes": "Designs inclusive solutions",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G5.03",
+    "title": "Create a detailed UX flow or storyboard",
+    "topic": "T05",
+    "grade": 5,
+    "dependencies": [
+      "T05.G4.03"
+    ],
+    "notes": "Introduces usability testing methods",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G5.04",
+    "title": "Plan what to model and what to simplify",
+    "topic": "T05",
+    "grade": 5,
+    "dependencies": [
+      "T05.G5.03",
+      "T01.G5.02"
+    ],
+    "notes": "Integrates user testing into design process",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G6.01",
+    "title": "Apply HCD principles to a project",
+    "topic": "T05",
+    "grade": 6,
+    "dependencies": [
+      "T05.G5.02"
+    ],
+    "notes": "Introduces user experience (UX) principles",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G6.02",
+    "title": "Conduct user research and interviews",
+    "topic": "T05",
+    "grade": 6,
+    "dependencies": [
+      "T05.G6.01"
+    ],
+    "notes": "Applies UX design to interfaces",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G6.03",
+    "title": "Iterate on a design based on user feedback",
+    "topic": "T05",
+    "grade": 6,
+    "dependencies": [
+      "T05.G5.03"
+    ],
+    "notes": "Conducts comprehensive usability studies",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G6.04",
+    "title": "Plan a simulation and defend design choices",
+    "topic": "T05",
+    "grade": 6,
+    "dependencies": [
+      "T05.G6.03",
+      "T04.G6.02"
+    ],
+    "notes": "Combines UX patterns with design principles",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G7.01",
+    "title": "Accessibility audit and remediation",
+    "topic": "T05",
+    "grade": 7,
+    "dependencies": [
+      "T05.G6.01"
+    ],
+    "notes": "Introduces advanced UX concepts",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G7.02",
+    "title": "Identify and mitigate potential harms in a design",
+    "topic": "T05",
+    "grade": 7,
+    "dependencies": [
+      "T05.G7.01"
+    ],
+    "notes": "Designs for complex user journeys",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G7.03",
+    "title": "Gather iterative feedback across multiple rounds",
+    "topic": "T05",
+    "grade": 7,
+    "dependencies": [
+      "T05.G6.03"
+    ],
+    "notes": "Analyzes usability metrics and data",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G7.04",
+    "title": "Design a simulation for a real-world question",
+    "topic": "T05",
+    "grade": 7,
+    "dependencies": [
+      "T05.G7.03",
+      "T03.G7.02"
+    ],
+    "notes": "Integrates UX into system design",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G8.01",
+    "title": "Analyze potential biases in an algorithm or design",
+    "topic": "T05",
+    "grade": 8,
+    "dependencies": [
+      "T05.G7.01"
+    ],
+    "notes": "Masters UX design methodologies",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G8.02",
+    "title": "Design for diverse audiences with conflicting needs",
+    "topic": "T05",
+    "grade": 8,
+    "dependencies": [
+      "T05.G8.01"
+    ],
+    "notes": "Designs complete user experiences",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G8.03",
+    "title": "Run a controlled simulation experiment",
+    "topic": "T05",
+    "grade": 8,
+    "dependencies": [
+      "T05.G7.03"
+    ],
+    "notes": "Evaluates and optimizes user experiences",
+    "grade_level_ok": true,
+    "quality_issues": []
+  },
+  {
+    "id": "T05.G8.04",
+    "title": "Evaluate realism and limitations in a simulation",
+    "topic": "T05",
+    "grade": 8,
+    "dependencies": [
+      "T05.G8.03",
+      "T03.G8.02"
+    ],
+    "notes": "Leads user-centered design projects",
+    "grade_level_ok": true,
+    "quality_issues": []
+  }
+]

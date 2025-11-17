@@ -1,0 +1,22 @@
+{
+  "data_integrity": {
+    "all_have_required_fields": true,
+    "all_ids_unique": true,
+    "no_duplicates": true,
+    "valid_grades": true,
+    "valid_topics": true
+  },
+  "dependency_integrity": {
+    "no_self_references": true,
+    "all_deps_exist": true
+  },
+  "k2_quality": {
+    "all_picture_based": true,
+    "all_have_activity_type": true,
+    "no_coding_required": true
+  },
+  "g3_plus_quality": {
+    "no_broken_dependencies": true
+  },
+  "overall_status": "PASS"
+}

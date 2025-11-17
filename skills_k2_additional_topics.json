@@ -1,0 +1,618 @@
+[
+  {
+    "id": "T02.GK.01",
+    "title": "Follow the Arrow Cards",
+    "short_name": "Follow 3-step arrow picture sequence",
+    "topic_id": "T02",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_select",
+    "description_teacher": "Students view a 3-arrow sequence and click where a character would end up on a grid.",
+    "student_prompt": "The robot follows these arrows. Where does it end up?",
+    "student_prompt_audio": {
+      "tts_text": "The robot follows these arrows. Where does it end up?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 4,
+      "interaction_mode": "click_items",
+      "visual_theme": "robots",
+      "estimated_time_minutes": 2
+    },
+    "auto_grade_rules": {
+      "type": "single_choice",
+      "correct_answer": "position_3",
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Yes! The robot goes up, right, then down!",
+          "audio_tts": "Yes! The robot goes up, right, then down!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! Follow each arrow.",
+          "audio_tts": "Try again! Follow each arrow one at a time.",
+          "hint_provided": true,
+          "hint_text": "Start at the robot and follow: up, right, down"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW K skill - picture algorithm tracing"
+  },
+  {
+    "id": "T02.GK.02",
+    "title": "Match Path to Arrow Cards",
+    "short_name": "Match picture algorithm to outcome",
+    "topic_id": "T02",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "match_pairs",
+    "description_teacher": "Students match 3 arrow sequences to pictures showing where a character ends up.",
+    "student_prompt": "Match each set of arrows to where the bunny ends up!",
+    "student_prompt_audio": {
+      "tts_text": "Match each set of arrows to where the bunny ends up!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 6,
+      "interaction_mode": "draw_lines",
+      "visual_theme": "animals",
+      "estimated_time_minutes": 3
+    },
+    "auto_grade_rules": {
+      "type": "pair_match",
+      "correct_answer": {
+        "arrows_up_right": "position_ne",
+        "arrows_down_left": "position_sw",
+        "arrows_right_right": "position_e"
+      },
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! You matched all the paths!",
+          "audio_tts": "Perfect! You matched all the paths!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Try again! Follow each arrow.",
+          "audio_tts": "Try again! Follow each arrow to see where the bunny goes.",
+          "hint_provided": true,
+          "hint_text": "Start at the bunny and follow each arrow in order"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW K skill - match algorithm to outcome"
+  },
+  {
+    "id": "T02.GK.03",
+    "title": "Help Cat Find Food",
+    "short_name": "Create simple 3-arrow path",
+    "topic_id": "T02",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "drag_drop_sequence",
+    "description_teacher": "Students drag 3 arrow cards into order to help a cat reach its food bowl.",
+    "student_prompt": "Drag the arrows to help the cat reach the food!",
+    "student_prompt_audio": {
+      "tts_text": "Drag the arrows to help the cat reach the food!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 3,
+      "interaction_mode": "drag_to_slots",
+      "visual_theme": "animals",
+      "estimated_time_minutes": 3
+    },
+    "auto_grade_rules": {
+      "type": "sequence_order",
+      "correct_answer": [
+        "right",
+        "up",
+        "right"
+      ],
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great! The cat got to the food!",
+          "audio_tts": "Great! The cat got to the food!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Not quite! Try a different path.",
+          "audio_tts": "Not quite! Try a different path to reach the food.",
+          "hint_provided": true,
+          "hint_text": "The cat needs to go right, then up, then right again"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW K skill - create picture algorithm"
+  },
+  {
+    "id": "T02.G1.01",
+    "title": "Trace Path Through Grid",
+    "short_name": "Trace path using 4-5 picture symbols",
+    "topic_id": "T02",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "path_tracing",
+    "description_teacher": "Students follow a 4-5 arrow sequence to trace a path through a 5x5 grid.",
+    "student_prompt": "Follow the arrows to trace the path!",
+    "student_prompt_audio": {
+      "tts_text": "Follow the arrows to trace the path!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 5,
+      "interaction_mode": "tap_sequence",
+      "visual_theme": "maps",
+      "estimated_time_minutes": 3
+    },
+    "auto_grade_rules": {
+      "type": "sequence_order",
+      "correct_answer": [
+        "A1",
+        "A2",
+        "B2",
+        "C2",
+        "C3"
+      ],
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! You followed the arrows!",
+          "audio_tts": "Perfect! You followed the arrows correctly!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! Follow each arrow carefully.",
+          "audio_tts": "Try again! Follow each arrow carefully one at a time.",
+          "hint_provided": true,
+          "hint_text": "Start at the green square and move one square for each arrow"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW G1 skill - path tracing"
+  },
+  {
+    "id": "T02.G1.02",
+    "title": "Create Path to Treasure",
+    "short_name": "Create picture algorithm for 4-step path",
+    "topic_id": "T02",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "drag_drop_sequence",
+    "description_teacher": "Students drag 4 arrow cards to create a path from pirate to treasure on a grid.",
+    "student_prompt": "Drag the arrows to help the pirate reach the treasure!",
+    "student_prompt_audio": {
+      "tts_text": "Drag the arrows to help the pirate reach the treasure!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 4,
+      "interaction_mode": "drag_to_slots",
+      "visual_theme": "pirates",
+      "estimated_time_minutes": 3
+    },
+    "auto_grade_rules": {
+      "type": "sequence_order",
+      "correct_answer": [
+        "right",
+        "right",
+        "up",
+        "left"
+      ],
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Awesome! The pirate found the treasure!",
+          "audio_tts": "Awesome! The pirate found the treasure!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Not quite! Try a different path.",
+          "audio_tts": "Not quite! Try putting the arrows in a different order.",
+          "hint_provided": true,
+          "hint_text": "The pirate needs to go right twice, then up, then left"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW G1 skill - create path algorithm"
+  },
+  {
+    "id": "T02.G1.03",
+    "title": "Which Path Is Shorter?",
+    "short_name": "Compare two picture algorithms",
+    "topic_id": "T02",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_select",
+    "description_teacher": "Students see two arrow sequences that reach the same goal and identify which uses fewer steps.",
+    "student_prompt": "Both paths reach the star. Which one is shorter?",
+    "student_prompt_audio": {
+      "tts_text": "Both paths reach the star. Which one is shorter?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 2,
+      "interaction_mode": "click_items",
+      "visual_theme": "space",
+      "estimated_time_minutes": 3
+    },
+    "auto_grade_rules": {
+      "type": "single_choice",
+      "correct_answer": "path_a",
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Yes! That path uses fewer arrows!",
+          "audio_tts": "Yes! That path uses fewer arrows!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! Count the arrows.",
+          "audio_tts": "Try again! Count how many arrows are in each path.",
+          "hint_provided": true,
+          "hint_text": "Path A has 3 arrows. Path B has 5 arrows."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW G1 skill - algorithm comparison"
+  },
+  {
+    "id": "T02.G2.01",
+    "title": "Arrows Words Pictures Same Path",
+    "short_name": "Compare algorithms in different representations",
+    "topic_id": "T02",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "match_pairs",
+    "description_teacher": "Students match three representations of the same algorithm: arrows, words, and path diagram.",
+    "student_prompt": "Match the different ways to show the same path!",
+    "student_prompt_audio": {
+      "tts_text": "Match the different ways to show the same path!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 9,
+      "interaction_mode": "drag_to_match",
+      "visual_theme": "maps",
+      "estimated_time_minutes": 4
+    },
+    "auto_grade_rules": {
+      "type": "category_match",
+      "correct_answer": {
+        "arrows_upr": "group_a",
+        "words_upr": "group_a",
+        "path_a": "group_a"
+      },
+      "partial_credit": {
+        "enabled": true,
+        "rules": [
+          {
+            "condition": "75% correct",
+            "credit_percentage": 75
+          }
+        ]
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! You matched all representations!",
+          "audio_tts": "Perfect! You matched all the different ways to show the paths!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Try again! Follow each path carefully.",
+          "audio_tts": "Try again! Follow each path carefully to match them.",
+          "hint_provided": true,
+          "hint_text": "The arrows, words, and path should all go in the same direction"
+        },
+        "partially_correct": {
+          "message": "Good start! Check a few more.",
+          "audio_tts": "Good start! Check a few more to make sure they match."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW G2 skill - multiple representations"
+  },
+  {
+    "id": "T02.G2.02",
+    "title": "Picture Code to Word Code",
+    "short_name": "Translate picture symbols to words",
+    "topic_id": "T02",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "drag_drop_sequence",
+    "description_teacher": "Students view arrow pictures and create equivalent word sequence by dragging word cards.",
+    "student_prompt": "Look at the arrows. Drag the words to match!",
+    "student_prompt_audio": {
+      "tts_text": "Look at the arrows. Drag the words to match!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 5,
+      "interaction_mode": "drag_to_slots",
+      "visual_theme": "robots",
+      "estimated_time_minutes": 4
+    },
+    "auto_grade_rules": {
+      "type": "sequence_order",
+      "correct_answer": [
+        "forward",
+        "forward",
+        "turn_right",
+        "forward",
+        "turn_left"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "rules": [
+          {
+            "condition": "80% correct",
+            "credit_percentage": 80
+          }
+        ]
+      },
+      "feedback": {
+        "correct": {
+          "message": "Excellent! You translated arrows to words!",
+          "audio_tts": "Excellent! You translated the arrows to words perfectly!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! Look at each arrow carefully.",
+          "audio_tts": "Try again! Look at each arrow and match it to the word.",
+          "hint_provided": true,
+          "hint_text": "An up arrow means forward. A curved arrow means turn."
+        },
+        "partially_correct": {
+          "message": "Almost! Check a few more.",
+          "audio_tts": "Almost there! Check a few more words."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW G2 skill - translation between representations"
+  },
+  {
+    "id": "T02.G2.03",
+    "title": "Fix the Path That's Wrong",
+    "short_name": "Debug picture algorithm that doesn't reach goal",
+    "topic_id": "T02",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_select",
+    "description_teacher": "Students view a picture algorithm that doesn't reach the goal and identify which arrow is wrong.",
+    "student_prompt": "One arrow is wrong! Which one should we change?",
+    "student_prompt_audio": {
+      "tts_text": "One arrow is wrong! Which one should we change?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 5,
+      "interaction_mode": "click_items",
+      "visual_theme": "robots",
+      "estimated_time_minutes": 4
+    },
+    "auto_grade_rules": {
+      "type": "single_choice",
+      "correct_answer": "arrow_3",
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Yes! That arrow needs to change!",
+          "audio_tts": "Yes! That arrow needs to change!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! Follow the path.",
+          "audio_tts": "Try again! Follow the path step by step and see where it goes wrong.",
+          "hint_provided": true,
+          "hint_text": "Follow each arrow. Which one makes the robot go the wrong way?"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "notes_redesign": "NEW G2 skill - debug picture algorithm"
+  }
+]

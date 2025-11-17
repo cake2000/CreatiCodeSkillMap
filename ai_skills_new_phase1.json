@@ -1,0 +1,881 @@
+[
+  {
+    "id": "T02.GK.05",
+    "title": "Yes or No Game: Guess My Picture",
+    "short_name": "Binary choice guessing game",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_select",
+    "description_teacher": "Students play a picture-based guessing game using only yes/no questions. They learn that binary (two-choice) questions can help narrow down to find an answer.",
+    "student_prompt": "Can you find the right picture by asking Yes or No?",
+    "student_prompt_audio": {
+      "tts_text": "Can you find the right picture by asking Yes or No?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 4,
+      "items": [
+        "A cat",
+        "A dog",
+        "A bird",
+        "A fish"
+      ],
+      "interaction_mode": "click_yes_no",
+      "visual_theme": "animals_pets",
+      "estimated_time_minutes": 3,
+      "randomization": {
+        "enabled": true,
+        "randomize_target": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "guided_binary_search",
+      "correct_answer": "found_target",
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "You found it! Yes and No questions help us find things!",
+          "audio_tts": "You found it! Yes and No questions help us find things!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Keep trying! Ask if it has fur or feathers.",
+          "audio_tts": "Keep trying! Ask if it has fur or feathers.",
+          "hint_provided": true,
+          "hint_text": "Does it live on land or in water?"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 5,
+        "show_correct_answer": false,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Binary Decision-Making",
+    "notes": "NEW: Added for AI4K12 alignment - foundational binary reasoning"
+  },
+  {
+    "id": "T02.G1.05",
+    "title": "Follow the Yes/No Path to Choose",
+    "short_name": "Follow binary decision tree",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_path",
+    "description_teacher": "Students follow a simple pictorial decision tree to make choices (e.g., pick a pet, choose a snack). They click yes/no at each branch and follow the path to an outcome.",
+    "student_prompt": "Follow the Yes or No path to find your answer!",
+    "student_prompt_audio": {
+      "tts_text": "Follow the Yes or No path to find your answer!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 3,
+      "decision_levels": 2,
+      "interaction_mode": "click_path_nodes",
+      "visual_theme": "nature_outdoors",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": false,
+        "scenario_variations": 3
+      }
+    },
+    "auto_grade_rules": {
+      "type": "path_completion",
+      "correct_answer": "reached_valid_outcome",
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! You followed the path all the way!",
+          "audio_tts": "Perfect! You followed the path all the way!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Try again! Read each question carefully.",
+          "audio_tts": "Try again! Read each question carefully.",
+          "hint_provided": true,
+          "hint_text": "Start at the top and answer each Yes or No."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T02.GK.05"
+    ],
+    "csta_code": "1A-AP-08",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Binary Decision-Making",
+    "notes": "NEW: Added for AI4K12 alignment - decision tree navigation"
+  },
+  {
+    "id": "T02.G2.05",
+    "title": "Create a Yes/No Helper for Friends",
+    "short_name": "Create simple decision tree",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "build_tree",
+    "description_teacher": "Students create a 2-3 question decision tree to help someone choose something (e.g., which game to play, what to eat for snack). They build the tree by selecting questions and outcomes.",
+    "student_prompt": "Make a helper that uses Yes and No to choose!",
+    "student_prompt_audio": {
+      "tts_text": "Make a helper that uses Yes and No to choose!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 6,
+      "max_questions": 2,
+      "outcomes": 4,
+      "interaction_mode": "drag_build_tree",
+      "visual_theme": "home_family",
+      "estimated_time_minutes": 5,
+      "randomization": {
+        "enabled": false,
+        "scenario_options": 3
+      }
+    },
+    "auto_grade_rules": {
+      "type": "tree_validation",
+      "correct_answer": "valid_complete_tree",
+      "partial_credit": {
+        "enabled": true,
+        "criteria": "tree_structure_correct"
+      },
+      "feedback": {
+        "correct": {
+          "message": "Amazing! Your Yes/No helper works great!",
+          "audio_tts": "Amazing! Your Yes No helper works great!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Almost there! Make sure every path leads somewhere.",
+          "audio_tts": "Almost there! Make sure every path leads somewhere.",
+          "hint_provided": true,
+          "hint_text": "Each Yes and No should go to a different choice."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T02.G1.05"
+    ],
+    "csta_code": "1A-AP-08",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Binary Decision-Making",
+    "notes": "NEW: Added for AI4K12 alignment - creating decision trees"
+  },
+  {
+    "id": "T04.GK.05",
+    "title": "Sort Pictures by What You See",
+    "short_name": "Pattern recognition sorting",
+    "topic_id": "T04",
+    "topic_name": "Patterns & Abstraction",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "sort_categories",
+    "description_teacher": "Students sort pictures into groups by patterns they observe (spots vs. stripes, shapes, colors). This introduces pattern recognition as a way computers can learn.",
+    "student_prompt": "Put the pictures in groups that match!",
+    "student_prompt_audio": {
+      "tts_text": "Put the pictures in groups that match!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 8,
+      "categories": 2,
+      "interaction_mode": "drag_to_bins",
+      "visual_theme": "animals_pets",
+      "estimated_time_minutes": 3,
+      "randomization": {
+        "enabled": true,
+        "randomize_items": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "category_sorting",
+      "correct_answer": [
+        "category_match"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.75
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great sorting! You found the pattern!",
+          "audio_tts": "Great sorting! You found the pattern!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Look closely! What is the same about some pictures?",
+          "audio_tts": "Look closely! What is the same about some pictures?",
+          "hint_provided": true,
+          "hint_text": "Do they have spots or stripes?"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-08",
+    "ai4k12_category": "C",
+    "ai4k12_subtopic": "Machine Learning: How Computers Learn from Patterns",
+    "notes": "NEW: Added for AI4K12 alignment - foundational pattern recognition"
+  },
+  {
+    "id": "T04.G1.05",
+    "title": "Show the Computer What You Mean",
+    "short_name": "Learning from examples",
+    "topic_id": "T04",
+    "topic_name": "Patterns & Abstraction",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "select_examples",
+    "description_teacher": "Students give examples to teach an AI to recognize categories (e.g., happy faces, different animals). They understand that computers learn by seeing many examples.",
+    "student_prompt": "Pick pictures to teach the computer what you want!",
+    "student_prompt_audio": {
+      "tts_text": "Pick pictures to teach the computer what you want!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 12,
+      "target_selections": 4,
+      "interaction_mode": "click_select_multiple",
+      "visual_theme": "emotions",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "randomize_positions": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "example_selection",
+      "correct_answer": "category_examples",
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.75
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! You showed the computer good examples!",
+          "audio_tts": "Perfect! You showed the computer good examples!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Try again! Pick pictures that all show the same thing.",
+          "audio_tts": "Try again! Pick pictures that all show the same thing.",
+          "hint_provided": true,
+          "hint_text": "Look for pictures that all look happy."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T04.GK.05"
+    ],
+    "csta_code": "1A-AP-08",
+    "ai4k12_category": "C",
+    "ai4k12_subtopic": "Machine Learning: How Computers Learn from Patterns",
+    "notes": "NEW: Added for AI4K12 alignment - learning from examples concept"
+  },
+  {
+    "id": "T04.G2.05",
+    "title": "More Pictures Help AI Learn Better",
+    "short_name": "Understand training data size",
+    "topic_id": "T04",
+    "topic_name": "Patterns & Abstraction",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "experiment_compare",
+    "description_teacher": "Students experiment with teaching an AI using few vs. many examples. They see that more examples help the computer learn better and make fewer mistakes.",
+    "student_prompt": "Does the computer learn better with more pictures?",
+    "student_prompt_audio": {
+      "tts_text": "Does the computer learn better with more pictures?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 16,
+      "experiment_rounds": 2,
+      "interaction_mode": "select_and_compare",
+      "visual_theme": "shapes_colors",
+      "estimated_time_minutes": 5,
+      "randomization": {
+        "enabled": true,
+        "vary_example_count": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "experiment_understanding",
+      "correct_answer": "more_examples_better",
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "You're right! More examples help computers learn better!",
+          "audio_tts": "You're right! More examples help computers learn better!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Look at both tries. Which one worked better?",
+          "audio_tts": "Look at both tries. Which one worked better?",
+          "hint_provided": true,
+          "hint_text": "When we showed more pictures, the computer made fewer mistakes."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 2,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T04.G1.05",
+      "T21.G2.01"
+    ],
+    "csta_code": "1A-AP-08",
+    "ai4k12_category": "C",
+    "ai4k12_subtopic": "Machine Learning: How Computers Learn from Patterns",
+    "notes": "NEW: Added for AI4K12 alignment - training data quantity concept"
+  },
+  {
+    "id": "T35.GK.05",
+    "title": "Who Makes the AI?",
+    "short_name": "Identify AI creators",
+    "topic_id": "T35",
+    "topic_name": "Societal & Economic Impacts of Computing",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "match_pairs",
+    "description_teacher": "Students match pictures of people (engineers, data collectors, testers) to what they do to create AI. They learn that real people make AI tools.",
+    "student_prompt": "Match the people to what they do to make AI!",
+    "student_prompt_audio": {
+      "tts_text": "Match the people to what they do to make AI!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 6,
+      "interaction_mode": "draw_lines",
+      "visual_theme": "people_jobs",
+      "estimated_time_minutes": 3,
+      "randomization": {
+        "enabled": true,
+        "randomize_positions": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "pair_match",
+      "correct_answer": [
+        "matched_all"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.66
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great! People make AI tools!",
+          "audio_tts": "Great! People make AI tools!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! What does each person do?",
+          "audio_tts": "Try again! What does each person do?",
+          "hint_provided": true,
+          "hint_text": "The person at the computer writes the code."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-IC-17",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "notes": "NEW: Added for AI4K12 alignment - humans create AI"
+  },
+  {
+    "id": "T35.G1.05",
+    "title": "People Build AI Tools",
+    "short_name": "People behind AI",
+    "topic_id": "T35",
+    "topic_name": "Societal & Economic Impacts of Computing",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_select",
+    "description_teacher": "Students learn that real people program, test, and teach AI tools. They identify true statements about who creates and controls AI systems.",
+    "student_prompt": "Which things are true about people and AI?",
+    "student_prompt_audio": {
+      "tts_text": "Which things are true about people and AI?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 6,
+      "interaction_mode": "click_true_false",
+      "visual_theme": "people_jobs",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "randomize_order": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "true_false_selection",
+      "correct_answer": [
+        "all_correct"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.75
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! You know that people make AI!",
+          "audio_tts": "Perfect! You know that people make AI!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Think about it! Who writes the code for AI?",
+          "audio_tts": "Think about it! Who writes the code for AI?",
+          "hint_provided": true,
+          "hint_text": "AI doesn't make itself - people create it!"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T35.GK.05"
+    ],
+    "csta_code": "1A-IC-17",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "notes": "NEW: Added for AI4K12 alignment - AI is a human-created tool"
+  },
+  {
+    "id": "T35.G2.05",
+    "title": "Humans Teach AI to Work",
+    "short_name": "How humans train AI",
+    "topic_id": "T35",
+    "topic_name": "Societal & Economic Impacts of Computing",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "sequence_story",
+    "description_teacher": "Students sequence pictures showing how people collect data, show examples to AI, and teach it to recognize things. They understand that AI learns what humans teach it.",
+    "student_prompt": "Put the pictures in order to show how people teach AI!",
+    "student_prompt_audio": {
+      "tts_text": "Put the pictures in order to show how people teach AI!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 4,
+      "interaction_mode": "drag_to_slots",
+      "visual_theme": "ai_concept",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "randomize_positions": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "sequence_order",
+      "correct_answer": [
+        "collect_data",
+        "show_examples",
+        "train_ai",
+        "test_ai"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.5
+      },
+      "feedback": {
+        "correct": {
+          "message": "Yes! That's how people teach AI to work!",
+          "audio_tts": "Yes! That's how people teach AI to work!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Not quite! What happens first?",
+          "audio_tts": "Not quite! What happens first?",
+          "hint_provided": true,
+          "hint_text": "First, people collect pictures or information."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T35.G1.05",
+      "T04.G2.05"
+    ],
+    "csta_code": "1A-IC-17",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "notes": "NEW: Added for AI4K12 alignment - human training process"
+  },
+  {
+    "id": "T21.G3.05",
+    "title": "The AI Team: Who Does What?",
+    "short_name": "Roles in creating AI",
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+    "grade": 3,
+    "description": "Students identify different roles in creating AI systems: designer (decides what the AI should do), data collector (gathers examples), trainer (teaches the AI), tester (checks if it works), and user (uses the AI). They understand that many people with different skills work together to create AI.",
+    "csta_code": "1B-IC-18",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "dependencies": [
+      "T35.G2.05",
+      "T21.G2.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - understanding AI team roles"
+  },
+  {
+    "id": "T21.G4.05",
+    "title": "What is Data Labeling?",
+    "short_name": "Data labeling jobs",
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+    "grade": 4,
+    "description": "Students learn about data labeling work: people who look at pictures, videos, or text and label them so AI can learn from the examples. They understand that this is an important job that helps AI learn correctly, and that these workers make choices about how to label things that affect what the AI learns.",
+    "csta_code": "1B-IC-18",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "dependencies": [
+      "T21.G3.05",
+      "T21.G3.02"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - data labeling as human work"
+  },
+  {
+    "id": "T21.G5.05",
+    "title": "From Idea to Trained Model",
+    "short_name": "AI creation process",
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+    "grade": 5,
+    "description": "Students trace the full process of creating an AI model: (1) identify a problem, (2) collect and prepare data, (3) choose what the AI should learn, (4) train the model on examples, (5) test and evaluate performance, (6) refine and improve. They understand that humans make important decisions at every step.",
+    "csta_code": "1B-IC-18",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "dependencies": [
+      "T21.G4.05",
+      "T21.G4.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - end-to-end AI development process"
+  },
+  {
+    "id": "T21.G6.05",
+    "title": "Data Curation Matters",
+    "short_name": "Why data quality matters",
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+    "grade": 6,
+    "description": "Students explore how data curation decisions affect AI model quality: what data to include or exclude, how to balance different examples, how to handle edge cases. They examine real examples where data quality issues led to AI problems (e.g., facial recognition working better for some groups than others due to unbalanced training data).",
+    "csta_code": "2-IC-20",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "dependencies": [
+      "T21.G5.05",
+      "T21.G5.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - data curation impact"
+  },
+  {
+    "id": "T21.G7.05",
+    "title": "Data Labeling Shapes AI Behavior",
+    "short_name": "Labeling affects AI outcomes",
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+    "grade": 7,
+    "description": "Students understand how labeling choices affect model behavior and can introduce bias. They examine scenarios where different labelers might categorize the same data differently (e.g., is this image 'professional clothing' or 'casual clothing'?), and how those choices affect what the AI learns. They practice creating clear labeling guidelines to reduce inconsistency.",
+    "csta_code": "2-IC-21",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "dependencies": [
+      "T21.G6.05",
+      "T21.G6.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - labeling decisions and bias"
+  },
+  {
+    "id": "T21.G8.05",
+    "title": "Design an AI Project Plan",
+    "short_name": "Plan AI with all roles",
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+    "grade": 8,
+    "description": "Students design a complete plan for building an AI model, including: defining the problem, identifying needed roles and skills, planning data collection and labeling strategy, choosing evaluation metrics, and considering ethical implications. They document all human roles required and decisions humans must make throughout the process.",
+    "csta_code": "2-IC-21",
+    "ai4k12_category": "D",
+    "ai4k12_subtopic": "Humans and AI: Human Role in Creating AI",
+    "dependencies": [
+      "T21.G7.05",
+      "T21.G7.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - comprehensive AI project planning"
+  },
+  {
+    "id": "T24.G3.05",
+    "title": "Design AI for Everyone",
+    "short_name": "User-centered AI design",
+    "topic_id": "T24",
+    "topic_name": "Coding with AI (XO & AI-Supported Coding)",
+    "grade": 3,
+    "description": "Students design a simple AI helper (e.g., a recommendation system for books or a homework helper) and describe: (1) who it's meant to help, (2) what it does, (3) who else might use it, and (4) who it might NOT help well. They learn to think about different users when designing AI.",
+    "csta_code": "1B-IC-18",
+    "ai4k12_category": "E",
+    "ai4k12_subtopic": "Societal Impact: Ethical AI System Design",
+    "dependencies": [
+      "T21.G3.05",
+      "T35.G3.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - inclusive AI design thinking"
+  },
+  {
+    "id": "T24.G4.05",
+    "title": "Fairness Checklist for AI",
+    "short_name": "Plan ethical AI questions",
+    "topic_id": "T24",
+    "topic_name": "Coding with AI (XO & AI-Supported Coding)",
+    "grade": 4,
+    "description": "Students create a checklist of fairness questions to ask before building an AI project: Does it work equally well for different people? Could it treat some groups unfairly? What could go wrong? Who might be harmed? They apply this checklist to example AI scenarios and identify potential problems.",
+    "csta_code": "1B-IC-18",
+    "ai4k12_category": "E",
+    "ai4k12_subtopic": "Societal Impact: Ethical AI System Design",
+    "dependencies": [
+      "T24.G3.05",
+      "T21.G4.03"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - ethical evaluation framework"
+  },
+  {
+    "id": "T24.G5.05",
+    "title": "Design an Ethical Chatbot",
+    "short_name": "Ethical chatbot design",
+    "topic_id": "T24",
+    "topic_name": "Coding with AI (XO & AI-Supported Coding)",
+    "grade": 5,
+    "description": "Students create a chatbot personality and document their design choices with ethics in mind: What topics should it avoid? How should it respond to inappropriate requests? How does it admit what it doesn't know? They consider different users (ages, backgrounds, needs) and design responses that are helpful and respectful to all.",
+    "csta_code": "1B-IC-18",
+    "ai4k12_category": "E",
+    "ai4k12_subtopic": "Societal Impact: Ethical AI System Design",
+    "dependencies": [
+      "T24.G4.05",
+      "T22.G4.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - ethical conversational AI design"
+  },
+  {
+    "id": "T24.G6.05",
+    "title": "Build and Test for Bias",
+    "short_name": "Test classifier for bias",
+    "topic_id": "T24",
+    "topic_name": "Coding with AI (XO & AI-Supported Coding)",
+    "grade": 6,
+    "description": "Students build a simple AI image classifier (using CreatiCode or similar tools) and systematically test it for bias by trying diverse examples. They document: Does it work equally well for all types of images? Where does it fail? What patterns do they notice in the failures? They propose how to improve the training data to reduce bias.",
+    "csta_code": "2-IC-21",
+    "ai4k12_category": "E",
+    "ai4k12_subtopic": "Societal Impact: Ethical AI System Programming",
+    "dependencies": [
+      "T24.G5.05",
+      "T21.G6.05",
+      "T23.G5.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - hands-on bias testing"
+  },
+  {
+    "id": "T24.G7.05",
+    "title": "Document AI Limitations: Model Card Basics",
+    "short_name": "Create simple model card",
+    "topic_id": "T24",
+    "topic_name": "Coding with AI (XO & AI-Supported Coding)",
+    "grade": 7,
+    "description": "Students create an AI model (e.g., classifier, recommendation system) and document its limitations in a simplified model card format: (1) What it does, (2) What data it was trained on, (3) How accurate it is, (4) What it does well, (5) What it does poorly, (6) Who should/shouldn't use it. They learn that responsible AI creators document limitations honestly.",
+    "csta_code": "2-IC-21",
+    "ai4k12_category": "E",
+    "ai4k12_subtopic": "Societal Impact: Ethical AI System Programming",
+    "dependencies": [
+      "T24.G6.05",
+      "T21.G7.05"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - model documentation practices"
+  },
+  {
+    "id": "T24.G8.05",
+    "title": "Build Ethical AI with Full Documentation",
+    "short_name": "AI app with complete model card",
+    "topic_id": "T24",
+    "topic_name": "Coding with AI (XO & AI-Supported Coding)",
+    "grade": 8,
+    "description": "Students develop an AI application using APIs or tools (e.g., image generation, text analysis, recommendation system) with complete ethical documentation: (1) full model card describing capabilities and limitations, (2) fairness evaluation across diverse test cases, (3) bias mitigation strategies implemented, (4) clear usage guidelines for users, (5) transparency about how decisions are made. This is a capstone ethical AI development project.",
+    "csta_code": "2-IC-21",
+    "ai4k12_category": "E",
+    "ai4k12_subtopic": "Societal Impact: Ethical AI System Programming",
+    "dependencies": [
+      "T24.G7.05",
+      "T21.G8.05",
+      "T22.G7.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - comprehensive ethical AI development"
+  }
+]

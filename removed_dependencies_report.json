@@ -1,0 +1,173 @@
+{
+  "total_removed": 38,
+  "unique_missing_deps": 13,
+  "removed_dependencies": [
+    {
+      "skill": "T15.G3.01",
+      "missing_dep": "T15.G2.01"
+    },
+    {
+      "skill": "T15.G3.02",
+      "missing_dep": "T15.G2.01"
+    },
+    {
+      "skill": "T15.G3.03",
+      "missing_dep": "T15.G2.01"
+    },
+    {
+      "skill": "T15.G3.04",
+      "missing_dep": "T15.G2.01"
+    },
+    {
+      "skill": "T16.G3.01",
+      "missing_dep": "T16.G2.01"
+    },
+    {
+      "skill": "T16.G3.02",
+      "missing_dep": "T16.G2.01"
+    },
+    {
+      "skill": "T16.G3.03",
+      "missing_dep": "T16.G2.01"
+    },
+    {
+      "skill": "T16.G3.04",
+      "missing_dep": "T16.G2.01"
+    },
+    {
+      "skill": "T17.G3.01",
+      "missing_dep": "T17.G2.01"
+    },
+    {
+      "skill": "T17.G3.02",
+      "missing_dep": "T17.G2.01"
+    },
+    {
+      "skill": "T17.G3.03",
+      "missing_dep": "T17.G2.01"
+    },
+    {
+      "skill": "T17.G3.04",
+      "missing_dep": "T17.G2.01"
+    },
+    {
+      "skill": "T18.G3.01",
+      "missing_dep": "T18.G2.01"
+    },
+    {
+      "skill": "T18.G3.02",
+      "missing_dep": "T18.G2.01"
+    },
+    {
+      "skill": "T18.G3.03",
+      "missing_dep": "T18.G2.01"
+    },
+    {
+      "skill": "T18.G3.04",
+      "missing_dep": "T18.G2.01"
+    },
+    {
+      "skill": "T19.G3.01",
+      "missing_dep": "T19.G2.01"
+    },
+    {
+      "skill": "T19.G3.02",
+      "missing_dep": "T19.G2.01"
+    },
+    {
+      "skill": "T19.G3.03",
+      "missing_dep": "T19.G2.01"
+    },
+    {
+      "skill": "T19.G3.04",
+      "missing_dep": "T19.G2.01"
+    },
+    {
+      "skill": "T22.G3.01",
+      "missing_dep": "T22.G2.01"
+    },
+    {
+      "skill": "T22.G3.02",
+      "missing_dep": "T22.G2.01"
+    },
+    {
+      "skill": "T22.G3.03",
+      "missing_dep": "T22.G2.01"
+    },
+    {
+      "skill": "T22.G3.04",
+      "missing_dep": "T22.G2.01"
+    },
+    {
+      "skill": "T23.G3.01",
+      "missing_dep": "T23.G2.01"
+    },
+    {
+      "skill": "T23.G3.02",
+      "missing_dep": "T23.G2.01"
+    },
+    {
+      "skill": "T23.G3.03",
+      "missing_dep": "T23.G2.01"
+    },
+    {
+      "skill": "T23.G3.04",
+      "missing_dep": "T23.G2.01"
+    },
+    {
+      "skill": "T24.G3.01",
+      "missing_dep": "T24.G2.01"
+    },
+    {
+      "skill": "T24.G3.02",
+      "missing_dep": "T24.G2.01"
+    },
+    {
+      "skill": "T24.G3.03",
+      "missing_dep": "T24.G2.01"
+    },
+    {
+      "skill": "T29.G3.01",
+      "missing_dep": "T29.G2.01"
+    },
+    {
+      "skill": "T29.G3.02",
+      "missing_dep": "T29.G2.02"
+    },
+    {
+      "skill": "T29.G4.02",
+      "missing_dep": "T29.G1.01"
+    },
+    {
+      "skill": "T29.G5.01",
+      "missing_dep": "T29.G2.03"
+    },
+    {
+      "skill": "T33.G3.01",
+      "missing_dep": "T33.G2.01"
+    },
+    {
+      "skill": "T33.G3.02",
+      "missing_dep": "T33.G2.01"
+    },
+    {
+      "skill": "T33.G3.03",
+      "missing_dep": "T33.G2.01"
+    }
+  ],
+  "summary": {
+    "T15.G2.01": 4,
+    "T16.G2.01": 4,
+    "T17.G2.01": 4,
+    "T18.G2.01": 4,
+    "T19.G2.01": 4,
+    "T22.G2.01": 4,
+    "T23.G2.01": 4,
+    "T24.G2.01": 3,
+    "T29.G2.01": 1,
+    "T29.G2.02": 1,
+    "T29.G1.01": 1,
+    "T29.G2.03": 1,
+    "T33.G2.01": 3
+  }
+}

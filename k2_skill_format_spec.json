@@ -1,0 +1,553 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "K-2 Picture-Based Skill Format Specification",
+  "description": "Enhanced skill structure for K-2 developmentally appropriate, picture-based, auto-gradable activities",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "short_name",
+    "topic_id",
+    "grade",
+    "skill_type",
+    "activity_type",
+    "description_teacher",
+    "student_prompt",
+    "student_prompt_audio",
+    "interaction_details",
+    "auto_grade_rules",
+    "accessibility",
+    "dependencies",
+    "csta_code"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^T\\d{2}\\.G[K12]\\.\\d{2}$",
+      "description": "Unique identifier: TopicID.Grade.SkillNumber (e.g., T01.GK.01)",
+      "examples": ["T01.GK.01", "T03.G1.05", "T07.G2.12"]
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 60,
+      "description": "Engaging, child-friendly title that describes the activity",
+      "examples": [
+        "Help the Puppy Get Ready",
+        "Sort the Recycling",
+        "What Comes Next in the Pattern?"
+      ]
+    },
+    "short_name": {
+      "type": "string",
+      "maxLength": 50,
+      "description": "Concise descriptor for teachers and curriculum mapping",
+      "examples": [
+        "Sequence 3-4 daily routine steps",
+        "Sort objects by category (2 groups)",
+        "Complete simple AB patterns"
+      ]
+    },
+    "topic_id": {
+      "type": "string",
+      "pattern": "^T\\d{2}$",
+      "description": "Parent topic identifier",
+      "examples": ["T01", "T03", "T07"]
+    },
+    "grade": {
+      "type": "string",
+      "enum": ["K", "1", "2"],
+      "description": "Target grade level"
+    },
+    "skill_type": {
+      "type": "string",
+      "enum": [
+        "unplugged",
+        "picture_based_digital",
+        "light_coding_prep",
+        "coding"
+      ],
+      "description": "Classification of skill interaction mode",
+      "definitions": {
+        "unplugged": "Paper-based or physical activities (not for this system)",
+        "picture_based_digital": "Digital activities using pictures, drag-drop, sorting, matching",
+        "light_coding_prep": "Simple block recognition or sequencing preparing for coding",
+        "coding": "Actual block-based coding (typically Grade 2+ only)"
+      }
+    },
+    "activity_type": {
+      "type": "string",
+      "enum": [
+        "drag_drop_sequence",
+        "sort_categories",
+        "match_pairs",
+        "click_select",
+        "pattern_complete",
+        "hot_spot_click",
+        "yes_no_sort",
+        "multiple_choice_visual",
+        "counting_interaction",
+        "path_tracing"
+      ],
+      "description": "Specific interaction pattern for the activity"
+    },
+    "description_teacher": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Detailed description for teachers including learning objectives and what students will do"
+    },
+    "student_prompt": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "Clear, simple instruction shown to students (also read aloud). Should use basic vocabulary."
+    },
+    "student_prompt_audio": {
+      "type": "object",
+      "description": "Audio support for student prompt",
+      "properties": {
+        "tts_text": {
+          "type": "string",
+          "description": "Text to be read by text-to-speech engine (may differ from visual text for clarity)"
+        },
+        "audio_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Optional pre-recorded audio file URL"
+        },
+        "voice_settings": {
+          "type": "object",
+          "properties": {
+            "speed": {
+              "type": "string",
+              "enum": ["slow", "normal", "fast"],
+              "default": "normal"
+            },
+            "voice_type": {
+              "type": "string",
+              "enum": ["child_friendly", "standard"],
+              "default": "child_friendly"
+            }
+          }
+        }
+      },
+      "required": ["tts_text"]
+    },
+    "interaction_details": {
+      "type": "object",
+      "description": "Specific parameters for the activity interaction",
+      "properties": {
+        "item_count": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 12,
+          "description": "Number of interactive items/elements in the activity"
+        },
+        "interaction_mode": {
+          "type": "string",
+          "enum": [
+            "drag_to_slots",
+            "drag_to_containers",
+            "click_items",
+            "draw_lines",
+            "tap_sequence",
+            "drag_to_match",
+            "fill_blanks"
+          ],
+          "description": "Specific interaction mechanism"
+        },
+        "visual_theme": {
+          "type": "string",
+          "description": "Visual theme category (see k2_visual_themes.json)",
+          "examples": [
+            "animals_pets",
+            "food_cooking",
+            "home_family",
+            "school_classroom",
+            "nature_weather"
+          ]
+        },
+        "estimated_time_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Expected completion time for typical student. K: 2-3 min, G1: 3-4 min, G2: 4-5 min"
+        },
+        "randomization": {
+          "type": "object",
+          "description": "How items are randomized for replay value",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            },
+            "randomize_positions": {
+              "type": "boolean",
+              "description": "Randomize initial positions of draggable items"
+            },
+            "randomize_items": {
+              "type": "boolean",
+              "description": "Select from item pool for variation"
+            },
+            "item_pool_size": {
+              "type": "integer",
+              "description": "Total items available if randomizing from pool"
+            }
+          }
+        },
+        "difficulty_parameters": {
+          "type": "object",
+          "description": "Parameters that affect difficulty within the activity type",
+          "properties": {
+            "distractor_count": {
+              "type": "integer",
+              "description": "Number of incorrect options/distractors"
+            },
+            "similarity_level": {
+              "type": "string",
+              "enum": ["low", "medium", "high"],
+              "description": "How similar distractors are to correct answers"
+            }
+          }
+        }
+      },
+      "required": [
+        "item_count",
+        "interaction_mode",
+        "visual_theme",
+        "estimated_time_minutes"
+      ]
+    },
+    "auto_grade_rules": {
+      "type": "object",
+      "description": "Rules for automatic grading and feedback",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "sequence_order",
+            "category_match",
+            "pair_match",
+            "selection_set",
+            "pattern_completion",
+            "location_accuracy",
+            "binary_classification",
+            "single_choice"
+          ],
+          "description": "Type of correctness validation"
+        },
+        "correct_answer": {
+          "description": "The correct answer representation (format varies by type)",
+          "oneOf": [
+            {
+              "type": "array",
+              "description": "For sequences, ordered item IDs"
+            },
+            {
+              "type": "object",
+              "description": "For categories or pairs, mapping of item IDs to categories/partners"
+            },
+            {
+              "type": "string",
+              "description": "For single choice, the correct item ID"
+            }
+          ]
+        },
+        "partial_credit": {
+          "type": "object",
+          "description": "Partial credit rules if applicable",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": false
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "condition": {
+                    "type": "string",
+                    "description": "Condition for partial credit (e.g., '75% correct', 'sequence mostly correct')"
+                  },
+                  "credit_percentage": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 100
+                  }
+                }
+              }
+            }
+          }
+        },
+        "feedback": {
+          "type": "object",
+          "description": "Feedback messages for different outcomes",
+          "properties": {
+            "correct": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "examples": ["Great job!", "You did it!", "Perfect!"]
+                },
+                "audio_tts": {
+                  "type": "string"
+                },
+                "visual_effect": {
+                  "type": "string",
+                  "enum": ["stars", "confetti", "checkmark", "happy_face"],
+                  "default": "stars"
+                }
+              }
+            },
+            "incorrect": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string",
+                  "examples": ["Try again!", "Not quite! Give it another try."]
+                },
+                "audio_tts": {
+                  "type": "string"
+                },
+                "hint_provided": {
+                  "type": "boolean",
+                  "description": "Whether a hint is shown"
+                },
+                "hint_text": {
+                  "type": "string",
+                  "description": "Optional hint after incorrect attempt"
+                }
+              }
+            },
+            "partially_correct": {
+              "type": "object",
+              "properties": {
+                "message": {
+                  "type": "string"
+                },
+                "audio_tts": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "required": ["correct", "incorrect"]
+        },
+        "retry_logic": {
+          "type": "object",
+          "description": "How retries are handled",
+          "properties": {
+            "max_attempts": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5,
+              "default": 3,
+              "description": "Maximum attempts before showing answer"
+            },
+            "show_correct_answer": {
+              "type": "boolean",
+              "default": true,
+              "description": "Show correct answer after max attempts"
+            },
+            "reset_on_retry": {
+              "type": "boolean",
+              "default": true,
+              "description": "Clear student's work on retry"
+            }
+          }
+        }
+      },
+      "required": ["type", "correct_answer", "feedback", "retry_logic"]
+    },
+    "accessibility": {
+      "type": "object",
+      "description": "Accessibility features and compliance",
+      "properties": {
+        "audio_support": {
+          "type": "boolean",
+          "default": true,
+          "description": "Audio narration of instructions and feedback"
+        },
+        "keyboard_navigable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Can be completed using keyboard only"
+        },
+        "screen_reader_compatible": {
+          "type": "boolean",
+          "default": true,
+          "description": "Works with screen readers"
+        },
+        "touch_target_size": {
+          "type": "string",
+          "enum": ["large", "extra_large"],
+          "default": "large",
+          "description": "Minimum touch target size (large: 44px, extra_large: 60px)"
+        },
+        "color_blind_safe": {
+          "type": "boolean",
+          "default": true,
+          "description": "Does not rely solely on color for meaning"
+        },
+        "high_contrast_mode": {
+          "type": "boolean",
+          "default": true,
+          "description": "Supports high contrast viewing"
+        },
+        "language_support": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": ["en"],
+          "description": "Supported language codes"
+        }
+      },
+      "required": [
+        "audio_support",
+        "keyboard_navigable",
+        "screen_reader_compatible"
+      ]
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "Prerequisite skills (typically empty for K, minimal for G1-2)",
+      "items": {
+        "type": "string",
+        "pattern": "^T\\d{2}\\.G[K12]\\.\\d{2}$"
+      },
+      "default": []
+    },
+    "csta_code": {
+      "type": "string",
+      "description": "CSTA K-12 CS Standards code alignment",
+      "pattern": "^[0-9][A-Z]-[A-Z]{2,3}-\\d{2}$",
+      "examples": ["1A-AP-08", "1A-AP-10", "1A-CS-01"]
+    },
+    "additional_metadata": {
+      "type": "object",
+      "description": "Optional additional metadata",
+      "properties": {
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Searchable tags",
+          "examples": ["sequencing", "daily_routines", "animals", "patterns"]
+        },
+        "learning_objectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Explicit learning objectives in teacher language"
+        },
+        "common_misconceptions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Common student errors or misconceptions to watch for"
+        },
+        "differentiation_notes": {
+          "type": "object",
+          "properties": {
+            "scaffolding": {
+              "type": "string",
+              "description": "How to support struggling learners"
+            },
+            "extension": {
+              "type": "string",
+              "description": "How to challenge advanced learners"
+            }
+          }
+        },
+        "home_school_notes": {
+          "type": "string",
+          "description": "Guidance for parents/guardians supporting at home"
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "id": "T01.GK.01",
+      "title": "Help the Puppy Get Ready",
+      "short_name": "Sequence 3-4 daily routine steps",
+      "topic_id": "T01",
+      "grade": "K",
+      "skill_type": "picture_based_digital",
+      "activity_type": "drag_drop_sequence",
+      "description_teacher": "Students practice sequencing by arranging 3-4 pictures of a puppy's morning routine in logical order. This builds foundational understanding of algorithms as ordered steps to accomplish a task.",
+      "student_prompt": "Put the pictures in order to help the puppy get ready!",
+      "student_prompt_audio": {
+        "tts_text": "Put the pictures in order to help the puppy get ready for the day!",
+        "voice_settings": {
+          "speed": "normal",
+          "voice_type": "child_friendly"
+        }
+      },
+      "interaction_details": {
+        "item_count": 4,
+        "interaction_mode": "drag_to_slots",
+        "visual_theme": "animals_pets",
+        "estimated_time_minutes": 2,
+        "randomization": {
+          "enabled": true,
+          "randomize_positions": true,
+          "randomize_items": false
+        }
+      },
+      "auto_grade_rules": {
+        "type": "sequence_order",
+        "correct_answer": ["wake_up", "eat_breakfast", "brush_teeth", "put_on_collar"],
+        "partial_credit": {
+          "enabled": false
+        },
+        "feedback": {
+          "correct": {
+            "message": "Great job! You helped the puppy get ready!",
+            "audio_tts": "Great job! You helped the puppy get ready!",
+            "visual_effect": "stars"
+          },
+          "incorrect": {
+            "message": "Try again! Think about what the puppy does first.",
+            "audio_tts": "Try again! Think about what the puppy does first in the morning.",
+            "hint_provided": true,
+            "hint_text": "What does the puppy do right after waking up?"
+          }
+        },
+        "retry_logic": {
+          "max_attempts": 3,
+          "show_correct_answer": true,
+          "reset_on_retry": true
+        }
+      },
+      "accessibility": {
+        "audio_support": true,
+        "keyboard_navigable": true,
+        "screen_reader_compatible": true,
+        "touch_target_size": "extra_large",
+        "color_blind_safe": true,
+        "high_contrast_mode": true,
+        "language_support": ["en", "es"]
+      },
+      "dependencies": [],
+      "csta_code": "1A-AP-08",
+      "additional_metadata": {
+        "tags": ["sequencing", "daily_routines", "animals", "morning_routine"],
+        "learning_objectives": [
+          "Arrange steps in logical order",
+          "Understand that algorithms are sequences of steps",
+          "Practice drag-and-drop digital skills"
+        ],
+        "common_misconceptions": [
+          "Students may focus on what they like rather than logical order",
+          "May not understand that order matters"
+        ]
+      }
+    }
+  ]
+}

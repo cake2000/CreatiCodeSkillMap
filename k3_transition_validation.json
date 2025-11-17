@@ -1,0 +1,1502 @@
+{
+  "total_g3_skills_with_k2_deps": 95,
+  "skills": [
+    {
+      "skill_id": "T01.G3.01",
+      "topic_id": "T01",
+      "description": "Students create a short program using block-based code (in CreatiCode) where a sprite follows a sequ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.02",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T01.G3.03",
+      "topic_id": "T01",
+      "description": "Students create a program that uses a repeat (or forever) block to execute a sequence multiple times",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.03",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T01.G3.04",
+      "topic_id": "T01",
+      "description": "After creating or being shown a program, students write or speak a description of what the algorithm",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T02.G3.01",
+      "topic_id": "T02",
+      "description": "Students create a flowchart using basic symbols (start oval, action rectangle, end oval) to represen",
+      "k2_dependencies": [
+        {
+          "dep_id": "T02.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T02",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T02.G3.02",
+      "topic_id": "T02",
+      "description": "Given a script with one simple `if` or `if/else` block (e.g., \"if key pressed, move right, else move",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T02.G3.03",
+      "topic_id": "T02",
+      "description": "Students match a flowchart with a diamond decision symbol to a script that uses an `if/else` block. ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T02.G2.03",
+          "dep_grade": "2",
+          "dep_topic": "T02",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T02.G3.04",
+      "topic_id": "T02",
+      "description": "Given a simple script with a `repeat` loop (e.g., `repeat 3 { move 10 }`), students trace it to dete",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T03.G3.01",
+      "topic_id": "T03",
+      "description": "Students take a medium‑sized project idea (game, story, or interactive app) and break it into major ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T03.G2.03",
+          "dep_grade": "2",
+          "dep_topic": "T03",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T03.G3.02",
+      "topic_id": "T03",
+      "description": "In a collaborative setting, students divide a project into individual tasks and assign them to team ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T03.G3.03",
+      "topic_id": "T03",
+      "description": "Students create a detailed task list for a coding project (e.g., \"Make sprite move ☐, Add enemies ☐,",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T04.G3.01",
+      "topic_id": "T04",
+      "description": "Students analyze a visual or behavioral pattern (e.g., a row of stamps repeated multiple times to fo",
+      "k2_dependencies": [
+        {
+          "dep_id": "T04.G2.03",
+          "dep_grade": "2",
+          "dep_topic": "T04",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T04.G3.02",
+      "topic_id": "T04",
+      "description": "Students use a loop inside a loop to make patterns such as a row of stamps repeated multiple times (",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T04.G3.03",
+      "topic_id": "T04",
+      "description": "Students identify a repeating behavior in a script (e.g., \"turn 90 degrees and move 20 steps\" happen",
+      "k2_dependencies": [
+        {
+          "dep_id": "T04.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T04",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T04.G3.04",
+      "topic_id": "T04",
+      "description": "Students read a script with nested loops (e.g., `repeat 3 { repeat 2 { stamp } }`) and predict how m",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T05.G3.01",
+      "topic_id": "T05",
+      "description": "Students brainstorm and plan a simple program (e.g., a quiz game, a story, a tool) by first identify",
+      "k2_dependencies": [
+        {
+          "dep_id": "T05.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T05",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T05.G3.03",
+      "topic_id": "T05",
+      "description": "Students sketch or arrange cards to show the steps a user takes to accomplish a task in a program (e",
+      "k2_dependencies": [
+        {
+          "dep_id": "T05.G2.02",
+          "dep_grade": "2",
+          "dep_topic": "T05",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T06.G3.01",
+      "topic_id": "T06",
+      "description": "Students build a program with two or more separate scripts (e.g., one green flag script and one or t",
+      "k2_dependencies": [
+        {
+          "dep_id": "T06.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T06",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T06.G3.02",
+      "topic_id": "T06",
+      "description": "Students use a `broadcast [message]` block in one script and a `when I receive [message]` block in a",
+      "k2_dependencies": [
+        {
+          "dep_id": "T06.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T06",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T06.G3.03",
+      "topic_id": "T06",
+      "description": "Students recognize that when a program runs, a green flag script, key scripts, and other event handl",
+      "k2_dependencies": [
+        {
+          "dep_id": "T06.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T06",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T06.G3.04",
+      "topic_id": "T06",
+      "description": "Students examine a script where an event is not triggered correctly (e.g., wrong key, wrong event ty",
+      "k2_dependencies": [
+        {
+          "dep_id": "T06.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T06",
+          "exists": true
+        },
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 2
+    },
+    {
+      "skill_id": "T07.G3.01",
+      "topic_id": "T07",
+      "description": "Students use a `repeat until <touching goal>` loop to move a sprite towards a target (e.g., a flag o",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T07.G3.02",
+      "topic_id": "T07",
+      "description": "Students implement a `forever` loop that continuously checks keyboard input and moves the sprite acc",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T07.G3.03",
+      "topic_id": "T07",
+      "description": "Students use a loop inside a loop to make patterns such as a row of stamps repeated multiple times (",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T07.G3.04",
+      "topic_id": "T07",
+      "description": "Students read a short script with nested loops and predict how many times an action (like stamping) ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T08.G3.01",
+      "topic_id": "T08",
+      "description": "Students use if/else blocks inside a `forever` loop to check conditions repeatedly (e.g., \"forever: ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T08.G3.02",
+      "topic_id": "T08",
+      "description": "Students use a compound condition (AND) to check if two things are true at the same time before acti",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T08.G3.03",
+      "topic_id": "T08",
+      "description": "Students use OR to check if at least one of two conditions is true (e.g., \"if score > 100 OR lives =",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T08.G3.04",
+      "topic_id": "T08",
+      "description": "Students read code with one or more if/else blocks (including compound conditions) and trace the exe",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T09.G3.01",
+      "topic_id": "T09",
+      "description": "Students create variables of different types—number, text, and boolean—and assign appropriate values",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T09.G3.02",
+      "topic_id": "T09",
+      "description": "Students write conditionals that read a variable's value and branch based on it, such as \"if score >",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T09.G3.03",
+      "topic_id": "T09",
+      "description": "Students use * and / operators in expressions to set or change variables, such as \"set total to live",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T09.G3.04",
+      "topic_id": "T09",
+      "description": "Students write expressions that combine two or more operators and variables, such as \"(a + b) * 2\" o",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T09.G3.05",
+      "topic_id": "T09",
+      "description": "Students trace a short script step‑by‑step, recording the value of a variable at each stage, and pre",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T10.G3.01",
+      "topic_id": "T10",
+      "description": "Students use a `repeat` or `for each [item] in [list]` loop to iterate over all items in a list and ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 3,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T10.G3.02",
+      "topic_id": "T10",
+      "description": "Students loop through a list and count items that satisfy a condition (e.g., \"count how many numbers",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T10.G3.03",
+      "topic_id": "T10",
+      "description": "Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by rep",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T10.G3.04",
+      "topic_id": "T10",
+      "description": "Students implement a simple linear search: loop through a list, compare each item to a target, and r",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T11.G3.01",
+      "topic_id": "T11",
+      "description": "Students differentiate between using a loop (for repeating the exact same action a fixed number of t",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T11.G3.02",
+      "topic_id": "T11",
+      "description": "Students define a custom block that accepts two or more parameters, such as \"Draw a Rectangle [width",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T11.G3.03",
+      "topic_id": "T11",
+      "description": "Students use custom blocks to partition a larger project into smaller, logical pieces. For example, ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T11.G3.04",
+      "topic_id": "T11",
+      "description": "Students are introduced to the idea that a custom block can compute a value and report it back to th",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 2,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T12.G3.01",
+      "topic_id": "T12",
+      "description": "Students add a comment to a block or small sequence that is less obvious in purpose (e.g., a `repeat",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T12.G3.02",
+      "topic_id": "T12",
+      "description": "Students add a comment block at the very top of a script that summarizes its purpose, triggering eve",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T12.G3.03",
+      "topic_id": "T12",
+      "description": "Students take a project with deeply nested conditionals or repeated patterns and refactor it—either ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T12.G3.04",
+      "topic_id": "T12",
+      "description": "Students write or select explanations for how the scripts in a project interact and fit together (e.",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T13.G3.01",
+      "topic_id": "T13",
+      "description": "Students debug a program where a conditional statement inside a loop doesn't work as expected. The b",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T13.G3.02",
+      "topic_id": "T13",
+      "description": "Students consider edge cases for a simple conditional program (e.g., \"What happens if the sprite is ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 5,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T13.G3.03",
+      "topic_id": "T13",
+      "description": "Given a working program, students redesign it to accomplish the same task using a different approach",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 5,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T13.G3.04",
+      "topic_id": "T13",
+      "description": "Students recognize that a `forever` or `repeat until` loop is stuck (never exits) and diagnose why (",
+      "k2_dependencies": [
+        {
+          "dep_id": "T01.G1.01",
+          "dep_grade": "1",
+          "dep_topic": "T01",
+          "exists": true
+        }
+      ],
+      "total_deps": 5,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T14.G3.01",
+      "topic_id": "T14",
+      "description": "Students design a title screen that appears when the game loads and is replaced by gameplay when a b",
+      "k2_dependencies": [
+        {
+          "dep_id": "T14.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T14",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T14.G3.02",
+      "topic_id": "T14",
+      "description": "When a win or loss condition is met, students switch to a \"game over\" state: gameplay pauses, a scre",
+      "k2_dependencies": [
+        {
+          "dep_id": "T14.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T14",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T14.G3.03",
+      "topic_id": "T14",
+      "description": "Instead of manually placing each enemy sprite, students use a loop to create multiple enemy clones o",
+      "k2_dependencies": [
+        {
+          "dep_id": "T14.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T14",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T14.G3.04",
+      "topic_id": "T14",
+      "description": "Students add multiple conditional branches to check different game‑ending scenarios (e.g., \"win if s",
+      "k2_dependencies": [
+        {
+          "dep_id": "T14.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T14",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T20.G3.01",
+      "topic_id": "T20",
+      "description": "Students use an outer loop (rows) and an inner loop (columns) to create a grid of stamps or shapes. ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T20.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T20",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T20.G3.02",
+      "topic_id": "T20",
+      "description": "Students use nested loops with an if statement to stamp only certain squares (e.g., only when row+co",
+      "k2_dependencies": [
+        {
+          "dep_id": "T20.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T20",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T20.G3.03",
+      "topic_id": "T20",
+      "description": "Students add `pick random` to a loop-based drawing script to vary colors, positions, or stamp sizes.",
+      "k2_dependencies": [
+        {
+          "dep_id": "T20.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T20",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T20.G3.04",
+      "topic_id": "T20",
+      "description": "Students read code with nested loops and predict or count how many stamps will appear or describe th",
+      "k2_dependencies": [
+        {
+          "dep_id": "T20.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T20",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T21.G3.01",
+      "topic_id": "T21",
+      "description": "Students expand their prompt vocabulary to include style descriptors (\"watercolor,\" \"cartoon,\" \"real",
+      "k2_dependencies": [
+        {
+          "dep_id": "T21.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T21",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T21.G3.02",
+      "topic_id": "T21",
+      "description": "Students learn that AI image generators are trained on many examples of images, so they can only mak",
+      "k2_dependencies": [
+        {
+          "dep_id": "T21.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T21",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T21.G3.03",
+      "topic_id": "T21",
+      "description": "Students search the CreatiCode AI Image Library for existing community-generated images that suit th",
+      "k2_dependencies": [
+        {
+          "dep_id": "T21.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T21",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T21.G3.04",
+      "topic_id": "T21",
+      "description": "Students understand that when they use AI-generated images in a project, they should acknowledge tha",
+      "k2_dependencies": [
+        {
+          "dep_id": "T21.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T21",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T25.G3.01",
+      "topic_id": "T25",
+      "description": "Students evaluate collected data to check if it is accurate (correct values) and complete (no missin",
+      "k2_dependencies": [
+        {
+          "dep_id": "T25.G2.05",
+          "dep_grade": "2",
+          "dep_topic": "T25",
+          "exists": true
+        }
+      ],
+      "total_deps": 5,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T25.G3.03",
+      "topic_id": "T25",
+      "description": "Students read a simple program and identify the data types of variables used (e.g., `score` is a num",
+      "k2_dependencies": [
+        {
+          "dep_id": "T25.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T25",
+          "exists": true
+        }
+      ],
+      "total_deps": 5,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T26.G3.01",
+      "topic_id": "T26",
+      "description": "Students work together to collect data following a clear procedure (e.g., all students measure heigh",
+      "k2_dependencies": [
+        {
+          "dep_id": "T26.G2.03",
+          "dep_grade": "2",
+          "dep_topic": "T26",
+          "exists": true
+        }
+      ],
+      "total_deps": 5,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T26.G3.02",
+      "topic_id": "T26",
+      "description": "Students examine a dataset and identify problems such as duplicates, out-of-range values, missing en",
+      "k2_dependencies": [
+        {
+          "dep_id": "T26.G2.04",
+          "dep_grade": "2",
+          "dep_topic": "T26",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T26.G3.03",
+      "topic_id": "T26",
+      "description": "Students take collected data and organize it into a table with multiple columns representing differe",
+      "k2_dependencies": [
+        {
+          "dep_id": "T26.G2.02",
+          "dep_grade": "2",
+          "dep_topic": "T26",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T27.G3.01",
+      "topic_id": "T27",
+      "description": "Students compute the mean of 3–5 small numbers (e.g., test scores, tallies of favorite colors) by ad",
+      "k2_dependencies": [
+        {
+          "dep_id": "T27.G2.04",
+          "dep_grade": "2",
+          "dep_topic": "T27",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T27.G3.02",
+      "topic_id": "T27",
+      "description": "Students construct a bar or line chart in CreatiCode that includes a title, axis labels (e.g., \"Favo",
+      "k2_dependencies": [
+        {
+          "dep_id": "T27.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T27",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T27.G3.03",
+      "topic_id": "T27",
+      "description": "Students examine a dataset (displayed as a chart, list, or sequence) and identify a value that is no",
+      "k2_dependencies": [
+        {
+          "dep_id": "T27.G2.02",
+          "dep_grade": "2",
+          "dep_topic": "T27",
+          "exists": true
+        }
+      ],
+      "total_deps": 8,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T28.G3.01",
+      "topic_id": "T28",
+      "description": "Students write code to run a simulation a larger number of times (50–100 trials) using a loop and ac",
+      "k2_dependencies": [
+        {
+          "dep_id": "T28.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T28",
+          "exists": true
+        }
+      ],
+      "total_deps": 4,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T28.G3.02",
+      "topic_id": "T28",
+      "description": "Students run two different chance experiments (e.g., coin flip vs. spinner with unequal sections) an",
+      "k2_dependencies": [
+        {
+          "dep_id": "T28.G2.03",
+          "dep_grade": "2",
+          "dep_topic": "T28",
+          "exists": true
+        }
+      ],
+      "total_deps": 6,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T30.G3.01",
+      "topic_id": "T30",
+      "description": "Students explain that hardware provides physical components for input (keyboard receives a keystroke",
+      "k2_dependencies": [
+        {
+          "dep_id": "T30.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T30",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T30.G3.02",
+      "topic_id": "T30",
+      "description": "Students identify sensors in devices they use (camera, microphone, accelerometer, touch sensor, temp",
+      "k2_dependencies": [
+        {
+          "dep_id": "T30.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T30",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T30.G3.03",
+      "topic_id": "T30",
+      "description": "Students apply basic troubleshooting steps (checking connections, restarting, trying again) to solve",
+      "k2_dependencies": [
+        {
+          "dep_id": "T30.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T30",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T30.G3.04",
+      "topic_id": "T30",
+      "description": "Students create a CreatiCode project where they simulate a sensor (e.g., a \"motion sensor\" sprite th",
+      "k2_dependencies": [
+        {
+          "dep_id": "T30.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T30",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T31.G3.01",
+      "topic_id": "T31",
+      "description": "Students distinguish between apps installed on their device (local apps) and web apps (apps that run",
+      "k2_dependencies": [
+        {
+          "dep_id": "T31.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T31",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T31.G3.02",
+      "topic_id": "T31",
+      "description": "Students understand that passwords protect their personal accounts and data. They learn basic passwo",
+      "k2_dependencies": [
+        {
+          "dep_id": "T31.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T31",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T31.G3.03",
+      "topic_id": "T31",
+      "description": "Students use CreatiCode's multiplayer blocks to create a game room that another player can join. The",
+      "k2_dependencies": [
+        {
+          "dep_id": "T31.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T31",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T31.G3.04",
+      "topic_id": "T31",
+      "description": "Students follow a simple path of how a message travels from one device to another through the intern",
+      "k2_dependencies": [
+        {
+          "dep_id": "T31.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T31",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T32.G3.01",
+      "topic_id": "T32",
+      "description": "Students learn that authentication (proving you are you via password) prevents unauthorized access, ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T32.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T32",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T32.G3.02",
+      "topic_id": "T32",
+      "description": "Students recognize common scam patterns: fake prizes or contests, urgent language (\"Act now!\"), requ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T32.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T32",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T32.G3.03",
+      "topic_id": "T32",
+      "description": "Students understand that logging out prevents others from accessing an account if they use the same ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T32.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T32",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T32.G3.04",
+      "topic_id": "T32",
+      "description": "Students learn that what they post, comment, or create online stays and can be seen by others. They ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T32.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T32",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T34.G3.01",
+      "topic_id": "T34",
+      "description": "Students research and describe how a computing technology or innovation has affected their local com",
+      "k2_dependencies": [
+        {
+          "dep_id": "T34.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T34",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T34.G3.02",
+      "topic_id": "T34",
+      "description": "Students examine historical examples where computing innovations were created to solve specific prob",
+      "k2_dependencies": [
+        {
+          "dep_id": "T34.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T34",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T34.G3.03",
+      "topic_id": "T34",
+      "description": "Students research or are shown what computing looked like decades ago (room-sized computers, punch c",
+      "k2_dependencies": [
+        {
+          "dep_id": "T34.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T34",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T34.G3.04",
+      "topic_id": "T34",
+      "description": "Students identify a real problem they or their community faces and design or sketch a computing solu",
+      "k2_dependencies": [
+        {
+          "dep_id": "T34.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T34",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T35.G3.01",
+      "topic_id": "T35",
+      "description": "Students evaluate whether using a particular technology suits their current needs and the likely con",
+      "k2_dependencies": [
+        {
+          "dep_id": "T35.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T35",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T35.G3.02",
+      "topic_id": "T35",
+      "description": "Students systematically list what a technology was intended to do and what unintended side effects i",
+      "k2_dependencies": [
+        {
+          "dep_id": "T35.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T35",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T35.G3.03",
+      "topic_id": "T35",
+      "description": "Students identify examples of AI or \"smart\" technologies in their lives (e.g., a voice assistant tha",
+      "k2_dependencies": [
+        {
+          "dep_id": "T35.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T35",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T35.G3.04",
+      "topic_id": "T35",
+      "description": "Students think about the reasons people adopt or use new technologies (e.g., saving time, solving a ",
+      "k2_dependencies": [
+        {
+          "dep_id": "T35.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T35",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T36.G3.01",
+      "topic_id": "T36",
+      "description": "Students analyze real or hypothetical scenarios where a person chooses whether to use a technology (",
+      "k2_dependencies": [
+        {
+          "dep_id": "T36.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T36",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T36.G3.02",
+      "topic_id": "T36",
+      "description": "Students recognize that a computer program (algorithm) can treat people differently or unfairly if n",
+      "k2_dependencies": [
+        {
+          "dep_id": "T36.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T36",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T36.G3.03",
+      "topic_id": "T36",
+      "description": "Students add simple comments or descriptions to their CreatiCode projects so that someone else (a cl",
+      "k2_dependencies": [
+        {
+          "dep_id": "T36.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T36",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    },
+    {
+      "skill_id": "T36.G3.04",
+      "topic_id": "T36",
+      "description": "Students practice assigning roles in a group project (idea person, builder, tester, presenter) so th",
+      "k2_dependencies": [
+        {
+          "dep_id": "T36.G2.01",
+          "dep_grade": "2",
+          "dep_topic": "T36",
+          "exists": true
+        }
+      ],
+      "total_deps": 1,
+      "k2_dep_count": 1
+    }
+  ],
+  "analysis": {
+    "most_common_k2_topics": {
+      "T01": 47,
+      "T06": 4,
+      "T14": 4,
+      "T20": 4,
+      "T21": 4,
+      "T30": 4,
+      "T31": 4,
+      "T32": 4,
+      "T34": 4,
+      "T35": 4
+    },
+    "by_grade": {
+      "2": 71,
+      "1": 33
+    }
+  }
+}

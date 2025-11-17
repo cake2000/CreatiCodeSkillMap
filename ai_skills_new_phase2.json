@@ -1,0 +1,555 @@
+[
+  {
+    "id": "T23.GK.01",
+    "title": "Match Senses to Sensors",
+    "short_name": "Human senses vs. computer sensors",
+    "topic_id": "T23",
+    "topic_name": "Voice/Vision/Gesture AI",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "match_pairs",
+    "description_teacher": "Students match human senses (eyes, ears, touch) to computer sensors (camera, microphone, touch screen). They learn that computers use sensors like we use our senses.",
+    "student_prompt": "Match the human sense to what the computer uses!",
+    "student_prompt_audio": {
+      "tts_text": "Match the human sense to what the computer uses!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 6,
+      "interaction_mode": "draw_lines",
+      "visual_theme": "technology",
+      "estimated_time_minutes": 3,
+      "randomization": {
+        "enabled": true,
+        "randomize_positions": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "pair_match",
+      "correct_answer": [
+        "eyes_camera",
+        "ears_microphone",
+        "touch_touchscreen"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.66
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! Computers have sensors like we have senses!",
+          "audio_tts": "Perfect! Computers have sensors like we have senses!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! What does the camera do like our eyes?",
+          "audio_tts": "Try again! What does the camera do like our eyes?",
+          "hint_provided": true,
+          "hint_text": "Eyes see, and cameras see too!"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-CS-01",
+    "ai4k12_category": "C",
+    "ai4k12_subtopic": "Machine Learning: Sensing",
+    "notes": "NEW: Added for AI4K12 alignment - human-computer sensing comparison"
+  },
+  {
+    "id": "T23.G1.01",
+    "title": "What Can Computers Sense?",
+    "short_name": "Compare sensing abilities",
+    "topic_id": "T23",
+    "topic_name": "Voice/Vision/Gesture AI",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "click_select",
+    "description_teacher": "Students compare what humans and computers can sense using picture examples. They identify things both can sense (light, sound) and things only one can sense (smell, radio waves).",
+    "student_prompt": "Can a computer sense this? Can you sense it?",
+    "student_prompt_audio": {
+      "tts_text": "Can a computer sense this? Can you sense it?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 8,
+      "interaction_mode": "two_choice_sorting",
+      "visual_theme": "technology",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "randomize_items": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "category_sorting",
+      "correct_answer": [
+        "both_human_computer",
+        "only_human",
+        "only_computer"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.75
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great! You know what computers can sense!",
+          "audio_tts": "Great! You know what computers can sense!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Think about it! Can a computer smell cookies?",
+          "audio_tts": "Think about it! Can a computer smell cookies?",
+          "hint_provided": true,
+          "hint_text": "Computers can see and hear, but not smell or taste!"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T23.GK.01"
+    ],
+    "csta_code": "1A-CS-01",
+    "ai4k12_category": "C",
+    "ai4k12_subtopic": "Machine Learning: Sensing",
+    "notes": "NEW: Added for AI4K12 alignment - sensing capabilities comparison"
+  },
+  {
+    "id": "T23.G2.01",
+    "title": "Computers Need Sensors to Know Things",
+    "short_name": "Why computers need sensors",
+    "topic_id": "T23",
+    "topic_name": "Voice/Vision/Gesture AI",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "match_pairs",
+    "description_teacher": "Students match sensors to the information they provide (camera shows pictures, microphone hears sounds, thermometer measures temperature). They understand that computers need sensors to gather information from the world.",
+    "student_prompt": "Match the sensor to what it tells the computer!",
+    "student_prompt_audio": {
+      "tts_text": "Match the sensor to what it tells the computer!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 8,
+      "interaction_mode": "draw_lines",
+      "visual_theme": "technology",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "randomize_positions": true
+      }
+    },
+    "auto_grade_rules": {
+      "type": "pair_match",
+      "correct_answer": [
+        "camera_pictures",
+        "microphone_sounds",
+        "thermometer_temperature",
+        "gps_location"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.75
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! Sensors help computers learn about the world!",
+          "audio_tts": "Perfect! Sensors help computers learn about the world!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! What does each sensor do?",
+          "audio_tts": "Try again! What does each sensor do?",
+          "hint_provided": true,
+          "hint_text": "A camera takes pictures for the computer to see."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T23.G1.01"
+    ],
+    "csta_code": "1A-CS-01",
+    "ai4k12_category": "C",
+    "ai4k12_subtopic": "Machine Learning: Sensing",
+    "notes": "NEW: Added for AI4K12 alignment - sensors provide information"
+  },
+  {
+    "id": "T02.GK.06",
+    "title": "Draw to Show What You See",
+    "short_name": "Simple visual representation",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": "K",
+    "skill_type": "picture_based_digital",
+    "activity_type": "simple_draw",
+    "description_teacher": "Students create simple representations of objects by selecting/drawing basic shapes (how to show a tree? a house? a person?). They learn that we can represent things in different ways.",
+    "student_prompt": "Pick shapes to show what you see!",
+    "student_prompt_audio": {
+      "tts_text": "Pick shapes to show what you see!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 3,
+      "shapes_available": 8,
+      "interaction_mode": "select_and_place_shapes",
+      "visual_theme": "shapes_colors",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "target_objects": 3
+      }
+    },
+    "auto_grade_rules": {
+      "type": "representation_check",
+      "correct_answer": "valid_representation",
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.5
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great! You made a picture with shapes!",
+          "audio_tts": "Great! You made a picture with shapes!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Good try! Can you add more to show it better?",
+          "audio_tts": "Good try! Can you add more to show it better?",
+          "hint_provided": true,
+          "hint_text": "What shape is the trunk of a tree?"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 2,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [],
+    "csta_code": "1A-AP-09",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "notes": "NEW: Added for AI4K12 alignment - basic object representation"
+  },
+  {
+    "id": "T02.G1.06",
+    "title": "Picture a Story in Order",
+    "short_name": "Represent with pictures",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": "1",
+    "skill_type": "picture_based_digital",
+    "activity_type": "select_sequence",
+    "description_teacher": "Students represent a sequence or story using pictures selected from options. They learn that pictures can represent events and we can show order with sequences.",
+    "student_prompt": "Pick pictures to show the story in order!",
+    "student_prompt_audio": {
+      "tts_text": "Pick pictures to show the story in order!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 4,
+      "picture_choices": 8,
+      "interaction_mode": "select_and_order",
+      "visual_theme": "home_family",
+      "estimated_time_minutes": 4,
+      "randomization": {
+        "enabled": true,
+        "story_variations": 3
+      }
+    },
+    "auto_grade_rules": {
+      "type": "sequence_representation",
+      "correct_answer": "valid_story_sequence",
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.75
+      },
+      "feedback": {
+        "correct": {
+          "message": "Perfect! Your pictures tell the story in order!",
+          "audio_tts": "Perfect! Your pictures tell the story in order!",
+          "visual_effect": "confetti"
+        },
+        "incorrect": {
+          "message": "Almost! Check the order of what happens.",
+          "audio_tts": "Almost! Check the order of what happens.",
+          "hint_provided": true,
+          "hint_text": "What happens first in the morning?"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T02.GK.06"
+    ],
+    "csta_code": "1A-AP-09",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "notes": "NEW: Added for AI4K12 alignment - sequential representation"
+  },
+  {
+    "id": "T02.G2.06",
+    "title": "Map Your Space",
+    "short_name": "Create simple map",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": "2",
+    "skill_type": "picture_based_digital",
+    "activity_type": "build_map",
+    "description_teacher": "Students create a simple map by placing icons to represent objects in a space (classroom, playground, or route). They learn that maps are representations that show where things are.",
+    "student_prompt": "Make a map to show where things are!",
+    "student_prompt_audio": {
+      "tts_text": "Make a map to show where things are!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "item_count": 6,
+      "grid_size": "4x4",
+      "interaction_mode": "place_on_grid",
+      "visual_theme": "school",
+      "estimated_time_minutes": 5,
+      "randomization": {
+        "enabled": false,
+        "scenario_options": 2
+      }
+    },
+    "auto_grade_rules": {
+      "type": "spatial_representation",
+      "correct_answer": "valid_map_layout",
+      "partial_credit": {
+        "enabled": true,
+        "threshold": 0.66
+      },
+      "feedback": {
+        "correct": {
+          "message": "Excellent map! You showed where everything is!",
+          "audio_tts": "Excellent map! You showed where everything is!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Good try! Is everything in the right place?",
+          "audio_tts": "Good try! Is everything in the right place?",
+          "hint_provided": true,
+          "hint_text": "The door should be at the front of the room."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": false
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+    "dependencies": [
+      "T02.G1.06"
+    ],
+    "csta_code": "1A-AP-09",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "notes": "NEW: Added for AI4K12 alignment - spatial representation"
+  },
+  {
+    "id": "T02.G3.06",
+    "title": "Design a Map for Navigation",
+    "short_name": "Abstract representation for problem-solving",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": 3,
+    "description": "Students create an abstract map to solve a navigation problem (e.g., shortest path from home to school, route through a maze). They choose what details to include (landmarks, distances, obstacles) and what to leave out. They understand that good representations include important information and skip unnecessary details.",
+    "csta_code": "1B-AP-11",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "dependencies": [
+      "T02.G2.06",
+      "T03.G3.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - problem-solving through representation"
+  },
+  {
+    "id": "T02.G4.06",
+    "title": "Choose What Matters in Your Representation",
+    "short_name": "Feature selection in representation",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": 4,
+    "description": "Students represent the same information in different ways (a daily routine as pictures, as a flowchart, as a schedule) and choose what details to include for different purposes. They understand that: (1) different representations are useful for different tasks, (2) we must choose what information is important, and (3) some details can be left out without losing meaning.",
+    "csta_code": "1B-AP-11",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "dependencies": [
+      "T02.G3.06",
+      "T09.G4.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - abstraction and feature selection"
+  },
+  {
+    "id": "T02.G5.06",
+    "title": "Compare Representations for Different Tasks",
+    "short_name": "Evaluate representations",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": 5,
+    "description": "Students create multiple representations of the same data (e.g., student heights as a table, bar chart, line graph, or descriptive text) and compare usefulness for different tasks: Which is best for finding the tallest student? Which shows growth over time? Which is easiest to understand quickly? They learn to evaluate tradeoffs between different representations.",
+    "csta_code": "1B-DA-07",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "dependencies": [
+      "T02.G4.06",
+      "T25.G4.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - representation evaluation"
+  },
+  {
+    "id": "T02.G6.06",
+    "title": "Design an Infographic",
+    "short_name": "Complex visual representation",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": 6,
+    "description": "Students design a visual representation (infographic style) for a complex system or dataset. They must: (1) choose what data to highlight, (2) select appropriate visual elements (charts, icons, colors), (3) organize information hierarchically (what's most important?), and (4) make it understandable to their target audience. They understand that effective representations combine clarity, accuracy, and visual appeal.",
+    "csta_code": "2-DA-08",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "dependencies": [
+      "T02.G5.06",
+      "T25.G5.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - complex information design"
+  },
+  {
+    "id": "T02.G7.06",
+    "title": "Representation Tradeoffs: Detail vs. Simplicity",
+    "short_name": "Evaluate representation tradeoffs",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": 7,
+    "description": "Students analyze and evaluate tradeoffs between different data representations: detailed vs. simple, accurate vs. usable, precise vs. understandable. They examine real examples (e.g., weather forecasts, nutritional labels, maps) and discuss: What information is emphasized? What is hidden or simplified? Who benefits from this representation? They learn that representation choices involve tradeoffs and reflect priorities.",
+    "csta_code": "2-DA-08",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "dependencies": [
+      "T02.G6.06",
+      "T27.G6.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - critical evaluation of representations"
+  },
+  {
+    "id": "T02.G8.06",
+    "title": "Feature Vectors for AI Classification",
+    "short_name": "Create feature vectors for AI",
+    "topic_id": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "grade": 8,
+    "description": "Students create feature vectors to represent data for an AI classification task. For example, representing animals for classification: [has_fur: 1, number_of_legs: 4, can_fly: 0, habitat: 'land']. They understand that: (1) AI needs data in numerical/categorical format, (2) choosing the right features is crucial for AI performance, (3) some features are more informative than others, and (4) representation affects what the AI can learn. This bridges representation to machine learning.",
+    "csta_code": "2-DA-08",
+    "ai4k12_category": "B",
+    "ai4k12_subtopic": "Representation and Reasoning: Creating Representations",
+    "dependencies": [
+      "T02.G7.06",
+      "T25.G7.01",
+      "T21.G7.01"
+    ],
+    "notes": "NEW: Added for AI4K12 alignment - AI-specific data representation"
+  }
+]
