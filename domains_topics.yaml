@@ -1,0 +1,249 @@
+version: '1.0'
+generated: '2025-11-16T23:01:26.058254'
+summary:
+  total_domains: 5
+  total_topics: 36
+  total_skills: 1155
+domains:
+- id: D1
+  name: Algorithms and Design
+  description: 'CSTA Domain: Algorithms and Design'
+  csta_mapping:
+  - Algorithms and Design
+- id: D2
+  name: Programming
+  description: 'CSTA Domain: Programming'
+  csta_mapping:
+  - Programming
+- id: D3
+  name: Data and Analysis
+  description: 'CSTA Domain: Data and Analysis'
+  csta_mapping:
+  - Data and Analysis
+- id: D4
+  name: Systems and Security
+  description: 'CSTA Domain: Systems and Security'
+  csta_mapping:
+  - Systems and Security
+- id: D5
+  name: Computing and Society
+  description: 'CSTA Domain: Computing and Society'
+  csta_mapping:
+  - Computing and Society
+topics:
+- id: T01
+  name: Everyday Algorithms & Step‑by‑Step Thinking
+  domain_id: D1
+  domain_name: Algorithms and Design
+  description: Topic T01
+  type: core
+- id: T02
+  name: Representing & Tracing Algorithms
+  domain_id: D1
+  domain_name: Algorithms and Design
+  description: Topic T02
+  type: core
+- id: T03
+  name: Problem Decomposition & Project Planning
+  domain_id: D1
+  domain_name: Algorithms and Design
+  description: Topic T03
+  type: core
+- id: T04
+  name: Patterns & Reusable Solutions
+  domain_id: D1
+  domain_name: Algorithms and Design
+  description: Topic T04
+  type: core
+- id: T05
+  name: Human‑Centered Design & Simulation Planning
+  domain_id: D1
+  domain_name: Algorithms and Design
+  description: Topic T05
+  type: core
+- id: T06
+  name: Events & Sequencing in Programs
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T06
+  type: core
+- id: T07
+  name: Loops & Repetition
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T07
+  type: core
+- id: T08
+  name: Conditionals & Logic
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T08
+  type: core
+- id: T09
+  name: Variables & Expressions
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T09
+  type: core
+- id: T10
+  name: Lists, Tables & Structured Data in Programs
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T10
+  type: core
+- id: T11
+  name: Functions & Modularization
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T11
+  type: core
+- id: T12
+  name: Program Organization, Style & Readability
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T12
+  type: core
+- id: T13
+  name: Testing, Debugging & Error Handling
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T13
+  type: core
+- id: T14
+  name: 2D Games & Interactive Simulations
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T14
+  type: core
+- id: T15
+  name: Stories, Animation & Digital Media
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T15
+  type: core
+- id: T16
+  name: User Interfaces & Widgets
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T16
+  type: core
+- id: T17
+  name: Physics‑Based Motion & Simulation
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T17
+  type: core
+- id: T18
+  name: 3D Worlds & Games
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T18
+  type: core
+- id: T19
+  name: Multiplayer & Connected Apps
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T19
+  type: core
+- id: T20
+  name: Algorithmic Art & Creative Coding
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T20
+  type: core
+- id: T21
+  name: AI Media Tools & Creative Assets
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T21
+  type: core
+- id: T22
+  name: AI Chatbots & Information Apps
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T22
+  type: core
+- id: T23
+  name: AI Voice, Vision & Gesture Interfaces
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T23
+  type: core
+- id: T24
+  name: XO & AI‑Supported Coding Practices
+  domain_id: D2
+  domain_name: Programming
+  description: Topic T24
+  type: core
+- id: T25
+  name: Data Representation & Simple Data Types
+  domain_id: D3
+  domain_name: Data and Analysis
+  description: Topic T25
+  type: core
+- id: T26
+  name: Data Collection & Organization
+  domain_id: D3
+  domain_name: Data and Analysis
+  description: Topic T26
+  type: core
+- id: T27
+  name: Data Analysis & Visualization
+  domain_id: D3
+  domain_name: Data and Analysis
+  description: Topic T27
+  type: core
+- id: T28
+  name: Chance, Sampling & Experiments
+  domain_id: D3
+  domain_name: Data and Analysis
+  description: Topic T28
+  type: core
+- id: T29
+  name: Text Data & Introductory NLP
+  domain_id: D3
+  domain_name: Data and Analysis
+  description: Topic T29
+  type: core
+- id: T30
+  name: Devices, Hardware, Physical Computing & Software
+  domain_id: D4
+  domain_name: Systems and Security
+  description: Topic T30
+  type: core
+- id: T31
+  name: Internet, Cloud & Networked Systems
+  domain_id: D4
+  domain_name: Systems and Security
+  description: Topic T31
+  type: core
+- id: T32
+  name: Cybersecurity & Safe Online Behavior
+  domain_id: D4
+  domain_name: Systems and Security
+  description: Topic T32
+  type: core
+- id: T33
+  name: Platforms, APIs & External Services
+  domain_id: D4
+  domain_name: Systems and Security
+  description: Topic T33
+  type: core
+- id: T34
+  name: History of Computing & Diverse Pioneers
+  domain_id: D5
+  domain_name: Computing and Society
+  description: Topic T34
+  type: core
+- id: T35
+  name: Impacts of Computing, Games & AI
+  domain_id: D5
+  domain_name: Computing and Society
+  description: Topic T35
+  type: core
+- id: T36
+  name: Ethics, Careers, Collaboration & Communication in CS
+  domain_id: D5
+  domain_name: Computing and Society
+  description: Topic T36
+  type: core
