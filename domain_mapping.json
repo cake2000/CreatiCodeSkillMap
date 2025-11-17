@@ -1,0 +1,146 @@
+{
+  "T01": {
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design"
+  },
+  "T02": {
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design"
+  },
+  "T03": {
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design"
+  },
+  "T04": {
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design"
+  },
+  "T05": {
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design"
+  },
+  "T06": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T07": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T08": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T09": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T10": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T11": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T12": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T13": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T14": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T15": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T16": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T17": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T18": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T19": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T20": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T21": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T22": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T23": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T24": {
+    "domain_id": "D2",
+    "domain_name": "Programming"
+  },
+  "T25": {
+    "domain_id": "D3",
+    "domain_name": "Data and Analysis"
+  },
+  "T26": {
+    "domain_id": "D3",
+    "domain_name": "Data and Analysis"
+  },
+  "T27": {
+    "domain_id": "D3",
+    "domain_name": "Data and Analysis"
+  },
+  "T28": {
+    "domain_id": "D3",
+    "domain_name": "Data and Analysis"
+  },
+  "T29": {
+    "domain_id": "D3",
+    "domain_name": "Data and Analysis"
+  },
+  "T30": {
+    "domain_id": "D4",
+    "domain_name": "Systems and Security"
+  },
+  "T31": {
+    "domain_id": "D4",
+    "domain_name": "Systems and Security"
+  },
+  "T32": {
+    "domain_id": "D4",
+    "domain_name": "Systems and Security"
+  },
+  "T33": {
+    "domain_id": "D4",
+    "domain_name": "Systems and Security"
+  },
+  "T34": {
+    "domain_id": "D5",
+    "domain_name": "Computing and Society"
+  },
+  "T35": {
+    "domain_id": "D5",
+    "domain_name": "Computing and Society"
+  },
+  "T36": {
+    "domain_id": "D5",
+    "domain_name": "Computing and Society"
+  }
+}
