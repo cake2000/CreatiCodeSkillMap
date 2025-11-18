@@ -1,0 +1,42 @@
+==============================================================================
+CreatiCode Skill Files Cleanup Log
+Date: Mon 17 Nov 2025 10:12:02 PM EST
+==============================================================================
+
+Files before cleanup: 68
+Total size before: 8.0K
+mkdir /media/binyu/USB2/dev/CreatiCodeSkillMap/archive
+mv /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_final.json /media/binyu/USB2/dev/CreatiCodeSkillMap/archive/
+mv /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete_WEEK2.json /media/binyu/USB2/dev/CreatiCodeSkillMap/archive/
+mv /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete.BACKUP.json /media/binyu/USB2/dev/CreatiCodeSkillMap/archive/
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_enriched.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_final_enriched.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/extracted_skills_raw.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_with_dependencies.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete_REVISED.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_complete_k8.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_enriched_partial.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_complete_all.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_with_dependencies.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_redesigned.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_all_remaining_topics.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_batch_comprehensive.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_redesigned_partial.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_additional_topics.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_new_batch.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/skills_T14_T24_extracted.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/grade_7_8_skills_for_analysis.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/grade_7_8_skills_extracted.json
+rm /media/binyu/USB2/dev/CreatiCodeSkillMap/t01_t05_skills.json
+
+==============================================================================
+Summary
+==============================================================================
+Files before:     68
+Files after:      6 in root + 3 in archive
+Files deleted:    21
+Space saved:      ~8.81 MB
+
+Created FILE_ORGANIZATION.md
