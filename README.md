@@ -354,3 +354,17 @@ These are interwoven with core CSTA topics rather than siloed, emphasizing that 
 
 **Document Version:** 1.0  
 **CreatiCode Skill Map Generated:** November 16, 2025
+
+
+
+------
+
+
+read spec_v2_updated.md to understand the whole project, and the key referneces like csta standard draft, and ai priorities, and creaticode introduction.
+
+
+we are aiming for "IXL for coding based on creaticode", and we need top quality result.
+
+use subagents whenever you can to preserve context.
+
+now, we need to enhance the quality of the skills. let's pick one topic of T01, and review ALL the skills in that one topic. evaluate them to see if they are top quality, and the skills are designed properly, such as no gaps, no jumps, no skill that's too big or too trivial, suitable difficulty level for each grade, match well with the csta standard, dependencies make sense, can be fully implemented on creaticode playground, etc.

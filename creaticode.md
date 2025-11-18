@@ -1,6 +1,6 @@
 # CreatiCode Platform Capabilities and Features
 
-CreatiCode is an innovative, Scratch-based coding platform that extends MIT Scratch 3.0 with many new features for creative projects  $^{1}$ . It maintains all the standard block-coding functionalities of Scratch while adding powerful new blocks and AI tools. This allows users (especially K-12 students) to build everything from classic Scratch animations to AI chatbots, 3D games, and interactive applications that incorporate voice, vision, and even multiplayer capabilities  $^{1}$ . Below is a comprehensive overview of CreatiCode's capabilities, focusing on end-user visible features: the full range of Scratch blocks (unchanged from MIT Scratch) and the new extensions like 3D programming, AI integration, widgets (UI controls), multiplayer, augmented reality, and more  $^{2}$ .
+CreatiCode is an innovative, Scratch-based coding platform that extends MIT Scratch 3.0 with many new features for creative projects  $^{1}$ . It maintains all the standard block-coding functionalities of Scratch while adding powerful new blocks and AI tools. This allows users (especially K-12 students) to build everything from classic Scratch animations to AI chatbots, 3D games, and interactive applications that incorporate voice, vision, and even multiplayer capabilities  $^{1}$ . Below is a comprehensive overview of CreatiCode's capabilities, focusing on end-user visible features: the full range of Scratch blocks (unchanged from MIT Scratch) and the new extensions like 3D programming, AI integration, widgets (UI controls), multiplayer, augmented reality, and more  $^{2}$ . 
 
 # Standard Scratch Features in CreatiCode
 
@@ -202,6 +202,10 @@ Aside from blocks that go inside projects, CreatiCode also features CreatiCode X
 - Limited Scope (Not Autopilot): XO is intentionally constrained to not just do the whole project for the student  $^{164}$ . It won't output full code; in fact, if asked to produce all the code, it will likely refuse or give a high-level answer  $^{165}$ . XO is optimized for short answers - giving hints, explaining concepts, suggesting next steps - rather than lengthy code dumps  $^{164}$ . This is by design: the goal is
 
 to support learning rather than replace it. The platform emphasizes that students should use XO as an assistant, not a crutch, and that their own creativity and effort are key to actually build the project 166.
+
+# Diagrams
+
+There is a diagram editor inside the coding playground. Users can use it to draw all kinds of diagrams like flowchart.
 
 # - Use Cases for XO:
 
