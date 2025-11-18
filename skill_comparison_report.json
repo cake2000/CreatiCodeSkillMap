@@ -1,0 +1,164 @@
+{
+  "canonical_count": 1150,
+  "comparisons": [
+    {
+      "filename": "skills_k8_ai_complete_WEEK2.json",
+      "total_skills": 1140,
+      "common_with_canonical": 1140,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 10,
+      "unique_ids": []
+    },
+    {
+      "filename": "skills_k8_ai_complete_REVISED.json",
+      "total_skills": 1120,
+      "common_with_canonical": 1120,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 30,
+      "unique_ids": []
+    },
+    {
+      "filename": "skills_k8_ai_complete.json",
+      "total_skills": 1119,
+      "common_with_canonical": 1119,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 31,
+      "unique_ids": []
+    },
+    {
+      "filename": "skills_k8_ai_complete.BACKUP.json",
+      "total_skills": 1119,
+      "common_with_canonical": 1119,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 31,
+      "unique_ids": []
+    },
+    {
+      "filename": "skills_complete_k8.json",
+      "total_skills": 1086,
+      "common_with_canonical": 1086,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 64,
+      "unique_ids": []
+    },
+    {
+      "filename": "skills_final_enriched.json",
+      "total_skills": 1155,
+      "common_with_canonical": 1029,
+      "unique_in_this_file": 126,
+      "missing_from_this_file": 121,
+      "unique_ids": [
+        "T05.G1.04",
+        "T06.G1.01",
+        "T06.G1.02",
+        "T06.G1.03",
+        "T06.G1.04",
+        "T07.G1.03",
+        "T07.G1.04",
+        "T07.G2.03",
+        "T07.G2.04",
+        "T08.G1.01"
+      ]
+    },
+    {
+      "filename": "skills_final.json",
+      "total_skills": 1155,
+      "common_with_canonical": 1029,
+      "unique_in_this_file": 126,
+      "missing_from_this_file": 121,
+      "unique_ids": [
+        "T05.G1.04",
+        "T06.G1.01",
+        "T06.G1.02",
+        "T06.G1.03",
+        "T06.G1.04",
+        "T07.G1.03",
+        "T07.G1.04",
+        "T07.G2.03",
+        "T07.G2.04",
+        "T08.G1.01"
+      ]
+    },
+    {
+      "filename": "skills.json",
+      "total_skills": 1155,
+      "common_with_canonical": 1029,
+      "unique_in_this_file": 126,
+      "missing_from_this_file": 121,
+      "unique_ids": [
+        "T05.G1.04",
+        "T06.G1.01",
+        "T06.G1.02",
+        "T06.G1.03",
+        "T06.G1.04",
+        "T07.G1.03",
+        "T07.G1.04",
+        "T07.G2.03",
+        "T07.G2.04",
+        "T08.G1.01"
+      ]
+    },
+    {
+      "filename": "skills_enriched.json",
+      "total_skills": 1155,
+      "common_with_canonical": 1029,
+      "unique_in_this_file": 126,
+      "missing_from_this_file": 121,
+      "unique_ids": [
+        "T05.G1.04",
+        "T06.G1.01",
+        "T06.G1.02",
+        "T06.G1.03",
+        "T06.G1.04",
+        "T07.G1.03",
+        "T07.G1.04",
+        "T07.G2.03",
+        "T07.G2.04",
+        "T08.G1.01"
+      ]
+    },
+    {
+      "filename": "extracted_skills_raw.json",
+      "total_skills": 1155,
+      "common_with_canonical": 1029,
+      "unique_in_this_file": 126,
+      "missing_from_this_file": 121,
+      "unique_ids": [
+        "T05.G1.04",
+        "T06.G1.01",
+        "T06.G1.02",
+        "T06.G1.03",
+        "T06.G1.04",
+        "T07.G1.03",
+        "T07.G1.04",
+        "T07.G2.03",
+        "T07.G2.04",
+        "T08.G1.01"
+      ]
+    },
+    {
+      "filename": "FOUNDATIONAL_41_SKILLS.json",
+      "total_skills": 41,
+      "common_with_canonical": 41,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 1109,
+      "unique_ids": []
+    },
+    {
+      "filename": "CREATIVE_SKILLS_3.json",
+      "total_skills": 3,
+      "common_with_canonical": 3,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 1147,
+      "unique_ids": []
+    },
+    {
+      "filename": "WEEK2_NEW_SKILLS.json",
+      "total_skills": 20,
+      "common_with_canonical": 20,
+      "unique_in_this_file": 0,
+      "missing_from_this_file": 1130,
+      "unique_ids": []
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "T05.G6.06",
+    "title": "Write User Stories for Your App",
+    "grade": 6,
+    "topic": "T05",
+    "time": 30,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T16.G6.05",
+    "title": "Create Wireframes for Key App Screens",
+    "grade": 6,
+    "topic": "T16",
+    "time": 40,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T36.G6.05",
+    "title": "Deliver a Project Pitch Presentation",
+    "grade": 6,
+    "topic": "T36",
+    "time": 50,
+    "track": "standard",
+    "tags": 3
+  },
+  {
+    "id": "T03.G7.05",
+    "title": "Create an App Concept Proposal",
+    "grade": 7,
+    "topic": "T03",
+    "time": 45,
+    "track": "standard",
+    "tags": 3
+  },
+  {
+    "id": "T05.G7.05",
+    "title": "Research and Compare Existing Solutions",
+    "grade": 7,
+    "topic": "T05",
+    "time": 40,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T05.G7.06",
+    "title": "Define Functional Requirements from User Stories",
+    "grade": 7,
+    "topic": "T05",
+    "time": 30,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T12.G7.05",
+    "title": "Document Technical Architecture",
+    "grade": 7,
+    "topic": "T12",
+    "time": 45,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T13.G7.05",
+    "title": "Conduct Beta Testing with Target Users",
+    "grade": 7,
+    "topic": "T13",
+    "time": 60,
+    "track": "standard",
+    "tags": 3
+  },
+  {
+    "id": "T16.G7.05",
+    "title": "Design High-Fidelity UI Mockups",
+    "grade": 7,
+    "topic": "T16",
+    "time": 60,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T33.G7.05",
+    "title": "Deploy Your App to the Web",
+    "grade": 7,
+    "topic": "T33",
+    "time": 30,
+    "track": "standard",
+    "tags": 3
+  },
+  {
+    "id": "T36.G7.05",
+    "title": "Create a Simple App Demo Video",
+    "grade": 7,
+    "topic": "T36",
+    "time": 60,
+    "track": "standard",
+    "tags": 4
+  },
+  {
+    "id": "T36.G7.06",
+    "title": "Create and Deliver an Elevator Pitch",
+    "grade": 7,
+    "topic": "T36",
+    "time": 30,
+    "track": "standard",
+    "tags": 3
+  },
+  {
+    "id": "T03.G8.05",
+    "title": "Write a Competition-Ready App Proposal",
+    "grade": 8,
+    "topic": "T03",
+    "time": 90,
+    "track": "enrichment",
+    "tags": 4
+  },
+  {
+    "id": "T05.G8.05",
+    "title": "Conduct Competitive Analysis for Your App",
+    "grade": 8,
+    "topic": "T05",
+    "time": 60,
+    "track": "enrichment",
+    "tags": 2
+  },
+  {
+    "id": "T12.G8.05",
+    "title": "Create a Technical Specification Document",
+    "grade": 8,
+    "topic": "T12",
+    "time": 90,
+    "track": "enrichment",
+    "tags": 2
+  },
+  {
+    "id": "T13.G8.05",
+    "title": "Run a Comprehensive Beta Testing Program",
+    "grade": 8,
+    "topic": "T13",
+    "time": 120,
+    "track": "enrichment",
+    "tags": 3
+  },
+  {
+    "id": "T16.G8.05",
+    "title": "Prototype Interactive App Navigation",
+    "grade": 8,
+    "topic": "T16",
+    "time": 60,
+    "track": "standard",
+    "tags": 2
+  },
+  {
+    "id": "T33.G8.05",
+    "title": "Publish Your App to an App Store or Platform",
+    "grade": 8,
+    "topic": "T33",
+    "time": 60,
+    "track": "standard",
+    "tags": 4
+  },
+  {
+    "id": "T36.G8.05",
+    "title": "Produce a Competition Demo Video",
+    "grade": 8,
+    "topic": "T36",
+    "time": 120,
+    "track": "enrichment",
+    "tags": 4
+  },
+  {
+    "id": "T36.G8.06",
+    "title": "Pitch Your App to Judges",
+    "grade": 8,
+    "topic": "T36",
+    "time": 90,
+    "track": "enrichment",
+    "tags": 3
+  }
+]

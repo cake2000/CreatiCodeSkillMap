@@ -1,0 +1,331 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "date_created": "2025-11-17",
+    "description": "Track categorization for CreatiCode K-8 Grade 7-8 skills addressing age-appropriateness and competition preparation",
+    "track_definitions": {
+      "standard": "Core skills all students should master as part of regular K-8 CS curriculum",
+      "enrichment": "Advanced but age-appropriate stretch goals for high-achieving students or optional deep dives",
+      "competition": "Skills specifically targeting competitive programming (ACSL, Scratch Olympiad, etc.) or requiring AP-level knowledge"
+    }
+  },
+  "track_assignments": {
+    "competition_track": [
+      {
+        "id": "T10.G8.02",
+        "title": "Implement a sorting algorithm (bubble sort or selection sort)",
+        "current_grade": 8,
+        "track": "competition",
+        "reason": "Sorting algorithm implementation is AP Computer Science A content (typically grade 11-12). Requires understanding nested loops, swap logic, and algorithm correctness. Competition-appropriate for ACSL Junior Division.",
+        "competitions": ["ACSL Junior", "Lanqiao Scratch Senior", "NOC Junior"],
+        "recommendation": "Keep as competition track OR replace in standard curriculum with 'use library sort function as a tool'",
+        "alternative_standard_skill": "Use built-in sort blocks to organize data by criteria",
+        "prerequisites_met_by_grade_8": true,
+        "cognitive_level": "Very High - Formal reasoning about algorithm correctness"
+      },
+      {
+        "id": "T01.G8.02",
+        "title": "Understand recursion conceptually (algorithm calling itself)",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Recursion is borderline but acceptable if kept purely conceptual and visual (fractals, nested patterns). Should NOT require students to write recursive functions in code.",
+        "competitions": ["ACSL Junior"],
+        "recommendation": "Keep as enrichment with heavy visual scaffolding (Russian dolls, fractals, tree structures). Do NOT require implementing recursive functions.",
+        "implementation_notes": "Use visual examples only: fractals, nested dolls, family trees. Show the concept, don't require coding it.",
+        "prerequisites_met_by_grade_8": true,
+        "cognitive_level": "High - Requires mental stack management"
+      },
+      {
+        "id": "T02.G7.03",
+        "title": "Analyze algorithm complexity and steps required",
+        "current_grade": 7,
+        "track": "enrichment",
+        "reason": "Formal complexity analysis (Big-O) is too advanced, but concrete step counting is appropriate with simplification.",
+        "competitions": ["ACSL Junior"],
+        "recommendation": "SIMPLIFY: Focus on concrete counting ('this takes 10 steps, this takes 100'), NOT formal Big-O notation",
+        "revised_approach": "Count and compare steps in algorithms without formal complexity notation",
+        "prerequisites_met_by_grade_7": true,
+        "cognitive_level": "Medium-High with simplification"
+      },
+      {
+        "id": "T02.G8.04",
+        "title": "Compare deterministic and probabilistic algorithms",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Understanding probabilistic algorithms is advanced but can be made accessible through simulations",
+        "competitions": ["ACSL Junior"],
+        "recommendation": "Keep as enrichment with concrete examples: deterministic (always same result) vs. Monte Carlo (varies each run)",
+        "prerequisites_met_by_grade_8": true,
+        "cognitive_level": "Medium-High"
+      }
+    ],
+    "too_advanced_for_standard": [
+      {
+        "id": "T27.G8.02",
+        "title": "Analyze two variables for potential causal relationships",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Causal inference is college-level statistics. True understanding of causation vs correlation, confounding variables, and experimental design is beyond K-8.",
+        "recommendation": "SIMPLIFY DRASTICALLY: Change to 'Explore whether variables are related' without formal causal analysis. Use examples like 'Ice cream sales and drowning both go up in summer - why?'",
+        "revised_title": "Explore whether two variables are related",
+        "revised_description": "Students explore whether two variables seem to be related (when one is high, is the other high?) and discuss possible reasons, including that both might be affected by a third factor. No formal causal inference required.",
+        "prerequisites_met_by_grade_8": false,
+        "cognitive_level": "Very High - Requires understanding confounding variables and experimental design",
+        "priority": "HIGH"
+      },
+      {
+        "id": "T35.G7.01",
+        "title": "Analyze unintended systemic impacts of a technology",
+        "current_grade": 7,
+        "track": "enrichment",
+        "reason": "Systemic analysis and second-order effects require systems thinking that develops later (typically high school). 12-13 year olds can list pros/cons but formal systemic/ripple effect analysis is too advanced.",
+        "recommendation": "SIMPLIFY: Change to 'List pros and cons of a technology' instead of systemic analysis. Students can identify good and bad effects without analyzing system-level ripple effects.",
+        "revised_title": "Identify pros and cons of a technology",
+        "revised_description": "Students identify and list 3-5 positive effects and 3-5 negative effects of a technology (e.g., smartphones, social media, AI assistants), discussing why each matters.",
+        "prerequisites_met_by_grade_7": false,
+        "cognitive_level": "Very High - Second-order effects and systems thinking",
+        "priority": "HIGH"
+      },
+      {
+        "id": "T35.G8.02",
+        "title": "Analyze policy and regulation of an emerging technology",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Formal policy analysis requires understanding government systems and regulatory frameworks beyond typical 8th grade civics.",
+        "recommendation": "SIMPLIFY: Change to 'Should there be rules about this technology?' - discussion-based, not formal policy analysis",
+        "revised_title": "Discuss whether rules are needed for an emerging technology",
+        "revised_description": "Students discuss whether there should be rules or laws about an emerging technology, who should make those rules, and what those rules might say. Focus on discussion, not formal policy analysis.",
+        "prerequisites_met_by_grade_8": false,
+        "cognitive_level": "High - Requires understanding policy and governance",
+        "priority": "MEDIUM"
+      }
+    ],
+    "terminology_fixes_only": [
+      {
+        "id": "T28.G7.02",
+        "title": "Implement a Monte Carlo simulation to estimate a probability",
+        "current_grade": 7,
+        "track": "standard",
+        "issue": "Term 'Monte Carlo' is intimidating; concept is age-appropriate",
+        "recommendation": "RENAME to 'Run many trials to estimate a probability' or 'Use repeated simulation to estimate probability'",
+        "revised_title": "Run many trials to estimate a probability",
+        "content_is_appropriate": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "id": "T07.G8.01",
+        "title": "Monte Carlo simulations with loops",
+        "current_grade": 8,
+        "track": "standard",
+        "issue": "Term 'Monte Carlo' is intimidating",
+        "recommendation": "RENAME to 'Repeated trial simulations with loops'",
+        "revised_title": "Run repeated simulations with loops",
+        "content_is_appropriate": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "id": "T27.G7.04",
+        "title": "Compare distributions of data",
+        "current_grade": 7,
+        "track": "standard",
+        "issue": "Term 'distributions' suggests formal statistics (skew, variance)",
+        "recommendation": "SIMPLIFY to 'Compare averages and ranges' or 'Compare data using mean and range'",
+        "revised_title": "Compare datasets using averages and ranges",
+        "revised_description": "Students compare two datasets by calculating and comparing their averages (means) and ranges (min to max), identifying which dataset tends higher or has more spread.",
+        "content_is_appropriate": true,
+        "priority": "MEDIUM"
+      },
+      {
+        "id": "T01.G7.03",
+        "title": "Represent an algorithm in pseudocode or text code",
+        "current_grade": 7,
+        "track": "standard",
+        "issue": "Term 'pseudocode' can be intimidating",
+        "recommendation": "ADD SCAFFOLDING: Provide fill-in-the-blank templates. Call it 'Plan an algorithm using words and steps' or keep 'pseudocode' but with heavy support",
+        "implementation_notes": "Provide templates, focus on translating Scratch blocks to text description",
+        "content_is_appropriate": true,
+        "priority": "LOW"
+      },
+      {
+        "id": "T02.G8.01",
+        "title": "Write and test pseudocode for a non-trivial algorithm",
+        "current_grade": 8,
+        "track": "standard",
+        "issue": "Term 'pseudocode' can be intimidating",
+        "recommendation": "Same as above - provide templates and scaffolding",
+        "content_is_appropriate": true,
+        "priority": "LOW"
+      }
+    ],
+    "enrichment_track_advanced_but_appropriate": [
+      {
+        "id": "T01.G7.02",
+        "title": "Understand why different algorithms are chosen for different problems",
+        "current_grade": 7,
+        "track": "enrichment",
+        "reason": "Meta-cognitive understanding of algorithm selection is advanced but valuable",
+        "competitions": ["ACSL Junior"],
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T01.G7.04",
+        "title": "Analyze an algorithm for correctness on edge cases",
+        "current_grade": 7,
+        "track": "enrichment",
+        "reason": "Edge case analysis is sophisticated but important for advanced students",
+        "competitions": ["ACSL Junior", "Lanqiao Scratch"],
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T02.G8.03",
+        "title": "Analyze and improve an algorithm's representation",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Meta-level analysis of representations is advanced",
+        "competitions": ["ACSL Junior"],
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T04.G7.04",
+        "title": "Explain how pattern recognition leads to better algorithm design",
+        "current_grade": 7,
+        "track": "enrichment",
+        "reason": "Meta-cognitive skill connecting patterns to design",
+        "competitions": ["ACSL Junior", "NOC Junior"],
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T01.G8.04",
+        "title": "Refactor a complex algorithm for clarity or efficiency",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Refactoring requires sophisticated understanding of code quality",
+        "competitions": ["ACSL Junior", "Lanqiao Scratch Senior"],
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T25.G8.03",
+        "title": "Use advanced data structures for algorithms",
+        "current_grade": 8,
+        "track": "enrichment",
+        "reason": "Advanced data structures beyond basic lists",
+        "competitions": ["ACSL Junior"],
+        "content_is_appropriate": true
+      }
+    ],
+    "ai_ethics_requires_scaffolding": [
+      {
+        "id": "T28.G8.03",
+        "title": "Analyze bias in AI models trained on biased data",
+        "current_grade": 8,
+        "track": "standard",
+        "note": "KEEP with concrete examples, avoid technical ML details",
+        "implementation_notes": "Use concrete examples of biased datasets (facial recognition trained mostly on lighter skin tones, hiring AI trained on historical data). Show impacts, don't require understanding model architecture.",
+        "content_is_appropriate": true,
+        "priority": "IMPORTANT - Critical for digital citizenship"
+      },
+      {
+        "id": "T21.G7.02",
+        "title": "Examine bias in AI-generated images and discuss causes",
+        "current_grade": 7,
+        "track": "standard",
+        "note": "KEEP - highly relevant and can be made concrete",
+        "implementation_notes": "Show examples of biased outputs, discuss training data",
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T23.G8.04",
+        "title": "Evaluate and mitigate bias in AI detection systems",
+        "current_grade": 8,
+        "track": "enrichment",
+        "note": "Advanced but important - keep with scaffolding",
+        "implementation_notes": "Use concrete examples, focus on testing with diverse inputs",
+        "content_is_appropriate": true
+      },
+      {
+        "id": "T33.G7.03",
+        "title": "Evaluate algorithmic bias in AI services",
+        "current_grade": 7,
+        "track": "standard",
+        "note": "Important digital citizenship skill",
+        "implementation_notes": "Focus on recognizing bias in real services (search results, recommendations), not formal evaluation methods",
+        "content_is_appropriate": true
+      }
+    ],
+    "standard_track_well_designed": [
+      {
+        "id": "T05.G7.04",
+        "title": "Design a simulation for a real-world question",
+        "note": "EXEMPLARY - perfect age-appropriateness"
+      },
+      {
+        "id": "T10.G7.01",
+        "title": "Design and populate a table for a real-world inventory or database",
+        "note": "EXEMPLARY - practical and concrete"
+      },
+      {
+        "id": "T26.G7.04",
+        "title": "Identify and correct data quality issues",
+        "note": "EXEMPLARY - debugging focus, practical"
+      },
+      {
+        "id": "T07.G7.02",
+        "title": "Nested loops for 2D grids",
+        "note": "EXEMPLARY - visual, appropriate challenge"
+      },
+      {
+        "id": "T26.G7.02",
+        "title": "Conduct a data collection campaign",
+        "note": "EXEMPLARY - hands-on, real-world"
+      },
+      {
+        "id": "T26.G7.01",
+        "title": "Formulate a clear, testable data question",
+        "note": "EXEMPLARY - practical scientific method"
+      },
+      {
+        "id": "T28.G7.01",
+        "title": "Conduct a full multi-step experiment with hypothesis",
+        "note": "EXEMPLARY - scientific method integration"
+      },
+      {
+        "id": "T04.G8.02",
+        "title": "Design modular, reusable custom blocks for a project",
+        "note": "EXEMPLARY - abstraction at right level"
+      },
+      {
+        "id": "T26.G8.02",
+        "title": "Execute a complete data investigation (question to analysis)",
+        "note": "EXEMPLARY - end-to-end data science"
+      }
+    ]
+  },
+  "track_statistics": {
+    "total_grade_7_8_skills": 300,
+    "skills_reviewed_in_detail": 50,
+    "competition_track": 4,
+    "needs_major_revision": 3,
+    "terminology_fixes": 5,
+    "enrichment_advanced": 6,
+    "ai_ethics_with_scaffolding": 4,
+    "exemplary_standard": 9
+  },
+  "implementation_guidance": {
+    "dependency_rules": {
+      "enrichment_can_depend_on_standard": true,
+      "competition_can_depend_on_enrichment": true,
+      "standard_cannot_depend_on_enrichment": true,
+      "standard_cannot_depend_on_competition": true
+    },
+    "ui_recommendations": {
+      "standard_display": "Always visible in main skill tree",
+      "enrichment_display": "Marked with star icon or 'Challenge' badge, optional branches",
+      "competition_display": "Separate 'Competition Prep' section or clearly marked as advanced"
+    },
+    "teacher_guidance": {
+      "standard": "All students should master these skills",
+      "enrichment": "For advanced students or those seeking deeper understanding; excellent for differentiation",
+      "competition": "For students preparing for coding competitions or interested in advanced CS concepts"
+    }
+  }
+}

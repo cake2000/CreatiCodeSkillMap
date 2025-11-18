@@ -1,0 +1,254 @@
+[
+  {
+    "filename": "CANONICAL_SKILL_SCHEMA.json",
+    "count": 10,
+    "size_mb": 0.02225494384765625,
+    "modified": "2025-11-17 14:31",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/CANONICAL_SKILL_SCHEMA.json"
+  },
+  {
+    "filename": "CREATIVE_SKILLS_3.json",
+    "count": 3,
+    "size_mb": 0.020917892456054688,
+    "modified": "2025-11-17 17:48",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/CREATIVE_SKILLS_3.json"
+  },
+  {
+    "filename": "FINAL_SKILL_MAP_STATISTICS.json",
+    "count": 5,
+    "size_mb": 0.0009202957153320312,
+    "modified": "2025-11-17 19:48",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/FINAL_SKILL_MAP_STATISTICS.json"
+  },
+  {
+    "filename": "FOUNDATIONAL_41_SKILLS.json",
+    "count": 41,
+    "size_mb": 0.03739452362060547,
+    "modified": "2025-11-17 17:47",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/FOUNDATIONAL_41_SKILLS.json"
+  },
+  {
+    "filename": "SKILL_CSTA_ASSIGNMENTS.json",
+    "count": 3,
+    "size_mb": 0.559025764465332,
+    "modified": "2025-11-17 14:45",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/SKILL_CSTA_ASSIGNMENTS.json"
+  },
+  {
+    "filename": "SKILL_TRACK_CATEGORIZATION.json",
+    "count": 4,
+    "size_mb": 0.015276908874511719,
+    "modified": "2025-11-17 14:14",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/SKILL_TRACK_CATEGORIZATION.json"
+  },
+  {
+    "filename": "WEEK2_NEW_SKILLS.json",
+    "count": 20,
+    "size_mb": 0.026009559631347656,
+    "modified": "2025-11-17 16:13",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/WEEK2_NEW_SKILLS.json"
+  },
+  {
+    "filename": "WEEK2_SKILLS_QUICK_REFERENCE.json",
+    "count": 20,
+    "size_mb": 0.0033626556396484375,
+    "modified": "2025-11-17 17:10",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/WEEK2_SKILLS_QUICK_REFERENCE.json"
+  },
+  {
+    "filename": "ai_skills_new_phase1.json",
+    "count": 21,
+    "size_mb": 0.0306854248046875,
+    "modified": "2025-11-17 10:53",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/ai_skills_new_phase1.json"
+  },
+  {
+    "filename": "ai_skills_new_phase2.json",
+    "count": 12,
+    "size_mb": 0.0194549560546875,
+    "modified": "2025-11-17 10:55",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/ai_skills_new_phase2.json"
+  },
+  {
+    "filename": "extracted_skills_raw.json",
+    "count": 1155,
+    "size_mb": 0.5863914489746094,
+    "modified": "2025-11-16 23:00",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/extracted_skills_raw.json"
+  },
+  {
+    "filename": "grade_7_8_skills_extracted.json",
+    "count": 2,
+    "size_mb": 0.24993324279785156,
+    "modified": "2025-11-17 14:03",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/grade_7_8_skills_extracted.json"
+  },
+  {
+    "filename": "grade_7_8_skills_for_analysis.json",
+    "count": 300,
+    "size_mb": 0.18531036376953125,
+    "modified": "2025-11-17 14:13",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/grade_7_8_skills_for_analysis.json"
+  },
+  {
+    "filename": "k2_skill_format_spec.json",
+    "count": 8,
+    "size_mb": 0.016788482666015625,
+    "modified": "2025-11-17 08:57",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/k2_skill_format_spec.json"
+  },
+  {
+    "filename": "skills.json",
+    "count": 1155,
+    "size_mb": 0.7596654891967773,
+    "modified": "2025-11-16 23:01",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills.json"
+  },
+  {
+    "filename": "skills_T14_T24_extracted.json",
+    "count": 346,
+    "size_mb": 0.19174480438232422,
+    "modified": "2025-11-17 00:26",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_T14_T24_extracted.json"
+  },
+  {
+    "filename": "skills_complete_k8.json",
+    "count": 1086,
+    "size_mb": 1.038869857788086,
+    "modified": "2025-11-17 10:17",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_complete_k8.json"
+  },
+  {
+    "filename": "skills_enriched.json",
+    "count": 1155,
+    "size_mb": 0.6502780914306641,
+    "modified": "2025-11-16 23:00",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_enriched.json"
+  },
+  {
+    "filename": "skills_enriched_partial.json",
+    "count": 36,
+    "size_mb": 0.013983726501464844,
+    "modified": "2025-11-16 23:22",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_enriched_partial.json"
+  },
+  {
+    "filename": "skills_final.json",
+    "count": 1155,
+    "size_mb": 0.7876396179199219,
+    "modified": "2025-11-17 07:58",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_final.json"
+  },
+  {
+    "filename": "skills_final_enriched.json",
+    "count": 1155,
+    "size_mb": 0.8433361053466797,
+    "modified": "2025-11-17 08:04",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_final_enriched.json"
+  },
+  {
+    "filename": "skills_k2_additional_topics.json",
+    "count": 9,
+    "size_mb": 0.018326759338378906,
+    "modified": "2025-11-17 09:48",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_additional_topics.json"
+  },
+  {
+    "filename": "skills_k2_all_remaining_topics.json",
+    "count": 99,
+    "size_mb": 0.18077659606933594,
+    "modified": "2025-11-17 09:51",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_all_remaining_topics.json"
+  },
+  {
+    "filename": "skills_k2_batch_comprehensive.json",
+    "count": 32,
+    "size_mb": 0.062175750732421875,
+    "modified": "2025-11-17 09:49",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_batch_comprehensive.json"
+  },
+  {
+    "filename": "skills_k2_complete_all.json",
+    "count": 206,
+    "size_mb": 0.37607860565185547,
+    "modified": "2025-11-17 09:51",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_complete_all.json"
+  },
+  {
+    "filename": "skills_k2_new_batch.json",
+    "count": 11,
+    "size_mb": 0.023985862731933594,
+    "modified": "2025-11-17 09:43",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_new_batch.json"
+  },
+  {
+    "filename": "skills_k2_redesigned.json",
+    "count": 107,
+    "size_mb": 0.19530391693115234,
+    "modified": "2025-11-17 09:47",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_redesigned.json"
+  },
+  {
+    "filename": "skills_k2_redesigned_partial.json",
+    "count": 24,
+    "size_mb": 0.051555633544921875,
+    "modified": "2025-11-17 09:17",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_redesigned_partial.json"
+  },
+  {
+    "filename": "skills_k2_with_dependencies.json",
+    "count": 206,
+    "size_mb": 0.38043689727783203,
+    "modified": "2025-11-17 10:07",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k2_with_dependencies.json"
+  },
+  {
+    "filename": "skills_k8_ai_complete.BACKUP.json",
+    "count": 1119,
+    "size_mb": 1.0890045166015625,
+    "modified": "2025-11-17 15:20",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete.BACKUP.json"
+  },
+  {
+    "filename": "skills_k8_ai_complete.json",
+    "count": 1119,
+    "size_mb": 1.0890045166015625,
+    "modified": "2025-11-17 11:05",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete.json"
+  },
+  {
+    "filename": "skills_k8_ai_complete_FINAL.json",
+    "count": 1150,
+    "size_mb": 1.151651382446289,
+    "modified": "2025-11-17 19:48",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete_FINAL.json"
+  },
+  {
+    "filename": "skills_k8_ai_complete_REVISED.json",
+    "count": 1120,
+    "size_mb": 1.0922203063964844,
+    "modified": "2025-11-17 15:22",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete_REVISED.json"
+  },
+  {
+    "filename": "skills_k8_ai_complete_WEEK2.json",
+    "count": 1140,
+    "size_mb": 1.1182270050048828,
+    "modified": "2025-11-17 17:16",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_k8_ai_complete_WEEK2.json"
+  },
+  {
+    "filename": "skills_with_dependencies.json",
+    "count": 1155,
+    "size_mb": 0.7316217422485352,
+    "modified": "2025-11-17 07:57",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skills_with_dependencies.json"
+  },
+  {
+    "filename": "t01_t05_skills.json",
+    "count": 156,
+    "size_mb": 0.09247303009033203,
+    "modified": "2025-11-17 00:05",
+    "path": "/media/binyu/USB2/dev/CreatiCodeSkillMap/t01_t05_skills.json"
+  }
+]

@@ -1,0 +1,2671 @@
+{
+  "summary": {
+    "total_k3_skills": 221,
+    "by_grade": {
+      "K": 61,
+      "1": 69,
+      "2": 91,
+      "3": 0
+    }
+  },
+  "coverage": {
+    "Motion": {
+      "K": [
+        {
+          "id": "T02.GK.01",
+          "title": "Follow the Arrow Cards",
+          "short_name": "Follow 3-step arrow picture sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.GK.04",
+          "title": "Point to the Screen",
+          "short_name": "Identify computer parts",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T07.G1.01",
+          "title": "How Many Times Does It Repeat?",
+          "short_name": "Count repetitions in sequence",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.04",
+          "title": "Guide the Robot Through the Maze",
+          "short_name": "Navigate path with directional choices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.04",
+          "title": "Button Makes Sprite Move",
+          "short_name": "Match button to sprite action",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T12.G2.01",
+          "title": "Group the Steps That Go Together",
+          "short_name": "Organize steps into groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.G2.02",
+          "title": "Design a Repeating Tile",
+          "short_name": "Create tessellation design",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Looks": {
+      "K": [
+        {
+          "id": "T01.GK.02",
+          "title": "Making a Sandwich: What's the Right Order?",
+          "short_name": "Sequence 3 sandwich-making steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.GK.04",
+          "title": "Washing Hands: Do It Right!",
+          "short_name": "Sequence 3 handwashing steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.06",
+          "title": "Draw to Show What You See",
+          "short_name": "Simple visual representation",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.02",
+          "title": "Getting Ready: What Parts?",
+          "short_name": "Match task to its 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.04",
+          "title": "Big-Small Pattern",
+          "short_name": "Complete AB size pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.GK.02",
+          "title": "Which Shows 'Do It Three Times'?",
+          "short_name": "Identify repetition sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.01",
+          "title": "Good or Problem?",
+          "short_name": "Sort technology effects",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.01",
+          "title": "Plant a Seed: Steps in Order",
+          "short_name": "Sequence 4-5 planting steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.04",
+          "title": "Follow the Picture Recipe",
+          "short_name": "Trace multi-step picture algorithm (5 steps)",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.06",
+          "title": "Picture a Story in Order",
+          "short_name": "Represent with pictures",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.03",
+          "title": "Pet Care Plan: Put It in Order",
+          "short_name": "Order multi-step project parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Story Pattern Match",
+          "short_name": "Match repeating story to pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Make a Picture Chart",
+          "short_name": "Create simple tally/picture chart",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.01",
+          "title": "Ask the Class",
+          "short_name": "Collect data from multiple responses",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T31.G1.01",
+          "title": "Computers Can Connect",
+          "short_name": "Understand connection concept",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.01",
+          "title": "Good and Bad Effects",
+          "short_name": "List technology impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.01",
+          "title": "Being Kind Online: Choose Kind Words",
+          "short_name": "Identify kind online behavior",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.02",
+          "title": "Working Together: Who's Helping?",
+          "short_name": "Identify collaboration scenarios",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Choose the Path: If-Then Decisions",
+          "short_name": "Sequence with conditional choices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G2.04",
+          "title": "Guide the Robot Through the Maze",
+          "short_name": "Navigate path with directional choices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.04",
+          "title": "Create Your Own Map Code",
+          "short_name": "Create 6-step picture algorithm independently",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.06",
+          "title": "Map Your Space",
+          "short_name": "Create simple map",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G2.03",
+          "title": "Organize the Class Play Project",
+          "short_name": "Put complex project steps in order",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Short-Cut the Repeat: Circle It Once",
+          "short_name": "Identify what to repeat instead of showing multiple times",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T12.G2.02",
+          "title": "Put the Groups in Better Order",
+          "short_name": "Arrange grouped steps in order",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Sound": {
+      "K": [
+        {
+          "id": "T02.GK.05",
+          "title": "Yes or No Game: Guess My Picture",
+          "short_name": "Binary choice guessing game",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.GK.02",
+          "title": "Copy the Shape Pattern",
+          "short_name": "Copy ABAB pattern",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T23.G1.01",
+          "title": "What Can Computers Sense?",
+          "short_name": "Compare sensing abilities",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.02",
+          "title": "What If I Play Too Long?",
+          "short_name": "Predict consequences",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T02.G2.05",
+          "title": "Create a Yes/No Helper for Friends",
+          "short_name": "Create simple decision tree",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.06",
+          "title": "Map Your Space",
+          "short_name": "Create simple map",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G2.03",
+          "title": "Organize the Class Play Project",
+          "short_name": "Put complex project steps in order",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.01",
+          "title": "Collect by Watching",
+          "short_name": "Observation-based data collection",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Events": {
+      "K": [
+        {
+          "id": "T28.GK.02",
+          "title": "What's More Likely to Happen?",
+          "short_name": "Compare likelihood of scenarios",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T02.G1.06",
+          "title": "Picture a Story in Order",
+          "short_name": "Represent with pictures",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G1.03",
+          "title": "This Won't Get Us to the Goal!",
+          "short_name": "Identify picture preventing goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G1.01",
+          "title": "Predict: What Will We Pick?",
+          "short_name": "Predict outcome of random event",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G1.03",
+          "title": "Order by Likelihood",
+          "short_name": "Order events by likelihood",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T06.G2.01",
+          "title": "When This Happens, Do That",
+          "short_name": "Match trigger event to action",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.02",
+          "title": "What Starts the Action?",
+          "short_name": "Identify event trigger",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Track the Score!",
+          "short_name": "Use variable to track changing data",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Control": {
+      "K": [
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.06",
+          "title": "Draw to Show What You See",
+          "short_name": "Simple visual representation",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.02",
+          "title": "Color Pattern: Red, Blue, Red, Blue",
+          "short_name": "Complete AB color pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.GK.01",
+          "title": "Do It Again! Counting Repeats",
+          "short_name": "Count repeated actions",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.GK.02",
+          "title": "Which Shows 'Do It Three Times'?",
+          "short_name": "Identify repetition sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.GK.03",
+          "title": "Stamp Pattern: Two Different Stamps",
+          "short_name": "Make pattern with 2 stamps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.03",
+          "title": "What Kind Is It?",
+          "short_name": "Sort by type/category",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.04",
+          "title": "Count and Compare",
+          "short_name": "Count items and identify which has more",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.02",
+          "title": "Which Has More?",
+          "short_name": "Compare two data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.GK.03",
+          "title": "Which is Biggest?",
+          "short_name": "Identify largest group",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.GK.04",
+          "title": "Same or Different Amounts?",
+          "short_name": "Compare for equality",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.GK.01",
+          "title": "More Likely: More Blue Marbles",
+          "short_name": "Identify more likely with visuals",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.GK.01",
+          "title": "Find the Computer",
+          "short_name": "Identify computing devices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.GK.03",
+          "title": "Is It a Computer?",
+          "short_name": "Identify computing devices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.GK.04",
+          "title": "Point to the Screen",
+          "short_name": "Identify computer parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.GK.02",
+          "title": "Who Can We Tell?",
+          "short_name": "Identify trusted adults",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.GK.04",
+          "title": "Ask a Grown-Up First",
+          "short_name": "Identify when to ask adult",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.GK.01",
+          "title": "Who Uses Computers at Work?",
+          "short_name": "Identify workers using computers",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.GK.03",
+          "title": "Find Technology in Different Jobs",
+          "short_name": "Identify technology in jobs",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.03",
+          "title": "Find the Missing Step",
+          "short_name": "Identify missing step in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G1.04",
+          "title": "Two Ways to Do It: Which is Better?",
+          "short_name": "Compare two visual sequences",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.03",
+          "title": "Which Path is Shorter?",
+          "short_name": "Compare two picture algorithms for same goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.02",
+          "title": "What's Missing from Making Breakfast?",
+          "short_name": "Identify missing step in task",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.04",
+          "title": "Planning a Birthday Party",
+          "short_name": "Break complex task into 4 parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Story Pattern Match",
+          "short_name": "Match repeating story to pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.04",
+          "title": "Make Your Own Pattern",
+          "short_name": "Create repeating pattern by arranging items",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G1.01",
+          "title": "Who Needs Help?",
+          "short_name": "Identify problem from scenario",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.G1.01",
+          "title": "How Many Times Does It Repeat?",
+          "short_name": "Count repetitions in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.G1.02",
+          "title": "Should We Repeat or Do Each?",
+          "short_name": "Identify when to use repetition",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G1.02",
+          "title": "These Steps Are Out of Order",
+          "short_name": "Find wrong order in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G1.03",
+          "title": "This Won't Get Us to the Goal!",
+          "short_name": "Identify picture preventing goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.G1.01",
+          "title": "Create an ABC Pattern",
+          "short_name": "Create ABCABC pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.G1.01",
+          "title": "What Can Computers Sense?",
+          "short_name": "Compare sensing abilities",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G1.03",
+          "title": "Which Got the Most?",
+          "short_name": "Identify mode from visual",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G1.03",
+          "title": "Parts of a Computer",
+          "short_name": "Identify computer components",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G1.01",
+          "title": "What Should Stay Private?",
+          "short_name": "Identify PII",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G1.02",
+          "title": "Who Can I Trust Online?",
+          "short_name": "Identify trustworthy people",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G1.04",
+          "title": "Spot the Trick",
+          "short_name": "Identify scam picture",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G1.01",
+          "title": "Technology from Different Places",
+          "short_name": "Explore diverse contributions",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G1.02",
+          "title": "Life Before and After",
+          "short_name": "Compare life before/after tech",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G1.04",
+          "title": "Draw an Invention",
+          "short_name": "Identify inventions visually",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.02",
+          "title": "What If I Play Too Long?",
+          "short_name": "Predict consequences",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.01",
+          "title": "Being Kind Online: Choose Kind Words",
+          "short_name": "Identify kind online behavior",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.02",
+          "title": "Working Together: Who's Helping?",
+          "short_name": "Identify collaboration scenarios",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.03",
+          "title": "When Should You Ask for Help?",
+          "short_name": "Identify when to ask for help",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Choose the Path: If-Then Decisions",
+          "short_name": "Sequence with conditional choices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G2.02",
+          "title": "Patterns that Repeat: Can You See It?",
+          "short_name": "Identify repeating sequences",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.03",
+          "title": "Fix the Path That's Wrong",
+          "short_name": "Debug picture algorithm that doesn't reach goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.01",
+          "title": "Find All the Patterns",
+          "short_name": "Identify multiple repeating sections",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Short-Cut the Repeat: Circle It Once",
+          "short_name": "Identify what to repeat instead of showing multiple times",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.04",
+          "title": "Pattern Prediction: What Will It Make?",
+          "short_name": "Predict result of repeating pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.04",
+          "title": "Testing with Different Users",
+          "short_name": "Identify accessibility needs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.02",
+          "title": "What Starts the Action?",
+          "short_name": "Identify event trigger",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.G2.01",
+          "title": "Repeat This Part: Which One?",
+          "short_name": "Identify section that should repeat",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.G2.02",
+          "title": "Three Times vs Five Times",
+          "short_name": "Compare different repeat counts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T08.G2.01",
+          "title": "If Raining, Then Take Umbrella",
+          "short_name": "Simple if-then scenarios",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T08.G2.03",
+          "title": "What Should Happen If...?",
+          "short_name": "Match condition to outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T08.G2.04",
+          "title": "Which Rule Is Being Followed?",
+          "short_name": "Identify which if-then rule applies",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.01",
+          "title": "Find All the Errors",
+          "short_name": "Find multiple errors in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.02",
+          "title": "What Kind of Error Is This?",
+          "short_name": "Identify error type",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T14.G2.01",
+          "title": "What Makes Something a Game?",
+          "short_name": "Identify games vs not games",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.G2.02",
+          "title": "Design a Repeating Tile",
+          "short_name": "Create tessellation design",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.G2.03",
+          "title": "What Rule Made This Pattern?",
+          "short_name": "Identify rules in pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "What Can Change? What Stays the Same?",
+          "short_name": "Identify variable vs constant",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Find What's Missing",
+          "short_name": "Identify incomplete data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G2.02",
+          "title": "Find the Most Popular",
+          "short_name": "Identify mode/highest count",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.01",
+          "title": "Spinner: Which Section Is Biggest?",
+          "short_name": "Simple probability comparisons",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.02",
+          "title": "Predict 10 Spins",
+          "short_name": "Predict results of 10 trials",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.03",
+          "title": "Is This Experiment Fair?",
+          "short_name": "Identify fair experiments",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "What Does This Sensor Do?",
+          "short_name": "Identify sensor purposes",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T31.G2.01",
+          "title": "How Does the Internet Help?",
+          "short_name": "Identify how internet helps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.01",
+          "title": "How Life Changed",
+          "short_name": "Compare daily life",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.02",
+          "title": "What Does It Help Us Do?",
+          "short_name": "Identify technology purpose",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and Bad Changes",
+          "short_name": "Identify impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.01",
+          "title": "Before and After Tech",
+          "short_name": "Compare life impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.03",
+          "title": "Unexpected Problems",
+          "short_name": "Identify unintended impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.04",
+          "title": "Different Communities, Different Uses",
+          "short_name": "Understand diverse usage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G2.02",
+          "title": "Giving Credit for Work",
+          "short_name": "Identify scenarios needing credit",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Sensing": {
+      "K": [
+        {
+          "id": "T02.GK.05",
+          "title": "Yes or No Game: Guess My Picture",
+          "short_name": "Binary choice guessing game",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.02",
+          "title": "Getting Ready: What Parts?",
+          "short_name": "Match task to its 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.GK.01",
+          "title": "Match Senses to Sensors",
+          "short_name": "Human senses vs. computer sensors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Make a List",
+          "short_name": "Create list from collected data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.04",
+          "title": "Take a Survey: Click Your Choice",
+          "short_name": "Participate in data collection",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.GK.04",
+          "title": "Ask a Grown-Up First",
+          "short_name": "Identify when to ask adult",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.04",
+          "title": "Two Ways to Do It: Which is Better?",
+          "short_name": "Compare two visual sequences",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.05",
+          "title": "Follow the Yes/No Path to Choose",
+          "short_name": "Follow binary decision tree",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.01",
+          "title": "Cleaning Your Room: Three Big Steps",
+          "short_name": "Break task into 3 parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.02",
+          "title": "What's Missing from Making Breakfast?",
+          "short_name": "Identify missing step in task",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.04",
+          "title": "Planning a Birthday Party",
+          "short_name": "Break complex task into 4 parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Make a Picture Chart",
+          "short_name": "Create simple tally/picture chart",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.01",
+          "title": "Ask the Class",
+          "short_name": "Collect data from multiple responses",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare the Data",
+          "short_name": "Compare multiple data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G1.01",
+          "title": "Read the Picture Chart",
+          "short_name": "Answer questions from pictograph",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.03",
+          "title": "When Should You Ask for Help?",
+          "short_name": "Identify when to ask for help",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T03.G2.01",
+          "title": "Group the Garden Project Steps",
+          "short_name": "Plan project with logical groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.04",
+          "title": "What Do the Results Tell Us?",
+          "short_name": "Interpret random results",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "What Does This Sensor Do?",
+          "short_name": "Identify sensor purposes",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Operators": {
+      "K": [
+        {
+          "id": "T01.GK.01",
+          "title": "Help the Puppy Get Ready for Bed",
+          "short_name": "Sequence 3 bedtime routine steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.GK.02",
+          "title": "Making a Sandwich: What's the Right Order?",
+          "short_name": "Sequence 3 sandwich-making steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.GK.03",
+          "title": "Getting Dressed: Morning Routine",
+          "short_name": "Sequence 3 getting dressed steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.GK.04",
+          "title": "Washing Hands: Do It Right!",
+          "short_name": "Sequence 3 handwashing steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.01",
+          "title": "Follow the Arrow Cards",
+          "short_name": "Follow 3-step arrow picture sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.03",
+          "title": "Help the Cat Find the Food",
+          "short_name": "Create simple 3-arrow path with pictures",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.GK.05",
+          "title": "Yes or No Game: Guess My Picture",
+          "short_name": "Binary choice guessing game",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.02",
+          "title": "Color Pattern: Red, Blue, Red, Blue",
+          "short_name": "Complete AB color pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.04",
+          "title": "Big-Small Pattern",
+          "short_name": "Complete AB size pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.GK.05",
+          "title": "Sort Pictures by What You See",
+          "short_name": "Pattern recognition sorting",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.GK.01",
+          "title": "Find What's Wrong in the Pictures",
+          "short_name": "Find 1 error in 3-picture sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.GK.03",
+          "title": "Fix the Puppy's Morning",
+          "short_name": "Fix sequence by swapping 2 pictures",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.GK.01",
+          "title": "Make a Two-Color Pattern",
+          "short_name": "Create 2-color pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.GK.01",
+          "title": "Match Senses to Sensors",
+          "short_name": "Human senses vs. computer sensors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.01",
+          "title": "Sort by Color",
+          "short_name": "Sort objects by single attribute (color)",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.03",
+          "title": "What Kind Is It?",
+          "short_name": "Sort by type/category",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.04",
+          "title": "Count and Compare",
+          "short_name": "Count items and identify which has more",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.02",
+          "title": "Which Has More?",
+          "short_name": "Compare two data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.04",
+          "title": "Take a Survey: Click Your Choice",
+          "short_name": "Participate in data collection",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.GK.01",
+          "title": "Which Pile Has More?",
+          "short_name": "Visual comparison of quantities",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.GK.02",
+          "title": "Count the Pictureseach",
+          "short_name": "Count and compare picture sets",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.GK.04",
+          "title": "Same or Different Amounts?",
+          "short_name": "Compare for equality",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.GK.01",
+          "title": "More Likely: More Blue Marbles",
+          "short_name": "Identify more likely with visuals",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.GK.02",
+          "title": "What's More Likely to Happen?",
+          "short_name": "Compare likelihood of scenarios",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.GK.03",
+          "title": "Certain, Maybe, or Impossible?",
+          "short_name": "Sort scenarios by certainty",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.GK.02",
+          "title": "What Do We Use It For?",
+          "short_name": "Match device to use",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.GK.01",
+          "title": "Private or Not Private?",
+          "short_name": "Sort personal information",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.GK.03",
+          "title": "Keep Secrets Safe",
+          "short_name": "Understand privacy",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.GK.01",
+          "title": "Old or New?",
+          "short_name": "Sort old vs new technology",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.GK.02",
+          "title": "Before and After",
+          "short_name": "Sequence technology evolution",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.GK.03",
+          "title": "Match Old to New",
+          "short_name": "Match old and new versions",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.GK.04",
+          "title": "How Did People Do It Before?",
+          "short_name": "Compare past and present",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.01",
+          "title": "Good or Problem?",
+          "short_name": "Sort technology effects",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.02",
+          "title": "Too Much Screen Time?",
+          "short_name": "Understand balance",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.03",
+          "title": "Who Made This Game?",
+          "short_name": "Recognize human creators",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.04",
+          "title": "When to Use It, When Not To",
+          "short_name": "Appropriate device use",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.GK.01",
+          "title": "Who Uses Computers at Work?",
+          "short_name": "Identify workers using computers",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.GK.02",
+          "title": "Match the Tool to the Job",
+          "short_name": "Match technology tool to job",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.GK.03",
+          "title": "Find Technology in Different Jobs",
+          "short_name": "Identify technology in jobs",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.01",
+          "title": "Plant a Seed: Steps in Order",
+          "short_name": "Sequence 4-5 planting steps",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G1.02",
+          "title": "What Happens Next? Story Sequence",
+          "short_name": "Predict next step in 4-picture sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G1.04",
+          "title": "Two Ways to Do It: Which is Better?",
+          "short_name": "Compare two visual sequences",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.02",
+          "title": "Create the Path to the Treasure",
+          "short_name": "Create picture algorithm for 4-step path",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.03",
+          "title": "Which Path is Shorter?",
+          "short_name": "Compare two picture algorithms for same goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.04",
+          "title": "Follow the Picture Recipe",
+          "short_name": "Trace multi-step picture algorithm (5 steps)",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.05",
+          "title": "Follow the Yes/No Path to Choose",
+          "short_name": "Follow binary decision tree",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G1.06",
+          "title": "Picture a Story in Order",
+          "short_name": "Represent with pictures",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.01",
+          "title": "Cleaning Your Room: Three Big Steps",
+          "short_name": "Break task into 3 parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.02",
+          "title": "What's Missing from Making Breakfast?",
+          "short_name": "Identify missing step in task",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.03",
+          "title": "Pet Care Plan: Put It in Order",
+          "short_name": "Order multi-step project parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Story Pattern Match",
+          "short_name": "Match repeating story to pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G1.01",
+          "title": "Who Needs Help?",
+          "short_name": "Identify problem from scenario",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G1.02",
+          "title": "What Would Help This Person?",
+          "short_name": "Choose helpful tool",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.G1.02",
+          "title": "Should We Repeat or Do Each?",
+          "short_name": "Identify when to use repetition",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G1.02",
+          "title": "These Steps Are Out of Order",
+          "short_name": "Find wrong order in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G1.04",
+          "title": "How Should We Fix This?",
+          "short_name": "Choose correct fix for broken sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.G1.02",
+          "title": "Make It Symmetrical",
+          "short_name": "Create symmetric pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T20.G1.04",
+          "title": "Butterfly Wings: Mirror Pattern",
+          "short_name": "Create symmetric butterfly wing",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.G1.01",
+          "title": "What Can Computers Sense?",
+          "short_name": "Compare sensing abilities",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Make a Picture Chart",
+          "short_name": "Create simple tally/picture chart",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare the Data",
+          "short_name": "Compare multiple data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make the List",
+          "short_name": "Organize collected data into list",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G1.02",
+          "title": "Count Each Group",
+          "short_name": "Count data in each category",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G1.01",
+          "title": "Predict: What Will We Pick?",
+          "short_name": "Predict outcome of random event",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G1.02",
+          "title": "Which Bag Gives Better Chance?",
+          "short_name": "Compare bags for best chance",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G1.03",
+          "title": "Order by Likelihood",
+          "short_name": "Order events by likelihood",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G1.02",
+          "title": "Input or Output?",
+          "short_name": "Sort input/output devices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G1.04",
+          "title": "Software Makes It Work",
+          "short_name": "Match software to device",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T31.G1.01",
+          "title": "Computers Can Connect",
+          "short_name": "Understand connection concept",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T31.G1.02",
+          "title": "Connected or Not Connected?",
+          "short_name": "Sort networked vs not",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G1.02",
+          "title": "Who Can I Trust Online?",
+          "short_name": "Identify trustworthy people",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G1.03",
+          "title": "Why Passwords Matter",
+          "short_name": "Understand password purpose",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G1.01",
+          "title": "Technology from Different Places",
+          "short_name": "Explore diverse contributions",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G1.02",
+          "title": "Life Before and After",
+          "short_name": "Compare life before/after tech",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G1.03",
+          "title": "Name the Inventor",
+          "short_name": "Match inventor to invention",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.01",
+          "title": "Good and Bad Effects",
+          "short_name": "List technology impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.03",
+          "title": "People Make Games",
+          "short_name": "Understand human design",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.04",
+          "title": "Device or No Device?",
+          "short_name": "Decide appropriate use",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.01",
+          "title": "Being Kind Online: Choose Kind Words",
+          "short_name": "Identify kind online behavior",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.02",
+          "title": "Working Together: Who's Helping?",
+          "short_name": "Identify collaboration scenarios",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.03",
+          "title": "When Should You Ask for Help?",
+          "short_name": "Identify when to ask for help",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G1.04",
+          "title": "Kind or Unkind Online?",
+          "short_name": "Sort kind vs unkind behavior",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Choose the Path: If-Then Decisions",
+          "short_name": "Sequence with conditional choices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G2.02",
+          "title": "Patterns that Repeat: Can You See It?",
+          "short_name": "Identify repeating sequences",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T01.G2.03",
+          "title": "Follow the Steps: What Does It Make?",
+          "short_name": "Trace sequence to predict outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.02",
+          "title": "Picture Code to Word Code",
+          "short_name": "Translate picture symbols to words",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.03",
+          "title": "Fix the Path That's Wrong",
+          "short_name": "Debug picture algorithm that doesn't reach goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.04",
+          "title": "Create Your Own Map Code",
+          "short_name": "Create 6-step picture algorithm independently",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.05",
+          "title": "Create a Yes/No Helper for Friends",
+          "short_name": "Create simple decision tree",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T02.G2.06",
+          "title": "Map Your Space",
+          "short_name": "Create simple map",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G2.01",
+          "title": "Group the Garden Project Steps",
+          "short_name": "Plan project with logical groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G2.03",
+          "title": "Organize the Class Play Project",
+          "short_name": "Put complex project steps in order",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Short-Cut the Repeat: Circle It Once",
+          "short_name": "Identify what to repeat instead of showing multiple times",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.04",
+          "title": "Pattern Prediction: What Will It Make?",
+          "short_name": "Predict result of repeating pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.02",
+          "title": "App for Kids vs Grandparents",
+          "short_name": "Choose features for audience",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.03",
+          "title": "What Makes It Easier to Use?",
+          "short_name": "Match accessibility feature to need",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.04",
+          "title": "Testing with Different Users",
+          "short_name": "Identify accessibility needs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.02",
+          "title": "What Starts the Action?",
+          "short_name": "Identify event trigger",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.G2.02",
+          "title": "Three Times vs Five Times",
+          "short_name": "Compare different repeat counts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T08.G2.03",
+          "title": "What Should Happen If...?",
+          "short_name": "Match condition to outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T09.G2.01",
+          "title": "Things That Change vs Stay the Same",
+          "short_name": "Sort changing vs static values",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T09.G2.02",
+          "title": "Boxes That Store Values",
+          "short_name": "Visual metaphor for variable storage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T10.G2.02",
+          "title": "Organizing in a Table",
+          "short_name": "Arrange items in table structure",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T12.G2.01",
+          "title": "Group the Steps That Go Together",
+          "short_name": "Organize steps into groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T12.G2.02",
+          "title": "Put the Groups in Better Order",
+          "short_name": "Arrange grouped steps in order",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.01",
+          "title": "Find All the Errors",
+          "short_name": "Find multiple errors in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.02",
+          "title": "What Kind of Error Is This?",
+          "short_name": "Identify error type",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.03",
+          "title": "Test It: Does It Match?",
+          "short_name": "Test sequence against expected outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.04",
+          "title": "Debug the Robot's Path",
+          "short_name": "Debug complex algorithm",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T14.G2.01",
+          "title": "What Makes Something a Game?",
+          "short_name": "Identify games vs not games",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T14.G2.02",
+          "title": "Match the Game to Its Goal",
+          "short_name": "Understand game design concepts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T21.G2.01",
+          "title": "Computers Can Make Pictures",
+          "short_name": "Understand AI generation concept",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Make a Variable Box",
+          "short_name": "Understand variable as storage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "What Can Change? What Stays the Same?",
+          "short_name": "Identify variable vs constant",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Track the Score!",
+          "short_name": "Use variable to track changing data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.05",
+          "title": "Make a Simple Table",
+          "short_name": "Organize data into rows and columns",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.02",
+          "title": "Fill the Table",
+          "short_name": "Organize data into table structure",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.03",
+          "title": "Survey the Class",
+          "short_name": "Design and understand survey",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Find What's Missing",
+          "short_name": "Identify incomplete data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G2.03",
+          "title": "More or Fewer?",
+          "short_name": "Compare data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G2.04",
+          "title": "Add Them All Up",
+          "short_name": "Find total by adding counts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.01",
+          "title": "Spinner: Which Section Is Biggest?",
+          "short_name": "Simple probability comparisons",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.03",
+          "title": "Is This Experiment Fair?",
+          "short_name": "Identify fair experiments",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.04",
+          "title": "What Do the Results Tell Us?",
+          "short_name": "Interpret random results",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G2.02",
+          "title": "Input to Output",
+          "short_name": "Understand processing flow",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "What Does This Sensor Do?",
+          "short_name": "Identify sensor purposes",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G2.04",
+          "title": "Hardware Plus Software",
+          "short_name": "Connect hardware and software",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T31.G2.02",
+          "title": "Saved on Computer or in the Cloud?",
+          "short_name": "Local vs cloud concept",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G2.01",
+          "title": "Keep Information Private",
+          "short_name": "Privacy practices",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G2.02",
+          "title": "Make a Strong Password",
+          "short_name": "Password creation principles",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G2.03",
+          "title": "Is This Real or Fake?",
+          "short_name": "Recognize phishing",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T32.G2.04",
+          "title": "Safe Sharing Rules",
+          "short_name": "Safe online behaviors",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and Bad Changes",
+          "short_name": "Identify impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.01",
+          "title": "Before and After Tech",
+          "short_name": "Compare life impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.02",
+          "title": "How Could This Help?",
+          "short_name": "Brainstorm benefits",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.04",
+          "title": "Different Communities, Different Uses",
+          "short_name": "Understand diverse usage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G2.01",
+          "title": "When Should We Use Technology?",
+          "short_name": "Choose appropriate contexts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G2.02",
+          "title": "Giving Credit for Work",
+          "short_name": "Identify scenarios needing credit",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G2.03",
+          "title": "Helpful Feedback or Criticism?",
+          "short_name": "Distinguish feedback from criticism",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G2.04",
+          "title": "Balance: Screen Time Choices",
+          "short_name": "Evaluate screen time balance",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Variables": {
+      "K": [
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.01",
+          "title": "Sort by Color",
+          "short_name": "Sort objects by single attribute (color)",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.02",
+          "title": "Which Has More?",
+          "short_name": "Compare two data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Make a List",
+          "short_name": "Create list from collected data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.04",
+          "title": "Take a Survey: Click Your Choice",
+          "short_name": "Participate in data collection",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.GK.02",
+          "title": "Count the Pictureseach",
+          "short_name": "Count and compare picture sets",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.01",
+          "title": "Ask the Class",
+          "short_name": "Collect data from multiple responses",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare the Data",
+          "short_name": "Compare multiple data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make the List",
+          "short_name": "Organize collected data into list",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G1.02",
+          "title": "Count Each Group",
+          "short_name": "Count data in each category",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T02.G2.03",
+          "title": "Fix the Path That's Wrong",
+          "short_name": "Debug picture algorithm that doesn't reach goal",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T09.G2.01",
+          "title": "Things That Change vs Stay the Same",
+          "short_name": "Sort changing vs static values",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T09.G2.02",
+          "title": "Boxes That Store Values",
+          "short_name": "Visual metaphor for variable storage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Make a Variable Box",
+          "short_name": "Understand variable as storage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "What Can Change? What Stays the Same?",
+          "short_name": "Identify variable vs constant",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Track the Score!",
+          "short_name": "Use variable to track changing data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.05",
+          "title": "Make a Simple Table",
+          "short_name": "Organize data into rows and columns",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.01",
+          "title": "Collect by Watching",
+          "short_name": "Observation-based data collection",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.02",
+          "title": "Fill the Table",
+          "short_name": "Organize data into table structure",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Find What's Missing",
+          "short_name": "Identify incomplete data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G2.01",
+          "title": "Make a Bar Chart",
+          "short_name": "Create simple bar chart from data",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T27.G2.03",
+          "title": "More or Fewer?",
+          "short_name": "Compare data groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.01",
+          "title": "How Life Changed",
+          "short_name": "Compare daily life",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and Bad Changes",
+          "short_name": "Identify impacts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Lists": {
+      "K": [
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.03",
+          "title": "What Kind Is It?",
+          "short_name": "Sort by type/category",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.GK.04",
+          "title": "Count and Compare",
+          "short_name": "Count items and identify which has more",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Make a List",
+          "short_name": "Create list from collected data",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.04",
+          "title": "Make Your Own Pattern",
+          "short_name": "Create repeating pattern by arranging items",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make the List",
+          "short_name": "Organize collected data into list",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.01",
+          "title": "Good and Bad Effects",
+          "short_name": "List technology impacts",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T09.G2.01",
+          "title": "Things That Change vs Stay the Same",
+          "short_name": "Sort changing vs static values",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T10.G2.01",
+          "title": "Collections of Similar Things",
+          "short_name": "Group items into collections",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T10.G2.02",
+          "title": "Organizing in a Table",
+          "short_name": "Arrange items in table structure",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Functions": {
+      "K": [],
+      "1": [],
+      "2": [],
+      "3": []
+    },
+    "3D": {
+      "K": [
+        {
+          "id": "T23.GK.01",
+          "title": "Match Senses to Sensors",
+          "short_name": "Human senses vs. computer sensors",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [],
+      "2": [
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Physics": {
+      "K": [
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T02.G1.04",
+          "title": "Follow the Picture Recipe",
+          "short_name": "Trace multi-step picture algorithm (5 steps)",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [],
+      "3": []
+    },
+    "AI": {
+      "K": [
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.02",
+          "title": "Getting Ready: What Parts?",
+          "short_name": "Match task to its 2 main parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T07.GK.01",
+          "title": "Do It Again! Counting Repeats",
+          "short_name": "Count repeated actions",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.GK.03",
+          "title": "Certain, Maybe, or Impossible?",
+          "short_name": "Sort scenarios by certainty",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "1": [
+        {
+          "id": "T03.G1.01",
+          "title": "Cleaning Your Room: Three Big Steps",
+          "short_name": "Break task into 3 parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.03",
+          "title": "Pet Care Plan: Put It in Order",
+          "short_name": "Order multi-step project parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T03.G1.04",
+          "title": "Planning a Birthday Party",
+          "short_name": "Break complex task into 4 parts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G1.02",
+          "title": "These Steps Are Out of Order",
+          "short_name": "Find wrong order in sequence",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T08.G2.01",
+          "title": "If Raining, Then Take Umbrella",
+          "short_name": "Simple if-then scenarios",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T13.G2.03",
+          "title": "Test It: Does It Match?",
+          "short_name": "Test sequence against expected outcome",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T14.G2.02",
+          "title": "Match the Game to Its Goal",
+          "short_name": "Understand game design concepts",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T21.G2.01",
+          "title": "Computers Can Make Pictures",
+          "short_name": "Understand AI generation concept",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T28.G2.03",
+          "title": "Is This Experiment Fair?",
+          "short_name": "Identify fair experiments",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T34.G2.01",
+          "title": "How Life Changed",
+          "short_name": "Compare daily life",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.02",
+          "title": "How Could This Help?",
+          "short_name": "Brainstorm benefits",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T36.G2.04",
+          "title": "Balance: Screen Time Choices",
+          "short_name": "Evaluate screen time balance",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    },
+    "Widgets": {
+      "K": [],
+      "1": [
+        {
+          "id": "T30.G1.02",
+          "title": "Input or Output?",
+          "short_name": "Sort input/output devices",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "2": [
+        {
+          "id": "T06.G2.04",
+          "title": "Button Makes Sprite Move",
+          "short_name": "Match button to sprite action",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T09.G2.02",
+          "title": "Boxes That Store Values",
+          "short_name": "Visual metaphor for variable storage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T12.G2.01",
+          "title": "Group the Steps That Go Together",
+          "short_name": "Organize steps into groups",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Make a Variable Box",
+          "short_name": "Understand variable as storage",
+          "skill_type": "picture_based_digital"
+        },
+        {
+          "id": "T30.G2.02",
+          "title": "Input to Output",
+          "short_name": "Understand processing flow",
+          "skill_type": "picture_based_digital"
+        }
+      ],
+      "3": []
+    }
+  }
+}

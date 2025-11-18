@@ -1,0 +1,46 @@
+{
+  "competition_only_skills": {
+    "T02.G7.03": {
+      "action": "Mark competition-only",
+      "reason": "Pure algorithmic complexity analysis",
+      "dependency_fixes_required": [
+        {
+          "skill_id": "T02.G7.04",
+          "action": "Remove T02.G7.03 from dependencies",
+          "rationale": "T02.G7.04 is being reframed as practical debugging skill, doesn't need step-counting prerequisite"
+        },
+        {
+          "skill_id": "T02.G8.03",
+          "action": "Remove T02.G7.03 from dependencies",
+          "rationale": "Can analyze algorithm representation without counting steps"
+        }
+      ]
+    },
+    "T01.G6.01": {
+      "action": "Mark competition-only",
+      "reason": "Theoretical efficiency analysis",
+      "dependency_fixes_required": [
+        {
+          "skill_id": "T01.G6.02",
+          "action": "Remove T01.G6.01 from dependencies",
+          "rationale": "Can identify bias without efficiency analysis background"
+        },
+        {
+          "skill_id": "T01.G7.01",
+          "action": "Remove T01.G6.01 from dependencies",
+          "rationale": "Can recognize algorithm patterns without efficiency analysis"
+        }
+      ]
+    },
+    "T04.G6.04": {
+      "action": "Mark competition-only",
+      "reason": "Efficiency comparison",
+      "dependency_fixes_required": []
+    }
+  },
+  "dependency_removal_summary": {
+    "total_dependencies_to_remove": 4,
+    "skills_affected": 4,
+    "rationale": "Competition-only skills should not be prerequisites for standard track skills. Dependencies removed without breaking skill functionality."
+  }
+}

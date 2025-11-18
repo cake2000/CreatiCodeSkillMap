@@ -1,0 +1,765 @@
+{
+  "schema_version": "1.0",
+  "description": "Complete schema for CreatiCode K-8 canonical skill objects with all metadata fields",
+  "last_updated": "2025-11-17",
+
+  "example_skill_complete": {
+    "_comment": "This is a fully populated example showing ALL possible fields",
+
+    "id": "T07.G4.02",
+    "title": "Use a loop with a condition to repeat until something happens",
+    "short_name": "Repeat until loop with condition",
+
+    "topic_id": "T07",
+    "topic_name": "Loops & Repetition",
+
+    "domain_id": "D2",
+    "domain_name": "Programming",
+
+    "grade": 4,
+
+    "description": "Students use a 'repeat until' or 'while' loop to continue an action until a specific condition is met. Example: 'Move forward until touching the edge' or 'Repeat asking for input until answer is correct.' This introduces condition-controlled loops beyond simple repeat-count loops.",
+
+    "description_teacher": "Students learn to use condition-controlled loops (repeat until / while loops) to solve problems where the number of iterations is not known in advance. This builds on simple repeat loops and introduces the concept of loop termination conditions.",
+
+    "student_prompt": "Make your sprite move forward until it touches the edge of the stage!",
+
+    "student_prompt_audio": {
+      "tts_text": "Make your sprite move forward until it touches the edge of the stage!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+
+    "skill_type": "coding_task",
+
+    "activity_type": "guided_coding",
+
+    "interaction_details": {
+      "scaffold_level": "medium",
+      "starter_code_provided": true,
+      "visual_theme": "abstract_shapes",
+      "estimated_time_minutes": 15,
+      "success_criteria": [
+        "Uses a repeat until or while loop",
+        "Loop condition checks for edge detection",
+        "Sprite stops when condition is met"
+      ]
+    },
+
+    "auto_grade_rules": {
+      "type": "block_pattern_detection",
+      "required_blocks": [
+        "repeat_until",
+        "touching_edge"
+      ],
+      "partial_credit": {
+        "enabled": true,
+        "criteria": [
+          {
+            "points": 0.5,
+            "condition": "Has repeat block but not repeat until"
+          }
+        ]
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great job! Your sprite stops at the edge!",
+          "audio_tts": "Great job! Your sprite stops at the edge!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try using a 'repeat until' block with a touching edge condition!",
+          "audio_tts": "Try using a repeat until block with a touching edge condition!",
+          "hint_provided": true,
+          "hint_text": "Look for the 'repeat until' block in the Control section, and the 'touching edge?' block in the Sensing section."
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": false,
+        "reset_on_retry": true
+      }
+    },
+
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "medium",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en",
+        "zh"
+      ]
+    },
+
+    "csta_code": "1B-AP-11",
+
+    "ai4k12_categories": [],
+
+    "difficulty_track": "standard",
+
+    "competition_tags": [
+      "ACSL Elementary",
+      "Scratch Olympiad Elementary",
+      "NOC Elementary",
+      "Lanqiao Scratch Junior"
+    ],
+
+    "dependencies": [
+      "T07.G3.01",
+      "T07.G3.02",
+      "T06.G3.01"
+    ],
+
+    "dependency_count": 3,
+
+    "is_gateway": false,
+
+    "is_capstone": false,
+
+    "notes_redesign": "Enhanced from original with condition-checking emphasis"
+  },
+
+  "example_skill_kindergarten": {
+    "_comment": "Example of a Kindergarten picture-based skill",
+
+    "id": "T01.GK.01",
+    "title": "Help the Puppy Get Ready for Bed",
+    "short_name": "Sequence 3 bedtime routine steps",
+
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms & Step‑by‑Step Thinking",
+
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design",
+
+    "grade": "K",
+
+    "description": "Students practice sequencing by arranging 3 pictures of a puppy's bedtime routine in logical order. This builds foundational understanding of algorithms as ordered steps.",
+
+    "description_teacher": "Students practice sequencing by arranging 3 pictures of a puppy's bedtime routine in logical order. This builds foundational understanding of algorithms as ordered steps.",
+
+    "student_prompt": "Put the pictures in order to help the puppy get ready for bed!",
+
+    "student_prompt_audio": {
+      "tts_text": "Put the pictures in order to help the puppy get ready for bed!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+
+    "skill_type": "picture_based_digital",
+
+    "activity_type": "drag_drop_sequence",
+
+    "interaction_details": {
+      "item_count": 3,
+      "items": [
+        "Brush teeth",
+        "Put on pajamas",
+        "Get in bed"
+      ],
+      "interaction_mode": "drag_to_slots",
+      "visual_theme": "animals_pets",
+      "estimated_time_minutes": 2,
+      "randomization": {
+        "enabled": true,
+        "randomize_positions": true
+      }
+    },
+
+    "auto_grade_rules": {
+      "type": "sequence_order",
+      "correct_answer": [
+        "pajamas",
+        "brush",
+        "bed"
+      ],
+      "partial_credit": {
+        "enabled": false
+      },
+      "feedback": {
+        "correct": {
+          "message": "Great job! The puppy is ready for bed!",
+          "audio_tts": "Great job! The puppy is ready for bed!",
+          "visual_effect": "stars"
+        },
+        "incorrect": {
+          "message": "Try again! What does the puppy do first?",
+          "audio_tts": "Try again! Think about what the puppy does first.",
+          "hint_provided": true,
+          "hint_text": "We put on pajamas before brushing teeth!"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_correct_answer": true,
+        "reset_on_retry": true
+      }
+    },
+
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "extra_large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+
+    "csta_code": "1A-AP-08",
+
+    "ai4k12_categories": [],
+
+    "difficulty_track": "standard",
+
+    "competition_tags": [],
+
+    "dependencies": [],
+
+    "dependency_count": 0,
+
+    "is_gateway": false,
+
+    "is_capstone": false,
+
+    "notes_redesign": "NEW K skill - picture-based sequencing activity"
+  },
+
+  "example_skill_ai_topic": {
+    "_comment": "Example of an AI-focused skill with AI4K12 categories",
+
+    "id": "T21.G7.02",
+    "title": "Examine bias in AI-generated images and discuss causes",
+    "short_name": "Analyze AI image bias",
+
+    "topic_id": "T21",
+    "topic_name": "AI Media Tools & Creative Assets",
+
+    "domain_id": "D2",
+    "domain_name": "Programming",
+
+    "grade": 7,
+
+    "description": "Students examine AI-generated images for bias (e.g., all scientists being male, lack of diversity in 'professional' images) and discuss how training data causes these biases. They learn that AI models reflect the data they were trained on.",
+
+    "description_teacher": "Students examine AI-generated images for bias (e.g., all scientists being male, lack of diversity in 'professional' images) and discuss how training data causes these biases. Focus on concrete examples and avoid technical ML details.",
+
+    "student_prompt": "Generate images of 'a scientist' or 'a CEO' and examine whether the AI shows bias. Why might this happen?",
+
+    "student_prompt_audio": {
+      "tts_text": "Generate images of a scientist or a C E O and examine whether the AI shows bias. Why might this happen?",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "teen_friendly"
+      }
+    },
+
+    "skill_type": "coding_task",
+
+    "activity_type": "ai_exploration",
+
+    "interaction_details": {
+      "scaffold_level": "low",
+      "starter_code_provided": false,
+      "visual_theme": "ai_ethics",
+      "estimated_time_minutes": 25,
+      "success_criteria": [
+        "Generates multiple AI images with same prompt",
+        "Identifies at least 2 examples of bias",
+        "Explains connection between training data and bias"
+      ]
+    },
+
+    "auto_grade_rules": {
+      "type": "reflection_rubric",
+      "rubric_criteria": [
+        "Generated AI images",
+        "Identified bias examples",
+        "Explained training data connection"
+      ],
+      "feedback": {
+        "correct": {
+          "message": "Excellent analysis of AI bias!",
+          "visual_effect": "badge_unlock"
+        },
+        "incomplete": {
+          "message": "Try generating more examples and thinking about where the AI learned from.",
+          "hint_provided": true,
+          "hint_text": "Think about what images were used to train the AI. If most 'scientist' images in the training data were male, what would the AI learn?"
+        }
+      }
+    },
+
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "medium",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en",
+        "zh"
+      ]
+    },
+
+    "csta_code": "2-IC-20",
+
+    "ai4k12_categories": [
+      "3_machine_learning:data",
+      "4_ethical_ai:ethical_evaluation",
+      "5_societal_impacts:individual_impacts"
+    ],
+
+    "difficulty_track": "standard",
+
+    "competition_tags": [],
+
+    "dependencies": [
+      "T21.G6.02",
+      "T21.G7.01"
+    ],
+
+    "dependency_count": 2,
+
+    "is_gateway": false,
+
+    "is_capstone": false,
+
+    "notes_redesign": "Critical digital citizenship skill for AI era"
+  },
+
+  "example_skill_competition_track": {
+    "_comment": "Example of a competition-level skill",
+
+    "id": "T10.G8.02",
+    "title": "Implement a sorting algorithm (bubble sort or selection sort)",
+    "short_name": "Code a sorting algorithm",
+
+    "topic_id": "T10",
+    "topic_name": "Lists, Tables & Structured Data in Programs",
+
+    "domain_id": "D2",
+    "domain_name": "Programming",
+
+    "grade": 8,
+
+    "description": "Students implement a sorting algorithm (bubble sort or selection sort) from scratch to understand how algorithms manipulate data structures. This requires understanding nested loops, swap logic, and algorithm correctness.",
+
+    "description_teacher": "Advanced algorithmic thinking appropriate for competition preparation. Students implement a sorting algorithm to understand algorithm design and analysis. This is AP CS A level content.",
+
+    "student_prompt": "Implement bubble sort to arrange a list of numbers from smallest to largest.",
+
+    "student_prompt_audio": null,
+
+    "skill_type": "coding_task",
+
+    "activity_type": "algorithm_implementation",
+
+    "interaction_details": {
+      "scaffold_level": "minimal",
+      "starter_code_provided": false,
+      "visual_theme": "algorithm_challenge",
+      "estimated_time_minutes": 45,
+      "success_criteria": [
+        "Correctly sorts list in ascending order",
+        "Uses nested loops",
+        "Implements swap logic correctly"
+      ]
+    },
+
+    "auto_grade_rules": {
+      "type": "test_cases",
+      "test_cases": [
+        {
+          "input": [5, 2, 8, 1, 9],
+          "expected_output": [1, 2, 5, 8, 9]
+        },
+        {
+          "input": [3, 3, 3],
+          "expected_output": [3, 3, 3]
+        },
+        {
+          "input": [10, 5],
+          "expected_output": [5, 10]
+        }
+      ],
+      "feedback": {
+        "correct": {
+          "message": "Excellent! Your sorting algorithm works correctly!",
+          "visual_effect": "competition_badge"
+        },
+        "incorrect": {
+          "message": "Your algorithm doesn't sort correctly yet. Check your swap logic and loop conditions.",
+          "hint_provided": true,
+          "hint_text": "Remember: bubble sort compares adjacent elements and swaps them if they're in the wrong order. You'll need two loops: one for passes and one for comparisons."
+        }
+      }
+    },
+
+    "accessibility": {
+      "audio_support": false,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": false,
+      "touch_target_size": "medium",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": [
+        "en"
+      ]
+    },
+
+    "csta_code": "3A-AP-13",
+
+    "ai4k12_categories": [],
+
+    "difficulty_track": "competition",
+
+    "competition_tags": [
+      "ACSL Junior",
+      "Lanqiao Scratch Senior",
+      "NOC Junior"
+    ],
+
+    "dependencies": [
+      "T10.G7.01",
+      "T07.G7.02",
+      "T09.G7.01"
+    ],
+
+    "dependency_count": 3,
+
+    "is_gateway": false,
+
+    "is_capstone": true,
+
+    "notes_redesign": "Competition track - AP CS A level content"
+  },
+
+  "field_definitions": {
+    "core_identification": {
+      "id": {
+        "type": "string",
+        "required": true,
+        "format": "T{topic_number}.G{grade}.{skill_number}",
+        "examples": ["T07.G4.02", "T01.GK.01", "T21.G8.03"],
+        "description": "Unique skill identifier following topic-grade-number convention"
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "description": "Full descriptive title of the skill"
+      },
+      "short_name": {
+        "type": "string",
+        "required": true,
+        "description": "Concise name for UI display (ideally under 60 characters)"
+      }
+    },
+
+    "taxonomy_classification": {
+      "topic_id": {
+        "type": "string",
+        "required": true,
+        "format": "T{01-36}",
+        "description": "Topic identifier (T01-T36)"
+      },
+      "topic_name": {
+        "type": "string",
+        "required": true,
+        "source": "domains_topics.yaml",
+        "description": "Full topic name"
+      },
+      "domain_id": {
+        "type": "string",
+        "required": true,
+        "format": "D{1-5}",
+        "values": ["D1", "D2", "D3", "D4", "D5"],
+        "description": "CSTA domain identifier"
+      },
+      "domain_name": {
+        "type": "string",
+        "required": true,
+        "source": "domain_mapping.json",
+        "values": [
+          "Algorithms and Design",
+          "Programming",
+          "Data and Analysis",
+          "Systems and Security",
+          "Computing and Society"
+        ],
+        "description": "CSTA domain name"
+      },
+      "grade": {
+        "type": "string | integer",
+        "required": true,
+        "values": ["K", 1, 2, 3, 4, 5, 6, 7, 8],
+        "description": "Grade level (K or 1-8). Note: K should be string 'K', grades 1-2 may be string or integer, grades 3-8 are integers"
+      }
+    },
+
+    "content_description": {
+      "description": {
+        "type": "string",
+        "required": true,
+        "description": "Detailed description of what students will do and learn in this skill"
+      },
+      "description_teacher": {
+        "type": "string",
+        "required": false,
+        "description": "Teacher-facing description with pedagogical notes (present in K-2 skills primarily)"
+      }
+    },
+
+    "student_facing_content": {
+      "student_prompt": {
+        "type": "string",
+        "required": false,
+        "description": "The prompt or instruction shown to students (K-2 and some activity-based skills)"
+      },
+      "student_prompt_audio": {
+        "type": "object",
+        "required": false,
+        "structure": {
+          "tts_text": "string - Text for text-to-speech",
+          "voice_settings": {
+            "speed": "string - normal | slow | fast",
+            "voice_type": "string - child_friendly | teen_friendly"
+          }
+        },
+        "description": "Audio prompt configuration for accessibility"
+      }
+    },
+
+    "activity_design": {
+      "skill_type": {
+        "type": "string",
+        "required": false,
+        "values": [
+          "picture_based_digital",
+          "coding_task",
+          "unplugged",
+          "mixed"
+        ],
+        "description": "Type of skill activity (K-2 primarily)"
+      },
+      "activity_type": {
+        "type": "string",
+        "required": false,
+        "values": [
+          "drag_drop_sequence",
+          "match_pairs",
+          "guided_coding",
+          "free_coding",
+          "ai_exploration",
+          "algorithm_implementation",
+          "discussion",
+          "project"
+        ],
+        "description": "Specific activity format"
+      },
+      "interaction_details": {
+        "type": "object",
+        "required": false,
+        "description": "Detailed interaction specifications (varies by activity_type)",
+        "common_fields": {
+          "scaffold_level": "string - none | minimal | low | medium | high",
+          "starter_code_provided": "boolean",
+          "visual_theme": "string",
+          "estimated_time_minutes": "integer",
+          "success_criteria": "array of strings"
+        }
+      }
+    },
+
+    "assessment": {
+      "auto_grade_rules": {
+        "type": "object",
+        "required": false,
+        "description": "Autograding configuration (K-2 and structured activities)",
+        "common_fields": {
+          "type": "string - sequence_order | pair_match | block_pattern_detection | test_cases | reflection_rubric",
+          "feedback": "object with correct/incorrect messages",
+          "retry_logic": "object with attempt limits and behavior"
+        }
+      },
+      "accessibility": {
+        "type": "object",
+        "required": false,
+        "structure": {
+          "audio_support": "boolean",
+          "keyboard_navigable": "boolean",
+          "screen_reader_compatible": "boolean",
+          "touch_target_size": "string - extra_large | large | medium | small",
+          "color_blind_safe": "boolean",
+          "high_contrast_mode": "boolean",
+          "language_support": "array of language codes"
+        },
+        "description": "Accessibility features configuration"
+      }
+    },
+
+    "standards_alignment": {
+      "csta_code": {
+        "type": "string",
+        "required": true,
+        "default": "",
+        "format": "{level}-{domain}-{number}",
+        "examples": ["1A-AP-08", "1B-AP-11", "2-IC-20", "3A-AP-13"],
+        "source": "cstastandard.md + existing mappings",
+        "description": "CSTA standard code. Empty string if not yet mapped."
+      },
+      "ai4k12_categories": {
+        "type": "array of strings",
+        "required": true,
+        "default": [],
+        "format": "{category_number}_{category_name}:{subcategory}",
+        "examples": [
+          "3_machine_learning:data",
+          "4_ethical_ai:ethical_evaluation",
+          "5_societal_impacts:individual_impacts"
+        ],
+        "source": "AI4K12_MAPPING.json",
+        "applicable_topics": ["T21", "T22", "T23", "T24", "T35", "T36"],
+        "description": "AI4K12 framework categories (only for AI-related skills)"
+      }
+    },
+
+    "difficulty_and_competition": {
+      "difficulty_track": {
+        "type": "string",
+        "required": true,
+        "values": ["standard", "enrichment", "competition"],
+        "default": "standard",
+        "source": "SKILL_TRACK_CATEGORIZATION.json (G7-G8), default for K-6",
+        "description": "Difficulty track designation"
+      },
+      "competition_tags": {
+        "type": "array of strings",
+        "required": true,
+        "default": [],
+        "values": [
+          "ACSL Elementary",
+          "ACSL Junior",
+          "Scratch Olympiad Elementary",
+          "Scratch Olympiad Junior",
+          "NOC Elementary",
+          "NOC Junior",
+          "Lanqiao Scratch Junior",
+          "Lanqiao Scratch Senior",
+          "Games for Change",
+          "Congressional App Challenge",
+          "ICode Global Hackathon",
+          "Codeavour"
+        ],
+        "source": "competition_paths.md",
+        "description": "Relevant competitions for this skill"
+      }
+    },
+
+    "dependencies_and_structure": {
+      "dependencies": {
+        "type": "array of strings",
+        "required": true,
+        "default": [],
+        "format": "Array of skill IDs (e.g., ['T07.G3.01', 'T06.G3.01'])",
+        "description": "Skills that should be completed before this one"
+      },
+      "dependency_count": {
+        "type": "integer",
+        "required": true,
+        "default": 0,
+        "calculation": "length of dependencies array",
+        "description": "Number of prerequisite skills"
+      },
+      "is_gateway": {
+        "type": "boolean",
+        "required": true,
+        "default": false,
+        "calculation": "true if dependency_count >= 5 within same topic",
+        "description": "Whether this skill unlocks multiple later skills"
+      },
+      "is_capstone": {
+        "type": "boolean",
+        "required": true,
+        "default": false,
+        "calculation": "true if 5+ other skills list this in their dependencies",
+        "description": "Whether this skill synthesizes multiple prerequisites"
+      }
+    },
+
+    "metadata": {
+      "notes_redesign": {
+        "type": "string",
+        "required": false,
+        "description": "Development notes about skill design or revisions"
+      }
+    }
+  },
+
+  "data_type_standards": {
+    "grade_normalization": {
+      "rule": "All grades should be strings for K-2, integers for 3-8",
+      "kindergarten": "String 'K'",
+      "grade_1_2": "Integers 1, 2",
+      "grade_3_8": "Integers 3-8"
+    },
+    "empty_vs_null": {
+      "strings": "Use empty string '' for unpopulated string fields",
+      "arrays": "Use empty array [] for unpopulated array fields",
+      "objects": "Use null or omit field for unpopulated objects",
+      "note": "Never use 'Unknown' as a placeholder value"
+    },
+    "required_fields_always_present": [
+      "id",
+      "title",
+      "short_name",
+      "topic_id",
+      "topic_name",
+      "domain_id",
+      "domain_name",
+      "grade",
+      "description",
+      "csta_code",
+      "ai4k12_categories",
+      "difficulty_track",
+      "competition_tags",
+      "dependencies",
+      "dependency_count",
+      "is_gateway",
+      "is_capstone"
+    ],
+    "optional_fields": [
+      "description_teacher",
+      "student_prompt",
+      "student_prompt_audio",
+      "skill_type",
+      "activity_type",
+      "interaction_details",
+      "auto_grade_rules",
+      "accessibility",
+      "notes_redesign"
+    ]
+  },
+
+  "validation_rules": {
+    "id_format": "Must match pattern T\\d{2}\\.G[K1-8]\\.\\d{2}",
+    "topic_id_valid": "Must be one of T01-T36",
+    "domain_id_valid": "Must be one of D1-D5",
+    "grade_valid": "Must be K or 1-8",
+    "dependencies_valid": "All skill IDs in dependencies array must exist in canonical file",
+    "dependency_count_matches": "dependency_count must equal length of dependencies array",
+    "difficulty_track_valid": "Must be 'standard', 'enrichment', or 'competition'",
+    "csta_code_format": "Must match pattern \\d[AB]?-[A-Z]{2}-\\d{2} or be empty string",
+    "ai4k12_format": "Must match pattern \\d_[a-z_]+:[a-z_]+ or be empty array"
+  }
+}

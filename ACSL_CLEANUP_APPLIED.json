@@ -1,0 +1,209 @@
+[
+  {
+    "modification_type": "MARK_COMPETITION_ONLY",
+    "skills_modified": 3,
+    "skills": [
+      {
+        "id": "T02.G7.03",
+        "before": {
+          "title": "Count and compare steps needed for different algorithms",
+          "description": "Students analyze two algorithms that solve the same problem and count or estimate the number of steps each requires for different input sizes (e.g., 'For 10 items, this takes 10 steps, but for 100 items it takes 100 steps'). They reason about which is more efficient without formal complexity notation.",
+          "difficulty_track": "standard",
+          "competition_tags": [],
+          "optional": false
+        },
+        "after": {
+          "title": "Count and compare steps needed for different algorithms",
+          "description": "Students analyze two algorithms that solve the same problem and count or estimate the number of steps each requires for different input sizes (e.g., 'For 10 items, this takes 10 steps, but for 100 items it takes 100 steps'). They reason about which is more efficient without formal complexity notation.",
+          "difficulty_track": "competition",
+          "competition_tags": ["ACSL Junior"],
+          "optional": true,
+          "theoretical_cs": true
+        },
+        "rationale": "Pure algorithmic complexity analysis - ACSL competition content. Not needed for creative project development. Students in standard track don't need to count algorithm steps.",
+        "changes_applied": [
+          "difficulty_track: standard → competition",
+          "competition_tags: [] → ['ACSL Junior']",
+          "Added: optional: true",
+          "Added: theoretical_cs: true"
+        ]
+      },
+      {
+        "id": "T01.G6.01",
+        "before": {
+          "title": "Analyze an algorithm's efficiency in different scenarios",
+          "description": "Students examine an algorithm's performance (number of steps) under different input sizes or conditions. Example: A linear search algorithm is faster on a small list than a binary search is on a small list, but they scale differently. Students compare counts of operations or run time.",
+          "difficulty_track": "standard",
+          "competition_tags": [],
+          "optional": false
+        },
+        "after": {
+          "title": "Analyze an algorithm's efficiency in different scenarios",
+          "description": "Students examine an algorithm's performance (number of steps) under different input sizes or conditions. Example: A linear search algorithm is faster on a small list than a binary search is on a small list, but they scale differently. Students compare counts of operations or run time.",
+          "difficulty_track": "competition",
+          "competition_tags": ["ACSL Junior"],
+          "optional": true,
+          "theoretical_cs": true
+        },
+        "rationale": "Theoretical efficiency analysis typical of ACSL competitions. Grade 6 students building creative projects don't need to analyze algorithmic complexity - they need to know if their code works, not how many steps it takes.",
+        "changes_applied": [
+          "difficulty_track: standard → competition",
+          "competition_tags: [] → ['ACSL Junior']",
+          "Added: optional: true",
+          "Added: theoretical_cs: true"
+        ]
+      },
+      {
+        "id": "T04.G6.04",
+        "before": {
+          "title": "Compare efficiency of different pattern solutions",
+          "description": "Students compare two solutions using different pattern techniques (e.g., nested loops vs list iteration, or custom blocks vs inline code) and reason about which is more efficient, readable, or maintainable for a given context.",
+          "difficulty_track": "standard",
+          "competition_tags": [],
+          "optional": false
+        },
+        "after": {
+          "title": "Compare efficiency of different pattern solutions",
+          "description": "Students compare two solutions using different pattern techniques (e.g., nested loops vs list iteration, or custom blocks vs inline code) and reason about which is more efficient, readable, or maintainable for a given context.",
+          "difficulty_track": "competition",
+          "competition_tags": ["ACSL Junior"],
+          "optional": true,
+          "theoretical_cs": true
+        },
+        "rationale": "Similar to other efficiency comparison skills - focuses on theoretical analysis rather than practical tool usage. Competition students interested in algorithmic thinking can take this; creative project students can skip.",
+        "changes_applied": [
+          "difficulty_track: standard → competition",
+          "competition_tags: [] → ['ACSL Junior']",
+          "Added: optional: true",
+          "Added: theoretical_cs: true"
+        ]
+      }
+    ]
+  },
+  {
+    "modification_type": "REFRAME_LANGUAGE",
+    "skills_modified": 6,
+    "skills": [
+      {
+        "id": "T02.G4.03",
+        "before": {
+          "title": "Convert a story or real-world process into pseudocode",
+          "description": "Given a natural-language description of a process (e.g., \"make a peanut butter sandwich\") or a picture algorithm, students write simple pseudocode (everyday language steps, not Python, but more formal than pictures) such as:"
+        },
+        "after": {
+          "title": "Plan step-by-step before coding",
+          "description": "Given a real-world process (e.g., \"make a peanut butter sandwich\") or a task description, students write out the steps in simple, clear language before turning it into code. This planning helps students think through the logic before they start coding. Example: '1. Get two slices of bread. 2. Spread peanut butter on one slice. 3. Put slices together.' This skill teaches that clear planning makes coding easier and helps catch mistakes before they happen."
+        },
+        "rationale": "Remove 'pseudocode' jargon which sounds too formal for Grade 4. Emphasize practical planning skill - writing steps before coding. Same learning goal, more accessible language.",
+        "changes_applied": [
+          "Title: 'Convert to pseudocode' → 'Plan step-by-step before coding'",
+          "Description: Removed 'pseudocode' terminology, emphasized practical planning",
+          "Added: terminology_simplified: 'pseudocode → step-by-step planning'"
+        ],
+        "terminology_simplified": "pseudocode → step-by-step planning"
+      },
+      {
+        "id": "T02.G5.03",
+        "before": {
+          "title": "Write pseudocode for a multi-step algorithm",
+          "description": "Students write structured pseudocode (not code, but formal step-by-step language) for an algorithm that includes sequence, loops, and conditionals. Example:"
+        },
+        "after": {
+          "title": "Plan your code with steps",
+          "description": "Before coding a complex feature (like a game level or animation sequence), students write out the steps in plain English with structure that shows loops and decisions. Example: 'For each enemy: Check if player is nearby. If yes, move toward player. If no, keep patrolling.' This teaches students to plan complex logic before coding, making it easier to translate their thinking into actual code blocks."
+        },
+        "rationale": "Remove formal 'pseudocode' language. Frame as practical project planning tool. Same skill (structured planning) but emphasizes usefulness for game/app development.",
+        "changes_applied": [
+          "Title: 'Write pseudocode' → 'Plan your code with steps'",
+          "Description: Practical game/app examples, removed formal language",
+          "Added: terminology_simplified: 'pseudocode → planning steps'"
+        ],
+        "terminology_simplified": "pseudocode → planning steps"
+      },
+      {
+        "id": "T02.G6.03",
+        "before": {
+          "title": "Write pseudocode with nested structures",
+          "description": "Students write pseudocode for algorithms with nested loops or loops containing complex conditionals (e.g., a loop that counts items matching a criteria, or nested loops for a grid). Example:"
+        },
+        "after": {
+          "title": "Plan complex code with multiple steps",
+          "description": "For complex game or app logic with nested patterns, students plan out the structure before coding. Example: 'For each row in the grid: For each column in that row: Check if there's a match. If match found: Add to score and remove item.' Planning nested logic on paper first helps students visualize the structure before building it in code blocks. This is especially useful for grid-based games, nested menus, or complex animations."
+        },
+        "rationale": "Remove 'pseudocode' formality. Frame as planning tool for complex game/app features. Emphasize practical use cases (grids, menus, animations).",
+        "changes_applied": [
+          "Title: 'Pseudocode with nested structures' → 'Plan complex code with multiple steps'",
+          "Description: Game-focused examples, practical framing",
+          "Added: terminology_simplified: 'nested pseudocode → planning complex logic'"
+        ],
+        "terminology_simplified": "nested pseudocode → planning complex logic"
+      },
+      {
+        "id": "T01.G7.02",
+        "before": {
+          "title": "Understand why different algorithms are chosen for different problems",
+          "description": "Given a problem, students consider multiple possible algorithms and justify which is most appropriate based on efficiency, clarity, or fit. Example: Why use a specific sorting algorithm over repeated swaps? Why use binary search instead of linear? This develops algorithmic decision-making."
+        },
+        "after": {
+          "title": "Choose the right approach for your problem",
+          "description": "When solving a coding problem, students learn to consider multiple approaches and choose the best one for their situation. Example: Should I use a loop or make a custom block? Should I store this in a variable or a list? Should I use broadcast messages or direct sprite interactions? Students justify their choice based on what makes the code clearer, easier to maintain, or better suited to their specific project. This develops practical decision-making about code structure."
+        },
+        "rationale": "Replace 'algorithm' jargon with 'approach'. Focus on practical coding decisions students actually face (loops vs blocks, variables vs lists) rather than theoretical algorithm comparison.",
+        "changes_applied": [
+          "Title: 'Why algorithms chosen' → 'Choose the right approach for your problem'",
+          "Description: Practical coding decisions, removed algorithm theory",
+          "Added: terminology_simplified: 'algorithms → coding approaches'"
+        ],
+        "terminology_simplified": "algorithms → coding approaches"
+      },
+      {
+        "id": "T01.G7.04",
+        "before": {
+          "title": "Analyze an algorithm for correctness on edge cases",
+          "description": "Students test an algorithm (given in code or pseudocode) on edge cases (empty input, single item, maximum/minimum values, repeats) and identify if it fails and why. This develops rigorous thinking about algorithm robustness."
+        },
+        "after": {
+          "title": "Test your code with unusual inputs",
+          "description": "Students learn to test their code with edge cases - unusual situations that might break their program. Examples: What happens if the player has 0 lives? 1000 enemies? An empty username? Maximum score? Students run their code with these extreme cases to find bugs before users do. This teaches thorough testing: if your code works with weird inputs, it'll definitely work with normal ones. This is how professional developers ensure their apps don't crash."
+        },
+        "rationale": "Replace 'analyze algorithm correctness' with 'test your code'. Same skill (edge case testing) but framed as practical debugging rather than theoretical analysis.",
+        "changes_applied": [
+          "Title: 'Analyze correctness' → 'Test your code with unusual inputs'",
+          "Description: Debugging focus, practical examples",
+          "Added: terminology_simplified: 'algorithm analysis → code testing'"
+        ],
+        "terminology_simplified": "algorithm analysis → code testing"
+      },
+      {
+        "id": "T02.G7.04",
+        "before": {
+          "title": "Trace an algorithm and identify a bug or edge case",
+          "description": "Students trace an algorithm (in pseudocode or code) with specific inputs, identify a case where it produces an incorrect result, and explain why (e.g., \"When the list is empty, it crashes\" or \"When the target is at the end, it takes too long\")."
+        },
+        "after": {
+          "title": "Debug by following your code step-by-step",
+          "description": "When code doesn't work as expected, students learn to trace through it step-by-step to find the bug. They follow the logic: 'First this variable is set to 5. Then the loop runs 3 times. On the third time, wait - that's wrong!' This step-by-step debugging helps students find exactly where their logic breaks. It's like being a detective following clues to find where the problem happened. This is a fundamental debugging skill used by all programmers."
+        },
+        "rationale": "Replace 'trace an algorithm' (ACSL terminology) with 'debug by following step-by-step'. Same technique but framed as practical debugging skill.",
+        "changes_applied": [
+          "Title: 'Trace algorithm' → 'Debug by following your code step-by-step'",
+          "Description: Debugging context, removed algorithm jargon",
+          "Added: terminology_simplified: 'algorithm tracing → step-by-step debugging'"
+        ],
+        "terminology_simplified": "algorithm tracing → step-by-step debugging"
+      }
+    ]
+  },
+  {
+    "modification_type": "SUMMARY",
+    "total_skills_modified": 9,
+    "competition_only_skills": 3,
+    "reframed_skills": 6,
+    "impact_analysis": {
+      "skills_removed_from_standard_track": 3,
+      "skills_made_more_accessible": 6,
+      "total_student_impact": "Students in standard track no longer required to do theoretical complexity analysis (3 skills). Students benefit from clearer, more practical language in 6 planning/debugging skills.",
+      "competition_track_students": "Students interested in ACSL competitions can still access all 3 theoretical skills, now properly marked and organized."
+    }
+  }
+]

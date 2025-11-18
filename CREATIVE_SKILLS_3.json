@@ -1,0 +1,428 @@
+[
+  {
+    "id": "T20.G7.05",
+    "title": "Design a Visual Theme for Your Project",
+    "short_name": "Create a cohesive visual theme with colors and typography",
+    "topic_id": "T20",
+    "topic_name": "Algorithmic Art & Creative Coding",
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design",
+    "grade": 7,
+    "skill_type": "coding_task",
+    "activity_type": "design",
+    "description": "Students design a complete visual theme for their project by choosing a 3-5 color palette based on the emotion or mood they want to convey (energetic, calm, mysterious, playful). They learn basic color theory (complementary colors, analogous colors, warm vs. cool) and select typography that matches their theme (playful fonts for a kids' game, serious fonts for an educational app, modern vs. retro). Students create a style guide document showing their colors (with hex codes), fonts, and visual elements, then apply this consistent visual theme across all sprites, backgrounds, and UI elements in their project.",
+    "description_teacher": "This skill teaches fundamental design principles through hands-on application. Students make intentional aesthetic choices rather than random styling. They learn that design decisions should be driven by purpose (what emotion do I want to create?) and consistency (use the same palette throughout). This bridges art and programming, showing that coding projects are also creative design work. Encourage students to look at professional apps/games for inspiration and to articulate why they chose specific colors and fonts.",
+    "student_prompt": "Create a visual theme for your project! Choose 3-5 colors that match the mood you want (happy, scary, calm, exciting), pick fonts that fit your style, and make a style guide showing your design choices. Then apply your theme consistently across your whole project!",
+    "student_prompt_audio": {
+      "tts_text": "Create a visual theme for your project! Choose 3 to 5 colors that match the mood you want, pick fonts that fit your style, and make a style guide. Then apply your theme across your whole project!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "teen_friendly"
+      }
+    },
+    "interaction_details": {
+      "scaffold_level": "medium",
+      "starter_code_provided": false,
+      "visual_theme": "design_studio",
+      "estimated_time_minutes": 45,
+      "success_criteria": [
+        "Chose 3-5 colors with intentional mood/emotion",
+        "Selected typography that matches theme personality",
+        "Created style guide document with colors and fonts",
+        "Applied theme consistently across multiple sprites/backgrounds",
+        "Can explain why they chose specific colors and fonts"
+      ],
+      "resources_provided": [
+        "Color theory basics guide (complementary, analogous, warm/cool)",
+        "Color palette inspiration examples",
+        "Typography personality guide (playful, serious, modern, retro)",
+        "Accessibility checklist (color contrast, readability)"
+      ]
+    },
+    "auto_grade_rules": {
+      "type": "design_rubric",
+      "rubric_criteria": [
+        {
+          "criterion": "Color Palette Selection",
+          "points": 25,
+          "check": "Project uses 3-5 distinct colors consistently",
+          "automated_check": "color_palette_analysis"
+        },
+        {
+          "criterion": "Color Consistency",
+          "points": 20,
+          "check": "Selected colors appear on multiple sprites/backgrounds",
+          "automated_check": "color_distribution_check"
+        },
+        {
+          "criterion": "Typography Choices",
+          "points": 20,
+          "check": "Text elements use intentional font choices (not default everywhere)",
+          "automated_check": "font_variety_detection"
+        },
+        {
+          "criterion": "Style Guide Documentation",
+          "points": 20,
+          "check": "Created style guide showing colors with hex codes and font names",
+          "automated_check": "style_guide_submission"
+        },
+        {
+          "criterion": "Design Rationale",
+          "points": 15,
+          "check": "Can explain why colors/fonts were chosen (written reflection)",
+          "automated_check": "reflection_submission"
+        }
+      ],
+      "feedback": {
+        "excellent": {
+          "message": "Beautiful visual theme! Your color and typography choices create a cohesive, intentional design that matches your project's mood perfectly!",
+          "visual_effect": "design_badge"
+        },
+        "good": {
+          "message": "Nice visual theme! Your project has consistent colors and fonts. Consider adding more variety in your typography or refining your color palette for even stronger visual impact.",
+          "hint_provided": true,
+          "hint_text": "Try using your accent color sparingly for important elements to make them pop! Also consider using different font weights (bold, regular) for visual hierarchy."
+        },
+        "needs_improvement": {
+          "message": "Your project needs more visual consistency. Make sure you're using the same color palette throughout and that your fonts match your theme's personality.",
+          "hint_provided": true,
+          "hint_text": "Pick 3 main colors and stick to them! Use one font for headings and one for body text. Look at apps you like - notice how they repeat the same colors and fonts?"
+        }
+      },
+      "partial_credit": {
+        "enabled": true,
+        "criteria": [
+          {
+            "points": 0.6,
+            "condition": "Has color palette but not applied consistently"
+          },
+          {
+            "points": 0.4,
+            "condition": "Has some intentional styling but no formal style guide"
+          }
+        ]
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "medium",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": ["en", "zh"]
+    },
+    "dependencies": [
+      "T16.G6.05",
+      "T20.G6.01"
+    ],
+    "csta_code": "2-DA-09",
+    "ai4k12_categories": [],
+    "difficulty_track": "standard",
+    "competition_tags": [
+      "Games for Change",
+      "Congressional App Challenge"
+    ],
+    "project_development": true,
+    "estimated_minutes": 45,
+    "dependency_count": 2,
+    "is_gateway": false,
+    "is_capstone": false,
+    "age_appropriateness_review": "2025-11-17",
+    "reviewed_by": "Week 2 Creative Skills Enhancement",
+    "quality_level": "IXL_for_coding",
+    "notes_redesign": "NEW creative skill - Addresses missing explicit aesthetic design instruction. Teaches color theory, typography, and visual consistency. Priority: HIGH"
+  },
+  {
+    "id": "T16.G7.06",
+    "title": "Add Delightful Details to Your Interface",
+    "short_name": "Create microinteractions and delightful UI surprises",
+    "topic_id": "T16",
+    "topic_name": "User Interfaces & Widgets",
+    "domain_id": "D2",
+    "domain_name": "Programming",
+    "grade": 7,
+    "skill_type": "coding_task",
+    "activity_type": "guided_coding",
+    "description": "Students add microinteractions and delightful details that make their interface feel alive and joyful, not just functional. They implement at least two animated interactions (buttons that bounce when clicked, smooth hover effects, satisfying transitions between screens). Students create at least one 'easter egg' or surprise element (a hidden animation, a fun message when clicking a specific sequence, a playful loading screen). They replace generic UI text with playful microcopy that adds personality (instead of 'Click here' → 'Let's go!', instead of 'Error' → 'Oops, that didn't work!'). The focus is on making apps feel delightful to use, teaching that great design includes small, thoughtful details.",
+    "description_teacher": "This skill teaches the concept of 'user delight' - that interfaces should be enjoyable, not just usable. Students learn that small animations and personality make users smile and want to keep using an app. This is about polish and attention to detail, teaching students to care about the full user experience. Encourage students to think about apps they love using - what makes them fun? Often it's the little details: smooth animations, fun sounds, playful language, hidden surprises. This skill also teaches that coding can be playful and expressive, not just functional.",
+    "student_prompt": "Make your app delightful! Add animations that make buttons feel alive when you click them. Hide a surprise easter egg somewhere. Write fun, personality-filled text instead of boring instructions. Make your app something people smile while using!",
+    "student_prompt_audio": {
+      "tts_text": "Make your app delightful! Add animations that make buttons feel alive when you click them. Hide a surprise easter egg somewhere. Write fun text instead of boring instructions. Make your app something people smile while using!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "teen_friendly"
+      }
+    },
+    "interaction_details": {
+      "scaffold_level": "low",
+      "starter_code_provided": false,
+      "visual_theme": "playful_design",
+      "estimated_time_minutes": 40,
+      "success_criteria": [
+        "At least 2 microinteractions implemented (button animations, transitions, hover effects)",
+        "At least 1 easter egg or surprise element",
+        "Replaced generic text with playful, personality-filled microcopy",
+        "Interface feels more alive and joyful than before",
+        "Animations are smooth and enhance usability (not distracting)"
+      ],
+      "examples_provided": [
+        "Button bounce on click (scale animation)",
+        "Smooth fade transitions between screens",
+        "Particles that appear when achieving something",
+        "Hidden animation when clicking logo 3 times",
+        "Loading screen with encouraging messages",
+        "Success message with confetti animation",
+        "Playful error messages that make failures less frustrating"
+      ]
+    },
+    "auto_grade_rules": {
+      "type": "interaction_pattern_detection",
+      "required_elements": {
+        "microinteractions": {
+          "minimum": 2,
+          "detection_method": "animation_block_analysis",
+          "types_accepted": [
+            "button_click_animation",
+            "hover_effect",
+            "screen_transition",
+            "element_appear_animation"
+          ]
+        },
+        "easter_egg": {
+          "minimum": 1,
+          "detection_method": "hidden_interaction_check",
+          "types_accepted": [
+            "multi_click_secret",
+            "hidden_sprite_interaction",
+            "secret_code_entry",
+            "surprise_animation_trigger"
+          ]
+        },
+        "playful_microcopy": {
+          "minimum": 3,
+          "detection_method": "text_personality_analysis",
+          "avoid_generic": ["Click here", "Error", "OK", "Submit", "Cancel"]
+        }
+      },
+      "feedback": {
+        "correct": {
+          "message": "Your interface is delightful! The microinteractions, easter eggs, and playful text make it feel alive and fun to use. Great attention to detail!",
+          "audio_tts": "Your interface is delightful! The microinteractions and playful details make it feel alive and fun to use!",
+          "visual_effect": "sparkles"
+        },
+        "partial": {
+          "message": "Good start on adding personality! You have some nice details, but try adding more microinteractions or making your text even more playful.",
+          "hint_provided": true,
+          "hint_text": "Try adding a bounce animation when buttons are clicked, or write button text that makes users smile. Even small details matter!"
+        },
+        "incomplete": {
+          "message": "Your interface could use more delightful details! Add some animations, hide a fun surprise, and make your text more playful.",
+          "hint_provided": true,
+          "hint_text": "Think about apps you love - what makes them fun? Maybe it's a satisfying animation, a hidden feature, or funny messages. Add those to yours!"
+        }
+      },
+      "retry_logic": {
+        "max_attempts": 3,
+        "show_examples": true,
+        "progressive_hints": true
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "medium",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": ["en", "zh"]
+    },
+    "dependencies": [
+      "T16.G7.05",
+      "T16.G6.01"
+    ],
+    "csta_code": "2-AP-16",
+    "ai4k12_categories": [],
+    "difficulty_track": "standard",
+    "competition_tags": [
+      "Games for Change",
+      "Congressional App Challenge"
+    ],
+    "project_development": true,
+    "estimated_minutes": 40,
+    "dependency_count": 2,
+    "is_gateway": false,
+    "is_capstone": false,
+    "age_appropriateness_review": "2025-11-17",
+    "reviewed_by": "Week 2 Creative Skills Enhancement",
+    "quality_level": "IXL_for_coding",
+    "notes_redesign": "NEW creative skill - Addresses missing microinteractions and user delight instruction. Teaches students to add personality and polish to interfaces. Priority: HIGH"
+  },
+  {
+    "id": "T05.G6.07",
+    "title": "Brainstorm Creative Solutions with Ideation Techniques",
+    "short_name": "Generate multiple ideas before choosing one",
+    "topic_id": "T05",
+    "topic_name": "Human‑Centered Design & Simulation Planning",
+    "domain_id": "D1",
+    "domain_name": "Algorithms and Design",
+    "grade": 6,
+    "skill_type": "unplugged",
+    "activity_type": "design_planning",
+    "description": "Students learn and practice structured ideation techniques to generate creative solutions before jumping to coding. They use Crazy 8s (sketch 8 different ideas in 8 minutes), SCAMPER (Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse), or mind mapping to generate at least 10 distinct ideas for a project or feature. Students practice 'Yes, and...' thinking - building on ideas rather than shutting them down immediately. They document their idea evolution, showing how initial thoughts transform into refined concepts through brainstorming. This teaches that creativity is a skill that can be practiced, not just talent, and that the best ideas often come after exploring many options.",
+    "description_teacher": "This skill addresses a common problem: students jumping to the first idea without exploring alternatives. Professional designers generate dozens of ideas before choosing one. Teach students that ideation is divergent (generate many ideas without judgment) then convergent (select and refine the best). The techniques provided (Crazy 8s, SCAMPER, mind mapping) are industry-standard creative thinking tools. Emphasize quantity over quality during brainstorming - wild ideas are welcome! Students should feel safe sharing incomplete or silly ideas, as these often lead to breakthrough solutions.",
+    "student_prompt": "Before you start building, brainstorm! Use Crazy 8s to sketch 8 different ideas in 8 minutes, or try SCAMPER to think of creative twists. Come up with at least 10 different ideas, then choose the best one to develop. Document how your ideas evolved!",
+    "student_prompt_audio": {
+      "tts_text": "Before you start building, brainstorm! Sketch 8 different ideas in 8 minutes, or use SCAMPER to think of creative twists. Come up with at least 10 different ideas, then choose the best one!",
+      "voice_settings": {
+        "speed": "normal",
+        "voice_type": "child_friendly"
+      }
+    },
+    "interaction_details": {
+      "scaffold_level": "high",
+      "starter_code_provided": false,
+      "visual_theme": "creative_workshop",
+      "estimated_time_minutes": 30,
+      "success_criteria": [
+        "Generated at least 10 distinct ideas using ideation technique",
+        "Ideas show variety (not just minor variations of same concept)",
+        "Documented idea evolution from initial to refined concept",
+        "Selected final idea with clear rationale",
+        "Practiced 'Yes, and...' thinking (building on ideas)"
+      ],
+      "techniques_taught": [
+        {
+          "name": "Crazy 8s",
+          "description": "Fold paper into 8 sections. Set timer for 8 minutes. Sketch a different idea in each section. Speed prevents overthinking!",
+          "when_to_use": "When you need many ideas fast"
+        },
+        {
+          "name": "SCAMPER",
+          "description": "Start with existing idea, then ask: What can I Substitute? Combine? Adapt? Modify? Put to other use? Eliminate? Reverse?",
+          "when_to_use": "When you want to remix existing ideas creatively"
+        },
+        {
+          "name": "Mind Mapping",
+          "description": "Write problem in center. Branch out with categories. Branch further with specific ideas. Visualize connections.",
+          "when_to_use": "When exploring a complex problem with many angles"
+        },
+        {
+          "name": "Yes, and...",
+          "description": "When someone shares an idea, say 'Yes, and what if we also...' instead of 'No, but...'. Build on ideas!",
+          "when_to_use": "During group brainstorming to build momentum"
+        }
+      ],
+      "materials_needed": [
+        "Paper and pencil for sketching",
+        "Timer (8 minutes for Crazy 8s)",
+        "SCAMPER prompt cards (provided)",
+        "Idea documentation template"
+      ]
+    },
+    "auto_grade_rules": {
+      "type": "submission_portfolio",
+      "required_submissions": [
+        {
+          "type": "ideation_worksheet",
+          "description": "Submit sketches/notes showing 10+ ideas",
+          "format": "image_upload_or_text"
+        },
+        {
+          "type": "variety_check",
+          "description": "Ideas demonstrate variety (not all variations of same concept)",
+          "automated_check": "diversity_analysis"
+        },
+        {
+          "type": "evolution_documentation",
+          "description": "Show how selected idea evolved from initial brainstorm",
+          "format": "before_after_comparison"
+        },
+        {
+          "type": "selection_rationale",
+          "description": "Explain why you chose this idea over others",
+          "format": "written_reflection"
+        }
+      ],
+      "rubric_criteria": [
+        {
+          "criterion": "Quantity of Ideas",
+          "points": 25,
+          "excellent": "10+ distinct ideas generated",
+          "good": "7-9 ideas generated",
+          "needs_improvement": "Fewer than 7 ideas"
+        },
+        {
+          "criterion": "Variety of Ideas",
+          "points": 25,
+          "excellent": "Ideas explore different approaches/categories",
+          "good": "Some variety, but many similar ideas",
+          "needs_improvement": "All ideas are minor variations"
+        },
+        {
+          "criterion": "Idea Evolution",
+          "points": 20,
+          "excellent": "Clear documentation of refinement process",
+          "good": "Some evolution shown",
+          "needs_improvement": "No evolution documented"
+        },
+        {
+          "criterion": "Technique Application",
+          "points": 20,
+          "excellent": "Effectively used ideation technique (Crazy 8s, SCAMPER, etc.)",
+          "good": "Attempted technique but could be more thorough",
+          "needs_improvement": "Did not follow structured technique"
+        },
+        {
+          "criterion": "Selection Rationale",
+          "points": 10,
+          "excellent": "Clear, thoughtful explanation of why idea was chosen",
+          "good": "Basic explanation provided",
+          "needs_improvement": "No rationale given"
+        }
+      ],
+      "feedback": {
+        "excellent": {
+          "message": "Outstanding ideation! You generated diverse, creative ideas and clearly documented your thinking process. This brainstorming will lead to a stronger final project!",
+          "visual_effect": "lightbulb_moment"
+        },
+        "good": {
+          "message": "Good brainstorming! You generated multiple ideas. To improve, try pushing for even more variety - what's a completely different approach you haven't considered?",
+          "hint_provided": true,
+          "hint_text": "Use SCAMPER to twist your existing ideas: What if you reversed it? Combined it with something unexpected? Eliminated a core feature?"
+        },
+        "needs_improvement": {
+          "message": "You need more ideas! The best solutions come after exploring many options. Set a timer and try Crazy 8s - sketch 8 different ideas without stopping to judge them.",
+          "hint_provided": true,
+          "hint_text": "Remember: during brainstorming, quantity beats quality! Generate lots of ideas first, THEN pick the best one. Wild ideas are welcome!"
+        }
+      }
+    },
+    "accessibility": {
+      "audio_support": true,
+      "keyboard_navigable": true,
+      "screen_reader_compatible": true,
+      "touch_target_size": "large",
+      "color_blind_safe": true,
+      "high_contrast_mode": true,
+      "language_support": ["en", "zh"]
+    },
+    "dependencies": [],
+    "csta_code": "1B-AP-15",
+    "ai4k12_categories": [],
+    "difficulty_track": "standard",
+    "competition_tags": [
+      "Games for Change",
+      "Congressional App Challenge"
+    ],
+    "project_development": true,
+    "estimated_minutes": 30,
+    "dependency_count": 0,
+    "is_gateway": false,
+    "is_capstone": false,
+    "age_appropriateness_review": "2025-11-17",
+    "reviewed_by": "Week 2 Creative Skills Enhancement",
+    "quality_level": "IXL_for_coding",
+    "notes_redesign": "NEW creative skill - Foundational ideation techniques for creative problem-solving. Teaches structured brainstorming methods. Priority: MEDIUM"
+  }
+]

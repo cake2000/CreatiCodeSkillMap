@@ -1,0 +1,249 @@
+==========================================================================================
+GRADE 7-8 SKILLS: BEFORE/AFTER REVISION EXAMPLES
+Specific recommendations for making skills age-appropriate
+==========================================================================================
+
+EXAMPLE 1: Sorting Algorithm (T10.G8.02)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (TOO ADVANCED):
+Title: Implement a sorting algorithm (bubble sort or selection sort)
+Activity: Students write code to implement bubble sort from scratch
+
+WHY TOO ADVANCED:
+- Requires understanding nested loops AND swap logic AND loop invariants
+- Understanding WHY it works requires formal proof
+- This is AP Computer Science A content (typically 11th-12th grade)
+
+RECOMMENDED REVISION OPTION A (Move to enrichment):
+Move to optional 'Competition Computing' enrichment track
+
+RECOMMENDED REVISION OPTION B (Simplify for main track):
+Title: Use sorting to organize data
+Activity: Students use the built-in sort block to sort a list, then analyze
+          'Does sorting by price give different results than sorting by name?'
+Focus: Using sorting as a TOOL, not implementing the algorithm
+
+
+EXAMPLE 2: Causal Relationships (T27.G8.02)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (TOO ADVANCED):
+Title: Analyze two variables for potential causal relationships
+Activity: Students determine if X causes Y, identify confounding variables
+
+WHY TOO ADVANCED:
+- Causal inference is college-level statistics
+- Requires understanding experimental design, controls, confounds
+- AP Statistics content (11th-12th grade)
+
+RECOMMENDED REVISION:
+Title: Explore if two variables are related
+Activity: Students look at two data columns and discuss:
+  - 'When ice cream sales go up, drownings go up. Why might this be?'
+  - 'Can you think of another explanation besides one causing the other?'
+  - Introduction to 'just because things happen together doesn't mean one
+    causes the other' WITHOUT formal causal inference terminology
+
+
+EXAMPLE 3: Systemic Impacts (T35.G7.01)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (TOO ADVANCED):
+Title: Analyze unintended systemic impacts of a technology
+Activity: Map ripple effects and second-order consequences
+
+WHY TOO ADVANCED:
+- Systems thinking and second-order effects require abstract reasoning
+- Typically high school social studies content
+- 12-13 year olds can list effects but struggle with systemic connections
+
+RECOMMENDED REVISION:
+Title: What are the good and bad effects of a technology?
+Activity: Students pick a technology (smartphones, social media, gaming) and:
+  - List 3 ways it helps people
+  - List 3 ways it might hurt people or cause problems
+  - Discuss: 'Should we still use this technology? Why or why not?'
+Focus: Direct effects students can observe, not systemic/ripple effects
+
+
+EXAMPLE 4: Algorithm Complexity (T02.G7.03)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (BORDERLINE):
+Title: Analyze algorithm complexity and steps required
+Activity: Students analyze algorithmic efficiency
+
+WHY BORDERLINE:
+- 'Complexity analysis' suggests Big-O notation (Algebra II/AP CS)
+- Abstract efficiency reasoning is challenging for this age
+
+RECOMMENDED REVISION:
+Title: Count and compare steps in algorithms
+Activity: Students are given two algorithms that solve the same problem:
+  Algorithm A: Linear search through a list of 10 items
+  Algorithm B: Check each item twice
+  - 'Count how many steps each algorithm takes'
+  - 'Which one is faster? Why?'
+  - Then try with 100 items: 'What happens to the step count?'
+Focus: CONCRETE counting, NOT Big-O or abstract complexity classes
+
+
+EXAMPLE 5: Monte Carlo Simulation (T28.G7.02)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (TERMINOLOGY ISSUE):
+Title: Implement a Monte Carlo simulation to estimate a probability
+
+WHY BORDERLINE:
+- The CONCEPT is perfect for this age
+- The TERM 'Monte Carlo' is intimidating and unnecessary
+
+RECOMMENDED REVISION:
+Title: Run many trials to estimate probability
+Activity (same as before):
+  - Roll a virtual die 1000 times
+  - Count how many times you get a 6
+  - Estimate: 'About how often does a 6 appear?'
+Change: ONLY the terminology, the activity is already age-appropriate
+
+
+EXAMPLE 6: Distribution Comparison (T27.G7.04)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (BORDERLINE):
+Title: Compare distributions of data
+Short: Compare shape and spread of two datasets
+
+WHY BORDERLINE:
+- 'Distribution shape and spread' implies variance, skewness (Statistics)
+- These are Algebra I or AP Statistics concepts
+
+RECOMMENDED REVISION:
+Title: Compare two datasets using averages and ranges
+Activity: Students are given two datasets (e.g., Class A vs Class B test scores):
+  - Calculate the average for each dataset
+  - Find the highest and lowest values (range)
+  - 'Which class did better on average?'
+  - 'Which class had more spread out scores?'
+Focus: Mean and range (6th-7th grade math) NOT distribution shape/variance
+
+
+EXAMPLE 7: Pseudocode (T01.G7.03)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (NEEDS SCAFFOLDING):
+Title: Represent an algorithm in pseudocode or text code
+
+WHY NEEDS SCAFFOLDING:
+- 'Pseudocode' is unfamiliar term
+- Students struggle to invent notation
+
+RECOMMENDED REVISION:
+Title: Plan an algorithm using words and simple steps
+Activity: Provide heavy scaffolding:
+  - Start with a working Scratch program
+  - Provide a template: 'REPEAT ___ times: DO ___'
+  - Students fill in the template to describe their algorithm
+  - Example template:
+    START
+    SET score to 0
+    REPEAT 10 times:
+      IF player touches coin THEN
+        ADD 1 to score
+    END
+Focus: Translation using templates, NOT inventing notation from scratch
+
+
+EXAMPLE 8: Policy Analysis (T35.G8.02)
+------------------------------------------------------------------------------------------
+
+CURRENT VERSION (TOO FORMAL):
+Title: Analyze policy and regulation of an emerging technology
+
+WHY TOO ADVANCED:
+- Policy analysis requires understanding government/regulatory systems
+- Typically high school civics content
+
+RECOMMENDED REVISION:
+Title: Should there be rules about this technology?
+Activity: Students discuss an emerging technology (AI, drones, etc.):
+  - 'What could go wrong if there are no rules?'
+  - 'What rule would you make?'
+  - 'Who should enforce the rule? (parents, schools, government, companies?)'
+  - Share ideas with class
+Focus: Discussion and opinion, NOT formal policy analysis
+
+
+==========================================================================================
+POSITIVE EXAMPLES: SKILLS THAT ARE PERFECTLY AGE-APPROPRIATE
+==========================================================================================
+
+EXCELLENT EXAMPLE 1: Simulation Design (T05.G7.04)
+------------------------------------------------------------------------------------------
+Title: Design a simulation for a real-world question
+
+WHY EXCELLENT:
+- Uses concrete, relatable scenarios
+- Connects coding to science (simulations answer questions)
+- Appropriate cognitive level: design, run, interpret
+- Real examples: 'How does population grow with limited food?'
+
+This is a MODEL of age-appropriate design:
+- Concrete and visual (simulation)
+- Real-world connection
+- Appropriate complexity
+
+
+EXCELLENT EXAMPLE 2: Real-World Data Modeling (T10.G7.01)
+------------------------------------------------------------------------------------------
+Title: Design and populate a table for a real-world inventory or database
+
+WHY EXCELLENT:
+- Practical life skill (organizing data)
+- Concrete examples: library catalog, game inventory, sports stats
+- Appropriate cognitive level for 12-13 year olds
+- Connects to real-world database concepts without being too technical
+
+
+EXCELLENT EXAMPLE 3: Data Quality (T26.G7.04)
+------------------------------------------------------------------------------------------
+Title: Identify and correct data quality issues
+Short: Debug and repair data
+
+WHY EXCELLENT:
+- Debugging is core CS skill
+- Data quality is highly relevant and practical
+- Concrete issues: duplicates, out-of-range values, missing entries
+- Appropriate terminology and expectations
+- Real-world relevance
+
+
+==========================================================================================
+KEY TAKEAWAYS
+==========================================================================================
+
+PATTERNS IN TOO-ADVANCED SKILLS:
+1. Use formal/technical terminology (Monte Carlo, pseudocode, systemic)
+2. Require abstract reasoning beyond concrete examples
+3. Expect analysis/proof rather than exploration/discussion
+4. Cover college or AP-level content
+
+PATTERNS IN WELL-DESIGNED SKILLS:
+1. Use accessible, descriptive language
+2. Provide concrete examples and scenarios
+3. Focus on exploration, creation, and discussion
+4. Connect to real-world applications students care about
+5. Match 6th-8th grade math/science expectations
+
+QUICK FIX CHECKLIST:
+[ ] Replace technical jargon with descriptive terms
+[ ] Change 'analyze' to 'explore' or 'compare' where appropriate
+[ ] Change 'prove' to 'test' or 'try'
+[ ] Use concrete numbers instead of abstract complexity
+[ ] Provide templates and scaffolding for new skills
+[ ] Focus on 'what' and 'how' rather than 'why' for theoretical concepts
+
+==========================================================================================
+END OF EXAMPLES
+==========================================================================================

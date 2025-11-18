@@ -1,0 +1,273 @@
+{
+  "explicit_acsl": [
+    {
+      "id": "T10.G8.02-ADV",
+      "title": "Implement a sorting algorithm (bubble or selection sort)",
+      "tags": [
+        "ACSL_junior"
+      ],
+      "track": "competition"
+    }
+  ],
+  "theoretical_algorithms": [
+    {
+      "id": "T01.G6.04",
+      "title": "Implement an algorithm in code from a complex flowchart",
+      "description": "Students receive a detailed flowchart with multiple branches and loops, then implement it in block-based or introductory text code. This is a direct a"
+    },
+    {
+      "id": "T01.G7.02",
+      "title": "Understand why different algorithms are chosen for different problems",
+      "description": "Given a problem, students consider multiple possible algorithms and justify which is most appropriate based on efficiency, clarity, or fit. Example: W"
+    },
+    {
+      "id": "T02.G7.02",
+      "title": "Design a flowchart for a sorting or search algorithm",
+      "description": "Students create a flowchart for a simple algorithmic task such as linear search, bubble sort, or selection sort, using appropriate decision points and"
+    },
+    {
+      "id": "T07.G8.02",
+      "title": "Implement iterative algorithms with loops",
+      "description": "Students implement simple iterative algorithms that rely on loops and repeated updates, such as computing the greatest common divisor by repeated subt"
+    },
+    {
+      "id": "T08.G6.03",
+      "title": "Use conditionals in a search or decision algorithm",
+      "description": "Students implement a simple algorithm (e.g., linear search, finding max/min, classification) that relies on if statements to compare values and make d"
+    },
+    {
+      "id": "T08.G7.04",
+      "title": "Analyze and compare conditional logic approaches",
+      "description": "Students compare two different conditional implementations of the same algorithm (e.g., using nested if vs a switch-like structure) and reason about c"
+    },
+    {
+      "id": "T09.G8.01",
+      "title": "Use variables in iterative algorithms",
+      "description": "Students implement algorithms (e.g., searching, sorting, iterative numerical methods) that rely on variables to track state across many iterations, su"
+    },
+    {
+      "id": "T10.G3.03",
+      "title": "Sort a list by swapping items",
+      "description": "Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them"
+    },
+    {
+      "id": "T10.G6.01",
+      "title": "Sort a table by a column",
+      "description": "Students implement sorting logic that rearranges table rows based on values in a specified column (e.g., sort students by name or by score), preservin"
+    },
+    {
+      "id": "T10.G8.02",
+      "title": "Use sorting tools to organize lists of data",
+      "description": "Students use CreatiCode's built-in sort blocks to organize lists (numbers, words, objects) in ascending or descending order. Focus on USING sort appro"
+    },
+    {
+      "id": "T10.G8.02-ADV",
+      "title": "Implement a sorting algorithm (bubble or selection sort)",
+      "description": "Students implement a complete sorting algorithm (not just swap intuition, but the full loop logic) to sort a list or table by a numeric or alphabetic "
+    },
+    {
+      "id": "T11.G7.01",
+      "title": "Use custom blocks to implement algorithms",
+      "description": "Students implement standard or simple algorithms (e.g., linear search, bubble sort, greatest common divisor) as custom blocks with clear parameters an"
+    },
+    {
+      "id": "T12.G6.02",
+      "title": "Use comments to explain algorithm logic",
+      "description": "Students add comments to a section of code that implements a recognizable algorithm or pattern (e.g., a loop that finds the maximum, or a conditional "
+    },
+    {
+      "id": "T14.G4.02",
+      "title": "Implement simple AI movement for enemies",
+      "description": "Students create a simple AI: enemies move in a pattern (e.g., patrol left\u2011right) or follow a basic rule (e.g., move toward the player if closer than a"
+    },
+    {
+      "id": "T15.G7.03",
+      "title": "Implement and compare branching narrative algorithms",
+      "description": "Students implement or analyze two different methods for handling branching stories (e.g., nested if/else vs. a data-driven approach with choice tables"
+    },
+    {
+      "id": "T24.G7.04",
+      "title": "Critique XO's suggestions against your priorities",
+      "description": "XO might suggest a sophisticated optimization or feature that's technically sound but doesn't align with a student's project goals (e.g., XO suggests "
+    }
+  ],
+  "formal_cs_concepts": [
+    {
+      "id": "T01.G7.03",
+      "title": "Plan an algorithm using words and simple steps",
+      "description": "Students write out an algorithm in plain language with simple step-by-step structure (e.g., 'for each item in list: if item > max, set max = item'). T"
+    },
+    {
+      "id": "T02.G3.01",
+      "title": "Create a simple flowchart with start, end, and action boxes",
+      "description": "Students create a flowchart using basic symbols (start oval, action rectangle, end oval) to represent a simple algorithm (e.g., \"How to make a sandwic"
+    },
+    {
+      "id": "T02.G4.01",
+      "title": "Create a flowchart with loops",
+      "description": "Students create a flowchart that includes a loop or iteration, using the appropriate flowchart symbol (a back arrow or loop rectangle) to represent \"d"
+    },
+    {
+      "id": "T02.G4.03",
+      "title": "Convert a story or real-world process into pseudocode",
+      "description": "Given a natural-language description of a process (e.g., \"make a peanut butter sandwich\") or a picture algorithm, students write simple pseudocode (ev"
+    },
+    {
+      "id": "T02.G5.03",
+      "title": "Write pseudocode for a multi-step algorithm",
+      "description": "Students write structured pseudocode (not code, but formal step-by-step language) for an algorithm that includes sequence, loops, and conditionals. Ex"
+    },
+    {
+      "id": "T02.G7.03",
+      "title": "Count and compare steps needed for different algorithms",
+      "description": "Students analyze two algorithms that solve the same problem and count or estimate the number of steps each requires for different input sizes (e.g., '"
+    },
+    {
+      "id": "T03.G7.02",
+      "title": "Use XO to brainstorm and structure a game design document",
+      "description": "Students use XO to brainstorm and structure a formal Game Design Document (GDD) for a moderately complex game (mechanics, level progression, art style"
+    },
+    {
+      "id": "T03.G8.02",
+      "title": "Create a formal project specification document",
+      "description": "Students create a formal specification document for a non-trivial project, including requirements, system architecture, component descriptions, data s"
+    },
+    {
+      "id": "T03.G8.03",
+      "title": "Analyze project complexity and estimate effort",
+      "description": "Students read project plans of varying ambition and estimate the relative effort and risk (e.g., \"This plan requires 5 different sprites and complex c"
+    },
+    {
+      "id": "T05.G3.03",
+      "title": "Make a UX flow diagram for a simple app",
+      "description": "Students sketch or arrange cards to show the steps a user takes to accomplish a task in a program (e.g., \"Start \u2192 Click New Game \u2192 Choose Difficulty \u2192"
+    },
+    {
+      "id": "T05.G5.01",
+      "title": "Create a simple design document",
+      "description": "Students create a one- to two-page design document for a simple program, including (1) who the user is, (2) what problem it solves, (3) key features, "
+    },
+    {
+      "id": "T05.G6.02",
+      "title": "Conduct user research and interviews",
+      "description": "Students design and conduct 1\u20132 short user interviews (with classmates or family) to understand needs for a program idea. They document responses and "
+    },
+    {
+      "id": "T06.G7.02",
+      "title": "Use event broadcasting for loose coupling",
+      "description": "Students design large programs (e.g., games with multiple enemies, items, UI) where components communicate only through broadcasts rather than direct "
+    },
+    {
+      "id": "T10.G8.02-ADV",
+      "title": "Implement a sorting algorithm (bubble or selection sort)",
+      "description": "Students implement a complete sorting algorithm (not just swap intuition, but the full loop logic) to sort a list or table by a numeric or alphabetic "
+    },
+    {
+      "id": "T11.G8.04",
+      "title": "Analyze trade-offs in modular vs. monolithic design",
+      "description": "Students examine two versions of a program: one organized into many custom blocks, one written mostly inline. They discuss trade-offs in readability, "
+    },
+    {
+      "id": "T12.G5.01",
+      "title": "Create external documentation for a project",
+      "description": "Students write or create a simple external document (text block within CreatiCode or a linked file) that explains the project: what it does, how to us"
+    },
+    {
+      "id": "T12.G7.01",
+      "title": "Refactor long scripts into smaller, named subroutines",
+      "description": "Students identify a script with many statements and refactor it by extracting logical groups into separate custom blocks, each with a clear name. This"
+    },
+    {
+      "id": "T12.G8.02",
+      "title": "Create comprehensive documentation for a complex project",
+      "description": "Students create a formal documentation guide for a multi-feature project, including: overview, user instructions, code architecture (script purposes a"
+    },
+    {
+      "id": "T13.G7.03",
+      "title": "Refactor for testability and clarity",
+      "description": "Students refactor a program to reduce complexity, improve clarity, and make testing easier (e.g., breaking large scripts into smaller functions, namin"
+    },
+    {
+      "id": "T13.G8.02",
+      "title": "Debug for correctness against specifications",
+      "description": "Given a formal (or semi-formal) specification of a program's expected behavior, students test the implementation against it, identify discrepancies, a"
+    },
+    {
+      "id": "T14.G6.01",
+      "title": "Design a game state machine",
+      "description": "Students explicitly design and implement a state machine (e.g., using a `game state` variable) to manage transitions between title, menu, playing, pau"
+    },
+    {
+      "id": "T24.G5.01",
+      "title": "Ask XO about algorithm efficiency",
+      "description": "Given multiple ways to solve a problem (e.g., two different loop structures, two different variable organizations), a student asks XO \"Which is better"
+    },
+    {
+      "id": "T25.G7.02",
+      "title": "Use nested data structures to represent complex information",
+      "description": "Students create or work with nested structures (e.g., a list of tables, where each table represents a player with multiple attributes) to model real-w"
+    },
+    {
+      "id": "T27.G6.03",
+      "title": "Identify relationships between variables",
+      "description": "Students analyze a dataset with multiple variables and describe or identify patterns: do two variables tend to increase together, or does one decrease"
+    },
+    {
+      "id": "T28.G3.04",
+      "title": "Recognize sampling bias and its effect",
+      "description": "Students examine a hypothetical experiment or survey where the sample is biased (e.g., \"Ask only kids in the library about favorite recess activity\") "
+    }
+  ],
+  "abstract_theory": [
+    {
+      "id": "T01.G6.01",
+      "title": "Analyze an algorithm's efficiency in different scenarios",
+      "description": "Students examine an algorithm's performance (number of steps) under different input sizes or conditions. Example: A linear search algorithm is faster "
+    },
+    {
+      "id": "T01.G7.04",
+      "title": "Analyze an algorithm for correctness on edge cases",
+      "description": "Students test an algorithm (given in code or pseudocode) on edge cases (empty input, single item, maximum/minimum values, repeats) and identify if it "
+    },
+    {
+      "id": "T02.G5.03",
+      "title": "Write pseudocode for a multi-step algorithm",
+      "description": "Students write structured pseudocode (not code, but formal step-by-step language) for an algorithm that includes sequence, loops, and conditionals. Ex"
+    },
+    {
+      "id": "T02.G6.03",
+      "title": "Write pseudocode with nested structures",
+      "description": "Students write pseudocode for algorithms with nested loops or loops containing complex conditionals (e.g., a loop that counts items matching a criteri"
+    },
+    {
+      "id": "T02.G7.03",
+      "title": "Count and compare steps needed for different algorithms",
+      "description": "Students analyze two algorithms that solve the same problem and count or estimate the number of steps each requires for different input sizes (e.g., '"
+    },
+    {
+      "id": "T02.G7.04",
+      "title": "Trace an algorithm and identify a bug or edge case",
+      "description": "Students trace an algorithm (in pseudocode or code) with specific inputs, identify a case where it produces an incorrect result, and explain why (e.g."
+    },
+    {
+      "id": "T04.G6.04",
+      "title": "Compare efficiency of different pattern solutions",
+      "description": "Students compare two solutions using different pattern techniques (e.g., nested loops vs list iteration, or custom blocks vs inline code) and reason a"
+    },
+    {
+      "id": "T12.G6.01",
+      "title": "Analyze a program's organization and suggest improvements",
+      "description": "Students read a multi-script program and critique its organization (e.g., \"The collision checks are mixed with the movement code; they should be separ"
+    },
+    {
+      "id": "T12.G8.05",
+      "title": "Create a Technical Specification Document",
+      "description": "Students create comprehensive technical documentation including: system architecture diagram showing components and relationships, technologies and AP"
+    },
+    {
+      "id": "T24.G6.01",
+      "title": "Ask XO for algorithm design help",
+      "description": "Given a complex task (e.g., \"How do I search a list for a value?\"), a student asks XO for a conceptual outline or pseudocode, not full code. XO provid"
+    }
+  ]
+}

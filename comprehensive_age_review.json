@@ -1,0 +1,216 @@
+[
+  {
+    "skill_id": "T02.G7.03",
+    "grade": 7,
+    "topic": "T02",
+    "topic_name": "Representing & Tracing Algorithms",
+    "title": "Analyze algorithm complexity and steps required",
+    "short_name": "Count steps in algorithms and compare efficiency",
+    "description": "Students analyze two algorithms that solve the same problem and count or estimate the number of steps (or time complexity in intuitive terms) each requires for different input sizes, reasoning about which is more efficient.",
+    "category": "BORDERLINE",
+    "cognitive_level": "Formal Operations (Piaget) - abstract reasoning about efficiency",
+    "prerequisite_concerns": "Big-O notation is typically Algebra II/AP CS level",
+    "topic_maturity": "Appropriate topic, but depth may be too advanced",
+    "recommendation": "SIMPLIFY: Focus on concrete counting (this takes 10 steps, this takes 100), not formal complexity",
+    "justification": "12-13 year olds can compare concrete quantities but formal algorithm analysis is typically 15+",
+    "examples_of_challenge": [
+      "Understanding logarithmic vs linear growth",
+      "Abstract efficiency without concrete examples"
+    ]
+  },
+  {
+    "skill_id": "T01.G8.02",
+    "grade": 8,
+    "topic": "T01",
+    "topic_name": "Everyday Algorithms & Step\u2011by\u2011Step Thinking",
+    "title": "Understand recursion conceptually (algorithm calling itself)",
+    "short_name": "Recognize recursive structure in problems",
+    "description": "Students encounter the concept that some problems can be solved by breaking them into smaller versions of themselves (recursion conceptually, not yet in code). Example: \"To find the largest number in a list, find the larger of the first number and the max of the rest.\" They understand the base case and recursive case but don't yet implement it in code (that's a high school topic).",
+    "category": "BORDERLINE",
+    "cognitive_level": "High - Recursion requires mental stack management",
+    "prerequisite_concerns": "Recursion typically taught in Algebra II or AP CS Principles (ages 15-16)",
+    "topic_maturity": "Age-appropriate as introduction",
+    "recommendation": "KEEP WITH SUPPORT: Use visual recursion (fractals, nested patterns) NOT code recursion",
+    "justification": "Conceptual recursion (Russian dolls, fractals) is accessible; implementing recursion is not",
+    "examples_of_challenge": [
+      "Base case identification",
+      "Stack overflow understanding",
+      "Tracing recursive calls"
+    ]
+  },
+  {
+    "skill_id": "T10.G8.02",
+    "grade": 8,
+    "topic": "T10",
+    "topic_name": "Lists, Tables & Structured Data in Programs",
+    "title": "Implement a sorting algorithm (bubble sort or selection sort)",
+    "short_name": "Write a sorting algorithm",
+    "description": "Students implement a complete sorting algorithm (not just swap intuition, but the full loop logic) to sort a list or table by a numeric or alphabetic criterion, understanding algorithmic complexity informally (e.g., \"this takes many comparisons\").",
+    "category": "DEFINITELY TOO ADVANCED",
+    "cognitive_level": "Very High - Requires understanding nested loops AND swap logic",
+    "prerequisite_concerns": "Sorting algorithms are AP CS A content (typically grade 11-12)",
+    "topic_maturity": "Too advanced algorithmically",
+    "recommendation": "MOVE TO ENRICHMENT: This is competition math/CS Olympiad content for 8th grade",
+    "justification": "While bright students can implement bubble sort, understanding WHY it works requires formal reasoning",
+    "examples_of_challenge": [
+      "Proving correctness",
+      "Understanding invariants",
+      "Analyzing efficiency"
+    ]
+  },
+  {
+    "skill_id": "T01.G7.03",
+    "grade": 7,
+    "topic": "T01",
+    "topic_name": "Everyday Algorithms & Step\u2011by\u2011Step Thinking",
+    "title": "Represent an algorithm in pseudocode or text code",
+    "short_name": "Write pseudocode for an algorithm",
+    "description": "Students transition from block-based code to pseudocode or simple text-based code representation. They write an algorithm in plain language with code-like structure (e.g., \"for each item in list: if item > max, set max = item\"). This bridges to more formal programming.",
+    "category": "BORDERLINE",
+    "cognitive_level": "Medium-High - Pseudocode requires abstraction from concrete code",
+    "prerequisite_concerns": "None if kept simple",
+    "topic_maturity": "Appropriate",
+    "recommendation": "KEEP WITH SCAFFOLDING: Provide templates, focus on translating Scratch to text",
+    "justification": "Pseudocode is valuable but needs heavy scaffolding at this age",
+    "examples_of_challenge": [
+      "Inventing own notation",
+      "Being consistent with notation"
+    ]
+  },
+  {
+    "skill_id": "T27.G8.02",
+    "grade": 8,
+    "topic": "T27",
+    "topic_name": "Data Analysis & Visualization",
+    "title": "Analyze two variables for potential causal relationships",
+    "short_name": "Explore whether one variable affects another",
+    "description": "Students investigate whether a relationship between two variables suggests causation (e.g., does study time cause higher test scores?) or is merely correlation. They consider alternative explanations and limitations of the data.",
+    "category": "DEFINITELY TOO ADVANCED",
+    "cognitive_level": "Very High - Causal inference is college-level statistics",
+    "prerequisite_concerns": "Correlation vs causation is AP Statistics content (grade 11-12)",
+    "topic_maturity": "Too advanced statistically",
+    "recommendation": "SIMPLIFY DRASTICALLY: Discuss \"Ice cream sales and drowning both go up in summer - why?\" NOT formal causal analysis",
+    "justification": "True causal inference requires understanding confounds, experimentation, and is beyond K-8",
+    "examples_of_challenge": [
+      "Identifying confounding variables",
+      "Understanding experimental design requirements",
+      "Formal hypothesis testing"
+    ]
+  },
+  {
+    "skill_id": "T27.G7.04",
+    "grade": 7,
+    "topic": "T27",
+    "topic_name": "Data Analysis & Visualization",
+    "title": "Compare distributions of data",
+    "short_name": "Compare shape and spread of two datasets",
+    "description": "Students compare two datasets (e.g., two classes' test scores, rainfall in two cities) by looking at their distributions: shape (skew, symmetry), center (mean or median), and spread (range, variability). They describe which dataset is more consistent or has more extreme values.",
+    "category": "BORDERLINE",
+    "cognitive_level": "Medium-High - Distribution comparison requires statistical thinking",
+    "prerequisite_concerns": "Distribution shape/spread is typically Algebra I or Statistics",
+    "topic_maturity": "Borderline",
+    "recommendation": "SIMPLIFY: Compare using mean and range, NOT shape and spread",
+    "justification": "Comparing averages is age-appropriate; discussing skew and variance is not",
+    "examples_of_challenge": [
+      "Understanding skewness",
+      "Interpreting standard deviation",
+      "Normal distribution concepts"
+    ]
+  },
+  {
+    "skill_id": "T28.G7.02",
+    "grade": 7,
+    "topic": "T28",
+    "topic_name": "Chance, Sampling & Experiments",
+    "title": "Implement a Monte Carlo simulation to estimate a probability",
+    "short_name": "Run 1000s of trials to estimate odds",
+    "description": "Students code a simulation using a large number of iterations (e.g., 1000 or 10,000 trials) to empirically estimate a complex probability (e.g., chance of rolling three dice that sum to 10, or chance of at least two people sharing a birthday in a room of 20). They interpret the frequency as a probability estimate.",
+    "category": "BORDERLINE",
+    "cognitive_level": "Medium - Simulation is accessible, \"Monte Carlo\" term is not",
+    "prerequisite_concerns": "None for concept; terminology is advanced",
+    "topic_maturity": "Appropriate concept",
+    "recommendation": "KEEP BUT RENAME: Call it \"Run Many Trials to Estimate Probability\"",
+    "justification": "Running 1000 dice rolls to estimate probability is perfect for this age. \"Monte Carlo\" scares them.",
+    "examples_of_challenge": [
+      "The fancy name, not the concept"
+    ]
+  },
+  {
+    "skill_id": "T26.G8.03",
+    "grade": 8,
+    "topic": "T26",
+    "topic_name": "Data Collection & Organization",
+    "title": "Analyze relationships between variables in data",
+    "short_name": "Find connections between data columns",
+    "description": "Students work with a multi-column dataset and analyze relationships between variables (e.g., \"Do students who read more books also have higher vocabulary scores?\" or \"Is there a pattern between hours of screen time and sleep quality?\"). They use filtering, sorting, or visual inspection to identify patterns.",
+    "category": "BORDERLINE",
+    "cognitive_level": "Medium-High - Analyzing variable relationships",
+    "prerequisite_concerns": "Depends on depth - correlation is advanced",
+    "topic_maturity": "Appropriate if kept exploratory",
+    "recommendation": "CLARIFY: \"Look for patterns\" YES, \"calculate correlation\" NO",
+    "justification": "Exploring \"when X is high, is Y high?\" is fine. Correlation coefficients are not.",
+    "examples_of_challenge": [
+      "Formal correlation measures",
+      "Statistical significance"
+    ]
+  },
+  {
+    "skill_id": "T35.G7.01",
+    "grade": 7,
+    "topic": "T35",
+    "topic_name": "Impacts of Computing, Games & AI",
+    "title": "Analyze unintended systemic impacts of a technology",
+    "short_name": "How does one technology change everything?",
+    "description": "Students examine how a single technology can create ripple effects across society (e.g., smartphones enabling communication but also job displacement in certain sectors, social media enabling connection but also affecting mental health). They map systems and second-order effects.",
+    "category": "DEFINITELY TOO ADVANCED",
+    "cognitive_level": "Very High - Systems thinking and second-order effects",
+    "prerequisite_concerns": "Systemic analysis is typically high school social studies",
+    "topic_maturity": "Too advanced for formal analysis",
+    "recommendation": "SIMPLIFY: \"Name 3 good things and 3 bad things about smartphones\" NOT systemic ripple effects",
+    "justification": "12-13 year olds can list pros/cons but systemic/second-order thinking develops later",
+    "examples_of_challenge": [
+      "Second-order effects",
+      "Unintended consequences",
+      "System-level thinking"
+    ]
+  },
+  {
+    "skill_id": "T35.G8.02",
+    "grade": 8,
+    "topic": "T35",
+    "topic_name": "Impacts of Computing, Games & AI",
+    "title": "Analyze policy and regulation of an emerging technology",
+    "short_name": "Should governments regulate this technology?",
+    "description": "Students examine how governments and organizations regulate or should regulate emerging technologies (e.g., data privacy laws, AI transparency requirements, content moderation), weighing innovation, safety, freedom, and fairness.",
+    "category": "BORDERLINE",
+    "cognitive_level": "High - Policy analysis requires understanding government systems",
+    "prerequisite_concerns": "Civics/government is typically high school content",
+    "topic_maturity": "Too advanced for analysis, OK for discussion",
+    "recommendation": "SIMPLIFY: \"Should there be rules about this?\" NOT policy analysis",
+    "justification": "Discussion of rules is appropriate; formal policy evaluation is not",
+    "examples_of_challenge": [
+      "Understanding legislative process",
+      "Weighing competing interests",
+      "Regulatory frameworks"
+    ]
+  },
+  {
+    "skill_id": "T28.G8.03",
+    "grade": 8,
+    "topic": "T28",
+    "topic_name": "Chance, Sampling & Experiments",
+    "title": "Analyze bias in AI models trained on biased data",
+    "short_name": "How does biased data hurt AI?",
+    "description": "Students learn that AI systems trained on biased datasets produce biased outputs, and can examine examples (e.g., if a training dataset has more images of one gender, the model may perform worse on that gender). They reason about consequences and potential fixes.",
+    "category": "BORDERLINE",
+    "cognitive_level": "Medium-High - Understanding bias in AI models",
+    "prerequisite_concerns": "Requires understanding of how ML works",
+    "topic_maturity": "Highly relevant and important",
+    "recommendation": "KEEP WITH SUPPORT: Use concrete examples, avoid technical ML details",
+    "justification": "AI bias is crucial for digital citizenship, but keep it accessible",
+    "examples_of_challenge": [
+      "Understanding training data",
+      "Model architecture concepts"
+    ]
+  }
+]

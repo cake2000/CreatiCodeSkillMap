@@ -1,0 +1,83 @@
+[
+  {
+    "id": "T05.G7.04",
+    "grade": 7,
+    "topic": "T05",
+    "title": "Design a simulation for a real-world question",
+    "short_name": "Simulation to answer a research question",
+    "description": "Students design and build a simulation to answer a real-world or classroom question (e.g., \"How does population grow if there's limited food?\" or \"What happens to a virus spreading in a population?\"). They define what to model, run the simulation, and interpret results.",
+    "why_excellent": ""
+  },
+  {
+    "id": "T10.G7.01",
+    "grade": 7,
+    "topic": "T10",
+    "title": "Design and populate a table for a real-world inventory or database",
+    "short_name": "Create a data model for real-world data",
+    "description": "Students design the structure of a table (columns and data types) to model a real-world domain (e.g., a library catalog, game inventory, sports statistics) and populate it with realistic data.",
+    "why_excellent": "Real-world data modeling - very practical and age-appropriate."
+  },
+  {
+    "id": "T26.G7.01",
+    "grade": 7,
+    "topic": "T26",
+    "title": "Formulate a clear, testable data question",
+    "short_name": "Ask a data-driven question",
+    "description": "Students formulate a specific data question that can be answered by collecting and analyzing data, distinguishing it from questions answered by opinion or general knowledge. Examples: \"Do taller students jump higher?\" \"Which type of music gets the most plays in our class?\"",
+    "why_excellent": ""
+  },
+  {
+    "id": "T26.G7.04",
+    "grade": 7,
+    "topic": "T26",
+    "title": "Identify and correct data quality issues",
+    "short_name": "Debug and repair data",
+    "description": "Students systematically review collected data, identify specific quality issues (duplicates, out-of-range values, inconsistent units, missing entries), and apply appropriate fixes. They document what was wrong and how they fixed it.",
+    "why_excellent": ""
+  },
+  {
+    "id": "T28.G7.01",
+    "grade": 7,
+    "topic": "T28",
+    "title": "Conduct a full multi-step experiment with hypothesis",
+    "short_name": "Test a hypothesis with an experiment",
+    "description": "Students formulate a clear hypothesis (prediction), design an experiment to test it (with controls, variables, and sample size decisions), collect data, and draw conclusions, practicing the scientific method within a probability or observational context.",
+    "why_excellent": ""
+  },
+  {
+    "id": "T01.G8.01",
+    "grade": 8,
+    "topic": "T01",
+    "title": "Design an algorithm for a simulation or model",
+    "short_name": "Create an algorithm to simulate a process",
+    "description": "Students design an algorithm that simulates a real-world process or system (e.g., a predator-prey ecosystem, weather patterns with simple rules, or traffic flow). The algorithm repeatedly updates state and checks conditions to model behavior over time. This applies algorithmic thinking to simulation.",
+    "why_excellent": ""
+  },
+  {
+    "id": "T02.G8.01",
+    "grade": 8,
+    "topic": "T02",
+    "title": "Write and test pseudocode for a non-trivial algorithm",
+    "short_name": "Design and verify an algorithm with pseudocode",
+    "description": "Students design pseudocode for a more complex algorithm (e.g., finding a median, checking if a number is prime, or simulating a simple game turn), then trace it with multiple test cases to verify correctness.",
+    "why_excellent": ""
+  },
+  {
+    "id": "T04.G8.02",
+    "grade": 8,
+    "topic": "T04",
+    "title": "Design modular, reusable custom blocks for a project",
+    "short_name": "Build a library of procedures for a project",
+    "description": "Students design and build a suite of well\u2011named, well\u2011documented custom blocks (procedures) for a project, recognizing that good abstractions make code easier to reason about, test, and reuse across multiple scenes or game states.",
+    "why_excellent": ""
+  },
+  {
+    "id": "T26.G8.02",
+    "grade": 8,
+    "topic": "T26",
+    "title": "Execute a complete data investigation (question to analysis)",
+    "short_name": "Conduct a full data investigation",
+    "description": "Students execute an end-to-end data investigation: ask a testable question, collect 30-100 data points across multiple attributes, organize into a table, clean the data, filter/aggregate as needed, analyze to answer the question, and write a brief summary of findings and any limitations.",
+    "why_excellent": ""
+  }
+]

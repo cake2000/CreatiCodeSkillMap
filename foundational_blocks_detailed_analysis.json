@@ -1,0 +1,3562 @@
+{
+  "Motion": {
+    "keywords": [
+      "move",
+      "turn",
+      "glide",
+      "go to",
+      "point",
+      "x position",
+      "y position",
+      "direction",
+      "coordinate"
+    ],
+    "foundational_blocks": [
+      "move steps",
+      "turn degrees",
+      "go to x:y",
+      "glide to",
+      "point in direction",
+      "point towards",
+      "change x by",
+      "change y by",
+      "set x to",
+      "set y to",
+      "if on edge, bounce"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T02.GK.01",
+          "title": "Follow the Arrow Cards",
+          "short_name": "Follow 3-step arrow picture sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.GK.04",
+          "title": "Point to the Screen",
+          "short_name": "Identify computer parts",
+          "type": "picture_based_digital",
+          "activity": "hot_spot_click"
+        }
+      ],
+      "1": [
+        {
+          "id": "T07.G1.01",
+          "title": "How Many Times Does It Repeat?",
+          "short_name": "Count repetitions in sequence",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.04",
+          "title": "Guide the Robot Through the Maze",
+          "short_name": "Navigate path with directional choices",
+          "type": "picture_based_digital",
+          "activity": "path_tracing"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T06.G2.04",
+          "title": "Button Makes Sprite Move",
+          "short_name": "Match button to sprite action",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T12.G2.01",
+          "title": "Group the Steps That Go Together",
+          "short_name": "Organize steps into groups",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T20.G2.02",
+          "title": "Design a Repeating Tile",
+          "short_name": "Create tessellation design",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ]
+    },
+    "total_mentions": 8
+  },
+  "Looks": {
+    "keywords": [
+      "show",
+      "hide",
+      "costume",
+      "size",
+      "effect",
+      "say",
+      "think",
+      "layer",
+      "backdrop",
+      "appear"
+    ],
+    "foundational_blocks": [
+      "show",
+      "hide",
+      "switch costume",
+      "next costume",
+      "set size to",
+      "change size by",
+      "say for seconds",
+      "think for seconds",
+      "switch backdrop",
+      "change effect",
+      "clear graphic effects",
+      "go to front layer",
+      "go back layers"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T01.GK.02",
+          "title": "Making a Sandwich: What's the Right Order?",
+          "short_name": "Sequence 3 sandwich-making steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T01.GK.04",
+          "title": "Washing Hands: Do It Right!",
+          "short_name": "Sequence 3 handwashing steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T02.GK.06",
+          "title": "Draw to Show What You See",
+          "short_name": "Simple visual representation",
+          "type": "picture_based_digital",
+          "activity": "simple_draw"
+        },
+        {
+          "id": "T03.GK.02",
+          "title": "Getting Ready: What Parts?",
+          "short_name": "Match task to its 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T04.GK.04",
+          "title": "Big-Small Pattern",
+          "short_name": "Complete AB size pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T07.GK.02",
+          "title": "Which Shows 'Do It Three Times'?",
+          "short_name": "Identify repetition sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T35.GK.01",
+          "title": "Good or Problem?",
+          "short_name": "Sort technology effects",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.01",
+          "title": "Plant a Seed: Steps in Order",
+          "short_name": "Sequence 4-5 planting steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G1.04",
+          "title": "Follow the Picture Recipe",
+          "short_name": "Trace multi-step picture algorithm (5 steps)",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G1.06",
+          "title": "Picture a Story in Order",
+          "short_name": "Represent with pictures",
+          "type": "picture_based_digital",
+          "activity": "select_sequence"
+        },
+        {
+          "id": "T03.G1.03",
+          "title": "Pet Care Plan: Put It in Order",
+          "short_name": "Order multi-step project parts",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Story Pattern Match",
+          "short_name": "Match repeating story to pattern",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "type": "picture_based_digital",
+          "activity": "select_examples"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Make a Picture Chart",
+          "short_name": "Create simple tally/picture chart",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G1.01",
+          "title": "Ask the Class",
+          "short_name": "Collect data from multiple responses",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T31.G1.01",
+          "title": "Computers Can Connect",
+          "short_name": "Understand connection concept",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G1.01",
+          "title": "Good and Bad Effects",
+          "short_name": "List technology impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T36.G1.01",
+          "title": "Being Kind Online: Choose Kind Words",
+          "short_name": "Identify kind online behavior",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.02",
+          "title": "Working Together: Who's Helping?",
+          "short_name": "Identify collaboration scenarios",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Choose the Path: If-Then Decisions",
+          "short_name": "Sequence with conditional choices",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T01.G2.04",
+          "title": "Guide the Robot Through the Maze",
+          "short_name": "Navigate path with directional choices",
+          "type": "picture_based_digital",
+          "activity": "path_tracing"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T02.G2.04",
+          "title": "Create Your Own Map Code",
+          "short_name": "Create 6-step picture algorithm independently",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G2.06",
+          "title": "Map Your Space",
+          "short_name": "Create simple map",
+          "type": "picture_based_digital",
+          "activity": "build_map"
+        },
+        {
+          "id": "T03.G2.03",
+          "title": "Organize the Class Play Project",
+          "short_name": "Put complex project steps in order",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Short-Cut the Repeat: Circle It Once",
+          "short_name": "Identify what to repeat instead of showing multiple times",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "type": "picture_based_digital",
+          "activity": "experiment_compare"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T12.G2.02",
+          "title": "Put the Groups in Better Order",
+          "short_name": "Arrange grouped steps in order",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "type": "picture_based_digital",
+          "activity": "sequence_story"
+        }
+      ]
+    },
+    "total_mentions": 38
+  },
+  "Sound": {
+    "keywords": [
+      "sound",
+      "volume",
+      "tempo",
+      "instrument",
+      "play",
+      "note",
+      "music"
+    ],
+    "foundational_blocks": [
+      "play sound",
+      "play sound until done",
+      "stop all sounds",
+      "change volume by",
+      "set volume to",
+      "play note",
+      "set instrument"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T02.GK.05",
+          "title": "Yes or No Game: Guess My Picture",
+          "short_name": "Binary choice guessing game",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T20.GK.02",
+          "title": "Copy the Shape Pattern",
+          "short_name": "Copy ABAB pattern",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ],
+      "1": [
+        {
+          "id": "T23.G1.01",
+          "title": "What Can Computers Sense?",
+          "short_name": "Compare sensing abilities",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G1.02",
+          "title": "What If I Play Too Long?",
+          "short_name": "Predict consequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        }
+      ],
+      "2": [
+        {
+          "id": "T02.G2.05",
+          "title": "Create a Yes/No Helper for Friends",
+          "short_name": "Create simple decision tree",
+          "type": "picture_based_digital",
+          "activity": "build_tree"
+        },
+        {
+          "id": "T02.G2.06",
+          "title": "Map Your Space",
+          "short_name": "Create simple map",
+          "type": "picture_based_digital",
+          "activity": "build_map"
+        },
+        {
+          "id": "T03.G2.03",
+          "title": "Organize the Class Play Project",
+          "short_name": "Put complex project steps in order",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T26.G2.01",
+          "title": "Collect by Watching",
+          "short_name": "Observation-based data collection",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        }
+      ]
+    },
+    "total_mentions": 10
+  },
+  "Events": {
+    "keywords": [
+      "when clicked",
+      "when key",
+      "broadcast",
+      "receive",
+      "when backdrop",
+      "event",
+      "start"
+    ],
+    "foundational_blocks": [
+      "when green flag clicked",
+      "when this sprite clicked",
+      "when key pressed",
+      "when backdrop switches to",
+      "broadcast",
+      "broadcast and wait",
+      "when I receive"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T28.GK.02",
+          "title": "What's More Likely to Happen?",
+          "short_name": "Compare likelihood of scenarios",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        }
+      ],
+      "1": [
+        {
+          "id": "T02.G1.01",
+          "title": "Trace the Path Through the Grid",
+          "short_name": "Trace path using 4-5 picture symbols",
+          "type": "picture_based_digital",
+          "activity": "path_tracing"
+        },
+        {
+          "id": "T02.G1.06",
+          "title": "Picture a Story in Order",
+          "short_name": "Represent with pictures",
+          "type": "picture_based_digital",
+          "activity": "select_sequence"
+        },
+        {
+          "id": "T13.G1.03",
+          "title": "This Won't Get Us to the Goal!",
+          "short_name": "Identify picture preventing goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G1.01",
+          "title": "Predict: What Will We Pick?",
+          "short_name": "Predict outcome of random event",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G1.03",
+          "title": "Order by Likelihood",
+          "short_name": "Order events by likelihood",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ],
+      "2": [
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T06.G2.01",
+          "title": "When This Happens, Do That",
+          "short_name": "Match trigger event to action",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T06.G2.02",
+          "title": "What Starts the Action?",
+          "short_name": "Identify event trigger",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Track the Score!",
+          "short_name": "Use variable to track changing data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ]
+    },
+    "total_mentions": 11
+  },
+  "Control": {
+    "keywords": [
+      "wait",
+      "repeat",
+      "forever",
+      "if",
+      "else",
+      "loop",
+      "stop",
+      "clone",
+      "until"
+    ],
+    "foundational_blocks": [
+      "wait seconds",
+      "repeat",
+      "forever",
+      "if then",
+      "if then else",
+      "wait until",
+      "repeat until",
+      "stop all",
+      "stop this script",
+      "create clone",
+      "when I start as a clone",
+      "delete this clone"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T02.GK.06",
+          "title": "Draw to Show What You See",
+          "short_name": "Simple visual representation",
+          "type": "picture_based_digital",
+          "activity": "simple_draw"
+        },
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T04.GK.02",
+          "title": "Color Pattern: Red, Blue, Red, Blue",
+          "short_name": "Complete AB color pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T07.GK.01",
+          "title": "Do It Again! Counting Repeats",
+          "short_name": "Count repeated actions",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T07.GK.02",
+          "title": "Which Shows 'Do It Three Times'?",
+          "short_name": "Identify repetition sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T20.GK.03",
+          "title": "Stamp Pattern: Two Different Stamps",
+          "short_name": "Make pattern with 2 stamps",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.03",
+          "title": "What Kind Is It?",
+          "short_name": "Sort by type/category",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.04",
+          "title": "Count and Compare",
+          "short_name": "Count items and identify which has more",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.GK.02",
+          "title": "Which Has More?",
+          "short_name": "Compare two data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.GK.03",
+          "title": "Which is Biggest?",
+          "short_name": "Identify largest group",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.GK.04",
+          "title": "Same or Different Amounts?",
+          "short_name": "Compare for equality",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.GK.01",
+          "title": "More Likely: More Blue Marbles",
+          "short_name": "Identify more likely with visuals",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.GK.01",
+          "title": "Find the Computer",
+          "short_name": "Identify computing devices",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.GK.03",
+          "title": "Is It a Computer?",
+          "short_name": "Identify computing devices",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T30.GK.04",
+          "title": "Point to the Screen",
+          "short_name": "Identify computer parts",
+          "type": "picture_based_digital",
+          "activity": "hot_spot_click"
+        },
+        {
+          "id": "T32.GK.02",
+          "title": "Who Can We Tell?",
+          "short_name": "Identify trusted adults",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T32.GK.04",
+          "title": "Ask a Grown-Up First",
+          "short_name": "Identify when to ask adult",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T36.GK.01",
+          "title": "Who Uses Computers at Work?",
+          "short_name": "Identify workers using computers",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.GK.03",
+          "title": "Find Technology in Different Jobs",
+          "short_name": "Identify technology in jobs",
+          "type": "picture_based_digital",
+          "activity": "hot_spot_click"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.03",
+          "title": "Find the Missing Step",
+          "short_name": "Identify missing step in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T01.G1.04",
+          "title": "Two Ways to Do It: Which is Better?",
+          "short_name": "Compare two visual sequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.G1.03",
+          "title": "Which Path is Shorter?",
+          "short_name": "Compare two picture algorithms for same goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.G1.02",
+          "title": "What's Missing from Making Breakfast?",
+          "short_name": "Identify missing step in task",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.G1.04",
+          "title": "Planning a Birthday Party",
+          "short_name": "Break complex task into 4 parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Story Pattern Match",
+          "short_name": "Match repeating story to pattern",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.04",
+          "title": "Make Your Own Pattern",
+          "short_name": "Create repeating pattern by arranging items",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "type": "picture_based_digital",
+          "activity": "select_examples"
+        },
+        {
+          "id": "T05.G1.01",
+          "title": "Who Needs Help?",
+          "short_name": "Identify problem from scenario",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T07.G1.01",
+          "title": "How Many Times Does It Repeat?",
+          "short_name": "Count repetitions in sequence",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T07.G1.02",
+          "title": "Should We Repeat or Do Each?",
+          "short_name": "Identify when to use repetition",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T13.G1.02",
+          "title": "These Steps Are Out of Order",
+          "short_name": "Find wrong order in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T13.G1.03",
+          "title": "This Won't Get Us to the Goal!",
+          "short_name": "Identify picture preventing goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T20.G1.01",
+          "title": "Create an ABC Pattern",
+          "short_name": "Create ABCABC pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T23.G1.01",
+          "title": "What Can Computers Sense?",
+          "short_name": "Compare sensing abilities",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.G1.03",
+          "title": "Which Got the Most?",
+          "short_name": "Identify mode from visual",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.G1.03",
+          "title": "Parts of a Computer",
+          "short_name": "Identify computer components",
+          "type": "picture_based_digital",
+          "activity": "hot_spot_click"
+        },
+        {
+          "id": "T32.G1.01",
+          "title": "What Should Stay Private?",
+          "short_name": "Identify PII",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T32.G1.02",
+          "title": "Who Can I Trust Online?",
+          "short_name": "Identify trustworthy people",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T32.G1.04",
+          "title": "Spot the Trick",
+          "short_name": "Identify scam picture",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T34.G1.01",
+          "title": "Technology from Different Places",
+          "short_name": "Explore diverse contributions",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T34.G1.02",
+          "title": "Life Before and After",
+          "short_name": "Compare life before/after tech",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.G1.04",
+          "title": "Draw an Invention",
+          "short_name": "Identify inventions visually",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G1.02",
+          "title": "What If I Play Too Long?",
+          "short_name": "Predict consequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.01",
+          "title": "Being Kind Online: Choose Kind Words",
+          "short_name": "Identify kind online behavior",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.02",
+          "title": "Working Together: Who's Helping?",
+          "short_name": "Identify collaboration scenarios",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.03",
+          "title": "When Should You Ask for Help?",
+          "short_name": "Identify when to ask for help",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Choose the Path: If-Then Decisions",
+          "short_name": "Sequence with conditional choices",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T01.G2.02",
+          "title": "Patterns that Repeat: Can You See It?",
+          "short_name": "Identify repeating sequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T02.G2.03",
+          "title": "Fix the Path That's Wrong",
+          "short_name": "Debug picture algorithm that doesn't reach goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.01",
+          "title": "Find All the Patterns",
+          "short_name": "Identify multiple repeating sections",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Short-Cut the Repeat: Circle It Once",
+          "short_name": "Identify what to repeat instead of showing multiple times",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G2.04",
+          "title": "Pattern Prediction: What Will It Make?",
+          "short_name": "Predict result of repeating pattern",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T05.G2.04",
+          "title": "Testing with Different Users",
+          "short_name": "Identify accessibility needs",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T06.G2.02",
+          "title": "What Starts the Action?",
+          "short_name": "Identify event trigger",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T07.G2.01",
+          "title": "Repeat This Part: Which One?",
+          "short_name": "Identify section that should repeat",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T07.G2.02",
+          "title": "Three Times vs Five Times",
+          "short_name": "Compare different repeat counts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T08.G2.01",
+          "title": "If Raining, Then Take Umbrella",
+          "short_name": "Simple if-then scenarios",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T08.G2.03",
+          "title": "What Should Happen If...?",
+          "short_name": "Match condition to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T08.G2.04",
+          "title": "Which Rule Is Being Followed?",
+          "short_name": "Identify which if-then rule applies",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T13.G2.01",
+          "title": "Find All the Errors",
+          "short_name": "Find multiple errors in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T13.G2.02",
+          "title": "What Kind of Error Is This?",
+          "short_name": "Identify error type",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T14.G2.01",
+          "title": "What Makes Something a Game?",
+          "short_name": "Identify games vs not games",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T20.G2.02",
+          "title": "Design a Repeating Tile",
+          "short_name": "Create tessellation design",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T20.G2.03",
+          "title": "What Rule Made This Pattern?",
+          "short_name": "Identify rules in pattern",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "What Can Change? What Stays the Same?",
+          "short_name": "Identify variable vs constant",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Find What's Missing",
+          "short_name": "Identify incomplete data",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.G2.02",
+          "title": "Find the Most Popular",
+          "short_name": "Identify mode/highest count",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G2.01",
+          "title": "Spinner: Which Section Is Biggest?",
+          "short_name": "Simple probability comparisons",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G2.02",
+          "title": "Predict 10 Spins",
+          "short_name": "Predict results of 10 trials",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T28.G2.03",
+          "title": "Is This Experiment Fair?",
+          "short_name": "Identify fair experiments",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "What Does This Sensor Do?",
+          "short_name": "Identify sensor purposes",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T31.G2.01",
+          "title": "How Does the Internet Help?",
+          "short_name": "Identify how internet helps",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T34.G2.01",
+          "title": "How Life Changed",
+          "short_name": "Compare daily life",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.G2.02",
+          "title": "What Does It Help Us Do?",
+          "short_name": "Identify technology purpose",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and Bad Changes",
+          "short_name": "Identify impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G2.01",
+          "title": "Before and After Tech",
+          "short_name": "Compare life impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G2.03",
+          "title": "Unexpected Problems",
+          "short_name": "Identify unintended impacts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G2.04",
+          "title": "Different Communities, Different Uses",
+          "short_name": "Understand diverse usage",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T36.G2.02",
+          "title": "Giving Credit for Work",
+          "short_name": "Identify scenarios needing credit",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        }
+      ]
+    },
+    "total_mentions": 92
+  },
+  "Sensing": {
+    "keywords": [
+      "touching",
+      "distance",
+      "ask",
+      "answer",
+      "mouse",
+      "key pressed",
+      "timer",
+      "sensor",
+      "detect"
+    ],
+    "foundational_blocks": [
+      "touching",
+      "touching color",
+      "color is touching",
+      "distance to",
+      "ask and wait",
+      "answer",
+      "key pressed",
+      "mouse down",
+      "mouse x",
+      "mouse y",
+      "reset timer",
+      "timer",
+      "current date/time"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T02.GK.05",
+          "title": "Yes or No Game: Guess My Picture",
+          "short_name": "Binary choice guessing game",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.GK.02",
+          "title": "Getting Ready: What Parts?",
+          "short_name": "Match task to its 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T23.GK.01",
+          "title": "Match Senses to Sensors",
+          "short_name": "Human senses vs. computer sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Make a List",
+          "short_name": "Create list from collected data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.GK.04",
+          "title": "Take a Survey: Click Your Choice",
+          "short_name": "Participate in data collection",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T32.GK.04",
+          "title": "Ask a Grown-Up First",
+          "short_name": "Identify when to ask adult",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.04",
+          "title": "Two Ways to Do It: Which is Better?",
+          "short_name": "Compare two visual sequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.G1.05",
+          "title": "Follow the Yes/No Path to Choose",
+          "short_name": "Follow binary decision tree",
+          "type": "picture_based_digital",
+          "activity": "click_path"
+        },
+        {
+          "id": "T03.G1.01",
+          "title": "Cleaning Your Room: Three Big Steps",
+          "short_name": "Break task into 3 parts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T03.G1.02",
+          "title": "What's Missing from Making Breakfast?",
+          "short_name": "Identify missing step in task",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.G1.04",
+          "title": "Planning a Birthday Party",
+          "short_name": "Break complex task into 4 parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Make a Picture Chart",
+          "short_name": "Create simple tally/picture chart",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G1.01",
+          "title": "Ask the Class",
+          "short_name": "Collect data from multiple responses",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare the Data",
+          "short_name": "Compare multiple data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.G1.01",
+          "title": "Read the Picture Chart",
+          "short_name": "Answer questions from pictograph",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T36.G1.03",
+          "title": "When Should You Ask for Help?",
+          "short_name": "Identify when to ask for help",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        }
+      ],
+      "2": [
+        {
+          "id": "T03.G2.01",
+          "title": "Group the Garden Project Steps",
+          "short_name": "Plan project with logical groups",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T28.G2.04",
+          "title": "What Do the Results Tell Us?",
+          "short_name": "Interpret random results",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "What Does This Sensor Do?",
+          "short_name": "Identify sensor purposes",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        }
+      ]
+    },
+    "total_mentions": 24
+  },
+  "Operators": {
+    "keywords": [
+      "add",
+      "subtract",
+      "multiply",
+      "divide",
+      "comparison",
+      "and",
+      "or",
+      "not",
+      "join",
+      "letter",
+      "math",
+      "random"
+    ],
+    "foundational_blocks": [
+      "add",
+      "subtract",
+      "multiply",
+      "divide",
+      "pick random",
+      "greater than",
+      "less than",
+      "equals",
+      "and",
+      "or",
+      "not",
+      "join",
+      "letter of",
+      "length of",
+      "contains",
+      "mod",
+      "round",
+      "mathop (abs, floor, ceiling, sqrt, sin, cos, tan, etc.)"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T01.GK.01",
+          "title": "Help the Puppy Get Ready for Bed",
+          "short_name": "Sequence 3 bedtime routine steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T01.GK.02",
+          "title": "Making a Sandwich: What's the Right Order?",
+          "short_name": "Sequence 3 sandwich-making steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T01.GK.03",
+          "title": "Getting Dressed: Morning Routine",
+          "short_name": "Sequence 3 getting dressed steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T01.GK.04",
+          "title": "Washing Hands: Do It Right!",
+          "short_name": "Sequence 3 handwashing steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.GK.01",
+          "title": "Follow the Arrow Cards",
+          "short_name": "Follow 3-step arrow picture sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T02.GK.03",
+          "title": "Help the Cat Find the Food",
+          "short_name": "Create simple 3-arrow path with pictures",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.GK.05",
+          "title": "Yes or No Game: Guess My Picture",
+          "short_name": "Binary choice guessing game",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T04.GK.02",
+          "title": "Color Pattern: Red, Blue, Red, Blue",
+          "short_name": "Complete AB color pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T04.GK.04",
+          "title": "Big-Small Pattern",
+          "short_name": "Complete AB size pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T04.GK.05",
+          "title": "Sort Pictures by What You See",
+          "short_name": "Pattern recognition sorting",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T13.GK.01",
+          "title": "Find What's Wrong in the Pictures",
+          "short_name": "Find 1 error in 3-picture sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T13.GK.03",
+          "title": "Fix the Puppy's Morning",
+          "short_name": "Fix sequence by swapping 2 pictures",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T20.GK.01",
+          "title": "Make a Two-Color Pattern",
+          "short_name": "Create 2-color pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        },
+        {
+          "id": "T23.GK.01",
+          "title": "Match Senses to Sensors",
+          "short_name": "Human senses vs. computer sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T25.GK.01",
+          "title": "Sort by Color",
+          "short_name": "Sort objects by single attribute (color)",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.03",
+          "title": "What Kind Is It?",
+          "short_name": "Sort by type/category",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.04",
+          "title": "Count and Compare",
+          "short_name": "Count items and identify which has more",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.GK.02",
+          "title": "Which Has More?",
+          "short_name": "Compare two data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.GK.04",
+          "title": "Take a Survey: Click Your Choice",
+          "short_name": "Participate in data collection",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.GK.01",
+          "title": "Which Pile Has More?",
+          "short_name": "Visual comparison of quantities",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.GK.02",
+          "title": "Count the Pictureseach",
+          "short_name": "Count and compare picture sets",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T27.GK.04",
+          "title": "Same or Different Amounts?",
+          "short_name": "Compare for equality",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.GK.01",
+          "title": "More Likely: More Blue Marbles",
+          "short_name": "Identify more likely with visuals",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.GK.02",
+          "title": "What's More Likely to Happen?",
+          "short_name": "Compare likelihood of scenarios",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T28.GK.03",
+          "title": "Certain, Maybe, or Impossible?",
+          "short_name": "Sort scenarios by certainty",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T30.GK.02",
+          "title": "What Do We Use It For?",
+          "short_name": "Match device to use",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T32.GK.01",
+          "title": "Private or Not Private?",
+          "short_name": "Sort personal information",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T32.GK.03",
+          "title": "Keep Secrets Safe",
+          "short_name": "Understand privacy",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.GK.01",
+          "title": "Old or New?",
+          "short_name": "Sort old vs new technology",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.GK.02",
+          "title": "Before and After",
+          "short_name": "Sequence technology evolution",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T34.GK.03",
+          "title": "Match Old to New",
+          "short_name": "Match old and new versions",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T34.GK.04",
+          "title": "How Did People Do It Before?",
+          "short_name": "Compare past and present",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.GK.01",
+          "title": "Good or Problem?",
+          "short_name": "Sort technology effects",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.GK.02",
+          "title": "Too Much Screen Time?",
+          "short_name": "Understand balance",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.GK.03",
+          "title": "Who Made This Game?",
+          "short_name": "Recognize human creators",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T35.GK.04",
+          "title": "When to Use It, When Not To",
+          "short_name": "Appropriate device use",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T36.GK.01",
+          "title": "Who Uses Computers at Work?",
+          "short_name": "Identify workers using computers",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.GK.02",
+          "title": "Match the Tool to the Job",
+          "short_name": "Match technology tool to job",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T36.GK.03",
+          "title": "Find Technology in Different Jobs",
+          "short_name": "Identify technology in jobs",
+          "type": "picture_based_digital",
+          "activity": "hot_spot_click"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.01",
+          "title": "Plant a Seed: Steps in Order",
+          "short_name": "Sequence 4-5 planting steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T01.G1.02",
+          "title": "What Happens Next? Story Sequence",
+          "short_name": "Predict next step in 4-picture sequence",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T01.G1.04",
+          "title": "Two Ways to Do It: Which is Better?",
+          "short_name": "Compare two visual sequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.G1.02",
+          "title": "Create the Path to the Treasure",
+          "short_name": "Create picture algorithm for 4-step path",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G1.03",
+          "title": "Which Path is Shorter?",
+          "short_name": "Compare two picture algorithms for same goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.G1.04",
+          "title": "Follow the Picture Recipe",
+          "short_name": "Trace multi-step picture algorithm (5 steps)",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G1.05",
+          "title": "Follow the Yes/No Path to Choose",
+          "short_name": "Follow binary decision tree",
+          "type": "picture_based_digital",
+          "activity": "click_path"
+        },
+        {
+          "id": "T02.G1.06",
+          "title": "Picture a Story in Order",
+          "short_name": "Represent with pictures",
+          "type": "picture_based_digital",
+          "activity": "select_sequence"
+        },
+        {
+          "id": "T03.G1.01",
+          "title": "Cleaning Your Room: Three Big Steps",
+          "short_name": "Break task into 3 parts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T03.G1.02",
+          "title": "What's Missing from Making Breakfast?",
+          "short_name": "Identify missing step in task",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.G1.03",
+          "title": "Pet Care Plan: Put It in Order",
+          "short_name": "Order multi-step project parts",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.02",
+          "title": "Story Pattern Match",
+          "short_name": "Match repeating story to pattern",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "type": "picture_based_digital",
+          "activity": "select_examples"
+        },
+        {
+          "id": "T05.G1.01",
+          "title": "Who Needs Help?",
+          "short_name": "Identify problem from scenario",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T05.G1.02",
+          "title": "What Would Help This Person?",
+          "short_name": "Choose helpful tool",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T07.G1.02",
+          "title": "Should We Repeat or Do Each?",
+          "short_name": "Identify when to use repetition",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T13.G1.02",
+          "title": "These Steps Are Out of Order",
+          "short_name": "Find wrong order in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T13.G1.04",
+          "title": "How Should We Fix This?",
+          "short_name": "Choose correct fix for broken sequence",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T20.G1.02",
+          "title": "Make It Symmetrical",
+          "short_name": "Create symmetric pattern",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T20.G1.04",
+          "title": "Butterfly Wings: Mirror Pattern",
+          "short_name": "Create symmetric butterfly wing",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T23.G1.01",
+          "title": "What Can Computers Sense?",
+          "short_name": "Compare sensing abilities",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G1.04",
+          "title": "Make a Picture Chart",
+          "short_name": "Create simple tally/picture chart",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare the Data",
+          "short_name": "Compare multiple data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make the List",
+          "short_name": "Organize collected data into list",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T27.G1.02",
+          "title": "Count Each Group",
+          "short_name": "Count data in each category",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T28.G1.01",
+          "title": "Predict: What Will We Pick?",
+          "short_name": "Predict outcome of random event",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G1.02",
+          "title": "Which Bag Gives Better Chance?",
+          "short_name": "Compare bags for best chance",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G1.03",
+          "title": "Order by Likelihood",
+          "short_name": "Order events by likelihood",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T30.G1.02",
+          "title": "Input or Output?",
+          "short_name": "Sort input/output devices",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T30.G1.04",
+          "title": "Software Makes It Work",
+          "short_name": "Match software to device",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T31.G1.01",
+          "title": "Computers Can Connect",
+          "short_name": "Understand connection concept",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T31.G1.02",
+          "title": "Connected or Not Connected?",
+          "short_name": "Sort networked vs not",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T32.G1.02",
+          "title": "Who Can I Trust Online?",
+          "short_name": "Identify trustworthy people",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T32.G1.03",
+          "title": "Why Passwords Matter",
+          "short_name": "Understand password purpose",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T34.G1.01",
+          "title": "Technology from Different Places",
+          "short_name": "Explore diverse contributions",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T34.G1.02",
+          "title": "Life Before and After",
+          "short_name": "Compare life before/after tech",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.G1.03",
+          "title": "Name the Inventor",
+          "short_name": "Match inventor to invention",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T35.G1.01",
+          "title": "Good and Bad Effects",
+          "short_name": "List technology impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G1.03",
+          "title": "People Make Games",
+          "short_name": "Understand human design",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T35.G1.04",
+          "title": "Device or No Device?",
+          "short_name": "Decide appropriate use",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.01",
+          "title": "Being Kind Online: Choose Kind Words",
+          "short_name": "Identify kind online behavior",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.02",
+          "title": "Working Together: Who's Helping?",
+          "short_name": "Identify collaboration scenarios",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G1.03",
+          "title": "When Should You Ask for Help?",
+          "short_name": "Identify when to ask for help",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T36.G1.04",
+          "title": "Kind or Unkind Online?",
+          "short_name": "Sort kind vs unkind behavior",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.01",
+          "title": "Choose the Path: If-Then Decisions",
+          "short_name": "Sequence with conditional choices",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T01.G2.02",
+          "title": "Patterns that Repeat: Can You See It?",
+          "short_name": "Identify repeating sequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T01.G2.03",
+          "title": "Follow the Steps: What Does It Make?",
+          "short_name": "Trace sequence to predict outcome",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T02.G2.01",
+          "title": "Arrows, Words, and Pictures: Same Path!",
+          "short_name": "Compare algorithms in different representations",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T02.G2.02",
+          "title": "Picture Code to Word Code",
+          "short_name": "Translate picture symbols to words",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G2.03",
+          "title": "Fix the Path That's Wrong",
+          "short_name": "Debug picture algorithm that doesn't reach goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T02.G2.04",
+          "title": "Create Your Own Map Code",
+          "short_name": "Create 6-step picture algorithm independently",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G2.05",
+          "title": "Create a Yes/No Helper for Friends",
+          "short_name": "Create simple decision tree",
+          "type": "picture_based_digital",
+          "activity": "build_tree"
+        },
+        {
+          "id": "T02.G2.06",
+          "title": "Map Your Space",
+          "short_name": "Create simple map",
+          "type": "picture_based_digital",
+          "activity": "build_map"
+        },
+        {
+          "id": "T03.G2.01",
+          "title": "Group the Garden Project Steps",
+          "short_name": "Plan project with logical groups",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T03.G2.03",
+          "title": "Organize the Class Play Project",
+          "short_name": "Put complex project steps in order",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G2.02",
+          "title": "Short-Cut the Repeat: Circle It Once",
+          "short_name": "Identify what to repeat instead of showing multiple times",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G2.04",
+          "title": "Pattern Prediction: What Will It Make?",
+          "short_name": "Predict result of repeating pattern",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "type": "picture_based_digital",
+          "activity": "experiment_compare"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T05.G2.02",
+          "title": "App for Kids vs Grandparents",
+          "short_name": "Choose features for audience",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T05.G2.03",
+          "title": "What Makes It Easier to Use?",
+          "short_name": "Match accessibility feature to need",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T05.G2.04",
+          "title": "Testing with Different Users",
+          "short_name": "Identify accessibility needs",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T06.G2.02",
+          "title": "What Starts the Action?",
+          "short_name": "Identify event trigger",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T07.G2.02",
+          "title": "Three Times vs Five Times",
+          "short_name": "Compare different repeat counts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T08.G2.03",
+          "title": "What Should Happen If...?",
+          "short_name": "Match condition to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T09.G2.01",
+          "title": "Things That Change vs Stay the Same",
+          "short_name": "Sort changing vs static values",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T09.G2.02",
+          "title": "Boxes That Store Values",
+          "short_name": "Visual metaphor for variable storage",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T10.G2.02",
+          "title": "Organizing in a Table",
+          "short_name": "Arrange items in table structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T12.G2.01",
+          "title": "Group the Steps That Go Together",
+          "short_name": "Organize steps into groups",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T12.G2.02",
+          "title": "Put the Groups in Better Order",
+          "short_name": "Arrange grouped steps in order",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T13.G2.01",
+          "title": "Find All the Errors",
+          "short_name": "Find multiple errors in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T13.G2.02",
+          "title": "What Kind of Error Is This?",
+          "short_name": "Identify error type",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T13.G2.03",
+          "title": "Test It: Does It Match?",
+          "short_name": "Test sequence against expected outcome",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T13.G2.04",
+          "title": "Debug the Robot's Path",
+          "short_name": "Debug complex algorithm",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T14.G2.01",
+          "title": "What Makes Something a Game?",
+          "short_name": "Identify games vs not games",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T14.G2.02",
+          "title": "Match the Game to Its Goal",
+          "short_name": "Understand game design concepts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T21.G2.01",
+          "title": "Computers Can Make Pictures",
+          "short_name": "Understand AI generation concept",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Make a Variable Box",
+          "short_name": "Understand variable as storage",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "What Can Change? What Stays the Same?",
+          "short_name": "Identify variable vs constant",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Track the Score!",
+          "short_name": "Use variable to track changing data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G2.05",
+          "title": "Make a Simple Table",
+          "short_name": "Organize data into rows and columns",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G2.02",
+          "title": "Fill the Table",
+          "short_name": "Organize data into table structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G2.03",
+          "title": "Survey the Class",
+          "short_name": "Design and understand survey",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Find What's Missing",
+          "short_name": "Identify incomplete data",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.G2.03",
+          "title": "More or Fewer?",
+          "short_name": "Compare data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.G2.04",
+          "title": "Add Them All Up",
+          "short_name": "Find total by adding counts",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T28.G2.01",
+          "title": "Spinner: Which Section Is Biggest?",
+          "short_name": "Simple probability comparisons",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T28.G2.03",
+          "title": "Is This Experiment Fair?",
+          "short_name": "Identify fair experiments",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T28.G2.04",
+          "title": "What Do the Results Tell Us?",
+          "short_name": "Interpret random results",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.G2.02",
+          "title": "Input to Output",
+          "short_name": "Understand processing flow",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T30.G2.03",
+          "title": "What Does This Sensor Do?",
+          "short_name": "Identify sensor purposes",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T30.G2.04",
+          "title": "Hardware Plus Software",
+          "short_name": "Connect hardware and software",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T31.G2.02",
+          "title": "Saved on Computer or in the Cloud?",
+          "short_name": "Local vs cloud concept",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T32.G2.01",
+          "title": "Keep Information Private",
+          "short_name": "Privacy practices",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T32.G2.02",
+          "title": "Make a Strong Password",
+          "short_name": "Password creation principles",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T32.G2.03",
+          "title": "Is This Real or Fake?",
+          "short_name": "Recognize phishing",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T32.G2.04",
+          "title": "Safe Sharing Rules",
+          "short_name": "Safe online behaviors",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and Bad Changes",
+          "short_name": "Identify impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G2.01",
+          "title": "Before and After Tech",
+          "short_name": "Compare life impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G2.02",
+          "title": "How Could This Help?",
+          "short_name": "Brainstorm benefits",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G2.04",
+          "title": "Different Communities, Different Uses",
+          "short_name": "Understand diverse usage",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "type": "picture_based_digital",
+          "activity": "sequence_story"
+        },
+        {
+          "id": "T36.G2.01",
+          "title": "When Should We Use Technology?",
+          "short_name": "Choose appropriate contexts",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T36.G2.02",
+          "title": "Giving Credit for Work",
+          "short_name": "Identify scenarios needing credit",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T36.G2.03",
+          "title": "Helpful Feedback or Criticism?",
+          "short_name": "Distinguish feedback from criticism",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T36.G2.04",
+          "title": "Balance: Screen Time Choices",
+          "short_name": "Evaluate screen time balance",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        }
+      ]
+    },
+    "total_mentions": 162
+  },
+  "Variables": {
+    "keywords": [
+      "variable",
+      "set",
+      "change",
+      "data",
+      "store",
+      "track"
+    ],
+    "foundational_blocks": [
+      "create variable",
+      "set variable to",
+      "change variable by",
+      "show variable",
+      "hide variable"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T25.GK.01",
+          "title": "Sort by Color",
+          "short_name": "Sort objects by single attribute (color)",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.GK.02",
+          "title": "Which Has More?",
+          "short_name": "Compare two data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Make a List",
+          "short_name": "Create list from collected data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.GK.04",
+          "title": "Take a Survey: Click Your Choice",
+          "short_name": "Participate in data collection",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.GK.02",
+          "title": "Count the Pictureseach",
+          "short_name": "Count and compare picture sets",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        }
+      ],
+      "1": [
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T26.G1.01",
+          "title": "Ask the Class",
+          "short_name": "Collect data from multiple responses",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.G1.02",
+          "title": "Compare the Data",
+          "short_name": "Compare multiple data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make the List",
+          "short_name": "Organize collected data into list",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T27.G1.02",
+          "title": "Count Each Group",
+          "short_name": "Count data in each category",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        }
+      ],
+      "2": [
+        {
+          "id": "T02.G2.03",
+          "title": "Fix the Path That's Wrong",
+          "short_name": "Debug picture algorithm that doesn't reach goal",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.03",
+          "title": "Customize the Template",
+          "short_name": "Modify template while keeping structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "type": "picture_based_digital",
+          "activity": "experiment_compare"
+        },
+        {
+          "id": "T09.G2.01",
+          "title": "Things That Change vs Stay the Same",
+          "short_name": "Sort changing vs static values",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T09.G2.02",
+          "title": "Boxes That Store Values",
+          "short_name": "Visual metaphor for variable storage",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Make a Variable Box",
+          "short_name": "Understand variable as storage",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G2.03",
+          "title": "What Can Change? What Stays the Same?",
+          "short_name": "Identify variable vs constant",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G2.04",
+          "title": "Track the Score!",
+          "short_name": "Use variable to track changing data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G2.05",
+          "title": "Make a Simple Table",
+          "short_name": "Organize data into rows and columns",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G2.01",
+          "title": "Collect by Watching",
+          "short_name": "Observation-based data collection",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.G2.02",
+          "title": "Fill the Table",
+          "short_name": "Organize data into table structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T26.G2.04",
+          "title": "Find What's Missing",
+          "short_name": "Identify incomplete data",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T27.G2.01",
+          "title": "Make a Bar Chart",
+          "short_name": "Create simple bar chart from data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T27.G2.03",
+          "title": "More or Fewer?",
+          "short_name": "Compare data groups",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T34.G2.01",
+          "title": "How Life Changed",
+          "short_name": "Compare daily life",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T34.G2.03",
+          "title": "Good and Bad Changes",
+          "short_name": "Identify impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "type": "picture_based_digital",
+          "activity": "sequence_story"
+        }
+      ]
+    },
+    "total_mentions": 31
+  },
+  "Lists": {
+    "keywords": [
+      "list",
+      "add to list",
+      "delete",
+      "insert",
+      "item",
+      "contains",
+      "length"
+    ],
+    "foundational_blocks": [
+      "create list",
+      "add to list",
+      "delete item of list",
+      "delete all of list",
+      "insert at item of list",
+      "replace item of list",
+      "item of list",
+      "item # of thing in list",
+      "length of list",
+      "list contains thing",
+      "show list",
+      "hide list"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T25.GK.02",
+          "title": "Big or Small?",
+          "short_name": "Sort by size attribute",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.03",
+          "title": "What Kind Is It?",
+          "short_name": "Sort by type/category",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.GK.04",
+          "title": "Count and Compare",
+          "short_name": "Count items and identify which has more",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Make a List",
+          "short_name": "Create list from collected data",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ],
+      "1": [
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.04",
+          "title": "Make Your Own Pattern",
+          "short_name": "Create repeating pattern by arranging items",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T25.G1.01",
+          "title": "Sort by Two Things",
+          "short_name": "Multi-attribute classification",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G1.02",
+          "title": "More, Less, or Same?",
+          "short_name": "Compare quantities visually",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T26.G1.03",
+          "title": "Make the List",
+          "short_name": "Organize collected data into list",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T35.G1.01",
+          "title": "Good and Bad Effects",
+          "short_name": "List technology impacts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        }
+      ],
+      "2": [
+        {
+          "id": "T09.G2.01",
+          "title": "Things That Change vs Stay the Same",
+          "short_name": "Sort changing vs static values",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T10.G2.01",
+          "title": "Collections of Similar Things",
+          "short_name": "Group items into collections",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T10.G2.02",
+          "title": "Organizing in a Table",
+          "short_name": "Arrange items in table structure",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ]
+    },
+    "total_mentions": 14
+  },
+  "Functions": {
+    "keywords": [
+      "custom block",
+      "define",
+      "my block",
+      "function",
+      "procedure",
+      "parameter"
+    ],
+    "foundational_blocks": [
+      "define custom block",
+      "custom block with parameters",
+      "custom block with return value (via variable)",
+      "run without screen refresh"
+    ],
+    "coverage": {
+      "K": [],
+      "1": [],
+      "2": []
+    },
+    "total_mentions": 0
+  },
+  "3D": {
+    "keywords": [
+      "3D",
+      "camera",
+      "z position",
+      "rotate",
+      "3D object",
+      "babylon",
+      "mesh",
+      "scene"
+    ],
+    "foundational_blocks": [
+      "create 3D object",
+      "set position x y z",
+      "change position",
+      "set rotation",
+      "set size",
+      "set camera position",
+      "point camera at",
+      "show/hide 3D object"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T23.GK.01",
+          "title": "Match Senses to Sensors",
+          "short_name": "Human senses vs. computer sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        }
+      ],
+      "1": [],
+      "2": [
+        {
+          "id": "T23.G2.01",
+          "title": "Computers Need Sensors to Know Things",
+          "short_name": "Why computers need sensors",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T26.G2.01",
+          "title": "Collect by Watching",
+          "short_name": "Observation-based data collection",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        }
+      ]
+    },
+    "total_mentions": 3
+  },
+  "Physics": {
+    "keywords": [
+      "physics",
+      "gravity",
+      "collision",
+      "force",
+      "velocity",
+      "mass",
+      "bounce"
+    ],
+    "foundational_blocks": [
+      "enable physics",
+      "set gravity",
+      "set velocity",
+      "apply force",
+      "set mass",
+      "set friction",
+      "set bounce",
+      "when collides with"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T02.GK.02",
+          "title": "Match the Path to the Arrow Cards",
+          "short_name": "Match picture algorithm to outcome",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        }
+      ],
+      "1": [
+        {
+          "id": "T02.G1.04",
+          "title": "Follow the Picture Recipe",
+          "short_name": "Trace multi-step picture algorithm (5 steps)",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        }
+      ],
+      "2": []
+    },
+    "total_mentions": 2
+  },
+  "AI": {
+    "keywords": [
+      "AI",
+      "ChatGPT",
+      "GPT",
+      "image generation",
+      "voice",
+      "vision",
+      "text to speech",
+      "recognize"
+    ],
+    "foundational_blocks": [
+      "ask ChatGPT",
+      "generate image from text",
+      "text to speech",
+      "speech to text",
+      "recognize objects in image",
+      "detect faces",
+      "classify image",
+      "train model"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T03.GK.01",
+          "title": "Making a Sandwich: Two Big Parts",
+          "short_name": "Break task into 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T03.GK.02",
+          "title": "Getting Ready: What Parts?",
+          "short_name": "Match task to its 2 main parts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T03.GK.03",
+          "title": "Put the Big Parts in Order",
+          "short_name": "Order 2-part task sequence",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T07.GK.01",
+          "title": "Do It Again! Counting Repeats",
+          "short_name": "Count repeated actions",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Ask and Count",
+          "short_name": "Collect data by asking yes/no question",
+          "type": "picture_based_digital",
+          "activity": "counting_interaction"
+        },
+        {
+          "id": "T28.GK.03",
+          "title": "Certain, Maybe, or Impossible?",
+          "short_name": "Sort scenarios by certainty",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.GK.03",
+          "title": "Who Made This Game?",
+          "short_name": "Recognize human creators",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T35.GK.05",
+          "title": "Who Makes the AI?",
+          "short_name": "Identify AI creators",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        }
+      ],
+      "1": [
+        {
+          "id": "T03.G1.01",
+          "title": "Cleaning Your Room: Three Big Steps",
+          "short_name": "Break task into 3 parts",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T03.G1.03",
+          "title": "Pet Care Plan: Put It in Order",
+          "short_name": "Order multi-step project parts",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T03.G1.04",
+          "title": "Planning a Birthday Party",
+          "short_name": "Break complex task into 4 parts",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.05",
+          "title": "Show the Computer What You Mean",
+          "short_name": "Learning from examples",
+          "type": "picture_based_digital",
+          "activity": "select_examples"
+        },
+        {
+          "id": "T13.G1.02",
+          "title": "These Steps Are Out of Order",
+          "short_name": "Find wrong order in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T25.G1.03",
+          "title": "Numbers Tell Us Things",
+          "short_name": "Recognize numeric vs non-numeric data",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        }
+      ],
+      "2": [
+        {
+          "id": "T04.G2.05",
+          "title": "More Pictures Help AI Learn Better",
+          "short_name": "Understand training data size",
+          "type": "picture_based_digital",
+          "activity": "experiment_compare"
+        },
+        {
+          "id": "T05.G2.01",
+          "title": "Designing for Different Users",
+          "short_name": "Identify wheelchair user needs",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T06.G2.03",
+          "title": "Put Event-Response in Order",
+          "short_name": "Order event-response pairs",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T08.G2.01",
+          "title": "If Raining, Then Take Umbrella",
+          "short_name": "Simple if-then scenarios",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T13.G2.03",
+          "title": "Test It: Does It Match?",
+          "short_name": "Test sequence against expected outcome",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T14.G2.02",
+          "title": "Match the Game to Its Goal",
+          "short_name": "Understand game design concepts",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T21.G2.01",
+          "title": "Computers Can Make Pictures",
+          "short_name": "Understand AI generation concept",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T28.G2.03",
+          "title": "Is This Experiment Fair?",
+          "short_name": "Identify fair experiments",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T32.G2.03",
+          "title": "Is This Real or Fake?",
+          "short_name": "Recognize phishing",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T34.G2.01",
+          "title": "How Life Changed",
+          "short_name": "Compare daily life",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G2.02",
+          "title": "How Could This Help?",
+          "short_name": "Brainstorm benefits",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T35.G2.05",
+          "title": "Humans Teach AI to Work",
+          "short_name": "How humans train AI",
+          "type": "picture_based_digital",
+          "activity": "sequence_story"
+        },
+        {
+          "id": "T36.G2.04",
+          "title": "Balance: Screen Time Choices",
+          "short_name": "Evaluate screen time balance",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        }
+      ]
+    },
+    "total_mentions": 28
+  },
+  "Widgets": {
+    "keywords": [
+      "widget",
+      "button",
+      "label",
+      "input",
+      "slider",
+      "text field",
+      "UI",
+      "interface"
+    ],
+    "foundational_blocks": [
+      "create button",
+      "create label",
+      "create text input",
+      "create slider",
+      "when button clicked",
+      "get input value",
+      "set widget property",
+      "show/hide widget"
+    ],
+    "coverage": {
+      "K": [
+        {
+          "id": "T01.GK.01",
+          "title": "Help the Puppy Get Ready for Bed",
+          "short_name": "Sequence 3 bedtime routine steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Animal Pattern: What Comes Next?",
+          "short_name": "Complete simple AB pattern",
+          "type": "picture_based_digital",
+          "activity": "pattern_complete"
+        }
+      ],
+      "1": [
+        {
+          "id": "T01.G1.01",
+          "title": "Plant a Seed: Steps in Order",
+          "short_name": "Sequence 4-5 planting steps",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T01.G1.03",
+          "title": "Find the Missing Step",
+          "short_name": "Identify missing step in sequence",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.01",
+          "title": "Find the Repeating Part",
+          "short_name": "Identify repeating unit in ABC pattern",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G1.03",
+          "title": "Template Time: Which Ones Are the Same?",
+          "short_name": "Identify items following same template",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T30.G1.02",
+          "title": "Input or Output?",
+          "short_name": "Sort input/output devices",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T35.G1.05",
+          "title": "People Build AI Tools",
+          "short_name": "People behind AI",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        }
+      ],
+      "2": [
+        {
+          "id": "T01.G2.02",
+          "title": "Patterns that Repeat: Can You See It?",
+          "short_name": "Identify repeating sequences",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T01.G2.04",
+          "title": "Guide the Robot Through the Maze",
+          "short_name": "Navigate path with directional choices",
+          "type": "picture_based_digital",
+          "activity": "path_tracing"
+        },
+        {
+          "id": "T02.G2.02",
+          "title": "Picture Code to Word Code",
+          "short_name": "Translate picture symbols to words",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T02.G2.05",
+          "title": "Create a Yes/No Helper for Friends",
+          "short_name": "Create simple decision tree",
+          "type": "picture_based_digital",
+          "activity": "build_tree"
+        },
+        {
+          "id": "T04.G2.01",
+          "title": "Find All the Patterns",
+          "short_name": "Identify multiple repeating sections",
+          "type": "picture_based_digital",
+          "activity": "click_select"
+        },
+        {
+          "id": "T04.G2.04",
+          "title": "Pattern Prediction: What Will It Make?",
+          "short_name": "Predict result of repeating pattern",
+          "type": "picture_based_digital",
+          "activity": "multiple_choice_visual"
+        },
+        {
+          "id": "T06.G2.04",
+          "title": "Button Makes Sprite Move",
+          "short_name": "Match button to sprite action",
+          "type": "picture_based_digital",
+          "activity": "match_pairs"
+        },
+        {
+          "id": "T09.G2.02",
+          "title": "Boxes That Store Values",
+          "short_name": "Visual metaphor for variable storage",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T12.G2.01",
+          "title": "Group the Steps That Go Together",
+          "short_name": "Organize steps into groups",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        },
+        {
+          "id": "T25.G2.01",
+          "title": "Number or Not?",
+          "short_name": "Classify data types",
+          "type": "picture_based_digital",
+          "activity": "yes_no_sort"
+        },
+        {
+          "id": "T25.G2.02",
+          "title": "Make a Variable Box",
+          "short_name": "Understand variable as storage",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T30.G2.02",
+          "title": "Input to Output",
+          "short_name": "Understand processing flow",
+          "type": "picture_based_digital",
+          "activity": "drag_drop_sequence"
+        },
+        {
+          "id": "T36.G2.03",
+          "title": "Helpful Feedback or Criticism?",
+          "short_name": "Distinguish feedback from criticism",
+          "type": "picture_based_digital",
+          "activity": "sort_categories"
+        }
+      ]
+    },
+    "total_mentions": 21
+  }
+}
