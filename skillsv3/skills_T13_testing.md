@@ -1,7 +1,9 @@
-# T13 – Testing & Debugging: K–8 Skill List (Draft v1)
+# T13 – Testing, Debugging & Error Handling: K–8 Skill List (v2, IXL‑Style Microsteps)
 
-Topic reference: `T13 Testing & Debugging` in `domains_topics_overview.md`
+Topic reference: `T13 Testing, Debugging & Error Handling` in `domains_topics_overview.md`
 Domain: Programming (D2) · CSTA focus: PRO‑TR (Testing and Refinement)
+
+This v2 version upgrades the original draft to an **IXL‑style microstep design**, aligned with the principles in `docs/TOPIC_IXL_MICROSTEP_GUIDE.md` and the v6 design for T01.
 
 Each skill below has:
 
@@ -12,11 +14,28 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
+**Role and scope in v3:** T13 is the home for **testing and debugging practices** across K–8. It focuses on noticing when behavior does not match intent, designing and running test cases, using debugging tools (tracing, logging, checks), handling invalid inputs and edge cases, and reflecting on reliability and bias.
+
+- **Separation from T01–T05:**  
+  - T01–T04 introduce everyday algorithms, patterns, and core constructs (loops, conditionals, variables); T13 assumes those ideas and focuses on *how we test and fix them* rather than teaching the constructs themselves.  
+  - T02 is the primary home for algorithm representations and tracing (strips, flowcharts, pseudocode); T13 uses those representations but emphasizes behavior, failures, and fixes.  
+  - T03 and T05 cover project‑level planning and user‑centered or simulation testing; T13 focuses on program correctness and robustness at the feature or script level.
+- **Separation from T06–T12:**  
+  - T06–T11 introduce and extend programming constructs; T12 focuses on naming, structure, and documentation so code is readable and maintainable.  
+  - T13 complements them by teaching systematic debugging workflows, test design, and error handling. Refactoring for clarity appears in T12; refactoring “so it’s easier to test and debug” lives in T13.
+- **Grade bands:**  
+  - K–2: Picture‑based, unplugged/light‑digital skills about “try–check–fix” habits and spotting/fixing mistakes in everyday step sequences (no blocks, code, or environment terms).  
+  - 3–5: Highest density of coding‑based debugging skills (loops, conditionals, variables) plus concrete test‑case design and basic error handling.  
+  - 6–8: Higher‑order skills around systematic debugging processes, algorithm verification, robustness, and reasoning about accuracy and bias (including AI‑generated code).
+- **Implementability:** All skills can be implemented with CreatiCode’s picture‑based K–2 activities, the block editor (for G3+), and simple UI for test‑plan tables, logging output, and reflection prompts.
+
+IDs follow `T13.G<grade>.<nn>`. Existing IDs are preserved so JSON skill maps can be updated in a later data pass.
+
 ---
 
 ## Grade K (PreK–K)
 
-At this stage, students begin recognizing that a set of steps might not work and may need fixing. Debugging is intuitive: spotting obvious mistakes in picture‑based sequences and simple stories.
+At this stage, students begin recognizing that a set of steps might not work and may need fixing. Debugging is intuitive: trying out simple picture‑based routines, spotting obvious mistakes in what happens, and making one small change so the story “works.”
 
 ### T13.GK.01 – Spot a missing or wrong action
 
@@ -35,28 +54,28 @@ At this stage, students begin recognizing that a set of steps might not work and
 ### T13.GK.03 – Fix a single wrong direction or action in steps
 
 - **Short name:** Fix a wrong move in the steps
-- **Description:** Given a short list of picture steps where one movement is clearly wrong (e.g., arrow pointing left instead of right, or "sit down" before "pull out chair"), students replace just that step with a better one so the sequence makes sense.
-- **Challenge format:** Concept, guided fix. Show a 3–4 step arrow/path sequence or routine with one incorrect picture. Prompt: "Which step should we change so the character goes to the goal?" Students choose and replace the wrong picture from simple options. Auto‑grading checks that the corrected sequence reaches the intended outcome.  
+- **Description:** Students “play computer” by acting out or watching a character follow a short list of picture steps to reach a fun goal (like a treasure or door). When the character ends up in the wrong place or does something silly, they identify which one movement is wrong (e.g., an arrow pointing left instead of right, or “sit down” too early) and swap it for a better step so the routine works.
+- **Challenge format:** Concept, guided fix. Show a 3–4 step arrow/path sequence or routine with one incorrect picture and an animation of the character following it to the wrong place. Prompt: "Which step should we change so the character reaches the goal?" Students choose and replace the wrong picture from simple options. Auto‑grading checks that the corrected sequence reaches the intended outcome.  
 - **CSTA:** EK‑PRO‑TR‑04.
 
 ---
 
 ## Grade 1
 
-Grade 1 students begin more intentional debugging: identifying where a mistake lives in a set of steps, understanding sequence errors, and making deliberate fixes.
+Grade 1 students begin more intentional debugging: identifying where a mistake lives in a set of steps, understanding sequence errors, and making deliberate fixes after “testing” a routine in their heads or with pictures.
 
 ### T13.G1.01 – Identify where a step is wrong
 
 - **Short name:** Point out the wrong step
-- **Description:** Students examine a set of picture‑based steps where the order is wrong or one step is clearly incorrect (e.g., "jump before moving" when the intent is move‑then‑jump). They select or highlight the incorrect step without yet fixing everything.
-- **Challenge format:** Concept, multiple choice or highlighting. Show a strip of steps and ask "Which step is in the wrong place?" or "Which step should not be there?" Students choose from highlighted regions. Auto‑grading checks the selection against reference.
+- **Description:** Students look at a set of picture‑based steps that, when “played out” as a story, clearly go wrong (e.g., “jump before moving” when the intent is move‑then‑jump). They select or highlight the step that causes the problem without yet fixing everything.
+- **Challenge format:** Concept, multiple choice or highlighting. Show a strip of steps and ask "If we follow these steps, which one will make the routine go wrong?" or "Which step should not be there?" Students choose from highlighted regions. Auto‑grading checks the selection against reference.
 - **CSTA:** E1‑PRO‑TR‑03 (Debug a step‑by‑step process with sequence errors to correct mistakes).
 
 ### T13.G1.02 – Fix a sequence error in steps
 
 - **Short name:** Put the steps in the right order
-- **Description:** Students reorder picture or word cards in a step list to fix a sequencing error. For example, they rearrange so that "say hello" happens before "jump" instead of after, or move a "wait" picture to the correct position.
-- **Challenge format:** Concept, drag‑and‑drop reorder. Show a set of steps in the wrong order; students drag cards to reorder them. Auto‑grading checks the final sequence against a reasonable intended order.
+- **Description:** Students reorder picture or word cards in a step list to fix a sequencing error that made a story or game behave strangely (for example, moving “say hello” so it happens after “walk to friend,” or moving a “wait” picture to the correct position).
+- **Challenge format:** Concept, drag‑and‑drop reorder. Show a set of steps in the wrong order and a short description or final picture of what should happen. Students drag cards to reorder them so the behavior matches the intent. Auto‑grading checks the final sequence against a reasonable intended order.
 - **CSTA:** E1‑PRO‑TR‑03.
 
 ### T13.G1.03 – Change a number to fix a repeated action
@@ -69,7 +88,7 @@ Grade 1 students begin more intentional debugging: identifying where a mistake l
 ### T13.G1.04 – Act out steps and say what went wrong
 
 - **Short name:** Test steps and say what's wrong
-- **Description:** Students act out or watch a character follow a set of steps and explain (in words, pictures, or simple text) what did not match expectations or what is missing (e.g., "We forgot to open the paint before painting").
+- **Description:** Students act out or watch a character follow a set of steps and then play “bug detective” by explaining (in words, pictures, or simple text) what did not match expectations or what is missing (e.g., "We forgot to open the paint before painting").
 - **Challenge format:** Concept, guided observation + response. Show a routine being followed with a deliberate error and ask: "What went wrong?" with answer choices (e.g., "skipped washing hands," "put shoes on before socks"). Auto‑grading checks the selected or typed observation.
 - **CSTA:** E1‑PRO‑TR‑03.
 
@@ -130,8 +149,8 @@ Grade 3 students debug more complex programs with iteration and selection. They 
 ### T13.G3.03 – Create an alternative solution to the same problem
 
 - **Short name:** Solve the same problem a different way
-- **Description:** Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites). Both versions should produce the same result.
-- **Challenge format:** Coding, alternative design. Starter project: a simple game or animation with a reference solution. Prompt: "Modify this program to do the same thing but in a different way." Auto‑grading checks that the final behavior matches the original and that the code structure is genuinely different.
+- **Description:** Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites), then **test both versions** on the same inputs to confirm they behave the same.
+- **Challenge format:** Coding, alternative design. Starter project: a simple game or animation with a reference solution. Prompt: "Modify this program to do the same thing but in a different way, then test both versions with the same moves or inputs." Auto‑grading checks that the final behavior matches the original across tests and that the code structure is genuinely different.
 - **CSTA:** E3‑PRO‑TR‑04 (Create alternative versions of a program to solve the same problem or complete the same task).
 
 ### T13.G3.04 – Identify and fix an infinite loop or program hang
@@ -157,8 +176,8 @@ Grade 4 students use more systematic debugging strategies, compare program desig
 ### T13.G4.02 – Compare two programs solving the same task
 
 - **Short name:** Choose the better version of a program
-- **Description:** Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or maintainability. They explain which is better and why (e.g., easier to read, more concise, fewer bugs).
-- **Challenge format:** Concept, comparison and explanation. Show two short scripts that both solve the same problem (e.g., move a sprite in a square). Ask "Which program is easier to understand?" or "Which has less repeated code?" Students select one and give a reason. Auto‑grading scores the choice and checks for relevant reasoning.
+- **Description:** Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to **test, debug, and reuse** (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
+- **Challenge format:** Concept, comparison and explanation. Show two short scripts that both solve the same problem (e.g., move a sprite in a square or keep score in a mini‑game). Ask questions like "Which program would be easier to test and fix if something went wrong?" or "Which is less likely to hide bugs?" Students select one and give a reason. Auto‑grading scores the choice and checks for reasoning that mentions clarity, structure, or error handling.
 - **CSTA:** E4‑PRO‑TR‑04 (Compare programs that complete a similar task and determine which would be easiest to repurpose).
 
 ### T13.G4.03 – Debug a complex loop with nested structures
@@ -184,8 +203,8 @@ Grade 5 students debug more sophisticated programs, use systematic strategies li
 ### T13.G5.01 – Debug programs using tracing and logging
 
 - **Short name:** Use debug output to find bugs
-- **Description:** Students intentionally add `say` blocks or output variables at key points in a program to trace the execution and reveal what's happening (variable values, which branch is taken, how many times a loop runs). They use this information to locate and fix bugs.
-- **Challenge format:** Coding, debugging challenge. Starter project: a program with a subtle bug that's hard to spot by running alone (e.g., a variable doesn't increase when expected, or a condition is checked at the wrong time). Students add debug output blocks to log what's happening, identify the issue, then remove or comment out the debug blocks. Auto‑grading checks that debug output appears and that the final program is corrected.
+- **Description:** Students intentionally add `say` blocks, a “debug helper” sprite, or output variables at key points in a program to trace the execution and reveal what's happening (variable values, which branch is taken, how many times a loop runs). They use this information to locate and fix bugs.
+- **Challenge format:** Coding, debugging challenge. Starter project: a program with a subtle bug that's hard to spot by running alone (e.g., a variable doesn't increase when expected, or a condition is checked at the wrong time). Students add fun debug output (like a helper sprite that announces values) to log what's happening, identify the issue, then remove or comment out the debug blocks. Auto‑grading checks that debug output appears during debugging and that the final program is corrected.
 - **CSTA:** E5‑PRO‑TR‑03 (Debug programs, using systematic strategies to ensure they run as intended).
 
 ### T13.G5.02 – Handle invalid or edge case input
