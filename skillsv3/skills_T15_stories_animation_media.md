@@ -1,4 +1,4 @@
-# T15 – Stories & Animation: K–8 Skill List (Draft v1)
+# T15 – Stories & Animation: K–8 Skill List (Draft v2)
 
 Topic reference: `T15 Stories & Animation` in `domains_topics_overview.md`
 Domain: Programming (D2) · CSTA focus: PRO‑PF, ALG‑HD (with links to PRO‑PM, ALG‑PS)
@@ -16,299 +16,310 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade K (PreK–K)
 
-Stories and animation are treated as visual sequences and simple character movements; focus is on sequencing actions and recognizing costume changes as a form of expression.
+Stories and animation are introduced through visual sequences, character expressions, and simple narrative structures, using picture‑based, unplugged activities.
 
-### T15.GK.01 – Sequence story pictures in order
+### T15.GK.01 – Sequence story pictures
+- **Short name:** Put the story in order
+- **Description:** Students arrange 3 picture panels to tell a simple story (e.g., Wake up -> Eat -> Play).
+- **Challenge format:** Concept, drag‑and‑drop. Order 3 cards.
+- **CSTA:** EK‑ALG‑HD‑02
 
-- **Short name:** Put story pictures in the right order
-- **Description:** Students arrange a sequence of 3–4 picture panels to tell a simple story (e.g., character wakes up, eats, plays, sleeps) or recognize which sequence logically follows a given start. They connect sequencing to storytelling and narrative structure in a concrete, age‑appropriate way.
-- **Challenge format:** Concept, drag‑and‑drop or multiple choice. Show 3–4 picture cards out of order and one target sequence. Students drag cards into the correct order or select the "next" picture that makes sense. Auto‑grading checks the final sequence order.
-- **CSTA:** EK‑ALG‑HD‑02 (Identify ways that technology might help others—storytelling serves communication).
+### T15.GK.02 – Match emotions to faces
+- **Short name:** How does the character feel?
+- **Description:** Students identify the emotion of a character based on their facial expression or pose (Happy, Sad, Surprised).
+- **Challenge format:** Concept, matching. Match "Happy" word/icon to the smiling character.
+- **CSTA:** EK‑PRO‑PF‑01
 
-### T15.GK.02 – Identify character emotions and actions
-
-- **Short name:** Name what the character is doing
-- **Description:** Students look at sprite pictures showing different poses or costumes (happy, sad, running, jumping) and label or identify the emotion or action being expressed. This builds vocabulary for animation and character expression.
-- **Challenge format:** Concept, matching or multiple choice. Show sprite images with different expressions; students click on or choose the label ("happy," "jumping," "surprised"). Auto‑grading compares to correct answers.
-- **CSTA:** EK‑PRO‑PF‑01 (Choose code that accurately represents an action).
-
-### T15.GK.03 – Make a character say something
-
-- **Short name:** Add a simple speech bubble
-- **Description:** Students use a speech or dialogue block to make a character "say" a word or short phrase (e.g., "Hello!" or "Thank you!"). This introduces dialogue as a programming concept in an intuitive, playful way.
-- **Challenge format:** Coding, starter project. Provided: a sprite and a `say` block. Prompt: "Make the character say 'Hi!' when the green flag is clicked." Auto‑grading checks that the `say` block is present and contains the requested text.
-- **CSTA:** EK‑PRO‑PF‑02 (Create programs that include sequence).
+### T15.GK.03 – Identify speech bubbles
+- **Short name:** Who is talking?
+- **Description:** Students look at a picture with characters and speech bubbles and identify who is speaking or what they are saying.
+- **Challenge format:** Concept, hotspot. "Click on the character who is saying 'Hello'."
+- **CSTA:** EK‑PRO‑PF‑02
 
 ---
 
 ## Grade 1
 
-Grade 1 focuses on sequencing actions to tell a story, introducing simple costume/animation cycles, and basic dialogue with timing.
+Grade 1 focuses on the components of a story: characters, settings, and dialogue, using pictures and logic puzzles.
 
-### T15.G1.01 – Sequence story actions in a script
+### T15.G1.01 – Match setting to story
+- **Short name:** Pick the right background
+- **Description:** Given a story prompt (e.g., "The fish swims"), students choose the appropriate background (Ocean vs. Space).
+- **Challenge format:** Concept, multiple choice. "Where does this story happen?"
+- **CSTA:** 1A‑AP‑08
 
-- **Short name:** Put story actions in order
-- **Description:** Students create a short script that plays actions in sequence (e.g., sprite walks, then jumps, then says "Done!") to match a given story or picture sequence. They map narrative flow onto block-based code.
-- **Challenge format:** Coding, starter project. Provided: a sprite and blocks for movement, costume, and speech. Prompt: "Make the character walk 3 steps, jump, then say 'Yay!'" in that order. Auto‑grading checks block order and correctness.
-- **CSTA:** E1‑PRO‑PF‑01 (Create code from algorithm that includes sequence and events).
+### T15.G1.02 – Order dialogue
+- **Short name:** Who speaks first?
+- **Description:** Students see a comic strip with empty speech bubbles or jumbled order and determine the logical flow of conversation.
+- **Challenge format:** Concept, sequencing. Order the lines: "Hello" -> "Hi, how are you?" -> "I am good."
+- **CSTA:** 1A‑AP‑08
 
-### T15.G1.02 – Change a character's costume
-
-- **Short name:** Switch costumes to animate
-- **Description:** Students use a `next costume` or `change costume to` block to switch between two or more sprite costumes, creating the impression of motion or emotional change (e.g., walking, blinking, changing expression).
-- **Challenge format:** Coding, starter project. Provided: a sprite with at least 2 costumes and a `when green flag clicked` script stub. Prompt: "Make the sprite change costumes to show it blinking." Auto‑grading checks that `next costume` or costume change blocks are present.
-- **CSTA:** E1‑PRO‑PF‑01.
-
-### T15.G1.03 – Dialogue between two characters
-
-- **Short name:** Two characters talk
-- **Description:** Students code a brief exchange where two sprites take turns "saying" lines (e.g., Sprite A: "Hi!", Sprite B: "Hello!") using speech blocks and simple timing (e.g., `wait` blocks) to coordinate turns.
-- **Challenge format:** Coding, starter project with two sprites. Prompt: "Make one sprite say 'Hi!' and then the other sprite say 'Hello!'." Auto‑grading checks that both sprites have speech blocks and that they occur in sequence.
-- **CSTA:** E1‑PRO‑PF‑01, E1‑ALG‑HD‑02 (Design an improvement to technology to solve a problem for someone else—clear dialogue helps communication).
-
-### T15.G1.04 – Simple scene change
-
-- **Short name:** Change the background
-- **Description:** Students switch between two backgrounds (e.g., day and night, indoor and outdoor) using a `switch backdrop to` block, simulating a scene or setting change in a story.
-- **Challenge format:** Coding, starter project. Provided: stage with at least 2 backdrops and a sprite. Prompt: "Make the stage show the day backdrop first, then switch to the night backdrop." Auto‑grading checks that backdrop-switching blocks are present and functional.
-- **CSTA:** E1‑PRO‑PF‑01.
+### T15.G1.03 – Action and consequence
+- **Short name:** What happens next?
+- **Description:** Students predict the next frame in a simple animation sequence (e.g., Ball drops -> ? -> Ball hits ground).
+- **Challenge format:** Concept, prediction. Select the image that completes the animation.
+- **CSTA:** 1A‑AP‑08
 
 ---
 
 ## Grade 2
 
-Grade 2 combines loops with animation to create repeating behaviors (blinking, walking cycles), introduces timing for dialogue and scene pacing, and explores multiple scenes.
+Grade 2 explores pacing, timing, and scene changes conceptually, preparing for coding these elements.
 
-### T15.G2.01 – Loop a costume animation
+### T15.G2.01 – Fast vs. Slow animation
+- **Short name:** Fast or slow?
+- **Description:** Students compare two animation sequences (represented by frame strips) and identify which one represents a faster or slower action based on the gap between positions.
+- **Challenge format:** Concept, comparison. "Which ball is moving faster?"
+- **CSTA:** 1A‑AP‑08
 
-- **Short name:** Loop a blinking or walking animation
-- **Description:** Students use a `repeat` loop to cycle through costumes multiple times, creating smooth animation (e.g., blinking 5 times, walking across the stage with alternating leg positions).
-- **Challenge format:** Coding, starter project. Provided: sprite with 2–3 related costumes. Prompt: "Make the sprite appear to walk by changing costumes 4 times." Students wrap `next costume` and `wait` blocks in a `repeat` loop. Auto‑grading checks loop structure and iteration count.
-- **CSTA:** E2‑PRO‑PF‑01 (Create code from algorithm that includes iteration).
+### T15.G2.02 – Identify scene transitions
+- **Short name:** When does the scene change?
+- **Description:** In a story sequence, students identify the point where the location changes (e.g., from House to School).
+- **Challenge format:** Concept, hotspot. "Click the picture where the scene changes."
+- **CSTA:** 1A‑AP‑10
 
-### T15.G2.02 – Timed dialogue with waits
-
-- **Short name:** Dialogue with pauses
-- **Description:** Students script a multi‑line dialogue exchange where each character's speech has a `wait` block before the next character speaks, creating natural pacing and readability for the audience.
-- **Challenge format:** Coding, starter project with two sprites. Prompt: "Sprite A says 'Hello!' then waits 1 second. Sprite B says 'Hi there!' then waits 1 second." Auto‑grading checks presence of `say` and `wait` blocks in proper sequence.
-- **CSTA:** E2‑PRO‑PF‑01.
-
-### T15.G2.03 – Multi‑scene story with backdrop switching
-
-- **Short name:** Story with two or more scenes
-- **Description:** Students create a short story that spans 2–3 different backdrops, switching between them with timing (e.g., opening scene, action scene, ending scene) and appropriate sprite movements or dialogue in each.
-- **Challenge format:** Coding, guided construction. Starter: stage with 2+ backdrops, 1–2 sprites. Prompt: "Create a short 3‑scene story. Scene 1: character appears at the park. Scene 2: character plays. Scene 3: character goes home. Use different backdrops for each." Auto‑grading checks that at least 2 backdrop switches occur and sprites respond appropriately in each scene.
-- **CSTA:** E2‑PRO‑PF‑01, E2‑ALG‑HD‑02 (Discuss how programs might solve a problem for someone else—telling engaging stories entertains and communicates).
-
-### T15.G2.04 – Synchronize sprite and sound
-
-- **Short name:** Play a sound when a sprite does something
-- **Description:** Students pair a sprite action (movement, costume change, or speech) with a sound block to create audio accompaniment (e.g., jump sound when sprite jumps, applause when character finishes).
-- **Challenge format:** Coding, starter project. Provided: sprite, movement/costume blocks, and a sound asset. Prompt: "When the character jumps, also play a jump sound." Auto‑grading checks that a `play sound` or `start sound` block is associated with the correct action.
-- **CSTA:** E2‑PRO‑PF‑01.
+### T15.G2.03 – Loop patterns in animation
+- **Short name:** Find the repeating action
+- **Description:** Students identify the repeating part of an animation (e.g., Left foot, Right foot, Left foot, Right foot).
+- **Challenge format:** Concept, pattern recognition. "Which part of the dance repeats?"
+- **CSTA:** 1A‑AP‑10
 
 ---
 
 ## Grade 3
 
-Grade 3 introduces event-driven animation (sprite responds to clicks or keys), expands dialogue to include branching or choices, and layers multiple animation elements (costume + position + sound).
+Grade 3 is the **gateway to coding** for stories. Students use code to control characters, create dialogue, and build simple animations.
 
-### T15.G3.01 – Animate on command (click or key)
+### Strand A: Basic Animation
 
-- **Short name:** Sprite animates when you interact with it
-- **Description:** Students create a script where a sprite performs a sequence of animations (costume cycle, movement, sound) triggered by a click, key press, or other event, introducing interactivity to stories.
-- **Challenge format:** Coding, starter project. Provided: sprite with costumes and sounds. Prompt: "When someone clicks the sprite, make it dance by changing costumes 4 times and playing a music sound." Students use `when this sprite clicked` and loop through animations. Auto‑grading checks event structure and animation execution.
-- **CSTA:** E3‑PRO‑PF‑01 (Code that includes iteration and events).
+#### T15.G3.01 – Switch costume
+- **Short name:** Change how it looks
+- **Description:** Use `switch costume to [Costume B]` to change a sprite’s appearance.
+- **Challenge format:** Build. `when clicked` -> `switch costume to [Happy]`.
+- **CSTA:** 1B‑AP‑10
 
-### T15.G3.02 – Dialogue with branching (simple choice)
+#### T15.G3.02 – Simple animation loop
+- **Short name:** Make it move
+- **Description:** Use `next costume` inside a `repeat` loop to create a simple animation cycle.
+- **Challenge format:** Build. `repeat (10)` -> `next costume`, `wait (0.1) secs`.
+- **CSTA:** 1B‑AP‑10
 
-- **Short name:** Story where character makes a choice
-- **Description:** Students implement a simple branching dialogue where the user or another sprite's action determines which speech the character says (e.g., if key "A" is pressed, character says one thing; if key "B," another).
-- **Challenge format:** Coding, starter project. Provided: sprite and `if/else` block structure. Prompt: "If the user presses 'Y', the character says 'Yes!' If the user presses 'N', the character says 'No!'." Auto‑grading checks conditional logic and dialogue content.
-- **CSTA:** E3‑PRO‑PF‑01 (Code that includes selection).
+#### T15.G3.03 – Reset appearance
+- **Short name:** Start fresh
+- **Description:** Ensure the sprite starts with the correct costume and position when the green flag is clicked.
+- **Challenge format:** Debug/Modify. "The character stays sad when I restart. Fix it."
+- **CSTA:** 1B‑AP‑10
 
-### T15.G3.03 – Multi‑character scene with interactions
+### Strand B: Dialogue
 
-- **Short name:** Characters interact in a scene
-- **Description:** Students coordinate behavior between two or more sprites in the same scene: one sprite moves or speaks, and another sprite responds based on proximity, overlap, or message. This introduces simple communication between sprites.
-- **Challenge format:** Coding, starter project with 2+ sprites. Prompt: "When Sprite A touches Sprite B, Sprite B says 'Hello!' and changes color." Auto‑grading checks that the condition (touching) triggers the appropriate response.
-- **CSTA:** E3‑PRO‑PF‑01, E3‑ALG‑HD‑02 (Design an algorithm that meets needs of someone else—responsive dialogue enhances storytelling).
+#### T15.G3.04 – Say something
+- **Short name:** Speech bubble
+- **Description:** Use the `say [Hello] for (2) seconds` block to display text.
+- **Challenge format:** Build. `say [Welcome!] for (2) secs`.
+- **CSTA:** 1B‑AP‑10
 
-### T15.G3.04 – Sound effects and background music layer
+#### T15.G3.05 – Think bubble
+- **Short name:** Thought bubble
+- **Description:** Use the `think [Hmm...]` block to show internal monologue.
+- **Challenge format:** Modify. Change `say` to `think`.
+- **CSTA:** 1B‑AP‑10
 
-- **Short name:** Add background music and sound effects
-- **Description:** Students layer multiple sounds: a background music track that plays continuously alongside sound effects triggered by sprite actions, building a richer audio narrative.
-- **Challenge format:** Coding, starter project with audio assets. Prompt: "Play background music when the green flag is clicked (looping). When the character jumps, also play a jump sound effect." Auto‑grading checks that at least one sound loops and another is triggered by an event.
-- **CSTA:** E3‑PRO‑PF‑01.
+### Strand C: Sequencing & Timing
+
+#### T15.G3.06 – Sequence dialogue
+- **Short name:** Talk in order
+- **Description:** Stack multiple `say` blocks to create a monologue.
+- **Challenge format:** Build. `say [Hi]`, `say [I am a cat]`.
+- **CSTA:** 1B‑AP‑10
+
+#### T15.G3.07 – Wait between actions
+- **Short name:** Pause for effect
+- **Description:** Use `wait (1) seconds` to create a pause between an action and a line of dialogue.
+- **Challenge format:** Build. `move (10)`, `wait (1)`, `say [Made it!]`.
+- **CSTA:** 1B‑AP‑10
+
+### Strand D: Interactive Events
+
+#### T15.G3.08 – Click to talk
+- **Short name:** Talk when clicked
+- **Description:** Trigger a speech script using `when this sprite clicked`.
+- **Challenge format:** Build. `when this sprite clicked` -> `say [You poked me!]`.
+- **CSTA:** 1B‑AP‑10
+
+#### T15.G3.09 – Key press animation
+- **Short name:** Press space to jump
+- **Description:** Trigger a costume change or motion using `when [space] key pressed`.
+- **Challenge format:** Build. `when [space] key pressed` -> `switch costume to [Jump]`.
+- **CSTA:** 1B‑AP‑10
 
 ---
 
 ## Grade 4
 
-Grade 4 emphasizes storytelling structure: multi‑scene narratives with state tracking, character animation that reflects state (happy/sad animation cycles), and coordinated sound/visual timing. Students begin to refine pacing and polish user experience.
+Grade 4 expands into **narrative structure and state**. Students manage scenes, coordinate multiple characters, and create interactive stories.
 
-### T15.G4.01 – State-based character animation
+### Strand A: Advanced Animation
 
-- **Short name:** Character looks different based on state
-- **Description:** Students use variables or backdrop changes to track a character's emotional or physical state (e.g., "happy" vs. "sad," "tired" vs. "awake") and play different animation loops accordingly. This connects variable logic to visual storytelling.
-- **Challenge format:** Coding, starter project. Provided: sprite with two sets of costumes (happy set, sad set) and a variable `mood`. Prompt: "If mood is 'happy,' the character blinks happily. If mood is 'sad,' the character looks down and sighs." Auto‑grading checks variable initialization and state-dependent animation playback.
-- **CSTA:** E4‑PRO‑PF‑01 (Code that includes selection and variables).
+#### T15.G4.01 – Animate with effects
+- **Short name:** Fade or grow
+- **Description:** Use `change [ghost] effect` or `change size` to animate appearance (e.g., fading out, growing).
+- **Challenge format:** Build. `repeat (10)` -> `change [ghost] effect by (10)`.
+- **CSTA:** 1B‑AP‑10
 
-### T15.G4.02 – Multi‑scene narrative with transitions
+#### T15.G4.02 – Costume number logic
+- **Short name:** Costume by number
+- **Description:** Use costume numbers to switch costumes (e.g., `switch costume to (1)`), useful for ordered frames.
+- **Challenge format:** Modify. Switch from costume name to number.
+- **CSTA:** 1B‑AP‑10
 
-- **Short name:** Story with scene transitions
-- **Description:** Students build a 3–4 scene story where scenes transition smoothly (fade, wipe, or timed switch) and sprite state carries across scenes (e.g., character remains "happy" or injured status persists). Introduces narrative continuity and polish.
-- **Challenge format:** Coding, guided/creative challenge. Prompt: "Create a 3‑scene story. Scene 1: character meets a friend. Scene 2: they play a game. Scene 3: they say goodbye. Each scene should be clear and scenes should transition smoothly." Auto‑grading checks that at least 3 distinct backdrops appear, scenes are ordered logically, and key characters appear in expected scenes.
-- **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑HD‑02 (Modify a program based on feedback to meet the needs of others).
+### Strand B: Scene Management
 
-### T15.G4.03 – Lip-sync or timed gesture animations
+#### T15.G4.03 – Switch backdrop
+- **Short name:** Change the scene
+- **Description:** Use `switch backdrop to [Next Scene]` to change the setting.
+- **Challenge format:** Build. `say [Let's go outside]`, `switch backdrop to [Outdoors]`.
+- **CSTA:** 1B‑AP‑10
 
-- **Short name:** Animation timed to speech
-- **Description:** Students synchronize costume changes or simple animations to dialogue, creating the illusion that the character's mouth moves when speaking or gestures during specific words ("waving" when saying goodbye).
-- **Challenge format:** Coding, starter project. Provided: sprite with mouth‑open and mouth‑closed costumes (or wave and no-wave). Prompt: "Make the sprite say 'Hello!' while changing to an open-mouth costume, then close the mouth when done speaking." Auto‑grading checks costume changes occur during the `say` block.
-- **CSTA:** E4‑PRO‑PF‑01.
+#### T15.G4.04 – Hide and Show characters
+- **Short name:** Enter and exit
+- **Description:** Use `hide` and `show` to control which characters appear in which scene.
+- **Challenge format:** Build. `when backdrop switches to [Scene 2]` -> `show`.
+- **CSTA:** 1B‑AP‑10
 
-### T15.G4.04 – Complex dialogue tree with variables
+### Strand C: Interactive Stories
 
-- **Short name:** Multi‑choice dialogue with tracking
-- **Description:** Students build a branching dialogue where user choices are tracked in variables, affecting later plot points or character responses (e.g., if the user chooses "friendly" the character trusts you; if "mean," the character is wary).
-- **Challenge format:** Coding, algorithmic challenge. Provided: framework with variables for "player choice" and "trust level." Prompt: "Create a short conversation where the user picks 'kind' or 'rude.' The character's response and mood change accordingly." Auto‑grading checks that variable updates occur and later responses reflect the tracked choice.
-- **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑HD‑02.
+#### T15.G4.05 – Ask and Answer
+- **Short name:** Ask the player
+- **Description:** Use `ask [What is your name?] and wait` and use the `answer` block in a response.
+- **Challenge format:** Build. `ask [Name?]`, `say (join [Hello ] (answer))`.
+- **CSTA:** 1B‑AP‑10
+
+#### T15.G4.06 – Simple branching (Yes/No)
+- **Short name:** Yes or No choice
+- **Description:** Use `if <(answer) = [yes]>` to give different responses.
+- **Challenge format:** Build. `if <(answer) = [yes]>` -> `say [Great!]` else `say [Oh no.]`.
+- **CSTA:** 1B‑AP‑10
+
+### Strand D: Coordination
+
+#### T15.G4.07 – Coordinate two sprites (Wait)
+- **Short name:** Wait for your turn
+- **Description:** Coordinate a conversation between two sprites using `wait` blocks (Sprite A speaks for 2s, Sprite B waits 2s then speaks).
+- **Challenge format:** Debug. "They talk over each other. Fix the timing."
+- **CSTA:** 1B‑AP‑10
+
+#### T15.G4.08 – Parallel actions
+- **Short name:** Walk and talk
+- **Description:** Use two `when green flag clicked` scripts to make a sprite walk and talk at the same time.
+- **Challenge format:** Build. Script 1: `glide...`, Script 2: `say...`.
+- **CSTA:** 1B‑AP‑10
 
 ---
 
 ## Grade 5
 
-Grade 5 builds toward intermediate narrative complexity: longer stories with multiple subplots, character state machines (with many states), cinematic techniques (camera focus, panning), and sophisticated audio design (music transitions, dynamic sound layering).
+Grade 5 introduces **complex narrative systems**. Students use broadcasts for events, variables for story state, and advanced effects.
 
-### T15.G5.01 – Complex character state machine
+### Strand A: Broadcasting for Stories
 
-- **Short name:** Character with multiple states and behaviors
-- **Description:** Students implement a character that cycles through many states (idle, walking, running, jumping, celebrating, resting) with different animation loops, triggered by different events or conditions. This introduces state-machine thinking for animation.
-- **Challenge format:** Coding, starter project. Provided: sprite with 5+ costume sets, and a `state` variable. Prompt: "Create a character that can: stand (idle loop), walk (when arrow keys pressed), jump (when spacebar pressed), celebrate (when touching a coin). Each state has its own animation." Auto‑grading checks that all states are reachable and correct animations play in each state.
-- **CSTA:** E5‑PRO‑PF‑01 (Code that includes iteration, selection, and variables).
+#### T15.G5.01 – Broadcast scene change
+- **Short name:** Signal next scene
+- **Description:** Use `broadcast [Scene 2]` to trigger backdrop changes and sprite entrances/exits simultaneously.
+- **Challenge format:** Build. `broadcast [Start Scene 2]`.
+- **CSTA:** 1B‑AP‑15
 
-### T15.G5.02 – Multi‑subplot story with branching paths
+#### T15.G5.02 – Broadcast specific actions
+- **Short name:** Signal an action
+- **Description:** Use broadcasts to trigger specific animations (e.g., `broadcast [Dance]`) so multiple sprites dance at once.
+- **Challenge format:** Build. `when I receive [Dance]` -> `repeat (10)...`.
+- **CSTA:** 1B‑AP‑15
 
-- **Short name:** Story with multiple plot threads
-- **Description:** Students write a branching narrative where early choices lead to different scene sequences, sub‑stories, or endings. Multiple characters may have parallel story arcs.
-- **Challenge format:** Coding, creative challenge with auto-checks. Prompt: "Create a story with at least two different possible paths based on player choices. Path A should have Scenes A1, A2, A3. Path B should have Scenes B1, B2, B3. Both paths should have a clear ending." Auto‑grading checks that (1) at least 2 distinct paths exist (tracked by variables), (2) scenes appear in correct order for each path, and (3) both paths reach an ending.
-- **CSTA:** E5‑PRO‑PF‑01, E5‑ALG‑HD‑02 (Develop an algorithm that considers needs and feedback of others).
+### Strand B: Camera & Polish
 
-### T15.G5.03 – Cinematic panning and zoom effects
+#### T15.G5.03 – Simulated Camera Pan
+- **Short name:** Pan the camera
+- **Description:** Move all sprites in the opposite direction to simulate a camera panning.
+- **Challenge format:** Build. `change x by (-10)` (on all world sprites).
+- **CSTA:** 1B‑AP‑10
 
-- **Short name:** Pan or zoom camera in a scene
-- **Description:** Students simulate cinematic effects: "zooming in" on a character (enlarging a sprite or changing scale) or "panning" the camera by moving the stage's visible region (using CreatiCode's pan/focus or sprite positioning) to follow action or emphasize a story moment.
-- **Challenge format:** Coding, creative challenge. Provided: large scene backdrop or multiple sprites spread across space. Prompt: "Create a scene where the 'camera' zooms in on a character as they speak, then pans to show a second character's reaction." Auto‑grading checks that sprite scale changes or position-tracking logic is present and produces the intended focus effect.
-- **CSTA:** E5‑PRO‑PF‑01.
+#### T15.G5.04 – Layering logic
+- **Short name:** Go to front/back
+- **Description:** Use `go to front layer` or `go backward (1) layers` to manage depth in a scene.
+- **Challenge format:** Debug. "The tree is in front of the character. Fix it."
+- **CSTA:** 1B‑AP‑10
 
-### T15.G5.04 – Layered audio design (music, ambiance, effects)
+### Strand C: Advanced Text
 
-- **Short name:** Dynamic audio mixing and transitions
-- **Description:** Students compose a scene with multiple simultaneous audio layers: background ambiance (e.g., wind, crowd murmur), a music track, and triggered sound effects. They may implement fade-in/fade-out or audio transitions using volume changes or timed overlaps.
-- **Challenge format:** Coding, creative challenge with audio assets. Prompt: "Create a scene with three audio layers: (1) soft background music (loops), (2) ambient forest sounds, (3) character footsteps triggered by movement. Adjust timing so all three sound natural together." Auto‑grading checks that at least 3 sound blocks are used, at least one loops, and at least one is event-triggered.
-- **CSTA:** E5‑PRO‑PF‑01.
+#### T15.G5.05 – Join text strings
+- **Short name:** Combine words
+- **Description:** Use `join [Hello ] [World]` to construct dynamic sentences.
+- **Challenge format:** Build. `say (join [Score: ] (Score))`.
+- **CSTA:** 1B‑AP‑10
 
----
+#### T15.G5.06 – Text effects (Typewriter)
+- **Short name:** Typewriter text
+- **Description:** (Conceptual/Simple) Reveal text letter by letter or use a custom block to simulate typing.
+- **Challenge format:** Build/Parsons. Loop through string length (advanced) or use a provided custom block.
+- **CSTA:** 1B‑AP‑10
 
-## Grade 6
+### Strand D: Branching & State
 
-In middle school, narrative and animation techniques become more sophisticated: students analyze and design interactive narratives with explicit state machines, implement efficient animation patterns (e.g., shared costume libraries), and consider user experience and pacing in the context of their stories.
+#### T15.G5.07 – Track story choices
+- **Short name:** Remember choices
+- **Description:** Use a variable `(Trust)` to track player decisions (+1 for nice, -1 for mean).
+- **Challenge format:** Build. `change [Trust] by (1)`.
+- **CSTA:** 1B‑AP‑09
 
-### T15.G6.01 – Design and trace character state diagrams
-
-- **Short name:** Map out character states and transitions
-- **Description:** Students create or analyze a diagram showing all possible states a character can be in and the transitions between them (e.g., Idle → Walking → Running, or Happy → Angry → Sad). This develops their ability to reason about and design complex animation systems.
-- **Challenge format:** Concept, design + code. Prompt: "Draw or design a state diagram for a character with at least 4 states. Then code the character to follow all the transitions you planned." Auto‑grading checks that the diagram is logically sound and the code correctly implements all transitions.
-- **CSTA:** MS‑ALG‑HD‑03 (Design algorithms using human-centered design principles; narrative states serve user experience).
-
-### T15.G6.02 – Optimize animation with shared costume libraries
-
-- **Short name:** Reuse costumes across multiple characters
-- **Description:** Students manage animation efficiently by creating shared costume assets that multiple sprites can use (e.g., a "happy face" costume set used by multiple characters) or by organizing costume numbers systematically to reduce redundancy.
-- **Challenge format:** Coding, refactor challenge. Provided: a project where multiple sprites have similar but slightly different costumes. Prompt: "Refactor your costumes so that Sprite A and Sprite B share the same walk animation. Adjust colors or sizes if needed, but reduce duplication." Auto‑grading checks that both sprites reference the same costume numbers and the animation still plays correctly for both.
-- **CSTA:** MS‑PRO‑PF‑01 (Analyze and describe roles of key code components).
-
-### T15.G6.03 – Branching narrative with data persistence
-
-- **Short name:** Track player choices across scenes
-- **Description:** Students maintain a data structure (e.g., a list or table of choices, or multiple variables) that remembers which decisions the player has made throughout the story. Later scenes reference this data to adapt dialogue, NPC reactions, or available options.
-- **Challenge format:** Coding, algorithmic challenge. Provided: starter with a list or table for tracking choices. Prompt: "Create a story where the player makes 3 choices (e.g., 'help,' 'ignore,' 'attack'). Store these choices. In Scene 3, have an NPC reference one of the player's earlier choices when responding." Auto‑grading checks that choices are recorded and later scenes correctly retrieve and respond to recorded data.
-- **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑DH‑04 (Represent data using appropriate structures).
-
-### T15.G6.04 – Narrative design principles: pacing and user feedback
-
-- **Short name:** Explain story pacing and player feedback
-- **Description:** Students analyze or design a story, reasoning about pacing (when dialogue happens relative to action), visual feedback (does the player know what to do?), and audio cues (does music change to signal important moments?). They articulate design choices using design principles.
-- **Challenge format:** Concept + coding. Prompt: "Play a short interactive story. Describe one moment where the pacing felt good and one where it felt rushed or confusing. Then modify your own story to improve pacing in one scene." Auto‑grading checks the written analysis for specific design observations and verifies that code changes address the identified pacing issue.
-- **CSTA:** MS‑ALG‑HD‑04 (Refine algorithms iteratively through user feedback).
+#### T15.G5.08 – Conditional endings
+- **Short name:** Different endings
+- **Description:** Check variables at the end of the story to show different backdrops/messages.
+- **Challenge format:** Build. `if <(Trust) > (5)>` -> `switch backdrop to [Good End]`.
+- **CSTA:** 1B‑AP‑10
 
 ---
 
-## Grade 7
+## Grade 6–8 (Middle School)
 
-Grade 7 emphasizes the engineering of interactive stories: systematic narrative design (scene graphs, state machines as data), animation pipeline thinking (sprite sheets, costume organization), and the evaluation of narrative systems for player experience and fairness.
+Middle school focuses on **narrative architecture, efficiency, and user experience**.
 
-### T15.G7.01 – Implement a scene graph or scene manager
+### Grade 6: Narrative Systems
 
-- **Short name:** Organize scenes using a scene system
-- **Description:** Students design or implement a "scene manager" that tracks which scene is active, transitions between scenes automatically or on command, and maintains state across scene changes. This models real game and interactive media architecture.
-- **Challenge format:** Coding, starter project. Provided: a scene variable and multiple backdrop/sprite sets. Prompt: "Create a system where a 'scene' variable tracks which scene is active (0=intro, 1=main, 2=ending). Implement a 'next scene' button that increments the scene and displays the correct backdrops and sprites for that scene." Auto‑grading checks that scene transitions occur correctly and the right content displays for each scene value.
-- **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑PD‑08 (Create modular programs).
+#### T15.G6.01 – State Machine for Animation
+- **Short name:** Animation states
+- **Description:** Use a `State` variable (Idle, Walk, Talk) to control which animation loop plays.
+- **Challenge format:** Refactor. Organize loose scripts into a state machine.
+- **CSTA:** 2‑AP‑10
 
-### T15.G7.02 – Animate using sprite sheets and frame indices
+#### T15.G6.02 – List-based Dialogue
+- **Short name:** Dialogue from a list
+- **Description:** Store dialogue lines in a list and iterate through them, rather than using hardcoded `say` blocks.
+- **Challenge format:** Build. `say (item (i) of [Dialogue])`.
+- **CSTA:** 2‑AP‑10
 
-- **Short name:** Animate from a sprite sheet using frame numbers
-- **Description:** Students work with a single sprite image containing multiple animation frames in a grid (a sprite sheet), and write code that displays the correct frame by setting costume index based on calculations (e.g., frame = walk_start + loop_counter).
-- **Challenge format:** Coding, starter project. Provided: a sprite with 8 costumes representing a walk cycle (or other sprite sheet equivalent). Prompt: "Implement a walk animation by looping through frames 1–8. Use a variable `frame` to track the current frame number." Auto‑grading checks that the frame variable updates correctly and the animation cycles through all frames in order.
-- **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑DH‑04 (Use iteration to access and process data in a collection).
+### Grade 7: Advanced Techniques
 
-### T15.G7.03 – Implement and compare branching narrative algorithms
+#### T15.G7.01 – Scene Graph / Manager
+- **Short name:** Scene manager
+- **Description:** Create a dedicated "Manager" sprite that handles all broadcasts and global state changes (Scene 1 -> Scene 2).
+- **Challenge format:** Build. Centralize logic in one sprite.
+- **CSTA:** 2‑AP‑13
 
-- **Short name:** Compare two different story branching approaches
-- **Description:** Students implement or analyze two different methods for handling branching stories (e.g., nested if/else vs. a data-driven approach with choice tables) and reason about which is more maintainable, readable, or efficient as the story grows.
-- **Challenge format:** Concept + coding. Prompt: "Implement a simple branching dialogue in two ways: (1) using nested if/else blocks, (2) using a choice list/table. Explain which approach would be easier to expand to 10 choices." Auto‑grading checks that both implementations work correctly and the written explanation demonstrates understanding of trade-offs.
-- **CSTA:** MS‑ALG‑AF‑02 (Describe how input, storage, and processing produce output).
+#### T15.G7.02 – Lip Sync Logic
+- **Short name:** Auto-lip sync
+- **Description:** Map sound volume to costume changes (mouth open/closed) for automatic lip sync.
+- **Challenge format:** Build. `switch costume to (round (loudness / 10))`.
+- **CSTA:** 2‑AP‑13
 
-### T15.G7.04 – Evaluate narrative fairness and accessibility
+### Grade 8: Engine Design
 
-- **Short name:** Critique story design for inclusivity
-- **Description:** Students play a story-game and critique it for narrative representation, accessibility (readability of text, clarity of instructions), and fairness (do all player paths feel equally rewarding?). They identify potential improvements.
-- **Challenge format:** Concept, analysis + reflection. Prompt: "Play the provided interactive story. Identify one aspect that feels inclusive and one that could be more inclusive (e.g., character diversity, choice clarity, feedback quality). Suggest a change." Auto‑grading scores the analysis for specific, thoughtful observations grounded in design principles.
-- **CSTA:** MS‑ALG‑HD‑03, MS‑ALG‑HD‑04 (Design and refine algorithms using human-centered design; consider inclusivity and accessibility).
+#### T15.G8.01 – Branching Narrative Engine
+- **Short name:** Story engine
+- **Description:** Build a system that reads a data structure (JSON-like or list of lists) to determine the next node in a branching story.
+- **Challenge format:** Build. Parse a "Node ID" and "Next Node" structure.
+- **CSTA:** 2‑AP‑14
 
----
-
-## Grade 8
-
-Grade 8 builds toward high school expectations by treating interactive narratives as complex, data-driven systems. Students implement or analyze narrative engines, optimize animation performance, integrate player input systems thoughtfully, and consider the broader impact of interactive storytelling.
-
-### T15.G8.01 – Implement a narrative engine with state and dialogue data
-
-- **Short name:** Build a dialogue and story system
-- **Description:** Students design and code a simple narrative engine that separates story data (dialogue, choices, state changes) from the presentation logic. For example, a "dialogue table" holds character lines and conditions; the engine checks conditions, displays the right line, and updates state.
-- **Challenge format:** Coding, algorithmic challenge. Provided: a data structure (list/table) for dialogue and a basic engine stub. Prompt: "Create a dialogue system where a table stores: character name, line of text, required state, and next state change. The engine reads this table and displays dialogue while updating state." Auto‑grading checks that the data structure is populated correctly and the engine retrieves and displays data as expected.
-- **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑PD‑08 (Create modular programs).
-
-### T15.G8.02 – Optimize animation performance with costume pooling
-
-- **Short name:** Manage animation memory efficiently
-- **Description:** Students implement or describe techniques to reduce the number of costumes needed for smooth animation, such as reusing a single sprite and manipulating its size/rotation instead of swapping costumes, or implementing procedural animation using geometry.
-- **Challenge format:** Coding + analysis. Prompt: "Create a spinning animation in two ways: (1) using 8 rotated costume copies, (2) using a single costume and rotating it programmatically (if supported). Compare the file size and performance." Auto‑grading checks that both methods work and the written analysis reflects real performance differences (or measurements).
-- **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑TR‑11 (Use standard practices to test and debug code).
-
-### T15.G8.03 – Implement input handling and player agency
-
-- **Short name:** Responsive player controls in narrative
-- **Description:** Students design a narrative experience where player input (keyboard, mouse, speech, gesture if available) meaningfully affects the story. They consider latency, feedback clarity, and fairness (does every path feel rewarded?).
-- **Challenge format:** Coding, creative challenge. Prompt: "Create a story scene where the player can control a character's movement AND have a meaningful dialogue choice. The character's expression or the NPC's response should change based on the player's choices. Test that both paths feel engaging." Auto‑grading checks that player input is responsive, choices are visible in the story outcome, and both path outcomes are implemented.
-- **CSTA:** MS‑PRO‑PF‑01, MS‑ALG‑HD‑03 (Design algorithms considering user needs and inclusivity).
-
-### T15.G8.04 – Analyze narrative impacts: representation and bias
-
-- **Short name:** Critique story for representation and bias
-- **Description:** Students analyze an interactive story (or their own) for representation of diverse characters, stereotypes, narrative bias (e.g., do all endings favor one choice or character type?), and fairness. They propose revisions.
-- **Challenge format:** Concept, analysis + design. Prompt: "Review a provided interactive story or your own. Identify: (1) how many distinct character identities appear, (2) whether dialogue feels authentic or stereotypical, (3) whether all narrative paths are equally valued. Propose one change to improve inclusivity." Auto‑grading scores the analysis for depth and specificity, and checks that proposed changes are feasible and thoughtful.
-- **CSTA:** MS‑ALG‑HD‑03, MS‑ALG‑HD‑04 (Design and refine algorithms considering diverse users and feedback; evaluate impacts on people and communities).
-
----
+#### T15.G8.02 – Accessibility in Media
+- **Short name:** Accessible story
+- **Description:** Implement features like text-to-speech (for blind users) or subtitles (for sound) to make stories accessible.
+- **Challenge format:** Modify. Add TTS blocks to existing text.
+- **CSTA:** 2‑AP‑14
