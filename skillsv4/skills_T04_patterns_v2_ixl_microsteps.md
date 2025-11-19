@@ -10,6 +10,16 @@ This v2 version refines the original draft (`skills_T04_patterns.md`) into an **
 - **Uneven density:** Richer in **grades 3–6**, where loops, lists, custom blocks, and template reuse take off; lighter but still meaningful foundations in K–2 and higher‑order analysis and tradeoffs in 7–8.  
 - **Implementability:** Designed for CreatiCode using picture‑based K–2 tasks, code snippets, starter templates, and small refactor or comparison exercises.
 
+## Teacher Guidance & Sequencing
+
+- **K–2:** Use T04 to talk about “patterns” in pictures, movements, and step lists. Keep the student‑facing language on visual repetition and “do it again” rather than loops or counters; T04 K–2 should feel like math/logic pattern work, not coding.  
+- **Grades 3–5:** Treat T04 as the bridge between everyday repetition and formal coding constructs in T07–T09. Within a grade, start with “spot and name” skills, then move to “use/modify,” and end with “debug/compare” for each pattern (loops, counters, accumulators, search/filter).  
+- **Grades 6–8:** Use T04 to help students recognize and optimize patterns in larger games, simulations, and data projects. Pattern‑composition and optimization skills are ideal for short, targeted practice just before or after major project milestones.  
+- **Cross‑topic:** Pair T04 with:
+  - **T07–T09** when teaching loops, conditionals, and variables so students see construct lessons and pattern lessons reinforcing each other.  
+  - **T14–T20** (games/media) and **T17–T18** (physics/3D) when students need to see that the same patterns (e.g., update loops, collision checks) appear in many contexts.  
+  - **T25–T27/T29** (data and text) and **AI topics T21–T24** when highlighting pattern reuse in data processing (counting, filtering, aggregating), which underpins many AI workflows.
+
 IDs follow `T04.G<grade>.<nn>`. v1 IDs are preserved conceptually; new microsteps use higher `<nn>` values.
 
 ---
@@ -307,6 +317,6 @@ _Format:_ Short written guidance; auto‑graded via key phrases. · _CSTA:_ MS�
 ### Notes on Dependencies and Alignment
 
 - K–2: T04 builds on T01 (everyday sequences) and T02 K–2 (basic sequence diagrams) by focusing on *repetition as a recognizable structure* (picture patterns, repeated actions) that later connects to loops. Early T04 skills are small pattern‑spotting microsteps, not new planning or representation work.  
-- G3–5: T04 patterns are closely tied to loops, conditionals, variables, and lists (T06–T10); dependencies should point to the relevant construct topics plus earlier T04 pattern recognitions. Within a grade, strands move in small steps from spotting repetition in code → mapping to `repeat`/counter/search patterns → applying and comparing those patterns in simple problems.  
-- G6–8: T04 emphasizes algorithmic patterns, reuse, and efficiency across projects; skills depend on prior programming topics, T02 diagram/tracing fluency, and T03 decomposition habits, but should not gate access to core constructs. They help students recognize, compose, and optimize common patterns rather than learn constructs from scratch.  
+- G3–5: T04 patterns are closely tied to loops, conditionals, variables, and lists (T06–T10); dependencies should point to the relevant construct topics plus earlier T04 pattern recognitions. Within a grade, strands move in small steps from spotting repetition in code → mapping to `repeat`/counter/search patterns → applying and comparing those patterns in simple problems. Canonical counter/accumulator/search/filter patterns in Grade 5 should be treated as gateway skills for later data (T25–T27) and AI topics (T21–T24).  
+- G6–8: T04 emphasizes algorithmic patterns, reuse, and efficiency across projects; skills depend on prior programming topics, T02 diagram/tracing fluency, and T03 decomposition habits, but should not gate access to core constructs. They help students recognize, compose, and optimize common patterns rather than learn constructs from scratch. Pattern‑comparison and optimization skills can be tagged to CSTA efficiency/impacts standards and, when used in AI contexts, to AI4K12 ethical design and impacts categories.  
 - This design aligns with CSTA ALG‑AF/ALG‑PS and ALG‑IM expectations while making each step small, auto‑gradable, and CreatiCode‑friendly and keeping roles of T01 (everyday algorithms), T02 (algorithm diagrams & tracing), T03 (planning/decomposition), and T04 (patterns & reusable solutions) complementary with no major duplication.

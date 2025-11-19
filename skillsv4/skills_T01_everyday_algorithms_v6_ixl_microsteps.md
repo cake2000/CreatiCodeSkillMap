@@ -23,6 +23,17 @@ This v6 version is designed to feel like **IXL for algorithms**, with:
   - T01 reuses these patterns inside concrete algorithms and projects (e.g., maze solvers, games, simulations) without re‑teaching the pattern mechanics; it focuses on when and why to apply them for a particular task.  
   - Loop‑ and if/then‑heavy T01 skills (especially in Grades 3–5) should list the relevant T04 pattern microsteps as prerequisites so students meet the pattern concept before they use it in full algorithms.
 
+## Teacher Guidance & Sequencing
+
+- **K–2 (concept‑only):** Use T01 K–2 alongside picture‑based work in T02–T05. Keep student language to “steps,” “rules,” and “routines” rather than “algorithms” or “code,” so tasks stay unplugged and concrete.  
+- **Grade 3 gateway:** Treat `T01.G1.01` (everyday algorithms) and `T01.G3.01` (first event‑driven sequence) as *gateway skills* that deserve extra practice and teacher‑led examples before students move into heavier loop and conditional work in T06–T09.  
+- **Within a grade:** Move in this order: concept/read skills → write/build skills → debug/compare skills. For example, in Grade 3 use `T01.G3.02`, `T01.G3.03–G3.04`, and `T01.G3.09–G3.10` before tackling debugging (`T01.G3.13–G3.15`).  
+- **Cross‑topic:** Pair T01 with:
+  - **T02** when you want to emphasize diagrams, flowcharts, and tracing.  
+  - **T03** when turning everyday tasks and project ideas into plans.  
+  - **T04** when highlighting named patterns like “repeat,” counters, or search that reappear across projects.  
+  - **T06–T09** when you are ready for focused construct practice (events, loops, conditionals, variables) after students understand the underlying algorithm ideas here.
+
 Skills are grouped by grade and within each grade by **strands**. IDs follow `T01.G<grade>.<nn>`. This file supersedes earlier v4/v5 drafts as the **current, high‑granularity design** for T01.
 
 ---
@@ -200,8 +211,8 @@ Strands: **3‑A Build simple coded algorithms**, **3‑B Loops as repeated step
 ### 3‑A: Build simple coded algorithms
 
 **T01.G3.01 – Build a simple event‑driven sequence**  
-Students create a script triggered by an event that runs a 3–5 block sequence.  
-_Format:_ Coding, starter project. · _CSTA:_ E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
+Students complete a partially built script that is triggered by an event by adding 1–2 missing blocks so it runs a clear 3–5 block sequence, starting from a highly scaffolded starter project.  
+_Format:_ Guided coding in a starter project (mostly pre‑built); auto‑graded via final behavior. · _CSTA:_ E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
 
 **T01.G3.02 – Match a story description to a code sequence**  
 Students choose which of several scripts matches a natural‑language description.  
@@ -516,3 +527,11 @@ _Format:_ Coding + reading logs; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑07, M
   - Refactoring mid‑sized programs for clarity and efficiency, plus logging to “peek inside” algorithms.
 
 Every skill is designed as a **small, enjoyable step** that can be implemented as a short CreatiCode activity, mirroring IXL’s “painfully small” but highly effective incremental style.
+
+### Notes on Dependencies and Alignment
+
+- **Standards:** Skills map primarily to CSTA ALG‑AF with links to ALG‑PS/ALG‑IM and PRO‑PF/PRO‑TR. Fairness‑ and impact‑oriented skills in Grades 6–8 should also carry AI4K12 tags in implementation (e.g., categories D/E for ethical design and societal impacts).  
+- **K–2 foundations:** T01 K–2 should be prerequisites for Grade 3 gateway construct topics (T06–T09), but K–2 activities themselves remain picture‑based, unplugged, and device‑agnostic.  
+- **Grade 3 gateway:** Grade 3 T01 skills depend on K–2 T01–T05 foundations and then support, rather than gate, the core construct topics (T06–T09). In data files, avoid making T01.G3.x a prerequisite for students’ *first* exposure to loops/events/conditionals; instead, treat them as parallel practice and application.  
+- **Inter‑topic dependencies:** Representation‑heavy T01 skills (especially Grades 5–6) should depend on T02 flowchart/pseudocode microsteps; loop and variable usage skills should depend on pattern skills in T04 and core construct skills in T07–T09.  
+- **Classroom use:** Teachers can select short “ladders” within each grade (e.g., G3 read → build → debug) as mini‑units, or sprinkle individual skills across game, data, and AI projects to reinforce algorithm ideas without needing long, standalone algorithm lessons.

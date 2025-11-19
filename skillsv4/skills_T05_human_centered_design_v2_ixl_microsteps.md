@@ -10,6 +10,17 @@ This v2 version refines the original draft (`skills_T05_human_centered_design.md
 - **Uneven density:** Heavier scaffolding in **grades 3–6**, where students start designing their own apps and interactive experiences with CreatiCode; lighter but meaningful K–2 foundations and more analytical 7–8 work.  
 - **Implementability:** All skills can be run as picture‑based tasks, small planning forms, structured prompts around CreatiCode projects, or simple checklists; no free‑form essays required to auto‑grade.
 
+## Teacher Guidance & Sequencing
+
+- **K–2:** Use T05 to talk about “who a tool helps” and “which version is easier” with pictures and very short stories. Keep classroom language concrete (“helps,” “easy/hard,” “try it on a computer”) rather than abstract HCD terminology.  
+- **Grades 3–5:** Introduce the HCD cycle (empathize → design → test) and simple simulation thinking as planning tools that sit *around* coding, not inside it. Within a grade, move from identifying needs → proposing a single change → planning how to test or measure whether the change worked.  
+- **Grades 6–8:** Use T05 to support projects that mix UI design, data, and AI: accessibility reviews, harms and mitigations, data‑driven improvements, and simulation experiments. XO‑based skills (`T05.G8.02`) should be framed as *critical* use of AI, where students evaluate and refine AI suggestions.  
+- **Cross‑topic:** Pair T05 with:
+  - **T03** for project planning milestones and roles.  
+  - **T14–T20** (games, media, UI) when asking “who is this for?” and “is it easy to use?”  
+  - **T17/T25–T27/T28** when planning what to model, measure, and compare in simulations or data investigations.  
+  - **AI topics T21–T24 and impacts/ethics topics T35–T36** when discussing who is helped or harmed by AI‑powered designs and how to improve them.
+
 IDs follow `T05.G<grade>.<nn>`. v1 IDs are preserved conceptually; new microsteps use higher `<nn>` values.
 
 ---
@@ -83,11 +94,11 @@ _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E2‑ALG‑HD‑02.
 ### 2‑B: Simple simulation ideas
 
 **T05.G2.03 – Recognize when a situation could be simulated**  
-Students see scenarios (traffic light, plant growth, simple weather) and choose which could be simulated on a computer as a way to “try ideas safely” instead of in real life.  
+Students see scenarios (traffic light, plant growth, simple weather) and choose which ones could be tried on a computer using pretend versions as a way to “try ideas safely” instead of in real life.  
 _Format:_ MCQ; auto‑graded. · _CSTA:_ E2‑DAA‑DI‑01 (early exposure).
 
 **T05.G2.04 – Choose what to include in a very simple simulation**  
-Students decide which 2–3 elements are important to include in a picture‑based simulation (e.g., “rain” and “sun” for plant growth) so the model can help answer a simple question.  
+Students decide which 2–3 elements are important to include when they “pretend on a computer” (e.g., “rain” and “sun” for plant growth) so the model can help answer a simple question.  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E2‑DAA‑DI‑01.
 
 ---
@@ -306,5 +317,5 @@ _Format:_ Checklist + short comments; auto‑graded by coverage. · _CSTA:_ MS�
 
 - K–2: T05 builds on general reasoning and picture‑based tasks; it depends lightly on T01/T02 for sequence and representation ideas but keeps the focus on *who* is helped and what makes tools easier to use. Simulation mentions are very high‑level (“could this be simulated?”) and do not overlap with core algorithm topics.  
 - G3–5: HCD and simulation planning skills depend on basic project ideas and data concepts from other topics (e.g., T03 decomposition, T25–T27 data) and are intended to precede or accompany coding in topics like T14–T20 and T17/T28. T05 covers **what to build and test for humans and what to model/test in simulations**, while T01–T04 focus on algorithm structure and patterns.  
-- G6–8: T05 skills assume students can build small apps and simulations (T06–T13, T17, T25–T27) and focus on planning, evaluation, and iteration using HCD and DAA‑DI practices. They are supports for larger design/simulation projects rather than prerequisites for learning core constructs.  
+- G6–8: T05 skills assume students can build small apps and simulations (T06–T13, T17, T25–T27) and focus on planning, evaluation, and iteration using HCD and DAA‑DI practices. They are supports for larger design/simulation projects rather than prerequisites for learning core constructs. XO‑related skills (`T05.G8.02`) and harms/mitigation/data‑driven improvement skills (`T05.G7.03–G7.06`) should be aligned in metadata with AI4K12 priorities around humans and AI (A), ethical AI design (D), and societal impacts (E).  
 - This design matches CSTA ALG‑HD and DAA‑DI progressions, keeps each skill narrow, auto‑gradable, and CreatiCode‑implementable, and makes T05 complementary to T01 (everyday algorithms), T02 (algorithm diagrams), T03 (project planning/decomposition), and T04 (patterns & reusable solutions).

@@ -12,6 +12,17 @@ This v2 version upgrades the original draft (`skills_T02_representing_tracing.md
 - **Implementability:** All skills can be implemented using CreatiCode’s picture‑based K–2 activities, block‑based coding environment, and the **Diagrams** tab (for flowchart‑style diagrams and box/step diagrams) plus simple UI widgets for pseudocode entry and multi‑choice/drag‑drop tasks.
 - **Separation from T01:** T01 focuses on choosing, improving, and applying algorithms to real‑world tasks (bedtime routines, classroom jobs, project plans), while T02 focuses on reading, tracing, and converting the *diagrams and code* that represent those algorithms, often in neutral puzzle or mini‑game contexts.
 
+## Teacher Guidance & Sequencing
+
+- **K–2:** Use T02 K–2 alongside T01 to gently introduce the idea that “a row of pictures with arrows” is a kind of diagram. Student‑facing wording should emphasize “picture steps” and “how‑to strips” rather than formal words like “flowchart.”  
+- **Grades 3–5:** Within each grade, move from *diagram‑only* work to *code tracing* and then to *diagram↔code conversion*. For example, in Grade 3: use `T02.G3.01–G3.02` (flowchart basics) before `T02.G3.03–G3.04` (code tracing) and `T02.G3.05–G3.06` (matching flowcharts and code).  
+- **Gateway constructs:** Make sure students have seen basic events/loops/conditionals in T06–T08 and everyday algorithm skills in T01 before heavy code‑tracing skills in T02 (especially `T02.G3.03–G3.04` and all G4–G6 tracing tasks).  
+- **Cross‑topic:** Pair T02 with:
+  - **T01** when focusing on which algorithm is better or more appropriate for a task.  
+  - **T03** when turning a project plan into diagrams or trace tables.  
+  - **T04** when naming or spotting standard patterns (search, counters, accumulators) that appear inside diagrams and code.  
+  - **Data & AI topics (T25–T29, T21–T24)** when tracing simulations, decision algorithms, or deterministic vs probabilistic behavior.
+
 IDs follow `T02.G<grade>.<nn>`. Existing v1 IDs are preserved with tightened scopes where needed; additional microsteps use higher `<nn>` values and will need to be added to the JSON skill maps in a later data pass.
 
 ---
@@ -321,7 +332,7 @@ _Format:_ Code/pseudocode pairs + tracing questions; auto‑graded by predicted 
 ### Notes on Dependencies and Alignment
 
 - K–2 T02 skills should depend primarily on T01 K–2 (everyday algorithms) and earlier skills within T02; Grade 1 T02 strips build directly on Kindergarten T01/T02 sequence sense‑making.  
-- G3–5 T02 tracing skills should depend on the **Grade 3 gateway constructs** in T06–T09 (events, loops, conditionals, variables) plus corresponding T01 algorithm skills; within T02, students move from flowchart basics (G3) → loops/decisions in diagrams and code (G4) → variables and multi‑branch traces (G5).  
-- G6–8 T02 analysis skills should depend on earlier T02 representation/tracing skills and on relevant programming topics (T06–T13) but should **not** be prerequisites for core coding constructs themselves; they extend into nested traces, classic algorithms, and deterministic vs probabilistic behavior.  
+- G3–5 T02 tracing skills should depend on the **Grade 3 gateway constructs** in T06–T09 (events, loops, conditionals, variables) plus corresponding T01 algorithm skills; within T02, students move from flowchart basics (G3) → loops/decisions in diagrams and code (G4) → variables and multi‑branch traces (G5). In classroom sequencing, prefer to use flowchart‑only microsteps in a grade before introducing the matching code‑tracing microsteps.  
+- G6–8 T02 analysis skills should depend on earlier T02 representation/tracing skills and on relevant programming topics (T06–T13) but should **not** be prerequisites for core coding constructs themselves; they extend into nested traces, classic algorithms, simulations, and deterministic vs probabilistic behavior (which can be tagged to AI4K12 representation and impacts categories in implementation).  
 - This design aligns with CSTA ALG‑AF and ALG‑PS progressions while keeping each skill small, auto‑gradable, and implementable on the CreatiCode playground.
 - T01 includes a few representation‑conversion skills (e.g., everyday description ↔ flowchart ↔ code) but keeps the focus on real‑world contexts and algorithm choice; T02 is the primary home for the *mechanics* of diagrams, trace tables, and notation. T01 representation skills should list relevant T02 microsteps as prerequisites rather than duplicate them.
