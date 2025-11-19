@@ -161,18 +161,32 @@ Grade 3 is the transition into CreatiCode blocks. Students still begin with unpl
 
 Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellations, modular code, and basic interactivity.
 
-### T20.G4.01 – Draw spirals with changing distance
+### T20.G4.01 – **[Technical Skill]** Implement incremental loops for spirals
 
-- **Short name:** Spiral loops
-- **Description:** Students write a loop that increases move distance (or angle) each turn to create spiral art.
-- **Challenge format:** Coding, guided construction. Provide a loop scaffold and a variable; students increment the variable inside the loop. Auto-grading checks the variable update and spiral output.
+- **Short name:** Spiral algorithms (technical)
+- **Description:** Students write a loop that increases a variable (distance or angle) each iteration to create mathematical spiral patterns. They focus on the technical implementation of incremental variables and loop mechanics.
+- **Challenge format:** Coding, algorithm implementation. Students implement the incremental logic correctly. Auto-grading checks variable updates, loop structure, and mathematical accuracy.
 - **CSTA:** E4‑PRO‑PF‑01.
 
-### T20.G4.02 – Build a tessellation tile with a custom block
+### T20.G4.01b – **[Creative Skill]** Design spiral art for visual effect
 
-- **Short name:** Tessellation block
-- **Description:** Learners design a tile pattern, store it in a custom block, and reuse it inside nested loops to cover the stage.
-- **Challenge format:** Coding challenge. Students create a custom block (no inputs required) that draws the tile, then call it inside a double loop. Auto-grading checks for the custom block and tiling accuracy.
+- **Short name:** Spiral composition (creative)
+- **Description:** Students choose increment values, colors, and styling to create aesthetically pleasing spiral art. They explain their design choices and how they achieve specific visual effects.
+- **Challenge format:** Creative design challenge. Students create spirals with different visual styles and justify their aesthetic choices. Auto-grading evaluates creative diversity and design rationale.
+- **CSTA:** E4‑PRO‑PF‑01.
+
+### T20.G4.02 – **[Technical Skill]** Implement tessellation with custom blocks
+
+- **Short name:** Tessellation algorithms (technical)
+- **Description:** Students create a custom block (introduced in T11.G4.01) that draws a geometric tile pattern, then use nested loops to repeat it across the stage. They focus on modular code structure and coordinate calculations.
+- **Challenge format:** Coding challenge. Students implement custom block creation and nested loop tiling logic. Auto-grading checks for correct custom block usage, loop structure, and coordinate accuracy.
+- **CSTA:** E4‑PRO‑PF‑01.
+
+### T20.G4.02b – **[Creative Skill]** Design tessellation patterns for artistic effect
+
+- **Short name:** Tessellation design (creative)
+- **Description:** Students design visually appealing tile patterns and choose colors/spacing to create artistic tessellations. They explain how their pattern choices create specific visual effects or themes.
+- **Challenge format:** Creative design project. Students create original tessellation patterns with artistic intent. Auto-grading evaluates pattern originality and design rationale.
 - **CSTA:** E4‑PRO‑PF‑01.
 
 ### T20.G4.03 – Control art with parameters
@@ -202,11 +216,18 @@ Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellatio
 
 Grade 5 blends algorithmic art with data, motion, and input. Students create self-updating or interactive pieces and begin exploring fractal-like repetition.
 
-### T20.G5.01 – Draw data-driven bars or dots
+### T20.G5.01 – **[Technical Skill]** Implement data-driven visualization algorithms
 
-- **Short name:** Data art basics
-- **Description:** Students read values from a list and map them to heights, lengths, or dot clusters to create a stylized chart.
-- **Challenge format:** Coding, starter data project. Provide a list; students loop through items and draw proportional visuals. Auto-grading compares the drawing to data values.
+- **Short name:** Data mapping algorithms (technical)
+- **Description:** Students read values from a list and implement algorithms to map data to visual properties (heights, lengths, positions). They focus on the technical aspects of data processing and coordinate calculations.
+- **Challenge format:** Coding, algorithm implementation. Students implement correct data mapping and scaling algorithms. Auto-grading checks data processing logic and mathematical accuracy.
+- **CSTA:** E5‑PRO‑PF‑01, DAA‑DP/DI.
+
+### T20.G5.01b – **[Creative Skill]** Design data visualizations for communication
+
+- **Short name:** Data art design (creative)
+- **Description:** Students choose visual styles, colors, and layouts to create effective and aesthetically pleasing data representations. They explain how their design choices help communicate data insights.
+- **Challenge format:** Creative visualization project. Students create visually compelling data representations with clear communication goals. Auto-grading evaluates design effectiveness and communication clarity.
 - **CSTA:** E5‑PRO‑PF‑01, DAA‑DP/DI.
 
 ### T20.G5.02 – Animate a pattern with a counter variable
@@ -264,11 +285,18 @@ Grade 6 students analyze more complex scripts, refactor for clarity, and connect
 - **Challenge format:** Coding. Auto-grading checks for valid `if/else` logic tied to visuals.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
-### T20.G6.04 – Build a data-driven visualization
+### T20.G6.04 – **[Technical Skill]** Implement complex data visualization algorithms
 
-- **Short name:** Data visualization art
-- **Description:** Students read structured data (list of objects, CSV import) and turn it into an artistic visualization (scatter, radial chart, abstract glyphs).
-- **Challenge format:** Coding, data project. Provide dataset; students iterate and map to positions/colors. Auto-grading verifies loops and correct mapping of data fields.
+- **Short name:** Advanced data algorithms (technical)
+- **Description:** Students implement algorithms to process structured data (list of objects, CSV import) and map multiple data fields to visual properties using iteration and conditional logic.
+- **Challenge format:** Coding, algorithm implementation. Students implement data processing loops and mapping functions. Auto-grading verifies algorithm correctness and data handling accuracy.
+- **CSTA:** MS‑PRO‑PF‑01, DAA‑DP/DI.
+
+### T20.G6.04b – **[Creative Skill]** Design artistic data visualizations
+
+- **Short name:** Data art composition (creative)
+- **Description:** Students create artistic and meaningful visualizations (scatter, radial, abstract glyphs) that effectively communicate data stories. They explain design choices and visual communication strategies.
+- **Challenge format:** Creative data project. Students design compelling visualizations with clear narrative intent. Auto-grading evaluates artistic merit and communication effectiveness.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DP/DI.
 
 ### T20.G6.05 – Apply math transformations to art
@@ -325,11 +353,18 @@ Grade 7 shifts toward optimization, advanced control flow, and real-world inspir
 
 Grade 8 synthesizes algorithmic art with advanced data, generative constraints, ethics, and performance tuning.
 
-### T20.G8.01 – Design a multi-variable data visualization
+### T20.G8.01 – **[Technical Skill]** Implement multi-dimensional data mapping algorithms
 
-- **Short name:** Advanced data art
-- **Description:** Students map multiple data attributes (size, color, motion) to different visual channels to tell a story about a complex dataset.
-- **Challenge format:** Coding, capstone-style project. Auto-grading checks loops, data accuracy, and a short justification of mappings.
+- **Short name:** Complex data algorithms (technical)
+- **Description:** Students implement sophisticated algorithms to map multiple data attributes simultaneously to different visual channels (size, color, motion, position) using advanced programming techniques.
+- **Challenge format:** Coding, advanced algorithm implementation. Students build complex data processing systems. Auto-grading checks algorithmic sophistication and technical accuracy.
+- **CSTA:** MS‑PRO‑PF‑01, DAA‑DP/DI.
+
+### T20.G8.01b – **[Creative Skill]** Design multi-variable data stories
+
+- **Short name:** Data storytelling (creative)
+- **Description:** Students design compelling visual narratives that use multiple data attributes to tell meaningful stories about complex datasets. They justify their design choices and communication strategies.
+- **Challenge format:** Creative data storytelling project. Students create comprehensive data narratives with clear communication goals. Auto-grading evaluates storytelling effectiveness and design rationale.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DP/DI.
 
 ### T20.G8.02 – Create constrained generative artwork

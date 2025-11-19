@@ -185,12 +185,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Reading + checklist. Auto-grading checks responses cite policy terms.
 - **CSTA:** E5‑CAS‑ET‑02.
 
-### T32.G5.03 – Secure CreatiCode data tables (PII removal)
+### T32.G5.03 – Secure AI training data and outputs
 
-- **Short name:** Strip personal info before sharing
-- **Description:** Students review a table with names/emails and redact or anonymize before posting project data, linking to T25/T26.
-- **Challenge format:** Coding/concept. Auto-grading checks for removal or hashing of PII fields.
+- **Short name:** Protect personal data in AI workflows
+- **Description:** Students review data tables containing T24 XO conversation logs, T23 sensor recordings, and T22 chatbot interactions. They redact or anonymize personal information before sharing, implement consent mechanisms, and understand how personal data affects AI fairness and privacy, linking to T25/T26 and T35 ethics.
+- **Challenge format:** AI data security exercise. Auto-grading checks PII removal, consent implementation, and ethical reasoning about AI data use.
 - **CSTA:** E5‑DAA‑DF‑01, SAS‑SC.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ### T32.G5.04 – Create backup plans for digital work
 
@@ -217,12 +218,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Coding + design. Auto-grading tests validation logic.
 - **CSTA:** MS‑PRO‑PF‑02, SAS‑SC.
 
-### T32.G6.03 – Conduct threat modeling for class projects
+### T32.G6.03 – Conduct AI-specific threat modeling for class projects
 
-- **Short name:** What could go wrong? Mitigate it.
-- **Description:** Students analyze their own apps (chatbot, logging tool) and list assets, threats, and mitigations (e.g., sanitize inputs).
-- **Challenge format:** Threat model worksheet. Auto-grading checks for asset/threat/mitigation triples.
+- **Short name:** What AI-specific threats exist? How to mitigate?
+- **Description:** Students analyze their AI-powered apps (T22 chatbots, T21 image generators, T23 perception tools) and identify AI-specific threats: prompt injection attacks, bias amplification, data poisoning, model inversion, inappropriate content generation. They propose both technical and ethical mitigations.
+- **Challenge format:** AI threat model worksheet covering T21-T24 applications. Auto-grading checks for AI-specific asset/threat/mitigation triples and ethical considerations.
 - **CSTA:** MS‑SAS‑SC‑03.
+- **AI4K12:** D1 Ethical Design; D2 Bias and Fairness.
 
 ### T32.G6.04 – Understand ethical hacking vs malicious hacking
 
@@ -256,12 +258,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Coding. Auto-grading inspects tables for necessary columns and redaction of PII.
 - **CSTA:** MS‑PRO‑PF‑02, SAS‑SC.
 
-### T32.G7.04 – Discuss societal impacts of surveillance tech
+### T32.G7.04 – Analyze AI-powered surveillance ethics and societal impacts
 
-- **Short name:** Cameras and AI – helpful or harmful?
-- **Description:** Learners debate benefits/risks of surveillance (safety vs privacy) referencing AI4K12 priorities.
-- **Challenge format:** Structured discussion notes. Rubric checks balanced arguments.
+- **Short name:** AI perception systems: helpful or harmful?
+- **Description:** Following T23 perception projects, learners debate benefits/risks of AI-powered surveillance (facial recognition, emotion detection, behavior analysis). They analyze case studies, discuss bias and fairness concerns, and propose ethical guidelines connecting to T35 ethics frameworks.
+- **Challenge format:** Structured debate with AI-specific focus. Rubric checks balanced arguments, bias analysis, and connection to T23/T35 content.
 - **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** D2 Bias and Fairness; E1 Societal Impacts; A1 Human-AI Collaboration.
 
 ---
 
@@ -281,12 +284,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Coding. Auto-grading tests multiple user roles for correct access.
 - **CSTA:** MS‑PRO‑PF‑02, SAS‑SC.
 
-### T32.G8.03 – Evaluate AI system security/ethics
+### T32.G8.03 – Conduct comprehensive AI security and ethics audits
 
-- **Short name:** Secure and fair AI assistants
-- **Description:** Students audit an AI project for data security (prompt logs, stored info) and ethical use, proposing guardrails.
-- **Challenge format:** Audit report referencing T21–T24. Rubric checks data handling + ethical recommendations.
+- **Short name:** Secure and ethical AI system evaluation
+- **Description:** Students conduct detailed audits of AI projects covering T21 image generation (bias in outputs, content moderation), T22 chatbots (prompt injection, inappropriate responses), T23 perception (consent, data retention), and T24 XO assistance (academic integrity, citation). They propose technical and ethical guardrails.
+- **Challenge format:** Comprehensive audit report with security + ethics sections for each T21-T24 component. Rubric checks technical security measures and ethical framework application.
 - **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** D1 Ethical Design; D2 Bias and Fairness; E1 Societal Impacts.
 
 ### T32.G8.04 – Publish incident response plans
 

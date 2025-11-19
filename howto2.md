@@ -8,6 +8,8 @@ we are aiming for "IXL for coding based on creaticode", and we need top quality 
 
 read this file docs/TOPIC_IXL_MICROSTEP_GUIDE.md to learn how to do it. note that k-2 level skills will not touch code blocks yet. They start to do any coding or do scripts/blocks in grade 3. 
 
+## task for now
+
 now, we need to enhance the quality of the skills for this version. read the file skillsv4/improvements.md, which contains all the to do tasks. 
 
-make these changes in the files in skillsv4.
+make these changes in the 36 skill files in skillsv4.

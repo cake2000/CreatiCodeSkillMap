@@ -12,7 +12,7 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** T25 explains the *shape* of information that powers CreatiCode projects. It begins in Kindergarten with picture-based experiences (no code) that help students see numbers, words, and symbols as interchangeable representations of the same facts. Grades 3–5 translate those intuitions into concrete program structures (variables, lists, tables). Grades 6–8 reason about schema design, metadata, nested structures, and how representation choices influence AI systems (bias, compression, interpretability). T25 feeds directly into **T26 Data Collection** (how we gather information) and **T27 Data Analysis** (how we interrogate it). Programming topics (T07–T10) reference T25 when they introduce lists/tables in code; AI topics (T21–T24) lean on T25 for designing prompt inputs and interpreting model outputs.
+**Role and scope in v3:** T25 explains the *shape* of information that powers CreatiCode projects and is the central home for data representation concepts. It begins in Kindergarten with picture-based experiences (no code) that help students see numbers, words, and symbols as interchangeable representations of the same facts. Grades 3–5 translate those intuitions into concrete program structures (variables, lists, tables). Grades 6–8 reason about schema design, metadata, nested structures, and how representation choices influence AI systems (bias, compression, interpretability). T25 feeds directly into **T26 Data Collection** (how we gather information) and **T27 Data Analysis** (how we interrogate it). Programming topics (T07–T10) and AI topics (T21–T24) should depend on T25 skills rather than re-teaching representation concepts. This topic owns all teaching about data schemas, types, formats, and structure design.
 
 ---
 
@@ -103,9 +103,10 @@ Where relevant, a primary **CSTA code** is noted.
 ### T25.G3.01 – Map survey responses into list variables
 
 - **Short name:** Store answers as list items
-- **Description:** Students connect physical sticky notes to a CreatiCode list by typing each response as an item, demonstrating how analog data becomes digital.
+- **Description:** Students take physical sticky notes and type each response as an item in a list, demonstrating how analog data becomes digital.
 - **Challenge format:** Coding exercise. Auto-grading checks that the list contains all responses and preserves order.
 - **CSTA:** E3‑PRO‑DH‑02.
+- **Editor notes:** Builds on T26 survey collection methods; connects to T10 list basics.
 
 ### T25.G3.02 – Choose the right variable type
 
@@ -220,9 +221,10 @@ Where relevant, a primary **CSTA code** is noted.
 ### T25.G6.04 – Trace AI prompt inputs to structured slots
 
 - **Short name:** Map prompt text to data fields
-- **Description:** Learners examine an AI prompt template (“Write a summary about {topic} in {tone}”) and identify which fields store each slot’s values, linking XO/T22 prompts to structured data models.
+- **Description:** Learners examine an AI prompt template ("Write a summary about {topic} in {tone}") and identify which fields store each slot's values.
 - **Challenge format:** Concept. Auto-grading checks field assignments and a reflection on why structured slots help reuse prompts.
 - **CSTA:** MS‑PRO‑PM‑03.
+- **Editor notes:** Links to XO/T22 prompts and structured data models; foundation for AI prompt engineering.
 
 ---
 

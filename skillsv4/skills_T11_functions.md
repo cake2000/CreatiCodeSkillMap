@@ -23,9 +23,9 @@ Grade 3 gently introduces the idea of helper blocks and functions by **reading a
 ### T11.G3.01 – Understand when to use custom blocks vs loops
 
 - **Short name:** Choose between blocks and loops
-- **Description:** Students differentiate between using a loop (for repeating the exact same action a fixed number of times) and a custom block (for grouping a complex or varied sequence and reusing it). Both organize code, but for different purposes.
-- **Challenge format:** Concept, multiple choice. Present a scenario (e.g., "I want my sprite to do a pattern 5 times") and two approaches: a custom block inside a loop, or just a loop. Ask "Which approach would work here and why?" Auto‑grading checks the choice and reasoning.
-- **CSTA:** E3‑ALG‑AF‑01 (Write algorithms including sequence, events, iteration, and selection); E3‑PRO‑PF‑01 (Develop code including these constructs).
+- **Description:** Students differentiate between using a loop (for repeating the exact same action a fixed number of times) and a custom block (for grouping a complex or varied sequence and reusing it). Both organize code, but for different purposes. This conceptual gateway skill builds organizational thinking without requiring students to define functions yet.
+- **Challenge format:** Concept, multiple choice with visual scenarios. Present a simple scenario (e.g., "I want my sprite to do a pattern 5 times") and two approaches: a custom block inside a loop, or just a loop. Ask "Which approach would work here and why?" Auto‑grading checks the choice and reasoning.
+- **CSTA:** E3‑ALG‑AF‑01 (Write algorithms including sequence, events, iteration, and selection); E3‑PRO‑PF‑01 (Develop code including these constructs). ⭐ Gateway
 
 ### T11.G3.02 – Use a pre‑made helper block with parameters
 
@@ -238,3 +238,14 @@ Grade 8 extends modular design thinking to larger projects and introduces the re
 **8:** Reusable game/simulation libraries; deep refactoring of large programs; blocks that operate on complex data; analyzing design trade‑offs in how much and how to modularize.
 
 This progression builds toward the high school expectation (HS‑PRO‑PF‑01: "Convert an algorithm written in pseudocode into a program that uses sequence, selection, iteration, procedures with parameters, and lists") while grounding learning in concrete, auto-gradable challenges in CreatiCode.
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Ideas about grouping actions, naming routines, and splitting plans live in T01/T03/T04/T12 and are picture‑based/non‑coding. T11 assumes these conceptual foundations.
+- G3–5: T11 progression is a model for introducing complex topics: G3 is purely conceptual (understanding and using pre-made helpers), G4 introduces defining simple helpers, G5+ adds parameters and more advanced concepts.
+- G6–8: T11 skills assume solid use of functions and focus on modular programs, algorithm libraries, and subsystems.
+- This topic exemplifies the "recognize → trace → build → debug" pattern and manages cognitive load well, serving as a model for other gateway topics.
+- This design aligns with CSTA PRO‑PF and PRO‑PD expectations while keeping skills small, progressive, and CreatiCode‑implementable.

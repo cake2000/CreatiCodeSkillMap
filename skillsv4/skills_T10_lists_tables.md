@@ -21,30 +21,23 @@ Grade 3 deepens list manipulation with iteration and conditions, connecting list
 ### T10.G3.01 – Loop through and process each item in a list
 
 - **Short name:** Do something with each item in a list
-- **Description:** Students use a `repeat` or `for each [item] in [list]` loop to iterate over all items in a list and perform an action on each (e.g., say each item, add them up, count specific ones).
-- **Challenge format:** Coding, starter project. Provided: a list of numbers or words and a loop block stub. Students fill in the loop to perform a task (e.g., "Say each fruit in the list"). Auto‑grading checks that the loop iterates the correct number of times and that the action occurs for each item.
+- **Description:** Students use a simple `for each [item] in [list]` loop with a very basic list (3-4 items) to perform a simple action on each item (e.g., say each fruit name). This builds on T07 loop concepts by applying them to lists. Keep the list short and the action very simple to manage cognitive load.
+- **Challenge format:** Coding, highly scaffolded starter project. Provided: a short list of familiar items (fruits, colors) and guided loop construction. Students use "for each" to say each item. Auto‑grading checks that the loop processes all items correctly.
 - **CSTA:** E3‑PRO‑PF‑01 (using loops), E3‑DAA‑DP (processing data via iteration).
 
 ### T10.G3.02 – Find and count items in a list with a condition
 
 - **Short name:** Count items that match a rule
-- **Description:** Students loop through a list and count items that satisfy a condition (e.g., "count how many numbers are greater than 5" or "count red items"), using a counter variable inside the loop.
-- **Challenge format:** Coding, starter project. Provided: a list and a target condition. Students initialize a counter, loop through the list, check the condition for each item, and increment the counter if true. Auto‑grading checks the final count value.
+- **Description:** Students loop through a short list and count items that match a very simple, visual condition (e.g., "count the red items" or "count numbers equal to 3"). This combines lists, loops, conditionals, and variables - ensure strong scaffolding since it builds on multiple gateway concepts. Keep conditions very simple and lists very short.
+- **Challenge format:** Coding, highly scaffolded starter project with step-by-step guidance. Provided: a short list (3-4 items), a simple condition, and guided setup of counter variable and loop. Students follow guided steps to count matching items. Auto‑grading checks the final count value.
 - **CSTA:** E3‑DAA‑DP (processing and filtering data), E3‑DAA‑DI (investigating data patterns).
 
-### T10.G3.03 – Sort a list by swapping items
+### T10.G3.03 – Add and remove items from a list
 
-- **Short name:** Arrange a list in order
-- **Description:** Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them if out of order, or by selecting the smallest/largest and moving it. This introduces algorithmic thinking about data organization.
-- **Challenge format:** Coding, starter project or guided challenge. Provided: an unsorted list and pseudocode or block hints. Students implement swaps or comparisons to sort in ascending or descending order. Auto‑grading checks the final sorted order and may verify the number of comparisons (within reasonable bounds).
-- **CSTA:** E3‑ALG‑AF‑01 (recognizing and implementing algorithms), E3‑DAA‑DP.
-
-### T10.G3.04 – Search a list for a specific item (linear search)
-
-- **Short name:** Find an item's position in a list
-- **Description:** Students implement a simple linear search: loop through a list, compare each item to a target, and report the position or index when found (or "not found" if the loop completes).
-- **Challenge format:** Coding, starter project. Provided: a list and a target value. Students use a loop with a counter to find the position. Auto‑grading runs test cases (item present at various positions, item not present) and checks the returned position.
-- **CSTA:** E3‑DAA‑DI (investigating and finding patterns in data), MS‑PRO‑PF‑01 (loop-based algorithms).
+- **Short name:** Add or remove list items
+- **Description:** Students add one item to the end of a short list or remove one obvious item, focusing on understanding that lists can grow and shrink. Keep operations very simple (add one specific item, remove one specific item) and show the visual change in the list display.
+- **Challenge format:** Coding, scaffolded starter project. Provided: a short list and simple instructions like "add 'banana' to the list" or "remove 'apple' from the list." Students use "add item to list" and "delete item from list" blocks with guided support. Auto‑grading checks the final list contents.
+- **CSTA:** E3‑DAA‑DP (basic data processing), E3‑PRO‑DH (data handling).
 
 ---
 
@@ -73,7 +66,21 @@ Grade 4 introduces nested loops and more complex list operations, including the 
 - **Challenge format:** Coding, guided project. Starter code has a list of scores and a new score to add. Students either insert the new score in the correct position or re‑sort the list after adding. Auto‑grading checks the final sorted order.
 - **CSTA:** E4‑DAA‑DP (organizing and processing data), E4‑DAA‑DI (analyzing and ranking data).
 
-### T10.G4.04 – Filter or remove items from a list based on a condition
+### T10.G4.04 – Sort a list by swapping items
+
+- **Short name:** Arrange a list in order
+- **Description:** Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them if out of order, or by selecting the smallest/largest and moving it. This introduces algorithmic thinking about data organization.
+- **Challenge format:** Coding, starter project or guided challenge. Provided: an unsorted list and pseudocode or block hints. Students implement swaps or comparisons to sort in ascending or descending order. Auto‑grading checks the final sorted order and may verify the number of comparisons (within reasonable bounds).
+- **CSTA:** E4‑ALG‑AF‑01 (recognizing and implementing algorithms), E4‑DAA‑DP.
+
+### T10.G4.05 – Search a list for a specific item (linear search)
+
+- **Short name:** Find an item's position in a list
+- **Description:** Students implement a simple linear search: loop through a list, compare each item to a target, and report the position or index when found (or "not found" if the loop completes).
+- **Challenge format:** Coding, starter project. Provided: a list and a target value. Students use a loop with a counter to find the position. Auto‑grading runs test cases (item present at various positions, item not present) and checks the returned position.
+- **CSTA:** E4‑DAA‑DI (investigating and finding patterns in data), E4‑PRO‑PF‑01 (loop-based algorithms).
+
+### T10.G4.06 – Filter or remove items from a list based on a condition
 
 - **Short name:** Remove items that don't match a rule
 - **Description:** Students loop through a list and delete items that don't satisfy a condition (e.g., "keep only items > 10" or "remove all 'broken' tools"), either by building a new filtered list or by modifying the original.
@@ -229,3 +236,14 @@ Grade 8 applies lists and tables to complex algorithms, simulations, and data-dr
 - **Description:** Students use lists or tables to model entities and relationships (e.g., students with associated grades, orders with associated items), and write code to perform lookups or join operations to answer queries (e.g., "What grades does student X have?").
 - **Challenge format:** Coding, data modeling project. Provided: two or more related tables. Prompt: "Build a system that allows looking up a student by ID and returning all their grades." Students implement lookup/join logic to retrieve related data. Auto‑grading runs queries and checks the results.
 - **CSTA:** MS‑PRO‑DH‑04 (using data structures to represent relationships), MS‑DAA‑DI‑09 (analyzing complex datasets).
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Picture tables, tallies, and legends live in T25 and are picture‑based/non‑coding. T10 assumes these foundations and begins when students start block‑based coding.
+- G3–5: T10 focuses exclusively on the data structure itself in G3 (creating lists, adding/removing items, iterating through items), with complex algorithms like sorting and searching appropriately moved to G4 to reduce G3 cognitive load.
+- G6–8: T10 skills assume solid use of basic lists and extend to realistic datasets, joins, simulations, and data‑driven apps.
+- This design reduces G3 cognitive overload by deferring complex algorithmic operations (sort/search) until students have mastered the fundamental concepts of lists as data structures.
+- This design aligns with CSTA PRO‑DH and DAA expectations while keeping skills small, progressive, and CreatiCode‑implementable.

@@ -145,8 +145,16 @@ Where relevant, a primary **CSTA code** is noted.
 ### T23.G5.03 – Choose safe ways to handle sensor data
 
 - **Short name:** Keep sensor recordings safe  
-- **Description:** Students choose which actions are safe or risky for camera/mic data (e.g., “keep photos only on device” vs “share raw recordings with strangers”) linking perception to privacy before coding.  
+- **Description:** Students choose which actions are safe or risky for camera/mic data (e.g., "keep photos only on device" vs "share raw recordings with strangers") linking perception to privacy before coding.  
 - **Challenge format:** Sorting safe/risky statements; auto‑graded.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
+
+### T23.G5.04 – Identify when AI sensing might be unfair
+
+- **Short name:** Spot unfair AI sensing
+- **Description:** Students examine scenarios where AI perception might work poorly for some groups (face recognition in poor lighting, voice recognition with accents) and suggest basic fairness improvements (better lighting, multiple language options).
+- **Challenge format:** Scenario analysis + fairness suggestions; rubric‑graded.
+- **AI4K12:** D1 Ethical Design; E2 Bias and Fairness.
 
 ---
 
@@ -179,8 +187,16 @@ Grade 6 students master the core building blocks: mapping speech to UI intents, 
 
 - **Short name:** Make perception input stable
 - **Description:** Students implement smoothing (moving average, clamp, debounce) on speech or vision signals and add watchdog timers to reinitialize detection if the camera/mic feed drops. Example: average the last 5 wrist positions before moving a sprite; if `text from speech` is empty twice in a row, prompt the user to retry.
-- **Challenge format:** Coding + debugging. Starter project intentionally injects noisy hand positions and random empty speech strings. Students add helper lists/variables, smoothing loops, and timeout logic. Auto-grading runs a noisy script and checks that (1) the UI responds with dampened motion, (2) detection restarts or shows a “Please retry” prompt after timeouts, and (3) no crashes occur when data is missing.
+- **Challenge format:** Coding + debugging. Starter project intentionally injects noisy hand positions and random empty speech strings. Students add helper lists/variables, smoothing loops, and timeout logic. Auto-grading runs a noisy script and checks that (1) the UI responds with dampened motion, (2) detection restarts or shows a "Please retry" prompt after timeouts, and (3) no crashes occur when data is missing.
 - **CSTA:** MS-PRO-TR-12.
+
+### T23.G6.05 – Add consent and privacy controls for sensor use
+
+- **Short name:** Build privacy controls for sensors
+- **Description:** Students add clear permission requests before enabling camera/mic detection, provide easy on/off toggles, and implement data retention limits. They explain to users what data is collected and why.
+- **Challenge format:** Coding + UX design. Students implement consent UI, clear privacy indicators, and automatic data deletion. Auto-grading checks for proper user consent flow and privacy protection measures.
+- **CSTA:** MS-PRO-PF-02, MS-CAS-ET-06.
+- **AI4K12:** D1 Ethical Design; A3 Human Agency.
 
 ---
 
@@ -212,14 +228,23 @@ Grade 7 students orchestrate multi-modal experiences: defining gesture dictionar
 ### T23.G7.04 – Monitor detection accuracy across different users
 
 - **Short name:** Log who the system works for
-- **Description:** Students design an accessibility log: each time a speech/gesture event succeeds or fails, they store user metadata (age range, device, lighting) plus outcome, then calculate accuracy rates per group. They interpret the data to spot bias (e.g., low-light users have lower success) and propose adjustments.
+- **Description:** Students design an accessibility log, drawing on planning from T05.G5.06, where each time a speech/gesture event succeeds or fails, they store user metadata (age range, device, lighting) plus outcome, then calculate accuracy rates per group. They interpret the data to spot bias (e.g., low-light users have lower success) and propose adjustments.
 - **Challenge format:** Coding + data analysis. Starter template includes a table and logging helper. Students add UI inputs for metadata, log rows with timestamps, and implement summary reporters (success %, failure notes). Auto-grading replays scripted sessions to ensure logs capture the metadata and summary labels update correctly; rubric scoring checks that reflections mention at least one disparity and concrete mitigation.
 - **CSTA:** MS-CAS-ET-05, MS-DAA-DF-03.
+- **AI4K12:** D2 Bias and Fairness; E2 Societal Impacts.
+
+### T23.G7.06 – Implement fairness safeguards for perception systems
+
+- **Short name:** Build anti-bias detection safeguards
+- **Description:** Students implement measures to improve fairness in AI perception: multiple attempts for failed recognition, alternative input methods when sensors struggle, and user feedback collection for system improvement.
+- **Challenge format:** Coding + ethics implementation. Students build comprehensive fairness features including retry mechanisms, alternative interfaces, and bias reporting tools. Auto-grading checks safeguard functionality and user accommodation features.
+- **CSTA:** MS-PRO-PF-02, MS-CAS-ET-05.
+- **AI4K12:** D2 Bias and Fairness; A3 Human Agency.
 
 ### T23.G7.05 – Build a calibration wizard for sensors
 
 - **Short name:** Help users tune the camera/mic setup
-- **Description:** Students create a multi-step UI wizard (using T16 patterns) that walks users through microphone checks, lighting tests, and gesture framing. Each step runs a quick sensor test, shows the current readings, and offers fixes ("move closer," "increase room light").
+- **Description:** Students create a multi-step UI wizard (using T16 patterns), informed by T05.G5.01 for user needs, that walks users through microphone checks, lighting tests, and gesture framing. Each step runs a quick sensor test, shows the current readings, and offers fixes ("move closer," "increase room light").
 - **Challenge format:** Coding, multi-screen flow. Students implement per-step widgets, store pass/fail flags, and lock access to the main app until calibration succeeds. Auto-grading walks through the wizard, intentionally failing steps to ensure messages display and the main app remains locked until all checks pass.
 - **CSTA:** MS-PRO-PM-03, MS-PRO-PF-02.
 
@@ -253,8 +278,17 @@ Grade 8 students treat AI perception as production infrastructure: they support 
 ### T23.G8.04 – Publish a privacy and deployment plan for perception apps
 
 - **Short name:** Document how you protect sensor data
-- **Description:** Students research real voice/vision privacy concerns (storage, consent, retention) and write a policy for their app: what data is captured, how long it stays, who sees it, how to request deletion, and when to fall back to offline modes. They tie recommendations to their own logging/calibration features.
-- **Challenge format:** Concept, policy memo + presentation. Learners submit a 1–2 page policy plus a short video/slide pitch referencing evidence from their telemetry (e.g., “hand detection logs 50 samples/minute; we purge after 24 hours”). Rubric-based auto-grading checks coverage of consent, storage, transparency, and alignment with AI4K12 priorities on responsible AI.
+- **Description:** Students research real voice/vision privacy concerns (storage, consent, retention) and, informed by T05.G7.03 (unintended harms) and T05.G8.01 (design brief), write a policy for their app: what data is captured, how long it stays, who sees it, how to request deletion, and when to fall back to offline modes. They tie recommendations to their own logging/calibration features.
+- **Challenge format:** Concept, policy memo + presentation. Learners submit a 1–2 page policy plus a short video/slide pitch referencing evidence from their telemetry (e.g., "hand detection logs 50 samples/minute; we purge after 24 hours"). Rubric-based auto-grading checks coverage of consent, storage, transparency, and alignment with AI4K12 priorities on responsible AI.
 - **CSTA:** MS-CAS-HC-02, MS-CAS-ET-06.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts; A3 Human Agency.
+
+### T23.G8.05 – Evaluate societal impacts of perception AI systems
+
+- **Short name:** Assess perception AI effects on society
+- **Description:** Students analyze real-world examples of AI perception systems (facial recognition, voice assistants, gesture controls) and evaluate their benefits and risks for different communities. They propose guidelines for responsible deployment.
+- **Challenge format:** Research + policy analysis. Students research case studies, interview stakeholders, and write impact assessments with deployment recommendations. Rubric-based grading evaluates depth of analysis and stakeholder consideration.
+- **CSTA:** MS-CAS-ET-05, MS-CAS-HC-02.
+- **AI4K12:** E1 Societal Impacts; D1 Ethical Design; A1 Human-AI Collaboration.
 
 ---

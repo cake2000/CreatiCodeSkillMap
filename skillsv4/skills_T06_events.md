@@ -21,35 +21,41 @@ Strands: **3‑A Build basic event‑driven scripts**, **3‑B Coordinate events
 ### 3‑A: Build basic event‑driven scripts
 
 **T06.G3.01 – Build a green‑flag script that runs a 3–5 block sequence**  
-Students create a simple script triggered by green flag that performs a short sequence (movement, say, costume change).  
-_Format:_ Coding, starter project; auto‑graded on structure and behavior. · _CSTA:_ E3‑PRO‑PF‑01. ⭐ Gateway
+Students create their first simple script triggered by the green flag that performs a very short sequence (e.g., move 10 steps, say "Hello!", change costume). This gateway skill introduces the fundamental concept that programs start with events and run a sequence of actions.  
+_Format:_ Coding, highly scaffolded starter project with step-by-step guidance; auto‑graded on structure and behavior. · _CSTA:_ E3‑PRO‑PF‑01. ⭐ Gateway
 
 **T06.G3.02 – Build a key‑press script that controls a sprite**  
-Students make a “when key pressed” script that moves a sprite in one direction.  
-_Format:_ Coding; auto‑graded by behavior when pressing the key. · _CSTA:_ E3‑PRO‑PF‑01.
+Students make their first "when key pressed" script that moves a sprite in one direction (e.g., arrow key to move right). This builds on the green flag concept by introducing user input events.  
+_Format:_ Coding, scaffolded with clear key choice guidance; auto‑graded by behavior when pressing the key. · _CSTA:_ E3‑PRO‑PF‑01.
 
 ### 3‑B: Coordinate events and sequences
 
 **T06.G3.03 – Match code snippets to the event that triggers them**  
-Students read several tiny scripts with different event hats (green flag, key, sprite click) and match them to descriptions of when they will run.  
-_Format:_ Code‑reading + matching; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01.
+Students read very simple scripts with different event hats (green flag, key, sprite click) and match them to plain-language descriptions of when they will run (e.g., "This runs when the game starts" vs "This runs when you press a key").  
+_Format:_ Code‑reading + matching with visual event cues; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01.
 
 **T06.G3.04 – Decide which event type to use for a behavior**  
 Students choose between green flag, key press, and sprite‑click events for simple tasks (“start game,” “jump,” “open door”).  
 _Format:_ Scenario + MCQ; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01.
 
-**T06.G3.05 – Trace a project with two events and predict outputs**  
-Students see a program with green‑flag and key‑press scripts, then answer what happens if you only click green flag, only press key, and do both.  
-_Format:_ Code‑reading + multiple questions; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
+### T06.G3.05 – Trace a project with a single event and predict output
+
+- **Short name:** Trace one event script  
+- **Description:** Students see a program with a single green‑flag or key‑press script, then answer what happens if that event occurs.  
+- **Challenge format:** Code‑reading MCQ or short answer. · _CSTA:_ E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
+
+**T06.G3.06 – Trace a project with two simple events and predict outputs**  
+Students see a program with very simple green‑flag and key‑press scripts (2-3 blocks each), then answer what happens if you only click green flag, only press key. Focus on basic understanding that different events trigger different actions.  
+_Format:_ Code‑reading + simple multiple choice questions with visual support; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
 
 ### 3‑C: Debug simple event issues
 
-**T06.G3.06 – Fix a script that is missing an event block**  
+**T06.G3.07 – Fix a script that is missing an event block**  
 Students correct a script that has the right actions but no event head by adding the appropriate event block.  
 _Format:_ Coding fix; auto‑graded by presence and behavior. · _CSTA:_ E3‑PRO‑PF‑01, E3‑PRO‑TR‑02.
 
-**T06.G3.07 – Fix a behavior that runs at the wrong time**  
-Students adjust which event triggers a script (e.g., swap `when flag clicked` to `when key pressed`) to match a story description before tackling longer multi‑script bugs.  
+**T06.G3.08 – Fix a behavior that runs at the wrong time**  
+Students adjust which event triggers a script (e.g., swap "when flag clicked" to "when key pressed") to match a story description.  
 _Format:_ Edit event block; auto‑graded by observed behavior. · _CSTA:_ E3‑PRO‑PF‑01, E3‑PRO‑TR‑02.
 
 ---
@@ -206,7 +212,8 @@ _Format:_ Checklist + short comments; auto‑graded by key issues found. · _CST
 
 ### Notes on Dependencies and Alignment
 
-- K–2 foundations (in D1/D3 topics and T12): Conceptual work on everyday sequences, “when… then…” rules, cause‑and‑effect, and “what starts a project” lives in **T01–T05/T25** and **T12.GK.x** and is picture‑based/non‑coding. Earlier v1/v2 K–2 T06 skills have been re‑homed there rather than removed. T06 assumes these foundations; it does not define K–2 skills in v3.  
-- G3–5: T06 is a **gateway** programming topic; dependencies should ensure core T06.G3 event skills unlock many later skills in loops (T07), conditionals (T08), and variables (T09). Within T06, microsteps progress from single events to coordination and broadcasts.  
-- G6–8: T06 skills assume solid use of events and focus on analyzing, refactoring, and architecting event‑driven systems; they support project‑level topics (T14–T19) and debugging (T13) without blocking basic construct learning.  
+**Editor Notes:**
+- K–2 foundations: Conceptual work on everyday sequences, "when… then…" rules, cause‑and‑effect, and "what starts a project" lives in T01–T05/T25 and T12.GK.x and is picture‑based/non‑coding. T06 assumes these foundations.
+- G3–5: T06 is a gateway programming topic; dependencies should ensure core T06.G3 event skills unlock many later skills in loops (T07), conditionals (T08), and variables (T09). Within T06, microsteps progress from single events to coordination and broadcasts.
+- G6–8: T06 skills assume solid use of events and focus on analyzing, refactoring, and architecting event‑driven systems; they support project‑level topics (T14–T19) and debugging (T13) without blocking basic construct learning.
 - This design aligns with CSTA PRO‑PF and PRO‑PD expectations while keeping skills small, progressive, and CreatiCode‑implementable.

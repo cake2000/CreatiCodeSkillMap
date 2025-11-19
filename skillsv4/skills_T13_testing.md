@@ -130,64 +130,64 @@ Grade 2 students debug step‑by‑step processes with simple repeats and signal
 
 ## Grade 3
 
-Grade 3 students debug more complex programs with iteration and selection. They create alternative versions and reason about different designs.
-
-### T13.G3.01 – Debug a conditional inside a loop
-
-- **Short name:** Fix an if block inside a loop
-- **Description:** Students debug a program where a conditional statement inside a loop doesn't work as expected. The bug might be a wrong condition (e.g., `if touching color red` should be `if touching color blue`), a missing action, or the condition being checked at the wrong time.
-- **Challenge format:** Coding, debugging challenge. Starter project: a sprite moves and should earn points whenever it touches a certain color or object, but the condition is incorrect or missing. Students fix the condition or complete the block. Auto‑grading checks the fixed condition and verifies behavior on test runs.
-- **CSTA:** E3‑PRO‑TR‑03 (Debug errors in iteration or selection in a program).
-
-### T13.G3.02 – Test edge cases in a simple condition
-
-- **Short name:** Test what happens at boundaries
-- **Description:** Students consider edge cases for a simple conditional program (e.g., "What happens if the sprite is exactly on the edge?" or "What if the score is 0?") and run the program with those inputs to see if it behaves correctly.
-- **Challenge format:** Concept, testing item. Starter project defines a condition (e.g., "bounce if touching the edge") and lists a few test cases (sprite in middle, sprite exactly on edge, sprite just past edge). Students run each test and choose which cases the program handles correctly. Auto‑grading compares results to reference behavior.
-- **CSTA:** E3‑PRO‑TR‑03.
-
-### T13.G3.03 – Create an alternative solution to the same problem
-
-- **Short name:** Solve the same problem a different way
-- **Description:** Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites), then **test both versions** on the same inputs to confirm they behave the same.
-- **Challenge format:** Coding, alternative design. Starter project: a simple game or animation with a reference solution. Prompt: "Modify this program to do the same thing but in a different way, then test both versions with the same moves or inputs." Auto‑grading checks that the final behavior matches the original across tests and that the code structure is genuinely different.
-- **CSTA:** E3‑PRO‑TR‑04 (Create alternative versions of a program to solve the same problem or complete the same task).
-
-### T13.G3.04 – Identify and fix an infinite loop or program hang
-
-- **Short name:** Fix a program that doesn't stop
-- **Description:** Students recognize that a `forever` or `repeat until` loop is stuck (never exits) and diagnose why (e.g., the condition never becomes true, or the update is missing). They fix the condition or add a stopping mechanism.
-- **Challenge format:** Coding, debugging challenge. Starter project includes a loop that hangs or runs endlessly under certain conditions. Students run it, observe it doesn't stop, then modify the condition or add a break. Auto‑grading checks that the script now terminates within a reasonable time.
-- **CSTA:** E3‑PRO‑TR‑03.
+**Note:** Grade 3 debugging skills are now integrated into core programming topics (T06-T09) as contextualized debugging within each construct. Abstract debugging as a formal topic begins in Grade 4.
 
 ---
 
 ## Grade 4
 
-Grade 4 students use more systematic debugging strategies, compare program designs, and handle errors in more complex scripts.
+Grade 4 introduces abstract debugging as a formal topic. Students debug complex programs with iteration and selection, use systematic testing strategies, and compare program designs.
 
-### T13.G4.01 – Use systematic testing with multiple test cases
+### T13.G4.01 – Debug a conditional inside a loop
+
+- **Short name:** Fix an if block inside a loop
+- **Description:** Students debug a program where a conditional statement inside a loop doesn't work as expected. The bug might be a wrong condition (e.g., `if touching color red` should be `if touching color blue`), a missing action, or the condition being checked at the wrong time.
+- **Challenge format:** Coding, debugging challenge. Starter project: a sprite moves and should earn points whenever it touches a certain color or object, but the condition is incorrect or missing. Students fix the condition or complete the block. Auto‑grading checks the fixed condition and verifies behavior on test runs.
+- **CSTA:** E4‑PRO‑TR‑03 (Debug errors in iteration or selection in a program).
+
+### T13.G4.02 – Test edge cases in a simple condition
+
+- **Short name:** Test what happens at boundaries
+- **Description:** Students consider edge cases for a simple conditional program (e.g., "What happens if the sprite is exactly on the edge?" or "What if the score is 0?") and run the program with those inputs to see if it behaves correctly.
+- **Challenge format:** Concept, testing item. Starter project defines a condition (e.g., "bounce if touching the edge") and lists a few test cases (sprite in middle, sprite exactly on edge, sprite just past edge). Students run each test and choose which cases the program handles correctly. Auto‑grading compares results to reference behavior.
+- **CSTA:** E4‑PRO‑TR‑03.
+
+### T13.G4.03 – Create an alternative solution to the same problem
+
+- **Short name:** Solve the same problem a different way
+- **Description:** Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites), then test both versions on the same inputs to confirm they behave the same.
+- **Challenge format:** Coding, alternative design. Starter project: a simple game or animation with a reference solution. Prompt: "Modify this program to do the same thing but in a different way, then test both versions with the same moves or inputs." Auto‑grading checks that the final behavior matches the original across tests and that the code structure is genuinely different.
+- **CSTA:** E4‑PRO‑TR‑04 (Create alternative versions of a program to solve the same problem or complete the same task).
+
+### T13.G4.04 – Identify and fix an infinite loop or program hang
+
+- **Short name:** Fix a program that doesn't stop
+- **Description:** Students recognize that a `forever` or `repeat until` loop is stuck (never exits) and diagnose why (e.g., the condition never becomes true, or the update is missing). They fix the condition or add a stopping mechanism.
+- **Challenge format:** Coding, debugging challenge. Starter project includes a loop that hangs or runs endlessly under certain conditions. Students run it, observe it doesn't stop, then modify the condition or add a break. Auto‑grading checks that the script now terminates within a reasonable time.
+- **CSTA:** E4‑PRO‑TR‑03.
+
+### T13.G4.05 – Use systematic testing with multiple test cases
 
 - **Short name:** Test a program with different inputs
 - **Description:** Students write or follow a simple test plan: a list of inputs and expected outputs. They run the program with each test case and check if results match expectations, recording passes and failures.
 - **Challenge format:** Coding and concept, testing checklist. Starter project: a simple calculator or game with a provided test plan (e.g., "Input: 2 + 3, Expected: 5; Input: 10 − 3, Expected: 7"). Students run each test case and choose which passed or failed. Auto‑grading checks the test results against reference behavior.
 - **CSTA:** E4‑PRO‑TR‑03 (Debug errors in a program that includes sequence, events, iteration, and selection).
 
-### T13.G4.02 – Compare two programs solving the same task
+### T13.G4.06 – Compare two programs solving the same task
 
 - **Short name:** Choose the better version of a program
-- **Description:** Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to **test, debug, and reuse** (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
+- **Description:** Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to test, debug, and reuse (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
 - **Challenge format:** Concept, comparison and explanation. Show two short scripts that both solve the same problem (e.g., move a sprite in a square or keep score in a mini‑game). Ask questions like "Which program would be easier to test and fix if something went wrong?" or "Which is less likely to hide bugs?" Students select one and give a reason. Auto‑grading scores the choice and checks for reasoning that mentions clarity, structure, or error handling.
 - **CSTA:** E4‑PRO‑TR‑04 (Compare programs that complete a similar task and determine which would be easiest to repurpose).
 
-### T13.G4.03 – Debug a complex loop with nested structures
+### T13.G4.07 – Debug a complex loop with nested structures
 
 - **Short name:** Fix a bug in nested loops or conditionals
 - **Description:** Students debug a script containing nested loops or multiple conditionals (e.g., a loop inside a loop with a condition inside) where the bug affects the overall behavior. They identify the incorrect level or operator and fix it.
 - **Challenge format:** Coding, debugging challenge. Starter project: a pattern‑drawing or game script with nested structure and a subtle bug (e.g., condition in the wrong loop level, or counter not updating at the right scope). Students fix the code. Auto‑grading checks the corrected structure and verifies behavior.
 - **CSTA:** E4‑PRO‑TR‑03.
 
-### T13.G4.04 – Document the steps you took to find and fix a bug
+### T13.G4.08 – Document the steps you took to find and fix a bug
 
 - **Short name:** Explain how you debugged a program
 - **Description:** After finding and fixing a bug, students write a short explanation: what the bug was, what symptoms they saw, what they tried, and how they confirmed the fix worked. This metacognitive reflection reinforces debugging practice.
@@ -329,3 +329,15 @@ Grade 8 students think like computer scientists, using rigorous testing to verif
 - **Description:** Students review code (either their own or AI-generated) and consider questions like: Does it correctly solve the stated problem? Are there edge cases it misses? Could it introduce bias or unintended harm? What assumptions does it make? This critical analysis develops higher-order thinking about code quality.
 - **Challenge format:** Concept, reflective analysis. Starter: show a program or code snippet and a description of its intended task. Students answer reflection prompts: "Does this code correctly do what it claims?" "What edge cases might it miss?" "Could this code be biased or harmful?" "What assumptions does it make?" with short written or selected responses. Auto‑grading checks that responses demonstrate critical evaluation and reference specific code or scenarios.
 - **CSTA:** MS‑PRO‑TR‑13 (Describe issues of accuracy and bias in computer-generated code).
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Picture‑based debugging activities about "try–check–fix" habits and spotting/fixing mistakes in everyday step sequences are unplugged/light‑digital with no blocks or code terms.
+- G3: Grade 3 debugging skills have been moved to be integrated within core programming topics (T06-T09) as contextualized debugging within each construct. This teaches debugging as a natural part of learning each new construct rather than as a separate abstract topic.
+- G4–5: Abstract debugging as a formal topic begins in G4, with highest density of coding‑based debugging skills for loops, conditionals, and variables, plus concrete test‑case design and basic error handling.
+- G6–8: Higher‑order skills around systematic debugging processes, algorithm verification, robustness, and reasoning about accuracy and bias (including AI‑generated code).
+- The approach of contextualizing G3 debugging within construct topics (e.g., T07.G3.05 "Fix a loop that runs too many times", T08.G3.05 "Fix wrong comparison operator", T09.G3.03 "Fix missing variable update") teaches debugging as a natural part of learning rather than as abstract skill.
+- This design aligns with CSTA PRO‑TR expectations while managing G3 cognitive load effectively and keeping skills small, progressive, and CreatiCode‑implementable.

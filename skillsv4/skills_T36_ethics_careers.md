@@ -168,12 +168,13 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 6
 
-### T36.G6.01 – Compare career clusters (software, hardware, data, AI)
+### T36.G6.01 – Analyze career equity across computing clusters (software, hardware, data, AI)
 
-- **Short name:** Cluster comparison table
-- **Description:** Learners research skill/tool needs for each cluster and note overlapping competencies (problem solving, teamwork, ethics).
-- **Challenge format:** Table + reflection. Auto-grading checks all clusters filled and reflection names at least one appealing cluster.
+- **Short name:** Career access and representation analysis
+- **Description:** Learners research skill/tool needs for each computing cluster while analyzing representation demographics, salary equity, accessibility barriers, and geographic distribution. They examine how T21-T24 AI skills connect to career pathways and identify strategies for increasing inclusion in AI-related roles.
+- **Challenge format:** Equity-focused career analysis. Auto-grading checks cluster comparison plus demographic analysis, barrier identification, and inclusion strategies.
 - **CSTA:** MS‑CAS‑CE‑09.
+- **AI4K12:** E2 Societal Impacts; A1 Human-AI Collaboration.
 
 ### T36.G6.02 – Practice age-appropriate agile rituals
 
@@ -200,12 +201,13 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 7
 
-### T36.G7.01 – Conduct informational interviews/job shadows
+### T36.G7.01 – Interview diverse technologists about AI ethics and equity
 
-- **Short name:** Learn from a technologist
-- **Description:** Students interview tech professionals (live or recorded) and summarize pathways, daily tasks, and advice.
-- **Challenge format:** Transcript + reflection. Rubric checks thoughtful questions and actionable takeaways.
+- **Short name:** Learn from AI ethics practitioners
+- **Description:** Students interview diverse tech professionals working on AI ethics, fairness, and responsible AI (including those from underrepresented communities). They explore career pathways in AI ethics, daily challenges, and strategies for ensuring T21-T24 style AI tools serve all communities equitably.
+- **Challenge format:** AI ethics interview + career pathway analysis. Rubric checks diversity of interviewees, ethics-focused questions, and career insights connecting to equity work.
 - **CSTA:** MS‑CAS‑CE‑08.
+- **AI4K12:** A1 Human-AI Collaboration; E2 Societal Impacts.
 
 ### T36.G7.02 – Design cross-functional team diagrams
 
@@ -246,12 +248,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Portfolio + interview rubric. Auto-grading ensures project summaries, resume basics, and reflection on feedback.
 - **CSTA:** MS‑CAS‑CE‑08.
 
-### T36.G8.03 – Analyze AI’s impact on future work
+### T36.G8.03 – Analyze AI's differential impact on future work and equity (Pairing with T24)
 
-- **Short name:** How will AI change this field?
-- **Description:** Students research an industry, analyze AI’s potential benefits/risks, and propose how workers can adapt (training, new roles).
-- **Challenge format:** Research brief referencing data. Rubric checks evidence, impact analysis, and adaptation plan.
+- **Short name:** AI's unequal effects on workers and communities
+- **Description:** Following T24 XO and AI practices work, students research how AI coding assistants and automation affect different communities unequally. They analyze which jobs face displacement vs augmentation, how impacts vary by education/income/geography, and examine the role of AI tools like those in T21-T24 in either worsening or improving workplace equity.
+- **Challenge format:** Equity-focused future of work analysis. Rubric requires demographic impact analysis, policy recommendations, and connection to T21-T24 AI experiences.
 - **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** E2 Societal Impacts; A1 Human-AI Collaboration.
 
 ### T36.G8.04 – Facilitate capstone retrospectives with stakeholders
 

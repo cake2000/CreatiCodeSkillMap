@@ -1,477 +1,477 @@
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
-Skill: Sequence a 3‑step daily routine
-Description: Students arrange 3 pictures (e.g., “put on pajamas,” “brush teeth,” “get in bed”) into first‑next‑last order.
+Skill: Put pictures in order for getting ready for bed
+Description: **Student task:** Look at 3 pictures. Put them in order: first, next, last. **Example:** Put on pajamas, brush teeth, get in bed. _Implementation note: Drag‑drop sequence (3 items). CSTA: EK‑ALG‑AF‑01.__
 
 ID: T01.GK.02
 Topic: T01 – Everyday Algorithms
-Skill: Sequence a 4‑step daily routine
-Description: Students order 4 pictures for a classroom routine (e.g., arrive, hang backpack, sit, listen).
+Skill: Put pictures in order for coming to class
+Description: **Student task:** Look at 4 pictures. Put them in the right order. **Example:** Come in, hang up backpack, sit down, listen. _Implementation note: Drag‑drop 4 items. CSTA: EK‑ALG‑AF‑01.__
 
 ID: T01.GK.03
 Topic: T01 – Everyday Algorithms
-Skill: Identify the first and last steps
-Description: Given an ordered 3–4 step routine, students tap which picture is first and which is last.
+Skill: Find the first and last pictures
+Description: **Student task:** Look at pictures in order. Touch the first picture. Touch the last picture. _Implementation note: Click first/last pictures. CSTA: EK‑ALG‑AF‑01.__
 
 ID: T01.GK.04
 Topic: T01 – Everyday Algorithms
-Skill: Decide if a sequence makes sense
-Description: Students compare two short sequences and pick which one shows a sensible order (e.g., “wash → dry → eat” vs “eat → wash → dry”).
+Skill: Pick the pictures that make sense
+Description: **Student task:** Look at two sets of pictures. Which one makes sense? **Example:** Wash hands → dry hands → eat vs eat → wash hands → dry hands. _Implementation note: Two sequences, choose one. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑IM‑04.__
 
 ID: T01.GK.05
 Topic: T01 – Everyday Algorithms
-Skill: Fix one step that is out of order
-Description: Students see a routine where one picture is in the wrong place and drag it into the right slot.
+Skill: Move the picture that's in the wrong place
+Description: **Student task:** Look at the pictures. One picture is in the wrong place. Move it to the right place. _Implementation note: Drag the "wrong" card into correct position. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03.__
 
 ID: T01.GK.06
 Topic: T01 – Everyday Algorithms
-Skill: Predict the last step from the first two
-Description: Students see the first two pictures of a 3‑step routine and choose the correct last step from options.
+Skill: What comes next?
+Description: **Student task:** Look at the first two pictures. What should come last? _Implementation note: MCQ, choose final picture. CSTA: EK‑ALG‑AF‑01.__
 
 ID: T01.GK.07
 Topic: T01 – Everyday Algorithms
-Skill: Spot a repeating action pattern
-Description: Students watch short patterns (hop–clap–hop–clap) and pick the pair that shows the repeating unit.
+Skill: Find the pattern that repeats
+Description: **Student task:** Watch the actions. Which two actions happen over and over? **Example:** hop–clap–hop–clap _Implementation note: Visual pattern MCQ. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03.__
 
 ID: T01.GK.08
 Topic: T01 – Everyday Algorithms
-Skill: Count how many times an action repeats
-Description: Students watch a character repeat an action and choose how many times it happened.
+Skill: Count how many times
+Description: **Student task:** Watch the character. Count how many times they do the same action. _Implementation note: Short animation + picture‑based count choices. CSTA: EK‑ALG‑AF‑01.__
 
 ID: T01.G1.01
 Topic: T01 – Everyday Algorithms
-Skill: Create a 4‑step everyday algorithm
-Description: Students arrange 4 pictures or phrases into a sensible order for a task like “plant a seed.”
+Skill: Put pictures in order to plant a seed
+Description: **Student task:** Look at 4 pictures. Put them in the right order to plant a seed. **Example:** Get pot, add soil, put seed in, water it. _Implementation note: Drag‑drop (4 items). CSTA: E1‑ALG‑AF‑01.___
 
 ID: T01.G1.02
 Topic: T01 – Everyday Algorithms
-Skill: Create a 5‑step everyday algorithm
-Description: Students extend to 5‑step routines (e.g., “get bowl, pour cereal, pour milk, eat, wash bowl”).
+Skill: Put pictures in order to make breakfast
+Description: **Student task:** Look at 5 pictures. Put them in the right order to make breakfast. **Example:** Get bowl, pour cereal, pour milk, eat, wash bowl. _Implementation note: Drag‑drop (5 items). CSTA: E1‑ALG‑AF‑01.___
 
 ID: T01.G1.03
 Topic: T01 – Everyday Algorithms
 Skill: Add a missing last step to a routine
-Description: Students see a 3‑step routine and choose the correct 4th step.
+Description: Students see a 3‑step routine and choose the correct 4th step. _Implementation note: MCQ picture choice. CSTA: E1‑ALG‑AF‑01.__
 
 ID: T01.G1.04
 Topic: T01 – Everyday Algorithms
 Skill: Predict the next step in a story sequence
-Description: Students see 3 ordered panels and choose what happens next.
+Description: Students see 3 ordered panels and choose what happens next. _Implementation note: MCQ visuals. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 ID: T01.G1.05
 Topic: T01 – Everyday Algorithms
 Skill: Find the missing step in an algorithm
-Description: Students see a 4‑step sequence with one blank and choose which picture fills the gap.
+Description: Students see a 4‑step sequence with one blank and choose which picture fills the gap. _Implementation note: Click‑select from options. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 ID: T01.G1.06
 Topic: T01 – Everyday Algorithms
 Skill: Fix a routine with one wrong step
-Description: Students identify a clearly wrong step (e.g., “eat” before “cook”) and replace it with a correct picture.
+Description: Students identify a clearly wrong step (e.g., “eat” before “cook”) and replace it with a correct picture. _Implementation note: Select wrong step, then replacement. CSTA: E1‑ALG‑AF‑01.__
 
 ID: T01.G1.07
 Topic: T01 – Everyday Algorithms
 Skill: Decide if two algorithms finish with the same result
-Description: Students compare two routines and decide whether both achieve the same goal.
+Description: Students compare two routines and decide whether both achieve the same goal. _Implementation note: Side‑by‑side sequences with Yes/No or “Which work?” question. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 ID: T01.G1.08
 Topic: T01 – Everyday Algorithms
 Skill: Choose the algorithm that uses fewer steps
-Description: Students pick between two correct routines that differ in length; they choose the shorter correct one.
+Description: Students pick between two correct routines that differ in length; they choose the shorter correct one. _Implementation note: Choose shorter correct sequence. CSTA: E1‑ALG‑IM‑04._
 
 ID: T01.G1.09
 Topic: T01 – Everyday Algorithms
 Skill: Match an algorithm to its goal
-Description: Students match short routines to labels like “clean desk,” “feed pet,” “get ready for recess.”
+Description: Students match short routines to labels like “clean desk,” “feed pet,” “get ready for recess.” _Implementation note: Matching lines between sequences and goals. CSTA: E1‑ALG‑AF‑01.__
 
 ID: T01.G1.10
 Topic: T01 – Everyday Algorithms
-Skill: Recognize simple everyday if/then rules
-Description: Students match pictures to natural‑language if/then rules (“If it rains, then use an umbrella.”).
+Skill: Match pictures to "if/then" rules
+Description: **Student task:** Look at pictures. Match them to "If this, then that" sentences. **Example:** "If it rains, then use an umbrella." _Implementation note: MCQ match picture ↔ sentence. CSTA: E1‑ALG‑AF‑01 (conceptual branching)._
 
 ID: T01.G2.01
 Topic: T01 – Everyday Algorithms
-Skill: Identify repeated actions in a routine
-Description: Students find which action happens over and over in a picture‑based routine, building on the pattern sense from T04 K–1 but tying it to a whole everyday task.
+Skill: Find actions that repeat in everyday tasks
+Description: **Student task:** Look at pictures showing an everyday task. Which action happens over and over? **Example:** In cleaning up toys, "pick up toy" happens many times. _Implementation note: Highlight or MCQ. CSTA: E2‑ALG‑AF‑01.__
 
 ID: T01.G2.02
 Topic: T01 – Everyday Algorithms
-Skill: Use “repeat” to describe repeated actions
-Description: Students choose the shorter description of repeated steps that uses “repeat ___ times” to describe a full routine, applying compressed‑description ideas from T04.G2.x to concrete classroom or home scenarios.
+Skill: Use "repeat" to make directions shorter
+Description: **Student task:** Look at two sets of directions. Pick the one that uses "repeat ___ times" to say the same thing in fewer words. **Example:** "Walk 3 steps, walk 3 steps, walk 3 steps" vs "Repeat 'walk 3 steps' 3 times" _Implementation note: MCQ (long explicit vs "repeat" version). CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03.__
 
 ID: T01.G2.03
 Topic: T01 – Everyday Algorithms
 Skill: Replace repeated steps with a repeat instruction
-Description: Students rewrite a long list of repeated steps for a real‑world routine as one step with “repeat ___ times,” treating “repeat” as a tool for clearer everyday algorithms rather than just an abstract pattern puzzle.
+Description: **Student task:** Look at a long list of repeated steps. Rewrite it using "repeat ___ times" to make it shorter and clearer. **Example:** "Clap, clap, clap, clap" becomes "Repeat 'clap' 4 times" _Implementation note: Choose or assemble compressed description with "repeat." CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03.__
 
 ID: T01.G2.04
 Topic: T01 – Everyday Algorithms
 Skill: Match if/then rules to pictures
-Description: Students match simple “If it is ___, then do ___” rules to images (rainy/sunny, door open/closed).
+Description: Students match simple “If it is ___, then do ___” rules to images (rainy/sunny, door open/closed). _Implementation note: Visual MCQ. CSTA: E2‑ALG‑AF‑01._
 
 ID: T01.G2.05
 Topic: T01 – Everyday Algorithms
 Skill: Complete a simple if/then algorithm
-Description: Students fill in missing condition or action in an if/then pair for a daily scenario.
+Description: Students fill in missing condition or action in an if/then pair for a daily scenario. _Implementation note: Fill‑in with picture or word cards. CSTA: E2‑ALG‑AF‑01._
 
 ID: T01.G2.06
 Topic: T01 – Everyday Algorithms
 Skill: Choose the best if/then rule for a situation
-Description: Students choose which of several if/then statements fits a picture story.
+Description: Students choose which of several if/then statements fits a picture story. _Implementation note: MCQ; auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 ID: T01.G2.07
 Topic: T01 – Everyday Algorithms
 Skill: Trace an algorithm that uses an if/then choice
-Description: Students follow short number/picture algorithms with if/then and identify the final result.
+Description: Students follow short number/picture algorithms with if/then and identify the final result. _Implementation note: Tracing + MCQ result. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G2.08
 Topic: T01 – Everyday Algorithms
 Skill: Trace an algorithm that uses “repeat ___ times”
-Description: Students compute total actions or final position for routines with “repeat 3 times.”
+Description: Students compute total actions or final position for routines with “repeat 3 times.” _Implementation note: Tracing + MCQ. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G2.09
 Topic: T01 – Everyday Algorithms
 Skill: Fix a wrong repeat count in an algorithm
-Description: Students adjust a repeat count that causes too many or too few repetitions.
+Description: Students adjust a repeat count that causes too many or too few repetitions. _Implementation note: Increase/decrease repeat number; auto‑graded via final outcome. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G2.10
 Topic: T01 – Everyday Algorithms
 Skill: Fix a wrong or missing if/then branch
-Description: Students correct an if/then rule that doesn’t match a picture situation.
+Description: Students correct an if/then rule that doesn’t match a picture situation. _Implementation note: MCQ or card swap. CSTA: E2‑ALG‑AF‑01._
 
 ID: T01.G2.11
 Topic: T01 – Everyday Algorithms
 Skill: Trace maze directions on a simple grid
-Description: Students see a character on a small grid and a sequence of “forward/left/right” arrows, then choose where the character ends up.
+Description: Students see a character on a small grid and a sequence of “forward/left/right” arrows, then choose where the character ends up. _Implementation note: Path tracing with MCQ final position; auto‑graded by ending cell. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G2.12
 Topic: T01 – Everyday Algorithms
 Skill: Choose directions that reach the goal
-Description: Students see a start and goal on a grid and pick which of several arrow sequences reaches the goal without hitting a wall.
+Description: Students see a start and goal on a grid and pick which of several arrow sequences reaches the goal without hitting a wall. _Implementation note: MCQ (choose arrow sequence); auto‑graded via simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G2.13
 Topic: T01 – Everyday Algorithms
 Skill: Write directions to navigate a simple grid
-Description: Students create “forward/left/right” instructions that move a character from start to finish.
+Description: Students create instructions by dragging and dropping “forward/left/right” arrow cards to move a character from start to finish. _Implementation note: Drag arrow cards; auto‑graded via simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G2.14
 Topic: T01 – Everyday Algorithms
 Skill: Fix maze directions that miss the goal
-Description: Students correct a set of directions that doesn’t reach the goal or hits a wall.
+Description: Students correct a set of directions that doesn’t reach the goal or hits a wall. _Implementation note: Edit arrow sequence; auto‑graded via new simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 ID: T01.G3.01
 Topic: T01 – Everyday Algorithms
-Skill: Build a simple event‑driven sequence
-Description: Students complete a partially built script that is triggered by an event by adding 1–2 missing blocks so it runs a clear 3–5 block sequence, starting from a highly scaffolded starter project.
+Skill: Complete a simple script with missing blocks
+Description: **Student task:** Look at a script that's almost finished. Add 1 or 2 missing blocks to make it work. **Context:** Start with a mostly built project. Script should do 3-5 simple actions. _Implementation note: Guided coding in a starter project (mostly pre‑built); auto‑graded via final behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.__
 
 ID: T01.G3.02
 Topic: T01 – Everyday Algorithms
 Skill: Match a story description to a code sequence
-Description: Students choose which of several scripts matches a natural‑language description.
+Description: Students choose which of several scripts matches a natural‑language description. _Implementation note: MCQ, code snippets. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 ID: T01.G3.03
 Topic: T01 – Everyday Algorithms
 Skill: Identify repeated blocks in a script (no loops)
-Description: Students highlight which part of a script repeats the same action several times in a *specific project script*, applying the loop‑pattern recognition they developed in T04.G1–G3 to a real algorithm context.
+Description: Students highlight which part of a script repeats the same action several times in a *specific project script*, applying the loop‑pattern recognition they developed in T04.G1–G3 to a real algorithm context. _Implementation note: Highlight or click region in code. CSTA: E3‑ALG‑AF‑01._
 
 ID: T01.G3.04
 Topic: T01 – Everyday Algorithms
 Skill: Predict how many times repeated blocks run
-Description: Students count how many times an action happens based on repeated blocks (e.g., 4× `move 10`) in a concrete behavior (like a character walking), connecting T04’s abstract repeat units to meaningful movement or actions.
+Description: Students count how many times an action happens based on repeated blocks (e.g., 4× `move 10`) in a concrete behavior (like a character walking), connecting T04’s abstract repeat units to meaningful movement or actions. _Implementation note: MCQ; auto‑graded. CSTA: E3‑ALG‑AF‑01._
 
 ID: T01.G3.05
 Topic: T01 – Everyday Algorithms
 Skill: Replace repeated blocks with a repeat loop
-Description: Students refactor repeated blocks into a `repeat` loop with the correct count in a small project script, using loop patterns first explored in T04.G3.01–G3.02 to improve a real algorithm.
+Description: Students refactor repeated blocks into a `repeat` loop with the correct count in a small project script, using loop patterns first explored in T04.G3.01–G3.02 to improve a real algorithm. _Implementation note: Coding refactor; auto‑graded by structure + behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 ID: T01.G3.06
 Topic: T01 – Everyday Algorithms
 Skill: Trace a repeat loop to find total movement
-Description: Students trace a script with a `repeat` loop to determine how far a sprite moves or how many actions occur.
+Description: Students trace a script with a `repeat` loop to determine how far a sprite moves or how many actions occur. _Implementation note: Tracing + MCQ. CSTA: E3‑ALG‑AF‑01._
 
 ID: T01.G3.07
 Topic: T01 – Everyday Algorithms
 Skill: Adjust a repeat count to match a pattern
-Description: Students change the repeat number so a pattern (e.g., a square, a full spin) completes exactly.
+Description: Students change the repeat number so a pattern (e.g., a square, a full spin) completes exactly. _Implementation note: Edit loop count; auto‑graded via final orientation/pattern. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 ID: T01.G3.08
 Topic: T01 – Everyday Algorithms
 Skill: Add a simple if/then to a script
-Description: Students insert an `if touching [color/sprite]` block to trigger an action.
+Description: Students insert an `if touching [color/sprite]` block to trigger an action. _Implementation note: Coding, scaffolded; auto‑graded by behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 ID: T01.G3.09
 Topic: T01 – Everyday Algorithms
 Skill: Match an if/then script to a behavior description
-Description: Students pick which script with if/then matches a described behavior (“When you touch the goal, say ‘Yay!’.”).
+Description: Students pick which script with if/then matches a described behavior (“When you touch the goal, say ‘Yay!’.”). _Implementation note: MCQ; auto‑graded. CSTA: E3‑ALG‑AF‑01._
 
 ID: T01.G3.10
 Topic: T01 – Everyday Algorithms
 Skill: Trace a script with a single if/then
-Description: Students predict whether the if/then block will run in a given situation.
+Description: Students predict whether the if/then block will run in a given situation. _Implementation note: Tracing scenario + MCQ. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 ID: T01.G3.11
 Topic: T01 – Everyday Algorithms
 Skill: Explain in words what a short program does
-Description: Students select or write a one‑sentence description of a short script’s algorithm.
+Description: Students select or write a one‑sentence description of a short script’s algorithm. _Implementation note: Code‑reading MCQ/short answer. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 ID: T01.G3.12
 Topic: T01 – Everyday Algorithms
 Skill: Predict the final state of a simple algorithm
-Description: Students trace a script (possibly with a loop) to predict final position or direction.
+Description: Students trace a script (possibly with a loop) to predict final position or direction. _Implementation note: Grid/orientation MCQ. CSTA: E3‑ALG‑AF‑01._
 
 ID: T01.G3.13
 Topic: T01 – Everyday Algorithms
 Skill: Debug a program with steps in the wrong order
-Description: Students rearrange blocks in a sequence script to match a given intended behavior.
+Description: Students rearrange blocks in a sequence script to match a given intended behavior. _Implementation note: Coding re‑order; auto‑graded via behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑TR‑03._
 
 ID: T01.G3.14
 Topic: T01 – Everyday Algorithms
 Skill: Debug a loop that repeats the wrong number of times
-Description: Students fix a `repeat` loop that runs too many or too few times by adjusting the loop count so the behavior matches the description.
+Description: Students fix a `repeat` loop that runs too many or too few times by adjusting the loop count so the behavior matches the description. _Implementation note: Coding edit (loop count); auto‑graded via final behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑TR‑03._
 
 ID: T01.G3.15
 Topic: T01 – Everyday Algorithms
 Skill: Debug an if/then that doesn’t trigger when it should
-Description: Students fix a simple if/then condition so an action (like saying “Yay!” at the goal) happens at the right time.
+Description: Students fix a simple if/then condition so an action (like saying “Yay!” at the goal) happens at the right time. _Implementation note: Coding edits; auto‑graded with multiple tests. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑TR‑03._
 
 ID: T01.G4.01
 Topic: T01 – Everyday Algorithms
 Skill: Plan steps for a coded maze or goal‑reach task
-Description: Students write numbered steps in words for “reach the flag without touching red walls.”
+Description: Students write numbered steps in words for “reach the flag without touching red walls.” _Implementation note: Arrange/choose steps. CSTA: E4‑ALG‑AF‑01._
 
 ID: T01.G4.02
 Topic: T01 – Everyday Algorithms
 Skill: Implement a written plan in code
-Description: Students turn a given plan into a CreatiCode script and test it.
+Description: Students turn a given plan into a CreatiCode script and test it. _Implementation note: Coding; auto‑grading checks match between plan and behavior. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
 
 ID: T01.G4.03
 Topic: T01 – Everyday Algorithms
 Skill: Identify repeated patterns in longer scripts
-Description: Students highlight repeated sequences (not just single blocks) in longer scripts.
+Description: Students highlight repeated sequences (not just single blocks) in longer scripts. _Implementation note: Highlight blocks; auto‑grading checks region. CSTA: E4‑ALG‑AF‑01._
 
 ID: T01.G4.04
 Topic: T01 – Everyday Algorithms
 Skill: Replace repeated patterns with loops
-Description: Students refactor repeated patterns into loops that contain multiple blocks.
+Description: Students refactor repeated patterns into loops that contain multiple blocks. _Implementation note: Coding refactor; auto‑graded by behavior & fewer blocks. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 ID: T01.G4.05
 Topic: T01 – Everyday Algorithms
 Skill: Compare two versions of a script: with and without loops
-Description: Students compare a long “no loops” script and a shorter “with loops” version and choose which is better and why.
+Description: Students compare a long “no loops” script and a shorter “with loops” version and choose which is better and why. _Implementation note: Side‑by‑side code comparison with MCQ explanation. CSTA: E4‑ALG‑IM‑04._
 
 ID: T01.G4.06
 Topic: T01 – Everyday Algorithms
 Skill: Recognize variables in a program
-Description: Students identify which names in a script are variables and what they store.
+Description: Students identify which names in a script are variables and what they store. _Implementation note: Code‑reading MCQ/highlight. CSTA: E4‑PRO‑DH‑02._
 
 ID: T01.G4.07
 Topic: T01 – Everyday Algorithms
 Skill: Trace a simple counter variable
-Description: Students follow a script that initializes a variable and increments it in a loop, then predict its final value.
+Description: Students follow a script that initializes a variable and increments it in a loop, then predict its final value. _Implementation note: Tracing + MCQ. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
 
 ID: T01.G4.08
 Topic: T01 – Everyday Algorithms
 Skill: Add a variable to count events in a program
-Description: Students add a variable (e.g., `steps`, `coins`) and increment it at the right place in an existing script.
+Description: Students add a variable (e.g., `steps`, `coins`) and increment it at the right place in an existing script. _Implementation note: Coding; auto‑grading checks updates and display. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
 
 ID: T01.G4.09
 Topic: T01 – Everyday Algorithms
 Skill: Use a variable to track a simple game state (lives or points)
-Description: Students extend a game to use a variable for lives or points, decreasing or increasing it based on events.
+Description: Students extend a game to use a variable for lives or points, decreasing or increasing it based on events. _Implementation note: Coding; auto‑graded on correct updates. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
 
 ID: T01.G4.10
 Topic: T01 – Everyday Algorithms
 Skill: Trace a multi‑step algorithm with loops and variables
-Description: Students trace code with a loop and variable updates to find final values or positions.
+Description: Students trace code with a loop and variable updates to find final values or positions. _Implementation note: Code‑reading + MCQ. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 ID: T01.G4.11
 Topic: T01 – Everyday Algorithms
 Skill: Debug an off‑by‑one counting bug
-Description: Students fix a counter that ends too high or too low by adjusting initialization or loop bounds.
+Description: Students fix a counter that ends too high or too low by adjusting initialization or loop bounds. _Implementation note: Coding edits; auto‑graded with multiple tests. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
 
 ID: T01.G4.12
 Topic: T01 – Everyday Algorithms
 Skill: Explain why one algorithm solution is better than another
-Description: Students compare two working algorithms and explain which they prefer (fewer steps, easier to read) and why.
+Description: Students compare two working algorithms and explain which they prefer (fewer steps, easier to read) and why. _Implementation note: MCQ + short explanation. CSTA: E4‑ALG‑IM‑04._
 
 ID: T01.G5.01
 Topic: T01 – Everyday Algorithms
 Skill: Match a word description to a flowchart
-Description: Students match everyday‑language descriptions of algorithms to flowcharts, applying the flowchart symbols and reading skills introduced in T02 (Grades 3–4) to real‑world tasks.
+Description: Students match everyday‑language descriptions of algorithms to flowcharts, applying the flowchart symbols and reading skills introduced in T02 (Grades 3–4) to real‑world tasks. _Implementation note: MCQ matching, using familiar contexts (games, classroom routines). CSTA: E5‑ALG‑AF‑01._
 
 ID: T01.G5.02
 Topic: T01 – Everyday Algorithms
 Skill: Convert a flowchart or pseudocode into code
-Description: Students implement simple flowcharts/pseudocode (that follow patterns already practiced in T02.G4.x–T02.G5.x) as block‑based code for small CreatiCode projects.
+Description: Students implement simple flowcharts/pseudocode (that follow patterns already practiced in T02.G4.x–T02.G5.x) as block‑based code for small CreatiCode projects. _Implementation note: Coding; auto‑graded on behavior and basic correspondence between diagram/pseudocode and code. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 ID: T01.G5.03
 Topic: T01 – Everyday Algorithms
 Skill: Convert a short program into pseudocode
-Description: Students rewrite a short program as structured pseudocode showing loops, if/then, and variables, using the pseudocode conventions introduced in T02 and focusing on clarity for a human reader who is thinking about the real task.
+Description: Students rewrite a short program as structured pseudocode showing loops, if/then, and variables, using the pseudocode conventions introduced in T02 and focusing on clarity for a human reader who is thinking about the real task. _Implementation note: Guided pseudocode; rubric/auto‑grading focused on structure and faithfulness to behavior. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 ID: T01.G5.04
 Topic: T01 – Everyday Algorithms
 Skill: Trace a search algorithm using loops and variables
-Description: Students trace a simple “find the largest” or “count matches” algorithm and track how a variable changes.
+Description: Students trace a simple “find the largest” or “count matches” algorithm and track how a variable changes. _Implementation note: Tracing table; auto‑graded. CSTA: E5‑ALG‑PS‑03, E5‑PRO‑DH‑02._
 
 ID: T01.G5.05
 Topic: T01 – Everyday Algorithms
 Skill: Determine whether an algorithm is correct for all inputs
-Description: Students apply test cases to decide if an algorithm always gives the right answer.
+Description: Students apply test cases to decide if an algorithm always gives the right answer. _Implementation note: Choose “always works” vs “fails sometimes” with evidence. CSTA: E5‑ALG‑PS‑03._
 
 ID: T01.G5.06
 Topic: T01 – Everyday Algorithms
 Skill: Compare two algorithms for step counts (efficiency)
-Description: Students estimate or count loop iterations and compare efficiency.
+Description: Students estimate or count loop iterations and compare efficiency. _Implementation note: Tables + MCQ; auto‑graded. CSTA: E5‑ALG‑PS‑03, E5‑ALG‑IM‑04._
 
 ID: T01.G5.07
 Topic: T01 – Everyday Algorithms
 Skill: Debug an algorithm that mis‑handles a simple edge case
-Description: Students fix a bug where an algorithm fails on empty input or a special case.
+Description: Students fix a bug where an algorithm fails on empty input or a special case. _Implementation note: Coding edits; auto‑graded tests. CSTA: E5‑ALG‑PS‑03, E5‑PRO‑TR‑03._
 
 ID: T01.G5.08
 Topic: T01 – Everyday Algorithms
 Skill: Add checks to handle edge cases
-Description: Students extend an algorithm to include extra if/then checks for invalid or special inputs.
+Description: Students extend an algorithm to include extra if/then checks for invalid or special inputs. _Implementation note: Coding; test both regular and edge cases. CSTA: E5‑ALG‑PS‑03._
 
 ID: T01.G5.09
 Topic: T01 – Everyday Algorithms
 Skill: Explain why an algorithm is correct using loops and variables
-Description: Students explain why a loop + variable algorithm (e.g., max, count) is guaranteed to work.
+Description: Students explain why a loop + variable algorithm (e.g., max, count) is guaranteed to work. _Implementation note: Structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
 
 ID: T01.G5.10
 Topic: T01 – Everyday Algorithms
 Skill: Rewrite a long algorithm using loops or helper steps
-Description: Students reduce a long algorithm to a shorter one using loops or helper steps without changing behavior.
+Description: Students reduce a long algorithm to a shorter one using loops or helper steps without changing behavior. _Implementation note: Pseudocode/code refactor; rubric/auto‑graded. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 ID: T01.G6.01
 Topic: T01 – Everyday Algorithms
 Skill: Count comparisons in linear and binary search
-Description: Students fill in how many comparisons each algorithm uses for given list sizes.
+Description: Students qualitatively compare linear and binary search on small lists, identifying that binary search typically uses fewer comparisons by eliminating half the remaining options with each step. (Focus on *why* binary is faster, not exact counts.) _Implementation note: Table; auto‑graded. CSTA: MS‑ALG‑AF‑02._
 
 ID: T01.G6.02
 Topic: T01 – Everyday Algorithms
 Skill: Compare how step counts grow with input size
-Description: Students interpret tables/graphs to see which algorithm scales better.
+Description: Students interpret tables/graphs to see which algorithm scales better. _Implementation note: MCQ + explanation. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05._
 
 ID: T01.G6.03
 Topic: T01 – Everyday Algorithms
 Skill: Spot unnecessary work in an algorithm
-Description: Students highlight lines where an algorithm keeps working after the result is found.
+Description: Students highlight lines where an algorithm keeps working after the result is found. _Implementation note: Code highlight; auto‑graded. CSTA: MS‑ALG‑AF‑01._
 
 ID: T01.G6.04
 Topic: T01 – Everyday Algorithms
 Skill: Revise an algorithm to do less work
-Description: Students remove redundant checks/loops without changing output.
+Description: Students remove redundant checks/loops without changing output. _Implementation note: Pseudocode/coding edit; auto‑graded on correctness + fewer steps. CSTA: MS‑ALG‑AF‑01, MS‑ALG‑PS‑05._
 
 ID: T01.G6.05
 Topic: T01 – Everyday Algorithms
 Skill: Identify who is favored or harmed by a decision algorithm
-Description: Students analyze a simple decision algorithm for fairness across groups.
+Description: Students analyze a simple decision algorithm for fairness across groups. _Implementation note: Scenario MCQ + short explanation. CSTA: MS‑ALG‑IM‑08. AI4K12: Ethical design (D), Societal impacts (E)._
 
 ID: T01.G6.06
 Topic: T01 – Everyday Algorithms
 Skill: Suggest a change to make a decision algorithm more fair
-Description: Students propose specific changes to reduce bias or harm.
+Description: Students propose specific changes to reduce bias or harm. _Implementation note: Structured response; auto‑graded by alignment with identified issue. CSTA: MS‑ALG‑IM‑09. AI4K12: Ethical design (D), Societal impacts (E)._
 
 ID: T01.G6.07
 Topic: T01 – Everyday Algorithms
 Skill: Design a flowchart for a multi‑step program
-Description: Students design a flowchart for a game turn (ask, check, update score, continue/stop), building on the flowchart symbols, loops, and decisions practiced in T02 up through Grade 6.
+Description: Students design a flowchart for a game turn (ask, check, update score, continue/stop), building on the flowchart symbols, loops, and decisions practiced in T02 up through Grade 6. _Implementation note: Flowchart design tied to a concrete game scenario; rubric. CSTA: MS‑ALG‑AF‑01._
 
 ID: T01.G6.08
 Topic: T01 – Everyday Algorithms
 Skill: Implement code from a detailed flowchart
-Description: Students map each shape in a detailed, multi‑step flowchart to code constructs in a CreatiCode project, focusing on correctness and readability rather than learning new notation.
+Description: Students map each shape in a detailed, multi‑step flowchart to code constructs in a CreatiCode project, focusing on correctness and readability rather than learning new notation. _Implementation note: Coding; auto‑graded structure + tests, assumes prior diagram‑to‑code practice from T02.G6.05. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑PF‑01._
 
 ID: T01.G7.01
 Topic: T01 – Everyday Algorithms
 Skill: Identify the pattern in a given program
-Description: Students categorize code as search, sort, accumulation, or simulation.
+Description: Students categorize code as search, sort, accumulation, or simulation. _Implementation note: MCQ; auto‑graded. CSTA: MS‑ALG‑AF‑01._
 
 ID: T01.G7.02
 Topic: T01 – Everyday Algorithms
 Skill: Choose a pattern to solve a problem
-Description: Students pick which algorithm pattern is best for a described task.
+Description: Students pick which algorithm pattern is best for a described task. _Implementation note: MCQ; auto‑graded. CSTA: MS‑ALG‑AF‑01, MS‑ALG‑PS‑06._
 
 ID: T01.G7.03
 Topic: T01 – Everyday Algorithms
 Skill: Write pseudocode for a search or accumulation algorithm
-Description: Students write structured pseudocode for “find max” or “count items that match.”
+Description: Students write structured pseudocode for “find max” or “count items that match.” _Implementation note: Guided pseudocode; auto‑graded structure. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑PF‑02._
 
 ID: T01.G7.04
 Topic: T01 – Everyday Algorithms
 Skill: Compare efficiency of two algorithms qualitatively
-Description: Students reason which algorithm scales better as inputs grow.
+Description: Students reason which algorithm scales better as inputs grow. _Implementation note: Scenario + MCQ + explanation. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05._
 
 ID: T01.G7.05
 Topic: T01 – Everyday Algorithms
 Skill: Design a set of edge‑case tests for an algorithm
-Description: Students pick tests (including edge cases) that give high confidence the algorithm works.
+Description: Students pick tests (including edge cases) that give high confidence the algorithm works. _Implementation note: Choose tests from list; auto‑graded for coverage. CSTA: MS‑ALG‑PS‑05, MS‑PRO‑TR‑11.
 
 ID: T01.G7.06
 Topic: T01 – Everyday Algorithms
 Skill: Run an algorithm on edge cases and find failures
-Description: Students test algorithms on tricky inputs and flag those that fail.
+Description: Students test algorithms on tricky inputs and flag those that fail. _Implementation note: MCQ/interactive; auto‑graded. CSTA: MS‑ALG‑PS‑05._
 
 ID: T01.G7.07
 Topic: T01 – Everyday Algorithms
 Skill: Explain why an algorithm fails on a specific edge case
-Description: Students explain which step causes the failure and why.
+Description: Students explain which step causes the failure and why. _Implementation note: Structured explanation; auto‑graded patterns. CSTA: MS‑ALG‑PS‑05, MS‑PRO‑TR‑11.
 
 ID: T01.G7.08
 Topic: T01 – Everyday Algorithms
 Skill: Rewrite a naive algorithm using a better pattern
-Description: Students replace repeated naive logic with a cleaner pattern (single loop, flag, etc.).
+Description: Students replace repeated naive logic with a cleaner pattern (single loop, flag, etc.). _Implementation note: Pseudocode/coding refactor; rubric. CSTA: MS‑ALG‑AF‑01, MS‑ALG‑PS‑06._
 
 ID: T01.G8.01
 Topic: T01 – Everyday Algorithms
 Skill: Design one‑step update rules for a simple simulation
-Description: Students specify how state variables change in one timestep of a simulation.
+Description: Students specify how state variables change in one timestep of a simulation. _Implementation note: Code/pseudocode blanks; auto‑graded. CSTA: MS‑ALG‑AF‑01, DAA‑DI. AI4K12: Modeling (B)._
 
 ID: T01.G8.02
 Topic: T01 – Everyday Algorithms
 Skill: Interpret the behavior of a simulation algorithm over time
-Description: Students explain what happens to variables after several steps.
+Description: Students explain what happens to variables after several steps. _Implementation note: Code + graph reading; MCQ/short answer. CSTA: MS‑ALG‑AF‑02, DAA‑DI. AI4K12: Modeling (B)._
 
 ID: T01.G8.03
 Topic: T01 – Everyday Algorithms
 Skill: Compare two simulations with slightly different rules
-Description: Students explain how changed rules affect outcomes.
+Description: Students explain how changed rules affect outcomes. _Implementation note: Side‑by‑side comparison + explanation. CSTA: MS‑ALG‑AF‑02, DAA‑DI. AI4K12: Modeling (B)._
 
 ID: T01.G8.04
 Topic: T01 – Everyday Algorithms
 Skill: Identify base case and recursive step in an algorithm description
-Description: Students highlight base case and recursive step in a **natural‑language** description of a recursive process (e.g., “to count the blocks in a stack, count the top block, then count the rest”), keeping recursion **concept‑only** (no code blocks).
+Description: Students highlight base case and recursive step in a **natural‑language** description of a recursive process (e.g., “to count the blocks in a stack, count the top block, then count the rest”), keeping recursion **concept‑only** (no code blocks). _Implementation note: MCQ/highlight; auto‑graded. CSTA: MS‑ALG‑PS‑07._
 
 ID: T01.G8.05
 Topic: T01 – Everyday Algorithms
 Skill: Trace a conceptual recursive algorithm on small inputs
-Description: Students step through a **diagram or story version** of recursion (e.g., factorial, sum of list) for small inputs, marking each call/return to show how the answer is built, without writing or reading recursive code.
+Description: Students step through a **diagram or story version** of recursion (e.g., factorial, sum of list) for small inputs, marking each call/return to show how the answer is built, without writing or reading recursive code. _Implementation note: Tracing table; auto‑graded. CSTA: MS‑ALG‑PS‑07._
 
 ID: T01.G8.06
 Topic: T01 – Everyday Algorithms
 Skill: Analyze who is helped or harmed by a real‑world algorithm
-Description: Students identify stakeholders and impacts of a real‑world algorithm.
+Description: Students identify stakeholders and impacts of a real‑world algorithm. _Implementation note: Scenario with MCQ + short answers. CSTA: MS‑ALG‑IM‑08. AI4K12: Ethical design (D), Societal impacts (E)._
 
 ID: T01.G8.07
 Topic: T01 – Everyday Algorithms
 Skill: Propose changes to make a real‑world algorithm more fair
-Description: Students propose specific mitigations based on identified harms.
+Description: Students propose specific mitigations based on identified harms. _Implementation note: Structured responses; auto‑graded alignment. CSTA: MS‑ALG‑IM‑09. AI4K12: Ethical design (D), Societal impacts (E)._
 
 ID: T01.G8.08
 Topic: T01 – Everyday Algorithms
 Skill: Refactor a medium‑sized program for clarity
-Description: Students reorganize code into helper blocks, remove duplication, and add meaningful names.
+Description: Students reorganize code into helper blocks, remove duplication, and add meaningful names. _Implementation note: Coding refactor; auto‑graded via behavior + structure. CSTA: MS‑PRO‑TR‑11.
 
 ID: T01.G8.09
 Topic: T01 – Everyday Algorithms
 Skill: Refactor a medium‑sized program for efficiency
-Description: Students make local changes (e.g., break loops early, avoid unnecessary recomputation) to reduce work.
+Description: Students make local changes (e.g., break loops early, avoid unnecessary recomputation) to reduce work. _Implementation note: Coding edits; auto‑graded for unchanged outputs and fewer steps. CSTA: MS‑ALG‑PS‑05, MS‑PRO‑TR‑11.
 
 ID: T01.G8.10
 Topic: T01 – Everyday Algorithms
 Skill: Use logging/probes to understand algorithm behavior
-Description: Students insert logs or display statements at key points and use them to answer questions about an algorithm’s internal behavior.
+Description: Students insert logs or display statements at key points and use them to answer questions about an algorithm’s internal behavior. _Implementation note: Coding + reading logs; auto‑graded. CSTA: MS‑ALG‑PS‑07, MS‑PRO‑TR‑11.
 
 ID: T02.GK.01
 Topic: T02 – Algorithm Diagrams
@@ -560,18 +560,13 @@ Description: Students create a flowchart using start, action, and end symbols fo
 
 ID: T02.G3.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace code with a single if/else
-Description: Students trace a short script with one simple `if/else` block and a given condition (“key pressed” or not) to predict which branch runs and what happens, using a small trace table or multiple‑choice outcomes.
+Skill: Trace a decision flowchart and tell the outcome
+Description: Students follow a small flowchart with one decision diamond and "yes/no" branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.
 
 ID: T02.G3.04
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a repeat loop and count iterations
-Description: Students trace a script with a `repeat N` loop and answer questions like “How many times does this happen?” or “How far does the sprite move?”, focusing on loop‑tracing mechanics rather than designing the algorithm.
-
-ID: T02.G3.07
-Topic: T02 – Algorithm Diagrams
-Skill: Trace a decision flowchart and tell the outcome
-Description: Students follow a small flowchart with one decision diamond and “yes/no” branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.
+Skill: Convert a simple story with one choice into a decision flowchart
+Description: Students read a simple story with one decision point and create a basic decision flowchart using start, action, decision diamond, and end symbols.
 
 ID: T02.G3.05
 Topic: T02 – Algorithm Diagrams
@@ -595,13 +590,13 @@ Description: Students design a flowchart from scratch in the Diagrams tab for a 
 
 ID: T02.G4.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace code with a sequence of if/else blocks
-Description: Students trace code with 2–3 sequential `if/else` blocks and predict the final output for a given set of conditions.
+Skill: Trace a flowchart with multiple decision points
+Description: Students follow a flowchart with 2–3 decision diamonds and trace the path for a given set of conditions.
 
 ID: T02.G4.04
 Topic: T02 – Algorithm Diagrams
-Skill: Trace code that combines a loop and a condition
-Description: Students trace a script with a loop that contains an `if` block (e.g., bouncing off edges) to predict behavior after several iterations.
+Skill: Trace a flowchart that includes a loop structure
+Description: Students follow a flowchart containing a loop (repeat until condition) and determine how many times the loop executes for given inputs.
 
 ID: T02.G4.05
 Topic: T02 – Algorithm Diagrams
@@ -625,13 +620,13 @@ Description: Students design a flowchart with multiple decision points (e.g., �
 
 ID: T02.G5.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a counter variable in a loop
-Description: Students trace a script where a variable starts at a value and changes inside a loop, predicting its final value.
+Skill: Trace a flowchart with state tracking using a trace table
+Description: Students follow a flowchart that tracks changing values (like a counter or position) and fill in a trace table showing how values change at each step.
 
 ID: T02.G5.04
 Topic: T02 – Algorithm Diagrams
-Skill: Trace an accumulator that sums values
-Description: Students trace code that adds values to a running total and determine the final sum.
+Skill: Create a trace table for a flowchart with accumulation
+Description: Students trace a flowchart that accumulates values (adds to a running total) and create their own trace table format to track the process.
 
 ID: T02.G5.05
 Topic: T02 – Algorithm Diagrams
@@ -650,13 +645,13 @@ Description: Students design a flowchart for a higher/lower guessing game with l
 
 ID: T02.G6.02
 Topic: T02 – Algorithm Diagrams
-Skill: Trace nested loops with a table of values
-Description: Students trace code with nested loops and track changes to one or two variables in a table, predicting final values or patterns.
+Skill: Trace nested flowchart structures with multiple variables
+Description: Students trace complex flowcharts with nested loops and multiple variables, using systematic trace tables to track all changing values.
 
 ID: T02.G6.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace nested loops that fill a grid pattern
-Description: Students trace nested loops that draw or fill a 2D grid (e.g., checkerboard), predicting how many cells are filled or what pattern appears.
+Skill: Analyze different flowchart representations of the same algorithm
+Description: Students compare two different flowchart representations of the same algorithm and identify which is clearer or more efficient to trace.
 
 ID: T02.G6.04
 Topic: T02 – Algorithm Diagrams
@@ -800,18 +795,18 @@ Description: Students arrange 3 pictures showing beginning, middle, and end of a
 
 ID: T03.G3.04
 Topic: T03 – Problem Decomposition
-Skill: Match storyboard panels to CreatiCode scenes
-Description: Students match each storyboard panel to a scene or backdrop in a starter CreatiCode project.
+Skill: Match storyboard panels to project scenes
+Description: Students match each storyboard panel to a logical scene or setting within a project structure (e.g., "start screen," "main game," "end screen").
 
 ID: T03.G3.05
 Topic: T03 – Problem Decomposition
 Skill: Choose a step‑by‑step plan for a small project
-Description: Students see 2–3 alternative project plans and select which plan is more reasonable (e.g., “draw → code → test” vs “test → code → draw”).
+Description: Students see 2–3 alternative project plans and select which plan is more reasonable (e.g., "design → build → test" vs "test → build → design").
 
 ID: T03.G3.06
 Topic: T03 – Problem Decomposition
-Skill: Link each subtask to a specific sprite or script
-Description: Students assign subtasks (e.g., “make cat jump on space key”) to a sprite and script in a starter project.
+Skill: Link each subtask to a logical component or responsibility
+Description: Students conceptually assign subtasks (e.g., "player actions," "game setup," "scoring display") to logical components (e.g., "Player Control," "Game Logic," "User Interface") within a project plan, focusing on organization rather than specific implementation.
 
 ID: T03.G4.01
 Topic: T03 – Problem Decomposition
@@ -826,7 +821,7 @@ Description: Students drag components into higher‑level modules (e.g., “game
 ID: T03.G4.03
 Topic: T03 – Problem Decomposition
 Skill: Assign project tasks to team roles
-Description: Students match tasks (e.g., “design sprites,” “write score code”) to team roles (e.g., artist, programmer, tester).
+Description: Students match tasks (e.g., "create visuals," "design game logic," "test features") to team roles (e.g., artist, designer, tester).
 
 ID: T03.G4.04
 Topic: T03 – Problem Decomposition
@@ -856,7 +851,7 @@ Description: Students create a simple diagram showing how key screens/levels or 
 ID: T03.G5.03
 Topic: T03 – Problem Decomposition
 Skill: Identify task dependencies in a project plan
-Description: Students examine a list of tasks and mark which ones must be done before others (e.g., “draw sprites before code movement”).
+Description: Students examine a list of tasks and mark which ones must be done before others (e.g., "design characters before animate movement").
 
 ID: T03.G5.04
 Topic: T03 – Problem Decomposition
@@ -870,13 +865,13 @@ Description: Students compare two project plans and choose which is more realist
 
 ID: T03.G6.01
 Topic: T03 – Problem Decomposition
-Skill: Propose modules for a medium CreatiCode project
-Description: Students read about an existing project and propose modules (e.g., “player control,” “enemy behavior,” “scoring”), grouping related sprites and scripts.
+Skill: Propose modules for a medium project
+Description: Students read about an existing project and propose logical modules (e.g., "player control," "enemy behavior," "scoring"), grouping related functionality and components.
 
 ID: T03.G6.02
 Topic: T03 – Problem Decomposition
-Skill: Refactor a messy script into helper blocks
-Description: Students see an overlong script and choose which pieces could be turned into custom blocks (e.g., “check collision,” “reset level”), then label those blocks.
+Skill: Refactor a complex process into reusable components
+Description: Students see an overlong process description and choose which pieces could be turned into reusable components (e.g., "collision detection," "level reset"), then name those components.
 
 ID: T03.G6.03
 Topic: T03 – Problem Decomposition
@@ -895,13 +890,13 @@ Description: Students start with a short idea, ask XO for subtasks, and then sel
 
 ID: T03.G7.01
 Topic: T03 – Problem Decomposition
-Skill: Draw an architecture diagram for a multi‑sprite game
-Description: Students create a diagram showing main sprites, key data (variables/lists), and message flows for a multi‑sprite game, treating it as a *high‑level architecture view* of components and their communication rather than a detailed step‑by‑step algorithm (which lives in T02).
+Skill: Draw an architecture diagram for a multi‑component project
+Description: Students create a diagram showing main components, key data flows, and communication patterns for a complex project, treating it as a *high‑level architecture view* of components and their interactions rather than detailed implementation (which lives in T02).
 
 ID: T03.G7.02
 Topic: T03 – Problem Decomposition
-Skill: Map code modules to architecture components
-Description: Students match existing CreatiCode scripts/custom blocks to components in an architecture diagram.
+Skill: Map functional modules to architecture components
+Description: Students match existing project modules and functionality to components in an architecture diagram, focusing on logical organization.
 
 ID: T03.G7.03
 Topic: T03 – Problem Decomposition
@@ -911,7 +906,7 @@ Description: Students compare two architecture sketches or task breakdowns and d
 ID: T03.G7.04
 Topic: T03 – Problem Decomposition
 Skill: Propose an alternative decomposition to fix a planning problem
-Description: Students are given a project suffering from duplicated code or tangled scripts and propose a new module breakdown to fix it.
+Description: Students are given a project suffering from duplicated functionality or tangled dependencies and propose a new module breakdown to fix it.
 
 ID: T03.G7.05
 Topic: T03 – Problem Decomposition
@@ -946,7 +941,7 @@ Description: Students analyze a too‑ambitious plan and suggest ways to trim sc
 ID: T03.G8.05
 Topic: T03 – Problem Decomposition
 Skill: Propose a refactoring plan for a complex project
-Description: Students review a description of a messy but working multi‑sprite project and propose a high‑level plan to reorganize it into modules, custom blocks, and clearer scripts.
+Description: Students review a description of a messy but working complex project and propose a high‑level plan to reorganize it into clearer modules, components, and logical structure.
 
 ID: T03.G8.06
 Topic: T03 – Problem Decomposition
@@ -1426,17 +1421,17 @@ Description: Students evaluate a sample design brief, identifying strengths and 
 ID: T06.G3.01
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Build a green‑flag script that runs a 3–5 block sequence
-Description: Students create a simple script triggered by green flag that performs a short sequence (movement, say, costume change).
+Description: Students create their first simple script triggered by the green flag that performs a very short sequence (e.g., move 10 steps, say "Hello!", change costume). This gateway skill introduces the fundamental concept that programs start with events and run a sequence of actions.
 
 ID: T06.G3.02
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Build a key‑press script that controls a sprite
-Description: Students make a “when key pressed” script that moves a sprite in one direction.
+Description: Students make their first "when key pressed" script that moves a sprite in one direction (e.g., arrow key to move right). This builds on the green flag concept by introducing user input events.
 
 ID: T06.G3.03
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Match code snippets to the event that triggers them
-Description: Students read several tiny scripts with different event hats (green flag, key, sprite click) and match them to descriptions of when they will run.
+Description: Students read very simple scripts with different event hats (green flag, key, sprite click) and match them to plain-language descriptions of when they will run (e.g., "This runs when the game starts" vs "This runs when you press a key").
 
 ID: T06.G3.04
 Topic: T06 – Events & Sequences: G3–8 Skill List
@@ -1445,18 +1440,23 @@ Description: Students choose between green flag, key press, and sprite‑click e
 
 ID: T06.G3.05
 Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Trace a project with two events and predict outputs
-Description: Students see a program with green‑flag and key‑press scripts, then answer what happens if you only click green flag, only press key, and do both.
+Skill: Trace a project with a single event and predict output
+Description: Students see a program with a single green‑flag or key‑press script, then answer what happens if that event occurs.
 
 ID: T06.G3.06
+Topic: T06 – Events & Sequences: G3–8 Skill List
+Skill: Trace a project with two simple events and predict outputs
+Description: Students see a program with very simple green‑flag and key‑press scripts (2-3 blocks each), then answer what happens if you only click green flag, only press key. Focus on basic understanding that different events trigger different actions.
+
+ID: T06.G3.07
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Fix a script that is missing an event block
 Description: Students correct a script that has the right actions but no event head by adding the appropriate event block.
 
-ID: T06.G3.07
+ID: T06.G3.08
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Fix a behavior that runs at the wrong time
-Description: Students adjust which event triggers a script (e.g., swap `when flag clicked` to `when key pressed`) to match a story description before tackling longer multi‑script bugs.
+Description: Students adjust which event triggers a script (e.g., swap "when flag clicked" to "when key pressed") to match a story description.
 
 ID: T06.G4.01
 Topic: T06 – Events & Sequences: G3–8 Skill List
@@ -1581,27 +1581,27 @@ Description: Students evaluate a project’s event structure, identifying confus
 ID: T07.G3.01
 Topic: T07 – Loops
 Skill: Use a counted repeat loop
-Description: Students use a `repeat N` loop to run a short sequence a specific number of times (e.g., make a sprite jump exactly 3 times, or draw 4 sides of a square), instead of copy‑pasting the same blocks. This is the first explicit fixed‑count loop.
+Description: Students use their first `repeat N` loop to run a very simple sequence a small number of times (e.g., make a sprite jump exactly 3 times, or say "Hello!" 2 times). This gateway skill introduces the fundamental concept of repetition in programming by replacing obvious copy-pasted blocks. Start with 2-3 repetitions to keep cognitive load manageable.
 
 ID: T07.G3.02
 Topic: T07 – Loops
 Skill: Trace a script with a simple loop
-Description: Students read a short script with a single `repeat` loop and predict how many times an action (like stamping or moving) occurs or where a sprite ends up after the loop finishes. This builds comfort with “do this N times” semantics before nested loops.
+Description: Students read a very simple script with a single `repeat N` loop (N = 2-4) and predict how many times a basic action occurs or where a sprite ends up. Use concrete, visual actions like moving, stamping, or saying something. Focus on "this will happen 3 times" understanding rather than complex calculations.
 
 ID: T07.G3.03
 Topic: T07 – Loops
-Skill: Trace a forever loop that keeps controls running
-Description: Students read code with a `forever` loop that checks keys each frame and explain why the sprite keeps moving smoothly while the loop runs. They predict what happens when the loop stops or when keys change.
+Skill: Build a forever loop for simple animation
+Description: Students create their first `forever` loop with a very simple action inside (e.g., turn 15 degrees, or next costume) to create basic continuous animation. Introduce "forever" as "repeat until you stop the program."
 
 ID: T07.G3.04
 Topic: T07 – Loops
-Skill: Use repeat‑until to reach a goal
-Description: Students use a `repeat until <touching goal>` loop to move a sprite towards a target (e.g., a flag or color stripe), so that the sprite stops exactly when the condition becomes true rather than after a fixed number of steps.
+Skill: Use repeat‑until to reach a simple goal
+Description: Students use a very simple `repeat until <touching [goal]>` loop with a basic movement block to move a sprite towards a clearly visible target. The goal should be directly in the sprite's path to minimize complexity. Introduce this as "keep doing something until something else happens."
 
 ID: T07.G3.05
 Topic: T07 – Loops
 Skill: Fix a loop that runs too many or too few times
-Description: Students inspect a short script where a `repeat` loop makes the sprite act one time too many or too few (e.g., jumping 4 times instead of 3) and adjust the repeat count or the block placement to match the intended behavior.
+Description: Students inspect a simple script where a `repeat` loop makes the sprite do something obviously wrong (e.g., jumping 4 times instead of 3, clearly visible difference). This contextualized debugging skill teaches debugging as a natural part of learning loops. The error should be obvious and the fix straightforward (change one number).
 
 ID: T07.G4.01
 Topic: T07 – Loops
@@ -1627,6 +1627,11 @@ ID: T07.G4.05
 Topic: T07 – Loops
 Skill: Analyze and fix a loop bug
 Description: Students examine a script where a loop runs too many or too few times, or the counter/condition is incorrect, and modify it to match the intended behavior. They practice reasoning about loop boundaries and conditions.
+
+ID: T07.G4.06
+Topic: T07 – Loops
+Skill: Trace code that combines a loop and a condition
+Description: Students trace a script with a loop that contains an `if` block (e.g., bouncing off edges) to predict behavior after several iterations.
 
 ID: T07.G5.01
 Topic: T07 – Loops
@@ -1667,6 +1672,16 @@ ID: T07.G6.04
 Topic: T07 – Loops
 Skill: Avoid and fix infinite loops
 Description: Students identify scripts that never stop because of improper use of `forever` or `repeat until` with a condition that never becomes true. They modify the code to add a stopping condition or break behavior appropriately.
+
+ID: T07.G6.05
+Topic: T07 – Loops
+Skill: Trace nested loops with a table of values
+Description: Students trace code with nested loops and track changes to one or two variables in a table, predicting final values or patterns.
+
+ID: T07.G6.06
+Topic: T07 – Loops
+Skill: Trace nested loops that fill a grid pattern
+Description: Students trace nested loops that draw or fill a 2D grid (e.g., checkerboard), predicting how many cells are filled or what pattern appears.
 
 ID: T07.G7.01
 Topic: T07 – Loops
@@ -1711,22 +1726,27 @@ Description: Students analyze given loop‑based solutions (e.g., using `repeat 
 ID: T08.G3.01
 Topic: T08 – Conditions & Logic
 Skill: Use a simple if in a script
-Description: Students add a single `if <condition> then ...` block to a short script so that an action only happens when a simple condition is true (e.g., "if touching the goal, say 'Yay!'", or "if key pressed, move"). This is their first direct use of conditionals in code.
+Description: Students add their first single `if <condition> then ...` block to a very simple script so that an action only happens when an obvious condition is true (e.g., "if touching the green flag, say 'Yay!'"). This gateway skill introduces the fundamental concept of conditional execution. Start with highly visual, binary conditions that are easy to test.
 
 ID: T08.G3.02
 Topic: T08 – Conditions & Logic
 Skill: Decide when a single if is enough
-Description: Students read short scenarios (e.g., “open the door only when the key is collected” vs “open only if the key is collected AND the timer is below 10”) and choose whether a single condition is sufficient or whether two conditions must be checked together. They do not yet build AND/OR in code; they just classify the need.
+Description: Students read very simple scenarios (e.g., "move only when the space key is pressed" vs "jump only if touching the ground AND space is pressed") and identify whether a single condition is enough or multiple conditions are needed. This builds conceptual understanding without requiring students to write complex logic yet. Use concrete, visual examples.
 
 ID: T08.G3.03
 Topic: T08 – Conditions & Logic
 Skill: Pick the right conditional block for a scenario
-Description: Students choose between a one‑sided `if` and a two‑sided `if/else` block for simple scenarios (e.g., “if score > 10, give a prize; otherwise do nothing” vs “if raining wear boots, else wear sneakers”). They focus on selecting, not constructing complex logic.
+Description: Students choose between a simple `if` and an `if/else` block for very basic scenarios (e.g., "if touching star, say 'Good!' but don't do anything else" vs "if touching red, say 'Stop!', otherwise say 'Go!'"). Use clear either/or vs. one-way scenarios. Focus on recognizing the difference, not writing complex logic.
 
 ID: T08.G3.04
 Topic: T08 – Conditions & Logic
-Skill: Trace code with a single condition and predict result
-Description: Students read code with one simple condition (no AND/OR) and trace which branch runs for given inputs.
+Skill: Trace code with a single if/else
+Description: Students trace a short script with one simple `if/else` block and a given condition to predict which branch runs and what happens.
+
+ID: T08.G3.05
+Topic: T08 – Conditions & Logic
+Skill: Fix a condition that uses the wrong operator
+Description: Students fix a simple script where a condition uses an obviously wrong comparison operator (e.g., score > 10 when it should be score < 10, with very clear wrong behavior). This contextualized debugging skill teaches debugging as a natural part of learning conditionals. The error should be obvious and the fix straightforward.
 
 ID: T08.G4.01
 Topic: T08 – Conditions & Logic
@@ -1762,6 +1782,11 @@ ID: T08.G4.07
 Topic: T08 – Conditions & Logic
 Skill: Analyze and fix a logic bug
 Description: Students debug a script where a condition is incorrect or inverted (e.g., `if score < 10` instead of `if score >= 10`), causing unexpected behavior. They identify and fix the logic error.
+
+ID: T08.G4.08
+Topic: T08 – Conditions & Logic
+Skill: Trace code with a sequence of if/else blocks
+Description: Students trace code with 2–3 sequential `if/else` blocks and predict the final output for a given set of conditions.
 
 ID: T08.G5.01
 Topic: T08 – Conditions & Logic
@@ -1821,22 +1846,22 @@ Description: Students use compound conditions to validate user input (e.g., "age
 ID: T09.G3.01
 Topic: T09 – Variables & Expressions
 Skill: Create and use a numeric variable for score or count
-Description: Students create a numeric variable (e.g., `score` or `steps`), initialize it to a starting value, and update it in response to events (such as collecting a coin or reaching a goal), seeing how its value changes during a program.
+Description: Students create their first numeric variable with a simple name (e.g., `score`), set it to 0 at the start, and update it by 1 when something obvious happens (like touching a star). This gateway skill introduces the fundamental concept that programs can remember and change numbers. Focus on the create-set-change pattern with very simple increments.
 
 ID: T09.G3.02
 Topic: T09 – Variables & Expressions
 Skill: Use a variable in a conditional (if block)
-Description: Students write conditionals that read a variable's value and branch based on it, such as "if score > 10 then...". This connects variables to control flow and decision logic.
+Description: Students write their first conditional that reads a variable's value using very simple comparisons (e.g., "if score > 3 then say 'Great!'"). This connects the variable concept to conditional logic with small, easy-to-test numbers. Focus on understanding that variables can be checked in conditions.
 
 ID: T09.G3.03
 Topic: T09 – Variables & Expressions
 Skill: Debug missing or wrong variable updates
-Description: Students inspect a small script where a variable is never initialized or never updated (e.g., `score` stays 0) and add the missing `set`/`change` block in the correct spot so the display matches the story. This gives early debugging practice on the gateway variable skill.
+Description: Students inspect a very simple script where a variable obviously doesn't work right (e.g., `score` stays at 0 even after touching stars). The missing piece should be clear (missing "set score to 0" or missing "change score by 1"). This contextualized debugging skill teaches debugging as a natural part of learning variables, with obvious problems and straightforward fixes.
 
 ID: T09.G3.04
 Topic: T09 – Variables & Expressions
 Skill: Trace code with variables to predict outcomes
-Description: Students trace a short script step‑by‑step, recording the value of a variable at each stage, and predict the final result. This reinforces understanding of how variables are modified.
+Description: Students trace a very short script (3-4 steps) where a variable changes in simple ways (set to 0, change by 1, change by 1 again), and predict the final value. Use small numbers and obvious changes. Focus on the basic concept of following how variables change step by step.
 
 ID: T09.G4.01
 Topic: T09 – Variables & Expressions
@@ -1907,6 +1932,16 @@ ID: T09.G5.06
 Topic: T09 – Variables & Expressions
 Skill: Trace complex variable assignments and expressions
 Description: Students trace code with multiple variables and expressions, recording values at each step and predicting final outcomes. This reinforces mental models of variable scope and order of operations.
+
+ID: T09.G5.07
+Topic: T09 – Variables & Expressions
+Skill: Trace a counter variable in a loop
+Description: Students trace a script where a variable starts at a value and changes inside a loop, predicting its final value.
+
+ID: T09.G5.08
+Topic: T09 – Variables & Expressions
+Skill: Trace an accumulator that sums values
+Description: Students trace code that adds values to a running total and determine the final sum.
 
 ID: T09.G6.01
 Topic: T09 – Variables & Expressions
@@ -1981,22 +2016,17 @@ Description: Students take mathematical formulas or logical rules (e.g., distanc
 ID: T10.G3.01
 Topic: T10 – Lists & Tables
 Skill: Loop through and process each item in a list
-Description: Students use a `repeat` or `for each [item] in [list]` loop to iterate over all items in a list and perform an action on each (e.g., say each item, add them up, count specific ones).
+Description: Students use a simple `for each [item] in [list]` loop with a very basic list (3-4 items) to perform a simple action on each item (e.g., say each fruit name). This builds on T07 loop concepts by applying them to lists. Keep the list short and the action very simple to manage cognitive load.
 
 ID: T10.G3.02
 Topic: T10 – Lists & Tables
 Skill: Find and count items in a list with a condition
-Description: Students loop through a list and count items that satisfy a condition (e.g., "count how many numbers are greater than 5" or "count red items"), using a counter variable inside the loop.
+Description: Students loop through a short list and count items that match a very simple, visual condition (e.g., "count the red items" or "count numbers equal to 3"). This combines lists, loops, conditionals, and variables - ensure strong scaffolding since it builds on multiple gateway concepts. Keep conditions very simple and lists very short.
 
 ID: T10.G3.03
 Topic: T10 – Lists & Tables
-Skill: Sort a list by swapping items
-Description: Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them if out of order, or by selecting the smallest/largest and moving it. This introduces algorithmic thinking about data organization.
-
-ID: T10.G3.04
-Topic: T10 – Lists & Tables
-Skill: Search a list for a specific item (linear search)
-Description: Students implement a simple linear search: loop through a list, compare each item to a target, and report the position or index when found (or "not found" if the loop completes).
+Skill: Add and remove items from a list
+Description: Students add one item to the end of a short list or remove one obvious item, focusing on understanding that lists can grow and shrink. Keep operations very simple (add one specific item, remove one specific item) and show the visual change in the list display.
 
 ID: T10.G4.01
 Topic: T10 – Lists & Tables
@@ -2014,6 +2044,16 @@ Skill: Build a high score or leaderboard list
 Description: Students create a list of scores or rankings (possibly with names), insert new scores in the appropriate position to keep the list sorted, or use loops and conditionals to find the highest/lowest score.
 
 ID: T10.G4.04
+Topic: T10 – Lists & Tables
+Skill: Sort a list by swapping items
+Description: Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them if out of order, or by selecting the smallest/largest and moving it. This introduces algorithmic thinking about data organization.
+
+ID: T10.G4.05
+Topic: T10 – Lists & Tables
+Skill: Search a list for a specific item (linear search)
+Description: Students implement a simple linear search: loop through a list, compare each item to a target, and report the position or index when found (or "not found" if the loop completes).
+
+ID: T10.G4.06
 Topic: T10 – Lists & Tables
 Skill: Filter or remove items from a list based on a condition
 Description: Students loop through a list and delete items that don't satisfy a condition (e.g., "keep only items > 10" or "remove all 'broken' tools"), either by building a new filtered list or by modifying the original.
@@ -2111,7 +2151,7 @@ Description: Students use lists or tables to model entities and relationships (e
 ID: T11.G3.01
 Topic: T11 – Functions & Procedures
 Skill: Understand when to use custom blocks vs loops
-Description: Students differentiate between using a loop (for repeating the exact same action a fixed number of times) and a custom block (for grouping a complex or varied sequence and reusing it). Both organize code, but for different purposes.
+Description: Students differentiate between using a loop (for repeating the exact same action a fixed number of times) and a custom block (for grouping a complex or varied sequence and reusing it). Both organize code, but for different purposes. This conceptual gateway skill builds organizational thinking without requiring students to define functions yet.
 
 ID: T11.G3.02
 Topic: T11 – Functions & Procedures
@@ -2276,7 +2316,7 @@ Description: Students see 2–3 headings (e.g., "Before class," "During class," 
 ID: T12.G3.01
 Topic: T12 – Organizing Programs
 Skill: Write a comment explaining a complex block
-Description: Students add a comment to a block or small sequence that is less obvious in purpose (e.g., a `repeat until <touching goal>` loop) to clarify the intent ("Loop until the sprite reaches the flag"). Comments explain the "why" and "what" of non-obvious code.
+Description: Students add their first comment to a block that is not immediately obvious in purpose (e.g., a simple loop or condition). This gateway skill introduces the concept of documenting code for others to understand. Keep the block simple and the comment straightforward - focus on the habit of explaining code rather than complex documentation.
 
 ID: T12.G3.02
 Topic: T12 – Organizing Programs
@@ -2448,42 +2488,42 @@ Topic: T13 – Testing, Debugging & Error Handling
 Skill: Add a simple check to see if steps worked
 Description: Students add a small “check” card or picture (e.g., a thumbs‑up or scoreboard picture) at a key point in a set of steps to show that something important has happened (like reaching a goal or using all the cards). This helps them see what is going on inside a longer routine.
 
-ID: T13.G3.01
+ID: T13.G4.01
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Debug a conditional inside a loop
 Description: Students debug a program where a conditional statement inside a loop doesn't work as expected. The bug might be a wrong condition (e.g., `if touching color red` should be `if touching color blue`), a missing action, or the condition being checked at the wrong time.
 
-ID: T13.G3.02
+ID: T13.G4.02
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Test edge cases in a simple condition
 Description: Students consider edge cases for a simple conditional program (e.g., "What happens if the sprite is exactly on the edge?" or "What if the score is 0?") and run the program with those inputs to see if it behaves correctly.
 
-ID: T13.G3.03
+ID: T13.G4.03
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Create an alternative solution to the same problem
-Description: Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites), then **test both versions** on the same inputs to confirm they behave the same.
+Description: Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites), then test both versions on the same inputs to confirm they behave the same.
 
-ID: T13.G3.04
+ID: T13.G4.04
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Identify and fix an infinite loop or program hang
 Description: Students recognize that a `forever` or `repeat until` loop is stuck (never exits) and diagnose why (e.g., the condition never becomes true, or the update is missing). They fix the condition or add a stopping mechanism.
 
-ID: T13.G4.01
+ID: T13.G4.05
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Use systematic testing with multiple test cases
 Description: Students write or follow a simple test plan: a list of inputs and expected outputs. They run the program with each test case and check if results match expectations, recording passes and failures.
 
-ID: T13.G4.02
+ID: T13.G4.06
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Compare two programs solving the same task
-Description: Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to **test, debug, and reuse** (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
+Description: Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to test, debug, and reuse (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
 
-ID: T13.G4.03
+ID: T13.G4.07
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Debug a complex loop with nested structures
 Description: Students debug a script containing nested loops or multiple conditionals (e.g., a loop inside a loop with a condition inside) where the bug affects the overall behavior. They identify the incorrect level or operator and fix it.
 
-ID: T13.G4.04
+ID: T13.G4.08
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Document the steps you took to find and fix a bug
 Description: After finding and fixing a bug, students write a short explanation: what the bug was, what symptoms they saw, what they tried, and how they confirmed the fix worked. This metacognitive reflection reinforces debugging practice.
@@ -2760,8 +2800,8 @@ Description: Use `when I receive [Restart]` (or `Game Over`) to send every sprit
 
 ID: T14.G5.01
 Topic: T14 – 2D Games
-Skill: Tune gravity and weight
-Description: Adjust the amount added to a `y velocity` variable each frame to match a design brief (floaty balloon vs. heavy robot) and explain the choice.
+Skill: **[Engine Skill]** Configure gravity and weight parameters
+Description: Adjust the amount added to a `y velocity` variable each frame using specific numeric values. Students learn to map gravity constants to measurable jump heights and movement behaviors.
 
 ID: T14.G5.02
 Topic: T14 – 2D Games
@@ -3171,7 +3211,7 @@ Description: Students conduct user testing of their interface (having peers try 
 ID: T17.G5.01
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
 Skill: Choose manual vs engine-based physics
-Description: Students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and choose whether to stick with manual velocity variables or enable the physics extension. They explain the decision for each brief so later T14 skills inherit the correct dependency.
+Description: Students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and, drawing on prior simulation planning (T05.G2.03, T05.G4.05), choose whether to stick with manual velocity variables or enable the physics extension. They explain the decision for each brief so later T14 skills inherit the correct dependency.
 
 ID: T17.G5.02
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
@@ -3210,8 +3250,8 @@ Description: Students apply an upward impulse or horizontal shove to a dynamic s
 
 ID: T17.G5.09
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
-Skill: Tune gravity and mass to match a target
-Description: Students adjust gravity strength or sprite mass so the player lands on a marked platform within a specified number of seconds. They practice interpreting specifications instead of defaulting to -100 gravity.
+Skill: **[Engine Skill]** Configure gravity and mass parameters
+Description: Students adjust gravity strength and sprite mass using numeric inputs to achieve specific physics behaviors (exact fall time, bounce height). They learn to read physics specifications and translate them into parameter values.
 
 ID: T17.G5.10
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
@@ -3225,13 +3265,13 @@ Description: Students open a buggy project where the player never falls because 
 
 ID: T17.G6.01
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
-Skill: Configure surface friction
-Description: Students adjust the friction property on different surfaces (ice, wood, carpet) and observe how far a pushed sprite travels on each. They learn to choose friction values that match story expectations.
+Skill: **[Engine Skill]** Configure surface friction parameters
+Description: Students adjust the friction property numerically and measure how far objects travel on different surfaces. They learn to map friction coefficients to sliding distances through systematic testing.
 
 ID: T17.G6.02
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
-Skill: Control bounce height with restitution
-Description: Students modify the restitution property to produce either a lively bounce (pinball bumper) or a soft landing (sand). They relate restitution values to observed bounce heights.
+Skill: **[Engine Skill]** Control restitution parameters
+Description: Students modify the restitution property numerically and measure bounce heights. They learn the relationship between restitution values (0.0-1.0) and energy conservation in collisions.
 
 ID: T17.G6.03
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
@@ -3291,12 +3331,12 @@ Description: Students record motion data from a selected sprite every few frames
 ID: T17.G7.06
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
 Skill: Model a real-world physics scenario
-Description: Students choose a real phenomenon, list simplifying assumptions, and build a CreatiCode simulation that approximates it. They explain which physics properties they tuned to mimic reality.
+Description: Students choose a real phenomenon, and based on assumptions and plans from T05.G5.03 and T05.G5.04, build a CreatiCode simulation that approximates it. They explain which physics properties they tuned to mimic reality.
 
 ID: T17.G7.07
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
 Skill: Evaluate whether a simulation meets requirements
-Description: Students are given target requirements (e.g., “ball must clear the second bumper but stop before the third”). They inspect a recorded run, examine logged data, and decide if the requirements were met, citing evidence.
+Description: Students are given target requirements (e.g., “ball must clear the second bumper but stop before the third”) and, drawing on test plans from T05.G5.05 and T05.G5.06, inspect a recorded run, examine logged data, and decide if the requirements were met, citing evidence.
 
 ID: T17.G8.01
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
@@ -3317,11 +3357,6 @@ ID: T17.G8.04
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
 Skill: Optimize a physics scene for performance
 Description: Students profile a busy physics scene (many objects) and implement optimizations such as sleeping inactive bodies, lowering collision checks, culling off-screen objects, or reducing update frequency.
-
-ID: T17.G8.05
-Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
-Skill: Offer realistic vs stylized physics modes
-Description: Students ship two variants of a mini platformer: one with realistic gravity/friction, another with a floaty arcade feel. They document pros/cons and when each mode improves the experience.
 
 ID: T17.G8.06
 Topic: T17 – 2D Motion & Physics: Grades 5–8 Skill List
@@ -3685,13 +3720,13 @@ Description: Students extend a loop-based drawing by adding `pick random` for pe
 
 ID: T20.G4.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Draw spirals with changing distance
-Description: Students write a loop that increases move distance (or angle) each turn to create spiral art.
+Skill: **[Technical Skill]** Implement incremental loops for spirals
+Description: Students write a loop that increases a variable (distance or angle) each iteration to create mathematical spiral patterns. They focus on the technical implementation of incremental variables and loop mechanics.
 
 ID: T20.G4.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Build a tessellation tile with a custom block
-Description: Learners design a tile pattern, store it in a custom block, and reuse it inside nested loops to cover the stage.
+Skill: **[Technical Skill]** Implement tessellation with custom blocks
+Description: Students create a custom block (introduced in T11.G4.01) that draws a geometric tile pattern, then use nested loops to repeat it across the stage. They focus on modular code structure and coordinate calculations.
 
 ID: T20.G4.03
 Topic: T20 – Algorithmic Art & Creative Coding
@@ -3710,8 +3745,8 @@ Description: Learners add a button or key event that recolors or re-draws the ar
 
 ID: T20.G5.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Draw data-driven bars or dots
-Description: Students read values from a list and map them to heights, lengths, or dot clusters to create a stylized chart.
+Skill: **[Technical Skill]** Implement data-driven visualization algorithms
+Description: Students read values from a list and implement algorithms to map data to visual properties (heights, lengths, positions). They focus on the technical aspects of data processing and coordinate calculations.
 
 ID: T20.G5.02
 Topic: T20 – Algorithmic Art & Creative Coding
@@ -3750,8 +3785,8 @@ Description: Students create art where colors/shapes change based on variable th
 
 ID: T20.G6.04
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Build a data-driven visualization
-Description: Students read structured data (list of objects, CSV import) and turn it into an artistic visualization (scatter, radial chart, abstract glyphs).
+Skill: **[Technical Skill]** Implement complex data visualization algorithms
+Description: Students implement algorithms to process structured data (list of objects, CSV import) and map multiple data fields to visual properties using iteration and conditional logic.
 
 ID: T20.G6.05
 Topic: T20 – Algorithmic Art & Creative Coding
@@ -3785,8 +3820,8 @@ Description: Learners implement a simple iterative rule system (e.g., start with
 
 ID: T20.G8.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Design a multi-variable data visualization
-Description: Students map multiple data attributes (size, color, motion) to different visual channels to tell a story about a complex dataset.
+Skill: **[Technical Skill]** Implement multi-dimensional data mapping algorithms
+Description: Students implement sophisticated algorithms to map multiple data attributes simultaneously to different visual channels (size, color, motion, position) using advanced programming techniques.
 
 ID: T20.G8.02
 Topic: T20 – Algorithmic Art & Creative Coding
@@ -4056,7 +4091,12 @@ Description: Given a mis-recognized word or image (accent, shadowed face), stude
 ID: T23.G5.03
 Topic: T23 – AI Perception
 Skill: Choose safe ways to handle sensor data
-Description: Students choose which actions are safe or risky for camera/mic data (e.g., “keep photos only on device” vs “share raw recordings with strangers”) linking perception to privacy before coding.
+Description: Students choose which actions are safe or risky for camera/mic data (e.g., "keep photos only on device" vs "share raw recordings with strangers") linking perception to privacy before coding.
+
+ID: T23.G5.04
+Topic: T23 – AI Perception
+Skill: Identify when AI sensing might be unfair
+Description: Students examine scenarios where AI perception might work poorly for some groups (face recognition in poor lighting, voice recognition with accents) and suggest basic fairness improvements (better lighting, multiple language options).
 
 ID: T23.G6.01
 Topic: T23 – AI Perception
@@ -4078,6 +4118,11 @@ Topic: T23 – AI Perception
 Skill: Smooth noisy sensor data and recover from dropouts
 Description: Students implement smoothing (moving average, clamp, debounce) on speech or vision signals and add watchdog timers to reinitialize detection if the camera/mic feed drops. Example: average the last 5 wrist positions before moving a sprite; if `text from speech` is empty twice in a row, prompt the user to retry.
 
+ID: T23.G6.05
+Topic: T23 – AI Perception
+Skill: Add consent and privacy controls for sensor use
+Description: Students add clear permission requests before enabling camera/mic detection, provide easy on/off toggles, and implement data retention limits. They explain to users what data is collected and why.
+
 ID: T23.G7.01
 Topic: T23 – AI Perception
 Skill: Define a reusable gesture dictionary
@@ -4096,12 +4141,17 @@ Description: Using `run 3D pose detection … table [result]`, students detect w
 ID: T23.G7.04
 Topic: T23 – AI Perception
 Skill: Monitor detection accuracy across different users
-Description: Students design an accessibility log: each time a speech/gesture event succeeds or fails, they store user metadata (age range, device, lighting) plus outcome, then calculate accuracy rates per group. They interpret the data to spot bias (e.g., low-light users have lower success) and propose adjustments.
+Description: Students design an accessibility log, drawing on planning from T05.G5.06, where each time a speech/gesture event succeeds or fails, they store user metadata (age range, device, lighting) plus outcome, then calculate accuracy rates per group. They interpret the data to spot bias (e.g., low-light users have lower success) and propose adjustments.
+
+ID: T23.G7.06
+Topic: T23 – AI Perception
+Skill: Implement fairness safeguards for perception systems
+Description: Students implement measures to improve fairness in AI perception: multiple attempts for failed recognition, alternative input methods when sensors struggle, and user feedback collection for system improvement.
 
 ID: T23.G7.05
 Topic: T23 – AI Perception
 Skill: Build a calibration wizard for sensors
-Description: Students create a multi-step UI wizard (using T16 patterns) that walks users through microphone checks, lighting tests, and gesture framing. Each step runs a quick sensor test, shows the current readings, and offers fixes ("move closer," "increase room light").
+Description: Students create a multi-step UI wizard (using T16 patterns), informed by T05.G5.01 for user needs, that walks users through microphone checks, lighting tests, and gesture framing. Each step runs a quick sensor test, shows the current readings, and offers fixes ("move closer," "increase room light").
 
 ID: T23.G8.01
 Topic: T23 – AI Perception
@@ -4121,7 +4171,12 @@ Description: Students build a scenario (e.g., space mission, emergency drill) wh
 ID: T23.G8.04
 Topic: T23 – AI Perception
 Skill: Publish a privacy and deployment plan for perception apps
-Description: Students research real voice/vision privacy concerns (storage, consent, retention) and write a policy for their app: what data is captured, how long it stays, who sees it, how to request deletion, and when to fall back to offline modes. They tie recommendations to their own logging/calibration features.
+Description: Students research real voice/vision privacy concerns (storage, consent, retention) and, informed by T05.G7.03 (unintended harms) and T05.G8.01 (design brief), write a policy for their app: what data is captured, how long it stays, who sees it, how to request deletion, and when to fall back to offline modes. They tie recommendations to their own logging/calibration features.
+
+ID: T23.G8.05
+Topic: T23 – AI Perception
+Skill: Evaluate societal impacts of perception AI systems
+Description: Students analyze real-world examples of AI perception systems (facial recognition, voice assistants, gesture controls) and evaluate their benefits and risks for different communities. They propose guidelines for responsible deployment.
 
 ID: T24.G5.01
 Topic: T24 – XO & Generative AI Practices: G5–8 Skill List
@@ -4281,7 +4336,7 @@ Description: Learners create flashcards with two pieces of info (animal + habita
 ID: T25.G3.01
 Topic: T25 – Data Representation
 Skill: Map survey responses into list variables
-Description: Students connect physical sticky notes to a CreatiCode list by typing each response as an item, demonstrating how analog data becomes digital.
+Description: Students take physical sticky notes and type each response as an item in a list, demonstrating how analog data becomes digital.
 
 ID: T25.G3.02
 Topic: T25 – Data Representation
@@ -4356,7 +4411,7 @@ Description: Students design data that contains a list within a record (player i
 ID: T25.G6.04
 Topic: T25 – Data Representation
 Skill: Trace AI prompt inputs to structured slots
-Description: Learners examine an AI prompt template (“Write a summary about {topic} in {tone}”) and identify which fields store each slot’s values, linking XO/T22 prompts to structured data models.
+Description: Learners examine an AI prompt template ("Write a summary about {topic} in {tone}") and identify which fields store each slot's values.
 
 ID: T25.G7.01
 Topic: T25 – Data Representation
@@ -4586,7 +4641,7 @@ Description: Students interpret which category wins using a pictograph (one icon
 ID: T27.G1.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build a pictograph from tallies
-Description: Students convert tally marks collected in T26 into stacked icons, linking collection to analysis visuals.
+Description: Students convert tally marks collected in T26 into stacked icons using manipulatives or drawing tools, linking collection to analysis visuals.
 
 ID: T27.G1.02
 Topic: T27 – Data Analysis & Storytelling
@@ -4601,7 +4656,7 @@ Description: Students describe what the chart shows (“Most kids chose apples�
 ID: T27.G2.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create bar charts with axes labels
-Description: Learners build a bar chart (physical or digital) with labeled axes, reinforcing representation clarity.
+Description: Learners build a bar chart using physical materials or drawing tools with labeled axes, reinforcing representation clarity.
 
 ID: T27.G2.02
 Topic: T27 – Data Analysis & Storytelling
@@ -4643,11 +4698,6 @@ Topic: T27 – Data Analysis & Storytelling
 Skill: Analyze change over time using line graphs
 Description: Students read game telemetry (scores over 10 rounds) and identify segments where values rise or fall.
 
-ID: T27.G4.02
-Topic: T27 – Data Analysis & Storytelling
-Skill: Compute medians and modes
-Description: Learners practice sorting small datasets and extracting median/mode to summarize distributions.
-
 ID: T27.G4.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Evaluate data quality before analysis
@@ -4662,11 +4712,6 @@ ID: T27.G5.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build interactive dashboards with widgets
 Description: Students connect T16 widgets to data tables so viewers can filter by category (e.g., show only “forest” levels) and watch charts update.
-
-ID: T27.G5.02
-Topic: T27 – Data Analysis & Storytelling
-Skill: Justify conclusions with multiple statistics
-Description: Learners analyze datasets using multiple summary statistics and explain why one statistic is more informative for the scenario.
 
 ID: T27.G5.03
 Topic: T27 – Data Analysis & Storytelling
@@ -4687,11 +4732,6 @@ ID: T27.G6.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Run controlled comparisons
 Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better using averages and significance cues (large difference vs small).
-
-ID: T27.G6.03
-Topic: T27 – Data Analysis & Storytelling
-Skill: Interpret correlation vs causation
-Description: Students examine scatter plots or paired trends and discuss whether observed relationships are causal or coincidental, citing possible confounders.
 
 ID: T27.G6.04
 Topic: T27 – Data Analysis & Storytelling
@@ -4816,7 +4856,7 @@ Description: Students generate random coordinate pairs, check if points land ins
 ID: T28.G5.04
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Document simulation plans before coding
-Description: Learners outline question, inputs, random model, number of trials, and outputs, reinforcing intentional design.
+Description: Learners outline question, inputs, random model, number of trials, and outputs, drawing on T05.G5.03 (variables and initial values) and T05.G5.04 (update rules), reinforcing intentional design.
 
 ID: T28.G6.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
@@ -4841,7 +4881,7 @@ Description: Learners generate random-but-bounded pose or voice data to test AI 
 ID: T28.G6.05
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Model an agent, its environment, and reward rules
-Description: Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules (“if front is clear, move; else turn right”) and log states/rewards over 20 steps, highlighting how environment design affects behavior.
+Description: Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules ("if front is clear, move; else turn right") and log states/rewards over 20 steps, highlighting how environment design affects behavior.
 
 ID: T28.G7.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
@@ -4863,6 +4903,11 @@ Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Communicate simulation assumptions & limits
 Description: Learners document assumptions (independence, fixed probabilities) and limitations to promote transparency per AI4K12 guidance.
 
+ID: T28.G7.05
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Trace how a simple agent learns from rewards
+Description: Students observe a pre-built simulation where an agent's path-finding choices are updated based on a simple reward mechanism (e.g., a table of Q-values is updated visually). They answer questions about why the agent's path changes over multiple trials. This remains a conceptual tracing skill.
+
 ID: T28.G8.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Chain simulation → analysis → dashboard
@@ -4883,6 +4928,11 @@ Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Publish simulation-backed policy briefs
 Description: Learners write briefs outlining scenario, simulation method, findings, and ethical impacts (winners/losers), mirroring civic data journalism.
 
+ID: T28.G8.05
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Analyze how environment design can bias agent behavior
+Description: Students compare two simulations where the same agent 'learns' in different environments (e.g., one with many obstacles near the reward, one with none). They write a short analysis on how the environment's design led to different learned behaviors, discussing the "bias" introduced by the world itself.
+
 ID: T29.G3.01
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Distinguish text data from numbers and pictures
@@ -4902,6 +4952,11 @@ ID: T29.G3.04
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Explain why clean text helps AI helpers
 Description: Learners compare two sample prompts (typos vs clean) and discuss how clarity affects XO’s responses.
+
+ID: T29.G4.00
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Compare a human summary to a computer summary
+Description: Students read a short paragraph, write a one-sentence summary, and then compare it to a computer-generated summary, noting what the computer included or missed.
 
 ID: T29.G4.01
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
@@ -5131,7 +5186,7 @@ Description: Students explain secure elements (TPM, secure enclave) and why they
 ID: T30.G6.04
 Topic: T30 – Devices & Hardware Systems
 Skill: Plan hardware requirement checklists for AI projects
-Description: Learners create checklists listing minimum CPU, RAM, sensors needed before implementing T23/T24 features, preventing scope creep.
+Description: Learners create checklists listing minimum CPU, RAM, sensors needed before implementing T21-T24 features (camera specs for T23 perception, mic quality for T22 chatbots, GPU memory for T21 image generation), preventing scope creep and ensuring AI dependencies are met.
 
 ID: T30.G7.01
 Topic: T30 – Devices & Hardware Systems
@@ -5145,18 +5200,23 @@ Description: Learners plan duplicate sensors or fallback modes (e.g., revert to 
 
 ID: T30.G7.03
 Topic: T30 – Devices & Hardware Systems
-Skill: Compare CPUs, GPUs, and TPUs for workloads
-Description: Students map tasks (rendering, ML training, inference) to hardware accelerators and justify choices using throughput/parallelism arguments.
+Skill: Design redundancy/fail-safes for AI sensors
+Description: Learners plan duplicate sensors or fallback modes (e.g., revert to keyboard when mic fails in T22 chatbots, manual input when T23 hand detection fails) to keep AI features safe. They connect to T23 perception robustness and T24 XO fallback strategies.
 
 ID: T30.G7.04
 Topic: T30 – Devices & Hardware Systems
-Skill: Debate privacy implications of always-on sensors
-Description: Learners analyze scenarios (smart classroom, city cameras) and propose guidelines balancing utility and privacy per AI4K12.
+Skill: Compare CPUs, GPUs, and TPUs for AI workloads
+Description: Students map AI tasks (image generation from T21, speech recognition from T23, ChatGPT inference from T22) to hardware accelerators and justify choices using throughput/parallelism arguments. They connect T21-T24 AI applications to specific hardware requirements.
+
+ID: T30.G7.05
+Topic: T30 – Devices & Hardware Systems
+Skill: Debate privacy implications of AI-powered sensors
+Description: Learners analyze scenarios (AI voice assistants from T22, computer vision from T23, smart classroom monitoring) and propose guidelines balancing AI utility and privacy per AI4K12. They connect to T23 perception ethics and T24 XO data handling.
 
 ID: T30.G8.01
 Topic: T30 – Devices & Hardware Systems
-Skill: Architect edge vs cloud processing pipelines
-Description: Students design diagrams showing which computations happen on-device (low latency) and which go to the cloud (heavy workloads), citing latency/privacy reasons.
+Skill: Architect edge vs cloud processing for AI pipelines
+Description: Students design diagrams showing which AI computations happen on-device (T23 camera feed processing for low latency, privacy-sensitive voice recognition) and which go to the cloud (T21 DALL-E generation, T22 ChatGPT heavy reasoning), citing latency/privacy reasons and connecting to T21-T24 AI dependencies.
 
 ID: T30.G8.02
 Topic: T30 – Devices & Hardware Systems
@@ -5210,13 +5270,13 @@ Description: Students store `{player, score}` records in cloud variables or tabl
 
 ID: T31.G6.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Analyze how latency affects fairness
-Description: Students explore scenarios where lag causes missed hits or delayed updates and propose mitigation strategies (server authority, buffering, slowdown).
+Skill: Analyze how latency affects AI responsiveness and fairness
+Description: Students explore scenarios where network latency affects T22 chatbot conversations, T21 image generation feedback, and T23 real-time gesture recognition. They propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
 
 ID: T31.G6.04
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Evaluate privacy when sharing cloud data
-Description: Students review example datasets (names, locations, high scores) and decide when to anonymize data, restrict access, or rotate session IDs.
+Skill: Evaluate privacy when sharing AI-generated content and data
+Description: Students review datasets containing T24 XO conversation logs, T21 generated images, T23 sensor recordings, and T22 chatbot interactions. They decide when to anonymize prompts, restrict access to AI outputs, rotate session IDs, and implement consent mechanisms.
 
 ID: T31.G6.05
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
@@ -5250,28 +5310,33 @@ Description: Students research benefits (collaboration, access) and harms (priva
 
 ID: T31.G8.01
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Understand TCP/IP routing and packet reassembly
-Description: Students trace how TCP splits data into packets, how IP addresses route them through multiple hops, and how packets are reassembled in order.
+Skill: Architect edge vs cloud processing pipelines for AI
+Description: Students design diagrams showing which AI computations happen on-device (T23 camera preprocessing for privacy, real-time gesture recognition) and which require cloud resources (T21 DALL-E generation, T22 ChatGPT reasoning). They cite latency, privacy, and cost reasons while connecting to T21-T24 dependencies.
 
 ID: T31.G8.02
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Design a secure multiplayer/cloud system
-Description: Students outline authentication, encryption, and server-side validation steps to defend a multiplayer or cloud-backed app from tampering.
+Skill: Understand AI service network requirements
+Description: Students analyze bandwidth, latency, and reliability requirements for T21-T24 AI features (real-time voice for T22, image upload for T21, continuous sensor data for T23) and design network architectures that support these needs.
 
 ID: T31.G8.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Implement basic data encryption for privacy
-Description: Students code a simple substitution or XOR cipher that scrambles sensitive values before storing them in the cloud, then decrypts them when read.
+Skill: Design secure AI-powered cloud systems
+Description: Students outline authentication, encryption, and server-side validation for AI-powered apps using T21-T24 features. They address prompt injection attacks on T22 chatbots, unauthorized access to T21 image generation, and privacy protection for T23 sensor data.
 
 ID: T31.G8.04
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Evaluate network resilience and redundancy
-Description: Students analyze network diagrams with redundant links and explain how traffic reroutes around failures or how backup servers take over.
+Skill: Implement privacy protection for AI data
+Description: Students implement privacy measures for AI data: hashing T24 XO prompt logs, encrypting T23 sensor data before cloud storage, and anonymizing T22 chatbot conversations. They use simple encryption techniques while understanding AI-specific privacy needs.
 
 ID: T31.G8.05
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Build a monitoring dashboard for cloud/network events
-Description: Students listen for `when variable changed` events or latency callbacks, log timestamps, and highlight anomalies (e.g., sudden spikes). They understand ongoing monitoring as part of system health.
+Skill: Evaluate AI service resilience and fallbacks
+Description: Students analyze failure scenarios for T21-T24 AI dependencies (OpenAI API downtime, speech recognition failures) and design graceful degradation strategies (cached responses, offline modes, manual fallbacks).
+
+ID: T31.G8.06
+Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
+Skill: Build AI service monitoring and ethics dashboards
+Description: Students create monitoring dashboards that track T21-T24 AI service usage (API call counts, response times, error rates) and ethical metrics (content moderation flags, bias detection alerts, user consent tracking). They connect monitoring to T35 ethics requirements.
 
 ID: T32.GK.01
 Topic: T32 – Cybersecurity & Digital Safety
@@ -5380,8 +5445,8 @@ Description: Learners read simplified summaries and identify what data is collec
 
 ID: T32.G5.03
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Secure CreatiCode data tables (PII removal)
-Description: Students review a table with names/emails and redact or anonymize before posting project data, linking to T25/T26.
+Skill: Secure AI training data and outputs
+Description: Students review data tables containing T24 XO conversation logs, T23 sensor recordings, and T22 chatbot interactions. They redact or anonymize personal information before sharing, implement consent mechanisms, and understand how personal data affects AI fairness and privacy, linking to T25/T26 and T35 ethics.
 
 ID: T32.G5.04
 Topic: T32 – Cybersecurity & Digital Safety
@@ -5400,8 +5465,8 @@ Description: Learners design a CreatiCode UI that checks password length, uses h
 
 ID: T32.G6.03
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Conduct threat modeling for class projects
-Description: Students analyze their own apps (chatbot, logging tool) and list assets, threats, and mitigations (e.g., sanitize inputs).
+Skill: Conduct AI-specific threat modeling for class projects
+Description: Students analyze their AI-powered apps (T22 chatbots, T21 image generators, T23 perception tools) and identify AI-specific threats: prompt injection attacks, bias amplification, data poisoning, model inversion, inappropriate content generation. They propose both technical and ethical mitigations.
 
 ID: T32.G6.04
 Topic: T32 – Cybersecurity & Digital Safety
@@ -5425,8 +5490,8 @@ Description: Students add logging to CreatiCode projects (timestamp, user, actio
 
 ID: T32.G7.04
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Discuss societal impacts of surveillance tech
-Description: Learners debate benefits/risks of surveillance (safety vs privacy) referencing AI4K12 priorities.
+Skill: Analyze AI-powered surveillance ethics and societal impacts
+Description: Following T23 perception projects, learners debate benefits/risks of AI-powered surveillance (facial recognition, emotion detection, behavior analysis). They analyze case studies, discuss bias and fairness concerns, and propose ethical guidelines connecting to T35 ethics frameworks.
 
 ID: T32.G8.01
 Topic: T32 – Cybersecurity & Digital Safety
@@ -5440,8 +5505,8 @@ Description: Learners design a simple role system (admin vs player) inside a Cre
 
 ID: T32.G8.03
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Evaluate AI system security/ethics
-Description: Students audit an AI project for data security (prompt logs, stored info) and ethical use, proposing guardrails.
+Skill: Conduct comprehensive AI security and ethics audits
+Description: Students conduct detailed audits of AI projects covering T21 image generation (bias in outputs, content moderation), T22 chatbots (prompt injection, inappropriate responses), T23 perception (consent, data retention), and T24 XO assistance (academic integrity, citation). They propose technical and ethical guardrails.
 
 ID: T32.G8.04
 Topic: T32 – Cybersecurity & Digital Safety
@@ -5451,7 +5516,7 @@ Description: Learners draft plans covering detection, containment, communication
 ID: T33.G6.01
 Topic: T33 – Connected Services & Tool Wrappers: G6–8 Skill List
 Skill: Identify blocks that call external services
-Description: Students examine CreatiCode block palettes and tag blocks that contact third-party services (ChatGPT, DALL·E, Pinecone, speech recognition). They explain what data leaves their project and why.
+Description: Students examine CreatiCode AI block palettes (T21-T24) and identify which blocks contact external services (ChatGPT for T22, DALL·E for T21, speech services for T23, Pinecone for T24). They explain data flows and analyze ethical implications: what personal data leaves projects, potential bias in responses, and user privacy concerns.
 
 ID: T33.G6.02
 Topic: T33 – Connected Services & Tool Wrappers: G6–8 Skill List
@@ -5501,7 +5566,7 @@ Description: Learners create an outage simulator (forcing error responses) and d
 ID: T33.G8.03
 Topic: T33 – Connected Services & Tool Wrappers: G6–8 Skill List
 Skill: Integrate third-party tool output into moderation workflows
-Description: Students apply moderation blocks (text/image) to verify AI-generated outputs before showing them to users, ensuring they meet class policies and AI4K12 priorities.
+Description: Students create comprehensive moderation workflows for T21-T24 AI outputs: content safety filters for T21 images and T22 text, bias detection for all AI responses, consent verification for T23 sensor data, and academic integrity checks for T24 XO assistance. They implement escalation procedures connecting to T35 ethics frameworks.
 
 ID: T33.G8.04
 Topic: T33 – Connected Services & Tool Wrappers: G6–8 Skill List
@@ -5586,7 +5651,7 @@ Description: Students connect historical leaps (GPU invention, cloud computing) 
 ID: T34.G5.01
 Topic: T34 – Computing History
 Skill: Investigate social movements linked to computing
-Description: Learners research how computing supported a social cause (assistive tech, open data, community networking) and present findings.
+Description: Learners research how computing and emerging AI tools support social causes (algorithmic justice advocacy, AI for accessibility, community-controlled data sovereignty, bias detection tools). They analyze both historical movements and current AI equity initiatives, connecting to T21-T24 applications and T35 ethics work.
 
 ID: T34.G5.02
 Topic: T34 – Computing History
@@ -5606,7 +5671,7 @@ Description: Students build charts comparing key characteristics (dominant hardw
 ID: T34.G6.02
 Topic: T34 – Computing History
 Skill: Evaluate who was included/excluded historically
-Description: Learners examine case studies (time-sharing, early internet) and discuss barriers (cost, geography, policy) plus efforts to improve access.
+Description: Learners examine historical case studies (time-sharing, early internet) and connect them to current AI access barriers. They discuss how past exclusion (cost, geography, language, disability access) parallels modern AI inequities (model training bias, resource requirements for T21-T24 features) and analyze efforts to improve access.
 
 ID: T34.G6.03
 Topic: T34 – Computing History
@@ -5730,8 +5795,8 @@ Description: Students debate policy scenarios (device-free times, notifications)
 
 ID: T35.G5.03
 Topic: T35 – Impacts & Ethics
-Skill: Investigate how AI affects jobs
-Description: Learners research one career impacted by automation (translation, logistics) and propose reskilling ideas.
+Skill: Analyze AI's differential impacts on workers and communities
+Description: Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T21-T24 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.
 
 ID: T35.G6.01
 Topic: T35 – Impacts & Ethics
@@ -5745,8 +5810,8 @@ Description: Learners read mock privacy statements and decide whether the data c
 
 ID: T35.G6.03
 Topic: T35 – Impacts & Ethics
-Skill: Create community guidelines for AI helpers
-Description: Students adapt T24 logging habits into a class policy covering credit, citation, and inappropriate requests.
+Skill: Develop comprehensive AI ethics guidelines for T21-T24 applications
+Description: Students create comprehensive ethical guidelines covering all T21-T24 AI applications: T21 image generation (bias, consent, cultural representation), T22 chatbots (privacy, misinformation, accessibility), T23 perception (consent, surveillance concerns, equity), and T24 XO assistance (academic integrity, citation, dependency). They connect guidelines to social justice principles and equity outcomes.
 
 ID: T35.G6.04
 Topic: T35 – Impacts & Ethics
@@ -5755,8 +5820,8 @@ Description: Learners interpret charts (broadband availability, device ownership
 
 ID: T35.G7.01
 Topic: T35 – Impacts & Ethics
-Skill: Conduct bias audits on AI features
-Description: Students collect test cases across demographics and measure disparities in AI outputs (T23/T24 dependency).
+Skill: Conduct comprehensive bias audits across T21-T24 AI features
+Description: Students systematically audit T21 image generation (representation across demographics), T22 chatbots (response quality by dialect/topic), T23 perception (accuracy by skin tone/lighting), and T24 XO assistance (help quality by English proficiency). They measure disparities, analyze root causes, and propose both technical and policy solutions.
 
 ID: T35.G7.02
 Topic: T35 – Impacts & Ethics
@@ -5770,18 +5835,33 @@ Description: Students weigh openness (auditability) against misuse risks for a h
 
 ID: T35.G7.04
 Topic: T35 – Impacts & Ethics
-Skill: Facilitate community discussions on tech policy
-Description: Learners prepare questions, gather peer input, and summarize consensus on a local tech issue (BYOD rules, surveillance cameras).
+Skill: Analyze societal impacts of AI perception technologies (Pairing with T23)
+Description: Following T23 perception projects, students analyze real-world case studies of AI surveillance (facial recognition in schools, emotion detection at work, gesture tracking in public). They debate tradeoffs between security and privacy, examine disproportionate impacts on marginalized communities, and propose ethical guidelines.
+
+ID: T35.G7.05
+Topic: T35 – Impacts & Ethics
+Skill: Debate ethical implications of AI media generation (Pairing with T21)
+Description: Following T21 AI media projects, students hold structured debates on AI's impact on artists, photographers, and designers. They examine issues of copyright, style imitation, job displacement, cultural representation in training data, and propose frameworks for ethical AI media use.
+
+ID: T35.G7.06
+Topic: T35 – Impacts & Ethics
+Skill: Facilitate community discussions on AI-powered tech policy
+Description: Learners prepare questions about AI policy (chatbot use in schools, AI hiring tools, automated content moderation), gather diverse stakeholder input, and summarize consensus on local AI governance needs, connecting to T21-T24 applications.
 
 ID: T35.G8.01
 Topic: T35 – Impacts & Ethics
 Skill: Apply ethical frameworks to real proposals
 Description: Students evaluate a computing project (predictive policing, emotion AI) through multiple ethical lenses and compare conclusions.
 
+ID: T35.G8.01
+Topic: T35 – Impacts & Ethics
+Skill: Analyze AI chatbots' impact on information literacy (Pairing with T22)
+Description: Following T22 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.
+
 ID: T35.G8.02
 Topic: T35 – Impacts & Ethics
-Skill: Draft policy briefs for emerging technologies
-Description: Learners synthesize evidence and stakeholder input into a brief guiding AI use in school (chatbots, image tools), referencing T21–T24.
+Skill: Draft equity-focused policy briefs for AI in education
+Description: Learners synthesize evidence and stakeholder input into policy briefs that center equity in AI use for schools. They address differential access to T21-T24 tools, bias in AI outputs, privacy protection for vulnerable students, and culturally responsive AI implementation.
 
 ID: T35.G8.03
 Topic: T35 – Impacts & Ethics
@@ -5885,8 +5965,8 @@ Description: Students review tech marketing or news images for diversity, discus
 
 ID: T36.G6.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Compare career clusters (software, hardware, data, AI)
-Description: Learners research skill/tool needs for each cluster and note overlapping competencies (problem solving, teamwork, ethics).
+Skill: Analyze career equity across computing clusters (software, hardware, data, AI)
+Description: Learners research skill/tool needs for each computing cluster while analyzing representation demographics, salary equity, accessibility barriers, and geographic distribution. They examine how T21-T24 AI skills connect to career pathways and identify strategies for increasing inclusion in AI-related roles.
 
 ID: T36.G6.02
 Topic: T36 – Careers, Collaboration & Future Paths
@@ -5905,8 +5985,8 @@ Description: Learners amend team charters with commitments about AI use, crediti
 
 ID: T36.G7.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Conduct informational interviews/job shadows
-Description: Students interview tech professionals (live or recorded) and summarize pathways, daily tasks, and advice.
+Skill: Interview diverse technologists about AI ethics and equity
+Description: Students interview diverse tech professionals working on AI ethics, fairness, and responsible AI (including those from underrepresented communities). They explore career pathways in AI ethics, daily challenges, and strategies for ensuring T21-T24 style AI tools serve all communities equitably.
 
 ID: T36.G7.02
 Topic: T36 – Careers, Collaboration & Future Paths
@@ -5935,8 +6015,8 @@ Description: Learners assemble mini portfolios of CreatiCode projects, write sho
 
 ID: T36.G8.03
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Analyze AI’s impact on future work
-Description: Students research an industry, analyze AI’s potential benefits/risks, and propose how workers can adapt (training, new roles).
+Skill: Analyze AI's differential impact on future work and equity (Pairing with T24)
+Description: Following T24 XO and AI practices work, students research how AI coding assistants and automation affect different communities unequally. They analyze which jobs face displacement vs augmentation, how impacts vary by education/income/geography, and examine the role of AI tools like those in T21-T24 in either worsening or improving workplace equity.
 
 ID: T36.G8.04
 Topic: T36 – Careers, Collaboration & Future Paths

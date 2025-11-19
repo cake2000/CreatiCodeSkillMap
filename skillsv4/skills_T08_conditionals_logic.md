@@ -23,30 +23,37 @@ Grade 3 introduces if/else blocks with **single conditions only** plus choosing 
 ### T08.G3.01 – Use a simple if in a script
 
 - **Short name:** Add an if to control behavior  
-- **Description:** Students add a single `if <condition> then ...` block to a short script so that an action only happens when a simple condition is true (e.g., "if touching the goal, say 'Yay!'", or "if key pressed, move"). This is their first direct use of conditionals in code.  
-- **Challenge format:** Coding, starter project. Provided: a sprite and a script that always performs an action. Prompt: "Only do this when the condition is true." Students wrap the action in an `if` block with the correct condition. Auto‑grading checks that the `if` is present, that the condition matches the description, and that behavior changes correctly when the condition is true vs false.  
-- **CSTA:** E3‑PRO‑PF‑01.
+- **Description:** Students add their first single `if <condition> then ...` block to a very simple script so that an action only happens when an obvious condition is true (e.g., "if touching the green flag, say 'Yay!'"). This gateway skill introduces the fundamental concept of conditional execution. Start with highly visual, binary conditions that are easy to test.  
+- **Challenge format:** Coding, highly scaffolded starter project with step-by-step guidance. Provided: a sprite and a simple script that always performs an action. Prompt: "Only do this when touching the goal" with clear visual guidance. Students wrap the action in an `if` block with a pre-selected condition. Auto‑grading checks that the `if` is present, that the condition is correct, and that behavior changes correctly.  
+- **CSTA:** E3‑PRO‑PF‑01. ⭐ Gateway
 
 ### T08.G3.02 – Decide when a single if is enough
 
 - **Short name:** Choose simple vs combined checks  
-- **Description:** Students read short scenarios (e.g., “open the door only when the key is collected” vs “open only if the key is collected AND the timer is below 10”) and choose whether a single condition is sufficient or whether two conditions must be checked together. They do not yet build AND/OR in code; they just classify the need.  
-- **Challenge format:** Concept, MCQ/drag‑drop. Learners sort prompts into “single condition” or “needs combined conditions” and justify why. Auto‑grading checks correct grouping.  
+- **Description:** Students read very simple scenarios (e.g., "move only when the space key is pressed" vs "jump only if touching the ground AND space is pressed") and identify whether a single condition is enough or multiple conditions are needed. This builds conceptual understanding without requiring students to write complex logic yet. Use concrete, visual examples.  
+- **Challenge format:** Concept, multiple choice with visual scenarios. Learners read simple prompts with pictures and sort them into "single condition" or "needs two conditions" with guided examples. Auto‑grading checks correct grouping.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
 ### T08.G3.03 – Pick the right conditional block for a scenario
 
 - **Short name:** Match behaviors to if vs if/else  
-- **Description:** Students choose between a one‑sided `if` and a two‑sided `if/else` block for simple scenarios (e.g., “if score > 10, give a prize; otherwise do nothing” vs “if raining wear boots, else wear sneakers”). They focus on selecting, not constructing complex logic.  
-- **Challenge format:** MCQ/matching. Given small stories and block snippets, students pick which block type fits and which branch should hold which action. Auto‑grading checks selections.  
+- **Description:** Students choose between a simple `if` and an `if/else` block for very basic scenarios (e.g., "if touching star, say 'Good!' but don't do anything else" vs "if touching red, say 'Stop!', otherwise say 'Go!'"). Use clear either/or vs. one-way scenarios. Focus on recognizing the difference, not writing complex logic.  
+- **Challenge format:** Multiple choice with visual scenarios and pre-built block options. Given simple stories and block diagrams, students pick which block type fits best. Auto‑grading checks selections.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
-### T08.G3.04 – Trace code with a single condition and predict result
+### T08.G3.04 – Trace code with a single if/else
 
 - **Short name:** Trace simple if/else code  
-- **Description:** Students read code with one simple condition (no AND/OR) and trace which branch runs for given inputs.  
-- **Challenge format:** Concept, code‑tracing item. Show code with one if/else and a single comparison; give input values; ask "Which message will be displayed?" Auto‑grading checks correctness via simulation.  
+- **Description:** Students trace a short script with one simple `if/else` block and a given condition to predict which branch runs and what happens.  
+- **Challenge format:** Code‑reading MCQ or trace‑table; checked against simulation.  
 - **CSTA:** E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
+
+### T08.G3.05 – Fix a condition that uses the wrong operator
+
+- **Short name:** Debug wrong comparison operator  
+- **Description:** Students fix a simple script where a condition uses an obviously wrong comparison operator (e.g., score > 10 when it should be score < 10, with very clear wrong behavior). This contextualized debugging skill teaches debugging as a natural part of learning conditionals. The error should be obvious and the fix straightforward.  
+- **Challenge format:** Coding, scaffolded debugging. Starter project shows clear expected behavior vs. actual behavior; students identify and change only the comparison operator with guided options. Auto‑grading checks final behavior.  
+- **CSTA:** E3‑PRO‑TR‑01, E3‑PRO‑PF‑01.
 
 ---
 
@@ -102,6 +109,13 @@ Grade 4 introduces AND/OR coding, includes both trace and build paths, and then 
 - **Description:** Students debug a script where a condition is incorrect or inverted (e.g., `if score < 10` instead of `if score >= 10`), causing unexpected behavior. They identify and fix the logic error.  
 - **Challenge format:** Coding, debugging. A starter project shows expected behavior (e.g., "when score reaches 10, win the game"), but the conditional is wrong. Students adjust the condition or operator. Auto‑grading checks behavior against the expected outcome.  
 - **CSTA:** E4‑PRO‑TR‑01.
+
+### T08.G4.08 – Trace code with a sequence of if/else blocks
+
+- **Short name:** Trace sequential if/else  
+- **Description:** Students trace code with 2–3 sequential `if/else` blocks and predict the final output for a given set of conditions.  
+- **Challenge format:** Code‑reading + prediction; auto‑graded via simulation.  
+- **CSTA:** E4‑ALG‑AF‑01.
 
 ---
 
@@ -203,3 +217,13 @@ Grade 8 prepares students for high school and more formal reasoning about logic 
 - **Description:** Students use compound conditions to validate user input (e.g., "age between 13 and 18," "password long enough and contains a number") and prevent invalid states.  
 - **Challenge format:** Coding, starter project. Prompt: "Only accept a username if it is 3–10 characters and contains no spaces." Auto‑grading checks validation behavior.  
 - **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑TR‑11.
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Conceptual work on everyday if/then rules and simple classifications lives in T01, T04, and T25 and is picture‑based/non‑coding. T08 assumes these foundations.
+- G3–5: T08 is a gateway programming topic that follows the progression: simple if → choose if vs if/else → trace → compound conditions (AND/OR) → nested conditions → debug. Single conditions are mastered before combining.
+- G6–8: T08 skills assume solid use of conditional logic and focus on state machines, complex decision trees, and logical reasoning.
+- This design effectively manages G3 cognitive load and serves as a model for other gateway topics, aligning with CSTA PRO‑PF expectations while keeping skills small, progressive, and CreatiCode‑implementable.

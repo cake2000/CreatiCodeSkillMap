@@ -93,9 +93,9 @@ Grade 3 deepens documentation practices and introduces the concept of refactorin
 ### T12.G3.01 – Write a comment explaining a complex block
 
 - **Short name:** Document a complex block
-- **Description:** Students add a comment to a block or small sequence that is less obvious in purpose (e.g., a `repeat until <touching goal>` loop) to clarify the intent ("Loop until the sprite reaches the flag"). Comments explain the "why" and "what" of non-obvious code.
-- **Challenge format:** Coding, starter project. Provided: a script with a complex block or sequence (e.g., a condition with multiple parts). Prompt: "Add a comment above this block explaining what it does and why it's needed." Auto‑grading checks that a comment exists and uses key terms from the code.
-- **CSTA:** E3‑PRO‑PM‑05 (Articulate the function of a specific aspect of a program).
+- **Description:** Students add their first comment to a block that is not immediately obvious in purpose (e.g., a simple loop or condition). This gateway skill introduces the concept of documenting code for others to understand. Keep the block simple and the comment straightforward - focus on the habit of explaining code rather than complex documentation.
+- **Challenge format:** Coding, scaffolded starter project with guided comment writing. Provided: a script with one moderately complex block (e.g., a simple repeat loop). Prompt: "Add a comment above this block explaining what it does" with sentence starters provided. Auto‑grading checks that a comment exists and contains relevant terms.
+- **CSTA:** E3‑PRO‑PM‑05 (Articulate the function of a specific aspect of a program). ⭐ Gateway
 
 ### T12.G3.02 – Create a header comment for a script
 
@@ -287,3 +287,14 @@ Grade 8 treats code organization as a professional practice. Students apply indu
 - **Description:** Students examine their code and documentation with an eye toward accessibility and clarity for diverse learners: simple language, explanations of non-obvious choices, alternatives documented, no jargon assumed known.
 - **Challenge format:** Concept and coding hybrid. Prompt: "Review your code and documentation. Identify any parts that might confuse someone new to coding or that assume too much prior knowledge. Rewrite or add explanations for clarity." Auto‑grading (often peer or teacher review) assesses whether explanations are genuinely clearer and whether jargon is minimized.
 - **CSTA:** MS‑PRO‑PM‑16 (enable collaboration and explain complex logic).
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Basic ideas about naming, organizing, and sharing activities live in T01/T03/T04 and are picture‑based/non‑coding. T12 assumes these foundations and begins when students start working with code that needs organization.
+- G3–5: T12 focuses on naming, structure, and documentation so code is readable and maintainable. Refactoring for clarity appears here; refactoring "so it's easier to test and debug" lives in T13.
+- G6–8: T12 skills assume solid programming skills and focus on program organization, documentation practices, collaboration, and accessibility.
+- This design separates code organization (T12) from debugging workflows (T13) and from algorithm implementation (T06-T11).
+- This design aligns with CSTA PRO‑PM and PRO‑PD expectations while keeping skills small, progressive, and CreatiCode‑implementable.

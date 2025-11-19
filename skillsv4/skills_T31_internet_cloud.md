@@ -71,19 +71,21 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Coding, data management. Auto-grading opens two instances, submits scores, and ensures both leaderboards stay consistent.
 - **CSTA:** MS‑DAA‑DP‑05; PRO‑PD.
 
-### T31.G6.03 – Analyze how latency affects fairness
+### T31.G6.03 – Analyze how latency affects AI responsiveness and fairness
 
-- **Short name:** Latency can change winners
-- **Description:** Students explore scenarios where lag causes missed hits or delayed updates and propose mitigation strategies (server authority, buffering, slowdown).
-- **Challenge format:** Concept, explanation. Auto-grading uses a rubric to check for clear identification of fairness concerns and a plausible mitigation.
+- **Short name:** Network delays impact AI user experience
+- **Description:** Students explore scenarios where network latency affects T22 chatbot conversations, T21 image generation feedback, and T23 real-time gesture recognition. They propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
+- **Challenge format:** Concept + AI analysis. Auto-grading checks identification of AI-specific latency impacts and appropriate mitigation strategies.
 - **CSTA:** MS‑SAS‑IM‑11.
+- **AI4K12:** A3 Human Agency; D2 Bias and Fairness.
 
-### T31.G6.04 – Evaluate privacy when sharing cloud data
+### T31.G6.04 – Evaluate privacy when sharing AI-generated content and data
 
-- **Short name:** Who should see this scoreboard?
-- **Description:** Students review example datasets (names, locations, high scores) and decide when to anonymize data, restrict access, or rotate session IDs.
-- **Challenge format:** Concept, scenario analysis. Auto-grading checks recommended protections against an answer key.
+- **Short name:** Protecting AI inputs and outputs in the cloud
+- **Description:** Students review datasets containing T24 XO conversation logs, T21 generated images, T23 sensor recordings, and T22 chatbot interactions. They decide when to anonymize prompts, restrict access to AI outputs, rotate session IDs, and implement consent mechanisms.
+- **Challenge format:** AI privacy analysis. Auto-grading checks recommended protections specifically address AI data sensitivity and user consent.
 - **CSTA:** MS‑SAS‑SC‑07; MS‑DAA‑IM‑13.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ### T31.G6.05 – Distinguish stage-level vs sprite-level cloud variables
 
@@ -135,40 +137,53 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 8 – Protocol Depth, Security, Resilience, and Monitoring
 
-### T31.G8.01 – Understand TCP/IP routing and packet reassembly
+### T31.G8.01 – Architect edge vs cloud processing pipelines for AI
 
-- **Short name:** Follow packets across the internet
-- **Description:** Students trace how TCP splits data into packets, how IP addresses route them through multiple hops, and how packets are reassembled in order.
-- **Challenge format:** Concept, simulation/worksheet. Auto-grading checks for accurate depiction of IP addressing and packet ordering.
+- **Short name:** Design AI distribution for performance and privacy
+- **Description:** Students design diagrams showing which AI computations happen on-device (T23 camera preprocessing for privacy, real-time gesture recognition) and which require cloud resources (T21 DALL-E generation, T22 ChatGPT reasoning). They cite latency, privacy, and cost reasons while connecting to T21-T24 dependencies.
+- **Challenge format:** Architecture diagram + explanation referencing T21-T24. Auto-grading checks for both edge and cloud components with AI-specific rationale.
+- **CSTA:** MS‑SAS‑CS‑02, CAS‑ET‑07.
+- **AI4K12:** D1 Ethical Design; A3 Human Agency.
+
+### T31.G8.02 – Understand AI service network requirements
+
+- **Short name:** Network needs for AI applications
+- **Description:** Students analyze bandwidth, latency, and reliability requirements for T21-T24 AI features (real-time voice for T22, image upload for T21, continuous sensor data for T23) and design network architectures that support these needs.
+- **Challenge format:** Requirements analysis + network design. Auto-grading checks connection between AI features and network specifications.
 - **CSTA:** MS‑SAS‑NW‑05.
+- **AI4K12:** A2 Capabilities & Limits.
 
-### T31.G8.02 – Design a secure multiplayer/cloud system
+### T31.G8.03 – Design secure AI-powered cloud systems
 
-- **Short name:** Protect shared systems
-- **Description:** Students outline authentication, encryption, and server-side validation steps to defend a multiplayer or cloud-backed app from tampering.
-- **Challenge format:** Concept, design plan. Auto-grading uses a rubric emphasizing concrete security measures.
+- **Short name:** Protect AI services and user data
+- **Description:** Students outline authentication, encryption, and server-side validation for AI-powered apps using T21-T24 features. They address prompt injection attacks on T22 chatbots, unauthorized access to T21 image generation, and privacy protection for T23 sensor data.
+- **Challenge format:** Security design plan referencing T21-T24. Auto-grading uses rubric emphasizing AI-specific security measures and ethical data handling.
 - **CSTA:** MS‑SAS‑SC‑08; MS‑SAS‑SC‑10.
+- **AI4K12:** D1 Ethical Design.
 
-### T31.G8.03 – Implement basic data encryption for privacy
+### T31.G8.04 – Implement privacy protection for AI data
 
-- **Short name:** Encrypt before sending
-- **Description:** Students code a simple substitution or XOR cipher that scrambles sensitive values before storing them in the cloud, then decrypts them when read.
-- **Challenge format:** Coding, mini-lab. Auto-grading checks that ciphertext differs from plaintext and that decryption restores the original.
+- **Short name:** Protect AI inputs and outputs
+- **Description:** Students implement privacy measures for AI data: hashing T24 XO prompt logs, encrypting T23 sensor data before cloud storage, and anonymizing T22 chatbot conversations. They use simple encryption techniques while understanding AI-specific privacy needs.
+- **Challenge format:** Coding + privacy analysis. Auto-grading checks encryption implementation and analysis of AI privacy requirements.
 - **CSTA:** MS‑SAS‑SC‑09.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
-### T31.G8.04 – Evaluate network resilience and redundancy
+### T31.G8.05 – Evaluate AI service resilience and fallbacks
 
-- **Short name:** What happens if a router fails?
-- **Description:** Students analyze network diagrams with redundant links and explain how traffic reroutes around failures or how backup servers take over.
-- **Challenge format:** Concept, reasoning. Auto-grading checks identification of alternate paths.
+- **Short name:** What happens if AI services fail?
+- **Description:** Students analyze failure scenarios for T21-T24 AI dependencies (OpenAI API downtime, speech recognition failures) and design graceful degradation strategies (cached responses, offline modes, manual fallbacks).
+- **Challenge format:** Failure analysis + resilience plan. Auto-grading checks identification of AI failure modes and appropriate fallback strategies.
 - **CSTA:** MS‑SAS‑NW‑05.
+- **AI4K12:** A3 Human Agency.
 
-### T31.G8.05 – Build a monitoring dashboard for cloud/network events
+### T31.G8.06 – Build AI service monitoring and ethics dashboards
 
-- **Short name:** Log and monitor cloud updates
-- **Description:** Students listen for `when variable changed` events or latency callbacks, log timestamps, and highlight anomalies (e.g., sudden spikes). They understand ongoing monitoring as part of system health.
-- **Challenge format:** Coding, instrumentation task. Auto-grading generates test traffic and checks that logs capture events and flag anomalies.
+- **Short name:** Monitor AI usage and ethical compliance
+- **Description:** Students create monitoring dashboards that track T21-T24 AI service usage (API call counts, response times, error rates) and ethical metrics (content moderation flags, bias detection alerts, user consent tracking). They connect monitoring to T35 ethics requirements.
+- **Challenge format:** Coding + ethics monitoring. Auto-grading checks technical monitoring plus ethical compliance tracking for AI systems.
 - **CSTA:** MS‑PRO‑PD‑07; SAS‑NW.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ---
 

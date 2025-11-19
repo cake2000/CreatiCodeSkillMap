@@ -139,7 +139,7 @@ Where relevant, a primary **CSTA code** is noted.
 ### T28.G5.04 – Document simulation plans before coding
 
 - **Short name:** Fill a simulation design brief
-- **Description:** Learners outline question, inputs, random model, number of trials, and outputs, reinforcing intentional design.
+- **Description:** Learners outline question, inputs, random model, number of trials, and outputs, drawing on T05.G5.03 (variables and initial values) and T05.G5.04 (update rules), reinforcing intentional design.
 - **Challenge format:** Concept form. Auto-grading checks alignment between plan and submitted code.
 - **CSTA:** E5‑PRO‑PM‑05.
 
@@ -178,9 +178,11 @@ Where relevant, a primary **CSTA code** is noted.
 ### T28.G6.05 – Model an agent, its environment, and reward rules
 
 - **Short name:** Define an agent in a grid world  
-- **Description:** Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules (“if front is clear, move; else turn right”) and log states/rewards over 20 steps, highlighting how environment design affects behavior.  
+- **Description:** Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules ("if front is clear, move; else turn right") and log states/rewards over 20 steps, highlighting how environment design affects behavior.  
 - **Challenge format:** Coding + logging. Provided: starter grid and move/turn blocks. Students script the agent policy, track position and reward in lists, and answer a prompt about how changing walls/goal alters paths. Auto-grading checks that state logs are recorded each step and that rewards align to the defined rule.  
-- **CSTA:** MS‑ALG‑AF‑01, AI4K12 “Agents & Environments.”
+- **CSTA:** MS‑ALG‑AF‑01.
+- **AI4K12:** Machine Learning - Agents and Environments.
+- **Editor notes:** Builds on T05.G5.03 and T05.G5.04 (simulation design skills).
 
 ---
 
@@ -209,10 +211,18 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T28.G7.04 – Communicate simulation assumptions & limits
 
-- **Short name:** Write “what this model can/can’t tell us”
+- **Short name:** Write "what this model can/can't tell us"
 - **Description:** Learners document assumptions (independence, fixed probabilities) and limitations to promote transparency per AI4K12 guidance.
 - **Challenge format:** Writing. Rubric checks at least two assumptions and one limitation tied to their code.
 - **CSTA:** MS‑PRO‑PM‑03.
+
+### T28.G7.05 – Trace how a simple agent learns from rewards
+
+- **Short name:** Observe agent path-finding improvements
+- **Description:** Students observe a pre-built simulation where an agent's path-finding choices are updated based on a simple reward mechanism (e.g., a table of Q-values is updated visually). They answer questions about why the agent's path changes over multiple trials. This remains a conceptual tracing skill.
+- **Challenge format:** Concept + observation. Auto-grading checks comprehension questions referencing agent behavior changes over time.
+- **CSTA:** MS‑DAA‑DI‑03.
+- **AI4K12:** Machine Learning - Agents and Environments.
 
 ---
 
@@ -245,5 +255,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Description:** Learners write briefs outlining scenario, simulation method, findings, and ethical impacts (winners/losers), mirroring civic data journalism.
 - **Challenge format:** Writing. Rubric ensures inclusion of data summary, recommendation, and ethical reflection.
 - **CSTA:** MS‑CAS‑HC‑02, DAA‑DI.
+
+### T28.G8.05 – Analyze how environment design can bias agent behavior
+
+- **Short name:** Compare agent learning across different environments
+- **Description:** Students compare two simulations where the same agent 'learns' in different environments (e.g., one with many obstacles near the reward, one with none). They write a short analysis on how the environment's design led to different learned behaviors, discussing the "bias" introduced by the world itself.
+- **Challenge format:** Concept + analysis. Auto-grading checks for comparison of two scenarios and identification of environment-induced bias.
+- **CSTA:** MS‑CAS‑ET‑05.
+- **AI4K12:** Ethical AI System Design.
 
 ---

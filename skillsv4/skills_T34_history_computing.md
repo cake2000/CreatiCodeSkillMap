@@ -145,10 +145,11 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T34.G5.01 – Investigate social movements linked to computing
 
-- **Short name:** Tech for equity case study
-- **Description:** Learners research how computing supported a social cause (assistive tech, open data, community networking) and present findings.
-- **Challenge format:** Slide or poster. Rubric ensures mention of timeline, impact, and remaining challenges.
+- **Short name:** AI and tech for social justice case studies
+- **Description:** Learners research how computing and emerging AI tools support social causes (algorithmic justice advocacy, AI for accessibility, community-controlled data sovereignty, bias detection tools). They analyze both historical movements and current AI equity initiatives, connecting to T21-T24 applications and T35 ethics work.
+- **Challenge format:** Social justice tech timeline. Rubric requires historical context, current AI equity examples, impact assessment, and connection to ongoing challenges.
 - **CSTA:** E5‑CAS‑HC‑01.
+- **AI4K12:** E2 Societal Impacts; D2 Bias and Fairness.
 
 ### T34.G5.02 – Compare invention timelines in multiple industries
 
@@ -177,10 +178,11 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T34.G6.02 – Evaluate who was included/excluded historically
 
-- **Short name:** Who got access? Who didn’t?
-- **Description:** Learners examine case studies (time-sharing, early internet) and discuss barriers (cost, geography, policy) plus efforts to improve access.
-- **Challenge format:** Concept essay referencing evidence. Rubric checks mention of both exclusion and inclusion strategies.
+- **Short name:** Who got access? Who still doesn't?
+- **Description:** Learners examine historical case studies (time-sharing, early internet) and connect them to current AI access barriers. They discuss how past exclusion (cost, geography, language, disability access) parallels modern AI inequities (model training bias, resource requirements for T21-T24 features) and analyze efforts to improve access.
+- **Challenge format:** Historical-to-modern equity analysis. Rubric checks connection between historical exclusion patterns and current AI accessibility challenges, plus evaluation of inclusion strategies.
 - **CSTA:** MS‑CAS‑HC‑03, CAS‑ET.
+- **AI4K12:** D2 Bias and Fairness; E2 Societal Impacts.
 
 ### T34.G6.03 – Relate past failures to modern safeguards
 

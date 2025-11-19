@@ -43,9 +43,7 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 ### T17.G5.01 – Choose manual vs engine-based physics
 
 - **Short name:** Pick the right physics method
-- **Description:** Students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine)
-  and choose whether to stick with manual velocity variables or enable the physics extension. They explain the decision
-  for each brief so later T14 skills inherit the correct dependency.
+- **Description:** Students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and, drawing on prior simulation planning (T05.G2.03, T05.G4.05), choose whether to stick with manual velocity variables or enable the physics extension. They explain the decision for each brief so later T14 skills inherit the correct dependency.
 - **Challenge format:** Concept, drag-and-sort. Students drag each brief into “Manual physics” or “2D physics engine”
   bins and type a short justification. Auto-grading checks placement and keywords.
 - **CSTA:** E5‑PRO‑PF‑01, SAS‑IM.
@@ -115,14 +113,20 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
   the first platform.” Auto-grading checks for the impulse block and resulting jump height.
 - **CSTA:** E5‑PRO‑PF‑01.
 
-### T17.G5.09 – Tune gravity and mass to match a target
+### T17.G5.09 – **[Engine Skill]** Configure gravity and mass parameters
 
-- **Short name:** Match fall time to a mark
-- **Description:** Students adjust gravity strength or sprite mass so the player lands on a marked platform within a
-  specified number of seconds. They practice interpreting specifications instead of defaulting to -100 gravity.
-- **Challenge format:** Coding, parameter lab. Students get a timer readout and tweak sliders until the fall time matches
-  the prompt. Auto-grading checks final values and recorded landing time.
+- **Short name:** Set precise physics values (technical)
+- **Description:** Students adjust gravity strength and sprite mass using numeric inputs to achieve specific physics behaviors (exact fall time, bounce height). They learn to read physics specifications and translate them into parameter values.
+- **Challenge format:** Coding, parameter lab. Students use sliders and numeric inputs to achieve target measurements. Auto-grading checks parameter values and physics measurements.
 - **CSTA:** E5‑PRO‑PF‑01.
+
+### T17.G5.09b – **[Creative Skill]** Tune physics feel for player experience
+
+- **Short name:** Adjust physics for game feel (creative)
+- **Description:** Students, informed by simulation planning (T05.G5.06, T05.G6.06), adjust gravity and mass to create desired player emotions (heavy/floaty, challenging/forgiving). They explain how physics parameters support gameplay goals.
+- **Challenge format:** Creative iteration challenge. Students adjust parameters to match creative briefs ("make jumping feel heroic" vs "create realistic falling"). Auto-grading evaluates alignment between settings and creative goals.
+- **CSTA:** E5‑PRO‑PF‑01.
+- **Dependencies:** T05.G5.06, T05.G6.06 (simulation planning).
 
 ### T17.G5.10 – Trace simple 2D physics motion
 
@@ -152,22 +156,32 @@ T14 games. Students refine collisions, scoring, and stability while comparing en
 
 Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C Blend & evaluate**
 
-### T17.G6.01 – Configure surface friction
+### T17.G6.01 – **[Engine Skill]** Configure surface friction parameters
 
-- **Short name:** Set friction to change sliding
-- **Description:** Students adjust the friction property on different surfaces (ice, wood, carpet) and observe how far a
-  pushed sprite travels on each. They learn to choose friction values that match story expectations.
-- **Challenge format:** Coding, comparative experiment. Students duplicate a platform, set three friction values, and
-  record travel distance. Auto-grading checks that distance ordering matches friction settings.
+- **Short name:** Set friction values (technical)
+- **Description:** Students adjust the friction property numerically and measure how far objects travel on different surfaces. They learn to map friction coefficients to sliding distances through systematic testing.
+- **Challenge format:** Coding, measurement lab. Students set specific friction values, measure results, and record the relationship between parameters and physics outcomes. Auto-grading checks numerical accuracy.
 - **CSTA:** MS‑PRO‑PF‑01.
 
-### T17.G6.02 – Control bounce height with restitution
+### T17.G6.01b – **[Creative Skill]** Design surface feel for game environments
 
-- **Short name:** Make balls bouncy or dull
-- **Description:** Students modify the restitution property to produce either a lively bounce (pinball bumper) or a soft
-  landing (sand). They relate restitution values to observed bounce heights.
-- **Challenge format:** Coding, guided lab. Students attach a slider to the restitution block and capture bounce data.
-  Auto-grading checks that higher restitution correlates with higher bounce.
+- **Short name:** Choose friction for story/gameplay (creative)
+- **Description:** Students select friction values to create desired environmental storytelling (ice, wood, carpet) and gameplay experiences. They explain how surface properties enhance narrative and player challenge.
+- **Challenge format:** Creative implementation. Students choose friction settings to support environmental themes and explain the connection between physics properties and story/gameplay goals.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G6.02 – **[Engine Skill]** Control restitution parameters
+
+- **Short name:** Set bounce coefficients (technical)
+- **Description:** Students modify the restitution property numerically and measure bounce heights. They learn the relationship between restitution values (0.0-1.0) and energy conservation in collisions.
+- **Challenge format:** Coding, measurement lab. Students use sliders to test restitution values and record bounce height data. Auto-grading checks correlation between restitution and measured bounce.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G6.02b – **[Creative Skill]** Design bounce feel for game mechanics
+
+- **Short name:** Choose bounce for gameplay (creative)
+- **Description:** Students select restitution values to create specific gameplay experiences (lively pinball bumpers, soft landing zones). They explain how bounce properties enhance game mechanics and player feel.
+- **Challenge format:** Creative implementation. Students design bounce behaviors to support game mechanics and justify choices based on player experience goals.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.03 – Build a kinematic moving platform
@@ -283,8 +297,7 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 ### T17.G7.06 – Model a real-world physics scenario
 
 - **Short name:** Simulate a pendulum, orbit, or rolling cart
-- **Description:** Students choose a real phenomenon, list simplifying assumptions, and build a CreatiCode simulation that
-  approximates it. They explain which physics properties they tuned to mimic reality.
+- **Description:** Students choose a real phenomenon, and based on assumptions and plans from T05.G5.03 and T05.G5.04, build a CreatiCode simulation that approximates it. They explain which physics properties they tuned to mimic reality.
 - **Challenge format:** Coding, design project. Students submit both the project link and a short rationale. Auto-grading
   checks for required documentation fields plus reasonable parameter choices.
 - **CSTA:** MS‑PRO‑PF‑01, SAS‑IM.
@@ -292,8 +305,7 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 ### T17.G7.07 – Evaluate whether a simulation meets requirements
 
 - **Short name:** Check physics against constraints
-- **Description:** Students are given target requirements (e.g., “ball must clear the second bumper but stop before the
-  third”). They inspect a recorded run, examine logged data, and decide if the requirements were met, citing evidence.
+- **Description:** Students are given target requirements (e.g., “ball must clear the second bumper but stop before the third”) and, drawing on test plans from T05.G5.05 and T05.G5.06, inspect a recorded run, examine logged data, and decide if the requirements were met, citing evidence.
 - **Challenge format:** Concept + analysis. Students review playback and motion logs, then answer MCQ plus short
   justification prompts. Auto-grading looks for correct verdicts and referenced data points.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
@@ -343,12 +355,18 @@ Strands: **G8‑A Design & balance**, **G8‑B Advanced systems**, **G8‑C Opti
   optimization techniques.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
 
-### T17.G8.05 – Offer realistic vs stylized physics modes
+### T17.G8.05a – **[Engine Skill]** Implement multiple physics parameter sets
 
-- **Short name:** Compare two physics feels
-- **Description:** Students ship two variants of a mini platformer: one with realistic gravity/friction, another with a
-  floaty arcade feel. They document pros/cons and when each mode improves the experience.
-- **Challenge format:** Coding + reflection. Auto-grading verifies both modes exist and collects reflection answers.
+- **Short name:** Build physics mode system (technical)
+- **Description:** Students implement a system to toggle between different physics parameter sets (realistic vs arcade). They create data structures to store parameter configurations and switching mechanisms.
+- **Challenge format:** Coding, systems implementation. Students build parameter management system with mode switching. Auto-grading verifies technical implementation of multiple physics modes.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G8.05b – **[Creative Skill]** Design physics modes for player experience
+
+- **Short name:** Choose physics for game feel (creative)
+- **Description:** Students design realistic and stylized physics modes to create different player experiences. They document how each mode affects gameplay emotion, difficulty, and accessibility.
+- **Challenge format:** Creative design + reflection. Students create modes with distinct feels and explain when each improves player experience. Auto-grading evaluates design rationale and player experience analysis.
 - **CSTA:** MS‑PRO‑PF‑01, SAS‑IM.
 
 ### T17.G8.06 – Use instrumentation data to tune difficulty

@@ -314,10 +314,16 @@ Grade 5 introduces advanced 2D mechanics like gravity feel, scrolling via Creati
 
 ### Strand A: Feel & Fairness
 
-#### T14.G5.01 – Tune gravity and weight
-- **Short name:** Make it floaty or heavy
-- **Description:** Adjust the amount added to a `y velocity` variable each frame to match a design brief (floaty balloon vs. heavy robot) and explain the choice.
-- **Challenge format:** Build/test. Given a starter project, change gravity constants and record how jump height changes.
+#### T14.G5.01 – **[Engine Skill]** Configure gravity and weight parameters
+- **Short name:** Set gravity values (technical)
+- **Description:** Adjust the amount added to a `y velocity` variable each frame using specific numeric values. Students learn to map gravity constants to measurable jump heights and movement behaviors.
+- **Challenge format:** Build/test. Students implement specific gravity values and measure the resulting physics behavior. Auto-grading checks parameter accuracy.
+- **CSTA:** 1B‑AP‑10
+
+#### T14.G5.01b – **[Creative Skill]** Design gravity feel for game experience
+- **Short name:** Choose gravity for game feel (creative)
+- **Description:** Select gravity values to match design briefs (floaty balloon vs. heavy robot) and explain how the choice supports player emotion and gameplay goals.
+- **Challenge format:** Creative implementation. Students choose gravity settings to achieve specific player experiences and justify design decisions.
 - **CSTA:** 1B‑AP‑10
 
 #### T14.G5.02 – Control jump timing

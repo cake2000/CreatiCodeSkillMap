@@ -18,6 +18,20 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 3 (conceptual, no coding)
 
+### T29.G3.00a – Identify keywords in a sentence
+
+- **Short name:** Highlight the most important words
+- **Description:** Students read short sentences and use a highlighting tool to select the most important words that summarize the topic.
+- **Challenge format:** Concept highlighting. Auto-grading checks that selected words capture the main topic or action.
+- **CSTA:** E3‑DAA‑DF‑01.
+
+### T29.G3.00b – Group similar sentences by topic
+
+- **Short name:** Sort sentences into topic groups
+- **Description:** Students are given a set of sentences on different topics (e.g., sports, food, animals) and drag them into groups, practicing manual text classification.
+- **Challenge format:** Concept drag-and-drop. Auto-grading checks that sentences are grouped by coherent topics.
+- **CSTA:** E3‑DAA‑DF‑01.
+
 ### T29.G3.01 – Distinguish text data from numbers and pictures
 
 - **Short name:** What type of information is this?
@@ -49,6 +63,13 @@ Where relevant, a primary **CSTA code** is noted.
 ---
 
 ## Grade 4 *(first coding year; assumes T10 loops/lists intro)*
+
+### T29.G4.00 – Compare a human summary to a computer summary
+
+- **Short name:** Evaluate computer vs human summaries
+- **Description:** Students read a short paragraph, write a one-sentence summary, and then compare it to a computer-generated summary, noting what the computer included or missed.
+- **Challenge format:** Concept + comparison. Auto-grading checks that students identify at least one difference and explain which summary is better for what purpose.
+- **CSTA:** E4‑CAS‑ET‑02.
 
 ### T29.G4.01 – Store sentences in lists and access words
 

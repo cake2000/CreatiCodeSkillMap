@@ -219,10 +219,11 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T30.G6.04 – Plan hardware requirement checklists for AI projects
 
-- **Short name:** Spec before you build
-- **Description:** Learners create checklists listing minimum CPU, RAM, sensors needed before implementing T23/T24 features, preventing scope creep.
-- **Challenge format:** Documentation referencing project needs. Auto-grading verifies hardware specs map to planned features.
+- **Short name:** Spec hardware before building AI features
+- **Description:** Learners create checklists listing minimum CPU, RAM, sensors needed before implementing T21-T24 features (camera specs for T23 perception, mic quality for T22 chatbots, GPU memory for T21 image generation), preventing scope creep and ensuring AI dependencies are met.
+- **Challenge format:** Documentation referencing T21-T24 project needs. Auto-grading verifies hardware specs map to specific AI features and their requirements.
 - **CSTA:** MS‑PRO‑PM‑03.
+- **AI4K12:** A2 Capabilities & Limits.
 
 ---
 
@@ -242,30 +243,41 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Planning doc. Auto-grading ensures detection + response steps are included.
 - **CSTA:** MS‑SAS‑HW‑01, CAS‑ET‑05.
 
-### T30.G7.03 – Compare CPUs, GPUs, and TPUs for workloads
+### T30.G7.03 – Design redundancy/fail-safes for AI sensors
 
-- **Short name:** Match chips to tasks
-- **Description:** Students map tasks (rendering, ML training, inference) to hardware accelerators and justify choices using throughput/parallelism arguments.
-- **Challenge format:** Concept chart. Auto-grading checks rationale referencing specific workloads.
+- **Short name:** Backup plans for AI hardware failure
+- **Description:** Learners plan duplicate sensors or fallback modes (e.g., revert to keyboard when mic fails in T22 chatbots, manual input when T23 hand detection fails) to keep AI features safe. They connect to T23 perception robustness and T24 XO fallback strategies.
+- **Challenge format:** Planning doc referencing T22-T24 dependencies. Auto-grading ensures detection + response steps include AI system fallbacks.
+- **CSTA:** MS‑SAS‑HW‑01, CAS‑ET‑05.
+- **AI4K12:** A3 Human Agency; D1 Ethical Design.
+
+### T30.G7.04 – Compare CPUs, GPUs, and TPUs for AI workloads
+
+- **Short name:** Match chips to AI tasks
+- **Description:** Students map AI tasks (image generation from T21, speech recognition from T23, ChatGPT inference from T22) to hardware accelerators and justify choices using throughput/parallelism arguments. They connect T21-T24 AI applications to specific hardware requirements.
+- **Challenge format:** Concept chart linking T21-T24 features to hardware. Auto-grading checks rationale referencing specific AI workloads and dependencies on AI topics.
 - **CSTA:** MS‑SAS‑HW‑01.
+- **AI4K12:** E1 Societal Impacts.
 
-### T30.G7.04 – Debate privacy implications of always-on sensors
+### T30.G7.05 – Debate privacy implications of AI-powered sensors
 
-- **Short name:** Who is affected by ambient microphones?
-- **Description:** Learners analyze scenarios (smart classroom, city cameras) and propose guidelines balancing utility and privacy per AI4K12.
-- **Challenge format:** Structured debate notes. Rubric checks mention of stakeholders, benefits, and mitigation.
+- **Short name:** Who is affected by AI perception systems?
+- **Description:** Learners analyze scenarios (AI voice assistants from T22, computer vision from T23, smart classroom monitoring) and propose guidelines balancing AI utility and privacy per AI4K12. They connect to T23 perception ethics and T24 XO data handling.
+- **Challenge format:** Structured debate notes. Rubric checks mention of stakeholders, AI benefits, and ethical mitigation referencing T22-T24.
 - **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ---
 
 ## Grade 8
 
-### T30.G8.01 – Architect edge vs cloud processing pipelines
+### T30.G8.01 – Architect edge vs cloud processing for AI pipelines
 
-- **Short name:** Decide what runs local vs remote
-- **Description:** Students design diagrams showing which computations happen on-device (low latency) and which go to the cloud (heavy workloads), citing latency/privacy reasons.
-- **Challenge format:** Diagram + explanation. Auto-grading checks for both tiers and rationale linked to project needs.
+- **Short name:** Decide what AI runs local vs remote
+- **Description:** Students design diagrams showing which AI computations happen on-device (T23 camera feed processing for low latency, privacy-sensitive voice recognition) and which go to the cloud (T21 DALL-E generation, T22 ChatGPT heavy reasoning), citing latency/privacy reasons and connecting to T21-T24 AI dependencies.
+- **Challenge format:** Diagram + explanation referencing T21-T24. Auto-grading checks for both tiers and rationale linked to specific AI use cases.
 - **CSTA:** MS‑SAS‑CS‑02, CAS‑ET‑07.
+- **AI4K12:** D1 Ethical Design; A3 Human Agency.
 
 ### T30.G8.02 – Evaluate sustainability & lifecycle impacts
 

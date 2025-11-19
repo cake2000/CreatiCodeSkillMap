@@ -112,19 +112,19 @@ _Format:_ Sort‑into‑two‑buckets; auto‑graded. · _CSTA:_ E3‑PRO‑PM�
 Students arrange 3 pictures showing beginning, middle, and end of a simple animation or game level.  
 _Format:_ Drag panels into order; optional captions; auto‑graded by structure. · _CSTA:_ E3‑PRO‑PM‑05.
 
-**T03.G3.04 – Match storyboard panels to CreatiCode scenes**  
-Students match each storyboard panel to a scene or backdrop in a starter CreatiCode project.  
-_Format:_ Drag labels or panels onto scene thumbnails; auto‑graded. · _CSTA:_ E3‑PRO‑PM‑05.
+**T03.G3.04 – Match storyboard panels to project scenes**  
+Students match each storyboard panel to a logical scene or setting within a project structure (e.g., "start screen," "main game," "end screen").  
+_Format:_ Drag labels or panels onto scene categories; auto‑graded. · _CSTA:_ E3‑PRO‑PM‑05.
 
 ### 3‑C: Plan‑then‑build
 
 **T03.G3.05 – Choose a step‑by‑step plan for a small project**  
-Students see 2–3 alternative project plans and select which plan is more reasonable (e.g., “draw → code → test” vs “test → code → draw”).  
+Students see 2–3 alternative project plans and select which plan is more reasonable (e.g., "design → build → test" vs "test → build → design").  
 _Format:_ Plan comparison MCQ; auto‑graded. · _CSTA:_ E3‑PRO‑PM‑05.
 
-**T03.G3.06 – Link each subtask to a specific sprite or script**  
-Students assign subtasks (e.g., “make cat jump on space key”) to a sprite and script in a starter project.  
-_Format:_ Drag subtasks onto sprite/script slots; auto‑graded by mapping. · _CSTA:_ E3‑PRO‑PM‑05.
+**T03.G3.06 – Link each subtask to a logical component or responsibility**  
+Students conceptually assign subtasks (e.g., "player actions," "game setup," "scoring display") to logical components (e.g., "Player Control," "Game Logic," "User Interface") within a project plan, focusing on organization rather than specific implementation.  
+_Format:_ Drag subtasks onto component categories; auto‑graded by logical grouping. · _CSTA:_ E3‑PRO‑PM‑05.
 
 ---
 
@@ -145,7 +145,7 @@ _Format:_ Sort‑into‑modules; auto‑graded. · _CSTA:_ E4‑ALG‑PS‑03.
 ### 4‑B: Plan responsibilities & collaboration
 
 **T03.G4.03 – Assign project tasks to team roles**  
-Students match tasks (e.g., “design sprites,” “write score code”) to team roles (e.g., artist, programmer, tester).  
+Students match tasks (e.g., "create visuals," "design game logic," "test features") to team roles (e.g., artist, designer, tester).  
 _Format:_ Drag‑drop task‑to‑role mapping; auto‑graded. · _CSTA:_ E4‑PRO‑PM‑05.
 
 **T03.G4.04 – Create a simple task list with owners and order**  
@@ -181,7 +181,7 @@ _Format:_ Node‑and‑arrow diagram for screens/components; auto‑graded by co
 ### 5‑B: Dependencies & risks
 
 **T03.G5.03 – Identify task dependencies in a project plan**  
-Students examine a list of tasks and mark which ones must be done before others (e.g., “draw sprites before code movement”).  
+Students examine a list of tasks and mark which ones must be done before others (e.g., "design characters before animate movement").  
 _Format:_ Check dependency arrows or ordering; auto‑graded. · _CSTA:_ E5‑PRO‑PM‑05.
 
 **T03.G5.04 – Flag high‑risk or unclear tasks**  
@@ -202,13 +202,13 @@ Strands: **6‑A Modular design & refactoring**, **6‑B Iterative milestones**,
 
 ### 6‑A: Modular design & refactoring
 
-**T03.G6.01 – Propose modules for a medium CreatiCode project**  
-Students read about an existing project and propose modules (e.g., “player control,” “enemy behavior,” “scoring”), grouping related sprites and scripts.  
-_Format:_ Drag sprites/scripts into module boxes; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑06.
+**T03.G6.01 – Propose modules for a medium project**  
+Students read about an existing project and propose logical modules (e.g., "player control," "enemy behavior," "scoring"), grouping related functionality and components.  
+_Format:_ Drag functionality descriptions into module boxes; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑06.
 
-**T03.G6.02 – Refactor a messy script into helper blocks**  
-Students see an overlong script and choose which pieces could be turned into custom blocks (e.g., “check collision,” “reset level”), then label those blocks.  
-_Format:_ Highlight code segments + name custom blocks; auto‑graded by coverage. · _CSTA:_ MS‑ALG‑PS‑06, MS‑PRO‑PM‑16.
+**T03.G6.02 – Refactor a complex process into reusable components**  
+Students see an overlong process description and choose which pieces could be turned into reusable components (e.g., "collision detection," "level reset"), then name those components.  
+_Format:_ Highlight process segments + name components; auto‑graded by logical grouping. · _CSTA:_ MS‑ALG‑PS‑06, MS‑PRO‑PM‑16.
 
 ### 6‑B: Iterative milestones
 
@@ -234,13 +234,13 @@ Strands: **7‑A Architecture sketches**, **7‑B Tradeoffs & alternatives**, **
 
 ### 7‑A: Architecture sketches
 
-**T03.G7.01 – Draw an architecture diagram for a multi‑sprite game**  
-Students create a diagram showing main sprites, key data (variables/lists), and message flows for a multi‑sprite game, treating it as a *high‑level architecture view* of components and their communication rather than a detailed step‑by‑step algorithm (which lives in T02).  
+**T03.G7.01 – Draw an architecture diagram for a multi‑component project**  
+Students create a diagram showing main components, key data flows, and communication patterns for a complex project, treating it as a *high‑level architecture view* of components and their interactions rather than detailed implementation (which lives in T02).  
 _Format:_ Node‑and‑arrow editor; auto‑graded by presence of required nodes/links. · _CSTA:_ MS‑ALG‑PS‑07, MS‑PRO‑PM‑16.
 
-**T03.G7.02 – Map code modules to architecture components**  
-Students match existing CreatiCode scripts/custom blocks to components in an architecture diagram.  
-_Format:_ Drag scripts onto component boxes; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑07.
+**T03.G7.02 – Map functional modules to architecture components**  
+Students match existing project modules and functionality to components in an architecture diagram, focusing on logical organization.  
+_Format:_ Drag module descriptions onto component boxes; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑07.
 
 ### 7‑B: Tradeoffs & alternatives
 
@@ -249,7 +249,7 @@ Students compare two architecture sketches or task breakdowns and decide which i
 _Format:_ MCQ + justification; auto‑graded by key reasoning. · _CSTA:_ MS‑ALG‑PS‑06.
 
 **T03.G7.04 – Propose an alternative decomposition to fix a planning problem**  
-Students are given a project suffering from duplicated code or tangled scripts and propose a new module breakdown to fix it.  
+Students are given a project suffering from duplicated functionality or tangled dependencies and propose a new module breakdown to fix it.  
 _Format:_ Short structured response; auto‑graded with rubric keywords. · _CSTA:_ MS‑ALG‑PS‑06, MS‑PRO‑PM‑16.
 
 ### 7‑C: Testing and refinement plans
@@ -288,10 +288,10 @@ _Format:_ Ordering + explanation; auto‑graded by ranking and rationale. · _CS
 Students analyze a too‑ambitious plan and suggest ways to trim scope or phase features over time.  
 _Format:_ MCQ + short answer; auto‑graded by key phrases. · _CSTA:_ MS‑PRO‑PM‑16.
 
-### 8‑C: Refactoring large codebases
+### 8‑C: Refactoring large project structures
 
 **T03.G8.05 – Propose a refactoring plan for a complex project**  
-Students review a description of a messy but working multi‑sprite project and propose a high‑level plan to reorganize it into modules, custom blocks, and clearer scripts.  
+Students review a description of a messy but working complex project and propose a high‑level plan to reorganize it into clearer modules, components, and logical structure.  
 _Format:_ Structured outline; auto‑graded by presence of core refactoring ideas. · _CSTA:_ MS‑PRO‑PM‑16, MS‑ALG‑PS‑07.
 
 **T03.G8.06 – Map refactoring tasks to future milestones**  

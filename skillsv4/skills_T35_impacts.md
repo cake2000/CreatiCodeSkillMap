@@ -157,12 +157,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Structured debate notes. Rubric checks claims, evidence, and respectful counterpoints.
 - **CSTA:** E5‑CAS‑ET‑02.
 
-### T35.G5.03 – Investigate how AI affects jobs
+### T35.G5.03 – Analyze AI's differential impacts on workers and communities
 
-- **Short name:** Jobs transformed by AI
-- **Description:** Learners research one career impacted by automation (translation, logistics) and propose reskilling ideas.
-- **Challenge format:** Short report referencing sources. Auto-grading ensures mention of impact + mitigation.
-- **CSTA:** E5‑CAS‑ET‑02, ties to T21/T24.
+- **Short name:** AI job impacts across different communities
+- **Description:** Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T21-T24 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.
+- **Challenge format:** Equity-focused AI impact analysis. Auto-grading requires demographic analysis, disparity identification, and community-centered solutions connecting to T21-T24.
+- **CSTA:** E5‑CAS‑ET‑02.
+- **AI4K12:** E2 Societal Impacts; D2 Bias and Fairness.
 
 ---
 
@@ -182,12 +183,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Decision chart. Auto-grading checks references to stated purposes.
 - **CSTA:** MS‑CAS‑ET‑06.
 
-### T35.G6.03 – Create community guidelines for AI helpers
+### T35.G6.03 – Develop comprehensive AI ethics guidelines for T21-T24 applications
 
-- **Short name:** Responsible XO/copilot use policy
-- **Description:** Students adapt T24 logging habits into a class policy covering credit, citation, and inappropriate requests.
-- **Challenge format:** Policy doc. Rubric checks mention of citation, moderation, escalation.
+- **Short name:** Complete AI ethics framework for class projects
+- **Description:** Students create comprehensive ethical guidelines covering all T21-T24 AI applications: T21 image generation (bias, consent, cultural representation), T22 chatbots (privacy, misinformation, accessibility), T23 perception (consent, surveillance concerns, equity), and T24 XO assistance (academic integrity, citation, dependency). They connect guidelines to social justice principles and equity outcomes.
+- **Challenge format:** Multi-application ethics framework. Rubric evaluates comprehensive coverage of all AI applications, social justice integration, and practical implementation guidance.
 - **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** D1 Ethical Design; D2 Bias and Fairness; E2 Societal Impacts.
 
 ### T35.G6.04 – Examine digital divide data
 
@@ -200,12 +202,13 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 7
 
-### T35.G7.01 – Conduct bias audits on AI features
+### T35.G7.01 – Conduct comprehensive bias audits across T21-T24 AI features
 
-- **Short name:** Does this AI treat groups fairly?
-- **Description:** Students collect test cases across demographics and measure disparities in AI outputs (T23/T24 dependency).
-- **Challenge format:** Coding + analysis. Auto-grading checks metrics per group and reflections.
+- **Short name:** Systematic AI fairness testing across applications
+- **Description:** Students systematically audit T21 image generation (representation across demographics), T22 chatbots (response quality by dialect/topic), T23 perception (accuracy by skin tone/lighting), and T24 XO assistance (help quality by English proficiency). They measure disparities, analyze root causes, and propose both technical and policy solutions.
+- **Challenge format:** Multi-application bias audit. Auto-grading checks systematic testing across T21-T24, quantitative disparity measurement, and comprehensive mitigation plans.
 - **CSTA:** MS‑CAS‑ET‑05, DAA‑DI.
+- **AI4K12:** D2 Bias and Fairness; E2 Societal Impacts.
 
 ### T35.G7.02 – Explore unintended consequences of new tech
 
@@ -221,12 +224,29 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Position paper referencing pros/cons. Auto-grading ensures arguments cite concrete risks/benefits.
 - **CSTA:** MS‑CAS‑ET‑06.
 
-### T35.G7.04 – Facilitate community discussions on tech policy
+### T35.G7.04 – Analyze societal impacts of AI perception technologies (Pairing with T23)
 
-- **Short name:** Host a mini town hall
-- **Description:** Learners prepare questions, gather peer input, and summarize consensus on a local tech issue (BYOD rules, surveillance cameras).
-- **Challenge format:** Facilitation plan + summary. Rubric checks stakeholder inclusion and outcomes.
+- **Short name:** AI surveillance: community safety vs privacy
+- **Description:** Following T23 perception projects, students analyze real-world case studies of AI surveillance (facial recognition in schools, emotion detection at work, gesture tracking in public). They debate tradeoffs between security and privacy, examine disproportionate impacts on marginalized communities, and propose ethical guidelines.
+- **Challenge format:** Case study debate with equity focus. Rubric checks stakeholder analysis, community impact assessment, and ethical framework application.
+- **CSTA:** MS‑CAS‑ET‑05.
+- **AI4K12:** E2 Societal Impacts; D2 Bias and Fairness.
+
+### T35.G7.05 – Debate ethical implications of AI media generation (Pairing with T21)
+
+- **Short name:** AI-generated content and creative professions
+- **Description:** Following T21 AI media projects, students hold structured debates on AI's impact on artists, photographers, and designers. They examine issues of copyright, style imitation, job displacement, cultural representation in training data, and propose frameworks for ethical AI media use.
+- **Challenge format:** Structured debate + policy proposal. Rubric checks multiple perspective inclusion, equity analysis, and actionable recommendations.
+- **CSTA:** MS‑CAS‑ET‑05.
+- **AI4K12:** E2 Societal Impacts; D1 Ethical Design.
+
+### T35.G7.06 – Facilitate community discussions on AI-powered tech policy
+
+- **Short name:** Host AI ethics town halls
+- **Description:** Learners prepare questions about AI policy (chatbot use in schools, AI hiring tools, automated content moderation), gather diverse stakeholder input, and summarize consensus on local AI governance needs, connecting to T21-T24 applications.
+- **Challenge format:** AI-focused facilitation plan + summary. Rubric checks stakeholder inclusion, AI-specific policy understanding, and equity-centered outcomes.
 - **CSTA:** MS‑CAS‑HC‑03.
+- **AI4K12:** A1 Human-AI Collaboration; E2 Societal Impacts.
 
 ---
 
@@ -239,12 +259,21 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Comparative essay. Rubric checks lens definitions and application.
 - **CSTA:** MS‑CAS‑ET‑06.
 
-### T35.G8.02 – Draft policy briefs for emerging technologies
+### T35.G8.01 – Analyze AI chatbots' impact on information literacy (Pairing with T22)
 
-- **Short name:** Recommend school policy on AI
-- **Description:** Learners synthesize evidence and stakeholder input into a brief guiding AI use in school (chatbots, image tools), referencing T21–T24.
-- **Challenge format:** Policy document with executive summary, evidence, recommendation. Rubric evaluates clarity and feasibility.
+- **Short name:** AI chatbots and the future of learning
+- **Description:** Following T22 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.
+- **Challenge format:** Impact analysis + policy recommendations. Rubric checks equity analysis, evidence synthesis, and practical guidelines connecting to T22 experiences.
+- **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** E2 Societal Impacts; A1 Human-AI Collaboration.
+
+### T35.G8.02 – Draft equity-focused policy briefs for AI in education
+
+- **Short name:** AI policy with social justice lens
+- **Description:** Learners synthesize evidence and stakeholder input into policy briefs that center equity in AI use for schools. They address differential access to T21-T24 tools, bias in AI outputs, privacy protection for vulnerable students, and culturally responsive AI implementation.
+- **Challenge format:** Equity-centered policy document. Rubric evaluates social justice framing, community voice inclusion, and systemic inequality analysis.
 - **CSTA:** MS‑CAS‑ET‑06, CAS‑HC‑02.
+- **AI4K12:** D2 Bias and Fairness; E2 Societal Impacts.
 
 ### T35.G8.03 – Design impact assessments for CreatiCode projects
 

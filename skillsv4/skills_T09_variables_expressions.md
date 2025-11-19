@@ -23,29 +23,29 @@ Variables represent changing quantities; expressions combine operators (+, −, 
 ### T09.G3.01 – Create and use a numeric variable for score or count
 
 - **Short name:** Create a variable to track score
-- **Description:** Students create a numeric variable (e.g., `score` or `steps`), initialize it to a starting value, and update it in response to events (such as collecting a coin or reaching a goal), seeing how its value changes during a program.
-- **Challenge format:** Coding, starter project. Prompt: "Create a variable `score`. When the sprite touches a star, change `score` by 1 and show it." Students create the variable, set its initial value, and update it in the appropriate place. Auto‑grading checks initialization, updates, and displayed value across multiple events.
-- **CSTA:** E3‑PRO‑DH‑02.
+- **Description:** Students create their first numeric variable with a simple name (e.g., `score`), set it to 0 at the start, and update it by 1 when something obvious happens (like touching a star). This gateway skill introduces the fundamental concept that programs can remember and change numbers. Focus on the create-set-change pattern with very simple increments.
+- **Challenge format:** Coding, highly scaffolded starter project with step-by-step guidance. Prompt: "Create a variable called 'score'. Set it to 0 when the green flag is clicked. When the sprite touches a star, change 'score' by 1." Students follow guided steps to create, initialize, and update the variable. Auto‑grading checks variable creation, initialization, and simple increment behavior.
+- **CSTA:** E3‑PRO‑DH‑02. ⭐ Gateway
 
 ### T09.G3.02 – Use a variable in a conditional (if block)
 
 - **Short name:** Check a variable in an if statement
-- **Description:** Students write conditionals that read a variable's value and branch based on it, such as "if score > 10 then...". This connects variables to control flow and decision logic.
-- **Challenge format:** Coding, starter project. A sprite or game mechanic is set up with a score variable. Prompt: "If the score is greater than 50, say 'You win!'". Students add an if block comparing the variable. Auto‑grading checks the condition and response.
+- **Description:** Students write their first conditional that reads a variable's value using very simple comparisons (e.g., "if score > 3 then say 'Great!'"). This connects the variable concept to conditional logic with small, easy-to-test numbers. Focus on understanding that variables can be checked in conditions.
+- **Challenge format:** Coding, scaffolded starter project. A sprite and score variable are set up. Prompt: "If the score is greater than 3, say 'Good job!'" with guided condition building. Students add an if block comparing the variable to a small number. Auto‑grading checks the condition logic and response.
 - **CSTA:** E3‑PRO‑DH‑02, E3‑PRO‑PF‑01.
 
 ### T09.G3.03 – Debug missing or wrong variable updates
 
 - **Short name:** Fix a variable that never changes
-- **Description:** Students inspect a small script where a variable is never initialized or never updated (e.g., `score` stays 0) and add the missing `set`/`change` block in the correct spot so the display matches the story. This gives early debugging practice on the gateway variable skill.  
-- **Challenge format:** Coding, debugging. Starter project shows expected behavior (score should rise when touching a coin) but the variable blocks are missing or misplaced. Auto‑grading checks that the variable is initialized once and updated in the right event.  
+- **Description:** Students inspect a very simple script where a variable obviously doesn't work right (e.g., `score` stays at 0 even after touching stars). The missing piece should be clear (missing "set score to 0" or missing "change score by 1"). This contextualized debugging skill teaches debugging as a natural part of learning variables, with obvious problems and straightforward fixes.  
+- **Challenge format:** Coding, scaffolded debugging. Starter project shows clear expected behavior vs. actual behavior; students identify what's missing and add the missing variable block with guided options. Auto‑grading checks that the variable is properly initialized and updated.  
 - **CSTA:** E3‑PRO‑DH‑02, E3‑PRO‑TR‑01.
 
 ### T09.G3.04 – Trace code with variables to predict outcomes
 
 - **Short name:** Follow variable changes through code
-- **Description:** Students trace a short script step‑by‑step, recording the value of a variable at each stage, and predict the final result. This reinforces understanding of how variables are modified.
-- **Challenge format:** Concept, code‑reading with step‑through or table. Show a script with a variable that changes several times; ask "What is the value of [variable] after line X?" or "In the end?" with options. Auto‑grading checks selected answers.
+- **Description:** Students trace a very short script (3-4 steps) where a variable changes in simple ways (set to 0, change by 1, change by 1 again), and predict the final value. Use small numbers and obvious changes. Focus on the basic concept of following how variables change step by step.
+- **Challenge format:** Concept, simple code‑reading with visual support. Show a script like "set score to 0, change score by 1, change score by 2" and ask "What is score at the end?" with multiple choice answers. Auto‑grading checks selected answers.
 - **CSTA:** E3‑PRO‑DH‑02.
 
 ---
@@ -157,6 +157,20 @@ Students use multiple coordinated variables in complex expressions; variables su
 - **Description:** Students trace code with multiple variables and expressions, recording values at each step and predicting final outcomes. This reinforces mental models of variable scope and order of operations.
 - **Challenge format:** Concept, code‑reading with trace table. Show a script with several variable assignments and expressions; provide a table to fill in values at each step, or ask for the final value. Auto‑grading checks completed table or final answer.
 - **CSTA:** E5‑PRO‑DH‑02.
+
+### T09.G5.07 – Trace a counter variable in a loop
+
+- **Short name:** Trace loop counter  
+- **Description:** Students trace a script where a variable starts at a value and changes inside a loop, predicting its final value.  
+- **Challenge format:** Code‑reading with table or MCQ; checked by simulation.  
+- **CSTA:** E5‑ALG‑AF‑01.
+
+### T09.G5.08 – Trace an accumulator that sums values
+
+- **Short name:** Trace accumulator  
+- **Description:** Students trace code that adds values to a running total and determine the final sum.  
+- **Challenge format:** Code‑reading + numeric answer; auto‑graded.  
+- **CSTA:** E5‑ALG‑AF‑01, E5‑ALG‑PS‑03.
 
 ---
 
@@ -273,3 +287,14 @@ Students use variables and expressions in complex algorithms and data processing
 - **Description:** Students take mathematical formulas or logical rules (e.g., distance = speed × time, tax = price × rate, is_valid = age >= 18 AND has_id) and translate them into variable assignments and expressions in code.
 - **Challenge format:** Coding, project. Prompt: "Implement the quadratic formula: x = (-b ± sqrt(b² - 4ac)) / 2a. Create variables for a, b, c and compute both roots." Students implement the expressions. Auto‑grading checks correct output for test cases.
 - **CSTA:** MS‑PRO‑DH‑05, MS‑ALG‑AF‑02.
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Conceptual work on numeric and "changing value" intuitions lives in T01/T04 (repeats, counters) and T25 (data representation) and is picture‑based/non‑coding. T09 assumes these foundations.
+- G3–5: T09 is a gateway programming topic that follows the progression: create/use simple variables → use in conditions → debug missing updates → trace changes. Complex expressions involving multiplication/division are appropriately placed in G4.
+- G6–8: T09 skills assume solid use of basic variables and focus on complex expressions, real‑world modeling, and algorithm implementation.
+- The G3 debugging skill (T09.G3.03) is an excellent example of contextualized debugging that teaches debugging as a natural part of learning variables.
+- This design manages G3 cognitive load effectively and aligns with CSTA PRO‑DH expectations while keeping skills small, progressive, and CreatiCode‑implementable.

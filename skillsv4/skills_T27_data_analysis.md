@@ -46,8 +46,8 @@ Where relevant, a primary **CSTA code** is noted.
 ### T27.G1.01 – Build a pictograph from tallies
 
 - **Short name:** Turn marks into pictures
-- **Description:** Students convert tally marks collected in T26 into stacked icons, linking collection to analysis visuals.
-- **Challenge format:** Coding or manipulatives. Auto-grading ensures icon counts match tallies.
+- **Description:** Students convert tally marks collected in T26 into stacked icons using manipulatives or drawing tools, linking collection to analysis visuals.
+- **Challenge format:** Physical or digital manipulatives. Auto-grading ensures icon counts match tallies.
 - **CSTA:** E1‑DAA‑DI‑02.
 
 ### T27.G1.02 – Answer “how many more?” questions
@@ -71,8 +71,8 @@ Where relevant, a primary **CSTA code** is noted.
 ### T27.G2.01 – Create bar charts with axes labels
 
 - **Short name:** Label categories and counts
-- **Description:** Learners build a bar chart (physical or digital) with labeled axes, reinforcing representation clarity.
-- **Challenge format:** Coding/worksheet. Auto-grading checks axes text and bar heights.
+- **Description:** Learners build a bar chart using physical materials or drawing tools with labeled axes, reinforcing representation clarity.
+- **Challenge format:** Hands-on activity or worksheet. Auto-grading checks axes text and bar heights.
 - **CSTA:** E2‑DAA‑DI‑02.
 
 ### T27.G2.02 – Interpret simple line plots
@@ -139,12 +139,19 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Concept Q&A. Auto-grading checks use of temporal vocabulary.
 - **CSTA:** E4‑DAA‑DI‑02.
 
-### T27.G4.02 – Compute medians and modes
+### T27.G4.02a – Identify the median and mode in a dataset
 
-- **Short name:** Find middle and most common values
-- **Description:** Learners practice sorting small datasets and extracting median/mode to summarize distributions.
-- **Challenge format:** Coding or manual calculation. Auto-grading verifies results.
+- **Short name:** Find middle and most common values visually
+- **Description:** Students are given small, pre-sorted lists of numbers and identify the median and mode visually or with simple counting. This is a pure data literacy/math skill.
+- **Challenge format:** Concept worksheet. Auto-grading checks correct identification of median and mode in sorted datasets.
 - **CSTA:** E4‑DAA‑DI‑02.
+
+### T27.G4.02b – Write a script to compute the median and mode
+
+- **Short name:** Code median and mode calculations
+- **Description:** Students implement the logic to sort a list and calculate the median and mode in CreatiCode, depending on the conceptual skill above (T27.G4.02a).
+- **Challenge format:** Coding. Auto-grading feeds unsorted datasets and checks computed results.
+- **CSTA:** E4‑PRO‑PF‑01, DAA‑DI‑02.
 
 ### T27.G4.03 – Evaluate data quality before analysis
 
@@ -171,12 +178,19 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Coding + UI. Auto-grading interacts with widgets to confirm filtering works.
 - **CSTA:** E5‑PRO‑PF‑01, DAA‑DP.
 
-### T27.G5.02 – Justify conclusions with multiple statistics
+### T27.G5.02a – Compare mean, median, and range conceptually
 
-- **Short name:** Use mean + median + range
-- **Description:** Learners analyze datasets using multiple summary statistics and explain why one statistic is more informative for the scenario.
-- **Challenge format:** Concept response referencing computed values. Auto-grading checks reasoning.
+- **Short name:** Understand which statistic tells what story
+- **Description:** Students examine pre-computed statistics for different datasets and explain why mean vs median vs range is more informative for specific scenarios (skewed data, outliers, spread).
+- **Challenge format:** Concept analysis. Auto-grading checks reasoning about when each statistic is most useful.
 - **CSTA:** E5‑DAA‑DI‑02.
+
+### T27.G5.02b – Compute multiple summary statistics in code
+
+- **Short name:** Script mean, median, range calculations
+- **Description:** Students write scripts to compute mean, median, and range for datasets, building on T27.G4.02b and statistical understanding from T27.G5.02a.
+- **Challenge format:** Coding. Auto-grading feeds datasets and checks all three computed statistics.
+- **CSTA:** E5‑PRO‑PF‑01, DAA‑DI‑02.
 
 ### T27.G5.03 – Compare data from two sensors or sources
 
@@ -210,12 +224,19 @@ Where relevant, a primary **CSTA code** is noted.
 - **Challenge format:** Concept + calculation. Auto-grading checks computed stats and conclusion referencing evidence.
 - **CSTA:** MS‑DAA‑DI‑03.
 
-### T27.G6.03 – Interpret correlation vs causation
+### T27.G6.03a – Identify correlation vs causation conceptually
 
-- **Short name:** Spot misleading relationships
-- **Description:** Students examine scatter plots or paired trends and discuss whether observed relationships are causal or coincidental, citing possible confounders.
-- **Challenge format:** Concept reasoning. Auto-grading expects mention of “correlation” vs “cause” and a confounding factor.
+- **Short name:** Understand correlation does not imply causation
+- **Description:** Students examine scatter plots or paired trends and discuss whether observed relationships are causal or coincidental, citing possible confounders. This is a pure statistical reasoning skill.
+- **Challenge format:** Concept reasoning. Auto-grading expects mention of "correlation" vs "cause" and a confounding factor.
 - **CSTA:** MS‑DAA‑DI‑03, CAS‑ET.
+
+### T27.G6.03b – Compute correlation coefficients in code
+
+- **Short name:** Script correlation calculations
+- **Description:** Students implement simple correlation calculations in CreatiCode to quantify relationships between variables, building on conceptual understanding from T27.G6.03a.
+- **Challenge format:** Coding. Auto-grading feeds paired datasets and checks correlation coefficient calculations.
+- **CSTA:** MS‑PRO‑PF‑02, DAA‑DI‑03.
 
 ### T27.G6.04 – Generate AI-ready summaries
 

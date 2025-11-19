@@ -5,12 +5,12 @@ Domain: Algorithms & Design (D1) · Primary CSTA focus: ALG‑AF (with links to 
 
 This v2 version upgrades the original draft (`skills_T02_representing_tracing.md`) to an **IXL‑style microstep design**, aligned with the principles in `docs/TOPIC_IXL_MICROSTEP_GUIDE.md` and the v6 design for T01.
 
-- **Role of T02:** Focused on *representations* of algorithms (pictures, boxes, flowcharts, pseudocode, code) and *tracing* them (following, predicting, debugging), not on inventing new real‑world tasks (T01) or core programming constructs (T06–T13).  
+- **Role of T02:** Focused on *diagrammatic representations* of algorithms (pictures, boxes, flowcharts, pseudocode) and *tracing* them (following, predicting, debugging), not on inventing new real‑world tasks (T01) or core programming constructs (T06–T13). Code‑tracing skills have been moved to their appropriate programming topics (T06–T13).  
 - **Microsteps:** Each skill targets a single, narrow role (read/trace, represent/convert, debug/fix, compare/choose). Larger v1 skills that bundled roles are split here into IXL‑style “tiny but meaningful” increments, and strands within each grade move from concept → read/trace → write/build → debug/compare without big jumps.  
 - **Uneven density:** More skills in **grades 3–6** where formal representations and tracing are first developed; lighter but still meaningful coverage in K–2 and 7–8.  
 - **Dependencies:** T02 skills assume core construct knowledge comes from other topics (e.g., T01 for everyday algorithms, T06–T08 for events/loops/conditionals). Dependencies should primarily reference those gateway skills plus earlier T02 microsteps.
 - **Implementability:** All skills can be implemented using CreatiCode’s picture‑based K–2 activities, block‑based coding environment, and the **Diagrams** tab (for flowchart‑style diagrams and box/step diagrams) plus simple UI widgets for pseudocode entry and multi‑choice/drag‑drop tasks.
-- **Separation from T01:** T01 focuses on choosing, improving, and applying algorithms to real‑world tasks (bedtime routines, classroom jobs, project plans), while T02 focuses on reading, tracing, and converting the *diagrams and code* that represent those algorithms, often in neutral puzzle or mini‑game contexts.
+- **Separation from T01:** T01 focuses on choosing, improving, and applying algorithms to real‑world tasks (bedtime routines, classroom jobs, project plans), while T02 focuses on reading, tracing, and converting the *diagrammatic representations* (flowcharts, pseudocode, box diagrams) that represent those algorithms, often in neutral puzzle or mini‑game contexts. Code‑tracing is handled within the relevant programming topics (T06–T13).
 
 IDs follow `T02.G<grade>.<nn>`. Existing v1 IDs are preserved with tightened scopes where needed; additional microsteps use higher `<nn>` values and will need to be added to the JSON skill maps in a later data pass.
 
@@ -110,9 +110,9 @@ _Format:_ Drag‑to‑reorder (or reorder physical cards); auto‑graded by fina
 
 ---
 
-## Grade 3 – Flowchart Basics & Tracing Simple Code
+## Grade 3 – Flowchart Basics & Tracing Simple Diagrams
 
-Strands: **3‑A Flowchart basics**, **3‑B Trace code with choices & loops**, **3‑C Match flowcharts and code**
+Strands: **3‑A Flowchart basics**, **3‑B Trace flowcharts with choices**, **3‑C Match flowcharts and code**
 
 ### 3‑A: Flowchart basics
 
@@ -124,19 +124,19 @@ _Format:_ Click‑select shapes or match labels to shapes. · _CSTA:_ E3‑ALG�
 Students create a flowchart using start, action, and end symbols for a simple everyday process (no decisions yet), using the Diagrams tab in CreatiCode (flowchart mode).  
 _Format:_ Drag symbols onto the Diagrams canvas, connect arrows, label actions; auto‑graded for structure. · _CSTA:_ E3‑ALG‑AF‑01.
 
-### 3‑B: Trace code with choices & loops
+### 3‑B: Trace flowcharts with choices
 
-**T02.G3.03 – Trace code with a single if/else**  
-Students trace a short script with one simple `if/else` block and a given condition (“key pressed” or not) to predict which branch runs and what happens, using a small trace table or multiple‑choice outcomes.  
-_Format:_ Code‑reading MCQ or trace‑table fill‑in; checked against simulation. · _CSTA:_ E3‑ALG‑AF‑01.
 
-**T02.G3.04 – Trace a repeat loop and count iterations**  
-Students trace a script with a `repeat N` loop and answer questions like “How many times does this happen?” or “How far does the sprite move?”, focusing on loop‑tracing mechanics rather than designing the algorithm.  
-_Format:_ Code‑reading with numeric answer or trace‑table; auto‑graded by simulation. · _CSTA:_ E3‑ALG‑AF‑01.
 
-**T02.G3.07 – Trace a decision flowchart and tell the outcome**  
-Students follow a small flowchart with one decision diamond and “yes/no” branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.  
+
+
+**T02.G3.03 – Trace a decision flowchart and tell the outcome**  
+Students follow a small flowchart with one decision diamond and "yes/no" branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.  
 _Format:_ Flowchart diagram + outcome MCQ; auto‑graded by selected end node. · _CSTA:_ E3‑ALG‑AF‑01.
+
+**T02.G3.04 – Convert a simple story with one choice into a decision flowchart**  
+Students read a simple story with one decision point and create a basic decision flowchart using start, action, decision diamond, and end symbols.  
+_Format:_ Story + flowchart creation in Diagrams tab; auto‑graded by structure. · _CSTA:_ E3‑ALG‑AF‑01.
 
 ### 3‑C: Match flowcharts and code
 
@@ -152,7 +152,7 @@ _Format:_ Flowchart + 3 scripts; MCQ; auto‑graded by logical equivalence. · _
 
 ## Grade 4 – Flowcharts with Loops & Multi‑Step Tracing
 
-Strands: **4‑A Flowcharts with loops & decisions**, **4‑B Trace multi‑branch code**, **4‑C Pseudocode bridges**
+Strands: **4‑A Flowcharts with loops & decisions**, **4‑B Trace complex flowcharts**, **4‑C Pseudocode bridges**
 
 ### 4‑A: Flowcharts with loops & decisions
 
@@ -164,15 +164,19 @@ _Format:_ Edit an existing flowchart diagram; auto‑graded by placement and lab
 Students design a flowchart from scratch in the Diagrams tab for a simple task that repeats (e.g., “Count from 1 to 5”), correctly showing the loop structure.  
 _Format:_ Constructive flowchart activity in Diagrams; auto‑graded for loop correctness. · _CSTA:_ E4‑ALG‑AF‑01.
 
-### 4‑B: Trace multi‑branch code
+### 4‑B: Trace complex flowcharts
 
-**T02.G4.03 – Trace code with a sequence of if/else blocks**  
-Students trace code with 2–3 sequential `if/else` blocks and predict the final output for a given set of conditions.  
-_Format:_ Code‑reading + prediction; auto‑graded via simulation. · _CSTA:_ E4‑ALG‑AF‑01.
+**T02.G4.03 – Trace a flowchart with multiple decision points**  
+Students follow a flowchart with 2–3 decision diamonds and trace the path for a given set of conditions.  
+_Format:_ Flowchart diagram + path highlighting; auto‑graded by correct path. · _CSTA:_ E4‑ALG‑AF‑01.
 
-**T02.G4.04 – Trace code that combines a loop and a condition**  
-Students trace a script with a loop that contains an `if` block (e.g., bouncing off edges) to predict behavior after several iterations.  
-_Format:_ Code‑reading or step‑through; auto‑graded by final state. · _CSTA:_ E4‑ALG‑AF‑01, E4‑ALG‑PS‑03.
+**T02.G4.04 – Trace a flowchart that includes a loop structure**  
+Students follow a flowchart containing a loop (repeat until condition) and determine how many times the loop executes for given inputs.  
+_Format:_ Flowchart diagram + counting question; auto‑graded by iteration count. · _CSTA:_ E4‑ALG‑AF‑01.
+
+
+
+
 
 ### 4‑C: Pseudocode bridges
 
@@ -188,7 +192,7 @@ _Format:_ Pseudocode + 2–3 candidate flowcharts; MCQ. · _CSTA:_ E4‑ALG‑AF
 
 ## Grade 5 – Detailed Flowcharts, Variables in Traces, and Efficiency
 
-Strands: **5‑A Complex flowcharts**, **5‑B Trace variables & counters**, **5‑C Pseudocode & efficiency**
+Strands: **5‑A Complex flowcharts**, **5‑B Trace flowcharts with data tracking**, **5‑C Pseudocode & efficiency**
 
 ### 5‑A: Complex flowcharts
 
@@ -200,15 +204,19 @@ _Format:_ Highlight path in the diagram or choose final outcome; auto‑graded b
 Students design a flowchart with multiple decision points (e.g., “choose a game based on time and number of players”) using the Diagrams tab.  
 _Format:_ Constructive flowchart in Diagrams; auto‑graded by structure and coverage of cases. · _CSTA:_ E5‑ALG‑AF‑01.
 
-### 5‑B: Trace variables & counters
+### 5‑B: Trace flowcharts with data tracking
 
-**T02.G5.03 – Trace a counter variable in a loop**  
-Students trace a script where a variable starts at a value and changes inside a loop, predicting its final value.  
-_Format:_ Code‑reading with table or MCQ; checked by simulation. · _CSTA:_ E5‑ALG‑AF‑01.
+**T02.G5.03 – Trace a flowchart with state tracking using a trace table**  
+Students follow a flowchart that tracks changing values (like a counter or position) and fill in a trace table showing how values change at each step.  
+_Format:_ Flowchart + table completion; auto‑graded by table values. · _CSTA:_ E5‑ALG‑AF‑01.
 
-**T02.G5.04 – Trace an accumulator that sums values**  
-Students trace code that adds values to a running total and determine the final sum.  
-_Format:_ Code‑reading + numeric answer; auto‑graded. · _CSTA:_ E5‑ALG‑AF‑01, E5‑ALG‑PS‑03.
+**T02.G5.04 – Create a trace table for a flowchart with accumulation**  
+Students trace a flowchart that accumulates values (adds to a running total) and create their own trace table format to track the process.  
+_Format:_ Flowchart + table creation; auto‑graded by tracking structure. · _CSTA:_ E5‑ALG‑AF‑01.
+
+
+
+
 
 ### 5‑C: Pseudocode & efficiency
 
@@ -224,7 +232,7 @@ _Format:_ MCQ + short justification; auto‑graded by selected option and key ph
 
 ## Grade 6 – Multi‑Representation Mastery & Nested Tracing
 
-Strands: **6‑A Game/decision flowcharts**, **6‑B Nested tracing**, **6‑C Representation conversions**
+Strands: **6‑A Game/decision flowcharts**, **6‑B Advanced flowchart tracing**, **6‑C Representation conversions**
 
 ### 6‑A: Game/decision flowcharts
 
@@ -232,15 +240,19 @@ Strands: **6‑A Game/decision flowcharts**, **6‑B Nested tracing**, **6‑C R
 Students design a flowchart for a higher/lower guessing game with loops and decisions, showing start, repeated guesses, and end when guessed correctly.  
 _Format:_ Constructive flowchart; auto‑graded by structure and handling of end condition. · _CSTA:_ MS‑ALG‑AF‑01.
 
-### 6‑B: Nested tracing
+### 6‑B: Advanced flowchart tracing
 
-**T02.G6.02 – Trace nested loops with a table of values**  
-Students trace code with nested loops and track changes to one or two variables in a table, predicting final values or patterns.  
-_Format:_ Code‑reading + table fill‑in; auto‑graded by final row(s). · _CSTA:_ MS‑ALG‑AF‑01.
+**T02.G6.02 – Trace nested flowchart structures with multiple variables**  
+Students trace complex flowcharts with nested loops and multiple variables, using systematic trace tables to track all changing values.  
+_Format:_ Complex flowchart + multi‑column trace table; auto‑graded by systematic tracking. · _CSTA:_ MS‑ALG‑AF‑01.
 
-**T02.G6.03 – Trace nested loops that fill a grid pattern**  
-Students trace nested loops that draw or fill a 2D grid (e.g., checkerboard), predicting how many cells are filled or what pattern appears.  
-_Format:_ Code‑reading + grid visualization; auto‑graded by predicted pattern. · _CSTA:_ MS‑ALG‑AF‑01, MS‑ALG‑PS‑05.
+**T02.G6.03 – Analyze different flowchart representations of the same algorithm**  
+Students compare two different flowchart representations of the same algorithm and identify which is clearer or more efficient to trace.  
+_Format:_ Side‑by‑side flowcharts + comparison MCQ; auto‑graded by analysis. · _CSTA:_ MS‑ALG‑AF‑01.
+
+
+
+
 
 ### 6‑C: Representation conversions
 

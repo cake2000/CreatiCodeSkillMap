@@ -21,9 +21,10 @@ Where relevant, a primary **CSTA code** is noted.
 ### T33.G6.01 – Identify blocks that call external services
 
 - **Short name:** Which blocks talk to other servers?
-- **Description:** Students examine CreatiCode block palettes and tag blocks that contact third-party services (ChatGPT, DALL·E, Pinecone, speech recognition). They explain what data leaves their project and why.
-- **Challenge format:** Concept + annotation. Learners mark screenshots of block categories and write one sentence per block describing the external service. Auto-grading checks correct identification (e.g., “OpenAI ChatGPT” block) and presence of data-flow descriptions.
+- **Description:** Students examine CreatiCode AI block palettes (T21-T24) and identify which blocks contact external services (ChatGPT for T22, DALL·E for T21, speech services for T23, Pinecone for T24). They explain data flows and analyze ethical implications: what personal data leaves projects, potential bias in responses, and user privacy concerns.
+- **Challenge format:** AI service mapping + ethics analysis. Auto-grading checks correct T21-T24 service identification and ethical reasoning about data flows and societal impacts.
 - **CSTA:** MS‑SAS‑IM‑03, CAS‑ET‑06.
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ### T33.G6.02 – Draw data flow diagrams for AI wrapper blocks
 
@@ -98,10 +99,11 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T33.G8.03 – Integrate third-party tool output into moderation workflows
 
-- **Short name:** Check service responses for safety
-- **Description:** Students apply moderation blocks (text/image) to verify AI-generated outputs before showing them to users, ensuring they meet class policies and AI4K12 priorities.
-- **Challenge format:** Coding. Auto-grading injects disallowed content to ensure moderation intercepts it and that appropriate messages display.
+- **Short name:** Multi-layered AI safety and fairness checking
+- **Description:** Students create comprehensive moderation workflows for T21-T24 AI outputs: content safety filters for T21 images and T22 text, bias detection for all AI responses, consent verification for T23 sensor data, and academic integrity checks for T24 XO assistance. They implement escalation procedures connecting to T35 ethics frameworks.
+- **Challenge format:** Multi-stage moderation implementation. Auto-grading tests various problematic inputs to ensure all safety, bias, and ethical concerns are detected and handled appropriately.
 - **CSTA:** MS‑SAS‑SC‑03, CAS‑ET‑06.
+- **AI4K12:** D1 Ethical Design; D2 Bias and Fairness; E1 Societal Impacts.
 
 ### T33.G8.04 – Document build-vs-buy decisions for new features
 

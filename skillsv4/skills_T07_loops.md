@@ -18,41 +18,41 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 3
 
-Grade 3 introduces loops in a very small ladder: fixed-count repeat → trace → forever game loop → repeat until for goals → debugging a single mistake.
+Grade 3 introduces loops in a gentle progression: fixed-count repeat → trace simple repeat → forever for simple animation → repeat until for goals → debug count errors.
 
 ### T07.G3.01 – Use a counted repeat loop
 
 - **Short name:** Repeat N times for a task  
-- **Description:** Students use a `repeat N` loop to run a short sequence a specific number of times (e.g., make a sprite jump exactly 3 times, or draw 4 sides of a square), instead of copy‑pasting the same blocks. This is the first explicit fixed‑count loop.  
-- **Challenge format:** Coding, starter project. Provided: a script with several identical blocks in a row (such as `jump` or `move 10` repeated 3 or 4 times). Students replace the repeated blocks with a `repeat` loop that has the correct count and body. Auto‑grading checks that a `repeat` loop is present, that the count matches the intended behavior, and that the final behavior matches a reference solution.  
-- **CSTA:** E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
+- **Description:** Students use their first `repeat N` loop to run a very simple sequence a small number of times (e.g., make a sprite jump exactly 3 times, or say "Hello!" 2 times). This gateway skill introduces the fundamental concept of repetition in programming by replacing obvious copy-pasted blocks. Start with 2-3 repetitions to keep cognitive load manageable.  
+- **Challenge format:** Coding, highly scaffolded starter project with step-by-step guidance. Provided: a script with 2-3 identical blocks in a row (such as `move 10` repeated exactly 3 times). Students replace the repeated blocks with a `repeat` loop that has the correct count and body, with clear visual guidance. Auto‑grading checks that a `repeat` loop is present, that the count matches the intended behavior, and that the final behavior matches a reference solution.  
+- **CSTA:** E3‑PRO‑PF‑01, E3‑ALG‑AF‑01. ⭐ Gateway
 
 ### T07.G3.02 – Trace a script with a simple loop
 
 - **Short name:** Trace a repeat loop and count actions  
-- **Description:** Students read a short script with a single `repeat` loop and predict how many times an action (like stamping or moving) occurs or where a sprite ends up after the loop finishes. This builds comfort with “do this N times” semantics before nested loops.  
-- **Challenge format:** Concept, code‑reading item. Show a script such as `set x to 0; repeat 4 { change x by 5 }` or `repeat 3 { stamp }` and ask “What is x at the end?” or “How many stamps will you see?” Auto‑grading compares answers to the loop count and step size or to simulation.  
+- **Description:** Students read a very simple script with a single `repeat N` loop (N = 2-4) and predict how many times a basic action occurs or where a sprite ends up. Use concrete, visual actions like moving, stamping, or saying something. Focus on "this will happen 3 times" understanding rather than complex calculations.  
+- **Challenge format:** Concept, code‑reading item with visual support. Show a script such as `repeat 3 { move 10 steps }` or `repeat 2 { stamp }` and ask "How many stamps will you see?" or "How far will the sprite move in total?" with multiple choice answers. Auto‑grading compares answers to the loop count and simple arithmetic.  
 - **CSTA:** E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
 
-### T07.G3.03 – Trace a forever loop that keeps controls running
+### T07.G3.03 – Build a forever loop for simple animation
 
-- **Short name:** Read a forever loop  
-- **Description:** Students read code with a `forever` loop that checks keys each frame and explain why the sprite keeps moving smoothly while the loop runs. They predict what happens when the loop stops or when keys change.  
-- **Challenge format:** Code‑reading with scenarios; auto‑graded by multiple questions on behavior.  
+- **Short name:** Forever loop for animation  
+- **Description:** Students create their first `forever` loop with a very simple action inside (e.g., turn 15 degrees, or next costume) to create basic continuous animation. Introduce "forever" as "repeat until you stop the program."  
+- **Challenge format:** Coding, scaffolded starter project with clear action choices; auto‑graded by presence of forever loop and continuous behavior.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
-### T07.G3.04 – Use repeat‑until to reach a goal
+### T07.G3.04 – Use repeat‑until to reach a simple goal
 
 - **Short name:** Repeat until you reach the flag  
-- **Description:** Students use a `repeat until <touching goal>` loop to move a sprite towards a target (e.g., a flag or color stripe), so that the sprite stops exactly when the condition becomes true rather than after a fixed number of steps.  
-- **Challenge format:** Coding, starter project. Provided: sprite, goal object, and partial script with a move block. Students wrap the move in a `repeat until` loop with the appropriate condition. Auto‑grading checks (1) correct loop type, (2) appropriate condition, and (3) that the sprite stops on the goal across multiple starting positions.  
+- **Description:** Students use a very simple `repeat until <touching [goal]>` loop with a basic movement block to move a sprite towards a clearly visible target. The goal should be directly in the sprite's path to minimize complexity. Introduce this as "keep doing something until something else happens."  
+- **Challenge format:** Coding, highly scaffolded starter project. Provided: sprite positioned directly facing the goal, goal object, and partial script with a simple move block. Students wrap the move in a `repeat until` loop with a pre-selected condition. Auto‑grading checks correct loop type and that the sprite stops on the goal.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
 ### T07.G3.05 – Fix a loop that runs too many or too few times
 
 - **Short name:** Debug the loop count  
-- **Description:** Students inspect a short script where a `repeat` loop makes the sprite act one time too many or too few (e.g., jumping 4 times instead of 3) and adjust the repeat count or the block placement to match the intended behavior.  
-- **Challenge format:** Coding, debugging. Starter project shows expected behavior; students change only the loop count or move blocks into/out of the loop. Auto‑grading checks final behavior and that a `repeat` loop remains in use.  
+- **Description:** Students inspect a simple script where a `repeat` loop makes the sprite do something obviously wrong (e.g., jumping 4 times instead of 3, clearly visible difference). This contextualized debugging skill teaches debugging as a natural part of learning loops. The error should be obvious and the fix straightforward (change one number).  
+- **Challenge format:** Coding, scaffolded debugging. Starter project shows a clear expected behavior description and demo; students identify that the count is wrong and change only the loop count number. Auto‑grading checks final behavior and that a `repeat` loop remains in use.  
 - **CSTA:** E3‑PRO‑TR‑01, E3‑PRO‑PF‑01.
 
 ---
@@ -95,6 +95,13 @@ Grade 4 deepens loop usage with more complex conditions, counters, and refinemen
 - **Description:** Students examine a script where a loop runs too many or too few times, or the counter/condition is incorrect, and modify it to match the intended behavior. They practice reasoning about loop boundaries and conditions.  
 - **Challenge format:** Coding, debugging. A starter project shows expected behavior (e.g., character should jump exactly 3 times), but the given loop makes it jump 4 times or 2 times. Students adjust the loop count or condition. Auto‑grading compares final behavior to a reference solution.  
 - **CSTA:** E4‑PRO‑TR‑01 (testing and refining).
+
+### T07.G4.06 – Trace code that combines a loop and a condition
+
+- **Short name:** Trace loop with condition  
+- **Description:** Students trace a script with a loop that contains an `if` block (e.g., bouncing off edges) to predict behavior after several iterations.  
+- **Challenge format:** Code‑reading or step‑through; auto‑graded by final state.  
+- **CSTA:** E4‑ALG‑AF‑01, E4‑ALG‑PS‑03.
 
 ---
 
@@ -164,6 +171,20 @@ In middle school, loops become part of analyzing and designing general algorithm
 - **Challenge format:** Coding and concept, debugging. Starter projects include one or two scripts that hang. Students adjust conditions or add a `stop this script` or equivalent structure. Auto‑grading checks that the script terminates or behaves as specified under test inputs.  
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
 
+### T07.G6.05 – Trace nested loops with a table of values
+
+- **Short name:** Trace nested loops and variables  
+- **Description:** Students trace code with nested loops and track changes to one or two variables in a table, predicting final values or patterns.  
+- **Challenge format:** Concept, code‑reading item. Show code with two nested loops updating variables; students answer questions like “What is the final value of `sum`?” Auto‑grading uses static analysis or simulation.  
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T07.G6.06 – Trace nested loops that fill a grid pattern
+
+- **Short name:** Trace nested loops for grids  
+- **Description:** Students trace nested loops that draw or fill a 2D grid (e.g., checkerboard), predicting how many cells are filled or what pattern appears.  
+- **Challenge format:** Code‑reading + grid visualization; auto‑graded by predicted pattern.  
+- **CSTA:** MS‑ALG‑AF‑01, MS‑ALG‑PS‑05.
+
 ---
 
 ## Grade 7
@@ -231,3 +252,13 @@ Grade 8 builds toward high school expectations by using loops in more complex lo
 - **Description:** Students analyze given loop‑based solutions (e.g., using `repeat until` vs a counted `repeat` with a condition inside) and justify which structure is more appropriate or reliable for a given task. They articulate reasons using input ranges, stopping conditions, and readability.  
 - **Challenge format:** Concept, explanation plus selection. Items present two loop implementations for the same scenario; students choose the better one and explain their reasoning using sentence stems or structured responses. Auto‑grading scores the choice and key reasoning phrases.  
 - **CSTA:** MS‑PRO‑PF‑01, MS‑ALG‑AF‑02.
+
+---
+
+### Notes on Dependencies and Alignment
+
+**Editor Notes:**
+- K–2 foundations: Conceptual work on everyday repetition and patterns lives in T01 and T04 and is picture‑based/non‑coding. T07 assumes these foundations.
+- G3–5: T07 is a gateway programming topic that follows the progression: fixed-count repeat → trace → build forever → conditional repeat → debug. Each construct is introduced before being combined.
+- G6–8: T07 skills assume solid use of basic loops and focus on analyzing, refactoring, and using loops in algorithms and simulations.
+- This design aligns with CSTA PRO‑PF expectations while keeping skills small, progressive, and CreatiCode‑implementable.
