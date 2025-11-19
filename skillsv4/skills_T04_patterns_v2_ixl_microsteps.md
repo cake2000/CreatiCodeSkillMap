@@ -10,16 +10,6 @@ This v2 version refines the original draft (`skills_T04_patterns.md`) into an **
 - **Uneven density:** Richer in **grades 3–6**, where loops, lists, custom blocks, and template reuse take off; lighter but still meaningful foundations in K–2 and higher‑order analysis and tradeoffs in 7–8.  
 - **Implementability:** Designed for CreatiCode using picture‑based K–2 tasks, code snippets, starter templates, and small refactor or comparison exercises.
 
-## Teacher Guidance & Sequencing
-
-- **K–2:** Use T04 to talk about “patterns” in pictures, movements, and step lists. Keep the student‑facing language on visual repetition and “do it again” rather than loops or counters; T04 K–2 should feel like math/logic pattern work, not coding.  
-- **Grades 3–5:** Treat T04 as the bridge between everyday repetition and formal coding constructs in T07–T09. Within a grade, start with “spot and name” skills, then move to “use/modify,” and end with “debug/compare” for each pattern (loops, counters, accumulators, search/filter).  
-- **Grades 6–8:** Use T04 to help students recognize and optimize patterns in larger games, simulations, and data projects. Pattern‑composition and optimization skills are ideal for short, targeted practice just before or after major project milestones.  
-- **Cross‑topic:** Pair T04 with:
-  - **T07–T09** when teaching loops, conditionals, and variables so students see construct lessons and pattern lessons reinforcing each other.  
-  - **T14–T20** (games/media) and **T17–T18** (physics/3D) when students need to see that the same patterns (e.g., update loops, collision checks) appear in many contexts.  
-  - **T25–T27/T29** (data and text) and **AI topics T21–T24** when highlighting pattern reuse in data processing (counting, filtering, aggregating), which underpins many AI workflows.
-
 IDs follow `T04.G<grade>.<nn>`. v1 IDs are preserved conceptually; new microsteps use higher `<nn>` values.
 
 ---

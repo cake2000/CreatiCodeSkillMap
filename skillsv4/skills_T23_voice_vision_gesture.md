@@ -1,4 +1,4 @@
-# T23 – AI Perception: G6–8 Skill List (Draft v2)
+# T23 – AI Perception: K–8 Skill List (Draft v3)
 
 Topic reference: `T23 AI Perception` in `domains_topics_overview.md`
 Domain: CreatiCode-specific AI (Voice/Vision/Gesture) · CSTA focus: MS-PRO-PF, MS-PRO-DH, MS-PRO-TR, MS-CAS-ET (links to MS-ALG-HD, MS-DAA-DF)
@@ -12,7 +12,141 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** AI Perception focuses on *applied* voice, vision, and gesture pipelines using the CreatiCode AI blocks in `scratch3_ai.js`. Grades 6–8 already know how to architect multi-screen interfaces (T16) and reason about prompting (T22); here they build reliable speech interfaces, pose-controlled gameplay, calibration dashboards, sensor-fusion logic, and equity checks. Theory about how the models work internally is handled elsewhere—T23 is “IXL for shipping microphone/camera features with polish and safeguards.”
+**Role and scope in v3:** AI Perception now includes **concept-only K–5 foundations** plus **applied G6–8 builds**.  
+- **K–5:** Picture-based, unplugged or UI-only activities about sensors, what data they capture, how devices turn sights/sounds into numbers, and why AI perception can err. No coding or block vocabulary in K–2; G3–5 remain light on code (trace/choose).  
+- **G6–8:** Applied voice/vision/gesture builds using CreatiCode AI blocks: robust speech interfaces, pose-controlled gameplay, calibration dashboards, sensor-fusion logic, and equity checks. Theory about internal ML remains minimal; focus stays on reliable, explainable use.
+
+---
+
+## Grade K – Senses Help Helpers (Picture‑Only)
+
+### T23.GK.01 – Match pictures of sensing
+
+- **Short name:** See, hear, or touch?  
+- **Description:** Students drag friendly icons (eye, ear, hand) onto photos showing someone looking, listening, or pressing a big button, building the idea that helpers need different kinds of sensing.  
+- **Challenge format:** Drag‑drop matching with audio support; auto‑graded.
+
+### T23.GK.02 – Point to where a device “looks” or “listens”
+
+- **Short name:** Where does it look or listen?  
+- **Description:** Students tap the camera spot on a tablet and the speaker/mic area on a toy or smart speaker, connecting device parts to senses without naming blocks or code.  
+- **Challenge format:** Picture hotspot; auto‑graded.
+
+### T23.GK.03 – Choose when to uncover or quiet a helper
+
+- **Short name:** Help the helper sense  
+- **Description:** In short comics (covering a camera with a sticker, talking over loud music), students choose the action that lets the helper sense again (move the sticker, make it quieter).  
+- **Challenge format:** Comic-style MCQ with audio; auto‑graded.
+
+---
+
+## Grade 1 – Recognize Sensors and Senses (Picture‑Only)
+
+### T23.G1.01 – Find sensors on everyday devices
+
+- **Short name:** Point to the sensor  
+- **Description:** Students look at pictures of a tablet, camera toy, smart speaker, and game controller and tap where the camera, microphone, and buttons are.  
+- **Challenge format:** Picture hotspot selection with audio prompts; auto‑graded by clicked regions.
+
+### T23.G1.02 – Match sensors to human senses
+
+- **Short name:** Which sense matches?  
+- **Description:** Students drag icons for “see,” “hear,” and “touch” to the matching device sensors (camera, mic, touchpad) to show the parallel between sensors and people.  
+- **Challenge format:** Drag‑drop matching; auto‑graded.
+
+### T23.G1.03 – Choose what a sensor can notice
+
+- **Short name:** What can this sensor tell you?  
+- **Description:** Given pictures (light/dark room, loud music, soft pillow), students pick which things a camera, microphone, or touchpad can notice and which it cannot (e.g., a microphone can’t see color).  
+- **Challenge format:** Multi‑select per sensor; auto‑graded.
+
+---
+
+## Grade 2 – Sensor Choices and Limits (Picture‑Only)
+
+### T23.G2.01 – Pick the right sensor for a job
+
+- **Short name:** Which sensor should we use?  
+- **Description:** Students see short stories (e.g., “turn on light when someone claps,” “open door when tag is tapped”) and choose camera vs microphone vs touch sensor to solve each task.  
+- **Challenge format:** Scenario + MCQ; auto‑graded.
+
+### T23.G2.02 – Spot when sensor data might be unclear
+
+- **Short name:** When might the sensor struggle?  
+- **Description:** Students look at pairs of pictures (bright vs dark room for a camera, quiet vs noisy room for a mic) and pick which one makes it harder for the sensor to understand.  
+- **Challenge format:** Picture pairs; auto‑graded.
+
+### T23.G2.03 – Notice that devices sometimes “guess”
+
+- **Short name:** Does it guess or just follow buttons?  
+- **Description:** Students compare two toys/apps: one reacts only to a button press; another tries to recognize an animal sound. They choose which one is “guessing” from sensor input and which one is just following a direct button command.  
+- **Challenge format:** MCQ with short audio/picture clips; auto‑graded.
+
+---
+
+## Grade 3 – How Devices Turn Sights/Sounds into Data (Concept)
+
+### T23.G3.01 – Describe a picture as a grid of tiny colors
+
+- **Short name:** Pictures become tiny color squares  
+- **Description:** Students view a photo and its pixelated grid side by side and explain that cameras store pictures as small colored squares. They highlight how changing light changes the squares.  
+- **Challenge format:** Drag/label activity on a provided grid and photo; auto‑graded.
+
+### T23.G3.02 – Describe sound as a wavy line of loud/soft
+
+- **Short name:** Sounds become waves  
+- **Description:** Students see a simple waveform for a clap vs a whisper and match which wave is which, noting that microphones turn sound into a line that goes up and down.  
+- **Challenge format:** Matching waveforms to sounds; auto‑graded.
+
+### T23.G3.03 – Tell whether a behavior uses sensing + guessing
+
+- **Short name:** Is this AI-like or just a script?  
+- **Description:** Students read simple stories (e.g., game starts when you press start vs door opens when it “sees” your face) and decide which ones require the device to sense and guess vs ones that follow a fixed button rule.  
+- **Challenge format:** MCQ sorting; auto‑graded.
+
+---
+
+## Grade 4 – Trace and Improve Sensor Capture (UI‑Only)
+
+### T23.G4.01 – Trace how lighting changes pixel data
+
+- **Short name:** Brightness changes the numbers  
+- **Description:** Students use a provided slider UI to dim/brighten a sample image and observe which areas of the pixel grid get darker/brighter, then answer questions about why dark rooms make images harder to read.  
+- **Challenge format:** Interactive slider + questions; auto‑graded from recorded choices.
+
+### T23.G4.02 – Choose a good setup for mic or camera
+
+- **Short name:** Place the sensor wisely  
+- **Description:** Students pick the best camera angle/light or microphone distance for clear input from 3 illustrated options (e.g., backlit vs front-lit, mic close vs far).  
+- **Challenge format:** Picture MCQ; auto‑graded.
+
+### T23.G4.03 – Identify noise and simple fixes
+
+- **Short name:** What is making this messy?  
+- **Description:** Students see examples of blurry images, shaky video, or noisy audio waves and select a simple fix (steady the device, add light, move to a quiet spot) before any coding happens.  
+- **Challenge format:** MCQ/matching; auto‑graded.
+
+---
+
+## Grade 5 – Compare Human vs AI Perception (Concept)
+
+### T23.G5.01 – Compare what people see vs what pixels show
+
+- **Short name:** Human eyes vs pixel grid  
+- **Description:** Students look at a clear photo and its coarse pixel version and explain what detail is lost for the computer but obvious to a person (e.g., small text, faint objects).  
+- **Challenge format:** Short structured response + highlight areas; rubric/auto‑graded checklist.
+
+### T23.G5.02 – Explain why an AI might mis-hear or mis-see
+
+- **Short name:** Why did it get it wrong?  
+- **Description:** Given a mis-recognized word or image (accent, shadowed face), students pick likely causes (background noise, low light, unusual angle) and suggest one fix (move closer, add light).  
+- **Challenge format:** MCQ + select-a-fix; auto‑graded.
+
+### T23.G5.03 – Choose safe ways to handle sensor data
+
+- **Short name:** Keep sensor recordings safe  
+- **Description:** Students choose which actions are safe or risky for camera/mic data (e.g., “keep photos only on device” vs “share raw recordings with strangers”) linking perception to privacy before coding.  
+- **Challenge format:** Sorting safe/risky statements; auto‑graded.
 
 ---
 

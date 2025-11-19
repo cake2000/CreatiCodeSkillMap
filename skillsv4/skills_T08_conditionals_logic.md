@@ -18,64 +18,85 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 3
 
-Grade 3 introduces if/else blocks in loops and basic compound conditions.
+Grade 3 introduces if/else blocks with **single conditions only** plus choosing when combined conditions are needed, without yet writing AND/OR logic from scratch.
 
-### T08.G3.01 – Use if/else in a game or interaction loop
+### T08.G3.01 – Use a simple if in a script
 
-- **Short name:** if/else for game logic  
-- **Description:** Students use if/else blocks inside a `forever` loop to check conditions repeatedly (e.g., "forever: if key pressed move, if touching wall bounce"). This combines loops and conditionals in a game context.  
-- **Challenge format:** Coding, starter project. Provided: a sprite and a partial loop with one if/else inside. Students complete the logic for a simple game (e.g., "move if key pressed, bounce if touching edge"). Auto‑grading checks loop structure, condition accuracy, and behavior over multiple iterations.  
+- **Short name:** Add an if to control behavior  
+- **Description:** Students add a single `if <condition> then ...` block to a short script so that an action only happens when a simple condition is true (e.g., "if touching the goal, say 'Yay!'", or "if key pressed, move"). This is their first direct use of conditionals in code.  
+- **Challenge format:** Coding, starter project. Provided: a sprite and a script that always performs an action. Prompt: "Only do this when the condition is true." Students wrap the action in an `if` block with the correct condition. Auto‑grading checks that the `if` is present, that the condition matches the description, and that behavior changes correctly when the condition is true vs false.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
-### T08.G3.02 – Combine two conditions with AND
+### T08.G3.02 – Decide when a single if is enough
 
-- **Short name:** Use AND to combine conditions  
-- **Description:** Students use a compound condition (AND) to check if two things are true at the same time before acting (e.g., "if key pressed AND touching goal, then complete level"). This introduces boolean logic operators.  
-- **Challenge format:** Coding, starter project. Provided: blocks for two separate conditions. Prompt: "Complete this challenge only if you touch the goal AND collect all coins." Students combine the conditions with AND. Auto‑grading checks correct use of AND operator and behavior.  
-- **CSTA:** E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
-
-### T08.G3.03 – Combine two conditions with OR
-
-- **Short name:** Use OR to combine conditions  
-- **Description:** Students use OR to check if at least one of two conditions is true (e.g., "if score > 100 OR lives == 0, then end game"). This teaches alternative logic pathways.  
-- **Challenge format:** Coding, starter project. Prompt: "End the game if the score is high enough OR if lives run out." Students write or complete an if statement with OR. Auto‑grading verifies correct OR logic and behavior in test cases.  
+- **Short name:** Choose simple vs combined checks  
+- **Description:** Students read short scenarios (e.g., “open the door only when the key is collected” vs “open only if the key is collected AND the timer is below 10”) and choose whether a single condition is sufficient or whether two conditions must be checked together. They do not yet build AND/OR in code; they just classify the need.  
+- **Challenge format:** Concept, MCQ/drag‑drop. Learners sort prompts into “single condition” or “needs combined conditions” and justify why. Auto‑grading checks correct grouping.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
-### T08.G3.04 – Trace code with conditionals and predict result
+### T08.G3.03 – Pick the right conditional block for a scenario
 
-- **Short name:** Trace if/else/AND/OR code  
-- **Description:** Students read code with one or more if/else blocks (including compound conditions) and trace the execution path to predict the final outcome or which branch is taken.  
-- **Challenge format:** Concept, code‑tracing item. Show code with if/else, possibly including AND/OR; give input values; ask "Which message will be displayed?" or "What is the final value?" Auto‑grading checks correctness via simulation.  
+- **Short name:** Match behaviors to if vs if/else  
+- **Description:** Students choose between a one‑sided `if` and a two‑sided `if/else` block for simple scenarios (e.g., “if score > 10, give a prize; otherwise do nothing” vs “if raining wear boots, else wear sneakers”). They focus on selecting, not constructing complex logic.  
+- **Challenge format:** MCQ/matching. Given small stories and block snippets, students pick which block type fits and which branch should hold which action. Auto‑grading checks selections.  
+- **CSTA:** E3‑PRO‑PF‑01.
+
+### T08.G3.04 – Trace code with a single condition and predict result
+
+- **Short name:** Trace simple if/else code  
+- **Description:** Students read code with one simple condition (no AND/OR) and trace which branch runs for given inputs.  
+- **Challenge format:** Concept, code‑tracing item. Show code with one if/else and a single comparison; give input values; ask "Which message will be displayed?" Auto‑grading checks correctness via simulation.  
 - **CSTA:** E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
 
 ---
 
 ## Grade 4
 
-Grade 4 deepens conditional logic with nested if/else, more complex boolean expressions, and conditional refactoring.
+Grade 4 introduces AND/OR coding, includes both trace and build paths, and then moves into state management and refactoring.
 
-### T08.G4.01 – Nest if/else statements
+### T08.G4.01 – Combine two conditions with AND
+
+- **Short name:** Use AND to combine conditions  
+- **Description:** Students use a compound condition (AND) to check if two things are true at the same time before acting (e.g., "if key pressed AND touching goal, then complete level"). This is their first time writing boolean logic operators in code.  
+- **Challenge format:** Coding, starter project. Provided: blocks for two separate conditions. Prompt: "Complete this challenge only if you touch the goal AND collect all coins." Students combine the conditions with AND. Auto‑grading checks correct use of AND operator and behavior.  
+- **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑AF‑01.
+
+### T08.G4.02 – Combine two conditions with OR
+
+- **Short name:** Use OR to combine conditions  
+- **Description:** Students use OR to check if at least one of two conditions is true (e.g., "if score > 100 OR lives == 0, then end game").  
+- **Challenge format:** Coding, starter project. Prompt: "End the game if the score is high enough OR if lives run out." Students write or complete an if statement with OR. Auto‑grading verifies correct OR logic and behavior in test cases.  
+- **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑AF‑01.
+
+### T08.G4.03 – Trace code with compound conditionals
+
+- **Short name:** Trace AND/OR branches  
+- **Description:** Students read code with AND/OR expressions and predict which branch runs for given inputs, building comfort before debugging or refactoring.  
+- **Challenge format:** Concept, code‑tracing item. Show code with AND/OR; give input values; ask "Which message will be displayed?" Auto‑grading checks via simulation.  
+- **CSTA:** E4‑ALG‑AF‑01, E4‑PRO‑PF‑01.
+
+### T08.G4.04 – Nest if/else statements
 
 - **Short name:** Use nested if/else for layered decisions  
 - **Description:** Students write nested if/else blocks where an else branch contains another if (e.g., checking weapon type, then checking ammo level). This models multi-step decision-making.  
 - **Challenge format:** Coding, starter project. Prompt: "If the player presses a button, check what weapon they have. If it's a gun, check if there's ammo. If yes, shoot; if no, say 'no ammo'." Students build the nested structure. Auto‑grading verifies correct nesting and behavior across scenarios.  
 - **CSTA:** E4‑PRO‑PF‑01.
 
-### T08.G4.02 – Convert nested if to cleaner logic
+### T08.G4.05 – Convert nested if to cleaner logic
 
 - **Short name:** Simplify nested if/else  
 - **Description:** Students are given deeply nested or redundant if/else code and refactor it using AND, OR, or else-if to make it cleaner and more readable.  
 - **Challenge format:** Coding, refactor challenge. Starter project contains nested if statements (e.g., 3+ levels). Students rewrite using compound conditions or else-if chains. Auto‑grading checks code structure (cleaner/flatter) and behavior equivalence.  
 - **CSTA:** E4‑PRO‑PF‑01, PRO‑TR.
 
-### T08.G4.03 – Use if to control state changes
+### T08.G4.06 – Use if to control state changes
 
 - **Short name:** Use conditions to manage state  
 - **Description:** Students use conditional logic to manage game states (e.g., "if game over then don't allow movement") or animation states (e.g., "if jumping then use jump costume"). This applies conditionals to tracking program state.  
 - **Challenge format:** Coding, starter project. Provided: a game or animation with a state variable (e.g., `is_jumping`, `game_over`). Students add if checks to prevent or trigger actions based on state. Auto‑grading verifies state management via behavior tests.  
 - **CSTA:** E4‑PRO‑PF‑01.
 
-### T08.G4.04 – Analyze and fix a logic bug
+### T08.G4.07 – Analyze and fix a logic bug
 
 - **Short name:** Find and fix conditional bugs  
 - **Description:** Students debug a script where a condition is incorrect or inverted (e.g., `if score < 10` instead of `if score >= 10`), causing unexpected behavior. They identify and fix the logic error.  
@@ -182,4 +203,3 @@ Grade 8 prepares students for high school and more formal reasoning about logic 
 - **Description:** Students use compound conditions to validate user input (e.g., "age between 13 and 18," "password long enough and contains a number") and prevent invalid states.  
 - **Challenge format:** Coding, starter project. Prompt: "Only accept a username if it is 3–10 characters and contains no spaces." Auto‑grading checks validation behavior.  
 - **CSTA:** MS‑PRO‑PF‑01, MS‑PRO‑TR‑11.
-

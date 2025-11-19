@@ -12,7 +12,35 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** T21 now starts in Grade 6, when students already know how to stage multi-screen experiences (T16 widgets) and want AI to accelerate asset production. The topic focuses on *applying* generative media tools (image, sound, narration) inside real CreatiCode apps: planning asset kits, writing layered prompts, wiring prompt inputs to the DALL-E blocks, iterating when results fail, shipping polished experience, and documenting ethical guardrails. Theory about how diffusion works lives elsewhere—T21 is “IXL for shipping AI-powered media workflows.”
+**Role and scope in v3:** T21 now includes **concept-only Grade 3–5** skills plus **applied Grade 6–8** workflows.  
+- G3–5: Picture-/UI-only microsteps that show AI media as a helper, compare AI vs non-AI outputs, and practice safe prompts without touching parameters.  
+- G6–8: Applying generative tools in CreatiCode apps: planning asset kits, writing layered prompts, wiring prompt inputs to the DALL-E blocks, iterating when results fail, shipping polished experiences, and documenting ethical guardrails. Theory about diffusion stays elsewhere—T21 is “IXL for shipping AI-powered media workflows.”  
+- _AI4K12:_ Humans & AI; Machine Learning (media); Ethical AI Design.
+
+---
+
+## Grade 3–5 (concept-only, no coding)
+
+### T21.G3.01 – Tell whether media was AI-generated or recorded
+
+- **Short name:** Spot AI vs real photos/sounds  
+- **Description:** Students compare pairs of images or short sounds (one AI-generated, one recorded) and pick which seems AI-made, explaining clues (odd shadows, repeated textures, robotic voice tone).  
+- **Challenge format:** Picture/audio MCQ with short justification; auto-graded.  
+- **AI4K12:** A1 Humans & AI; C1 Representation.
+
+### T21.G4.01 – Choose safe and specific prompts for images
+
+- **Short name:** Improve a vague art request  
+- **Description:** Given a vague or risky image request (“make a person” or “draw my house address”), students rewrite it to be specific, safe, and privacy-friendly (e.g., “Draw a friendly robot in a park, daytime”).  
+- **Challenge format:** Prompt rewrite + checklist; auto-graded for safety and specificity.  
+- **AI4K12:** D1 Ethical AI Design; A3 Human role.
+
+### T21.G5.01 – Plan which assets should be AI-made vs hand-made
+
+- **Short name:** Pick AI vs handmade for a project kit  
+- **Description:** Students see a simple app pitch (storybook, quiz) and choose which assets to request from AI (e.g., varied backdrops) and which to make by hand (e.g., main character for consistent look), noting one reason for each choice.  
+- **Challenge format:** Drag to AI vs Hand bins + short rationale; auto-graded.  
+- **AI4K12:** A2 Capabilities & Limits; E1 Societal Impacts.
 
 ---
 

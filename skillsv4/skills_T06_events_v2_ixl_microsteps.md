@@ -30,22 +30,26 @@ _Format:_ Coding; auto‑graded by behavior when pressing the key. · _CSTA:_ E3
 
 ### 3‑B: Coordinate events and sequences
 
-**T06.G3.03 – Decide which event type to use for a behavior**  
+**T06.G3.03 – Match code snippets to the event that triggers them**  
+Students read several tiny scripts with different event hats (green flag, key, sprite click) and match them to descriptions of when they will run.  
+_Format:_ Code‑reading + matching; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01.
+
+**T06.G3.04 – Decide which event type to use for a behavior**  
 Students choose between green flag, key press, and sprite‑click events for simple tasks (“start game,” “jump,” “open door”).  
 _Format:_ Scenario + MCQ; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01.
 
-**T06.G3.04 – Trace a project with two events and predict outputs**  
+**T06.G3.05 – Trace a project with two events and predict outputs**  
 Students see a program with green‑flag and key‑press scripts, then answer what happens if you only click green flag, only press key, and do both.  
 _Format:_ Code‑reading + multiple questions; auto‑graded. · _CSTA:_ E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
 
 ### 3‑C: Debug simple event issues
 
-**T06.G3.05 – Fix a script that is missing an event block**  
+**T06.G3.06 – Fix a script that is missing an event block**  
 Students correct a script that has the right actions but no event head by adding the appropriate event block.  
 _Format:_ Coding fix; auto‑graded by presence and behavior. · _CSTA:_ E3‑PRO‑PF‑01, E3‑PRO‑TR‑02.
 
-**T06.G3.06 – Fix a behavior that runs at the wrong time**  
-Students adjust which event triggers a script (e.g., move from green flag to key press) to match a story description.  
+**T06.G3.07 – Fix a behavior that runs at the wrong time**  
+Students adjust which event triggers a script (e.g., swap `when flag clicked` to `when key pressed`) to match a story description before tackling longer multi‑script bugs.  
 _Format:_ Edit event block; auto‑graded by observed behavior. · _CSTA:_ E3‑PRO‑PF‑01, E3‑PRO‑TR‑02.
 
 ---

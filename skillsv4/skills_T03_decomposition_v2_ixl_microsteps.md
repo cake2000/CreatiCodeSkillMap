@@ -10,17 +10,6 @@ This v2 version upgrades the original draft (`skills_T03_decomposition.md`) into
 - **Uneven density:** Heaviest coverage in **grades 3–6**, where students begin independent coding projects and need explicit scaffolds for planning and decomposition.  
 - **Implementability:** All skills can be implemented with picture‑based K–2 activities, CreatiCode starter projects, block‑based coding, and simple planning UIs (lists of subproblems, checklists, drag‑drop grouping, etc.).
 
-## Teacher Guidance & Sequencing
-
-- **K–2:** Use T03 alongside T01/T02 to talk about “parts” and “steps” in everyday contexts. Keep prompts concrete and visual (objects, scenes, short routines), and avoid formal project‑management language with students.  
-- **Grades 3–5:** Treat T03 as the planning companion for early coding topics (T06–T13) and application topics (T14–T20). Within a grade, start with identifying features and subtasks, then move to ordering tasks, assigning owners, and updating plans after feedback.  
-- **Grades 6–8:** Use T03 to support larger projects and competitions: architecture sketches, milestones, risk/scope tradeoffs, and refactoring plans. XO‑related skills (`T03.G6.05`, `T03.G8.02`) can be framed as “AI‑assisted planning” where students *critically select and edit* AI suggestions.  
-- **Cross‑topic:** Pair T03 with:
-  - **T01/T02** when turning algorithms and diagrams into project tasks.  
-  - **T05** when emphasizing user needs, accessibility, and simulation design.  
-  - **T25–T27** when planning data‑heavy projects that require explicit decisions about what to collect and analyze.  
-  - **T21–T24/T35–T36** when planning or critiquing AI‑related projects that need clear decomposition and documentation.
-
 IDs follow `T03.G<grade>.<nn>`. v1 IDs are preserved conceptually; additional microsteps use higher `<nn>` values and can be wired into the JSON maps in a later data pass.
 
 ---

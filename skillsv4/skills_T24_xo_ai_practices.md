@@ -12,7 +12,8 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** XO is CreatiCode’s built-in AI teammate and the quickest way for students to brainstorm, plan, debug, and fact-check their own projects. T24 starts in Grade 5, when students can read multi-sentence answers and follow instructions. The topic also covers CreatiCode’s AI image generator/search blocks because planning conversations often flow directly into asset creation. Focus is on *prompt craftsmanship, verification, and ethical guardrails*—students learn how to describe intent clearly, cross-check XO’s suggestions, document prompt/result logs, and decide when to rely on AI versus their own reasoning. Theory about how LLMs or diffusion models work lives elsewhere; here we deliver “IXL-style reps” for using XO and image tools effectively inside real coding workflows.
+**Role and scope in v3:** XO is CreatiCode’s built-in AI teammate and the quickest way for students to brainstorm, plan, debug, and fact-check their own projects. T24 starts in Grade 5, when students can read multi-sentence answers and follow instructions. The topic also covers CreatiCode’s AI image generator/search blocks because planning conversations often flow directly into asset creation. Focus is on *prompt craftsmanship, verification, and ethical guardrails*—students learn how to describe intent clearly, cross-check XO’s suggestions, document prompt/result logs, and decide when to rely on AI versus their own reasoning. Theory about how LLMs or diffusion models work lives elsewhere; here we deliver “IXL-style reps” for using XO and image tools effectively inside real coding workflows.  
+- _AI4K12:_ Humans & AI; Ethical AI Design; Societal Impacts.
 
 ---
 
@@ -46,6 +47,13 @@ Grade 5 introduces XO as a reading-heavy helper. Students learn the interface, p
 - **Short name:** Search/generate sprites with prompts from XO
 - **Description:** Students take XO’s narrative description (e.g., “Journey of a Waterdrop” scene) and convert it into AI image search/generation prompts for backdrops and sprites. They compare options and justify why each asset matches the plan.
 - **Challenge format:** Coding + curation. Learners paste XO’s text into the “search for AI image” block, generate at least two candidates, screenshot the results, and rate them on a rubric (clarity, transparency, scale). Auto-grading checks that prompts include subject + style descriptors and that chosen assets are tagged with rationale statements.
+- **CSTA:** E5-PRO-PM-04, CAS-ET-02.
+
+### T24.G5.05 – Reject unsafe or off-spec XO suggestions
+
+- **Short name:** Spot and refuse risky answers  
+- **Description:** Students review an XO reply that includes off-task, private, or non-compliant steps (e.g., “ask a friend for their password,” “skip testing”) and practice declining it. They write a replacement step that follows the rubric/spec and log why the original was rejected.  
+- **Challenge format:** Concept + checklist. Provided XO transcript with 2–3 issues. Learners highlight risky lines, write a corrected step, and tick a safety checklist (no private data, follows requirements). Auto-grading checks that flagged issues match the transcript and that a replacement step is provided.  
 - **CSTA:** E5-PRO-PM-04, CAS-ET-02.
 
 ---
@@ -88,6 +96,13 @@ Grade 6 students use XO for debugging, quizzes, and iteration. They learn to pro
 - **Description:** Students keep a table (date, tool, prompt, result quality, action taken). They review the log weekly to spot patterns (e.g., “long prompts give better responses”). This builds metacognitive habits.
 - **Challenge format:** Concept + data. Provided template includes 10 rows. Students fill at least five entries, categorize outcome quality, and write one insight. Auto-grading verifies entries have all fields and that the insight references log data.
 - **CSTA:** MS-PRO-PM-03, MS-DAA-DF-02.
+
+### T24.G6.06 – Label risky prompts and rewrite them safely
+
+- **Short name:** Fix risky XO requests  
+- **Description:** Students examine sample prompts that leak private info, copy code wholesale, or ask XO to skip grading criteria. They classify each as “safe” or “risky,” then rewrite risky ones to remove private data and align to the rubric while keeping the learning goal.  
+- **Challenge format:** Concept + rewrite. Learners drag prompts into Safe/Risky bins, then edit the risky prompts inline (e.g., replace “copy the whole answer” with “explain how to start” and remove names). Auto-grading checks bin placement and that rewrites eliminate the risk phrases.  
+- **CSTA:** MS-CAS-ET-06, MS-PRO-PM-03.
 
 ---
 

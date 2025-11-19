@@ -12,70 +12,7 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** T10 focuses on how collections of data are organized and manipulated *inside programs* using lists and tables. Grade 1–2 skills stay picture‑based and non‑coding, building everyday intuitions about ordered collections, checklists, and simple row/column structures (treated as *data* rather than as project plans). Grades 3–5 connect those ideas to CreatiCode list/table variables in small projects (leaderboards, game inventories, survey tables), and Grades 6–8 extend to realistic datasets, joins, simulations, and data‑driven apps. T01/T03/T12 handle everyday routines, project plans, and sectioning of steps; T25 covers the *meaning and type* of the data (numbers vs categories vs text), while T26/T27 focus on data collection and analysis. T10 is specifically about the data *structures* that hold that information and the patterns for reading, updating, and aggregating it in code.
-
----
-
-## Grade 1
-
-Grade 1 extends sequence awareness and introduces the notion of "a list of things to do" or simple inventories, still primarily through concrete, picture‑based examples that could also be done with paper cards.
-
-### T10.G1.01 – Record items in a shopping list or checklist
-
-- **Short name:** Write down a list of items
-- **Description:** Students create a simple list (e.g., "things to buy for a class party," "items to pack for a trip") in a structured way, recognizing that a list is a collection of entries in a chosen order that can later be checked off or updated.
-- **Challenge format:** Concept, guided list‑building activity. A CreatiCode activity (or paper version) shows a blank checklist; students drag fun picture cards (snacks, decorations, toys) or type words into 3–4 slots, one item per line. Auto‑grading checks that at least the required number of items are recorded and formatted consistently.
-- **CSTA:** E1‑DAA‑DF‑01 (understanding different data types and collections).
-
-### T10.G1.02 – Arrange items in order (sorting)
-
-- **Short name:** Put items in order
-- **Description:** Students take a scrambled list or set of items and reorder them by a rule (e.g., alphabetically, by size, by date) and explain the ordering criterion.
-- **Challenge format:** Concept, drag-to-order or multiple choice. CreatiCode displays items (pictures or text) out of order; students drag them into the correct sequence or select the correctly ordered list. Auto‑grading validates the order against the specified criterion.
-- **CSTA:** E1‑DAA‑DF‑01, E1‑DAA‑DP (early data organization).
-
-### T10.G1.03 – Find an item in a list
-
-- **Short name:** Look for an item in a list
-- **Description:** Students are given a list and search for a specific item (e.g., "Find 'apple' in the shopping list") or count how many times it appears, building the idea of querying or searching a collection.
-- **Challenge format:** Concept, search task. CreatiCode displays a short list (e.g., grocery items, names); students identify the position or count occurrences of a target item. Auto‑grading checks the answer against the list.
-- **CSTA:** E1‑DAA‑DI‑02 (data investigation and pattern recognition).
-
----
-
-## Grade 2
-
-Grade 2 deepens students’ understanding of lists as ordered collections that can change over time, using picture‑based checklists and simple row/column layouts. Activities stay non‑coding but set up the idea of positions in a list and editing entries, which Grade 3 will later automate with blocks.
-
-### T10.G2.01 – Create and add items to a list
-
-- **Short name:** Build a picture list of items
-- **Description:** Students assemble a list of related items (e.g., snacks for a picnic, things to pack for a trip) by dragging picture cards into a vertical list area, noticing that new items can be added at the top or bottom without changing the items already there.
-- **Challenge format:** Concept, interactive list builder. A CreatiCode activity (or paper card set) shows a bin of item cards and a 5‑slot list. Students drag required items into the list following a simple rule (e.g., "at least one drink, one snack, one toy"). Auto‑grading checks that required items are present and that each slot holds at most one item.
-- **CSTA:** E2‑DAA‑DF‑01 (collecting and organizing data).
-
-### T10.G2.02 – Access and describe items by position in a list
-
-- **Short name:** Find an item by its position
-- **Description:** Students connect position numbers (1st, 2nd, 3rd, etc.) to entries in a list, such as "the 2nd job on the chore list" or "the 4th friend in line," reinforcing that list items live in numbered slots.
-- **Challenge format:** Concept, picture‑based reading task. A numbered list of pictures is shown; prompts ask questions like "What is in spot 3?" or "In which spot is the soccer ball?" Students click or drag an answer. Auto‑grading checks the chosen item or position.
-- **CSTA:** E2‑DAA‑DP (data retrieval from an ordered collection).
-
-### T10.G2.03 – Remove or replace items in a list
-
-- **Short name:** Cross out or change list items
-- **Description:** Students edit an existing list by crossing out items that are no longer needed or replacing them with new ones (e.g., changing "milk" to "juice"), seeing that the remaining items stay in order and may slide up to fill gaps.
-- **Challenge format:** Concept, interactive editing task. A shopping or chore list is shown along with instructions like "Cross out 'milk' and add 'oranges' at the end." Students tap items to cross them out and drag new picture cards into empty slots. Auto‑grading checks the final contents and ordering of the list.
-- **CSTA:** E2‑DAA‑DP (modifying organized data).
-
-### T10.G2.04 – Check whether a list contains an item
-
-- **Short name:** Is this item on the list?
-- **Description:** Students decide whether a particular item appears anywhere in a list and answer yes/no or sort cards into "on the list" vs "not on the list," preparing for membership tests in code later.
-- **Challenge format:** Concept, yes/no or sorting task. Show a list and a set of candidate items; students click "yes" or "no" for each, or drag each card into the correct bin. Auto‑grading checks membership decisions against the list.
-- **CSTA:** E2‑DAA‑DI‑02 (investigating data with simple queries).
-
----
+**Role and scope in v3:** T10 focuses on how collections of data are organized and manipulated *inside programs* using lists and tables. Per the v2 spec and [P5], **K–2 representations live in T25** (picture tables, tallies, legends). T10 begins at **Grade 3** with code‑based list/table constructs and depends on T25/T26/T27 for meaning, collection, and analysis. Grades 3–5 connect prior K–2 data meaning to CreatiCode list/table variables in small projects (leaderboards, inventories, survey tables), and Grades 6–8 extend to realistic datasets, joins, simulations, and data‑driven apps. T01/T03/T12 handle routines and project plans; T10 is specifically about the data *structures* that hold information and the patterns for reading, updating, and aggregating it in code.
 
 ## Grade 3
 

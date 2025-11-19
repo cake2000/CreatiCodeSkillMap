@@ -12,7 +12,35 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** Chatbot work now begins in Grade 6, when students already know how to build multi-screen UIs (T16) and need to treat LLMs as programmable teammates. T22 emphasizes *application* skills: designing prompt flows, wiring CreatiCode’s ChatGPT block, capturing user intent via widgets, logging conversations, enforcing guardrails, and layering retrieval/tools for reliable answers. Theory about machine learning happens in other topics; here we practice the day-to-day craft of building “IXL for prompting.”
+**Role and scope in v3:** T22 now includes **concept-only Grade 3–5** chat/AI helper skills plus **applied Grade 6–8** prompting workflows.  
+- G3–5: Identify chatbot behavior vs fixed scripts, practice polite/safe prompts, and classify risky vs good questions without touching parameters.  
+- G6–8: Design prompt flows, wire CreatiCode’s ChatGPT block, capture user intent via widgets, log conversations, enforce guardrails, and layer retrieval/tools for reliable answers. Theory about machine learning lives elsewhere—this topic is the day-to-day craft of prompting.  
+- _AI4K12:_ Humans & AI; Machine Learning (language); Ethical AI Design; Societal Impacts.
+
+---
+
+## Grade 3–5 (concept-only, no coding)
+
+### T22.G3.01 – Tell chatbot behavior from fixed button replies
+
+- **Short name:** Chatbot or fixed script?  
+- **Description:** Students read short app stories (one with fixed replies, one with AI that sometimes makes mistakes) and sort them into “chatbot guesses answers” vs “fixed menu responses,” explaining why.  
+- **Challenge format:** Scenario sorting + justification; auto-graded.  
+- **AI4K12:** A1 Humans & AI.
+
+### T22.G4.01 – Write clear, polite questions for a helper bot
+
+- **Short name:** Make a good request  
+- **Description:** Students improve a vague or rude request (“Tell me everything now!!!”) into a clear, focused question with context and tone, suitable for a helper bot.  
+- **Challenge format:** Prompt rewrite checklist; auto-graded for clarity/tone.  
+- **AI4K12:** A3 Human role; D1 Ethical Design.
+
+### T22.G5.01 – Flag risky vs safe chatbot prompts
+
+- **Short name:** Which questions are okay to ask?  
+- **Description:** Students classify prompts that leak private info or ask for cheating vs safe learning questions, and rewrite one risky prompt to be safe.  
+- **Challenge format:** Drag to Safe/Risky + rewrite; auto-graded.  
+- **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ---
 

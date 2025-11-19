@@ -12,7 +12,8 @@ Each skill below has:
 
 Where relevant, a primary **CSTA code** is noted.
 
-**Role and scope in v3:** Probability concepts are abstract, so T28 now begins in **Grade 2** with unplugged, picture-based intuition before introducing any code. Grades 2–3 focus on vocabulary (certain/possible/impossible), physical experiments, and interpreting provided CreatiCode simulations. Starting in **Grade 4**, students leverage list/loop skills from **T10 (Programming Data Structures)** to build their own random generators, log outcomes, and compare them to expectations. Later grades connect simulations to project tuning (games, AI fairness checks) and ethical decision-making per AI4K12 priorities. Every coding skill that records data explicitly depends on earlier T25–T27 skills for representation, collection, and analysis.
+**Role and scope in v3:** Probability concepts are abstract, so T28 now begins in **Grade 2** with unplugged, picture-based intuition before introducing any code. Grades 2–3 focus on vocabulary (certain/possible/impossible), physical experiments, and interpreting provided CreatiCode simulations. Starting in **Grade 4**, students leverage list/loop skills from **T10 (Programming Data Structures)** to build their own random generators, log outcomes, and compare them to expectations. Later grades connect simulations to project tuning (games, AI fairness checks) and ethical decision-making per AI4K12 priorities. Every coding skill that records data explicitly depends on earlier T25–T27 skills for representation, collection, and analysis.  
+- _AI4K12:_ Machine Learning (A&E, Representation), Humans & AI, Ethical AI Design.
 
 ---
 
@@ -173,6 +174,13 @@ Where relevant, a primary **CSTA code** is noted.
 - **Description:** Learners generate random-but-bounded pose or voice data to test AI perception logic when a live camera/mic isn’t available.
 - **Challenge format:** Coding. Auto-grading ensures values stay in valid ranges and trigger expected branches.
 - **CSTA:** MS‑PRO‑PF‑02, CAS‑ET‑07.
+
+### T28.G6.05 – Model an agent, its environment, and reward rules
+
+- **Short name:** Define an agent in a grid world  
+- **Description:** Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules (“if front is clear, move; else turn right”) and log states/rewards over 20 steps, highlighting how environment design affects behavior.  
+- **Challenge format:** Coding + logging. Provided: starter grid and move/turn blocks. Students script the agent policy, track position and reward in lists, and answer a prompt about how changing walls/goal alters paths. Auto-grading checks that state logs are recorded each step and that rewards align to the defined rule.  
+- **CSTA:** MS‑ALG‑AF‑01, AI4K12 “Agents & Environments.”
 
 ---
 

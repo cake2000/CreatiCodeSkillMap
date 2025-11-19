@@ -23,6 +23,8 @@ Design commitments:
   pinball tables, slingshot puzzles, or platformers.
 - **Explicit dependencies:** Grade introductions and skill blurbs reference prerequisite topics so pathway tools can wire
   T17 nodes before 2D Games (T14) and 3D Worlds (T18).
+- **Planning bridge:** Simulation goals, measurements, and fairness checks are planned in **T05 Human‑Centered Design**
+  (e.g., T05.G3/T05.G5). T17 focuses on **implementation and debugging** of those plans rather than re-teaching planning.
 
 ---
 

@@ -14,6 +14,7 @@ The topic strands cover all CreatiCode 3D block families:
 - **3D effects:** fog, glow, particles, and UI overlays that reinforce mood or feedback.
 
 Grade 3 is the on-ramp to 3D blocks after students complete core programming topics (T01–T09); Grade 5+ assumes familiarity with T17 physics decision-making before enabling 3D rigid bodies.
+- **Planning bridge:** User needs, accessibility, and simulation goals are planned in **T05 Human‑Centered Design**; T18 focuses on implementing and debugging 3D behaviors from those plans.
 
 ---
 

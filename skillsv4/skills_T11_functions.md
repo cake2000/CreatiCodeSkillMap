@@ -52,28 +52,37 @@ Grade 3 gently introduces the idea of helper blocks and functions by **reading a
 
 ## Grade 4
 
-Grade 4 strengthens students’ ability to **read and use** helper procedures and reporter functions in CreatiCode, and to reason about how they organize behavior, still without defining new helpers themselves.
+Grade 4 shifts from only reading helpers to **defining and calling simple parameterless helpers**, then classifying action vs reporter blocks and tracing how calls work.
 
-### T11.G4.01 – Distinguish action blocks from reporter functions
+### T11.G4.01 – Define and call a simple helper (no parameters)
+
+- **Short name:** Make a one-click helper block  
+- **Description:** Students create a custom block with no inputs (e.g., “ResetPlayer”) that wraps 3–5 blocks, define it, and call it from a main script to compare before/after organization.  
+- **Challenge format:** Coding, starter project. Provided: a script with setup actions repeated twice. Students create a custom block, move the setup actions into it, and call it from both places. Auto‑grading checks that the block exists, contains the actions, and both call sites remain.  
+- **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑PS‑03.
+
+### T11.G4.02 – Distinguish action blocks from reporter functions
 
 - **Short name:** Tell actions from value‑returning blocks
 - **Description:** Students learn to recognize which blocks **do something** (procedure‑style stack blocks) and which blocks **return a value** (reporter functions) in CreatiCode, and to predict where each type belongs in a script (stack vs inside conditions/expressions).
 - **Challenge format:** Concept, code‑reading and classification. Provide a mix of blocks (e.g., `move 10 steps`, `play sound [pop]`, `distance to [sprite]`, `random [1] to [10]`, and a pre‑made custom reporter). Students sort them into "action" vs "returns a value" and identify where they can be used. Auto‑grading checks classifications and placement.
 - **CSTA:** E4‑PRO‑PF‑01 (Analyze code behavior), E4‑PRO‑DH‑02.
 
+### T11.G4.03 – Use a block's result in a calculation
+
 - **Short name:** Use a block's result in a calculation
 - **Description:** Students call built‑in or pre‑made reporter functions and use their returned values directly in conditions or arithmetic (e.g., `if <distance to [sprite] < 50>`, `set x to [random 1 to 10] + 5`).
 - **Challenge format:** Coding, guided construction. Provided: starter scripts with holes where a reporter should go. Prompt: "Use a reporter block to decide if the player is close to the goal" or "Use a reporter to set a variable to a random starting value." Auto‑grading checks correct reporter usage and resulting behavior.
 - **CSTA:** E4‑PRO‑PF‑01, E4‑PRO‑DH‑02 (Trace how data flows through a program).
 
-### T11.G4.03 – Describe what each helper does in a script
+### T11.G4.04 – Describe what each helper does in a script
 
 - **Short name:** Explain helper roles in code
 - **Description:** Students read a script that uses several helpers (procedures and reporter functions) and explain, in everyday language, what each helper does and how they fit together (setup vs game loop vs scoring).
 - **Challenge format:** Concept, code‑reading and explanation. Provide a small project that uses 3–4 named helpers. Students match each helper to a description ("gets player input," "checks if player won," "calculates distance") or write short sentences using scaffolds. Auto‑grading checks matches and key phrases.
 - **CSTA:** E4‑PRO‑PM‑05, E4‑ALG‑PS‑03.
 
-### T11.G4.04 – Trace through a script with helpers and reporters
+### T11.G4.05 – Trace through a script with helpers and reporters
 
 - **Short name:** Follow program flow with helper calls
 - **Description:** Students read a script that calls helper procedures and reporter functions and trace through the execution to predict final outputs, reinforcing a mental model of calls and returns.
@@ -84,7 +93,7 @@ Grade 4 strengthens students’ ability to **read and use** helper procedures an
 
 ## Grade 5
 
-Grade 5 deepens students’ understanding of **why** helper procedures and functions are useful in larger projects and how to use existing ones effectively. They still primarily read, use, and reason about helpers rather than designing full interfaces from scratch.
+Grade 5 deepens students’ understanding of **why** helper procedures and functions are useful and introduces **defining simple parameterized helpers** while still providing scaffolds.
 
 ### T11.G5.01 – Identify subproblems that deserve their own helper
 
@@ -93,12 +102,12 @@ Grade 5 deepens students’ understanding of **why** helper procedures and funct
 - **Challenge format:** Concept + code‑reading. Provided: a game script plus a list of possible helper names. Students highlight code regions and match them to helper names that would make sense. Auto‑grading checks region/name pairings.
 - **CSTA:** E5‑PRO‑PF‑01 (Develop code from student‑created algorithms), E5‑ALG‑PS‑03 (Analyze algorithms).
 
-### T11.G5.02 – Use provided helpers to simplify a script
+### T11.G5.02 – Define a simple helper with one parameter
 
-- **Short name:** Replace repeated code with calls
-- **Description:** Students take a script that has repeated code segments and a set of pre‑defined helper procedures/functions that already encapsulate those behaviors. They simplify the script by replacing repeated segments with calls to the appropriate helpers.
-- **Challenge format:** Coding, refactor with given helpers. Provided: a project with helper blocks already defined (e.g., `ResetPlayer`, `ShowGameOver`, `CalculateScore`) and a main script with duplicate code. Students remove duplicates and insert helper calls instead. Auto‑grading checks that helpers are used and overall behavior is preserved.
-- **CSTA:** E5‑PRO‑PF‑01, E5‑ALG‑PS‑03 (Analyze and improve algorithms).
+- **Short name:** Add one input to make a helper flexible  
+- **Description:** Students create or edit a custom block to take one parameter (e.g., `DrawRectangle [size]` or `SpawnEnemy [speed]`) and replace hard‑coded values with the parameter. They call it with different arguments to show reuse.  
+- **Challenge format:** Coding, guided build. Starter project has a parameterless helper and repeated code. Students add one input, update the block body to use it, and call it with at least two values. Auto‑grading checks parameter definition, usage inside the block, and multiple distinct calls.  
+- **CSTA:** E5‑PRO‑PF‑01, E5‑ALG‑PS‑03.
 
 ### T11.G5.03 – Decide between a parameter and a call to a separate block
 

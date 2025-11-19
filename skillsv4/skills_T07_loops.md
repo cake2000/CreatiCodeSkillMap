@@ -18,35 +18,42 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 3
 
-Grade 3 introduces loops combined with events, conditions, and simple nested structures.
+Grade 3 introduces loops in a very small ladder: fixed-count repeat → trace → forever game loop → repeat until for goals → debugging a single mistake.
 
-### T07.G3.01 – Use repeat‑until to reach a goal
+### T07.G3.01 – Use a counted repeat loop
+
+- **Short name:** Repeat N times for a task  
+- **Description:** Students use a `repeat N` loop to run a short sequence a specific number of times (e.g., make a sprite jump exactly 3 times, or draw 4 sides of a square), instead of copy‑pasting the same blocks. This is the first explicit fixed‑count loop.  
+- **Challenge format:** Coding, starter project. Provided: a script with several identical blocks in a row (such as `jump` or `move 10` repeated 3 or 4 times). Students replace the repeated blocks with a `repeat` loop that has the correct count and body. Auto‑grading checks that a `repeat` loop is present, that the count matches the intended behavior, and that the final behavior matches a reference solution.  
+- **CSTA:** E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
+
+### T07.G3.02 – Trace a script with a simple loop
+
+- **Short name:** Trace a repeat loop and count actions  
+- **Description:** Students read a short script with a single `repeat` loop and predict how many times an action (like stamping or moving) occurs or where a sprite ends up after the loop finishes. This builds comfort with “do this N times” semantics before nested loops.  
+- **Challenge format:** Concept, code‑reading item. Show a script such as `set x to 0; repeat 4 { change x by 5 }` or `repeat 3 { stamp }` and ask “What is x at the end?” or “How many stamps will you see?” Auto‑grading compares answers to the loop count and step size or to simulation.  
+- **CSTA:** E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
+
+### T07.G3.03 – Trace a forever loop that keeps controls running
+
+- **Short name:** Read a forever loop  
+- **Description:** Students read code with a `forever` loop that checks keys each frame and explain why the sprite keeps moving smoothly while the loop runs. They predict what happens when the loop stops or when keys change.  
+- **Challenge format:** Code‑reading with scenarios; auto‑graded by multiple questions on behavior.  
+- **CSTA:** E3‑PRO‑PF‑01.
+
+### T07.G3.04 – Use repeat‑until to reach a goal
 
 - **Short name:** Repeat until you reach the flag  
 - **Description:** Students use a `repeat until <touching goal>` loop to move a sprite towards a target (e.g., a flag or color stripe), so that the sprite stops exactly when the condition becomes true rather than after a fixed number of steps.  
 - **Challenge format:** Coding, starter project. Provided: sprite, goal object, and partial script with a move block. Students wrap the move in a `repeat until` loop with the appropriate condition. Auto‑grading checks (1) correct loop type, (2) appropriate condition, and (3) that the sprite stops on the goal across multiple starting positions.  
 - **CSTA:** E3‑PRO‑PF‑01.
 
-### T07.G3.02 – Create a forever game loop for controls
+### T07.G3.05 – Fix a loop that runs too many or too few times
 
-- **Short name:** Forever loop for player controls  
-- **Description:** Students implement a `forever` loop that continuously checks keyboard input and moves the sprite accordingly, instead of responding only once. This is often the first exposure to a persistent game loop.  
-- **Challenge format:** Coding, starter project. Provided: a sprite and `if key pressed` blocks outside any loop. Students put these inside a `forever` loop triggered by `when green flag clicked`. Auto‑grading runs the project and checks that holding or repeatedly pressing keys moves the sprite smoothly and that no duplicate code exists outside the loop.  
-- **CSTA:** E3‑PRO‑PF‑01.
-
-### T07.G3.03 – Nested loops for rows or simple grids
-
-- **Short name:** Use nested loops for patterns  
-- **Description:** Students use a loop inside a loop to make patterns such as a row of stamps repeated multiple times (e.g., a 3×4 grid). They learn that nested loops multiply the number of repetitions.  
-- **Challenge format:** Coding, starter project with pen or stamping. Prompt: “Make 3 rows of 4 stars each.” Students implement an outer loop for rows and an inner loop for stars in a row, including movement resets. Auto‑grading inspects the code structure (two loops with correct counts) and checks the final stage pattern.  
-- **CSTA:** E3‑PRO‑PF‑01, E3‑ALG‑AF‑01.
-
-### T07.G3.04 – Trace a script with nested loops
-
-- **Short name:** Trace nested loops and count actions  
-- **Description:** Students read a short script with nested loops and predict how many times an action (like stamping) occurs or how many items appear. This reinforces multiplicative reasoning with loops.  
-- **Challenge format:** Concept, code‑reading item. Show nested loops such as `repeat 3 { repeat 2 { stamp } }` and ask “How many stamps will you see?” Auto‑grading compares answer to the product of the loop counts or to simulation.  
-- **CSTA:** E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
+- **Short name:** Debug the loop count  
+- **Description:** Students inspect a short script where a `repeat` loop makes the sprite act one time too many or too few (e.g., jumping 4 times instead of 3) and adjust the repeat count or the block placement to match the intended behavior.  
+- **Challenge format:** Coding, debugging. Starter project shows expected behavior; students change only the loop count or move blocks into/out of the loop. Auto‑grading checks final behavior and that a `repeat` loop remains in use.  
+- **CSTA:** E3‑PRO‑TR‑01, E3‑PRO‑PF‑01.
 
 ---
 
@@ -54,28 +61,35 @@ Grade 3 introduces loops combined with events, conditions, and simple nested str
 
 Grade 4 deepens loop usage with more complex conditions, counters, and refinement of existing loop code.
 
-### T07.G4.01 – Loop with a condition inside
+### T07.G4.01 – Create a forever game loop for controls
+
+- **Short name:** Forever loop for player controls  
+- **Description:** Students implement a `forever` loop that continuously checks keyboard input and moves the sprite accordingly, instead of responding only once. This is the first time they build a persistent game loop after tracing one in Grade 3.  
+- **Challenge format:** Coding, starter project. Provided: a sprite and `if key pressed` blocks outside any loop. Students put these inside a `forever` loop triggered by `when green flag clicked`. Auto‑grading runs the project and checks that holding or repeatedly pressing keys moves the sprite smoothly and that no duplicate code exists outside the loop.  
+- **CSTA:** E4‑PRO‑PF‑01.
+
+### T07.G4.02 – Loop with a condition inside
 
 - **Short name:** Loop with checks inside  
 - **Description:** Students write a loop where each repeated step also contains a conditional, such as moving and bouncing off edges or adding to a score only when touching a coin.  
 - **Challenge format:** Coding, starter project. Example: a ball moves across the screen; students wrap movement in a `repeat` or `forever` loop and add an `if on edge, bounce` or `if touching coin then change score`. Auto‑grading checks that (1) movement loop is present, (2) the condition is inside the loop, and (3) behavior (bouncing or scoring) occurs multiple times as appropriate.  
 - **CSTA:** E4‑PRO‑PF‑01.
 
-### T07.G4.02 – Use a loop counter variable
+### T07.G4.03 – Use a loop counter variable
 
 - **Short name:** Use a counter inside a loop  
 - **Description:** Students maintain a numeric counter variable that increments on each loop iteration (e.g., to show “Step 1, Step 2, …” or to track how many loops have run), introducing a “for loop” pattern using Scratch‑style blocks.  
 - **Challenge format:** Coding, starter project. Students create a variable (e.g., `step`) and initialize it, then inside a `repeat` loop they change `step by 1` and display it (`say step`). Auto‑grading ensures (1) variable initialization, (2) update inside the loop, and (3) correct final value after execution.  
 - **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑AF‑01.
 
-### T07.G4.03 – Convert repeated blocks with conditions into loops
+### T07.G4.04 – Convert repeated blocks with conditions into loops
 
 - **Short name:** Refactor repeated code with a loop  
 - **Description:** Students are given a longer script with repeated groups of blocks (including conditionals) and asked to rewrite it using a loop to reduce duplication, preserving behavior. This builds code quality and abstraction skills.  
 - **Challenge format:** Coding, refactor challenge. Starter script might contain 4 identical “move 10, if touching star change score by 1” sequences. Students rewrite using a `repeat` loop. Auto‑grading checks code structure (loop present, one copy of the body) and behavior equivalence (same final score for a fixed setup).  
 - **CSTA:** E4‑PRO‑PF‑01, PRO‑TR.
 
-### T07.G4.04 – Analyze and fix a loop bug
+### T07.G4.05 – Analyze and fix a loop bug
 
 - **Short name:** Find the bug in a loop  
 - **Description:** Students examine a script where a loop runs too many or too few times, or the counter/condition is incorrect, and modify it to match the intended behavior. They practice reasoning about loop boundaries and conditions.  
@@ -217,4 +231,3 @@ Grade 8 builds toward high school expectations by using loops in more complex lo
 - **Description:** Students analyze given loop‑based solutions (e.g., using `repeat until` vs a counted `repeat` with a condition inside) and justify which structure is more appropriate or reliable for a given task. They articulate reasons using input ranges, stopping conditions, and readability.  
 - **Challenge format:** Concept, explanation plus selection. Items present two loop implementations for the same scenario; students choose the better one and explain their reasoning using sentence stems or structured responses. Auto‑grading scores the choice and key reasoning phrases.  
 - **CSTA:** MS‑PRO‑PF‑01, MS‑ALG‑AF‑02.
-

@@ -10,17 +10,6 @@ This v2 version refines the original draft (`skills_T05_human_centered_design.md
 - **Uneven density:** Heavier scaffolding in **grades 3–6**, where students start designing their own apps and interactive experiences with CreatiCode; lighter but meaningful K–2 foundations and more analytical 7–8 work.  
 - **Implementability:** All skills can be run as picture‑based tasks, small planning forms, structured prompts around CreatiCode projects, or simple checklists; no free‑form essays required to auto‑grade.
 
-## Teacher Guidance & Sequencing
-
-- **K–2:** Use T05 to talk about “who a tool helps” and “which version is easier” with pictures and very short stories. Keep classroom language concrete (“helps,” “easy/hard,” “try it on a computer”) rather than abstract HCD terminology.  
-- **Grades 3–5:** Introduce the HCD cycle (empathize → design → test) and simple simulation thinking as planning tools that sit *around* coding, not inside it. Within a grade, move from identifying needs → proposing a single change → planning how to test or measure whether the change worked.  
-- **Grades 6–8:** Use T05 to support projects that mix UI design, data, and AI: accessibility reviews, harms and mitigations, data‑driven improvements, and simulation experiments. XO‑based skills (`T05.G8.02`) should be framed as *critical* use of AI, where students evaluate and refine AI suggestions.  
-- **Cross‑topic:** Pair T05 with:
-  - **T03** for project planning milestones and roles.  
-  - **T14–T20** (games, media, UI) when asking “who is this for?” and “is it easy to use?”  
-  - **T17/T25–T27/T28** when planning what to model, measure, and compare in simulations or data investigations.  
-  - **AI topics T21–T24 and impacts/ethics topics T35–T36** when discussing who is helped or harmed by AI‑powered designs and how to improve them.
-
 IDs follow `T05.G<grade>.<nn>`. v1 IDs are preserved conceptually; new microsteps use higher `<nn>` values.
 
 ---

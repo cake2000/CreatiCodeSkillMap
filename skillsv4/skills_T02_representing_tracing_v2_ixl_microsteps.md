@@ -12,17 +12,6 @@ This v2 version upgrades the original draft (`skills_T02_representing_tracing.md
 - **Implementability:** All skills can be implemented using CreatiCode’s picture‑based K–2 activities, block‑based coding environment, and the **Diagrams** tab (for flowchart‑style diagrams and box/step diagrams) plus simple UI widgets for pseudocode entry and multi‑choice/drag‑drop tasks.
 - **Separation from T01:** T01 focuses on choosing, improving, and applying algorithms to real‑world tasks (bedtime routines, classroom jobs, project plans), while T02 focuses on reading, tracing, and converting the *diagrams and code* that represent those algorithms, often in neutral puzzle or mini‑game contexts.
 
-## Teacher Guidance & Sequencing
-
-- **K–2:** Use T02 K–2 alongside T01 to gently introduce the idea that “a row of pictures with arrows” is a kind of diagram. Student‑facing wording should emphasize “picture steps” and “how‑to strips” rather than formal words like “flowchart.”  
-- **Grades 3–5:** Within each grade, move from *diagram‑only* work to *code tracing* and then to *diagram↔code conversion*. For example, in Grade 3: use `T02.G3.01–G3.02` (flowchart basics) before `T02.G3.03–G3.04` (code tracing) and `T02.G3.05–G3.06` (matching flowcharts and code).  
-- **Gateway constructs:** Make sure students have seen basic events/loops/conditionals in T06–T08 and everyday algorithm skills in T01 before heavy code‑tracing skills in T02 (especially `T02.G3.03–G3.04` and all G4–G6 tracing tasks).  
-- **Cross‑topic:** Pair T02 with:
-  - **T01** when focusing on which algorithm is better or more appropriate for a task.  
-  - **T03** when turning a project plan into diagrams or trace tables.  
-  - **T04** when naming or spotting standard patterns (search, counters, accumulators) that appear inside diagrams and code.  
-  - **Data & AI topics (T25–T29, T21–T24)** when tracing simulations, decision algorithms, or deterministic vs probabilistic behavior.
-
 IDs follow `T02.G<grade>.<nn>`. Existing v1 IDs are preserved with tightened scopes where needed; additional microsteps use higher `<nn>` values and will need to be added to the JSON skill maps in a later data pass.
 
 ---
@@ -34,17 +23,17 @@ Strands: **K‑A Recognize sequences**, **K‑B Describe & fix**
 ### K‑A: Recognize sequences
 
 **T02.GK.01 – Recognize picture steps for a task**  
-Students look at 3–4 pictures laid out in a row with arrows between them and choose which strip is a sensible “algorithm diagram” (steps to do it in order).  
+Students look at 3–4 pictures laid out in a row with arrows between them and choose which strip shows the steps in an order that works to do the task.  
 _Format:_ Multiple‑choice with 2–3 picture strips; choose which one shows a sensible order for the task. · _CSTA:_ EK‑ALG‑AF‑01.
 
 **T02.GK.02 – Order 3–4 pictures to make a story**  
-Students drag 3–4 scrambled pictures into arrow‑connected boxes labeled “1, 2, 3, 4” to repair a simple algorithm strip (e.g., a robot getting ready or reaching a toy).  
+Students drag 3–4 scrambled pictures into arrow‑connected boxes labeled “1, 2, 3, 4” to repair a simple strip of steps (e.g., a robot getting ready or reaching a toy).  
 _Format:_ Drag‑drop into labeled boxes on a strip; auto‑graded by final order. · _CSTA:_ EK‑ALG‑AF‑01.
 
 ### K‑B: Describe & fix
 
 **T02.GK.03 – Use first/next/last to describe a sequence**  
-Students see 3 ordered pictures on an algorithm strip with “First / Next / Last” labels and choose words or icons to fill each label, describing the diagram out loud.  
+Students see 3 ordered pictures on a strip with “First / Next / Last” labels and choose words or icons to fill each label, describing the steps out loud.  
 _Format:_ Picture‑supported sentence completion with audio; labels are tied to positions on the strip. · _CSTA:_ EK‑ALG‑AF‑01.
 
 **T02.GK.04 – Fix one picture that is out of order**  
@@ -60,18 +49,18 @@ Strands: **1‑A Build picture algorithms**, **1‑B Trace & predict**, **1‑C 
 ### 1‑A: Build picture algorithms
 
 **T02.G1.01 – Make a 3–4 step picture algorithm**  
-Students are given a simple task (e.g., “how to feed the class pet”) and assemble 3–4 pictures into a numbered algorithm strip with arrows, treating it as instructions a robot could follow.  
+Students are given a simple task (e.g., “how to feed the class pet”) and assemble 3–4 pictures into a numbered strip with arrows, treating it as clear picture instructions a robot could follow.  
 _Format:_ Drag‑drop cards into numbered, arrow‑connected slots; auto‑graded by order. · _CSTA:_ E1‑ALG‑AF‑01.
 
 **T02.G1.02 – Add a missing step to a picture algorithm**  
-Students see a 3‑step picture algorithm strip with one missing middle step and choose the correct picture to fill the gap so the diagram works as instructions.  
+Students see a 3‑step picture instruction strip with one missing middle step and choose the correct picture to fill the gap so the strip works as instructions.  
 _Format:_ MCQ picture choice for the missing step in the strip. · _CSTA:_ E1‑ALG‑AF‑01, E1‑ALG‑PS‑03.
 
 ### 1‑B: Trace & predict
 
 **T02.G1.03 – Trace a picture algorithm and tell the outcome**  
-Students follow a 3–4 step algorithm strip (e.g., a simple recipe or classroom routine) and choose what the final picture or outcome should be.  
-_Format:_ Picture algorithm strip + outcome MCQ; auto‑graded by outcome. · _CSTA:_ EK‑ALG‑AF‑01.
+Students follow a 3–4 step picture instruction strip (e.g., a simple recipe or classroom routine) and choose what the final picture or outcome should be.  
+_Format:_ Picture instruction strip + outcome MCQ; auto‑graded by outcome. · _CSTA:_ E1‑ALG‑AF‑01.
 
 ### 1‑C: Debug & compare
 
@@ -144,6 +133,10 @@ _Format:_ Code‑reading MCQ or trace‑table fill‑in; checked against simulat
 **T02.G3.04 – Trace a repeat loop and count iterations**  
 Students trace a script with a `repeat N` loop and answer questions like “How many times does this happen?” or “How far does the sprite move?”, focusing on loop‑tracing mechanics rather than designing the algorithm.  
 _Format:_ Code‑reading with numeric answer or trace‑table; auto‑graded by simulation. · _CSTA:_ E3‑ALG‑AF‑01.
+
+**T02.G3.07 – Trace a decision flowchart and tell the outcome**  
+Students follow a small flowchart with one decision diamond and “yes/no” branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.  
+_Format:_ Flowchart diagram + outcome MCQ; auto‑graded by selected end node. · _CSTA:_ E3‑ALG‑AF‑01.
 
 ### 3‑C: Match flowcharts and code
 

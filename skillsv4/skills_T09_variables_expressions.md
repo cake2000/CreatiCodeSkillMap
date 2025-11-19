@@ -18,13 +18,13 @@ Where relevant, a primary **CSTA code** is noted.
 
 ## Grade 3
 
-Variables hold different data types; expressions combine operators (+, −, *, /, mod) with variables and inputs. Students use variables in conditions and loops.
+Variables represent changing quantities; expressions combine operators (+, −, *, /, mod) with variables and inputs. Students begin by using single numeric variables in simple programs, then connect them to conditions and loops.
 
-### T09.G3.01 – Use different variable types (number, text, boolean)
+### T09.G3.01 – Create and use a numeric variable for score or count
 
-- **Short name:** Create different kinds of variables
-- **Description:** Students create variables of different types—number, text, and boolean—and assign appropriate values to each. This introduces the concept of variable types and when each is appropriate.
-- **Challenge format:** Coding, guided construction. Prompt: "Create a variable called 'name' for text, 'score' for a number, and 'is_ready' for true/false." Students create each variable type and optionally assign sample values. Auto‑grading checks that each variable has the correct type.
+- **Short name:** Create a variable to track score
+- **Description:** Students create a numeric variable (e.g., `score` or `steps`), initialize it to a starting value, and update it in response to events (such as collecting a coin or reaching a goal), seeing how its value changes during a program.
+- **Challenge format:** Coding, starter project. Prompt: "Create a variable `score`. When the sprite touches a star, change `score` by 1 and show it." Students create the variable, set its initial value, and update it in the appropriate place. Auto‑grading checks initialization, updates, and displayed value across multiple events.
 - **CSTA:** E3‑PRO‑DH‑02.
 
 ### T09.G3.02 – Use a variable in a conditional (if block)
@@ -34,21 +34,14 @@ Variables hold different data types; expressions combine operators (+, −, *, /
 - **Challenge format:** Coding, starter project. A sprite or game mechanic is set up with a score variable. Prompt: "If the score is greater than 50, say 'You win!'". Students add an if block comparing the variable. Auto‑grading checks the condition and response.
 - **CSTA:** E3‑PRO‑DH‑02, E3‑PRO‑PF‑01.
 
-### T09.G3.03 – Use multiplication and division in expressions
+### T09.G3.03 – Debug missing or wrong variable updates
 
-- **Short name:** Multiply or divide in expressions
-- **Description:** Students use * and / operators in expressions to set or change variables, such as "set total to lives * 100" or "set average to sum / count." This extends arithmetic to include multiplicative operations.
-- **Challenge format:** Coding, starter project. Prompt: "Create a variable 'total_points' equal to the number of coins collected multiplied by 5." Students set up the expression. Auto‑grading checks that multiplication is used and the final value is correct.
-- **CSTA:** E3‑PRO‑DH‑02.
+- **Short name:** Fix a variable that never changes
+- **Description:** Students inspect a small script where a variable is never initialized or never updated (e.g., `score` stays 0) and add the missing `set`/`change` block in the correct spot so the display matches the story. This gives early debugging practice on the gateway variable skill.  
+- **Challenge format:** Coding, debugging. Starter project shows expected behavior (score should rise when touching a coin) but the variable blocks are missing or misplaced. Auto‑grading checks that the variable is initialized once and updated in the right event.  
+- **CSTA:** E3‑PRO‑DH‑02, E3‑PRO‑TR‑01.
 
-### T09.G3.04 – Combine operators and variables in complex expressions
-
-- **Short name:** Build multi‑step expressions
-- **Description:** Students write expressions that combine two or more operators and variables, such as "(a + b) * 2" or "x + y − z", with attention to operator precedence or explicit grouping.
-- **Challenge format:** Coding, starter project. Given variables a, b, c with starting values, prompt: "Set result to (a + b) * c." Students build the expression. Auto‑grading checks the final value.
-- **CSTA:** E3‑PRO‑DH‑02.
-
-### T09.G3.05 – Trace code with variables to predict outcomes
+### T09.G3.04 – Trace code with variables to predict outcomes
 
 - **Short name:** Follow variable changes through code
 - **Description:** Students trace a short script step‑by‑step, recording the value of a variable at each stage, and predict the final result. This reinforces understanding of how variables are modified.
@@ -61,42 +54,56 @@ Variables hold different data types; expressions combine operators (+, −, *, /
 
 Students use variables across events and loops; expressions incorporate user input and sensor data. Multiple variables are coordinated in more complex programs.
 
-### T09.G4.01 – Store and use user input in a variable
+### T09.G4.01 – Use multiplication and division in expressions
+
+- **Short name:** Multiply or divide in expressions
+- **Description:** Students use * and / operators in expressions to set or change variables, such as "set total to lives * 100" or "set average to sum / count." This extends arithmetic to include multiplicative operations.
+- **Challenge format:** Coding, starter project. Prompt: "Create a variable 'total_points' equal to the number of coins collected multiplied by 5." Students set up the expression. Auto‑grading checks that multiplication is used and the final value is correct.
+- **CSTA:** E4‑PRO‑DH‑02.
+
+### T09.G4.02 – Combine operators and variables in complex expressions
+
+- **Short name:** Build multi‑step expressions
+- **Description:** Students write expressions that combine two or more operators and variables, such as "(a + b) * 2" or "x + y − z", with attention to operator precedence or explicit grouping.
+- **Challenge format:** Coding, starter project. Given variables a, b, c with starting values, prompt: "Set result to (a + b) * c." Students build the expression. Auto‑grading checks the final value.
+- **CSTA:** E4‑PRO‑DH‑02.
+
+### T09.G4.03 – Store and use user input in a variable
 
 - **Short name:** Save the player's answer
 - **Description:** Students use an "ask and wait" or input block to capture user input (a number or text), store it in a variable, and then use that variable in later blocks or conditionals.
 - **Challenge format:** Coding, starter project. Prompt: "Ask the player for their name and store it. Then say 'Hello [name]!'". Students implement input capture and variable storage. Auto‑grading checks that input is stored and used correctly.
 - **CSTA:** E4‑PRO‑DH‑02.
 
-### T09.G4.02 – Use variables in a loop counter pattern
+### T09.G4.04 – Use variables in a loop counter pattern
 
 - **Short name:** Use a variable inside a loop
 - **Description:** Students combine a loop with a variable that increments or decrements each iteration, often displaying intermediate values. This is a for‑loop–like pattern using repeated assignment.
 - **Challenge format:** Coding, starter project. Prompt: "Create a variable 'step'. Use a repeat loop and inside it, change 'step' by 1. Say the step number each time (e.g., 1, 2, 3, 4, 5)." Students build this. Auto‑grading checks loop count and variable updates.
 - **CSTA:** E4‑PRO‑DH‑02, E4‑PRO‑PF‑01.
 
-### T09.G4.03 – Use comparison operators in expressions
+### T09.G4.05 – Use comparison operators in expressions
 
 - **Short name:** Compare values with ==, >, <
 - **Description:** Students use comparison operators (equal, not equal, greater than, less than) in conditionals and understand that comparisons evaluate to true/false, enabling more nuanced program logic.
 - **Challenge format:** Coding, concept and practice. Prompt: "Create an if statement: if score >= 100, say 'High score!'." Students use the comparison operator. Auto‑grading checks the condition logic.
 - **CSTA:** E4‑PRO‑DH‑02.
 
-### T09.G4.04 – Use boolean variables to track states
+### T09.G4.06 – Use boolean variables to track states
 
 - **Short name:** Use true/false variables
 - **Description:** Students create boolean variables (e.g., "is_jumping", "has_key") to track on/off or yes/no states in a program, and use them in conditionals to control behavior.
 - **Challenge format:** Coding, starter project. Prompt: "Create a variable 'has_key' set to false. When the sprite collects a key, change it to true. If 'has_key' is true, let the player open a door." Students build this. Auto‑grading checks state tracking and conditional logic.
 - **CSTA:** E4‑PRO‑DH‑02.
 
-### T09.G4.05 – Modify a variable based on sensor or random input
+### T09.G4.07 – Modify a variable based on sensor or random input
 
 - **Short name:** Change variables with sensors or randomness
 - **Description:** Students set or modify a variable based on the result of a "pick random" block, sensor reading (e.g., volume, tilt), or other external input. This shows that variable updates can depend on dynamic sources.
 - **Challenge format:** Coding, starter project. Prompt: "Create a variable 'health'. When a random number is rolled, if it's > 50, add 10 to health; else subtract 5." Students implement the logic. Auto‑grading checks variable updates.
 - **CSTA:** E4‑PRO‑DH‑02.
 
-### T09.G4.06 – Debug incorrect variable updates in code
+### T09.G4.08 – Debug incorrect variable updates in code
 
 - **Short name:** Fix variable bugs
 - **Description:** Students examine a program where a variable is initialized, modified, or used incorrectly (e.g., not initialized, updated too many times, used in the wrong place) and fix it to achieve the intended behavior.
@@ -266,4 +273,3 @@ Students use variables and expressions in complex algorithms and data processing
 - **Description:** Students take mathematical formulas or logical rules (e.g., distance = speed × time, tax = price × rate, is_valid = age >= 18 AND has_id) and translate them into variable assignments and expressions in code.
 - **Challenge format:** Coding, project. Prompt: "Implement the quadratic formula: x = (-b ± sqrt(b² - 4ac)) / 2a. Create variables for a, b, c and compute both roots." Students implement the expressions. Auto‑grading checks correct output for test cases.
 - **CSTA:** MS‑PRO‑DH‑05, MS‑ALG‑AF‑02.
-

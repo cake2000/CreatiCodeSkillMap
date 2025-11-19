@@ -204,14 +204,6 @@ Grade 3 is the **gateway to coding** for games. Students move from concepts to b
 - **Challenge format:** Build. `change [color] effect by (25)` inside interaction checks.
 - **CSTA:** 1B‑AP‑10
 
-### Strand E: Reset & Replay
-
-#### T14.G3.11 – Reset on restart messages
-- **Short name:** Reset everything when told
-- **Description:** Use `when I receive [Restart]` (or `Game Over`) to send every sprite back to a known costume, position, and visibility so repeats are consistent.
-- **Challenge format:** Debug. “Some enemies stay hidden after a restart. Add a listener that resets them.”
-- **CSTA:** 1B‑AP‑15
-
 ---
 
 ## Grade 4
@@ -304,6 +296,14 @@ Grade 4 expands into mechanics and state. Students build projectiles, enemies, t
 - **Short name:** Pause with a broadcast
 - **Description:** Create a Pause button that broadcasts `Pause Game`, stops motion scripts, and resumes when `Resume Game` arrives.
 - **Challenge format:** Build. `when this sprite clicked` → `broadcast [Pause Game]`; listening sprites use `wait until <(State) = [Play]>` patterns.
+- **CSTA:** 1B‑AP‑15
+
+### Strand F: Reset & Replay
+
+#### T14.G4.14 – Reset on restart messages
+- **Short name:** Reset everything when told
+- **Description:** Use `when I receive [Restart]` (or `Game Over`) to send every sprite back to a known costume, position, and visibility so repeats are consistent.
+- **Challenge format:** Debug. “Some enemies stay hidden after a restart. Add a listener that resets them.”
 - **CSTA:** 1B‑AP‑15
 
 ---
@@ -493,4 +493,3 @@ Grade 8 students build reusable engines: modular loaders, component systems, eff
 - **Description:** Collect runtime stats (deaths per level, time-to-win) in lists, visualize them, and adjust difficulty knobs based on the data to keep the game fair.
 - **Challenge format:** Build. Append data to a list after each round, then analyze and recommend a change (e.g., lower enemy speed) based on the numbers.
 - **CSTA:** 2‑DA‑08
-

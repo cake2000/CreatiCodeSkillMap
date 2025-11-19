@@ -23,17 +23,6 @@ This v6 version is designed to feel like **IXL for algorithms**, with:
   - T01 reuses these patterns inside concrete algorithms and projects (e.g., maze solvers, games, simulations) without re‑teaching the pattern mechanics; it focuses on when and why to apply them for a particular task.  
   - Loop‑ and if/then‑heavy T01 skills (especially in Grades 3–5) should list the relevant T04 pattern microsteps as prerequisites so students meet the pattern concept before they use it in full algorithms.
 
-## Teacher Guidance & Sequencing
-
-- **K–2 (concept‑only):** Use T01 K–2 alongside picture‑based work in T02–T05. Keep student language to “steps,” “rules,” and “routines” rather than “algorithms” or “code,” so tasks stay unplugged and concrete.  
-- **Grade 3 gateway:** Treat `T01.G1.01` (everyday algorithms) and `T01.G3.01` (first event‑driven sequence) as *gateway skills* that deserve extra practice and teacher‑led examples before students move into heavier loop and conditional work in T06–T09.  
-- **Within a grade:** Move in this order: concept/read skills → write/build skills → debug/compare skills. For example, in Grade 3 use `T01.G3.02`, `T01.G3.03–G3.04`, and `T01.G3.09–G3.10` before tackling debugging (`T01.G3.13–G3.15`).  
-- **Cross‑topic:** Pair T01 with:
-  - **T02** when you want to emphasize diagrams, flowcharts, and tracing.  
-  - **T03** when turning everyday tasks and project ideas into plans.  
-  - **T04** when highlighting named patterns like “repeat,” counters, or search that reappear across projects.  
-  - **T06–T09** when you are ready for focused construct practice (events, loops, conditionals, variables) after students understand the underlying algorithm ideas here.
-
 Skills are grouped by grade and within each grade by **strands**. IDs follow `T01.G<grade>.<nn>`. This file supersedes earlier v4/v5 drafts as the **current, high‑granularity design** for T01.
 
 ---
@@ -485,11 +474,11 @@ Students explain how changed rules affect outcomes.
 _Format:_ Side‑by‑side comparison + explanation. · _CSTA:_ MS‑ALG‑AF‑02, DAA‑DI.
 
 **T01.G8.04 – Identify base case and recursive step in an algorithm description**  
-Students highlight base case and recursive step in natural‑language recursion.  
+Students highlight base case and recursive step in a **natural‑language** description of a recursive process (e.g., “to count the blocks in a stack, count the top block, then count the rest”), keeping recursion **concept‑only** (no code blocks).  
 _Format:_ MCQ/highlight; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑07.
 
 **T01.G8.05 – Trace a conceptual recursive algorithm on small inputs**  
-Students step through recursion (e.g., factorial, sum of list) for small inputs.  
+Students step through a **diagram or story version** of recursion (e.g., factorial, sum of list) for small inputs, marking each call/return to show how the answer is built, without writing or reading recursive code.  
 _Format:_ Tracing table; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑07.
 
 **T01.G8.06 – Analyze who is helped or harmed by a real‑world algorithm**  
