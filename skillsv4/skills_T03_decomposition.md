@@ -24,17 +24,29 @@ Strands: **K‑A See parts of a whole**, **K‑B Simple step breakdowns**
 Students look at familiar objects or scenes (e.g., playground, classroom, robot) and tap pictures of individual parts (slide, swings, door, wheels).  
 _Format:_ Picture hotspot/click‑select; auto‑graded by matching labeled parts. · _CSTA:_ EK‑ALG‑PS‑03.
 
-**T03.GK.02 – Match parts to whole objects**  
+**T03.GK.02 – Match parts to whole objects**
+
+_Dependency:_
+  * T03.GK.01: Identify parts that make up a whole
+
 Students match close‑up pictures of parts (e.g., wheel, keyboard) to the whole object they belong to (car, computer).  
 _Format:_ Drag part onto whole; auto‑graded by correct pairings. · _CSTA:_ EK‑ALG‑PS‑03.
 
 ### K‑B: Simple step breakdowns
 
-**T03.GK.03 – Order 3–4 pictures to show steps in a routine**  
+**T03.GK.03 – Order 3–4 pictures to show steps in a routine**
+
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
 Students arrange 3–4 pictures to show steps in a classroom or home routine (e.g., wash hands) specifically as a *plan* for getting the task done, building on the sequence sense learned in T01.  
 _Format:_ Drag‑drop sequence into a simple “plan strip”; auto‑graded by final order. · _CSTA:_ EK‑PRO‑PM‑05.
 
-**T03.GK.04 – Choose the missing middle step in a routine**  
+**T03.GK.04 – Choose the missing middle step in a routine**
+
+_Dependency:_
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
 Students see the first and last steps of a 3‑step routine and choose the picture that fits in the middle so the *plan* for the task makes sense.  
 _Format:_ MCQ picture choice; auto‑graded. · _CSTA:_ EK‑PRO‑PM‑05.
 
@@ -46,21 +58,37 @@ Strands: **1‑A Parts & roles**, **1‑B Break tasks into steps**
 
 ### 1‑A: Parts & roles
 
-**T03.G1.01 – Describe what one part of a system does**  
+**T03.G1.01 – Describe what one part of a system does**
+
+_Dependency:_
+  * T03.GK.01: Identify parts that make up a whole
+
 Students select a part in a picture (e.g., wheels, door, button) and choose what it does from options.  
 _Format:_ Click part → MCQ function; auto‑graded by correct pairing. · _CSTA:_ E1‑ALG‑PS‑03.
 
-**T03.G1.02 – Group related parts into categories**  
+**T03.G1.02 – Group related parts into categories**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+
 Students drag parts into groups such as “input,” “movement,” or “decoration” for a simple object (e.g., robot or game scene).  
 _Format:_ Sort‑into‑buckets; auto‑graded by category. · _CSTA:_ E1‑ALG‑PS‑03.
 
 ### 1‑B: Break tasks into steps
 
-**T03.G1.03 – List steps for a simple classroom routine**  
+**T03.G1.03 – List steps for a simple classroom routine**
+
+_Dependency:_
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
 Students build a 3–4 step plan for a familiar routine (e.g., “line up for recess”) using picture or word cards in order.  
 _Format:_ Drag cards to numbered slots; auto‑graded by order. · _CSTA:_ E1‑PRO‑PM‑05.
 
-**T03.G1.04 – Match steps to parts of a tiny story or game**  
+**T03.G1.04 – Match steps to parts of a tiny story or game**
+
+_Dependency:_
+  * T03.G1.03: List steps for a simple classroom routine
+
 Students see a tiny story or game idea (e.g., “A cat says hello, then dances”) and match which step goes with each character or scene.  
 _Format:_ Drag step labels onto characters/scenes; auto‑graded by mapping. · _CSTA:_ E1‑PRO‑PM‑05.
 
@@ -72,21 +100,38 @@ Strands: **2‑A Break problems into subtasks**, **2‑B Use checklists and simp
 
 ### 2‑A: Break problems into subtasks
 
-**T03.G2.01 – Choose subtasks for a simple project idea**  
+**T03.G2.01 – Choose subtasks for a simple project idea**
+
+_Dependency:_
+  * T03.G1.03: List steps for a simple classroom routine
+
 Students read or hear a small project idea (e.g., “Make a greeting card project”) and select which subtasks are needed (e.g., “draw background,” “add message,” “add sound”).  
 _Format:_ MCQ multi‑select; auto‑graded by needed subtasks. · _CSTA:_ E2‑ALG‑PS‑03.
 
-**T03.G2.02 – Group similar subtasks together**  
+**T03.G2.02 – Group similar subtasks together**
+
+_Dependency:_
+  * T03.G2.01: Choose subtasks for a simple project idea
+  * T03.G1.03: List steps for a simple classroom routine
+
 Students drag subtasks into groups like “art,” “words,” “sound” for a small project.  
 _Format:_ Sort‑into‑categories; auto‑graded. · _CSTA:_ E2‑ALG‑PS‑03.
 
 ### 2‑B: Use checklists and simple plans
 
-**T03.G2.03 – Arrange subtasks into a reasonable order**  
+**T03.G2.03 – Arrange subtasks into a reasonable order**
+
+_Dependency:_
+  * T03.G2.02: Group similar subtasks together
+
 Students take 4–5 subtasks and order them into a simple plan (e.g., plan → create → try it out).  
 _Format:_ Drag‑drop ordering; auto‑graded by acceptable sequences. · _CSTA:_ E2‑PRO‑PM‑05.
 
-**T03.G2.04 – Use a checklist to track progress on a mini‑project**  
+**T03.G2.04 – Use a checklist to track progress on a mini‑project**
+
+_Dependency:_
+  * T03.G2.03: Arrange subtasks into a reasonable order
+
 Students see a mini‑project checklist and must mark which subtasks are done based on a short story (“We already drew the characters and added sounds.”).  
 _Format:_ Click‑to‑check items; auto‑graded by story. · _CSTA:_ E2‑PRO‑PM‑05.
 
@@ -98,31 +143,68 @@ Strands: **3‑A Break coding tasks into features**, **3‑B Storyboards & scene
 
 ### 3‑A: Break coding tasks into features
 
-**T03.G3.01 – Identify features in a small game description**  
+**T03.G3.01 – Identify features in a small game description**
+
+_Dependency:_
+  * T03.G2.01: Choose subtasks for a simple project idea
+  * T03.G2.02: Group similar subtasks together
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students read a short game description and highlight or select each distinct feature (e.g., player controls, scoring, win/lose screen).  
 _Format:_ Highlight or multi‑select; auto‑graded by feature list. · _CSTA:_ E3‑ALG‑PS‑03.
 
-**T03.G3.02 – Group features into “must‑have” vs “nice‑to‑have”**  
+**T03.G3.02 – Group features into “must‑have” vs “nice‑to‑have”**
+
+_Dependency:_
+  * T03.G3.01: Identify features in a small game description
+  * T07.G3.01: Use a counted repeat loop
+  * T03.G2.03: Arrange subtasks into a reasonable order
+
 Students drag feature cards into two buckets: essential vs extra.  
 _Format:_ Sort‑into‑two‑buckets; auto‑graded. · _CSTA:_ E3‑PRO‑PM‑05.
 
 ### 3‑B: Storyboards & scene plans
 
-**T03.G3.03 – Create a 3‑panel storyboard for a project**  
+**T03.G3.03 – Create a 3‑panel storyboard for a project**
+
+_Dependency:_
+  * T03.G3.02: Group features into “must‑have” vs “nice‑to‑have”
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T07.G3.01: Use a counted repeat loop
+  * T03.G2.04: Use a checklist to track progress on a mini‑project
+
 Students arrange 3 pictures showing beginning, middle, and end of a simple animation or game level.  
 _Format:_ Drag panels into order; optional captions; auto‑graded by structure. · _CSTA:_ E3‑PRO‑PM‑05.
 
-**T03.G3.04 – Match storyboard panels to project scenes**  
+**T03.G3.04 – Match storyboard panels to project scenes**
+
+_Dependency:_
+  * T03.G3.03: Create a 3‑panel storyboard for a project
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T07.G3.02: Trace a script with a simple loop
+
 Students match each storyboard panel to a logical scene or setting within a project structure (e.g., "start screen," "main game," "end screen").  
 _Format:_ Drag labels or panels onto scene categories; auto‑graded. · _CSTA:_ E3‑PRO‑PM‑05.
 
 ### 3‑C: Plan‑then‑build
 
-**T03.G3.05 – Choose a step‑by‑step plan for a small project**  
+**T03.G3.05 – Choose a step‑by‑step plan for a small project**
+
+_Dependency:_
+  * T03.G3.04: Match storyboard panels to project scenes
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T08.G3.01: Use a simple if in a script
+
 Students see 2–3 alternative project plans and select which plan is more reasonable (e.g., "design → build → test" vs "test → build → design").  
 _Format:_ Plan comparison MCQ; auto‑graded. · _CSTA:_ E3‑PRO‑PM‑05.
 
-**T03.G3.06 – Link each subtask to a logical component or responsibility**  
+**T03.G3.06 – Link each subtask to a logical component or responsibility**
+
+_Dependency:_
+  * T03.G3.05: Choose a step‑by‑step plan for a small project
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T02.G3.05: Match a simple flowchart to a script
+
 Students conceptually assign subtasks (e.g., "player actions," "game setup," "scoring display") to logical components (e.g., "Player Control," "Game Logic," "User Interface") within a project plan, focusing on organization rather than specific implementation.  
 _Format:_ Drag subtasks onto component categories; auto‑graded by logical grouping. · _CSTA:_ E3‑PRO‑PM‑05.
 
@@ -134,31 +216,68 @@ Strands: **4‑A Break bigger ideas into components**, **4‑B Plan responsibili
 
 ### 4‑A: Break bigger ideas into components
 
-**T03.G4.01 – Break a medium‑size project into components**  
+**T03.G4.01 – Break a medium‑size project into components**
+
+_Dependency:_
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students are given a description of a project (e.g., “quiz game with levels”) and identify components like “question bank,” “score tracker,” “level manager,” “UI.”  
 _Format:_ Feature/component selection; auto‑graded. · _CSTA:_ E4‑ALG‑PS‑03.
 
-**T03.G4.02 – Group related components into modules**  
+**T03.G4.02 – Group related components into modules**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students drag components into higher‑level modules (e.g., “game logic,” “user interface,” “data”).  
 _Format:_ Sort‑into‑modules; auto‑graded. · _CSTA:_ E4‑ALG‑PS‑03.
 
 ### 4‑B: Plan responsibilities & collaboration
 
-**T03.G4.03 – Assign project tasks to team roles**  
+**T03.G4.03 – Assign project tasks to team roles**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students match tasks (e.g., "create visuals," "design game logic," "test features") to team roles (e.g., artist, designer, tester).  
 _Format:_ Drag‑drop task‑to‑role mapping; auto‑graded. · _CSTA:_ E4‑PRO‑PM‑05.
 
-**T03.G4.04 – Create a simple task list with owners and order**  
+**T03.G4.04 – Create a simple task list with owners and order**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students build a table listing task, owner, and “do first/next/last” for a small team project.  
 _Format:_ Fill‑in table using dropdowns; auto‑graded by dependencies. · _CSTA:_ E4‑PRO‑PM‑05.
 
 ### 4‑C: Iterate on plans
 
-**T03.G4.05 – Spot a missing or unnecessary task in a plan**  
+**T03.G4.05 – Spot a missing or unnecessary task in a plan**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students read a short project plan and identify one missing critical task or one clearly unnecessary task.  
 _Format:_ MCQ identify “missing” or “extra”; auto‑graded. · _CSTA:_ E4‑ALG‑PS‑03, E4‑PRO‑PM‑05.
 
-**T03.G4.06 – Update a plan after testing feedback**  
+**T03.G4.06 – Update a plan after testing feedback**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students see test feedback (“The game crashes when score is 0”) and choose which new tasks should be added to the plan.  
 _Format:_ Multi‑select tasks; auto‑graded. · _CSTA:_ E4‑PRO‑PM‑05, E4‑PRO‑TR‑09.
 
@@ -170,27 +289,62 @@ Strands: **5‑A Structured decomposition artifacts**, **5‑B Dependencies & ri
 
 ### 5‑A: Structured decomposition artifacts
 
-**T03.G5.01 – Create a feature list and subtask breakdown**  
+**T03.G5.01 – Create a feature list and subtask breakdown**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students read a project pitch and produce a structured list: main features with 2–3 subtasks each.  
 _Format:_ Simple outlining tool; auto‑graded by coverage and structure. · _CSTA:_ E5‑ALG‑PS‑03, E5‑PRO‑PM‑05.
 
-**T03.G5.02 – Draw a high‑level project map**  
+**T03.G5.02 – Draw a high‑level project map**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students create a simple diagram showing how key screens/levels or components connect (e.g., “menu → level 1 → level 2 → game over”), focusing on *project structure* (screens/modules), not algorithm branching (which is covered in T02).  
 _Format:_ Node‑and‑arrow diagram for screens/components; auto‑graded by connectivity and labels. · _CSTA:_ E5‑PRO‑PM‑05.
 
 ### 5‑B: Dependencies & risks
 
-**T03.G5.03 – Identify task dependencies in a project plan**  
+**T03.G5.03 – Identify task dependencies in a project plan**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students examine a list of tasks and mark which ones must be done before others (e.g., "design characters before animate movement").  
 _Format:_ Check dependency arrows or ordering; auto‑graded. · _CSTA:_ E5‑PRO‑PM‑05.
 
-**T03.G5.04 – Flag high‑risk or unclear tasks**  
+**T03.G5.04 – Flag high‑risk or unclear tasks**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students highlight tasks that are vague or risky (e.g., “make AI for enemies” with no details) and choose clarifying sub‑tasks.  
 _Format:_ Highlight + MCQ clarifications; auto‑graded. · _CSTA:_ E5‑PRO‑PM‑05.
 
 ### 5‑C: Plan comparison
 
-**T03.G5.05 – Compare two project plans for the same idea**  
+**T03.G5.05 – Compare two project plans for the same idea**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students compare two project plans and choose which is more realistic or better organized, citing specific differences (e.g., clear subtasks, dependencies).  
 _Format:_ MCQ + short justification; auto‑graded by key phrases. · _CSTA:_ E5‑ALG‑PS‑03, E5‑PRO‑PM‑05.
 
@@ -202,27 +356,62 @@ Strands: **6‑A Modular design & refactoring**, **6‑B Iterative milestones**,
 
 ### 6‑A: Modular design & refactoring
 
-**T03.G6.01 – Propose modules for a medium project**  
+**T03.G6.01 – Propose modules for a medium project**
+
+_Dependency:_
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students read about an existing project and propose logical modules (e.g., "player control," "enemy behavior," "scoring"), grouping related functionality and components.  
 _Format:_ Drag functionality descriptions into module boxes; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑06.
 
-**T03.G6.02 – Refactor a complex process into reusable components**  
+**T03.G6.02 – Refactor a complex process into reusable components**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students see an overlong process description and choose which pieces could be turned into reusable components (e.g., "collision detection," "level reset"), then name those components.  
 _Format:_ Highlight process segments + name components; auto‑graded by logical grouping. · _CSTA:_ MS‑ALG‑PS‑06, MS‑PRO‑PM‑16.
 
 ### 6‑B: Iterative milestones
 
-**T03.G6.03 – Break a project into milestones (v1/v2/v3)**  
+**T03.G6.03 – Break a project into milestones (v1/v2/v3)**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students organize tasks into “first version,” “improvements,” and “stretch goals” columns.  
 _Format:_ Kanban‑style drag‑drop; auto‑graded by reasonable ordering. · _CSTA:_ MS‑PRO‑PM‑16.
 
-**T03.G6.04 – Adjust milestones after discovering a constraint**  
+**T03.G6.04 – Adjust milestones after discovering a constraint**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students read that a feature is harder than expected and adjust milestones (e.g., moving it from v1 to v2 and adding simpler fallback tasks).  
 _Format:_ Edit milestone board; auto‑graded by changes. · _CSTA:_ MS‑PRO‑PM‑16.
 
 ### 6‑C: Planning with XO
 
-**T03.G6.05 – Use XO to expand a basic idea into subtasks**  
+**T03.G6.05 – Use XO to expand a basic idea into subtasks**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students start with a short idea, ask XO for subtasks, and then select which suggestions to keep, modify, or discard.  
 _Format:_ XO‑assisted planning prompt + selection; auto‑graded by coverage and edits. · _CSTA:_ MS‑PRO‑PM‑16.
 
@@ -234,31 +423,75 @@ Strands: **7‑A Architecture sketches**, **7‑B Tradeoffs & alternatives**, **
 
 ### 7‑A: Architecture sketches
 
-**T03.G7.01 – Draw an architecture diagram for a multi‑component project**  
+**T03.G7.01 – Draw an architecture diagram for a multi‑component project**
+
+_Dependency:_
+  * T02.G3.01: Identify start, action, and end symbols
+  * T03.GK.01: Identify parts that make up a whole
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+
 Students create a diagram showing main components, key data flows, and communication patterns for a complex project, treating it as a *high‑level architecture view* of components and their interactions rather than detailed implementation (which lives in T02).  
 _Format:_ Node‑and‑arrow editor; auto‑graded by presence of required nodes/links. · _CSTA:_ MS‑ALG‑PS‑07, MS‑PRO‑PM‑16.
 
-**T03.G7.02 – Map functional modules to architecture components**  
+**T03.G7.02 – Map functional modules to architecture components**
+
+_Dependency:_
+  * T03.GK.01: Identify parts that make up a whole
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students match existing project modules and functionality to components in an architecture diagram, focusing on logical organization.  
 _Format:_ Drag module descriptions onto component boxes; auto‑graded. · _CSTA:_ MS‑ALG‑PS‑07.
 
 ### 7‑B: Tradeoffs & alternatives
 
-**T03.G7.03 – Compare two decompositions of the same project**  
+**T03.G7.03 – Compare two decompositions of the same project**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students compare two architecture sketches or task breakdowns and decide which is better in terms of clarity, reuse, and ease of change.  
 _Format:_ MCQ + justification; auto‑graded by key reasoning. · _CSTA:_ MS‑ALG‑PS‑06.
 
-**T03.G7.04 – Propose an alternative decomposition to fix a planning problem**  
+**T03.G7.04 – Propose an alternative decomposition to fix a planning problem**
+
+_Dependency:_
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students are given a project suffering from duplicated functionality or tangled dependencies and propose a new module breakdown to fix it.  
 _Format:_ Short structured response; auto‑graded with rubric keywords. · _CSTA:_ MS‑ALG‑PS‑06, MS‑PRO‑PM‑16.
 
 ### 7‑C: Testing and refinement plans
 
-**T03.G7.05 – Design a test plan based on a project breakdown**  
+**T03.G7.05 – Design a test plan based on a project breakdown**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students list test cases for each major feature/module (e.g., “test enemy movement,” “test scoring”).  
 _Format:_ Table with feature → test cases; auto‑graded by coverage. · _CSTA:_ MS‑PRO‑PM‑16, MS‑PRO‑TR‑14.
 
-**T03.G7.06 – Update a project plan after test results**  
+**T03.G7.06 – Update a project plan after test results**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students read test results and insert new tasks (e.g., “fix bug,” “add edge‑case handling”) into the plan in reasonable places.  
 _Format:_ Edit task list; auto‑graded by placement. · _CSTA:_ MS‑PRO‑PM‑16, MS‑PRO‑TR‑14.
 
@@ -270,31 +503,74 @@ Strands: **8‑A Large‑scale planning & specs**, **8‑B Scope & effort**, **8
 
 ### 8‑A: Large‑scale planning & specs
 
-**T03.G8.01 – Outline a formal project specification**  
+**T03.G8.01 – Outline a formal project specification**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.G1.03: List steps for a simple classroom routine
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
 Students fill in a structured template (Overview, Features, Data, UI, Testing) for a substantial project, focusing on clear decomposition into sections and subsections.  
 _Format:_ Template completion; auto‑graded by presence and structure. · _CSTA:_ MS‑PRO‑PM‑16, MS‑ALG‑PS‑07.
 
-**T03.G8.02 – Use XO to refine and check a project spec**  
+**T03.G8.02 – Use XO to refine and check a project spec**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.G1.03: List steps for a simple classroom routine
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
 Students provide a draft spec to XO, ask for missing pieces or risks, and then integrate selected suggestions into their spec.  
 _Format:_ XO interaction + spec edits; auto‑graded by incorporation of new subtasks/risks. · _CSTA:_ MS‑PRO‑PM‑16.
 
 ### 8‑B: Scope & effort
 
-**T03.G8.03 – Rank project ideas by complexity and timeline**  
+**T03.G8.03 – Rank project ideas by complexity and timeline**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.G1.03: List steps for a simple classroom routine
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
 Students compare several project ideas and rank them from quickest to most ambitious, giving reasons tied to features, dependencies, and unknowns.  
 _Format:_ Ordering + explanation; auto‑graded by ranking and rationale. · _CSTA:_ MS‑ALG‑PS‑05, MS‑PRO‑PM‑16.
 
-**T03.G8.04 – Identify over‑scoped plans and suggest right‑sizing**  
+**T03.G8.04 – Identify over‑scoped plans and suggest right‑sizing**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T03.G1.01: Describe what one part of a system does
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
 Students analyze a too‑ambitious plan and suggest ways to trim scope or phase features over time.  
 _Format:_ MCQ + short answer; auto‑graded by key phrases. · _CSTA:_ MS‑PRO‑PM‑16.
 
 ### 8‑C: Refactoring large project structures
 
-**T03.G8.05 – Propose a refactoring plan for a complex project**  
+**T03.G8.05 – Propose a refactoring plan for a complex project**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students review a description of a messy but working complex project and propose a high‑level plan to reorganize it into clearer modules, components, and logical structure.  
 _Format:_ Structured outline; auto‑graded by presence of core refactoring ideas. · _CSTA:_ MS‑PRO‑PM‑16, MS‑ALG‑PS‑07.
 
-**T03.G8.06 – Map refactoring tasks to future milestones**  
+**T03.G8.06 – Map refactoring tasks to future milestones**
+
+_Dependency:_
+  * T03.G1.01: Describe what one part of a system does
+  * T03.G1.02: Group related parts into categories
+  * T03.G1.03: List steps for a simple classroom routine
+  * T03.GK.03: Order 3–4 pictures to show steps in a routine
+  * T03.GK.04: Choose the missing middle step in a routine
+
 Students take a list of refactoring tasks and assign them to future releases (e.g., “v1.1 bugfixes,” “v1.2 architecture cleanup”).  
 _Format:_ Milestone board drag‑drop; auto‑graded. · _CSTA:_ MS‑PRO‑PM‑16.
 

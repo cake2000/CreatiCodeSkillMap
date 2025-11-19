@@ -24,13 +24,21 @@ Strands: **K‑A People & helpers**, **K‑B Easy vs hard to use**
 Students see a picture of a person and a tool (e.g., grandparent + smartphone) and choose “Who does this help?” from options.  
 _Format:_ Picture MCQ; auto‑graded. · _CSTA:_ EK‑ALG‑HD‑02.
 
-**T05.GK.02 – Match a simple problem to a helpful tool**  
+**T05.GK.02 – Match a simple problem to a helpful tool**
+
+_Dependency:_
+  * T03.GK.01: Identify parts that make up a whole
+
 Students match simple everyday problems (e.g., “It’s dark”) to tools that help (e.g., flashlight).  
 _Format:_ Drag problem cards to tool pictures; auto‑graded. · _CSTA:_ EK‑ALG‑HD‑02.
 
 ### K‑B: Easy vs hard to use
 
-**T05.GK.03 – Decide which version is easier to use**  
+**T05.GK.03 – Decide which version is easier to use**
+
+_Dependency:_
+  * T05.GK.02: Match a simple problem to a helpful tool
+
 Students compare two pictures of an interface/tool (big vs tiny button, clear vs cluttered screen) and choose which is easier.  
 _Format:_ Side‑by‑side MCQ; auto‑graded by basic usability principles. · _CSTA:_ EK‑ALG‑HD‑02.
 
@@ -46,21 +54,37 @@ Strands: **1‑A Understand user needs**, **1‑B Propose small improvements**
 
 ### 1‑A: Understand user needs
 
-**T05.G1.01 – Identify what a character needs in a story**  
+**T05.G1.01 – Identify what a character needs in a story**
+
+_Dependency:_
+  * T01.GK.03: Find the first and last pictures
+
 Students read/hear a short scenario and select what the character’s real need is (remembering something, finding something, understanding a schedule).  
 _Format:_ Scenario + MCQ; auto‑graded. · _CSTA:_ E1‑ALG‑HD‑02.
 
-**T05.G1.02 – Match a need to a design idea**  
+**T05.G1.02 – Match a need to a design idea**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+
 Students match each need (e.g., “can’t read small print”) to a helpful design idea (bigger text, audio button).  
 _Format:_ Drag needs to design ideas; auto‑graded. · _CSTA:_ E1‑ALG‑HD‑02.
 
 ### 1‑B: Propose small improvements
 
-**T05.G1.03 – Choose a better version of a simple screen for a given user**  
+**T05.G1.03 – Choose a better version of a simple screen for a given user**
+
+_Dependency:_
+  * T05.GK.03: Decide which version is easier to use
+
 Students see two versions of a simple app screen and a described user (younger sibling, grandparent); they pick which version fits better.  
 _Format:_ MCQ; auto‑graded. · _CSTA:_ E1‑ALG‑HD‑02.
 
-**T05.G1.04 – Suggest one change that helps a specific user**  
+**T05.G1.04 – Suggest one change that helps a specific user**
+
+_Dependency:_
+  * T05.G1.02: Match a need to a design idea
+
 Students choose one of several suggested changes that would help a described user (e.g., adding icon labels for early readers).  
 _Format:_ Scenario + MCQ; auto‑graded. · _CSTA:_ E1‑ALG‑HD‑02.
 
@@ -72,21 +96,38 @@ Strands: **2‑A User types & preferences**, **2‑B Simple simulation ideas**
 
 ### 2‑A: User types & preferences
 
-**T05.G2.01 – Match different users to different preferred designs**  
+**T05.G2.01 – Match different users to different preferred designs**
+
+_Dependency:_
+  * T05.G1.03: Choose a better version of a simple screen for a given user
+
 Students see three users (e.g., kid, adult, person with glasses) and match each to a preferred design (colorful icons, simple layout, high contrast).  
 _Format:_ Drag users to screens or vice versa; auto‑graded. · _CSTA:_ E2‑ALG‑HD‑02.
 
-**T05.G2.02 – Identify features that make a design more accessible**  
+**T05.G2.02 – Identify features that make a design more accessible**
+
+_Dependency:_
+  * T05.G1.04: Suggest one change that helps a specific user
+  * T05.G1.01: Identify what a character needs in a story
+
 Students select features like large buttons, captions, and audio instructions as “helps more people use this.”  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E2‑ALG‑HD‑02.
 
 ### 2‑B: Simple simulation ideas
 
-**T05.G2.03 – Recognize when a situation could be simulated**  
+**T05.G2.03 – Recognize when a situation could be simulated**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+
 Students see scenarios (traffic light, plant growth, simple weather) and choose which ones could be tried on a computer using pretend versions as a way to “try ideas safely” instead of in real life.  
 _Format:_ MCQ; auto‑graded. · _CSTA:_ E2‑DAA‑DI‑01 (early exposure).
 
-**T05.G2.04 – Choose what to include in a very simple simulation**  
+**T05.G2.04 – Choose what to include in a very simple simulation**
+
+_Dependency:_
+  * T05.G2.03: Recognize when a situation could be simulated
+
 Students decide which 2–3 elements are important to include when they “pretend on a computer” (e.g., “rain” and “sun” for plant growth) so the model can help answer a simple question.  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E2‑DAA‑DI‑01.
 
@@ -98,25 +139,55 @@ Strands: **3‑A HCD steps (empathize → design → test)**, **3‑B Plan tiny 
 
 ### 3‑A: HCD steps (empathize → design → test)
 
-**T05.G3.01 – Put human‑centered design steps in order**  
+**T05.G3.01 – Put human‑centered design steps in order**
+
+_Dependency:_
+  * T05.G2.01: Match different users to different preferred designs
+  * T05.G2.02: Identify features that make a design more accessible
+  * T08.G3.01: Use a simple if in a script
+
 Students order cards like “learn about users,” “plan design,” “build,” “test with users” into a simple HCD cycle.  
 _Format:_ Drag‑drop ordering; auto‑graded. · _CSTA:_ E3‑ALG‑HD‑02.
 
-**T05.G3.02 – Identify user needs from a short interview transcript**  
+**T05.G3.02 – Identify user needs from a short interview transcript**
+
+_Dependency:_
+  * T05.G3.01: Put human‑centered design steps in order
+  * T08.G3.01: Use a simple if in a script
+  * T05.G2.03: Recognize when a situation could be simulated
+
 Students read 3–4 lines of a mock interview and select the main need or problem.  
 _Format:_ Text snippet + MCQ; auto‑graded. · _CSTA:_ E3‑ALG‑HD‑02.
 
-**T05.G3.03 – Choose design changes based on simple feedback**  
+**T05.G3.03 – Choose design changes based on simple feedback**
+
+_Dependency:_
+  * T05.G3.02: Identify user needs from a short interview transcript
+  * T08.G3.02: Decide when a single if is enough
+  * T07.G3.01: Use a counted repeat loop
+
 Students read one or two comments from a “user” and pick a change that addresses those comments.  
 _Format:_ Scenario + MCQ; auto‑graded. · _CSTA:_ E3‑ALG‑HD‑02.
 
 ### 3‑B: Plan tiny simulations
 
-**T05.G3.04 – Decide what a simple simulation should show**  
+**T05.G3.04 – Decide what a simple simulation should show**
+
+_Dependency:_
+  * T05.G3.03: Choose design changes based on simple feedback
+  * T08.G3.02: Decide when a single if is enough
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students choose what the main “thing that changes” is in a simple simulation (e.g., plant height, number of cars), thinking about what question they want the simulation to help answer.  
 _Format:_ MCQ; auto‑graded. · _CSTA:_ E3‑DAA‑DI‑02.
 
-**T05.G3.05 – Select simple rules for a simulation**  
+**T05.G3.05 – Select simple rules for a simulation**
+
+_Dependency:_
+  * T05.G3.04: Decide what a simple simulation should show
+  * T08.G3.03: Pick the right conditional block for a scenario
+  * T07.G3.02: Trace a script with a simple loop
+
 Students pick rules such as “if it rains, plant grows taller” from options to define simulation behavior, keeping each rule small and focused on one cause/effect.  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E3‑DAA‑DI‑02.
 
@@ -128,31 +199,67 @@ Strands: **4‑A Personas & scenarios**, **4‑B Accessibility patterns**, **4�
 
 ### 4‑A: Personas & scenarios
 
-**T05.G4.01 – Identify key details in a user persona**  
+**T05.G4.01 – Identify key details in a user persona**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students read a short persona (age, context, goals) and highlight important details that should influence design.  
 _Format:_ Highlight text; auto‑graded. · _CSTA:_ E4‑ALG‑HD‑02.
 
-**T05.G4.02 – Match designs to personas**  
+**T05.G4.02 – Match designs to personas**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students choose which of two app variants better fits a given persona and explain why.  
 _Format:_ MCQ + short explanation; auto‑graded by key phrases. · _CSTA:_ E4‑ALG‑HD‑02.
 
 ### 4‑B: Accessibility patterns
 
-**T05.G4.03 – Recognize common accessibility issues in an interface**  
+**T05.G4.03 – Recognize common accessibility issues in an interface**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students identify issues like tiny text, low contrast, or missing captions in screenshots.  
 _Format:_ Click hotspots; auto‑graded. · _CSTA:_ E4‑ALG‑HD‑02.
 
-**T05.G4.04 – Choose appropriate accessibility improvements**  
+**T05.G4.04 – Choose appropriate accessibility improvements**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Given an issue (e.g., “hard to read”), students select the best matching fix (increase font size, add voice, etc.).  
 _Format:_ Scenario + MCQ; auto‑graded. · _CSTA:_ E4‑ALG‑HD‑02.
 
 ### 4‑C: Simplifying simulations
 
-**T05.G4.05 – Decide what to include vs ignore in a simulation**  
+**T05.G4.05 – Decide what to include vs ignore in a simulation**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students see a real‑world situation and pick 2–3 important factors for the simulation and 1–2 details to ignore.  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E4‑DAA‑DI‑02.
 
-**T05.G4.06 – Explain why a simplification is reasonable**  
+**T05.G4.06 – Explain why a simplification is reasonable**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students choose the best reason for ignoring a given factor (too complex, not needed for the question, etc.).  
 _Format:_ MCQ; auto‑graded. · _CSTA:_ E4‑DAA‑DI‑02.
 
@@ -164,31 +271,73 @@ Strands: **5‑A HCD artifacts (needs, requirements, sketches)**, **5‑B Simula
 
 ### 5‑A: HCD artifacts (needs, requirements, sketches)
 
-**T05.G5.01 – Write clear user needs and requirements for a small app**  
+**T05.G5.01 – Write clear user needs and requirements for a small app**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students fill in a structured form: “User is…,” “They need…,” “App must…,” for a simple app.  
 _Format:_ Template completion; auto‑graded by presence and coherence. · _CSTA:_ E5‑ALG‑HD‑02.
 
-**T05.G5.02 – Create a low‑fidelity sketch for a user story**  
+**T05.G5.02 – Create a low‑fidelity sketch for a user story**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students choose or arrange UI elements to make a wireframe that fits a user story and the requirements they wrote.  
 _Format:_ Drag UI elements onto a blank screen; auto‑graded by required elements. · _CSTA:_ E5‑ALG‑HD‑02.
 
 ### 5‑B: Simulation variables & rules
 
-**T05.G5.03 – Identify variables and initial values for a simulation**  
+**T05.G5.03 – Identify variables and initial values for a simulation**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students list or select variables (e.g., “number of rabbits”) and their starting values from a story, as a planning step before building the simulation in CreatiCode (e.g., T17/T25–T27).  
 _Format:_ Table completion; auto‑graded. · _CSTA:_ E5‑DAA‑DI‑02.
 
-**T05.G5.04 – Draft simple update rules for a simulation**  
+**T05.G5.04 – Draft simple update rules for a simulation**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students choose or write rules for how variables change each step (e.g., “each month, rabbits double”), keeping each rule small and unambiguous so it can be implemented later in code.  
 _Format:_ MCQ or short structured text; auto‑graded. · _CSTA:_ E5‑DAA‑DI‑02.
 
 ### 5‑C: Plan evaluation
 
-**T05.G5.05 – Plan how to test whether a design meets user needs**  
+**T05.G5.05 – Plan how to test whether a design meets user needs**
+
+_Dependency:_
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students write or choose test questions/tasks a user should try (e.g., “Can you find the button to start?”).  
 _Format:_ MCQ + short list; auto‑graded by coverage. · _CSTA:_ E5‑ALG‑HD‑02.
 
-**T05.G5.06 – Plan what to measure in a simulation experiment**  
+**T05.G5.06 – Plan what to measure in a simulation experiment**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students choose what data to record when running a simulation (e.g., population at each step).  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ E5‑DAA‑DI‑02.
 
@@ -200,31 +349,73 @@ Strands: **6‑A Apply HCD principles**, **6‑B User research & feedback cycles
 
 ### 6‑A: Apply HCD principles
 
-**T05.G6.01 – Apply empathy, needs, and accessibility checklist to a design**  
+**T05.G6.01 – Apply empathy, needs, and accessibility checklist to a design**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students review a small app idea and mark where empathy, needs, and accessibility have been considered or are missing.  
 _Format:_ Checklist + highlighting; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑03.
 
-**T05.G6.02 – Propose specific design changes to address all three HCD principles**  
+**T05.G6.02 – Propose specific design changes to address all three HCD principles**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students choose or write 2–3 changes, each tied to empathy, needs, or accessibility.  
 _Format:_ Structured response (changes mapped to principles); auto‑graded. · _CSTA:_ MS‑ALG‑HD‑03.
 
 ### 6‑B: User research & feedback cycles
 
-**T05.G6.03 – Analyze short interview or survey data to extract user needs**  
+**T05.G6.03 – Analyze short interview or survey data to extract user needs**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students read a small set of responses and select common themes or needs.  
 _Format:_ Text + multi‑select; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑03.
 
-**T05.G6.04 – Update a design based on specific user feedback**  
+**T05.G6.04 – Update a design based on specific user feedback**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students read feedback items and decide which design change addresses each one.  
 _Format:_ Match feedback → design change; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑04.
 
 ### 6‑C: Simulation design & justification
 
-**T05.G6.05 – Plan a simple CreatiCode simulation with variables, rules, and UI**  
+**T05.G6.05 – Plan a simple CreatiCode simulation with variables, rules, and UI**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students complete a planning template listing variables, rules, and simple UI for a simulation idea, as a bridge from paper planning (T05/T03) to actual CreatiCode simulations (e.g., physics/data topics).  
 _Format:_ Template; auto‑graded for completeness. · _CSTA:_ MS‑DAA‑DI‑01.
 
-**T05.G6.06 – Justify what is modeled vs simplified in a simulation design**  
+**T05.G6.06 – Justify what is modeled vs simplified in a simulation design**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students select or write brief reasons for including or ignoring certain aspects of reality.  
 _Format:_ MCQ + short answer; auto‑graded. · _CSTA:_ MS‑DAA‑DI‑01.
 
@@ -236,31 +427,73 @@ Strands: **7‑A Accessibility audits**, **7‑B Harms & mitigation**, **7‑C D
 
 ### 7‑A: Accessibility audits
 
-**T05.G7.01 – Perform a checklist‑based accessibility review of a project**  
+**T05.G7.01 – Perform a checklist‑based accessibility review of a project**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students run through a checklist (contrast, keyboard access, captions, timing) on a given project and mark passes/fails.  
 _Format:_ Checklist + project view; auto‑graded by known issues. · _CSTA:_ MS‑ALG‑HD‑04.
 
-**T05.G7.02 – Prioritize which accessibility issues to fix first**  
+**T05.G7.02 – Prioritize which accessibility issues to fix first**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students see a list of identified issues and rank them by severity/impact.  
 _Format:_ Drag‑to‑order; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑04.
 
 ### 7‑B: Harms & mitigation
 
-**T05.G7.03 – Identify potential unintended harms from a design**  
+**T05.G7.03 – Identify potential unintended harms from a design**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students read a project description and select possible harms (privacy, overuse, misinformation, exclusion of some users).  
 _Format:_ Multi‑select; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑04, links to impacts standards.
 
-**T05.G7.04 – Propose one concrete mitigation per harm**  
+**T05.G7.04 – Propose one concrete mitigation per harm**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students match each harm to a suggested mitigation strategy.  
 _Format:_ Match harm → mitigation; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑04.
 
 ### 7‑C: Data‑driven iterations
 
-**T05.G7.05 – Interpret usage or feedback data to find UX problems**  
+**T05.G7.05 – Interpret usage or feedback data to find UX problems**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students interpret a small table/graph of usage or survey data and identify where users struggle.  
 _Format:_ Data reading MCQ; auto‑graded. · _CSTA:_ MS‑DAA‑DI‑02.
 
-**T05.G7.06 – Choose design changes based on data patterns**  
+**T05.G7.06 – Choose design changes based on data patterns**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students select which design changes correspond logically to the identified data issues.  
 _Format:_ Match data issue → change; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑04, MS‑DAA‑DI‑02.
 
@@ -272,31 +505,79 @@ Strands: **8‑A Plan and document HCD projects**, **8‑B Design and analyze si
 
 ### 8‑A: Plan and document HCD projects
 
-**T05.G8.01 – Create a concise design brief with users, goals, and constraints**  
+**T05.G8.01 – Create a concise design brief with users, goals, and constraints**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.G1.03: Choose a better version of a simple screen for a given user
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students complete a brief including target users, design goals, and constraints (device, time, etc.).  
 _Format:_ Structured template; auto‑graded. · _CSTA:_ MS‑ALG‑HD‑03.
 
-**T05.G8.02 – Use XO to critique and refine a design brief**  
+**T05.G8.02 – Use XO to critique and refine a design brief**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.G1.03: Choose a better version of a simple screen for a given user
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students send their brief to XO, collect critique, and incorporate at least two specific refinements.  
 _Format:_ XO interaction + revised brief; auto‑graded by detected changes. · _CSTA:_ MS‑ALG‑HD‑03.
 
 ### 8‑B: Design and analyze simulation experiments
 
-**T05.G8.03 – Plan controlled simulation experiments (change one variable)**  
+**T05.G8.03 – Plan controlled simulation experiments (change one variable)**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students plan experiments where they vary one parameter while holding others constant, stating what they will compare.  
 _Format:_ Table of experiments; auto‑graded. · _CSTA:_ MS‑DAA‑DI‑02.
 
-**T05.G8.04 – Interpret simulation results and connect back to the question**  
+**T05.G8.04 – Interpret simulation results and connect back to the question**
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.G1.02: Match a need to a design idea
+  * T05.G1.03: Choose a better version of a simple screen for a given user
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students view a set of simulation results and choose appropriate conclusions, checking for over‑generalization.  
 _Format:_ Data + MCQ; auto‑graded. · _CSTA:_ MS‑DAA‑DI‑02.
 
 ### 8‑C: Communicate design decisions
 
-**T05.G8.05 – Explain key design decisions in terms of user needs and data**  
+**T05.G8.05 – Explain key design decisions in terms of user needs and data**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students write short explanations tying design choices to evidence from users or data.  
 _Format:_ Short structured explanations; auto‑graded via key reasoning phrases. · _CSTA:_ MS‑ALG‑HD‑03, MS‑DAA‑DI‑02.
 
-**T05.G8.06 – Critique a peer design brief for HCD and simulation quality**  
+**T05.G8.06 – Critique a peer design brief for HCD and simulation quality**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T05.G1.01: Identify what a character needs in a story
+  * T05.GK.03: Decide which version is easier to use
+  * T05.GK.04: Choose a change that makes something easier
+
 Students evaluate a sample design brief, identifying strengths and gaps in user focus and simulation planning.  
 _Format:_ Checklist + short comments; auto‑graded by coverage. · _CSTA:_ MS‑ALG‑HD‑03.
 

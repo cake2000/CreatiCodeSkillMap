@@ -28,11 +28,19 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.GK.02 – Point to where a device “looks” or “listens”
 
+_Dependency:_
+  * T01.GK.03: Find the first and last pictures
+
+
 - **Short name:** Where does it look or listen?  
 - **Description:** Students tap the camera spot on a tablet and the speaker/mic area on a toy or smart speaker, connecting device parts to senses without naming blocks or code.  
 - **Challenge format:** Picture hotspot; auto‑graded.
 
 ### T23.GK.03 – Choose when to uncover or quiet a helper
+
+_Dependency:_
+  * T01.GK.03: Find the first and last pictures
+
 
 - **Short name:** Help the helper sense  
 - **Description:** In short comics (covering a camera with a sticker, talking over loud music), students choose the action that lets the helper sense again (move the sticker, make it quieter).  
@@ -44,17 +52,29 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.G1.01 – Find sensors on everyday devices
 
+_Dependency:_
+  * T01.GK.03: Find the first and last pictures
+
+
 - **Short name:** Point to the sensor  
 - **Description:** Students look at pictures of a tablet, camera toy, smart speaker, and game controller and tap where the camera, microphone, and buttons are.  
 - **Challenge format:** Picture hotspot selection with audio prompts; auto‑graded by clicked regions.
 
 ### T23.G1.02 – Match sensors to human senses
 
+_Dependency:_
+  * T03.GK.02: Match parts to whole objects
+
+
 - **Short name:** Which sense matches?  
 - **Description:** Students drag icons for “see,” “hear,” and “touch” to the matching device sensors (camera, mic, touchpad) to show the parallel between sensors and people.  
 - **Challenge format:** Drag‑drop matching; auto‑graded.
 
 ### T23.G1.03 – Choose what a sensor can notice
+
+_Dependency:_
+  * T01.GK.04: Pick the pictures that make sense
+
 
 - **Short name:** What can this sensor tell you?  
 - **Description:** Given pictures (light/dark room, loud music, soft pillow), students pick which things a camera, microphone, or touchpad can notice and which it cannot (e.g., a microphone can’t see color).  
@@ -66,17 +86,29 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.G2.01 – Pick the right sensor for a job
 
+_Dependency:_
+  * T04.GK.01: Spot a simple repeating pattern
+
+
 - **Short name:** Which sensor should we use?  
 - **Description:** Students see short stories (e.g., “turn on light when someone claps,” “open door when tag is tapped”) and choose camera vs microphone vs touch sensor to solve each task.  
 - **Challenge format:** Scenario + MCQ; auto‑graded.
 
 ### T23.G2.02 – Spot when sensor data might be unclear
 
+_Dependency:_
+  * T23.G2.01: Match a color to a feeling
+
+
 - **Short name:** When might the sensor struggle?  
 - **Description:** Students look at pairs of pictures (bright vs dark room for a camera, quiet vs noisy room for a mic) and pick which one makes it harder for the sensor to understand.  
 - **Challenge format:** Picture pairs; auto‑graded.
 
 ### T23.G2.03 – Notice that devices sometimes “guess”
+
+_Dependency:_
+  * T01.G1.01: Put pictures in order to plant a seed
+
 
 - **Short name:** Does it guess or just follow buttons?  
 - **Description:** Students compare two toys/apps: one reacts only to a button press; another tries to recognize an animal sound. They choose which one is “guessing” from sensor input and which one is just following a direct button command.  
@@ -88,17 +120,35 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.G3.01 – Describe a picture as a grid of tiny colors
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T23.G2.01: Pick the right sensor for a job
+
+
 - **Short name:** Pictures become tiny color squares  
 - **Description:** Students view a photo and its pixelated grid side by side and explain that cameras store pictures as small colored squares. They highlight how changing light changes the squares.  
 - **Challenge format:** Drag/label activity on a provided grid and photo; auto‑graded.
 
 ### T23.G3.02 – Describe sound as a wavy line of loud/soft
 
+_Dependency:_
+  * T23.G3.01: Describe a picture as a grid of tiny colors
+  * T08.G3.01: Use a simple if in a script
+  * T06.G3.04: Decide which event type to use for a behavior
+
+
 - **Short name:** Sounds become waves  
 - **Description:** Students see a simple waveform for a clap vs a whisper and match which wave is which, noting that microphones turn sound into a line that goes up and down.  
 - **Challenge format:** Matching waveforms to sounds; auto‑graded.
 
 ### T23.G3.03 – Tell whether a behavior uses sensing + guessing
+
+_Dependency:_
+  * T23.G3.02: Describe sound as a wavy line of loud/soft
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T07.G3.02: Trace a script with a simple loop
+
 
 - **Short name:** Is this AI-like or just a script?  
 - **Description:** Students read simple stories (e.g., game starts when you press start vs door opens when it “sees” your face) and decide which ones require the device to sense and guess vs ones that follow a fixed button rule.  
@@ -110,17 +160,38 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.G4.01 – Trace how lighting changes pixel data
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Brightness changes the numbers  
 - **Description:** Students use a provided slider UI to dim/brighten a sample image and observe which areas of the pixel grid get darker/brighter, then answer questions about why dark rooms make images harder to read.  
 - **Challenge format:** Interactive slider + questions; auto‑graded from recorded choices.
 
 ### T23.G4.02 – Choose a good setup for mic or camera
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Place the sensor wisely  
 - **Description:** Students pick the best camera angle/light or microphone distance for clear input from 3 illustrated options (e.g., backlit vs front-lit, mic close vs far).  
 - **Challenge format:** Picture MCQ; auto‑graded.
 
 ### T23.G4.03 – Identify noise and simple fixes
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
 
 - **Short name:** What is making this messy?  
 - **Description:** Students see examples of blurry images, shaky video, or noisy audio waves and select a simple fix (steady the device, add light, move to a quiet spot) before any coding happens.  
@@ -132,11 +203,25 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.G5.01 – Compare what people see vs what pixels show
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Human eyes vs pixel grid  
 - **Description:** Students look at a clear photo and its coarse pixel version and explain what detail is lost for the computer but obvious to a person (e.g., small text, faint objects).  
 - **Challenge format:** Short structured response + highlight areas; rubric/auto‑graded checklist.
 
 ### T23.G5.02 – Explain why an AI might mis-hear or mis-see
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Why did it get it wrong?  
 - **Description:** Given a mis-recognized word or image (accent, shadowed face), students pick likely causes (background noise, low light, unusual angle) and suggest one fix (move closer, add light).  
@@ -144,12 +229,26 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T23.G5.03 – Choose safe ways to handle sensor data
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Keep sensor recordings safe  
 - **Description:** Students choose which actions are safe or risky for camera/mic data (e.g., "keep photos only on device" vs "share raw recordings with strangers") linking perception to privacy before coding.  
 - **Challenge format:** Sorting safe/risky statements; auto‑graded.
 - **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
 ### T23.G5.04 – Identify when AI sensing might be unfair
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Spot unfair AI sensing
 - **Description:** Students examine scenarios where AI perception might work poorly for some groups (face recognition in poor lighting, voice recognition with accents) and suggest basic fairness improvements (better lighting, multiple language options).
@@ -164,12 +263,28 @@ Grade 6 students master the core building blocks: mapping speech to UI intents, 
 
 ### T23.G6.01 – Map speech commands to UI widgets
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Voice remote for your app
 - **Description:** Students run `start recognizing speech` / `text from speech`, match the recognized phrase to 3–5 commands ("open map," "start game," "show help"), and trigger matching T16 widgets (e.g., calling `set value` on buttons or toggles). They design both the command list and the fallback text if the phrase is unknown.
 - **Challenge format:** Coding, guided build. Prompt: “Add a voice remote to your multi-screen project.” Students must (1) start/stop speech recognition correctly, (2) normalize the resulting text (lowercase, trim), (3) route each phrase to a widget action, and (4) update a status label with the understood command or “I didn’t hear that.” Auto-grading injects sample transcripts and checks that the right widget fires and unknown phrases trigger the fallback.
 - **CSTA:** MS-PRO-PF-02, MS-ALG-HD-03.
 
 ### T23.G6.02 – Build a two-way voice chatbot loop
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
 
 - **Short name:** Listen, ask ChatGPT, speak back
 - **Description:** Students combine speech-to-text, `OpenAI ChatGPT: request … result [variable]`, and the AI Speaker block (`say [TEXT] in [LANGUAGE] as [VOICE] …`) to build a basic voice assistant. They tune `mode`, `temperature`, and `max tokens` for kid-friendly answers and show the transcript on screen.
@@ -178,6 +293,14 @@ Grade 6 students master the core building blocks: mapping speech to UI intents, 
 
 ### T23.G6.03 – Drive UI elements with live hand detection
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Hand-controlled cursor or slider
 - **Description:** Using `run hand detection table [TABLENAME] debug [ ] show video [ ]`, students read the `x/y` columns for the wrist or index finger and convert them into widget interactions (e.g., move a pointer sprite, adjust a slider, trigger hover states). They must also hide the camera feed when not needed to reduce distraction.
 - **Challenge format:** Coding, interaction build. Prompt: “Create a hand-tracking volume knob.” Students (1) start/stop hand detection via buttons, (2) read from the result table safely (handling empty rows), (3) map positions to a numeric range, and (4) update both a visible widget (slider/label) and a functional variable (e.g., actual volume). Auto-grading simulates detection table values and checks correct mapping plus safe handling when no hand is found.
@@ -185,12 +308,28 @@ Grade 6 students master the core building blocks: mapping speech to UI intents, 
 
 ### T23.G6.04 – Smooth noisy sensor data and recover from dropouts
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Make perception input stable
 - **Description:** Students implement smoothing (moving average, clamp, debounce) on speech or vision signals and add watchdog timers to reinitialize detection if the camera/mic feed drops. Example: average the last 5 wrist positions before moving a sprite; if `text from speech` is empty twice in a row, prompt the user to retry.
 - **Challenge format:** Coding + debugging. Starter project intentionally injects noisy hand positions and random empty speech strings. Students add helper lists/variables, smoothing loops, and timeout logic. Auto-grading runs a noisy script and checks that (1) the UI responds with dampened motion, (2) detection restarts or shows a "Please retry" prompt after timeouts, and (3) no crashes occur when data is missing.
 - **CSTA:** MS-PRO-TR-12.
 
 ### T23.G6.05 – Add consent and privacy controls for sensor use
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
 
 - **Short name:** Build privacy controls for sensors
 - **Description:** Students add clear permission requests before enabling camera/mic detection, provide easy on/off toggles, and implement data retention limits. They explain to users what data is collected and why.
@@ -206,12 +345,28 @@ Grade 7 students orchestrate multi-modal experiences: defining gesture dictionar
 
 ### T23.G7.01 – Define a reusable gesture dictionary
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Store finger curls/dirs as named gestures
 - **Description:** Students capture hand detection output (finger `curl` + `dir`, keypoint positions) into a table, label each pattern (“thumbs up,” “peace sign,” “stop”), and create helper blocks that return the detected gesture name. They prove the system handles at least four gestures plus a “none detected” state.
 - **Challenge format:** Coding, data-structure build. Learners implement a calibration screen where users hold each gesture for two seconds; the app stores averaged values per gesture. During gameplay a loop compares live values to the stored template (tolerance thresholds). Auto-grading feeds synthetic table rows with known gestures and checks that the dictionary lookup returns the correct label or fallback.
 - **CSTA:** MS-PRO-DH-04, MS-PRO-PD-08.
 
 ### T23.G7.02 – Require multimodal confirmation (voice + gesture)
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
 
 - **Short name:** Combine “say it + show it” for critical actions
 - **Description:** Students design safety-critical flows (purchases, deleting saves, launching rockets) that require a matching voice command *and* a specific gesture or pose to proceed. They manage the sequence state (voice heard first? gesture first?) and timeouts so the confirmation expires if not completed promptly.
@@ -220,12 +375,28 @@ Grade 7 students orchestrate multi-modal experiences: defining gesture dictionar
 
 ### T23.G7.03 – Score a pose-based challenge with coaching tips
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Build a pose workout judge
 - **Description:** Using `run 3D pose detection … table [result]`, students detect whether a player meets angle/position thresholds for a sequence (e.g., squat → jump → pose). They award points, display a progress timeline, and surface text tips ("raise elbows higher") based on which landmarks failed the check.
 - **Challenge format:** Coding, interactive challenge. Provided: table-reading helpers and sample target ranges. Students add loops that compare live data to targets, maintain streak counters, and call out corrections in real time. Auto-grading feeds pose data for success/failure cases to ensure scoring and feedback logic behave as intended.
 - **CSTA:** MS-PRO-PF-02, MS-ALG-HD-03.
 
 ### T23.G7.04 – Monitor detection accuracy across different users
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
 
 - **Short name:** Log who the system works for
 - **Description:** Students design an accessibility log, drawing on planning from T05.G5.06, where each time a speech/gesture event succeeds or fails, they store user metadata (age range, device, lighting) plus outcome, then calculate accuracy rates per group. They interpret the data to spot bias (e.g., low-light users have lower success) and propose adjustments.
@@ -235,6 +406,14 @@ Grade 7 students orchestrate multi-modal experiences: defining gesture dictionar
 
 ### T23.G7.06 – Implement fairness safeguards for perception systems
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
+
 - **Short name:** Build anti-bias detection safeguards
 - **Description:** Students implement measures to improve fairness in AI perception: multiple attempts for failed recognition, alternative input methods when sensors struggle, and user feedback collection for system improvement.
 - **Challenge format:** Coding + ethics implementation. Students build comprehensive fairness features including retry mechanisms, alternative interfaces, and bias reporting tools. Auto-grading checks safeguard functionality and user accommodation features.
@@ -242,6 +421,14 @@ Grade 7 students orchestrate multi-modal experiences: defining gesture dictionar
 - **AI4K12:** D2 Bias and Fairness; A3 Human Agency.
 
 ### T23.G7.05 – Build a calibration wizard for sensors
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+  * T23.GK.03: Choose when to uncover or quiet a helper
+
 
 - **Short name:** Help users tune the camera/mic setup
 - **Description:** Students create a multi-step UI wizard (using T16 patterns), informed by T05.G5.01 for user needs, that walks users through microphone checks, lighting tests, and gesture framing. Each step runs a quick sensor test, shows the current readings, and offers fixes ("move closer," "increase room light").
@@ -256,12 +443,28 @@ Grade 8 students treat AI perception as production infrastructure: they support 
 
 ### T23.G8.01 – Offer interchangeable input modes with accessibility rules
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T23.GK.02: Point to where a device “looks” or “listens”
+
+
 - **Short name:** Build a voice/gesture accessibility layer
 - **Description:** Students add a settings panel where users can choose “voice only,” “gesture only,” or “hybrid” control. Each mode automatically updates instructions, disables irrelevant widgets, and logs which mode is active for analytics. They also implement auto-switching if the active sensor fails.
 - **Challenge format:** Coding, systems integration. Learners create a settings widget group, state variables, and mode-specific event handlers. Auto-grading toggles modes and injects sensor failures to verify that the UI updates, disabled inputs no longer fire, and the system switches to a safe fallback when needed.
 - **CSTA:** MS-PRO-PF-02, MS-CAS-ET-06.
 
 ### T23.G8.02 – Train and deploy a custom gesture classifier
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T23.GK.02: Point to where a device “looks” or “listens”
+
 
 - **Short name:** Collect, train, and run your own model
 - **Description:** Students record labeled gesture samples into a table, use `create KNN number classifier from table … named [NAME]`, and then call `predict for table … with classifier [NAME]` in real time to classify new gestures. They compare performance with manual thresholds and document tuning decisions (K value, feature set).
@@ -270,12 +473,28 @@ Grade 8 students treat AI perception as production infrastructure: they support 
 
 ### T23.G8.03 – Fuse voice, pose, and UI widgets into a cooperative simulation
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+
+
 - **Short name:** Run a multi-modal control room
 - **Description:** Students build a scenario (e.g., space mission, emergency drill) where different team members use different modalities simultaneously: one issues spoken commands, another performs gestures to manipulate tools, and an operator confirms via widgets. The system must coordinate timing, prevent conflicts, and surface a live log of events.
 - **Challenge format:** Coding, complex simulation. Learners implement event queues, timestamps, and arbitration rules (e.g., gesture override voice only if within 2 seconds). Auto-grading replays scripted multi-user sequences to check that events are ordered, logs capture source + modality, and conflict rules behave as documented.
 - **CSTA:** MS-PRO-PD-08, MS-ALG-HD-04.
 
 ### T23.G8.04 – Publish a privacy and deployment plan for perception apps
+
+_Dependency:_
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T23.GK.02: Point to where a device “looks” or “listens”
+
 
 - **Short name:** Document how you protect sensor data
 - **Description:** Students research real voice/vision privacy concerns (storage, consent, retention) and, informed by T05.G7.03 (unintended harms) and T05.G8.01 (design brief), write a policy for their app: what data is captured, how long it stays, who sees it, how to request deletion, and when to fall back to offline modes. They tie recommendations to their own logging/calibration features.
@@ -284,6 +503,14 @@ Grade 8 students treat AI perception as production infrastructure: they support 
 - **AI4K12:** D1 Ethical Design; E1 Societal Impacts; A3 Human Agency.
 
 ### T23.G8.05 – Evaluate societal impacts of perception AI systems
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T23.GK.02: Point to where a device “looks” or “listens”
+
 
 - **Short name:** Assess perception AI effects on society
 - **Description:** Students analyze real-world examples of AI perception systems (facial recognition, voice assistants, gesture controls) and evaluate their benefits and risks for different communities. They propose guidelines for responsible deployment.

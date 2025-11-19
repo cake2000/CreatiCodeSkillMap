@@ -27,12 +27,20 @@ Kindergarten students play with picture cards, stickers, and drag‑and‑drop m
 
 ### T20.GK.02 – Order art steps with cards
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
+
 - **Short name:** Arrange art step cards
 - **Description:** Learners drag picture cards showing steps like “dip brush,” “draw circle,” “sprinkle dots” to match a finished drawing. They reason about sequence without any text.
 - **Challenge format:** Picture sequencing. Provide a final art image and 3–4 step cards; students drag cards into the correct order. Auto-grading compares their order to the key.
 - **CSTA:** EK‑ALG‑AF‑01.
 
 ### T20.GK.03 – Continue the pattern trail
+
+_Dependency:_
+  * T04.GK.01: Spot a simple repeating pattern
+
 
 - **Short name:** Extend a pattern path
 - **Description:** Students continue a pattern along a dotted path (e.g., flower-heart-flower-heart). They focus on spatial placement and rhythm.
@@ -54,12 +62,20 @@ Grade 1 learners describe patterns verbally, connect step-by-step directions to 
 
 ### T20.G1.01 – Describe the art rule in words
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
+
 - **Short name:** Tell the pattern rule
 - **Description:** Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language (“two tiny, one big”).
 - **Challenge format:** Concept, multiple choice with audio. Provide 2–3 possible “rules”; students select the one that matches. Auto-grading checks selected statements.
 - **CSTA:** E1‑ALG‑AF‑01.
 
 ### T20.G1.02 – Match directions to drawings
+
+_Dependency:_
+  * T03.GK.02: Match parts to whole objects
+
 
 - **Short name:** Match art directions to pictures
 - **Description:** Learners match a simple written/audio direction set (“draw a blue square, then add three yellow dots under it”) to the drawing it would produce.
@@ -68,12 +84,20 @@ Grade 1 learners describe patterns verbally, connect step-by-step directions to 
 
 ### T20.G1.03 – Extend a quilt on a grid
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
+
 - **Short name:** Continue the grid pattern
 - **Description:** Students complete a 2×3 or 3×3 art grid by adding the next tiles so the pattern continues horizontally and vertically.
 - **Challenge format:** Drag tiles from a palette to empty squares in the grid. Auto-grading compares placement to the expected repeating pattern.
 - **CSTA:** E1‑ALG‑AF‑01.
 
 ### T20.G1.04 – Fix a wrong instruction
+
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
 
 - **Short name:** Debug art directions
 - **Description:** Students hear or read a short art direction set with one incorrect step. They must choose the replacement that will restore the target pattern.
@@ -88,12 +112,21 @@ Grade 2 bridges from descriptive art talk to structured “recipes.” Learners 
 
 ### T20.G2.01 – Use repeat cards in an art recipe
 
+_Dependency:_
+  * T01.G1.04: Predict the next step in a story sequence
+
+
 - **Short name:** Shorten art instructions
 - **Description:** Students compare two instruction sets for the same border: one long (“red square, red square, red square…”) and one that uses a repeat card (“repeat red square 4 times”). They choose the concise, accurate version.
 - **Challenge format:** Concept/sort. Provide pairs of instruction strips; students drag a “best recipe” badge to the correct one. Auto-grading checks the selection.
 - **CSTA:** E2‑ALG‑AF‑01.
 
 ### T20.G2.02 – Plan mirrored mosaics
+
+_Dependency:_
+  * T05.G1.01: Identify what a character needs in a story
+  * T01.G1.04: Predict the next step in a story sequence
+
 
 - **Short name:** Mirror art plans
 - **Description:** Learners arrange tiles on one side of a line and then plan what tiles should appear on the other side so the design is symmetrical.
@@ -102,12 +135,21 @@ Grade 2 bridges from descriptive art talk to structured “recipes.” Learners 
 
 ### T20.G2.03 – Build layered pattern recipes
 
+_Dependency:_
+  * T20.G2.01: Identify win and lose in a simple game
+
+
 - **Short name:** Layered art instructions
 - **Description:** Students interpret a two-layer instruction (e.g., “repeat row A three times, then repeat row B once”) to build a stacked design out of strips.
 - **Challenge format:** Interactive builder. Provide labeled row cards and ask learners to stack them on a canvas. Auto-grading checks ordering against the recipe.
 - **CSTA:** E2‑PRO‑PF‑01.
 
 ### T20.G2.04 – Explain how a change affects the art
+
+_Dependency:_
+  * T01.G1.01: Put pictures in order to plant a seed
+  * T01.G1.04: Predict the next step in a story sequence
+
 
 - **Short name:** Predict art changes
 - **Description:** Students consider “what-if” prompts (e.g., “What happens if the second color changes from blue to green?”) and explain how the final pattern would change.
@@ -122,12 +164,24 @@ Grade 3 is the transition into CreatiCode blocks. Students still begin with unpl
 
 ### T20.G3.01 – Translate art recipe cards into blocks
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T20.G2.01: Use repeat cards in an art recipe
+
+
 - **Short name:** From cards to blocks
 - **Description:** Given a familiar art recipe (e.g., “draw a triangle, change color, repeat”), students select the block stack that matches the steps. This cements the link between unplugged thinking and coding.
 - **Challenge format:** Concept, multiple choice. Show 2–3 short block stacks; students choose the one that matches a pictured recipe. Auto-grading checks the match.
 - **CSTA:** E3‑PRO‑PF‑01.
 
 ### T20.G3.02 – Program a repeating border with loops
+
+_Dependency:_
+  * T20.G3.01: Translate art recipe cards into blocks
+  * T08.G3.01: Use a simple if in a script
+  * T18.G3.02: Match camera views to 3D layouts
+
 
 - **Short name:** Loop-based border
 - **Description:** Students write a simple pen program that repeats a sequence (stamp star, move right) using a `repeat` block. They see how loops reduce effort.
@@ -136,6 +190,13 @@ Grade 3 is the transition into CreatiCode blocks. Students still begin with unpl
 
 ### T20.G3.03 – Tile a grid with nested loops
 
+_Dependency:_
+  * T20.G3.02: Program a repeating border with loops
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T07.G3.02: Trace a script with a simple loop
+  * T18.G3.03: Initialize a 3D scene with default lighting
+
+
 - **Short name:** Grid tiler
 - **Description:** Learners combine two loops—one for columns, one for rows—to fill a small grid with a pattern tile. This is the first double-loop exposure in an art context.
 - **Challenge format:** Coding challenge. Provide starter code for one row; students nest loops to cover a 3×3 grid. Auto-grading checks loop nesting and final output.
@@ -143,12 +204,24 @@ Grade 3 is the transition into CreatiCode blocks. Students still begin with unpl
 
 ### T20.G3.04 – Trace a pen loop and predict output
 
+_Dependency:_
+  * T20.G3.03: Tile a grid with nested loops
+  * T08.G3.02: Decide when a single if is enough
+  * T18.G3.04: Add primitive shapes with 3D blocks
+
+
 - **Short name:** Trace simple art loops
 - **Description:** Students read a short script (loop drawing squares) and predict how many shapes or what final layout appears.
 - **Challenge format:** Concept, code-tracing. Provide code and multiple-choice answers describing the resulting picture. Auto-grading compares predictions to simulation results.
 - **CSTA:** E3‑ALG‑AF‑01.
 
 ### T20.G3.05 – Add simple randomness for variety
+
+_Dependency:_
+  * T20.G3.04: Trace a pen loop and predict output
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T07.G3.03: Build a forever loop for simple animation
+
 
 - **Short name:** Random color sprinkles
 - **Description:** Students extend a loop-based drawing by adding `pick random` for pen color or small position shifts, producing playful variations each run.
@@ -162,6 +235,14 @@ Grade 3 is the transition into CreatiCode blocks. Students still begin with unpl
 Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellations, modular code, and basic interactivity.
 
 ### T20.G4.01 – **[Technical Skill]** Implement incremental loops for spirals
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Spiral algorithms (technical)
 - **Description:** Students write a loop that increases a variable (distance or angle) each iteration to create mathematical spiral patterns. They focus on the technical implementation of incremental variables and loop mechanics.
@@ -177,6 +258,13 @@ Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellatio
 
 ### T20.G4.02 – **[Technical Skill]** Implement tessellation with custom blocks
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Tessellation algorithms (technical)
 - **Description:** Students create a custom block (introduced in T11.G4.01) that draws a geometric tile pattern, then use nested loops to repeat it across the stage. They focus on modular code structure and coordinate calculations.
 - **Challenge format:** Coding challenge. Students implement custom block creation and nested loop tiling logic. Auto-grading checks for correct custom block usage, loop structure, and coordinate accuracy.
@@ -191,6 +279,13 @@ Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellatio
 
 ### T20.G4.03 – Control art with parameters
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Variable-powered art
 - **Description:** Students expose variables (e.g., sides, size, rotation) through sliders or input prompts and show how changing a value reshapes the art.
 - **Challenge format:** Coding, starter project with UI widgets. Auto-grading confirms variables are read and used in calculations, and output changes when values change.
@@ -198,12 +293,28 @@ Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellatio
 
 ### T20.G4.04 – Debug a multi-loop art script
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+
+
 - **Short name:** Fix loopy art bugs
 - **Description:** Students receive a script whose nested loops miscount, overlap, or use the wrong color. They identify the issue and adjust counts, moves, or color changes.
 - **Challenge format:** Coding, debugging. Provide buggy starter file; students edit and resubmit. Auto-grading checks that the final art matches the target image.
 - **CSTA:** E4‑PRO‑TR‑01.
 
 ### T20.G4.05 – Recolor art with simple input events
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Button-based recolor
 - **Description:** Learners add a button or key event that recolors or re-draws the art tile with a different palette, introducing light interactivity before full animations.
@@ -217,6 +328,13 @@ Grade 4 deepens algorithmic techniques: variable-controlled spirals, tessellatio
 Grade 5 blends algorithmic art with data, motion, and input. Students create self-updating or interactive pieces and begin exploring fractal-like repetition.
 
 ### T20.G5.01 – **[Technical Skill]** Implement data-driven visualization algorithms
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Data mapping algorithms (technical)
 - **Description:** Students read values from a list and implement algorithms to map data to visual properties (heights, lengths, positions). They focus on the technical aspects of data processing and coordinate calculations.
@@ -232,12 +350,26 @@ Grade 5 blends algorithmic art with data, motion, and input. Students create sel
 
 ### T20.G5.02 – Animate a pattern with a counter variable
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.04: Fix the mixed-up art plan
+
+
 - **Short name:** Animated pattern loop
 - **Description:** Students use a forever loop plus a counter variable to gradually grow, rotate, or fade a pattern.
 - **Challenge format:** Coding, animation project. Provide starter stage; students add counter logic. Auto-grading inspects for variable updates every frame and visible animation.
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T20.G5.03 – Make art respond to mouse or keys
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Interactive art reaction
 - **Description:** Students add event handlers so art changes when the cursor moves, the mouse clicks, or keys are pressed.
@@ -246,12 +378,26 @@ Grade 5 blends algorithmic art with data, motion, and input. Students create sel
 
 ### T20.G5.04 – Create fractal-like nested patterns
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
+
 - **Short name:** Fractal preview art
 - **Description:** Students draw a pattern, then nest smaller versions inside or around it using loops/custom blocks, mimicking fractal depth without formal recursion.
 - **Challenge format:** Coding, creative challenge. Provide hints for scaling values. Auto-grading checks for repeated scaled shapes and layered visuals.
 - **CSTA:** E5‑PRO‑PF‑01, DAA‑DI.
 
 ### T20.G5.05 – Explain data-to-visual design choices
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Explain your data art
 - **Description:** Learners justify why certain colors, sizes, or motions represent data categories, reinforcing the data-art connection.
@@ -266,12 +412,28 @@ Grade 6 students analyze more complex scripts, refactor for clarity, and connect
 
 ### T20.G6.01 – Trace and explain an art algorithm
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Explain art code
 - **Description:** Students examine annotated code containing nested loops, variables, and color changes and explain what each section contributes to the final artwork.
 - **Challenge format:** Concept, code analysis. Provide multiple questions about sections; auto-grading checks responses via multiple choice or structured prompts.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T20.G6.02 – Refactor repetitive art into loops/custom blocks
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
 
 - **Short name:** Refactor art scripts
 - **Description:** Learners take a long, repetitive art script and reorganize it with loops or custom blocks without changing the visual result.
@@ -280,12 +442,29 @@ Grade 6 students analyze more complex scripts, refactor for clarity, and connect
 
 ### T20.G6.03 – Use variables and conditionals to branch designs
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
+
 - **Short name:** Conditional art branches
 - **Description:** Students create art where colors/shapes change based on variable thresholds (e.g., alternate palette when index is even, draw special motif every 5th loop).
 - **Challenge format:** Coding. Auto-grading checks for valid `if/else` logic tied to visuals.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
 ### T20.G6.04 – **[Technical Skill]** Implement complex data visualization algorithms
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
 
 - **Short name:** Advanced data algorithms (technical)
 - **Description:** Students implement algorithms to process structured data (list of objects, CSV import) and map multiple data fields to visual properties using iteration and conditional logic.
@@ -301,6 +480,14 @@ Grade 6 students analyze more complex scripts, refactor for clarity, and connect
 
 ### T20.G6.05 – Apply math transformations to art
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Math-powered art curves
 - **Description:** Learners use formulas (e.g., sine/cosine, coordinate rotation) to produce smoother curves or waves and explain the relationship between the formula and resulting pattern.
 - **Challenge format:** Coding with analysis prompt. Auto-grading checks calculation blocks and includes a short conceptual response rubric.
@@ -314,12 +501,28 @@ Grade 7 shifts toward optimization, advanced control flow, and real-world inspir
 
 ### T20.G7.01 – Compare efficiency of art algorithms
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Efficient art choices
 - **Description:** Students evaluate two code samples that draw the same design but with different performance characteristics. They choose the more efficient approach and justify why.
 - **Challenge format:** Concept, code comparison. Auto-grading checks the selected option and reasoning stem.
 - **CSTA:** MS‑ALG‑AF‑02, MS‑PRO‑PF‑01.
 
 ### T20.G7.02 – Use while/repeat-until loops in art
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
 
 - **Short name:** Data-dependent loops
 - **Description:** Learners replace fixed `repeat` blocks with `repeat until` or `while` loops so a drawing continues until reaching a boundary or meeting a condition.
@@ -328,6 +531,14 @@ Grade 7 shifts toward optimization, advanced control flow, and real-world inspir
 
 ### T20.G7.03 – Study parameter impact on aesthetics
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Parameter experiments
 - **Description:** Students systematically adjust parameters (randomness, angle change, speed) and document how each change affects symmetry, balance, or density.
 - **Challenge format:** Interactive exploration plus reflection. Auto-grading checks recorded observations.
@@ -335,12 +546,28 @@ Grade 7 shifts toward optimization, advanced control flow, and real-world inspir
 
 ### T20.G7.04 – Analyze real generative artworks
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
+
 - **Short name:** Reverse engineer art
 - **Description:** Students examine professional algorithmic art or natural patterns and infer what loops, math, or randomness likely generated them.
 - **Challenge format:** Concept, written/audio analysis referencing provided images. Auto-grading uses rubric keywords.
 - **CSTA:** MS‑ALG‑AF‑02, CAS‑ET.
 
 ### T20.G7.05 – Implement iterative art rules (L-system lite)
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.04: Fix the mixed-up art plan
+  * T28.G3.04: Describe randomness in games they play
+
 
 - **Short name:** Rule-based growth art
 - **Description:** Learners implement a simple iterative rule system (e.g., start with a line, replace with “line+turn” each round) to approximate branching plants or snowflakes.
@@ -354,6 +581,14 @@ Grade 7 shifts toward optimization, advanced control flow, and real-world inspir
 Grade 8 synthesizes algorithmic art with advanced data, generative constraints, ethics, and performance tuning.
 
 ### T20.G8.01 – **[Technical Skill]** Implement multi-dimensional data mapping algorithms
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Complex data algorithms (technical)
 - **Description:** Students implement sophisticated algorithms to map multiple data attributes simultaneously to different visual channels (size, color, motion, position) using advanced programming techniques.
@@ -369,12 +604,28 @@ Grade 8 synthesizes algorithmic art with advanced data, generative constraints, 
 
 ### T20.G8.02 – Create constrained generative artwork
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
+
 - **Short name:** Constrained generative art
 - **Description:** Learners combine randomness with guardrails (palettes, symmetry rules, bounding boxes) so output is unique yet cohesive.
 - **Challenge format:** Coding, creative challenge. Auto-grading runs multiple executions to ensure variation while respecting constraints.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
 ### T20.G8.03 – Evaluate creative and social implications
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Algorithms and creativity
 - **Description:** Students critique algorithmic art a) as a creative practice and b) for potential cultural/ethical impacts (e.g., who owns generated art, how algorithms encode bias).
@@ -383,12 +634,28 @@ Grade 8 synthesizes algorithmic art with advanced data, generative constraints, 
 
 ### T20.G8.04 – Optimize rendering for performance
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
+
 - **Short name:** Performance tuning for art
 - **Description:** Learners profile a slow project, identify bottlenecks (excess clones, redundant drawing), and refactor to hit a target frame rate.
 - **Challenge format:** Coding, optimization challenge. Auto-grading measures execution time and checks for reduced block counts or smarter logic.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
 
 ### T20.G8.05 – Combine multiple algorithms in an art pipeline
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T20.GK.03: Continue the pattern trail
+  * T20.GK.04: Fix the mixed-up art plan
+
 
 - **Short name:** Multi-stage art pipeline
 - **Description:** Students integrate data, noise/randomness, and animation phases to create a cohesive experience (e.g., start with a data-informed layout, overlay noise-based textures, animate highlights).

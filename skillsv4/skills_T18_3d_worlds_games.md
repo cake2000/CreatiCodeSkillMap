@@ -24,12 +24,24 @@ Grade 3 starts with lightweight conceptual checks (axes, camera views) and quick
 
 ### T18.G3.01 – Interpret 3D axis directions
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T18.G2.01: Unknown skill
+  * T03.G2.01: Choose subtasks for a simple project idea
+
+
 - **Short name:** Interpret x/y/z directions
 - **Description:** Students read a labeled axis diagram or CreatiCode gizmo and identify which axis controls width, height, and depth, linking math vocabulary to the 3D stage.
 - **Challenge format:** Concept, diagram interpretation. Auto-grading checks the selected axis labels.
 - **CSTA:** E3‑DAA‑DF‑01.
 
 ### T18.G3.02 – Match camera views to 3D layouts
+
+_Dependency:_
+  * T18.G3.01: Interpret 3D axis directions
+  * T07.G3.01: Use a counted repeat loop
+  * T18.G2.02: Unknown skill
+
 
 - **Short name:** Match camera views in 3D
 - **Description:** Students compare front/top/side snapshots of the same object arrangement and match each snapshot to the correct camera icon, understanding how viewpoint affects what they see before coding cameras.
@@ -38,12 +50,25 @@ Grade 3 starts with lightweight conceptual checks (axes, camera views) and quick
 
 ### T18.G3.03 – Initialize a 3D scene with default lighting
 
+_Dependency:_
+  * T18.G3.02: Match camera views to 3D layouts
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T07.G3.02: Trace a script with a simple loop
+  * T03.G3.03: Create a 3‑panel storyboard for a project
+
+
 - **Short name:** Start a 3D scene
 - **Description:** Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D world` block (choosing stage size, sky color, default light) so every run begins with a clean scene.
 - **Challenge format:** Coding, guided setup. Auto-grading checks that the initialization block runs at start-up and that camera and lighting reset.
 - **CSTA:** E3‑PRO‑PF‑01.
 
 ### T18.G3.04 – Add primitive shapes with 3D blocks
+
+_Dependency:_
+  * T18.G3.03: Initialize a 3D scene with default lighting
+  * T08.G3.01: Use a simple if in a script
+  * T18.G2.04: Unknown skill
+
 
 - **Short name:** Add 3D shapes with blocks
 - **Description:** Students use the `add box/sphere/cylinder` blocks to place primitives in the scene and adjust their size parameters.
@@ -52,12 +77,24 @@ Grade 3 starts with lightweight conceptual checks (axes, camera views) and quick
 
 ### T18.G3.05 – Position shapes using x/y/z coordinates
 
+_Dependency:_
+  * T18.G3.04: Add primitive shapes with 3D blocks
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T08.G3.02: Decide when a single if is enough
+
+
 - **Short name:** Place shapes with coordinates
 - **Description:** Students set `x`, `y`, and `z` values (or use `go to x:y:z`) to move an object to a target location, connecting coordinate plans from earlier math/diagram skills (T02/T25) to actual blocks.
 - **Challenge format:** Coding, starter project with coordinate target markers. Auto-grading compares the final position to the expected coordinates.
 - **CSTA:** E3‑DAA‑DF‑01.
 
 ### T18.G3.06 – Change shape colors or textures
+
+_Dependency:_
+  * T18.G3.05: Position shapes using x/y/z coordinates
+  * T07.G3.03: Build a forever loop for simple animation
+  * T03.G3.04: Match storyboard panels to project scenes
+
 
 - **Short name:** Color or texture shapes
 - **Description:** Students use 3D styling blocks (set color, set texture, adjust opacity) to differentiate objects such as making the ground green and a sphere metallic.
@@ -66,12 +103,24 @@ Grade 3 starts with lightweight conceptual checks (axes, camera views) and quick
 
 ### T18.G3.07 – Move a 3D player with keyboard input
 
+_Dependency:_
+  * T18.G3.06: Change shape colors or textures
+  * T08.G3.03: Pick the right conditional block for a scenario
+  * T09.G3.03: Debug missing or wrong variable updates
+
+
 - **Short name:** Move a 3D player with keys
 - **Description:** Students build a `forever` loop that checks arrow keys (or WASD) and `change x/z` so a player cube can walk around the scene.
 - **Challenge format:** Coding, starter project. Auto-grading runs scripted key presses to confirm the cube moves correctly along both axes.
 - **CSTA:** E3‑PRO‑PF‑01.
 
 ### T18.G3.08 – Trace a short 3D script to predict positions
+
+_Dependency:_
+  * T18.G3.07: Move a 3D player with keyboard input
+  * T11.G3.01: Understand when to use custom blocks vs loops
+  * T07.G3.04: Use repeat‑until to reach a simple goal
+
 
 - **Short name:** Trace simple 3D scripts
 - **Description:** Students read a short 3D script that changes `x`, `y`, and rotation values and predict the final position/orientation without running it, reinforcing spatial reasoning.
@@ -86,12 +135,26 @@ Grade 4 scales up to full scenes with lighting, cameras, imported models, and am
 
 ### T18.G4.01 – Compose a multi-part 3D scene with primitives
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G3.08: Trace a short 3D script to predict positions
+
+
 - **Short name:** Compose 3D set pieces
 - **Description:** Students create a floor, obstacles, and backdrop objects using multiple primitives, aligning them precisely to build a room, park, or racetrack.
 - **Challenge format:** Coding, creative build with auto-check. Auto-grading inspects that required objects exist with correct spacing and heights.
 - **CSTA:** E4‑PRO‑PF‑01.
 
 ### T18.G4.02 – Configure ambient and directional lighting
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G3.08: Trace a short 3D script to predict positions
+
 
 - **Short name:** Set ambient and directional lights
 - **Description:** Students place an ambient light plus at least one directional light (sunlight/spotlight) and tune color/intensity to achieve the requested mood.
@@ -100,12 +163,26 @@ Grade 4 scales up to full scenes with lighting, cameras, imported models, and am
 
 ### T18.G4.03 – Create a following or orbiting camera
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G3.08: Trace a short 3D script to predict positions
+
+
 - **Short name:** Add follow/orbit camera controls
 - **Description:** Students use camera blocks to attach the camera to a player or orbit around a point, adjusting offsets for a smooth third-person or fly-around view.
 - **Challenge format:** Coding, starter project with a moving target. Auto-grading simulates movement and checks that the camera follows/orbits as specified.
 - **CSTA:** E4‑PRO‑PF‑01.
 
 ### T18.G4.04 – Place imported or premade 3D models
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G3.08: Trace a short 3D script to predict positions
+
 
 - **Short name:** Place 3D model assets
 - **Description:** Students insert a prebuilt CreatiCode model (e.g., tree, car, character) and align it with primitives, learning how to mix asset types in one scene.
@@ -114,12 +191,27 @@ Grade 4 scales up to full scenes with lighting, cameras, imported models, and am
 
 ### T18.G4.05 – Animate scenery elements with loops
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G3.08: Trace a short 3D script to predict positions
+
+
 - **Short name:** Animate scenery loops
 - **Description:** Students create looping animations for props (windmill spinning, lights pulsing, platforms bobbing) by combining `forever` loops with rotation/position changes.
 - **Challenge format:** Coding, starter project. Auto-grading watches the animation for correct speed, axis, and repetition.
 - **CSTA:** E4‑PRO‑PF‑01.
 
 ### T18.G4.06 – Trigger events when 3D objects touch
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G3.07: Move a 3D player with keyboard input
+
 
 - **Short name:** Trigger events on 3D contact
 - **Description:** Students detect when the player touches a token or when two objects get within a distance threshold and respond by playing a sound, updating score, or showing dialog.
@@ -134,12 +226,26 @@ Grade 5 brings in 3D physics, repeated level layout, and scene polish. These ski
 
 ### T18.G5.01 – Initialize a 3D physics world
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+
 - **Short name:** Start 3D physics
 - **Description:** Students add the CreatiCode 3D physics initialization block, set gravity for X/Y/Z, and confirm the debug overlay shows the physics world running before gameplay starts.
 - **Challenge format:** Coding, guided setup. Auto-grading checks that physics initializes exactly once with the specified gravity vector.
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T18.G5.02 – Attach static and dynamic physics bodies
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+
 
 - **Short name:** Give objects 3D physics bodies
 - **Description:** Students configure which shapes are static (floors, walls) and which are dynamic (player, crates) by setting mass, restitution, and body type so objects react to gravity.
@@ -148,12 +254,28 @@ Grade 5 brings in 3D physics, repeated level layout, and scene polish. These ski
 
 ### T18.G5.03 – Detect physics collisions to collect items
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G4.05: Animate scenery elements with loops
+
+
 - **Short name:** Collect items with physics collisions
 - **Description:** Students use collision event blocks (e.g., `when body A hits body B`) to change score, remove coins, or play sounds when the player touches collectibles.
 - **Challenge format:** Coding, starter project. Auto-grading simulates collisions and checks that the event fires once per contact and updates state correctly.
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T18.G5.04 – Use nested loops to arrange 3D objects in grids
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G4.05: Animate scenery elements with loops
+
 
 - **Short name:** Arrange objects in 3D grids
 - **Description:** Students apply nested loops to stamp or spawn platforms, trees, or tiles at evenly spaced coordinates, optionally varying height for stepped terrain.
@@ -162,12 +284,26 @@ Grade 5 brings in 3D physics, repeated level layout, and scene polish. These ski
 
 ### T18.G5.05 – Apply detailed textures or materials to surfaces
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+
 - **Short name:** Texture large surfaces
 - **Description:** Students use material blocks to apply tileable textures, adjust UV scaling, or mix colors and normal maps so surfaces like walls or roads look realistic.
 - **Challenge format:** Coding, starter project. Auto-grading checks that specified objects have the requested texture/material settings.
 - **CSTA:** E5‑SAS‑IM‑01.
 
 ### T18.G5.06 – Add global fog or particle effects for atmosphere
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+
 
 - **Short name:** Add simple 3D effects
 - **Description:** Students enable fog, glow, or particle emitters (e.g., falling snow, magical sparks) and tune their color, density, and bounds so the effect supports gameplay feedback.
@@ -182,12 +318,26 @@ Grade 6 focuses on systems thinking: selective collisions, code quality, advance
 
 ### T18.G6.01 – Set up collision groups for selective interaction
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+
 - **Short name:** Collision groups for game logic
 - **Description:** Students assign 3D physics bodies to collision groups or masks so only certain pairs collide (player with platforms/coins, enemies avoiding one another, projectiles passing through decorations) to fine-tune game logic.
 - **Challenge format:** Coding, starter project with multiple body types. Auto-grading spawns test objects to confirm only the requested collisions occur.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T18.G6.02 – Trace a multi-step 3D script to predict positions
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G5.05: Apply detailed textures or materials to surfaces
+
 
 - **Short name:** Trace complex 3D scripts
 - **Description:** Students read a longer script that mixes coordinate changes, rotations, and camera commands (e.g., orbit, zoom) and predict final object positions or camera headings without running it.
@@ -196,6 +346,15 @@ Grade 6 focuses on systems thinking: selective collisions, code quality, advance
 
 ### T18.G6.03 – Refactor repeated 3D object creation into a loop or function
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G5.05: Apply detailed textures or materials to surfaces
+
+
 - **Short name:** Refactor 3D object creation
 - **Description:** Students rewrite scripts that manually duplicate “add object / set transform” blocks into loops or custom functions, reducing duplication when spawning many props.
 - **Challenge format:** Coding, refactor challenge. Auto-grading checks that a loop/function is used and scene output matches the original.
@@ -203,12 +362,28 @@ Grade 6 focuses on systems thinking: selective collisions, code quality, advance
 
 ### T18.G6.04 – Implement a camera with mouse look
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G5.06: Add global fog or particle effects for atmosphere
+
+
 - **Short name:** Mouse-look camera control
 - **Description:** Students map mouse movement to camera yaw/pitch to build a smooth first-person or free-look camera, including clamping pitch to avoid flipping.
 - **Challenge format:** Coding, starter project. Auto-grading simulates mouse motion and verifies the camera rotates correctly.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T18.G6.05 – Trigger advanced visual effects on events
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G5.05: Apply detailed textures or materials to surfaces
+  * T18.G5.06: Add global fog or particle effects for atmosphere
+
 
 - **Short name:** Trigger advanced 3D effects
 - **Description:** Students enable or disable advanced effects (bloom, spotlight cones, burst particles) in response to events such as power-ups or low health, coordinating visuals with game state.
@@ -223,12 +398,28 @@ Grade 7 builds sophisticated mechanics: AI navigation, tuned physics responses, 
 
 ### T18.G7.01 – Implement pathfinding or waypoint-based NPC movement
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G6.05: Trigger advanced visual effects on events
+
+
 - **Short name:** NPC navigation in 3D
 - **Description:** Students code an NPC that follows waypoints, patrols, or chases the player by computing direction vectors and adjusting movement speed smoothly.
 - **Challenge format:** Coding, starter project. Auto-grading measures NPC paths against expected routes or ensures it catches up to the player.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T18.G7.02 – Design collision response for bouncing or sliding
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G6.04: Implement a camera with mouse look
+  * T18.G6.05: Trigger advanced visual effects on events
+
 
 - **Short name:** Custom collision response
 - **Description:** Students tweak restitution, friction, or apply impulses on collision to achieve different results (bouncy projectiles, sliding ice blocks, sticky platforms).
@@ -237,6 +428,14 @@ Grade 7 builds sophisticated mechanics: AI navigation, tuned physics responses, 
 
 ### T18.G7.03 – Use 3D coordinates and distance calculations for game mechanics
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G6.04: Implement a camera with mouse look
+  * T18.G6.05: Trigger advanced visual effects on events
+
+
 - **Short name:** Distance and coordinate calculations in 3D
 - **Description:** Students compute 3D distances (using built-in `distance to` or math) to trigger events such as proximity mines, safe zones, or camera shakes.
 - **Challenge format:** Coding, starter project. Auto-grading positions the player at various distances and checks whether events fire correctly.
@@ -244,12 +443,28 @@ Grade 7 builds sophisticated mechanics: AI navigation, tuned physics responses, 
 
 ### T18.G7.04 – Implement a physics-based puzzle mechanic
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G6.05: Trigger advanced visual effects on events
+
+
 - **Short name:** Physics-based puzzle
 - **Description:** Students combine physics bodies, triggers, and environmental interactions to design a solvable puzzle (e.g., push blocks onto switches, roll a ball through ramps).
 - **Challenge format:** Coding, creative challenge with rubric + auto-check. Auto-grading confirms required mechanics (physics enabled, win condition detected) exist.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T18.G7.05 – Script camera transitions for cutscenes
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G6.05: Trigger advanced visual effects on events
+
 
 - **Short name:** Scripted 3D camera moments
 - **Description:** Students choreograph mini-cutscenes by moving the camera through a list of positions/targets, blending easing functions to introduce or conclude levels.
@@ -264,12 +479,28 @@ Grade 8 focuses on systems integration, scalability, and reflective design choic
 
 ### T18.G8.01 – Implement a level editor or dynamic level loading
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G7.04: Implement a physics-based puzzle mechanic
+
+
 - **Short name:** Load and switch between 3D levels
 - **Description:** Students store level data in lists or records and write code to spawn objects per level, supporting editing, replay, and difficulty scaling.
 - **Challenge format:** Coding, starter project. Auto-grading ensures at least two levels load correctly and data structures contain requested entries.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DF.
 
 ### T18.G8.02 – Use multiple cameras to implement split-screen or UI view
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G7.04: Implement a physics-based puzzle mechanic
+  * T18.G7.05: Script camera transitions for cutscenes
+
 
 - **Short name:** Multiple camera systems
 - **Description:** Students create two camera feeds (main gameplay plus minimap/UI or split-screen for multiplayer) and manage when each renders.
@@ -278,12 +509,28 @@ Grade 8 focuses on systems integration, scalability, and reflective design choic
 
 ### T18.G8.03 – Analyze and optimize a 3D game for performance
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G7.04: Implement a physics-based puzzle mechanic
+  * T18.G7.05: Script camera transitions for cutscenes
+
+
 - **Short name:** Optimize 3D performance
 - **Description:** Students profile a sluggish 3D project, identify bottlenecks (too many clones, physics bodies, or draw calls), and refactor using pooling, culling, or simplified meshes to improve frame rate.
 - **Challenge format:** Coding/debugging. Auto-grading measures frame time before/after and checks for required optimizations.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
 
 ### T18.G8.04 – Analyze trade-offs in 3D game design decisions
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.G3.01: Move a sprite with arrow keys (4 directions)
+  * T18.G7.04: Implement a physics-based puzzle mechanic
+
 
 - **Short name:** Justify 3D design choices
 - **Description:** Students review a completed 3D project and explain design choices (physics vs manual motion, camera placement, effect usage), citing pros and cons relative to requirements.

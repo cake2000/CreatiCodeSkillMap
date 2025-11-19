@@ -26,17 +26,29 @@ Strands: **K‑A Recognize sequences**, **K‑B Describe & fix**
 Students look at 3–4 pictures laid out in a row with arrows between them and choose which strip shows the steps in an order that works to do the task.  
 _Format:_ Multiple‑choice with 2–3 picture strips; choose which one shows a sensible order for the task. · _CSTA:_ EK‑ALG‑AF‑01.
 
-**T02.GK.02 – Order 3–4 pictures to make a story**  
+**T02.GK.02 – Order 3–4 pictures to make a story**
+
+_Dependency:_
+  * T02.GK.01: Recognize picture steps for a task
+
 Students drag 3–4 scrambled pictures into arrow‑connected boxes labeled “1, 2, 3, 4” to repair a simple strip of steps (e.g., a robot getting ready or reaching a toy).  
 _Format:_ Drag‑drop into labeled boxes on a strip; auto‑graded by final order. · _CSTA:_ EK‑ALG‑AF‑01.
 
 ### K‑B: Describe & fix
 
-**T02.GK.03 – Use first/next/last to describe a sequence**  
+**T02.GK.03 – Use first/next/last to describe a sequence**
+
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
 Students see 3 ordered pictures on a strip with “First / Next / Last” labels and choose words or icons to fill each label, describing the steps out loud.  
 _Format:_ Picture‑supported sentence completion with audio; labels are tied to positions on the strip. · _CSTA:_ EK‑ALG‑AF‑01.
 
-**T02.GK.04 – Fix one picture that is out of order**  
+**T02.GK.04 – Fix one picture that is out of order**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+
 Students see a 3‑picture “robot instructions” strip where one picture is clearly in the wrong place and drag it into the correct slot so the algorithm diagram makes sense.  
 _Format:_ Drag one “wrong” card to the right position; auto‑graded by final strip order. · _CSTA:_ EK‑ALG‑AF‑01, EK‑ALG‑PS‑03.
 
@@ -48,27 +60,47 @@ Strands: **1‑A Build picture algorithms**, **1‑B Trace & predict**, **1‑C 
 
 ### 1‑A: Build picture algorithms
 
-**T02.G1.01 – Make a 3–4 step picture algorithm**  
+**T02.G1.01 – Make a 3–4 step picture algorithm**
+
+_Dependency:_
+  * T02.GK.02: Order 3–4 pictures to make a story
+
 Students are given a simple task (e.g., “how to feed the class pet”) and assemble 3–4 pictures into a numbered strip with arrows, treating it as clear picture instructions a robot could follow.  
 _Format:_ Drag‑drop cards into numbered, arrow‑connected slots; auto‑graded by order. · _CSTA:_ E1‑ALG‑AF‑01.
 
-**T02.G1.02 – Add a missing step to a picture algorithm**  
+**T02.G1.02 – Add a missing step to a picture algorithm**
+
+_Dependency:_
+  * T02.G1.01: Make a 3–4 step picture algorithm
+
 Students see a 3‑step picture instruction strip with one missing middle step and choose the correct picture to fill the gap so the strip works as instructions.  
 _Format:_ MCQ picture choice for the missing step in the strip. · _CSTA:_ E1‑ALG‑AF‑01, E1‑ALG‑PS‑03.
 
 ### 1‑B: Trace & predict
 
-**T02.G1.03 – Trace a picture algorithm and tell the outcome**  
+**T02.G1.03 – Trace a picture algorithm and tell the outcome**
+
+_Dependency:_
+  * T02.G1.01: Make a 3–4 step picture algorithm
+
 Students follow a 3–4 step picture instruction strip (e.g., a simple recipe or classroom routine) and choose what the final picture or outcome should be.  
 _Format:_ Picture instruction strip + outcome MCQ; auto‑graded by outcome. · _CSTA:_ E1‑ALG‑AF‑01.
 
 ### 1‑C: Debug & compare
 
-**T02.G1.04 – Find a broken picture algorithm**  
+**T02.G1.04 – Find a broken picture algorithm**
+
+_Dependency:_
+  * T02.G1.03: Trace a picture algorithm and tell the outcome
+
 Students compare two 3–4 step algorithm strips for the same task: one is correct, one has an obvious missing or wrong step. They pick which diagram is broken.  
 _Format:_ Two algorithm strips side by side; choose the broken one. · _CSTA:_ E1‑ALG‑AF‑01, E1‑ALG‑PS‑03.
 
-**T02.G1.05 – Fix one wrong step in a picture algorithm**  
+**T02.G1.05 – Fix one wrong step in a picture algorithm**
+
+_Dependency:_
+  * T02.G1.04: Find a broken picture algorithm
+
 Students see an algorithm strip with one clearly wrong picture (e.g., “eat sandwich” before “make sandwich”) and replace just that picture with the correct one.  
 _Format:_ Click the wrong picture on the strip, then choose a replacement from 2–3 options. · _CSTA:_ E1‑ALG‑AF‑01, E1‑ALG‑PS‑03.
 
@@ -80,31 +112,56 @@ Strands: **2‑A Boxes as step diagrams**, **2‑B Trace simple step sequences**
 
 ### 2‑A: Boxes as step diagrams
 
-**T02.G2.01 – Turn a picture routine into labeled boxes**  
+**T02.G2.01 – Turn a picture routine into labeled boxes**
+
+_Dependency:_
+  * T02.G1.01: Make a 3–4 step picture algorithm
+
 Students see a 3–4 picture routine and build a horizontal row of labeled boxes (“Step 1,” “Step 2,” “Step 3”) that describe each step in simple words or icons, using a simple box‑diagram layout (like instruction boxes on paper).  
 _Format:_ Drag icons into blank boxes and choose short labels, or place picture cards into drawn boxes; auto‑graded by order and coverage. · _CSTA:_ E2‑ALG‑AF‑01.
 
-**T02.G2.02 – Read a box diagram and choose the matching pictures**  
+**T02.G2.02 – Read a box diagram and choose the matching pictures**
+
+_Dependency:_
+  * T02.G2.01: Turn a picture routine into labeled boxes
+
 Students are given a 3–4 box “algorithm diagram” and must choose which picture sequence matches it.  
 _Format:_ Box diagram + 2–3 picture sequences; MCQ. · _CSTA:_ E2‑ALG‑AF‑01.
 
 ### 2‑B: Trace simple step sequences
 
-**T02.G2.03 – Trace a simple left‑to‑right instruction sequence**  
+**T02.G2.03 – Trace a simple left‑to‑right instruction sequence**
+
+_Dependency:_
+  * T02.G2.02: Read a box diagram and choose the matching pictures
+
 Students see a short row of instruction cards with arrows or move/say icons (3–6 steps, no choices or repeats) and predict where a character ends up or what message appears last.  
 _Format:_ Read the instruction cards and choose the final picture or message; auto‑graded by outcome. · _CSTA:_ E2‑ALG‑AF‑01.
 
-**T02.G2.04 – Reveal one instruction at a time and mark intermediate states**  
+**T02.G2.04 – Reveal one instruction at a time and mark intermediate states**
+
+_Dependency:_
+  * T02.G2.03: Trace a simple left‑to‑right instruction sequence
+
 Students reveal one instruction card at a time in a left‑to‑right sequence and mark where the character is after each step (for example, on a number line or grid).  
 _Format:_ Interactive or paper‑based trace with “next step” cards plus checkpoints; auto‑graded by intermediate and final positions. · _CSTA:_ E2‑ALG‑AF‑01, E2‑ALG‑PS‑03.
 
 ### 2‑C: Match & debug
 
-**T02.G2.05 – Match a box diagram to a step sequence**  
+**T02.G2.05 – Match a box diagram to a step sequence**
+
+_Dependency:_
+  * T02.G2.02: Read a box diagram and choose the matching pictures
+  * T01.G1.01: Put pictures in order to plant a seed
+
 Students match a simple 3–4 step box diagram to one of several written or picture‑card step sequences that carry out the same actions.  
 _Format:_ Diagram + 3 candidate step sequences; MCQ; auto‑graded by behavior equivalence. · _CSTA:_ E2‑ALG‑AF‑01.
 
-**T02.G2.06 – Fix a sequencing error in a step sequence**  
+**T02.G2.06 – Fix a sequencing error in a step sequence**
+
+_Dependency:_
+  * T02.G2.05: Match a box diagram to a step sequence
+
 Students are given a short left‑to‑right step sequence whose cards are out of order and reorder them to match a target picture or box diagram.  
 _Format:_ Drag‑to‑reorder (or reorder physical cards); auto‑graded by final sequence and outcome. · _CSTA:_ E2‑ALG‑AF‑01, E2‑ALG‑PS‑03.
 
@@ -116,11 +173,23 @@ Strands: **3‑A Flowchart basics**, **3‑B Trace flowcharts with choices**, **
 
 ### 3‑A: Flowchart basics
 
-**T02.G3.01 – Identify start, action, and end symbols**  
+**T02.G3.01 – Identify start, action, and end symbols**
+
+_Dependency:_
+  * T02.G2.01: Turn a picture routine into labeled boxes
+  * T02.G2.02: Read a box diagram and choose the matching pictures
+  * T03.G2.01: Choose subtasks for a simple project idea
+
 Students look at small flowcharts and identify which shapes mark “start,” “action,” and “end.”  
 _Format:_ Click‑select shapes or match labels to shapes. · _CSTA:_ E3‑ALG‑AF‑01.
 
-**T02.G3.02 – Turn a 3‑step routine into a basic flowchart**  
+**T02.G3.02 – Turn a 3‑step routine into a basic flowchart**
+
+_Dependency:_
+  * T02.G3.01: Identify start, action, and end symbols
+  * T03.G2.02: Group similar subtasks together
+  * T05.G2.01: Match different users to different preferred designs
+
 Students create a flowchart using start, action, and end symbols for a simple everyday process (no decisions yet), using the Diagrams tab in CreatiCode (flowchart mode).  
 _Format:_ Drag symbols onto the Diagrams canvas, connect arrows, label actions; auto‑graded for structure. · _CSTA:_ E3‑ALG‑AF‑01.
 
@@ -130,21 +199,45 @@ _Format:_ Drag symbols onto the Diagrams canvas, connect arrows, label actions; 
 
 
 
-**T02.G3.03 – Trace a decision flowchart and tell the outcome**  
+**T02.G3.03 – Trace a decision flowchart and tell the outcome**
+
+_Dependency:_
+  * T02.G3.02: Turn a 3‑step routine into a basic flowchart
+  * T03.G2.03: Arrange subtasks into a reasonable order
+  * T05.G2.02: Identify features that make a design more accessible
+
 Students follow a small flowchart with one decision diamond and "yes/no" branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.  
 _Format:_ Flowchart diagram + outcome MCQ; auto‑graded by selected end node. · _CSTA:_ E3‑ALG‑AF‑01.
 
-**T02.G3.04 – Convert a simple story with one choice into a decision flowchart**  
+**T02.G3.04 – Convert a simple story with one choice into a decision flowchart**
+
+_Dependency:_
+  * T02.G3.03: Trace a decision flowchart and tell the outcome
+  * T05.G2.03: Recognize when a situation could be simulated
+  * T03.G3.01: Identify features in a small game description
+
 Students read a simple story with one decision point and create a basic decision flowchart using start, action, decision diamond, and end symbols.  
 _Format:_ Story + flowchart creation in Diagrams tab; auto‑graded by structure. · _CSTA:_ E3‑ALG‑AF‑01.
 
 ### 3‑C: Match flowcharts and code
 
-**T02.G3.05 – Match a simple flowchart to a script**  
+**T02.G3.05 – Match a simple flowchart to a script**
+
+_Dependency:_
+  * T02.G3.04: Convert a simple story with one choice into a decision flowchart
+  * T03.G3.01: Identify features in a small game description
+  * T05.G3.01: Put human‑centered design steps in order
+
 Students choose which of several scripts matches a small flowchart with only actions (no decisions).  
 _Format:_ Flowchart + 3 short scripts; MCQ. · _CSTA:_ E3‑ALG‑AF‑01.
 
-**T02.G3.06 – Match a decision flowchart to if/else code**  
+**T02.G3.06 – Match a decision flowchart to if/else code**
+
+_Dependency:_
+  * T02.G3.05: Match a simple flowchart to a script
+  * T05.G3.02: Identify user needs from a short interview transcript
+  * T08.G3.01: Use a simple if in a script
+
 Students match a flowchart containing one decision diamond to a script that uses an `if/else` block.  
 _Format:_ Flowchart + 3 scripts; MCQ; auto‑graded by logical equivalence. · _CSTA:_ E3‑ALG‑AF‑01.
 
@@ -156,21 +249,45 @@ Strands: **4‑A Flowcharts with loops & decisions**, **4‑B Trace complex flow
 
 ### 4‑A: Flowcharts with loops & decisions
 
-**T02.G4.01 – Add a loop to an existing flowchart**  
+**T02.G4.01 – Add a loop to an existing flowchart**
+
+_Dependency:_
+  * T02.GK.04: Fix one picture that is out of order
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+
 Students are shown a straight‑line flowchart in the Diagrams tab and a description that includes repetition (e.g., “do this 5 times”) and must add a loop back arrow in the correct place.  
 _Format:_ Edit an existing flowchart diagram; auto‑graded by placement and labels. · _CSTA:_ E4‑ALG‑AF‑01.
 
-**T02.G4.02 – Design a flowchart for a task with repetition**  
+**T02.G4.02 – Design a flowchart for a task with repetition**
+
+_Dependency:_
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students design a flowchart from scratch in the Diagrams tab for a simple task that repeats (e.g., “Count from 1 to 5”), correctly showing the loop structure.  
 _Format:_ Constructive flowchart activity in Diagrams; auto‑graded for loop correctness. · _CSTA:_ E4‑ALG‑AF‑01.
 
 ### 4‑B: Trace complex flowcharts
 
-**T02.G4.03 – Trace a flowchart with multiple decision points**  
+**T02.G4.03 – Trace a flowchart with multiple decision points**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students follow a flowchart with 2–3 decision diamonds and trace the path for a given set of conditions.  
 _Format:_ Flowchart diagram + path highlighting; auto‑graded by correct path. · _CSTA:_ E4‑ALG‑AF‑01.
 
-**T02.G4.04 – Trace a flowchart that includes a loop structure**  
+**T02.G4.04 – Trace a flowchart that includes a loop structure**
+
+_Dependency:_
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
 Students follow a flowchart containing a loop (repeat until condition) and determine how many times the loop executes for given inputs.  
 _Format:_ Flowchart diagram + counting question; auto‑graded by iteration count. · _CSTA:_ E4‑ALG‑AF‑01.
 
@@ -180,11 +297,23 @@ _Format:_ Flowchart diagram + counting question; auto‑graded by iteration coun
 
 ### 4‑C: Pseudocode bridges
 
-**T02.G4.05 – Convert a story description into simple pseudocode**  
+**T02.G4.05 – Convert a story description into simple pseudocode**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students turn a short natural‑language description or picture routine into ordered pseudocode lines like “Step 1: …; Step 2: …”.  
 _Format:_ Text entry or card ordering; auto‑graded by order and coverage. · _CSTA:_ E4‑ALG‑AF‑01.
 
-**T02.G4.06 – Match pseudocode to a flowchart**  
+**T02.G4.06 – Match pseudocode to a flowchart**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students match a simple pseudocode listing to one of several flowcharts.  
 _Format:_ Pseudocode + 2–3 candidate flowcharts; MCQ. · _CSTA:_ E4‑ALG‑AF‑01.
 
@@ -196,21 +325,49 @@ Strands: **5‑A Complex flowcharts**, **5‑B Trace flowcharts with data tracki
 
 ### 5‑A: Complex flowcharts
 
-**T02.G5.01 – Read a multi‑branch flowchart and trace a path**  
+**T02.G5.01 – Read a multi‑branch flowchart and trace a path**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students are given a multi‑branch flowchart (created in the Diagrams tab) with several decision diamonds and must trace the path for a specific input (e.g., “It is rainy and cold”).  
 _Format:_ Highlight path in the diagram or choose final outcome; auto‑graded by selected path/outcome. · _CSTA:_ E5‑ALG‑AF‑01.
 
-**T02.G5.02 – Design a multi‑branch flowchart for a decision task**  
+**T02.G5.02 – Design a multi‑branch flowchart for a decision task**
+
+_Dependency:_
+  * T02.G1.01: Make a 3–4 step picture algorithm
+  * T02.G3.01: Identify start, action, and end symbols
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students design a flowchart with multiple decision points (e.g., “choose a game based on time and number of players”) using the Diagrams tab.  
 _Format:_ Constructive flowchart in Diagrams; auto‑graded by structure and coverage of cases. · _CSTA:_ E5‑ALG‑AF‑01.
 
 ### 5‑B: Trace flowcharts with data tracking
 
-**T02.G5.03 – Trace a flowchart with state tracking using a trace table**  
+**T02.G5.03 – Trace a flowchart with state tracking using a trace table**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students follow a flowchart that tracks changing values (like a counter or position) and fill in a trace table showing how values change at each step.  
 _Format:_ Flowchart + table completion; auto‑graded by table values. · _CSTA:_ E5‑ALG‑AF‑01.
 
-**T02.G5.04 – Create a trace table for a flowchart with accumulation**  
+**T02.G5.04 – Create a trace table for a flowchart with accumulation**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students trace a flowchart that accumulates values (adds to a running total) and create their own trace table format to track the process.  
 _Format:_ Flowchart + table creation; auto‑graded by tracking structure. · _CSTA:_ E5‑ALG‑AF‑01.
 
@@ -220,11 +377,25 @@ _Format:_ Flowchart + table creation; auto‑graded by tracking structure. · _C
 
 ### 5‑C: Pseudocode & efficiency
 
-**T02.G5.05 – Write pseudocode for a loop‑based algorithm**  
+**T02.G5.05 – Write pseudocode for a loop‑based algorithm**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
 Students write structured pseudocode for a small, multi‑step algorithm (5–7 steps) that includes a loop and conditional, using clear indentation and step labels learned from earlier T02 grades.  
 _Format:_ Guided text entry or block‑pseudocode with hints; auto‑graded for structure and logic. · _CSTA:_ E5‑ALG‑AF‑01.
 
-**T02.G5.06 – Compare two algorithms for the same task**  
+**T02.G5.06 – Compare two algorithms for the same task**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students are given two short algorithms (flowcharts or pseudocode) solving the same problem and choose which uses fewer steps or is clearer, explaining why.  
 _Format:_ MCQ + short justification; auto‑graded by selected option and key phrases. · _CSTA:_ E5‑ALG‑PS‑03.
 
@@ -236,17 +407,38 @@ Strands: **6‑A Game/decision flowcharts**, **6‑B Advanced flowchart tracing*
 
 ### 6‑A: Game/decision flowcharts
 
-**T02.G6.01 – Design a flowchart for a simple guessing game**  
+**T02.G6.01 – Design a flowchart for a simple guessing game**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
 Students design a flowchart for a higher/lower guessing game with loops and decisions, showing start, repeated guesses, and end when guessed correctly.  
 _Format:_ Constructive flowchart; auto‑graded by structure and handling of end condition. · _CSTA:_ MS‑ALG‑AF‑01.
 
 ### 6‑B: Advanced flowchart tracing
 
-**T02.G6.02 – Trace nested flowchart structures with multiple variables**  
+**T02.G6.02 – Trace nested flowchart structures with multiple variables**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students trace complex flowcharts with nested loops and multiple variables, using systematic trace tables to track all changing values.  
 _Format:_ Complex flowchart + multi‑column trace table; auto‑graded by systematic tracking. · _CSTA:_ MS‑ALG‑AF‑01.
 
-**T02.G6.03 – Analyze different flowchart representations of the same algorithm**  
+**T02.G6.03 – Analyze different flowchart representations of the same algorithm**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students compare two different flowchart representations of the same algorithm and identify which is clearer or more efficient to trace.  
 _Format:_ Side‑by‑side flowcharts + comparison MCQ; auto‑graded by analysis. · _CSTA:_ MS‑ALG‑AF‑01.
 
@@ -256,11 +448,25 @@ _Format:_ Side‑by‑side flowcharts + comparison MCQ; auto‑graded by analysi
 
 ### 6‑C: Representation conversions
 
-**T02.G6.04 – Convert a flowchart to pseudocode**  
+**T02.G6.04 – Convert a flowchart to pseudocode**
+
+_Dependency:_
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
 Students are given a small flowchart (with loops and decisions) and write equivalent pseudocode.  
 _Format:_ Text entry or block‑pseudocode; auto‑graded by structure and logic. · _CSTA:_ MS‑ALG‑AF‑01.
 
-**T02.G6.05 – Match pseudocode to code with loops and conditions**  
+**T02.G6.05 – Match pseudocode to code with loops and conditions**
+
+_Dependency:_
+  * T02.G3.01: Identify start, action, and end symbols
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 Students match a short pseudocode description to one of several code snippets that implement it.  
 _Format:_ Pseudocode + 3 code options; MCQ. · _CSTA:_ MS‑ALG‑AF‑01.
 
@@ -272,31 +478,79 @@ Strands: **7‑A Trace simulations**, **7‑B Flowcharts for classic algorithms*
 
 ### 7‑A: Trace simulations
 
-**T02.G7.01 – Trace a step‑by‑step simulation algorithm**  
+**T02.G7.01 – Trace a step‑by‑step simulation algorithm**
+
+_Dependency:_
+  * T02.GK.01: Recognize picture steps for a task
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+  * T07.G3.01: Use a counted repeat loop
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 Students trace code that simulates a process over several timesteps (e.g., a counter stepping up, an object moving with friction) and predict state after N steps.  
 _Format:_ Code‑reading + table or MCQ; auto‑graded by predicted state. · _CSTA:_ MS‑ALG‑PS‑05.
 
-**T02.G7.02 – Extend a simulation trace and predict future behavior**  
+**T02.G7.02 – Extend a simulation trace and predict future behavior**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.01: Recognize picture steps for a task
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students are shown a partially filled trace table for a simulation algorithm and must extend it a few rows to predict future behavior.  
 _Format:_ Table completion; auto‑graded by continuation. · _CSTA:_ MS‑ALG‑PS‑05.
 
 ### 7‑B: Flowcharts for classic algorithms
 
-**T02.G7.03 – Create a flowchart for linear search or “find max”**  
+**T02.G7.03 – Create a flowchart for linear search or “find max”**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.01: Recognize picture steps for a task
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students design a flowchart in the Diagrams tab for a simple search algorithm (e.g., scan a list to find the largest value).  
 _Format:_ Constructive flowchart in Diagrams; auto‑graded by correct loop and comparison logic. · _CSTA:_ MS‑ALG‑AF‑01.
 
-**T02.G7.04 – Read a flowchart for a simple sort and trace one pass**  
+**T02.G7.04 – Read a flowchart for a simple sort and trace one pass**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.01: Recognize picture steps for a task
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students read a flowchart (from the Diagrams tab) for one pass of a simple sort (e.g., bubble sort) and trace how a short list changes after that pass.  
 _Format:_ Flowchart diagram + list; students show resulting list; auto‑graded. · _CSTA:_ MS‑ALG‑AF‑01, MS‑ALG‑PS‑05.
 
 ### 7‑C: Efficiency & bugs
 
-**T02.G7.05 – Count steps for two algorithms on small inputs**  
+**T02.G7.05 – Count steps for two algorithms on small inputs**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.01: Recognize picture steps for a task
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students compare two algorithms that solve the same problem, counting actual steps for small input sizes and deciding which is more efficient for those inputs.  
 _Format:_ Code/flowcharts + small inputs; numeric counts + MCQ. · _CSTA:_ MS‑ALG‑PS‑05.
 
-**T02.G7.06 – Trace an algorithm to find a bug or edge case**  
+**T02.G7.06 – Trace an algorithm to find a bug or edge case**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.01: Recognize picture steps for a task
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T02.GK.04: Fix one picture that is out of order
+
 Students trace an algorithm with a specific input where it fails (e.g., empty list, single element) and explain the failure in terms of a missed case or incorrect condition.  
 _Format:_ Code‑reading + short answer or MCQ; auto‑graded by identified case/cause. · _CSTA:_ MS‑ALG‑PS‑05.
 
@@ -308,27 +562,62 @@ Strands: **8‑A Design & test pseudocode**, **8‑B Representation quality & hu
 
 ### 8‑A: Design & test pseudocode
 
-**T02.G8.01 – Write pseudocode for a non‑trivial algorithm**  
+**T02.G8.01 – Write pseudocode for a non‑trivial algorithm**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
 Students write pseudocode for a moderately complex algorithm (e.g., check if a number is prime, find the median of 5 numbers) using clear structure, loops, and conditionals, starting from a partially scaffolded template so the task stays small and focused.  
 _Format:_ Guided pseudocode editor with pre‑filled headers/comments; auto‑graded by structural and logical checks. · _CSTA:_ MS‑ALG‑AF‑02.
 
-**T02.G8.02 – Trace your pseudocode with multiple test cases**  
+**T02.G8.02 – Trace your pseudocode with multiple test cases**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T08.G3.01: Use a simple if in a script
+
 Students are given pseudocode (their own or provided) and a set of test cases; they trace each case and record outputs, checking for correctness.  
 _Format:_ Table of inputs/outputs; auto‑graded by predicted outputs. · _CSTA:_ MS‑ALG‑PS‑05.
 
 ### 8‑B: Representation quality & human‑centered thinking
 
-**T02.G8.03 – Refactor an algorithm’s representation for clarity**  
+**T02.G8.03 – Refactor an algorithm’s representation for clarity**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T02.GK.03: Use first/next/last to describe a sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
 Students are given an overly verbose or confusing flowchart/pseudocode and must simplify or restructure it while preserving behavior (e.g., merging repeated steps, improving names), editing the flowchart version directly in the Diagrams tab when appropriate.  
 _Format:_ Edit diagram/pseudocode + short explanation; auto‑graded by structural patterns and key phrases. · _CSTA:_ MS‑ALG‑AF‑01.
 
-**T02.G8.04 – Design a flowchart for a real‑world decision with user needs in mind**  
+**T02.G8.04 – Design a flowchart for a real‑world decision with user needs in mind**
+
+_Dependency:_
+  * T02.G1.01: Make a 3–4 step picture algorithm
+  * T02.G1.02: Add a missing step to a picture algorithm
+  * T02.G3.01: Identify start, action, and end symbols
+  * T02.GK.03: Use first/next/last to describe a sequence
+
 Students create a flowchart in the Diagrams tab for a real‑world decision process (e.g., “How to choose a help resource online”) that is clear and easy to follow for a target user.  
 _Format:_ Constructive flowchart in Diagrams + prompt about audience; auto‑graded for coverage of key cases and structure. · _CSTA:_ MS‑ALG‑HD‑03.
 
 ### 8‑C: Deterministic vs probabilistic
 
-**T02.G8.05 – Trace and compare deterministic and probabilistic algorithms**  
+**T02.G8.05 – Trace and compare deterministic and probabilistic algorithms**
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T02.G1.01: Make a 3–4 step picture algorithm
+  * T02.GK.03: Use first/next/last to describe a sequence
+
 Students trace two versions of an algorithm—one deterministic, one with randomness—and compare their outputs and when each type might be appropriate.  
 _Format:_ Code/pseudocode pairs + tracing questions; auto‑graded by predicted outputs and selected use‑case reasons. · _CSTA:_ MS‑ALG‑AF‑02.
 

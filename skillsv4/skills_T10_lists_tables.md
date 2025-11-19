@@ -20,6 +20,13 @@ Grade 3 deepens list manipulation with iteration and conditions, connecting list
 
 ### T10.G3.01 – Loop through and process each item in a list
 
+_Dependency:_
+  * T06.G3.03: Match code snippets to the event that triggers them
+  * T07.G3.01: Use a counted repeat loop
+  * T10.G2.01: Unknown skill
+  * T06.G3.04: Decide which event type to use for a behavior
+
+
 - **Short name:** Do something with each item in a list
 - **Description:** Students use a simple `for each [item] in [list]` loop with a very basic list (3-4 items) to perform a simple action on each item (e.g., say each fruit name). This builds on T07 loop concepts by applying them to lists. Keep the list short and the action very simple to manage cognitive load.
 - **Challenge format:** Coding, highly scaffolded starter project. Provided: a short list of familiar items (fruits, colors) and guided loop construction. Students use "for each" to say each item. Auto‑grading checks that the loop processes all items correctly.
@@ -27,12 +34,24 @@ Grade 3 deepens list manipulation with iteration and conditions, connecting list
 
 ### T10.G3.02 – Find and count items in a list with a condition
 
+_Dependency:_
+  * T10.G3.01: Loop through and process each item in a list
+  * T08.G3.01: Use a simple if in a script
+  * T07.G3.02: Trace a script with a simple loop
+
+
 - **Short name:** Count items that match a rule
 - **Description:** Students loop through a short list and count items that match a very simple, visual condition (e.g., "count the red items" or "count numbers equal to 3"). This combines lists, loops, conditionals, and variables - ensure strong scaffolding since it builds on multiple gateway concepts. Keep conditions very simple and lists very short.
 - **Challenge format:** Coding, highly scaffolded starter project with step-by-step guidance. Provided: a short list (3-4 items), a simple condition, and guided setup of counter variable and loop. Students follow guided steps to count matching items. Auto‑grading checks the final count value.
 - **CSTA:** E3‑DAA‑DP (processing and filtering data), E3‑DAA‑DI (investigating data patterns).
 
 ### T10.G3.03 – Add and remove items from a list
+
+_Dependency:_
+  * T10.G3.02: Find and count items in a list with a condition
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T08.G3.02: Decide when a single if is enough
+
 
 - **Short name:** Add or remove list items
 - **Description:** Students add one item to the end of a short list or remove one obvious item, focusing on understanding that lists can grow and shrink. Keep operations very simple (add one specific item, remove one specific item) and show the visual change in the list display.
@@ -47,12 +66,24 @@ Grade 4 introduces nested loops and more complex list operations, including the 
 
 ### T10.G4.01 – Use nested loops to process a 2D arrangement (rows and columns)
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T10.G3.03: Add and remove items from a list
+
+
 - **Short name:** Nested loops for a grid of items
 - **Description:** Students use two nested loops to process a conceptual 2D arrangement represented as a list of lists (e.g., a seating chart or a simple game grid) or multiple parallel lists. They loop through rows (outer loop) and columns (inner loop) to access or modify items.
 - **Challenge format:** Coding, starter project. Provided: a list representation of a grid (e.g., list of lists or a single flattened list with a width value). Prompt: "Mark all items in row 2" or "Count items in the left column." Students implement two nested loops with appropriate index math. Auto‑grading checks the final state or the count.
 - **CSTA:** E4‑PRO‑PF‑01 (nested loops), E4‑DAA‑DP (processing 2D data).
 
 ### T10.G4.02 – Store and retrieve parallel list data
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.02: Find and count items in a list with a condition
+  * T10.G3.03: Add and remove items from a list
+
 
 - **Short name:** Use multiple lists for related data
 - **Description:** Students use two or more lists in parallel (e.g., names in one list, scores in another) and keep them synchronized by index. For example, "the player at index 2 in the names list has the score at index 2 in the scores list."
@@ -61,12 +92,25 @@ Grade 4 introduces nested loops and more complex list operations, including the 
 
 ### T10.G4.03 – Build a high score or leaderboard list
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.02: Find and count items in a list with a condition
+
+
 - **Short name:** Create a ranked list of scores
 - **Description:** Students create a list of scores or rankings (possibly with names), insert new scores in the appropriate position to keep the list sorted, or use loops and conditionals to find the highest/lowest score.
 - **Challenge format:** Coding, guided project. Starter code has a list of scores and a new score to add. Students either insert the new score in the correct position or re‑sort the list after adding. Auto‑grading checks the final sorted order.
 - **CSTA:** E4‑DAA‑DP (organizing and processing data), E4‑DAA‑DI (analyzing and ranking data).
 
 ### T10.G4.04 – Sort a list by swapping items
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T10.G3.03: Add and remove items from a list
+
 
 - **Short name:** Arrange a list in order
 - **Description:** Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them if out of order, or by selecting the smallest/largest and moving it. This introduces algorithmic thinking about data organization.
@@ -75,12 +119,24 @@ Grade 4 introduces nested loops and more complex list operations, including the 
 
 ### T10.G4.05 – Search a list for a specific item (linear search)
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T10.G3.03: Add and remove items from a list
+
+
 - **Short name:** Find an item's position in a list
 - **Description:** Students implement a simple linear search: loop through a list, compare each item to a target, and report the position or index when found (or "not found" if the loop completes).
 - **Challenge format:** Coding, starter project. Provided: a list and a target value. Students use a loop with a counter to find the position. Auto‑grading runs test cases (item present at various positions, item not present) and checks the returned position.
 - **CSTA:** E4‑DAA‑DI (investigating and finding patterns in data), E4‑PRO‑PF‑01 (loop-based algorithms).
 
 ### T10.G4.06 – Filter or remove items from a list based on a condition
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T10.G3.03: Add and remove items from a list
+
 
 - **Short name:** Remove items that don't match a rule
 - **Description:** Students loop through a list and delete items that don't satisfy a condition (e.g., "keep only items > 10" or "remove all 'broken' tools"), either by building a new filtered list or by modifying the original.
@@ -95,12 +151,26 @@ Grade 5 introduces the **CreatiCode table variable**, a structured 2D data type 
 
 ### T10.G5.01 – Create and populate a table variable
 
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G4.05: Search a list for a specific item (linear search)
+  * T10.G4.06: Filter or remove items from a list based on a condition
+
+
 - **Short name:** Build a table with rows and columns
 - **Description:** Students create an empty table variable and add rows with multiple columns (e.g., using a "make table" or "add row" block), understanding that a table is a 2D structure where each row can have multiple attributes (like a spreadsheet or database record).
 - **Challenge format:** Coding, starter project. Provided: an empty table. Prompt: "Create a table of student records with columns: Name, Grade, Score." Students add rows using a block that accepts a row data structure (or multiple add operations for each column). Auto‑grading checks the table dimensions and data.
 - **CSTA:** E5‑DAA‑DF‑01 (collecting structured data), E5‑PRO‑DH‑02.
 
 ### T10.G5.02 – Access table cells by row and column
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G4.05: Search a list for a specific item (linear search)
+  * T10.G4.06: Filter or remove items from a list based on a condition
+
 
 - **Short name:** Read data from a table cell
 - **Description:** Students retrieve a value from a table using row and column indices (e.g., `item [row 2, column 3] of [table]` or equivalent) and use or display that value.
@@ -109,6 +179,13 @@ Grade 5 introduces the **CreatiCode table variable**, a structured 2D data type 
 
 ### T10.G5.03 – Update or insert rows in a table
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G4.05: Search a list for a specific item (linear search)
+  * T10.G4.06: Filter or remove items from a list based on a condition
+
+
 - **Short name:** Add or change rows in a table
 - **Description:** Students modify a table by adding a new row (e.g., a new student record) or updating values in an existing row, maintaining the table structure.
 - **Challenge format:** Coding, starter project. Provided: an existing table and new data to insert. Students add a row with all required columns or update specific cells in a row. Auto‑grading checks the final table state.
@@ -116,12 +193,26 @@ Grade 5 introduces the **CreatiCode table variable**, a structured 2D data type 
 
 ### T10.G5.04 – Loop through table rows to compute aggregates
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G4.06: Filter or remove items from a list based on a condition
+
+
 - **Short name:** Sum or average data from a table
 - **Description:** Students use a loop to iterate through all rows of a table, accessing a specific column, and computing a total (sum), average, count, or max/min value.
 - **Challenge format:** Coding, starter project with a table of numbers. Prompt: "Calculate the sum of all scores" or "Find the highest grade." Students loop through rows, access the target column, and update an accumulator. Auto‑grading checks the computed result.
 - **CSTA:** E5‑DAA‑DP (aggregating data via loops), E5‑DAA‑DI (analyzing structured data).
 
 ### T10.G5.05 – Search and filter table data
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G4.05: Search a list for a specific item (linear search)
+  * T10.G4.06: Filter or remove items from a list based on a condition
+
 
 - **Short name:** Find rows matching a condition
 - **Description:** Students search a table for rows where a specific column matches a value or condition (e.g., "find all students with Grade = 'A'" or "find all scores > 80"), and return the matching row(s).
@@ -136,12 +227,26 @@ Grade 6 deepens table usage for real-world data analysis and introduces sorting 
 
 ### T10.G6.01 – Sort a table by a column
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G5.04: Loop through table rows to compute aggregates
+  * T10.G5.05: Search and filter table data
+
+
 - **Short name:** Arrange table rows by a column value
 - **Description:** Students implement sorting logic that rearranges table rows based on values in a specified column (e.g., sort students by name or by score), preserving row integrity (all columns in a row stay together).
 - **Challenge format:** Coding, starter project. Provided: a table and a column to sort by. Students implement a sort algorithm (using nested loops or a helper list of indices) that reorders rows by the target column. Auto‑grading checks the final row order.
 - **CSTA:** MS‑DAA‑DP‑05 (organizing and processing data), MS‑PRO‑PF‑01 (using loops and comparisons).
 
 ### T10.G6.02 – Join or merge data from two tables
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G5.04: Loop through table rows to compute aggregates
+  * T10.G5.05: Search and filter table data
+
 
 - **Short name:** Combine two related tables
 - **Description:** Students combine data from two tables based on a matching key (e.g., matching student IDs to combine a scores table with a demographics table), or simply append rows from one table to another.
@@ -150,12 +255,26 @@ Grade 6 deepens table usage for real-world data analysis and introduces sorting 
 
 ### T10.G6.03 – Pivot or reshape table data
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G5.04: Loop through table rows to compute aggregates
+  * T10.G5.05: Search and filter table data
+
+
 - **Short name:** Reorganize table structure
 - **Description:** Students restructure table data (e.g., converting from "tall" format with many rows to "wide" format with fewer rows but more columns, or vice versa) to prepare for analysis or visualization.
 - **Challenge format:** Coding, guided challenge. Provided: a table in one format and a description of the target format. Students write code to create a new table with the restructured layout. Auto‑grading checks the dimensions and values of the result.
 - **CSTA:** MS‑DAA‑DP‑05 (reshaping data), MS‑DAA‑DF (organizing data).
 
 ### T10.G6.04 – Count, group, or aggregate data from a table
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G5.04: Loop through table rows to compute aggregates
+  * T10.G5.05: Search and filter table data
+
 
 - **Short name:** Group rows and compute summaries
 - **Description:** Students group table rows by a category column (e.g., grade level) and compute a summary statistic (count, sum, average) for each group, creating a summary table or report.
@@ -170,12 +289,26 @@ Grade 7 uses tables and list-based data structures for realistic simulations, re
 
 ### T10.G7.01 – Design and populate a table for a real-world inventory or database
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G6.03: Pivot or reshape table data
+  * T10.G6.04: Count, group, or aggregate data from a table
+
+
 - **Short name:** Create a data model for real-world data
 - **Description:** Students design the structure of a table (columns and data types) to model a real-world domain (e.g., a library catalog, game inventory, sports statistics) and populate it with realistic data.
 - **Challenge format:** Design and coding. Prompt: "Design a table to store information about books in a library. Include at least: ISBN, Title, Author, Year, Available Copies." Students determine columns, create the table, and add sample rows. Auto‑grading checks column names/types (via description or data) and validates that several rows are present.
 - **CSTA:** MS‑DAA‑DF‑04 (creating metadata and data structures), MS‑PRO‑DH‑04.
 
 ### T10.G7.02 – Analyze a dataset to find patterns or outliers
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G6.03: Pivot or reshape table data
+  * T10.G6.04: Count, group, or aggregate data from a table
+
 
 - **Short name:** Investigate table data for insights
 - **Description:** Students examine a table of data and use code to find patterns (e.g., the most common value, a trend over time) or identify outliers (unusual values). They may create summary statistics or visualizations.
@@ -184,12 +317,26 @@ Grade 7 uses tables and list-based data structures for realistic simulations, re
 
 ### T10.G7.03 – Transform or clean data in a table using loops and conditions
 
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G6.03: Pivot or reshape table data
+  * T10.G6.04: Count, group, or aggregate data from a table
+
+
 - **Short name:** Clean and preprocess table data
 - **Description:** Students perform data cleaning operations: remove rows with missing values, standardize formats (e.g., uppercase names), fix errors, or handle special cases—preparing raw data for analysis.
 - **Challenge format:** Coding, data preprocessing task. Provided: a "messy" table with inconsistencies (missing values, varied case, obvious errors). Students write code to iterate and fix issues, creating a clean version. Auto‑grading compares the cleaned result to a reference dataset.
 - **CSTA:** MS‑DAA‑DP‑07 (identifying and fixing errors in data), MS‑DAA‑DP‑06 (manipulating data).
 
 ### T10.G7.04 – Use nested loops to analyze relationships between two datasets
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T10.G6.03: Pivot or reshape table data
+  * T10.G6.04: Count, group, or aggregate data from a table
+
 
 - **Short name:** Compare data from multiple tables
 - **Description:** Students write nested loops to compare or correlate data from two tables (e.g., matching purchases to customer profiles, checking for correlations in sensor readings), identifying connections or anomalies.
@@ -204,12 +351,28 @@ Grade 8 applies lists and tables to complex algorithms, simulations, and data-dr
 
 ### T10.G8.01 – Implement a data structure using lists (simple version of array of records)
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G7.03: Transform or clean data in a table using loops and conditions
+  * T10.G7.04: Use nested loops to analyze relationships between two datasets
+
+
 - **Short name:** Build a data structure with lists
 - **Description:** Students implement a simple record or struct-like behavior using multiple parallel lists or a list of lists, simulating how professional code organizes complex data.
 - **Challenge format:** Coding, algorithmic challenge. Prompt: "Create a character system for a game where each character has a name, health, and level. Use lists to store this data." Students use parallel lists or nested lists and write accessor functions to get character stats. Auto‑grading validates data integrity and accessor correctness.
 - **CSTA:** MS‑PRO‑DH‑04 (using appropriate data structures).
 
 ### T10.G8.02 – Implement a sorting algorithm (bubble sort or selection sort)
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T10.G7.03: Transform or clean data in a table using loops and conditions
+  * T10.G7.04: Use nested loops to analyze relationships between two datasets
+
 
 - **Short name:** Write a sorting algorithm
 - **Description:** Students implement a complete sorting algorithm (not just swap intuition, but the full loop logic) to sort a list or table by a numeric or alphabetic criterion, understanding algorithmic complexity informally (e.g., "this takes many comparisons").
@@ -218,6 +381,14 @@ Grade 8 applies lists and tables to complex algorithms, simulations, and data-dr
 
 ### T10.G8.03 – Build a simulation using list-based state
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G7.03: Transform or clean data in a table using loops and conditions
+  * T10.G7.04: Use nested loops to analyze relationships between two datasets
+
+
 - **Short name:** Simulate a system with list data
 - **Description:** Students create a simulation (e.g., a game, a population model, a traffic system) where entities and their properties are stored in lists or tables, and the simulation loop reads/updates this data each frame.
 - **Challenge format:** Coding, creative project with auto-checks. Prompt: "Build a simple ecosystem simulation where creatures are stored in a list, each with x, y position and energy. Move and update creatures each frame." Students maintain the data structure and implement update logic. Auto‑grading checks that entities are updated, moved, or behave over multiple frames.
@@ -225,12 +396,28 @@ Grade 8 applies lists and tables to complex algorithms, simulations, and data-dr
 
 ### T10.G8.04 – Query and report statistics from a complex dataset
 
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G3.02: Find and count items in a list with a condition
+  * T10.G7.03: Transform or clean data in a table using loops and conditions
+  * T10.G7.04: Use nested loops to analyze relationships between two datasets
+
+
 - **Short name:** Analyze a real dataset with code
 - **Description:** Students load or are provided a realistic multi-column table (e.g., weather data, sports statistics, survey results) and write code to compute requested statistics: means, medians, percentiles, counts by category, trends, or comparisons.
 - **Challenge format:** Coding, data analysis project. Provided: a real-world dataset in a table. Prompt: "Calculate the average temperature by month" or "Find the percentile rank of each student's score." Students write loops and accumulator logic to compute results. Auto‑grading validates computed statistics.
 - **CSTA:** MS‑DAA‑DI‑08 (analyzing data to identify patterns), MS‑DAA‑DP‑05 (processing and aggregating data).
 
 ### T10.G8.05 – Model real-world relationships using table joins or lookups
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T10.G3.01: Loop through and process each item in a list
+  * T10.G7.03: Transform or clean data in a table using loops and conditions
+  * T10.G7.04: Use nested loops to analyze relationships between two datasets
+
 
 - **Short name:** Manage related data in a program
 - **Description:** Students use lists or tables to model entities and relationships (e.g., students with associated grades, orders with associated items), and write code to perform lookups or join operations to answer queries (e.g., "What grades does student X have?").

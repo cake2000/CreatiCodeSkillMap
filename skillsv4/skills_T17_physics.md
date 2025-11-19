@@ -42,6 +42,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 
 ### T17.G5.01 – Choose manual vs engine-based physics
 
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Pick the right physics method
 - **Description:** Students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and, drawing on prior simulation planning (T05.G2.03, T05.G4.05), choose whether to stick with manual velocity variables or enable the physics extension. They explain the decision for each brief so later T14 skills inherit the correct dependency.
 - **Challenge format:** Concept, drag-and-sort. Students drag each brief into “Manual physics” or “2D physics engine”
@@ -49,6 +56,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 - **CSTA:** E5‑PRO‑PF‑01, SAS‑IM.
 
 ### T17.G5.02 – Track gravity with velocity variables
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Update y-velocity each frame
 - **Description:** Students build a loop that stores a sprite’s y-velocity in a variable, subtracts gravity, then adds it
@@ -60,6 +74,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 
 ### T17.G5.03 – Use horizontal speed and friction variables
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Slide with vx and friction
 - **Description:** Students add an `x velocity` variable, respond to arrow keys to change it, and multiply by a friction
   factor each tick so motion glides to a stop. This mirrors T14 platformer expectations before physics bodies are added.
@@ -68,6 +89,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T17.G5.04 – Code a manual bounce with energy loss
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
 
 - **Short name:** Bounce by flipping velocity
 - **Description:** Students write a conditional that checks for ground contact, multiplies the y-velocity by a negative
@@ -79,6 +107,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 
 ### T17.G5.05 – Initialize a 2D physics world
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Start gravity for the scene
 - **Description:** Students add the Initialize 2D Physics block, set gravity (e.g., X: 0, Y: -100), and confirm the debug
   overlay shows the world running. They understand that no physics behavior occurs until this block executes.
@@ -87,6 +122,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 - **CSTA:** E5‑PRO‑PF‑01, SAS‑IM.
 
 ### T17.G5.06 – Attach a dynamic body to a sprite
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
 
 - **Short name:** Give a sprite a physics body
 - **Description:** Students convert a sprite to a dynamic physics body (selecting density/mass options) so the sprite
@@ -97,6 +139,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 
 ### T17.G5.07 – Build static boundaries for floors and walls
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Create static walls to stop sprites
 - **Description:** Students add static physics bodies to floor or wall sprites so falling or sliding objects stop on
   contact. They learn to use static bodies for geometry that should not move.
@@ -106,6 +155,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 
 ### T17.G5.08 – Apply an impulse to jump or push
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Tap to jump with impulse
 - **Description:** Students apply an upward impulse or horizontal shove to a dynamic sprite in response to input (e.g.,
   space key or on-screen button). They control how strong the impulse is so the sprite clears a target platform.
@@ -114,6 +170,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T17.G5.09 – **[Engine Skill]** Configure gravity and mass parameters
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Set precise physics values (technical)
 - **Description:** Students adjust gravity strength and sprite mass using numeric inputs to achieve specific physics behaviors (exact fall time, bounce height). They learn to read physics specifications and translate them into parameter values.
@@ -130,6 +193,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 
 ### T17.G5.10 – Trace simple 2D physics motion
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Predict landing spot from settings
 - **Description:** Students read a small table showing gravity, mass, starting height, and time elapsed, then choose the
   correct statement about where the sprite will be (e.g., “lands on the platform,” “still in the air,” “passed through
@@ -139,6 +209,13 @@ Strands: **G5‑A Manual motion variables**, **G5‑B Physics engine setup**, **
 - **CSTA:** E5‑PRO‑PF‑01, PRO‑TR.
 
 ### T17.G5.11 – Debug missing physics setup
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
 
 - **Short name:** Fix a sprite that ignores gravity
 - **Description:** Students open a buggy project where the player never falls because the physics world was not
@@ -158,6 +235,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 
 ### T17.G6.01 – **[Engine Skill]** Configure surface friction parameters
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T17.G5.10: Trace simple 2D physics motion
+
+
 - **Short name:** Set friction values (technical)
 - **Description:** Students adjust the friction property numerically and measure how far objects travel on different surfaces. They learn to map friction coefficients to sliding distances through systematic testing.
 - **Challenge format:** Coding, measurement lab. Students set specific friction values, measure results, and record the relationship between parameters and physics outcomes. Auto-grading checks numerical accuracy.
@@ -171,6 +255,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.02 – **[Engine Skill]** Control restitution parameters
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+
 
 - **Short name:** Set bounce coefficients (technical)
 - **Description:** Students modify the restitution property numerically and measure bounce heights. They learn the relationship between restitution values (0.0-1.0) and energy conservation in collisions.
@@ -186,6 +277,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 
 ### T17.G6.03 – Build a kinematic moving platform
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T17.G5.10: Trace simple 2D physics motion
+
+
 - **Short name:** Move platforms without gravity
 - **Description:** Students convert a sprite to a kinematic body so it ignores gravity but still collides with the player.
   They script its left-right motion and ensure the player rides it safely.
@@ -194,6 +292,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.04 – Detect collisions for scoring or triggers
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T17.G5.10: Trace simple 2D physics motion
+
 
 - **Short name:** Score points when physics sprites meet
 - **Description:** Students listen for collision events between named sprites (player hits coin, ball hits bumper) and run
@@ -204,6 +309,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 
 ### T17.G6.05 – Use collision groups to filter interactions
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+
+
 - **Short name:** Choose who collides
 - **Description:** Students assign collision groups or masks so the player can pass through collectibles but still hit
   hazards. They reason about selective interactions in crowded levels.
@@ -212,6 +324,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.06 – Blend manual and engine sprites in a level
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T17.G5.10: Trace simple 2D physics motion
+
 
 - **Short name:** Mix manual movers with physics bodies
 - **Description:** Students keep manual scripts (e.g., scrolling backgrounds, UI-driven particles) running alongside
@@ -223,6 +342,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 
 ### T17.G6.07 – Debug unstable physics behavior
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+
+
 - **Short name:** Fix jittery or sinking sprites
 - **Description:** Students diagnose why a sprite jitters, sinks through a platform, or flies off-screen (e.g., mass too
   low, time step too large, conflicting impulses) and adjust parameters to stabilize the scene.
@@ -231,6 +357,13 @@ Strands: **G6‑A Control surfaces**, **G6‑B Manage interactions**, **G6‑C B
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
 
 ### T17.G6.08 – Compare simulations to real-world motion
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T17.G5.10: Trace simple 2D physics motion
+
 
 - **Short name:** Test if the simulation feels real
 - **Description:** Students record bounce heights or slide distances in both CreatiCode and a quick classroom demo, then
@@ -251,6 +384,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 
 ### T17.G7.01 – Launch a configurable projectile
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T17.G6.08: Compare simulations to real-world motion
+
+
 - **Short name:** Set angle and speed for projectiles
 - **Description:** Students create a launcher where users set angle/speed sliders. The projectile receives an initial
   impulse that produces a parabolic arc, and targets are placed at measurable distances.
@@ -259,6 +400,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
 ### T17.G7.02 – Combine multiple forces simultaneously
+
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T17.G6.07: Debug unstable physics behavior
+  * T17.G6.08: Compare simulations to real-world motion
+
 
 - **Short name:** Mix gravity, thrust, and wind
 - **Description:** Students apply two or more forces in the same update loop (gravity + constant wind, gravity + player
@@ -269,6 +418,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 
 ### T17.G7.03 – Simulate drag or resistance
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T17.G6.07: Debug unstable physics behavior
+  * T17.G6.08: Compare simulations to real-world motion
+
+
 - **Short name:** Slow motion with drag
 - **Description:** Students implement drag forces for different media (air, water, honey) by applying a force opposite to
   the sprite’s velocity. They compare how quickly each case comes to rest.
@@ -277,6 +434,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
 ### T17.G7.04 – Build chains or stacks of physics objects
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T17.G6.07: Debug unstable physics behavior
+  * T17.G6.08: Compare simulations to real-world motion
+
 
 - **Short name:** Create multi-object systems
 - **Description:** Students create stacks of boxes, a rope of linked sprites, or domino lines and explore how forces
@@ -287,6 +452,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 
 ### T17.G7.05 – Instrument and graph motion data
 
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T17.G6.07: Debug unstable physics behavior
+  * T17.G6.08: Compare simulations to real-world motion
+
+
 - **Short name:** Log position, velocity, and acceleration
 - **Description:** Students record motion data from a selected sprite every few frames, store it in lists, and create a
   quick graph widget. They use the graph to confirm constant acceleration or to spot errors.
@@ -296,6 +469,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 
 ### T17.G7.06 – Model a real-world physics scenario
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T17.G6.08: Compare simulations to real-world motion
+
+
 - **Short name:** Simulate a pendulum, orbit, or rolling cart
 - **Description:** Students choose a real phenomenon, and based on assumptions and plans from T05.G5.03 and T05.G5.04, build a CreatiCode simulation that approximates it. They explain which physics properties they tuned to mimic reality.
 - **Challenge format:** Coding, design project. Students submit both the project link and a short rationale. Auto-grading
@@ -303,6 +484,14 @@ Strands: **G7‑A Advanced motion**, **G7‑B Multi-body systems**, **G7‑C Mea
 - **CSTA:** MS‑PRO‑PF‑01, SAS‑IM.
 
 ### T17.G7.07 – Evaluate whether a simulation meets requirements
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T17.G6.07: Debug unstable physics behavior
+  * T17.G6.08: Compare simulations to real-world motion
+
 
 - **Short name:** Check physics against constraints
 - **Description:** Students are given target requirements (e.g., “ball must clear the second bumper but stop before the third”) and, drawing on test plans from T05.G5.05 and T05.G5.06, inspect a recorded run, examine logged data, and decide if the requirements were met, citing evidence.
@@ -321,6 +510,14 @@ Strands: **G8‑A Design & balance**, **G8‑B Advanced systems**, **G8‑C Opti
 
 ### T17.G8.01 – Design and balance a physics-based arcade game
 
+_Dependency:_
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T17.G7.06: Model a real-world physics scenario
+
+
 - **Short name:** Build a polished physics arcade level
 - **Description:** Students design a launcher + target loop (Angry Birds–style) with multiple levels of difficulty. They
   test and adjust physics parameters to make each shot feel fair but challenging.
@@ -329,6 +526,14 @@ Strands: **G8‑A Design & balance**, **G8‑B Advanced systems**, **G8‑C Opti
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑PD.
 
 ### T17.G8.02 – Implement advanced joints or constraints
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T17.G7.06: Model a real-world physics scenario
+
 
 - **Short name:** Connect sprites with hinges or ropes
 - **Description:** Students use physics constraint blocks (hinge, distance, weld) to link sprites so they rotate or move
@@ -339,6 +544,14 @@ Strands: **G8‑A Design & balance**, **G8‑B Advanced systems**, **G8‑C Opti
 
 ### T17.G8.03 – Build automated physics regression tests
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Auto-test physics behaviors
 - **Description:** Students create scripts that spawn test objects, run the simulation for a set time, and assert that
   positions, velocities, or collision counts stay within tolerances. This guards against regressions when sharing code.
@@ -347,6 +560,14 @@ Strands: **G8‑A Design & balance**, **G8‑B Advanced systems**, **G8‑C Opti
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR, linkage to T13.
 
 ### T17.G8.04 – Optimize a physics scene for performance
+
+_Dependency:_
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T17.G7.06: Model a real-world physics scenario
+  * T17.G7.07: Evaluate whether a simulation meets requirements
+
 
 - **Short name:** Improve simulation efficiency
 - **Description:** Students profile a busy physics scene (many objects) and implement optimizations such as sleeping
@@ -370,6 +591,14 @@ Strands: **G8‑A Design & balance**, **G8‑B Advanced systems**, **G8‑C Opti
 - **CSTA:** MS‑PRO‑PF‑01, SAS‑IM.
 
 ### T17.G8.06 – Use instrumentation data to tune difficulty
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.05: Fix a loop that runs too many or too few times
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T17.G7.06: Model a real-world physics scenario
+
 
 - **Short name:** Adjust physics using playtest data
 - **Description:** Students log player attempts (launch angle, power, success/fail) and analyze the dataset to retune

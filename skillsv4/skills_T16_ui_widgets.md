@@ -22,12 +22,26 @@ Grade 5 students design complete interfaces for apps and games with multiple scr
 
 ### T16.G5.01 – Create a multi‑screen app with a navigation interface
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.04: Trace code with variables to predict outcomes
+
+
 - **Short name:** Switch between screens using buttons
 - **Description:** Students build an app with multiple screens (e.g., home screen, game screen, results screen) and use buttons and labels to navigate between them. They manage widget visibility to show/hide different screens.
 - **Challenge format:** Coding, creative project. Prompt: "Build a three-screen app: a home menu, a game, and a results screen. Use buttons to navigate between them. Only show the widgets for the current screen." Students organize widgets into groups (e.g., home buttons, game buttons, result labels) and toggle visibility. Auto‑grading verifies that clicking buttons switches screens correctly and only the current screen's widgets are visible.
 - **CSTA:** E5‑PRO‑PF‑01, E5‑ALG‑HD‑02.
 
 ### T16.G5.02 – Design a form with multiple inputs and validation
+
+_Dependency:_
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
 
 - **Short name:** Build a form with error checking
 - **Description:** Students create a form interface with multiple text input fields, dropdowns, or checkboxes, validate all inputs for completeness and correctness, and display a summary or confirmation message. This teaches form design and validation patterns.
@@ -36,12 +50,26 @@ Grade 5 students design complete interfaces for apps and games with multiple scr
 
 ### T16.G5.03 – Build a leaderboard or high‑score display
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+
+
 - **Short name:** Display a sorted list of high scores
 - **Description:** Students create a label or series of labels that display high scores or player rankings. They use lists or variables to store scores and update the display dynamically. This introduces the concept of showing structured data in a UI.
 - **Challenge format:** Coding, starter project with a list of scores. Prompt: "Display the top 3 high scores on the screen in a nice format (e.g., '1st: 500 points' on separate labels). Update them when the game ends with a new high score." Students loop through a score list, format the display, and update labels. Auto‑grading checks that scores are displayed correctly after each game round.
 - **CSTA:** E5‑PRO‑PF‑01, E5‑PRO‑DH‑02.
 
 ### T16.G5.04 – Implement a responsive HUD that reacts to game state
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+
 
 - **Short name:** Create a heads-up display (HUD) that changes with the game
 - **Description:** Students design a "heads-up display" (HUD)—on-screen UI elements that show real-time game information (health bar, ammo count, mini-map indicator, status text). The HUD updates dynamically as game variables change.
@@ -56,12 +84,26 @@ In middle school, students apply human-centered design principles to interface d
 
 ### T16.G6.01 – Evaluate an interface for usability
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T16.G5.03: Build a leaderboard or high‑score display
+
+
 - **Short name:** Analyze a UI for clarity and accessibility
 - **Description:** Students examine an existing interface (a simple app screenshot) and identify issues or strengths: Are buttons clearly labeled? Is the layout intuitive? Are colors accessible for colorblind users? They learn to think like a UX designer and consider diverse users.
 - **Challenge format:** Concept, analysis and short response. Show a screenshot of a simple game or app interface; students answer questions: "What does this button do?" "Is the layout clear?" "How could you make this more accessible?" Auto‑grading uses keyword matching or rubric scoring for responses.
 - **CSTA:** MS‑ALG‑HD‑03 (Design algorithms using human-centered design principles like empathy and accessibility), MS‑PRO‑TR‑12 (Modify a program to improve usability and accessibility).
 
 ### T16.G6.02 – Design an interface based on user feedback
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T16.G5.03: Build a leaderboard or high‑score display
+
 
 - **Short name:** Improve an interface using user testing
 - **Description:** Students design an initial interface (buttons, labels, layout), ask peers or a teacher to try it, gather feedback on usability, and then modify the design to address the feedback. This introduces the iterative design process.
@@ -70,12 +112,26 @@ In middle school, students apply human-centered design principles to interface d
 
 ### T16.G6.03 – Use color and contrast to improve readability
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T16.G5.03: Build a leaderboard or high‑score display
+
+
 - **Short name:** Choose colors that are easy to read
 - **Description:** Students apply color theory to interface design: choosing high-contrast text and backgrounds for readability, avoiding color combinations that are difficult for colorblind users, and using color to highlight important elements (e.g., a red button for "Stop").
 - **Challenge format:** Coding, design challenge. Prompt: "Create a game interface where the score label uses high-contrast colors (e.g., white text on dark background). Make sure a 'Stop' button is red and stands out." Students add labels and buttons with specific color properties. Auto‑grading checks color properties (background and text colors) for sufficient contrast using a contrast ratio calculation.
 - **CSTA:** MS‑ALG‑HD‑03, MS‑PRO‑TR‑12.
 
 ### T16.G6.04 – Create an interface that works on different screen sizes
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T16.G5.03: Build a leaderboard or high‑score display
+
 
 - **Short name:** Design a responsive UI layout
 - **Description:** Students learn that interfaces may be viewed on different devices (tablets, phones, computers) and adjust their layouts to be flexible. They position buttons and labels using percentages or relative sizing rather than fixed positions.
@@ -90,12 +146,28 @@ Grade 7 students design complex interfaces for applications, including data inpu
 
 ### T16.G7.01 – Build a data collection interface (survey or questionnaire)
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T16.G6.03: Use color and contrast to improve readability
+  * T16.G6.04: Create an interface that works on different screen sizes
+
+
 - **Short name:** Create a survey form with multiple input types
 - **Description:** Students design an interface for a survey or questionnaire with text inputs, dropdowns, checkboxes, or radio buttons; validate responses; and collect the data. They learn how interfaces are used to gather information.
 - **Challenge format:** Coding, creative project. Prompt: "Create a survey about favorite sports with text input for name, dropdowns for age range, checkboxes for sports interests, and a submit button. When submitted, display a summary of responses." Students design the form, implement validation, and show a result. Auto‑grading tests that all input types work and data is collected correctly.
 - **CSTA:** MS‑PRO‑PF‑01, MS‑ALG‑HD‑03.
 
 ### T16.G7.02 – Implement a search or filter interface
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T16.G6.04: Create an interface that works on different screen sizes
+
 
 - **Short name:** Search or filter a list using a text input
 - **Description:** Students create a text input field where users can type a query, and the interface filters or searches a list of items (e.g., a player inventory, a menu of options) to show only matching results. This is a real-world UI pattern.
@@ -104,12 +176,28 @@ Grade 7 students design complex interfaces for applications, including data inpu
 
 ### T16.G7.03 – Design an accessible interface for users with different abilities
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T16.G6.04: Create an interface that works on different screen sizes
+
+
 - **Short name:** Make a UI accessible for all players
 - **Description:** Students consider accessibility needs (e.g., text size for low vision, keyboard controls for mobility challenges, colorblind-friendly palettes) and redesign an interface to accommodate multiple ability types. They learn to design inclusively from the start.
 - **Challenge format:** Coding and concept, design challenge. Prompt: "Redesign your game interface to be accessible to a player with low vision: make buttons larger, use high-contrast colors, and make button text bigger. Also, add keyboard shortcuts as an alternative to mouse clicks." Students modify widget sizes, colors, and add keyboard event handlers. Auto‑grading checks property values and the presence of alternative input methods.
 - **CSTA:** MS‑ALG‑HD‑03, MS‑PRO‑TR‑12.
 
 ### T16.G7.04 – Create a help or tutorial interface
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T16.G6.04: Create an interface that works on different screen sizes
+
 
 - **Short name:** Build an in-game help system
 - **Description:** Students design a help or tutorial interface within a game, including explanatory labels, step-by-step instructions, images/animations, and a "Next" button to guide the player through mechanics or controls.
@@ -124,12 +212,28 @@ Grade 8 students apply advanced UI design patterns, think about scalability and 
 
 ### T16.G8.01 – Design a wizard or step-by-step interface
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T16.G7.03: Design an accessible interface for users with different abilities
+
+
 - **Short name:** Create a multi-step wizard interface
 - **Description:** Students build a "wizard" interface that guides users through a multi-step process (e.g., character creation, game setup, checkout) with Previous/Next buttons, progress indicators, and validation at each step. They manage state across multiple screens.
 - **Challenge format:** Coding, creative project. Prompt: "Create a character creation wizard with 3 steps: choose name, choose class, choose starting items. Show a progress indicator ('Step 1 of 3'), and validate each step before allowing the user to proceed." Students implement state management (a 'current_step' variable) and conditional visibility of screens. Auto‑grading simulates user navigation and checks state transitions and validation.
 - **CSTA:** MS‑PRO‑PF‑01, MS‑ALG‑HD‑03.
 
 ### T16.G8.02 – Implement dynamic content loading in a UI
+
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T16.G7.03: Design an accessible interface for users with different abilities
+
 
 - **Short name:** Load and display content based on user choices
 - **Description:** Students design an interface where selecting an option dynamically loads and displays related content (e.g., clicking a character name displays their stats, clicking a level number shows the level preview). Content is retrieved from lists or variables.
@@ -138,12 +242,28 @@ Grade 8 students apply advanced UI design patterns, think about scalability and 
 
 ### T16.G8.03 – Analyze UI design patterns and their effectiveness
 
+_Dependency:_
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T16.G7.03: Design an accessible interface for users with different abilities
+
+
 - **Short name:** Compare two UI designs for a task
 - **Description:** Students examine two different interface designs for the same task (e.g., two layouts for a settings menu, two ways to input a number) and evaluate which is more effective based on clarity, ease of use, and aesthetics. They write a brief analysis.
 - **Challenge format:** Concept, analysis and comparison. Present two CreatiCode projects or screenshots with different UI designs for the same task; students select the better design and explain their reasoning using vocabulary like "clarity," "efficiency," "accessibility," and "visual hierarchy." Auto‑grading uses rubric scoring for written explanations.
 - **CSTA:** MS‑ALG‑HD‑03.
 
 ### T16.G8.04 – Document and refine a UI design based on usability testing
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T06.G3.08: Fix a behavior that runs at the wrong time
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T16.G7.03: Design an accessible interface for users with different abilities
+
 
 - **Short name:** Test UI with users and iterate
 - **Description:** Students conduct user testing of their interface (having peers try to complete a task using their interface, noting where they struggle), document observations, and refactor the interface to resolve usability issues. This reinforces the human-centered design cycle.

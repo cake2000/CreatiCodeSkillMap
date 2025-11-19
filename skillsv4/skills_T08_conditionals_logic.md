@@ -22,12 +22,25 @@ Grade 3 introduces if/else blocks with **single conditions only** plus choosing 
 
 ### T08.G3.01 – Use a simple if in a script
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T05.G1.02: Match a need to a design idea
+  * T05.G2.02: Identify features that make a design more accessible
+
+
 - **Short name:** Add an if to control behavior  
 - **Description:** Students add their first single `if <condition> then ...` block to a very simple script so that an action only happens when an obvious condition is true (e.g., "if touching the green flag, say 'Yay!'"). This gateway skill introduces the fundamental concept of conditional execution. Start with highly visual, binary conditions that are easy to test.  
 - **Challenge format:** Coding, highly scaffolded starter project with step-by-step guidance. Provided: a sprite and a simple script that always performs an action. Prompt: "Only do this when touching the goal" with clear visual guidance. Students wrap the action in an `if` block with a pre-selected condition. Auto‑grading checks that the `if` is present, that the condition is correct, and that behavior changes correctly.  
 - **CSTA:** E3‑PRO‑PF‑01. ⭐ Gateway
 
 ### T08.G3.02 – Decide when a single if is enough
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T05.G3.02: Identify user needs from a short interview transcript
+  * T08.G2.02: Unknown skill
+
 
 - **Short name:** Choose simple vs combined checks  
 - **Description:** Students read very simple scenarios (e.g., "move only when the space key is pressed" vs "jump only if touching the ground AND space is pressed") and identify whether a single condition is enough or multiple conditions are needed. This builds conceptual understanding without requiring students to write complex logic yet. Use concrete, visual examples.  
@@ -36,6 +49,13 @@ Grade 3 introduces if/else blocks with **single conditions only** plus choosing 
 
 ### T08.G3.03 – Pick the right conditional block for a scenario
 
+_Dependency:_
+  * T08.G3.02: Decide when a single if is enough
+  * T07.G3.02: Trace a script with a simple loop
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T05.G3.03: Choose design changes based on simple feedback
+
+
 - **Short name:** Match behaviors to if vs if/else  
 - **Description:** Students choose between a simple `if` and an `if/else` block for very basic scenarios (e.g., "if touching star, say 'Good!' but don't do anything else" vs "if touching red, say 'Stop!', otherwise say 'Go!'"). Use clear either/or vs. one-way scenarios. Focus on recognizing the difference, not writing complex logic.  
 - **Challenge format:** Multiple choice with visual scenarios and pre-built block options. Given simple stories and block diagrams, students pick which block type fits best. Auto‑grading checks selections.  
@@ -43,12 +63,24 @@ Grade 3 introduces if/else blocks with **single conditions only** plus choosing 
 
 ### T08.G3.04 – Trace code with a single if/else
 
+_Dependency:_
+  * T08.G3.03: Pick the right conditional block for a scenario
+  * T07.G3.03: Build a forever loop for simple animation
+  * T09.G3.02: Use a variable in a conditional (if block)
+
+
 - **Short name:** Trace simple if/else code  
 - **Description:** Students trace a short script with one simple `if/else` block and a given condition to predict which branch runs and what happens.  
 - **Challenge format:** Code‑reading MCQ or trace‑table; checked against simulation.  
 - **CSTA:** E3‑ALG‑AF‑01, E3‑PRO‑PF‑01.
 
 ### T08.G3.05 – Fix a condition that uses the wrong operator
+
+_Dependency:_
+  * T08.G3.04: Trace code with a single if/else
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T07.G3.03: Build a forever loop for simple animation
+
 
 - **Short name:** Debug wrong comparison operator  
 - **Description:** Students fix a simple script where a condition uses an obviously wrong comparison operator (e.g., score > 10 when it should be score < 10, with very clear wrong behavior). This contextualized debugging skill teaches debugging as a natural part of learning conditionals. The error should be obvious and the fix straightforward.  
@@ -63,12 +95,24 @@ Grade 4 introduces AND/OR coding, includes both trace and build paths, and then 
 
 ### T08.G4.01 – Combine two conditions with AND
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.04: Trace code with a single if/else
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
+
 - **Short name:** Use AND to combine conditions  
 - **Description:** Students use a compound condition (AND) to check if two things are true at the same time before acting (e.g., "if key pressed AND touching goal, then complete level"). This is their first time writing boolean logic operators in code.  
 - **Challenge format:** Coding, starter project. Provided: blocks for two separate conditions. Prompt: "Complete this challenge only if you touch the goal AND collect all coins." Students combine the conditions with AND. Auto‑grading checks correct use of AND operator and behavior.  
 - **CSTA:** E4‑PRO‑PF‑01, E4‑ALG‑AF‑01.
 
 ### T08.G4.02 – Combine two conditions with OR
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.05: Fix a condition that uses the wrong operator
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Use OR to combine conditions  
 - **Description:** Students use OR to check if at least one of two conditions is true (e.g., "if score > 100 OR lives == 0, then end game").  
@@ -77,12 +121,24 @@ Grade 4 introduces AND/OR coding, includes both trace and build paths, and then 
 
 ### T08.G4.03 – Trace code with compound conditionals
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.04: Trace code with a single if/else
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
+
 - **Short name:** Trace AND/OR branches  
 - **Description:** Students read code with AND/OR expressions and predict which branch runs for given inputs, building comfort before debugging or refactoring.  
 - **Challenge format:** Concept, code‑tracing item. Show code with AND/OR; give input values; ask "Which message will be displayed?" Auto‑grading checks via simulation.  
 - **CSTA:** E4‑ALG‑AF‑01, E4‑PRO‑PF‑01.
 
 ### T08.G4.04 – Nest if/else statements
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.04: Trace code with a single if/else
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
 
 - **Short name:** Use nested if/else for layered decisions  
 - **Description:** Students write nested if/else blocks where an else branch contains another if (e.g., checking weapon type, then checking ammo level). This models multi-step decision-making.  
@@ -91,12 +147,25 @@ Grade 4 introduces AND/OR coding, includes both trace and build paths, and then 
 
 ### T08.G4.05 – Convert nested if to cleaner logic
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.04: Trace code with a single if/else
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
+
 - **Short name:** Simplify nested if/else  
 - **Description:** Students are given deeply nested or redundant if/else code and refactor it using AND, OR, or else-if to make it cleaner and more readable.  
 - **Challenge format:** Coding, refactor challenge. Starter project contains nested if statements (e.g., 3+ levels). Students rewrite using compound conditions or else-if chains. Auto‑grading checks code structure (cleaner/flatter) and behavior equivalence.  
 - **CSTA:** E4‑PRO‑PF‑01, PRO‑TR.
 
 ### T08.G4.06 – Use if to control state changes
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.04: Trace code with a single if/else
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Use conditions to manage state  
 - **Description:** Students use conditional logic to manage game states (e.g., "if game over then don't allow movement") or animation states (e.g., "if jumping then use jump costume"). This applies conditionals to tracking program state.  
@@ -105,12 +174,25 @@ Grade 4 introduces AND/OR coding, includes both trace and build paths, and then 
 
 ### T08.G4.07 – Analyze and fix a logic bug
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.04: Trace code with a single if/else
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Find and fix conditional bugs  
 - **Description:** Students debug a script where a condition is incorrect or inverted (e.g., `if score < 10` instead of `if score >= 10`), causing unexpected behavior. They identify and fix the logic error.  
 - **Challenge format:** Coding, debugging. A starter project shows expected behavior (e.g., "when score reaches 10, win the game"), but the conditional is wrong. Students adjust the condition or operator. Auto‑grading checks behavior against the expected outcome.  
 - **CSTA:** E4‑PRO‑TR‑01.
 
 ### T08.G4.08 – Trace code with a sequence of if/else blocks
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.04: Trace code with a single if/else
+  * T08.G3.05: Fix a condition that uses the wrong operator
+
 
 - **Short name:** Trace sequential if/else  
 - **Description:** Students trace code with 2–3 sequential `if/else` blocks and predict the final output for a given set of conditions.  
@@ -125,12 +207,26 @@ Grade 5 uses logic for more complex decision trees, scoring systems, and simple 
 
 ### T08.G5.01 – Design multi-branch decision logic
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.02: Decide when a single if is enough
+  * T08.G4.07: Analyze and fix a logic bug
+  * T08.G4.08: Trace code with a sequence of if/else blocks
+
+
 - **Short name:** Multi-branch decisions  
 - **Description:** Students design multi-branch logic (e.g., grading scales, game difficulty tiers) using nested or chained if/else statements.  
 - **Challenge format:** Coding, starter project. Prompt: "Given a score, display 'bronze', 'silver', or 'gold' based on ranges." Students implement the logic. Auto‑grading checks that each range maps to the correct label.  
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T08.G5.02 – Use NOT to invert conditions
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.02: Decide when a single if is enough
+  * T08.G4.07: Analyze and fix a logic bug
+  * T08.G4.08: Trace code with a sequence of if/else blocks
+
 
 - **Short name:** Use NOT in conditions  
 - **Description:** Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly.  
@@ -139,12 +235,26 @@ Grade 5 uses logic for more complex decision trees, scoring systems, and simple 
 
 ### T08.G5.03 – Combine three or more conditions
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G4.07: Analyze and fix a logic bug
+  * T08.G4.08: Trace code with a sequence of if/else blocks
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Combine many conditions  
 - **Description:** Students write compound conditions that combine three or more tests using AND/OR, such as "if score > 100 AND lives > 0 AND has_key then ..."  
 - **Challenge format:** Coding, starter project. Prompt: "Only open the treasure if the player has the key AND at least 3 stars AND is not poisoned." Auto‑grading tests multiple input combinations.  
 - **CSTA:** E5‑PRO‑PF‑01, E5‑ALG‑AF‑01.
 
 ### T08.G5.04 – Trace complex decision logic
+
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T08.G3.01: Use a simple if in a script
+  * T08.G4.07: Analyze and fix a logic bug
+  * T08.G4.08: Trace code with a sequence of if/else blocks
+
 
 - **Short name:** Trace multi-branch logic  
 - **Description:** Students trace a decision tree implemented with nested/compound conditionals and determine which path is taken for various inputs.  
@@ -159,6 +269,13 @@ In middle school, logic is used to implement more sophisticated behaviors and si
 
 ### T08.G6.01 – Use conditionals to control simulation steps
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T08.G5.03: Combine three or more conditions
+  * T08.G5.04: Trace complex decision logic
+
+
 - **Short name:** Conditions in simulations  
 - **Description:** Students write conditionals that control when a simulation stops, when events trigger, or when entities change behavior (e.g., "if population exceeds limit, reduce births").  
 - **Challenge format:** Coding, simulation project. Prompt: "Stop the simulation if the population exceeds 100, or if time reaches 50 steps." Auto‑grading checks stopping conditions.  
@@ -166,12 +283,26 @@ In middle school, logic is used to implement more sophisticated behaviors and si
 
 ### T08.G6.02 – Implement simple state machines using conditionals
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G5.03: Combine three or more conditions
+  * T08.G5.04: Trace complex decision logic
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Use conditions for state machines  
 - **Description:** Students use variables and conditionals to implement simple state machines (e.g., idle → walking → jumping based on inputs and timers).  
 - **Challenge format:** Coding, starter project. Prompt: "Implement three states for a character: idle, walking, jumping." Auto‑grading checks transitions based on inputs.  
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T08.G6.03 – Debug multi-condition logic
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T08.G5.03: Combine three or more conditions
+  * T08.G5.04: Trace complex decision logic
+
 
 - **Short name:** Fix bugs in complex conditions  
 - **Description:** Students debug scripts where multi-part conditions (AND/OR/NOT) are wrong or mis-parenthesized, leading to incorrect behavior.  
@@ -186,12 +317,26 @@ Grade 7 emphasizes logical reasoning about fairness, algorithms, and decision im
 
 ### T08.G7.01 – Reason about fairness using conditions
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.02: Decide when a single if is enough
+  * T08.G6.02: Implement simple state machines using conditionals
+  * T08.G6.03: Debug multi-condition logic
+
+
 - **Short name:** Use conditions to reason about fairness  
 - **Description:** Students analyze conditional rules (e.g., eligibility rules in a game or system) and decide whether they treat different groups fairly.  
 - **Challenge format:** Concept, scenario analysis. Show if/else rules and ask students to identify who is included/excluded and whether that seems fair. Auto‑grading checks key reasoning.  
 - **CSTA:** MS‑ALG‑AF‑01, links to impacts/ethics topics.
 
 ### T08.G7.02 – Design tests for condition-heavy code
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T08.G6.02: Implement simple state machines using conditionals
+  * T08.G6.03: Debug multi-condition logic
+
 
 - **Short name:** Test cases for conditionals  
 - **Description:** Students design a set of test inputs that exercise all branches of a condition-heavy script (e.g., all paths through a grading or login system).  
@@ -206,12 +351,28 @@ Grade 8 prepares students for high school and more formal reasoning about logic 
 
 ### T08.G8.01 – Analyze logical equivalence of conditionals
 
+_Dependency:_
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.02: Decide when a single if is enough
+  * T08.G7.01: Reason about fairness using conditions
+  * T08.G7.02: Design tests for condition-heavy code
+
+
 - **Short name:** Compare logically equivalent conditions  
 - **Description:** Students compare two conditional expressions and decide whether they are logically equivalent (e.g., De Morgan’s law patterns like NOT(A OR B) vs NOT A AND NOT B).  
 - **Challenge format:** Concept, multiple choice and explanation. Show two conditions and ask if they are equivalent for all inputs; students justify. Auto‑grading checks equivalence and key reasoning phrases.  
 - **CSTA:** MS‑ALG‑AF‑02.
 
 ### T08.G8.02 – Use logic to design robust input validation
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T08.G3.02: Decide when a single if is enough
+  * T08.G7.01: Reason about fairness using conditions
+  * T08.G7.02: Design tests for condition-heavy code
+
 
 - **Short name:** Design input validation logic  
 - **Description:** Students use compound conditions to validate user input (e.g., "age between 13 and 18," "password long enough and contains a number") and prevent invalid states.  

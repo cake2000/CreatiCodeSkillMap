@@ -27,12 +27,20 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.GK.02 – Use tokens to log repeated events
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
+
 - **Short name:** Move a bead every time the sprite jumps
 - **Description:** Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first “log.”
 - **Challenge format:** Interactive. CreatiCode project plays 5–6 events; students tap a counter button to log each one. Auto-grading compares taps to actual events.
 - **CSTA:** EK‑DAA‑DF‑01.
 
 ### T26.GK.03 – Capture yes/no answers with smile/frown cards
+
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
 
 - **Short name:** Two-bin survey
 - **Description:** Students ask a peer a yes/no question and place the response card into the correct bin, making a physical tally.
@@ -45,6 +53,10 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G1.01 – Run a three-option picture survey
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
+
 - **Short name:** Ask classmates and mark answers
 - **Description:** Students pick a topic (favorite snack) and provide three picture choices. They ask five peers and place stickers on a mini poster to record answers.
 - **Challenge format:** Guided survey. Auto-grading expects a photo or digital chart with at least five marks and a short note describing the question.
@@ -52,12 +64,20 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G1.02 – Keep observation logs over time
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
+
 - **Short name:** Morning/afternoon weather chart
 - **Description:** Learners observe a daily attribute twice (morning vs afternoon temperature icon) for a week, emphasizing longitudinal collection.
 - **Challenge format:** Concept log. Students fill a table with icons; auto-grading checks completeness and a sentence noting a change.
 - **CSTA:** E1‑DAA‑DF‑01.
 
 ### T26.G1.03 – Follow a simple data-collection checklist
+
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
 
 - **Short name:** Steps to ask questions fairly
 - **Description:** Students learn to (1) introduce themselves, (2) ask the question the same way, (3) record the answer immediately. They practice on classmates and reflect on why following steps matters.
@@ -70,12 +90,21 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G2.01 – Distinguish observational vs survey data
 
+_Dependency:_
+  * T01.G1.01: Put pictures in order to plant a seed
+
+
 - **Short name:** Watch vs ask
 - **Description:** Students categorize example data statements as “observed” (counting birds) or “asked” (favorite color), reinforcing method selection.
 - **Challenge format:** Matching cards with justification. Auto-grading checks answers and reasons.
 - **CSTA:** E2‑DAA‑DF‑01.
 
 ### T26.G2.02 – Build a two-column record sheet
+
+_Dependency:_
+  * T01.G1.01: Put pictures in order to plant a seed
+  * T01.GK.08: Count how many times
+
 
 - **Short name:** Record name + choice
 - **Description:** Learners create a simple table to log respondents’ names and answers, showing why we store identifiers alongside data.
@@ -84,12 +113,21 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G2.03 – Use timers to collect duration data
 
+_Dependency:_
+  * T01.G1.01: Put pictures in order to plant a seed
+
+
 - **Short name:** Time how long the spinner spins
 - **Description:** Students run a simple experiment (spin a top) and record each trial’s duration using a timer, highlighting measurement precision.
 - **Challenge format:** Concept + analog/digital timer. Auto-grading checks recorded times and that units are consistent.
 - **CSTA:** E2‑DAA‑DF‑01.
 
 ### T26.G2.04 – Explain why sample size matters
+
+_Dependency:_
+  * T01.G1.01: Put pictures in order to plant a seed
+  * T01.GK.08: Count how many times
+
 
 - **Short name:** Compare small vs larger surveys
 - **Description:** Learners see two surveys (3 responses vs 10) and explain why the larger one may be more reliable.
@@ -102,12 +140,24 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G3.01 – Script a CreatiCode survey loop
 
+_Dependency:_
+  * T26.G2.01: Distinguish observational vs survey data
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+
+
 - **Short name:** Use `ask and wait` to log answers
 - **Description:** Students write a script that repeats `ask` five times, storing each answer in a list variable (linking T26 to T25 representations).
 - **Challenge format:** Coding. Auto-grading runs the script with sample answers and checks the list contents.
 - **CSTA:** E3‑PRO‑DH‑02.
 
 ### T26.G3.02 – Design unbiased multiple-choice options
+
+_Dependency:_
+  * T26.G3.01: Script a CreatiCode survey loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Avoid leading answers
 - **Description:** Learners critique sample questions (“Don’t you love cats?”) and rewrite them with neutral wording and balanced choices.
@@ -116,12 +166,24 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G3.03 – Log sensor-style events with counters
 
+_Dependency:_
+  * T26.G3.02: Design unbiased multiple-choice options
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+
 - **Short name:** Count button presses automatically
 - **Description:** Students build a script where a sprite increments a counter each time a key is pressed, simulating telemetry collection.
 - **Challenge format:** Coding. Auto-grading simulates presses and checks the counter variable.
 - **CSTA:** E3‑PRO‑PF‑01.
 
 ### T26.G3.04 – Separate raw data from summary data
+
+_Dependency:_
+  * T26.G3.03: Log sensor-style events with counters
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+
 
 - **Short name:** Keep an untouched log list
 - **Description:** Learners maintain two structures: a raw list of answers and a summary list of counts, emphasizing why we never overwrite raw data.
@@ -134,12 +196,26 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G4.01 – Create collection protocols for partners
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Write survey instructions others can follow
 - **Description:** Students draft multi-step protocols (who to ask, how many people, what to say) so teammates can collect consistent data.
 - **Challenge format:** Documentation. Auto-grading checks for required fields (audience, script, stopping condition).
 - **CSTA:** E4‑PRO‑PM‑05.
 
 ### T26.G4.02 – Use tables to log multi-attribute events
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Record timestamp + event type
 - **Description:** Learners capture gameplay telemetry in a table with columns (time, event, player). This mirrors logging for CreatiCode games.
@@ -148,12 +224,26 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G4.03 – Track missing/invalid data with flags
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Mark blank responses as “N/A”
 - **Description:** Students add a column to note when data is missing or suspect, preparing them for cleaning in T27.
 - **Challenge format:** Concept + coding. Auto-grading checks that invalid entries are labeled and not silently discarded.
 - **CSTA:** E4‑DAA‑DF‑01.
 
 ### T26.G4.04 – Reflect on privacy in collection
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Decide what to collect and why
 - **Description:** Learners evaluate a proposed survey (asking for full names + addresses) and suggest safer alternatives, aligning with AI4K12 ethics.
@@ -166,12 +256,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G5.01 – Instrument a project with runtime logs
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Add logging blocks to key events
 - **Description:** Students insert scripts that append event descriptions to a list whenever certain actions occur (level start, damage taken), enabling post-play analysis.
 - **Challenge format:** Coding. Auto-grading runs test events and verifies log entries include timestamps or counters.
 - **CSTA:** E5‑PRO‑PF‑01, DAA‑DP.
 
 ### T26.G5.02 – Plan sampling strategies
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Decide who/when to collect from
 - **Description:** Learners compare convenience, random, and stratified sampling for a class poll and document which they’ll use and why.
@@ -180,12 +286,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G5.03 – Validate data entry with error checks
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Use conditionals to reject bad inputs
 - **Description:** Students add checks (e.g., reject scores <0 or >100) during collection to ensure data quality upstream.
 - **Challenge format:** Coding. Auto-grading submits invalid inputs and ensures the program prompts for re-entry.
 - **CSTA:** E5‑PRO‑PF‑01.
 
 ### T26.G5.04 – Store logs in CreatiCode tables for export
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Build table-based audit trails
 - **Description:** Learners push collected events into table variables with named columns, prepping for CSV export to T27.
@@ -198,12 +320,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G6.01 – Map stakeholder questions to data requirements
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Translate research questions into fields
 - **Description:** Students receive stakeholder questions (“Which level is hardest?”) and specify what data to collect (attempt count, completion time), aligning collection with analysis goals.
 - **Challenge format:** Concept table. Auto-grading checks that each question has corresponding fields and measurement units.
 - **CSTA:** MS‑DAA‑DF‑03.
 
 ### T26.G6.02 – Automate multi-sensor logging (voice + pose)
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Collect voice transcripts and pose frames together
 - **Description:** Learners combine T23 blocks to record speech text and pose coordinates simultaneously, ensuring synchronized logs.
@@ -212,12 +350,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G6.03 – Create consent and opt-out workflows
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Ask users before logging data
 - **Description:** Students implement dialog widgets that explain what will be collected, gather consent, and disable logging when declined.
 - **Challenge format:** Coding + ethics. Auto-grading toggles consent responses to ensure logging obeys settings.
 - **CSTA:** MS‑CAS‑ET‑06.
 
 ### T26.G6.04 – Capture measurement error estimates
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Log +/- tolerance alongside values
 - **Description:** Learners add extra columns (value ± error) when recording measurements, teaching them to note uncertainty.
@@ -230,12 +384,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G7.01 – Build reusable data collection modules
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Package logging as custom blocks
 - **Description:** Students wrap logging behavior into custom blocks (e.g., `logEvent type message data`) so multiple sprites can call the same routine.
 - **Challenge format:** Coding. Auto-grading verifies the custom block exists and writes consistent rows regardless of caller.
 - **CSTA:** MS‑PRO‑PD‑08.
 
 ### T26.G7.02 – Monitor data quality in real time
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Add dashboards that show missing or extreme values
 - **Description:** Learners build HUD widgets indicating percentage of responses collected, number of nulls, or out-of-range counts to catch issues while collecting.
@@ -244,12 +414,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G7.03 – Document provenance for external datasets
 
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
+
 - **Short name:** Track source, license, and refresh schedule
 - **Description:** Students import an open dataset (weather, public CSV) and log metadata (where it came from, license, when to refresh), reinforcing responsible use.
 - **Challenge format:** Concept + documentation. Auto-grading checks metadata fields are filled and references a real source.
 - **CSTA:** MS‑CAS‑ET‑05.
 
 ### T26.G7.04 – Evaluate bias risks introduced during collection
+
+_Dependency:_
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
+
 
 - **Short name:** Audit sampling coverage
 - **Description:** Learners compare planned participants vs actual participants and highlight underrepresented groups, proposing corrective actions.
@@ -262,12 +448,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G8.01 – Design end-to-end telemetry pipelines
 
+_Dependency:_
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+
+
 - **Short name:** Diagram sources → processing → storage → export
 - **Description:** Students draw a pipeline for a multi-level game (client logs → cleaning script → storage table → CSV export), emphasizing interfaces between steps.
 - **Challenge format:** Concept diagram + explanation. Auto-grading checks for all four stages and data formats at each handoff.
 - **CSTA:** MS‑PRO‑PM‑03.
 
 ### T26.G8.02 – Implement scheduled data exports and resets
+
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.G1.01: Run a three-option picture survey
+  * T26.GK.02: Use tokens to log repeated events
+
 
 - **Short name:** Rotate logs automatically
 - **Description:** Learners script timed routines that export a table to file (or display) and then clear/reset logs, mirroring production data rotation.
@@ -276,12 +478,28 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T26.G8.03 – Integrate XO guidance into data scripts
 
+_Dependency:_
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.GK.02: Use tokens to log repeated events
+
+
 - **Short name:** Use XO to critique collection plans
 - **Description:** Students send their collection protocol to XO (T24) for review, then document accepted and rejected suggestions, showing human oversight of AI advice.
 - **Challenge format:** Concept + reflection. Auto-grading checks for XO transcript snippet and final decisions referencing evidence.
 - **CSTA:** MS‑CAS‑ET‑06.
 
 ### T26.G8.04 – Publish data privacy agreements for peers
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.04: Trace code with variables to predict outcomes
+  * T10.G3.03: Add and remove items from a list
+  * T26.G1.01: Run a three-option picture survey
+  * T26.GK.02: Use tokens to log repeated events
+
 
 - **Short name:** Write a classroom data-sharing policy
 - **Description:** Learners author a short agreement describing what data will be collected, how it’s stored, who can access it, and deletion timelines, tying back to AI4K12’s societal-impact focus.
