@@ -14,6 +14,8 @@ Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
+
+
 ID: T01.GK.03
 Topic: T01 – Everyday Algorithms
 Skill: Find the first and last pictures
@@ -39,6 +41,8 @@ Dependencies:
 * T01.GK.03: Find the first and last pictures
 
 
+
+
 ID: T01.GK.06
 Topic: T01 – Everyday Algorithms
 Skill: What comes next?
@@ -55,13 +59,17 @@ Dependencies:
 * T01.GK.03: Find the first and last pictures
 
 
+
+
 ID: T01.GK.08
 Topic: T01 – Everyday Algorithms
 Skill: Count how many times
 Description: **Student task:** Watch the character. Count how many times they do the same action. _Implementation note: Short animation + picture‑based count choices. CSTA: EK‑ALG‑AF‑01.__
 
 Dependencies:
-* T01.GK.08: Count how many times
+* T01.GK.07: Find the pattern that repeats
+
+
 
 
 ID: T01.G1.01
@@ -1024,6 +1032,10 @@ Topic: T02 – Algorithm Diagrams
 Skill: Recognize picture steps for a task
 Description: Students look at 3–4 pictures laid out in a row with arrows between them and choose which strip shows the steps in an order that works to do the task.
 
+Dependencies:
+* T01.GK.01: Put pictures in order for getting ready for bed
+
+
 
 
 ID: T02.GK.02
@@ -1033,6 +1045,8 @@ Description: Students drag 3–4 scrambled pictures into arrow‑connected boxes
 
 Dependencies:
 * T02.GK.01: Recognize picture steps for a task
+
+
 
 
 ID: T02.GK.03
@@ -1051,6 +1065,8 @@ Description: Students see a 3‑picture “robot instructions” strip where one
 
 Dependencies:
 * T02.GK.03: Use first/next/last to describe a sequence
+
+
 
 
 ID: T02.G1.01
@@ -1563,6 +1579,8 @@ Dependencies:
 * T03.GK.01: Identify parts that make up a whole
 
 
+
+
 ID: T03.GK.03
 Topic: T03 – Problem Decomposition
 Skill: Order 3–4 pictures to show steps in a routine
@@ -1572,6 +1590,8 @@ Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
+
+
 ID: T03.GK.04
 Topic: T03 – Problem Decomposition
 Skill: Choose the missing middle step in a routine
@@ -1579,6 +1599,8 @@ Description: Students see the first and last steps of a 3‑step routine and cho
 
 Dependencies:
 * T03.GK.03: Order 3–4 pictures to show steps in a routine
+
+
 
 
 ID: T03.G1.01
@@ -2064,13 +2086,18 @@ Dependencies:
 * T04.GK.01: Spot a simple repeating pattern
 
 
+
+
 ID: T04.GK.03
 Topic: T04 – Algorithm Patterns
 Skill: Describe a pattern using simple words
 Description: Students see a pattern and choose the matching description (e.g., “circle, square, circle, square”).
 
 Dependencies:
-* T01.GK.03: Find the first and last pictures
+* T04.GK.01: Spot a simple repeating pattern
+* T04.GK.02: Extend a repeating pattern by one tile
+
+
 
 
 ID: T04.GK.04
@@ -2080,6 +2107,8 @@ Description: Students see a pattern row with one wrong picture and replace just 
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
+
+
 
 
 ID: T04.G1.01
@@ -2578,7 +2607,9 @@ Skill: Match a simple problem to a helpful tool
 Description: Students match simple everyday problems (e.g., “It’s dark”) to tools that help (e.g., flashlight).
 
 Dependencies:
-* T03.GK.01: Identify parts that make up a whole
+* T05.GK.01: Name who a tool helps
+
+
 
 
 ID: T05.GK.03
@@ -2590,10 +2621,16 @@ Dependencies:
 * T05.GK.02: Match a simple problem to a helpful tool
 
 
+
+
 ID: T05.GK.04
 Topic: T05 – Human‑Centered Design
 Skill: Choose a change that makes something easier
 Description: Students pick one change (bigger button, clearer text, speaker icon for sound) that would help a character use a device.
+
+Dependencies:
+* T05.GK.02: Match a simple problem to a helpful tool
+
 
 
 
@@ -5426,7 +5463,9 @@ Skill: Try again when the steps don't work
 Description: Students follow a simple set of picture steps for a task (e.g., stacking blocks, moving a character on a board) and notice when the result is not what was intended. They experience the idea of "try, check, then try again" without needing to know how to change the steps themselves.
 
 Dependencies:
-* T01.GK.03: Find the first and last pictures
+* T13.GK.01: Spot a missing or wrong action
+
+
 
 
 ID: T13.GK.03
@@ -5810,7 +5849,9 @@ Skill: Recognize a score in simple games
 Description: Students compare before/after pictures of a score counter and gameplay moments (collecting a star, hitting a hazard) to see when the score changes and what it signals.
 
 Dependencies:
-* T01.GK.03: Find the first and last pictures
+* T14.GK.01: Match controls to character actions
+
+
 
 
 ID: T14.GK.03
@@ -5819,13 +5860,19 @@ Skill: Recognize a game starting and ending
 Description: Students observe a simple game story with a clear beginning (Start screen) and ending (Game Over). They identify which pictures show the start, play, and end of the game.
 
 Dependencies:
-* T01.GK.03: Find the first and last pictures
+* T14.GK.01: Match controls to character actions
+
+
 
 
 ID: T14.GK.04
 Topic: T14 – 2D Games
 Skill: Match rewards to goals
 Description: Students match pictures of finishing a level (touching a flag, clearing a board) to appropriate celebration panels (You Win text, trophy, fireworks) so they connect goals to feedback.
+
+Dependencies:
+* T14.GK.02: Recognize a score in simple games
+
 
 
 
@@ -6530,6 +6577,10 @@ Topic: T15 – Stories & Animation
 Skill: Sequence story pictures
 Description: Students arrange 3 picture panels to tell a simple story (e.g., Wake up -> Eat -> Play).
 
+Dependencies:
+* T01.GK.01: Put pictures in order for getting ready for bed
+
+
 
 
 ID: T15.GK.02
@@ -6537,8 +6588,6 @@ Topic: T15 – Stories & Animation
 Skill: Match emotions to faces
 Description: Students identify the emotion of a character based on their facial expression or pose (Happy, Sad, Surprised).
 
-Dependencies:
-* T03.GK.01: Identify parts that make up a whole
 
 
 ID: T15.GK.03
@@ -6546,8 +6595,6 @@ Topic: T15 – Stories & Animation
 Skill: Identify speech bubbles
 Description: Students look at a picture with characters and speech bubbles and identify who is speaking or what they are saying.
 
-Dependencies:
-* T01.GK.03: Find the first and last pictures
 
 
 ID: T15.G1.01
@@ -8171,6 +8218,10 @@ Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Picture pattern detective
 Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row “repeat” using everyday words.
 
+Dependencies:
+* T04.GK.01: Spot a simple repeating pattern
+
+
 
 
 ID: T20.GK.02
@@ -8182,6 +8233,8 @@ Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
+
+
 ID: T20.GK.03
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Continue the pattern trail
@@ -8191,10 +8244,16 @@ Dependencies:
 * T04.GK.01: Spot a simple repeating pattern
 
 
+
+
 ID: T20.GK.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Fix the mixed-up art plan
 Description: Students look at a 3-step art plan with one incorrect picture (e.g., a color that breaks the pattern) and replace it with the correct one from a small set.
+
+Dependencies:
+* T04.GK.01: Spot a simple repeating pattern
+
 
 
 
@@ -9060,7 +9119,9 @@ Skill: Point to where a device “looks” or “listens”
 Description: Students tap the camera spot on a tablet and the speaker/mic area on a toy or smart speaker, connecting device parts to senses without naming blocks or code.
 
 Dependencies:
-* T01.GK.03: Find the first and last pictures
+* T23.GK.01: Match pictures of sensing
+
+
 
 
 ID: T23.GK.03
@@ -9069,7 +9130,9 @@ Skill: Choose when to uncover or quiet a helper
 Description: In short comics (covering a camera with a sticker, talking over loud music), students choose the action that lets the helper sense again (move the sticker, make it quieter).
 
 Dependencies:
-* T01.GK.03: Find the first and last pictures
+* T23.GK.02: Point to where a device "looks" or "listens"
+
+
 
 
 ID: T23.G1.01
@@ -9716,7 +9779,9 @@ Skill: Match quantities to symbols
 Description: Students count a small set of items and choose a symbol (tally marks, dots, stickers) to represent the quantity, reinforcing that symbols can encode counts.
 
 Dependencies:
-* T03.GK.01: Identify parts that make up a whole
+* T25.GK.01: Spot data in everyday objects
+
+
 
 
 ID: T25.GK.03
@@ -9725,7 +9790,9 @@ Skill: Build a two-symbol legend
 Description: Given two emotions or states (happy/sad, hot/cold), students invent or select symbols to stand for each and use them to label pictures. This sets up later ideas about legends in charts.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T25.GK.02: Match quantities to symbols
+
+
 
 
 ID: T25.G1.01
@@ -10088,7 +10155,9 @@ Skill: Use tokens to log repeated events
 Description: Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first “log.”
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T26.GK.01: Notice things you can count or compare
+
+
 
 
 ID: T26.GK.03
@@ -10096,8 +10165,6 @@ Topic: T26 – Data Collection & Logging
 Skill: Capture yes/no answers with smile/frown cards
 Description: Students ask a peer a yes/no question and place the response card into the correct bin, making a physical tally.
 
-Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 ID: T26.G1.01
@@ -10471,7 +10538,9 @@ Skill: Compare which group has more
 Description: Learners count two piles (≤5 each) and state which is larger or if they match, building comparative reasoning.
 
 Dependencies:
-* T03.GK.01: Identify parts that make up a whole
+* T27.GK.01: Sort objects by a rule and explain it
+
+
 
 
 ID: T27.GK.03
@@ -10480,7 +10549,9 @@ Skill: Read a two-column picture chart
 Description: Students interpret which category wins using a pictograph (one icon per item), establishing the basic concept of visual comparisons.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T27.GK.02: Compare which group has more
+
+
 
 
 ID: T27.G1.01
@@ -11483,7 +11554,9 @@ Skill: Match devices to actions
 Description: Learners match pictures (camera, speaker, automatic door) to simple descriptions (“takes pictures,” “plays sound,” “opens when someone walks up”).
 
 Dependencies:
-* T03.GK.01: Identify parts that make up a whole
+* T30.GK.01: Identify everyday computing devices
+
+
 
 
 ID: T30.GK.03
@@ -11492,7 +11565,9 @@ Skill: Recognize input vs output examples
 Description: Students categorize simple objects (microphone, light bulb, button, screen) as sending information into a computer or out to people.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T30.GK.02: Match devices to actions
+
+
 
 
 ID: T30.G1.01
@@ -12111,7 +12186,9 @@ Skill: Recognize when to ask for help online
 Description: Learners hear short scenario stories (stranger asking for photo, upsetting message) and decide to stop and tell an adult.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T32.GK.01: Spot safe vs unsafe sharing
+
+
 
 
 ID: T32.GK.03
@@ -12119,8 +12196,6 @@ Topic: T32 – Cybersecurity & Digital Safety
 Skill: Understand that passwords keep things safe
 Description: Students compare visual representations of passwords (🐱 vs “Cat123”) and identify which is harder to guess.
 
-Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 ID: T32.G1.01
@@ -12647,7 +12722,9 @@ Skill: Match old vs new versions of tech
 Description: Learners compare paired images (rotary phone vs smartphone, bulky PC vs tablet) to grasp that technology changes over time.
 
 Dependencies:
-* T03.GK.01: Identify parts that make up a whole
+* T34.GK.01: Spot computing tools in daily life
+
+
 
 
 ID: T34.GK.03
@@ -12656,7 +12733,9 @@ Skill: Name a person who uses computers in their job
 Description: Students connect everyday professions (teacher, nurse, mechanic) with computing tools they rely on.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T34.GK.01: Spot computing tools in daily life
+
+
 
 
 ID: T34.G1.01
@@ -12940,7 +13019,9 @@ Skill: Recognize signs of too much screen time
 Description: Learners connect long screen sessions with feeling tired or missing other activities.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T35.GK.01: Identify a helpful use of technology
+
+
 
 
 ID: T35.GK.03
@@ -12948,8 +13029,6 @@ Topic: T35 – Impacts & Ethics
 Skill: Practice device sharing etiquette
 Description: Students role-play sharing tablets or taking turns, reinforcing respectful use.
 
-Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 ID: T35.G1.01
@@ -13307,7 +13386,9 @@ Skill: Practice sharing and turn-taking with devices
 Description: Learners pick the kind response in sharing scenarios (two kids want the tablet) and explain why sharing matters.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T36.GK.01: Match community helpers to digital tools
+
+
 
 
 ID: T36.GK.03
@@ -13316,7 +13397,9 @@ Skill: Describe what a digital tool helps someone do
 Description: Given a picture of someone using a tool (drawing app, video call), students say what job or task it helps with.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T36.GK.01: Match community helpers to digital tools
+
+
 
 
 ID: T36.G1.01
