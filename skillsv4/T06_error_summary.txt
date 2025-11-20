@@ -1,0 +1,21 @@
+T06 DEPENDENCY TITLE ERROR SUMMARY
+===================================
+
+TOTAL ERRORS FOUND: 42 instances
+
+Breakdown:
+- T06.G5.01 listed as "Build a green-flag script": 41 instances (WRONG)
+- T06.G5.02 listed as "Build a key-press script": 1 instance (WRONG)
+
+CORRECT TITLES:
+- T06.G5.01 should be: "Identify standard event patterns in a small game"
+- T06.G5.02 should be: "Add a new event-triggered behavior to an existing game"
+
+IMPACT:
+- Within T06: 3 Grade 7 skills affected (T06.G7.01, G7.02, G7.04)
+- Cross-topic: 38+ skills in other topics affected
+
+This is a systematic copy-paste error where skill IDs were updated
+but skill titles were not when dependencies were copied from G3 to G5.
+
+FIX REQUIRED: Global find-and-replace in allskills.md

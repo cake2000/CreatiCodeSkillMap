@@ -94,6 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
+      if ( iteration == 0 && i < 5) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -119,9 +120,11 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
    - Check for duplicates or significant overlaps WITHIN this topic
    - Verify logical progression from kindergarten through grade 8
 
+
 2. **Skill Quality Checks**
    - Break down any skills that are too broad or complex
    - Skill description should be actionable, relatable to the target age group, easy to understand, and implementable
+   - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You should check the creaticode repos to verify this.
    - Ensure skill descriptions are concrete and assessable
    - Merge truly redundant skills within the topic (but be conservative)
    - When breaking down skills, use sub-IDs like ${topic.code}.G4.05.01, ${topic.code}.G4.05.02
@@ -130,7 +133,7 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
    - Fix dependencies WITHIN topic ${topic.code} only
    - Ensure no skill depends on a later skill in the same topic
    - Remove unnecessary same-grade dependencies (earlier skills in same topic/grade are assumed)
-   - Apply the X-2 rule: dependencies should be at grades X, X-1, or X-2 only
+   - Apply the X-2 rule: dependencies should be at grades X, X-1, or X-2 only. For example, for a grade 4 skill, dependencies can only be at grades 4, 3, or 2.
    - **CRITICAL: PRESERVE all dependencies to OTHER topics (T## where ## ≠ ${topic.code.slice(1)})**
 
 4. **Grade-Appropriate Content**
@@ -185,13 +188,13 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
         } catch (error) {
           console.error(`\n❌ Error processing topic ${topic.code}:`, error.message.substring(0, 100));
           const errorStr = error.toString().toLowerCase();
-          if (errorStr.includes("api error") || errorStr.includes("usage limit")) {
-            console.log(`⏰ API limit - waiting 15 minutes...`);
+          if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
+            console.log(`⏰ waiting 15 minutes ${new Date().toLocaleString()}...`);
             await waitWithCountdown(15);
             retryCount++;
           } else {
-            console.error(`⚠️  Skipping topic ${topic.code} after error`);
-            break;
+            // console.error(`⚠️  Skipping topic ${topic.code} after error`);
+            // break;
           }
         }
       }
@@ -261,7 +264,7 @@ You are in PHASE 2 of a two-phase optimization process. Phase 1 has already opti
    - Example: A game skill might need to depend on loops, variables, and graphics skills
 
 2. **Dependency Validation**
-   - Enforce the X-2 rule strictly: Grade ${grade} skills can only depend on ${allowedGrades}
+   - Enforce the X-2 rule strictly: Grade ${grade} skills can only depend on ${allowedGrades}.
    - Fix dependencies that violate this rule by finding appropriate scaffolding skills
    - Check for circular dependencies across topics
    - Remove transitive dependencies (if A→B and B→C, remove A→C) ONLY if truly redundant

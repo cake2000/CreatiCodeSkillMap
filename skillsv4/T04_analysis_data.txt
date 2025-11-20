@@ -1,0 +1,241 @@
+T04 SKILLS EXTRACTION - ALL GRADES K-8
+========================================
+
+KINDERGARTEN (4 skills)
+-----------------------
+T04.GK.01 - Spot a simple repeating pattern
+  Deps: none
+  Issue: Good foundation skill
+
+T04.GK.02 - Extend a repeating pattern by one tile
+  Deps: T04.GK.01
+  Issue: Good progression
+
+T04.GK.03 - Describe a pattern using simple words
+  Deps: T04.GK.01, T04.GK.02
+  Issue: Good skill
+
+T04.GK.04 - Fix a broken pattern by replacing one tile
+  Deps: T04.GK.02
+  Issue: Good skill
+
+GRADE 1 (4 skills)
+------------------
+T04.G1.01 - Match a picture pattern to a movement pattern
+  Deps: T04.GK.02
+  Issue: Good progression
+
+T04.G1.02 - Plan a short repeating animation pattern
+  Deps: T04.G1.01
+  Issue: Good progression
+
+T04.G1.03 - Find repeated steps in an instruction list
+  Deps: T01.GK.07 (cross-topic)
+  Issue: Good - cross-topic dep is appropriate
+
+T04.G1.04 - Match a repeated picture story to a repeated step list
+  Deps: T04.G1.03
+  Issue: Good progression
+
+GRADE 2 (4 skills)
+------------------
+T04.G2.01 - Identify the repeating unit in a longer pattern
+  Deps: T04.G1.03
+  Issue: Good progression
+
+T04.G2.02 - Spot repeated step sequences in everyday algorithms
+  Deps: T04.G2.01
+  Issue: Good progression
+
+T04.G2.03 - Compare a long explicit description vs a compressed "repeat" description
+  Deps: T01.G2.02 (cross-topic)
+  Issue: Good - cross-topic dep is appropriate
+
+T04.G2.04 - Replace repeated steps with a "repeat ___ times" phrase
+  Deps: T04.G2.03
+  Issue: Good progression
+
+GRADE 3 (6 skills)
+------------------
+T04.G3.01 - Identify where a loop could replace repeated blocks
+  Deps: T04.G2.02, T07.G3.01 (cross-topic)
+  Issue: Good - requires block coding knowledge
+
+T04.G3.02 - Match a "repeat N" loop to repeated behavior
+  Deps: T04.G3.01, T04.G2.03
+  Issue: G2 dep unnecessary (same grade assumed), but acceptable since G2 is earlier grade
+
+T04.G3.03 - Recognize a simple project template
+  Deps: T07.G3.02 (cross-topic), T03.G3.02 (cross-topic)
+  Issue: Good - cross-topic deps appropriate
+
+T04.G3.04 - Customize a template by changing repeated elements
+  Deps: T04.G3.03, T09.G3.01 (cross-topic)
+  Issue: Good progression
+
+T04.G3.05 - Fix a loop that repeats too many or too few times
+  Deps: T04.G3.04, T08.G3.01 (cross-topic)
+  Issue: Good progression
+
+T04.G3.06 - Fix a pattern where one step is wrong
+  Deps: T04.G3.05, T07.G3.03 (cross-topic)
+  Issue: Good progression
+
+GRADE 4 (6 skills)
+------------------
+T04.G4.01 - Trace a loop that creates a visual pattern
+  Deps: T04.G3.01, T04.GK.04 (!), T06.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skill (violates X-2 rule: G4 → GK is 4 grades back)
+
+T04.G4.02 - Identify nested pattern structure (outer vs inner loop)
+  Deps: T04.G3.03, T04.GK.04 (!), T07.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skill (violates X-2 rule)
+
+T04.G4.03 - Recognize "if" patterns that handle special cases
+  Deps: T04.G3.04, T04.GK.04 (!), T08.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skill (violates X-2 rule)
+
+T04.G4.04 - Match multiple code snippets that share the same pattern
+  Deps: T04.G2.01, T04.GK.03 (!), T04.GK.04 (!)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G4.05 - Identify when a known pattern can solve a new problem
+  Deps: T04.G2.01, T04.GK.03 (!), T06.G3.01, T07.G3.01, T09.G3.01 (cross-topics)
+  Issue: PROBLEM - depends on GK skill (violates X-2 rule)
+
+T04.G4.06 - Explain how reusing a pattern saves time
+  Deps: T04.G2.01, T04.GK.03 (!), T04.GK.04 (!)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+GRADE 5 (5 skills)
+------------------
+T04.G5.01 - Recognize a counter update pattern
+  Deps: T04.GK.04 (!), T09.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skill (violates X-2 rule: G5 → GK is 5 grades back)
+
+T04.G5.02 - Recognize an accumulator (sum/concatenate) pattern
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T09.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G5.03 - Recognize a linear search pattern
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T08.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G5.04 - Recognize a filter‑and‑collect pattern
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T08.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G5.05 - Compare solutions that use a pattern vs those that don't
+  Deps: T04.GK.04 (!), T09.G3.01 (cross-topic)
+  Issue: PROBLEM - depends on GK skill (violates X-2 rule)
+
+GRADE 6 (6 skills)
+------------------
+T04.G6.01 - Group snippets by underlying algorithm pattern
+  Deps: T04.G2.01, T04.GK.03 (!), T04.GK.04 (!), T09.G3.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule: G6 → GK is 6 grades back)
+
+T04.G6.02 - Spot pattern variants that look different but behave the same
+  Deps: T04.G1.01, T04.G2.01, T04.GK.03 (!), T04.GK.04 (!)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G6.03 - Turn repeated code into a custom block
+  Deps: T01.G3.01, T04.GK.03 (!), T04.GK.04 (!), T07.G3.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G6.04 - Add parameters to make a custom block more reusable
+  Deps: T01.G3.01, T04.GK.03 (!), T04.GK.04 (!), T08.G3.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G6.05 - Analyze a template project and identify customization points
+  Deps: T04.G1.01, T04.G1.02, T04.GK.03 (!), T04.GK.04 (!)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G6.06 - Compare two pattern‑based solutions for efficiency and clarity
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T07.G3.01, T08.G3.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+GRADE 7 (6 skills)
+------------------
+T04.G7.01 - Identify the main loop patterns in a simulation or game
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T07.G5.01, T08.G5.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule: G7 → GK is 7 grades back)
+
+T04.G7.02 - Identify data structure patterns (lists, grids) in use
+  Deps: T04.G5.01 (!ERROR!), T04.GK.03 (!), T04.GK.04 (!), T08.G5.01
+  Issue: CRITICAL ERROR - depends on T04.G5.01 which doesn't exist! Should be T04.G2.01
+  Also violates X-2 rule with GK deps
+
+T04.G7.03 - Design a solution by combining two known patterns
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T06.G5.01, T09.G5.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G7.04 - Trace a composite pattern and explain each part's role
+  Deps: T04.GK.03 (!), T04.GK.04 (!), T06.G5.01, T09.G5.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G7.05 - Simplify code by merging repeated patterns
+  Deps: T04.G5.01 (!ERROR!), T04.GK.03 (!), T04.GK.04 (!), T07.G5.01
+  Issue: CRITICAL ERROR - depends on T04.G5.01 which should be T04.G2.01
+  Also violates X-2 rule with GK deps
+
+T04.G7.06 - Compare pattern‑based implementations for maintainability
+  Deps: NONE
+  Issue: Missing dependencies - should have some prerequisites
+
+GRADE 8 (6 skills)
+------------------
+T04.G8.01 - Recognize common code idioms in a library
+  Deps: T04.G6.01, T04.GK.03 (!), T04.GK.04 (!), T08.G6.01, T09.G6.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule: G8 → GK is 8 grades back)
+
+T04.G8.02 - Adapt a library function to a new context
+  Deps: T04.G6.01, T04.GK.03 (!), T04.GK.04 (!), T06.G6.01, T09.G6.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G8.03 - Choose between alternative patterns for a problem
+  Deps: T04.G6.01, T04.GK.03 (!), T04.GK.04 (!), T06.G6.01, T07.G6.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G8.04 - Analyze tradeoffs in using a standard pattern vs custom code
+  Deps: T04.G6.01, T04.GK.03 (!), T04.GK.04 (!), T06.G6.01, T09.G6.01
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G8.05 - Write a short "pattern card" describing a reusable solution
+  Deps: T04.G6.01, T04.GK.03 (!), T04.GK.04 (!)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+T04.G8.06 - Explain to a peer how to reuse a pattern in their project
+  Deps: T04.G6.01, T04.GK.03 (!), T04.GK.04 (!)
+  Issue: PROBLEM - depends on GK skills (violates X-2 rule)
+
+SUMMARY OF ISSUES
+=================
+
+CRITICAL PRIORITY - BROKEN REFERENCES:
+1. T04.G7.02 depends on "T04.G5.01: Identify the repeating unit" - WRONG! T04.G5.01 is "Recognize a counter update pattern"
+   Should depend on T04.G2.01 instead
+
+2. T04.G7.05 depends on "T04.G5.01: Identify the repeating unit" - WRONG! Same issue as above
+   Should depend on T04.G2.01 instead
+
+HIGH PRIORITY - X-2 RULE VIOLATIONS:
+All G4+ skills depend on T04.GK.03 and/or T04.GK.04 (kindergarten skills)
+- This violates the X-2 rule (skills should only depend on X, X-1, or X-2 grades)
+- G4 → GK = 4 grades back (should be max 2)
+- These dependencies should be replaced with more recent grade equivalents or removed
+
+MEDIUM PRIORITY - MISSING DEPENDENCIES:
+T04.G7.06 has NO dependencies, but clearly needs prerequisites
+
+ANALYSIS OF DEPENDENCY PATTERN:
+- T04.GK.03 "Describe a pattern using simple words" is used as a dep in 19+ later skills (G4-G8)
+- T04.GK.04 "Fix a broken pattern by replacing one tile" is used as a dep in 24+ later skills (G4-G8)
+- These are being used as "foundational" skills but violate X-2 rule
+- Need to either:
+  a) Remove these deps (assume K-2 foundational knowledge)
+  b) Create "refresher" skills in G3 that can serve as valid dependencies for G4+
+
+RECOMMENDATION: Remove T04.GK.03 and T04.GK.04 from all G4+ dependencies
+- These are foundational K-2 skills that should be assumed knowledge
+- Students who reach G4 have already mastered these concepts 2+ years ago

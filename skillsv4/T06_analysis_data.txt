@@ -1,0 +1,129 @@
+# T06 Analysis Data - Incorrect Dependency References
+
+## CRITICAL ISSUE: Incorrect Skill Titles in Dependencies
+
+The following skills reference T06.G5.01 and/or T06.G5.02 with INCORRECT titles:
+
+### Skills Referencing "T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence"
+(This is WRONG - should be "Identify standard event patterns in a small game")
+
+Line numbers from allskills.md where this error appears:
+
+1852: T03.G7.02 (Grade 7 Decomposition skill)
+1873: T03.G7.04 (Grade 7 Decomposition skill)
+2320: T04.G5.03 (Grade 5 Patterns skill)
+2331: T04.G7.04 (Grade 7 Patterns skill)
+2803: T05.G6.02 (Grade 6 Design skill)
+3157: T06.G7.01 (Grade 7 Events skill) ⚠️ WITHIN T06
+3169: T06.G7.02 (Grade 7 Events skill) ⚠️ WITHIN T06
+3193: T06.G7.04 (Grade 7 Events skill) ⚠️ WITHIN T06
+3819: T08.G6.06 (Grade 6 Conditionals skill)
+4170: T09.G7.02 (Grade 7 Variables skill)
+4446: T10.G7.02 (Grade 7 Data skill)
+4757: T11.G7.02 (Grade 7 Functions skill)
+4781: T11.G7.03 (Grade 7 Functions skill)
+5094: T12.G7.01 (Grade 7 Readability skill)
+5494: T13.G5.02 (Grade 5 Testing skill)
+5506: T13.G5.03 (Grade 5 Testing skill)
+6197: T14.G5.04 (Grade 5 Motion skill)
+7104: T14.G5.07 (Grade 5 Motion skill)
+7163: T14.G5.08 (Grade 5 Motion skill)
+7525: T18.G6.02 (Grade 6 3D Motion skill)
+7551: T18.G6.03 (Grade 6 3D Motion skill)
+7564: T18.G6.04 (Grade 6 3D Motion skill)
+7577: T18.G6.05 (Grade 6 3D Motion skill)
+8251: T20.G5.04 (Grade 5 Arts skill)
+8277: T20.G5.05 (Grade 5 Arts skill)
+8464: T21.G5.02 (Grade 5 AI Integration skill)
+8479: T21.G5.03 (Grade 5 AI Integration skill)
+8492: T21.G5.04 (Grade 5 AI Integration skill)
+9250: T24.G6.02 (Grade 6 AI Workflow skill)
+9263: T24.G6.03 (Grade 6 AI Workflow skill)
+9289: T24.G6.04 (Grade 6 AI Workflow skill)
+9655: T25.G5.02 (Grade 5 Data Representation skill)
+9998: T26.G5.02 (Grade 5 Logging skill)
+10377: T26.G5.05 (Grade 5 Logging skill)
+10669: T27.G6.03 (Grade 6 Simulation skill)
+10708: T27.G6.04 (Grade 6 Simulation skill)
+11011: T28.G6.01 (Grade 6 NLP skill)
+11595: T31.G6.06 (Grade 6 Networking skill)
+11960: T32.G6.01 (Grade 6 Security skill)
+12118: T33.G6.06 (Grade 6 AI Services skill)
+13076: T36.G6.01 (Grade 6 Collaboration skill)
+
+TOTAL: 43 instances across multiple topics
+
+### Skills Referencing "T06.G5.02: Build a key‑press script that controls a sprite"
+(This is WRONG - should be "Add a new event‑triggered behavior to an existing game")
+
+3158: T06.G7.01 (Grade 7 Events skill) ⚠️ WITHIN T06
+
+TOTAL: 1 instance
+
+---
+
+## CORRECT SKILL DEFINITIONS (for reference)
+
+T06.G5.01 (ACTUAL):
+ID: T06.G5.01
+Skill: Identify standard event patterns in a small game
+Description: Students label patterns like "start game," "reset level," "on collision," "on score change" as specific event handlers in code.
+
+T06.G5.02 (ACTUAL):
+ID: T06.G5.02
+Skill: Add a new event‑triggered behavior to an existing game
+Description: Students add a new key or click event that triggers a simple new action without breaking existing ones.
+
+---
+
+## WHAT HAPPENED
+
+This appears to be a systematic copy-paste error where:
+1. Someone copied the dependency list template from earlier skills
+2. The template had T06.G3.01 and T06.G3.02 dependencies
+3. When creating dependencies for later skills, they changed the IDs (G3.01 → G5.01) but forgot to update the skill titles
+4. This propagated across 44 different skills in multiple topics
+
+---
+
+## IMPACT ASSESSMENT
+
+### Within T06 Topic (3 skills affected):
+- T06.G7.01, T06.G7.02, T06.G7.04
+- These Grade 7 skills incorrectly show dependencies to "Build a green-flag script" instead of "Identify event patterns"
+- This makes the dependency graph appear wrong (as if G7 skills only need basic G3 knowledge)
+
+### Cross-Topic Impact (41 skills affected):
+- Skills across 27 different topics have this error
+- Most are Grade 5-7 skills depending on what they think is a basic skill but is actually an advanced pattern recognition skill
+- This likely indicates these skills SHOULD depend on T06.G3.01 (basic green flag), not T06.G5.01 (pattern identification)
+
+---
+
+## RECOMMENDED FIX
+
+### Option A: Update Dependency Titles (Cosmetic Fix)
+Find and replace all instances:
+- "T06.G5.01: Build a green‑flag script" → "T06.G5.01: Identify standard event patterns in a small game"
+- "T06.G5.02: Build a key‑press script" → "T06.G5.02: Add a new event‑triggered behavior to an existing game"
+
+Pros: Preserves current dependency structure
+Cons: Doesn't fix potential logical error
+
+### Option B: Review and Correct Dependencies (Logical Fix)
+For each of the 44 affected skills:
+1. Determine if they actually NEED event pattern identification (T06.G5.01)
+2. OR if they only need basic event handling (T06.G3.01)
+3. Update the dependency ID accordingly
+
+Pros: Fixes underlying logical issues
+Cons: Requires deep analysis of each skill
+
+### RECOMMENDATION:
+Start with Option A (cosmetic fix) for Phase 1, then review specific skills in Phase 2 when doing cross-topic optimization. Many of these skills likely DO need T06.G3.01 (basic events) rather than T06.G5.01 (advanced patterns).
+
+---
+
+## FILE GENERATED
+2025-11-20
+Analysis of Topic T06 Dependencies
