@@ -98,6 +98,8 @@ async function runAllScripts() {
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
 
+      console.log(`  ${new Date().toLocaleString()}`);
+
       const topicPrompt = `## Introduction
 We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on.
 
@@ -224,6 +226,9 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
       const grade = gradeList[i];
       console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade}`);
       console.log(`${"─".repeat(50)}`);
+
+      // print date time
+      console.log(`  ${new Date().toLocaleString()}`);
 
       // Calculate allowed dependency grades
       let allowedGrades;
