@@ -1,0 +1,458 @@
+================================================================================
+ALL G4 SKILLS - COMPLETE CATALOG
+================================================================================
+
+Total: 162 skills
+With issues: 37 (22%)
+Without issues: 125 (77%)
+
+================================================================================
+SKILLS WITH ISSUES (37 skills)
+================================================================================
+
+T01 – Everyday Algorithms
+--------------------------------------------------------------------------------
+T01.G4.02: Implement a written plan in code
+  Deps: T01.GK.08 [GK]
+T01.G4.04: Replace repeated patterns with loops
+  Deps: T01.GK.07 [GK]
+T01.G4.06: Recognize variables in a program
+  Deps: T01.GK.07 [GK]
+T01.G4.07: Trace a simple counter variable
+  Deps: T01.GK.07 [GK]
+T01.G4.09: Use a variable to track a simple game state (lives or points)
+  Deps: T01.GK.08 [GK]
+T01.G4.10: Trace a multi‑step algorithm with loops and variables
+  Deps: T01.GK.08 [GK]
+T01.G4.11: Debug an off‑by‑one counting bug
+  Deps: T01.GK.08 [GK]
+
+T02 – Algorithm Diagrams
+--------------------------------------------------------------------------------
+T02.G4.01: Add a loop to an existing flowchart
+  Deps: T02.GK.04 [GK]
+T02.G4.02: Design a flowchart for a task with repetition
+  Deps: T02.GK.04 [GK]
+T02.G4.04: Trace a flowchart that includes a loop structure
+  Deps: T02.GK.04 [GK]
+T02.G4.05: Convert a story description into simple pseudocode
+  Deps: T02.GK.03 [GK]
+T02.G4.06: Match pseudocode to a flowchart
+  Deps: T02.GK.03 [GK]
+
+T03 – Problem Decomposition
+--------------------------------------------------------------------------------
+T03.G4.01: Break a medium‑size project into components
+  Deps: T03.GK.03 [GK]
+T03.G4.02: Group related components into modules
+  Deps: T03.G1.01 [G1]
+T03.G4.03: Assign project tasks to team roles
+  Deps: T03.G1.01 [G1]
+T03.G4.04: Create a simple task list with owners and order
+  Deps: T03.G1.01 [G1]
+
+T04 – Algorithm Patterns
+--------------------------------------------------------------------------------
+T04.G4.01: Trace a loop that creates a visual pattern
+  Deps: T04.GK.03 [GK]
+T04.G4.02: Identify nested pattern structure (outer vs inner loop)
+  Deps: T04.GK.03 [GK]
+T04.G4.03: Recognize “if” patterns that handle special cases
+  Deps: T04.GK.03 [GK]
+
+T05 – Human‑Centered Design
+--------------------------------------------------------------------------------
+T05.G4.01: Identify key details in a user persona
+  Deps: T05.G1.01 [G1]
+T05.G4.02: Match designs to personas
+  Deps: T05.G1.01 [G1]
+T05.G4.03: Recognize common accessibility issues in an interface
+  Deps: T05.G1.01 [G1]
+T05.G4.04: Choose appropriate accessibility improvements
+  Deps: T05.G1.01 [G1]
+T05.G4.05: Decide what to include vs ignore in a simulation
+  Deps: T05.G1.01 [G1]
+T05.G4.06: Explain why a simplification is reasonable
+  Deps: T05.G1.01 [G1]
+
+T25 – Data Representation
+--------------------------------------------------------------------------------
+T25.G4.02: Encode the same fact in decimal, fraction, and percentage
+  Deps: T25.G1.01 [G1]
+T25.G4.03: Compare dense vs sparse representations
+  Deps: T25.G1.01 [G1]
+T25.G4.04: Document assumptions in a data key
+  Deps: T25.G1.01 [G1]
+
+T30 – Devices & Hardware Systems
+--------------------------------------------------------------------------------
+T30.G4.03: Differentiate latency vs bandwidth
+  Deps: T30.G1.01 [G1]
+
+T32 – Cybersecurity & Digital Safety
+--------------------------------------------------------------------------------
+T32.G4.01: Build a class digital citizenship agreement
+  Deps: T32.G1.01 [G1]
+T32.G4.02: Use password managers (conceptual)
+  Deps: T32.G1.01 [G1]
+T32.G4.04: Practice secure file sharing in CreatiCode
+  Deps: T32.G1.01 [G1]
+
+T35 – Impacts & Ethics
+--------------------------------------------------------------------------------
+T35.G4.01: Analyze case studies of tech helping/harming communities
+  Deps: T35.G1.01 [G1]
+T35.G4.03: Reflect on accessibility/inclusion in games
+  Deps: T35.G1.01 [G1]
+
+T36 – Careers, Collaboration & Future Paths
+--------------------------------------------------------------------------------
+T36.G4.01: Explore diverse tech careers via profiles/videos
+  Deps: T36.G1.01 [G1]
+T36.G4.02: Track work with a shared checklist
+  Deps: T36.G1.01 [G1]
+T36.G4.03: Role-play resolving project disagreements
+  Deps: T36.G1.01 [G1]
+
+
+================================================================================
+SKILLS WITHOUT ISSUES (125 skills)
+================================================================================
+
+T01 – Everyday Algorithms
+--------------------------------------------------------------------------------
+T01.G4.01: Plan steps for a coded maze or goal‑reach task
+  Deps: T01.G3.02 [G3]
+T01.G4.03: Identify repeated patterns in longer scripts
+  Deps: T01.G3.01 [G3]
+T01.G4.05: Compare two versions of a script: with and without loops
+  Deps: T01.G3.01 [G3]
+T01.G4.08: Add a variable to count events in a program
+  Deps: T01.G3.01 [G3]
+T01.G4.12: Explain why one algorithm solution is better than another
+  Deps: T01.G3.02 [G3]
+
+T02 – Algorithm Diagrams
+--------------------------------------------------------------------------------
+T02.G4.03: Trace a flowchart with multiple decision points
+  Deps: T01.G3.01 [G3]
+
+T03 – Problem Decomposition
+--------------------------------------------------------------------------------
+T03.G4.05: Spot a missing or unnecessary task in a plan
+  Deps: T01.G3.01 [G3]
+T03.G4.06: Update a plan after testing feedback
+  Deps: T01.G3.01 [G3]
+
+T04 – Algorithm Patterns
+--------------------------------------------------------------------------------
+T04.G4.04: Match multiple code snippets that share the same pattern
+  Deps: T04.G2.01 [G2]
+T04.G4.05: Identify when a known pattern can solve a new problem
+  Deps: T04.G2.01 [G2]
+T04.G4.06: Explain how reusing a pattern saves time
+  Deps: T04.G2.01 [G2]
+
+T06 – Events & Sequences: G3–8 Skill List
+--------------------------------------------------------------------------------
+T06.G4.01: Build a sprite with several event handlers (green flag + keys)
+  Deps: T06.G3.01 [G3]
+T06.G4.02: Trace which scripts run for different inputs
+  Deps: T06.G3.01 [G3]
+T06.G4.03: Recognize when a broadcast could connect sprites
+  Deps: T06.G3.07 [G3]
+T06.G4.04: Match a broadcast send to its receivers
+  Deps: T06.G3.01 [G3]
+T06.G4.05: Fix a sprite that doesn’t respond because the event is wrong
+  Deps: T06.G3.01 [G3]
+T06.G4.06: Fix a missing receiver for a broadcast
+  Deps: T06.G3.07 [G3]
+
+T07 – Loops
+--------------------------------------------------------------------------------
+T07.G4.01: Create a forever game loop for controls
+  Deps: T06.G3.01 [G3]
+T07.G4.02: Loop with a condition inside
+  Deps: T06.G3.01 [G3]
+T07.G4.03: Use a loop counter variable
+  Deps: T06.G3.01 [G3]
+T07.G4.04: Convert repeated blocks with conditions into loops
+  Deps: T06.G3.01 [G3]
+T07.G4.05: Analyze and fix a loop bug
+  Deps: T06.G3.01 [G3]
+T07.G4.06: Trace code that combines a loop and a condition
+  Deps: T06.G3.01 [G3]
+
+T08 – Conditions & Logic
+--------------------------------------------------------------------------------
+T08.G4.01: Combine two conditions with AND
+  Deps: T06.G3.01 [G3]
+T08.G4.02: Combine two conditions with OR
+  Deps: T06.G3.01 [G3]
+T08.G4.03: Trace code with compound conditionals
+  Deps: T06.G3.01 [G3]
+T08.G4.04: Nest if/else statements
+  Deps: T06.G3.01 [G3]
+T08.G4.05: Convert nested if to cleaner logic
+  Deps: T06.G3.01 [G3]
+T08.G4.06: Use if to control state changes
+  Deps: T06.G3.02 [G3]
+T08.G4.07: Analyze and fix a logic bug
+  Deps: T06.G3.01 [G3]
+T08.G4.08: Trace code with a sequence of if/else blocks
+  Deps: T08.G3.01 [G3]
+
+T09 – Variables & Expressions
+--------------------------------------------------------------------------------
+T09.G4.01: Use multiplication and division in expressions
+  Deps: T06.G3.01 [G3]
+T09.G4.02: Combine operators and variables in complex expressions
+  Deps: T06.G3.01 [G3]
+T09.G4.03: Store and use user input in a variable
+  Deps: T06.G3.02 [G3]
+T09.G4.04: Use variables in a loop counter pattern
+  Deps: T06.G3.01 [G3]
+T09.G4.05: Use comparison operators in expressions
+  Deps: T06.G3.01 [G3]
+T09.G4.06: Use boolean variables to track states
+  Deps: T06.G3.01 [G3]
+T09.G4.07: Modify a variable based on sensor or random input
+  Deps: T06.G3.01 [G3]
+T09.G4.08: Debug incorrect variable updates in code
+  Deps: T06.G3.01 [G3]
+
+T10 – Lists & Tables
+--------------------------------------------------------------------------------
+T10.G4.01: Use nested loops to process a 2D arrangement (rows and columns)
+  Deps: T06.G3.01 [G3]
+T10.G4.02: Store and retrieve parallel list data
+  Deps: T06.G3.01 [G3]
+T10.G4.03: Build a high score or leaderboard list
+  Deps: T06.G3.01 [G3]
+T10.G4.04: Sort a list by swapping items
+  Deps: T06.G3.01 [G3]
+T10.G4.05: Search a list for a specific item (linear search)
+  Deps: T06.G3.01 [G3]
+T10.G4.06: Filter or remove items from a list based on a condition
+  Deps: T06.G3.01 [G3]
+
+T11 – Functions & Procedures
+--------------------------------------------------------------------------------
+T11.G4.01: Define and call a simple helper (no parameters)
+  Deps: T06.G3.01 [G3]
+T11.G4.02: Distinguish action blocks from reporter functions
+  Deps: T06.G3.01 [G3]
+T11.G4.03: Use a block's result in a calculation
+  Deps: T06.G3.01 [G3]
+T11.G4.04: Describe what each helper does in a script
+  Deps: T06.G3.01 [G3]
+T11.G4.05: Trace through a script with helpers and reporters
+  Deps: T06.G3.01 [G3]
+
+T12 – Organizing Programs
+--------------------------------------------------------------------------------
+T12.G4.01: Document a program with embedded comments
+  Deps: T06.G3.01 [G3]
+T12.G4.02: Choose descriptive names for custom blocks
+  Deps: T06.G3.01 [G3]
+T12.G4.03: Refactor repeated blocks into a custom block for clarity
+  Deps: T06.G3.01 [G3]
+T12.G4.04: Analyze and improve variable scope and naming
+  Deps: T08.G3.01 [G3]
+
+T13 – Testing, Debugging & Error Handling
+--------------------------------------------------------------------------------
+T13.G4.01: Debug a conditional inside a loop
+  Deps: T06.G3.01 [G3]
+T13.G4.02: Test edge cases in a simple condition
+  Deps: T06.G3.01 [G3]
+T13.G4.03: Create an alternative solution to the same problem
+  Deps: T06.G3.01 [G3]
+T13.G4.04: Identify and fix an infinite loop or program hang
+  Deps: T07.G3.01 [G3]
+T13.G4.05: Use systematic testing with multiple test cases
+  Deps: T06.G3.01 [G3]
+T13.G4.06: Compare two programs solving the same task
+  Deps: T06.G3.01 [G3]
+T13.G4.07: Debug a complex loop with nested structures
+  Deps: T06.G3.01 [G3]
+T13.G4.08: Document the steps you took to find and fix a bug
+  Deps: T06.G3.01 [G3]
+
+T14 – 2D Games
+--------------------------------------------------------------------------------
+T14.G4.01: Spawn a projectile
+  Deps: T06.G3.02 [G3]
+T14.G4.02: Move a projectile
+  Deps: T06.G3.01 [G3]
+T14.G4.03: Clean up projectiles
+  Deps: T06.G3.01 [G3]
+T14.G4.04: Simple enemy movement
+  Deps: T06.G3.01 [G3]
+T14.G4.05: Chase the player
+  Deps: T06.G3.01 [G3]
+T14.G4.06: Create a Score variable
+  Deps: T06.G3.01 [G3]
+T14.G4.07: Create a Lives variable
+  Deps: T06.G3.01 [G3]
+T14.G4.08: Create a Timer
+  Deps: T06.G3.01 [G3]
+T14.G4.09: Detect level complete
+  Deps: T06.G3.01 [G3]
+T14.G4.10: Switch backdrops for levels
+  Deps: T06.G3.01 [G3]
+T14.G4.11: Add checkpoints
+  Deps: T06.G3.01 [G3]
+T14.G4.12: Temporary power-ups
+  Deps: T06.G3.01 [G3]
+T14.G4.13: Pause and resume the game
+  Deps: T06.G3.01 [G3]
+T14.G4.14: Reset on restart messages
+  Deps: T06.G3.01 [G3]
+
+T15 – Stories & Animation
+--------------------------------------------------------------------------------
+T15.G4.01: Animate with effects
+  Deps: T06.G3.01 [G3]
+T15.G4.02: Costume number logic
+  Deps: T06.G3.01 [G3]
+T15.G4.03: Switch backdrop
+  Deps: T06.G3.01 [G3]
+T15.G4.04: Hide and Show characters
+  Deps: T06.G3.01 [G3]
+T15.G4.05: Ask and Answer
+  Deps: T06.G3.01 [G3]
+T15.G4.06: Simple branching (Yes/No)
+  Deps: T06.G3.08 [G3]
+T15.G4.07: Coordinate two sprites (Wait)
+  Deps: T06.G3.01 [G3]
+T15.G4.08: Parallel actions
+  Deps: T06.G3.01 [G3]
+
+T18 – 3D Worlds & Games
+--------------------------------------------------------------------------------
+T18.G4.01: Compose a multi-part 3D scene with primitives
+  Deps: T07.G3.05 [G3]
+T18.G4.02: Configure ambient and directional lighting
+  Deps: T06.G3.01 [G3]
+T18.G4.03: Create a following or orbiting camera
+  Deps: T06.G3.01 [G3]
+T18.G4.04: Place imported or premade 3D models
+  Deps: T06.G3.01 [G3]
+T18.G4.05: Animate scenery elements with loops
+  Deps: T07.G3.01 [G3]
+T18.G4.06: Trigger events when 3D objects touch
+  Deps: T07.G3.05 [G3]
+
+T20 – Algorithmic Art & Creative Coding
+--------------------------------------------------------------------------------
+T20.G4.01: **[Technical Skill]** Implement incremental loops for spirals
+  Deps: T07.G3.01 [G3]
+T20.G4.02: **[Technical Skill]** Implement tessellation with custom blocks
+  Deps: T07.G3.01 [G3]
+T20.G4.03: Control art with parameters
+  Deps: T07.G3.05 [G3]
+T20.G4.04: Debug a multi-loop art script
+  Deps: T06.G3.01 [G3]
+T20.G4.05: Recolor art with simple input events
+  Deps: T06.G3.01 [G3]
+
+T21 – AI Media: G6–8 Skill List
+--------------------------------------------------------------------------------
+T21.G4.01: Choose safe and specific prompts for images
+  Deps: T08.G3.01 [G3]
+
+T22 – Chatbots & Prompting: G6–8 Skill List
+--------------------------------------------------------------------------------
+T22.G4.01: Write clear, polite questions for a helper bot
+  Deps: T06.G3.01 [G3]
+
+T23 – AI Perception
+--------------------------------------------------------------------------------
+T23.G4.01: Trace how lighting changes pixel data
+  Deps: T06.G3.01 [G3]
+T23.G4.02: Choose a good setup for mic or camera
+  Deps: T06.G3.01 [G3]
+T23.G4.03: Identify noise and simple fixes
+  Deps: T06.G3.01 [G3]
+
+T25 – Data Representation
+--------------------------------------------------------------------------------
+T25.G4.01: Build schema diagrams for simple apps
+  Deps: T02.G3.01 [G3]
+
+T26 – Data Collection & Logging
+--------------------------------------------------------------------------------
+T26.G4.01: Create collection protocols for partners
+  Deps: T06.G3.01 [G3]
+T26.G4.02: Use tables to log multi-attribute events
+  Deps: T06.G3.01 [G3]
+T26.G4.03: Track missing/invalid data with flags
+  Deps: T08.G3.01 [G3]
+T26.G4.04: Reflect on privacy in collection
+  Deps: T06.G3.01 [G3]
+
+T27 – Data Analysis & Storytelling
+--------------------------------------------------------------------------------
+T27.G4.01: Analyze change over time using line graphs
+  Deps: T08.G3.01 [G3]
+T27.G4.03: Evaluate data quality before analysis
+  Deps: T06.G3.01 [G3]
+T27.G4.04: Create narrative captions for charts
+  Deps: T06.G3.01 [G3]
+
+T28 – Chance & Simulations: G2–8 Skill List
+--------------------------------------------------------------------------------
+T28.G4.01: Build a simple random generator
+  Deps: T06.G3.01 [G3]
+T28.G4.02: Log 50 trials into a list and compute frequencies
+  Deps: T07.G3.01 [G3]
+T28.G4.03: Show how sample size changes variability
+  Deps: T07.G3.05 [G3]
+T28.G4.04: Debug an “unfair” simulation
+  Deps: T06.G3.01 [G3]
+
+T29 – Text Data & NLP Foundations: G3–8 Skill List
+--------------------------------------------------------------------------------
+T29.G4.00: Compare a human summary to a computer summary
+  Deps: T08.G3.01 [G3]
+T29.G4.01: Store sentences in lists and access words
+  Deps: T06.G3.01 [G3]
+T29.G4.02: Clean text: lowercase + remove punctuation
+  Deps: T09.G3.01 [G3]
+T29.G4.03: Count words and report the most frequent
+  Deps: T08.G3.01 [G3]
+T29.G4.04: Highlight keywords in a paragraph
+  Deps: T06.G3.01 [G3]
+
+T30 – Devices & Hardware Systems
+--------------------------------------------------------------------------------
+T30.G4.01: Diagram motherboard data flow
+  Deps: T02.G3.01 [G3]
+T30.G4.02: Explain how CPU speed/core count affects tasks
+  Deps: T08.G3.01 [G3]
+T30.G4.04: Explore accessibility hardware
+  Deps: T04.G2.01 [G2]
+
+T32 – Cybersecurity & Digital Safety
+--------------------------------------------------------------------------------
+T32.G4.03: Understand data breaches through stories
+  Deps: T01.G3.01 [G3]
+
+T34 – Computing History
+--------------------------------------------------------------------------------
+T34.G4.01: Analyze cause/effect chains
+  Deps: T01.G3.01 [G3]
+T34.G4.02: Compare regional computing histories
+  Deps: T04.G2.01 [G2]
+T34.G4.03: Link hardware evolution to today’s CreatiCode features
+  Deps: T06.G3.01 [G3]
+
+T35 – Impacts & Ethics
+--------------------------------------------------------------------------------
+T35.G4.02: Understand advertising/persuasion online
+  Deps: T04.G2.01 [G2]
+
+================================================================================
+END OF CATALOG
+================================================================================

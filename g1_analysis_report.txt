@@ -1,0 +1,465 @@
+================================================================================
+COMPREHENSIVE G1 SKILLS ANALYSIS REPORT
+================================================================================
+
+Total G1 Skills Found: 75
+
+Topics Covered: 19
+  - T01 – Everyday Algorithms: 10 skills
+  - T02 – Algorithm Diagrams: 5 skills
+  - T03 – Problem Decomposition: 4 skills
+  - T04 – Algorithm Patterns: 4 skills
+  - T05 – Human‑Centered Design: 4 skills
+  - T12 – Organizing Programs: 4 skills
+  - T13 – Testing, Debugging & Error Handling: 4 skills
+  - T14 – 2D Games: 5 skills
+  - T15 – Stories & Animation: 3 skills
+  - T20 – Algorithmic Art & Creative Coding: 4 skills
+  - T23 – AI Perception: 3 skills
+  - T25 – Data Representation: 3 skills
+  - T26 – Data Collection & Logging: 3 skills
+  - T27 – Data Analysis & Storytelling: 3 skills
+  - T30 – Devices & Hardware Systems: 3 skills
+  - T32 – Cybersecurity & Digital Safety: 4 skills
+  - T34 – Computing History: 3 skills
+  - T35 – Impacts & Ethics: 3 skills
+  - T36 – Careers, Collaboration & Future Paths: 3 skills
+
+================================================================================
+SECTION 1: ALL G1 SKILLS WITH DEPENDENCIES
+================================================================================
+
+T01.G1.01: Put pictures in order to plant a seed
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.GK.02: Put pictures in order for coming to class
+
+T01.G1.02: Put pictures in order to make breakfast
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.G1.01: Put pictures in order to plant a seed
+
+T01.G1.03: Add a missing last step to a routine
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.GK.06: What comes next?
+
+T01.G1.04: Predict the next step in a story sequence
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.GK.06: What comes next?
+
+T01.G1.05: Find the missing step in an algorithm
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.G1.03: Add a missing last step to a routine
+
+T01.G1.06: Fix a routine with one wrong step
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.GK.05: Move the picture that's in the wrong place
+
+T01.G1.07: Decide if two algorithms finish with the same result
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.GK.04: Pick the pictures that make sense
+
+T01.G1.08: Choose the algorithm that uses fewer steps
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.G1.07: Decide if two algorithms finish with the same result
+
+T01.G1.09: Match an algorithm to its goal
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.G1.01: Put pictures in order to plant a seed
+
+T01.G1.10: Match pictures to "if/then" rules
+  Topic: T01 – Everyday Algorithms
+  Dependencies:
+    - T01.GK.04: Pick the pictures that make sense
+
+T02.G1.01: Make a 3–4 step picture algorithm
+  Topic: T02 – Algorithm Diagrams
+  Dependencies:
+    - T02.GK.02: Order 3–4 pictures to make a story
+
+T02.G1.02: Add a missing step to a picture algorithm
+  Topic: T02 – Algorithm Diagrams
+  Dependencies:
+    - T02.G1.01: Make a 3–4 step picture algorithm
+
+T02.G1.03: Trace a picture algorithm and tell the outcome
+  Topic: T02 – Algorithm Diagrams
+  Dependencies:
+    - T02.G1.01: Make a 3–4 step picture algorithm
+
+T02.G1.04: Find a broken picture algorithm
+  Topic: T02 – Algorithm Diagrams
+  Dependencies:
+    - T02.G1.03: Trace a picture algorithm and tell the outcome
+
+T02.G1.05: Fix one wrong step in a picture algorithm
+  Topic: T02 – Algorithm Diagrams
+  Dependencies:
+    - T02.G1.04: Find a broken picture algorithm
+
+T03.G1.01: Describe what one part of a system does
+  Topic: T03 – Problem Decomposition
+  Dependencies:
+    - T03.GK.01: Identify parts that make up a whole
+
+T03.G1.02: Group related parts into categories
+  Topic: T03 – Problem Decomposition
+  Dependencies:
+    - T03.G1.01: Describe what one part of a system does
+
+T03.G1.03: List steps for a simple classroom routine
+  Topic: T03 – Problem Decomposition
+  Dependencies:
+    - T03.GK.03: Order 3–4 pictures to show steps in a routine
+
+T03.G1.04: Match steps to parts of a tiny story or game
+  Topic: T03 – Problem Decomposition
+  Dependencies:
+    - T03.G1.03: List steps for a simple classroom routine
+
+T04.G1.01: Match a picture pattern to a movement pattern
+  Topic: T04 – Algorithm Patterns
+  Dependencies:
+    - T04.GK.02: Extend a repeating pattern by one tile
+
+T04.G1.02: Plan a short repeating animation pattern
+  Topic: T04 – Algorithm Patterns
+  Dependencies:
+    - T04.G1.01: Match a picture pattern to a movement pattern
+
+T04.G1.03: Find repeated steps in an instruction list
+  Topic: T04 – Algorithm Patterns
+  Dependencies:
+    - T01.GK.07: Find the pattern that repeats
+
+T04.G1.04: Match a repeated picture story to a repeated step list
+  Topic: T04 – Algorithm Patterns
+  Dependencies:
+    - T04.G1.03: Find repeated steps in an instruction list
+
+T05.G1.01: Identify what a character needs in a story
+  Topic: T05 – Human‑Centered Design
+  Dependencies:
+    - T01.GK.03: Find the first and last pictures
+
+T05.G1.02: Match a need to a design idea
+  Topic: T05 – Human‑Centered Design
+  Dependencies:
+    - T05.G1.01: Identify what a character needs in a story
+
+T05.G1.03: Choose a better version of a simple screen for a given user
+  Topic: T05 – Human‑Centered Design
+  Dependencies:
+    - T05.GK.03: Decide which version is easier to use
+
+T05.G1.04: Suggest one change that helps a specific user
+  Topic: T05 – Human‑Centered Design
+  Dependencies:
+    - T05.G1.02: Match a need to a design idea
+
+T12.G1.01: Find the main set of instructions
+  Topic: T12 – Organizing Programs
+  Dependencies:
+    - T01.GK.03: Find the first and last pictures
+
+T12.G1.02: Give a clear title to a set of steps
+  Topic: T12 – Organizing Programs
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T12.G1.03: Explain what each group of steps does
+  Topic: T12 – Organizing Programs
+  Dependencies:
+    - T03.GK.01: Identify parts that make up a whole
+
+T12.G1.04: Split a long list of steps into two lists
+  Topic: T12 – Organizing Programs
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T13.G1.01: Identify where a step is wrong
+  Topic: T13 – Testing, Debugging & Error Handling
+  Dependencies:
+    - T01.GK.03: Find the first and last pictures
+
+T13.G1.02: Fix a sequence error in steps
+  Topic: T13 – Testing, Debugging & Error Handling
+  Dependencies:
+    - T01.GK.02: Put pictures in order for coming to class
+
+T13.G1.03: Change a number to fix a repeated action
+  Topic: T13 – Testing, Debugging & Error Handling
+  Dependencies:
+    - T04.GK.02: Extend a repeating pattern by one tile
+
+T13.G1.04: Act out steps and say what went wrong
+  Topic: T13 – Testing, Debugging & Error Handling
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T14.G1.01: Identify the player, goal, and obstacles
+  Topic: T14 – 2D Games
+  Dependencies:
+    - T01.GK.03: Find the first and last pictures
+
+T14.G1.02: Apply simple game rules
+  Topic: T14 – 2D Games
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T14.G1.03: Compare game difficulty
+  Topic: T14 – 2D Games
+  Dependencies:
+    - T01.GK.04: Pick the pictures that make sense
+
+T14.G1.04: Predict the best next move
+  Topic: T14 – 2D Games
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T14.G1.05: Distinguish helpers from hazards
+  Topic: T14 – 2D Games
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T15.G1.01: Match setting to story
+  Topic: T15 – Stories & Animation
+  Dependencies:
+    - T03.GK.02: Match parts to whole objects
+
+T15.G1.02: Order dialogue
+  Topic: T15 – Stories & Animation
+  Dependencies:
+    - T01.GK.02: Put pictures in order for coming to class
+
+T15.G1.03: Action and consequence
+  Topic: T15 – Stories & Animation
+  Dependencies:
+    - T01.GK.02: Put pictures in order for coming to class
+
+T20.G1.01: Describe the art rule in words
+  Topic: T20 – Algorithmic Art & Creative Coding
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T20.G1.02: Match directions to drawings
+  Topic: T20 – Algorithmic Art & Creative Coding
+  Dependencies:
+    - T03.GK.02: Match parts to whole objects
+
+T20.G1.03: Extend a quilt on a grid
+  Topic: T20 – Algorithmic Art & Creative Coding
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T20.G1.04: Fix a wrong instruction
+  Topic: T20 – Algorithmic Art & Creative Coding
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T23.G1.01: Find sensors on everyday devices
+  Topic: T23 – AI Perception
+  Dependencies:
+    - T01.GK.03: Find the first and last pictures
+
+T23.G1.02: Match sensors to human senses
+  Topic: T23 – AI Perception
+  Dependencies:
+    - T03.GK.02: Match parts to whole objects
+
+T23.G1.03: Choose what a sensor can notice
+  Topic: T23 – AI Perception
+  Dependencies:
+    - T01.GK.04: Pick the pictures that make sense
+
+T25.G1.01: Record data with tally marks
+  Topic: T25 – Data Representation
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T25.G1.02: Design a picture table
+  Topic: T25 – Data Representation
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T25.G1.03: Describe the same fact in words and numbers
+  Topic: T25 – Data Representation
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T26.G1.01: Run a three-option picture survey
+  Topic: T26 – Data Collection & Logging
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T26.G1.02: Keep observation logs over time
+  Topic: T26 – Data Collection & Logging
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T26.G1.03: Follow a simple data-collection checklist
+  Topic: T26 – Data Collection & Logging
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T27.G1.01: Build a pictograph from tallies
+  Topic: T27 – Data Analysis & Storytelling
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T27.G1.02: Answer “how many more?” questions
+  Topic: T27 – Data Analysis & Storytelling
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T27.G1.03: Tell a one-sentence story with data
+  Topic: T27 – Data Analysis & Storytelling
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T30.G1.01: Label basic computer parts
+  Topic: T30 – Devices & Hardware Systems
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T30.G1.02: Describe hardware vs software
+  Topic: T30 – Devices & Hardware Systems
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T30.G1.03: Recognize sensors in the environment
+  Topic: T30 – Devices & Hardware Systems
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T32.G1.01: Identify personally identifiable information (PII)
+  Topic: T32 – Cybersecurity & Digital Safety
+  Dependencies:
+    - T01.GK.03: Find the first and last pictures
+
+T32.G1.02: Recognize trustworthy vs unknown contacts
+  Topic: T32 – Cybersecurity & Digital Safety
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T32.G1.03: Explain why passwords must be secret
+  Topic: T32 – Cybersecurity & Digital Safety
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T32.G1.04: Spot obvious scam pop-ups
+  Topic: T32 – Cybersecurity & Digital Safety
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T34.G1.01: Describe life before and after a technology
+  Topic: T34 – Computing History
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T34.G1.02: Recognize inventors from diverse backgrounds
+  Topic: T34 – Computing History
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T34.G1.03: Explain that technology choices shape games/apps
+  Topic: T34 – Computing History
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T35.G1.01: Sort good vs not-so-good choices
+  Topic: T35 – Impacts & Ethics
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T35.G1.02: Describe how technology makes people feel
+  Topic: T35 – Impacts & Ethics
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T35.G1.03: Recognize that people make technology choices
+  Topic: T35 – Impacts & Ethics
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T36.G1.01: List jobs that rely on computers
+  Topic: T36 – Careers, Collaboration & Future Paths
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T36.G1.02: Sort “helps” vs “problems” for a technology
+  Topic: T36 – Careers, Collaboration & Future Paths
+  Dependencies:
+    - T01.GK.01: Put pictures in order for getting ready for bed
+
+T36.G1.03: Show listening behaviors in group work
+  Topic: T36 – Careers, Collaboration & Future Paths
+  Dependencies:
+    - T03.GK.01: Identify parts that make up a whole
+
+================================================================================
+SECTION 2: HIGH PRIORITY ISSUES (MUST FIX)
+================================================================================
+
+No high priority issues found!
+
+================================================================================
+SECTION 3: MEDIUM PRIORITY ISSUES (SHOULD FIX)
+================================================================================
+
+Found 1 medium priority issues:
+
+1. T32.G1.02: Recognize trustworthy vs unknown contacts
+   Issue Type: POSSIBLY_TOO_BROAD
+   Detail: Skill title contains generic keywords that may indicate it's too broad
+
+================================================================================
+SECTION 4: LOW PRIORITY ISSUES (OPTIONAL)
+================================================================================
+
+Found 4 low priority issues:
+
+1. T01.G1.05: Find the missing step in an algorithm
+   Issue Type: POSSIBLE_TRANSITIVE
+   Detail: Depends on T01.G1.03 which is 2+ skills earlier in same topic - may be transitive
+   Dependency: T01.G1.03
+
+2. T01.G1.09: Match an algorithm to its goal
+   Issue Type: POSSIBLE_TRANSITIVE
+   Detail: Depends on T01.G1.01 which is 2+ skills earlier in same topic - may be transitive
+   Dependency: T01.G1.01
+
+3. T02.G1.03: Trace a picture algorithm and tell the outcome
+   Issue Type: POSSIBLE_TRANSITIVE
+   Detail: Depends on T02.G1.01 which is 2+ skills earlier in same topic - may be transitive
+   Dependency: T02.G1.01
+
+4. T05.G1.04: Suggest one change that helps a specific user
+   Issue Type: POSSIBLE_TRANSITIVE
+   Detail: Depends on T05.G1.02 which is 2+ skills earlier in same topic - may be transitive
+   Dependency: T05.G1.02
+
+================================================================================
+SECTION 5: SKILLS REQUIRING CLARIFICATION
+================================================================================
+
+Skills with NO dependencies: 0
+(These are entry-level G1 skills - verify they truly need no prerequisites)
+
+
+================================================================================
+SUMMARY
+================================================================================
+Total Skills: 75
+High Priority Issues: 0
+Medium Priority Issues: 1
+Low Priority Issues: 4
+Skills with no dependencies: 0
+

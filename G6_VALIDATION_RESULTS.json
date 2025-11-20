@@ -1,0 +1,97 @@
+{
+  "total_g6_skills": 166,
+  "valid_skills": 166,
+  "invalid_skills": 0,
+  "issues": {
+    "invalid_dependencies": [],
+    "circular_dependencies": [],
+    "format_errors": [],
+    "missing_dependencies": []
+  },
+  "downstream_impact": {
+    "total_g7_g8_skills": 332,
+    "g7_g8_depending_on_g6": 80,
+    "note": "These dependencies are normal and expected - they represent proper skill progression",
+    "sample_dependencies": [
+      {
+        "skill_id": "T06.G7.01",
+        "grade": "7",
+        "g6_dependencies": [
+          "T06.G6.03",
+          "T06.G6.04"
+        ]
+      },
+      {
+        "skill_id": "T06.G7.02",
+        "grade": "7",
+        "g6_dependencies": [
+          "T06.G6.03",
+          "T06.G6.04"
+        ]
+      },
+      {
+        "skill_id": "T06.G7.03",
+        "grade": "7",
+        "g6_dependencies": [
+          "T06.G6.03",
+          "T06.G6.04"
+        ]
+      },
+      {
+        "skill_id": "T06.G7.04",
+        "grade": "7",
+        "g6_dependencies": [
+          "T06.G6.03",
+          "T06.G6.04"
+        ]
+      },
+      {
+        "skill_id": "T07.G7.01",
+        "grade": "7",
+        "g6_dependencies": [
+          "T07.G6.05",
+          "T07.G6.06"
+        ]
+      },
+      {
+        "skill_id": "T07.G7.02",
+        "grade": "7",
+        "g6_dependencies": [
+          "T07.G6.05",
+          "T07.G6.06"
+        ]
+      },
+      {
+        "skill_id": "T07.G7.03",
+        "grade": "7",
+        "g6_dependencies": [
+          "T07.G6.05",
+          "T07.G6.06"
+        ]
+      },
+      {
+        "skill_id": "T07.G7.04",
+        "grade": "7",
+        "g6_dependencies": [
+          "T07.G6.06"
+        ]
+      },
+      {
+        "skill_id": "T08.G7.01",
+        "grade": "7",
+        "g6_dependencies": [
+          "T08.G6.02",
+          "T08.G6.03"
+        ]
+      },
+      {
+        "skill_id": "T08.G7.02",
+        "grade": "7",
+        "g6_dependencies": [
+          "T08.G6.02",
+          "T08.G6.03"
+        ]
+      }
+    ]
+  }
+}

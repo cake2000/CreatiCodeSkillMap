@@ -1,0 +1,1112 @@
+{
+  "metadata": {
+    "total_g2_skills": 88,
+    "total_topics": 20,
+    "average_dependencies": 1.2613636363636365,
+    "total_dependencies": 111
+  },
+  "skills": {
+    "T01.G2.01": {
+      "skill_name": "Find actions that repeat in everyday tasks",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "**Student task:** Look at pictures showing an everyday task. Which action happens over and over? **Example:** In cleaning up toys, \"pick up toy\" happens many times. _Implementation note: Highlight or MCQ. CSTA: E2\u2011ALG\u2011AF\u201101.__",
+      "dependencies": [
+        "T04.G1.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T01.G2.02": {
+      "skill_name": "Use \"repeat\" to make directions shorter",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "**Student task:** Look at two sets of directions. Pick the one that uses \"repeat ___ times\" to say the same thing in fewer words. **Example:** \"Walk 3 steps, walk 3 steps, walk 3 steps\" vs \"Repeat 'walk 3 steps' 3 times\" _Implementation note: MCQ (long explicit vs \"repeat\" version). CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103.__",
+      "dependencies": [
+        "T01.G2.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.03": {
+      "skill_name": "Replace repeated steps with a repeat instruction",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "**Student task:** Look at a long list of repeated steps. Rewrite it using \"repeat ___ times\" to make it shorter and clearer. **Example:** \"Clap, clap, clap, clap\" becomes \"Repeat 'clap' 4 times\" _Implementation note: Choose or assemble compressed description with \"repeat.\" CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103.__",
+      "dependencies": [
+        "T01.G2.02"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.04": {
+      "skill_name": "Match if/then rules to pictures",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students match simple \u201cIf it is ___, then do ___\u201d rules to images (rainy/sunny, door open/closed). _Implementation note: Visual MCQ. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T01.G2.05": {
+      "skill_name": "Complete a simple if/then algorithm",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students fill in missing condition or action in an if/then pair for a daily scenario. _Implementation note: Fill\u2011in with picture or word cards. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.04"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.06": {
+      "skill_name": "Choose the best if/then rule for a situation",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students choose which of several if/then statements fits a picture story. _Implementation note: MCQ; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.05"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.07": {
+      "skill_name": "Trace an algorithm that uses an if/then choice",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students follow short number/picture algorithms with if/then and identify the final result. _Implementation note: Tracing + MCQ result. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.06"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.08": {
+      "skill_name": "Trace an algorithm that uses \"repeat ___ times\"",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students compute total actions or final position for routines with \"repeat 3 times.\" _Implementation note: Tracing + MCQ. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.09": {
+      "skill_name": "Fix a wrong repeat count in an algorithm",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students adjust a repeat count that causes too many or too few repetitions. _Implementation note: Increase/decrease repeat number; auto\u2011graded via final outcome. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.08"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.10": {
+      "skill_name": "Fix a wrong or missing if/then branch",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students correct an if/then rule that doesn\u2019t match a picture situation. _Implementation note: MCQ or card swap. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.07",
+        "T01.G1.06"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G2",
+        "G1"
+      ]
+    },
+    "T01.G2.11": {
+      "skill_name": "Trace maze directions on a simple grid",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students see a character on a small grid and a sequence of \u201cforward/left/right\u201d arrows, then choose where the character ends up. _Implementation note: Path tracing with MCQ final position; auto\u2011graded by ending cell. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T01.G2.12": {
+      "skill_name": "Choose directions that reach the goal",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students see a start and goal on a grid and pick which of several arrow sequences reaches the goal without hitting a wall. _Implementation note: MCQ (choose arrow sequence); auto\u2011graded via simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.11"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.13": {
+      "skill_name": "Write directions to navigate a simple grid",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students create instructions by dragging and dropping \u201cforward/left/right\u201d arrow cards to move a character from start to finish. _Implementation note: Drag arrow cards; auto\u2011graded via simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.12"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T01.G2.14": {
+      "skill_name": "Fix maze directions that miss the goal",
+      "topic": "T01 \u2013 Everyday Algorithms",
+      "description": "Students correct a set of directions that doesn\u2019t reach the goal or hits a wall. _Implementation note: Edit arrow sequence; auto\u2011graded via new simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.13"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T02.G2.01": {
+      "skill_name": "Turn a picture routine into labeled boxes",
+      "topic": "T02 \u2013 Algorithm Diagrams",
+      "description": "Students see a 3\u20134 picture routine and build a horizontal row of labeled boxes (\u201cStep 1,\u201d \u201cStep 2,\u201d \u201cStep 3\u201d) that describe each step in simple words or icons, using a simple box\u2011diagram layout (like instruction boxes on paper).",
+      "dependencies": [
+        "T02.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T02.G2.02": {
+      "skill_name": "Read a box diagram and choose the matching pictures",
+      "topic": "T02 \u2013 Algorithm Diagrams",
+      "description": "Students are given a 3\u20134 box \u201calgorithm diagram\u201d and must choose which picture sequence matches it.",
+      "dependencies": [
+        "T02.G2.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T02.G2.03": {
+      "skill_name": "Trace a simple left\u2011to\u2011right instruction sequence",
+      "topic": "T02 \u2013 Algorithm Diagrams",
+      "description": "Students see a short row of instruction cards with arrows or move/say icons (3\u20136 steps, no choices or repeats) and predict where a character ends up or what message appears last.",
+      "dependencies": [
+        "T02.G2.02"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T02.G2.04": {
+      "skill_name": "Reveal one instruction at a time and mark intermediate states",
+      "topic": "T02 \u2013 Algorithm Diagrams",
+      "description": "Students reveal one instruction card at a time in a left\u2011to\u2011right sequence and mark where the character is after each step (for example, on a number line or grid).",
+      "dependencies": [
+        "T02.G2.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T02.G2.05": {
+      "skill_name": "Match a box diagram to a step sequence",
+      "topic": "T02 \u2013 Algorithm Diagrams",
+      "description": "Students match a simple 3\u20134 step box diagram to one of several written or picture\u2011card step sequences that carry out the same actions.",
+      "dependencies": [
+        "T02.G2.02",
+        "T01.G1.01"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G2",
+        "G1"
+      ]
+    },
+    "T02.G2.06": {
+      "skill_name": "Fix a sequencing error in a step sequence",
+      "topic": "T02 \u2013 Algorithm Diagrams",
+      "description": "Students are given a short left\u2011to\u2011right step sequence whose cards are out of order and reorder them to match a target picture or box diagram.",
+      "dependencies": [
+        "T02.G2.05"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T03.G2.01": {
+      "skill_name": "Choose subtasks for a simple project idea",
+      "topic": "T03 \u2013 Problem Decomposition",
+      "description": "Students read or hear a small project idea (e.g., \u201cMake a greeting card project\u201d) and select which subtasks are needed (e.g., \u201cdraw background,\u201d \u201cadd message,\u201d \u201cadd sound\u201d).",
+      "dependencies": [
+        "T03.G1.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T03.G2.02": {
+      "skill_name": "Group similar subtasks together",
+      "topic": "T03 \u2013 Problem Decomposition",
+      "description": "Students drag subtasks into groups like \"art,\" \"words,\" \"sound\" for a small project.",
+      "dependencies": [
+        "T03.G2.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T03.G2.03": {
+      "skill_name": "Arrange subtasks into a reasonable order",
+      "topic": "T03 \u2013 Problem Decomposition",
+      "description": "Students take 4\u20135 subtasks and order them into a simple plan (e.g., plan \u2192 create \u2192 try it out).",
+      "dependencies": [
+        "T03.G2.02"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T03.G2.04": {
+      "skill_name": "Use a checklist to track progress on a mini\u2011project",
+      "topic": "T03 \u2013 Problem Decomposition",
+      "description": "Students see a mini\u2011project checklist and must mark which subtasks are done based on a short story (\u201cWe already drew the characters and added sounds.\u201d).",
+      "dependencies": [
+        "T03.G2.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T04.G2.01": {
+      "skill_name": "Identify the repeating unit in a longer pattern",
+      "topic": "T04 \u2013 Algorithm Patterns",
+      "description": "Students see a longer pattern like ABCABCABC and choose the \u201cunit\u201d that repeats.",
+      "dependencies": [
+        "T04.G1.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T04.G2.02": {
+      "skill_name": "Spot repeated step sequences in everyday algorithms",
+      "topic": "T04 \u2013 Algorithm Patterns",
+      "description": "Students read or see an everyday algorithm (e.g., \"brush, rinse\" repeated three times) and highlight the part that repeats, focusing on the *pattern unit* rather than the full routine.",
+      "dependencies": [
+        "T04.G2.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T04.G2.03": {
+      "skill_name": "Compare a long explicit description vs a compressed \u201crepeat\u201d description",
+      "topic": "T04 \u2013 Algorithm Patterns",
+      "description": "Students choose which of two algorithm descriptions is shorter/clearer: one with all steps written out vs one with \u201crepeat 3 times,\u201d treating both as *generic pattern descriptions* rather than complete plans for a specific task.",
+      "dependencies": [
+        "T01.G2.02"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T04.G2.04": {
+      "skill_name": "Replace repeated steps with a \"repeat ___ times\" phrase",
+      "topic": "T04 \u2013 Algorithm Patterns",
+      "description": "Students rewrite a long description by choosing a version that uses \"repeat ___ times\" correctly, focusing on the *mechanics* of compression that will later be applied to whole routines in T01.",
+      "dependencies": [
+        "T04.G2.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T05.G2.01": {
+      "skill_name": "Match different users to different preferred designs",
+      "topic": "T05 \u2013 Human\u2011Centered Design",
+      "description": "Students see three users (e.g., kid, adult, person with glasses) and match each to a preferred design (colorful icons, simple layout, high contrast).",
+      "dependencies": [
+        "T05.G1.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T05.G2.02": {
+      "skill_name": "Identify features that make a design more accessible",
+      "topic": "T05 \u2013 Human\u2011Centered Design",
+      "description": "Students select features like large buttons, captions, and audio instructions as \"helps more people use this.\"",
+      "dependencies": [
+        "T05.G1.04"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T05.G2.03": {
+      "skill_name": "Recognize when a situation could be simulated",
+      "topic": "T05 \u2013 Human\u2011Centered Design",
+      "description": "Students see scenarios (traffic light, plant growth, simple weather) and choose which ones could be tried on a computer using pretend versions as a way to \u201ctry ideas safely\u201d instead of in real life.",
+      "dependencies": [
+        "T05.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T05.G2.04": {
+      "skill_name": "Choose what to include in a very simple simulation",
+      "topic": "T05 \u2013 Human\u2011Centered Design",
+      "description": "Students decide which 2\u20133 elements are important to include when they \u201cpretend on a computer\u201d (e.g., \u201crain\u201d and \u201csun\u201d for plant growth) so the model can help answer a simple question.",
+      "dependencies": [
+        "T05.G2.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T12.G2.01": {
+      "skill_name": "Add a note to explain a section of a plan",
+      "topic": "T12 \u2013 Organizing Programs",
+      "description": "Students add a short note near a group of steps to explain why that section is there (e.g., \"These steps are to get ready,\" \"These steps are to clean up\"). This is an unplugged analogue of commenting and documenting parts of a project.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T12.G2.02": {
+      "skill_name": "Fix confusing labels on a plan",
+      "topic": "T12 \u2013 Organizing Programs",
+      "description": "Students see a simple plan with section titles that are vague or unclear (e.g., \"Stuff,\" \"More things\") and replace them with clearer titles that match the steps underneath (e.g., \"Set up chairs,\" \"Decorate the room\"). This mirrors renaming confusing identifiers but stays at the level of everyday language.",
+      "dependencies": [
+        "T12.G1.02"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T12.G2.03": {
+      "skill_name": "Use the same style for section titles",
+      "topic": "T12 \u2013 Organizing Programs",
+      "description": "Students review several section titles for one plan (e.g., \"Set up,\" \"Playing the game,\" \"Clean up time!\") and adjust or choose options so they all follow a similar style (for example, all starting with action words). This builds awareness of consistent naming without introducing code vocabulary.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T12.G2.04": {
+      "skill_name": "Group related steps under a heading",
+      "topic": "T12 \u2013 Organizing Programs",
+      "description": "Students see 2\u20133 headings (e.g., \"Before class,\" \"During class,\" \"After class\") and a mixed set of picture steps, then group each step under the heading where it belongs. This extends the Grade 1 idea of splitting lists into clearly labeled sections.",
+      "dependencies": [
+        "T03.G1.02",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T13.G2.01": {
+      "skill_name": "Fix steps that use the wrong signal",
+      "topic": "T13 \u2013 Testing, Debugging & Error Handling",
+      "description": "Students examine instructions where a character is supposed to act on a certain signal (e.g., clap, whistle, or card color) but the written or picture steps mention the wrong signal. They identify and fix the signal in the instructions so the behavior matches the story.",
+      "dependencies": [
+        "T01.G1.06"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T13.G2.02": {
+      "skill_name": "Trace a set of steps and predict behavior",
+      "topic": "T13 \u2013 Testing, Debugging & Error Handling",
+      "description": "Students \"walk through\" a simple set of instructions step by step, predicting what each step does and what the character or object will look like or where it will end up at the end. This mental tracing helps them spot logic errors before acting it out.",
+      "dependencies": [
+        "T01.G1.05",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T13.G2.03": {
+      "skill_name": "Fix a repeated step that happens too many or too few times",
+      "topic": "T13 \u2013 Testing, Debugging & Error Handling",
+      "description": "Students modify instructions where an action repeats the wrong number of times (e.g., clap 2 times instead of 5, or march too many steps). They change the number of repeats so the behavior matches a picture or description.",
+      "dependencies": [
+        "T04.G2.01",
+        "T01.G2.01"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G2",
+        "G2"
+      ]
+    },
+    "T13.G2.04": {
+      "skill_name": "Add a simple check to see if steps worked",
+      "topic": "T13 \u2013 Testing, Debugging & Error Handling",
+      "description": "Students add a small \"check\" card or picture (e.g., a thumbs\u2011up or scoreboard picture) at a key point in a set of steps to show that something important has happened (like reaching a goal or using all the cards). This helps them see what is going on inside a longer routine.",
+      "dependencies": [
+        "T03.G1.03",
+        "T01.G1.09"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T14.G2.01": {
+      "skill_name": "Understand turns and rounds",
+      "topic": "T14 \u2013 2D Games",
+      "description": "Students look at a turn-based scene with multiple players or timers and determine whose turn it is or what happens next when a turn ends.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T14.G2.02": {
+      "skill_name": "Track lives and game over conditions",
+      "topic": "T14 \u2013 2D Games",
+      "description": "Students track a player's lives through a short picture story. They identify when a life is lost (touching a hazard) and when the game is over (lives reach zero).",
+      "dependencies": [
+        "T01.G1.04"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T14.G2.03": {
+      "skill_name": "Recognize level progression",
+      "topic": "T14 \u2013 2D Games",
+      "description": "Students identify the condition for moving to the next level (touch goal, collect items) and notice that later levels are usually different or harder.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T14.G2.04": {
+      "skill_name": "Sequence a safe route",
+      "topic": "T14 \u2013 2D Games",
+      "description": "Students order 3\u20134 picture cards showing a safe route through a level (jump over spikes, grab key, open door) to highlight planning before play.",
+      "dependencies": [
+        "T01.G1.04"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T14.G2.05": {
+      "skill_name": "Adjust difficulty knobs",
+      "topic": "T14 \u2013 2D Games",
+      "description": "Presented with a short brief (\u201cMake it easier for new players\u201d), students choose the change that best matches the goal (add another heart, remove a hazard, shorten timer) to understand balancing.",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T15.G2.01": {
+      "skill_name": "Fast vs. Slow animation",
+      "topic": "T15 \u2013 Stories & Animation",
+      "description": "Students compare two animation sequences (represented by frame strips) and identify which one represents a faster or slower action based on the gap between positions.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T15.G2.02": {
+      "skill_name": "Identify scene transitions",
+      "topic": "T15 \u2013 Stories & Animation",
+      "description": "In a story sequence, students identify the point where the location changes (e.g., from House to School).",
+      "dependencies": [
+        "T01.G1.10",
+        "T01.G1.04"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T15.G2.03": {
+      "skill_name": "Loop patterns in animation",
+      "topic": "T15 \u2013 Stories & Animation",
+      "description": "Students identify the repeating part of an animation (e.g., Left foot, Right foot, Left foot, Right foot).",
+      "dependencies": [
+        "T01.G1.07"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T20.G2.01": {
+      "skill_name": "Use repeat cards in an art recipe",
+      "topic": "T20 \u2013 Algorithmic Art & Creative Coding",
+      "description": "Students compare two instruction sets for the same border: one long (\u201cred square, red square, red square\u2026\u201d) and one that uses a repeat card (\u201crepeat red square 4 times\u201d). They choose the concise, accurate version.",
+      "dependencies": [
+        "T01.G1.04"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T20.G2.02": {
+      "skill_name": "Plan mirrored mosaics",
+      "topic": "T20 \u2013 Algorithmic Art & Creative Coding",
+      "description": "Learners arrange tiles on one side of a line and then plan what tiles should appear on the other side so the design is symmetrical.",
+      "dependencies": [
+        "T05.G1.01",
+        "T01.G1.04"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T20.G2.03": {
+      "skill_name": "Build layered pattern recipes",
+      "topic": "T20 \u2013 Algorithmic Art & Creative Coding",
+      "description": "Students interpret a two-layer instruction (e.g., \"repeat row A three times, then repeat row B once\") to build a stacked design out of strips.",
+      "dependencies": [
+        "T20.G2.01",
+        "T01.G2.02"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G2",
+        "G2"
+      ]
+    },
+    "T20.G2.04": {
+      "skill_name": "Explain how a change affects the art",
+      "topic": "T20 \u2013 Algorithmic Art & Creative Coding",
+      "description": "Students consider \"what-if\" prompts (e.g., \"What happens if the second color changes from blue to green?\") and explain how the final pattern would change.",
+      "dependencies": [
+        "T01.G1.04",
+        "T20.G2.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G2"
+      ]
+    },
+    "T23.G2.01": {
+      "skill_name": "Pick the right sensor for a job",
+      "topic": "T23 \u2013 AI Perception",
+      "description": "Students see short stories (e.g., \"turn on light when someone claps,\" \"open door when tag is tapped\") and choose camera vs microphone vs touch sensor to solve each task.",
+      "dependencies": [
+        "T23.G1.03"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T23.G2.02": {
+      "skill_name": "Spot when sensor data might be unclear",
+      "topic": "T23 \u2013 AI Perception",
+      "description": "Students look at pairs of pictures (bright vs dark room for a camera, quiet vs noisy room for a mic) and pick which one makes it harder for the sensor to understand.",
+      "dependencies": [
+        "T23.G2.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G2"
+      ]
+    },
+    "T23.G2.03": {
+      "skill_name": "Notice that devices sometimes \u201cguess\u201d",
+      "topic": "T23 \u2013 AI Perception",
+      "description": "Students compare two toys/apps: one reacts only to a button press; another tries to recognize an animal sound. They choose which one is \u201cguessing\u201d from sensor input and which one is just following a direct button command.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T25.G2.01": {
+      "skill_name": "Choose labels for a category chart",
+      "topic": "T25 \u2013 Data Representation",
+      "description": "Students study a picture-based bar chart and provide meaningful text labels (e.g., rename \u201cColumn A\u201d to \u201cBananas\u201d). This underscores the importance of descriptive labels.",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T25.G2.02": {
+      "skill_name": "Translate between timeline, table, and sentence",
+      "topic": "T25 \u2013 Data Representation",
+      "description": "Learners view a three-step story (wake up \u2192 eat breakfast \u2192 go to school) and encode it as (1) a timeline drawing, (2) a table with time + action, and (3) a narrative sentence. Emphasis is on seeing equivalence across forms.",
+      "dependencies": [
+        "T01.G1.01",
+        "T25.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T25.G2.03": {
+      "skill_name": "Pick the best representation for a question",
+      "topic": "T25 \u2013 Data Representation",
+      "description": "Students match questions (\"How many stickers?\" \"Which order do things happen?\") to the most useful representation type, building judgement about data tools.",
+      "dependencies": [
+        "T25.G1.02",
+        "T25.G2.02"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G2"
+      ]
+    },
+    "T25.G2.04": {
+      "skill_name": "Combine two data attributes",
+      "topic": "T25 \u2013 Data Representation",
+      "description": "Learners create flashcards with two pieces of info (animal + habitat) to see how pairing attributes forms richer records.",
+      "dependencies": [
+        "T25.G1.02"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T26.G2.01": {
+      "skill_name": "Distinguish observational vs survey data",
+      "topic": "T26 \u2013 Data Collection & Logging",
+      "description": "Students categorize example data statements as \u201cobserved\u201d (counting birds) or \u201casked\u201d (favorite color), reinforcing method selection.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T26.G2.02": {
+      "skill_name": "Build a two-column record sheet",
+      "topic": "T26 \u2013 Data Collection & Logging",
+      "description": "Learners create a simple table to log respondents' names and answers, showing why we store identifiers alongside data.",
+      "dependencies": [
+        "T26.G1.01",
+        "T25.G1.02"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T26.G2.03": {
+      "skill_name": "Use timers to collect duration data",
+      "topic": "T26 \u2013 Data Collection & Logging",
+      "description": "Students run a simple experiment (spin a top) and record each trial\u2019s duration using a timer, highlighting measurement precision.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T26.G2.04": {
+      "skill_name": "Explain why sample size matters",
+      "topic": "T26 \u2013 Data Collection & Logging",
+      "description": "Learners see two surveys (3 responses vs 10) and explain why the larger one may be more reliable.",
+      "dependencies": [
+        "T26.G1.01",
+        "T26.G2.02"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G2"
+      ]
+    },
+    "T27.G2.01": {
+      "skill_name": "Create bar charts with axes labels",
+      "topic": "T27 \u2013 Data Analysis & Storytelling",
+      "description": "Learners build a bar chart using physical materials or drawing tools with labeled axes, reinforcing representation clarity.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T27.G2.02": {
+      "skill_name": "Interpret simple line plots",
+      "topic": "T27 \u2013 Data Analysis & Storytelling",
+      "description": "Students analyze a small line plot (temperature across 5 days) and answer what increased/decreased.",
+      "dependencies": [
+        "T01.G1.01",
+        "T27.G1.01"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T27.G2.03": {
+      "skill_name": "Identify outliers in small data sets",
+      "topic": "T27 \u2013 Data Analysis & Storytelling",
+      "description": "Learners see lists like [3, 4, 3, 12] and explain why 12 is unusual, learning to flag anomalies.",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T27.G2.04": {
+      "skill_name": "Decide if data answers the question asked",
+      "topic": "T27 \u2013 Data Analysis & Storytelling",
+      "description": "Students read a question (\"Which snack is most popular?\") and determine if the provided chart answers it or if more data is needed.",
+      "dependencies": [
+        "T27.G1.03",
+        "T27.G2.02"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G2"
+      ]
+    },
+    "T28.G2.01": {
+      "skill_name": "Sort events into certain / possible / impossible",
+      "topic": "T28 \u2013 Chance & Simulations: G2\u20138 Skill List",
+      "description": "Students classify illustrated events (the sun rising, rolling a 7 on a six-sided die, drawing a red marble from a bag that only has red) using everyday language about certainty.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T28.G2.02": {
+      "skill_name": "Conduct a picture-based chance experiment",
+      "topic": "T28 \u2013 Chance & Simulations: G2\u20138 Skill List",
+      "description": "Learners use a physical or on-screen spinner template, run 10 spins, and record tallies with stickers or pictographs to see which color appears more often.",
+      "dependencies": [
+        "T26.G1.01",
+        "T25.G1.01"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T28.G2.03": {
+      "skill_name": "Decide if a simple game is fair",
+      "topic": "T28 \u2013 Chance & Simulations: G2\u20138 Skill List",
+      "description": "Students compare two drawn spinners (equal vs uneven slices) and explain which is \u201cfairer\u201d when playing a game.",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T28.G2.04": {
+      "skill_name": "Predict and observe outcomes",
+      "topic": "T28 \u2013 Chance & Simulations: G2\u20138 Skill List",
+      "description": "Learners make a prediction before each of five coin flips, then compare correct vs incorrect guesses to appreciate randomness.",
+      "dependencies": [
+        "T28.G2.02",
+        "T01.G1.04"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G2",
+        "G1"
+      ]
+    },
+    "T30.G2.01": {
+      "skill_name": "Explain core internal components",
+      "topic": "T30 \u2013 Devices & Hardware Systems",
+      "description": "Students match simplified analogies (brain, short-term memory, backpack) to CPU, RAM, and storage.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T30.G2.02": {
+      "skill_name": "Trace input \u2192 process \u2192 output",
+      "topic": "T30 \u2013 Devices & Hardware Systems",
+      "description": "Learners arrange arrows showing how a key press travels to the CPU and then displays on screen.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T30.G2.03": {
+      "skill_name": "Compare wired vs wireless connections",
+      "topic": "T30 \u2013 Devices & Hardware Systems",
+      "description": "Students decide which devices need cables (HDMI, USB) vs wireless (Bluetooth headphones) and give reasons (speed, mobility).",
+      "dependencies": [
+        "T01.G1.07"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T30.G2.04": {
+      "skill_name": "Share best practices for caring for devices",
+      "topic": "T30 \u2013 Devices & Hardware Systems",
+      "description": "Learners list simple habits (carry with two hands, clean hands, plug in gently) linking hardware care to digital responsibility.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T32.G2.01": {
+      "skill_name": "Create a strong password recipe",
+      "topic": "T32 \u2013 Cybersecurity & Digital Safety",
+      "description": "Students use a guided template to build a safer password (animal + number + symbol) and explain why it\u2019s stronger than \u201ccat.\u201d",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T32.G2.02": {
+      "skill_name": "Practice logging off shared devices",
+      "topic": "T32 \u2013 Cybersecurity & Digital Safety",
+      "description": "Learners follow picture instructions to log out of a shared tablet/computer and explain why that matters.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T32.G2.03": {
+      "skill_name": "Recognize safe digital citizenship behaviors",
+      "topic": "T32 \u2013 Cybersecurity & Digital Safety",
+      "description": "Students choose how to respond to unkind messages (ignore/report) and discuss why kindness online matters.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T32.G2.04": {
+      "skill_name": "Describe basic device care for security",
+      "topic": "T32 \u2013 Cybersecurity & Digital Safety",
+      "description": "Learners list practices (keep passwords hidden, don\u2019t leave device unattended) linking physical care to digital safety.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T34.G2.01": {
+      "skill_name": "Build \u201cthen vs now\u201d comparison charts",
+      "topic": "T34 \u2013 Computing History",
+      "description": "Students fill a chart showing how a task (taking photos, shopping, banking) was done before computers vs today.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T34.G2.02": {
+      "skill_name": "Identify communities impacted by inventions",
+      "topic": "T34 \u2013 Computing History",
+      "description": "Learners analyze a case (screen readers, online maps) and list groups that gained access.",
+      "dependencies": [
+        "T01.G1.10",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T34.G2.03": {
+      "skill_name": "Create mini-biographies of computing helpers",
+      "topic": "T34 \u2013 Computing History",
+      "description": "Students write/draw a mini-bio of a person (famous or local) who uses tech to help others.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T35.G2.01": {
+      "skill_name": "Compare benefits and harms of a tech tool",
+      "topic": "T35 \u2013 Impacts & Ethics",
+      "description": "Students list positives and negatives for tools like video sharing or messaging apps.",
+      "dependencies": [
+        "T01.G1.07"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T35.G2.02": {
+      "skill_name": "Plan balanced tech schedules",
+      "topic": "T35 \u2013 Impacts & Ethics",
+      "description": "Learners design a simple daily routine that includes device time, outdoor play, meals, and sleep.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T35.G2.03": {
+      "skill_name": "Practice online kindness scripts",
+      "topic": "T35 \u2013 Impacts & Ethics",
+      "description": "Students role-play responses (ignore, block, tell adult) and positive messages.",
+      "dependencies": [
+        "T01.G1.01"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T36.G2.01": {
+      "skill_name": "Identify project roles in simple terms",
+      "topic": "T36 \u2013 Careers, Collaboration & Future Paths",
+      "description": "Students match roles (story planner, builder, tester) to tasks in a CreatiCode project.",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    },
+    "T36.G2.02": {
+      "skill_name": "Plan balanced daily routines",
+      "topic": "T36 \u2013 Careers, Collaboration & Future Paths",
+      "description": "Learners build a picture schedule showing device time alongside reading, outside play, meals, and sleep.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ],
+      "dependency_count": 2,
+      "dependency_grades": [
+        "G1",
+        "G1"
+      ]
+    },
+    "T36.G2.03": {
+      "skill_name": "Recognize teammates\u2019 different strengths",
+      "topic": "T36 \u2013 Careers, Collaboration & Future Paths",
+      "description": "Students write or draw how classmates contribute unique skills (drawing, building, storytelling) to a project.",
+      "dependencies": [
+        "T01.G1.10"
+      ],
+      "dependency_count": 1,
+      "dependency_grades": [
+        "G1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2333 @@
+{
+  "total_g8_skills": 163,
+  "issues_found": 192,
+  "high_priority_issues": [
+    {
+      "skill_id": "T01.G8.02",
+      "skill_title": "Interpret the behavior of a simulation algorithm over time",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T01.G8.03",
+      "skill_title": "Compare two simulations with slightly different rules",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G1.01"
+      ],
+      "problematic_dependency": "T01.G1.01",
+      "recommended_fix": "Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T01.G8.04",
+      "skill_title": "Identify base case and recursive step in an algorithm description",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G1.01"
+      ],
+      "problematic_dependency": "T01.G1.01",
+      "recommended_fix": "Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T01.G8.06",
+      "skill_title": "Analyze who is helped or harmed by a real\u2011world algorithm",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G1.01"
+      ],
+      "problematic_dependency": "T01.G1.01",
+      "recommended_fix": "Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T01.G8.07",
+      "skill_title": "Propose changes to make a real\u2011world algorithm more fair",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G1.01"
+      ],
+      "problematic_dependency": "T01.G1.01",
+      "recommended_fix": "Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T01.G8.09",
+      "skill_title": "Refactor a medium\u2011sized program for efficiency",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T01.G8.10",
+      "skill_title": "Use logging/probes to understand algorithm behavior",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G1.01"
+      ],
+      "problematic_dependency": "T01.G1.01",
+      "recommended_fix": "Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T02.G8.01",
+      "skill_title": "Write pseudocode for a non\u2011trivial algorithm",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T02.G8.02",
+      "skill_title": "Trace your pseudocode with multiple test cases",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T02.G8.03",
+      "skill_title": "Refactor an algorithm\u2019s representation for clarity",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T02.G8.04",
+      "skill_title": "Design a flowchart for a real\u2011world decision with user needs in mind",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T02.G1.01"
+      ],
+      "problematic_dependency": "T02.G1.01",
+      "recommended_fix": "Remove dependency on T02.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T02.G8.05",
+      "skill_title": "Trace and compare deterministic and probabilistic algorithms",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T03.G8.01",
+      "skill_title": "Outline a formal project specification",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T03.G1.01"
+      ],
+      "problematic_dependency": "T03.G1.01",
+      "recommended_fix": "Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T03.G8.02",
+      "skill_title": "Use XO to refine and check a project spec",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T03.G1.01"
+      ],
+      "problematic_dependency": "T03.G1.01",
+      "recommended_fix": "Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T03.G8.03",
+      "skill_title": "Rank project ideas by complexity and timeline",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T03.G1.01"
+      ],
+      "problematic_dependency": "T03.G1.01",
+      "recommended_fix": "Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T03.G8.04",
+      "skill_title": "Identify over\u2011scoped plans and suggest right\u2011sizing",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T03.G8.05",
+      "skill_title": "Propose a refactoring plan for a complex project",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T03.G8.06",
+      "skill_title": "Map refactoring tasks to future milestones",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T03.G1.01"
+      ],
+      "problematic_dependency": "T03.G1.01",
+      "recommended_fix": "Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T04.G8.01",
+      "skill_title": "Recognize common code idioms in a library",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T04.G8.02",
+      "skill_title": "Adapt a library function to a new context",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G1.01"
+      ],
+      "problematic_dependency": "T04.G1.01",
+      "recommended_fix": "Remove dependency on T04.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T04.G8.03",
+      "skill_title": "Choose between alternative patterns for a problem",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T04.G8.04",
+      "skill_title": "Analyze tradeoffs in using a standard pattern vs custom code",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T04.G8.05",
+      "skill_title": "Write a short \u201cpattern card\u201d describing a reusable solution",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G1.01"
+      ],
+      "problematic_dependency": "T04.G1.01",
+      "recommended_fix": "Remove dependency on T04.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T04.G8.06",
+      "skill_title": "Explain to a peer how to reuse a pattern in their project",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G1.01"
+      ],
+      "problematic_dependency": "T04.G1.01",
+      "recommended_fix": "Remove dependency on T04.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T05.G8.01",
+      "skill_title": "Create a concise design brief with users, goals, and constraints",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T05.G1.01"
+      ],
+      "problematic_dependency": "T05.G1.01",
+      "recommended_fix": "Remove dependency on T05.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T05.G8.02",
+      "skill_title": "Use XO to critique and refine a design brief",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T05.G1.01"
+      ],
+      "problematic_dependency": "T05.G1.01",
+      "recommended_fix": "Remove dependency on T05.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T05.G8.03",
+      "skill_title": "Plan controlled simulation experiments (change one variable)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T05.G8.04",
+      "skill_title": "Interpret simulation results and connect back to the question",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T05.G1.01"
+      ],
+      "problematic_dependency": "T05.G1.01",
+      "recommended_fix": "Remove dependency on T05.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T05.G8.05",
+      "skill_title": "Explain key design decisions in terms of user needs and data",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T05.G8.06",
+      "skill_title": "Critique a peer design brief for HCD and simulation quality",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T06.G8.01",
+      "skill_title": "Debug subtle event ordering and race conditions",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T06.G8.02",
+      "skill_title": "Design fallback behaviors for missed or repeated events",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T06.G8.03",
+      "skill_title": "Document the event protocol of a project",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T02.G3.01"
+      ],
+      "problematic_dependency": "T02.G3.01",
+      "recommended_fix": "Remove dependency on T02.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T06.G8.04",
+      "skill_title": "Review and critique an event design for clarity and maintainability",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T07.G8.01",
+      "skill_title": "Monte Carlo simulations with loops",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T07.G8.02",
+      "skill_title": "Implement iterative algorithms with loops",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T07.G8.03",
+      "skill_title": "Process structured data with nested loops",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T07.G8.04",
+      "skill_title": "Analyze and justify loop designs",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T08.G8.01",
+      "skill_title": "Analyze logical equivalence of conditionals",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T08.G8.02",
+      "skill_title": "Use logic to design robust input validation",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T09.G8.01",
+      "skill_title": "Use variables in iterative algorithms",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T09.G8.02",
+      "skill_title": "Analyze expressions for efficiency and correctness",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T09.G8.03",
+      "skill_title": "Use variables in data collection and statistical analysis",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T09.G8.04",
+      "skill_title": "Debug variable-related logical errors",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T09.G8.05",
+      "skill_title": "Use expressions to implement mathematical or logical rules",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T09.G3.01"
+      ],
+      "problematic_dependency": "T09.G3.01",
+      "recommended_fix": "Remove dependency on T09.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T10.G8.01",
+      "skill_title": "Implement a data structure using lists (simple version of array of records)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T10.G8.02",
+      "skill_title": "Implement a sorting algorithm (bubble sort or selection sort)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T10.G8.03",
+      "skill_title": "Build a simulation using list-based state",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T10.G8.04",
+      "skill_title": "Query and report statistics from a complex dataset",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T09.G3.01"
+      ],
+      "problematic_dependency": "T09.G3.01",
+      "recommended_fix": "Remove dependency on T09.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T10.G8.05",
+      "skill_title": "Model real-world relationships using table joins or lookups",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T11.G8.01",
+      "skill_title": "Design blocks for a game or simulation framework",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "problematic_dependency": "T08.G3.01",
+      "recommended_fix": "Remove dependency on T08.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T11.G8.02",
+      "skill_title": "Refactor a complex program into a well-organized block hierarchy",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T11.G8.03",
+      "skill_title": "Use custom blocks with complex data (lists, objects)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T11.G8.04",
+      "skill_title": "Analyze trade-offs in modular vs. monolithic design",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T12.G8.01",
+      "skill_title": "Apply consistent style across a large project",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T12.G8.02",
+      "skill_title": "Create comprehensive documentation for a complex project",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T12.G8.03",
+      "skill_title": "Refactor for maintainability in a team context",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T12.G8.04",
+      "skill_title": "Evaluate and improve code for accessibility and inclusion",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T13.G8.01",
+      "skill_title": "Design and execute a rigorous test suite",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T09.G3.01"
+      ],
+      "problematic_dependency": "T09.G3.01",
+      "recommended_fix": "Remove dependency on T09.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T13.G8.02",
+      "skill_title": "Debug for correctness against specifications",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T13.G8.03",
+      "skill_title": "Handle errors gracefully with try-and-catch patterns",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T13.G8.04",
+      "skill_title": "Reflect on accuracy, bias, and quality of generated code",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T14.G8.01",
+      "skill_title": "Modular level loader",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T14.G8.02",
+      "skill_title": "Particle system",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T14.G8.03",
+      "skill_title": "Component-based entities",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T14.G8.04",
+      "skill_title": "Automated gameplay tests",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T14.G8.05",
+      "skill_title": "Telemetry and balancing",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T15.G8.01",
+      "skill_title": "Branching Narrative Engine",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T15.G8.02",
+      "skill_title": "Accessibility in Media",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T16.G8.01",
+      "skill_title": "Design a wizard or step-by-step interface",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T16.G8.02",
+      "skill_title": "Implement dynamic content loading in a UI",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T16.G8.03",
+      "skill_title": "Analyze UI design patterns and their effectiveness",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T16.G8.04",
+      "skill_title": "Document and refine a UI design based on usability testing",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T17.G8.01",
+      "skill_title": "Design and balance a physics-based arcade game",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T17.G8.02",
+      "skill_title": "Implement advanced joints or constraints",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T17.G8.03",
+      "skill_title": "Build automated physics regression tests",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T17.G8.04",
+      "skill_title": "Optimize a physics scene for performance",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T17.G8.06",
+      "skill_title": "Use instrumentation data to tune difficulty",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T18.G8.01",
+      "skill_title": "Implement a level editor or dynamic level loading",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T18.G8.02",
+      "skill_title": "Use multiple cameras to implement split-screen or UI view",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T18.G8.03",
+      "skill_title": "Analyze and optimize a 3D game for performance",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T18.G8.04",
+      "skill_title": "Analyze trade-offs in 3D game design decisions",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T19.G8.01",
+      "skill_title": "Implement host-authoritative validation to prevent cheating",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T19.G8.02",
+      "skill_title": "Trace message ordering and resolve inconsistencies",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T19.G8.03",
+      "skill_title": "Persist match data to CreatiCode cloud storage",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T19.G8.04",
+      "skill_title": "Explain the architecture of their multiplayer system",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T02.G3.01"
+      ],
+      "problematic_dependency": "T02.G3.01",
+      "recommended_fix": "Remove dependency on T02.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T19.G8.05",
+      "skill_title": "Compare CreatiCode multiplayer (`mp`) and peer-to-peer (`p2p`) extensions",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T20.G8.01",
+      "skill_title": "**[Technical Skill]** Implement multi-dimensional data mapping algorithms",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T20.G8.02",
+      "skill_title": "Create constrained generative artwork",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T20.G8.03",
+      "skill_title": "Evaluate creative and social implications",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T20.G8.04",
+      "skill_title": "Optimize rendering for performance",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T20.G8.05",
+      "skill_title": "Combine multiple algorithms in an art pipeline",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T21.G8.01",
+      "skill_title": "Build a user-facing generative art widget with guardrails",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T21.G8.02",
+      "skill_title": "Implement an approval pipeline for AI assets",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "problematic_dependency": "T08.G3.01",
+      "recommended_fix": "Remove dependency on T08.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T21.G8.03",
+      "skill_title": "Produce a multi-modal media kit from one creative brief",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T21.G8.04",
+      "skill_title": "Develop ethical guidelines for AI media use in a studio",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "problematic_dependency": "T08.G3.01",
+      "recommended_fix": "Remove dependency on T08.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T22.G8.01",
+      "skill_title": "Add retrieval-augmented generation (RAG) to a chatbot",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T22.G8.02",
+      "skill_title": "Coordinate multi-agent conversations and summaries",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T22.G8.03",
+      "skill_title": "Parse structured chatbot outputs to trigger tools",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T03.G3.01"
+      ],
+      "problematic_dependency": "T03.G3.01",
+      "recommended_fix": "Remove dependency on T03.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T22.G8.04",
+      "skill_title": "Publish a chatbot operations manual",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T23.G8.01",
+      "skill_title": "Offer interchangeable input modes with accessibility rules",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T23.G8.02",
+      "skill_title": "Train and deploy a custom gesture classifier",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T23.G8.03",
+      "skill_title": "Fuse voice, pose, and UI widgets into a cooperative simulation",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T23.G8.04",
+      "skill_title": "Publish a privacy and deployment plan for perception apps",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T23.G8.05",
+      "skill_title": "Evaluate societal impacts of perception AI systems",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.08"
+      ],
+      "problematic_dependency": "T06.G3.08",
+      "recommended_fix": "Remove dependency on T06.G3.08 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T24.G8.01",
+      "skill_title": "Automate XO requests with data-driven prompt builders",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T24.G8.02",
+      "skill_title": "Pair XO with automated tests to validate fixes",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T24.G8.03",
+      "skill_title": "Compare XO-generated code/image options with human-crafted versions",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T24.G8.04",
+      "skill_title": "Draft a studio policy for XO/image usage",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T24.G8.05",
+      "skill_title": "Mentor younger students on XO best practices",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T25.G8.01",
+      "skill_title": "Design schemas for multi-modal apps",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T25.G8.02",
+      "skill_title": "Document versioning and lineage metadata",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T25.G1.01"
+      ],
+      "problematic_dependency": "T25.G1.01",
+      "recommended_fix": "Remove dependency on T25.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T25.G8.02",
+      "skill_title": "Document versioning and lineage metadata",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T25.G8.02 -> T25.G1.01 -> T25.G1.01",
+      "current_dependencies": [
+        "T25.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T25.G8.02 -> T25.G1.01 -> T25.G1.01"
+    },
+    {
+      "skill_id": "T25.G8.03",
+      "skill_title": "Evaluate compression strategies for large datasets",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T25.G8.04",
+      "skill_title": "Create data interface contracts for teammates",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T25.G1.01"
+      ],
+      "problematic_dependency": "T25.G1.01",
+      "recommended_fix": "Remove dependency on T25.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T25.G8.04",
+      "skill_title": "Create data interface contracts for teammates",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T25.G8.04 -> T25.G1.01 -> T25.G1.01",
+      "current_dependencies": [
+        "T25.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T25.G8.04 -> T25.G1.01 -> T25.G1.01"
+    },
+    {
+      "skill_id": "T26.G8.01",
+      "skill_title": "Design end-to-end telemetry pipelines",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T26.G8.02",
+      "skill_title": "Implement scheduled data exports and resets",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T26.G8.03",
+      "skill_title": "Integrate XO guidance into data scripts",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T26.G8.04",
+      "skill_title": "Publish data privacy agreements for peers",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T09.G3.01"
+      ],
+      "problematic_dependency": "T09.G3.01",
+      "recommended_fix": "Remove dependency on T09.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T27.G8.01",
+      "skill_title": "Run hypothesis tests or statistical significance checks",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "problematic_dependency": "T08.G3.01",
+      "recommended_fix": "Remove dependency on T08.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T27.G8.02",
+      "skill_title": "Automate report generation",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T27.G8.03",
+      "skill_title": "Integrate analysis into AI prompt engineering",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T27.G8.04",
+      "skill_title": "Publish public-facing data stories",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T28.G8.01",
+      "skill_title": "Chain simulation \u2192 analysis \u2192 dashboard",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T28.G8.02",
+      "skill_title": "Estimate uncertainty via bootstrap/resampling",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.01"
+      ],
+      "problematic_dependency": "T07.G3.01",
+      "recommended_fix": "Remove dependency on T07.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T28.G8.03",
+      "skill_title": "Integrate simulations into XO/AI workflows",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T28.G8.04",
+      "skill_title": "Publish simulation-backed policy briefs",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T28.G8.05",
+      "skill_title": "Analyze how environment design can bias agent behavior",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "problematic_dependency": "T07.G3.05",
+      "recommended_fix": "Remove dependency on T07.G3.05 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T29.G8.01",
+      "skill_title": "Build end-to-end text-processing pipelines",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T29.G8.02",
+      "skill_title": "Compute evaluation metrics (precision/recall/F1)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "problematic_dependency": "T08.G3.01",
+      "recommended_fix": "Remove dependency on T08.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T29.G8.03",
+      "skill_title": "Integrate analytics into AI prompting",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T29.G8.04",
+      "skill_title": "Publish datasheets for text datasets",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T30.G8.01",
+      "skill_title": "Architect edge vs cloud processing for AI pipelines",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T02.G3.01"
+      ],
+      "problematic_dependency": "T02.G3.01",
+      "recommended_fix": "Remove dependency on T02.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T30.G8.02",
+      "skill_title": "Evaluate sustainability & lifecycle impacts",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T30.G8.03",
+      "skill_title": "Plan hardware integration tests",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T30.G8.04",
+      "skill_title": "Publish hardware requirement/playbooks for teams",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T31.G8.01",
+      "skill_title": "Architect edge vs cloud processing pipelines for AI",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T02.G3.01"
+      ],
+      "problematic_dependency": "T02.G3.01",
+      "recommended_fix": "Remove dependency on T02.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T31.G8.02",
+      "skill_title": "Understand AI service network requirements",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G5 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T31.G5.01"
+      ],
+      "problematic_dependency": "T31.G5.01",
+      "recommended_fix": "Remove dependency on T31.G5.01 (G5) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T31.G8.03",
+      "skill_title": "Design secure AI-powered cloud systems",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G5 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T31.G5.01"
+      ],
+      "problematic_dependency": "T31.G5.01",
+      "recommended_fix": "Remove dependency on T31.G5.01 (G5) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T31.G8.04",
+      "skill_title": "Implement privacy protection for AI data",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G5 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T31.G5.01"
+      ],
+      "problematic_dependency": "T31.G5.01",
+      "recommended_fix": "Remove dependency on T31.G5.01 (G5) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T31.G8.05",
+      "skill_title": "Evaluate AI service resilience and fallbacks",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G5 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T31.G5.01"
+      ],
+      "problematic_dependency": "T31.G5.01",
+      "recommended_fix": "Remove dependency on T31.G5.01 (G5) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T31.G8.06",
+      "skill_title": "Build AI service monitoring and ethics dashboards",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G5 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T31.G5.01"
+      ],
+      "problematic_dependency": "T31.G5.01",
+      "recommended_fix": "Remove dependency on T31.G5.01 (G5) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T32.G8.01",
+      "skill_title": "Conduct mini penetration tests (with permission)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T32.G8.02",
+      "skill_title": "Implement role-based access controls",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T32.G8.03",
+      "skill_title": "Conduct comprehensive AI security and ethics audits",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T32.G1.01"
+      ],
+      "problematic_dependency": "T32.G1.01",
+      "recommended_fix": "Remove dependency on T32.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T32.G8.04",
+      "skill_title": "Publish incident response plans",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "problematic_dependency": "T01.G3.01",
+      "recommended_fix": "Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T33.G8.01",
+      "skill_title": "Analyze legal and ethical obligations when integrating services",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T33.G8.02",
+      "skill_title": "Simulate service outages and design fallbacks",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T33.G8.03",
+      "skill_title": "Integrate third-party tool output into moderation workflows",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "problematic_dependency": "T08.G3.01",
+      "recommended_fix": "Remove dependency on T08.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T33.G8.04",
+      "skill_title": "Document build-vs-buy decisions for new features",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T34.G8.01",
+      "skill_title": "Synthesize trends into future forecasts",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T34.G1.01"
+      ],
+      "problematic_dependency": "T34.G1.01",
+      "recommended_fix": "Remove dependency on T34.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T34.G8.01",
+      "skill_title": "Synthesize trends into future forecasts",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T34.G8.01 -> T34.G1.01 -> T34.G1.01",
+      "current_dependencies": [
+        "T34.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T34.G8.01 -> T34.G1.01 -> T34.G1.01"
+    },
+    {
+      "skill_id": "T34.G8.02",
+      "skill_title": "Analyze cross-cultural innovation ecosystems",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T34.G8.03",
+      "skill_title": "Produce primary-source inspired research projects",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T34.G1.01"
+      ],
+      "problematic_dependency": "T34.G1.01",
+      "recommended_fix": "Remove dependency on T34.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T34.G8.03",
+      "skill_title": "Produce primary-source inspired research projects",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T34.G8.03 -> T34.G1.01 -> T34.G1.01",
+      "current_dependencies": [
+        "T34.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T34.G8.03 -> T34.G1.01 -> T34.G1.01"
+    },
+    {
+      "skill_id": "T35.G8.01",
+      "skill_title": "Analyze AI chatbots' impact on information literacy (Pairing with T22)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T35.G8.02",
+      "skill_title": "Draft equity-focused policy briefs for AI in education",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "problematic_dependency": "T35.G1.01",
+      "recommended_fix": "Remove dependency on T35.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T35.G8.02",
+      "skill_title": "Draft equity-focused policy briefs for AI in education",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T35.G8.02 -> T35.G1.01 -> T35.G1.01",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T35.G8.02 -> T35.G1.01 -> T35.G1.01"
+    },
+    {
+      "skill_id": "T35.G8.03",
+      "skill_title": "Design impact assessments for CreatiCode projects",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "problematic_dependency": "T35.G1.01",
+      "recommended_fix": "Remove dependency on T35.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T35.G8.03",
+      "skill_title": "Design impact assessments for CreatiCode projects",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T35.G8.03 -> T35.G1.01 -> T35.G1.01",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T35.G8.03 -> T35.G1.01 -> T35.G1.01"
+    },
+    {
+      "skill_id": "T35.G8.04",
+      "skill_title": "Lead peer workshops on responsible tech use",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "problematic_dependency": "T35.G1.01",
+      "recommended_fix": "Remove dependency on T35.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T35.G8.04",
+      "skill_title": "Lead peer workshops on responsible tech use",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T35.G8.04 -> T35.G1.01 -> T35.G1.01",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T35.G8.04 -> T35.G1.01 -> T35.G1.01"
+    },
+    {
+      "skill_id": "T36.G8.01",
+      "skill_title": "Build multi-year career roadmaps",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T36.G8.02",
+      "skill_title": "Prepare resumes/portfolios and practice interviews",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G3 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "problematic_dependency": "T06.G3.01",
+      "recommended_fix": "Remove dependency on T06.G3.01 (G3) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T36.G8.03",
+      "skill_title": "Analyze AI's differential impact on future work and equity (Pairing with T24)",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G2 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T04.G2.01"
+      ],
+      "problematic_dependency": "T04.G2.01",
+      "recommended_fix": "Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T36.G8.04",
+      "skill_title": "Facilitate capstone retrospectives with stakeholders",
+      "issue_type": "dependency_too_old",
+      "description": "G8 skill depends on G1 skill (should be G6, G7, or G8 only)",
+      "current_dependencies": [
+        "T36.G1.01"
+      ],
+      "problematic_dependency": "T36.G1.01",
+      "recommended_fix": "Remove dependency on T36.G1.01 (G1) or replace with equivalent G6+ skill"
+    },
+    {
+      "skill_id": "T36.G8.04",
+      "skill_title": "Facilitate capstone retrospectives with stakeholders",
+      "issue_type": "circular_dependency",
+      "description": "Circular dependency detected: T36.G8.04 -> T36.G1.01 -> T36.G1.01",
+      "current_dependencies": [
+        "T36.G1.01"
+      ],
+      "recommended_fix": "Break circular dependency chain: T36.G8.04 -> T36.G1.01 -> T36.G1.01"
+    }
+  ],
+  "medium_priority_issues": [
+    {
+      "skill_id": "T25.G8.02",
+      "skill_title": "Document versioning and lineage metadata",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T25.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T25.G1.01"
+      ],
+      "problematic_dependency": "T25.G1.01",
+      "recommended_fix": "Remove redundant dependency on T25.G1.01"
+    },
+    {
+      "skill_id": "T25.G8.04",
+      "skill_title": "Create data interface contracts for teammates",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T25.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T25.G1.01"
+      ],
+      "problematic_dependency": "T25.G1.01",
+      "recommended_fix": "Remove redundant dependency on T25.G1.01"
+    },
+    {
+      "skill_id": "T34.G8.01",
+      "skill_title": "Synthesize trends into future forecasts",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T34.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T34.G1.01"
+      ],
+      "problematic_dependency": "T34.G1.01",
+      "recommended_fix": "Remove redundant dependency on T34.G1.01"
+    },
+    {
+      "skill_id": "T34.G8.03",
+      "skill_title": "Produce primary-source inspired research projects",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T34.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T34.G1.01"
+      ],
+      "problematic_dependency": "T34.G1.01",
+      "recommended_fix": "Remove redundant dependency on T34.G1.01"
+    },
+    {
+      "skill_id": "T35.G8.02",
+      "skill_title": "Draft equity-focused policy briefs for AI in education",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T35.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "problematic_dependency": "T35.G1.01",
+      "recommended_fix": "Remove redundant dependency on T35.G1.01"
+    },
+    {
+      "skill_id": "T35.G8.03",
+      "skill_title": "Design impact assessments for CreatiCode projects",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T35.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "problematic_dependency": "T35.G1.01",
+      "recommended_fix": "Remove redundant dependency on T35.G1.01"
+    },
+    {
+      "skill_id": "T35.G8.04",
+      "skill_title": "Lead peer workshops on responsible tech use",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T35.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T35.G1.01"
+      ],
+      "problematic_dependency": "T35.G1.01",
+      "recommended_fix": "Remove redundant dependency on T35.G1.01"
+    },
+    {
+      "skill_id": "T36.G8.04",
+      "skill_title": "Facilitate capstone retrospectives with stakeholders",
+      "issue_type": "transitive_dependency",
+      "description": "Transitive dependency T36.G1.01 (already reachable through another dependency)",
+      "current_dependencies": [
+        "T36.G1.01"
+      ],
+      "problematic_dependency": "T36.G1.01",
+      "recommended_fix": "Remove redundant dependency on T36.G1.01"
+    }
+  ],
+  "low_priority_issues": [
+    {
+      "skill_id": "T01.G8.05",
+      "skill_title": "Trace a conceptual recursive algorithm on small inputs",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'all' - may be too general",
+      "current_dependencies": [],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T02.G8.02",
+      "skill_title": "Trace your pseudocode with multiple test cases",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'multiple' - may be too general",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T03.G8.03",
+      "skill_title": "Rank project ideas by complexity and timeline",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'complex' - may be too general",
+      "current_dependencies": [
+        "T03.G1.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T03.G8.05",
+      "skill_title": "Propose a refactoring plan for a complex project",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'complex' - may be too general",
+      "current_dependencies": [
+        "T01.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T06.G8.02",
+      "skill_title": "Design fallback behaviors for missed or repeated events",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'all' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T10.G8.04",
+      "skill_title": "Query and report statistics from a complex dataset",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'complex' - may be too general",
+      "current_dependencies": [
+        "T09.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T11.G8.02",
+      "skill_title": "Refactor a complex program into a well-organized block hierarchy",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'complex' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T11.G8.03",
+      "skill_title": "Use custom blocks with complex data (lists, objects)",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'complex' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T12.G8.02",
+      "skill_title": "Create comprehensive documentation for a complex project",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'complex' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T17.G8.02",
+      "skill_title": "Implement advanced joints or constraints",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'advanced' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T18.G8.02",
+      "skill_title": "Use multiple cameras to implement split-screen or UI view",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'multiple' - may be too general",
+      "current_dependencies": [
+        "T07.G3.05"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T20.G8.05",
+      "skill_title": "Combine multiple algorithms in an art pipeline",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'multiple' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T29.G8.02",
+      "skill_title": "Compute evaluation metrics (precision/recall/F1)",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'all' - may be too general",
+      "current_dependencies": [
+        "T08.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T31.G8.05",
+      "skill_title": "Evaluate AI service resilience and fallbacks",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'all' - may be too general",
+      "current_dependencies": [
+        "T31.G5.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T32.G8.03",
+      "skill_title": "Conduct comprehensive AI security and ethics audits",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'comprehensive' - may be too general",
+      "current_dependencies": [
+        "T32.G1.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    },
+    {
+      "skill_id": "T33.G8.02",
+      "skill_title": "Simulate service outages and design fallbacks",
+      "issue_type": "broad_skill",
+      "description": "Title contains broad keyword 'all' - may be too general",
+      "current_dependencies": [
+        "T06.G3.01"
+      ],
+      "recommended_fix": "Review and refine skill title/description for clarity and specificity"
+    }
+  ],
+  "skills_by_topic": {
+    "T01": [
+      "T01.G8.01",
+      "T01.G8.02",
+      "T01.G8.03",
+      "T01.G8.04",
+      "T01.G8.05",
+      "T01.G8.06",
+      "T01.G8.07",
+      "T01.G8.08",
+      "T01.G8.09",
+      "T01.G8.10"
+    ],
+    "T02": [
+      "T02.G8.01",
+      "T02.G8.02",
+      "T02.G8.03",
+      "T02.G8.04",
+      "T02.G8.05"
+    ],
+    "T03": [
+      "T03.G8.01",
+      "T03.G8.02",
+      "T03.G8.03",
+      "T03.G8.04",
+      "T03.G8.05",
+      "T03.G8.06"
+    ],
+    "T04": [
+      "T04.G8.01",
+      "T04.G8.02",
+      "T04.G8.03",
+      "T04.G8.04",
+      "T04.G8.05",
+      "T04.G8.06"
+    ],
+    "T05": [
+      "T05.G8.01",
+      "T05.G8.02",
+      "T05.G8.03",
+      "T05.G8.04",
+      "T05.G8.05",
+      "T05.G8.06"
+    ],
+    "T06": [
+      "T06.G8.01",
+      "T06.G8.02",
+      "T06.G8.03",
+      "T06.G8.04"
+    ],
+    "T07": [
+      "T07.G8.01",
+      "T07.G8.02",
+      "T07.G8.03",
+      "T07.G8.04"
+    ],
+    "T08": [
+      "T08.G8.01",
+      "T08.G8.02"
+    ],
+    "T09": [
+      "T09.G8.01",
+      "T09.G8.02",
+      "T09.G8.03",
+      "T09.G8.04",
+      "T09.G8.05"
+    ],
+    "T10": [
+      "T10.G8.01",
+      "T10.G8.02",
+      "T10.G8.03",
+      "T10.G8.04",
+      "T10.G8.05"
+    ],
+    "T11": [
+      "T11.G8.01",
+      "T11.G8.02",
+      "T11.G8.03",
+      "T11.G8.04"
+    ],
+    "T12": [
+      "T12.G8.01",
+      "T12.G8.02",
+      "T12.G8.03",
+      "T12.G8.04"
+    ],
+    "T13": [
+      "T13.G8.01",
+      "T13.G8.02",
+      "T13.G8.03",
+      "T13.G8.04"
+    ],
+    "T14": [
+      "T14.G8.01",
+      "T14.G8.02",
+      "T14.G8.03",
+      "T14.G8.04",
+      "T14.G8.05"
+    ],
+    "T15": [
+      "T15.G8.01",
+      "T15.G8.02"
+    ],
+    "T16": [
+      "T16.G8.01",
+      "T16.G8.02",
+      "T16.G8.03",
+      "T16.G8.04"
+    ],
+    "T17": [
+      "T17.G8.01",
+      "T17.G8.02",
+      "T17.G8.03",
+      "T17.G8.04",
+      "T17.G8.06"
+    ],
+    "T18": [
+      "T18.G8.01",
+      "T18.G8.02",
+      "T18.G8.03",
+      "T18.G8.04"
+    ],
+    "T19": [
+      "T19.G8.01",
+      "T19.G8.02",
+      "T19.G8.03",
+      "T19.G8.04",
+      "T19.G8.05"
+    ],
+    "T20": [
+      "T20.G8.01",
+      "T20.G8.02",
+      "T20.G8.03",
+      "T20.G8.04",
+      "T20.G8.05"
+    ],
+    "T21": [
+      "T21.G8.01",
+      "T21.G8.02",
+      "T21.G8.03",
+      "T21.G8.04"
+    ],
+    "T22": [
+      "T22.G8.01",
+      "T22.G8.02",
+      "T22.G8.03",
+      "T22.G8.04"
+    ],
+    "T23": [
+      "T23.G8.01",
+      "T23.G8.02",
+      "T23.G8.03",
+      "T23.G8.04",
+      "T23.G8.05"
+    ],
+    "T24": [
+      "T24.G8.01",
+      "T24.G8.02",
+      "T24.G8.03",
+      "T24.G8.04",
+      "T24.G8.05"
+    ],
+    "T25": [
+      "T25.G8.01",
+      "T25.G8.02",
+      "T25.G8.03",
+      "T25.G8.04"
+    ],
+    "T26": [
+      "T26.G8.01",
+      "T26.G8.02",
+      "T26.G8.03",
+      "T26.G8.04"
+    ],
+    "T27": [
+      "T27.G8.01",
+      "T27.G8.02",
+      "T27.G8.03",
+      "T27.G8.04"
+    ],
+    "T28": [
+      "T28.G8.01",
+      "T28.G8.02",
+      "T28.G8.03",
+      "T28.G8.04",
+      "T28.G8.05"
+    ],
+    "T29": [
+      "T29.G8.01",
+      "T29.G8.02",
+      "T29.G8.03",
+      "T29.G8.04"
+    ],
+    "T30": [
+      "T30.G8.01",
+      "T30.G8.02",
+      "T30.G8.03",
+      "T30.G8.04"
+    ],
+    "T31": [
+      "T31.G8.01",
+      "T31.G8.02",
+      "T31.G8.03",
+      "T31.G8.04",
+      "T31.G8.05",
+      "T31.G8.06"
+    ],
+    "T32": [
+      "T32.G8.01",
+      "T32.G8.02",
+      "T32.G8.03",
+      "T32.G8.04"
+    ],
+    "T33": [
+      "T33.G8.01",
+      "T33.G8.02",
+      "T33.G8.03",
+      "T33.G8.04"
+    ],
+    "T34": [
+      "T34.G8.01",
+      "T34.G8.02",
+      "T34.G8.03"
+    ],
+    "T35": [
+      "T35.G8.01",
+      "T35.G8.02",
+      "T35.G8.03",
+      "T35.G8.04"
+    ],
+    "T36": [
+      "T36.G8.01",
+      "T36.G8.02",
+      "T36.G8.03",
+      "T36.G8.04"
+    ]
+  }
+}

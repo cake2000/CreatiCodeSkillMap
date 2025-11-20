@@ -1,0 +1,390 @@
+================================================================================
+GRADE 6 DEPENDENCY FIX EXAMPLES
+================================================================================
+
+This document shows specific examples of how to fix Grade 6 skill dependencies
+by removing references to G3 and lower grade skills.
+
+Rule: Grade 6 skills should only depend on G4, G5, or G6 skills
+
+================================================================================
+TOPIC T01 – EVERYDAY ALGORITHMS
+================================================================================
+
+SKILL: T01.G6.01
+Name: Count comparisons in linear and binary search
+----------------------------------------------------
+CURRENT dependencies:
+  * T01.G1.01: Put pictures in order to plant a seed
+  * T01.GK.07: Find the pattern that repeats
+  * T01.GK.08: Count how many times
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+
+ISSUES:
+  - T01.G1.01 is Grade 1 (remove)
+  - T01.GK.07 is Kindergarten (remove)
+  - T01.GK.08 is Kindergarten (remove)
+  - T04.G2.01 is Grade 2 (remove)
+
+RECOMMENDED fix:
+  Dependencies: NONE or add relevant G4/G5 skills if needed
+
+  (By Grade 6, students know how to count, recognize patterns, and sequence.
+   If this skill needs algorithmic thinking prerequisites, add G4/G5 algorithm
+   analysis skills instead.)
+
+----------------------------------------------------
+SKILL: T01.G6.02
+Name: Compare how step counts grow with input size
+----------------------------------------------------
+CURRENT dependencies:
+  * T01.G3.01: Complete a simple script with missing blocks
+  * T01.G3.02: Match a story description to a code sequence
+  * T01.GK.07: Find the pattern that repeats
+  * T01.GK.08: Count how many times
+
+ISSUES:
+  - T01.G3.01 is Grade 3 (remove)
+  - T01.G3.02 is Grade 3 (remove)
+  - T01.GK.07 is Kindergarten (remove)
+  - T01.GK.08 is Kindergarten (remove)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T01.G5.01: Trace a simple search or sort algorithm step‑by‑step
+  * T01.G5.02: Explain why one algorithm is better than another
+
+  (Focus on G5 algorithm analysis skills as prerequisites)
+
+----------------------------------------------------
+SKILL: T01.G6.03
+Name: Spot unnecessary work in an algorithm
+----------------------------------------------------
+CURRENT dependencies:
+  * T01.GK.07: Find the pattern that repeats
+  * T01.GK.08: Count how many times
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T01.G5.01: Trace a simple search or sort algorithm step‑by‑step
+  * T01.G5.03: Identify redundant or missing steps in algorithm pseudocode
+
+  (Build on G5 algorithm analysis skills)
+
+----------------------------------------------------
+SKILL: T01.G6.07
+Name: Design a flowchart for a multi‑step program
+----------------------------------------------------
+CURRENT dependencies:
+  * T01.GK.08: Count how many times
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T02.G5.02: Translate a flowchart with loops and branches to pseudocode
+  * T02.G5.03: Design a flowchart for a simple interactive program
+
+  (By G6, students already know loops, conditionals, and variables from G3-G5.
+   Focus on the flowchart design skills from T02 instead.)
+
+================================================================================
+TOPIC T02 – ALGORITHM DIAGRAMS
+================================================================================
+
+SKILL: T02.G6.01
+Name: Design a flowchart for a simple guessing game
+----------------------------------------------------
+CURRENT dependencies:
+  * T02.GK.03: Match a flowchart symbol to what it means
+  * T02.GK.04: Put flowchart shapes in order to make a snack
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G3.01: Use a simple if in a script
+
+ISSUES:
+  - T02.GK.03 is Kindergarten (remove)
+  - T02.GK.04 is Kindergarten (remove)
+  - T07.G3.01 is Grade 3 (remove)
+  - T08.G3.01 is Grade 3 (remove)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T02.G5.03: Design a flowchart for a simple interactive program
+  * T08.G5.02: Chain conditions with AND, OR, NOT
+
+  (Flowchart symbols are known by G6. Focus on design complexity.)
+
+----------------------------------------------------
+SKILL: T02.G6.05
+Name: Match pseudocode to code with loops and conditions
+----------------------------------------------------
+CURRENT dependencies:
+  * T02.G3.01: Identify where a flowchart makes a choice
+  * T02.GK.03: Match a flowchart symbol to what it means
+  * T02.GK.04: Put flowchart shapes in order to make a snack
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T02.G5.02: Translate a flowchart with loops and branches to pseudocode
+  * T02.G5.04: Trace a flowchart with nested loops to understand output
+
+  (This is a direct extension of G5 flowchart-to-pseudocode skills)
+
+================================================================================
+TOPIC T03 – PROBLEM DECOMPOSITION
+================================================================================
+
+SKILL: T03.G6.01
+Name: Propose modules for a medium project
+----------------------------------------------------
+CURRENT dependencies:
+  * T03.GK.03: Pick which part of a recipe to do first
+  * T03.GK.04: Explain why one step must come before another
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T03.G5.01: Break a project into separate sprites or roles
+  * T03.G5.02: Identify which subtasks can run in parallel vs in sequence
+
+  (Sequencing is basic knowledge by G6. Focus on modular design from G5.)
+
+----------------------------------------------------
+SKILL: T03.G6.02
+Name: Refactor a complex process into reusable components
+----------------------------------------------------
+CURRENT dependencies:
+  * T03.G1.01: Break a class activity into numbered steps
+  * T03.GK.03: Pick which part of a recipe to do first
+  * T03.GK.04: Explain why one step must come before another
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T03.G5.03: Spot repeated logic that could become a custom block
+  * T11.G5.02: Write a simple custom block with one input
+
+  (Refactoring builds on G5 abstraction and custom block skills)
+
+================================================================================
+TOPIC T07 – LOOPS
+================================================================================
+
+SKILL: T07.G6.01
+Name: Trace nested loops with variables
+----------------------------------------------------
+CURRENT dependencies:
+  * T07.G3.01: Use a counted repeat loop
+  * T07.GK.03: Match "repeat" to a picture of bouncing
+  * T07.GK.04: Count how many times a character repeats an action
+  * T09.G3.01: Create and use a numeric variable for score or count
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T07.G5.02: Use nested loops to create a pattern
+  * T09.G5.02: Update a variable in a loop to accumulate a total
+
+  (By G6, basic loops are assumed. Focus on nested loops from G5.)
+
+----------------------------------------------------
+SKILL: T07.G6.04
+Name: Avoid and fix infinite loops
+----------------------------------------------------
+CURRENT dependencies:
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.02: Use "repeat until" for variable conditions
+  * T07.GK.03: Match "repeat" to a picture of bouncing
+  * T07.GK.04: Count how many times a character repeats an action
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T07.G5.01: Choose "repeat", "forever", or "repeat until" for a task
+  * T13.G5.02: Use print or say blocks to trace variable values
+
+  (Debugging infinite loops builds on loop choice and debugging skills)
+
+================================================================================
+TOPIC T09 – VARIABLES & EXPRESSIONS
+================================================================================
+
+SKILL: T09.G6.01
+Name: Use variables to represent real‑world quantities
+----------------------------------------------------
+CURRENT dependencies:
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.GK.01: Recognize that something can change (grow, shrink, move)
+  * T09.GK.02: Show before‑and‑after pictures of a changing value
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T09.G5.01: Use variables to store user input
+  * T09.G5.02: Update a variable in a loop to accumulate a total
+
+  (Variable basics are assumed. Focus on G5 variable usage patterns.)
+
+----------------------------------------------------
+SKILL: T09.G6.02
+Name: Use expressions with mixed operators and precedence
+----------------------------------------------------
+CURRENT dependencies:
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T09.G3.02: Use +, −, × in a simple calculation
+  * T09.GK.01: Recognize that something can change (grow, shrink, move)
+  * T09.GK.02: Show before‑and‑after pictures of a changing value
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T09.G5.03: Build expressions with parentheses for multi‑step math
+
+  (Basic arithmetic is G3. Focus on complex expressions from G5.)
+
+================================================================================
+TOPIC T14 – 2D GAMES
+================================================================================
+
+SKILL: T14.G6.01
+Name: Character state machine
+----------------------------------------------------
+CURRENT dependencies:
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.GK.01: Make a sprite jump with one block
+  * T14.GK.02: Move a sprite with arrow keys
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T08.G5.02: Chain conditions with AND, OR, NOT
+  * T14.G5.01: Implement jump with gravity and ground detection
+  * T14.G5.03: Layer sprites for foreground and background depth
+
+  (State machines build on complex conditionals and game mechanics from G5)
+
+----------------------------------------------------
+SKILL: T14.G6.06
+Name: Mode and pause manager
+----------------------------------------------------
+CURRENT dependencies:
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T14.GK.01: Make a sprite jump with one block
+
+ISSUES:
+  - All dependencies are G3 or lower (remove all)
+
+RECOMMENDED fix:
+  Dependencies:
+  * T06.G5.01: Use broadcasts to coordinate timing across sprites
+  * T08.G5.02: Chain conditions with AND, OR, NOT
+  * T14.G5.04: Build a simple HUD to display score and health
+
+  (Pause/mode systems require event coordination and state from G5)
+
+================================================================================
+COMMON PATTERNS ACROSS ALL TOPICS
+================================================================================
+
+1. KINDERGARTEN DEPENDENCIES TO REMOVE:
+   - T01.GK.07: Find the pattern that repeats
+   - T01.GK.08: Count how many times
+   - T02.GK.03: Match a flowchart symbol to what it means
+   - T02.GK.04: Put flowchart shapes in order to make a snack
+   - T03.GK.03: Pick which part of a recipe to do first
+   - T03.GK.04: Explain why one step must come before another
+   - T07.GK.03: Match "repeat" to a picture of bouncing
+   - T07.GK.04: Count how many times a character repeats an action
+   - T09.GK.01: Recognize that something can change
+   - T09.GK.02: Show before‑and‑after pictures of a changing value
+   - T14.GK.01: Make a sprite jump with one block
+   - T14.GK.02: Move a sprite with arrow keys
+
+2. GRADE 3 DEPENDENCIES TO REMOVE:
+   - T01.G3.01: Complete a simple script with missing blocks
+   - T01.G3.02: Match a story description to a code sequence
+   - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+   - T07.G3.01: Use a counted repeat loop
+   - T07.G3.02: Use "repeat until" for variable conditions
+   - T08.G3.01: Use a simple if in a script
+   - T09.G3.01: Create and use a numeric variable for score or count
+   - T09.G3.02: Use +, −, × in a simple calculation
+
+3. REPLACEMENT STRATEGY:
+   For each removed G3-or-lower dependency, ask:
+   a) Is this truly foundational? → Remove entirely (assumed knowledge)
+   b) Does it need a prerequisite? → Add the G4 or G5 equivalent
+   c) Is it cross-topic context? → Keep ONLY if it's G4-G6
+
+================================================================================
+VALIDATION CHECKLIST
+================================================================================
+
+After applying fixes, verify:
+
+1. ✓ No G6 skill depends on GK, G1, G2, or G3 skills
+2. ✓ All dependencies are from G4, G5, or G6
+3. ✓ Cross-topic dependencies are still appropriate
+4. ✓ Skills still have a clear learning progression
+5. ✓ No skill becomes "orphaned" (unreachable from earlier grades)
+6. ✓ Dependency chains are still logically sound
+
+================================================================================
+ESTIMATED EFFORT
+================================================================================
+
+Total skills to fix: 166 G6 skills
+Total dependencies to remove: ~584 (approximately 3-4 per skill)
+
+Automated approach:
+- Create script to parse allskills.md
+- Identify all G6 skills
+- For each dependency, check grade level
+- Remove if grade ≤ 3
+- Optionally suggest G4/G5 replacements based on topic patterns
+
+Manual review needed for:
+- Ensuring replacement dependencies are appropriate
+- Checking for unintended consequences
+- Validating learning progressions
+
+Time estimate:
+- Automated cleanup: 1-2 hours
+- Manual review: 4-6 hours
+- Testing and validation: 2-3 hours
+Total: 1-2 days of focused work
+
+================================================================================

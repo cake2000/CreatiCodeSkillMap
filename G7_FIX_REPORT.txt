@@ -1,0 +1,1731 @@
+================================================================================
+G7 SKILLS FIX REPORT
+================================================================================
+Date: 2025-11-20 12:40:24
+
+SUMMARY:
+  Total G7 skills: 168
+  Skills modified: 158
+  Transitive dependencies removed: 243
+  Missing dependencies added: 31
+  Total changes: 274
+
+================================================================================
+DETAILED CHANGES
+================================================================================
+
+SKILL: T01.G7.01
+TITLE: Identify the pattern in a given program
+
+  REMOVED 3 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.GK.07
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.GK.08
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.02
+TITLE: Choose a pattern to solve a problem
+
+  REMOVED 2 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.G3.01
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.03
+TITLE: Write pseudocode for a search or accumulation algorithm
+
+  REMOVED 3 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.GK.07
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.GK.08
+    - T04.G2.01
+      Reason: T04.G2.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.04
+TITLE: Compare efficiency of two algorithms qualitatively
+
+  REMOVED 2 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.G3.01
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.05
+TITLE: Design a set of edge‑case tests for an algorithm
+
+  REMOVED 2 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.G3.01
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.G3.01
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.06
+TITLE: Run an algorithm on edge cases and find failures
+
+  REMOVED 2 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.G3.01
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.07
+TITLE: Explain why an algorithm fails on a specific edge case
+
+  REMOVED 2 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.G3.01
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.08
+TITLE: Rewrite a naive algorithm using a better pattern
+
+  REMOVED 3 transitive dependencies:
+    - T01.GK.01
+      Reason: T01.GK.01 is implied by T01.GK.07
+    - T01.GK.07
+      Reason: T01.GK.07 is implied by T01.GK.08
+    - T04.G2.01
+      Reason: T04.G2.01 is implied by T07.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.01
+TITLE: Trace a step‑by‑step simulation algorithm
+
+  REMOVED 2 transitive dependencies:
+    - T02.GK.03
+      Reason: T02.GK.03 is implied by T02.GK.04
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.02
+TITLE: Extend a simulation trace and predict future behavior
+
+  REMOVED 1 transitive dependencies:
+    - T02.GK.03
+      Reason: T02.GK.03 is implied by T02.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.03
+TITLE: Create a flowchart for linear search or “find max”
+
+  REMOVED 1 transitive dependencies:
+    - T02.GK.03
+      Reason: T02.GK.03 is implied by T02.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.04
+TITLE: Read a flowchart for a simple sort and trace one pass
+
+  REMOVED 1 transitive dependencies:
+    - T02.GK.03
+      Reason: T02.GK.03 is implied by T02.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.05
+TITLE: Count steps for two algorithms on small inputs
+
+  REMOVED 1 transitive dependencies:
+    - T02.GK.03
+      Reason: T02.GK.03 is implied by T02.GK.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.06
+TITLE: Trace an algorithm to find a bug or edge case
+
+  REMOVED 1 transitive dependencies:
+    - T02.GK.03
+      Reason: T02.GK.03 is implied by T02.GK.04
+
+  ADDED 1 missing dependencies:
+    + T08.G3.01
+      Reason: Description mentions conditions but no T08 (Conditions) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.01
+TITLE: Draw an architecture diagram for a multi‑component project
+
+  REMOVED 1 transitive dependencies:
+    - T03.GK.03
+      Reason: T03.GK.03 is implied by T02.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.02
+TITLE: Map functional modules to architecture components
+
+  REMOVED 2 transitive dependencies:
+    - T03.GK.03
+      Reason: T03.GK.03 is implied by T03.GK.04
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.03
+TITLE: Compare two decompositions of the same project
+
+  REMOVED 2 transitive dependencies:
+    - T03.G1.01
+      Reason: T03.G1.01 is implied by T03.G1.02
+    - T03.GK.03
+      Reason: T03.GK.03 is implied by T03.GK.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.04
+TITLE: Propose an alternative decomposition to fix a planning problem
+
+  REMOVED 2 transitive dependencies:
+    - T03.GK.03
+      Reason: T03.GK.03 is implied by T03.GK.04
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.05
+TITLE: Design a test plan based on a project breakdown
+
+  REMOVED 2 transitive dependencies:
+    - T03.G1.01
+      Reason: T03.G1.01 is implied by T03.G1.02
+    - T03.GK.03
+      Reason: T03.GK.03 is implied by T03.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.06
+TITLE: Update a project plan after test results
+
+  REMOVED 1 transitive dependencies:
+    - T03.GK.03
+      Reason: T03.GK.03 is implied by T03.GK.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.01
+TITLE: Identify the main loop patterns in a simulation or game
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T08.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.02
+TITLE: Identify data structure patterns (lists, grids) in use
+
+  REMOVED 1 transitive dependencies:
+    - T04.G2.01
+      Reason: T04.G2.01 is implied by T08.G3.01
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.03
+TITLE: Design a solution by combining two known patterns
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.04
+TITLE: Trace a composite pattern and explain each part’s role
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.05
+TITLE: Simplify code by merging repeated patterns
+
+  REMOVED 1 transitive dependencies:
+    - T04.G2.01
+      Reason: T04.G2.01 is implied by T07.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.01
+TITLE: Perform a checklist‑based accessibility review of a project
+
+  REMOVED 2 transitive dependencies:
+    - T05.G1.01
+      Reason: T05.G1.01 is implied by T05.G1.02
+    - T05.GK.03
+      Reason: T05.GK.03 is implied by T05.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.02
+TITLE: Prioritize which accessibility issues to fix first
+
+  REMOVED 2 transitive dependencies:
+    - T05.G1.01
+      Reason: T05.G1.01 is implied by T05.G1.02
+    - T05.GK.03
+      Reason: T05.GK.03 is implied by T05.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.03
+TITLE: Identify potential unintended harms from a design
+
+  REMOVED 1 transitive dependencies:
+    - T05.GK.03
+      Reason: T05.GK.03 is implied by T05.GK.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.04
+TITLE: Propose one concrete mitigation per harm
+
+  REMOVED 2 transitive dependencies:
+    - T05.G1.01
+      Reason: T05.G1.01 is implied by T05.G1.02
+    - T05.GK.03
+      Reason: T05.GK.03 is implied by T05.GK.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.05
+TITLE: Interpret usage or feedback data to find UX problems
+
+  REMOVED 2 transitive dependencies:
+    - T05.G1.01
+      Reason: T05.G1.01 is implied by T05.G1.02
+    - T05.GK.03
+      Reason: T05.GK.03 is implied by T05.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.06
+TITLE: Choose design changes based on data patterns
+
+  REMOVED 2 transitive dependencies:
+    - T05.G1.01
+      Reason: T05.G1.01 is implied by T05.G1.02
+    - T05.GK.03
+      Reason: T05.GK.03 is implied by T05.GK.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T06.G7.01
+TITLE: Model program states and transitions using events
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.02
+
+  ADDED 1 missing dependencies:
+    + T09.G3.01
+      Reason: Description mentions variables/state but no T09 (Variables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T06.G7.02
+TITLE: Trace state changes in event‑driven code
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T06.G7.04
+TITLE: Compare tightly coupled vs broadcast‑based designs
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.01
+TITLE: Use loops to simulate motion over time
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T07.G3.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.02
+TITLE: Nested loops for 2D grids and tile maps
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T08.G3.01
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.03
+TITLE: Compare loop algorithms by counting steps
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T08.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.04
+TITLE: Loop patterns for counting and accumulation
+
+  REMOVED 2 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T08.G3.01
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T08.G7.01
+TITLE: Reason about fairness using conditions
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T08.G3.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T08.G7.02
+TITLE: Design tests for condition-heavy code
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T09.G7.01
+TITLE: Use variables to store and update state in simulations
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T09.G7.02
+TITLE: Use aggregate expressions (sum, average, min, max)
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.02
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T09.G7.03
+TITLE: Use variables in conditional logic with compound conditions
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T09.G7.04
+TITLE: Analyze how variable updates affect program behavior
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T10.G7.01
+TITLE: Design and populate a table for a real-world inventory or database
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T10.G7.02
+TITLE: Analyze a dataset to find patterns or outliers
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T10.G7.04
+TITLE: Use nested loops to analyze relationships between two datasets
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T08.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T11.G7.02
+TITLE: Design a set of related blocks for a subsystem
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T11.G7.04
+TITLE: Trace and debug complex block hierarchies
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T12.G7.01
+TITLE: Refactor long scripts into smaller, named subroutines
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+
+  ADDED 1 missing dependencies:
+    + T09.G3.01
+      Reason: Description mentions variables/state but no T09 (Variables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T12.G7.03
+TITLE: Create a code review checklist for clarity
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T12.G7.04
+TITLE: Document design decisions in code
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T09.G3.01
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T13.G7.01
+TITLE: Write comprehensive test cases for an algorithm
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T13.G7.02
+TITLE: Debug logic errors in complex programs
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T13.G7.03
+TITLE: Refactor for testability and clarity
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.01
+TITLE: Spatial partitioning (grid)
+
+  REMOVED 2 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+    - T14.GK.03
+      Reason: T14.GK.03 is implied by T14.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.02
+TITLE: Basic pathfinding
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.03
+TITLE: Weighted spawn scheduler
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+    - T14.GK.03
+      Reason: T14.GK.03 is implied by T14.GK.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.04
+TITLE: Clone budget profiler
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.05
+TITLE: Difficulty curves
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T15.G7.01
+TITLE: Scene Graph / Manager
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T15.G7.02
+TITLE: Lip Sync Logic
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T16.G7.01
+TITLE: Build a data collection interface (survey or questionnaire)
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T16.G7.02
+TITLE: Implement a search or filter interface
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T16.G7.03
+TITLE: Design an accessible interface for users with different abilities
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T16.G7.04
+TITLE: Create a help or tutorial interface
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.01
+TITLE: Launch a configurable projectile
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.02
+TITLE: Combine multiple forces simultaneously
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.03
+TITLE: Simulate drag or resistance
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.04
+TITLE: Build chains or stacks of physics objects
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.05
+TITLE: Instrument and graph motion data
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.06
+TITLE: Model a real-world physics scenario
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.07
+TITLE: Evaluate whether a simulation meets requirements
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T18.G7.01
+TITLE: Implement pathfinding or waypoint-based NPC movement
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T18.G7.02
+TITLE: Design collision response for bouncing or sliding
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T18.G7.03
+TITLE: Use 3D coordinates and distance calculations for game mechanics
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T18.G7.04
+TITLE: Implement a physics-based puzzle mechanic
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T18.G7.05
+TITLE: Script camera transitions for cutscenes
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.01
+TITLE: Balance starting conditions and scoring
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.02
+TITLE: Implement dynamic team assignment or matchmaking
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.03
+TITLE: Decide what data syncs vs stays local
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.04
+TITLE: Scale logic to handle variable player counts
+
+  REMOVED 4 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T06.G3.08
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.05
+TITLE: Display connection quality and apply fallbacks
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T20.G7.01
+TITLE: Compare efficiency of art algorithms
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T20.G7.02
+TITLE: Use while/repeat-until loops in art
+
+  REMOVED 2 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T07.G3.05
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T20.G7.03
+TITLE: Study parameter impact on aesthetics
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T20.G7.04
+TITLE: Analyze real generative artworks
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T20.G7.05
+TITLE: Implement iterative art rules (L-system lite)
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.01
+TITLE: Create a reusable prompt template library
+
+  REMOVED 1 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.02
+TITLE: Use ChatGPT to expand briefs before generating art
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.03
+TITLE: Audit AI imagery for representation and bias
+
+  REMOVED 3 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.01
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T08.G3.01
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.04
+TITLE: Blend AI frames with manual touch-ups for animation
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.05
+TITLE: Pair AI visuals with AI narration for immersive scenes
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T22.G7.01
+TITLE: Author a persona using system messages and few-shot turns
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T22.G7.02
+TITLE: Manage chat history and reset logic
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T22.G7.03
+TITLE: Capture slot values through UI widgets and inject them into prompts
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T22.G7.04
+TITLE: Add moderation guardrails and escalation paths
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T22.G7.05
+TITLE: User-test the chatbot for inclusivity and clarity
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.01
+TITLE: Define a reusable gesture dictionary
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.02
+TITLE: Require multimodal confirmation (voice + gesture)
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+    - T23.GK.02
+      Reason: T23.GK.02 is implied by T23.GK.03
+
+  ADDED 1 missing dependencies:
+    + T09.G3.01
+      Reason: Description mentions variables/state but no T09 (Variables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.03
+TITLE: Score a pose-based challenge with coaching tips
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+    - T23.GK.02
+      Reason: T23.GK.02 is implied by T23.GK.03
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.04
+TITLE: Monitor detection accuracy across different users
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T06.G3.08
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T06.G3.08
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.05
+TITLE: Build a calibration wizard for sensors
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+    - T23.GK.02
+      Reason: T23.GK.02 is implied by T23.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.06
+TITLE: Implement fairness safeguards for perception systems
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T06.G3.08
+    - T23.GK.02
+      Reason: T23.GK.02 is implied by T23.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.01
+TITLE: Create reusable XO prompt macros
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.02
+TITLE: Run an XO-led code review with evidence
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T08.G3.01
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.03
+TITLE: Combine XO storyboards with AI sprite generation
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.04
+TITLE: Enforce responsible-use rules for XO assistance
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.05
+TITLE: Use XO to coach peers with rubric-based feedback
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.01
+TITLE: Normalize repeating data into separate tables
+
+  REMOVED 2 transitive dependencies:
+    - T25.G1.01
+      Reason: T25.G1.01 is implied by T25.G1.02
+    - T25.GK.02
+      Reason: T25.GK.02 is implied by T25.GK.03
+
+  ADDED 1 missing dependencies:
+    + T07.G3.01
+      Reason: Description mentions loops but no T07 (Loops) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.02
+TITLE: Identify bias introduced by representation choices
+
+  REMOVED 2 transitive dependencies:
+    - T25.G1.01
+      Reason: T25.G1.01 is implied by T25.G1.02
+    - T25.GK.02
+      Reason: T25.GK.02 is implied by T25.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.03
+TITLE: Create JSON-like snippets to store structured state
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T25.GK.02
+      Reason: T25.GK.02 is implied by T25.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.04
+TITLE: Evaluate storage vs performance tradeoffs
+
+  REMOVED 2 transitive dependencies:
+    - T25.G1.01
+      Reason: T25.G1.01 is implied by T25.G1.02
+    - T25.GK.02
+      Reason: T25.GK.02 is implied by T25.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T26.G7.01
+TITLE: Build reusable data collection modules
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T26.G7.02
+TITLE: Monitor data quality in real time
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T26.G7.03
+TITLE: Document provenance for external datasets
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T26.G7.04
+TITLE: Evaluate bias risks introduced during collection
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.01
+TITLE: Build multi-chart dashboards with linked filters
+
+  REMOVED 2 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+    - T27.GK.02
+      Reason: T27.GK.02 is implied by T27.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.02
+TITLE: Conduct residual/error analysis
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+    - T27.GK.02
+      Reason: T27.GK.02 is implied by T27.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.03
+TITLE: Evaluate fairness metrics
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+    - T27.GK.02
+      Reason: T27.GK.02 is implied by T27.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.04
+TITLE: Craft executive summaries for stakeholders
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.01
+TITLE: Build agent-based simulations
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.02
+TITLE: Evaluate AI fairness using synthetic populations
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.03
+TITLE: Perform randomization tests (permutation tests)
+
+  REMOVED 2 transitive dependencies:
+    - T07.G3.01
+      Reason: T07.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.04
+TITLE: Communicate simulation assumptions & limits
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T07.G3.05
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.05
+TITLE: Trace how a simple agent learns from rewards
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T07.G3.05
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.01
+TITLE: Build keyword retrieval helpers (mini-RAG)
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.02
+TITLE: Engineer text features for classifiers
+
+  REMOVED 2 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.03
+TITLE: Audit text datasets for bias and coverage
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.04
+TITLE: Compare human vs XO summaries critically
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T09.G3.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.01
+TITLE: Analyze energy consumption & thermal limits
+
+  REMOVED 2 transitive dependencies:
+    - T30.G1.01
+      Reason: T30.G1.01 is implied by T30.G1.02
+    - T30.GK.02
+      Reason: T30.GK.02 is implied by T30.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.02
+TITLE: Design redundancy/fail-safes for sensors
+
+  REMOVED 1 transitive dependencies:
+    - T30.GK.02
+      Reason: T30.GK.02 is implied by T30.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.03
+TITLE: Design redundancy/fail-safes for AI sensors
+
+  REMOVED 1 transitive dependencies:
+    - T30.GK.02
+      Reason: T30.GK.02 is implied by T30.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.04
+TITLE: Compare CPUs, GPUs, and TPUs for AI workloads
+
+  REMOVED 2 transitive dependencies:
+    - T30.G1.01
+      Reason: T30.G1.01 is implied by T30.G1.02
+    - T30.GK.02
+      Reason: T30.GK.02 is implied by T30.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.05
+TITLE: Debate privacy implications of AI-powered sensors
+
+  REMOVED 2 transitive dependencies:
+    - T30.G1.01
+      Reason: T30.G1.01 is implied by T30.G1.02
+    - T30.GK.02
+      Reason: T30.GK.02 is implied by T30.GK.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.01
+TITLE: Model a distributed multiplayer server
+
+  REMOVED 2 transitive dependencies:
+    - T02.G3.01
+      Reason: T02.G3.01 is implied by T31.G5.01
+    - T31.G5.01
+      Reason: T31.G5.01 is implied by T31.G6.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.02
+TITLE: Design a protocol for multiplayer state sync
+
+  REMOVED 2 transitive dependencies:
+    - T31.G5.01
+      Reason: T31.G5.01 is implied by T31.G6.04
+    - T31.G5.02
+      Reason: T31.G5.02 is implied by T31.G6.04
+
+  ADDED 1 missing dependencies:
+    + T10.G3.01
+      Reason: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.03
+TITLE: Compare network topology options
+
+  REMOVED 2 transitive dependencies:
+    - T31.G5.01
+      Reason: T31.G5.01 is implied by T31.G6.04
+    - T31.G5.02
+      Reason: T31.G5.02 is implied by T31.G6.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.04
+TITLE: Compare centralized servers with peer-to-peer networks
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T31.G6.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.05
+TITLE: Analyze societal impacts of networked systems
+
+  REMOVED 2 transitive dependencies:
+    - T04.G2.01
+      Reason: T04.G2.01 is implied by T31.G6.04
+    - T31.G5.01
+      Reason: T31.G5.01 is implied by T31.G6.04
+
+--------------------------------------------------------------------------------
+
+SKILL: T32.G7.01
+TITLE: Analyze encryption basics (Caesar cipher)
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T32.G7.02
+TITLE: Simulate password cracking attempts
+
+  REMOVED 1 transitive dependencies:
+    - T32.G1.01
+      Reason: T32.G1.01 is implied by T32.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T32.G7.04
+TITLE: Analyze AI-powered surveillance ethics and societal impacts
+
+  REMOVED 1 transitive dependencies:
+    - T32.G1.01
+      Reason: T32.G1.01 is implied by T32.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.01
+TITLE: Securely store and reference service credentials (conceptual)
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T10.G3.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.02
+TITLE: Build wrappers that combine multiple services
+
+  REMOVED 2 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T10.G3.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.03
+TITLE: Compare service options and pick the right tool
+
+  REMOVED 1 transitive dependencies:
+    - T08.G3.01
+      Reason: T08.G3.01 is implied by T10.G3.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.04
+TITLE: Implement caching/memoization for repeated requests
+
+  REMOVED 1 transitive dependencies:
+    - T09.G3.01
+      Reason: T09.G3.01 is implied by T10.G3.03
+
+--------------------------------------------------------------------------------
+
+SKILL: T34.G7.01
+TITLE: Research AI history milestones
+
+  REMOVED 1 transitive dependencies:
+    - T34.G1.01
+      Reason: T34.G1.01 is implied by T34.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T34.G7.02
+TITLE: Evaluate technology policies over time
+
+  REMOVED 1 transitive dependencies:
+    - T34.G1.01
+      Reason: T34.G1.01 is implied by T34.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.01
+TITLE: Conduct comprehensive bias audits across T21-T24 AI features
+
+  REMOVED 1 transitive dependencies:
+    - T35.G1.01
+      Reason: T35.G1.01 is implied by T35.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.02
+TITLE: Explore unintended consequences of new tech
+
+  REMOVED 1 transitive dependencies:
+    - T35.G1.01
+      Reason: T35.G1.01 is implied by T35.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.03
+TITLE: Evaluate transparency vs security tensions
+
+  REMOVED 1 transitive dependencies:
+    - T35.G1.01
+      Reason: T35.G1.01 is implied by T35.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.04
+TITLE: Analyze societal impacts of AI perception technologies (Pairing with T23)
+
+  REMOVED 1 transitive dependencies:
+    - T35.G1.01
+      Reason: T35.G1.01 is implied by T35.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.05
+TITLE: Debate ethical implications of AI media generation (Pairing with T21)
+
+  REMOVED 1 transitive dependencies:
+    - T35.G1.01
+      Reason: T35.G1.01 is implied by T35.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.06
+TITLE: Facilitate community discussions on AI-powered tech policy
+
+  REMOVED 1 transitive dependencies:
+    - T35.G1.01
+      Reason: T35.G1.01 is implied by T35.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T36.G7.01
+TITLE: Interview diverse technologists about AI ethics and equity
+
+  REMOVED 1 transitive dependencies:
+    - T36.G1.01
+      Reason: T36.G1.01 is implied by T36.G1.02
+
+--------------------------------------------------------------------------------
+
+SKILL: T36.G7.02
+TITLE: Design cross-functional team diagrams
+
+  REMOVED 1 transitive dependencies:
+    - T06.G3.01
+      Reason: T06.G3.01 is implied by T09.G3.01
+
+--------------------------------------------------------------------------------
+
+SKILL: T36.G7.03
+TITLE: Facilitate inclusive collaboration
+
+  REMOVED 1 transitive dependencies:
+    - T36.G1.01
+      Reason: T36.G1.01 is implied by T36.G1.02
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,256 @@
+================================================================================
+GRADE 5 SKILLS DEPENDENCY ANALYSIS
+================================================================================
+
+BASIC STATISTICS
+--------------------------------------------------------------------------------
+Total G5 Skills: 172
+Total Dependencies: 320
+Average Dependencies per Skill: 1.86
+Skills with Dependencies: 172 (100.0%)
+Skills without Dependencies: 0 (0.0%)
+
+DEPENDENCIES BY GRADE
+--------------------------------------------------------------------------------
+G1: 36 dependencies
+G2: 2 dependencies
+G3: 201 dependencies
+G4: 80 dependencies
+G5: 1 dependencies
+
+DEPENDENCIES BY TOPIC (Top 20)
+--------------------------------------------------------------------------------
+T09: 55 dependencies
+T07: 47 dependencies
+T06: 44 dependencies
+T08: 40 dependencies
+T01: 34 dependencies
+T10: 19 dependencies
+T12: 9 dependencies
+T11: 7 dependencies
+T28: 7 dependencies
+T29: 7 dependencies
+T30: 7 dependencies
+T32: 6 dependencies
+T35: 5 dependencies
+T05: 4 dependencies
+T14: 4 dependencies
+T25: 4 dependencies
+T34: 4 dependencies
+T03: 3 dependencies
+T26: 3 dependencies
+T02: 2 dependencies
+
+MOST REFERENCED SKILLS (Top 30)
+--------------------------------------------------------------------------------
+T07.G3.05: referenced 38 times
+T08.G3.05: referenced 28 times
+T06.G3.08: referenced 25 times
+T01.G3.01: referenced 22 times
+T09.G3.04: referenced 21 times
+T09.G3.01: referenced 20 times
+T01.G3.02: referenced 12 times
+T10.G3.03: referenced 10 times
+T09.G4.08: referenced 8 times
+T06.G3.01: referenced 7 times
+T06.G4.06: referenced 6 times
+T09.G4.07: referenced 6 times
+T06.G4.05: referenced 5 times
+T10.G4.06: referenced 5 times
+T08.G3.01: referenced 4 times
+T07.G4.06: referenced 4 times
+T08.G4.07: referenced 4 times
+T08.G4.08: referenced 4 times
+T10.G4.05: referenced 4 times
+T11.G4.05: referenced 4 times
+T12.G4.03: referenced 4 times
+T12.G4.04: referenced 4 times
+T14.G3.01: referenced 4 times
+T28.G4.04: referenced 4 times
+T29.G4.04: referenced 4 times
+T03.G1.02: referenced 3 times
+T05.G1.02: referenced 3 times
+T07.G4.05: referenced 3 times
+T11.G4.04: referenced 3 times
+T25.G1.01: referenced 3 times
+
+G5 SKILLS BY DEPENDENCY COUNT
+--------------------------------------------------------------------------------
+
+3 Dependencies (19 skills):
+  - T05.G5.05: Plan how to test whether a design meets user needs
+  - T06.G5.04: Trace event and broadcast order for a scenario
+  - T08.G5.04: Trace complex decision logic
+  - T09.G5.06: Trace complex variable assignments and expressions
+  - T09.G5.08: Trace an accumulator that sums values
+  - T12.G5.02: Document code functionality and choices
+  - T14.G5.02: Control jump timing
+  - T16.G5.01: Create a multi‑screen app with a navigation interface
+  - T16.G5.03: Build a leaderboard or high‑score display
+  - T16.G5.04: Implement a responsive HUD that reacts to game state
+  - T17.G5.03: Use horizontal speed and friction variables
+  - T17.G5.04: Code a manual bounce with energy loss
+  - T17.G5.11: Debug missing physics setup
+  - T19.G5.02: Build a ready-up indicator before the game starts
+  - T19.G5.05: Diagnose and respond to connection status changes
+  - T22.G5.01: Flag risky vs safe chatbot prompts
+  - T24.G5.04: Use the AI image library to collect matching assets
+  - T24.G5.05: Reject unsafe or off-spec XO suggestions
+  - T31.G5.02: Decide when apps need the internet vs work offline
+
+2 Dependencies (110 skills):
+  - T01.G5.04: Trace a search algorithm using loops and variables
+  - T01.G5.05: Determine whether an algorithm is correct for all inputs
+  - T01.G5.07: Debug an algorithm that mis‑handles a simple edge case
+  - T01.G5.08: Add checks to handle edge cases
+  - T01.G5.10: Rewrite a long algorithm using loops or helper steps
+  - T02.G5.01: Read a multi‑branch flowchart and trace a path
+  - T02.G5.02: Design a multi‑branch flowchart for a decision task
+  - T02.G5.03: Trace a flowchart with state tracking using a trace table
+  - T02.G5.04: Create a trace table for a flowchart with accumulation
+  - T03.G5.01: Create a feature list and subtask breakdown
+  - T03.G5.02: Draw a high‑level project map
+  - T03.G5.05: Compare two project plans for the same idea
+  - T05.G5.01: Write clear user needs and requirements for a small app
+  - T05.G5.02: Create a low‑fidelity sketch for a user story
+  - T05.G5.03: Identify variables and initial values for a simulation
+  - T06.G5.02: Add a new event‑triggered behavior to an existing game
+  - T06.G5.03: Design a simple broadcast sequence for level start/end
+  - T06.G5.05: Find and fix conflicting event scripts
+  - T06.G5.06: Group scripts by event type to improve organization
+  - T07.G5.01: Simulate repeated experiments with a loop
+  - T07.G5.02: Build a list with a loop
+  - T07.G5.04: Nested loops for advanced patterns or tilings
+  - T08.G5.01: Design multi-branch decision logic
+  - T08.G5.02: Use NOT to invert conditions
+  - T08.G5.03: Combine three or more conditions
+  - T09.G5.01: Use multiple variables together in expressions
+  - T09.G5.02: Use string variables and concatenation
+  - T09.G5.04: Use expressions involving lists (length, indexing)
+  - T09.G5.05: Use variables to track cumulative statistics
+  - T10.G5.01: Create and populate a table variable
+  - T10.G5.02: Access table cells by row and column
+  - T10.G5.03: Update or insert rows in a table
+  - T10.G5.05: Search and filter table data
+  - T11.G5.02: Define a simple helper with one parameter
+  - T11.G5.03: Decide between a parameter and a call to a separate block
+  - T11.G5.04: Analyze a modular program structure
+  - T12.G5.01: Create external documentation for a project
+  - T12.G5.03: Organize a multi-feature project with sections
+  - T12.G5.04: Review and improve another student's code organization
+  - T13.G5.04: Modify a program to improve reliability and correctness
+  - T14.G5.01: **[Engine Skill]** Configure gravity and weight parameters
+  - T14.G5.03: Fix ground collisions
+  - T14.G5.04: Script viewport pans
+  - T14.G5.05: Lock viewport to the player
+  - T14.G5.06: Pin HUD to the screen
+  - T14.G5.07: Spawn near the viewport
+  - T14.G5.08: Timed waves
+  - T14.G5.09: High score list
+  - T14.G5.10: Inventory system
+  - T15.G5.01: Broadcast scene change
+  - T15.G5.02: Broadcast specific actions
+  - T15.G5.03: Simulated Camera Pan
+  - T15.G5.04: Layering logic
+  - T15.G5.05: Join text strings
+  - T15.G5.06: Text effects (Typewriter)
+  - T15.G5.07: Track story choices
+  - T15.G5.08: Conditional endings
+  - T16.G5.02: Design a form with multiple inputs and validation
+  - T17.G5.01: Choose manual vs engine-based physics
+  - T17.G5.02: Track gravity with velocity variables
+  - T17.G5.05: Initialize a 2D physics world
+  - T17.G5.06: Attach a dynamic body to a sprite
+  - T17.G5.07: Build static boundaries for floors and walls
+  - T17.G5.08: Apply an impulse to jump or push
+  - T17.G5.09: **[Engine Skill]** Configure gravity and mass parameters
+  - T17.G5.10: Trace simple 2D physics motion
+  - T18.G5.01: Initialize a 3D physics world
+  - T18.G5.02: Attach static and dynamic physics bodies
+  - T18.G5.05: Apply detailed textures or materials to surfaces
+  - T18.G5.06: Add global fog or particle effects for atmosphere
+  - T19.G5.01: Host or join a CreatiCode multiplayer lobby
+  - T19.G5.03: Implement shared quick chat or emote buttons
+  - T19.G5.04: Display a synchronized scoreboard for the current session
+  - T21.G5.01: Plan which assets should be AI-made vs hand-made
+  - T23.G5.01: Compare what people see vs what pixels show
+  - T23.G5.02: Explain why an AI might mis-hear or mis-see
+  - T23.G5.03: Choose safe ways to handle sensor data
+  - T23.G5.04: Identify when AI sensing might be unfair
+  - T24.G5.01: Read and interpret XO’s interface cues
+  - T24.G5.02: Ask XO for a three-step project plan
+  - T25.G5.01: Model multi-type game state
+  - T25.G5.02: Convert messy inputs into canonical formats
+  - T25.G5.03: Decide when to upgrade from list to table
+  - T26.G5.01: Instrument a project with runtime logs
+  - T26.G5.02: Plan sampling strategies
+  - T26.G5.03: Validate data entry with error checks
+  - T26.G5.04: Store logs in CreatiCode tables for export
+  - T27.G5.01: Build interactive dashboards with widgets
+  - T27.G5.03: Compare data from two sensors or sources
+  - T27.G5.04: Present findings using slides or mini reports
+  - T28.G5.02: Randomly assign participants to conditions
+  - T28.G5.03: Use Monte Carlo to estimate an area or probability
+  - T28.G5.04: Document simulation plans before coding
+  - T29.G5.02: Build stop-word filters and keyword lists
+  - T29.G5.03: Measure simple sentiment heuristics
+  - T29.G5.04: Map story descriptions into AI prompt slots
+  - T30.G5.01: Match CreatiCode AI features to hardware requirements
+  - T30.G5.02: Plan safe device-handling procedures for group work
+  - T30.G5.04: Relate hardware choices to accessibility outcomes
+  - T32.G5.01: Analyze social engineering tactics
+  - T32.G5.02: Evaluate terms of service/privacy policies (kid-friendly summaries)
+  - T32.G5.03: Secure AI training data and outputs
+  - T34.G5.01: Investigate social movements linked to computing
+  - T34.G5.02: Compare invention timelines in multiple industries
+  - T34.G5.03: Conduct interviews with tech users
+  - T35.G5.01: Examine global impacts of technology
+  - T35.G5.02: Debate digital well-being scenarios
+  - T35.G5.03: Analyze AI's differential impacts on workers and communities
+  - T36.G5.02: Follow a plan-build-feedback cycle
+  - T36.G5.03: Evaluate inclusion in tech stories
+
+1 Dependencies (43 skills):
+  - T01.G5.01: Match a word description to a flowchart
+  - T01.G5.02: Convert a flowchart or pseudocode into code
+  - T01.G5.03: Convert a short program into pseudocode
+  - T01.G5.06: Compare two algorithms for step counts (efficiency)
+  - T01.G5.09: Explain why an algorithm is correct using loops and variables
+  - T02.G5.05: Write pseudocode for a loop‑based algorithm
+  - T02.G5.06: Compare two algorithms for the same task
+  - T03.G5.03: Identify task dependencies in a project plan
+  - T03.G5.04: Flag high‑risk or unclear tasks
+  - T04.G5.01: Recognize a counter update pattern
+  - T04.G5.02: Recognize an accumulator (sum/concatenate) pattern
+  - T04.G5.03: Recognize a linear search pattern
+  - T04.G5.04: Recognize a filter‑and‑collect pattern
+  - T04.G5.05: Compare solutions that use a pattern vs those that don’t
+  - T05.G5.04: Draft simple update rules for a simulation
+  - T05.G5.06: Plan what to measure in a simulation experiment
+  - T06.G5.01: Identify standard event patterns in a small game
+  - T07.G5.03: Use loops to compute aggregates
+  - T09.G5.03: Use variables to configure behavior (parameters without functions)
+  - T09.G5.07: Trace a counter variable in a loop
+  - T10.G5.04: Loop through table rows to compute aggregates
+  - T11.G5.01: Identify subproblems that deserve their own helper
+  - T13.G5.01: Debug programs using tracing and logging
+  - T13.G5.02: Handle invalid or edge case input
+  - T13.G5.03: Create and follow a test plan
+  - T18.G5.03: Detect physics collisions to collect items
+  - T18.G5.04: Use nested loops to arrange 3D objects in grids
+  - T20.G5.01: **[Technical Skill]** Implement data-driven visualization algorithms
+  - T20.G5.02: Animate a pattern with a counter variable
+  - T20.G5.03: Make art respond to mouse or keys
+  - T20.G5.04: Create fractal-like nested patterns
+  - T20.G5.05: Explain data-to-visual design choices
+  - T24.G5.03: Turn an XO suggestion into starter code safely
+  - T25.G5.04: Encode categorical values with symbols or enums
+  - T28.G5.01: Simulate compound events (two dice)
+  - T29.G5.01: Structure chat logs into tables
+  - T30.G5.03: Explain how different sensors collect data
+  - T31.G5.01: Trace how a device reaches an online service
+  - T31.G5.03: Save and reload a preference using a cloud variable
+  - T31.G5.04: Configure a session ID to isolate practice data
+  - T31.G5.05: Interpret connection status indicators in CreatiCode
+  - T32.G5.04: Create backup plans for digital work
+  - T36.G5.01: Map personal interests to tech pathways

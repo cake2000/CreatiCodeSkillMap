@@ -1,0 +1,5645 @@
+{
+  "total_skills": 172,
+  "total_issues": 307,
+  "critical_issues": 0,
+  "high_issues": 226,
+  "medium_issues": 81,
+  "skills": {
+    "T01.G5.01": {
+      "name": "Match a word description to a flowchart",
+      "prerequisites": [
+        "T01.G3.02",
+        "T01.GK.08"
+      ]
+    },
+    "T01.G5.02": {
+      "name": "Convert a flowchart or pseudocode into code",
+      "prerequisites": [
+        "T01.GK.08",
+        "T09.G3.01"
+      ]
+    },
+    "T01.G5.03": {
+      "name": "Convert a short program into pseudocode",
+      "prerequisites": [
+        "T09.G3.01"
+      ]
+    },
+    "T01.G5.04": {
+      "name": "Trace a search algorithm using loops and variables",
+      "prerequisites": [
+        "T01.G3.02",
+        "T01.GK.08",
+        "T09.G3.01"
+      ]
+    },
+    "T01.G5.05": {
+      "name": "Determine whether an algorithm is correct for all inputs",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T01.GK.08"
+      ]
+    },
+    "T01.G5.06": {
+      "name": "Compare two algorithms for step counts (efficiency)",
+      "prerequisites": [
+        "T01.GK.08",
+        "T09.G3.01"
+      ]
+    },
+    "T01.G5.07": {
+      "name": "Debug an algorithm that mis\u2011handles a simple edge case",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T01.GK.08"
+      ]
+    },
+    "T01.G5.08": {
+      "name": "Add checks to handle edge cases",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T01.GK.08"
+      ]
+    },
+    "T01.G5.09": {
+      "name": "Explain why an algorithm is correct using loops and variables",
+      "prerequisites": [
+        "T01.GK.08",
+        "T09.G3.01"
+      ]
+    },
+    "T01.G5.10": {
+      "name": "Rewrite a long algorithm using loops or helper steps",
+      "prerequisites": [
+        "T01.G3.02",
+        "T01.GK.08",
+        "T07.G3.01"
+      ]
+    },
+    "T02.G5.01": {
+      "name": "Read a multi\u2011branch flowchart and trace a path",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T02.GK.04"
+      ]
+    },
+    "T02.G5.02": {
+      "name": "Design a multi\u2011branch flowchart for a decision task",
+      "prerequisites": [
+        "T06.G3.01",
+        "T02.G3.01",
+        "T02.GK.04"
+      ]
+    },
+    "T02.G5.03": {
+      "name": "Trace a flowchart with state tracking using a trace table",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T02.GK.04"
+      ]
+    },
+    "T02.G5.04": {
+      "name": "Create a trace table for a flowchart with accumulation",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T02.GK.04"
+      ]
+    },
+    "T02.G5.05": {
+      "name": "Write pseudocode for a loop\u2011based algorithm",
+      "prerequisites": [
+        "T02.GK.04",
+        "T08.G3.01"
+      ]
+    },
+    "T02.G5.06": {
+      "name": "Compare two algorithms for the same task",
+      "prerequisites": [
+        "T02.GK.04",
+        "T09.G3.01"
+      ]
+    },
+    "T03.G5.01": {
+      "name": "Create a feature list and subtask breakdown",
+      "prerequisites": [
+        "T03.G3.01",
+        "T03.GK.04",
+        "T06.G3.01"
+      ]
+    },
+    "T03.G5.02": {
+      "name": "Draw a high\u2011level project map",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T03.GK.04"
+      ]
+    },
+    "T03.G5.03": {
+      "name": "Identify task dependencies in a project plan",
+      "prerequisites": [
+        "T03.G3.01",
+        "T03.GK.04"
+      ]
+    },
+    "T03.G5.04": {
+      "name": "Flag high\u2011risk or unclear tasks",
+      "prerequisites": [
+        "T03.G3.01",
+        "T03.GK.04"
+      ]
+    },
+    "T03.G5.05": {
+      "name": "Compare two project plans for the same idea",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T03.GK.04"
+      ]
+    },
+    "T04.G5.01": {
+      "name": "Recognize a counter update pattern",
+      "prerequisites": [
+        "T04.GK.04",
+        "T09.G3.01"
+      ]
+    },
+    "T04.G5.02": {
+      "name": "Recognize an accumulator (sum/concatenate) pattern",
+      "prerequisites": [
+        "T04.GK.03",
+        "T04.GK.04",
+        "T09.G3.01"
+      ]
+    },
+    "T04.G5.03": {
+      "name": "Recognize a linear search pattern",
+      "prerequisites": [
+        "T04.GK.03",
+        "T04.GK.04",
+        "T08.G3.01"
+      ]
+    },
+    "T04.G5.04": {
+      "name": "Recognize a filter\u2011and\u2011collect pattern",
+      "prerequisites": [
+        "T04.GK.03",
+        "T04.GK.04",
+        "T08.G3.01"
+      ]
+    },
+    "T04.G5.05": {
+      "name": "Compare solutions that use a pattern vs those that don\u2019t",
+      "prerequisites": [
+        "T04.GK.04",
+        "T09.G3.01"
+      ]
+    },
+    "T05.G5.01": {
+      "name": "Write clear user needs and requirements for a small app",
+      "prerequisites": [
+        "T05.G3.01",
+        "T05.GK.04",
+        "T06.G3.01"
+      ]
+    },
+    "T05.G5.02": {
+      "name": "Create a low\u2011fidelity sketch for a user story",
+      "prerequisites": [
+        "T05.G3.01",
+        "T05.GK.04",
+        "T06.G3.01"
+      ]
+    },
+    "T05.G5.03": {
+      "name": "Identify variables and initial values for a simulation",
+      "prerequisites": [
+        "T01.G3.01",
+        "T05.GK.04",
+        "T09.G3.01"
+      ]
+    },
+    "T05.G5.04": {
+      "name": "Draft simple update rules for a simulation",
+      "prerequisites": [
+        "T05.GK.04",
+        "T09.G3.01"
+      ]
+    },
+    "T05.G5.05": {
+      "name": "Plan how to test whether a design meets user needs",
+      "prerequisites": [
+        "T04.G3.01",
+        "T05.G3.01",
+        "T05.GK.04",
+        "T06.G3.01"
+      ]
+    },
+    "T05.G5.06": {
+      "name": "Plan what to measure in a simulation experiment",
+      "prerequisites": [
+        "T05.G3.01",
+        "T05.GK.04"
+      ]
+    },
+    "T06.G5.01": {
+      "name": "Identify standard event patterns in a small game",
+      "prerequisites": [
+        "T06.G4.06"
+      ]
+    },
+    "T06.G5.02": {
+      "name": "Add a new event\u2011triggered behavior to an existing game",
+      "prerequisites": [
+        "T06.G4.05",
+        "T06.G4.06"
+      ]
+    },
+    "T06.G5.03": {
+      "name": "Design a simple broadcast sequence for level start/end",
+      "prerequisites": [
+        "T06.G4.05",
+        "T06.G4.06"
+      ]
+    },
+    "T06.G5.04": {
+      "name": "Trace event and broadcast order for a scenario",
+      "prerequisites": [
+        "T01.G3.01",
+        "T06.G4.05",
+        "T06.G4.06"
+      ]
+    },
+    "T06.G5.05": {
+      "name": "Find and fix conflicting event scripts",
+      "prerequisites": [
+        "T06.G4.05",
+        "T06.G4.06"
+      ]
+    },
+    "T06.G5.06": {
+      "name": "Group scripts by event type to improve organization",
+      "prerequisites": [
+        "T06.G4.05",
+        "T06.G4.06"
+      ]
+    },
+    "T07.G5.01": {
+      "name": "Simulate repeated experiments with a loop",
+      "prerequisites": [
+        "T07.G4.05",
+        "T07.G4.06"
+      ]
+    },
+    "T07.G5.02": {
+      "name": "Build a list with a loop",
+      "prerequisites": [
+        "T07.G4.05",
+        "T07.G4.06"
+      ]
+    },
+    "T07.G5.03": {
+      "name": "Use loops to compute aggregates",
+      "prerequisites": [
+        "T07.G4.06"
+      ]
+    },
+    "T07.G5.04": {
+      "name": "Nested loops for advanced patterns or tilings",
+      "prerequisites": [
+        "T07.G4.05",
+        "T07.G4.06"
+      ]
+    },
+    "T08.G5.01": {
+      "name": "Design multi-branch decision logic",
+      "prerequisites": [
+        "T08.G4.07",
+        "T08.G4.08"
+      ]
+    },
+    "T08.G5.02": {
+      "name": "Use NOT to invert conditions",
+      "prerequisites": [
+        "T08.G4.07",
+        "T08.G4.08"
+      ]
+    },
+    "T08.G5.03": {
+      "name": "Combine three or more conditions",
+      "prerequisites": [
+        "T08.G4.07",
+        "T08.G4.08"
+      ]
+    },
+    "T08.G5.04": {
+      "name": "Trace complex decision logic",
+      "prerequisites": [
+        "T01.G3.01",
+        "T08.G4.07",
+        "T08.G4.08"
+      ]
+    },
+    "T09.G5.01": {
+      "name": "Use multiple variables together in expressions",
+      "prerequisites": [
+        "T09.G4.07",
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.02": {
+      "name": "Use string variables and concatenation",
+      "prerequisites": [
+        "T09.G4.07",
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.03": {
+      "name": "Use variables to configure behavior (parameters without functions)",
+      "prerequisites": [
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.04": {
+      "name": "Use expressions involving lists (length, indexing)",
+      "prerequisites": [
+        "T09.G4.07",
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.05": {
+      "name": "Use variables to track cumulative statistics",
+      "prerequisites": [
+        "T09.G4.07",
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.06": {
+      "name": "Trace complex variable assignments and expressions",
+      "prerequisites": [
+        "T01.G3.01",
+        "T09.G4.07",
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.07": {
+      "name": "Trace a counter variable in a loop",
+      "prerequisites": [
+        "T09.G4.08"
+      ]
+    },
+    "T09.G5.08": {
+      "name": "Trace an accumulator that sums values",
+      "prerequisites": [
+        "T01.G3.01",
+        "T09.G4.07",
+        "T09.G4.08"
+      ]
+    },
+    "T10.G5.01": {
+      "name": "Create and populate a table variable",
+      "prerequisites": [
+        "T10.G4.05",
+        "T10.G4.06"
+      ]
+    },
+    "T10.G5.02": {
+      "name": "Access table cells by row and column",
+      "prerequisites": [
+        "T10.G4.05",
+        "T10.G4.06"
+      ]
+    },
+    "T10.G5.03": {
+      "name": "Update or insert rows in a table",
+      "prerequisites": [
+        "T10.G4.05",
+        "T10.G4.06"
+      ]
+    },
+    "T10.G5.04": {
+      "name": "Loop through table rows to compute aggregates",
+      "prerequisites": [
+        "T10.G4.06"
+      ]
+    },
+    "T10.G5.05": {
+      "name": "Search and filter table data",
+      "prerequisites": [
+        "T10.G4.05",
+        "T10.G4.06"
+      ]
+    },
+    "T11.G5.01": {
+      "name": "Identify subproblems that deserve their own helper",
+      "prerequisites": [
+        "T11.G4.05"
+      ]
+    },
+    "T11.G5.02": {
+      "name": "Define a simple helper with one parameter",
+      "prerequisites": [
+        "T11.G4.04",
+        "T11.G4.05"
+      ]
+    },
+    "T11.G5.03": {
+      "name": "Decide between a parameter and a call to a separate block",
+      "prerequisites": [
+        "T11.G4.04",
+        "T11.G4.05"
+      ]
+    },
+    "T11.G5.04": {
+      "name": "Analyze a modular program structure",
+      "prerequisites": [
+        "T11.G4.04",
+        "T11.G4.05"
+      ]
+    },
+    "T12.G5.01": {
+      "name": "Create external documentation for a project",
+      "prerequisites": [
+        "T12.G4.03",
+        "T12.G4.04"
+      ]
+    },
+    "T12.G5.02": {
+      "name": "Document code functionality and choices",
+      "prerequisites": [
+        "T12.G3.01",
+        "T12.G4.03",
+        "T12.G4.04"
+      ]
+    },
+    "T12.G5.03": {
+      "name": "Organize a multi-feature project with sections",
+      "prerequisites": [
+        "T12.G4.03",
+        "T12.G4.04"
+      ]
+    },
+    "T12.G5.04": {
+      "name": "Review and improve another student's code organization",
+      "prerequisites": [
+        "T12.G4.03",
+        "T12.G4.04"
+      ]
+    },
+    "T13.G5.01": {
+      "name": "Debug programs using tracing and logging",
+      "prerequisites": [
+        "T09.G3.01",
+        "T13.GK.03"
+      ]
+    },
+    "T13.G5.02": {
+      "name": "Handle invalid or edge case input",
+      "prerequisites": [
+        "T08.G3.01",
+        "T13.GK.02",
+        "T13.GK.03"
+      ]
+    },
+    "T13.G5.03": {
+      "name": "Create and follow a test plan",
+      "prerequisites": [
+        "T01.G3.01",
+        "T13.GK.02",
+        "T13.GK.03"
+      ]
+    },
+    "T13.G5.04": {
+      "name": "Modify a program to improve reliability and correctness",
+      "prerequisites": [
+        "T06.G3.01",
+        "T13.G4.01",
+        "T13.GK.02",
+        "T13.GK.03"
+      ]
+    },
+    "T14.G5.01": {
+      "name": "**[Engine Skill]** Configure gravity and weight parameters",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T14.G5.02": {
+      "name": "Control jump timing",
+      "prerequisites": [
+        "T06.G3.02",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T14.GK.03"
+      ]
+    },
+    "T14.G5.03": {
+      "name": "Fix ground collisions",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T14.GK.03"
+      ]
+    },
+    "T14.G5.04": {
+      "name": "Script viewport pans",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T14.G5.05": {
+      "name": "Lock viewport to the player",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T14.GK.03"
+      ]
+    },
+    "T14.G5.06": {
+      "name": "Pin HUD to the screen",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T14.GK.03"
+      ]
+    },
+    "T14.G5.07": {
+      "name": "Spawn near the viewport",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T14.G5.08": {
+      "name": "Timed waves",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T14.G5.09": {
+      "name": "High score list",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T14.GK.03"
+      ]
+    },
+    "T14.G5.10": {
+      "name": "Inventory system",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T15.G5.01": {
+      "name": "Broadcast scene change",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T15.G5.02": {
+      "name": "Broadcast specific actions",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05",
+        "T15.GK.02"
+      ]
+    },
+    "T15.G5.03": {
+      "name": "Simulated Camera Pan",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T15.G5.04": {
+      "name": "Layering logic",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T15.G5.05": {
+      "name": "Join text strings",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T15.G5.06": {
+      "name": "Text effects (Typewriter)",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T15.G5.07": {
+      "name": "Track story choices",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T15.G5.08": {
+      "name": "Conditional endings",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05"
+      ]
+    },
+    "T16.G5.01": {
+      "name": "Create a multi\u2011screen app with a navigation interface",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.04"
+      ]
+    },
+    "T16.G5.02": {
+      "name": "Design a form with multiple inputs and validation",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05"
+      ]
+    },
+    "T16.G5.03": {
+      "name": "Build a leaderboard or high\u2011score display",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.04"
+      ]
+    },
+    "T16.G5.04": {
+      "name": "Implement a responsive HUD that reacts to game state",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.04"
+      ]
+    },
+    "T17.G5.01": {
+      "name": "Choose manual vs engine-based physics",
+      "prerequisites": [
+        "T01.G3.01",
+        "T07.G3.05"
+      ]
+    },
+    "T17.G5.02": {
+      "name": "Track gravity with velocity variables",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.03": {
+      "name": "Use horizontal speed and friction variables",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.04": {
+      "name": "Code a manual bounce with energy loss",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.05": {
+      "name": "Initialize a 2D physics world",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.06": {
+      "name": "Attach a dynamic body to a sprite",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.07": {
+      "name": "Build static boundaries for floors and walls",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.08": {
+      "name": "Apply an impulse to jump or push",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.09": {
+      "name": "**[Engine Skill]** Configure gravity and mass parameters",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.10": {
+      "name": "Trace simple 2D physics motion",
+      "prerequisites": [
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T17.G5.11": {
+      "name": "Debug missing physics setup",
+      "prerequisites": [
+        "T06.G3.08",
+        "T07.G3.05",
+        "T08.G3.05"
+      ]
+    },
+    "T18.G5.01": {
+      "name": "Initialize a 3D physics world",
+      "prerequisites": [
+        "T07.G3.05",
+        "T14.G3.01"
+      ]
+    },
+    "T18.G5.02": {
+      "name": "Attach static and dynamic physics bodies",
+      "prerequisites": [
+        "T07.G3.05",
+        "T14.G3.01"
+      ]
+    },
+    "T18.G5.03": {
+      "name": "Detect physics collisions to collect items",
+      "prerequisites": [
+        "T18.G4.05"
+      ]
+    },
+    "T18.G5.04": {
+      "name": "Use nested loops to arrange 3D objects in grids",
+      "prerequisites": [
+        "T18.G4.05"
+      ]
+    },
+    "T18.G5.05": {
+      "name": "Apply detailed textures or materials to surfaces",
+      "prerequisites": [
+        "T07.G3.05",
+        "T14.G3.01"
+      ]
+    },
+    "T18.G5.06": {
+      "name": "Add global fog or particle effects for atmosphere",
+      "prerequisites": [
+        "T07.G3.05",
+        "T14.G3.01"
+      ]
+    },
+    "T19.G5.01": {
+      "name": "Host or join a CreatiCode multiplayer lobby",
+      "prerequisites": [
+        "T06.G3.08",
+        "T09.G3.04"
+      ]
+    },
+    "T19.G5.02": {
+      "name": "Build a ready-up indicator before the game starts",
+      "prerequisites": [
+        "T06.G3.08",
+        "T09.G3.04",
+        "T10.G3.03"
+      ]
+    },
+    "T19.G5.03": {
+      "name": "Implement shared quick chat or emote buttons",
+      "prerequisites": [
+        "T06.G3.08",
+        "T09.G3.04"
+      ]
+    },
+    "T19.G5.04": {
+      "name": "Display a synchronized scoreboard for the current session",
+      "prerequisites": [
+        "T06.G3.08",
+        "T09.G3.04"
+      ]
+    },
+    "T19.G5.05": {
+      "name": "Diagnose and respond to connection status changes",
+      "prerequisites": [
+        "T06.G3.08",
+        "T09.G3.04",
+        "T10.G3.03"
+      ]
+    },
+    "T20.G5.01": {
+      "name": "**[Technical Skill]** Implement data-driven visualization algorithms",
+      "prerequisites": [
+        "T07.G3.05",
+        "T20.GK.03",
+        "T20.GK.04"
+      ]
+    },
+    "T20.G5.02": {
+      "name": "Animate a pattern with a counter variable",
+      "prerequisites": [
+        "T07.G3.05",
+        "T20.GK.04"
+      ]
+    },
+    "T20.G5.03": {
+      "name": "Make art respond to mouse or keys",
+      "prerequisites": [
+        "T07.G3.05",
+        "T20.GK.04"
+      ]
+    },
+    "T20.G5.04": {
+      "name": "Create fractal-like nested patterns",
+      "prerequisites": [
+        "T07.G3.05",
+        "T20.GK.03",
+        "T20.GK.04"
+      ]
+    },
+    "T20.G5.05": {
+      "name": "Explain data-to-visual design choices",
+      "prerequisites": [
+        "T07.G3.05",
+        "T20.GK.03",
+        "T20.GK.04"
+      ]
+    },
+    "T21.G5.01": {
+      "name": "Plan which assets should be AI-made vs hand-made",
+      "prerequisites": [
+        "T09.G3.04",
+        "T10.G3.03"
+      ]
+    },
+    "T22.G5.01": {
+      "name": "Flag risky vs safe chatbot prompts",
+      "prerequisites": [
+        "T06.G3.08",
+        "T09.G3.04",
+        "T22.G3.01"
+      ]
+    },
+    "T23.G5.01": {
+      "name": "Compare what people see vs what pixels show",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05"
+      ]
+    },
+    "T23.G5.02": {
+      "name": "Explain why an AI might mis-hear or mis-see",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05"
+      ]
+    },
+    "T23.G5.03": {
+      "name": "Choose safe ways to handle sensor data",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05"
+      ]
+    },
+    "T23.G5.04": {
+      "name": "Identify when AI sensing might be unfair",
+      "prerequisites": [
+        "T06.G3.08",
+        "T08.G3.05"
+      ]
+    },
+    "T24.G5.01": {
+      "name": "Read and interpret XO\u2019s interface cues",
+      "prerequisites": [
+        "T01.G3.01",
+        "T09.G3.04"
+      ]
+    },
+    "T24.G5.02": {
+      "name": "Ask XO for a three-step project plan",
+      "prerequisites": [
+        "T01.G3.01",
+        "T09.G3.04"
+      ]
+    },
+    "T24.G5.03": {
+      "name": "Turn an XO suggestion into starter code safely",
+      "prerequisites": [
+        "T10.G3.03"
+      ]
+    },
+    "T24.G5.04": {
+      "name": "Use the AI image library to collect matching assets",
+      "prerequisites": [
+        "T01.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ]
+    },
+    "T24.G5.05": {
+      "name": "Reject unsafe or off-spec XO suggestions",
+      "prerequisites": [
+        "T01.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ]
+    },
+    "T25.G5.01": {
+      "name": "Model multi-type game state",
+      "prerequisites": [
+        "T09.G3.01",
+        "T25.G3.01",
+        "T25.GK.03"
+      ]
+    },
+    "T25.G5.02": {
+      "name": "Convert messy inputs into canonical formats",
+      "prerequisites": [
+        "T06.G3.01",
+        "T25.G3.01",
+        "T25.GK.03"
+      ]
+    },
+    "T25.G5.03": {
+      "name": "Decide when to upgrade from list to table",
+      "prerequisites": [
+        "T25.G3.01",
+        "T25.GK.03"
+      ]
+    },
+    "T25.G5.04": {
+      "name": "Encode categorical values with symbols or enums",
+      "prerequisites": [
+        "T09.G3.01",
+        "T25.GK.03"
+      ]
+    },
+    "T26.G5.01": {
+      "name": "Instrument a project with runtime logs",
+      "prerequisites": [
+        "T09.G3.04",
+        "T10.G3.03",
+        "T26.GK.03"
+      ]
+    },
+    "T26.G5.02": {
+      "name": "Plan sampling strategies",
+      "prerequisites": [
+        "T09.G3.04",
+        "T10.G3.03",
+        "T26.GK.02",
+        "T26.GK.03"
+      ]
+    },
+    "T26.G5.03": {
+      "name": "Validate data entry with error checks",
+      "prerequisites": [
+        "T09.G3.04",
+        "T10.G3.03",
+        "T26.GK.03"
+      ]
+    },
+    "T26.G5.04": {
+      "name": "Store logs in CreatiCode tables for export",
+      "prerequisites": [
+        "T09.G3.04",
+        "T10.G3.03",
+        "T26.GK.03"
+      ]
+    },
+    "T27.G5.01": {
+      "name": "Build interactive dashboards with widgets",
+      "prerequisites": [
+        "T09.G3.04",
+        "T26.G3.04",
+        "T27.GK.03"
+      ]
+    },
+    "T27.G5.03": {
+      "name": "Compare data from two sensors or sources",
+      "prerequisites": [
+        "T09.G3.04",
+        "T26.G3.04",
+        "T27.GK.03"
+      ]
+    },
+    "T27.G5.04": {
+      "name": "Present findings using slides or mini reports",
+      "prerequisites": [
+        "T09.G3.04",
+        "T26.G3.04",
+        "T27.GK.03"
+      ]
+    },
+    "T28.G5.01": {
+      "name": "Simulate compound events (two dice)",
+      "prerequisites": [
+        "T28.G4.04"
+      ]
+    },
+    "T28.G5.02": {
+      "name": "Randomly assign participants to conditions",
+      "prerequisites": [
+        "T28.G4.03",
+        "T28.G4.04"
+      ]
+    },
+    "T28.G5.03": {
+      "name": "Use Monte Carlo to estimate an area or probability",
+      "prerequisites": [
+        "T28.G4.03",
+        "T28.G4.04"
+      ]
+    },
+    "T28.G5.04": {
+      "name": "Document simulation plans before coding",
+      "prerequisites": [
+        "T28.G4.03",
+        "T28.G4.04"
+      ]
+    },
+    "T29.G5.01": {
+      "name": "Structure chat logs into tables",
+      "prerequisites": [
+        "T29.G4.04"
+      ]
+    },
+    "T29.G5.02": {
+      "name": "Build stop-word filters and keyword lists",
+      "prerequisites": [
+        "T29.G4.03",
+        "T29.G4.04"
+      ]
+    },
+    "T29.G5.03": {
+      "name": "Measure simple sentiment heuristics",
+      "prerequisites": [
+        "T29.G4.03",
+        "T29.G4.04"
+      ]
+    },
+    "T29.G5.04": {
+      "name": "Map story descriptions into AI prompt slots",
+      "prerequisites": [
+        "T29.G4.03",
+        "T29.G4.04"
+      ]
+    },
+    "T30.G5.01": {
+      "name": "Match CreatiCode AI features to hardware requirements",
+      "prerequisites": [
+        "T30.G3.01",
+        "T30.GK.03"
+      ]
+    },
+    "T30.G5.02": {
+      "name": "Plan safe device-handling procedures for group work",
+      "prerequisites": [
+        "T30.G3.01",
+        "T30.GK.03"
+      ]
+    },
+    "T30.G5.03": {
+      "name": "Explain how different sensors collect data",
+      "prerequisites": [
+        "T09.G3.01",
+        "T30.GK.03"
+      ]
+    },
+    "T30.G5.04": {
+      "name": "Relate hardware choices to accessibility outcomes",
+      "prerequisites": [
+        "T30.G3.01",
+        "T30.GK.03"
+      ]
+    },
+    "T31.G5.01": {
+      "name": "Trace how a device reaches an online service",
+      "prerequisites": [
+        "T02.G3.01"
+      ]
+    },
+    "T31.G5.02": {
+      "name": "Decide when apps need the internet vs work offline",
+      "prerequisites": [
+        "T01.G3.01",
+        "T30.G3.01"
+      ]
+    },
+    "T31.G5.03": {
+      "name": "Save and reload a preference using a cloud variable",
+      "prerequisites": [
+        "T09.G3.01"
+      ]
+    },
+    "T31.G5.04": {
+      "name": "Configure a session ID to isolate practice data",
+      "prerequisites": [
+        "T09.G3.01"
+      ]
+    },
+    "T31.G5.05": {
+      "name": "Interpret connection status indicators in CreatiCode",
+      "prerequisites": [
+        "T09.G3.01"
+      ]
+    },
+    "T32.G5.01": {
+      "name": "Analyze social engineering tactics",
+      "prerequisites": [
+        "T32.G3.01",
+        "T32.GK.02",
+        "T32.GK.03"
+      ]
+    },
+    "T32.G5.02": {
+      "name": "Evaluate terms of service/privacy policies (kid-friendly summaries)",
+      "prerequisites": [
+        "T32.G3.01",
+        "T32.GK.02",
+        "T32.GK.03"
+      ]
+    },
+    "T32.G5.03": {
+      "name": "Secure AI training data and outputs",
+      "prerequisites": [
+        "T32.G3.01",
+        "T32.GK.02",
+        "T32.GK.03"
+      ]
+    },
+    "T32.G5.04": {
+      "name": "Create backup plans for digital work",
+      "prerequisites": [
+        "T09.G3.01",
+        "T32.GK.02",
+        "T32.GK.03"
+      ]
+    },
+    "T34.G5.01": {
+      "name": "Investigate social movements linked to computing",
+      "prerequisites": [
+        "T01.G3.01",
+        "T01.G3.02",
+        "T34.GK.02",
+        "T34.GK.03"
+      ]
+    },
+    "T34.G5.02": {
+      "name": "Compare invention timelines in multiple industries",
+      "prerequisites": [
+        "T34.G3.01",
+        "T34.GK.02",
+        "T34.GK.03"
+      ]
+    },
+    "T34.G5.03": {
+      "name": "Conduct interviews with tech users",
+      "prerequisites": [
+        "T34.G3.01",
+        "T34.GK.02",
+        "T34.GK.03"
+      ]
+    },
+    "T35.G5.01": {
+      "name": "Examine global impacts of technology",
+      "prerequisites": [
+        "T35.G3.01",
+        "T35.GK.02",
+        "T35.GK.03"
+      ]
+    },
+    "T35.G5.02": {
+      "name": "Debate digital well-being scenarios",
+      "prerequisites": [
+        "T35.G3.01",
+        "T35.GK.02",
+        "T35.GK.03"
+      ]
+    },
+    "T35.G5.03": {
+      "name": "Analyze AI's differential impacts on workers and communities",
+      "prerequisites": [
+        "T04.G3.01",
+        "T35.G3.01",
+        "T35.GK.02",
+        "T35.GK.03"
+      ]
+    },
+    "T36.G5.01": {
+      "name": "Map personal interests to tech pathways",
+      "prerequisites": [
+        "T09.G3.01",
+        "T36.GK.02",
+        "T36.GK.03"
+      ]
+    },
+    "T36.G5.02": {
+      "name": "Follow a plan-build-feedback cycle",
+      "prerequisites": [
+        "T01.G3.01",
+        "T07.G3.01",
+        "T36.GK.02",
+        "T36.GK.03"
+      ]
+    },
+    "T36.G5.03": {
+      "name": "Evaluate inclusion in tech stories",
+      "prerequisites": [
+        "T36.G3.01",
+        "T36.GK.02",
+        "T36.GK.03"
+      ]
+    }
+  },
+  "all_issues": [
+    {
+      "skill_id": "T01.G5.01",
+      "skill_name": "Match a word description to a flowchart",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T01.G5.02",
+      "skill_name": "Convert a flowchart or pseudocode into code",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.03",
+      "skill_name": "Convert a short program into pseudocode",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.04",
+      "skill_name": "Trace a search algorithm using loops and variables",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T01.G5.04",
+      "skill_name": "Trace a search algorithm using loops and variables",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.05",
+      "skill_name": "Determine whether an algorithm is correct for all inputs",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.05",
+      "skill_name": "Determine whether an algorithm is correct for all inputs",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T01.G5.06",
+      "skill_name": "Compare two algorithms for step counts (efficiency)",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.07",
+      "skill_name": "Debug an algorithm that mis\u2011handles a simple edge case",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.07",
+      "skill_name": "Debug an algorithm that mis\u2011handles a simple edge case",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T01.G5.08",
+      "skill_name": "Add checks to handle edge cases",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.08",
+      "skill_name": "Add checks to handle edge cases",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T01.G5.09",
+      "skill_name": "Explain why an algorithm is correct using loops and variables",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T01.G5.10",
+      "skill_name": "Rewrite a long algorithm using loops or helper steps",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T01.G5.10",
+      "skill_name": "Rewrite a long algorithm using loops or helper steps",
+      "issue": "Depends on G3 skill: T07.G3.01",
+      "priority": "HIGH",
+      "prereq": "T07.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.01",
+      "skill_name": "Read a multi\u2011branch flowchart and trace a path",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.01",
+      "skill_name": "Read a multi\u2011branch flowchart and trace a path",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "skill_name": "Design a multi\u2011branch flowchart for a decision task",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "skill_name": "Design a multi\u2011branch flowchart for a decision task",
+      "issue": "Depends on G3 skill: T02.G3.01",
+      "priority": "HIGH",
+      "prereq": "T02.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.03",
+      "skill_name": "Trace a flowchart with state tracking using a trace table",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.03",
+      "skill_name": "Trace a flowchart with state tracking using a trace table",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T02.G5.04",
+      "skill_name": "Create a trace table for a flowchart with accumulation",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.04",
+      "skill_name": "Create a trace table for a flowchart with accumulation",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T02.G5.05",
+      "skill_name": "Write pseudocode for a loop\u2011based algorithm",
+      "issue": "Depends on G3 skill: T08.G3.01",
+      "priority": "HIGH",
+      "prereq": "T08.G3.01"
+    },
+    {
+      "skill_id": "T02.G5.06",
+      "skill_name": "Compare two algorithms for the same task",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.01",
+      "skill_name": "Create a feature list and subtask breakdown",
+      "issue": "Depends on G3 skill: T03.G3.01",
+      "priority": "HIGH",
+      "prereq": "T03.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.01",
+      "skill_name": "Create a feature list and subtask breakdown",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.02",
+      "skill_name": "Draw a high\u2011level project map",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.02",
+      "skill_name": "Draw a high\u2011level project map",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T03.G5.03",
+      "skill_name": "Identify task dependencies in a project plan",
+      "issue": "Depends on G3 skill: T03.G3.01",
+      "priority": "HIGH",
+      "prereq": "T03.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.04",
+      "skill_name": "Flag high\u2011risk or unclear tasks",
+      "issue": "Depends on G3 skill: T03.G3.01",
+      "priority": "HIGH",
+      "prereq": "T03.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.05",
+      "skill_name": "Compare two project plans for the same idea",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T03.G5.05",
+      "skill_name": "Compare two project plans for the same idea",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T04.G5.01",
+      "skill_name": "Recognize a counter update pattern",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T04.G5.02",
+      "skill_name": "Recognize an accumulator (sum/concatenate) pattern",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T04.G5.03",
+      "skill_name": "Recognize a linear search pattern",
+      "issue": "Depends on G3 skill: T08.G3.01",
+      "priority": "HIGH",
+      "prereq": "T08.G3.01"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "skill_name": "Recognize a filter\u2011and\u2011collect pattern",
+      "issue": "Depends on G3 skill: T08.G3.01",
+      "priority": "HIGH",
+      "prereq": "T08.G3.01"
+    },
+    {
+      "skill_id": "T04.G5.05",
+      "skill_name": "Compare solutions that use a pattern vs those that don\u2019t",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.01",
+      "skill_name": "Write clear user needs and requirements for a small app",
+      "issue": "Depends on G3 skill: T05.G3.01",
+      "priority": "HIGH",
+      "prereq": "T05.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.01",
+      "skill_name": "Write clear user needs and requirements for a small app",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.02",
+      "skill_name": "Create a low\u2011fidelity sketch for a user story",
+      "issue": "Depends on G3 skill: T05.G3.01",
+      "priority": "HIGH",
+      "prereq": "T05.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.02",
+      "skill_name": "Create a low\u2011fidelity sketch for a user story",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.03",
+      "skill_name": "Identify variables and initial values for a simulation",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.03",
+      "skill_name": "Identify variables and initial values for a simulation",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "skill_name": "Draft simple update rules for a simulation",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "skill_name": "Plan how to test whether a design meets user needs",
+      "issue": "Depends on G3 skill: T04.G3.01",
+      "priority": "HIGH",
+      "prereq": "T04.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "skill_name": "Plan how to test whether a design meets user needs",
+      "issue": "Depends on G3 skill: T05.G3.01",
+      "priority": "HIGH",
+      "prereq": "T05.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "skill_name": "Plan how to test whether a design meets user needs",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T05.G5.06",
+      "skill_name": "Plan what to measure in a simulation experiment",
+      "issue": "Depends on G3 skill: T05.G3.01",
+      "priority": "HIGH",
+      "prereq": "T05.G3.01"
+    },
+    {
+      "skill_id": "T06.G5.01",
+      "skill_name": "Identify standard event patterns in a small game",
+      "issue": "Depends on G4 skill: T06.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.06"
+    },
+    {
+      "skill_id": "T06.G5.02",
+      "skill_name": "Add a new event\u2011triggered behavior to an existing game",
+      "issue": "Depends on G4 skill: T06.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.05"
+    },
+    {
+      "skill_id": "T06.G5.02",
+      "skill_name": "Add a new event\u2011triggered behavior to an existing game",
+      "issue": "Depends on G4 skill: T06.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.06"
+    },
+    {
+      "skill_id": "T06.G5.03",
+      "skill_name": "Design a simple broadcast sequence for level start/end",
+      "issue": "Depends on G4 skill: T06.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.05"
+    },
+    {
+      "skill_id": "T06.G5.03",
+      "skill_name": "Design a simple broadcast sequence for level start/end",
+      "issue": "Depends on G4 skill: T06.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.06"
+    },
+    {
+      "skill_id": "T06.G5.04",
+      "skill_name": "Trace event and broadcast order for a scenario",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T06.G5.04",
+      "skill_name": "Trace event and broadcast order for a scenario",
+      "issue": "Depends on G4 skill: T06.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.05"
+    },
+    {
+      "skill_id": "T06.G5.04",
+      "skill_name": "Trace event and broadcast order for a scenario",
+      "issue": "Depends on G4 skill: T06.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.06"
+    },
+    {
+      "skill_id": "T06.G5.05",
+      "skill_name": "Find and fix conflicting event scripts",
+      "issue": "Depends on G4 skill: T06.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.05"
+    },
+    {
+      "skill_id": "T06.G5.05",
+      "skill_name": "Find and fix conflicting event scripts",
+      "issue": "Depends on G4 skill: T06.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.06"
+    },
+    {
+      "skill_id": "T06.G5.06",
+      "skill_name": "Group scripts by event type to improve organization",
+      "issue": "Depends on G4 skill: T06.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.05"
+    },
+    {
+      "skill_id": "T06.G5.06",
+      "skill_name": "Group scripts by event type to improve organization",
+      "issue": "Depends on G4 skill: T06.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T06.G4.06"
+    },
+    {
+      "skill_id": "T07.G5.01",
+      "skill_name": "Simulate repeated experiments with a loop",
+      "issue": "Depends on G4 skill: T07.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.05"
+    },
+    {
+      "skill_id": "T07.G5.01",
+      "skill_name": "Simulate repeated experiments with a loop",
+      "issue": "Depends on G4 skill: T07.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.06"
+    },
+    {
+      "skill_id": "T07.G5.02",
+      "skill_name": "Build a list with a loop",
+      "issue": "Depends on G4 skill: T07.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.05"
+    },
+    {
+      "skill_id": "T07.G5.02",
+      "skill_name": "Build a list with a loop",
+      "issue": "Depends on G4 skill: T07.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.06"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "skill_name": "Use loops to compute aggregates",
+      "issue": "Depends on G4 skill: T07.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.06"
+    },
+    {
+      "skill_id": "T07.G5.04",
+      "skill_name": "Nested loops for advanced patterns or tilings",
+      "issue": "Depends on G4 skill: T07.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.05"
+    },
+    {
+      "skill_id": "T07.G5.04",
+      "skill_name": "Nested loops for advanced patterns or tilings",
+      "issue": "Depends on G4 skill: T07.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T07.G4.06"
+    },
+    {
+      "skill_id": "T08.G5.01",
+      "skill_name": "Design multi-branch decision logic",
+      "issue": "Depends on G4 skill: T08.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.07"
+    },
+    {
+      "skill_id": "T08.G5.01",
+      "skill_name": "Design multi-branch decision logic",
+      "issue": "Depends on G4 skill: T08.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.08"
+    },
+    {
+      "skill_id": "T08.G5.02",
+      "skill_name": "Use NOT to invert conditions",
+      "issue": "Depends on G4 skill: T08.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.07"
+    },
+    {
+      "skill_id": "T08.G5.02",
+      "skill_name": "Use NOT to invert conditions",
+      "issue": "Depends on G4 skill: T08.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.08"
+    },
+    {
+      "skill_id": "T08.G5.03",
+      "skill_name": "Combine three or more conditions",
+      "issue": "Depends on G4 skill: T08.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.07"
+    },
+    {
+      "skill_id": "T08.G5.03",
+      "skill_name": "Combine three or more conditions",
+      "issue": "Depends on G4 skill: T08.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.08"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "skill_name": "Trace complex decision logic",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "skill_name": "Trace complex decision logic",
+      "issue": "Depends on G4 skill: T08.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.07"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "skill_name": "Trace complex decision logic",
+      "issue": "Depends on G4 skill: T08.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T08.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.01",
+      "skill_name": "Use multiple variables together in expressions",
+      "issue": "Depends on G4 skill: T09.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.07"
+    },
+    {
+      "skill_id": "T09.G5.01",
+      "skill_name": "Use multiple variables together in expressions",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.02",
+      "skill_name": "Use string variables and concatenation",
+      "issue": "Depends on G4 skill: T09.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.07"
+    },
+    {
+      "skill_id": "T09.G5.02",
+      "skill_name": "Use string variables and concatenation",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.03",
+      "skill_name": "Use variables to configure behavior (parameters without functions)",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.04",
+      "skill_name": "Use expressions involving lists (length, indexing)",
+      "issue": "Depends on G4 skill: T09.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.07"
+    },
+    {
+      "skill_id": "T09.G5.04",
+      "skill_name": "Use expressions involving lists (length, indexing)",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "skill_name": "Use variables to track cumulative statistics",
+      "issue": "Depends on G4 skill: T09.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.07"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "skill_name": "Use variables to track cumulative statistics",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "skill_name": "Trace complex variable assignments and expressions",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "skill_name": "Trace complex variable assignments and expressions",
+      "issue": "Depends on G4 skill: T09.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.07"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "skill_name": "Trace complex variable assignments and expressions",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.07",
+      "skill_name": "Trace a counter variable in a loop",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "skill_name": "Trace an accumulator that sums values",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "skill_name": "Trace an accumulator that sums values",
+      "issue": "Depends on G4 skill: T09.G4.07",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.07"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "skill_name": "Trace an accumulator that sums values",
+      "issue": "Depends on G4 skill: T09.G4.08",
+      "priority": "MEDIUM",
+      "prereq": "T09.G4.08"
+    },
+    {
+      "skill_id": "T10.G5.01",
+      "skill_name": "Create and populate a table variable",
+      "issue": "Depends on G4 skill: T10.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.05"
+    },
+    {
+      "skill_id": "T10.G5.01",
+      "skill_name": "Create and populate a table variable",
+      "issue": "Depends on G4 skill: T10.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.06"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "skill_name": "Access table cells by row and column",
+      "issue": "Depends on G4 skill: T10.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.05"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "skill_name": "Access table cells by row and column",
+      "issue": "Depends on G4 skill: T10.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.06"
+    },
+    {
+      "skill_id": "T10.G5.03",
+      "skill_name": "Update or insert rows in a table",
+      "issue": "Depends on G4 skill: T10.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.05"
+    },
+    {
+      "skill_id": "T10.G5.03",
+      "skill_name": "Update or insert rows in a table",
+      "issue": "Depends on G4 skill: T10.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.06"
+    },
+    {
+      "skill_id": "T10.G5.04",
+      "skill_name": "Loop through table rows to compute aggregates",
+      "issue": "Depends on G4 skill: T10.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.06"
+    },
+    {
+      "skill_id": "T10.G5.05",
+      "skill_name": "Search and filter table data",
+      "issue": "Depends on G4 skill: T10.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.05"
+    },
+    {
+      "skill_id": "T10.G5.05",
+      "skill_name": "Search and filter table data",
+      "issue": "Depends on G4 skill: T10.G4.06",
+      "priority": "MEDIUM",
+      "prereq": "T10.G4.06"
+    },
+    {
+      "skill_id": "T11.G5.01",
+      "skill_name": "Identify subproblems that deserve their own helper",
+      "issue": "Depends on G4 skill: T11.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.05"
+    },
+    {
+      "skill_id": "T11.G5.02",
+      "skill_name": "Define a simple helper with one parameter",
+      "issue": "Depends on G4 skill: T11.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.04"
+    },
+    {
+      "skill_id": "T11.G5.02",
+      "skill_name": "Define a simple helper with one parameter",
+      "issue": "Depends on G4 skill: T11.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.05"
+    },
+    {
+      "skill_id": "T11.G5.03",
+      "skill_name": "Decide between a parameter and a call to a separate block",
+      "issue": "Depends on G4 skill: T11.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.04"
+    },
+    {
+      "skill_id": "T11.G5.03",
+      "skill_name": "Decide between a parameter and a call to a separate block",
+      "issue": "Depends on G4 skill: T11.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.05"
+    },
+    {
+      "skill_id": "T11.G5.04",
+      "skill_name": "Analyze a modular program structure",
+      "issue": "Depends on G4 skill: T11.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.04"
+    },
+    {
+      "skill_id": "T11.G5.04",
+      "skill_name": "Analyze a modular program structure",
+      "issue": "Depends on G4 skill: T11.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T11.G4.05"
+    },
+    {
+      "skill_id": "T12.G5.01",
+      "skill_name": "Create external documentation for a project",
+      "issue": "Depends on G4 skill: T12.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.03"
+    },
+    {
+      "skill_id": "T12.G5.01",
+      "skill_name": "Create external documentation for a project",
+      "issue": "Depends on G4 skill: T12.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.04"
+    },
+    {
+      "skill_id": "T12.G5.02",
+      "skill_name": "Document code functionality and choices",
+      "issue": "Depends on G3 skill: T12.G3.01",
+      "priority": "HIGH",
+      "prereq": "T12.G3.01"
+    },
+    {
+      "skill_id": "T12.G5.02",
+      "skill_name": "Document code functionality and choices",
+      "issue": "Depends on G4 skill: T12.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.03"
+    },
+    {
+      "skill_id": "T12.G5.02",
+      "skill_name": "Document code functionality and choices",
+      "issue": "Depends on G4 skill: T12.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.04"
+    },
+    {
+      "skill_id": "T12.G5.03",
+      "skill_name": "Organize a multi-feature project with sections",
+      "issue": "Depends on G4 skill: T12.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.03"
+    },
+    {
+      "skill_id": "T12.G5.03",
+      "skill_name": "Organize a multi-feature project with sections",
+      "issue": "Depends on G4 skill: T12.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.04"
+    },
+    {
+      "skill_id": "T12.G5.04",
+      "skill_name": "Review and improve another student's code organization",
+      "issue": "Depends on G4 skill: T12.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.03"
+    },
+    {
+      "skill_id": "T12.G5.04",
+      "skill_name": "Review and improve another student's code organization",
+      "issue": "Depends on G4 skill: T12.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T12.G4.04"
+    },
+    {
+      "skill_id": "T13.G5.01",
+      "skill_name": "Debug programs using tracing and logging",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T13.G5.02",
+      "skill_name": "Handle invalid or edge case input",
+      "issue": "Depends on G3 skill: T08.G3.01",
+      "priority": "HIGH",
+      "prereq": "T08.G3.01"
+    },
+    {
+      "skill_id": "T13.G5.03",
+      "skill_name": "Create and follow a test plan",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T13.G5.04",
+      "skill_name": "Modify a program to improve reliability and correctness",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T13.G5.04",
+      "skill_name": "Modify a program to improve reliability and correctness",
+      "issue": "Depends on G4 skill: T13.G4.01",
+      "priority": "MEDIUM",
+      "prereq": "T13.G4.01"
+    },
+    {
+      "skill_id": "T14.G5.01",
+      "skill_name": "**[Engine Skill]** Configure gravity and weight parameters",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.01",
+      "skill_name": "**[Engine Skill]** Configure gravity and weight parameters",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.02",
+      "skill_name": "Control jump timing",
+      "issue": "Depends on G3 skill: T06.G3.02",
+      "priority": "HIGH",
+      "prereq": "T06.G3.02"
+    },
+    {
+      "skill_id": "T14.G5.02",
+      "skill_name": "Control jump timing",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.02",
+      "skill_name": "Control jump timing",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.03",
+      "skill_name": "Fix ground collisions",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.03",
+      "skill_name": "Fix ground collisions",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.04",
+      "skill_name": "Script viewport pans",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.04",
+      "skill_name": "Script viewport pans",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.05",
+      "skill_name": "Lock viewport to the player",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.05",
+      "skill_name": "Lock viewport to the player",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.06",
+      "skill_name": "Pin HUD to the screen",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.06",
+      "skill_name": "Pin HUD to the screen",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.07",
+      "skill_name": "Spawn near the viewport",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.07",
+      "skill_name": "Spawn near the viewport",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.08",
+      "skill_name": "Timed waves",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.08",
+      "skill_name": "Timed waves",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.09",
+      "skill_name": "High score list",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.09",
+      "skill_name": "High score list",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.10",
+      "skill_name": "Inventory system",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T14.G5.10",
+      "skill_name": "Inventory system",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.01",
+      "skill_name": "Broadcast scene change",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.01",
+      "skill_name": "Broadcast scene change",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.02",
+      "skill_name": "Broadcast specific actions",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.02",
+      "skill_name": "Broadcast specific actions",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.03",
+      "skill_name": "Simulated Camera Pan",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.03",
+      "skill_name": "Simulated Camera Pan",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.04",
+      "skill_name": "Layering logic",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.04",
+      "skill_name": "Layering logic",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.05",
+      "skill_name": "Join text strings",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.05",
+      "skill_name": "Join text strings",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.06",
+      "skill_name": "Text effects (Typewriter)",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.06",
+      "skill_name": "Text effects (Typewriter)",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.07",
+      "skill_name": "Track story choices",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.07",
+      "skill_name": "Track story choices",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T15.G5.08",
+      "skill_name": "Conditional endings",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T15.G5.08",
+      "skill_name": "Conditional endings",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T16.G5.01",
+      "skill_name": "Create a multi\u2011screen app with a navigation interface",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T16.G5.01",
+      "skill_name": "Create a multi\u2011screen app with a navigation interface",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T16.G5.01",
+      "skill_name": "Create a multi\u2011screen app with a navigation interface",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T16.G5.02",
+      "skill_name": "Design a form with multiple inputs and validation",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T16.G5.02",
+      "skill_name": "Design a form with multiple inputs and validation",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T16.G5.03",
+      "skill_name": "Build a leaderboard or high\u2011score display",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T16.G5.03",
+      "skill_name": "Build a leaderboard or high\u2011score display",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T16.G5.03",
+      "skill_name": "Build a leaderboard or high\u2011score display",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T16.G5.04",
+      "skill_name": "Implement a responsive HUD that reacts to game state",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T16.G5.04",
+      "skill_name": "Implement a responsive HUD that reacts to game state",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T16.G5.04",
+      "skill_name": "Implement a responsive HUD that reacts to game state",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T17.G5.01",
+      "skill_name": "Choose manual vs engine-based physics",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T17.G5.01",
+      "skill_name": "Choose manual vs engine-based physics",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.02",
+      "skill_name": "Track gravity with velocity variables",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.02",
+      "skill_name": "Track gravity with velocity variables",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.03",
+      "skill_name": "Use horizontal speed and friction variables",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T17.G5.03",
+      "skill_name": "Use horizontal speed and friction variables",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.03",
+      "skill_name": "Use horizontal speed and friction variables",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.04",
+      "skill_name": "Code a manual bounce with energy loss",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T17.G5.04",
+      "skill_name": "Code a manual bounce with energy loss",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.04",
+      "skill_name": "Code a manual bounce with energy loss",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.05",
+      "skill_name": "Initialize a 2D physics world",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.05",
+      "skill_name": "Initialize a 2D physics world",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.06",
+      "skill_name": "Attach a dynamic body to a sprite",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.06",
+      "skill_name": "Attach a dynamic body to a sprite",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.07",
+      "skill_name": "Build static boundaries for floors and walls",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.07",
+      "skill_name": "Build static boundaries for floors and walls",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.08",
+      "skill_name": "Apply an impulse to jump or push",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.08",
+      "skill_name": "Apply an impulse to jump or push",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.09",
+      "skill_name": "**[Engine Skill]** Configure gravity and mass parameters",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.09",
+      "skill_name": "**[Engine Skill]** Configure gravity and mass parameters",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.10",
+      "skill_name": "Trace simple 2D physics motion",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.10",
+      "skill_name": "Trace simple 2D physics motion",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.11",
+      "skill_name": "Debug missing physics setup",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T17.G5.11",
+      "skill_name": "Debug missing physics setup",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T17.G5.11",
+      "skill_name": "Debug missing physics setup",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T18.G5.01",
+      "skill_name": "Initialize a 3D physics world",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T18.G5.01",
+      "skill_name": "Initialize a 3D physics world",
+      "issue": "Depends on G3 skill: T14.G3.01",
+      "priority": "HIGH",
+      "prereq": "T14.G3.01"
+    },
+    {
+      "skill_id": "T18.G5.02",
+      "skill_name": "Attach static and dynamic physics bodies",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T18.G5.02",
+      "skill_name": "Attach static and dynamic physics bodies",
+      "issue": "Depends on G3 skill: T14.G3.01",
+      "priority": "HIGH",
+      "prereq": "T14.G3.01"
+    },
+    {
+      "skill_id": "T18.G5.03",
+      "skill_name": "Detect physics collisions to collect items",
+      "issue": "Depends on G4 skill: T18.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T18.G4.05"
+    },
+    {
+      "skill_id": "T18.G5.04",
+      "skill_name": "Use nested loops to arrange 3D objects in grids",
+      "issue": "Depends on G4 skill: T18.G4.05",
+      "priority": "MEDIUM",
+      "prereq": "T18.G4.05"
+    },
+    {
+      "skill_id": "T18.G5.05",
+      "skill_name": "Apply detailed textures or materials to surfaces",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T18.G5.05",
+      "skill_name": "Apply detailed textures or materials to surfaces",
+      "issue": "Depends on G3 skill: T14.G3.01",
+      "priority": "HIGH",
+      "prereq": "T14.G3.01"
+    },
+    {
+      "skill_id": "T18.G5.06",
+      "skill_name": "Add global fog or particle effects for atmosphere",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T18.G5.06",
+      "skill_name": "Add global fog or particle effects for atmosphere",
+      "issue": "Depends on G3 skill: T14.G3.01",
+      "priority": "HIGH",
+      "prereq": "T14.G3.01"
+    },
+    {
+      "skill_id": "T19.G5.01",
+      "skill_name": "Host or join a CreatiCode multiplayer lobby",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T19.G5.01",
+      "skill_name": "Host or join a CreatiCode multiplayer lobby",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T19.G5.02",
+      "skill_name": "Build a ready-up indicator before the game starts",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T19.G5.02",
+      "skill_name": "Build a ready-up indicator before the game starts",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T19.G5.02",
+      "skill_name": "Build a ready-up indicator before the game starts",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T19.G5.03",
+      "skill_name": "Implement shared quick chat or emote buttons",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T19.G5.03",
+      "skill_name": "Implement shared quick chat or emote buttons",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T19.G5.04",
+      "skill_name": "Display a synchronized scoreboard for the current session",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T19.G5.04",
+      "skill_name": "Display a synchronized scoreboard for the current session",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T19.G5.05",
+      "skill_name": "Diagnose and respond to connection status changes",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T19.G5.05",
+      "skill_name": "Diagnose and respond to connection status changes",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T19.G5.05",
+      "skill_name": "Diagnose and respond to connection status changes",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T20.G5.01",
+      "skill_name": "**[Technical Skill]** Implement data-driven visualization algorithms",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T20.G5.02",
+      "skill_name": "Animate a pattern with a counter variable",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T20.G5.03",
+      "skill_name": "Make art respond to mouse or keys",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T20.G5.04",
+      "skill_name": "Create fractal-like nested patterns",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T20.G5.05",
+      "skill_name": "Explain data-to-visual design choices",
+      "issue": "Depends on G3 skill: T07.G3.05",
+      "priority": "HIGH",
+      "prereq": "T07.G3.05"
+    },
+    {
+      "skill_id": "T21.G5.01",
+      "skill_name": "Plan which assets should be AI-made vs hand-made",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T21.G5.01",
+      "skill_name": "Plan which assets should be AI-made vs hand-made",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T22.G5.01",
+      "skill_name": "Flag risky vs safe chatbot prompts",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T22.G5.01",
+      "skill_name": "Flag risky vs safe chatbot prompts",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T22.G5.01",
+      "skill_name": "Flag risky vs safe chatbot prompts",
+      "issue": "Depends on G3 skill: T22.G3.01",
+      "priority": "HIGH",
+      "prereq": "T22.G3.01"
+    },
+    {
+      "skill_id": "T23.G5.01",
+      "skill_name": "Compare what people see vs what pixels show",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T23.G5.01",
+      "skill_name": "Compare what people see vs what pixels show",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T23.G5.02",
+      "skill_name": "Explain why an AI might mis-hear or mis-see",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T23.G5.02",
+      "skill_name": "Explain why an AI might mis-hear or mis-see",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T23.G5.03",
+      "skill_name": "Choose safe ways to handle sensor data",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T23.G5.03",
+      "skill_name": "Choose safe ways to handle sensor data",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T23.G5.04",
+      "skill_name": "Identify when AI sensing might be unfair",
+      "issue": "Depends on G3 skill: T06.G3.08",
+      "priority": "HIGH",
+      "prereq": "T06.G3.08"
+    },
+    {
+      "skill_id": "T23.G5.04",
+      "skill_name": "Identify when AI sensing might be unfair",
+      "issue": "Depends on G3 skill: T08.G3.05",
+      "priority": "HIGH",
+      "prereq": "T08.G3.05"
+    },
+    {
+      "skill_id": "T24.G5.01",
+      "skill_name": "Read and interpret XO\u2019s interface cues",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T24.G5.01",
+      "skill_name": "Read and interpret XO\u2019s interface cues",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T24.G5.02",
+      "skill_name": "Ask XO for a three-step project plan",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T24.G5.02",
+      "skill_name": "Ask XO for a three-step project plan",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T24.G5.03",
+      "skill_name": "Turn an XO suggestion into starter code safely",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T24.G5.04",
+      "skill_name": "Use the AI image library to collect matching assets",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T24.G5.04",
+      "skill_name": "Use the AI image library to collect matching assets",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T24.G5.04",
+      "skill_name": "Use the AI image library to collect matching assets",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T24.G5.05",
+      "skill_name": "Reject unsafe or off-spec XO suggestions",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T24.G5.05",
+      "skill_name": "Reject unsafe or off-spec XO suggestions",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T24.G5.05",
+      "skill_name": "Reject unsafe or off-spec XO suggestions",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T25.G5.01",
+      "skill_name": "Model multi-type game state",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T25.G5.01",
+      "skill_name": "Model multi-type game state",
+      "issue": "Depends on G3 skill: T25.G3.01",
+      "priority": "HIGH",
+      "prereq": "T25.G3.01"
+    },
+    {
+      "skill_id": "T25.G5.02",
+      "skill_name": "Convert messy inputs into canonical formats",
+      "issue": "Depends on G3 skill: T06.G3.01",
+      "priority": "HIGH",
+      "prereq": "T06.G3.01"
+    },
+    {
+      "skill_id": "T25.G5.02",
+      "skill_name": "Convert messy inputs into canonical formats",
+      "issue": "Depends on G3 skill: T25.G3.01",
+      "priority": "HIGH",
+      "prereq": "T25.G3.01"
+    },
+    {
+      "skill_id": "T25.G5.03",
+      "skill_name": "Decide when to upgrade from list to table",
+      "issue": "Depends on G3 skill: T25.G3.01",
+      "priority": "HIGH",
+      "prereq": "T25.G3.01"
+    },
+    {
+      "skill_id": "T25.G5.04",
+      "skill_name": "Encode categorical values with symbols or enums",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T26.G5.01",
+      "skill_name": "Instrument a project with runtime logs",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T26.G5.01",
+      "skill_name": "Instrument a project with runtime logs",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T26.G5.02",
+      "skill_name": "Plan sampling strategies",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T26.G5.02",
+      "skill_name": "Plan sampling strategies",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T26.G5.03",
+      "skill_name": "Validate data entry with error checks",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T26.G5.03",
+      "skill_name": "Validate data entry with error checks",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T26.G5.04",
+      "skill_name": "Store logs in CreatiCode tables for export",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T26.G5.04",
+      "skill_name": "Store logs in CreatiCode tables for export",
+      "issue": "Depends on G3 skill: T10.G3.03",
+      "priority": "HIGH",
+      "prereq": "T10.G3.03"
+    },
+    {
+      "skill_id": "T27.G5.01",
+      "skill_name": "Build interactive dashboards with widgets",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T27.G5.01",
+      "skill_name": "Build interactive dashboards with widgets",
+      "issue": "Depends on G3 skill: T26.G3.04",
+      "priority": "HIGH",
+      "prereq": "T26.G3.04"
+    },
+    {
+      "skill_id": "T27.G5.03",
+      "skill_name": "Compare data from two sensors or sources",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T27.G5.03",
+      "skill_name": "Compare data from two sensors or sources",
+      "issue": "Depends on G3 skill: T26.G3.04",
+      "priority": "HIGH",
+      "prereq": "T26.G3.04"
+    },
+    {
+      "skill_id": "T27.G5.04",
+      "skill_name": "Present findings using slides or mini reports",
+      "issue": "Depends on G3 skill: T09.G3.04",
+      "priority": "HIGH",
+      "prereq": "T09.G3.04"
+    },
+    {
+      "skill_id": "T27.G5.04",
+      "skill_name": "Present findings using slides or mini reports",
+      "issue": "Depends on G3 skill: T26.G3.04",
+      "priority": "HIGH",
+      "prereq": "T26.G3.04"
+    },
+    {
+      "skill_id": "T28.G5.01",
+      "skill_name": "Simulate compound events (two dice)",
+      "issue": "Depends on G4 skill: T28.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.04"
+    },
+    {
+      "skill_id": "T28.G5.02",
+      "skill_name": "Randomly assign participants to conditions",
+      "issue": "Depends on G4 skill: T28.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.03"
+    },
+    {
+      "skill_id": "T28.G5.02",
+      "skill_name": "Randomly assign participants to conditions",
+      "issue": "Depends on G4 skill: T28.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.04"
+    },
+    {
+      "skill_id": "T28.G5.03",
+      "skill_name": "Use Monte Carlo to estimate an area or probability",
+      "issue": "Depends on G4 skill: T28.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.03"
+    },
+    {
+      "skill_id": "T28.G5.03",
+      "skill_name": "Use Monte Carlo to estimate an area or probability",
+      "issue": "Depends on G4 skill: T28.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.04"
+    },
+    {
+      "skill_id": "T28.G5.04",
+      "skill_name": "Document simulation plans before coding",
+      "issue": "Depends on G4 skill: T28.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.03"
+    },
+    {
+      "skill_id": "T28.G5.04",
+      "skill_name": "Document simulation plans before coding",
+      "issue": "Depends on G4 skill: T28.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T28.G4.04"
+    },
+    {
+      "skill_id": "T29.G5.01",
+      "skill_name": "Structure chat logs into tables",
+      "issue": "Depends on G4 skill: T29.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.04"
+    },
+    {
+      "skill_id": "T29.G5.02",
+      "skill_name": "Build stop-word filters and keyword lists",
+      "issue": "Depends on G4 skill: T29.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.03"
+    },
+    {
+      "skill_id": "T29.G5.02",
+      "skill_name": "Build stop-word filters and keyword lists",
+      "issue": "Depends on G4 skill: T29.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.04"
+    },
+    {
+      "skill_id": "T29.G5.03",
+      "skill_name": "Measure simple sentiment heuristics",
+      "issue": "Depends on G4 skill: T29.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.03"
+    },
+    {
+      "skill_id": "T29.G5.03",
+      "skill_name": "Measure simple sentiment heuristics",
+      "issue": "Depends on G4 skill: T29.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.04"
+    },
+    {
+      "skill_id": "T29.G5.04",
+      "skill_name": "Map story descriptions into AI prompt slots",
+      "issue": "Depends on G4 skill: T29.G4.03",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.03"
+    },
+    {
+      "skill_id": "T29.G5.04",
+      "skill_name": "Map story descriptions into AI prompt slots",
+      "issue": "Depends on G4 skill: T29.G4.04",
+      "priority": "MEDIUM",
+      "prereq": "T29.G4.04"
+    },
+    {
+      "skill_id": "T30.G5.01",
+      "skill_name": "Match CreatiCode AI features to hardware requirements",
+      "issue": "Depends on G3 skill: T30.G3.01",
+      "priority": "HIGH",
+      "prereq": "T30.G3.01"
+    },
+    {
+      "skill_id": "T30.G5.02",
+      "skill_name": "Plan safe device-handling procedures for group work",
+      "issue": "Depends on G3 skill: T30.G3.01",
+      "priority": "HIGH",
+      "prereq": "T30.G3.01"
+    },
+    {
+      "skill_id": "T30.G5.03",
+      "skill_name": "Explain how different sensors collect data",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T30.G5.04",
+      "skill_name": "Relate hardware choices to accessibility outcomes",
+      "issue": "Depends on G3 skill: T30.G3.01",
+      "priority": "HIGH",
+      "prereq": "T30.G3.01"
+    },
+    {
+      "skill_id": "T31.G5.01",
+      "skill_name": "Trace how a device reaches an online service",
+      "issue": "Depends on G3 skill: T02.G3.01",
+      "priority": "HIGH",
+      "prereq": "T02.G3.01"
+    },
+    {
+      "skill_id": "T31.G5.02",
+      "skill_name": "Decide when apps need the internet vs work offline",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T31.G5.02",
+      "skill_name": "Decide when apps need the internet vs work offline",
+      "issue": "Depends on G3 skill: T30.G3.01",
+      "priority": "HIGH",
+      "prereq": "T30.G3.01"
+    },
+    {
+      "skill_id": "T31.G5.03",
+      "skill_name": "Save and reload a preference using a cloud variable",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T31.G5.04",
+      "skill_name": "Configure a session ID to isolate practice data",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T31.G5.05",
+      "skill_name": "Interpret connection status indicators in CreatiCode",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T32.G5.01",
+      "skill_name": "Analyze social engineering tactics",
+      "issue": "Depends on G3 skill: T32.G3.01",
+      "priority": "HIGH",
+      "prereq": "T32.G3.01"
+    },
+    {
+      "skill_id": "T32.G5.02",
+      "skill_name": "Evaluate terms of service/privacy policies (kid-friendly summaries)",
+      "issue": "Depends on G3 skill: T32.G3.01",
+      "priority": "HIGH",
+      "prereq": "T32.G3.01"
+    },
+    {
+      "skill_id": "T32.G5.03",
+      "skill_name": "Secure AI training data and outputs",
+      "issue": "Depends on G3 skill: T32.G3.01",
+      "priority": "HIGH",
+      "prereq": "T32.G3.01"
+    },
+    {
+      "skill_id": "T32.G5.04",
+      "skill_name": "Create backup plans for digital work",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T34.G5.01",
+      "skill_name": "Investigate social movements linked to computing",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T34.G5.01",
+      "skill_name": "Investigate social movements linked to computing",
+      "issue": "Depends on G3 skill: T01.G3.02",
+      "priority": "HIGH",
+      "prereq": "T01.G3.02"
+    },
+    {
+      "skill_id": "T34.G5.02",
+      "skill_name": "Compare invention timelines in multiple industries",
+      "issue": "Depends on G3 skill: T34.G3.01",
+      "priority": "HIGH",
+      "prereq": "T34.G3.01"
+    },
+    {
+      "skill_id": "T34.G5.03",
+      "skill_name": "Conduct interviews with tech users",
+      "issue": "Depends on G3 skill: T34.G3.01",
+      "priority": "HIGH",
+      "prereq": "T34.G3.01"
+    },
+    {
+      "skill_id": "T35.G5.01",
+      "skill_name": "Examine global impacts of technology",
+      "issue": "Depends on G3 skill: T35.G3.01",
+      "priority": "HIGH",
+      "prereq": "T35.G3.01"
+    },
+    {
+      "skill_id": "T35.G5.02",
+      "skill_name": "Debate digital well-being scenarios",
+      "issue": "Depends on G3 skill: T35.G3.01",
+      "priority": "HIGH",
+      "prereq": "T35.G3.01"
+    },
+    {
+      "skill_id": "T35.G5.03",
+      "skill_name": "Analyze AI's differential impacts on workers and communities",
+      "issue": "Depends on G3 skill: T04.G3.01",
+      "priority": "HIGH",
+      "prereq": "T04.G3.01"
+    },
+    {
+      "skill_id": "T35.G5.03",
+      "skill_name": "Analyze AI's differential impacts on workers and communities",
+      "issue": "Depends on G3 skill: T35.G3.01",
+      "priority": "HIGH",
+      "prereq": "T35.G3.01"
+    },
+    {
+      "skill_id": "T36.G5.01",
+      "skill_name": "Map personal interests to tech pathways",
+      "issue": "Depends on G3 skill: T09.G3.01",
+      "priority": "HIGH",
+      "prereq": "T09.G3.01"
+    },
+    {
+      "skill_id": "T36.G5.02",
+      "skill_name": "Follow a plan-build-feedback cycle",
+      "issue": "Depends on G3 skill: T01.G3.01",
+      "priority": "HIGH",
+      "prereq": "T01.G3.01"
+    },
+    {
+      "skill_id": "T36.G5.02",
+      "skill_name": "Follow a plan-build-feedback cycle",
+      "issue": "Depends on G3 skill: T07.G3.01",
+      "priority": "HIGH",
+      "prereq": "T07.G3.01"
+    },
+    {
+      "skill_id": "T36.G5.03",
+      "skill_name": "Evaluate inclusion in tech stories",
+      "issue": "Depends on G3 skill: T36.G3.01",
+      "priority": "HIGH",
+      "prereq": "T36.G3.01"
+    }
+  ],
+  "issues_by_topic": {
+    "T01": [
+      {
+        "skill_id": "T01.G5.01",
+        "skill_name": "Match a word description to a flowchart",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T01.G5.02",
+        "skill_name": "Convert a flowchart or pseudocode into code",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.03",
+        "skill_name": "Convert a short program into pseudocode",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.04",
+        "skill_name": "Trace a search algorithm using loops and variables",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T01.G5.04",
+        "skill_name": "Trace a search algorithm using loops and variables",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.05",
+        "skill_name": "Determine whether an algorithm is correct for all inputs",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.05",
+        "skill_name": "Determine whether an algorithm is correct for all inputs",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T01.G5.06",
+        "skill_name": "Compare two algorithms for step counts (efficiency)",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.07",
+        "skill_name": "Debug an algorithm that mis\u2011handles a simple edge case",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.07",
+        "skill_name": "Debug an algorithm that mis\u2011handles a simple edge case",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T01.G5.08",
+        "skill_name": "Add checks to handle edge cases",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.08",
+        "skill_name": "Add checks to handle edge cases",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T01.G5.09",
+        "skill_name": "Explain why an algorithm is correct using loops and variables",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T01.G5.10",
+        "skill_name": "Rewrite a long algorithm using loops or helper steps",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T01.G5.10",
+        "skill_name": "Rewrite a long algorithm using loops or helper steps",
+        "issue": "Depends on G3 skill: T07.G3.01",
+        "priority": "HIGH",
+        "prereq": "T07.G3.01"
+      }
+    ],
+    "T02": [
+      {
+        "skill_id": "T02.G5.01",
+        "skill_name": "Read a multi\u2011branch flowchart and trace a path",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T02.G5.01",
+        "skill_name": "Read a multi\u2011branch flowchart and trace a path",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T02.G5.02",
+        "skill_name": "Design a multi\u2011branch flowchart for a decision task",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T02.G5.02",
+        "skill_name": "Design a multi\u2011branch flowchart for a decision task",
+        "issue": "Depends on G3 skill: T02.G3.01",
+        "priority": "HIGH",
+        "prereq": "T02.G3.01"
+      },
+      {
+        "skill_id": "T02.G5.03",
+        "skill_name": "Trace a flowchart with state tracking using a trace table",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T02.G5.03",
+        "skill_name": "Trace a flowchart with state tracking using a trace table",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T02.G5.04",
+        "skill_name": "Create a trace table for a flowchart with accumulation",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T02.G5.04",
+        "skill_name": "Create a trace table for a flowchart with accumulation",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T02.G5.05",
+        "skill_name": "Write pseudocode for a loop\u2011based algorithm",
+        "issue": "Depends on G3 skill: T08.G3.01",
+        "priority": "HIGH",
+        "prereq": "T08.G3.01"
+      },
+      {
+        "skill_id": "T02.G5.06",
+        "skill_name": "Compare two algorithms for the same task",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      }
+    ],
+    "T03": [
+      {
+        "skill_id": "T03.G5.01",
+        "skill_name": "Create a feature list and subtask breakdown",
+        "issue": "Depends on G3 skill: T03.G3.01",
+        "priority": "HIGH",
+        "prereq": "T03.G3.01"
+      },
+      {
+        "skill_id": "T03.G5.01",
+        "skill_name": "Create a feature list and subtask breakdown",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T03.G5.02",
+        "skill_name": "Draw a high\u2011level project map",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T03.G5.02",
+        "skill_name": "Draw a high\u2011level project map",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T03.G5.03",
+        "skill_name": "Identify task dependencies in a project plan",
+        "issue": "Depends on G3 skill: T03.G3.01",
+        "priority": "HIGH",
+        "prereq": "T03.G3.01"
+      },
+      {
+        "skill_id": "T03.G5.04",
+        "skill_name": "Flag high\u2011risk or unclear tasks",
+        "issue": "Depends on G3 skill: T03.G3.01",
+        "priority": "HIGH",
+        "prereq": "T03.G3.01"
+      },
+      {
+        "skill_id": "T03.G5.05",
+        "skill_name": "Compare two project plans for the same idea",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T03.G5.05",
+        "skill_name": "Compare two project plans for the same idea",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      }
+    ],
+    "T04": [
+      {
+        "skill_id": "T04.G5.01",
+        "skill_name": "Recognize a counter update pattern",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T04.G5.02",
+        "skill_name": "Recognize an accumulator (sum/concatenate) pattern",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T04.G5.03",
+        "skill_name": "Recognize a linear search pattern",
+        "issue": "Depends on G3 skill: T08.G3.01",
+        "priority": "HIGH",
+        "prereq": "T08.G3.01"
+      },
+      {
+        "skill_id": "T04.G5.04",
+        "skill_name": "Recognize a filter\u2011and\u2011collect pattern",
+        "issue": "Depends on G3 skill: T08.G3.01",
+        "priority": "HIGH",
+        "prereq": "T08.G3.01"
+      },
+      {
+        "skill_id": "T04.G5.05",
+        "skill_name": "Compare solutions that use a pattern vs those that don\u2019t",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      }
+    ],
+    "T05": [
+      {
+        "skill_id": "T05.G5.01",
+        "skill_name": "Write clear user needs and requirements for a small app",
+        "issue": "Depends on G3 skill: T05.G3.01",
+        "priority": "HIGH",
+        "prereq": "T05.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.01",
+        "skill_name": "Write clear user needs and requirements for a small app",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.02",
+        "skill_name": "Create a low\u2011fidelity sketch for a user story",
+        "issue": "Depends on G3 skill: T05.G3.01",
+        "priority": "HIGH",
+        "prereq": "T05.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.02",
+        "skill_name": "Create a low\u2011fidelity sketch for a user story",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.03",
+        "skill_name": "Identify variables and initial values for a simulation",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.03",
+        "skill_name": "Identify variables and initial values for a simulation",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.04",
+        "skill_name": "Draft simple update rules for a simulation",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.05",
+        "skill_name": "Plan how to test whether a design meets user needs",
+        "issue": "Depends on G3 skill: T04.G3.01",
+        "priority": "HIGH",
+        "prereq": "T04.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.05",
+        "skill_name": "Plan how to test whether a design meets user needs",
+        "issue": "Depends on G3 skill: T05.G3.01",
+        "priority": "HIGH",
+        "prereq": "T05.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.05",
+        "skill_name": "Plan how to test whether a design meets user needs",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T05.G5.06",
+        "skill_name": "Plan what to measure in a simulation experiment",
+        "issue": "Depends on G3 skill: T05.G3.01",
+        "priority": "HIGH",
+        "prereq": "T05.G3.01"
+      }
+    ],
+    "T06": [
+      {
+        "skill_id": "T06.G5.01",
+        "skill_name": "Identify standard event patterns in a small game",
+        "issue": "Depends on G4 skill: T06.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.06"
+      },
+      {
+        "skill_id": "T06.G5.02",
+        "skill_name": "Add a new event\u2011triggered behavior to an existing game",
+        "issue": "Depends on G4 skill: T06.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.05"
+      },
+      {
+        "skill_id": "T06.G5.02",
+        "skill_name": "Add a new event\u2011triggered behavior to an existing game",
+        "issue": "Depends on G4 skill: T06.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.06"
+      },
+      {
+        "skill_id": "T06.G5.03",
+        "skill_name": "Design a simple broadcast sequence for level start/end",
+        "issue": "Depends on G4 skill: T06.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.05"
+      },
+      {
+        "skill_id": "T06.G5.03",
+        "skill_name": "Design a simple broadcast sequence for level start/end",
+        "issue": "Depends on G4 skill: T06.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.06"
+      },
+      {
+        "skill_id": "T06.G5.04",
+        "skill_name": "Trace event and broadcast order for a scenario",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T06.G5.04",
+        "skill_name": "Trace event and broadcast order for a scenario",
+        "issue": "Depends on G4 skill: T06.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.05"
+      },
+      {
+        "skill_id": "T06.G5.04",
+        "skill_name": "Trace event and broadcast order for a scenario",
+        "issue": "Depends on G4 skill: T06.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.06"
+      },
+      {
+        "skill_id": "T06.G5.05",
+        "skill_name": "Find and fix conflicting event scripts",
+        "issue": "Depends on G4 skill: T06.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.05"
+      },
+      {
+        "skill_id": "T06.G5.05",
+        "skill_name": "Find and fix conflicting event scripts",
+        "issue": "Depends on G4 skill: T06.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.06"
+      },
+      {
+        "skill_id": "T06.G5.06",
+        "skill_name": "Group scripts by event type to improve organization",
+        "issue": "Depends on G4 skill: T06.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.05"
+      },
+      {
+        "skill_id": "T06.G5.06",
+        "skill_name": "Group scripts by event type to improve organization",
+        "issue": "Depends on G4 skill: T06.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T06.G4.06"
+      }
+    ],
+    "T07": [
+      {
+        "skill_id": "T07.G5.01",
+        "skill_name": "Simulate repeated experiments with a loop",
+        "issue": "Depends on G4 skill: T07.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.05"
+      },
+      {
+        "skill_id": "T07.G5.01",
+        "skill_name": "Simulate repeated experiments with a loop",
+        "issue": "Depends on G4 skill: T07.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.06"
+      },
+      {
+        "skill_id": "T07.G5.02",
+        "skill_name": "Build a list with a loop",
+        "issue": "Depends on G4 skill: T07.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.05"
+      },
+      {
+        "skill_id": "T07.G5.02",
+        "skill_name": "Build a list with a loop",
+        "issue": "Depends on G4 skill: T07.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.06"
+      },
+      {
+        "skill_id": "T07.G5.03",
+        "skill_name": "Use loops to compute aggregates",
+        "issue": "Depends on G4 skill: T07.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.06"
+      },
+      {
+        "skill_id": "T07.G5.04",
+        "skill_name": "Nested loops for advanced patterns or tilings",
+        "issue": "Depends on G4 skill: T07.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.05"
+      },
+      {
+        "skill_id": "T07.G5.04",
+        "skill_name": "Nested loops for advanced patterns or tilings",
+        "issue": "Depends on G4 skill: T07.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T07.G4.06"
+      }
+    ],
+    "T08": [
+      {
+        "skill_id": "T08.G5.01",
+        "skill_name": "Design multi-branch decision logic",
+        "issue": "Depends on G4 skill: T08.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.07"
+      },
+      {
+        "skill_id": "T08.G5.01",
+        "skill_name": "Design multi-branch decision logic",
+        "issue": "Depends on G4 skill: T08.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.08"
+      },
+      {
+        "skill_id": "T08.G5.02",
+        "skill_name": "Use NOT to invert conditions",
+        "issue": "Depends on G4 skill: T08.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.07"
+      },
+      {
+        "skill_id": "T08.G5.02",
+        "skill_name": "Use NOT to invert conditions",
+        "issue": "Depends on G4 skill: T08.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.08"
+      },
+      {
+        "skill_id": "T08.G5.03",
+        "skill_name": "Combine three or more conditions",
+        "issue": "Depends on G4 skill: T08.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.07"
+      },
+      {
+        "skill_id": "T08.G5.03",
+        "skill_name": "Combine three or more conditions",
+        "issue": "Depends on G4 skill: T08.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.08"
+      },
+      {
+        "skill_id": "T08.G5.04",
+        "skill_name": "Trace complex decision logic",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T08.G5.04",
+        "skill_name": "Trace complex decision logic",
+        "issue": "Depends on G4 skill: T08.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.07"
+      },
+      {
+        "skill_id": "T08.G5.04",
+        "skill_name": "Trace complex decision logic",
+        "issue": "Depends on G4 skill: T08.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T08.G4.08"
+      }
+    ],
+    "T09": [
+      {
+        "skill_id": "T09.G5.01",
+        "skill_name": "Use multiple variables together in expressions",
+        "issue": "Depends on G4 skill: T09.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.07"
+      },
+      {
+        "skill_id": "T09.G5.01",
+        "skill_name": "Use multiple variables together in expressions",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.02",
+        "skill_name": "Use string variables and concatenation",
+        "issue": "Depends on G4 skill: T09.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.07"
+      },
+      {
+        "skill_id": "T09.G5.02",
+        "skill_name": "Use string variables and concatenation",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.03",
+        "skill_name": "Use variables to configure behavior (parameters without functions)",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.04",
+        "skill_name": "Use expressions involving lists (length, indexing)",
+        "issue": "Depends on G4 skill: T09.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.07"
+      },
+      {
+        "skill_id": "T09.G5.04",
+        "skill_name": "Use expressions involving lists (length, indexing)",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.05",
+        "skill_name": "Use variables to track cumulative statistics",
+        "issue": "Depends on G4 skill: T09.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.07"
+      },
+      {
+        "skill_id": "T09.G5.05",
+        "skill_name": "Use variables to track cumulative statistics",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.06",
+        "skill_name": "Trace complex variable assignments and expressions",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T09.G5.06",
+        "skill_name": "Trace complex variable assignments and expressions",
+        "issue": "Depends on G4 skill: T09.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.07"
+      },
+      {
+        "skill_id": "T09.G5.06",
+        "skill_name": "Trace complex variable assignments and expressions",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.07",
+        "skill_name": "Trace a counter variable in a loop",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      },
+      {
+        "skill_id": "T09.G5.08",
+        "skill_name": "Trace an accumulator that sums values",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T09.G5.08",
+        "skill_name": "Trace an accumulator that sums values",
+        "issue": "Depends on G4 skill: T09.G4.07",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.07"
+      },
+      {
+        "skill_id": "T09.G5.08",
+        "skill_name": "Trace an accumulator that sums values",
+        "issue": "Depends on G4 skill: T09.G4.08",
+        "priority": "MEDIUM",
+        "prereq": "T09.G4.08"
+      }
+    ],
+    "T10": [
+      {
+        "skill_id": "T10.G5.01",
+        "skill_name": "Create and populate a table variable",
+        "issue": "Depends on G4 skill: T10.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.05"
+      },
+      {
+        "skill_id": "T10.G5.01",
+        "skill_name": "Create and populate a table variable",
+        "issue": "Depends on G4 skill: T10.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.06"
+      },
+      {
+        "skill_id": "T10.G5.02",
+        "skill_name": "Access table cells by row and column",
+        "issue": "Depends on G4 skill: T10.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.05"
+      },
+      {
+        "skill_id": "T10.G5.02",
+        "skill_name": "Access table cells by row and column",
+        "issue": "Depends on G4 skill: T10.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.06"
+      },
+      {
+        "skill_id": "T10.G5.03",
+        "skill_name": "Update or insert rows in a table",
+        "issue": "Depends on G4 skill: T10.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.05"
+      },
+      {
+        "skill_id": "T10.G5.03",
+        "skill_name": "Update or insert rows in a table",
+        "issue": "Depends on G4 skill: T10.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.06"
+      },
+      {
+        "skill_id": "T10.G5.04",
+        "skill_name": "Loop through table rows to compute aggregates",
+        "issue": "Depends on G4 skill: T10.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.06"
+      },
+      {
+        "skill_id": "T10.G5.05",
+        "skill_name": "Search and filter table data",
+        "issue": "Depends on G4 skill: T10.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.05"
+      },
+      {
+        "skill_id": "T10.G5.05",
+        "skill_name": "Search and filter table data",
+        "issue": "Depends on G4 skill: T10.G4.06",
+        "priority": "MEDIUM",
+        "prereq": "T10.G4.06"
+      }
+    ],
+    "T11": [
+      {
+        "skill_id": "T11.G5.01",
+        "skill_name": "Identify subproblems that deserve their own helper",
+        "issue": "Depends on G4 skill: T11.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.05"
+      },
+      {
+        "skill_id": "T11.G5.02",
+        "skill_name": "Define a simple helper with one parameter",
+        "issue": "Depends on G4 skill: T11.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.04"
+      },
+      {
+        "skill_id": "T11.G5.02",
+        "skill_name": "Define a simple helper with one parameter",
+        "issue": "Depends on G4 skill: T11.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.05"
+      },
+      {
+        "skill_id": "T11.G5.03",
+        "skill_name": "Decide between a parameter and a call to a separate block",
+        "issue": "Depends on G4 skill: T11.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.04"
+      },
+      {
+        "skill_id": "T11.G5.03",
+        "skill_name": "Decide between a parameter and a call to a separate block",
+        "issue": "Depends on G4 skill: T11.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.05"
+      },
+      {
+        "skill_id": "T11.G5.04",
+        "skill_name": "Analyze a modular program structure",
+        "issue": "Depends on G4 skill: T11.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.04"
+      },
+      {
+        "skill_id": "T11.G5.04",
+        "skill_name": "Analyze a modular program structure",
+        "issue": "Depends on G4 skill: T11.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T11.G4.05"
+      }
+    ],
+    "T12": [
+      {
+        "skill_id": "T12.G5.01",
+        "skill_name": "Create external documentation for a project",
+        "issue": "Depends on G4 skill: T12.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.03"
+      },
+      {
+        "skill_id": "T12.G5.01",
+        "skill_name": "Create external documentation for a project",
+        "issue": "Depends on G4 skill: T12.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.04"
+      },
+      {
+        "skill_id": "T12.G5.02",
+        "skill_name": "Document code functionality and choices",
+        "issue": "Depends on G3 skill: T12.G3.01",
+        "priority": "HIGH",
+        "prereq": "T12.G3.01"
+      },
+      {
+        "skill_id": "T12.G5.02",
+        "skill_name": "Document code functionality and choices",
+        "issue": "Depends on G4 skill: T12.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.03"
+      },
+      {
+        "skill_id": "T12.G5.02",
+        "skill_name": "Document code functionality and choices",
+        "issue": "Depends on G4 skill: T12.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.04"
+      },
+      {
+        "skill_id": "T12.G5.03",
+        "skill_name": "Organize a multi-feature project with sections",
+        "issue": "Depends on G4 skill: T12.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.03"
+      },
+      {
+        "skill_id": "T12.G5.03",
+        "skill_name": "Organize a multi-feature project with sections",
+        "issue": "Depends on G4 skill: T12.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.04"
+      },
+      {
+        "skill_id": "T12.G5.04",
+        "skill_name": "Review and improve another student's code organization",
+        "issue": "Depends on G4 skill: T12.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.03"
+      },
+      {
+        "skill_id": "T12.G5.04",
+        "skill_name": "Review and improve another student's code organization",
+        "issue": "Depends on G4 skill: T12.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T12.G4.04"
+      }
+    ],
+    "T13": [
+      {
+        "skill_id": "T13.G5.01",
+        "skill_name": "Debug programs using tracing and logging",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T13.G5.02",
+        "skill_name": "Handle invalid or edge case input",
+        "issue": "Depends on G3 skill: T08.G3.01",
+        "priority": "HIGH",
+        "prereq": "T08.G3.01"
+      },
+      {
+        "skill_id": "T13.G5.03",
+        "skill_name": "Create and follow a test plan",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T13.G5.04",
+        "skill_name": "Modify a program to improve reliability and correctness",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T13.G5.04",
+        "skill_name": "Modify a program to improve reliability and correctness",
+        "issue": "Depends on G4 skill: T13.G4.01",
+        "priority": "MEDIUM",
+        "prereq": "T13.G4.01"
+      }
+    ],
+    "T14": [
+      {
+        "skill_id": "T14.G5.01",
+        "skill_name": "**[Engine Skill]** Configure gravity and weight parameters",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.01",
+        "skill_name": "**[Engine Skill]** Configure gravity and weight parameters",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.02",
+        "skill_name": "Control jump timing",
+        "issue": "Depends on G3 skill: T06.G3.02",
+        "priority": "HIGH",
+        "prereq": "T06.G3.02"
+      },
+      {
+        "skill_id": "T14.G5.02",
+        "skill_name": "Control jump timing",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.02",
+        "skill_name": "Control jump timing",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.03",
+        "skill_name": "Fix ground collisions",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.03",
+        "skill_name": "Fix ground collisions",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.04",
+        "skill_name": "Script viewport pans",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.04",
+        "skill_name": "Script viewport pans",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.05",
+        "skill_name": "Lock viewport to the player",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.05",
+        "skill_name": "Lock viewport to the player",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.06",
+        "skill_name": "Pin HUD to the screen",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.06",
+        "skill_name": "Pin HUD to the screen",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.07",
+        "skill_name": "Spawn near the viewport",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.07",
+        "skill_name": "Spawn near the viewport",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.08",
+        "skill_name": "Timed waves",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.08",
+        "skill_name": "Timed waves",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.09",
+        "skill_name": "High score list",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.09",
+        "skill_name": "High score list",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.10",
+        "skill_name": "Inventory system",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T14.G5.10",
+        "skill_name": "Inventory system",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      }
+    ],
+    "T15": [
+      {
+        "skill_id": "T15.G5.01",
+        "skill_name": "Broadcast scene change",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.01",
+        "skill_name": "Broadcast scene change",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.02",
+        "skill_name": "Broadcast specific actions",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.02",
+        "skill_name": "Broadcast specific actions",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.03",
+        "skill_name": "Simulated Camera Pan",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.03",
+        "skill_name": "Simulated Camera Pan",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.04",
+        "skill_name": "Layering logic",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.04",
+        "skill_name": "Layering logic",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.05",
+        "skill_name": "Join text strings",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.05",
+        "skill_name": "Join text strings",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.06",
+        "skill_name": "Text effects (Typewriter)",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.06",
+        "skill_name": "Text effects (Typewriter)",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.07",
+        "skill_name": "Track story choices",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.07",
+        "skill_name": "Track story choices",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T15.G5.08",
+        "skill_name": "Conditional endings",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T15.G5.08",
+        "skill_name": "Conditional endings",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      }
+    ],
+    "T16": [
+      {
+        "skill_id": "T16.G5.01",
+        "skill_name": "Create a multi\u2011screen app with a navigation interface",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T16.G5.01",
+        "skill_name": "Create a multi\u2011screen app with a navigation interface",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T16.G5.01",
+        "skill_name": "Create a multi\u2011screen app with a navigation interface",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T16.G5.02",
+        "skill_name": "Design a form with multiple inputs and validation",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T16.G5.02",
+        "skill_name": "Design a form with multiple inputs and validation",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T16.G5.03",
+        "skill_name": "Build a leaderboard or high\u2011score display",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T16.G5.03",
+        "skill_name": "Build a leaderboard or high\u2011score display",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T16.G5.03",
+        "skill_name": "Build a leaderboard or high\u2011score display",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T16.G5.04",
+        "skill_name": "Implement a responsive HUD that reacts to game state",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T16.G5.04",
+        "skill_name": "Implement a responsive HUD that reacts to game state",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T16.G5.04",
+        "skill_name": "Implement a responsive HUD that reacts to game state",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      }
+    ],
+    "T17": [
+      {
+        "skill_id": "T17.G5.01",
+        "skill_name": "Choose manual vs engine-based physics",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T17.G5.01",
+        "skill_name": "Choose manual vs engine-based physics",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.02",
+        "skill_name": "Track gravity with velocity variables",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.02",
+        "skill_name": "Track gravity with velocity variables",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.03",
+        "skill_name": "Use horizontal speed and friction variables",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T17.G5.03",
+        "skill_name": "Use horizontal speed and friction variables",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.03",
+        "skill_name": "Use horizontal speed and friction variables",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.04",
+        "skill_name": "Code a manual bounce with energy loss",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T17.G5.04",
+        "skill_name": "Code a manual bounce with energy loss",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.04",
+        "skill_name": "Code a manual bounce with energy loss",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.05",
+        "skill_name": "Initialize a 2D physics world",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.05",
+        "skill_name": "Initialize a 2D physics world",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.06",
+        "skill_name": "Attach a dynamic body to a sprite",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.06",
+        "skill_name": "Attach a dynamic body to a sprite",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.07",
+        "skill_name": "Build static boundaries for floors and walls",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.07",
+        "skill_name": "Build static boundaries for floors and walls",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.08",
+        "skill_name": "Apply an impulse to jump or push",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.08",
+        "skill_name": "Apply an impulse to jump or push",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.09",
+        "skill_name": "**[Engine Skill]** Configure gravity and mass parameters",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.09",
+        "skill_name": "**[Engine Skill]** Configure gravity and mass parameters",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.10",
+        "skill_name": "Trace simple 2D physics motion",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.10",
+        "skill_name": "Trace simple 2D physics motion",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.11",
+        "skill_name": "Debug missing physics setup",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T17.G5.11",
+        "skill_name": "Debug missing physics setup",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T17.G5.11",
+        "skill_name": "Debug missing physics setup",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      }
+    ],
+    "T18": [
+      {
+        "skill_id": "T18.G5.01",
+        "skill_name": "Initialize a 3D physics world",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T18.G5.01",
+        "skill_name": "Initialize a 3D physics world",
+        "issue": "Depends on G3 skill: T14.G3.01",
+        "priority": "HIGH",
+        "prereq": "T14.G3.01"
+      },
+      {
+        "skill_id": "T18.G5.02",
+        "skill_name": "Attach static and dynamic physics bodies",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T18.G5.02",
+        "skill_name": "Attach static and dynamic physics bodies",
+        "issue": "Depends on G3 skill: T14.G3.01",
+        "priority": "HIGH",
+        "prereq": "T14.G3.01"
+      },
+      {
+        "skill_id": "T18.G5.03",
+        "skill_name": "Detect physics collisions to collect items",
+        "issue": "Depends on G4 skill: T18.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T18.G4.05"
+      },
+      {
+        "skill_id": "T18.G5.04",
+        "skill_name": "Use nested loops to arrange 3D objects in grids",
+        "issue": "Depends on G4 skill: T18.G4.05",
+        "priority": "MEDIUM",
+        "prereq": "T18.G4.05"
+      },
+      {
+        "skill_id": "T18.G5.05",
+        "skill_name": "Apply detailed textures or materials to surfaces",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T18.G5.05",
+        "skill_name": "Apply detailed textures or materials to surfaces",
+        "issue": "Depends on G3 skill: T14.G3.01",
+        "priority": "HIGH",
+        "prereq": "T14.G3.01"
+      },
+      {
+        "skill_id": "T18.G5.06",
+        "skill_name": "Add global fog or particle effects for atmosphere",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T18.G5.06",
+        "skill_name": "Add global fog or particle effects for atmosphere",
+        "issue": "Depends on G3 skill: T14.G3.01",
+        "priority": "HIGH",
+        "prereq": "T14.G3.01"
+      }
+    ],
+    "T19": [
+      {
+        "skill_id": "T19.G5.01",
+        "skill_name": "Host or join a CreatiCode multiplayer lobby",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T19.G5.01",
+        "skill_name": "Host or join a CreatiCode multiplayer lobby",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T19.G5.02",
+        "skill_name": "Build a ready-up indicator before the game starts",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T19.G5.02",
+        "skill_name": "Build a ready-up indicator before the game starts",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T19.G5.02",
+        "skill_name": "Build a ready-up indicator before the game starts",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      },
+      {
+        "skill_id": "T19.G5.03",
+        "skill_name": "Implement shared quick chat or emote buttons",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T19.G5.03",
+        "skill_name": "Implement shared quick chat or emote buttons",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T19.G5.04",
+        "skill_name": "Display a synchronized scoreboard for the current session",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T19.G5.04",
+        "skill_name": "Display a synchronized scoreboard for the current session",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T19.G5.05",
+        "skill_name": "Diagnose and respond to connection status changes",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T19.G5.05",
+        "skill_name": "Diagnose and respond to connection status changes",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T19.G5.05",
+        "skill_name": "Diagnose and respond to connection status changes",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      }
+    ],
+    "T20": [
+      {
+        "skill_id": "T20.G5.01",
+        "skill_name": "**[Technical Skill]** Implement data-driven visualization algorithms",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T20.G5.02",
+        "skill_name": "Animate a pattern with a counter variable",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T20.G5.03",
+        "skill_name": "Make art respond to mouse or keys",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T20.G5.04",
+        "skill_name": "Create fractal-like nested patterns",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      },
+      {
+        "skill_id": "T20.G5.05",
+        "skill_name": "Explain data-to-visual design choices",
+        "issue": "Depends on G3 skill: T07.G3.05",
+        "priority": "HIGH",
+        "prereq": "T07.G3.05"
+      }
+    ],
+    "T21": [
+      {
+        "skill_id": "T21.G5.01",
+        "skill_name": "Plan which assets should be AI-made vs hand-made",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T21.G5.01",
+        "skill_name": "Plan which assets should be AI-made vs hand-made",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      }
+    ],
+    "T22": [
+      {
+        "skill_id": "T22.G5.01",
+        "skill_name": "Flag risky vs safe chatbot prompts",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T22.G5.01",
+        "skill_name": "Flag risky vs safe chatbot prompts",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T22.G5.01",
+        "skill_name": "Flag risky vs safe chatbot prompts",
+        "issue": "Depends on G3 skill: T22.G3.01",
+        "priority": "HIGH",
+        "prereq": "T22.G3.01"
+      }
+    ],
+    "T23": [
+      {
+        "skill_id": "T23.G5.01",
+        "skill_name": "Compare what people see vs what pixels show",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T23.G5.01",
+        "skill_name": "Compare what people see vs what pixels show",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T23.G5.02",
+        "skill_name": "Explain why an AI might mis-hear or mis-see",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T23.G5.02",
+        "skill_name": "Explain why an AI might mis-hear or mis-see",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T23.G5.03",
+        "skill_name": "Choose safe ways to handle sensor data",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T23.G5.03",
+        "skill_name": "Choose safe ways to handle sensor data",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      },
+      {
+        "skill_id": "T23.G5.04",
+        "skill_name": "Identify when AI sensing might be unfair",
+        "issue": "Depends on G3 skill: T06.G3.08",
+        "priority": "HIGH",
+        "prereq": "T06.G3.08"
+      },
+      {
+        "skill_id": "T23.G5.04",
+        "skill_name": "Identify when AI sensing might be unfair",
+        "issue": "Depends on G3 skill: T08.G3.05",
+        "priority": "HIGH",
+        "prereq": "T08.G3.05"
+      }
+    ],
+    "T24": [
+      {
+        "skill_id": "T24.G5.01",
+        "skill_name": "Read and interpret XO\u2019s interface cues",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T24.G5.01",
+        "skill_name": "Read and interpret XO\u2019s interface cues",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T24.G5.02",
+        "skill_name": "Ask XO for a three-step project plan",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T24.G5.02",
+        "skill_name": "Ask XO for a three-step project plan",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T24.G5.03",
+        "skill_name": "Turn an XO suggestion into starter code safely",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      },
+      {
+        "skill_id": "T24.G5.04",
+        "skill_name": "Use the AI image library to collect matching assets",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T24.G5.04",
+        "skill_name": "Use the AI image library to collect matching assets",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T24.G5.04",
+        "skill_name": "Use the AI image library to collect matching assets",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      },
+      {
+        "skill_id": "T24.G5.05",
+        "skill_name": "Reject unsafe or off-spec XO suggestions",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T24.G5.05",
+        "skill_name": "Reject unsafe or off-spec XO suggestions",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T24.G5.05",
+        "skill_name": "Reject unsafe or off-spec XO suggestions",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      }
+    ],
+    "T25": [
+      {
+        "skill_id": "T25.G5.01",
+        "skill_name": "Model multi-type game state",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T25.G5.01",
+        "skill_name": "Model multi-type game state",
+        "issue": "Depends on G3 skill: T25.G3.01",
+        "priority": "HIGH",
+        "prereq": "T25.G3.01"
+      },
+      {
+        "skill_id": "T25.G5.02",
+        "skill_name": "Convert messy inputs into canonical formats",
+        "issue": "Depends on G3 skill: T06.G3.01",
+        "priority": "HIGH",
+        "prereq": "T06.G3.01"
+      },
+      {
+        "skill_id": "T25.G5.02",
+        "skill_name": "Convert messy inputs into canonical formats",
+        "issue": "Depends on G3 skill: T25.G3.01",
+        "priority": "HIGH",
+        "prereq": "T25.G3.01"
+      },
+      {
+        "skill_id": "T25.G5.03",
+        "skill_name": "Decide when to upgrade from list to table",
+        "issue": "Depends on G3 skill: T25.G3.01",
+        "priority": "HIGH",
+        "prereq": "T25.G3.01"
+      },
+      {
+        "skill_id": "T25.G5.04",
+        "skill_name": "Encode categorical values with symbols or enums",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      }
+    ],
+    "T26": [
+      {
+        "skill_id": "T26.G5.01",
+        "skill_name": "Instrument a project with runtime logs",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T26.G5.01",
+        "skill_name": "Instrument a project with runtime logs",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      },
+      {
+        "skill_id": "T26.G5.02",
+        "skill_name": "Plan sampling strategies",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T26.G5.02",
+        "skill_name": "Plan sampling strategies",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      },
+      {
+        "skill_id": "T26.G5.03",
+        "skill_name": "Validate data entry with error checks",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T26.G5.03",
+        "skill_name": "Validate data entry with error checks",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      },
+      {
+        "skill_id": "T26.G5.04",
+        "skill_name": "Store logs in CreatiCode tables for export",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T26.G5.04",
+        "skill_name": "Store logs in CreatiCode tables for export",
+        "issue": "Depends on G3 skill: T10.G3.03",
+        "priority": "HIGH",
+        "prereq": "T10.G3.03"
+      }
+    ],
+    "T27": [
+      {
+        "skill_id": "T27.G5.01",
+        "skill_name": "Build interactive dashboards with widgets",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T27.G5.01",
+        "skill_name": "Build interactive dashboards with widgets",
+        "issue": "Depends on G3 skill: T26.G3.04",
+        "priority": "HIGH",
+        "prereq": "T26.G3.04"
+      },
+      {
+        "skill_id": "T27.G5.03",
+        "skill_name": "Compare data from two sensors or sources",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T27.G5.03",
+        "skill_name": "Compare data from two sensors or sources",
+        "issue": "Depends on G3 skill: T26.G3.04",
+        "priority": "HIGH",
+        "prereq": "T26.G3.04"
+      },
+      {
+        "skill_id": "T27.G5.04",
+        "skill_name": "Present findings using slides or mini reports",
+        "issue": "Depends on G3 skill: T09.G3.04",
+        "priority": "HIGH",
+        "prereq": "T09.G3.04"
+      },
+      {
+        "skill_id": "T27.G5.04",
+        "skill_name": "Present findings using slides or mini reports",
+        "issue": "Depends on G3 skill: T26.G3.04",
+        "priority": "HIGH",
+        "prereq": "T26.G3.04"
+      }
+    ],
+    "T28": [
+      {
+        "skill_id": "T28.G5.01",
+        "skill_name": "Simulate compound events (two dice)",
+        "issue": "Depends on G4 skill: T28.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.04"
+      },
+      {
+        "skill_id": "T28.G5.02",
+        "skill_name": "Randomly assign participants to conditions",
+        "issue": "Depends on G4 skill: T28.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.03"
+      },
+      {
+        "skill_id": "T28.G5.02",
+        "skill_name": "Randomly assign participants to conditions",
+        "issue": "Depends on G4 skill: T28.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.04"
+      },
+      {
+        "skill_id": "T28.G5.03",
+        "skill_name": "Use Monte Carlo to estimate an area or probability",
+        "issue": "Depends on G4 skill: T28.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.03"
+      },
+      {
+        "skill_id": "T28.G5.03",
+        "skill_name": "Use Monte Carlo to estimate an area or probability",
+        "issue": "Depends on G4 skill: T28.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.04"
+      },
+      {
+        "skill_id": "T28.G5.04",
+        "skill_name": "Document simulation plans before coding",
+        "issue": "Depends on G4 skill: T28.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.03"
+      },
+      {
+        "skill_id": "T28.G5.04",
+        "skill_name": "Document simulation plans before coding",
+        "issue": "Depends on G4 skill: T28.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T28.G4.04"
+      }
+    ],
+    "T29": [
+      {
+        "skill_id": "T29.G5.01",
+        "skill_name": "Structure chat logs into tables",
+        "issue": "Depends on G4 skill: T29.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.04"
+      },
+      {
+        "skill_id": "T29.G5.02",
+        "skill_name": "Build stop-word filters and keyword lists",
+        "issue": "Depends on G4 skill: T29.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.03"
+      },
+      {
+        "skill_id": "T29.G5.02",
+        "skill_name": "Build stop-word filters and keyword lists",
+        "issue": "Depends on G4 skill: T29.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.04"
+      },
+      {
+        "skill_id": "T29.G5.03",
+        "skill_name": "Measure simple sentiment heuristics",
+        "issue": "Depends on G4 skill: T29.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.03"
+      },
+      {
+        "skill_id": "T29.G5.03",
+        "skill_name": "Measure simple sentiment heuristics",
+        "issue": "Depends on G4 skill: T29.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.04"
+      },
+      {
+        "skill_id": "T29.G5.04",
+        "skill_name": "Map story descriptions into AI prompt slots",
+        "issue": "Depends on G4 skill: T29.G4.03",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.03"
+      },
+      {
+        "skill_id": "T29.G5.04",
+        "skill_name": "Map story descriptions into AI prompt slots",
+        "issue": "Depends on G4 skill: T29.G4.04",
+        "priority": "MEDIUM",
+        "prereq": "T29.G4.04"
+      }
+    ],
+    "T30": [
+      {
+        "skill_id": "T30.G5.01",
+        "skill_name": "Match CreatiCode AI features to hardware requirements",
+        "issue": "Depends on G3 skill: T30.G3.01",
+        "priority": "HIGH",
+        "prereq": "T30.G3.01"
+      },
+      {
+        "skill_id": "T30.G5.02",
+        "skill_name": "Plan safe device-handling procedures for group work",
+        "issue": "Depends on G3 skill: T30.G3.01",
+        "priority": "HIGH",
+        "prereq": "T30.G3.01"
+      },
+      {
+        "skill_id": "T30.G5.03",
+        "skill_name": "Explain how different sensors collect data",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T30.G5.04",
+        "skill_name": "Relate hardware choices to accessibility outcomes",
+        "issue": "Depends on G3 skill: T30.G3.01",
+        "priority": "HIGH",
+        "prereq": "T30.G3.01"
+      }
+    ],
+    "T31": [
+      {
+        "skill_id": "T31.G5.01",
+        "skill_name": "Trace how a device reaches an online service",
+        "issue": "Depends on G3 skill: T02.G3.01",
+        "priority": "HIGH",
+        "prereq": "T02.G3.01"
+      },
+      {
+        "skill_id": "T31.G5.02",
+        "skill_name": "Decide when apps need the internet vs work offline",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T31.G5.02",
+        "skill_name": "Decide when apps need the internet vs work offline",
+        "issue": "Depends on G3 skill: T30.G3.01",
+        "priority": "HIGH",
+        "prereq": "T30.G3.01"
+      },
+      {
+        "skill_id": "T31.G5.03",
+        "skill_name": "Save and reload a preference using a cloud variable",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T31.G5.04",
+        "skill_name": "Configure a session ID to isolate practice data",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T31.G5.05",
+        "skill_name": "Interpret connection status indicators in CreatiCode",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      }
+    ],
+    "T32": [
+      {
+        "skill_id": "T32.G5.01",
+        "skill_name": "Analyze social engineering tactics",
+        "issue": "Depends on G3 skill: T32.G3.01",
+        "priority": "HIGH",
+        "prereq": "T32.G3.01"
+      },
+      {
+        "skill_id": "T32.G5.02",
+        "skill_name": "Evaluate terms of service/privacy policies (kid-friendly summaries)",
+        "issue": "Depends on G3 skill: T32.G3.01",
+        "priority": "HIGH",
+        "prereq": "T32.G3.01"
+      },
+      {
+        "skill_id": "T32.G5.03",
+        "skill_name": "Secure AI training data and outputs",
+        "issue": "Depends on G3 skill: T32.G3.01",
+        "priority": "HIGH",
+        "prereq": "T32.G3.01"
+      },
+      {
+        "skill_id": "T32.G5.04",
+        "skill_name": "Create backup plans for digital work",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      }
+    ],
+    "T34": [
+      {
+        "skill_id": "T34.G5.01",
+        "skill_name": "Investigate social movements linked to computing",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T34.G5.01",
+        "skill_name": "Investigate social movements linked to computing",
+        "issue": "Depends on G3 skill: T01.G3.02",
+        "priority": "HIGH",
+        "prereq": "T01.G3.02"
+      },
+      {
+        "skill_id": "T34.G5.02",
+        "skill_name": "Compare invention timelines in multiple industries",
+        "issue": "Depends on G3 skill: T34.G3.01",
+        "priority": "HIGH",
+        "prereq": "T34.G3.01"
+      },
+      {
+        "skill_id": "T34.G5.03",
+        "skill_name": "Conduct interviews with tech users",
+        "issue": "Depends on G3 skill: T34.G3.01",
+        "priority": "HIGH",
+        "prereq": "T34.G3.01"
+      }
+    ],
+    "T35": [
+      {
+        "skill_id": "T35.G5.01",
+        "skill_name": "Examine global impacts of technology",
+        "issue": "Depends on G3 skill: T35.G3.01",
+        "priority": "HIGH",
+        "prereq": "T35.G3.01"
+      },
+      {
+        "skill_id": "T35.G5.02",
+        "skill_name": "Debate digital well-being scenarios",
+        "issue": "Depends on G3 skill: T35.G3.01",
+        "priority": "HIGH",
+        "prereq": "T35.G3.01"
+      },
+      {
+        "skill_id": "T35.G5.03",
+        "skill_name": "Analyze AI's differential impacts on workers and communities",
+        "issue": "Depends on G3 skill: T04.G3.01",
+        "priority": "HIGH",
+        "prereq": "T04.G3.01"
+      },
+      {
+        "skill_id": "T35.G5.03",
+        "skill_name": "Analyze AI's differential impacts on workers and communities",
+        "issue": "Depends on G3 skill: T35.G3.01",
+        "priority": "HIGH",
+        "prereq": "T35.G3.01"
+      }
+    ],
+    "T36": [
+      {
+        "skill_id": "T36.G5.01",
+        "skill_name": "Map personal interests to tech pathways",
+        "issue": "Depends on G3 skill: T09.G3.01",
+        "priority": "HIGH",
+        "prereq": "T09.G3.01"
+      },
+      {
+        "skill_id": "T36.G5.02",
+        "skill_name": "Follow a plan-build-feedback cycle",
+        "issue": "Depends on G3 skill: T01.G3.01",
+        "priority": "HIGH",
+        "prereq": "T01.G3.01"
+      },
+      {
+        "skill_id": "T36.G5.02",
+        "skill_name": "Follow a plan-build-feedback cycle",
+        "issue": "Depends on G3 skill: T07.G3.01",
+        "priority": "HIGH",
+        "prereq": "T07.G3.01"
+      },
+      {
+        "skill_id": "T36.G5.03",
+        "skill_name": "Evaluate inclusion in tech stories",
+        "issue": "Depends on G3 skill: T36.G3.01",
+        "priority": "HIGH",
+        "prereq": "T36.G3.01"
+      }
+    ]
+  }
+}

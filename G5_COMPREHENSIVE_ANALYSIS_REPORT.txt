@@ -1,0 +1,478 @@
+================================================================================
+GRADE 5 SKILLS - COMPREHENSIVE DEPENDENCY ANALYSIS REPORT
+================================================================================
+
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total issues found: 64
+  HIGH priority:   38
+  MEDIUM priority: 26
+  LOW priority:    0
+
+
+================================================================================
+HIGH PRIORITY ISSUES (38 issues)
+================================================================================
+
+
+Invalid grade dependency (38 issues)
+--------------------------------------------------------------------------------
+
+Issue #1:
+  Skill ID: T03.G5.01
+  Skill Name: Create a feature list and subtask breakdown
+  Current State: Depends on T03.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T03.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #2:
+  Skill ID: T03.G5.03
+  Skill Name: Identify task dependencies in a project plan
+  Current State: Depends on T03.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T03.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #3:
+  Skill ID: T03.G5.04
+  Skill Name: Flag high‑risk or unclear tasks
+  Current State: Depends on T03.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T03.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #4:
+  Skill ID: T05.G5.01
+  Skill Name: Write clear user needs and requirements for a small app
+  Current State: Depends on T05.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T05.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #5:
+  Skill ID: T05.G5.02
+  Skill Name: Create a low‑fidelity sketch for a user story
+  Current State: Depends on T05.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T05.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #6:
+  Skill ID: T05.G5.05
+  Skill Name: Plan how to test whether a design meets user needs
+  Current State: Depends on T04.G2.01 (Grade G2)
+  Recommended Fix: Remove dependency on T04.G2.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #7:
+  Skill ID: T05.G5.05
+  Skill Name: Plan how to test whether a design meets user needs
+  Current State: Depends on T05.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T05.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #8:
+  Skill ID: T05.G5.06
+  Skill Name: Plan what to measure in a simulation experiment
+  Current State: Depends on T05.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T05.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #9:
+  Skill ID: T12.G5.02
+  Skill Name: Document code functionality and choices
+  Current State: Depends on T12.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T12.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #10:
+  Skill ID: T13.G5.04
+  Skill Name: Modify a program to improve reliability and correctness
+  Current State: Depends on T13.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T13.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #11:
+  Skill ID: T25.G5.01
+  Skill Name: Model multi-type game state
+  Current State: Depends on T25.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T25.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #12:
+  Skill ID: T25.G5.02
+  Skill Name: Convert messy inputs into canonical formats
+  Current State: Depends on T25.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T25.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #13:
+  Skill ID: T25.G5.03
+  Skill Name: Decide when to upgrade from list to table
+  Current State: Depends on T25.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T25.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #14:
+  Skill ID: T25.G5.03
+  Skill Name: Decide when to upgrade from list to table
+  Current State: Depends on T25.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T25.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #15:
+  Skill ID: T30.G5.01
+  Skill Name: Match CreatiCode AI features to hardware requirements
+  Current State: Depends on T30.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T30.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #16:
+  Skill ID: T30.G5.01
+  Skill Name: Match CreatiCode AI features to hardware requirements
+  Current State: Depends on T30.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T30.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #17:
+  Skill ID: T30.G5.02
+  Skill Name: Plan safe device-handling procedures for group work
+  Current State: Depends on T30.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T30.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #18:
+  Skill ID: T30.G5.02
+  Skill Name: Plan safe device-handling procedures for group work
+  Current State: Depends on T30.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T30.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #19:
+  Skill ID: T30.G5.04
+  Skill Name: Relate hardware choices to accessibility outcomes
+  Current State: Depends on T30.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T30.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #20:
+  Skill ID: T30.G5.04
+  Skill Name: Relate hardware choices to accessibility outcomes
+  Current State: Depends on T30.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T30.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #21:
+  Skill ID: T32.G5.01
+  Skill Name: Analyze social engineering tactics
+  Current State: Depends on T32.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T32.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #22:
+  Skill ID: T32.G5.01
+  Skill Name: Analyze social engineering tactics
+  Current State: Depends on T32.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T32.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #23:
+  Skill ID: T32.G5.02
+  Skill Name: Evaluate terms of service/privacy policies (kid-friendly summaries)
+  Current State: Depends on T32.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T32.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #24:
+  Skill ID: T32.G5.02
+  Skill Name: Evaluate terms of service/privacy policies (kid-friendly summaries)
+  Current State: Depends on T32.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T32.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #25:
+  Skill ID: T32.G5.03
+  Skill Name: Secure AI training data and outputs
+  Current State: Depends on T32.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T32.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #26:
+  Skill ID: T32.G5.03
+  Skill Name: Secure AI training data and outputs
+  Current State: Depends on T32.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T32.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #27:
+  Skill ID: T34.G5.02
+  Skill Name: Compare invention timelines in multiple industries
+  Current State: Depends on T34.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T34.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #28:
+  Skill ID: T34.G5.02
+  Skill Name: Compare invention timelines in multiple industries
+  Current State: Depends on T34.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T34.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #29:
+  Skill ID: T34.G5.03
+  Skill Name: Conduct interviews with tech users
+  Current State: Depends on T34.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T34.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #30:
+  Skill ID: T34.G5.03
+  Skill Name: Conduct interviews with tech users
+  Current State: Depends on T34.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T34.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #31:
+  Skill ID: T35.G5.01
+  Skill Name: Examine global impacts of technology
+  Current State: Depends on T35.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T35.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #32:
+  Skill ID: T35.G5.01
+  Skill Name: Examine global impacts of technology
+  Current State: Depends on T35.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T35.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #33:
+  Skill ID: T35.G5.02
+  Skill Name: Debate digital well-being scenarios
+  Current State: Depends on T35.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T35.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #34:
+  Skill ID: T35.G5.02
+  Skill Name: Debate digital well-being scenarios
+  Current State: Depends on T35.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T35.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #35:
+  Skill ID: T35.G5.03
+  Skill Name: Analyze AI's differential impacts on workers and communities
+  Current State: Depends on T04.G2.01 (Grade G2)
+  Recommended Fix: Remove dependency on T04.G2.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #36:
+  Skill ID: T35.G5.03
+  Skill Name: Analyze AI's differential impacts on workers and communities
+  Current State: Depends on T35.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T35.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #37:
+  Skill ID: T36.G5.03
+  Skill Name: Evaluate inclusion in tech stories
+  Current State: Depends on T36.G1.01 (Grade G1)
+  Recommended Fix: Remove dependency on T36.G1.01 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+Issue #38:
+  Skill ID: T36.G5.03
+  Skill Name: Evaluate inclusion in tech stories
+  Current State: Depends on T36.G1.02 (Grade G1)
+  Recommended Fix: Remove dependency on T36.G1.02 or find appropriate G3/G4/G5 alternative
+  Explanation: G5 skills should not depend on G1 or G2 skills. This creates an inappropriate grade-level gap.
+
+================================================================================
+MEDIUM PRIORITY ISSUES (26 issues)
+================================================================================
+
+
+Same-topic same-grade dependency (1 issues)
+--------------------------------------------------------------------------------
+
+Issue #1:
+  Skill ID: T31.G5.02
+  Skill Name: Decide when apps need the internet vs work offline
+  Current State: Depends on T31.G5.01 (same topic T31, same grade G5)
+  Recommended Fix: Remove dependency on T31.G5.01 - skills in the same topic and grade are learned sequentially
+  Explanation: Skills within the same topic and grade level are assumed to be learned in sequence order and should not have explicit dependencies on each other.
+
+Transitive dependency (25 issues)
+--------------------------------------------------------------------------------
+
+Issue #1:
+  Skill ID: T05.G5.01
+  Skill Name: Write clear user needs and requirements for a small app
+  Current State: Directly depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+  Recommended Fix: Remove direct dependency on T05.GK.03 (it's already transitively included via T05.GK.04)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #2:
+  Skill ID: T05.G5.02
+  Skill Name: Create a low‑fidelity sketch for a user story
+  Current State: Directly depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+  Recommended Fix: Remove direct dependency on T05.GK.03 (it's already transitively included via T05.GK.04)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #3:
+  Skill ID: T05.G5.03
+  Skill Name: Identify variables and initial values for a simulation
+  Current State: Directly depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+  Recommended Fix: Remove direct dependency on T05.GK.03 (it's already transitively included via T05.GK.04)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #4:
+  Skill ID: T05.G5.04
+  Skill Name: Draft simple update rules for a simulation
+  Current State: Directly depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+  Recommended Fix: Remove direct dependency on T05.GK.03 (it's already transitively included via T05.GK.04)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #5:
+  Skill ID: T05.G5.05
+  Skill Name: Plan how to test whether a design meets user needs
+  Current State: Directly depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+  Recommended Fix: Remove direct dependency on T05.GK.03 (it's already transitively included via T05.GK.04)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #6:
+  Skill ID: T05.G5.06
+  Skill Name: Plan what to measure in a simulation experiment
+  Current State: Directly depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+  Recommended Fix: Remove direct dependency on T05.GK.03 (it's already transitively included via T05.GK.04)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #7:
+  Skill ID: T25.G5.01
+  Skill Name: Model multi-type game state
+  Current State: Directly depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+  Recommended Fix: Remove direct dependency on T25.GK.02 (it's already transitively included via T25.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #8:
+  Skill ID: T25.G5.02
+  Skill Name: Convert messy inputs into canonical formats
+  Current State: Directly depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+  Recommended Fix: Remove direct dependency on T25.GK.02 (it's already transitively included via T25.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #9:
+  Skill ID: T25.G5.03
+  Skill Name: Decide when to upgrade from list to table
+  Current State: Directly depends on both T25.G1.02 and T25.G1.01, but T25.G1.02 already depends on T25.G1.01
+  Recommended Fix: Remove direct dependency on T25.G1.01 (it's already transitively included via T25.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #10:
+  Skill ID: T25.G5.03
+  Skill Name: Decide when to upgrade from list to table
+  Current State: Directly depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+  Recommended Fix: Remove direct dependency on T25.GK.02 (it's already transitively included via T25.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #11:
+  Skill ID: T30.G5.01
+  Skill Name: Match CreatiCode AI features to hardware requirements
+  Current State: Directly depends on both T30.G1.02 and T30.G1.01, but T30.G1.02 already depends on T30.G1.01
+  Recommended Fix: Remove direct dependency on T30.G1.01 (it's already transitively included via T30.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #12:
+  Skill ID: T30.G5.01
+  Skill Name: Match CreatiCode AI features to hardware requirements
+  Current State: Directly depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+  Recommended Fix: Remove direct dependency on T30.GK.02 (it's already transitively included via T30.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #13:
+  Skill ID: T30.G5.02
+  Skill Name: Plan safe device-handling procedures for group work
+  Current State: Directly depends on both T30.G1.02 and T30.G1.01, but T30.G1.02 already depends on T30.G1.01
+  Recommended Fix: Remove direct dependency on T30.G1.01 (it's already transitively included via T30.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #14:
+  Skill ID: T30.G5.02
+  Skill Name: Plan safe device-handling procedures for group work
+  Current State: Directly depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+  Recommended Fix: Remove direct dependency on T30.GK.02 (it's already transitively included via T30.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #15:
+  Skill ID: T30.G5.03
+  Skill Name: Explain how different sensors collect data
+  Current State: Directly depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+  Recommended Fix: Remove direct dependency on T30.GK.02 (it's already transitively included via T30.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #16:
+  Skill ID: T30.G5.04
+  Skill Name: Relate hardware choices to accessibility outcomes
+  Current State: Directly depends on both T30.G1.02 and T30.G1.01, but T30.G1.02 already depends on T30.G1.01
+  Recommended Fix: Remove direct dependency on T30.G1.01 (it's already transitively included via T30.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #17:
+  Skill ID: T30.G5.04
+  Skill Name: Relate hardware choices to accessibility outcomes
+  Current State: Directly depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+  Recommended Fix: Remove direct dependency on T30.GK.02 (it's already transitively included via T30.GK.03)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #18:
+  Skill ID: T32.G5.01
+  Skill Name: Analyze social engineering tactics
+  Current State: Directly depends on both T32.G1.02 and T32.G1.01, but T32.G1.02 already depends on T32.G1.01
+  Recommended Fix: Remove direct dependency on T32.G1.01 (it's already transitively included via T32.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #19:
+  Skill ID: T32.G5.02
+  Skill Name: Evaluate terms of service/privacy policies (kid-friendly summaries)
+  Current State: Directly depends on both T32.G1.02 and T32.G1.01, but T32.G1.02 already depends on T32.G1.01
+  Recommended Fix: Remove direct dependency on T32.G1.01 (it's already transitively included via T32.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #20:
+  Skill ID: T32.G5.03
+  Skill Name: Secure AI training data and outputs
+  Current State: Directly depends on both T32.G1.02 and T32.G1.01, but T32.G1.02 already depends on T32.G1.01
+  Recommended Fix: Remove direct dependency on T32.G1.01 (it's already transitively included via T32.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #21:
+  Skill ID: T34.G5.02
+  Skill Name: Compare invention timelines in multiple industries
+  Current State: Directly depends on both T34.G1.02 and T34.G1.01, but T34.G1.02 already depends on T34.G1.01
+  Recommended Fix: Remove direct dependency on T34.G1.01 (it's already transitively included via T34.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #22:
+  Skill ID: T34.G5.03
+  Skill Name: Conduct interviews with tech users
+  Current State: Directly depends on both T34.G1.02 and T34.G1.01, but T34.G1.02 already depends on T34.G1.01
+  Recommended Fix: Remove direct dependency on T34.G1.01 (it's already transitively included via T34.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #23:
+  Skill ID: T35.G5.01
+  Skill Name: Examine global impacts of technology
+  Current State: Directly depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+  Recommended Fix: Remove direct dependency on T35.G1.01 (it's already transitively included via T35.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #24:
+  Skill ID: T35.G5.02
+  Skill Name: Debate digital well-being scenarios
+  Current State: Directly depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+  Recommended Fix: Remove direct dependency on T35.G1.01 (it's already transitively included via T35.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.
+
+Issue #25:
+  Skill ID: T36.G5.03
+  Skill Name: Evaluate inclusion in tech stories
+  Current State: Directly depends on both T36.G1.02 and T36.G1.01, but T36.G1.02 already depends on T36.G1.01
+  Recommended Fix: Remove direct dependency on T36.G1.01 (it's already transitively included via T36.G1.02)
+  Explanation: Redundant direct dependency that's already covered transitively.

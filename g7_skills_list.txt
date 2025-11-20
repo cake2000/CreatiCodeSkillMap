@@ -1,0 +1,1775 @@
+
+================================================================================
+ID: T01.G7.01
+Skill: Identify the pattern in a given program
+Description: Students categorize code as search, sort, accumulation, or simulation. _Implementation note: MCQ; auto‑graded. CSTA: MS‑ALG‑AF‑01._
+Dependencies (5):
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T01.G7.02
+Skill: Choose a pattern to solve a problem
+Description: Students pick which algorithm pattern is best for a described task. _Implementation note: MCQ; auto‑graded. CSTA: MS‑ALG‑AF‑01, MS‑ALG‑PS‑06._
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+
+================================================================================
+ID: T01.G7.03
+Skill: Write pseudocode for a search or accumulation algorithm
+Description: Students write structured pseudocode for “find max” or “count items that match.” _Implementation note: Guided pseudocode; auto‑graded structure. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑PF‑02._
+Dependencies (5):
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+  - T04.G2.01 (G2)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T01.G7.04
+Skill: Compare efficiency of two algorithms qualitatively
+Description: Students reason which algorithm scales better as inputs grow. _Implementation note: Scenario + MCQ + explanation. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05._
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+
+================================================================================
+ID: T01.G7.05
+Skill: Design a set of edge‑case tests for an algorithm
+Description: Students pick tests (including edge cases) that give high confidence the algorithm works. _Implementation note: Choose tests from list; auto‑graded for coverage. CSTA: MS‑ALG‑PS‑05, MS‑PRO‑TR‑11.
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+
+================================================================================
+ID: T01.G7.06
+Skill: Run an algorithm on edge cases and find failures
+Description: Students test algorithms on tricky inputs and flag those that fail. _Implementation note: MCQ/interactive; auto‑graded. CSTA: MS‑ALG‑PS‑05._
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+
+================================================================================
+ID: T01.G7.07
+Skill: Explain why an algorithm fails on a specific edge case
+Description: Students explain which step causes the failure and why. _Implementation note: Structured explanation; auto‑graded patterns. CSTA: MS‑ALG‑PS‑05, MS‑PRO‑TR‑11.
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+
+================================================================================
+ID: T01.G7.08
+Skill: Rewrite a naive algorithm using a better pattern
+Description: Students replace repeated naive logic with a cleaner pattern (single loop, flag, etc.). _Implementation note: Pseudocode/coding refactor; rubric. CSTA: MS‑ALG‑AF‑01, MS‑ALG‑PS‑06._
+Dependencies (5):
+  - T01.GK.01 (GK)
+  - T01.GK.07 (GK)
+  - T01.GK.08 (GK)
+  - T04.G2.01 (G2)
+  - T07.G3.01 (G3)
+
+================================================================================
+ID: T02.G7.01
+Skill: Trace a step‑by‑step simulation algorithm
+Description: Students trace code that simulates a process over several timesteps (e.g., a counter stepping up, an object moving with friction) and predict state after N steps.
+Dependencies (5):
+  - T02.GK.01 (GK)
+  - T02.GK.03 (GK)
+  - T02.GK.04 (GK)
+  - T07.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T02.G7.02
+Skill: Extend a simulation trace and predict future behavior
+Description: Students are shown a partially filled trace table for a simulation algorithm and must extend it a few rows to predict future behavior.
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T02.GK.01 (GK)
+  - T02.GK.03 (GK)
+  - T02.GK.04 (GK)
+
+================================================================================
+ID: T02.G7.03
+Skill: Create a flowchart for linear search or “find max”
+Description: Students design a flowchart in the Diagrams tab for a simple search algorithm (e.g., scan a list to find the largest value).
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T02.GK.01 (GK)
+  - T02.GK.03 (GK)
+  - T02.GK.04 (GK)
+
+================================================================================
+ID: T02.G7.04
+Skill: Read a flowchart for a simple sort and trace one pass
+Description: Students read a flowchart (from the Diagrams tab) for one pass of a simple sort (e.g., bubble sort) and trace how a short list changes after that pass.
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T02.GK.01 (GK)
+  - T02.GK.03 (GK)
+  - T02.GK.04 (GK)
+
+================================================================================
+ID: T02.G7.05
+Skill: Count steps for two algorithms on small inputs
+Description: Students compare two algorithms that solve the same problem, counting actual steps for small input sizes and deciding which is more efficient for those inputs.
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T02.GK.01 (GK)
+  - T02.GK.03 (GK)
+  - T02.GK.04 (GK)
+
+================================================================================
+ID: T02.G7.06
+Skill: Trace an algorithm to find a bug or edge case
+Description: Students trace an algorithm with a specific input where it fails (e.g., empty list, single element) and explain the failure in terms of a missed case or incorrect condition.
+Dependencies (5):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T02.GK.01 (GK)
+  - T02.GK.03 (GK)
+  - T02.GK.04 (GK)
+
+================================================================================
+ID: T03.G7.01
+Skill: Draw an architecture diagram for a multi‑component project
+Description: Students create a diagram showing main components, key data flows, and communication patterns for a complex project, treating it as a *high‑level architecture view* of components and their interactions rather than detailed implementation (which lives in T02).
+Dependencies (5):
+  - T02.G3.01 (G3)
+  - T03.GK.01 (GK)
+  - T03.GK.03 (GK)
+  - T03.GK.04 (GK)
+  - T04.G2.01 (G2)
+
+================================================================================
+ID: T03.G7.02
+Skill: Map functional modules to architecture components
+Description: Students match existing project modules and functionality to components in an architecture diagram, focusing on logical organization.
+Dependencies (5):
+  - T03.GK.01 (GK)
+  - T03.GK.03 (GK)
+  - T03.GK.04 (GK)
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T03.G7.03
+Skill: Compare two decompositions of the same project
+Description: Students compare two architecture sketches or task breakdowns and decide which is better in terms of clarity, reuse, and ease of change.
+Dependencies (4):
+  - T03.G1.01 (G1)
+  - T03.G1.02 (G1)
+  - T03.GK.03 (GK)
+  - T03.GK.04 (GK)
+
+================================================================================
+ID: T03.G7.04
+Skill: Propose an alternative decomposition to fix a planning problem
+Description: Students are given a project suffering from duplicated functionality or tangled dependencies and propose a new module breakdown to fix it.
+Dependencies (4):
+  - T03.GK.03 (GK)
+  - T03.GK.04 (GK)
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T03.G7.05
+Skill: Design a test plan based on a project breakdown
+Description: Students list test cases for each major feature/module (e.g., “test enemy movement,” “test scoring”).
+Dependencies (4):
+  - T03.G1.01 (G1)
+  - T03.G1.02 (G1)
+  - T03.GK.03 (GK)
+  - T03.GK.04 (GK)
+
+================================================================================
+ID: T03.G7.06
+Skill: Update a project plan after test results
+Description: Students read test results and insert new tasks (e.g., “fix bug,” “add edge‑case handling”) into the plan in reasonable places.
+Dependencies (4):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T03.GK.03 (GK)
+  - T03.GK.04 (GK)
+
+================================================================================
+ID: T04.G7.01
+Skill: Identify the main loop patterns in a simulation or game
+Description: Students analyze a game/simulation and identify loops like “update each frame,” “process each object,” “check each pair.”
+Dependencies (4):
+  - T04.GK.03 (GK)
+  - T04.GK.04 (GK)
+  - T07.G3.01 (G3)
+  - T08.G3.01 (G3)
+
+================================================================================
+ID: T04.G7.02
+Skill: Identify data structure patterns (lists, grids) in use
+Description: Students recognize when code uses a list or grid pattern (e.g., iterating over a list of enemies or cells).
+Dependencies (4):
+  - T04.G2.01 (G2)
+  - T04.GK.03 (GK)
+  - T04.GK.04 (GK)
+  - T08.G3.01 (G3)
+
+================================================================================
+ID: T04.G7.03
+Skill: Design a solution by combining two known patterns
+Description: Students design or outline code that combines, for example, a filter pattern + accumulator pattern to solve a task.
+Dependencies (4):
+  - T04.GK.03 (GK)
+  - T04.GK.04 (GK)
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T04.G7.04
+Skill: Trace a composite pattern and explain each part’s role
+Description: Students trace code that uses multiple patterns together and annotate what each pattern is doing.
+Dependencies (4):
+  - T04.GK.03 (GK)
+  - T04.GK.04 (GK)
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T04.G7.05
+Skill: Simplify code by merging repeated patterns
+Description: Students refactor code that has repeated pattern blocks into a more compact form (e.g., use a function applied twice).
+Dependencies (4):
+  - T04.G2.01 (G2)
+  - T04.GK.03 (GK)
+  - T04.GK.04 (GK)
+  - T07.G3.01 (G3)
+
+================================================================================
+ID: T04.G7.06
+Skill: Compare pattern‑based implementations for maintainability
+Description: Students compare two implementations and decide which will be easier to modify later, explaining in terms of patterns and reuse.
+Dependencies (4):
+  - T04.G1.01 (G1)
+  - T04.G2.01 (G2)
+  - T04.GK.03 (GK)
+  - T04.GK.04 (GK)
+
+================================================================================
+ID: T05.G7.01
+Skill: Perform a checklist‑based accessibility review of a project
+Description: Students run through a checklist (contrast, keyboard access, captions, timing) on a given project and mark passes/fails.
+Dependencies (4):
+  - T05.G1.01 (G1)
+  - T05.G1.02 (G1)
+  - T05.GK.03 (GK)
+  - T05.GK.04 (GK)
+
+================================================================================
+ID: T05.G7.02
+Skill: Prioritize which accessibility issues to fix first
+Description: Students see a list of identified issues and rank them by severity/impact.
+Dependencies (4):
+  - T05.G1.01 (G1)
+  - T05.G1.02 (G1)
+  - T05.GK.03 (GK)
+  - T05.GK.04 (GK)
+
+================================================================================
+ID: T05.G7.03
+Skill: Identify potential unintended harms from a design
+Description: Students read a project description and select possible harms (privacy, overuse, misinformation, exclusion of some users).
+Dependencies (4):
+  - T05.G1.01 (G1)
+  - T05.GK.03 (GK)
+  - T05.GK.04 (GK)
+  - T06.G3.01 (G3)
+
+================================================================================
+ID: T05.G7.04
+Skill: Propose one concrete mitigation per harm
+Description: Students match each harm to a suggested mitigation strategy.
+Dependencies (4):
+  - T05.G1.01 (G1)
+  - T05.G1.02 (G1)
+  - T05.GK.03 (GK)
+  - T05.GK.04 (GK)
+
+================================================================================
+ID: T05.G7.05
+Skill: Interpret usage or feedback data to find UX problems
+Description: Students interpret a small table/graph of usage or survey data and identify where users struggle.
+Dependencies (4):
+  - T05.G1.01 (G1)
+  - T05.G1.02 (G1)
+  - T05.GK.03 (GK)
+  - T05.GK.04 (GK)
+
+================================================================================
+ID: T05.G7.06
+Skill: Choose design changes based on data patterns
+Description: Students select which design changes correspond logically to the identified data issues.
+Dependencies (4):
+  - T05.G1.01 (G1)
+  - T05.G1.02 (G1)
+  - T05.GK.03 (GK)
+  - T05.GK.04 (GK)
+
+================================================================================
+ID: T06.G7.01
+Skill: Model program states and transitions using events
+Description: Students sketch and implement states (menu, playing, paused, game‑over) and the events/broadcasts that move between them.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T06.G3.02 (G3)
+  - T06.G6.03 (G6)
+  - T06.G6.04 (G6)
+
+================================================================================
+ID: T06.G7.02
+Skill: Trace state changes in event‑driven code
+Description: Students read code that manages a state variable and events, then trace how state changes in response to inputs.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T06.G6.03 (G6)
+  - T06.G6.04 (G6)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T06.G7.03
+Skill: Design a broadcast protocol to decouple components
+Description: Students plan which broadcasts communicate between subsystems (player, enemies, UI, score) and implement them.
+Dependencies (4):
+  - T01.G3.01 (G3)
+  - T06.G6.03 (G6)
+  - T06.G6.04 (G6)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T06.G7.04
+Skill: Compare tightly coupled vs broadcast‑based designs
+Description: Students compare two designs and decide which is more modular and easier to change, explaining in terms of events vs direct references.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T06.G6.03 (G6)
+  - T06.G6.04 (G6)
+  - T08.G3.01 (G3)
+
+================================================================================
+ID: T07.G7.01
+Skill: Use loops to simulate motion over time
+Description: Students implement a loop that repeatedly updates position (and optionally velocity) to simulate motion, such as an object sliding or falling with a simple rule each step.
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T07.G3.02 (G3)
+  - T07.G6.05 (G6)
+  - T07.G6.06 (G6)
+
+================================================================================
+ID: T07.G7.02
+Skill: Nested loops for 2D grids and tile maps
+Description: Students use two loops to process a conceptual 2D grid (e.g., rows and columns of tiles), even if represented as positions or a 1D list plus indices, introducing matrix‑like reasoning.
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T07.G6.05 (G6)
+  - T07.G6.06 (G6)
+  - T08.G3.01 (G3)
+
+================================================================================
+ID: T07.G7.03
+Skill: Compare loop algorithms by counting steps
+Description: Students compare two loop‑based solutions that both solve the same problem but use different numbers of iterations (e.g., repeated subtraction vs direct arithmetic) and reason about which is more efficient for larger inputs.
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T07.G6.05 (G6)
+  - T07.G6.06 (G6)
+  - T08.G3.01 (G3)
+
+================================================================================
+ID: T07.G7.04
+Skill: Loop patterns for counting and accumulation
+Description: Students identify and/or construct loops that follow common accumulator patterns (counting, summing, tracking min/max), distinguishing them from unrelated code.
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T07.G6.06 (G6)
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+
+================================================================================
+ID: T08.G7.01
+Skill: Reason about fairness using conditions
+Description: Students analyze conditional rules (e.g., eligibility rules in a game or system) and decide whether they treat different groups fairly.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T08.G3.02 (G3)
+  - T08.G6.02 (G6)
+  - T08.G6.03 (G6)
+
+================================================================================
+ID: T08.G7.02
+Skill: Design tests for condition-heavy code
+Description: Students design a set of test inputs that exercise all branches of a condition-heavy script (e.g., all paths through a grading or login system).
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T08.G6.02 (G6)
+  - T08.G6.03 (G6)
+
+================================================================================
+ID: T09.G7.01
+Skill: Use variables to store and update state in simulations
+Description: Students create simulations (e.g., population, weather, particle motion) where variables represent state (position, velocity, count) and expressions update them each time step, demonstrating how variables enable temporal processes.
+Dependencies (4):
+  - T09.G3.01 (G3)
+  - T09.G3.02 (G3)
+  - T09.G6.04 (G6)
+  - T09.G6.05 (G6)
+
+================================================================================
+ID: T09.G7.02
+Skill: Use aggregate expressions (sum, average, min, max)
+Description: Students write expressions or use blocks to compute aggregate statistics (sum, average, minimum, maximum) over variables or lists, connecting expressions to data analysis.
+Dependencies (4):
+  - T09.G3.01 (G3)
+  - T09.G3.02 (G3)
+  - T09.G6.04 (G6)
+  - T09.G6.05 (G6)
+
+================================================================================
+ID: T09.G7.03
+Skill: Use variables in conditional logic with compound conditions
+Description: Students create conditional expressions using logical operators (AND, OR, NOT) to combine multiple variable comparisons, enabling more nuanced decision logic.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G6.04 (G6)
+  - T09.G6.05 (G6)
+
+================================================================================
+ID: T09.G7.04
+Skill: Analyze how variable updates affect program behavior
+Description: Students reason about how changing variable initialization values, update rates, or expressions changes the program's output or behavior, supporting algorithmic analysis.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G6.04 (G6)
+  - T09.G6.05 (G6)
+
+================================================================================
+ID: T10.G7.01
+Skill: Design and populate a table for a real-world inventory or database
+Description: Students design the structure of a table (columns and data types) to model a real-world domain (e.g., a library catalog, game inventory, sports statistics) and populate it with realistic data.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T10.G6.03 (G6)
+  - T10.G6.04 (G6)
+
+================================================================================
+ID: T10.G7.02
+Skill: Analyze a dataset to find patterns or outliers
+Description: Students examine a table of data and use code to find patterns (e.g., the most common value, a trend over time) or identify outliers (unusual values). They may create summary statistics or visualizations.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T10.G6.03 (G6)
+  - T10.G6.04 (G6)
+
+================================================================================
+ID: T10.G7.03
+Skill: Transform or clean data in a table using loops and conditions
+Description: Students perform data cleaning operations: remove rows with missing values, standardize formats (e.g., uppercase names), fix errors, or handle special cases—preparing raw data for analysis.
+Dependencies (4):
+  - T09.G3.01 (G3)
+  - T10.G3.01 (G3)
+  - T10.G6.03 (G6)
+  - T10.G6.04 (G6)
+
+================================================================================
+ID: T10.G7.04
+Skill: Use nested loops to analyze relationships between two datasets
+Description: Students write nested loops to compare or correlate data from two tables (e.g., matching purchases to customer profiles, checking for correlations in sensor readings), identifying connections or anomalies.
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T10.G6.03 (G6)
+  - T10.G6.04 (G6)
+
+================================================================================
+ID: T11.G7.01
+Skill: Use custom blocks to implement algorithms
+Description: Students implement standard or simple algorithms (e.g., linear search, bubble sort, greatest common divisor) as custom blocks with clear parameters and return values, demonstrating that a complex algorithm can be encapsulated in a reusable block.
+Dependencies (4):
+  - T01.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T11.G6.03 (G6)
+  - T11.G6.04 (G6)
+
+================================================================================
+ID: T11.G7.02
+Skill: Design a set of related blocks for a subsystem
+Description: Students design a cohesive set of custom blocks that work together to implement a feature or subsystem, such as a "Sprite Physics" system with blocks for velocity, acceleration, and collision, or a "Dialogue System" with blocks for NPC interaction.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T11.G6.03 (G6)
+  - T11.G6.04 (G6)
+
+================================================================================
+ID: T11.G7.03
+Skill: Understand encapsulation and data hiding
+Description: Students learn that a well-designed custom block hides its implementation details from the user; the caller only needs to know the interface (parameters and return value), not how it works inside. This is a step toward object-oriented thinking.
+Dependencies (4):
+  - T09.G3.01 (G3)
+  - T11.G3.01 (G3)
+  - T11.G6.03 (G6)
+  - T11.G6.04 (G6)
+
+================================================================================
+ID: T11.G7.04
+Skill: Trace and debug complex block hierarchies
+Description: Students trace through the execution of a script that calls blocks, which in turn call other blocks, predicting outputs and identifying bugs. This reinforces call stack thinking.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T11.G6.03 (G6)
+  - T11.G6.04 (G6)
+
+================================================================================
+ID: T12.G7.01
+Skill: Refactor long scripts into smaller, named subroutines
+Description: Students identify a script with many statements and refactor it by extracting logical groups into separate custom blocks, each with a clear name. This reduces script complexity and improves readability.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T12.G6.03 (G6)
+  - T12.G6.04 (G6)
+
+================================================================================
+ID: T12.G7.02
+Skill: Analyze readability vs performance trade-offs
+Description: Students examine two solutions to the same problem—one more readable but longer, and one more compact but harder to understand—and discuss the trade-off, learning when to prioritize clarity.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T12.G1.01 (G1)
+  - T12.G6.03 (G6)
+  - T12.G6.04 (G6)
+
+================================================================================
+ID: T12.G7.03
+Skill: Create a code review checklist for clarity
+Description: Students create a checklist of items to look for when reviewing code for clarity and organization (e.g., "Are all variables named clearly?" "Are comments present for complex blocks?" "Is code grouped logically?") and use it to evaluate a peer's or sample project.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T12.G6.03 (G6)
+  - T12.G6.04 (G6)
+
+================================================================================
+ID: T12.G7.04
+Skill: Document design decisions in code
+Description: Students add "design comments" to their code explaining major architectural choices (e.g., "I use a table to store enemy positions so it's easy to add new enemies" or "I use a state variable instead of multiple forever loops to avoid conflicts").
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T12.G6.03 (G6)
+  - T12.G6.04 (G6)
+
+================================================================================
+ID: T13.G7.01
+Skill: Write comprehensive test cases for an algorithm
+Description: Students analyze an algorithm (e.g., finding the maximum in a list, checking if a number is prime) and write a thorough test suite covering normal cases, edge cases (e.g., empty list, single item, boundary values), and invalid inputs. They run all tests and record coverage.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T13.GK.02 (GK)
+  - T13.GK.03 (GK)
+
+================================================================================
+ID: T13.G7.02
+Skill: Debug logic errors in complex programs
+Description: Students identify and correct logic errors in a program (bugs that don't crash the program but produce wrong results, such as off-by-one errors, incorrect operators, or wrong variable assignments). These are harder to spot than syntax errors.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T13.GK.03 (GK)
+
+================================================================================
+ID: T13.G7.03
+Skill: Refactor for testability and clarity
+Description: Students refactor a program to reduce complexity, improve clarity, and make testing easier (e.g., breaking large scripts into smaller functions, naming variables clearly, removing duplicated code). They then verify the refactored version still works.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T13.GK.03 (GK)
+
+================================================================================
+ID: T13.G7.04
+Skill: Compare reliability of different program designs
+Description: Students examine two or more designs for the same task, evaluate their handling of edge cases and error conditions, and argue which is more reliable and why.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T13.G1.01 (G1)
+  - T13.GK.02 (GK)
+  - T13.GK.03 (GK)
+
+================================================================================
+ID: T14.G7.01
+Skill: Spatial partitioning (grid)
+Description: Implement movement that snaps to a tile grid (e.g., 32 px) and uses lists/tables to track which tiles are occupied, enabling puzzle/RPG logic.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.GK.03 (GK)
+  - T14.GK.04 (GK)
+
+================================================================================
+ID: T14.G7.02
+Skill: Basic pathfinding
+Description: Create an enemy that moves toward the player but slides along walls instead of getting stuck, using simple pathfinding or steering logic.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.GK.04 (GK)
+
+================================================================================
+ID: T14.G7.03
+Skill: Weighted spawn scheduler
+Description: Use a table/list of enemy types with weights and iterate through it to spawn diverse waves (e.g., 70% small, 30% tank) based on difficulty level.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T14.GK.03 (GK)
+  - T14.GK.04 (GK)
+
+================================================================================
+ID: T14.G7.04
+Skill: Clone budget profiler
+Description: Track clone counts with watchers, measure frame rate, and refactor to reuse clones or throttle spawns when counts exceed a threshold.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.GK.04 (GK)
+
+================================================================================
+ID: T14.G7.05
+Skill: Difficulty curves
+Description: Store difficulty targets in a list (speed, damage, spawn interval by level) and apply them when the player advances, ensuring ramped but fair gameplay.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.GK.04 (GK)
+
+================================================================================
+ID: T15.G7.01
+Skill: Scene Graph / Manager
+Description: Create a dedicated "Manager" sprite that handles all broadcasts and global state changes (Scene 1 -> Scene 2).
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T15.GK.03 (GK)
+
+================================================================================
+ID: T15.G7.02
+Skill: Lip Sync Logic
+Description: Map sound volume to costume changes (mouth open/closed) for automatic lip sync.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T15.GK.03 (GK)
+
+================================================================================
+ID: T16.G7.01
+Skill: Build a data collection interface (survey or questionnaire)
+Description: Students design an interface for a survey or questionnaire with text inputs, dropdowns, checkboxes, or radio buttons; validate responses; and collect the data. They learn how interfaces are used to gather information.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T16.G6.03 (G6)
+  - T16.G6.04 (G6)
+
+================================================================================
+ID: T16.G7.02
+Skill: Implement a search or filter interface
+Description: Students create a text input field where users can type a query, and the interface filters or searches a list of items (e.g., a player inventory, a menu of options) to show only matching results. This is a real-world UI pattern.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T16.G6.04 (G6)
+
+================================================================================
+ID: T16.G7.03
+Skill: Design an accessible interface for users with different abilities
+Description: Students consider accessibility needs (e.g., text size for low vision, keyboard controls for mobility challenges, colorblind-friendly palettes) and redesign an interface to accommodate multiple ability types. They learn to design inclusively from the start.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T16.G6.04 (G6)
+
+================================================================================
+ID: T16.G7.04
+Skill: Create a help or tutorial interface
+Description: Students design a help or tutorial interface within a game, including explanatory labels, step-by-step instructions, images/animations, and a "Next" button to guide the player through mechanics or controls.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T16.G6.04 (G6)
+
+================================================================================
+ID: T17.G7.01
+Skill: Launch a configurable projectile
+Description: Students create a launcher where users set angle/speed sliders. The projectile receives an initial impulse that produces a parabolic arc, and targets are placed at measurable distances.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T17.G7.02
+Skill: Combine multiple forces simultaneously
+Description: Students apply two or more forces in the same update loop (gravity + constant wind, gravity + player thrust). They predict and observe the resulting curved motion.
+Dependencies (5):
+  - T07.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T08.G3.05 (G3)
+  - T17.G6.07 (G6)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T17.G7.03
+Skill: Simulate drag or resistance
+Description: Students implement drag forces for different media (air, water, honey) by applying a force opposite to the sprite’s velocity. They compare how quickly each case comes to rest.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T17.G6.07 (G6)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T17.G7.04
+Skill: Build chains or stacks of physics objects
+Description: Students create stacks of boxes, a rope of linked sprites, or domino lines and explore how forces propagate through the system when one element is pushed.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T17.G6.07 (G6)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T17.G7.05
+Skill: Instrument and graph motion data
+Description: Students record motion data from a selected sprite every few frames, store it in lists, and create a quick graph widget. They use the graph to confirm constant acceleration or to spot errors.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T17.G6.07 (G6)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T17.G7.06
+Skill: Model a real-world physics scenario
+Description: Students choose a real phenomenon, and based on assumptions and plans from T05.G5.03 and T05.G5.04, build a CreatiCode simulation that approximates it. They explain which physics properties they tuned to mimic reality.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T17.G7.07
+Skill: Evaluate whether a simulation meets requirements
+Description: Students are given target requirements (e.g., “ball must clear the second bumper but stop before the third”) and, drawing on test plans from T05.G5.05 and T05.G5.06, inspect a recorded run, examine logged data, and decide if the requirements were met, citing evidence.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T17.G6.07 (G6)
+  - T17.G6.08 (G6)
+
+================================================================================
+ID: T18.G7.01
+Skill: Implement pathfinding or waypoint-based NPC movement
+Description: Students code an NPC that follows waypoints, patrols, or chases the player by computing direction vectors and adjusting movement speed smoothly.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.G3.01 (G3)
+  - T18.G6.05 (G6)
+
+================================================================================
+ID: T18.G7.02
+Skill: Design collision response for bouncing or sliding
+Description: Students tweak restitution, friction, or apply impulses on collision to achieve different results (bouncy projectiles, sliding ice blocks, sticky platforms).
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T14.G3.01 (G3)
+  - T18.G6.04 (G6)
+  - T18.G6.05 (G6)
+
+================================================================================
+ID: T18.G7.03
+Skill: Use 3D coordinates and distance calculations for game mechanics
+Description: Students compute 3D distances (using built-in `distance to` or math) to trigger events such as proximity mines, safe zones, or camera shakes.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T14.G3.01 (G3)
+  - T18.G6.04 (G6)
+  - T18.G6.05 (G6)
+
+================================================================================
+ID: T18.G7.04
+Skill: Implement a physics-based puzzle mechanic
+Description: Students combine physics bodies, triggers, and environmental interactions to design a solvable puzzle (e.g., push blocks onto switches, roll a ball through ramps).
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.G3.01 (G3)
+  - T18.G6.05 (G6)
+
+================================================================================
+ID: T18.G7.05
+Skill: Script camera transitions for cutscenes
+Description: Students choreograph mini-cutscenes by moving the camera through a list of positions/targets, blending easing functions to introduce or conclude levels.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T14.G3.01 (G3)
+  - T18.G6.05 (G6)
+
+================================================================================
+ID: T19.G7.01
+Skill: Balance starting conditions and scoring
+Description: Students audit spawn points, turn order, and scoring rules to eliminate built-in advantages. They document how each change improves fairness.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T09.G3.01 (G3)
+  - T19.G6.05 (G6)
+  - T31.G5.01 (G5)
+
+================================================================================
+ID: T19.G7.02
+Skill: Implement dynamic team assignment or matchmaking
+Description: Students automatically assign players to teams or lobbies based on join order, rank, or availability, ensuring balanced team sizes.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T09.G3.01 (G3)
+  - T19.G6.05 (G6)
+  - T31.G5.01 (G5)
+
+================================================================================
+ID: T19.G7.03
+Skill: Decide what data syncs vs stays local
+Description: Students label project variables as “sync every frame,” “sync on event,” or “local only,” and adjust scripts accordingly to reduce bandwidth without hurting gameplay.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T09.G3.01 (G3)
+  - T19.G6.05 (G6)
+  - T31.G5.01 (G5)
+
+================================================================================
+ID: T19.G7.04
+Skill: Scale logic to handle variable player counts
+Description: Students refactor scripts to loop over the player list when instantiating sprites, updating HUDs, or distributing objectives so the game behaves consistently regardless of player count.
+Dependencies (7):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T07.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T19.G6.04 (G6)
+  - T19.G6.05 (G6)
+
+================================================================================
+ID: T19.G7.05
+Skill: Display connection quality and apply fallbacks
+Description: Students calculate basic latency (if supported) or detect delayed messages, display an indicator (e.g., Wi-Fi bars), and slow gameplay or pause when conditions deteriorate.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T19.G6.04 (G6)
+  - T19.G6.05 (G6)
+  - T31.G5.01 (G5)
+
+================================================================================
+ID: T20.G7.01
+Skill: Compare efficiency of art algorithms
+Description: Students evaluate two code samples that draw the same design but with different performance characteristics. They choose the more efficient approach and justify why.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T20.GK.03 (GK)
+  - T20.GK.04 (GK)
+  - T28.G3.04 (G3)
+
+================================================================================
+ID: T20.G7.02
+Skill: Use while/repeat-until loops in art
+Description: Learners replace fixed `repeat` blocks with `repeat until` or `while` loops so a drawing continues until reaching a boundary or meeting a condition.
+Dependencies (5):
+  - T07.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T20.GK.04 (GK)
+  - T28.G3.04 (G3)
+
+================================================================================
+ID: T20.G7.03
+Skill: Study parameter impact on aesthetics
+Description: Students systematically adjust parameters (randomness, angle change, speed) and document how each change affects symmetry, balance, or density.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T20.GK.04 (GK)
+  - T28.G3.04 (G3)
+
+================================================================================
+ID: T20.G7.04
+Skill: Analyze real generative artworks
+Description: Students examine professional algorithmic art or natural patterns and infer what loops, math, or randomness likely generated them.
+Dependencies (5):
+  - T07.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T20.GK.03 (GK)
+  - T20.GK.04 (GK)
+  - T28.G3.04 (G3)
+
+================================================================================
+ID: T20.G7.05
+Skill: Implement iterative art rules (L-system lite)
+Description: Learners implement a simple iterative rule system (e.g., start with a line, replace with “line+turn” each round) to approximate branching plants or snowflakes.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T20.GK.04 (GK)
+  - T28.G3.04 (G3)
+
+================================================================================
+ID: T21.G7.01
+Skill: Create a reusable prompt template library
+Description: Students build a CreatiCode table with columns such as `subject`, `palette`, `camera`, `lighting`, and `tone`. A loop reads each row, assembles the prompt using placeholders, calls DALL-E, and records the returned costume name + URL. This ensures a whole level or comic chapter shares the same art direction.
+Dependencies (5):
+  - T07.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T21.G6.03 (G6)
+  - T21.G6.04 (G6)
+
+================================================================================
+ID: T21.G7.02
+Skill: Use ChatGPT to expand briefs before generating art
+Description: Students combine the ChatGPT block (system message + role prompt) with DALL-E. ChatGPT converts a story outline into a set of polished prompts (e.g., “Scene 3: aerial view of neon market, magenta lighting”), then each prompt feeds the image block. Students compare raw vs. AI-enhanced prompts to see the quality jump.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T21.G6.03 (G6)
+  - T21.G6.04 (G6)
+
+================================================================================
+ID: T21.G7.03
+Skill: Audit AI imagery for representation and bias
+Description: Students design experiments (e.g., run “a scientist giving a talk” 10 times) and log characteristics (perceived gender, culture, age) into a table. They graph the distribution, identify gaps, and adjust prompts (adding descriptors, requesting diversity) to reach targeted representation goals, highlighting AI4K12’s focus on societal impact.
+Dependencies (7):
+  - T06.G3.01 (G3)
+  - T07.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T21.G6.03 (G6)
+  - T21.G6.04 (G6)
+
+================================================================================
+ID: T21.G7.04
+Skill: Blend AI frames with manual touch-ups for animation
+Description: Students import AI-generated poses for a character, then fix artifacts (hands, faces, edges) using the costume editor or vector tools. They align all frames with equal sizing and anchor points, then script a timed animation that matches UI state (buttons, HUD cues) from T16.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T21.G6.04 (G6)
+
+================================================================================
+ID: T21.G7.05
+Skill: Pair AI visuals with AI narration for immersive scenes
+Description: Students start with a lore snippet, feed it to ChatGPT to craft narration, use `OpenAI DALL-E` for visuals, and convert the narration to speech via `say [TEXT] in [LANGUAGE]` AI block. They align cues so that the voiceover references what is on screen, reinforcing cross-modal coherence.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T21.G6.04 (G6)
+
+================================================================================
+ID: T22.G7.01
+Skill: Author a persona using system messages and few-shot turns
+Description: Students design a character brief (e.g., “sarcastic space tour guide”) and write a system message plus 2–3 example exchanges that model the expected voice. They embed these in the ChatGPT block (system request + prompt prefix) so the bot stays in character across turns.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T22.G6.04 (G6)
+
+================================================================================
+ID: T22.G7.02
+Skill: Manage chat history and reset logic
+Description: Students practice when to continue a conversation versus start “new chat.” They add buttons such as “Ask follow-up” (continue session) and “Start new topic” (new session), and they implement a summary label that tells the user what context is currently active.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T22.G6.03 (G6)
+  - T22.G6.04 (G6)
+
+================================================================================
+ID: T22.G7.03
+Skill: Capture slot values through UI widgets and inject them into prompts
+Description: Students create widgets (dropdowns, sliders, toggles) that gather key facts (age range, preferred topic, mood). Before contacting ChatGPT, they assemble those slots into the prompt, ensuring the bot answers with personalized tips or stories.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T22.G6.04 (G6)
+
+================================================================================
+ID: T22.G7.04
+Skill: Add moderation guardrails and escalation paths
+Description: Students integrate the `get moderation result` block on both user input and bot output. If a message fails, the chatbot responds with a pre-written supportive message, logs the incident, and offers to connect the user with a human helper. This meets AI4K12 priorities around responsible deployment.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T22.G6.03 (G6)
+  - T22.G6.04 (G6)
+
+================================================================================
+ID: T22.G7.05
+Skill: User-test the chatbot for inclusivity and clarity
+Description: Students prepare at least four tester personas (age, language level, accessibility need), run scripted conversations, and note where the bot confuses or excludes users. They adjust prompts or UI affordances (e.g., add a “simplify answer” button) and document changes.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T22.G6.04 (G6)
+
+================================================================================
+ID: T23.G7.01
+Skill: Define a reusable gesture dictionary
+Description: Students capture hand detection output (finger `curl` + `dir`, keypoint positions) into a table, label each pattern (“thumbs up,” “peace sign,” “stop”), and create helper blocks that return the detected gesture name. They prove the system handles at least four gestures plus a “none detected” state.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T23.GK.03 (GK)
+
+================================================================================
+ID: T23.G7.02
+Skill: Require multimodal confirmation (voice + gesture)
+Description: Students design safety-critical flows (purchases, deleting saves, launching rockets) that require a matching voice command *and* a specific gesture or pose to proceed. They manage the sequence state (voice heard first? gesture first?) and timeouts so the confirmation expires if not completed promptly.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T23.GK.02 (GK)
+  - T23.GK.03 (GK)
+
+================================================================================
+ID: T23.G7.03
+Skill: Score a pose-based challenge with coaching tips
+Description: Using `run 3D pose detection … table [result]`, students detect whether a player meets angle/position thresholds for a sequence (e.g., squat → jump → pose). They award points, display a progress timeline, and surface text tips ("raise elbows higher") based on which landmarks failed the check.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T23.GK.02 (GK)
+  - T23.GK.03 (GK)
+
+================================================================================
+ID: T23.G7.04
+Skill: Monitor detection accuracy across different users
+Description: Students design an accessibility log, drawing on planning from T05.G5.06, where each time a speech/gesture event succeeds or fails, they store user metadata (age range, device, lighting) plus outcome, then calculate accuracy rates per group. They interpret the data to spot bias (e.g., low-light users have lower success) and propose adjustments.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T06.G3.08 (G3)
+  - T08.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T23.GK.03 (GK)
+
+================================================================================
+ID: T23.G7.06
+Skill: Implement fairness safeguards for perception systems
+Description: Students implement measures to improve fairness in AI perception: multiple attempts for failed recognition, alternative input methods when sensors struggle, and user feedback collection for system improvement.
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T23.GK.02 (GK)
+  - T23.GK.03 (GK)
+
+================================================================================
+ID: T23.G7.05
+Skill: Build a calibration wizard for sensors
+Description: Students create a multi-step UI wizard (using T16 patterns), informed by T05.G5.01 for user needs, that walks users through microphone checks, lighting tests, and gesture framing. Each step runs a quick sensor test, shows the current readings, and offers fixes ("move closer," "increase room light").
+Dependencies (5):
+  - T06.G3.08 (G3)
+  - T08.G3.01 (G3)
+  - T08.G3.05 (G3)
+  - T23.GK.02 (GK)
+  - T23.GK.03 (GK)
+
+================================================================================
+ID: T24.G7.01
+Skill: Create reusable XO prompt macros
+Description: Students design templates (e.g., “Code Review Macro,” “Project Outline Macro”) with placeholders for sprites, variables, and goals. They store these in a CreatiCode list so they can quickly paste the right structure into XO.
+Dependencies (5):
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T24.G6.05 (G6)
+  - T24.G6.06 (G6)
+
+================================================================================
+ID: T24.G7.02
+Skill: Run an XO-led code review with evidence
+Description: Students paste a medium script into XO and ask for “3 improvements.” They then inspect each suggestion, either implementing it or rejecting it with justification (performance, readability, game design).
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T24.G6.06 (G6)
+
+================================================================================
+ID: T24.G7.03
+Skill: Combine XO storyboards with AI sprite generation
+Description: Students ask XO for a storyboard (scene descriptions + characters) for a themed project, then generate sprites/backdrops for each scene via the AI image blocks. They document alignment between text and visuals.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T24.G6.05 (G6)
+  - T24.G6.06 (G6)
+
+================================================================================
+ID: T24.G7.04
+Skill: Enforce responsible-use rules for XO assistance
+Description: Students implement an “AI Help” log inside their project (a hidden list or widget) that records each XO contribution, who reviewed it, and whether it was modified. They also add on-screen indicators telling players when AI-generated art/text appears.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T24.G6.05 (G6)
+  - T24.G6.06 (G6)
+
+================================================================================
+ID: T24.G7.05
+Skill: Use XO to coach peers with rubric-based feedback
+Description: Students feed XO a project summary and ask for constructive feedback. They then edit the response to match a class rubric (naming strengths, next steps) before sending it to a peer. This reinforces human oversight and empathy.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T24.G6.06 (G6)
+
+================================================================================
+ID: T25.G7.01
+Skill: Normalize repeating data into separate tables
+Description: Students examine a table with repeated player info per score entry and refactor it into two tables (Players, Scores) with IDs, emphasizing normalization.
+Dependencies (4):
+  - T25.G1.01 (G1)
+  - T25.G1.02 (G1)
+  - T25.GK.02 (GK)
+  - T25.GK.03 (GK)
+
+================================================================================
+ID: T25.G7.02
+Skill: Identify bias introduced by representation choices
+Description: Learners critique data schemas that collapse categories (e.g., “Other” gender) and discuss the downstream impact for AI fairness.
+Dependencies (4):
+  - T25.G1.01 (G1)
+  - T25.G1.02 (G1)
+  - T25.GK.02 (GK)
+  - T25.GK.03 (GK)
+
+================================================================================
+ID: T25.G7.03
+Skill: Create JSON-like snippets to store structured state
+Description: Students practice expressing a CreatiCode screen’s data as nested key/value text (pseudo-JSON) and aligning it with program variables.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T25.GK.02 (GK)
+  - T25.GK.03 (GK)
+
+================================================================================
+ID: T25.G7.04
+Skill: Evaluate storage vs performance tradeoffs
+Description: Learners consider whether to store derived values (e.g., total score) or compute them on demand, documenting pros/cons (speed, accuracy).
+Dependencies (4):
+  - T25.G1.01 (G1)
+  - T25.G1.02 (G1)
+  - T25.GK.02 (GK)
+  - T25.GK.03 (GK)
+
+================================================================================
+ID: T26.G7.01
+Skill: Build reusable data collection modules
+Description: Students wrap logging behavior into custom blocks (e.g., `logEvent type message data`) so multiple sprites can call the same routine.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T26.GK.02 (GK)
+  - T26.GK.03 (GK)
+
+================================================================================
+ID: T26.G7.02
+Skill: Monitor data quality in real time
+Description: Learners build HUD widgets indicating percentage of responses collected, number of nulls, or out-of-range counts to catch issues while collecting.
+Dependencies (5):
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T26.GK.02 (GK)
+  - T26.GK.03 (GK)
+
+================================================================================
+ID: T26.G7.03
+Skill: Document provenance for external datasets
+Description: Students import an open dataset (weather, public CSV) and log metadata (where it came from, license, when to refresh), reinforcing responsible use.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T26.GK.02 (GK)
+  - T26.GK.03 (GK)
+
+================================================================================
+ID: T26.G7.04
+Skill: Evaluate bias risks introduced during collection
+Description: Learners compare planned participants vs actual participants and highlight underrepresented groups, proposing corrective actions.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T26.GK.02 (GK)
+  - T26.GK.03 (GK)
+
+================================================================================
+ID: T27.G7.01
+Skill: Build multi-chart dashboards with linked filters
+Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter variable, providing cohesive analysis for complex apps.
+Dependencies (5):
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T26.G3.04 (G3)
+  - T27.GK.02 (GK)
+  - T27.GK.03 (GK)
+
+================================================================================
+ID: T27.G7.02
+Skill: Conduct residual/error analysis
+Description: Learners compare predicted vs actual outcomes (e.g., XO’s suggestion vs real time) and log residuals to identify systematic bias.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T26.G3.04 (G3)
+  - T27.GK.02 (GK)
+  - T27.GK.03 (GK)
+
+================================================================================
+ID: T27.G7.03
+Skill: Evaluate fairness metrics
+Description: Students compute metrics (precision, recall, or simple success rate) for different user groups and discuss disparities, tying to AI4K12’s ethical lens.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T26.G3.04 (G3)
+  - T27.GK.02 (GK)
+  - T27.GK.03 (GK)
+
+================================================================================
+ID: T27.G7.04
+Skill: Craft executive summaries for stakeholders
+Description: Learners prepare a short memo with “Finding, Evidence, Recommendation” sections aimed at teachers or peers, practicing professional communication.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T26.G3.04 (G3)
+  - T27.GK.03 (GK)
+
+================================================================================
+ID: T28.G7.01
+Skill: Build agent-based simulations
+Description: Students create multi-agent systems (e.g., rumor spread, ecosystem) where sprites follow probabilistic rules and log aggregated metrics.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T28.G6.05 (G6)
+
+================================================================================
+ID: T28.G7.02
+Skill: Evaluate AI fairness using synthetic populations
+Description: Learners create synthetic user profiles (attributes randomly sampled) and run AI assistants/chatbots through them to check for disparate outcomes.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T28.G6.04 (G6)
+  - T28.G6.05 (G6)
+
+================================================================================
+ID: T28.G7.03
+Skill: Perform randomization tests (permutation tests)
+Description: Students shuffle existing experimental labels many times and count how often results as extreme as the real one occur, estimating p-values.
+Dependencies (5):
+  - T07.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T28.G6.05 (G6)
+
+================================================================================
+ID: T28.G7.04
+Skill: Communicate simulation assumptions & limits
+Description: Learners document assumptions (independence, fixed probabilities) and limitations to promote transparency per AI4K12 guidance.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T28.G6.05 (G6)
+
+================================================================================
+ID: T28.G7.05
+Skill: Trace how a simple agent learns from rewards
+Description: Students observe a pre-built simulation where an agent's path-finding choices are updated based on a simple reward mechanism (e.g., a table of Q-values is updated visually). They answer questions about why the agent's path changes over multiple trials. This remains a conceptual tracing skill.
+Dependencies (5):
+  - T07.G3.05 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T28.G6.04 (G6)
+  - T28.G6.05 (G6)
+
+================================================================================
+ID: T29.G7.01
+Skill: Build keyword retrieval helpers (mini-RAG)
+Description: Students store paragraph snippets, compute keyword overlap or TF‑IDF-like scores, and return the highest-scoring snippet to answer a question.
+Dependencies (5):
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T29.G6.03 (G6)
+  - T29.G6.04 (G6)
+
+================================================================================
+ID: T29.G7.02
+Skill: Engineer text features for classifiers
+Description: Learners extract features (word counts, sentiment scores, length) and feed them into CreatiCode’s AI classifier blocks to label text (spam vs not, emotion categories).
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T29.G6.04 (G6)
+
+================================================================================
+ID: T29.G7.03
+Skill: Audit text datasets for bias and coverage
+Description: Students examine corpora for demographic coverage, tone, or harmful language, documenting gaps and proposing mitigations.
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T29.G6.04 (G6)
+
+================================================================================
+ID: T29.G7.04
+Skill: Compare human vs XO summaries critically
+Description: Learners write their own summary, compare it to XO’s output, and annotate what the AI missed or distorted.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T09.G3.04 (G3)
+  - T10.G3.03 (G3)
+  - T29.G6.03 (G6)
+  - T29.G6.04 (G6)
+
+================================================================================
+ID: T30.G7.01
+Skill: Analyze energy consumption & thermal limits
+Description: Students interpret simplified heat/power charts to explain throttling, fan curves, and design tradeoffs for AI workloads.
+Dependencies (4):
+  - T30.G1.01 (G1)
+  - T30.G1.02 (G1)
+  - T30.GK.02 (GK)
+  - T30.GK.03 (GK)
+
+================================================================================
+ID: T30.G7.02
+Skill: Design redundancy/fail-safes for sensors
+Description: Learners plan duplicate sensors or fallback modes (e.g., revert to keyboard when mic fails) to keep AI features safe.
+Dependencies (4):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T30.GK.02 (GK)
+  - T30.GK.03 (GK)
+
+================================================================================
+ID: T30.G7.03
+Skill: Design redundancy/fail-safes for AI sensors
+Description: Learners plan duplicate sensors or fallback modes (e.g., revert to keyboard when mic fails in T22 chatbots, manual input when T23 hand detection fails) to keep AI features safe. They connect to T23 perception robustness and T24 XO fallback strategies.
+Dependencies (4):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T30.GK.02 (GK)
+  - T30.GK.03 (GK)
+
+================================================================================
+ID: T30.G7.04
+Skill: Compare CPUs, GPUs, and TPUs for AI workloads
+Description: Students map AI tasks (image generation from T21, speech recognition from T23, ChatGPT inference from T22) to hardware accelerators and justify choices using throughput/parallelism arguments. They connect T21-T24 AI applications to specific hardware requirements.
+Dependencies (4):
+  - T30.G1.01 (G1)
+  - T30.G1.02 (G1)
+  - T30.GK.02 (GK)
+  - T30.GK.03 (GK)
+
+================================================================================
+ID: T30.G7.05
+Skill: Debate privacy implications of AI-powered sensors
+Description: Learners analyze scenarios (AI voice assistants from T22, computer vision from T23, smart classroom monitoring) and propose guidelines balancing AI utility and privacy per AI4K12. They connect to T23 perception ethics and T24 XO data handling.
+Dependencies (4):
+  - T30.G1.01 (G1)
+  - T30.G1.02 (G1)
+  - T30.GK.02 (GK)
+  - T30.GK.03 (GK)
+
+================================================================================
+ID: T31.G7.01
+Skill: Model a distributed multiplayer server
+Description: Students diagram how a central server receives updates from each client and broadcasts them back, noting timing and ordering constraints.
+Dependencies (4):
+  - T02.G3.01 (G3)
+  - T31.G5.01 (G5)
+  - T31.G6.04 (G6)
+  - T31.G6.05 (G6)
+
+================================================================================
+ID: T31.G7.02
+Skill: Design a protocol for multiplayer state sync
+Description: Students specify required fields (player ID, x, y, action, timestamp) and implement serialization/deserialization using lists or JSON-like strings.
+Dependencies (4):
+  - T31.G5.01 (G5)
+  - T31.G5.02 (G5)
+  - T31.G6.04 (G6)
+  - T31.G6.05 (G6)
+
+================================================================================
+ID: T31.G7.03
+Skill: Compare network topology options
+Description: Students analyze trade-offs among star (client/server), mesh, and peer-to-peer topologies in terms of latency, resilience, and implementation complexity.
+Dependencies (4):
+  - T31.G5.01 (G5)
+  - T31.G5.02 (G5)
+  - T31.G6.04 (G6)
+  - T31.G6.05 (G6)
+
+================================================================================
+ID: T31.G7.04
+Skill: Compare centralized servers with peer-to-peer networks
+Description: Students contrast CreatiCode’s standard multiplayer extension (server authoritative) with the `p2p` extension modes (message-only, Nengi/3D). They cite latency, trust, and scalability implications.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T31.G6.04 (G6)
+  - T31.G6.05 (G6)
+
+================================================================================
+ID: T31.G7.05
+Skill: Analyze societal impacts of networked systems
+Description: Students research benefits (collaboration, access) and harms (privacy loss, misinformation) of widely used networked tools, grounding arguments in real examples.
+Dependencies (4):
+  - T04.G2.01 (G2)
+  - T31.G5.01 (G5)
+  - T31.G6.04 (G6)
+  - T31.G6.05 (G6)
+
+================================================================================
+ID: T32.G7.01
+Skill: Analyze encryption basics (Caesar cipher)
+Description: Students implement Caesar cipher blocks, encrypt a short message, and discuss why stronger algorithms exist.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T32.GK.02 (GK)
+  - T32.GK.03 (GK)
+
+================================================================================
+ID: T32.G7.02
+Skill: Simulate password cracking attempts
+Description: Learners use provided data (password length vs attempts) to compare weak vs strong passwords and set class guidelines.
+Dependencies (4):
+  - T32.G1.01 (G1)
+  - T32.G1.02 (G1)
+  - T32.GK.02 (GK)
+  - T32.GK.03 (GK)
+
+================================================================================
+ID: T32.G7.03
+Skill: Implement secure logging/monitoring inside apps
+Description: Students add logging to CreatiCode projects (timestamp, user, action) and note that logs themselves must be protected.
+Dependencies (4):
+  - T07.G3.01 (G3)
+  - T32.G1.01 (G1)
+  - T32.GK.02 (GK)
+  - T32.GK.03 (GK)
+
+================================================================================
+ID: T32.G7.04
+Skill: Analyze AI-powered surveillance ethics and societal impacts
+Description: Following T23 perception projects, learners debate benefits/risks of AI-powered surveillance (facial recognition, emotion detection, behavior analysis). They analyze case studies, discuss bias and fairness concerns, and propose ethical guidelines connecting to T35 ethics frameworks.
+Dependencies (4):
+  - T32.G1.01 (G1)
+  - T32.G1.02 (G1)
+  - T32.GK.02 (GK)
+  - T32.GK.03 (GK)
+
+================================================================================
+ID: T33.G7.01
+Skill: Securely store and reference service credentials (conceptual)
+Description: Students learn that CreatiCode’s AI blocks encapsulate credentials and why they should never attempt to expose or share keys. They document rules for safeguarding teacher-provided tokens (if any) and explain legal/ethical consequences.
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T10.G3.03 (G3)
+  - T31.G5.01 (G5)
+  - T33.G6.03 (G6)
+  - T33.G6.04 (G6)
+
+================================================================================
+ID: T33.G7.02
+Skill: Build wrappers that combine multiple services
+Description: Learners orchestrate a multi-service workflow using speech recognition, ChatGPT, and AI speaker blocks. They handle intermediate data, ensure privacy (e.g., redacting user names), and log interactions responsibly (T24 dependency).
+Dependencies (5):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T10.G3.03 (G3)
+  - T31.G5.01 (G5)
+  - T33.G6.04 (G6)
+
+================================================================================
+ID: T33.G7.03
+Skill: Compare service options and pick the right tool
+Description: Students analyze requirements (needs image generation vs text vs semantic search) and select the appropriate CreatiCode block, justifying the choice and tradeoffs (latency, cost, capabilities).
+Dependencies (5):
+  - T08.G3.01 (G3)
+  - T10.G3.03 (G3)
+  - T31.G5.01 (G5)
+  - T33.G6.03 (G6)
+  - T33.G6.04 (G6)
+
+================================================================================
+ID: T33.G7.04
+Skill: Implement caching/memoization for repeated requests
+Description: Learners store previous prompt/response pairs in a table and reuse them to reduce external calls, improving performance and respecting limits.
+Dependencies (5):
+  - T09.G3.01 (G3)
+  - T10.G3.03 (G3)
+  - T31.G5.01 (G5)
+  - T33.G6.03 (G6)
+  - T33.G6.04 (G6)
+
+================================================================================
+ID: T34.G7.01
+Skill: Research AI history milestones
+Description: Learners create a timeline of AI breakthroughs and discuss how each changed human-computer interaction.
+Dependencies (4):
+  - T34.G1.01 (G1)
+  - T34.G1.02 (G1)
+  - T34.GK.02 (GK)
+  - T34.GK.03 (GK)
+
+================================================================================
+ID: T34.G7.02
+Skill: Evaluate technology policies over time
+Description: Students examine historical policies (COPPA, GDPR’s roots, early computer misuse acts) and discuss motivations vs outcomes.
+Dependencies (4):
+  - T34.G1.01 (G1)
+  - T34.G1.02 (G1)
+  - T34.GK.02 (GK)
+  - T34.GK.03 (GK)
+
+================================================================================
+ID: T34.G7.03
+Skill: Create museum-style exhibits for innovators
+Description: Learners build interactive CreatiCode scenes highlighting a computing pioneer, artifact, and modern relevance.
+Dependencies (4):
+  - T08.G3.01 (G3)
+  - T34.G1.01 (G1)
+  - T34.GK.02 (GK)
+  - T34.GK.03 (GK)
+
+================================================================================
+ID: T35.G7.01
+Skill: Conduct comprehensive bias audits across T21-T24 AI features
+Description: Students systematically audit T21 image generation (representation across demographics), T22 chatbots (response quality by dialect/topic), T23 perception (accuracy by skin tone/lighting), and T24 XO assistance (help quality by English proficiency). They measure disparities, analyze root causes, and propose both technical and policy solutions.
+Dependencies (4):
+  - T35.G1.01 (G1)
+  - T35.G1.02 (G1)
+  - T35.GK.02 (GK)
+  - T35.GK.03 (GK)
+
+================================================================================
+ID: T35.G7.02
+Skill: Explore unintended consequences of new tech
+Description: Learners storyboard a technology (delivery drones, facial recognition) showing both intended use and unforeseen impact, then propose mitigations.
+Dependencies (4):
+  - T35.G1.01 (G1)
+  - T35.G1.02 (G1)
+  - T35.GK.02 (GK)
+  - T35.GK.03 (GK)
+
+================================================================================
+ID: T35.G7.03
+Skill: Evaluate transparency vs security tensions
+Description: Students weigh openness (auditability) against misuse risks for a hypothetical AI tool and justify a recommendation.
+Dependencies (4):
+  - T35.G1.01 (G1)
+  - T35.G1.02 (G1)
+  - T35.GK.02 (GK)
+  - T35.GK.03 (GK)
+
+================================================================================
+ID: T35.G7.04
+Skill: Analyze societal impacts of AI perception technologies (Pairing with T23)
+Description: Following T23 perception projects, students analyze real-world case studies of AI surveillance (facial recognition in schools, emotion detection at work, gesture tracking in public). They debate tradeoffs between security and privacy, examine disproportionate impacts on marginalized communities, and propose ethical guidelines.
+Dependencies (4):
+  - T35.G1.01 (G1)
+  - T35.G1.02 (G1)
+  - T35.GK.02 (GK)
+  - T35.GK.03 (GK)
+
+================================================================================
+ID: T35.G7.05
+Skill: Debate ethical implications of AI media generation (Pairing with T21)
+Description: Following T21 AI media projects, students hold structured debates on AI's impact on artists, photographers, and designers. They examine issues of copyright, style imitation, job displacement, cultural representation in training data, and propose frameworks for ethical AI media use.
+Dependencies (4):
+  - T35.G1.01 (G1)
+  - T35.G1.02 (G1)
+  - T35.GK.02 (GK)
+  - T35.GK.03 (GK)
+
+================================================================================
+ID: T35.G7.06
+Skill: Facilitate community discussions on AI-powered tech policy
+Description: Learners prepare questions about AI policy (chatbot use in schools, AI hiring tools, automated content moderation), gather diverse stakeholder input, and summarize consensus on local AI governance needs, connecting to T21-T24 applications.
+Dependencies (4):
+  - T35.G1.01 (G1)
+  - T35.G1.02 (G1)
+  - T35.GK.02 (GK)
+  - T35.GK.03 (GK)
+
+================================================================================
+ID: T36.G7.01
+Skill: Interview diverse technologists about AI ethics and equity
+Description: Students interview diverse tech professionals working on AI ethics, fairness, and responsible AI (including those from underrepresented communities). They explore career pathways in AI ethics, daily challenges, and strategies for ensuring T21-T24 style AI tools serve all communities equitably.
+Dependencies (4):
+  - T36.G1.01 (G1)
+  - T36.G1.02 (G1)
+  - T36.GK.02 (GK)
+  - T36.GK.03 (GK)
+
+================================================================================
+ID: T36.G7.02
+Skill: Design cross-functional team diagrams
+Description: Learners create diagrams showing how design, engineering, QA, and ethics teammates collaborate on a larger CreatiCode-style project.
+Dependencies (4):
+  - T06.G3.01 (G3)
+  - T09.G3.01 (G3)
+  - T36.GK.02 (GK)
+  - T36.GK.03 (GK)
+
+================================================================================
+ID: T36.G7.03
+Skill: Facilitate inclusive collaboration
+Description: Students analyze scenarios of exclusive/inclusive behavior (interrupting, credit sharing) and propose improvements.
+Dependencies (4):
+  - T36.G1.01 (G1)
+  - T36.G1.02 (G1)
+  - T36.GK.02 (GK)
+  - T36.GK.03 (GK)
+
+================================================================================
+ID: T36.G7.04
+Skill: Mentor younger coders
+Description: Learners plan/deliver short lessons (debugging, AI safety) to younger students, reinforcing leadership and empathy.
+Dependencies (4):
+  - T01.G3.01 (G3)
+  - T01.G3.02 (G3)
+  - T36.GK.02 (GK)
+  - T36.GK.03 (GK)

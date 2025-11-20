@@ -1,0 +1,2092 @@
+================================================================================
+GRADE 5 SKILLS EXTRACTION REPORT
+================================================================================
+
+Total G5 Skills Found: 172
+Topics Covered: 35
+
+SUMMARY BY TOPIC
+--------------------------------------------------------------------------------
+T01: 10 skills - T01 – Everyday Algorithms
+T02: 6 skills - T02 – Algorithm Diagrams
+T03: 5 skills - T03 – Problem Decomposition
+T04: 5 skills - T04 – Algorithm Patterns
+T05: 6 skills - T05 – Human‑Centered Design
+T06: 6 skills - T06 – Events & Sequences: G3–8 Skill List
+T07: 4 skills - T07 – Loops
+T08: 4 skills - T08 – Conditions & Logic
+T09: 8 skills - T09 – Variables & Expressions
+T10: 5 skills - T10 – Lists & Tables
+T11: 4 skills - T11 – Functions & Procedures
+T12: 4 skills - T12 – Organizing Programs
+T13: 4 skills - T13 – Testing, Debugging & Error Handling
+T14: 10 skills - T14 – 2D Games
+T15: 8 skills - T15 – Stories & Animation
+T16: 4 skills - T16 – User Interfaces: G5–8 Skill List
+T17: 11 skills - T17 – 2D Motion & Physics: Grades 5–8 Skill List
+T18: 6 skills - T18 – 3D Worlds & Games
+T19: 5 skills - T19 – Multiplayer Apps: Grade 5–8 Skill List
+T20: 5 skills - T20 – Algorithmic Art & Creative Coding
+T21: 1 skills - T21 – AI Media: G6–8 Skill List
+T22: 1 skills - T22 – Chatbots & Prompting: G6–8 Skill List
+T23: 4 skills - T23 – AI Perception
+T24: 5 skills - T24 – XO & Generative AI Practices: G5–8 Skill List
+T25: 4 skills - T25 – Data Representation
+T26: 4 skills - T26 – Data Collection & Logging
+T27: 3 skills - T27 – Data Analysis & Storytelling
+T28: 4 skills - T28 – Chance & Simulations: G2–8 Skill List
+T29: 4 skills - T29 – Text Data & NLP Foundations: G3–8 Skill List
+T30: 4 skills - T30 – Devices & Hardware Systems
+T31: 5 skills - T31 – Internet & Cloud: Grade 5–8 Skill List
+T32: 4 skills - T32 – Cybersecurity & Digital Safety
+T34: 3 skills - T34 – Computing History
+T35: 3 skills - T35 – Impacts & Ethics
+T36: 3 skills - T36 – Careers, Collaboration & Future Paths
+
+
+================================================================================
+DETAILED SKILL LISTING
+================================================================================
+
+
+================================================================================
+TOPIC T01: T01 – Everyday Algorithms
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.01
+Skill Name: Match a word description to a flowchart
+
+Description:
+Students match everyday‑language descriptions of algorithms to flowcharts, applying the flowchart symbols and reading skills introduced in T02 (Grades 3–4) to real‑world tasks. _Implementation note: MCQ matching, using familiar contexts (games, classroom routines). CSTA: E5‑ALG‑AF‑01._
+
+Dependencies (1):
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.02
+Skill Name: Convert a flowchart or pseudocode into code
+
+Description:
+Students implement simple flowcharts/pseudocode (that follow patterns already practiced in T02.G4.x–T02.G5.x) as block‑based code for small CreatiCode projects. _Implementation note: Coding; auto‑graded on behavior and basic correspondence between diagram/pseudocode and code. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.03
+Skill Name: Convert a short program into pseudocode
+
+Description:
+Students rewrite a short program as structured pseudocode showing loops, if/then, and variables, using the pseudocode conventions introduced in T02 and focusing on clarity for a human reader who is thinking about the real task. _Implementation note: Guided pseudocode; rubric/auto‑grading focused on structure and faithfulness to behavior. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.04
+Skill Name: Trace a search algorithm using loops and variables
+
+Description:
+Students trace a simple “find the largest” or “count matches” algorithm and track how a variable changes. _Implementation note: Tracing table; auto‑graded. CSTA: E5‑ALG‑PS‑03, E5‑PRO‑DH‑02._
+
+Dependencies (2):
+  - T01.G3.02: Match a story description to a code sequence
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.05
+Skill Name: Determine whether an algorithm is correct for all inputs
+
+Description:
+Students apply test cases to decide if an algorithm always gives the right answer. _Implementation note: Choose “always works” vs “fails sometimes” with evidence. CSTA: E5‑ALG‑PS‑03._
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.06
+Skill Name: Compare two algorithms for step counts (efficiency)
+
+Description:
+Students estimate or count loop iterations and compare efficiency. _Implementation note: Tables + MCQ; auto‑graded. CSTA: E5‑ALG‑PS‑03, E5‑ALG‑IM‑04._
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.07
+Skill Name: Debug an algorithm that mis‑handles a simple edge case
+
+Description:
+Students fix a bug where an algorithm fails on empty input or a special case. _Implementation note: Coding edits; auto‑graded tests. CSTA: E5‑ALG‑PS‑03, E5‑PRO‑TR‑03._
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.08
+Skill Name: Add checks to handle edge cases
+
+Description:
+Students extend an algorithm to include extra if/then checks for invalid or special inputs. _Implementation note: Coding; test both regular and edge cases. CSTA: E5‑ALG‑PS‑03._
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.09
+Skill Name: Explain why an algorithm is correct using loops and variables
+
+Description:
+Students explain why a loop + variable algorithm (e.g., max, count) is guaranteed to work. _Implementation note: Structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T01.G5.10
+Skill Name: Rewrite a long algorithm using loops or helper steps
+
+Description:
+Students reduce a long algorithm to a shorter one using loops or helper steps without changing behavior. _Implementation note: Pseudocode/code refactor; rubric/auto‑graded. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
+
+Dependencies (2):
+  - T01.G3.02: Match a story description to a code sequence
+  - T07.G3.01: Use a counted repeat loop
+
+
+================================================================================
+TOPIC T02: T02 – Algorithm Diagrams
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T02.G5.01
+Skill Name: Read a multi‑branch flowchart and trace a path
+
+Description:
+Students are given a multi‑branch flowchart (created in the Diagrams tab) with several decision diamonds and must trace the path for a specific input (e.g., “It is rainy and cold”).
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T02.G5.02
+Skill Name: Design a multi‑branch flowchart for a decision task
+
+Description:
+Students design a flowchart with multiple decision points (e.g., “choose a game based on time and number of players”) using the Diagrams tab.
+
+Dependencies (2):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T02.G3.01: Identify start, action, and end symbols
+
+--------------------------------------------------------------------------------
+Skill ID: T02.G5.03
+Skill Name: Trace a flowchart with state tracking using a trace table
+
+Description:
+Students follow a flowchart that tracks changing values (like a counter or position) and fill in a trace table showing how values change at each step.
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T02.G5.04
+Skill Name: Create a trace table for a flowchart with accumulation
+
+Description:
+Students trace a flowchart that accumulates values (adds to a running total) and create their own trace table format to track the process.
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T02.G5.05
+Skill Name: Write pseudocode for a loop‑based algorithm
+
+Description:
+Students write structured pseudocode for a small, multi‑step algorithm (5–7 steps) that includes a loop and conditional, using clear indentation and step labels learned from earlier T02 grades.
+
+Dependencies (1):
+  - T08.G3.01: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+Skill ID: T02.G5.06
+Skill Name: Compare two algorithms for the same task
+
+Description:
+Students are given two short algorithms (flowcharts or pseudocode) solving the same problem and choose which uses fewer steps or is clearer, explaining why.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+
+================================================================================
+TOPIC T03: T03 – Problem Decomposition
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T03.G5.01
+Skill Name: Create a feature list and subtask breakdown
+
+Description:
+Students read a project pitch and produce a structured list: main features with 2–3 subtasks each.
+
+Dependencies (2):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T03.G1.02: Group related parts into categories
+
+--------------------------------------------------------------------------------
+Skill ID: T03.G5.02
+Skill Name: Draw a high‑level project map
+
+Description:
+Students create a simple diagram showing how key screens/levels or components connect (e.g., “menu → level 1 → level 2 → game over”), focusing on *project structure* (screens/modules), not algorithm branching (which is covered in T02).
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T03.G5.03
+Skill Name: Identify task dependencies in a project plan
+
+Description:
+Students examine a list of tasks and mark which ones must be done before others (e.g., "design characters before animate movement").
+
+Dependencies (1):
+  - T03.G1.02: Group related parts into categories
+
+--------------------------------------------------------------------------------
+Skill ID: T03.G5.04
+Skill Name: Flag high‑risk or unclear tasks
+
+Description:
+Students highlight tasks that are vague or risky (e.g., “make AI for enemies” with no details) and choose clarifying sub‑tasks.
+
+Dependencies (1):
+  - T03.G1.02: Group related parts into categories
+
+--------------------------------------------------------------------------------
+Skill ID: T03.G5.05
+Skill Name: Compare two project plans for the same idea
+
+Description:
+Students compare two project plans and choose which is more realistic or better organized, citing specific differences (e.g., clear subtasks, dependencies).
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+
+================================================================================
+TOPIC T04: T04 – Algorithm Patterns
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T04.G5.01
+Skill Name: Recognize a counter update pattern
+
+Description:
+Students identify code where a variable counts events (`set count to 0; change count by 1`) across different contexts.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T04.G5.02
+Skill Name: Recognize an accumulator (sum/concatenate) pattern
+
+Description:
+Students identify code where a variable accumulates totals or builds strings.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T04.G5.03
+Skill Name: Recognize a linear search pattern
+
+Description:
+Students identify the “look at each item and compare” pattern in code that searches for a match.
+
+Dependencies (1):
+  - T08.G3.01: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+Skill ID: T04.G5.04
+Skill Name: Recognize a filter‑and‑collect pattern
+
+Description:
+Students identify code that loops, tests a condition, and adds matching items to a list.
+
+Dependencies (1):
+  - T08.G3.01: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+Skill ID: T04.G5.05
+Skill Name: Compare solutions that use a pattern vs those that don’t
+
+Description:
+Students compare two snippets solving the same task, one using a standard pattern (loop + counter) and one using ad‑hoc code, and choose which is better and why.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+
+================================================================================
+TOPIC T05: T05 – Human‑Centered Design
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T05.G5.01
+Skill Name: Write clear user needs and requirements for a small app
+
+Description:
+Students fill in a structured form: “User is…,” “They need…,” “App must…,” for a simple app.
+
+Dependencies (2):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T05.G1.02: Match a need to a design idea
+
+--------------------------------------------------------------------------------
+Skill ID: T05.G5.02
+Skill Name: Create a low‑fidelity sketch for a user story
+
+Description:
+Students choose or arrange UI elements to make a wireframe that fits a user story and the requirements they wrote.
+
+Dependencies (2):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T05.G1.02: Match a need to a design idea
+
+--------------------------------------------------------------------------------
+Skill ID: T05.G5.03
+Skill Name: Identify variables and initial values for a simulation
+
+Description:
+Students list or select variables (e.g., “number of rabbits”) and their starting values from a story, as a planning step before building the simulation in CreatiCode (e.g., T17/T25–T27).
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T05.G5.04
+Skill Name: Draft simple update rules for a simulation
+
+Description:
+Students choose or write rules for how variables change each step (e.g., “each month, rabbits double”), keeping each rule small and unambiguous so it can be implemented later in code.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T05.G5.05
+Skill Name: Plan how to test whether a design meets user needs
+
+Description:
+Students write or choose test questions/tasks a user should try (e.g., “Can you find the button to start?”).
+
+Dependencies (3):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T04.G2.01: Identify the repeating unit in a longer pattern
+  - T05.G1.01: Identify what a character needs in a story
+
+--------------------------------------------------------------------------------
+Skill ID: T05.G5.06
+Skill Name: Plan what to measure in a simulation experiment
+
+Description:
+Students choose what data to record when running a simulation (e.g., population at each step).
+
+Dependencies (1):
+  - T05.G1.02: Match a need to a design idea
+
+
+================================================================================
+TOPIC T06: T06 – Events & Sequences: G3–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T06.G5.01
+Skill Name: Identify standard event patterns in a small game
+
+Description:
+Students label patterns like “start game,” “reset level,” “on collision,” “on score change” as specific event handlers in code.
+
+Dependencies (1):
+  - T06.G4.06: Fix a missing receiver for a broadcast
+
+--------------------------------------------------------------------------------
+Skill ID: T06.G5.02
+Skill Name: Add a new event‑triggered behavior to an existing game
+
+Description:
+Students add a new key or click event that triggers a simple new action without breaking existing ones.
+
+Dependencies (2):
+  - T06.G4.05: Fix a sprite that doesn’t respond because the event is wrong
+  - T06.G4.06: Fix a missing receiver for a broadcast
+
+--------------------------------------------------------------------------------
+Skill ID: T06.G5.03
+Skill Name: Design a simple broadcast sequence for level start/end
+
+Description:
+Students configure broadcasts like “level‑start” and “level‑end” and connect them to sprites that show/hide or reset positions.
+
+Dependencies (2):
+  - T06.G4.05: Fix a sprite that doesn’t respond because the event is wrong
+  - T06.G4.06: Fix a missing receiver for a broadcast
+
+--------------------------------------------------------------------------------
+Skill ID: T06.G5.04
+Skill Name: Trace event and broadcast order for a scenario
+
+Description:
+Students follow a sequence of player actions and predict which scripts (events + broadcasts) run and in what rough order.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T06.G4.05: Fix a sprite that doesn’t respond because the event is wrong
+  - T06.G4.06: Fix a missing receiver for a broadcast
+
+--------------------------------------------------------------------------------
+Skill ID: T06.G5.05
+Skill Name: Find and fix conflicting event scripts
+
+Description:
+Students debug a project where two event handlers interfere (e.g., two keys both move sprite at once) by changing events or conditions.
+
+Dependencies (2):
+  - T06.G4.05: Fix a sprite that doesn’t respond because the event is wrong
+  - T06.G4.06: Fix a missing receiver for a broadcast
+
+--------------------------------------------------------------------------------
+Skill ID: T06.G5.06
+Skill Name: Group scripts by event type to improve organization
+
+Description:
+Students reorganize scripts in a project (e.g., grouping movement events, UI events) and add comments describing each group.
+
+Dependencies (2):
+  - T06.G4.05: Fix a sprite that doesn’t respond because the event is wrong
+  - T06.G4.06: Fix a missing receiver for a broadcast
+
+
+================================================================================
+TOPIC T07: T07 – Loops
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T07.G5.01
+Skill Name: Simulate repeated experiments with a loop
+
+Description:
+Students simulate a simple chance experiment (e.g., rolling a die, flipping a coin) repeatedly in code using a loop, and count outcomes to observe frequencies. This connects loops to data and probability.
+
+Dependencies (2):
+  - T07.G4.05: Analyze and fix a loop bug
+  - T07.G4.06: Trace code that combines a loop and a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T07.G5.02
+Skill Name: Build a list with a loop
+
+Description:
+Students write a loop that populates a list with a sequence of values (e.g., the numbers 1 to 10) or with repeated samples from user input or sensors.
+
+Dependencies (2):
+  - T07.G4.05: Analyze and fix a loop bug
+  - T07.G4.06: Trace code that combines a loop and a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T07.G5.03
+Skill Name: Use loops to compute aggregates
+
+Description:
+Students loop over items in a list (or through repeated events) to compute a total or average (e.g., total points from several rounds), using an accumulator variable.
+
+Dependencies (1):
+  - T07.G4.06: Trace code that combines a loop and a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T07.G5.04
+Skill Name: Nested loops for advanced patterns or tilings
+
+Description:
+Students design or reproduce more complex tilings or repeating art (checkerboards, stripes, simple mosaics) using nested loops and coordinate changes, reinforcing multiplicative reasoning and spatial thinking.
+
+Dependencies (2):
+  - T07.G4.05: Analyze and fix a loop bug
+  - T07.G4.06: Trace code that combines a loop and a condition
+
+
+================================================================================
+TOPIC T08: T08 – Conditions & Logic
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T08.G5.01
+Skill Name: Design multi-branch decision logic
+
+Description:
+Students design multi-branch logic (e.g., grading scales, game difficulty tiers) using nested or chained if/else statements.
+
+Dependencies (2):
+  - T08.G4.07: Analyze and fix a logic bug
+  - T08.G4.08: Trace code with a sequence of if/else blocks
+
+--------------------------------------------------------------------------------
+Skill ID: T08.G5.02
+Skill Name: Use NOT to invert conditions
+
+Description:
+Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly.
+
+Dependencies (2):
+  - T08.G4.07: Analyze and fix a logic bug
+  - T08.G4.08: Trace code with a sequence of if/else blocks
+
+--------------------------------------------------------------------------------
+Skill ID: T08.G5.03
+Skill Name: Combine three or more conditions
+
+Description:
+Students write compound conditions that combine three or more tests using AND/OR, such as "if score > 100 AND lives > 0 AND has_key then ..."
+
+Dependencies (2):
+  - T08.G4.07: Analyze and fix a logic bug
+  - T08.G4.08: Trace code with a sequence of if/else blocks
+
+--------------------------------------------------------------------------------
+Skill ID: T08.G5.04
+Skill Name: Trace complex decision logic
+
+Description:
+Students trace a decision tree implemented with nested/compound conditionals and determine which path is taken for various inputs.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T08.G4.07: Analyze and fix a logic bug
+  - T08.G4.08: Trace code with a sequence of if/else blocks
+
+
+================================================================================
+TOPIC T09: T09 – Variables & Expressions
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.01
+Skill Name: Use multiple variables together in expressions
+
+Description:
+Students write expressions that use three or more variables together, such as "total = width * height * depth" or updating one variable based on others, demonstrating coordination of multiple data values.
+
+Dependencies (2):
+  - T09.G4.07: Modify a variable based on sensor or random input
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.02
+Skill Name: Use string variables and concatenation
+
+Description:
+Students store text in variables and use concatenation (e.g., joining "Hello " + name) to build messages and labels.
+
+Dependencies (2):
+  - T09.G4.07: Modify a variable based on sensor or random input
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.03
+Skill Name: Use variables to configure behavior (parameters without functions)
+
+Description:
+Students create variables that configure behavior (e.g., speed, difficulty, number of lives) and use them in expressions to control program settings, introducing the idea of parameterization.
+
+Dependencies (1):
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.04
+Skill Name: Use expressions involving lists (length, indexing)
+
+Description:
+Students use expressions like "length of [list]" or "item (index) of [list]" and combine them with numeric variables (e.g., index variables) to work with list data.
+
+Dependencies (2):
+  - T09.G4.07: Modify a variable based on sensor or random input
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.05
+Skill Name: Use variables to track cumulative statistics
+
+Description:
+Students maintain variables such as "total_score", "games_played", and "high_score" across multiple rounds or sessions, using expressions to update and compare these values.
+
+Dependencies (2):
+  - T09.G4.07: Modify a variable based on sensor or random input
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.06
+Skill Name: Trace complex variable assignments and expressions
+
+Description:
+Students trace code with multiple variables and expressions, recording values at each step and predicting final outcomes. This reinforces mental models of variable scope and order of operations.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G4.07: Modify a variable based on sensor or random input
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.07
+Skill Name: Trace a counter variable in a loop
+
+Description:
+Students trace a script where a variable starts at a value and changes inside a loop, predicting its final value.
+
+Dependencies (1):
+  - T09.G4.08: Debug incorrect variable updates in code
+
+--------------------------------------------------------------------------------
+Skill ID: T09.G5.08
+Skill Name: Trace an accumulator that sums values
+
+Description:
+Students trace code that adds values to a running total and determine the final sum.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G4.07: Modify a variable based on sensor or random input
+  - T09.G4.08: Debug incorrect variable updates in code
+
+
+================================================================================
+TOPIC T10: T10 – Lists & Tables
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T10.G5.01
+Skill Name: Create and populate a table variable
+
+Description:
+Students create an empty table variable and add rows with multiple columns (e.g., using a "make table" or "add row" block), understanding that a table is a 2D structure where each row can have multiple attributes (like a spreadsheet or database record).
+
+Dependencies (2):
+  - T10.G4.05: Search a list for a specific item (linear search)
+  - T10.G4.06: Filter or remove items from a list based on a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T10.G5.02
+Skill Name: Access table cells by row and column
+
+Description:
+Students retrieve a value from a table using row and column indices (e.g., `item [row 2, column 3] of [table]` or equivalent) and use or display that value.
+
+Dependencies (2):
+  - T10.G4.05: Search a list for a specific item (linear search)
+  - T10.G4.06: Filter or remove items from a list based on a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T10.G5.03
+Skill Name: Update or insert rows in a table
+
+Description:
+Students modify a table by adding a new row (e.g., a new student record) or updating values in an existing row, maintaining the table structure.
+
+Dependencies (2):
+  - T10.G4.05: Search a list for a specific item (linear search)
+  - T10.G4.06: Filter or remove items from a list based on a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T10.G5.04
+Skill Name: Loop through table rows to compute aggregates
+
+Description:
+Students use a loop to iterate through all rows of a table, accessing a specific column, and computing a total (sum), average, count, or max/min value.
+
+Dependencies (1):
+  - T10.G4.06: Filter or remove items from a list based on a condition
+
+--------------------------------------------------------------------------------
+Skill ID: T10.G5.05
+Skill Name: Search and filter table data
+
+Description:
+Students search a table for rows where a specific column matches a value or condition (e.g., "find all students with Grade = 'A'" or "find all scores > 80"), and return the matching row(s).
+
+Dependencies (2):
+  - T10.G4.05: Search a list for a specific item (linear search)
+  - T10.G4.06: Filter or remove items from a list based on a condition
+
+
+================================================================================
+TOPIC T11: T11 – Functions & Procedures
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T11.G5.01
+Skill Name: Identify subproblems that deserve their own helper
+
+Description:
+Students are given a larger problem description and a long script, and they identify which repeated or conceptually distinct behaviors (e.g., "reset player," "check win condition," "update HUD") would make good helper procedures or functions, even if those helpers are already defined by the teacher or system.
+
+Dependencies (1):
+  - T11.G4.05: Trace through a script with helpers and reporters
+
+--------------------------------------------------------------------------------
+Skill ID: T11.G5.02
+Skill Name: Define a simple helper with one parameter
+
+Description:
+Students create or edit a custom block to take one parameter (e.g., `DrawRectangle [size]` or `SpawnEnemy [speed]`) and replace hard‑coded values with the parameter. They call it with different arguments to show reuse.
+
+Dependencies (2):
+  - T11.G4.04: Describe what each helper does in a script
+  - T11.G4.05: Trace through a script with helpers and reporters
+
+--------------------------------------------------------------------------------
+Skill ID: T11.G5.03
+Skill Name: Decide between a parameter and a call to a separate block
+
+Description:
+Students think about when to add a parameter to a custom block vs. when to create a separate block or call another block. This reinforces interface design thinking.
+
+Dependencies (2):
+  - T11.G4.04: Describe what each helper does in a script
+  - T11.G4.05: Trace through a script with helpers and reporters
+
+--------------------------------------------------------------------------------
+Skill ID: T11.G5.04
+Skill Name: Analyze a modular program structure
+
+Description:
+Students examine a larger project (game, animation, simulation) and identify how it uses custom blocks to organize functionality, explaining how this design makes the code easier to understand and modify.
+
+Dependencies (2):
+  - T11.G4.04: Describe what each helper does in a script
+  - T11.G4.05: Trace through a script with helpers and reporters
+
+
+================================================================================
+TOPIC T12: T12 – Organizing Programs
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T12.G5.01
+Skill Name: Create external documentation for a project
+
+Description:
+Students write or create a simple external document (text block within CreatiCode or a linked file) that explains the project: what it does, how to use it, what each script does, and what variables track. This is the first experience with formal external documentation.
+
+Dependencies (2):
+  - T12.G4.03: Refactor repeated blocks into a custom block for clarity
+  - T12.G4.04: Analyze and improve variable scope and naming
+
+--------------------------------------------------------------------------------
+Skill ID: T12.G5.02
+Skill Name: Document code functionality and choices
+
+Description:
+Students add comments explaining not just what code does, but why they chose that approach (e.g., "I use a repeat loop here instead of separate move blocks because it's shorter and easier to change the distance"). This introduces meta-cognition about code organization.
+
+Dependencies (3):
+  - T12.G1.01: Find the main set of instructions
+  - T12.G4.03: Refactor repeated blocks into a custom block for clarity
+  - T12.G4.04: Analyze and improve variable scope and naming
+
+--------------------------------------------------------------------------------
+Skill ID: T12.G5.03
+Skill Name: Organize a multi-feature project with sections
+
+Description:
+Students structure a larger project into clearly marked sections (using comments and script organization) such as "Initialization," "Player Controls," "Collision Detection," "Score Display," etc. This introduces larger-scale code organization.
+
+Dependencies (2):
+  - T12.G4.03: Refactor repeated blocks into a custom block for clarity
+  - T12.G4.04: Analyze and improve variable scope and naming
+
+--------------------------------------------------------------------------------
+Skill ID: T12.G5.04
+Skill Name: Review and improve another student's code organization
+
+Description:
+Students review a peer's project and provide constructive feedback on its organization, naming, and documentation (e.g., "The variable names are clear, but some scripts are very long and could be split up"). This develops critical reading skills and introduces collaboration norms.
+
+Dependencies (2):
+  - T12.G4.03: Refactor repeated blocks into a custom block for clarity
+  - T12.G4.04: Analyze and improve variable scope and naming
+
+
+================================================================================
+TOPIC T13: T13 – Testing, Debugging & Error Handling
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T13.G5.01
+Skill Name: Debug programs using tracing and logging
+
+Description:
+Students intentionally add `say` blocks, a “debug helper” sprite, or output variables at key points in a program to trace the execution and reveal what's happening (variable values, which branch is taken, how many times a loop runs). They use this information to locate and fix bugs.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T13.G5.02
+Skill Name: Handle invalid or edge case input
+
+Description:
+Students design a program that accepts user input and add checks to reject invalid entries or handle edge cases gracefully (e.g., if a player enters a negative number when a positive is required, the program should ask again or default safely instead of crashing or behaving weirdly).
+
+Dependencies (1):
+  - T08.G3.01: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+Skill ID: T13.G5.03
+Skill Name: Create and follow a test plan
+
+Description:
+Students design a test plan that lists multiple test cases (normal, boundary, and invalid inputs) for a program, then systematically run each test, record results, and document any failures.
+
+Dependencies (1):
+  - T01.G3.01: Complete a simple script with missing blocks
+
+--------------------------------------------------------------------------------
+Skill ID: T13.G5.04
+Skill Name: Modify a program to improve reliability and correctness
+
+Description:
+Students take a working but fragile program (one that handles only happy-path cases) and refactor it to handle more edge cases, reduce duplication, or make it less error-prone. They test the improved version.
+
+Dependencies (2):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T13.G1.01: Identify where a step is wrong
+
+
+================================================================================
+TOPIC T14: T14 – 2D Games
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.01
+Skill Name: **[Engine Skill]** Configure gravity and weight parameters
+
+Description:
+Adjust the amount added to a `y velocity` variable each frame using specific numeric values. Students learn to map gravity constants to measurable jump heights and movement behaviors.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.02
+Skill Name: Control jump timing
+
+Description:
+Allow jumping only when the player is touching the ground (or within a short “coyote time”) by checking sensors before setting `y velocity`.
+
+Dependencies (3):
+  - T06.G3.02: Build a key‑press script that controls a sprite
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.03
+Skill Name: Fix ground collisions
+
+Description:
+Prevent falling through floors by nudging the sprite up until it is no longer intersecting the ground or by snapping to the floor after a fall.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.04
+Skill Name: Script viewport pans
+
+Description:
+Use `move viewport to x (XPOS) y (YPOS)` to place the camera at the start of a level or slide it during a cutscene before gameplay begins.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.05
+Skill Name: Lock viewport to the player
+
+Description:
+Call `lock viewport to sprite [Player]` so the stage follows the player automatically, noting how edges behave when the player reaches the map boundary.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.06
+Skill Name: Pin HUD to the screen
+
+Description:
+Use `attach to viewport at x (XPOS) y (YPOS)` to place score, lives, and buttons relative to the viewport so they stay in the same spot even while the world scrolls.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.07
+Skill Name: Spawn near the viewport
+
+Description:
+Combine `viewport x`/`viewport y` reporters with random offsets to spawn enemies just outside the camera so they enter smoothly instead of popping on the player.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.08
+Skill Name: Timed waves
+
+Description:
+Use a loop or custom block to spawn a set number of enemies every few seconds, optionally adjusting difficulty each wave.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.09
+Skill Name: High score list
+
+Description:
+Use a list to store the top scores, insert new scores in order, and display the list in a viewport-attached HUD sprite.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T14.G5.10
+Skill Name: Inventory system
+
+Description:
+Track collected items (“Key”, “Potion”) in a list, check membership before allowing actions, and show collected icons near the HUD.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+
+================================================================================
+TOPIC T15: T15 – Stories & Animation
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.01
+Skill Name: Broadcast scene change
+
+Description:
+Use `broadcast [Scene 2]` to trigger backdrop changes and sprite entrances/exits simultaneously.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.02
+Skill Name: Broadcast specific actions
+
+Description:
+Use broadcasts to trigger specific animations (e.g., `broadcast [Dance]`) so multiple sprites dance at once.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.03
+Skill Name: Simulated Camera Pan
+
+Description:
+Move all sprites in the opposite direction to simulate a camera panning.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.04
+Skill Name: Layering logic
+
+Description:
+Use `go to front layer` or `go backward (1) layers` to manage depth in a scene.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.05
+Skill Name: Join text strings
+
+Description:
+Use `join [Hello ] [World]` to construct dynamic sentences.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.06
+Skill Name: Text effects (Typewriter)
+
+Description:
+(Conceptual/Simple) Reveal text letter by letter or use a custom block to simulate typing.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.07
+Skill Name: Track story choices
+
+Description:
+Use a variable `(Trust)` to track player decisions (+1 for nice, -1 for mean).
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T15.G5.08
+Skill Name: Conditional endings
+
+Description:
+Check variables at the end of the story to show different backdrops/messages.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+
+================================================================================
+TOPIC T16: T16 – User Interfaces: G5–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T16.G5.01
+Skill Name: Create a multi‑screen app with a navigation interface
+
+Description:
+Students build an app with multiple screens (e.g., home screen, game screen, results screen) and use buttons and labels to navigate between them. They manage widget visibility to show/hide different screens.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T16.G5.02
+Skill Name: Design a form with multiple inputs and validation
+
+Description:
+Students create a form interface with multiple text input fields, dropdowns, or checkboxes, validate all inputs for completeness and correctness, and display a summary or confirmation message. This teaches form design and validation patterns.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T16.G5.03
+Skill Name: Build a leaderboard or high‑score display
+
+Description:
+Students create a label or series of labels that display high scores or player rankings. They use lists or variables to store scores and update the display dynamically. This introduces the concept of showing structured data in a UI.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T16.G5.04
+Skill Name: Implement a responsive HUD that reacts to game state
+
+Description:
+Students design a "heads-up display" (HUD)—on-screen UI elements that show real-time game information (health bar, ammo count, mini-map indicator, status text). The HUD updates dynamically as game variables change.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+
+================================================================================
+TOPIC T17: T17 – 2D Motion & Physics: Grades 5–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.01
+Skill Name: Choose manual vs engine-based physics
+
+Description:
+Students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and, drawing on prior simulation planning (T05.G2.03, T05.G4.05), choose whether to stick with manual velocity variables or enable the physics extension. They explain the decision for each brief so later T14 skills inherit the correct dependency.
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.02
+Skill Name: Track gravity with velocity variables
+
+Description:
+Students build a loop that stores a sprite’s y-velocity in a variable, subtracts gravity, then adds it to the sprite’s position. This manual approach mirrors classic Scratch tutorials and prepares students for physics debugging even without the extension.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.03
+Skill Name: Use horizontal speed and friction variables
+
+Description:
+Students add an `x velocity` variable, respond to arrow keys to change it, and multiply by a friction factor each tick so motion glides to a stop. This mirrors T14 platformer expectations before physics bodies are added.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.04
+Skill Name: Code a manual bounce with energy loss
+
+Description:
+Students write a conditional that checks for ground contact, multiplies the y-velocity by a negative damping factor (e.g., ‑0.6), and sends the sprite back up with reduced height. This cements the physics vocabulary in block form before using the engine’s restitution settings.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.05
+Skill Name: Initialize a 2D physics world
+
+Description:
+Students add the Initialize 2D Physics block, set gravity (e.g., X: 0, Y: -100), and confirm the debug overlay shows the world running. They understand that no physics behavior occurs until this block executes.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.06
+Skill Name: Attach a dynamic body to a sprite
+
+Description:
+Students convert a sprite to a dynamic physics body (selecting density/mass options) so the sprite responds to gravity without manual loops. They observe the sprite fall and stop when it hits the stage floor.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.07
+Skill Name: Build static boundaries for floors and walls
+
+Description:
+Students add static physics bodies to floor or wall sprites so falling or sliding objects stop on contact. They learn to use static bodies for geometry that should not move.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.08
+Skill Name: Apply an impulse to jump or push
+
+Description:
+Students apply an upward impulse or horizontal shove to a dynamic sprite in response to input (e.g., space key or on-screen button). They control how strong the impulse is so the sprite clears a target platform.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.09
+Skill Name: **[Engine Skill]** Configure gravity and mass parameters
+
+Description:
+Students adjust gravity strength and sprite mass using numeric inputs to achieve specific physics behaviors (exact fall time, bounce height). They learn to read physics specifications and translate them into parameter values.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.10
+Skill Name: Trace simple 2D physics motion
+
+Description:
+Students read a small table showing gravity, mass, starting height, and time elapsed, then choose the correct statement about where the sprite will be (e.g., “lands on the platform,” “still in the air,” “passed through the floor”).
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T17.G5.11
+Skill Name: Debug missing physics setup
+
+Description:
+Students open a buggy project where the player never falls because the physics world was not initialized or the body was left as static/manual. They inspect the scripts, correct the setup, and re-test.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+
+================================================================================
+TOPIC T18: T18 – 3D Worlds & Games
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T18.G5.01
+Skill Name: Initialize a 3D physics world
+
+Description:
+Students add the CreatiCode 3D physics initialization block, set gravity for X/Y/Z, and confirm the debug overlay shows the physics world running before gameplay starts.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+--------------------------------------------------------------------------------
+Skill ID: T18.G5.02
+Skill Name: Attach static and dynamic physics bodies
+
+Description:
+Students configure which shapes are static (floors, walls) and which are dynamic (player, crates) by setting mass, restitution, and body type so objects react to gravity.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+--------------------------------------------------------------------------------
+Skill ID: T18.G5.03
+Skill Name: Detect physics collisions to collect items
+
+Description:
+Students use collision event blocks (e.g., `when body A hits body B`) to change score, remove coins, or play sounds when the player touches collectibles.
+
+Dependencies (1):
+  - T18.G4.05: Animate scenery elements with loops
+
+--------------------------------------------------------------------------------
+Skill ID: T18.G5.04
+Skill Name: Use nested loops to arrange 3D objects in grids
+
+Description:
+Students apply nested loops to stamp or spawn platforms, trees, or tiles at evenly spaced coordinates, optionally varying height for stepped terrain.
+
+Dependencies (1):
+  - T18.G4.05: Animate scenery elements with loops
+
+--------------------------------------------------------------------------------
+Skill ID: T18.G5.05
+Skill Name: Apply detailed textures or materials to surfaces
+
+Description:
+Students use material blocks to apply tileable textures, adjust UV scaling, or mix colors and normal maps so surfaces like walls or roads look realistic.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+--------------------------------------------------------------------------------
+Skill ID: T18.G5.06
+Skill Name: Add global fog or particle effects for atmosphere
+
+Description:
+Students enable fog, glow, or particle emitters (e.g., falling snow, magical sparks) and tune their color, density, and bounds so the effect supports gameplay feedback.
+
+Dependencies (2):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+  - T14.G3.01: Move a sprite with arrow keys (4 directions)
+
+
+================================================================================
+TOPIC T19: T19 – Multiplayer Apps: Grade 5–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T19.G5.01
+Skill Name: Host or join a CreatiCode multiplayer lobby
+
+Description:
+Students use the `create game` and `join game` blocks to host a named room or connect to one by entering the game ID, password, and their player name. They read the status returned by each block (success, waiting for host, wrong password).
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T19.G5.02
+Skill Name: Build a ready-up indicator before the game starts
+
+Description:
+Students implement a button that broadcasts “ready” and adds the player’s name to a shared list. The host starts the game when all connected players have marked themselves ready.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+--------------------------------------------------------------------------------
+Skill ID: T19.G5.03
+Skill Name: Implement shared quick chat or emote buttons
+
+Description:
+Students add UI buttons (text presets or emotes) that broadcast a message to everyone and display it above each sprite or inside a chat log.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T19.G5.04
+Skill Name: Display a synchronized scoreboard for the current session
+
+Description:
+Students maintain a cloud or multiplayer variable that stores each player’s score. Whenever any player earns points, the scoreboard updates on every client within the same session ID.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T19.G5.05
+Skill Name: Diagnose and respond to connection status changes
+
+Description:
+Students interpret the multiplayer status output (connecting, waiting for host, disconnected) and display appropriate guidance (e.g., “Waiting for host… please stay on this screen”). They retry joins or disable controls until a connection is restored.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+
+================================================================================
+TOPIC T20: T20 – Algorithmic Art & Creative Coding
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T20.G5.01
+Skill Name: **[Technical Skill]** Implement data-driven visualization algorithms
+
+Description:
+Students read values from a list and implement algorithms to map data to visual properties (heights, lengths, positions). They focus on the technical aspects of data processing and coordinate calculations.
+
+Dependencies (1):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T20.G5.02
+Skill Name: Animate a pattern with a counter variable
+
+Description:
+Students use a forever loop plus a counter variable to gradually grow, rotate, or fade a pattern.
+
+Dependencies (1):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T20.G5.03
+Skill Name: Make art respond to mouse or keys
+
+Description:
+Students add event handlers so art changes when the cursor moves, the mouse clicks, or keys are pressed.
+
+Dependencies (1):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T20.G5.04
+Skill Name: Create fractal-like nested patterns
+
+Description:
+Students draw a pattern, then nest smaller versions inside or around it using loops/custom blocks, mimicking fractal depth without formal recursion.
+
+Dependencies (1):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+--------------------------------------------------------------------------------
+Skill ID: T20.G5.05
+Skill Name: Explain data-to-visual design choices
+
+Description:
+Learners justify why certain colors, sizes, or motions represent data categories, reinforcing the data-art connection.
+
+Dependencies (1):
+  - T07.G3.05: Fix a loop that runs too many or too few times
+
+
+================================================================================
+TOPIC T21: T21 – AI Media: G6–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T21.G5.01
+Skill Name: Plan which assets should be AI-made vs hand-made
+
+Description:
+Students see a simple app pitch (storybook, quiz) and choose which assets to request from AI (e.g., varied backdrops) and which to make by hand (e.g., main character for consistent look), noting one reason for each choice.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+
+================================================================================
+TOPIC T22: T22 – Chatbots & Prompting: G6–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T22.G5.01
+Skill Name: Flag risky vs safe chatbot prompts
+
+Description:
+Students classify prompts that leak private info or ask for cheating vs safe learning questions, and rewrite one risky prompt to be safe.
+
+Dependencies (3):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T22.G3.01: Tell chatbot behavior from fixed button replies
+
+
+================================================================================
+TOPIC T23: T23 – AI Perception
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T23.G5.01
+Skill Name: Compare what people see vs what pixels show
+
+Description:
+Students look at a clear photo and its coarse pixel version and explain what detail is lost for the computer but obvious to a person (e.g., small text, faint objects).
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T23.G5.02
+Skill Name: Explain why an AI might mis-hear or mis-see
+
+Description:
+Given a mis-recognized word or image (accent, shadowed face), students pick likely causes (background noise, low light, unusual angle) and suggest one fix (move closer, add light).
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T23.G5.03
+Skill Name: Choose safe ways to handle sensor data
+
+Description:
+Students choose which actions are safe or risky for camera/mic data (e.g., "keep photos only on device" vs "share raw recordings with strangers") linking perception to privacy before coding.
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+--------------------------------------------------------------------------------
+Skill ID: T23.G5.04
+Skill Name: Identify when AI sensing might be unfair
+
+Description:
+Students examine scenarios where AI perception might work poorly for some groups (face recognition in poor lighting, voice recognition with accents) and suggest basic fairness improvements (better lighting, multiple language options).
+
+Dependencies (2):
+  - T06.G3.08: Fix a behavior that runs at the wrong time
+  - T08.G3.05: Fix a condition that uses the wrong operator
+
+
+================================================================================
+TOPIC T24: T24 – XO & Generative AI Practices: G5–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T24.G5.01
+Skill Name: Read and interpret XO’s interface cues
+
+Description:
+Students explore XO’s chat area, template prompts, code/explanation tabs, and “insert into project” buttons. They learn how to pause, copy, and pin answers for later. This reduces friction before they start asking for help.
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T24.G5.02
+Skill Name: Ask XO for a three-step project plan
+
+Description:
+Students practice writing a structured prompt (goal + constraints + audience) so XO replies with a numbered plan. They verify the plan covers at least three concrete actions (e.g., “draw sprite,” “add `when green flag clicked`,” “show score label”).
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G3.04: Trace code with variables to predict outcomes
+
+--------------------------------------------------------------------------------
+Skill ID: T24.G5.03
+Skill Name: Turn an XO suggestion into starter code safely
+
+Description:
+Students copy a short script provided by XO (e.g., movement loop) into their project, but before running it they verify variables/events exist and annotate what each block does. This builds the habit of reading AI output before trusting it.
+
+Dependencies (1):
+  - T10.G3.03: Add and remove items from a list
+
+--------------------------------------------------------------------------------
+Skill ID: T24.G5.04
+Skill Name: Use the AI image library to collect matching assets
+
+Description:
+Students take XO’s narrative description (e.g., “Journey of a Waterdrop” scene) and convert it into AI image search/generation prompts for backdrops and sprites. They compare options and justify why each asset matches the plan.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+--------------------------------------------------------------------------------
+Skill ID: T24.G5.05
+Skill Name: Reject unsafe or off-spec XO suggestions
+
+Description:
+Students review an XO reply that includes off-task, private, or non-compliant steps (e.g., “ask a friend for their password,” “skip testing”) and practice declining it. They write a replacement step that follows the rubric/spec and log why the original was rejected.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+
+================================================================================
+TOPIC T25: T25 – Data Representation
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T25.G5.01
+Skill Name: Model multi-type game state
+
+Description:
+Students design a “player” data structure using text, number, Boolean, and list fields, matching CreatiCode variable/list/table options.
+
+Dependencies (2):
+  - T09.G3.01: Create and use a numeric variable for score or count
+  - T25.G1.01: Record data with tally marks
+
+--------------------------------------------------------------------------------
+Skill ID: T25.G5.02
+Skill Name: Convert messy inputs into canonical formats
+
+Description:
+Learners write small scripts (or pseudo-code) to normalize name inputs (trim spaces, capitalize first letter) so data is consistent for later analysis.
+
+Dependencies (2):
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  - T25.G1.01: Record data with tally marks
+
+--------------------------------------------------------------------------------
+Skill ID: T25.G5.03
+Skill Name: Decide when to upgrade from list to table
+
+Description:
+Students examine a list of names and a table with names + scores, then choose which representation fits new requirements (“store both name and score”).
+
+Dependencies (2):
+  - T25.G1.01: Record data with tally marks
+  - T25.G1.02: Design a picture table
+
+--------------------------------------------------------------------------------
+Skill ID: T25.G5.04
+Skill Name: Encode categorical values with symbols or enums
+
+Description:
+Learners map repeated string values (difficulty Easy/Medium/Hard) to symbolic codes (E/M/H) and explain how a legend keeps them readable.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+
+================================================================================
+TOPIC T26: T26 – Data Collection & Logging
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T26.G5.01
+Skill Name: Instrument a project with runtime logs
+
+Description:
+Students insert scripts that append event descriptions to a list whenever certain actions occur (level start, damage taken), enabling post-play analysis.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+--------------------------------------------------------------------------------
+Skill ID: T26.G5.02
+Skill Name: Plan sampling strategies
+
+Description:
+Learners compare convenience, random, and stratified sampling for a class poll and document which they’ll use and why.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+--------------------------------------------------------------------------------
+Skill ID: T26.G5.03
+Skill Name: Validate data entry with error checks
+
+Description:
+Students add checks (e.g., reject scores <0 or >100) during collection to ensure data quality upstream.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+--------------------------------------------------------------------------------
+Skill ID: T26.G5.04
+Skill Name: Store logs in CreatiCode tables for export
+
+Description:
+Learners push collected events into table variables with named columns, prepping for CSV export to T27.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T10.G3.03: Add and remove items from a list
+
+
+================================================================================
+TOPIC T27: T27 – Data Analysis & Storytelling
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T27.G5.01
+Skill Name: Build interactive dashboards with widgets
+
+Description:
+Students connect T16 widgets to data tables so viewers can filter by category (e.g., show only “forest” levels) and watch charts update.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T26.G3.04: Separate raw data from summary data
+
+--------------------------------------------------------------------------------
+Skill ID: T27.G5.03
+Skill Name: Compare data from two sensors or sources
+
+Description:
+Students analyze two logs (voice commands vs actual actions) to spot mismatches and hypothesize causes.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T26.G3.04: Separate raw data from summary data
+
+--------------------------------------------------------------------------------
+Skill ID: T27.G5.04
+Skill Name: Present findings using slides or mini reports
+
+Description:
+Learners assemble one chart + one key insight + one recommendation in a short presentation, practicing communication.
+
+Dependencies (2):
+  - T09.G3.04: Trace code with variables to predict outcomes
+  - T26.G3.04: Separate raw data from summary data
+
+
+================================================================================
+TOPIC T28: T28 – Chance & Simulations: G2–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T28.G5.01
+Skill Name: Simulate compound events (two dice)
+
+Description:
+Students roll two virtual dice 200 times, store sums, and explain why 7 is most common by referencing combinations.
+
+Dependencies (1):
+  - T28.G4.04: Debug an “unfair” simulation
+
+--------------------------------------------------------------------------------
+Skill ID: T28.G5.02
+Skill Name: Randomly assign participants to conditions
+
+Description:
+Learners write a function that tags each simulated user as “A” or “B,” logs assignment, and reports counts to ensure near-equal groups.
+
+Dependencies (2):
+  - T28.G4.03: Show how sample size changes variability
+  - T28.G4.04: Debug an “unfair” simulation
+
+--------------------------------------------------------------------------------
+Skill ID: T28.G5.03
+Skill Name: Use Monte Carlo to estimate an area or probability
+
+Description:
+Students generate random coordinate pairs, check if points land inside a circle, and approximate π or region area.
+
+Dependencies (2):
+  - T28.G4.03: Show how sample size changes variability
+  - T28.G4.04: Debug an “unfair” simulation
+
+--------------------------------------------------------------------------------
+Skill ID: T28.G5.04
+Skill Name: Document simulation plans before coding
+
+Description:
+Learners outline question, inputs, random model, number of trials, and outputs, drawing on T05.G5.03 (variables and initial values) and T05.G5.04 (update rules), reinforcing intentional design.
+
+Dependencies (2):
+  - T28.G4.03: Show how sample size changes variability
+  - T28.G4.04: Debug an “unfair” simulation
+
+
+================================================================================
+TOPIC T29: T29 – Text Data & NLP Foundations: G3–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T29.G5.01
+Skill Name: Structure chat logs into tables
+
+Description:
+Students design table schemas for XO chats or multiplayer messages, ensuring each row records metadata needed for later filtering.
+
+Dependencies (1):
+  - T29.G4.04: Highlight keywords in a paragraph
+
+--------------------------------------------------------------------------------
+Skill ID: T29.G5.02
+Skill Name: Build stop-word filters and keyword lists
+
+Description:
+Learners maintain a stop-word list and filter it out before running frequency counts to focus on meaningful words.
+
+Dependencies (2):
+  - T29.G4.03: Count words and report the most frequent
+  - T29.G4.04: Highlight keywords in a paragraph
+
+--------------------------------------------------------------------------------
+Skill ID: T29.G5.03
+Skill Name: Measure simple sentiment heuristics
+
+Description:
+Students store positive/negative word lists and score sentences accordingly, noting in a reflection that the heuristic has limits.
+
+Dependencies (2):
+  - T29.G4.03: Count words and report the most frequent
+  - T29.G4.04: Highlight keywords in a paragraph
+
+--------------------------------------------------------------------------------
+Skill ID: T29.G5.04
+Skill Name: Map story descriptions into AI prompt slots
+
+Description:
+Learners highlight parts of a description needed for T21/T24 prompts (subject, color palette, mood) and populate a structured form.
+
+Dependencies (2):
+  - T29.G4.03: Count words and report the most frequent
+  - T29.G4.04: Highlight keywords in a paragraph
+
+
+================================================================================
+TOPIC T30: T30 – Devices & Hardware Systems
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T30.G5.01
+Skill Name: Match CreatiCode AI features to hardware requirements
+
+Description:
+Students analyze sample projects (voice assistant, pose game) and list essential components (microphone array, camera resolution) in accessible language.
+
+Dependencies (2):
+  - T30.G1.01: Label basic computer parts
+  - T30.G1.02: Describe hardware vs software
+
+--------------------------------------------------------------------------------
+Skill ID: T30.G5.02
+Skill Name: Plan safe device-handling procedures for group work
+
+Description:
+Learners design checklists for borrowing laptops/tablets (inspect cables, sanitize microphones, log battery level), emphasizing stewardship.
+
+Dependencies (2):
+  - T30.G1.01: Label basic computer parts
+  - T30.G1.02: Describe hardware vs software
+
+--------------------------------------------------------------------------------
+Skill ID: T30.G5.03
+Skill Name: Explain how different sensors collect data
+
+Description:
+Students describe what each sensor measures and give one CreatiCode use case.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T30.G5.04
+Skill Name: Relate hardware choices to accessibility outcomes
+
+Description:
+Learners compare two device setups (standard laptop vs laptop + switch interfaces) and argue which better serves a scenario.
+
+Dependencies (2):
+  - T30.G1.01: Label basic computer parts
+  - T30.G1.02: Describe hardware vs software
+
+
+================================================================================
+TOPIC T31: T31 – Internet & Cloud: Grade 5–8 Skill List
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T31.G5.01
+Skill Name: Trace how a device reaches an online service
+
+Description:
+Students follow a diagram showing data leaving a laptop, passing through a router/modem, traveling across the internet, and reaching a web or game server before returning. They articulate why each hop exists.
+
+Dependencies (1):
+  - T02.G3.01: Identify start, action, and end symbols
+
+--------------------------------------------------------------------------------
+Skill ID: T31.G5.02
+Skill Name: Decide when apps need the internet vs work offline
+
+Description:
+Students evaluate scenarios (watching a downloaded movie, editing a shared doc, joining a multiplayer match) and choose whether each requires connectivity. They justify their reasoning.
+
+Dependencies (3):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T30.G3.01: Identify where data is stored locally on a device
+  - T31.G5.01: Trace how a device reaches an online service
+
+--------------------------------------------------------------------------------
+Skill ID: T31.G5.03
+Skill Name: Save and reload a preference using a cloud variable
+
+Description:
+Students create a cloud variable (e.g., `preferredAvatar`) and add logic to save it before the project closes, then reload it on startup.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T31.G5.04
+Skill Name: Configure a session ID to isolate practice data
+
+Description:
+Students call `set session id [code]` before reading/writing cloud variables so that multiple classes or practice sessions do not share the same dataset.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T31.G5.05
+Skill Name: Interpret connection status indicators in CreatiCode
+
+Description:
+Students read CreatiCode’s multiplayer/cloud status outputs (connecting, waiting for host, disconnected) and update on-screen guidance accordingly.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+
+================================================================================
+TOPIC T32: T32 – Cybersecurity & Digital Safety
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T32.G5.01
+Skill Name: Analyze social engineering tactics
+
+Description:
+Students classify examples (phishing email, fake tech support call) by tactic and discuss how to respond.
+
+Dependencies (2):
+  - T32.G1.01: Identify personally identifiable information (PII)
+  - T32.G1.02: Recognize trustworthy vs unknown contacts
+
+--------------------------------------------------------------------------------
+Skill ID: T32.G5.02
+Skill Name: Evaluate terms of service/privacy policies (kid-friendly summaries)
+
+Description:
+Learners read simplified summaries and identify what data is collected, how it’s used, and whether they’re comfortable with it.
+
+Dependencies (2):
+  - T32.G1.01: Identify personally identifiable information (PII)
+  - T32.G1.02: Recognize trustworthy vs unknown contacts
+
+--------------------------------------------------------------------------------
+Skill ID: T32.G5.03
+Skill Name: Secure AI training data and outputs
+
+Description:
+Students review data tables containing T24 XO conversation logs, T23 sensor recordings, and T22 chatbot interactions. They redact or anonymize personal information before sharing, implement consent mechanisms, and understand how personal data affects AI fairness and privacy, linking to T25/T26 and T35 ethics.
+
+Dependencies (2):
+  - T32.G1.01: Identify personally identifiable information (PII)
+  - T32.G1.02: Recognize trustworthy vs unknown contacts
+
+--------------------------------------------------------------------------------
+Skill ID: T32.G5.04
+Skill Name: Create backup plans for digital work
+
+Description:
+Learners outline backup procedures (cloud copy, external drive) and simulate restoring a deleted file.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+
+================================================================================
+TOPIC T34: T34 – Computing History
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T34.G5.01
+Skill Name: Investigate social movements linked to computing
+
+Description:
+Learners research how computing and emerging AI tools support social causes (algorithmic justice advocacy, AI for accessibility, community-controlled data sovereignty, bias detection tools). They analyze both historical movements and current AI equity initiatives, connecting to T21-T24 applications and T35 ethics work.
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T01.G3.02: Match a story description to a code sequence
+
+--------------------------------------------------------------------------------
+Skill ID: T34.G5.02
+Skill Name: Compare invention timelines in multiple industries
+
+Description:
+Students align computing milestones with another domain (medicine, music) to see cross-industry influence.
+
+Dependencies (2):
+  - T34.G1.01: Describe life before and after a technology
+  - T34.G1.02: Recognize inventors from diverse backgrounds
+
+--------------------------------------------------------------------------------
+Skill ID: T34.G5.03
+Skill Name: Conduct interviews with tech users
+
+Description:
+Learners interview family/community members about how technology changed their work/life and summarize insights.
+
+Dependencies (2):
+  - T34.G1.01: Describe life before and after a technology
+  - T34.G1.02: Recognize inventors from diverse backgrounds
+
+
+================================================================================
+TOPIC T35: T35 – Impacts & Ethics
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T35.G5.01
+Skill Name: Examine global impacts of technology
+
+Description:
+Learners study how a technology (mobile banking, telemedicine) affects people in two regions differently and why.
+
+Dependencies (2):
+  - T35.G1.01: Sort good vs not-so-good choices
+  - T35.G1.02: Describe how technology makes people feel
+
+--------------------------------------------------------------------------------
+Skill ID: T35.G5.02
+Skill Name: Debate digital well-being scenarios
+
+Description:
+Students debate policy scenarios (device-free times, notifications) referencing evidence on focus and health.
+
+Dependencies (2):
+  - T35.G1.01: Sort good vs not-so-good choices
+  - T35.G1.02: Describe how technology makes people feel
+
+--------------------------------------------------------------------------------
+Skill ID: T35.G5.03
+Skill Name: Analyze AI's differential impacts on workers and communities
+
+Description:
+Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T21-T24 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.
+
+Dependencies (2):
+  - T04.G2.01: Identify the repeating unit in a longer pattern
+  - T35.G1.01: Sort good vs not-so-good choices
+
+
+================================================================================
+TOPIC T36: T36 – Careers, Collaboration & Future Paths
+================================================================================
+
+--------------------------------------------------------------------------------
+Skill ID: T36.G5.01
+Skill Name: Map personal interests to tech pathways
+
+Description:
+Students connect their hobbies/strengths (music, storytelling, sports, helping people) to matching tech roles (sound designer, narrative designer, sports data analyst, civic technologist) and explain why.
+
+Dependencies (1):
+  - T09.G3.01: Create and use a numeric variable for score or count
+
+--------------------------------------------------------------------------------
+Skill ID: T36.G5.02
+Skill Name: Follow a plan-build-feedback cycle
+
+Description:
+Teams plan a small CreatiCode feature, build it, have another student test it, and write improvement notes. Focus stays on simple, age-appropriate iteration (no formal Kanban/sprint vocab).
+
+Dependencies (2):
+  - T01.G3.01: Complete a simple script with missing blocks
+  - T07.G3.01: Use a counted repeat loop
+
+--------------------------------------------------------------------------------
+Skill ID: T36.G5.03
+Skill Name: Evaluate inclusion in tech stories
+
+Description:
+Students review tech marketing or news images for diversity, discuss gaps, and sketch a more inclusive alternative.
+
+Dependencies (2):
+  - T36.G1.01: List jobs that rely on computers
+  - T36.G1.02: Sort “helps” vs “problems” for a technology

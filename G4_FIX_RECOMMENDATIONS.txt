@@ -1,0 +1,550 @@
+================================================================================
+G4 SKILLS FIX RECOMMENDATIONS
+================================================================================
+
+Total G4 skills: 162
+
+
+================================================================================
+TOPIC: T01 – Everyday Algorithms
+================================================================================
+
+--- T01.G4.02: Implement a written plan in code
+Current dependencies: T01.GK.08
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.08 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T01.G4.04: Replace repeated patterns with loops
+Current dependencies: T01.GK.07
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.07 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T01.G4.06: Recognize variables in a program
+Current dependencies: T01.GK.07
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.07 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T01.G4.07: Trace a simple counter variable
+Current dependencies: T01.GK.07
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.07 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T01.G4.09: Use a variable to track a simple game state (lives or points)
+Current dependencies: T01.GK.08
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.08 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T01.G4.10: Trace a multi‑step algorithm with loops and variables
+Current dependencies: T01.GK.08
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.08 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T01.G4.11: Debug an off‑by‑one counting bug
+Current dependencies: T01.GK.08
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T01.GK.08 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T01.G1.01 (G1): Put pictures in order to plant a seed
+      - T01.G1.02 (G1): Put pictures in order to make breakfast
+      - T01.G1.03 (G1): Add a missing last step to a routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T02 – Algorithm Diagrams
+================================================================================
+
+--- T02.G4.01: Add a loop to an existing flowchart
+Current dependencies: T02.GK.04
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T02.GK.04 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T02.G1.01 (G1): Make a 3–4 step picture algorithm
+      - T02.G1.02 (G1): Add a missing step to a picture algorithm
+      - T02.G1.03 (G1): Trace a picture algorithm and tell the outcome
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T02.G4.02: Design a flowchart for a task with repetition
+Current dependencies: T02.GK.04
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T02.GK.04 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T02.G1.01 (G1): Make a 3–4 step picture algorithm
+      - T02.G1.02 (G1): Add a missing step to a picture algorithm
+      - T02.G1.03 (G1): Trace a picture algorithm and tell the outcome
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T02.G4.04: Trace a flowchart that includes a loop structure
+Current dependencies: T02.GK.04
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T02.GK.04 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T02.G1.01 (G1): Make a 3–4 step picture algorithm
+      - T02.G1.02 (G1): Add a missing step to a picture algorithm
+      - T02.G1.03 (G1): Trace a picture algorithm and tell the outcome
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T02.G4.05: Convert a story description into simple pseudocode
+Current dependencies: T02.GK.03
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T02.GK.03 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T02.G1.01 (G1): Make a 3–4 step picture algorithm
+      - T02.G1.02 (G1): Add a missing step to a picture algorithm
+      - T02.G1.03 (G1): Trace a picture algorithm and tell the outcome
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T02.G4.06: Match pseudocode to a flowchart
+Current dependencies: T02.GK.03
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T02.GK.03 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T02.G1.01 (G1): Make a 3–4 step picture algorithm
+      - T02.G1.02 (G1): Add a missing step to a picture algorithm
+      - T02.G1.03 (G1): Trace a picture algorithm and tell the outcome
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T03 – Problem Decomposition
+================================================================================
+
+--- T03.G4.01: Break a medium‑size project into components
+Current dependencies: T03.GK.03
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T03.GK.03 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T03.G1.01 (G1): Describe what one part of a system does
+      - T03.G1.02 (G1): Group related parts into categories
+      - T03.G1.03 (G1): List steps for a simple classroom routine
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T03.G4.02: Group related components into modules
+Current dependencies: T03.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T03.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T03.G2.01 (G2): Choose subtasks for a simple project idea
+      - T03.G2.02 (G2): Group similar subtasks together
+      - T03.G2.03 (G2): Arrange subtasks into a reasonable order
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T03.G4.03: Assign project tasks to team roles
+Current dependencies: T03.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T03.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T03.G2.01 (G2): Choose subtasks for a simple project idea
+      - T03.G2.02 (G2): Group similar subtasks together
+      - T03.G2.03 (G2): Arrange subtasks into a reasonable order
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T03.G4.04: Create a simple task list with owners and order
+Current dependencies: T03.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T03.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T03.G2.01 (G2): Choose subtasks for a simple project idea
+      - T03.G2.02 (G2): Group similar subtasks together
+      - T03.G2.03 (G2): Arrange subtasks into a reasonable order
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T04 – Algorithm Patterns
+================================================================================
+
+--- T04.G4.01: Trace a loop that creates a visual pattern
+Current dependencies: T04.GK.03
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T04.GK.03 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T04.G1.01 (G1): Match a picture pattern to a movement pattern
+      - T04.G1.02 (G1): Plan a short repeating animation pattern
+      - T04.G1.03 (G1): Find repeated steps in an instruction list
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T04.G4.02: Identify nested pattern structure (outer vs inner loop)
+Current dependencies: T04.GK.03
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T04.GK.03 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T04.G1.01 (G1): Match a picture pattern to a movement pattern
+      - T04.G1.02 (G1): Plan a short repeating animation pattern
+      - T04.G1.03 (G1): Find repeated steps in an instruction list
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T04.G4.03: Recognize “if” patterns that handle special cases
+Current dependencies: T04.GK.03
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T04.GK.03 (GK) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T04.G1.01 (G1): Match a picture pattern to a movement pattern
+      - T04.G1.02 (G1): Plan a short repeating animation pattern
+      - T04.G1.03 (G1): Find repeated steps in an instruction list
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T05 – Human‑Centered Design
+================================================================================
+
+--- T05.G4.01: Identify key details in a user persona
+Current dependencies: T05.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T05.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T05.G2.01 (G2): Match different users to different preferred designs
+      - T05.G2.02 (G2): Identify features that make a design more accessible
+      - T05.G2.03 (G2): Recognize when a situation could be simulated
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T05.G4.02: Match designs to personas
+Current dependencies: T05.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T05.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T05.G2.01 (G2): Match different users to different preferred designs
+      - T05.G2.02 (G2): Identify features that make a design more accessible
+      - T05.G2.03 (G2): Recognize when a situation could be simulated
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T05.G4.03: Recognize common accessibility issues in an interface
+Current dependencies: T05.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T05.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T05.G2.01 (G2): Match different users to different preferred designs
+      - T05.G2.02 (G2): Identify features that make a design more accessible
+      - T05.G2.03 (G2): Recognize when a situation could be simulated
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T05.G4.04: Choose appropriate accessibility improvements
+Current dependencies: T05.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T05.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T05.G2.01 (G2): Match different users to different preferred designs
+      - T05.G2.02 (G2): Identify features that make a design more accessible
+      - T05.G2.03 (G2): Recognize when a situation could be simulated
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T05.G4.05: Decide what to include vs ignore in a simulation
+Current dependencies: T05.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T05.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T05.G2.01 (G2): Match different users to different preferred designs
+      - T05.G2.02 (G2): Identify features that make a design more accessible
+      - T05.G2.03 (G2): Recognize when a situation could be simulated
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T05.G4.06: Explain why a simplification is reasonable
+Current dependencies: T05.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T05.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T05.G2.01 (G2): Match different users to different preferred designs
+      - T05.G2.02 (G2): Identify features that make a design more accessible
+      - T05.G2.03 (G2): Recognize when a situation could be simulated
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T25 – Data Representation
+================================================================================
+
+--- T25.G4.02: Encode the same fact in decimal, fraction, and percentage
+Current dependencies: T25.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T25.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T25.G2.01 (G2): Choose labels for a category chart
+      - T25.G2.02 (G2): Translate between timeline, table, and sentence
+      - T25.G2.03 (G2): Pick the best representation for a question
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T25.G4.03: Compare dense vs sparse representations
+Current dependencies: T25.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T25.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T25.G2.01 (G2): Choose labels for a category chart
+      - T25.G2.02 (G2): Translate between timeline, table, and sentence
+      - T25.G2.03 (G2): Pick the best representation for a question
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T25.G4.04: Document assumptions in a data key
+Current dependencies: T25.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T25.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T25.G2.01 (G2): Choose labels for a category chart
+      - T25.G2.02 (G2): Translate between timeline, table, and sentence
+      - T25.G2.03 (G2): Pick the best representation for a question
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T30 – Devices & Hardware Systems
+================================================================================
+
+--- T30.G4.03: Differentiate latency vs bandwidth
+Current dependencies: T30.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T30.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T30.G2.01 (G2): Explain core internal components
+      - T30.G2.02 (G2): Trace input → process → output
+      - T30.G2.03 (G2): Compare wired vs wireless connections
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T32 – Cybersecurity & Digital Safety
+================================================================================
+
+--- T32.G4.01: Build a class digital citizenship agreement
+Current dependencies: T32.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T32.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T32.G2.01 (G2): Create a strong password recipe
+      - T32.G2.02 (G2): Practice logging off shared devices
+      - T32.G2.03 (G2): Recognize safe digital citizenship behaviors
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T32.G4.02: Use password managers (conceptual)
+Current dependencies: T32.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T32.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T32.G2.01 (G2): Create a strong password recipe
+      - T32.G2.02 (G2): Practice logging off shared devices
+      - T32.G2.03 (G2): Recognize safe digital citizenship behaviors
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T32.G4.04: Practice secure file sharing in CreatiCode
+Current dependencies: T32.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T32.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T32.G2.01 (G2): Create a strong password recipe
+      - T32.G2.02 (G2): Practice logging off shared devices
+      - T32.G2.03 (G2): Recognize safe digital citizenship behaviors
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T35 – Impacts & Ethics
+================================================================================
+
+--- T35.G4.01: Analyze case studies of tech helping/harming communities
+Current dependencies: T35.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T35.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T35.G2.01 (G2): Compare benefits and harms of a tech tool
+      - T35.G2.02 (G2): Plan balanced tech schedules
+      - T35.G2.03 (G2): Practice online kindness scripts
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T35.G4.03: Reflect on accessibility/inclusion in games
+Current dependencies: T35.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T35.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T35.G2.01 (G2): Compare benefits and harms of a tech tool
+      - T35.G2.02 (G2): Plan balanced tech schedules
+      - T35.G2.03 (G2): Practice online kindness scripts
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+================================================================================
+TOPIC: T36 – Careers, Collaboration & Future Paths
+================================================================================
+
+--- T36.G4.01: Explore diverse tech careers via profiles/videos
+Current dependencies: T36.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T36.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T36.G2.01 (G2): Identify project roles in simple terms
+      - T36.G2.02 (G2): Plan balanced daily routines
+      - T36.G2.03 (G2): Recognize teammates’ different strengths
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T36.G4.02: Track work with a shared checklist
+Current dependencies: T36.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T36.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T36.G2.01 (G2): Identify project roles in simple terms
+      - T36.G2.02 (G2): Plan balanced daily routines
+      - T36.G2.03 (G2): Recognize teammates’ different strengths
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+--- T36.G4.03: Role-play resolving project disagreements
+Current dependencies: T36.G1.01
+
+RANGE VIOLATIONS (MEDIUM PRIORITY):
+  - T36.G1.01 (G1) is too far back
+    SUGGESTED FIX: Replace with one of these intermediate skills:
+      - T36.G2.01 (G2): Identify project roles in simple terms
+      - T36.G2.02 (G2): Plan balanced daily routines
+      - T36.G2.03 (G2): Recognize teammates’ different strengths
+
+RECOMMENDED NEW DEPENDENCIES:
+  (Review needed - need to add appropriate G2-G4 prerequisites)
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+G4 skills requiring fixes: 37
+G4 skills without issues: 125
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Review all FORWARD REFERENCES (HIGH priority) - these are critical errors
+2. Fix RANGE VIOLATIONS by:
+   - Replacing GK/G1 dependencies with intermediate G2/G3 skills from same topic
+   - Or adding the intermediate skills as dependencies
+3. Verify that all G4 skills have appropriate prerequisites
+4. Consider creating intermediate skills if gaps exist in the progression
+
+================================================================================
+END OF FIX RECOMMENDATIONS
+================================================================================

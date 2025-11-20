@@ -1,0 +1,43 @@
+================================================================================
+G7 SKILLS DEPENDENCY ANALYSIS
+================================================================================
+
+
+MEDIUM PRIORITY ISSUES (5)
+================================================================================
+
+Skill: T19.G7.01 - Balance starting conditions and scoring
+Issue: Transitive dependency: depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+Dependency: T31.G5.01
+Fix: Remove T31.G5.01 from dependencies (already covered by T19.G6.05)
+
+--------------------------------------------------------------------------------
+
+Skill: T19.G7.02 - Implement dynamic team assignment or matchmaking
+Issue: Transitive dependency: depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+Dependency: T31.G5.01
+Fix: Remove T31.G5.01 from dependencies (already covered by T19.G6.05)
+
+--------------------------------------------------------------------------------
+
+Skill: T19.G7.03 - Decide what data syncs vs stays local
+Issue: Transitive dependency: depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+Dependency: T31.G5.01
+Fix: Remove T31.G5.01 from dependencies (already covered by T19.G6.05)
+
+--------------------------------------------------------------------------------
+
+Skill: T19.G7.05 - Display connection quality and apply fallbacks
+Issue: Transitive dependency: depends on both T19.G6.04 and T31.G5.01, but T19.G6.04 already depends on T31.G5.01
+Dependency: T31.G5.01
+Fix: Remove T31.G5.01 from dependencies (already covered by T19.G6.04)
+
+--------------------------------------------------------------------------------
+
+Skill: T19.G7.05 - Display connection quality and apply fallbacks
+Issue: Transitive dependency: depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+Dependency: T31.G5.01
+Fix: Remove T31.G5.01 from dependencies (already covered by T19.G6.05)
+
+--------------------------------------------------------------------------------
+

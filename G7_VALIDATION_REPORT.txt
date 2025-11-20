@@ -1,0 +1,1328 @@
+================================================================================
+GRADE 7 SKILLS VALIDATION REPORT
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total G7 Skills: 168
+Issue-Free Skills: 0
+Skills with Issues: 168
+
+ISSUE BREAKDOWN
+--------------------------------------------------------------------------------
+Low Grade Dependencies (G4 or lower): 164
+Forward Dependencies: 0
+Circular Dependencies: 0
+Transitive Dependencies: 168
+Missing Dependencies: 0
+
+COMPARISON WITH ORIGINAL ANALYSIS
+--------------------------------------------------------------------------------
+Low Grade Dependencies:                15 ->   164  ( -149)  [WORSE] -993.3%
+Forward Dependencies:                   0 ->     0  (   +0)  [FIXED]    0.0%
+Circular Dependencies:                  0 ->     0  (   +0)  [FIXED]    0.0%
+Transitive Dependencies:               25 ->   168  ( -143)  [WORSE] -572.0%
+Missing Dependencies:                  10 ->     0  (  +10)  [FIXED]  100.0%
+--------------------------------------------------------------------------------
+TOTAL ISSUES:                          50 ->   332  ( -282)  [WORSE] -564.0%
+
+SUCCESS METRICS
+--------------------------------------------------------------------------------
+Issues Fixed: -282 / 50
+Fix Rate: -564.0%
+Issue-Free Skills: 0 / 168 (0.0%)
+
+CRITICAL: LOW GRADE DEPENDENCIES (G4 or lower)
+--------------------------------------------------------------------------------
+
+T01.G7.01: Identify the pattern in a given program
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T01.G7.02: Choose a pattern to solve a problem
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T01.G7.03: Write pseudocode for a search or accumulation algorithm
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T01.G7.04: Compare efficiency of two algorithms qualitatively
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T01.G7.05: Design a set of edge‑case tests for an algorithm
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T01.G7.06: Run an algorithm on edge cases and find failures
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T01.G7.07: Explain why an algorithm fails on a specific edge case
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T01.G7.08: Rewrite a naive algorithm using a better pattern
+  -> T07.G3.01 (G3): Use a counted repeat loop
+
+T02.G7.01: Trace a step‑by‑step simulation algorithm
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T02.G7.02: Extend a simulation trace and predict future behavior
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T02.G7.03: Create a flowchart for linear search or “find max”
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T02.G7.04: Read a flowchart for a simple sort and trace one pass
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T02.G7.05: Count steps for two algorithms on small inputs
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T02.G7.06: Trace an algorithm to find a bug or edge case
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T03.G7.01: Draw an architecture diagram for a multi‑component project
+  -> T02.G3.01 (G3): Identify start, action, and end symbols
+  -> T04.G2.01 (G2): Identify the repeating unit in a longer pattern
+
+T03.G7.02: Map functional modules to architecture components
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T03.G7.03: Compare two decompositions of the same project
+  -> T03.G1.02 (G1): Group related parts into categories
+
+T03.G7.04: Propose an alternative decomposition to fix a planning problem
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T03.G7.05: Design a test plan based on a project breakdown
+  -> T03.G1.02 (G1): Group related parts into categories
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T03.G7.06: Update a project plan after test results
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T04.G7.01: Identify the main loop patterns in a simulation or game
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T04.G7.02: Identify data structure patterns (lists, grids) in use
+  -> T08.G3.01 (G3): Use a simple if in a script
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T04.G7.03: Design a solution by combining two known patterns
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T04.G7.04: Trace a composite pattern and explain each part’s role
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T04.G7.05: Simplify code by merging repeated patterns
+  -> T07.G3.01 (G3): Use a counted repeat loop
+
+T04.G7.06: Compare pattern‑based implementations for maintainability
+  -> T04.G1.01 (G1): Match a picture pattern to a movement pattern
+  -> T04.G2.01 (G2): Identify the repeating unit in a longer pattern
+
+T05.G7.01: Perform a checklist‑based accessibility review of a project
+  -> T05.G1.02 (G1): Match a need to a design idea
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T05.G7.02: Prioritize which accessibility issues to fix first
+  -> T05.G1.02 (G1): Match a need to a design idea
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T05.G7.03: Identify potential unintended harms from a design
+  -> T05.G1.01 (G1): Identify what a character needs in a story
+  -> T06.G3.01 (G3): Build a green‑flag script that runs a 3–5 block sequence
+
+T05.G7.04: Propose one concrete mitigation per harm
+  -> T05.G1.02 (G1): Match a need to a design idea
+
+T05.G7.05: Interpret usage or feedback data to find UX problems
+  -> T05.G1.02 (G1): Match a need to a design idea
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T05.G7.06: Choose design changes based on data patterns
+  -> T05.G1.02 (G1): Match a need to a design idea
+
+T06.G7.01: Model program states and transitions using events
+  -> T06.G3.02 (G3): Build a key‑press script that controls a sprite
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T06.G7.02: Trace state changes in event‑driven code
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T06.G7.03: Design a broadcast protocol to decouple components
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T06.G7.04: Compare tightly coupled vs broadcast‑based designs
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T07.G7.01: Use loops to simulate motion over time
+  -> T07.G3.02 (G3): Trace a script with a simple loop
+
+T07.G7.02: Nested loops for 2D grids and tile maps
+  -> T08.G3.01 (G3): Use a simple if in a script
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T07.G7.03: Compare loop algorithms by counting steps
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T07.G7.04: Loop patterns for counting and accumulation
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T08.G7.01: Reason about fairness using conditions
+  -> T08.G3.02 (G3): Decide when a single if is enough
+
+T08.G7.02: Design tests for condition-heavy code
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T09.G7.01: Use variables to store and update state in simulations
+  -> T09.G3.02 (G3): Use a variable in a conditional (if block)
+
+T09.G7.02: Use aggregate expressions (sum, average, min, max)
+  -> T09.G3.02 (G3): Use a variable in a conditional (if block)
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T09.G7.03: Use variables in conditional logic with compound conditions
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T09.G7.04: Analyze how variable updates affect program behavior
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T10.G7.01: Design and populate a table for a real-world inventory or database
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T10.G7.02: Analyze a dataset to find patterns or outliers
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T10.G7.03: Transform or clean data in a table using loops and conditions
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T10.G7.04: Use nested loops to analyze relationships between two datasets
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T11.G7.01: Use custom blocks to implement algorithms
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T11.G7.02: Design a set of related blocks for a subsystem
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T11.G7.03: Understand encapsulation and data hiding
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+  -> T11.G3.01 (G3): Understand when to use custom blocks vs loops
+
+T11.G7.04: Trace and debug complex block hierarchies
+  -> T08.G3.01 (G3): Use a simple if in a script
+
+T12.G7.01: Refactor long scripts into smaller, named subroutines
+  -> T08.G3.01 (G3): Use a simple if in a script
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T12.G7.02: Analyze readability vs performance trade-offs
+  -> T08.G3.01 (G3): Use a simple if in a script
+  -> T12.G1.01 (G1): Find the main set of instructions
+
+T12.G7.03: Create a code review checklist for clarity
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T12.G7.04: Document design decisions in code
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T13.G7.01: Write comprehensive test cases for an algorithm
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T13.G7.02: Debug logic errors in complex programs
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T13.G7.03: Refactor for testability and clarity
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T13.G7.04: Compare reliability of different program designs
+  -> T08.G3.01 (G3): Use a simple if in a script
+  -> T13.G1.01 (G1): Identify where a step is wrong
+
+T14.G7.01: Spatial partitioning (grid)
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T14.G7.02: Basic pathfinding
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T14.G7.03: Weighted spawn scheduler
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T14.G7.04: Clone budget profiler
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T14.G7.05: Difficulty curves
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T15.G7.01: Scene Graph / Manager
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+
+T15.G7.02: Lip Sync Logic
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+
+T16.G7.01: Build a data collection interface (survey or questionnaire)
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T16.G7.02: Implement a search or filter interface
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T16.G7.03: Design an accessible interface for users with different abilities
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T16.G7.04: Create a help or tutorial interface
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T17.G7.01: Launch a configurable projectile
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T17.G7.02: Combine multiple forces simultaneously
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T17.G7.03: Simulate drag or resistance
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T17.G7.04: Build chains or stacks of physics objects
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T17.G7.05: Instrument and graph motion data
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T17.G7.06: Model a real-world physics scenario
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T17.G7.07: Evaluate whether a simulation meets requirements
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T18.G7.01: Implement pathfinding or waypoint-based NPC movement
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T14.G3.01 (G3): Move a sprite with arrow keys (4 directions)
+
+T18.G7.02: Design collision response for bouncing or sliding
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T14.G3.01 (G3): Move a sprite with arrow keys (4 directions)
+
+T18.G7.03: Use 3D coordinates and distance calculations for game mechanics
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T14.G3.01 (G3): Move a sprite with arrow keys (4 directions)
+
+T18.G7.04: Implement a physics-based puzzle mechanic
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T14.G3.01 (G3): Move a sprite with arrow keys (4 directions)
+
+T18.G7.05: Script camera transitions for cutscenes
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+  -> T14.G3.01 (G3): Move a sprite with arrow keys (4 directions)
+
+T19.G7.01: Balance starting conditions and scoring
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+
+T19.G7.02: Implement dynamic team assignment or matchmaking
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+
+T19.G7.03: Decide what data syncs vs stays local
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+
+T19.G7.04: Scale logic to handle variable player counts
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T19.G7.05: Display connection quality and apply fallbacks
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+
+T20.G7.01: Compare efficiency of art algorithms
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T28.G3.04 (G3): Describe randomness in games they play
+
+T20.G7.02: Use while/repeat-until loops in art
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T28.G3.04 (G3): Describe randomness in games they play
+
+T20.G7.03: Study parameter impact on aesthetics
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T28.G3.04 (G3): Describe randomness in games they play
+
+T20.G7.04: Analyze real generative artworks
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T28.G3.04 (G3): Describe randomness in games they play
+
+T20.G7.05: Implement iterative art rules (L-system lite)
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T28.G3.04 (G3): Describe randomness in games they play
+
+T21.G7.01: Create a reusable prompt template library
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T21.G7.02: Use ChatGPT to expand briefs before generating art
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T21.G7.03: Audit AI imagery for representation and bias
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T21.G7.04: Blend AI frames with manual touch-ups for animation
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T21.G7.05: Pair AI visuals with AI narration for immersive scenes
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T22.G7.01: Author a persona using system messages and few-shot turns
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T22.G7.02: Manage chat history and reset logic
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T22.G7.03: Capture slot values through UI widgets and inject them into prompts
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T22.G7.04: Add moderation guardrails and escalation paths
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T22.G7.05: User-test the chatbot for inclusivity and clarity
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T23.G7.01: Define a reusable gesture dictionary
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T23.G7.02: Require multimodal confirmation (voice + gesture)
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T23.G7.03: Score a pose-based challenge with coaching tips
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T23.G7.04: Monitor detection accuracy across different users
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T23.G7.05: Build a calibration wizard for sensors
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T23.G7.06: Implement fairness safeguards for perception systems
+  -> T06.G3.08 (G3): Fix a behavior that runs at the wrong time
+  -> T08.G3.05 (G3): Fix a condition that uses the wrong operator
+
+T24.G7.01: Create reusable XO prompt macros
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T24.G7.02: Run an XO-led code review with evidence
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T24.G7.03: Combine XO storyboards with AI sprite generation
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T24.G7.04: Enforce responsible-use rules for XO assistance
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T24.G7.05: Use XO to coach peers with rubric-based feedback
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T25.G7.01: Normalize repeating data into separate tables
+  -> T07.G3.01 (G3): Use a counted repeat loop
+  -> T25.G1.02 (G1): Design a picture table
+
+T25.G7.02: Identify bias introduced by representation choices
+  -> T25.G1.02 (G1): Design a picture table
+
+T25.G7.03: Create JSON-like snippets to store structured state
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T25.G7.04: Evaluate storage vs performance tradeoffs
+  -> T25.G1.02 (G1): Design a picture table
+
+T26.G7.01: Build reusable data collection modules
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T26.G7.02: Monitor data quality in real time
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T26.G7.03: Document provenance for external datasets
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T26.G7.04: Evaluate bias risks introduced during collection
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T27.G7.01: Build multi-chart dashboards with linked filters
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T26.G3.04 (G3): Separate raw data from summary data
+
+T27.G7.02: Conduct residual/error analysis
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T26.G3.04 (G3): Separate raw data from summary data
+
+T27.G7.03: Evaluate fairness metrics
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T26.G3.04 (G3): Separate raw data from summary data
+
+T27.G7.04: Craft executive summaries for stakeholders
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T26.G3.04 (G3): Separate raw data from summary data
+
+T28.G7.01: Build agent-based simulations
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T28.G7.02: Evaluate AI fairness using synthetic populations
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T28.G7.03: Perform randomization tests (permutation tests)
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T28.G7.04: Communicate simulation assumptions & limits
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+
+T28.G7.05: Trace how a simple agent learns from rewards
+  -> T07.G3.05 (G3): Fix a loop that runs too many or too few times
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T29.G7.01: Build keyword retrieval helpers (mini-RAG)
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T29.G7.02: Engineer text features for classifiers
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T29.G7.03: Audit text datasets for bias and coverage
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T29.G7.04: Compare human vs XO summaries critically
+  -> T09.G3.04 (G3): Trace code with variables to predict outcomes
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T30.G7.01: Analyze energy consumption & thermal limits
+  -> T30.G1.02 (G1): Describe hardware vs software
+
+T30.G7.02: Design redundancy/fail-safes for sensors
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T30.G7.03: Design redundancy/fail-safes for AI sensors
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+T30.G7.04: Compare CPUs, GPUs, and TPUs for AI workloads
+  -> T30.G1.02 (G1): Describe hardware vs software
+
+T30.G7.05: Debate privacy implications of AI-powered sensors
+  -> T30.G1.02 (G1): Describe hardware vs software
+
+T31.G7.02: Design a protocol for multiplayer state sync
+  -> T10.G3.01 (G3): Loop through and process each item in a list
+
+T32.G7.01: Analyze encryption basics (Caesar cipher)
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T32.G7.02: Simulate password cracking attempts
+  -> T32.G1.02 (G1): Recognize trustworthy vs unknown contacts
+
+T32.G7.03: Implement secure logging/monitoring inside apps
+  -> T07.G3.01 (G3): Use a counted repeat loop
+  -> T32.G1.01 (G1): Identify personally identifiable information (PII)
+
+T32.G7.04: Analyze AI-powered surveillance ethics and societal impacts
+  -> T32.G1.02 (G1): Recognize trustworthy vs unknown contacts
+
+T33.G7.01: Securely store and reference service credentials (conceptual)
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T33.G7.02: Build wrappers that combine multiple services
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T33.G7.03: Compare service options and pick the right tool
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T33.G7.04: Implement caching/memoization for repeated requests
+  -> T10.G3.03 (G3): Add and remove items from a list
+
+T34.G7.01: Research AI history milestones
+  -> T34.G1.02 (G1): Recognize inventors from diverse backgrounds
+
+T34.G7.02: Evaluate technology policies over time
+  -> T34.G1.02 (G1): Recognize inventors from diverse backgrounds
+
+T34.G7.03: Create museum-style exhibits for innovators
+  -> T08.G3.01 (G3): Use a simple if in a script
+  -> T34.G1.01 (G1): Describe life before and after a technology
+
+T35.G7.01: Conduct comprehensive bias audits across T21-T24 AI features
+  -> T35.G1.02 (G1): Describe how technology makes people feel
+
+T35.G7.02: Explore unintended consequences of new tech
+  -> T35.G1.02 (G1): Describe how technology makes people feel
+
+T35.G7.03: Evaluate transparency vs security tensions
+  -> T35.G1.02 (G1): Describe how technology makes people feel
+
+T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+  -> T35.G1.02 (G1): Describe how technology makes people feel
+
+T35.G7.05: Debate ethical implications of AI media generation (Pairing with T21)
+  -> T35.G1.02 (G1): Describe how technology makes people feel
+
+T35.G7.06: Facilitate community discussions on AI-powered tech policy
+  -> T35.G1.02 (G1): Describe how technology makes people feel
+
+T36.G7.01: Interview diverse technologists about AI ethics and equity
+  -> T36.G1.02 (G1): Sort "helps" vs "problems" for a technology
+
+T36.G7.02: Design cross-functional team diagrams
+  -> T09.G3.01 (G3): Create and use a numeric variable for score or count
+
+T36.G7.03: Facilitate inclusive collaboration
+  -> T36.G1.02 (G1): Sort "helps" vs "problems" for a technology
+
+T36.G7.04: Mentor younger coders
+  -> T01.G3.01 (G3): Complete a simple script with missing blocks
+  -> T01.G3.02 (G3): Match a story description to a code sequence
+
+TRANSITIVE DEPENDENCIES (Could be added as direct deps)
+--------------------------------------------------------------------------------
+
+T01.G7.01: Identify the pattern in a given program
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T01.G7.02: Choose a pattern to solve a problem
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T01.G7.03: Write pseudocode for a search or accumulation algorithm
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T01.G7.04: Compare efficiency of two algorithms qualitatively
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T01.G7.05: Design a set of edge‑case tests for an algorithm
+  Current deps: T01.G3.01, T01.G3.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T01.G7.06: Run an algorithm on edge cases and find failures
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T01.G7.07: Explain why an algorithm fails on a specific edge case
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T01.G7.08: Rewrite a naive algorithm using a better pattern
+  Current deps: T07.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T06.G3.01
+
+T02.G7.01: Trace a step‑by‑step simulation algorithm
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T02.G7.02: Extend a simulation trace and predict future behavior
+  Current deps: T01.G3.01, T01.G3.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T02.G7.03: Create a flowchart for linear search or “find max”
+  Current deps: T01.G3.01, T01.G3.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T02.G7.04: Read a flowchart for a simple sort and trace one pass
+  Current deps: T01.G3.01, T01.G3.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T02.G7.05: Count steps for two algorithms on small inputs
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T02.G7.06: Trace an algorithm to find a bug or edge case
+  Current deps: T01.G3.01, T01.G3.02, T08.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T03.G7.01: Draw an architecture diagram for a multi‑component project
+  Current deps: T02.G3.01, T04.G2.01
+  Transitive deps: T02.G1.01, T02.G2.01, T02.G2.02, T03.G1.03, T03.G2.01, T04.G1.03
+
+T03.G7.02: Map functional modules to architecture components
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T03.G7.03: Compare two decompositions of the same project
+  Current deps: T03.G1.02
+  Transitive deps: T03.G1.01
+
+T03.G7.04: Propose an alternative decomposition to fix a planning problem
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T03.G7.05: Design a test plan based on a project breakdown
+  Current deps: T03.G1.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T03.G7.06: Update a project plan after test results
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T04.G7.01: Identify the main loop patterns in a simulation or game
+  Current deps: T08.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T04.G7.02: Identify data structure patterns (lists, grids) in use
+  Current deps: T08.G3.01, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01
+
+T04.G7.03: Design a solution by combining two known patterns
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T04.G7.04: Trace a composite pattern and explain each part’s role
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T04.G7.05: Simplify code by merging repeated patterns
+  Current deps: T07.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T06.G3.01
+
+T04.G7.06: Compare pattern‑based implementations for maintainability
+  Current deps: T04.G1.01, T04.G2.01
+  Transitive deps: T04.G1.03
+
+T05.G7.01: Perform a checklist‑based accessibility review of a project
+  Current deps: T05.G1.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T05.G7.02: Prioritize which accessibility issues to fix first
+  Current deps: T05.G1.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T05.G7.03: Identify potential unintended harms from a design
+  Current deps: T05.G1.01, T06.G3.01
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03
+
+T05.G7.04: Propose one concrete mitigation per harm
+  Current deps: T05.G1.02
+  Transitive deps: T05.G1.01
+
+T05.G7.05: Interpret usage or feedback data to find UX problems
+  Current deps: T05.G1.02, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T05.G7.06: Choose design changes based on data patterns
+  Current deps: T05.G1.02
+  Transitive deps: T05.G1.01
+
+T06.G7.01: Model program states and transitions using events
+  Current deps: T06.G3.02, T06.G6.03, T06.G6.04, T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T06.G7.02: Trace state changes in event‑driven code
+  Current deps: T06.G6.03, T06.G6.04, T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T06.G7.03: Design a broadcast protocol to decouple components
+  Current deps: T01.G3.01, T06.G6.03, T06.G6.04, T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T06.G7.04: Compare tightly coupled vs broadcast‑based designs
+  Current deps: T06.G6.03, T06.G6.04, T08.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T07.G7.01: Use loops to simulate motion over time
+  Current deps: T07.G3.02, T07.G6.05, T07.G6.06
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T06.G3.01, T07.G3.01
+
+T07.G7.02: Nested loops for 2D grids and tile maps
+  Current deps: T07.G6.05, T07.G6.06, T08.G3.01, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01
+
+T07.G7.03: Compare loop algorithms by counting steps
+  Current deps: T07.G6.05, T07.G6.06, T08.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T07.G7.04: Loop patterns for counting and accumulation
+  Current deps: T07.G6.06, T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T08.G7.01: Reason about fairness using conditions
+  Current deps: T08.G3.02, T08.G6.02, T08.G6.03
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T08.G7.02: Design tests for condition-heavy code
+  Current deps: T08.G3.01, T08.G6.02, T08.G6.03
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T09.G7.01: Use variables to store and update state in simulations
+  Current deps: T09.G3.02, T09.G6.04, T09.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01
+
+T09.G7.02: Use aggregate expressions (sum, average, min, max)
+  Current deps: T09.G3.02, T09.G6.04, T09.G6.05, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01
+
+T09.G7.03: Use variables in conditional logic with compound conditions
+  Current deps: T09.G3.01, T09.G6.04, T09.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T09.G7.04: Analyze how variable updates affect program behavior
+  Current deps: T09.G3.01, T09.G6.04, T09.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T10.G7.01: Design and populate a table for a real-world inventory or database
+  Current deps: T09.G3.01, T10.G6.03, T10.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T10.G7.02: Analyze a dataset to find patterns or outliers
+  Current deps: T09.G3.01, T10.G6.03, T10.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T10.G7.03: Transform or clean data in a table using loops and conditions
+  Current deps: T09.G3.01, T10.G3.01, T10.G6.03, T10.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T10.G7.04: Use nested loops to analyze relationships between two datasets
+  Current deps: T08.G3.01, T10.G6.03, T10.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T11.G7.01: Use custom blocks to implement algorithms
+  Current deps: T01.G3.01, T09.G3.01, T11.G6.03, T11.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T11.G7.02: Design a set of related blocks for a subsystem
+  Current deps: T09.G3.01, T11.G6.03, T11.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T11.G7.03: Understand encapsulation and data hiding
+  Current deps: T09.G3.01, T11.G3.01, T11.G6.03, T11.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.03, T01.G2.04, T01.G2.05, T01.G3.04, T01.G3.05, T01.G3.06, T01.G3.07, T01.G3.09, T01.G3.10, T01.G3.11, T01.G3.12, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T07.G3.02, T08.G3.01, T14.G2.01, T14.G3.01
+
+T11.G7.04: Trace and debug complex block hierarchies
+  Current deps: T08.G3.01, T11.G6.03, T11.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T12.G7.01: Refactor long scripts into smaller, named subroutines
+  Current deps: T08.G3.01, T09.G3.01, T12.G6.03, T12.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T12.G7.02: Analyze readability vs performance trade-offs
+  Current deps: T08.G3.01, T12.G1.01, T12.G6.03, T12.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T12.G7.03: Create a code review checklist for clarity
+  Current deps: T09.G3.01, T10.G3.01, T12.G6.03, T12.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T12.G7.04: Document design decisions in code
+  Current deps: T09.G3.01, T10.G3.01, T12.G6.03, T12.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T13.G7.01: Write comprehensive test cases for an algorithm
+  Current deps: T09.G3.01, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01
+
+T13.G7.02: Debug logic errors in complex programs
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T13.G7.03: Refactor for testability and clarity
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T13.G7.04: Compare reliability of different program designs
+  Current deps: T08.G3.01, T13.G1.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T14.G7.01: Spatial partitioning (grid)
+  Current deps: T07.G3.05, T08.G3.05, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T14.G7.02: Basic pathfinding
+  Current deps: T07.G3.05, T08.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T14.G7.03: Weighted spawn scheduler
+  Current deps: T07.G3.05, T08.G3.05, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T14.G7.04: Clone budget profiler
+  Current deps: T07.G3.05, T08.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T14.G7.05: Difficulty curves
+  Current deps: T07.G3.05, T08.G3.05, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T15.G7.01: Scene Graph / Manager
+  Current deps: T06.G3.08, T07.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02
+
+T15.G7.02: Lip Sync Logic
+  Current deps: T06.G3.08, T07.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02
+
+T16.G7.01: Build a data collection interface (survey or questionnaire)
+  Current deps: T06.G3.08, T08.G3.05, T16.G6.03, T16.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T16.G7.02: Implement a search or filter interface
+  Current deps: T06.G3.08, T08.G3.05, T10.G3.01, T16.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T16.G7.03: Design an accessible interface for users with different abilities
+  Current deps: T06.G3.08, T08.G3.05, T16.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T16.G7.04: Create a help or tutorial interface
+  Current deps: T06.G3.08, T08.G3.05, T16.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.01: Launch a configurable projectile
+  Current deps: T07.G3.05, T08.G3.05, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.02: Combine multiple forces simultaneously
+  Current deps: T07.G3.05, T08.G3.05, T17.G6.07, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.03: Simulate drag or resistance
+  Current deps: T07.G3.05, T08.G3.05, T17.G6.07, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.04: Build chains or stacks of physics objects
+  Current deps: T07.G3.05, T08.G3.05, T17.G6.07, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.05: Instrument and graph motion data
+  Current deps: T07.G3.05, T08.G3.05, T10.G3.01, T17.G6.07, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.06: Model a real-world physics scenario
+  Current deps: T07.G3.05, T08.G3.05, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T17.G7.07: Evaluate whether a simulation meets requirements
+  Current deps: T07.G3.05, T08.G3.05, T17.G6.07, T17.G6.08
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T18.G7.01: Implement pathfinding or waypoint-based NPC movement
+  Current deps: T07.G3.05, T14.G3.01, T18.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.03, T01.G2.04, T01.G2.05, T01.G3.04, T01.G3.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T14.G2.01
+
+T18.G7.02: Design collision response for bouncing or sliding
+  Current deps: T07.G3.05, T14.G3.01, T18.G6.04, T18.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.03, T01.G2.04, T01.G2.05, T01.G3.04, T01.G3.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T14.G2.01
+
+T18.G7.03: Use 3D coordinates and distance calculations for game mechanics
+  Current deps: T07.G3.05, T14.G3.01, T18.G6.04, T18.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.03, T01.G2.04, T01.G2.05, T01.G3.04, T01.G3.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T14.G2.01
+
+T18.G7.04: Implement a physics-based puzzle mechanic
+  Current deps: T07.G3.05, T14.G3.01, T18.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.03, T01.G2.04, T01.G2.05, T01.G3.04, T01.G3.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T14.G2.01
+
+T18.G7.05: Script camera transitions for cutscenes
+  Current deps: T07.G3.05, T10.G3.01, T14.G3.01, T18.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.03, T01.G2.04, T01.G2.05, T01.G3.04, T01.G3.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T14.G2.01
+
+T19.G7.01: Balance starting conditions and scoring
+  Current deps: T06.G3.08, T19.G6.05, T31.G5.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T09.G3.02
+
+T19.G7.02: Implement dynamic team assignment or matchmaking
+  Current deps: T06.G3.08, T19.G6.05, T31.G5.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T09.G3.02
+
+T19.G7.03: Decide what data syncs vs stays local
+  Current deps: T06.G3.08, T19.G6.05, T31.G5.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T09.G3.02
+
+T19.G7.04: Scale logic to handle variable player counts
+  Current deps: T06.G3.08, T10.G3.01, T19.G6.04, T19.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T09.G3.02
+
+T19.G7.05: Display connection quality and apply fallbacks
+  Current deps: T06.G3.08, T19.G6.04, T19.G6.05, T31.G5.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T09.G3.02
+
+T20.G7.01: Compare efficiency of art algorithms
+  Current deps: T07.G3.05, T28.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T28.G2.01, T28.G3.01, T28.G3.02, T28.G3.03
+
+T20.G7.02: Use while/repeat-until loops in art
+  Current deps: T07.G3.05, T28.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T28.G2.01, T28.G3.01, T28.G3.02, T28.G3.03
+
+T20.G7.03: Study parameter impact on aesthetics
+  Current deps: T07.G3.05, T28.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T28.G2.01, T28.G3.01, T28.G3.02, T28.G3.03
+
+T20.G7.04: Analyze real generative artworks
+  Current deps: T07.G3.05, T28.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T28.G2.01, T28.G3.01, T28.G3.02, T28.G3.03
+
+T20.G7.05: Implement iterative art rules (L-system lite)
+  Current deps: T07.G3.05, T28.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T09.G3.01, T09.G3.02, T28.G2.01, T28.G3.01, T28.G3.02, T28.G3.03
+
+T21.G7.01: Create a reusable prompt template library
+  Current deps: T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T21.G7.02: Use ChatGPT to expand briefs before generating art
+  Current deps: T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T21.G7.03: Audit AI imagery for representation and bias
+  Current deps: T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T21.G7.04: Blend AI frames with manual touch-ups for animation
+  Current deps: T09.G3.04, T10.G3.03, T21.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T21.G7.05: Pair AI visuals with AI narration for immersive scenes
+  Current deps: T09.G3.04, T10.G3.03, T21.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T22.G7.01: Author a persona using system messages and few-shot turns
+  Current deps: T06.G3.08, T09.G3.04, T22.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T22.G7.02: Manage chat history and reset logic
+  Current deps: T06.G3.08, T09.G3.04, T22.G6.03, T22.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T22.G7.03: Capture slot values through UI widgets and inject them into prompts
+  Current deps: T06.G3.08, T09.G3.04, T22.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T22.G7.04: Add moderation guardrails and escalation paths
+  Current deps: T06.G3.08, T09.G3.04, T22.G6.03, T22.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T22.G7.05: User-test the chatbot for inclusivity and clarity
+  Current deps: T06.G3.08, T09.G3.04, T22.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T23.G7.01: Define a reusable gesture dictionary
+  Current deps: T06.G3.08, T08.G3.05, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T23.G7.02: Require multimodal confirmation (voice + gesture)
+  Current deps: T06.G3.08, T08.G3.05, T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.02
+
+T23.G7.03: Score a pose-based challenge with coaching tips
+  Current deps: T06.G3.08, T08.G3.05, T10.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T23.G7.04: Monitor detection accuracy across different users
+  Current deps: T06.G3.08, T08.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T23.G7.05: Build a calibration wizard for sensors
+  Current deps: T06.G3.08, T08.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T23.G7.06: Implement fairness safeguards for perception systems
+  Current deps: T06.G3.08, T08.G3.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T06.G3.05, T06.G3.06, T06.G3.07, T07.G3.01, T07.G3.02, T07.G3.03, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02
+
+T24.G7.01: Create reusable XO prompt macros
+  Current deps: T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T24.G7.02: Run an XO-led code review with evidence
+  Current deps: T09.G3.04, T10.G3.03, T24.G6.06
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T24.G7.03: Combine XO storyboards with AI sprite generation
+  Current deps: T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T24.G7.04: Enforce responsible-use rules for XO assistance
+  Current deps: T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T24.G7.05: Use XO to coach peers with rubric-based feedback
+  Current deps: T09.G3.04, T10.G3.03, T24.G6.06
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T25.G7.01: Normalize repeating data into separate tables
+  Current deps: T07.G3.01, T25.G1.02
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T06.G3.01, T25.G1.01
+
+T25.G7.02: Identify bias introduced by representation choices
+  Current deps: T25.G1.02
+  Transitive deps: T25.G1.01
+
+T25.G7.03: Create JSON-like snippets to store structured state
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T25.G7.04: Evaluate storage vs performance tradeoffs
+  Current deps: T25.G1.02
+  Transitive deps: T25.G1.01
+
+T26.G7.01: Build reusable data collection modules
+  Current deps: T09.G3.04, T10.G3.03
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T26.G7.02: Monitor data quality in real time
+  Current deps: T09.G3.04, T10.G3.03
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T26.G7.03: Document provenance for external datasets
+  Current deps: T09.G3.04, T10.G3.03
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T26.G7.04: Evaluate bias risks introduced during collection
+  Current deps: T09.G3.04, T10.G3.03
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T27.G7.01: Build multi-chart dashboards with linked filters
+  Current deps: T09.G3.04, T26.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T26.G2.01, T26.G3.01, T26.G3.02, T26.G3.03
+
+T27.G7.02: Conduct residual/error analysis
+  Current deps: T09.G3.04, T26.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T26.G2.01, T26.G3.01, T26.G3.02, T26.G3.03
+
+T27.G7.03: Evaluate fairness metrics
+  Current deps: T09.G3.04, T26.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T26.G2.01, T26.G3.01, T26.G3.02, T26.G3.03
+
+T27.G7.04: Craft executive summaries for stakeholders
+  Current deps: T09.G3.04, T26.G3.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T26.G2.01, T26.G3.01, T26.G3.02, T26.G3.03
+
+T28.G7.01: Build agent-based simulations
+  Current deps: T07.G3.05, T09.G3.04, T10.G3.01, T28.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T28.G7.02: Evaluate AI fairness using synthetic populations
+  Current deps: T07.G3.05, T09.G3.04, T28.G6.04, T28.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T28.G7.03: Perform randomization tests (permutation tests)
+  Current deps: T07.G3.05, T09.G3.04, T28.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T28.G7.04: Communicate simulation assumptions & limits
+  Current deps: T07.G3.05, T09.G3.04, T28.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T28.G7.05: Trace how a simple agent learns from rewards
+  Current deps: T07.G3.05, T09.G3.04, T10.G3.01, T28.G6.04, T28.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03
+
+T29.G7.01: Build keyword retrieval helpers (mini-RAG)
+  Current deps: T09.G3.04, T10.G3.03, T29.G6.03, T29.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T29.G7.02: Engineer text features for classifiers
+  Current deps: T09.G3.04, T10.G3.03, T29.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T29.G7.03: Audit text datasets for bias and coverage
+  Current deps: T09.G3.04, T10.G3.03, T29.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T29.G7.04: Compare human vs XO summaries critically
+  Current deps: T09.G3.04, T10.G3.03, T29.G6.03, T29.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T03.G2.02, T03.G2.03, T03.G2.04, T03.G3.01, T03.G3.02, T03.G3.03, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T04.G3.03, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T05.G3.03, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T07.G3.03, T07.G3.04, T08.G3.01, T08.G3.02, T08.G3.03, T08.G3.04, T09.G3.01, T09.G3.02, T09.G3.03, T10.G3.01, T10.G3.02
+
+T30.G7.01: Analyze energy consumption & thermal limits
+  Current deps: T30.G1.02
+  Transitive deps: T30.G1.01
+
+T30.G7.02: Design redundancy/fail-safes for sensors
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T30.G7.03: Design redundancy/fail-safes for AI sensors
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+T30.G7.04: Compare CPUs, GPUs, and TPUs for AI workloads
+  Current deps: T30.G1.02
+  Transitive deps: T30.G1.01
+
+T30.G7.05: Debate privacy implications of AI-powered sensors
+  Current deps: T30.G1.02
+  Transitive deps: T30.G1.01
+
+T31.G7.01: Model a distributed multiplayer server
+  Current deps: T31.G6.04, T31.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T01.G3.01, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.01, T30.G2.01, T30.G3.01, T31.G5.01, T31.G5.02, T31.G5.04, T31.G5.05
+
+T31.G7.02: Design a protocol for multiplayer state sync
+  Current deps: T10.G3.01, T31.G6.04, T31.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T01.G3.01, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T08.G3.01, T09.G3.01, T30.G2.01, T30.G3.01, T31.G5.01, T31.G5.02, T31.G5.04, T31.G5.05
+
+T31.G7.03: Compare network topology options
+  Current deps: T31.G6.04, T31.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T01.G3.01, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.01, T30.G2.01, T30.G3.01, T31.G5.01, T31.G5.02, T31.G5.04, T31.G5.05
+
+T31.G7.04: Compare centralized servers with peer-to-peer networks
+  Current deps: T31.G6.04, T31.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T01.G3.01, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.01, T30.G2.01, T30.G3.01, T31.G5.01, T31.G5.02, T31.G5.04, T31.G5.05
+
+T31.G7.05: Analyze societal impacts of networked systems
+  Current deps: T31.G6.04, T31.G6.05
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T01.G3.01, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.01, T30.G2.01, T30.G3.01, T31.G5.01, T31.G5.02, T31.G5.04, T31.G5.05
+
+T32.G7.01: Analyze encryption basics (Caesar cipher)
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T32.G7.02: Simulate password cracking attempts
+  Current deps: T32.G1.02
+  Transitive deps: T32.G1.01
+
+T32.G7.03: Implement secure logging/monitoring inside apps
+  Current deps: T07.G3.01, T32.G1.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T06.G3.01
+
+T32.G7.04: Analyze AI-powered surveillance ethics and societal impacts
+  Current deps: T32.G1.02
+  Transitive deps: T32.G1.01
+
+T33.G7.01: Securely store and reference service credentials (conceptual)
+  Current deps: T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T10.G3.01, T10.G3.02
+
+T33.G7.02: Build wrappers that combine multiple services
+  Current deps: T10.G3.03, T31.G5.01, T33.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T10.G3.01, T10.G3.02
+
+T33.G7.03: Compare service options and pick the right tool
+  Current deps: T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T10.G3.01, T10.G3.02
+
+T33.G7.04: Implement caching/memoization for repeated requests
+  Current deps: T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T02.G1.01, T02.G2.01, T02.G2.02, T02.G3.01, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T04.G2.02, T04.G2.03, T04.G3.01, T04.G3.02, T05.G1.01, T05.G1.02, T05.G1.03, T05.G1.04, T05.G2.01, T05.G2.02, T05.G2.03, T05.G3.01, T05.G3.02, T06.G3.01, T06.G3.02, T06.G3.03, T06.G3.04, T07.G3.01, T07.G3.02, T08.G3.01, T08.G3.02, T09.G3.01, T10.G3.01, T10.G3.02
+
+T34.G7.01: Research AI history milestones
+  Current deps: T34.G1.02
+  Transitive deps: T34.G1.01
+
+T34.G7.02: Evaluate technology policies over time
+  Current deps: T34.G1.02
+  Transitive deps: T34.G1.01
+
+T34.G7.03: Create museum-style exhibits for innovators
+  Current deps: T08.G3.01, T34.G1.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01
+
+T35.G7.01: Conduct comprehensive bias audits across T21-T24 AI features
+  Current deps: T35.G1.02
+  Transitive deps: T35.G1.01
+
+T35.G7.02: Explore unintended consequences of new tech
+  Current deps: T35.G1.02
+  Transitive deps: T35.G1.01
+
+T35.G7.03: Evaluate transparency vs security tensions
+  Current deps: T35.G1.02
+  Transitive deps: T35.G1.01
+
+T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+  Current deps: T35.G1.02
+  Transitive deps: T35.G1.01
+
+T35.G7.05: Debate ethical implications of AI media generation (Pairing with T21)
+  Current deps: T35.G1.02
+  Transitive deps: T35.G1.01
+
+T35.G7.06: Facilitate community discussions on AI-powered tech policy
+  Current deps: T35.G1.02
+  Transitive deps: T35.G1.01
+
+T36.G7.01: Interview diverse technologists about AI ethics and equity
+  Current deps: T36.G1.02
+  Transitive deps: T36.G1.01
+
+T36.G7.02: Design cross-functional team diagrams
+  Current deps: T09.G3.01
+  Transitive deps: T01.G1.01, T01.G1.10, T01.G2.01, T01.G2.02, T01.G2.04, T01.G2.05, T03.G1.03, T03.G2.01, T04.G1.01, T04.G1.03, T04.G2.01, T05.G1.01, T05.G1.02, T05.G1.04, T05.G2.02, T06.G3.01, T07.G3.01, T08.G3.01
+
+T36.G7.03: Facilitate inclusive collaboration
+  Current deps: T36.G1.02
+  Transitive deps: T36.G1.01
+
+T36.G7.04: Mentor younger coders
+  Current deps: T01.G3.01, T01.G3.02
+  Transitive deps: T01.G1.01, T01.G2.01, T01.G2.02, T04.G1.03, T06.G3.01
+
+================================================================================
+END OF VALIDATION REPORT
+================================================================================

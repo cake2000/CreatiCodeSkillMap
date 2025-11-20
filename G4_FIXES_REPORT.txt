@@ -1,0 +1,190 @@
+================================================================================
+G4 DEPENDENCY FIXES - DETAILED REPORT
+================================================================================
+
+Total fixes applied: 37
+
+FIXED: T01.G4.02
+  Old dependency: T01.GK.08
+  New dependency: T01.G3.11
+  Reason: G3.11 involves explaining what programs do, which is a more appropriate prerequisite for implementing written plans in code
+
+FIXED: T01.G4.04
+  Old dependency: T01.GK.07
+  New dependency: T01.G3.03
+  Reason: G3.03 involves identifying repeated blocks in scripts, which is a direct prerequisite for replacing patterns with loops
+
+FIXED: T01.G4.06
+  Old dependency: T01.GK.07
+  New dependency: T01.G3.11
+  Reason: G3.11 involves explaining programs and is at the right level for recognizing variables in programs
+
+FIXED: T01.G4.07
+  Old dependency: T01.GK.07
+  New dependency: T01.G3.05
+  Reason: G3.05 involves replacing repeated blocks with loops, which is a prerequisite for tracing counter variables in loops
+
+FIXED: T01.G4.09
+  Old dependency: T01.GK.08
+  New dependency: T01.G3.08
+  Reason: G3.08 involves adding if/then to scripts, which is appropriate for tracking game state with variables
+
+FIXED: T01.G4.10
+  Old dependency: T01.GK.08
+  New dependency: T01.G3.14
+  Reason: G3.14 involves debugging loops with wrong repeat counts, which is a prerequisite for tracing multi-step algorithms
+
+FIXED: T01.G4.11
+  Old dependency: T01.GK.08
+  New dependency: T01.G3.14
+  Reason: G3.14 involves debugging loops that repeat wrong number of times, which is directly related to off-by-one counting bugs
+
+FIXED: T02.G4.01
+  Old dependency: T02.GK.04
+  New dependency: T02.G3.01
+  Reason: G3.01 involves tracing flowcharts with decisions, which is a prerequisite for adding loops to flowcharts
+
+FIXED: T02.G4.02
+  Old dependency: T02.GK.04
+  New dependency: T02.G3.01
+  Reason: G3.01 involves tracing flowcharts with decisions, which is a prerequisite for designing flowcharts with repetition
+
+FIXED: T02.G4.04
+  Old dependency: T02.GK.04
+  New dependency: T02.G3.01
+  Reason: G3.01 involves tracing flowcharts with decisions, which is a prerequisite for tracing flowcharts with loops
+
+FIXED: T02.G4.05
+  Old dependency: T02.GK.03
+  New dependency: T02.G3.02
+  Reason: G3.02 involves matching code to flowcharts, which is a prerequisite for converting stories to pseudocode
+
+FIXED: T02.G4.06
+  Old dependency: T02.GK.03
+  New dependency: T02.G3.02
+  Reason: G3.02 involves matching code to flowcharts, which is a prerequisite for matching pseudocode to flowcharts
+
+FIXED: T03.G4.01
+  Old dependency: T03.GK.03
+  New dependency: T03.G3.01
+  Reason: G3.01 involves identifying sub-problems, which is a prerequisite for breaking medium-size projects into components
+
+FIXED: T03.G4.02
+  Old dependency: T03.G1.01
+  New dependency: T03.G3.02
+  Reason: G3.02 involves breaking tasks into steps and grouping, which is a prerequisite for grouping components into modules
+
+FIXED: T03.G4.03
+  Old dependency: T03.G1.01
+  New dependency: T03.G3.02
+  Reason: G3.02 involves breaking tasks into steps and grouping, which is a prerequisite for assigning project tasks to team roles
+
+FIXED: T03.G4.04
+  Old dependency: T03.G1.01
+  New dependency: T03.G3.02
+  Reason: G3.02 involves breaking tasks into steps and grouping, which is a prerequisite for creating task lists with owners
+
+FIXED: T04.G4.01
+  Old dependency: T04.GK.03
+  New dependency: T04.G3.01
+  Reason: G3.01 involves identifying where loops could replace repeated blocks, which is a prerequisite for tracing loops that create visual patterns
+
+FIXED: T04.G4.02
+  Old dependency: T04.GK.03
+  New dependency: T04.G3.03
+  Reason: G3.03 involves nested loops for rows and columns, which is a prerequisite for identifying nested pattern structures
+
+FIXED: T04.G4.03
+  Old dependency: T04.GK.03
+  New dependency: T04.G3.04
+  Reason: G3.04 involves combining patterns with conditions, which is a prerequisite for recognizing if patterns that handle special cases
+
+FIXED: T05.G4.01
+  Old dependency: T05.G1.01
+  New dependency: T05.G3.01
+  Reason: G3.01 involves interviewing users to understand needs, which is a prerequisite for identifying key details in personas
+
+FIXED: T05.G4.02
+  Old dependency: T05.G1.01
+  New dependency: T05.G3.02
+  Reason: G3.02 involves creating basic user personas, which is a prerequisite for matching designs to personas
+
+FIXED: T05.G4.03
+  Old dependency: T05.G1.01
+  New dependency: T05.G3.03
+  Reason: G3.03 involves listing accessibility needs, which is a prerequisite for recognizing accessibility issues
+
+FIXED: T05.G4.04
+  Old dependency: T05.G1.01
+  New dependency: T05.G3.03
+  Reason: G3.03 involves listing accessibility needs, which is a prerequisite for choosing accessibility improvements
+
+FIXED: T05.G4.05
+  Old dependency: T05.G1.01
+  New dependency: T05.G3.04
+  Reason: G3.04 involves identifying simplifications in models, which is a prerequisite for deciding what to include vs ignore in simulations
+
+FIXED: T05.G4.06
+  Old dependency: T05.G1.01
+  New dependency: T05.G3.04
+  Reason: G3.04 involves identifying simplifications in models, which is a prerequisite for explaining why simplifications are reasonable
+
+FIXED: T25.G4.02
+  Old dependency: T25.G1.01
+  New dependency: T25.G3.01
+  Reason: G3.01 involves converting between number and text, which is a prerequisite for encoding facts in different formats
+
+FIXED: T25.G4.03
+  Old dependency: T25.G1.01
+  New dependency: T25.G3.02
+  Reason: G3.02 involves comparing different data formats, which is a prerequisite for comparing dense vs sparse representations
+
+FIXED: T25.G4.04
+  Old dependency: T25.G1.01
+  New dependency: T25.G3.02
+  Reason: G3.02 involves comparing different data formats, which is a prerequisite for documenting assumptions in data keys
+
+FIXED: T30.G4.03
+  Old dependency: T30.G1.01
+  New dependency: T30.G3.01
+  Reason: G3.01 involves identifying input/output/storage devices, which is a prerequisite for understanding latency vs bandwidth
+
+FIXED: T32.G4.01
+  Old dependency: T32.G1.01
+  New dependency: T32.G3.01
+  Reason: G3.01 involves identifying safe vs unsafe behaviors, which is a prerequisite for building digital citizenship agreements
+
+FIXED: T32.G4.02
+  Old dependency: T32.G1.01
+  New dependency: T32.G3.02
+  Reason: G3.02 involves explaining why strong passwords matter, which is a prerequisite for using password managers
+
+FIXED: T32.G4.04
+  Old dependency: T32.G1.01
+  New dependency: T32.G3.03
+  Reason: G3.03 involves recognizing phishing attempts, which is a prerequisite for practicing secure file sharing
+
+FIXED: T35.G4.01
+  Old dependency: T35.G1.01
+  New dependency: T35.G3.01
+  Reason: G3.01 involves identifying positive and negative impacts of technology, which is a prerequisite for analyzing case studies
+
+FIXED: T35.G4.03
+  Old dependency: T35.G1.01
+  New dependency: T35.G3.02
+  Reason: G3.02 involves discussing fairness in algorithms, which is a prerequisite for reflecting on accessibility/inclusion in games
+
+FIXED: T36.G4.01
+  Old dependency: T36.G1.01
+  New dependency: T36.G3.01
+  Reason: G3.01 involves identifying tech jobs in the community, which is a prerequisite for exploring diverse tech careers
+
+FIXED: T36.G4.02
+  Old dependency: T36.G1.01
+  New dependency: T36.G3.02
+  Reason: G3.02 involves pair programming basics, which is a prerequisite for tracking work with shared checklists
+
+FIXED: T36.G4.03
+  Old dependency: T36.G1.01
+  New dependency: T36.G3.02
+  Reason: G3.02 involves pair programming basics, which is a prerequisite for role-playing project disagreements

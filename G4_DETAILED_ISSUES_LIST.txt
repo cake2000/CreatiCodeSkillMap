@@ -1,0 +1,277 @@
+================================================================================
+G4 SKILLS - DETAILED ISSUES LIST
+================================================================================
+
+Total G4 Skills with Issues: 37 out of 162
+
+All issues are RANGE_VIOLATIONS (MEDIUM priority)
+- G4 skills depending on GK or G1 skills
+- Should depend on G2-G4 only
+
+================================================================================
+TOPIC: T01 – Everyday Algorithms (7 skills with issues)
+================================================================================
+
+1. T01.G4.02: Implement a written plan in code
+   Current dependency: T01.GK.08 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+2. T01.G4.04: Replace repeated patterns with loops
+   Current dependency: T01.GK.07 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+3. T01.G4.06: Recognize variables in a program
+   Current dependency: T01.GK.07 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+4. T01.G4.07: Trace a simple counter variable
+   Current dependency: T01.GK.07 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+5. T01.G4.09: Use a variable to track a simple game state (lives or points)
+   Current dependency: T01.GK.08 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+6. T01.G4.10: Trace a multi‑step algorithm with loops and variables
+   Current dependency: T01.GK.08 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+7. T01.G4.11: Debug an off‑by‑one counting bug
+   Current dependency: T01.GK.08 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T01
+
+================================================================================
+TOPIC: T02 – Algorithm Diagrams (5 skills with issues)
+================================================================================
+
+8. T02.G4.01: Add a loop to an existing flowchart
+   Current dependency: T02.GK.04 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T02
+
+9. T02.G4.02: Design a flowchart for a task with repetition
+   Current dependency: T02.GK.04 (GK)
+   Issue: Depends on Kindergarten skill - 4 grades back
+   Fix needed: Replace with G2 or G3 skill from T02
+
+10. T02.G4.04: Trace a flowchart that includes a loop structure
+    Current dependency: T02.GK.04 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T02
+
+11. T02.G4.05: Convert a story description into simple pseudocode
+    Current dependency: T02.GK.03 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T02
+
+12. T02.G4.06: Match pseudocode to a flowchart
+    Current dependency: T02.GK.03 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T02
+
+================================================================================
+TOPIC: T03 – Problem Decomposition (4 skills with issues)
+================================================================================
+
+13. T03.G4.01: Break a medium‑size project into components
+    Current dependency: T03.GK.03 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T03
+
+14. T03.G4.02: Group related components into modules
+    Current dependency: T03.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T03
+
+15. T03.G4.03: Assign project tasks to team roles
+    Current dependency: T03.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T03
+
+16. T03.G4.04: Create a simple task list with owners and order
+    Current dependency: T03.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T03
+
+================================================================================
+TOPIC: T04 – Algorithm Patterns (3 skills with issues)
+================================================================================
+
+17. T04.G4.01: Trace a loop that creates a visual pattern
+    Current dependency: T04.GK.03 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T04
+
+18. T04.G4.02: Identify nested pattern structure (outer vs inner loop)
+    Current dependency: T04.GK.03 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T04
+
+19. T04.G4.03: Recognize "if" patterns that handle special cases
+    Current dependency: T04.GK.03 (GK)
+    Issue: Depends on Kindergarten skill - 4 grades back
+    Fix needed: Replace with G2 or G3 skill from T04
+
+================================================================================
+TOPIC: T05 – Human‑Centered Design (6 skills with issues)
+================================================================================
+
+20. T05.G4.01: Identify key details in a user persona
+    Current dependency: T05.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T05
+
+21. T05.G4.02: Match designs to personas
+    Current dependency: T05.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T05
+
+22. T05.G4.03: Recognize common accessibility issues in an interface
+    Current dependency: T05.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T05
+
+23. T05.G4.04: Choose appropriate accessibility improvements
+    Current dependency: T05.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T05
+
+24. T05.G4.05: Decide what to include vs ignore in a simulation
+    Current dependency: T05.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T05
+
+25. T05.G4.06: Explain why a simplification is reasonable
+    Current dependency: T05.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T05
+
+================================================================================
+TOPIC: T25 – Data Representation (3 skills with issues)
+================================================================================
+
+26. T25.G4.02: Encode the same fact in decimal, fraction, and percentage
+    Current dependency: T25.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T25
+
+27. T25.G4.03: Compare dense vs sparse representations
+    Current dependency: T25.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T25
+
+28. T25.G4.04: Document assumptions in a data key
+    Current dependency: T25.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T25
+
+================================================================================
+TOPIC: T30 – Devices & Hardware Systems (1 skill with issues)
+================================================================================
+
+29. T30.G4.03: Differentiate latency vs bandwidth
+    Current dependency: T30.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T30
+
+================================================================================
+TOPIC: T32 – Cybersecurity & Digital Safety (3 skills with issues)
+================================================================================
+
+30. T32.G4.01: Build a class digital citizenship agreement
+    Current dependency: T32.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T32
+
+31. T32.G4.02: Use password managers (conceptual)
+    Current dependency: T32.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T32
+
+32. T32.G4.04: Practice secure file sharing in CreatiCode
+    Current dependency: T32.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T32
+
+================================================================================
+TOPIC: T35 – Impacts & Ethics (2 skills with issues)
+================================================================================
+
+33. T35.G4.01: Analyze case studies of tech helping/harming communities
+    Current dependency: T35.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T35
+
+34. T35.G4.03: Reflect on accessibility/inclusion in games
+    Current dependency: T35.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T35
+
+================================================================================
+TOPIC: T36 – Careers, Collaboration & Future Paths (3 skills with issues)
+================================================================================
+
+35. T36.G4.01: Explore diverse tech careers via profiles/videos
+    Current dependency: T36.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T36
+
+36. T36.G4.02: Track work with a shared checklist
+    Current dependency: T36.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T36
+
+37. T36.G4.03: Role-play resolving project disagreements
+    Current dependency: T36.G1.01 (G1)
+    Issue: Depends on Grade 1 skill - 3 grades back
+    Fix needed: Replace with G2 or G3 skill from T36
+
+================================================================================
+SUMMARY BY DEPENDENCY DISTANCE
+================================================================================
+
+Depending on GK (4 grades back): 15 skills
+  - T01: 7 skills
+  - T02: 5 skills
+  - T03: 1 skill
+  - T04: 3 skills
+
+Depending on G1 (3 grades back): 22 skills
+  - T03: 3 skills
+  - T05: 6 skills
+  - T25: 3 skills
+  - T30: 1 skill
+  - T32: 3 skills
+  - T35: 2 skills
+  - T36: 3 skills
+
+================================================================================
+RECOMMENDED APPROACH
+================================================================================
+
+1. For each topic with issues, identify or create G2 and G3 intermediate skills
+2. Update G4 dependencies to reference these intermediate skills instead
+3. Ensure smooth progression: GK -> G1 -> G2 -> G3 -> G4
+
+Topics needing G2/G3 skill review:
+  - T01 (Everyday Algorithms)
+  - T02 (Algorithm Diagrams)
+  - T03 (Problem Decomposition)
+  - T04 (Algorithm Patterns)
+  - T05 (Human-Centered Design)
+  - T25 (Data Representation)
+  - T30 (Devices & Hardware Systems)
+  - T32 (Cybersecurity & Digital Safety)
+  - T35 (Impacts & Ethics)
+  - T36 (Careers, Collaboration & Future Paths)
+
+================================================================================
+END OF DETAILED ISSUES LIST
+================================================================================

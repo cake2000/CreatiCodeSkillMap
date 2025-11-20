@@ -1,0 +1,6041 @@
+{
+  "fix_plan": {
+    "T01.G7.01": {
+      "title": "Identify the pattern in a given program",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T01.G7.02": {
+      "title": "Choose a pattern to solve a problem",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T01.G7.03": {
+      "title": "Write pseudocode for a search or accumulation algorithm",
+      "original_deps": [
+        "T04.G2.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T04.G2.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T04.G2.01": "T04.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T01.G7.04": {
+      "title": "Compare efficiency of two algorithms qualitatively",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T01.G7.05": {
+      "title": "Design a set of edge\u2011case tests for an algorithm",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T01.G7.06": {
+      "title": "Run an algorithm on edge cases and find failures",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T01.G7.07": {
+      "title": "Explain why an algorithm fails on a specific edge case",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T01.G7.08": {
+      "title": "Rewrite a naive algorithm using a better pattern",
+      "original_deps": [
+        "T04.G2.01",
+        "T07.G3.01"
+      ],
+      "low_grade_deps": [
+        "T04.G2.01",
+        "T07.G3.01"
+      ],
+      "replacement_map": {
+        "T04.G2.01": "T04.G5.01",
+        "T07.G3.01": "T07.G5.01"
+      }
+    },
+    "T02.G7.01": {
+      "title": "Trace a step\u2011by\u2011step simulation algorithm",
+      "original_deps": [
+        "T07.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T02.G7.02": {
+      "title": "Extend a simulation trace and predict future behavior",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T02.G7.03": {
+      "title": "Create a flowchart for linear search or \u201cfind max\u201d",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T02.G7.04": {
+      "title": "Read a flowchart for a simple sort and trace one pass",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T02.G7.05": {
+      "title": "Count steps for two algorithms on small inputs",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T02.G7.06": {
+      "title": "Trace an algorithm to find a bug or edge case",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T03.G7.01": {
+      "title": "Draw an architecture diagram for a multi\u2011component project",
+      "original_deps": [
+        "T02.G3.01",
+        "T04.G2.01"
+      ],
+      "low_grade_deps": [
+        "T02.G3.01",
+        "T04.G2.01"
+      ],
+      "replacement_map": {
+        "T02.G3.01": "T02.G5.01",
+        "T04.G2.01": "T04.G5.01"
+      }
+    },
+    "T03.G7.02": {
+      "title": "Map functional modules to architecture components",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T03.G7.03": {
+      "title": "Compare two decompositions of the same project",
+      "original_deps": [
+        "T03.G1.01",
+        "T03.G1.02"
+      ],
+      "low_grade_deps": [
+        "T03.G1.01",
+        "T03.G1.02"
+      ],
+      "replacement_map": {
+        "T03.G1.01": "T03.G5.01",
+        "T03.G1.02": "T03.G5.02"
+      }
+    },
+    "T03.G7.04": {
+      "title": "Propose an alternative decomposition to fix a planning problem",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T03.G7.05": {
+      "title": "Design a test plan based on a project breakdown",
+      "original_deps": [
+        "T03.G1.01",
+        "T03.G1.02"
+      ],
+      "low_grade_deps": [
+        "T03.G1.01",
+        "T03.G1.02"
+      ],
+      "replacement_map": {
+        "T03.G1.01": "T03.G5.01",
+        "T03.G1.02": "T03.G5.02"
+      }
+    },
+    "T03.G7.06": {
+      "title": "Update a project plan after test results",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T04.G7.01": {
+      "title": "Identify the main loop patterns in a simulation or game",
+      "original_deps": [
+        "T07.G3.01",
+        "T08.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T04.G7.02": {
+      "title": "Identify data structure patterns (lists, grids) in use",
+      "original_deps": [
+        "T04.G2.01",
+        "T08.G3.01"
+      ],
+      "low_grade_deps": [
+        "T04.G2.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T04.G2.01": "T04.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T04.G7.03": {
+      "title": "Design a solution by combining two known patterns",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T04.G7.04": {
+      "title": "Trace a composite pattern and explain each part\u2019s role",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T04.G7.05": {
+      "title": "Simplify code by merging repeated patterns",
+      "original_deps": [
+        "T04.G2.01",
+        "T07.G3.01"
+      ],
+      "low_grade_deps": [
+        "T04.G2.01",
+        "T07.G3.01"
+      ],
+      "replacement_map": {
+        "T04.G2.01": "T04.G5.01",
+        "T07.G3.01": "T07.G5.01"
+      }
+    },
+    "T04.G7.06": {
+      "title": "Compare pattern\u2011based implementations for maintainability",
+      "original_deps": [
+        "T04.G1.01",
+        "T04.G2.01"
+      ],
+      "low_grade_deps": [
+        "T04.G1.01",
+        "T04.G2.01"
+      ],
+      "replacement_map": {
+        "T04.G1.01": "T04.G5.01",
+        "T04.G2.01": "T04.G5.01"
+      }
+    },
+    "T05.G7.01": {
+      "title": "Perform a checklist\u2011based accessibility review of a project",
+      "original_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "low_grade_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "replacement_map": {
+        "T05.G1.01": "T05.G5.01",
+        "T05.G1.02": "T05.G5.02"
+      }
+    },
+    "T05.G7.02": {
+      "title": "Prioritize which accessibility issues to fix first",
+      "original_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "low_grade_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "replacement_map": {
+        "T05.G1.01": "T05.G5.01",
+        "T05.G1.02": "T05.G5.02"
+      }
+    },
+    "T05.G7.03": {
+      "title": "Identify potential unintended harms from a design",
+      "original_deps": [
+        "T05.G1.01",
+        "T06.G3.01"
+      ],
+      "low_grade_deps": [
+        "T05.G1.01",
+        "T06.G3.01"
+      ],
+      "replacement_map": {
+        "T05.G1.01": "T05.G5.01",
+        "T06.G3.01": "T06.G5.01"
+      }
+    },
+    "T05.G7.04": {
+      "title": "Propose one concrete mitigation per harm",
+      "original_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "low_grade_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "replacement_map": {
+        "T05.G1.01": "T05.G5.01",
+        "T05.G1.02": "T05.G5.02"
+      }
+    },
+    "T05.G7.05": {
+      "title": "Interpret usage or feedback data to find UX problems",
+      "original_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "low_grade_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "replacement_map": {
+        "T05.G1.01": "T05.G5.01",
+        "T05.G1.02": "T05.G5.02"
+      }
+    },
+    "T05.G7.06": {
+      "title": "Choose design changes based on data patterns",
+      "original_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "low_grade_deps": [
+        "T05.G1.01",
+        "T05.G1.02"
+      ],
+      "replacement_map": {
+        "T05.G1.01": "T05.G5.01",
+        "T05.G1.02": "T05.G5.02"
+      }
+    },
+    "T06.G7.01": {
+      "title": "Model program states and transitions using events",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.02",
+        "T06.G6.03",
+        "T06.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.02"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.02": "T06.G5.02"
+      }
+    },
+    "T06.G7.02": {
+      "title": "Trace state changes in event\u2011driven code",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G6.03",
+        "T06.G6.04",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T06.G7.03": {
+      "title": "Design a broadcast protocol to decouple components",
+      "original_deps": [
+        "T01.G3.01",
+        "T06.G6.03",
+        "T06.G6.04",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T06.G7.04": {
+      "title": "Compare tightly coupled vs broadcast\u2011based designs",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G6.03",
+        "T06.G6.04",
+        "T08.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T07.G7.01": {
+      "title": "Use loops to simulate motion over time",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G3.02",
+        "T07.G6.05",
+        "T07.G6.06"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T07.G3.02"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T07.G3.02": "T07.G5.02"
+      }
+    },
+    "T07.G7.02": {
+      "title": "Nested loops for 2D grids and tile maps",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G6.05",
+        "T07.G6.06",
+        "T08.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T07.G7.03": {
+      "title": "Compare loop algorithms by counting steps",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G6.05",
+        "T07.G6.06",
+        "T08.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T07.G7.04": {
+      "title": "Loop patterns for counting and accumulation",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G6.06",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T08.G7.01": {
+      "title": "Reason about fairness using conditions",
+      "original_deps": [
+        "T08.G3.01",
+        "T08.G3.02",
+        "T08.G6.02",
+        "T08.G6.03"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T08.G3.02"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.02": "T08.G5.02"
+      }
+    },
+    "T08.G7.02": {
+      "title": "Design tests for condition-heavy code",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T08.G6.02",
+        "T08.G6.03"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T09.G7.01": {
+      "title": "Use variables to store and update state in simulations",
+      "original_deps": [
+        "T09.G3.01",
+        "T09.G3.02",
+        "T09.G6.04",
+        "T09.G6.05"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T09.G3.02"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.02": "T09.G5.02"
+      }
+    },
+    "T09.G7.02": {
+      "title": "Use aggregate expressions (sum, average, min, max)",
+      "original_deps": [
+        "T09.G3.01",
+        "T09.G3.02",
+        "T09.G6.04",
+        "T09.G6.05"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T09.G3.02"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.02": "T09.G5.02"
+      }
+    },
+    "T09.G7.03": {
+      "title": "Use variables in conditional logic with compound conditions",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.01",
+        "T09.G6.04",
+        "T09.G6.05"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T09.G7.04": {
+      "title": "Analyze how variable updates affect program behavior",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G6.04",
+        "T09.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T10.G7.01": {
+      "title": "Design and populate a table for a real-world inventory or database",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T10.G6.03",
+        "T10.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T10.G7.02": {
+      "title": "Analyze a dataset to find patterns or outliers",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.01",
+        "T10.G6.03",
+        "T10.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T10.G7.03": {
+      "title": "Transform or clean data in a table using loops and conditions",
+      "original_deps": [
+        "T09.G3.01",
+        "T10.G3.01",
+        "T10.G6.03",
+        "T10.G6.04"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T10.G3.01"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T10.G3.01": "T10.G5.01"
+      }
+    },
+    "T10.G7.04": {
+      "title": "Use nested loops to analyze relationships between two datasets",
+      "original_deps": [
+        "T07.G3.01",
+        "T08.G3.01",
+        "T10.G6.03",
+        "T10.G6.04"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T11.G7.01": {
+      "title": "Use custom blocks to implement algorithms",
+      "original_deps": [
+        "T01.G3.01",
+        "T09.G3.01",
+        "T11.G6.03",
+        "T11.G6.04"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T11.G7.02": {
+      "title": "Design a set of related blocks for a subsystem",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T11.G6.03",
+        "T11.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T11.G7.03": {
+      "title": "Understand encapsulation and data hiding",
+      "original_deps": [
+        "T09.G3.01",
+        "T11.G3.01",
+        "T11.G6.03",
+        "T11.G6.04"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T11.G3.01"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T11.G3.01": "T11.G5.01"
+      }
+    },
+    "T11.G7.04": {
+      "title": "Trace and debug complex block hierarchies",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T11.G6.03",
+        "T11.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T12.G7.01": {
+      "title": "Refactor long scripts into smaller, named subroutines",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T12.G6.03",
+        "T12.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T12.G7.02": {
+      "title": "Analyze readability vs performance trade-offs",
+      "original_deps": [
+        "T08.G3.01",
+        "T12.G1.01",
+        "T12.G6.03",
+        "T12.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T12.G1.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T12.G1.01": "T12.G5.01"
+      }
+    },
+    "T12.G7.03": {
+      "title": "Create a code review checklist for clarity",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.01",
+        "T12.G6.03",
+        "T12.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T12.G7.04": {
+      "title": "Document design decisions in code",
+      "original_deps": [
+        "T07.G3.01",
+        "T09.G3.01",
+        "T12.G6.03",
+        "T12.G6.04"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T13.G7.01": {
+      "title": "Write comprehensive test cases for an algorithm",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T13.G7.02": {
+      "title": "Debug logic errors in complex programs",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T13.G7.03": {
+      "title": "Refactor for testability and clarity",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T13.G7.04": {
+      "title": "Compare reliability of different program designs",
+      "original_deps": [
+        "T08.G3.01",
+        "T13.G1.01"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T13.G1.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T13.G1.01": "T13.G5.01"
+      }
+    },
+    "T14.G7.01": {
+      "title": "Spatial partitioning (grid)",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T14.G7.02": {
+      "title": "Basic pathfinding",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T14.G7.03": {
+      "title": "Weighted spawn scheduler",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T14.G7.04": {
+      "title": "Clone budget profiler",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T14.G7.05": {
+      "title": "Difficulty curves",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T15.G7.01": {
+      "title": "Scene Graph / Manager",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T07.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T07.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T15.G7.02": {
+      "title": "Lip Sync Logic",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T07.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T07.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T16.G7.01": {
+      "title": "Build a data collection interface (survey or questionnaire)",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T16.G6.03",
+        "T16.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T16.G7.02": {
+      "title": "Implement a search or filter interface",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01",
+        "T16.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T16.G7.03": {
+      "title": "Design an accessible interface for users with different abilities",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01",
+        "T16.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T16.G7.04": {
+      "title": "Create a help or tutorial interface",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01",
+        "T16.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T17.G7.01": {
+      "title": "Launch a configurable projectile",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T17.G7.02": {
+      "title": "Combine multiple forces simultaneously",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T17.G6.07",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T17.G7.03": {
+      "title": "Simulate drag or resistance",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T17.G6.07",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T17.G7.04": {
+      "title": "Build chains or stacks of physics objects",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T17.G6.07",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T17.G7.05": {
+      "title": "Instrument and graph motion data",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01",
+        "T17.G6.07",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T17.G7.06": {
+      "title": "Model a real-world physics scenario",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T17.G7.07": {
+      "title": "Evaluate whether a simulation meets requirements",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05",
+        "T17.G6.07",
+        "T17.G6.08"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T18.G7.01": {
+      "title": "Implement pathfinding or waypoint-based NPC movement",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T14.G3.01",
+        "T18.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T14.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T14.G3.01": "T14.G5.01"
+      }
+    },
+    "T18.G7.02": {
+      "title": "Design collision response for bouncing or sliding",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T14.G3.01",
+        "T18.G6.04",
+        "T18.G6.05"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T14.G3.01"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T14.G3.01": "T14.G5.01"
+      }
+    },
+    "T18.G7.03": {
+      "title": "Use 3D coordinates and distance calculations for game mechanics",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T14.G3.01",
+        "T18.G6.04",
+        "T18.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T14.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T14.G3.01": "T14.G5.01"
+      }
+    },
+    "T18.G7.04": {
+      "title": "Implement a physics-based puzzle mechanic",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T14.G3.01",
+        "T18.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T14.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T14.G3.01": "T14.G5.01"
+      }
+    },
+    "T18.G7.05": {
+      "title": "Script camera transitions for cutscenes",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T14.G3.01",
+        "T18.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T14.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T14.G3.01": "T14.G5.01"
+      }
+    },
+    "T19.G7.01": {
+      "title": "Balance starting conditions and scoring",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T19.G6.05",
+        "T31.G5.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T19.G7.02": {
+      "title": "Implement dynamic team assignment or matchmaking",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T19.G6.05",
+        "T31.G5.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T19.G7.03": {
+      "title": "Decide what data syncs vs stays local",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T19.G6.05",
+        "T31.G5.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T19.G7.04": {
+      "title": "Scale logic to handle variable player counts",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T07.G3.01",
+        "T08.G3.01",
+        "T09.G3.01",
+        "T19.G6.04",
+        "T19.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T07.G3.01",
+        "T08.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T19.G7.05": {
+      "title": "Display connection quality and apply fallbacks",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T19.G6.04",
+        "T19.G6.05",
+        "T31.G5.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01"
+      }
+    },
+    "T20.G7.01": {
+      "title": "Compare efficiency of art algorithms",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T28.G3.04"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T28.G3.04"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T28.G3.04": "T28.G5.04"
+      }
+    },
+    "T20.G7.02": {
+      "title": "Use while/repeat-until loops in art",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T08.G3.01",
+        "T28.G3.04"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T08.G3.01",
+        "T28.G3.04"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T28.G3.04": "T28.G5.04"
+      }
+    },
+    "T20.G7.03": {
+      "title": "Study parameter impact on aesthetics",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T28.G3.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T28.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T28.G3.04": "T28.G5.04"
+      }
+    },
+    "T20.G7.04": {
+      "title": "Analyze real generative artworks",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T28.G3.04"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T28.G3.04"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T28.G3.04": "T28.G5.04"
+      }
+    },
+    "T20.G7.05": {
+      "title": "Implement iterative art rules (L-system lite)",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T28.G3.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T28.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T28.G3.04": "T28.G5.04"
+      }
+    },
+    "T21.G7.01": {
+      "title": "Create a reusable prompt template library",
+      "original_deps": [
+        "T07.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T21.G6.03",
+        "T21.G6.04"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T21.G7.02": {
+      "title": "Use ChatGPT to expand briefs before generating art",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T21.G6.03",
+        "T21.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T21.G7.03": {
+      "title": "Audit AI imagery for representation and bias",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.01",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T21.G6.03",
+        "T21.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.01",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.01": "T07.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T21.G7.04": {
+      "title": "Blend AI frames with manual touch-ups for animation",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T21.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T21.G7.05": {
+      "title": "Pair AI visuals with AI narration for immersive scenes",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T21.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T22.G7.01": {
+      "title": "Author a persona using system messages and few-shot turns",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T22.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T22.G7.02": {
+      "title": "Manage chat history and reset logic",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T22.G6.03",
+        "T22.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T22.G7.03": {
+      "title": "Capture slot values through UI widgets and inject them into prompts",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T22.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T09.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T22.G7.04": {
+      "title": "Add moderation guardrails and escalation paths",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T22.G6.03",
+        "T22.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T22.G7.05": {
+      "title": "User-test the chatbot for inclusivity and clarity",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T22.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T23.G7.01": {
+      "title": "Define a reusable gesture dictionary",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T23.G7.02": {
+      "title": "Require multimodal confirmation (voice + gesture)",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T23.G7.03": {
+      "title": "Score a pose-based challenge with coaching tips",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T23.G7.04": {
+      "title": "Monitor detection accuracy across different users",
+      "original_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T06.G3.08",
+        "T08.G3.05",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.05": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T23.G7.06": {
+      "title": "Implement fairness safeguards for perception systems",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T23.G7.05": {
+      "title": "Build a calibration wizard for sensors",
+      "original_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.08",
+        "T08.G3.01",
+        "T08.G3.05"
+      ],
+      "replacement_map": {
+        "T06.G3.08": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T08.G3.05": "T08.G5.01"
+      }
+    },
+    "T24.G7.01": {
+      "title": "Create reusable XO prompt macros",
+      "original_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T24.G6.05",
+        "T24.G6.06"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T24.G7.02": {
+      "title": "Run an XO-led code review with evidence",
+      "original_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T24.G6.06"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T24.G7.03": {
+      "title": "Combine XO storyboards with AI sprite generation",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T24.G6.05",
+        "T24.G6.06"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T24.G7.04": {
+      "title": "Enforce responsible-use rules for XO assistance",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T24.G6.05",
+        "T24.G6.06"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T24.G7.05": {
+      "title": "Use XO to coach peers with rubric-based feedback",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T24.G6.06"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T25.G7.01": {
+      "title": "Normalize repeating data into separate tables",
+      "original_deps": [
+        "T25.G1.01",
+        "T25.G1.02"
+      ],
+      "low_grade_deps": [
+        "T25.G1.01",
+        "T25.G1.02"
+      ],
+      "replacement_map": {
+        "T25.G1.01": "T25.G5.01",
+        "T25.G1.02": "T25.G5.02"
+      }
+    },
+    "T25.G7.02": {
+      "title": "Identify bias introduced by representation choices",
+      "original_deps": [
+        "T25.G1.01",
+        "T25.G1.02"
+      ],
+      "low_grade_deps": [
+        "T25.G1.01",
+        "T25.G1.02"
+      ],
+      "replacement_map": {
+        "T25.G1.01": "T25.G5.01",
+        "T25.G1.02": "T25.G5.02"
+      }
+    },
+    "T25.G7.03": {
+      "title": "Create JSON-like snippets to store structured state",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T25.G7.04": {
+      "title": "Evaluate storage vs performance tradeoffs",
+      "original_deps": [
+        "T25.G1.01",
+        "T25.G1.02"
+      ],
+      "low_grade_deps": [
+        "T25.G1.01",
+        "T25.G1.02"
+      ],
+      "replacement_map": {
+        "T25.G1.01": "T25.G5.01",
+        "T25.G1.02": "T25.G5.02"
+      }
+    },
+    "T26.G7.01": {
+      "title": "Build reusable data collection modules",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T26.G7.02": {
+      "title": "Monitor data quality in real time",
+      "original_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T26.G7.03": {
+      "title": "Document provenance for external datasets",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T26.G7.04": {
+      "title": "Evaluate bias risks introduced during collection",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T27.G7.01": {
+      "title": "Build multi-chart dashboards with linked filters",
+      "original_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T26.G3.04": "T26.G5.04"
+      }
+    },
+    "T27.G7.02": {
+      "title": "Conduct residual/error analysis",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T26.G3.04": "T26.G5.04"
+      }
+    },
+    "T27.G7.03": {
+      "title": "Evaluate fairness metrics",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T26.G3.04": "T26.G5.04"
+      }
+    },
+    "T27.G7.04": {
+      "title": "Craft executive summaries for stakeholders",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T26.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T26.G3.04": "T26.G5.04"
+      }
+    },
+    "T28.G7.01": {
+      "title": "Build agent-based simulations",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T28.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T28.G7.02": {
+      "title": "Evaluate AI fairness using synthetic populations",
+      "original_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T09.G3.04",
+        "T28.G6.04",
+        "T28.G6.05"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T08.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T28.G7.03": {
+      "title": "Perform randomization tests (permutation tests)",
+      "original_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T28.G6.05"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T28.G7.04": {
+      "title": "Communicate simulation assumptions & limits",
+      "original_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T28.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T28.G7.05": {
+      "title": "Trace how a simple agent learns from rewards",
+      "original_deps": [
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T28.G6.04",
+        "T28.G6.05"
+      ],
+      "low_grade_deps": [
+        "T07.G3.05",
+        "T09.G3.01",
+        "T09.G3.04"
+      ],
+      "replacement_map": {
+        "T07.G3.05": "T07.G6.05",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04"
+      }
+    },
+    "T29.G7.01": {
+      "title": "Build keyword retrieval helpers (mini-RAG)",
+      "original_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T29.G6.03",
+        "T29.G6.04"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T29.G7.02": {
+      "title": "Engineer text features for classifiers",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T29.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T29.G7.03": {
+      "title": "Audit text datasets for bias and coverage",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T29.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T29.G7.04": {
+      "title": "Compare human vs XO summaries critically",
+      "original_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03",
+        "T29.G6.03",
+        "T29.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T09.G3.04",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T09.G3.04": "T09.G5.04",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T30.G7.01": {
+      "title": "Analyze energy consumption & thermal limits",
+      "original_deps": [
+        "T30.G1.01",
+        "T30.G1.02"
+      ],
+      "low_grade_deps": [
+        "T30.G1.01",
+        "T30.G1.02"
+      ],
+      "replacement_map": {
+        "T30.G1.01": "T30.G5.01",
+        "T30.G1.02": "T30.G5.02"
+      }
+    },
+    "T30.G7.02": {
+      "title": "Design redundancy/fail-safes for sensors",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T30.G7.03": {
+      "title": "Design redundancy/fail-safes for AI sensors",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    },
+    "T30.G7.04": {
+      "title": "Compare CPUs, GPUs, and TPUs for AI workloads",
+      "original_deps": [
+        "T30.G1.01",
+        "T30.G1.02"
+      ],
+      "low_grade_deps": [
+        "T30.G1.01",
+        "T30.G1.02"
+      ],
+      "replacement_map": {
+        "T30.G1.01": "T30.G5.01",
+        "T30.G1.02": "T30.G5.02"
+      }
+    },
+    "T30.G7.05": {
+      "title": "Debate privacy implications of AI-powered sensors",
+      "original_deps": [
+        "T30.G1.01",
+        "T30.G1.02"
+      ],
+      "low_grade_deps": [
+        "T30.G1.01",
+        "T30.G1.02"
+      ],
+      "replacement_map": {
+        "T30.G1.01": "T30.G5.01",
+        "T30.G1.02": "T30.G5.02"
+      }
+    },
+    "T31.G7.01": {
+      "title": "Model a distributed multiplayer server",
+      "original_deps": [
+        "T02.G3.01",
+        "T31.G5.01",
+        "T31.G6.04",
+        "T31.G6.05"
+      ],
+      "low_grade_deps": [
+        "T02.G3.01"
+      ],
+      "replacement_map": {
+        "T02.G3.01": "T02.G5.01"
+      }
+    },
+    "T31.G7.04": {
+      "title": "Compare centralized servers with peer-to-peer networks",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T31.G6.04",
+        "T31.G6.05"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T31.G7.05": {
+      "title": "Analyze societal impacts of networked systems",
+      "original_deps": [
+        "T04.G2.01",
+        "T31.G5.01",
+        "T31.G6.04",
+        "T31.G6.05"
+      ],
+      "low_grade_deps": [
+        "T04.G2.01"
+      ],
+      "replacement_map": {
+        "T04.G2.01": "T04.G5.01"
+      }
+    },
+    "T32.G7.01": {
+      "title": "Analyze encryption basics (Caesar cipher)",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T32.G7.02": {
+      "title": "Simulate password cracking attempts",
+      "original_deps": [
+        "T32.G1.01",
+        "T32.G1.02"
+      ],
+      "low_grade_deps": [
+        "T32.G1.01",
+        "T32.G1.02"
+      ],
+      "replacement_map": {
+        "T32.G1.01": "T32.G5.01",
+        "T32.G1.02": "T32.G5.02"
+      }
+    },
+    "T32.G7.03": {
+      "title": "Implement secure logging/monitoring inside apps",
+      "original_deps": [
+        "T07.G3.01",
+        "T32.G1.01"
+      ],
+      "low_grade_deps": [
+        "T07.G3.01",
+        "T32.G1.01"
+      ],
+      "replacement_map": {
+        "T07.G3.01": "T07.G5.01",
+        "T32.G1.01": "T32.G5.01"
+      }
+    },
+    "T32.G7.04": {
+      "title": "Analyze AI-powered surveillance ethics and societal impacts",
+      "original_deps": [
+        "T32.G1.01",
+        "T32.G1.02"
+      ],
+      "low_grade_deps": [
+        "T32.G1.01",
+        "T32.G1.02"
+      ],
+      "replacement_map": {
+        "T32.G1.01": "T32.G5.01",
+        "T32.G1.02": "T32.G5.02"
+      }
+    },
+    "T33.G7.01": {
+      "title": "Securely store and reference service credentials (conceptual)",
+      "original_deps": [
+        "T08.G3.01",
+        "T10.G3.03",
+        "T31.G5.01",
+        "T33.G6.03",
+        "T33.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T33.G7.02": {
+      "title": "Build wrappers that combine multiple services",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T10.G3.03",
+        "T31.G5.01",
+        "T33.G6.04"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T33.G7.03": {
+      "title": "Compare service options and pick the right tool",
+      "original_deps": [
+        "T08.G3.01",
+        "T10.G3.03",
+        "T31.G5.01",
+        "T33.G6.03",
+        "T33.G6.04"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T33.G7.04": {
+      "title": "Implement caching/memoization for repeated requests",
+      "original_deps": [
+        "T09.G3.01",
+        "T10.G3.03",
+        "T31.G5.01",
+        "T33.G6.03",
+        "T33.G6.04"
+      ],
+      "low_grade_deps": [
+        "T09.G3.01",
+        "T10.G3.03"
+      ],
+      "replacement_map": {
+        "T09.G3.01": "T09.G5.01",
+        "T10.G3.03": "T10.G5.03"
+      }
+    },
+    "T34.G7.01": {
+      "title": "Research AI history milestones",
+      "original_deps": [
+        "T34.G1.01",
+        "T34.G1.02"
+      ],
+      "low_grade_deps": [
+        "T34.G1.01",
+        "T34.G1.02"
+      ],
+      "replacement_map": {
+        "T34.G1.01": "T34.G5.01",
+        "T34.G1.02": "T34.G5.02"
+      }
+    },
+    "T34.G7.02": {
+      "title": "Evaluate technology policies over time",
+      "original_deps": [
+        "T34.G1.01",
+        "T34.G1.02"
+      ],
+      "low_grade_deps": [
+        "T34.G1.01",
+        "T34.G1.02"
+      ],
+      "replacement_map": {
+        "T34.G1.01": "T34.G5.01",
+        "T34.G1.02": "T34.G5.02"
+      }
+    },
+    "T34.G7.03": {
+      "title": "Create museum-style exhibits for innovators",
+      "original_deps": [
+        "T08.G3.01",
+        "T34.G1.01"
+      ],
+      "low_grade_deps": [
+        "T08.G3.01",
+        "T34.G1.01"
+      ],
+      "replacement_map": {
+        "T08.G3.01": "T08.G5.01",
+        "T34.G1.01": "T34.G5.01"
+      }
+    },
+    "T35.G7.01": {
+      "title": "Conduct comprehensive bias audits across T21-T24 AI features",
+      "original_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "low_grade_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "replacement_map": {
+        "T35.G1.01": "T35.G5.01",
+        "T35.G1.02": "T35.G5.02"
+      }
+    },
+    "T35.G7.02": {
+      "title": "Explore unintended consequences of new tech",
+      "original_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "low_grade_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "replacement_map": {
+        "T35.G1.01": "T35.G5.01",
+        "T35.G1.02": "T35.G5.02"
+      }
+    },
+    "T35.G7.03": {
+      "title": "Evaluate transparency vs security tensions",
+      "original_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "low_grade_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "replacement_map": {
+        "T35.G1.01": "T35.G5.01",
+        "T35.G1.02": "T35.G5.02"
+      }
+    },
+    "T35.G7.04": {
+      "title": "Analyze societal impacts of AI perception technologies (Pairing with T23)",
+      "original_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "low_grade_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "replacement_map": {
+        "T35.G1.01": "T35.G5.01",
+        "T35.G1.02": "T35.G5.02"
+      }
+    },
+    "T35.G7.05": {
+      "title": "Debate ethical implications of AI media generation (Pairing with T21)",
+      "original_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "low_grade_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "replacement_map": {
+        "T35.G1.01": "T35.G5.01",
+        "T35.G1.02": "T35.G5.02"
+      }
+    },
+    "T35.G7.06": {
+      "title": "Facilitate community discussions on AI-powered tech policy",
+      "original_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "low_grade_deps": [
+        "T35.G1.01",
+        "T35.G1.02"
+      ],
+      "replacement_map": {
+        "T35.G1.01": "T35.G5.01",
+        "T35.G1.02": "T35.G5.02"
+      }
+    },
+    "T36.G7.01": {
+      "title": "Interview diverse technologists about AI ethics and equity",
+      "original_deps": [
+        "T36.G1.01",
+        "T36.G1.02"
+      ],
+      "low_grade_deps": [
+        "T36.G1.01",
+        "T36.G1.02"
+      ],
+      "replacement_map": {
+        "T36.G1.01": "T36.G5.01",
+        "T36.G1.02": "T36.G5.02"
+      }
+    },
+    "T36.G7.02": {
+      "title": "Design cross-functional team diagrams",
+      "original_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "low_grade_deps": [
+        "T06.G3.01",
+        "T09.G3.01"
+      ],
+      "replacement_map": {
+        "T06.G3.01": "T06.G5.01",
+        "T09.G3.01": "T09.G5.01"
+      }
+    },
+    "T36.G7.03": {
+      "title": "Facilitate inclusive collaboration",
+      "original_deps": [
+        "T36.G1.01",
+        "T36.G1.02"
+      ],
+      "low_grade_deps": [
+        "T36.G1.01",
+        "T36.G1.02"
+      ],
+      "replacement_map": {
+        "T36.G1.01": "T36.G5.01",
+        "T36.G1.02": "T36.G5.02"
+      }
+    },
+    "T36.G7.04": {
+      "title": "Mentor younger coders",
+      "original_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "low_grade_deps": [
+        "T01.G3.01",
+        "T01.G3.02"
+      ],
+      "replacement_map": {
+        "T01.G3.01": "T01.G5.01",
+        "T01.G3.02": "T01.G5.02"
+      }
+    }
+  },
+  "issues": [
+    {
+      "skill_id": "T01.G7.01",
+      "skill_title": "Identify the pattern in a given program",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.01",
+      "skill_title": "Identify the pattern in a given program",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.02",
+      "skill_title": "Choose a pattern to solve a problem",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.02",
+      "skill_title": "Choose a pattern to solve a problem",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T01.G7.03",
+      "skill_title": "Write pseudocode for a search or accumulation algorithm",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.03",
+      "skill_title": "Write pseudocode for a search or accumulation algorithm",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.04",
+      "skill_title": "Compare efficiency of two algorithms qualitatively",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.04",
+      "skill_title": "Compare efficiency of two algorithms qualitatively",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T01.G7.05",
+      "skill_title": "Design a set of edge\u2011case tests for an algorithm",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.05",
+      "skill_title": "Design a set of edge\u2011case tests for an algorithm",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T01.G7.06",
+      "skill_title": "Run an algorithm on edge cases and find failures",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.06",
+      "skill_title": "Run an algorithm on edge cases and find failures",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T01.G7.07",
+      "skill_title": "Explain why an algorithm fails on a specific edge case",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.07",
+      "skill_title": "Explain why an algorithm fails on a specific edge case",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T01.G7.08",
+      "skill_title": "Rewrite a naive algorithm using a better pattern",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T01.G7.08",
+      "skill_title": "Rewrite a naive algorithm using a better pattern",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.01",
+      "skill_title": "Trace a step\u2011by\u2011step simulation algorithm",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.01",
+      "skill_title": "Trace a step\u2011by\u2011step simulation algorithm",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.02",
+      "skill_title": "Extend a simulation trace and predict future behavior",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.02",
+      "skill_title": "Extend a simulation trace and predict future behavior",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T02.G7.03",
+      "skill_title": "Create a flowchart for linear search or \u201cfind max\u201d",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.03",
+      "skill_title": "Create a flowchart for linear search or \u201cfind max\u201d",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T02.G7.04",
+      "skill_title": "Read a flowchart for a simple sort and trace one pass",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.04",
+      "skill_title": "Read a flowchart for a simple sort and trace one pass",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T02.G7.05",
+      "skill_title": "Count steps for two algorithms on small inputs",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.05",
+      "skill_title": "Count steps for two algorithms on small inputs",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T02.G7.06",
+      "skill_title": "Trace an algorithm to find a bug or edge case",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T02.G7.06",
+      "skill_title": "Trace an algorithm to find a bug or edge case",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T03.G7.01",
+      "skill_title": "Draw an architecture diagram for a multi\u2011component project",
+      "low_grade_dep": "T02.G3.01",
+      "dep_grade": 3,
+      "replacement": "T02.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.01",
+      "skill_title": "Draw an architecture diagram for a multi\u2011component project",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.02",
+      "skill_title": "Map functional modules to architecture components",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.02",
+      "skill_title": "Map functional modules to architecture components",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.03",
+      "skill_title": "Compare two decompositions of the same project",
+      "low_grade_dep": "T03.G1.01",
+      "dep_grade": 1,
+      "replacement": "T03.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.03",
+      "skill_title": "Compare two decompositions of the same project",
+      "low_grade_dep": "T03.G1.02",
+      "dep_grade": 1,
+      "replacement": "T03.G5.02"
+    },
+    {
+      "skill_id": "T03.G7.04",
+      "skill_title": "Propose an alternative decomposition to fix a planning problem",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.04",
+      "skill_title": "Propose an alternative decomposition to fix a planning problem",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.05",
+      "skill_title": "Design a test plan based on a project breakdown",
+      "low_grade_dep": "T03.G1.01",
+      "dep_grade": 1,
+      "replacement": "T03.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.05",
+      "skill_title": "Design a test plan based on a project breakdown",
+      "low_grade_dep": "T03.G1.02",
+      "dep_grade": 1,
+      "replacement": "T03.G5.02"
+    },
+    {
+      "skill_id": "T03.G7.06",
+      "skill_title": "Update a project plan after test results",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T03.G7.06",
+      "skill_title": "Update a project plan after test results",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T04.G7.01",
+      "skill_title": "Identify the main loop patterns in a simulation or game",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.01",
+      "skill_title": "Identify the main loop patterns in a simulation or game",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.02",
+      "skill_title": "Identify data structure patterns (lists, grids) in use",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.02",
+      "skill_title": "Identify data structure patterns (lists, grids) in use",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.03",
+      "skill_title": "Design a solution by combining two known patterns",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.03",
+      "skill_title": "Design a solution by combining two known patterns",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.04",
+      "skill_title": "Trace a composite pattern and explain each part\u2019s role",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.04",
+      "skill_title": "Trace a composite pattern and explain each part\u2019s role",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.05",
+      "skill_title": "Simplify code by merging repeated patterns",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.05",
+      "skill_title": "Simplify code by merging repeated patterns",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.06",
+      "skill_title": "Compare pattern\u2011based implementations for maintainability",
+      "low_grade_dep": "T04.G1.01",
+      "dep_grade": 1,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T04.G7.06",
+      "skill_title": "Compare pattern\u2011based implementations for maintainability",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.01",
+      "skill_title": "Perform a checklist\u2011based accessibility review of a project",
+      "low_grade_dep": "T05.G1.01",
+      "dep_grade": 1,
+      "replacement": "T05.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.01",
+      "skill_title": "Perform a checklist\u2011based accessibility review of a project",
+      "low_grade_dep": "T05.G1.02",
+      "dep_grade": 1,
+      "replacement": "T05.G5.02"
+    },
+    {
+      "skill_id": "T05.G7.02",
+      "skill_title": "Prioritize which accessibility issues to fix first",
+      "low_grade_dep": "T05.G1.01",
+      "dep_grade": 1,
+      "replacement": "T05.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.02",
+      "skill_title": "Prioritize which accessibility issues to fix first",
+      "low_grade_dep": "T05.G1.02",
+      "dep_grade": 1,
+      "replacement": "T05.G5.02"
+    },
+    {
+      "skill_id": "T05.G7.03",
+      "skill_title": "Identify potential unintended harms from a design",
+      "low_grade_dep": "T05.G1.01",
+      "dep_grade": 1,
+      "replacement": "T05.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.03",
+      "skill_title": "Identify potential unintended harms from a design",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.04",
+      "skill_title": "Propose one concrete mitigation per harm",
+      "low_grade_dep": "T05.G1.01",
+      "dep_grade": 1,
+      "replacement": "T05.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.04",
+      "skill_title": "Propose one concrete mitigation per harm",
+      "low_grade_dep": "T05.G1.02",
+      "dep_grade": 1,
+      "replacement": "T05.G5.02"
+    },
+    {
+      "skill_id": "T05.G7.05",
+      "skill_title": "Interpret usage or feedback data to find UX problems",
+      "low_grade_dep": "T05.G1.01",
+      "dep_grade": 1,
+      "replacement": "T05.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.05",
+      "skill_title": "Interpret usage or feedback data to find UX problems",
+      "low_grade_dep": "T05.G1.02",
+      "dep_grade": 1,
+      "replacement": "T05.G5.02"
+    },
+    {
+      "skill_id": "T05.G7.06",
+      "skill_title": "Choose design changes based on data patterns",
+      "low_grade_dep": "T05.G1.01",
+      "dep_grade": 1,
+      "replacement": "T05.G5.01"
+    },
+    {
+      "skill_id": "T05.G7.06",
+      "skill_title": "Choose design changes based on data patterns",
+      "low_grade_dep": "T05.G1.02",
+      "dep_grade": 1,
+      "replacement": "T05.G5.02"
+    },
+    {
+      "skill_id": "T06.G7.01",
+      "skill_title": "Model program states and transitions using events",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T06.G7.01",
+      "skill_title": "Model program states and transitions using events",
+      "low_grade_dep": "T06.G3.02",
+      "dep_grade": 3,
+      "replacement": "T06.G5.02"
+    },
+    {
+      "skill_id": "T06.G7.02",
+      "skill_title": "Trace state changes in event\u2011driven code",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T06.G7.02",
+      "skill_title": "Trace state changes in event\u2011driven code",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T06.G7.03",
+      "skill_title": "Design a broadcast protocol to decouple components",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T06.G7.03",
+      "skill_title": "Design a broadcast protocol to decouple components",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T06.G7.04",
+      "skill_title": "Compare tightly coupled vs broadcast\u2011based designs",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T06.G7.04",
+      "skill_title": "Compare tightly coupled vs broadcast\u2011based designs",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.01",
+      "skill_title": "Use loops to simulate motion over time",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.01",
+      "skill_title": "Use loops to simulate motion over time",
+      "low_grade_dep": "T07.G3.02",
+      "dep_grade": 3,
+      "replacement": "T07.G5.02"
+    },
+    {
+      "skill_id": "T07.G7.02",
+      "skill_title": "Nested loops for 2D grids and tile maps",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.02",
+      "skill_title": "Nested loops for 2D grids and tile maps",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.03",
+      "skill_title": "Compare loop algorithms by counting steps",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.03",
+      "skill_title": "Compare loop algorithms by counting steps",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.04",
+      "skill_title": "Loop patterns for counting and accumulation",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.04",
+      "skill_title": "Loop patterns for counting and accumulation",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T07.G7.04",
+      "skill_title": "Loop patterns for counting and accumulation",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T08.G7.01",
+      "skill_title": "Reason about fairness using conditions",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T08.G7.01",
+      "skill_title": "Reason about fairness using conditions",
+      "low_grade_dep": "T08.G3.02",
+      "dep_grade": 3,
+      "replacement": "T08.G5.02"
+    },
+    {
+      "skill_id": "T08.G7.02",
+      "skill_title": "Design tests for condition-heavy code",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T08.G7.02",
+      "skill_title": "Design tests for condition-heavy code",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T09.G7.01",
+      "skill_title": "Use variables to store and update state in simulations",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T09.G7.01",
+      "skill_title": "Use variables to store and update state in simulations",
+      "low_grade_dep": "T09.G3.02",
+      "dep_grade": 3,
+      "replacement": "T09.G5.02"
+    },
+    {
+      "skill_id": "T09.G7.02",
+      "skill_title": "Use aggregate expressions (sum, average, min, max)",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T09.G7.02",
+      "skill_title": "Use aggregate expressions (sum, average, min, max)",
+      "low_grade_dep": "T09.G3.02",
+      "dep_grade": 3,
+      "replacement": "T09.G5.02"
+    },
+    {
+      "skill_id": "T09.G7.03",
+      "skill_title": "Use variables in conditional logic with compound conditions",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T09.G7.03",
+      "skill_title": "Use variables in conditional logic with compound conditions",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T09.G7.04",
+      "skill_title": "Analyze how variable updates affect program behavior",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T09.G7.04",
+      "skill_title": "Analyze how variable updates affect program behavior",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.01",
+      "skill_title": "Design and populate a table for a real-world inventory or database",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.01",
+      "skill_title": "Design and populate a table for a real-world inventory or database",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.02",
+      "skill_title": "Analyze a dataset to find patterns or outliers",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.02",
+      "skill_title": "Analyze a dataset to find patterns or outliers",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.03",
+      "skill_title": "Transform or clean data in a table using loops and conditions",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.03",
+      "skill_title": "Transform or clean data in a table using loops and conditions",
+      "low_grade_dep": "T10.G3.01",
+      "dep_grade": 3,
+      "replacement": "T10.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.04",
+      "skill_title": "Use nested loops to analyze relationships between two datasets",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T10.G7.04",
+      "skill_title": "Use nested loops to analyze relationships between two datasets",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.01",
+      "skill_title": "Use custom blocks to implement algorithms",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.01",
+      "skill_title": "Use custom blocks to implement algorithms",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.02",
+      "skill_title": "Design a set of related blocks for a subsystem",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.02",
+      "skill_title": "Design a set of related blocks for a subsystem",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.03",
+      "skill_title": "Understand encapsulation and data hiding",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.03",
+      "skill_title": "Understand encapsulation and data hiding",
+      "low_grade_dep": "T11.G3.01",
+      "dep_grade": 3,
+      "replacement": "T11.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.04",
+      "skill_title": "Trace and debug complex block hierarchies",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T11.G7.04",
+      "skill_title": "Trace and debug complex block hierarchies",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.01",
+      "skill_title": "Refactor long scripts into smaller, named subroutines",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.01",
+      "skill_title": "Refactor long scripts into smaller, named subroutines",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.02",
+      "skill_title": "Analyze readability vs performance trade-offs",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.02",
+      "skill_title": "Analyze readability vs performance trade-offs",
+      "low_grade_dep": "T12.G1.01",
+      "dep_grade": 1,
+      "replacement": "T12.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.03",
+      "skill_title": "Create a code review checklist for clarity",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.03",
+      "skill_title": "Create a code review checklist for clarity",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.04",
+      "skill_title": "Document design decisions in code",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T12.G7.04",
+      "skill_title": "Document design decisions in code",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.01",
+      "skill_title": "Write comprehensive test cases for an algorithm",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.01",
+      "skill_title": "Write comprehensive test cases for an algorithm",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.02",
+      "skill_title": "Debug logic errors in complex programs",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.02",
+      "skill_title": "Debug logic errors in complex programs",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.02",
+      "skill_title": "Debug logic errors in complex programs",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.03",
+      "skill_title": "Refactor for testability and clarity",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.03",
+      "skill_title": "Refactor for testability and clarity",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.03",
+      "skill_title": "Refactor for testability and clarity",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.04",
+      "skill_title": "Compare reliability of different program designs",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T13.G7.04",
+      "skill_title": "Compare reliability of different program designs",
+      "low_grade_dep": "T13.G1.01",
+      "dep_grade": 1,
+      "replacement": "T13.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.01",
+      "skill_title": "Spatial partitioning (grid)",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T14.G7.01",
+      "skill_title": "Spatial partitioning (grid)",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.01",
+      "skill_title": "Spatial partitioning (grid)",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.02",
+      "skill_title": "Basic pathfinding",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.02",
+      "skill_title": "Basic pathfinding",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T14.G7.02",
+      "skill_title": "Basic pathfinding",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.02",
+      "skill_title": "Basic pathfinding",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.03",
+      "skill_title": "Weighted spawn scheduler",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T14.G7.03",
+      "skill_title": "Weighted spawn scheduler",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.03",
+      "skill_title": "Weighted spawn scheduler",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.04",
+      "skill_title": "Clone budget profiler",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T14.G7.04",
+      "skill_title": "Clone budget profiler",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.04",
+      "skill_title": "Clone budget profiler",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.04",
+      "skill_title": "Clone budget profiler",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.05",
+      "skill_title": "Difficulty curves",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T14.G7.05",
+      "skill_title": "Difficulty curves",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.05",
+      "skill_title": "Difficulty curves",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T14.G7.05",
+      "skill_title": "Difficulty curves",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T15.G7.01",
+      "skill_title": "Scene Graph / Manager",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T15.G7.01",
+      "skill_title": "Scene Graph / Manager",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T15.G7.01",
+      "skill_title": "Scene Graph / Manager",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T15.G7.01",
+      "skill_title": "Scene Graph / Manager",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T15.G7.02",
+      "skill_title": "Lip Sync Logic",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T15.G7.02",
+      "skill_title": "Lip Sync Logic",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T15.G7.02",
+      "skill_title": "Lip Sync Logic",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T15.G7.02",
+      "skill_title": "Lip Sync Logic",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.01",
+      "skill_title": "Build a data collection interface (survey or questionnaire)",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.01",
+      "skill_title": "Build a data collection interface (survey or questionnaire)",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.01",
+      "skill_title": "Build a data collection interface (survey or questionnaire)",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.02",
+      "skill_title": "Implement a search or filter interface",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.02",
+      "skill_title": "Implement a search or filter interface",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.02",
+      "skill_title": "Implement a search or filter interface",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.02",
+      "skill_title": "Implement a search or filter interface",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.03",
+      "skill_title": "Design an accessible interface for users with different abilities",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.03",
+      "skill_title": "Design an accessible interface for users with different abilities",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.03",
+      "skill_title": "Design an accessible interface for users with different abilities",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.03",
+      "skill_title": "Design an accessible interface for users with different abilities",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.04",
+      "skill_title": "Create a help or tutorial interface",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.04",
+      "skill_title": "Create a help or tutorial interface",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.04",
+      "skill_title": "Create a help or tutorial interface",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T16.G7.04",
+      "skill_title": "Create a help or tutorial interface",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.01",
+      "skill_title": "Launch a configurable projectile",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.01",
+      "skill_title": "Launch a configurable projectile",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.01",
+      "skill_title": "Launch a configurable projectile",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.01",
+      "skill_title": "Launch a configurable projectile",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.02",
+      "skill_title": "Combine multiple forces simultaneously",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.02",
+      "skill_title": "Combine multiple forces simultaneously",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.02",
+      "skill_title": "Combine multiple forces simultaneously",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.03",
+      "skill_title": "Simulate drag or resistance",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.03",
+      "skill_title": "Simulate drag or resistance",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.03",
+      "skill_title": "Simulate drag or resistance",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.04",
+      "skill_title": "Build chains or stacks of physics objects",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.04",
+      "skill_title": "Build chains or stacks of physics objects",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.04",
+      "skill_title": "Build chains or stacks of physics objects",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.05",
+      "skill_title": "Instrument and graph motion data",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.05",
+      "skill_title": "Instrument and graph motion data",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.05",
+      "skill_title": "Instrument and graph motion data",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.06",
+      "skill_title": "Model a real-world physics scenario",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.06",
+      "skill_title": "Model a real-world physics scenario",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.06",
+      "skill_title": "Model a real-world physics scenario",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.06",
+      "skill_title": "Model a real-world physics scenario",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.07",
+      "skill_title": "Evaluate whether a simulation meets requirements",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T17.G7.07",
+      "skill_title": "Evaluate whether a simulation meets requirements",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T17.G7.07",
+      "skill_title": "Evaluate whether a simulation meets requirements",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.01",
+      "skill_title": "Implement pathfinding or waypoint-based NPC movement",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.01",
+      "skill_title": "Implement pathfinding or waypoint-based NPC movement",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T18.G7.01",
+      "skill_title": "Implement pathfinding or waypoint-based NPC movement",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.01",
+      "skill_title": "Implement pathfinding or waypoint-based NPC movement",
+      "low_grade_dep": "T14.G3.01",
+      "dep_grade": 3,
+      "replacement": "T14.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.02",
+      "skill_title": "Design collision response for bouncing or sliding",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T18.G7.02",
+      "skill_title": "Design collision response for bouncing or sliding",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.02",
+      "skill_title": "Design collision response for bouncing or sliding",
+      "low_grade_dep": "T14.G3.01",
+      "dep_grade": 3,
+      "replacement": "T14.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.03",
+      "skill_title": "Use 3D coordinates and distance calculations for game mechanics",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.03",
+      "skill_title": "Use 3D coordinates and distance calculations for game mechanics",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T18.G7.03",
+      "skill_title": "Use 3D coordinates and distance calculations for game mechanics",
+      "low_grade_dep": "T14.G3.01",
+      "dep_grade": 3,
+      "replacement": "T14.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.04",
+      "skill_title": "Implement a physics-based puzzle mechanic",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.04",
+      "skill_title": "Implement a physics-based puzzle mechanic",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T18.G7.04",
+      "skill_title": "Implement a physics-based puzzle mechanic",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.04",
+      "skill_title": "Implement a physics-based puzzle mechanic",
+      "low_grade_dep": "T14.G3.01",
+      "dep_grade": 3,
+      "replacement": "T14.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.05",
+      "skill_title": "Script camera transitions for cutscenes",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.05",
+      "skill_title": "Script camera transitions for cutscenes",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T18.G7.05",
+      "skill_title": "Script camera transitions for cutscenes",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T18.G7.05",
+      "skill_title": "Script camera transitions for cutscenes",
+      "low_grade_dep": "T14.G3.01",
+      "dep_grade": 3,
+      "replacement": "T14.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.01",
+      "skill_title": "Balance starting conditions and scoring",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.01",
+      "skill_title": "Balance starting conditions and scoring",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.01",
+      "skill_title": "Balance starting conditions and scoring",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.02",
+      "skill_title": "Implement dynamic team assignment or matchmaking",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.02",
+      "skill_title": "Implement dynamic team assignment or matchmaking",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.02",
+      "skill_title": "Implement dynamic team assignment or matchmaking",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.03",
+      "skill_title": "Decide what data syncs vs stays local",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.03",
+      "skill_title": "Decide what data syncs vs stays local",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.03",
+      "skill_title": "Decide what data syncs vs stays local",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.04",
+      "skill_title": "Scale logic to handle variable player counts",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.04",
+      "skill_title": "Scale logic to handle variable player counts",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.04",
+      "skill_title": "Scale logic to handle variable player counts",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.04",
+      "skill_title": "Scale logic to handle variable player counts",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.04",
+      "skill_title": "Scale logic to handle variable player counts",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.05",
+      "skill_title": "Display connection quality and apply fallbacks",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T19.G7.05",
+      "skill_title": "Display connection quality and apply fallbacks",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.01",
+      "skill_title": "Compare efficiency of art algorithms",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T20.G7.01",
+      "skill_title": "Compare efficiency of art algorithms",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.01",
+      "skill_title": "Compare efficiency of art algorithms",
+      "low_grade_dep": "T28.G3.04",
+      "dep_grade": 3,
+      "replacement": "T28.G5.04"
+    },
+    {
+      "skill_id": "T20.G7.02",
+      "skill_title": "Use while/repeat-until loops in art",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.02",
+      "skill_title": "Use while/repeat-until loops in art",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T20.G7.02",
+      "skill_title": "Use while/repeat-until loops in art",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.02",
+      "skill_title": "Use while/repeat-until loops in art",
+      "low_grade_dep": "T28.G3.04",
+      "dep_grade": 3,
+      "replacement": "T28.G5.04"
+    },
+    {
+      "skill_id": "T20.G7.03",
+      "skill_title": "Study parameter impact on aesthetics",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.03",
+      "skill_title": "Study parameter impact on aesthetics",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T20.G7.03",
+      "skill_title": "Study parameter impact on aesthetics",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.03",
+      "skill_title": "Study parameter impact on aesthetics",
+      "low_grade_dep": "T28.G3.04",
+      "dep_grade": 3,
+      "replacement": "T28.G5.04"
+    },
+    {
+      "skill_id": "T20.G7.04",
+      "skill_title": "Analyze real generative artworks",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.04",
+      "skill_title": "Analyze real generative artworks",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T20.G7.04",
+      "skill_title": "Analyze real generative artworks",
+      "low_grade_dep": "T28.G3.04",
+      "dep_grade": 3,
+      "replacement": "T28.G5.04"
+    },
+    {
+      "skill_id": "T20.G7.05",
+      "skill_title": "Implement iterative art rules (L-system lite)",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.05",
+      "skill_title": "Implement iterative art rules (L-system lite)",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T20.G7.05",
+      "skill_title": "Implement iterative art rules (L-system lite)",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T20.G7.05",
+      "skill_title": "Implement iterative art rules (L-system lite)",
+      "low_grade_dep": "T28.G3.04",
+      "dep_grade": 3,
+      "replacement": "T28.G5.04"
+    },
+    {
+      "skill_id": "T21.G7.01",
+      "skill_title": "Create a reusable prompt template library",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.01",
+      "skill_title": "Create a reusable prompt template library",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T21.G7.01",
+      "skill_title": "Create a reusable prompt template library",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T21.G7.02",
+      "skill_title": "Use ChatGPT to expand briefs before generating art",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.02",
+      "skill_title": "Use ChatGPT to expand briefs before generating art",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T21.G7.02",
+      "skill_title": "Use ChatGPT to expand briefs before generating art",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T21.G7.03",
+      "skill_title": "Audit AI imagery for representation and bias",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.03",
+      "skill_title": "Audit AI imagery for representation and bias",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.03",
+      "skill_title": "Audit AI imagery for representation and bias",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.03",
+      "skill_title": "Audit AI imagery for representation and bias",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T21.G7.03",
+      "skill_title": "Audit AI imagery for representation and bias",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T21.G7.04",
+      "skill_title": "Blend AI frames with manual touch-ups for animation",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.04",
+      "skill_title": "Blend AI frames with manual touch-ups for animation",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.04",
+      "skill_title": "Blend AI frames with manual touch-ups for animation",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T21.G7.04",
+      "skill_title": "Blend AI frames with manual touch-ups for animation",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T21.G7.05",
+      "skill_title": "Pair AI visuals with AI narration for immersive scenes",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.05",
+      "skill_title": "Pair AI visuals with AI narration for immersive scenes",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T21.G7.05",
+      "skill_title": "Pair AI visuals with AI narration for immersive scenes",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T21.G7.05",
+      "skill_title": "Pair AI visuals with AI narration for immersive scenes",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T22.G7.01",
+      "skill_title": "Author a persona using system messages and few-shot turns",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.01",
+      "skill_title": "Author a persona using system messages and few-shot turns",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.01",
+      "skill_title": "Author a persona using system messages and few-shot turns",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.01",
+      "skill_title": "Author a persona using system messages and few-shot turns",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T22.G7.02",
+      "skill_title": "Manage chat history and reset logic",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.02",
+      "skill_title": "Manage chat history and reset logic",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.02",
+      "skill_title": "Manage chat history and reset logic",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T22.G7.03",
+      "skill_title": "Capture slot values through UI widgets and inject them into prompts",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.03",
+      "skill_title": "Capture slot values through UI widgets and inject them into prompts",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.03",
+      "skill_title": "Capture slot values through UI widgets and inject them into prompts",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.03",
+      "skill_title": "Capture slot values through UI widgets and inject them into prompts",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T22.G7.04",
+      "skill_title": "Add moderation guardrails and escalation paths",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.04",
+      "skill_title": "Add moderation guardrails and escalation paths",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.04",
+      "skill_title": "Add moderation guardrails and escalation paths",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T22.G7.05",
+      "skill_title": "User-test the chatbot for inclusivity and clarity",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.05",
+      "skill_title": "User-test the chatbot for inclusivity and clarity",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.05",
+      "skill_title": "User-test the chatbot for inclusivity and clarity",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T22.G7.05",
+      "skill_title": "User-test the chatbot for inclusivity and clarity",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T23.G7.01",
+      "skill_title": "Define a reusable gesture dictionary",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.01",
+      "skill_title": "Define a reusable gesture dictionary",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.01",
+      "skill_title": "Define a reusable gesture dictionary",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.01",
+      "skill_title": "Define a reusable gesture dictionary",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.02",
+      "skill_title": "Require multimodal confirmation (voice + gesture)",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.02",
+      "skill_title": "Require multimodal confirmation (voice + gesture)",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.02",
+      "skill_title": "Require multimodal confirmation (voice + gesture)",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.03",
+      "skill_title": "Score a pose-based challenge with coaching tips",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.03",
+      "skill_title": "Score a pose-based challenge with coaching tips",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.03",
+      "skill_title": "Score a pose-based challenge with coaching tips",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.04",
+      "skill_title": "Monitor detection accuracy across different users",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.04",
+      "skill_title": "Monitor detection accuracy across different users",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.04",
+      "skill_title": "Monitor detection accuracy across different users",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.04",
+      "skill_title": "Monitor detection accuracy across different users",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.06",
+      "skill_title": "Implement fairness safeguards for perception systems",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.06",
+      "skill_title": "Implement fairness safeguards for perception systems",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.06",
+      "skill_title": "Implement fairness safeguards for perception systems",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.05",
+      "skill_title": "Build a calibration wizard for sensors",
+      "low_grade_dep": "T06.G3.08",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.05",
+      "skill_title": "Build a calibration wizard for sensors",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T23.G7.05",
+      "skill_title": "Build a calibration wizard for sensors",
+      "low_grade_dep": "T08.G3.05",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.01",
+      "skill_title": "Create reusable XO prompt macros",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.01",
+      "skill_title": "Create reusable XO prompt macros",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T24.G7.01",
+      "skill_title": "Create reusable XO prompt macros",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T24.G7.02",
+      "skill_title": "Run an XO-led code review with evidence",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.02",
+      "skill_title": "Run an XO-led code review with evidence",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.02",
+      "skill_title": "Run an XO-led code review with evidence",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T24.G7.02",
+      "skill_title": "Run an XO-led code review with evidence",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T24.G7.03",
+      "skill_title": "Combine XO storyboards with AI sprite generation",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.03",
+      "skill_title": "Combine XO storyboards with AI sprite generation",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T24.G7.03",
+      "skill_title": "Combine XO storyboards with AI sprite generation",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T24.G7.04",
+      "skill_title": "Enforce responsible-use rules for XO assistance",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.04",
+      "skill_title": "Enforce responsible-use rules for XO assistance",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T24.G7.04",
+      "skill_title": "Enforce responsible-use rules for XO assistance",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T24.G7.05",
+      "skill_title": "Use XO to coach peers with rubric-based feedback",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.05",
+      "skill_title": "Use XO to coach peers with rubric-based feedback",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T24.G7.05",
+      "skill_title": "Use XO to coach peers with rubric-based feedback",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T24.G7.05",
+      "skill_title": "Use XO to coach peers with rubric-based feedback",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T25.G7.01",
+      "skill_title": "Normalize repeating data into separate tables",
+      "low_grade_dep": "T25.G1.01",
+      "dep_grade": 1,
+      "replacement": "T25.G5.01"
+    },
+    {
+      "skill_id": "T25.G7.01",
+      "skill_title": "Normalize repeating data into separate tables",
+      "low_grade_dep": "T25.G1.02",
+      "dep_grade": 1,
+      "replacement": "T25.G5.02"
+    },
+    {
+      "skill_id": "T25.G7.02",
+      "skill_title": "Identify bias introduced by representation choices",
+      "low_grade_dep": "T25.G1.01",
+      "dep_grade": 1,
+      "replacement": "T25.G5.01"
+    },
+    {
+      "skill_id": "T25.G7.02",
+      "skill_title": "Identify bias introduced by representation choices",
+      "low_grade_dep": "T25.G1.02",
+      "dep_grade": 1,
+      "replacement": "T25.G5.02"
+    },
+    {
+      "skill_id": "T25.G7.03",
+      "skill_title": "Create JSON-like snippets to store structured state",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T25.G7.03",
+      "skill_title": "Create JSON-like snippets to store structured state",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T25.G7.04",
+      "skill_title": "Evaluate storage vs performance tradeoffs",
+      "low_grade_dep": "T25.G1.01",
+      "dep_grade": 1,
+      "replacement": "T25.G5.01"
+    },
+    {
+      "skill_id": "T25.G7.04",
+      "skill_title": "Evaluate storage vs performance tradeoffs",
+      "low_grade_dep": "T25.G1.02",
+      "dep_grade": 1,
+      "replacement": "T25.G5.02"
+    },
+    {
+      "skill_id": "T26.G7.01",
+      "skill_title": "Build reusable data collection modules",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T26.G7.01",
+      "skill_title": "Build reusable data collection modules",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T26.G7.01",
+      "skill_title": "Build reusable data collection modules",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T26.G7.02",
+      "skill_title": "Monitor data quality in real time",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T26.G7.02",
+      "skill_title": "Monitor data quality in real time",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T26.G7.02",
+      "skill_title": "Monitor data quality in real time",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T26.G7.03",
+      "skill_title": "Document provenance for external datasets",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T26.G7.03",
+      "skill_title": "Document provenance for external datasets",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T26.G7.03",
+      "skill_title": "Document provenance for external datasets",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T26.G7.04",
+      "skill_title": "Evaluate bias risks introduced during collection",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T26.G7.04",
+      "skill_title": "Evaluate bias risks introduced during collection",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T26.G7.04",
+      "skill_title": "Evaluate bias risks introduced during collection",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T27.G7.01",
+      "skill_title": "Build multi-chart dashboards with linked filters",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T27.G7.01",
+      "skill_title": "Build multi-chart dashboards with linked filters",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.01",
+      "skill_title": "Build multi-chart dashboards with linked filters",
+      "low_grade_dep": "T26.G3.04",
+      "dep_grade": 3,
+      "replacement": "T26.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.02",
+      "skill_title": "Conduct residual/error analysis",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T27.G7.02",
+      "skill_title": "Conduct residual/error analysis",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.02",
+      "skill_title": "Conduct residual/error analysis",
+      "low_grade_dep": "T26.G3.04",
+      "dep_grade": 3,
+      "replacement": "T26.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.03",
+      "skill_title": "Evaluate fairness metrics",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T27.G7.03",
+      "skill_title": "Evaluate fairness metrics",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.03",
+      "skill_title": "Evaluate fairness metrics",
+      "low_grade_dep": "T26.G3.04",
+      "dep_grade": 3,
+      "replacement": "T26.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.04",
+      "skill_title": "Craft executive summaries for stakeholders",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T27.G7.04",
+      "skill_title": "Craft executive summaries for stakeholders",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T27.G7.04",
+      "skill_title": "Craft executive summaries for stakeholders",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T27.G7.04",
+      "skill_title": "Craft executive summaries for stakeholders",
+      "low_grade_dep": "T26.G3.04",
+      "dep_grade": 3,
+      "replacement": "T26.G5.04"
+    },
+    {
+      "skill_id": "T28.G7.01",
+      "skill_title": "Build agent-based simulations",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.01",
+      "skill_title": "Build agent-based simulations",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T28.G7.01",
+      "skill_title": "Build agent-based simulations",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.01",
+      "skill_title": "Build agent-based simulations",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T28.G7.02",
+      "skill_title": "Evaluate AI fairness using synthetic populations",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T28.G7.02",
+      "skill_title": "Evaluate AI fairness using synthetic populations",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.02",
+      "skill_title": "Evaluate AI fairness using synthetic populations",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T28.G7.03",
+      "skill_title": "Perform randomization tests (permutation tests)",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.03",
+      "skill_title": "Perform randomization tests (permutation tests)",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T28.G7.03",
+      "skill_title": "Perform randomization tests (permutation tests)",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.03",
+      "skill_title": "Perform randomization tests (permutation tests)",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T28.G7.04",
+      "skill_title": "Communicate simulation assumptions & limits",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.04",
+      "skill_title": "Communicate simulation assumptions & limits",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T28.G7.04",
+      "skill_title": "Communicate simulation assumptions & limits",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.04",
+      "skill_title": "Communicate simulation assumptions & limits",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T28.G7.05",
+      "skill_title": "Trace how a simple agent learns from rewards",
+      "low_grade_dep": "T07.G3.05",
+      "dep_grade": 3,
+      "replacement": "T07.G6.05"
+    },
+    {
+      "skill_id": "T28.G7.05",
+      "skill_title": "Trace how a simple agent learns from rewards",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T28.G7.05",
+      "skill_title": "Trace how a simple agent learns from rewards",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T29.G7.01",
+      "skill_title": "Build keyword retrieval helpers (mini-RAG)",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T29.G7.01",
+      "skill_title": "Build keyword retrieval helpers (mini-RAG)",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T29.G7.01",
+      "skill_title": "Build keyword retrieval helpers (mini-RAG)",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T29.G7.02",
+      "skill_title": "Engineer text features for classifiers",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T29.G7.02",
+      "skill_title": "Engineer text features for classifiers",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T29.G7.02",
+      "skill_title": "Engineer text features for classifiers",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T29.G7.02",
+      "skill_title": "Engineer text features for classifiers",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T29.G7.03",
+      "skill_title": "Audit text datasets for bias and coverage",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T29.G7.03",
+      "skill_title": "Audit text datasets for bias and coverage",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T29.G7.03",
+      "skill_title": "Audit text datasets for bias and coverage",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T29.G7.03",
+      "skill_title": "Audit text datasets for bias and coverage",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T29.G7.04",
+      "skill_title": "Compare human vs XO summaries critically",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T29.G7.04",
+      "skill_title": "Compare human vs XO summaries critically",
+      "low_grade_dep": "T09.G3.04",
+      "dep_grade": 3,
+      "replacement": "T09.G5.04"
+    },
+    {
+      "skill_id": "T29.G7.04",
+      "skill_title": "Compare human vs XO summaries critically",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T30.G7.01",
+      "skill_title": "Analyze energy consumption & thermal limits",
+      "low_grade_dep": "T30.G1.01",
+      "dep_grade": 1,
+      "replacement": "T30.G5.01"
+    },
+    {
+      "skill_id": "T30.G7.01",
+      "skill_title": "Analyze energy consumption & thermal limits",
+      "low_grade_dep": "T30.G1.02",
+      "dep_grade": 1,
+      "replacement": "T30.G5.02"
+    },
+    {
+      "skill_id": "T30.G7.02",
+      "skill_title": "Design redundancy/fail-safes for sensors",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T30.G7.02",
+      "skill_title": "Design redundancy/fail-safes for sensors",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T30.G7.03",
+      "skill_title": "Design redundancy/fail-safes for AI sensors",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T30.G7.03",
+      "skill_title": "Design redundancy/fail-safes for AI sensors",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    },
+    {
+      "skill_id": "T30.G7.04",
+      "skill_title": "Compare CPUs, GPUs, and TPUs for AI workloads",
+      "low_grade_dep": "T30.G1.01",
+      "dep_grade": 1,
+      "replacement": "T30.G5.01"
+    },
+    {
+      "skill_id": "T30.G7.04",
+      "skill_title": "Compare CPUs, GPUs, and TPUs for AI workloads",
+      "low_grade_dep": "T30.G1.02",
+      "dep_grade": 1,
+      "replacement": "T30.G5.02"
+    },
+    {
+      "skill_id": "T30.G7.05",
+      "skill_title": "Debate privacy implications of AI-powered sensors",
+      "low_grade_dep": "T30.G1.01",
+      "dep_grade": 1,
+      "replacement": "T30.G5.01"
+    },
+    {
+      "skill_id": "T30.G7.05",
+      "skill_title": "Debate privacy implications of AI-powered sensors",
+      "low_grade_dep": "T30.G1.02",
+      "dep_grade": 1,
+      "replacement": "T30.G5.02"
+    },
+    {
+      "skill_id": "T31.G7.01",
+      "skill_title": "Model a distributed multiplayer server",
+      "low_grade_dep": "T02.G3.01",
+      "dep_grade": 3,
+      "replacement": "T02.G5.01"
+    },
+    {
+      "skill_id": "T31.G7.04",
+      "skill_title": "Compare centralized servers with peer-to-peer networks",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T31.G7.04",
+      "skill_title": "Compare centralized servers with peer-to-peer networks",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T31.G7.05",
+      "skill_title": "Analyze societal impacts of networked systems",
+      "low_grade_dep": "T04.G2.01",
+      "dep_grade": 2,
+      "replacement": "T04.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.01",
+      "skill_title": "Analyze encryption basics (Caesar cipher)",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.01",
+      "skill_title": "Analyze encryption basics (Caesar cipher)",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.02",
+      "skill_title": "Simulate password cracking attempts",
+      "low_grade_dep": "T32.G1.01",
+      "dep_grade": 1,
+      "replacement": "T32.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.02",
+      "skill_title": "Simulate password cracking attempts",
+      "low_grade_dep": "T32.G1.02",
+      "dep_grade": 1,
+      "replacement": "T32.G5.02"
+    },
+    {
+      "skill_id": "T32.G7.03",
+      "skill_title": "Implement secure logging/monitoring inside apps",
+      "low_grade_dep": "T07.G3.01",
+      "dep_grade": 3,
+      "replacement": "T07.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.03",
+      "skill_title": "Implement secure logging/monitoring inside apps",
+      "low_grade_dep": "T32.G1.01",
+      "dep_grade": 1,
+      "replacement": "T32.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.04",
+      "skill_title": "Analyze AI-powered surveillance ethics and societal impacts",
+      "low_grade_dep": "T32.G1.01",
+      "dep_grade": 1,
+      "replacement": "T32.G5.01"
+    },
+    {
+      "skill_id": "T32.G7.04",
+      "skill_title": "Analyze AI-powered surveillance ethics and societal impacts",
+      "low_grade_dep": "T32.G1.02",
+      "dep_grade": 1,
+      "replacement": "T32.G5.02"
+    },
+    {
+      "skill_id": "T33.G7.01",
+      "skill_title": "Securely store and reference service credentials (conceptual)",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T33.G7.01",
+      "skill_title": "Securely store and reference service credentials (conceptual)",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T33.G7.02",
+      "skill_title": "Build wrappers that combine multiple services",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T33.G7.02",
+      "skill_title": "Build wrappers that combine multiple services",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T33.G7.02",
+      "skill_title": "Build wrappers that combine multiple services",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T33.G7.03",
+      "skill_title": "Compare service options and pick the right tool",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T33.G7.03",
+      "skill_title": "Compare service options and pick the right tool",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T33.G7.04",
+      "skill_title": "Implement caching/memoization for repeated requests",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T33.G7.04",
+      "skill_title": "Implement caching/memoization for repeated requests",
+      "low_grade_dep": "T10.G3.03",
+      "dep_grade": 3,
+      "replacement": "T10.G5.03"
+    },
+    {
+      "skill_id": "T34.G7.01",
+      "skill_title": "Research AI history milestones",
+      "low_grade_dep": "T34.G1.01",
+      "dep_grade": 1,
+      "replacement": "T34.G5.01"
+    },
+    {
+      "skill_id": "T34.G7.01",
+      "skill_title": "Research AI history milestones",
+      "low_grade_dep": "T34.G1.02",
+      "dep_grade": 1,
+      "replacement": "T34.G5.02"
+    },
+    {
+      "skill_id": "T34.G7.02",
+      "skill_title": "Evaluate technology policies over time",
+      "low_grade_dep": "T34.G1.01",
+      "dep_grade": 1,
+      "replacement": "T34.G5.01"
+    },
+    {
+      "skill_id": "T34.G7.02",
+      "skill_title": "Evaluate technology policies over time",
+      "low_grade_dep": "T34.G1.02",
+      "dep_grade": 1,
+      "replacement": "T34.G5.02"
+    },
+    {
+      "skill_id": "T34.G7.03",
+      "skill_title": "Create museum-style exhibits for innovators",
+      "low_grade_dep": "T08.G3.01",
+      "dep_grade": 3,
+      "replacement": "T08.G5.01"
+    },
+    {
+      "skill_id": "T34.G7.03",
+      "skill_title": "Create museum-style exhibits for innovators",
+      "low_grade_dep": "T34.G1.01",
+      "dep_grade": 1,
+      "replacement": "T34.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.01",
+      "skill_title": "Conduct comprehensive bias audits across T21-T24 AI features",
+      "low_grade_dep": "T35.G1.01",
+      "dep_grade": 1,
+      "replacement": "T35.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.01",
+      "skill_title": "Conduct comprehensive bias audits across T21-T24 AI features",
+      "low_grade_dep": "T35.G1.02",
+      "dep_grade": 1,
+      "replacement": "T35.G5.02"
+    },
+    {
+      "skill_id": "T35.G7.02",
+      "skill_title": "Explore unintended consequences of new tech",
+      "low_grade_dep": "T35.G1.01",
+      "dep_grade": 1,
+      "replacement": "T35.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.02",
+      "skill_title": "Explore unintended consequences of new tech",
+      "low_grade_dep": "T35.G1.02",
+      "dep_grade": 1,
+      "replacement": "T35.G5.02"
+    },
+    {
+      "skill_id": "T35.G7.03",
+      "skill_title": "Evaluate transparency vs security tensions",
+      "low_grade_dep": "T35.G1.01",
+      "dep_grade": 1,
+      "replacement": "T35.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.03",
+      "skill_title": "Evaluate transparency vs security tensions",
+      "low_grade_dep": "T35.G1.02",
+      "dep_grade": 1,
+      "replacement": "T35.G5.02"
+    },
+    {
+      "skill_id": "T35.G7.04",
+      "skill_title": "Analyze societal impacts of AI perception technologies (Pairing with T23)",
+      "low_grade_dep": "T35.G1.01",
+      "dep_grade": 1,
+      "replacement": "T35.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.04",
+      "skill_title": "Analyze societal impacts of AI perception technologies (Pairing with T23)",
+      "low_grade_dep": "T35.G1.02",
+      "dep_grade": 1,
+      "replacement": "T35.G5.02"
+    },
+    {
+      "skill_id": "T35.G7.05",
+      "skill_title": "Debate ethical implications of AI media generation (Pairing with T21)",
+      "low_grade_dep": "T35.G1.01",
+      "dep_grade": 1,
+      "replacement": "T35.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.05",
+      "skill_title": "Debate ethical implications of AI media generation (Pairing with T21)",
+      "low_grade_dep": "T35.G1.02",
+      "dep_grade": 1,
+      "replacement": "T35.G5.02"
+    },
+    {
+      "skill_id": "T35.G7.06",
+      "skill_title": "Facilitate community discussions on AI-powered tech policy",
+      "low_grade_dep": "T35.G1.01",
+      "dep_grade": 1,
+      "replacement": "T35.G5.01"
+    },
+    {
+      "skill_id": "T35.G7.06",
+      "skill_title": "Facilitate community discussions on AI-powered tech policy",
+      "low_grade_dep": "T35.G1.02",
+      "dep_grade": 1,
+      "replacement": "T35.G5.02"
+    },
+    {
+      "skill_id": "T36.G7.01",
+      "skill_title": "Interview diverse technologists about AI ethics and equity",
+      "low_grade_dep": "T36.G1.01",
+      "dep_grade": 1,
+      "replacement": "T36.G5.01"
+    },
+    {
+      "skill_id": "T36.G7.01",
+      "skill_title": "Interview diverse technologists about AI ethics and equity",
+      "low_grade_dep": "T36.G1.02",
+      "dep_grade": 1,
+      "replacement": "T36.G5.02"
+    },
+    {
+      "skill_id": "T36.G7.02",
+      "skill_title": "Design cross-functional team diagrams",
+      "low_grade_dep": "T06.G3.01",
+      "dep_grade": 3,
+      "replacement": "T06.G5.01"
+    },
+    {
+      "skill_id": "T36.G7.02",
+      "skill_title": "Design cross-functional team diagrams",
+      "low_grade_dep": "T09.G3.01",
+      "dep_grade": 3,
+      "replacement": "T09.G5.01"
+    },
+    {
+      "skill_id": "T36.G7.03",
+      "skill_title": "Facilitate inclusive collaboration",
+      "low_grade_dep": "T36.G1.01",
+      "dep_grade": 1,
+      "replacement": "T36.G5.01"
+    },
+    {
+      "skill_id": "T36.G7.03",
+      "skill_title": "Facilitate inclusive collaboration",
+      "low_grade_dep": "T36.G1.02",
+      "dep_grade": 1,
+      "replacement": "T36.G5.02"
+    },
+    {
+      "skill_id": "T36.G7.04",
+      "skill_title": "Mentor younger coders",
+      "low_grade_dep": "T01.G3.01",
+      "dep_grade": 3,
+      "replacement": "T01.G5.01"
+    },
+    {
+      "skill_id": "T36.G7.04",
+      "skill_title": "Mentor younger coders",
+      "low_grade_dep": "T01.G3.02",
+      "dep_grade": 3,
+      "replacement": "T01.G5.02"
+    }
+  ],
+  "statistics": {
+    "total_g7_skills": 168,
+    "skills_with_low_deps": 166,
+    "low_deps_found": 439,
+    "g3_deps": 376,
+    "g2_deps": 7,
+    "g1_deps": 56,
+    "replacements_found": 439,
+    "replacements_missing": 0
+  }
+}

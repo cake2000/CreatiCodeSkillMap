@@ -1,0 +1,393 @@
+====================================================================================================
+GRADE 8 (G8) SKILLS COMPREHENSIVE ANALYSIS REPORT
+====================================================================================================
+
+Total G8 Skills Analyzed: 163
+Total Issues Found: 192
+  - HIGH Priority:   168
+  - MEDIUM Priority: 8
+  - LOW Priority:    16
+
+====================================================================================================
+G8 SKILLS BY TOPIC
+====================================================================================================
+T01: 10 skills - T01.G8.01, T01.G8.02, T01.G8.03, T01.G8.04, T01.G8.05, T01.G8.06, T01.G8.07, T01.G8.08, T01.G8.09, T01.G8.10
+T02: 5 skills - T02.G8.01, T02.G8.02, T02.G8.03, T02.G8.04, T02.G8.05
+T03: 6 skills - T03.G8.01, T03.G8.02, T03.G8.03, T03.G8.04, T03.G8.05, T03.G8.06
+T04: 6 skills - T04.G8.01, T04.G8.02, T04.G8.03, T04.G8.04, T04.G8.05, T04.G8.06
+T05: 6 skills - T05.G8.01, T05.G8.02, T05.G8.03, T05.G8.04, T05.G8.05, T05.G8.06
+T06: 4 skills - T06.G8.01, T06.G8.02, T06.G8.03, T06.G8.04
+T07: 4 skills - T07.G8.01, T07.G8.02, T07.G8.03, T07.G8.04
+T08: 2 skills - T08.G8.01, T08.G8.02
+T09: 5 skills - T09.G8.01, T09.G8.02, T09.G8.03, T09.G8.04, T09.G8.05
+T10: 5 skills - T10.G8.01, T10.G8.02, T10.G8.03, T10.G8.04, T10.G8.05
+T11: 4 skills - T11.G8.01, T11.G8.02, T11.G8.03, T11.G8.04
+T12: 4 skills - T12.G8.01, T12.G8.02, T12.G8.03, T12.G8.04
+T13: 4 skills - T13.G8.01, T13.G8.02, T13.G8.03, T13.G8.04
+T14: 5 skills - T14.G8.01, T14.G8.02, T14.G8.03, T14.G8.04, T14.G8.05
+T15: 2 skills - T15.G8.01, T15.G8.02
+T16: 4 skills - T16.G8.01, T16.G8.02, T16.G8.03, T16.G8.04
+T17: 5 skills - T17.G8.01, T17.G8.02, T17.G8.03, T17.G8.04, T17.G8.06
+T18: 4 skills - T18.G8.01, T18.G8.02, T18.G8.03, T18.G8.04
+T19: 5 skills - T19.G8.01, T19.G8.02, T19.G8.03, T19.G8.04, T19.G8.05
+T20: 5 skills - T20.G8.01, T20.G8.02, T20.G8.03, T20.G8.04, T20.G8.05
+T21: 4 skills - T21.G8.01, T21.G8.02, T21.G8.03, T21.G8.04
+T22: 4 skills - T22.G8.01, T22.G8.02, T22.G8.03, T22.G8.04
+T23: 5 skills - T23.G8.01, T23.G8.02, T23.G8.03, T23.G8.04, T23.G8.05
+T24: 5 skills - T24.G8.01, T24.G8.02, T24.G8.03, T24.G8.04, T24.G8.05
+T25: 4 skills - T25.G8.01, T25.G8.02, T25.G8.03, T25.G8.04
+T26: 4 skills - T26.G8.01, T26.G8.02, T26.G8.03, T26.G8.04
+T27: 4 skills - T27.G8.01, T27.G8.02, T27.G8.03, T27.G8.04
+T28: 5 skills - T28.G8.01, T28.G8.02, T28.G8.03, T28.G8.04, T28.G8.05
+T29: 4 skills - T29.G8.01, T29.G8.02, T29.G8.03, T29.G8.04
+T30: 4 skills - T30.G8.01, T30.G8.02, T30.G8.03, T30.G8.04
+T31: 6 skills - T31.G8.01, T31.G8.02, T31.G8.03, T31.G8.04, T31.G8.05, T31.G8.06
+T32: 4 skills - T32.G8.01, T32.G8.02, T32.G8.03, T32.G8.04
+T33: 4 skills - T33.G8.01, T33.G8.02, T33.G8.03, T33.G8.04
+T34: 3 skills - T34.G8.01, T34.G8.02, T34.G8.03
+T35: 4 skills - T35.G8.01, T35.G8.02, T35.G8.03, T35.G8.04
+T36: 4 skills - T36.G8.01, T36.G8.02, T36.G8.03, T36.G8.04
+
+====================================================================================================
+HIGH PRIORITY ISSUES (168 total)
+====================================================================================================
+
+
+CIRCULAR DEPENDENCY (8 issues)
+----------------------------------------------------------------------------------------------------
+
+1. Skill: T25.G8.02
+   Title: Document versioning and lineage metadata
+   Problem: Circular dependency detected: T25.G8.02 -> T25.G1.01 -> T25.G1.01
+   Current Dependencies: T25.G1.01
+   Recommended Fix: Break circular dependency chain: T25.G8.02 -> T25.G1.01 -> T25.G1.01
+
+2. Skill: T25.G8.04
+   Title: Create data interface contracts for teammates
+   Problem: Circular dependency detected: T25.G8.04 -> T25.G1.01 -> T25.G1.01
+   Current Dependencies: T25.G1.01
+   Recommended Fix: Break circular dependency chain: T25.G8.04 -> T25.G1.01 -> T25.G1.01
+
+3. Skill: T34.G8.01
+   Title: Synthesize trends into future forecasts
+   Problem: Circular dependency detected: T34.G8.01 -> T34.G1.01 -> T34.G1.01
+   Current Dependencies: T34.G1.01
+   Recommended Fix: Break circular dependency chain: T34.G8.01 -> T34.G1.01 -> T34.G1.01
+
+4. Skill: T34.G8.03
+   Title: Produce primary-source inspired research projects
+   Problem: Circular dependency detected: T34.G8.03 -> T34.G1.01 -> T34.G1.01
+   Current Dependencies: T34.G1.01
+   Recommended Fix: Break circular dependency chain: T34.G8.03 -> T34.G1.01 -> T34.G1.01
+
+5. Skill: T35.G8.02
+   Title: Draft equity-focused policy briefs for AI in education
+   Problem: Circular dependency detected: T35.G8.02 -> T35.G1.01 -> T35.G1.01
+   Current Dependencies: T35.G1.01
+   Recommended Fix: Break circular dependency chain: T35.G8.02 -> T35.G1.01 -> T35.G1.01
+
+6. Skill: T35.G8.03
+   Title: Design impact assessments for CreatiCode projects
+   Problem: Circular dependency detected: T35.G8.03 -> T35.G1.01 -> T35.G1.01
+   Current Dependencies: T35.G1.01
+   Recommended Fix: Break circular dependency chain: T35.G8.03 -> T35.G1.01 -> T35.G1.01
+
+7. Skill: T35.G8.04
+   Title: Lead peer workshops on responsible tech use
+   Problem: Circular dependency detected: T35.G8.04 -> T35.G1.01 -> T35.G1.01
+   Current Dependencies: T35.G1.01
+   Recommended Fix: Break circular dependency chain: T35.G8.04 -> T35.G1.01 -> T35.G1.01
+
+8. Skill: T36.G8.04
+   Title: Facilitate capstone retrospectives with stakeholders
+   Problem: Circular dependency detected: T36.G8.04 -> T36.G1.01 -> T36.G1.01
+   Current Dependencies: T36.G1.01
+   Recommended Fix: Break circular dependency chain: T36.G8.04 -> T36.G1.01 -> T36.G1.01
+
+
+DEPENDENCY TOO OLD (160 issues)
+----------------------------------------------------------------------------------------------------
+
+1. Skill: T01.G8.02
+   Title: Interpret the behavior of a simulation algorithm over time
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+2. Skill: T01.G8.03
+   Title: Compare two simulations with slightly different rules
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G1.01
+   Current Dependencies: T01.G1.01
+   Recommended Fix: Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill
+
+3. Skill: T01.G8.04
+   Title: Identify base case and recursive step in an algorithm description
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G1.01
+   Current Dependencies: T01.G1.01
+   Recommended Fix: Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill
+
+4. Skill: T01.G8.06
+   Title: Analyze who is helped or harmed by a real‑world algorithm
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G1.01
+   Current Dependencies: T01.G1.01
+   Recommended Fix: Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill
+
+5. Skill: T01.G8.07
+   Title: Propose changes to make a real‑world algorithm more fair
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G1.01
+   Current Dependencies: T01.G1.01
+   Recommended Fix: Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill
+
+6. Skill: T01.G8.09
+   Title: Refactor a medium‑sized program for efficiency
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+7. Skill: T01.G8.10
+   Title: Use logging/probes to understand algorithm behavior
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G1.01
+   Current Dependencies: T01.G1.01
+   Recommended Fix: Remove dependency on T01.G1.01 (G1) or replace with equivalent G6+ skill
+
+8. Skill: T02.G8.01
+   Title: Write pseudocode for a non‑trivial algorithm
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+9. Skill: T02.G8.02
+   Title: Trace your pseudocode with multiple test cases
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+10. Skill: T02.G8.03
+   Title: Refactor an algorithm’s representation for clarity
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+11. Skill: T02.G8.04
+   Title: Design a flowchart for a real‑world decision with user needs in mind
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T02.G1.01
+   Current Dependencies: T02.G1.01
+   Recommended Fix: Remove dependency on T02.G1.01 (G1) or replace with equivalent G6+ skill
+
+12. Skill: T02.G8.05
+   Title: Trace and compare deterministic and probabilistic algorithms
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+13. Skill: T03.G8.01
+   Title: Outline a formal project specification
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T03.G1.01
+   Current Dependencies: T03.G1.01
+   Recommended Fix: Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill
+
+14. Skill: T03.G8.02
+   Title: Use XO to refine and check a project spec
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T03.G1.01
+   Current Dependencies: T03.G1.01
+   Recommended Fix: Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill
+
+15. Skill: T03.G8.03
+   Title: Rank project ideas by complexity and timeline
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T03.G1.01
+   Current Dependencies: T03.G1.01
+   Recommended Fix: Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill
+
+16. Skill: T03.G8.04
+   Title: Identify over‑scoped plans and suggest right‑sizing
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+17. Skill: T03.G8.05
+   Title: Propose a refactoring plan for a complex project
+   Problem: G8 skill depends on G3 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T01.G3.01
+   Current Dependencies: T01.G3.01
+   Recommended Fix: Remove dependency on T01.G3.01 (G3) or replace with equivalent G6+ skill
+
+18. Skill: T03.G8.06
+   Title: Map refactoring tasks to future milestones
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T03.G1.01
+   Current Dependencies: T03.G1.01
+   Recommended Fix: Remove dependency on T03.G1.01 (G1) or replace with equivalent G6+ skill
+
+19. Skill: T04.G8.01
+   Title: Recognize common code idioms in a library
+   Problem: G8 skill depends on G2 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T04.G2.01
+   Current Dependencies: T04.G2.01
+   Recommended Fix: Remove dependency on T04.G2.01 (G2) or replace with equivalent G6+ skill
+
+20. Skill: T04.G8.02
+   Title: Adapt a library function to a new context
+   Problem: G8 skill depends on G1 skill (should be G6, G7, or G8 only)
+   Problematic Dependency: T04.G1.01
+   Current Dependencies: T04.G1.01
+   Recommended Fix: Remove dependency on T04.G1.01 (G1) or replace with equivalent G6+ skill
+
+   ... and 140 more dependency_too_old issues
+
+
+====================================================================================================
+MEDIUM PRIORITY ISSUES (8 total)
+====================================================================================================
+
+
+TRANSITIVE DEPENDENCY (8 issues)
+----------------------------------------------------------------------------------------------------
+
+1. Skill: T25.G8.02
+   Title: Document versioning and lineage metadata
+   Problem: Transitive dependency T25.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T25.G1.01
+   Current Dependencies: T25.G1.01
+   Recommended Fix: Remove redundant dependency on T25.G1.01
+
+2. Skill: T25.G8.04
+   Title: Create data interface contracts for teammates
+   Problem: Transitive dependency T25.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T25.G1.01
+   Current Dependencies: T25.G1.01
+   Recommended Fix: Remove redundant dependency on T25.G1.01
+
+3. Skill: T34.G8.01
+   Title: Synthesize trends into future forecasts
+   Problem: Transitive dependency T34.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T34.G1.01
+   Current Dependencies: T34.G1.01
+   Recommended Fix: Remove redundant dependency on T34.G1.01
+
+4. Skill: T34.G8.03
+   Title: Produce primary-source inspired research projects
+   Problem: Transitive dependency T34.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T34.G1.01
+   Current Dependencies: T34.G1.01
+   Recommended Fix: Remove redundant dependency on T34.G1.01
+
+5. Skill: T35.G8.02
+   Title: Draft equity-focused policy briefs for AI in education
+   Problem: Transitive dependency T35.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T35.G1.01
+   Current Dependencies: T35.G1.01
+   Recommended Fix: Remove redundant dependency on T35.G1.01
+
+6. Skill: T35.G8.03
+   Title: Design impact assessments for CreatiCode projects
+   Problem: Transitive dependency T35.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T35.G1.01
+   Current Dependencies: T35.G1.01
+   Recommended Fix: Remove redundant dependency on T35.G1.01
+
+7. Skill: T35.G8.04
+   Title: Lead peer workshops on responsible tech use
+   Problem: Transitive dependency T35.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T35.G1.01
+   Current Dependencies: T35.G1.01
+   Recommended Fix: Remove redundant dependency on T35.G1.01
+
+8. Skill: T36.G8.04
+   Title: Facilitate capstone retrospectives with stakeholders
+   Problem: Transitive dependency T36.G1.01 (already reachable through another dependency)
+   Problematic Dependency: T36.G1.01
+   Current Dependencies: T36.G1.01
+   Recommended Fix: Remove redundant dependency on T36.G1.01
+
+
+====================================================================================================
+ISSUE TYPE BREAKDOWN
+====================================================================================================
+
+HIGH PRIORITY:
+  circular_dependency: 8
+  dependency_too_old: 160
+
+MEDIUM PRIORITY:
+  transitive_dependency: 8
+
+====================================================================================================
+SKILLS WITH MOST ISSUES
+====================================================================================================
+
+1. T25.G8.02: Document versioning and lineage metadata
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+2. T25.G8.04: Create data interface contracts for teammates
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+3. T34.G8.01: Synthesize trends into future forecasts
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+4. T34.G8.03: Produce primary-source inspired research projects
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+5. T35.G8.02: Draft equity-focused policy briefs for AI in education
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+6. T35.G8.03: Design impact assessments for CreatiCode projects
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+7. T35.G8.04: Lead peer workshops on responsible tech use
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+8. T36.G8.04: Facilitate capstone retrospectives with stakeholders
+   Total Issues: 3 (High: 2, Medium: 1, Low: 0)
+9. T01.G8.02: Interpret the behavior of a simulation algorithm over time
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+10. T01.G8.03: Compare two simulations with slightly different rules
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+11. T01.G8.04: Identify base case and recursive step in an algorithm description
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+12. T01.G8.06: Analyze who is helped or harmed by a real‑world algorithm
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+13. T01.G8.07: Propose changes to make a real‑world algorithm more fair
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+14. T01.G8.09: Refactor a medium‑sized program for efficiency
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+15. T01.G8.10: Use logging/probes to understand algorithm behavior
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+16. T02.G8.01: Write pseudocode for a non‑trivial algorithm
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+17. T02.G8.02: Trace your pseudocode with multiple test cases
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+18. T02.G8.03: Refactor an algorithm’s representation for clarity
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+19. T02.G8.04: Design a flowchart for a real‑world decision with user needs in mind
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+20. T02.G8.05: Trace and compare deterministic and probabilistic algorithms
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+21. T03.G8.01: Outline a formal project specification
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+22. T03.G8.02: Use XO to refine and check a project spec
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+23. T03.G8.03: Rank project ideas by complexity and timeline
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+24. T03.G8.04: Identify over‑scoped plans and suggest right‑sizing
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+25. T03.G8.05: Propose a refactoring plan for a complex project
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+26. T03.G8.06: Map refactoring tasks to future milestones
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+27. T04.G8.01: Recognize common code idioms in a library
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+28. T04.G8.02: Adapt a library function to a new context
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+29. T04.G8.03: Choose between alternative patterns for a problem
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)
+30. T04.G8.04: Analyze tradeoffs in using a standard pattern vs custom code
+   Total Issues: 1 (High: 1, Medium: 0, Low: 0)

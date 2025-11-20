@@ -1,0 +1,484 @@
+{
+  "dependency_grade_constraints": [],
+  "circular_dependencies": [],
+  "transitive_dependencies": [],
+  "missing_dependencies": [
+    {
+      "skill": "T01.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T02.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T02.G7.03",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T02.G7.04",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T02.G7.06",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T03.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T04.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T05.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T05.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T05.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T07.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T09.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T10.G7.03",
+      "type": "missing_dependency",
+      "category": "loop_operations",
+      "description": "Mentions loops but doesn't depend on any T07 skills"
+    },
+    {
+      "skill": "T12.G7.03",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T12.G7.04",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T13.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T14.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T14.G7.03",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T14.G7.03",
+      "type": "missing_dependency",
+      "category": "loop_operations",
+      "description": "Mentions loops but doesn't depend on any T07 skills"
+    },
+    {
+      "skill": "T14.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T14.G7.05",
+      "type": "missing_dependency",
+      "category": "variable_operations",
+      "description": "Mentions variables but doesn't depend on any T09 skills"
+    },
+    {
+      "skill": "T16.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T16.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T17.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T18.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T19.G7.03",
+      "type": "missing_dependency",
+      "category": "variable_operations",
+      "description": "Mentions variables but doesn't depend on any T09 skills"
+    },
+    {
+      "skill": "T19.G7.04",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T19.G7.04",
+      "type": "missing_dependency",
+      "category": "loop_operations",
+      "description": "Mentions loops but doesn't depend on any T07 skills"
+    },
+    {
+      "skill": "T19.G7.04",
+      "type": "missing_dependency",
+      "category": "variable_operations",
+      "description": "Mentions variables but doesn't depend on any T09 skills"
+    },
+    {
+      "skill": "T23.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T23.G7.03",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T23.G7.04",
+      "type": "missing_dependency",
+      "category": "variable_operations",
+      "description": "Mentions variables but doesn't depend on any T09 skills"
+    },
+    {
+      "skill": "T23.G7.06",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T25.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T25.G7.01",
+      "type": "missing_dependency",
+      "category": "loop_operations",
+      "description": "Mentions loops but doesn't depend on any T07 skills"
+    },
+    {
+      "skill": "T25.G7.04",
+      "type": "missing_dependency",
+      "category": "variable_operations",
+      "description": "Mentions variables but doesn't depend on any T09 skills"
+    },
+    {
+      "skill": "T28.G7.01",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T28.G7.05",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T31.G7.02",
+      "type": "missing_dependency",
+      "category": "list_operations",
+      "description": "Mentions lists but doesn't depend on any T10 skills"
+    },
+    {
+      "skill": "T33.G7.01",
+      "type": "missing_dependency",
+      "category": "variable_operations",
+      "description": "Mentions variables but doesn't depend on any T09 skills"
+    },
+    {
+      "skill": "T33.G7.04",
+      "type": "missing_dependency",
+      "category": "loop_operations",
+      "description": "Mentions loops but doesn't depend on any T07 skills"
+    }
+  ],
+  "skill_clarity": [
+    {
+      "skill": "T02.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "several"
+      ],
+      "description": "Contains vague terms: several"
+    },
+    {
+      "skill": "T02.G7.02",
+      "type": "vague_description",
+      "vague_terms": [
+        "few"
+      ],
+      "description": "Contains vague terms: few"
+    },
+    {
+      "skill": "T04.G7.04",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T05.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "some"
+      ],
+      "description": "Contains vague terms: some"
+    },
+    {
+      "skill": "T07.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T08.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T09.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T12.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "many"
+      ],
+      "description": "Contains vague terms: many"
+    },
+    {
+      "skill": "T12.G7.04",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T13.G7.04",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T14.G7.02",
+      "type": "brief_skill_name",
+      "description": "Skill name too brief (only 2 words)"
+    },
+    {
+      "skill": "T14.G7.05",
+      "type": "brief_skill_name",
+      "description": "Skill name too brief (only 2 words)"
+    },
+    {
+      "skill": "T16.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple",
+        "different"
+      ],
+      "description": "Contains vague terms: multiple, different"
+    },
+    {
+      "skill": "T17.G7.02",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T17.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T17.G7.05",
+      "type": "vague_description",
+      "vague_terms": [
+        "few"
+      ],
+      "description": "Contains vague terms: few"
+    },
+    {
+      "skill": "T18.G7.02",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T20.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T21.G7.02",
+      "type": "too_verbose",
+      "description": "Description too verbose (51 words)"
+    },
+    {
+      "skill": "T22.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "few"
+      ],
+      "description": "Contains vague terms: few"
+    },
+    {
+      "skill": "T23.G7.04",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T23.G7.04",
+      "type": "too_verbose",
+      "description": "Description too verbose (51 words)"
+    },
+    {
+      "skill": "T23.G7.06",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T26.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T27.G7.01",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T27.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "different"
+      ],
+      "description": "Contains vague terms: different"
+    },
+    {
+      "skill": "T28.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "many"
+      ],
+      "description": "Contains vague terms: many"
+    },
+    {
+      "skill": "T28.G7.05",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T33.G7.02",
+      "type": "vague_description",
+      "vague_terms": [
+        "multiple"
+      ],
+      "description": "Contains vague terms: multiple"
+    },
+    {
+      "skill": "T33.G7.03",
+      "type": "vague_description",
+      "vague_terms": [
+        "appropriate"
+      ],
+      "description": "Contains vague terms: appropriate"
+    }
+  ]
+}

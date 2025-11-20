@@ -1,0 +1,1240 @@
+================================================================================
+G7 SKILLS COMPREHENSIVE DEPENDENCY ANALYSIS
+================================================================================
+
+Total G7 skills analyzed: 168
+Across 36 topics
+
+ISSUE SUMMARY:
+  HIGH priority: 0
+  MEDIUM priority: 150
+  LOW priority: 0
+
+ISSUES BY TYPE:
+  Missing dependency: 31 (HIGH:0, MED:31, LOW:0)
+  Potentially too broad: 3 (HIGH:0, MED:3, LOW:0)
+  Transitive dependency: 116 (HIGH:0, MED:116, LOW:0)
+
+
+================================================================================
+MEDIUM PRIORITY ISSUES (150)
+================================================================================
+
+SKILL: T01.G7.01
+TITLE: Identify the pattern in a given program
+DEPENDENCIES (5): T01.GK.01, T01.GK.07, T01.GK.08, T06.G3.01, T09.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.02
+TITLE: Choose a pattern to solve a problem
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.03
+TITLE: Write pseudocode for a search or accumulation algorithm
+DEPENDENCIES (5): T01.GK.01, T01.GK.07, T01.GK.08, T04.G2.01, T09.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.04
+TITLE: Compare efficiency of two algorithms qualitatively
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.05
+TITLE: Design a set of edge‑case tests for an algorithm
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.06
+TITLE: Run an algorithm on edge cases and find failures
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.07
+TITLE: Explain why an algorithm fails on a specific edge case
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+--------------------------------------------------------------------------------
+
+SKILL: T01.G7.08
+TITLE: Rewrite a naive algorithm using a better pattern
+DEPENDENCIES (5): T01.GK.01, T01.GK.07, T01.GK.08, T04.G2.01, T07.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T01.GK.08 and T01.GK.07, but T01.GK.08 already depends on T01.GK.07
+    Fix: Remove T01.GK.07 from dependencies (already implied by T01.GK.08)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T07.G3.01 and T04.G2.01, but T07.G3.01 already depends on T04.G2.01
+    Fix: Remove T04.G2.01 from dependencies (already implied by T07.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.01
+TITLE: Trace a step‑by‑step simulation algorithm
+DEPENDENCIES (5): T02.GK.01, T02.GK.03, T02.GK.04, T07.G3.01, T09.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T02.GK.04 and T02.GK.03, but T02.GK.04 already depends on T02.GK.03
+    Fix: Remove T02.GK.03 from dependencies (already implied by T02.GK.04)
+
+  Issue #2: [Potentially too broad]
+    Problem: Contains vague term "several" - may be too broad or unclear
+    Fix: Consider breaking into more specific skills or clarifying scope
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.02
+TITLE: Extend a simulation trace and predict future behavior
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T02.GK.04 and T02.GK.03, but T02.GK.04 already depends on T02.GK.03
+    Fix: Remove T02.GK.03 from dependencies (already implied by T02.GK.04)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.03
+TITLE: Create a flowchart for linear search or “find max”
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T02.GK.04 and T02.GK.03, but T02.GK.04 already depends on T02.GK.03
+    Fix: Remove T02.GK.03 from dependencies (already implied by T02.GK.04)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.04
+TITLE: Read a flowchart for a simple sort and trace one pass
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T02.GK.04 and T02.GK.03, but T02.GK.04 already depends on T02.GK.03
+    Fix: Remove T02.GK.03 from dependencies (already implied by T02.GK.04)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.05
+TITLE: Count steps for two algorithms on small inputs
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T02.GK.04 and T02.GK.03, but T02.GK.04 already depends on T02.GK.03
+    Fix: Remove T02.GK.03 from dependencies (already implied by T02.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T02.G7.06
+TITLE: Trace an algorithm to find a bug or edge case
+DEPENDENCIES (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T02.GK.04 and T02.GK.03, but T02.GK.04 already depends on T02.GK.03
+    Fix: Remove T02.GK.03 from dependencies (already implied by T02.GK.04)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions conditions but no T08 (Conditions) dependency found
+    Fix: Add appropriate T08 condition skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.01
+TITLE: Draw an architecture diagram for a multi‑component project
+DEPENDENCIES (5): T02.G3.01, T03.GK.01, T03.GK.03, T03.GK.04, T04.G2.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T03.GK.04 and T03.GK.03, but T03.GK.04 already depends on T03.GK.03
+    Fix: Remove T03.GK.03 from dependencies (already implied by T03.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.02
+TITLE: Map functional modules to architecture components
+DEPENDENCIES (5): T03.GK.01, T03.GK.03, T03.GK.04, T06.G3.01, T09.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T03.GK.04 and T03.GK.03, but T03.GK.04 already depends on T03.GK.03
+    Fix: Remove T03.GK.03 from dependencies (already implied by T03.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.03
+TITLE: Compare two decompositions of the same project
+DEPENDENCIES (4): T03.G1.01, T03.G1.02, T03.GK.03, T03.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T03.G1.02 and T03.G1.01, but T03.G1.02 already depends on T03.G1.01
+    Fix: Remove T03.G1.01 from dependencies (already implied by T03.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T03.GK.04 and T03.GK.03, but T03.GK.04 already depends on T03.GK.03
+    Fix: Remove T03.GK.03 from dependencies (already implied by T03.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.04
+TITLE: Propose an alternative decomposition to fix a planning problem
+DEPENDENCIES (4): T03.GK.03, T03.GK.04, T06.G3.01, T09.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T03.GK.04 and T03.GK.03, but T03.GK.04 already depends on T03.GK.03
+    Fix: Remove T03.GK.03 from dependencies (already implied by T03.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.05
+TITLE: Design a test plan based on a project breakdown
+DEPENDENCIES (4): T03.G1.01, T03.G1.02, T03.GK.03, T03.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T03.G1.02 and T03.G1.01, but T03.G1.02 already depends on T03.G1.01
+    Fix: Remove T03.G1.01 from dependencies (already implied by T03.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T03.GK.04 and T03.GK.03, but T03.GK.04 already depends on T03.GK.03
+    Fix: Remove T03.GK.03 from dependencies (already implied by T03.GK.04)
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T03.G7.06
+TITLE: Update a project plan after test results
+DEPENDENCIES (4): T01.G3.01, T01.G3.02, T03.GK.03, T03.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T03.GK.04 and T03.GK.03, but T03.GK.04 already depends on T03.GK.03
+    Fix: Remove T03.GK.03 from dependencies (already implied by T03.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.01
+TITLE: Identify the main loop patterns in a simulation or game
+DEPENDENCIES (4): T04.GK.03, T04.GK.04, T07.G3.01, T08.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.02
+TITLE: Identify data structure patterns (lists, grids) in use
+DEPENDENCIES (4): T04.G2.01, T04.GK.03, T04.GK.04, T08.G3.01
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T04.G7.05
+TITLE: Simplify code by merging repeated patterns
+DEPENDENCIES (4): T04.G2.01, T04.GK.03, T04.GK.04, T07.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T07.G3.01 and T04.G2.01, but T07.G3.01 already depends on T04.G2.01
+    Fix: Remove T04.G2.01 from dependencies (already implied by T07.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.01
+TITLE: Perform a checklist‑based accessibility review of a project
+DEPENDENCIES (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T05.G1.02 and T05.G1.01, but T05.G1.02 already depends on T05.G1.01
+    Fix: Remove T05.G1.01 from dependencies (already implied by T05.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+    Fix: Remove T05.GK.03 from dependencies (already implied by T05.GK.04)
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.02
+TITLE: Prioritize which accessibility issues to fix first
+DEPENDENCIES (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T05.G1.02 and T05.G1.01, but T05.G1.02 already depends on T05.G1.01
+    Fix: Remove T05.G1.01 from dependencies (already implied by T05.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+    Fix: Remove T05.GK.03 from dependencies (already implied by T05.GK.04)
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.03
+TITLE: Identify potential unintended harms from a design
+DEPENDENCIES (4): T05.G1.01, T05.GK.03, T05.GK.04, T06.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+    Fix: Remove T05.GK.03 from dependencies (already implied by T05.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.04
+TITLE: Propose one concrete mitigation per harm
+DEPENDENCIES (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T05.G1.02 and T05.G1.01, but T05.G1.02 already depends on T05.G1.01
+    Fix: Remove T05.G1.01 from dependencies (already implied by T05.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+    Fix: Remove T05.GK.03 from dependencies (already implied by T05.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.05
+TITLE: Interpret usage or feedback data to find UX problems
+DEPENDENCIES (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T05.G1.02 and T05.G1.01, but T05.G1.02 already depends on T05.G1.01
+    Fix: Remove T05.G1.01 from dependencies (already implied by T05.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+    Fix: Remove T05.GK.03 from dependencies (already implied by T05.GK.04)
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T05.G7.06
+TITLE: Choose design changes based on data patterns
+DEPENDENCIES (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T05.G1.02 and T05.G1.01, but T05.G1.02 already depends on T05.G1.01
+    Fix: Remove T05.G1.01 from dependencies (already implied by T05.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T05.GK.04 and T05.GK.03, but T05.GK.04 already depends on T05.GK.03
+    Fix: Remove T05.GK.03 from dependencies (already implied by T05.GK.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T06.G7.01
+TITLE: Model program states and transitions using events
+DEPENDENCIES (4): T06.G3.01, T06.G3.02, T06.G6.03, T06.G6.04
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions variables/state but no T09 (Variables) dependency found
+    Fix: Add appropriate T09 variable skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.02
+TITLE: Nested loops for 2D grids and tile maps
+DEPENDENCIES (4): T07.G3.01, T07.G6.05, T07.G6.06, T08.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.03
+TITLE: Compare loop algorithms by counting steps
+DEPENDENCIES (4): T07.G3.01, T07.G6.05, T07.G6.06, T08.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T07.G7.04
+TITLE: Loop patterns for counting and accumulation
+DEPENDENCIES (4): T07.G3.01, T07.G6.06, T08.G3.01, T09.G3.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T09.G7.02
+TITLE: Use aggregate expressions (sum, average, min, max)
+DEPENDENCIES (4): T09.G3.01, T09.G3.02, T09.G6.04, T09.G6.05
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T09.G7.03
+TITLE: Use variables in conditional logic with compound conditions
+DEPENDENCIES (4): T08.G3.01, T09.G3.01, T09.G6.04, T09.G6.05
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T10.G7.02
+TITLE: Analyze a dataset to find patterns or outliers
+DEPENDENCIES (4): T08.G3.01, T09.G3.01, T10.G6.03, T10.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T10.G7.04
+TITLE: Use nested loops to analyze relationships between two datasets
+DEPENDENCIES (4): T07.G3.01, T08.G3.01, T10.G6.03, T10.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T12.G7.01
+TITLE: Refactor long scripts into smaller, named subroutines
+DEPENDENCIES (4): T06.G3.01, T08.G3.01, T12.G6.03, T12.G6.04
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions variables/state but no T09 (Variables) dependency found
+    Fix: Add appropriate T09 variable skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T12.G7.03
+TITLE: Create a code review checklist for clarity
+DEPENDENCIES (4): T08.G3.01, T09.G3.01, T12.G6.03, T12.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T12.G7.04
+TITLE: Document design decisions in code
+DEPENDENCIES (4): T07.G3.01, T09.G3.01, T12.G6.03, T12.G6.04
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T13.G7.01
+TITLE: Write comprehensive test cases for an algorithm
+DEPENDENCIES (4): T08.G3.01, T09.G3.01, T13.GK.02, T13.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+  Issue #2: [Potentially too broad]
+    Problem: Contains vague term "comprehensive" - may be too broad or unclear
+    Fix: Consider breaking into more specific skills or clarifying scope
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T13.G7.02
+TITLE: Debug logic errors in complex programs
+DEPENDENCIES (4): T06.G3.01, T08.G3.01, T09.G3.01, T13.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T13.G7.03
+TITLE: Refactor for testability and clarity
+DEPENDENCIES (4): T06.G3.01, T08.G3.01, T09.G3.01, T13.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.01
+TITLE: Spatial partitioning (grid)
+DEPENDENCIES (5): T07.G3.05, T08.G3.05, T09.G3.01, T14.GK.03, T14.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T14.GK.04 and T14.GK.03, but T14.GK.04 already depends on T14.GK.03
+    Fix: Remove T14.GK.03 from dependencies (already implied by T14.GK.04)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.03
+TITLE: Weighted spawn scheduler
+DEPENDENCIES (5): T07.G3.05, T08.G3.01, T08.G3.05, T14.GK.03, T14.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T14.GK.04 and T14.GK.03, but T14.GK.04 already depends on T14.GK.03
+    Fix: Remove T14.GK.03 from dependencies (already implied by T14.GK.04)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.04
+TITLE: Clone budget profiler
+DEPENDENCIES (5): T07.G3.05, T08.G3.01, T08.G3.05, T09.G3.01, T14.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T14.G7.05
+TITLE: Difficulty curves
+DEPENDENCIES (5): T07.G3.05, T08.G3.01, T08.G3.05, T09.G3.01, T14.GK.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T16.G7.02
+TITLE: Implement a search or filter interface
+DEPENDENCIES (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T16.G6.04
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T17.G7.05
+TITLE: Instrument and graph motion data
+DEPENDENCIES (5): T07.G3.05, T08.G3.05, T09.G3.01, T17.G6.07, T17.G6.08
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T18.G7.05
+TITLE: Script camera transitions for cutscenes
+DEPENDENCIES (5): T06.G3.01, T07.G3.05, T09.G3.01, T14.G3.01, T18.G6.05
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.01
+TITLE: Balance starting conditions and scoring
+DEPENDENCIES (5): T06.G3.01, T06.G3.08, T09.G3.01, T19.G6.05, T31.G5.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T19.G6.05)
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.02
+TITLE: Implement dynamic team assignment or matchmaking
+DEPENDENCIES (5): T06.G3.01, T06.G3.08, T09.G3.01, T19.G6.05, T31.G5.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T19.G6.05)
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.03
+TITLE: Decide what data syncs vs stays local
+DEPENDENCIES (5): T06.G3.01, T06.G3.08, T09.G3.01, T19.G6.05, T31.G5.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T19.G6.05 and T31.G5.01, but T19.G6.05 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T19.G6.05)
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.04
+TITLE: Scale logic to handle variable player counts
+DEPENDENCIES (7): T06.G3.01, T06.G3.08, T07.G3.01, T08.G3.01, T09.G3.01, T19.G6.04, T19.G6.05
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T07.G3.01 and T06.G3.01, but T07.G3.01 already depends on T06.G3.01
+    Fix: Remove T06.G3.01 from dependencies (already implied by T07.G3.01)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+  Issue #3: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+  Issue #4: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T19.G7.05
+TITLE: Display connection quality and apply fallbacks
+DEPENDENCIES (5): T06.G3.08, T08.G3.01, T19.G6.04, T19.G6.05, T31.G5.01
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T19.G6.04 and T31.G5.01, but T19.G6.04 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T19.G6.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T20.G7.02
+TITLE: Use while/repeat-until loops in art
+DEPENDENCIES (5): T07.G3.01, T07.G3.05, T08.G3.01, T20.GK.04, T28.G3.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.03
+TITLE: Audit AI imagery for representation and bias
+DEPENDENCIES (7): T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T07.G3.01 and T06.G3.01, but T07.G3.01 already depends on T06.G3.01
+    Fix: Remove T06.G3.01 from dependencies (already implied by T07.G3.01)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T08.G3.01 and T07.G3.01, but T08.G3.01 already depends on T07.G3.01
+    Fix: Remove T07.G3.01 from dependencies (already implied by T08.G3.01)
+
+--------------------------------------------------------------------------------
+
+SKILL: T21.G7.05
+TITLE: Pair AI visuals with AI narration for immersive scenes
+DEPENDENCIES (5): T06.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T21.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.01
+TITLE: Define a reusable gesture dictionary
+DEPENDENCIES (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T23.GK.03
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.02
+TITLE: Require multimodal confirmation (voice + gesture)
+DEPENDENCIES (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T23.GK.03 and T23.GK.02, but T23.GK.03 already depends on T23.GK.02
+    Fix: Remove T23.GK.02 from dependencies (already implied by T23.GK.03)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions variables/state but no T09 (Variables) dependency found
+    Fix: Add appropriate T09 variable skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.03
+TITLE: Score a pose-based challenge with coaching tips
+DEPENDENCIES (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T23.GK.03 and T23.GK.02, but T23.GK.03 already depends on T23.GK.02
+    Fix: Remove T23.GK.02 from dependencies (already implied by T23.GK.03)
+
+  Issue #2: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.05
+TITLE: Build a calibration wizard for sensors
+DEPENDENCIES (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T23.GK.03 and T23.GK.02, but T23.GK.03 already depends on T23.GK.02
+    Fix: Remove T23.GK.02 from dependencies (already implied by T23.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T23.G7.06
+TITLE: Implement fairness safeguards for perception systems
+DEPENDENCIES (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T23.GK.03 and T23.GK.02, but T23.GK.03 already depends on T23.GK.02
+    Fix: Remove T23.GK.02 from dependencies (already implied by T23.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.01
+TITLE: Create reusable XO prompt macros
+DEPENDENCIES (5): T09.G3.01, T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T24.G7.05
+TITLE: Use XO to coach peers with rubric-based feedback
+DEPENDENCIES (5): T06.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T24.G6.06
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.01
+TITLE: Normalize repeating data into separate tables
+DEPENDENCIES (4): T25.G1.01, T25.G1.02, T25.GK.02, T25.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T25.G1.02 and T25.G1.01, but T25.G1.02 already depends on T25.G1.01
+    Fix: Remove T25.G1.01 from dependencies (already implied by T25.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+    Fix: Remove T25.GK.02 from dependencies (already implied by T25.GK.03)
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions loops but no T07 (Loops) dependency found
+    Fix: Add appropriate T07 loop skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.02
+TITLE: Identify bias introduced by representation choices
+DEPENDENCIES (4): T25.G1.01, T25.G1.02, T25.GK.02, T25.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T25.G1.02 and T25.G1.01, but T25.G1.02 already depends on T25.G1.01
+    Fix: Remove T25.G1.01 from dependencies (already implied by T25.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+    Fix: Remove T25.GK.02 from dependencies (already implied by T25.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.03
+TITLE: Create JSON-like snippets to store structured state
+DEPENDENCIES (4): T06.G3.01, T09.G3.01, T25.GK.02, T25.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+    Fix: Remove T25.GK.02 from dependencies (already implied by T25.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T25.G7.04
+TITLE: Evaluate storage vs performance tradeoffs
+DEPENDENCIES (4): T25.G1.01, T25.G1.02, T25.GK.02, T25.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T25.G1.02 and T25.G1.01, but T25.G1.02 already depends on T25.G1.01
+    Fix: Remove T25.G1.01 from dependencies (already implied by T25.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T25.GK.03 and T25.GK.02, but T25.GK.03 already depends on T25.GK.02
+    Fix: Remove T25.GK.02 from dependencies (already implied by T25.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T26.G7.02
+TITLE: Monitor data quality in real time
+DEPENDENCIES (5): T09.G3.01, T09.G3.04, T10.G3.03, T26.GK.02, T26.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.01
+TITLE: Build multi-chart dashboards with linked filters
+DEPENDENCIES (5): T09.G3.01, T09.G3.04, T26.G3.04, T27.GK.02, T27.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T27.GK.03 and T27.GK.02, but T27.GK.03 already depends on T27.GK.02
+    Fix: Remove T27.GK.02 from dependencies (already implied by T27.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.02
+TITLE: Conduct residual/error analysis
+DEPENDENCIES (5): T08.G3.01, T09.G3.04, T26.G3.04, T27.GK.02, T27.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T27.GK.03 and T27.GK.02, but T27.GK.03 already depends on T27.GK.02
+    Fix: Remove T27.GK.02 from dependencies (already implied by T27.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T27.G7.03
+TITLE: Evaluate fairness metrics
+DEPENDENCIES (5): T08.G3.01, T09.G3.04, T26.G3.04, T27.GK.02, T27.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T27.GK.03 and T27.GK.02, but T27.GK.03 already depends on T27.GK.02
+    Fix: Remove T27.GK.02 from dependencies (already implied by T27.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.01
+TITLE: Build agent-based simulations
+DEPENDENCIES (5): T06.G3.01, T07.G3.05, T09.G3.01, T09.G3.04, T28.G6.05
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T28.G7.05
+TITLE: Trace how a simple agent learns from rewards
+DEPENDENCIES (5): T07.G3.05, T09.G3.01, T09.G3.04, T28.G6.04, T28.G6.05
+
+  Issue #1: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.01
+TITLE: Build keyword retrieval helpers (mini-RAG)
+DEPENDENCIES (5): T09.G3.01, T09.G3.04, T10.G3.03, T29.G6.03, T29.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.02
+TITLE: Engineer text features for classifiers
+DEPENDENCIES (5): T08.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T29.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T09.G3.01 and T08.G3.01, but T09.G3.01 already depends on T08.G3.01
+    Fix: Remove T08.G3.01 from dependencies (already implied by T09.G3.01)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T29.G7.03
+TITLE: Audit text datasets for bias and coverage
+DEPENDENCIES (5): T06.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T29.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.01
+TITLE: Analyze energy consumption & thermal limits
+DEPENDENCIES (4): T30.G1.01, T30.G1.02, T30.GK.02, T30.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T30.G1.02 and T30.G1.01, but T30.G1.02 already depends on T30.G1.01
+    Fix: Remove T30.G1.01 from dependencies (already implied by T30.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+    Fix: Remove T30.GK.02 from dependencies (already implied by T30.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.02
+TITLE: Design redundancy/fail-safes for sensors
+DEPENDENCIES (4): T01.G3.01, T01.G3.02, T30.GK.02, T30.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+    Fix: Remove T30.GK.02 from dependencies (already implied by T30.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.03
+TITLE: Design redundancy/fail-safes for AI sensors
+DEPENDENCIES (4): T01.G3.01, T01.G3.02, T30.GK.02, T30.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+    Fix: Remove T30.GK.02 from dependencies (already implied by T30.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.04
+TITLE: Compare CPUs, GPUs, and TPUs for AI workloads
+DEPENDENCIES (4): T30.G1.01, T30.G1.02, T30.GK.02, T30.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T30.G1.02 and T30.G1.01, but T30.G1.02 already depends on T30.G1.01
+    Fix: Remove T30.G1.01 from dependencies (already implied by T30.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+    Fix: Remove T30.GK.02 from dependencies (already implied by T30.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T30.G7.05
+TITLE: Debate privacy implications of AI-powered sensors
+DEPENDENCIES (4): T30.G1.01, T30.G1.02, T30.GK.02, T30.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T30.G1.02 and T30.G1.01, but T30.G1.02 already depends on T30.G1.01
+    Fix: Remove T30.G1.01 from dependencies (already implied by T30.G1.02)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T30.GK.03 and T30.GK.02, but T30.GK.03 already depends on T30.GK.02
+    Fix: Remove T30.GK.02 from dependencies (already implied by T30.GK.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.01
+TITLE: Model a distributed multiplayer server
+DEPENDENCIES (4): T02.G3.01, T31.G5.01, T31.G6.04, T31.G6.05
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T31.G5.01 and T02.G3.01, but T31.G5.01 already depends on T02.G3.01
+    Fix: Remove T02.G3.01 from dependencies (already implied by T31.G5.01)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T31.G6.04 and T31.G5.01, but T31.G6.04 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T31.G6.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.02
+TITLE: Design a protocol for multiplayer state sync
+DEPENDENCIES (4): T31.G5.01, T31.G5.02, T31.G6.04, T31.G6.05
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T31.G6.04 and T31.G5.01, but T31.G6.04 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T31.G6.04)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T31.G6.04 and T31.G5.02, but T31.G6.04 already depends on T31.G5.02
+    Fix: Remove T31.G5.02 from dependencies (already implied by T31.G6.04)
+
+  Issue #3: [Missing dependency]
+    Problem: Description mentions lists/tables but no T10 (Lists & Tables) dependency found
+    Fix: Add appropriate T10 list skill dependency
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.03
+TITLE: Compare network topology options
+DEPENDENCIES (4): T31.G5.01, T31.G5.02, T31.G6.04, T31.G6.05
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T31.G6.04 and T31.G5.01, but T31.G6.04 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T31.G6.04)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T31.G6.04 and T31.G5.02, but T31.G6.04 already depends on T31.G5.02
+    Fix: Remove T31.G5.02 from dependencies (already implied by T31.G6.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T31.G7.05
+TITLE: Analyze societal impacts of networked systems
+DEPENDENCIES (4): T04.G2.01, T31.G5.01, T31.G6.04, T31.G6.05
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T31.G6.04 and T31.G5.01, but T31.G6.04 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T31.G6.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T32.G7.02
+TITLE: Simulate password cracking attempts
+DEPENDENCIES (4): T32.G1.01, T32.G1.02, T32.GK.02, T32.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T32.G1.02 and T32.G1.01, but T32.G1.02 already depends on T32.G1.01
+    Fix: Remove T32.G1.01 from dependencies (already implied by T32.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T32.G7.04
+TITLE: Analyze AI-powered surveillance ethics and societal impacts
+DEPENDENCIES (4): T32.G1.01, T32.G1.02, T32.GK.02, T32.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T32.G1.02 and T32.G1.01, but T32.G1.02 already depends on T32.G1.01
+    Fix: Remove T32.G1.01 from dependencies (already implied by T32.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.01
+TITLE: Securely store and reference service credentials (conceptual)
+DEPENDENCIES (5): T08.G3.01, T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T33.G6.03 and T31.G5.01, but T33.G6.03 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T33.G6.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.02
+TITLE: Build wrappers that combine multiple services
+DEPENDENCIES (5): T06.G3.01, T09.G3.01, T10.G3.03, T31.G5.01, T33.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T33.G6.04 and T31.G5.01, but T33.G6.04 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T33.G6.04)
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.03
+TITLE: Compare service options and pick the right tool
+DEPENDENCIES (5): T08.G3.01, T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T33.G6.03 and T31.G5.01, but T33.G6.03 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T33.G6.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T33.G7.04
+TITLE: Implement caching/memoization for repeated requests
+DEPENDENCIES (5): T09.G3.01, T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T10.G3.03 and T09.G3.01, but T10.G3.03 already depends on T09.G3.01
+    Fix: Remove T09.G3.01 from dependencies (already implied by T10.G3.03)
+
+  Issue #2: [Transitive dependency]
+    Problem: Depends on both T33.G6.03 and T31.G5.01, but T33.G6.03 already depends on T31.G5.01
+    Fix: Remove T31.G5.01 from dependencies (already implied by T33.G6.03)
+
+--------------------------------------------------------------------------------
+
+SKILL: T34.G7.01
+TITLE: Research AI history milestones
+DEPENDENCIES (4): T34.G1.01, T34.G1.02, T34.GK.02, T34.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T34.G1.02 and T34.G1.01, but T34.G1.02 already depends on T34.G1.01
+    Fix: Remove T34.G1.01 from dependencies (already implied by T34.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T34.G7.02
+TITLE: Evaluate technology policies over time
+DEPENDENCIES (4): T34.G1.01, T34.G1.02, T34.GK.02, T34.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T34.G1.02 and T34.G1.01, but T34.G1.02 already depends on T34.G1.01
+    Fix: Remove T34.G1.01 from dependencies (already implied by T34.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.01
+TITLE: Conduct comprehensive bias audits across T21-T24 AI features
+DEPENDENCIES (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+    Fix: Remove T35.G1.01 from dependencies (already implied by T35.G1.02)
+
+  Issue #2: [Potentially too broad]
+    Problem: Contains vague term "comprehensive" - may be too broad or unclear
+    Fix: Consider breaking into more specific skills or clarifying scope
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.02
+TITLE: Explore unintended consequences of new tech
+DEPENDENCIES (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+    Fix: Remove T35.G1.01 from dependencies (already implied by T35.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.03
+TITLE: Evaluate transparency vs security tensions
+DEPENDENCIES (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+    Fix: Remove T35.G1.01 from dependencies (already implied by T35.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.04
+TITLE: Analyze societal impacts of AI perception technologies (Pairing with T23)
+DEPENDENCIES (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+    Fix: Remove T35.G1.01 from dependencies (already implied by T35.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.05
+TITLE: Debate ethical implications of AI media generation (Pairing with T21)
+DEPENDENCIES (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+    Fix: Remove T35.G1.01 from dependencies (already implied by T35.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T35.G7.06
+TITLE: Facilitate community discussions on AI-powered tech policy
+DEPENDENCIES (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T35.G1.02 and T35.G1.01, but T35.G1.02 already depends on T35.G1.01
+    Fix: Remove T35.G1.01 from dependencies (already implied by T35.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T36.G7.01
+TITLE: Interview diverse technologists about AI ethics and equity
+DEPENDENCIES (4): T36.G1.01, T36.G1.02, T36.GK.02, T36.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T36.G1.02 and T36.G1.01, but T36.G1.02 already depends on T36.G1.01
+    Fix: Remove T36.G1.01 from dependencies (already implied by T36.G1.02)
+
+--------------------------------------------------------------------------------
+
+SKILL: T36.G7.03
+TITLE: Facilitate inclusive collaboration
+DEPENDENCIES (4): T36.G1.01, T36.G1.02, T36.GK.02, T36.GK.03
+
+  Issue #1: [Transitive dependency]
+    Problem: Depends on both T36.G1.02 and T36.G1.01, but T36.G1.02 already depends on T36.G1.01
+    Fix: Remove T36.G1.01 from dependencies (already implied by T36.G1.02)
+
+--------------------------------------------------------------------------------
+

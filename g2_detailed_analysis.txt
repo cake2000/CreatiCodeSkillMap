@@ -1,0 +1,401 @@
+====================================================================================================
+G2 SKILLS DETAILED ANALYSIS
+====================================================================================================
+
+Total G2 Skills: 88
+Topics Covered: 20
+
+====================================================================================================
+G2 SKILLS BY TOPIC
+====================================================================================================
+
+T01: 14 skills
+  [T01.G2.01] Find actions that repeat in everyday tasks
+    Dependencies (1):
+      - [G1] T04.G1.03: Find repeated steps in an instruction list
+  [T01.G2.02] Use "repeat" to make directions shorter
+    Dependencies (1):
+      - [G2] T01.G2.01: Find actions that repeat in everyday tasks
+  [T01.G2.03] Replace repeated steps with a repeat instruction
+    Dependencies (1):
+      - [G2] T01.G2.02: Use "repeat" to make directions shorter
+  [T01.G2.04] Match if/then rules to pictures
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+  [T01.G2.05] Complete a simple if/then algorithm
+    Dependencies (1):
+      - [G2] T01.G2.04: Match if/then rules to pictures
+  [T01.G2.06] Choose the best if/then rule for a situation
+    Dependencies (1):
+      - [G2] T01.G2.05: Complete a simple if/then algorithm
+  [T01.G2.07] Trace an algorithm that uses an if/then choice
+    Dependencies (1):
+      - [G2] T01.G2.06: Choose the best if/then rule for a situation
+  [T01.G2.08] Trace an algorithm that uses "repeat ___ times"
+    Dependencies (1):
+      - [G2] T01.G2.03: Replace repeated steps with a repeat instruction
+  [T01.G2.09] Fix a wrong repeat count in an algorithm
+    Dependencies (1):
+      - [G2] T01.G2.08: Trace an algorithm that uses "repeat ___ times"
+  [T01.G2.10] Fix a wrong or missing if/then branch
+    Dependencies (2):
+      - [G2] T01.G2.07: Trace an algorithm that uses an if/then choice
+      - [G1] T01.G1.06: Fix a routine with one wrong step
+  [T01.G2.11] Trace maze directions on a simple grid
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T01.G2.12] Choose directions that reach the goal
+    Dependencies (1):
+      - [G2] T01.G2.11: Trace maze directions on a simple grid
+  [T01.G2.13] Write directions to navigate a simple grid
+    Dependencies (1):
+      - [G2] T01.G2.12: Choose directions that reach the goal
+  [T01.G2.14] Fix maze directions that miss the goal
+    Dependencies (1):
+      - [G2] T01.G2.13: Write directions to navigate a simple grid
+
+T02: 6 skills
+  [T02.G2.01] Turn a picture routine into labeled boxes
+    Dependencies (1):
+      - [G1] T02.G1.01: Make a 3–4 step picture algorithm
+  [T02.G2.02] Read a box diagram and choose the matching pictures
+    Dependencies (1):
+      - [G2] T02.G2.01: Turn a picture routine into labeled boxes
+  [T02.G2.03] Trace a simple left‑to‑right instruction sequence
+    Dependencies (1):
+      - [G2] T02.G2.02: Read a box diagram and choose the matching pictures
+  [T02.G2.04] Reveal one instruction at a time and mark intermediate states
+    Dependencies (1):
+      - [G2] T02.G2.03: Trace a simple left‑to‑right instruction sequence
+  [T02.G2.05] Match a box diagram to a step sequence
+    Dependencies (2):
+      - [G2] T02.G2.02: Read a box diagram and choose the matching pictures
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T02.G2.06] Fix a sequencing error in a step sequence
+    Dependencies (1):
+      - [G2] T02.G2.05: Match a box diagram to a step sequence
+
+T03: 4 skills
+  [T03.G2.01] Choose subtasks for a simple project idea
+    Dependencies (1):
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+  [T03.G2.02] Group similar subtasks together
+    Dependencies (1):
+      - [G2] T03.G2.01: Choose subtasks for a simple project idea
+  [T03.G2.03] Arrange subtasks into a reasonable order
+    Dependencies (1):
+      - [G2] T03.G2.02: Group similar subtasks together
+  [T03.G2.04] Use a checklist to track progress on a mini‑project
+    Dependencies (1):
+      - [G2] T03.G2.03: Arrange subtasks into a reasonable order
+
+T04: 4 skills
+  [T04.G2.01] Identify the repeating unit in a longer pattern
+    Dependencies (1):
+      - [G1] T04.G1.03: Find repeated steps in an instruction list
+  [T04.G2.02] Spot repeated step sequences in everyday algorithms
+    Dependencies (1):
+      - [G2] T04.G2.01: Identify the repeating unit in a longer pattern
+  [T04.G2.03] Compare a long explicit description vs a compressed “repeat” description
+    Dependencies (1):
+      - [G2] T01.G2.02: Use "repeat" to make directions shorter
+  [T04.G2.04] Replace repeated steps with a "repeat ___ times" phrase
+    Dependencies (1):
+      - [G2] T04.G2.03: Compare a long explicit description vs a compressed “repeat” description
+
+T05: 4 skills
+  [T05.G2.01] Match different users to different preferred designs
+    Dependencies (1):
+      - [G1] T05.G1.03: Choose a better version of a simple screen for a given user
+  [T05.G2.02] Identify features that make a design more accessible
+    Dependencies (1):
+      - [G1] T05.G1.04: Suggest one change that helps a specific user
+  [T05.G2.03] Recognize when a situation could be simulated
+    Dependencies (1):
+      - [G1] T05.G1.01: Identify what a character needs in a story
+  [T05.G2.04] Choose what to include in a very simple simulation
+    Dependencies (1):
+      - [G2] T05.G2.03: Recognize when a situation could be simulated
+
+T12: 4 skills
+  [T12.G2.01] Add a note to explain a section of a plan
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T12.G2.02] Fix confusing labels on a plan
+    Dependencies (1):
+      - [G1] T12.G1.02: Give a clear title to a set of steps
+  [T12.G2.03] Use the same style for section titles
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T12.G2.04] Group related steps under a heading
+    Dependencies (2):
+      - [G1] T03.G1.02: Group related parts into categories
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+
+T13: 4 skills
+  [T13.G2.01] Fix steps that use the wrong signal
+    Dependencies (1):
+      - [G1] T01.G1.06: Fix a routine with one wrong step
+  [T13.G2.02] Trace a set of steps and predict behavior
+    Dependencies (2):
+      - [G1] T01.G1.05: Find the missing step in an algorithm
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+  [T13.G2.03] Fix a repeated step that happens too many or too few times
+    Dependencies (2):
+      - [G2] T04.G2.01: Identify the repeating unit in a longer pattern
+      - [G2] T01.G2.01: Find actions that repeat in everyday tasks
+  [T13.G2.04] Add a simple check to see if steps worked
+    Dependencies (2):
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+      - [G1] T01.G1.09: Match an algorithm to its goal
+
+T14: 5 skills
+  [T14.G2.01] Understand turns and rounds
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T14.G2.02] Track lives and game over conditions
+    Dependencies (1):
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+  [T14.G2.03] Recognize level progression
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T14.G2.04] Sequence a safe route
+    Dependencies (1):
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+  [T14.G2.05] Adjust difficulty knobs
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+
+T15: 3 skills
+  [T15.G2.01] Fast vs. Slow animation
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T15.G2.02] Identify scene transitions
+    Dependencies (2):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+  [T15.G2.03] Loop patterns in animation
+    Dependencies (1):
+      - [G1] T01.G1.07: Decide if two algorithms finish with the same result
+
+T20: 4 skills
+  [T20.G2.01] Use repeat cards in an art recipe
+    Dependencies (1):
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+  [T20.G2.02] Plan mirrored mosaics
+    Dependencies (2):
+      - [G1] T05.G1.01: Identify what a character needs in a story
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+  [T20.G2.03] Build layered pattern recipes
+    Dependencies (2):
+      - [G2] T20.G2.01: Use repeat cards in an art recipe
+      - [G2] T01.G2.02: Use "repeat" to make directions shorter
+  [T20.G2.04] Explain how a change affects the art
+    Dependencies (2):
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+      - [G2] T20.G2.03: Build layered pattern recipes
+
+T23: 3 skills
+  [T23.G2.01] Pick the right sensor for a job
+    Dependencies (1):
+      - [G1] T23.G1.03: Choose what a sensor can notice
+  [T23.G2.02] Spot when sensor data might be unclear
+    Dependencies (1):
+      - [G2] T23.G2.01: Pick the right sensor for a job
+  [T23.G2.03] Notice that devices sometimes “guess”
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+
+T25: 4 skills
+  [T25.G2.01] Choose labels for a category chart
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+  [T25.G2.02] Translate between timeline, table, and sentence
+    Dependencies (2):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+      - [G1] T25.G1.03: Describe the same fact in words and numbers
+  [T25.G2.03] Pick the best representation for a question
+    Dependencies (2):
+      - [G1] T25.G1.02: Design a picture table
+      - [G2] T25.G2.02: Translate between timeline, table, and sentence
+  [T25.G2.04] Combine two data attributes
+    Dependencies (1):
+      - [G1] T25.G1.02: Design a picture table
+
+T26: 4 skills
+  [T26.G2.01] Distinguish observational vs survey data
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T26.G2.02] Build a two-column record sheet
+    Dependencies (2):
+      - [G1] T26.G1.01: Run a three-option picture survey
+      - [G1] T25.G1.02: Design a picture table
+  [T26.G2.03] Use timers to collect duration data
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T26.G2.04] Explain why sample size matters
+    Dependencies (2):
+      - [G1] T26.G1.01: Run a three-option picture survey
+      - [G2] T26.G2.02: Build a two-column record sheet
+
+T27: 4 skills
+  [T27.G2.01] Create bar charts with axes labels
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T27.G2.02] Interpret simple line plots
+    Dependencies (2):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+      - [G1] T27.G1.01: Build a pictograph from tallies
+  [T27.G2.03] Identify outliers in small data sets
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+  [T27.G2.04] Decide if data answers the question asked
+    Dependencies (2):
+      - [G1] T27.G1.03: Tell a one-sentence story with data
+      - [G2] T27.G2.02: Interpret simple line plots
+
+T28: 4 skills
+  [T28.G2.01] Sort events into certain / possible / impossible
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T28.G2.02] Conduct a picture-based chance experiment
+    Dependencies (2):
+      - [G1] T26.G1.01: Run a three-option picture survey
+      - [G1] T25.G1.01: Record data with tally marks
+  [T28.G2.03] Decide if a simple game is fair
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+  [T28.G2.04] Predict and observe outcomes
+    Dependencies (2):
+      - [G2] T28.G2.02: Conduct a picture-based chance experiment
+      - [G1] T01.G1.04: Predict the next step in a story sequence
+
+T30: 4 skills
+  [T30.G2.01] Explain core internal components
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T30.G2.02] Trace input → process → output
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T30.G2.03] Compare wired vs wireless connections
+    Dependencies (1):
+      - [G1] T01.G1.07: Decide if two algorithms finish with the same result
+  [T30.G2.04] Share best practices for caring for devices
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+
+T32: 4 skills
+  [T32.G2.01] Create a strong password recipe
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T32.G2.02] Practice logging off shared devices
+    Dependencies (2):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+  [T32.G2.03] Recognize safe digital citizenship behaviors
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T32.G2.04] Describe basic device care for security
+    Dependencies (2):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+
+T34: 3 skills
+  [T34.G2.01] Build “then vs now” comparison charts
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+  [T34.G2.02] Identify communities impacted by inventions
+    Dependencies (2):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+  [T34.G2.03] Create mini-biographies of computing helpers
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+
+T35: 3 skills
+  [T35.G2.01] Compare benefits and harms of a tech tool
+    Dependencies (1):
+      - [G1] T01.G1.07: Decide if two algorithms finish with the same result
+  [T35.G2.02] Plan balanced tech schedules
+    Dependencies (2):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+  [T35.G2.03] Practice online kindness scripts
+    Dependencies (1):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+
+T36: 3 skills
+  [T36.G2.01] Identify project roles in simple terms
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+  [T36.G2.02] Plan balanced daily routines
+    Dependencies (2):
+      - [G1] T01.G1.01: Put pictures in order to plant a seed
+      - [G1] T03.G1.03: List steps for a simple classroom routine
+  [T36.G2.03] Recognize teammates’ different strengths
+    Dependencies (1):
+      - [G1] T01.G1.10: Match pictures to "if/then" rules
+
+====================================================================================================
+DEPENDENCY STATISTICS
+====================================================================================================
+
+Average dependencies per G2 skill: 1.26
+
+Distribution of dependency counts:
+  1 dependencies: 65 skills (73.9%)
+  2 dependencies: 23 skills (26.1%)
+
+====================================================================================================
+TOP 10 G2 SKILLS WITH MOST DEPENDENCIES
+====================================================================================================
+
+[T01.G2.10] Fix a wrong or missing if/then branch
+  Dependencies: 2
+    - [G2] T01.G2.07
+    - [G1] T01.G1.06
+
+[T02.G2.05] Match a box diagram to a step sequence
+  Dependencies: 2
+    - [G2] T02.G2.02
+    - [G1] T01.G1.01
+
+[T12.G2.04] Group related steps under a heading
+  Dependencies: 2
+    - [G1] T03.G1.02
+    - [G1] T03.G1.03
+
+[T13.G2.02] Trace a set of steps and predict behavior
+  Dependencies: 2
+    - [G1] T01.G1.05
+    - [G1] T03.G1.03
+
+[T13.G2.03] Fix a repeated step that happens too many or too few times
+  Dependencies: 2
+    - [G2] T04.G2.01
+    - [G2] T01.G2.01
+
+[T13.G2.04] Add a simple check to see if steps worked
+  Dependencies: 2
+    - [G1] T03.G1.03
+    - [G1] T01.G1.09
+
+[T15.G2.02] Identify scene transitions
+  Dependencies: 2
+    - [G1] T01.G1.10
+    - [G1] T01.G1.04
+
+[T20.G2.02] Plan mirrored mosaics
+  Dependencies: 2
+    - [G1] T05.G1.01
+    - [G1] T01.G1.04
+
+[T20.G2.03] Build layered pattern recipes
+  Dependencies: 2
+    - [G2] T20.G2.01
+    - [G2] T01.G2.02
+
+[T20.G2.04] Explain how a change affects the art
+  Dependencies: 2
+    - [G1] T01.G1.04
+    - [G2] T20.G2.03

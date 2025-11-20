@@ -1,0 +1,1090 @@
+{
+  "T03.G5.01": {
+    "skill_id": "T03.G5.01",
+    "skill_name": "Create a feature list and subtask breakdown",
+    "topic": "T03",
+    "current_dependencies": [
+      "T06.G3.01",
+      "T03.G1.02",
+      "T03.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T03.G1.02"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T03.G3.01",
+      "T03.GK.04",
+      "T06.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T03.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T03.G3.01"
+    ],
+    "rationale": [
+      "Replace T03.G1.02 with T03.G3.01: Same topic (T03) G3 skill replacing G1 skill"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 1
+    }
+  },
+  "T03.G5.03": {
+    "skill_id": "T03.G5.03",
+    "skill_name": "Identify task dependencies in a project plan",
+    "topic": "T03",
+    "current_dependencies": [
+      "T03.G1.02",
+      "T03.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T03.G1.02"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T03.G3.01",
+      "T03.GK.04"
+    ],
+    "dependencies_to_remove": [
+      "T03.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T03.G3.01"
+    ],
+    "rationale": [
+      "Replace T03.G1.02 with T03.G3.01: Same topic (T03) G3 skill replacing G1 skill"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 1
+    }
+  },
+  "T03.G5.04": {
+    "skill_id": "T03.G5.04",
+    "skill_name": "Flag high\u2011risk or unclear tasks",
+    "topic": "T03",
+    "current_dependencies": [
+      "T03.G1.02",
+      "T03.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T03.G1.02"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T03.G3.01",
+      "T03.GK.04"
+    ],
+    "dependencies_to_remove": [
+      "T03.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T03.G3.01"
+    ],
+    "rationale": [
+      "Replace T03.G1.02 with T03.G3.01: Same topic (T03) G3 skill replacing G1 skill"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 1
+    }
+  },
+  "T05.G5.01": {
+    "skill_id": "T05.G5.01",
+    "skill_name": "Write clear user needs and requirements for a small app",
+    "topic": "T05",
+    "current_dependencies": [
+      "T06.G3.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T05.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T05.GK.03"
+    ],
+    "proposed_dependencies": [
+      "T05.G3.01",
+      "T05.GK.04",
+      "T06.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T05.G1.02",
+      "T05.GK.03"
+    ],
+    "dependencies_to_add": [
+      "T05.G3.01"
+    ],
+    "rationale": [
+      "Replace T05.G1.02 with T05.G3.01: Same topic (T05) G3 skill replacing G1 skill",
+      "Remove T05.GK.03: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T05.G5.02": {
+    "skill_id": "T05.G5.02",
+    "skill_name": "Create a low\u2011fidelity sketch for a user story",
+    "topic": "T05",
+    "current_dependencies": [
+      "T06.G3.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T05.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T05.GK.03"
+    ],
+    "proposed_dependencies": [
+      "T05.G3.01",
+      "T05.GK.04",
+      "T06.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T05.G1.02",
+      "T05.GK.03"
+    ],
+    "dependencies_to_add": [
+      "T05.G3.01"
+    ],
+    "rationale": [
+      "Replace T05.G1.02 with T05.G3.01: Same topic (T05) G3 skill replacing G1 skill",
+      "Remove T05.GK.03: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T05.G5.03": {
+    "skill_id": "T05.G5.03",
+    "skill_name": "Identify variables and initial values for a simulation",
+    "topic": "T05",
+    "current_dependencies": [
+      "T01.G3.01",
+      "T05.GK.03",
+      "T05.GK.04",
+      "T09.G3.01"
+    ],
+    "issues": [],
+    "transitive_deps_to_remove": [
+      "T05.GK.03"
+    ],
+    "proposed_dependencies": [
+      "T01.G3.01",
+      "T05.GK.04",
+      "T09.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T05.GK.03"
+    ],
+    "dependencies_to_add": [],
+    "rationale": [
+      "Remove T05.GK.03: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 0,
+      "removal_count": 1
+    }
+  },
+  "T05.G5.04": {
+    "skill_id": "T05.G5.04",
+    "skill_name": "Draft simple update rules for a simulation",
+    "topic": "T05",
+    "current_dependencies": [
+      "T05.GK.03",
+      "T05.GK.04",
+      "T09.G3.01"
+    ],
+    "issues": [],
+    "transitive_deps_to_remove": [
+      "T05.GK.03"
+    ],
+    "proposed_dependencies": [
+      "T05.GK.04",
+      "T09.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T05.GK.03"
+    ],
+    "dependencies_to_add": [],
+    "rationale": [
+      "Remove T05.GK.03: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 0,
+      "removal_count": 1
+    }
+  },
+  "T05.G5.05": {
+    "skill_id": "T05.G5.05",
+    "skill_name": "Plan how to test whether a design meets user needs",
+    "topic": "T05",
+    "current_dependencies": [
+      "T06.G3.01",
+      "T04.G2.01",
+      "T05.G1.01",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T04.G2.01",
+      "Invalid grade: T05.G1.01"
+    ],
+    "transitive_deps_to_remove": [
+      "T05.GK.03"
+    ],
+    "proposed_dependencies": [
+      "T04.G3.01",
+      "T05.G3.01",
+      "T05.GK.04",
+      "T06.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T04.G2.01",
+      "T05.G1.01",
+      "T05.GK.03"
+    ],
+    "dependencies_to_add": [
+      "T04.G3.01",
+      "T05.G3.01"
+    ],
+    "rationale": [
+      "Replace T04.G2.01 with T04.G3.01: Same topic (T04) G3 skill replacing G2 skill",
+      "Replace T05.G1.01 with T05.G3.01: Same topic (T05) G3 skill replacing G1 skill",
+      "Remove T05.GK.03: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 2,
+      "removal_count": 3
+    }
+  },
+  "T05.G5.06": {
+    "skill_id": "T05.G5.06",
+    "skill_name": "Plan what to measure in a simulation experiment",
+    "topic": "T05",
+    "current_dependencies": [
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "issues": [
+      "Invalid grade: T05.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T05.GK.03"
+    ],
+    "proposed_dependencies": [
+      "T05.G3.01",
+      "T05.GK.04"
+    ],
+    "dependencies_to_remove": [
+      "T05.G1.02",
+      "T05.GK.03"
+    ],
+    "dependencies_to_add": [
+      "T05.G3.01"
+    ],
+    "rationale": [
+      "Replace T05.G1.02 with T05.G3.01: Same topic (T05) G3 skill replacing G1 skill",
+      "Remove T05.GK.03: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T12.G5.02": {
+    "skill_id": "T12.G5.02",
+    "skill_name": "Document code functionality and choices",
+    "topic": "T12",
+    "current_dependencies": [
+      "T12.G1.01",
+      "T12.G4.03",
+      "T12.G4.04"
+    ],
+    "issues": [
+      "Invalid grade: T12.G1.01"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T12.G3.01",
+      "T12.G4.03",
+      "T12.G4.04"
+    ],
+    "dependencies_to_remove": [
+      "T12.G1.01"
+    ],
+    "dependencies_to_add": [
+      "T12.G3.01"
+    ],
+    "rationale": [
+      "Replace T12.G1.01 with T12.G3.01: Same topic (T12) G3 skill replacing G1 skill"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 1
+    }
+  },
+  "T13.G5.04": {
+    "skill_id": "T13.G5.04",
+    "skill_name": "Modify a program to improve reliability and correctness",
+    "topic": "T13",
+    "current_dependencies": [
+      "T06.G3.01",
+      "T13.G1.01",
+      "T13.GK.02",
+      "T13.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T13.G1.01"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T06.G3.01",
+      "T13.G4.01",
+      "T13.GK.02",
+      "T13.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T13.G1.01"
+    ],
+    "dependencies_to_add": [
+      "T13.G4.01"
+    ],
+    "rationale": [
+      "Replace T13.G1.01 with T13.G4.01: Same topic (T13) G4 skill replacing G1 skill"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 1
+    }
+  },
+  "T25.G5.01": {
+    "skill_id": "T25.G5.01",
+    "skill_name": "Model multi-type game state",
+    "topic": "T25",
+    "current_dependencies": [
+      "T09.G3.01",
+      "T25.G1.01",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T25.G1.01"
+    ],
+    "transitive_deps_to_remove": [
+      "T25.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T09.G3.01",
+      "T25.G3.01",
+      "T25.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T25.G1.01",
+      "T25.GK.02"
+    ],
+    "dependencies_to_add": [
+      "T25.G3.01"
+    ],
+    "rationale": [
+      "Replace T25.G1.01 with T25.G3.01: Same topic (T25) G3 skill replacing G1 skill",
+      "Remove T25.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T25.G5.02": {
+    "skill_id": "T25.G5.02",
+    "skill_name": "Convert messy inputs into canonical formats",
+    "topic": "T25",
+    "current_dependencies": [
+      "T06.G3.01",
+      "T25.G1.01",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T25.G1.01"
+    ],
+    "transitive_deps_to_remove": [
+      "T25.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T06.G3.01",
+      "T25.G3.01",
+      "T25.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T25.G1.01",
+      "T25.GK.02"
+    ],
+    "dependencies_to_add": [
+      "T25.G3.01"
+    ],
+    "rationale": [
+      "Replace T25.G1.01 with T25.G3.01: Same topic (T25) G3 skill replacing G1 skill",
+      "Remove T25.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T25.G5.03": {
+    "skill_id": "T25.G5.03",
+    "skill_name": "Decide when to upgrade from list to table",
+    "topic": "T25",
+    "current_dependencies": [
+      "T25.G1.01",
+      "T25.G1.02",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T25.G1.01",
+      "Invalid grade: T25.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T25.G1.01",
+      "T25.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T25.G3.01",
+      "T25.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T25.G1.01",
+      "T25.G1.02",
+      "T25.GK.02"
+    ],
+    "dependencies_to_add": [
+      "T25.G3.01"
+    ],
+    "rationale": [
+      "Replace T25.G1.01 with T25.G3.01: Same topic (T25) G3 skill replacing G1 skill",
+      "Remove T25.G1.01: transitive dependency already covered",
+      "Remove T25.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 3
+    }
+  },
+  "T30.G5.01": {
+    "skill_id": "T30.G5.01",
+    "skill_name": "Match CreatiCode AI features to hardware requirements",
+    "topic": "T30",
+    "current_dependencies": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T30.G1.01",
+      "Invalid grade: T30.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T30.G1.01",
+      "T30.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T30.G3.01",
+      "T30.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02"
+    ],
+    "dependencies_to_add": [
+      "T30.G3.01"
+    ],
+    "rationale": [
+      "Replace T30.G1.01 with T30.G3.01: Same topic (T30) G3 skill replacing G1 skill",
+      "Remove T30.G1.01: transitive dependency already covered",
+      "Remove T30.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 3
+    }
+  },
+  "T30.G5.02": {
+    "skill_id": "T30.G5.02",
+    "skill_name": "Plan safe device-handling procedures for group work",
+    "topic": "T30",
+    "current_dependencies": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T30.G1.01",
+      "Invalid grade: T30.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T30.G1.01",
+      "T30.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T30.G3.01",
+      "T30.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02"
+    ],
+    "dependencies_to_add": [
+      "T30.G3.01"
+    ],
+    "rationale": [
+      "Replace T30.G1.01 with T30.G3.01: Same topic (T30) G3 skill replacing G1 skill",
+      "Remove T30.G1.01: transitive dependency already covered",
+      "Remove T30.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 3
+    }
+  },
+  "T30.G5.03": {
+    "skill_id": "T30.G5.03",
+    "skill_name": "Explain how different sensors collect data",
+    "topic": "T30",
+    "current_dependencies": [
+      "T09.G3.01",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "issues": [],
+    "transitive_deps_to_remove": [
+      "T30.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T09.G3.01",
+      "T30.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T30.GK.02"
+    ],
+    "dependencies_to_add": [],
+    "rationale": [
+      "Remove T30.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 0,
+      "removal_count": 1
+    }
+  },
+  "T30.G5.04": {
+    "skill_id": "T30.G5.04",
+    "skill_name": "Relate hardware choices to accessibility outcomes",
+    "topic": "T30",
+    "current_dependencies": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T30.G1.01",
+      "Invalid grade: T30.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T30.G1.01",
+      "T30.GK.02"
+    ],
+    "proposed_dependencies": [
+      "T30.G3.01",
+      "T30.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02"
+    ],
+    "dependencies_to_add": [
+      "T30.G3.01"
+    ],
+    "rationale": [
+      "Replace T30.G1.01 with T30.G3.01: Same topic (T30) G3 skill replacing G1 skill",
+      "Remove T30.G1.01: transitive dependency already covered",
+      "Remove T30.GK.02: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 3
+    }
+  },
+  "T31.G5.02": {
+    "skill_id": "T31.G5.02",
+    "skill_name": "Decide when apps need the internet vs work offline",
+    "topic": "T31",
+    "current_dependencies": [
+      "T01.G3.01",
+      "T30.G3.01",
+      "T31.G5.01"
+    ],
+    "issues": [
+      "Same-grade dependency: T31.G5.01"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T01.G3.01",
+      "T30.G3.01"
+    ],
+    "dependencies_to_remove": [
+      "T31.G5.01"
+    ],
+    "dependencies_to_add": [],
+    "rationale": [
+      "WARNING: No G3/G4 replacement found for T31.G5.01 - manual review needed"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 0,
+      "removal_count": 1
+    }
+  },
+  "T32.G5.01": {
+    "skill_id": "T32.G5.01",
+    "skill_name": "Analyze social engineering tactics",
+    "topic": "T32",
+    "current_dependencies": [
+      "T32.G1.01",
+      "T32.G1.02",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T32.G1.01",
+      "Invalid grade: T32.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T32.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T32.G3.01",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T32.G1.01",
+      "T32.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T32.G3.01"
+    ],
+    "rationale": [
+      "Replace T32.G1.01 with T32.G3.01: Same topic (T32) G3 skill replacing G1 skill",
+      "Remove T32.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T32.G5.02": {
+    "skill_id": "T32.G5.02",
+    "skill_name": "Evaluate terms of service/privacy policies (kid-friendly summaries)",
+    "topic": "T32",
+    "current_dependencies": [
+      "T32.G1.01",
+      "T32.G1.02",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T32.G1.01",
+      "Invalid grade: T32.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T32.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T32.G3.01",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T32.G1.01",
+      "T32.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T32.G3.01"
+    ],
+    "rationale": [
+      "Replace T32.G1.01 with T32.G3.01: Same topic (T32) G3 skill replacing G1 skill",
+      "Remove T32.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T32.G5.03": {
+    "skill_id": "T32.G5.03",
+    "skill_name": "Secure AI training data and outputs",
+    "topic": "T32",
+    "current_dependencies": [
+      "T32.G1.01",
+      "T32.G1.02",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T32.G1.01",
+      "Invalid grade: T32.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T32.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T32.G3.01",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T32.G1.01",
+      "T32.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T32.G3.01"
+    ],
+    "rationale": [
+      "Replace T32.G1.01 with T32.G3.01: Same topic (T32) G3 skill replacing G1 skill",
+      "Remove T32.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T34.G5.02": {
+    "skill_id": "T34.G5.02",
+    "skill_name": "Compare invention timelines in multiple industries",
+    "topic": "T34",
+    "current_dependencies": [
+      "T34.G1.01",
+      "T34.G1.02",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T34.G1.01",
+      "Invalid grade: T34.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T34.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T34.G3.01",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T34.G1.01",
+      "T34.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T34.G3.01"
+    ],
+    "rationale": [
+      "Replace T34.G1.01 with T34.G3.01: Same topic (T34) G3 skill replacing G1 skill",
+      "Remove T34.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T34.G5.03": {
+    "skill_id": "T34.G5.03",
+    "skill_name": "Conduct interviews with tech users",
+    "topic": "T34",
+    "current_dependencies": [
+      "T34.G1.01",
+      "T34.G1.02",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T34.G1.01",
+      "Invalid grade: T34.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T34.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T34.G3.01",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T34.G1.01",
+      "T34.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T34.G3.01"
+    ],
+    "rationale": [
+      "Replace T34.G1.01 with T34.G3.01: Same topic (T34) G3 skill replacing G1 skill",
+      "Remove T34.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T35.G5.01": {
+    "skill_id": "T35.G5.01",
+    "skill_name": "Examine global impacts of technology",
+    "topic": "T35",
+    "current_dependencies": [
+      "T35.G1.01",
+      "T35.G1.02",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T35.G1.01",
+      "Invalid grade: T35.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T35.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T35.G3.01",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T35.G1.01",
+      "T35.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T35.G3.01"
+    ],
+    "rationale": [
+      "Replace T35.G1.01 with T35.G3.01: Same topic (T35) G3 skill replacing G1 skill",
+      "Remove T35.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T35.G5.02": {
+    "skill_id": "T35.G5.02",
+    "skill_name": "Debate digital well-being scenarios",
+    "topic": "T35",
+    "current_dependencies": [
+      "T35.G1.01",
+      "T35.G1.02",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T35.G1.01",
+      "Invalid grade: T35.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T35.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T35.G3.01",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T35.G1.01",
+      "T35.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T35.G3.01"
+    ],
+    "rationale": [
+      "Replace T35.G1.01 with T35.G3.01: Same topic (T35) G3 skill replacing G1 skill",
+      "Remove T35.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  },
+  "T35.G5.03": {
+    "skill_id": "T35.G5.03",
+    "skill_name": "Analyze AI's differential impacts on workers and communities",
+    "topic": "T35",
+    "current_dependencies": [
+      "T04.G2.01",
+      "T35.G1.01",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T04.G2.01",
+      "Invalid grade: T35.G1.01"
+    ],
+    "transitive_deps_to_remove": [],
+    "proposed_dependencies": [
+      "T04.G3.01",
+      "T35.G3.01",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T04.G2.01",
+      "T35.G1.01"
+    ],
+    "dependencies_to_add": [
+      "T04.G3.01",
+      "T35.G3.01"
+    ],
+    "rationale": [
+      "Replace T04.G2.01 with T04.G3.01: Same topic (T04) G3 skill replacing G2 skill",
+      "Replace T35.G1.01 with T35.G3.01: Same topic (T35) G3 skill replacing G1 skill"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 2,
+      "removal_count": 2
+    }
+  },
+  "T36.G5.03": {
+    "skill_id": "T36.G5.03",
+    "skill_name": "Evaluate inclusion in tech stories",
+    "topic": "T36",
+    "current_dependencies": [
+      "T36.G1.01",
+      "T36.G1.02",
+      "T36.GK.02",
+      "T36.GK.03"
+    ],
+    "issues": [
+      "Invalid grade: T36.G1.01",
+      "Invalid grade: T36.G1.02"
+    ],
+    "transitive_deps_to_remove": [
+      "T36.G1.01"
+    ],
+    "proposed_dependencies": [
+      "T36.G3.01",
+      "T36.GK.02",
+      "T36.GK.03"
+    ],
+    "dependencies_to_remove": [
+      "T36.G1.01",
+      "T36.G1.02"
+    ],
+    "dependencies_to_add": [
+      "T36.G3.01"
+    ],
+    "rationale": [
+      "Replace T36.G1.01 with T36.G3.01: Same topic (T36) G3 skill replacing G1 skill",
+      "Remove T36.G1.01: transitive dependency already covered"
+    ],
+    "validation": {
+      "no_circular_deps": true,
+      "no_new_transitives": true,
+      "only_valid_grades": true,
+      "replacement_count": 1,
+      "removal_count": 2
+    }
+  }
+}

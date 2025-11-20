@@ -1,0 +1,185 @@
+================================================================================
+                    GRADE 5 SKILLS - ANALYSIS VISUAL SUMMARY
+================================================================================
+
+OVERALL HEALTH
+================================================================================
+Total G5 Skills: 172
+
+    ┌─────────────────────────────────────────────────────────────┐
+    │ ████████████████████████████████████████████████████  83.7% │ Clean (144)
+    │ ████████                                              16.3% │ Issues (28)
+    └─────────────────────────────────────────────────────────────┘
+
+
+ISSUES BREAKDOWN
+================================================================================
+Total Issues: 64
+
+    HIGH Priority (38 issues - 59.4%)
+    ┌──────────────────────────────────────────────────────────────┐
+    │ ████████████████████████████████████████                     │
+    │ Invalid G1/G2 Dependencies                                   │
+    └──────────────────────────────────────────────────────────────┘
+
+    MEDIUM Priority (26 issues - 40.6%)
+    ┌──────────────────────────────────────────────────────────────┐
+    │ ██████████████████████████                                   │
+    │ Transitive Dependencies (25) + Same-Grade (1)                │
+    └──────────────────────────────────────────────────────────────┘
+
+    LOW Priority (0 issues - 0%)
+    ┌──────────────────────────────────────────────────────────────┐
+    │                                                              │
+    └──────────────────────────────────────────────────────────────┘
+
+
+TOPICS AFFECTED
+================================================================================
+
+Topics with 100% G5 Skills Affected (5 topics)
+    T05 - Design & Modeling      [6/6]   ████████████████████  12 issues
+    T25 - Data Structures        [3/3]   ████████████████████   7 issues
+    T30 - Hardware               [4/4]   ████████████████████  16 issues ⚠️
+    T32 - Security               [3/3]   ████████████████████   9 issues
+    T35 - Impacts                [3/3]   ████████████████████   8 issues
+
+Topics with Partial G5 Skills Affected (5 topics)
+    T03 - Problem Decomposition  [3/4]   ███████████████        3 issues
+    T34 - History                [2/3]   █████████████          6 issues
+    T12 - Documentation          [1/2]   ██████████             1 issue
+    T36 - Inclusion              [1/3]   ███████                3 issues
+    T13 - Testing                [1/4]   █████                  1 issue
+    T31 - Internet               [1/4]   █████                  1 issue
+
+Topics with NO Issues (26 topics)
+    T01, T02, T04, T06-T11, T14-T24, T26-T29, T33
+    All G5 skills in these topics are clean! ✓
+
+
+FIX COMPLEXITY
+================================================================================
+
+    Simple (8 skills)         ████████            ~2 hours
+    Moderate (6 skills)       ██████              ~4 hours
+    Complex (14 skills)       ██████████████      ~12 hours
+                              ────────────────────────────
+                              Total effort: ~18 hours
+
+
+ISSUE TYPES
+================================================================================
+
+Invalid Grade Dependencies (HIGH)
+    G5 → G1: 36 dependencies
+    G5 → G2:  2 dependencies
+    ┌────────────────────────────────────────────────────────────┐
+    │ Problem: 4-year gaps in prerequisite knowledge             │
+    │ Impact:  Violates curriculum design principles             │
+    │ Fix:     Replace with G3/G4 alternatives                   │
+    └────────────────────────────────────────────────────────────┘
+
+Transitive Dependencies (MEDIUM)
+    25 redundant dependencies
+    ┌────────────────────────────────────────────────────────────┐
+    │ Problem: A→B→C, but A also directly depends on C          │
+    │ Impact:  Clutters dependency graph                         │
+    │ Fix:     Remove direct dependency on C                     │
+    └────────────────────────────────────────────────────────────┘
+
+Same-Topic Same-Grade (MEDIUM)
+    1 dependency
+    ┌────────────────────────────────────────────────────────────┐
+    │ Problem: T31.G5.02 → T31.G5.01                            │
+    │ Impact:  Creates ordering within grade level               │
+    │ Fix:     Remove, assume sequential learning                │
+    └────────────────────────────────────────────────────────────┘
+
+
+VALIDATION STATUS
+================================================================================
+✓ No circular dependencies
+✓ No out-of-order dependencies (G5 → G6+)
+✓ No overly broad skills detected
+⚠️ 38 invalid grade dependencies (HIGH priority)
+⚠️ 26 transitive/same-grade dependencies (MEDIUM priority)
+
+
+MOST PROBLEMATIC SKILLS
+================================================================================
+Skills with 4 issues each:
+  • T25.G5.03 - Decide when to upgrade from list to table
+  • T30.G5.01 - Match CreatiCode AI features to hardware requirements
+  • T30.G5.02 - Plan safe device-handling procedures for group work
+  • T30.G5.04 - Relate hardware choices to accessibility outcomes
+
+Skills with 3 issues each:
+  • T05.G5.05 - Plan how to test whether a design meets user needs
+  • T32.G5.01 - Analyze social engineering tactics
+  • T32.G5.02 - Evaluate terms of service/privacy policies
+  • T32.G5.03 - Secure AI training data and outputs
+  • T34.G5.02 - Compare invention timelines in multiple industries
+  • T34.G5.03 - Conduct interviews with tech users
+  • T35.G5.01 - Examine global impacts of technology
+  • T35.G5.02 - Debate digital well-being scenarios
+  • T36.G5.03 - Evaluate inclusion in tech stories
+
+
+TOP 5 TOPICS BY ISSUE COUNT
+================================================================================
+Rank  Topic  Name              Issues  Skills  Severity
+────────────────────────────────────────────────────────────────────
+  1   T30    Hardware            16      4     ████████████ CRITICAL
+  2   T05    Design & Modeling   12      6     ██████████   HIGH
+  3   T32    Security             9      3     ████████     HIGH
+  4   T35    Impacts              8      3     ████████     HIGH
+  5   T25    Data Structures      7      3     ███████      HIGH
+
+
+ACTION PLAN
+================================================================================
+
+Phase 1: Quick Wins (8 skills) ────────────────────► ~2 hours
+  Single-dependency fixes, low risk
+
+Phase 2: Moderate (6 skills) ──────────────────────► ~4 hours
+  Replace G1 + clean one transitive
+
+Phase 3: Complex (14 skills) ──────────────────────► ~12 hours
+  Multiple replacements + may need new G3/G4 skills
+
+Total: ~18 hours to fix all issues
+
+
+RECOMMENDATIONS
+================================================================================
+1. Start with Phase 1 (quick wins) to build momentum
+2. Review/create G3/G4 bridge skills for T30, T05, T32, T35
+3. Execute fixes systematically by phase
+4. Re-run analysis after each phase to validate
+5. Most topics (26/36) are already clean - maintain quality!
+
+
+FILES GENERATED
+================================================================================
+📄 G5_ANALYSIS_README.md                    ← Start here
+📄 G5_ANALYSIS_EXECUTIVE_SUMMARY.md         ← Detailed findings
+📄 G5_ISSUES_QUICK_REFERENCE.md             ← Tables and checklists
+📄 G5_AFFECTED_SKILLS_LIST.md               ← Skill-by-skill details
+📄 G5_COMPREHENSIVE_ANALYSIS_REPORT.txt     ← Full technical report
+📄 G5_VISUAL_SUMMARY.txt                    ← This file
+🐍 analyze_g5_comprehensive.py              ← Analysis script
+
+
+BOTTOM LINE
+================================================================================
+✓ 83.7% of G5 skills are perfectly structured
+⚠️ 16.3% need fixes (mostly grade-level gaps)
+✓ No critical structural flaws (cycles, reverse order)
+✓ Clear patterns = systematic fix approach
+✓ Estimated 18 hours to resolve all issues
+
+The skill map is fundamentally sound. The issues found are significant
+but follow clear patterns and can be addressed efficiently.
+
+================================================================================

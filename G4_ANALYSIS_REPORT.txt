@@ -1,0 +1,1264 @@
+Total skills parsed: 1204
+================================================================================
+GRADE 4 (G4) SKILLS ANALYSIS REPORT
+================================================================================
+
+Total G4 skills found: 162
+
+
+================================================================================
+TOPIC: T01 – Everyday Algorithms
+================================================================================
+
+--- Skill ID: T01.G4.01 ---
+Title: Plan steps for a coded maze or goal‑reach task
+Dependencies (1): T01.G3.02
+
+ISSUES FOUND: None
+
+--- Skill ID: T01.G4.02 ---
+Title: Implement a written plan in code
+Dependencies (1): T01.GK.08
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.08 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.08 or add intermediate skills
+
+--- Skill ID: T01.G4.03 ---
+Title: Identify repeated patterns in longer scripts
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T01.G4.04 ---
+Title: Replace repeated patterns with loops
+Dependencies (1): T01.GK.07
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.07 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.07 or add intermediate skills
+
+--- Skill ID: T01.G4.05 ---
+Title: Compare two versions of a script: with and without loops
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T01.G4.06 ---
+Title: Recognize variables in a program
+Dependencies (1): T01.GK.07
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.07 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.07 or add intermediate skills
+
+--- Skill ID: T01.G4.07 ---
+Title: Trace a simple counter variable
+Dependencies (1): T01.GK.07
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.07 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.07 or add intermediate skills
+
+--- Skill ID: T01.G4.08 ---
+Title: Add a variable to count events in a program
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T01.G4.09 ---
+Title: Use a variable to track a simple game state (lives or points)
+Dependencies (1): T01.GK.08
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.08 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.08 or add intermediate skills
+
+--- Skill ID: T01.G4.10 ---
+Title: Trace a multi‑step algorithm with loops and variables
+Dependencies (1): T01.GK.08
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.08 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.08 or add intermediate skills
+
+--- Skill ID: T01.G4.11 ---
+Title: Debug an off‑by‑one counting bug
+Dependencies (1): T01.GK.08
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T01.GK.08 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T01.GK.08 or add intermediate skills
+
+--- Skill ID: T01.G4.12 ---
+Title: Explain why one algorithm solution is better than another
+Dependencies (1): T01.G3.02
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T02 – Algorithm Diagrams
+================================================================================
+
+--- Skill ID: T02.G4.01 ---
+Title: Add a loop to an existing flowchart
+Dependencies (1): T02.GK.04
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T02.GK.04 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T02.GK.04 or add intermediate skills
+
+--- Skill ID: T02.G4.02 ---
+Title: Design a flowchart for a task with repetition
+Dependencies (1): T02.GK.04
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T02.GK.04 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T02.GK.04 or add intermediate skills
+
+--- Skill ID: T02.G4.03 ---
+Title: Trace a flowchart with multiple decision points
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T02.G4.04 ---
+Title: Trace a flowchart that includes a loop structure
+Dependencies (1): T02.GK.04
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T02.GK.04 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T02.GK.04 or add intermediate skills
+
+--- Skill ID: T02.G4.05 ---
+Title: Convert a story description into simple pseudocode
+Dependencies (1): T02.GK.03
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T02.GK.03 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T02.GK.03 or add intermediate skills
+
+--- Skill ID: T02.G4.06 ---
+Title: Match pseudocode to a flowchart
+Dependencies (1): T02.GK.03
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T02.GK.03 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T02.GK.03 or add intermediate skills
+
+================================================================================
+TOPIC: T03 – Problem Decomposition
+================================================================================
+
+--- Skill ID: T03.G4.01 ---
+Title: Break a medium‑size project into components
+Dependencies (1): T03.GK.03
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T03.GK.03 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T03.GK.03 or add intermediate skills
+
+--- Skill ID: T03.G4.02 ---
+Title: Group related components into modules
+Dependencies (1): T03.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T03.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T03.G1.01 or add intermediate skills
+
+--- Skill ID: T03.G4.03 ---
+Title: Assign project tasks to team roles
+Dependencies (1): T03.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T03.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T03.G1.01 or add intermediate skills
+
+--- Skill ID: T03.G4.04 ---
+Title: Create a simple task list with owners and order
+Dependencies (1): T03.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T03.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T03.G1.01 or add intermediate skills
+
+--- Skill ID: T03.G4.05 ---
+Title: Spot a missing or unnecessary task in a plan
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T03.G4.06 ---
+Title: Update a plan after testing feedback
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T04 – Algorithm Patterns
+================================================================================
+
+--- Skill ID: T04.G4.01 ---
+Title: Trace a loop that creates a visual pattern
+Dependencies (1): T04.GK.03
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T04.GK.03 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T04.GK.03 or add intermediate skills
+
+--- Skill ID: T04.G4.02 ---
+Title: Identify nested pattern structure (outer vs inner loop)
+Dependencies (1): T04.GK.03
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T04.GK.03 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T04.GK.03 or add intermediate skills
+
+--- Skill ID: T04.G4.03 ---
+Title: Recognize “if” patterns that handle special cases
+Dependencies (1): T04.GK.03
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T04.GK.03 (GK) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T04.GK.03 or add intermediate skills
+
+--- Skill ID: T04.G4.04 ---
+Title: Match multiple code snippets that share the same pattern
+Dependencies (1): T04.G2.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T04.G4.05 ---
+Title: Identify when a known pattern can solve a new problem
+Dependencies (1): T04.G2.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T04.G4.06 ---
+Title: Explain how reusing a pattern saves time
+Dependencies (1): T04.G2.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T05 – Human‑Centered Design
+================================================================================
+
+--- Skill ID: T05.G4.01 ---
+Title: Identify key details in a user persona
+Dependencies (1): T05.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T05.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T05.G1.01 or add intermediate skills
+
+--- Skill ID: T05.G4.02 ---
+Title: Match designs to personas
+Dependencies (1): T05.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T05.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T05.G1.01 or add intermediate skills
+
+--- Skill ID: T05.G4.03 ---
+Title: Recognize common accessibility issues in an interface
+Dependencies (1): T05.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T05.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T05.G1.01 or add intermediate skills
+
+--- Skill ID: T05.G4.04 ---
+Title: Choose appropriate accessibility improvements
+Dependencies (1): T05.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T05.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T05.G1.01 or add intermediate skills
+
+--- Skill ID: T05.G4.05 ---
+Title: Decide what to include vs ignore in a simulation
+Dependencies (1): T05.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T05.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T05.G1.01 or add intermediate skills
+
+--- Skill ID: T05.G4.06 ---
+Title: Explain why a simplification is reasonable
+Dependencies (1): T05.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T05.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T05.G1.01 or add intermediate skills
+
+================================================================================
+TOPIC: T06 – Events & Sequences: G3–8 Skill List
+================================================================================
+
+--- Skill ID: T06.G4.01 ---
+Title: Build a sprite with several event handlers (green flag + keys)
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T06.G4.02 ---
+Title: Trace which scripts run for different inputs
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T06.G4.03 ---
+Title: Recognize when a broadcast could connect sprites
+Dependencies (1): T06.G3.07
+
+ISSUES FOUND: None
+
+--- Skill ID: T06.G4.04 ---
+Title: Match a broadcast send to its receivers
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T06.G4.05 ---
+Title: Fix a sprite that doesn’t respond because the event is wrong
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T06.G4.06 ---
+Title: Fix a missing receiver for a broadcast
+Dependencies (1): T06.G3.07
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T07 – Loops
+================================================================================
+
+--- Skill ID: T07.G4.01 ---
+Title: Create a forever game loop for controls
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T07.G4.02 ---
+Title: Loop with a condition inside
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T07.G4.03 ---
+Title: Use a loop counter variable
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T07.G4.04 ---
+Title: Convert repeated blocks with conditions into loops
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T07.G4.05 ---
+Title: Analyze and fix a loop bug
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T07.G4.06 ---
+Title: Trace code that combines a loop and a condition
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T08 – Conditions & Logic
+================================================================================
+
+--- Skill ID: T08.G4.01 ---
+Title: Combine two conditions with AND
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.02 ---
+Title: Combine two conditions with OR
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.03 ---
+Title: Trace code with compound conditionals
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.04 ---
+Title: Nest if/else statements
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.05 ---
+Title: Convert nested if to cleaner logic
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.06 ---
+Title: Use if to control state changes
+Dependencies (1): T06.G3.02
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.07 ---
+Title: Analyze and fix a logic bug
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T08.G4.08 ---
+Title: Trace code with a sequence of if/else blocks
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T09 – Variables & Expressions
+================================================================================
+
+--- Skill ID: T09.G4.01 ---
+Title: Use multiplication and division in expressions
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.02 ---
+Title: Combine operators and variables in complex expressions
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.03 ---
+Title: Store and use user input in a variable
+Dependencies (1): T06.G3.02
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.04 ---
+Title: Use variables in a loop counter pattern
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.05 ---
+Title: Use comparison operators in expressions
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.06 ---
+Title: Use boolean variables to track states
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.07 ---
+Title: Modify a variable based on sensor or random input
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T09.G4.08 ---
+Title: Debug incorrect variable updates in code
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T10 – Lists & Tables
+================================================================================
+
+--- Skill ID: T10.G4.01 ---
+Title: Use nested loops to process a 2D arrangement (rows and columns)
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T10.G4.02 ---
+Title: Store and retrieve parallel list data
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T10.G4.03 ---
+Title: Build a high score or leaderboard list
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T10.G4.04 ---
+Title: Sort a list by swapping items
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T10.G4.05 ---
+Title: Search a list for a specific item (linear search)
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T10.G4.06 ---
+Title: Filter or remove items from a list based on a condition
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T11 – Functions & Procedures
+================================================================================
+
+--- Skill ID: T11.G4.01 ---
+Title: Define and call a simple helper (no parameters)
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T11.G4.02 ---
+Title: Distinguish action blocks from reporter functions
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T11.G4.03 ---
+Title: Use a block's result in a calculation
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T11.G4.04 ---
+Title: Describe what each helper does in a script
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T11.G4.05 ---
+Title: Trace through a script with helpers and reporters
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T12 – Organizing Programs
+================================================================================
+
+--- Skill ID: T12.G4.01 ---
+Title: Document a program with embedded comments
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T12.G4.02 ---
+Title: Choose descriptive names for custom blocks
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T12.G4.03 ---
+Title: Refactor repeated blocks into a custom block for clarity
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T12.G4.04 ---
+Title: Analyze and improve variable scope and naming
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T13 – Testing, Debugging & Error Handling
+================================================================================
+
+--- Skill ID: T13.G4.01 ---
+Title: Debug a conditional inside a loop
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.02 ---
+Title: Test edge cases in a simple condition
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.03 ---
+Title: Create an alternative solution to the same problem
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.04 ---
+Title: Identify and fix an infinite loop or program hang
+Dependencies (1): T07.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.05 ---
+Title: Use systematic testing with multiple test cases
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.06 ---
+Title: Compare two programs solving the same task
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.07 ---
+Title: Debug a complex loop with nested structures
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T13.G4.08 ---
+Title: Document the steps you took to find and fix a bug
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T14 – 2D Games
+================================================================================
+
+--- Skill ID: T14.G4.01 ---
+Title: Spawn a projectile
+Dependencies (1): T06.G3.02
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.02 ---
+Title: Move a projectile
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.03 ---
+Title: Clean up projectiles
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.04 ---
+Title: Simple enemy movement
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.05 ---
+Title: Chase the player
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.06 ---
+Title: Create a Score variable
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.07 ---
+Title: Create a Lives variable
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.08 ---
+Title: Create a Timer
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.09 ---
+Title: Detect level complete
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.10 ---
+Title: Switch backdrops for levels
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.11 ---
+Title: Add checkpoints
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.12 ---
+Title: Temporary power-ups
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.13 ---
+Title: Pause and resume the game
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T14.G4.14 ---
+Title: Reset on restart messages
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T15 – Stories & Animation
+================================================================================
+
+--- Skill ID: T15.G4.01 ---
+Title: Animate with effects
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.02 ---
+Title: Costume number logic
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.03 ---
+Title: Switch backdrop
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.04 ---
+Title: Hide and Show characters
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.05 ---
+Title: Ask and Answer
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.06 ---
+Title: Simple branching (Yes/No)
+Dependencies (1): T06.G3.08
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.07 ---
+Title: Coordinate two sprites (Wait)
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T15.G4.08 ---
+Title: Parallel actions
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T18 – 3D Worlds & Games
+================================================================================
+
+--- Skill ID: T18.G4.01 ---
+Title: Compose a multi-part 3D scene with primitives
+Dependencies (1): T07.G3.05
+
+ISSUES FOUND: None
+
+--- Skill ID: T18.G4.02 ---
+Title: Configure ambient and directional lighting
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T18.G4.03 ---
+Title: Create a following or orbiting camera
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T18.G4.04 ---
+Title: Place imported or premade 3D models
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T18.G4.05 ---
+Title: Animate scenery elements with loops
+Dependencies (1): T07.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T18.G4.06 ---
+Title: Trigger events when 3D objects touch
+Dependencies (1): T07.G3.05
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T20 – Algorithmic Art & Creative Coding
+================================================================================
+
+--- Skill ID: T20.G4.01 ---
+Title: **[Technical Skill]** Implement incremental loops for spirals
+Dependencies (1): T07.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T20.G4.02 ---
+Title: **[Technical Skill]** Implement tessellation with custom blocks
+Dependencies (1): T07.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T20.G4.03 ---
+Title: Control art with parameters
+Dependencies (1): T07.G3.05
+
+ISSUES FOUND: None
+
+--- Skill ID: T20.G4.04 ---
+Title: Debug a multi-loop art script
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T20.G4.05 ---
+Title: Recolor art with simple input events
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T21 – AI Media: G6–8 Skill List
+================================================================================
+
+--- Skill ID: T21.G4.01 ---
+Title: Choose safe and specific prompts for images
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T22 – Chatbots & Prompting: G6–8 Skill List
+================================================================================
+
+--- Skill ID: T22.G4.01 ---
+Title: Write clear, polite questions for a helper bot
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T23 – AI Perception
+================================================================================
+
+--- Skill ID: T23.G4.01 ---
+Title: Trace how lighting changes pixel data
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T23.G4.02 ---
+Title: Choose a good setup for mic or camera
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T23.G4.03 ---
+Title: Identify noise and simple fixes
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T25 – Data Representation
+================================================================================
+
+--- Skill ID: T25.G4.01 ---
+Title: Build schema diagrams for simple apps
+Dependencies (1): T02.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T25.G4.02 ---
+Title: Encode the same fact in decimal, fraction, and percentage
+Dependencies (1): T25.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T25.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T25.G1.01 or add intermediate skills
+
+--- Skill ID: T25.G4.03 ---
+Title: Compare dense vs sparse representations
+Dependencies (1): T25.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T25.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T25.G1.01 or add intermediate skills
+
+--- Skill ID: T25.G4.04 ---
+Title: Document assumptions in a data key
+Dependencies (1): T25.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T25.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T25.G1.01 or add intermediate skills
+
+================================================================================
+TOPIC: T26 – Data Collection & Logging
+================================================================================
+
+--- Skill ID: T26.G4.01 ---
+Title: Create collection protocols for partners
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T26.G4.02 ---
+Title: Use tables to log multi-attribute events
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T26.G4.03 ---
+Title: Track missing/invalid data with flags
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T26.G4.04 ---
+Title: Reflect on privacy in collection
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T27 – Data Analysis & Storytelling
+================================================================================
+
+--- Skill ID: T27.G4.01 ---
+Title: Analyze change over time using line graphs
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T27.G4.03 ---
+Title: Evaluate data quality before analysis
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T27.G4.04 ---
+Title: Create narrative captions for charts
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T28 – Chance & Simulations: G2–8 Skill List
+================================================================================
+
+--- Skill ID: T28.G4.01 ---
+Title: Build a simple random generator
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T28.G4.02 ---
+Title: Log 50 trials into a list and compute frequencies
+Dependencies (1): T07.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T28.G4.03 ---
+Title: Show how sample size changes variability
+Dependencies (1): T07.G3.05
+
+ISSUES FOUND: None
+
+--- Skill ID: T28.G4.04 ---
+Title: Debug an “unfair” simulation
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T29 – Text Data & NLP Foundations: G3–8 Skill List
+================================================================================
+
+--- Skill ID: T29.G4.00 ---
+Title: Compare a human summary to a computer summary
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T29.G4.01 ---
+Title: Store sentences in lists and access words
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T29.G4.02 ---
+Title: Clean text: lowercase + remove punctuation
+Dependencies (1): T09.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T29.G4.03 ---
+Title: Count words and report the most frequent
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T29.G4.04 ---
+Title: Highlight keywords in a paragraph
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T30 – Devices & Hardware Systems
+================================================================================
+
+--- Skill ID: T30.G4.01 ---
+Title: Diagram motherboard data flow
+Dependencies (1): T02.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T30.G4.02 ---
+Title: Explain how CPU speed/core count affects tasks
+Dependencies (1): T08.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T30.G4.03 ---
+Title: Differentiate latency vs bandwidth
+Dependencies (1): T30.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T30.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T30.G1.01 or add intermediate skills
+
+--- Skill ID: T30.G4.04 ---
+Title: Explore accessibility hardware
+Dependencies (1): T04.G2.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T32 – Cybersecurity & Digital Safety
+================================================================================
+
+--- Skill ID: T32.G4.01 ---
+Title: Build a class digital citizenship agreement
+Dependencies (1): T32.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T32.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T32.G1.01 or add intermediate skills
+
+--- Skill ID: T32.G4.02 ---
+Title: Use password managers (conceptual)
+Dependencies (1): T32.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T32.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T32.G1.01 or add intermediate skills
+
+--- Skill ID: T32.G4.03 ---
+Title: Understand data breaches through stories
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T32.G4.04 ---
+Title: Practice secure file sharing in CreatiCode
+Dependencies (1): T32.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T32.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T32.G1.01 or add intermediate skills
+
+================================================================================
+TOPIC: T34 – Computing History
+================================================================================
+
+--- Skill ID: T34.G4.01 ---
+Title: Analyze cause/effect chains
+Dependencies (1): T01.G3.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T34.G4.02 ---
+Title: Compare regional computing histories
+Dependencies (1): T04.G2.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T34.G4.03 ---
+Title: Link hardware evolution to today’s CreatiCode features
+Dependencies (1): T06.G3.01
+
+ISSUES FOUND: None
+
+================================================================================
+TOPIC: T35 – Impacts & Ethics
+================================================================================
+
+--- Skill ID: T35.G4.01 ---
+Title: Analyze case studies of tech helping/harming communities
+Dependencies (1): T35.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T35.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T35.G1.01 or add intermediate skills
+
+--- Skill ID: T35.G4.02 ---
+Title: Understand advertising/persuasion online
+Dependencies (1): T04.G2.01
+
+ISSUES FOUND: None
+
+--- Skill ID: T35.G4.03 ---
+Title: Reflect on accessibility/inclusion in games
+Dependencies (1): T35.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T35.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T35.G1.01 or add intermediate skills
+
+================================================================================
+TOPIC: T36 – Careers, Collaboration & Future Paths
+================================================================================
+
+--- Skill ID: T36.G4.01 ---
+Title: Explore diverse tech careers via profiles/videos
+Dependencies (1): T36.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T36.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T36.G1.01 or add intermediate skills
+
+--- Skill ID: T36.G4.02 ---
+Title: Track work with a shared checklist
+Dependencies (1): T36.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T36.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T36.G1.01 or add intermediate skills
+
+--- Skill ID: T36.G4.03 ---
+Title: Role-play resolving project disagreements
+Dependencies (1): T36.G1.01
+
+ISSUES FOUND:
+  [MEDIUM] RANGE_VIOLATION: Depends on T36.G1.01 (G1) - too far back (should be G2-G4 only)
+
+RECOMMENDATIONS:
+  - Remove dependency on T36.G1.01 or add intermediate skills
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+Total skills with issues: 37 out of 162
+
+Issues by type:
+  RANGE_VIOLATION: 37
+
+Issues by priority:
+  MEDIUM: 37
+
+================================================================================
+END OF REPORT
+================================================================================

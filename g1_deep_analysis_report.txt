@@ -1,0 +1,565 @@
+================================================================================
+DEEP G1 SKILLS ANALYSIS REPORT
+================================================================================
+
+Total G1 Skills: 75
+Total Skills in Database: 1140
+
+Topics with G1 Skills: 19
+
+================================================================================
+CRITICAL ISSUES (MUST FIX IMMEDIATELY)
+================================================================================
+
+Found 29 critical issues:
+
+
+MISSING_DEPENDENCY (29 issues):
+--------------------------------------------------------------------------------
+1. T01.G1.01: Put pictures in order to plant a seed
+   Depends on T01.GK.02 which doesn't exist in the skill map!
+
+2. T01.G1.03: Add a missing last step to a routine
+   Depends on T01.GK.06 which doesn't exist in the skill map!
+
+3. T01.G1.04: Predict the next step in a story sequence
+   Depends on T01.GK.06 which doesn't exist in the skill map!
+
+4. T01.G1.06: Fix a routine with one wrong step
+   Depends on T01.GK.05 which doesn't exist in the skill map!
+
+5. T01.G1.07: Decide if two algorithms finish with the same result
+   Depends on T01.GK.04 which doesn't exist in the skill map!
+
+6. T01.G1.10: Match pictures to "if/then" rules
+   Depends on T01.GK.04 which doesn't exist in the skill map!
+
+7. T02.G1.01: Make a 3–4 step picture algorithm
+   Depends on T02.GK.02 which doesn't exist in the skill map!
+
+8. T03.G1.01: Describe what one part of a system does
+   Depends on T03.GK.01 which doesn't exist in the skill map!
+
+9. T03.G1.03: List steps for a simple classroom routine
+   Depends on T03.GK.03 which doesn't exist in the skill map!
+
+10. T04.G1.01: Match a picture pattern to a movement pattern
+   Depends on T04.GK.02 which doesn't exist in the skill map!
+
+11. T04.G1.03: Find repeated steps in an instruction list
+   Depends on T01.GK.07 which doesn't exist in the skill map!
+
+12. T05.G1.01: Identify what a character needs in a story
+   Depends on T01.GK.03 which doesn't exist in the skill map!
+
+13. T05.G1.03: Choose a better version of a simple screen for a given user
+   Depends on T05.GK.03 which doesn't exist in the skill map!
+
+14. T12.G1.01: Find the main set of instructions
+   Depends on T01.GK.03 which doesn't exist in the skill map!
+
+15. T12.G1.03: Explain what each group of steps does
+   Depends on T03.GK.01 which doesn't exist in the skill map!
+
+16. T13.G1.01: Identify where a step is wrong
+   Depends on T01.GK.03 which doesn't exist in the skill map!
+
+17. T13.G1.02: Fix a sequence error in steps
+   Depends on T01.GK.02 which doesn't exist in the skill map!
+
+18. T13.G1.03: Change a number to fix a repeated action
+   Depends on T04.GK.02 which doesn't exist in the skill map!
+
+19. T14.G1.01: Identify the player, goal, and obstacles
+   Depends on T01.GK.03 which doesn't exist in the skill map!
+
+20. T14.G1.03: Compare game difficulty
+   Depends on T01.GK.04 which doesn't exist in the skill map!
+
+21. T15.G1.01: Match setting to story
+   Depends on T03.GK.02 which doesn't exist in the skill map!
+
+22. T15.G1.02: Order dialogue
+   Depends on T01.GK.02 which doesn't exist in the skill map!
+
+23. T15.G1.03: Action and consequence
+   Depends on T01.GK.02 which doesn't exist in the skill map!
+
+24. T20.G1.02: Match directions to drawings
+   Depends on T03.GK.02 which doesn't exist in the skill map!
+
+25. T23.G1.01: Find sensors on everyday devices
+   Depends on T01.GK.03 which doesn't exist in the skill map!
+
+26. T23.G1.02: Match sensors to human senses
+   Depends on T03.GK.02 which doesn't exist in the skill map!
+
+27. T23.G1.03: Choose what a sensor can notice
+   Depends on T01.GK.04 which doesn't exist in the skill map!
+
+28. T32.G1.01: Identify personally identifiable information (PII)
+   Depends on T01.GK.03 which doesn't exist in the skill map!
+
+29. T36.G1.03: Show listening behaviors in group work
+   Depends on T03.GK.01 which doesn't exist in the skill map!
+
+================================================================================
+IMPORTANT ISSUES (SHOULD FIX)
+================================================================================
+
+Found 65 important issues:
+
+
+MISSING_SAME_TOPIC_PREREQ (10 issues):
+--------------------------------------------------------------------------------
+1. T01.G1.04: Predict the next step in a story sequence
+   Skill G1.04 has no same-topic G1 prerequisites. Should it depend on T01.G1.01 or other earlier skills in this topic?
+
+2. T01.G1.06: Fix a routine with one wrong step
+   Skill G1.06 has no same-topic G1 prerequisites. Should it depend on T01.G1.01 or other earlier skills in this topic?
+
+3. T01.G1.07: Decide if two algorithms finish with the same result
+   Skill G1.07 has no same-topic G1 prerequisites. Should it depend on T01.G1.01 or other earlier skills in this topic?
+
+4. T01.G1.10: Match pictures to "if/then" rules
+   Skill G1.10 has no same-topic G1 prerequisites. Should it depend on T01.G1.01 or other earlier skills in this topic?
+
+5. T12.G1.04: Split a long list of steps into two lists
+   Skill G1.04 has no same-topic G1 prerequisites. Should it depend on T12.G1.01 or other earlier skills in this topic?
+
+6. T13.G1.04: Act out steps and say what went wrong
+   Skill G1.04 has no same-topic G1 prerequisites. Should it depend on T13.G1.01 or other earlier skills in this topic?
+
+7. T14.G1.04: Predict the best next move
+   Skill G1.04 has no same-topic G1 prerequisites. Should it depend on T14.G1.01 or other earlier skills in this topic?
+
+8. T14.G1.05: Distinguish helpers from hazards
+   Skill G1.05 has no same-topic G1 prerequisites. Should it depend on T14.G1.01 or other earlier skills in this topic?
+
+9. T20.G1.04: Fix a wrong instruction
+   Skill G1.04 has no same-topic G1 prerequisites. Should it depend on T20.G1.01 or other earlier skills in this topic?
+
+10. T32.G1.04: Spot obvious scam pop-ups
+   Skill G1.04 has no same-topic G1 prerequisites. Should it depend on T32.G1.01 or other earlier skills in this topic?
+
+
+POSSIBLY_TOO_BROAD (17 issues):
+--------------------------------------------------------------------------------
+1. T05.G1.01: Identify what a character needs in a story
+   Title/description contains 'understand' which may indicate the skill is too broad and should be broken down.
+
+2. T20.G1.02: Match directions to drawings
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+3. T25.G1.02: Design a picture table
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+4. T26.G1.02: Keep observation logs over time
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+5. T26.G1.03: Follow a simple data-collection checklist
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+6. T27.G1.02: Answer “how many more?” questions
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+7. T30.G1.01: Label basic computer parts
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+8. T30.G1.03: Recognize sensors in the environment
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+9. T32.G1.01: Identify personally identifiable information (PII)
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+10. T32.G1.03: Explain why passwords must be secret
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+11. T34.G1.01: Describe life before and after a technology
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+12. T34.G1.02: Recognize inventors from diverse backgrounds
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+13. T34.G1.03: Explain that technology choices shape games/apps
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+14. T35.G1.01: Sort good vs not-so-good choices
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+15. T35.G1.03: Recognize that people make technology choices
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+16. T36.G1.01: List jobs that rely on computers
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+17. T36.G1.03: Show listening behaviors in group work
+   Title/description contains 'learn' which may indicate the skill is too broad and should be broken down.
+
+
+WEAK_CROSS_TOPIC_DEPENDENCY (38 issues):
+--------------------------------------------------------------------------------
+1. T05.G1.01: Identify what a character needs in a story
+   Topic T05 skill depends on generic T01.GK skill: T01.GK.03 ('unknown'). Consider if there's a more relevant prerequisite from the same topic.
+
+2. T12.G1.01: Find the main set of instructions
+   Topic T12 skill depends on generic T01.GK skill: T01.GK.03 ('unknown'). Consider if there's a more relevant prerequisite from the same topic.
+
+3. T12.G1.02: Give a clear title to a set of steps
+   Topic T12 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+4. T12.G1.04: Split a long list of steps into two lists
+   Topic T12 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+5. T13.G1.01: Identify where a step is wrong
+   Topic T13 skill depends on generic T01.GK skill: T01.GK.03 ('unknown'). Consider if there's a more relevant prerequisite from the same topic.
+
+6. T13.G1.04: Act out steps and say what went wrong
+   Topic T13 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+7. T14.G1.01: Identify the player, goal, and obstacles
+   Topic T14 skill depends on generic T01.GK skill: T01.GK.03 ('unknown'). Consider if there's a more relevant prerequisite from the same topic.
+
+8. T14.G1.02: Apply simple game rules
+   Topic T14 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+9. T14.G1.04: Predict the best next move
+   Topic T14 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+10. T14.G1.05: Distinguish helpers from hazards
+   Topic T14 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+11. T20.G1.01: Describe the art rule in words
+   Topic T20 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+12. T20.G1.03: Extend a quilt on a grid
+   Topic T20 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+13. T20.G1.04: Fix a wrong instruction
+   Topic T20 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+14. T23.G1.01: Find sensors on everyday devices
+   Topic T23 skill depends on generic T01.GK skill: T01.GK.03 ('unknown'). Consider if there's a more relevant prerequisite from the same topic.
+
+15. T25.G1.01: Record data with tally marks
+   Topic T25 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+16. T25.G1.02: Design a picture table
+   Topic T25 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+17. T25.G1.03: Describe the same fact in words and numbers
+   Topic T25 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+18. T26.G1.01: Run a three-option picture survey
+   Topic T26 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+19. T26.G1.02: Keep observation logs over time
+   Topic T26 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+20. T26.G1.03: Follow a simple data-collection checklist
+   Topic T26 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+21. T27.G1.01: Build a pictograph from tallies
+   Topic T27 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+22. T27.G1.02: Answer “how many more?” questions
+   Topic T27 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+23. T27.G1.03: Tell a one-sentence story with data
+   Topic T27 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+24. T30.G1.01: Label basic computer parts
+   Topic T30 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+25. T30.G1.02: Describe hardware vs software
+   Topic T30 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+26. T30.G1.03: Recognize sensors in the environment
+   Topic T30 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+27. T32.G1.01: Identify personally identifiable information (PII)
+   Topic T32 skill depends on generic T01.GK skill: T01.GK.03 ('unknown'). Consider if there's a more relevant prerequisite from the same topic.
+
+28. T32.G1.02: Recognize trustworthy vs unknown contacts
+   Topic T32 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+29. T32.G1.03: Explain why passwords must be secret
+   Topic T32 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+30. T32.G1.04: Spot obvious scam pop-ups
+   Topic T32 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+31. T34.G1.01: Describe life before and after a technology
+   Topic T34 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+32. T34.G1.02: Recognize inventors from diverse backgrounds
+   Topic T34 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+33. T34.G1.03: Explain that technology choices shape games/apps
+   Topic T34 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+34. T35.G1.01: Sort good vs not-so-good choices
+   Topic T35 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+35. T35.G1.02: Describe how technology makes people feel
+   Topic T35 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+36. T35.G1.03: Recognize that people make technology choices
+   Topic T35 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+37. T36.G1.01: List jobs that rely on computers
+   Topic T36 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+38. T36.G1.02: Sort “helps” vs “problems” for a technology
+   Topic T36 skill depends on generic T01.GK skill: T01.GK.01 ('Put pictures in order for getting ready for bed'). Consider if there's a more relevant prerequisite from the same topic.
+
+================================================================================
+MINOR ISSUES (OPTIONAL IMPROVEMENTS)
+================================================================================
+
+Found 32 minor issues:
+
+
+TRANSITIVE_DEPENDENCY (32 issues):
+--------------------------------------------------------------------------------
+1. T12.G1.02: Give a clear title to a set of steps
+   T12.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T12.G1.02's dependencies.
+   (via T01.GK.01)
+
+2. T12.G1.04: Split a long list of steps into two lists
+   T12.G1.04 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T12.G1.04's dependencies.
+   (via T01.GK.01)
+
+3. T13.G1.04: Act out steps and say what went wrong
+   T13.G1.04 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T13.G1.04's dependencies.
+   (via T01.GK.01)
+
+4. T14.G1.02: Apply simple game rules
+   T14.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T14.G1.02's dependencies.
+   (via T01.GK.01)
+
+5. T14.G1.04: Predict the best next move
+   T14.G1.04 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T14.G1.04's dependencies.
+   (via T01.GK.01)
+
+6. T14.G1.05: Distinguish helpers from hazards
+   T14.G1.05 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T14.G1.05's dependencies.
+   (via T01.GK.01)
+
+7. T20.G1.01: Describe the art rule in words
+   T20.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T20.G1.01's dependencies.
+   (via T01.GK.01)
+
+8. T20.G1.03: Extend a quilt on a grid
+   T20.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T20.G1.03's dependencies.
+   (via T01.GK.01)
+
+9. T20.G1.04: Fix a wrong instruction
+   T20.G1.04 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T20.G1.04's dependencies.
+   (via T01.GK.01)
+
+10. T25.G1.01: Record data with tally marks
+   T25.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T25.G1.01's dependencies.
+   (via T01.GK.01)
+
+11. T25.G1.02: Design a picture table
+   T25.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T25.G1.02's dependencies.
+   (via T01.GK.01)
+
+12. T25.G1.03: Describe the same fact in words and numbers
+   T25.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T25.G1.03's dependencies.
+   (via T01.GK.01)
+
+13. T26.G1.01: Run a three-option picture survey
+   T26.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T26.G1.01's dependencies.
+   (via T01.GK.01)
+
+14. T26.G1.02: Keep observation logs over time
+   T26.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T26.G1.02's dependencies.
+   (via T01.GK.01)
+
+15. T26.G1.03: Follow a simple data-collection checklist
+   T26.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T26.G1.03's dependencies.
+   (via T01.GK.01)
+
+16. T27.G1.01: Build a pictograph from tallies
+   T27.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T27.G1.01's dependencies.
+   (via T01.GK.01)
+
+17. T27.G1.02: Answer “how many more?” questions
+   T27.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T27.G1.02's dependencies.
+   (via T01.GK.01)
+
+18. T27.G1.03: Tell a one-sentence story with data
+   T27.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T27.G1.03's dependencies.
+   (via T01.GK.01)
+
+19. T30.G1.01: Label basic computer parts
+   T30.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T30.G1.01's dependencies.
+   (via T01.GK.01)
+
+20. T30.G1.02: Describe hardware vs software
+   T30.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T30.G1.02's dependencies.
+   (via T01.GK.01)
+
+21. T30.G1.03: Recognize sensors in the environment
+   T30.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T30.G1.03's dependencies.
+   (via T01.GK.01)
+
+22. T32.G1.02: Recognize trustworthy vs unknown contacts
+   T32.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T32.G1.02's dependencies.
+   (via T01.GK.01)
+
+23. T32.G1.03: Explain why passwords must be secret
+   T32.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T32.G1.03's dependencies.
+   (via T01.GK.01)
+
+24. T32.G1.04: Spot obvious scam pop-ups
+   T32.G1.04 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T32.G1.04's dependencies.
+   (via T01.GK.01)
+
+25. T34.G1.01: Describe life before and after a technology
+   T34.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T34.G1.01's dependencies.
+   (via T01.GK.01)
+
+26. T34.G1.02: Recognize inventors from diverse backgrounds
+   T34.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T34.G1.02's dependencies.
+   (via T01.GK.01)
+
+27. T34.G1.03: Explain that technology choices shape games/apps
+   T34.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T34.G1.03's dependencies.
+   (via T01.GK.01)
+
+28. T35.G1.01: Sort good vs not-so-good choices
+   T35.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T35.G1.01's dependencies.
+   (via T01.GK.01)
+
+29. T35.G1.02: Describe how technology makes people feel
+   T35.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T35.G1.02's dependencies.
+   (via T01.GK.01)
+
+30. T35.G1.03: Recognize that people make technology choices
+   T35.G1.03 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T35.G1.03's dependencies.
+   (via T01.GK.01)
+
+31. T36.G1.01: List jobs that rely on computers
+   T36.G1.01 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T36.G1.01's dependencies.
+   (via T01.GK.01)
+
+32. T36.G1.02: Sort “helps” vs “problems” for a technology
+   T36.G1.02 depends on both T01.GK.01 and T01.GK.01, but T01.GK.01 already depends on T01.GK.01. Remove T01.GK.01 from T36.G1.02's dependencies.
+   (via T01.GK.01)
+
+================================================================================
+DEPENDENCY PATTERN ANALYSIS
+================================================================================
+
+Most frequently used K-level prerequisites:
+--------------------------------------------------------------------------------
+T01.GK.01: Put pictures in order for getting ready for bed
+  Used by 32 G1 skills
+
+T01.GK.03: UNKNOWN
+  Used by 6 G1 skills
+
+T01.GK.02: UNKNOWN
+  Used by 4 G1 skills
+
+T01.GK.04: UNKNOWN
+  Used by 4 G1 skills
+
+T03.GK.01: UNKNOWN
+  Used by 3 G1 skills
+
+T03.GK.02: UNKNOWN
+  Used by 3 G1 skills
+
+T01.GK.06: UNKNOWN
+  Used by 2 G1 skills
+
+T04.GK.02: UNKNOWN
+  Used by 2 G1 skills
+
+T01.GK.05: UNKNOWN
+  Used by 1 G1 skills
+
+T02.GK.02: UNKNOWN
+  Used by 1 G1 skills
+
+
+Cross-topic K dependencies by topic:
+--------------------------------------------------------------------------------
+T04: 1 cross-topic K dependencies
+  - T01.GK.07 (1x): UNKNOWN
+
+T05: 1 cross-topic K dependencies
+  - T01.GK.03 (1x): UNKNOWN
+
+T12: 4 cross-topic K dependencies
+  - T01.GK.01 (2x): Put pictures in order for getting ready for bed
+  - T01.GK.03 (1x): UNKNOWN
+  - T03.GK.01 (1x): UNKNOWN
+
+T13: 4 cross-topic K dependencies
+  - T01.GK.01 (1x): Put pictures in order for getting ready for bed
+  - T01.GK.02 (1x): UNKNOWN
+  - T01.GK.03 (1x): UNKNOWN
+  - T04.GK.02 (1x): UNKNOWN
+
+T14: 5 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+  - T01.GK.03 (1x): UNKNOWN
+  - T01.GK.04 (1x): UNKNOWN
+
+T15: 3 cross-topic K dependencies
+  - T01.GK.02 (2x): UNKNOWN
+  - T03.GK.02 (1x): UNKNOWN
+
+T20: 4 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+  - T03.GK.02 (1x): UNKNOWN
+
+T23: 3 cross-topic K dependencies
+  - T01.GK.03 (1x): UNKNOWN
+  - T01.GK.04 (1x): UNKNOWN
+  - T03.GK.02 (1x): UNKNOWN
+
+T25: 3 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+
+T26: 3 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+
+T27: 3 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+
+T30: 3 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+
+T32: 4 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+  - T01.GK.03 (1x): UNKNOWN
+
+T34: 3 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+
+T35: 3 cross-topic K dependencies
+  - T01.GK.01 (3x): Put pictures in order for getting ready for bed
+
+T36: 3 cross-topic K dependencies
+  - T01.GK.01 (2x): Put pictures in order for getting ready for bed
+  - T03.GK.01 (1x): UNKNOWN
+
+================================================================================
+SUMMARY
+================================================================================
+Total G1 Skills: 75
+Critical Issues: 29
+Important Issues: 65
+Minor Issues: 32
+
+PRIORITY RECOMMENDATIONS:
+1. Fix all CRITICAL issues immediately
+2. Review IMPORTANT issues - especially weak cross-topic dependencies
+3. Consider MINOR issues for optimization
+

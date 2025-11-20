@@ -1,0 +1,318 @@
+====================================================================================================
+GRADE 5 SKILLS - COMPACT SUMMARY
+====================================================================================================
+
+Total: 172 skills across 35 topics
+
+
+====================================================================================================
+T01: T01 – Everyday Algorithms (10 skills)
+====================================================================================================
+  T01.G5.01: Match a word description to a flowchart [1 deps]
+  T01.G5.02: Convert a flowchart or pseudocode into code [1 deps]
+  T01.G5.03: Convert a short program into pseudocode [1 deps]
+  T01.G5.04: Trace a search algorithm using loops and variables [2 deps]
+  T01.G5.05: Determine whether an algorithm is correct for all inputs [2 deps]
+  T01.G5.06: Compare two algorithms for step counts (efficiency) [1 deps]
+  T01.G5.07: Debug an algorithm that mis‑handles a simple edge case [2 deps]
+  T01.G5.08: Add checks to handle edge cases [2 deps]
+  T01.G5.09: Explain why an algorithm is correct using loops and variables [1 deps]
+  T01.G5.10: Rewrite a long algorithm using loops or helper steps [2 deps]
+
+====================================================================================================
+T02: T02 – Algorithm Diagrams (6 skills)
+====================================================================================================
+  T02.G5.01: Read a multi‑branch flowchart and trace a path [2 deps]
+  T02.G5.02: Design a multi‑branch flowchart for a decision task [2 deps]
+  T02.G5.03: Trace a flowchart with state tracking using a trace table [2 deps]
+  T02.G5.04: Create a trace table for a flowchart with accumulation [2 deps]
+  T02.G5.05: Write pseudocode for a loop‑based algorithm [1 deps]
+  T02.G5.06: Compare two algorithms for the same task [1 deps]
+
+====================================================================================================
+T03: T03 – Problem Decomposition (5 skills)
+====================================================================================================
+  T03.G5.01: Create a feature list and subtask breakdown [2 deps]
+  T03.G5.02: Draw a high‑level project map [2 deps]
+  T03.G5.03: Identify task dependencies in a project plan [1 deps]
+  T03.G5.04: Flag high‑risk or unclear tasks [1 deps]
+  T03.G5.05: Compare two project plans for the same idea [2 deps]
+
+====================================================================================================
+T04: T04 – Algorithm Patterns (5 skills)
+====================================================================================================
+  T04.G5.01: Recognize a counter update pattern [1 deps]
+  T04.G5.02: Recognize an accumulator (sum/concatenate) pattern [1 deps]
+  T04.G5.03: Recognize a linear search pattern [1 deps]
+  T04.G5.04: Recognize a filter‑and‑collect pattern [1 deps]
+  T04.G5.05: Compare solutions that use a pattern vs those that don’t [1 deps]
+
+====================================================================================================
+T05: T05 – Human‑Centered Design (6 skills)
+====================================================================================================
+  T05.G5.01: Write clear user needs and requirements for a small app [2 deps]
+  T05.G5.02: Create a low‑fidelity sketch for a user story [2 deps]
+  T05.G5.03: Identify variables and initial values for a simulation [2 deps]
+  T05.G5.04: Draft simple update rules for a simulation [1 deps]
+  T05.G5.05: Plan how to test whether a design meets user needs [3 deps]
+  T05.G5.06: Plan what to measure in a simulation experiment [1 deps]
+
+====================================================================================================
+T06: T06 – Events & Sequences: G3–8 Skill List (6 skills)
+====================================================================================================
+  T06.G5.01: Identify standard event patterns in a small game [1 deps]
+  T06.G5.02: Add a new event‑triggered behavior to an existing game [2 deps]
+  T06.G5.03: Design a simple broadcast sequence for level start/end [2 deps]
+  T06.G5.04: Trace event and broadcast order for a scenario [3 deps]
+  T06.G5.05: Find and fix conflicting event scripts [2 deps]
+  T06.G5.06: Group scripts by event type to improve organization [2 deps]
+
+====================================================================================================
+T07: T07 – Loops (4 skills)
+====================================================================================================
+  T07.G5.01: Simulate repeated experiments with a loop [2 deps]
+  T07.G5.02: Build a list with a loop [2 deps]
+  T07.G5.03: Use loops to compute aggregates [1 deps]
+  T07.G5.04: Nested loops for advanced patterns or tilings [2 deps]
+
+====================================================================================================
+T08: T08 – Conditions & Logic (4 skills)
+====================================================================================================
+  T08.G5.01: Design multi-branch decision logic [2 deps]
+  T08.G5.02: Use NOT to invert conditions [2 deps]
+  T08.G5.03: Combine three or more conditions [2 deps]
+  T08.G5.04: Trace complex decision logic [3 deps]
+
+====================================================================================================
+T09: T09 – Variables & Expressions (8 skills)
+====================================================================================================
+  T09.G5.01: Use multiple variables together in expressions [2 deps]
+  T09.G5.02: Use string variables and concatenation [2 deps]
+  T09.G5.03: Use variables to configure behavior (parameters without functions) [1 deps]
+  T09.G5.04: Use expressions involving lists (length, indexing) [2 deps]
+  T09.G5.05: Use variables to track cumulative statistics [2 deps]
+  T09.G5.06: Trace complex variable assignments and expressions [3 deps]
+  T09.G5.07: Trace a counter variable in a loop [1 deps]
+  T09.G5.08: Trace an accumulator that sums values [3 deps]
+
+====================================================================================================
+T10: T10 – Lists & Tables (5 skills)
+====================================================================================================
+  T10.G5.01: Create and populate a table variable [2 deps]
+  T10.G5.02: Access table cells by row and column [2 deps]
+  T10.G5.03: Update or insert rows in a table [2 deps]
+  T10.G5.04: Loop through table rows to compute aggregates [1 deps]
+  T10.G5.05: Search and filter table data [2 deps]
+
+====================================================================================================
+T11: T11 – Functions & Procedures (4 skills)
+====================================================================================================
+  T11.G5.01: Identify subproblems that deserve their own helper [1 deps]
+  T11.G5.02: Define a simple helper with one parameter [2 deps]
+  T11.G5.03: Decide between a parameter and a call to a separate block [2 deps]
+  T11.G5.04: Analyze a modular program structure [2 deps]
+
+====================================================================================================
+T12: T12 – Organizing Programs (4 skills)
+====================================================================================================
+  T12.G5.01: Create external documentation for a project [2 deps]
+  T12.G5.02: Document code functionality and choices [3 deps]
+  T12.G5.03: Organize a multi-feature project with sections [2 deps]
+  T12.G5.04: Review and improve another student's code organization [2 deps]
+
+====================================================================================================
+T13: T13 – Testing, Debugging & Error Handling (4 skills)
+====================================================================================================
+  T13.G5.01: Debug programs using tracing and logging [1 deps]
+  T13.G5.02: Handle invalid or edge case input [1 deps]
+  T13.G5.03: Create and follow a test plan [1 deps]
+  T13.G5.04: Modify a program to improve reliability and correctness [2 deps]
+
+====================================================================================================
+T14: T14 – 2D Games (10 skills)
+====================================================================================================
+  T14.G5.01: **[Engine Skill]** Configure gravity and weight parameters [2 deps]
+  T14.G5.02: Control jump timing [3 deps]
+  T14.G5.03: Fix ground collisions [2 deps]
+  T14.G5.04: Script viewport pans [2 deps]
+  T14.G5.05: Lock viewport to the player [2 deps]
+  T14.G5.06: Pin HUD to the screen [2 deps]
+  T14.G5.07: Spawn near the viewport [2 deps]
+  T14.G5.08: Timed waves [2 deps]
+  T14.G5.09: High score list [2 deps]
+  T14.G5.10: Inventory system [2 deps]
+
+====================================================================================================
+T15: T15 – Stories & Animation (8 skills)
+====================================================================================================
+  T15.G5.01: Broadcast scene change [2 deps]
+  T15.G5.02: Broadcast specific actions [2 deps]
+  T15.G5.03: Simulated Camera Pan [2 deps]
+  T15.G5.04: Layering logic [2 deps]
+  T15.G5.05: Join text strings [2 deps]
+  T15.G5.06: Text effects (Typewriter) [2 deps]
+  T15.G5.07: Track story choices [2 deps]
+  T15.G5.08: Conditional endings [2 deps]
+
+====================================================================================================
+T16: T16 – User Interfaces: G5–8 Skill List (4 skills)
+====================================================================================================
+  T16.G5.01: Create a multi‑screen app with a navigation interface [3 deps]
+  T16.G5.02: Design a form with multiple inputs and validation [2 deps]
+  T16.G5.03: Build a leaderboard or high‑score display [3 deps]
+  T16.G5.04: Implement a responsive HUD that reacts to game state [3 deps]
+
+====================================================================================================
+T17: T17 – 2D Motion & Physics: Grades 5–8 Skill List (11 skills)
+====================================================================================================
+  T17.G5.01: Choose manual vs engine-based physics [2 deps]
+  T17.G5.02: Track gravity with velocity variables [2 deps]
+  T17.G5.03: Use horizontal speed and friction variables [3 deps]
+  T17.G5.04: Code a manual bounce with energy loss [3 deps]
+  T17.G5.05: Initialize a 2D physics world [2 deps]
+  T17.G5.06: Attach a dynamic body to a sprite [2 deps]
+  T17.G5.07: Build static boundaries for floors and walls [2 deps]
+  T17.G5.08: Apply an impulse to jump or push [2 deps]
+  T17.G5.09: **[Engine Skill]** Configure gravity and mass parameters [2 deps]
+  T17.G5.10: Trace simple 2D physics motion [2 deps]
+  T17.G5.11: Debug missing physics setup [3 deps]
+
+====================================================================================================
+T18: T18 – 3D Worlds & Games (6 skills)
+====================================================================================================
+  T18.G5.01: Initialize a 3D physics world [2 deps]
+  T18.G5.02: Attach static and dynamic physics bodies [2 deps]
+  T18.G5.03: Detect physics collisions to collect items [1 deps]
+  T18.G5.04: Use nested loops to arrange 3D objects in grids [1 deps]
+  T18.G5.05: Apply detailed textures or materials to surfaces [2 deps]
+  T18.G5.06: Add global fog or particle effects for atmosphere [2 deps]
+
+====================================================================================================
+T19: T19 – Multiplayer Apps: Grade 5–8 Skill List (5 skills)
+====================================================================================================
+  T19.G5.01: Host or join a CreatiCode multiplayer lobby [2 deps]
+  T19.G5.02: Build a ready-up indicator before the game starts [3 deps]
+  T19.G5.03: Implement shared quick chat or emote buttons [2 deps]
+  T19.G5.04: Display a synchronized scoreboard for the current session [2 deps]
+  T19.G5.05: Diagnose and respond to connection status changes [3 deps]
+
+====================================================================================================
+T20: T20 – Algorithmic Art & Creative Coding (5 skills)
+====================================================================================================
+  T20.G5.01: **[Technical Skill]** Implement data-driven visualization algorithms [1 deps]
+  T20.G5.02: Animate a pattern with a counter variable [1 deps]
+  T20.G5.03: Make art respond to mouse or keys [1 deps]
+  T20.G5.04: Create fractal-like nested patterns [1 deps]
+  T20.G5.05: Explain data-to-visual design choices [1 deps]
+
+====================================================================================================
+T21: T21 – AI Media: G6–8 Skill List (1 skills)
+====================================================================================================
+  T21.G5.01: Plan which assets should be AI-made vs hand-made [2 deps]
+
+====================================================================================================
+T22: T22 – Chatbots & Prompting: G6–8 Skill List (1 skills)
+====================================================================================================
+  T22.G5.01: Flag risky vs safe chatbot prompts [3 deps]
+
+====================================================================================================
+T23: T23 – AI Perception (4 skills)
+====================================================================================================
+  T23.G5.01: Compare what people see vs what pixels show [2 deps]
+  T23.G5.02: Explain why an AI might mis-hear or mis-see [2 deps]
+  T23.G5.03: Choose safe ways to handle sensor data [2 deps]
+  T23.G5.04: Identify when AI sensing might be unfair [2 deps]
+
+====================================================================================================
+T24: T24 – XO & Generative AI Practices: G5–8 Skill List (5 skills)
+====================================================================================================
+  T24.G5.01: Read and interpret XO’s interface cues [2 deps]
+  T24.G5.02: Ask XO for a three-step project plan [2 deps]
+  T24.G5.03: Turn an XO suggestion into starter code safely [1 deps]
+  T24.G5.04: Use the AI image library to collect matching assets [3 deps]
+  T24.G5.05: Reject unsafe or off-spec XO suggestions [3 deps]
+
+====================================================================================================
+T25: T25 – Data Representation (4 skills)
+====================================================================================================
+  T25.G5.01: Model multi-type game state [2 deps]
+  T25.G5.02: Convert messy inputs into canonical formats [2 deps]
+  T25.G5.03: Decide when to upgrade from list to table [2 deps]
+  T25.G5.04: Encode categorical values with symbols or enums [1 deps]
+
+====================================================================================================
+T26: T26 – Data Collection & Logging (4 skills)
+====================================================================================================
+  T26.G5.01: Instrument a project with runtime logs [2 deps]
+  T26.G5.02: Plan sampling strategies [2 deps]
+  T26.G5.03: Validate data entry with error checks [2 deps]
+  T26.G5.04: Store logs in CreatiCode tables for export [2 deps]
+
+====================================================================================================
+T27: T27 – Data Analysis & Storytelling (3 skills)
+====================================================================================================
+  T27.G5.01: Build interactive dashboards with widgets [2 deps]
+  T27.G5.03: Compare data from two sensors or sources [2 deps]
+  T27.G5.04: Present findings using slides or mini reports [2 deps]
+
+====================================================================================================
+T28: T28 – Chance & Simulations: G2–8 Skill List (4 skills)
+====================================================================================================
+  T28.G5.01: Simulate compound events (two dice) [1 deps]
+  T28.G5.02: Randomly assign participants to conditions [2 deps]
+  T28.G5.03: Use Monte Carlo to estimate an area or probability [2 deps]
+  T28.G5.04: Document simulation plans before coding [2 deps]
+
+====================================================================================================
+T29: T29 – Text Data & NLP Foundations: G3–8 Skill List (4 skills)
+====================================================================================================
+  T29.G5.01: Structure chat logs into tables [1 deps]
+  T29.G5.02: Build stop-word filters and keyword lists [2 deps]
+  T29.G5.03: Measure simple sentiment heuristics [2 deps]
+  T29.G5.04: Map story descriptions into AI prompt slots [2 deps]
+
+====================================================================================================
+T30: T30 – Devices & Hardware Systems (4 skills)
+====================================================================================================
+  T30.G5.01: Match CreatiCode AI features to hardware requirements [2 deps]
+  T30.G5.02: Plan safe device-handling procedures for group work [2 deps]
+  T30.G5.03: Explain how different sensors collect data [1 deps]
+  T30.G5.04: Relate hardware choices to accessibility outcomes [2 deps]
+
+====================================================================================================
+T31: T31 – Internet & Cloud: Grade 5–8 Skill List (5 skills)
+====================================================================================================
+  T31.G5.01: Trace how a device reaches an online service [1 deps]
+  T31.G5.02: Decide when apps need the internet vs work offline [3 deps]
+  T31.G5.03: Save and reload a preference using a cloud variable [1 deps]
+  T31.G5.04: Configure a session ID to isolate practice data [1 deps]
+  T31.G5.05: Interpret connection status indicators in CreatiCode [1 deps]
+
+====================================================================================================
+T32: T32 – Cybersecurity & Digital Safety (4 skills)
+====================================================================================================
+  T32.G5.01: Analyze social engineering tactics [2 deps]
+  T32.G5.02: Evaluate terms of service/privacy policies (kid-friendly summaries) [2 deps]
+  T32.G5.03: Secure AI training data and outputs [2 deps]
+  T32.G5.04: Create backup plans for digital work [1 deps]
+
+====================================================================================================
+T34: T34 – Computing History (3 skills)
+====================================================================================================
+  T34.G5.01: Investigate social movements linked to computing [2 deps]
+  T34.G5.02: Compare invention timelines in multiple industries [2 deps]
+  T34.G5.03: Conduct interviews with tech users [2 deps]
+
+====================================================================================================
+T35: T35 – Impacts & Ethics (3 skills)
+====================================================================================================
+  T35.G5.01: Examine global impacts of technology [2 deps]
+  T35.G5.02: Debate digital well-being scenarios [2 deps]
+  T35.G5.03: Analyze AI's differential impacts on workers and communities [2 deps]
+
+====================================================================================================
+T36: T36 – Careers, Collaboration & Future Paths (3 skills)
+====================================================================================================
+  T36.G5.01: Map personal interests to tech pathways [1 deps]
+  T36.G5.02: Follow a plan-build-feedback cycle [2 deps]
+  T36.G5.03: Evaluate inclusion in tech stories [2 deps]

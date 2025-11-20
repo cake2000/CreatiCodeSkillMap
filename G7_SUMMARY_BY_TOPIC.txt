@@ -1,0 +1,652 @@
+================================================================================
+G7 SKILLS BY TOPIC
+================================================================================
+
+
+T01: T01 – Everyday Algorithms
+Total G7 skills: 8
+--------------------------------------------------------------------------------
+
+T01.G7.01: Identify the pattern in a given program
+  Deps (5): T01.GK.01, T01.GK.07, T01.GK.08, T06.G3.01, T09.G3.01
+
+T01.G7.02: Choose a pattern to solve a problem
+  Deps (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+T01.G7.03: Write pseudocode for a search or accumulation algorithm
+  Deps (5): T01.GK.01, T01.GK.07, T01.GK.08, T04.G2.01, T09.G3.01
+
+T01.G7.04: Compare efficiency of two algorithms qualitatively
+  Deps (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+T01.G7.05: Design a set of edge‑case tests for an algorithm
+  Deps (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+T01.G7.06: Run an algorithm on edge cases and find failures
+  Deps (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+T01.G7.07: Explain why an algorithm fails on a specific edge case
+  Deps (5): T01.G3.01, T01.G3.02, T01.GK.01, T01.GK.07, T01.GK.08
+
+T01.G7.08: Rewrite a naive algorithm using a better pattern
+  Deps (5): T01.GK.01, T01.GK.07, T01.GK.08, T04.G2.01, T07.G3.01
+
+T02: T02 – Algorithm Diagrams
+Total G7 skills: 6
+--------------------------------------------------------------------------------
+
+T02.G7.01: Trace a step‑by‑step simulation algorithm
+  Deps (5): T02.GK.01, T02.GK.03, T02.GK.04, T07.G3.01, T09.G3.01
+
+T02.G7.02: Extend a simulation trace and predict future behavior
+  Deps (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+T02.G7.03: Create a flowchart for linear search or “find max”
+  Deps (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+T02.G7.04: Read a flowchart for a simple sort and trace one pass
+  Deps (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+T02.G7.05: Count steps for two algorithms on small inputs
+  Deps (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+T02.G7.06: Trace an algorithm to find a bug or edge case
+  Deps (5): T01.G3.01, T01.G3.02, T02.GK.01, T02.GK.03, T02.GK.04
+
+T03: T03 – Problem Decomposition
+Total G7 skills: 6
+--------------------------------------------------------------------------------
+
+T03.G7.01: Draw an architecture diagram for a multi‑component project
+  Deps (5): T02.G3.01, T03.GK.01, T03.GK.03, T03.GK.04, T04.G2.01
+
+T03.G7.02: Map functional modules to architecture components
+  Deps (5): T03.GK.01, T03.GK.03, T03.GK.04, T06.G3.01, T09.G3.01
+
+T03.G7.03: Compare two decompositions of the same project
+  Deps (4): T03.G1.01, T03.G1.02, T03.GK.03, T03.GK.04
+
+T03.G7.04: Propose an alternative decomposition to fix a planning problem
+  Deps (4): T03.GK.03, T03.GK.04, T06.G3.01, T09.G3.01
+
+T03.G7.05: Design a test plan based on a project breakdown
+  Deps (4): T03.G1.01, T03.G1.02, T03.GK.03, T03.GK.04
+
+T03.G7.06: Update a project plan after test results
+  Deps (4): T01.G3.01, T01.G3.02, T03.GK.03, T03.GK.04
+
+T04: T04 – Algorithm Patterns
+Total G7 skills: 6
+--------------------------------------------------------------------------------
+
+T04.G7.01: Identify the main loop patterns in a simulation or game
+  Deps (4): T04.GK.03, T04.GK.04, T07.G3.01, T08.G3.01
+
+T04.G7.02: Identify data structure patterns (lists, grids) in use
+  Deps (4): T04.G2.01, T04.GK.03, T04.GK.04, T08.G3.01
+
+T04.G7.03: Design a solution by combining two known patterns
+  Deps (4): T04.GK.03, T04.GK.04, T06.G3.01, T09.G3.01
+
+T04.G7.04: Trace a composite pattern and explain each part’s role
+  Deps (4): T04.GK.03, T04.GK.04, T06.G3.01, T09.G3.01
+
+T04.G7.05: Simplify code by merging repeated patterns
+  Deps (4): T04.G2.01, T04.GK.03, T04.GK.04, T07.G3.01
+
+T04.G7.06: Compare pattern‑based implementations for maintainability
+  Deps (4): T04.G1.01, T04.G2.01, T04.GK.03, T04.GK.04
+
+T05: T05 – Human‑Centered Design
+Total G7 skills: 6
+--------------------------------------------------------------------------------
+
+T05.G7.01: Perform a checklist‑based accessibility review of a project
+  Deps (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+T05.G7.02: Prioritize which accessibility issues to fix first
+  Deps (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+T05.G7.03: Identify potential unintended harms from a design
+  Deps (4): T05.G1.01, T05.GK.03, T05.GK.04, T06.G3.01
+
+T05.G7.04: Propose one concrete mitigation per harm
+  Deps (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+T05.G7.05: Interpret usage or feedback data to find UX problems
+  Deps (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+T05.G7.06: Choose design changes based on data patterns
+  Deps (4): T05.G1.01, T05.G1.02, T05.GK.03, T05.GK.04
+
+T06: T06 – Events & Sequences: G3–8 Skill List
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T06.G7.01: Model program states and transitions using events
+  Deps (4): T06.G3.01, T06.G3.02, T06.G6.03, T06.G6.04
+
+T06.G7.02: Trace state changes in event‑driven code
+  Deps (4): T06.G3.01, T06.G6.03, T06.G6.04, T09.G3.01
+
+T06.G7.03: Design a broadcast protocol to decouple components
+  Deps (4): T01.G3.01, T06.G6.03, T06.G6.04, T09.G3.01
+
+T06.G7.04: Compare tightly coupled vs broadcast‑based designs
+  Deps (4): T06.G3.01, T06.G6.03, T06.G6.04, T08.G3.01
+
+T07: T07 – Loops
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T07.G7.01: Use loops to simulate motion over time
+  Deps (4): T07.G3.01, T07.G3.02, T07.G6.05, T07.G6.06
+
+T07.G7.02: Nested loops for 2D grids and tile maps
+  Deps (4): T07.G3.01, T07.G6.05, T07.G6.06, T08.G3.01
+
+T07.G7.03: Compare loop algorithms by counting steps
+  Deps (4): T07.G3.01, T07.G6.05, T07.G6.06, T08.G3.01
+
+T07.G7.04: Loop patterns for counting and accumulation
+  Deps (4): T07.G3.01, T07.G6.06, T08.G3.01, T09.G3.01
+
+T08: T08 – Conditions & Logic
+Total G7 skills: 2
+--------------------------------------------------------------------------------
+
+T08.G7.01: Reason about fairness using conditions
+  Deps (4): T08.G3.01, T08.G3.02, T08.G6.02, T08.G6.03
+
+T08.G7.02: Design tests for condition-heavy code
+  Deps (4): T06.G3.01, T08.G3.01, T08.G6.02, T08.G6.03
+
+T09: T09 – Variables & Expressions
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T09.G7.01: Use variables to store and update state in simulations
+  Deps (4): T09.G3.01, T09.G3.02, T09.G6.04, T09.G6.05
+
+T09.G7.02: Use aggregate expressions (sum, average, min, max)
+  Deps (4): T09.G3.01, T09.G3.02, T09.G6.04, T09.G6.05
+
+T09.G7.03: Use variables in conditional logic with compound conditions
+  Deps (4): T08.G3.01, T09.G3.01, T09.G6.04, T09.G6.05
+
+T09.G7.04: Analyze how variable updates affect program behavior
+  Deps (4): T06.G3.01, T09.G3.01, T09.G6.04, T09.G6.05
+
+T10: T10 – Lists & Tables
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T10.G7.01: Design and populate a table for a real-world inventory or database
+  Deps (4): T06.G3.01, T09.G3.01, T10.G6.03, T10.G6.04
+
+T10.G7.02: Analyze a dataset to find patterns or outliers
+  Deps (4): T08.G3.01, T09.G3.01, T10.G6.03, T10.G6.04
+
+T10.G7.03: Transform or clean data in a table using loops and conditions
+  Deps (4): T09.G3.01, T10.G3.01, T10.G6.03, T10.G6.04
+
+T10.G7.04: Use nested loops to analyze relationships between two datasets
+  Deps (4): T07.G3.01, T08.G3.01, T10.G6.03, T10.G6.04
+
+T11: T11 – Functions & Procedures
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T11.G7.01: Use custom blocks to implement algorithms
+  Deps (4): T01.G3.01, T09.G3.01, T11.G6.03, T11.G6.04
+
+T11.G7.02: Design a set of related blocks for a subsystem
+  Deps (4): T06.G3.01, T09.G3.01, T11.G6.03, T11.G6.04
+
+T11.G7.03: Understand encapsulation and data hiding
+  Deps (4): T09.G3.01, T11.G3.01, T11.G6.03, T11.G6.04
+
+T11.G7.04: Trace and debug complex block hierarchies
+  Deps (4): T06.G3.01, T08.G3.01, T11.G6.03, T11.G6.04
+
+T12: T12 – Organizing Programs
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T12.G7.01: Refactor long scripts into smaller, named subroutines
+  Deps (4): T06.G3.01, T08.G3.01, T12.G6.03, T12.G6.04
+
+T12.G7.02: Analyze readability vs performance trade-offs
+  Deps (4): T08.G3.01, T12.G1.01, T12.G6.03, T12.G6.04
+
+T12.G7.03: Create a code review checklist for clarity
+  Deps (4): T08.G3.01, T09.G3.01, T12.G6.03, T12.G6.04
+
+T12.G7.04: Document design decisions in code
+  Deps (4): T07.G3.01, T09.G3.01, T12.G6.03, T12.G6.04
+
+T13: T13 – Testing, Debugging & Error Handling
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T13.G7.01: Write comprehensive test cases for an algorithm
+  Deps (4): T08.G3.01, T09.G3.01, T13.GK.02, T13.GK.03
+
+T13.G7.02: Debug logic errors in complex programs
+  Deps (4): T06.G3.01, T08.G3.01, T09.G3.01, T13.GK.03
+
+T13.G7.03: Refactor for testability and clarity
+  Deps (4): T06.G3.01, T08.G3.01, T09.G3.01, T13.GK.03
+
+T13.G7.04: Compare reliability of different program designs
+  Deps (4): T08.G3.01, T13.G1.01, T13.GK.02, T13.GK.03
+
+T14: T14 – 2D Games
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T14.G7.01: Spatial partitioning (grid)
+  Deps (5): T07.G3.05, T08.G3.05, T09.G3.01, T14.GK.03, T14.GK.04
+
+T14.G7.02: Basic pathfinding
+  Deps (5): T06.G3.01, T07.G3.05, T08.G3.05, T09.G3.01, T14.GK.04
+
+T14.G7.03: Weighted spawn scheduler
+  Deps (5): T07.G3.05, T08.G3.01, T08.G3.05, T14.GK.03, T14.GK.04
+
+T14.G7.04: Clone budget profiler
+  Deps (5): T07.G3.05, T08.G3.01, T08.G3.05, T09.G3.01, T14.GK.04
+
+T14.G7.05: Difficulty curves
+  Deps (5): T07.G3.05, T08.G3.01, T08.G3.05, T09.G3.01, T14.GK.04
+
+T15: T15 – Stories & Animation
+Total G7 skills: 2
+--------------------------------------------------------------------------------
+
+T15.G7.01: Scene Graph / Manager
+  Deps (5): T06.G3.01, T06.G3.08, T07.G3.05, T09.G3.01, T15.GK.03
+
+T15.G7.02: Lip Sync Logic
+  Deps (5): T06.G3.01, T06.G3.08, T07.G3.05, T09.G3.01, T15.GK.03
+
+T16: T16 – User Interfaces: G5–8 Skill List
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T16.G7.01: Build a data collection interface (survey or questionnaire)
+  Deps (5): T06.G3.08, T08.G3.01, T08.G3.05, T16.G6.03, T16.G6.04
+
+T16.G7.02: Implement a search or filter interface
+  Deps (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T16.G6.04
+
+T16.G7.03: Design an accessible interface for users with different abilities
+  Deps (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T16.G6.04
+
+T16.G7.04: Create a help or tutorial interface
+  Deps (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T16.G6.04
+
+T17: T17 – 2D Motion & Physics: Grades 5–8 Skill List
+Total G7 skills: 7
+--------------------------------------------------------------------------------
+
+T17.G7.01: Launch a configurable projectile
+  Deps (5): T06.G3.01, T07.G3.05, T08.G3.05, T09.G3.01, T17.G6.08
+
+T17.G7.02: Combine multiple forces simultaneously
+  Deps (5): T07.G3.01, T07.G3.05, T08.G3.05, T17.G6.07, T17.G6.08
+
+T17.G7.03: Simulate drag or resistance
+  Deps (5): T07.G3.05, T08.G3.01, T08.G3.05, T17.G6.07, T17.G6.08
+
+T17.G7.04: Build chains or stacks of physics objects
+  Deps (5): T07.G3.05, T08.G3.01, T08.G3.05, T17.G6.07, T17.G6.08
+
+T17.G7.05: Instrument and graph motion data
+  Deps (5): T07.G3.05, T08.G3.05, T09.G3.01, T17.G6.07, T17.G6.08
+
+T17.G7.06: Model a real-world physics scenario
+  Deps (5): T06.G3.01, T07.G3.05, T08.G3.05, T09.G3.01, T17.G6.08
+
+T17.G7.07: Evaluate whether a simulation meets requirements
+  Deps (5): T07.G3.05, T08.G3.01, T08.G3.05, T17.G6.07, T17.G6.08
+
+T18: T18 – 3D Worlds & Games
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T18.G7.01: Implement pathfinding or waypoint-based NPC movement
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T14.G3.01, T18.G6.05
+
+T18.G7.02: Design collision response for bouncing or sliding
+  Deps (5): T07.G3.05, T08.G3.01, T14.G3.01, T18.G6.04, T18.G6.05
+
+T18.G7.03: Use 3D coordinates and distance calculations for game mechanics
+  Deps (5): T06.G3.01, T07.G3.05, T14.G3.01, T18.G6.04, T18.G6.05
+
+T18.G7.04: Implement a physics-based puzzle mechanic
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T14.G3.01, T18.G6.05
+
+T18.G7.05: Script camera transitions for cutscenes
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T14.G3.01, T18.G6.05
+
+T19: T19 – Multiplayer Apps: Grade 5–8 Skill List
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T19.G7.01: Balance starting conditions and scoring
+  Deps (5): T06.G3.01, T06.G3.08, T09.G3.01, T19.G6.05, T31.G5.01
+
+T19.G7.02: Implement dynamic team assignment or matchmaking
+  Deps (5): T06.G3.01, T06.G3.08, T09.G3.01, T19.G6.05, T31.G5.01
+
+T19.G7.03: Decide what data syncs vs stays local
+  Deps (5): T06.G3.01, T06.G3.08, T09.G3.01, T19.G6.05, T31.G5.01
+
+T19.G7.04: Scale logic to handle variable player counts
+  Deps (7): T06.G3.01, T06.G3.08, T07.G3.01, T08.G3.01, T09.G3.01, T19.G6.04, T19.G6.05
+
+T19.G7.05: Display connection quality and apply fallbacks
+  Deps (5): T06.G3.08, T08.G3.01, T19.G6.04, T19.G6.05, T31.G5.01
+
+T20: T20 – Algorithmic Art & Creative Coding
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T20.G7.01: Compare efficiency of art algorithms
+  Deps (5): T07.G3.05, T08.G3.01, T20.GK.03, T20.GK.04, T28.G3.04
+
+T20.G7.02: Use while/repeat-until loops in art
+  Deps (5): T07.G3.01, T07.G3.05, T08.G3.01, T20.GK.04, T28.G3.04
+
+T20.G7.03: Study parameter impact on aesthetics
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T20.GK.04, T28.G3.04
+
+T20.G7.04: Analyze real generative artworks
+  Deps (5): T07.G3.01, T07.G3.05, T20.GK.03, T20.GK.04, T28.G3.04
+
+T20.G7.05: Implement iterative art rules (L-system lite)
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T20.GK.04, T28.G3.04
+
+T21: T21 – AI Media: G6–8 Skill List
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T21.G7.01: Create a reusable prompt template library
+  Deps (5): T07.G3.01, T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+
+T21.G7.02: Use ChatGPT to expand briefs before generating art
+  Deps (5): T08.G3.01, T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+
+T21.G7.03: Audit AI imagery for representation and bias
+  Deps (7): T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.04, T10.G3.03, T21.G6.03, T21.G6.04
+
+T21.G7.04: Blend AI frames with manual touch-ups for animation
+  Deps (5): T06.G3.01, T08.G3.01, T09.G3.04, T10.G3.03, T21.G6.04
+
+T21.G7.05: Pair AI visuals with AI narration for immersive scenes
+  Deps (5): T06.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T21.G6.04
+
+T22: T22 – Chatbots & Prompting: G6–8 Skill List
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T22.G7.01: Author a persona using system messages and few-shot turns
+  Deps (5): T06.G3.01, T06.G3.08, T09.G3.01, T09.G3.04, T22.G6.04
+
+T22.G7.02: Manage chat history and reset logic
+  Deps (5): T06.G3.08, T08.G3.01, T09.G3.04, T22.G6.03, T22.G6.04
+
+T22.G7.03: Capture slot values through UI widgets and inject them into prompts
+  Deps (5): T06.G3.01, T06.G3.08, T09.G3.01, T09.G3.04, T22.G6.04
+
+T22.G7.04: Add moderation guardrails and escalation paths
+  Deps (5): T06.G3.08, T08.G3.01, T09.G3.04, T22.G6.03, T22.G6.04
+
+T22.G7.05: User-test the chatbot for inclusivity and clarity
+  Deps (5): T06.G3.01, T06.G3.08, T08.G3.01, T09.G3.04, T22.G6.04
+
+T23: T23 – AI Perception
+Total G7 skills: 6
+--------------------------------------------------------------------------------
+
+T23.G7.01: Define a reusable gesture dictionary
+  Deps (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T23.GK.03
+
+T23.G7.02: Require multimodal confirmation (voice + gesture)
+  Deps (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+T23.G7.03: Score a pose-based challenge with coaching tips
+  Deps (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+T23.G7.04: Monitor detection accuracy across different users
+  Deps (5): T06.G3.01, T06.G3.08, T08.G3.05, T09.G3.01, T23.GK.03
+
+T23.G7.05: Build a calibration wizard for sensors
+  Deps (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+T23.G7.06: Implement fairness safeguards for perception systems
+  Deps (5): T06.G3.08, T08.G3.01, T08.G3.05, T23.GK.02, T23.GK.03
+
+T24: T24 – XO & Generative AI Practices: G5–8 Skill List
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T24.G7.01: Create reusable XO prompt macros
+  Deps (5): T09.G3.01, T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+
+T24.G7.02: Run an XO-led code review with evidence
+  Deps (5): T06.G3.01, T08.G3.01, T09.G3.04, T10.G3.03, T24.G6.06
+
+T24.G7.03: Combine XO storyboards with AI sprite generation
+  Deps (5): T06.G3.01, T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+
+T24.G7.04: Enforce responsible-use rules for XO assistance
+  Deps (5): T08.G3.01, T09.G3.04, T10.G3.03, T24.G6.05, T24.G6.06
+
+T24.G7.05: Use XO to coach peers with rubric-based feedback
+  Deps (5): T06.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T24.G6.06
+
+T25: T25 – Data Representation
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T25.G7.01: Normalize repeating data into separate tables
+  Deps (4): T25.G1.01, T25.G1.02, T25.GK.02, T25.GK.03
+
+T25.G7.02: Identify bias introduced by representation choices
+  Deps (4): T25.G1.01, T25.G1.02, T25.GK.02, T25.GK.03
+
+T25.G7.03: Create JSON-like snippets to store structured state
+  Deps (4): T06.G3.01, T09.G3.01, T25.GK.02, T25.GK.03
+
+T25.G7.04: Evaluate storage vs performance tradeoffs
+  Deps (4): T25.G1.01, T25.G1.02, T25.GK.02, T25.GK.03
+
+T26: T26 – Data Collection & Logging
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T26.G7.01: Build reusable data collection modules
+  Deps (5): T06.G3.01, T09.G3.04, T10.G3.03, T26.GK.02, T26.GK.03
+
+T26.G7.02: Monitor data quality in real time
+  Deps (5): T09.G3.01, T09.G3.04, T10.G3.03, T26.GK.02, T26.GK.03
+
+T26.G7.03: Document provenance for external datasets
+  Deps (5): T08.G3.01, T09.G3.04, T10.G3.03, T26.GK.02, T26.GK.03
+
+T26.G7.04: Evaluate bias risks introduced during collection
+  Deps (5): T08.G3.01, T09.G3.04, T10.G3.03, T26.GK.02, T26.GK.03
+
+T27: T27 – Data Analysis & Storytelling
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T27.G7.01: Build multi-chart dashboards with linked filters
+  Deps (5): T09.G3.01, T09.G3.04, T26.G3.04, T27.GK.02, T27.GK.03
+
+T27.G7.02: Conduct residual/error analysis
+  Deps (5): T08.G3.01, T09.G3.04, T26.G3.04, T27.GK.02, T27.GK.03
+
+T27.G7.03: Evaluate fairness metrics
+  Deps (5): T08.G3.01, T09.G3.04, T26.G3.04, T27.GK.02, T27.GK.03
+
+T27.G7.04: Craft executive summaries for stakeholders
+  Deps (5): T06.G3.01, T09.G3.01, T09.G3.04, T26.G3.04, T27.GK.03
+
+T28: T28 – Chance & Simulations: G2–8 Skill List
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T28.G7.01: Build agent-based simulations
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T09.G3.04, T28.G6.05
+
+T28.G7.02: Evaluate AI fairness using synthetic populations
+  Deps (5): T07.G3.05, T08.G3.01, T09.G3.04, T28.G6.04, T28.G6.05
+
+T28.G7.03: Perform randomization tests (permutation tests)
+  Deps (5): T07.G3.01, T07.G3.05, T09.G3.01, T09.G3.04, T28.G6.05
+
+T28.G7.04: Communicate simulation assumptions & limits
+  Deps (5): T06.G3.01, T07.G3.05, T09.G3.01, T09.G3.04, T28.G6.05
+
+T28.G7.05: Trace how a simple agent learns from rewards
+  Deps (5): T07.G3.05, T09.G3.01, T09.G3.04, T28.G6.04, T28.G6.05
+
+T29: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T29.G7.01: Build keyword retrieval helpers (mini-RAG)
+  Deps (5): T09.G3.01, T09.G3.04, T10.G3.03, T29.G6.03, T29.G6.04
+
+T29.G7.02: Engineer text features for classifiers
+  Deps (5): T08.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T29.G6.04
+
+T29.G7.03: Audit text datasets for bias and coverage
+  Deps (5): T06.G3.01, T09.G3.01, T09.G3.04, T10.G3.03, T29.G6.04
+
+T29.G7.04: Compare human vs XO summaries critically
+  Deps (5): T08.G3.01, T09.G3.04, T10.G3.03, T29.G6.03, T29.G6.04
+
+T30: T30 – Devices & Hardware Systems
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T30.G7.01: Analyze energy consumption & thermal limits
+  Deps (4): T30.G1.01, T30.G1.02, T30.GK.02, T30.GK.03
+
+T30.G7.02: Design redundancy/fail-safes for sensors
+  Deps (4): T01.G3.01, T01.G3.02, T30.GK.02, T30.GK.03
+
+T30.G7.03: Design redundancy/fail-safes for AI sensors
+  Deps (4): T01.G3.01, T01.G3.02, T30.GK.02, T30.GK.03
+
+T30.G7.04: Compare CPUs, GPUs, and TPUs for AI workloads
+  Deps (4): T30.G1.01, T30.G1.02, T30.GK.02, T30.GK.03
+
+T30.G7.05: Debate privacy implications of AI-powered sensors
+  Deps (4): T30.G1.01, T30.G1.02, T30.GK.02, T30.GK.03
+
+T31: T31 – Internet & Cloud: Grade 5–8 Skill List
+Total G7 skills: 5
+--------------------------------------------------------------------------------
+
+T31.G7.01: Model a distributed multiplayer server
+  Deps (4): T02.G3.01, T31.G5.01, T31.G6.04, T31.G6.05
+
+T31.G7.02: Design a protocol for multiplayer state sync
+  Deps (4): T31.G5.01, T31.G5.02, T31.G6.04, T31.G6.05
+
+T31.G7.03: Compare network topology options
+  Deps (4): T31.G5.01, T31.G5.02, T31.G6.04, T31.G6.05
+
+T31.G7.04: Compare centralized servers with peer-to-peer networks
+  Deps (4): T06.G3.01, T09.G3.01, T31.G6.04, T31.G6.05
+
+T31.G7.05: Analyze societal impacts of networked systems
+  Deps (4): T04.G2.01, T31.G5.01, T31.G6.04, T31.G6.05
+
+T32: T32 – Cybersecurity & Digital Safety
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T32.G7.01: Analyze encryption basics (Caesar cipher)
+  Deps (4): T06.G3.01, T09.G3.01, T32.GK.02, T32.GK.03
+
+T32.G7.02: Simulate password cracking attempts
+  Deps (4): T32.G1.01, T32.G1.02, T32.GK.02, T32.GK.03
+
+T32.G7.03: Implement secure logging/monitoring inside apps
+  Deps (4): T07.G3.01, T32.G1.01, T32.GK.02, T32.GK.03
+
+T32.G7.04: Analyze AI-powered surveillance ethics and societal impacts
+  Deps (4): T32.G1.01, T32.G1.02, T32.GK.02, T32.GK.03
+
+T33: T33 – Connected Services & Tool Wrappers: G6–8 Skill List
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T33.G7.01: Securely store and reference service credentials (conceptual)
+  Deps (5): T08.G3.01, T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+
+T33.G7.02: Build wrappers that combine multiple services
+  Deps (5): T06.G3.01, T09.G3.01, T10.G3.03, T31.G5.01, T33.G6.04
+
+T33.G7.03: Compare service options and pick the right tool
+  Deps (5): T08.G3.01, T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+
+T33.G7.04: Implement caching/memoization for repeated requests
+  Deps (5): T09.G3.01, T10.G3.03, T31.G5.01, T33.G6.03, T33.G6.04
+
+T34: T34 – Computing History
+Total G7 skills: 3
+--------------------------------------------------------------------------------
+
+T34.G7.01: Research AI history milestones
+  Deps (4): T34.G1.01, T34.G1.02, T34.GK.02, T34.GK.03
+
+T34.G7.02: Evaluate technology policies over time
+  Deps (4): T34.G1.01, T34.G1.02, T34.GK.02, T34.GK.03
+
+T34.G7.03: Create museum-style exhibits for innovators
+  Deps (4): T08.G3.01, T34.G1.01, T34.GK.02, T34.GK.03
+
+T35: T35 – Impacts & Ethics
+Total G7 skills: 6
+--------------------------------------------------------------------------------
+
+T35.G7.01: Conduct comprehensive bias audits across T21-T24 AI features
+  Deps (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+T35.G7.02: Explore unintended consequences of new tech
+  Deps (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+T35.G7.03: Evaluate transparency vs security tensions
+  Deps (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+  Deps (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+T35.G7.05: Debate ethical implications of AI media generation (Pairing with T21)
+  Deps (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+T35.G7.06: Facilitate community discussions on AI-powered tech policy
+  Deps (4): T35.G1.01, T35.G1.02, T35.GK.02, T35.GK.03
+
+T36: T36 – Careers, Collaboration & Future Paths
+Total G7 skills: 4
+--------------------------------------------------------------------------------
+
+T36.G7.01: Interview diverse technologists about AI ethics and equity
+  Deps (4): T36.G1.01, T36.G1.02, T36.GK.02, T36.GK.03
+
+T36.G7.02: Design cross-functional team diagrams
+  Deps (4): T06.G3.01, T09.G3.01, T36.GK.02, T36.GK.03
+
+T36.G7.03: Facilitate inclusive collaboration
+  Deps (4): T36.G1.01, T36.G1.02, T36.GK.02, T36.GK.03
+
+T36.G7.04: Mentor younger coders
+  Deps (4): T01.G3.01, T01.G3.02, T36.GK.02, T36.GK.03

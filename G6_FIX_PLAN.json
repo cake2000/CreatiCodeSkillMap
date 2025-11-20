@@ -1,0 +1,2974 @@
+{
+  "T01.G6.01": {
+    "skill_name": "Count comparisons in linear and binary search",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.G1.01",
+      "T01.GK.07",
+      "T01.GK.08",
+      "T04.G2.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G1.01 (G1)",
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)",
+      "REMOVED lower grade dependency on T04.G2.01 (G2)"
+    ]
+  },
+  "T01.G6.02": {
+    "skill_name": "Compare how step counts grow with input size",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T01.G3.02",
+      "T01.GK.07",
+      "T01.GK.08"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T01.G3.02 (G3)",
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)"
+    ]
+  },
+  "T01.G6.03": {
+    "skill_name": "Spot unnecessary work in an algorithm",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.GK.07",
+      "T01.GK.08",
+      "T06.G3.01",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)",
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T01.G6.04": {
+    "skill_name": "Revise an algorithm to do less work",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.GK.07",
+      "T01.GK.08",
+      "T07.G3.01",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T01.G6.05": {
+    "skill_name": "Identify who is favored or harmed by a decision algorithm",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T01.G3.02",
+      "T01.GK.07",
+      "T01.GK.08"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T01.G3.02 (G3)",
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)"
+    ]
+  },
+  "T01.G6.06": {
+    "skill_name": "Suggest a change to make a decision algorithm more fair",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.G1.01",
+      "T01.G1.02",
+      "T01.GK.07",
+      "T01.GK.08"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G1.01 (G1)",
+      "REMOVED lower grade dependency on T01.G1.02 (G1)",
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)"
+    ]
+  },
+  "T01.G6.07": {
+    "skill_name": "Design a flowchart for a multi‑step program",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.GK.08",
+      "T07.G3.01",
+      "T08.G3.01",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.GK.08 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T01.G6.08": {
+    "skill_name": "Implement code from a detailed flowchart",
+    "topic": "T01 – Everyday Algorithms",
+    "old_dependencies": [
+      "T01.GK.07",
+      "T01.GK.08",
+      "T06.G3.01",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.GK.07 (GK)",
+      "REMOVED lower grade dependency on T01.GK.08 (GK)",
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T02.G6.01": {
+    "skill_name": "Design a flowchart for a simple guessing game",
+    "topic": "T02 – Algorithm Diagrams",
+    "old_dependencies": [
+      "T02.GK.03",
+      "T02.GK.04",
+      "T07.G3.01",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T02.GK.03 (GK)",
+      "REMOVED lower grade dependency on T02.GK.04 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T02.G6.02": {
+    "skill_name": "Trace nested flowchart structures with multiple variables",
+    "topic": "T02 – Algorithm Diagrams",
+    "old_dependencies": [
+      "T02.GK.03",
+      "T02.GK.04",
+      "T07.G3.01",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T02.GK.03 (GK)",
+      "REMOVED lower grade dependency on T02.GK.04 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T02.G6.03": {
+    "skill_name": "Analyze different flowchart representations of the same algorithm",
+    "topic": "T02 – Algorithm Diagrams",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T01.G3.02",
+      "T02.GK.03",
+      "T02.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T01.G3.02 (G3)",
+      "REMOVED lower grade dependency on T02.GK.03 (GK)",
+      "REMOVED lower grade dependency on T02.GK.04 (GK)"
+    ]
+  },
+  "T02.G6.04": {
+    "skill_name": "Convert a flowchart to pseudocode",
+    "topic": "T02 – Algorithm Diagrams",
+    "old_dependencies": [
+      "T02.GK.03",
+      "T02.GK.04",
+      "T07.G3.01",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T02.GK.03 (GK)",
+      "REMOVED lower grade dependency on T02.GK.04 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T02.G6.05": {
+    "skill_name": "Match pseudocode to code with loops and conditions",
+    "topic": "T02 – Algorithm Diagrams",
+    "old_dependencies": [
+      "T02.G3.01",
+      "T02.GK.03",
+      "T02.GK.04",
+      "T06.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T02.G3.01 (G3)",
+      "REMOVED lower grade dependency on T02.GK.03 (GK)",
+      "REMOVED lower grade dependency on T02.GK.04 (GK)",
+      "REMOVED lower grade dependency on T06.G3.01 (G3)"
+    ]
+  },
+  "T03.G6.01": {
+    "skill_name": "Propose modules for a medium project",
+    "topic": "T03 – Problem Decomposition",
+    "old_dependencies": [
+      "T03.GK.03",
+      "T03.GK.04",
+      "T06.G3.01",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T03.GK.03 (GK)",
+      "REMOVED lower grade dependency on T03.GK.04 (GK)",
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T03.G6.02": {
+    "skill_name": "Refactor a complex process into reusable components",
+    "topic": "T03 – Problem Decomposition",
+    "old_dependencies": [
+      "T03.G1.01",
+      "T03.GK.03",
+      "T03.GK.04",
+      "T06.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T03.G1.01 (G1)",
+      "REMOVED lower grade dependency on T03.GK.03 (GK)",
+      "REMOVED lower grade dependency on T03.GK.04 (GK)",
+      "REMOVED lower grade dependency on T06.G3.01 (G3)"
+    ]
+  },
+  "T03.G6.03": {
+    "skill_name": "Break a project into milestones (v1/v2/v3)",
+    "topic": "T03 – Problem Decomposition",
+    "old_dependencies": [
+      "T03.G1.01",
+      "T03.G1.02",
+      "T03.GK.03",
+      "T03.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T03.G1.01 (G1)",
+      "REMOVED lower grade dependency on T03.G1.02 (G1)",
+      "REMOVED lower grade dependency on T03.GK.03 (GK)",
+      "REMOVED lower grade dependency on T03.GK.04 (GK)"
+    ]
+  },
+  "T03.G6.04": {
+    "skill_name": "Adjust milestones after discovering a constraint",
+    "topic": "T03 – Problem Decomposition",
+    "old_dependencies": [
+      "T03.G1.01",
+      "T03.G1.02",
+      "T03.GK.03",
+      "T03.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T03.G1.01 (G1)",
+      "REMOVED lower grade dependency on T03.G1.02 (G1)",
+      "REMOVED lower grade dependency on T03.GK.03 (GK)",
+      "REMOVED lower grade dependency on T03.GK.04 (GK)"
+    ]
+  },
+  "T03.G6.05": {
+    "skill_name": "Use XO to expand a basic idea into subtasks",
+    "topic": "T03 – Problem Decomposition",
+    "old_dependencies": [
+      "T03.G1.01",
+      "T03.G1.02",
+      "T03.GK.03",
+      "T03.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T03.G1.01 (G1)",
+      "REMOVED lower grade dependency on T03.G1.02 (G1)",
+      "REMOVED lower grade dependency on T03.GK.03 (GK)",
+      "REMOVED lower grade dependency on T03.GK.04 (GK)"
+    ]
+  },
+  "T04.G6.01": {
+    "skill_name": "Group snippets by underlying algorithm pattern",
+    "topic": "T04 – Algorithm Patterns",
+    "old_dependencies": [
+      "T04.G2.01",
+      "T04.GK.03",
+      "T04.GK.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.G2.01 (G2)",
+      "REMOVED lower grade dependency on T04.GK.03 (GK)",
+      "REMOVED lower grade dependency on T04.GK.04 (GK)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T04.G6.02": {
+    "skill_name": "Spot pattern variants that look different but behave the same",
+    "topic": "T04 – Algorithm Patterns",
+    "old_dependencies": [
+      "T04.G1.01",
+      "T04.G2.01",
+      "T04.GK.03",
+      "T04.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.G1.01 (G1)",
+      "REMOVED lower grade dependency on T04.G2.01 (G2)",
+      "REMOVED lower grade dependency on T04.GK.03 (GK)",
+      "REMOVED lower grade dependency on T04.GK.04 (GK)"
+    ]
+  },
+  "T04.G6.03": {
+    "skill_name": "Turn repeated code into a custom block",
+    "topic": "T04 – Algorithm Patterns",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T04.GK.03",
+      "T04.GK.04",
+      "T07.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T04.GK.03 (GK)",
+      "REMOVED lower grade dependency on T04.GK.04 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)"
+    ]
+  },
+  "T04.G6.04": {
+    "skill_name": "Add parameters to make a custom block more reusable",
+    "topic": "T04 – Algorithm Patterns",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T04.GK.03",
+      "T04.GK.04",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T04.GK.03 (GK)",
+      "REMOVED lower grade dependency on T04.GK.04 (GK)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T04.G6.05": {
+    "skill_name": "Analyze a template project and identify customization points",
+    "topic": "T04 – Algorithm Patterns",
+    "old_dependencies": [
+      "T04.G1.01",
+      "T04.G1.02",
+      "T04.GK.03",
+      "T04.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.G1.01 (G1)",
+      "REMOVED lower grade dependency on T04.G1.02 (G1)",
+      "REMOVED lower grade dependency on T04.GK.03 (GK)",
+      "REMOVED lower grade dependency on T04.GK.04 (GK)"
+    ]
+  },
+  "T04.G6.06": {
+    "skill_name": "Compare two pattern‑based solutions for efficiency and clarity",
+    "topic": "T04 – Algorithm Patterns",
+    "old_dependencies": [
+      "T04.GK.03",
+      "T04.GK.04",
+      "T07.G3.01",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.GK.03 (GK)",
+      "REMOVED lower grade dependency on T04.GK.04 (GK)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T05.G6.01": {
+    "skill_name": "Apply empathy, needs, and accessibility checklist to a design",
+    "topic": "T05 – Human‑Centered Design",
+    "old_dependencies": [
+      "T05.G1.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T05.G1.01 (G1)",
+      "REMOVED lower grade dependency on T05.G1.02 (G1)",
+      "REMOVED lower grade dependency on T05.GK.03 (GK)",
+      "REMOVED lower grade dependency on T05.GK.04 (GK)"
+    ]
+  },
+  "T05.G6.02": {
+    "skill_name": "Propose specific design changes to address all three HCD principles",
+    "topic": "T05 – Human‑Centered Design",
+    "old_dependencies": [
+      "T05.G1.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T05.G1.01 (G1)",
+      "REMOVED lower grade dependency on T05.G1.02 (G1)",
+      "REMOVED lower grade dependency on T05.GK.03 (GK)",
+      "REMOVED lower grade dependency on T05.GK.04 (GK)"
+    ]
+  },
+  "T05.G6.03": {
+    "skill_name": "Analyze short interview or survey data to extract user needs",
+    "topic": "T05 – Human‑Centered Design",
+    "old_dependencies": [
+      "T05.G1.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T05.G1.01 (G1)",
+      "REMOVED lower grade dependency on T05.G1.02 (G1)",
+      "REMOVED lower grade dependency on T05.GK.03 (GK)",
+      "REMOVED lower grade dependency on T05.GK.04 (GK)"
+    ]
+  },
+  "T05.G6.04": {
+    "skill_name": "Update a design based on specific user feedback",
+    "topic": "T05 – Human‑Centered Design",
+    "old_dependencies": [
+      "T05.G1.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T05.G1.01 (G1)",
+      "REMOVED lower grade dependency on T05.G1.02 (G1)",
+      "REMOVED lower grade dependency on T05.GK.03 (GK)",
+      "REMOVED lower grade dependency on T05.GK.04 (GK)"
+    ]
+  },
+  "T05.G6.05": {
+    "skill_name": "Plan a simple CreatiCode simulation with variables, rules, and UI",
+    "topic": "T05 – Human‑Centered Design",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T05.GK.03",
+      "T05.GK.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T05.GK.03 (GK)",
+      "REMOVED lower grade dependency on T05.GK.04 (GK)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T05.G6.06": {
+    "skill_name": "Justify what is modeled vs simplified in a simulation design",
+    "topic": "T05 – Human‑Centered Design",
+    "old_dependencies": [
+      "T05.G1.01",
+      "T05.G1.02",
+      "T05.GK.03",
+      "T05.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T05.G1.01 (G1)",
+      "REMOVED lower grade dependency on T05.G1.02 (G1)",
+      "REMOVED lower grade dependency on T05.GK.03 (GK)",
+      "REMOVED lower grade dependency on T05.GK.04 (GK)"
+    ]
+  },
+  "T06.G6.01": {
+    "skill_name": "Trace event execution paths in a multi‑event program",
+    "topic": "T06 – Events & Sequences: G3–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G5.05",
+      "T06.G5.06",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [
+      "T06.G5.05",
+      "T06.G5.06"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T06.G6.02": {
+    "skill_name": "Identify parallel vs sequential event behaviors",
+    "topic": "T06 – Events & Sequences: G3–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G5.05",
+      "T06.G5.06",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [
+      "T06.G5.05",
+      "T06.G5.06"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T06.G6.03": {
+    "skill_name": "Refactor event handlers for clarity and grouping",
+    "topic": "T06 – Events & Sequences: G3–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G5.05",
+      "T06.G5.06",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [
+      "T06.G5.05",
+      "T06.G5.06"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T06.G6.04": {
+    "skill_name": "Design meaningful custom broadcasts and document them",
+    "topic": "T06 – Events & Sequences: G3–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G3.02",
+      "T06.G5.05",
+      "T06.G5.06"
+    ],
+    "new_dependencies": [
+      "T06.G5.05",
+      "T06.G5.06"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T06.G3.02 (G3)"
+    ]
+  },
+  "T07.G6.01": {
+    "skill_name": "Trace nested loops with variables",
+    "topic": "T07 – Loops",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G5.03",
+      "T07.G5.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [
+      "T07.G5.03",
+      "T07.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T07.G6.02": {
+    "skill_name": "Refactor repeated code into loops",
+    "topic": "T07 – Loops",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.01",
+      "T07.G5.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [
+      "T07.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T07.G6.03": {
+    "skill_name": "Loop‑based search in a list",
+    "topic": "T07 – Loops",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G5.03",
+      "T07.G5.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [
+      "T07.G5.03",
+      "T07.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T07.G6.04": {
+    "skill_name": "Avoid and fix infinite loops",
+    "topic": "T07 – Loops",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.01",
+      "T07.G5.04",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [
+      "T07.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T07.G6.05": {
+    "skill_name": "Trace nested loops with a table of values",
+    "topic": "T07 – Loops",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G5.03",
+      "T07.G5.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [
+      "T07.G5.03",
+      "T07.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T07.G6.06": {
+    "skill_name": "Trace nested loops that fill a grid pattern",
+    "topic": "T07 – Loops",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G5.03",
+      "T07.G5.04",
+      "T08.G3.01"
+    ],
+    "new_dependencies": [
+      "T07.G5.03",
+      "T07.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T08.G6.01": {
+    "skill_name": "Use conditionals to control simulation steps",
+    "topic": "T08 – Conditions & Logic",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T08.G5.03",
+      "T08.G5.04"
+    ],
+    "new_dependencies": [
+      "T08.G5.03",
+      "T08.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T08.G6.02": {
+    "skill_name": "Implement simple state machines using conditionals",
+    "topic": "T08 – Conditions & Logic",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T08.G5.03",
+      "T08.G5.04",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [
+      "T08.G5.03",
+      "T08.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T08.G6.03": {
+    "skill_name": "Debug multi-condition logic",
+    "topic": "T08 – Conditions & Logic",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T08.G5.03",
+      "T08.G5.04"
+    ],
+    "new_dependencies": [
+      "T08.G5.03",
+      "T08.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T09.G6.01": {
+    "skill_name": "Use variables to represent real‑world quantities",
+    "topic": "T09 – Variables & Expressions",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T09.G3.02",
+      "T09.G5.07",
+      "T09.G5.08"
+    ],
+    "new_dependencies": [
+      "T09.G5.07",
+      "T09.G5.08"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.02 (G3)"
+    ]
+  },
+  "T09.G6.02": {
+    "skill_name": "Use expressions with mixed operators and precedence",
+    "topic": "T09 – Variables & Expressions",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G5.07",
+      "T09.G5.08"
+    ],
+    "new_dependencies": [
+      "T09.G5.07",
+      "T09.G5.08"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T09.G6.03": {
+    "skill_name": "Use variables in algorithms that include selection and iteration",
+    "topic": "T09 – Variables & Expressions",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G5.08"
+    ],
+    "new_dependencies": [
+      "T09.G5.08"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T09.G6.04": {
+    "skill_name": "Trace and debug variable-dependent logic",
+    "topic": "T09 – Variables & Expressions",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G5.08"
+    ],
+    "new_dependencies": [
+      "T09.G5.08"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T09.G6.05": {
+    "skill_name": "Use variables to store intermediate results",
+    "topic": "T09 – Variables & Expressions",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G5.07",
+      "T09.G5.08"
+    ],
+    "new_dependencies": [
+      "T09.G5.07",
+      "T09.G5.08"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T10.G6.01": {
+    "skill_name": "Sort a table by a column",
+    "topic": "T10 – Lists & Tables",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "new_dependencies": [
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T10.G6.02": {
+    "skill_name": "Join or merge data from two tables",
+    "topic": "T10 – Lists & Tables",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T10.G3.01",
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "new_dependencies": [
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T10.G3.01 (G3)"
+    ]
+  },
+  "T10.G6.03": {
+    "skill_name": "Pivot or reshape table data",
+    "topic": "T10 – Lists & Tables",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "new_dependencies": [
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T10.G6.04": {
+    "skill_name": "Count, group, or aggregate data from a table",
+    "topic": "T10 – Lists & Tables",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T10.G3.01",
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "new_dependencies": [
+      "T10.G5.04",
+      "T10.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T10.G3.01 (G3)"
+    ]
+  },
+  "T11.G6.01": {
+    "skill_name": "Design blocks with clear, predictable interfaces",
+    "topic": "T11 – Functions & Procedures",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "new_dependencies": [
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T11.G6.02": {
+    "skill_name": "Create modular programs with multiple custom blocks",
+    "topic": "T11 – Functions & Procedures",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T11.G3.01",
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "new_dependencies": [
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T11.G3.01 (G3)"
+    ]
+  },
+  "T11.G6.03": {
+    "skill_name": "Refactor spaghetti code into organized blocks",
+    "topic": "T11 – Functions & Procedures",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "new_dependencies": [
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T11.G6.04": {
+    "skill_name": "Analyze and improve block abstraction",
+    "topic": "T11 – Functions & Procedures",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "new_dependencies": [
+      "T11.G5.03",
+      "T11.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T12.G6.01": {
+    "skill_name": "Analyze a program's organization and suggest improvements",
+    "topic": "T12 – Organizing Programs",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T12.G5.03",
+      "T12.G5.04"
+    ],
+    "new_dependencies": [
+      "T12.G5.03",
+      "T12.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T12.G6.02": {
+    "skill_name": "Use comments to explain algorithm logic",
+    "topic": "T12 – Organizing Programs",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T08.G3.01",
+      "T12.G5.03",
+      "T12.G5.04"
+    ],
+    "new_dependencies": [
+      "T12.G5.03",
+      "T12.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T12.G6.03": {
+    "skill_name": "Create a style guide for variable and block naming",
+    "topic": "T12 – Organizing Programs",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T12.G1.01",
+      "T12.G5.03",
+      "T12.G5.04"
+    ],
+    "new_dependencies": [
+      "T12.G5.03",
+      "T12.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T12.G1.01 (G1)"
+    ]
+  },
+  "T12.G6.04": {
+    "skill_name": "Document code for collaborative maintenance",
+    "topic": "T12 – Organizing Programs",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T12.G5.04"
+    ],
+    "new_dependencies": [
+      "T12.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T13.G6.01": {
+    "skill_name": "Trace complex code with multiple variables",
+    "topic": "T13 – Testing, Debugging & Error Handling",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T13.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T13.GK.03 (GK)"
+    ]
+  },
+  "T13.G6.02": {
+    "skill_name": "Use a systematic debugging process",
+    "topic": "T13 – Testing, Debugging & Error Handling",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T13.G1.01",
+      "T13.GK.02",
+      "T13.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T13.G1.01 (G1)",
+      "REMOVED lower grade dependency on T13.GK.02 (GK)",
+      "REMOVED lower grade dependency on T13.GK.03 (GK)"
+    ]
+  },
+  "T13.G6.03": {
+    "skill_name": "Test code with boundary and invalid inputs",
+    "topic": "T13 – Testing, Debugging & Error Handling",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T13.GK.02",
+      "T13.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T13.GK.02 (GK)",
+      "REMOVED lower grade dependency on T13.GK.03 (GK)"
+    ]
+  },
+  "T13.G6.04": {
+    "skill_name": "Document known limitations and potential bugs",
+    "topic": "T13 – Testing, Debugging & Error Handling",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T13.G1.01",
+      "T13.GK.02",
+      "T13.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T13.G1.01 (G1)",
+      "REMOVED lower grade dependency on T13.GK.02 (GK)",
+      "REMOVED lower grade dependency on T13.GK.03 (GK)"
+    ]
+  },
+  "T14.G6.01": {
+    "skill_name": "Character state machine",
+    "topic": "T14 – 2D Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T08.G3.05",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T14.G6.02": {
+    "skill_name": "Hitbox separation",
+    "topic": "T14 – 2D Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T08.G3.05",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T14.G6.03": {
+    "skill_name": "Multi-layer HUD with viewport attachments",
+    "topic": "T14 – 2D Games",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.05",
+      "T09.G3.01",
+      "T14.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T14.GK.03 (GK)"
+    ]
+  },
+  "T14.G6.04": {
+    "skill_name": "Stream level chunks with viewport reporters",
+    "topic": "T14 – 2D Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T08.G3.05",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T14.G6.05": {
+    "skill_name": "Cinematic camera rails",
+    "topic": "T14 – 2D Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T08.G3.05",
+      "T14.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T14.GK.03 (GK)"
+    ]
+  },
+  "T14.G6.06": {
+    "skill_name": "Mode and pause manager",
+    "topic": "T14 – 2D Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T08.G3.05",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T15.G6.01": {
+    "skill_name": "State Machine for Animation",
+    "topic": "T15 – Stories & Animation",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T07.G3.01",
+      "T07.G3.05",
+      "T09.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T15.G6.02": {
+    "skill_name": "List-based Dialogue",
+    "topic": "T15 – Stories & Animation",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T15.GK.02"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T15.GK.02 (GK)"
+    ]
+  },
+  "T16.G6.01": {
+    "skill_name": "Evaluate an interface for usability",
+    "topic": "T16 – User Interfaces: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T16.G5.03"
+    ],
+    "new_dependencies": [
+      "T16.G5.03"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)"
+    ]
+  },
+  "T16.G6.02": {
+    "skill_name": "Design an interface based on user feedback",
+    "topic": "T16 – User Interfaces: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T16.G5.03"
+    ],
+    "new_dependencies": [
+      "T16.G5.03"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)"
+    ]
+  },
+  "T16.G6.03": {
+    "skill_name": "Use color and contrast to improve readability",
+    "topic": "T16 – User Interfaces: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T16.G5.03"
+    ],
+    "new_dependencies": [
+      "T16.G5.03"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)"
+    ]
+  },
+  "T16.G6.04": {
+    "skill_name": "Create an interface that works on different screen sizes",
+    "topic": "T16 – User Interfaces: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T16.G5.03"
+    ],
+    "new_dependencies": [
+      "T16.G5.03"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)"
+    ]
+  },
+  "T17.G6.01": {
+    "skill_name": "**[Engine Skill]** Configure surface friction parameters",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T17.G5.10"
+    ],
+    "new_dependencies": [
+      "T17.G5.10"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.02": {
+    "skill_name": "**[Engine Skill]** Control restitution parameters",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.03": {
+    "skill_name": "Build a kinematic moving platform",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.04",
+      "T17.G5.10"
+    ],
+    "new_dependencies": [
+      "T17.G5.10"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.04": {
+    "skill_name": "Detect collisions for scoring or triggers",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.04",
+      "T17.G5.10"
+    ],
+    "new_dependencies": [
+      "T17.G5.10"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.05": {
+    "skill_name": "Use collision groups to filter interactions",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T09.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.06": {
+    "skill_name": "Blend manual and engine sprites in a level",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.04",
+      "T17.G5.10"
+    ],
+    "new_dependencies": [
+      "T17.G5.10"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.07": {
+    "skill_name": "Debug unstable physics behavior",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T09.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T17.G6.08": {
+    "skill_name": "Compare simulations to real-world motion",
+    "topic": "T17 – 2D Motion & Physics: Grades 5–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T17.G5.10"
+    ],
+    "new_dependencies": [
+      "T17.G5.10"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T18.G6.01": {
+    "skill_name": "Set up collision groups for selective interaction",
+    "topic": "T18 – 3D Worlds & Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T14.G3.01"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T14.G3.01 (G3)"
+    ]
+  },
+  "T18.G6.02": {
+    "skill_name": "Trace a multi-step 3D script to predict positions",
+    "topic": "T18 – 3D Worlds & Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T14.G3.01",
+      "T18.G5.05"
+    ],
+    "new_dependencies": [
+      "T18.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T14.G3.01 (G3)"
+    ]
+  },
+  "T18.G6.03": {
+    "skill_name": "Refactor repeated 3D object creation into a loop or function",
+    "topic": "T18 – 3D Worlds & Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.01",
+      "T07.G3.05",
+      "T08.G3.01",
+      "T14.G3.01",
+      "T18.G5.05"
+    ],
+    "new_dependencies": [
+      "T18.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T14.G3.01 (G3)"
+    ]
+  },
+  "T18.G6.04": {
+    "skill_name": "Implement a camera with mouse look",
+    "topic": "T18 – 3D Worlds & Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T14.G3.01",
+      "T18.G5.06"
+    ],
+    "new_dependencies": [
+      "T18.G5.06"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T14.G3.01 (G3)"
+    ]
+  },
+  "T18.G6.05": {
+    "skill_name": "Trigger advanced visual effects on events",
+    "topic": "T18 – 3D Worlds & Games",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T14.G3.01",
+      "T18.G5.05",
+      "T18.G5.06"
+    ],
+    "new_dependencies": [
+      "T18.G5.05",
+      "T18.G5.06"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T14.G3.01 (G3)"
+    ]
+  },
+  "T19.G6.01": {
+    "skill_name": "Synchronize player movement and orientation",
+    "topic": "T19 – Multiplayer Apps: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T19.G6.02": {
+    "skill_name": "Maintain shared world objects with persistent state",
+    "topic": "T19 – Multiplayer Apps: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T19.G6.03": {
+    "skill_name": "Build a cooperative puzzle with shared progress counters",
+    "topic": "T19 – Multiplayer Apps: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T09.G3.01",
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T19.G6.04": {
+    "skill_name": "Handle player join/leave events and late joiners",
+    "topic": "T19 – Multiplayer Apps: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G3.08",
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T06.G3.08 (G3)"
+    ]
+  },
+  "T19.G6.05": {
+    "skill_name": "Smooth latency with buffering or interpolation",
+    "topic": "T19 – Multiplayer Apps: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T19.G5.04",
+      "T19.G5.05",
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)"
+    ]
+  },
+  "T20.G6.01": {
+    "skill_name": "Trace and explain an art algorithm",
+    "topic": "T20 – Algorithmic Art & Creative Coding",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T20.GK.04",
+      "T28.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T20.GK.04 (GK)",
+      "REMOVED lower grade dependency on T28.G3.04 (G3)"
+    ]
+  },
+  "T20.G6.02": {
+    "skill_name": "Refactor repetitive art into loops/custom blocks",
+    "topic": "T20 – Algorithmic Art & Creative Coding",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.01",
+      "T07.G3.05",
+      "T20.GK.04",
+      "T28.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T20.GK.04 (GK)",
+      "REMOVED lower grade dependency on T28.G3.04 (G3)"
+    ]
+  },
+  "T20.G6.03": {
+    "skill_name": "Use variables and conditionals to branch designs",
+    "topic": "T20 – Algorithmic Art & Creative Coding",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T20.GK.03",
+      "T20.GK.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T20.GK.03 (GK)",
+      "REMOVED lower grade dependency on T20.GK.04 (GK)"
+    ]
+  },
+  "T20.G6.04": {
+    "skill_name": "**[Technical Skill]** Implement complex data visualization algorithms",
+    "topic": "T20 – Algorithmic Art & Creative Coding",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G3.05",
+      "T08.G3.01",
+      "T20.GK.04",
+      "T28.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T20.GK.04 (GK)",
+      "REMOVED lower grade dependency on T28.G3.04 (G3)"
+    ]
+  },
+  "T20.G6.05": {
+    "skill_name": "Apply math transformations to art",
+    "topic": "T20 – Algorithmic Art & Creative Coding",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T20.GK.04",
+      "T28.G3.04"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T20.GK.04 (GK)",
+      "REMOVED lower grade dependency on T28.G3.04 (G3)"
+    ]
+  },
+  "T21.G6.01": {
+    "skill_name": "Plan a mixed-source asset kit for a project",
+    "topic": "T21 – AI Media: G6–8 Skill List",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T21.G4.01",
+      "T21.G5.01"
+    ],
+    "new_dependencies": [
+      "T21.G4.01",
+      "T21.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T21.G6.02": {
+    "skill_name": "Write layered prompts that lock in a visual style",
+    "topic": "T21 – AI Media: G6–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T21.G5.01"
+    ],
+    "new_dependencies": [
+      "T21.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T21.G6.03": {
+    "skill_name": "Build a prompt test bench inside CreatiCode",
+    "topic": "T21 – AI Media: G6–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T21.G5.01"
+    ],
+    "new_dependencies": [
+      "T21.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T21.G6.04": {
+    "skill_name": "Iterate when an AI output fails requirements",
+    "topic": "T21 – AI Media: G6–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T21.G5.01"
+    ],
+    "new_dependencies": [
+      "T21.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T22.G6.01": {
+    "skill_name": "Trace how a chatbot script processes each turn",
+    "topic": "T22 – Chatbots & Prompting: G6–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T22.G5.01"
+    ],
+    "new_dependencies": [
+      "T22.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T22.G6.02": {
+    "skill_name": "Tune ChatGPT block settings for tone and length",
+    "topic": "T22 – Chatbots & Prompting: G6–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T22.G4.01",
+      "T22.G5.01"
+    ],
+    "new_dependencies": [
+      "T22.G4.01",
+      "T22.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T22.G6.03": {
+    "skill_name": "Build a basic chat UI with send button and log",
+    "topic": "T22 – Chatbots & Prompting: G6–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G3.08",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T22.G5.01"
+    ],
+    "new_dependencies": [
+      "T22.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T22.G6.04": {
+    "skill_name": "Debug off-topic responses by rewriting prompts",
+    "topic": "T22 – Chatbots & Prompting: G6–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T22.G4.01",
+      "T22.G5.01"
+    ],
+    "new_dependencies": [
+      "T22.G4.01",
+      "T22.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T23.G6.01": {
+    "skill_name": "Map speech commands to UI widgets",
+    "topic": "T23 – AI Perception",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T09.G3.01",
+      "T23.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T23.GK.03 (GK)"
+    ]
+  },
+  "T23.G6.02": {
+    "skill_name": "Build a two-way voice chatbot loop",
+    "topic": "T23 – AI Perception",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G3.08",
+      "T08.G3.05",
+      "T09.G3.01",
+      "T23.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T23.GK.03 (GK)"
+    ]
+  },
+  "T23.G6.03": {
+    "skill_name": "Drive UI elements with live hand detection",
+    "topic": "T23 – AI Perception",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T23.GK.02",
+      "T23.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T23.GK.02 (GK)",
+      "REMOVED lower grade dependency on T23.GK.03 (GK)"
+    ]
+  },
+  "T23.G6.04": {
+    "skill_name": "Smooth noisy sensor data and recover from dropouts",
+    "topic": "T23 – AI Perception",
+    "old_dependencies": [
+      "T06.G3.08",
+      "T08.G3.01",
+      "T08.G3.05",
+      "T23.GK.02",
+      "T23.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T23.GK.02 (GK)",
+      "REMOVED lower grade dependency on T23.GK.03 (GK)"
+    ]
+  },
+  "T23.G6.05": {
+    "skill_name": "Add consent and privacy controls for sensor use",
+    "topic": "T23 – AI Perception",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T06.G3.08",
+      "T08.G3.05",
+      "T09.G3.01",
+      "T23.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T06.G3.08 (G3)",
+      "REMOVED lower grade dependency on T08.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T23.GK.03 (GK)"
+    ]
+  },
+  "T24.G6.01": {
+    "skill_name": "Provide complete context when asking XO to debug",
+    "topic": "T24 – XO & Generative AI Practices: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T24.G5.04",
+      "T24.G5.05"
+    ],
+    "new_dependencies": [
+      "T24.G5.04",
+      "T24.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T24.G6.02": {
+    "skill_name": "Verify XO’s explanation against the project",
+    "topic": "T24 – XO & Generative AI Practices: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T10.G3.03",
+      "T24.G5.04"
+    ],
+    "new_dependencies": [
+      "T24.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T24.G6.03": {
+    "skill_name": "Generate and deliver a quiz using XO",
+    "topic": "T24 – XO & Generative AI Practices: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T24.G5.05"
+    ],
+    "new_dependencies": [
+      "T24.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T24.G6.04": {
+    "skill_name": "Iterate AI images using feedback from XO",
+    "topic": "T24 – XO & Generative AI Practices: G5–8 Skill List",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T24.G5.04",
+      "T24.G5.05"
+    ],
+    "new_dependencies": [
+      "T24.G5.04",
+      "T24.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T24.G6.05": {
+    "skill_name": "Maintain a prompt/response lab notebook",
+    "topic": "T24 – XO & Generative AI Practices: G5–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T24.G5.05"
+    ],
+    "new_dependencies": [
+      "T24.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T24.G6.06": {
+    "skill_name": "Label risky prompts and rewrite them safely",
+    "topic": "T24 – XO & Generative AI Practices: G5–8 Skill List",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T24.G5.04",
+      "T24.G5.05"
+    ],
+    "new_dependencies": [
+      "T24.G5.04",
+      "T24.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T25.G6.01": {
+    "skill_name": "Document metadata for datasets",
+    "topic": "T25 – Data Representation",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T25.G1.01",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T25.G1.01 (G1)",
+      "REMOVED lower grade dependency on T25.GK.02 (GK)",
+      "REMOVED lower grade dependency on T25.GK.03 (GK)"
+    ]
+  },
+  "T25.G6.02": {
+    "skill_name": "Explain lossy vs lossless representation",
+    "topic": "T25 – Data Representation",
+    "old_dependencies": [
+      "T25.G1.01",
+      "T25.G1.02",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T25.G1.01 (G1)",
+      "REMOVED lower grade dependency on T25.G1.02 (G1)",
+      "REMOVED lower grade dependency on T25.GK.02 (GK)",
+      "REMOVED lower grade dependency on T25.GK.03 (GK)"
+    ]
+  },
+  "T25.G6.03": {
+    "skill_name": "Nest structures (list of records, record of lists)",
+    "topic": "T25 – Data Representation",
+    "old_dependencies": [
+      "T04.G2.01",
+      "T25.G1.01",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.G2.01 (G2)",
+      "REMOVED lower grade dependency on T25.G1.01 (G1)",
+      "REMOVED lower grade dependency on T25.GK.02 (GK)",
+      "REMOVED lower grade dependency on T25.GK.03 (GK)"
+    ]
+  },
+  "T25.G6.04": {
+    "skill_name": "Trace AI prompt inputs to structured slots",
+    "topic": "T25 – Data Representation",
+    "old_dependencies": [
+      "T25.G1.01",
+      "T25.G1.02",
+      "T25.GK.02",
+      "T25.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T25.G1.01 (G1)",
+      "REMOVED lower grade dependency on T25.G1.02 (G1)",
+      "REMOVED lower grade dependency on T25.GK.02 (GK)",
+      "REMOVED lower grade dependency on T25.GK.03 (GK)"
+    ]
+  },
+  "T26.G6.01": {
+    "skill_name": "Map stakeholder questions to data requirements",
+    "topic": "T26 – Data Collection & Logging",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T26.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)",
+      "REMOVED lower grade dependency on T26.GK.03 (GK)"
+    ]
+  },
+  "T26.G6.02": {
+    "skill_name": "Automate multi-sensor logging (voice + pose)",
+    "topic": "T26 – Data Collection & Logging",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T26.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)",
+      "REMOVED lower grade dependency on T26.GK.03 (GK)"
+    ]
+  },
+  "T26.G6.03": {
+    "skill_name": "Create consent and opt-out workflows",
+    "topic": "T26 – Data Collection & Logging",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T26.GK.02",
+      "T26.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)",
+      "REMOVED lower grade dependency on T26.GK.02 (GK)",
+      "REMOVED lower grade dependency on T26.GK.03 (GK)"
+    ]
+  },
+  "T26.G6.04": {
+    "skill_name": "Capture measurement error estimates",
+    "topic": "T26 – Data Collection & Logging",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T26.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)",
+      "REMOVED lower grade dependency on T26.GK.03 (GK)"
+    ]
+  },
+  "T27.G6.01": {
+    "skill_name": "Write basic query-like filters",
+    "topic": "T27 – Data Analysis & Storytelling",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T09.G3.04",
+      "T26.G3.04",
+      "T27.GK.02",
+      "T27.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T26.G3.04 (G3)",
+      "REMOVED lower grade dependency on T27.GK.02 (GK)",
+      "REMOVED lower grade dependency on T27.GK.03 (GK)"
+    ]
+  },
+  "T27.G6.02": {
+    "skill_name": "Run controlled comparisons",
+    "topic": "T27 – Data Analysis & Storytelling",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.04",
+      "T26.G3.04",
+      "T27.GK.02",
+      "T27.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T26.G3.04 (G3)",
+      "REMOVED lower grade dependency on T27.GK.02 (GK)",
+      "REMOVED lower grade dependency on T27.GK.03 (GK)"
+    ]
+  },
+  "T27.G6.04": {
+    "skill_name": "Generate AI-ready summaries",
+    "topic": "T27 – Data Analysis & Storytelling",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T26.G3.04",
+      "T27.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T26.G3.04 (G3)",
+      "REMOVED lower grade dependency on T27.GK.03 (GK)"
+    ]
+  },
+  "T28.G6.01": {
+    "skill_name": "Conduct parameter sweeps for tuning",
+    "topic": "T28 – Chance & Simulations: G2–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T28.G5.04"
+    ],
+    "new_dependencies": [
+      "T28.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T28.G6.02": {
+    "skill_name": "Use random seeds for reproducibility",
+    "topic": "T28 – Chance & Simulations: G2–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T28.G5.04"
+    ],
+    "new_dependencies": [
+      "T28.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T28.G6.03": {
+    "skill_name": "Measure percent error vs theoretical probability",
+    "topic": "T28 – Chance & Simulations: G2–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T07.G3.05",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T28.G5.04"
+    ],
+    "new_dependencies": [
+      "T28.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T28.G6.04": {
+    "skill_name": "Simulate noisy sensors for T23 testing",
+    "topic": "T28 – Chance & Simulations: G2–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T28.G5.03",
+      "T28.G5.04"
+    ],
+    "new_dependencies": [
+      "T28.G5.03",
+      "T28.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T28.G6.05": {
+    "skill_name": "Model an agent, its environment, and reward rules",
+    "topic": "T28 – Chance & Simulations: G2–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.05",
+      "T08.G3.01",
+      "T09.G3.04",
+      "T28.G5.03",
+      "T28.G5.04"
+    ],
+    "new_dependencies": [
+      "T28.G5.03",
+      "T28.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.05 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T29.G6.01": {
+    "skill_name": "Explain characters vs words vs tokens",
+    "topic": "T29 – Text Data & NLP Foundations: G3–8 Skill List",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T29.G5.04"
+    ],
+    "new_dependencies": [
+      "T29.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T29.G6.02": {
+    "skill_name": "Compute n‑gram (bigram) frequencies",
+    "topic": "T29 – Text Data & NLP Foundations: G3–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T29.G5.04"
+    ],
+    "new_dependencies": [
+      "T29.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T29.G6.03": {
+    "skill_name": "Create autocomplete suggestions",
+    "topic": "T29 – Text Data & NLP Foundations: G3–8 Skill List",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T29.G5.04"
+    ],
+    "new_dependencies": [
+      "T29.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T29.G6.04": {
+    "skill_name": "Log XO prompts/responses with ratings",
+    "topic": "T29 – Text Data & NLP Foundations: G3–8 Skill List",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T29.G5.04"
+    ],
+    "new_dependencies": [
+      "T29.G5.04"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T30.G6.01": {
+    "skill_name": "Analyze sensor specifications (resolution, sample rate)",
+    "topic": "T30 – Devices & Hardware Systems",
+    "old_dependencies": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T30.G1.01 (G1)",
+      "REMOVED lower grade dependency on T30.G1.02 (G1)",
+      "REMOVED lower grade dependency on T30.GK.02 (GK)",
+      "REMOVED lower grade dependency on T30.GK.03 (GK)"
+    ]
+  },
+  "T30.G6.02": {
+    "skill_name": "Evaluate storage solutions (SSD, HDD, cloud)",
+    "topic": "T30 – Devices & Hardware Systems",
+    "old_dependencies": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T30.G1.01 (G1)",
+      "REMOVED lower grade dependency on T30.G1.02 (G1)",
+      "REMOVED lower grade dependency on T30.GK.02 (GK)",
+      "REMOVED lower grade dependency on T30.GK.03 (GK)"
+    ]
+  },
+  "T30.G6.03": {
+    "skill_name": "Summarize hardware security basics",
+    "topic": "T30 – Devices & Hardware Systems",
+    "old_dependencies": [
+      "T30.G1.01",
+      "T30.G1.02",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T30.G1.01 (G1)",
+      "REMOVED lower grade dependency on T30.G1.02 (G1)",
+      "REMOVED lower grade dependency on T30.GK.02 (GK)",
+      "REMOVED lower grade dependency on T30.GK.03 (GK)"
+    ]
+  },
+  "T30.G6.04": {
+    "skill_name": "Plan hardware requirement checklists for AI projects",
+    "topic": "T30 – Devices & Hardware Systems",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T08.G3.01",
+      "T30.GK.02",
+      "T30.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T30.GK.02 (GK)",
+      "REMOVED lower grade dependency on T30.GK.03 (GK)"
+    ]
+  },
+  "T31.G6.01": {
+    "skill_name": "Trace the steps of an HTTP/HTTPS request",
+    "topic": "T31 – Internet & Cloud: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T01.G3.01",
+      "T01.G3.02",
+      "T31.G5.04",
+      "T31.G5.05"
+    ],
+    "new_dependencies": [
+      "T31.G5.04",
+      "T31.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T01.G3.01 (G3)",
+      "REMOVED lower grade dependency on T01.G3.02 (G3)"
+    ]
+  },
+  "T31.G6.02": {
+    "skill_name": "Build a shared leaderboard with cloud data",
+    "topic": "T31 – Internet & Cloud: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T31.G5.04",
+      "T31.G5.05"
+    ],
+    "new_dependencies": [
+      "T31.G5.04",
+      "T31.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T31.G6.05": {
+    "skill_name": "Distinguish stage-level vs sprite-level cloud variables",
+    "topic": "T31 – Internet & Cloud: Grade 5–8 Skill List",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T31.G5.01",
+      "T31.G5.04",
+      "T31.G5.05"
+    ],
+    "new_dependencies": [
+      "T31.G5.01",
+      "T31.G5.04",
+      "T31.G5.05"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)"
+    ]
+  },
+  "T32.G6.01": {
+    "skill_name": "Map common cyber attack types",
+    "topic": "T32 – Cybersecurity & Digital Safety",
+    "old_dependencies": [
+      "T32.G1.01",
+      "T32.G1.02",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T32.G1.01 (G1)",
+      "REMOVED lower grade dependency on T32.G1.02 (G1)",
+      "REMOVED lower grade dependency on T32.GK.02 (GK)",
+      "REMOVED lower grade dependency on T32.GK.03 (GK)"
+    ]
+  },
+  "T32.G6.02": {
+    "skill_name": "Implement secure login flows in apps (conceptual)",
+    "topic": "T32 – Cybersecurity & Digital Safety",
+    "old_dependencies": [
+      "T07.G3.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T32.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T07.G3.01 (G3)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T32.GK.03 (GK)"
+    ]
+  },
+  "T32.G6.03": {
+    "skill_name": "Conduct AI-specific threat modeling for class projects",
+    "topic": "T32 – Cybersecurity & Digital Safety",
+    "old_dependencies": [
+      "T32.G1.01",
+      "T32.G1.02",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T32.G1.01 (G1)",
+      "REMOVED lower grade dependency on T32.G1.02 (G1)",
+      "REMOVED lower grade dependency on T32.GK.02 (GK)",
+      "REMOVED lower grade dependency on T32.GK.03 (GK)"
+    ]
+  },
+  "T32.G6.04": {
+    "skill_name": "Understand ethical hacking vs malicious hacking",
+    "topic": "T32 – Cybersecurity & Digital Safety",
+    "old_dependencies": [
+      "T32.G1.01",
+      "T32.G1.02",
+      "T32.GK.02",
+      "T32.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T32.G1.01 (G1)",
+      "REMOVED lower grade dependency on T32.G1.02 (G1)",
+      "REMOVED lower grade dependency on T32.GK.02 (GK)",
+      "REMOVED lower grade dependency on T32.GK.03 (GK)"
+    ]
+  },
+  "T33.G6.01": {
+    "skill_name": "Identify blocks that call external services",
+    "topic": "T33 – Connected Services & Tool Wrappers: G6–8 Skill List",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T33.G6.02": {
+    "skill_name": "Draw data flow diagrams for AI wrapper blocks",
+    "topic": "T33 – Connected Services & Tool Wrappers: G6–8 Skill List",
+    "old_dependencies": [
+      "T02.G3.01",
+      "T06.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T02.G3.01 (G3)",
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T33.G6.03": {
+    "skill_name": "Handle latency and error states in service calls",
+    "topic": "T33 – Connected Services & Tool Wrappers: G6–8 Skill List",
+    "old_dependencies": [
+      "T04.G2.01",
+      "T08.G3.01",
+      "T09.G3.01",
+      "T09.G3.04",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.G2.01 (G2)",
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)"
+    ]
+  },
+  "T33.G6.04": {
+    "skill_name": "Respect usage limits and credits",
+    "topic": "T33 – Connected Services & Tool Wrappers: G6–8 Skill List",
+    "old_dependencies": [
+      "T09.G3.01",
+      "T09.G3.04",
+      "T10.G3.03",
+      "T31.G5.01"
+    ],
+    "new_dependencies": [
+      "T31.G5.01"
+    ],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.04 (G3)",
+      "REMOVED lower grade dependency on T10.G3.03 (G3)"
+    ]
+  },
+  "T34.G6.01": {
+    "skill_name": "Analyze waves of computing (mainframe → mobile → AI)",
+    "topic": "T34 – Computing History",
+    "old_dependencies": [
+      "T34.G1.01",
+      "T34.G1.02",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T34.G1.01 (G1)",
+      "REMOVED lower grade dependency on T34.G1.02 (G1)",
+      "REMOVED lower grade dependency on T34.GK.02 (GK)",
+      "REMOVED lower grade dependency on T34.GK.03 (GK)"
+    ]
+  },
+  "T34.G6.02": {
+    "skill_name": "Evaluate who was included/excluded historically",
+    "topic": "T34 – Computing History",
+    "old_dependencies": [
+      "T34.G1.01",
+      "T34.G1.02",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T34.G1.01 (G1)",
+      "REMOVED lower grade dependency on T34.G1.02 (G1)",
+      "REMOVED lower grade dependency on T34.GK.02 (GK)",
+      "REMOVED lower grade dependency on T34.GK.03 (GK)"
+    ]
+  },
+  "T34.G6.03": {
+    "skill_name": "Relate past failures to modern safeguards",
+    "topic": "T34 – Computing History",
+    "old_dependencies": [
+      "T34.G1.01",
+      "T34.G1.02",
+      "T34.GK.02",
+      "T34.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T34.G1.01 (G1)",
+      "REMOVED lower grade dependency on T34.G1.02 (G1)",
+      "REMOVED lower grade dependency on T34.GK.02 (GK)",
+      "REMOVED lower grade dependency on T34.GK.03 (GK)"
+    ]
+  },
+  "T35.G6.01": {
+    "skill_name": "Apply ethics lenses (beneficence, fairness, autonomy)",
+    "topic": "T35 – Impacts & Ethics",
+    "old_dependencies": [
+      "T06.G3.01",
+      "T09.G3.01",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T06.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T35.GK.02 (GK)",
+      "REMOVED lower grade dependency on T35.GK.03 (GK)"
+    ]
+  },
+  "T35.G6.02": {
+    "skill_name": "Analyze data privacy tradeoffs",
+    "topic": "T35 – Impacts & Ethics",
+    "old_dependencies": [
+      "T35.G1.01",
+      "T35.G1.02",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T35.G1.01 (G1)",
+      "REMOVED lower grade dependency on T35.G1.02 (G1)",
+      "REMOVED lower grade dependency on T35.GK.02 (GK)",
+      "REMOVED lower grade dependency on T35.GK.03 (GK)"
+    ]
+  },
+  "T35.G6.03": {
+    "skill_name": "Develop comprehensive AI ethics guidelines for T21-T24 applications",
+    "topic": "T35 – Impacts & Ethics",
+    "old_dependencies": [
+      "T35.G1.01",
+      "T35.G1.02",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T35.G1.01 (G1)",
+      "REMOVED lower grade dependency on T35.G1.02 (G1)",
+      "REMOVED lower grade dependency on T35.GK.02 (GK)",
+      "REMOVED lower grade dependency on T35.GK.03 (GK)"
+    ]
+  },
+  "T35.G6.04": {
+    "skill_name": "Examine digital divide data",
+    "topic": "T35 – Impacts & Ethics",
+    "old_dependencies": [
+      "T35.G1.01",
+      "T35.G1.02",
+      "T35.GK.02",
+      "T35.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T35.G1.01 (G1)",
+      "REMOVED lower grade dependency on T35.G1.02 (G1)",
+      "REMOVED lower grade dependency on T35.GK.02 (GK)",
+      "REMOVED lower grade dependency on T35.GK.03 (GK)"
+    ]
+  },
+  "T36.G6.01": {
+    "skill_name": "Analyze career equity across computing clusters (software, hardware, data, AI)",
+    "topic": "T36 – Careers, Collaboration & Future Paths",
+    "old_dependencies": [
+      "T04.G2.01",
+      "T36.G1.01",
+      "T36.GK.02",
+      "T36.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T04.G2.01 (G2)",
+      "REMOVED lower grade dependency on T36.G1.01 (G1)",
+      "REMOVED lower grade dependency on T36.GK.02 (GK)",
+      "REMOVED lower grade dependency on T36.GK.03 (GK)"
+    ]
+  },
+  "T36.G6.02": {
+    "skill_name": "Practice age-appropriate agile rituals",
+    "topic": "T36 – Careers, Collaboration & Future Paths",
+    "old_dependencies": [
+      "T08.G3.01",
+      "T09.G3.01",
+      "T36.GK.02",
+      "T36.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T08.G3.01 (G3)",
+      "REMOVED lower grade dependency on T09.G3.01 (G3)",
+      "REMOVED lower grade dependency on T36.GK.02 (GK)",
+      "REMOVED lower grade dependency on T36.GK.03 (GK)"
+    ]
+  },
+  "T36.G6.03": {
+    "skill_name": "Analyze job descriptions for skills/values",
+    "topic": "T36 – Careers, Collaboration & Future Paths",
+    "old_dependencies": [
+      "T36.G1.01",
+      "T36.G1.02",
+      "T36.GK.02",
+      "T36.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T36.G1.01 (G1)",
+      "REMOVED lower grade dependency on T36.G1.02 (G1)",
+      "REMOVED lower grade dependency on T36.GK.02 (GK)",
+      "REMOVED lower grade dependency on T36.GK.03 (GK)"
+    ]
+  },
+  "T36.G6.04": {
+    "skill_name": "Add ethics clauses to team charters",
+    "topic": "T36 – Careers, Collaboration & Future Paths",
+    "old_dependencies": [
+      "T36.G1.01",
+      "T36.G1.02",
+      "T36.GK.02",
+      "T36.GK.03"
+    ],
+    "new_dependencies": [],
+    "issues_fixed": [
+      "REMOVED lower grade dependency on T36.G1.01 (G1)",
+      "REMOVED lower grade dependency on T36.G1.02 (G1)",
+      "REMOVED lower grade dependency on T36.GK.02 (GK)",
+      "REMOVED lower grade dependency on T36.GK.03 (GK)"
+    ]
+  }
+}
