@@ -1,0 +1,21 @@
+we are aiming for "IXL for coding based on creaticode", and we need top quality result. No one has done this before in the world. It will be a unique contribution that will benefit all kids learning to code to have a systematic map of skills laid out to go from newbies to master programmers and engineers. CSTA has a standard but it is too vague and also missing important skill categories like AI and 3D and project development. This skill map will become the new golden standard for all coding platforms/educators to rely on.
+
+there is no AGENTS.md. Just read 00-START-HERE.md and spec_v2_updated.md to understand the whole project, and read the key referneces like csta standard draft, and ai priorities, and creaticode introduction in the root folder. ignore ACSL since it is too theoretic!
+
+latest version of skills are in "skillsv4" folder (ignore the other skills folders)
+
+now, we need to enhance the quality of the skills for this version. read the file skillsv4/allskills.md, which contains all skills. The ID tells you the topic and grade level "G1" means grade 1.
+
+## your task
+
+review allskills.md to identify any issue with the skills or dependencies, such as out of order issue (a grade 3 skill is depending on a grade 4 skill), or a dependency is missing, or there is a better dependency.
+
+also, to keep dependencies simple, let's add additional rule that for a skill at grade X, the dependencies should be at same grade or 1 grade or 2 grade lower, that is grade X, X - 1 or X -2. It should not be X or lower than X -2. For example, a grade 4 skill can depend on grade 4 or grade 3 or grade 2 skills, but not grade 1 skills. Also avoid circular dependencies. Also avoid transitive dependencies (if A depends on B, and B depends on C, then A should not depend on C directly).
+
+Since this is going to be complicated, focus on grade K and 1 only first, and find if there is any issue with these skills that to be fixed.
+
+
+if you need to modify skills, such as adding a new skill to fill a gap, or change the grade level of a skill, make sure you edit other files that may depend on that skill changed, such as the skills in the same topic, or all skills depending on that skill.
+
+use subagents/task to keep main context clean and small.
+
