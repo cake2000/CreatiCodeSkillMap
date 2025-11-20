@@ -16,6 +16,12 @@ async function waitWithCountdown(minutes) {
 }
 
 async function runAllScripts() {
+  // Print start date and time
+  const startTime = new Date();
+  console.log("\n╔══════════════════════════════════════════════════════════╗");
+  console.log(`║  Start Time: ${startTime.toLocaleString()}  ║`);
+  console.log("╚══════════════════════════════════════════════════════════╝\n");
+
   // All 36 topics identified from the skill map
   const topics = [
     { code: "T01", name: "Everyday Algorithms" },
@@ -72,11 +78,13 @@ async function runAllScripts() {
   // PHASE 1: Topic-by-Topic Processing
   console.log("===========================================");
   console.log("PHASE 1: Topic-by-Topic Processing");
+  console.log(`Started at: ${new Date().toLocaleString()}`);
   console.log("===========================================\n");
 
   for (let iteration = 0; iteration < TOPIC_ITERATIONS; iteration++) {
     console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
     console.log(`  Topic Phase - Iteration ${iteration + 1}/${TOPIC_ITERATIONS}`);
+    console.log(`  ${new Date().toLocaleString()}`);
     console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
 
     // Back up allskills.md for this iteration
@@ -111,26 +119,35 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
 
 2. **Skill Quality Checks**
    - Break down any skills that are too broad or complex
+   - Skill description should be actionable, relatable to the target age group, easy to understand, and implementable
    - Ensure skill descriptions are concrete and assessable
-   - Remove or merge redundant skills within the topic
+   - Merge truly redundant skills within the topic (but be conservative)
    - When breaking down skills, use sub-IDs like ${topic.code}.G4.05.01, ${topic.code}.G4.05.02
 
-3. **Intra-Topic Dependencies**
+3. **Intra-Topic Dependencies ONLY**
    - Fix dependencies WITHIN topic ${topic.code} only
    - Ensure no skill depends on a later skill in the same topic
    - Remove unnecessary same-grade dependencies (earlier skills in same topic/grade are assumed)
    - Apply the X-2 rule: dependencies should be at grades X, X-1, or X-2 only
+   - **CRITICAL: PRESERVE all dependencies to OTHER topics (T## where ## ≠ ${topic.code.slice(1)})**
 
 4. **Grade-Appropriate Content**
    - K-2 skills should be picture-based or unplugged
    - Grade 3+ skills should involve block-based coding
    - Ensure complexity increases appropriately with grade level
 
+CRITICAL RULES - NEVER VIOLATE THESE:
+- **NEVER delete any skills** - only improve/clarify their descriptions
+- **NEVER remove dependencies to skills from OTHER topics** (preserve all cross-topic dependencies)
+- **NEVER modify skills from other topics** - focus ONLY on ${topic.code}
+- Only remove a dependency if it's genuinely incorrect AND within topic ${topic.code}
+- When you identify inter-topic dependency issues, note them but DO NOT fix them
+
 IMPORTANT CONSTRAINTS:
 - ONLY modify skills in topic ${topic.code}
 - Do NOT change inter-topic dependencies (those will be fixed in Phase 2)
 - Focus on making this topic internally consistent and high quality
-- When you identify inter-topic dependency issues, note them but DO NOT fix them
+- Preserve the existing skill structure unless there's a compelling reason to change it
 
 Additional context about CreatiCode features is available at:
 * client side: ../../scratch-workspace
@@ -188,11 +205,13 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
   // PHASE 2: Grade-by-Grade Processing
   console.log("\n\n===========================================");
   console.log("PHASE 2: Grade-by-Grade Cross-Topic Dependency Checking");
+  console.log(`Started at: ${new Date().toLocaleString()}`);
   console.log("===========================================\n");
 
   for (let iteration = 0; iteration < GRADE_ITERATIONS; iteration++) {
     console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
     console.log(`  Grade Phase - Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
+    console.log(`  ${new Date().toLocaleString()}`);
     console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
 
     // Back up allskills.md for this iteration
@@ -232,27 +251,34 @@ You are in PHASE 2 of a two-phase optimization process. Phase 1 has already opti
 
 1. **Inter-Topic Dependencies**
    - Review ALL skills at grade ${grade} across all 36 topics
-   - Identify and fix missing cross-topic dependencies
+   - ADD missing cross-topic dependencies where needed
    - Ensure skills from different topics that relate to each other have proper dependencies
    - Example: A game skill might need to depend on loops, variables, and graphics skills
 
 2. **Dependency Validation**
    - Enforce the X-2 rule strictly: Grade ${grade} skills can only depend on ${allowedGrades}
-   - Remove any dependencies that violate this rule
+   - Fix dependencies that violate this rule by finding appropriate scaffolding skills
    - Check for circular dependencies across topics
-   - Remove transitive dependencies (if A→B and B→C, remove A→C)
+   - Remove transitive dependencies (if A→B and B→C, remove A→C) ONLY if truly redundant
 
 3. **Grade-Level Coherence**
    - Ensure all grade ${grade} skills work together as a cohesive curriculum
-   - Identify any skills that seem too advanced or too simple for grade ${grade}
    - Check that foundational skills are available for more advanced skills
    - ${grade !== 'K' ? `Verify that grade ${grade === '1' ? 'K' : parseInt(grade) - 1} provides adequate preparation` : 'Ensure kindergarten skills are truly introductory'}
+   - Add dependencies where skills clearly build on each other
 
 4. **Scaffolding Verification**
    - Ensure critical gateway skills have proper dependencies
    - Check that complex skills have sufficient prerequisite skills
    - Verify learning pathways make sense across topics at this grade level
-   - When needed skills are missing from allowed grades, find or create appropriate scaffolding
+   - When needed skills are missing from allowed grades, find appropriate scaffolding
+
+CRITICAL RULES - NEVER VIOLATE THESE:
+- **NEVER delete any skills** - Phase 1 already handled skill quality
+- **Only remove a dependency if it's genuinely incorrect or truly redundant**
+- **Be conservative** - when in doubt, keep the dependency
+- **Add dependencies liberally** - better to over-specify than under-specify prerequisites
+- **Preserve all valid dependencies** even if they seem numerous
 
 IMPORTANT CONSTRAINTS:
 - Focus ONLY on grade ${grade} skills and their dependencies
@@ -313,9 +339,17 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
     console.log(`\n✅ Completed Grade Phase Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
   }
 
+  const endTime = new Date();
+  const elapsedTime = Math.round((endTime - startTime) / 1000); // in seconds
+  const hours = Math.floor(elapsedTime / 3600);
+  const minutes = Math.floor((elapsedTime % 3600) / 60);
+  const seconds = elapsedTime % 60;
+
   console.log("\n\n===========================================");
   console.log("✨ Two-Phase Optimization Complete!");
   console.log("===========================================");
+  console.log(`\nCompleted at: ${endTime.toLocaleString()}`);
+  console.log(`Total elapsed time: ${hours}h ${minutes}m ${seconds}s`);
   console.log(`\nSummary:`);
   console.log(`- Phase 1: Processed ${topics.length} topics × ${TOPIC_ITERATIONS} iterations`);
   console.log(`- Phase 2: Processed ${gradeList.length} grades × ${GRADE_ITERATIONS} iterations`);
