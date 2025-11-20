@@ -3142,7 +3142,6 @@ Description: Students make their first "when key pressed" script that moves a sp
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T06.G2.02: Unknown skill
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -3153,7 +3152,6 @@ Description: Students read very simple scripts with different event hats (green 
 
 Dependencies:
 * T06.G3.02: Build a key‑press script that controls a sprite
-* T06.G2.03: Unknown skill
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -3165,7 +3163,6 @@ Description: Students choose between green flag, key press, and sprite‑click e
 Dependencies:
 * T06.G3.03: Match code snippets to the event that triggers them
 * T08.G3.01: Use a simple if in a script
-* T06.G2.04: Unknown skill
 
 
 ID: T06.G3.05
@@ -3517,8 +3514,7 @@ Description: Students read a very simple script with a single `repeat N` loop (N
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
-* T04.G3.02: Match a “repeat N” loop to repeated behavior
-* T07.G2.02: Unknown skill
+* T04.G3.02: Match a "repeat N" loop to repeated behavior
 
 
 ID: T07.G3.03
@@ -3561,6 +3557,7 @@ Skill: Create a forever game loop for controls
 Description: Students implement a `forever` loop that continuously checks keyboard input and moves the sprite accordingly, instead of responding only once. This is the first time they build a persistent game loop after tracing one in Grade 3.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
@@ -3572,6 +3569,7 @@ Skill: Loop with a condition inside
 Description: Students write a loop where each repeated step also contains a conditional, such as moving and bouncing off edges or adding to a score only when touching a coin.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.04: Use repeat‑until to reach a simple goal
 * T08.G3.01: Use a simple if in a script
@@ -3581,9 +3579,10 @@ Dependencies:
 ID: T07.G4.03
 Topic: T07 – Loops
 Skill: Use a loop counter variable
-Description: Students maintain a numeric counter variable that increments on each loop iteration (e.g., to show “Step 1, Step 2, …” or to track how many loops have run), introducing a “for loop” pattern using Scratch‑style blocks.
+Description: Students maintain a numeric counter variable that increments on each loop iteration (e.g., to show "Step 1, Step 2, …" or to track how many loops have run), introducing a "for loop" pattern using Scratch‑style blocks.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T09.G3.01: Create and use a numeric variable for score or count
@@ -3866,7 +3865,6 @@ Description: Students read very simple scenarios (e.g., "move only when the spac
 Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T05.G3.02: Identify user needs from a short interview transcript
-* T08.G2.02: Unknown skill
 
 
 ID: T08.G3.03
@@ -3909,6 +3907,7 @@ Skill: Combine two conditions with AND
 Description: Students use a compound condition (AND) to check if two things are true at the same time before acting (e.g., "if key pressed AND touching goal, then complete level"). This is their first time writing boolean logic operators in code.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T08.G3.04: Trace code with a single if/else
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -3920,6 +3919,7 @@ Skill: Combine two conditions with OR
 Description: Students use OR to check if at least one of two conditions is true (e.g., "if score > 100 OR lives == 0, then end game").
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01: Create and use a numeric variable for score or count
@@ -3942,6 +3942,7 @@ Skill: Nest if/else statements
 Description: Students write nested if/else blocks where an else branch contains another if (e.g., checking weapon type, then checking ammo level). This models multi-step decision-making.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T08.G3.04: Trace code with a single if/else
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -3953,6 +3954,7 @@ Skill: Convert nested if to cleaner logic
 Description: Students are given deeply nested or redundant if/else code and refactor it using AND, OR, or else-if to make it cleaner and more readable.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T08.G3.04: Trace code with a single if/else
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -3964,7 +3966,7 @@ Skill: Use if to control state changes
 Description: Students use conditional logic to manage game states (e.g., "if game over then don't allow movement") or animation states (e.g., "if jumping then use jump costume"). This applies conditionals to tracking program state.
 
 Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T06.G3.02: Build a key‑press script that controls a sprite
 * T08.G3.01: Use a simple if in a script
 * T08.G3.04: Trace code with a single if/else
 * T09.G3.01: Create and use a numeric variable for score or count
@@ -4179,6 +4181,7 @@ Skill: Use multiplication and division in expressions
 Description: Students use * and / operators in expressions to set or change variables, such as "set total to lives * 100" or "set average to sum / count." This extends arithmetic to include multiplicative operations.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.03: Debug missing or wrong variable updates
 * T09.G3.04: Trace code with variables to predict outcomes
@@ -4190,6 +4193,7 @@ Skill: Combine operators and variables in complex expressions
 Description: Students write expressions that combine two or more operators and variables, such as "(a + b) * 2" or "x + y − z", with attention to operator precedence or explicit grouping.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.03: Debug missing or wrong variable updates
 * T09.G3.04: Trace code with variables to predict outcomes
@@ -4201,6 +4205,7 @@ Skill: Store and use user input in a variable
 Description: Students use an "ask and wait" or input block to capture user input (a number or text), store it in a variable, and then use that variable in later blocks or conditionals.
 
 Dependencies:
+* T06.G3.02: Build a key‑press script that controls a sprite
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.04: Trace code with variables to predict outcomes
@@ -4212,6 +4217,7 @@ Skill: Use variables in a loop counter pattern
 Description: Students combine a loop with a variable that increments or decrements each iteration, often displaying intermediate values. This is a for‑loop–like pattern using repeated assignment.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.04: Trace code with variables to predict outcomes
@@ -4246,6 +4252,7 @@ Skill: Modify a variable based on sensor or random input
 Description: Students set or modify a variable based on the result of a "pick random" block, sensor reading (e.g., volume, tilt), or other external input. This shows that variable updates can depend on dynamic sources.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.04: Trace code with variables to predict outcomes
@@ -4541,7 +4548,6 @@ Description: Students use a simple `for each [item] in [list]` loop with a very 
 Dependencies:
 * T06.G3.03: Match code snippets to the event that triggers them
 * T07.G3.01: Use a counted repeat loop
-* T10.G2.01: Unknown skill
 * T06.G3.04: Decide which event type to use for a behavior
 
 
@@ -4573,6 +4579,7 @@ Skill: Use nested loops to process a 2D arrangement (rows and columns)
 Description: Students use two nested loops to process a conceptual 2D arrangement represented as a list of lists (e.g., a seating chart or a simple game grid) or multiple parallel lists. They loop through rows (outer loop) and columns (inner loop) to access or modify items.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T10.G3.03: Add and remove items from a list
@@ -4584,6 +4591,7 @@ Skill: Store and retrieve parallel list data
 Description: Students use two or more lists in parallel (e.g., names in one list, scores in another) and keep them synchronized by index. For example, "the player at index 2 in the names list has the score at index 2 in the scores list."
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01: Create and use a numeric variable for score or count
 * T10.G3.02: Find and count items in a list with a condition
 * T10.G3.03: Add and remove items from a list
@@ -4595,6 +4603,7 @@ Skill: Build a high score or leaderboard list
 Description: Students create a list of scores or rankings (possibly with names), insert new scores in the appropriate position to keep the list sorted, or use loops and conditionals to find the highest/lowest score.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
@@ -4607,6 +4616,7 @@ Skill: Sort a list by swapping items
 Description: Students implement a simple sorting algorithm (e.g., bubble sort or selection sort intuition) by repeatedly comparing adjacent items and swapping them if out of order, or by selecting the smallest/largest and moving it. This introduces algorithmic thinking about data organization.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T10.G3.03: Add and remove items from a list
@@ -4618,6 +4628,7 @@ Skill: Search a list for a specific item (linear search)
 Description: Students implement a simple linear search: loop through a list, compare each item to a target, and report the position or index when found (or "not found" if the loop completes).
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T10.G3.03: Add and remove items from a list
@@ -4629,6 +4640,7 @@ Skill: Filter or remove items from a list based on a condition
 Description: Students loop through a list and delete items that don't satisfy a condition (e.g., "keep only items > 10" or "remove all 'broken' tools"), either by building a new filtered list or by modifying the original.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T10.G3.03: Add and remove items from a list
@@ -4864,7 +4876,6 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.02: Trace a script with a simple loop
 * T01.G3.12: Predict the final state of a simple algorithm
-* T11.G2.01: Unknown skill
 
 
 ID: T11.G3.02
@@ -4929,6 +4940,7 @@ Skill: Use a block's result in a calculation
 Description: Students call built‑in or pre‑made reporter functions and use their returned values directly in conditions or arithmetic (e.g., `if <distance to [sprite] < 50>`, `set x to [random 1 to 10] + 5`).
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
 * T11.G3.04: Understand the concept of return values
@@ -5287,6 +5299,7 @@ Skill: Choose descriptive names for custom blocks
 Description: Students create custom blocks with clear, verb-based names (e.g., "move forward", "draw star", "check collision") so that anyone using the block understands its purpose without looking inside.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T12.G3.03: Refactor nested or repeated blocks for readability
 * T12.G3.04: Explain the structure of a multi-script project
@@ -6140,6 +6153,7 @@ Skill: Spawn a projectile
 Description: Use `create clone of [Bullet]` (or `myself`) to spawn a projectile when an input occurs.
 
 Dependencies:
+* T06.G3.02: Build a key‑press script that controls a sprite
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6189,6 +6203,7 @@ Skill: Chase the player
 Description: Use `point towards [Player]` and `move` to create a simple chaser that slows when close.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6214,6 +6229,7 @@ Skill: Create a Lives variable
 Description: Create a `Lives` variable, decrease it upon damage, and check for zero to trigger Game Over.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6227,6 +6243,7 @@ Skill: Create a Timer
 Description: Use a variable and a loop with `wait (1) seconds` to create a countdown that drives win/loss conditions.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
@@ -6240,6 +6257,7 @@ Skill: Detect level complete
 Description: Check if a condition (Score threshold, touch door) is met to trigger the next level.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6253,6 +6271,7 @@ Skill: Switch backdrops for levels
 Description: When `Next Level` is received, switch the backdrop and reset player position.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6262,9 +6281,10 @@ Dependencies:
 ID: T14.G4.11
 Topic: T14 – 2D Games
 Skill: Add checkpoints
-Description: Store the player’s last checkpoint coordinates in variables and restore them after hazards instead of warping all the way back.
+Description: Store the player's last checkpoint coordinates in variables and restore them after hazards instead of warping all the way back.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6278,6 +6298,7 @@ Skill: Temporary power-ups
 Description: Give the player a temporary effect (speed boost, shield) by toggling a variable and using a timer to turn it off.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01: Create and use a numeric variable for score or count
@@ -6303,6 +6324,7 @@ Skill: Reset on restart messages
 Description: Use `when I receive [Restart]` (or `Game Over`) to send every sprite back to a known costume, position, and visibility so repeats are consistent.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
@@ -7672,7 +7694,6 @@ Description: Students read a labeled axis diagram or CreatiCode gizmo and identi
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T18.G2.01: Unknown skill
 * T03.G2.01: Choose subtasks for a simple project idea
 
 
@@ -7684,7 +7705,6 @@ Description: Students compare front/top/side snapshots of the same object arrang
 Dependencies:
 * T18.G3.01: Interpret 3D axis directions
 * T07.G3.01: Use a counted repeat loop
-* T18.G2.02: Unknown skill
 
 
 ID: T18.G3.03
@@ -7707,7 +7727,6 @@ Description: Students use the `add box/sphere/cylinder` blocks to place primitiv
 Dependencies:
 * T18.G3.03: Initialize a 3D scene with default lighting
 * T08.G3.01: Use a simple if in a script
-* T18.G2.04: Unknown skill
 
 
 ID: T18.G3.05
@@ -11407,7 +11426,6 @@ Skill: Distinguish text data from numbers and pictures
 Description: Students sort cards showing words, sentences, numbers, and emojis to recognize text as a specific data type.
 
 Dependencies:
-* T29.G2.01: Unknown skill
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 
