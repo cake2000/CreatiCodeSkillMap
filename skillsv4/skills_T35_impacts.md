@@ -43,8 +43,8 @@ _Dependency:_
 
 
 - **Short name:** Take turns with tech
-- **Description:** Students role-play sharing tablets or taking turns, reinforcing respectful use.
-- **Challenge format:** Concept reflection. Auto-grading confirms learners mention sharing/asking politely.
+- **Description:** Students sort picture cards showing sharing behaviors (waiting your turn, asking nicely, grabbing) into "kind" and "not kind" categories to learn respectful device use.
+- **Challenge format:** Picture sorting. Auto-grading checks correct categorization of behaviors.
 - **CSTA:** EK‑CAS‑ET‑02.
 
 ---
@@ -62,15 +62,15 @@ _Dependency:_
 - **Challenge format:** Sorting cards. Auto-grading checks placement.
 - **CSTA:** E1‑CAS‑ET‑02.
 
-### T35.G1.02 – Describe how technology makes people feel
+### T35.G1.02 – Match feelings to technology experiences
 
 _Dependency:_
   * T01.GK.01: Put pictures in order for getting ready for bed
 
 
 - **Short name:** Happy or frustrated?
-- **Description:** Students discuss how apps/games can make them excited, calm, or upset, introducing emotional impacts.
-- **Challenge format:** Picture prompt + sentence. Auto-grading ensures feelings/reasons are mentioned.
+- **Description:** Students match pictures of emotions (happy, sad, frustrated, excited) to technology scenarios (winning a game, losing progress, video calling family, waiting for slow loading) to understand emotional impacts of tech use.
+- **Challenge format:** Picture matching. Auto-grading checks correct emotion-to-scenario matches.
 - **CSTA:** E1‑CAS‑ET‑02.
 
 ### T35.G1.03 – Recognize that people make technology choices
@@ -80,8 +80,8 @@ _Dependency:_
 
 
 - **Short name:** Someone designed this button
-- **Description:** Learners note that each app/game is made by people who choose characters, colors, and rules.
-- **Challenge format:** Concept Q&A. Auto-grading checks mention of creators.
+- **Description:** Students look at app screenshots and identify choices made by creators (characters, colors, sounds) by circling elements and matching them to "someone chose this" labels.
+- **Challenge format:** Picture annotation. Auto-grading checks correct identification of design choices.
 - **CSTA:** E1‑CAS‑ET‑02.
 
 ---
@@ -172,9 +172,7 @@ _Dependency:_
 ### T35.G4.01 – Analyze case studies of tech helping/harming communities
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G3.01: Evaluate digital footprints
 
 
 - **Short name:** Tech impact case cards
@@ -186,8 +184,7 @@ _Dependency:_
 
 _Dependency:_
   * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G3.02: Discuss how algorithms influence what we see
 
 
 - **Short name:** Spot sponsored content
@@ -198,12 +195,10 @@ _Dependency:_
 ### T35.G4.03 – Reflect on accessibility/inclusion in games
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G3.03: Develop class guidelines for respectful communication
 
 
-- **Short name:** Who can/can’t play this game?
+- **Short name:** Who can/can't play this game?
 - **Description:** Students review a game for accessibility (color contrast, controls) and propose improvements.
 - **Challenge format:** Review sheet. Auto-grading rubric checks mention of barriers + solutions.
 - **CSTA:** E4‑CAS‑ET‑02, CAS‑HC.
@@ -215,10 +210,7 @@ _Dependency:_
 ### T35.G5.01 – Examine global impacts of technology
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G4.01: Analyze case studies of tech helping/harming communities
 
 
 - **Short name:** Technology in different communities
@@ -229,10 +221,8 @@ _Dependency:_
 ### T35.G5.02 – Debate digital well-being scenarios
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G4.01: Analyze case studies of tech helping/harming communities
+  * T35.G4.03: Reflect on accessibility/inclusion in games
 
 
 - **Short name:** Should we allow phones at lunch?
@@ -244,9 +234,8 @@ _Dependency:_
 
 _Dependency:_
   * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G4.01: Analyze case studies of tech helping/harming communities
+  * T35.G4.02: Understand advertising/persuasion online
 
 
 - **Short name:** AI job impacts across different communities
@@ -264,8 +253,8 @@ _Dependency:_
 _Dependency:_
   * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
   * T09.G3.01: Create and use a numeric variable for score or count
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G5.01: Examine global impacts of technology
+  * T35.G4.01: Analyze case studies of tech helping/harming communities
 
 
 - **Short name:** Use an ethics checklist for apps
@@ -276,10 +265,8 @@ _Dependency:_
 ### T35.G6.02 – Analyze data privacy tradeoffs
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G5.01: Examine global impacts of technology
+  * T35.G4.02: Understand advertising/persuasion online
 
 
 - **Short name:** What data does this app collect and why?
@@ -287,28 +274,37 @@ _Dependency:_
 - **Challenge format:** Decision chart. Auto-grading checks references to stated purposes.
 - **CSTA:** MS‑CAS‑ET‑06.
 
-### T35.G6.03 – Develop comprehensive AI ethics guidelines for T21-T24 applications
+### T35.G6.03 – Develop ethics guidelines for AI content generation (T21-T22)
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G5.03: Analyze AI's differential impacts on workers and communities
+  * T35.G4.03: Reflect on accessibility/inclusion in games
 
 
-- **Short name:** Complete AI ethics framework for class projects
-- **Description:** Students create comprehensive ethical guidelines covering all T21-T24 AI applications: T21 image generation (bias, consent, cultural representation), T22 chatbots (privacy, misinformation, accessibility), T23 perception (consent, surveillance concerns, equity), and T24 XO assistance (academic integrity, citation, dependency). They connect guidelines to social justice principles and equity outcomes.
-- **Challenge format:** Multi-application ethics framework. Rubric evaluates comprehensive coverage of all AI applications, social justice integration, and practical implementation guidance.
+- **Short name:** AI content generation ethics
+- **Description:** Students create ethical guidelines for AI image generation (T21) addressing bias in outputs, consent for training data, and cultural representation, and for AI chatbots (T22) addressing privacy, misinformation risks, and accessibility concerns.
+- **Challenge format:** Ethics guideline document for generative AI. Rubric evaluates coverage of bias, consent, and misinformation issues.
 - **CSTA:** MS‑CAS‑ET‑06.
-- **AI4K12:** D1 Ethical Design; D2 Bias and Fairness; E2 Societal Impacts.
+- **AI4K12:** D1 Ethical Design; D2 Bias and Fairness.
+
+### T35.G6.03.01 – Develop ethics guidelines for AI perception and assistance (T23-T24)
+
+_Dependency:_
+  * T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+  * T35.G5.03: Analyze AI's differential impacts on workers and communities
+
+
+- **Short name:** AI perception/assistance ethics
+- **Description:** Students create ethical guidelines for AI perception tools (T23) addressing consent, surveillance concerns, and equity in recognition accuracy, and for AI coding assistants (T24) addressing academic integrity, proper citation, and avoiding over-dependency.
+- **Challenge format:** Ethics guideline document for perception/assistance AI. Rubric evaluates coverage of surveillance, consent, and academic integrity issues.
+- **CSTA:** MS‑CAS‑ET‑06.
+- **AI4K12:** D1 Ethical Design; E2 Societal Impacts.
 
 ### T35.G6.04 – Examine digital divide data
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G5.01: Examine global impacts of technology
+  * T35.G4.01: Analyze case studies of tech helping/harming communities
 
 
 - **Short name:** Who still lacks access?
@@ -320,28 +316,37 @@ _Dependency:_
 
 ## Grade 7
 
-### T35.G7.01 – Conduct comprehensive bias audits across T21-T24 AI features
+### T35.G7.01 – Conduct bias audits for AI content generation (T21-T22)
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+  * T35.G5.03: Analyze AI's differential impacts on workers and communities
 
 
-- **Short name:** Systematic AI fairness testing across applications
-- **Description:** Students systematically audit T21 image generation (representation across demographics), T22 chatbots (response quality by dialect/topic), T23 perception (accuracy by skin tone/lighting), and T24 XO assistance (help quality by English proficiency). They measure disparities, analyze root causes, and propose both technical and policy solutions.
-- **Challenge format:** Multi-application bias audit. Auto-grading checks systematic testing across T21-T24, quantitative disparity measurement, and comprehensive mitigation plans.
+- **Short name:** AI content generation fairness testing
+- **Description:** Students systematically audit T21 image generation for representation across demographics and T22 chatbots for response quality by dialect/topic. They measure disparities, analyze root causes, and propose mitigation strategies.
+- **Challenge format:** Bias audit for generative AI. Auto-grading checks systematic testing, disparity measurement, and mitigation proposals.
+- **CSTA:** MS‑CAS‑ET‑05, DAA‑DI.
+- **AI4K12:** D2 Bias and Fairness; E2 Societal Impacts.
+
+### T35.G7.01.01 – Conduct bias audits for AI perception and assistance (T23-T24)
+
+_Dependency:_
+  * T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+  * T35.G6.03.01: Develop ethics guidelines for AI perception and assistance (T23-T24)
+
+
+- **Short name:** AI perception/assistance fairness testing
+- **Description:** Students systematically audit T23 perception tools for accuracy across skin tones and lighting conditions, and T24 coding assistants for help quality by English proficiency. They document disparities and propose both technical and policy solutions.
+- **Challenge format:** Bias audit for perception/assistance AI. Auto-grading checks systematic testing, disparity documentation, and solution proposals.
 - **CSTA:** MS‑CAS‑ET‑05, DAA‑DI.
 - **AI4K12:** D2 Bias and Fairness; E2 Societal Impacts.
 
 ### T35.G7.02 – Explore unintended consequences of new tech
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
+  * T35.G5.01: Examine global impacts of technology
 
 
 - **Short name:** Side effects storyboard
@@ -352,10 +357,8 @@ _Dependency:_
 ### T35.G7.03 – Evaluate transparency vs security tensions
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G6.02: Analyze data privacy tradeoffs
+  * T35.G5.02: Debate digital well-being scenarios
 
 
 - **Short name:** Should we open-source this tool?
@@ -366,10 +369,8 @@ _Dependency:_
 ### T35.G7.04 – Analyze societal impacts of AI perception technologies (Pairing with T23)
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G6.02: Analyze data privacy tradeoffs
+  * T35.G6.03.01: Develop ethics guidelines for AI perception and assistance (T23-T24)
 
 
 - **Short name:** AI surveillance: community safety vs privacy
@@ -381,10 +382,8 @@ _Dependency:_
 ### T35.G7.05 – Debate ethical implications of AI media generation (Pairing with T21)
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+  * T35.G5.03: Analyze AI's differential impacts on workers and communities
 
 
 - **Short name:** AI-generated content and creative professions
@@ -396,10 +395,8 @@ _Dependency:_
 ### T35.G7.06 – Facilitate community discussions on AI-powered tech policy
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G6.04: Examine digital divide data
+  * T35.G5.02: Debate digital well-being scenarios
 
 
 - **Short name:** Host AI ethics town halls
@@ -416,10 +413,8 @@ _Dependency:_
 
 _Dependency:_
   * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+  * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 - **Short name:** Use consequentialist vs deontological reasoning
@@ -427,7 +422,12 @@ _Dependency:_
 - **Challenge format:** Comparative essay. Rubric checks lens definitions and application.
 - **CSTA:** MS‑CAS‑ET‑06.
 
-### T35.G8.01 – Analyze AI chatbots' impact on information literacy (Pairing with T22)
+### T35.G8.01.01 – Analyze AI chatbots' impact on information literacy (Pairing with T22)
+
+_Dependency:_
+  * T35.G8.01: Apply ethical frameworks to real proposals
+  * T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+
 
 - **Short name:** AI chatbots and the future of learning
 - **Description:** Following T22 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.
@@ -438,11 +438,8 @@ _Dependency:_
 ### T35.G8.02 – Draft equity-focused policy briefs for AI in education
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.G1.03: Recognize that people make technology choices
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G7.06: Facilitate community discussions on AI-powered tech policy
+  * T35.G6.04: Examine digital divide data
 
 
 - **Short name:** AI policy with social justice lens
@@ -454,11 +451,8 @@ _Dependency:_
 ### T35.G8.03 – Design impact assessments for CreatiCode projects
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.G1.03: Recognize that people make technology choices
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G7.02: Explore unintended consequences of new tech
+  * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 - **Short name:** Pre-launch impact checklist
@@ -469,11 +463,8 @@ _Dependency:_
 ### T35.G8.04 – Lead peer workshops on responsible tech use
 
 _Dependency:_
-  * T35.G1.01: Sort good vs not-so-good choices
-  * T35.G1.02: Describe how technology makes people feel
-  * T35.G1.03: Recognize that people make technology choices
-  * T35.GK.02: Recognize signs of too much screen time
-  * T35.GK.03: Practice device sharing etiquette
+  * T35.G7.06: Facilitate community discussions on AI-powered tech policy
+  * T35.G6.04: Examine digital divide data
 
 
 - **Short name:** Teach younger students about digital wellbeing

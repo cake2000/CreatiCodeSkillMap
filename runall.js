@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 14) continue;
+      if ( iteration == 0 && i < 32) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -125,7 +125,7 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
    - Break down any skills that are too broad or complex
    - The list of skills has to be comprehensive and scaffolded. You are encouraged to add missing skills to ensure proper scaffolding and knowledge coverage within the topic.
    - Skill description should be actionable, relatable to the target age group, easy to understand, and implementable
-   - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You should check the creaticode repos to verify this. For example, for 2D physics or 3D skills, you have to look into what blocks are offered and how they work to design meaningful skills around them. For 3D skills, you would have to start by how to initialize a 3D scene. For 2D physics, we have to enable the 2D physics engine first. Similar for widget category for app development, which are essential when developping AI apps. You also hav to check out other categories like AI, multiplayer, cloud, etc, when you work with related topics. You can search in this file to get all blocks in any category: /media/binyu/USB2/ScratchCopilot/blockdes8.txt
+   - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You absolutely must check the creaticode repos to verify this by reviewing ALL blocks offered in the related categories and consider how they should be used to teach the skill. For example, for 2D physics or 3D skills, you have to look into what blocks are offered and how they work to design meaningful skills around them since these skills are totally depending on the specific features of the platform. For 3D skills, you would have to look into how to initialize a 3D scene, control the camera, adding shapes/models/avatars, moving/rotating, handle collision/physics. For 2D physics, we have to enable the 2D physics engine first and then define the physics body for sprites, etc. Similar for widget category for app development, which are essential when developping AI apps like adding buttons/labels/textbox/chat window and handle user interactions. You also hav to check out other categories like AI, multiplayer, cloud, etc, when you work with related topics. You can search in this file to get all blocks in any category: /media/binyu/USB2/ScratchCopilot/blockdes8.txt. For example, search "Category:" to find all categories in that file or find all blocks within one category by searching "Category: <category name>". The current skills may not fully reflect the actual features of CreatiCode, so you have to improve them based on what the platform actually offers, and maybe some big changes are needed.
    - Ensure skill descriptions are concrete and assessable
    - Merge truly redundant skills within the topic (but be conservative)
    - When breaking down skills, use sub-IDs like ${topic.code}.G4.05.01, ${topic.code}.G4.05.02
@@ -166,7 +166,7 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
 
       let success = false;
       let retryCount = 0;
-      const maxRetries = 3;
+      const maxRetries = 30000;
 
       while (!success && retryCount < maxRetries) {
         try {

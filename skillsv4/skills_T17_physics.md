@@ -137,6 +137,36 @@ _Dependency:_
   button.” Auto-grading checks that the sprite’s body type and parameters are correct.
 - **CSTA:** E5‑PRO‑PF‑01.
 
+### T17.G5.06.01 – Select appropriate body shapes
+
+_Dependency:_
+  * T17.G5.06: Attach a dynamic body to a sprite
+
+- **Short name:** Choose box, circle, or convex hull
+- **Description:** Students select the appropriate shape type (Box, Circle, ConvexHull, Capsule) when creating physics bodies. They understand that simpler shapes run faster, while convex hulls match irregular sprites more closely.
+- **Challenge format:** Coding, shape matching. Students assign shapes to different sprites and test that collisions feel accurate. Auto-grading checks shape selections match sprite outlines.
+- **CSTA:** E5‑PRO‑PF‑01.
+
+### T17.G5.06.02 – Create sensor bodies for trigger zones
+
+_Dependency:_
+  * T17.G5.06: Attach a dynamic body to a sprite
+
+- **Short name:** Make a non-solid trigger zone
+- **Description:** Students create sensor bodies that detect collisions but do not physically block other sprites. Sensors are used for collectibles, checkpoints, and invisible trigger zones that start events.
+- **Challenge format:** Coding, trigger setup. Students configure a sensor body that broadcasts a message when the player enters. Auto-grading verifies the player passes through without bouncing.
+- **CSTA:** E5‑PRO‑PF‑01.
+
+### T17.G5.06.03 – Create compound shapes for complex sprites
+
+_Dependency:_
+  * T17.G5.06.01: Select appropriate body shapes
+
+- **Short name:** Combine shapes for concave sprites
+- **Description:** Students use the compound shape block to create physics bodies for sprites that cannot be represented by a single convex shape (L-shapes, characters with arms). They combine multiple simple shapes into one body.
+- **Challenge format:** Coding, compound body. Students build a compound shape for an irregular sprite and test that collisions work correctly. Auto-grading checks the compound body setup.
+- **CSTA:** E5‑PRO‑PF‑01.
+
 ### T17.G5.07 – Build static boundaries for floors and walls
 
 _Dependency:_
@@ -169,6 +199,26 @@ _Dependency:_
   the first platform.” Auto-grading checks for the impulse block and resulting jump height.
 - **CSTA:** E5‑PRO‑PF‑01.
 
+### T17.G5.08.01 – Distinguish forces from impulses
+
+_Dependency:_
+  * T17.G5.08: Apply an impulse to jump or push
+
+- **Short name:** Know when to use force vs impulse
+- **Description:** Students understand the difference between continuous forces (applied every frame for thrust, wind) and one-time impulses (instant kick for jumps, hits). They choose the correct block for different scenarios.
+- **Challenge format:** Concept + coding. Students match scenarios to force/impulse and implement both in a test scene. Auto-grading checks correct block selection for each mechanic.
+- **CSTA:** E5‑PRO‑PF‑01.
+
+### T17.G5.08.02 – Apply force at a position for rotation effects
+
+_Dependency:_
+  * T17.G5.08.01: Distinguish forces from impulses
+
+- **Short name:** Push off-center to spin
+- **Description:** Students apply forces or impulses at positions other than the center of a physics body to create rotation. They understand that off-center forces produce torque in addition to linear motion.
+- **Challenge format:** Coding, rotation lab. Students push a box at different positions and observe the resulting spin. Auto-grading checks for force-at-position block usage.
+- **CSTA:** E5‑PRO‑PF‑01.
+
 ### T17.G5.09 – **[Engine Skill]** Configure gravity and mass parameters
 
 _Dependency:_
@@ -185,11 +235,14 @@ _Dependency:_
 
 ### T17.G5.09b – **[Creative Skill]** Tune physics feel for player experience
 
+_Dependency:_
+  * T17.G5.09: Configure gravity and mass parameters
+  * T05.G5.06: Plan simulations with specific requirements
+
 - **Short name:** Adjust physics for game feel (creative)
-- **Description:** Students, informed by simulation planning (T05.G5.06, T05.G6.06), adjust gravity and mass to create desired player emotions (heavy/floaty, challenging/forgiving). They explain how physics parameters support gameplay goals.
+- **Description:** Students, informed by simulation planning, adjust gravity and mass to create desired player emotions (heavy/floaty, challenging/forgiving). They explain how physics parameters support gameplay goals.
 - **Challenge format:** Creative iteration challenge. Students adjust parameters to match creative briefs ("make jumping feel heroic" vs "create realistic falling"). Auto-grading evaluates alignment between settings and creative goals.
 - **CSTA:** E5‑PRO‑PF‑01.
-- **Dependencies:** T05.G5.06, T05.G6.06 (simulation planning).
 
 ### T17.G5.10 – Trace simple 2D physics motion
 
@@ -207,6 +260,16 @@ _Dependency:_
 - **Challenge format:** Concept, interactive trace. A visualization panel shows the parameters; students select from
   multiple conclusions. Auto-grading compares answers to a hidden simulation.
 - **CSTA:** E5‑PRO‑PF‑01, PRO‑TR.
+
+### T17.G5.10.01 – Remove physics body from a sprite
+
+_Dependency:_
+  * T17.G5.06: Attach a dynamic body to a sprite
+
+- **Short name:** Turn off physics for a sprite
+- **Description:** Students use the remove physics behavior block to disconnect a sprite from the physics engine. This is essential for destroying objects, transitioning sprites to manual control, or resetting game states.
+- **Challenge format:** Coding, removal task. Students remove a physics body when a sprite is collected or leaves the screen. Auto-grading verifies the sprite no longer responds to physics forces.
+- **CSTA:** E5‑PRO‑PF‑01.
 
 ### T17.G5.11 – Debug missing physics setup
 
@@ -249,6 +312,9 @@ _Dependency:_
 
 ### T17.G6.01b – **[Creative Skill]** Design surface feel for game environments
 
+_Dependency:_
+  * T17.G6.01: Configure surface friction parameters
+
 - **Short name:** Choose friction for story/gameplay (creative)
 - **Description:** Students select friction values to create desired environmental storytelling (ice, wood, carpet) and gameplay experiences. They explain how surface properties enhance narrative and player challenge.
 - **Challenge format:** Creative implementation. Students choose friction settings to support environmental themes and explain the connection between physics properties and story/gameplay goals.
@@ -270,9 +336,23 @@ _Dependency:_
 
 ### T17.G6.02b – **[Creative Skill]** Design bounce feel for game mechanics
 
+_Dependency:_
+  * T17.G6.02: Control restitution parameters
+
 - **Short name:** Choose bounce for gameplay (creative)
 - **Description:** Students select restitution values to create specific gameplay experiences (lively pinball bumpers, soft landing zones). They explain how bounce properties enhance game mechanics and player feel.
 - **Challenge format:** Creative implementation. Students design bounce behaviors to support game mechanics and justify choices based on player experience goals.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G6.02.01 – Set velocity directly for physics bodies
+
+_Dependency:_
+  * T17.G5.06: Attach a dynamic body to a sprite
+  * T17.G6.02: Control restitution parameters
+
+- **Short name:** Set x/y speed directly
+- **Description:** Students use the set x speed and set y speed blocks to directly control a physics body's velocity without applying forces or impulses. This is useful for instant speed changes, velocity limits, or resetting motion.
+- **Challenge format:** Coding, velocity control. Students set velocity limits so a falling object never exceeds a terminal velocity. Auto-grading checks the velocity clamping behavior.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.03 – Build a kinematic moving platform
@@ -307,6 +387,26 @@ _Dependency:_
   scoreboard. Auto-grading checks scoring accuracy and reset conditions.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑DH.
 
+### T17.G6.04.01 – Detect collision end events
+
+_Dependency:_
+  * T17.G6.04: Detect collisions for scoring or triggers
+
+- **Short name:** React when sprites stop touching
+- **Description:** Students use the collision end broadcast block to detect when two physics bodies stop colliding. This enables behaviors like resetting states after leaving a zone or ending power-up effects.
+- **Challenge format:** Coding, exit detection. Students implement a speed boost zone that activates on entry and deactivates on exit. Auto-grading checks both collision start and end handling.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G6.04.02 – Use ground detection for platformer jumping
+
+_Dependency:_
+  * T17.G6.04: Detect collisions for scoring or triggers
+
+- **Short name:** Check if sprite is on ground
+- **Description:** Students enable raycast-based ground detection to determine if a character is standing on a surface. They use the "in collision below" reporter to allow jumping only when grounded, preventing infinite air jumps.
+- **Challenge format:** Coding, platformer jump. Students implement grounded jumping that only works when the player is touching the floor. Auto-grading tests for proper ground detection usage.
+- **CSTA:** MS‑PRO‑PF‑01.
+
 ### T17.G6.05 – Use collision groups to filter interactions
 
 _Dependency:_
@@ -321,6 +421,16 @@ _Dependency:_
   hazards. They reason about selective interactions in crowded levels.
 - **Challenge format:** Coding, puzzle scene. Students set group numbers according to a table. Auto-grading simulates
   collisions and confirms only allowed pairs interact.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G6.05.01 – Use dominance groups for one-way interactions
+
+_Dependency:_
+  * T17.G6.05: Use collision groups to filter interactions
+
+- **Short name:** Make heavy objects push light ones
+- **Description:** Students set dominance groups so that higher-dominance bodies push lower-dominance bodies without being pushed back. This creates one-way platforms, bulldozer effects, or immovable player characters.
+- **Challenge format:** Coding, dominance setup. Students configure dominance so the player can push boxes but boxes cannot push the player. Auto-grading tests collision asymmetry.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.06 – Blend manual and engine sprites in a level
@@ -340,6 +450,17 @@ _Dependency:_
   documenting why. Auto-grading checks sprite settings and script separation.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑PM.
 
+### T17.G6.06.01 – Lock movement or rotation of physics bodies
+
+_Dependency:_
+  * T17.G5.06: Attach a dynamic body to a sprite
+  * T17.G6.06: Blend manual and engine sprites in a level
+
+- **Short name:** Prevent unwanted motion or spin
+- **Description:** Students use the prevent body movement and prevent body rotation blocks to lock specific degrees of freedom. This keeps platformer characters upright, creates objects that only slide horizontally, or prevents rotation on stacked items.
+- **Challenge format:** Coding, lock constraints. Students lock a character's rotation so it stays upright while being pushed. Auto-grading checks the locking behavior works correctly.
+- **CSTA:** MS‑PRO‑PF‑01.
+
 ### T17.G6.07 – Debug unstable physics behavior
 
 _Dependency:_
@@ -355,6 +476,17 @@ _Dependency:_
 - **Challenge format:** Coding, debugging lab. Students tweak gravity, density, or damping based on clues. Auto-grading
   checks that the sprite stays within tolerances after the fix.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
+
+### T17.G6.07.01 – Configure world border properties
+
+_Dependency:_
+  * T17.G5.05: Initialize a 2D physics world
+  * T17.G6.07: Debug unstable physics behavior
+
+- **Short name:** Set stage wall friction and bounce
+- **Description:** Students configure the friction and restitution of the four invisible world border walls created during physics initialization. They adjust these properties to control how sprites interact with stage boundaries.
+- **Challenge format:** Coding, border setup. Students make the left wall bouncy and the floor sticky, then test ball behavior against each. Auto-grading checks different border properties are applied.
+- **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G6.08 – Compare simulations to real-world motion
 
@@ -399,6 +531,16 @@ _Dependency:_
   targets. Auto-grading checks for correct parameter math and hit detection.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
+### T17.G7.01.01 – Point sprite in movement direction
+
+_Dependency:_
+  * T17.G7.01: Launch a configurable projectile
+
+- **Short name:** Face the direction of travel
+- **Description:** Students use the point in direction of speed block to automatically rotate a sprite to face its current movement direction. This is essential for arrows, rockets, birds, and other projectiles that should visually align with their trajectory.
+- **Challenge format:** Coding, projectile orientation. Students create an arrow that always points forward as it follows a parabolic arc. Auto-grading checks the sprite rotation matches velocity direction.
+- **CSTA:** MS‑PRO‑PF‑01.
+
 ### T17.G7.02 – Combine multiple forces simultaneously
 
 _Dependency:_
@@ -414,6 +556,16 @@ _Dependency:_
   thrust). They predict and observe the resulting curved motion.
 - **Challenge format:** Coding, starter project. Prompt: “Add a wind force so the falling glider drifts 50 pixels to the
   right before landing.” Auto-grading checks final position.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G7.02.01 – Clear forces and torques from physics bodies
+
+_Dependency:_
+  * T17.G7.02: Combine multiple forces simultaneously
+
+- **Short name:** Remove all applied forces
+- **Description:** Students use the remove all forces and remove all torques blocks to stop continuous force application. This is essential for switching between different force modes, stopping thrust engines, or resetting physics states.
+- **Challenge format:** Coding, force management. Students implement a jetpack that applies thrust while a key is held and clears forces when released. Auto-grading checks force clearing behavior.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G7.03 – Simulate drag or resistance
@@ -433,6 +585,16 @@ _Dependency:_
   Auto-grading checks monotonic decreases and ordering.
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DI.
 
+### T17.G7.03.01 – Use built-in damping for drag effects
+
+_Dependency:_
+  * T17.G7.03: Simulate drag or resistance
+
+- **Short name:** Set movement and rotation damping
+- **Description:** Students use the set damping factor block to apply automatic velocity reduction without manually calculating drag forces. They set separate damping values for linear and angular motion to simulate air resistance or underwater movement.
+- **Challenge format:** Coding, damping comparison. Students compare custom drag code to built-in damping and achieve matching behavior with less code. Auto-grading checks damping parameter usage and equivalent motion.
+- **CSTA:** MS‑PRO‑PF‑01.
+
 ### T17.G7.04 – Build chains or stacks of physics objects
 
 _Dependency:_
@@ -448,6 +610,16 @@ _Dependency:_
   propagate through the system when one element is pushed.
 - **Challenge format:** Coding, creative challenge. Students follow constraints (at least five bodies) and record video
   evidence. Auto-grading inspects scripts for multiple bodies and interactions.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G7.04.01 – Use rotation speed and torque
+
+_Dependency:_
+  * T17.G7.04: Build chains or stacks of physics objects
+
+- **Short name:** Control spinning physics objects
+- **Description:** Students set rotation speed directly and apply torques to create spinning objects. They understand the relationship between torque (rotational force) and angular velocity, and use the angular speed reporter to monitor rotation.
+- **Challenge format:** Coding, spinner mechanics. Students create a spinning wheel that maintains constant angular velocity or responds to torque inputs. Auto-grading checks rotation speed and torque usage.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G7.05 – Instrument and graph motion data
@@ -466,6 +638,16 @@ _Dependency:_
 - **Challenge format:** Coding + data visualization. Auto-grading checks list contents and that graph trends match the
   scenario (e.g., parabolic position vs linear velocity).
 - **CSTA:** MS‑PRO‑PF‑01, DAA‑DP/DI.
+
+### T17.G7.05.01 – Read velocity and mass reporters
+
+_Dependency:_
+  * T17.G7.05: Instrument and graph motion data
+
+- **Short name:** Get speed and mass values from physics
+- **Description:** Students use the x speed, y speed, mass, and angular speed reporter blocks to read physics body properties at runtime. They display these values or use them in calculations for adaptive gameplay or data logging.
+- **Challenge format:** Coding, physics dashboard. Students create a HUD that displays real-time velocity and mass of the player sprite. Auto-grading checks reporter block usage and displayed values.
+- **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G7.06 – Model a real-world physics scenario
 
@@ -525,7 +707,7 @@ _Dependency:_
   targets). Auto-grading runs scripted tests to confirm clear win conditions.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑PD.
 
-### T17.G8.02 – Implement advanced joints or constraints
+### T17.G8.02 – Implement fixed joints for connected objects
 
 _Dependency:_
   * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -534,12 +716,29 @@ _Dependency:_
   * T09.G3.01: Create and use a numeric variable for score or count
   * T17.G7.06: Model a real-world physics scenario
 
+- **Short name:** Weld sprites together as one body
+- **Description:** Students use fixed joint blocks to lock the relative position between two physics bodies, creating compound objects that move as one unit. They can also remove constraints to break objects apart during gameplay.
+- **Challenge format:** Coding, construction task. Students build a vehicle from multiple sprites connected with fixed joints. Auto-grading checks that connected parts move together.
+- **CSTA:** MS‑PRO‑PF‑01.
 
-- **Short name:** Connect sprites with hinges or ropes
-- **Description:** Students use physics constraint blocks (hinge, distance, weld) to link sprites so they rotate or move
-  together. Example: building a drawbridge or swinging wrecking ball.
-- **Challenge format:** Coding, starter project. Prompt: “Attach the bridge plank to the tower with a hinge so it lowers
-  smoothly when tapped.” Auto-grading checks that the joint behaves as expected.
+### T17.G8.02.01 – Implement revolute joints for hinges
+
+_Dependency:_
+  * T17.G8.02: Implement fixed joints for connected objects
+
+- **Short name:** Create rotating hinges between sprites
+- **Description:** Students use revolute joint blocks to create hinge connections where one body rotates around another. They can add motors to control rotation speed and damping. Examples include doors, drawbridges, and swinging pendulums.
+- **Challenge format:** Coding, hinge mechanics. Students create a swinging door that opens when the player approaches and closes automatically. Auto-grading checks revolute joint setup and motor behavior.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G8.02.02 – Implement prismatic joints for sliding
+
+_Dependency:_
+  * T17.G8.02: Implement fixed joints for connected objects
+
+- **Short name:** Create sliding constraints between sprites
+- **Description:** Students use prismatic joint blocks to constrain one body to slide along an axis relative to another body, with optional distance limits. Examples include pistons, sliding platforms, and elevator mechanics.
+- **Challenge format:** Coding, slider mechanics. Students create an elevator platform that slides vertically within set limits. Auto-grading checks prismatic joint setup and distance constraints.
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G8.03 – Build automated physics regression tests
@@ -576,7 +775,31 @@ _Dependency:_
   optimization techniques.
 - **CSTA:** MS‑PRO‑PF‑01, PRO‑TR.
 
+### T17.G8.04.01 – Enable CCD for fast-moving objects
+
+_Dependency:_
+  * T17.G8.04: Optimize a physics scene for performance
+
+- **Short name:** Prevent bullets from tunneling through walls
+- **Description:** Students enable continuous collision detection (CCD) for fast-moving physics bodies like bullets, small balls, or fast projectiles. They understand that without CCD, thin objects can pass through walls between physics steps.
+- **Challenge format:** Coding, tunneling fix. Students fire a fast projectile that tunnels through a wall, then enable CCD to fix it. Auto-grading checks CCD is enabled and collision is detected.
+- **CSTA:** MS‑PRO‑PF‑01.
+
+### T17.G8.05 – Control gravity scale and time speed
+
+_Dependency:_
+  * T17.G7.06: Model a real-world physics scenario
+
+- **Short name:** Adjust per-body gravity and simulation speed
+- **Description:** Students use the gravity scale block to give individual sprites different gravity (floating balloons, heavy rocks, underwater objects) and the physics time speed block to create slow-motion or fast-forward effects for dramatic moments.
+- **Challenge format:** Coding, physics variety. Students create a scene with objects of different gravity scales and a slow-motion trigger. Auto-grading checks gravity scale and time speed usage.
+- **CSTA:** MS‑PRO‑PF‑01.
+
 ### T17.G8.05a – **[Engine Skill]** Implement multiple physics parameter sets
+
+_Dependency:_
+  * T17.G7.06: Model a real-world physics scenario
+  * T17.G7.07: Evaluate whether a simulation meets requirements
 
 - **Short name:** Build physics mode system (technical)
 - **Description:** Students implement a system to toggle between different physics parameter sets (realistic vs arcade). They create data structures to store parameter configurations and switching mechanisms.
@@ -584,6 +807,9 @@ _Dependency:_
 - **CSTA:** MS‑PRO‑PF‑01.
 
 ### T17.G8.05b – **[Creative Skill]** Design physics modes for player experience
+
+_Dependency:_
+  * T17.G8.05a: Implement multiple physics parameter sets
 
 - **Short name:** Choose physics for game feel (creative)
 - **Description:** Students design realistic and stylized physics modes to create different player experiences. They document how each mode affects gameplay emotion, difficulty, and accessibility.

@@ -33,7 +33,7 @@ _Dependency:_
 
 _Dependency:_
   * T01.G3.01: Complete a simple script with missing blocks
-  * T30.G3.01: Identify where data is stored locally on a device
+  * T30.G3.01: Connect project ideas to required sensors/actuators
   * T31.G5.01: Trace how a device reaches an online service
 
 
@@ -57,23 +57,25 @@ _Dependency:_
 
 _Dependency:_
   * T09.G3.01: Create and use a numeric variable for score or count
+  * T31.G5.03: Save and reload a preference using a cloud variable
 
 
-- **Short name:** Use class codes for cloud data
-- **Description:** Students call `set session id [code]` before reading/writing cloud variables so that multiple classes or practice sessions do not share the same dataset.
+- **Short name:** Isolate cloud data with sessions
+- **Description:** Students use `create cloud session` or `join cloud session` blocks before reading/writing cloud variables so that multiple classes or practice sessions do not share the same dataset.
 - **Challenge format:** Coding, verification task. Auto-grading runs the project with two session IDs and checks that cloud values stay separate.
 - **CSTA:** E5‑SAS‑NW‑02; PRO‑PD.
 
 ### T31.G5.05 – Interpret connection status indicators in CreatiCode
 
 _Dependency:_
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
   * T09.G3.01: Create and use a numeric variable for score or count
+  * T31.G5.03: Save and reload a preference using a cloud variable
+  * T31.G5.04: Isolate cloud data with sessions
 
 
 - **Short name:** What does this network status mean?
-- **Description:** Students read CreatiCode’s multiplayer/cloud status outputs (connecting, waiting for host, disconnected) and update on-screen guidance accordingly.
-- **Challenge format:** Coding + reasoning. Auto-grading injects status changes and checks that the UI responds with accurate instructions (e.g., “Waiting for host”).
+- **Description:** Students read CreatiCode's multiplayer/cloud status outputs (connecting, waiting for host, disconnected) and update on-screen guidance accordingly.
+- **Challenge format:** Coding + reasoning. Auto-grading injects status changes and checks that the UI responds with accurate instructions (e.g., "Waiting for host").
 - **CSTA:** E5‑PRO‑PD‑01 (robust program behavior).
 
 ---
@@ -85,8 +87,7 @@ _Dependency:_
 _Dependency:_
   * T01.G3.01: Complete a simple script with missing blocks
   * T01.G3.02: Match a story description to a code sequence
-  * T31.G5.04: Configure a session ID to isolate practice data
-  * T31.G5.05: Interpret connection status indicators in CreatiCode
+  * T31.G5.01: Trace how a device reaches an online service
 
 
 - **Short name:** What happens when you press Play?
@@ -94,42 +95,50 @@ _Dependency:_
 - **Challenge format:** Concept, sequencing or fill-in. Auto-grading checks correct ordering and inclusion of encryption for HTTPS.
 - **CSTA:** MS‑SAS‑NW‑05.
 
-### T31.G6.02 – Build a shared leaderboard with cloud data
+### T31.G6.02 – Read and display cloud variable from another session
+
+_Dependency:_
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T31.G5.03: Save and reload a preference using a cloud variable
+  * T31.G5.04: Isolate cloud data with sessions
+
+- **Short name:** Display shared cloud data
+- **Description:** Students create a project that reads a cloud variable value set by another player or session (e.g., a shared message or high score) and displays it on screen. This scaffolds understanding of how cloud data is shared across different users.
+- **Challenge format:** Coding, verification task. Auto-grading runs with preset cloud values and checks that the student's project correctly reads and displays them.
+- **CSTA:** MS‑DAA‑DP‑05; PRO‑PD.
+
+### T31.G6.03 – Build a shared leaderboard with cloud data
 
 _Dependency:_
   * T08.G3.01: Use a simple if in a script
   * T09.G3.01: Create and use a numeric variable for score or count
-  * T31.G5.04: Configure a session ID to isolate practice data
-  * T31.G5.05: Interpret connection status indicators in CreatiCode
-
+  * T31.G5.03: Save and reload a preference using a cloud variable
+  * T31.G6.02: Read and display cloud variable from another session
 
 - **Short name:** Everyone sees the same scores
-- **Description:** Students store `{player, score}` records in cloud variables or tables, refreshing the leaderboard whenever any player updates their entry.
+- **Description:** Students apply cloud variable knowledge from T31.G5.03 to store `{player, score}` records in cloud variables or tables, refreshing the leaderboard whenever any player updates their entry.
 - **Challenge format:** Coding, data management. Auto-grading opens two instances, submits scores, and ensures both leaderboards stay consistent.
 - **CSTA:** MS‑DAA‑DP‑05; PRO‑PD.
 
-### T31.G6.03 – Analyze how latency affects AI responsiveness and fairness
+### T31.G6.04 – Measure and analyze how latency affects AI responsiveness and fairness
 
 _Dependency:_
   * T31.G5.01: Trace how a device reaches an online service
   * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.04: Configure a session ID to isolate practice data
-  * T31.G5.05: Interpret connection status indicators in CreatiCode
 
 
 - **Short name:** Network delays impact AI user experience
-- **Description:** Students explore scenarios where network latency affects T22 chatbot conversations, T21 image generation feedback, and T23 real-time gesture recognition. They propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
+- **Description:** Students use timer blocks to measure network latency in scenarios where it affects T22 chatbot conversations, T21 image generation feedback, and T23 real-time gesture recognition. They record and compare response times, then propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
 - **Challenge format:** Concept + AI analysis. Auto-grading checks identification of AI-specific latency impacts and appropriate mitigation strategies.
 - **CSTA:** MS‑SAS‑IM‑11.
 - **AI4K12:** A3 Human Agency; D2 Bias and Fairness.
 
-### T31.G6.04 – Evaluate privacy when sharing AI-generated content and data
+### T31.G6.05 – Evaluate privacy when sharing AI-generated content and data
 
 _Dependency:_
   * T31.G5.01: Trace how a device reaches an online service
   * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.04: Configure a session ID to isolate practice data
-  * T31.G5.05: Interpret connection status indicators in CreatiCode
+  * T31.G6.04: Measure and analyze how latency affects AI responsiveness and fairness
 
 
 - **Short name:** Protecting AI inputs and outputs in the cloud
@@ -138,17 +147,17 @@ _Dependency:_
 - **CSTA:** MS‑SAS‑SC‑07; MS‑DAA‑IM‑13.
 - **AI4K12:** D1 Ethical Design; E1 Societal Impacts.
 
-### T31.G6.05 – Distinguish stage-level vs sprite-level cloud variables
+### T31.G6.06 – Distinguish stage-level vs sprite-level cloud variables
 
 _Dependency:_
   * T09.G3.01: Create and use a numeric variable for score or count
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.04: Configure a session ID to isolate practice data
+  * T31.G5.04: Isolate cloud data with sessions
   * T31.G5.05: Interpret connection status indicators in CreatiCode
+  * T31.G6.03: Build a shared leaderboard with cloud data
 
 
 - **Short name:** Stage cloud vs sprite cloud
-- **Description:** Students experiment with CreatiCode’s ability to scope cloud variables to the stage (global) or to individual sprites/clone IDs (per-player). They choose the right scope for scores vs avatar cosmetics.
+- **Description:** Students experiment with CreatiCode's ability to scope cloud variables to the stage (global) or to individual sprites/clone IDs (per-player). They choose the right scope for scores vs avatar cosmetics.
 - **Challenge format:** Coding, comparison task. Auto-grading ensures both scopes are implemented and used correctly.
 - **CSTA:** MS‑DAA‑DP‑05; SAS‑NW.
 
@@ -159,10 +168,9 @@ _Dependency:_
 ### T31.G7.01 – Model a distributed multiplayer server
 
 _Dependency:_
-  * T02.G3.01: Identify start, action, and end symbols
+  * T02.G5.01: Identify start, action, and end symbols
   * T31.G5.01: Trace how a device reaches an online service
-  * T31.G6.04: Evaluate privacy when sharing AI-generated content and data
-  * T31.G6.05: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G6.06: Distinguish stage-level vs sprite-level cloud variables
 
 
 - **Short name:** How the server relays player data
@@ -173,10 +181,8 @@ _Dependency:_
 ### T31.G7.02 – Design a protocol for multiplayer state sync
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G6.04: Evaluate privacy when sharing AI-generated content and data
-  * T31.G6.05: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G6.06: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G7.01: Model a distributed multiplayer server
 
 
 - **Short name:** Define the message format
@@ -187,42 +193,37 @@ _Dependency:_
 ### T31.G7.03 – Compare network topology options
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G6.04: Evaluate privacy when sharing AI-generated content and data
-  * T31.G6.05: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G6.06: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G7.01: Model a distributed multiplayer server
 
 
 - **Short name:** Star, mesh, or peer-to-peer?
-- **Description:** Students analyze trade-offs among star (client/server), mesh, and peer-to-peer topologies in terms of latency, resilience, and implementation complexity.
+- **Description:** Students analyze physical and logical network topologies (star, mesh, and peer-to-peer), focusing on how nodes are arranged and connected. They evaluate trade-offs in terms of latency, resilience, and implementation complexity.
 - **Challenge format:** Concept, comparative reasoning. Auto-grading checks for mention of latency, reliability, and administrative trade-offs.
 - **CSTA:** MS‑SAS‑NW‑04.
 
 ### T31.G7.04 – Compare centralized servers with peer-to-peer networks
 
 _Dependency:_
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T09.G3.01: Create and use a numeric variable for score or count
-  * T31.G6.04: Evaluate privacy when sharing AI-generated content and data
-  * T31.G6.05: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G6.06: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G7.03: Compare network topology options
 
 
-- **Short name:** When to use mp vs p2p
-- **Description:** Students contrast CreatiCode’s standard multiplayer extension (server authoritative) with the `p2p` extension modes (message-only, Nengi/3D). They cite latency, trust, and scalability implications.
+- **Short name:** Client-server vs peer-to-peer architecture
+- **Description:** Students understand the architectural differences between centralized client-server models (like CreatiCode's multiplayer system) and peer-to-peer approaches. They analyze trade-offs including latency, trust/authority, scalability, and ease of implementation.
 - **Challenge format:** Concept + exploration. Auto-grading expects a table/list of pros/cons referencing specific extension behavior.
 - **CSTA:** MS‑SAS‑NW‑04; PRO‑PD.
 
 ### T31.G7.05 – Analyze societal impacts of networked systems
 
 _Dependency:_
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G6.04: Evaluate privacy when sharing AI-generated content and data
-  * T31.G6.05: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G6.05: Evaluate privacy when sharing AI-generated content and data
+  * T31.G6.06: Distinguish stage-level vs sprite-level cloud variables
+  * T31.G7.04: Client-server vs peer-to-peer architecture
 
 
 - **Short name:** How the internet changes communities
-- **Description:** Students research benefits (collaboration, access) and harms (privacy loss, misinformation) of widely used networked tools, grounding arguments in real examples.
+- **Description:** Students research societal impacts of widely used networked tools: (1) Benefits such as enabling collaboration, expanding access to information, and connecting communities; (2) Harms such as privacy loss, spread of misinformation, and digital divide issues. They ground arguments in real examples and propose mitigation strategies.
 - **Challenge format:** Concept, short reflection. Auto-grading uses a rubric requiring both benefits and harms.
 - **CSTA:** MS‑SAS‑IM‑11; MS‑SAS‑IM‑12.
 
@@ -233,10 +234,9 @@ _Dependency:_
 ### T31.G8.01 – Architect edge vs cloud processing pipelines for AI
 
 _Dependency:_
-  * T02.G3.01: Identify start, action, and end symbols
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G7.04: Compare centralized servers with peer-to-peer networks
+  * T02.G6.01: Design a flowchart for a simple guessing game
+  * T31.G6.01: Trace the steps of an HTTP/HTTPS request
+  * T31.G7.04: Client-server vs peer-to-peer architecture
   * T31.G7.05: Analyze societal impacts of networked systems
 
 
@@ -249,11 +249,9 @@ _Dependency:_
 ### T31.G8.02 – Understand AI service network requirements
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.03: Save and reload a preference using a cloud variable
-  * T31.G7.04: Compare centralized servers with peer-to-peer networks
+  * T31.G7.04: Client-server vs peer-to-peer architecture
   * T31.G7.05: Analyze societal impacts of networked systems
+  * T31.G8.01: Architect edge vs cloud processing pipelines for AI
 
 
 - **Short name:** Network needs for AI applications
@@ -265,11 +263,9 @@ _Dependency:_
 ### T31.G8.03 – Design secure AI-powered cloud systems
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.03: Save and reload a preference using a cloud variable
-  * T31.G7.04: Compare centralized servers with peer-to-peer networks
+  * T31.G7.04: Client-server vs peer-to-peer architecture
   * T31.G7.05: Analyze societal impacts of networked systems
+  * T31.G8.02: Understand AI service network requirements
 
 
 - **Short name:** Protect AI services and user data
@@ -281,11 +277,8 @@ _Dependency:_
 ### T31.G8.04 – Implement privacy protection for AI data
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.03: Save and reload a preference using a cloud variable
-  * T31.G7.04: Compare centralized servers with peer-to-peer networks
   * T31.G7.05: Analyze societal impacts of networked systems
+  * T31.G8.03: Design secure AI-powered cloud systems
 
 
 - **Short name:** Protect AI inputs and outputs
@@ -297,11 +290,8 @@ _Dependency:_
 ### T31.G8.05 – Evaluate AI service resilience and fallbacks
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.03: Save and reload a preference using a cloud variable
-  * T31.G7.04: Compare centralized servers with peer-to-peer networks
-  * T31.G7.05: Analyze societal impacts of networked systems
+  * T31.G8.02: Understand AI service network requirements
+  * T31.G8.03: Design secure AI-powered cloud systems
 
 
 - **Short name:** What happens if AI services fail?
@@ -313,11 +303,8 @@ _Dependency:_
 ### T31.G8.06 – Build AI service monitoring and ethics dashboards
 
 _Dependency:_
-  * T31.G5.01: Trace how a device reaches an online service
-  * T31.G5.02: Decide when apps need the internet vs work offline
-  * T31.G5.03: Save and reload a preference using a cloud variable
-  * T31.G7.04: Compare centralized servers with peer-to-peer networks
-  * T31.G7.05: Analyze societal impacts of networked systems
+  * T31.G8.04: Implement privacy protection for AI data
+  * T31.G8.05: Evaluate AI service resilience and fallbacks
 
 
 - **Short name:** Monitor AI usage and ethical compliance

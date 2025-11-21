@@ -55,6 +55,7 @@ _Dependency:_
 
 _Dependency:_
   * T01.GK.01: Put pictures in order for getting ready for bed
+  * T26.GK.03: Capture yes/no answers with smile/frown cards
 
 
 - **Short name:** Ask classmates and mark answers
@@ -134,6 +135,18 @@ _Dependency:_
 - **Challenge format:** Concept explanation. Auto-grading looks for mention of variety or fairness.
 - **CSTA:** E2‑DAA‑DF‑01.
 
+### T26.G2.05 – Conduct a multi-response tally survey
+
+_Dependency:_
+  * T26.G2.04: Explain why sample size matters
+  * T01.G1.01: Put pictures in order to plant a seed
+
+
+- **Short name:** Tally survey with 4+ choices
+- **Description:** Students run an unplugged survey with four or more answer choices (e.g., "What's your favorite season?"), practicing tally marks and organizing more complex response categories before learning coded surveys.
+- **Challenge format:** Concept. Auto-grading checks that tally chart has 4+ options, marks are correctly counted, and totals match the number of respondents.
+- **CSTA:** E2‑DAA‑DF‑01.
+
 ---
 
 ## Grade 3
@@ -151,7 +164,7 @@ _Dependency:_
 - **Challenge format:** Coding. Auto-grading runs the script with sample answers and checks the list contents.
 - **CSTA:** E3‑PRO‑DH‑02.
 
-### T26.G3.02 – Design unbiased multiple-choice options
+### T26.G3.02 – Write fair survey questions
 
 _Dependency:_
   * T26.G3.01: Script a CreatiCode survey loop
@@ -159,15 +172,15 @@ _Dependency:_
   * T09.G3.01: Create and use a numeric variable for score or count
 
 
-- **Short name:** Avoid leading answers
-- **Description:** Learners critique sample questions (“Don’t you love cats?”) and rewrite them with neutral wording and balanced choices.
-- **Challenge format:** Concept editing. Auto-grading ensures rewrites include neutral phrasing and symmetrical options.
-- **CSTA:** E3‑DAA‑DF‑01, CAS‑ET.
+- **Short name:** Write fair survey questions
+- **Description:** Learners compare two survey questions—one that suggests an answer ("Don't you love cats?") and one that lets anyone answer honestly ("Do you like cats, dogs, or neither?")—and practice writing questions that give fair choices for everyone.
+- **Challenge format:** Concept editing. Auto-grading checks that rewritten questions offer balanced choices without suggesting a "right" answer.
+- **CSTA:** E3‑DAA‑DF‑01.
 
 ### T26.G3.03 – Log sensor-style events with counters
 
 _Dependency:_
-  * T26.G3.02: Design unbiased multiple-choice options
+  * T26.G3.01: Script a CreatiCode survey loop
   * T08.G3.01: Use a simple if in a script
   * T09.G3.01: Create and use a numeric variable for score or count
 
@@ -188,6 +201,18 @@ _Dependency:_
 - **Short name:** Keep an untouched log list
 - **Description:** Learners maintain two structures: a raw list of answers and a summary list of counts, emphasizing why we never overwrite raw data.
 - **Challenge format:** Coding + explanation. Auto-grading checks both lists exist and reflections mention backup/raw data.
+- **CSTA:** E3‑DAA‑DF‑01.
+
+### T26.G3.05 – Spot common data collection mistakes
+
+_Dependency:_
+  * T26.G3.04: Separate raw data from summary data
+  * T08.G3.01: Use a simple if in a script
+
+
+- **Short name:** Find collection errors
+- **Description:** Students review sample data sets containing common mistakes (missing entries, inconsistent spelling, duplicate records) and identify what went wrong, preparing them to track invalid data in G4.
+- **Challenge format:** Concept. Auto-grading checks that students correctly identify at least 3 types of collection mistakes and suggest how to prevent them.
 - **CSTA:** E3‑DAA‑DF‑01.
 
 ---
@@ -280,8 +305,8 @@ _Dependency:_
 
 
 - **Short name:** Decide who/when to collect from
-- **Description:** Learners compare convenience, random, and stratified sampling for a class poll and document which they’ll use and why.
-- **Challenge format:** Concept writing. Auto-grading checks selection along with rationale referencing fairness/bias.
+- **Description:** Learners compare convenience sampling (asking whoever is nearby) vs random sampling (using a method to pick people fairly) for a class poll and document which they'll use and why.
+- **Challenge format:** Concept writing. Auto-grading checks selection along with rationale referencing fairness.
 - **CSTA:** E5‑DAA‑DF‑01.
 
 ### T26.G5.03 – Validate data entry with error checks
@@ -363,7 +388,7 @@ _Dependency:_
 - **Challenge format:** Coding + ethics. Auto-grading toggles consent responses to ensure logging obeys settings.
 - **CSTA:** MS‑CAS‑ET‑06.
 
-### T26.G6.04 – Capture measurement error estimates
+### T26.G6.04 – Note when measurements might be inaccurate
 
 _Dependency:_
   * T08.G3.01: Use a simple if in a script
@@ -373,9 +398,9 @@ _Dependency:_
   * T26.GK.03: Capture yes/no answers with smile/frown cards
 
 
-- **Short name:** Log +/- tolerance alongside values
-- **Description:** Learners add extra columns (value ± error) when recording measurements, teaching them to note uncertainty.
-- **Challenge format:** Concept + coding. Auto-grading checks tables for error columns and reflections about why uncertainty matters.
+- **Short name:** Flag uncertain measurements
+- **Description:** Learners add a "confidence" or "notes" column when recording measurements to indicate when values might be less accurate (e.g., "rushed measurement," "hard to see," "estimated"), teaching them to think about data quality.
+- **Challenge format:** Concept + coding. Auto-grading checks tables for notes columns and reflections about why noting uncertainty matters.
 - **CSTA:** MS‑DAA‑DF‑03.
 
 ---

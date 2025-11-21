@@ -1,0 +1,211 @@
+================================================================================
+AI MEDIA BLOCKS - QUICK REFERENCE TABLE
+================================================================================
+
+TEXT-TO-SPEECH BLOCKS
+================================================================================
+
+Block ID: ai_speakinlanguage
+Syntax: say [TEXT] in [LANGUAGE v] as [VOICETYPE v] speed (SPEEDRATIO) pitch (PITCHRATIO) volume (VOLUMERATIO) store sound as [SOUNDNAME]
+API: Microsoft Azure Text-to-Speech
+
+Block ID: ai_stopspeaking
+Syntax: stop speaking
+API: N/A
+
+
+SPEECH RECOGNITION BLOCKS (MICROSOFT AZURE)
+================================================================================
+
+Block ID: ai_startspeech
+Syntax: start recognizing speech in [LANGUAGE v] record as [SOUNDNAME]
+API: Microsoft Azure Speech Recognition
+
+Block ID: ai_startrecognizer
+Syntax: start continuous speech recognition in [LANGUAGE v] into list [LISTNAME v]
+API: Microsoft Azure Speech Recognition
+
+Block ID: ai_stoprecognizer
+Syntax: stop continuous speech recognition
+API: N/A
+
+
+SPEECH RECOGNITION BLOCKS (OPENAI WHISPER)
+================================================================================
+
+Block ID: ai_startopenaispeech
+Syntax: OpenAI: start recognizing speech in [LANGUAGE v] record as [SOUNDNAME]
+API: OpenAI Whisper API
+
+
+SPEECH RECOGNITION UTILITIES
+================================================================================
+
+Block ID: ai_endspeech
+Syntax: end speech recognition
+API: Microsoft Azure or OpenAI Whisper (depending on start block)
+
+Block ID: ai_textfromspeech
+Syntax: text from speech
+API: N/A (Reporter block)
+
+Block ID: ai_clearspeech
+Syntax: clear speech text
+API: N/A
+
+
+IMAGE GENERATION BLOCKS (DALL-E)
+================================================================================
+
+Block ID: ai_openaiimagereporter
+Syntax (Reporter): OpenAI DALL-E: generate image with request [DESCRIPTION] resolution [RESOLUTION v]
+Syntax (Command): OpenAI DALL-E: generate costume image name [IMAGE_NAME] description [DESCRIPTION] with resolution [RESOLUTION v]
+API: OpenAI DALL-E API
+Resolutions: 256x256, 512x512, 1024x1024
+
+
+CONTENT MODERATION BLOCKS
+================================================================================
+
+Block ID: getmoderationresult
+Syntax: get moderation result for [TEXT]
+API: AI Moderation (Text)
+Returns: Pass or Fail
+
+Block ID: getmoderationresult2
+Syntax: get moderation result for image at URL [INPUT]
+API: AI Moderation (Image)
+Returns: Pass or Fail
+
+Block ID: getmoderationresult3
+Syntax: get moderation result for costume named [INPUT]
+API: AI Moderation (Image)
+Returns: Pass or Fail
+
+
+OTHER AI MEDIA BLOCKS
+================================================================================
+
+Block ID: ai_xoimagereporter
+Syntax: search for AI image of [TYPE v] with query [QUERY]
+Types: Object, Character, Backdrop
+API: AI Image Library (XO)
+
+Block ID: attachimagetochat
+Syntax: attach costume [COSTUMENAME] to chat
+API: ChatGPT Integration
+
+Block ID: googlesearch
+Syntax: web search [QUERY] store top (K) in table [TABLE v]
+API: Web Search
+Returns: Table with columns: title, link, snippet
+
+
+================================================================================
+KEY PARAMETERS AND DROPDOWNS
+================================================================================
+
+LANGUAGE DROPDOWN OPTIONS (for speech blocks):
+- English (United States)
+- English (United Kingdom)
+- English
+- Spanish (Spain)
+- Spanish (US)
+- Spanish, Castilian
+- French (France)
+- French
+- German (Germany)
+- German
+- Chinese (Mandarin, Simplified)
+- Chinese (Taiwanese Mandarin)
+- Chinese (Cantonese, Traditional)
+- Japanese (Japan)
+- Japanese
+- Korean (Korea)
+- Korean
+- Hindi (India)
+- Hindi
+- Danish (Denmark)
+- Filipino (Philippines)
+- Finnish (Finland)
+- Greek (Greece)
+- Hungarian (Hungary)
+- Indonesian (Indonesia)
+- Irish (Ireland)
+- Italian (Italy)
+- Javanese (Indonesia)
+- Arabic (Algeria)
+... and many more
+
+VOICETYPE OPTIONS (for text-to-speech):
+- Male
+- Female
+- Male2
+- Female2
+- Male3
+- Female3
+- Boy
+- Girl
+
+RESOLUTION OPTIONS (for DALL-E):
+- 256x256
+- 512x512
+- 1024x1024
+
+IMAGE TYPE OPTIONS (for AI image search):
+- Object
+- Character
+- Backdrop
+
+
+================================================================================
+SKILL MAPPING FOR T21
+================================================================================
+
+T21.G5.02 - OpenAI DALL-E: generate costume image
+  ✓ Block: ai_openaiimagereporter
+  ✓ Syntax: OpenAI DALL-E: generate costume image name [IMAGE_NAME] description [DESCRIPTION] with resolution [RESOLUTION v]
+
+T21.G5.03 - say [TEXT] in [LANGUAGE] as [VOICETYPE] speed () pitch () volume ()
+  ✓ Block: ai_speakinlanguage
+  ✓ Syntax: say [TEXT] in [LANGUAGE v] as [VOICETYPE v] speed (SPEEDRATIO) pitch (PITCHRATIO) volume (VOLUMERATIO) store sound as [SOUNDNAME]
+
+T21.G6.05 - Speech Recognition
+  ✓ Block: ai_startspeech (Microsoft Azure)
+  ✓ Block: ai_startopenaispeech (OpenAI Whisper)
+  ✓ Block: ai_startrecognizer (Continuous, Microsoft Azure)
+
+T21.G6.06 - Content Moderation
+  ✓ Block: getmoderationresult (Text moderation)
+
+T21.G6.07 - Image Moderation
+  ✓ Block: getmoderationresult2 (Image URL)
+  ✓ Block: getmoderationresult3 (Costume image)
+
+
+================================================================================
+FEATURES & CUSTOMIZATION
+================================================================================
+
+TEXT-TO-SPEECH CUSTOMIZATION:
+- Speed: Percentage value (e.g., 100% = normal speed)
+- Pitch: Percentage value (e.g., 100% = normal pitch)
+- Volume: Percentage value (e.g., 100% = normal volume)
+- Optional: Store as sound clip for later playback
+
+SPEECH RECOGNITION VARIANTS:
+- Single recognition: Record once and get full text
+- Continuous recognition: Stream real-time recognition results into a list
+- Optional: Store recorded audio as sound clip
+
+IMAGE GENERATION:
+- Reporter mode: Returns URL of generated image
+- Command mode: Generates and saves as costume directly
+- Three resolution options for different use cases
+
+CONTENT MODERATION:
+- Text moderation: Check for inappropriate content
+- Image URL moderation: Check images from URLs
+- Local image moderation: Check costumes from project
+
+================================================================================
