@@ -65,8 +65,8 @@ async function runAllScripts() {
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   // Number of iterations for each phase
-  const TOPIC_ITERATIONS = 2; // 2 iterations as requested
-  const GRADE_ITERATIONS = 2; // 2 iterations for grade-level checking
+  const TOPIC_ITERATIONS = 3; // 3 iterations as requested
+  const GRADE_ITERATIONS = 3; // 3 iterations for grade-level checking
 
   console.log("===========================================");
   console.log("Starting Two-Phase Optimization Strategy");
@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 5) continue;
+      if ( iteration == 0 && i < 14) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -123,8 +123,9 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
 
 2. **Skill Quality Checks**
    - Break down any skills that are too broad or complex
+   - The list of skills has to be comprehensive and scaffolded. You are encouraged to add missing skills to ensure proper scaffolding and knowledge coverage within the topic.
    - Skill description should be actionable, relatable to the target age group, easy to understand, and implementable
-   - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You should check the creaticode repos to verify this.
+   - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You should check the creaticode repos to verify this. For example, for 2D physics or 3D skills, you have to look into what blocks are offered and how they work to design meaningful skills around them. For 3D skills, you would have to start by how to initialize a 3D scene. For 2D physics, we have to enable the 2D physics engine first. Similar for widget category for app development, which are essential when developping AI apps. You also hav to check out other categories like AI, multiplayer, cloud, etc, when you work with related topics. You can search in this file to get all blocks in any category: /media/binyu/USB2/ScratchCopilot/blockdes8.txt
    - Ensure skill descriptions are concrete and assessable
    - Merge truly redundant skills within the topic (but be conservative)
    - When breaking down skills, use sub-IDs like ${topic.code}.G4.05.01, ${topic.code}.G4.05.02
@@ -184,6 +185,9 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
           } else {
             success = true;
             console.log(`✅ Completed topic ${topic.code}`);
+            // wait one minute
+            console.log(`⏳ Waiting 1 minute to avoid rate limits...`);
+            await waitWithCountdown(1);
           }
         } catch (error) {
           console.error(`\n❌ Error processing topic ${topic.code}:`, error.message.substring(0, 100));
@@ -305,7 +309,7 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
 
       let success = false;
       let retryCount = 0;
-      const maxRetries = 3;
+      const maxRetries = 30000000;
 
       while (!success && retryCount < maxRetries) {
         try {

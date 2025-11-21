@@ -5147,13 +5147,13 @@ Description: Students "play computer" by acting out or watching a character foll
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
-* T13.GK.01: Spot a missing or wrong action
+* T13.GK.01: Find which character got to the right place
 
 
 ID: T13.G1.01
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Identify where a step is wrong
-Description: Students look at a set of picture‑based steps that, when "played out" as a story, clearly go wrong (e.g., "jump before moving" when the intent is move‑then‑jump). They select or highlight the step that causes the problem without yet fixing everything.
+Description: Students look at a set of picture‑based steps that, when “played out” as a story, clearly go wrong (e.g., “jump before moving” when the intent is move‑then‑jump). They select or highlight the step that causes the problem without yet fixing everything.
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -5162,7 +5162,7 @@ Dependencies:
 ID: T13.G1.02
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Fix a sequence error in steps
-Description: Students reorder picture or word cards in a step list to fix a sequencing error that made a story or game behave strangely (for example, moving "say hello" so it happens after "walk to friend," or moving a "wait" picture to the correct position).
+Description: Students reorder picture or word cards in a step list to fix a sequencing error that made a story or game behave strangely (for example, moving “say hello” so it happens after “walk to friend,” or moving a “wait” picture to the correct position).
 
 Dependencies:
 * T01.GK.02: Put pictures in order for coming to class
@@ -5180,7 +5180,7 @@ Dependencies:
 ID: T13.G1.04
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Act out steps and say what went wrong
-Description: Students act out or watch a character follow a set of steps and then play "bug detective" by explaining (in words, pictures, or simple text) what did not match expectations or what is missing (e.g., "We forgot to open the paint before painting").
+Description: Students act out or watch a character follow a set of steps and then play “bug detective” by explaining (in words, pictures, or simple text) what did not match expectations or what is missing (e.g., "We forgot to open the paint before painting").
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -5225,55 +5225,16 @@ Dependencies:
 * T01.G1.09: Match an algorithm to its goal
 
 
-ID: T13.G3.01
-Topic: T13 – Testing, Debugging & Error Handling
-Skill: Test a simple block-based script
-Description: Students run a simple script (3-5 blocks) in CreatiCode and check if the sprite does what they expected. If not, they identify which block might be wrong by comparing the expected behavior to what actually happened.
-
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T13.G1.01: Identify where a step is wrong
-
-
-ID: T13.G3.02
-Topic: T13 – Testing, Debugging & Error Handling
-Skill: Fix a wrong block in a sequence
-Description: Students identify and replace a single incorrect block in a short script (e.g., "move 10 steps" should be "move 50 steps," or "turn right" should be "turn left") to make the program work correctly.
-
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T13.G1.02: Fix a sequence error in steps
-
-
-ID: T13.G3.03
-Topic: T13 – Testing, Debugging & Error Handling
-Skill: Debug a script with a missing block
-Description: Students identify where a block is missing in a script (e.g., forgot to add "point in direction" before moving, or missing a "say" block) and add it in the correct position.
-
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T13.G2.02: Trace a set of steps and predict behavior
-
-
-ID: T13.G3.04
-Topic: T13 – Testing, Debugging & Error Handling
-Skill: Try again and adjust when program doesn't work
-Description: Students practice the debugging cycle: run the program, observe what went wrong, make one change, and test again. They experience iteration as a normal part of programming.
-
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T13.G2.04: Add a simple check to see if steps worked
-
-
 ID: T13.G4.01
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Debug a conditional inside a loop
 Description: Students debug a program where a conditional statement inside a loop doesn't work as expected. The bug might be a wrong condition (e.g., `if touching color red` should be `if touching color blue`), a missing action, or the condition being checked at the wrong time.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
-* T13.G3.02: Fix a wrong block in a sequence
+* T13.GK.02: Try again when the steps don't work
 
 
 ID: T13.G4.02
@@ -5282,9 +5243,10 @@ Skill: Test edge cases in a simple condition
 Description: Students consider edge cases for a simple conditional program (e.g., "What happens if the sprite is exactly on the edge?" or "What if the score is 0?") and run the program with those inputs to see if it behaves correctly.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
-* T13.G3.01: Test a simple block-based script
+* T13.GK.02: Try again when the steps don't work
 
 
 ID: T13.G4.03
@@ -5293,9 +5255,10 @@ Skill: Create an alternative solution to the same problem
 Description: Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using different sprites), then test both versions on the same inputs to confirm they behave the same.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
-* T13.G3.04: Try again and adjust when program doesn't work
+* T13.GK.02: Try again when the steps don't work
 
 
 ID: T13.G4.04
@@ -5306,26 +5269,18 @@ Description: Students recognize that a `forever` or `repeat until` loop is stuck
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
-* T13.G3.02: Fix a wrong block in a sequence
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
-ID: T13.G4.05.01
+ID: T13.G4.05
 Topic: T13 – Testing, Debugging & Error Handling
-Skill: Create a simple test plan with test cases
-Description: Students write a simple test plan: a list of 3-5 different inputs they will try and what they expect to happen for each. This introduces the concept of systematic testing.
+Skill: Use systematic testing with multiple test cases
+Description: Students write or follow a simple test plan: a list of inputs and expected outputs. They run the program with each test case and check if results match expectations, recording passes and failures.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
-* T13.G3.01: Test a simple block-based script
-
-
-ID: T13.G4.05.02
-Topic: T13 – Testing, Debugging & Error Handling
-Skill: Run tests and record results
-Description: Students follow their test plan, run the program with each test case, and record whether each test passed (result matched expectation) or failed (result didn't match). They identify which cases need fixing.
-
-Dependencies:
-* T13.G4.05.01: Create a simple test plan with test cases
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G4.06
@@ -5334,8 +5289,9 @@ Skill: Compare two programs solving the same task
 Description: Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to test, debug, and reuse (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
-* T13.G4.03: Create an alternative solution to the same problem
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G4.07
@@ -5344,9 +5300,11 @@ Skill: Debug a complex loop with nested structures
 Description: Students debug a script containing nested loops or multiple conditionals (e.g., a loop inside a loop with a condition inside) where the bug affects the overall behavior. They identify the incorrect level or operator and fix it.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
-* T13.G4.01: Debug a conditional inside a loop
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G4.08
@@ -5355,17 +5313,19 @@ Skill: Document the steps you took to find and fix a bug
 Description: After finding and fixing a bug, students write a short explanation: what the bug was, what symptoms they saw, what they tried, and how they confirmed the fix worked. This metacognitive reflection reinforces debugging practice.
 
 Dependencies:
-* T13.G3.04: Try again and adjust when program doesn't work
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G5.01
 Topic: T13 – Testing, Debugging & Error Handling
 Skill: Debug programs using tracing and logging
-Description: Students intentionally add `say` blocks, a "debug helper" sprite, or output variables at key points in a program to trace the execution and reveal what's happening (variable values, which branch is taken, how many times a loop runs). They use this information to locate and fix bugs.
+Description: Students intentionally add `say` blocks, a “debug helper” sprite, or output variables at key points in a program to trace the execution and reveal what's happening (variable values, which branch is taken, how many times a loop runs). They use this information to locate and fix bugs.
 
 Dependencies:
 * T09.G3.01: Create and use a numeric variable for score or count
-* T13.G4.01: Debug a conditional inside a loop
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G5.02
@@ -5375,16 +5335,19 @@ Description: Students design a program that accepts user input and add checks to
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
-* T13.G4.02: Test edge cases in a simple condition
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G5.03
 Topic: T13 – Testing, Debugging & Error Handling
-Skill: Create and follow a comprehensive test plan
+Skill: Create and follow a test plan
 Description: Students design a test plan that lists multiple test cases (normal, boundary, and invalid inputs) for a program, then systematically run each test, record results, and document any failures.
 
 Dependencies:
-* T13.G4.05.02: Run tests and record results
+* T01.G3.01: Complete a simple script with missing blocks
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G5.04
@@ -5393,8 +5356,10 @@ Skill: Modify a program to improve reliability and correctness
 Description: Students take a working but fragile program (one that handles only happy-path cases) and refactor it to handle more edge cases, reduce duplication, or make it less error-prone. They test the improved version.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T13.G4.01: Debug a conditional inside a loop
-* T13.G5.02: Handle invalid or edge case input
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G6.01
@@ -5403,9 +5368,10 @@ Skill: Trace complex code with multiple variables
 Description: Students step through a program with multiple variables and complex logic, tracking how each variable changes at each step. They use a table or mental model to predict the final state and verify correctness.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
-* T13.G5.01: Debug programs using tracing and logging
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G6.02
@@ -5415,7 +5381,9 @@ Description: Students apply a structured debugging method: observe symptoms, for
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
-* T13.G5.01: Debug programs using tracing and logging
+* T13.G1.01: Identify where a step is wrong
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G6.03
@@ -5424,8 +5392,10 @@ Skill: Test code with boundary and invalid inputs
 Description: Students design and run tests that deliberately use boundary values (e.g., 0, negative numbers, very large numbers) and invalid inputs to ensure a program handles all cases without crashing or producing wrong results.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01: Create and use a numeric variable for score or count
-* T13.G5.02: Handle invalid or edge case input
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G6.04
@@ -5434,8 +5404,10 @@ Skill: Document known limitations and potential bugs
 Description: Students examine their program and document cases or inputs it doesn't handle correctly, potential future bugs, or design limitations. This self-aware documentation reflects mature debugging thinking.
 
 Dependencies:
-* T13.G4.08: Document the steps you took to find and fix a bug
-* T13.G5.04: Modify a program to improve reliability and correctness
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T13.G1.01: Identify where a step is wrong
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G7.01
@@ -5446,7 +5418,8 @@ Description: Students analyze an algorithm (e.g., finding the maximum in a list,
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Create and use a numeric variable for score or count
-* T13.G5.03: Create and follow a comprehensive test plan
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G7.02
@@ -5455,9 +5428,10 @@ Skill: Debug logic errors in complex programs
 Description: Students identify and correct logic errors in a program (bugs that don't crash the program but produce wrong results, such as off-by-one errors, incorrect operators, or wrong variable assignments). These are harder to spot than syntax errors.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Create and use a numeric variable for score or count
-* T13.G6.01: Trace complex code with multiple variables
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G7.03
@@ -5466,9 +5440,10 @@ Skill: Refactor for testability and clarity
 Description: Students refactor a program to reduce complexity, improve clarity, and make testing easier (e.g., breaking large scripts into smaller functions, naming variables clearly, removing duplicated code). They then verify the refactored version still works.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Create and use a numeric variable for score or count
-* T13.G5.04: Modify a program to improve reliability and correctness
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G7.04
@@ -5478,8 +5453,9 @@ Description: Students examine two or more designs for the same task, evaluate th
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
-* T13.G4.06: Compare two programs solving the same task
-* T13.G6.02: Use a systematic debugging process
+* T13.G5.01: Identify where a step is wrong
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G8.01
@@ -5490,7 +5466,8 @@ Description: Students design a test suite that explicitly covers all code paths 
 Dependencies:
 * T09.G6.01: Use variables to represent real‑world quantities
 * T13.G6.01: Trace complex code with multiple variables
-* T13.G7.01: Write comprehensive test cases for an algorithm
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G8.02
@@ -5502,6 +5479,8 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T08.G6.01: Use conditionals to control simulation steps
 * T13.G6.01: Trace complex code with multiple variables
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G8.03
@@ -5512,7 +5491,9 @@ Description: Students add error-handling logic (e.g., checking for valid input, 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T08.G6.01: Use conditionals to control simulation steps
-* T13.G6.03: Test code with boundary and invalid inputs
+* T13.G6.01: Trace complex code with multiple variables
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T13.G8.04
@@ -5523,13 +5504,15 @@ Description: Students review code (either their own or AI-generated) and conside
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Use variables to represent real‑world quantities
-* T13.G7.02: Debug logic errors in complex programs
+* T13.G6.01: Trace complex code with multiple variables
+* T13.GK.02: Try again when the steps don't work
+* T13.GK.03: Fix a single wrong direction or action in steps
 
 
 ID: T14.GK.01
 Topic: T14 – 2D Games
 Skill: Match controls to character actions
-Description: Students drag arrow key cards (up, down, left, right) or action button cards (jump, run) onto pictures showing the matching movement or reaction (up arrow → character jumps up, right arrow → character walks right). They learn that specific inputs lead to predictable actions in games.
+Description: Students drag arrow or button cards onto pictures showing the matching movement or reaction (tap jump button → character hops). They learn that inputs lead to predictable actions in games.
 
 
 
@@ -5546,7 +5529,7 @@ Dependencies:
 
 ID: T14.GK.03
 Topic: T14 – 2D Games
-Skill: Identify when a game starts and ends
+Skill: Recognize a game starting and ending
 Description: Students observe a simple game story with a clear beginning (Start screen) and ending (Game Over). They identify which pictures show the start, play, and end of the game.
 
 Dependencies:
@@ -5570,7 +5553,7 @@ Dependencies:
 ID: T14.G1.01
 Topic: T14 – 2D Games
 Skill: Identify the player, goal, and obstacles
-Description: In a labeled picture of a game level (maze, platformer, or board game), students point to and name: (1) the controllable character (marked with an arrow or labeled 'YOU'), (2) the goal object or location (flag, door, finish line), and (3) hazards that should be avoided (spikes, enemies, water).
+Description: In a picture of a game level (maze, platformer, board), students identify the controllable character, the goal, and the hazards that should be avoided.
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -5660,10 +5643,10 @@ Dependencies:
 ID: T14.G3.01
 Topic: T14 – 2D Games
 Skill: Move a sprite with arrow keys (4 directions)
-Description: Create scripts where pressing each arrow key (up/down/left/right) changes the sprite's x or y position by a consistent amount (e.g., 10 steps). Test that the sprite moves the same distance each time a key is pressed and can move smoothly in all four directions without getting stuck.
+Description: Create scripts where pressing up/down/left/right arrow keys changes the sprite’s x or y position, keeping motion smooth and repeatable.
 
 Dependencies:
-* T14.G2.04: Sequence a safe route
+* T14.G2.01: Understand turns and rounds
 * T01.G3.05: Replace repeated blocks with a repeat loop
 
 
@@ -5673,7 +5656,9 @@ Skill: Move a sprite with keys (2 directions)
 Description: Create scripts for platformer/paddle games where only left/right keys control the sprite and ensure speeds match on both sides.
 
 Dependencies:
+* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T07.G3.02: Trace a script with a simple loop
+* T14.G2.02: Track lives and game over conditions
 
 
 ID: T14.G3.03
@@ -5682,17 +5667,20 @@ Skill: Keep sprite on screen
 Description: Add logic to prevent the player from leaving the stage (use `if on edge, bounce` or explicit x/y checks) so losing never results from invisible space.
 
 Dependencies:
+* T14.G3.02: Move a sprite with keys (2 directions)
 * T08.G3.01: Use a simple if in a script
+* T14.G2.03: Recognize level progression
 
 
 ID: T14.G3.04
 Topic: T14 – 2D Games
 Skill: Detect touching a goal
-Description: Use `touching [Sprite]?` or `touching [Color]?` inside a forever loop to continuously check when the player reaches the goal. When collision is detected, broadcast a 'You Win' message and display a victory sprite or backdrop.
+Description: Use `touching [Sprite]?` or `touching [Color]?` inside a loop to detect when the player reaches the goal and trigger a win message.
 
 Dependencies:
+* T14.G3.03: Keep sprite on screen
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.G2.03: Recognize level progression
+* T14.G2.04: Sequence a safe route
 
 
 ID: T14.G3.05
@@ -5701,6 +5689,7 @@ Skill: Detect touching a hazard
 Description: Use collision checks with hazards (spikes, enemies) to reset the player to a safe position or broadcast a warning.
 
 Dependencies:
+* T14.G3.04: Detect touching a goal
 * T07.G3.03: Build a forever loop for simple animation
 * T08.G3.02: Decide when a single if is enough
 
@@ -5708,9 +5697,10 @@ Dependencies:
 ID: T14.G3.06
 Topic: T14 – 2D Games
 Skill: Create a start screen
-Description: Program a "Start" button sprite that hides itself and broadcasts `Start Game` when clicked.
+Description: Program a “Start” button sprite that hides itself and broadcasts `Start Game` when clicked.
 
 Dependencies:
+* T14.G3.05: Detect touching a hazard
 * T09.G3.02: Use a variable in a conditional (if block)
 * T06.G3.05: Trace a project with a single event and predict output
 
@@ -5721,6 +5711,7 @@ Skill: Switch to game mode
 Description: Program game objects to show and begin moving only after receiving `Start Game`, separating setup from play.
 
 Dependencies:
+* T14.G3.06: Create a start screen
 * T10.G3.01: Loop through and process each item in a list
 * T11.G3.01: Understand when to use custom blocks vs loops
 
@@ -5728,9 +5719,10 @@ Dependencies:
 ID: T14.G3.08
 Topic: T14 – 2D Games
 Skill: Trigger Game Over
-Description: Broadcast `Game Over` when losing conditions occur (lives reach zero, time runs out). Program all game sprites to stop their scripts and either hide or show a 'Game Over' message when they receive this broadcast.
+Description: Broadcast `Game Over` when losing conditions occur and have other sprites stop/hide when they get that message.
 
 Dependencies:
+* T14.G3.07: Switch to game mode
 * T12.G3.01: Write a comment explaining a complex block
 * T08.G3.03: Pick the right conditional block for a scenario
 
@@ -5741,6 +5733,7 @@ Skill: Add sound effects to actions
 Description: Insert `start sound` blocks into movement/interaction scripts to provide audio feedback.
 
 Dependencies:
+* T14.G3.08: Trigger Game Over
 * T09.G3.03: Debug missing or wrong variable updates
 * T07.G3.04: Use repeat‑until to reach a simple goal
 
@@ -5751,6 +5744,7 @@ Skill: Visual effects on interaction
 Description: Use graphic effects (color, brightness, ghost) to show when a player is hit or collects an item.
 
 Dependencies:
+* T14.G3.09: Add sound effects to actions
 * T11.G3.02: Use a pre‑made helper block with parameters
 * T08.G3.04: Trace code with a single if/else
 
@@ -5761,7 +5755,6 @@ Skill: Spawn a projectile
 Description: Use `create clone of [Bullet]` (or `myself`) to spawn a projectile when an input occurs.
 
 Dependencies:
-* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T06.G3.02: Build a key‑press script that controls a sprite
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
@@ -5772,10 +5765,9 @@ Dependencies:
 ID: T14.G4.02
 Topic: T14 – 2D Games
 Skill: Move a projectile
-Description: Program projectile clones to move forward continuously in their current direction until they hit a target (using touching detection) or reach the edge of the screen. Include logic to delete the clone or trigger an effect when collision occurs.
+Description: Program projectile clones to move forward continuously until they hit something.
 
 Dependencies:
-* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -5788,21 +5780,19 @@ Skill: Clean up projectiles
 Description: Delete clones when they touch an edge/target to prevent lag and bugs.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.04
 Topic: T14 – 2D Games
 Skill: Simple enemy movement
-Description: Program an enemy to move back and forth between two points (using glide blocks or directional movement) or bounce off edges in a pattern that repeats consistently. Students should be able to predict where the enemy will be at any given time.
+Description: Program an enemy to move between points or bounce off edges for predictable patrols.
 
 Dependencies:
-* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -5812,10 +5802,9 @@ Dependencies:
 ID: T14.G4.05
 Topic: T14 – 2D Games
 Skill: Chase the player
-Description: Use `point towards [Player]` and `move` blocks inside a forever loop to create a chaser enemy. Optionally add an if-statement to reduce movement speed when the distance to the player is less than a threshold, creating more challenging gameplay.
+Description: Use `point towards [Player]` and `move` to create a simple chaser that slows when close.
 
 Dependencies:
-* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
@@ -5829,12 +5818,11 @@ Skill: Create a Score variable
 Description: Create a global `Score` variable, initialize it, and change it when events happen.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.07
@@ -5843,13 +5831,12 @@ Skill: Create a Lives variable
 Description: Create a `Lives` variable, decrease it upon damage, and check for zero to trigger Game Over.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.08
@@ -5858,13 +5845,12 @@ Skill: Create a Timer
 Description: Use a variable and a loop with `wait (1) seconds` to create a countdown that drives win/loss conditions.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.09
@@ -5873,13 +5859,12 @@ Skill: Detect level complete
 Description: Check if a condition (Score threshold, touch door) is met to trigger the next level.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.10
@@ -5888,7 +5873,6 @@ Skill: Switch backdrops for levels
 Description: When `Next Level` is received, switch the backdrop and reset player position.
 
 Dependencies:
-* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
@@ -5902,13 +5886,12 @@ Skill: Add checkpoints
 Description: Store the player's last checkpoint coordinates in variables and restore them after hazards instead of warping all the way back.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.12
@@ -5917,7 +5900,6 @@ Skill: Temporary power-ups
 Description: Give the player a temporary effect (speed boost, shield) by toggling a variable and using a timer to turn it off.
 
 Dependencies:
-* T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -5931,12 +5913,11 @@ Skill: Pause and resume the game
 Description: Create a Pause button that broadcasts `Pause Game`, stops motion scripts, and resumes when `Resume Game` arrives.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G4.14
@@ -5945,22 +5926,20 @@ Skill: Reset on restart messages
 Description: Use `when I receive [Restart]` (or `Game Over`) to send every sprite back to a known costume, position, and visibility so repeats are consistent.
 
 Dependencies:
-* T14.G3.08: Trigger Game Over
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.01: Use a simple if in a script
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G5.01
 Topic: T14 – 2D Games
 Skill: **[Engine Skill]** Configure gravity and weight parameters
-Description: Experiment with the numeric value added to a `y velocity` variable each frame (e.g., change -2 by -0.5) inside a physics loop. Test different values to observe how they affect jump height and fall speed. Students learn to map specific gravity values (like -1, -2, -3) to visible game behaviors (low gravity = floaty jumps, high gravity = fast falls).
+Description: Adjust the amount added to a `y velocity` variable each frame using specific numeric values. Students learn to map gravity constants to measurable jump heights and movement behaviors.
 
 Dependencies:
-* T14.G4.01: Spawn a projectile
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 
@@ -5968,14 +5947,13 @@ Dependencies:
 ID: T14.G5.02
 Topic: T14 – 2D Games
 Skill: Control jump timing
-Description: Allow jumping only when the player is touching the ground (or within a short "coyote time") by checking sensors before setting `y velocity`.
+Description: Allow jumping only when the player is touching the ground (or within a short “coyote time”) by checking sensors before setting `y velocity`.
 
 Dependencies:
-* T14.G4.07: Create a Lives variable
 * T06.G3.02: Build a key‑press script that controls a sprite
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G5.03
@@ -5984,19 +5962,17 @@ Skill: Fix ground collisions
 Description: Prevent falling through floors by nudging the sprite up until it is no longer intersecting the ground or by snapping to the floor after a fall.
 
 Dependencies:
-* T14.G4.03: Clean up projectiles
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G5.04
 Topic: T14 – 2D Games
 Skill: Script viewport pans
-Description: Use `move viewport to x (XPOS) y (YPOS)` to position the camera at the start of a level or to smoothly slide the view during a non-playable intro sequence before gameplay begins. Students learn to control what the player sees.
+Description: Use `move viewport to x (XPOS) y (YPOS)` to place the camera at the start of a level or slide it during a cutscene before gameplay begins.
 
 Dependencies:
-* T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 
@@ -6007,10 +5983,9 @@ Skill: Lock viewport to the player
 Description: Call `lock viewport to sprite [Player]` so the stage follows the player automatically, noting how edges behave when the player reaches the map boundary.
 
 Dependencies:
-* T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G5.06
@@ -6019,10 +5994,9 @@ Skill: Pin HUD to the screen
 Description: Use `attach to viewport at x (XPOS) y (YPOS)` to place score, lives, and buttons relative to the viewport so they stay in the same spot even while the world scrolls.
 
 Dependencies:
-* T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G5.07
@@ -6031,7 +6005,6 @@ Skill: Spawn near the viewport
 Description: Combine `viewport x`/`viewport y` reporters with random offsets to spawn enemies just outside the camera so they enter smoothly instead of popping on the player.
 
 Dependencies:
-* T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 
@@ -6039,11 +6012,9 @@ Dependencies:
 ID: T14.G5.08
 Topic: T14 – 2D Games
 Skill: Timed waves
-Description: Use a repeat loop or custom block to spawn a set number of enemies every few seconds (using wait blocks). Track wave numbers in a variable and increase spawn count or enemy speed with each new wave to create escalating difficulty.
+Description: Use a loop or custom block to spawn a set number of enemies every few seconds, optionally adjusting difficulty each wave.
 
 Dependencies:
-* T14.G4.08: Create a Timer
-* T14.G4.02: Move a projectile
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 
@@ -6054,19 +6025,17 @@ Skill: High score list
 Description: Use a list to store the top scores, insert new scores in order, and display the list in a viewport-attached HUD sprite.
 
 Dependencies:
-* T14.G4.06: Create a Score variable
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G5.10
 Topic: T14 – 2D Games
 Skill: Inventory system
-Description: Track collected items ("Key", "Potion") in a list, check membership before allowing actions, and show collected icons near the HUD.
+Description: Track collected items (“Key”, “Potion”) in a list, check membership before allowing actions, and show collected icons near the HUD.
 
 Dependencies:
-* T14.G4.12: Temporary power-ups
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 
@@ -6074,10 +6043,9 @@ Dependencies:
 ID: T14.G6.01
 Topic: T14 – 2D Games
 Skill: Character state machine
-Description: Create a `State` variable with text values (Idle, Run, Jump, Fall). Use if-statements to check the current state before allowing actions - for example, only allow jumping when State = 'Idle' or 'Run', preventing double-jumps. Change the state variable and costume based on player actions.
+Description: Use a `State` variable (Idle, Run, Jump) to control animation and input handling, preventing conflicting actions such as double jumps.
 
 Dependencies:
-* T14.G4.13: Pause and resume the game
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6087,10 +6055,9 @@ Dependencies:
 ID: T14.G6.02
 Topic: T14 – 2D Games
 Skill: Hitbox separation
-Description: Create a simple rectangular sprite (called a 'collision box' or 'hitbox') that is hidden during gameplay. Use this sprite for detecting when the player touches walls or enemies, while a separate art sprite follows it and shows the visual character. This technique makes collision detection more accurate and easier to debug.
+Description: Use a simple rectangular sprite or clone for collision detection (hitbox) and have the art sprite follow it, enabling readable collisions.
 
 Dependencies:
-* T14.G5.03: Fix ground collisions
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6103,21 +6070,18 @@ Skill: Multi-layer HUD with viewport attachments
 Description: Attach multiple sprites to the viewport (score, minimap, buttons) and manage their layering so UI always sits above gameplay while remaining interactive.
 
 Dependencies:
-* T14.G5.06: Pin HUD to the screen
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01: Create and use a numeric variable for score or count
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G6.04
 Topic: T14 – 2D Games
 Skill: Stream level chunks with viewport reporters
-Description: Use `viewport x` and `viewport y` to track where the camera is positioned. Write scripts that create new game objects (platforms, enemies) when the camera gets close to them, and delete objects that are far behind the camera. This keeps your game running smoothly even with large levels.
+Description: Use `viewport x`/`viewport y` to determine which tiles or enemy sets should exist. Spawn new chunks just ahead of the camera and delete ones far behind to keep performance steady.
 
 Dependencies:
-* T14.G5.04: Script viewport pans
-* T14.G5.05: Lock viewport to the player
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6130,12 +6094,10 @@ Skill: Cinematic camera rails
 Description: Call `detach from viewport`, run scripted `move viewport` sequences for intro/outro scenes, then relock to the player once the cutscene ends.
 
 Dependencies:
-* T14.G5.04: Script viewport pans
-* T14.G5.05: Lock viewport to the player
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G6.06
@@ -6144,8 +6106,6 @@ Skill: Mode and pause manager
 Description: Maintain a `Game Mode` variable and gate scripts so physics, UI, and spawns only run in the appropriate mode (Play, Pause, Shop, Cutscene).
 
 Dependencies:
-* T14.G4.13: Pause and resume the game
-* T14.G6.01: Character state machine
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.05: Fix a loop that runs too many or too few times
 * T08.G3.05: Fix a condition that uses the wrong operator
@@ -6155,22 +6115,23 @@ Dependencies:
 ID: T14.G7.01
 Topic: T14 – 2D Games
 Skill: Spatial partitioning (grid)
-Description: Implement movement that snaps to a tile grid (e.g., each move is exactly 32 pixels). Create lists to store which grid positions (x,y coordinates) are occupied by walls or objects. Before moving, check the target grid position in your lists to determine if movement is allowed, enabling puzzle or turn-based RPG logic.
+Description: Implement movement that snaps to a tile grid (e.g., 32 px) and uses lists/tables to track which tiles are occupied, enabling puzzle/RPG logic.
 
 Dependencies:
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T08.G6.01: Use conditionals to control simulation steps
-* T09.G6.01: Use variables to represent real‑world quantities
-* T14.GK.03: Identify when a game starts and ends
+* T08.G5.01: Fix a condition that uses the wrong operator
+* T09.G5.01: Create and use a numeric variable for score or count
+* T14.GK.03: Recognize a game starting and ending
 * T14.GK.04: Match rewards to goals
 
 
 ID: T14.G7.02
 Topic: T14 – 2D Games
 Skill: Basic pathfinding
-Description: Create an enemy that moves toward the player using `point towards [Player]`, but when it hits a wall, add logic to try moving in alternative directions (up, down, left, right) until it finds a path around the obstacle. This basic pathfinding prevents enemies from getting stuck on corners.
+Description: Create an enemy that moves toward the player but slides along walls instead of getting stuck, using simple pathfinding or steering logic.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G6.05: Fix a loop that runs too many or too few times
 * T08.G5.01: Fix a condition that uses the wrong operator
 * T09.G5.01: Create and use a numeric variable for score or count
@@ -6179,28 +6140,19 @@ Dependencies:
 
 ID: T14.G7.03
 Topic: T14 – 2D Games
-Skill: Balanced enemy spawning
-Description: Create a list of enemy types with numbers representing how often each should appear (e.g., 'Grunt:70', 'Tank:30'). Write a script that randomly selects from this list, using the numbers to make common enemies appear more often than rare ones. Adjust the ratios as the level increases to change difficulty.
+Skill: Weighted spawn scheduler
+Description: Use a table/list of enemy types with weights and iterate through it to spawn diverse waves (e.g., 70% small, 30% tank) based on difficulty level.
 
 Dependencies:
-* T10.G5.01: Store and retrieve named data with a list
-* T07.G5.01: Loop over a list or range
-* T08.G5.01: Fix a condition that uses the wrong operator
-* T09.G5.01: Create and use a numeric variable for score or count
-* T14.G5.08: Timed waves
 
 
 
 ID: T14.G7.04
 Topic: T14 – 2D Games
-Skill: Monitor clone performance
-Description: Create a watcher to track how many clones exist at once. Test your game and observe if too many clones make it run slowly. Learn strategies to reduce clone count: reuse clones instead of creating new ones, delete clones that move off-screen, or limit how many can exist at once using a counter variable.
+Skill: Clone budget profiler
+Description: Track clone counts with watchers, measure frame rate, and refactor to reuse clones or throttle spawns when counts exceed a threshold.
 
 Dependencies:
-* T14.G4.01: Spawn a projectile
-* T14.G4.03: Clean up projectiles
-* T09.G5.01: Create and use a numeric variable for score or count
-* T12.G5.01: Explain code changes to a peer
 
 
 
@@ -6210,24 +6162,20 @@ Skill: Difficulty curves
 Description: Store difficulty targets in a list (speed, damage, spawn interval by level) and apply them when the player advances, ensuring ramped but fair gameplay.
 
 Dependencies:
-* T10.G5.01: Store and retrieve named data with a list
-* T14.G4.09: Detect level complete
-* T14.G4.10: Switch backdrops for levels
-* T09.G5.01: Create and use a numeric variable for score or count
 
 
 
 ID: T14.G8.01
 Topic: T14 – 2D Games
 Skill: Modular level loader
-Description: Create a system that reads a list of strings or table rows (e.g., "111000111") to generate level layouts via clones.
+Description: Create a system that reads a list of strings or table rows (e.g., “111000111”) to generate level layouts via clones.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variables
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Use variables to represent real‑world quantities
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G8.02
@@ -6238,14 +6186,14 @@ Description: Create a flexible particle system (explosions, smoke) where one spr
 Dependencies:
 * T07.G6.01: Trace nested loops with variables
 * T08.G6.01: Use conditionals to control simulation steps
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 * T14.GK.04: Match rewards to goals
 
 
 ID: T14.G8.03
 Topic: T14 – 2D Games
 Skill: Component-based entities
-Description: Design a flexible entity system where each sprite has a list of component tags (text values like 'CanTakeDamage', 'CanShoot', 'IsShopkeeper'). In your scripts, use if-statements to check if a sprite's list contains specific tags before activating behaviors. For example, only run damage logic if 'CanTakeDamage' is in the list. This enables modular, reusable game objects.
+Description: Store component tags (e.g., “CanTakeDamage”, “Shops”) in lists or tables per sprite and have scripts activate behaviors only when tags are present, enabling modularity.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
@@ -6257,24 +6205,24 @@ Dependencies:
 ID: T14.G8.04
 Topic: T14 – 2D Games
 Skill: Automated gameplay tests
-Description: Build a testing system that plays your game automatically using scripted inputs (simulate arrow key presses in sequence). Program it to check if win/lose conditions trigger correctly (e.g., 'Does game end when lives reach 0?'). Use broadcast messages to log what happened during the test and compare it to expected results before releasing your game to players.
+Description: Build a test harness that moves the player via scripted inputs, logs outcomes, and asserts that win/lose conditions trigger correctly before releasing a level.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variables
 * T08.G6.01: Use conditionals to control simulation steps
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 
 
 ID: T14.G8.05
 Topic: T14 – 2D Games
-Skill: Collect game statistics for balancing
-Description: Track and store player performance data in lists: how many times they die on each level, how long it takes to win, which power-ups they use most. After testing with multiple players, review this data to identify levels that are too hard or too easy. Adjust difficulty settings (enemy speed, obstacle count, time limits) based on the data to make your game fun and fair.
+Skill: Telemetry and balancing
+Description: Collect runtime stats (deaths per level, time-to-win) in lists, visualize them, and adjust difficulty knobs based on the data to keep the game fair.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variables
 * T08.G6.01: Use conditionals to control simulation steps
-* T14.GK.03: Identify when a game starts and ends
+* T14.GK.03: Recognize a game starting and ending
 * T14.GK.04: Match rewards to goals
 
 
