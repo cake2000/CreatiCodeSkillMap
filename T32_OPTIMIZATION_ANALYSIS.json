@@ -1,0 +1,730 @@
+{
+  "topic": "T32 - Cybersecurity & Digital Safety",
+  "total_skills": 43,
+  "grade_range": "K-8",
+  "analysis_date": "2025-11-22",
+
+  "high_priority_issues": [
+    {
+      "category": "Dependency Issues - X-2 Rule Violations",
+      "severity": "HIGH",
+      "issues": [
+        {
+          "skill_id": "T32.G3.02",
+          "issue": "Depends on T32.G3.01 (same grade) - should be reordered or dependency removed",
+          "current_deps": ["T32.G3.01"],
+          "recommendation": "Reorder skills: G3.02 should come after G3.01 in the grade sequence, or remove dependency if not essential"
+        },
+        {
+          "skill_id": "T32.G3.03",
+          "issue": "Depends on T32.G3.02 (same grade, later skill)",
+          "current_deps": ["T32.G3.02"],
+          "recommendation": "Valid progression within grade if ordered correctly"
+        },
+        {
+          "skill_id": "T32.G3.04",
+          "issue": "Depends on T32.G3.02 (same grade, earlier skill) and T32.G2.05 (grade-1)",
+          "current_deps": ["T32.G3.02", "T32.G2.05"],
+          "recommendation": "Valid dependency structure"
+        },
+        {
+          "skill_id": "T32.G4.01",
+          "issue": "Depends on T32.G3.01 (grade-1) and T32.G2.03 (grade-2) - exceeds X-2 rule",
+          "current_deps": ["T32.G3.01", "T32.G2.03"],
+          "recommendation": "VIOLATION: T32.G2.03 is from Grade 2, but this is Grade 4. Should only depend on G3 and G4 skills. Remove G2.03 dependency or add intermediate G3 skill."
+        },
+        {
+          "skill_id": "T32.G4.02",
+          "issue": "Depends on T32.G3.02 (grade-1) and T32.G2.01 (grade-2) - exceeds X-2 rule",
+          "current_deps": ["T32.G3.02", "T32.G2.01"],
+          "recommendation": "VIOLATION: T32.G2.01 is from Grade 2, but this is Grade 4. Remove G2.01 dependency or add intermediate skill."
+        },
+        {
+          "skill_id": "T32.G5.03.01",
+          "issue": "Depends on T32.G1.01 (grade-4 back) - severe X-2 violation",
+          "current_deps": ["T22.G5.02", "T21.G5.02", "T32.G1.01", "T32.G5.02"],
+          "recommendation": "CRITICAL VIOLATION: G1.01 is 4 grades back. Replace with G3 or G4 PII skill, or remove if covered by G5.02"
+        },
+        {
+          "skill_id": "T32.G6.05",
+          "issue": "Depends on T32.G5.06 (grade-1) but also references 'G6 cipher exploration' which should be self-referential",
+          "current_deps": ["T06.G5.01", "T10.G4.01", "T32.G5.06"],
+          "recommendation": "T10.G4.01 is grade-2 back (acceptable), but verify progression is clear"
+        },
+        {
+          "skill_id": "T32.G7.02",
+          "issue": "Dependencies span too wide (G5.01, G5.02, G6.02)",
+          "current_deps": ["T32.G5.01", "T32.G5.02", "T32.G6.02"],
+          "recommendation": "T32.G5.01 and G5.02 are grade-2 back - at the edge of acceptable. Consider consolidating through G6 skill."
+        },
+        {
+          "skill_id": "T32.G8.03",
+          "issue": "Depends on T24.G6.01 which is grade-2 back from G8",
+          "current_deps": ["T21.G6.04", "T22.G6.04", "T23.G6.03", "T24.G6.01", "T32.G6.01", "T32.G6.03", "T32.G7.04.01", "T32.G7.04.02"],
+          "recommendation": "T24.G6.01 is acceptable (grade-2), but having 8 dependencies is excessive. Consider consolidating."
+        }
+      ]
+    },
+    {
+      "category": "Skills Too Broad/Complex",
+      "severity": "HIGH",
+      "issues": [
+        {
+          "skill_id": "T32.G6.01",
+          "issue": "Covers FIVE different attack types (malware, phishing, DoS, MitM, SQL injection) in one skill",
+          "recommendation": "SPLIT into: (1) T32.G6.01.01 - Identify common malware types, (2) T32.G6.01.02 - Analyze phishing attacks, (3) T32.G6.01.03 - Understand network attacks (DoS, MitM), (4) T32.G6.01.04 - Recognize database vulnerabilities (SQL injection). Too complex for single skill."
+        },
+        {
+          "skill_id": "T32.G5.01",
+          "issue": "Covers four distinct social engineering tactics (phishing, pretexting, baiting, tailgating)",
+          "recommendation": "SPLIT into: (1) T32.G5.01.01 - Analyze digital social engineering (phishing, pretexting, baiting), (2) T32.G5.01.02 - Recognize physical security risks (tailgating, shoulder surfing)"
+        },
+        {
+          "skill_id": "T32.G8.03",
+          "issue": "Comprehensive audit covering security AND ethics across multiple AI topics - too broad",
+          "recommendation": "SPLIT into: (1) T32.G8.03.01 - Audit AI projects for security vulnerabilities, (2) T32.G8.03.02 - Audit AI projects for ethical concerns"
+        },
+        {
+          "skill_id": "T32.G6.02",
+          "issue": "Implements three distinct security features (password length check, password masking, rate limiting) in one skill",
+          "recommendation": "Consider splitting or ensure adequate time allocation. Could be: (1) T32.G6.02.01 - Validate password strength, (2) T32.G6.02.02 - Implement login security controls"
+        }
+      ]
+    },
+    {
+      "category": "Age-Appropriateness Issues",
+      "severity": "HIGH",
+      "issues": [
+        {
+          "skill_id": "T32.GK.03",
+          "issue": "Shows complex password with symbols (C@t!2o#3) to kindergarteners - too advanced",
+          "recommendation": "Simplify to picture-based comparison: short password (3 dots) vs long password (10 dots). Save symbol complexity for G1-G2."
+        },
+        {
+          "skill_id": "T32.G1.04",
+          "issue": "Requires reading comprehension of 'urgent language, misspellings' which may be too advanced for Grade 1",
+          "recommendation": "Focus on visual cues only for G1 (too many exclamation marks!!!, bright flashing colors, pictures of money/prizes)"
+        },
+        {
+          "skill_id": "T32.G3.01",
+          "issue": "MFA concept with 'two locks on a door' analogy is introduced but Grade 3 students haven't learned about authentication flows yet",
+          "recommendation": "Ensure prerequisite understanding of login process exists. Current deps don't establish this foundation."
+        },
+        {
+          "skill_id": "T32.G6.01",
+          "issue": "SQL injection and man-in-the-middle attacks are too advanced for Grade 6 understanding without database/networking knowledge",
+          "recommendation": "Move SQL injection to G7-G8, keep Grade 6 focused on malware, phishing, and DoS"
+        }
+      ]
+    },
+    {
+      "category": "K-2 Skills Not Picture-Based/Unplugged",
+      "severity": "HIGH",
+      "issues": [
+        {
+          "skill_id": "T32.GK.01",
+          "issue": "GOOD - Uses illustrated cards and physical bins (picture-based, unplugged)",
+          "recommendation": "No change needed - exemplary K skill"
+        },
+        {
+          "skill_id": "T32.GK.02",
+          "issue": "GOOD - Uses audio narration with scenario stories (appropriate for non-readers)",
+          "recommendation": "No change needed"
+        },
+        {
+          "skill_id": "T32.GK.03",
+          "issue": "GOOD - Uses visual representations of passwords",
+          "recommendation": "Simplify visuals as noted above, but concept is appropriate"
+        },
+        {
+          "skill_id": "T32.GK.04",
+          "issue": "GOOD - Picture cards with sorting activity (unplugged)",
+          "recommendation": "No change needed"
+        },
+        {
+          "skill_id": "T32.G1.01",
+          "issue": "GOOD - Categorization activity can be done with pictures/cards",
+          "recommendation": "No change needed"
+        },
+        {
+          "skill_id": "T32.G1.02",
+          "issue": "GOOD - Illustrated scenarios with audio narration and visual cues",
+          "recommendation": "No change needed"
+        },
+        {
+          "skill_id": "T32.G1.03",
+          "issue": "BORDERLINE - Requires sentence completion which may be too text-heavy for early G1",
+          "recommendation": "Add picture support: show scenarios as images where students point to consequences"
+        },
+        {
+          "skill_id": "T32.G1.04",
+          "issue": "GOOD - Visual 'cartoon pop-ups' with labeling activity",
+          "recommendation": "Ensure pop-ups are highly visual with minimal text"
+        },
+        {
+          "skill_id": "T32.G2.01",
+          "issue": "ACCEPTABLE - Uses template/guided activity but involves creating actual password (may need parent/teacher support)",
+          "recommendation": "Ensure this is scaffolded activity, not independent work"
+        },
+        {
+          "skill_id": "T32.G2.02",
+          "issue": "GOOD - Uses picture instructions (unplugged procedural activity)",
+          "recommendation": "No change needed"
+        },
+        {
+          "skill_id": "T32.G2.03",
+          "issue": "BORDERLINE - Discusses abstract concepts (kindness, uncomfortable situations)",
+          "recommendation": "Add visual scenarios/comic strips showing situations"
+        },
+        {
+          "skill_id": "T32.G2.04",
+          "issue": "CONCERN - 'List practices' requires writing/text generation which may be challenging for G2",
+          "recommendation": "Convert to matching activity: match pictures of good practices to their reasons"
+        },
+        {
+          "skill_id": "T32.G2.05",
+          "issue": "GOOD - Teacher-led scenarios with visual demonstrations",
+          "recommendation": "No change needed"
+        }
+      ]
+    },
+    {
+      "category": "Missing Prerequisites/Dependencies",
+      "severity": "HIGH",
+      "issues": [
+        {
+          "skill_id": "T32.G3.01",
+          "issue": "Introduces MFA but no prior skill establishes understanding of basic authentication/login process",
+          "recommendation": "Add T32.G2.06 - 'Explain purpose of usernames and passwords' to establish foundation"
+        },
+        {
+          "skill_id": "T32.G3.03",
+          "issue": "Uses CreatiCode sharing settings but no dependency on basic CreatiCode project creation",
+          "recommendation": "Add dependency on T01.G3.02 or similar CreatiCode fundamentals"
+        },
+        {
+          "skill_id": "T32.G5.04",
+          "issue": "Depends on T09.G3.01.04 (Display variable value) which is unrelated to backups - odd dependency",
+          "recommendation": "Remove T09.G3.01.04 dependency. Add dependency on T01 CreatiCode project skills instead"
+        },
+        {
+          "skill_id": "T32.G6.02",
+          "issue": "Implements password masking and login flows but no prior UI design skills in T32",
+          "recommendation": "Dependency on T16.G3.01 is correct, but consider adding T16.G4/G5 skills for more advanced UI"
+        },
+        {
+          "skill_id": "T32.G7.01",
+          "issue": "Depends on T06.G5.01 (event patterns) which is unrelated to encryption",
+          "recommendation": "Remove T06.G5.01 dependency - not relevant to cipher implementation"
+        },
+        {
+          "skill_id": "T32.G7.03",
+          "issue": "Depends on T07.G5.01 (counted repeat loop) but description doesn't show loops being used",
+          "recommendation": "Clarify why loop dependency exists or remove it"
+        }
+      ]
+    }
+  ],
+
+  "medium_priority_issues": [
+    {
+      "category": "Skills with Unclear/Non-Actionable Descriptions",
+      "severity": "MEDIUM",
+      "issues": [
+        {
+          "skill_id": "T32.G4.03",
+          "issue": "Students 'read an age-appropriate article' - no specifics on article type, format, or activity structure",
+          "recommendation": "Specify: 'Students read a teacher-curated 2-3 paragraph summary of a data breach incident (e.g., account passwords leaked from gaming site)'"
+        },
+        {
+          "skill_id": "T32.G5.02",
+          "issue": "'Simplified, teacher-reviewed summaries' is vague - unclear what students actually do",
+          "recommendation": "Provide clearer scaffolding: 'Students use a comparison template with categories: Data Collected, Data Use, Third-Party Sharing, User Rights'"
+        },
+        {
+          "skill_id": "T32.G5.06",
+          "issue": "Says 'alphabet substitution (A→D, B→E, etc.)' which is actually a shift cipher, not general substitution",
+          "recommendation": "Clarify: 'Using a Caesar shift cipher (shift by 3: A→D, B→E, C→F)' for accuracy"
+        },
+        {
+          "skill_id": "T32.G6.04",
+          "issue": "'Simplified bug bounty reports' - unclear what simplification means or where reports come from",
+          "recommendation": "Specify source and format: 'Students read teacher-adapted bug bounty stories (1-page summaries from HackerOne/Bugcrowd)'"
+        },
+        {
+          "skill_id": "T32.G7.02",
+          "issue": "'Teacher-provided or built in CreatiCode' - inconsistent, should specify which",
+          "recommendation": "If CreatiCode implementation exists, specify blocks. Otherwise, state 'teacher-provided calculator spreadsheet'"
+        },
+        {
+          "skill_id": "T32.G8.04",
+          "issue": "'Example scenario: School chatbot gives harmful advice' - only one example given, needs more structure",
+          "recommendation": "Add: 'Students choose from 3 scenarios: (1) Chatbot harmful advice, (2) Image generator creates inappropriate content, (3) Perception system falsely identifies student'"
+        }
+      ]
+    },
+    {
+      "category": "Duplicate or Overlapping Skills",
+      "severity": "MEDIUM",
+      "issues": [
+        {
+          "skill_id": "T32.G3.01 and T32.G4.04",
+          "issue": "Both cover MFA/2FA concept - G3.01 introduces with analogies, G4.04 explains prevention",
+          "recommendation": "Acceptable progression, but clarify distinction: G3.01='What is MFA', G4.04='Why MFA prevents attacks'. Ensure G4.04 adds substantive new content."
+        },
+        {
+          "skill_id": "T32.G1.04 and T32.G3.04",
+          "issue": "G1.04 covers scam pop-ups, G3.04 covers phishing messages - some overlap in 'spotting scams'",
+          "recommendation": "Acceptable - G1.04 is visual/simple, G3.04 uses checklist and is more systematic. Clarify G1.04 is 'obvious visual scams' vs G3.04 'deceptive text messages'"
+        },
+        {
+          "skill_id": "T32.GK.01 and T32.G1.01",
+          "issue": "Both cover identifying what's safe to share - significant overlap",
+          "recommendation": "Acceptable grade progression: GK uses simple categories (favorite color vs address), G1 introduces PII terminology and more examples. Could add to GK.01: 'introduce concept' and G1.01: 'name and categorize PII systematically'"
+        },
+        {
+          "skill_id": "T32.G5.03.01 and T32.G5.03.02",
+          "issue": "Could be combined - identifying PII and redacting it are closely related",
+          "recommendation": "Keep separate for clear learning progression, but ensure G5.03.01 focuses on identification/categorization and G5.03.02 focuses on techniques"
+        }
+      ]
+    },
+    {
+      "category": "Dependency Ordering Within Same Grade",
+      "severity": "MEDIUM",
+      "issues": [
+        {
+          "skill_id": "T32.G5.03.01, G5.03.02, G5.03.03",
+          "issue": "Three-part sequence (G5.03.01→G5.03.02, G5.03.01→G5.03.03) but G5.03.02 and G5.03.03 don't reference each other",
+          "recommendation": "Add dependency: T32.G5.03.03 should depend on G5.03.02 (understand redaction before implementing consent). Sequence: identify PII → redact → understand consent"
+        },
+        {
+          "skill_id": "T32.G7.04.01 and T32.G7.04.02",
+          "issue": "G7.04.02 depends on G7.04.01 (same grade, part of sequence)",
+          "recommendation": "Acceptable - clear progression from facial recognition to emotion detection"
+        }
+      ]
+    },
+    {
+      "category": "Missing Scaffolding Between Grades",
+      "severity": "MEDIUM",
+      "issues": [
+        {
+          "grade_range": "G2 to G3",
+          "issue": "G2 ends with basic password creation and device care. G3 jumps to MFA and website safety indicators. No intermediate skills on recognizing secure websites or understanding account security basics.",
+          "recommendation": "Add G2.06 - 'Recognize when websites ask for personal information' and G3.00 - 'Identify parts of a URL (domain name, path)' to bridge gap"
+        },
+        {
+          "grade_range": "G4 to G5",
+          "issue": "G4 covers data breaches and 2FA. G5 jumps to social engineering tactics. Missing bridge on basic security awareness.",
+          "recommendation": "Consider adding G4.05 - 'Recognize common security threats in daily digital activities' to connect breach awareness to threat identification"
+        },
+        {
+          "grade_range": "G5 to G6",
+          "issue": "G5 ends with encryption concepts (unplugged). G6 starts with categorizing cyber attacks. Gap in applying encryption understanding to practical scenarios.",
+          "recommendation": "Add G6.00 - 'Identify where encryption is used in everyday tools (HTTPS, messaging apps, device storage)' before attack categorization"
+        },
+        {
+          "grade_range": "G6 to G7",
+          "issue": "G6 covers attacks, login flows, and simple ciphers. G7 implements Caesar cipher and password cracking. Missing intermediate coding/string manipulation skills specific to security.",
+          "recommendation": "Ensure T10 (string manipulation) skills are mastered before G7. Dependencies already reference T10.G5.01 which is appropriate."
+        }
+      ]
+    },
+    {
+      "category": "Cross-Topic Dependency Concerns",
+      "severity": "MEDIUM",
+      "issues": [
+        {
+          "skill_id": "T32.G5.03.01",
+          "issue": "Depends on T22.G5.02, T21.G5.02 (AI topics) - creates tight coupling between AI and security topics",
+          "recommendation": "PRESERVE these dependencies (cross-topic are allowed), but note that students must complete AI projects before this security review. Consider making this an optional/enrichment skill if AI topics aren't completed."
+        },
+        {
+          "skill_id": "T32.G5.04",
+          "issue": "Depends on T09.G3.01.04 (variable monitor) which seems unrelated to file backup",
+          "recommendation": "Remove this dependency - displaying variables is unrelated to downloading/uploading project files"
+        },
+        {
+          "skill_id": "T32.G6.02",
+          "issue": "Requires T07, T08, T09, T10, T16 skills - high cross-topic complexity",
+          "recommendation": "Acceptable - secure login requires loops, conditionals, variables, strings, and UI. These are fundamental skills. PRESERVE dependencies."
+        },
+        {
+          "skill_id": "T32.G6.03",
+          "issue": "Depends on T21.G6.02, T22.G6.01, T23.G5.01 - requires extensive AI topic completion",
+          "recommendation": "PRESERVE but consider making this enrichment/optional. Label as 'AI Integration Skill' in curriculum guides."
+        },
+        {
+          "skill_id": "T32.G7.01",
+          "issue": "Depends on T06.G5.01 (event patterns) - unclear why events are needed for cipher",
+          "recommendation": "Remove T06.G5.01 dependency unless cipher uses events (description doesn't indicate this)"
+        },
+        {
+          "skill_id": "T32.G7.04.01 and G7.04.02",
+          "issue": "Depend on T23.G6.01 and T23.G6.02 (perception) - appropriate but creates sequencing constraint",
+          "recommendation": "PRESERVE - analyzing ethics of facial recognition requires understanding the technology. Mark as 'Requires T23 completion'"
+        },
+        {
+          "skill_id": "T32.G8.03",
+          "issue": "Depends on T21.G6.04, T22.G6.04, T23.G6.03, T24.G6.01 - requires all AI topics through grade 6",
+          "recommendation": "PRESERVE but make this a capstone/summative project. Too many dependencies for regular skill."
+        }
+      ]
+    }
+  ],
+
+  "low_priority_issues": [
+    {
+      "category": "Skills Could Be More Specific",
+      "severity": "LOW",
+      "issues": [
+        {
+          "skill_id": "T32.G2.03",
+          "issue": "Covers both 'unkind messages' (cyberbullying) and 'uncomfortable situations' (safety) in one skill",
+          "recommendation": "Consider splitting into G2.03a (respond to unkind behavior) and G2.03b (recognize uncomfortable/unsafe situations)"
+        },
+        {
+          "skill_id": "T32.G4.01",
+          "issue": "Covers three core areas of digital citizenship - could be more focused",
+          "recommendation": "Acceptable as overview skill, but could follow up with separate skills for each area in G5"
+        },
+        {
+          "skill_id": "T32.G8.01",
+          "issue": "Penetration testing checklist is provided but not detailed in description",
+          "recommendation": "Expand description to list specific test cases or reference where checklist is documented"
+        }
+      ]
+    },
+    {
+      "category": "Terminology Consistency",
+      "severity": "LOW",
+      "issues": [
+        {
+          "skill_id": "T32.G3.01 vs T32.G4.04",
+          "issue": "G3.01 uses 'MFA', G4.04 uses '2FA' - inconsistent terminology",
+          "recommendation": "Use 'MFA' consistently, or note that '2FA is a type of MFA' in G4.04"
+        },
+        {
+          "skill_id": "T32.G5.06 and T32.G6.05/G7.01",
+          "issue": "G5.06 says 'encryption', but G6.05/G7.01 correctly identify as 'cipher' - encryption is broader term",
+          "recommendation": "G5.06 should say 'encryption scrambles messages using ciphers' to be more precise"
+        },
+        {
+          "skill_id": "T32.G1.01",
+          "issue": "Uses 'PII' acronym which may not be introduced yet",
+          "recommendation": "Spell out on first use: 'Personally Identifiable Information (PII)'"
+        }
+      ]
+    },
+    {
+      "category": "Minor Description Improvements",
+      "severity": "LOW",
+      "issues": [
+        {
+          "skill_id": "T32.GK.04",
+          "issue": "Lists four specific examples - could be generalized for flexibility",
+          "recommendation": "Add 'such as' before examples to indicate these are samples, not exhaustive list"
+        },
+        {
+          "skill_id": "T32.G3.02",
+          "issue": "Says 'teacher-provided screenshots' - could students capture their own?",
+          "recommendation": "For safety, keep as teacher-provided, but note this in G4+ students could find examples with supervision"
+        },
+        {
+          "skill_id": "T32.G6.05",
+          "issue": "Lists specific blocks (letter, join, unicode) - good! But could reference official block names",
+          "recommendation": "Verify block names match CreatiCode exactly and add category (e.g., 'from Operators palette')"
+        },
+        {
+          "skill_id": "T32.G7.01",
+          "issue": "States 'NOT built-in encryption' - good clarification but could explain why",
+          "recommendation": "Add: 'using string manipulation blocks (NOT built-in encryption blocks) to understand how ciphers work internally'"
+        }
+      ]
+    }
+  ],
+
+  "missing_skills_and_gaps": [
+    {
+      "category": "Fundamental Concepts Not Covered",
+      "severity": "HIGH",
+      "missing_skills": [
+        {
+          "suggested_id": "T32.G2.06",
+          "skill": "Explain purpose of usernames and passwords",
+          "description": "Students learn that usernames identify who you are and passwords prove it's really you. They compare to name tags (public) and secret handshakes (private). They practice creating appropriate usernames that don't reveal personal information.",
+          "rationale": "Foundation needed before G3.01 introduces MFA. Currently jumps from 'passwords keep things safe' (GK.03) to 'MFA uses two locks' (G3.01) without explaining login process.",
+          "recommended_dependencies": ["T32.G2.01", "T32.G2.04"],
+          "placement": "Between G2.05 and G3.01"
+        },
+        {
+          "suggested_id": "T32.G4.05",
+          "skill": "Recognize security indicators in apps and games",
+          "description": "Students identify security features in apps they use: login screens, privacy settings, parental controls, report buttons. They explain why each feature helps keep them safe and when to use each one.",
+          "rationale": "Bridges G4 concepts (data breaches, MFA) to G5 social engineering by applying security awareness to familiar apps",
+          "recommended_dependencies": ["T32.G4.01", "T32.G4.04"],
+          "placement": "End of G4, before G5.01"
+        },
+        {
+          "suggested_id": "T32.G5.07",
+          "skill": "Understand difference between privacy and security",
+          "description": "Students distinguish between privacy (controlling who sees your data) and security (protecting data from unauthorized access). They analyze scenarios where privacy is violated without security breach (friend shares your photo) and security is breached affecting privacy (hacker steals passwords).",
+          "rationale": "Critical distinction not explicitly taught. Students mix up 'private' and 'secure' throughout K-8",
+          "recommended_dependencies": ["T32.G5.02", "T32.G5.06"],
+          "placement": "End of G5"
+        },
+        {
+          "suggested_id": "T32.G6.06",
+          "skill": "Identify where encryption is used in everyday digital life",
+          "description": "Building on G5.06 encryption concepts, students identify real-world uses: HTTPS websites (padlock icon), encrypted messaging apps (WhatsApp, Signal), device encryption (phone lock screen), encrypted backups. They explain what data each protects and when it's encrypted.",
+          "rationale": "Bridge between unplugged cipher activity (G5.06) and implementing ciphers (G6.05). Students need to see real applications.",
+          "recommended_dependencies": ["T32.G5.06", "T32.G6.01"],
+          "placement": "Between G6.01 and G6.05"
+        }
+      ]
+    },
+    {
+      "category": "Modern Security Topics Missing",
+      "severity": "MEDIUM",
+      "missing_skills": [
+        {
+          "suggested_id": "T32.G7.05",
+          "skill": "Understand public Wi-Fi security risks",
+          "description": "Students learn why public Wi-Fi is risky (unencrypted, man-in-the-middle attacks possible). They identify safe practices: avoid banking/passwords on public Wi-Fi, verify network name with staff, use VPN if available. They compare encrypted (secure) vs unencrypted (open) networks.",
+          "rationale": "Common real-world scenario not covered. Relevant to middle school students using devices outside home/school.",
+          "recommended_dependencies": ["T32.G6.01", "T32.G5.06"],
+          "placement": "Grade 7"
+        },
+        {
+          "suggested_id": "T32.G6.07",
+          "skill": "Recognize deepfakes and AI-generated misinformation",
+          "description": "Students learn that AI can generate fake images, videos, and audio that look/sound real. They examine examples and identify telltale signs (unnatural movements, wrong shadows, context clues). They discuss why verifying sources matters and how deepfakes can be misused.",
+          "rationale": "Increasingly important with AI advancement. Connects to T21 (image generation) and T22 (text generation).",
+          "recommended_dependencies": ["T21.G5.02", "T32.G5.01"],
+          "placement": "Grade 6"
+        },
+        {
+          "suggested_id": "T32.G8.05",
+          "skill": "Understand ransomware and data hostage scenarios",
+          "description": "Students learn how ransomware encrypts files and demands payment. They analyze prevention (backups, software updates, email caution) and response (never pay, restore from backup, report to authorities). They create backup and response plans for hypothetical ransomware attack on school project.",
+          "rationale": "Major modern threat not explicitly covered. G6.01 mentions 'ransomware' briefly but doesn't explain.",
+          "recommended_dependencies": ["T32.G7.03", "T32.G6.01"],
+          "placement": "Grade 8"
+        },
+        {
+          "suggested_id": "T32.G7.06",
+          "skill": "Evaluate security of IoT devices",
+          "description": "Students identify Internet of Things (IoT) devices (smart speakers, cameras, thermostats) and their security risks: default passwords, unencrypted data transmission, always-listening microphones. They list security checklist: change default passwords, update firmware, understand what data is collected.",
+          "rationale": "IoT security is increasingly relevant but not covered in current progression",
+          "recommended_dependencies": ["T32.G6.02", "T32.G5.02"],
+          "placement": "Grade 7"
+        }
+      ]
+    },
+    {
+      "category": "Scaffolding Gaps",
+      "severity": "MEDIUM",
+      "missing_skills": [
+        {
+          "suggested_id": "T32.G3.00",
+          "skill": "Identify parts of a URL and email address",
+          "description": "Students learn to read URLs (protocol, domain, path) and email addresses (username, @ symbol, domain). They practice identifying suspicious URLs (misspellings, wrong domains like googlle.com) and email addresses (random letters, suspicious domains).",
+          "rationale": "Foundation needed before G3.02 (website safety indicators) and G3.04 (phishing). Currently assumes URL literacy.",
+          "recommended_dependencies": ["T32.G2.05"],
+          "placement": "Beginning of G3, before G3.01"
+        },
+        {
+          "suggested_id": "T32.G4.00",
+          "skill": "Practice safe searching and website evaluation",
+          "description": "Students learn to use kid-safe search engines and evaluate website credibility: check About page, verify author, look for ads vs content, identify sponsored results. They compare trustworthy sites (official .gov, .edu) to questionable sites.",
+          "rationale": "Practical skill gap - students are searching online but not explicitly taught evaluation skills in security context",
+          "recommended_dependencies": ["T32.G3.02", "T32.G3.04"],
+          "placement": "Beginning of G4"
+        }
+      ]
+    },
+    {
+      "category": "Important Security Concepts Not Covered",
+      "severity": "MEDIUM",
+      "missing_skills": [
+        {
+          "suggested_id": "T32.G5.08",
+          "skill": "Understand software updates and patch management",
+          "description": "Students learn why software updates are important: fix security vulnerabilities, add new features, improve performance. They identify when to update (notifications, regular schedule) and practice checking for updates on classroom devices. They discuss why delaying updates increases risk.",
+          "rationale": "Critical security practice not taught. Students often dismiss update notifications without understanding importance.",
+          "recommended_dependencies": ["T32.G4.03", "T32.G4.04"],
+          "placement": "Grade 5"
+        },
+        {
+          "suggested_id": "T32.G6.08",
+          "skill": "Practice secure file sharing",
+          "description": "Students learn safe file-sharing practices: use school-approved platforms, check sharing permissions before sending, verify recipient before sharing sensitive files, use expiring links when available. They configure sharing settings in classroom tools (Google Drive, OneDrive) and explain why public links can be risky.",
+          "rationale": "Students share files constantly but security aspects aren't explicitly taught. Builds on T32.G3.03 CreatiCode sharing.",
+          "recommended_dependencies": ["T32.G3.03", "T32.G5.02"],
+          "placement": "Grade 6"
+        },
+        {
+          "suggested_id": "T32.G7.07",
+          "skill": "Recognize and respond to cyberbullying",
+          "description": "Students distinguish between conflict and cyberbullying (repeated, intentional harm using digital tools). They learn response strategies: don't respond, save evidence (screenshot), block sender, report to trusted adult/platform. They role-play bystander intervention (support victim, report) and discuss why silent witnesses enable bullying.",
+          "rationale": "G2.03 introduces 'unkind messages' but doesn't cover systematic cyberbullying. Grade 7 students need more sophisticated understanding.",
+          "recommended_dependencies": ["T32.G2.03", "T32.G4.01"],
+          "placement": "Grade 7"
+        }
+      ]
+    }
+  ],
+
+  "creaticode_feature_verification": [
+    {
+      "category": "Skills Requiring CreatiCode Block Verification",
+      "skills": [
+        {
+          "skill_id": "T32.G3.03",
+          "feature": "CreatiCode sharing panel and privacy settings",
+          "verification_needed": "Verify that CreatiCode has: (1) Project privacy settings (private/class/public), (2) Ability to invite specific users, (3) Permission verification",
+          "status": "NEEDS VERIFICATION",
+          "priority": "HIGH"
+        },
+        {
+          "skill_id": "T32.G5.04",
+          "feature": "Download/upload project files",
+          "verification_needed": "Verify that CreatiCode allows: (1) Downloading project as file, (2) Re-uploading saved project, (3) File format preservation",
+          "status": "NEEDS VERIFICATION",
+          "priority": "HIGH"
+        },
+        {
+          "skill_id": "T32.G6.02",
+          "feature": "String manipulation blocks for password validation",
+          "blocks_referenced": [
+            "string length block",
+            "text display/masking (password dots/asterisks)",
+            "counter variable",
+            "button enable/disable"
+          ],
+          "verification_needed": "Verify: (1) 'length of [string]' block exists, (2) Password masking is possible (or needs workaround), (3) Button state control exists, (4) Variables can count failed attempts",
+          "status": "NEEDS VERIFICATION",
+          "priority": "HIGH"
+        },
+        {
+          "skill_id": "T32.G6.05 and T32.G7.01",
+          "feature": "String manipulation blocks for cipher implementation",
+          "blocks_referenced": [
+            "letter [N] of [word]",
+            "join",
+            "unicode of [letter]",
+            "unicode [N] as letter"
+          ],
+          "verification_needed": "Verify all four blocks exist in CreatiCode with exact names/functionality described",
+          "status": "NEEDS VERIFICATION",
+          "priority": "CRITICAL"
+        },
+        {
+          "skill_id": "T32.G7.03",
+          "feature": "Table blocks for logging",
+          "blocks_referenced": [
+            "Create table with columns",
+            "Append row to table",
+            "Timestamp generation"
+          ],
+          "verification_needed": "Verify: (1) T12.G5.01 table blocks exist, (2) Timestamp can be generated/stored, (3) Tables can be protected/made read-only",
+          "status": "NEEDS VERIFICATION",
+          "priority": "HIGH"
+        },
+        {
+          "skill_id": "T32.G8.02",
+          "feature": "Role-based access control implementation",
+          "blocks_referenced": [
+            "Variables for storing roles",
+            "Conditional logic for permission checks",
+            "UI element visibility control"
+          ],
+          "verification_needed": "Verify: (1) Variables can store user roles, (2) Conditional blocks can control access, (3) UI elements can be shown/hidden based on conditions",
+          "status": "NEEDS VERIFICATION",
+          "priority": "MEDIUM"
+        }
+      ]
+    },
+    {
+      "category": "Skills Using CreatiCode UI Widgets",
+      "skills": [
+        {
+          "skill_id": "T32.G6.02",
+          "widgets_needed": [
+            "Text input widget (for password entry)",
+            "Button widget (for login)",
+            "Text display widget (for feedback)"
+          ],
+          "verification_needed": "Verify T16 UI widgets support: (1) Password input type or text masking, (2) Button enable/disable states, (3) Dynamic text updates",
+          "status": "NEEDS VERIFICATION",
+          "priority": "HIGH"
+        }
+      ]
+    },
+    {
+      "category": "Skills Referencing External CreatiCode Features",
+      "skills": [
+        {
+          "skill_id": "T32.G5.03.02",
+          "feature": "Image blurring or editing capabilities",
+          "verification_needed": "Can CreatiCode blur regions of images? Or does this need external tool? Description says 'image blurring techniques'",
+          "status": "NEEDS VERIFICATION",
+          "priority": "MEDIUM",
+          "alternative": "If not available in CreatiCode, change to 'use external image editor to blur faces before uploading to project'"
+        },
+        {
+          "skill_id": "T32.G7.02",
+          "feature": "Password cracking calculator",
+          "verification_needed": "Description says 'teacher-provided OR built in CreatiCode' - clarify which. If built in CreatiCode, specify blocks/implementation.",
+          "status": "NEEDS CLARIFICATION",
+          "priority": "MEDIUM",
+          "recommendation": "Change to 'teacher-provided calculator' unless CreatiCode implementation exists"
+        }
+      ]
+    }
+  ],
+
+  "summary_statistics": {
+    "total_high_priority_issues": 37,
+    "total_medium_priority_issues": 23,
+    "total_low_priority_issues": 11,
+    "skills_needing_splitting": 4,
+    "x_minus_2_violations": 5,
+    "missing_skills_identified": 13,
+    "creaticode_features_needing_verification": 8,
+    "skills_with_ai_dependencies": 8,
+    "k_2_skills_analyzed": 13,
+    "k_2_skills_needing_improvement": 3
+  },
+
+  "recommended_action_plan": {
+    "phase_1_critical_fixes": [
+      "Fix X-2 rule violations in T32.G4.01, G4.02, G5.03.01",
+      "Split T32.G6.01 into 4 separate skills (malware, phishing, network attacks, database attacks)",
+      "Verify CreatiCode string manipulation blocks (G6.05, G7.01) - CRITICAL for implementation",
+      "Add missing foundation skill T32.G2.06 (username/password purpose)",
+      "Simplify T32.GK.03 password visuals for kindergarten appropriateness"
+    ],
+    "phase_2_quality_improvements": [
+      "Split T32.G5.01 into digital and physical social engineering",
+      "Add missing scaffolding skills (G3.00 URL parts, G4.00 safe searching, G4.05 security indicators)",
+      "Clarify vague descriptions (G4.03 articles, G5.02 privacy policies, G6.04 bug bounty reports)",
+      "Remove irrelevant dependencies (T32.G5.04→T09.G3.01.04, T32.G7.01→T06.G5.01)",
+      "Verify CreatiCode project sharing features (G3.03) and backup capabilities (G5.04)"
+    ],
+    "phase_3_gap_filling": [
+      "Add modern security topics: deepfakes (G6.07), public Wi-Fi (G7.05), ransomware (G8.05), IoT security (G7.06)",
+      "Add missing foundational concepts: privacy vs security (G5.07), software updates (G5.08), secure file sharing (G6.08)",
+      "Add cyberbullying skill for G7 (G7.07)",
+      "Improve K-2 skills with more visual/hands-on activities (G1.03, G2.03, G2.04)"
+    ],
+    "phase_4_polish": [
+      "Standardize terminology (MFA vs 2FA, encryption vs cipher)",
+      "Add 'such as' to example lists for flexibility",
+      "Verify all cross-topic dependencies are essential and document why",
+      "Create teacher notes for skills requiring external resources (articles, videos, calculators)",
+      "Label AI-dependent skills as enrichment/optional for flexible sequencing"
+    ]
+  }
+}

@@ -15378,129 +15378,19 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 
 
-
-
-
-ID: T29.GK.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Recognize text vs pictures
-Description: Students sort cards showing text (words/letters), pictures, and numbers into separate groups, identifying text as "letters that make words we can read."
+ID: T29.G3.01
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Distinguish text data from numbers and pictures
+Description: Students sort cards showing words, sentences, numbers, and emojis to recognize text as a specific data type.
 
 Dependencies:
 (none)
 
 
-ID: T29.GK.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Identify letters in text
-Description: Given simple words (CAT, DOG, SUN), students point to individual letters and count how many letters are in each word, building awareness of text structure.
-
-Dependencies:
-* T29.GK.01: Recognize text vs pictures
-
-
-ID: T29.GK.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Recognize that text has meaning
-Description: Students match simple written words to pictures (matching "CAT" to cat picture), understanding that text represents things and carries meaning.
-
-Dependencies:
-* T29.GK.01: Recognize text vs pictures
-* T29.GK.02: Identify letters in text
-
-
-
-
-ID: T29.G1.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Sort words by first letter
-Description: Students organize word cards alphabetically by first letter (all A words together, all B words together), preparing for dictionary and lookup concepts.
-
-Dependencies:
-* T29.GK.03: Recognize that text has meaning
-
-
-ID: T29.G1.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Count words in a sentence
-Description: Given simple sentences written on strips, students count how many words are in each sentence by pointing to each word, distinguishing between letters and words.
-
-Dependencies:
-* T29.GK.03: Recognize that text has meaning
-
-
-ID: T29.G1.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Group words by category
-Description: Students sort word cards into concrete categories: animals, colors, actions, foods. They explain why each word belongs in its group.
-
-Dependencies:
-* T29.G1.02: Count words in a sentence
-
-
-ID: T29.G1.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Identify same words in different sentences
-Description: Given 2-3 simple sentences, students find and circle words that appear in multiple sentences, building pattern recognition for word matching.
-
-Dependencies:
-* T29.G1.02: Count words in a sentence
-
-
-
-
-ID: T29.G2.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Recognize text patterns (rhyming, repetition)
-Description: Students identify patterns in text such as rhyming words (cat/hat) or repeated words in a short poem, preparing for computational pattern matching.
-
-Dependencies:
-* T29.G1.04: Identify same words in different sentences
-
-
-ID: T29.G2.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Sort sentences by length
-Description: Students arrange sentence strips from shortest to longest by counting words in each, understanding that text can be measured and compared.
-
-Dependencies:
-* T29.G1.02: Count words in a sentence
-
-
-ID: T29.G2.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Distinguish sentences from word lists
-Description: Students identify which text is a complete sentence (has meaning, starts with capital, ends with period) versus a list of words, understanding text structure.
-
-Dependencies:
-* T29.G1.02: Count words in a sentence
-
-
-ID: T29.G2.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Find and replace words in sentences
-Description: Given a sentence and replacement instructions ("change 'cat' to 'dog'"), students rewrite the sentence with the new word, preparing for programmatic text manipulation.
-
-Dependencies:
-* T29.G2.03: Distinguish sentences from word lists
-* T29.G1.04: Identify same words in different sentences
-
-
-
-
-ID: T29.G3.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Distinguish text data from numbers and pictures
-Description: Students sort cards showing words, sentences, numbers, and emojis to recognize text as a specific data type. They discuss how computers store and process text differently from numbers.
-
-Dependencies:
-* T29.G2.04: Find and replace words in sentences
-
-
 ID: T29.G3.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Count word occurrences using variables
-Description: Learners build a script that counts how many times specific words appear in a short paragraph, storing counts in variables and displaying results using variable monitors.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Count word occurrences manually
+Description: Learners read a short paragraph and tally how many times specific words appear, building intuition for word frequency.
 
 Dependencies:
 * T29.G3.01: Distinguish text data from numbers and pictures
@@ -15508,50 +15398,49 @@ Dependencies:
 
 
 ID: T29.G3.03
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Group words by category (emotion, action, place)
-Description: Students categorize words into meaning-based groups and explain their reasoning, preparing for later metadata tagging and semantic understanding.
+Description: Students categorize words into meaning-based groups and explain their reasoning, preparing for later metadata tagging.
 
 Dependencies:
-* T29.G3.02: Count word occurrences using variables
+* T29.G3.02: Count word occurrences manually
 
 
 ID: T29.G3.04
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Explain why clean text helps AI helpers
-Description: Learners compare two sample prompts (one with typos/unclear phrasing vs clean text) and discuss how clarity affects AI responses, building responsible AI use habits.
+Description: Learners compare two sample prompts (typos vs clean) and discuss how clarity affects XO's responses.
 
 Dependencies:
 * T29.G3.03: Group words by category (emotion, action, place)
 
 
-
-
-ID: T29.G4.01.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Compare human vs AI summaries (conceptual)
-Description: Students read a short text, write their own 1-2 sentence summary, then read an AI-generated summary. They discuss what each summary includes and omits, understanding AI summarization as a conceptual tool.
+ID: T29.G4.01
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Compare a human summary to a computer summary
+Description: Use AI (ChatGPT) to generate summaries of text content, understanding how AI can condense information
 
 Dependencies:
 * T29.G3.04: Explain why clean text helps AI helpers
-
-
-ID: T29.G4.01.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Generate AI summaries using ChatGPT blocks
-Description: Students use CreatiCode's ChatGPT blocks to generate summaries of text content, experimenting with different prompt phrasings to improve summary quality.
-
-Dependencies:
-* T29.G4.01.01: Compare human vs AI summaries (conceptual)
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 
 
+ID: T29.G4.01b
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Access individual characters in text by position
+Description: Access and display specific characters from text using their position (index), understanding that positions start at 1
+
+Dependencies:
+* T29.G4.01: Compare a human summary to a computer summary
+* T07.G3.03: Trace code with simple loops to predict outcomes
+
+
 ID: T29.G4.02
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Use split and join blocks for text manipulation
-Description: Students write a script that takes a sentence, uses the split block to separate it on spaces, stores each word in a list, and uses join to reconstruct text. This is the foundational skill for all text processing.
+Description: Students write a script that takes a sentence, uses the split block to separate it on spaces, stores each word in a list, and uses join to reconstruct text.
 
 Dependencies:
 * T29.G3.04: Explain why clean text helps AI helpers
@@ -15561,346 +15450,237 @@ Dependencies:
 * T10.G3.03: Add and remove items from a list
 
 
-ID: T29.G4.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Access individual characters using "letter # of" operator
-Description: Students use Scratch's "letter # of" operator to access and display specific characters from text by their position (index starting at 1). They extract first letter, last letter, or specific positions.
+ID: T29.G4.02b
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Count characters and words in text
+Description: Use length of text block to count characters, and count words by splitting text on spaces
 
 Dependencies:
 * T29.G4.02: Use split and join blocks for text manipulation
+* T07.G3.03: Trace code with simple loops to predict outcomes
+
+
+ID: T29.G4.03
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Clean text: lowercase + remove punctuation
+Description: Learners build helper blocks that convert text to lowercase using the lowercase operator. For punctuation removal, they use a loop to check each character and keep only letters and spaces.
+
+Dependencies:
+* T29.G4.02: Use split and join blocks for text manipulation
+* T07.G3.03: Trace code with simple loops to predict outcomes
 * T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
 
 
 ID: T29.G4.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Count characters and words using "length of" and split
-Description: Students use Scratch's "length of" operator to count characters in text, and use split on spaces plus list length to count words. They compare the two counts and discuss the difference.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Count words and report the most frequent
+Description: Students iterate over the token list, keep counts in parallel lists/tables, and identify the most common word.
 
 Dependencies:
-* T29.G4.02: Use split and join blocks for text manipulation
+* T29.G4.03: Clean text: lowercase + remove punctuation
+* T07.G3.03: Trace code with simple loops to predict outcomes
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 
 
 ID: T29.G4.05
-Topic: T29 – Text Data & NLP Foundations
-Skill: Test if text includes, starts with, or ends with a pattern
-Description: Students use string comparison blocks (includes, starts with, ends with) to check if text contains specific patterns, useful for keyword detection and validation.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Highlight keywords in a paragraph
+Description: Learners write code that scans a paragraph and highlights (changes color) every time a keyword appears on the stage.
 
 Dependencies:
 * T29.G4.02: Use split and join blocks for text manipulation
-* T08.G3.01: Use a simple if in a script
-
-
-ID: T29.G4.06.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Convert text case using lowercase/uppercase operators
-Description: Learners build scripts that convert text to lowercase or uppercase using Scratch's case conversion operators, understanding case normalization for text comparison.
-
-Dependencies:
-* T29.G4.02: Use split and join blocks for text manipulation
-* T09.G3.05: Trace code with variables to predict outcomes
-
-
-ID: T29.G4.06.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Remove punctuation using replace or character filtering
-Description: Students use the replace block to remove common punctuation marks, or loop through characters to keep only letters and spaces. This builds on case conversion for full text cleaning.
-
-Dependencies:
-* T29.G4.06.01: Convert text case using lowercase/uppercase operators
-* T07.G3.03: Trace code with simple loops to predict outcomes
-* T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G4.07
-Topic: T29 – Text Data & NLP Foundations
-Skill: Extract substrings and find text position
-Description: Students use "substring from position" operations (combining "letter # of" in loops or using split/join creatively) to extract parts of text. They find the position of specific text within strings.
-
-Dependencies:
-* T29.G4.03: Access individual characters using "letter # of" operator
-* T07.G3.03: Trace code with simple loops to predict outcomes
-
-
-ID: T29.G4.08
-Topic: T29 – Text Data & NLP Foundations
-Skill: Count words and report the most frequent
-Description: Students iterate over a word list (from split), keep counts in parallel lists or table, and identify the most common word. They handle the full frequency analysis pipeline.
-
-Dependencies:
-* T29.G4.06.02: Remove punctuation using replace or character filtering
-* T07.G3.03: Trace code with simple loops to predict outcomes
-* T08.G3.01: Use a simple if in a script
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G4.09
-Topic: T29 – Text Data & NLP Foundations
-Skill: Highlight keywords in text display
-Description: Learners write code that scans a paragraph, finds keyword positions using split and includes, and displays the text with visual highlighting (color changes on sprites or text display blocks).
-
-Dependencies:
-* T29.G4.05: Test if text includes, starts with, or ends with a pattern
 * T07.G3.03: Trace code with simple loops to predict outcomes
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
 
 
 ID: T29.G5.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Design table schemas for text data (chat logs)
-Description: Students design table schemas for storing chat logs or messages, defining columns for timestamp, speaker, message text, and metadata. They sketch the structure before implementation.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Structure chat logs into tables
+Description: Students design table schemas for XO chats or multiplayer messages, ensuring each row records metadata needed for later filtering.
 
 Dependencies:
 * T29.G4.02: Use split and join blocks for text manipulation
-* T29.G4.08: Count words and report the most frequent
+* T29.G4.04: Count words and report the most frequent
 
 
-ID: T29.G5.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Populate data tables from text using split
-Description: Students implement their table schemas, using split operations to parse text data into table rows and columns. They populate tables with actual chat or message data.
+ID: T29.G5.01b
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Create and populate data tables from text
+Description: Create tables with rows and columns from text data, using split operations to organize information
 
 Dependencies:
-* T29.G5.01: Design table schemas for text data (chat logs)
-* T11.G5.01: Create and populate a table
+* T29.G5.01: Structure chat logs into tables
 * T08.G4.02: Write scripts combining sequencing, loops, and conditionals
 
 
-ID: T29.G5.03
-Topic: T29 – Text Data & NLP Foundations
+ID: T29.G5.02
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Build stop-word filters and keyword lists
-Description: Learners create a table of stop-words (common words like "the", "a", "is") and filter them out before running frequency counts to focus on meaningful words.
+Description: Learners maintain a stop-word list and filter it out before running frequency counts to focus on meaningful words.
 
 Dependencies:
-* T29.G4.08: Count words and report the most frequent
-* T11.G5.01: Create and populate a table
+* T29.G4.04: Count words and report the most frequent
+* T29.G4.05: Highlight keywords in a paragraph
 
 
-ID: T29.G5.04.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Create positive/negative sentiment word lists
-Description: Students build tables of positive words (happy, great, love) and negative words (sad, bad, hate), preparing for simple sentiment analysis.
-
-Dependencies:
-* T29.G5.03: Build stop-word filters and keyword lists
-* T11.G5.01: Create and populate a table
-
-
-ID: T29.G5.04.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Score text using sentiment word lists
-Description: Students count matches between text and positive/negative word lists, calculate a sentiment score, and note in reflection that this heuristic approach has limits (can't detect sarcasm, context).
+ID: T29.G5.03
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Measure simple sentiment heuristics
+Description: Students store positive/negative word lists and score sentences accordingly, noting in a reflection that the heuristic has limits.
 
 Dependencies:
-* T29.G5.04.01: Create positive/negative sentiment word lists
-* T08.G4.01: Choose actions based on user input or sensor values
+* T29.G4.04: Count words and report the most frequent
+* T29.G4.05: Highlight keywords in a paragraph
+
+
+ID: T29.G5.04
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Map story descriptions into AI prompt slots
+Description: Create dynamic prompts with variable slots (placeholders) that can be filled with different values to generate varied AI responses
+
+Dependencies:
+* T29.G5.01: Structure chat logs into tables
+* T29.G5.03: Measure simple sentiment heuristics
+* T29.G4.04: Count words and report the most frequent
+* T29.G4.05: Highlight keywords in a paragraph
 
 
 ID: T29.G5.05
-Topic: T29 – Text Data & NLP Foundations
-Skill: Build dynamic prompts with join and concatenation
-Description: Students create AI prompt templates with variable slots (placeholders) using join blocks. They fill slots with different values to generate varied prompts dynamically.
-
-Dependencies:
-* T29.G5.02: Populate data tables from text using split
-* T09.G4.04: Use variables to control animation or game state
-
-
-ID: T29.G5.06
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Use the analyze sentence block for parts of speech
-Description: Students use CreatiCode's "parse sentence" block (ai_parsesentence) to identify nouns, verbs, adjectives, and other parts of speech in text, building awareness of grammatical structure for NLP tasks.
+Description: Students use CreatiCode's sentence analysis block to identify nouns, verbs, and adjectives in text, building awareness of grammatical structure for NLP tasks.
 
 Dependencies:
 * T29.G4.02: Use split and join blocks for text manipulation
-* T29.G4.08: Count words and report the most frequent
-
-
-ID: T29.G5.07
-Topic: T29 – Text Data & NLP Foundations
-Skill: Trim whitespace from text input
-Description: Students use the trim block to remove leading and trailing whitespace from user input, ensuring clean data for text processing. They discuss why this matters for text comparison.
-
-Dependencies:
-* T29.G4.06.01: Convert text case using lowercase/uppercase operators
-
-
+* T29.G4.04: Count words and report the most frequent
 
 
 ID: T29.G6.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Compare characters, words, and token counts
-Description: Students count characters (using "length of"), words (using split and count), and discuss GPT tokens. They note that actual token counting requires API calls; they estimate based on character/word counts and discuss why token limits matter for AI prompts.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Explain characters vs words vs tokens
+Description: Students count characters, words, and approximate GPT tokens for short text, discussing why counts differ and which matters for prompts.
 
 Dependencies:
-* T29.G5.03: Build stop-word filters and keyword lists
-* T29.G4.04: Count characters and words using "length of" and split
+* T29.G5.02: Build stop-word filters and keyword lists
+* T29.G4.02b: Count characters and words in text
 * T08.G4.01: Choose actions based on user input or sensor values
 * T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
 
 
 ID: T29.G6.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Compute n-gram (bigram) frequencies
-Description: Learners loop through token lists, join consecutive word pairs, and store counts in a table to capture common two-word phrase patterns.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Compute n‑gram (bigram) frequencies
+Description: Learners loop through token lists, join consecutive words, and store counts to capture phrase patterns.
 
 Dependencies:
-* T29.G5.03: Build stop-word filters and keyword lists
-* T11.G5.01: Create and populate a table
+* T29.G5.02: Build stop-word filters and keyword lists
 * T07.G4.01: Loop until a goal condition is met
 * T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
 
 
 ID: T29.G6.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Create autocomplete suggestions from bigrams
-Description: Using bigram frequency data, students identify the top next words for a given prefix and display them using text display blocks, sprites, or list displays.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Create autocomplete suggestions
+Description: Using bigram data, students propose the top next words for a given prefix and display them via widgets.
 
 Dependencies:
-* T29.G6.02: Compute n-gram (bigram) frequencies
+* T29.G6.02: Compute n‑gram (bigram) frequencies
 * T06.G4.01: Write scripts that respond to keyboard or mouse events
 * T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
 
 
 ID: T29.G6.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Log AI prompts/responses with ratings and timestamps
-Description: Learners automatically log each AI interaction (prompt, response, user rating, timestamp) into a table for responsible-use tracking, supporting T24 transparency practices.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Log XO prompts/responses with ratings
+Description: Learners automatically log each XO interaction (prompt, response, rating, timestamp) into a table for T24 responsible-use tracking.
 
 Dependencies:
-* T29.G5.02: Populate data tables from text using split
-* T29.G5.05: Build dynamic prompts with join and concatenation
-* T11.G5.01: Create and populate a table
+* T29.G5.01: Structure chat logs into tables
+* T29.G5.04: Map story descriptions into AI prompt slots
 * T07.G4.01: Loop until a goal condition is met
 * T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
 
 
 ID: T29.G6.05
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Use regex patterns for text matching
-Description: Students learn to use basic regular expressions with CreatiCode's regex blocks (regex test, regex match, regex search, regex replace, regex split) to find patterns like emails, numbers, or repeated words.
+Description: Students learn to use basic regular expressions to find patterns in text such as emails, numbers, or repeated words using CreatiCode's regex blocks.
 
 Dependencies:
-* T29.G5.03: Build stop-word filters and keyword lists
-* T29.G5.06: Use the analyze sentence block for parts of speech
-
-
-ID: T29.G6.06
-Topic: T29 – Text Data & NLP Foundations
-Skill: Convert speech to text using voice recognition
-Description: Students use CreatiCode's speech-to-text blocks (Azure or OpenAI Whisper) to convert spoken input into text, then process the text using split, clean, and analysis techniques.
-
-Dependencies:
-* T29.G5.02: Populate data tables from text using split
-* T29.G5.07: Trim whitespace from text input
-
-
-ID: T29.G6.07
-Topic: T29 – Text Data & NLP Foundations
-Skill: Convert text to speech with voice selection
-Description: Students use CreatiCode's text-to-speech blocks (Azure TTS) to read text aloud, experimenting with different voices and languages. They discuss accessibility applications.
-
-Dependencies:
-* T29.G4.02: Use split and join blocks for text manipulation
-
-
-ID: T29.G6.08
-Topic: T29 – Text Data & NLP Foundations
-Skill: Compare text similarity using edit distance
-Description: Students use text comparison blocks to compute edit distance (how many character changes needed to transform one text into another), understanding text similarity metrics.
-
-Dependencies:
-* T29.G4.04: Count characters and words using "length of" and split
-* T29.G6.01: Compare characters, words, and token counts
-
-
+* T29.G5.02: Build stop-word filters and keyword lists
+* T29.G5.05: Use the analyze sentence block for parts of speech
 
 
 ID: T29.G7.01
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Build keyword retrieval helpers (mini-RAG)
-Description: Students build a simple retrieval system by storing paragraph snippets in a table, computing keyword overlap scores, and returning the best-matching snippet. Advanced students can use the "add table to Pinecone" and "search from Pinecone" blocks for embedding-based semantic retrieval.
+Description: Students build a simple retrieval system by storing paragraph snippets in a table, computing keyword overlap scores, and returning the best-matching snippet. Advanced students can use the 'create semantic database from table' and 'search semantic database with query' blocks for embedding-based retrieval.
 
 Dependencies:
-* T29.G5.03: Build stop-word filters and keyword lists
-* T29.G6.02: Compute n-gram (bigram) frequencies
-* T29.G6.03: Create autocomplete suggestions from bigrams
-* T11.G6.01: Sort a table by a column
+* T29.G5.02: Build stop-word filters and keyword lists
+* T29.G6.02: Compute n‑gram (bigram) frequencies
+* T29.G6.03: Create autocomplete suggestions
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 
 
 ID: T29.G7.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Engineer text features for ML classifiers
-Description: Learners extract numerical features from text (word counts, sentiment scores, length, keyword presence) and feed them into CreatiCode's ML model training blocks to classify text (spam vs not-spam, emotion categories).
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Engineer text features for classifiers
+Description: Learners extract features (word counts, sentiment scores, length) and feed them into CreatiCode's AI classifier blocks to label text (spam vs not, emotion categories).
 
 Dependencies:
-* T29.G5.04.02: Score text using sentiment word lists
-* T29.G6.01: Compare characters, words, and token counts
-* T29.G6.04: Log AI prompts/responses with ratings and timestamps
-* T22.G6.01: Train a simple ML model (supervised learning)
+* T29.G5.03: Measure simple sentiment heuristics
+* T29.G6.01: Explain characters vs words vs tokens
+* T29.G6.04: Log XO prompts/responses with ratings
+* T08.G5.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 
 
 ID: T29.G7.03
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Audit text datasets for bias and coverage
-Description: Students examine text corpora for demographic representation, tone, or potentially harmful language. They document gaps (missing perspectives, skewed vocabulary) and propose mitigations, building responsible AI data practices.
+Description: Students examine corpora for demographic coverage, tone, or harmful language, documenting gaps and proposing mitigations.
 
 Dependencies:
-* T29.G5.04.02: Score text using sentiment word lists
-* T29.G6.01: Compare characters, words, and token counts
-* T29.G6.04: Log AI prompts/responses with ratings and timestamps
+* T29.G5.03: Measure simple sentiment heuristics
+* T29.G6.01: Explain characters vs words vs tokens
+* T29.G6.04: Log XO prompts/responses with ratings
+* T06.G5.01: Design multi‑sprite programs using clones
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G5.03: Add and remove items from a list
 
 
 ID: T29.G7.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Critically annotate AI vs human summaries
-Description: Learners write their own summary, generate an AI summary, then systematically annotate differences: what the AI missed, what it distorted, what it added. They measure overlap and discuss AI summarization limitations.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Compare human vs XO summaries critically
+Description: Learners write their own summary, compare it to XO's output, and annotate what the AI missed or distorted, building on earlier G4 comparison work with deeper critical analysis.
 
 Dependencies:
-* T29.G4.01.02: Generate AI summaries using ChatGPT blocks
-* T29.G5.05: Build dynamic prompts with join and concatenation
-* T29.G6.03: Create autocomplete suggestions from bigrams
-* T29.G6.04: Log AI prompts/responses with ratings and timestamps
-
-
-ID: T29.G7.05
-Topic: T29 – Text Data & NLP Foundations
-Skill: Integrate web search results into text analysis
-Description: Students use CreatiCode's Google search API blocks to retrieve web search results, extract text from results, and analyze the retrieved information using text processing techniques.
-
-Dependencies:
-* T29.G6.04: Log AI prompts/responses with ratings and timestamps
-* T29.G5.02: Populate data tables from text using split
-* T11.G6.01: Sort a table by a column
-
-
-ID: T29.G7.06
-Topic: T29 – Text Data & NLP Foundations
-Skill: Filter content using AI moderation
-Description: Students use CreatiCode's AI moderation blocks to automatically detect and filter potentially inappropriate content in user-generated text, discussing responsible content moderation practices.
-
-Dependencies:
-* T29.G5.04.02: Score text using sentiment word lists
-* T29.G7.03: Audit text datasets for bias and coverage
-
-
+* T29.G5.04: Map story descriptions into AI prompt slots
+* T29.G6.03: Create autocomplete suggestions
+* T29.G6.04: Log XO prompts/responses with ratings
+* T08.G5.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G5.03: Add and remove items from a list
 
 
 ID: T29.G8.01
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Build end-to-end text-processing pipelines
-Description: Build multi-stage text processing pipelines (e.g., input → trim/clean → lowercase → split → remove stop-words → analyze sentiment → classify → log results → output) using multiple NLP operations in sequence.
+Description: Build multi-stage text processing pipelines (e.g., input → clean → analyze → classify → output) using multiple NLP operations in sequence
 
 Dependencies:
 * T29.G7.01: Build keyword retrieval helpers (mini-RAG)
@@ -15911,23 +15691,22 @@ Dependencies:
 
 
 ID: T29.G8.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Compute text classifier evaluation metrics (precision/recall/F1)
-Description: Learners compare predicted vs actual labels using table operations, manually compute precision (correct positives / predicted positives), recall (correct positives / actual positives), and F1 score. They interpret the tradeoffs between these metrics for text classification tasks.
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Compute evaluation metrics (precision/recall/F1)
+Description: Learners compare predicted vs actual labels using table operations, manually compute precision (correct positives / predicted positives), recall (correct positives / actual positives), and F1 score, then interpret the tradeoffs between these metrics.
 
 Dependencies:
-* T29.G7.02: Engineer text features for ML classifiers
+* T29.G7.02: Engineer text features for classifiers
 * T29.G7.03: Audit text datasets for bias and coverage
-* T22.G7.01: Evaluate ML model performance with test data
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 
 
 ID: T29.G8.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Integrate text analytics into AI prompt engineering
-Description: Students embed text analytics results (top keywords, sentiment scores, entity extraction) into AI prompt templates and evaluate whether augmented prompts produce better AI responses (RAG-style enhancement).
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
+Skill: Integrate analytics into AI prompting
+Description: Students embed text analytics (top keywords, sentiment) into XO prompt templates and evaluate whether responses improve.
 
 Dependencies:
 * T29.G7.01: Build keyword retrieval helpers (mini-RAG)
@@ -15938,20 +15717,16 @@ Dependencies:
 
 
 ID: T29.G8.04
-Topic: T29 – Text Data & NLP Foundations
+Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Publish datasheets for text datasets
-Description: Learners author "datasheet" documentation for their text datasets covering source, collection process, known limitations, bias analysis, intended uses, and maintenance plans, aligning with AI transparency and responsible data practices.
+Description: Learners author "datasheet" reports covering dataset source, collection process, limitations, and maintenance plans, aligning with AI transparency best practices.
 
 Dependencies:
 * T29.G7.03: Audit text datasets for bias and coverage
-* T29.G7.04: Critically annotate AI vs human summaries
+* T29.G7.04: Compare human vs XO summaries critically
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-
-
-
-
 
 
 ID: T30.GK.01
@@ -16064,7 +15839,7 @@ Dependencies:
 ID: T30.G3.01
 Topic: T30 – Devices & Hardware Systems
 Skill: Connect project ideas to required sensors/actuators
-Description: Students map CreatiCode project ideas (voice assistant, gesture game, face tracking app) to required hardware inputs (microphone, camera, keyboard, mouse) and explain how each sensor enables the project.
+Description: Students map CreatiCode ideas (voice assistant, motion game, haptic feedback) to microphones, cameras, accelerometers, LEDs, etc.
 
 Dependencies:
 * T30.G2.01: Explain core internal components
@@ -16073,11 +15848,11 @@ Dependencies:
 
 ID: T30.G3.02
 Topic: T30 – Devices & Hardware Systems
-Skill: Identify device input types for CreatiCode projects
-Description: Students identify device input types used in CreatiCode projects (keyboard keys, mouse buttons, camera feed, microphone audio) and explain when to use each input method in games and interactive apps.
+Skill: Describe peripheral ports and accessories
+Description: Learners match connector types to their uses and name one accessory for each.
 
 Dependencies:
-* T30.G1.01: Label basic computer parts
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G3.03
@@ -16087,6 +15862,15 @@ Description: Students analyze pros/cons of saving projects to CreatiCode cloud (
 
 Dependencies:
 * T30.G3.02: Describe peripheral ports and accessories
+
+
+ID: T30.G3.04
+Topic: T30 – Devices & Hardware Systems
+Skill: Identify power sources for portable devices
+Description: Learners match devices (mouse, tablet, robot) to battery types (AA, rechargeable pack) and explain charging habits.
+
+Dependencies:
+* T30.G2.01: Explain core internal components
 
 
 ID: T30.G3.05
@@ -16150,21 +15934,22 @@ Dependencies:
 ID: T30.G4.05
 Topic: T30 – Devices & Hardware Systems
 Skill: Respond to keyboard and mouse events in CreatiCode
-Description: Students program sprites to respond to keyboard events (key press/release), mouse events (button click, drag, pointer movement, wheel scrolling), and sprite drag events (when sprite dragged/being dragged/stopped dragging) in CreatiCode projects, creating interactive controls for games and animations.
+Description: Students program sprites to respond to specific key presses, mouse clicks, drag events, and pointer movements in CreatiCode projects, creating interactive controls for games and animations.
 
 Dependencies:
 * T30.G3.01: Connect project ideas to required sensors/actuators
 * T08.G3.01: Use a simple if in a script
 
 
-ID: T30.G4.05.01
+ID: T30.G4.06
 Topic: T30 – Devices & Hardware Systems
-Skill: Add camera preview widgets to CreatiCode projects
-Description: Students add camera widgets to display live camera feeds in CreatiCode projects using the "add camera window" block, configure front/back camera selection and flip modes, and use "save picture from camera" to capture photos, understanding when camera widgets enhance user experiences.
+Skill: Detect device capabilities in CreatiCode projects
+Description: Learners write code to check if a device has camera or microphone capabilities and display appropriate messages or alternative controls when hardware is unavailable.
 
 Dependencies:
 * T30.G3.05: Access device camera in CreatiCode projects
-* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G3.06: Access device microphone for audio input
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T30.G5.01
@@ -16184,7 +15969,7 @@ Description: Learners design checklists for borrowing laptops/tablets (inspect c
 
 Dependencies:
 * T30.G4.04: Explore accessibility hardware
-* T30.G2.04: Share best practices for caring for devices
+* T30.G4.03: Differentiate latency vs bandwidth
 
 
 ID: T30.G5.03
@@ -16215,16 +16000,6 @@ Description: Students add and configure orbit, follow, and free cameras in 3D Cr
 Dependencies:
 * T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 * T30.G3.01: Connect project ideas to required sensors/actuators
-
-
-ID: T30.G5.05.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Enable mouse picking and hovering for 3D objects
-Description: Students enable mouse interactions for 3D objects using "turn on picking" and "turn on hovering" blocks, create "when this 3D object is picked/hovered" event handlers, and use reporter blocks (picked point x/y/z, hovered 3D object name) to make interactive 3D scenes where objects respond to mouse clicks and hovers.
-
-Dependencies:
-* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
-* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 
 
 ID: T30.G5.06
@@ -16259,13 +16034,12 @@ Dependencies:
 
 ID: T30.G6.03
 Topic: T30 – Devices & Hardware Systems
-Skill: Explain camera and microphone privacy permissions
-Description: Students explain why browsers require camera and microphone permissions, how CreatiCode projects request device access, and why these permissions protect user privacy from malicious apps.
+Skill: Summarize hardware security basics
+Description: Students explain secure elements (TPM, secure enclave) and why they protect passwords or encryption keys.
 
 Dependencies:
 * T30.G5.02: Plan safe device-handling procedures for group work
-* T30.G3.05: Access device camera in CreatiCode projects
-* T30.G3.06: Access device microphone for audio input
+* T30.G4.03: Differentiate latency vs bandwidth
 
 
 ID: T30.G6.04
@@ -16281,52 +16055,21 @@ Dependencies:
 ID: T30.G6.05
 Topic: T30 – Devices & Hardware Systems
 Skill: Use speech recognition in voice-controlled CreatiCode projects
-Description: Students implement speech-to-text using both one-shot recognition (start/end speech recognition) and continuous streaming recognition (start continuous speech recognition) with Azure and OpenAI Whisper APIs, plus text-to-speech blocks, to create voice-controlled CreatiCode projects, understanding microphone requirements and language options.
+Description: Students implement speech-to-text and text-to-speech blocks to create voice-controlled CreatiCode projects, comparing different API options (Azure, OpenAI Whisper) and understanding microphone requirements.
 
 Dependencies:
 * T30.G3.06: Access device microphone for audio input
 * T30.G5.01: Identify device requirements for CreatiCode AI features
 
 
-ID: T30.G6.05.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Use webcam as 3D scene background for AR effects
-Description: Students use the "turn on webcam background" block to overlay 3D objects on live camera feeds, select front/back camera, configure flip modes (normal, left-right flipped, up-down flipped), and create augmented reality effects where 3D models appear in the real world.
-
-Dependencies:
-* T30.G3.05: Access device camera in CreatiCode projects
-* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
-* T30.G6.05: Use speech recognition in voice-controlled CreatiCode projects
-
-
 ID: T30.G6.06
 Topic: T30 – Devices & Hardware Systems
-Skill: Implement hand and 2D body tracking in CreatiCode projects
-Description: Students use hand detection (tracking finger curl angles) and 2D body part recognition (single or multiple person modes) to create gesture-controlled games in CreatiCode, comparing when computer vision input is more appropriate than keyboard/mouse and understanding camera positioning requirements.
+Skill: Implement hand and body tracking in CreatiCode projects
+Description: Learners use hand and body pose detection to create gesture-controlled games in CreatiCode, analyzing when computer vision is more appropriate than keyboard/mouse input and understanding camera positioning requirements.
 
 Dependencies:
 * T30.G5.06: Use face detection in CreatiCode interactive projects
 * T30.G4.05: Respond to keyboard and mouse events in CreatiCode
-
-
-ID: T30.G6.06.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Use 3D pose detection for depth-aware body tracking
-Description: Students implement 3D pose detection (detecting 3D positions of body parts like shoulders, wrists, knees) to create depth-aware gesture games where the camera tracks player movement in 3D space, comparing 2D body parts vs 3D pose detection and understanding when depth information improves interactions.
-
-Dependencies:
-* T30.G6.06: Implement hand and 2D body tracking in CreatiCode projects
-* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
-
-
-ID: T30.G6.06.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Implement 3D object dragging with mouse
-Description: Students configure 3D objects to be draggable using "set dragging mode" (specifying drag direction constraints), create event handlers for "when this 3D object starts dragging" and "when this 3D object is dragged", and use "dragged 3D object name" reporter to build interactive 3D scenes where users can reposition objects by dragging.
-
-Dependencies:
-* T30.G5.05.01: Enable mouse picking and hovering for 3D objects
-* T30.G6.06: Implement hand and 2D body tracking in CreatiCode projects
 
 
 ID: T30.G7.01
@@ -16374,10 +16117,10 @@ Dependencies:
 ID: T30.G7.05
 Topic: T30 – Devices & Hardware Systems
 Skill: Debate privacy implications of AI-powered sensors
-Description: Learners analyze privacy scenarios involving AI-powered sensors (voice assistants always listening, classroom cameras detecting faces, hand tracking in games) and propose specific guidelines balancing utility and privacy (when to ask permission, when to delete data, how to inform users), connecting to T23 perception ethics and T24 data handling.
+Description: Learners analyze scenarios (AI voice assistants from T22, computer vision from T23, smart classroom monitoring) and propose guidelines balancing AI utility and privacy per AI4K12. They connect to T23 perception ethics and T24 XO data handling.
 
 Dependencies:
-* T30.G6.03: Explain camera and microphone privacy permissions
+* T30.G6.03: Summarize hardware security basics
 * T30.G5.03: Explain how different sensors collect data
 
 
@@ -16853,7 +16596,7 @@ Dependencies:
 ID: T32.GK.03
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Understand that passwords keep things safe
-Description: Students compare visual representations of passwords using picture-based examples. They see a weak password shown as "cat" (3 letters, easy to guess) compared to a longer password represented with pictures showing different character types (letters, numbers, symbols). They identify which is harder to guess by comparing length and variety visually.
+Description: Students compare visual representations of passwords (weak: "cat" vs strong: "C@t!2o#3" with symbols/numbers) and identify which is harder to guess.
 
 Dependencies:
 * T32.GK.01: Spot safe vs unsafe sharing
@@ -16886,7 +16629,7 @@ Dependencies:
 ID: T32.G1.03
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Explain why passwords must be secret
-Description: Students use picture matching with speech bubbles to understand password secrecy. They see illustrated scenarios showing "I should share my password" vs "I should keep my password secret" and select the correct choice with checkmark/X responses. They discuss picture stories showing what could happen if someone else knew their password (someone logging in as them, changing their work).
+Description: Learners complete sentences ("I should/shouldn't share my password because…") and discuss what could happen if someone else knew their password.
 
 Dependencies:
 * T32.G1.01: Identify personally identifiable information (PII)
@@ -16895,7 +16638,7 @@ Dependencies:
 ID: T32.G1.04
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Spot obvious scam pop-ups
-Description: Students see illustrated pop-ups with clear visual red flags and label them as "real" or "scam." Visual cues include: misspellings highlighted in red circles, urgent warnings shown with red flashing borders, too-good-to-be-true imagery (giant prizes, free expensive items). They focus on visual indicators rather than reading text.
+Description: Students see cartoon pop-ups and label them as "real" or "scam" based on visual cues (too-good-to-be-true offers, urgent language, misspellings).
 
 Dependencies:
 * T32.G1.01: Identify personally identifiable information (PII)
@@ -16943,29 +16686,13 @@ Description: Students watch teacher-led scenarios showing what happens when you 
 Dependencies:
 * T32.G1.04: Spot obvious scam pop-ups
 
-ID: T32.G2.06
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Explain purpose of usernames and passwords
-Description: Students learn why accounts need both usernames (to identify who you are) and passwords (to prove you are that person). They compare it to having a name and a secret handshake. Through illustrated examples, they understand that usernames can be public but passwords must stay private.
-
-Dependencies:
-* T32.G2.01: Practice creating strong passwords
-
-ID: T32.G3.00
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Identify parts of URLs and email addresses
-Description: Students examine URLs and email addresses to identify their parts: protocol (https://), domain name, path. For emails: username, @ symbol, domain. They practice spotting suspicious URLs (misspellings, strange domains, missing https) and fake email addresses that impersonate trusted senders.
-
-Dependencies:
-* T32.G2.06: Explain purpose of usernames and passwords
-
 ID: T32.G3.01
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Explain multi-factor authentication (MFA) with analogies
 Description: Students compare logging in with just a password vs password + secret code (like two locks on a door). They understand that MFA makes accounts safer because an attacker needs both pieces.
 
 Dependencies:
-* T32.G2.06: Explain purpose of usernames and passwords
+* T32.G2.01: Practice creating strong passwords
 * T07.G3.01: Use a counted repeat loop
 
 ID: T32.G3.02
@@ -16974,15 +16701,12 @@ Skill: Recognize website safety indicators
 Description: Students examine teacher-provided screenshots of browser address bars to identify safety indicators (https://, padlock icon, strange URLs). They practice spotting unsafe website signs like misspelled domain names or missing padlock icons.
 
 Dependencies:
-* T32.G3.00: Identify parts of URLs and email addresses
 * T32.G3.01: Explain multi-factor authentication (MFA) with analogies
 
 ID: T32.G3.03
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Evaluate and use sharing settings in CreatiCode projects
 Description: Students explore the CreatiCode sharing panel in their own projects and decide when to set a project to private, shared with class, or public. They practice inviting specific peers/teachers to view projects and verify that others cannot view without permission.
-
-_Implementation note: This activity uses the CreatiCode platform's sharing interface, not programming blocks. Students practice privacy settings through the web UI._
 
 Dependencies:
 * T32.G3.02: Recognize website safety indicators
@@ -17003,6 +16727,7 @@ Description: Students review a class digital citizenship agreement covering thre
 
 Dependencies:
 * T32.G3.01: Explain multi-factor authentication (MFA) with analogies
+* T32.G2.03: Recognize safe digital citizenship behaviors
 
 ID: T32.G4.02
 Topic: T32 – Cybersecurity & Digital Safety
@@ -17011,7 +16736,7 @@ Description: Students watch a teacher-led demonstration of a password manager in
 
 Dependencies:
 * T32.G3.02: Recognize website safety indicators
-* T32.G3.01: Explain multi-factor authentication (MFA) with analogies
+* T32.G2.01: Practice creating strong passwords
 
 ID: T32.G4.03
 Topic: T32 – Cybersecurity & Digital Safety
@@ -17031,30 +16756,14 @@ Dependencies:
 * T32.G3.01: Explain multi-factor authentication (MFA) with analogies
 * T32.G4.03: Understand data breaches through stories
 
-ID: T32.G4.05
+ID: T32.G5.01
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Recognize security indicators in apps and websites
-Description: Students identify security indicators across different platforms: padlock icons for secure connections, verified badges for authentic accounts, permission requests that apps make, and security warnings browsers show. They practice deciding if an app or website looks trustworthy based on multiple indicators together.
-
-Dependencies:
-* T32.G3.02: Recognize website safety indicators
-
-ID: T32.G5.01.01
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Analyze digital social engineering tactics
-Description: Building on phishing recognition, students classify examples of digital social engineering by tactic type: phishing (fake emails), pretexting (impersonation calls), and baiting (free download traps). They identify which tactic is used in each scenario and discuss appropriate responses.
+Skill: Analyze social engineering tactics
+Description: Building on phishing recognition, students classify examples by tactic type: phishing (fake emails), pretexting (impersonation calls), baiting (free download traps), and tailgating (physical access tricks). They identify which tactic is used in each scenario and discuss appropriate responses.
 
 Dependencies:
 * T32.G3.04: Recognize phishing-like messages
 * T32.G4.01: Identify key principles of digital citizenship
-
-ID: T32.G5.01.02
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Recognize physical security risks
-Description: Students learn about physical security tactics like tailgating (following someone through a secure door), shoulder surfing (watching someone type passwords), and leaving devices unattended. They discuss how physical access can compromise digital security and practice protective behaviors.
-
-Dependencies:
-* T32.G5.01.01: Analyze digital social engineering tactics
 
 ID: T32.G5.02
 Topic: T32 – Cybersecurity & Digital Safety
@@ -17073,6 +16782,7 @@ Description: Students review data from their AI projects (T22 chatbot logs, T21 
 Dependencies:
 * T22.G5.02: Observe chatbot strengths and weaknesses
 * T21.G5.02: Generate AI images with specific prompts
+* T32.G1.01: Identify personally identifiable information (PII)
 * T32.G5.02: Compare privacy policies of kid-friendly apps
 
 ID: T32.G5.03.02
@@ -17096,9 +16806,8 @@ Topic: T32 – Cybersecurity & Digital Safety
 Skill: Create backup plans for CreatiCode projects
 Description: Students create a backup plan for their CreatiCode projects: (1) Download project file to computer, (2) Save to a designated folder, (3) Test restore process by re-uploading to CreatiCode. They explain why backups prevent data loss from accidental deletion or account issues.
 
-_Implementation note: Students use CreatiCode's File menu to download project files (not programming blocks). This teaches data backup practices through platform features._
-
 Dependencies:
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T32.G3.03: Evaluate and use sharing settings in CreatiCode projects
 
 ID: T32.G5.05
@@ -17118,45 +16827,19 @@ Dependencies:
 * T32.G3.02: Recognize website safety indicators
 * T32.G5.02: Compare privacy policies of kid-friendly apps
 
-ID: T32.G6.01.01
+ID: T32.G6.01
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Identify common malware types
-Description: Students learn about malware including viruses (self-replicating code), ransomware (holds data hostage), spyware (monitors activity), and trojans (disguised as legitimate software). For each type, they create a reference card listing what it does, typical targets, warning signs, and defense strategies. They discuss real-world examples.
+Skill: Identify and categorize common cyber attacks
+Description: Students learn about five core attack types: malware (viruses, ransomware), phishing (deceptive messages), denial-of-service (overloading systems), man-in-the-middle (intercepting communications), and SQL injection (exploiting databases). For each attack, they create a reference card listing what it does, typical targets, warning signs, and defense strategies. They discuss which attacks they've encountered or heard about.
 
 Dependencies:
 * T32.G4.03: Understand data breaches through stories
-* T32.G5.01.01: Analyze digital social engineering tactics
-
-ID: T32.G6.01.02
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Recognize phishing attack patterns and warning signs
-Description: Students analyze phishing attacks in depth: fake emails requesting login credentials, impersonation of trusted organizations, urgent language to pressure action, and suspicious links. They examine real phishing email examples (sanitized), identify red flags, and practice appropriate responses (delete, report, verify through official channels).
-
-Dependencies:
-* T32.G6.01.01: Identify common malware types
-
-ID: T32.G6.01.03
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Understand network attacks (DoS, MitM)
-Description: Students learn about network-level attacks: denial-of-service (DoS) attacks that overload systems making them unavailable, and man-in-the-middle (MitM) attacks that intercept communications. They discuss why HTTPS protects against MitM and how organizations defend against DoS attacks. They consider impact on availability and confidentiality.
-
-Dependencies:
-* T32.G6.01.01: Identify common malware types
-
-ID: T32.G6.01.04
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Learn about database vulnerabilities (SQL injection basics)
-Description: Students learn conceptually about SQL injection attacks where attackers insert malicious code into input fields to manipulate databases. Through simplified examples (no actual SQL coding), they understand how input validation prevents injection and why treating user input as untrusted is crucial for security.
-
-Dependencies:
-* T32.G6.01.01: Identify common malware types
+* T32.G5.01: Analyze social engineering tactics
 
 ID: T32.G6.02
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Design secure login flows in CreatiCode apps
 Description: Students design a CreatiCode UI that implements basic login security: (1) Check password length (minimum 8 characters using string length blocks), (2) Display password as dots/asterisks instead of plain text, (3) Track failed attempts with a counter variable and disable login button after 3 failures. They test their implementation and discuss real-world account lockout policies.
-
-_Implementation note: CreatiCode textbox widgets don't have native password masking. Students implement character masking by replacing each input character with asterisk (*) using string operations, demonstrating how password fields work._
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
@@ -17175,8 +16858,8 @@ Dependencies:
 * T21.G6.02: Write structured prompts to get specific image styles
 * T22.G6.01: Trace chatbot conversation flow
 * T23.G5.01: Use camera blocks to detect objects
-* T32.G5.01.01: Analyze digital social engineering tactics
-* T32.G6.01.01: Identify common malware types
+* T32.G5.01: Analyze social engineering tactics
+* T32.G6.01: Identify and categorize common cyber attacks
 
 ID: T32.G6.04
 Topic: T32 – Cybersecurity & Digital Safety
@@ -17184,27 +16867,29 @@ Skill: Analyze ethical hacking vs malicious hacking through case studies
 Description: Students read simplified bug bounty reports and analyze: (1) What was the vulnerability discovered? (2) How did the researcher report it responsibly? (3) Why was getting permission crucial? They role-play ethical disclosure vs. malicious exploitation scenarios and discuss the importance of "white hat" hacking in improving security.
 
 Dependencies:
-* T32.G6.01.01: Identify common malware types
+* T32.G6.01: Identify and categorize common cyber attacks
 * T32.G4.03: Understand data breaches through stories
 
 ID: T32.G6.05
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Explore simple cipher techniques with alphabet position lookup
-Description: Students use CreatiCode blocks to shift letters using alphabet position. They create a simple encoder that: (1) Sets an alphabet string variable to "ABCDEFGHIJKLMNOPQRSTUVWXYZ", (2) For each letter in the message, finds its position in the alphabet using string operations, (3) Adds the shift value to the position, (4) Extracts the shifted letter using substring blocks, (5) Joins results to create encoded output. They test with shift=3 and decode by reversing the shift. This prepares them for grade 7 cipher implementation.
+Skill: Explore simple cipher techniques with code
+Description: Students use CreatiCode blocks to shift letters in a string (e.g., A→B, B→C). They create a simple encoder that transforms a word by a fixed shift value using string manipulation blocks (`letter [N] of [word]`, `join`, `unicode of [letter]`, `unicode [N] as letter`). They decode messages by reversing the shift. This hands-on practice prepares them for the Caesar cipher implementation in grade 7.
 
 Dependencies:
+* T06.G5.01: Identify standard event patterns in a small game
 * T10.G4.01: Concatenate strings to build messages
 * T32.G5.06: Understand why encryption protects data (unplugged activity)
 
 ID: T32.G7.01
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Implement Caesar cipher using alphabet position lookup
-Description: Students build on G6 cipher exploration to implement a full Caesar cipher in CreatiCode. Using string manipulation and list blocks (NOT character code conversion which CreatiCode doesn't support), they create a script that: (1) Creates alphabet lookup ("ABCDEFGHIJKLMNOPQRSTUVWXYZ"), (2) Takes message and shift value as input, (3) Uses `substring of [TEXT] from position (P) to position (P)` to process each character, (4) Finds character position in alphabet, applies shift with wrapping, (5) Joins results using `join [T1] [T2] ... with []` blocks. They test with shift=3, implement decryption by reversing shift, and discuss why simple ciphers are vulnerable to frequency analysis and why modern encryption uses stronger algorithms.
+Skill: Implement Caesar cipher encryption using string manipulation
+Description: Students build on their G6 cipher exploration to implement a full Caesar cipher in CreatiCode. Using string manipulation blocks (NOT built-in encryption), they create a script that: (1) Takes a message and shift value as input, (2) Uses `letter [N] of [word]` to process each character, (3) Applies `unicode of [letter]` and `unicode [N] as letter` to shift letters, (4) Joins results to create encrypted output. They test with shift=3, implement decryption by reversing the shift, and discuss why simple ciphers are vulnerable to frequency analysis and why modern encryption uses stronger algorithms.
 
 Dependencies:
+* T06.G5.01: Identify standard event patterns in a small game
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.01: Extract substrings and manipulate text
-* T32.G6.05: Explore simple cipher techniques with alphabet position lookup
+* T32.G6.05: Explore simple cipher techniques with code
 
 ID: T32.G7.02
 Topic: T32 – Cybersecurity & Digital Safety
@@ -17212,7 +16897,7 @@ Skill: Simulate password cracking attempts
 Description: Students use a cracking speed calculator (teacher-provided or built in CreatiCode) to compute how long it takes to crack passwords of different lengths (4-character vs 12-character) at 1000 guesses/second. They create a chart showing exponential growth in cracking time as password length increases. Based on results, they write class password guidelines recommending minimum length and character variety.
 
 Dependencies:
-* T32.G5.01.01: Analyze digital social engineering tactics
+* T32.G5.01: Analyze social engineering tactics
 * T32.G5.02: Compare privacy policies of kid-friendly apps
 * T32.G6.02: Design secure login flows in CreatiCode apps
 
@@ -17225,7 +16910,7 @@ Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T12.G5.01: Store and retrieve structured data with tables
 * T32.G5.04: Create backup plans for CreatiCode projects
-* T32.G6.01.01: Identify common malware types
+* T32.G6.01: Identify and categorize common cyber attacks
 
 ID: T32.G7.04.01
 Topic: T32 – Cybersecurity & Digital Safety
@@ -17234,7 +16919,7 @@ Description: Following T23 perception projects, students debate benefits (findin
 
 Dependencies:
 * T23.G6.01: Use camera to detect and track faces
-* T32.G5.01.01: Analyze digital social engineering tactics
+* T32.G5.01: Analyze social engineering tactics
 * T32.G5.03.01: Review and identify PII in AI project data
 
 ID: T32.G7.04.02
@@ -17254,7 +16939,7 @@ Description: Students follow a teacher-approved security testing checklist to pr
 
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T32.G6.01.01: Identify common malware types
+* T32.G6.01: Identify and categorize common cyber attacks
 * T32.G6.04: Analyze ethical hacking vs malicious hacking through case studies
 
 ID: T32.G8.02
@@ -17265,29 +16950,21 @@ Description: Students design a simple role system inside a CreatiCode project wi
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T32.G6.01.01: Identify common malware types
+* T32.G6.01: Identify and categorize common cyber attacks
 * T32.G6.02: Design secure login flows in CreatiCode apps
 
-ID: T32.G8.03.01
+ID: T32.G8.03
 Topic: T32 – Cybersecurity & Digital Safety
-Skill: Audit AI projects for security vulnerabilities
-Description: Students conduct security audits of their AI-powered apps, examining: (1) Prompt injection vulnerabilities in T22 chatbots (can users trick the AI?), (2) Unauthorized access to T21 image generation (can users bypass content filters?), (3) Privacy leaks in T23 sensor data (is personal information exposed?), (4) Input validation gaps. They produce a security audit report with findings, risk ratings (critical/high/medium/low), and recommended fixes with implementation priorities.
+Skill: Audit AI projects for security and ethics issues
+Description: Students conduct comprehensive security and ethics audits of their AI-powered apps covering: (1) Security threats (prompt injection in T22 chatbots, unauthorized access to T21 image generation, privacy leaks in T23 sensor data), (2) Ethical concerns (bias in outputs, inappropriate content, consent for data use), (3) Mitigation strategies (input validation, content filtering, user agreements). They produce an audit report with findings, risk ratings, and recommended fixes, connecting to T35 ethics frameworks.
 
 Dependencies:
 * T21.G6.04: Iterate on prompts based on generated results
 * T22.G6.04: Debug chatbot logic with conditional responses
 * T23.G6.03: Analyze perception system accuracy
 * T24.G6.01: Integrate AI features into existing projects
-* T32.G6.01.01: Identify common malware types
+* T32.G6.01: Identify and categorize common cyber attacks
 * T32.G6.03: Conduct AI-specific threat modeling for class projects
-
-ID: T32.G8.03.02
-Topic: T32 – Cybersecurity & Digital Safety
-Skill: Audit AI projects for ethical concerns
-Description: Students conduct ethics audits of their AI-powered apps, examining: (1) Bias in AI outputs (does the system treat all users fairly?), (2) Inappropriate content generation risks, (3) Consent for data collection and use, (4) Transparency about AI limitations. They produce an ethics audit report connecting to T35 ethics frameworks, identifying ethical concerns, and proposing mitigation strategies (diverse training data, content filtering, user agreements, clear disclosures).
-
-Dependencies:
-* T32.G8.03.01: Audit AI projects for security vulnerabilities
 * T32.G7.04.01: Analyze facial recognition technology ethics and societal impacts
 * T32.G7.04.02: Evaluate emotion detection and behavior analysis ethics
 
@@ -17298,21 +16975,20 @@ Description: Students draft an incident response plan for an AI system failure o
 
 Dependencies:
 * T01.G6.01: Count comparisons in linear and binary search
-* T32.G6.01.01: Identify common malware types
+* T32.G6.01: Identify and categorize common cyber attacks
 * T32.G7.03: Implement secure logging and monitoring in CreatiCode apps
-* T32.G8.03.01: Audit AI projects for security vulnerabilities
-* T32.G8.03.02: Audit AI projects for ethical concerns
+* T32.G8.03: Audit AI projects for security and ethics issues
 
 
 ID: T33.GK.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Recognize that apps can talk to helpers on the internet
 Description: Using illustrated scenes, students identify apps that need the internet to work (weather apps, video streaming, voice assistants) versus apps that work offline (calculator, drawing app). They point to cloud/internet symbols and explain that some apps ask "helpers on the internet" for information or answers.
 
 
 
 ID: T33.G1.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Sort apps into online helpers and offline tools
 Description: Students sort picture cards of apps into two groups: those that need internet helpers (maps, search, video chat) and those that work alone (camera, clock, basic games). They explain their sorting choices using simple language like "this one asks the internet for help."
 
@@ -17321,7 +16997,7 @@ Dependencies:
 
 
 ID: T33.G2.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Describe what happens when an app waits for the internet
 Description: Students act out or illustrate what happens when an app sends a question to the internet: waiting, getting an answer, showing results. They recognize loading spinners and understand that internet helpers need time to respond. They discuss what happens when there's no internet connection.
 
@@ -17330,7 +17006,7 @@ Dependencies:
 
 
 ID: T33.G3.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Identify cloud-connected features in familiar apps
 Description: Students explore familiar apps and identify which features require internet connectivity (saving to cloud, getting weather updates, translating text). They trace the flow: user action → app sends request → cloud responds → app shows result. They understand that cloud features may not work offline.
 
@@ -17339,7 +17015,7 @@ Dependencies:
 
 
 ID: T33.G4.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Explain how apps store and retrieve data from the cloud
 Description: Students learn that apps can save data "in the cloud" so it's available on different devices. They trace examples: saving a document on one device and opening it on another, or a game saving progress online. They understand basic cloud concepts: data travels over the internet to remote servers and back.
 
@@ -17349,7 +17025,7 @@ Dependencies:
 
 
 ID: T33.G5.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Compare local storage versus cloud storage tradeoffs
 Description: Students compare saving data locally (on device) versus in the cloud. They identify tradeoffs: local is faster but only on one device; cloud works across devices but needs internet. They discuss scenarios where each approach is better and understand that many apps use both methods.
 
@@ -17359,19 +17035,9 @@ Dependencies:
 
 
 ID: T33.G5.02
-Topic: T33 – Connected Services
-Skill: Distinguish real-time collaboration from one-time requests
-Description: Students compare collaborative apps where changes appear instantly for all users (shared whiteboards, collaborative documents, synchronized counters) versus apps that retrieve information once (weather lookups, web searches, reading news articles). They understand that real-time features require continuous connections while one-time requests can work with brief connectivity. They identify which type of connection different familiar apps use and why.
-
-Dependencies:
-* T31.G5.01: Trace how a device reaches an online service
-* T33.G5.01: Compare local storage versus cloud storage tradeoffs
-
-
-ID: T33.G5.03
-Topic: T33 – Connected Services
-Skill: Understand that shared URLs grant public access
-Description: Students learn that URLs shared in projects make data accessible to anyone who sees the link. They practice identifying what information is safe to share publicly (test data, fictional characters, public facts) versus private (real names, addresses, photos, passwords). They create example "safe" datasets for coding projects using made-up information and understand that sharing a project with a URL is like posting that URL on a public bulletin board.
+Topic: T33 – Connected Services & Tool Wrappers
+Skill: Recognize apps that share data in real-time
+Description: Students identify collaborative apps (Google Docs, shared whiteboards, multiplayer games) where multiple people see changes instantly versus apps where changes require manual refresh or are one-time requests (email, basic file sharing, weather apps). They understand the difference between one-way data retrieval (reading a news article from a website) and two-way real-time synchronization (collaborative document editing). They trace how real-time apps need continuous internet connections while one-time request apps can work with intermittent connectivity. They recognize that real-time features require more complex programming and use more data.
 
 Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
@@ -17379,7 +17045,7 @@ Dependencies:
 
 
 ID: T33.G6.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Identify and test Cloud blocks for network dependencies
 Description: Students examine CreatiCode's Cloud category blocks and identify which require internet connectivity: Google Sheets operations (read, write, manage), web fetch, and Google Drive access. They test these blocks offline to observe error states and understand the difference between blocks that work entirely locally (math, motion, looks) versus blocks requiring external services. They create a reference chart documenting which Cloud blocks need internet, what services they connect to (Google APIs, web servers), and what happens when those services are unavailable. They categorize blocks by their data flow: read-only (fetch URL, read from sheet), write-only (write to sheet, set cell value), or bidirectional (cloud variables).
 
@@ -17388,13 +17054,12 @@ Dependencies:
 * T09.G4.04: Trace code with variables to predict outcomes
 * T31.G5.01: Trace how a device reaches an online service
 * T33.G5.01: Compare local storage versus cloud storage tradeoffs
-* T33.G5.03: Understand that shared URLs grant public access
 
 Note: For AI blocks, see Topic T32. For Multiplayer game blocks, see Topic T19.
 
 
 ID: T33.G6.02
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Fetch web content using the fetch URL block
 Description: Students use the `fetch web page as markdown from URL` block to retrieve content from a public URL and display it in their project. They learn that the block converts HTML to markdown and understand that network requests take time. They handle cases where the URL is invalid or unreachable by checking for empty results.
 
@@ -17402,12 +17067,11 @@ Dependencies:
 * T08.G4.01: Use if-else to choose between two outcomes
 * T09.G4.01: Prompt user for input and store it in a variable
 * T31.G5.01: Trace how a device reaches an online service
-* T33.G5.03: Understand that shared URLs grant public access
 * T33.G6.01: Identify and test Cloud blocks for network dependencies
 
 
 ID: T33.G6.03
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Read data from Google Sheets into a table
 Description: Students use the `read from google sheet` block to load data from a shared Google Sheet into a CreatiCode table. They specify the sheet URL, sheet name, range, and target table, then iterate through the loaded data to display or process it. They understand that the sheet must be publicly accessible.
 
@@ -17419,7 +17083,7 @@ Dependencies:
 
 
 ID: T33.G6.04
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Write data from a table to Google Sheets
 Description: Students use the `write into google sheet` block to export a CreatiCode table to a Google Sheet. They specify the starting cell and understand that this writes the entire table including headers. They verify successful writes by reading back the data.
 
@@ -17431,7 +17095,7 @@ Dependencies:
 
 
 ID: T33.G6.05
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Clear a Google Sheet to reset data
 Description: Students use the `clear sheet` block to remove all content from a specified sheet while keeping the sheet itself intact. They learn when clearing is preferable to deleting (preserving sheet structure and formatting). They implement a "reset data" feature in their project that clears old data before loading new data.
 
@@ -17443,7 +17107,7 @@ Dependencies:
 
 
 ID: T33.G6.06
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Handle latency and error states in service calls
 Description: Students design UI patterns (loading messages, "try again" buttons) that respond gracefully when Cloud blocks or AI blocks take too long or fail. They detect error states by checking for empty responses or error tokens and provide user feedback. This skill applies to any external service call including web fetch, Google Sheets, and AI blocks.
 
@@ -17455,7 +17119,7 @@ Dependencies:
 
 
 ID: T33.G6.07
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Respect usage limits and rate limiting
 Description: Learners implement counters and cool-down timers so projects don't spam external service blocks (AI or Cloud). They create a call counter that prevents additional requests until a timer expires, understanding that excessive calls may be blocked.
 
@@ -17467,41 +17131,18 @@ Dependencies:
 
 
 ID: T33.G6.08
-Topic: T33 – Connected Services
-Skill: Apply privacy principles to Google Sheet URLs
-Description: Students apply their understanding of URL sharing (from T33.G5.03) specifically to Google Sheets integration. They practice checking sheet permissions before integrating, creating test sheets with fictional data for projects, and documenting which sheets are safe to share. They understand that anyone with access to their CreatiCode project can access the Google Sheet URL embedded in the code. They create a "data safety checklist" for their projects listing which data sources contain real versus test information.
+Topic: T33 – Connected Services & Tool Wrappers
+Skill: Understand privacy implications of shared Google Sheet URLs
+Description: Students learn that Google Sheet URLs shared in their CreatiCode projects grant access to anyone who sees the URL. They understand best practices: only use test data in publicly shared sheets, avoid storing personal information (names, emails, addresses) in sheets used for coding projects, and recognize that sharing a project with a Sheet URL is equivalent to giving everyone access to that sheet. They practice creating "safe" test datasets with fictional data and documenting which sheets contain real versus test data.
 
 Dependencies:
-* T33.G5.03: Understand that shared URLs grant public access
+* T31.G5.01: Trace how a device reaches an online service
 * T33.G6.03: Read data from Google Sheets into a table
 * T33.G6.04: Write data from a table to Google Sheets
 
 
-ID: T33.G6.09
-Topic: T33 – Connected Services
-Skill: Understand cloud database collections versus Google Sheets
-Description: Students compare CreatiCode's cloud database collections with Google Sheets to understand when each is appropriate. They learn that collections are like spreadsheet tables but stored on CreatiCode's servers (no Google account needed), with faster access and built-in query features. They understand tradeoffs: Google Sheets are visible in a browser and shareable outside CreatiCode, while database collections are private to their CreatiCode account and optimized for programmatic access. They identify use cases for each: Sheets for human-readable data and external collaboration, collections for app-internal data like user scores or game states.
-
-Dependencies:
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T31.G5.01: Trace how a device reaches an online service
-* T33.G6.03: Read data from Google Sheets into a table
-
-
-ID: T33.G6.10
-Topic: T33 – Connected Services
-Skill: Insert and fetch data from cloud database collections
-Description: Students use `insert from table into collection` to save CreatiCode table data to a cloud collection, and `fetch from collection` to retrieve it back into a table. They create simple data logging projects that save game scores, user preferences, or application data to persistent cloud storage without requiring Google Sheets. They understand that collections persist across sessions and are accessible only within their CreatiCode account.
-
-Dependencies:
-* T08.G5.01: Use nested conditionals for multi-branch decisions
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T31.G5.01: Trace how a device reaches an online service
-* T33.G6.09: Understand cloud database collections versus Google Sheets
-
-
 ID: T33.G7.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: List, add, and remove sheets in a Google Spreadsheet
 Description: Students use `list all sheets in google sheet`, `add sheet`, `remove sheet`, and `clear sheet` blocks to manage sheet structure. They create multi-sheet workbooks for organizing different types of project data (e.g., player stats on one sheet, game settings on another). They check if sheets exist before adding and handle cases where sheets may be missing. (Note: Basic sheet clearing covered in T33.G6.05)
 
@@ -17514,7 +17155,7 @@ Dependencies:
 
 
 ID: T33.G7.02
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Perform targeted Google Sheets cell operations
 Description: Students use `get value at row column` and `set value at row column` blocks to read and write individual cells without loading entire sheets. They build projects that update high scores or individual settings efficiently without rewriting the entire dataset.
 
@@ -17527,7 +17168,7 @@ Dependencies:
 
 
 ID: T33.G7.03
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Append rows incrementally to a Google Sheet
 Description: Students use the `append row from table to sheet` block to add new records to the bottom of existing data in a Google Sheet. They build data logging features that append game scores, user actions, or sensor readings over time without overwriting previous entries. They understand the difference between appending (adding to end) and writing (replacing from a starting cell).
 
@@ -17540,7 +17181,7 @@ Dependencies:
 
 
 ID: T33.G7.04
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Browse Google Drive folder contents
 Description: Students use the `list content of Google Drive folder` block to get file names, IDs, and types from a shared folder. They parse the returned table to display files, filter by type, or create file browsers for their projects. The block returns metadata including filename, file ID, MIME type, and URL.
 
@@ -17553,33 +17194,33 @@ Dependencies:
 
 
 ID: T33.G7.05
-Topic: T33 – Connected Services
-Skill: Synchronize variables across projects using cloud sessions
-Description: Students use `create cloud session` and `join cloud session` blocks to enable real-time sharing of cloud variables across multiple instances of the same CreatiCode project. They build collaborative features where one user's variable changes appear instantly for others: synchronized counters, shared text displays, collaborative drawing coordinates, or shared data dashboards. They understand that cloud sessions synchronize ONLY cloud variables—not sprites, physics, costumes, or game state. Each session requires a unique ID, and only projects connected to the same session will share variables. They test isolation by connecting to different sessions (no sync) versus the same session (full variable sync).
+Topic: T33 – Connected Services & Tool Wrappers
+Skill: Create and join cloud sessions for real-time variable synchronization
+Description: Students use the `create cloud session` and `join cloud session` blocks to enable real-time sharing of cloud variables across multiple instances of the same CreatiCode project. They understand that cloud sessions synchronize VARIABLES only—not sprites, physics, or full game state. They build simple collaborative features like synchronized counters, shared text displays, collaborative drawing canvases, or shared data dashboards where one user's variable changes appear instantly for all users in the same session. They understand session isolation: cloud variables only sync within projects connected to the same session, and each session requires a unique ID that users must share to collaborate. They test what happens when users join different sessions (no synchronization) versus the same session (full synchronization).
 
 Dependencies:
 * T09.G5.01: Use multiple variables together in a single expression
 * T31.G5.01: Trace how a device reaches an online service
-* T33.G5.02: Distinguish real-time collaboration from one-time requests
-* T33.G5.03: Understand that shared URLs grant public access
+* T33.G5.01: Compare local storage versus cloud storage tradeoffs
+* T33.G5.02: Recognize apps that share data in real-time
 
-Note: Cloud sessions synchronize cloud variables only. For full multiplayer games with sprite replication, physics, and collision, see Topic T19 (Multiplayer blocks).
+Note: Cloud sessions synchronize variables only. For full multiplayer games with sprites, physics, and collision detection, see Topic T19 Multiplayer blocks (mp_createmultiplayergame, etc.).
 
 
 ID: T33.G7.06
-Topic: T33 – Connected Services
-Skill: Understand automatic service authorization in CreatiCode
-Description: Students learn that CreatiCode's Cloud and AI blocks handle authentication automatically through the platform—they don't need API keys or login credentials. They understand that this simplifies development but means they're using CreatiCode's shared service accounts. They recognize that this automatic authorization is a teaching convenience and that professional applications require managing their own API keys and authentication. They document which blocks use automatic authorization (all Cloud and AI blocks) versus which require user-provided credentials (none in CreatiCode's educational environment).
+Topic: T33 – Connected Services & Tool Wrappers
+Skill: Understand service authorization and keep shared URLs private
+Description: Students learn that CreatiCode's Cloud and AI blocks handle authentication automatically through the platform. They understand that shared Google Sheet/Drive URLs grant access to anyone with the link and should not be publicly posted with sensitive data. They document best practices: use test data in shared sheets, avoid storing personal information, and understand that URL sharing is equivalent to granting access.
 
 Dependencies:
 * T08.G5.01: Use nested conditionals for multi-branch decisions
 * T31.G5.01: Trace how a device reaches an online service
-* T33.G5.03: Understand that shared URLs grant public access
 * T33.G6.03: Read data from Google Sheets into a table
+* T33.G6.04: Write data from a table to Google Sheets
 
 
 ID: T33.G7.07
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Build workflows that combine multiple services
 Description: Learners orchestrate multi-service workflows: fetch web content → process with AI → store results in Google Sheets, or read settings from Sheets → generate AI content → display. They handle intermediate data and ensure each step completes before the next begins.
 
@@ -17593,7 +17234,7 @@ Dependencies:
 
 
 ID: T33.G7.08
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Compare service options and pick the right tool
 Description: Students analyze requirements and select the appropriate block: Google Sheets for structured persistent data, web fetch for external content, AI blocks for generation/analysis. They justify choices based on capabilities, latency, and data format.
 
@@ -17605,7 +17246,7 @@ Dependencies:
 
 
 ID: T33.G7.09
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Cache service responses in tables to avoid redundant API calls
 Description: Learners implement a caching pattern: before calling an external service, check if the same request was made recently by looking up a local table. If found, use the cached response; otherwise, make the call and store the result. This reduces service calls, improves performance, and respects rate limits. Students implement cache expiration by storing timestamps with entries and clearing old entries after a set duration (e.g., 5 minutes).
 
@@ -17616,45 +17257,8 @@ Dependencies:
 * T33.G6.06: Handle latency and error states in service calls
 
 
-ID: T33.G7.10
-Topic: T33 – Connected Services
-Skill: Query cloud collections with WHERE conditions
-Description: Students use `fetch from collection` with WHERE conditions to retrieve specific records matching criteria (field > value, field = value, field contains text). They build query expressions using `cond` blocks with comparison operators (>, <, =, ≠, ≥, ≤) and the `contains` operator for text searches. They create filtered data views like "scores above 100" or "users whose name contains 'Alex'" and understand that conditions filter data on the server before returning results, making queries more efficient than fetching all data and filtering locally.
-
-Dependencies:
-* T08.G5.01: Use nested conditionals for multi-branch decisions
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T31.G5.01: Trace how a device reaches an online service
-* T33.G6.10: Insert and fetch data from cloud database collections
-
-
-ID: T33.G7.11
-Topic: T33 – Connected Services
-Skill: Update and delete cloud collection data
-Description: Students use `update collection from table` to modify existing records by loading data into a table, changing values, and writing back. They use `update collection in-place` to change specific fields matching a WHERE condition without loading data first (efficient for simple updates). They use `remove all documents from collection` with WHERE conditions to delete specific records. They understand the difference between table-based updates (modify then write back) and in-place updates (direct field changes on server) and when each is appropriate.
-
-Dependencies:
-* T08.G5.01: Use nested conditionals for multi-branch decisions
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T31.G5.01: Trace how a device reaches an online service
-* T33.G7.10: Query cloud collections with WHERE conditions
-
-
-ID: T33.G7.12
-Topic: T33 – Connected Services
-Skill: Build complex collection queries with AND/OR/NOT logic
-Description: Students combine multiple conditions using `cond AND`, `cond OR`, and `cond NOT` blocks to create sophisticated queries like "scores > 100 AND player name contains 'Team A'" or "difficulty = 'hard' OR difficulty = 'expert'". They use `LIMIT` to retrieve top N results and `SORT BY` to order results by field values. They build leaderboard systems, filtered search interfaces, and data dashboards that combine multiple query criteria to find exactly the records they need.
-
-Dependencies:
-* T08.G6.01: Use conditionals to control simulation steps
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T31.G6.01: Trace the steps of an HTTP/HTTPS request
-* T33.G7.10: Query cloud collections with WHERE conditions
-* T33.G7.11: Update and delete cloud collection data
-
-
 ID: T33.G8.01
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Insert and remove rows and columns dynamically in Google Sheets
 Description: Students use `insert rows`, `insert columns`, `remove rows`, and `remove columns` blocks to dynamically resize spreadsheet data areas. They build data management systems that archive old data by removing rows, expand storage by inserting new rows/columns, and reorganize datasets. This extends G7.01's sheet-level structure management to cell-range-level manipulation.
 
@@ -17667,7 +17271,7 @@ Dependencies:
 
 
 ID: T33.G8.02
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Analyze legal and ethical obligations when integrating services
 Description: Students read summarized terms for services (OpenAI, Google APIs) and document obligations: attribution requirements, content restrictions, data retention policies, and safety filters. They map these requirements to their project design and ensure compliance.
 
@@ -17679,7 +17283,7 @@ Dependencies:
 
 
 ID: T33.G8.03
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Simulate service outages and design fallbacks
 Description: Learners create outage simulators that force error responses for Cloud or AI services. They design fallback experiences: offline cached data, manual input alternatives, or graceful degradation. They document incident response and recovery procedures.
 
@@ -17691,7 +17295,7 @@ Dependencies:
 
 
 ID: T33.G8.04
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Validate and sanitize data received from external services
 Description: Students create validation logic for external service data: checking AI responses for inappropriate content, verifying data types from Google Sheets imports, confirming web fetch results are non-empty and correctly formatted. They implement logging of validation failures and create user-friendly error messages when data doesn't meet expectations.
 
@@ -17704,7 +17308,7 @@ Dependencies:
 
 
 ID: T33.G8.05
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Compare service-based and local implementations through hands-on testing
 Description: Learners implement the same feature twice—once using a Cloud/AI service block and once using local data—then measure and compare tradeoffs: internet dependency, response time, data persistence, and offline reliability. For example, they build a quiz app that reads questions from Google Sheets versus one with hardcoded questions, then test both offline and online. They document measured differences and create a decision framework for when each approach is better.
 
@@ -17716,7 +17320,7 @@ Dependencies:
 
 
 ID: T33.G8.06
-Topic: T33 – Connected Services
+Topic: T33 – Connected Services & Tool Wrappers
 Skill: Build a cloud-integrated data pipeline
 Description: Students build a complete data pipeline as a capstone: fetch external data → process and transform → store in Google Sheets → use in AI calls → save AI outputs back to cloud. They handle errors at each stage, implement validation for external data, and create a dashboard showing pipeline status. This capstone integrates skills from G6 through G8 of this topic.
 

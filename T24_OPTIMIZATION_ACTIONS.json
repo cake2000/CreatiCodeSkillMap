@@ -1,0 +1,524 @@
+{
+  "summary": {
+    "topic": "T24 - XO & Generative AI Practices",
+    "current_skills": 28,
+    "proposed_skills": 47,
+    "skills_to_add": 19,
+    "skills_to_modify": 28,
+    "skills_to_remove": 0,
+    "dependency_fixes": 60,
+    "x2_violations_fixed": 32
+  },
+
+  "critical_issues": [
+    {
+      "issue": "Missing K-2 foundation skills",
+      "impact": "No scaffolding for youngest learners while T21-T23 have K-2",
+      "fix": "Add 3 K-2 skills"
+    },
+    {
+      "issue": "Misleading topic scope",
+      "impact": "Title says 'Generative AI' but 79% of skills are XO-only",
+      "fix": "Add ChatGPT block skills (5) and DALL-E skills (3)"
+    },
+    {
+      "issue": "32 X-2 rule violations in G8",
+      "impact": "All G8 skills depend on G5 skills (3-grade gap)",
+      "fix": "Remove explicit G5 dependencies, rely on transitive closure"
+    },
+    {
+      "issue": "Excessive dependency bloat",
+      "impact": "Average 6.4 dependencies per skill, many unnecessary",
+      "fix": "Reduce to 2-3 essential dependencies per skill"
+    },
+    {
+      "issue": "Missing verification skills",
+      "impact": "No explicit skill for testing AI-generated code",
+      "fix": "Add T24.G5.08 verification skill"
+    }
+  ],
+
+  "new_skills": [
+    {
+      "id": "T24.GK.01",
+      "title": "Helpers Can Answer Questions",
+      "short_name": "Understand AI helpers",
+      "grade": "K",
+      "skill_type": "picture_based_unplugged",
+      "description_teacher": "Students match pictures of different helpers (teacher, parent, robot, computer) to questions they can answer. They learn that computers can be helpers too.",
+      "student_prompt": "Match the helper to the question!",
+      "dependencies": [],
+      "rationale": "K-2 foundation: Introduces concept of AI assistant at developmentally appropriate level"
+    },
+    {
+      "id": "T24.G1.01",
+      "title": "Ask XO a Simple Question",
+      "short_name": "First XO interaction",
+      "grade": "1",
+      "skill_type": "picture_based_digital",
+      "description_teacher": "Students click on XO and ask a simple question (e.g., 'What color is the sky?'). They learn that XO can answer questions just like a person.",
+      "student_prompt": "Ask XO a question!",
+      "dependencies": ["T24.GK.01"],
+      "rationale": "K-2 foundation: First hands-on interaction with XO"
+    },
+    {
+      "id": "T24.G2.01",
+      "title": "XO Can Help with Different Things",
+      "short_name": "XO helps in many ways",
+      "grade": "2",
+      "skill_type": "picture_based_digital",
+      "description_teacher": "Students match different types of questions (math, spelling, ideas for a project) to pictures showing how XO can help. They learn XO can help in many ways.",
+      "student_prompt": "What can XO help with?",
+      "dependencies": ["T24.G1.01"],
+      "rationale": "K-2 foundation: Broadens understanding of AI assistant capabilities"
+    },
+    {
+      "id": "T24.G3.00",
+      "title": "Ask XO for Help When Stuck",
+      "short_name": "Get unstuck with XO",
+      "grade": 3,
+      "description": "When stuck on a simple coding task (e.g., 'How do I make my sprite jump?'), a student asks XO for help. XO provides a suggestion. The student tries it and sees if it works. This introduces XO as a helpful resource for getting unstuck.",
+      "dependencies": ["T24.G2.01", "T06.G3.01"],
+      "rationale": "G3 entry: Simpler entry point than 'review algorithm'"
+    },
+    {
+      "id": "T24.G4.04",
+      "title": "Use ChatGPT Block to Ask a Question",
+      "short_name": "ChatGPT block basics",
+      "grade": 4,
+      "description": "Students use a ChatGPT block in their code to ask a simple question and display the answer (e.g., ask 'What is a fun fact about dinosaurs?' and show response). They learn that AI can be integrated directly into their projects, not just used through XO.",
+      "dependencies": ["T24.G3.01", "T22.G3.01", "T03.G4.01"],
+      "rationale": "Expansion: First ChatGPT block skill, bridges XO and direct AI use"
+    },
+    {
+      "id": "T24.G5.06",
+      "title": "Generate Test Data with ChatGPT",
+      "short_name": "AI for test data",
+      "grade": 5,
+      "description": "Students use ChatGPT blocks to generate test data for their projects (e.g., 'Generate 5 random animal names' or 'Create 3 quiz questions about space'). They learn that AI can help with content creation during development.",
+      "dependencies": ["T24.G4.04", "T07.G5.01"],
+      "rationale": "Expansion: ChatGPT as coding tool, not just user-facing feature"
+    },
+    {
+      "id": "T24.G5.07",
+      "title": "Generate Placeholder Art with DALL-E",
+      "short_name": "DALL-E for prototyping",
+      "grade": 5,
+      "description": "While prototyping a game, students use DALL-E blocks to quickly generate placeholder sprites or backdrops without leaving the coding environment. They learn that AI can speed up the development process.",
+      "dependencies": ["T24.G4.01", "T21.G4.01"],
+      "rationale": "Expansion: DALL-E in coding workflow (vs. T21 for art creation)"
+    },
+    {
+      "id": "T24.G5.08",
+      "title": "Test XO-Generated Code Before Using It",
+      "short_name": "Verify AI code",
+      "grade": 5,
+      "description": "When XO suggests code, a student tests it thoroughly before adding it to their project: (1) Does it run without errors? (2) Does it do what I asked? (3) Does it break other parts of my project? They learn that AI-generated code must be verified, not blindly trusted.",
+      "dependencies": ["T24.G4.01", "T12.G4.01"],
+      "rationale": "Critical missing skill: Verification of AI-generated code"
+    },
+    {
+      "id": "T24.G6.06",
+      "title": "Use ChatGPT to Explain Complex Code",
+      "short_name": "AI code explainer",
+      "grade": 6,
+      "description": "Students use ChatGPT blocks to create an in-project code explanation system: paste a code snippet into ChatGPT and get an explanation. They learn to use AI for documentation and learning.",
+      "dependencies": ["T24.G5.06", "T22.G5.01"],
+      "rationale": "Expansion: ChatGPT as learning tool"
+    },
+    {
+      "id": "T24.G6.07",
+      "title": "Generate Multiple Design Options with DALL-E",
+      "short_name": "Iterate with DALL-E",
+      "grade": 6,
+      "description": "Students generate 3-4 variations of an asset using DALL-E with different prompts, compare them, and select the best fit for their project. They learn iterative design with AI assistance.",
+      "dependencies": ["T24.G5.07", "T21.G5.01"],
+      "rationale": "Expansion: Iterative AI-assisted design"
+    },
+    {
+      "id": "T24.G6.08",
+      "title": "Attach Project Snapshots to XO Conversations",
+      "short_name": "Visual context for XO",
+      "grade": 6,
+      "description": "When asking XO for help, students attach a snapshot of their project so XO can see their stage/sprites/code. They learn that visual context helps AI provide better assistance.",
+      "dependencies": ["T24.G5.01", "T03.G6.01"],
+      "rationale": "Expansion: Multimodal AI interaction"
+    },
+    {
+      "id": "T24.G7.06",
+      "title": "Stream ChatGPT Responses in Real-Time",
+      "short_name": "Streaming AI responses",
+      "grade": 7,
+      "description": "Students use streaming ChatGPT blocks to show AI responses being generated word-by-word, creating a more engaging user experience. They understand the difference between streaming and non-streaming APIs.",
+      "dependencies": ["T24.G6.06", "T22.G6.01"],
+      "rationale": "Expansion: Advanced ChatGPT features"
+    },
+    {
+      "id": "T24.G7.07",
+      "title": "Refine AI-Generated Assets for Production",
+      "short_name": "Polish AI assets",
+      "grade": 7,
+      "description": "Students generate assets with DALL-E, evaluate them critically, identify what needs improvement, and either refine the prompt or edit the image manually. They learn that AI is a starting point, not a final product.",
+      "dependencies": ["T24.G6.07", "T21.G6.01"],
+      "rationale": "Expansion: Critical evaluation + refinement"
+    },
+    {
+      "id": "T24.G7.08",
+      "title": "Use Multimodal ChatGPT to Analyze Images",
+      "short_name": "AI image analysis",
+      "grade": 7,
+      "description": "Students use multimodal ChatGPT blocks to analyze images in their projects (e.g., 'Describe what's in this image' or 'What colors are dominant?'). They learn that AI can process both text and images.",
+      "dependencies": ["T24.G6.08", "T22.G6.01", "T21.G6.01"],
+      "rationale": "Expansion: Multimodal AI capabilities"
+    },
+    {
+      "id": "T24.G7.09",
+      "title": "Combine Multiple AI Tools in One Project",
+      "short_name": "Multi-AI orchestration",
+      "grade": 7,
+      "description": "Students build a project that uses 2+ AI tools together (e.g., speech recognition → ChatGPT → text-to-speech, or face detection → DALL-E → display). They learn to orchestrate multiple AI capabilities.",
+      "dependencies": ["T24.G6.01", "T22.G6.01", "T23.G6.01"],
+      "rationale": "Integration: Combining AI tools"
+    },
+    {
+      "id": "T24.G8.06",
+      "title": "Manage ChatGPT Conversation Context",
+      "short_name": "Stateful AI conversations",
+      "grade": 8,
+      "description": "Students implement conversation memory using ChatGPT session blocks: maintaining context across multiple exchanges, clearing context when needed, and managing conversation flow. They learn about stateful vs. stateless AI interactions.",
+      "dependencies": ["T24.G7.06", "T22.G7.01"],
+      "rationale": "Expansion: Advanced ChatGPT session management"
+    },
+    {
+      "id": "T24.G8.07",
+      "title": "Design an AI-Enhanced Development Workflow",
+      "short_name": "Meta-workflow design",
+      "grade": 8,
+      "description": "Students document their personal workflow for using AI tools during development: when to use XO vs. ChatGPT blocks vs. DALL-E vs. manual coding. They create a decision tree and justify their choices. This is a metacognitive reflection on AI-assisted development.",
+      "dependencies": ["T24.G7.09"],
+      "rationale": "Integration: Metacognitive capstone"
+    }
+  ],
+
+  "skill_modifications": [
+    {
+      "id": "T24.G3.01",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T06.G3.01", "T07.G3.01", "T08.G3.01", "T09.G3.01", "T03.G3.01"],
+      "new_dependencies": ["T24.G3.00", "T03.G3.01"],
+      "removed_dependencies": ["T06.G3.01", "T07.G3.01", "T08.G3.01", "T09.G3.01"],
+      "rationale": "Only need XO access + prior T24 skill. Don't need loops, events, variables, motion."
+    },
+    {
+      "id": "T24.G3.02",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T06.G3.01", "T07.G3.01", "T08.G3.01", "T09.G3.01", "T03.G3.01"],
+      "new_dependencies": ["T24.G3.01", "T03.G3.01"],
+      "removed_dependencies": ["T06.G3.01", "T07.G3.01", "T08.G3.01", "T09.G3.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G3.03",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T06.G3.01", "T07.G3.01", "T08.G3.01", "T09.G3.01", "T03.G3.01"],
+      "new_dependencies": ["T24.G3.01", "T03.G3.01"],
+      "removed_dependencies": ["T06.G3.01", "T07.G3.01", "T08.G3.01", "T09.G3.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G3.05",
+      "change_type": "content_simplification",
+      "new_title": "Think About Who AI Helps",
+      "current_description": "Students design a simple AI helper (e.g., a recommendation system for books or a homework helper) and describe: (1) who it's meant to help, (2) what it does, (3) who else might use it, and (4) who it might NOT help well. They learn to think about different users when designing AI.",
+      "new_description": "Given a simple AI helper example (e.g., a reading buddy), students identify: (1) who it's for, (2) who else might use it, (3) who it might not help well. They learn to think about different users when evaluating AI.",
+      "rationale": "Designing a recommendation system is too advanced for G3. Analysis before design."
+    },
+    {
+      "id": "T24.G4.01",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G3.01", "T06.G4.01", "T08.G4.01", "T09.G4.01"],
+      "new_dependencies": ["T24.G3.01", "T06.G4.01"],
+      "removed_dependencies": ["T08.G4.01", "T09.G4.01"],
+      "rationale": "Only need prior T24 + basic sequencing"
+    },
+    {
+      "id": "T24.G4.02",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G3.01", "T06.G4.01", "T08.G4.01", "T09.G4.01"],
+      "new_dependencies": ["T24.G4.01"],
+      "removed_dependencies": ["T24.G3.01", "T06.G4.01", "T08.G4.01", "T09.G4.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G4.03",
+      "change_type": "merge_and_expand",
+      "new_title": "Recognize XO's Limitations",
+      "current_description": "Students learn that XO sometimes gives generic answers or slightly incorrect suggestions, especially for CreatiCode-specific features or edge cases. They practice saying 'That suggestion doesn't fit my project' or asking a peer/teacher instead. This builds critical thinking and prevents over-reliance on AI.",
+      "new_description": "Students learn that XO has limitations: it may give generic answers, not know CreatiCode-specific features, or suggest solutions that don't fit the project context. They practice identifying when XO doesn't know and when to ask peers or teachers instead. This builds critical thinking and prevents over-reliance on AI.",
+      "current_dependencies": ["T24.G3.01", "T06.G4.01", "T08.G4.01", "T09.G4.01"],
+      "new_dependencies": ["T24.G4.01"],
+      "rationale": "Merges with T24.G5.04 (redundant). Expands to cover all limitations."
+    },
+    {
+      "id": "T24.G5.01",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G4.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G4.01"],
+      "new_dependencies": ["T24.G4.01", "T06.G5.01", "T07.G5.01"],
+      "removed_dependencies": ["T08.G5.01", "T09.G5.01", "T10.G4.01"],
+      "rationale": "Need loops + events for comparing algorithms, but not variables/motion/operators"
+    },
+    {
+      "id": "T24.G5.02",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G4.01", "T06.G5.01", "T08.G5.01", "T09.G5.01"],
+      "new_dependencies": ["T24.G5.01"],
+      "removed_dependencies": ["T24.G4.01", "T06.G5.01", "T08.G5.01", "T09.G5.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G5.03",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G4.01", "T06.G5.01", "T08.G5.01", "T09.G5.01", "T13.G3.01"],
+      "new_dependencies": ["T24.G5.01", "T13.G3.01"],
+      "removed_dependencies": ["T24.G4.01", "T06.G5.01", "T08.G5.01", "T09.G5.01"],
+      "rationale": "Need prior T24 + collaboration for peer feedback"
+    },
+    {
+      "id": "T24.G5.04",
+      "change_type": "remove",
+      "rationale": "Merged into T24.G4.03. Redundant skill - both about XO limitations."
+    },
+    {
+      "id": "T24.G6.01",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "new_dependencies": ["T24.G5.01", "T06.G5.01"],
+      "removed_dependencies": ["T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "rationale": "Massive dependency bloat. Only need prior T24 + sequencing."
+    },
+    {
+      "id": "T24.G6.02",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "new_dependencies": ["T24.G6.01"],
+      "removed_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G6.03",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "new_dependencies": ["T24.G6.01"],
+      "removed_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G6.04",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G5.01", "T22.G5.01"],
+      "new_dependencies": ["T24.G6.01", "T13.G5.01"],
+      "removed_dependencies": ["T24.G5.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T21.G5.01", "T22.G5.01"],
+      "rationale": "Need collaboration for peer work discussion"
+    },
+    {
+      "id": "T24.G7.01",
+      "change_type": "dependency_reduction_x2_fix",
+      "current_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G6.01"],
+      "removed_dependencies": ["T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "Rely on transitive closure from T24.G6.01"
+    },
+    {
+      "id": "T24.G7.02",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G7.03",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G7.04",
+      "change_type": "dependency_reduction",
+      "current_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T24.G6.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "Linear progression in T24"
+    },
+    {
+      "id": "T24.G8.01",
+      "change_type": "dependency_reduction_x2_fix",
+      "current_dependencies": ["T24.G7.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "FIXES X-2 VIOLATION: Removes G5 dependencies from G8 skill"
+    },
+    {
+      "id": "T24.G8.02",
+      "change_type": "dependency_reduction_x2_fix",
+      "current_dependencies": ["T24.G7.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "FIXES X-2 VIOLATION: Removes G5 dependencies from G8 skill"
+    },
+    {
+      "id": "T24.G8.03",
+      "change_type": "dependency_reduction_x2_fix",
+      "current_dependencies": ["T24.G7.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "FIXES X-2 VIOLATION: Removes G5 dependencies from G8 skill"
+    },
+    {
+      "id": "T24.G8.04",
+      "change_type": "dependency_reduction_x2_fix",
+      "current_dependencies": ["T24.G7.01", "T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "new_dependencies": ["T24.G7.01"],
+      "removed_dependencies": ["T06.G5.01", "T07.G5.01", "T08.G5.01", "T09.G5.01", "T10.G5.01", "T11.G5.01", "T12.G5.01", "T13.G5.01", "T21.G6.01", "T22.G6.01"],
+      "rationale": "FIXES X-2 VIOLATION: Removes G5 dependencies from G8 skill"
+    },
+    {
+      "id": "T24.G8.05",
+      "change_type": "content_clarification",
+      "new_description": "Students develop an AI application as a capstone project, integrating all ethical AI practices learned: (1) full model card, (2) fairness evaluation, (3) bias mitigation, (4) usage guidelines, (5) transparency documentation. This is a multi-week project demonstrating mastery of ethical AI development. NOTE: This is a capstone project, not a single-day skill assessment.",
+      "rationale": "Clarify this is a multi-week project to set appropriate expectations"
+    }
+  ],
+
+  "dependency_summary": {
+    "before": {
+      "total_dependencies": 179,
+      "avg_per_skill": 6.4,
+      "max_dependencies": 11,
+      "x2_violations": 32
+    },
+    "after": {
+      "total_dependencies": 131,
+      "avg_per_skill": 2.8,
+      "max_dependencies": 3,
+      "x2_violations": 0
+    },
+    "improvement": {
+      "dependencies_removed": 48,
+      "reduction_percentage": 26.8,
+      "x2_violations_fixed": 32
+    }
+  },
+
+  "open_questions": [
+    {
+      "question": "Should we add ML/KNN skills to T24 or create new T25?",
+      "context": "CreatiCode has 2 KNN blocks + 7 TensorFlow blocks for machine learning",
+      "options": [
+        "Add to T24 as 'non-generative AI tools'",
+        "Create T25 'Machine Learning Foundations' topic",
+        "Add to T23 as 'AI perception and learning'"
+      ]
+    },
+    {
+      "question": "Should we add RAG/Semantic Search skills to T24 or T22?",
+      "context": "CreatiCode has 3 Pinecone vector database blocks for semantic search",
+      "options": [
+        "Add to T24 as 'advanced chatbot feature'",
+        "Add to T22 'AI Chatbots' as information retrieval",
+        "Create new topic for RAG/embeddings"
+      ]
+    },
+    {
+      "question": "Should we add Web Search skills to T24 or T22?",
+      "context": "CreatiCode has 1 Google Search API block",
+      "options": [
+        "Add to T24 as 'AI-enhanced development tool'",
+        "Add to T22 as 'information retrieval'",
+        "Add to T03 as 'platform feature'"
+      ]
+    },
+    {
+      "question": "Should we add Content Moderation skills to T24?",
+      "context": "CreatiCode has 3 text/image safety blocks",
+      "options": [
+        "Add to T24 ethical skills (G6-G8)",
+        "Add to T22 as 'responsible chatbot design'",
+        "Add to T21 as 'safe content creation'"
+      ]
+    },
+    {
+      "question": "Should AI Ethics skills consolidate into T26?",
+      "context": "Ethics skills currently spread across T21-T24 (.05 skills in each grade)",
+      "options": [
+        "Keep ethics distributed across AI topics",
+        "Create T26 'AI Ethics & Society' topic",
+        "Hybrid: Keep some in T24, create T26 for advanced ethics"
+      ]
+    },
+    {
+      "question": "Should skills reference specific tools or be generic?",
+      "context": "Current skills explicitly mention XO, ChatGPT, DALL-E - what if tools change?",
+      "options": [
+        "Keep specific tool names (matches platform reality)",
+        "Use generic terms ('AI assistant', 'image generator')",
+        "Hybrid: Specific in title, generic in assessment"
+      ]
+    }
+  ],
+
+  "implementation_checklist": [
+    {
+      "phase": "Phase 1: Critical Fixes",
+      "tasks": [
+        "Fix all 32 X-2 violations in G8 skills",
+        "Reduce dependencies in G3-G7 skills (48 removals)",
+        "Merge T24.G4.03 + T24.G5.04",
+        "Simplify T24.G3.05 description",
+        "Clarify T24.G8.05 is capstone project",
+        "Validate no X-2 violations remain",
+        "Validate no forward references",
+        "Run full dependency validation"
+      ]
+    },
+    {
+      "phase": "Phase 2: Foundation Skills",
+      "tasks": [
+        "Add T24.GK.01 (K skill)",
+        "Add T24.G1.01 (G1 skill)",
+        "Add T24.G2.01 (G2 skill)",
+        "Add T24.G3.00 (G3 entry skill)",
+        "Update T24.G3.01-G3.03 to depend on T24.G3.00",
+        "Validate K-2 scaffolding",
+        "Test picture-based activities"
+      ]
+    },
+    {
+      "phase": "Phase 3: Scope Expansion",
+      "tasks": [
+        "Add 5 ChatGPT block skills (G4-G8)",
+        "Add 3 DALL-E integration skills (G5-G7)",
+        "Add 1 verification skill (G5)",
+        "Add 2 multimodal skills (G6-G7)",
+        "Add 2 integration skills (G7-G8)",
+        "Validate new skills align with topic scope",
+        "Validate dependencies for new skills"
+      ]
+    },
+    {
+      "phase": "Phase 4: Final Validation",
+      "tasks": [
+        "Run full X-2 validation (should be 0 violations)",
+        "Check grade progression (K→G8 should be smooth)",
+        "Validate all dependencies are essential",
+        "Check for redundant skills",
+        "Verify scope matches title",
+        "Review skill descriptions for clarity",
+        "Generate final statistics",
+        "Update documentation"
+      ]
+    }
+  ]
+}
