@@ -1,0 +1,413 @@
+================================================================================
+T01 - EVERYDAY ALGORITHMS: EXACT CHANGES FOR IMPLEMENTATION
+================================================================================
+
+This document shows the EXACT text changes needed for each modified skill.
+Use this for precise implementation in skillsv4/allskills.md
+
+FORMAT:
+- PRESERVE = Keep exactly as is
+- OLD → NEW = Change this text to that text
+- ADD = Insert new content
+- REMOVE = Delete this content
+
+================================================================================
+CRITICAL PRIORITY CHANGES (Must implement before Phase 1 launch)
+================================================================================
+
+--------------------------------------------------------------------------------
+CHANGE 1: T01.G3.13 - Remove unnecessary variable dependency
+--------------------------------------------------------------------------------
+
+ID: T01.G3.13
+Skill: Debug a program with steps in the wrong order
+PRESERVE Description: Students rearrange blocks in a sequence script to match a given intended behavior. _Implementation note: Coding re-order; auto-graded via behavior. CSTA: E3-ALG-AF-01, E3-PRO-TR-03._
+
+OLD Dependencies:
+* T09.G3.01: Create and use a numeric variable for score or count
+
+NEW Dependencies:
+* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+
+RATIONALE: Debugging sequence order focuses on control flow, not variable state.
+
+
+--------------------------------------------------------------------------------
+CHANGE 2: T01.G3.14 - Remove unnecessary variable dependency
+--------------------------------------------------------------------------------
+
+ID: T01.G3.14
+Skill: Debug a loop that repeats the wrong number of times
+PRESERVE Description: Students fix a `repeat` loop that runs too many or too few times by adjusting the loop count so the behavior matches the description. _Implementation note: Coding edit (loop count); auto-graded via final behavior. CSTA: E3-ALG-AF-01, E3-PRO-TR-03._
+
+OLD Dependencies:
+* T09.G3.01: Create and use a numeric variable for score or count
+
+NEW Dependencies:
+* T07.G3.01: Use a counted repeat loop
+
+RATIONALE: Loop debugging requires understanding loops, not variables.
+
+
+--------------------------------------------------------------------------------
+CHANGE 3: T01.G3.15 - Remove unnecessary variable dependency
+--------------------------------------------------------------------------------
+
+ID: T01.G3.15
+Skill: Debug an if/then that doesn't trigger when it should
+PRESERVE Description: Students fix a simple if/then condition so an action (like saying "Yay!" at the goal) happens at the right time. _Implementation note: Coding edits; auto-graded with multiple tests. CSTA: E3-ALG-AF-01, E3-PRO-TR-03._
+
+OLD Dependencies:
+* T09.G3.01: Create and use a numeric variable for score or count
+
+NEW Dependencies:
+* T08.G3.01: Use a simple if in a script
+
+RATIONALE: Conditional debugging focuses on Boolean logic, not variable state.
+
+
+--------------------------------------------------------------------------------
+CHANGE 4: T01.G7.01 - Fix X-2 violation (G7 depending on G5)
+--------------------------------------------------------------------------------
+
+ID: T01.G7.01
+Skill: Identify the pattern in a given program
+PRESERVE Description: Students categorize code as search, sort, accumulation, or simulation. _Implementation note: MCQ; auto-graded. CSTA: MS-ALG-AF-01._
+
+OLD Dependencies:
+* T06.G5.01: Build a project with multiple sprites and coordinated scripts
+* T09.G5.01: Use variables across multiple sprites
+
+NEW Dependencies:
+[ACTION REQUIRED: Verify T06 and T09 have appropriate G6 or G7 skills, then use those]
+
+OPTION A (if G6 skills exist):
+* T06.G6.01: [Insert appropriate G6 skill from T06]
+* T09.G6.01: [Insert appropriate G6 skill from T09]
+
+OPTION B (if only G7 skills available):
+* T06.G7.01: [Insert appropriate G7 skill from T06]
+* T09.G7.01: [Insert appropriate G7 skill from T09]
+
+OPTION C (if multi-sprite requirement not essential):
+* T06.G6.01 or T06.G7.01: [General project building skill]
+* T09.G6.01 or T09.G7.01: [General variable skill]
+
+RATIONALE: X-2 rule - G7 skill can depend on G7, G6, or G5 (barely), but dependencies on G5 should be avoided if possible. Update to G6 or G7 dependencies.
+
+
+--------------------------------------------------------------------------------
+CHANGE 5: T01.G8.10 - Fix X-2 violation (G8 depending on G6)
+--------------------------------------------------------------------------------
+
+ID: T01.G8.10
+Skill: Use logging/probes to understand algorithm behavior
+PRESERVE Description: Students insert logs or display statements at key points and use them to answer questions about an algorithm's internal behavior. _Implementation note: Coding + reading logs; auto-graded. CSTA: MS-ALG-PS-07, MS-PRO-TR-11._
+
+OLD Dependencies:
+* T06.G6.01: Create custom blocks with inputs
+
+NEW Dependencies:
+[ACTION REQUIRED: Verify if "custom blocks with inputs" is essential for logging]
+
+OPTION A (if custom blocks with inputs required):
+* T06.G7.01 or T06.G8.01: [Insert appropriate G7 or G8 custom block skill from T06]
+
+OPTION B (if simpler custom blocks suffice):
+* T06.G7.01: [General custom block skill without input requirement]
+
+OPTION C (if custom blocks not essential):
+* T06.G7.01: [General scripting/project skill]
+* T09.G7.01: [Variable operations for state tracking]
+
+RATIONALE: X-2 rule - G8 can depend on G8, G7, or G6 (barely), but G6 dependencies should be G7 where possible.
+
+
+--------------------------------------------------------------------------------
+CHANGE 6: T01.GK.08 - Clarify picture-based counting for non-readers
+--------------------------------------------------------------------------------
+
+ID: T01.GK.08
+PRESERVE Skill: Count how many times
+
+OLD Description:
+**Student task:** Watch the character. Count how many times they do the same action. _Implementation note: Short animation + picture-based count choices. CSTA: EK-ALG-AF-01._
+
+NEW Description:
+**Student task:** Watch the character perform a repeated action (e.g., jump, clap, spin). Count how many times by selecting from picture-based answer choices that show the actions performed 1, 2, 3, or 4 times (using pictures of action sequences, not numerals, to support non-readers). _Implementation note: Short animation (2-4 seconds) + picture-based count choices with visual representations of quantities. CSTA: EK-ALG-AF-01._
+
+PRESERVE Dependencies:
+* T01.GK.07: Find the pattern that repeats
+
+RATIONALE: Kindergarteners may not read numerals; clarify that choices use pictures.
+
+
+--------------------------------------------------------------------------------
+CHANGE 7: T01.G1.03 - Add concrete examples for clarity
+--------------------------------------------------------------------------------
+
+ID: T01.G1.03
+PRESERVE Skill: Add a missing last step to a routine
+
+OLD Description:
+Students see a 3-step routine and choose the correct 4th step. _Implementation note: MCQ picture choice. CSTA: E1-ALG-AF-01._
+
+NEW Description:
+Students see a 3-step routine about a familiar everyday task (e.g., making a sandwich: get bread, add peanut butter, add jelly) and choose the correct 4th step from picture options (eat, clean up, put away ingredients). _Implementation note: MCQ picture choice with 3-4 plausible options; contexts include meal prep, getting ready, classroom routines. CSTA: E1-ALG-AF-01._
+
+PRESERVE Dependencies:
+* T01.GK.06: What comes next?
+
+RATIONALE: Concrete examples make task expectations clearer.
+
+
+--------------------------------------------------------------------------------
+CHANGE 8: T01.G1.04 - Differentiate story vs routine prediction
+--------------------------------------------------------------------------------
+
+ID: T01.G1.04
+PRESERVE Skill: Predict the next step in a story sequence
+
+OLD Description:
+Students see 3 ordered panels and choose what happens next. _Implementation note: MCQ visuals. CSTA: E1-ALG-AF-01, E1-ALG-PS-03._
+
+NEW Description:
+Students see 3 story panels showing a narrative sequence (e.g., character sees ball, walks toward ball, reaches for ball) and choose what happens next from picture options, focusing on cause-and-effect in stories rather than procedural routines. _Implementation note: MCQ visuals with story context (not everyday tasks). CSTA: E1-ALG-AF-01, E1-ALG-PS-03._
+
+PRESERVE Dependencies:
+* T01.GK.06: What comes next?
+
+RATIONALE: Differentiate from G1.03 (routines) - this focuses on narrative causality.
+
+
+--------------------------------------------------------------------------------
+CHANGE 9: T01.G3.03 - Specify concrete project contexts
+--------------------------------------------------------------------------------
+
+ID: T01.G3.03
+PRESERVE Skill: Identify repeated blocks in a script (no loops)
+
+OLD Description:
+Students highlight which part of a script repeats the same action several times in a *specific project script*, applying the loop-pattern recognition they developed in T04.G1-G3 to a real algorithm context. _Implementation note: Highlight or click region in code. CSTA: E3-ALG-AF-01._
+
+NEW Description:
+Students highlight which blocks repeat in a short script from a familiar, simple project (e.g., sprite drawing a square, character performing a dance, robot moving in a pattern). The project should have a clear, visual goal that students can understand before examining the code. _Implementation note: Highlight or click region in code; project examples include geometric drawing, simple animation, basic movement patterns. CSTA: E3-ALG-AF-01._
+
+PRESERVE Dependencies:
+* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T04.G2.01: Identify the repeating unit in a longer pattern
+
+RATIONALE: "Specific project script" is vague; concrete examples clarify expectations.
+
+
+================================================================================
+HIGH PRIORITY CHANGES (Should implement in Phase 1)
+================================================================================
+
+--------------------------------------------------------------------------------
+CHANGE 10: T01.G1.09 - Clarify multiple-goal matching challenge
+--------------------------------------------------------------------------------
+
+ID: T01.G1.09
+PRESERVE Skill: Match an algorithm to its goal
+
+OLD Description:
+Students match short routines to labels like "clean desk," "feed pet," "get ready for recess." _Implementation note: Matching lines between sequences and goals. CSTA: E1-ALG-AF-01._
+
+NEW Description:
+Students match 3-4 short picture-based routines (4-5 steps each) to goal labels, choosing from a list of 5-6 options that include some similar or overlapping goals, requiring careful attention to the specific steps in each routine. _Implementation note: Matching lines between sequences and goals; auto-graded. CSTA: E1-ALG-AF-01._
+
+PRESERVE Dependencies: (none)
+
+RATIONALE: Specify that task includes distractors to make matching non-trivial.
+
+
+--------------------------------------------------------------------------------
+CHANGE 11: T01.G4.12 - Provide explicit comparison criteria
+--------------------------------------------------------------------------------
+
+ID: T01.G4.12
+PRESERVE Skill: Explain why one algorithm solution is better than another
+
+OLD Description:
+Students compare two working algorithms and explain which they prefer (fewer steps, easier to read) and why. _Implementation note: MCQ + short explanation. CSTA: E4-ALG-IM-04._
+
+NEW Description:
+Students compare two working algorithms that achieve the same goal and explain which is better based on provided criteria: (a) fewer steps/shorter, (b) easier to understand/clearer, or (c) uses better structures like loops. _Implementation note: MCQ for selecting best algorithm + choosing explanation from provided reasons addressing clarity, efficiency, or structure. CSTA: E4-ALG-IM-04._
+
+PRESERVE Dependencies: (none)
+
+RATIONALE: Explicit criteria reduce ambiguity and focus student thinking.
+
+
+--------------------------------------------------------------------------------
+CHANGE 12: T01.G6.01 - Align title with qualitative description
+--------------------------------------------------------------------------------
+
+ID: T01.G6.01
+
+OLD Skill: Count comparisons in linear and binary search
+
+NEW Skill: Compare efficiency of linear and binary search
+
+PRESERVE Description:
+Students qualitatively compare linear and binary search on small lists, identifying that binary search typically uses fewer comparisons by eliminating half the remaining options with each step. (Focus on *why* binary is faster, not exact counts.) _Implementation note: Table; auto-graded. CSTA: MS-ALG-AF-02._
+
+PRESERVE Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+
+RATIONALE: Title said "count" but description emphasizes qualitative comparison.
+
+
+================================================================================
+NEW SKILLS TO ADD
+================================================================================
+
+--------------------------------------------------------------------------------
+NEW SKILL 1: T01.G2.15 - Bridge picture-based to block-based coding
+--------------------------------------------------------------------------------
+
+ADD THIS NEW SKILL AFTER T01.G2.14:
+
+ID: T01.G2.15
+Topic: T01 – Everyday Algorithms
+Skill: Match picture instructions to visual block commands
+Description: Students match simple picture-based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block-based commands (e.g., blocks showing "move forward," "move forward," "turn right"), recognizing that pictures and blocks can represent the same algorithm with the same outcome. _Implementation note: Drag-and-drop matching with 3-4 sequence pairs; auto-graded. Focus on 1-to-1 correspondence between picture symbols and block icons. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+* T01.G2.13: Write directions to navigate a simple grid
+
+RATIONALE: Creates explicit bridge between K-2 picture-based and G3+ block-coding approaches.
+
+
+--------------------------------------------------------------------------------
+NEW SKILL 2a: T01.G5.02.01 - Convert flowchart to code (replaces G5.02 part 1)
+--------------------------------------------------------------------------------
+
+REPLACE T01.G5.02 WITH TWO SKILLS:
+
+ID: T01.G5.02.01
+Topic: T01 – Everyday Algorithms
+Skill: Convert a simple flowchart into code
+Description: Students implement a simple flowchart (5-7 steps with 1-2 decision diamonds and 0-1 loop structures) as block-based code for a small CreatiCode project. Focus on mapping flowchart symbols (rectangles → action blocks, diamonds → if/then, loop connectors → repeat) to code constructs. _Implementation note: Coding task; auto-graded on behavior matching flowchart logic and basic structural correspondence between shapes and blocks. Project examples: simple game turn, animated sequence with choices. CSTA: E5-ALG-AF-01, E5-PRO-PF-01._
+
+Dependencies:
+* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
+* [ACTION REQUIRED: Add T02.G4.x or T02.G5.x for flowchart symbols, once verified]
+
+
+--------------------------------------------------------------------------------
+NEW SKILL 2b: T01.G5.02.02 - Convert pseudocode to code (replaces G5.02 part 2)
+--------------------------------------------------------------------------------
+
+ID: T01.G5.02.02
+Topic: T01 – Everyday Algorithms
+Skill: Convert simple pseudocode into code
+Description: Students implement simple pseudocode (structured text with REPEAT, IF/THEN, SET variable) as block-based code for a small CreatiCode project. Pseudocode uses conventions introduced in T02 (structured English with keywords in caps). Focus on translating text descriptions of actions into equivalent block commands. _Implementation note: Coding task; auto-graded on behavior and correspondence to pseudocode intent. Project examples: score tracker, animated routine with conditions. CSTA: E5-ALG-AF-01, E5-PRO-PF-01._
+
+Dependencies:
+* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01: Create and use a numeric variable for score or count
+* [ACTION REQUIRED: Add T02.G4.x or T02.G5.x for pseudocode conventions, once verified]
+
+RATIONALE FOR SPLIT: Flowchart-to-code and pseudocode-to-code are distinct translation skills. Flowcharts emphasize visual-spatial reasoning and symbol mapping; pseudocode emphasizes reading structured text and keyword recognition. Splitting allows targeted practice and clearer assessment of each skill.
+
+NOTE: After adding G5.02.01 and G5.02.02, RENUMBER the following skills:
+- OLD T01.G5.03 becomes T01.G5.04 (Convert short program into pseudocode)
+- OLD T01.G5.04 becomes T01.G5.05 (Trace search algorithm)
+- ... continue through G5.10 → G5.11
+
+ALTERNATIVE (to avoid renumbering): Use sub-IDs (G5.02.01, G5.02.02) and keep G5.03-G5.10 unchanged. This is RECOMMENDED to minimize cascading changes.
+
+
+================================================================================
+OPTIONAL ENHANCEMENT (Future consideration)
+================================================================================
+
+--------------------------------------------------------------------------------
+OPTIONAL NEW SKILL: T01.G7.09 - Introduce recursive thinking concept
+--------------------------------------------------------------------------------
+
+ADD THIS NEW SKILL AFTER T01.G7.08 (if G7 expansion desired):
+
+ID: T01.G7.09
+Topic: T01 – Everyday Algorithms
+Skill: Recognize the recursive pattern in algorithm descriptions
+Description: Students read natural-language descriptions of algorithms (e.g., "To count blocks in a stack: if stack is empty, answer 0; otherwise, count 1 for the top block plus the count of the remaining stack") and identify the "big idea" of recursion: solving a problem by solving a smaller version of the same problem. _Implementation note: MCQ matching descriptions to concepts ("breaks problem into smaller same-type problems," "uses a base case to stop," "calls itself with simpler input"); no code implementation. CSTA: MS-ALG-PS-07._
+
+Dependencies:
+* T07.G6.01: [Insert appropriate G6 loop skill - understanding iteration helps contrast with recursion]
+
+RATIONALE: G8.04-05 introduce recursion conceptually but with little G7 scaffolding. This G7 skill builds intuition for "solving via smaller versions" before G8 requires tracing, making transition smoother.
+
+
+================================================================================
+ACTION ITEMS FOR CROSS-TOPIC VERIFICATION
+================================================================================
+
+These actions require checking other topics before finalizing T01:
+
+ACTION 1: Verify T02 (Planning & Problem Solving) introduces flowcharts and pseudocode
+- CHECK: Does T02.G4.x or earlier introduce flowchart symbols?
+- CHECK: Does T02.G4.x or T02.G5.x introduce pseudocode conventions?
+- IF YES: Add T02 dependencies to T01.G5.01, T01.G5.02.01, T01.G5.02.02, T01.G6.07
+
+ACTION 2: Verify T06 (Events & Project Structure) has appropriate G6-G7 skills
+- NEEDED FOR: T01.G7.01 update
+- CHECK: What is the appropriate G6 or G7 skill to replace T06.G5.01?
+- RECOMMENDATION: Look for multi-sprite coordination or general project building
+
+ACTION 3: Verify T09 (Variables & Data) has appropriate G6-G7 skills
+- NEEDED FOR: T01.G7.01 update
+- CHECK: What is the appropriate G6 or G7 skill to replace T09.G5.01?
+- RECOMMENDATION: Look for cross-sprite variables or general variable operations
+
+ACTION 4: Verify T06 has appropriate G7-G8 custom block skills
+- NEEDED FOR: T01.G8.10 update
+- CHECK: Is there a G7 or G8 skill for custom blocks (with or without inputs)?
+- IF NOT: Consider whether custom blocks are essential for logging skill
+
+ACTION 5: Review T14.G3.01 dependency necessity
+- CURRENT: T01.G3.12 depends on T14.G3.01 (Move sprite with arrow keys)
+- QUESTION: Is keyboard movement essential for "predict final state" skill?
+- ALTERNATIVE: Could T06.G3.01 + T07.G3.01 suffice for general scripting?
+- RECOMMENDATION: Consider whether T14 dependency is too narrow/specific
+
+
+================================================================================
+IMPLEMENTATION SUMMARY
+================================================================================
+
+CRITICAL CHANGES (must do before Phase 1):
+- 5 dependency fixes for X-2 violations (3 simple removals, 2 require cross-topic verification)
+- 4 description improvements for clarity (GK.08, G1.03, G1.04, G3.03)
+
+HIGH PRIORITY CHANGES (should do in Phase 1):
+- 1 new bridging skill (G2.15)
+- 1 skill split (G5.02 → G5.02.01 + G5.02.02)
+- 3 additional description improvements (G1.09, G4.12, G6.01 title)
+
+CROSS-TOPIC ACTIONS (coordinate during implementation):
+- 5 verification tasks for T02, T06, T09, T14 dependencies
+
+OPTIONAL ENHANCEMENTS (future consideration):
+- 1 new G7 skill for recursive thinking scaffolding
+- Consider expanding G6-G7 with more content (currently thinner than other grades)
+
+TOTAL MODIFIED EXISTING SKILLS: 12
+TOTAL NEW SKILLS PROPOSED: 3 (1 required, 2 from split, 1 optional)
+TOTAL SKILLS DELETED: 0 (per instructions - no deletions)
+
+ESTIMATED IMPACT:
+- Critical fixes resolve structural issues (X-2 violations)
+- High priority changes improve clarity and scaffolding
+- Overall topic quality improves from STRONG to EXCELLENT
+- No breaking changes to existing curriculum structure
+
+================================================================================
+END OF EXACT CHANGES DOCUMENT
+================================================================================
