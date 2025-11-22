@@ -1,0 +1,187 @@
+================================================================================
+T35 QUALITY ISSUES ANALYSIS
+================================================================================
+
+1. MISSING OR INADEQUATE DESCRIPTIONS
+--------------------------------------------------------------------------------
+  HIGH: T35.G6.02: Missing or inadequate description
+
+
+2. AGE-APPROPRIATENESS ISSUES
+--------------------------------------------------------------------------------
+K-2 should be picture/unplugged, G3+ should involve coding
+
+  MEDIUM: T35.G2.03: K-2 skill involves coding (should be picture/unplugged)
+    Skill: Practice online kindness scripts
+
+  MEDIUM: T35.G6.03.01: G3+ skill doesn't involve coding or research
+    Skill: Develop ethics guidelines for AI perception and assistance (T23-T24)
+
+  MEDIUM: T35.G7.01.01: G3+ skill doesn't involve coding or research
+    Skill: Conduct bias audits for AI perception and assistance (T23-T24)
+
+  MEDIUM: T35.G7.03: G3+ skill doesn't involve coding or research
+    Skill: Evaluate transparency vs security tensions
+
+  MEDIUM: T35.G8.01: G3+ skill doesn't involve coding or research
+    Skill: Apply ethical frameworks to real proposals
+
+  MEDIUM: T35.G8.02: G3+ skill doesn't involve coding or research
+    Skill: Draft equity-focused policy briefs for AI in education
+
+  MEDIUM: T35.G8.04: G3+ skill doesn't involve coding or research
+    Skill: Lead peer workshops on responsible tech use
+
+
+
+3. SKILLS THAT ARE TOO BROAD/COMPLEX
+--------------------------------------------------------------------------------
+  LOW: T35.G3.02: Very long description (525 chars)
+    Skill: Discuss how algorithms influence what we see
+
+  LOW: T35.G4.02: Very long description (526 chars)
+    Skill: Understand advertising/persuasion online
+
+  MEDIUM: T35.G4.03: Very complex (multiple distinct activities)
+    Skill: Reflect on accessibility/inclusion in games
+    Activity count: 4
+
+  LOW: T35.G4.03: Very long description (563 chars)
+    Skill: Reflect on accessibility/inclusion in games
+
+  LOW: T35.G6.01: Very long description (650 chars)
+    Skill: Apply ethics lenses (beneficence, fairness, autonomy)
+
+  MEDIUM: T35.G6.03: Very complex (multiple distinct activities)
+    Skill: Develop ethics guidelines for AI content generation (T21-T22)
+    Activity count: 3
+
+  LOW: T35.G6.03: Very long description (725 chars)
+    Skill: Develop ethics guidelines for AI content generation (T21-T22)
+
+  MEDIUM: T35.G6.05: Very complex (multiple distinct activities)
+    Skill: Build consent mechanisms for data collection
+    Activity count: 4
+
+  LOW: T35.G6.05: Very long description (570 chars)
+    Skill: Build consent mechanisms for data collection
+
+  MEDIUM: T35.G7.04: Very complex (multiple distinct activities)
+    Skill: Analyze societal impacts of AI perception technologies (Pairing with T23)
+    Activity count: 3
+
+  LOW: T35.G7.04: Very long description (717 chars)
+    Skill: Analyze societal impacts of AI perception technologies (Pairing with T23)
+
+  MEDIUM: T35.G7.05: Very complex (multiple distinct activities)
+    Skill: Debate ethical implications of AI media generation (Pairing with T21)
+    Activity count: 3
+
+  LOW: T35.G7.05: Very long description (602 chars)
+    Skill: Debate ethical implications of AI media generation (Pairing with T21)
+
+  LOW: T35.G7.07: Very long description (512 chars)
+    Skill: Compare honest vs. misleading data visualizations
+
+  MEDIUM: T35.G8.03: Very complex (multiple distinct activities)
+    Skill: Design impact assessments for CreatiCode projects
+    Activity count: 4
+
+  LOW: T35.G8.03: Very long description (829 chars)
+    Skill: Design impact assessments for CreatiCode projects
+
+
+
+4. X-2 RULE VIOLATIONS (Cross-topic dependencies)
+--------------------------------------------------------------------------------
+
+
+5. POTENTIAL DUPLICATES OR OVERLAPS (within T35)
+--------------------------------------------------------------------------------
+
+  Theme: AI_TOOLS (26 skills)
+    T35.GK.03: Practice device sharing etiquette
+    T35.G1.01: Sort good vs not-so-good choices and explain why
+    T35.G1.02: Match feelings to technology experiences
+    T35.G2.02: Plan balanced tech schedules
+    T35.G2.04: Distinguish public vs. private information
+    T35.G3.01: Evaluate digital footprints
+    T35.G3.03: Develop class guidelines for respectful communication
+    T35.G4.03: Reflect on accessibility/inclusion in games
+    T35.G5.01: Examine global impacts of technology
+    T35.G5.03: Analyze AI's differential impacts on workers and communities
+    T35.G5.04: Visualize stakeholder impacts using data tools
+    T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
+    T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+    T35.G6.03.01: Develop ethics guidelines for AI perception and assistance (T23-T24)
+    T35.G6.04: Examine digital divide data
+    T35.G6.05: Build consent mechanisms for data collection
+    T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+    T35.G7.01.01: Conduct bias audits for AI perception and assistance (T23-T24)
+    T35.G7.03: Evaluate transparency vs security tensions
+    T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+    T35.G7.05: Debate ethical implications of AI media generation (Pairing with T21)
+    T35.G7.06: Facilitate community discussions on AI-powered tech policy
+    T35.G8.01: Apply ethical frameworks to real proposals
+    T35.G8.01.01: Analyze AI chatbots' impact on information literacy (Pairing with T22)
+    T35.G8.02: Draft equity-focused policy briefs for AI in education
+    T35.G8.04: Lead peer workshops on responsible tech use
+
+  Theme: BIAS (4 skills)
+    T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+    T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+    T35.G7.01.01: Conduct bias audits for AI perception and assistance (T23-T24)
+    T35.G8.02: Draft equity-focused policy briefs for AI in education
+
+  Theme: DIGITAL_FOOTPRINT (5 skills)
+    T35.GK.03: Practice device sharing etiquette
+    T35.GK.04: Choose safe sharing in role-play
+    T35.G2.01: Compare benefits and harms of a tech tool
+    T35.G3.01: Evaluate digital footprints
+    T35.G4.04: Create a digital citizen pledge project
+
+  Theme: ETHICS_FRAMEWORKS (6 skills)
+    T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
+    T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+    T35.G6.03.01: Develop ethics guidelines for AI perception and assistance (T23-T24)
+    T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+    T35.G7.07: Compare honest vs. misleading data visualizations
+    T35.G8.01: Apply ethical frameworks to real proposals
+
+  Theme: PRIVACY (7 skills)
+    T35.G4.01: Analyze case studies of tech helping/harming communities
+    T35.G4.04: Create a digital citizen pledge project
+    T35.G6.02: Analyze data privacy tradeoffs
+    T35.G6.05: Build consent mechanisms for data collection
+    T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+    T35.G8.02: Draft equity-focused policy briefs for AI in education
+    T35.G8.03: Design impact assessments for CreatiCode projects
+
+
+6. MISSING SCAFFOLDING / PROGRESSION GAPS
+--------------------------------------------------------------------------------
+
+
+7. SKILL DISTRIBUTION ISSUES
+--------------------------------------------------------------------------------
+  MEDIUM: G7 has 8 skills (may be too many)
+
+
+8. SPECIFIC T35 ISSUES
+--------------------------------------------------------------------------------
+
+Skills with sub-numbering (potential indicator of added skills):
+  T35.G6.03.01: Develop ethics guidelines for AI perception and assistance (T23-T24)
+  T35.G7.01.01: Conduct bias audits for AI perception and assistance (T23-T24)
+  T35.G8.01.01: Analyze AI chatbots' impact on information literacy (Pairing with T22)
+
+
+================================================================================
+PRIORITY SUMMARY
+================================================================================
+
+HIGH PRIORITY ISSUES: 1
+MEDIUM PRIORITY ISSUES: 13
+LOW PRIORITY ISSUES: 10
+
+TOTAL ISSUES: 24

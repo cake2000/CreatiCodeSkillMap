@@ -1,0 +1,295 @@
+# T01 - EVERYDAY ALGORITHMS: DEPENDENCY FLOW VISUALIZATION
+
+## Internal Dependency Chain (T01 skills only)
+
+### Kindergarten (GK)
+```
+T01.GK.01 (Put pictures in order - bed)
+    └─→ T01.GK.03 (Find first and last)
+    │       └─→ T01.GK.05 (Move wrong picture)
+    │       └─→ T01.GK.07 (Find repeating pattern)
+    │               └─→ T01.GK.08 (Pattern game)
+    │
+    └─→ T01.GK.04 (Pick pictures that make sense)
+    └─→ T01.GK.06 (What comes next?)
+
+T01.GK.02 (Put pictures in order - class)
+```
+
+### Grade 1 (G1)
+```
+T01.GK.02 (from Kindergarten)
+    └─→ T01.G1.01 (Make your own 3-step routine)
+
+T01.GK.06 (from Kindergarten)
+    └─→ T01.G1.03 (Add missing last step)
+    │       └─→ T01.G1.05 (Check routine for mistakes)
+    │
+    └─→ T01.G1.04 (Put mixed-up pictures back in order)
+
+T01.GK.05 (from Kindergarten)
+    └─→ T01.G1.06 (Switch one picture to improve)
+
+T01.GK.04 (from Kindergarten)
+    └─→ T01.G1.07 (Decide if two algorithms have same result)
+            └─→ T01.G1.08 (Choose the shorter algorithm)
+
+T01.GK.04 (from Kindergarten)
+    └─→ T01.G1.10 (Match pictures to if/then rules)
+
+T01.G1.02 (Match two ways to do same thing) [NO DEPENDENCIES]
+T01.G1.09 (Match if/then rule to picture) [NO DEPENDENCIES]
+```
+
+### Grade 2 (G2)
+```
+T01.GK.07 + T04.G1.03 [EXTERNAL]
+    └─→ T01.G2.01 (Find repeating actions in tasks)
+            └─→ T01.G2.02 (Use "repeat" notation)
+                    └─→ T01.G2.03 (Write directions with "repeat")
+                            └─→ T01.G2.08 (Replace steps with repeat)
+                                    └─→ T01.G2.09 (Trace "repeat N times")
+                                            └─→ T01.G2.10 (Fix wrong repeat count)
+
+T01.G1.10 (from Grade 1)
+    └─→ T01.G2.04 (Match if/then rules to pictures)
+            └─→ T01.G2.05 (Complete if/then algorithm)
+                    └─→ T01.G2.06 (Choose best if/then rule)
+                            ├─→ T01.G2.07 (Identify when if/then happens)
+                            └─→ T01.G2.13 (Create own if/then algorithm)
+                                    └─→ T01.G2.14 (Test on different examples)
+                                            └─→ T01.G2.15 (Fix algorithm for all cases)
+
+T01.G2.07 + T01.G2.09
+    └─→ T01.G2.11 (Combine if/then and repeat)
+            └─→ T01.G2.12 (Trace if/then + repeat)
+```
+
+### Grade 3 (G3) - ALL EXTERNAL DEPENDENCIES
+```
+[All G3 skills depend on T06.G3.01, T07.G3.01, T08.G3.01, T09.G3.01.04]
+
+Code Understanding:
+    T01.G3.01 (Complete script with missing blocks)
+    T01.G3.02 (Match story to code)
+
+Loops:
+    T01.G3.03 (Identify repeated blocks)
+    T01.G3.04 (Predict repeat count)
+    T01.G3.05 (Replace blocks with loop)
+    T01.G3.06 (Trace repeat loop for movement)
+    T01.G3.07 (Adjust repeat count)
+
+Conditionals:
+    T01.G3.08 (Add if/then to script)
+    T01.G3.09 (Match if/then script to behavior)
+    T01.G3.10 (Trace script with if/then)
+
+Analysis:
+    T01.G3.11 (Explain what program does)
+    T01.G3.12 (Predict final state)
+
+Debugging:
+    T01.G3.13 (Debug wrong order)
+    T01.G3.14 (Debug wrong loop count)
+    T01.G3.15 (Debug if/then that doesn't trigger)
+```
+
+### Grade 4 (G4)
+```
+T01.G3.11 (from Grade 3)
+    └─→ T01.G4.01 (Plan before coding)
+            └─→ T01.G4.12 (Explain if algorithm is correct)
+
+Variables path:
+    T01.G4.06 (Recognize variables)
+    T01.G4.07 (Trace counter variable)
+    T01.G4.08 (Add variable to count events)
+    T01.G4.09 (Use variable for game state)
+    T01.G4.10 (Trace multi-step with loops & variables)
+    T01.G4.11 (Debug off-by-one)
+
+Loops path:
+    T01.G4.03 (Identify repeated patterns)
+    T01.G4.04 (Replace patterns with loops)
+    T01.G4.05 (Compare with/without loops)
+
+Code creation:
+    T01.G4.02 (Implement written plan)
+```
+
+### Grade 5 (G5)
+```
+Representations:
+    T01.G5.01 (Match description to flowchart)
+    T01.G5.02.01 (Convert flowchart to code)
+    T01.G5.02.02 (Convert pseudocode to code)
+    T01.G5.03 (Convert program to pseudocode)
+
+Analysis:
+    T01.G5.04 (Trace search algorithm)
+    T01.G5.05 (Determine correctness for all inputs)
+        └─→ T01.G5.11 (Choose appropriate test cases)
+    T01.G5.06 (Compare algorithms for efficiency)
+    T01.G5.09 (Explain why algorithm is correct)
+
+Debugging:
+    T01.G5.07 (Debug edge case handling)
+    T01.G5.08 (Add edge case checks)
+
+Optimization:
+    T01.G5.10 (Rewrite using loops/helpers)
+```
+
+### Grade 6 (G6)
+```
+Efficiency Analysis:
+    T01.G5.06 (from Grade 5)
+        └─→ T01.G6.02 (Identify best/worst case)
+                └─→ T01.G6.05 (Recognize "good enough")
+                        └─→ T01.G6.06 (Justify algorithm choices)
+
+    T01.G6.01 (Compare linear vs binary search) [NO DEPS]
+
+Optimization:
+    T01.G6.03 (Spot unnecessary work) [NO DEPS]
+    T01.G6.04 (Revise to do less work)
+
+Design:
+    T01.G6.07 (Design multi-step flowchart) [NO DEPS]
+    T01.G6.08 (Implement from flowchart)
+```
+
+### Grade 7 (G7)
+```
+Patterns:
+    T01.G7.01 (Identify pattern in program) [NO DEPS]
+        └─→ T01.G7.02 (Choose appropriate pattern)
+                └─→ T01.G7.06 (Refactor to use better pattern)
+
+    T01.G7.03 (Write pseudocode for search/accumulation) [NO DEPS]
+
+Analysis:
+    T01.G5.04 (from Grade 5)
+        └─→ T01.G7.04 (Trace sorting algorithm) [NO DEPS]
+
+    T01.G6.02 (from Grade 6)
+        └─→ T01.G7.05 (Compare two algorithmic approaches) [NO DEPS]
+
+Optimization:
+    T01.G6.04 (from Grade 6)
+        └─→ T01.G7.07 (Optimize by reducing redundant ops)
+                └─→ T01.G8.07 (Propose improvements from profiling)
+
+    T01.G7.08 (Rewrite naive algorithm with better pattern)
+```
+
+### Grade 8 (G8)
+```
+Simulation:
+    T01.G8.01 (Design simulation update rules) [NO DEPS]
+    T01.G8.02 (Interpret simulation behavior)
+
+Recursion:
+    T01.G8.04 (Identify base case & recursive step) [NO DEPS]
+    T01.G8.05 (Trace recursive algorithm)
+
+Advanced Analysis:
+    T01.G7.05 (from Grade 7)
+        ├─→ T01.G8.03 (Compare iterative vs recursive) [NO DEPS]
+        └─→ T01.G8.06 (Analyze time/space trade-offs)
+
+    T01.G7.07 (from Grade 7)
+        └─→ T01.G8.07 (Propose improvements from profiling)
+
+Refactoring:
+    T01.G8.08 (Refactor for clarity)
+    T01.G8.09 (Refactor for efficiency)
+
+Capstone:
+    T01.G8.10 (Facilitate retrospectives) [288 DEPENDENCIES!]
+```
+
+## External Dependency Patterns
+
+### Grade 3 Transition (The "Dependency Cliff")
+```
+Grades K-2: Picture-based, conceptual
+    ↓
+    ↓ [MAJOR SHIFT]
+    ↓
+Grade 3+: Code-based, requires:
+    - T06.G3.01 (Sequencing/Events)
+    - T07.G3.01 (Loops)
+    - T08.G3.01 (Conditionals)
+    - T09.G3.01.04 (Variables)
+```
+
+### Common External Dependency Clusters
+
+**Cluster 1: Basic Coding (appears in 43+ skills)**
+```
+T06.G3.01 (Build green-flag script)
+T07.G3.01 (Use counted repeat loop)
+T08.G3.01 (Use simple if in a script)
+T09.G3.01.04 (Display variable value)
+```
+
+**Cluster 2: Advanced Coding (appears in 20+ skills)**
+```
+T06.G6.01 (Trace event execution paths)
+T08.G5.01 (Advanced conditionals)
+T09.G6.01 (Model quantities with variables)
+```
+
+**Cluster 3: Patterns (appears in 10+ skills)**
+```
+T04.G2.01 (Identify repeating unit)
+T04.G3.01 (Identify where loop could replace blocks)
+T04.G3.02 (Match repeat loop to behavior)
+```
+
+## Optimization Safety Zones
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ SAFE ZONE (Can modify freely)                              │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ Kindergarten (8 skills)        [100% safe]             │ │
+│ │ Grade 1 (10 skills)            [100% safe]             │ │
+│ │ Grade 2 (14 of 15 skills)      [93.3% safe]            │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│ Total: 32 skills                                            │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ CAUTION ZONE (Review dependencies first)                   │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ Grade 7 (5 of 8 skills)        [62.5% safe]            │ │
+│ │ Grade 6 (3 of 8 skills)        [37.5% safe]            │ │
+│ │ Grade 8 (3 of 10 skills)       [30.0% safe]            │ │
+│ │ Grade 4 (2 of 12 skills)       [16.7% safe]            │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│ Total: 13 skills                                            │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│ DANGER ZONE (Preserve all dependencies)                    │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ Grade 3 (15 skills)            [0% safe]               │ │
+│ │ Grade 5 (11 skills)            [0% safe]               │ │
+│ │ Grade 4 (10 of 12 skills)      [16.7% safe]            │ │
+│ │ Grade 6 (5 of 8 skills)        [37.5% safe]            │ │
+│ │ Grade 8 (7 of 10 skills)       [30.0% safe]            │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│ Total: 48 skills                                            │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## Summary
+
+- **32 skills** (33%) can be optimized with minimal risk
+- **13 skills** (13.4%) require careful dependency review
+- **52 skills** (53.6%) have external dependencies that must be preserved
+
+Focus Phase 1 optimization on the SAFE ZONE (K, G1, G2).

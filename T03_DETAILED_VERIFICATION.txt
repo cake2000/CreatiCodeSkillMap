@@ -1,0 +1,273 @@
+================================================================================
+T03 SKILLS VERIFICATION REPORT
+================================================================================
+
+Total T03 skills found: 50
+
+================================================================================
+
+ALL T03 SKILLS:
+--------------------------------------------------------------------------------
+T03.G1.01 [G1]: Describe what one part of a system does
+  -> T03.GK.01 [GK]: Identify parts that make up a whole
+T03.G1.02 [G1]: Group related parts by function
+  -> T03.G1.01 [G1]: Describe what one part of a system does
+T03.G1.03 [G1]: List steps for a simple classroom routine
+  -> T03.GK.03 [GK]: Order 3–4 pictures to show steps in a routine
+T03.G1.04 [G1]: Match steps to parts of a tiny story or game
+  -> T03.G1.03 [G1]: List steps for a simple classroom routine
+T03.G2.01 [G2]: Choose subtasks for a simple project idea
+  -> T03.G1.03 [G1]: List steps for a simple classroom routine
+T03.G2.02 [G2]: Group subtasks by type
+  -> T03.G2.01 [G2]: Choose subtasks for a simple project idea
+T03.G2.03 [G2]: Arrange subtasks into a reasonable order
+  -> T03.G2.02 [G2]: Group subtasks by type
+T03.G2.04 [G2]: Use a checklist to track progress on a mini‑project
+  -> T03.G2.03 [G2]: Arrange subtasks into a reasonable order
+T03.G2.05 [G2]: Identify what a simple game or story can do
+  -> T03.G2.02 [G2]: Group subtasks by type
+T03.G3.01 [G3]: Identify features in a small game description
+  -> T03.G2.05 [G2]: Identify what a simple game or story can do
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+T03.G3.02 [G3]: Group features into "must‑have" vs "nice‑to‑have"
+  -> T03.G3.01 [G3]: Identify features in a small game description
+  -> T07.G3.01 [G3]: Use a counted repeat loop
+T03.G3.03 [G3]: Create a 3‑panel storyboard for a project
+  -> T03.G3.02 [G3]: Group features into "must‑have" vs "nice‑to‑have"
+T03.G3.04 [G3]: Match storyboard panels to project scenes
+  -> T03.G3.03 [G3]: Create a 3‑panel storyboard for a project
+T03.G3.05 [G3]: Choose a step‑by‑step plan for a small project
+  -> T03.G3.04 [G3]: Match storyboard panels to project scenes
+T03.G3.06 [G3]: Link each subtask to a logical component or responsibility
+  -> T03.G3.05 [G3]: Choose a step‑by‑step plan for a small project
+  -> T09.G3.02 [G3]: Use a variable in a conditional (if block)
+T03.G3.07 [G3]: Identify different jobs needed to make a project
+  -> T03.G3.02 [G3]: Group features into "must‑have" vs "nice‑to‑have"
+T03.G4.01 [G4]: Break a medium‑size project into components
+  -> T03.G3.06 [G3]: Link each subtask to a logical component or responsibility
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+  -> T08.G3.01 [G3]: Use a simple if in a script
+  -> T09.G3.01.04 [G3]: Display variable value on stage using the variable monitor
+T03.G4.02 [G4]: Group related components into modules
+  -> T03.G4.01 [G4]: Break a medium‑size project into components
+T03.G4.03 [G4]: Assign project tasks to team roles
+  -> T03.G3.07 [G3]: Identify different jobs needed to make a project
+T03.G4.04 [G4]: Create a simple task list with owners and order
+  -> T03.G4.03 [G4]: Assign project tasks to team roles
+T03.G4.05 [G4]: Spot a missing or unnecessary task in a plan
+  -> T03.G3.05 [G3]: Choose a step‑by‑step plan for a small project
+  -> T03.G4.04 [G4]: Create a simple task list with owners and order
+T03.G4.06 [G4]: Update a plan after testing feedback
+  -> T03.G3.05 [G3]: Choose a step‑by‑step plan for a small project
+T03.G5.01 [G5]: Create a feature list and subtask breakdown
+  -> T03.G4.01 [G4]: Break a medium‑size project into components
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+T03.G5.02 [G5]: Draw a high‑level project map
+  -> T03.G4.01 [G4]: Break a medium‑size project into components
+  -> T02.G4.01 [G4]: Add a loop to an existing flowchart
+T03.G5.03 [G5]: Identify task dependencies in a project plan
+  -> T03.G4.01 [G4]: Break a medium‑size project into components
+  -> T03.G4.05 [G4]: Spot a missing or unnecessary task in a plan
+T03.G5.04 [G5]: Identify unclear tasks and break them into specific steps
+  -> T03.G4.01 [G4]: Break a medium‑size project into components
+  -> T03.G4.06 [G4]: Update a plan after testing feedback
+T03.G5.05 [G5]: Compare two project plans for the same idea
+  -> T03.G4.05 [G4]: Spot a missing or unnecessary task in a plan
+  -> T03.G4.01 [G4]: Break a medium‑size project into components
+T03.G5.06 [G5]: Identify modules in example projects
+  -> T03.G5.01 [G5]: Create a feature list and subtask breakdown
+  -> T03.G4.02 [G4]: Group related components into modules
+T03.G6.01 [G6]: Propose modules for a medium project
+  -> T03.G5.01 [G5]: Create a feature list and subtask breakdown
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+  -> T09.G3.01.04 [G3]: Display variable value on stage using the variable monitor
+T03.G6.02 [G6]: Identify reusable components in a complex process
+  -> T03.G5.01 [G5]: Create a feature list and subtask breakdown
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+T03.G6.03 [G6]: Break a project into milestones (v1/v2/v3)
+  -> T03.G5.01 [G5]: Create a feature list and subtask breakdown
+T03.G6.04 [G6]: Adjust milestones after discovering a constraint
+  -> T03.G6.03 [G6]: Break a project into milestones (v1/v2/v3)
+  -> T03.G4.06 [G4]: Update a plan after testing feedback
+T03.G6.05 [G6]: Use XO to expand a basic idea into subtasks
+  -> T03.G5.01 [G5]: Create a feature list and subtask breakdown
+T03.G7.01 [G7]: Draw an architecture diagram for a multi‑component project
+  -> T03.G6.01 [G6]: Propose modules for a medium project
+  -> T02.G3.01 [G3]: Identify start, action, and end symbols in flowcharts
+  -> T04.G5.01 [G5]: Identify the repeating unit in a longer pattern
+T03.G7.02 [G7]: Map functional modules to architecture components
+  -> T03.G7.01 [G7]: Draw an architecture diagram for a multi‑component project
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+  -> T09.G3.01.04 [G3]: Display variable value on stage using the variable monitor
+T03.G7.03 [G7]: Compare two decompositions of the same project
+  -> T03.G6.01 [G6]: Propose modules for a medium project
+  -> T03.G5.05 [G5]: Compare two project plans for the same idea
+T03.G7.04 [G7]: Propose an alternative decomposition to fix a planning problem
+  -> T03.G7.03 [G7]: Compare two decompositions of the same project
+  -> T06.G3.01 [G3]: Build a green‑flag script that runs a 3–5 block sequence
+  -> T09.G3.01.04 [G3]: Display variable value on stage using the variable monitor
+T03.G7.05 [G7]: Create a test checklist based on a project breakdown
+  -> T03.G6.01 [G6]: Propose modules for a medium project
+  -> T03.G5.02 [G5]: Draw a high‑level project map
+T03.G7.06 [G7]: Update a project plan after test results
+  -> T03.G7.05 [G7]: Create a test checklist based on a project breakdown
+  -> T03.G5.03 [G5]: Identify task dependencies in a project plan
+T03.G8.01 [G8]: Outline a formal project specification
+  -> T03.G7.01 [G7]: Draw an architecture diagram for a multi‑component project
+T03.G8.02 [G8]: Use XO to refine and check a project spec
+  -> T03.G8.01 [G8]: Outline a formal project specification
+T03.G8.03 [G8]: Rank project ideas by complexity and timeline
+  -> T03.G7.03 [G7]: Compare two decompositions of the same project
+T03.G8.04 [G8]: Identify over‑scoped plans and suggest scope reductions
+  -> T03.G8.03 [G8]: Rank project ideas by complexity and timeline
+  -> T03.G6.03 [G6]: Break a project into milestones (v1/v2/v3)
+T03.G8.05 [G8]: Propose a refactoring plan for a complex project
+  -> T03.G7.04 [G7]: Propose an alternative decomposition to fix a planning problem
+  -> T06.G6.01 [G6]: Trace event execution paths in a multi‑event program
+T03.G8.06 [G8]: Map refactoring tasks to future milestones
+  -> T03.G8.05 [G8]: Propose a refactoring plan for a complex project
+  -> T03.G6.04 [G6]: Adjust milestones after discovering a constraint
+T03.GK.01 [GK]: Identify parts that make up a whole
+  -> (no dependencies)
+T03.GK.02 [GK]: Match parts to whole objects
+  -> T03.GK.01 [GK]: Identify parts that make up a whole
+T03.GK.03 [GK]: Order 3–4 pictures to show steps in a routine
+  -> T01.GK.01 [GK]: Put pictures in order for getting ready for bed
+T03.GK.04 [GK]: Choose the missing middle step in a routine
+  -> T03.GK.03 [GK]: Order 3–4 pictures to show steps in a routine
+T03.GK.05 [GK]: Describe what each step accomplishes
+  -> T03.GK.03 [GK]: Order 3–4 pictures to show steps in a routine
+
+================================================================================
+X-2 RULE VIOLATIONS:
+--------------------------------------------------------------------------------
+
+No X-2 rule violations found!
+
+================================================================================
+CROSS-TOPIC DEPENDENCY ANALYSIS:
+--------------------------------------------------------------------------------
+
+Dependencies on T01:
+  T03.GK.03: Order 3–4 pictures to show steps in a routine
+    -> T01.GK.01: Put pictures in order for getting ready for bed
+
+Dependencies on T02:
+  T03.G5.02: Draw a high‑level project map
+    -> T02.G4.01: Add a loop to an existing flowchart
+  T03.G7.01: Draw an architecture diagram for a multi‑component project
+    -> T02.G3.01: Identify start, action, and end symbols in flowcharts
+
+Dependencies on T04:
+  T03.G7.01: Draw an architecture diagram for a multi‑component project
+    -> T04.G5.01: Identify the repeating unit in a longer pattern
+
+Dependencies on T06:
+  T03.G3.01: Identify features in a small game description
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G4.01: Break a medium‑size project into components
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G5.01: Create a feature list and subtask breakdown
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G6.01: Propose modules for a medium project
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G6.02: Identify reusable components in a complex process
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G7.02: Map functional modules to architecture components
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G7.04: Propose an alternative decomposition to fix a planning problem
+    -> T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  T03.G8.05: Propose a refactoring plan for a complex project
+    -> T06.G6.01: Trace event execution paths in a multi‑event program
+
+Dependencies on T07:
+  T03.G3.02: Group features into "must‑have" vs "nice‑to‑have"
+    -> T07.G3.01: Use a counted repeat loop
+
+Dependencies on T08:
+  T03.G4.01: Break a medium‑size project into components
+    -> T08.G3.01: Use a simple if in a script
+
+Dependencies on T09:
+  T03.G3.06: Link each subtask to a logical component or responsibility
+    -> T09.G3.02: Use a variable in a conditional (if block)
+  T03.G4.01: Break a medium‑size project into components
+    -> T09.G3.01.04: Display variable value on stage using the variable monitor
+  T03.G6.01: Propose modules for a medium project
+    -> T09.G3.01.04: Display variable value on stage using the variable monitor
+  T03.G7.02: Map functional modules to architecture components
+    -> T09.G3.01.04: Display variable value on stage using the variable monitor
+  T03.G7.04: Propose an alternative decomposition to fix a planning problem
+    -> T09.G3.01.04: Display variable value on stage using the variable monitor
+
+================================================================================
+POTENTIAL CIRCULAR DEPENDENCY CHECK:
+--------------------------------------------------------------------------------
+
+No circular dependencies detected.
+
+================================================================================
+SKILLS STATUS SUMMARY:
+--------------------------------------------------------------------------------
+
+Skills in PERFECT condition (50):
+  T03.G1.01: Describe what one part of a system does
+  T03.G1.02: Group related parts by function
+  T03.G1.03: List steps for a simple classroom routine
+  T03.G1.04: Match steps to parts of a tiny story or game
+  T03.G2.01: Choose subtasks for a simple project idea
+  T03.G2.02: Group subtasks by type
+  T03.G2.03: Arrange subtasks into a reasonable order
+  T03.G2.04: Use a checklist to track progress on a mini‑project
+  T03.G2.05: Identify what a simple game or story can do
+  T03.G3.01: Identify features in a small game description
+  T03.G3.02: Group features into "must‑have" vs "nice‑to‑have"
+  T03.G3.03: Create a 3‑panel storyboard for a project
+  T03.G3.04: Match storyboard panels to project scenes
+  T03.G3.05: Choose a step‑by‑step plan for a small project
+  T03.G3.06: Link each subtask to a logical component or responsibility
+  T03.G3.07: Identify different jobs needed to make a project
+  T03.G4.01: Break a medium‑size project into components
+  T03.G4.02: Group related components into modules
+  T03.G4.03: Assign project tasks to team roles
+  T03.G4.04: Create a simple task list with owners and order
+  T03.G4.05: Spot a missing or unnecessary task in a plan
+  T03.G4.06: Update a plan after testing feedback
+  T03.G5.01: Create a feature list and subtask breakdown
+  T03.G5.02: Draw a high‑level project map
+  T03.G5.03: Identify task dependencies in a project plan
+  T03.G5.04: Identify unclear tasks and break them into specific steps
+  T03.G5.05: Compare two project plans for the same idea
+  T03.G5.06: Identify modules in example projects
+  T03.G6.01: Propose modules for a medium project
+  T03.G6.02: Identify reusable components in a complex process
+  T03.G6.03: Break a project into milestones (v1/v2/v3)
+  T03.G6.04: Adjust milestones after discovering a constraint
+  T03.G6.05: Use XO to expand a basic idea into subtasks
+  T03.G7.01: Draw an architecture diagram for a multi‑component project
+  T03.G7.02: Map functional modules to architecture components
+  T03.G7.03: Compare two decompositions of the same project
+  T03.G7.04: Propose an alternative decomposition to fix a planning problem
+  T03.G7.05: Create a test checklist based on a project breakdown
+  T03.G7.06: Update a project plan after test results
+  T03.G8.01: Outline a formal project specification
+  T03.G8.02: Use XO to refine and check a project spec
+  T03.G8.03: Rank project ideas by complexity and timeline
+  T03.G8.04: Identify over‑scoped plans and suggest scope reductions
+  T03.G8.05: Propose a refactoring plan for a complex project
+  T03.G8.06: Map refactoring tasks to future milestones
+  T03.GK.01: Identify parts that make up a whole
+  T03.GK.02: Match parts to whole objects
+  T03.GK.03: Order 3–4 pictures to show steps in a routine
+  T03.GK.04: Choose the missing middle step in a routine
+  T03.GK.05: Describe what each step accomplishes
+
+================================================================================
+FINAL SUMMARY:
+--------------------------------------------------------------------------------
+Total T03 skills verified: 50
+Skills in perfect condition: 50
+Skills needing fixes: 0
+X-2 rule violations: 0
+Circular dependencies: 0
+================================================================================

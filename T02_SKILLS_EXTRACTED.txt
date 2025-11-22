@@ -1,0 +1,336 @@
+T02 (ALGORITHM DIAGRAMS) - COMPLETE SKILL EXTRACTION
+====================================================
+
+KINDERGARTEN (K) - 4 skills
+---------------------------
+
+T02.GK.01 | Recognize picture steps for a task
+  Grade: K
+  Dependencies: T01.GK.01
+  Description: Students look at 3–4 pictures laid out in a row with arrows between them and choose which strip shows the steps in an order that works to do the task.
+
+T02.GK.02 | Order 3–4 pictures to make a story
+  Grade: K
+  Dependencies: T02.GK.01
+  Description: Students drag 3–4 scrambled pictures into arrow‑connected boxes labeled "1, 2, 3, 4" to repair a simple strip of steps (e.g., a robot getting ready or reaching a toy).
+
+T02.GK.03 | Use first/next/last to describe a sequence
+  Grade: K
+  Dependencies: T01.GK.01, T02.GK.02
+  Description: Students see 3 ordered pictures on a strip with "First / Next / Last" labels and choose words or icons to fill each label, describing the steps out loud.
+
+T02.GK.04 | Fix one picture that is out of order
+  Grade: K
+  Dependencies: T02.GK.02, T02.GK.03
+  Description: Students see a 3‑picture "robot instructions" strip where one picture is clearly in the wrong place and drag it into the correct slot so the algorithm diagram makes sense.
+
+
+GRADE 1 - 5 skills
+------------------
+
+T02.G1.01 | Make a 3–4 step picture algorithm
+  Grade: 1
+  Dependencies: T02.GK.02
+  Description: Students are given a simple task (e.g., "how to feed the class pet") and assemble 3–4 pictures into a numbered strip with arrows, treating it as clear picture instructions a robot could follow.
+
+T02.G1.02 | Add a missing step to a picture algorithm
+  Grade: 1
+  Dependencies: T02.G1.01
+  Description: Students see a 3‑step picture instruction strip with one missing middle step and choose the correct picture to fill the gap so the strip works as instructions.
+
+T02.G1.03 | Trace a picture algorithm and tell the outcome
+  Grade: 1
+  Dependencies: T02.G1.01
+  Description: Students follow a 3–4 step picture instruction strip (e.g., a simple recipe or classroom routine) and choose what the final picture or outcome should be.
+
+T02.G1.04 | Find a broken picture algorithm
+  Grade: 1
+  Dependencies: T02.G1.01
+  Description: Students compare two 3–4 step algorithm strips for the same task: one is correct, one has an obvious missing or wrong step. They pick which diagram is broken.
+
+T02.G1.05 | Fix one wrong step in a picture algorithm
+  Grade: 1
+  Dependencies: T02.G1.04
+  Description: Students see an algorithm strip with one clearly wrong picture (e.g., "eat sandwich" before "make sandwich") and replace just that picture with the correct one.
+
+
+GRADE 2 - 6 skills
+------------------
+
+T02.G2.01 | Turn a picture routine into labeled boxes
+  Grade: 2
+  Dependencies: T02.G1.01
+  Description: Students see a 3–4 picture routine and build a horizontal row of labeled boxes ("Step 1," "Step 2," "Step 3") that describe each step in simple words or icons, using a simple box‑diagram layout (like instruction boxes on paper).
+
+T02.G2.02 | Read a box diagram and choose the matching pictures
+  Grade: 2
+  Dependencies: T02.G2.01
+  Description: Students are given a 3–4 box "algorithm diagram" and must choose which picture sequence matches it.
+
+T02.G2.03 | Trace a simple linear instruction sequence
+  Grade: 2
+  Dependencies: T02.G2.02
+  Description: Students see a short row of instruction cards with arrows or move/say icons (3–6 steps, no choices or repeats) and predict where a character ends up or what message appears last.
+
+T02.G2.04 | Track changes step-by-step through an instruction sequence
+  Grade: 2
+  Dependencies: T02.G2.03
+  Description: Students reveal one instruction card at a time in a sequence and mark where the character is after each step (for example, on a number line or grid), building early tracing skills.
+
+T02.G2.05 | Match a box diagram to a step sequence
+  Grade: 2
+  Dependencies: T02.G2.02
+  Description: Students match a simple 3–4 step box diagram to one of several written or picture‑card step sequences that carry out the same actions.
+
+T02.G2.06 | Fix a sequencing error in a step sequence
+  Grade: 2
+  Dependencies: T02.G2.05
+  Description: Students are given a short left‑to‑right step sequence whose cards are out of order and reorder them to match a target picture or box diagram.
+
+
+GRADE 3 - 7 skills
+------------------
+
+T02.G3.01 | Identify start, action, and end symbols in flowcharts
+  Grade: 3
+  Dependencies: T02.G2.02
+  Description: Students look at small flowcharts and identify which shapes mark "start" (oval/rounded rectangle), "action/process" (rectangle), and "end" (oval/rounded rectangle), learning the standard flowchart symbol conventions.
+
+T02.G3.02 | Turn a 3‑step routine into a basic flowchart
+  Grade: 3
+  Dependencies: T02.G3.01
+  Description: Students create a flowchart using start, action, and end symbols for a simple everyday process (no decisions yet), using the Diagrams tab in CreatiCode (Miro-powered collaborative whiteboard for creating flowcharts and diagrams).
+
+T02.G3.03 | Identify decision diamond symbols in flowcharts
+  Grade: 3
+  Dependencies: T02.G3.02
+  Description: Students learn that a diamond shape in a flowchart represents a yes/no question or decision point, with two branches leading to different paths based on the answer.
+
+T02.G3.04 | Trace a decision flowchart and tell the outcome
+  Grade: 3
+  Dependencies: T02.G3.03
+  Description: Students follow a small flowchart with one decision diamond and "yes/no" branches for a concrete situation (e.g., rainy/not rainy) and choose which end result is reached.
+
+T02.G3.05 | Convert a simple story with one choice into a decision flowchart
+  Grade: 3
+  Dependencies: T02.G3.04
+  Description: Students read a simple story with one decision point and create a basic decision flowchart using start, action, decision diamond, and end symbols.
+
+T02.G3.06 | Match a simple flowchart to a script
+  Grade: 3
+  Dependencies: T02.G3.02
+  Description: Students choose which of several scripts matches a small flowchart with only actions (no decisions).
+
+T02.G3.07 | Match a decision flowchart to if/else code
+  Grade: 3
+  Dependencies: T02.G3.06
+  Description: Students match a flowchart containing one decision diamond to a script that uses an `if/else` block.
+
+
+GRADE 4 - 8 skills
+------------------
+
+T02.G4.01 | Add a loop to an existing flowchart
+  Grade: 4
+  Dependencies: T02.G3.02
+  Description: Students are shown a straight‑line flowchart in the Diagrams tab (Miro-powered collaborative whiteboard) and a description that includes repetition (e.g., "do this 5 times") and must add a loop back arrow in the correct place.
+
+T02.G4.02 | Design a flowchart for a task with repetition
+  Grade: 4
+  Dependencies: T02.G4.01
+  Description: Students design a flowchart from scratch in the Diagrams tab (Miro-powered collaborative whiteboard) for a simple task that repeats (e.g., "Count from 1 to 5"), correctly showing the loop structure.
+
+T02.G4.03 | Identify and use input/output symbols in flowcharts
+  Grade: 4
+  Dependencies: T02.G4.02
+  Description: Students learn that parallelogram shapes in flowcharts represent input (receiving data from users) and output (displaying results), and practice reading and creating flowcharts that include these symbols.
+
+T02.G4.04 | Trace a flowchart with multiple decision points
+  Grade: 4
+  Dependencies: T02.G3.04
+  Description: Students follow a flowchart with 2–3 decision diamonds and trace the path for a given set of conditions.
+
+T02.G4.05 | Trace a flowchart that includes a loop structure
+  Grade: 4
+  Dependencies: T02.G4.02
+  Description: Students follow a flowchart containing a loop (repeat until condition) and determine how many times the loop executes for given inputs.
+
+T02.G4.06 | Convert a story description into simple pseudocode
+  Grade: 4
+  Dependencies: T02.G3.02
+  Description: Students turn a short natural‑language description or picture routine into ordered pseudocode lines like "Step 1: …; Step 2: …".
+
+T02.G4.07 | Match pseudocode to a flowchart
+  Grade: 4
+  Dependencies: T02.G4.06
+  Description: Students match a simple pseudocode listing to one of several flowcharts.
+
+T02.G4.08 | Fill in a simple trace table for a short flowchart
+  Grade: 4
+  Dependencies: T02.G4.05
+  Description: Students are given a 3–4 step flowchart with one variable (like a counter) and a partially filled trace table; they complete the table by writing the variable's value after each step.
+
+
+GRADE 5 - 7 skills
+------------------
+
+T02.G5.01 | Read a multi‑branch flowchart and trace a path
+  Grade: 5
+  Dependencies: T02.G4.04
+  Description: Students are given a multi‑branch flowchart (created in the Diagrams tab, a Miro-powered collaborative whiteboard) with several decision diamonds and must trace the path for a specific input (e.g., "It is rainy and cold").
+
+T02.G5.02 | Design a multi‑branch flowchart for a decision task
+  Grade: 5
+  Dependencies: T02.G5.01
+  Description: Students design a flowchart with multiple decision points (e.g., "choose a game based on time and number of players") using the Diagrams tab (Miro-powered collaborative whiteboard).
+
+T02.G5.02.01 | Design a flowchart with input/output symbols for a calculator task [NON-STANDARD ID]
+  Grade: 5
+  Dependencies: T02.G4.03
+  Description: Students design a flowchart for a simple calculator task (e.g., "add two numbers and show the result") using input symbols (parallelograms) to receive user data and output symbols to display results, building on their knowledge of input/output symbols from T02.G4.03.
+
+T02.G5.03 | Trace a flowchart with state tracking using a trace table
+  Grade: 5
+  Dependencies: T02.G4.08
+  Description: Students follow a flowchart that tracks changing values (like a counter or position) and fill in a trace table showing how values change at each step.
+
+T02.G5.04 | Create a trace table for a flowchart with accumulation
+  Grade: 5
+  Dependencies: T02.G5.03
+  Description: Students trace a flowchart that accumulates values (adds to a running total) and create their own trace table format to track the process.
+
+T02.G5.05 | Write pseudocode for a loop‑based algorithm [WRONG DEPENDENCY]
+  Grade: 5
+  Dependencies: T02.G4.05 (SHOULD BE T02.G4.06)
+  Description: Students write structured pseudocode for a small, multi‑step algorithm (5–7 steps) that includes a loop and conditional, using clear indentation and step labels learned from earlier T02 grades.
+
+T02.G5.06 | Compare two algorithms for the same task
+  Grade: 5
+  Dependencies: T02.G5.05
+  Description: Students are given two short algorithms (flowcharts or pseudocode) solving the same problem. They count the steps in each, identify which uses fewer steps, and select from multiple-choice options the reason one algorithm is more efficient or clearer than the other.
+
+
+GRADE 6 - 6 skills
+------------------
+
+T02.G6.01 | Design a flowchart for a simple guessing game
+  Grade: 6
+  Dependencies: T02.G5.02
+  Description: Students design a flowchart for a higher/lower guessing game with loops and decisions, showing start, repeated guesses, and end when guessed correctly.
+
+T02.G6.02 | Trace nested flowchart structures with multiple variables
+  Grade: 6
+  Dependencies: T02.G5.04
+  Description: Students trace complex flowcharts with nested loops and multiple variables, using systematic trace tables to track all changing values.
+
+T02.G6.03 | Analyze different flowchart representations of the same algorithm
+  Grade: 6
+  Dependencies: T02.G5.06
+  Description: Students compare two different flowchart representations of the same algorithm (e.g., one with more decision points vs. one with nested conditions, or different loop structures) and identify which is clearer to trace by counting steps, branches, or crossover arrows, selecting from multiple-choice reasons why one representation is preferable.
+
+T02.G6.04 | Convert a flowchart to pseudocode
+  Grade: 6
+  Dependencies: T02.G5.05
+  Description: Students are given a small flowchart (with loops and decisions) and write equivalent pseudocode.
+
+T02.G6.05 | Match pseudocode to code with loops and conditions
+  Grade: 6
+  Dependencies: T02.G6.04
+  Description: Students match a short pseudocode description to one of several code snippets that implement it.
+
+T02.G6.06 | Design a flowchart for a multi‑step data processing task
+  Grade: 6
+  Dependencies: T02.G6.02
+  Description: Students design a flowchart for a task that processes a sequence of inputs (e.g., "read 5 numbers and find their sum"), correctly showing input, processing loop, and output steps.
+
+
+GRADE 7 - 7 skills
+------------------
+
+T02.G7.01 | Trace a step-by-step simulation algorithm
+  Grade: 7
+  Dependencies: T02.G6.02
+  Description: Students trace code that models a process over several timesteps (e.g., a counter stepping up, an object moving with decreasing speed, or population growth) and predict state after N steps.
+
+T02.G7.02 | Extend a simulation trace and predict future behavior
+  Grade: 7
+  Dependencies: T02.G7.01
+  Description: Students are shown a partially filled trace table for a simulation algorithm and must extend it a few rows to predict future behavior.
+
+T02.G7.03 | Create a flowchart for linear search or "find max"
+  Grade: 7
+  Dependencies: T02.G6.06
+  Description: Students design a flowchart in the Diagrams tab (Miro-powered collaborative whiteboard) for a simple search algorithm (e.g., scan a list to find the largest value).
+
+T02.G7.03.01 | Convert a search algorithm flowchart to pseudocode [NON-STANDARD ID]
+  Grade: 7
+  Dependencies: T02.G7.03
+  Description: Students are given a flowchart for a simple search algorithm (e.g., linear search or find maximum) created in the Diagrams tab (Miro-powered collaborative whiteboard) and write equivalent pseudocode that captures the loop structure, condition checks, and variable updates.
+
+T02.G7.04 | Read a flowchart for a simple sort and trace one pass
+  Grade: 7
+  Dependencies: T02.G7.03.01
+  Description: Students read a flowchart (from the Diagrams tab, a Miro-powered collaborative whiteboard) for one pass of a simple sort (e.g., bubble sort) and trace how a short list changes after that pass.
+
+T02.G7.05 | Count steps for two algorithms on small inputs
+  Grade: 7
+  Dependencies: T02.G6.03
+  Description: Students compare two algorithms that solve the same problem, counting actual steps for small input sizes and deciding which is more efficient for those inputs.
+
+T02.G7.06 | Trace an algorithm to find a bug or edge case
+  Grade: 7
+  Dependencies: T02.G7.04
+  Description: Students trace an algorithm with a specific input where it fails (e.g., empty list, single element). They identify the step where the algorithm produces an incorrect result and select from multiple-choice options which edge case or condition was missed.
+
+
+GRADE 8 - 5 skills
+------------------
+
+T02.G8.01 | Write pseudocode for a non‑trivial algorithm
+  Grade: 8
+  Dependencies: T02.G6.04
+  Description: Students write pseudocode for a moderately complex algorithm (e.g., check if a number is prime, find the median of 5 numbers) using clear structure, loops, and conditionals, starting from a partially scaffolded template so the task stays small and focused.
+
+T02.G8.02 | Trace your pseudocode with multiple test cases
+  Grade: 8
+  Dependencies: T02.G8.01
+  Description: Students are given pseudocode (their own or provided) and a set of test cases; they trace each case and record outputs, checking for correctness.
+
+T02.G8.03 | Identify and remove redundant steps in an algorithm representation
+  Grade: 8
+  Dependencies: T02.G8.02
+  Description: Students are given a flowchart or pseudocode with redundant steps (e.g., duplicate checks, unnecessary intermediate variables, or repeated operations) and must identify which steps can be removed or merged while preserving the algorithm's behavior, editing directly in the Diagrams tab (Miro-powered collaborative whiteboard) when working with flowcharts.
+
+T02.G8.04 | Design a flowchart for a real‑world decision with user needs in mind
+  Grade: 8
+  Dependencies: T02.G6.01
+  Description: Students create a flowchart in the Diagrams tab (Miro-powered collaborative whiteboard) for a real‑world decision process (e.g., "How to choose a help resource online") that is clear and easy to follow for a target user, incorporating feedback on clarity and usability.
+
+T02.G8.05 | Trace and compare deterministic and probabilistic algorithms
+  Grade: 8
+  Dependencies: T02.G7.01
+  Description: Students trace two versions of an algorithm—one deterministic, one with randomness—and compare their outputs and when each type might be appropriate.
+
+
+SUMMARY STATISTICS
+==================
+Total Skills: 55
+- Kindergarten: 4
+- Grade 1: 5
+- Grade 2: 6
+- Grade 3: 7
+- Grade 4: 8
+- Grade 5: 7
+- Grade 6: 6
+- Grade 7: 7
+- Grade 8: 5
+
+Issues Found:
+- 3 HIGH priority (must fix)
+- 4 MEDIUM priority (should fix)
+- 5 LOW priority (optional)
+
+Key Issues:
+- T02.G5.05: Wrong dependency (T02.G4.05 → should be T02.G4.06)
+- T02.G5.02.01: Non-standard ID format (needs renumbering)
+- T02.G7.03.01: Non-standard ID format (needs renumbering)

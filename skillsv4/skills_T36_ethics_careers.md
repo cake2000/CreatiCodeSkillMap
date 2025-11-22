@@ -20,6 +20,9 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T36.GK.01 – Match community helpers to digital tools
 
+_Dependency:_
+  * T01.GK.01: Put pictures in order for getting ready for bed
+
 - **Short name:** People use tech at work
 - **Description:** Students drag pictures of workers (teacher, doctor, farmer, artist) onto the tools they use (tablet, scanner, drone, camera) and say one way the tool helps.
 - **Challenge format:** Picture matching + oral sentence. Auto-grading checks matches and recorded description.
@@ -91,7 +94,7 @@ _Dependency:_
 ### T36.G2.01 – Identify project roles in simple terms
 
 _Dependency:_
-  * T01.G1.10: Match pictures to "if/then" rules
+  * T03.G1.03: List steps for a simple classroom routine
 
 
 - **Short name:** Who does what?
@@ -102,7 +105,6 @@ _Dependency:_
 ### T36.G2.02 – Plan balanced daily routines
 
 _Dependency:_
-  * T01.G1.01: Put pictures in order to plant a seed
   * T03.G1.03: List steps for a simple classroom routine
 
 
@@ -130,8 +132,7 @@ _Dependency:_
 
 _Dependency:_
   * T36.G2.01: Identify project roles in simple terms
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T07.G3.01: Use a counted repeat loop
+  * T36.G1.03: Show listening behaviors in group work
 
 
 - **Short name:** Ask users what they need
@@ -143,8 +144,7 @@ _Dependency:_
 
 _Dependency:_
   * T36.G3.01: Conduct empathy interviews for project ideas (ties to T05)
-  * T08.G3.01: Use a simple if in a script
-  * T09.G3.01: Create and use a numeric variable for score or count
+  * T36.G2.01: Identify project roles in simple terms
 
 
 - **Short name:** Project team charter
@@ -155,9 +155,7 @@ _Dependency:_
 ### T36.G3.03 – Reflect on collaboration habits
 
 _Dependency:_
-  * T36.G3.02: Draft simple team agreements
-  * T08.G3.01: Use a simple if in a script
-  * T09.G3.01: Create and use a numeric variable for score or count
+  * T36.G2.03: Recognize teammates' different strengths
 
 
 - **Short name:** What went well? What to improve?
@@ -173,8 +171,7 @@ _Dependency:_
 
 _Dependency:_
   * T36.G1.01: List jobs that rely on computers
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G3.01: Conduct empathy interviews for project ideas (ties to T05)
 
 
 - **Short name:** Career snapshot
@@ -185,9 +182,7 @@ _Dependency:_
 ### T36.G4.02 – Track work with a shared checklist
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G3.02: Draft simple team agreements
 
 
 - **Short name:** Keep a visible to-do chart
@@ -198,9 +193,8 @@ _Dependency:_
 ### T36.G4.03 – Role-play resolving project disagreements
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G2.03: Recognize teammates' different strengths
+  * T36.G1.03: Show listening behaviors in group work
 
 
 - **Short name:** Use compromise when opinions differ
@@ -215,10 +209,7 @@ _Dependency:_
 ### T36.G5.01 – Map personal interests to tech pathways
 
 _Dependency:_
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T09.G3.01: Create and use a numeric variable for score or count
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G4.01: Explore diverse tech careers via profiles/videos
 
 
 - **Short name:** Interest → career chart
@@ -229,10 +220,8 @@ _Dependency:_
 ### T36.G5.02 – Follow a plan-build-feedback cycle
 
 _Dependency:_
-  * T01.G3.01: Complete a simple script with missing blocks
-  * T07.G3.01: Use a counted repeat loop
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G4.02: Track work with a shared checklist
+  * T36.G3.03: Reflect on collaboration habits
 
 
 - **Short name:** Plan → make → get feedback
@@ -243,10 +232,8 @@ _Dependency:_
 ### T36.G5.03 – Evaluate inclusion in tech stories
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G4.01: Explore diverse tech careers via profiles/videos
+  * T36.G1.02: Sort "helps" vs "problems" for a technology
 
 
 - **Short name:** Who is represented?
@@ -261,10 +248,8 @@ _Dependency:_
 ### T36.G6.01 – Analyze career equity across computing clusters (software, hardware, data, AI)
 
 _Dependency:_
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T36.G1.01: List jobs that rely on computers
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G5.01: Map personal interests to tech pathways
+  * T36.G4.01: Explore diverse tech careers via profiles/videos
 
 
 - **Short name:** Career access and representation analysis
@@ -276,10 +261,8 @@ _Dependency:_
 ### T36.G6.02 – Practice age-appropriate agile rituals
 
 _Dependency:_
-  * T08.G3.01: Use a simple if in a script
-  * T09.G3.01: Create and use a numeric variable for score or count
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G5.02: Follow a plan-build-feedback cycle
+  * T36.G4.02: Track work with a shared checklist
 
 
 - **Short name:** Daily check-ins + weekly retros
@@ -290,10 +273,8 @@ _Dependency:_
 ### T36.G6.03 – Analyze job descriptions for skills/values
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G5.01: Map personal interests to tech pathways
+  * T36.G1.02: Sort "helps" vs "problems" for a technology
 
 
 - **Short name:** Decode job postings
@@ -304,10 +285,8 @@ _Dependency:_
 ### T36.G6.04 – Add ethics clauses to team charters
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G3.02: Draft simple team agreements
+  * T36.G5.02: Follow a plan-build-feedback cycle
 
 
 - **Short name:** Responsible-use agreements
@@ -322,10 +301,8 @@ _Dependency:_
 ### T36.G7.01 – Interview diverse technologists about AI ethics and equity
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G6.01: Analyze career equity across computing clusters (software, hardware, data, AI)
+  * T36.G5.03: Evaluate inclusion in tech stories
 
 
 - **Short name:** Learn from AI ethics practitioners
@@ -337,10 +314,8 @@ _Dependency:_
 ### T36.G7.02 – Design cross-functional team diagrams
 
 _Dependency:_
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T09.G3.01: Create and use a numeric variable for score or count
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G6.02: Practice age-appropriate agile rituals
+  * T36.G6.01: Analyze career equity across computing clusters (software, hardware, data, AI)
 
 
 - **Short name:** Map how roles collaborate
@@ -351,10 +326,9 @@ _Dependency:_
 ### T36.G7.03 – Facilitate inclusive collaboration
 
 _Dependency:_
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G5.02: Follow a plan-build-feedback cycle
+  * T36.G5.03: Evaluate inclusion in tech stories
+  * T36.G4.03: Role-play resolving project disagreements
 
 
 - **Short name:** Evaluate teamwork culture
@@ -365,10 +339,8 @@ _Dependency:_
 ### T36.G7.04 – Mentor younger coders
 
 _Dependency:_
-  * T01.G3.01: Complete a simple script with missing blocks
-  * T01.G3.02: Match a story description to a code sequence
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G5.02: Follow a plan-build-feedback cycle
+  * T36.G6.04: Add ethics clauses to team charters
 
 
 - **Short name:** Lead a mini workshop
@@ -383,11 +355,8 @@ _Dependency:_
 ### T36.G8.01 – Build multi-year career roadmaps
 
 _Dependency:_
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G6.01: Analyze career equity across computing clusters (software, hardware, data, AI)
+  * T36.G7.01: Interview diverse technologists about AI ethics and equity
 
 
 - **Short name:** Plan courses, clubs, and projects
@@ -398,11 +367,9 @@ _Dependency:_
 ### T36.G8.02 – Prepare resumes/portfolios and practice interviews
 
 _Dependency:_
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T09.G3.01: Create and use a numeric variable for score or count
-  * T36.G1.01: List jobs that rely on computers
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G7.04: Mentor younger coders
+  * T36.G6.03: Analyze job descriptions for skills/values
+  * T36.G5.02: Follow a plan-build-feedback cycle
 
 
 - **Short name:** Present your work professionally
@@ -413,11 +380,9 @@ _Dependency:_
 ### T36.G8.03 – Analyze AI's differential impact on future work and equity (Pairing with T24)
 
 _Dependency:_
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
+  * T36.G6.01: Analyze career equity across computing clusters (software, hardware, data, AI)
+  * T36.G7.01: Interview diverse technologists about AI ethics and equity
+  * T36.G1.02: Sort "helps" vs "problems" for a technology
 
 
 - **Short name:** AI's unequal effects on workers and communities
@@ -430,10 +395,8 @@ _Dependency:_
 
 _Dependency:_
   * T36.G1.01: List jobs that rely on computers
-  * T36.G1.02: Sort “helps” vs “problems” for a technology
+  * T36.G1.02: Sort "helps" vs "problems" for a technology
   * T36.G1.03: Show listening behaviors in group work
-  * T36.GK.02: Practice sharing and turn-taking with devices
-  * T36.GK.03: Describe what a digital tool helps someone do
 
 
 - **Short name:** Lead project postmortems

@@ -1,0 +1,346 @@
+================================================================================
+T35 (Impacts & Ethics) - COMPLETE SKILL LIST
+================================================================================
+
+
+================================================================================
+GRADE: GK (4 skills)
+================================================================================
+
+T35.GK.01: Identify a helpful use of technology
+  Description: Students pick pictures showing technology helping someone (video call grandma, drawing app for homework).
+  Dependencies: None
+
+T35.GK.02: Recognize signs of too much screen time
+  Description: Students look at pictures showing different screen time scenarios (tired eyes, missing outdoor play, energetic after break) and connect them to feelings (tired/happy) to recognize signs of too much screen time.
+  Dependencies (1): T01.GK.01
+
+T35.GK.03: Practice device sharing etiquette
+  Description: Students sort picture cards showing sharing behaviors (waiting your turn, asking nicely, grabbing) into "kind" and "not kind" categories to learn respectful device use.
+  Dependencies (1): T01.GK.01
+
+T35.GK.04: Choose safe sharing in role-play
+  Description: Students act out scenarios deciding whether to share personal information (name, photo) with a pretend app character, choosing 'yes' or 'no' cards to practice safe information sharing.
+  Dependencies (1): T35.GK.01
+
+================================================================================
+GRADE: G1 (4 skills)
+================================================================================
+
+T35.G1.01: Sort good vs not-so-good choices and explain why
+  Description: Students categorize technology behaviors (pausing game to eat vs ignoring responsibilities) into "good for me"/"not good for me" using picture cards, then explain their reasoning by connecting each choice to a consequence picture (e.g., "Pausing to eat is good because it keeps me healthy").
+  Dependencies (1): T01.GK.01
+
+T35.G1.02: Match feelings to technology experiences
+  Description: Students match pictures of emotions (happy, sad, frustrated, excited) to technology scenarios (winning a game, losing progress, video calling family, waiting for slow loading) to understand emotional impacts of tech use.
+  Dependencies (1): T01.GK.01
+
+T35.G1.03: Recognize that people make technology choices
+  Description: Students look at app screenshots and identify choices made by creators (characters, colors, sounds) by circling elements and matching them to "someone chose this" labels.
+  Dependencies (1): T01.GK.01
+
+T35.G1.04: Identify who to tell when uncomfortable online
+  Description: Students match uncomfortable technology scenarios (mean message, scary image, stranger asking questions) with trusted adults who can help (parent, teacher, librarian).
+  Dependencies (1): T35.G1.02
+
+================================================================================
+GRADE: G2 (4 skills)
+================================================================================
+
+T35.G2.01: Compare benefits and harms of a tech tool
+  Description: Students create simple pros/cons charts for tools like video sharing or messaging apps. They list at least 2 positives and 2 negatives for each tool, then draw or place pictures showing examples of each benefit and harm to create a visual comparison chart.
+  Dependencies (1): T01.G1.07
+
+T35.G2.02: Plan balanced tech schedules
+  Description: Learners design a simple daily routine that includes device time, outdoor play, meals, and sleep.
+  Dependencies (2): T01.G1.01, T03.G1.03
+
+T35.G2.03: Practice online kindness scripts
+  Description: Students role-play responses (ignore, block, tell adult) and positive messages.
+  Dependencies (1): T01.G1.01
+
+T35.G2.04: Distinguish public vs. private information
+  Description: Students sort information cards (name, favorite color, home address, birthday, pet's name) into 'okay to share online' and 'keep private' piles. For each card, they explain WHY the information is private or safe to share (e.g., "Home address is private because strangers could find where you live" or "Favorite color is safe because it doesn't help anyone locate you").
+  Dependencies (1): T35.G2.01
+
+================================================================================
+GRADE: G3 (4 skills)
+================================================================================
+
+T35.G3.01: Evaluate digital footprints
+  Description: Students create a project where typing a sample post (text input widget) displays a warning label if it contains common personal information keywords. Using if-blocks, they check for words like 'address', 'phone', 'school', 'live at' and display different warning messages (label widgets) for each type. Students test by categorizing 5 sample posts as 'safe to share' or 'reveals too much' based on which warnings appear.
+  Dependencies (4): T35.G2.01, T06.G3.01, T16.G3.01, T08.G3.01
+
+T35.G3.02: Discuss how algorithms influence what we see
+  Description: Students build a simple recommendation simulator using variables, conditionals, and data visualization. They create a project where clicking different content types (sports, music, gaming) increments counters in a table variable. Using if-blocks and comparison operators, the program displays different "recommended content" labels based on which counters are highest, demonstrating how algorithms track behavior to shape recommendations. Students document patterns they observe and reflect on how this shapes viewing habits.
+  Dependencies (3): T35.G3.01, T08.G3.01, T09.G3.01.04
+
+T35.G3.03: Develop class guidelines for respectful communication
+  Description: Students build a simple moderated chat room using widget blocks (text input, labels, buttons) and AI moderation. They create a chat interface where users type messages into a text input widget. Before displaying messages in a label widget, the program uses ChatGPT AI moderation blocks to check for inappropriate content (spam, unkindness, PII). If content violates guidelines, a warning label appears instead. Students collaboratively write the guidelines that inform the AI moderation prompts.
+  Dependencies (4): T35.G3.01, T08.G3.01, T16.G3.01, T22.G3.01
+
+T35.G3.04: Recognize when apps collect data
+  Description: Students build a simple app (quiz or game) that collects data using variables and widgets. They create visible indicators showing what's being collected: labels that update to show "You've answered 5 questions" (counter variable), "Your high score: 100" (performance data), "You clicked on: Animals" (preference tracking). Students then discuss what the app "knows" about users and whether users can see what's collected.
+  Dependencies (3): T35.G3.01, T09.G3.01.04, T16.G3.01
+
+================================================================================
+GRADE: G4 (4 skills)
+================================================================================
+
+T35.G4.01: Analyze case studies of tech helping/harming communities
+  Description: Students read and analyze provided case studies (drones delivering meds vs drones invading privacy, social media connecting vs isolating people). They build an interactive case study viewer using widget blocks: buttons to select different case studies, and labels to display benefits/harms for each case. Students use table variables to organize the provided cases (columns: technology, benefits, harms, affected community) and identify tradeoffs in each scenario.
+  Dependencies (2): T35.G3.01, T16.G4.01
+
+T35.G4.02: Understand advertising/persuasion online
+  Description: Students analyze actual CreatiCode community projects to identify persuasive design patterns (bright colors for "buy" buttons, countdown timers, celebrity endorsements in sprites). They create a project that demonstrates persuasive vs. informative design: two versions of the same app (e.g., a game invitation) where one uses persuasive tactics (flashing sprites, urgent language in labels) and one is neutral. Using widget blocks, they build both interfaces and have peers compare them, documenting which tactics they notice.
+  Dependencies (2): T35.G3.02, T16.G4.01
+
+T35.G4.03: Reflect on accessibility/inclusion in games
+  Description: Students review a CreatiCode game for accessibility barriers. They test: (1) Can you understand it without sound? (Test by muting), (2) Can you see important elements? (Use sprite size/color blocks to adjust contrast), (3) Can you control it without a mouse? (Add keyboard controls using when key pressed blocks), (4) Can you understand instructions? (Add text-to-speech using AI Speaker blocks). Students document barriers found and implement at least one improvement to a sample game using blocks (e.g., adding keyboard controls or text-to-speech instructions).
+  Dependencies (3): T35.G3.03, T06.G3.01, T22.G4.01
+
+T35.G4.04: Create a digital citizen pledge project
+  Description: Students use block coding to build an interactive pledge where users click to commit to positive online behaviors (be kind, protect privacy, ask before sharing) and see encouraging responses.
+  Dependencies (3): T35.G3.01, T35.G3.03, T06.G3.01
+
+================================================================================
+GRADE: G5 (4 skills)
+================================================================================
+
+T35.G5.01: Examine global impacts of technology
+  Description: Learners research a specific technology (e.g., mobile banking, telemedicine, agricultural drones) and create a comparison chart showing its benefits and challenges in two different communities, explaining why impacts differ.
+  Dependencies (1): T35.G4.01
+
+T35.G5.02: Debate digital well-being scenarios
+  Description: Students debate policy scenarios (device-free times, notifications) referencing evidence on focus and health.
+  Dependencies (2): T35.G4.01, T35.G4.03
+
+T35.G5.03: Analyze AI's differential impacts on workers and communities
+  Description: Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T21-T24 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.
+  Dependencies (2): T35.G4.01, T35.G4.02
+
+T35.G5.04: Visualize stakeholder impacts using data tools
+  Description: Students research a technology's impact on different stakeholders (e.g., AI chatbots impact: students, teachers, tutors, textbook companies). They collect impact data via widget-based surveys (rating scales 1-5: How much does this help/harm you?). Responses are stored in Google Sheets using cloud blocks. Students create data visualizations using table variables showing which groups benefit most/least, then discuss equity implications.
+  Dependencies (3): T35.G5.03, T19.G5.01, T16.G5.01
+
+================================================================================
+GRADE: G6 (6 skills)
+================================================================================
+
+T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
+  Description: Students apply three ethics lenses to evaluate CreatiCode projects (their own or community examples): Beneficence (Does this help people? Who benefits most? - Use ChatGPT blocks to analyze project purpose), Fairness (Can everyone use this equally? - Test with accessibility features like text-to-speech), Autonomy (Do users have control/choice? - Check for consent mechanisms using widget buttons). Students build an ethics evaluation tool using widgets: dropdown menu to select lens, text input for project URL/name, and label to display evaluation questions. They document findings in a table variable with columns: Project, Lens, Evidence, Rating.
+  Dependencies (4): T16.G6.01, T35.G5.01, T35.G4.01, T22.G6.01
+
+T35.G6.02: Analyze data privacy tradeoffs
+  Description: N/A
+  Dependencies (4): T35.G5.01, T35.G4.02, T16.G6.01, T19.G6.01
+
+T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
+  Description: Students actively test CreatiCode's AI blocks to develop evidence-based guidelines. For T21 (Image Generation): Generate 10+ images with prompts like "doctor," "nurse," "CEO," "teacher" noting demographic representation, documenting bias patterns in outputs. For T22 (ChatGPT): Test chatbot with various prompts to check: (1) Does it reveal training data sources? (2) Does it generate misinformation? (3) Does it understand different English dialects? Document quality variations. Using findings, students create ethics guidelines in a widget-based interactive guide (buttons for each AI type, labels displaying guidelines). They include: when bias is acceptable, how to write inclusive prompts, and how to verify AI outputs.
+  Dependencies (4): T35.G5.03, T35.G4.03, T21.G6.01, T22.G6.01
+
+T35.G6.03.01: Develop ethics guidelines for AI perception and assistance (T23-T24)
+  Description: Students create ethical guidelines for AI perception tools (T23) addressing consent, surveillance concerns, and equity in recognition accuracy, and for AI coding assistants (T24) addressing academic integrity, proper citation, and avoiding over-dependency.
+  Dependencies (3): T35.G5.03, T23.G6.01, T24.G6.01
+
+T35.G6.04: Examine digital divide data
+  Description: Learners interpret charts (broadband availability, device ownership) and propose community actions.
+  Dependencies (1): T35.G5.01
+
+T35.G6.05: Build consent mechanisms for data collection
+  Description: Students build a project demonstrating informed consent using widgets and conditional logic. They create: (1) A clear consent form with checkboxes (button widgets) explaining each data type and why it's needed, (2) Conditional data collection: only save data to cloud tables if consent checkbox is checked, (3) A "view my data" button that retrieves and displays user's stored data, (4) A "delete my data" button that removes records from cloud storage. Students test with peers and reflect on what makes consent "informed" (clear language, granular choices, revocable).
+  Dependencies (3): T35.G6.02, T16.G6.01, T19.G6.01
+
+================================================================================
+GRADE: G7 (8 skills)
+================================================================================
+
+T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+  Description: Students systematically audit T21 image generation for representation across demographics and T22 chatbots for response quality by dialect/topic. They measure disparities, analyze root causes, and propose mitigation strategies. Students use table variables to log results (columns: Prompt, Demographic, Quality Rating) and create data visualizations showing disparity patterns.
+  Dependencies (2): T35.G6.03, T35.G5.03
+
+T35.G7.01.01: Conduct bias audits for AI perception and assistance (T23-T24)
+  Description: Students systematically audit T23 perception tools for accuracy across skin tones and lighting conditions, and T24 coding assistants for help quality by English proficiency. They document disparities and propose both technical and policy solutions.
+  Dependencies (2): T35.G7.01, T35.G6.03.01
+
+T35.G7.02: Explore unintended consequences of new tech
+  Description: Learners storyboard a technology (delivery drones, facial recognition) showing both intended use and unforeseen impact, then propose mitigations.
+  Dependencies (1): T35.G6.01
+
+T35.G7.03: Evaluate transparency vs security tensions
+  Description: Students weigh openness (auditability) against misuse risks for a hypothetical AI tool and justify a recommendation.
+  Dependencies (2): T35.G6.02, T35.G5.02
+
+T35.G7.04: Analyze societal impacts of AI perception technologies (Pairing with T23)
+  Description: Students use CreatiCode's T23 perception blocks (hand detection, body pose tracking) to build a simple surveillance simulator. They create a project that: (1) Uses hand detection to count people entering a "virtual space" (tracking when hands appear/disappear), (2) Uses body pose detection to identify "suspicious" movements (e.g., running vs. walking based on joint distances), (3) Logs all detections to a table variable with timestamps. Students then analyze their own data log as a case study: What privacy information is captured? Could it discriminate (e.g., different walking styles for different abilities)? They debate surveillance tradeoffs and write ethical guidelines for when such systems are justified.
+  Dependencies (3): T35.G6.02, T35.G6.03.01, T23.G7.01
+
+T35.G7.05: Debate ethical implications of AI media generation (Pairing with T21)
+  Description: Students conduct AI art experiments using T21 (DALL-E) blocks: (1) Generate art "in the style of" famous artists (e.g., "landscape in Van Gogh style"), (2) Generate commercial assets (logos, product images, stock photos), (3) Compare time required (AI seconds vs. human hours for similar quality). They research artists' concerns through interviews/articles, then debate: Should AI art be copyrightable? Should training data sources be credited? How can artists adapt/benefit? Students create a policy proposal using widgets (interactive policy viewer with buttons for different stakeholder positions).
+  Dependencies (3): T35.G6.03, T35.G5.03, T21.G7.01
+
+T35.G7.06: Facilitate community discussions on AI-powered tech policy
+  Description: Learners design and conduct structured interviews with 3+ stakeholders (teachers, parents, students) about a local AI policy question, then create a summary of areas of agreement and disagreement on AI governance, connecting to T21-T24 applications.
+  Dependencies (2): T35.G6.04, T35.G5.02
+
+T35.G7.07: Compare honest vs. misleading data visualizations
+  Description: Students analyze how data presentation affects interpretation. Given the same dataset (e.g., test scores over time), they create two visualizations using table variables and sprite graphics: (1) Honest version: Appropriate scale, full context, clear labels, (2) Misleading version: Truncated y-axis, cherry-picked time range, or misleading colors. Using widget buttons, users can toggle between versions. Students document how design choices change perception and write guidelines for ethical data visualization.
+  Dependencies (3): T35.G6.04, T19.G7.01, T16.G7.01
+
+================================================================================
+GRADE: G8 (5 skills)
+================================================================================
+
+T35.G8.01: Apply ethical frameworks to real proposals
+  Description: Students evaluate a computing project (predictive policing, emotion AI) through multiple ethical lenses and compare conclusions.
+  Dependencies (2): T35.G7.01, T35.G6.01
+
+T35.G8.01.01: Analyze AI chatbots' impact on information literacy (Pairing with T22)
+  Description: Following T22 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.
+  Dependencies (2): T35.G8.01, T35.G7.01
+
+T35.G8.02: Draft equity-focused policy briefs for AI in education
+  Description: Learners synthesize evidence from at least two sources into a one-page policy brief recommending equitable AI use in schools, addressing differential access to T21-T24 tools, bias in AI outputs, and privacy protection with specific action items.
+  Dependencies (2): T35.G7.06, T35.G6.04
+
+T35.G8.03: Design impact assessments for CreatiCode projects
+  Description: Students build an interactive impact assessment tool using widgets and table variables. The tool includes: (1) Input: Text field for project name/URL (widget text input), (2) Assessment categories (widget buttons to select): Accessibility (text-to-speech? keyboard controls? color contrast?), Privacy (what data collected? user consent? secure storage?), Wellbeing (time limits? addictive patterns? breaks encouraged?), Cultural sensitivity (inclusive representation? stereotypes avoided?), (3) Scoring interface: Radio buttons/dropdowns for each checklist item, (4) Output: Table variable showing assessment results + auto-generated recommendations using ChatGPT (e.g., "Project lacks keyboard controls - consider adding when key pressed blocks"). Students apply their tool to assess 3+ community projects and document findings.
+  Dependencies (4): T35.G7.02, T35.G6.01, T16.G8.01, T22.G8.01
+
+T35.G8.04: Lead peer workshops on responsible tech use
+  Description: Learners develop workshops/demos for younger grades on topics like screen balance, online kindness, or AI use.
+  Dependencies (2): T35.G7.06, T35.G6.04
+
+
+
+================================================================================
+DEPENDENCY ANALYSIS
+================================================================================
+
+
+INTRA-TOPIC DEPENDENCY VIOLATIONS:
+--------------------------------------------------------------------------------
+  None found - Good!
+
+
+CROSS-TOPIC DEPENDENCIES BY GRADE:
+--------------------------------------------------------------------------------
+
+GK:
+  T01: 2 dependencies
+
+G1:
+  T01: 3 dependencies
+
+G2:
+  T01: 3 dependencies
+  T03: 1 dependencies
+
+G3:
+  T06: 1 dependencies
+  T08: 3 dependencies
+  T09: 2 dependencies
+  T16: 3 dependencies
+  T22: 1 dependencies
+
+G4:
+  T06: 2 dependencies
+  T16: 2 dependencies
+  T22: 1 dependencies
+
+G5:
+  T16: 1 dependencies
+  T19: 1 dependencies
+
+G6:
+  T16: 3 dependencies
+  T19: 2 dependencies
+  T21: 1 dependencies
+  T22: 2 dependencies
+  T23: 1 dependencies
+  T24: 1 dependencies
+
+G7:
+  T16: 1 dependencies
+  T19: 1 dependencies
+  T21: 1 dependencies
+  T23: 1 dependencies
+
+G8:
+  T16: 1 dependencies
+  T22: 1 dependencies
+
+
+
+================================================================================
+SKILLS WITH NO DEPENDENCIES
+================================================================================
+  T35.GK.01: Identify a helpful use of technology
+
+
+
+================================================================================
+DEPENDENCY DEPTH ANALYSIS
+================================================================================
+T35.GK.02: 1 total (0 T35, 1 other)
+T35.GK.03: 1 total (0 T35, 1 other)
+T35.GK.04: 1 total (1 T35, 0 other)
+T35.G1.01: 1 total (0 T35, 1 other)
+T35.G1.02: 1 total (0 T35, 1 other)
+T35.G1.03: 1 total (0 T35, 1 other)
+T35.G1.04: 1 total (1 T35, 0 other)
+T35.G2.01: 1 total (0 T35, 1 other)
+T35.G2.02: 2 total (0 T35, 2 other)
+T35.G2.03: 1 total (0 T35, 1 other)
+T35.G2.04: 1 total (1 T35, 0 other)
+T35.G3.01: 4 total (1 T35, 3 other)
+T35.G3.02: 3 total (1 T35, 2 other)
+T35.G3.03: 4 total (1 T35, 3 other)
+T35.G3.04: 3 total (1 T35, 2 other)
+T35.G4.01: 2 total (1 T35, 1 other)
+T35.G4.02: 2 total (1 T35, 1 other)
+T35.G4.03: 3 total (1 T35, 2 other)
+T35.G4.04: 3 total (2 T35, 1 other)
+T35.G5.01: 1 total (1 T35, 0 other)
+T35.G5.02: 2 total (2 T35, 0 other)
+T35.G5.03: 2 total (2 T35, 0 other)
+T35.G5.04: 3 total (1 T35, 2 other)
+T35.G6.01: 4 total (2 T35, 2 other)
+T35.G6.02: 4 total (2 T35, 2 other)
+T35.G6.03: 4 total (2 T35, 2 other)
+T35.G6.03.01: 3 total (1 T35, 2 other)
+T35.G6.04: 1 total (1 T35, 0 other)
+T35.G6.05: 3 total (1 T35, 2 other)
+T35.G7.01: 2 total (2 T35, 0 other)
+T35.G7.01.01: 2 total (2 T35, 0 other)
+T35.G7.02: 1 total (1 T35, 0 other)
+T35.G7.03: 2 total (2 T35, 0 other)
+T35.G7.04: 3 total (2 T35, 1 other)
+T35.G7.05: 3 total (2 T35, 1 other)
+T35.G7.06: 2 total (2 T35, 0 other)
+T35.G7.07: 3 total (1 T35, 2 other)
+T35.G8.01: 2 total (2 T35, 0 other)
+T35.G8.01.01: 2 total (2 T35, 0 other)
+T35.G8.02: 2 total (2 T35, 0 other)
+T35.G8.03: 4 total (2 T35, 2 other)
+T35.G8.04: 2 total (2 T35, 0 other)
+
+
+
+================================================================================
+TOTAL STATISTICS
+================================================================================
+Total T35 skills: 43
+  GK: 4 skills
+  G1: 4 skills
+  G2: 4 skills
+  G3: 4 skills
+  G4: 4 skills
+  G5: 4 skills
+  G6: 6 skills
+  G7: 8 skills
+  G8: 5 skills
+
+Total dependencies: 93
+  T35 dependencies: 51
+  Other topic dependencies: 42

@@ -27,9 +27,6 @@ Where relevant, a primary **CSTA code** is noted.
 
 ### T34.GK.02 – Match old vs new versions of tech
 
-_Dependency:_
-  * T03.GK.01: Identify parts that make up a whole
-
 
 - **Short name:** Which one is the newer tool?
 - **Description:** Learners compare paired images (rotary phone vs smartphone, bulky PC vs tablet) to grasp that technology changes over time.
@@ -39,7 +36,7 @@ _Dependency:_
 ### T34.GK.03 – Name a person who uses computers in their job
 
 _Dependency:_
-  * T01.GK.01: Put pictures in order for getting ready for bed
+  * T34.GK.01: Spot computing tools in daily life
 
 
 - **Short name:** Who uses tech at work?
@@ -54,7 +51,7 @@ _Dependency:_
 ### T34.G1.01 – Describe life before and after a technology
 
 _Dependency:_
-  * T01.GK.01: Put pictures in order for getting ready for bed
+  * T34.GK.02: Match old vs new versions of tech
 
 
 - **Short name:** What changed when we got video calls?
@@ -65,7 +62,7 @@ _Dependency:_
 ### T34.G1.02 – Recognize inventors from diverse backgrounds
 
 _Dependency:_
-  * T01.GK.01: Put pictures in order for getting ready for bed
+  * T34.GK.03: Name a person who uses computers in their job
 
 
 - **Short name:** Match pioneers to their inventions
@@ -76,7 +73,7 @@ _Dependency:_
 ### T34.G1.03 – Explain that technology choices shape games/apps
 
 _Dependency:_
-  * T01.GK.01: Put pictures in order for getting ready for bed
+  * T34.G1.01: Describe life before and after a technology
 
 
 - **Short name:** Someone decided how this game works
@@ -88,10 +85,10 @@ _Dependency:_
 
 ## Grade 2
 
-### T34.G2.01 – Build “then vs now” comparison charts
+### T34.G2.01 – Build "then vs now" comparison charts
 
 _Dependency:_
-  * T01.G1.01: Put pictures in order to plant a seed
+  * T34.G1.01: Describe life before and after a technology
 
 
 - **Short name:** Compare computing tools from two eras
@@ -102,8 +99,8 @@ _Dependency:_
 ### T34.G2.02 – Identify communities impacted by inventions
 
 _Dependency:_
-  * T01.G1.10: Match pictures to "if/then" rules
-  * T03.G1.03: List steps for a simple classroom routine
+  * T34.G1.01: Describe life before and after a technology
+  * T34.G1.02: Recognize inventors from diverse backgrounds
 
 
 - **Short name:** Who benefits from this technology?
@@ -114,7 +111,7 @@ _Dependency:_
 ### T34.G2.03 – Create mini-biographies of computing helpers
 
 _Dependency:_
-  * T01.G1.01: Put pictures in order to plant a seed
+  * T34.G1.02: Recognize inventors from diverse backgrounds
 
 
 - **Short name:** Tell a short story about a computing helper
@@ -129,9 +126,7 @@ _Dependency:_
 ### T34.G3.01 – Sequence milestones on a timeline
 
 _Dependency:_
-  * T34.G2.01: Build “then vs now” comparison charts
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T07.G3.01: Use a counted repeat loop
+  * T34.G2.01: Build "then vs now" comparison charts
 
 
 - **Short name:** Order key inventions
@@ -143,8 +138,6 @@ _Dependency:_
 
 _Dependency:_
   * T34.G3.01: Sequence milestones on a timeline
-  * T08.G3.01: Use a simple if in a script
-  * T09.G3.01: Create and use a numeric variable for score or count
 
 
 - **Short name:** How did this invention change school/work?
@@ -156,8 +149,6 @@ _Dependency:_
 
 _Dependency:_
   * T34.G3.02: Connect computing milestones to everyday life
-  * T08.G3.01: Use a simple if in a script
-  * T09.G3.01: Create and use a numeric variable for score or count
 
 
 - **Short name:** Create a trading card for a lesser-known pioneer
@@ -172,9 +163,8 @@ _Dependency:_
 ### T34.G4.01 – Analyze cause/effect chains
 
 _Dependency:_
-  * T01.G3.01: Complete a simple script with missing blocks
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G3.01: Sequence milestones on a timeline
+  * T34.G3.02: Connect computing milestones to everyday life
 
 
 - **Short name:** What did one innovation enable next?
@@ -185,9 +175,8 @@ _Dependency:_
 ### T34.G4.02 – Compare regional computing histories
 
 _Dependency:_
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G3.02: Connect computing milestones to everyday life
+  * T34.G3.03: Highlight underrepresented innovators
 
 
 - **Short name:** How did two countries adopt computing differently?
@@ -195,17 +184,16 @@ _Dependency:_
 - **Challenge format:** Venn diagram. Auto-grading checks entries exist in all sections.
 - **CSTA:** E4‑CAS‑HC‑01.
 
-### T34.G4.03 – Link hardware evolution to today’s CreatiCode features
+### T34.G4.03 – Link hardware evolution to today's CreatiCode features
 
 _Dependency:_
-  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G3.03: Highlight underrepresented innovators
+  * T34.G4.01: Analyze cause/effect chains
 
 
 - **Short name:** Why can we do 3D/AI now?
-- **Description:** Students connect historical leaps (GPU invention, cloud computing) to features they use in CreatiCode (3D scenes, AI blocks).
-- **Challenge format:** Concept explanation referencing both history and platform feature. Auto-grading checks for concrete examples.
+- **Description:** Students trace how specific hardware innovations (GPU development for graphics, increased processing power, network bandwidth) made modern features possible. They explain why certain CreatiCode features (3D rendering, real-time AI, cloud storage) couldn't exist in earlier computing eras and identify the key technological breakthroughs that enabled each feature.
+- **Challenge format:** Structured explanation choosing one CreatiCode feature (3D, AI blocks, cloud projects) and mapping it to 2-3 historical hardware milestones. Auto-grading checks for: feature named, hardware innovations identified, causal explanation provided.
 - **CSTA:** E4‑CAS‑HC‑01, CAS‑ET.
 
 ---
@@ -215,14 +203,12 @@ _Dependency:_
 ### T34.G5.01 – Investigate social movements linked to computing
 
 _Dependency:_
-  * T01.G3.01: Complete a simple script with missing blocks
-  * T01.G3.02: Match a story description to a code sequence
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G4.01: Analyze cause/effect chains
+  * T34.G4.02: Compare regional computing histories
 
 
 - **Short name:** AI and tech for social justice case studies
-- **Description:** Learners research how computing and emerging AI tools support social causes (algorithmic justice advocacy, AI for accessibility, community-controlled data sovereignty, bias detection tools). They analyze both historical movements and current AI equity initiatives, connecting to T21-T24 applications and T35 ethics work.
+- **Description:** Learners research how computing supports social causes, focusing on accessible examples like screen readers for accessibility, translation tools for inclusion, and educational technology for underserved communities. They explore both historical cases (early assistive technology) and current AI applications (AI for accessibility), connecting to T35 ethics discussions.
 - **Challenge format:** Social justice tech timeline. Rubric requires historical context, current AI equity examples, impact assessment, and connection to ongoing challenges.
 - **CSTA:** E5‑CAS‑HC‑01.
 - **AI4K12:** E2 Societal Impacts; D2 Bias and Fairness.
@@ -230,10 +216,8 @@ _Dependency:_
 ### T34.G5.02 – Compare invention timelines in multiple industries
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G3.01: Sequence milestones on a timeline
+  * T34.G4.02: Compare regional computing histories
 
 
 - **Short name:** Parallel innovation timelines
@@ -244,10 +228,8 @@ _Dependency:_
 ### T34.G5.03 – Conduct interviews with tech users
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G2.03: Create mini-biographies of computing helpers
+  * T34.G3.03: Highlight underrepresented innovators
 
 
 - **Short name:** Oral history mini-project
@@ -262,10 +244,8 @@ _Dependency:_
 ### T34.G6.01 – Analyze waves of computing (mainframe → mobile → AI)
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G4.01: Analyze cause/effect chains
+  * T34.G5.02: Compare invention timelines in multiple industries
 
 
 - **Short name:** Identify patterns in computing eras
@@ -276,10 +256,8 @@ _Dependency:_
 ### T34.G6.02 – Evaluate who was included/excluded historically
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G5.01: Investigate social movements linked to computing
+  * T34.G4.02: Compare regional computing histories
 
 
 - **Short name:** Who got access? Who still doesn't?
@@ -291,10 +269,8 @@ _Dependency:_
 ### T34.G6.03 – Relate past failures to modern safeguards
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G5.01: Investigate social movements linked to computing
+  * T34.G4.01: Analyze cause/effect chains
 
 
 - **Short name:** Learning from historical mishaps
@@ -309,10 +285,9 @@ _Dependency:_
 ### T34.G7.01 – Research AI history milestones
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G5.01: Investigate social movements linked to computing
+  * T34.G5.02: Compare invention timelines in multiple industries
+  * T34.G6.01: Analyze waves of computing (mainframe → mobile → AI)
 
 
 - **Short name:** From ELIZA to GPT
@@ -323,10 +298,8 @@ _Dependency:_
 ### T34.G7.02 – Evaluate technology policies over time
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G5.01: Investigate social movements linked to computing
+  * T34.G6.02: Evaluate who was included/excluded historically
 
 
 - **Short name:** Compare privacy laws from different decades
@@ -337,15 +310,13 @@ _Dependency:_
 ### T34.G7.03 – Create museum-style exhibits for innovators
 
 _Dependency:_
-  * T08.G3.01: Use a simple if in a script
-  * T34.G1.01: Describe life before and after a technology
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G5.03: Conduct interviews with tech users
+  * T34.G6.03: Relate past failures to modern safeguards
 
 
 - **Short name:** Design a digital museum panel
 - **Description:** Learners build interactive CreatiCode scenes highlighting a computing pioneer, artifact, and modern relevance.
-- **Challenge format:** Coding + presentation. Auto-grading ensures scenes include timeline, biography, and “why it matters” label.
+- **Challenge format:** Design mockup + presentation. Students create a detailed plan for an interactive CreatiCode exhibit including: timeline of innovator's work, biography panel, "why it matters today" section, and at least two interactive elements (click-to-reveal facts, timeline navigation). Auto-grading checks completeness of design elements and connection to modern relevance.
 - **CSTA:** MS‑CAS‑HC‑03.
 
 ---
@@ -355,11 +326,8 @@ _Dependency:_
 ### T34.G8.01 – Synthesize trends into future forecasts
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.G1.03: Explain that technology choices shape games/apps
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G6.01: Analyze waves of computing (mainframe → mobile → AI)
+  * T34.G7.01: Research AI history milestones
 
 
 - **Short name:** What might the next decade bring?
@@ -370,11 +338,8 @@ _Dependency:_
 ### T34.G8.02 – Analyze cross-cultural innovation ecosystems
 
 _Dependency:_
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G6.01: Analyze waves of computing (mainframe → mobile → AI)
+  * T34.G7.02: Evaluate technology policies over time
 
 
 - **Short name:** Compare how two regions support computing innovation today
@@ -385,11 +350,8 @@ _Dependency:_
 ### T34.G8.03 – Produce primary-source inspired research projects
 
 _Dependency:_
-  * T34.G1.01: Describe life before and after a technology
-  * T34.G1.02: Recognize inventors from diverse backgrounds
-  * T34.G1.03: Explain that technology choices shape games/apps
-  * T34.GK.02: Match old vs new versions of tech
-  * T34.GK.03: Name a person who uses computers in their job
+  * T34.G6.01: Analyze waves of computing (mainframe → mobile → AI)
+  * T34.G7.03: Create museum-style exhibits for innovators
 
 
 - **Short name:** Use archives/interviews to tell a new story
