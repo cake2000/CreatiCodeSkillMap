@@ -1,0 +1,214 @@
+================================================================================
+T20 INTRA-TOPIC DEPENDENCY MAP
+================================================================================
+
+Legend:
+  [Skill ID]        → depends on
+  ═══════════         grade boundary
+  (X skills)          count of skills without T20 dependencies
+
+================================================================================
+GRADE GK - Pattern Recognition Foundation
+================================================================================
+(4 skills - all have only cross-topic dependencies)
+
+T20.GK.01: Picture pattern detective
+T20.GK.02: Order art steps with cards
+T20.GK.03: Continue the pattern trail
+T20.GK.04: Fix the mixed-up art plan (picture-only)
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G1 - Art Concepts
+═══════════════════════════════════════════════════════════════════════════════
+(4 skills - all have only cross-topic dependencies)
+
+T20.G1.01: Describe the art rule in words
+T20.G1.02: Match directions to drawings
+T20.G1.03: Extend a quilt on a grid
+T20.G1.04: Fix a wrong instruction (text-based)
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G2 - Repeat Patterns & Planning
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G2.01: Use repeat cards in an art recipe
+    │
+    ├──→ T20.G2.03: Build layered pattern recipes
+    │       │
+    │       └──→ T20.G2.04: Explain how a change affects the art
+    │
+    └──→ [flows to G3.01]
+
+T20.G2.02: Plan mirrored mosaics
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G3 - Introduction to Coding Art (Linear Progression)
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G2.01 ──→ T20.G3.01: Translate art recipe cards into blocks
+                  │
+                  └──→ T20.G3.02: Program a repeating border with loops
+                          │
+                          └──→ T20.G3.03: Trace a drawing loop and predict output
+                                  │
+                                  └──→ T20.G3.04: Tile a grid with nested loops
+                                          │
+                                          └──→ T20.G3.05: Add simple randomness for variety
+                                                  │
+                                                  └──→ T20.G3.05.01: Use variables to change pattern size
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G4 - Technical Implementation
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G3.05.01 ──→ T20.G4.01: Implement incremental loops for spirals
+                     │              │
+                     │              ├──→ T20.G4.03: Control art with parameters
+                     │              │
+                     │              └──→ T20.G4.05.01: Map list values to drawing positions
+                     │
+                     └──→ [flows to G5]
+
+T20.G3.05 ──→ T20.G4.02: Implement tessellation with custom blocks
+          │
+          ├──→ T20.G4.04: Debug a multi-loop art script
+          │
+          └──→ T20.G4.05: Recolor art with simple input events
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G5 - Data Visualization & 3D Introduction
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G4.05.01 ──→ T20.G5.01: Implement simple data-driven visualization
+                     │              │
+                     │              ├──→ T20.G5.01.01: Map data to two visual properties
+                     │              │
+                     │              └──→ T20.G5.05: Explain data-to-visual design choices
+                     │
+                     └──→ [flows to G6.04]
+
+T20.G4.01 ────┬──→ T20.G5.02: Animate a pattern with a counter variable
+              │        │
+              │        └──→ T20.G5.04.01: Create simple 3D artistic patterns
+              │                │              [MAJOR HUB - 6 references]
+              │                │
+              └────────────────┘
+
+T20.G4.05 ──→ T20.G5.03: Make art respond to mouse or keys
+
+T20.G4.02 ──→ T20.G5.04: Create fractal-like nested patterns
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G6 - Advanced Techniques & 3D Expansion
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G5.04 ──┬──→ T20.G6.01: Trace and explain an art algorithm
+            │
+            ├──→ T20.G6.02: Refactor repetitive art into loops/custom blocks
+            │
+            └──→ T20.G6.05: Apply math transformations to art
+                    │              [HUB - 5 references]
+                    │
+                    ├──→ T20.G6.05.01: Apply materials and textures to 3D art
+                    │
+                    └──→ T20.G6.05.02: Create 3D curve and line art
+
+T20.G5.02 ──→ T20.G6.03: Use variables and conditionals to branch designs
+
+T20.G5.01 ──→ T20.G6.04: Implement multi-field data visualization
+
+T20.G5.03 ──┬
+            │
+T20.G5.04.01 ┴──→ T20.G6.05.03: Create interactive 3D generative art
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G7 - Analysis & Complex Systems
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G6.01 ──┬──→ T20.G7.01: Compare efficiency of art algorithms
+            │
+            └──→ T20.G7.04: Analyze real generative artworks
+
+T20.G6.02 ──→ T20.G7.02: Use while/repeat-until loops in art
+
+T20.G6.03 ──┬──→ T20.G7.03: Study parameter impact on aesthetics
+            │        │
+            │        └──→ T20.G7.04.01: Create particle-based generative art
+            │
+            └──→ [flows to G7.04.01]
+
+T20.G6.05 ──┬──→ T20.G7.04: Analyze real generative artworks
+            │
+            └──→ T20.G7.05: Implement rule-based iterative art systems
+
+COMPLEX 3D SCULPTURE PATH:
+T20.G5.04.01 (X-2) ──┬
+T20.G6.05 (X-1) ─────┤
+T20.G7.03 ───────────┤
+T20.G7.04.01 ────────┴──→ T20.G7.05.01: Create 3D generative sculptures
+                                │              │
+                                │              ├──→ T20.G7.05.02: Use lighting to enhance 3D art
+                                │              │
+                                │              └──→ [flows to G8.05.01]
+                                │
+                                └─(X-2)─→ [flows to G7.05.02]
+
+T20.G6.05.02 ──→ T20.G7.05.03: Generate custom 3D shapes from calculated vertices
+
+═══════════════════════════════════════════════════════════════════════════════
+GRADE G8 - Capstone & Integration
+═══════════════════════════════════════════════════════════════════════════════
+
+T20.G6.04 (X-2) ──┬
+T20.G7.01 (X-1) ──┴──→ T20.G8.01: Implement multi-dimensional data mapping
+
+T20.G7.04 ──┬──→ T20.G8.02: Create constrained generative artwork
+            │
+            └──→ T20.G8.03: Evaluate authorship and originality in generative art
+
+T20.G7.01 ──→ T20.G8.04: Optimize rendering for performance
+                  │
+                  └──→ T20.G8.05.01: Apply post-processing effects
+
+T20.G7.05 ──→ T20.G8.05: Combine multiple algorithms in an art pipeline
+
+T20.G7.05.01 ──┬
+T20.G8.04 ─────┴──→ T20.G8.05.01: Apply post-processing effects to generative art
+
+================================================================================
+KEY LEARNING PATHWAYS
+================================================================================
+
+PATH 1: Pattern → Coding → Loops → Spirals
+  GK → G1 → G2.01 → G3.01 → G3.02 → G3.03 → G3.04 → G3.05 → G3.05.01
+    → G4.01 → G5.02 → G6.03 → G7.03
+
+PATH 2: Data Visualization
+  G4.05.01 → G5.01 → G5.01.01 → G6.04 → G8.01
+
+PATH 3: 3D Art (Most Complex)
+  G4.01 → G5.02 → G5.04.01 → G6.05.01/G6.05.02/G6.05.03
+    → G7.05.01 → G7.05.02 → G8.05.01
+
+PATH 4: Generative Art Systems
+  G3.05 → G4.02 → G5.04 → G6.05 → G7.05 → G8.05
+
+PATH 5: Analysis & Optimization
+  G5.04 → G6.01 → G7.01 → G8.04 → G8.05.01
+
+================================================================================
+X-2 RULE USAGE (Justified Dependencies)
+================================================================================
+
+1. T20.G7.05.01 depends on T20.G5.04.01
+   Reason: 3D generative sculptures need foundational 3D artistic patterns
+
+2. T20.G7.05.02 depends on T20.G5.04.01
+   Reason: Lighting enhancements need basic 3D pattern understanding
+
+3. T20.G8.01 depends on T20.G6.04
+   Reason: Multi-dimensional mapping builds on multi-field visualization
+
+All X-2 dependencies are appropriate and necessary.
+
+================================================================================

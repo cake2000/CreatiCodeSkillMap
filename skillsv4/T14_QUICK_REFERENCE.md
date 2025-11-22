@@ -1,103 +1,100 @@
-# T14 (2D Games) Optimization - Quick Reference Card
+# T14 (2D Games) - Quick Reference Guide
 
-**Date**: 2025-11-21 | **Status**: ✅ COMPLETE | **Scope**: Phase 1 - Internal T14 coherence
+## At a Glance
 
----
-
-## 📊 At a Glance
-
-| Before | After | Change |
-|--------|-------|--------|
-| 66 skills | 73 skills | +7 new |
-| 4.2 avg deps | 3.1 avg deps | -26% |
-| 1 X-2 violation | 0 violations | ✅ Fixed |
-| 3 gaps | 0 gaps | ✅ Filled |
+| Metric | Value |
+|--------|-------|
+| **Original Skills** | 66 |
+| **New Skills** | 8 |
+| **Modified Skills** | 23 |
+| **Final Total** | 74 |
+| **Dependency Violations Fixed** | 2 |
+| **Sub-ID Families** | 4 |
 
 ---
 
-## 🎯 What Changed
+## New Skills by Grade
 
-### NEW Skills (7):
-- **T14.G3.10.01**: Single clone basics
-- **T14.G4.04.01**: Enemy patrol
-- **T14.G4.04.02**: Enemy bounce
-- **T14.G5.08.01**: Timed spawns
-- **T14.G5.08.02**: Wave tracking
-- **T14.G5.08.03**: Difficulty scaling
-- **T14.G6.07**: Save/load progress
+### Grade 3 (3 new)
+- **T14.G3.01.01**: Move sprite left/right with keys
+- **T14.G3.01.02**: Move sprite with arrow keys (4 directions) [was G3.01]
+- **T14.G3.12**: Make sprite jump with a key press
 
-### MODIFIED Skills (14):
-- T14.G2.01: Renamed (Understand → Identify)
-- T14.G3.03: Enhanced description
-- T14.G3.05: Added specific blocks
-- T14.G3.07: **Fixed X-2 violation** (removed T11.G3.01)
-- T14.G3.09: Added block names
-- T14.G4.01-03: Reduced dependencies
-- T14.G4.06-08: Streamlined deps
-- T14.G4.15: Added hazard detection dep
-- T14.G5.01: **Fixed inverted dep** (removed projectile)
-- T14.G5.09: Added leaderboard note
+### Grade 4 (2 new)
+- **T14.G4.05.01**: Point sprite towards target
+- **T14.G4.05.02**: Chase the player [was G4.05]
 
-### REMOVED Skills (1):
-- T14.G4.04: Split into .01 and .02
-- T14.G5.08: Split into .01, .02, .03
+### Grade 5 (3 new)
+- **T14.G5.01.01**: Understand velocity variables for movement
+- **T14.G5.01.02**: Apply gravity with velocity
+- **T14.G5.01.03**: Configure gravity and weight parameters [was G5.01]
+
+### Grade 6 (3 new)
+- **T14.G6.01.01**: Track game state with a variable
+- **T14.G6.01.02**: Character state machine [was G6.01]
+- **T14.G6.07**: Monitor and optimize clone count ⭐ FIXES G7.04 VIOLATION
+
+### Grade 7 (1 new)
+- **T14.G7.06**: Advanced level management system ⭐ FIXES G7.05 VIOLATION
 
 ---
 
-## 🔧 Key Fixes
+## Sub-ID Families (Skills Broken Down)
 
-1. **X-2 Violation**: G3 skill no longer depends on G11
-2. **Clone Scaffolding**: New skill bridges gap to multi-clone
-3. **Dependency Cleanup**: -26% average dependencies
-4. **Skill Clarity**: Split broad skills into focused sub-skills
-5. **Platform Alignment**: Verified all blocks exist in CreatiCode
+### 1. Movement (G3)
+T14.G3.01 → T14.G3.01.01 (left/right)
+         → T14.G3.01.02 (4 directions)
 
----
+### 2. Chase Behavior (G4)
+T14.G4.05 → T14.G4.05.01 (point towards)
+         → T14.G4.05.02 (chase movement)
 
-## 📁 Files Created
+### 3. Physics/Gravity (G5)
+T14.G5.01 → T14.G5.01.01 (velocity concept)
+         → T14.G5.01.02 (apply gravity)
+         → T14.G5.01.03 (tune parameters)
 
-1. **T14_EXECUTIVE_SUMMARY.md** - Stakeholder overview
-2. **T14_optimization_report.md** - Full analysis
-3. **T14_changes_summary.md** - Detailed changelog
-4. **T14_updated_section.md** - ⭐ NEW CONTENT ⭐
-5. **T14_dependency_visualization.md** - Dependency maps
-6. **T14_INTEGRATION_GUIDE.md** - Integration steps
-7. **T14_QUICK_REFERENCE.md** - This card
-
----
-
-## ✅ Integration Checklist
-
-- [ ] Backup allskills.md
-- [ ] Replace lines 6016-6774 with T14_updated_section.md content
-- [ ] Verify 73 skills present
-- [ ] Check no duplicate IDs
-- [ ] Validate dependencies
-- [ ] Git commit
-- [ ] Update lesson plans (T14.G4.04, T14.G5.08)
+### 4. State Management (G6)
+T14.G6.01 → T14.G6.01.01 (simple state)
+         → T14.G6.01.02 (state machine)
 
 ---
 
-## 🚀 Next Steps
+## Critical Fixes
 
-1. Integrate into allskills.md
-2. Update cross-references
-3. Brief team on changes
-4. Plan Phase 2 (cross-topic review)
+### Dependency Violation 1: Clone Performance
+**Problem**: G7.04 depended on G4.01, G4.03 (3 grades back)
+**Solution**: Added G6.07 as bridge skill
+**Result**: G7.04 → G6.07 → G4.* (compliant)
 
----
-
-## 📞 Quick Links
-
-- **Main Content**: T14_updated_section.md
-- **How to Integrate**: T14_INTEGRATION_GUIDE.md
-- **Full Details**: T14_optimization_report.md
-- **All Changes**: T14_changes_summary.md
+### Dependency Violation 2: Difficulty Curves
+**Problem**: G7.05 depended on G4.09, G4.10 (3 grades back)
+**Solution**: Added G7.06 as bridge skill
+**Result**: G7.05 → G7.06 → G5.08/G4.* (compliant)
 
 ---
 
-**Questions?** See documentation in `/media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/`
+## Files Created
 
----
+All files located in: /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/
 
-END OF QUICK REFERENCE
+1. **T14_OPTIMIZATION_ANALYSIS.md**
+   - Detailed issue analysis
+   - Violation identification
+   - Scaffolding gap analysis
+
+2. **T14_OPTIMIZED_COMPLETE.md**
+   - Complete optimized skills list
+   - Ready to copy into allskills.md
+   - All 78 skills with dependencies
+
+3. **T14_CHANGES_SUMMARY.md**
+   - Executive summary
+   - Change log by grade
+   - Impact analysis
+   - Implementation recommendations
+
+4. **T14_QUICK_REFERENCE.md** (THIS FILE)
+   - At-a-glance metrics
+   - Quick lookup tables
+   - Implementation checklist

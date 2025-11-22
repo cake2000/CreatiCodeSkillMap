@@ -1,0 +1,431 @@
+T15 STORIES & ANIMATION - SKILL STATUS MAP
+Generated: 2025-11-22
+═══════════════════════════════════════════════════════════════════════════════
+
+LEGEND:
+  ✅ KEEP AS-IS       - Skill is accurate and appropriate
+  ⚠️  MINOR REVISION  - Small changes needed (dependencies, wording)
+  🔧 MAJOR REVISION   - Significant rewrite needed
+  ❌ DELETE           - Skill references non-existent blocks
+  ➕ NEW SKILL        - Needed to fill gaps
+
+═══════════════════════════════════════════════════════════════════════════════
+
+KINDERGARTEN (3 skills)
+═══════════════════════════════════════════════════════════════════════════════
+
+T15.GK.01 - Sequence story pictures                              ✅ KEEP AS-IS
+T15.GK.02 - Match emotions to faces                              ✅ KEEP AS-IS
+T15.GK.03 - Identify speech bubbles                              ✅ KEEP AS-IS
+
+Status: 3/3 good (100%)
+Action: None needed
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 1 (3 skills)
+═══════════════════════════════════════════════════════════════════════════════
+
+T15.G1.01 - Match setting to story                               ✅ KEEP AS-IS
+T15.G1.02 - Order dialogue                                       ✅ KEEP AS-IS
+T15.G1.03 - Action and consequence                               ✅ KEEP AS-IS
+
+Status: 3/3 good (100%)
+Action: None needed
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 2 (3 skills)
+═══════════════════════════════════════════════════════════════════════════════
+
+T15.G2.01 - Fast vs. Slow animation                              ✅ KEEP AS-IS
+T15.G2.02 - Identify scene transitions                           ✅ KEEP AS-IS
+T15.G2.03 - Loop patterns in animation                           ✅ KEEP AS-IS
+
+Status: 3/3 good (100%)
+Action: None needed
+
+Note: K-2 skills are ALL unplugged/concept-based and excellent!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 3 (9 skills) - CRITICAL ISSUES
+═══════════════════════════════════════════════════════════════════════════════
+
+STRAND A: BASIC ANIMATION
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G3.01 - Switch costume                                       ❌ DELETE
+  Issue: References `switch costume to [name]` - DOESN'T EXIST IN CREATICODE
+  Impact: Foundational skill for animation strand
+
+T15.G3.02 - Simple animation loop                                ❌ DELETE
+  Issue: References `next costume` - DOESN'T EXIST IN CREATICODE
+  Impact: All costume-based animation impossible
+
+T15.G3.03 - Reset appearance                                     ❌ DELETE
+  Issue: References costume blocks - DOESN'T EXIST IN CREATICODE
+  Impact: Other skills depend on this
+
+─────────────────────────────────────────────────────────────────────────────
+
+REPLACEMENTS NEEDED:
+
+T15.G3.NEW13 - Movement animation                                ➕ NEW SKILL
+  Description: Use change x/y in repeat loop for animation
+  Dependencies: [T06.G3.01, T07.G3.01]
+
+T15.G3.NEW14 - Size animation                                    ➕ NEW SKILL
+  Description: Use change size in repeat loop for animation
+  Dependencies: [T15.G3.NEW13]
+
+T15.G3.NEW15 - Reset animation state                             ➕ NEW SKILL
+  Description: Reset position, size, visibility on green flag
+  Dependencies: [T15.G3.NEW14]
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND B: DIALOGUE
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G3.04 - Say something                                        ⚠️  MINOR REVISION
+  Issue: Over-dependencies (needs variables? loops? why?)
+  Fix: Simplify dependencies to just [T06.G3.01]
+  Change: Remove T09.G3.01, T14.G3.03, T07.G3.02 from deps
+
+T15.G3.05 - Think bubble                                         ⚠️  MINOR REVISION
+  Issue: Over-dependencies + weak differentiation from say
+  Fix: Simplify deps, enhance to teach WHEN to use think vs say
+  Change: Remove T08.G3.02, T07.G3.03 from deps, add conceptual content
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND C: SEQUENCING & TIMING
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G3.06 - Sequence dialogue                                    ⚠️  MINOR REVISION
+  Issue: Over-dependencies (lists for stacking say blocks?!)
+  Fix: Simplify dependencies to just [T15.G3.05]
+  Change: Remove T09.G3.02, T10.G3.01 from deps
+
+T15.G3.07 - Wait between actions                                 ⚠️  MINOR REVISION
+  Issue: Over-dependencies (custom blocks for wait?!)
+  Fix: Simplify dependencies to just [T15.G3.06]
+  Change: Remove T11.G3.01, T12.G3.01 from deps
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND D: INTERACTIVE EVENTS
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G3.08 - Click to talk                                        ⚠️  MINOR REVISION
+  Issue: Minor dependency cleanup
+  Fix: Update to depend on revised skills
+
+T15.G3.09 - Key press animation                                  ⚠️  MINOR REVISION
+  Issue: Minor dependency cleanup
+  Fix: Update to depend on revised skills
+
+─────────────────────────────────────────────────────────────────────────────
+
+Grade 3 Status: 3 DELETE, 6 MINOR REVISION, 3 NEW NEEDED
+Grade 3 Action: CRITICAL - Redesign animation strand
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 4 (8 skills) - CRITICAL ISSUES
+═══════════════════════════════════════════════════════════════════════════════
+
+STRAND A: ADVANCED ANIMATION
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G4.01 - Animate with effects                                 🔧 MAJOR REVISION
+  Issue: References `change [ghost] effect` - DOESN'T EXIST
+  Fix: Replace with CreatiCode's `[fade/reveal v] sprite gradually`
+  Keep: `change size` works fine
+
+T15.G4.02 - Costume number logic                                 ❌ DELETE
+  Issue: References `switch costume to (1)` - DOESN'T EXIST
+  Impact: No costume system at all in CreatiCode
+
+─────────────────────────────────────────────────────────────────────────────
+
+REPLACEMENTS NEEDED:
+
+T15.G4.NEW1 - Add costume from URL                               ➕ NEW SKILL
+  Description: Use `add costume from URL [URL] name [NAME]`
+  Note: CreatiCode's actual costume management
+
+T15.G5.NEW2 - Multi-sprite character states                      ➕ NEW SKILL
+  Description: Use multiple sprites + hide/show instead of costumes
+  Note: Workaround for missing costume switching
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND B: SCENE MANAGEMENT
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G4.03 - Switch backdrop                                      ❌ DELETE
+  Issue: References `switch backdrop to [name]` - DOESN'T EXIST
+  Impact: No backdrop system in CreatiCode
+
+T15.G4.04 - Hide and Show characters                             🔧 MAJOR REVISION
+  Issue: References `when backdrop switches to [Scene 2]` - DOESN'T EXIST
+  Fix: Change trigger to broadcasts instead
+  Keep: hide/show blocks work fine
+
+─────────────────────────────────────────────────────────────────────────────
+
+REPLACEMENT NEEDED:
+
+T15.G4.NEW3 - Scene changes with broadcasts                      ➕ NEW SKILL
+  Description: Use broadcasts + hide/show + drawing for scenes
+  Note: Alternative to backdrop switching
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND C: INTERACTIVE STORIES
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G4.05 - Ask and Answer                                       ⚠️  MINOR REVISION
+  Issue: Generic dependencies (all G4 have same 4 deps - copy/paste error)
+  Fix: Customize to [T15.G3.06, T09.G3.01] (dialogue + join)
+
+T15.G4.06 - Simple branching (Yes/No)                            ⚠️  MINOR REVISION
+  Issue: Generic dependencies
+  Fix: Customize to [T15.G4.05, T08.G3.01] (ask + conditionals)
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND D: COORDINATION
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G4.07 - Coordinate two sprites (Wait)                        ⚠️  MINOR REVISION
+  Issue: Generic dependencies
+  Fix: Customize to [T15.G3.07, T06.G3.01] (wait + parallel scripts)
+
+T15.G4.08 - Parallel actions                                     ⚠️  MINOR REVISION
+  Issue: Generic dependencies
+  Fix: Customize to [T06.G3.01] (just parallel scripts)
+
+─────────────────────────────────────────────────────────────────────────────
+
+NEW SKILLS TO ADD:
+
+T15.G4.NEW14 - Three-part story structure                        ➕ NEW SKILL
+  Description: Beginning, middle, end marked with broadcasts
+  Note: Narrative craft skill
+
+─────────────────────────────────────────────────────────────────────────────
+
+Grade 4 Status: 2 DELETE, 2 MAJOR REVISION, 4 MINOR REVISION, 4 NEW NEEDED
+Grade 4 Action: HIGH PRIORITY - Replace scene/costume systems
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 5 (8 skills) - MEDIUM ISSUES
+═══════════════════════════════════════════════════════════════════════════════
+
+STRAND A: BROADCASTING FOR STORIES
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G5.01 - Broadcast scene change                               ✅ KEEP AS-IS
+T15.G5.02 - Broadcast specific actions                           ✅ KEEP AS-IS
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND B: CAMERA & POLISH
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G5.03 - Simulated Camera Pan                                 🔧 MAJOR REVISION
+  Issue: Teaches moving all sprites (complex, error-prone)
+  Fix: Replace with CreatiCode's viewport blocks
+  New blocks: `move viewport to x (X) y (Y)`, `lock viewport to sprite`
+
+T15.G5.04 - Layering logic                                       ✅ KEEP AS-IS
+  Note: `go to front layer` works in CreatiCode
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND C: ADVANCED TEXT
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G5.05 - Join text strings                                    ✅ KEEP AS-IS
+T15.G5.06 - Text effects (Typewriter)                            ✅ KEEP AS-IS
+
+─────────────────────────────────────────────────────────────────────────────
+
+STRAND D: BRANCHING & STATE
+─────────────────────────────────────────────────────────────────────────────
+
+T15.G5.07 - Track story choices                                  ✅ KEEP AS-IS
+T15.G5.08 - Conditional endings                                  ✅ KEEP AS-IS
+
+─────────────────────────────────────────────────────────────────────────────
+
+NEW SKILLS TO ADD (CreatiCode Features):
+
+T15.G5.NEW3 - Style speech bubbles                               ➕ NEW SKILL
+  Block: say [TEXT] for (T) secs text size (SIZE) [COLOR] background [BG]
+  Note: CreatiCode-unique styled say/think
+
+T15.G5.NEW4 - Persistent bubbles                                 ➕ NEW SKILL
+  Description: Use T=0 for infinite say/think
+  Note: CreatiCode feature (one block, dual purpose)
+
+T15.G5.NEW5 - Basic text-to-speech                               ➕ NEW SKILL
+  Block: say [TEXT] in [LANGUAGE v] as [VOICETYPE v]
+  Note: AI TTS for character voices
+
+T15.G5.NEW15 - Pacing with wait blocks                           ➕ NEW SKILL
+  Description: Fast pacing (short waits) vs slow pacing (suspense)
+  Note: Narrative craft skill
+
+─────────────────────────────────────────────────────────────────────────────
+
+Grade 5 Status: 6 KEEP, 1 MAJOR REVISION, 4 NEW NEEDED
+Grade 5 Action: MEDIUM - Add CreatiCode features + viewport
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 6 (2 skills) - GOOD
+═══════════════════════════════════════════════════════════════════════════════
+
+T15.G6.01 - State Machine for Animation                          ✅ KEEP AS-IS
+  Note: Change to use visibility/size/position states (not costumes)
+
+T15.G6.02 - List-based Dialogue                                  ✅ KEEP AS-IS
+
+─────────────────────────────────────────────────────────────────────────────
+
+NEW SKILLS TO ADD:
+
+T15.G6.NEW6 - Customize character voices                         ➕ NEW SKILL
+  Block: say [...] speed (SPEED) pitch (PITCH) volume (VOL)
+  Note: TTS voice personality
+
+T15.G6.NEW8 - Widget-based input                                 ➕ NEW SKILL
+  Blocks: add textbox, add button, value from widget
+  Note: Modern UI for interactive stories
+
+T15.G6.NEW12 - Draw simple scenes (OPTIONAL)                     ➕ NEW SKILL
+  Blocks: draw rectangle, draw oval, draw text
+  Note: Alternative to backdrops
+
+T15.G6.NEW16 - Character consistency                             ➕ NEW SKILL
+  Description: Use variables for personality traits
+  Note: Narrative craft skill
+
+─────────────────────────────────────────────────────────────────────────────
+
+Grade 6 Status: 2 KEEP, 4 NEW NEEDED
+Grade 6 Action: LOW - Add optional enhancements
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 7 (2 skills) - GOOD
+═══════════════════════════════════════════════════════════════════════════════
+
+T15.G7.01 - Scene Graph / Manager                                ✅ KEEP AS-IS
+T15.G7.02 - Lip Sync Logic                                       ✅ KEEP AS-IS
+
+─────────────────────────────────────────────────────────────────────────────
+
+NEW SKILLS TO ADD:
+
+T15.G7.NEW7 - Multi-language stories                             ➕ NEW SKILL
+  Description: TTS in 3+ languages
+  Note: Accessibility + global storytelling
+
+T15.G7.NEW9 - Button-based choices                               ➕ NEW SKILL
+  Description: Choice-based narratives with button widgets
+  Note: Modern interactive fiction
+
+T15.G7.NEW10 - Chat window stories                               ➕ NEW SKILL
+  Block: create chat window, append chat message
+  Note: Conversation-style narratives
+
+T15.G7.NEW13 - Programmatic scene transitions (OPTIONAL)         ➕ NEW SKILL
+  Description: Clear drawings + redraw for scene changes
+  Note: Generative graphics
+
+T15.G7.NEW17 - Emotional arc mapping                             ➕ NEW SKILL
+  Description: Variable tracking emotional intensity
+  Note: Narrative craft skill
+
+─────────────────────────────────────────────────────────────────────────────
+
+Grade 7 Status: 2 KEEP, 5 NEW NEEDED
+Grade 7 Action: LOW - Add optional enhancements
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 8 (2 skills) - GOOD
+═══════════════════════════════════════════════════════════════════════════════
+
+T15.G8.01 - Branching Narrative Engine                           ✅ KEEP AS-IS
+
+T15.G8.02 - Accessibility in Media                               🔧 MAJOR REVISION
+  Issue: Vague reference to TTS without scaffolding
+  Fix: Expand to comprehensive accessibility suite
+  Add: Reference to G5.NEW5, G6.NEW6, G7.NEW7 (TTS progression)
+
+─────────────────────────────────────────────────────────────────────────────
+
+NEW SKILLS TO ADD:
+
+T15.G8.NEW11 - Tabbed story chapters (OPTIONAL)                  ➕ NEW SKILL
+  Block: add tabs, select tab, when tab selected
+  Note: Complex story organization
+
+─────────────────────────────────────────────────────────────────────────────
+
+Grade 8 Status: 1 KEEP, 1 MAJOR REVISION, 1 NEW NEEDED
+Grade 8 Action: LOW - Enhance accessibility skill
+
+═══════════════════════════════════════════════════════════════════════════════
+
+OVERALL SUMMARY
+═══════════════════════════════════════════════════════════════════════════════
+
+CURRENT SKILLS (47):
+  ✅ KEEP AS-IS:        20 skills (43%)  - K-2 all good, G5-G8 mostly good
+  ⚠️  MINOR REVISION:    8 skills (17%)  - Dependency cleanup
+  🔧 MAJOR REVISION:     5 skills (11%)  - Platform alignment needed
+  ❌ DELETE:             5 skills (11%)  - Non-existent blocks
+  📝 NEEDS TRACKING:     9 skills (19%)  - K-2 (already good)
+
+NEW SKILLS NEEDED: 17+
+  ➕ Animation replacements:     3 skills (movement, size, reset)
+  ➕ Costume/scene management:   3 skills (URL, multi-sprite, broadcasts)
+  ➕ Styled say/think:           2 skills (colors, persistent)
+  ➕ Text-to-speech:             4 skills (basic, voices, multi-lang, access)
+  ➕ Widget interaction:         4 skills (textbox, buttons, chat, tabs)
+  ➕ Narrative craft:            4 skills (structure, pacing, character, emotion)
+  ➕ Drawing (optional):         2 skills (scenes, transitions)
+
+AFTER REVISIONS:
+  Phase 1 (Critical):   40 skills (100% platform-accurate)
+  Phase 2 (Features):   50 skills (showcases CreatiCode strengths)
+  Phase 3 (Quality):    54 skills (polished pedagogy)
+
+HEALTH METRICS:
+  Platform Accuracy:    60% → 100% (after Phase 1)
+  CreatiCode Features:  15% → 85% (after Phase 3)
+  Scaffolding Quality:  70% → 95% (after Phase 3)
+  Dependency Health:    60% → 90% (after Phase 3)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PRIORITY ACTIONS:
+  1. DELETE:   T15.G3.01, G3.02, G3.03, G4.02, G4.03 (5 skills)
+  2. ADD:      T15.G3.NEW13-15 (animation replacements)
+  3. ADD:      T15.G4.NEW1-3 (costume/scene alternatives)
+  4. REVISE:   T15.G4.01 (ghost → fade gradually)
+  5. REVISE:   T15.G4.04 (backdrop events → broadcasts)
+  6. SIMPLIFY: T15.G3.04-G3.07 dependencies
+  7. ADD:      TTS, widget, narrative craft skills (Phases 2-3)
+
+═══════════════════════════════════════════════════════════════════════════════
+END OF SKILL STATUS MAP
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,90 @@
+T11 – Functions & Procedures: Complete Skill List (31 skills)
+Source: /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md
+Extracted: 2025-11-22
+
+===============================================================================
+GRADE 3 (5 skills)
+===============================================================================
+
+T11.G3.01 | Understand when to use custom blocks vs loops
+T11.G3.02 | Use a pre-made custom block with parameters
+T11.G3.03 | Identify repeated or grouped actions that could become custom blocks
+T11.G3.04 | Understand the concept of return values
+T11.G3.05 | Explore the "Make a Block" interface in CreatiCode
+
+===============================================================================
+GRADE 4 (6 skills)
+===============================================================================
+
+T11.G4.01 | Define and call a simple custom block (no parameters)
+T11.G4.02 | Distinguish command blocks from reporter blocks
+T11.G4.03 | Use a reporter block's result in a calculation or condition
+T11.G4.04 | Describe the purpose of each custom block in a script
+T11.G4.05 | Trace execution through a script with custom blocks
+T11.G4.06 | Understand the argument block for accessing parameters
+
+===============================================================================
+GRADE 5 (8 skills)
+===============================================================================
+
+T11.G5.01 | Decompose a problem into logical custom block boundaries
+T11.G5.02 | Define a custom block with one parameter
+T11.G5.03 | Choose between adding a parameter vs. creating a separate block
+T11.G5.04 | Analyze a modular program structure
+T11.G5.05 | Define a custom block with two or more parameters
+T11.G5.06 | Define a custom reporter block that returns a value
+T11.G5.07 | Debug a script with incorrect custom block calls
+T11.G5.08 | Use comments to document custom block purpose
+
+===============================================================================
+GRADE 6 (4 skills)
+===============================================================================
+
+T11.G6.01 | Design custom blocks with clear, predictable interfaces
+T11.G6.02 | Create modular programs with multiple custom blocks
+T11.G6.03 | Refactor spaghetti code into organized custom blocks
+T11.G6.04 | Evaluate and critique custom block designs
+
+===============================================================================
+GRADE 7 (4 skills)
+===============================================================================
+
+T11.G7.01 | Implement algorithms as reusable custom blocks
+T11.G7.02 | Design a set of related custom blocks for a subsystem
+T11.G7.03 | Understand encapsulation and information hiding
+T11.G7.04 | Trace and debug multi-level custom block calls
+
+===============================================================================
+GRADE 8 (4 skills)
+===============================================================================
+
+T11.G8.01 | Design a reusable library of custom blocks for games
+T11.G8.02 | Refactor a large program into a hierarchical block structure
+T11.G8.03 | Create custom blocks that work with lists and complex data
+T11.G8.04 | Analyze trade-offs between modular and inline code
+
+===============================================================================
+SUMMARY
+===============================================================================
+
+Total Skills: 31
+Grade Range: 3-8 (No K-2 skills)
+No CSTA codes included in T11 skills
+No duplicate IDs found
+All skills follow consistent format
+All cross-references validated
+
+Key Progression:
+G3: Conceptual understanding
+G4: Basic implementation
+G5: Parameters & practical use
+G6: Design & refactoring
+G7: Advanced concepts
+G8: Expert application
+
+Most-Referenced Skills (used as dependencies by other T11 skills):
+- T11.G6.01 (Design interfaces) - 5 references
+- T11.G6.03 (Refactor code) - 5 references
+- T11.G6.04 (Evaluate designs) - 5 references
+- T11.G4.01 (Define simple block) - 4 references
+- T11.G5.02 (One parameter) - 4 references

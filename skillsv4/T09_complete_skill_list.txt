@@ -1,0 +1,98 @@
+T09 (Variables & Expressions) - Complete Skill List
+====================================================
+
+KINDERGARTEN (2 skills - Picture-based)
+----------------------------------------
+T09.GK.01: Recognize that a label can hold a number
+T09.GK.02: Identify which label changed after an action
+
+GRADE 1 (2 skills - Light digital)
+-----------------------------------
+T09.G1.01: Change a displayed number by clicking a button
+T09.G1.02: Use a picture-based counter to track items collected
+
+GRADE 2 (2 skills - Picture-based concepts)
+--------------------------------------------
+T09.G2.01: Set a starting value for a counter before a game begins
+T09.G2.02: Compare a counter to a target number to trigger an event
+
+GRADE 3 (9 skills - First block-based variables)
+-------------------------------------------------
+T09.G3.01.01: Create a new variable with a descriptive name [NEW SUB-SKILL]
+T09.G3.01.02: Set a variable to an initial value at program start [NEW SUB-SKILL]
+T09.G3.01.03: Change a variable value by 1 using the change block [NEW SUB-SKILL]
+T09.G3.01.04: Display variable value on stage using the variable monitor [NEW SUB-SKILL]
+T09.G3.02: Use change and reduce blocks to modify a variable [DESCRIPTION UPDATED]
+T09.G3.03: Use a variable in a simple conditional (if block)
+T09.G3.04: Debug a single missing or wrong variable block [DEPENDENCY UPDATED]
+T09.G3.05: Trace code with variables to predict outcomes
+
+GRADE 4 (10 skills - Expressions and operators)
+------------------------------------------------
+T09.G4.01: Use addition and subtraction in variable expressions
+T09.G4.02: Use multiplication and division in expressions
+T09.G4.03: Combine two arithmetic operators in a single expression
+T09.G4.04: Store and use user input in a variable
+T09.G4.05: Use a variable as a loop counter
+T09.G4.06: Use comparison operators (=, ≠, >, <, ≥, ≤) in conditionals
+T09.G4.07: Use a flag variable to track state (0/1 or true/false)
+T09.G4.08: Use random number blocks to set variable values [DEPENDENCY UPDATED]
+T09.G4.08.01: Choose appropriate variable display modes (normal, large, slider) [NEW SKILL]
+T09.G4.09: Debug variable initialization and update frequency errors
+
+GRADE 5 (9 skills - Multiple variables, strings, patterns)
+-----------------------------------------------------------
+T09.G5.01: Use multiple variables together in a single expression
+T09.G5.02: Create and use string variables
+T09.G5.02.01: Create and use boolean variables with true/false values [NEW SKILL]
+T09.G5.03: Join strings using concatenation
+T09.G5.04: Use variables as settings to control program behavior
+T09.G5.05: Use the accumulator pattern to compute running totals
+T09.G5.06: Trace a counter through loop iterations to predict final value
+T09.G5.07: Trace code with multiple interacting variables
+T09.G5.08: Track high score using variable comparison
+
+GRADE 6 (10 skills - Complex expressions, strings, math)
+---------------------------------------------------------
+T09.G6.01: Model real-world quantities using variables and formulas
+T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+T09.G6.03: Use exponents (^) in expressions
+T09.G6.03.01: Use modulo (remainder) operator in expressions [NEW SKILL]
+T09.G6.04: Use string length and case conversion operations
+T09.G6.05: Use substring and position operations on strings
+T09.G6.06: Use temporary variables for multi-step calculations
+T09.G6.06.01: Understand variable persistence across events and broadcasts [NEW SKILL]
+T09.G6.07: Debug off-by-one and comparison operator errors
+
+GRADE 7 (7 skills - Systems, scope, analysis)
+----------------------------------------------
+T09.G7.01: Model dynamic systems where variables change over time
+T09.G7.01.01: Use mathematical functions (abs, round, floor, ceiling, sqrt) in expressions [NEW SKILL]
+T09.G7.02: Compute average using sum and count variables
+T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
+T09.G7.04: Understand local vs global variable scope
+T09.G7.05: Save and load variables to/from files [DESCRIPTION COMPLETELY REWRITTEN]
+T09.G7.06: Predict behavior changes from modifying variable values
+
+GRADE 8 (8 skills - Algorithms, optimization, advanced features)
+-----------------------------------------------------------------
+T09.G8.01.01: Use variables to track index position in linear search [NEW SUB-SKILL]
+T09.G8.01.02: Use flag variables in search algorithms to track found status [NEW SUB-SKILL]
+T09.G8.01.03: Use variables in iterative approximation algorithms [NEW SUB-SKILL]
+T09.G8.02: Simplify and optimize variable expressions
+T09.G8.02.01: Use min and max functions to constrain variable values [NEW SKILL]
+T09.G8.02.02: Use trigonometric functions (sin, cos, tan) in expressions [NEW SKILL]
+T09.G8.03: Use cloud variables for persistent data storage [DEPENDENCY UPDATED]
+T09.G8.04: Debug variable scope and concurrent update errors [DEPENDENCY UPDATED]
+T09.G8.05: Translate mathematical formulas into code expressions
+T09.G8.06: Use variables to collect and store multiple data readings [DEPENDENCY UPDATED]
+
+TOTAL: 59 skills (up from 41)
+==============================
+
+LEGEND:
+[NEW SUB-SKILL] - Created by breaking down an overly broad original skill
+[NEW SKILL] - Entirely new skill added to fill gaps
+[DESCRIPTION UPDATED] - Description text improved
+[DESCRIPTION COMPLETELY REWRITTEN] - Description changed to match correct functionality
+[DEPENDENCY UPDATED] - Dependencies changed
