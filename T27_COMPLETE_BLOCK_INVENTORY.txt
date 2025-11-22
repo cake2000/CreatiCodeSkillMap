@@ -1,0 +1,330 @@
+T27 DATA ANALYSIS & VISUALIZATION COMPLETE BLOCK INVENTORY
+===========================================================
+
+Source: /media/binyu/USB2/ScratchCopilot/blockdes8.txt
+Analysis Date: 2025-11-21
+
+=== WIDGETS CATEGORY: CHART & VISUALIZATION ===
+Category: Widgets (Lines 9461-9515)
+Total Blocks in Category: 4
+
+1. widget_drawchartusinglist
+   - Syntax: draw [CHARTTYPE v] chart using list [LISTNAME v] x (X) y (Y) width (WIDTH) height (HEIGHT)
+   - Chart Types: line, bar, pie, percentage
+   - Data Source: Single list
+   - Features: Position, size, auto-axis scaling
+
+2. widget_drawchartusingcolumn
+   - Syntax: draw [CHARTTYPE v] chart using columns [COLUMNLIST] from table [TABLENAME v] x (X) y (Y) width (WIDTH) height (HEIGHT)
+   - Chart Types: line, bar, pie, percentage
+   - Data Source: Multiple table columns
+   - Features: Multi-series, position, size
+
+3. widget_drawchartusingcategory
+   - Syntax: draw pie chart using category [CATEGORYCOLUMN] and value [VALUECOLUMN] from table [TABLENAME v] x (X) y (Y) width (WIDTH) height (HEIGHT)
+   - Chart Type: pie (only)
+   - Data Source: Category column + value column
+   - Features: Labeled slices, percentage calculation
+
+4. widget_progressbar
+   - Syntax: add progress bar as (CURRENT) out of total (TOTAL) at x (X) y (Y) width (WIDTH) height (HEIGHT) color [COLOR] background [BG] border width (BORDERWIDTH) color [BORDERCOLOR] as [NAME]
+   - Type: Progress visualization
+   - Features: Percentage calculation, styling, naming
+
+=== VARIABLES CATEGORY: TABLE OPERATIONS ===
+Category: Variables
+Total Blocks in Category: 30+
+
+TABLE STRUCTURE (8 blocks):
+1. data_addrowtotable - Append new row
+2. data_insertrowtotable - Insert row at position
+3. data_replacerowoftable - Replace entire row
+4. data_deleterowoftable - Delete single row
+5. data_deleteallrowsoftable - Delete all rows (keep columns)
+6. data_deletecolumnfromtable - Delete column by name
+7. data_removeallcolumnsfromtable - Delete all columns
+8. data_addcolatposition - Add column at position
+
+CELL OPERATIONS (4 blocks):
+9. data_itematrowcolumnoftable - Read cell value
+10. data_replaceitematrowcolumn - Replace cell value
+11. data_changeitematrowcolumn - Increment cell value
+12. data_reduceitematrowcolumn - Decrement cell value
+
+SEARCH & QUERY (5 blocks):
+13. data_rowindexwithcondition - Find row by value (exact)
+14. data_rowindexwithcondition2 - Find row by substring
+15. data_rowatindexoftable - Get full row as string
+16. data_lookuptable - Lookup (VLOOKUP) operation
+17. data_rowcountoftable - Count rows
+
+AGGREGATION & ANALYSIS (4 blocks):
+18. data_computetable - Aggregate column (min, max, sum, avg, median)
+19. data_settabletocomputed - GROUP BY aggregation
+20. data_pivot_table_into_table - Pivot table creation
+21. data_sorttablebycolumn - Sort by column (asc/desc)
+
+DISPLAY & FORMAT (3 blocks):
+22. data_showtable - Show table on stage
+23. data_hidetable - Hide table from stage
+24. data_showsnapshotoftable - Popup snapshot with styling
+
+IMPORT/EXPORT (4 blocks):
+25. data_exporttable - Export to CSV
+26. data_importtable - Import from file
+27. data_savetable - Save to cloud server
+28. data_loadtable - Load from cloud server
+
+TABLE OPERATIONS (3 blocks):
+29. data_copy_table_into_table - Copy table
+30. data_append_table_into_table - Append table rows
+31. data_setlisttocolumn - Copy list to column
+
+SPECIAL (2 blocks):
+32. data_reshuffletable - Random row shuffle
+33. data_deleterowwithcondition - Delete rows by condition
+
+=== DATABASE CATEGORY: CLOUD DATABASE ===
+Category: Database (Lines 3839-4009)
+Total Blocks in Category: 13
+
+CORE OPERATIONS (5 blocks):
+1. database_find_from_collection - Fetch with WHERE/ORDER/LIMIT
+2. database_insert_from_table - Insert rows into collection
+3. database_update_collection - Update from modified table
+4. database_update_collection_in_place - Direct WHERE update
+5. database_remove_all_document - Delete by WHERE condition
+
+SCHEMA (1 block):
+6. database_collection - Get collection definition
+
+CONDITION BUILDERS (7 blocks):
+7. database_query - Comparison (>, <, =, ≠, ≥, ≤)
+8. database_operator - Math operators (+, -, *, /)
+9. database_contains - Text containment check
+10. database_collectionfield - Field reference
+11. database_not - Boolean NOT
+12. database_and - Boolean AND
+13. database_or - Boolean OR
+
+=== CLOUD CATEGORY: GOOGLE SHEETS ===
+Category: Cloud (Lines 10270+)
+Total Blocks in Category: 14
+
+READ OPERATIONS (2 blocks):
+1. p2p_readfromgooglesheet - Read range into table
+2. p2p_listSheetsInGoogleSheet - List all sheet names
+
+WRITE OPERATIONS (1 block):
+3. p2p_writeintogooglesheet - Write table to sheet
+
+SHEET MANAGEMENT (4 blocks):
+4. p2p_addsheet - Add new sheet
+5. p2p_removesheet - Delete sheet
+6. p2p_clearsheet - Clear sheet content
+7. p2p_removesheet - (duplicate in design)
+
+ROW/COLUMN OPERATIONS (4 blocks):
+8. p2p_insertrowsinsheet - Insert multiple rows
+9. p2p_removerowsfromsheet - Delete row range
+10. p2p_insertcolumnsinsheet - Insert multiple columns
+11. p2p_removecolumnsfromsheet - Delete column range
+
+=== OPERATORS CATEGORY: STATISTICAL ===
+Category: Operators (Lines 2310-2323)
+Total Blocks in Category: 1
+
+STATISTICAL ANALYSIS (1 block):
+1. operator_value_from_moving_average - Moving average (simple/exponential)
+
+=== GRAND TOTAL ===
+Widgets (Charts/Visualization):      4 blocks
+Variables (Table Operations):       30+ blocks
+Database (Cloud Operations):        13 blocks
+Cloud (Google Sheets):              14 blocks
+Operators (Statistics):              1 block
+────────────────────────────────────────────
+TOTAL:                              62+ blocks
+
+=== KEY CAPABILITIES ===
+
+DATA RETRIEVAL:
+✓ Cell, row, and multi-row reads
+✓ Lookup/VLOOKUP functionality
+✓ Collection queries with WHERE conditions
+✓ Range-based Google Sheets import
+
+DATA FILTERING:
+✓ Exact value match
+✓ Substring matching
+✓ Numeric comparisons (>, <, =, ≠, ≥, ≤)
+✓ Complex conditions (AND, OR, NOT)
+✓ Conditional row deletion
+
+DATA SORTING:
+✓ Single-column sort (ascending/descending)
+✓ Multi-field sort (database)
+✓ Random shuffle
+
+DATA AGGREGATION:
+✓ Statistical functions (min, max, sum, average, median)
+✓ GROUP BY operations
+✓ Pivot tables (with multi-column grouping)
+✓ Moving averages (simple & exponential)
+
+DATA TRANSFORMATION:
+✓ Row/column insertion/deletion
+✓ Cell value updates (replace, increment, decrement)
+✓ Table copy/append operations
+✓ List to column conversion
+✓ Multi-table operations
+
+DATA VISUALIZATION:
+✓ Line charts
+✓ Bar charts
+✓ Pie charts (simple and categorical)
+✓ Percentage charts
+✓ Progress bars
+✓ Table display (inline and snapshot)
+
+DATA PERSISTENCE:
+✓ CSV export/import
+✓ Cloud server save/load
+✓ Google Sheets read/write/manage
+✓ Multi-sheet Google Sheets support
+
+DATABASE OPERATIONS:
+✓ Cloud collection CRUD
+✓ Complex WHERE clauses
+✓ In-place updates
+✓ Batch operations
+✓ Schema inspection
+
+=== CHART TYPE MATRIX ===
+
+Chart Type     | List Source | Table Columns | Categorical | Progress |
+────────────────────────────────────────────────────────────────────
+Line           |     ✓       |       ✓       |      -      |    -     |
+Bar            |     ✓       |       ✓       |      -      |    -     |
+Pie            |     ✓       |       ✓       |      ✓      |    -     |
+Percentage     |     ✓       |       ✓       |      -      |    -     |
+Progress Bar   |     -       |       -       |      -      |    ✓     |
+
+=== AGGREGATION METHOD MATRIX ===
+
+Function    | Single Column | GROUP BY | Pivot | Database | Moving Avg |
+──────────────────────────────────────────────────────────────────────
+Sum         |       ✓       |    ✓     |   ✓   |    ✓     |     -      |
+Average     |       ✓       |    ✓     |   ✓   |    ✓     |     ✓      |
+Minimum     |       ✓       |    ✓     |   ✓   |    ✓     |     -      |
+Maximum     |       ✓       |    ✓     |   ✓   |    ✓     |     -      |
+Median      |       ✓       |    ✓     |   ✓   |    -     |     -      |
+
+=== RECOMMENDED SKILL GROUPINGS FOR T27 ===
+
+Level 1 - Table Fundamentals:
+- Create tables (add rows/columns)
+- Display tables
+- Export to CSV
+- Basic row/column deletion
+
+Level 2 - Data Retrieval & Search:
+- Read cell values
+- Find rows (exact and substring)
+- Lookup operations
+- Count rows
+
+Level 3 - Data Modification:
+- Replace cell values
+- Update rows
+- Delete rows by condition
+- Copy/append tables
+
+Level 4 - Analysis & Aggregation:
+- Sort tables
+- Compute column statistics
+- GROUP BY operations
+- Pivot tables
+
+Level 5 - Visualization:
+- Create line charts
+- Create bar charts
+- Create pie charts
+- Progress bars
+
+Level 6 - Cloud Integration:
+- Google Sheets import/export
+- Database collection queries
+- Cloud persistence
+- Multi-sheet operations
+
+Level 7 - Advanced Analytics:
+- Complex WHERE conditions
+- Multi-series charts
+- Moving averages
+- In-place database updates
+
+=== SORTING CAPABILITIES ===
+
+Table Operations:
+- Single column sort (ascending/descending)
+- Random shuffle
+
+Database Operations:
+- Sort by field 1 (ascending/descending)
+- Optional secondary sort field
+- Multiple sort criteria supported
+
+=== IMPORT/EXPORT FORMATS ===
+
+Format              | Direction | Operation Block |
+─────────────────────────────────────────────────
+CSV                 | Export    | data_exporttable |
+CSV/TXT             | Import    | data_importtable |
+Google Sheets       | Read      | p2p_readfromgooglesheet |
+Google Sheets       | Write     | p2p_writeintogooglesheet |
+Cloud Server        | Save      | data_savetable |
+Cloud Server        | Load      | data_loadtable |
+
+=== CELL UPDATE OPERATIONS ===
+
+Operation          | Block ID | Parameters |
+────────────────────────────────────────────
+Read               | data_itematrowcolumnoftable | row, column |
+Replace            | data_replaceitematrowcolumn | row, column, value |
+Increment (+)      | data_changeitematrowcolumn | row, column, amount |
+Decrement (-)      | data_reduceitematrowcolumn | row, column, amount |
+
+=== DATABASE QUERY OPERATORS ===
+
+Comparison: >, <, =, ≠, ≥, ≤
+Math: +, -, *, / (inc, dec, mul, div)
+Text: contains
+Logic: AND, OR, NOT
+Field Ref: field [name]
+
+=== NOTES FOR T27 IMPLEMENTATION ===
+
+1. CreatiCode provides COMPLETE data analysis and visualization suite
+2. 62+ dedicated blocks cover all major data operations
+3. Multi-tier storage: local tables → cloud database → Google Sheets
+4. All common statistical functions supported
+5. Real-time chart rendering with 4+ chart types
+6. Complex database queries with full WHERE support
+7. Pivot tables and GROUP BY for advanced analysis
+8. Two-way Google Sheets integration for external data sync
+9. Moving average support for trend analysis
+10. Progressive complexity suitable for skill progression
+
+=== MISSING CAPABILITIES (FOR REFERENCE) ===
+
+- UNIQUE/DISTINCT operations
+- FULL OUTER JOIN (single source aggregation exists)
+- Window functions beyond moving average
+- Heatmap or scatter plot charts
+- Statistical distributions/percentiles
+- Date-based aggregation (GROUP BY date ranges)
+- Recursive queries
+- Custom aggregation functions
+
+End of Inventory

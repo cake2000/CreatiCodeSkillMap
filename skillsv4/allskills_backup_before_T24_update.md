@@ -11491,41 +11491,29 @@ Dependencies:
 ID: T24.G3.02
 Topic: T24 – XO & Generative AI Practices
 Skill: Evaluate if AI output matches the request
-Description: Students give an AI image generator a prompt and judge whether the result matches what they asked for. They identify missing elements or unwanted additions. They use the `search for AI image` block to test prompts and build a simple rating script that stores prompt quality in a list, combining evaluation with coding practice.
+Description: Students give an AI image generator a prompt and judge whether the result matches what they asked for. They identify missing elements or unwanted additions.
 
 Dependencies:
 * T24.G2.03: Describe what you want AI to create
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 ID: T24.G3.03
 Topic: T24 – XO & Generative AI Practices
 Skill: Revise a prompt to improve AI results
-Description: Students take an AI result that did not match their goal and revise their prompt by adding or changing details. They compare the original and revised outputs. They write a prompt-builder script that combines variable values (subject, color, style) using text join blocks to create improved prompts programmatically.
+Description: Students take an AI result that did not match their goal and revise their prompt by adding or changing details. They compare the original and revised outputs.
 
 Dependencies:
 * T24.G3.02: Evaluate if AI output matches the request
-* T09.G3.01: Create and use a numeric variable for score or count
 
 
 ID: T24.G3.04
 Topic: T24 – XO & Generative AI Practices
 Skill: Recognize AI makes mistakes
-Description: Students examine AI outputs that contain errors (wrong facts, strange images) and identify the mistakes. They learn that AI is not always correct and human review is needed. They build an error-detection script that compares AI output to expected results (e.g., checking AI math answers against calculated values) and flags discrepancies.
+Description: Students examine AI outputs that contain errors (wrong facts, strange images) and identify the mistakes. They learn that AI is not always correct and human review is needed.
 
 Dependencies:
 * T24.G2.02: Identify what AI can and cannot do
 * T24.G3.02: Evaluate if AI output matches the request
-* T08.G3.01: Use a simple if in a script
-
-
-ID: T24.G4.01.01
-Topic: T24 – XO & Generative AI Practices
-Skill: Combine keywords for better AI image searches
-Description: Students learn to use multiple keywords in one search query (e.g., "cat sitting forest sunset" instead of just "cat"). They compare results from single-word vs multi-word searches and observe how specificity and detail improve results. They experiment with adding adjectives, actions, and settings to create more precise image searches. This bridges evaluation skills (G3.03) to the comprehensive keyword search skill (G4.01).
-
-Dependencies:
-* T24.G3.03: Revise a prompt to improve AI results
 
 
 ID: T24.G4.01
@@ -11536,27 +11524,25 @@ Description: Students use the `search for AI image of [TYPE] with query [QUERY]`
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T24.G3.02: Evaluate if AI output matches the request
-* T24.G4.01.01: Combine keywords for better AI image searches
+* T24.G3.03: Revise a prompt to improve AI results
 
 
 ID: T24.G4.02
 Topic: T24 – XO & Generative AI Practices
 Skill: Write a multi-part prompt for AI
-Description: Students structure prompts with multiple elements (subject + action + setting + style) to get more specific AI outputs. They compare simple vs detailed prompts. They create a prompt template using text join blocks with dropdown menus for subject, action, setting, and style, allowing them to build complex prompts programmatically by selecting options and combining them.
+Description: Students structure prompts with multiple elements (subject + action + setting + style) to get more specific AI outputs. They compare simple vs detailed prompts.
 
 Dependencies:
 * T24.G3.03: Revise a prompt to improve AI results
-* T09.G3.01: Create and use a numeric variable for score or count
 
 
 ID: T24.G4.03
 Topic: T24 – XO & Generative AI Practices
 Skill: Identify safe and unsafe AI interactions
-Description: Students sort examples of AI prompts into safe (asking for help with homework) and unsafe (sharing personal info, asking AI to break rules) categories. They explain why some interactions are risky. They build a safety-checker script using conditionals that categorizes prompts by risk type and displays warning messages for unsafe categories.
+Description: Students sort examples of AI prompts into safe (asking for help with homework) and unsafe (sharing personal info, asking AI to break rules) categories. They explain why some interactions are risky.
 
 Dependencies:
 * T24.G3.04: Recognize AI makes mistakes
-* T08.G3.01: Use a simple if in a script
 
 
 ID: T24.G4.04
@@ -11592,9 +11578,11 @@ Dependencies:
 ID: T24.G5.01
 Topic: T24 – XO & Generative AI Practices
 Skill: Read and interpret XO's interface cues
-Description: Students explore XO, the CreatiCode AI coding assistant integrated in the IDE. They navigate XO's chat area, template prompts, code/explanation tabs, and "insert into project" buttons, learning how to pause, copy, and pin answers for later. Students practice pausing XO mid-response, copying code snippets with proper formatting, and pinning answers to reference later. They learn to: (1) locate and use template prompts, (2) switch between code and explanation views, (3) copy code snippets safely, (4) pin important responses for later reference, and (5) identify when XO is still generating vs finished.
+Description: Students explore XO, the CreatiCode AI coding assistant integrated in the IDE. They navigate XO's chat area, template prompts, code/explanation tabs, and "insert into project" buttons, learning how to pause, copy, and pin answers for later.
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T09.G3.05: Trace code with variables to predict outcomes
 * T24.G4.03: Identify safe and unsafe AI interactions
 * T24.G4.06: Explore AI block categories in CreatiCode
 
@@ -11605,6 +11593,8 @@ Skill: Ask XO for a three-step project plan
 Description: Students practice writing a structured prompt (goal + constraints + audience) so XO replies with a numbered plan. They verify the plan covers at least three concrete actions (e.g., "draw sprite," "add `when green flag clicked`," "show score label").
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T09.G3.05: Trace code with variables to predict outcomes
 * T24.G5.01: Read and interpret XO's interface cues
 
 
@@ -11614,6 +11604,7 @@ Skill: Turn an XO suggestion into starter code safely
 Description: Students copy a short script provided by XO (e.g., movement loop) into their project, but before running it they verify variables/events exist and annotate what each block does. This builds the habit of reading AI output before trusting it.
 
 Dependencies:
+* T10.G3.03: Add and remove items from a list
 * T24.G5.01: Read and interpret XO's interface cues
 * T24.G5.02: Ask XO for a three-step project plan
 
@@ -11624,6 +11615,8 @@ Skill: Collect themed assets from narrative descriptions
 Description: Students take XO's narrative description (e.g., "Journey of a Waterdrop" scene) and convert it into multi-part AI image search queries. They collect multiple matching sprites and backdrops for a coherent scene, justifying how each asset fits the narrative. This advances from single-keyword searches to theme-based asset collection.
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T09.G3.05: Trace code with variables to predict outcomes
 * T24.G4.01: Search the AI image library with keywords
 * T24.G5.02: Ask XO for a three-step project plan
 
@@ -11634,6 +11627,8 @@ Skill: Reject unsafe or off-spec XO suggestions
 Description: Students review an XO reply that includes off-task, private, or non-compliant steps (e.g., "ask a friend for their password," "skip testing") and practice declining it. They write a replacement step that follows the rubric/spec and log why the original was rejected.
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T09.G3.05: Trace code with variables to predict outcomes
 * T24.G4.03: Identify safe and unsafe AI interactions
 * T24.G5.03: Turn an XO suggestion into starter code safely
 
@@ -11641,7 +11636,7 @@ Dependencies:
 ID: T24.G5.06
 Topic: T24 – XO & Generative AI Practices
 Skill: Use AI sentence analysis to identify parts of speech
-Description: Students use the `analyze sentence [TEXT]` block to parse simple sentences and identify nouns, verbs, and adjectives. The results are written to a table for inspection. They explore how NLP helps computers understand language structure. The table has 7 columns: TEXT (word), LEMMA (root form), TYPE (noun/verb/etc), PERSON, OFFSET, LABEL, DEPENDS. Students learn to read this structured data and use it to analyze sentence patterns.
+Description: Students use the `analyze sentence [TEXT]` block to parse simple sentences and identify nouns, verbs, and adjectives. The results are written to a table for inspection. They explore how NLP helps computers understand language structure.
 
 Dependencies:
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
@@ -11652,7 +11647,7 @@ Dependencies:
 ID: T24.G5.07
 Topic: T24 – XO & Generative AI Practices
 Skill: Use the ChatGPT block to get AI responses in code
-Description: Students use the `ChatGPT request [PROMPT] result [VARIABLE]` block to send prompts programmatically and store responses in variables. They build simple projects where AI responses drive sprite behavior or display text. They learn the difference between `session: new chat` (fresh conversation) and `session: continue` (maintains context). They learn to use 'session: new' for independent queries and 'session: continue' to maintain conversation context across multiple XO requests, enabling more sophisticated multi-turn assistance.
+Description: Students use the `ChatGPT request [PROMPT] result [VARIABLE]` block to send prompts programmatically and store responses in variables. They build simple projects where AI responses drive sprite behavior or display text.
 
 Dependencies:
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
@@ -11693,7 +11688,7 @@ Description: Students ask XO "Explain how this script works," then compare the e
 Dependencies:
 * T06.G4.01: Trace event execution paths in a multi-event program
 * T07.G4.01: Use a counted repeat loop
-* T08.G4.01: Use if‑else or else‑if chains
+* T08.G4.01: Use a simple if in a script
 * T09.G4.01: Create and use a numeric variable for score or count
 * T24.G5.03: Turn an XO suggestion into starter code safely
 * T24.G6.01: Provide complete context when asking XO to debug
@@ -11725,7 +11720,7 @@ Dependencies:
 ID: T24.G6.05.01
 Topic: T24 – XO & Generative AI Practices
 Skill: Generate custom images with the DALL-E block
-Description: Students use the `DALL-E generate image with request [DESCRIPTION]` block to create custom images based on detailed prompts. They understand the difference between searching the AI image library and generating new images. They select appropriate resolutions (256x256, 512x512, 1024x1024) based on project needs. They learn to choose between 256x256 (fast, small assets like icons), 512x512 (balanced quality and speed for game sprites), and 1024x1024 (high quality but slower, for detailed backdrops or feature art).
+Description: Students use the `DALL-E generate image with request [DESCRIPTION]` block to create custom images based on detailed prompts. They understand the difference between searching the AI image library and generating new images, and select appropriate resolutions for their needs.
 
 Dependencies:
 * T24.G4.02: Write a multi-part prompt for AI
@@ -11735,7 +11730,7 @@ Dependencies:
 ID: T24.G6.05
 Topic: T24 – XO & Generative AI Practices
 Skill: Maintain a prompt/response lab notebook using lists
-Description: Students use CreatiCode lists or tables to track their AI interactions (date, tool, prompt, result quality, action taken). They write scripts to add entries and review the log to spot patterns (e.g., "long prompts give better responses"), building both coding and metacognitive habits. The table structure includes columns for: timestamp, AI tool used, prompt text, result quality (1-5 rating), and action taken (used/modified/rejected). Students learn to analyze this data to improve their prompting strategies.
+Description: Students use CreatiCode lists or tables to track their AI interactions (date, tool, prompt, result quality, action taken). They write scripts to add entries and review the log to spot patterns (e.g., "long prompts give better responses"), building both coding and metacognitive habits.
 
 Dependencies:
 * T06.G4.01: Trace event execution paths in a multi-event program
@@ -11751,7 +11746,7 @@ Skill: Label risky prompts and rewrite them safely
 Description: Students examine sample prompts that leak private info, copy code wholesale, or ask XO to skip grading criteria. They classify each as "safe" or "risky," then rewrite risky ones to remove private data and align to the rubric while keeping the learning goal.
 
 Dependencies:
-* T08.G4.01: Use if‑else or else‑if chains
+* T08.G4.01: Use a simple if in a script
 * T09.G4.04: Trace code with variables to predict outcomes
 * T24.G5.05: Reject unsafe or off-spec XO suggestions
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
@@ -11764,19 +11759,9 @@ Description: Students use the `get moderation result for [TEXT]` block to check 
 
 Dependencies:
 * T06.G4.01: Trace event execution paths in a multi-event program
-* T08.G4.01: Use if‑else or else‑if chains
+* T08.G4.01: Use a simple if in a script
 * T24.G4.05: Understand content moderation in AI systems
 * T24.G5.07: Use the ChatGPT block to get AI responses in code
-
-
-ID: T24.G6.08.01
-Topic: T24 – XO & Generative AI Practices
-Skill: Manage ChatGPT sessions explicitly
-Description: Students modify their ChatGPT block usage from G5.07 to explicitly control sessions using the `session: new chat` vs `session: continue` parameters. They ask XO a series of related questions (e.g., "What are loops?" then "Show me an example") and observe how context is maintained. They learn when to start fresh sessions (independent queries) vs continue sessions (building on previous context). This bridges basic ChatGPT usage (G5.07) to multi-turn chatbots (G6.08).
-
-Dependencies:
-* T24.G5.07: Use the ChatGPT block to get AI responses in code
-* T08.G4.01: Use if‑else or else‑if chains
 
 
 ID: T24.G6.08
@@ -11786,28 +11771,18 @@ Description: Students use the `ChatGPT request` block with `session: continue` t
 
 Dependencies:
 * T07.G4.01: Use a counted repeat loop
-* T08.G4.01: Use if‑else or else‑if chains
-* T24.G6.08.01: Manage ChatGPT sessions explicitly
+* T08.G4.01: Use a simple if in a script
+* T24.G5.07: Use the ChatGPT block to get AI responses in code
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
-
-
-ID: T24.G6.09
-Topic: T24 – XO & Generative AI Practices
-Skill: Attach stage snapshots to XO for visual debugging
-Description: Students use the stage snapshot feature to capture their project's visual output, then attach it to an XO request using the attach costume block. They ask questions like "Is this output correct for [specification]?" or "Does this design match my theme?" They learn to get visual debugging help from XO for graphics-heavy projects, not just code feedback. This extends XO usage beyond code review to visual asset evaluation.
-
-Dependencies:
-* T24.G6.04: Iterate AI images using feedback from XO
-* T09.G4.01: Create and use a numeric variable for score or count
 
 
 ID: T24.G7.01
 Topic: T24 – XO & Generative AI Practices
 Skill: Create reusable XO prompt templates in lists
-Description: Students design prompt templates (e.g., "Code Review Template," "Project Outline Template") with placeholders for sprites, variables, and goals. They store these as text items in CreatiCode lists and use string join blocks to fill in placeholders, creating reusable prompts for XO. The table structure includes columns for: template name, template text with {PLACEHOLDERS}, category (debugging/planning/review), and usage count. Students track which templates are most effective.
+Description: Students design prompt templates (e.g., "Code Review Template," "Project Outline Template") with placeholders for sprites, variables, and goals. They store these as text items in CreatiCode lists and use string join blocks to fill in placeholders, creating reusable prompts for XO.
 
 Dependencies:
-* T09.G5.01: Use arithmetic and comparison operators with variables
+* T09.G3.01: Create and use a numeric variable for score or count
 * T10.G5.03: Add and remove items from a list
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
 * T24.G6.06: Label risky prompts and rewrite them safely
@@ -11816,12 +11791,12 @@ Dependencies:
 ID: T24.G7.02
 Topic: T24 – XO & Generative AI Practices
 Skill: Run an XO-led code review with evidence
-Description: Students paste a medium script into XO and ask for "3 improvements." They then inspect each suggestion, either implementing it or rejecting it with justification (performance, readability, game design). They maintain a review log table with columns for: original code, suggestion, decision (accepted/rejected), justification, and outcome. This teaches critical evaluation of AI suggestions with evidence-based reasoning.
+Description: Students paste a medium script into XO and ask for "3 improvements." They then inspect each suggestion, either implementing it or rejecting it with justification (performance, readability, game design).
 
 Dependencies:
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T08.G5.01: Use if‑else to handle two cases
-* T09.G5.04: Use arithmetic and comparison operators with variables
+* T06.G5.01: Build a green-flag script that runs a 3-5 block sequence
+* T08.G5.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
 * T24.G6.06: Label risky prompts and rewrite them safely
 * T24.G7.01: Create reusable XO prompt templates in lists
 
@@ -11829,11 +11804,11 @@ Dependencies:
 ID: T24.G7.03
 Topic: T24 – XO & Generative AI Practices
 Skill: Combine XO storyboards with AI sprite generation
-Description: Students ask XO for a storyboard (scene descriptions + characters) for a themed project, then generate sprites/backdrops for each scene via the AI image blocks. They document alignment between text and visuals. They maintain a storyboard table with columns for: scene number, description from XO, sprite/backdrop name, alignment score (1-5), and notes on modifications needed.
+Description: Students ask XO for a storyboard (scene descriptions + characters) for a themed project, then generate sprites/backdrops for each scene via the AI image blocks. They document alignment between text and visuals.
 
 Dependencies:
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G5.04: Use arithmetic and comparison operators with variables
+* T06.G5.01: Build a green-flag script that runs a 3-5 block sequence
+* T09.G3.05: Trace code with variables to predict outcomes
 * T24.G6.04: Iterate AI images using feedback from XO
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
 * T24.G7.01: Create reusable XO prompt templates in lists
@@ -11842,10 +11817,10 @@ Dependencies:
 ID: T24.G7.04
 Topic: T24 – XO & Generative AI Practices
 Skill: Enforce responsible-use rules for XO assistance
-Description: Students implement an "AI Help" log inside their project (a hidden list or widget) that records each XO contribution, who reviewed it, and whether it was modified. They also add on-screen indicators telling players when AI-generated art/text appears. The tracking table includes columns for: timestamp, XO contribution type (code/plan/asset), reviewer name, modified (yes/no), and attribution displayed (yes/no). This teaches systematic AI usage documentation.
+Description: Students implement an "AI Help" log inside their project (a hidden list or widget) that records each XO contribution, who reviewed it, and whether it was modified. They also add on-screen indicators telling players when AI-generated art/text appears.
 
 Dependencies:
-* T08.G5.01: Use if‑else to handle two cases
+* T08.G5.01: Use a simple if in a script
 * T10.G5.03: Add and remove items from a list
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
 * T24.G6.06: Label risky prompts and rewrite them safely
@@ -11855,43 +11830,32 @@ Dependencies:
 ID: T24.G7.05
 Topic: T24 – XO & Generative AI Practices
 Skill: Use XO to coach peers with rubric-based feedback
-Description: Students feed XO a project summary and ask for constructive feedback. They then edit the response to match a class rubric (naming strengths, next steps) before sending it to a peer. This reinforces human oversight and empathy. They maintain a feedback table with columns for: peer name, XO raw feedback, edited feedback, rubric alignment score, and peer response. This teaches responsible AI-mediated peer review.
+Description: Students feed XO a project summary and ask for constructive feedback. They then edit the response to match a class rubric (naming strengths, next steps) before sending it to a peer. This reinforces human oversight and empathy.
 
 Dependencies:
-* T09.G5.01: Use arithmetic and comparison operators with variables
+* T09.G3.01: Create and use a numeric variable for score or count
 * T24.G6.06: Label risky prompts and rewrite them safely
 * T24.G7.02: Run an XO-led code review with evidence
 * T24.G7.04: Enforce responsible-use rules for XO assistance
 
 
-ID: T24.G7.06
-Topic: T24 – XO & Generative AI Practices
-Skill: Use multiple XO sessions to compare responses
-Description: Students use the `select chatbot [1/2/3/4]` block to create two XO sessions with different system instructions (e.g., "focus on readability" vs "focus on efficiency"). They send the same code review request to both sessions, compare the responses, and synthesize a combined improvement plan. They maintain a comparison table with columns for: prompt, session 1 response, session 2 response, differences identified, and synthesized recommendation. This teaches critical comparison of AI perspectives.
-
-Dependencies:
-* T24.G7.02: Run an XO-led code review with evidence
-* T24.G7.05: Use XO to coach peers with rubric-based feedback
-* T10.G5.03: Add and remove items from a list
-
-
 ID: T24.G8.01
 Topic: T24 – XO & Generative AI Practices
 Skill: Automate XO requests with data-driven prompt builders
-Description: Students store project metadata (sprite name, mechanic, constraint) in a table and build scripts that concatenate those fields into structured XO prompts. Pressing a widget button copies the prompt for immediate use. The metadata table includes columns for: sprite name, mechanic type, constraint description, target grade level, and auto-generated prompt text. This teaches systematic prompt generation from structured data.
+Description: Students store project metadata (sprite name, mechanic, constraint) in a table and build scripts that concatenate those fields into structured XO prompts. Pressing a widget button copies the prompt for immediate use.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T24.G7.01: Create reusable XO prompt templates in lists
+* T24.G7.01: Create reusable XO prompt macros
 * T24.G7.04: Enforce responsible-use rules for XO assistance
 
 
 ID: T24.G8.02
 Topic: T24 – XO & Generative AI Practices
 Skill: Pair XO with automated tests to validate fixes
-Description: Students write a small automated test harness (assertions or monitoring variables). They then prompt XO for a fix, apply it, run the tests, and report whether the fix passed. If not, they loop with refined prompts until the tests succeed. The test log table includes columns for: test name, XO fix attempt number, test result (pass/fail), error message, and refined prompt. This teaches iterative AI-assisted debugging with validation.
+Description: Students write a small automated test harness (assertions or monitoring variables). They then prompt XO for a fix, apply it, run the tests, and report whether the fix passed. If not, they loop with refined prompts until the tests succeed.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
@@ -11904,7 +11868,7 @@ Dependencies:
 ID: T24.G8.03
 Topic: T24 – XO & Generative AI Practices
 Skill: Compare XO-generated code/image options with human-crafted versions
-Description: Students implement two versions of a feature or asset: one produced with XO/AI image tool, one produced manually. They create metrics (lines of code, frame rate, user preference) and analyze tradeoffs. The comparison table includes columns for: feature/asset name, AI version metrics, human version metrics, quality ratings (1-5), speed comparison, and recommendation with justification. This teaches critical evaluation of AI assistance value.
+Description: Students implement two versions of a feature or asset: one produced with XO/AI image tool, one produced manually. They create metrics (lines of code, frame rate, user preference) and analyze tradeoffs.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -11916,8 +11880,8 @@ Dependencies:
 
 ID: T24.G8.04
 Topic: T24 – XO & Generative AI Practices
-Skill: Implement AI usage tracking and policy enforcement (Capstone)
-Description: Students create a comprehensive project with coded enforcement of AI usage rules: tracking XO contributions in lists, displaying AI attribution labels, implementing approval workflows with conditionals, and logging usage statistics. They document their policy decisions in code comments. This capstone project combines: (1) contribution tracking table (timestamp, type, source, reviewer, status), (2) attribution display system, (3) approval workflow with conditional logic, (4) usage statistics dashboard, and (5) policy documentation in comments. This demonstrates mastery of responsible AI integration in projects.
+Skill: Implement AI usage tracking and policy enforcement
+Description: Students create a project with coded enforcement of AI usage rules: tracking XO contributions in lists, displaying AI attribution labels, implementing approval workflows with conditionals, and logging usage statistics. They document their policy decisions in code comments.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -11929,15 +11893,17 @@ Dependencies:
 
 ID: T24.G8.05
 Topic: T24 – XO & Generative AI Practices
-Skill: Build an interactive XO tutorial project (Capstone)
-Description: Students create a comprehensive interactive CreatiCode project that demonstrates XO best practices (planning, debugging, image iteration). The project includes step-by-step guidance, example prompts stored in lists, and interactive elements that let users practice safe AI interactions. This capstone project combines: (1) tutorial navigation system with step tracking, (2) example prompt library stored in tables, (3) interactive practice exercises with validation, (4) progress tracking and feedback, and (5) comprehensive documentation of XO workflows. This demonstrates mastery of teaching others about responsible AI-assisted coding.
+Skill: Build an interactive XO tutorial project
+Description: Students create an interactive CreatiCode project that demonstrates XO best practices (planning, debugging, image iteration). The project includes step-by-step guidance, example prompts stored in lists, and interactive elements that let users practice safe AI interactions.
 
 Dependencies:
 * T01.G6.01: Count comparisons in linear and binary search
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.05: Use XO to coach peers with rubric-based feedback
-* T24.G8.04: Implement AI usage tracking and policy enforcement (Capstone)
+* T24.G8.04: Implement AI usage tracking and policy enforcement
+
+
 ID: T25.GK.01
 Topic: T25 – Data Representation
 Skill: Spot data in everyday objects
@@ -12035,7 +12001,7 @@ Dependencies:
 ID: T25.G3.01
 Topic: T25 – Data Representation
 Skill: Map survey responses into list variables
-Description: Students take physical sticky notes and type each response as an item in a CreatiCode list using 'add item to list' blocks. They create named lists (e.g., 'favoriteColors') and populate them with survey data, demonstrating how analog data becomes digital. This teaches the fundamentals of list data structures and prepares students for more complex data collection tasks.
+Description: Students take physical sticky notes and type each response as an item in a list, demonstrating how analog data becomes digital.
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
@@ -12075,14 +12041,13 @@ Dependencies:
 * T07.G3.03: Build a forever loop for simple animation
 
 
-ID: T25.G3.05
+ID: T25.G3.04.01
 Topic: T25 – Data Representation
 Skill: Identify when data needs cleaning
 Description: Before normalizing data, students first identify examples of inconsistent data (different date formats, mixed capitalization in a list) and mark which entries need fixing. This prepares them for data cleaning in Grade 5.
 
 Dependencies:
 * T25.G3.03: Break sentences into structured records
-* T25.G3.04: Explain why consistent units matter
 
 
 ID: T25.G4.01
@@ -12091,6 +12056,7 @@ Skill: Build schema diagrams for simple apps
 Description: Students diagram an app's data needs (e.g., to-do list: task text, due date, done?) showing column names and types before coding.
 
 Dependencies:
+* T02.G3.01: Identify start, action, and end symbols
 * T25.G3.02: Choose the right variable type
 * T25.G2.04: Combine two data attributes
 
@@ -12138,7 +12104,7 @@ Dependencies:
 ID: T25.G5.01
 Topic: T25 – Data Representation
 Skill: Model multi-type game state
-Description: Students design a "player" data structure using text (name), number (score, health), Boolean (isAlive), and list (inventory) fields, then implement it using a combination of CreatiCode variables, lists, and tables. They learn when to use individual variables for single values vs tables for structured multi-attribute data, practicing coordinated updates across different data types to maintain consistent game state.
+Description: Students design a "player" data structure using text (name), number (score, health), Boolean (isAlive), and list (inventory) fields, then implement it using CreatiCode variables, lists, and tables.
 
 Dependencies:
 * T09.G3.01: Create and use a numeric variable for score or count
@@ -12160,7 +12126,7 @@ Dependencies:
 ID: T25.G5.03
 Topic: T25 – Data Representation
 Skill: Decide when to upgrade from list to table
-Description: Students examine a list of names and a table with names + scores, then choose which representation fits new requirements ("store both name and score"). They learn specific criteria: use lists for single-attribute collections (one value per item), upgrade to tables when tracking multiple attributes per entity (name AND score AND level). This builds judgment about when simple lists are sufficient vs when tables provide better data organization.
+Description: Students examine a list of names and a table with names + scores, then choose which representation fits new requirements ("store both name and score").
 
 Dependencies:
 * T25.G3.01: Map survey responses into list variables
@@ -12188,20 +12154,10 @@ Dependencies:
 * T25.G3.02: Choose the right variable type
 
 
-ID: T25.G5.06
-Topic: T25 – Data Representation
-Skill: Create and query tables using CreatiCode table blocks
-Description: Students learn to build tables in CreatiCode using 'add column' and 'add row' blocks to organize multi-attribute data. They practice adding columns with meaningful names (e.g., 'PlayerName', 'Score', 'Level'), populating rows with data, and using 'get value from table' blocks to query specific cells by row and column. This teaches the fundamentals of tabular data structures and prepares students for more advanced table operations like filtering and sorting.
-
-Dependencies:
-* T25.G3.01: Map survey responses into list variables
-* T25.G5.03: Decide when to upgrade from list to table
-
-
 ID: T25.G6.01
 Topic: T25 – Data Representation
 Skill: Document metadata for datasets
-Description: Students complete metadata tables for a project dataset, documenting each field's: (1) name (e.g., 'playerSpeed'), (2) description ('horizontal movement rate'), (3) data type (number), (4) units (pixels/second), and (5) valid range (0-500). This ensures future teammates understand the schema and use data correctly. Students practice creating data dictionaries that make projects maintainable and collaborative.
+Description: Students complete metadata tables (field name, description, type, units, valid range) for a project dataset, ensuring future teammates understand the schema.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -12222,7 +12178,7 @@ Dependencies:
 ID: T25.G6.03
 Topic: T25 – Data Representation
 Skill: Nest structures (list of records, record of lists)
-Description: Students design and implement nested data structures using CreatiCode tables and lists. They practice: (1) storing a list within a table row (e.g., player table with an 'inventory' column containing lists of items), and (2) creating lists of table rows (e.g., a list of NPC character tables). Students learn to access nested data using combined table and list operations (get row, then get list item from that row's column).
+Description: Students design data that contains a list within a record (player inventory with multiple items) or records within a list (NPC roster) and explain access patterns.
 
 Dependencies:
 * T25.G5.01: Model multi-type game state
@@ -12237,24 +12193,6 @@ Description: Learners examine an AI prompt template ('Write a summary about {top
 Dependencies:
 * T25.G5.04: Encode categorical values with symbols or enums
 * T25.G5.02: Convert messy inputs into canonical formats
-
-
-ID: T25.G6.05
-Topic: T25 – Data Representation
-Skill: Query and filter table data
-Description: Students learn advanced table operations using CreatiCode blocks to search, filter, and analyze tabular data. They practice finding rows where a column matches a value (e.g., 'find all players with Score > 100'), calculating aggregates using loops (sum, average, max/min), and sorting table data. This builds skills for working with larger datasets and prepares students for database-style queries.
-
-Dependencies:
-* T25.G5.06: Create and query tables using CreatiCode table blocks
-
-
-ID: T25.G6.06
-Topic: T25 – Data Representation
-Skill: Use server storage for persistence
-Description: Students learn to save and load data across sessions using CreatiCode's cloud server storage blocks. They practice storing values with unique keys, understanding public vs private visibility settings, and retrieving saved data when projects restart. This teaches persistent data storage fundamentals, enabling features like high score tracking and user preferences that survive between play sessions.
-
-Dependencies:
-* T25.G5.01: Model multi-type game state
 
 
 ID: T25.G7.01
@@ -12281,10 +12219,12 @@ Dependencies:
 
 ID: T25.G7.03
 Topic: T25 – Data Representation
-Skill: Serialize and deserialize table data for persistence
-Description: Students learn to save and load structured game state using CreatiCode's table export/import features and cloud server storage blocks. They practice converting table data to text format for saving (serialization) and reconstructing tables from saved text (deserialization), enabling game state persistence across sessions. This includes using 'export table to text' and 'import table from text' blocks to preserve complex data structures like player profiles (name, score, inventory items).
+Skill: Create JSON-like snippets to store structured state
+Description: Students express a CreatiCode project's data as nested key/value text (e.g., 'name: Player1, score: 100, items: [sword, shield]') and practice converting between this text format and program variables/lists for saving and loading game state.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01: Create and use a numeric variable for score or count
 * T25.G6.03: Nest structures (list of records, record of lists)
 * T25.G5.04: Encode categorical values with symbols or enums
 
@@ -12298,25 +12238,6 @@ Dependencies:
 * T25.G5.01: Model multi-type game state
 * T25.G6.01: Document metadata for datasets
 * T25.G6.02: Explain lossy vs lossless representation
-
-
-ID: T25.G7.05
-Topic: T25 – Data Representation
-Skill: Fetch and query database collections
-Description: Students learn to access shared data from CreatiCode's database collections using 'fetch from collection' blocks that populate tables with remote data. They practice simple queries to filter collection data by field values, understanding how cloud databases enable multi-user projects and shared leaderboards. This introduces database concepts through CreatiCode's collection system.
-
-Dependencies:
-* T25.G6.05: Query and filter table data
-* T25.G6.06: Use server storage for persistence
-
-
-ID: T25.G7.06
-Topic: T25 – Data Representation
-Skill: Integrate Google Sheets for data storage
-Description: Students learn to read from and write to Google Sheets using CreatiCode's spreadsheet integration blocks. They practice importing sheet data into tables, modifying data in their projects, and writing results back to sheets. This teaches real-world data integration skills, enabling projects that share data with external tools and collaborate through cloud spreadsheets.
-
-Dependencies:
-* T25.G6.05: Query and filter table data
 
 
 ID: T25.G8.01
@@ -12360,7 +12281,7 @@ Description: Learners draft a short contract describing what data format their m
 
 Dependencies:
 * T25.G6.01: Document metadata for datasets
-* T25.G7.03: Serialize and deserialize table data for persistence
+* T25.G7.03: Create JSON-like snippets to store structured state
 * T25.G7.01: Normalize repeating data into separate tables
 
 
@@ -12521,18 +12442,6 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 
 
-ID: T26.G3.06
-Topic: T26 – Data Collection & Logging
-Grade: Grade 3
-Skill: Explain why you should ask permission before collecting data
-Description: Students learn basic data privacy by discussing why it's important to ask permission before collecting information from others (like their favorite color or game scores). They practice adding a "Do you want to share your answer?" step before saving responses.
-
-Dependencies:
-* T26.G3.01: Script a CreatiCode survey loop
-
-Blocks: ask and wait, if-then
-
-
 ID: T26.G4.01
 Topic: T26 – Data Collection & Logging
 Skill: Create collection protocols for partners
@@ -12601,6 +12510,8 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
+* T26.GK.02: Use tokens to log repeated events
+* T26.GK.03: Capture yes/no answers with smile/frown cards
 
 
 ID: T26.G5.03
@@ -12700,7 +12611,7 @@ Dependencies:
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
-* T26.G6.04: Note when measurements might be inaccurate
+* T26.G6.04: Capture measurement error estimates
 * T26.G7.01: Build reusable data collection modules
 
 
@@ -12728,19 +12639,6 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T26.G5.02: Plan sampling strategies
 * T26.G7.02: Monitor data quality in real time
-
-
-ID: T26.G7.05
-Topic: T26 – Data Collection & Logging
-Grade: Grade 7
-Skill: Debug data collection scripts using print statements
-Description: Students debug data collection issues by strategically placing print statements to track variable values, loop iterations, and data transformations. They identify where data gets corrupted or lost in their collection pipeline.
-
-Dependencies:
-* T26.G5.01: Add print statements to track events during execution
-* T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: say for 2 seconds, print to console, variables, lists, tables
 
 
 ID: T26.G8.01
@@ -12852,7 +12750,7 @@ Dependencies:
 ID: T27.G2.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create bar charts with axes labels
-Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.
+Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -12889,51 +12787,39 @@ Dependencies:
 * T27.G2.02: Interpret simple line plots
 
 
-ID: T27.G3.01b
+ID: T27.G3.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Create and populate data tables in CreatiCode
-Description: Students learn to create table structure by adding columns (using 'add column [name] at position (1) to table [table1 v]'), populate rows with data (using 'add to table [table1 v]: [value1] [value2] [value3]'), and display tables to verify contents (using 'show table [table1 v]'). This builds the foundation for all data analysis activities in G3 and beyond.
+Skill: Compute totals and averages from lists
+Description: Students write small CreatiCode scripts that iterate through a list of numbers, computing total and mean, connecting code to analysis.
 
 Dependencies:
 * T27.G2.01: Create bar charts with axes labels
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
-ID: T27.G3.01
-Topic: T27 – Data Analysis & Storytelling
-Skill: Compute totals and averages from data tables
-Description: Students use CreatiCode's built-in aggregation blocks ([sum v] of column [scores] in table [data v] and [average v] of column [scores] in table [data v]) to quickly compute totals and means from data tables, learning to use powerful analysis tools efficiently without manual loops.
-
-Dependencies:
-* T27.G3.01b: Create and populate data tables in CreatiCode
 * T07.G3.01: Use a counted repeat loop
 
 
 ID: T27.G3.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build comparison statements with evidence
-Description: Learners write comparison statements like "X has more than Y because 15 vs 10" displayed in sprite speech bubbles, reinforcing evidence-based claims using computed data from their analysis.
+Description: Learners write comparison statements like "X has more than Y because 15 vs 10" displayed in sprite speech bubbles, reinforcing evidence-based claims using computed data.
 
 Dependencies:
-* T27.G3.01: Compute totals and averages from data tables
+* T27.G3.01: Compute totals and averages from lists
 * T09.G3.01: Create and use a numeric variable for score or count
 
 
 ID: T27.G3.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Use CreatiCode data tables to group and count
-Description: Students use CreatiCode table blocks to filter rows by category (e.g., using 'delete rows with column [type] of value [desert]' to keep only forest levels) and count how many rows match (using 'row count of table [data v]'), learning simple data grouping and filtering operations.
+Description: Students use CreatiCode table blocks to filter rows by category (e.g., keep only rows where level = "forest") and count how many rows match, learning simple data grouping.
 
 Dependencies:
-* T27.G3.01b: Create and populate data tables in CreatiCode
 * T27.G3.02: Build comparison statements with evidence
 
 
 ID: T27.G3.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create side-by-side bar charts for two groups
-Description: Learners use CreatiCode's 'draw [bar v] chart using columns [classA,classB] from table [scores v]' block to generate multi-series bar charts comparing two categories (e.g., Class A vs Class B scores), reinforcing comparative visualization skills.
+Description: Learners use CreatiCode chart blocks to generate bar charts comparing two categories (e.g., Class A vs Class B scores), reinforcing comparative visualization skills.
 
 Dependencies:
 * T27.G3.03: Use CreatiCode data tables to group and count
@@ -12942,7 +12828,7 @@ Dependencies:
 ID: T27.G4.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Analyze change over time using line graphs
-Description: Students read game data (such as scores over 10 rounds) and use line graphs to identify segments where values rise, fall, or stay flat, building temporal analysis skills.
+Description: Students read game data (such as scores over 10 rounds) and use line graphs to identify segments where values rise, fall, or stay flat.
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
@@ -12952,52 +12838,20 @@ Dependencies:
 * T27.G3.04: Create side-by-side bar charts for two groups
 
 
-ID: T27.G4.02b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Understand median and mode concepts
-Description: Students examine small, pre-sorted datasets and identify the median (middle value) and mode (most frequent value) through visual inspection and counting. They explain why these statistics differ from the mean and when each is most useful (e.g., median is less affected by outliers). This is a conceptual data literacy skill preparing for computational implementation.
-
-Dependencies:
-* T27.G3.01: Compute totals and averages from data tables
-* T27.G2.03: Identify outliers visually in small data sets
-
-
-ID: T27.G4.02c
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate median and mode using code
-Description: Students implement median calculation by sorting a list and finding the middle value, and mode calculation by counting frequencies. They use CreatiCode's aggregation blocks ([median v] of column [scores] in table [data v]) along with sorting and conditional blocks to compute these statistics, connecting statistical concepts to code implementation.
-
-Dependencies:
-* T27.G4.02b: Understand median and mode concepts
-* T08.G3.01: Use a simple if in a script
-
-
 ID: T27.G4.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Calculate percentages from grouped data
-Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and the percentage chart block, connecting raw counts to relative comparisons for interpretive analysis.
+Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables, connecting raw counts to relative comparisons.
 
 Dependencies:
-* T27.G4.02b: Understand median and mode concepts
 * T27.G3.03: Use CreatiCode data tables to group and count
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
-ID: T27.G4.02d
-Topic: T27 – Data Analysis & Storytelling
-Skill: Filter table rows by condition
-Description: Students use CreatiCode filtering blocks to keep or remove rows matching specific criteria (e.g., 'delete rows with column [score] of value [0]' to remove incomplete data, or 'keep rows with column [level] > [5]' to analyze advanced levels only). This prepares for dashboard filtering and data quality control.
-
-Dependencies:
-* T27.G4.03: Check data quality before analysis
-* T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
 
 
 ID: T27.G4.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Check data quality before analysis
-Description: Students inspect a table for specific issues: missing entries, duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each (ignore row, replace with average, flag for review). They use visual inspection and simple conditional checks to identify problematic data.
+Description: Students inspect a table for specific issues: missing entries, duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each (ignore row, replace with average, flag for review).
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -13009,7 +12863,7 @@ Dependencies:
 ID: T27.G4.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create narrative captions for charts
-Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications for their visualizations.
+Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -13018,43 +12872,21 @@ Dependencies:
 * T27.G4.01: Analyze change over time using line graphs
 
 
-ID: T27.G4.04b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Sort tables to organize data
-Description: Students use 'sort table [data v] by column [score] [large to small v]' to organize data for analysis, understanding ascending vs descending order and how sorting reveals patterns (top performers, lowest values, alphabetical order). Sorting is essential for finding medians and identifying extremes.
-
-Dependencies:
-* T27.G4.02d: Filter table rows by condition
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
 ID: T27.G5.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build a simple interactive dashboard with filter widgets
-Description: Students connect 2-3 CreatiCode widgets (dropdown menus or buttons created with widget blocks) to data tables so viewers can filter by one category (e.g., clicking "Forest" button shows only forest level data) and watch a single chart update dynamically. This introduces interactive data exploration.
+Description: Students connect 2-3 CreatiCode widgets (buttons or dropdown menus) to data tables so viewers can filter by one category (e.g., show only "forest" levels) and watch a single chart update dynamically.
 
 Dependencies:
-* T27.G4.02d: Filter table rows by condition
 * T09.G3.05: Trace code with variables to predict outcomes
 * T26.G3.04: Separate raw data from summary data
 * T27.G4.04: Create narrative captions for charts
 
 
-ID: T27.G5.01b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Group data by category and compute statistics (GROUP BY)
-Description: Students use 'set table [summary v] to [average v] of column [score] in table [data v] by column [grade]' to create summary tables showing statistics per group (e.g., average score per grade level, total sales per region). This enables powerful comparative analysis across categories and is a foundational database operation.
-
-Dependencies:
-* T27.G4.04b: Sort tables to organize data
-* T27.G3.01: Compute totals and averages from data tables
-* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
-
-
 ID: T27.G5.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Correlate two variables visually
-Description: Students create dual bar charts or overlaid line charts (using multi-column chart blocks) to explore relationships (e.g., comparing time played vs high score using side-by-side bars) and describe patterns they observe, such as positive correlation, negative correlation, or no clear relationship.
+Description: Students create scatter plots or side-by-side bars to explore relationships (e.g., time played vs high score) and describe patterns they observe.
 
 Dependencies:
 * T27.G4.01: Analyze change over time using line graphs
@@ -13065,7 +12897,7 @@ Dependencies:
 ID: T27.G5.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare data from two sensors or sources
-Description: Students analyze two logs (voice commands vs actual actions) to spot mismatches and hypothesize causes. They use side-by-side table comparison or manual inspection to identify discrepancies between expected and actual data.
+Description: Students analyze two logs (voice commands vs actual actions) to spot mismatches and hypothesize causes.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
@@ -13076,7 +12908,7 @@ Dependencies:
 ID: T27.G5.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Present findings using slides or mini reports
-Description: Learners assemble one chart + one key insight + one recommendation in a short presentation, practicing clear data-driven communication for specific audiences.
+Description: Learners assemble one chart + one key insight + one recommendation in a short presentation, practicing communication.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
@@ -13086,87 +12918,56 @@ Dependencies:
 
 ID: T27.G6.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Filter table rows using multiple conditions
-Description: Students use CreatiCode table blocks to filter rows by compound conditions (e.g., keep rows where score > 50 AND level = "Forest") before computing summaries or drawing charts, enabling more sophisticated data subset analysis.
+Skill: Filter table rows using conditions
+Description: Students use CreatiCode table blocks to filter rows by conditions (e.g., keep rows where score > 50 and level = "Forest") before computing summaries or drawing charts.
 
 Dependencies:
-* T27.G4.02d: Filter table rows by condition
 * T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
 * T27.G5.03: Compare data from two sensors or sources
 
 
-ID: T27.G6.01b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Look up values across tables (VLOOKUP)
-Description: Students use 'item in column [age] of [students v] where column [name] equals [John]' to retrieve related information from tables, similar to spreadsheet VLOOKUP operations. This enables cross-referencing data from different sources (e.g., looking up student scores by matching names across two tables).
-
-Dependencies:
-* T27.G5.01b: Group data by category and compute statistics (GROUP BY)
-* T09.G4.04: Trace code with variables to predict outcomes
-
-
 ID: T27.G6.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare two groups using data
-Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better by comparing averages using aggregation blocks, calculating the difference between group means, and stating conclusions about whether differences are large or small relative to the data range.
+Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better by comparing averages and considering whether differences are large or small.
 
 Dependencies:
 * T08.G4.01: Use an if-else block with compound conditions
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
-* T27.G6.01: Filter table rows using multiple conditions
-
-
-ID: T27.G6.02b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Create pivot tables for multi-dimensional analysis
-Description: Students use 'pivot [data v] into [summary v] row groups [grade,gender] columns [score] methods [average]' to create multi-dimensional summaries (e.g., average scores broken down by both grade AND gender). This enables complex comparative analysis across multiple grouping variables simultaneously.
-
-Dependencies:
-* T27.G5.01b: Group data by category and compute statistics (GROUP BY)
-* T10.G4.01: Use list length and item access in expressions
+* T27.G6.01: Filter table rows using conditions
 
 
 ID: T27.G6.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Identify trends and patterns in time-series data
-Description: Students analyze multi-week data to identify trends (increasing, decreasing, cyclical patterns) and articulate patterns with supporting evidence from the data. They distinguish between short-term fluctuations and long-term trends.
+Description: Students analyze multi-week data to identify trends (increasing, decreasing, cyclical) and articulate patterns with supporting evidence.
 
 Dependencies:
 * T27.G5.02: Correlate two variables visually
-* T27.G6.01: Filter table rows using multiple conditions
+* T27.G6.01: Filter table rows using conditions
 * T09.G4.04: Trace code with variables to predict outcomes
-
-
-ID: T27.G6.03b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Export and import data using CSV files
-Description: Students use 'export table [data v] as [analysis_results]' to save analysis results as CSV files for sharing, and 'import file into table [imported v]' to load external data. This enables real-world data exchange and collaboration beyond CreatiCode.
-
-Dependencies:
-* T27.G6.01: Filter table rows using multiple conditions
-* T06.G4.01: Sequence multiple sprite events
 
 
 ID: T27.G6.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create structured summaries for AI input
-Description: Learners condense findings into structured text formats (key metric, insight, recommended action) that can be copied into AI assistants like XO for further analysis or to generate reports, bridging data analysis with AI prompt engineering.
+Description: Learners condense findings into structured text formats (key metric, insight, recommended action) that can be copied into AI assistants like XO for further analysis or to generate reports.
 
 Dependencies:
 * T06.G4.01: Sequence multiple sprite events
 * T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
-* T27.G6.02: Compare two groups using data
+* T27.G6.02: Run controlled comparisons
 
 
 ID: T27.G7.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build multi-chart dashboards with linked filters
-Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter variable (using shared variables and event broadcasting), providing cohesive analysis for complex apps. When one filter changes, all charts update together.
+Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter variable, providing cohesive analysis for complex apps.
 
 Dependencies:
 * T10.G4.01: Use list length and item access in expressions
@@ -13175,20 +12976,10 @@ Dependencies:
 * T27.G6.04: Create structured summaries for AI input
 
 
-ID: T27.G7.01b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Integrate Google Sheets for cloud collaboration
-Description: Students use 'read from google sheet: url [...] into table [data v]' to import shared data and 'write into google sheet: ... from table [results v]' to publish findings. This enables real-time collaboration and data sharing beyond CreatiCode, connecting to professional cloud workflows.
-
-Dependencies:
-* T27.G6.03b: Export and import data using CSV files
-* T06.G5.01: Broadcast a custom message and respond in another sprite
-
-
 ID: T27.G7.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare predictions to actual outcomes
-Description: Learners compare predicted values versus actual outcomes (e.g., XO's time estimate vs actual time), calculate the difference (residual) for each prediction, and identify patterns in errors to detect systematic over- or under-prediction.
+Description: Learners compare predicted values versus actual outcomes (e.g., XO's time estimate vs actual time), calculate the difference, and identify patterns in errors to detect systematic over- or under-prediction.
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
@@ -13197,31 +12988,10 @@ Dependencies:
 * T27.G7.01: Build multi-chart dashboards with linked filters
 
 
-ID: T27.G7.02b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate moving averages for trend smoothing
-Description: Students use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
-
-Dependencies:
-* T27.G6.03: Identify trends and patterns in time-series data
-* T27.G7.01: Build multi-chart dashboards with linked filters
-* T10.G4.01: Use list length and item access in expressions
-
-
-ID: T27.G7.02c
-Topic: T27 – Data Analysis & Storytelling
-Skill: Automate chart updates with variables
-Description: Students learn to connect chart blocks to table variables so that when data changes (via widget interaction, new imports, or computed updates), charts automatically redraw without manual regeneration. This prepares for automated reporting and dynamic dashboards.
-
-Dependencies:
-* T27.G7.01: Build multi-chart dashboards with linked filters
-* T09.G6.01: Model real-world quantities using variables and formulas
-
-
 ID: T27.G7.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Evaluate fairness metrics across user groups
-Description: Students compute simple success rates or accuracy metrics separately for different user groups (e.g., by age or region), compare the results, and discuss any disparities found, tying to AI4K12's ethical lens for fairness evaluation.
+Description: Students compute simple success rates or accuracy metrics separately for different user groups (e.g., by age or region), compare the results, and discuss any disparities found, tying to AI4K12's ethical lens.
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
@@ -13233,19 +13003,19 @@ Dependencies:
 ID: T27.G7.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Write findings reports for an audience
-Description: Learners prepare a short report with "Finding, Evidence, Recommendation" sections aimed at teachers or peers, practicing clear data-driven communication tailored to their audience.
+Description: Learners prepare a short report with "Finding, Evidence, Recommendation" sections aimed at teachers or peers, practicing clear data-driven communication.
 
 Dependencies:
 * T06.G5.01: Broadcast a custom message and respond in another sprite
 * T10.G4.01: Use list length and item access in expressions
 * T26.G5.04: Separate raw data from summary data
-* T27.G7.03: Evaluate fairness metrics across user groups
+* T27.G7.03: Evaluate fairness metrics across user groups across user groups
 
 
 ID: T27.G8.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Determine if differences are statistically meaningful
-Description: Students use simple statistical reasoning (e.g., comparing differences to typical variation, or simulating many samples to see if patterns persist) to judge whether observed differences are likely real or due to chance, documenting their assumptions and methods.
+Description: Students use simple statistical reasoning (e.g., simulating many samples or checking if differences are much larger than typical variation) to judge whether observed differences are likely real or due to chance, documenting their assumptions.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
@@ -13258,7 +13028,7 @@ Dependencies:
 ID: T27.G8.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Automate report generation
-Description: Learners build scripts that assemble updated charts and textual findings (using variables to populate text templates) at the press of a button, supporting repeatable reporting workflows for ongoing data monitoring.
+Description: Learners build scripts that assemble updated charts and textual findings (using variables) at the press of a button, supporting repeatable reporting.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
@@ -13266,8 +13036,7 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T26.G6.01: Map stakeholder questions to data requirements
-* T27.G7.02c: Automate chart updates with variables
-* T27.G8.01: Determine if differences are statistically meaningful
+* T27.G8.01: Run hypothesis tests or statistical significance checks
 
 
 ID: T27.G8.03
@@ -13285,13 +13054,13 @@ Dependencies:
 ID: T27.G8.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Publish data stories to a shared platform
-Description: Learners create polished data stories with charts, written context, ethical considerations, and calls to action, then publish to CreatiCode's sharing feature or export as a web page for others to view and learn from.
+Description: Learners create polished data stories with charts, written context, ethical considerations, and calls to action, then publish to CreatiCode's sharing feature or export as a web page for others to view.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T26.G6.01: Map stakeholder questions to data requirements
-* T27.G8.03: Integrate data analysis into AI prompt engineering
+* T27.G8.03: Integrate analysis into AI prompt engineering
 
 
 ID: T28.G2.01
@@ -13379,20 +13148,10 @@ Dependencies:
 * T28.G3.01: Interpret provided simulation output
 
 
-ID: T28.G3.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Modify a teacher-provided random generator
-Description: Students receive a simple 2-color spinner script and modify it to change the colors, the number of outcomes, or the range of random numbers. They test their changes to verify all outcomes can appear.
-
-Dependencies:
-* T28.G3.02: Explain what "pick random" does by testing predictions
-* T28.G3.03: Record experimental data with teacher-provided blocks
-
-
 ID: T28.G4.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Build a simple random generator
-Description: Students create a script that uses 'pick random 1-4' with if-statements to determine which of four colors was chosen, then report that color with a 'say' block. They click the green flag multiple times to verify each color can appear.
+Description: Students create a script that simulates spinning a 4-color wheel once and reports which color was chosen. They verify each color can appear.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -13418,14 +13177,13 @@ Dependencies:
 ID: T28.G4.03
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Show how sample size changes variability
-Description: Students run two experiments (50, 500 spins) and plot bar charts to see stability differences.
+Description: Students run two experiments (10, 100 spins) and plot bar charts to see stability differences.
 
 Dependencies:
 * T07.G3.05: Fix a simple repeat loop count
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T28.G4.02: Log 50 trials into a list and compute frequencies
-* T27.G3.04: Create side-by-side bar charts for two groups
 
 
 ID: T28.G4.04
@@ -13458,7 +13216,6 @@ Description: Students roll two virtual dice 200 times, store sums, and explain w
 Dependencies:
 * T28.G4.02: Log 50 trials into a list and compute frequencies
 * T28.G4.04: Debug an "unfair" simulation
-* T27.G3.04: Create side-by-side bar charts for two groups
 
 
 ID: T28.G5.02
@@ -13473,7 +13230,7 @@ Dependencies:
 
 ID: T28.G5.03
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Use Monte Carlo sampling to estimate area or probability
+Skill: Use random sampling to estimate area proportions
 Description: Students generate random coordinate pairs within a square, check if each point lands inside a simple shape (e.g., a triangle or rectangle within the square), and calculate the fraction of points inside. They compare this fraction to the actual area ratio and explain how more trials improve accuracy.
 
 Dependencies:
@@ -13493,45 +13250,16 @@ Dependencies:
 * T28.G4.04: Debug an "unfair" simulation
 
 
-ID: T28.G5.05
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Calculate theoretical probability for simple events
-Description: Students determine the theoretical probability of simple events (rolling a specific number, flipping heads, choosing a colored marble from a bag) by counting favorable outcomes divided by total possible outcomes. They express probabilities as fractions and decimals.
-
-Dependencies:
-* T28.G4.02: Log 50 trials into a list and compute frequencies
-
-
-ID: T28.G5.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Compare experimental and theoretical probability
-Description: Students run a simulation for a simple event (coin flip, die roll, spinner), compare their experimental frequencies to calculated theoretical probabilities, and explain why differences occur and how sample size affects accuracy.
-
-Dependencies:
-* T28.G5.05: Calculate theoretical probability for simple events
-* T28.G4.03: Show how sample size changes variability
-
-
-ID: T28.G5.07
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Create frequency distributions from simulation data
-Description: Students generate data from repeated trials (e.g., sum of two dice rolled 100 times), organize results into frequency bins, and create a bar chart showing how often each outcome occurred. They identify which outcomes are most and least common.
-
-Dependencies:
-* T28.G5.01: Simulate compound events (two dice)
-* T27.G4.02c: Calculate median and mode using code
-
-
 ID: T28.G6.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Conduct parameter sweeps for tuning
 Description: Students loop over a range of parameters (e.g., enemy speed) and log win rates to choose balanced values.
 
 Dependencies:
-* T07.G4.01: Loop until a goal condition is met
-* T07.G5.01: Use a counted repeat loop
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G3.01: Use a counted repeat loop
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G5.01: Simulate compound events (two dice)
 * T28.G5.04: Document simulation plans before coding
 
@@ -13542,10 +13270,10 @@ Skill: Use random seeds for reproducibility
 Description: Learners set a seed value before running a simulation, observe the sequence of random outputs, then reset and rerun with the same seed to verify identical results. They explain why reproducibility matters for debugging and sharing results with others.
 
 Dependencies:
-* T07.G5.01: Use a counted repeat loop
-* T08.G4.01: Choose actions based on user input or sensor values
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G5.04: Document simulation plans before coding
 
 
@@ -13555,10 +13283,10 @@ Skill: Measure percent error vs theoretical probability
 Description: Students calculate percent error between observed frequencies and expected probabilities, stating whether the error is acceptable.
 
 Dependencies:
-* T06.G4.01: Write scripts that respond to keyboard or mouse events
-* T07.G5.01: Use a counted repeat loop
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G5.01: Simulate compound events (two dice)
 * T28.G5.04: Document simulation plans before coding
 
@@ -13566,67 +13294,40 @@ Dependencies:
 ID: T28.G6.04
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Simulate noisy sensors for T23 testing
-Description: Learners generate random-but-bounded pose or voice data to test AI perception logic when a live camera/mic isn't available.
+Description: Learners generate random-but-bounded pose or voice data to test AI perception logic when a live camera/mic isn’t available.
 
 Dependencies:
-* T07.G5.01: Use a counted repeat loop
-* T08.G4.01: Choose actions based on user input or sensor values
-* T09.G5.01: Modify variables based on user input or sensor events
-* T28.G5.03: Use Monte Carlo sampling to estimate area or probability
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G5.03: Use Monte Carlo to estimate an area or probability
 * T28.G5.04: Document simulation plans before coding
 
 
 ID: T28.G6.05
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Model a simple agent in a grid world
-Description: Students create a sprite that tracks its position and facing direction in a grid (using x,y coordinates and a direction variable). They implement basic movement rules (move forward one grid square, turn left 90°, turn right 90°) and test the agent's movement.
+Skill: Model an agent, its environment, and reward rules
+Description: Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules ("if front is clear, move; else turn right") and log states/rewards over 20 steps, highlighting how environment design affects behavior.
 
 Dependencies:
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G5.03: Use Monte Carlo to estimate an area or probability
 * T28.G5.04: Document simulation plans before coding
-
-
-ID: T28.G6.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Simulate events with changing probabilities
-Description: Students build a simulation where one event's probability depends on a previous outcome (e.g., drawing cards without replacement, weather patterns where today's weather affects tomorrow's probability). They compare results to simulations where probabilities stay constant.
-
-Dependencies:
-* T28.G5.01: Simulate compound events (two dice)
-* T28.G5.06: Compare experimental and theoretical probability
-
-
-ID: T28.G6.07
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Design an environment with obstacles and goals
-Description: Students add walls (as sprites or using collision detection) and goal locations to their grid world. The agent detects when it hits a wall (can't move) or reaches a goal (mission complete). They test multiple starting positions.
-
-Dependencies:
-* T28.G6.05: Model a simple agent in a grid world
-* T08.G5.01: Use a simple if in a script
-
-
-ID: T28.G6.08
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Implement reward rules and track outcomes
-Description: Students add a score variable that increases when the agent reaches goals and decreases when hitting walls. They run 10 trials with random starting positions and log the agent's final score for each trial, identifying which starting positions lead to better outcomes.
-
-Dependencies:
-* T28.G6.07: Design an environment with obstacles and goals
-* T09.G5.01: Modify variables based on user input or sensor events
 
 
 ID: T28.G7.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Create a two-agent interaction simulation
-Description: Students build a simulation with two sprites that follow simple probabilistic rules and can affect each other's state (e.g., tag game where one chases with random movements, simple predator-prey where sprites avoid/pursue each other). They run 20 time steps and observe the interaction patterns.
+Skill: Build agent-based simulations
+Description: Students create multi-agent systems (e.g., rumor spread, ecosystem) where sprites follow probabilistic rules and log aggregated metrics.
 
 Dependencies:
-* T06.G5.01: Broadcast a custom message and respond in another sprite
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T28.G6.08: Implement reward rules and track outcomes
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G6.05: Model an agent, its environment, and reward rules
 
 
 ID: T28.G7.02
@@ -13636,9 +13337,9 @@ Description: Students observe a pre-built simulation where an agent's path-findi
 
 Dependencies:
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T09.G5.05: Trace code with multiple variables
-* T28.G6.08: Implement reward rules and track outcomes
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G6.05: Model an agent, its environment, and reward rules
 
 
 ID: T28.G7.03
@@ -13649,9 +13350,9 @@ Description: Learners create synthetic player profiles with randomly assigned at
 Dependencies:
 * T07.G6.05: Fix a loop that runs too many or too few times
 * T08.G5.01: Use a simple if in a script
-* T09.G5.05: Trace code with multiple variables
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G6.04: Simulate noisy sensors for T23 testing
-* T28.G6.08: Implement reward rules and track outcomes
+* T28.G6.05: Model an agent, its environment, and reward rules
 
 
 ID: T28.G7.04
@@ -13662,8 +13363,8 @@ Description: Students take experimental results (e.g., scores from two game vers
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T09.G5.05: Trace code with multiple variables
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G6.01: Conduct parameter sweeps for tuning
 
 
@@ -13673,21 +13374,11 @@ Skill: Communicate simulation assumptions & limits
 Description: Learners write a short "model card" for their simulation listing at least two assumptions (e.g., events are independent, probabilities stay constant) and one limitation (e.g., doesn't account for weather changes). This transparency practice mirrors AI documentation standards.
 
 Dependencies:
-* T06.G5.01: Broadcast a custom message and respond in another sprite
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T09.G5.05: Trace code with multiple variables
-* T28.G7.01: Create a two-agent interaction simulation
-
-
-ID: T28.G7.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Build multi-agent simulations with aggregated metrics
-Description: Students extend their two-agent simulation to include 5-10 agents of different types. They create summary statistics across all agents (average position, count of each state, total energy) and display these metrics updating in real-time during the simulation.
-
-Dependencies:
-* T28.G7.01: Create a two-agent interaction simulation
-* T10.G6.01: Sort a table by a column
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G7.01: Build agent-based simulations
 
 
 ID: T28.G8.01
@@ -13704,8 +13395,8 @@ Dependencies:
 
 ID: T28.G8.02
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Explore measurement variability through repeated sampling
-Description: Students take multiple random samples from a dataset (without replacement), compute statistics (mean, median) for each sample, and observe how results vary. They identify the range of values obtained and explain how sample variation helps understand measurement reliability.
+Skill: Estimate uncertainty via resampling
+Description: Learners take a dataset (e.g., 50 survey responses), randomly resample it 100 times with replacement, compute the mean for each resample, and identify the lowest and highest means observed. They explain why different samples from the same data produce different averages and how this helps understand result reliability.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variables
@@ -13792,23 +13483,13 @@ Dependencies:
 ID: T29.G4.01
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Compare a human summary to a computer summary
-Description: Use AI (ChatGPT) to generate summaries of text content, understanding how AI can condense information
+Description: Students read a short paragraph, write a one-sentence summary, and then compare it to a computer-generated summary, noting what the computer included or missed.
 
 Dependencies:
 * T29.G3.04: Explain why clean text helps AI helpers
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G4.01b
-Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
-Skill: Access individual characters in text by position
-Description: Access and display specific characters from text using their position (index), understanding that positions start at 1
-
-Dependencies:
-* T29.G4.01: Compare a human summary to a computer summary
-* T07.G3.03: Trace code with simple loops to predict outcomes
 
 
 ID: T29.G4.02
@@ -13824,16 +13505,6 @@ Dependencies:
 * T10.G3.03: Add and remove items from a list
 
 
-ID: T29.G4.02b
-Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
-Skill: Count characters and words in text
-Description: Use length of text block to count characters, and count words by splitting text on spaces
-
-Dependencies:
-* T29.G4.02: Use split and join blocks for text manipulation
-* T07.G3.03: Trace code with simple loops to predict outcomes
-
-
 ID: T29.G4.03
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Clean text: lowercase + remove punctuation
@@ -13841,7 +13512,6 @@ Description: Learners build helper blocks that convert text to lowercase using t
 
 Dependencies:
 * T29.G4.02: Use split and join blocks for text manipulation
-* T07.G3.03: Trace code with simple loops to predict outcomes
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list

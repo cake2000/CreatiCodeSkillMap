@@ -1,0 +1,194 @@
+T27 DATA ANALYSIS & STORYTELLING - SKILL PROGRESSION TREE
+==========================================================
+After Phase 1 Implementation (41 skills total)
+
+LEGEND:
+  [NEW] = New skill added in Phase 1
+  {FIX} = Rewritten/significantly enhanced in Phase 1
+  --- = Regular unchanged skill
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE K (3 skills - All Unplugged)
+├── GK.01 --- Sort objects by a rule
+├── GK.02 --- Compare which group has more
+└── GK.03 --- Read a two-column picture chart
+
+GRADE 1 (3 skills - All Unplugged)
+├── G1.01 --- Build a pictograph from tallies
+├── G1.02 --- Answer "how many more?" questions
+└── G1.03 --- Tell a one-sentence story with data
+
+GRADE 2 (4 skills - All Unplugged)
+├── G2.01 {FIX} Create bar charts (clarified: unplugged/pre-coding)
+├── G2.02 --- Interpret simple line plots
+├── G2.03 --- Identify outliers visually
+└── G2.04 --- Decide if data answers the question
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 3 (5 skills - CODING BEGINS)
+├── G3.01b [NEW] ⭐ CREATE AND POPULATE TABLES (Foundation!)
+│   └── Blocks: add column, add to table, show table
+│
+├── G3.01 {FIX} Compute totals/averages (NOW: built-in aggregations)
+│   └── Blocks: [sum v] of column, [average v] of column
+│   └── Depends on: G3.01b ← prerequisite added
+│
+├── G3.02 --- Build comparison statements with evidence
+│   └── Uses: sprite speech bubbles
+│
+├── G3.03 {FIX} Filter and count rows (NOW: specific blocks)
+│   └── Blocks: delete rows with column, row count of table
+│   └── Depends on: G3.01b ← prerequisite added
+│
+└── G3.04 {FIX} Side-by-side bar charts (NOW: specific block name)
+    └── Blocks: draw [bar v] chart using columns
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 4 (7 skills - EXPANDED WITH STATISTICS)
+├── G4.01 --- Analyze change over time (line graphs)
+│
+├── G4.02b [NEW] ⭐ MEDIAN/MODE CONCEPTS (Visual understanding)
+│   └── Concept before code!
+│
+├── G4.02c [NEW] ⭐ MEDIAN/MODE CODE (Implementation)
+│   └── Blocks: [median v] of column
+│   └── Depends on: G4.02b ← concept first
+│
+├── G4.02 {FIX} Calculate percentages (dependencies updated)
+│   └── Depends on: G4.02b ← concept foundation
+│
+├── G4.02d [NEW] ⭐ FILTER ROWS (Simple conditions)
+│   └── Blocks: delete rows with column, keep rows
+│   └── MOVED FROM G6 - needed earlier for G5 dashboard
+│
+├── G4.03 --- Check data quality
+│
+├── G4.04 --- Create narrative captions
+│
+└── G4.04b [NEW] ⭐ SORT TABLES (Organize data)
+    └── Blocks: sort table by column [large to small v]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 5 (5 skills - INTERACTIVE DASHBOARDS)
+├── G5.01 {FIX} Interactive dashboard (NOW: widgets specified)
+│   └── Widgets: dropdown menus or buttons
+│   └── Depends on: G4.02d ← filtering prerequisite added
+│
+├── G5.01b [NEW] ⭐ GROUP BY AGGREGATION (Powerful analysis!)
+│   └── Blocks: set table to [average v] of column by column
+│   └── Example: average score per grade
+│
+├── G5.02 {FIX} Correlate variables (FIXED: no scatter plots!)
+│   └── NOW: dual bar charts, overlaid line charts
+│   └── REMOVED: scatter plots (don't exist in CreatiCode)
+│
+├── G5.03 {FIX} Compare two sources (clarified mechanism)
+│   └── NOW: side-by-side table comparison specified
+│
+└── G5.04 --- Present findings (slides/reports)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 6 (7 skills - PROFESSIONAL ANALYSIS TOOLS)
+├── G6.01 {FIX} Multi-condition filtering (compound AND/OR)
+│   └── Enhanced from simple (G4) to compound conditions
+│   └── Depends on: G4.02d ← simple filtering first
+│
+├── G6.01b [NEW] ⭐ VLOOKUP (Cross-table data lookup)
+│   └── Blocks: item in column where column equals
+│   └── Example: look up scores by student name
+│
+├── G6.02 {FIX} Compare groups (specified comparison method)
+│   └── NOW: calculate difference, state conclusions
+│
+├── G6.02b [NEW] ⭐ PIVOT TABLES (Multi-dimensional summaries)
+│   └── Blocks: pivot into row groups columns methods
+│   └── Example: scores by grade AND gender
+│
+├── G6.03 --- Identify trends/patterns in time-series
+│
+├── G6.03b [NEW] ⭐ CSV IMPORT/EXPORT (Real-world data exchange)
+│   └── Blocks: export table as, import file into table
+│
+└── G6.04 {FIX} AI summaries (corrected dependency text)
+    └── FIXED: "Compare two groups" (was "Run controlled comparisons")
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 7 (7 skills - CLOUD & ADVANCED STATISTICS)
+├── G7.01 {FIX} Multi-chart dashboards (specified linking mechanism)
+│   └── NOW: shared variables and event broadcasting
+│
+├── G7.01b [NEW] ⭐ GOOGLE SHEETS (Cloud collaboration!)
+│   └── Blocks: read from google sheet, write into google sheet
+│   └── Real-time collaboration
+│
+├── G7.02 {FIX} Compare predictions to outcomes (added terminology)
+│   └── NOW: "residual" for prediction error
+│
+├── G7.02b [NEW] ⭐ MOVING AVERAGES (Trend smoothing)
+│   └── Blocks: value from [simple v] moving average window
+│   └── Smooth noisy time-series data
+│
+├── G7.02c [NEW] ⭐ CHART AUTOMATION (Auto-update charts)
+│   └── Charts redraw when data changes
+│   └── PREREQUISITE FOR G8.02 automation
+│
+├── G7.03 --- Fairness metrics across user groups
+│
+└── G7.04 {FIX} Findings reports (typo fixed)
+    └── FIXED: removed duplicate "across user groups"
+
+═══════════════════════════════════════════════════════════════════════════════
+
+GRADE 8 (4 skills - AUTOMATION & AI INTEGRATION)
+├── G8.01 {FIX} Statistical significance (simplified for G8)
+│   └── NOW: clearer G8-appropriate language
+│
+├── G8.02 {FIX} Automate reports (specified mechanism + prerequisite)
+│   └── NOW: "variables to populate text templates"
+│   └── Depends on: G7.02c ← chart automation prerequisite added
+│
+├── G8.03 --- AI prompt engineering with data
+│
+└── G8.04 --- Publish data stories to shared platform
+
+═══════════════════════════════════════════════════════════════════════════════
+
+SKILL PROGRESSION SUMMARY
+=========================
+
+K-2:  Unplugged/Picture-based (10 skills) → Visual literacy
+G3:   Table fundamentals + basic analysis (5 skills) → Coding begins
+G4:   Statistics + filtering + sorting (7 skills) → Data manipulation
+G5:   Dashboards + GROUP BY (5 skills) → Interactive analysis
+G6:   VLOOKUP + pivot + CSV (7 skills) → Professional tools
+G7:   Cloud + moving avg + automation (7 skills) → Advanced techniques
+G8:   Statistical reasoning + AI integration (4 skills) → Capstone
+
+TOTAL: 41 skills (was 28) → +46% increase
+
+KEY IMPROVEMENTS
+================
+✅ Table creation foundation (G3.01b)
+✅ Concept-before-code (G4.02b → G4.02c)
+✅ Filtering progression (G4 simple → G6 compound)
+✅ Platform alignment (no scatter plots, built-in aggregations)
+✅ Professional tools (GROUP BY, VLOOKUP, pivot, CSV)
+✅ Cloud collaboration (Google Sheets)
+✅ Advanced statistics (moving averages)
+✅ Automation scaffolding (G7.02c → G8.02)
+
+CREATICODE BLOCK COVERAGE
+==========================
+Widgets (Charts):    100% (4/4 blocks)   ✅
+Variables (Tables):   60% (18/30 blocks)  ✅ +33%
+Cloud (Sheets):       21% (3/14 blocks)   ✅ NEW
+Operators (Stats):   100% (1/1 blocks)    ✅ NEW
+Overall:              50% (26/52 blocks)  ✅ +29%
+
+═══════════════════════════════════════════════════════════════════════════════

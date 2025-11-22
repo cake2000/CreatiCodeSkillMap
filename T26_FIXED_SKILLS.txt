@@ -1,0 +1,199 @@
+# T26 Skills with Critical Fix Applied
+
+This file contains ONLY the skills that need updating based on the analysis.
+All other T26 skills remain unchanged.
+
+---
+
+## CRITICAL FIX: T26.G5.02
+
+BEFORE (X-2 Violation):
+```
+ID: T26.G5.02
+Topic: T26 – Data Collection & Logging
+Skill: Plan sampling strategies
+Description: Learners compare convenience sampling (asking whoever is nearby) vs random sampling (using a method to pick people fairly) for a class poll and document which they'll use and why.
+
+Dependencies:
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
+* T26.GK.02: Use tokens to log repeated events
+* T26.GK.03: Capture yes/no answers with smile/frown cards
+```
+
+AFTER (Fixed):
+```
+ID: T26.G5.02
+Topic: T26 – Data Collection & Logging
+Skill: Plan sampling strategies
+Description: Learners compare convenience sampling (asking whoever is nearby) vs random sampling (using a method to pick people fairly) for a class poll and document which they'll use and why.
+
+Dependencies:
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
+```
+
+RATIONALE:
+- Removed T26.GK.02 and T26.GK.03 (Kindergarten skills)
+- Violates X-2 rule (G5 skill depending on K skills - 5 grades back)
+- Kindergarten token activities are not necessary prerequisites for understanding sampling at G5
+- Student already has foundational coding skills (T08.G3.01, T09.G3.05, T10.G3.03)
+- Sampling strategy planning is conceptual and doesn't require K-level physical token experience
+
+---
+
+## INVESTIGATION NEEDED: G4 Skills with G3 Dependencies
+
+The following three skills all depend on G3-level blocks (T06.G3.01, T09.G3.05, T10.G3.03).
+Investigation needed: Do G4 equivalents exist? If yes, should be updated to:
+- T06.G3.01 → T06.G4.01
+- T09.G3.05 → T09.G4.04 (Trace code with variables to predict outcomes)
+- T10.G3.03 → T10.G4.02 (if appropriate)
+
+### T26.G4.01 (Current - May Need Update)
+```
+ID: T26.G4.01
+Topic: T26 – Data Collection & Logging
+Skill: Create collection protocols for partners
+Description: Students draft multi-step protocols (who to ask, how many people, what to say) so teammates can collect consistent data.
+
+Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
+* T26.G3.04: Separate raw data from summary data
+```
+
+### T26.G4.02 (Current - May Need Update)
+```
+ID: T26.G4.02
+Topic: T26 – Data Collection & Logging
+Skill: Use tables to log multi-attribute events
+Description: Learners capture gameplay telemetry in a table with columns (time, event, player). This mirrors logging for CreatiCode games.
+
+Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
+* T26.G3.04: Separate raw data from summary data
+```
+
+### T26.G4.04 (Current - May Need Update)
+```
+ID: T26.G4.04
+Topic: T26 – Data Collection & Logging
+Skill: Reflect on privacy in collection
+Description: Learners evaluate a proposed survey (asking for full names + addresses) and suggest safer alternatives, aligning with AI4K12 ethics.
+
+Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
+* T26.G4.01: Create collection protocols for partners
+```
+
+---
+
+## OPTIONAL ENHANCEMENT: Add Early Privacy Skill
+
+Consider adding this skill to introduce privacy concepts before students start collecting coded data:
+
+```
+ID: T26.G3.06
+Topic: T26 – Data Collection & Logging
+Skill: Identify questions that protect privacy
+Description: Students review example survey questions and mark which ones ask for information that should stay private (full names, addresses, passwords) vs. safe information (favorite color, age group), preparing them for G4 privacy reflection.
+
+Dependencies:
+* T26.G3.01: Script a CreatiCode survey loop
+* T26.G3.02: Write fair survey questions
+```
+
+RATIONALE:
+- Currently privacy first appears at G4.04
+- Students are collecting data from K-G4 before explicit privacy instruction
+- This unplugged/semi-plugged activity bridges G3.02 (fair questions) and G4.04 (privacy reflection)
+- Age-appropriate for G3: classification activity rather than implementation
+
+---
+
+## OPTIONAL ENHANCEMENT: Add Debugging Skill
+
+Consider adding this skill to address the gap in debugging collection scripts:
+
+```
+ID: T26.G7.05
+Topic: T26 – Data Collection & Logging
+Skill: Debug collection scripts with missing or wrong data
+Description: Students are given a data collection script that produces incomplete or incorrect data (e.g., missing timestamps, incorrect counters, wrong column names) and must trace through the code to identify and fix the bugs.
+
+Dependencies:
+* T26.G7.01: Build reusable data collection modules
+* T26.G7.02: Monitor data quality in real time
+* T09.G7.01: Use debugging techniques (if exists in T09)
+```
+
+RATIONALE:
+- No explicit debugging skill for collection scripts
+- G7.02 monitors quality but doesn't explicitly teach debugging
+- Complements G7.01 (reusable modules) and G7.02 (quality monitoring)
+- Prepares for G8.01 (telemetry pipelines) by ensuring debugging skills
+
+---
+
+## DOCUMENTATION UPDATE: T26.G6.04 Title Change
+
+Note that T26.G6.04 has been renamed. Any documentation or references should use:
+
+OLD TITLE: "Capture measurement error estimates"
+NEW TITLE: "Note when measurements might be inaccurate"
+
+Skills that reference T26.G6.04:
+- T26.G7.02: Monitor data quality in real time (depends on T26.G6.04)
+
+Recommendation: Use skill IDs (T26.G6.04) as stable references rather than titles.
+
+---
+
+## SUMMARY OF CHANGES
+
+### Immediate Changes Required:
+1. **T26.G5.02**: Remove dependencies on T26.GK.02 and T26.GK.03
+
+### Investigation Required:
+2. **T26.G4.01, G4.02, G4.04**: Check if should use G4-level dependencies instead of G3
+
+### Optional Enhancements:
+3. **T26.G3.06**: Add early privacy skill (new)
+4. **T26.G7.05**: Add debugging skill (new)
+
+### Documentation Updates:
+5. **T26.G6.04**: Note title change in changelog
+
+---
+
+## VALIDATION CHECKLIST
+
+Before integrating fixes into allskills.md:
+
+- [ ] Verify T06, T09, T10 have G4 versions before changing G4 dependencies
+- [ ] Confirm T09.G7.01 exists before adding T26.G7.05
+- [ ] Review G3.06 placement (between G3.02 and G3.03? or after G3.05?)
+- [ ] Check if other topics reference T26.GK.02/GK.03 (dependency impact)
+- [ ] Update dependency visualization if G4 dependencies change
+- [ ] Renumber skills if adding G3.06 and G7.05 (or use alternate IDs like G3.02b?)
+
+---
+
+**Analysis Date:** 2025-11-21
+**Analyst:** Claude (Sonnet 4.5)
+**Files Analyzed:**
+- /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md
+- /media/binyu/USB2/ScratchCopilot/blockdes8.txt
+
+**Related Documents:**
+- T26_COMPREHENSIVE_ANALYSIS.md (full analysis)
+- T26_QUICK_REFERENCE.md (summary)
+- T26_DEPENDENCY_VISUALIZATION.md (visual maps)

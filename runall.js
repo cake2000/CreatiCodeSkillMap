@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 32) continue;
+      if ( iteration == 0 && i < 13) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -147,7 +147,7 @@ CRITICAL RULES - NEVER VIOLATE THESE:
 - **NEVER remove dependencies to skills from OTHER topics** (preserve all cross-topic dependencies)
 - **NEVER modify skills from other topics** - focus ONLY on ${topic.code}
 - Only remove a dependency if it's genuinely incorrect AND within topic ${topic.code}
-- When you identify inter-topic dependency issues, note them but DO NOT fix them
+- When you identify inter-topic dependency issues, ignore them
 
 IMPORTANT CONSTRAINTS:
 - ONLY modify skills in topic ${topic.code}
@@ -179,8 +179,8 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
           const outputLower = output.toLowerCase();
           if (outputLower.includes("api error") || outputLower.includes("usage limit")) {
             console.log(`\n⚠️  API rate limit hit for topic ${topic.code}`);
-            console.log(`⏰ Waiting 15 minutes before retrying...`);
-            await waitWithCountdown(15);
+            console.log(`⏰ Waiting 3 minutes before retrying...`);
+            await waitWithCountdown(3);
             retryCount++;
           } else {
             success = true;
@@ -193,8 +193,8 @@ Automatically fix all high and medium priority issues within topic ${topic.code}
           console.error(`\n❌ Error processing topic ${topic.code}:`, error.message.substring(0, 100));
           const errorStr = error.toString().toLowerCase();
           if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
-            console.log(`⏰ waiting 15 minutes ${new Date().toLocaleString()}...`);
-            await waitWithCountdown(15);
+            console.log(`⏰ waiting 3 minutes ${new Date().toLocaleString()}...`);
+            await waitWithCountdown(3);
             retryCount++;
           } else {
             // console.error(`⚠️  Skipping topic ${topic.code} after error`);
@@ -257,12 +257,13 @@ Latest version of skills are in "skillsv4" folder. Read the file skillsv4/allski
 
 ## Phase 2: Grade-Level Cross-Topic Dependency Checking for Grade ${grade}
 
-You are in PHASE 2 of a two-phase optimization process. Phase 1 has already optimized individual topics. Now you are focusing on grade ${grade} to ensure proper cross-topic dependencies and grade-level coherence.
+You are in PHASE 2 of a two-phase optimization process. Phase 1 has already optimized individual topics. Now you are focusing on all skills in grade ${grade} to ensure proper cross-topic dependencies and grade-level coherence.
 
 ### Your Specific Tasks for Grade ${grade}:
 
 1. **Inter-Topic Dependencies**
    - Review ALL skills at grade ${grade} across all 36 topics
+   - Check all of other topics that might be related to each skill's own topic
    - ADD missing cross-topic dependencies where needed
    - Ensure skills from different topics that relate to each other have proper dependencies
    - Example: A game skill might need to depend on loops, variables, and graphics skills
@@ -275,6 +276,7 @@ You are in PHASE 2 of a two-phase optimization process. Phase 1 has already opti
 
 3. **Grade-Level Coherence**
    - Ensure all grade ${grade} skills work together as a cohesive curriculum
+   - Ensure skills from different topics complement each other well and there is no significant overlap between skills from different topics. If such cases are found, adjust skills or remove them, or add dependencies to clarify learning pathways.
    - Check that foundational skills are available for more advanced skills
    - ${grade !== 'K' ? `Verify that grade ${grade === '1' ? 'K' : parseInt(grade) - 1} provides adequate preparation` : 'Ensure kindergarten skills are truly introductory'}
    - Add dependencies where skills clearly build on each other
@@ -290,6 +292,7 @@ CRITICAL RULES - NEVER VIOLATE THESE:
 - **Only remove a dependency if it's genuinely incorrect or truly redundant**
 - **Be conservative** - when in doubt, keep the dependency
 - **Add dependencies liberally** - better to over-specify than under-specify prerequisites
+- **Do not update skill ID** when removing a skill to avoid invalidating existing dependencies
 - **Preserve all valid dependencies** even if they seem numerous
 
 IMPORTANT CONSTRAINTS:
@@ -322,8 +325,8 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
           const outputLower = output.toLowerCase();
           if (outputLower.includes("api error") || outputLower.includes("usage limit")) {
             console.log(`\n⚠️  API rate limit hit for grade ${grade}`);
-            console.log(`⏰ Waiting 15 minutes before retrying...`);
-            await waitWithCountdown(15);
+            console.log(`⏰ Waiting 3 minutes before retrying...`);
+            await waitWithCountdown(3);
             retryCount++;
           } else {
             success = true;
@@ -333,8 +336,8 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
           console.error(`\n❌ Error processing grade ${grade}:`, error.message.substring(0, 100));
           const errorStr = error.toString().toLowerCase();
           if (errorStr.includes("api error") || errorStr.includes("usage limit")) {
-            console.log(`⏰ API limit - waiting 15 minutes...`);
-            await waitWithCountdown(15);
+            console.log(`⏰ API limit - waiting 3 minutes...`);
+            await waitWithCountdown(3);
             retryCount++;
           } else {
             console.error(`⚠️  Skipping grade ${grade} after error`);

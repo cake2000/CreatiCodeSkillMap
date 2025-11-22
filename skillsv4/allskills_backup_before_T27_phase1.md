@@ -12852,7 +12852,7 @@ Dependencies:
 ID: T27.G2.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create bar charts with axes labels
-Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.
+Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -12889,51 +12889,39 @@ Dependencies:
 * T27.G2.02: Interpret simple line plots
 
 
-ID: T27.G3.01b
+ID: T27.G3.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Create and populate data tables in CreatiCode
-Description: Students learn to create table structure by adding columns (using 'add column [name] at position (1) to table [table1 v]'), populate rows with data (using 'add to table [table1 v]: [value1] [value2] [value3]'), and display tables to verify contents (using 'show table [table1 v]'). This builds the foundation for all data analysis activities in G3 and beyond.
+Skill: Compute totals and averages from lists
+Description: Students write small CreatiCode scripts that iterate through a list of numbers, computing total and mean, connecting code to analysis.
 
 Dependencies:
 * T27.G2.01: Create bar charts with axes labels
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
-ID: T27.G3.01
-Topic: T27 – Data Analysis & Storytelling
-Skill: Compute totals and averages from data tables
-Description: Students use CreatiCode's built-in aggregation blocks ([sum v] of column [scores] in table [data v] and [average v] of column [scores] in table [data v]) to quickly compute totals and means from data tables, learning to use powerful analysis tools efficiently without manual loops.
-
-Dependencies:
-* T27.G3.01b: Create and populate data tables in CreatiCode
 * T07.G3.01: Use a counted repeat loop
 
 
 ID: T27.G3.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build comparison statements with evidence
-Description: Learners write comparison statements like "X has more than Y because 15 vs 10" displayed in sprite speech bubbles, reinforcing evidence-based claims using computed data from their analysis.
+Description: Learners write comparison statements like "X has more than Y because 15 vs 10" displayed in sprite speech bubbles, reinforcing evidence-based claims using computed data.
 
 Dependencies:
-* T27.G3.01: Compute totals and averages from data tables
+* T27.G3.01: Compute totals and averages from lists
 * T09.G3.01: Create and use a numeric variable for score or count
 
 
 ID: T27.G3.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Use CreatiCode data tables to group and count
-Description: Students use CreatiCode table blocks to filter rows by category (e.g., using 'delete rows with column [type] of value [desert]' to keep only forest levels) and count how many rows match (using 'row count of table [data v]'), learning simple data grouping and filtering operations.
+Description: Students use CreatiCode table blocks to filter rows by category (e.g., keep only rows where level = "forest") and count how many rows match, learning simple data grouping.
 
 Dependencies:
-* T27.G3.01b: Create and populate data tables in CreatiCode
 * T27.G3.02: Build comparison statements with evidence
 
 
 ID: T27.G3.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create side-by-side bar charts for two groups
-Description: Learners use CreatiCode's 'draw [bar v] chart using columns [classA,classB] from table [scores v]' block to generate multi-series bar charts comparing two categories (e.g., Class A vs Class B scores), reinforcing comparative visualization skills.
+Description: Learners use CreatiCode chart blocks to generate bar charts comparing two categories (e.g., Class A vs Class B scores), reinforcing comparative visualization skills.
 
 Dependencies:
 * T27.G3.03: Use CreatiCode data tables to group and count
@@ -12942,7 +12930,7 @@ Dependencies:
 ID: T27.G4.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Analyze change over time using line graphs
-Description: Students read game data (such as scores over 10 rounds) and use line graphs to identify segments where values rise, fall, or stay flat, building temporal analysis skills.
+Description: Students read game data (such as scores over 10 rounds) and use line graphs to identify segments where values rise, fall, or stay flat.
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
@@ -12952,52 +12940,20 @@ Dependencies:
 * T27.G3.04: Create side-by-side bar charts for two groups
 
 
-ID: T27.G4.02b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Understand median and mode concepts
-Description: Students examine small, pre-sorted datasets and identify the median (middle value) and mode (most frequent value) through visual inspection and counting. They explain why these statistics differ from the mean and when each is most useful (e.g., median is less affected by outliers). This is a conceptual data literacy skill preparing for computational implementation.
-
-Dependencies:
-* T27.G3.01: Compute totals and averages from data tables
-* T27.G2.03: Identify outliers visually in small data sets
-
-
-ID: T27.G4.02c
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate median and mode using code
-Description: Students implement median calculation by sorting a list and finding the middle value, and mode calculation by counting frequencies. They use CreatiCode's aggregation blocks ([median v] of column [scores] in table [data v]) along with sorting and conditional blocks to compute these statistics, connecting statistical concepts to code implementation.
-
-Dependencies:
-* T27.G4.02b: Understand median and mode concepts
-* T08.G3.01: Use a simple if in a script
-
-
 ID: T27.G4.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Calculate percentages from grouped data
-Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and the percentage chart block, connecting raw counts to relative comparisons for interpretive analysis.
+Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables, connecting raw counts to relative comparisons.
 
 Dependencies:
-* T27.G4.02b: Understand median and mode concepts
 * T27.G3.03: Use CreatiCode data tables to group and count
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
-ID: T27.G4.02d
-Topic: T27 – Data Analysis & Storytelling
-Skill: Filter table rows by condition
-Description: Students use CreatiCode filtering blocks to keep or remove rows matching specific criteria (e.g., 'delete rows with column [score] of value [0]' to remove incomplete data, or 'keep rows with column [level] > [5]' to analyze advanced levels only). This prepares for dashboard filtering and data quality control.
-
-Dependencies:
-* T27.G4.03: Check data quality before analysis
-* T08.G3.01: Use a simple if in a script
 * T09.G3.01: Create and use a numeric variable for score or count
 
 
 ID: T27.G4.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Check data quality before analysis
-Description: Students inspect a table for specific issues: missing entries, duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each (ignore row, replace with average, flag for review). They use visual inspection and simple conditional checks to identify problematic data.
+Description: Students inspect a table for specific issues: missing entries, duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each (ignore row, replace with average, flag for review).
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -13009,7 +12965,7 @@ Dependencies:
 ID: T27.G4.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create narrative captions for charts
-Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications for their visualizations.
+Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -13018,43 +12974,21 @@ Dependencies:
 * T27.G4.01: Analyze change over time using line graphs
 
 
-ID: T27.G4.04b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Sort tables to organize data
-Description: Students use 'sort table [data v] by column [score] [large to small v]' to organize data for analysis, understanding ascending vs descending order and how sorting reveals patterns (top performers, lowest values, alphabetical order). Sorting is essential for finding medians and identifying extremes.
-
-Dependencies:
-* T27.G4.02d: Filter table rows by condition
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
 ID: T27.G5.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build a simple interactive dashboard with filter widgets
-Description: Students connect 2-3 CreatiCode widgets (dropdown menus or buttons created with widget blocks) to data tables so viewers can filter by one category (e.g., clicking "Forest" button shows only forest level data) and watch a single chart update dynamically. This introduces interactive data exploration.
+Description: Students connect 2-3 CreatiCode widgets (buttons or dropdown menus) to data tables so viewers can filter by one category (e.g., show only "forest" levels) and watch a single chart update dynamically.
 
 Dependencies:
-* T27.G4.02d: Filter table rows by condition
 * T09.G3.05: Trace code with variables to predict outcomes
 * T26.G3.04: Separate raw data from summary data
 * T27.G4.04: Create narrative captions for charts
 
 
-ID: T27.G5.01b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Group data by category and compute statistics (GROUP BY)
-Description: Students use 'set table [summary v] to [average v] of column [score] in table [data v] by column [grade]' to create summary tables showing statistics per group (e.g., average score per grade level, total sales per region). This enables powerful comparative analysis across categories and is a foundational database operation.
-
-Dependencies:
-* T27.G4.04b: Sort tables to organize data
-* T27.G3.01: Compute totals and averages from data tables
-* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
-
-
 ID: T27.G5.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Correlate two variables visually
-Description: Students create dual bar charts or overlaid line charts (using multi-column chart blocks) to explore relationships (e.g., comparing time played vs high score using side-by-side bars) and describe patterns they observe, such as positive correlation, negative correlation, or no clear relationship.
+Description: Students create scatter plots or side-by-side bars to explore relationships (e.g., time played vs high score) and describe patterns they observe.
 
 Dependencies:
 * T27.G4.01: Analyze change over time using line graphs
@@ -13065,7 +12999,7 @@ Dependencies:
 ID: T27.G5.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare data from two sensors or sources
-Description: Students analyze two logs (voice commands vs actual actions) to spot mismatches and hypothesize causes. They use side-by-side table comparison or manual inspection to identify discrepancies between expected and actual data.
+Description: Students analyze two logs (voice commands vs actual actions) to spot mismatches and hypothesize causes.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
@@ -13076,7 +13010,7 @@ Dependencies:
 ID: T27.G5.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Present findings using slides or mini reports
-Description: Learners assemble one chart + one key insight + one recommendation in a short presentation, practicing clear data-driven communication for specific audiences.
+Description: Learners assemble one chart + one key insight + one recommendation in a short presentation, practicing communication.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
@@ -13086,87 +13020,56 @@ Dependencies:
 
 ID: T27.G6.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Filter table rows using multiple conditions
-Description: Students use CreatiCode table blocks to filter rows by compound conditions (e.g., keep rows where score > 50 AND level = "Forest") before computing summaries or drawing charts, enabling more sophisticated data subset analysis.
+Skill: Filter table rows using conditions
+Description: Students use CreatiCode table blocks to filter rows by conditions (e.g., keep rows where score > 50 and level = "Forest") before computing summaries or drawing charts.
 
 Dependencies:
-* T27.G4.02d: Filter table rows by condition
 * T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
 * T27.G5.03: Compare data from two sensors or sources
 
 
-ID: T27.G6.01b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Look up values across tables (VLOOKUP)
-Description: Students use 'item in column [age] of [students v] where column [name] equals [John]' to retrieve related information from tables, similar to spreadsheet VLOOKUP operations. This enables cross-referencing data from different sources (e.g., looking up student scores by matching names across two tables).
-
-Dependencies:
-* T27.G5.01b: Group data by category and compute statistics (GROUP BY)
-* T09.G4.04: Trace code with variables to predict outcomes
-
-
 ID: T27.G6.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare two groups using data
-Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better by comparing averages using aggregation blocks, calculating the difference between group means, and stating conclusions about whether differences are large or small relative to the data range.
+Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better by comparing averages and considering whether differences are large or small.
 
 Dependencies:
 * T08.G4.01: Use an if-else block with compound conditions
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
-* T27.G6.01: Filter table rows using multiple conditions
-
-
-ID: T27.G6.02b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Create pivot tables for multi-dimensional analysis
-Description: Students use 'pivot [data v] into [summary v] row groups [grade,gender] columns [score] methods [average]' to create multi-dimensional summaries (e.g., average scores broken down by both grade AND gender). This enables complex comparative analysis across multiple grouping variables simultaneously.
-
-Dependencies:
-* T27.G5.01b: Group data by category and compute statistics (GROUP BY)
-* T10.G4.01: Use list length and item access in expressions
+* T27.G6.01: Filter table rows using conditions
 
 
 ID: T27.G6.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Identify trends and patterns in time-series data
-Description: Students analyze multi-week data to identify trends (increasing, decreasing, cyclical patterns) and articulate patterns with supporting evidence from the data. They distinguish between short-term fluctuations and long-term trends.
+Description: Students analyze multi-week data to identify trends (increasing, decreasing, cyclical) and articulate patterns with supporting evidence.
 
 Dependencies:
 * T27.G5.02: Correlate two variables visually
-* T27.G6.01: Filter table rows using multiple conditions
+* T27.G6.01: Filter table rows using conditions
 * T09.G4.04: Trace code with variables to predict outcomes
-
-
-ID: T27.G6.03b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Export and import data using CSV files
-Description: Students use 'export table [data v] as [analysis_results]' to save analysis results as CSV files for sharing, and 'import file into table [imported v]' to load external data. This enables real-world data exchange and collaboration beyond CreatiCode.
-
-Dependencies:
-* T27.G6.01: Filter table rows using multiple conditions
-* T06.G4.01: Sequence multiple sprite events
 
 
 ID: T27.G6.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create structured summaries for AI input
-Description: Learners condense findings into structured text formats (key metric, insight, recommended action) that can be copied into AI assistants like XO for further analysis or to generate reports, bridging data analysis with AI prompt engineering.
+Description: Learners condense findings into structured text formats (key metric, insight, recommended action) that can be copied into AI assistants like XO for further analysis or to generate reports.
 
 Dependencies:
 * T06.G4.01: Sequence multiple sprite events
 * T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
-* T27.G6.02: Compare two groups using data
+* T27.G6.02: Run controlled comparisons
 
 
 ID: T27.G7.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build multi-chart dashboards with linked filters
-Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter variable (using shared variables and event broadcasting), providing cohesive analysis for complex apps. When one filter changes, all charts update together.
+Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter variable, providing cohesive analysis for complex apps.
 
 Dependencies:
 * T10.G4.01: Use list length and item access in expressions
@@ -13175,20 +13078,10 @@ Dependencies:
 * T27.G6.04: Create structured summaries for AI input
 
 
-ID: T27.G7.01b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Integrate Google Sheets for cloud collaboration
-Description: Students use 'read from google sheet: url [...] into table [data v]' to import shared data and 'write into google sheet: ... from table [results v]' to publish findings. This enables real-time collaboration and data sharing beyond CreatiCode, connecting to professional cloud workflows.
-
-Dependencies:
-* T27.G6.03b: Export and import data using CSV files
-* T06.G5.01: Broadcast a custom message and respond in another sprite
-
-
 ID: T27.G7.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare predictions to actual outcomes
-Description: Learners compare predicted values versus actual outcomes (e.g., XO's time estimate vs actual time), calculate the difference (residual) for each prediction, and identify patterns in errors to detect systematic over- or under-prediction.
+Description: Learners compare predicted values versus actual outcomes (e.g., XO's time estimate vs actual time), calculate the difference, and identify patterns in errors to detect systematic over- or under-prediction.
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
@@ -13197,31 +13090,10 @@ Dependencies:
 * T27.G7.01: Build multi-chart dashboards with linked filters
 
 
-ID: T27.G7.02b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate moving averages for trend smoothing
-Description: Students use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
-
-Dependencies:
-* T27.G6.03: Identify trends and patterns in time-series data
-* T27.G7.01: Build multi-chart dashboards with linked filters
-* T10.G4.01: Use list length and item access in expressions
-
-
-ID: T27.G7.02c
-Topic: T27 – Data Analysis & Storytelling
-Skill: Automate chart updates with variables
-Description: Students learn to connect chart blocks to table variables so that when data changes (via widget interaction, new imports, or computed updates), charts automatically redraw without manual regeneration. This prepares for automated reporting and dynamic dashboards.
-
-Dependencies:
-* T27.G7.01: Build multi-chart dashboards with linked filters
-* T09.G6.01: Model real-world quantities using variables and formulas
-
-
 ID: T27.G7.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Evaluate fairness metrics across user groups
-Description: Students compute simple success rates or accuracy metrics separately for different user groups (e.g., by age or region), compare the results, and discuss any disparities found, tying to AI4K12's ethical lens for fairness evaluation.
+Description: Students compute simple success rates or accuracy metrics separately for different user groups (e.g., by age or region), compare the results, and discuss any disparities found, tying to AI4K12's ethical lens.
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
@@ -13233,19 +13105,19 @@ Dependencies:
 ID: T27.G7.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Write findings reports for an audience
-Description: Learners prepare a short report with "Finding, Evidence, Recommendation" sections aimed at teachers or peers, practicing clear data-driven communication tailored to their audience.
+Description: Learners prepare a short report with "Finding, Evidence, Recommendation" sections aimed at teachers or peers, practicing clear data-driven communication.
 
 Dependencies:
 * T06.G5.01: Broadcast a custom message and respond in another sprite
 * T10.G4.01: Use list length and item access in expressions
 * T26.G5.04: Separate raw data from summary data
-* T27.G7.03: Evaluate fairness metrics across user groups
+* T27.G7.03: Evaluate fairness metrics across user groups across user groups
 
 
 ID: T27.G8.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Determine if differences are statistically meaningful
-Description: Students use simple statistical reasoning (e.g., comparing differences to typical variation, or simulating many samples to see if patterns persist) to judge whether observed differences are likely real or due to chance, documenting their assumptions and methods.
+Description: Students use simple statistical reasoning (e.g., simulating many samples or checking if differences are much larger than typical variation) to judge whether observed differences are likely real or due to chance, documenting their assumptions.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
@@ -13258,7 +13130,7 @@ Dependencies:
 ID: T27.G8.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Automate report generation
-Description: Learners build scripts that assemble updated charts and textual findings (using variables to populate text templates) at the press of a button, supporting repeatable reporting workflows for ongoing data monitoring.
+Description: Learners build scripts that assemble updated charts and textual findings (using variables) at the press of a button, supporting repeatable reporting.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
@@ -13266,8 +13138,7 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T26.G6.01: Map stakeholder questions to data requirements
-* T27.G7.02c: Automate chart updates with variables
-* T27.G8.01: Determine if differences are statistically meaningful
+* T27.G8.01: Run hypothesis tests or statistical significance checks
 
 
 ID: T27.G8.03
@@ -13285,13 +13156,13 @@ Dependencies:
 ID: T27.G8.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Publish data stories to a shared platform
-Description: Learners create polished data stories with charts, written context, ethical considerations, and calls to action, then publish to CreatiCode's sharing feature or export as a web page for others to view and learn from.
+Description: Learners create polished data stories with charts, written context, ethical considerations, and calls to action, then publish to CreatiCode's sharing feature or export as a web page for others to view.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T26.G6.01: Map stakeholder questions to data requirements
-* T27.G8.03: Integrate data analysis into AI prompt engineering
+* T27.G8.03: Integrate analysis into AI prompt engineering
 
 
 ID: T28.G2.01
@@ -13379,20 +13250,10 @@ Dependencies:
 * T28.G3.01: Interpret provided simulation output
 
 
-ID: T28.G3.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Modify a teacher-provided random generator
-Description: Students receive a simple 2-color spinner script and modify it to change the colors, the number of outcomes, or the range of random numbers. They test their changes to verify all outcomes can appear.
-
-Dependencies:
-* T28.G3.02: Explain what "pick random" does by testing predictions
-* T28.G3.03: Record experimental data with teacher-provided blocks
-
-
 ID: T28.G4.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Build a simple random generator
-Description: Students create a script that uses 'pick random 1-4' with if-statements to determine which of four colors was chosen, then report that color with a 'say' block. They click the green flag multiple times to verify each color can appear.
+Description: Students create a script that simulates spinning a 4-color wheel once and reports which color was chosen. They verify each color can appear.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -13418,14 +13279,13 @@ Dependencies:
 ID: T28.G4.03
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Show how sample size changes variability
-Description: Students run two experiments (50, 500 spins) and plot bar charts to see stability differences.
+Description: Students run two experiments (10, 100 spins) and plot bar charts to see stability differences.
 
 Dependencies:
 * T07.G3.05: Fix a simple repeat loop count
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T28.G4.02: Log 50 trials into a list and compute frequencies
-* T27.G3.04: Create side-by-side bar charts for two groups
 
 
 ID: T28.G4.04
@@ -13458,7 +13318,6 @@ Description: Students roll two virtual dice 200 times, store sums, and explain w
 Dependencies:
 * T28.G4.02: Log 50 trials into a list and compute frequencies
 * T28.G4.04: Debug an "unfair" simulation
-* T27.G3.04: Create side-by-side bar charts for two groups
 
 
 ID: T28.G5.02
@@ -13473,7 +13332,7 @@ Dependencies:
 
 ID: T28.G5.03
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Use Monte Carlo sampling to estimate area or probability
+Skill: Use random sampling to estimate area proportions
 Description: Students generate random coordinate pairs within a square, check if each point lands inside a simple shape (e.g., a triangle or rectangle within the square), and calculate the fraction of points inside. They compare this fraction to the actual area ratio and explain how more trials improve accuracy.
 
 Dependencies:
@@ -13493,45 +13352,16 @@ Dependencies:
 * T28.G4.04: Debug an "unfair" simulation
 
 
-ID: T28.G5.05
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Calculate theoretical probability for simple events
-Description: Students determine the theoretical probability of simple events (rolling a specific number, flipping heads, choosing a colored marble from a bag) by counting favorable outcomes divided by total possible outcomes. They express probabilities as fractions and decimals.
-
-Dependencies:
-* T28.G4.02: Log 50 trials into a list and compute frequencies
-
-
-ID: T28.G5.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Compare experimental and theoretical probability
-Description: Students run a simulation for a simple event (coin flip, die roll, spinner), compare their experimental frequencies to calculated theoretical probabilities, and explain why differences occur and how sample size affects accuracy.
-
-Dependencies:
-* T28.G5.05: Calculate theoretical probability for simple events
-* T28.G4.03: Show how sample size changes variability
-
-
-ID: T28.G5.07
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Create frequency distributions from simulation data
-Description: Students generate data from repeated trials (e.g., sum of two dice rolled 100 times), organize results into frequency bins, and create a bar chart showing how often each outcome occurred. They identify which outcomes are most and least common.
-
-Dependencies:
-* T28.G5.01: Simulate compound events (two dice)
-* T27.G4.02c: Calculate median and mode using code
-
-
 ID: T28.G6.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Conduct parameter sweeps for tuning
 Description: Students loop over a range of parameters (e.g., enemy speed) and log win rates to choose balanced values.
 
 Dependencies:
-* T07.G4.01: Loop until a goal condition is met
-* T07.G5.01: Use a counted repeat loop
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G3.01: Use a counted repeat loop
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G5.01: Simulate compound events (two dice)
 * T28.G5.04: Document simulation plans before coding
 
@@ -13542,10 +13372,10 @@ Skill: Use random seeds for reproducibility
 Description: Learners set a seed value before running a simulation, observe the sequence of random outputs, then reset and rerun with the same seed to verify identical results. They explain why reproducibility matters for debugging and sharing results with others.
 
 Dependencies:
-* T07.G5.01: Use a counted repeat loop
-* T08.G4.01: Choose actions based on user input or sensor values
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G5.04: Document simulation plans before coding
 
 
@@ -13555,10 +13385,10 @@ Skill: Measure percent error vs theoretical probability
 Description: Students calculate percent error between observed frequencies and expected probabilities, stating whether the error is acceptable.
 
 Dependencies:
-* T06.G4.01: Write scripts that respond to keyboard or mouse events
-* T07.G5.01: Use a counted repeat loop
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G5.01: Simulate compound events (two dice)
 * T28.G5.04: Document simulation plans before coding
 
@@ -13566,67 +13396,40 @@ Dependencies:
 ID: T28.G6.04
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Simulate noisy sensors for T23 testing
-Description: Learners generate random-but-bounded pose or voice data to test AI perception logic when a live camera/mic isn't available.
+Description: Learners generate random-but-bounded pose or voice data to test AI perception logic when a live camera/mic isn’t available.
 
 Dependencies:
-* T07.G5.01: Use a counted repeat loop
-* T08.G4.01: Choose actions based on user input or sensor values
-* T09.G5.01: Modify variables based on user input or sensor events
-* T28.G5.03: Use Monte Carlo sampling to estimate area or probability
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G5.03: Use Monte Carlo to estimate an area or probability
 * T28.G5.04: Document simulation plans before coding
 
 
 ID: T28.G6.05
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Model a simple agent in a grid world
-Description: Students create a sprite that tracks its position and facing direction in a grid (using x,y coordinates and a direction variable). They implement basic movement rules (move forward one grid square, turn left 90°, turn right 90°) and test the agent's movement.
+Skill: Model an agent, its environment, and reward rules
+Description: Students set up a simple grid world with one agent (position + facing), walls, and a goal/reward rule. They encode agent rules ("if front is clear, move; else turn right") and log states/rewards over 20 steps, highlighting how environment design affects behavior.
 
 Dependencies:
-* T09.G4.04: Use variables to control animation or game state
-* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G5.03: Use Monte Carlo to estimate an area or probability
 * T28.G5.04: Document simulation plans before coding
-
-
-ID: T28.G6.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Simulate events with changing probabilities
-Description: Students build a simulation where one event's probability depends on a previous outcome (e.g., drawing cards without replacement, weather patterns where today's weather affects tomorrow's probability). They compare results to simulations where probabilities stay constant.
-
-Dependencies:
-* T28.G5.01: Simulate compound events (two dice)
-* T28.G5.06: Compare experimental and theoretical probability
-
-
-ID: T28.G6.07
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Design an environment with obstacles and goals
-Description: Students add walls (as sprites or using collision detection) and goal locations to their grid world. The agent detects when it hits a wall (can't move) or reaches a goal (mission complete). They test multiple starting positions.
-
-Dependencies:
-* T28.G6.05: Model a simple agent in a grid world
-* T08.G5.01: Use a simple if in a script
-
-
-ID: T28.G6.08
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Implement reward rules and track outcomes
-Description: Students add a score variable that increases when the agent reaches goals and decreases when hitting walls. They run 10 trials with random starting positions and log the agent's final score for each trial, identifying which starting positions lead to better outcomes.
-
-Dependencies:
-* T28.G6.07: Design an environment with obstacles and goals
-* T09.G5.01: Modify variables based on user input or sensor events
 
 
 ID: T28.G7.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Create a two-agent interaction simulation
-Description: Students build a simulation with two sprites that follow simple probabilistic rules and can affect each other's state (e.g., tag game where one chases with random movements, simple predator-prey where sprites avoid/pursue each other). They run 20 time steps and observe the interaction patterns.
+Skill: Build agent-based simulations
+Description: Students create multi-agent systems (e.g., rumor spread, ecosystem) where sprites follow probabilistic rules and log aggregated metrics.
 
 Dependencies:
-* T06.G5.01: Broadcast a custom message and respond in another sprite
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T28.G6.08: Implement reward rules and track outcomes
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G6.05: Model an agent, its environment, and reward rules
 
 
 ID: T28.G7.02
@@ -13636,9 +13439,9 @@ Description: Students observe a pre-built simulation where an agent's path-findi
 
 Dependencies:
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T09.G5.05: Trace code with multiple variables
-* T28.G6.08: Implement reward rules and track outcomes
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G6.05: Model an agent, its environment, and reward rules
 
 
 ID: T28.G7.03
@@ -13649,9 +13452,9 @@ Description: Learners create synthetic player profiles with randomly assigned at
 Dependencies:
 * T07.G6.05: Fix a loop that runs too many or too few times
 * T08.G5.01: Use a simple if in a script
-* T09.G5.05: Trace code with multiple variables
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G6.04: Simulate noisy sensors for T23 testing
-* T28.G6.08: Implement reward rules and track outcomes
+* T28.G6.05: Model an agent, its environment, and reward rules
 
 
 ID: T28.G7.04
@@ -13662,8 +13465,8 @@ Description: Students take experimental results (e.g., scores from two game vers
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T09.G5.05: Trace code with multiple variables
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G6.01: Conduct parameter sweeps for tuning
 
 
@@ -13673,21 +13476,11 @@ Skill: Communicate simulation assumptions & limits
 Description: Learners write a short "model card" for their simulation listing at least two assumptions (e.g., events are independent, probabilities stay constant) and one limitation (e.g., doesn't account for weather changes). This transparency practice mirrors AI documentation standards.
 
 Dependencies:
-* T06.G5.01: Broadcast a custom message and respond in another sprite
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G6.05: Fix a loop that runs too many or too few times
-* T09.G5.01: Modify variables based on user input or sensor events
-* T09.G5.05: Trace code with multiple variables
-* T28.G7.01: Create a two-agent interaction simulation
-
-
-ID: T28.G7.06
-Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Build multi-agent simulations with aggregated metrics
-Description: Students extend their two-agent simulation to include 5-10 agents of different types. They create summary statistics across all agents (average position, count of each state, total energy) and display these metrics updating in real-time during the simulation.
-
-Dependencies:
-* T28.G7.01: Create a two-agent interaction simulation
-* T10.G6.01: Sort a table by a column
+* T09.G3.01: Create and use a numeric variable for score or count
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G7.01: Build agent-based simulations
 
 
 ID: T28.G8.01
@@ -13704,8 +13497,8 @@ Dependencies:
 
 ID: T28.G8.02
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Explore measurement variability through repeated sampling
-Description: Students take multiple random samples from a dataset (without replacement), compute statistics (mean, median) for each sample, and observe how results vary. They identify the range of values obtained and explain how sample variation helps understand measurement reliability.
+Skill: Estimate uncertainty via resampling
+Description: Learners take a dataset (e.g., 50 survey responses), randomly resample it 100 times with replacement, compute the mean for each resample, and identify the lowest and highest means observed. They explain why different samples from the same data produce different averages and how this helps understand result reliability.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variables
@@ -13792,23 +13585,13 @@ Dependencies:
 ID: T29.G4.01
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Compare a human summary to a computer summary
-Description: Use AI (ChatGPT) to generate summaries of text content, understanding how AI can condense information
+Description: Students read a short paragraph, write a one-sentence summary, and then compare it to a computer-generated summary, noting what the computer included or missed.
 
 Dependencies:
 * T29.G3.04: Explain why clean text helps AI helpers
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G4.01b
-Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
-Skill: Access individual characters in text by position
-Description: Access and display specific characters from text using their position (index), understanding that positions start at 1
-
-Dependencies:
-* T29.G4.01: Compare a human summary to a computer summary
-* T07.G3.03: Trace code with simple loops to predict outcomes
 
 
 ID: T29.G4.02
@@ -13824,16 +13607,6 @@ Dependencies:
 * T10.G3.03: Add and remove items from a list
 
 
-ID: T29.G4.02b
-Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
-Skill: Count characters and words in text
-Description: Use length of text block to count characters, and count words by splitting text on spaces
-
-Dependencies:
-* T29.G4.02: Use split and join blocks for text manipulation
-* T07.G3.03: Trace code with simple loops to predict outcomes
-
-
 ID: T29.G4.03
 Topic: T29 – Text Data & NLP Foundations: G3–8 Skill List
 Skill: Clean text: lowercase + remove punctuation
@@ -13841,7 +13614,6 @@ Description: Learners build helper blocks that convert text to lowercase using t
 
 Dependencies:
 * T29.G4.02: Use split and join blocks for text manipulation
-* T07.G3.03: Trace code with simple loops to predict outcomes
 * T09.G3.01: Create and use a numeric variable for score or count
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
