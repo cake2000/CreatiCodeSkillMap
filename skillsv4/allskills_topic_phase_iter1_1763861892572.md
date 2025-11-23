@@ -6131,7 +6131,7 @@ Dependencies:
 ID: T11.G3.03
 Topic: T11 – Functions & Procedures
 Skill: Identify repeated or grouped actions that could become custom blocks
-Description: Students examine a longer script (15-30 blocks) that is ALREADY WRITTEN and identify groups of blocks that appear multiple times OR represent distinct behaviors. They draw boxes around these groups and label each with a descriptive name (e.g., "reset player," "check win condition"). This builds the habit of recognizing natural custom block boundaries IN EXISTING CODE before actually creating them. This is ANALYSIS of existing code, as opposed to DESIGN before coding (covered in G5.01).
+Description: Students examine a longer script (15-30 blocks) and identify groups of blocks that appear multiple times OR represent distinct behaviors. They draw boxes around these groups and label each with a descriptive name (e.g., "reset player," "check win condition"). This builds the habit of recognizing natural custom block boundaries before actually creating them.
 
 Dependencies:
 * T11.G3.02: Use a pre-made custom block with parameters
@@ -6184,7 +6184,7 @@ Dependencies:
 ID: T11.G4.03
 Topic: T11 – Functions & Procedures
 Skill: Use a reporter block's result in a calculation or condition
-Description: Students call built-in reporter blocks (like "random 1 to 10", "distance to sprite", "length of list") and use their returned values directly in conditions or arithmetic expressions (e.g., `if <distance to [sprite] < 50>`, `set x to (random 1 to 10) + 5`). They practice chaining multiple reporters together in compound expressions, understanding that reporters can be nested inside other blocks. This prepares them to create their own custom reporter blocks in Grade 5.
+Description: Students call built-in reporter blocks (like "random 1 to 10", "distance to sprite", "length of list") and use their returned values directly in conditions or arithmetic expressions (e.g., `if <distance to [sprite] < 50>`, `set x to (random 1 to 10) + 5`). They practice chaining multiple reporters together in compound expressions, understanding that reporters can be nested inside other blocks.
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
@@ -6198,8 +6198,6 @@ Skill: Describe the purpose of each custom block in a script
 Description: Students read a script that uses several custom blocks and write a one-sentence description of each block's PURPOSE (e.g., "This block resets the player to the starting position and clears the score"). They focus on WHAT each block does (its goal), not HOW it does it (implementation details). They also identify how blocks fit together in the program's overall structure (e.g., setup, game loop, scoring, ending).
 
 Dependencies:
-* T11.G4.01: Define and call a simple custom block (no parameters)
-* T11.G4.02: Distinguish command blocks from reporter blocks
 
 
 ID: T11.G4.05
@@ -6208,8 +6206,6 @@ Skill: Trace execution through a script with custom blocks
 Description: Students trace step-by-step through a script that calls custom blocks, predicting the order of execution and the values returned by reporter blocks at each step. They show the flow of control and data through the program, reinforcing their mental model of procedure calls, returns, and the call stack. This is LOW-LEVEL tracing (execution order) as opposed to G4.04's HIGH-LEVEL understanding (purpose).
 
 Dependencies:
-* T11.G4.01: Define and call a simple custom block (no parameters)
-* T11.G4.02: Distinguish command blocks from reporter blocks
 * T11.G3.04: Understand the concept of return values
 
 
@@ -6240,16 +6236,8 @@ Description: Students create a custom block that takes one input parameter using
 Assessment example: Students create a custom block `DrawPolygon (sides)` that draws a polygon with the specified number of sides. They test it by calling `call DrawPolygon [3]` (triangle), `call DrawPolygon [4]` (square), and `call DrawPolygon [8]` (octagon).
 
 Dependencies:
+* T11.G4.05: Trace execution through a script with custom blocks
 * T11.G4.06: Understand the argument block for accessing parameters
-
-
-ID: T11.G5.02.5
-Topic: T11 – Functions & Procedures
-Skill: Match parameter names to argument values when calling custom blocks
-Description: Students trace how argument values passed during a `call` block correspond to parameter names in the `define` block. Given a custom block definition `define (DrawSquare (size))` and a call `call DrawSquare [50]`, they identify that the value 50 is assigned to the parameter `size`. They practice with blocks that have 2-3 parameters in different orders, verifying they understand the positional matching between arguments and parameters.
-
-Dependencies:
-* T11.G5.02: Define a custom block with one parameter
 
 
 ID: T11.G5.03
@@ -6264,7 +6252,7 @@ Dependencies:
 ID: T11.G5.04
 Topic: T11 – Functions & Procedures
 Skill: Analyze a modular program structure
-Description: Students examine a larger project (game, animation, simulation) and identify how it uses custom blocks to organize functionality INTO MAJOR COMPONENTS. They explain how this modular design makes the code easier to understand, modify, and debug compared to a non-modular version. They create a diagram or outline showing the major custom blocks and their relationships.
+Description: Students examine a larger project (game, animation, simulation) and identify how it uses custom blocks to organize functionality. They explain how this modular design makes the code easier to understand, modify, and debug compared to a non-modular version.
 
 Dependencies:
 * T11.G4.04: Describe the purpose of each custom block in a script
@@ -6277,19 +6265,6 @@ Skill: Define a custom block with two or more parameters
 Description: Students create a custom block with multiple parameters using `define (DrawRectangle (width) (height))` syntax. Inside the definition, they access each parameter using the `argument` block (e.g., `argument (width)`, `argument (height)`). They practice ordering parameters logically and using clear parameter names, calling the block with various argument combinations like `call DrawRectangle [100] [50]`.
 
 Dependencies:
-* T11.G5.02: Define a custom block with one parameter
-
-
-ID: T11.G5.05.5
-Topic: T11 – Functions & Procedures
-Skill: Decide whether a custom block should be a command or reporter
-Description: Students analyze scenarios and decide whether a custom block should perform an action (command block, use `call`) or return a value (reporter block, use `report` and `return`). For example, "DrawCircle" should be a command, while "CalculateArea" should be a reporter. They justify their design choice based on whether the block DOES something or COMPUTES something.
-
-Assessment example: Given 6-8 custom block scenarios (e.g., "move sprite to position," "calculate distance between sprites," "draw polygon," "find maximum value"), students categorize each as command or reporter and explain why.
-
-Dependencies:
-* T11.G4.02: Distinguish command blocks from reporter blocks
-* T11.G5.02: Define a custom block with one parameter
 
 
 ID: T11.G5.06
@@ -6318,8 +6293,6 @@ Skill: Use comments to document custom block purpose
 Description: Students use CreatiCode's `// [comment]` block to add comments inside and above custom block definitions, documenting what the block does, what each parameter represents, and what value it returns (if any). This practice makes code more readable for others and for their future selves.
 
 Dependencies:
-* T11.G5.02: Define a custom block with one parameter
-* T11.G5.06: Define a custom reporter block that returns a value
 
 
 ID: T11.G6.01
@@ -6343,16 +6316,6 @@ Dependencies:
 * T11.G5.05: Define a custom block with two or more parameters
 
 
-ID: T11.G6.02.5
-Topic: T11 – Functions & Procedures
-Skill: Test custom blocks with boundary and edge cases
-Description: Students test their custom blocks systematically with normal inputs, boundary values (e.g., 0, negative numbers, very large numbers), and edge cases. They identify and fix bugs that only appear with certain inputs. For example, testing a "DrawPolygon (sides)" block with sides=3, sides=100, sides=2, sides=0, and negative values.
-
-Dependencies:
-* T11.G5.05: Define a custom block with two or more parameters
-* T11.G5.07: Debug a script with incorrect custom block calls
-
-
 ID: T11.G6.03
 Topic: T11 – Functions & Procedures
 Skill: Refactor spaghetti code into organized custom blocks
@@ -6365,7 +6328,7 @@ Dependencies:
 ID: T11.G6.04
 Topic: T11 – Functions & Procedures
 Skill: Evaluate and critique custom block designs
-Description: Students evaluate INDIVIDUAL custom block designs (some good, some poor) and critique them based on multiple DESIGN CRITERIA: clarity of purpose, reusability, naming conventions, appropriate parameter choices, correct return value usage, and proper scope (not doing too much or too little). They identify specific problems (e.g., "This block does too many unrelated things," "The parameter name 'x' is unclear," "This should return a value instead of setting a variable") and suggest concrete improvements with justifications.
+Description: Students evaluate examples of custom block designs (some good, some poor) and critique them based on multiple criteria: clarity of purpose, reusability, naming conventions, appropriate parameter choices, and correct return value usage. They identify specific problems (e.g., "This block does too many unrelated things," "The parameter name 'x' is unclear," "This should return a value instead of setting a variable") and suggest concrete improvements with justifications.
 
 Dependencies:
 * T11.G5.03: Choose between adding a parameter vs. creating a separate block
@@ -6374,7 +6337,7 @@ Dependencies:
 ID: T11.G7.01
 Topic: T11 – Functions & Procedures
 Skill: Implement algorithms as reusable custom blocks
-Description: Students implement ONE specific algorithm (e.g., linear search through a list, finding the maximum value in a list, or computing greatest common divisor) as a custom block with clear parameters and return values. They demonstrate that the complex algorithm is encapsulated in a reusable block that hides implementation details. They test the block with multiple different inputs to verify correctness and reusability.
+Description: Students implement standard algorithms (e.g., linear search, bubble sort, greatest common divisor) as custom blocks with clear parameters and return values. They demonstrate that a complex algorithm can be encapsulated in a reusable block that hides its implementation details.
 
 Dependencies:
 * T11.G5.06: Define a custom reporter block that returns a value
@@ -6418,7 +6381,7 @@ Dependencies:
 ID: T11.G8.01
 Topic: T11 – Functions & Procedures
 Skill: Design a reusable library of custom blocks for games
-Description: Students design 3-5 custom blocks that could be reused across multiple projects in a specific domain (e.g., game collision detection, drawing utilities, or physics calculations). They create blocks with clear, general-purpose interfaces like "CheckCollision [sprite1] [sprite2]" or "DrawHUD [score] [lives]". They demonstrate reusability by using at least one block in two different contexts within a single project.
+Description: Students design a small library of custom blocks that could be reused across multiple games or projects, such as "CheckCollision [sprite1] [sprite2]", "DrawHUD [score] [lives]", and "HandleGameState [state]". They demonstrate reusability by using the same blocks in two different game projects.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
@@ -6458,6 +6421,7 @@ Dependencies:
 * T11.G7.03: Understand encapsulation and information hiding
 * T11.G7.04: Trace and debug multi-level custom block calls
 * T11.G8.02: Refactor a large program into a hierarchical block structure
+
 
 ID: T12.G1.01
 Topic: T12 – Organizing Programs
@@ -6539,6 +6503,7 @@ Description: Students use the comment block (// [text]) from the My Blocks categ
 
 Dependencies:
 * T07.G3.02: Trace a script with a simple loop
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T12.G2.01: Add a note to explain a section of a plan
 
 
@@ -6589,6 +6554,7 @@ Skill: Document a program with embedded comments
 Description: Students add comments to multiple scripts, blocks, and sections in a complete project, explaining what each part does and how it contributes to the whole. This is the first experience with systematic documentation.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T12.G3.02: Create a header comment for a script
 * T12.G3.03: Simplify nested or repeated blocks for readability
 * T12.G3.04: Explain the structure of a multi-script project
@@ -6637,7 +6603,7 @@ Dependencies:
 ID: T12.G5.01
 Topic: T12 – Organizing Programs
 Skill: Write a project description explaining what the program does
-Description: Students write a clear project description (in the project notes or as a comment at the top of the main script) that explains: (1) what the project does, (2) how to use it (controls/interactions), and (3) what the main features are. This user-facing documentation helps others understand the project without reading the code.
+Description: Students write a clear project description using CreatiCode's Project Instructions feature that explains: (1) what the project does, (2) how to use it (controls/interactions), and (3) what the main features are. This user-facing documentation helps others understand the project without reading the code.
 
 Dependencies:
 * T12.G4.01: Document a program with embedded comments
@@ -6681,6 +6647,7 @@ Description: Students create custom reporter blocks that return values using ret
 
 Dependencies:
 * T12.G4.05: Add input parameters to a custom block
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T12.G6.01
@@ -6689,6 +6656,8 @@ Skill: Analyze a program's structure using a checklist and suggest specific impr
 Description: Students use a structured checklist (covering naming, comments, script organization, etc.) to systematically evaluate a multi-script program and propose specific refactoring steps. Focus is on methodical, checklist-driven review rather than informal peer feedback.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.01: Use a simple if in a script
 * T12.G5.03: Organize a project with 3+ features into labeled sections or scripts
 * T12.G5.04: Review another student's code and suggest at least 2 organizational improvements
 
@@ -6699,6 +6668,8 @@ Skill: Use comments to explain algorithm logic
 Description: Students add comments explaining their reasoning and design choices at the algorithm level (e.g., "I use a repeat loop instead of separate move blocks because it's easier to change the distance later" or "I check for collision before moving to prevent the sprite from going through walls"). Focus is on explaining the 'why' behind algorithmic decisions rather than just describing what code does.
 
 Dependencies:
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
 * T12.G5.02: Add inline comments explaining how code works and why choices were made
 
 
@@ -6719,6 +6690,9 @@ Skill: Document code for collaborative maintenance
 Description: Students add comments and documentation to a project so that a peer or their future self can understand and modify it. They explain key variables, the role of each script, and any non-obvious design choices. Focus is on written documentation and comments that enable others to maintain the code.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T12.G5.01: Write a project description explaining what the program does
 * T12.G5.04: Review another student's code and suggest at least 2 organizational improvements
 
@@ -6763,6 +6737,7 @@ Description: Students add "design comments" to their code explaining major archi
 
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T12.G6.02: Use comments to explain algorithm logic
 * T12.G6.04: Document code for collaborative maintenance
 
