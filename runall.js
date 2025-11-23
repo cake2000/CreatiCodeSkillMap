@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 17) continue;
+      // if ( iteration == 0 && i < 17) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -102,7 +102,7 @@ async function runAllScripts() {
       console.log(`  ${new Date().toLocaleString()}`);
 
       const topicPrompt = `## Introduction
-We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on.
+We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on. Our goal is not only build solid foundations in coding concepts but also empower students to create amazing projects using CreatiCode's unique features, and along the way develop problem solving skills that will serve them for life.
 
 Read 00-START-HERE.md and spec_v2_updated.md to understand the whole project, and read the key references like CSTA standard draft, AI priorities, and creaticode introduction in the root folder.
 
@@ -122,7 +122,9 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
 
 
 2. **Skill Quality Checks**
+   - Feel free to make MAJOR revisions to skill descriptions as needed or add/update skills
    - Break down any skills that are too broad or complex
+   - Skills should be designed to help students gain problem solving skills beyond just learning how to use CreatiCode features or basic coding concepts
    - The list of skills has to be comprehensive and scaffolded. You are encouraged to add missing skills to ensure proper scaffolding and knowledge coverage within the topic.
    - Skill description should be actionable, relatable to the target age group, easy to understand, and implementable
    - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You absolutely must check the creaticode repos to verify this by reviewing ALL blocks offered in the related categories and consider how they should be used to teach the skill. For example, for 2D physics or 3D skills, you have to look into what blocks are offered and how they work to design meaningful skills around them since these skills are totally depending on the specific features of the platform. For 3D skills, you would have to look into how to initialize a 3D scene, control the camera, adding shapes/models/avatars, moving/rotating, handle collision/physics. For 2D physics, we have to enable the 2D physics engine first and then define the physics body for sprites, etc. Similar for widget category for app development, which are essential when developping AI apps like adding buttons/labels/textbox/chat window and handle user interactions. You also hav to check out other categories like AI (how to call ChatGPT/LLM, hand/body gesture tracking, speech-to-text and text-to-speech, etc), multiplayer, cloud, etc, when you work with related topics. You can search in this file to get all blocks in any category: /media/binyu/USB2/ScratchCopilot/blockdes8.txt. For example, search "Category:" to find all categories in that file or find all blocks within one category by searching "Category: <category name>". The current skills may not fully reflect the actual features of CreatiCode, so you have to improve them based on what the platform actually offers, and maybe some big changes are needed.
@@ -164,9 +166,11 @@ Use subagents/task to keep main context clean and small. For example, use Task w
 
 ## Special Note On this run
 
-I have reviewed the skills, and one BIG problem is the skills are still too big for some categories, such as 3D worlds. For one example, there is one skill T18.G3.04 that covers adding ALL shapes like boxes, spheres, etc. Although each shape is already a big skill by itself since many parameters are there for each block for customizing it. So for cases like this, that skill needs to be broken down into many smaller skills. And you can use additional skill IDs like T18.G3.04.01, T18.G3.04.02, etc. to define each smaller skill. Please make sure all skills are manageable and implementable by students. Do this for every topic where applicable and every skill.
+I have reviewed the skills, and one BIG problem is the skills are still too big for some categories, such as 3D worlds. For one example, there is one skill T18.G3.04 that covers adding ALL shapes like boxes, spheres, etc. Although each shape is already a big skill by itself since many parameters are there for each block for customizing it. So for cases like this, that skill needs to be broken down into many smaller skills. And you can use additional skill IDs like T18.G3.04.01, T18.G3.04.02, etc. to define each smaller skill. Please make sure all skills are manageable and implementable by students. Do this for every topic where applicable and every skill. In general, when introducing new blocks/features, make sure each skill is focused on one SINGLE block/feature ONLY, so students can learn to use it well. If a skill is too big, break it down into smaller skills.
 
-Automatically fix all high and medium priority issues within topic ${topic.code}. For output, summarize the key changes you made to topic ${topic.code} skills in skillsv4/allskills.md.`;
+YOU ARE PERMITTED TO MAKE MAJOR CHANGES, especially breaking down overly broad skills into smaller, manageable ones.
+
+Now, automatically fix all high and medium priority issues within topic ${topic.code}. For output, summarize the key changes you made to topic ${topic.code} skills in skillsv4/allskills.md.`;
 
       let success = false;
       let retryCount = 0;

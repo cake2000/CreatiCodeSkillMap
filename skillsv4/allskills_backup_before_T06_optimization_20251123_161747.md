@@ -3555,16 +3555,6 @@ Dependencies:
 * T06.G3.02: Build a key‑press script that controls a sprite
 
 
-ID: T06.G4.10.01
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use variable-based key events for customizable controls
-Description: Students use "when key [variable] pressed" and "when key [variable] released" where the key is stored in a variable, enabling customizable controls (player chooses their own keys, config-driven key bindings, accessibility options). This introduces dynamic event handling where the triggering key can be changed at runtime.
-
-Dependencies:
-* T06.G4.10: Use 'when [key] key released' for release-based actions
-* T09.G4.01: Use a variable in complex expressions
-
-
 ID: T06.G5.01
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Identify standard event patterns in a small game
@@ -3632,7 +3622,6 @@ Skill: Use a "when condition becomes true" event for state changes
 Description: Students use the "when <condition>" block to trigger actions based on variable or expression changes (e.g., when score > 10, when health = 0). This enables event-driven logic without polling.
 
 Dependencies:
-* T06.G4.01: Build a sprite with several event handlers (green flag + keys)
 * T06.G5.01: Identify standard event patterns in a small game
 * T09.G4.01: Use a variable in complex expressions
 
@@ -3685,23 +3674,12 @@ Dependencies:
 * T09.G4.01: Use a variable in complex expressions
 
 
-ID: T06.G5.10.01
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use 2D physics collision events for realistic interactions
-Description: Students use "broadcast [message] when colliding with [sprite]" and "broadcast when finish colliding" to trigger events during 2D physics interactions (collision start, collision end). Compare to regular collision events to understand physics-specific timing and how physics engine events differ from simple touch detection.
-
-Dependencies:
-* T06.G4.08.01: Use 'when touching sprite' for sprite-to-sprite collision
-* T17.G5.01: Add 2D physics bodies to sprites
-
-
 ID: T06.G6.01
 Topic: T06 – Events & Sequences: G3–8 Skill List
 Skill: Trace event execution paths in a multi‑event program
 Description: Students analyze a program with several event handlers and broadcasts and determine which scripts run in response to different input sequences.
 
 Dependencies:
-* T06.G3.06: Trace a project with a single event and predict output
 * T06.G5.04: Trace event and broadcast order for a scenario
 * T06.G5.05: Find and fix conflicting event scripts
 
@@ -3716,34 +3694,15 @@ Dependencies:
 * T06.G4.04.01: Use 'broadcast and wait' to sequence sprite actions
 
 
-ID: T06.G6.03.01
+ID: T06.G6.03
 Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Group related event handlers by category
-Description: Students organize event scripts by adding section comments and visually grouping handlers (movement handlers together, UI handlers together, scoring handlers together). Focus on structural organization without changing code logic. Add comments like '-- MOVEMENT HANDLERS --' and '-- UI HANDLERS --' to create clear sections.
+Skill: Refactor event handlers to reduce duplication and improve structure
+Description: Students reorganize an existing project's event scripts by: (1) grouping related handlers together (movement, UI, scoring), (2) extracting repeated event patterns into custom blocks (via T12.G5.01), (3) adding structural comments like '-- MOVEMENT HANDLERS --', and (4) simplifying complex event logic. Focus on structural refactoring, not just commenting.
 
 Dependencies:
 * T06.G5.05: Find and fix conflicting event scripts
 * T06.G5.06: Add explanatory comments to individual event handlers
-
-
-ID: T06.G6.03.02
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Extract repeated event patterns into custom blocks
-Description: Students identify event handlers with duplicated code sequences and extract them into custom blocks to reduce duplication while maintaining event-driven structure. This improves maintainability by reusing logic across multiple event handlers.
-
-Dependencies:
-* T06.G6.03.01: Group related event handlers by category
 * T12.G5.01: Extract repeated code into reusable blocks
-
-
-ID: T06.G6.03.03
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Simplify complex event logic with conditionals
-Description: Students refactor complex event handlers by consolidating multiple similar event scripts into fewer handlers with conditional logic, improving maintainability without changing behavior. For example, replace separate "when [up arrow] pressed" and "when [down arrow] pressed" handlers with a single handler that uses conditionals.
-
-Dependencies:
-* T06.G6.03.02: Extract repeated event patterns into custom blocks
-* T08.G5.01: Use multi-way conditionals (if-else chains)
 
 
 ID: T06.G6.04
@@ -3765,56 +3724,6 @@ Description: Students use "when widget clicked" events to respond to button pres
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T16.G3.02: Create a widget and change its properties
-
-
-ID: T06.G6.05.01
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use widget change events for interactive controls
-Description: Students use "when widget [name] changes" to respond to slider movements, text input changes, checkbox toggles, and dropdown selections. This enables reactive UI that updates immediately when users interact with controls (e.g., volume slider changes audio, color picker updates sprite appearance).
-
-Dependencies:
-* T06.G6.05: Use widget click events to build interactive UI
-* T16.G4.01: Use sliders and text inputs for user input
-
-
-ID: T06.G6.05.02
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use video playback events for multimedia projects
-Description: Students use video events ("when video starts", "when video paused/stopped", "when video time is T seconds") to synchronize actions with video playback (showing captions at specific times, triggering animations when video reaches certain points, responding to pause/play). This enables video-synchronized interactive content.
-
-Dependencies:
-* T06.G6.05: Use widget click events to build interactive UI
-* T16.G5.01: Add video widgets and control playback
-
-
-ID: T06.G6.05.03
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use pointer enter/leave events for hover effects
-Description: Students use "when pointer enters widget" and "when pointer leaves widget" to create hover effects (highlighting buttons, showing tooltips, preview displays). This introduces hover-based UI interactions common in applications, where elements respond to mouse proximity without clicking.
-
-Dependencies:
-* T06.G6.05: Use widget click events to build interactive UI
-* T16.G4.01: Use sliders and text inputs for user input
-
-
-ID: T06.G6.05.04
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use tab selection events for multi-page interfaces
-Description: Students use "when tab [name] selected" to manage multi-page interfaces where different content appears based on selected tab (settings pages with multiple tabs, game menus with different screens, multi-section quizzes). This enables tabbed navigation patterns common in applications.
-
-Dependencies:
-* T06.G6.05: Use widget click events to build interactive UI
-* T16.G5.02: Create tabbed interfaces
-
-
-ID: T06.G6.05.05
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use any-button-named events for grouped controls
-Description: Students use "when any button named [name] clicked" to handle multiple buttons with the same name simultaneously (like "delete" buttons in a list, multiple "next" buttons, or repeated UI elements). This reduces code duplication for similar controls and enables pattern-based event handling.
-
-Dependencies:
-* T06.G6.05: Use widget click events to build interactive UI
-* T16.G5.03: Create lists of widgets dynamically
 
 
 ID: T06.G6.06.01
@@ -3888,7 +3797,7 @@ Skill: Create a simple state machine with broadcasts
 Description: Students implement a basic two-state system (e.g., menu and playing) using a state variable and broadcasts to transition between states when specific events occur.
 
 Dependencies:
-* T06.G6.03.01: Group related event handlers by category
+* T06.G6.03: Refactor event handlers to reduce duplication and improve structure
 * T06.G6.04: Design meaningful custom broadcasts and document them
 * T06.G6.08: Use a variable to track simple program states
 * T09.G5.01: Use variables in complex expressions
@@ -3911,7 +3820,7 @@ Description: Students plan which broadcasts communicate between subsystems (play
 
 Dependencies:
 * T01.G5.01: Complete a simple script with missing blocks
-* T06.G6.03.01: Group related event handlers by category
+* T06.G6.03: Refactor event handlers to reduce duplication and improve structure
 * T06.G6.04: Design meaningful custom broadcasts and document them
 * T09.G5.01: Use variables in complex expressions
 
@@ -3922,7 +3831,7 @@ Skill: Compare tightly coupled vs broadcast‑based designs
 Description: Students compare two designs and decide which is more modular and easier to change, explaining in terms of events vs direct references.
 
 Dependencies:
-* T06.G6.03.01: Group related event handlers by category
+* T06.G6.03: Refactor event handlers to reduce duplication and improve structure
 * T06.G6.04: Design meaningful custom broadcasts and document them
 * T06.G7.03: Design a broadcast protocol to decouple components
 
@@ -3982,7 +3891,7 @@ Skill: Design animation sequences with broadcast coordination
 Description: Students create complex multi-sprite animations by coordinating broadcasts to sequence different animation stages (e.g., "intro-start" → sprite1 animates → broadcasts "intro-part2" → sprite2 animates → broadcasts "intro-done"). Use 'broadcast and wait' to ensure timing.
 
 Dependencies:
-* T06.G4.04.01: Use 'broadcast and wait' to sequence sprite actions
+* T06.G4.04A: Use 'broadcast and wait' to sequence sprite actions
 * T06.G7.03: Design a broadcast protocol to decouple components
 
 
@@ -4044,54 +3953,14 @@ Dependencies:
 * T09.G6.01: Use lists to manage collections of data
 
 
-ID: T06.G8.06.01
+ID: T06.G8.06
 Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use 3D collision events for object interactions
-Description: Students use "when colliding with [sprite]" in 3D contexts to detect when 3D objects collide, triggering appropriate responses (damage, scoring, state changes). Compare to 2D collision events to understand how collision detection works in 3D space.
+Skill: Use advanced 3D events for interactive environments
+Description: Students implement 3D-specific events for immersive interactions: object collision in 3D space, camera view change events, 3D mouse picking (clicking on 3D objects), and spatial audio triggers. Combine multiple event types to create interactive 3D environments.
 
 Dependencies:
-* T06.G4.08.01: Use 'when touching sprite' for sprite-to-sprite collision
-* T18.G6.02: Add and position 3D objects
-
-
-ID: T06.G8.06.02
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use 3D object picking events for selection
-Description: Students use "when an object from this sprite is picked" to detect clicks on 3D objects, enabling selection and interaction (highlighting, info display, drag initiation). This introduces the concept of "picking" in 3D - identifying which object was clicked in 3D space.
-
-Dependencies:
-* T06.G8.06.01: Use 3D collision events for object interactions
-* T06.G7.05.01: Use 'when mouse button pressed at x,y' for click position tracking
-
-
-ID: T06.G8.06.03
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use 3D object dragging events for manipulation
-Description: Students use "when an object starts to be dragged", "when being dragged", and "when stops being dragged" to implement 3D object manipulation (moving, rotating, placing objects in 3D space). These events provide precise control over the drag lifecycle in 3D.
-
-Dependencies:
-* T06.G8.06.02: Use 3D object picking events for selection
-* T06.G6.07.01: Use 'when dragging starts' for drag initialization
-
-
-ID: T06.G8.06.04
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use 3D distance and overlap events for proximity detection
-Description: Students use "broadcast when distance <= D" and "broadcast when objects overlap" to create proximity-triggered interactions (enemy detection, zone triggers, spatial audio). These events enable reactive behaviors based on 3D spatial relationships.
-
-Dependencies:
-* T06.G8.06.01: Use 3D collision events for object interactions
-* T06.G7.03: Design a broadcast protocol to decouple components
-
-
-ID: T06.G8.06.05
-Topic: T06 – Events & Sequences: G3–8 Skill List
-Skill: Use 3D scene initialization for setup
-Description: Students use "when 3D scene is initialized" to perform one-time 3D setup (loading 3D models, positioning camera, setting lighting, initializing 3D physics). This ensures 3D resources are ready before other scripts run, similar to green flag initialization but specifically for 3D content.
-
-Dependencies:
-* T06.G4.09: Use green flag initialization to prepare game state
-* T18.G6.01: Build a simple 3D scene with camera controls
+* T06.G8.01: Debug event timing issues in complex projects
+* T06.G7.05: Use mouse events with position tracking
 
 
 ID: T07.K.01
@@ -4136,6 +4005,9 @@ Description: Students use their first `repeat N` loop to run a very simple seque
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T04.G1.01: Match a picture pattern to a movement pattern
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T01.G2.05: Complete a simple if/then algorithm
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
@@ -4166,7 +4038,7 @@ Description: Students use a very simple `repeat until <touching [goal]>` loop wi
 
 Dependencies:
 * T07.G3.03: Build a forever loop for simple animation
-* T08.G3.01: Use a simple if in a script
+* T09.G3.02: Use a variable in a conditional (if block)
 
 
 ID: T07.G3.05
@@ -4175,7 +4047,8 @@ Skill: Fix a simple repeat loop count
 Description: Students inspect a simple script where a `repeat` loop has the wrong number (e.g., repeat 4 instead of repeat 3). The error is obvious and the fix is straightforward - just change the number in the repeat block. Focus is on recognizing that the loop count is wrong, not complex debugging.
 
 Dependencies:
-* T07.G3.02: Trace a script with a simple loop
+* T07.G3.04: Use repeat‑until to reach a simple goal
+* T08.G3.03: Pick the right conditional block for a scenario
 
 
 ID: T07.G4.01
@@ -4184,7 +4057,10 @@ Skill: Create a forever game loop for controls
 Description: Students implement a `forever` loop that continuously checks keyboard input and moves the sprite accordingly, instead of responding only once. This is the first time they build a persistent game loop after tracing one in Grade 3.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
 * T07.G3.03: Build a forever loop for simple animation
+* T07.G3.05: Fix a simple repeat loop count
 * T08.G3.01: Use a simple if in a script
 
 
@@ -4194,28 +4070,24 @@ Skill: Use an if statement inside a loop
 Description: Students write a loop (repeat or forever) that contains an if block inside it, combining iteration with conditional logic. Examples include checking for collisions each frame, or processing items differently based on their values.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
+* T07.G3.04: Use repeat‑until to reach a simple goal
 * T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T07.G4.03
 Topic: T07 – Loops
-Skill: Use a manual loop counter variable
-Description: Students create and use a counter variable that they manually increment on each loop iteration (e.g., to show "Step 1, Step 2, …" or to track how many loops have run). They initialize the counter before the loop (set counter to 0), then use a `change counter by 1` block inside a repeat loop. This teaches the fundamental mechanics of counting iterations and prepares students for understanding for-loops as an abstraction of this pattern.
+Skill: Use a loop counter variable and for loops
+Description: Students create and use a counter variable that increments on each loop iteration (e.g., to show "Step 1, Step 2, …" or to track how many loops have run). They also learn to use CreatiCode's `for [variable] from (START) to (LIMIT) at step (S)` block, which provides a built-in loop variable that automatically increments. Students practice with different start values, limits, and step sizes (e.g., counting by 2s for even numbers, or using step -1 to count down). Note: This skill covers both manual counter variables (set counter to 0, change counter by 1) AND the for-loop block. For beginners, start with manual counters to understand the concept, then introduce the for-loop block as a cleaner alternative.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
-* T09.G3.01.01: Create a variable
-* T09.G3.01.02: Set variable value
-
-
-ID: T07.G4.03.01
-Topic: T07 – Loops
-Skill: Use for-loops with automatic counters
-Description: Students use CreatiCode's `for [variable] from (START) to (LIMIT) at step (S)` block, which provides a built-in loop variable that automatically increments. This is introduced as a cleaner alternative to manual counter variables. Students practice with different start values, limits, and step sizes (e.g., counting by 2s for even numbers, using step -1 to count down, or starting from values other than 0). They understand that for-loops eliminate the need to manually initialize and increment counters.
-
-Dependencies:
-* T07.G4.03: Use a manual loop counter variable
+* T07.G3.05: Fix a simple repeat loop count
+* T07.G4.01: Create a forever game loop for controls
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T07.G4.04
@@ -4224,8 +4096,10 @@ Skill: Identify and convert simple repeated code into loops
 Description: Students recognize when a script contains the same sequence of blocks repeated multiple times (e.g., move-turn-stamp copied 4 times) and rewrite it using a simple `repeat N` loop where N equals the number of repetitions. The repeated blocks are identical—no variables or changing values involved. Students verify the refactored code produces identical behavior.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
-* T07.G3.02: Trace a script with a simple loop
+* T07.G3.04: Use repeat‑until to reach a simple goal
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T07.G4.05
@@ -4276,21 +4150,21 @@ Dependencies:
 ID: T07.G5.01
 Topic: T07 – Loops
 Skill: Simulate repeated experiments with a loop
-Description: Students simulate a simple chance experiment repeatedly in code using a loop, and use counter variables to track outcomes and observe frequencies. For example: roll a die 100 times and count how many times each number appears; flip a coin 50 times and track heads vs. tails; or spin a spinner repeatedly to see if outcomes match expected probabilities. Students initialize counters to 0, use a repeat loop, generate random outcomes, increment the appropriate counter, and display results. This connects loops to data collection and probability.
+Description: Students simulate a simple chance experiment (e.g., rolling a die, flipping a coin) repeatedly in code using a loop, and count outcomes to observe frequencies. This connects loops to data and probability.
 
 Dependencies:
-* T07.G4.03: Use a manual loop counter variable
+* T07.G4.05: Debug complex loop conditions and boundaries
 * T07.G4.06: Trace code that combines a loop and a condition
 
 
 ID: T07.G5.02
 Topic: T07 – Loops
 Skill: Build a list with a loop
-Description: Students write a loop that populates a list with a sequence of values or with repeated samples from user input. Common patterns include: (1) sequential numbers (loop from 1 to 10, add each to list), (2) user input collection (repeat N times, ask for name/score and add to list), or (3) calculated values (loop through numbers and add their squares to a list). Students practice initializing an empty list, using add-to-list blocks inside loops, and verifying the final list contents.
+Description: Students write a loop that populates a list with a sequence of values (e.g., the numbers 1 to 10) or with repeated samples from user input or sensors.
 
 Dependencies:
-* T07.G4.03: Use a manual loop counter variable
-* T10.G5.01: Create and populate a list with items
+* T07.G4.05: Debug complex loop conditions and boundaries
+* T07.G4.06: Trace code that combines a loop and a condition
 
 
 ID: T07.G5.03
@@ -4316,10 +4190,10 @@ Dependencies:
 ID: T07.G6.01
 Topic: T07 – Loops
 Skill: Trace nested loops with variable bounds
-Description: Students analyze code with nested loops where the inner loop bound depends on the outer loop counter (e.g., `for i from 1 to n` outer, `repeat (n - i)` inner). The key challenge is understanding that the inner loop executes a different number of times for each outer iteration, requiring calculation to predict total iterations. Unlike G4.07's constant bounds, students must reason about changing iteration counts and track how the loop variable affects inner bounds.
+Description: Students analyze code with nested loops where the loop bounds depend on variables or expressions (e.g., `repeat (rows)` or `repeat (n-1)`), predicting how many times the inner loop executes for different outer loop values. The key challenge is understanding that when the bound changes each iteration (e.g., `repeat (n - i)` where i is the outer counter), the total iterations require calculation. Unlike G4.07's constant bounds, students must reason about changing iteration counts.
 
 Dependencies:
-* T07.G4.03.01: Use for-loops with automatic counters
+* T07.G4.03: Use a loop counter variable and for loops
 * T07.G5.03: Use loops to compute aggregates
 * T07.G5.04: Nested loops for advanced patterns or tilings
 * T09.G4.01: Use variables to store and update game state
@@ -4328,10 +4202,10 @@ Dependencies:
 ID: T07.G6.02
 Topic: T07 – Loops
 Skill: Refactor complex repeated patterns into loops with variables
-Description: Students refactor longer scripts where the repeated segments have slight variations (e.g., "move 10, move 20, move 30" becomes a loop with a changing variable). Unlike G4.04's identical repetitions, this requires using a for-loop to handle the pattern. Students analyze the variation pattern and express it mathematically (e.g., recognizing that "10, 20, 30" follows the pattern `i * 10` where i goes from 1 to 3). This develops competition-level generalization skills.
+Description: Students refactor longer scripts where the repeated segments have slight variations (e.g., "move 10, move 20, move 30" becomes a loop with a changing variable). Unlike G4.04's identical repetitions, this requires using a loop counter variable or for loop to handle the pattern. Students analyze the variation pattern and express it mathematically. This develops competition-level generalization skills.
 
 Dependencies:
-* T07.G4.03.01: Use for-loops with automatic counters
+* T07.G4.03: Use a loop counter variable and for loops
 * T07.G4.04: Identify and convert simple repeated code into loops
 * T07.G5.04: Nested loops for advanced patterns or tilings
 
@@ -4339,12 +4213,12 @@ Dependencies:
 ID: T07.G6.03
 Topic: T07 – Loops
 Skill: Loop‑based search in a list
-Description: Students implement a simple linear search using a for-each loop to find the first item in a list that matches a target (e.g., find the first score above 90), and then respond (e.g., report the position or value). They use conditional logic inside the loop to check each item and a flag or result variable to track whether the target was found.
+Description: Students implement a simple linear search using a loop to find the first item in a list that matches a target (e.g., find the first score above 90), and then respond (e.g., report the position).
 
 Dependencies:
 * T07.G5.02: Build a list with a loop
-* T07.G6.09: Use for-each loops to iterate over lists
-* T08.G4.01: Use if-then-else in a project
+* T07.G5.03: Use loops to compute aggregates
+* T09.G4.01: Use variables to store and update game state
 
 
 ID: T07.G6.04
@@ -4354,13 +4228,15 @@ Description: Students identify scripts that never stop because of improper use o
 
 Dependencies:
 * T07.G4.05: Debug complex loop conditions and boundaries
-* T07.G6.08: Use break and continue to control loop flow
+* T07.G5.01: Simulate repeated experiments with a loop
+* T07.G5.04: Nested loops for advanced patterns or tilings
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T07.G6.05
 Topic: T07 – Loops
-Skill: Trace nested loops with abstract calculations using trace tables
-Description: Students use trace tables to systematically track variable values through nested loops that perform abstract calculations (e.g., computing sums, products, or counts). They create a table with columns for each variable (outer counter, inner counter, accumulator) and rows for each iteration, filling in values step-by-step. Focus is on loops where the output is numerical rather than spatial. Examples include: calculating factorial with nested loops, summing products of row/column indices, or counting items that meet complex conditions. This methodical approach is essential for debugging complex loop logic and succeeding in programming competitions.
+Skill: Trace nested loops using a trace table
+Description: Students use the trace table technique as a systematic method for tracking variable changes through nested loops. They create a table with columns for each variable and rows for each iteration, filling in values step-by-step. This methodical approach helps debug complex loop logic and is particularly useful for competition problems where mental tracing is error-prone. Unlike T07.G6.06 which applies trace tables to visual pattern problems, this skill focuses on using the trace table methodology itself. Students practice the systematic technique of creating a table with columns for each variable and rows for iterations, which is essential for debugging complex loops and succeeding in programming competitions.
 
 Dependencies:
 * T07.G5.03: Use loops to compute aggregates
@@ -4370,12 +4246,13 @@ Dependencies:
 
 ID: T07.G6.06
 Topic: T07 – Loops
-Skill: Trace nested loops that generate spatial patterns
-Description: Students trace nested loops that produce visual/spatial output where row and column counters control position (e.g., drawing a checkerboard, creating a grid of stamps, or generating triangle patterns). They predict the visual result by understanding how loop iteration numbers map to spatial coordinates (x, y positions). Unlike G6.05's focus on abstract calculations, this skill connects loop tracing to concrete spatial reasoning. Students may use trace tables but the emphasis is on visualizing the 2D output pattern, not just tracking numerical values.
+Skill: Trace nested loops that generate visual patterns
+Description: Students trace nested loops that produce visual output (e.g., drawing a checkerboard, creating a grid of stamps, or generating star patterns). They predict the visual result by understanding how row and column counters control position. This connects abstract loop tracing to concrete spatial reasoning. This skill applies the trace table technique learned in T07.G6.05 to visual output problems. The focus is on connecting loop iteration numbers to spatial positions and understanding how row/column counters create grid patterns.
 
 Dependencies:
-* T07.G6.05: Trace nested loops with abstract calculations using trace tables
+* T07.G5.03: Use loops to compute aggregates
 * T07.G5.04: Nested loops for advanced patterns or tilings
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T07.G6.07
@@ -4414,11 +4291,11 @@ Dependencies:
 ID: T07.G7.01
 Topic: T07 – Loops
 Skill: Use loops to simulate motion over time
-Description: Students implement a loop that repeatedly updates position (and optionally velocity) to simulate motion with physics-like rules. Examples include: (1) gravity simulation - each frame, change y by velocity, then change velocity by -0.5 to simulate falling; (2) friction/sliding - each frame, change x by speed, then multiply speed by 0.9 to slow down; (3) bouncing - update position, check for edge collision, reverse velocity if touching edge. Students use forever loops or repeat loops with iterative state updates to create realistic motion effects.
+Description: Students implement a loop that repeatedly updates position (and optionally velocity) to simulate motion, such as an object sliding or falling with a simple rule each step.
 
 Dependencies:
-* T07.G6.05: Trace nested loops with abstract calculations using trace tables
-* T07.G6.06: Trace nested loops that generate spatial patterns
+* T07.G6.05: Trace nested loops using a trace table
+* T07.G6.06: Trace nested loops that generate visual patterns
 * T07.G6.07: Use loops to update values iteratively
 
 
@@ -4469,8 +4346,8 @@ Dependencies:
 
 ID: T07.G8.02
 Topic: T07 – Loops
-Skill: Analyze iterative algorithms to identify components
-Description: Students analyze existing iterative algorithms (like GCD, primality testing, Fibonacci) to identify three key components: (1) initial state setup (variable initialization), (2) update rule that moves closer to the goal (how values change each iteration), and (3) stopping condition (when the loop exits). This analytical skill helps students understand algorithm structure and prepares them for algorithm design competitions and advanced CS courses. Students practice by examining code and labeling which parts serve each purpose.
+Skill: Design iterative algorithms with loops
+Description: Students learn to design iterative algorithms by identifying three components: (1) initial state setup, (2) update rule that moves closer to the goal, and (3) stopping condition. They practice recognizing this pattern in existing algorithms (like GCD, primality testing) and applying it to solve new problems. This abstraction skill prepares them for algorithm design competitions and advanced CS courses.
 
 Dependencies:
 * T01.G6.01: Count comparisons in linear and binary search
@@ -4483,34 +4360,31 @@ Dependencies:
 ID: T07.G8.02.01
 Topic: T07 – Loops
 Skill: Implement GCD using repeated subtraction in a loop
-Description: Students implement the Euclidean algorithm for finding the greatest common divisor by repeatedly subtracting the smaller number from the larger until they are equal. This introduces the concept of iterative reduction. They initialize two variables with input values, use a repeat-until loop that continues while the values differ, and update by subtracting the smaller from the larger each iteration.
+Description: Students implement the Euclidean algorithm for finding the greatest common divisor by repeatedly subtracting the smaller number from the larger until they are equal. This introduces the concept of iterative reduction.
 
 Dependencies:
-* T07.G8.02: Analyze iterative algorithms to identify components
+* T07.G8.02: Design iterative algorithms with loops
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T08.G6.01: Use conditionals to control simulation steps
 
 
 ID: T07.G8.02.02
 Topic: T07 – Loops
 Skill: Check if a number is prime using trial division
-Description: Students write a loop that tests whether a number is prime by checking divisibility from 2 up to the square root of the number. They initialize a flag variable to track whether any divisor was found, loop through potential divisors, and use a conditional to check remainder. Students learn to optimize by breaking early when a divisor is found.
+Description: Students write a loop that tests whether a number is prime by checking divisibility from 2 up to the square root of the number. They learn to use a flag variable to track whether any divisor was found.
 
 Dependencies:
-* T07.G8.02: Analyze iterative algorithms to identify components
+* T07.G8.02: Design iterative algorithms with loops
 * T08.G6.01: Use conditionals to control simulation steps
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T07.G8.02.03
 Topic: T07 – Loops
 Skill: Find Fibonacci numbers using iterative calculation
-Description: Students implement an iterative algorithm to generate Fibonacci numbers, maintaining two variables (previous and current) that are repeatedly updated in a loop. They initialize the first two values, use a counted loop for the desired position, and update both variables each iteration (current becomes previous, sum becomes new current). This demonstrates state management in iterative algorithms.
+Description: Students implement an iterative algorithm to generate Fibonacci numbers, maintaining two variables that are repeatedly updated in a loop. This demonstrates state management in iterative algorithms.
 
 Dependencies:
-* T07.G8.02: Analyze iterative algorithms to identify components
+* T07.G8.02: Design iterative algorithms with loops
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T08.G6.01: Use conditionals to control simulation steps
 
 
 ID: T07.G8.03
@@ -4623,60 +4497,14 @@ Dependencies:
 CSTA: E2-ALG-AF-01
 
 
-ID: T08.G3.00
-Topic: T08 – Conditions & Logic
-Skill: Identify if blocks in existing code
-Description: Students look at a short script with mixed control blocks (repeat, if, wait) and identify which blocks are if blocks. This recognition skill helps students distinguish conditional blocks from other control structures before learning to use them. Use visual examples with 3-4 different block types where students click or highlight the if blocks.
-
-Dependencies:
-* T07.G3.01: Use a counted repeat loop
-* T08.G2.03: Identify which rule applies in a situation
-
-CSTA: E3-ALG-AF-01
-
-
-ID: T08.G3.00b
-Topic: T08 – Conditions & Logic
-Skill: Complete a partially-built if statement
-Description: Students complete an if block by dragging the correct condition into an empty condition slot. The script has the if block structure already, but the condition is missing or needs to be chosen from 2-3 options (e.g., "if <___> then move 10 steps" - choose from "touching edge", "key pressed", "x position > 100"). This scaffolded activity bridges recognition and independent construction.
-
-Dependencies:
-* T08.G3.00: Identify if blocks in existing code
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
 ID: T08.G3.01
 Topic: T08 – Conditions & Logic
 Skill: Use a simple if in a script
 Description: Students add their first single `if <condition> then ...` block to a very simple script so that an action only happens when an obvious condition is true (e.g., "if touching the green flag, say 'Yay!'"). This gateway skill introduces the fundamental concept of conditional execution in block-based programming. Start with highly visual, binary conditions that are easy to test.
 
 Dependencies:
-* T08.G3.00b: Complete a partially-built if statement
 * T07.G3.01: Use a counted repeat loop
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
-ID: T08.G3.01a
-Topic: T08 – Conditions & Logic
-Skill: Use comparison operators in conditions
-Description: Students use basic comparison operators (<, >, =) inside if block conditions to compare numbers (e.g., "if score > 10 then say 'Good job!'", "if lives = 0 then game over"). This introduces relational operators and moves beyond simple boolean sensing blocks to numeric comparisons. Students practice choosing the correct operator for different scenarios.
-
-Dependencies:
-* T08.G3.01: Use a simple if in a script
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
-ID: T08.G3.01b
-Topic: T08 – Conditions & Logic
-Skill: Use advanced comparison operators (≤, ≥, ≠)
-Description: Students use extended comparison operators (≤, ≥, ≠) available in CreatiCode (operator_lte, operator_gte, operator_neq) to express more precise conditions (e.g., "if age ≥ 13 then allow access", "if lives ≠ 3 then show warning"). This extends comparison skills beyond basic <, >, = to the full set of relational operators, enabling more sophisticated conditional logic.
-
-Dependencies:
-* T08.G3.01a: Use comparison operators in conditions
+* T08.G2.03: Identify which rule applies in a situation
 
 CSTA: E3-ALG-AF-01, E3-PRO-PF-01
 
@@ -4687,7 +4515,7 @@ Skill: Decide when a single if is enough
 Description: Students identify simple scenarios where an action should happen only when one condition is true (e.g., "move when space key is pressed" or "say 'Good!' when touching star"). This builds conceptual understanding of when to use a simple if block through concrete, visual examples. Students practice recognizing single-condition situations in game and animation contexts.
 
 Dependencies:
-* T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
+* T08.G3.01: Use a simple if in a script
 
 CSTA: E3-ALG-AF-01
 
@@ -4735,32 +4563,8 @@ Description: Students fix a simple script where a single condition uses an obvio
 
 Dependencies:
 * T08.G3.04: Trace code with a single if/else
-* T08.G3.01a: Use comparison operators in conditions
-* T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
 
 CSTA: E3-ALG-AF-01, E3-PRO-PF-02
-
-
-ID: T08.G4.00
-Topic: T08 – Conditions & Logic
-Skill: Understand AND truth table
-Description: Students predict the output of AND operations with various inputs (true AND true, true AND false, false AND true, false AND false). This foundational skill teaches students to reason about logical conjunction before implementing it in code. Use interactive truth table activities where students fill in blanks or match scenarios to outcomes (e.g., "You can play outside if it's sunny AND you finished homework - when can you play?").
-
-Dependencies:
-* T08.G3.05: Fix a condition that uses the wrong comparison operator
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.00b
-Topic: T08 – Conditions & Logic
-Skill: Identify situations requiring AND
-Description: Students recognize real-world scenarios that require both conditions to be true before an action occurs (e.g., "You need a ticket AND to be tall enough to ride", "Save file if changes were made AND user clicks save button"). This develops pattern recognition for AND logic in everyday contexts before coding it. Present 4-5 scenarios and students identify which ones need AND vs single conditions.
-
-Dependencies:
-* T08.G4.00: Understand AND truth table
-
-CSTA: E4-ALG-AF-01
 
 
 ID: T08.G4.01
@@ -4769,33 +4573,10 @@ Skill: Combine two conditions with AND
 Description: Students use a compound condition (AND) to check if two things are true at the same time before acting (e.g., "if key pressed AND touching goal, then complete level"). This is their first time writing boolean logic operators in code, introducing logical conjunction.
 
 Dependencies:
-* T08.G4.00b: Identify situations requiring AND
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.05: Fix a condition that uses the wrong comparison operator
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
-
-
-ID: T08.G4.01a
-Topic: T08 – Conditions & Logic
-Skill: Understand OR truth table
-Description: Students predict the output of OR operations with various inputs (true OR true, true OR false, false OR true, false OR false). This teaches logical disjunction reasoning before implementation. Use truth table activities similar to AND but emphasizing "at least one" (e.g., "You get dessert if you ate vegetables OR you cleaned your room - when do you get dessert?").
-
-Dependencies:
-* T08.G4.01: Combine two conditions with AND
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.01b
-Topic: T08 – Conditions & Logic
-Skill: Distinguish AND vs OR scenarios
-Description: Students are given scenarios and choose whether they require AND (both conditions) or OR (at least one condition). For example, "To enter the club you need to be a member OR pay a fee" (OR) vs "To graduate you need to pass all classes AND complete the project" (AND). This develops critical thinking about boolean logic operator selection. Present 5-6 mixed scenarios.
-
-Dependencies:
-* T08.G4.01a: Understand OR truth table
-* T08.G4.00b: Identify situations requiring AND
-
-CSTA: E4-ALG-AF-01
 
 
 ID: T08.G4.02
@@ -4804,8 +4585,8 @@ Skill: Combine two conditions with OR
 Description: Students use OR to check if at least one of two conditions is true (e.g., "if score > 100 OR lives == 0, then end game"). This introduces logical disjunction and helps students understand when to use OR vs AND in compound conditions.
 
 Dependencies:
-* T08.G4.01b: Distinguish AND vs OR scenarios
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G4.01: Combine two conditions with AND
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
@@ -4823,36 +4604,14 @@ Dependencies:
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
 
-ID: T08.G4.03a
-Topic: T08 – Conditions & Logic
-Skill: Read nested if/else code
-Description: Students trace and understand code with nested if/else structures by following the execution path through multiple levels of conditions. Given a simple 2-level nested structure, students answer "what happens if X is true and Y is false?" This reading comprehension skill prepares students to write their own nested conditionals by first understanding how they work.
-
-Dependencies:
-* T08.G4.03: Trace code with compound conditionals
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.03b
-Topic: T08 – Conditions & Logic
-Skill: Identify nesting levels
-Description: Students analyze conditional code and count the depth of nested if/else structures (e.g., "this code has 2 levels of nesting"). They identify which blocks are inside which other blocks, developing spatial and structural understanding of code hierarchy. This prepares students to intentionally create nested structures by recognizing nesting patterns.
-
-Dependencies:
-* T08.G4.03a: Read nested if/else code
-
-CSTA: E4-ALG-AF-01
-
-
 ID: T08.G4.04
 Topic: T08 – Conditions & Logic
 Skill: Nest if/else statements
 Description: Students write nested if/else blocks where an else branch contains another if (e.g., checking weather type, then checking temperature). This models multi-step decision-making and introduces hierarchical conditional structures.
 
 Dependencies:
-* T08.G4.03b: Identify nesting levels
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G4.01: Combine two conditions with AND
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
@@ -4865,28 +4624,6 @@ Description: Students use else-if (chained conditionals) when there are more tha
 Dependencies:
 * T08.G4.03: Trace code with compound conditionals
 * T08.G4.04: Nest if/else statements
-
-CSTA: E4-ALG-AF-01, E4-PRO-PF-01
-
-
-ID: T08.G4.05a
-Topic: T08 – Conditions & Logic
-Skill: Understand NOT truth table
-Description: Students predict the output of NOT operations (NOT true = false, NOT false = true). This foundational skill teaches logical negation reasoning before implementation. Use truth table activities where students fill in "opposite" values and real-world examples (e.g., "if NOT raining, then go outside" - when do you go outside?). Understanding negation is essential for compound logic.
-
-Dependencies:
-* T08.G4.05: Use else-if for multiple exclusive conditions
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.05b
-Topic: T08 – Conditions & Logic
-Skill: Use NOT to invert conditions
-Description: Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly. This introduces logical negation in code and develops code clarity judgment. Students compare "if NOT condition" vs "if opposite condition" patterns.
-
-Dependencies:
-* T08.G4.05a: Understand NOT truth table
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
@@ -4920,13 +4657,12 @@ CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 ID: T08.G4.08
 Topic: T08 – Conditions & Logic
 Skill: Analyze and fix a compound logic bug
-Description: Students debug a script where compound conditions (using AND/OR/NOT) are incorrect or inverted (e.g., using AND when OR was needed, or a missing NOT), causing unexpected behavior. This is more advanced than T08.G3.05 because it involves compound conditions, not just simple comparison operators, developing systematic debugging skills.
+Description: Students debug a script where compound conditions (using AND/OR) are incorrect or inverted (e.g., using AND when OR was needed, or a missing NOT), causing unexpected behavior. This is more advanced than T08.G3.05 because it involves compound conditions, not just simple comparison operators, developing systematic debugging skills.
 
 Dependencies:
 * T08.G4.01: Combine two conditions with AND
 * T08.G4.02: Combine two conditions with OR
 * T08.G4.03: Trace code with compound conditionals
-* T08.G4.05b: Use NOT to invert conditions
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-02
 
@@ -4942,27 +4678,28 @@ Dependencies:
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
 
-ID: T08.G5.00
-Topic: T08 – Conditions & Logic
-Skill: Draw decision tree flowchart
-Description: Students plan multi-branch logic visually by drawing decision tree flowcharts before coding. They map out all possible paths through a decision (e.g., grading system, game state transitions) using diamonds for conditions and rectangles for actions. This design-first approach helps students think through all cases systematically before implementation, reducing bugs and improving code structure.
-
-Dependencies:
-* T08.G4.05: Use else-if for multiple exclusive conditions
-* T08.G4.09: Trace code with a sequence of if/else blocks
-* T02.G2.01: Follow branching paths based on yes/no questions
-
-CSTA: E5-ALG-AF-01
-
-
 ID: T08.G5.01
 Topic: T08 – Conditions & Logic
 Skill: Design multi-branch decision logic
 Description: Students design multi-branch logic (e.g., grading scales, game difficulty tiers) using nested or chained if/else statements. This skill emphasizes planning and designing conditional structures before implementation, developing algorithmic thinking.
 
 Dependencies:
-* T08.G5.00: Draw decision tree flowchart
+* T08.G4.05: Use else-if for multiple exclusive conditions
 * T08.G4.06: Convert nested if to cleaner logic
+* T08.G4.09: Trace code with a sequence of if/else blocks
+
+CSTA: E5-ALG-AF-01, E5-PRO-PF-01
+
+
+ID: T08.G5.02
+Topic: T08 – Conditions & Logic
+Skill: Use NOT to invert conditions
+Description: Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly. This introduces logical negation and develops code clarity judgment.
+
+Dependencies:
+* T08.G4.01: Combine two conditions with AND
+* T08.G4.02: Combine two conditions with OR
+* T08.G4.03: Trace code with compound conditionals
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
@@ -4970,10 +4707,10 @@ CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 ID: T08.G5.03
 Topic: T08 – Conditions & Logic
 Skill: Combine three or more conditions
-Description: Students write compound conditions that combine three or more tests using AND/OR/NOT, such as "if score > 100 AND lives > 0 AND has_key then ..." This extends compound logic skills to more complex scenarios requiring multiple simultaneous checks.
+Description: Students write compound conditions that combine three or more tests using AND/OR, such as "if score > 100 AND lives > 0 AND has_key then ..." This extends compound logic skills to more complex scenarios requiring multiple simultaneous checks.
 
 Dependencies:
-* T08.G4.05b: Use NOT to invert conditions
+* T08.G5.02: Use NOT to invert conditions
 * T08.G4.08: Analyze and fix a compound logic bug
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
@@ -5015,64 +4752,16 @@ Dependencies:
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
 
-ID: T08.G6.01a
-Topic: T08 – Conditions & Logic
-Skill: Use conditionals in physics simulations
-Description: Students use conditionals to control physics simulation behavior, such as collision detection ("if sprite touching wall then reverse direction"), boundary checking ("if y < 0 then set y to 0"), and force application ("if moving then apply friction"). This applies conditional logic to physics-based models and games, connecting programming to science concepts.
-
-Dependencies:
-* T08.G5.03: Combine three or more conditions
-* T08.G5.04: Trace complex decision logic
-
-CSTA: E6-ALG-AF-01, E6-PRO-PF-01
-
-
-ID: T08.G6.01b
-Topic: T08 – Conditions & Logic
-Skill: Use conditionals in population models
-Description: Students use conditionals to control population dynamics based on conditions (e.g., "if population > carrying capacity then increase death rate", "if food < threshold then reduce birth rate"). This applies conditional logic to biological and ecological modeling, teaching how conditions affect system behavior over time.
-
-Dependencies:
-* T08.G5.03: Combine three or more conditions
-* T08.G5.04: Trace complex decision logic
-
-CSTA: E6-ALG-AF-01, E6-PRO-PF-01
-
-
 ID: T08.G6.01
 Topic: T08 – Conditions & Logic
 Skill: Use conditionals to control simulation steps
 Description: Students write conditionals that control when a simulation stops, when events trigger, or when entities change behavior (e.g., "if population exceeds limit, reduce births"). This applies conditional logic to scientific and mathematical modeling contexts.
 
 Dependencies:
-* T08.G6.01a: Use conditionals in physics simulations
-* T08.G6.01b: Use conditionals in population models
-
-CSTA: E6-ALG-AF-01, E6-PRO-PF-01
-
-
-ID: T08.G6.02a
-Topic: T08 – Conditions & Logic
-Skill: Identify states in a system
-Description: Students analyze a system or game mechanic and list all possible states an entity can be in (e.g., player states: idle, walking, jumping, falling; enemy states: patrol, chase, attack, retreat). This conceptual skill teaches students to think about discrete states before implementing state machines, developing system analysis abilities.
-
-Dependencies:
 * T08.G5.03: Combine three or more conditions
 * T08.G5.04: Trace complex decision logic
-* T08.G4.07: Use if to control state changes
 
-CSTA: E6-ALG-AF-01
-
-
-ID: T08.G6.02b
-Topic: T08 – Conditions & Logic
-Skill: Draw state transition diagram
-Description: Students create state transition diagrams showing which states connect to which others and what conditions trigger transitions (e.g., idle → walking when "move key pressed", walking → jumping when "space pressed AND on ground"). This visual planning skill helps students design state machines systematically before coding them.
-
-Dependencies:
-* T08.G6.02a: Identify states in a system
-
-CSTA: E6-ALG-AF-01
+CSTA: E6-ALG-AF-01, E6-PRO-PF-01
 
 
 ID: T08.G6.02
@@ -5081,8 +4770,9 @@ Skill: Implement simple state machines using conditionals
 Description: Students use variables and conditionals to implement simple state machines (e.g., idle → walking → jumping based on inputs and timers). This introduces formal state machine concepts and teaches managing complex state transitions in programs.
 
 Dependencies:
-* T08.G6.02a: Identify states in a system
-* T08.G6.02b: Draw state transition diagram
+* T08.G5.03: Combine three or more conditions
+* T08.G5.04: Trace complex decision logic
+* T08.G4.07: Use if to control state changes
 
 CSTA: E6-ALG-AF-01, E6-PRO-PF-01
 
@@ -5107,6 +4797,7 @@ Description: Students analyze conditional rules (e.g., eligibility rules in a ga
 
 Dependencies:
 * T08.G5.01: Design multi-branch decision logic
+* T08.G5.02: Use NOT to invert conditions
 * T08.G6.02: Implement simple state machines using conditionals
 * T08.G6.03: Debug multi-condition logic
 

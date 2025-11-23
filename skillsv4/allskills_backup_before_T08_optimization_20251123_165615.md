@@ -4623,60 +4623,14 @@ Dependencies:
 CSTA: E2-ALG-AF-01
 
 
-ID: T08.G3.00
-Topic: T08 – Conditions & Logic
-Skill: Identify if blocks in existing code
-Description: Students look at a short script with mixed control blocks (repeat, if, wait) and identify which blocks are if blocks. This recognition skill helps students distinguish conditional blocks from other control structures before learning to use them. Use visual examples with 3-4 different block types where students click or highlight the if blocks.
-
-Dependencies:
-* T07.G3.01: Use a counted repeat loop
-* T08.G2.03: Identify which rule applies in a situation
-
-CSTA: E3-ALG-AF-01
-
-
-ID: T08.G3.00b
-Topic: T08 – Conditions & Logic
-Skill: Complete a partially-built if statement
-Description: Students complete an if block by dragging the correct condition into an empty condition slot. The script has the if block structure already, but the condition is missing or needs to be chosen from 2-3 options (e.g., "if <___> then move 10 steps" - choose from "touching edge", "key pressed", "x position > 100"). This scaffolded activity bridges recognition and independent construction.
-
-Dependencies:
-* T08.G3.00: Identify if blocks in existing code
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
 ID: T08.G3.01
 Topic: T08 – Conditions & Logic
 Skill: Use a simple if in a script
 Description: Students add their first single `if <condition> then ...` block to a very simple script so that an action only happens when an obvious condition is true (e.g., "if touching the green flag, say 'Yay!'"). This gateway skill introduces the fundamental concept of conditional execution in block-based programming. Start with highly visual, binary conditions that are easy to test.
 
 Dependencies:
-* T08.G3.00b: Complete a partially-built if statement
 * T07.G3.01: Use a counted repeat loop
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
-ID: T08.G3.01a
-Topic: T08 – Conditions & Logic
-Skill: Use comparison operators in conditions
-Description: Students use basic comparison operators (<, >, =) inside if block conditions to compare numbers (e.g., "if score > 10 then say 'Good job!'", "if lives = 0 then game over"). This introduces relational operators and moves beyond simple boolean sensing blocks to numeric comparisons. Students practice choosing the correct operator for different scenarios.
-
-Dependencies:
-* T08.G3.01: Use a simple if in a script
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
-ID: T08.G3.01b
-Topic: T08 – Conditions & Logic
-Skill: Use advanced comparison operators (≤, ≥, ≠)
-Description: Students use extended comparison operators (≤, ≥, ≠) available in CreatiCode (operator_lte, operator_gte, operator_neq) to express more precise conditions (e.g., "if age ≥ 13 then allow access", "if lives ≠ 3 then show warning"). This extends comparison skills beyond basic <, >, = to the full set of relational operators, enabling more sophisticated conditional logic.
-
-Dependencies:
-* T08.G3.01a: Use comparison operators in conditions
+* T08.G2.03: Identify which rule applies in a situation
 
 CSTA: E3-ALG-AF-01, E3-PRO-PF-01
 
@@ -4687,7 +4641,7 @@ Skill: Decide when a single if is enough
 Description: Students identify simple scenarios where an action should happen only when one condition is true (e.g., "move when space key is pressed" or "say 'Good!' when touching star"). This builds conceptual understanding of when to use a simple if block through concrete, visual examples. Students practice recognizing single-condition situations in game and animation contexts.
 
 Dependencies:
-* T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
+* T08.G3.01: Use a simple if in a script
 
 CSTA: E3-ALG-AF-01
 
@@ -4735,32 +4689,8 @@ Description: Students fix a simple script where a single condition uses an obvio
 
 Dependencies:
 * T08.G3.04: Trace code with a single if/else
-* T08.G3.01a: Use comparison operators in conditions
-* T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
 
 CSTA: E3-ALG-AF-01, E3-PRO-PF-02
-
-
-ID: T08.G4.00
-Topic: T08 – Conditions & Logic
-Skill: Understand AND truth table
-Description: Students predict the output of AND operations with various inputs (true AND true, true AND false, false AND true, false AND false). This foundational skill teaches students to reason about logical conjunction before implementing it in code. Use interactive truth table activities where students fill in blanks or match scenarios to outcomes (e.g., "You can play outside if it's sunny AND you finished homework - when can you play?").
-
-Dependencies:
-* T08.G3.05: Fix a condition that uses the wrong comparison operator
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.00b
-Topic: T08 – Conditions & Logic
-Skill: Identify situations requiring AND
-Description: Students recognize real-world scenarios that require both conditions to be true before an action occurs (e.g., "You need a ticket AND to be tall enough to ride", "Save file if changes were made AND user clicks save button"). This develops pattern recognition for AND logic in everyday contexts before coding it. Present 4-5 scenarios and students identify which ones need AND vs single conditions.
-
-Dependencies:
-* T08.G4.00: Understand AND truth table
-
-CSTA: E4-ALG-AF-01
 
 
 ID: T08.G4.01
@@ -4769,33 +4699,10 @@ Skill: Combine two conditions with AND
 Description: Students use a compound condition (AND) to check if two things are true at the same time before acting (e.g., "if key pressed AND touching goal, then complete level"). This is their first time writing boolean logic operators in code, introducing logical conjunction.
 
 Dependencies:
-* T08.G4.00b: Identify situations requiring AND
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.05: Fix a condition that uses the wrong comparison operator
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
-
-
-ID: T08.G4.01a
-Topic: T08 – Conditions & Logic
-Skill: Understand OR truth table
-Description: Students predict the output of OR operations with various inputs (true OR true, true OR false, false OR true, false OR false). This teaches logical disjunction reasoning before implementation. Use truth table activities similar to AND but emphasizing "at least one" (e.g., "You get dessert if you ate vegetables OR you cleaned your room - when do you get dessert?").
-
-Dependencies:
-* T08.G4.01: Combine two conditions with AND
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.01b
-Topic: T08 – Conditions & Logic
-Skill: Distinguish AND vs OR scenarios
-Description: Students are given scenarios and choose whether they require AND (both conditions) or OR (at least one condition). For example, "To enter the club you need to be a member OR pay a fee" (OR) vs "To graduate you need to pass all classes AND complete the project" (AND). This develops critical thinking about boolean logic operator selection. Present 5-6 mixed scenarios.
-
-Dependencies:
-* T08.G4.01a: Understand OR truth table
-* T08.G4.00b: Identify situations requiring AND
-
-CSTA: E4-ALG-AF-01
 
 
 ID: T08.G4.02
@@ -4804,8 +4711,8 @@ Skill: Combine two conditions with OR
 Description: Students use OR to check if at least one of two conditions is true (e.g., "if score > 100 OR lives == 0, then end game"). This introduces logical disjunction and helps students understand when to use OR vs AND in compound conditions.
 
 Dependencies:
-* T08.G4.01b: Distinguish AND vs OR scenarios
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G4.01: Combine two conditions with AND
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
@@ -4823,36 +4730,14 @@ Dependencies:
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
 
-ID: T08.G4.03a
-Topic: T08 – Conditions & Logic
-Skill: Read nested if/else code
-Description: Students trace and understand code with nested if/else structures by following the execution path through multiple levels of conditions. Given a simple 2-level nested structure, students answer "what happens if X is true and Y is false?" This reading comprehension skill prepares students to write their own nested conditionals by first understanding how they work.
-
-Dependencies:
-* T08.G4.03: Trace code with compound conditionals
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.03b
-Topic: T08 – Conditions & Logic
-Skill: Identify nesting levels
-Description: Students analyze conditional code and count the depth of nested if/else structures (e.g., "this code has 2 levels of nesting"). They identify which blocks are inside which other blocks, developing spatial and structural understanding of code hierarchy. This prepares students to intentionally create nested structures by recognizing nesting patterns.
-
-Dependencies:
-* T08.G4.03a: Read nested if/else code
-
-CSTA: E4-ALG-AF-01
-
-
 ID: T08.G4.04
 Topic: T08 – Conditions & Logic
 Skill: Nest if/else statements
 Description: Students write nested if/else blocks where an else branch contains another if (e.g., checking weather type, then checking temperature). This models multi-step decision-making and introduces hierarchical conditional structures.
 
 Dependencies:
-* T08.G4.03b: Identify nesting levels
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G4.01: Combine two conditions with AND
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
@@ -4865,28 +4750,6 @@ Description: Students use else-if (chained conditionals) when there are more tha
 Dependencies:
 * T08.G4.03: Trace code with compound conditionals
 * T08.G4.04: Nest if/else statements
-
-CSTA: E4-ALG-AF-01, E4-PRO-PF-01
-
-
-ID: T08.G4.05a
-Topic: T08 – Conditions & Logic
-Skill: Understand NOT truth table
-Description: Students predict the output of NOT operations (NOT true = false, NOT false = true). This foundational skill teaches logical negation reasoning before implementation. Use truth table activities where students fill in "opposite" values and real-world examples (e.g., "if NOT raining, then go outside" - when do you go outside?). Understanding negation is essential for compound logic.
-
-Dependencies:
-* T08.G4.05: Use else-if for multiple exclusive conditions
-
-CSTA: E4-ALG-AF-01
-
-
-ID: T08.G4.05b
-Topic: T08 – Conditions & Logic
-Skill: Use NOT to invert conditions
-Description: Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly. This introduces logical negation in code and develops code clarity judgment. Students compare "if NOT condition" vs "if opposite condition" patterns.
-
-Dependencies:
-* T08.G4.05a: Understand NOT truth table
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
@@ -4920,13 +4783,12 @@ CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 ID: T08.G4.08
 Topic: T08 – Conditions & Logic
 Skill: Analyze and fix a compound logic bug
-Description: Students debug a script where compound conditions (using AND/OR/NOT) are incorrect or inverted (e.g., using AND when OR was needed, or a missing NOT), causing unexpected behavior. This is more advanced than T08.G3.05 because it involves compound conditions, not just simple comparison operators, developing systematic debugging skills.
+Description: Students debug a script where compound conditions (using AND/OR) are incorrect or inverted (e.g., using AND when OR was needed, or a missing NOT), causing unexpected behavior. This is more advanced than T08.G3.05 because it involves compound conditions, not just simple comparison operators, developing systematic debugging skills.
 
 Dependencies:
 * T08.G4.01: Combine two conditions with AND
 * T08.G4.02: Combine two conditions with OR
 * T08.G4.03: Trace code with compound conditionals
-* T08.G4.05b: Use NOT to invert conditions
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-02
 
@@ -4942,27 +4804,28 @@ Dependencies:
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
 
-ID: T08.G5.00
-Topic: T08 – Conditions & Logic
-Skill: Draw decision tree flowchart
-Description: Students plan multi-branch logic visually by drawing decision tree flowcharts before coding. They map out all possible paths through a decision (e.g., grading system, game state transitions) using diamonds for conditions and rectangles for actions. This design-first approach helps students think through all cases systematically before implementation, reducing bugs and improving code structure.
-
-Dependencies:
-* T08.G4.05: Use else-if for multiple exclusive conditions
-* T08.G4.09: Trace code with a sequence of if/else blocks
-* T02.G2.01: Follow branching paths based on yes/no questions
-
-CSTA: E5-ALG-AF-01
-
-
 ID: T08.G5.01
 Topic: T08 – Conditions & Logic
 Skill: Design multi-branch decision logic
 Description: Students design multi-branch logic (e.g., grading scales, game difficulty tiers) using nested or chained if/else statements. This skill emphasizes planning and designing conditional structures before implementation, developing algorithmic thinking.
 
 Dependencies:
-* T08.G5.00: Draw decision tree flowchart
+* T08.G4.05: Use else-if for multiple exclusive conditions
 * T08.G4.06: Convert nested if to cleaner logic
+* T08.G4.09: Trace code with a sequence of if/else blocks
+
+CSTA: E5-ALG-AF-01, E5-PRO-PF-01
+
+
+ID: T08.G5.02
+Topic: T08 – Conditions & Logic
+Skill: Use NOT to invert conditions
+Description: Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly. This introduces logical negation and develops code clarity judgment.
+
+Dependencies:
+* T08.G4.01: Combine two conditions with AND
+* T08.G4.02: Combine two conditions with OR
+* T08.G4.03: Trace code with compound conditionals
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
@@ -4970,10 +4833,10 @@ CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 ID: T08.G5.03
 Topic: T08 – Conditions & Logic
 Skill: Combine three or more conditions
-Description: Students write compound conditions that combine three or more tests using AND/OR/NOT, such as "if score > 100 AND lives > 0 AND has_key then ..." This extends compound logic skills to more complex scenarios requiring multiple simultaneous checks.
+Description: Students write compound conditions that combine three or more tests using AND/OR, such as "if score > 100 AND lives > 0 AND has_key then ..." This extends compound logic skills to more complex scenarios requiring multiple simultaneous checks.
 
 Dependencies:
-* T08.G4.05b: Use NOT to invert conditions
+* T08.G5.02: Use NOT to invert conditions
 * T08.G4.08: Analyze and fix a compound logic bug
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
@@ -5015,64 +4878,16 @@ Dependencies:
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
 
-ID: T08.G6.01a
-Topic: T08 – Conditions & Logic
-Skill: Use conditionals in physics simulations
-Description: Students use conditionals to control physics simulation behavior, such as collision detection ("if sprite touching wall then reverse direction"), boundary checking ("if y < 0 then set y to 0"), and force application ("if moving then apply friction"). This applies conditional logic to physics-based models and games, connecting programming to science concepts.
-
-Dependencies:
-* T08.G5.03: Combine three or more conditions
-* T08.G5.04: Trace complex decision logic
-
-CSTA: E6-ALG-AF-01, E6-PRO-PF-01
-
-
-ID: T08.G6.01b
-Topic: T08 – Conditions & Logic
-Skill: Use conditionals in population models
-Description: Students use conditionals to control population dynamics based on conditions (e.g., "if population > carrying capacity then increase death rate", "if food < threshold then reduce birth rate"). This applies conditional logic to biological and ecological modeling, teaching how conditions affect system behavior over time.
-
-Dependencies:
-* T08.G5.03: Combine three or more conditions
-* T08.G5.04: Trace complex decision logic
-
-CSTA: E6-ALG-AF-01, E6-PRO-PF-01
-
-
 ID: T08.G6.01
 Topic: T08 – Conditions & Logic
 Skill: Use conditionals to control simulation steps
 Description: Students write conditionals that control when a simulation stops, when events trigger, or when entities change behavior (e.g., "if population exceeds limit, reduce births"). This applies conditional logic to scientific and mathematical modeling contexts.
 
 Dependencies:
-* T08.G6.01a: Use conditionals in physics simulations
-* T08.G6.01b: Use conditionals in population models
-
-CSTA: E6-ALG-AF-01, E6-PRO-PF-01
-
-
-ID: T08.G6.02a
-Topic: T08 – Conditions & Logic
-Skill: Identify states in a system
-Description: Students analyze a system or game mechanic and list all possible states an entity can be in (e.g., player states: idle, walking, jumping, falling; enemy states: patrol, chase, attack, retreat). This conceptual skill teaches students to think about discrete states before implementing state machines, developing system analysis abilities.
-
-Dependencies:
 * T08.G5.03: Combine three or more conditions
 * T08.G5.04: Trace complex decision logic
-* T08.G4.07: Use if to control state changes
 
-CSTA: E6-ALG-AF-01
-
-
-ID: T08.G6.02b
-Topic: T08 – Conditions & Logic
-Skill: Draw state transition diagram
-Description: Students create state transition diagrams showing which states connect to which others and what conditions trigger transitions (e.g., idle → walking when "move key pressed", walking → jumping when "space pressed AND on ground"). This visual planning skill helps students design state machines systematically before coding them.
-
-Dependencies:
-* T08.G6.02a: Identify states in a system
-
-CSTA: E6-ALG-AF-01
+CSTA: E6-ALG-AF-01, E6-PRO-PF-01
 
 
 ID: T08.G6.02
@@ -5081,8 +4896,9 @@ Skill: Implement simple state machines using conditionals
 Description: Students use variables and conditionals to implement simple state machines (e.g., idle → walking → jumping based on inputs and timers). This introduces formal state machine concepts and teaches managing complex state transitions in programs.
 
 Dependencies:
-* T08.G6.02a: Identify states in a system
-* T08.G6.02b: Draw state transition diagram
+* T08.G5.03: Combine three or more conditions
+* T08.G5.04: Trace complex decision logic
+* T08.G4.07: Use if to control state changes
 
 CSTA: E6-ALG-AF-01, E6-PRO-PF-01
 
@@ -5107,6 +4923,7 @@ Description: Students analyze conditional rules (e.g., eligibility rules in a ga
 
 Dependencies:
 * T08.G5.01: Design multi-branch decision logic
+* T08.G5.02: Use NOT to invert conditions
 * T08.G6.02: Implement simple state machines using conditionals
 * T08.G6.03: Debug multi-condition logic
 
