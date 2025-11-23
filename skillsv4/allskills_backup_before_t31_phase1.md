@@ -18455,17 +18455,6 @@ Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
 
 
-ID: T31.G5.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: List available multiplayer games
-Description: Students use CreatiCode's multiplayer blocks to list all available games on the server, displaying game names and player counts to help users discover and join active game sessions.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-* T31.G5.04: Create and join a multiplayer game session
-
-
 ID: T31.G5.05
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Check multiplayer connection status
@@ -18484,26 +18473,31 @@ Description: Students identify the sequence: client sends request, server proces
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T01.G3.02: Match a story description to a code sequence
 * T31.G5.01: Trace how a device reaches an online service
 
 
 ID: T31.G6.02
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Read data from a Google Sheet cell
-Description: Students use CreatiCode's Google Sheets integration to read data from a specific cell or range of cells in a shared spreadsheet and display it in their project. This introduces cloud-based data sharing.
+Description: Students use CreatiCode's Google Sheets integration to read data from a specific cell in a shared spreadsheet and display it in their project. This introduces cloud-based data sharing.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G5.03: Fetch and display a web page as markdown
 
 
 ID: T31.G6.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Write data to a Google Sheet cell
-Description: Students use CreatiCode's Google Sheets blocks to write player names and scores to specific cells or ranges in a shared spreadsheet, creating a persistent leaderboard that updates in real-time.
+Description: Students use CreatiCode's Google Sheets blocks to write player names and scores to specific cells in a shared spreadsheet, creating a persistent leaderboard that updates in real-time.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G6.02: Read data from a Google Sheet cell
 
 
@@ -18525,16 +18519,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.03: Write data to a Google Sheet cell
-
-
-ID: T31.G6.03.03
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Manage Google Sheets structure programmatically
-Description: Students use CreatiCode's blocks to insert and remove rows and columns in Google Sheets programmatically, and clear entire sheets. They apply these operations to dynamically restructure data as their application needs change.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.03.02: List and manage multiple Google Sheets
 
 
 ID: T31.G6.04
@@ -18562,22 +18546,12 @@ Dependencies:
 ID: T31.G6.06
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Add sprites to multiplayer game world
-Description: Students use CreatiCode's multiplayer blocks to add their sprite to the shared game world as a dynamic or static object with rectangle or circle colliders. They understand how sprites are synchronized across players. They also learn how to remove sprites from the game world when needed.
+Description: Students use CreatiCode's multiplayer blocks to add their sprite to the shared game world as a dynamic or static object with rectangle or circle colliders. They understand how sprites are synchronized across players.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G5.04: Create and join a multiplayer game session
 * T31.G5.05: Check multiplayer connection status
-
-
-ID: T31.G6.06.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Manage players and game state in multiplayer sessions
-Description: Students use CreatiCode's multiplayer blocks to list all players currently in a game session, remove sprites from the game world, and reset the entire game state. They understand how to manage the lifecycle of multiplayer game objects.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.06: Add sprites to multiplayer game world
 
 
 ID: T31.G7.01
@@ -18587,6 +18561,7 @@ Description: Students diagram how a central server receives updates from each cl
 CSTA: MS-SAS-NW-05
 
 Dependencies:
+* T02.G3.01: Identify start, action, and end symbols in flowcharts
 * T31.G5.01: Trace how a device reaches an online service
 * T31.G6.06: Add sprites to multiplayer game world
 
@@ -18623,8 +18598,8 @@ Dependencies:
 
 ID: T31.G7.02.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Insert data into a database collection using tables
-Description: Students use CreatiCode's Database blocks to prepare data in a table structure, then insert rows from the table into a cloud-based collection. They learn that direct insertion requires organizing data in table format first, storing persistent data like player progress, game settings, or user-generated content.
+Skill: Insert data into a database collection
+Description: Students use CreatiCode's Database blocks to insert documents into a cloud-based collection, storing persistent data like player progress, game settings, or user-generated content.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -18635,21 +18610,11 @@ Dependencies:
 ID: T31.G7.02.04
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Fetch data from a database collection
-Description: Students use CreatiCode's Database blocks to fetch documents from a collection with query conditions using operators like equals, greater than, less than, and contains, retrieve specific data, and display it in their projects.
+Description: Students use CreatiCode's Database blocks to fetch documents from a collection with query conditions (where clauses), retrieve specific data, and display it in their projects.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
-* T31.G7.02.03: Insert data into a database collection using tables
-
-
-ID: T31.G7.02.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Use advanced database queries with operators
-Description: Students use CreatiCode's Database query operators (equals, not equals, greater than, less than, contains) to build precise where clauses for fetching specific subsets of data from collections.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G7.02.04: Fetch data from a database collection
+* T31.G7.02.03: Insert data into a database collection
 
 
 ID: T31.G7.02.05
@@ -18739,17 +18704,6 @@ CSTA: MS-SAS-SC-09
 Dependencies:
 * T31.G7.05: Analyze societal impacts of networked systems
 * T31.G8.03: Design secure AI-powered cloud systems
-
-
-ID: T31.G8.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Integrate Google Drive folder access
-Description: Students use CreatiCode's Google Drive blocks to list files and folders from Google Drive, integrating cloud storage into their applications for accessing shared resources and user files.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.02: Read data from a Google Sheet cell
-* T31.G8.04: Implement privacy protection for AI data
 
 
 ID: T31.G8.05

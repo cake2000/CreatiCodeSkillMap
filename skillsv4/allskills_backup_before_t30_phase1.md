@@ -17951,17 +17951,7 @@ Skill: Compare CreatiCode cloud save vs local export options
 Description: Students analyze pros/cons of saving projects to CreatiCode cloud (always accessible online, auto-saved) vs exporting to device storage (offline backup, can be shared as files), referencing accessibility, backup safety, and sharing methods.
 
 Dependencies:
-* T30.G2.01: Explain core internal components
-
-
-ID: T30.G3.04
-Topic: T30 – Devices & Hardware Systems
-Skill: Explain how sensors provide input to computer programs
-Description: Students connect the conceptual understanding of sensors (camera, microphone) from Grade 2 to how programs use sensor data, explaining how a camera provides image data that programs can analyze and how a microphone provides audio data that programs can process.
-
-Dependencies:
-* T30.G2.05: Identify common device sensors and their inputs
-* T30.G2.02: Trace input → process → output
+* T30.G3.02: Describe peripheral ports and accessories
 
 
 ID: T30.G3.05
@@ -18009,17 +17999,8 @@ Skill: Differentiate latency vs bandwidth
 Description: Students describe latency and bandwidth using everyday metaphors and relate them to online games or video calls.
 
 Dependencies:
+* T30.G3.02: Describe peripheral ports and accessories
 * T30.G2.03: Compare wired vs wireless connections
-
-
-ID: T30.G4.03.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Compare 2D camera widgets vs 3D webcam backgrounds in CreatiCode
-Description: Students identify the difference between 2D camera preview widgets (displaying camera feed in a window on the stage) and 3D webcam backgrounds (using live camera as the background for 3D scenes), understanding when to use each approach for different project types.
-
-Dependencies:
-* T30.G4.03: Differentiate latency vs bandwidth
-* T30.G3.05: Access device camera in CreatiCode projects
 
 
 ID: T30.G4.04
@@ -18094,7 +18075,7 @@ Dependencies:
 ID: T30.G5.05
 Topic: T30 – Devices & Hardware Systems
 Skill: Configure 3D cameras for CreatiCode game scenes
-Description: Students add and configure orbit and follow cameras in 3D CreatiCode projects, controlling camera distance, angles, target position, and input methods (keyboard and mouse controls).
+Description: Students add and configure orbit, follow, and free cameras in 3D CreatiCode projects, controlling camera distance, angles, target position, and input methods (keyboard, mouse, or joystick).
 
 Dependencies:
 * T30.G4.05: Respond to keyboard and mouse events in CreatiCode
@@ -18118,17 +18099,7 @@ Description: Learners use CreatiCode face detection blocks to create projects th
 
 Dependencies:
 * T30.G3.05: Access device camera in CreatiCode projects
-* T30.G4.01: Trace data flow in CreatiCode AI projects
-
-
-ID: T30.G5.06.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Select appropriate sensors for different CreatiCode project types
-Description: Students analyze different CreatiCode project types (quiz game, drawing app, fitness tracker, voice assistant, AR game) and justify which sensors (keyboard, mouse, camera, microphone) best suit each project's purpose, considering user experience and device requirements.
-
-Dependencies:
-* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
-* T30.G4.03.01: Compare 2D camera widgets vs 3D webcam backgrounds in CreatiCode
+* T30.G4.06: Detect device capabilities in CreatiCode projects
 
 
 ID: T30.G6.01
@@ -18188,8 +18159,9 @@ Skill: Use webcam as 3D scene background for AR effects
 Description: Students use the "turn on webcam background" block to overlay 3D objects on live camera feeds, select front/back camera, configure flip modes (normal, left-right flipped, up-down flipped), and create augmented reality effects where 3D models appear in the real world.
 
 Dependencies:
+* T30.G3.05: Access device camera in CreatiCode projects
 * T30.G5.05: Configure 3D cameras for CreatiCode game scenes
-* T30.G6.04: Plan device capability checklists for CreatiCode AI projects
+* T30.G6.05: Use speech recognition in voice-controlled CreatiCode projects
 
 
 ID: T30.G6.06
@@ -18219,7 +18191,7 @@ Description: Students configure 3D objects to be draggable using "set dragging m
 
 Dependencies:
 * T30.G5.05.01: Enable mouse picking and hovering for 3D objects
-* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G6.06: Implement hand and 2D body tracking in CreatiCode projects
 
 
 ID: T30.G7.01
@@ -18291,6 +18263,7 @@ Skill: Handle camera and microphone permission errors in CreatiCode
 Description: Learners design error handling for when users deny camera or microphone permissions in CreatiCode projects, implementing graceful fallbacks (keyboard controls instead of gesture recognition) and informative error messages.
 
 Dependencies:
+* T30.G4.06: Detect device capabilities in CreatiCode projects
 * T30.G7.03: Plan graceful degradation strategies
 CSTA: MS-SAS-HW-01
 
@@ -18455,17 +18428,6 @@ Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
 
 
-ID: T31.G5.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: List available multiplayer games
-Description: Students use CreatiCode's multiplayer blocks to list all available games on the server, displaying game names and player counts to help users discover and join active game sessions.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-* T31.G5.04: Create and join a multiplayer game session
-
-
 ID: T31.G5.05
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Check multiplayer connection status
@@ -18484,26 +18446,31 @@ Description: Students identify the sequence: client sends request, server proces
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T01.G3.02: Match a story description to a code sequence
 * T31.G5.01: Trace how a device reaches an online service
 
 
 ID: T31.G6.02
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Read data from a Google Sheet cell
-Description: Students use CreatiCode's Google Sheets integration to read data from a specific cell or range of cells in a shared spreadsheet and display it in their project. This introduces cloud-based data sharing.
+Description: Students use CreatiCode's Google Sheets integration to read data from a specific cell in a shared spreadsheet and display it in their project. This introduces cloud-based data sharing.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G5.03: Fetch and display a web page as markdown
 
 
 ID: T31.G6.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Write data to a Google Sheet cell
-Description: Students use CreatiCode's Google Sheets blocks to write player names and scores to specific cells or ranges in a shared spreadsheet, creating a persistent leaderboard that updates in real-time.
+Description: Students use CreatiCode's Google Sheets blocks to write player names and scores to specific cells in a shared spreadsheet, creating a persistent leaderboard that updates in real-time.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G6.02: Read data from a Google Sheet cell
 
 
@@ -18525,16 +18492,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.03: Write data to a Google Sheet cell
-
-
-ID: T31.G6.03.03
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Manage Google Sheets structure programmatically
-Description: Students use CreatiCode's blocks to insert and remove rows and columns in Google Sheets programmatically, and clear entire sheets. They apply these operations to dynamically restructure data as their application needs change.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.03.02: List and manage multiple Google Sheets
 
 
 ID: T31.G6.04
@@ -18562,22 +18519,12 @@ Dependencies:
 ID: T31.G6.06
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Add sprites to multiplayer game world
-Description: Students use CreatiCode's multiplayer blocks to add their sprite to the shared game world as a dynamic or static object with rectangle or circle colliders. They understand how sprites are synchronized across players. They also learn how to remove sprites from the game world when needed.
+Description: Students use CreatiCode's multiplayer blocks to add their sprite to the shared game world as a dynamic or static object with rectangle or circle colliders. They understand how sprites are synchronized across players.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G5.04: Create and join a multiplayer game session
 * T31.G5.05: Check multiplayer connection status
-
-
-ID: T31.G6.06.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Manage players and game state in multiplayer sessions
-Description: Students use CreatiCode's multiplayer blocks to list all players currently in a game session, remove sprites from the game world, and reset the entire game state. They understand how to manage the lifecycle of multiplayer game objects.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.06: Add sprites to multiplayer game world
 
 
 ID: T31.G7.01
@@ -18587,6 +18534,7 @@ Description: Students diagram how a central server receives updates from each cl
 CSTA: MS-SAS-NW-05
 
 Dependencies:
+* T02.G3.01: Identify start, action, and end symbols in flowcharts
 * T31.G5.01: Trace how a device reaches an online service
 * T31.G6.06: Add sprites to multiplayer game world
 
@@ -18623,8 +18571,8 @@ Dependencies:
 
 ID: T31.G7.02.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Insert data into a database collection using tables
-Description: Students use CreatiCode's Database blocks to prepare data in a table structure, then insert rows from the table into a cloud-based collection. They learn that direct insertion requires organizing data in table format first, storing persistent data like player progress, game settings, or user-generated content.
+Skill: Insert data into a database collection
+Description: Students use CreatiCode's Database blocks to insert documents into a cloud-based collection, storing persistent data like player progress, game settings, or user-generated content.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -18635,21 +18583,11 @@ Dependencies:
 ID: T31.G7.02.04
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Fetch data from a database collection
-Description: Students use CreatiCode's Database blocks to fetch documents from a collection with query conditions using operators like equals, greater than, less than, and contains, retrieve specific data, and display it in their projects.
+Description: Students use CreatiCode's Database blocks to fetch documents from a collection with query conditions (where clauses), retrieve specific data, and display it in their projects.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
-* T31.G7.02.03: Insert data into a database collection using tables
-
-
-ID: T31.G7.02.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Use advanced database queries with operators
-Description: Students use CreatiCode's Database query operators (equals, not equals, greater than, less than, contains) to build precise where clauses for fetching specific subsets of data from collections.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G7.02.04: Fetch data from a database collection
+* T31.G7.02.03: Insert data into a database collection
 
 
 ID: T31.G7.02.05
@@ -18739,17 +18677,6 @@ CSTA: MS-SAS-SC-09
 Dependencies:
 * T31.G7.05: Analyze societal impacts of networked systems
 * T31.G8.03: Design secure AI-powered cloud systems
-
-
-ID: T31.G8.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Integrate Google Drive folder access
-Description: Students use CreatiCode's Google Drive blocks to list files and folders from Google Drive, integrating cloud storage into their applications for accessing shared resources and user files.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.02: Read data from a Google Sheet cell
-* T31.G8.04: Implement privacy protection for AI data
 
 
 ID: T31.G8.05

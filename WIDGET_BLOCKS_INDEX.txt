@@ -1,0 +1,164 @@
+WIDGET BLOCKS QUICK INDEX
+=========================
+
+All 71 widget blocks extracted from /media/binyu/USB2/ScratchCopilot/blockdes8.txt
+
+QUICK NAVIGATION
+================
+
+1. TEXT & DISPLAY WIDGETS (3 blocks)
+   - widget_addtextbox
+   - widget_addrichtextbox
+   - widget_addlabel
+
+2. INTERACTIVE BUTTONS (3 blocks)
+   - widget_addbutton
+   - widget_addradiobutton
+   - widget_addcheckbox
+
+3. SELECTION & INPUT WIDGETS (4 blocks)
+   - widget_adddatepicker
+   - widget_addcolorpicker
+   - widget_addslider
+   - widget_addmenu
+
+4. MEDIA & CAMERA WIDGETS (7 blocks)
+   - widget_showcamera
+   - widget_savepicturefromcamera
+   - widget_addvideo
+   - widget_addimagefromcostumes
+   - widget_addimagefromurl
+   - widget_addimage
+   - widget_addimageurl
+
+5. COMPLEX LAYOUT WIDGETS (11 blocks)
+   - widget_addtoolbox
+   - widget_seticontotoolbox
+   - widget_addmenubar
+   - widget_addmenugroup
+   - widget_addmenuitem
+   - widget_addtabs
+   - widget_selecttab
+   - widget_settabcontainer
+   - widget_showhidetabnamed
+   - widget_applylayoutrowheightcellwidth
+   - widget_addlink
+
+6. DATA VISUALIZATION WIDGETS (8 blocks)
+   - widget_drawchartusinglist
+   - widget_drawchartusingcolumn
+   - widget_drawchartusingcategory
+   - widget_progressbar
+   - widget_createchatwindow
+   - widget_appendchatmessage
+   - widget_updatelastchatmessage
+
+7. VALUE MANAGEMENT (3 blocks)
+   - widget_valuefromwidget (get value)
+   - widget_settext (set value)
+   - widget_appendtext (append text)
+
+8. STYLING WIDGETS (2 blocks)
+   - widget_settextstyle (text styling)
+   - widget_setwidgetstyle (background, border, etc.)
+
+9. VISIBILITY & LAYERING (3 blocks)
+   - widget_setvisibility (show/hide single)
+   - widget_setvisibilityforall (show/hide all)
+   - widget_setzindex (z-order stacking)
+
+10. WIDGET TRANSFORMATION & ANIMATION (5 blocks)
+    - widget_movewidgettoxy
+    - widget_resizewidgettowidthheight
+    - widget_scalewidgettowidthheight
+    - widget_rotatewidgetbydegrees
+    - widget_transparencytowidget
+
+11. WIDGET MANAGEMENT (5 blocks)
+    - widget_removewidget
+    - widget_removeallwidgets
+    - widget_releasefocus
+    - widget_disablewidget
+    - widget_deletecostume
+
+12. VIDEO CONTROL (5 blocks)
+    - widget_actionvideo (play, pause, stop, mute)
+    - widget_seektosecondsvideo
+    - widget_currentvideotime
+    - widget_setyoutubevolume
+    - widget_setyoutubeplaybackspeedratio
+
+13. WIDGET CLICK & MOUSE EVENTS (4 blocks)
+    - widget_whenwidgetclicked (hat block)
+    - widget_whenanybuttonnamedclicked (hat block)
+    - widget_whenmouseenter (hat block)
+    - widget_whenmouseleave (hat block)
+
+14. WIDGET VALUE CHANGE EVENTS (2 blocks)
+    - widget_whenwidgetchanges (hat block)
+    - widget_whentabselected (hat block)
+
+15. VIDEO EVENT BLOCKS (4 blocks)
+    - widget_whenvideotimeis (hat block)
+    - widget_whenvideoispaused (hat block)
+    - widget_whenvideoisstopped (hat block)
+    - widget_whenvideostart (hat block)
+
+16. DIALOG & NAVIGATION (3 blocks)
+    - widget_confirmtextwithbuttons (modal dialog)
+    - widget_runproject (run another project)
+    - widget_opennewtabwithurl (open URL)
+
+
+KEY BLOCK PATTERNS
+==================
+
+Creating Widgets (position-based):
+- Most widgets use: at X (X) Y (Y) ... as [NAME]
+- Position is centered at given coordinates
+- NAME parameter is required and cannot be empty
+
+Getting Widget Values:
+- Use: value of widget [WIDGETNAME v]
+- Works for textboxes, buttons, date/color pickers, sliders, dropdowns, etc.
+- Different widgets return different value types
+
+Setting Widget Values:
+- Use: set value to [V] for widget [WIDGETNAME v]
+- Works for most widget types
+- Format depends on widget type (text, date YYYYMMDD, color #RRGGBBAA, etc.)
+
+Animation Blocks:
+- All animation blocks include duration and blocking mode
+- Blocking = wait until complete; Non-blocking = continue immediately
+
+Event Blocks (Hat blocks - no inputs):
+- widget_whenwidgetclicked
+- widget_whenwidgetchanges
+- widget_whenmouseenter / widget_whenmouseleave
+- widget_whentabselected
+- All 4 video event blocks
+
+Color Format: #RRGGBBAA
+- Red, Green, Blue, Alpha (transparency)
+- Examples: #FF0000FF (red), #00FF00FF (green), #0000FFFF (blue)
+
+Date Format: YYYYMMDD
+- No separators
+- Example: 20210620 for June 20, 2021
+
+
+WIDGET CATEGORIES FOUND
+======================
+
+Only "Widgets" category found - no other UI/interface/display/control categories contain widget blocks.
+
+All 71 blocks are in the Category: Widgets section of blockdes8.txt
+
+
+FILE LOCATION
+=============
+
+Complete detailed reference: /media/binyu/USB2/dev/CreatiCodeSkillMap/WIDGET_BLOCKS_REFERENCE.txt
+Quick index: /media/binyu/USB2/dev/CreatiCodeSkillMap/WIDGET_BLOCKS_INDEX.txt (this file)
+Source file: /media/binyu/USB2/ScratchCopilot/blockdes8.txt (lines 8571-9587)

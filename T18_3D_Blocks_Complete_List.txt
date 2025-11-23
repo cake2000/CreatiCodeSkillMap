@@ -1,0 +1,275 @@
+COMPLETE LIST OF ALL 239 3D BLOCKS IN CREATICODE
+=================================================
+
+Category: 3D SCENE (47 blocks)
+--------------------------------
+d3scene_d3_initscene - initialize 3D scene
+d3scene_d3_showscene - show 3D scene
+d3scene_d3_when3dsceneisready - when 3D scene is initialized
+d3scene_d3_setscenecolor - set scene background color
+d3scene_d3_setscenefog - set scene fog
+d3scene_d3_setclipplane - set clipping plane
+d3scene_d3_removeclipplane - remove clipping plane
+d3scene_d3_setskybox - set sky
+d3scene_d3_removeskybox - remove sky
+d3scene_d3_addpipeline - add pipeline (post-processing)
+d3scene_d3_removepipeline - remove pipeline
+d3scene_d3_setcameraviewport - set display region
+d3scene_d3_capturepointer - lock pointer
+d3scene_d3_addjoystick - add joystick
+d3scene_d3_readjoystick - joystick property
+d3scene_d3_removejoysticks - remove all joysticks
+d3scene_d3_addorbitcamera - add orbit camera
+d3scene_d3_carfollowcamera - add follow camera
+d3scene_d3_setcameratarget - set camera target xyz
+d3scene_d3_setcameratargetobj - set camera target object
+d3scene_d3_setcameradirection - set camera distance/angles
+d3scene_d3_setcameraonglobe - set camera on globe (lat/lon)
+d3scene_d3_configureorbitcamera - configure camera
+d3scene_d3_setcameraparent - set object as parent of camera
+d3scene_d3_cameradirection - camera property
+d3scene_d3_getcameraviewdirection - get camera direction
+d3scene_d3_getcameraxy - get camera view position
+d3scene_d3_switchfullscreen - switch to full screen
+d3scene_d3_isgpusupported - GPU Available
+d3scene_d3_addpointlight - add point light
+d3scene_d3_adddirectionallight - add directional light
+d3scene_d3_addhemisphericlight - add ambient light
+d3scene_d3_addspotlight - add spot light
+d3scene_d3_castshadowfromlight - cast shadow from light
+d3scene_d3_receiveshadow - receives shadow
+d3scene_d3_addglowgroup - create glow layer
+d3scene_d3_addtoglowgroup - add to glow layer
+d3scene_d3_removefromglowgroup - remove from glow layer
+d3scene_d3_addhighlightgroup - create highlight layer
+d3scene_d3_addtohighlightgroup - add highlight to layer
+d3scene_d3_removefromhighlightgroup - remove from highlight layer
+d3scene_d3_removelights - remove all lights
+d3scene_d3_removeonelight - remove light named
+d3scene_d3_switchlightonoff - switch light on/off
+d3scene_d3_excludeobjfromlight - exclude object from light
+d3scene_d3_showaxis - show 3D axis
+d3scene_d3_webcambackground - turn on/off webcam background
+
+Category: 3D OBJECT (50 blocks)
+--------------------------------
+d3object_d3_add6box - add 6-colored box
+d3object_d3_addbox - add box
+d3object_d3_addcylinder - add cylinder
+d3object_d3_addsphere - add sphere
+d3object_d3_addtube - add tube
+d3object_d3_addrecttube - add rectangle tube
+d3object_d3_addcapsule - add capsule
+d3object_d3_addtorus - add torus
+d3object_d3_addplane - add plane
+d3object_d3_addabcdplane - add plane (equation)
+d3object_d3_addstairs - add stairs
+d3object_d3_addcolumn - add column (extruded)
+d3object_d3_addcone - add cone
+d3object_d3_generatearcpoints - generate arc points
+d3object_d3_addcurveusinglist - add curve using list
+d3object_d3_adddottedline - add dotted line
+d3object_d3_addsolidline - add line
+d3object_d3_addmovingline - add moving line between objects
+d3object_d3_addtext - add 3D text
+d3object_d3_addtext2 - add 3D thick text
+d3object_d3_addobject - add model
+d3object_d3_addlinkobject - add public object at URL
+d3object_d3_addcommunityobject - add community model
+d3object_d3_addavatar - add avatar
+d3object_d3_addavatarforuser - add avatar for user
+d3object_d3_adduseravatar - add user avatar
+d3object_d3_addtrianglefrompoints - geometry: add triangle from points
+d3object_d3_addframebox - geometry: add frame box
+d3object_d3_addlinebetweenpoints - geometry: add line between points
+d3object_d3_addnewpoint - geometry: add point between points
+d3object_d3_addxyzpoint - geometry: add point at xyz
+d3object_d3_addanglemark - geometry: add angle mark
+d3object_d3_addatom - chemistry: add atom
+d3object_d3_addcustomeatom - chemistry: add custom atom
+d3object_d3_addtransformnode - add transformer
+d3object_d3_addcube - add voxel
+d3object_d3_extrude2 - extrude costume
+d3object_d3_converttosps - convert to sps
+d3object_d3_addtosps - add to sps
+d3object_d3_setasparent - set object as parent
+d3object_d3_removechildren - unlink all children
+d3object_d3_removeparent - unlink parent
+d3object_d3_setcameraasparent - set camera as parent
+d3object_d3_removeobject - remove object named
+d3object_d3_removeallobjects - remove all objects
+d3object_d3_objectexists - object exists
+d3object_d3_showlocalaxis - show local axis
+d3object_d3_objectproperty - property of object from sprite
+d3object_d3_set_property - set property
+d3object_d3_property - property of object
+
+Category: 3D ACTION (51 blocks)
+--------------------------------
+d3action_d3_showbubble - show speech bubble
+d3action_d3_movetoxyz - move to x y z
+d3action_d3_movealongdir - move along current direction
+d3action_d3_copycameraposition - copy position from camera
+d3action_d3_copyobjectposition - copy position from object
+d3action_d3_rotateto - rotate to angle around axis
+d3action_d3_rotateto2 - rotate to direction x y z
+d3action_d3_3dturnto - turn degrees around axis
+d3action_d3_3dpointto - point to position
+d3action_d3_copycameradirection - copy direction from camera
+d3action_d3_copyobjectdirection - copy direction from object
+d3action_d3_setspeed - set speed
+d3action_d3_objectdistance - distance between objects
+d3action_d3_addanimation - add animations
+d3action_d3_startanimation - start animation (avatar)
+d3action_d3_startanimation2 - start model animation
+d3action_d3_updatebone - update bone
+d3action_d3_attachtobone - attach to body part
+d3action_d3_detachfrombone - detach from body
+d3action_d3_selectobject - select sprite object by name
+d3action_d3_spritename - sprite object name
+d3action_d3_enablecamerapicking - turn on picking
+d3action_d3_disablecamerapicking - turn off picking
+d3action_d3_whenobjectpicked - when object picked
+d3action_d3_pickedname - picked object name
+d3action_d3_pickedx - picked point x pos
+d3action_d3_pickedy - picked point y pos
+d3action_d3_pickedz - picked point z pos
+d3action_d3_enablecamerahovering - turn on hovering
+d3action_d3_disablecamerahovering - turn off hovering
+d3action_d3_hoveredname - hovered object name
+d3action_d3_hoveredx - hovered point x pos
+d3action_d3_hoveredy - hovered point y pos
+d3action_d3_hoveredz - hovered point z pos
+d3action_d3_setdragginglimit - set dragging limits
+d3action_d3_setdraggingmode - set dragging mode
+d3action_d3_whenobjectstartdragged - when object starts dragged
+d3action_d3_whenobjectbeingdragged - when object being dragged
+d3action_d3_whenobjectenddragged - when object stops dragged
+d3action_d3_draggedname - dragged object name
+d3action_d3_getxyzonplanefromxy - map screen XY to XYZ
+d3action_d3_setcollision - turn on collision
+d3action_d3_whenincollision - when colliding with
+d3action_d3_spriteblockeddir - sprite object blocked
+d3action_d3_setcollisiondimension - update collider dimension
+d3action_d3_broadcastmeshcollisionmessage - broadcast on mesh collision
+d3action_d3_broadcastoverlapmessage - broadcast when overlap
+d3action_d3_broadcasdistmessage - broadcast when distance <=
+d3action_d3_turnondistancesensor - set distance sensor
+d3action_d3_nearestobstaclename - name of nearest obstacle
+d3action_d3_distancetonearest - distance to nearest obstacle
+
+Category: 3D TOOLS (32 blocks)
+--------------------------------
+d3tools_d3_updatecolor - update color (PBR)
+d3tools_d3_updatetexture - update texture
+d3tools_d3_updatecostumetexture - update texture using costume
+d3tools_d3_updatefiletexture - add texture with shared file
+d3tools_d3_updatescale - update scale
+d3tools_d3_updatescale2 - update size
+d3tools_d3_getobjectcolor - get color of object
+d3tools_d3_applygridmaterial - apply grid material
+d3tools_d3_materialsetting - material setting
+d3tools_d3_converttoflatshading - convert to flat shading
+d3tools_d3_convertobjecttomirror - build mirror
+d3tools_d3_setvisibleinmirror - reflect in mirror
+d3tools_d3_clearmirrorreflect - remove all reflections
+d3tools_d3_cloneobject - copy object
+d3tools_d3_mergeobject - merge objects
+d3tools_d3_carveobject - carve object
+d3tools_d3_bakecurrenttransformation - bake transformations
+d3tools_d3_doadd_addinstancematrix - copy by matrix
+d3tools_d3_doadd_addinstancematrix2 - copy by matrix from center
+d3tools_d3_mirrorcopy - copy to mirror position
+d3tools_d3_rotationcopy - copy to rotated position
+d3tools_d3_for_each_cloned_d3_object - for each 3D object
+d3tools_d3_subdivideface - subdivide faces
+d3tools_d3_shiftvertices - update vertices
+d3tools_d3_showbounds - show bounding box
+d3tools_d3_showedges - show edges
+d3tools_d3_showskeleton - show skeleton
+d3tools_d3_setrenderinggroup - set rendering layer
+d3tools_d3_lockfacing - set camera facing mode
+d3tools_d3_exportglb - export as GLB file
+d3tools_d3_exportstl - export as STL file
+d3tools_d3_objectintersecting - objects are overlapping
+
+Category: 3D PHYSICS (36 blocks)
+---------------------------------
+d3physics_d3_setscenephysics - enable physics for scene
+d3physics_d3_updategravity - update gravity
+d3physics_d3_setphysicsframerate - set physics frame rate
+d3physics_d3_getphysicsframerate - get physics frame rate
+d3physics_d3_updatephysics - add physics body
+d3physics_d3_removephysics - remove physics body
+d3physics_d3_changephysics - update physics property
+d3physics_d3_freezeonephysics - freeze physics body
+d3physics_d3_freezeallphysics - freeze all physics bodies
+d3physics_d3_getphysicsdata - get physics body property
+d3physics_d3_mergephysics - add physics bodies into compound
+d3physics_d3_applyforce - apply force
+d3physics_d3_applyimpulse - apply impulse
+d3physics_d3_setphysicslinearvelocity - set physics body speed xyz
+d3physics_d3_setphysicsangularvelocity - set physics body rotation speed
+d3physics_d3_setphysicsxyspeed - set physics body speed in facing direction
+d3physics_d3_setphysicsspeedtowards - set physics body speed towards xyz
+d3physics_d3_setphysicsspeedtoobj - set physics body speed towards object
+d3physics_d3_setphysicsspeedlimit - set physics body movement speed limit
+d3physics_d3_setphysicsrotationlimit - set physics body rotation speed limit
+d3physics_d3_lockphysicsobjectrotationandspeed - lock physics body speed/rotation
+d3physics_d3_setphysicsdamping - set physics body damping
+d3physics_d3_broadcastcollisionmessage - broadcast on physics collision
+d3physics_d3_touchingphysicsobjectnames - names of physics bodies in contact
+d3physics_d3_updatecollisiongroup - update collision group
+d3physics_d3_addfixedconstraint - add fixed constraint
+d3physics_d3_adddistanceconstraint - add distance constraint
+d3physics_d3_addhingeconstraint - add hinge constraint
+d3physics_d3_sethingelimit - set limits for hinge constraint
+d3physics_d3_sethingespeed - set speed for hinge constraint
+d3physics_d3_removeconstraint - remove constraint
+d3physics_d3_converttophysicscar - enable car simulation
+d3physics_d3_updatecarphysics - set car engine force/brake
+d3physics_d3_updatecarsteer - steer car to angle
+d3physics_d3_setcarsteer - set car wheel angle
+d3physics_d3_updatecarwheelphysics - set car wheel engine force
+
+Category: 3D EFFECT (18 blocks)
+--------------------------------
+d3effect_d3_addgenerator - add prebuilt emitter
+d3effect_d3_createemitter - add particle emitter
+d3effect_d3_updateboxemitter - configure box emitter
+d3effect_d3_updateconeemitter - configure cone emitter
+d3effect_d3_updatecylinderemitter - configure cylinder emitter
+d3effect_d3_updatehemisphericemitter - configure hemispheric emitter
+d3effect_d3_updatemeshemitter - configure mesh emitter
+d3effect_d3_updatesphereemitter - configure sphere emitter
+d3effect_d3_updateemittercolor - configure emitter color
+d3effect_d3_updateemittersize - configure emitter size
+d3effect_d3_updateemitterscale - configure emitter scale
+d3effect_d3_updateemitterrotation - configure emitter rotation speed
+d3effect_d3_updateemitterinitrotation - configure emitter initial rotation
+d3effect_d3_updateemittermovement - configure emitter movement
+d3effect_d3_updateemitterblendmode - configure emitter blend mode
+d3effect_d3_fireemitter - start emitter
+d3effect_d3_emittercommand - emitter action (start/stop/pause/dispose)
+d3effect_d3_addtrail - add trail
+
+Category: 3D AR/VR (5 blocks)
+------------------------------
+d3arvr_d3_usearcontrolcamera - switch to AR world camera
+d3arvr_d3_usearfacecamera - switch to AR face camera
+d3arvr_d3_usearimagecameralogoanchor - switch to AR LOGO
+d3arvr_d3_setasocclusion - convert to transparent occlusion
+d3arvr_d3_showinspector - show inspector
+
+=================================================
+TOTAL: 239 BLOCKS across 7 categories
+=================================================
+
+Additional 3D-capable blocks in other categories:
+- Motion: x position, y position, z position, direction
+- Looks: show, hide, set size to %, change size by, size
+- Sensing: [attribute] of [sprite] (extended for 3D)
+- Operators: distance between 3D points
+
+Source: /media/binyu/USB2/ScratchCopilot/blockdes8.txt
+Date: 2025-11-23

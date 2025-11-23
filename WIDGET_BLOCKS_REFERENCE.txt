@@ -1,0 +1,461 @@
+================================================================================
+COMPLETE WIDGET BLOCKS REFERENCE - ScratchCopilot
+================================================================================
+
+TOTAL WIDGETS: 71 blocks
+All blocks are in the "Widgets" category
+
+================================================================================
+1. CREATING TEXT & DISPLAY WIDGETS
+================================================================================
+
+widget_addtextbox
+Syntax: add textbox at X (X) Y (Y) width (W) height (H) padding (P) line [LINETYPE v] scroll [SCROLLTYPE v] mode [MODETYPE v] as [textbox1]
+Description: Adds a textbox widget with specified width/height. Supports single or multiple lines, with optional scrollbar. Can be read-only or input mode.
+Parameters: X position, Y position, Width, Height, Padding, Line type (single/multiple), Scroll type (scroll/no scroll), Mode (input/read-only), Name
+
+widget_addrichtextbox
+Syntax: add rich textbox at X (X) Y (Y) width (W) height (H) padding (P) mode [MODE v] as [NAME]
+Description: Adds a rich text editor widget that supports full text formatting instead of plain text.
+Parameters: X position, Y position, Width, Height, Padding, Mode (input/read-only), Name
+
+widget_addlabel
+Syntax: add label [TEXT] at X (X) Y (Y) width (WIDTH) height (HEIGHT) padding (P) as [NAME]
+Description: Adds a non-editable label widget to display text. Can be updated using set value block.
+Parameters: Text content, X position, Y position, Width, Height, Padding, Name
+
+================================================================================
+2. CREATING INTERACTIVE BUTTONS
+================================================================================
+
+widget_addbutton
+Syntax: add button [TEXT] at X (X) Y (Y) width (WIDTH) height (HEIGHT) tooltip [TOOLTIP] as [NAME]
+Description: Adds a clickable button widget. Responds to click events via 'when widget clicked' block.
+Parameters: Button text, X position, Y position, Width, Height, Tooltip text, Name
+
+widget_addradiobutton
+Syntax: add radio buttons [CHOICE1-6] [ORIENTATION v] at x (0) y (0) width (200) height (30) named [NAME]
+Description: Adds a group of radio buttons (up to 6) with vertical or horizontal layout. Only one can be selected at a time.
+Parameters: Choice 1-6 text labels, Orientation (horizontal/vertical), X position, Y position, Width, Height, Name
+
+widget_addcheckbox
+Syntax: add checkbox at X (X) Y (Y) named [NAME]
+Description: Adds a checkbox widget. Value is 0 when unchecked, 1 when checked.
+Parameters: X position, Y position, Name
+
+================================================================================
+3. CREATING SELECTION & INPUT WIDGETS
+================================================================================
+
+widget_adddatepicker
+Syntax: add date picker at X (X) Y (Y) as [NAME]
+Description: Adds a date picker widget. Returns/accepts dates in YYYYMMDD format (e.g., 20210620). Default size is 200x30.
+Parameters: X position, Y position, Name
+
+widget_addcolorpicker
+Syntax: add color picker at X (X) Y (Y) as [NAME]
+Description: Adds a color picker widget. Returns/accepts colors in #RRGGBBAA format (e.g., #FF0088FF).
+Parameters: X position, Y position, Name
+
+widget_addslider
+Syntax: add slider at X (X) Y (Y) width (WIDTH) between (MIN) and (MAX) as [NAME]
+Description: Adds a slider widget with a value range between MIN and MAX.
+Parameters: X position, Y position, Width, Minimum value, Maximum value, Name
+
+widget_addmenu
+Syntax: add dropdown menu at X (X) Y (Y) width (WIDTH) height (HEIGHT) using list [LIST v] as [NAME]
+Description: Adds a dropdown menu where choices are populated from a list.
+Parameters: X position, Y position, Width, Height, List name, Name
+
+================================================================================
+4. CREATING MEDIA & CAMERA WIDGETS
+================================================================================
+
+widget_showcamera
+Syntax: show [SIDE v] camera in [MODE v] x (X) y (Y) width (W) height (H) as [NAME]
+Description: Adds a camera window widget showing live camera feed (front or back camera, normal or flipped mode).
+Parameters: Camera side (front/back), Mode (normal/flipped), X position, Y position, Width, Height, Name
+
+widget_savepicturefromcamera
+Syntax: save picture from camera [CAMERAWIDGETNAME v] as costume [COSTUMENAME]
+Description: Takes a snapshot from a camera widget and saves it as a costume.
+Parameters: Camera widget name, Costume name for saved picture
+
+widget_addvideo
+Syntax: add youtube video [URL] at X (X) Y (Y) width (WIDTH) height (HEIGHT) named [NAME] in [LAYER v]
+Description: Adds a YouTube video player widget. Can be in foreground (interactive) or background (non-interactive).
+Parameters: YouTube URL, X position, Y position, Width, Height, Name, Layer (foreground/background)
+
+widget_addimagefromcostumes
+Syntax: add image [COSTUMENAME v] at x (X) y (Y) width (WIDTH) height (HEIGHT) aspect ratio [OPTION v] as [NAME]
+Description: Adds an image widget from a costume. Aspect ratio can be kept or stretched.
+Parameters: Costume name, X position, Y position, Width, Height, Aspect ratio (keep/stretch), Name
+
+widget_addimagefromurl
+Syntax: add image from URL [URL] at x (X) y (Y) width (WIDTH) height (HEIGHT) aspect ratio [OPTION v] as [NAME]
+Description: Adds an image widget from a URL. Aspect ratio can be kept or stretched.
+Parameters: Image URL, X position, Y position, Width, Height, Aspect ratio (keep/stretch), Name
+
+widget_addimage
+Syntax: add image [COSTUMENAME v] to widget named [WIDGETNAME v] at position X (X) Y (Y)
+Description: Adds a costume image to another widget as a decorative icon.
+Parameters: Costume name, Target widget name, X offset, Y offset
+
+widget_addimageurl
+Syntax: add image at URL [URL] to widget named [WIDGETNAME v] at position X (X) Y (Y)
+Description: Adds an image from URL to another widget as a decorative icon.
+Parameters: Image URL, Target widget name, X offset, Y offset
+
+================================================================================
+5. CREATING COMPLEX LAYOUT WIDGETS
+================================================================================
+
+widget_addtoolbox
+Syntax: add toolbox at x (X) y (Y) width (WIDTH) height (HEIGHT) row count (ROWCOUNT) column count (COLCOUNT) as [NAME]
+Description: Adds a grid of icons (Minecraft-style toolbox). Icons indexed starting at 1.
+Parameters: X position, Y position, Width, Height, Row count, Column count, Name
+
+widget_seticontotoolbox
+Syntax: set icon to [COSTUMENAME v] at row (ROW) column (COLUMN) for toolbox [TOOLBOXNAME v]
+Description: Sets a specific costume image at a grid position in the toolbox.
+Parameters: Costume name, Row number, Column number, Toolbox name
+
+widget_addmenubar
+Syntax: add menu bar at X (X) Y (Y) width (WIDTH) height (HEIGHT) as [NAME]
+Description: Adds an empty menu bar widget. Must be populated with menu groups and items.
+Parameters: X position, Y position, Width, Height, Name
+
+widget_addmenugroup
+Syntax: add menu group [GROUPNAME] to menu bar named [MENUBARNAME v]
+Description: Adds a group to a menu bar.
+Parameters: Group name, Menu bar name
+
+widget_addmenuitem
+Syntax: add menu item [ITEMNAME] to menu group named [GROUPNAME v]
+Description: Adds an item to a menu group.
+Parameters: Item name, Group name
+
+widget_addtabs
+Syntax: create tabs at X (X) Y (Y) width (WIDTH) height (HEIGHT) names [TAB1-8] show heading [SHOWHEADING v]
+Description: Creates a tabbed container (up to 8 tabs). Can show or hide tab headings.
+Parameters: X position, Y position, Width, Height, Tab names (1-8), Show heading (Yes/No)
+
+widget_selecttab
+Syntax: select tab [TABNAME]
+Description: Switches to a specific tab, bringing it to foreground.
+Parameters: Tab name
+
+widget_settabcontainer
+Syntax: set tab container [TABNAME v]
+Description: Sets a tab as the active container for subsequently added widgets.
+Parameters: Tab name
+
+widget_showhidetabnamed
+Syntax: [ACTION v] tab named [TABNAME]
+Description: Shows, hides, adds, or removes a tab.
+Parameters: Action (show/hide/add/remove), Tab name
+
+widget_applylayoutrowheightcellwidth
+Syntax: apply layout row named [ROWNAME] height (HEIGHT)% cell width [WIDTH1-6]% widgets [WIDGET1-6] margin (MARGIN) padding (PADDING)
+Description: Arranges widgets in a row layout system. Use multiple times for multi-row layouts.
+Parameters: Row name, Height percentage, Cell widths (1-6), Widget names (1-6), Margin, Padding
+
+widget_addlink
+Syntax: add link at X (X) Y (Y) url [URL] as [NAME]
+Description: Adds a hyperlink widget.
+Parameters: X position, Y position, URL, Name
+
+================================================================================
+6. CREATING DATA VISUALIZATION WIDGETS
+================================================================================
+
+widget_drawchartusinglist
+Syntax: draw [CHARTTYPE v] chart using list [LISTNAME v] x (X) y (Y) width (WIDTH) height (HEIGHT)
+Description: Draws a chart from list data. Chart types: line, bar, pie, percentage.
+Parameters: Chart type (line/bar/pie/percentage), List name, X position, Y position, Width, Height
+
+widget_drawchartusingcolumn
+Syntax: draw [CHARTTYPE v] chart using columns [COLUMNLIST] from table [TABLENAME v] x (X) y (Y) width (WIDTH) height (HEIGHT)
+Description: Draws a chart from table columns. Multiple columns become separate data series.
+Parameters: Chart type (line/bar/pie/percentage), Column names (comma-separated), Table name, X position, Y position, Width, Height
+
+widget_drawchartusingcategory
+Syntax: draw pie chart using category [CATEGORYCOLUMN] and value [VALUECOLUMN] from table [TABLENAME v] x (X) y (Y) width (WIDTH) height (HEIGHT)
+Description: Draws a pie chart using categories and values from table.
+Parameters: Category column name, Value column name, Table name, X position, Y position, Width, Height
+
+widget_progressbar
+Syntax: add progress bar as (CURRENT) out of total (TOTAL) at x (X) y (Y) width (WIDTH) height (HEIGHT) color [COLOR] background [BG] border width (BORDERWIDTH) color [BORDERCOLOR] as [NAME]
+Description: Adds a progress bar showing CURRENT/TOTAL as percentage. Returns actual value when read.
+Parameters: Current value, Total value, X position, Y position, Width, Height, Bar color, Background color, Border width, Border color, Name
+
+widget_createchatwindow
+Syntax: add chat window x (X) y (Y) width (WIDTH) height (HEIGHT) input rows (ROWS) background [BG] border [BORDERCOLOR] name [NAME]
+Description: Adds a chat window with message history panel and input box with send button.
+Parameters: X position, Y position, Width, Height, Input rows, Background color, Border color, Name
+
+widget_appendchatmessage
+Syntax: append to chat [CHATNAME v] message [MESSAGE] as [SENDER] icon [ICON v] align [ALIGN v] text size (TEXTSIZE) color [COLOR] background [BG]
+Description: Adds a message to the chat history panel.
+Parameters: Chat name, Message text, Sender name, Icon (ROBOT/USER/costume), Alignment (Left/Right), Text size, Text color, Background color
+
+widget_updatelastchatmessage
+Syntax: update last chat message to [MESSAGE] for chat [CHATNAME v]
+Description: Updates the last message in chat history (useful for streaming/generated content).
+Parameters: New message text, Chat name
+
+================================================================================
+7. GETTING & SETTING WIDGET VALUES
+================================================================================
+
+widget_valuefromwidget
+Syntax: value of widget [WIDGETNAME v]
+Description: Returns current value of any widget. Return type varies: textbox=text, button=text, date=YYYYMMDD, color=#RRGGBBAA, slider=number, dropdown=selected option.
+Parameters: Widget name
+
+widget_settext
+Syntax: set value to [V] for widget [WIDGETNAME v]
+Description: Sets value for any widget type (buttons, labels, textboxes, date/color pickers, sliders, dropdowns, etc.).
+Parameters: New value, Widget name
+
+widget_appendtext
+Syntax: append text [NEWTEXT] to [WIDGETNAME v] in new line [ISNEWLINE v]
+Description: Appends text to a widget. Can add on same line or new line.
+Parameters: Text to append, Widget name, New line (Yes/No)
+
+================================================================================
+8. STYLING WIDGETS
+================================================================================
+
+widget_settextstyle
+Syntax: set text style [FONTSTYLE v] font size (FONTSIZE) text color [TEXTCOLOR] boldness [BOLDNESS v] text alignment [TEXTALIGNMENT v] for widget [WIDGETNAME v]
+Description: Styles all text within a widget. Supports many font families: sans-serif, Helvetica, Arial, Arbutus, Bungee Shade, Bangers, Caesar Dressing, Creepster, Lilita One, Luckiest Guy, Jua, Nosifer, Potta One.
+Parameters: Font style, Font size (pixels), Text color, Boldness (bold/normal), Text alignment (Left/Middle/Right), Widget name
+
+widget_setwidgetstyle
+Syntax: set widget background color [BACKGROUNDCOLOR] border color [BORDERCOLOR] border width (BORDERWIDTH) border radius (BORDERRADIUS) for [WIDGETNAME v]
+Description: Sets widget appearance (background, border, border radius). Colors use #RRGGBBAA format.
+Parameters: Background color, Border color, Border width, Border radius, Widget name
+
+================================================================================
+9. WIDGET VISIBILITY & LAYERING
+================================================================================
+
+widget_setvisibility
+Syntax: set visibility [VISIBILITY v] for widget named [WIDGETNAME v]
+Description: Shows or hides a single widget.
+Parameters: Visibility (show/hide), Widget name
+
+widget_setvisibilityforall
+Syntax: set visibility [VISIBILITY v] for all widgets
+Description: Shows or hides all widgets at once.
+Parameters: Visibility (show/hide)
+
+widget_setzindex
+Syntax: set z-index to [ZINDEX] for widget named [WIDGETNAME v]
+Description: Controls stacking order of widgets. Default z-index is 10. Higher values appear on top.
+Parameters: Z-index (number), Widget name
+
+================================================================================
+10. WIDGET TRANSFORMATION & ANIMATION
+================================================================================
+
+widget_movewidgettoxy
+Syntax: move widget [WIDGETNAME v] to X (X) Y (Y) in (T) seconds [BLOCKINGMODE v]
+Description: Moves widget to new position over time. Blocking mode waits for completion; non-blocking continues immediately.
+Parameters: Widget name, X position, Y position, Duration (seconds), Blocking mode (blocking/non-blocking)
+
+widget_resizewidgettowidthheight
+Syntax: resize widget [WIDGETNAME v] to width (WIDTH) height (HEIGHT) in (T) seconds [BLOCKINGMODE v]
+Description: Resizes widget over time with optional blocking.
+Parameters: Widget name, New width, New height, Duration (seconds), Blocking mode (blocking/non-blocking)
+
+widget_scalewidgettowidthheight
+Syntax: scale widget [WIDGETNAME v] to width (WIDTH)% height (HEIGHT)% in (T) seconds [BLOCKINGMODE v]
+Description: Scales widget by percentage over time with optional blocking.
+Parameters: Widget name, Width percentage, Height percentage, Duration (seconds), Blocking mode (blocking/non-blocking)
+
+widget_rotatewidgetbydegrees
+Syntax: rotate widget [WIDGETNAME v] by (D) degrees in (T) seconds [BLOCKINGMODE v]
+Description: Rotates widget clockwise by degrees over time with optional blocking.
+Parameters: Widget name, Degrees, Duration (seconds), Blocking mode (blocking/non-blocking)
+
+widget_transparencytowidget
+Syntax: set transparency for widget [WIDGETNAME v] to (T) % in (N) seconds [BLOCKINGMODE v]
+Description: Changes widget transparency over time with optional blocking.
+Parameters: Widget name, Transparency percentage, Duration (seconds), Blocking mode (blocking/non-blocking)
+
+================================================================================
+11. WIDGET MANAGEMENT
+================================================================================
+
+widget_removewidget
+Syntax: remove widget named [WIDGETNAME v]
+Description: Removes a single widget from the project.
+Parameters: Widget name
+
+widget_removeallwidgets
+Syntax: remove all widgets
+Description: Removes all widgets from the project at once.
+Parameters: None
+
+widget_releasefocus
+Syntax: release focus for widget [WIDGETNAME v]
+Description: Deselects/unfocuses a widget.
+Parameters: Widget name
+
+widget_disablewidget
+Syntax: [ACTION v] widget [WIDGETNAME v]
+Description: Disables or enables a widget. Disabled widgets don't respond to user interactions.
+Parameters: Action (Disable/Enable), Widget name
+
+widget_deletecostume
+Syntax: delete costume [COSTUMENAME]
+Description: Deletes a costume by name.
+Parameters: Costume name
+
+================================================================================
+12. VIDEO CONTROL BLOCKS
+================================================================================
+
+widget_actionvideo
+Syntax: [COMMAND v] video for [VIDEONAME v]
+Description: Executes video control commands: start, pause, stop, mute, unmute.
+Parameters: Command (start/pause/stop/mute/unmute), Video widget name
+
+widget_seektosecondsvideo
+Syntax: seek to (TIME) seconds in video named [VIDEONAME v]
+Description: Seeks to a specific time in the video.
+Parameters: Time in seconds, Video widget name
+
+widget_currentvideotime
+Syntax: current video time for [VIDEONAME v]
+Description: Returns current playback time in seconds.
+Parameters: Video widget name
+
+widget_setyoutubevolume
+Syntax: set volume to (VOLUME) for [VIDEONAME v]
+Description: Sets video volume (0-100).
+Parameters: Volume (0-100), Video widget name
+
+widget_setyoutubeplaybackspeedratio
+Syntax: set playback speed ratio (SPEED) for [VIDEONAME v]
+Description: Sets playback speed ratio. 100=normal, 200=double speed, 50=half speed.
+Parameters: Speed ratio (percentage), Video widget name
+
+================================================================================
+13. WIDGET CLICK & MOUSE EVENTS
+================================================================================
+
+widget_whenwidgetclicked
+Syntax: when widget [NAME v] clicked
+Description: Hat block triggered when any widget is clicked (buttons, images, radio buttons, toolbox cells, etc.).
+Parameters: Widget name
+
+widget_whenanybuttonnamedclicked
+Syntax: when any button named [BUTTONNAME v] clicked
+Description: Hat block triggered when any button on stage is clicked. Stores clicked button name in variable.
+Parameters: Variable name to store clicked button name
+
+widget_whenmouseenter
+Syntax: when pointer enters widget named [WIDGETNAME v]
+Description: Hat block triggered when mouse pointer enters widget area.
+Parameters: Widget name
+
+widget_whenmouseleave
+Syntax: when pointer leaves widget named [WIDGETNAME v]
+Description: Hat block triggered when mouse pointer leaves widget area.
+Parameters: Widget name
+
+================================================================================
+14. WIDGET VALUE CHANGE EVENTS
+================================================================================
+
+widget_whenwidgetchanges
+Syntax: when widget [NAME v] changes
+Description: Hat block triggered when widget value changes (textbox, dropdown, slider, color picker, date picker).
+Parameters: Widget name
+
+widget_whentabselected
+Syntax: when tab [TABNAME v] selected
+Description: Hat block triggered when a tab is selected and displayed.
+Parameters: Tab name
+
+================================================================================
+15. VIDEO EVENT BLOCKS
+================================================================================
+
+widget_whenvideotimeis
+Syntax: when video time is (T) seconds for [VIDEONAME v]
+Description: Hat block triggered when video reaches a specific time.
+Parameters: Time in seconds, Video widget name
+
+widget_whenvideoispaused
+Syntax: when video [VIDEONAME v] paused
+Description: Hat block triggered when video is paused.
+Parameters: Video widget name
+
+widget_whenvideoisstopped
+Syntax: when video [VIDEONAME v] stopped
+Description: Hat block triggered when video is stopped.
+Parameters: Video widget name
+
+widget_whenvideostart
+Syntax: when video [VIDEONAME v] start
+Description: Hat block triggered when video starts playing.
+Parameters: Video widget name
+
+================================================================================
+16. DIALOG & NAVIGATION BLOCKS
+================================================================================
+
+widget_confirmtextwithbuttons
+Syntax: confirm [TEXT] with buttons [BUTTON1] [BUTTON2] [BUTTON3] [BUTTON4] [BUTTON5] [BUTTON6]
+Description: Shows modal confirmation dialog with up to 6 buttons. Pauses execution until user clicks. Returns clicked button text.
+Parameters: Dialog text, Button 1-6 text (blank buttons are hidden)
+
+widget_runproject
+Syntax: run project [PROJECTID] in [BROWSERTAB v] browser tab
+Description: Runs another CreatiCode project. Auto-starts in full stage mode. Opens in new tab or replaces current project.
+Parameters: Project ID, Browser tab (new/this)
+
+widget_opennewtabwithurl
+Syntax: open URL [URL] in new browser tab
+Description: Opens a URL in a new browser tab.
+Parameters: URL
+
+================================================================================
+OTHER CATEGORIES WITH RELATED FUNCTIONALITY
+================================================================================
+
+Searched for related categories like UI, interface, display, control:
+- No additional widget-related blocks found outside the "Widgets" category
+- Widget functionality is isolated to the 71 blocks listed above
+
+================================================================================
+QUICK STATISTICS
+================================================================================
+
+Total Widget Blocks: 71
+
+Breakdown by Type:
+- Text Widgets: 2 (textbox, label)
+- Rich Text: 1 (rich textbox)
+- Buttons & Selection: 3 (button, radio button, checkbox)
+- Input Widgets: 4 (date picker, color picker, slider, dropdown)
+- Media Widgets: 7 (camera, camera snapshot, video, 4x images)
+- Layout Widgets: 7 (toolbox, menu bar, menu system, tabs, layout)
+- Data Visualization: 4 (charts from list/column/category, progress bar)
+- Chat System: 3 (create chat window, append message, update message)
+- Value Management: 3 (get value, set value, append text)
+- Styling: 2 (text style, widget style)
+- Visibility/Layering: 3 (show/hide single, show/hide all, z-index)
+- Animation/Transform: 5 (move, resize, scale, rotate, transparency)
+- Widget Management: 5 (remove, remove all, release focus, disable, delete costume)
+- Video Control: 5 (action, seek, current time, volume, playback speed)
+- Click Events: 4 (widget clicked, any button clicked, mouse enter, mouse leave)
+- Value Change Events: 2 (widget changes, tab selected)
+- Video Events: 4 (video time, paused, stopped, started)
+- Dialog/Navigation: 3 (confirmation dialog, run project, open URL)
+
+================================================================================

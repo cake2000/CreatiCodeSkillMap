@@ -15497,7 +15497,7 @@ Dependencies:
 ID: T26.G3.02
 Topic: T26 – Data Collection & Logging
 Skill: Write fair survey questions
-Description: Learners compare two survey questions—one that suggests an answer ("Don't you love cats?") and one that is neutral ("What is your favorite pet?")—then practice writing their own fair survey question and implement it in CreatiCode using the ask block with multiple-choice buttons, ensuring all response options are equally valid.
+Description: Learners compare two survey questions—one that suggests an answer ("Don't you love cats?") and one that lets anyone answer honestly ("Do you like cats, dogs, or neither?")—and practice writing questions that give fair choices for everyone.
 
 Dependencies:
 * T26.G3.01: Script a CreatiCode survey loop
@@ -15597,30 +15597,6 @@ Dependencies:
 * T26.G4.01: Create collection protocols for partners
 
 
-ID: T26.G4.05
-Topic: T26 – Data Collection & Logging
-Skill: Practice simple file export and import
-Description: Students export a simple list variable to a file (downloading it), then import it back into a new project, learning the basics of data persistence through files before moving to databases.
-
-Dependencies:
-* T10.G3.03: Add and remove items from a list
-* T26.G4.02: Use tables to log multi-attribute events
-
-Blocks: export variable to file, import variable from file
-
-
-ID: T26.G4.06
-Topic: T26 – Data Collection & Logging
-Skill: Collect data from one AI sensor
-Description: Students practice with a single AI sensor (like microphone volume or mouse position) by logging its values to a list every second for 10 seconds, building familiarity with continuous data collection before combining multiple sensors.
-
-Dependencies:
-* T10.G3.03: Add and remove items from a list
-* T26.G4.02: Use tables to log multi-attribute events
-
-Blocks: loudness of microphone, mouse x, mouse y, add item to list
-
-
 ID: T26.G5.01
 Topic: T26 – Data Collection & Logging
 Skill: Add print statements to track events during execution
@@ -15631,21 +15607,17 @@ Dependencies:
 * T10.G3.03: Add and remove items from a list
 * T26.G4.02: Use tables to log multi-attribute events
 
-Blocks: print to console, say for 2 seconds, variables
-
 
 ID: T26.G5.02
 Topic: T26 – Data Collection & Logging
 Skill: Plan sampling strategies
-Description: Learners compare convenience sampling (asking the first 5 classmates they see) vs random sampling (using a random number generator to select student IDs) for a class poll. They plan and document which sampling strategy they'll use and why, explaining the trade-offs between ease of collection and representativeness. They implement their chosen strategy in CreatiCode.
+Description: Learners compare convenience sampling (asking whoever is nearby) vs random sampling (using a method to pick people fairly) for a class poll, plan and document which sampling strategy they'll use and why, explaining the trade-offs between ease of collection and representativeness.
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 * T26.G2.05: Conduct a multi-response tally survey
-
-Blocks: ask and wait, pick random from list
 
 
 ID: T26.G5.03
@@ -15670,33 +15642,27 @@ Dependencies:
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.01: Add print statements to track events during execution
 
-Blocks: create table, add row to table, get cell from table, set cell in table
-
 
 ID: T26.G5.05
 Topic: T26 – Data Collection & Logging
 Skill: Save and load tables to/from CreatiCode cloud storage
-Description: Students use CreatiCode database blocks to save their data tables to cloud database collections and retrieve them later, enabling persistent data collection across multiple play sessions or sharing data between different projects.
+Description: Students use CreatiCode cloud blocks to save their data tables to cloud storage and retrieve them later, enabling persistent data collection across multiple play sessions or sharing data between different projects.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.04: Store logs in CreatiCode tables for export
 
-Blocks: insert document into collection, fetch documents from collection
-
 
 ID: T26.G5.06
 Topic: T26 – Data Collection & Logging
 Skill: Record player scores and retrieve leaderboard data
-Description: Learners implement leaderboard functionality by using CreatiCode's leaderboard blocks to record player names and scores, then retrieve and display the top scores, introducing concepts of persistent data storage and ranking operations.
+Description: Learners implement leaderboard functionality by recording player names and scores to cloud storage, then retrieving and displaying the top scores, introducing concepts of persistent data storage and basic database operations.
 
 Dependencies:
 * T09.G4.01: Create and use a numeric variable for score or count
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.05: Save and load tables to/from CreatiCode cloud storage
-
-Blocks: record score to leaderboard, show leaderboard, hide leaderboard
 
 
 ID: T26.G5.07
@@ -15713,27 +15679,12 @@ Dependencies:
 ID: T26.G5.08
 Topic: T26 – Data Collection & Logging
 Skill: Export and import variables to/from files
-Description: Learners use CreatiCode file blocks to export variables or tables to downloadable files (JSON format) and import them back in later sessions, understanding basic file I/O operations for data persistence and backup.
+Description: Learners save individual variables or lists to local files and reload them in later sessions, understanding basic file I/O operations for data persistence and backup.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 * T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: export variable to file, import variable from file, export table to file, import table from file
-
-
-ID: T26.G5.09
-Topic: T26 – Data Collection & Logging
-Skill: Collect data from two synchronized sensors
-Description: Students log data from two different sensors simultaneously (e.g., mouse position and microphone volume) into a table with matching timestamps, learning to coordinate multiple data streams before scaling to more sensors.
-
-Dependencies:
-* T10.G4.02: Read and modify cells in a table
-* T26.G4.06: Collect data from one AI sensor
-* T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: loudness of microphone, mouse x, mouse y, add row to table, timer
 
 
 ID: T26.G6.01
@@ -15752,15 +15703,13 @@ Dependencies:
 ID: T26.G6.02
 Topic: T26 – Data Collection & Logging
 Skill: Automate logging from multiple CreatiCode sensors
-Description: Learners combine blocks to record data from multiple sensor types (face detection, hand tracking, microphone level) simultaneously into a unified table, ensuring all data streams are captured with matching timestamps for synchronized analysis.
+Description: Learners combine blocks to record data from multiple sensor types (face detection, hand tracking, pose estimation, body segmentation, microphone level, mouse position) simultaneously into a unified table, ensuring all data streams are captured with matching timestamps for synchronized analysis.
 
 Dependencies:
 * T06.G4.01: Build a green-flag script that runs a 3-5 block sequence
 * T09.G4.04: Trace code with variables to predict outcomes
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: detect faces, detect hands, loudness of microphone, add row to table, timer
 
 
 ID: T26.G6.03
@@ -15779,7 +15728,7 @@ Dependencies:
 ID: T26.G6.04
 Topic: T26 – Data Collection & Logging
 Skill: Note when measurements might be inaccurate
-Description: Learners add a "data quality" column to their measurement tables using descriptive flags like "verified," "estimated," or "uncertain." For example, when recording game scores, they mark auto-recorded scores as "verified" but manually entered scores as "estimated," teaching them to document measurement reliability alongside the data itself.
+Description: Learners add a "confidence" or "notes" column when recording measurements to indicate when values might be less accurate (e.g., "rushed measurement," "hard to see," "estimated"), teaching them to think about data quality.
 
 Dependencies:
 * T08.G4.01: Use a simple if in a script
@@ -15798,8 +15747,6 @@ Dependencies:
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.05: Save and load tables to/from CreatiCode cloud storage
 * T26.G6.01: Map stakeholder questions to data requirements
-
-Blocks: insert document into collection, set database URL and key
 
 
 ID: T26.G6.06
@@ -15820,8 +15767,6 @@ Description: Students use Google Sheets integration blocks to pull data from sha
 Dependencies:
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: read Google Sheets into table, set Google Sheets credentials
 
 
 ID: T26.G6.08
@@ -15857,8 +15802,6 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T11.G5.02: Define a custom block with one parameter
 * T26.G6.01: Map stakeholder questions to data requirements
-
-Blocks: define custom block, call custom block, add row to table
 
 
 ID: T26.G7.02
@@ -15938,7 +15881,7 @@ Dependencies:
 ID: T26.G8.01
 Topic: T26 – Data Collection & Logging
 Skill: Design end-to-end telemetry pipelines with cloud integration
-Description: Students design a complete data pipeline diagram for a multi-level game, mapping the flow: (1) in-game events → (2) validation checks → (3) table storage → (4) database insert → (5) query/retrieval → (6) file export. They identify what data transformations happen at each stage and why, understanding how professional games track player behavior for analytics.
+Description: Students draw a complete pipeline diagram for a multi-level game showing data flow from client-side logging through cloud storage and database collections to final CSV export, identifying key components (sensors, validation, storage, retrieval) and emphasizing proper interfaces between each pipeline stage.
 
 Dependencies:
 * T01.G6.01: Count comparisons in linear and binary search
@@ -16075,8 +16018,8 @@ Dependencies:
 
 ID: T27.G2.03
 Topic: T27 – Data Analysis & Storytelling
-Skill: Find values that look different from others
-Description: Learners look at illustrated lists like [3, 4, 3, 12] represented as pictures or bars and point out which value looks different, explaining why 12 doesn't fit the pattern of 3s and 4s. This builds intuition for what will later be called "outliers" in statistics.
+Skill: Identify outliers visually in small data sets
+Description: Learners look at illustrated lists like [3, 4, 3, 12] represented as pictures or bars and point out which value looks different, explaining why 12 is unusual compared to the others.
 
 Dependencies:
 * T01.G1.10: Match pictures to "if/then" rules
@@ -16093,16 +16036,6 @@ Dependencies:
 * T27.G2.02: Interpret simple line plots
 
 
-ID: T27.G3.00
-Topic: T27 – Data Analysis & Storytelling
-Skill: Add basic widgets to display information
-Description: Students learn to add simple text labels and buttons using CreatiCode widget blocks ('add button', 'add label'), position them on stage, and set initial text. This foundational skill prepares for interactive dashboards in later grades.
-
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
 ID: T27.G3.01b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create and populate data tables in CreatiCode
@@ -16116,21 +16049,12 @@ Dependencies:
 
 ID: T27.G3.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Compute sum and average from data tables
-Description: Students use CreatiCode's built-in aggregation blocks to compute basic statistics from data tables: [sum v] and [average v] of column [scores] in table [data v]. They learn to calculate totals and means efficiently using built-in blocks, forming the foundation for more advanced statistical operations.
+Skill: Compute totals and averages from data tables
+Description: Students use CreatiCode's built-in aggregation blocks to compute statistics from data tables: [sum v], [average v], [median v], [minimum v], and [maximum v] of column [scores] in table [data v], learning to use powerful analysis tools efficiently without manual loops.
 
 Dependencies:
 * T27.G3.01b: Create and populate data tables in CreatiCode
 * T07.G3.01: Use a counted repeat loop
-
-
-ID: T27.G3.01c
-Topic: T27 – Data Analysis & Storytelling
-Skill: Find minimum and maximum values in tables
-Description: Students use CreatiCode's [minimum v] and [maximum v] aggregation blocks to find the smallest and largest values in table columns. They learn when finding extremes is useful (identifying top performers, detecting outliers, understanding data range) and practice interpreting these values in context.
-
-Dependencies:
-* T27.G3.01: Compute sum and average from data tables
 
 
 ID: T27.G3.02
@@ -16146,7 +16070,7 @@ Dependencies:
 ID: T27.G3.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Use CreatiCode data tables to group and count
-Description: Students use 'row count of table [data v]' to count total rows, and simple filtering with 'delete rows with column [type] of value [desert]' to isolate specific categories before counting, learning basic data grouping.
+Description: Students use CreatiCode table blocks to filter rows by category (e.g., using 'delete rows with column [type] of value [desert]' to remove desert levels, keeping only other types) and count how many rows match (using 'row count of table [data v]'), learning simple data grouping and filtering operations.
 
 Dependencies:
 * T27.G3.01b: Create and populate data tables in CreatiCode
@@ -16160,15 +16084,6 @@ Description: Learners use CreatiCode's 'draw [bar v] chart using columns [classA
 
 Dependencies:
 * T27.G3.03: Use CreatiCode data tables to group and count
-
-
-ID: T27.G3.05
-Topic: T27 – Data Analysis & Storytelling
-Skill: Choose appropriate chart types for data
-Description: Students learn when to use bar charts (comparing categories), line charts (showing change over time), and percentage charts (showing parts of a whole). They practice selecting the right chart type based on what question they want to answer with their data.
-
-Dependencies:
-* T27.G3.04: Create side-by-side bar charts for two groups
 
 
 ID: T27.G4.01
@@ -16187,35 +16102,38 @@ Dependencies:
 ID: T27.G4.02b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Understand median and mode concepts
-Description: Students examine small, pre-sorted datasets and identify the median (middle value) and mode (most frequent value) through visual inspection and counting. They explain why these statistics differ from the mean and when each is most useful (e.g., median is less affected by values that look different). They connect these concepts to everyday situations: median is like finding the 'middle kid' when lining up by height, mode is like finding the most popular lunch choice in class.
+Description: Students examine small, pre-sorted datasets and identify the median (middle value) and mode (most frequent value) through visual inspection and counting. They explain why these statistics differ from the mean and when each is most useful (e.g., median is less affected by outliers). This is a conceptual data literacy skill preparing for computational implementation.
 
 Dependencies:
-* T27.G3.01: Compute sum and average from data tables
+* T27.G3.01: Compute totals and averages from data tables
+* T27.G2.03: Identify outliers visually in small data sets
 
 
 ID: T27.G4.02c
 Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate median using built-in blocks
-Description: Students use CreatiCode's built-in [median v] aggregation block to find the middle value in table columns: [median v] of column [scores] in table [data v]. They learn that median requires sorted data and understand when median is more useful than average (when data has extreme values).
-
-Dependencies:
-* T27.G4.02b: Understand median and mode concepts
-
-
-ID: T27.G4.02e
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate mode by counting frequencies
-Description: Students implement mode calculation by manually counting how often each value appears using loops and conditional logic. Since there is no built-in mode aggregation block, they build a custom algorithm: loop through each unique value, count its frequency, and track which value appears most often. This connects statistical concepts to algorithm design.
+Skill: Calculate median and mode using code
+Description: Students implement median calculation using CreatiCode's built-in aggregation block ([median v] of column [scores] in table [data v]), and mode calculation by manually counting frequencies using loops and conditional logic (as there is no built-in mode aggregation block). They connect statistical concepts to code implementation through a mix of built-in functions and custom algorithms.
 
 Dependencies:
 * T27.G4.02b: Understand median and mode concepts
 * T08.G3.01: Use a simple if in a script
 
 
+ID: T27.G4.02
+Topic: T27 – Data Analysis & Storytelling
+Skill: Calculate percentages from grouped data
+Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and display results using percentage charts (created with 'draw [percentage v] chart using columns [...] from table [...]'), connecting raw counts to relative comparisons for interpretive analysis.
+
+Dependencies:
+* T27.G4.02b: Understand median and mode concepts
+* T27.G3.03: Use CreatiCode data tables to group and count
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
 ID: T27.G4.02d
 Topic: T27 – Data Analysis & Storytelling
 Skill: Filter table rows by condition
-Description: Students use CreatiCode's built-in filtering for exact matches (e.g., 'delete rows with column [score] of value [0]' to remove rows with zero scores). For range-based filtering (like keeping rows where score > 50), they iterate through rows using loops with conditional logic to copy matching rows to a new table. They learn when built-in blocks suffice versus when custom loops are needed.
+Description: Students use CreatiCode filtering blocks to remove rows matching specific criteria (e.g., 'delete rows with column [score] of value [0]' to remove incomplete data). For more complex filtering (like keeping rows where level > 5), they learn to iterate through rows using loops and conditional logic to copy matching rows to a new table. This prepares for dashboard filtering and data quality control.
 
 Dependencies:
 * T27.G3.03: Use CreatiCode data tables to group and count
@@ -16233,15 +16151,6 @@ Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T26.G3.04: Separate raw data from summary data
 * T27.G3.03: Use CreatiCode data tables to group and count
-
-
-ID: T27.G4.03b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Handle missing or invalid data
-Description: Students decide how to handle data quality issues: skip rows with missing values, replace missing numbers with averages, or flag invalid entries for review. They implement their chosen strategy using conditional blocks and document their decisions.
-
-Dependencies:
-* T27.G4.03: Check data quality before analysis
 
 
 ID: T27.G4.04
@@ -16266,37 +16175,16 @@ Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
-ID: T27.G5.00
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate percentages from grouped data
-Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and display results using percentage charts (created with 'draw [percentage v] chart using columns [...] from table [...]'), connecting raw counts to relative comparisons for interpretive analysis.
-
-Dependencies:
-* T27.G3.03: Use CreatiCode data tables to group and count
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
 ID: T27.G5.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build a simple interactive dashboard with filter widgets
-Description: Students connect pre-existing widgets to data filtering logic, so clicking a button or selecting a dropdown option triggers table filtering and chart updates. They learn to respond to widget events and update visualizations dynamically based on user choices.
+Description: Students connect 2-3 CreatiCode widgets (using 'add dropdown menu' and 'add button' blocks) to data tables, responding to 'when widget [name v] clicked' or 'when widget [name v] changes' events, so viewers can filter by one category (e.g., clicking "Forest" button shows only forest level data) and watch a single chart update dynamically. This introduces interactive data exploration.
 
 Dependencies:
 * T27.G4.02d: Filter table rows by condition
 * T09.G3.05: Trace code with variables to predict outcomes
 * T26.G3.04: Separate raw data from summary data
 * T27.G4.04: Create narrative captions for charts
-* T27.G3.00: Add basic widgets to display information
-
-
-ID: T27.G5.00b
-Topic: T27 – Data Analysis & Storytelling
-Skill: Respond to widget events in dashboards
-Description: Students use 'when widget [filterButton v] clicked' and 'when widget [dropdown v] changes' event blocks to trigger data filtering or chart updates, making dashboards interactive and responsive to user choices.
-
-Dependencies:
-* T27.G5.01: Build a simple interactive dashboard with filter widgets
-* T27.G3.00: Add basic widgets to display information
 
 
 ID: T27.G5.01b
@@ -16317,14 +16205,14 @@ Description: Students create dual bar charts or overlaid line charts (using mult
 
 Dependencies:
 * T27.G4.01: Analyze change over time using line graphs
-* T27.G5.00: Calculate percentages from grouped data
+* T27.G4.02: Calculate percentages from grouped data
 * T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 
 
 ID: T27.G5.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare data from two sensors or sources
-Description: Students analyze two related datasets to spot mismatches and hypothesize causes. For example, comparing AI voice commands (what was said) versus actions taken (what the program did), or comparing sensor readings from two different devices. They use side-by-side table comparison or manual inspection to identify discrepancies between expected and actual data.
+Description: Students analyze two logs (voice commands vs actual actions) to spot mismatches and hypothesize causes. They use side-by-side table comparison or manual inspection to identify discrepancies between expected and actual data.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
@@ -16345,8 +16233,8 @@ Dependencies:
 
 ID: T27.G6.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Filter tables using AND conditions
-Description: Students implement filtering logic where multiple conditions must all be true (AND logic). They use loops with compound conditionals to check if rows meet all criteria (e.g., level = "Forest" AND score > 50), understanding that AND filters become more restrictive as conditions are added.
+Skill: Filter table rows using multiple conditions
+Description: Students implement compound filtering logic by combining multiple table operations and conditional checks (e.g., first delete rows where level ≠ "Forest", then use loops with conditionals to delete rows where score ≤ 50), building complex filters from basic operations before computing summaries or drawing charts.
 
 Dependencies:
 * T27.G4.02d: Filter table rows by condition
@@ -16354,15 +16242,6 @@ Dependencies:
 * T09.G4.04: Trace code with variables to predict outcomes
 * T26.G4.04: Plan a one-week observation schedule for a variable
 * T27.G5.03: Compare data from two sensors or sources
-
-
-ID: T27.G6.01c
-Topic: T27 – Data Analysis & Storytelling
-Skill: Filter tables using OR conditions
-Description: Students implement filtering logic where at least one condition must be true (OR logic). They learn to check if rows meet any of several criteria (e.g., level = "Forest" OR level = "Desert"), understanding that OR filters become less restrictive as conditions are added, contrasting with AND logic.
-
-Dependencies:
-* T27.G6.01: Filter tables using AND conditions
 
 
 ID: T27.G6.01b
@@ -16373,15 +16252,6 @@ Description: Students use a two-step lookup process: first 'row # of [John] in c
 Dependencies:
 * T27.G5.01b: Group data by category and compute statistics (GROUP BY)
 * T09.G4.04: Trace code with variables to predict outcomes
-
-
-ID: T27.G6.01d
-Topic: T27 – Data Analysis & Storytelling
-Skill: Combine data from two tables
-Description: Students learn to merge data from two related tables using lookups iteratively, copying matching rows into a new combined table. This prepares for database-style JOIN operations in data analysis.
-
-Dependencies:
-* T27.G6.01b: Look up values across tables (VLOOKUP)
 
 
 ID: T27.G6.02
@@ -16429,8 +16299,8 @@ Dependencies:
 
 ID: T27.G6.04
 Topic: T27 – Data Analysis & Storytelling
-Skill: Create structured summaries with labeled findings
-Description: Learners condense findings into structured text formats using consistent labels: METRIC (key number), INSIGHT (pattern observed), ACTION (recommended next step). These structured summaries can be used for reports, shared with teammates, or copied into AI assistants for further analysis. This teaches clear, organized data communication.
+Skill: Create structured summaries for AI input
+Description: Learners condense findings into structured text formats (key metric, insight, recommended action) that can be copied into AI assistants like XO for further analysis or to generate reports, bridging data analysis with AI prompt engineering.
 
 Dependencies:
 * T06.G4.01: Sequence multiple sprite events
@@ -16443,7 +16313,7 @@ Dependencies:
 ID: T27.G7.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build multi-chart dashboards with linked filters
-Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter using shared variables and broadcast messages. When a user changes the filter value, a broadcast message triggers all charts to redraw using the updated shared variable, providing cohesive synchronized analysis. This explicitly uses event broadcasting to coordinate multiple visualizations.
+Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter variable (using shared variables and event broadcasting), providing cohesive analysis for complex apps. When one filter changes, all charts update together.
 
 Dependencies:
 * T10.G4.01: Use list length and item access in expressions
@@ -16477,7 +16347,7 @@ Dependencies:
 ID: T27.G7.02b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Calculate moving averages for trend smoothing
-Description: Students first extract a table column into a list using loops (copying each row's value to a list), which is required because moving average blocks work only on lists, not tables. Then they use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
+Description: Students extract table columns into lists (since moving average works on lists, not tables), then use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
 
 Dependencies:
 * T27.G6.03: Identify trends and patterns in time-series data
@@ -16622,7 +16492,7 @@ Dependencies:
 ID: T28.G3.02
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Explain what "pick random" does by testing predictions
-Description: Students experiment with a "pick random" block by running it repeatedly, observing results, and writing what the block does in their own words. They predict which values "pick random 1 to 6" can produce (possible vs impossible values) and test their predictions. Their explanation must include: (1) the range of possible values and (2) that each value has equal likelihood.
+Description: Students experiment with a "pick random" block by running it repeatedly, observing results, and writing what the block does in their own words. They predict which values "pick random 1 to 6" can produce (possible vs impossible values) and test their predictions.
 
 Dependencies:
 * T28.G3.01: Interpret provided simulation output
@@ -16654,6 +16524,7 @@ Description: Learners pick a familiar board or card game (Chutes and Ladders, Ca
 
 Dependencies:
 * T28.G3.01: Interpret provided simulation output
+* T28.G3.06: Modify a teacher-provided random generator
 
 
 ID: T28.G3.06
@@ -16678,8 +16549,8 @@ Dependencies:
 
 ID: T28.G4.01
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Build a random generator using if-statements
-Description: Students create a script that uses 'pick random 1-4' with if-statements to convert random numbers into meaningful outcomes (e.g., 1=red, 2=blue, 3=green, 4=yellow). This builds on basic random generators by adding conditional logic to interpret random values. They use a 'say' block to display the result and click the green flag multiple times to verify each outcome can appear.
+Skill: Build a simple random generator
+Description: Students create a script that uses 'pick random 1-4' with if-statements to determine which of four colors was chosen, then report that color with a 'say' block. They click the green flag multiple times to verify each color can appear.
 
 Dependencies:
 * T28.G3.07: Assemble blocks to build a random generator
@@ -16789,7 +16660,7 @@ Dependencies:
 ID: T28.G5.02
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Randomly assign participants to conditions
-Description: Students write a script that tags each simulated user as "A" or "B," logs assignment, and reports counts to ensure near-equal groups.
+Description: Learners write a function that tags each simulated user as "A" or "B," logs assignment, and reports counts to ensure near-equal groups.
 
 Dependencies:
 * T28.G4.02.03: Calculate percentages from frequency counts
@@ -16845,6 +16716,7 @@ Description: Students generate data from repeated trials (e.g., sum of two dice 
 
 Dependencies:
 * T28.G5.01.02: Analyze compound event distributions
+* T27.G4.02c: Calculate median and mode using code
 
 
 ID: T28.G5.09
@@ -16878,8 +16750,8 @@ Dependencies:
 
 ID: T28.G5.08
 Topic: T28 – Chance & Simulations: G2–8 Skill List
-Skill: Track agent state for probabilistic simulations
-Description: Students create a sprite that represents an agent in a probabilistic simulation. The agent maintains its position using x,y coordinate variables and tracks one additional state variable that can change randomly or based on conditions (e.g., direction facing, energy level, or current mode). They write code to update these variables based on simulation rules and display the current values on the stage. This prepares students for building grid-based agents with random movement.
+Skill: Track position and state for a single sprite
+Description: Students create a sprite that maintains its position using x,y coordinate variables and tracks one additional state variable (e.g., direction facing, energy level, or current color). They write code to update these variables and display the current values on the stage.
 
 Dependencies:
 * T09.G4.04: Use variables to control animation or game state
@@ -16893,6 +16765,7 @@ Skill: Manually test parameters and log results
 Description: Students test a simulation with 3-5 different parameter values (e.g., enemy speed = 1, 2, 3, 4, 5), manually run 20 trials for each value, and record win rates in a table. They identify which parameter value produces the most balanced gameplay.
 
 Dependencies:
+* T09.G4.04: Use variables to control animation or game state
 * T09.G5.01: Modify variables based on user input or sensor events
 * T28.G5.04: Document simulation plans before coding
 
@@ -16911,12 +16784,14 @@ Dependencies:
 ID: T28.G6.02
 Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Use random seeds for reproducibility
-Description: Students populate a list with seeded random numbers using 'set [list] to (N) random numbers with seed (SEED)', then draw values from this list sequentially to create reproducible random sequences in their simulation. They run the simulation twice with the same seed to verify identical results, then try a different seed to see different outcomes. They explain why reproducibility matters for debugging and sharing results with others.
+Description: Learners set a seed value before running a simulation, observe the sequence of random outputs, then reset and rerun with the same seed to verify identical results. They explain why reproducibility matters for debugging and sharing results with others.
 
 Dependencies:
-* T28.G5.04: Document simulation plans before coding
-* T09.G5.01: Modify variables based on user input or sensor events
 * T07.G5.01: Use a counted repeat loop
+* T08.G4.01: Choose actions based on user input or sensor values
+* T09.G4.04: Use variables to control animation or game state
+* T09.G5.01: Modify variables based on user input or sensor events
+* T28.G5.04: Document simulation plans before coding
 
 
 ID: T28.G6.03
@@ -16987,7 +16862,7 @@ Description: Students add walls (as sprites or using collision detection) and go
 
 Dependencies:
 * T28.G6.05: Model a simple agent in a grid world
-* T08.G4.01: Choose actions based on user input or sensor values
+* T08.G5.01: Use a simple if in a script
 
 
 ID: T28.G6.08
@@ -17286,8 +17161,8 @@ Dependencies:
 
 ID: T29.G3.03
 Topic: T29 – Text Data & NLP Foundations
-Skill: Build automated word categorizer using conditionals and lists
-Description: Students build code that automatically categorizes words into meaning-based groups (emotion, action, place) using conditionals and lists. They explain their categorization logic, preparing for later metadata tagging and semantic understanding.
+Skill: Group words by category (emotion, action, place)
+Description: Students categorize words into meaning-based groups and explain their reasoning, preparing for later metadata tagging and semantic understanding.
 
 Dependencies:
 * T29.G3.02: Count word occurrences using variables
@@ -17299,84 +17174,12 @@ Skill: Explain why clean text helps AI helpers
 Description: Learners compare two sample prompts (one with typos/unclear phrasing vs clean text) and discuss how clarity affects AI responses, building responsible AI use habits.
 
 Dependencies:
-* T29.G3.03: Build automated word categorizer using conditionals and lists
-
-
-ID: T29.G3.05
-Topic: T29 – Text Data & NLP Foundations
-Skill: Compare text for equality using "=" operator
-Description: Students use the equals operator to check if two text variables match exactly, understanding case-sensitive comparison. They test examples to see when texts are equal and when they differ.
-
-Dependencies:
-* T29.G3.02: Count word occurrences using variables
+* T29.G3.03: Group words by category (emotion, action, place)
 
 
 
 
-ID: T29.G4.00
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use ask/answer blocks for text input and display results
-Description: Students use the 'ask' block to get text input from users, store it in variables, and display it using 'say' blocks or variable monitors. They build simple text echo programs.
-
-Dependencies:
-* T29.G3.04: Explain why clean text helps AI helpers
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
-ID: T29.G4.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use split and join blocks for text manipulation
-Description: Students write a script that takes a sentence, uses the split block to separate it on spaces, stores each word in a list, and uses join to reconstruct text. This is the foundational skill for all text processing.
-
-Dependencies:
-* T29.G4.00: Use ask/answer blocks for text input and display results
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G4.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Access individual characters using "letter # of" operator
-Description: Students use Scratch's "letter # of" operator to access and display specific characters from text by their position (index starting at 1). They extract first letter, last letter, or specific positions.
-
-Dependencies:
-* T29.G4.01: Use split and join blocks for text manipulation
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T29.G4.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Count characters and words using "length of" and split
-Description: Students use Scratch's "length of" operator to count characters in text, and use split on spaces plus list length to count words. They compare the two counts and discuss the difference.
-
-Dependencies:
-* T29.G4.01: Use split and join blocks for text manipulation
-* T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G4.04.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Convert text case using lowercase/uppercase operators
-Description: Learners build scripts that convert text to lowercase or uppercase using Scratch's case conversion operators, understanding case normalization for text comparison.
-
-Dependencies:
-* T29.G4.01: Use split and join blocks for text manipulation
-* T09.G3.05: Trace code with variables to predict outcomes
-
-
-ID: T29.G4.04.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Test if text includes, starts with, or ends with a pattern
-Description: Students use string comparison blocks (includes, starts with, ends with) with case-insensitive options to check if text contains specific patterns, useful for keyword detection and validation.
-
-Dependencies:
-* T29.G4.04.01: Convert text case using lowercase/uppercase operators
-* T29.G3.05: Compare text for equality using "=" operator
-* T08.G3.01: Use a simple if in a script
-
-
-ID: T29.G4.05.01
+ID: T29.G4.01.01
 Topic: T29 – Text Data & NLP Foundations
 Skill: Compare human vs AI summaries (conceptual)
 Description: Students read a short text, write their own 1-2 sentence summary, then read an AI-generated summary. They discuss what each summary includes and omits, understanding AI summarization as a conceptual tool.
@@ -17385,26 +17188,78 @@ Dependencies:
 * T29.G3.04: Explain why clean text helps AI helpers
 
 
-ID: T29.G4.05.02
+ID: T29.G4.01.02
 Topic: T29 – Text Data & NLP Foundations
 Skill: Generate AI summaries using ChatGPT blocks
 Description: Students use CreatiCode's ChatGPT blocks to generate summaries of text content, experimenting with different prompt phrasings to improve summary quality.
 
 Dependencies:
-* T29.G4.05.01: Compare human vs AI summaries (conceptual)
-* T29.G4.01: Use split and join blocks for text manipulation
+* T29.G4.01.01: Compare human vs AI summaries (conceptual)
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 
 
-ID: T29.G4.06
+ID: T29.G4.02
+Topic: T29 – Text Data & NLP Foundations
+Skill: Use split and join blocks for text manipulation
+Description: Students write a script that takes a sentence, uses the split block to separate it on spaces, stores each word in a list, and uses join to reconstruct text. This is the foundational skill for all text processing.
+
+Dependencies:
+* T29.G3.04: Explain why clean text helps AI helpers
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
+
+
+ID: T29.G4.03
+Topic: T29 – Text Data & NLP Foundations
+Skill: Access individual characters using "letter # of" operator
+Description: Students use Scratch's "letter # of" operator to access and display specific characters from text by their position (index starting at 1). They extract first letter, last letter, or specific positions.
+
+Dependencies:
+* T29.G4.02: Use split and join blocks for text manipulation
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T29.G4.04
+Topic: T29 – Text Data & NLP Foundations
+Skill: Count characters and words using "length of" and split
+Description: Students use Scratch's "length of" operator to count characters in text, and use split on spaces plus list length to count words. They compare the two counts and discuss the difference.
+
+Dependencies:
+* T29.G4.02: Use split and join blocks for text manipulation
+* T10.G3.03: Add and remove items from a list
+
+
+ID: T29.G4.05
+Topic: T29 – Text Data & NLP Foundations
+Skill: Test if text includes, starts with, or ends with a pattern
+Description: Students use string comparison blocks (includes, starts with, ends with) to check if text contains specific patterns, useful for keyword detection and validation.
+
+Dependencies:
+* T29.G4.02: Use split and join blocks for text manipulation
+* T08.G3.01: Use a simple if in a script
+
+
+ID: T29.G4.06.01
+Topic: T29 – Text Data & NLP Foundations
+Skill: Convert text case using lowercase/uppercase operators
+Description: Learners build scripts that convert text to lowercase or uppercase using Scratch's case conversion operators, understanding case normalization for text comparison.
+
+Dependencies:
+* T29.G4.02: Use split and join blocks for text manipulation
+* T09.G3.05: Trace code with variables to predict outcomes
+
+
+ID: T29.G4.06.02
 Topic: T29 – Text Data & NLP Foundations
 Skill: Remove punctuation using replace or character filtering
 Description: Students use the replace block to remove common punctuation marks, or loop through characters to keep only letters and spaces. This builds on case conversion for full text cleaning.
 
 Dependencies:
-* T29.G4.04.01: Convert text case using lowercase/uppercase operators
+* T29.G4.06.01: Convert text case using lowercase/uppercase operators
 * T07.G3.03: Trace code with simple loops to predict outcomes
 * T10.G3.03: Add and remove items from a list
 
@@ -17415,27 +17270,32 @@ Skill: Extract substrings and find text position
 Description: Students use "substring from position" operations (combining "letter # of" in loops or using split/join creatively) to extract parts of text. They find the position of specific text within strings.
 
 Dependencies:
-* T29.G4.02: Access individual characters using "letter # of" operator
+* T29.G4.03: Access individual characters using "letter # of" operator
 * T07.G3.03: Trace code with simple loops to predict outcomes
 
 
-ID: T29.G4.10
+ID: T29.G4.08
 Topic: T29 – Text Data & NLP Foundations
-Skill: Store text data in simple tables (2 columns max)
-Description: Students create simple two-column tables (e.g., 'word' and 'count') to organize text data, understanding when tables are better than lists for paired data.
+Skill: Count words and report the most frequent
+Description: Students iterate over a word list (from split), keep counts in parallel lists or table, and identify the most common word. They handle the full frequency analysis pipeline.
 
 Dependencies:
-* T29.G4.01: Use split and join blocks for text manipulation
-* T11.G4.01: Create and use a simple table
+* T29.G4.06.02: Remove punctuation using replace or character filtering
+* T07.G3.03: Trace code with simple loops to predict outcomes
+* T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
 
 
-ID: T29.G4.11
+ID: T29.G4.09
 Topic: T29 – Text Data & NLP Foundations
-Skill: Recognize emotional tone in text (unplugged/semi-plugged)
-Description: Students read sample texts and label them as positive, negative, or neutral. They discuss how word choice affects emotional tone and begin identifying "sentiment words."
+Skill: Highlight keywords in text display
+Description: Learners write code that scans a paragraph, finds keyword positions using split and includes, and displays the text with visual highlighting (color changes on sprites or text display blocks).
 
 Dependencies:
-* T29.G3.03: Build automated word categorizer using conditionals and lists
+* T29.G4.05: Test if text includes, starts with, or ends with a pattern
+* T07.G3.03: Trace code with simple loops to predict outcomes
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -17446,7 +17306,8 @@ Skill: Design table schemas for text data (chat logs)
 Description: Students design table schemas for storing chat logs or messages, defining columns for timestamp, speaker, message text, and metadata. They sketch the structure before implementation.
 
 Dependencies:
-* T29.G4.10: Store text data in simple tables (2 columns max)
+* T29.G4.02: Use split and join blocks for text manipulation
+* T29.G4.08: Count words and report the most frequent
 
 
 ID: T29.G5.02
@@ -17460,22 +17321,13 @@ Dependencies:
 * T08.G4.02: Write scripts combining sequencing, loops, and conditionals
 
 
-ID: T29.G5.03.01
+ID: T29.G5.03
 Topic: T29 – Text Data & NLP Foundations
-Skill: Understand stop-words and their purpose
-Description: Students analyze word frequency results and notice that common words (the, a, is) dominate. They learn these are called 'stop-words' and discuss when to remove them vs keep them.
-
-Dependencies:
-* T29.G5.08.01: Build word frequency table
-
-
-ID: T29.G5.03.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Build stop-word filter using tables
+Skill: Build stop-word filters and keyword lists
 Description: Learners create a table of stop-words (common words like "the", "a", "is") and filter them out before running frequency counts to focus on meaningful words.
 
 Dependencies:
-* T29.G5.03.01: Understand stop-words and their purpose
+* T29.G4.08: Count words and report the most frequent
 * T11.G5.01: Create and populate a table
 
 
@@ -17485,7 +17337,7 @@ Skill: Create positive/negative sentiment word lists
 Description: Students build tables of positive words (happy, great, love) and negative words (sad, bad, hate), preparing for simple sentiment analysis.
 
 Dependencies:
-* T29.G4.11: Recognize emotional tone in text (unplugged/semi-plugged)
+* T29.G5.03: Build stop-word filters and keyword lists
 * T11.G5.01: Create and populate a table
 
 
@@ -17511,12 +17363,12 @@ Dependencies:
 
 ID: T29.G5.06
 Topic: T29 – Text Data & NLP Foundations
-Skill: Use the parse sentence block for parts of speech
-Description: Students use CreatiCode's "parse sentence" block (ai_parsesentence) to identify nouns, verbs, adjectives, and other parts of speech in text, building awareness of grammatical structure for NLP tasks. The block also returns lemmas (word stems).
+Skill: Use the analyze sentence block for parts of speech
+Description: Students use CreatiCode's "parse sentence" block (ai_parsesentence) to identify nouns, verbs, adjectives, and other parts of speech in text, building awareness of grammatical structure for NLP tasks.
 
 Dependencies:
-* T29.G4.01: Use split and join blocks for text manipulation
-* T29.G5.08.02: Find and report most frequent word
+* T29.G4.02: Use split and join blocks for text manipulation
+* T29.G4.08: Count words and report the most frequent
 
 
 ID: T29.G5.07
@@ -17525,51 +17377,7 @@ Skill: Trim whitespace from text input
 Description: Students use the trim block to remove leading and trailing whitespace from user input, ensuring clean data for text processing. They discuss why this matters for text comparison.
 
 Dependencies:
-* T29.G4.04.01: Convert text case using lowercase/uppercase operators
-
-
-ID: T29.G5.08.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Build word frequency table
-Description: Students split text into words, loop through each word, and count occurrences using a table with "word" and "count" columns. They create a complete frequency table for a text sample.
-
-Dependencies:
-* T29.G4.06: Remove punctuation using replace or character filtering
-* T29.G4.10: Store text data in simple tables (2 columns max)
-* T07.G3.03: Trace code with simple loops to predict outcomes
-* T08.G3.01: Use a simple if in a script
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-
-
-ID: T29.G5.08.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Find and report most frequent word
-Description: Students iterate through their frequency table to find the word with highest count and display it. They handle ties and discuss what the most frequent words reveal about a text.
-
-Dependencies:
-* T29.G5.08.01: Build word frequency table
-* T11.G5.01: Create and populate a table
-
-
-ID: T29.G5.09
-Topic: T29 – Text Data & NLP Foundations
-Skill: Highlight keywords in text display
-Description: Learners write code that scans a paragraph, finds keyword positions using split and includes, and displays the text with visual highlighting (color changes on sprites or text display blocks).
-
-Dependencies:
-* T29.G4.04.02: Test if text includes, starts with, or ends with a pattern
-* T07.G3.03: Trace code with simple loops to predict outcomes
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
-ID: T29.G5.10
-Topic: T29 – Text Data & NLP Foundations
-Skill: Understand tokenization concepts
-Description: Students learn that AI models break text into tokens (not always whole words). They experiment with examples showing how 'running' might be 1 token but 'ChatGPT' might be 2 tokens. They discuss why token limits exist for AI APIs.
-
-Dependencies:
-* T29.G4.03: Count characters and words using "length of" and split
+* T29.G4.06.01: Convert text case using lowercase/uppercase operators
 
 
 
@@ -17580,9 +17388,8 @@ Skill: Compare characters, words, and token counts
 Description: Students count characters (using "length of"), words (using split and count), and discuss GPT tokens. They note that actual token counting requires API calls; they estimate based on character/word counts and discuss why token limits matter for AI prompts.
 
 Dependencies:
-* T29.G5.10: Understand tokenization concepts
-* T29.G5.03.02: Build stop-word filter using tables
-* T29.G4.03: Count characters and words using "length of" and split
+* T29.G5.03: Build stop-word filters and keyword lists
+* T29.G4.04: Count characters and words using "length of" and split
 * T08.G4.01: Choose actions based on user input or sensor values
 * T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
@@ -17594,7 +17401,7 @@ Skill: Compute n-gram (bigram) frequencies
 Description: Learners loop through token lists, join consecutive word pairs, and store counts in a table to capture common two-word phrase patterns.
 
 Dependencies:
-* T29.G5.03.02: Build stop-word filter using tables
+* T29.G5.03: Build stop-word filters and keyword lists
 * T11.G5.01: Create and populate a table
 * T07.G4.01: Loop until a goal condition is met
 * T09.G4.04: Use variables to control animation or game state
@@ -17627,6 +17434,16 @@ Dependencies:
 * T10.G4.03: Add, remove, and access items from a list in a script
 
 
+ID: T29.G6.05
+Topic: T29 – Text Data & NLP Foundations
+Skill: Use regex patterns for text matching
+Description: Students learn to use basic regular expressions with CreatiCode's regex blocks (regex test, regex match, regex search, regex replace, regex split) to find patterns like emails, numbers, or repeated words.
+
+Dependencies:
+* T29.G5.03: Build stop-word filters and keyword lists
+* T29.G5.06: Use the analyze sentence block for parts of speech
+
+
 ID: T29.G6.06
 Topic: T29 – Text Data & NLP Foundations
 Skill: Convert speech to text using voice recognition
@@ -17643,48 +17460,28 @@ Skill: Convert text to speech with voice selection
 Description: Students use CreatiCode's text-to-speech blocks (Azure TTS) to read text aloud, experimenting with different voices and languages. They discuss accessibility applications.
 
 Dependencies:
-* T29.G4.01: Use split and join blocks for text manipulation
+* T29.G4.02: Use split and join blocks for text manipulation
 
 
 ID: T29.G6.08
 Topic: T29 – Text Data & NLP Foundations
 Skill: Compare text similarity using edit distance
-Description: Students use the text similarity block (operator_stringdiff) to compute edit distance (how many character changes needed to transform one text into another), understanding text similarity metrics.
+Description: Students use text comparison blocks to compute edit distance (how many character changes needed to transform one text into another), understanding text similarity metrics.
 
 Dependencies:
-* T29.G4.03: Count characters and words using "length of" and split
+* T29.G4.04: Count characters and words using "length of" and split
 * T29.G6.01: Compare characters, words, and token counts
 
 
-ID: T29.G6.09
+
+
+ID: T29.G7.01
 Topic: T29 – Text Data & NLP Foundations
-Skill: Handle text length limits and truncation
-Description: Students check text length before sending to AI APIs, truncate or summarize long texts to fit limits, and display appropriate error messages when text is too long.
+Skill: Build keyword retrieval helpers (mini-RAG)
+Description: Students build a simple retrieval system by storing paragraph snippets in a table, computing keyword overlap scores, and returning the best-matching snippet. Advanced students can use the "add table to Pinecone" and "search from Pinecone" blocks for embedding-based semantic retrieval.
 
 Dependencies:
-* T29.G6.01: Compare characters, words, and token counts
-* T08.G5.01: Use logical operators (and, or, not) in if blocks
-
-
-ID: T29.G6.10
-Topic: T29 – Text Data & NLP Foundations
-Skill: Validate text input and handle errors
-Description: Students validate text input before processing (check for empty strings, unexpected formats). They use conditionals to provide helpful error messages and default values.
-
-Dependencies:
-* T29.G6.01: Compare characters, words, and token counts
-* T08.G5.01: Use logical operators (and, or, not) in if blocks
-
-
-
-
-ID: T29.G7.01.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Build keyword-based retrieval system
-Description: Students build a simple retrieval system by storing paragraph snippets in a table, computing keyword overlap scores using stop-word filtered text, and returning the best-matching snippet based on highest score.
-
-Dependencies:
-* T29.G5.03.02: Build stop-word filter using tables
+* T29.G5.03: Build stop-word filters and keyword lists
 * T29.G6.02: Compute n-gram (bigram) frequencies
 * T29.G6.03: Create autocomplete suggestions from bigrams
 * T11.G6.01: Sort a table by a column
@@ -17692,13 +17489,18 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 
 
-ID: T29.G7.01.02
+ID: T29.G7.02
 Topic: T29 – Text Data & NLP Foundations
-Skill: Use Pinecone semantic search blocks (advanced)
-Description: Advanced students use "add table to Pinecone" and "search from Pinecone" blocks for embedding-based semantic retrieval, comparing results to keyword-based retrieval and understanding the difference between keyword matching and semantic similarity.
+Skill: Engineer text features for ML classifiers
+Description: Learners extract numerical features from text (word counts, sentiment scores, length, keyword presence) and feed them into CreatiCode's ML model training blocks to classify text (spam vs not-spam, emotion categories).
 
 Dependencies:
-* T29.G7.01.01: Build keyword-based retrieval system
+* T29.G5.04.02: Score text using sentiment word lists
+* T29.G6.01: Compare characters, words, and token counts
+* T29.G6.04: Log AI prompts/responses with ratings and timestamps
+* T22.G6.01: Train a simple ML model (supervised learning)
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G5.03: Add and remove items from a list
 
 
 ID: T29.G7.03
@@ -17718,8 +17520,9 @@ Skill: Critically annotate AI vs human summaries
 Description: Learners write their own summary, generate an AI summary, then systematically annotate differences: what the AI missed, what it distorted, what it added. They measure overlap and discuss AI summarization limitations.
 
 Dependencies:
-* T29.G4.05.02: Generate AI summaries using ChatGPT blocks
+* T29.G4.01.02: Generate AI summaries using ChatGPT blocks
 * T29.G5.05: Build dynamic prompts with join and concatenation
+* T29.G6.03: Create autocomplete suggestions from bigrams
 * T29.G6.04: Log AI prompts/responses with ratings and timestamps
 
 
@@ -17734,17 +17537,26 @@ Dependencies:
 * T11.G6.01: Sort a table by a column
 
 
+ID: T29.G7.06
+Topic: T29 – Text Data & NLP Foundations
+Skill: Filter content using AI moderation
+Description: Students use CreatiCode's AI moderation blocks to automatically detect and filter potentially inappropriate content in user-generated text, discussing responsible content moderation practices.
+
+Dependencies:
+* T29.G5.04.02: Score text using sentiment word lists
+* T29.G7.03: Audit text datasets for bias and coverage
+
+
 
 
 ID: T29.G8.01
 Topic: T29 – Text Data & NLP Foundations
 Skill: Build end-to-end text-processing pipelines
-Description: Build a multi-stage text processing pipeline with at least 5 stages: input → clean (trim, lowercase, remove punctuation) → tokenize (split) → filter (remove stop-words) → analyze (sentiment OR frequency) → output (display OR log to table). Students document each stage and use custom blocks for modularity.
+Description: Build multi-stage text processing pipelines (e.g., input → trim/clean → lowercase → split → remove stop-words → analyze sentiment → classify → log results → output) using multiple NLP operations in sequence.
 
 Dependencies:
-* T29.G7.01.01: Build keyword-based retrieval system
+* T29.G7.01: Build keyword retrieval helpers (mini-RAG)
 * T29.G7.03: Audit text datasets for bias and coverage
-* T07.G6.01: Define custom blocks with inputs
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
@@ -17756,7 +17568,7 @@ Skill: Compute text classifier evaluation metrics (precision/recall/F1)
 Description: Learners compare predicted vs actual labels using table operations, manually compute precision (correct positives / predicted positives), recall (correct positives / actual positives), and F1 score. They interpret the tradeoffs between these metrics for text classification tasks.
 
 Dependencies:
-* T29.G8.06: Engineer text features for ML classifiers
+* T29.G7.02: Engineer text features for ML classifiers
 * T29.G7.03: Audit text datasets for bias and coverage
 * T22.G7.01: Evaluate ML model performance with test data
 * T08.G6.01: Use conditionals to control simulation steps
@@ -17770,7 +17582,7 @@ Skill: Integrate text analytics into AI prompt engineering
 Description: Students embed text analytics results (top keywords, sentiment scores, entity extraction) into AI prompt templates and evaluate whether augmented prompts produce better AI responses (RAG-style enhancement).
 
 Dependencies:
-* T29.G7.01.01: Build keyword-based retrieval system
+* T29.G7.01: Build keyword retrieval helpers (mini-RAG)
 * T29.G7.03: Audit text datasets for bias and coverage
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
@@ -17788,31 +17600,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-
-
-ID: T29.G8.05
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use regex for advanced pattern matching
-Description: Students learn to use regular expressions with CreatiCode's regex blocks (regex test, regex match, regex search, regex replace, regex split) to find complex patterns like emails, phone numbers, URLs, or repeated words. They understand regex as a powerful but advanced pattern matching tool.
-
-Dependencies:
-* T29.G5.03.02: Build stop-word filter using tables
-* T29.G5.06: Use the parse sentence block for parts of speech
-* T29.G6.08: Compare text similarity using edit distance
-
-
-ID: T29.G8.06
-Topic: T29 – Text Data & NLP Foundations
-Skill: Engineer text features for ML classifiers
-Description: Learners extract numerical features from text (word counts, sentiment scores, length, keyword presence, bigram frequencies) and feed them into CreatiCode's ML model training blocks to classify text (spam vs not-spam, emotion categories).
-
-Dependencies:
-* T29.G5.04.02: Score text using sentiment word lists
-* T29.G6.01: Compare characters, words, and token counts
-* T29.G6.04: Log AI prompts/responses with ratings and timestamps
-* T22.G6.01: Train a simple ML model (supervised learning)
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G5.03: Add and remove items from a list
 
 
 
@@ -17951,17 +17738,7 @@ Skill: Compare CreatiCode cloud save vs local export options
 Description: Students analyze pros/cons of saving projects to CreatiCode cloud (always accessible online, auto-saved) vs exporting to device storage (offline backup, can be shared as files), referencing accessibility, backup safety, and sharing methods.
 
 Dependencies:
-* T30.G2.01: Explain core internal components
-
-
-ID: T30.G3.04
-Topic: T30 – Devices & Hardware Systems
-Skill: Explain how sensors provide input to computer programs
-Description: Students connect the conceptual understanding of sensors (camera, microphone) from Grade 2 to how programs use sensor data, explaining how a camera provides image data that programs can analyze and how a microphone provides audio data that programs can process.
-
-Dependencies:
-* T30.G2.05: Identify common device sensors and their inputs
-* T30.G2.02: Trace input → process → output
+* T30.G3.02: Describe peripheral ports and accessories
 
 
 ID: T30.G3.05
@@ -18009,17 +17786,8 @@ Skill: Differentiate latency vs bandwidth
 Description: Students describe latency and bandwidth using everyday metaphors and relate them to online games or video calls.
 
 Dependencies:
+* T30.G3.02: Describe peripheral ports and accessories
 * T30.G2.03: Compare wired vs wireless connections
-
-
-ID: T30.G4.03.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Compare 2D camera widgets vs 3D webcam backgrounds in CreatiCode
-Description: Students identify the difference between 2D camera preview widgets (displaying camera feed in a window on the stage) and 3D webcam backgrounds (using live camera as the background for 3D scenes), understanding when to use each approach for different project types.
-
-Dependencies:
-* T30.G4.03: Differentiate latency vs bandwidth
-* T30.G3.05: Access device camera in CreatiCode projects
 
 
 ID: T30.G4.04
@@ -18094,7 +17862,7 @@ Dependencies:
 ID: T30.G5.05
 Topic: T30 – Devices & Hardware Systems
 Skill: Configure 3D cameras for CreatiCode game scenes
-Description: Students add and configure orbit and follow cameras in 3D CreatiCode projects, controlling camera distance, angles, target position, and input methods (keyboard and mouse controls).
+Description: Students add and configure orbit, follow, and free cameras in 3D CreatiCode projects, controlling camera distance, angles, target position, and input methods (keyboard, mouse, or joystick).
 
 Dependencies:
 * T30.G4.05: Respond to keyboard and mouse events in CreatiCode
@@ -18118,17 +17886,7 @@ Description: Learners use CreatiCode face detection blocks to create projects th
 
 Dependencies:
 * T30.G3.05: Access device camera in CreatiCode projects
-* T30.G4.01: Trace data flow in CreatiCode AI projects
-
-
-ID: T30.G5.06.01
-Topic: T30 – Devices & Hardware Systems
-Skill: Select appropriate sensors for different CreatiCode project types
-Description: Students analyze different CreatiCode project types (quiz game, drawing app, fitness tracker, voice assistant, AR game) and justify which sensors (keyboard, mouse, camera, microphone) best suit each project's purpose, considering user experience and device requirements.
-
-Dependencies:
-* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
-* T30.G4.03.01: Compare 2D camera widgets vs 3D webcam backgrounds in CreatiCode
+* T30.G4.06: Detect device capabilities in CreatiCode projects
 
 
 ID: T30.G6.01
@@ -18188,8 +17946,9 @@ Skill: Use webcam as 3D scene background for AR effects
 Description: Students use the "turn on webcam background" block to overlay 3D objects on live camera feeds, select front/back camera, configure flip modes (normal, left-right flipped, up-down flipped), and create augmented reality effects where 3D models appear in the real world.
 
 Dependencies:
+* T30.G3.05: Access device camera in CreatiCode projects
 * T30.G5.05: Configure 3D cameras for CreatiCode game scenes
-* T30.G6.04: Plan device capability checklists for CreatiCode AI projects
+* T30.G6.05: Use speech recognition in voice-controlled CreatiCode projects
 
 
 ID: T30.G6.06
@@ -18219,7 +17978,7 @@ Description: Students configure 3D objects to be draggable using "set dragging m
 
 Dependencies:
 * T30.G5.05.01: Enable mouse picking and hovering for 3D objects
-* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G6.06: Implement hand and 2D body tracking in CreatiCode projects
 
 
 ID: T30.G7.01
@@ -18291,6 +18050,7 @@ Skill: Handle camera and microphone permission errors in CreatiCode
 Description: Learners design error handling for when users deny camera or microphone permissions in CreatiCode projects, implementing graceful fallbacks (keyboard controls instead of gesture recognition) and informative error messages.
 
 Dependencies:
+* T30.G4.06: Detect device capabilities in CreatiCode projects
 * T30.G7.03: Plan graceful degradation strategies
 CSTA: MS-SAS-HW-01
 
@@ -18455,17 +18215,6 @@ Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
 
 
-ID: T31.G5.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: List available multiplayer games
-Description: Students use CreatiCode's multiplayer blocks to list all available games on the server, displaying game names and player counts to help users discover and join active game sessions.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-* T31.G5.04: Create and join a multiplayer game session
-
-
 ID: T31.G5.05
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Check multiplayer connection status
@@ -18484,26 +18233,31 @@ Description: Students identify the sequence: client sends request, server proces
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T01.G3.01: Complete a simple script with missing blocks
+* T01.G3.02: Match a story description to a code sequence
 * T31.G5.01: Trace how a device reaches an online service
 
 
 ID: T31.G6.02
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Read data from a Google Sheet cell
-Description: Students use CreatiCode's Google Sheets integration to read data from a specific cell or range of cells in a shared spreadsheet and display it in their project. This introduces cloud-based data sharing.
+Description: Students use CreatiCode's Google Sheets integration to read data from a specific cell in a shared spreadsheet and display it in their project. This introduces cloud-based data sharing.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G5.03: Fetch and display a web page as markdown
 
 
 ID: T31.G6.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Write data to a Google Sheet cell
-Description: Students use CreatiCode's Google Sheets blocks to write player names and scores to specific cells or ranges in a shared spreadsheet, creating a persistent leaderboard that updates in real-time.
+Description: Students use CreatiCode's Google Sheets blocks to write player names and scores to specific cells in a shared spreadsheet, creating a persistent leaderboard that updates in real-time.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G6.02: Read data from a Google Sheet cell
 
 
@@ -18525,16 +18279,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.03: Write data to a Google Sheet cell
-
-
-ID: T31.G6.03.03
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Manage Google Sheets structure programmatically
-Description: Students use CreatiCode's blocks to insert and remove rows and columns in Google Sheets programmatically, and clear entire sheets. They apply these operations to dynamically restructure data as their application needs change.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.03.02: List and manage multiple Google Sheets
 
 
 ID: T31.G6.04
@@ -18562,22 +18306,12 @@ Dependencies:
 ID: T31.G6.06
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Add sprites to multiplayer game world
-Description: Students use CreatiCode's multiplayer blocks to add their sprite to the shared game world as a dynamic or static object with rectangle or circle colliders. They understand how sprites are synchronized across players. They also learn how to remove sprites from the game world when needed.
+Description: Students use CreatiCode's multiplayer blocks to add their sprite to the shared game world as a dynamic or static object with rectangle or circle colliders. They understand how sprites are synchronized across players.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G5.04: Create and join a multiplayer game session
 * T31.G5.05: Check multiplayer connection status
-
-
-ID: T31.G6.06.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Manage players and game state in multiplayer sessions
-Description: Students use CreatiCode's multiplayer blocks to list all players currently in a game session, remove sprites from the game world, and reset the entire game state. They understand how to manage the lifecycle of multiplayer game objects.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.06: Add sprites to multiplayer game world
 
 
 ID: T31.G7.01
@@ -18587,6 +18321,7 @@ Description: Students diagram how a central server receives updates from each cl
 CSTA: MS-SAS-NW-05
 
 Dependencies:
+* T02.G3.01: Identify start, action, and end symbols in flowcharts
 * T31.G5.01: Trace how a device reaches an online service
 * T31.G6.06: Add sprites to multiplayer game world
 
@@ -18623,8 +18358,8 @@ Dependencies:
 
 ID: T31.G7.02.03
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Insert data into a database collection using tables
-Description: Students use CreatiCode's Database blocks to prepare data in a table structure, then insert rows from the table into a cloud-based collection. They learn that direct insertion requires organizing data in table format first, storing persistent data like player progress, game settings, or user-generated content.
+Skill: Insert data into a database collection
+Description: Students use CreatiCode's Database blocks to insert documents into a cloud-based collection, storing persistent data like player progress, game settings, or user-generated content.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -18635,21 +18370,11 @@ Dependencies:
 ID: T31.G7.02.04
 Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
 Skill: Fetch data from a database collection
-Description: Students use CreatiCode's Database blocks to fetch documents from a collection with query conditions using operators like equals, greater than, less than, and contains, retrieve specific data, and display it in their projects.
+Description: Students use CreatiCode's Database blocks to fetch documents from a collection with query conditions (where clauses), retrieve specific data, and display it in their projects.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
-* T31.G7.02.03: Insert data into a database collection using tables
-
-
-ID: T31.G7.02.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Use advanced database queries with operators
-Description: Students use CreatiCode's Database query operators (equals, not equals, greater than, less than, contains) to build precise where clauses for fetching specific subsets of data from collections.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G7.02.04: Fetch data from a database collection
+* T31.G7.02.03: Insert data into a database collection
 
 
 ID: T31.G7.02.05
@@ -18739,17 +18464,6 @@ CSTA: MS-SAS-SC-09
 Dependencies:
 * T31.G7.05: Analyze societal impacts of networked systems
 * T31.G8.03: Design secure AI-powered cloud systems
-
-
-ID: T31.G8.04.01
-Topic: T31 – Internet & Cloud: Grade 5–8 Skill List
-Skill: Integrate Google Drive folder access
-Description: Students use CreatiCode's Google Drive blocks to list files and folders from Google Drive, integrating cloud storage into their applications for accessing shared resources and user files.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T31.G6.02: Read data from a Google Sheet cell
-* T31.G8.04: Implement privacy protection for AI data
 
 
 ID: T31.G8.05
