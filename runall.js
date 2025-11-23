@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 12) continue;
+      if ( iteration == 0 && i < 17) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -161,6 +161,10 @@ Additional context about CreatiCode features is available at:
 * AI copilot: ../../ScratchCopilot
 
 Use subagents/task to keep main context clean and small. For example, use Task with subagent_type=general-purpose to analyze and fix issues.
+
+## Special Note On this run
+
+I have reviewed the skills, and one BIG problem is the skills are still too big for some categories, such as 3D worlds. For one example, there is one skill T18.G3.04 that covers adding ALL shapes like boxes, spheres, etc. Although each shape is already a big skill by itself since many parameters are there for each block for customizing it. So for cases like this, that skill needs to be broken down into many smaller skills. And you can use additional skill IDs like T18.G3.04.01, T18.G3.04.02, etc. to define each smaller skill. Please make sure all skills are manageable and implementable by students. Do this for every topic where applicable and every skill.
 
 Automatically fix all high and medium priority issues within topic ${topic.code}. For output, summarize the key changes you made to topic ${topic.code} skills in skillsv4/allskills.md.`;
 
