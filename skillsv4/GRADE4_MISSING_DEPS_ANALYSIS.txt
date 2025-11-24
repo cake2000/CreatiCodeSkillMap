@@ -1,0 +1,3359 @@
+================================================================================
+GRADE 4 CROSS-TOPIC DEPENDENCY ANALYSIS
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total missing dependencies found: 1249
+Total X-2 violations found: 1
+Unique skills with missing deps: 287
+
+MOST COMMON MISSING DEPENDENCIES
+--------------------------------------------------------------------------------
+T07.G2.01: 263 skills
+T06.G2.01: 118 skills
+T06.G2.02: 118 skills
+T04.G2.01: 118 skills
+T04.G2.02: 118 skills
+T04.G2.03: 71 skills
+T02.G2.01: 68 skills
+T02.G2.02: 68 skills
+T01.G2.01: 50 skills
+T05.G3.01: 49 skills
+T05.G3.02: 49 skills
+T13.G3.01: 47 skills
+T06.G2.03: 42 skills
+T06.G3.01: 33 skills
+T03.G2.01: 12 skills
+
+
+================================================================================
+X-2 RULE VIOLATIONS
+================================================================================
+
+SKILL: T01.G4.12
+  Invalid dependency: T01.G1.08 (Grade 1)
+  Reason: Grade 4 cannot depend on Grade 1 (X-2 rule)
+
+
+================================================================================
+MISSING DEPENDENCIES (DETAILED)
+================================================================================
+
+
+SKILL: T01.G4.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students turn a given plan into a creaticode script and test it, converting each step from t01.g4.01...
+
+SKILL: T01.G4.03
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  Description excerpt: students highlight repeated sequences (not just single blocks) in longer scripts with multiple patte...
+
+SKILL: T01.G4.04
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  Description excerpt: students refactor repeated patterns (sequences of 2-3 blocks that repeat) into loops that contain mu...
+
+SKILL: T01.G4.05.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students compare two scripts that do the same thing: one with loops and one without. they identify t...
+
+SKILL: T01.G4.05.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students explain why the loop version is better based on provided criteria: (a) fewer blocks/shorter...
+
+SKILL: T01.G4.06.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students look at a script and identify which names represent variables (vs sprite names, block names...
+
+SKILL: T01.G4.06.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  Description excerpt: students explain what each variable stores (e.g., "score stores the number of coins collected," "spe...
+
+SKILL: T01.G4.07
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students follow a script that initializes a variable and increments it in a loop (through several it...
+
+SKILL: T01.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add a variable (e.g., `steps`, `coins`) and increment it at the right place in an existing ...
+
+SKILL: T01.G4.09
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students extend a game to use a variable for lives or points, decreasing or increasing it based on e...
+
+SKILL: T01.G4.10
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace code with a loop and variable updates (with 2-3 variables changing values) to find fi...
+
+SKILL: T01.G4.11
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students fix a counter that ends too high or too low (off by one) by adjusting initialization (e.g.,...
+
+SKILL: T01.G4.12
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students compare two working algorithms that achieve the same goal and explain which is better based...
+
+SKILL: T01.G4.13
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students look at two scripts that do the same thing. one uses 'repeat 10' and one uses 'repeat until...
+
+SKILL: T02.G4.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students follow a creaticode script containing a "repeat (n) times" block and predict what happens a...
+
+SKILL: T02.G4.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  Description excerpt: students create a creaticode script using a "repeat" block to accomplish a repetitive task (e.g., "d...
+
+SKILL: T02.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students follow a block script with 2–3 if/else blocks and trace which conditions are checked and wh...
+
+SKILL: T02.G4.04
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students create a creaticode script that uses both repeat blocks and if/else blocks together (e.g., ...
+
+SKILL: T02.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students learn to insert "debug print" blocks into their scripts to display variable values in the c...
+
+SKILL: T02.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add debug print blocks inside a loop to see how a variable (like a counter) changes with ea...
+
+SKILL: T02.G4.07
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students are given a block script that produces the wrong result; they add debug print blocks to ide...
+
+SKILL: T03.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students are given a description of a project (e.g., "quiz game with levels") and identify specific ...
+
+SKILL: T03.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students drag components into higher‑level modules (e.g., "game logic," "user interface," "data"), o...
+
+SKILL: T03.G4.03
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students match tasks (e.g., "create visuals," "design game logic," "test features") to team roles (e...
+
+SKILL: T03.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students build a table for a small team project listing each specific task (e.g., "draw player sprit...
+
+SKILL: T03.G4.05
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students read a short project plan and identify one missing critical task (e.g., "test the game" is ...
+
+SKILL: T03.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students see test feedback ("the game crashes when score is 0") and choose which new tasks should be...
+
+SKILL: T04.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace code that draws shapes or patterns and match it to one of several images....
+
+SKILL: T04.G4.01.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students examine simple scenarios and problems (like "count how many red items" or "track number of ...
+
+SKILL: T04.G4.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students see nested loops and choose which part controls rows vs columns in a grid pattern. focus is...
+
+SKILL: T04.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students identify code patterns like "bounce on edge" or "wrap around screen" as standard conditiona...
+
+SKILL: T04.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students examine 2-3 simple example projects and identify which elements form the reusable template ...
+
+SKILL: T04.G4.05
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students identify 2–3 code snippets that implement the same algorithm pattern (e.g., boundary-check-...
+
+SKILL: T04.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students see a new problem description and choose which known pattern (e.g., loop over list, counter...
+
+SKILL: T04.G4.07
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students answer multiple-choice questions identifying benefits of reusing patterns (e.g., "less code...
+
+SKILL: T04.G4.08
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students start with a provided template project and modify specific marked elements (colors, sounds,...
+
+SKILL: T04.G4.09
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students write or complete code that uses a loop to process each item in a list one by one, understa...
+
+SKILL: T05.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students read a short persona (age, context, goals) and highlight important details that should infl...
+
+SKILL: T05.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students choose which of two app variants better fits a given persona and explain why....
+
+SKILL: T05.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students identify issues like tiny text, low contrast, or missing captions in screenshots....
+
+SKILL: T05.G4.04
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: given an issue (e.g., "hard to read"), students select the best matching fix (increase font size, ad...
+
+SKILL: T05.G4.05
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students see a real‑world situation and pick 2–3 important factors for the simulation and 1–2 detail...
+
+SKILL: T05.G4.06
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students choose the best reason for ignoring a given factor (too complex, not needed for the questio...
+
+SKILL: T05.G4.07
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students see a suspected design problem (e.g., "users can't find the save button") and select which ...
+
+SKILL: T06.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students create multiple scripts for the same sprite to respond to different keys and to the green f...
+
+SKILL: T06.G4.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students see multiple event scripts on a sprite and determine which ones run when specific events ha...
+
+SKILL: T06.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students see a project idea requiring coordination between sprites (e.g., "when player reaches goal,...
+
+SKILL: T06.G4.04
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students create a broadcast block in one sprite and a matching "when i receive" script in another sp...
+
+SKILL: T06.G4.04.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use 'broadcast <message> and wait' to pause the current script until all receivers finish t...
+
+SKILL: T06.G4.05
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students match `broadcast` blocks to `when i receive` scripts that respond to the same message....
+
+SKILL: T06.G4.06
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students debug why a sprite isn't responding by checking if the correct key/sprite is specified in t...
+
+SKILL: T06.G4.07
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add a `when i receive` block to make a sprite react to a broadcast that is already sent....
+
+SKILL: T06.G4.08.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students create a "when touching [sprite]" script that runs when this sprite touches another specifi...
+
+SKILL: T06.G4.08.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  Description excerpt: students create a "when touching [edge]" script to detect when a sprite reaches the stage boundary (...
+
+SKILL: T06.G4.08.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students create a "when touching color [color]" script that runs when a sprite touches a specific co...
+
+SKILL: T06.G4.09
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students create a "when green flag clicked" script that sets up initial game state (reset score to 0...
+
+SKILL: T06.G4.10
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students create a "when [space/arrow/etc.] key released" script to trigger actions when a key is rel...
+
+SKILL: T06.G4.10.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students use "when key [variable] pressed" and "when key [variable] released" where the key is store...
+
+SKILL: T07.G4.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students implement a `forever` loop that continuously checks keyboard input and moves the sprite acc...
+
+SKILL: T07.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students write a loop (repeat or forever) that contains an if block inside it, combining iteration w...
+
+SKILL: T07.G4.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students create and use a counter variable that they manually increment on each loop iteration (e.g....
+
+SKILL: T07.G4.03.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use creaticode's `for [variable] from (start) to (limit) at step (s)` block, which provides...
+
+SKILL: T07.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students recognize when a script contains the same sequence of blocks repeated multiple times (e.g.,...
+
+SKILL: T07.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students debug more complex loop problems involving counter variables, repeat-until conditions, or o...
+
+SKILL: T07.G4.06
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace a script with a loop that contains an `if` block (e.g., bouncing off edges) to predic...
+
+SKILL: T07.G4.07
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T07.G3.01 - Uses nested loops
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace a simple script with two nested loops using fixed repeat counts (e.g., outer loop rep...
+
+SKILL: T07.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use creaticode's `repeat (n) times at intervals of (t)` block to create animations where ac...
+
+SKILL: T08.G4.00
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students predict the output of and operations with various inputs (true and true, true and false, fa...
+
+SKILL: T08.G4.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use a compound condition (and) to check if two things are true at the same time before acti...
+
+SKILL: T08.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use or to check if at least one of two conditions is true (e.g., "if score > 100 or lives =...
+
+SKILL: T08.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses nested conditionals
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses nested conditionals
+  Description excerpt: students read code with compound expressions (and and/or or) and predict which branch runs for given...
+
+SKILL: T08.G4.04
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students write nested if/else blocks where an else branch contains another if (e.g., checking weathe...
+
+SKILL: T08.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G2.03 - Uses comparison operators
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use else-if (chained conditionals) when there are more than two mutually exclusive outcomes...
+
+SKILL: T08.G4.06
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students are given deeply nested or redundant if/else code and refactor it using and, or, or else-if...
+
+SKILL: T08.G4.07
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use conditional logic to manage game states (e.g., "if game over then don't allow movement"...
+
+SKILL: T08.G4.08
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students debug a script where compound conditions (using and/or/not) are incorrect or inverted (e.g....
+
+SKILL: T08.G4.09
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace code with 2-3 sequential `if/else` blocks and predict the final output for a given se...
+
+SKILL: T09.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the + operator block to create expressions that add values, such as "set total to score...
+
+SKILL: T09.G4.01.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the - operator block to create expressions that subtract values, such as "set remaining...
+
+SKILL: T09.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the * operator to create expressions that multiply values, such as "set total to lives ...
+
+SKILL: T09.G4.02.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the / operator to create expressions that divide values, such as "set average to sum / ...
+
+SKILL: T09.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students write expressions that combine exactly two operators in one statement using the same type o...
+
+SKILL: T09.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use an "ask and wait" or input block to capture user input (a number or text), store it in ...
+
+SKILL: T09.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students create a counter variable (e.g., "i" or "count"), set it to a starting value before a loop,...
+
+SKILL: T09.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the equals (=) and less than (<) operators in conditionals to compare values. examples:...
+
+SKILL: T09.G4.06.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the greater than (>) operator to check if one value exceeds another. examples: "if scor...
+
+SKILL: T09.G4.06.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the not equal (≠) operator to check if values are different. examples: "if lives ≠ 0", ...
+
+SKILL: T09.G4.06.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use >= and <= operators for inclusive comparisons. examples: "if score >= 100" (at least 10...
+
+SKILL: T09.G4.07
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students create variables (using 0/1 or meaningful names like "game_over") to remember whether an ev...
+
+SKILL: T09.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the "pick random (min) to (max)" block to set variables to random values, enabling game...
+
+SKILL: T09.G4.08.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students right-click on a variable monitor and choose between display modes: normal (shows name and ...
+
+SKILL: T09.G4.09
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students examine a program with multiple variable-related bugs that require understanding the variab...
+
+SKILL: T10.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the `item # of [value] in [list]` block or implement a simple linear search by looping ...
+
+SKILL: T10.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use two lists in parallel (e.g., "playernames" and "playerscores") where items at the same ...
+
+SKILL: T10.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the `insert [item] at (position) of [list]` block to add items at the beginning, middle...
+
+SKILL: T10.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the `replace item (position) of [list] with [value]` block to update an existing item w...
+
+SKILL: T10.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students use creaticode's `sort list [list] from [large to small/small to large]` block to sort nume...
+
+SKILL: T10.G4.06.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students use the `[smallest v] of list [list]` block to find the minimum value in a numeric list. th...
+
+SKILL: T10.G4.06.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the `[largest v] of list [list]` block to find the maximum value in a numeric list. the...
+
+SKILL: T10.G4.06.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the `[sum v] of list [list]` block to add up all numeric values in a list. they underst...
+
+SKILL: T10.G4.06.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the `[average v] of list [list]` block to find the mean of all numeric values. they und...
+
+SKILL: T10.G4.06.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the `[median v] of list [list]` block to find the middle value when sorted. they unders...
+
+SKILL: T10.G4.07
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students write a loop to find the largest or smallest item in a numeric list without using built-in ...
+
+SKILL: T10.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students loop through a list and build a new filtered list containing only items that satisfy a cond...
+
+SKILL: T10.G4.09
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students create a leaderboard using two parallel lists (names and scores). when a new score is added...
+
+SKILL: T10.G4.10
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students swap the positions of two items in a list using a temporary variable. they store one item t...
+
+SKILL: T10.G4.11.01
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students use the `copy [list1] to [list2]` block to duplicate a list. they understand this replaces ...
+
+SKILL: T10.G4.11.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the `append [list1] to [list2]` block to add all items from list1 to the end of list2. ...
+
+SKILL: T10.G4.12
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students use the `set [list] to split of [text] with splitter [delimiter]` block to convert text int...
+
+SKILL: T10.G4.13
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students use the `join [list] into text with [delimiter]` block to combine list items into a single ...
+
+SKILL: T10.G4.14
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the `reverse [list]` block to flip item order (first becomes last, last becomes first)....
+
+SKILL: T10.G4.15
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the `reshuffle [list] randomly` block to randomly rearrange all items. each shuffle pro...
+
+SKILL: T10.G4.16
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students use the `set [list] to (n) random whole numbers between (min) and (max) [no repetition/allo...
+
+SKILL: T10.G4.17
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the `delete value [item] from [list]` block to remove the first occurrence of a specifi...
+
+SKILL: T10.G4.18
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use the `for each index [i] in [list]` block to iterate through list positions (1, 2, 3...)...
+
+SKILL: T10.G4.19
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use the `# of item containing [substring] in [list]` block to find the first list item that...
+
+SKILL: T10.G4.20
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students use the `insert (n) [largest/smallest/random] items from [list1] into [list2]` block to ext...
+
+SKILL: T11.G4.01
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students create a custom block with no inputs (e.g., `resetplayer`) using creaticode's "make a block...
+
+SKILL: T11.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students learn to recognize which blocks **do something** (command/stack blocks that perform actions...
+
+SKILL: T11.G4.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students call built-in reporter blocks (like "random 1 to 10", "distance to sprite", "length of list...
+
+SKILL: T11.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students read a script that uses several custom blocks and write a one-sentence description of each ...
+
+SKILL: T11.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace step-by-step through a script that calls custom blocks, predicting the order of execu...
+
+SKILL: T11.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students learn that inside a custom block definition, the `argument (name)` reporter block retrieves...
+
+SKILL: T11.G4.07
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  Description excerpt: students create their first custom block with one input parameter (e.g., `drawsquare (size)`) using ...
+
+SKILL: T11.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students test a newly created custom block by calling it with 2-3 different simple input values to v...
+
+SKILL: T12.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add comments to multiple scripts, blocks, and sections in a complete project, explaining wh...
+
+SKILL: T12.G4.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  Description excerpt: students create custom blocks with clear, verb-based names (e.g., "move forward", "draw star", "chec...
+
+SKILL: T12.G4.03
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  Description excerpt: students identify identical or nearly-identical code segments that appear multiple times (within or ...
+
+SKILL: T12.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students examine a project and ensure that variables have clear, descriptive names (e.g., "playersco...
+
+SKILL: T12.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  Description excerpt: students create custom blocks that accept input parameters by including them in the definition signa...
+
+SKILL: T13.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students debug a simple program with a single conditional check inside a counted loop (e.g., repeat ...
+
+SKILL: T13.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students learn what an "edge case" is: an unusual or extreme input that might cause problems (e.g., ...
+
+SKILL: T13.G4.03
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: given a working program, students redesign it to accomplish the same task using a different approach...
+
+SKILL: T13.G4.04
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students recognize that a `forever` or `repeat until` loop is stuck (never exits) and diagnose why (...
+
+SKILL: T13.G4.05.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students write a simple test plan using a template with three columns: (1) input/action, (2) expecte...
+
+SKILL: T13.G4.05.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students follow their test plan, run the program with each test case, and record whether each test p...
+
+SKILL: T13.G4.06
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students examine two different programs that both accomplish the same goal but may have different st...
+
+SKILL: T13.G4.07
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: after finding and fixing a bug, students write a simple note or fill in a template describing: (1) w...
+
+SKILL: T13.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students learn to categorize bugs into four types: (1) sequence errors (blocks in wrong order), (2) ...
+
+SKILL: T13.G4.09
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add `print [message] in [console v]` or `print [message] in [alert v]` blocks at key points...
+
+SKILL: T14.G4.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T08.G3.01 - Uses clones
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: use `create clone of [bullet]` (or `myself`) to spawn a projectile when an input occurs (key press o...
+
+SKILL: T14.G4.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T08.G3.01 - Uses clones
+  Description excerpt: program projectile clones to move forward continuously in their current direction until they hit a t...
+
+SKILL: T14.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: delete clones when they touch an edge or target to prevent lag and bugs. use `touching edge?` condit...
+
+SKILL: T14.G4.04.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: program an enemy to patrol back and forth between two points using a forever loop with `move` blocks...
+
+SKILL: T14.G4.04.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: use `glide` blocks to move an enemy smoothly between predefined coordinates. create a loop that alte...
+
+SKILL: T14.G4.05.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: use `point towards [player]` to make a sprite always face the player character. test that the sprite...
+
+SKILL: T14.G4.05.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: combine `point towards [player]` with `move` blocks inside a forever loop to create a chaser enemy t...
+
+SKILL: T14.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: create a global `score` variable, initialize it to 0 at game start, and increase it when the player ...
+
+SKILL: T14.G4.07
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: create a `lives` variable, initialize it to a starting value (e.g., 3), decrease it upon damage, and...
+
+SKILL: T14.G4.08
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: use a variable and a loop with `wait (1) seconds` to create a countdown or count-up timer. use the t...
+
+SKILL: T14.G4.09
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: check if a completion condition (score threshold, collect all items, touch goal) is met to trigger t...
+
+SKILL: T14.G4.10
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: when `next level` is received, switch the backdrop using `switch backdrop to [backdrop2]` and reset ...
+
+SKILL: T14.G4.11
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: store the player's last checkpoint coordinates in variables (checkpointx, checkpointy). update these...
+
+SKILL: T14.G4.12
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: give the player a temporary effect (speed boost, invincibility) by setting a boolean variable to tru...
+
+SKILL: T14.G4.13
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: create a pause button that broadcasts `pause game`, causing all sprites to enter a wait loop. broadc...
+
+SKILL: T14.G4.14
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: use `when i receive [restart]` to send every sprite back to initial costume, position, and visibilit...
+
+SKILL: T14.G4.15
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: when the player takes damage, show visual feedback by flashing the sprite (using repeat with ghost e...
+
+SKILL: T15.G4.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: use `change size by (10)` inside a loop with `wait` blocks to create smooth grow/shrink animations. ...
+
+SKILL: T15.G4.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: use `broadcast [scene2]` to send scene change messages and `when i receive [scene2]` to respond to t...
+
+SKILL: T15.G4.02.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: in each sprite, add `when i receive [scenename]` scripts that control how the sprite behaves in that...
+
+SKILL: T15.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: use `hide` and `show` blocks to control character visibility across scenes. combine with broadcast e...
+
+SKILL: T15.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use `add textbox at x (0) y (0) width (200) height (30) as [playername]` to get user input. position...
+
+SKILL: T15.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  Description excerpt: use `set [playername v] to (value of widget [playername v])` to save the user's input from a textbox...
+
+SKILL: T15.G4.06
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: create clickable button widgets using `add button [yes] at x (0) y (0) width (100) height (40) as [b...
+
+SKILL: T15.G4.07
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: coordinate multi-sprite conversations using timed `wait` blocks: sprite a says something for 2 secon...
+
+SKILL: T15.G4.08
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: use multiple `when green flag clicked` scripts on the same sprite to run animations and dialogue sim...
+
+SKILL: T16.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: use "set text style [fontstyle v] font size (fontsize) text color [textcolor] boldness [bold/normal ...
+
+SKILL: T16.G4.01.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: apply consistent styling across multiple widgets to create visual cohesion. use the same color schem...
+
+SKILL: T16.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use the "set widget style" block to customize widget backgrounds, borders (width, color, style), and...
+
+SKILL: T16.G4.02.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use "add image [costumename v] at x (x) y (y) width (width) height (height) aspect ratio [keep/stret...
+
+SKILL: T16.G4.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use "add dropdown menu at x (x) y (y) width (width) height (height) using list [list v] as [name]" b...
+
+SKILL: T16.G4.04
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: use "value of widget [name v]" block to retrieve which option the user selected from a dropdown menu...
+
+SKILL: T16.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use "add slider at x (x) y (y) width (width) between (min) and (max) as [name]" block to create a sl...
+
+SKILL: T16.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: use the "when widget value changed" event and "value of widget" block to detect when a user moves a ...
+
+SKILL: T16.G4.07
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use "add checkbox at x (x) y (y) named [name]" block to create toggle options that allow multiple se...
+
+SKILL: T16.G4.07.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use "create tabs at x (x) y (y) width (width) height (height) names [tab1] [tab2] ... [tab8] show he...
+
+SKILL: T16.G4.08
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: organize multiple input widgets into a settings panel. arrange checkboxes, sliders, dropdowns, and l...
+
+SKILL: T16.G4.08.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: connect settings widget values to program behavior. read values from multiple widget types (checkbox...
+
+SKILL: T16.G4.09
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: use the "when pointer enters widget" and "when pointer leaves widget" event blocks to detect when th...
+
+SKILL: T16.G4.10
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: use "add link at x (x) y (y) url [url] as [name]" block to create clickable hyperlinks that open ext...
+
+SKILL: T17.G4.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  Description excerpt: students create a simple falling animation by repeatedly moving a sprite down in a loop. they observ...
+
+SKILL: T17.G4.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students explain that speed means "how much position changes each time the loop runs." they compare ...
+
+SKILL: T18.G4.01.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use the `add plane` block to create flat surfaces for floors, walls, or backdrops, adjustin...
+
+SKILL: T18.G4.01.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add capsule shapes (for character bodies, pillars) and torus shapes (for rings, wheels) to ...
+
+SKILL: T18.G4.01.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students create a complex environment using multiple primitive types (boxes, spheres, cylinders, pla...
+
+SKILL: T18.G4.02.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add an ambient light to provide overall base illumination to the scene, adjusting color and...
+
+SKILL: T18.G4.02.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students place a directional light to simulate sunlight, adjusting direction, color, and intensity t...
+
+SKILL: T18.G4.02.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add point lights (like light bulbs or torches) that radiate in all directions, setting posi...
+
+SKILL: T18.G4.03.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use orbit camera blocks to circle around a target object or point, adjusting radius, height...
+
+SKILL: T18.G4.03.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students attach the camera to follow a player or vehicle, adjusting offset and height for a smooth t...
+
+SKILL: T18.G4.04.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students select and place 3d models from creaticode's 1000+ model library (trees, cars, buildings, f...
+
+SKILL: T18.G4.04.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add avatar models (humanoid characters) to their scenes, distinguishing avatars from static...
+
+SKILL: T18.G4.05.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  Description excerpt: students create looping animations for props (windmill spinning, fans rotating, wheels turning) by c...
+
+SKILL: T18.G4.05.03
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use loops to create bobbing platforms, swinging pendulums, or moving obstacles by smoothly ...
+
+SKILL: T18.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students use distance checking or proximity detection to trigger events when the player gets near to...
+
+SKILL: T20.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students write a loop that increases a variable (distance or angle) each iteration to create spiral ...
+
+SKILL: T20.G4.02
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students create a custom block that draws a geometric tile pattern using draw blocks (draw rectangle...
+
+SKILL: T20.G4.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students expose variables (e.g., sides, size, rotation) through sliders or input prompts and show ho...
+
+SKILL: T20.G4.03.01
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  Description excerpt: create smooth animations in drawings by using small movements in loops...
+
+SKILL: T20.G4.03.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: design and apply color palettes by creating lists of colors for artistic projects...
+
+SKILL: T20.G4.04
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students receive a script whose nested loops miscount, overlap, or use the wrong color. they identif...
+
+SKILL: T20.G4.05
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: learners add a button or key event that recolors or re-draws the art tile with a different palette, ...
+
+SKILL: T20.G4.05.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students create a simple list of 3-5 numbers and use each value to control drawing positions (e.g., ...
+
+SKILL: T20.G4.05.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use the color reporter block to generate colors dynamically using hsv values (color/hue 0-1...
+
+SKILL: T21.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: given a vague or risky image request ("make a person" or "draw my house address"), students rewrite ...
+
+SKILL: T21.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students share examples of ai-generated content they've encountered (ai art, ai voices in videos, ch...
+
+SKILL: T21.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students examine several ai-generated images and list what ai does well (colorful backgrounds, patte...
+
+SKILL: T22.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students improve a vague or rude request ("tell me everything now!!!") into a clear, focused questio...
+
+SKILL: T22.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students build a basic question-and-answer chatbot that captures user input from a textbox, sends it...
+
+SKILL: T22.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students test their q&a chatbot with various types of questions (factual, creative, math) and observ...
+
+SKILL: T23.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use a provided slider ui (built with basic blocks) to dim/brighten a sample image costume a...
+
+SKILL: T23.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students examine 3 illustrated scenarios (e.g., backlit vs front-lit for camera, mic close vs far fo...
+
+SKILL: T23.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students examine examples of blurry images, shaky video clips, or choppy audio recordings and select...
+
+SKILL: T24.G4.00
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students learn to use multiple keywords in one search query (e.g., "cat sitting forest sunset" inste...
+
+SKILL: T24.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use the `search for ai image of [type] with query [query]` block to find sprites and backdr...
+
+SKILL: T24.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students structure prompts with multiple elements (subject + action + setting + style) to get more s...
+
+SKILL: T24.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students sort examples of ai prompts into safe (asking for help with homework) and unsafe (sharing p...
+
+SKILL: T24.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add labels or comments to their projects indicating which assets or ideas came from ai tool...
+
+SKILL: T24.G4.05
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students learn that ai tools check content for safety (inappropriate language, harmful content). the...
+
+SKILL: T24.G4.06
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T03.G2.01 - Uses functions/custom blocks
+  NEEDS: T03.G2.02 - Uses functions/custom blocks
+  Description excerpt: students survey the ai blocks available in creaticode (speech recognition, text-to-speech, chatgpt, ...
+
+SKILL: T24.G4.07
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students learn that xo is creaticode's built-in ai assistant designed specifically to help with codi...
+
+SKILL: T25.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students diagram an app's data needs (e.g., to-do list: task text, due date, done?) showing column n...
+
+SKILL: T25.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students practice representing the same numerical fact in three formats: decimal (0.75), fraction (3...
+
+SKILL: T25.G4.03
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students compare dense (storing all values) versus sparse (storing only non-empty values) data repre...
+
+SKILL: T25.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: learners create a legend for a mini-map (color = terrain) and add a note describing exceptions (e.g....
+
+SKILL: T25.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students examine a game scoreboard and identify which values are stored (points earned each round) v...
+
+SKILL: T25.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students write scripts that loop through a list and use 'add row to table' blocks to build a table f...
+
+SKILL: T26.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students draft multi-step written protocols (who to ask, how many people, what to say) so teammates ...
+
+SKILL: T26.G4.02.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students create simple tables with columns (time, event) to log basic gameplay events. they practice...
+
+SKILL: T26.G4.02.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students extend their tables to capture complex events with multiple attributes (time, event, player...
+
+SKILL: T26.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add a column to note when data is missing or suspect, preparing them for cleaning in t27....
+
+SKILL: T26.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: learners evaluate a proposed survey (asking for full names + addresses) and suggest safer alternativ...
+
+SKILL: T26.G4.05
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students export a simple list variable to a file (downloading it), then import it back into a new pr...
+
+SKILL: T26.G4.06
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students practice with a single ai sensor (like microphone volume or mouse position) by logging its ...
+
+SKILL: T26.G4.06.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use a counted loop (repeat 10) with timer reset and wait blocks to collect data at regular ...
+
+SKILL: T27.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students read game data (such as scores over 10 rounds) and use line graphs to identify segments whe...
+
+SKILL: T27.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T06.G2.03 - Uses comparison operators
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students examine small, pre-sorted datasets and identify the median (middle value) and mode (most fr...
+
+SKILL: T27.G4.03
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students inspect a table for specific issues: missing entries, duplicate rows, or invalid numbers (e...
+
+SKILL: T27.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: learners write 2–3 sentence captions summarizing key findings, audience, and implications for their ...
+
+SKILL: T28.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students create a script that uses 'pick random 1-4' with if-statements to convert random numbers in...
+
+SKILL: T28.G4.02.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students extend their random generator to repeat 50 times using a counted loop, appending each resul...
+
+SKILL: T28.G4.02.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students write code to count how many times each outcome appears in their trial list. they use varia...
+
+SKILL: T28.G4.02.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students convert their frequency counts into percentages by dividing each count by the total number ...
+
+SKILL: T28.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students run two experiments (50, 500 spins) and plot bar charts to see stability differences....
+
+SKILL: T28.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: learners inspect a script where one outcome is favored (duplicate entries, wrong range) and fix it s...
+
+SKILL: T28.G4.05
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students write a script that generates random x and y coordinates within a specified range, stamps a...
+
+SKILL: T28.G4.06
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students express the likelihood of simple events using both fraction and percentage notation (e.g., ...
+
+SKILL: T28.G4.07
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G3.02 - Uses random values
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students create a simulation that randomly selects items from a list without choosing the same item ...
+
+SKILL: T29.G4.00
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use the 'ask' block to get text input from users, store it in variables, and display it usi...
+
+SKILL: T29.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students write a script that takes a sentence, uses the split block to separate it on spaces, stores...
+
+SKILL: T29.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students use scratch's "letter # of" operator to access and display specific characters from text by...
+
+SKILL: T29.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students use scratch's "length of" operator to count characters in text, and use split on spaces plu...
+
+SKILL: T29.G4.04.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: learners build scripts that convert text to lowercase or uppercase using scratch's case conversion o...
+
+SKILL: T29.G4.04.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use string comparison blocks (includes, starts with, ends with) with case-insensitive optio...
+
+SKILL: T29.G4.05.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students read a short text, write their own 1-2 sentence summary, then read an ai-generated summary....
+
+SKILL: T29.G4.06
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use the replace block to remove common punctuation marks, or loop through characters to kee...
+
+SKILL: T29.G4.07
+  NEEDS: T02.G2.01 - Uses loops
+  NEEDS: T02.G2.02 - Uses loops
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T01.G2.01 - Uses coordinates
+  Description excerpt: students use "substring from position" operations (combining "letter # of" in loops or using split/j...
+
+SKILL: T29.G4.10
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students create simple two-column tables (e.g., 'word' and 'count') to organize text data, understan...
+
+SKILL: T29.G4.11
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students read sample texts and label them as positive, negative, or neutral. they discuss how word c...
+
+SKILL: T30.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students diagram how data flows in creaticode projects (camera input → ai detection → sprite action,...
+
+SKILL: T30.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: learners compare how creaticode projects perform on different devices (simple animation vs multi-spr...
+
+SKILL: T30.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students describe latency and bandwidth using everyday metaphors and relate them to online games or ...
+
+SKILL: T30.G4.03.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students identify the difference between 2d camera preview widgets (displaying camera feed in a wind...
+
+SKILL: T30.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: learners research one adaptive device (switch, eye tracker) and explain how it helps users access so...
+
+SKILL: T30.G4.05
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: students program sprites to respond to keyboard events (key press/release), mouse events (button cli...
+
+SKILL: T30.G4.05.01
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: students add camera widgets to display live camera feeds in creaticode projects using the "add camer...
+
+SKILL: T31.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students learn that data is broken into packets, sent separately across the internet, and reassemble...
+
+SKILL: T31.G4.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students recognize indicators of secure websites (https://, lock icon) and understand why security m...
+
+SKILL: T32.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students review a class digital citizenship agreement covering three core areas: (1) protecting pers...
+
+SKILL: T32.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students watch a teacher-led demonstration of a password manager interface (no actual passwords crea...
+
+SKILL: T32.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: students read an age-appropriate article about a data breach and list two protective steps individua...
+
+SKILL: T32.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: building on g3.02's mfa concept, students analyze scenarios where passwords are stolen (phishing, sh...
+
+SKILL: T32.G4.05
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students identify security indicators across different platforms: padlock icons for secure connectio...
+
+SKILL: T32.G4.06
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G3.01 - Uses broadcast messages
+  Description excerpt: **student task:** you receive a suspicious message. what should you do? **example:** choose "tell an...
+
+SKILL: T33.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students learn that apps can save data "in the cloud" so it's available on different devices. they t...
+
+SKILL: T34.G4.01
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace how one invention (e.g., the transistor) enabled subsequent technologies (microchips ...
+
+SKILL: T34.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: learners research how two different regions (e.g., us vs japan, europe vs asia) adopted computers an...
+
+SKILL: T34.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students trace how specific hardware innovations (gpu development for graphics, increased processing...
+
+SKILL: T35.G4.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students read and analyze provided case studies (drones delivering meds vs drones invading privacy, ...
+
+SKILL: T35.G4.02
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T06.G2.03 - Uses comparison operators
+  Description excerpt: students analyze actual creaticode community projects to identify persuasive design patterns (bright...
+
+SKILL: T35.G4.03.01
+  NEEDS: T04.G2.01 - Uses variables
+  NEEDS: T04.G2.02 - Uses variables
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  Description excerpt: students systematically test a creaticode game for accessibility barriers using a structured checkli...
+
+SKILL: T35.G4.03.02
+  NEEDS: T06.G2.01 - Uses conditionals
+  NEEDS: T06.G2.02 - Uses conditionals
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T13.G3.01 - Uses debugging techniques
+  NEEDS: T04.G2.03 - Uses arithmetic operators
+  Description excerpt: based on barriers identified in t35.g4.03.01 testing, students implement accessibility improvements ...
+
+SKILL: T35.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students use block coding to build an interactive pledge where users click to commit to positive onl...
+
+SKILL: T36.G4.01
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students watch/read about technologists (ux designer, robotics technician, accessibility advocate) a...
+
+SKILL: T36.G4.02
+  NEEDS: T07.G2.01 - Uses boolean logic
+  NEEDS: T05.G3.01 - Uses lists
+  NEEDS: T05.G3.02 - Uses lists
+  Description excerpt: teams create a simple three-column chart (to do / doing / done), list tasks for a multi-step project...
+
+SKILL: T36.G4.03
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: learners act out disagreements about a creaticode project (color scheme, character choice, feature p...
+
+SKILL: T36.G4.04
+  NEEDS: T07.G2.01 - Uses boolean logic
+  Description excerpt: students sort tech careers into categories based on output (people who make games, people who build ...
+
+
+================================================================================
+DEPENDENCIES TO ADD (READY-TO-APPLY FORMAT)
+================================================================================
+
+T01.G4.02 needs T06.G2.01
+T01.G4.02 needs T06.G2.02
+T01.G4.02 needs T07.G2.01
+T01.G4.02 needs T13.G3.01
+T01.G4.03 needs T02.G2.01
+T01.G4.03 needs T02.G2.02
+T01.G4.03 needs T06.G2.01
+T01.G4.03 needs T06.G2.02
+T01.G4.04 needs T02.G2.01
+T01.G4.04 needs T02.G2.02
+T01.G4.05.01 needs T02.G2.01
+T01.G4.05.01 needs T02.G2.02
+T01.G4.05.01 needs T06.G2.03
+T01.G4.05.01 needs T07.G2.01
+T01.G4.05.02 needs T02.G2.01
+T01.G4.05.02 needs T02.G2.02
+T01.G4.05.02 needs T07.G2.01
+T01.G4.06.01 needs T04.G2.01
+T01.G4.06.01 needs T04.G2.02
+T01.G4.06.01 needs T07.G2.01
+T01.G4.06.02 needs T04.G2.01
+T01.G4.06.02 needs T04.G2.02
+T01.G4.07 needs T02.G2.01
+T01.G4.07 needs T02.G2.02
+T01.G4.07 needs T04.G2.01
+T01.G4.07 needs T04.G2.02
+T01.G4.07 needs T07.G2.01
+T01.G4.08 needs T04.G2.01
+T01.G4.08 needs T04.G2.02
+T01.G4.08 needs T04.G2.03
+T01.G4.08 needs T06.G2.01
+T01.G4.08 needs T06.G2.02
+T01.G4.08 needs T07.G2.01
+T01.G4.09 needs T04.G2.01
+T01.G4.09 needs T04.G2.02
+T01.G4.09 needs T06.G3.01
+T01.G4.09 needs T07.G2.01
+T01.G4.10 needs T01.G2.01
+T01.G4.10 needs T02.G2.01
+T01.G4.10 needs T02.G2.02
+T01.G4.10 needs T04.G2.01
+T01.G4.10 needs T04.G2.02
+T01.G4.10 needs T07.G2.01
+T01.G4.10 needs T13.G3.01
+T01.G4.11 needs T02.G2.01
+T01.G4.11 needs T02.G2.02
+T01.G4.11 needs T04.G2.01
+T01.G4.11 needs T04.G2.02
+T01.G4.11 needs T07.G2.01
+T01.G4.11 needs T13.G3.01
+T01.G4.12 needs T02.G2.01
+T01.G4.12 needs T02.G2.02
+T01.G4.12 needs T04.G2.03
+T01.G4.12 needs T06.G2.03
+T01.G4.12 needs T07.G2.01
+T01.G4.13 needs T02.G2.01
+T01.G4.13 needs T02.G2.02
+T01.G4.13 needs T06.G2.01
+T01.G4.13 needs T06.G2.02
+T01.G4.13 needs T07.G2.01
+T02.G4.01 needs T02.G2.01
+T02.G4.01 needs T02.G2.02
+T02.G4.01 needs T07.G2.01
+T02.G4.02 needs T02.G2.01
+T02.G4.02 needs T02.G2.02
+T02.G4.03 needs T06.G2.01
+T02.G4.03 needs T06.G2.02
+T02.G4.03 needs T07.G2.01
+T02.G4.03 needs T13.G3.01
+T02.G4.04 needs T01.G2.01
+T02.G4.04 needs T02.G2.01
+T02.G4.04 needs T02.G2.02
+T02.G4.04 needs T06.G2.01
+T02.G4.04 needs T06.G2.02
+T02.G4.04 needs T06.G2.03
+T02.G4.04 needs T07.G2.01
+T02.G4.05 needs T04.G2.01
+T02.G4.05 needs T04.G2.02
+T02.G4.05 needs T13.G3.01
+T02.G4.06 needs T02.G2.01
+T02.G4.06 needs T02.G2.02
+T02.G4.06 needs T04.G2.01
+T02.G4.06 needs T04.G2.02
+T02.G4.06 needs T04.G2.03
+T02.G4.06 needs T13.G3.01
+T02.G4.07 needs T04.G2.03
+T02.G4.07 needs T07.G2.01
+T02.G4.07 needs T13.G3.01
+T03.G4.01 needs T04.G2.01
+T03.G4.01 needs T04.G2.02
+T03.G4.01 needs T07.G2.01
+T03.G4.02 needs T07.G2.01
+T03.G4.03 needs T13.G3.01
+T03.G4.04 needs T05.G3.01
+T03.G4.04 needs T05.G3.02
+T03.G4.04 needs T07.G2.01
+T03.G4.05 needs T07.G2.01
+T03.G4.05 needs T13.G3.01
+T03.G4.06 needs T04.G2.01
+T03.G4.06 needs T04.G2.02
+T03.G4.06 needs T04.G2.03
+T03.G4.06 needs T06.G2.01
+T03.G4.06 needs T06.G2.02
+T03.G4.06 needs T07.G2.01
+T03.G4.06 needs T13.G3.01
+T04.G4.01 needs T07.G2.01
+T04.G4.01 needs T13.G3.01
+T04.G4.01.01 needs T04.G2.01
+T04.G4.01.01 needs T04.G2.02
+T04.G4.01.01 needs T06.G2.01
+T04.G4.01.01 needs T06.G2.02
+T04.G4.01.01 needs T07.G2.01
+T04.G4.02 needs T02.G2.01
+T04.G4.02 needs T02.G2.02
+T04.G4.02 needs T07.G2.01
+T04.G4.03 needs T06.G2.01
+T04.G4.03 needs T06.G2.02
+T04.G4.03 needs T07.G2.01
+T04.G4.04 needs T04.G2.01
+T04.G4.04 needs T04.G2.02
+T04.G4.04 needs T07.G2.01
+T04.G4.05 needs T02.G2.01
+T04.G4.05 needs T02.G2.02
+T04.G4.05 needs T06.G2.01
+T04.G4.05 needs T06.G2.02
+T04.G4.05 needs T07.G2.01
+T04.G4.05 needs T13.G3.01
+T04.G4.06 needs T02.G2.01
+T04.G4.06 needs T02.G2.02
+T04.G4.06 needs T04.G2.01
+T04.G4.06 needs T04.G2.02
+T04.G4.06 needs T05.G3.01
+T04.G4.06 needs T05.G3.02
+T04.G4.06 needs T07.G2.01
+T04.G4.07 needs T06.G2.03
+T04.G4.08 needs T02.G2.01
+T04.G4.08 needs T02.G2.02
+T04.G4.08 needs T07.G2.01
+T04.G4.09 needs T02.G2.01
+T04.G4.09 needs T02.G2.02
+T04.G4.09 needs T05.G3.01
+T04.G4.09 needs T05.G3.02
+T04.G4.09 needs T07.G2.01
+T05.G4.01 needs T07.G2.01
+T05.G4.02 needs T07.G2.01
+T05.G4.03 needs T07.G2.01
+T05.G4.04 needs T04.G2.03
+T05.G4.04 needs T07.G2.01
+T05.G4.05 needs T07.G2.01
+T05.G4.06 needs T07.G2.01
+T05.G4.07 needs T07.G2.01
+T05.G4.07 needs T13.G3.01
+T06.G4.01 needs T07.G2.01
+T06.G4.02 needs T06.G2.01
+T06.G4.02 needs T06.G2.02
+T06.G4.02 needs T06.G3.01
+T06.G4.02 needs T07.G2.01
+T06.G4.03 needs T06.G2.01
+T06.G4.03 needs T06.G2.02
+T06.G4.03 needs T06.G3.01
+T06.G4.03 needs T07.G2.01
+T06.G4.04 needs T06.G2.01
+T06.G4.04 needs T06.G2.02
+T06.G4.04 needs T06.G3.01
+T06.G4.04 needs T07.G2.01
+T06.G4.04.01 needs T02.G2.01
+T06.G4.04.01 needs T02.G2.02
+T06.G4.04.01 needs T06.G2.03
+T06.G4.04.01 needs T06.G3.01
+T06.G4.04.01 needs T07.G2.01
+T06.G4.05 needs T06.G2.01
+T06.G4.05 needs T06.G2.02
+T06.G4.05 needs T06.G3.01
+T06.G4.06 needs T06.G2.01
+T06.G4.06 needs T06.G2.02
+T06.G4.06 needs T06.G3.01
+T06.G4.06 needs T13.G3.01
+T06.G4.07 needs T04.G2.03
+T06.G4.07 needs T06.G2.01
+T06.G4.07 needs T06.G2.02
+T06.G4.07 needs T06.G3.01
+T06.G4.08.01 needs T04.G2.03
+T06.G4.08.01 needs T06.G2.01
+T06.G4.08.01 needs T06.G2.02
+T06.G4.08.01 needs T06.G3.01
+T06.G4.08.02 needs T06.G2.01
+T06.G4.08.02 needs T06.G2.02
+T06.G4.08.03 needs T06.G2.01
+T06.G4.08.03 needs T06.G2.02
+T06.G4.08.03 needs T06.G2.03
+T06.G4.09 needs T01.G2.01
+T06.G4.09 needs T04.G2.01
+T06.G4.09 needs T04.G2.02
+T06.G4.09 needs T06.G2.01
+T06.G4.09 needs T06.G2.02
+T06.G4.09 needs T06.G2.03
+T06.G4.10 needs T06.G2.01
+T06.G4.10 needs T06.G2.02
+T06.G4.10 needs T06.G3.01
+T06.G4.10 needs T07.G2.01
+T06.G4.10.01 needs T04.G2.01
+T06.G4.10.01 needs T04.G2.02
+T06.G4.10.01 needs T06.G2.01
+T06.G4.10.01 needs T06.G2.02
+T06.G4.10.01 needs T06.G3.01
+T06.G4.10.01 needs T07.G2.01
+T07.G4.01 needs T02.G2.01
+T07.G4.01 needs T02.G2.02
+T07.G4.01 needs T06.G2.01
+T07.G4.01 needs T06.G2.02
+T07.G4.01 needs T07.G2.01
+T07.G4.02 needs T02.G2.01
+T07.G4.02 needs T02.G2.02
+T07.G4.02 needs T04.G2.01
+T07.G4.02 needs T04.G2.02
+T07.G4.02 needs T06.G2.01
+T07.G4.02 needs T06.G2.02
+T07.G4.02 needs T07.G2.01
+T07.G4.03 needs T02.G2.01
+T07.G4.03 needs T02.G2.02
+T07.G4.03 needs T04.G2.01
+T07.G4.03 needs T04.G2.02
+T07.G4.03 needs T07.G2.01
+T07.G4.03.01 needs T02.G2.01
+T07.G4.03.01 needs T02.G2.02
+T07.G4.03.01 needs T04.G2.01
+T07.G4.03.01 needs T04.G2.02
+T07.G4.03.01 needs T07.G2.01
+T07.G4.04 needs T02.G2.01
+T07.G4.04 needs T02.G2.02
+T07.G4.04 needs T04.G2.01
+T07.G4.04 needs T04.G2.02
+T07.G4.04 needs T06.G2.01
+T07.G4.04 needs T06.G2.02
+T07.G4.04 needs T06.G2.03
+T07.G4.04 needs T07.G2.01
+T07.G4.05 needs T02.G2.01
+T07.G4.05 needs T02.G2.02
+T07.G4.05 needs T04.G2.01
+T07.G4.05 needs T04.G2.02
+T07.G4.05 needs T06.G2.01
+T07.G4.05 needs T06.G2.02
+T07.G4.05 needs T07.G2.01
+T07.G4.05 needs T13.G3.01
+T07.G4.06 needs T02.G2.01
+T07.G4.06 needs T02.G2.02
+T07.G4.06 needs T13.G3.01
+T07.G4.07 needs T02.G2.01
+T07.G4.07 needs T02.G2.02
+T07.G4.07 needs T04.G2.01
+T07.G4.07 needs T04.G2.02
+T07.G4.07 needs T07.G2.01
+T07.G4.07 needs T07.G3.01
+T07.G4.07 needs T13.G3.01
+T07.G4.08 needs T02.G2.01
+T07.G4.08 needs T02.G2.02
+T07.G4.08 needs T04.G2.01
+T07.G4.08 needs T04.G2.02
+T07.G4.08 needs T07.G2.01
+T08.G4.00 needs T06.G2.01
+T08.G4.00 needs T06.G2.02
+T08.G4.00 needs T07.G2.01
+T08.G4.01 needs T04.G2.03
+T08.G4.01 needs T06.G2.01
+T08.G4.01 needs T06.G2.02
+T08.G4.01 needs T07.G2.01
+T08.G4.02 needs T04.G2.01
+T08.G4.02 needs T04.G2.02
+T08.G4.02 needs T06.G2.01
+T08.G4.02 needs T06.G2.02
+T08.G4.02 needs T06.G2.03
+T08.G4.02 needs T07.G2.01
+T08.G4.03 needs T01.G2.01
+T08.G4.03 needs T06.G2.01
+T08.G4.03 needs T06.G2.02
+T08.G4.03 needs T06.G3.01
+T08.G4.03 needs T07.G2.01
+T08.G4.03 needs T13.G3.01
+T08.G4.04 needs T06.G2.01
+T08.G4.04 needs T06.G2.02
+T08.G4.04 needs T07.G2.01
+T08.G4.05 needs T04.G2.01
+T08.G4.05 needs T04.G2.02
+T08.G4.05 needs T06.G2.01
+T08.G4.05 needs T06.G2.02
+T08.G4.05 needs T06.G2.03
+T08.G4.05 needs T07.G2.01
+T08.G4.06 needs T06.G2.01
+T08.G4.06 needs T06.G2.02
+T08.G4.06 needs T07.G2.01
+T08.G4.07 needs T06.G2.01
+T08.G4.07 needs T06.G2.02
+T08.G4.07 needs T07.G2.01
+T08.G4.08 needs T04.G2.03
+T08.G4.08 needs T06.G2.01
+T08.G4.08 needs T06.G2.02
+T08.G4.08 needs T07.G2.01
+T08.G4.08 needs T13.G3.01
+T08.G4.09 needs T06.G2.01
+T08.G4.09 needs T06.G2.02
+T08.G4.09 needs T07.G2.01
+T08.G4.09 needs T13.G3.01
+T09.G4.01 needs T04.G2.01
+T09.G4.01 needs T04.G2.02
+T09.G4.01 needs T04.G2.03
+T09.G4.01 needs T07.G2.01
+T09.G4.01.01 needs T04.G2.01
+T09.G4.01.01 needs T04.G2.02
+T09.G4.01.01 needs T04.G2.03
+T09.G4.01.01 needs T07.G2.01
+T09.G4.02 needs T04.G2.01
+T09.G4.02 needs T04.G2.02
+T09.G4.02 needs T04.G2.03
+T09.G4.02 needs T07.G2.01
+T09.G4.02.01 needs T04.G2.01
+T09.G4.02.01 needs T04.G2.02
+T09.G4.02.01 needs T04.G2.03
+T09.G4.02.01 needs T07.G2.01
+T09.G4.03 needs T01.G2.01
+T09.G4.03 needs T04.G2.03
+T09.G4.03 needs T07.G2.01
+T09.G4.04 needs T04.G2.01
+T09.G4.04 needs T04.G2.02
+T09.G4.04 needs T06.G2.01
+T09.G4.04 needs T06.G2.02
+T09.G4.04 needs T07.G2.01
+T09.G4.05 needs T01.G2.01
+T09.G4.05 needs T02.G2.01
+T09.G4.05 needs T02.G2.02
+T09.G4.05 needs T04.G2.01
+T09.G4.05 needs T04.G2.02
+T09.G4.05 needs T07.G2.01
+T09.G4.06 needs T04.G2.01
+T09.G4.06 needs T04.G2.02
+T09.G4.06 needs T04.G2.03
+T09.G4.06 needs T06.G2.01
+T09.G4.06 needs T06.G2.02
+T09.G4.06 needs T06.G2.03
+T09.G4.06 needs T07.G2.01
+T09.G4.06.01 needs T04.G2.01
+T09.G4.06.01 needs T04.G2.02
+T09.G4.06.01 needs T04.G2.03
+T09.G4.06.01 needs T06.G2.01
+T09.G4.06.01 needs T06.G2.02
+T09.G4.06.01 needs T06.G2.03
+T09.G4.06.01 needs T07.G2.01
+T09.G4.06.02 needs T04.G2.01
+T09.G4.06.02 needs T04.G2.02
+T09.G4.06.02 needs T04.G2.03
+T09.G4.06.02 needs T06.G2.01
+T09.G4.06.02 needs T06.G2.02
+T09.G4.06.02 needs T06.G2.03
+T09.G4.06.02 needs T07.G2.01
+T09.G4.06.03 needs T04.G2.01
+T09.G4.06.03 needs T04.G2.02
+T09.G4.06.03 needs T04.G2.03
+T09.G4.06.03 needs T06.G2.01
+T09.G4.06.03 needs T06.G2.02
+T09.G4.06.03 needs T06.G2.03
+T09.G4.06.03 needs T07.G2.01
+T09.G4.07 needs T04.G2.01
+T09.G4.07 needs T04.G2.02
+T09.G4.07 needs T06.G2.01
+T09.G4.07 needs T06.G2.02
+T09.G4.07 needs T06.G2.03
+T09.G4.07 needs T06.G3.01
+T09.G4.07 needs T07.G2.01
+T09.G4.08 needs T01.G2.01
+T09.G4.08 needs T04.G2.01
+T09.G4.08 needs T04.G2.02
+T09.G4.08 needs T04.G3.02
+T09.G4.08 needs T07.G2.01
+T09.G4.08.01 needs T04.G2.01
+T09.G4.08.01 needs T04.G2.02
+T09.G4.08.01 needs T06.G2.01
+T09.G4.08.01 needs T06.G2.02
+T09.G4.08.01 needs T07.G2.01
+T09.G4.08.01 needs T13.G3.01
+T09.G4.09 needs T02.G2.01
+T09.G4.09 needs T02.G2.02
+T09.G4.09 needs T04.G2.01
+T09.G4.09 needs T04.G2.02
+T09.G4.09 needs T07.G2.01
+T09.G4.09 needs T13.G3.01
+T10.G4.01 needs T01.G2.01
+T10.G4.01 needs T02.G2.01
+T10.G4.01 needs T02.G2.02
+T10.G4.01 needs T04.G2.01
+T10.G4.01 needs T04.G2.02
+T10.G4.01 needs T05.G3.01
+T10.G4.01 needs T05.G3.02
+T10.G4.01 needs T06.G2.01
+T10.G4.01 needs T06.G2.02
+T10.G4.01 needs T07.G2.01
+T10.G4.02 needs T04.G2.01
+T10.G4.02 needs T04.G2.02
+T10.G4.02 needs T04.G2.03
+T10.G4.02 needs T05.G3.01
+T10.G4.02 needs T05.G3.02
+T10.G4.02 needs T07.G2.01
+T10.G4.03 needs T01.G2.01
+T10.G4.03 needs T04.G2.03
+T10.G4.03 needs T05.G3.01
+T10.G4.03 needs T05.G3.02
+T10.G4.03 needs T07.G2.01
+T10.G4.04 needs T01.G2.01
+T10.G4.04 needs T04.G2.01
+T10.G4.04 needs T04.G2.02
+T10.G4.04 needs T05.G3.01
+T10.G4.04 needs T05.G3.02
+T10.G4.04 needs T07.G2.01
+T10.G4.05 needs T04.G2.01
+T10.G4.05 needs T04.G2.02
+T10.G4.05 needs T05.G3.01
+T10.G4.05 needs T05.G3.02
+T10.G4.05 needs T07.G2.01
+T10.G4.06.01 needs T04.G2.01
+T10.G4.06.01 needs T04.G2.02
+T10.G4.06.01 needs T05.G3.01
+T10.G4.06.01 needs T05.G3.02
+T10.G4.06.01 needs T07.G2.01
+T10.G4.06.02 needs T04.G2.01
+T10.G4.06.02 needs T04.G2.02
+T10.G4.06.02 needs T05.G3.01
+T10.G4.06.02 needs T05.G3.02
+T10.G4.06.02 needs T06.G2.03
+T10.G4.06.02 needs T07.G2.01
+T10.G4.06.03 needs T04.G2.01
+T10.G4.06.03 needs T04.G2.02
+T10.G4.06.03 needs T04.G2.03
+T10.G4.06.03 needs T05.G3.01
+T10.G4.06.03 needs T05.G3.02
+T10.G4.06.03 needs T07.G2.01
+T10.G4.06.04 needs T04.G2.01
+T10.G4.06.04 needs T04.G2.02
+T10.G4.06.04 needs T04.G2.03
+T10.G4.06.04 needs T05.G3.01
+T10.G4.06.04 needs T05.G3.02
+T10.G4.06.04 needs T07.G2.01
+T10.G4.06.05 needs T04.G2.01
+T10.G4.06.05 needs T04.G2.02
+T10.G4.06.05 needs T05.G3.01
+T10.G4.06.05 needs T05.G3.02
+T10.G4.06.05 needs T06.G2.01
+T10.G4.06.05 needs T06.G2.02
+T10.G4.06.05 needs T06.G2.03
+T10.G4.06.05 needs T07.G2.01
+T10.G4.06.05 needs T13.G3.01
+T10.G4.07 needs T02.G2.01
+T10.G4.07 needs T02.G2.02
+T10.G4.07 needs T04.G2.01
+T10.G4.07 needs T04.G2.02
+T10.G4.07 needs T05.G3.01
+T10.G4.07 needs T05.G3.02
+T10.G4.07 needs T06.G2.01
+T10.G4.07 needs T06.G2.02
+T10.G4.07 needs T07.G2.01
+T10.G4.08 needs T02.G2.01
+T10.G4.08 needs T02.G2.02
+T10.G4.08 needs T04.G2.01
+T10.G4.08 needs T04.G2.02
+T10.G4.08 needs T04.G2.03
+T10.G4.08 needs T05.G3.01
+T10.G4.08 needs T05.G3.02
+T10.G4.08 needs T06.G2.01
+T10.G4.08 needs T06.G2.02
+T10.G4.08 needs T06.G2.03
+T10.G4.08 needs T07.G2.01
+T10.G4.09 needs T01.G2.01
+T10.G4.09 needs T04.G2.01
+T10.G4.09 needs T04.G2.02
+T10.G4.09 needs T04.G2.03
+T10.G4.09 needs T05.G3.01
+T10.G4.09 needs T05.G3.02
+T10.G4.09 needs T06.G2.01
+T10.G4.09 needs T06.G2.02
+T10.G4.09 needs T07.G2.01
+T10.G4.10 needs T01.G2.01
+T10.G4.10 needs T04.G2.01
+T10.G4.10 needs T04.G2.02
+T10.G4.10 needs T05.G3.01
+T10.G4.10 needs T05.G3.02
+T10.G4.11.01 needs T05.G3.01
+T10.G4.11.01 needs T05.G3.02
+T10.G4.11.02 needs T04.G2.03
+T10.G4.11.02 needs T05.G3.01
+T10.G4.11.02 needs T05.G3.02
+T10.G4.11.02 needs T06.G2.01
+T10.G4.11.02 needs T06.G2.02
+T10.G4.11.02 needs T06.G2.03
+T10.G4.11.02 needs T07.G2.01
+T10.G4.12 needs T05.G3.01
+T10.G4.12 needs T05.G3.02
+T10.G4.12 needs T07.G2.01
+T10.G4.13 needs T05.G3.01
+T10.G4.13 needs T05.G3.02
+T10.G4.13 needs T07.G2.01
+T10.G4.14 needs T01.G2.01
+T10.G4.14 needs T05.G3.01
+T10.G4.14 needs T05.G3.02
+T10.G4.14 needs T06.G2.01
+T10.G4.14 needs T06.G2.02
+T10.G4.14 needs T07.G2.01
+T10.G4.15 needs T01.G2.01
+T10.G4.15 needs T04.G3.02
+T10.G4.15 needs T05.G3.01
+T10.G4.15 needs T05.G3.02
+T10.G4.15 needs T07.G2.01
+T10.G4.16 needs T04.G2.01
+T10.G4.16 needs T04.G2.02
+T10.G4.16 needs T04.G3.02
+T10.G4.16 needs T05.G3.01
+T10.G4.16 needs T05.G3.02
+T10.G4.16 needs T06.G2.01
+T10.G4.16 needs T06.G2.02
+T10.G4.16 needs T07.G2.01
+T10.G4.16 needs T13.G3.01
+T10.G4.17 needs T01.G2.01
+T10.G4.17 needs T04.G2.01
+T10.G4.17 needs T04.G2.02
+T10.G4.17 needs T05.G3.01
+T10.G4.17 needs T05.G3.02
+T10.G4.17 needs T07.G2.01
+T10.G4.18 needs T01.G2.01
+T10.G4.18 needs T02.G2.01
+T10.G4.18 needs T02.G2.02
+T10.G4.18 needs T04.G2.01
+T10.G4.18 needs T04.G2.02
+T10.G4.18 needs T05.G3.01
+T10.G4.18 needs T05.G3.02
+T10.G4.18 needs T06.G2.01
+T10.G4.18 needs T06.G2.02
+T10.G4.18 needs T07.G2.01
+T10.G4.19 needs T05.G3.01
+T10.G4.19 needs T05.G3.02
+T10.G4.19 needs T06.G2.01
+T10.G4.19 needs T06.G2.02
+T10.G4.19 needs T06.G2.03
+T10.G4.19 needs T07.G2.01
+T10.G4.20 needs T04.G2.01
+T10.G4.20 needs T04.G2.02
+T10.G4.20 needs T04.G3.02
+T10.G4.20 needs T05.G3.01
+T10.G4.20 needs T05.G3.02
+T10.G4.20 needs T07.G2.01
+T11.G4.01 needs T03.G2.01
+T11.G4.01 needs T03.G2.02
+T11.G4.01 needs T04.G2.03
+T11.G4.01 needs T06.G2.03
+T11.G4.02 needs T04.G2.01
+T11.G4.02 needs T04.G2.02
+T11.G4.02 needs T07.G2.01
+T11.G4.03 needs T01.G2.01
+T11.G4.03 needs T04.G2.01
+T11.G4.03 needs T04.G2.02
+T11.G4.03 needs T04.G2.03
+T11.G4.03 needs T04.G3.02
+T11.G4.03 needs T05.G3.01
+T11.G4.03 needs T05.G3.02
+T11.G4.03 needs T06.G2.01
+T11.G4.03 needs T06.G2.02
+T11.G4.03 needs T06.G2.03
+T11.G4.03 needs T07.G2.01
+T11.G4.04 needs T01.G2.01
+T11.G4.04 needs T02.G2.01
+T11.G4.04 needs T02.G2.02
+T11.G4.04 needs T03.G2.01
+T11.G4.04 needs T03.G2.02
+T11.G4.04 needs T04.G2.01
+T11.G4.04 needs T04.G2.02
+T11.G4.04 needs T07.G2.01
+T11.G4.05 needs T03.G2.01
+T11.G4.05 needs T03.G2.02
+T11.G4.05 needs T04.G2.01
+T11.G4.05 needs T04.G2.02
+T11.G4.05 needs T07.G2.01
+T11.G4.05 needs T13.G3.01
+T11.G4.06 needs T03.G2.01
+T11.G4.06 needs T03.G2.02
+T11.G4.06 needs T04.G2.01
+T11.G4.06 needs T04.G2.02
+T11.G4.06 needs T06.G2.01
+T11.G4.06 needs T06.G2.02
+T11.G4.06 needs T13.G3.01
+T11.G4.07 needs T03.G2.01
+T11.G4.07 needs T03.G2.02
+T11.G4.07 needs T04.G2.01
+T11.G4.07 needs T04.G2.02
+T11.G4.07 needs T07.G2.01
+T11.G4.08 needs T03.G2.01
+T11.G4.08 needs T03.G2.02
+T11.G4.08 needs T04.G2.01
+T11.G4.08 needs T04.G2.02
+T11.G4.08 needs T07.G2.01
+T11.G4.08 needs T13.G3.01
+T12.G4.01 needs T04.G2.03
+T12.G4.01 needs T07.G2.01
+T12.G4.02 needs T03.G2.01
+T12.G4.02 needs T03.G2.02
+T12.G4.02 needs T06.G2.01
+T12.G4.02 needs T06.G2.02
+T12.G4.03 needs T02.G2.01
+T12.G4.03 needs T02.G2.02
+T12.G4.03 needs T03.G2.01
+T12.G4.03 needs T03.G2.02
+T12.G4.03 needs T07.G2.01
+T12.G4.04 needs T04.G2.01
+T12.G4.04 needs T04.G2.02
+T12.G4.04 needs T04.G2.03
+T12.G4.04 needs T07.G2.01
+T12.G4.05 needs T03.G2.01
+T12.G4.05 needs T03.G2.02
+T12.G4.05 needs T04.G2.01
+T12.G4.05 needs T04.G2.02
+T12.G4.05 needs T06.G2.01
+T12.G4.05 needs T06.G2.02
+T12.G4.05 needs T07.G2.01
+T13.G4.01 needs T02.G2.01
+T13.G4.01 needs T02.G2.02
+T13.G4.01 needs T04.G2.01
+T13.G4.01 needs T04.G2.02
+T13.G4.01 needs T06.G2.01
+T13.G4.01 needs T06.G2.02
+T13.G4.01 needs T07.G2.01
+T13.G4.01 needs T13.G3.01
+T13.G4.02 needs T01.G2.01
+T13.G4.02 needs T04.G2.01
+T13.G4.02 needs T04.G2.02
+T13.G4.02 needs T06.G2.01
+T13.G4.02 needs T06.G2.02
+T13.G4.02 needs T06.G2.03
+T13.G4.02 needs T07.G2.01
+T13.G4.03 needs T02.G2.01
+T13.G4.03 needs T02.G2.02
+T13.G4.03 needs T06.G2.01
+T13.G4.03 needs T06.G2.02
+T13.G4.03 needs T06.G2.03
+T13.G4.03 needs T07.G2.01
+T13.G4.03 needs T13.G3.01
+T13.G4.04 needs T02.G2.01
+T13.G4.04 needs T02.G2.02
+T13.G4.04 needs T04.G2.03
+T13.G4.04 needs T06.G2.01
+T13.G4.04 needs T06.G2.02
+T13.G4.04 needs T07.G2.01
+T13.G4.05.01 needs T04.G2.01
+T13.G4.05.01 needs T04.G2.02
+T13.G4.05.01 needs T06.G2.03
+T13.G4.05.02 needs T07.G2.01
+T13.G4.05.02 needs T13.G3.01
+T13.G4.06 needs T06.G3.01
+T13.G4.06 needs T07.G2.01
+T13.G4.06 needs T13.G3.01
+T13.G4.07 needs T04.G2.03
+T13.G4.07 needs T07.G2.01
+T13.G4.07 needs T13.G3.01
+T13.G4.08 needs T04.G2.01
+T13.G4.08 needs T04.G2.02
+T13.G4.08 needs T04.G2.03
+T13.G4.08 needs T06.G2.01
+T13.G4.08 needs T06.G2.02
+T13.G4.08 needs T06.G2.03
+T13.G4.08 needs T07.G2.01
+T13.G4.08 needs T13.G3.01
+T13.G4.09 needs T02.G2.01
+T13.G4.09 needs T02.G2.02
+T13.G4.09 needs T04.G2.01
+T13.G4.09 needs T04.G2.02
+T13.G4.09 needs T04.G2.03
+T13.G4.09 needs T06.G3.01
+T13.G4.09 needs T07.G2.01
+T13.G4.09 needs T13.G3.01
+T14.G4.01 needs T01.G2.01
+T14.G4.01 needs T06.G2.01
+T14.G4.01 needs T06.G2.02
+T14.G4.01 needs T07.G2.01
+T14.G4.01 needs T08.G3.01
+T14.G4.02 needs T02.G2.01
+T14.G4.02 needs T02.G2.02
+T14.G4.02 needs T06.G2.01
+T14.G4.02 needs T06.G2.02
+T14.G4.02 needs T07.G2.01
+T14.G4.02 needs T08.G3.01
+T14.G4.03 needs T06.G2.01
+T14.G4.03 needs T06.G2.02
+T14.G4.03 needs T06.G3.01
+T14.G4.03 needs T07.G2.01
+T14.G4.04.01 needs T02.G2.01
+T14.G4.04.01 needs T02.G2.02
+T14.G4.04.01 needs T06.G2.01
+T14.G4.04.01 needs T06.G2.02
+T14.G4.04.01 needs T07.G2.01
+T14.G4.04.01 needs T13.G3.01
+T14.G4.04.02 needs T01.G2.01
+T14.G4.04.02 needs T02.G2.01
+T14.G4.04.02 needs T02.G2.02
+T14.G4.04.02 needs T03.G2.01
+T14.G4.04.02 needs T03.G2.02
+T14.G4.04.02 needs T07.G2.01
+T14.G4.05.01 needs T01.G2.01
+T14.G4.05.01 needs T07.G2.01
+T14.G4.05.01 needs T13.G3.01
+T14.G4.05.02 needs T02.G2.01
+T14.G4.05.02 needs T02.G2.02
+T14.G4.05.02 needs T13.G3.01
+T14.G4.06 needs T04.G2.01
+T14.G4.06 needs T04.G2.02
+T14.G4.06 needs T06.G2.01
+T14.G4.06 needs T06.G2.02
+T14.G4.06 needs T07.G2.01
+T14.G4.07 needs T04.G2.01
+T14.G4.07 needs T04.G2.02
+T14.G4.07 needs T06.G2.01
+T14.G4.07 needs T06.G2.02
+T14.G4.07 needs T07.G2.01
+T14.G4.08 needs T02.G2.01
+T14.G4.08 needs T02.G2.02
+T14.G4.08 needs T04.G2.01
+T14.G4.08 needs T04.G2.02
+T14.G4.08 needs T06.G2.01
+T14.G4.08 needs T06.G2.02
+T14.G4.08 needs T06.G2.03
+T14.G4.08 needs T07.G2.01
+T14.G4.09 needs T04.G2.01
+T14.G4.09 needs T04.G2.02
+T14.G4.09 needs T06.G2.01
+T14.G4.09 needs T06.G2.02
+T14.G4.09 needs T06.G3.01
+T14.G4.09 needs T07.G2.01
+T14.G4.09 needs T13.G3.01
+T14.G4.10 needs T01.G2.01
+T14.G4.10 needs T06.G2.01
+T14.G4.10 needs T06.G2.02
+T14.G4.10 needs T07.G2.01
+T14.G4.11 needs T01.G2.01
+T14.G4.11 needs T04.G2.01
+T14.G4.11 needs T04.G2.02
+T14.G4.11 needs T06.G2.01
+T14.G4.11 needs T06.G2.02
+T14.G4.12 needs T04.G2.01
+T14.G4.12 needs T04.G2.02
+T14.G4.12 needs T07.G2.01
+T14.G4.13 needs T02.G2.01
+T14.G4.13 needs T02.G2.02
+T14.G4.13 needs T04.G2.01
+T14.G4.13 needs T04.G2.02
+T14.G4.13 needs T06.G3.01
+T14.G4.13 needs T07.G2.01
+T14.G4.14 needs T01.G2.01
+T14.G4.14 needs T04.G2.01
+T14.G4.14 needs T04.G2.02
+T14.G4.14 needs T06.G2.01
+T14.G4.14 needs T06.G2.02
+T14.G4.14 needs T07.G2.01
+T14.G4.15 needs T02.G2.01
+T14.G4.15 needs T02.G2.02
+T14.G4.15 needs T04.G2.01
+T14.G4.15 needs T04.G2.02
+T14.G4.15 needs T06.G2.01
+T14.G4.15 needs T06.G2.02
+T14.G4.15 needs T07.G2.01
+T15.G4.01 needs T02.G2.01
+T15.G4.01 needs T02.G2.02
+T15.G4.01 needs T07.G2.01
+T15.G4.02 needs T01.G2.01
+T15.G4.02 needs T06.G2.01
+T15.G4.02 needs T06.G2.02
+T15.G4.02 needs T06.G3.01
+T15.G4.02 needs T07.G2.01
+T15.G4.02.01 needs T01.G2.01
+T15.G4.02.01 needs T04.G2.03
+T15.G4.02.01 needs T06.G2.01
+T15.G4.02.01 needs T06.G2.02
+T15.G4.02.01 needs T07.G2.01
+T15.G4.03 needs T06.G2.01
+T15.G4.03 needs T06.G2.02
+T15.G4.03 needs T06.G3.01
+T15.G4.03 needs T07.G2.01
+T15.G4.04 needs T01.G2.01
+T15.G4.04 needs T04.G2.03
+T15.G4.04 needs T07.G2.01
+T15.G4.05 needs T04.G2.01
+T15.G4.05 needs T04.G2.02
+T15.G4.06 needs T01.G2.01
+T15.G4.06 needs T04.G2.03
+T15.G4.06 needs T06.G2.01
+T15.G4.06 needs T06.G2.02
+T15.G4.06 needs T06.G3.01
+T15.G4.06 needs T07.G2.01
+T15.G4.07 needs T01.G2.01
+T15.G4.08 needs T06.G2.01
+T15.G4.08 needs T06.G2.02
+T15.G4.08 needs T07.G2.01
+T16.G4.01 needs T07.G2.01
+T16.G4.01.01 needs T07.G2.01
+T16.G4.02 needs T01.G2.01
+T16.G4.02 needs T04.G2.03
+T16.G4.02 needs T07.G2.01
+T16.G4.02.01 needs T01.G2.01
+T16.G4.02.01 needs T04.G2.03
+T16.G4.02.01 needs T07.G2.01
+T16.G4.03 needs T01.G2.01
+T16.G4.03 needs T04.G2.01
+T16.G4.03 needs T04.G2.02
+T16.G4.03 needs T04.G2.03
+T16.G4.03 needs T05.G3.01
+T16.G4.03 needs T05.G3.02
+T16.G4.03 needs T06.G2.01
+T16.G4.03 needs T06.G2.02
+T16.G4.03 needs T07.G2.01
+T16.G4.04 needs T04.G2.01
+T16.G4.04 needs T04.G2.02
+T16.G4.04 needs T06.G2.01
+T16.G4.04 needs T06.G2.02
+T16.G4.04 needs T06.G3.01
+T16.G4.04 needs T07.G2.01
+T16.G4.05 needs T01.G2.01
+T16.G4.05 needs T04.G2.01
+T16.G4.05 needs T04.G2.02
+T16.G4.05 needs T04.G2.03
+T16.G4.05 needs T07.G2.01
+T16.G4.06 needs T04.G2.01
+T16.G4.06 needs T04.G2.02
+T16.G4.06 needs T06.G2.01
+T16.G4.06 needs T06.G2.02
+T16.G4.06 needs T06.G3.01
+T16.G4.06 needs T07.G2.01
+T16.G4.07 needs T01.G2.01
+T16.G4.07 needs T04.G2.03
+T16.G4.07 needs T06.G2.01
+T16.G4.07 needs T06.G2.02
+T16.G4.07 needs T07.G2.01
+T16.G4.07.01 needs T01.G2.01
+T16.G4.07.01 needs T04.G2.03
+T16.G4.07.01 needs T06.G2.01
+T16.G4.07.01 needs T06.G2.02
+T16.G4.07.01 needs T06.G3.01
+T16.G4.08 needs T01.G2.01
+T16.G4.08 needs T06.G2.01
+T16.G4.08 needs T06.G2.02
+T16.G4.08 needs T07.G2.01
+T16.G4.08.01 needs T04.G2.01
+T16.G4.08.01 needs T04.G2.02
+T16.G4.08.01 needs T06.G2.01
+T16.G4.08.01 needs T06.G2.02
+T16.G4.08.01 needs T07.G2.01
+T16.G4.09 needs T06.G2.01
+T16.G4.09 needs T06.G2.02
+T16.G4.09 needs T06.G3.01
+T16.G4.09 needs T07.G2.01
+T16.G4.10 needs T01.G2.01
+T16.G4.10 needs T04.G2.01
+T16.G4.10 needs T04.G2.02
+T16.G4.10 needs T04.G2.03
+T16.G4.10 needs T07.G2.01
+T17.G4.01 needs T02.G2.01
+T17.G4.01 needs T02.G2.02
+T17.G4.02 needs T01.G2.01
+T17.G4.02 needs T02.G2.01
+T17.G4.02 needs T02.G2.02
+T17.G4.02 needs T06.G2.03
+T18.G4.01.01 needs T04.G2.03
+T18.G4.01.01 needs T07.G2.01
+T18.G4.01.02 needs T04.G2.03
+T18.G4.01.02 needs T07.G2.01
+T18.G4.01.03 needs T07.G2.01
+T18.G4.02.01 needs T04.G2.03
+T18.G4.02.01 needs T07.G2.01
+T18.G4.02.02 needs T07.G2.01
+T18.G4.02.03 needs T01.G2.01
+T18.G4.02.03 needs T04.G2.03
+T18.G4.02.03 needs T07.G2.01
+T18.G4.03.01 needs T07.G2.01
+T18.G4.03.02 needs T07.G2.01
+T18.G4.04.01 needs T07.G2.01
+T18.G4.04.02 needs T04.G2.03
+T18.G4.04.02 needs T07.G2.01
+T18.G4.05.02 needs T02.G2.01
+T18.G4.05.02 needs T02.G2.02
+T18.G4.05.03 needs T01.G2.01
+T18.G4.05.03 needs T02.G2.01
+T18.G4.05.03 needs T02.G2.02
+T18.G4.05.03 needs T07.G2.01
+T18.G4.06 needs T04.G2.01
+T18.G4.06 needs T04.G2.02
+T18.G4.06 needs T06.G2.01
+T18.G4.06 needs T06.G2.02
+T18.G4.06 needs T06.G3.01
+T18.G4.06 needs T07.G2.01
+T20.G4.01 needs T01.G2.01
+T20.G4.01 needs T02.G2.01
+T20.G4.01 needs T02.G2.02
+T20.G4.01 needs T04.G2.01
+T20.G4.01 needs T04.G2.02
+T20.G4.01 needs T04.G2.03
+T20.G4.01 needs T07.G2.01
+T20.G4.02 needs T01.G2.01
+T20.G4.02 needs T02.G2.01
+T20.G4.02 needs T02.G2.02
+T20.G4.02 needs T03.G2.01
+T20.G4.02 needs T03.G2.02
+T20.G4.02 needs T07.G2.01
+T20.G4.03 needs T04.G2.01
+T20.G4.03 needs T04.G2.02
+T20.G4.03 needs T07.G2.01
+T20.G4.03.01 needs T02.G2.01
+T20.G4.03.01 needs T02.G2.02
+T20.G4.03.02 needs T05.G3.01
+T20.G4.03.02 needs T05.G3.02
+T20.G4.03.02 needs T07.G2.01
+T20.G4.04 needs T02.G2.01
+T20.G4.04 needs T02.G2.02
+T20.G4.04 needs T07.G2.01
+T20.G4.05 needs T04.G2.03
+T20.G4.05 needs T07.G2.01
+T20.G4.05.01 needs T01.G2.01
+T20.G4.05.01 needs T04.G2.01
+T20.G4.05.01 needs T04.G2.02
+T20.G4.05.01 needs T05.G3.01
+T20.G4.05.01 needs T05.G3.02
+T20.G4.05.01 needs T07.G2.01
+T20.G4.05.02 needs T02.G2.01
+T20.G4.05.02 needs T02.G2.02
+T20.G4.05.02 needs T04.G2.01
+T20.G4.05.02 needs T04.G2.02
+T20.G4.05.02 needs T07.G2.01
+T21.G4.01 needs T04.G2.03
+T21.G4.01 needs T07.G2.01
+T21.G4.02 needs T04.G2.01
+T21.G4.02 needs T04.G2.02
+T21.G4.02 needs T07.G2.01
+T21.G4.03 needs T05.G3.01
+T21.G4.03 needs T05.G3.02
+T21.G4.03 needs T06.G2.01
+T21.G4.03 needs T06.G2.02
+T21.G4.03 needs T07.G2.01
+T22.G4.01 needs T07.G2.01
+T22.G4.02 needs T07.G2.01
+T22.G4.03 needs T04.G2.03
+T22.G4.03 needs T07.G2.01
+T22.G4.03 needs T13.G3.01
+T23.G4.01 needs T07.G2.01
+T23.G4.02 needs T07.G2.01
+T23.G4.03 needs T01.G2.01
+T23.G4.03 needs T04.G2.03
+T23.G4.03 needs T07.G2.01
+T24.G4.00 needs T04.G2.03
+T24.G4.00 needs T06.G2.03
+T24.G4.00 needs T07.G2.01
+T24.G4.01 needs T07.G2.01
+T24.G4.02 needs T06.G2.03
+T24.G4.02 needs T07.G2.01
+T24.G4.03 needs T06.G2.01
+T24.G4.03 needs T06.G2.02
+T24.G4.03 needs T06.G3.01
+T24.G4.03 needs T07.G2.01
+T24.G4.04 needs T04.G2.03
+T24.G4.04 needs T07.G2.01
+T24.G4.05 needs T06.G2.01
+T24.G4.05 needs T06.G2.02
+T24.G4.05 needs T07.G2.01
+T24.G4.05 needs T13.G3.01
+T24.G4.06 needs T03.G2.01
+T24.G4.06 needs T03.G2.02
+T24.G4.06 needs T05.G3.01
+T24.G4.06 needs T05.G3.02
+T24.G4.06 needs T06.G2.01
+T24.G4.06 needs T06.G2.02
+T24.G4.06 needs T07.G2.01
+T24.G4.07 needs T06.G2.01
+T24.G4.07 needs T06.G2.02
+T24.G4.07 needs T07.G2.01
+T24.G4.07 needs T13.G3.01
+T25.G4.01 needs T04.G2.01
+T25.G4.01 needs T04.G2.02
+T25.G4.01 needs T05.G3.01
+T25.G4.01 needs T05.G3.02
+T25.G4.01 needs T07.G2.01
+T25.G4.02 needs T04.G2.01
+T25.G4.02 needs T04.G2.02
+T25.G4.02 needs T04.G2.03
+T25.G4.02 needs T07.G2.01
+T25.G4.03 needs T01.G2.01
+T25.G4.03 needs T04.G2.01
+T25.G4.03 needs T04.G2.02
+T25.G4.03 needs T05.G3.01
+T25.G4.03 needs T05.G3.02
+T25.G4.03 needs T06.G2.03
+T25.G4.03 needs T07.G2.01
+T25.G4.04 needs T04.G2.03
+T25.G4.04 needs T06.G2.03
+T25.G4.04 needs T07.G2.01
+T25.G4.05 needs T04.G2.01
+T25.G4.05 needs T04.G2.02
+T25.G4.05 needs T04.G2.03
+T25.G4.05 needs T07.G2.01
+T25.G4.06 needs T02.G2.01
+T25.G4.06 needs T02.G2.02
+T25.G4.06 needs T04.G2.01
+T25.G4.06 needs T04.G2.02
+T25.G4.06 needs T04.G2.03
+T25.G4.06 needs T05.G3.01
+T25.G4.06 needs T05.G3.02
+T25.G4.06 needs T07.G2.01
+T26.G4.01 needs T07.G2.01
+T26.G4.02.01 needs T04.G2.03
+T26.G4.02.01 needs T07.G2.01
+T26.G4.02.02 needs T04.G2.01
+T26.G4.02.02 needs T04.G2.02
+T26.G4.02.02 needs T06.G3.01
+T26.G4.03 needs T04.G2.03
+T26.G4.03 needs T06.G2.01
+T26.G4.03 needs T06.G2.02
+T26.G4.03 needs T07.G2.01
+T26.G4.04 needs T04.G2.03
+T26.G4.04 needs T07.G2.01
+T26.G4.05 needs T04.G2.01
+T26.G4.05 needs T04.G2.02
+T26.G4.05 needs T05.G3.01
+T26.G4.05 needs T05.G3.02
+T26.G4.06 needs T01.G2.01
+T26.G4.06 needs T02.G2.01
+T26.G4.06 needs T02.G2.02
+T26.G4.06 needs T04.G2.01
+T26.G4.06 needs T04.G2.02
+T26.G4.06 needs T05.G3.01
+T26.G4.06 needs T05.G3.02
+T26.G4.06 needs T07.G2.01
+T26.G4.06.01 needs T02.G2.01
+T26.G4.06.01 needs T02.G2.02
+T26.G4.06.01 needs T04.G2.01
+T26.G4.06.01 needs T04.G2.02
+T26.G4.06.01 needs T07.G2.01
+T27.G4.01 needs T04.G2.01
+T27.G4.01 needs T04.G2.02
+T27.G4.01 needs T07.G2.01
+T27.G4.02 needs T02.G2.01
+T27.G4.02 needs T02.G2.02
+T27.G4.02 needs T04.G2.01
+T27.G4.02 needs T04.G2.02
+T27.G4.02 needs T06.G2.01
+T27.G4.02 needs T06.G2.02
+T27.G4.02 needs T06.G2.03
+T27.G4.02 needs T07.G2.01
+T27.G4.03 needs T04.G2.01
+T27.G4.03 needs T04.G2.02
+T27.G4.03 needs T06.G2.01
+T27.G4.03 needs T06.G2.02
+T27.G4.03 needs T07.G2.01
+T27.G4.04 needs T04.G2.01
+T27.G4.04 needs T04.G2.02
+T27.G4.04 needs T07.G2.01
+T28.G4.01 needs T02.G2.01
+T28.G4.01 needs T02.G2.02
+T28.G4.01 needs T04.G2.01
+T28.G4.01 needs T04.G2.02
+T28.G4.01 needs T04.G2.03
+T28.G4.01 needs T04.G3.02
+T28.G4.01 needs T06.G2.01
+T28.G4.01 needs T06.G2.02
+T28.G4.01 needs T06.G2.03
+T28.G4.01 needs T07.G2.01
+T28.G4.02.01 needs T02.G2.01
+T28.G4.02.01 needs T02.G2.02
+T28.G4.02.01 needs T04.G2.01
+T28.G4.02.01 needs T04.G2.02
+T28.G4.02.01 needs T04.G3.02
+T28.G4.02.01 needs T05.G3.01
+T28.G4.02.01 needs T05.G3.02
+T28.G4.02.01 needs T07.G2.01
+T28.G4.02.02 needs T02.G2.01
+T28.G4.02.02 needs T02.G2.02
+T28.G4.02.02 needs T04.G2.01
+T28.G4.02.02 needs T04.G2.02
+T28.G4.02.02 needs T05.G3.01
+T28.G4.02.02 needs T05.G3.02
+T28.G4.02.02 needs T07.G2.01
+T28.G4.02.03 needs T04.G2.03
+T28.G4.02.03 needs T07.G2.01
+T28.G4.03 needs T07.G2.01
+T28.G4.04 needs T06.G2.03
+T28.G4.04 needs T07.G2.01
+T28.G4.05 needs T01.G2.01
+T28.G4.05 needs T02.G2.01
+T28.G4.05 needs T02.G2.02
+T28.G4.05 needs T04.G3.02
+T28.G4.05 needs T07.G2.01
+T28.G4.06 needs T04.G3.02
+T28.G4.06 needs T06.G2.03
+T28.G4.06 needs T06.G3.01
+T28.G4.06 needs T07.G2.01
+T28.G4.07 needs T04.G3.02
+T28.G4.07 needs T05.G3.01
+T28.G4.07 needs T05.G3.02
+T28.G4.07 needs T07.G2.01
+T29.G4.00 needs T04.G2.01
+T29.G4.00 needs T04.G2.02
+T29.G4.00 needs T07.G2.01
+T29.G4.01 needs T04.G2.01
+T29.G4.01 needs T04.G2.02
+T29.G4.01 needs T05.G3.01
+T29.G4.01 needs T05.G3.02
+T29.G4.01 needs T07.G2.01
+T29.G4.02 needs T01.G2.01
+T29.G4.02 needs T04.G2.03
+T29.G4.02 needs T07.G2.01
+T29.G4.03 needs T04.G2.03
+T29.G4.03 needs T05.G3.01
+T29.G4.03 needs T05.G3.02
+T29.G4.03 needs T06.G2.03
+T29.G4.03 needs T07.G2.01
+T29.G4.04.01 needs T04.G2.03
+T29.G4.04.01 needs T07.G2.01
+T29.G4.04.02 needs T06.G2.01
+T29.G4.04.02 needs T06.G2.02
+T29.G4.04.02 needs T07.G2.01
+T29.G4.05.01 needs T07.G2.01
+T29.G4.06 needs T02.G2.01
+T29.G4.06 needs T02.G2.02
+T29.G4.06 needs T07.G2.01
+T29.G4.07 needs T01.G2.01
+T29.G4.07 needs T02.G2.01
+T29.G4.07 needs T02.G2.02
+T29.G4.07 needs T07.G2.01
+T29.G4.10 needs T05.G3.01
+T29.G4.10 needs T05.G3.02
+T29.G4.10 needs T06.G2.01
+T29.G4.10 needs T06.G2.02
+T29.G4.10 needs T07.G2.01
+T29.G4.11 needs T07.G2.01
+T30.G4.01 needs T07.G2.01
+T30.G4.02 needs T06.G2.03
+T30.G4.02 needs T07.G2.01
+T30.G4.03 needs T07.G2.01
+T30.G4.03.01 needs T06.G2.01
+T30.G4.03.01 needs T06.G2.02
+T30.G4.03.01 needs T07.G2.01
+T30.G4.04 needs T07.G2.01
+T30.G4.05 needs T06.G2.01
+T30.G4.05 needs T06.G2.02
+T30.G4.05 needs T06.G3.01
+T30.G4.05 needs T07.G2.01
+T30.G4.05.01 needs T04.G2.03
+T30.G4.05.01 needs T06.G2.01
+T30.G4.05.01 needs T06.G2.02
+T30.G4.05.01 needs T07.G2.01
+T31.G4.01 needs T07.G2.01
+T31.G4.02 needs T06.G2.01
+T31.G4.02 needs T06.G2.02
+T31.G4.02 needs T07.G2.01
+T32.G4.01 needs T07.G2.01
+T32.G4.02 needs T04.G2.01
+T32.G4.02 needs T04.G2.02
+T32.G4.02 needs T05.G3.01
+T32.G4.02 needs T05.G3.02
+T32.G4.02 needs T06.G2.01
+T32.G4.02 needs T06.G2.02
+T32.G4.02 needs T07.G2.01
+T32.G4.03 needs T05.G3.01
+T32.G4.03 needs T05.G3.02
+T32.G4.03 needs T07.G2.01
+T32.G4.04 needs T06.G3.01
+T32.G4.04 needs T07.G2.01
+T32.G4.05 needs T06.G2.01
+T32.G4.05 needs T06.G2.02
+T32.G4.05 needs T07.G2.01
+T32.G4.06 needs T06.G3.01
+T32.G4.06 needs T07.G2.01
+T33.G4.01 needs T07.G2.01
+T33.G4.01 needs T13.G3.01
+T34.G4.01 needs T13.G3.01
+T34.G4.02 needs T07.G2.01
+T34.G4.03 needs T07.G2.01
+T34.G4.03 needs T13.G3.01
+T35.G4.01 needs T04.G2.01
+T35.G4.01 needs T04.G2.02
+T35.G4.01 needs T07.G2.01
+T35.G4.02 needs T04.G2.01
+T35.G4.02 needs T04.G2.02
+T35.G4.02 needs T06.G2.03
+T35.G4.02 needs T07.G2.01
+T35.G4.03.01 needs T04.G2.01
+T35.G4.03.01 needs T04.G2.02
+T35.G4.03.01 needs T05.G3.01
+T35.G4.03.01 needs T05.G3.02
+T35.G4.03.01 needs T06.G2.01
+T35.G4.03.01 needs T06.G2.02
+T35.G4.03.01 needs T07.G2.01
+T35.G4.03.01 needs T13.G3.01
+T35.G4.03.02 needs T04.G2.03
+T35.G4.03.02 needs T06.G2.01
+T35.G4.03.02 needs T06.G2.02
+T35.G4.03.02 needs T07.G2.01
+T35.G4.03.02 needs T13.G3.01
+T35.G4.04 needs T07.G2.01
+T36.G4.01 needs T07.G2.01
+T36.G4.02 needs T05.G3.01
+T36.G4.02 needs T05.G3.02
+T36.G4.02 needs T07.G2.01
+T36.G4.03 needs T07.G2.01
+T36.G4.04 needs T07.G2.01

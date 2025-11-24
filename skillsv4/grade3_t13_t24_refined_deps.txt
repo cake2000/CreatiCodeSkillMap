@@ -1,0 +1,254 @@
+GRADE 3 TOPICS T13-T24 MISSING DEPENDENCIES (REFINED)
+Total: 55 missing dependencies
+================================================================================
+
+
+### TOPIC T13 ###
+
+T13.G3.00: Recognize when a CreatiCode script has errors
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T13.G3.01: Test and trace simple block-based scripts
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T13.G3.04: Practice the debugging cycle: run, observe, change, test again
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+
+### TOPIC T14 ###
+
+T14.G3.01.01: Move sprite left and right with arrow keys
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Arrow key movement requires event handling (key press events)
+
+T14.G3.01.02: Move sprite in 4 directions with arrow keys
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Arrow key movement requires event handling (key press events)
+
+T14.G3.03: Detect touching a goal
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Collision detection requires conditionals (if touching then...)
+
+T14.G3.03: Detect touching a goal
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+T14.G3.04.01: Detect touching a hazard using sprite collision
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Collision detection requires conditionals (if touching then...)
+
+T14.G3.05: Create a start screen
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T14.G3.06: Switch to game mode
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T14.G3.08: Add sound effects to actions
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Collision detection requires conditionals (if touching then...)
+
+T14.G3.08: Add sound effects to actions
+  ADD: T09.G2.02: Compare a counter to a target number to trigger an event
+  REASON: Tracking score/collectibles requires variables
+
+T14.G3.09: Visual effects on interaction
+  ADD: T09.G2.02: Compare a counter to a target number to trigger an event
+  REASON: Tracking score/collectibles requires variables
+
+T14.G3.10: Create collectible items
+  ADD: T09.G2.02: Compare a counter to a target number to trigger an event
+  REASON: Tracking score/collectibles requires variables
+
+T14.G3.11: Simple jump with key press
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+
+### TOPIC T15 ###
+
+T15.G3.00.01: Understand sprite appearance
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T15.G3.00.03: Customize costumes in paint editor
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Interactive animations require event handling
+
+T15.G3.02: Simple size animation
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+T15.G3.08: Click to talk
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T15.G3.09: Key press animation
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Interactive animations require event handling
+
+T15.G3.09: Key press animation
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T15.G3.11.02: Update label text for dynamic displays
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Interactive animations require event handling
+
+T15.G3.11.02: Update label text for dynamic displays
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T15.G3.12: Print temporary text at positions
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Interactive animations require event handling
+
+T15.G3.12.01: Create timed and sprite-relative text
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: Interactive animations require event handling
+
+T15.G3.12.01: Create timed and sprite-relative text
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T15.G3.12.02: Clear printed text for scene changes
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+
+### TOPIC T16 ###
+
+T16.G3.02: Handle a button click event
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T16.G3.02.01: Handle any button click with a single script
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.02.01: Handle any button click with a single script
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T16.G3.04: Update label text dynamically
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.04.01: Append text to labels and textboxes
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.05: Add a textbox widget for user input
+  ADD: T09.G2.02: Compare a counter to a target number to trigger an event
+  REASON: Getting user input requires variables to store data
+
+T16.G3.06: Get text from a textbox widget
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.07: Show and hide widgets
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.07.01: Remove widgets from the stage
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.08: Position and resize widgets
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: UI widgets require event handling for user interaction
+
+T16.G3.08: Position and resize widgets
+  ADD: T09.G2.02: Compare a counter to a target number to trigger an event
+  REASON: Getting user input requires variables to store data
+
+T16.G3.08: Position and resize widgets
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+
+### TOPIC T18 ###
+
+T18.G3.03: Initialize a 3D scene with a specific environment
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T18.G3.05: Position shapes using x/y/z coordinates
+  ADD: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+  REASON: 3D movement with keyboard requires event handling
+
+T18.G3.07: Move a 3D player with keyboard input
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+T18.G3.08: Trace a short 3D script to predict positions
+  ADD: T09.G2.02: Compare a counter to a target number to trigger an event
+  REASON: 3D position tracking requires variables
+
+
+### TOPIC T20 ###
+
+T20.G3.02: Program a repeating border with loops
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+T20.G3.05.01: Use variables to change pattern size
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+
+### TOPIC T21 ###
+
+T21.G3.01: Tell whether media was AI-generated or recorded
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+
+T21.G3.01: Tell whether media was AI-generated or recorded
+  ADD: T07.G2.01: Identify when to use "repeat" vs "do once"
+  REASON: Uses loops/repetition
+
+T21.G3.02: Describe what you want AI to create using simple words
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+
+
+### TOPIC T22 ###
+
+T22.G3.02: Make a simple ChatGPT request using blocks to ask questions
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+
+
+### TOPIC T23 ###
+
+T23.G3.03: Tell whether a behavior uses sensing and guessing
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+
+### TOPIC T24 ###
+
+T24.G3.00: Use basic speech recognition blocks
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+
+T24.G3.01: Use speech-to-text to control a sprite
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+
+T24.G3.02: Evaluate if AI output matches the request
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+
+T24.G3.02: Evaluate if AI output matches the request
+  ADD: T08.G2.01: Follow branching paths based on yes/no questions
+  REASON: Uses conditionals/branching logic
+
+T24.G3.03: Revise a prompt to improve AI results
+  ADD: T10.G2.01: Build a simple data table from a list
+  REASON: AI prompts require text/string manipulation
+

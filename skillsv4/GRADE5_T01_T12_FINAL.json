@@ -1,0 +1,646 @@
+{
+  "dependencies_to_add": [
+    {
+      "skill_id": "T01.G5.02.01.03",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.02.01.04",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T01.G5.02.01.04",
+      "add_dep": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T01.G5.02.02.01",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.03",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.04.01",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T01.G5.04.01",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.04.02",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T01.G5.04.02",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T01.G5.04.02",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.05",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.07",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.08",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.09",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T01.G5.09",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.11",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.12",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T02.G5.01",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T02.G5.03",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T02.G5.04",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T03.G5.01",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T03.G5.03",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T03.G5.04",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T03.G5.05",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T03.G5.06",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T04.G5.01",
+      "add_dep": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T04.G5.02.01",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T04.G5.02.01",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.03",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.03.01",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.03.01",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.03.01",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T04.G5.05",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "add_dep": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T04.G5.07",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T05.G5.03",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T05.G5.03",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "add_dep": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T05.G5.06",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T06.G5.01",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T06.G5.04",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T06.G5.05",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T06.G5.06",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T06.G5.08.01",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T06.G5.08.02",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T06.G5.08.02",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T06.G5.08.03",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T06.G5.10",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T06.G5.10.01",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T07.G5.01",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T07.G5.01",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T07.G5.02",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T07.G5.02",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "add_dep": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T07.G5.04",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T08.G5.00",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T08.G5.01",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T08.G5.03",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T08.G5.05",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T08.G5.06",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T08.G5.06",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T09.G5.02",
+      "add_dep": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T09.G5.02.01",
+      "add_dep": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T09.G5.03",
+      "add_dep": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T09.G5.03.01",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T09.G5.04",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "add_dep": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "add_dep": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T09.G5.07",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "add_dep": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.01",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.05",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T10.G5.06.01",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.06.02",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.07",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.08",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.09.02",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.09.03",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.10",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.10",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.11.02",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.11.03",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.15",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.17",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T10.G5.17",
+      "add_dep": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.18",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.01",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T11.G5.01",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T11.G5.03",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.05",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.05",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T11.G5.09",
+      "add_dep": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.11",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T12.G5.02",
+      "add_dep": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T12.G5.03",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T12.G5.03",
+      "add_dep": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T12.G5.04",
+      "add_dep": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T12.G5.05",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T12.G5.05.01",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T12.G5.05.02",
+      "add_dep": "T11.G5.01",
+      "reason": "Skill uses functions"
+    }
+  ],
+  "dependencies_to_remove": [],
+  "violations": [
+    {
+      "skill_id": "T08.G5.00",
+      "issue": "G5 depends on G2 which violates X-2 rule (should be G3+)"
+    }
+  ]
+}

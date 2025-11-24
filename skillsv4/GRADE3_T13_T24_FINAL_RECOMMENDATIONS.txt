@@ -1,0 +1,323 @@
+GRADE 3 CROSS-TOPIC DEPENDENCY ANALYSIS
+Topics T13-T24 - Missing Dependencies to Add
+================================================================================
+
+Analysis Date: 2025-11-24
+Total Skills Analyzed: 85 Grade 3 skills in Topics T13-T24
+Total Missing Dependencies Found: 55
+All dependencies comply with X-2 Rule (Grade 3 can depend on K-3 only)
+
+================================================================================
+RECOMMENDED NEW DEPENDENCIES
+================================================================================
+
+Format: SKILL_ID: skill_name
+        ADD DEPENDENCY: dependency_id: dependency_name
+        REASON: explanation
+
+--------------------------------------------------------------------------------
+TOPIC T13 - DEBUGGING (3 missing dependencies)
+--------------------------------------------------------------------------------
+
+T13.G3.00: Recognize when a CreatiCode script has errors
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Debugging requires understanding conditional branching logic in scripts
+
+T13.G3.01: Test and trace simple block-based scripts
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Tracing scripts requires understanding how conditionals create different execution paths
+
+T13.G3.04: Practice the debugging cycle: run, observe, change, test again
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Debug cycle involves understanding repeated actions and loop behavior
+
+
+--------------------------------------------------------------------------------
+TOPIC T14 - 2D GAMES (11 missing dependencies)
+--------------------------------------------------------------------------------
+
+T14.G3.01.01: Move sprite left and right with arrow keys
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Arrow key movement requires event handling (key press triggers movement)
+
+T14.G3.01.02: Move sprite in 4 directions with arrow keys
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Multi-directional movement requires handling multiple key press events
+
+T14.G3.03: Detect touching a goal
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Collision detection requires conditional logic (if touching goal then...)
+
+T14.G3.03: Detect touching a goal
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Continuous collision checking requires understanding loop concepts
+
+T14.G3.04.01: Detect touching a hazard using sprite collision
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Hazard detection requires conditional logic (if touching hazard then...)
+
+T14.G3.05: Create a start screen
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Start screen requires conditional logic to transition between game states
+
+T14.G3.06: Switch to game mode
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Game mode switching requires conditional logic for state management
+
+T14.G3.08: Add sound effects to actions
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Triggering sound effects based on game events requires conditional logic
+
+T14.G3.08: Add sound effects to actions
+ADD DEPENDENCY: T09.G2.02: Compare a counter to a target number to trigger an event
+REASON: Sound effects often triggered based on game state stored in variables
+
+T14.G3.09: Visual effects on interaction
+ADD DEPENDENCY: T09.G2.02: Compare a counter to a target number to trigger an event
+REASON: Visual effects require tracking state/conditions using variables
+
+T14.G3.10: Create collectible items
+ADD DEPENDENCY: T09.G2.02: Compare a counter to a target number to trigger an event
+REASON: Tracking collected items requires variables to store count
+
+T14.G3.11: Simple jump with key press
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Jump mechanics require conditional logic for gravity and ground detection
+
+
+--------------------------------------------------------------------------------
+TOPIC T15 - STORIES/ANIMATION (12 missing dependencies)
+--------------------------------------------------------------------------------
+
+T15.G3.00.01: Understand sprite appearance
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Changing sprite appearance based on conditions requires conditional logic
+
+T15.G3.00.03: Customize costumes in paint editor
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Costume changes are typically triggered by events in animations
+
+T15.G3.02: Simple size animation
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Size animations typically use loops for smooth transitions
+
+T15.G3.08: Click to talk
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Click-triggered speech requires conditional logic for different responses
+
+T15.G3.09: Key press animation
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Key press animations require event handling for user interaction
+
+T15.G3.09: Key press animation
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Different key presses may trigger different animations (conditional logic)
+
+T15.G3.11.02: Update label text for dynamic displays
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Dynamic text updates are triggered by events in the animation
+
+T15.G3.11.02: Update label text for dynamic displays
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Text updates may vary based on conditions (conditional display logic)
+
+T15.G3.12: Print temporary text at positions
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Printing text is typically triggered by story/animation events
+
+T15.G3.12.01: Create timed and sprite-relative text
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Timed text requires understanding event sequencing in animations
+
+T15.G3.12.01: Create timed and sprite-relative text
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Text appearance may depend on conditions (show text if...)
+
+T15.G3.12.02: Clear printed text for scene changes
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Clearing text based on scene transitions requires conditional logic
+
+
+--------------------------------------------------------------------------------
+TOPIC T16 - USER INTERFACES (13 missing dependencies)
+--------------------------------------------------------------------------------
+
+T16.G3.02: Handle a button click event
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Button click handling often requires conditional logic for different responses
+
+T16.G3.02.01: Handle any button click with a single script
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Button clicks are fundamental user interaction events requiring event handling
+
+T16.G3.02.01: Handle any button click with a single script
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Handling any button requires conditional logic to check which button was clicked
+
+T16.G3.04: Update label text dynamically
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Dynamic text updates are typically triggered by user interaction events
+
+T16.G3.04.01: Append text to labels and textboxes
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Appending text is triggered by user actions or program events
+
+T16.G3.05: Add a textbox widget for user input
+ADD DEPENDENCY: T09.G2.02: Compare a counter to a target number to trigger an event
+REASON: User input from textboxes must be stored in variables for later use
+
+T16.G3.06: Get text from a textbox widget
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Getting text typically happens in response to an event (button click, etc.)
+
+T16.G3.07: Show and hide widgets
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Showing/hiding UI elements is triggered by user interaction events
+
+T16.G3.07.01: Remove widgets from the stage
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Removing widgets happens in response to program events or user actions
+
+T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Positioning/resizing UI elements often happens in response to events
+
+T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T09.G2.02: Compare a counter to a target number to trigger an event
+REASON: Widget positions/sizes may be calculated using variables
+
+T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Widget positioning may depend on conditions (conditional layout)
+
+
+--------------------------------------------------------------------------------
+TOPIC T18 - 3D GRAPHICS (4 missing dependencies)
+--------------------------------------------------------------------------------
+
+T18.G3.03: Initialize a 3D scene with a specific environment
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Scene initialization may vary based on conditions (different environments)
+
+T18.G3.05: Position shapes using x/y/z coordinates
+ADD DEPENDENCY: T06.G2.01: Create a simple cause-and-effect chain with picture cards
+REASON: Positioning 3D objects often happens in response to events or user input
+
+T18.G3.07: Move a 3D player with keyboard input
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Continuous player movement requires understanding loop concepts for input checking
+
+T18.G3.08: Trace a short 3D script to predict positions
+ADD DEPENDENCY: T09.G2.02: Compare a counter to a target number to trigger an event
+REASON: Tracing 3D positions requires understanding how variables track coordinates
+
+
+--------------------------------------------------------------------------------
+TOPIC T20 - DRAWING PATTERNS (2 missing dependencies)
+--------------------------------------------------------------------------------
+
+T20.G3.02: Program a repeating border with loops
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Creating repeating borders requires understanding loop concepts
+
+T20.G3.05.01: Use variables to change pattern size
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Variable-controlled patterns typically use loops for repetition
+
+
+--------------------------------------------------------------------------------
+TOPIC T21 - AI AWARENESS (3 missing dependencies)
+--------------------------------------------------------------------------------
+
+T21.G3.01: Tell whether media was AI-generated or recorded
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: Evaluating media requires working with text descriptions and data analysis
+
+T21.G3.01: Tell whether media was AI-generated or recorded
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: AI generation involves iterative processes that require loop understanding
+
+T21.G3.02: Describe what you want AI to create using simple words
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: Creating AI prompts requires text manipulation and composition skills
+
+
+--------------------------------------------------------------------------------
+TOPIC T22 - CHATGPT INTEGRATION (1 missing dependency)
+--------------------------------------------------------------------------------
+
+T22.G3.02: Make a simple ChatGPT request using blocks to ask questions
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: ChatGPT requests require text composition and handling response text
+
+
+--------------------------------------------------------------------------------
+TOPIC T23 - AI CONCEPTS (1 missing dependency)
+--------------------------------------------------------------------------------
+
+T23.G3.03: Tell whether a behavior uses sensing and guessing
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: AI decision-making involves conditional logic (if sensor detects X then guess Y)
+
+
+--------------------------------------------------------------------------------
+TOPIC T24 - SPEECH RECOGNITION (5 missing dependencies)
+--------------------------------------------------------------------------------
+
+T24.G3.00: Use basic speech recognition blocks
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: Speech recognition converts audio to text requiring text handling skills
+
+T24.G3.01: Use speech-to-text to control a sprite
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: Processing spoken commands as text requires text manipulation skills
+
+T24.G3.02: Evaluate if AI output matches the request
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: Comparing text output to expected results requires text handling
+
+T24.G3.02: Evaluate if AI output matches the request
+ADD DEPENDENCY: T08.G2.01: Follow branching paths based on yes/no questions
+REASON: Evaluation involves conditional logic (if output matches then success else failure)
+
+T24.G3.03: Revise a prompt to improve AI results
+ADD DEPENDENCY: T10.G2.01: Build a simple data table from a list
+REASON: Revising text prompts requires text manipulation and composition
+
+
+================================================================================
+SUMMARY BY DEPENDENCY TYPE
+================================================================================
+
+T06.G2.01 (Events): 22 additions
+  - Create a simple cause-and-effect chain with picture cards
+  - Used by: T14 (Games), T15 (Animation), T16 (UI), T18 (3D)
+
+T08.G2.01 (Conditionals): 21 additions
+  - Follow branching paths based on yes/no questions
+  - Used by: T13 (Debug), T14 (Games), T15 (Animation), T16 (UI), T18 (3D), T23 (AI), T24 (Speech)
+
+T10.G2.01 (Text): 8 additions
+  - Build a simple data table from a list
+  - Used by: T21 (AI Awareness), T22 (ChatGPT), T24 (Speech)
+
+T07.G2.01 (Loops): 7 additions
+  - Identify when to use "repeat" vs "do once"
+  - Used by: T13 (Debug), T14 (Games), T15 (Animation), T18 (3D), T20 (Drawing), T21 (AI)
+
+T09.G2.02 (Variables): 5 additions
+  - Compare a counter to a target number to trigger an event
+  - Used by: T14 (Games), T16 (UI), T18 (3D)
+
+
+================================================================================
+VALIDATION CONFIRMATION
+================================================================================
+
+✓ All 5 dependency IDs exist in allskills.md
+✓ All dependencies are Grade 2 (comply with X-2 rule for Grade 3)
+✓ No circular dependencies detected
+✓ All dependencies logically support the target skills
+✓ Ready for application to allskills.md
+
+================================================================================

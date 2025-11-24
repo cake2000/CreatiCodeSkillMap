@@ -1,0 +1,10 @@
+T01.GK.02|T01.GK.01|Sequencing Foundation
+T01.GK.03|T01.GK.01|Sequencing Foundation
+T10.GK.05|T10.GK.01|Sorting/Categorization
+T20.GK.02|T04.GK.01|Pattern Recognition
+T20.GK.04|T01.GK.01|Sequencing Foundation
+T22.GK.01|T09.GK.01|Variables/Numbers
+T22.GK.02|T10.GK.01|Sorting/Categorization
+T24.GK.03|T01.GK.01|Sequencing Foundation
+T25.GK.02|T08.GK.01|Conditional Thinking
+T25.GK.03|T08.GK.01|Conditional Thinking

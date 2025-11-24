@@ -1,0 +1,63 @@
+GRADE 2 CROSS-TOPIC DEPENDENCY ADDITIONS (T12-T20)
+Conservative Analysis - Only Clearly Necessary Dependencies
+================================================================================
+
+TOPIC T12 – ORGANIZING PROGRAMS (Documentation)
+----------------------------------------
+T12.G2.02: Add dependency T01.G1.01 - Reason: Understanding sequences is needed before labeling sections of a plan
+
+
+TOPIC T13 – TESTING, DEBUGGING & ERROR HANDLING
+----------------------------------------
+T13.G2.04: Add dependency T08.G1.01 - Reason: Adding checks requires conditional thinking (if goal reached then show success)
+
+
+TOPIC T14 – 2D GAMES
+----------------------------------------
+T14.G2.02: Add dependency T02.G1.01 - Reason: Tracking lives requires understanding of counting and data tracking
+T14.G2.03: Add dependency T08.G1.01 - Reason: Level progression requires conditional logic (if goal touched then next level)
+
+
+TOPIC T15 – STORIES & ANIMATION
+----------------------------------------
+T15.G2.01: Add dependency T04.G1.01 - Reason: Comparing animation speeds requires recognizing patterns in movement sequences
+T15.G2.03: Add dependency T04.G2.01 - Reason: Identifying repeating animation patterns requires pattern recognition skills
+T15.G2.03: Add dependency T07.G1.01 - Reason: Understanding loops in animation requires loop concept understanding
+
+
+TOPIC T16 – USER INTERFACES
+----------------------------------------
+T16.G2.01: Add dependency T08.G1.01 - Reason: UI interactions are conditional (if button pressed then action happens)
+T16.G2.02: Add dependency T03.G1.02 - Reason: Designing interfaces requires organizing related elements into groups
+
+
+TOPIC T18 – 3D WORLDS & GAMES
+----------------------------------------
+T18.G2.01: Add dependency T17.G1.01 - Reason: Understanding 3D viewpoints builds on 2D motion and direction concepts
+
+
+TOPIC T20 – ALGORITHMIC ART & CREATIVE CODING
+----------------------------------------
+T20.G2.01: Add dependency T04.G1.01 - Reason: Using repeat in art requires understanding of pattern recognition
+T20.G2.02: Add dependency T04.G1.02 - Reason: Creating symmetrical patterns requires understanding of pattern structures
+T20.G2.03: Add dependency T04.G2.02 - Reason: Layering patterns requires recognizing repeated sequences in algorithms
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Total G2 skills analyzed: 24
+Skills needing additional dependencies: 11
+Total dependency additions: 13
+Topics with no changes needed: T17 (already has appropriate dependencies)
+
+Most common missing dependency types:
+  - T04 (Pattern Recognition): 6 additions
+  - T08 (Conditional Logic): 3 additions
+  - T01 (Sequencing): 1 addition
+  - T02 (Data/Algorithms): 1 addition
+  - T03 (Decomposition): 1 addition
+  - T07 (Loops): 1 addition
+  - T17 (2D Motion): 1 addition
+
+All recommendations comply with X-2 rule (Grade 2 skills only depend on K, 1, or 2).

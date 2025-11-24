@@ -1,0 +1,351 @@
+GRADE K CROSS-TOPIC DEPENDENCY SUGGESTIONS
+================================================================================
+
+
+T01.GK.05: Move the picture that's in the wrong place
+Topic: T01 – Everyday Algorithms
+Current dependencies: T01.GK.03
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T01.GK.07: Find the pattern that repeats
+Topic: T01 – Everyday Algorithms
+Current dependencies: T01.GK.01
+Suggestions:
+  [high] T04.GK.01 - Involves pattern recognition
+
+T01.GK.08: Count how many times
+Topic: T01 – Everyday Algorithms
+Current dependencies: T01.GK.07
+Suggestions:
+  [high] T04.GK.01 - Involves pattern recognition
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+
+T02.GK.02: Order 3–4 pictures to make a story
+Topic: T02 – Algorithm Diagrams
+Current dependencies: T02.GK.01
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+
+T02.GK.04: Fix one picture that is out of order
+Topic: T02 – Algorithm Diagrams
+Current dependencies: T02.GK.03
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T03.GK.02: Match parts to whole objects
+Topic: T03 – Problem Decomposition
+Current dependencies: T03.GK.01
+Suggestions:
+  [low] T30.GK.01 - Involves devices/technology
+
+T03.GK.04: Choose the missing middle step in a routine
+Topic: T03 – Problem Decomposition
+Current dependencies: T03.GK.03
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+
+T03.GK.05: Describe what each step accomplishes
+Topic: T03 – Problem Decomposition
+Current dependencies: T03.GK.03
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+
+T04.GK.01: Identify a simple repeating pattern
+Topic: T04 – Algorithm Patterns
+Current dependencies: None
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T04.GK.02: Extend a repeating pattern by one tile
+Topic: T04 – Algorithm Patterns
+Current dependencies: T04.GK.01
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+
+T04.GK.04: Fix a broken pattern by replacing one tile
+Topic: T04 – Algorithm Patterns
+Current dependencies: T04.GK.02
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T05.GK.04: Choose a change that makes something easier
+Topic: T05 – Human‑Centered Design
+Current dependencies: T05.GK.03
+Suggestions:
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+Topic: T06 – Events & Sequences
+Current dependencies: T01.GK.01
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+  [low] T25.GK.01 - Involves data/information concepts
+
+T06.GK.02: Match "first" and "next" words to pictures in a sequence
+Topic: T06 – Events & Sequences
+Current dependencies: T06.GK.01
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+
+T06.GK.03: Predict what happens "after this" in a picture sequence
+Topic: T06 – Events & Sequences
+Current dependencies: T06.GK.02
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+
+T08.GK.01: Match pictures to "if it rains" rules
+Topic: T08 – Conditions & Logic
+Current dependencies: None
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T08.GK.02: Choose what happens next based on yes/no
+Topic: T08 – Conditions & Logic
+Current dependencies: T08.GK.01
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [low] T06.GK.01 - Involves cause-and-effect/event concepts
+
+T10.GK.02: Count items in each group
+Topic: T10 – Lists & Tables
+Current dependencies: T10.GK.01
+Suggestions:
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T10.GK.05: Find the first and last item in a row
+Topic: T10 – Lists & Tables
+Current dependencies: T01.GK.03
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+
+T10.GK.06: Look at a simple picture table
+Topic: T10 – Lists & Tables
+Current dependencies: T10.GK.01
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T10.GK.08: Find all items with a special mark
+Topic: T10 – Lists & Tables
+Current dependencies: T10.GK.02
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+  [low] T25.GK.01 - Involves data/information concepts
+
+T13.GK.01: Spot a missing or wrong action in an animation
+Topic: T13 – Testing, Debugging & Error Handling
+Current dependencies: None
+Suggestions:
+  [low] T06.GK.01 - Involves cause-and-effect/event concepts
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+
+T13.GK.02: Retry after noticing something went wrong
+Topic: T13 – Testing, Debugging & Error Handling
+Current dependencies: T01.GK.01, T13.GK.01
+Suggestions:
+  [low] T06.GK.01 - Involves cause-and-effect/event concepts
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+
+T13.GK.03: Fix a single wrong direction or action in steps
+Topic: T13 – Testing, Debugging & Error Handling
+Current dependencies: T01.GK.03, T13.GK.01
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T14.GK.02: Recognize a score in simple games
+Topic: T14 – 2D Games
+Current dependencies: T09.GK.01
+Suggestions:
+  [low] T25.GK.01 - Involves data/information concepts
+
+T18.GK.01: Explore 3D shapes in the real world
+Topic: T18 – 3D Worlds & Games
+Current dependencies: None
+Suggestions:
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T20.GK.04: Fix the mixed-up art plan (picture-only)
+Topic: T20 – Algorithmic Art & Creative Coding
+Current dependencies: T04.GK.01
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T21.GK.01: Tell which pictures look like AI made them
+Topic: T21 – AI Media
+Current dependencies: None
+Suggestions:
+  [high] T04.GK.01 - Involves pattern recognition
+  [low] T25.GK.01 - Involves data/information concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T21.GK.03: Pick the helper that can talk back
+Topic: T21 – AI Media
+Current dependencies: None
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [low] T25.GK.01 - Involves data/information concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T22.GK.01: Recognize a talking helper vs a silent toy
+Topic: T22 – Chatbots & Prompting
+Current dependencies: None
+Suggestions:
+  [low] T30.GK.01 - Involves devices/technology
+
+T23.GK.02: Point to where a device "looks" or "listens"
+Topic: T23 – AI Perception
+Current dependencies: T23.GK.01
+Suggestions:
+  [medium] T03.GK.01 - Involves problem decomposition
+  [low] T30.GK.01 - Involves devices/technology
+
+T24.GK.01: Identify AI as a computer helper
+Topic: T24 – XO & Generative AI Practices
+Current dependencies: None
+Suggestions:
+  [low] T30.GK.01 - Involves devices/technology
+
+T24.GK.03: Give simple instructions to an AI helper
+Topic: T24 – XO & Generative AI Practices
+Current dependencies: T24.GK.01, T24.GK.02
+Suggestions:
+  [low] T06.GK.01 - Involves cause-and-effect/event concepts
+
+T25.GK.02: Match quantities to symbols
+Topic: T25 – Data Representation
+Current dependencies: T25.GK.01
+Suggestions:
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T25.GK.03: Build a two-symbol legend
+Topic: T25 – Data Representation
+Current dependencies: T25.GK.02
+Suggestions:
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+
+T26.GK.02: Use tokens to log repeated events
+Topic: T26 – Data Collection & Logging
+Current dependencies: T26.GK.01, T01.GK.07
+Suggestions:
+  [high] T01.GK.01 - Involves sequencing/ordering concepts
+  [high] T04.GK.01 - Involves pattern recognition
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T26.GK.03: Capture yes/no answers with smile/frown cards
+Topic: T26 – Data Collection & Logging
+Current dependencies: T26.GK.01
+Suggestions:
+  [low] T13.GK.01 - Involves error detection/debugging
+
+T27.GK.02: Compare which group has more
+Topic: T27 – Data Analysis & Storytelling
+Current dependencies: T27.GK.01
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T27.GK.03: Read a two-column picture chart
+Topic: T27 – Data Analysis & Storytelling
+Current dependencies: T27.GK.02
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+
+T29.GK.01: Recognize text vs pictures
+Topic: T29 – Text Data & NLP Foundations
+Current dependencies: None
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T29.GK.02: Identify letters in text
+Topic: T29 – Text Data & NLP Foundations
+Current dependencies: T29.GK.01
+Suggestions:
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+
+T30.GK.03: Recognize input vs output examples
+Topic: T30 – Devices & Hardware Systems
+Current dependencies: T30.GK.02
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [low] T25.GK.01 - Involves data/information concepts
+
+T31.GK.01: Recognize devices that connect to the internet (picture-based)
+Topic: T31 – Internet & Cloud: Kindergarten
+Current dependencies: None
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T32.GK.01: Spot safe vs unsafe sharing
+Topic: T32 – Cybersecurity & Digital Safety
+Current dependencies: None
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+
+T32.GK.03: Understand that passwords keep things safe
+Topic: T32 – Cybersecurity & Digital Safety
+Current dependencies: T32.GK.01
+Suggestions:
+  [medium] T09.GK.01 - Involves counting/numerical concepts
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+
+T32.GK.04: Distinguish online vs offline activities
+Topic: T32 – Cybersecurity & Digital Safety
+Current dependencies: T32.GK.01
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T33.GK.01: Recognize that apps can talk to helpers on the internet
+Topic: T33 – Connected Services
+Current dependencies: None
+Suggestions:
+  [low] T25.GK.01 - Involves data/information concepts
+
+T34.GK.02: Match old vs new versions of tech
+Topic: T34 – Computing History
+Current dependencies: None
+Suggestions:
+  [low] T25.GK.01 - Involves data/information concepts
+
+T35.GK.01: Identify a helpful use of technology
+Topic: T35 – Impacts & Ethics
+Current dependencies: None
+Suggestions:
+  [low] T25.GK.01 - Involves data/information concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T35.GK.03: Practice device sharing etiquette
+Topic: T35 – Impacts & Ethics
+Current dependencies: T01.GK.01
+Suggestions:
+  [medium] T10.GK.01 - Involves sorting/grouping concepts
+  [low] T30.GK.01 - Involves devices/technology
+
+T35.GK.04: Choose safe sharing in role-play
+Topic: T35 – Impacts & Ethics
+Current dependencies: T35.GK.01
+Suggestions:
+  [low] T15.GK.01 - Involves storytelling/narrative concepts
+  [low] T25.GK.01 - Involves data/information concepts
+
+T36.GK.01: Match community helpers to digital tools
+Topic: T36 – Careers, Collaboration & Future Paths
+Current dependencies: T01.GK.01
+Suggestions:
+  [low] T30.GK.01 - Involves devices/technology
+
+T36.GK.02: Take turns using a device to complete a task together
+Topic: T36 – Careers, Collaboration & Future Paths
+Current dependencies: T36.GK.01
+Suggestions:
+  [low] T30.GK.01 - Involves devices/technology

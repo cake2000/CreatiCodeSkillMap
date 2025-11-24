@@ -1,0 +1,189 @@
+# GRADE 3 CROSS-TOPIC DEPENDENCY RECOMMENDATIONS (T01-T12)
+# Missing dependencies that should be ADDED
+
+T01.G3.03: Identify repeated blocks in a script (no loops)
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: Skill uses loops/repeat but lacks T07 loop dependency
+
+T01.G3.04: Predict how many times repeated blocks run
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: Skill uses loops/repeat but lacks T07 loop dependency
+
+T01.G3.12: Predict the final state of a simple algorithm
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: Skill uses loops/repeat but lacks T07 loop dependency
+
+T01.G3.16: Identify when to use 'repeat forever' vs 'repeat N times'
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T02.G3.03: Build a block sequence for a simple task
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T02.G3.04: Trace a block sequence with an if/else decision
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T02.G3.05: Create a block script with one if/else decision
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T02.G3.06: Compare two block sequences for the same task
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T03.G3.05.01: Identify main parts in a simple project
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T03.G3.06: Understand how project parts work together
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T03.G3.07: Identify different jobs needed to make a project
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.04.01: Identify repeated code segments that could be simplified with templates
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.04.02: Create a custom block (template) for repeated code patterns
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.04.02: Create a custom block (template) for repeated code patterns
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+T04.G3.04.03: Use custom blocks to make programs more readable and maintainable
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.05: Customize a template by changing repeated elements
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.07: Fix a pattern where one step is wrong
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.08: Match algorithm descriptions to code pattern shapes
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T04.G3.08: Match algorithm descriptions to code pattern shapes
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+T04.G3.09: Recognize nested loops in patterns (outer loop repeats inner loop)
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T05.G3.05: Select simple rules for a simulation
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T05.G3.06: Match accessibility features to users who benefit
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T06.G3.04: Match code snippets to the event that triggers them
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T06.G3.06: Trace a project with a single event and predict output
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T06.G3.09: Fix a script that uses the wrong event type
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T08.G3.01: Use a simple if in a script
+ADD DEPENDENCY: T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+REASON: Skill uses events but lacks T06 event dependency
+
+T08.G3.05: Fix a condition that uses the wrong comparison operator
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+T09.G3.01.02: Set a variable to an initial value at program start
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T09.G3.01.02: Set a variable to an initial value at program start
+ADD DEPENDENCY: T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+REASON: Skill uses events but lacks T06 event dependency
+
+T09.G3.01.03: Change a variable value by 1 using the change block
+ADD DEPENDENCY: T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+REASON: Skill uses events but lacks T06 event dependency
+
+T10.G3.01.02: Add an item to the end of a list
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: List skill iterates over items but lacks loop dependency
+
+T10.G3.02: Read items from a list by position (index starts at 1)
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T10.G3.04.01: Delete an item at a specific position
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T10.G3.04.02: Clear all items from a list
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: List skill iterates over items but lacks loop dependency
+
+T10.G3.05: Loop through each item in a list
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T10.G3.07: Count items in a list that match a condition
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: Skill uses loops/repeat but lacks T07 loop dependency
+
+T10.G3.09: Increment or decrement a list item's value
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T10.G3.10: Display a list monitor on the stage
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+T10.G3.10: Display a list monitor on the stage
+ADD DEPENDENCY: T07.G3.01: Use a counted repeat loop
+REASON: List skill iterates over items but lacks loop dependency
+
+T11.G3.01: Understand when to use custom blocks vs loops
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T11.G3.04: Understand the concept of return values
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T12.G3.01: Add a comment to explain a block in a script
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Skill uses conditionals/if statements but lacks T08 conditional dependency
+
+T12.G3.01: Add a comment to explain a block in a script
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+T12.G3.03.01: Use clearer variable names to improve readability
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+T12.G3.03.03: Split complex scripts into separate event-driven scripts
+ADD DEPENDENCY: T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+REASON: Skill uses events but lacks T06 event dependency
+
+T12.G3.03.04: Combine similar consecutive blocks
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Skill uses variables but lacks T09 variable dependency
+
+
+Total recommendations: 46

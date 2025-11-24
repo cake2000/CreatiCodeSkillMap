@@ -1,0 +1,10 @@
+{
+  "dependencies_to_add": [],
+  "dependencies_to_remove": [],
+  "violations": [
+    {
+      "skill_id": "T08.G5.00",
+      "issue": "G5 depends on G2 which violates X-2 rule (should be G3+)"
+    }
+  ]
+}

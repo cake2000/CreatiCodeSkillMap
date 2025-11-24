@@ -1,0 +1,33 @@
+# GRADE 3 CROSS-TOPIC DEPENDENCY ANALYSIS (T01-T12)
+# Comprehensive automated analysis with transitive dependency checking
+
+T04.G3.04.02: Create a custom block (template) for repeated code patterns
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['variable', 'parameter']"
+
+T04.G3.08: Match algorithm descriptions to code pattern shapes
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['counter']"
+
+T08.G3.05: Fix a condition that uses the wrong comparison operator
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['score']"
+
+T12.G3.01: Add a comment to explain a block in a script
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['score']"
+
+T12.G3.03.01: Use clearer variable names to improve readability
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['variable', 'score']"
+
+T12.G3.03.04: Combine similar consecutive blocks
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['score']"
+
+T12.G3.05: Create and use a simple custom block without parameters
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Description mentions variables: "['parameter']"
+
+
+Total recommendations: 7

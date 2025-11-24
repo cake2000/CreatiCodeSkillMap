@@ -1,0 +1,22 @@
+# GRADE 3 CROSS-TOPIC DEPENDENCY RECOMMENDATIONS (T01-T12)
+# FINAL ANALYSIS - Manually verified against actual skill descriptions
+# Only includes MISSING dependencies that should be ADDED
+
+T04.G3.04.02: Create a custom block (template) for repeated code patterns
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Uses parameters/variables as placeholders in custom blocks
+
+T04.G3.08: Match algorithm descriptions to code pattern shapes
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Matches patterns like "count how many times" which use counter variables
+
+T08.G3.05: Fix a condition that uses the wrong comparison operator
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Comparison operators typically compare variables or values
+
+T12.G3.03.01: Use clearer variable names to improve readability
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Renaming variables requires understanding of variables
+
+
+Total recommendations: 4

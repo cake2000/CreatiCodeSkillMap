@@ -1,0 +1,1649 @@
+Total Grade 3 skills found: 257
+
+================================================================================
+
+================================================================================
+T01: T01 – Everyday Algorithms
+Total G3 skills: 16
+================================================================================
+
+ID: T01.G3.01
+Skill: Complete a simple script with missing blocks
+Dependencies (1):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T01.G3.02
+Skill: Match a story description to a code sequence
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T01.G2.17: Identify the action each code block performs
+
+ID: T01.G3.03
+Skill: Identify repeated blocks in a script (no loops)
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+
+ID: T01.G3.04
+Skill: Predict how many times repeated blocks run
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T04.G2.01: Identify the repeating unit in a longer pattern
+
+ID: T01.G3.05
+Skill: Replace repeated blocks with a repeat loop
+Dependencies (1):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+
+ID: T01.G3.06
+Skill: Trace a repeat loop to find total movement
+Dependencies (2):
+  * T04.G3.02: Match a "repeat N" loop to repeated behavior
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T01.G3.07
+Skill: Adjust a repeat count to match a pattern
+Dependencies (2):
+  * T04.G3.02: Match a "repeat N" loop to repeated behavior
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T01.G3.08
+Skill: Add a simple if/then to a script
+Dependencies (1):
+  * T08.G3.01: Use a simple if in a script
+
+ID: T01.G3.09
+Skill: Match an if/then script to a behavior description
+Dependencies (1):
+  * T08.G3.01: Use a simple if in a script
+
+ID: T01.G3.10
+Skill: Trace a script with a single if/then
+Dependencies (1):
+  * T08.G3.01: Use a simple if in a script
+
+ID: T01.G3.11
+Skill: Explain in words what a short program does
+Dependencies (1):
+  * T07.G3.02: Trace a script with a simple loop
+
+ID: T01.G3.12
+Skill: Predict the final state of a simple algorithm
+Dependencies (1):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T01.G3.13
+Skill: Debug a program with steps in the wrong order
+Dependencies (1):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T01.G3.14
+Skill: Debug a loop that repeats the wrong number of times
+Dependencies (1):
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T01.G3.15
+Skill: Debug an if/then that doesn't trigger when it should
+Dependencies (1):
+  * T08.G3.01: Use a simple if in a script
+
+ID: T01.G3.16
+Skill: Identify when to use 'repeat forever' vs 'repeat N times'
+Dependencies (2):
+  * T07.G3.01: Use a counted repeat loop
+  * T07.G3.02: Trace a script with a simple loop
+
+================================================================================
+T02: T02 – Algorithm Diagrams
+Total G3 skills: 6
+================================================================================
+
+ID: T02.G3.01
+Skill: Identify basic block sequence in CreatiCode
+Dependencies (1):
+  * T02.G2.02: Read a box diagram and choose the matching pictures
+
+ID: T02.G3.02
+Skill: Predict the outcome of a block sequence
+Dependencies (1):
+  * T02.G3.01: Identify basic block sequence in CreatiCode
+
+ID: T02.G3.03
+Skill: Build a block sequence for a simple task
+Dependencies (1):
+  * T02.G3.02: Predict the outcome of a block sequence
+
+ID: T02.G3.04
+Skill: Trace a block sequence with an if/else decision
+Dependencies (1):
+  * T02.G3.03: Build a block sequence for a simple task
+
+ID: T02.G3.05
+Skill: Create a block script with one if/else decision
+Dependencies (1):
+  * T02.G3.04: Trace a block sequence with an if/else decision
+
+ID: T02.G3.06
+Skill: Compare two block sequences for the same task
+Dependencies (1):
+  * T02.G3.03: Build a block sequence for a simple task
+
+================================================================================
+T03: T03 – Problem Decomposition
+Total G3 skills: 8
+================================================================================
+
+ID: T03.G3.01
+Skill: Identify features in a small game description
+Dependencies (2):
+  * T03.G2.05: Identify what a simple game or story can do
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T03.G3.02
+Skill: Group features into "must‑have" vs "nice‑to‑have"
+Dependencies (2):
+  * T03.G3.01: Identify features in a small game description
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T03.G3.03
+Skill: Create a 3‑panel storyboard for a project
+Dependencies (1):
+  * T03.G3.02: Group features into "must‑have" vs "nice‑to‑have"
+
+ID: T03.G3.04
+Skill: Match storyboard panels to project scenes
+Dependencies (1):
+  * T03.G3.03: Create a 3‑panel storyboard for a project
+
+ID: T03.G3.05
+Skill: Choose a step‑by‑step plan for a small project
+Dependencies (1):
+  * T03.G3.04: Match storyboard panels to project scenes
+
+ID: T03.G3.05.01
+Skill: Identify main parts in a simple project
+Dependencies (1):
+  * T03.G3.05: Choose a step‑by‑step plan for a small project
+
+ID: T03.G3.06
+Skill: Understand how project parts work together
+Dependencies (2):
+  * T03.G3.05.01: Identify main parts in a simple project
+  * T09.G3.02: Use a variable in a conditional (if block)
+
+ID: T03.G3.07
+Skill: Identify different jobs needed to make a project
+Dependencies (1):
+  * T03.G3.02: Group features into "must‑have" vs "nice‑to‑have"
+
+================================================================================
+T04: T04 – Algorithm Patterns
+Total G3 skills: 11
+================================================================================
+
+ID: T04.G3.01
+Skill: Identify where a loop could replace repeated blocks
+Dependencies (2):
+  * T04.G2.05: Match a "repeat box" diagram to repeated steps
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T04.G3.02
+Skill: Match a repeat box diagram to code blocks
+Dependencies (2):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T04.G3.03
+Skill: Match a "repeat N" loop to repeated behavior
+Dependencies (1):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+
+ID: T04.G3.04.01
+Skill: Identify repeated code segments that could be simplified with templates
+Dependencies (2):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+  * T07.G3.02: Trace a script with a simple loop
+
+ID: T04.G3.04.02
+Skill: Create a custom block (template) for repeated code patterns
+Dependencies (2):
+  * T04.G3.04.01: Identify repeated code segments that could be simplified with templates
+  * T03.G3.02: Group features into "must‑have" vs "nice‑to‑have"
+
+ID: T04.G3.04.03
+Skill: Use custom blocks to make programs more readable and maintainable
+Dependencies (1):
+  * T04.G3.04.02: Create a custom block (template) for repeated code patterns
+
+ID: T04.G3.05
+Skill: Customize a template by changing repeated elements
+Dependencies (2):
+  * T04.G3.04.03: Use custom blocks to make programs more readable and maintainable
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T04.G3.06
+Skill: Fix a loop that repeats too many or too few times
+Dependencies (1):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+
+ID: T04.G3.07
+Skill: Fix a pattern where one step is wrong
+Dependencies (2):
+  * T04.G3.06: Fix a loop that repeats too many or too few times
+  * T07.G3.03: Build a forever loop for simple animation
+
+ID: T04.G3.08
+Skill: Match algorithm descriptions to code pattern shapes
+Dependencies (3):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+  * T04.G3.02: Match a repeat box diagram to code blocks
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T04.G3.09
+Skill: Recognize nested loops in patterns (outer loop repeats inner loop)
+Dependencies (2):
+  * T04.G3.01: Identify where a loop could replace repeated blocks
+  * T07.G3.01: Use a counted repeat loop
+
+================================================================================
+T05: T05 – Human‑Centered Design
+Total G3 skills: 6
+================================================================================
+
+ID: T05.G3.01
+Skill: Put human‑centered design steps in order
+Dependencies (1):
+  * T05.G2.01: Match different users to different preferred designs
+
+ID: T05.G3.02
+Skill: Identify user needs from a short interview transcript
+Dependencies (2):
+  * T05.G2.01: Match different users to different preferred designs
+  * T05.G1.01: Identify what a character needs in a story
+
+ID: T05.G3.03
+Skill: Choose design changes based on simple feedback
+Dependencies (1):
+  * T05.G2.02: Identify features that make a design more accessible
+
+ID: T05.G3.04
+Skill: Decide what a simple simulation should show
+Dependencies (1):
+  * T05.G2.04: Choose what to include in a very simple simulation
+
+ID: T05.G3.05
+Skill: Select simple rules for a simulation
+Dependencies (1):
+  * T05.G2.04: Choose what to include in a very simple simulation
+
+ID: T05.G3.06
+Skill: Match accessibility features to users who benefit
+Dependencies (2):
+  * T05.G2.02: Identify features that make a design more accessible
+  * T05.G2.01: Match different users to different preferred designs
+
+================================================================================
+T06: T06 – Events & Sequences: G3–8 Skill List
+Total G3 skills: 9
+================================================================================
+
+ID: T06.G3.01
+Skill: Build a green‑flag script that runs a 3–5 block sequence
+Dependencies (2):
+  * T06.G2.03: Design a simple "if-then" game rule
+  * T01.G2.02: Use "repeat" to make directions shorter
+
+ID: T06.G3.02
+Skill: Build a key‑press script that controls a sprite
+Dependencies (1):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T06.G3.03
+Skill: Build a sprite‑click script that triggers an action
+Dependencies (1):
+  * T06.G3.02: Build a key‑press script that controls a sprite
+
+ID: T06.G3.04
+Skill: Match code snippets to the event that triggers them
+Dependencies (1):
+  * T06.G3.03: Build a sprite‑click script that triggers an action
+
+ID: T06.G3.05
+Skill: Decide which event type to use for a behavior
+Dependencies (2):
+  * T06.G3.04: Match code snippets to the event that triggers them
+  * T08.G3.01: Use a simple if in a script
+
+ID: T06.G3.06
+Skill: Trace a project with a single event and predict output
+Dependencies (2):
+  * T06.G3.05: Decide which event type to use for a behavior
+  * T07.G3.02: Trace a script with a simple loop
+
+ID: T06.G3.07
+Skill: Trace a project with two simple events and predict outputs
+Dependencies (3):
+  * T06.G3.06: Trace a project with a single event and predict output
+  * T08.G3.02: Decide when a single if is enough
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T06.G3.08
+Skill: Fix a script that is missing an event block
+Dependencies (2):
+  * T06.G3.07: Trace a project with two simple events and predict outputs
+  * T07.G3.02: Trace a script with a simple loop
+
+ID: T06.G3.09
+Skill: Fix a script that uses the wrong event type
+Dependencies (2):
+  * T06.G3.08: Fix a script that is missing an event block
+  * T09.G3.02: Use a variable in a conditional (if block)
+
+================================================================================
+T07: T07 – Loops
+Total G3 skills: 5
+================================================================================
+
+ID: T07.G3.01
+Skill: Use a counted repeat loop
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G2.01: Identify when to use "repeat" vs "do once"
+
+ID: T07.G3.02
+Skill: Trace a script with a simple loop
+Dependencies (2):
+  * T07.G3.01: Use a counted repeat loop
+  * T04.G3.03: Match a "repeat N" loop to repeated behavior
+
+ID: T07.G3.03
+Skill: Build a forever loop for simple animation
+Dependencies (2):
+  * T07.G3.01: Use a counted repeat loop
+  * T04.G3.04.01: Identify repeated code segments that could be simplified with templates
+
+ID: T07.G3.04
+Skill: Use repeat‑until to reach a simple goal
+Dependencies (2):
+  * T07.G3.03: Build a forever loop for simple animation
+  * T08.G3.01: Use a simple if in a script
+
+ID: T07.G3.05
+Skill: Fix a simple repeat loop count
+Dependencies (1):
+  * T07.G3.02: Trace a script with a simple loop
+
+================================================================================
+T08: T08 – Conditions & Logic
+Total G3 skills: 10
+================================================================================
+
+ID: T08.G3.00
+Skill: Identify if blocks in existing code
+Dependencies (2):
+  * T07.G3.01: Use a counted repeat loop
+  * T08.G2.03: Identify which rule applies in a situation
+
+ID: T08.G3.00b
+Skill: Complete a partially-built if statement
+Dependencies (1):
+  * T08.G3.00: Identify if blocks in existing code
+
+ID: T08.G3.01
+Skill: Use a simple if in a script
+Dependencies (2):
+  * T08.G3.00b: Complete a partially-built if statement
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T08.G3.01a
+Skill: Use comparison operators in conditions
+Dependencies (2):
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T08.G3.01b
+Skill: Use advanced comparison operators (≤, ≥, ≠)
+Dependencies (1):
+  * T08.G3.01a: Use comparison operators in conditions
+
+ID: T08.G3.02
+Skill: Decide when a single if is enough
+Dependencies (1):
+  * T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
+
+ID: T08.G3.03
+Skill: Pick the right conditional block for a scenario
+Dependencies (2):
+  * T08.G3.02: Decide when a single if is enough
+  * T07.G3.02: Trace a script with a simple loop
+
+ID: T08.G3.03b
+Skill: Build a simple if/else block
+Dependencies (2):
+  * T08.G3.03: Pick the right conditional block for a scenario
+  * T07.G3.02: Trace a script with a simple loop
+
+ID: T08.G3.04
+Skill: Trace code with a single if/else
+Dependencies (2):
+  * T08.G3.03b: Build a simple if/else block
+  * T07.G3.03: Build a forever loop for simple animation
+
+ID: T08.G3.05
+Skill: Fix a condition that uses the wrong comparison operator
+Dependencies (3):
+  * T08.G3.04: Trace code with a single if/else
+  * T08.G3.01a: Use comparison operators in conditions
+  * T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
+
+================================================================================
+T09: T09 – Variables & Expressions
+Total G3 skills: 11
+================================================================================
+
+ID: T09.G3.01.01
+Skill: Create a new variable with a descriptive name
+Dependencies (2):
+  * T09.G2.02: Compare a counter to a target number to trigger an event
+  * T03.G2.01: Choose subtasks for a simple project idea
+
+ID: T09.G3.01.02
+Skill: Set a variable to an initial value at program start
+Dependencies (1):
+  * T09.G3.01.01: Create a new variable with a descriptive name
+
+ID: T09.G3.01.03
+Skill: Change a variable value by 1 using the change block
+Dependencies (1):
+  * T09.G3.01.02: Set a variable to an initial value at program start
+
+ID: T09.G3.01.04
+Skill: Display variable value on stage using the variable monitor
+Dependencies (1):
+  * T09.G3.01.03: Change a variable value by 1 using the change block
+
+ID: T09.G3.01.05
+Skill: Use variable reporter blocks in other blocks
+Dependencies (1):
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T09.G3.02
+Skill: Use change block to increase a variable
+Dependencies (1):
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T09.G3.02.01
+Skill: Use reduce block to decrease a variable
+Dependencies (1):
+  * T09.G3.02: Use change block to increase a variable
+
+ID: T09.G3.03
+Skill: Use a variable in a simple conditional (if block)
+Dependencies (2):
+  * T09.G3.02: Use change and reduce blocks to modify a variable
+  * T08.G3.02: Decide when a single if is enough
+
+ID: T09.G3.04
+Skill: Debug a single missing or wrong variable block
+Dependencies (1):
+  * T09.G3.03: Use a variable in a simple conditional (if block)
+
+ID: T09.G3.05
+Skill: Trace code with variables to predict outcomes
+Dependencies (2):
+  * T09.G3.04: Debug a single missing or wrong variable block
+  * T08.G3.04: Trace code with a single if/else
+
+ID: T09.G3.06
+Skill: Copy one variable's value to another variable
+Dependencies (1):
+  * T09.G3.01.02: Set a variable to an initial value at program start
+
+================================================================================
+T10: T10 – Lists & Tables
+Total G3 skills: 12
+================================================================================
+
+ID: T10.G3.01.01
+Skill: Create a new list variable
+Dependencies (1):
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T10.G3.01.02
+Skill: Add an item to the end of a list
+Dependencies (1):
+  * T10.G3.01.01: Create a new list variable
+
+ID: T10.G3.02
+Skill: Read items from a list by position (index starts at 1)
+Dependencies (1):
+  * T10.G3.01.02: Add an item to the end of a list
+
+ID: T10.G3.03
+Skill: Get the length of a list
+Dependencies (1):
+  * T10.G3.01.02: Add an item to the end of a list
+
+ID: T10.G3.04.01
+Skill: Delete an item at a specific position
+Dependencies (2):
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T10.G3.03: Get the length of a list
+
+ID: T10.G3.04.02
+Skill: Clear all items from a list
+Dependencies (2):
+  * T10.G3.04.01: Delete an item at a specific position
+  * T10.G3.03: Get the length of a list
+
+ID: T10.G3.05
+Skill: Loop through each item in a list
+Dependencies (3):
+  * T07.G3.01: Use a counted repeat loop
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+ID: T10.G3.06
+Skill: Check if a list contains a specific item
+Dependencies (2):
+  * T10.G3.01.02: Add an item to the end of a list
+  * T08.G3.01: Use a simple if in a script
+
+ID: T10.G3.07
+Skill: Count items in a list that match a condition
+Dependencies (3):
+  * T10.G3.05: Loop through each item in a list
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T10.G3.08
+Skill: Check if a list is empty before accessing
+Dependencies (2):
+  * T10.G3.03: Get the length of a list
+  * T08.G3.01: Use a simple if in a script
+
+ID: T10.G3.09
+Skill: Increment or decrement a list item's value
+Dependencies (3):
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T10.G3.04.01: Delete an item at a specific position
+  * T09.G3.01.02: Increment and decrement a variable
+
+ID: T10.G3.10
+Skill: Display a list monitor on the stage
+Dependencies (1):
+  * T10.G3.01.02: Add an item to the end of a list
+
+================================================================================
+T11: T11 – Functions & Procedures
+Total G3 skills: 5
+================================================================================
+
+ID: T11.G3.01
+Skill: Understand when to use custom blocks vs loops
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.02: Trace a script with a simple loop
+  * T01.G3.12: Predict the final state of a simple algorithm
+
+ID: T11.G3.02
+Skill: Use a pre-made custom block with parameters
+Dependencies (3):
+  * T11.G3.01: Understand when to use custom blocks vs loops
+  * T08.G3.02: Decide when a single if is enough
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T11.G3.03
+Skill: Identify repeated or grouped actions that could become custom blocks
+Dependencies (3):
+  * T11.G3.02: Use a pre-made custom block with parameters
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T08.G3.03: Pick the right conditional block for a scenario
+
+ID: T11.G3.04
+Skill: Understand the concept of return values
+Dependencies (3):
+  * T11.G3.03: Identify repeated or grouped actions that could become custom blocks
+  * T09.G3.04: Debug a single missing or wrong variable block
+  * T07.G3.04: Use repeat‑until to reach a simple goal
+
+ID: T11.G3.05
+Skill: Explore the "Make a Block" interface in CreatiCode
+Dependencies (1):
+  * T11.G3.04: Understand the concept of return values
+
+================================================================================
+T12: T12 – Organizing Programs
+Total G3 skills: 8
+================================================================================
+
+ID: T12.G3.01
+Skill: Add a comment to explain a block in a script
+Dependencies (2):
+  * T07.G3.02: Trace a script with a simple loop
+  * T12.G2.01: Add a note to explain a section of a plan
+
+ID: T12.G3.02
+Skill: Create a header comment for a script
+Dependencies (2):
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T12.G3.01: Add a comment to explain a block in a script
+
+ID: T12.G3.03.01
+Skill: Use clearer variable names to improve readability
+Dependencies (2):
+  * T07.G3.03: Build a forever loop for simple animation
+  * T08.G3.01: Use a simple if in a script
+
+ID: T12.G3.03.02
+Skill: Reorder conditions to reduce nesting depth
+Dependencies (2):
+  * T07.G3.03: Build a forever loop for simple animation
+  * T08.G3.01: Use a simple if in a script
+
+ID: T12.G3.03.03
+Skill: Split complex scripts into separate event-driven scripts
+Dependencies (2):
+  * T07.G3.03: Build a forever loop for simple animation
+  * T08.G3.01: Use a simple if in a script
+
+ID: T12.G3.03.04
+Skill: Combine similar consecutive blocks
+Dependencies (2):
+  * T07.G3.03: Build a forever loop for simple animation
+  * T08.G3.01: Use a simple if in a script
+
+ID: T12.G3.04
+Skill: Explain the structure of a multi-script project
+Dependencies (2):
+  * T08.G3.03: Pick the right conditional block for a scenario
+  * T10.G3.02: Find and count items in a list with a condition
+
+ID: T12.G3.05
+Skill: Create and use a simple custom block without parameters
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T07.G3.01: Use a counted repeat loop
+  * T12.G3.03.01: Use clearer variable names to improve readability
+
+================================================================================
+T13: T13 – Testing, Debugging & Error Handling
+Total G3 skills: 6
+================================================================================
+
+ID: T13.G3.00
+Skill: Recognize when a CreatiCode script has errors
+Dependencies (1):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T13.G3.01
+Skill: Test and trace simple block-based scripts
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T13.G2.02: Trace a set of steps and predict behavior
+  * T13.G3.00: Recognize when a CreatiCode script has errors
+
+ID: T13.G3.02
+Skill: Fix a wrong block in a sequence
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T13.G2.03: Fix a repeated step that happens too many or too few times
+
+ID: T13.G3.03
+Skill: Debug a script with a missing block
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T13.G2.02: Trace a set of steps and predict behavior
+
+ID: T13.G3.04
+Skill: Practice the debugging cycle: run, observe, change, test again
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T13.G2.04: Add a simple check to see if steps worked
+
+ID: T13.G3.05
+Skill: Identify and explain which block causes unexpected behavior
+Dependencies (1):
+  * T13.G3.01: Test and trace simple block-based scripts
+
+================================================================================
+T14: T14 – 2D Games
+Total G3 skills: 13
+================================================================================
+
+ID: T14.G3.01.01
+Skill: Move sprite left and right with arrow keys
+Dependencies (2):
+  * T14.G2.04: Sequence a safe route
+  * T01.G3.05: Replace repeated blocks with a repeat loop
+
+ID: T14.G3.01.02
+Skill: Move sprite in 4 directions with arrow keys
+Dependencies (2):
+  * T14.G3.01.01: Move sprite left and right with arrow keys
+  * T01.G3.05: Replace repeated blocks with a repeat loop
+
+ID: T14.G3.02
+Skill: Keep sprite on screen
+Dependencies (2):
+  * T14.G3.01.02: Move sprite in 4 directions with arrow keys
+  * T08.G3.01: Use a simple if in a script
+
+ID: T14.G3.03
+Skill: Detect touching a goal
+Dependencies (2):
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+  * T14.G2.03: Recognize level progression
+
+ID: T14.G3.04.01
+Skill: Detect touching a hazard using sprite collision
+Dependencies (2):
+  * T14.G3.03: Detect touching a goal
+  * T07.G3.03: Build a forever loop for simple animation
+
+ID: T14.G3.04.02
+Skill: Detect touching a hazard using color collision
+Dependencies (2):
+  * T14.G3.04.01: Detect touching a hazard using sprite collision
+  * T08.G3.02: Decide when a single if is enough
+
+ID: T14.G3.05
+Skill: Create a start screen
+Dependencies (2):
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T06.G3.06: Trace a project with a single event and predict output
+
+ID: T14.G3.06
+Skill: Switch to game mode
+Dependencies (2):
+  * T14.G3.05: Create a start screen
+  * T10.G3.01: Loop through and process each item in a list
+
+ID: T14.G3.07
+Skill: Trigger Game Over
+Dependencies (2):
+  * T14.G3.06: Switch to game mode
+  * T08.G3.03: Pick the right conditional block for a scenario
+
+ID: T14.G3.08
+Skill: Add sound effects to actions
+Dependencies (2):
+  * T14.G3.04.01: Detect touching a hazard using sprite collision
+  * T07.G3.04: Use repeat‑until to reach a simple goal
+
+ID: T14.G3.09
+Skill: Visual effects on interaction
+Dependencies (2):
+  * T14.G3.04.01: Detect touching a hazard using sprite collision
+  * T08.G3.04: Trace code with a single if/else
+
+ID: T14.G3.10
+Skill: Create collectible items
+Dependencies (3):
+  * T14.G3.03: Detect touching a goal
+  * T07.G3.03: Build a forever loop for simple animation
+  * T08.G3.01: Use a simple if in a script
+
+ID: T14.G3.11
+Skill: Simple jump with key press
+Dependencies (2):
+  * T14.G3.01.02: Move sprite in 4 directions with arrow keys
+  * T06.G3.02: Build a key‑press script that controls a sprite
+
+================================================================================
+T15: T15 – Stories & Animation
+Total G3 skills: 21
+================================================================================
+
+ID: T15.G3.00.01
+Skill: Understand sprite appearance
+Dependencies (1):
+  * T15.G2.01: Fast vs. Slow animation
+
+ID: T15.G3.00.02
+Skill: Change sprite size
+Dependencies (1):
+  * T15.G3.00.01: Understand sprite appearance
+
+ID: T15.G3.00.03
+Skill: Customize costumes in paint editor
+Dependencies (1):
+  * T15.G3.00.02: Change sprite size
+
+ID: T15.G3.01
+Skill: Change sprite position
+Dependencies (1):
+  * T01.G3.01: Complete a simple script with missing blocks
+
+ID: T15.G3.01.01
+Skill: Smooth movement with glide
+Dependencies (1):
+  * T15.G3.01: Change sprite position
+
+ID: T15.G3.02
+Skill: Simple size animation
+Dependencies (2):
+  * T15.G3.01: Change sprite position
+  * T01.G3.05: Replace repeated blocks with a repeat loop
+
+ID: T15.G3.03
+Skill: Reset sprite on start
+Dependencies (2):
+  * T15.G3.02: Simple size animation
+  * T01.G3.10: Trace a script with a single if/then
+
+ID: T15.G3.04
+Skill: Display speech with say blocks
+Dependencies (2):
+  * T15.G3.01: Change sprite position
+  * T01.G3.01: Complete a simple script with missing blocks
+
+ID: T15.G3.04.01
+Skill: Style speech bubbles for mood and emphasis
+Dependencies (1):
+  * T15.G3.04: Display speech with say blocks
+
+ID: T15.G3.05
+Skill: Display thoughts with think blocks
+Dependencies (1):
+  * T15.G3.04: Display speech with say blocks
+
+ID: T15.G3.05.01
+Skill: Style think bubbles
+Dependencies (2):
+  * T15.G3.05: Display thoughts with think blocks
+  * T15.G3.04.01: Style speech bubbles for mood and emphasis
+
+ID: T15.G3.06
+Skill: Sequence dialogue
+Dependencies (1):
+  * T15.G3.04: Say something
+
+ID: T15.G3.07
+Skill: Wait between actions
+Dependencies (1):
+  * T15.G3.04: Say something
+
+ID: T15.G3.08
+Skill: Click to talk
+Dependencies (2):
+  * T15.G3.06: Sequence dialogue
+  * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+
+ID: T15.G3.09
+Skill: Key press animation
+Dependencies (1):
+  * T15.G3.08: Click to talk
+
+ID: T15.G3.11
+Skill: Create label widgets for persistent text
+Dependencies (1):
+  * T15.G3.04: Display speech with say blocks
+
+ID: T15.G3.11.01
+Skill: Position labels for titles and UI elements
+Dependencies (1):
+  * T15.G3.11: Create label widgets for persistent text
+
+ID: T15.G3.11.02
+Skill: Update label text for dynamic displays
+Dependencies (2):
+  * T15.G3.11.01: Position labels for titles and UI elements
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T15.G3.12
+Skill: Print temporary text at positions
+Dependencies (1):
+  * T15.G3.11: Create label widgets for persistent text
+
+ID: T15.G3.12.01
+Skill: Create timed and sprite-relative text
+Dependencies (1):
+  * T15.G3.12: Print temporary text at positions
+
+ID: T15.G3.12.02
+Skill: Clear printed text for scene changes
+Dependencies (1):
+  * T15.G3.12.01: Create timed and sprite-relative text
+
+================================================================================
+T16: T16 – User Interfaces
+Total G3 skills: 11
+================================================================================
+
+ID: T16.G3.01
+Skill: Add a button widget to the stage
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T01.G3.01: Complete a simple script with missing blocks
+
+ID: T16.G3.02
+Skill: Handle a button click event
+Dependencies (2):
+  * T16.G3.01: Add a button widget to the stage
+  * T06.G3.02: Build a key‑press script that controls a sprite
+
+ID: T16.G3.02.01
+Skill: Handle any button click with a single script
+Dependencies (2):
+  * T16.G3.02: Handle a button click event
+  * T09.G3.02: Use a variable in a conditional (if block)
+
+ID: T16.G3.03
+Skill: Add a label widget to display text
+Dependencies (1):
+  * T16.G3.01: Add a button widget to the stage
+
+ID: T16.G3.04
+Skill: Update label text dynamically
+Dependencies (2):
+  * T16.G3.03: Add a label widget to display text
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T16.G3.04.01
+Skill: Append text to labels and textboxes
+Dependencies (1):
+  * T16.G3.04: Update label text dynamically
+
+ID: T16.G3.05
+Skill: Add a textbox widget for user input
+Dependencies (1):
+  * T16.G3.03: Add a label widget to display text
+
+ID: T16.G3.06
+Skill: Get text from a textbox widget
+Dependencies (2):
+  * T16.G3.05: Add a textbox widget for user input
+  * T09.G3.02: Use a variable in a conditional (if block)
+
+ID: T16.G3.07
+Skill: Show and hide widgets
+Dependencies (2):
+  * T16.G3.02: Handle a button click event
+  * T08.G3.01: Use a simple if in a script
+
+ID: T16.G3.07.01
+Skill: Remove widgets from the stage
+Dependencies (1):
+  * T16.G3.07: Show and hide widgets
+
+ID: T16.G3.08
+Skill: Position and resize widgets
+Dependencies (1):
+  * T16.G3.07: Show and hide widgets
+
+================================================================================
+T17: T17 – 2D Motion & Physics
+Total G3 skills: 2
+================================================================================
+
+ID: T17.G3.01
+Skill: Observe position changes from motion blocks
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T17.G2.01: Predict sprite direction from motion blocks (picture choices)
+
+ID: T17.G3.02
+Skill: Predict direction and distance of sprite motion
+Dependencies (1):
+  * T17.G3.01: Observe position changes from motion blocks
+
+================================================================================
+T18: T18 – 3D Worlds & Games
+Total G3 skills: 11
+================================================================================
+
+ID: T18.G3.01
+Skill: Interpret 3D axis directions
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T03.G2.01: Choose subtasks for a simple project idea
+
+ID: T18.G3.02
+Skill: Match camera views to 3D layouts
+Dependencies (2):
+  * T18.G3.01: Interpret 3D axis directions
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T18.G3.03
+Skill: Initialize a 3D scene with a specific environment
+Dependencies (4):
+  * T18.G3.02: Match camera views to 3D layouts
+  * T09.G3.01: Create and use a numeric variable for score or count
+  * T07.G3.02: Trace a script with a simple loop
+  * T03.G3.03: Create a 3‑panel storyboard for a project
+
+ID: T18.G3.04.01
+Skill: Add a box shape to the 3D scene
+Dependencies (2):
+  * T18.G3.03: Initialize a 3D scene with a specific environment
+  * T08.G3.01: Use a simple if in a script
+
+ID: T18.G3.04.02
+Skill: Add a sphere shape to the 3D scene
+Dependencies (1):
+  * T18.G3.04.01: Add a box shape to the 3D scene
+
+ID: T18.G3.04.03
+Skill: Add a cylinder shape to the 3D scene
+Dependencies (1):
+  * T18.G3.04.02: Add a sphere shape to the 3D scene
+
+ID: T18.G3.05
+Skill: Position shapes using x/y/z coordinates
+Dependencies (3):
+  * T18.G3.04.03: Add a cylinder shape to the 3D scene
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T08.G3.02: Decide when a single if is enough
+
+ID: T18.G3.06.01
+Skill: Change shape color using basic color picker
+Dependencies (3):
+  * T18.G3.05: Position shapes using x/y/z coordinates
+  * T07.G3.03: Build a forever loop for simple animation
+  * T03.G3.04: Match storyboard panels to project scenes
+
+ID: T18.G3.06.02
+Skill: Adjust shape transparency
+Dependencies (1):
+  * T18.G3.06.01: Change shape color using basic color picker
+
+ID: T18.G3.07
+Skill: Move a 3D player with keyboard input
+Dependencies (3):
+  * T18.G3.06.02: Adjust shape transparency
+  * T08.G3.03: Pick the right conditional block for a scenario
+  * T09.G3.03: Debug missing or wrong variable updates
+
+ID: T18.G3.08
+Skill: Trace a short 3D script to predict positions
+Dependencies (3):
+  * T18.G3.07: Move a 3D player with keyboard input
+  * T11.G3.01: Understand when to use custom blocks vs loops
+  * T07.G3.04: Use repeat‑until to reach a simple goal
+
+================================================================================
+T20: T20 – Algorithmic Art & Creative Coding
+Total G3 skills: 8
+================================================================================
+
+ID: T20.G3.01
+Skill: Translate art recipe cards into blocks
+Dependencies (2):
+  * T07.G3.01: Use a counted repeat loop
+  * T20.G2.01: Use repeat cards in an art recipe
+
+ID: T20.G3.01.01
+Skill: Explain CreatiCode drawing model
+Dependencies (1):
+  * T20.G3.01: Translate art recipe cards into blocks
+
+ID: T20.G3.01.02
+Skill: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
+Dependencies (1):
+  * T20.G3.01.01: Explain CreatiCode drawing model
+
+ID: T20.G3.02
+Skill: Program a repeating border with loops
+Dependencies (1):
+  * T20.G3.01.02: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
+
+ID: T20.G3.03
+Skill: Trace a drawing loop and predict output
+Dependencies (2):
+  * T20.G3.02: Program a repeating border with loops
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T20.G3.04
+Skill: Tile a grid with nested loops
+Dependencies (2):
+  * T20.G3.03: Trace a drawing loop and predict output
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T20.G3.05
+Skill: Add simple randomness for variety
+Dependencies (3):
+  * T20.G3.04: Tile a grid with nested loops
+  * T09.G3.02: Use a variable in a conditional (if block)
+  * T07.G3.03: Build a forever loop for simple animation
+
+ID: T20.G3.05.01
+Skill: Use variables to change pattern size
+Dependencies (2):
+  * T20.G3.05: Add simple randomness for variety
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+================================================================================
+T21: T21 – AI Media
+Total G3 skills: 2
+================================================================================
+
+ID: T21.G3.01
+Skill: Tell whether media was AI-generated or recorded
+Dependencies: None
+
+ID: T21.G3.02
+Skill: Describe what you want AI to create using simple words
+Dependencies (1):
+  * T21.G3.01: Tell whether media was AI-generated or recorded
+
+================================================================================
+T22: T22 – Chatbots & Prompting
+Total G3 skills: 3
+================================================================================
+
+ID: T22.G3.01
+Skill: Identify chatbot behavior from fixed button replies
+Dependencies (3):
+  * T08.G3.01: Use a simple if in a script
+  * T22.G2.01: Role-play asking a helper for information
+  * T22.G2.02: Decide which questions are okay to ask a helper
+
+ID: T22.G3.02
+Skill: Make a simple ChatGPT request using blocks to ask questions
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.05: Trace code with variables to predict outcomes
+  * T22.G3.01: Identify chatbot behavior from fixed button replies
+
+ID: T22.G3.03
+Skill: Display ChatGPT responses in speech bubbles or text
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.05: Trace code with variables to predict outcomes
+  * T22.G3.02: Make a simple ChatGPT request using blocks to ask questions
+
+================================================================================
+T23: T23 – AI Perception
+Total G3 skills: 3
+================================================================================
+
+ID: T23.G3.01
+Skill: Describe a picture as a grid of tiny colors
+Dependencies (2):
+  * T07.G3.01: Use a counted repeat loop
+  * T23.G2.01: Pick the right sensor for a job
+
+ID: T23.G3.02
+Skill: Describe sound as a wavy line of loud/soft
+Dependencies (1):
+  * T06.G3.05: Decide which event type to use for a behavior
+
+ID: T23.G3.03
+Skill: Tell whether a behavior uses sensing and guessing
+Dependencies (2):
+  * T23.G3.02: Describe sound as a wavy line of loud/soft
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+================================================================================
+T24: T24 – XO & Generative AI Practices
+Total G3 skills: 5
+================================================================================
+
+ID: T24.G3.00
+Skill: Use basic speech recognition blocks
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+  * T24.G2.04: Observe how AI hears spoken words
+
+ID: T24.G3.01
+Skill: Use speech-to-text to control a sprite
+Dependencies (3):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T24.G2.01: Observe AI text-to-speech demonstration
+  * T24.G3.00: Use basic speech recognition blocks
+
+ID: T24.G3.02
+Skill: Evaluate if AI output matches the request
+Dependencies (2):
+  * T24.G2.03: Describe what you want AI to create
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T24.G3.03
+Skill: Revise a prompt to improve AI results
+Dependencies (2):
+  * T24.G3.02: Evaluate if AI output matches the request
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T24.G3.04
+Skill: Recognize AI makes mistakes
+Dependencies (3):
+  * T24.G2.02: Identify what AI can and cannot do
+  * T24.G3.02: Evaluate if AI output matches the request
+  * T08.G3.01: Use a simple if in a script
+
+================================================================================
+T25: T25 – Data Representation
+Total G3 skills: 13
+================================================================================
+
+ID: T25.G3.00.01
+Skill: Create and name variables in CreatiCode
+Dependencies (1):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+ID: T25.G3.00.02
+Skill: Create and name lists in CreatiCode
+Dependencies (1):
+  * T25.G3.00.01: Create and name variables in CreatiCode
+
+ID: T25.G3.01.01
+Skill: Add items to a list manually
+Dependencies (1):
+  * T25.G3.00.02: Create and name lists in CreatiCode
+
+ID: T25.G3.01.02
+Skill: Map survey responses into list variables
+Dependencies (2):
+  * T25.G3.01.01: Add items to a list manually
+  * T25.G2.01: Choose labels for a category chart
+
+ID: T25.G3.02.01
+Skill: Use number variables for counting and scoring
+Dependencies (1):
+  * T25.G3.01.02: Map survey responses into list variables
+
+ID: T25.G3.02.02
+Skill: Use text variables for names and messages
+Dependencies (1):
+  * T25.G3.02.01: Use number variables for counting and scoring
+
+ID: T25.G3.02.03
+Skill: Use boolean variables for true/false states
+Dependencies (2):
+  * T25.G3.02.02: Use text variables for names and messages
+  * T08.G3.02: Decide when a single if is enough
+
+ID: T25.G3.03
+Skill: Break sentences into structured records
+Dependencies (2):
+  * T25.G3.02.03: Use boolean variables for true/false states
+  * T08.G3.03: Pick the right conditional block for a scenario
+
+ID: T25.G3.04.01
+Skill: Identify inconsistent units in data
+Dependencies (1):
+  * T25.G3.03: Break sentences into structured records
+
+ID: T25.G3.04.02
+Skill: Convert data to consistent units
+Dependencies (2):
+  * T25.G3.04.01: Identify inconsistent units in data
+  * T09.G3.02: Use a variable in a conditional (if block)
+
+ID: T25.G3.05
+Skill: Identify when data needs cleaning
+Dependencies (2):
+  * T25.G3.03: Break sentences into structured records
+  * T25.G3.04.01: Identify inconsistent units in data
+
+ID: T25.G3.06.01
+Skill: Create a simple table in CreatiCode
+Dependencies (2):
+  * T25.G3.02.03: Use boolean variables for true/false states
+  * T25.G2.04: Combine two data attributes
+
+ID: T25.G3.06.02
+Skill: Access table items by row and column
+Dependencies (2):
+  * T25.G3.06.01: Create a simple table in CreatiCode
+  * T10.G3.01: Loop through and process each item in a list
+
+================================================================================
+T26: T26 – Data Collection & Logging
+Total G3 skills: 7
+================================================================================
+
+ID: T26.G3.01
+Skill: Script a CreatiCode survey loop
+Dependencies (2):
+  * T26.G2.01: Distinguish observational vs survey data
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T26.G3.02
+Skill: Write fair survey questions
+Dependencies (3):
+  * T26.G3.01: Script a CreatiCode survey loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T26.G3.03
+Skill: Log sensor-style events with counters
+Dependencies (3):
+  * T26.G3.01: Script a CreatiCode survey loop
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T26.G3.04.01
+Skill: Store raw data in lists
+Dependencies (3):
+  * T26.G3.03: Log sensor-style events with counters
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T26.G3.04.02
+Skill: Generate summary data from raw data
+Dependencies (3):
+  * T26.G3.04.01: Store raw data in lists
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T26.G3.05
+Skill: Spot common data collection mistakes
+Dependencies (2):
+  * T26.G3.04.02: Generate summary data from raw data
+  * T08.G3.01: Use a simple if in a script
+
+ID: T26.G3.06
+Skill: Implement basic consent before data collection
+Dependencies (2):
+  * T26.G3.01: Script a CreatiCode survey loop
+  * T08.G3.01: Use a simple if in a script
+
+================================================================================
+T27: T27 – Data Analysis & Storytelling
+Total G3 skills: 8
+================================================================================
+
+ID: T27.G3.00
+Skill: Add basic widgets to display information
+Dependencies (2):
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T27.G3.01b
+Skill: Create and populate data tables in CreatiCode
+Dependencies (3):
+  * T27.G2.01: Create bar charts with axes labels
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T27.G3.01
+Skill: Compute sum and average from data tables
+Dependencies (2):
+  * T27.G3.01b: Create and populate data tables in CreatiCode
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T27.G3.01c
+Skill: Find minimum and maximum values in tables
+Dependencies (1):
+  * T27.G3.01: Compute sum and average from data tables
+
+ID: T27.G3.02
+Skill: Build comparison statements with evidence
+Dependencies (2):
+  * T27.G3.01: Compute totals and averages from data tables
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T27.G3.03
+Skill: Use CreatiCode data tables to group and count
+Dependencies (2):
+  * T27.G3.01b: Create and populate data tables in CreatiCode
+  * T27.G3.02: Build comparison statements with evidence
+
+ID: T27.G3.04
+Skill: Create side-by-side bar charts for two groups
+Dependencies (1):
+  * T27.G3.03: Use CreatiCode data tables to group and count
+
+ID: T27.G3.05
+Skill: Choose appropriate chart types for data
+Dependencies (1):
+  * T27.G3.04: Create side-by-side bar charts for two groups
+
+================================================================================
+T28: T28 – Chance & Simulations: G2–8 Skill List
+Total G3 skills: 7
+================================================================================
+
+ID: T28.G3.01
+Skill: Interpret provided simulation output
+Dependencies (2):
+  * T28.G2.01: Sort events into certain / possible / impossible
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T28.G3.02
+Skill: Explain what "pick random" does by testing predictions
+Dependencies (1):
+  * T28.G3.01: Interpret provided simulation output
+
+ID: T28.G3.03
+Skill: Record experimental data with teacher-provided blocks
+Dependencies (2):
+  * T28.G3.02: Explain what "pick random" does by testing predictions
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T28.G3.04
+Skill: Compare predictions to simulated data
+Dependencies (1):
+  * T28.G3.03: Record experimental data with teacher-provided blocks
+
+ID: T28.G3.05
+Skill: Describe randomness in games and simulate a simple game element
+Dependencies (1):
+  * T28.G3.01: Interpret provided simulation output
+
+ID: T28.G3.06
+Skill: Modify a teacher-provided random generator
+Dependencies (2):
+  * T28.G3.02: Explain what "pick random" does by testing predictions
+  * T28.G3.03: Record experimental data with teacher-provided blocks
+
+ID: T28.G3.07
+Skill: Assemble blocks to build a random generator
+Dependencies (2):
+  * T28.G3.06: Modify a teacher-provided random generator
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+================================================================================
+T29: T29 – Text Data & NLP Foundations
+Total G3 skills: 5
+================================================================================
+
+ID: T29.G3.01
+Skill: Distinguish text data from numbers and pictures
+Dependencies (1):
+  * T29.G2.04: Find and replace words in sentences
+
+ID: T29.G3.02
+Skill: Count word occurrences using variables
+Dependencies (2):
+  * T29.G3.01: Distinguish text data from numbers and pictures
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T29.G3.03
+Skill: Build automated word categorizer using conditionals and lists
+Dependencies (1):
+  * T29.G3.02: Count word occurrences using variables
+
+ID: T29.G3.04
+Skill: Explain why clean text helps AI helpers
+Dependencies (1):
+  * T29.G3.03: Build automated word categorizer using conditionals and lists
+
+ID: T29.G3.05
+Skill: Compare text for equality using "=" operator
+Dependencies (1):
+  * T29.G3.02: Count word occurrences using variables
+
+================================================================================
+T30: T30 – Devices & Hardware Systems
+Total G3 skills: 6
+================================================================================
+
+ID: T30.G3.01
+Skill: Connect project ideas to required sensors/actuators
+Dependencies (2):
+  * T30.G2.01: Explain core internal components
+  * T30.G2.02: Trace input → process → output
+
+ID: T30.G3.02
+Skill: Identify device input types for CreatiCode projects
+Dependencies (1):
+  * T30.G1.01: Label basic computer parts
+
+ID: T30.G3.03
+Skill: Compare CreatiCode cloud save vs local export options
+Dependencies (1):
+  * T30.G2.01: Explain core internal components
+
+ID: T30.G3.04
+Skill: Explain how sensors provide input to computer programs
+Dependencies (2):
+  * T30.G2.05: Identify common device sensors and their inputs
+  * T30.G2.02: Trace input → process → output
+
+ID: T30.G3.05
+Skill: Access device camera in CreatiCode projects
+Dependencies (2):
+  * T30.G2.05: Identify common device sensors and their inputs
+  * T30.G2.02: Trace input → process → output
+
+ID: T30.G3.06
+Skill: Access device microphone for audio input
+Dependencies (2):
+  * T30.G2.05: Identify common device sensors and their inputs
+  * T30.G2.02: Trace input → process → output
+
+================================================================================
+T31: T31 – Internet & Cloud: Grade 3
+Total G3 skills: 2
+================================================================================
+
+ID: T31.G3.01
+Skill: Trace a simple path from device to website
+Dependencies (1):
+  * T31.G2.01: Understand that the internet connects many computers (picture-based)
+
+ID: T31.G3.02
+Skill: Recognize different types of online information sharing
+Dependencies (1):
+  * T31.G2.01: Understand that the internet connects many computers (picture-based)
+
+================================================================================
+T32: T32 – Cybersecurity & Digital Safety
+Total G3 skills: 5
+================================================================================
+
+ID: T32.G3.01
+Skill: Identify parts of URLs and email addresses
+Dependencies (1):
+  * T32.G2.06: Explain purpose of usernames and passwords
+
+ID: T32.G3.02
+Skill: Explain multi-factor authentication (MFA) with analogies
+Dependencies (2):
+  * T32.G2.06: Explain purpose of usernames and passwords
+  * T07.G3.01: Use a counted repeat loop
+
+ID: T32.G3.03
+Skill: Recognize website safety indicators
+Dependencies (1):
+  * T32.G3.01: Identify parts of URLs and email addresses
+
+ID: T32.G3.04
+Skill: Evaluate and use sharing settings in CreatiCode projects
+Dependencies (1):
+  * T32.G3.03: Recognize website safety indicators
+
+ID: T32.G3.05
+Skill: Recognize phishing-like messages
+Dependencies (2):
+  * T32.G3.03: Recognize website safety indicators
+  * T32.G2.05: Recognize consequences of clicking suspicious links
+
+================================================================================
+T33: T33 – Connected Services
+Total G3 skills: 1
+================================================================================
+
+ID: T33.G3.01
+Skill: Identify cloud-connected features in familiar apps
+Dependencies (1):
+  * T33.G2.01: Describe what happens when an app waits for the internet
+
+================================================================================
+T34: T34 – Computing History
+Total G3 skills: 3
+================================================================================
+
+ID: T34.G3.01
+Skill: Sequence milestones on a timeline
+Dependencies (1):
+  * T34.G2.01: Build "then vs now" comparison charts
+
+ID: T34.G3.02
+Skill: Connect computing milestones to everyday life
+Dependencies (1):
+  * T34.G3.01: Sequence milestones on a timeline
+
+ID: T34.G3.03
+Skill: Highlight underrepresented innovators
+Dependencies (1):
+  * T34.G3.02: Connect computing milestones to everyday life
+
+================================================================================
+T35: T35 – Impacts & Ethics
+Total G3 skills: 4
+================================================================================
+
+ID: T35.G3.01
+Skill: Evaluate digital footprints
+Dependencies (4):
+  * T35.G2.01: Compare benefits and harms of a tech tool
+  * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+  * T16.G3.01: Add a label widget to display text
+  * T08.G3.01: Use a simple if in a script
+
+ID: T35.G3.02
+Skill: Discuss how algorithms influence what we see
+Dependencies (3):
+  * T35.G3.01: Evaluate digital footprints
+  * T08.G3.01: Use a simple if in a script
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+ID: T35.G3.03
+Skill: Develop class guidelines for respectful communication
+Dependencies (4):
+  * T35.G3.01: Evaluate digital footprints
+  * T08.G3.01: Use a simple if in a script
+  * T16.G3.01: Add a label widget to display text
+  * T22.G3.01: Use ChatGPT blocks for simple queries
+
+ID: T35.G3.04
+Skill: Recognize when apps collect data
+Dependencies (3):
+  * T35.G3.01: Evaluate digital footprints
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+  * T16.G3.01: Add a label widget to display text
+
+================================================================================
+T36: T36 – Careers, Collaboration & Future Paths
+Total G3 skills: 4
+================================================================================
+
+ID: T36.G3.01
+Skill: Ask classmates simple questions to understand project needs
+Dependencies (1):
+  * T36.G2.01: Identify project roles in simple terms
+
+ID: T36.G3.02
+Skill: Draft simple team agreements
+Dependencies (1):
+  * T36.G3.01: Ask classmates simple questions to understand project needs
+
+ID: T36.G3.03
+Skill: Reflect on collaboration habits
+Dependencies (1):
+  * T36.G3.02: Draft simple team agreements
+
+ID: T36.G3.04
+Skill: Explore what coders and digital designers do
+Dependencies (1):
+  * T36.G2.04: Name jobs where people create digital things
+
+
+================================================================================
+SUMMARY: Found 257 Grade 3 skills across 35 topics
+================================================================================

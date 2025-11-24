@@ -1,0 +1,138 @@
+GRADE 2 CROSS-TOPIC DEPENDENCY FLOW (T12-T20)
+================================================================================
+
+FOUNDATIONAL TOPICS → APPLIED TOPICS
+------------------------------------
+
+T01 (Algorithms)     ──→  T12.G2.02 (Documentation)
+  └─ T01.G1.01
+
+T02 (Diagrams)       ──→  T14.G2.02 (Game: Track lives)
+  └─ T02.G1.01
+
+T03 (Decomposition)  ──→  T16.G2.02 (UI: Design interface)
+  └─ T03.G1.02
+
+T04 (Patterns)       ──→  T15.G2.01 (Animation: Speed)
+  ├─ T04.G1.01       ──→  T15.G2.03 (Animation: Loops) [CRITICAL]
+  ├─ T04.G1.02       ──→  T20.G2.01 (Art: Repeat)
+  ├─ T04.G2.01       ──→  T20.G2.02 (Art: Symmetry)
+  └─ T04.G2.02       ──→  T20.G2.03 (Art: Layering)
+
+T07 (Loops)          ──→  T15.G2.03 (Animation: Loops) [CRITICAL]
+  └─ T07.G1.01
+
+T08 (Conditionals)   ──→  T13.G2.04 (Debug: Checks)
+  └─ T08.G1.01       ──→  T14.G2.03 (Game: Progression)
+                     ──→  T16.G2.01 (UI: Interactions)
+
+T17 (2D Motion)      ──→  T18.G2.01 (3D: Viewpoints)
+  └─ T17.G1.01
+
+
+DEPENDENCY STRENGTH BY TARGET TOPIC
+------------------------------------
+
+T12 (Documentation)          : 1 addition  (sequencing)
+T13 (Debugging)              : 1 addition  (conditionals)
+T14 (Games)                  : 2 additions (data + conditionals)
+T15 (Animation)              : 3 additions (patterns + loops) ⚠ HIGH
+T16 (UI)                     : 2 additions (conditionals + decomp)
+T17 (Motion)                 : 0 additions (good coverage)
+T18 (3D)                     : 1 addition  (2D foundation)
+T20 (Generative Art)         : 3 additions (patterns) ⚠ HIGH
+
+
+FOUNDATIONAL SKILLS USAGE COUNT
+------------------------------------
+
+T04 (Pattern Recognition)    : ████████ 6 uses (46%)
+T08 (Conditional Logic)      : ████ 3 uses (23%)
+T01 (Sequencing)             : █ 1 use (8%)
+T02 (Data/Algorithms)        : █ 1 use (8%)
+T03 (Decomposition)          : █ 1 use (8%)
+T07 (Loops)                  : █ 1 use (8%)
+T17 (2D Motion)              : █ 1 use (8%)
+
+
+KEY DEPENDENCY CHAINS
+------------------------------------
+
+Pattern Recognition Chain:
+  T04.G1.01 ──→ T15.G2.01 ──→ [Animation speed understanding]
+  T04.G1.01 ──→ T20.G2.01 ──→ [Art repetition]
+  T04.G1.02 ──→ T20.G2.02 ──→ [Art symmetry]
+  T04.G2.01 ──→ T15.G2.03 ──→ [Animation loops]
+  T04.G2.02 ──→ T20.G2.03 ──→ [Art layering]
+
+Conditional Logic Chain:
+  T08.G1.01 ──→ T13.G2.04 ──→ [Debugging checks]
+            ──→ T14.G2.03 ──→ [Game progression]
+            ──→ T16.G2.01 ──→ [UI interactions]
+
+Spatial Reasoning Chain:
+  T17.G1.01 ──→ T18.G2.01 ──→ [2D to 3D progression]
+
+
+MOST CRITICAL ADDITION
+------------------------------------
+
+⚠ T15.G2.03: "Loop patterns in animation"
+   BEFORE: Only had T01.G1.07 (algorithm comparison)
+   AFTER:  + T04.G2.01 (pattern recognition)
+           + T07.G1.01 (loop understanding)
+   
+   WHY CRITICAL: Skill name explicitly mentions "loop patterns"
+   but had NO dependencies on pattern (T04) or loop (T07) topics!
+
+
+GRADE LEVEL DISTRIBUTION
+------------------------------------
+
+Prerequisites from Grade K (GK):  0 (0%)
+Prerequisites from Grade 1 (G1):  9 (69%)
+Prerequisites from Grade 2 (G2):  2 (15%)  [T04.G2.01, T04.G2.02]
+
+This shows good scaffolding: G2 skills primarily build on G1 foundations,
+with some G2-to-G2 dependencies for advanced pattern work.
+
+
+X-2 RULE COMPLIANCE
+------------------------------------
+
+✓ All Grade 2 skills only depend on:
+  - Kindergarten (GK) skills: 0 used
+  - Grade 1 (G1) skills: 9 used
+  - Grade 2 (G2) skills: 2 used
+  
+✓ 100% compliant with X-2 rule
+✓ No dependencies on Grade 3+ skills
+✓ All prerequisite skills verified to exist
+
+
+TOPIC INTERCONNECTION SUMMARY
+------------------------------------
+
+Core Concepts (Sources):
+  T01 - Everyday Algorithms      [feeds: T12]
+  T02 - Algorithm Diagrams       [feeds: T14]
+  T03 - Decomposition            [feeds: T16]
+  T04 - Algorithm Patterns       [feeds: T15, T20] ⭐ MAJOR
+  T07 - Loops                    [feeds: T15]
+  T08 - Conditions & Logic       [feeds: T13, T14, T16] ⭐ MAJOR
+  T17 - 2D Motion                [feeds: T18]
+
+Applied Topics (Targets):
+  T12 - Organizing Programs      [receives from: T01]
+  T13 - Testing & Debugging      [receives from: T08]
+  T14 - 2D Games                 [receives from: T02, T08]
+  T15 - Stories & Animation      [receives from: T04, T07] ⭐ NEEDS MOST
+  T16 - User Interfaces          [receives from: T03, T08]
+  T18 - 3D Worlds                [receives from: T17]
+  T20 - Algorithmic Art          [receives from: T04] ⭐ NEEDS MOST
+
+
+⭐ = High-impact foundational topics
+⚠ = Topics needing most additions
+
+================================================================================

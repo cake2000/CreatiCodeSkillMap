@@ -1,0 +1,32 @@
+MISSING CROSS-TOPIC DEPENDENCIES FOR GRADE 2 (T21-T36)
+================================================================================
+
+T21.G2.02: Add dependency T35.GK.01 - Reason: Ethical concepts require foundational ethics understanding
+T22.G2.02: Add dependency T32.GK.01 - Reason: Privacy and safety concepts require security foundations
+T23.G2.01: Add dependency T30.GK.01 - Reason: Sensor usage requires hardware understanding
+T23.G2.02: Add dependency T30.GK.01 - Reason: Sensor usage requires hardware understanding
+T23.G2.03: Add dependency T30.GK.01 - Reason: Sensor usage requires hardware understanding
+T24.G2.01: Add dependency T01.GK.01 - Reason: Programming AI features requires sequencing skills
+T26.G2.01: Add dependency T25.GK.01 - Reason: Collecting data requires understanding data representation
+T26.G2.03: Add dependency T25.GK.01 - Reason: Collecting data requires understanding data representation
+T26.G2.05: Add dependency T25.GK.01 - Reason: Collecting data requires understanding data representation
+T27.G2.01: Add dependency T26.GK.01 - Reason: Visualizing data requires data collection skills
+T27.G2.01: Add dependency T25.GK.01 - Reason: Visualizing data requires understanding data representation
+T27.G2.04: Add dependency T26.GK.01 - Reason: Visualizing data requires data collection skills
+T27.G2.04: Add dependency T25.GK.01 - Reason: Visualizing data requires understanding data representation
+T28.G2.04: Add dependency T26.GK.01 - Reason: Probability analysis requires data collection understanding
+T29.G2.04: Add dependency T01.GK.01 - Reason: Programming text processing requires sequencing
+T31.G2.01: Add dependency T30.GK.01 - Reason: Understanding networks requires hardware basics
+T32.G2.01: Add dependency T30.GK.01 - Reason: Device security requires hardware understanding
+T32.G2.01: Add dependency T35.GK.04 - Reason: Security practices require ethical understanding
+T32.G2.04: Add dependency T30.GK.01 - Reason: Device security requires hardware understanding
+T32.G2.04: Add dependency T35.GK.04 - Reason: Security practices require ethical understanding
+T32.G2.05: Add dependency T30.GK.01 - Reason: Device security requires hardware understanding
+T32.G2.05: Add dependency T35.GK.04 - Reason: Security practices require ethical understanding
+T32.G2.06: Add dependency T30.GK.01 - Reason: Device security requires hardware understanding
+T32.G2.06: Add dependency T35.GK.04 - Reason: Security practices require ethical understanding
+T33.G2.01: Add dependency T31.GK.01 - Reason: Understanding connectivity requires network basics
+T34.G2.01: Add dependency T30.GK.01 - Reason: Understanding computing history requires hardware awareness
+T36.G2.04: Add dependency T35.GK.01 - Reason: Understanding computing careers requires ethical awareness
+
+Total recommendations: 27

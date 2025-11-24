@@ -1,0 +1,97 @@
+T01.GK.02|T01.GK.01|Sequencing Foundation
+T01.GK.03|T01.GK.01|Sequencing Foundation
+T20.GK.01|T01.GK.01|Sequencing Foundation
+T20.GK.04|T01.GK.01|Sequencing Foundation
+T24.GK.03|T01.GK.01|Sequencing Foundation
+T02.GK.01|T04.GK.01|Pattern Recognition
+T08.GK.01|T04.GK.01|Pattern Recognition
+T09.GK.01|T04.GK.01|Pattern Recognition
+T13.GK.02|T04.GK.01|Pattern Recognition
+T14.GK.01|T04.GK.01|Pattern Recognition
+T14.GK.02|T04.GK.01|Pattern Recognition
+T22.GK.01|T04.GK.01|Pattern Recognition
+T24.GK.02|T04.GK.01|Pattern Recognition
+T29.GK.01|T04.GK.01|Pattern Recognition
+T29.GK.03|T04.GK.01|Pattern Recognition
+T30.GK.03|T04.GK.01|Pattern Recognition
+T31.GK.01|T04.GK.01|Pattern Recognition
+T32.GK.02|T04.GK.01|Pattern Recognition
+T33.GK.01|T04.GK.01|Pattern Recognition
+T35.GK.02|T04.GK.01|Pattern Recognition
+T01.GK.04|T10.GK.01|Sorting/Categorization
+T13.GK.02|T10.GK.01|Sorting/Categorization
+T20.GK.04|T10.GK.01|Sorting/Categorization
+T21.GK.02|T10.GK.01|Sorting/Categorization
+T22.GK.02|T10.GK.01|Sorting/Categorization
+T23.GK.01|T10.GK.01|Sorting/Categorization
+T25.GK.02|T10.GK.01|Sorting/Categorization
+T25.GK.03|T10.GK.01|Sorting/Categorization
+T31.GK.01|T10.GK.01|Sorting/Categorization
+T36.GK.02|T10.GK.01|Sorting/Categorization
+T01.GK.04|T08.GK.01|Conditional Thinking
+T01.GK.06|T08.GK.01|Conditional Thinking
+T01.GK.08|T08.GK.01|Conditional Thinking
+T02.GK.01|T08.GK.01|Conditional Thinking
+T02.GK.03|T08.GK.01|Conditional Thinking
+T03.GK.01|T08.GK.01|Conditional Thinking
+T03.GK.03|T08.GK.01|Conditional Thinking
+T03.GK.04|T08.GK.01|Conditional Thinking
+T03.GK.05|T08.GK.01|Conditional Thinking
+T04.GK.01|T08.GK.01|Conditional Thinking
+T04.GK.02|T08.GK.01|Conditional Thinking
+T04.GK.03|T08.GK.01|Conditional Thinking
+T05.GK.01|T08.GK.01|Conditional Thinking
+T05.GK.02|T08.GK.01|Conditional Thinking
+T05.GK.03|T08.GK.01|Conditional Thinking
+T06.GK.01|T08.GK.01|Conditional Thinking
+T06.GK.02|T08.GK.01|Conditional Thinking
+T06.GK.03|T08.GK.01|Conditional Thinking
+T09.GK.01|T08.GK.01|Conditional Thinking
+T09.GK.02|T08.GK.01|Conditional Thinking
+T10.GK.02|T08.GK.01|Conditional Thinking
+T10.GK.03|T08.GK.01|Conditional Thinking
+T10.GK.05|T08.GK.01|Conditional Thinking
+T10.GK.07|T08.GK.01|Conditional Thinking
+T10.GK.08|T08.GK.01|Conditional Thinking
+T13.GK.02|T08.GK.01|Conditional Thinking
+T14.GK.01|T08.GK.01|Conditional Thinking
+T15.GK.02|T08.GK.01|Conditional Thinking
+T15.GK.03|T08.GK.01|Conditional Thinking
+T18.GK.01|T08.GK.01|Conditional Thinking
+T20.GK.01|T08.GK.01|Conditional Thinking
+T20.GK.02|T08.GK.01|Conditional Thinking
+T21.GK.01|T08.GK.01|Conditional Thinking
+T21.GK.02|T08.GK.01|Conditional Thinking
+T21.GK.03|T08.GK.01|Conditional Thinking
+T22.GK.01|T08.GK.01|Conditional Thinking
+T22.GK.02|T08.GK.01|Conditional Thinking
+T23.GK.01|T08.GK.01|Conditional Thinking
+T23.GK.03|T08.GK.01|Conditional Thinking
+T24.GK.01|T08.GK.01|Conditional Thinking
+T24.GK.02|T08.GK.01|Conditional Thinking
+T24.GK.03|T08.GK.01|Conditional Thinking
+T25.GK.02|T08.GK.01|Conditional Thinking
+T25.GK.03|T08.GK.01|Conditional Thinking
+T26.GK.01|T08.GK.01|Conditional Thinking
+T26.GK.02|T08.GK.01|Conditional Thinking
+T27.GK.01|T08.GK.01|Conditional Thinking
+T27.GK.02|T08.GK.01|Conditional Thinking
+T29.GK.01|T08.GK.01|Conditional Thinking
+T29.GK.02|T08.GK.01|Conditional Thinking
+T29.GK.03|T08.GK.01|Conditional Thinking
+T30.GK.01|T08.GK.01|Conditional Thinking
+T32.GK.02|T08.GK.01|Conditional Thinking
+T32.GK.03|T08.GK.01|Conditional Thinking
+T33.GK.01|T08.GK.01|Conditional Thinking
+T34.GK.01|T08.GK.01|Conditional Thinking
+T34.GK.02|T08.GK.01|Conditional Thinking
+T35.GK.01|T08.GK.01|Conditional Thinking
+T36.GK.01|T08.GK.01|Conditional Thinking
+T02.GK.02|T09.GK.01|Variables/Numbers
+T02.GK.03|T09.GK.01|Variables/Numbers
+T25.GK.01|T09.GK.01|Variables/Numbers
+T29.GK.01|T09.GK.01|Variables/Numbers
+T30.GK.03|T09.GK.01|Variables/Numbers
+T32.GK.03|T09.GK.01|Variables/Numbers
+T33.GK.01|T09.GK.01|Variables/Numbers
+T35.GK.04|T09.GK.01|Variables/Numbers

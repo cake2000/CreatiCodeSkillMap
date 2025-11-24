@@ -62,7 +62,6 @@ Description: **Student task:** Watch the actions. Which two actions happen over 
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
-* T04.GK.01: Identify a simple repeating pattern
 
 
 
@@ -5921,7 +5920,6 @@ Description: After sorting items into groups, students count how many items are 
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
-* T09.GK.01: Recognize that a label can hold a number
 
 
 ID: T10.GK.03
@@ -5976,7 +5974,6 @@ Description: Students identify all items in a collection that have a special vis
 
 Dependencies:
 * T10.GK.02: Count items in each group
-* T09.GK.01: Recognize that a label can hold a number
 
 
 ---
@@ -14020,10 +14017,6 @@ Activity Type: Picture comparison with visual analysis
 Estimated Time: 3-4 minutes
 CSTA: 1A-IC-16 (Compare how people lived and worked before and with technology)
 
-Dependencies:
-* T04.GK.01: Identify a simple repeating pattern
-
-
 Dependencies: None
 
 
@@ -14046,10 +14039,6 @@ Description: Students identify which devices can answer questions (smart speaker
 Activity Type: Picture sorting
 Estimated Time: 2-3 minutes
 CSTA: 1A-IC-16
-
-Dependencies:
-* T10.GK.01: Sort picture cards into groups
-
 
 Dependencies: None
 
@@ -15715,7 +15704,6 @@ Description: Students tap the camera spot on a tablet and the speaker/mic area o
 
 Dependencies:
 * T23.GK.01: Match pictures of sensing
-* T03.GK.01: Identify parts that make up a whole
 
 
 
@@ -17717,7 +17705,6 @@ Description: Students count a small set of items and choose a symbol (tally mark
 
 Dependencies:
 * T25.GK.01: Spot data in everyday objects
-* T09.GK.01: Recognize that a label can hold a number
 
 
 
@@ -18504,7 +18491,6 @@ Description: Learners watch a simple animation and slide a bead/token each time 
 Dependencies:
 * T26.GK.01: Identify countable things in a picture
 * T01.GK.07: Group objects by one attribute
-* T04.GK.01: Identify a simple repeating pattern
 
 
 
@@ -19321,8 +19307,6 @@ Description: Learners count two piles (≤5 each) and state which is larger or i
 
 Dependencies:
 * T27.GK.01: Sort objects by a rule and explain it
-* T10.GK.02: Count items in each group
-* T09.GK.01: Recognize that a label can hold a number
 
 
 
@@ -19334,7 +19318,6 @@ Description: Students interpret which category wins using a pictograph (one icon
 
 Dependencies:
 * T27.GK.02: Compare which group has more
-* T10.GK.06: Look at a simple picture table
 
 
 
@@ -20477,7 +20460,6 @@ Skill: Recognize text vs pictures
 Description: Students sort cards showing text (words/letters), pictures, and numbers into separate groups, identifying text as "letters that make words we can read."
 
 Dependencies:
-* T10.GK.01: Sort picture cards into groups
 (none)
 
 
@@ -21157,7 +21139,6 @@ Description: Students categorize simple objects (microphone, light bulb, button,
 
 Dependencies:
 * T30.GK.02: Match devices to actions
-* T10.GK.01: Sort picture cards into groups
 
 
 
@@ -21664,8 +21645,6 @@ CSTA: EK-SAS-NW-02
 Dependencies:
 
 
-* T10.GK.01: Sort picture cards into groups
-* T30.GK.01: Identify everyday computing devices
 ID: T31.G1.01
 Topic: T31 – Internet & Cloud: Grade 1
 Skill: Identify when a device is connected or disconnected (picture-based)
@@ -22102,10 +22081,6 @@ Topic: T32 – Cybersecurity & Digital Safety
 Skill: Spot safe vs unsafe sharing
 Description: Students sort illustrated cards (favorite color vs home address) into "OK to share" and "Private" bins and practice saying "Ask a trusted adult." Teacher reviews student responses.
 
-Dependencies:
-* T10.GK.01: Sort picture cards into groups
-
-
 ID: T32.GK.02
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Recognize when to ask for help online
@@ -22129,7 +22104,6 @@ Description: Students sort picture cards showing activities (playing outside, wa
 
 Dependencies:
 * T32.GK.01: Spot safe vs unsafe sharing
-* T10.GK.01: Sort picture cards into groups
 
 ID: T32.G1.01
 Topic: T32 – Cybersecurity & Digital Safety
@@ -22590,10 +22564,6 @@ ID: T33.GK.01
 Topic: T33 – Connected Services
 Skill: Recognize that apps can talk to helpers on the internet
 Description: Using illustrated scenes, students identify apps that need the internet to work (weather apps, video streaming, voice assistants) versus apps that work offline (calculator, drawing app). They point to cloud/internet symbols and explain that some apps ask "helpers on the internet" for information or answers.
-
-Dependencies:
-* T30.GK.01: Identify everyday computing devices
-
 
 
 
@@ -23296,7 +23266,6 @@ Description: Students sort picture cards showing sharing behaviors (waiting your
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
-* T10.GK.01: Sort picture cards into groups
 
 
 ID: T35.GK.04

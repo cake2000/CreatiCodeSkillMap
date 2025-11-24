@@ -14,7 +14,8 @@ Topic: T01 – Everyday Algorithms
 Skill: Put pictures in order for coming to class
 Description: **Student task:** Look at 4 pictures. Put them in the right order. **Example:** Come in, hang up backpack, sit down, listen. _Implementation note: Drag‑drop 4 items. CSTA: EK‑ALG‑AF‑01._
 
-
+Dependencies:
+* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 ID: T01.GK.03
@@ -24,6 +25,7 @@ Description: **Student task:** Look at pictures in order. Touch the first pictur
 
 Dependencies:
 * T01.GK.02: Put pictures in order for coming to class
+* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 ID: T01.GK.04
@@ -62,7 +64,6 @@ Description: **Student task:** Watch the actions. Which two actions happen over 
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
-* T04.GK.01: Identify a simple repeating pattern
 
 
 
@@ -2117,6 +2118,7 @@ Skill: Extend a repeating pattern by one tile
 Description: Students see a short pattern (e.g., red, blue, red, blue, ?) and choose or drag the next picture.
 
 Dependencies:
+* T01.GK.01: Put pictures in order for getting ready for bed
 * T04.GK.01: Identify a simple repeating pattern
 
 
@@ -4611,6 +4613,7 @@ Skill: Choose what happens next based on yes/no
 Description: Students look at a picture and a yes/no question, then choose what happens next. For example, "Is the light green?" If yes, walk. If no, wait. This is a multiple-choice question with 2 picture choices that builds understanding of binary decision-making.
 
 Dependencies:
+* T01.GK.01: Put pictures in order for getting ready for bed
 * T08.GK.01: Match pictures to "if it rains" rules
 
 CSTA: EK-ALG-AF-01
@@ -5921,7 +5924,6 @@ Description: After sorting items into groups, students count how many items are 
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
-* T09.GK.01: Recognize that a label can hold a number
 
 
 ID: T10.GK.03
@@ -5976,7 +5978,6 @@ Description: Students identify all items in a collection that have a special vis
 
 Dependencies:
 * T10.GK.02: Count items in each group
-* T09.GK.01: Recognize that a label can hold a number
 
 
 ---
@@ -13322,6 +13323,7 @@ Description: Learners drag picture cards showing simple art steps like "pick red
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
+* T04.GK.01: Identify a simple repeating pattern
 
 
 
@@ -13344,6 +13346,7 @@ Description: Students look at a 3-step visual art plan with one incorrect pictur
 
 Dependencies:
 * T04.GK.01: Identify a simple repeating pattern
+* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 
@@ -14020,10 +14023,6 @@ Activity Type: Picture comparison with visual analysis
 Estimated Time: 3-4 minutes
 CSTA: 1A-IC-16 (Compare how people lived and worked before and with technology)
 
-Dependencies:
-* T04.GK.01: Identify a simple repeating pattern
-
-
 Dependencies: None
 
 
@@ -14046,10 +14045,6 @@ Description: Students identify which devices can answer questions (smart speaker
 Activity Type: Picture sorting
 Estimated Time: 2-3 minutes
 CSTA: 1A-IC-16
-
-Dependencies:
-* T10.GK.01: Sort picture cards into groups
-
 
 Dependencies: None
 
@@ -15715,7 +15710,6 @@ Description: Students tap the camera spot on a tablet and the speaker/mic area o
 
 Dependencies:
 * T23.GK.01: Match pictures of sensing
-* T03.GK.01: Identify parts that make up a whole
 
 
 
@@ -16557,6 +16551,7 @@ Description: Students practice giving clear, one-sentence instructions to an AI 
 Dependencies:
 * T24.GK.01: Identify AI as a computer helper
 * T24.GK.02: Recognize AI-made vs human-made pictures
+* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 ID: T24.G1.01
@@ -17717,7 +17712,6 @@ Description: Students count a small set of items and choose a symbol (tally mark
 
 Dependencies:
 * T25.GK.01: Spot data in everyday objects
-* T09.GK.01: Recognize that a label can hold a number
 
 
 
@@ -18502,9 +18496,10 @@ Skill: Use tokens to log repeated events
 Description: Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first "log."
 
 Dependencies:
-* T26.GK.01: Identify countable things in a picture
-* T01.GK.07: Group objects by one attribute
+* T01.GK.01: Put pictures in order for getting ready for bed
 * T04.GK.01: Identify a simple repeating pattern
+* T09.GK.01: Recognize that a label can hold a number
+* T26.GK.01: Identify countable things in a picture
 
 
 
@@ -19321,8 +19316,6 @@ Description: Learners count two piles (≤5 each) and state which is larger or i
 
 Dependencies:
 * T27.GK.01: Sort objects by a rule and explain it
-* T10.GK.02: Count items in each group
-* T09.GK.01: Recognize that a label can hold a number
 
 
 
@@ -19334,7 +19327,6 @@ Description: Students interpret which category wins using a pictograph (one icon
 
 Dependencies:
 * T27.GK.02: Compare which group has more
-* T10.GK.06: Look at a simple picture table
 
 
 
@@ -20477,7 +20469,6 @@ Skill: Recognize text vs pictures
 Description: Students sort cards showing text (words/letters), pictures, and numbers into separate groups, identifying text as "letters that make words we can read."
 
 Dependencies:
-* T10.GK.01: Sort picture cards into groups
 (none)
 
 
@@ -21157,7 +21148,6 @@ Description: Students categorize simple objects (microphone, light bulb, button,
 
 Dependencies:
 * T30.GK.02: Match devices to actions
-* T10.GK.01: Sort picture cards into groups
 
 
 
@@ -21664,8 +21654,6 @@ CSTA: EK-SAS-NW-02
 Dependencies:
 
 
-* T10.GK.01: Sort picture cards into groups
-* T30.GK.01: Identify everyday computing devices
 ID: T31.G1.01
 Topic: T31 – Internet & Cloud: Grade 1
 Skill: Identify when a device is connected or disconnected (picture-based)
@@ -22102,10 +22090,6 @@ Topic: T32 – Cybersecurity & Digital Safety
 Skill: Spot safe vs unsafe sharing
 Description: Students sort illustrated cards (favorite color vs home address) into "OK to share" and "Private" bins and practice saying "Ask a trusted adult." Teacher reviews student responses.
 
-Dependencies:
-* T10.GK.01: Sort picture cards into groups
-
-
 ID: T32.GK.02
 Topic: T32 – Cybersecurity & Digital Safety
 Skill: Recognize when to ask for help online
@@ -22128,8 +22112,9 @@ Skill: Distinguish online vs offline activities
 Description: Students sort picture cards showing activities (playing outside, watching videos on tablet, reading a book, video calling grandma) into "Online" and "Offline" groups. They discuss which activities need internet and which don't.
 
 Dependencies:
-* T32.GK.01: Spot safe vs unsafe sharing
+* T08.GK.01: Match pictures to "if it rains" rules
 * T10.GK.01: Sort picture cards into groups
+* T32.GK.01: Spot safe vs unsafe sharing
 
 ID: T32.G1.01
 Topic: T32 – Cybersecurity & Digital Safety
@@ -22590,10 +22575,6 @@ ID: T33.GK.01
 Topic: T33 – Connected Services
 Skill: Recognize that apps can talk to helpers on the internet
 Description: Using illustrated scenes, students identify apps that need the internet to work (weather apps, video streaming, voice assistants) versus apps that work offline (calculator, drawing app). They point to cloud/internet symbols and explain that some apps ask "helpers on the internet" for information or answers.
-
-Dependencies:
-* T30.GK.01: Identify everyday computing devices
-
 
 
 
@@ -23296,7 +23277,6 @@ Description: Students sort picture cards showing sharing behaviors (waiting your
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
-* T10.GK.01: Sort picture cards into groups
 
 
 ID: T35.GK.04

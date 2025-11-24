@@ -238,6 +238,7 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < gradeList.length; i++) {
+      if (iteration === 0 && i < 1) continue; // skip some grades for testing
       const grade = gradeList[i];
       console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade}`);
       console.log(`${"─".repeat(50)}`);
@@ -330,9 +331,10 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
           );
 
           // Check for API errors
+            console.log(`\n⚠️  OUPUT for grade ${grade}: ${output}`);
           const outputLower = output.toLowerCase();
-          if (1 || outputLower.includes("api error") || outputLower.includes("usage limit")) {
-            console.log(`\n⚠️  API rate limit hit for grade ${grade}: ${output}`);
+          if (outputLower.includes("api error") || outputLower.includes("usage limit")) {
+            console.log(`\n⚠️  API rate limit hit for grade ${grade}`);
             console.log(`⏰ Waiting 3 minutes before retrying...`);
             await waitWithCountdown(3);
             retryCount++;

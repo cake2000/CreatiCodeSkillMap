@@ -1,0 +1,296 @@
+T01.G1.02 -> Dependencies:
+  T03.G1.02: Requires understanding breaking tasks into parts
+
+T01.G1.04 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+
+T01.G1.06 -> Dependencies:
+  T08.G1.01: Requires understanding conditional logic
+
+T01.G1.07 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+
+T01.G1.09 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+  T10.G1.01: Requires understanding data organization
+
+T01.G1.10 -> Dependencies:
+  T08.G1.01: Requires understanding conditional logic
+
+T02.G1.01 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+
+T02.G1.02 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T01.G1.06: Debugging requires understanding algorithms
+
+T02.G1.03 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+
+T02.G1.04 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T04.G1.02: Requires recognizing patterns and repetition
+  T01.G1.06: Debugging requires understanding algorithms
+
+T02.G1.05 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T01.G1.06: Debugging requires understanding algorithms
+
+T03.G1.03 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T10.G1.01: Requires understanding data organization
+
+T03.G1.04 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+
+T04.G1.03 -> Dependencies:
+  T02.G1.01: Requires understanding how algorithms work
+  T03.G1.02: Requires understanding breaking tasks into parts
+  T10.G1.01: Requires understanding data organization
+
+T04.G1.04 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T10.G1.01: Requires understanding data organization
+
+T06.G1.01 -> Dependencies:
+  T08.G1.01: Requires understanding conditional logic
+
+T06.G1.02 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T06.G1.03 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T03.G1.02: Requires understanding breaking tasks into parts
+
+T07.G1.01 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T04.G1.02: Requires recognizing patterns and repetition
+  T09.G1.02: Requires understanding counting/tracking
+  T01.G1.06: Debugging requires understanding algorithms
+
+T07.G1.02 -> Dependencies:
+  T02.G1.01: Requires understanding how algorithms work
+  T04.G1.02: Requires recognizing patterns and repetition
+  T12.G1.02: Requires understanding abstraction
+  T01.G1.06: Debugging requires understanding algorithms
+
+T08.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T08.G1.02 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+
+T08.G1.03 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+
+T09.G1.01 -> Dependencies:
+  T07.G1.01: Requires understanding loops and repetition counting
+
+T10.G1.01 -> Dependencies:
+  T08.G1.01: Requires understanding conditional logic
+
+T10.G1.02 -> Dependencies:
+  T09.G1.02: Requires understanding counting/tracking
+  T12.G1.02: Requires understanding abstraction
+
+T10.G1.05 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+
+T12.G1.01 -> Dependencies:
+  T02.G1.01: Requires understanding how algorithms work
+
+T12.G1.02 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+
+T12.G1.03 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T02.G1.01: Requires understanding how algorithms work
+
+T12.G1.04 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T03.G1.02: Requires understanding breaking tasks into parts
+  T06.G1.01: Requires understanding events and triggers
+  T10.G1.01: Requires understanding data organization
+
+T13.G1.01 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T08.G1.01: Requires understanding conditional logic
+
+T13.G1.02 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T10.G1.01: Requires understanding data organization
+
+T13.G1.03 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T02.G1.01: Requires understanding how algorithms work
+  T07.G1.01: Requires understanding loops and repetition counting
+  T09.G1.02: Requires understanding counting/tracking
+
+T14.G1.01 -> Dependencies:
+  T09.G1.02: Scoring requires tracking/counting
+
+T14.G1.02 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T08.G1.01: Requires understanding conditional logic
+
+T14.G1.03 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+
+T14.G1.04 -> Dependencies:
+  T03.G1.02: Requires understanding breaking tasks into parts
+  T08.G1.01: Requires understanding conditional logic
+
+T14.G1.05 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T15.G1.03 -> Dependencies:
+  T08.G1.01: Story consequences use if-then logic
+
+T16.G1.01 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+
+T16.G1.02 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T12.G1.02: Requires understanding abstraction
+
+T18.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+  T01.G1.06: Debugging requires understanding algorithms
+
+T20.G1.01 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+  T08.G1.01: Requires understanding conditional logic
+
+T20.G1.02 -> Dependencies:
+  T02.G1.01: Requires understanding how algorithms work
+  T01.G1.01: Following art instructions uses algorithmic thinking
+
+T20.G1.03 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+  T04.G1.01: Creating patterns requires pattern recognition
+
+T20.G1.04 -> Dependencies:
+  T02.G1.01: Requires understanding how algorithms work
+  T04.G1.02: Requires recognizing patterns and repetition
+  T06.G1.01: Requires understanding events and triggers
+  T04.G1.01: Creating patterns requires pattern recognition
+
+T21.G1.02 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T22.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+  T26.GK.01: Asking questions relates to information gathering
+
+T23.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+  T06.GK.03: Sensors detecting changes trigger actions (events)
+
+T23.G1.02 -> Dependencies:
+  T06.GK.03: Sensors detecting changes trigger actions (events)
+
+T23.G1.03 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+  T06.GK.03: Sensors detecting changes trigger actions (events)
+
+T24.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T24.G1.02 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T01.G1.06: Debugging requires understanding algorithms
+
+T24.G1.03 -> Dependencies:
+  T02.G1.01: Requires understanding how algorithms work
+  T05.G1.02: Requires design thinking approach
+  T01.G1.01: AI instructions follow algorithmic patterns
+
+T25.G1.02 -> Dependencies:
+  T09.G1.02: Requires understanding counting/tracking
+  T10.G1.01: Requires understanding data organization
+  T12.G1.02: Requires understanding abstraction
+
+T25.G1.03 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+  T12.G1.02: Requires understanding abstraction
+
+T26.G1.01 -> Dependencies:
+  T25.G1.01: Data collection requires understanding data representation
+
+T26.G1.02 -> Dependencies:
+  T25.G1.01: Data collection requires understanding data representation
+
+T26.G1.03 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+  T04.G1.02: Requires recognizing patterns and repetition
+  T10.G1.01: Requires understanding data organization
+  T25.G1.01: Data collection requires understanding data representation
+
+T27.G1.01 -> Dependencies:
+  T25.G1.02: Visualizing data requires understanding data representation
+
+T27.G1.02 -> Dependencies:
+  T25.G1.02: Visualizing data requires understanding data representation
+
+T27.G1.03 -> Dependencies:
+  T25.G1.02: Visualizing data requires understanding data representation
+
+T29.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T29.G1.02 -> Dependencies:
+  T09.G1.02: Requires understanding counting/tracking
+
+T29.G1.03 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T29.G1.04 -> Dependencies:
+  T04.G1.02: Requires recognizing patterns and repetition
+
+T30.G1.01 -> Dependencies:
+  T03.G1.02: Requires understanding breaking tasks into parts
+
+T30.G1.02 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T30.G1.03 -> Dependencies:
+  T23.G1.01: Understanding sensors in systems requires sensor concepts
+
+T31.G1.01 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T12.G1.02: Requires understanding abstraction
+
+T32.G1.03 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T01.G1.06: Debugging requires understanding algorithms
+
+T32.G1.04 -> Dependencies:
+  T01.G1.04: Requires understanding sequential steps
+
+T33.G1.01 -> Dependencies:
+  T05.G1.02: Requires design thinking approach
+  T10.G1.01: Requires understanding data organization
+
+T34.G1.03 -> Dependencies:
+  T08.G1.01: Requires understanding conditional logic
+
+T35.G1.01 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T10.G1.01: Requires understanding data organization
+
+T35.G1.04 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T10.G1.01: Requires understanding data organization
+
+T36.G1.01 -> Dependencies:
+  T10.G1.01: Requires understanding data organization
+
+T36.G1.02 -> Dependencies:
+  T06.G1.01: Requires understanding events and triggers
+  T10.G1.01: Requires understanding data organization
+
+T36.G1.03 -> Dependencies:
+  T05.G1.02: Requires design thinking approach
+  T06.G1.01: Requires understanding events and triggers
+  T10.G1.01: Requires understanding data organization
+

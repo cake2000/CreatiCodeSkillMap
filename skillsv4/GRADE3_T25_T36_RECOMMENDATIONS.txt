@@ -1,0 +1,273 @@
+GRADE 3 (T25-T36) MISSING CROSS-TOPIC DEPENDENCIES
+====================================================================================================
+Format: Each skill lists dependencies that should be ADDED
+====================================================================================================
+
+SKILL_ID: T25.G3.00.01
+CURRENT_SKILL_NAME: Create and name variables in CreatiCode
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T25.G3.00.02
+CURRENT_SKILL_NAME: Create and name lists in CreatiCode
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+ADD DEPENDENCY: T01.GK.01: Put pictures in order for getting ready for bed
+REASON: Uses Algorithms (T01)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T25.G3.01.01
+CURRENT_SKILL_NAME: Add items to a list manually
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+ADD DEPENDENCY: T01.GK.01: Put pictures in order for getting ready for bed
+REASON: Uses Algorithms (T01)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T25.G3.01.02
+CURRENT_SKILL_NAME: Map survey responses into list variables
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+ADD DEPENDENCY: T01.GK.01: Put pictures in order for getting ready for bed
+REASON: Uses Algorithms (T01)
+
+SKILL_ID: T25.G3.02.01
+CURRENT_SKILL_NAME: Use number variables for counting and scoring
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T25.G3.02.02
+CURRENT_SKILL_NAME: Use text variables for names and messages
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T25.G3.02.03
+CURRENT_SKILL_NAME: Use boolean variables for true/false states
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T25.G3.05
+CURRENT_SKILL_NAME: Identify when data needs cleaning
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T25.G3.06.01
+CURRENT_SKILL_NAME: Create a simple table in CreatiCode
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T26.G3.01
+CURRENT_SKILL_NAME: Script a CreatiCode survey loop
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T26.G3.02
+CURRENT_SKILL_NAME: Write fair survey questions
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T26.G3.03
+CURRENT_SKILL_NAME: Log sensor-style events with counters
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T26.G3.04.01
+CURRENT_SKILL_NAME: Store raw data in lists
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+
+SKILL_ID: T26.G3.04.02
+CURRENT_SKILL_NAME: Generate summary data from raw data
+ADD DEPENDENCY: T07.G1.01: Count repetitions in a pattern
+REASON: Uses Loops (T07)
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+
+SKILL_ID: T26.G3.05
+CURRENT_SKILL_NAME: Spot common data collection mistakes
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+
+SKILL_ID: T26.G3.06
+CURRENT_SKILL_NAME: Implement basic consent before data collection
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T27.G3.00
+CURRENT_SKILL_NAME: Add basic widgets to display information
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T27.G3.01b
+CURRENT_SKILL_NAME: Create and populate data tables in CreatiCode
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T27.G3.01c
+CURRENT_SKILL_NAME: Find minimum and maximum values in tables
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T27.G3.02
+CURRENT_SKILL_NAME: Build comparison statements with evidence
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T27.G3.03
+CURRENT_SKILL_NAME: Use CreatiCode data tables to group and count
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T27.G3.05
+CURRENT_SKILL_NAME: Choose appropriate chart types for data
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T28.G3.01
+CURRENT_SKILL_NAME: Interpret provided simulation output
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T28.G3.02
+CURRENT_SKILL_NAME: Explain what "pick random" does by testing predictions
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T28.G3.03
+CURRENT_SKILL_NAME: Record experimental data with teacher-provided blocks
+ADD DEPENDENCY: T07.G1.01: Count repetitions in a pattern
+REASON: Uses Loops (T07)
+
+SKILL_ID: T28.G3.04
+CURRENT_SKILL_NAME: Compare predictions to simulated data
+ADD DEPENDENCY: T07.G1.01: Count repetitions in a pattern
+REASON: Uses Loops (T07)
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T28.G3.07
+CURRENT_SKILL_NAME: Assemble blocks to build a random generator
+ADD DEPENDENCY: T07.G1.01: Count repetitions in a pattern
+REASON: Uses Loops (T07)
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T29.G3.01
+CURRENT_SKILL_NAME: Distinguish text data from numbers and pictures
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T29.G3.02
+CURRENT_SKILL_NAME: Count word occurrences using variables
+ADD DEPENDENCY: T07.G1.01: Count repetitions in a pattern
+REASON: Uses Loops (T07)
+
+SKILL_ID: T29.G3.04
+CURRENT_SKILL_NAME: Explain why clean text helps AI helpers
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T29.G3.05
+CURRENT_SKILL_NAME: Compare text for equality using "=" operator
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T30.G3.02
+CURRENT_SKILL_NAME: Identify device input types for CreatiCode projects
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T30.G3.03
+CURRENT_SKILL_NAME: Compare CreatiCode cloud save vs local export options
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T30.G3.05
+CURRENT_SKILL_NAME: Access device camera in CreatiCode projects
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T30.G3.06
+CURRENT_SKILL_NAME: Access device microphone for audio input
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T32.G3.02
+CURRENT_SKILL_NAME: Explain multi-factor authentication (MFA) with analogies
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T32.G3.04
+CURRENT_SKILL_NAME: Evaluate and use sharing settings in CreatiCode projects
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Uses Variables (T09)
+
+SKILL_ID: T32.G3.05
+CURRENT_SKILL_NAME: Recognize phishing-like messages
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T34.G3.01
+CURRENT_SKILL_NAME: Sequence milestones on a timeline
+ADD DEPENDENCY: T01.GK.01: Put pictures in order for getting ready for bed
+REASON: Uses Algorithms (T01)
+
+SKILL_ID: T35.G3.01
+CURRENT_SKILL_NAME: Evaluate digital footprints
+ADD DEPENDENCY: T07.G1.01: Count repetitions in a pattern
+REASON: Uses Loops (T07)
+
+SKILL_ID: T35.G3.04
+CURRENT_SKILL_NAME: Recognize when apps collect data
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T36.G3.01
+CURRENT_SKILL_NAME: Ask classmates simple questions to understand project needs
+ADD DEPENDENCY: T16.G1.01: Match interface elements to their purpose (unplugged)
+REASON: Uses User Interfaces (T16)
+
+SKILL_ID: T36.G3.02
+CURRENT_SKILL_NAME: Draft simple team agreements
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses Conditionals (T08)
+
+SKILL_ID: T36.G3.03
+CURRENT_SKILL_NAME: Reflect on collaboration habits
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: Uses Lists (T10)
+

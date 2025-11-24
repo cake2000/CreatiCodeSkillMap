@@ -1,0 +1,3772 @@
+{
+  "metadata": {
+    "total_grade_k_skills": 102,
+    "total_grade_1_skills": 109,
+    "topics": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T10",
+      "T12",
+      "T13",
+      "T14",
+      "T15",
+      "T16",
+      "T17",
+      "T18",
+      "T20",
+      "T21",
+      "T22",
+      "T23",
+      "T24",
+      "T25",
+      "T26",
+      "T27",
+      "T29",
+      "T30",
+      "T31",
+      "T32",
+      "T33",
+      "T34",
+      "T35",
+      "T36"
+    ]
+  },
+  "grade_k_skills": {
+    "T01.GK.01": {
+      "id": "T01.GK.01",
+      "title": "Put pictures in order for getting ready for bed",
+      "description": "",
+      "dependencies": [],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.02": {
+      "id": "T01.GK.02",
+      "title": "Put pictures in order for coming to class",
+      "description": "**Student task:** Look at 4 pictures. Put them in the right order. **Example:** Come in, hang up backpack, sit down, listen. _Implementation note: Drag‑drop 4 items. CSTA: EK‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.03": {
+      "id": "T01.GK.03",
+      "title": "Find the first and last pictures",
+      "description": "**Student task:** Look at pictures in order. Touch the first picture. Touch the last picture. _Implementation note: Click first/last pictures. CSTA: EK‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.02",
+          "title": "Put pictures in order for coming to class"
+        },
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.04": {
+      "id": "T01.GK.04",
+      "title": "Pick the pictures that make sense",
+      "description": "**Student task:** Look at two sets of pictures. Which one makes sense? **Example:** Wash hands → dry hands → eat vs eat → wash hands → dry hands. _Implementation note: Two sequences, choose one. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑IM‑04._",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.05": {
+      "id": "T01.GK.05",
+      "title": "Move the picture that's in the wrong place",
+      "description": "**Student task:** Look at the pictures. One picture is in the wrong place. Move it to the right place. _Implementation note: Drag the \"wrong\" card into correct position. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.06": {
+      "id": "T01.GK.06",
+      "title": "What comes next?",
+      "description": "**Student task:** Look at the first two pictures. What should come last? _Implementation note: MCQ, choose final picture. CSTA: EK‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.07": {
+      "id": "T01.GK.07",
+      "title": "Find the pattern that repeats",
+      "description": "**Student task:** Watch the actions. Which two actions happen over and over? **Example:** hop–clap–hop–clap _Implementation note: Visual pattern MCQ. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T01.GK.08": {
+      "id": "T01.GK.08",
+      "title": "Count how many times",
+      "description": "**Student task:** Watch the character perform a repeated action (e.g., jump, clap, spin). Count how many times by selecting from picture‑based answer choices. _Implementation note: Short animation (2–4 seconds) + picture‑based count choices showing 1-4 actions. CSTA: EK‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.07",
+          "title": "Find the pattern that repeats"
+        }
+      ],
+      "topic": "T01",
+      "grade": "K"
+    },
+    "T02.GK.01": {
+      "id": "T02.GK.01",
+      "title": "Use logging/probes to understand algorithm behavior",
+      "description": "Students insert logs or display statements at key points and use them to answer questions about an algorithm's internal behavior. _Implementation note: Coding + reading logs; auto‑graded. CSTA: MS‑ALG‑PS‑07, MS‑PRO‑TR‑11._",
+      "dependencies": [],
+      "topic": "T02",
+      "grade": "K"
+    },
+    "T02.GK.02": {
+      "id": "T02.GK.02",
+      "title": "Order 3–4 pictures to make a story",
+      "description": "Students drag 3–4 scrambled pictures into arrow‑connected boxes labeled \"1, 2, 3, 4\" to repair a simple strip of steps (e.g., a robot getting ready or reaching a toy).",
+      "dependencies": [
+        {
+          "id": "T02.GK.01",
+          "title": "Recognize picture steps for a task"
+        }
+      ],
+      "topic": "T02",
+      "grade": "K"
+    },
+    "T02.GK.03": {
+      "id": "T02.GK.03",
+      "title": "Use first/next/last to describe a sequence",
+      "description": "Students see 3 ordered pictures on a strip with \"First / Next / Last\" labels and choose words or icons to fill each label, describing the steps out loud.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T02.GK.02",
+          "title": "Order 3–4 pictures to make a story"
+        }
+      ],
+      "topic": "T02",
+      "grade": "K"
+    },
+    "T02.GK.04": {
+      "id": "T02.GK.04",
+      "title": "Fix one picture that is out of order",
+      "description": "Students see a 3‑picture \"robot instructions\" strip where one picture is clearly in the wrong place and drag it into the correct slot so the algorithm diagram makes sense.",
+      "dependencies": [
+        {
+          "id": "T02.GK.03",
+          "title": "Use first/next/last to describe a sequence"
+        }
+      ],
+      "topic": "T02",
+      "grade": "K"
+    },
+    "T03.GK.01": {
+      "id": "T03.GK.01",
+      "title": "Identify parts that make up a whole",
+      "description": "",
+      "dependencies": [],
+      "topic": "T03",
+      "grade": "K"
+    },
+    "T03.GK.02": {
+      "id": "T03.GK.02",
+      "title": "Match parts to whole objects",
+      "description": "Students match close‑up pictures of parts (e.g., wheel, keyboard, door handle) to the whole object they belong to (car, computer, refrigerator), recognizing that parts belong to larger wholes.",
+      "dependencies": [
+        {
+          "id": "T03.GK.01",
+          "title": "Identify parts that make up a whole"
+        }
+      ],
+      "topic": "T03",
+      "grade": "K"
+    },
+    "T03.GK.03": {
+      "id": "T03.GK.03",
+      "title": "Order 3–4 pictures to show steps in a routine",
+      "description": "Students arrange 3–4 pictures to show steps in a classroom or home routine (e.g., wash hands) specifically as a *plan* for getting the task done, building on the sequence sense learned in T01.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T03",
+      "grade": "K"
+    },
+    "T03.GK.04": {
+      "id": "T03.GK.04",
+      "title": "Choose the missing middle step in a routine",
+      "description": "Students see the first and last steps of a 3‑step routine and choose the picture that fits in the middle so the *plan* for the task makes sense.",
+      "dependencies": [
+        {
+          "id": "T03.GK.03",
+          "title": "Order 3–4 pictures to show steps in a routine"
+        }
+      ],
+      "topic": "T03",
+      "grade": "K"
+    },
+    "T03.GK.05": {
+      "id": "T03.GK.05",
+      "title": "Describe what each step accomplishes",
+      "description": "Students look at each step in a familiar routine and select or describe what it does or what changes after that step (e.g., \"After washing hands, hands are clean\").",
+      "dependencies": [
+        {
+          "id": "T03.GK.03",
+          "title": "Order 3–4 pictures to show steps in a routine"
+        }
+      ],
+      "topic": "T03",
+      "grade": "K"
+    },
+    "T04.GK.01": {
+      "id": "T04.GK.01",
+      "title": "Identify a simple repeating pattern",
+      "description": "",
+      "dependencies": [],
+      "topic": "T04",
+      "grade": "K"
+    },
+    "T04.GK.02": {
+      "id": "T04.GK.02",
+      "title": "Extend a repeating pattern by one tile",
+      "description": "Students see a short pattern (e.g., red, blue, red, blue, ?) and choose or drag the next picture.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Identify a simple repeating pattern"
+        }
+      ],
+      "topic": "T04",
+      "grade": "K"
+    },
+    "T04.GK.03": {
+      "id": "T04.GK.03",
+      "title": "Describe a pattern using simple words",
+      "description": "Students see a pattern and choose the matching description (e.g., “circle, square, circle, square”).",
+      "dependencies": [
+        {
+          "id": "T04.GK.02",
+          "title": "Extend a repeating pattern by one tile"
+        }
+      ],
+      "topic": "T04",
+      "grade": "K"
+    },
+    "T04.GK.04": {
+      "id": "T04.GK.04",
+      "title": "Fix a broken pattern by replacing one tile",
+      "description": "Students see a pattern row with one wrong picture and replace just that tile to restore the repeating pattern.",
+      "dependencies": [
+        {
+          "id": "T04.GK.02",
+          "title": "Extend a repeating pattern by one tile"
+        }
+      ],
+      "topic": "T04",
+      "grade": "K"
+    },
+    "T05.GK.01": {
+      "id": "T05.GK.01",
+      "title": "Name who a tool helps",
+      "description": "",
+      "dependencies": [],
+      "topic": "T05",
+      "grade": "K"
+    },
+    "T05.GK.02": {
+      "id": "T05.GK.02",
+      "title": "Match a simple problem to a helpful tool",
+      "description": "Students match simple everyday problems (e.g., “It’s dark”) to tools that help (e.g., flashlight).",
+      "dependencies": [
+        {
+          "id": "T05.GK.01",
+          "title": "Name who a tool helps"
+        }
+      ],
+      "topic": "T05",
+      "grade": "K"
+    },
+    "T05.GK.03": {
+      "id": "T05.GK.03",
+      "title": "Decide which version is easier to use",
+      "description": "Students compare two pictures of an interface/tool (big vs tiny button, clear vs cluttered screen) and choose which is easier.",
+      "dependencies": [
+        {
+          "id": "T05.GK.02",
+          "title": "Match a simple problem to a helpful tool"
+        }
+      ],
+      "topic": "T05",
+      "grade": "K"
+    },
+    "T05.GK.04": {
+      "id": "T05.GK.04",
+      "title": "Choose a change that makes something easier",
+      "description": "Students pick one change (bigger button, clearer text, speaker icon for sound) that would help a character use a device.",
+      "dependencies": [
+        {
+          "id": "T05.GK.03",
+          "title": "Decide which version is easier to use"
+        }
+      ],
+      "topic": "T05",
+      "grade": "K"
+    },
+    "T06.GK.01": {
+      "id": "T06.GK.01",
+      "title": "Order pictures showing a morning routine (event sequence concept)",
+      "description": "Students arrange 3-4 picture cards showing a simple morning routine in the correct order (e.g., wake up → brush teeth → eat breakfast → go to school). This unplugged activity builds foundational understanding of event sequences and chronological ordering without coding. Use familiar, concrete scenarios from daily life that children can relate to.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Recognize and compare object sizes"
+        }
+      ],
+      "topic": "T06",
+      "grade": "K"
+    },
+    "T06.GK.02": {
+      "id": "T06.GK.02",
+      "title": "Match \"first\" and \"next\" words to pictures in a sequence",
+      "description": "Students match the words \"first,\" \"next,\" and \"last\" to pictures in a simple 3-step sequence (e.g., planting a seed: first dig hole, next put seed in, last cover with dirt). This introduces sequencing vocabulary essential for understanding event-driven programming concepts.",
+      "dependencies": [
+        {
+          "id": "T06.GK.01",
+          "title": "Order pictures showing a morning routine (event sequence concept)"
+        }
+      ],
+      "topic": "T06",
+      "grade": "K"
+    },
+    "T06.GK.03": {
+      "id": "T06.GK.03",
+      "title": "Predict what happens \"after this\" in a picture sequence",
+      "description": "Given 2-3 pictures showing the start of a familiar sequence, students choose what picture comes next from 2-3 options (e.g., \"If you put on your shoes, what happens next?\"). This develops cause-and-effect thinking and prediction skills foundational to understanding event triggers.",
+      "dependencies": [
+        {
+          "id": "T06.GK.02",
+          "title": "Match \"first\" and \"next\" words to pictures in a sequence"
+        }
+      ],
+      "topic": "T06",
+      "grade": "K"
+    },
+    "T07.K.01": {
+      "id": "T07.K.01",
+      "title": "Complete a repeating pattern",
+      "description": "Students drag pictures to fill in missing items in a simple repeating pattern (AB, AAB, or ABC patterns). For example, given \"dog-cat-dog-cat-dog-?\" they select \"cat\" from 3 choices. This picture-based activity builds foundational understanding of repetition without coding. Use 3-4 repetitions of the pattern with 1-2 missing items. Visual themes include animals, shapes, or everyday objects.",
+      "dependencies": [],
+      "topic": "T07",
+      "grade": "K"
+    },
+    "T08.GK.01": {
+      "id": "T08.GK.01",
+      "title": "Match pictures to \"if it rains\" rules",
+      "description": "",
+      "dependencies": [],
+      "topic": "T08",
+      "grade": "K"
+    },
+    "T08.GK.02": {
+      "id": "T08.GK.02",
+      "title": "Choose what happens next based on yes/no",
+      "description": "Students look at a picture and a yes/no question, then choose what happens next. For example, \"Is the light green?\" If yes, walk. If no, wait. This is a multiple-choice question with 2 picture choices that builds understanding of binary decision-making.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T08.GK.01",
+          "title": "Match pictures to \"if it rains\" rules"
+        }
+      ],
+      "topic": "T08",
+      "grade": "K"
+    },
+    "T09.GK.01": {
+      "id": "T09.GK.01",
+      "title": "Recognize that a label can hold a number",
+      "description": "**Student task:** Look at pictures showing labels with numbers (e.g., \"Score: 5\", \"Lives: 3\", \"Stars: 2\"). Match each label to what it counts. _Implementation note: Picture-based matching activity. CSTA: EK‑PRO‑PF‑02._",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T09",
+      "grade": "K"
+    },
+    "T09.GK.02": {
+      "id": "T09.GK.02",
+      "title": "Identify which label changed after an action",
+      "description": "**Student task:** Look at two pictures: before and after. Find which label changed (e.g., \"Score went from 2 to 3\"). _Implementation note: Click-select activity comparing before/after states. CSTA: EK‑PRO‑PF‑02._",
+      "dependencies": [
+        {
+          "id": "T09.GK.01",
+          "title": "Recognize that a label can hold a number"
+        }
+      ],
+      "topic": "T09",
+      "grade": "K"
+    },
+    "T10.GK.01": {
+      "id": "T10.GK.01",
+      "title": "Sort picture cards into groups",
+      "description": "",
+      "dependencies": [],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.02": {
+      "id": "T10.GK.02",
+      "title": "Count items in each group",
+      "description": "After sorting items into groups, students count how many items are in each group and select the count from picture-based answer choices (showing 1, 2, 3, or 4 dots/items).",
+      "dependencies": [
+        {
+          "id": "T10.GK.01",
+          "title": "Sort picture cards into groups"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.03": {
+      "id": "T10.GK.03",
+      "title": "Find which group has more",
+      "description": "Students compare two groups of sorted items and identify which group has more items. Answer choices show pictures of the two groups.",
+      "dependencies": [
+        {
+          "id": "T10.GK.02",
+          "title": "Count items in each group"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.04": {
+      "id": "T10.GK.04",
+      "title": "Add an item to the right group",
+      "description": "Students are shown sorted groups and one new item. They decide which group the new item belongs to and drag it there.",
+      "dependencies": [
+        {
+          "id": "T10.GK.01",
+          "title": "Sort picture cards into groups"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.05": {
+      "id": "T10.GK.05",
+      "title": "Find the first and last item in a row",
+      "description": "Students identify the first and last item in a row of 3-5 picture cards arranged in order (left to right).",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.06": {
+      "id": "T10.GK.06",
+      "title": "Look at a simple picture table",
+      "description": "Students view a simple 2x3 or 3x3 picture table (e.g., a chart showing which child likes which fruit) and answer questions like \"What does Sam like?\" by tapping the correct cell.",
+      "dependencies": [
+        {
+          "id": "T10.GK.01",
+          "title": "Sort picture cards into groups"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.07": {
+      "id": "T10.GK.07",
+      "title": "Match items that go together",
+      "description": "Students match pairs of related items (e.g., match animals to their homes, match tools to their uses) by drawing lines or dragging.",
+      "dependencies": [
+        {
+          "id": "T10.GK.01",
+          "title": "Sort picture cards into groups"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T10.GK.08": {
+      "id": "T10.GK.08",
+      "title": "Find all items with a special mark",
+      "description": "Students identify all items in a collection that have a special visual mark (star, checkmark, red border) and count them.",
+      "dependencies": [
+        {
+          "id": "T10.GK.02",
+          "title": "Count items in each group"
+        }
+      ],
+      "topic": "T10",
+      "grade": "K"
+    },
+    "T13.GK.01": {
+      "id": "T13.GK.01",
+      "title": "Spot a missing or wrong action in an animation",
+      "description": "",
+      "dependencies": [],
+      "topic": "T13",
+      "grade": "K"
+    },
+    "T13.GK.02": {
+      "id": "T13.GK.02",
+      "title": "Retry after noticing something went wrong",
+      "description": "Students follow a simple set of picture steps for a task (e.g., stacking blocks, moving a character on a board), notice when the result is not what was intended, and try the steps again from the beginning. They experience the \"try, check, retry\" cycle without changing the steps themselves.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T13.GK.01",
+          "title": "Spot a missing or wrong action"
+        }
+      ],
+      "topic": "T13",
+      "grade": "K"
+    },
+    "T13.GK.03": {
+      "id": "T13.GK.03",
+      "title": "Fix a single wrong direction or action in steps",
+      "description": "Students \"play computer\" by acting out or watching a character follow a short list of picture steps to reach a fun goal (like a treasure or door). When the character ends up in the wrong place or does something silly, they identify which one movement is wrong (e.g., an arrow pointing left instead of right, or \"sit down\" too early) and swap it for a better step so the routine works.",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        },
+        {
+          "id": "T13.GK.01",
+          "title": "Spot a missing or wrong action"
+        }
+      ],
+      "topic": "T13",
+      "grade": "K"
+    },
+    "T14.GK.01": {
+      "id": "T14.GK.01",
+      "title": "Match controls to character actions",
+      "description": "Students drag arrow key cards (up, down, left, right) or action button cards (jump, run) onto pictures showing the matching movement or reaction (up arrow → character jumps up, right arrow → character walks right). They connect specific keyboard inputs to predictable character responses. _Implementation note: Match 4–6 input-action pairs via drag-and-drop. CSTA: 1A-AP-11.__",
+      "dependencies": [
+        {
+          "id": "T06.GK.01",
+          "title": "Match arrows to directions"
+        }
+      ],
+      "topic": "T14",
+      "grade": "K"
+    },
+    "T14.GK.02": {
+      "id": "T14.GK.02",
+      "title": "Recognize a score in simple games",
+      "description": "Students compare before/after pictures of a score counter and gameplay moments (collecting a star, hitting a hazard) to see when the score changes and what it signals. _CSTA: 1A-AP-09.__",
+      "dependencies": [
+        {
+          "id": "T09.GK.01",
+          "title": "Notice when things are different"
+        }
+      ],
+      "topic": "T14",
+      "grade": "K"
+    },
+    "T14.GK.03": {
+      "id": "T14.GK.03",
+      "title": "Identify when a game starts and ends",
+      "description": "",
+      "dependencies": [],
+      "topic": "T14",
+      "grade": "K"
+    },
+    "T14.GK.04": {
+      "id": "T14.GK.04",
+      "title": "Match rewards to goals",
+      "description": "Students match pictures of finishing a level (touching a flag, clearing a board) to appropriate celebration panels (You Win text, trophy, fireworks) so they connect goals to feedback. _CSTA: 1A-AP-11.__",
+      "dependencies": [
+        {
+          "id": "T14.GK.02",
+          "title": "Recognize a score in simple games"
+        },
+        {
+          "id": "T14.GK.03",
+          "title": "Identify when a game starts and ends"
+        }
+      ],
+      "topic": "T14",
+      "grade": "K"
+    },
+    "T15.GK.01": {
+      "id": "T15.GK.01",
+      "title": "Collect game statistics for balancing",
+      "description": "Track and store player performance data in lists: how many times they die on each level, how long it takes to win, which power-ups they use most. After testing with multiple players, review this data to identify levels that are too hard or too easy. Adjust difficulty settings (enemy speed, obstacle count, time limits) based on the data to make your game fun and fair. _CSTA: 3B-AP-23.__",
+      "dependencies": [],
+      "topic": "T15",
+      "grade": "K"
+    },
+    "T15.GK.02": {
+      "id": "T15.GK.02",
+      "title": "Match emotions to faces",
+      "description": "",
+      "dependencies": [],
+      "topic": "T15",
+      "grade": "K"
+    },
+    "T15.GK.03": {
+      "id": "T15.GK.03",
+      "title": "Identify speech bubbles",
+      "description": "",
+      "dependencies": [],
+      "topic": "T15",
+      "grade": "K"
+    },
+    "T16.K.01": {
+      "id": "T16.K.01",
+      "title": "Identify buttons in everyday interfaces (pictures)",
+      "description": "Look at pictures of interfaces (remote control, microwave, toy, tablet screen) and point to buttons. Understand that buttons are things you press to make something happen.",
+      "dependencies": [],
+      "topic": "T16",
+      "grade": "K"
+    },
+    "T16.K.02": {
+      "id": "T16.K.02",
+      "title": "Recognize labels and text displays (pictures)",
+      "description": "Look at pictures of interfaces and identify where text appears (TV screen showing channel number, microwave display showing time, sign on door). Understand that some parts of screens show information.",
+      "dependencies": [
+        {
+          "id": "T16.K.01",
+          "title": "Identify buttons in everyday interfaces (pictures)"
+        }
+      ],
+      "topic": "T16",
+      "grade": "K"
+    },
+    "T17.K.01": {
+      "id": "T17.K.01",
+      "title": "Observe sprite position changes (picture-based)",
+      "description": "Students watch animations of sprites moving and identify which sprite moved, matching before/after pictures. They recognize that \"motion\" means a sprite's position changes on the stage.",
+      "dependencies": [],
+      "topic": "T17",
+      "grade": "K"
+    },
+    "T17.K.02": {
+      "id": "T17.K.02",
+      "title": "Match sprite to position after motion (picture-based)",
+      "description": "Students see a motion block sequence and choose which picture shows where the sprite will end up. They develop spatial reasoning by predicting final positions from simple motion sequences.",
+      "dependencies": [
+        {
+          "id": "T17.K.01",
+          "title": "Observe sprite position changes (picture-based)"
+        }
+      ],
+      "topic": "T17",
+      "grade": "K"
+    },
+    "T18.GK.01": {
+      "id": "T18.GK.01",
+      "title": "Explore 3D shapes in the real world",
+      "description": "Students identify and describe common 3D shapes (boxes/cubes, balls/spheres, cylinders/cans) in their classroom and daily life, building spatial awareness by feeling, drawing, and comparing these shapes before encountering them digitally.",
+      "dependencies": [],
+      "topic": "T18",
+      "grade": "K"
+    },
+    "T20.GK.01": {
+      "id": "T20.GK.01",
+      "title": "Picture pattern detective",
+      "description": "Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row “repeat” using everyday words.",
+      "dependencies": [
+        {
+          "id": "T04.GK.01",
+          "title": "Identify a simple repeating pattern"
+        }
+      ],
+      "topic": "T20",
+      "grade": "K"
+    },
+    "T20.GK.02": {
+      "id": "T20.GK.02",
+      "title": "Order art steps with cards",
+      "description": "Learners drag picture cards showing simple art steps like \"pick red crayon,\" \"draw big circle,\" \"add yellow dots\" to match a finished coloring page. Cards show clear action pictures, no text needed.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Identify a simple repeating pattern"
+        }
+      ],
+      "topic": "T20",
+      "grade": "K"
+    },
+    "T20.GK.03": {
+      "id": "T20.GK.03",
+      "title": "Continue the pattern trail",
+      "description": "Students continue a pattern along a dotted path (e.g., flower-heart-flower-heart). They focus on spatial placement and rhythm.",
+      "dependencies": [
+        {
+          "id": "T04.GK.01",
+          "title": "Identify a simple repeating pattern"
+        }
+      ],
+      "topic": "T20",
+      "grade": "K"
+    },
+    "T20.GK.04": {
+      "id": "T20.GK.04",
+      "title": "Fix the mixed-up art plan (picture-only)",
+      "description": "Students look at a 3-step visual art plan with one incorrect picture card (e.g., a color that breaks the pattern) and drag-and-drop the correct card from a small set. No text reading required—all instructions are visual.",
+      "dependencies": [
+        {
+          "id": "T04.GK.01",
+          "title": "Identify a simple repeating pattern"
+        },
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T20",
+      "grade": "K"
+    },
+    "T21.GK.01": {
+      "id": "T21.GK.01",
+      "title": "Tell which pictures look like AI made them",
+      "description": "Students compare pairs of pictures (one photograph, one AI-generated) and identify which looks computer-made by noticing clues like unnatural patterns, odd details, or too-perfect symmetry. This picture-based activity builds foundational AI media literacy without requiring any coding.\nActivity Type: Picture comparison with visual analysis\nEstimated Time: 3-4 minutes\nCSTA: 1A-IC-16 (Compare how people lived and worked before and with technology)",
+      "dependencies": [],
+      "topic": "T21",
+      "grade": "K"
+    },
+    "T21.GK.02": {
+      "id": "T21.GK.02",
+      "title": "Match the picture to the words that describe it",
+      "description": "Students see an AI-generated image and choose which word set best describes it from picture cards (e.g., \"happy dog in park\" vs \"sad cat indoors\"). This introduces prompt vocabulary in a developmentally appropriate way using visual matching rather than text generation.\nActivity Type: Drag-and-drop matching\nEstimated Time: 3-4 minutes\nCSTA: 1A-IC-16",
+      "dependencies": [
+        {
+          "id": "T21.GK.01",
+          "title": "Tell which pictures look like AI made them"
+        }
+      ],
+      "topic": "T21",
+      "grade": "K"
+    },
+    "T21.GK.03": {
+      "id": "T21.GK.03",
+      "title": "Pick the helper that can talk back",
+      "description": "Students identify which devices can answer questions (smart speaker, robot toy with AI) vs which cannot (stuffed animal, picture frame). This introduces AI as responsive technology. Students sort picture cards into \"can talk back\" and \"cannot talk back\" categories.\nActivity Type: Picture sorting\nEstimated Time: 2-3 minutes\nCSTA: 1A-IC-16",
+      "dependencies": [],
+      "topic": "T21",
+      "grade": "K"
+    },
+    "T22.GK.01": {
+      "id": "T22.GK.01",
+      "title": "Recognize a talking helper vs a silent toy",
+      "description": "",
+      "dependencies": [],
+      "topic": "T22",
+      "grade": "K"
+    },
+    "T22.GK.02": {
+      "id": "T22.GK.02",
+      "title": "Practice asking a picture helper a friendly question",
+      "description": "Students see a cartoon of a friendly robot helper. They choose from picture cards showing different ways to ask for help (pointing politely vs grabbing, saying \"please\" vs demanding). They learn that helpers respond better to kind requests.",
+      "dependencies": [
+        {
+          "id": "T22.GK.01",
+          "title": "Recognize a talking helper vs a silent toy"
+        }
+      ],
+      "topic": "T22",
+      "grade": "K"
+    },
+    "T23.GK.01": {
+      "id": "T23.GK.01",
+      "title": "Match pictures of sensing",
+      "description": "",
+      "dependencies": [],
+      "topic": "T23",
+      "grade": "K"
+    },
+    "T23.GK.02": {
+      "id": "T23.GK.02",
+      "title": "Point to where a device \"looks\" or \"listens\"",
+      "description": "Students tap the camera spot on a tablet and the speaker/mic area on a toy or smart speaker, connecting device parts to senses. They use picture cards and physical devices—no code or programming environment.",
+      "dependencies": [
+        {
+          "id": "T23.GK.01",
+          "title": "Match pictures of sensing"
+        }
+      ],
+      "topic": "T23",
+      "grade": "K"
+    },
+    "T23.GK.03": {
+      "id": "T23.GK.03",
+      "title": "Choose when to uncover or quiet a helper",
+      "description": "In illustrated scenarios (covering a camera with a sticker, talking over loud music), students choose the action that lets the helper sense again (remove the sticker, make it quieter). Uses picture-based decision cards only.",
+      "dependencies": [
+        {
+          "id": "T23.GK.02",
+          "title": "Point to where a device \"looks\" or \"listens\""
+        }
+      ],
+      "topic": "T23",
+      "grade": "K"
+    },
+    "T24.GK.01": {
+      "id": "T24.GK.01",
+      "title": "Identify AI as a computer helper",
+      "description": "Students learn that AI is a special computer program that can help with tasks like talking, drawing, and answering questions. Through picture-based activities, they match examples of AI helpers (voice assistants, chatbots, drawing tools) to what they do.",
+      "dependencies": [],
+      "topic": "T24",
+      "grade": "K"
+    },
+    "T24.GK.02": {
+      "id": "T24.GK.02",
+      "title": "Recognize AI-made vs human-made pictures",
+      "description": "Students view pairs of pictures (one AI-generated, one human-drawn) and identify which is which. They discuss clues like unusual details or perfect symmetry that hint at AI creation.",
+      "dependencies": [
+        {
+          "id": "T24.GK.01",
+          "title": "Identify AI as a computer helper"
+        }
+      ],
+      "topic": "T24",
+      "grade": "K"
+    },
+    "T24.GK.03": {
+      "id": "T24.GK.03",
+      "title": "Give simple instructions to an AI helper",
+      "description": "Students practice giving clear, one-sentence instructions to an AI (e.g., \"Draw a happy cat\"). They compare results when instructions are vague vs specific.",
+      "dependencies": [
+        {
+          "id": "T24.GK.01",
+          "title": "Identify AI as a computer helper"
+        },
+        {
+          "id": "T24.GK.02",
+          "title": "Recognize AI-made vs human-made pictures"
+        },
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T24",
+      "grade": "K"
+    },
+    "T25.GK.01": {
+      "id": "T25.GK.01",
+      "title": "Spot data in everyday objects",
+      "description": "",
+      "dependencies": [],
+      "topic": "T25",
+      "grade": "K"
+    },
+    "T25.GK.02": {
+      "id": "T25.GK.02",
+      "title": "Match quantities to symbols",
+      "description": "Students count a small set of items and choose a symbol (tally marks, dots, stickers) to represent the quantity, reinforcing that symbols can encode counts.",
+      "dependencies": [
+        {
+          "id": "T25.GK.01",
+          "title": "Spot data in everyday objects"
+        }
+      ],
+      "topic": "T25",
+      "grade": "K"
+    },
+    "T25.GK.03": {
+      "id": "T25.GK.03",
+      "title": "Build a two-symbol legend",
+      "description": "Given two emotions or states (happy/sad, hot/cold), students invent or select symbols to stand for each and use them to label pictures. This sets up later ideas about legends in charts.",
+      "dependencies": [
+        {
+          "id": "T25.GK.02",
+          "title": "Match quantities to symbols"
+        }
+      ],
+      "topic": "T25",
+      "grade": "K"
+    },
+    "T26.GK.01": {
+      "id": "T26.GK.01",
+      "title": "Identify countable things in a picture",
+      "description": "Students scan a picture of a classroom and point to objects they could count (books, chairs, students), building awareness that we can collect information by counting things we see.",
+      "dependencies": [
+        {
+          "id": "T09.GK.01",
+          "title": "Notice when things are different"
+        },
+        {
+          "id": "T01.GK.08",
+          "title": "Count objects in a set (1–10)"
+        }
+      ],
+      "topic": "T26",
+      "grade": "K"
+    },
+    "T26.GK.02": {
+      "id": "T26.GK.02",
+      "title": "Use tokens to log repeated events",
+      "description": "Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first \"log.\"",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T04.GK.01",
+          "title": "Identify a simple repeating pattern"
+        },
+        {
+          "id": "T09.GK.01",
+          "title": "Recognize that a label can hold a number"
+        },
+        {
+          "id": "T26.GK.01",
+          "title": "Identify countable things in a picture"
+        }
+      ],
+      "topic": "T26",
+      "grade": "K"
+    },
+    "T26.GK.03": {
+      "id": "T26.GK.03",
+      "title": "Capture yes/no answers with smile/frown cards",
+      "description": "Students ask a peer a yes/no question and place the response card into the correct bin, making a physical tally.",
+      "dependencies": [
+        {
+          "id": "T26.GK.01",
+          "title": "Identify countable things in a picture"
+        }
+      ],
+      "topic": "T26",
+      "grade": "K"
+    },
+    "T27.GK.01": {
+      "id": "T27.GK.01",
+      "title": "Sort objects by a rule and explain it",
+      "description": "In this unplugged picture-based activity, students physically group objects (shapes, animals) and state the sorting rule (\"all red things\"), reinforcing that analysis starts with describing criteria.",
+      "dependencies": [
+        {
+          "id": "T10.GK.01",
+          "title": "Group pictures that are the same"
+        }
+      ],
+      "topic": "T27",
+      "grade": "K"
+    },
+    "T27.GK.02": {
+      "id": "T27.GK.02",
+      "title": "Compare which group has more",
+      "description": "Learners count two piles (≤5 each) and state which is larger or if they match, building comparative reasoning.",
+      "dependencies": [
+        {
+          "id": "T27.GK.01",
+          "title": "Sort objects by a rule and explain it"
+        }
+      ],
+      "topic": "T27",
+      "grade": "K"
+    },
+    "T27.GK.03": {
+      "id": "T27.GK.03",
+      "title": "Read a two-column picture chart",
+      "description": "Students interpret which category wins using a pictograph (one icon per item), establishing the basic concept of visual comparisons.",
+      "dependencies": [
+        {
+          "id": "T27.GK.02",
+          "title": "Compare which group has more"
+        }
+      ],
+      "topic": "T27",
+      "grade": "K"
+    },
+    "T29.GK.01": {
+      "id": "T29.GK.01",
+      "title": "Recognize text vs pictures",
+      "description": "Students sort cards showing text (words/letters), pictures, and numbers into separate groups, identifying text as \"letters that make words we can read.\"",
+      "dependencies": [],
+      "topic": "T29",
+      "grade": "K"
+    },
+    "T29.GK.02": {
+      "id": "T29.GK.02",
+      "title": "Identify letters in text",
+      "description": "Given simple words (CAT, DOG, SUN), students point to individual letters and count how many letters are in each word, building awareness of text structure.",
+      "dependencies": [
+        {
+          "id": "T29.GK.01",
+          "title": "Recognize text vs pictures"
+        }
+      ],
+      "topic": "T29",
+      "grade": "K"
+    },
+    "T29.GK.03": {
+      "id": "T29.GK.03",
+      "title": "Recognize that text has meaning",
+      "description": "Students match simple written words to pictures (matching \"CAT\" to cat picture), understanding that text represents things and carries meaning.",
+      "dependencies": [
+        {
+          "id": "T29.GK.02",
+          "title": "Identify letters in text"
+        }
+      ],
+      "topic": "T29",
+      "grade": "K"
+    },
+    "T30.GK.01": {
+      "id": "T30.GK.01",
+      "title": "Identify everyday computing devices",
+      "description": "",
+      "dependencies": [],
+      "topic": "T30",
+      "grade": "K"
+    },
+    "T30.GK.02": {
+      "id": "T30.GK.02",
+      "title": "Match devices to actions",
+      "description": "Learners match pictures (camera, speaker, automatic door) to simple descriptions (“takes pictures,” “plays sound,” “opens when someone walks up”).",
+      "dependencies": [
+        {
+          "id": "T30.GK.01",
+          "title": "Identify everyday computing devices"
+        }
+      ],
+      "topic": "T30",
+      "grade": "K"
+    },
+    "T30.GK.03": {
+      "id": "T30.GK.03",
+      "title": "Recognize input vs output examples",
+      "description": "Students categorize simple objects (microphone, light bulb, button, screen) as sending information into a computer or out to people.",
+      "dependencies": [
+        {
+          "id": "T30.GK.02",
+          "title": "Match devices to actions"
+        }
+      ],
+      "topic": "T30",
+      "grade": "K"
+    },
+    "T31.GK.01": {
+      "id": "T31.GK.01",
+      "title": "Recognize devices that connect to the internet (picture-based)",
+      "description": "Students look at pictures of various devices (tablet, laptop, smart speaker, game console, watch) and sort them into \"connects to internet\" vs \"does not need internet\" categories through picture-based activities.\nCSTA: EK-SAS-NW-02",
+      "dependencies": [],
+      "topic": "T31",
+      "grade": "K"
+    },
+    "T32.GK.01": {
+      "id": "T32.GK.01",
+      "title": "Spot safe vs unsafe sharing",
+      "description": "",
+      "dependencies": [],
+      "topic": "T32",
+      "grade": "K"
+    },
+    "T32.GK.02": {
+      "id": "T32.GK.02",
+      "title": "Recognize when to ask for help online",
+      "description": "Learners hear short scenario stories (stranger asking for photo, upsetting message) and decide to stop and tell an adult.",
+      "dependencies": [
+        {
+          "id": "T32.GK.01",
+          "title": "Spot safe vs unsafe sharing"
+        }
+      ],
+      "topic": "T32",
+      "grade": "K"
+    },
+    "T32.GK.03": {
+      "id": "T32.GK.03",
+      "title": "Understand that passwords keep things safe",
+      "description": "Students compare visual representations of passwords using picture-based examples. They see a weak password shown as \"cat\" (3 letters, easy to guess) compared to a longer password represented with pictures showing different character types (letters, numbers, symbols). They identify which is harder to guess by comparing length and variety visually.",
+      "dependencies": [
+        {
+          "id": "T32.GK.01",
+          "title": "Spot safe vs unsafe sharing"
+        }
+      ],
+      "topic": "T32",
+      "grade": "K"
+    },
+    "T32.GK.04": {
+      "id": "T32.GK.04",
+      "title": "Distinguish online vs offline activities",
+      "description": "Students sort picture cards showing activities (playing outside, watching videos on tablet, reading a book, video calling grandma) into \"Online\" and \"Offline\" groups. They discuss which activities need internet and which don't.",
+      "dependencies": [
+        {
+          "id": "T08.GK.01",
+          "title": "Match pictures to \"if it rains\" rules"
+        },
+        {
+          "id": "T10.GK.01",
+          "title": "Sort picture cards into groups"
+        },
+        {
+          "id": "T32.GK.01",
+          "title": "Spot safe vs unsafe sharing"
+        }
+      ],
+      "topic": "T32",
+      "grade": "K"
+    },
+    "T33.GK.01": {
+      "id": "T33.GK.01",
+      "title": "Recognize that apps can talk to helpers on the internet",
+      "description": "",
+      "dependencies": [],
+      "topic": "T33",
+      "grade": "K"
+    },
+    "T34.GK.01": {
+      "id": "T34.GK.01",
+      "title": "Spot computing tools in daily life",
+      "description": "",
+      "dependencies": [],
+      "topic": "T34",
+      "grade": "K"
+    },
+    "T34.GK.02": {
+      "id": "T34.GK.02",
+      "title": "Match old vs new versions of tech",
+      "description": "",
+      "dependencies": [],
+      "topic": "T34",
+      "grade": "K"
+    },
+    "T34.GK.03": {
+      "id": "T34.GK.03",
+      "title": "Name a person who uses computers in their job",
+      "description": "Students connect everyday professions (teacher, nurse, mechanic) with computing tools they rely on.",
+      "dependencies": [
+        {
+          "id": "T34.GK.01",
+          "title": "Spot computing tools in daily life"
+        }
+      ],
+      "topic": "T34",
+      "grade": "K"
+    },
+    "T35.GK.01": {
+      "id": "T35.GK.01",
+      "title": "Identify a helpful use of technology",
+      "description": "",
+      "dependencies": [],
+      "topic": "T35",
+      "grade": "K"
+    },
+    "T35.GK.02": {
+      "id": "T35.GK.02",
+      "title": "Recognize signs of too much screen time",
+      "description": "Students look at pictures showing different screen time scenarios (tired eyes, missing outdoor play, energetic after break) and connect them to feelings (tired/happy) to recognize signs of too much screen time.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T35",
+      "grade": "K"
+    },
+    "T35.GK.03": {
+      "id": "T35.GK.03",
+      "title": "Practice device sharing etiquette",
+      "description": "Students sort picture cards showing sharing behaviors (waiting your turn, asking nicely, grabbing) into \"kind\" and \"not kind\" categories to learn respectful device use.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T35",
+      "grade": "K"
+    },
+    "T35.GK.04": {
+      "id": "T35.GK.04",
+      "title": "Choose safe sharing in role-play",
+      "description": "Students act out scenarios deciding whether to share personal information (name, photo) with a pretend app character, choosing 'yes' or 'no' cards to practice safe information sharing.",
+      "dependencies": [
+        {
+          "id": "T35.GK.01",
+          "title": "Identify a helpful use of technology"
+        }
+      ],
+      "topic": "T35",
+      "grade": "K"
+    },
+    "T36.GK.01": {
+      "id": "T36.GK.01",
+      "title": "Match community helpers to digital tools",
+      "description": "Students drag pictures of workers (teacher, doctor, farmer, artist) onto the tools they use (tablet, scanner, drone, camera) and say one way the tool helps.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Answer what happens next in a sequence"
+        }
+      ],
+      "topic": "T36",
+      "grade": "K"
+    },
+    "T36.GK.02": {
+      "id": "T36.GK.02",
+      "title": "Take turns using a device to complete a task together",
+      "description": "Learners pick the kind response in sharing scenarios (two kids want the tablet) and practice taking turns to complete a collaborative task on a device.",
+      "dependencies": [
+        {
+          "id": "T36.GK.01",
+          "title": "Match community helpers to digital tools"
+        }
+      ],
+      "topic": "T36",
+      "grade": "K"
+    },
+    "T36.GK.03": {
+      "id": "T36.GK.03",
+      "title": "Describe what a digital tool helps someone do",
+      "description": "Given a picture of someone using a tool (drawing app, video call), students say what job or task it helps with.",
+      "dependencies": [
+        {
+          "id": "T36.GK.01",
+          "title": "Match community helpers to digital tools"
+        }
+      ],
+      "topic": "T36",
+      "grade": "K"
+    }
+  },
+  "grade_1_skills": {
+    "T01.G1.01": {
+      "id": "T01.G1.01",
+      "title": "Put pictures in order to plant a seed",
+      "description": "**Student task:** Look at 4 pictures. Put them in the right order to plant a seed. **Example:** Get pot, add soil, put seed in, water it. _Implementation note: Drag‑drop (4 items). CSTA: E1‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.02",
+          "title": "Put pictures in order for coming to class"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T01.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.02": {
+      "id": "T01.G1.02",
+      "title": "Put pictures in order to make breakfast",
+      "description": "**Student task:** Look at 5 pictures. Put them in the right order to make breakfast. **Example:** Get bowl, pour cereal, pour milk, eat, wash bowl. _Implementation note: Drag‑drop (5 items). CSTA: E1‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.G1.01",
+          "title": "Put pictures in order to plant a seed"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T01.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.03": {
+      "id": "T01.G1.03",
+      "title": "Add a missing last step to a routine",
+      "description": "Students see a 3‑step routine about a familiar everyday task (e.g., making a sandwich: get bread, add peanut butter, add jelly) and choose the correct 4th step from picture options (eat, clean up, put away ingredients). _Implementation note: MCQ picture choice with 3–4 plausible options; contexts include meal prep, getting ready, classroom routines. CSTA: E1‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.06",
+          "title": "What comes next?"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T01.GK.06"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.04": {
+      "id": "T01.G1.04",
+      "title": "Predict the next step in a story sequence",
+      "description": "Students see 3 story panels showing a narrative sequence (e.g., character sees ball, walks toward ball, reaches for ball) and choose what happens next from picture options, focusing on cause‑and‑effect in stories rather than procedural routines. _Implementation note: MCQ visuals with story context (not everyday tasks). CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._",
+      "dependencies": [
+        {
+          "id": "T01.GK.06",
+          "title": "What comes next?"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T01.GK.06"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.05": {
+      "id": "T01.G1.05",
+      "title": "Find the missing step in an algorithm",
+      "description": "Students see a 4‑step sequence with one blank and choose which picture fills the gap. _Implementation note: Click‑select from options. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._",
+      "dependencies": [
+        {
+          "id": "T01.G1.03",
+          "title": "Add a missing last step to a routine"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T01.G1.03"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.06": {
+      "id": "T01.G1.06",
+      "title": "Fix a routine with one wrong step",
+      "description": "Students identify a clearly wrong step (e.g., \"eat\" before \"cook\") and replace it with a correct picture. _Implementation note: Select wrong step, then replacement. CSTA: E1‑ALG‑AF‑01._",
+      "dependencies": [
+        {
+          "id": "T01.GK.05",
+          "title": "Move the picture that's in the wrong place"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T01.GK.05"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.07": {
+      "id": "T01.G1.07",
+      "title": "Decide if two algorithms finish with the same result",
+      "description": "Students compare two routines and decide whether both achieve the same goal. _Implementation note: Side‑by‑side sequences with Yes/No or \"Which work?\" question. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._",
+      "dependencies": [
+        {
+          "id": "T01.GK.04",
+          "title": "Pick the pictures that make sense"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T01.GK.04"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.08": {
+      "id": "T01.G1.08",
+      "title": "Choose the algorithm that uses fewer steps",
+      "description": "Students pick between two correct routines that differ in length; they choose the shorter correct one. _Implementation note: Choose shorter correct sequence. CSTA: E1‑ALG‑IM‑04._",
+      "dependencies": [
+        {
+          "id": "T01.G1.07",
+          "title": "Decide if two algorithms finish with the same result"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T01.G1.07"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.09": {
+      "id": "T01.G1.09",
+      "title": "Match an algorithm to its goal",
+      "description": "",
+      "dependencies": [],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T01.G1.10": {
+      "id": "T01.G1.10",
+      "title": "Match pictures to \"if/then\" rules",
+      "description": "**Student task:** Look at pictures. Match them to \"If this, then that\" sentences. **Example:** \"If it rains, then use an umbrella.\" _Implementation note: MCQ match picture ↔ sentence. CSTA: E1‑ALG‑AF‑01 (conceptual branching)._",
+      "dependencies": [
+        {
+          "id": "T01.GK.04",
+          "title": "Pick the pictures that make sense"
+        }
+      ],
+      "topic": "T01",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T01.GK.04"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T02.G1.01": {
+      "id": "T02.G1.01",
+      "title": "Make a 3–4 step picture algorithm",
+      "description": "Students are given a simple task (e.g., \"how to feed the class pet\") and assemble 3–4 pictures into a numbered strip with arrows, treating it as clear picture instructions a robot could follow.",
+      "dependencies": [
+        {
+          "id": "T02.GK.02",
+          "title": "Order 3–4 pictures to make a story"
+        }
+      ],
+      "topic": "T02",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T02.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T02.G1.02": {
+      "id": "T02.G1.02",
+      "title": "Add a missing step to a picture algorithm",
+      "description": "Students see a 3‑step picture instruction strip with one missing middle step and choose the correct picture to fill the gap so the strip works as instructions.",
+      "dependencies": [
+        {
+          "id": "T02.G1.01",
+          "title": "Make a 3–4 step picture algorithm"
+        }
+      ],
+      "topic": "T02",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T02.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T02.G1.03": {
+      "id": "T02.G1.03",
+      "title": "Trace a picture algorithm and tell the outcome",
+      "description": "Students follow a 3–4 step picture instruction strip (e.g., a simple recipe or classroom routine) and choose what the final picture or outcome should be.",
+      "dependencies": [
+        {
+          "id": "T02.G1.01",
+          "title": "Make a 3–4 step picture algorithm"
+        }
+      ],
+      "topic": "T02",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T02.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T02.G1.04": {
+      "id": "T02.G1.04",
+      "title": "Find a broken picture algorithm",
+      "description": "Students compare two 3–4 step algorithm strips for the same task: one is correct, one has an obvious missing or wrong step. They pick which diagram is broken.",
+      "dependencies": [
+        {
+          "id": "T02.G1.01",
+          "title": "Make a 3–4 step picture algorithm"
+        }
+      ],
+      "topic": "T02",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T02.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T02.G1.05": {
+      "id": "T02.G1.05",
+      "title": "Fix one wrong step in a picture algorithm",
+      "description": "Students see an algorithm strip with one clearly wrong picture (e.g., \"eat sandwich\" before \"make sandwich\") and replace just that picture with the correct one.",
+      "dependencies": [
+        {
+          "id": "T02.G1.04",
+          "title": "Find a broken picture algorithm"
+        }
+      ],
+      "topic": "T02",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T02.G1.04"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T03.G1.01": {
+      "id": "T03.G1.01",
+      "title": "Describe what one part of a system does",
+      "description": "Students select a part in a picture (e.g., wheels, door, button) and choose what it does from options.",
+      "dependencies": [
+        {
+          "id": "T03.GK.01",
+          "title": "Identify parts that make up a whole"
+        }
+      ],
+      "topic": "T03",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T03.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T03.G1.02": {
+      "id": "T03.G1.02",
+      "title": "Group related parts by function",
+      "description": "Students drag parts into functional groups such as \"things that help it move,\" \"things that help it see or hear,\" or \"things that make it look nice\" for a simple object (e.g., robot or toy car), categorizing by what each part does.",
+      "dependencies": [
+        {
+          "id": "T03.G1.01",
+          "title": "Describe what one part of a system does"
+        }
+      ],
+      "topic": "T03",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T03.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T03.G1.03": {
+      "id": "T03.G1.03",
+      "title": "List steps for a simple classroom routine",
+      "description": "Students build a 3–4 step plan for a familiar routine (e.g., \"line up for recess\") using picture or word cards in order.",
+      "dependencies": [
+        {
+          "id": "T03.GK.03",
+          "title": "Order 3–4 pictures to show steps in a routine"
+        }
+      ],
+      "topic": "T03",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T03.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T03.G1.04": {
+      "id": "T03.G1.04",
+      "title": "Match steps to parts of a tiny story or game",
+      "description": "Students see a tiny story or game idea (e.g., \"A cat says hello, then dances\") and match which step goes with each character or scene.",
+      "dependencies": [
+        {
+          "id": "T03.G1.03",
+          "title": "List steps for a simple classroom routine"
+        }
+      ],
+      "topic": "T03",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T03.G1.03"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T04.G1.01": {
+      "id": "T04.G1.01",
+      "title": "Match a picture pattern to a movement pattern",
+      "description": "Students match a picture pattern (e.g., hop, clap, hop, clap) to a character’s actions in a short story or animation.",
+      "dependencies": [
+        {
+          "id": "T04.GK.02",
+          "title": "Extend a repeating pattern by one tile"
+        }
+      ],
+      "topic": "T04",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T04.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T04.G1.02": {
+      "id": "T04.G1.02",
+      "title": "Plan a short repeating animation pattern",
+      "description": "Students choose a 3‑panel picture pattern (e.g., spin, jump, spin) and arrange action cards to create a matching “dance” plan.",
+      "dependencies": [
+        {
+          "id": "T04.G1.01",
+          "title": "Match a picture pattern to a movement pattern"
+        }
+      ],
+      "topic": "T04",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T04.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T04.G1.03": {
+      "id": "T04.G1.03",
+      "title": "Find repeated steps in an instruction list",
+      "description": "Students examine a short list of picture‑based steps (or action cards laid out in a row) and click or highlight the part that repeats (e.g., three identical “move forward” cards in a row).",
+      "dependencies": [
+        {
+          "id": "T01.GK.07",
+          "title": "Find the pattern that repeats"
+        }
+      ],
+      "topic": "T04",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.07"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T04.G1.04": {
+      "id": "T04.G1.04",
+      "title": "Match a repeated picture story to a repeated step list",
+      "description": "Students match a picture story showing repeated actions with a simple list of steps that repeats the same action sequence.",
+      "dependencies": [
+        {
+          "id": "T04.G1.03",
+          "title": "Find repeated steps in an instruction list"
+        }
+      ],
+      "topic": "T04",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T04.G1.03"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T05.G1.01": {
+      "id": "T05.G1.01",
+      "title": "Identify what a character needs in a story",
+      "description": "Students read/hear a short scenario and select what the character's real need is (remembering something, finding something, understanding a schedule).",
+      "dependencies": [
+        {
+          "id": "T05.GK.02",
+          "title": "Match a simple problem to a helpful tool"
+        }
+      ],
+      "topic": "T05",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T05.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T05.G1.02": {
+      "id": "T05.G1.02",
+      "title": "Match a need to a design idea",
+      "description": "Students match each need (e.g., “can’t read small print”) to a helpful design idea (bigger text, audio button).",
+      "dependencies": [
+        {
+          "id": "T05.G1.01",
+          "title": "Identify what a character needs in a story"
+        }
+      ],
+      "topic": "T05",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T05.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T05.G1.03": {
+      "id": "T05.G1.03",
+      "title": "Choose a better version of a simple screen for a given user",
+      "description": "Students see two versions of a simple app screen and a described user (younger sibling, grandparent); they pick which version fits better.",
+      "dependencies": [
+        {
+          "id": "T05.GK.03",
+          "title": "Decide which version is easier to use"
+        }
+      ],
+      "topic": "T05",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T05.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T05.G1.04": {
+      "id": "T05.G1.04",
+      "title": "Suggest one change that helps a specific user",
+      "description": "Students choose one of several suggested changes that would help a described user (e.g., adding icon labels for early readers).",
+      "dependencies": [
+        {
+          "id": "T05.G1.02",
+          "title": "Match a need to a design idea"
+        }
+      ],
+      "topic": "T05",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T05.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T06.G1.01": {
+      "id": "T06.G1.01",
+      "title": "Match action cards to trigger cards (if this happens, then do this)",
+      "description": "Students match simple trigger cards (e.g., \"bell rings,\" \"red light turns on\") to corresponding action cards (e.g., \"line up,\" \"stop walking\"). This unplugged activity introduces the fundamental concept of event-driven behavior: when a specific trigger occurs, a specific action follows. Use 4-6 trigger-action pairs with familiar school and home scenarios.",
+      "dependencies": [
+        {
+          "id": "T06.GK.03",
+          "title": "Predict what happens \"after this\" in a picture sequence"
+        }
+      ],
+      "topic": "T06",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T06.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T06.G1.02": {
+      "id": "T06.G1.02",
+      "title": "Identify what triggers an action in a story",
+      "description": "Students listen to or read a simple story and identify the trigger (event) that causes each action. For example, \"The dog barked WHEN the doorbell rang\" - students identify \"doorbell rang\" as the trigger. This builds event recognition skills in narrative contexts.",
+      "dependencies": [
+        {
+          "id": "T06.G1.01",
+          "title": "Match action cards to trigger cards (if this happens, then do this)"
+        }
+      ],
+      "topic": "T06",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T06.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T06.G1.03": {
+      "id": "T06.G1.03",
+      "title": "Sequence trigger-action pairs in order",
+      "description": "Students arrange multiple trigger-action pairs in chronological order to tell a complete story (e.g., \"when alarm rings → wake up,\" \"when dressed → eat breakfast,\" \"when finished eating → brush teeth\"). This combines event understanding with sequencing, preparing for multi-event programs.",
+      "dependencies": [
+        {
+          "id": "T06.G1.02",
+          "title": "Identify what triggers an action in a story"
+        }
+      ],
+      "topic": "T06",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T06.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T07.G1.01": {
+      "id": "T07.G1.01",
+      "title": "Count repetitions in a pattern",
+      "description": "Students count how many times a unit repeats in a given pattern and select the correct number. For example, shown a visual sequence of \"jump-clap, jump-clap, jump-clap\" they count 3 repetitions. Present 2-5 repetitions and use concrete, observable actions or objects. This develops the concept of \"how many times\" which is essential for understanding loop counts.",
+      "dependencies": [
+        {
+          "id": "T07.K.01",
+          "title": "Complete a repeating pattern"
+        }
+      ],
+      "topic": "T07",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T07.K.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T07.G1.02": {
+      "id": "T07.G1.02",
+      "title": "Match \"do N times\" instructions to outcomes",
+      "description": "Students match a simple \"do something N times\" instruction to the correct visual outcome. For example, given \"clap 4 times\" they select the picture showing 4 claps (not 3 or 5). Use familiar actions like clapping, jumping, or stacking blocks. This connects the abstract concept of \"repeat N times\" to concrete results, preparing for the `repeat N` block in Grade 3.",
+      "dependencies": [
+        {
+          "id": "T07.G1.01",
+          "title": "Count repetitions in a pattern"
+        }
+      ],
+      "topic": "T07",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T07.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T08.G1.01": {
+      "id": "T08.G1.01",
+      "title": "Sort cards by if-then rules",
+      "description": "Students look at cards with pictures and sort them into two piles using an \"if-then\" rule. For example, \"If the animal has wings, put it in the 'flies' pile.\" This drag-and-drop activity with 2 labeled bins develops classification skills based on conditional criteria.",
+      "dependencies": [
+        {
+          "id": "T08.GK.02",
+          "title": "Choose what happens next based on yes/no"
+        }
+      ],
+      "topic": "T08",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T08.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T08.G1.02": {
+      "id": "T08.G1.02",
+      "title": "Predict the outcome of an if-then rule",
+      "description": "Students read a simple \"if-then\" rule and a starting situation, then predict what happens. For example, Rule: \"If the cup is full, stop pouring.\" Starting: Cup is full. What happens? This multiple-choice prediction activity develops causal reasoning with conditional rules.",
+      "dependencies": [
+        {
+          "id": "T08.G1.01",
+          "title": "Sort cards by if-then rules"
+        }
+      ],
+      "topic": "T08",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T08.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T08.G1.03": {
+      "id": "T08.G1.03",
+      "title": "Choose between two actions based on a condition",
+      "description": "Students look at a situation and choose which action to take based on a condition. For example, \"If it's cold, wear a jacket. If it's hot, wear a t-shirt.\" Today is cold—what do you wear? This multiple-choice activity with picture choices reinforces if-then-else decision patterns in everyday contexts.",
+      "dependencies": [
+        {
+          "id": "T08.G1.02",
+          "title": "Predict the outcome of an if-then rule"
+        }
+      ],
+      "topic": "T08",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T08.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T09.G1.01": {
+      "id": "T09.G1.01",
+      "title": "Change a displayed number by clicking a button",
+      "description": "**Student task:** Click a button to add 1 to a counter on screen. Watch the number go up. Try clicking multiple times. _Implementation note: Interactive counter with visual feedback. CSTA: E1‑PRO‑PF‑02._",
+      "dependencies": [
+        {
+          "id": "T09.GK.02",
+          "title": "Identify which label changed after an action"
+        },
+        {
+          "id": "T03.G1.01",
+          "title": "Describe what one part of a system does"
+        }
+      ],
+      "topic": "T09",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T09.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [
+          "T03.G1.01"
+        ],
+        "invalid": []
+      }
+    },
+    "T09.G1.02": {
+      "id": "T09.G1.02",
+      "title": "Use a picture-based counter to track items collected",
+      "description": "**Student task:** In a simple picture game, collect stars and watch the counter go up. How many did you get? _Implementation note: Drag-and-drop collection with automatic counter. CSTA: E1‑PRO‑PF‑02._",
+      "dependencies": [
+        {
+          "id": "T09.G1.01",
+          "title": "Change a displayed number by clicking a button"
+        }
+      ],
+      "topic": "T09",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T09.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T10.G1.01": {
+      "id": "T10.G1.01",
+      "title": "Sort items using two rules",
+      "description": "Students sort 6-8 items into groups using two attributes (e.g., \"big red shapes\" vs \"small blue shapes\"), understanding that items can belong to groups based on multiple properties.",
+      "dependencies": [
+        {
+          "id": "T10.GK.01",
+          "title": "Sort picture cards into groups"
+        },
+        {
+          "id": "T10.GK.04",
+          "title": "Add an item to the right group"
+        }
+      ],
+      "topic": "T10",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T10.GK.01",
+          "T10.GK.04"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T10.G1.02": {
+      "id": "T10.G1.02",
+      "title": "Make a picture tally chart",
+      "description": "Students count items in categories and represent the count using tally marks or pictures in a simple chart (e.g., count and tally how many students like each snack).",
+      "dependencies": [
+        {
+          "id": "T10.GK.02",
+          "title": "Count items in each group"
+        },
+        {
+          "id": "T10.GK.06",
+          "title": "Look at a simple picture table"
+        }
+      ],
+      "topic": "T10",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T10.GK.02",
+          "T10.GK.06"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T10.G1.03": {
+      "id": "T10.G1.03",
+      "title": "Read information from a picture table",
+      "description": "Students answer questions by finding and reading specific cells in a picture table with 3-4 rows and 3-4 columns.",
+      "dependencies": [
+        {
+          "id": "T10.GK.06",
+          "title": "Look at a simple picture table"
+        }
+      ],
+      "topic": "T10",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T10.GK.06"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T10.G1.04": {
+      "id": "T10.G1.04",
+      "title": "Find the row or column with the most",
+      "description": "Students examine a picture table and identify which row or column has the most items by comparing visually.",
+      "dependencies": [
+        {
+          "id": "T10.G1.03",
+          "title": "Read information from a picture table"
+        },
+        {
+          "id": "T10.GK.03",
+          "title": "Find which group has more"
+        }
+      ],
+      "topic": "T10",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T10.GK.03"
+        ],
+        "same_topic_g1": [
+          "T10.G1.03"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T10.G1.05": {
+      "id": "T10.G1.05",
+      "title": "Complete a pattern in a table",
+      "description": "Students identify a pattern in rows or columns of a table and fill in missing cells (e.g., alternating colors, increasing numbers shown as dots).",
+      "dependencies": [
+        {
+          "id": "T10.G1.03",
+          "title": "Read information from a picture table"
+        },
+        {
+          "id": "T01.GK.07",
+          "title": "Find the pattern that repeats"
+        }
+      ],
+      "topic": "T10",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T10.G1.03"
+        ],
+        "cross_topic_gk": [
+          "T01.GK.07"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T10.G1.06": {
+      "id": "T10.G1.06",
+      "title": "Find items that belong in both groups",
+      "description": "Students identify items that satisfy two conditions (e.g., \"Find things that are both red AND round\" from a mixed collection).",
+      "dependencies": [
+        {
+          "id": "T10.G1.01",
+          "title": "Sort items using two rules"
+        }
+      ],
+      "topic": "T10",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T10.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T12.G1.01": {
+      "id": "T12.G1.01",
+      "title": "Find the main set of instructions",
+      "description": "Students look at 2–3 short sets of picture‑based instructions (e.g., \"how to set up the game,\" \"how to decorate,\" \"how to clean up\") and decide which one tells everyone what to do overall for an activity. This builds the idea that some instructions are the main plan and others are side tasks.",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        }
+      ],
+      "topic": "T12",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.03"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T12.G1.02": {
+      "id": "T12.G1.02",
+      "title": "Give a clear title to a set of steps",
+      "description": "Students practice giving each group of picture steps a clear title that tells what it is for (e.g., \"Getting Ready,\" \"Playing the Game,\" \"Clean‑Up Time\") instead of vague titles like \"Stuff\" or \"Things to Do.\"",
+      "dependencies": [
+        {
+          "id": "T12.G1.01",
+          "title": "Find the main set of instructions"
+        }
+      ],
+      "topic": "T12",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T12.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T12.G1.03": {
+      "id": "T12.G1.03",
+      "title": "Tell what each group of steps does",
+      "description": "Students see 2–3 groups of picture instructions for a class routine and match each group to a simple description (e.g., \"These steps get the classroom ready,\" \"These steps are for playing,\" \"These steps are for cleaning up\"). This strengthens the habit of explaining the role of each part of a plan.",
+      "dependencies": [
+        {
+          "id": "T03.GK.01",
+          "title": "Identify parts that make up a whole"
+        }
+      ],
+      "topic": "T12",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T03.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T12.G1.04": {
+      "id": "T12.G1.04",
+      "title": "Split a long list of steps into two lists",
+      "description": "Students are given a long mixed list of picture steps for a class event and asked to split them into two shorter lists (e.g., \"Before the event\" and \"During the event,\" or \"Adult jobs\" and \"Student jobs\"). This mirrors splitting one big routine into smaller, organized parts.",
+      "dependencies": [
+        {
+          "id": "T12.G1.01",
+          "title": "Find the main set of instructions"
+        }
+      ],
+      "topic": "T12",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T12.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T13.G1.01": {
+      "id": "T13.G1.01",
+      "title": "Identify which step causes a problem and explain why",
+      "description": "Students look at a set of picture-based steps that, when \"played out\" as a story, clearly go wrong (e.g., \"jump before moving\" when the intent is move-then-jump). They select or highlight the specific step that causes the problem AND explain in simple words why that step is wrong (e.g., \"This step happens too early\").",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        }
+      ],
+      "topic": "T13",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.03"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T13.G1.02": {
+      "id": "T13.G1.02",
+      "title": "Fix a sequence error in steps",
+      "description": "Students reorder picture or word cards in a step list to fix a sequencing error that made a story or game behave strangely (for example, moving \"say hello\" so it happens after \"walk to friend,\" or moving a \"wait\" picture to the correct position).",
+      "dependencies": [
+        {
+          "id": "T01.GK.02",
+          "title": "Put pictures in order for coming to class"
+        }
+      ],
+      "topic": "T13",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T13.G1.03": {
+      "id": "T13.G1.03",
+      "title": "Change a number to fix a repeated action",
+      "description": "Students modify a number in picture‑based instructions (e.g., change \"jump 10 times\" to \"jump 3 times\" so the movement matches a picture, or change a count of claps) to correct unexpected behavior in a routine.",
+      "dependencies": [
+        {
+          "id": "T04.GK.02",
+          "title": "Extend a repeating pattern by one tile"
+        }
+      ],
+      "topic": "T13",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T04.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T13.G1.04": {
+      "id": "T13.G1.04",
+      "title": "Demonstrate steps physically and identify the error",
+      "description": "Students act out a set of picture steps (e.g., pretend to follow a recipe, walk through a maze path) and identify where something goes wrong. They explain the error verbally or by pointing (e.g., \"We forgot to open the paint before painting\" or \"I went left instead of right here\").",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T13",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T14.G1.01": {
+      "id": "T14.G1.01",
+      "title": "Identify the player, goal, and obstacles",
+      "description": "In a labeled picture of a game level (maze, platformer, or board game), students point to and name: (1) the controllable character (marked with an arrow or labeled 'YOU'), (2) the goal object or location (flag, door, finish line), and (3) hazards that should be avoided (spikes, enemies, water). _CSTA: 1B-AP-11.__",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        },
+        {
+          "id": "T14.GK.03",
+          "title": "Identify when a game starts and ends"
+        }
+      ],
+      "topic": "T14",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T14.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.03"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T14.G1.02": {
+      "id": "T14.G1.02",
+      "title": "Apply simple game rules",
+      "description": "Students are given a simple rule (e.g., \"Collect all coins to open the door\") and a sequence of pictures. They decide if the player followed the rule. _CSTA: 1B-AP-08.__",
+      "dependencies": [
+        {
+          "id": "T14.G1.01",
+          "title": "Identify the player, goal, and obstacles"
+        },
+        {
+          "id": "T14.GK.04",
+          "title": "Match rewards to goals"
+        }
+      ],
+      "topic": "T14",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T14.GK.04"
+        ],
+        "same_topic_g1": [
+          "T14.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T14.G1.03": {
+      "id": "T14.G1.03",
+      "title": "Compare game difficulty",
+      "description": "Students compare two pictures of the same game level—one with more obstacles or fewer platforms—and identify which one would be harder to play. _CSTA: 1B-AP-10.__",
+      "dependencies": [
+        {
+          "id": "T01.GK.04",
+          "title": "Pick the pictures that make sense"
+        }
+      ],
+      "topic": "T14",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.04"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T14.G1.04": {
+      "id": "T14.G1.04",
+      "title": "Predict the best next move",
+      "description": "Given a short rule and a partially played level, students pick which control card (up, down, left, right, jump) keeps the player safe and moving toward the goal. _CSTA: 1B-AP-12.__",
+      "dependencies": [
+        {
+          "id": "T14.G1.01",
+          "title": "Identify the player, goal, and obstacles"
+        },
+        {
+          "id": "T14.GK.01",
+          "title": "Match controls to character actions"
+        }
+      ],
+      "topic": "T14",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T14.GK.01"
+        ],
+        "same_topic_g1": [
+          "T14.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T14.G1.05": {
+      "id": "T14.G1.05",
+      "title": "Distinguish helpers from hazards",
+      "description": "Students sort icons from a level (heart, speed shoe, spike, slime) into \"helps you win\" and \"makes you lose,\" building vocabulary around pickups and traps. _CSTA: 1B-AP-09.__",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T14.GK.04",
+          "title": "Match rewards to goals"
+        }
+      ],
+      "topic": "T14",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T14.GK.04"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T15.G1.01": {
+      "id": "T15.G1.01",
+      "title": "Match setting to story",
+      "description": "Given a story prompt (e.g., \"The fish swims\"), students choose the appropriate background (Ocean vs. Space).",
+      "dependencies": [
+        {
+          "id": "T03.GK.02",
+          "title": "Match parts to whole objects"
+        }
+      ],
+      "topic": "T15",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T03.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T15.G1.02": {
+      "id": "T15.G1.02",
+      "title": "Order dialogue",
+      "description": "Students see a comic strip with empty speech bubbles or jumbled order and determine the logical flow of conversation.",
+      "dependencies": [
+        {
+          "id": "T01.GK.02",
+          "title": "Put pictures in order for coming to class"
+        }
+      ],
+      "topic": "T15",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T15.G1.03": {
+      "id": "T15.G1.03",
+      "title": "Action and consequence",
+      "description": "Students predict the next frame in a simple animation sequence (e.g., Ball drops -> ? -> Ball hits ground).",
+      "dependencies": [
+        {
+          "id": "T01.GK.02",
+          "title": "Put pictures in order for coming to class"
+        }
+      ],
+      "topic": "T15",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T16.G1.01": {
+      "id": "T16.G1.01",
+      "title": "Match interface elements to their purpose (unplugged)",
+      "description": "Given pictures of interface elements (button, slider, text box, picture) and pictures of purposes (click to start, move to change volume, type your name, look at photo), draw lines connecting each element to its purpose.",
+      "dependencies": [
+        {
+          "id": "T16.K.02",
+          "title": "Recognize labels and text displays (pictures)"
+        }
+      ],
+      "topic": "T16",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T16.K.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T16.G1.02": {
+      "id": "T16.G1.02",
+      "title": "Arrange interface elements on a screen (unplugged)",
+      "description": "Cut out paper shapes representing buttons, labels, and pictures. Arrange them on a paper \"screen\" to create a simple interface (e.g., game menu with title, start button, and picture).",
+      "dependencies": [
+        {
+          "id": "T16.G1.01",
+          "title": "Match interface elements to their purpose (unplugged)"
+        }
+      ],
+      "topic": "T16",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T16.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T17.G1.01": {
+      "id": "T17.G1.01",
+      "title": "Identify fast vs slow motion (picture-based)",
+      "description": "Students watch two sprite animations and identify which sprite moves faster. They compare motion speeds visually and describe motion using \"fast\" and \"slow\" vocabulary.",
+      "dependencies": [
+        {
+          "id": "T17.K.02",
+          "title": "Match sprite to position after motion (picture-based)"
+        }
+      ],
+      "topic": "T17",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T17.K.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T18.G1.01": {
+      "id": "T18.G1.01",
+      "title": "Match 3D shapes to their names",
+      "description": "Students view pictures or physical models of common 3D shapes (cube, sphere, cylinder, cone, pyramid) and match them to their correct names, learning vocabulary for basic 3D geometry through sorting and labeling activities.",
+      "dependencies": [
+        {
+          "id": "T18.GK.01",
+          "title": "Explore 3D shapes in the real world"
+        }
+      ],
+      "topic": "T18",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T18.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T20.G1.01": {
+      "id": "T20.G1.01",
+      "title": "Describe the art rule in words",
+      "description": "Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language (“two tiny, one big”).",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T20",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T20.G1.02": {
+      "id": "T20.G1.02",
+      "title": "Match directions to drawings",
+      "description": "Learners match a simple written/audio direction set (“draw a blue square, then add three yellow dots under it”) to the drawing it would produce.",
+      "dependencies": [
+        {
+          "id": "T03.GK.02",
+          "title": "Match parts to whole objects"
+        }
+      ],
+      "topic": "T20",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T03.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T20.G1.03": {
+      "id": "T20.G1.03",
+      "title": "Extend a quilt on a grid",
+      "description": "Students complete a 2×3 or 3×3 art grid by adding the next tiles so the pattern continues horizontally and vertically.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T20",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T20.G1.04": {
+      "id": "T20.G1.04",
+      "title": "Fix a wrong instruction (text-based)",
+      "description": "Students hear an audio art direction set (with optional text for advanced readers) with one incorrect step (e.g., \"draw circle, draw square, draw triangle\" when the pattern shows two circles). They identify and select the replacement instruction from picture options with simple text labels.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T20",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T21.G1.01": {
+      "id": "T21.G1.01",
+      "title": "Choose words to tell the computer what to draw",
+      "description": "Students practice building simple descriptions by selecting word cards (subject + place + color) to form requests like \"cat + park + orange.\" They see how different word combinations create different picture prompts. All words are presented as picture cards with text labels for emerging readers.\nActivity Type: Word card assembly with visual support\nEstimated Time: 4-5 minutes\nCSTA: 1B-IC-18 (Discuss computing technologies that have changed the world)",
+      "dependencies": [
+        {
+          "id": "T21.GK.02",
+          "title": "Match the picture to the words that describe it"
+        }
+      ],
+      "topic": "T21",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T21.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T21.G1.02": {
+      "id": "T21.G1.02",
+      "title": "Decide if AI words are safe to share",
+      "description": "Students sort prompt cards into \"safe to say to a computer\" (friendly animal, favorite color, type of weather) vs \"not safe\" (home address, full name, phone number). This builds privacy awareness and safe AI interaction habits early. Uses picture-based cards with simple text.\nActivity Type: Safety sorting with explanation\nEstimated Time: 3-4 minutes\nCSTA: 1B-NI-05 (Discuss real-world cybersecurity problems)",
+      "dependencies": [
+        {
+          "id": "T21.GK.03",
+          "title": "Pick the helper that can talk back"
+        }
+      ],
+      "topic": "T21",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T21.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T22.G1.01": {
+      "id": "T22.G1.01",
+      "title": "Sort good questions from confusing questions",
+      "description": "Students sort question cards into two piles: clear questions a helper could answer (\"What color is the sky?\") vs confusing or incomplete questions (\"Tell me the thing!\"). They practice making one confusing question clearer by adding missing information.",
+      "dependencies": [
+        {
+          "id": "T22.GK.02",
+          "title": "Practice asking a picture helper a friendly question"
+        }
+      ],
+      "topic": "T22",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T22.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T22.G1.02": {
+      "id": "T22.G1.02",
+      "title": "Identify what a chatbot might not know",
+      "description": "Students look at scenarios and decide if a chatbot helper could answer (facts, spelling help) or probably couldn't (what's in your backpack, how you're feeling today). This builds awareness that chatbots don't know everything about you.",
+      "dependencies": [
+        {
+          "id": "T22.G1.01",
+          "title": "Sort good questions from confusing questions"
+        }
+      ],
+      "topic": "T22",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T22.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T23.G1.01": {
+      "id": "T23.G1.01",
+      "title": "Find sensors on everyday devices",
+      "description": "Students look at pictures of a tablet, camera toy, smart speaker, and game controller and circle where the camera, microphone, and buttons are. They sort devices by what senses they use. Picture-based activity only.",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        },
+        {
+          "id": "T23.GK.02",
+          "title": "Point to where a device \"looks\" or \"listens\""
+        }
+      ],
+      "topic": "T23",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T23.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.03"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T23.G1.02": {
+      "id": "T23.G1.02",
+      "title": "Match sensors to human senses",
+      "description": "Students drag picture icons for \"see,\" \"hear,\" and \"touch\" to the matching device sensors (camera, mic, touchpad) to show the parallel. They identify which sensors help a robot \"see\" or \"hear.\" Picture-based matching only.",
+      "dependencies": [
+        {
+          "id": "T03.GK.02",
+          "title": "Match parts to whole objects"
+        },
+        {
+          "id": "T23.GK.01",
+          "title": "Match pictures of sensing"
+        }
+      ],
+      "topic": "T23",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T23.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T03.GK.02"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T23.G1.03": {
+      "id": "T23.G1.03",
+      "title": "Choose what a sensor can notice",
+      "description": "Given picture cards (light/dark room, loud music, soft pillow), students pick which things a camera, microphone, or touchpad can notice and which it cannot (e.g., a microphone can't see color). Picture-sorting activity.",
+      "dependencies": [
+        {
+          "id": "T01.GK.04",
+          "title": "Pick the pictures that make sense"
+        },
+        {
+          "id": "T23.G1.01",
+          "title": "Find sensors on everyday devices"
+        }
+      ],
+      "topic": "T23",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T23.G1.01"
+        ],
+        "cross_topic_gk": [
+          "T01.GK.04"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T24.G1.01": {
+      "id": "T24.G1.01",
+      "title": "Listen to AI-generated speech",
+      "description": "Students hear AI text-to-speech reading a short story and identify that a computer, not a person, is speaking. They describe how the voice sounds different from a human voice.",
+      "dependencies": [
+        {
+          "id": "T24.GK.01",
+          "title": "Identify AI as a computer helper"
+        }
+      ],
+      "topic": "T24",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T24.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T24.G1.02": {
+      "id": "T24.G1.02",
+      "title": "Compare AI answers to expected answers",
+      "description": "Students ask a simple question (e.g., \"What color is the sky?\") and compare the AI's answer to what they know. They discuss when AI gives good answers and when it might be wrong.",
+      "dependencies": [
+        {
+          "id": "T24.GK.01",
+          "title": "Identify AI as a computer helper"
+        },
+        {
+          "id": "T24.GK.03",
+          "title": "Give simple instructions to an AI helper"
+        }
+      ],
+      "topic": "T24",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T24.GK.01",
+          "T24.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T24.G1.03": {
+      "id": "T24.G1.03",
+      "title": "Understand AI needs clear instructions",
+      "description": "Students see examples of unclear instructions and their confusing results. They practice making instructions clearer by adding details like color, size, or action.",
+      "dependencies": [
+        {
+          "id": "T24.GK.03",
+          "title": "Give simple instructions to an AI helper"
+        },
+        {
+          "id": "T24.G1.02",
+          "title": "Compare AI answers to expected answers"
+        }
+      ],
+      "topic": "T24",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T24.GK.03"
+        ],
+        "same_topic_g1": [
+          "T24.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T25.G1.01": {
+      "id": "T25.G1.01",
+      "title": "Record data with tally marks",
+      "description": "Students watch a short animation (e.g., fish swimming by) and record occurrences with tally marks, then convert the tallies to numerals.",
+      "dependencies": [
+        {
+          "id": "T25.GK.02",
+          "title": "Match quantities to symbols"
+        }
+      ],
+      "topic": "T25",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T25.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T25.G1.02": {
+      "id": "T25.G1.02",
+      "title": "Arrange data in picture rows and columns",
+      "description": "Learners arrange four objects into a simple table (rows = choices, columns = counts) using pictures instead of numerals, showing that tables are structured representations.",
+      "dependencies": [
+        {
+          "id": "T25.G1.01",
+          "title": "Record data with tally marks"
+        }
+      ],
+      "topic": "T25",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T25.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T25.G1.03": {
+      "id": "T25.G1.03",
+      "title": "Describe the same fact in words and numbers",
+      "description": "Students practice saying \"There are five apples\" and also representing it with the numeral \"5\" and the word \"five,\" highlighting multi-format representation.",
+      "dependencies": [
+        {
+          "id": "T25.G1.01",
+          "title": "Record data with tally marks"
+        }
+      ],
+      "topic": "T25",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T25.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T26.G1.01": {
+      "id": "T26.G1.01",
+      "title": "Run a three-option picture survey",
+      "description": "Students pick a topic (favorite snack) and provide three picture choices. They ask five peers and place stickers on a mini poster to record answers.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        },
+        {
+          "id": "T26.GK.03",
+          "title": "Capture yes/no answers with smile/frown cards"
+        }
+      ],
+      "topic": "T26",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T26.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T26.G1.02": {
+      "id": "T26.G1.02",
+      "title": "Keep observation logs over time",
+      "description": "Learners observe a daily attribute twice (morning vs afternoon temperature icon) for a week, emphasizing longitudinal collection.",
+      "dependencies": [
+        {
+          "id": "T26.G1.01",
+          "title": "Run a three-option picture survey"
+        }
+      ],
+      "topic": "T26",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T26.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T26.G1.03": {
+      "id": "T26.G1.03",
+      "title": "Follow a simple data-collection checklist",
+      "description": "Students learn to (1) introduce themselves, (2) ask the question the same way, (3) record the answer immediately. They practice on classmates and reflect on why following steps matters.",
+      "dependencies": [
+        {
+          "id": "T26.G1.01",
+          "title": "Run a three-option picture survey"
+        }
+      ],
+      "topic": "T26",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T26.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T27.G1.01": {
+      "id": "T27.G1.01",
+      "title": "Build a pictograph from tallies",
+      "description": "Students convert tally marks collected in T26 into stacked icons using manipulatives or drawing tools, linking collection to analysis visuals.",
+      "dependencies": [
+        {
+          "id": "T27.GK.03",
+          "title": "Read a two-column picture chart"
+        }
+      ],
+      "topic": "T27",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T27.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T27.G1.02": {
+      "id": "T27.G1.02",
+      "title": "Answer \"how many more?\" questions",
+      "description": "Learners compute the difference between two categories using picture charts.",
+      "dependencies": [
+        {
+          "id": "T27.G1.01",
+          "title": "Build a pictograph from tallies"
+        }
+      ],
+      "topic": "T27",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T27.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T27.G1.03": {
+      "id": "T27.G1.03",
+      "title": "Tell a one-sentence story with data",
+      "description": "Students describe what the chart shows (\"Most kids chose apples\") using comparative language.",
+      "dependencies": [
+        {
+          "id": "T27.G1.01",
+          "title": "Build a pictograph from tallies"
+        }
+      ],
+      "topic": "T27",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T27.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T29.G1.01": {
+      "id": "T29.G1.01",
+      "title": "Sort words by first letter",
+      "description": "Students organize word cards alphabetically by first letter (all A words together, all B words together), preparing for dictionary and lookup concepts.",
+      "dependencies": [
+        {
+          "id": "T29.GK.03",
+          "title": "Recognize that text has meaning"
+        }
+      ],
+      "topic": "T29",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T29.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T29.G1.02": {
+      "id": "T29.G1.02",
+      "title": "Count words in a sentence",
+      "description": "Given simple sentences written on strips, students count how many words are in each sentence by pointing to each word, distinguishing between letters and words.",
+      "dependencies": [
+        {
+          "id": "T29.GK.03",
+          "title": "Recognize that text has meaning"
+        }
+      ],
+      "topic": "T29",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T29.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T29.G1.03": {
+      "id": "T29.G1.03",
+      "title": "Group words by category",
+      "description": "Students sort word cards into concrete categories: animals, colors, actions, foods. They explain why each word belongs in its group.",
+      "dependencies": [
+        {
+          "id": "T29.G1.02",
+          "title": "Count words in a sentence"
+        }
+      ],
+      "topic": "T29",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T29.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T29.G1.04": {
+      "id": "T29.G1.04",
+      "title": "Identify same words in different sentences",
+      "description": "Given 2-3 simple sentences, students find and circle words that appear in multiple sentences, building pattern recognition for word matching.",
+      "dependencies": [
+        {
+          "id": "T29.G1.02",
+          "title": "Count words in a sentence"
+        }
+      ],
+      "topic": "T29",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T29.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T30.G1.01": {
+      "id": "T30.G1.01",
+      "title": "Label basic computer parts",
+      "description": "Learners label key components on a laptop/desktop photo and state each part's job.",
+      "dependencies": [
+        {
+          "id": "T30.GK.01",
+          "title": "Identify everyday computing devices"
+        }
+      ],
+      "topic": "T30",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T30.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T30.G1.02": {
+      "id": "T30.G1.02",
+      "title": "Describe hardware vs software",
+      "description": "Students sort items (keyboard, game app, robot arm, drawing program) into hardware and software bins.",
+      "dependencies": [
+        {
+          "id": "T30.G1.01",
+          "title": "Label basic computer parts"
+        }
+      ],
+      "topic": "T30",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T30.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T30.G1.03": {
+      "id": "T30.G1.03",
+      "title": "Recognize sensors in the environment",
+      "description": "Learners identify automatic doors, faucets, and smart toys as sensor-based devices and describe what they detect.",
+      "dependencies": [
+        {
+          "id": "T30.G1.01",
+          "title": "Label basic computer parts"
+        }
+      ],
+      "topic": "T30",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T30.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T31.G1.01": {
+      "id": "T31.G1.01",
+      "title": "Identify when a device is connected or disconnected (picture-based)",
+      "description": "Students examine pictures showing connectivity indicators (Wi-Fi symbol, \"no connection\" icon, loading spinner) and match them to scenarios like \"playing an online game\" vs \"drawing offline.\"\nCSTA: E1-SAS-NW-02",
+      "dependencies": [],
+      "topic": "T31",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T32.G1.01": {
+      "id": "T32.G1.01",
+      "title": "Identify personally identifiable information (PII)",
+      "description": "Learners categorize items (full name, favorite sport, address, pet's name) as private or public.",
+      "dependencies": [
+        {
+          "id": "T01.GK.03",
+          "title": "Find the first and last pictures"
+        },
+        {
+          "id": "T32.GK.01",
+          "title": "Spot safe vs unsafe sharing"
+        }
+      ],
+      "topic": "T32",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T32.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.03"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T32.G1.02": {
+      "id": "T32.G1.02",
+      "title": "Recognize trustworthy vs unknown contacts",
+      "description": "Students view illustrated chat scenarios with audio narration and visual cues (green checkmark for known friends, red question mark for strangers) to decide if they know the person and what to do (ignore/tell adult).",
+      "dependencies": [
+        {
+          "id": "T32.G1.01",
+          "title": "Identify personally identifiable information (PII)"
+        }
+      ],
+      "topic": "T32",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T32.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T32.G1.03": {
+      "id": "T32.G1.03",
+      "title": "Explain why passwords must be secret",
+      "description": "Students use picture matching with speech bubbles to understand password secrecy. They see illustrated scenarios showing \"I should share my password\" vs \"I should keep my password secret\" and select the correct choice with checkmark/X responses. They discuss picture stories showing what could happen if someone else knew their password (someone logging in as them, changing their work).",
+      "dependencies": [
+        {
+          "id": "T32.G1.01",
+          "title": "Identify personally identifiable information (PII)"
+        },
+        {
+          "id": "T32.GK.03",
+          "title": "Understand that passwords keep things safe"
+        }
+      ],
+      "topic": "T32",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T32.GK.03"
+        ],
+        "same_topic_g1": [
+          "T32.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T32.G1.04": {
+      "id": "T32.G1.04",
+      "title": "Spot obvious scam pop-ups",
+      "description": "Students see illustrated pop-ups with clear visual red flags and label them as \"real\" or \"scam.\" Visual cues include: misspellings highlighted in red circles, urgent warnings shown with red flashing borders, too-good-to-be-true imagery (giant prizes, free expensive items). They focus on visual indicators rather than reading text.",
+      "dependencies": [
+        {
+          "id": "T32.G1.01",
+          "title": "Identify personally identifiable information (PII)"
+        }
+      ],
+      "topic": "T32",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T32.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T33.G1.01": {
+      "id": "T33.G1.01",
+      "title": "Sort apps into online helpers and offline tools",
+      "description": "Students sort picture cards of apps into two groups: those that need internet helpers (maps, search, video chat) and those that work alone (camera, clock, basic games). They explain their sorting choices using simple language like \"this one asks the internet for help.\"",
+      "dependencies": [
+        {
+          "id": "T33.GK.01",
+          "title": "Recognize that apps can talk to helpers on the internet"
+        }
+      ],
+      "topic": "T33",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T33.GK.01"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T34.G1.01": {
+      "id": "T34.G1.01",
+      "title": "Describe life before and after a technology",
+      "description": "Learners compare short stories (writing letters vs video chat) to explain how computing changed communication.",
+      "dependencies": [
+        {
+          "id": "T34.GK.02",
+          "title": "Match old vs new versions of tech"
+        }
+      ],
+      "topic": "T34",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T34.GK.02"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T34.G1.02": {
+      "id": "T34.G1.02",
+      "title": "Recognize inventors from diverse backgrounds",
+      "description": "Students learn about global contributors (Ada Lovelace, Granville Woods, Radia Perlman, Maya Lin's digital work) and link each person to their computing idea.",
+      "dependencies": [
+        {
+          "id": "T34.GK.03",
+          "title": "Name a person who uses computers in their job"
+        }
+      ],
+      "topic": "T34",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T34.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T34.G1.03": {
+      "id": "T34.G1.03",
+      "title": "Explain how choosing different programming tools (blocks vs. text, 2D vs. 3D engine) changes what games and apps can do, using specific examples",
+      "description": "Learners state that creators pick characters, rules, and visuals, highlighting human design decisions.",
+      "dependencies": [
+        {
+          "id": "T34.G1.01",
+          "title": "Describe life before and after a technology"
+        }
+      ],
+      "topic": "T34",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T34.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T35.G1.01": {
+      "id": "T35.G1.01",
+      "title": "Sort good vs not-so-good choices and explain why",
+      "description": "Students categorize technology behaviors (pausing game to eat vs ignoring responsibilities) into \"good for me\"/\"not good for me\" using picture cards, then explain their reasoning by connecting each choice to a consequence picture (e.g., \"Pausing to eat is good because it keeps me healthy\").",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T35",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T35.G1.02": {
+      "id": "T35.G1.02",
+      "title": "Match feelings to technology experiences",
+      "description": "Students match pictures of emotions (happy, sad, frustrated, excited) to technology scenarios (winning a game, losing progress, video calling family, waiting for slow loading) to understand emotional impacts of tech use.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T35",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T35.G1.03": {
+      "id": "T35.G1.03",
+      "title": "Recognize that people make technology choices",
+      "description": "Students look at app screenshots and identify choices made by creators (characters, colors, sounds) by circling elements and matching them to \"someone chose this\" labels.",
+      "dependencies": [
+        {
+          "id": "T01.GK.01",
+          "title": "Put pictures in order for getting ready for bed"
+        }
+      ],
+      "topic": "T35",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T01.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T35.G1.04": {
+      "id": "T35.G1.04",
+      "title": "Identify who to tell when uncomfortable online",
+      "description": "Students match uncomfortable technology scenarios (mean message, scary image, stranger asking questions) with trusted adults who can help (parent, teacher, librarian).",
+      "dependencies": [
+        {
+          "id": "T35.G1.02",
+          "title": "Match feelings to technology experiences"
+        }
+      ],
+      "topic": "T35",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T35.G1.02"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T36.G1.01": {
+      "id": "T36.G1.01",
+      "title": "List jobs that rely on computers",
+      "description": "Learners select which professions (scientist, musician, builder, nurse, chef) use digital tools, and share a simple example.",
+      "dependencies": [
+        {
+          "id": "T36.GK.03",
+          "title": "Describe what a digital tool helps someone do"
+        }
+      ],
+      "topic": "T36",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [
+          "T36.GK.03"
+        ],
+        "same_topic_g1": [],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T36.G1.02": {
+      "id": "T36.G1.02",
+      "title": "Sort \"helps\" vs \"problems\" for a technology",
+      "description": "Students place statements about a device (video chat, streaming, games) into \"helps me\" or \"causes problems,\" recognizing tradeoffs.",
+      "dependencies": [
+        {
+          "id": "T36.G1.01",
+          "title": "List jobs that rely on computers"
+        }
+      ],
+      "topic": "T36",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [
+          "T36.G1.01"
+        ],
+        "cross_topic_gk": [],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    },
+    "T36.G1.03": {
+      "id": "T36.G1.03",
+      "title": "Show listening behaviors when working on a group tech task",
+      "description": "Learners role-play or choose actions that show they're listening (eyes on speaker, waiting to talk) during a group technology activity, and explain why teams need good listeners.",
+      "dependencies": [
+        {
+          "id": "T03.GK.01",
+          "title": "Identify parts that make up a whole"
+        }
+      ],
+      "topic": "T36",
+      "grade": "G1",
+      "dependency_analysis": {
+        "same_topic_gk": [],
+        "same_topic_g1": [],
+        "cross_topic_gk": [
+          "T03.GK.01"
+        ],
+        "cross_topic_g1": [],
+        "invalid": []
+      }
+    }
+  }
+}

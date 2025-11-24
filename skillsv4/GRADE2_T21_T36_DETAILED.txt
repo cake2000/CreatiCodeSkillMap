@@ -1,0 +1,243 @@
+GRADE 2 (T21-T36) MISSING CROSS-TOPIC DEPENDENCIES - DETAILED
+================================================================================
+
+
+T21.G2.02: Explain why AI helpers need checking
+Topic: T21 – AI Media
+Description: Students discuss why AI-made pictures and responses need human review before sharing, using age-appropriate examples (making sure the robot didn't draw something silly, wrong, or mean). They look at p...
+Current deps: T21.G1.02
+
+Recommended additions:
+  → T35.GK.04: Choose safe sharing in role-play
+     Reason: Understanding why AI needs checking requires awareness of safe vs unsafe content
+
+--------------------------------------------------------------------------------
+
+T22.G2.02: Decide which questions are okay to ask a helper
+Topic: T22 – Chatbots & Prompting
+Description: Students sort question cards into "okay to ask" (homework help, fun facts) vs "not okay to ask" (my home address, passwords, mean things about classmates). They learn that some information should stay...
+Current deps: T22.G2.01
+
+Recommended additions:
+  → T32.GK.01: Spot safe vs unsafe sharing
+     Reason: Recognizing private information in chat requires foundational privacy concepts
+
+--------------------------------------------------------------------------------
+
+T23.G2.01: Pick the right sensor for a job
+Topic: T23 – AI Perception
+Description: Students read short picture stories (e.g., "turn on light when someone claps," "open door when tag is tapped") and circle whether to use camera, microphone, or touch sensor to solve each task. Scenari...
+Current deps: T23.G1.03
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Understanding sensors requires knowing what devices are
+
+--------------------------------------------------------------------------------
+
+T23.G2.02: Spot when sensor data might be unclear
+Topic: T23 – AI Perception
+Description: Students compare pairs of pictures (bright vs dark room for a camera, quiet vs noisy room for a mic) and pick which one makes it harder for the sensor to understand. They explain why using simple word...
+Current deps: T23.G2.01
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Understanding sensor limitations requires hardware knowledge
+
+--------------------------------------------------------------------------------
+
+T23.G2.03: Notice that devices sometimes "guess"
+Topic: T23 – AI Perception
+Description: Students compare two illustrated scenarios: one where a toy reacts to a button press; another where an app tries to recognize an animal sound. They identify which one is "guessing" from sensor input v...
+Current deps: T01.G1.01
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Distinguishing sensor input from commands requires hardware understanding
+
+--------------------------------------------------------------------------------
+
+T24.G2.01: Observe AI text-to-speech demonstration
+Topic: T24 – XO & Generative AI Practices
+Description: Students watch a teacher demonstration of the `say [TEXT] in [LANGUAGE]` text-to-speech block reading a story aloud. They suggest sentences to add and observe how the computer speaks them with differe...
+Current deps: T24.G1.01, T24.G1.03
+
+Recommended additions:
+  → T01.GK.02: Put pictures in order for coming to class
+     Reason: Understanding multi-step AI demonstrations requires sequencing concepts
+
+--------------------------------------------------------------------------------
+
+T26.G2.01: Distinguish observational vs survey data
+Topic: T26 – Data Collection & Logging
+Description: Students categorize example data statements as "observed" (counting birds) or "asked" (favorite color), reinforcing method selection....
+Current deps: T01.G1.01, T26.G1.02
+
+Recommended additions:
+  → T25.GK.01: Spot data in everyday objects
+     Reason: Distinguishing data types requires understanding data representation
+
+--------------------------------------------------------------------------------
+
+T26.G2.03: Use timers to collect duration data
+Topic: T26 – Data Collection & Logging
+Description: Students run a simple experiment (spin a top) and record each trial's duration using a timer, highlighting measurement precision....
+Current deps: T01.G1.01, T26.G1.02
+
+Recommended additions:
+  → T25.GK.01: Spot data in everyday objects
+     Reason: Collecting duration data requires understanding how data is represented
+
+--------------------------------------------------------------------------------
+
+T26.G2.05: Conduct a multi-response tally survey
+Topic: T26 – Data Collection & Logging
+Description: Students run an unplugged survey with four or more answer choices (e.g., "What's your favorite season?"), practicing tally marks and organizing more complex response categories before learning coded s...
+Current deps: T26.G2.04, T01.G1.01
+
+Recommended additions:
+  → T25.GK.01: Spot data in everyday objects
+     Reason: Conducting surveys requires understanding how to structure data
+
+--------------------------------------------------------------------------------
+
+T27.G2.01: Create bar charts with axes labels
+Topic: T27 – Data Analysis & Storytelling
+Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity. This is an unplugged/pre-coding activity focus...
+Current deps: T01.G1.01, T27.G1.01
+
+Recommended additions:
+  → T26.GK.01: Identify countable things in a picture
+     Reason: Creating charts requires understanding data collection
+  → T25.GK.01: Spot data in everyday objects
+     Reason: Creating charts requires understanding data representation
+
+--------------------------------------------------------------------------------
+
+T27.G2.04: Decide if data answers the question asked
+Topic: T27 – Data Analysis & Storytelling
+Description: Students read a question ("Which snack is most popular?") and determine if the provided chart answers it or if more data is needed....
+Current deps: T27.G1.03, T27.G2.02
+
+Recommended additions:
+  → T26.GK.01: Identify countable things in a picture
+     Reason: Analyzing data requires understanding data collection
+
+--------------------------------------------------------------------------------
+
+T28.G2.04: Predict and observe outcomes
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Description: Learners make a prediction before each of five physical coin flips (using real coins), then compare correct vs incorrect guesses to appreciate randomness....
+Current deps: T28.G2.02, T01.G1.04
+
+Recommended additions:
+  → T26.GK.01: Identify countable things in a picture
+     Reason: Making predictions requires understanding data collection
+
+--------------------------------------------------------------------------------
+
+T29.G2.04: Find and replace words in sentences
+Topic: T29 – Text Data & NLP Foundations
+Description: Given a sentence and replacement instructions ("change 'cat' to 'dog'"), students rewrite the sentence with the new word, preparing for programmatic text manipulation....
+Current deps: T29.G2.03, T29.G1.04
+
+Recommended additions:
+  → T01.GK.02: Put pictures in order for coming to class
+     Reason: Find and replace operations require sequential processing understanding
+
+--------------------------------------------------------------------------------
+
+T31.G2.01: Understand that the internet connects many computers (picture-based)
+Topic: T31 – Internet & Cloud: Grade 2
+Description: Students view diagrams showing how computers, tablets, and phones connect through routers and cables to form a network. They identify components in simple network pictures....
+Current deps: None
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Understanding internet connections requires knowing about devices
+
+--------------------------------------------------------------------------------
+
+T32.G2.01: Practice creating strong passwords
+Topic: T32 – Cybersecurity & Digital Safety
+Description: Students use a guided template to build a safer password (animal + number + symbol) and actually create their own practice password. They explain why it's stronger than "cat" and practice remembering ...
+Current deps: T01.G1.01, T32.G1.03
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Creating passwords requires understanding devices that use them
+  → T35.GK.04: Choose safe sharing in role-play
+     Reason: Password security connects to safe information sharing practices
+
+--------------------------------------------------------------------------------
+
+T32.G2.04: Describe basic device care for security
+Topic: T32 – Cybersecurity & Digital Safety
+Description: Learners list practices (keep passwords hidden, don't leave device unattended, use devices in supervised areas) linking physical care to digital safety....
+Current deps: T01.G1.01, T03.G1.03
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Device care requires understanding what devices are
+
+--------------------------------------------------------------------------------
+
+T32.G2.05: Recognize consequences of clicking suspicious links
+Topic: T32 – Cybersecurity & Digital Safety
+Description: Students watch teacher-led scenarios showing what happens when you click suspicious links (goes to fake website, downloads unwanted files, asks for passwords). They identify red flags before clicking ...
+Current deps: T32.G1.04
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Understanding suspicious links requires device/internet knowledge
+  → T35.GK.04: Choose safe sharing in role-play
+     Reason: Recognizing dangers requires judgment about safe sharing
+
+--------------------------------------------------------------------------------
+
+T32.G2.06: Explain purpose of usernames and passwords
+Topic: T32 – Cybersecurity & Digital Safety
+Description: Students learn why accounts need both usernames (to identify who you are) and passwords (to prove you are that person). They compare it to having a name and a secret handshake. Through illustrated exa...
+Current deps: T32.G2.01
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Understanding authentication requires device knowledge
+
+--------------------------------------------------------------------------------
+
+T33.G2.01: Describe what happens when an app waits for the internet
+Topic: T33 – Connected Services
+Description: Students act out or illustrate what happens when an app sends a question to the internet: waiting, getting an answer, showing results. They recognize loading spinners and understand that internet help...
+Current deps: T33.G1.01
+
+Recommended additions:
+  → T31.GK.01: Recognize devices that connect to the internet (picture-based)
+     Reason: Understanding app connectivity requires network/internet basics
+
+--------------------------------------------------------------------------------
+
+T34.G2.01: Build "then vs now" comparison charts
+Topic: T34 – Computing History
+Description: Students fill a chart showing how a task (taking photos, shopping, banking) was done before computers vs today....
+Current deps: T34.G1.01, T01.G1.01
+
+Recommended additions:
+  → T30.GK.01: Identify everyday computing devices
+     Reason: Comparing past/present technology requires hardware understanding
+
+--------------------------------------------------------------------------------
+
+T36.G2.04: Name jobs where people create digital things
+Topic: T36 – Careers, Collaboration & Future Paths
+Description: Students identify and name careers where people create digital content (game designer, animator, app builder) through picture sorting and discussion....
+Current deps: T36.G1.01, T36.GK.03
+
+Recommended additions:
+  → T35.GK.01: Identify a helpful use of technology
+     Reason: Understanding digital creation careers requires awareness of technology impacts
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Total recommendations: 24

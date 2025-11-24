@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "generated": "2025-11-24",
+    "source_file": "/media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md",
+    "grade": "G4"
+  },
+  "summary": {
+    "total_skills": 290,
+    "avg_dependencies_per_skill": 6.01,
+    "total_dependencies": 1744,
+    "cross_topic_dependencies": 1302,
+    "cross_topic_percentage": 74.7
+  },
+  "dependency_grade_distribution": {
+    "G2": 991,
+    "G4": 210,
+    "G3": 543
+  },
+  "validation_status": {
+    "x2_violations": 0,
+    "invalid_dependency_ids": 6,
+    "circular_dependencies": 6,
+    "skills_without_dependencies": 0
+  },
+  "issues": {
+    "x2_violations": [],
+    "invalid_dependency_ids": [
+      "T16.G4.03 -> T10.G3.01",
+      "T18.G4.01.01 -> T09.G3.01",
+      "T18.G4.01.01 -> T14.G3.01",
+      "T25.G4.06 -> T10.G3.01",
+      "T26.G4.06 -> T26.G4.02",
+      "T27.G4.01 -> T26.G3.04"
+    ],
+    "circular_dependencies": [
+      "T08.G4.00 <-> T08.G4.00",
+      "T08.G4.01 <-> T08.G4.01",
+      "T08.G4.03 <-> T08.G4.03",
+      "T08.G4.05 <-> T08.G4.05",
+      "T09.G4.02.01 <-> T09.G4.02.01",
+      "T27.G4.03 <-> T27.G4.03"
+    ],
+    "skills_without_dependencies": []
+  },
+  "topic_statistics": {
+    "T01": {
+      "total_skills": 15,
+      "skills_with_dependencies": 15,
+      "total_dependencies": 95,
+      "avg_dependencies_per_skill": 6.33
+    },
+    "T02": {
+      "total_skills": 7,
+      "skills_with_dependencies": 7,
+      "total_dependencies": 36,
+      "avg_dependencies_per_skill": 5.14
+    },
+    "T03": {
+      "total_skills": 6,
+      "skills_with_dependencies": 6,
+      "total_dependencies": 26,
+      "avg_dependencies_per_skill": 4.33
+    },
+    "T04": {
+      "total_skills": 10,
+      "skills_with_dependencies": 10,
+      "total_dependencies": 56,
+      "avg_dependencies_per_skill": 5.6
+    },
+    "T05": {
+      "total_skills": 7,
+      "skills_with_dependencies": 7,
+      "total_dependencies": 16,
+      "avg_dependencies_per_skill": 2.29
+    },
+    "T06": {
+      "total_skills": 14,
+      "skills_with_dependencies": 14,
+      "total_dependencies": 74,
+      "avg_dependencies_per_skill": 5.29
+    },
+    "T07": {
+      "total_skills": 9,
+      "skills_with_dependencies": 9,
+      "total_dependencies": 76,
+      "avg_dependencies_per_skill": 8.44
+    },
+    "T08": {
+      "total_skills": 10,
+      "skills_with_dependencies": 10,
+      "total_dependencies": 45,
+      "avg_dependencies_per_skill": 4.5
+    },
+    "T09": {
+      "total_skills": 15,
+      "skills_with_dependencies": 15,
+      "total_dependencies": 105,
+      "avg_dependencies_per_skill": 7.0
+    },
+    "T10": {
+      "total_skills": 25,
+      "skills_with_dependencies": 25,
+      "total_dependencies": 211,
+      "avg_dependencies_per_skill": 8.44
+    },
+    "T11": {
+      "total_skills": 8,
+      "skills_with_dependencies": 8,
+      "total_dependencies": 66,
+      "avg_dependencies_per_skill": 8.25
+    },
+    "T12": {
+      "total_skills": 5,
+      "skills_with_dependencies": 5,
+      "total_dependencies": 31,
+      "avg_dependencies_per_skill": 6.2
+    },
+    "T13": {
+      "total_skills": 10,
+      "skills_with_dependencies": 10,
+      "total_dependencies": 78,
+      "avg_dependencies_per_skill": 7.8
+    },
+    "T14": {
+      "total_skills": 17,
+      "skills_with_dependencies": 17,
+      "total_dependencies": 124,
+      "avg_dependencies_per_skill": 7.29
+    },
+    "T15": {
+      "total_skills": 9,
+      "skills_with_dependencies": 9,
+      "total_dependencies": 49,
+      "avg_dependencies_per_skill": 5.44
+    },
+    "T16": {
+      "total_skills": 14,
+      "skills_with_dependencies": 14,
+      "total_dependencies": 86,
+      "avg_dependencies_per_skill": 6.14
+    },
+    "T17": {
+      "total_skills": 2,
+      "skills_with_dependencies": 2,
+      "total_dependencies": 10,
+      "avg_dependencies_per_skill": 5.0
+    },
+    "T18": {
+      "total_skills": 14,
+      "skills_with_dependencies": 14,
+      "total_dependencies": 47,
+      "avg_dependencies_per_skill": 3.36
+    },
+    "T20": {
+      "total_skills": 9,
+      "skills_with_dependencies": 9,
+      "total_dependencies": 65,
+      "avg_dependencies_per_skill": 7.22
+    },
+    "T21": {
+      "total_skills": 3,
+      "skills_with_dependencies": 3,
+      "total_dependencies": 13,
+      "avg_dependencies_per_skill": 4.33
+    },
+    "T22": {
+      "total_skills": 3,
+      "skills_with_dependencies": 3,
+      "total_dependencies": 17,
+      "avg_dependencies_per_skill": 5.67
+    },
+    "T23": {
+      "total_skills": 3,
+      "skills_with_dependencies": 3,
+      "total_dependencies": 16,
+      "avg_dependencies_per_skill": 5.33
+    },
+    "T24": {
+      "total_skills": 8,
+      "skills_with_dependencies": 8,
+      "total_dependencies": 43,
+      "avg_dependencies_per_skill": 5.38
+    },
+    "T25": {
+      "total_skills": 6,
+      "skills_with_dependencies": 6,
+      "total_dependencies": 43,
+      "avg_dependencies_per_skill": 7.17
+    },
+    "T26": {
+      "total_skills": 8,
+      "skills_with_dependencies": 8,
+      "total_dependencies": 55,
+      "avg_dependencies_per_skill": 6.88
+    },
+    "T27": {
+      "total_skills": 4,
+      "skills_with_dependencies": 4,
+      "total_dependencies": 14,
+      "avg_dependencies_per_skill": 3.5
+    },
+    "T28": {
+      "total_skills": 9,
+      "skills_with_dependencies": 9,
+      "total_dependencies": 61,
+      "avg_dependencies_per_skill": 6.78
+    },
+    "T29": {
+      "total_skills": 12,
+      "skills_with_dependencies": 12,
+      "total_dependencies": 64,
+      "avg_dependencies_per_skill": 5.33
+    },
+    "T30": {
+      "total_skills": 7,
+      "skills_with_dependencies": 7,
+      "total_dependencies": 27,
+      "avg_dependencies_per_skill": 3.86
+    },
+    "T31": {
+      "total_skills": 2,
+      "skills_with_dependencies": 2,
+      "total_dependencies": 6,
+      "avg_dependencies_per_skill": 3.0
+    },
+    "T32": {
+      "total_skills": 6,
+      "skills_with_dependencies": 6,
+      "total_dependencies": 27,
+      "avg_dependencies_per_skill": 4.5
+    },
+    "T33": {
+      "total_skills": 1,
+      "skills_with_dependencies": 1,
+      "total_dependencies": 4,
+      "avg_dependencies_per_skill": 4.0
+    },
+    "T34": {
+      "total_skills": 3,
+      "skills_with_dependencies": 3,
+      "total_dependencies": 10,
+      "avg_dependencies_per_skill": 3.33
+    },
+    "T35": {
+      "total_skills": 5,
+      "skills_with_dependencies": 5,
+      "total_dependencies": 34,
+      "avg_dependencies_per_skill": 6.8
+    },
+    "T36": {
+      "total_skills": 4,
+      "skills_with_dependencies": 4,
+      "total_dependencies": 14,
+      "avg_dependencies_per_skill": 3.5
+    }
+  },
+  "cross_topic_pairs": {
+    "T01-T06": 17,
+    "T01-T07": 19,
+    "T01-T08": 3,
+    "T01-T13": 4,
+    "T01-T02": 19,
+    "T01-T04": 16,
+    "T01-T09": 9,
+    "T02-T07": 22,
+    "T02-T06": 7,
+    "T02-T13": 12,
+    "T02-T04": 16,
+    "T03-T04": 5,
+    "T03-T06": 3,
+    "T03-T07": 5,
+    "T03-T08": 1,
+    "T03-T09": 1,
+    "T03-T13": 3,
+    "T03-T05": 2,
+    "T04-T06": 15,
+    "T04-T07": 26,
+    "T04-T13": 16,
+    "T04-T08": 4,
+    "T04-T05": 4,
+    "T04-T09": 39,
+    "T05-T07": 6,
+    "T05-T13": 1,
+    "T06-T07": 18,
+    "T06-T08": 18,
+    "T06-T13": 18,
+    "T06-T09": 23,
+    "T07-T08": 10,
+    "T07-T09": 20,
+    "T07-T13": 15,
+    "T08-T09": 2,
+    "T08-T13": 8,
+    "T02-T09": 4,
+    "T09-T13": 3,
+    "T01-T10": 9,
+    "T02-T10": 8,
+    "T04-T10": 44,
+    "T05-T10": 50,
+    "T06-T10": 25,
+    "T07-T10": 24,
+    "T08-T10": 4,
+    "T10-T13": 2,
+    "T09-T10": 6,
+    "T03-T11": 12,
+    "T04-T11": 17,
+    "T06-T11": 7,
+    "T07-T11": 6,
+    "T09-T11": 2,
+    "T01-T11": 2,
+    "T05-T11": 2,
+    "T08-T11": 1,
+    "T02-T11": 2,
+    "T11-T13": 3,
+    "T04-T12": 6,
+    "T07-T12": 4,
+    "T03-T12": 6,
+    "T06-T12": 4,
+    "T02-T12": 2,
+    "T09-T12": 1,
+    "T01-T14": 6,
+    "T06-T14": 33,
+    "T07-T14": 18,
+    "T08-T14": 4,
+    "T02-T14": 14,
+    "T13-T14": 4,
+    "T03-T14": 2,
+    "T04-T14": 18,
+    "T09-T14": 4,
+    "T02-T15": 2,
+    "T07-T15": 8,
+    "T01-T15": 5,
+    "T06-T15": 14,
+    "T04-T15": 5,
+    "T09-T15": 1,
+    "T08-T15": 1,
+    "T06-T16": 21,
+    "T07-T16": 13,
+    "T01-T16": 8,
+    "T04-T16": 19,
+    "T05-T16": 2,
+    "T10-T16": 1,
+    "T08-T16": 3,
+    "T09-T16": 1,
+    "T02-T17": 4,
+    "T07-T17": 1,
+    "T01-T17": 1,
+    "T06-T17": 1,
+    "T09-T17": 1,
+    "T04-T18": 7,
+    "T07-T18": 14,
+    "T09-T18": 1,
+    "T14-T18": 1,
+    "T01-T18": 2,
+    "T02-T18": 4,
+    "T06-T18": 3,
+    "T08-T18": 1,
+    "T01-T20": 3,
+    "T02-T20": 10,
+    "T04-T20": 10,
+    "T07-T20": 15,
+    "T09-T20": 5,
+    "T03-T20": 3,
+    "T11-T20": 1,
+    "T05-T20": 4,
+    "T08-T20": 2,
+    "T06-T20": 1,
+    "T10-T20": 2,
+    "T04-T21": 3,
+    "T07-T21": 3,
+    "T05-T21": 2,
+    "T06-T21": 2,
+    "T06-T22": 3,
+    "T07-T22": 3,
+    "T09-T22": 3,
+    "T16-T22": 1,
+    "T04-T22": 1,
+    "T13-T22": 1,
+    "T06-T23": 3,
+    "T07-T23": 3,
+    "T08-T23": 3,
+    "T01-T23": 1,
+    "T04-T23": 1,
+    "T04-T24": 2,
+    "T06-T24": 13,
+    "T07-T24": 8,
+    "T09-T24": 1,
+    "T08-T24": 1,
+    "T13-T24": 2,
+    "T03-T24": 2,
+    "T05-T24": 2,
+    "T04-T25": 14,
+    "T05-T25": 6,
+    "T07-T25": 6,
+    "T01-T25": 1,
+    "T06-T25": 2,
+    "T02-T25": 2,
+    "T10-T25": 1,
+    "T06-T26": 6,
+    "T07-T26": 7,
+    "T09-T26": 5,
+    "T10-T26": 7,
+    "T04-T26": 11,
+    "T08-T26": 1,
+    "T05-T26": 4,
+    "T02-T26": 4,
+    "T01-T26": 1,
+    "T04-T27": 2,
+    "T07-T27": 1,
+    "T08-T27": 2,
+    "T09-T27": 4,
+    "T26-T27": 1,
+    "T02-T28": 8,
+    "T04-T28": 13,
+    "T06-T28": 6,
+    "T07-T28": 10,
+    "T08-T28": 1,
+    "T09-T28": 3,
+    "T05-T28": 6,
+    "T10-T28": 2,
+    "T27-T28": 1,
+    "T01-T28": 1,
+    "T03-T28": 1,
+    "T04-T29": 7,
+    "T06-T29": 6,
+    "T07-T29": 13,
+    "T05-T29": 6,
+    "T09-T29": 5,
+    "T10-T29": 4,
+    "T01-T29": 2,
+    "T08-T29": 2,
+    "T02-T29": 4,
+    "T11-T29": 1,
+    "T07-T30": 7,
+    "T06-T30": 8,
+    "T08-T30": 1,
+    "T04-T30": 1,
+    "T07-T31": 2,
+    "T06-T31": 2,
+    "T07-T32": 6,
+    "T04-T32": 2,
+    "T05-T32": 4,
+    "T06-T32": 6,
+    "T01-T32": 1,
+    "T07-T33": 1,
+    "T13-T33": 1,
+    "T31-T33": 1,
+    "T13-T34": 2,
+    "T07-T34": 2,
+    "T04-T35": 7,
+    "T07-T35": 5,
+    "T16-T35": 4,
+    "T06-T35": 7,
+    "T05-T35": 2,
+    "T13-T35": 2,
+    "T22-T35": 1,
+    "T07-T36": 4,
+    "T05-T36": 2
+  }
+}

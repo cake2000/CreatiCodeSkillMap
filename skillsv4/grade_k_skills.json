@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "T01.GK.01",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Put pictures in order for getting ready for bed",
+    "description": "**Student task:** Look at 3 pictures. Put them in order: first, next, last. **Example:** Put on pajamas, brush teeth, get in bed. _Implementation note: Drag‑drop sequence (3 items). CSTA: EK‑ALG‑AF‑01._",
+    "dependencies": [
+      "T03.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.02",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Put pictures in order for coming to class",
+    "description": "**Student task:** Look at 4 pictures. Put them in the right order. **Example:** Come in, hang up backpack, sit down, listen. _Implementation note: Drag‑drop 4 items. CSTA: EK‑ALG‑AF‑01._",
+    "dependencies": [
+      "T03.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.03",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Find the first and last pictures",
+    "description": "**Student task:** Look at pictures in order. Touch the first picture. Touch the last picture. _Implementation note: Click first/last pictures. CSTA: EK‑ALG‑AF‑01._",
+    "dependencies": [
+      "T01.GK.02",
+      "T05.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.04",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Pick the pictures that make sense",
+    "description": "**Student task:** Look at two sets of pictures. Which one makes sense? **Example:** Wash hands → dry hands → eat vs eat → wash hands → dry hands. _Implementation note: Two sequences, choose one. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑IM‑04._",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01",
+      "EK‑ALG‑IM‑04._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.05",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Move the picture that's in the wrong place",
+    "description": "**Student task:** Look at the pictures. One picture is in the wrong place. Move it to the right place. _Implementation note: Drag the \"wrong\" card into correct position. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._",
+    "dependencies": [
+      "T01.GK.03",
+      "T06.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01",
+      "EK‑ALG‑PS‑03._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.06",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "What comes next?",
+    "description": "**Student task:** Look at the first two pictures. What should come last? _Implementation note: MCQ, choose final picture. CSTA: EK‑ALG‑AF‑01._",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.07",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Find the pattern that repeats",
+    "description": "**Student task:** Watch the actions. Which two actions happen over and over? **Example:** hop–clap–hop–clap _Implementation note: Visual pattern MCQ. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._",
+    "dependencies": [
+      "T01.GK.01",
+      "T04.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01",
+      "EK‑ALG‑PS‑03._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T01.GK.08",
+    "topic_id": "T01",
+    "topic_name": "Everyday Algorithms",
+    "title": "Count how many times",
+    "description": "**Student task:** Watch the character perform a repeated action (e.g., jump, clap, spin). Count how many times by selecting from picture‑based answer choices. _Implementation note: Short animation (2–4 seconds) + picture‑based count choices showing 1-4 actions. CSTA: EK‑ALG‑AF‑01._",
+    "dependencies": [
+      "T01.GK.07",
+      "T04.GK.01",
+      "T09.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑ALG‑AF‑01._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T02.GK.01",
+    "topic_id": "T02",
+    "topic_name": "Algorithm Diagrams",
+    "title": "Recognize picture steps for a task",
+    "description": "Students look at 3–4 pictures laid out in a row with arrows between them and choose which strip shows the steps in an order that works to do the task.",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T02.GK.02",
+    "topic_id": "T02",
+    "topic_name": "Algorithm Diagrams",
+    "title": "Order 3–4 pictures to make a story",
+    "description": "Students drag 3–4 scrambled pictures into arrow‑connected boxes labeled \"1, 2, 3, 4\" to repair a simple strip of steps (e.g., a robot getting ready or reaching a toy).",
+    "dependencies": [
+      "T01.GK.01",
+      "T02.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T02.GK.03",
+    "topic_id": "T02",
+    "topic_name": "Algorithm Diagrams",
+    "title": "Use first/next/last to describe a sequence",
+    "description": "Students see 3 ordered pictures on a strip with \"First / Next / Last\" labels and choose words or icons to fill each label, describing the steps out loud.",
+    "dependencies": [
+      "T01.GK.01",
+      "T02.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T02.GK.04",
+    "topic_id": "T02",
+    "topic_name": "Algorithm Diagrams",
+    "title": "Fix one picture that is out of order",
+    "description": "Students see a 3‑picture \"robot instructions\" strip where one picture is clearly in the wrong place and drag it into the correct slot so the algorithm diagram makes sense.",
+    "dependencies": [
+      "T01.GK.01",
+      "T02.GK.03"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T03.GK.01",
+    "topic_id": "T03",
+    "topic_name": "Problem Decomposition",
+    "title": "Identify parts that make up a whole",
+    "description": "Students look at familiar objects or scenes (e.g., playground, classroom, robot) and tap pictures of individual parts (slide, swings, door, wheels).",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T03.GK.02",
+    "topic_id": "T03",
+    "topic_name": "Problem Decomposition",
+    "title": "Match parts to whole objects",
+    "description": "Students match close‑up pictures of parts (e.g., wheel, keyboard, door handle) to the whole object they belong to (car, computer, refrigerator), recognizing that parts belong to larger wholes.",
+    "dependencies": [
+      "T08.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T03.GK.03",
+    "topic_id": "T03",
+    "topic_name": "Problem Decomposition",
+    "title": "Order 3–4 pictures to show steps in a routine",
+    "description": "Students arrange 3–4 pictures to show steps in a classroom or home routine (e.g., wash hands) specifically as a *plan* for getting the task done, building on the sequence sense learned in T01.",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T03.GK.04",
+    "topic_id": "T03",
+    "topic_name": "Problem Decomposition",
+    "title": "Choose the missing middle step in a routine",
+    "description": "Students see the first and last steps of a 3‑step routine and choose the picture that fits in the middle so the *plan* for the task makes sense.",
+    "dependencies": [
+      "T03.GK.03"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T03.GK.05",
+    "topic_id": "T03",
+    "topic_name": "Problem Decomposition",
+    "title": "Describe what each step accomplishes",
+    "description": "Students look at each step in a familiar routine and select or describe what it does or what changes after that step (e.g., \"After washing hands, hands are clean\").",
+    "dependencies": [
+      "T03.GK.03"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T04.GK.01",
+    "topic_id": "T04",
+    "topic_name": "Algorithm Patterns",
+    "title": "Identify a simple repeating pattern",
+    "description": "Students look at rows of pictures or tiles and pick the row that shows a clear repeating pattern (ABAB, AABB, ABCABC), distinguishing it from broken or random rows.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T04.GK.02",
+    "topic_id": "T04",
+    "topic_name": "Algorithm Patterns",
+    "title": "Extend a repeating pattern by one tile",
+    "description": "Students see a short pattern (e.g., red, blue, red, blue, ?) and choose or drag the next picture.",
+    "dependencies": [
+      "T04.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T04.GK.03",
+    "topic_id": "T04",
+    "topic_name": "Algorithm Patterns",
+    "title": "Describe a pattern using simple words",
+    "description": "Students see a pattern and choose the matching description (e.g., “circle, square, circle, square”).",
+    "dependencies": [
+      "T04.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T04.GK.04",
+    "topic_id": "T04",
+    "topic_name": "Algorithm Patterns",
+    "title": "Fix a broken pattern by replacing one tile",
+    "description": "Students see a pattern row with one wrong picture and replace just that tile to restore the repeating pattern.",
+    "dependencies": [
+      "T04.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T05.GK.01",
+    "topic_id": "T05",
+    "topic_name": "Human‑Centered Design",
+    "title": "Name who a tool helps",
+    "description": "Students see a picture of a person and a tool (e.g., grandparent + smartphone) and choose “Who does this help?” from options.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T05.GK.02",
+    "topic_id": "T05",
+    "topic_name": "Human‑Centered Design",
+    "title": "Match a simple problem to a helpful tool",
+    "description": "Students match simple everyday problems (e.g., “It’s dark”) to tools that help (e.g., flashlight).",
+    "dependencies": [
+      "T05.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T05.GK.03",
+    "topic_id": "T05",
+    "topic_name": "Human‑Centered Design",
+    "title": "Decide which version is easier to use",
+    "description": "Students compare two pictures of an interface/tool (big vs tiny button, clear vs cluttered screen) and choose which is easier.",
+    "dependencies": [
+      "T05.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T05.GK.04",
+    "topic_id": "T05",
+    "topic_name": "Human‑Centered Design",
+    "title": "Choose a change that makes something easier",
+    "description": "Students pick one change (bigger button, clearer text, speaker icon for sound) that would help a character use a device.",
+    "dependencies": [
+      "T05.GK.03",
+      "T08.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T06.GK.01",
+    "topic_id": "T06",
+    "topic_name": "Events & Sequences",
+    "title": "Order pictures showing a morning routine (event sequence concept)",
+    "description": "Students arrange 3-4 picture cards showing a simple morning routine in the correct order (e.g., wake up → brush teeth → eat breakfast → go to school). This unplugged activity builds foundational understanding of event sequences and chronological ordering without coding. Use familiar, concrete scenarios from daily life that children can relate to.",
+    "dependencies": [
+      "T01.GK.01",
+      "T05.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T06.GK.02",
+    "topic_id": "T06",
+    "topic_name": "Events & Sequences",
+    "title": "Match \"first\" and \"next\" words to pictures in a sequence",
+    "description": "Students match the words \"first,\" \"next,\" and \"last\" to pictures in a simple 3-step sequence (e.g., planting a seed: first dig hole, next put seed in, last cover with dirt). This introduces sequencing vocabulary essential for understanding event-driven programming concepts.",
+    "dependencies": [
+      "T01.GK.01",
+      "T05.GK.01",
+      "T06.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T06.GK.03",
+    "topic_id": "T06",
+    "topic_name": "Events & Sequences",
+    "title": "Predict what happens \"after this\" in a picture sequence",
+    "description": "Given 2-3 pictures showing the start of a familiar sequence, students choose what picture comes next from 2-3 options (e.g., \"If you put on your shoes, what happens next?\"). This develops cause-and-effect thinking and prediction skills foundational to understanding event triggers.",
+    "dependencies": [
+      "T01.GK.01",
+      "T05.GK.01",
+      "T06.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T08.GK.01",
+    "topic_id": "T08",
+    "topic_name": "Conditions & Logic",
+    "title": "Match pictures to \"if it rains\" rules",
+    "description": "Students look at pictures showing weather and actions. Match the picture to the correct \"If it rains, then...\" sentence. For example, match umbrella picture to \"If it rains, then use an umbrella.\" This is a drag-and-drop matching activity with 3-4 items that introduces the concept of conditional rules using familiar, concrete examples.",
+    "dependencies": [
+      "T01.GK.04",
+      "T06.GK.01"
+    ],
+    "csta_codes": [
+      "EK-ALG-AF-01"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T08.GK.02",
+    "topic_id": "T08",
+    "topic_name": "Conditions & Logic",
+    "title": "Choose what happens next based on yes/no",
+    "description": "Students look at a picture and a yes/no question, then choose what happens next. For example, \"Is the light green?\" If yes, walk. If no, wait. This is a multiple-choice question with 2 picture choices that builds understanding of binary decision-making.",
+    "dependencies": [
+      "T08.GK.01"
+    ],
+    "csta_codes": [
+      "EK-ALG-AF-01"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T09.GK.01",
+    "topic_id": "T09",
+    "topic_name": "Variables & Expressions",
+    "title": "Recognize that a label can hold a number",
+    "description": "**Student task:** Look at pictures showing labels with numbers (e.g., \"Score: 5\", \"Lives: 3\", \"Stars: 2\"). Match each label to what it counts. _Implementation note: Picture-based matching activity. CSTA: EK‑PRO‑PF‑02._",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑PRO‑PF‑02._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T09.GK.02",
+    "topic_id": "T09",
+    "topic_name": "Variables & Expressions",
+    "title": "Identify which label changed after an action",
+    "description": "**Student task:** Look at two pictures: before and after. Find which label changed (e.g., \"Score went from 2 to 3\"). _Implementation note: Click-select activity comparing before/after states. CSTA: EK‑PRO‑PF‑02._",
+    "dependencies": [
+      "T05.GK.01",
+      "T09.GK.01"
+    ],
+    "csta_codes": [
+      "EK‑PRO‑PF‑02._"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.01",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Sort picture cards into groups",
+    "description": "Students sort 4-6 picture cards into 2-3 groups based on a visible attribute (color, shape, or type). For example: sort animals into \"pets\" and \"wild animals,\" or sort shapes into \"circles\" and \"not circles.\" This builds the foundational concept of categorization.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.02",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Count items in each group",
+    "description": "After sorting items into groups, students count how many items are in each group and select the count from picture-based answer choices (showing 1, 2, 3, or 4 dots/items).",
+    "dependencies": [
+      "T09.GK.01",
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.03",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Find which group has more",
+    "description": "Students compare two groups of sorted items and identify which group has more items. Answer choices show pictures of the two groups.",
+    "dependencies": [
+      "T10.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.04",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Add an item to the right group",
+    "description": "Students are shown sorted groups and one new item. They decide which group the new item belongs to and drag it there.",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.05",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Find the first and last item in a row",
+    "description": "Students identify the first and last item in a row of 3-5 picture cards arranged in order (left to right).",
+    "dependencies": [
+      "T01.GK.01",
+      "T01.GK.03"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.06",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Look at a simple picture table",
+    "description": "Students view a simple 2x3 or 3x3 picture table (e.g., a chart showing which child likes which fruit) and answer questions like \"What does Sam like?\" by tapping the correct cell.",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.07",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Match items that go together",
+    "description": "Students match pairs of related items (e.g., match animals to their homes, match tools to their uses) by drawing lines or dragging.",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T10.GK.08",
+    "topic_id": "T10",
+    "topic_name": "Lists & Tables",
+    "title": "Find all items with a special mark",
+    "description": "Students identify all items in a collection that have a special visual mark (star, checkmark, red border) and count them.",
+    "dependencies": [
+      "T01.GK.01",
+      "T09.GK.01",
+      "T10.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T13.GK.01",
+    "topic_id": "T13",
+    "topic_name": "Testing, Debugging & Error Handling",
+    "title": "Spot a missing or wrong action in an animation",
+    "description": "Students watch a short picture story or animation and compare what happens to what was supposed to happen (e.g., the character should jump but doesn't, or moves the wrong direction). They simply point to or circle the moment something went wrong without explaining why or fixing it.",
+    "dependencies": [
+      "T01.GK.05",
+      "T02.GK.01",
+      "T06.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T13.GK.02",
+    "topic_id": "T13",
+    "topic_name": "Testing, Debugging & Error Handling",
+    "title": "Retry after noticing something went wrong",
+    "description": "Students follow a simple set of picture steps for a task (e.g., stacking blocks, moving a character on a board), notice when the result is not what was intended, and try the steps again from the beginning. They experience the \"try, check, retry\" cycle without changing the steps themselves.",
+    "dependencies": [
+      "T13.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T13.GK.03",
+    "topic_id": "T13",
+    "topic_name": "Testing, Debugging & Error Handling",
+    "title": "Fix a single wrong direction or action in steps",
+    "description": "Students \"play computer\" by acting out or watching a character follow a short list of picture steps to reach a fun goal (like a treasure or door). When the character ends up in the wrong place or does something silly, they identify which one movement is wrong (e.g., an arrow pointing left instead of right, or \"sit down\" too early) and swap it for a better step so the routine works.",
+    "dependencies": [
+      "T06.GK.01",
+      "T08.GK.01",
+      "T13.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T14.GK.01",
+    "topic_id": "T14",
+    "topic_name": "2D Games",
+    "title": "Match controls to character actions",
+    "description": "Students drag arrow key cards (up, down, left, right) or action button cards (jump, run) onto pictures showing the matching movement or reaction (up arrow → character jumps up, right arrow → character walks right). They connect specific keyboard inputs to predictable character responses. _Implementation note: Match 4–6 input-action pairs via drag-and-drop. CSTA: 1A-AP-11.__",
+    "dependencies": [
+      "T06.GK.01",
+      "T02.GK.01"
+    ],
+    "csta_codes": [
+      "1A-AP-11.__"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T14.GK.02",
+    "topic_id": "T14",
+    "topic_name": "2D Games",
+    "title": "Recognize a score in simple games",
+    "description": "Students compare before/after pictures of a score counter and gameplay moments (collecting a star, hitting a hazard) to see when the score changes and what it signals. _CSTA: 1A-AP-09.__",
+    "dependencies": [
+      "T06.GK.01",
+      "T08.GK.01",
+      "T09.GK.01"
+    ],
+    "csta_codes": [
+      "1A-AP-09.__"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T14.GK.03",
+    "topic_id": "T14",
+    "topic_name": "2D Games",
+    "title": "Identify when a game starts and ends",
+    "description": "Students observe a simple game story with a clear beginning (Start screen) and ending (Game Over). They identify which pictures show the start, play, and end of the game. _CSTA: 1A-AP-08.__",
+    "dependencies": [
+      "T05.GK.01",
+      "T06.GK.01",
+      "T08.GK.01"
+    ],
+    "csta_codes": [
+      "1A-AP-08.__"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T14.GK.04",
+    "topic_id": "T14",
+    "topic_name": "2D Games",
+    "title": "Match rewards to goals",
+    "description": "Students match pictures of finishing a level (touching a flag, clearing a board) to appropriate celebration panels (You Win text, trophy, fireworks) so they connect goals to feedback. _CSTA: 1A-AP-11.__",
+    "dependencies": [
+      "T14.GK.02",
+      "T14.GK.03"
+    ],
+    "csta_codes": [
+      "1A-AP-11.__"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T15.GK.01",
+    "topic_id": "T15",
+    "topic_name": "Stories & Animation",
+    "title": "Sequence story pictures",
+    "description": "Students arrange 3 picture panels to tell a simple story (e.g., Wake up -> Eat -> Play).",
+    "dependencies": [
+      "T01.GK.01",
+      "T08.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T15.GK.02",
+    "topic_id": "T15",
+    "topic_name": "Stories & Animation",
+    "title": "Match emotions to faces",
+    "description": "Students identify the emotion of a character based on their facial expression or pose (Happy, Sad, Surprised).",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T15.GK.03",
+    "topic_id": "T15",
+    "topic_name": "Stories & Animation",
+    "title": "Identify speech bubbles",
+    "description": "Students look at a picture with characters and speech bubbles and identify who is speaking or what they are saying.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T18.GK.01",
+    "topic_id": "T18",
+    "topic_name": "3D Worlds & Games",
+    "title": "Explore 3D shapes in the real world",
+    "description": "Students identify and describe common 3D shapes (boxes/cubes, balls/spheres, cylinders/cans) in their classroom and daily life, building spatial awareness by feeling, drawing, and comparing these shapes before encountering them digitally.",
+    "dependencies": [
+      "T09.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T20.GK.01",
+    "topic_id": "T20",
+    "topic_name": "Algorithmic Art & Creative Coding",
+    "title": "Picture pattern detective",
+    "description": "Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row “repeat” using everyday words.",
+    "dependencies": [
+      "T04.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T20.GK.02",
+    "topic_id": "T20",
+    "topic_name": "Algorithmic Art & Creative Coding",
+    "title": "Order art steps with cards",
+    "description": "Learners drag picture cards showing simple art steps like \"pick red crayon,\" \"draw big circle,\" \"add yellow dots\" to match a finished coloring page. Cards show clear action pictures, no text needed.",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T20.GK.03",
+    "topic_id": "T20",
+    "topic_name": "Algorithmic Art & Creative Coding",
+    "title": "Continue the pattern trail",
+    "description": "Students continue a pattern along a dotted path (e.g., flower-heart-flower-heart). They focus on spatial placement and rhythm.",
+    "dependencies": [
+      "T04.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T20.GK.04",
+    "topic_id": "T20",
+    "topic_name": "Algorithmic Art & Creative Coding",
+    "title": "Fix the mixed-up art plan (picture-only)",
+    "description": "Students look at a 3-step visual art plan with one incorrect picture card (e.g., a color that breaks the pattern) and drag-and-drop the correct card from a small set. No text reading required—all instructions are visual.",
+    "dependencies": [
+      "T04.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T21.GK.01",
+    "topic_id": "T21",
+    "topic_name": "AI Media",
+    "title": "Tell which pictures look like AI made them",
+    "description": "Students compare pairs of pictures (one photograph, one AI-generated) and identify which looks computer-made by noticing clues like unnatural patterns, odd details, or too-perfect symmetry. This picture-based activity builds foundational AI media literacy without requiring any coding.\nActivity Type: Picture comparison with visual analysis\nEstimated Time: 3-4 minutes",
+    "dependencies": [
+      "T04.GK.01"
+    ],
+    "csta_codes": [
+      "1A-IC-16 (Compare how people lived and worked before and with technology)"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T21.GK.02",
+    "topic_id": "T21",
+    "topic_name": "AI Media",
+    "title": "Match the picture to the words that describe it",
+    "description": "Students see an AI-generated image and choose which word set best describes it from picture cards (e.g., \"happy dog in park\" vs \"sad cat indoors\"). This introduces prompt vocabulary in a developmentally appropriate way using visual matching rather than text generation.\nActivity Type: Drag-and-drop matching\nEstimated Time: 3-4 minutes",
+    "dependencies": [
+      "T21.GK.01"
+    ],
+    "csta_codes": [
+      "1A-IC-16"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T21.GK.03",
+    "topic_id": "T21",
+    "topic_name": "AI Media",
+    "title": "Pick the helper that can talk back",
+    "description": "Students identify which devices can answer questions (smart speaker, robot toy with AI) vs which cannot (stuffed animal, picture frame). This introduces AI as responsive technology. Students sort picture cards into \"can talk back\" and \"cannot talk back\" categories.\nActivity Type: Picture sorting\nEstimated Time: 2-3 minutes",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [
+      "1A-IC-16"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T22.GK.01",
+    "topic_id": "T22",
+    "topic_name": "Chatbots & Prompting",
+    "title": "Recognize a talking helper vs a silent toy",
+    "description": "Students look at picture pairs (a smart speaker that answers questions vs a stuffed animal, or a phone assistant vs a regular clock) and circle which one can talk back when you ask it something. This introduces the idea that some devices can have conversations.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T22.GK.02",
+    "topic_id": "T22",
+    "topic_name": "Chatbots & Prompting",
+    "title": "Practice asking a picture helper a friendly question",
+    "description": "Students see a cartoon of a friendly robot helper. They choose from picture cards showing different ways to ask for help (pointing politely vs grabbing, saying \"please\" vs demanding). They learn that helpers respond better to kind requests.",
+    "dependencies": [
+      "T22.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T23.GK.01",
+    "topic_id": "T23",
+    "topic_name": "AI Perception",
+    "title": "Match pictures of sensing",
+    "description": "Students drag friendly icons (eye, ear, hand) onto photos showing someone looking, listening, or pressing a big button, building the idea that helpers need different kinds of sensing. All activities use pictures and physical objects—no screens or blocks.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T23.GK.02",
+    "topic_id": "T23",
+    "topic_name": "AI Perception",
+    "title": "Point to where a device \"looks\" or \"listens\"",
+    "description": "Students tap the camera spot on a tablet and the speaker/mic area on a toy or smart speaker, connecting device parts to senses. They use picture cards and physical devices—no code or programming environment.",
+    "dependencies": [
+      "T23.GK.01",
+      "T03.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T23.GK.03",
+    "topic_id": "T23",
+    "topic_name": "AI Perception",
+    "title": "Choose when to uncover or quiet a helper",
+    "description": "In illustrated scenarios (covering a camera with a sticker, talking over loud music), students choose the action that lets the helper sense again (remove the sticker, make it quieter). Uses picture-based decision cards only.",
+    "dependencies": [
+      "T06.GK.01",
+      "T23.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T24.GK.01",
+    "topic_id": "T24",
+    "topic_name": "XO & Generative AI Practices",
+    "title": "Identify AI as a computer helper",
+    "description": "Students learn that AI is a special computer program that can help with tasks like talking, drawing, and answering questions. Through picture-based activities, they match examples of AI helpers (voice assistants, chatbots, drawing tools) to what they do.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T24.GK.02",
+    "topic_id": "T24",
+    "topic_name": "XO & Generative AI Practices",
+    "title": "Recognize AI-made vs human-made pictures",
+    "description": "Students view pairs of pictures (one AI-generated, one human-drawn) and identify which is which. They discuss clues like unusual details or perfect symmetry that hint at AI creation.",
+    "dependencies": [
+      "T24.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T24.GK.03",
+    "topic_id": "T24",
+    "topic_name": "XO & Generative AI Practices",
+    "title": "Give simple instructions to an AI helper",
+    "description": "Students practice giving clear, one-sentence instructions to an AI (e.g., \"Draw a happy cat\"). They compare results when instructions are vague vs specific.",
+    "dependencies": [
+      "T24.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T25.GK.01",
+    "topic_id": "T25",
+    "topic_name": "Data Representation",
+    "title": "Spot data in everyday objects",
+    "description": "Students decide whether a card shows a picture, a word, or a numeral and explain what information it carries. This builds foundational awareness that data can appear in multiple forms.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T25.GK.02",
+    "topic_id": "T25",
+    "topic_name": "Data Representation",
+    "title": "Match quantities to symbols",
+    "description": "Students count a small set of items and choose a symbol (tally marks, dots, stickers) to represent the quantity, reinforcing that symbols can encode counts.",
+    "dependencies": [
+      "T25.GK.01",
+      "T09.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T25.GK.03",
+    "topic_id": "T25",
+    "topic_name": "Data Representation",
+    "title": "Build a two-symbol legend",
+    "description": "Given two emotions or states (happy/sad, hot/cold), students invent or select symbols to stand for each and use them to label pictures. This sets up later ideas about legends in charts.",
+    "dependencies": [
+      "T25.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T26.GK.01",
+    "topic_id": "T26",
+    "topic_name": "Data Collection & Logging",
+    "title": "Identify countable things in a picture",
+    "description": "Students scan a picture of a classroom and point to objects they could count (books, chairs, students), building awareness that we can collect information by counting things we see.",
+    "dependencies": [
+      "T01.GK.08",
+      "T09.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T26.GK.02",
+    "topic_id": "T26",
+    "topic_name": "Data Collection & Logging",
+    "title": "Use tokens to log repeated events",
+    "description": "Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first \"log.\"",
+    "dependencies": [
+      "T04.GK.01",
+      "T05.GK.01",
+      "T09.GK.01",
+      "T26.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T26.GK.03",
+    "topic_id": "T26",
+    "topic_name": "Data Collection & Logging",
+    "title": "Capture yes/no answers with smile/frown cards",
+    "description": "Students ask a peer a yes/no question and place the response card into the correct bin, making a physical tally.",
+    "dependencies": [
+      "T26.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T27.GK.01",
+    "topic_id": "T27",
+    "topic_name": "Data Analysis & Storytelling",
+    "title": "Sort objects by a rule and explain it",
+    "description": "In this unplugged picture-based activity, students physically group objects (shapes, animals) and state the sorting rule (\"all red things\"), reinforcing that analysis starts with describing criteria.",
+    "dependencies": [
+      "T05.GK.01",
+      "T09.GK.01",
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T27.GK.02",
+    "topic_id": "T27",
+    "topic_name": "Data Analysis & Storytelling",
+    "title": "Compare which group has more",
+    "description": "Learners count two piles (≤5 each) and state which is larger or if they match, building comparative reasoning.",
+    "dependencies": [
+      "T09.GK.01",
+      "T27.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T27.GK.03",
+    "topic_id": "T27",
+    "topic_name": "Data Analysis & Storytelling",
+    "title": "Read a two-column picture chart",
+    "description": "Students interpret which category wins using a pictograph (one icon per item), establishing the basic concept of visual comparisons.",
+    "dependencies": [
+      "T27.GK.02",
+      "T10.GK.06"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T29.GK.01",
+    "topic_id": "T29",
+    "topic_name": "Text Data & NLP Foundations",
+    "title": "Recognize text vs pictures",
+    "description": "Students sort cards showing text (words/letters), pictures, and numbers into separate groups, identifying text as \"letters that make words we can read.\"",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T29.GK.02",
+    "topic_id": "T29",
+    "topic_name": "Text Data & NLP Foundations",
+    "title": "Identify letters in text",
+    "description": "Given simple words (CAT, DOG, SUN), students point to individual letters and count how many letters are in each word, building awareness of text structure.",
+    "dependencies": [
+      "T09.GK.01",
+      "T29.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T29.GK.03",
+    "topic_id": "T29",
+    "topic_name": "Text Data & NLP Foundations",
+    "title": "Recognize that text has meaning",
+    "description": "Students match simple written words to pictures (matching \"CAT\" to cat picture), understanding that text represents things and carries meaning.",
+    "dependencies": [
+      "T29.GK.02"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T30.GK.01",
+    "topic_id": "T30",
+    "topic_name": "Devices & Hardware Systems",
+    "title": "Identify everyday computing devices",
+    "description": "Students circle devices (tablet, smart speaker, traffic light controller) and explain one job each device performs.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T30.GK.02",
+    "topic_id": "T30",
+    "topic_name": "Devices & Hardware Systems",
+    "title": "Match devices to actions",
+    "description": "Learners match pictures (camera, speaker, automatic door) to simple descriptions (“takes pictures,” “plays sound,” “opens when someone walks up”).",
+    "dependencies": [
+      "T08.GK.01",
+      "T30.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T30.GK.03",
+    "topic_id": "T30",
+    "topic_name": "Devices & Hardware Systems",
+    "title": "Recognize input vs output examples",
+    "description": "Students categorize simple objects (microphone, light bulb, button, screen) as sending information into a computer or out to people.",
+    "dependencies": [
+      "T30.GK.02",
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T31.GK.01",
+    "topic_id": "T31",
+    "topic_name": "Internet & Cloud: Kindergarten",
+    "title": "Recognize devices that connect to the internet (picture-based)",
+    "description": "Students look at pictures of various devices (tablet, laptop, smart speaker, game console, watch) and sort them into \"connects to internet\" vs \"does not need internet\" categories through picture-based activities.",
+    "dependencies": [],
+    "csta_codes": [
+      "EK-SAS-NW-02"
+    ],
+    "ai4k12": null
+  },
+  {
+    "id": "T32.GK.01",
+    "topic_id": "T32",
+    "topic_name": "Cybersecurity & Digital Safety",
+    "title": "Spot safe vs unsafe sharing",
+    "description": "Students sort illustrated cards (favorite color vs home address) into \"OK to share\" and \"Private\" bins and practice saying \"Ask a trusted adult.\" Teacher reviews student responses.",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T32.GK.02",
+    "topic_id": "T32",
+    "topic_name": "Cybersecurity & Digital Safety",
+    "title": "Recognize when to ask for help online",
+    "description": "Learners hear short scenario stories (stranger asking for photo, upsetting message) and decide to stop and tell an adult.",
+    "dependencies": [
+      "T32.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T32.GK.03",
+    "topic_id": "T32",
+    "topic_name": "Cybersecurity & Digital Safety",
+    "title": "Understand that passwords keep things safe",
+    "description": "Students compare visual representations of passwords using picture-based examples. They see a weak password shown as \"cat\" (3 letters, easy to guess) compared to a longer password represented with pictures showing different character types (letters, numbers, symbols). They identify which is harder to guess by comparing length and variety visually.",
+    "dependencies": [
+      "T32.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T32.GK.04",
+    "topic_id": "T32",
+    "topic_name": "Cybersecurity & Digital Safety",
+    "title": "Distinguish online vs offline activities",
+    "description": "Students sort picture cards showing activities (playing outside, watching videos on tablet, reading a book, video calling grandma) into \"Online\" and \"Offline\" groups. They discuss which activities need internet and which don't.",
+    "dependencies": [
+      "T08.GK.01",
+      "T32.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T33.GK.01",
+    "topic_id": "T33",
+    "topic_name": "Connected Services",
+    "title": "Recognize that apps can talk to helpers on the internet",
+    "description": "Using illustrated scenes, students identify apps that need the internet to work (weather apps, video streaming, voice assistants) versus apps that work offline (calculator, drawing app). They point to cloud/internet symbols and explain that some apps ask \"helpers on the internet\" for information or answers.",
+    "dependencies": [
+      "T30.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T34.GK.01",
+    "topic_id": "T34",
+    "topic_name": "Computing History",
+    "title": "Spot computing tools in daily life",
+    "description": "Students identify devices (tablet, smart speaker, checkout scanner) in illustrated scenes and describe one job each performs.",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T34.GK.02",
+    "topic_id": "T34",
+    "topic_name": "Computing History",
+    "title": "Match old vs new versions of tech",
+    "description": "Learners compare paired images (rotary phone vs smartphone, bulky PC vs tablet) to grasp that technology changes over time.",
+    "dependencies": [
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T34.GK.03",
+    "topic_id": "T34",
+    "topic_name": "Computing History",
+    "title": "Name a person who uses computers in their job",
+    "description": "Students connect everyday professions (teacher, nurse, mechanic) with computing tools they rely on.",
+    "dependencies": [
+      "T34.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T35.GK.01",
+    "topic_id": "T35",
+    "topic_name": "Impacts & Ethics",
+    "title": "Identify a helpful use of technology",
+    "description": "Students pick pictures showing technology helping someone (video call grandma, drawing app for homework).",
+    "dependencies": [],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T35.GK.02",
+    "topic_id": "T35",
+    "topic_name": "Impacts & Ethics",
+    "title": "Recognize signs of too much screen time",
+    "description": "Students look at pictures showing different screen time scenarios (tired eyes, missing outdoor play, energetic after break) and connect them to feelings (tired/happy) to recognize signs of too much screen time.",
+    "dependencies": [
+      "T01.GK.01",
+      "T08.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T35.GK.03",
+    "topic_id": "T35",
+    "topic_name": "Impacts & Ethics",
+    "title": "Practice device sharing etiquette",
+    "description": "Students sort picture cards showing sharing behaviors (waiting your turn, asking nicely, grabbing) into \"kind\" and \"not kind\" categories to learn respectful device use.",
+    "dependencies": [
+      "T01.GK.01",
+      "T10.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T35.GK.04",
+    "topic_id": "T35",
+    "topic_name": "Impacts & Ethics",
+    "title": "Choose safe sharing in role-play",
+    "description": "Students act out scenarios deciding whether to share personal information (name, photo) with a pretend app character, choosing 'yes' or 'no' cards to practice safe information sharing.",
+    "dependencies": [
+      "T08.GK.01",
+      "T35.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T36.GK.01",
+    "topic_id": "T36",
+    "topic_name": "Careers, Collaboration & Future Paths",
+    "title": "Match community helpers to digital tools",
+    "description": "Students drag pictures of workers (teacher, doctor, farmer, artist) onto the tools they use (tablet, scanner, drone, camera) and say one way the tool helps.",
+    "dependencies": [
+      "T01.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T36.GK.02",
+    "topic_id": "T36",
+    "topic_name": "Careers, Collaboration & Future Paths",
+    "title": "Take turns using a device to complete a task together",
+    "description": "Learners pick the kind response in sharing scenarios (two kids want the tablet) and practice taking turns to complete a collaborative task on a device.",
+    "dependencies": [
+      "T36.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  },
+  {
+    "id": "T36.GK.03",
+    "topic_id": "T36",
+    "topic_name": "Careers, Collaboration & Future Paths",
+    "title": "Describe what a digital tool helps someone do",
+    "description": "Given a picture of someone using a tool (drawing app, video call), students say what job or task it helps with.",
+    "dependencies": [
+      "T36.GK.01"
+    ],
+    "csta_codes": [],
+    "ai4k12": null
+  }
+]

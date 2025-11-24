@@ -1,0 +1,33 @@
+GRADE 2 (T21-T36) MISSING CROSS-TOPIC DEPENDENCIES
+================================================================================
+Conservative recommendations following X-2 rule
+Only adding clearly necessary cross-topic dependencies
+================================================================================
+
+T21.G2.02: Add dependency T35.GK.04 - Reason: Understanding why AI needs checking requires awareness of safe vs unsafe content
+T22.G2.02: Add dependency T32.GK.01 - Reason: Recognizing private information in chat requires foundational privacy concepts
+T23.G2.01: Add dependency T30.GK.01 - Reason: Understanding sensors requires knowing what devices are
+T23.G2.02: Add dependency T30.GK.01 - Reason: Understanding sensor limitations requires hardware knowledge
+T23.G2.03: Add dependency T30.GK.01 - Reason: Distinguishing sensor input from commands requires hardware understanding
+T24.G2.01: Add dependency T01.GK.02 - Reason: Understanding multi-step AI demonstrations requires sequencing concepts
+T26.G2.01: Add dependency T25.GK.01 - Reason: Distinguishing data types requires understanding data representation
+T26.G2.03: Add dependency T25.GK.01 - Reason: Collecting duration data requires understanding how data is represented
+T26.G2.05: Add dependency T25.GK.01 - Reason: Conducting surveys requires understanding how to structure data
+T27.G2.01: Add dependency T26.GK.01 - Reason: Creating charts requires understanding data collection
+T27.G2.01: Add dependency T25.GK.01 - Reason: Creating charts requires understanding data representation
+T27.G2.04: Add dependency T26.GK.01 - Reason: Analyzing data requires understanding data collection
+T28.G2.04: Add dependency T26.GK.01 - Reason: Making predictions requires understanding data collection
+T29.G2.04: Add dependency T01.GK.02 - Reason: Find and replace operations require sequential processing understanding
+T31.G2.01: Add dependency T30.GK.01 - Reason: Understanding internet connections requires knowing about devices
+T32.G2.01: Add dependency T30.GK.01 - Reason: Creating passwords requires understanding devices that use them
+T32.G2.01: Add dependency T35.GK.04 - Reason: Password security connects to safe information sharing practices
+T32.G2.04: Add dependency T30.GK.01 - Reason: Device care requires understanding what devices are
+T32.G2.05: Add dependency T30.GK.01 - Reason: Understanding suspicious links requires device/internet knowledge
+T32.G2.05: Add dependency T35.GK.04 - Reason: Recognizing dangers requires judgment about safe sharing
+T32.G2.06: Add dependency T30.GK.01 - Reason: Understanding authentication requires device knowledge
+T33.G2.01: Add dependency T31.GK.01 - Reason: Understanding app connectivity requires network/internet basics
+T34.G2.01: Add dependency T30.GK.01 - Reason: Comparing past/present technology requires hardware understanding
+T36.G2.04: Add dependency T35.GK.01 - Reason: Understanding digital creation careers requires awareness of technology impacts
+
+================================================================================
+Total recommendations: 24

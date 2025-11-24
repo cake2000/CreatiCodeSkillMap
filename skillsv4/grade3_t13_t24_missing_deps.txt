@@ -1,0 +1,572 @@
+GRADE 3 TOPICS T13-T24 MISSING DEPENDENCIES
+Total: 142 missing dependencies found
+================================================================================
+
+SKILL_ID: T13.G3.00: Recognize when a CreatiCode script has errors
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T13.G3.01: Test and trace simple block-based scripts
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T13.G3.02: Fix a wrong block in a sequence
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T13.G3.03: Debug a script with a missing block
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T13.G3.04: Practice the debugging cycle: run, observe, change, test again
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T13.G3.04: Practice the debugging cycle: run, observe, change, test again
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T13.G3.04: Practice the debugging cycle: run, observe, change, test again
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T13.G3.05: Identify and explain which block causes unexpected behavior
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T14.G3.01.01: Move sprite left and right with arrow keys
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.01.02: Move sprite in 4 directions with arrow keys
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.02: Keep sprite on screen
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.02: Keep sprite on screen
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.03: Detect touching a goal
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T14.G3.03: Detect touching a goal
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T14.G3.03: Detect touching a goal
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.04.01: Detect touching a hazard using sprite collision
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T14.G3.04.01: Detect touching a hazard using sprite collision
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.04.01: Detect touching a hazard using sprite collision
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.04.02: Detect touching a hazard using color collision
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.04.02: Detect touching a hazard using color collision
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.05: Create a start screen
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T14.G3.06: Switch to game mode
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T14.G3.06: Switch to game mode
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.06: Switch to game mode
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.07: Trigger Game Over
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.07: Trigger Game Over
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.08: Add sound effects to actions
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.08: Add sound effects to actions
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.09: Visual effects on interaction
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.09: Visual effects on interaction
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.10: Create collectible items
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T14.G3.10: Create collectible items
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T14.G3.10: Create collectible items
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T14.G3.11: Simple jump with key press
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T14.G3.11: Simple jump with key press
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: Games typically need variables for state/scoring
+
+SKILL_ID: T15.G3.00.01: Understand sprite appearance
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.00.01: Understand sprite appearance
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.00.03: Customize costumes in paint editor
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.00.03: Customize costumes in paint editor
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.01: Change sprite position
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.01: Change sprite position
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.01.01: Smooth movement with glide
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.02: Simple size animation
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T15.G3.03: Reset sprite on start
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.04: Display speech with say blocks
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.04: Display speech with say blocks
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T15.G3.04: Display speech with say blocks
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.05: Display thoughts with think blocks
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.05: Display thoughts with think blocks
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.08: Click to talk
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.09: Key press animation
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.09: Key press animation
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.11: Create label widgets for persistent text
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T15.G3.11: Create label widgets for persistent text
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.11.01: Position labels for titles and UI elements
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.11.01: Position labels for titles and UI elements
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T15.G3.11.01: Position labels for titles and UI elements
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.11.02: Update label text for dynamic displays
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T15.G3.11.02: Update label text for dynamic displays
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.11.02: Update label text for dynamic displays
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.11.02: Update label text for dynamic displays
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.12: Print temporary text at positions
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T15.G3.12: Print temporary text at positions
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.12: Print temporary text at positions
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.12.01: Create timed and sprite-relative text
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.12.01: Create timed and sprite-relative text
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T15.G3.12.01: Create timed and sprite-relative text
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.12.01: Create timed and sprite-relative text
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T15.G3.12.02: Clear printed text for scene changes
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T15.G3.12.02: Clear printed text for scene changes
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T15.G3.12.02: Clear printed text for scene changes
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Animations/stories need events for sequencing
+
+SKILL_ID: T16.G3.01: Add a button widget to the stage
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.02: Handle a button click event
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.02.01: Handle any button click with a single script
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.02.01: Handle any button click with a single script
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T16.G3.02.01: Handle any button click with a single script
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.03: Add a label widget to display text
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T16.G3.03: Add a label widget to display text
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T16.G3.03: Add a label widget to display text
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.04: Update label text dynamically
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T16.G3.04: Update label text dynamically
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T16.G3.04: Update label text dynamically
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.04.01: Append text to labels and textboxes
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.04.01: Append text to labels and textboxes
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T16.G3.04.01: Append text to labels and textboxes
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.05: Add a textbox widget for user input
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.05: Add a textbox widget for user input
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T16.G3.05: Add a textbox widget for user input
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.06: Get text from a textbox widget
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.07: Show and hide widgets
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T16.G3.07: Show and hide widgets
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.07.01: Remove widgets from the stage
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.07.01: Remove widgets from the stage
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T16.G3.08: Position and resize widgets
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: UI widgets need event handling
+
+SKILL_ID: T17.G3.02: Predict direction and distance of sprite motion
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T18.G3.01: Interpret 3D axis directions
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T18.G3.01: Interpret 3D axis directions
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.02: Match camera views to 3D layouts
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T18.G3.02: Match camera views to 3D layouts
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.03: Initialize a 3D scene with a specific environment
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T18.G3.03: Initialize a 3D scene with a specific environment
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T18.G3.04.01: Add a box shape to the 3D scene
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.04.02: Add a sphere shape to the 3D scene
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.04.03: Add a cylinder shape to the 3D scene
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.06.01: Change shape color using basic color picker
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T18.G3.06.01: Change shape color using basic color picker
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.06.02: Adjust shape transparency
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T18.G3.07: Move a 3D player with keyboard input
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T18.G3.07: Move a 3D player with keyboard input
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T18.G3.08: Trace a short 3D script to predict positions
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T18.G3.08: Trace a short 3D script to predict positions
+ADD DEPENDENCY: T09.GK.01: Recognize that a label can hold a number
+REASON: 3D projects often need variables for positions/states
+
+SKILL_ID: T20.G3.02: Program a repeating border with loops
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T20.G3.05.01: Use variables to change pattern size
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T20.G3.05.01: Use variables to change pattern size
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T21.G3.01: Tell whether media was AI-generated or recorded
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T21.G3.01: Tell whether media was AI-generated or recorded
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T21.G3.01: Tell whether media was AI-generated or recorded
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T21.G3.02: Describe what you want AI to create using simple words
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T22.G3.01: Identify chatbot behavior from fixed button replies
+ADD DEPENDENCY: T07.G2.01: Identify when to use "repeat" vs "do once"
+REASON: Uses loops/repetition concept
+
+SKILL_ID: T22.G3.01: Identify chatbot behavior from fixed button replies
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T22.G3.02: Make a simple ChatGPT request using blocks to ask questions
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T22.G3.03: Display ChatGPT responses in speech bubbles or text
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T23.G3.01: Describe a picture as a grid of tiny colors
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T23.G3.01: Describe a picture as a grid of tiny colors
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T23.G3.02: Describe sound as a wavy line of loud/soft
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T23.G3.03: Tell whether a behavior uses sensing and guessing
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T23.G3.03: Tell whether a behavior uses sensing and guessing
+ADD DEPENDENCY: T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+REASON: Uses events for interaction
+
+SKILL_ID: T23.G3.03: Tell whether a behavior uses sensing and guessing
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T24.G3.00: Use basic speech recognition blocks
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T24.G3.00: Use basic speech recognition blocks
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T24.G3.01: Use speech-to-text to control a sprite
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T24.G3.02: Evaluate if AI output matches the request
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T24.G3.02: Evaluate if AI output matches the request
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T24.G3.02: Evaluate if AI output matches the request
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T24.G3.03: Revise a prompt to improve AI results
+ADD DEPENDENCY: T08.GK.01: Match pictures to "if it rains" rules
+REASON: Uses conditionals/branching
+
+SKILL_ID: T24.G3.03: Revise a prompt to improve AI results
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+
+SKILL_ID: T24.G3.04: Recognize AI makes mistakes
+ADD DEPENDENCY: T09.G3.01.01: Create a new variable with a descriptive name
+REASON: Uses variables to store data
+
+SKILL_ID: T24.G3.04: Recognize AI makes mistakes
+ADD DEPENDENCY: T10.GK.01: Sort picture cards into groups
+REASON: AI skills typically work with text/prompts
+

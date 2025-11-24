@@ -1,0 +1,136 @@
+GRADE 3 TOPICS T13-T24: DEPENDENCIES TO ADD
+Quick Reference for Application
+===============================================================================
+
+TOTAL: 55 missing dependencies across 45 skills
+
+Format: SKILL_ID | ADD_DEPENDENCY | REASON
+-------------------------------------------------------------------------------
+
+=== T13 - DEBUGGING (3) ===
+
+T13.G3.00 | T08.G2.01 | Uses conditionals/branching logic
+T13.G3.01 | T08.G2.01 | Uses conditionals/branching logic
+T13.G3.04 | T07.G2.01 | Uses loops/repetition
+
+
+=== T14 - 2D GAMES (11) ===
+
+T14.G3.01.01 | T06.G2.01 | Arrow key movement requires event handling
+T14.G3.01.02 | T06.G2.01 | Arrow key movement requires event handling
+T14.G3.03 | T08.G2.01 | Collision detection requires conditionals
+T14.G3.03 | T07.G2.01 | Uses loops/repetition
+T14.G3.04.01 | T08.G2.01 | Collision detection requires conditionals
+T14.G3.05 | T08.G2.01 | Uses conditionals/branching logic
+T14.G3.06 | T08.G2.01 | Uses conditionals/branching logic
+T14.G3.08 | T08.G2.01 | Collision detection requires conditionals
+T14.G3.08 | T09.G2.02 | Tracking score/collectibles requires variables
+T14.G3.09 | T09.G2.02 | Tracking score/collectibles requires variables
+T14.G3.10 | T09.G2.02 | Tracking score/collectibles requires variables
+T14.G3.11 | T08.G2.01 | Uses conditionals/branching logic
+
+
+=== T15 - STORIES/ANIMATION (12) ===
+
+T15.G3.00.01 | T08.G2.01 | Uses conditionals/branching logic
+T15.G3.00.03 | T06.G2.01 | Interactive animations require event handling
+T15.G3.02 | T07.G2.01 | Uses loops/repetition
+T15.G3.08 | T08.G2.01 | Uses conditionals/branching logic
+T15.G3.09 | T06.G2.01 | Interactive animations require event handling
+T15.G3.09 | T08.G2.01 | Uses conditionals/branching logic
+T15.G3.11.02 | T06.G2.01 | Interactive animations require event handling
+T15.G3.11.02 | T08.G2.01 | Uses conditionals/branching logic
+T15.G3.12 | T06.G2.01 | Interactive animations require event handling
+T15.G3.12.01 | T06.G2.01 | Interactive animations require event handling
+T15.G3.12.01 | T08.G2.01 | Uses conditionals/branching logic
+T15.G3.12.02 | T08.G2.01 | Uses conditionals/branching logic
+
+
+=== T16 - USER INTERFACES (13) ===
+
+T16.G3.02 | T08.G2.01 | Uses conditionals/branching logic
+T16.G3.02.01 | T06.G2.01 | UI widgets require event handling
+T16.G3.02.01 | T08.G2.01 | Uses conditionals/branching logic
+T16.G3.04 | T06.G2.01 | UI widgets require event handling
+T16.G3.04.01 | T06.G2.01 | UI widgets require event handling
+T16.G3.05 | T09.G2.02 | Getting user input requires variables
+T16.G3.06 | T06.G2.01 | UI widgets require event handling
+T16.G3.07 | T06.G2.01 | UI widgets require event handling
+T16.G3.07.01 | T06.G2.01 | UI widgets require event handling
+T16.G3.08 | T06.G2.01 | UI widgets require event handling
+T16.G3.08 | T09.G2.02 | Getting user input requires variables
+T16.G3.08 | T08.G2.01 | Uses conditionals/branching logic
+
+
+=== T18 - 3D GRAPHICS (4) ===
+
+T18.G3.03 | T08.G2.01 | Uses conditionals/branching logic
+T18.G3.05 | T06.G2.01 | 3D movement with keyboard requires event handling
+T18.G3.07 | T07.G2.01 | Uses loops/repetition
+T18.G3.08 | T09.G2.02 | 3D position tracking requires variables
+
+
+=== T20 - DRAWING PATTERNS (2) ===
+
+T20.G3.02 | T07.G2.01 | Uses loops/repetition
+T20.G3.05.01 | T07.G2.01 | Uses loops/repetition
+
+
+=== T21 - AI AWARENESS (3) ===
+
+T21.G3.01 | T10.G2.01 | AI prompts require text/string manipulation
+T21.G3.01 | T07.G2.01 | Uses loops/repetition
+T21.G3.02 | T10.G2.01 | AI prompts require text/string manipulation
+
+
+=== T22 - CHATGPT (1) ===
+
+T22.G3.02 | T10.G2.01 | AI prompts require text/string manipulation
+
+
+=== T23 - AI CONCEPTS (1) ===
+
+T23.G3.03 | T08.G2.01 | Uses conditionals/branching logic
+
+
+=== T24 - SPEECH RECOGNITION (5) ===
+
+T24.G3.00 | T10.G2.01 | AI prompts require text/string manipulation
+T24.G3.01 | T10.G2.01 | AI prompts require text/string manipulation
+T24.G3.02 | T10.G2.01 | AI prompts require text/string manipulation
+T24.G3.02 | T08.G2.01 | Uses conditionals/branching logic
+T24.G3.03 | T10.G2.01 | AI prompts require text/string manipulation
+
+
+===============================================================================
+DEPENDENCY SUMMARY BY TYPE
+===============================================================================
+
+T06.G2.01 (Events - Create a simple cause-and-effect chain): 22 additions
+  Topics: T14, T15, T16, T18
+
+T08.G2.01 (Conditionals - Follow branching paths): 21 additions
+  Topics: T13, T14, T15, T16, T18, T23, T24
+
+T07.G2.01 (Loops - Identify when to use repeat): 7 additions
+  Topics: T13, T14, T15, T18, T20, T21
+
+T10.G2.01 (Text - Build a simple data table): 8 additions
+  Topics: T21, T22, T24
+
+T09.G2.02 (Variables - Compare a counter): 5 additions
+  Topics: T14, T16, T18
+
+
+===============================================================================
+VALIDATION CHECKLIST (Before applying)
+===============================================================================
+
+For each dependency:
+[ ] Verify dependency ID exists in allskills.md
+[ ] Confirm dependency is Grade 2 or lower (X-2 rule compliant)
+[ ] Read skill description to ensure logical fit
+[ ] Check no circular dependencies created
+[ ] Verify topic consistency with similar skills
+
+===============================================================================

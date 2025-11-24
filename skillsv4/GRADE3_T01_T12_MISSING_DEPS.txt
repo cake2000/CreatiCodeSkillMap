@@ -1,0 +1,35 @@
+# GRADE 3 CROSS-TOPIC DEPENDENCY RECOMMENDATIONS (Topics T01-T12)
+# Analysis Date: 2025-11-24
+# Scope: Grade 3 skills only, following X-2 rule
+
+## RECOMMENDED NEW DEPENDENCIES TO ADD
+
+T04.G3.04.02: Create a custom block (template) for repeated code patterns
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Uses parameters/variables as placeholders in custom blocks
+
+T04.G3.08: Match algorithm descriptions to code pattern shapes
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Matches patterns like "count how many times" which use counter variables
+
+T12.G3.03.01: Use clearer variable names to improve readability
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Naming variables requires understanding of variables
+
+T12.G3.03.04: Combine similar consecutive blocks
+ADD DEPENDENCY: T09.G3.01.01: Create a variable and set it
+REASON: Examples include "change score by 1" - works with variables
+
+T02.G3.04: Trace a block sequence with an if/else decision
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Explicitly traces scripts with if/else blocks
+
+T02.G3.05: Create a block script with one if/else decision
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Explicitly creates scripts with if/else blocks
+
+T01.G3.16: Identify when to use 'repeat forever' vs 'repeat N times'
+ADD DEPENDENCY: T08.G3.01: Use a simple if in a script
+REASON: Example mentions "checking if a key is pressed" which uses conditionals
+
+Total recommendations: 7

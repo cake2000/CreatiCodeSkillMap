@@ -1,0 +1,2595 @@
+{
+  "total_count": 136,
+  "topics": {
+    "T01": [
+      {
+        "id": "T01.G2.01",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "**Student task:** Look at pictures showing an everyday task. Which action happens over and over? **Example:** In cleaning up toys, \"pick up toy\" happens many times. _Implementation note: Highlight or MCQ. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": []
+      },
+      {
+        "id": "T01.G2.02",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "**Student task:** Look at two sets of directions. Pick the one that uses \"repeat ___ times\" to say the same thing in fewer words. **Example:** \"Walk 3 steps, walk 3 steps, walk 3 steps\" vs \"Repeat 'walk 3 steps' 3 times\" _Implementation note: MCQ (long explicit vs \"repeat\" version). CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.01"
+        ]
+      },
+      {
+        "id": "T01.G2.03",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "**Student task:** Look at a long list of repeated steps. Rewrite it using \"repeat ___ times\" to make it shorter and clearer. **Example:** \"Clap, clap, clap, clap\" becomes \"Repeat 'clap' 4 times\" _Implementation note: Choose or assemble compressed description with \"repeat.\" CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.02"
+        ]
+      },
+      {
+        "id": "T01.G2.04",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students match simple \"If it is ___, then do ___\" rules to images (rainy/sunny, door open/closed). _Implementation note: Visual MCQ. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G1.10"
+        ]
+      },
+      {
+        "id": "T01.G2.05",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students fill in missing condition or action in an if/then pair for a daily scenario. _Implementation note: Fill\u2011in with picture or word cards. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G2.04"
+        ]
+      },
+      {
+        "id": "T01.G2.06",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students choose which of several if/then statements fits a picture story. _Implementation note: MCQ; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G2.05"
+        ]
+      },
+      {
+        "id": "T01.G2.07",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students follow short number/picture algorithms with if/then (with 2-3 simple conditions) and identify the final result. _Implementation note: Tracing + MCQ result. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.06"
+        ]
+      },
+      {
+        "id": "T01.G2.08",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students compute total actions or final position for routines with \"repeat 3 times\" (with 3-5 steps total). _Implementation note: Tracing + MCQ. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.03"
+        ]
+      },
+      {
+        "id": "T01.G2.09",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students adjust a repeat count that causes too many or too few repetitions. _Implementation note: Increase/decrease repeat number; auto\u2011graded via final outcome. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.08"
+        ]
+      },
+      {
+        "id": "T01.G2.10",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students correct an if/then rule that doesn't match a picture situation. _Implementation note: MCQ or card swap. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G2.07"
+        ]
+      },
+      {
+        "id": "T01.G2.11",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students see a character on a small grid (3x3 or 4x4) and a sequence of \"forward/left/right\" arrows, then choose where the character ends up. _Implementation note: Path tracing with MCQ final position; auto\u2011graded by ending cell. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": []
+      },
+      {
+        "id": "T01.G2.12",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students see a start and goal on a grid and pick which of several arrow sequences reaches the goal without hitting a wall. _Implementation note: MCQ (choose arrow sequence); auto\u2011graded via simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.11"
+        ]
+      },
+      {
+        "id": "T01.G2.13",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students create instructions by dragging and dropping \"forward/left/right\" arrow cards to move a character from start to finish on a small grid. _Implementation note: Drag arrow cards; auto\u2011graded via simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.12"
+        ]
+      },
+      {
+        "id": "T01.G2.14",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students correct a set of directions that doesn't reach the goal or hits a wall. _Implementation note: Edit arrow sequence; auto\u2011graded via new simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.13"
+        ]
+      },
+      {
+        "id": "T01.G2.15",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students match simple picture\u2011based instruction sequences (e.g., arrow cards showing \"forward, forward, turn right\") to equivalent visual block\u2011based commands, recognizing that pictures and blocks can represent the same algorithm. _Implementation note: Drag\u2011and\u2011drop matching with 3\u20134 sequence pairs; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G2.13"
+        ]
+      },
+      {
+        "id": "T01.G2.16",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code blocks does the same thing from 3-4 options. _Implementation note: MCQ matching visual sequence to code blocks; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G2.03",
+          "T01.G2.15"
+        ]
+      },
+      {
+        "id": "T01.G2.17",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students look at simple code blocks (move, turn, say) and identify what action each block performs by matching blocks to their behaviors. _Implementation note: MCQ matching blocks to actions; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+        "dependencies": [
+          "T01.G2.02",
+          "T01.G2.15"
+        ]
+      },
+      {
+        "id": "T01.G2.18",
+        "topic": "T01",
+        "name": "N/A",
+        "description": "Students look at an algorithm that doesn't work correctly. What's wrong? Why doesn't it work? (They don't need to fix it yet, just identify and explain the problem.) _Implementation note: MCQ identifying error + choosing explanation; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+        "dependencies": [
+          "T01.G2.14"
+        ]
+      }
+    ],
+    "T02": [
+      {
+        "id": "T02.G2.01",
+        "topic": "T02",
+        "name": "N/A",
+        "description": "Students see a 3\u20134 picture routine and build a horizontal row of labeled boxes (\"Step 1,\" \"Step 2,\" \"Step 3\") that describe each step in simple words or icons, using a simple box\u2011diagram layout (like instruction boxes on paper).",
+        "dependencies": [
+          "T02.G1.01"
+        ]
+      },
+      {
+        "id": "T02.G2.02",
+        "topic": "T02",
+        "name": "N/A",
+        "description": "Students are given a 3\u20134 box \"algorithm diagram\" and must choose which picture sequence matches it.",
+        "dependencies": [
+          "T02.G2.01"
+        ]
+      },
+      {
+        "id": "T02.G2.03",
+        "topic": "T02",
+        "name": "N/A",
+        "description": "Students see a short row of instruction cards with arrows or move/say icons (3\u20136 steps, no choices or repeats) and predict where a character ends up or what message appears last.",
+        "dependencies": [
+          "T02.G2.02"
+        ]
+      },
+      {
+        "id": "T02.G2.04",
+        "topic": "T02",
+        "name": "N/A",
+        "description": "Students reveal one instruction card at a time in a sequence and mark where the character is after each step (for example, on a number line or grid), building early tracing skills.",
+        "dependencies": [
+          "T02.G2.03"
+        ]
+      },
+      {
+        "id": "T02.G2.05",
+        "topic": "T02",
+        "name": "N/A",
+        "description": "Students match a simple 3\u20134 step box diagram to one of several written or picture\u2011card step sequences that carry out the same actions.",
+        "dependencies": [
+          "T02.G2.02"
+        ]
+      },
+      {
+        "id": "T02.G2.06",
+        "topic": "T02",
+        "name": "N/A",
+        "description": "Students are given a short left\u2011to\u2011right step sequence whose cards are out of order and reorder them to match a target picture or box diagram.",
+        "dependencies": [
+          "T02.G2.05"
+        ]
+      }
+    ],
+    "T03": [
+      {
+        "id": "T03.G2.01",
+        "topic": "T03",
+        "name": "N/A",
+        "description": "Students read or hear a small project idea (e.g., \"Make a greeting card project\") and select which subtasks are needed (e.g., \"draw background,\" \"add message,\" \"add sound\").",
+        "dependencies": [
+          "T03.G1.03"
+        ]
+      },
+      {
+        "id": "T03.G2.02",
+        "topic": "T03",
+        "name": "N/A",
+        "description": "Students drag subtasks into type-based groups like \"drawing and colors,\" \"writing and words,\" or \"music and sounds\" for a small project, organizing by the kind of work needed.",
+        "dependencies": [
+          "T03.G2.01"
+        ]
+      },
+      {
+        "id": "T03.G2.03",
+        "topic": "T03",
+        "name": "N/A",
+        "description": "Students take 4\u20135 subtasks and order them into a logical sequence (e.g., plan \u2192 create \u2192 try it out), considering what must happen first.",
+        "dependencies": [
+          "T03.G2.02"
+        ]
+      },
+      {
+        "id": "T03.G2.04",
+        "topic": "T03",
+        "name": "N/A",
+        "description": "Students see a mini\u2011project checklist and mark which subtasks are complete based on a description of work done (\"We already drew the characters and added sounds.\").",
+        "dependencies": [
+          "T03.G2.03"
+        ]
+      },
+      {
+        "id": "T03.G2.04.01",
+        "topic": "T03",
+        "name": "N/A",
+        "description": "Students look at a list of project subtasks and identify which ones work together to create a single feature (e.g., \"draw player sprite,\" \"add player controls,\" \"make player move\" all contribute to the \"player movement\" feature), introducing the connection between subtasks and features.",
+        "dependencies": [
+          "T03.G2.04"
+        ]
+      },
+      {
+        "id": "T03.G2.05",
+        "topic": "T03",
+        "name": "N/A",
+        "description": "Students look at a simple game or animated story (e.g., a character that moves and makes sounds) and list what it can do (e.g., \"the cat can walk,\" \"it plays music,\" \"you can click to make it jump\"), preparing them to recognize features in projects.",
+        "dependencies": [
+          "T03.G2.04.01"
+        ]
+      }
+    ],
+    "T04": [
+      {
+        "id": "T04.G2.01",
+        "topic": "T04",
+        "name": "N/A",
+        "description": "Students see a longer pattern like ABCABCABC and choose the \"unit\" that repeats.",
+        "dependencies": [
+          "T04.G1.02",
+          "T04.G1.03"
+        ]
+      },
+      {
+        "id": "T04.G2.02",
+        "topic": "T04",
+        "name": "N/A",
+        "description": "Students read or see an everyday algorithm (e.g., \"brush, rinse\" repeated three times) and highlight the part that repeats, focusing on the *pattern unit* rather than the full routine.",
+        "dependencies": [
+          "T04.G2.01"
+        ]
+      },
+      {
+        "id": "T04.G2.03",
+        "topic": "T04",
+        "name": "N/A",
+        "description": "Students compare two visual or written descriptions of the same pattern: one showing all steps explicitly (e.g., \"draw star, draw star, draw star\") vs one using \"repeat 3 times: draw star.\" They identify which is shorter and clearer, focusing on pattern comparison rather than coding concepts.",
+        "dependencies": [
+          "T01.G2.02"
+        ]
+      },
+      {
+        "id": "T04.G2.04",
+        "topic": "T04",
+        "name": "N/A",
+        "description": "Students rewrite a long visual or written pattern description by selecting or creating a compressed version using \"repeat ___ times\" notation. Focus is on recognizing and expressing repetition concisely, using visual notation like \"repeat 4: [pattern]\" rather than preparing for coding.",
+        "dependencies": [
+          "T04.G2.03"
+        ]
+      },
+      {
+        "id": "T04.G2.05",
+        "topic": "T04",
+        "name": "N/A",
+        "description": "Students see a visual representation of repetition\u2014a box drawn around pictures or steps with \"repeat 3 times\" written above it\u2014and match it to the equivalent expanded sequence. This visual \"repeat box\" notation helps organize repeated elements in a clear, visual way.",
+        "dependencies": [
+          "T04.G2.04"
+        ]
+      }
+    ],
+    "T05": [
+      {
+        "id": "T05.G2.01",
+        "topic": "T05",
+        "name": "N/A",
+        "description": "Students see three users (e.g., kid, adult, person with glasses) and match each to a preferred design (colorful icons, simple layout, high contrast).",
+        "dependencies": [
+          "T05.G1.03"
+        ]
+      },
+      {
+        "id": "T05.G2.02",
+        "topic": "T05",
+        "name": "N/A",
+        "description": "Students select features like large buttons, captions, and audio instructions as \"helps more people use this.\"",
+        "dependencies": [
+          "T05.G1.04"
+        ]
+      },
+      {
+        "id": "T05.G2.03",
+        "topic": "T05",
+        "name": "N/A",
+        "description": "Students see picture pairs showing real things and their \"pretend computer versions\" (e.g., real traffic light vs animated traffic light on screen). They match which real situations have a computer pretend version and explain why trying ideas on a computer first can be safer.",
+        "dependencies": [
+          "T05.G1.01"
+        ]
+      },
+      {
+        "id": "T05.G2.04",
+        "topic": "T05",
+        "name": "N/A",
+        "description": "Students see a picture of a situation (e.g., garden with sun, rain, flowers, bugs, fence). They drag and drop 2\u20133 pictures of important things to include in a \"computer pretend version\" to answer a question like \"What helps the plant grow?\" while leaving out unimportant details.",
+        "dependencies": [
+          "T05.G2.03"
+        ]
+      }
+    ],
+    "T06": [
+      {
+        "id": "T06.G2.01",
+        "topic": "T06",
+        "name": "N/A",
+        "description": "Students build a chain of 3-4 cause-and-effect relationships using picture cards where one event triggers the next (e.g., rain falls \u2192 flowers grow \u2192 bees come \u2192 honey is made). This unplugged activity introduces the concept of cascading events and event chains, foundational for understanding broadcasts and event sequences in programming.",
+        "dependencies": [
+          "T06.G1.03"
+        ]
+      },
+      {
+        "id": "T06.G2.02",
+        "topic": "T06",
+        "name": "N/A",
+        "description": "Students identify scenarios where different triggers can cause the same action (e.g., \"turn on light\" can happen when: you flip switch, you clap hands, or timer goes off). This introduces the concept of multiple event handlers for the same behavior.",
+        "dependencies": [
+          "T06.G2.01"
+        ]
+      },
+      {
+        "id": "T06.G2.03",
+        "topic": "T06",
+        "name": "N/A",
+        "description": "Students create a simple game rule card stating what happens when a specific event occurs (e.g., \"If you land on a star, move ahead 2 spaces\"). This unplugged activity connects event-driven thinking to game design, preparing for event-based game programming in Grade 3.",
+        "dependencies": [
+          "T06.G2.02"
+        ]
+      }
+    ],
+    "T07": [
+      {
+        "id": "T07.G2.01",
+        "topic": "T07",
+        "name": "N/A",
+        "description": "Students sort simple task cards into two categories: \"needs repeating\" (like brushing all teeth, coloring all stars) vs \"do only once\" (like putting on a hat, opening a door). This picture-based classification develops the judgment of when repetition is needed, a key prerequisite for choosing between loops and sequential code. Use 6-8 task cards with clear yes/no answers.",
+        "dependencies": [
+          "T07.G1.02"
+        ]
+      }
+    ],
+    "T08": [
+      {
+        "id": "T08.G2.01",
+        "topic": "T08",
+        "name": "N/A",
+        "description": "Students follow a path on a simple flowchart. At each diamond, answer a yes/no question to choose which way to go and find where you end up. This interactive flowchart activity with 2-3 decision points introduces visual representation of conditional logic and sequential decision-making.",
+        "dependencies": [
+          "T08.G1.03"
+        ]
+      },
+      {
+        "id": "T08.G2.02",
+        "topic": "T08",
+        "name": "N/A",
+        "description": "Students look at a picture scenario and fill in the blanks to create an \"If ___, then ___, else ___\" rule. For example, traffic light scenario: \"If light is green, then walk, else wait.\" This fill-in-the-blank activity with word/picture bank develops the ability to construct complete conditional statements.",
+        "dependencies": [
+          "T08.G2.01"
+        ]
+      },
+      {
+        "id": "T08.G2.03",
+        "topic": "T08",
+        "name": "N/A",
+        "description": "Students look at 2-3 \"if-then\" rules and a picture, then choose which rule applies to the situation shown. For example, rules about what to do when tired, hungry, or bored\u2014which one fits the picture? This multiple-choice rule selection activity develops pattern matching between situations and conditional rules.",
+        "dependencies": [
+          "T08.G2.02"
+        ]
+      }
+    ],
+    "T09": [
+      {
+        "id": "T09.G2.01",
+        "topic": "T09",
+        "name": "N/A",
+        "description": "**Student task:** Before the game starts, set the score to 0. Then play and collect items. Why do we start at 0? _Implementation note: Picture-based initialization concept. CSTA: E2\u2011PRO\u2011PF\u201102._",
+        "dependencies": [
+          "T09.G1.02"
+        ]
+      },
+      {
+        "id": "T09.G2.02",
+        "topic": "T09",
+        "name": "N/A",
+        "description": "**Student task:** Follow along as the counter goes up. When it reaches the target number (like 5), something special happens! Predict when it will happen. _Implementation note: Picture-based prediction with threshold concept. CSTA: E2\u2011PRO\u2011PF\u201102._",
+        "dependencies": [
+          "T09.G2.01",
+          "T08.G2.01"
+        ]
+      }
+    ],
+    "T10": [
+      {
+        "id": "T10.G2.01",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students organize a list of information into a table with labeled rows and columns (e.g., organize \"Sam has 3 apples, Lia has 2 oranges\" into a table).",
+        "dependencies": [
+          "T10.G1.03"
+        ]
+      },
+      {
+        "id": "T10.G2.02",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students add a new row of data to an existing picture table by filling in all column values for a new entry.",
+        "dependencies": [
+          "T10.G2.01"
+        ]
+      },
+      {
+        "id": "T10.G2.03",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students compare data from two different rows in a table and answer questions about differences or similarities (e.g., \"Who has more points, Sam or Lia?\").",
+        "dependencies": [
+          "T10.G2.01"
+        ]
+      },
+      {
+        "id": "T10.G2.04",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students rearrange rows in a simple table to put them in order by one column (e.g., \"arrange students from most to least points\").",
+        "dependencies": [
+          "T10.G2.01",
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T10.G2.05",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students identify and mark all rows in a table where a specific column matches a condition (e.g., \"Find all students with 10 or more points\").",
+        "dependencies": [
+          "T10.G2.01"
+        ]
+      },
+      {
+        "id": "T10.G2.06",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students count how many rows in a table satisfy a condition (e.g., \"How many students scored more than 5?\").",
+        "dependencies": [
+          "T10.G2.05"
+        ]
+      },
+      {
+        "id": "T10.G2.07",
+        "topic": "T10",
+        "name": "N/A",
+        "description": "Students transition from picture tables to understanding that code can have \"lists\" - ordered collections of items that the computer stores and uses. They match real-world examples (shopping list, playlist, leaderboard) to the concept of a code list.",
+        "dependencies": [
+          "T10.G2.01"
+        ]
+      }
+    ],
+    "T12": [
+      {
+        "id": "T12.G2.01",
+        "topic": "T12",
+        "name": "N/A",
+        "description": "Students add a short note near a group of steps to explain why that section is there (e.g., \"These steps are to get ready,\" \"These steps are to clean up\"). This is an unplugged analogue of commenting and documenting parts of a project.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T12.G2.02",
+        "topic": "T12",
+        "name": "N/A",
+        "description": "Students see a simple plan with section titles that are vague or unclear (e.g., \"Stuff,\" \"More things\") and replace them with clearer titles that match the steps underneath (e.g., \"Set up chairs,\" \"Decorate the room\"). This mirrors renaming confusing identifiers but stays at the level of everyday language.",
+        "dependencies": [
+          "T12.G1.02"
+        ]
+      },
+      {
+        "id": "T12.G2.03",
+        "topic": "T12",
+        "name": "N/A",
+        "description": "Students review several section titles for one plan (e.g., \"Set up,\" \"Playing the game,\" \"Clean up time!\") and adjust or choose options so they all follow a similar style (for example, all starting with action words). This builds awareness of consistent naming without introducing code vocabulary.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T12.G2.04",
+        "topic": "T12",
+        "name": "N/A",
+        "description": "Students see 2\u20133 headings (e.g., \"Before class,\" \"During class,\" \"After class\") and a mixed set of picture steps, then group each step under the heading where it belongs. This extends the Grade 1 idea of splitting lists into clearly labeled sections.",
+        "dependencies": [
+          "T03.G1.02",
+          "T03.G1.03"
+        ]
+      }
+    ],
+    "T13": [
+      {
+        "id": "T13.G2.01",
+        "topic": "T13",
+        "name": "N/A",
+        "description": "Students examine instructions where a character is supposed to act on a certain signal (e.g., clap, whistle, or card color) but the written or picture steps mention the wrong signal. They identify and fix the signal in the instructions so the behavior matches the story.",
+        "dependencies": [
+          "T01.G1.06"
+        ]
+      },
+      {
+        "id": "T13.G2.02",
+        "topic": "T13",
+        "name": "N/A",
+        "description": "Students \"walk through\" a simple set of instructions step by step, predicting what each step does and what the character or object will look like or where it will end up at the end. This mental tracing helps them spot logic errors before acting it out.",
+        "dependencies": [
+          "T01.G1.05",
+          "T03.G1.03"
+        ]
+      },
+      {
+        "id": "T13.G2.03",
+        "topic": "T13",
+        "name": "N/A",
+        "description": "Students modify instructions where an action repeats the wrong number of times (e.g., clap 2 times instead of 5, or march too many steps). They change the number of repeats so the behavior matches a picture or description.",
+        "dependencies": [
+          "T04.G2.01",
+          "T01.G2.01"
+        ]
+      },
+      {
+        "id": "T13.G2.04",
+        "topic": "T13",
+        "name": "N/A",
+        "description": "Students add a small \"check\" card or picture (e.g., a thumbs\u2011up or scoreboard picture) at a key point in a set of steps to show that something important has happened (like reaching a goal or using all the cards). This helps them see what is going on inside a longer routine.",
+        "dependencies": [
+          "T03.G1.03",
+          "T01.G1.09"
+        ]
+      }
+    ],
+    "T14": [
+      {
+        "id": "T14.G2.01",
+        "topic": "T14",
+        "name": "N/A",
+        "description": "Students look at a turn-based scene with multiple players or timers and determine whose turn it is or what happens next when a turn ends. _CSTA: 1B-AP-11.__",
+        "dependencies": [
+          "T01.G1.01",
+          "T14.G1.02"
+        ]
+      },
+      {
+        "id": "T14.G2.02",
+        "topic": "T14",
+        "name": "N/A",
+        "description": "Students track a player's lives through a short picture story. They identify when a life is lost (touching a hazard) and when the game is over (lives reach zero). _CSTA: 1B-AP-12.__",
+        "dependencies": [
+          "T01.G1.04",
+          "T14.G1.05"
+        ]
+      },
+      {
+        "id": "T14.G2.03",
+        "topic": "T14",
+        "name": "N/A",
+        "description": "Students identify the condition for moving to the next level (touch goal, collect items) and notice that later levels are usually different or harder. _CSTA: 1B-AP-10.__",
+        "dependencies": [
+          "T01.G1.01",
+          "T14.G1.01"
+        ]
+      },
+      {
+        "id": "T14.G2.04",
+        "topic": "T14",
+        "name": "N/A",
+        "description": "Students order 3\u20134 picture cards showing a safe route through a level (jump over spikes, grab key, open door) to highlight planning before play. _CSTA: 1B-AP-11.__",
+        "dependencies": [
+          "T01.G1.04",
+          "T14.G1.04"
+        ]
+      },
+      {
+        "id": "T14.G2.05",
+        "topic": "T14",
+        "name": "N/A",
+        "description": "Presented with a short brief (\"Make it easier for new players\"), students choose the change that best matches the goal (add another heart, remove a hazard, shorten timer) to understand how game settings affect difficulty. _CSTA: 1B-AP-15.__",
+        "dependencies": [
+          "T01.G1.10",
+          "T14.G1.03"
+        ]
+      }
+    ],
+    "T15": [
+      {
+        "id": "T15.G2.01",
+        "topic": "T15",
+        "name": "N/A",
+        "description": "Students compare two animation sequences (represented by frame strips) and identify which one represents a faster or slower action based on the gap between positions.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T15.G2.02",
+        "topic": "T15",
+        "name": "N/A",
+        "description": "In a story sequence, students identify the point where the location changes (e.g., from House to School).",
+        "dependencies": [
+          "T01.G1.10",
+          "T01.G1.04"
+        ]
+      },
+      {
+        "id": "T15.G2.03",
+        "topic": "T15",
+        "name": "N/A",
+        "description": "Students identify the repeating part of an animation (e.g., Left foot, Right foot, Left foot, Right foot).",
+        "dependencies": [
+          "T01.G1.07"
+        ]
+      }
+    ],
+    "T16": [
+      {
+        "id": "T16.G2.01",
+        "topic": "T16",
+        "name": "N/A",
+        "description": "Look at before/after pictures showing interface interactions (button pressed \u2192 light turns on, slider moved \u2192 volume changes, text typed \u2192 letters appear). Describe what changed.",
+        "dependencies": [
+          "T16.G1.02"
+        ]
+      },
+      {
+        "id": "T16.G2.02",
+        "topic": "T16",
+        "name": "N/A",
+        "description": "Draw a simple interface on paper for a specific purpose (TV remote, game menu, calculator). Include buttons with labels, displays for information, and arrange them logically. Explain what each part does.",
+        "dependencies": [
+          "T16.G2.01"
+        ]
+      }
+    ],
+    "T17": [
+      {
+        "id": "T17.G2.01",
+        "topic": "T17",
+        "name": "N/A",
+        "description": "Students look at motion blocks (move 10 steps, turn right, move 10 steps) and choose from picture options showing which direction the sprite will move. They build directional intuition before coding.",
+        "dependencies": [
+          "T17.G1.01"
+        ]
+      }
+    ],
+    "T18": [
+      {
+        "id": "T18.G2.01",
+        "topic": "T18",
+        "name": "N/A",
+        "description": "Students look at simple 3D objects (toy car, block tower, etc.) from different angles and draw or select the correct front, top, and side view silhouettes, developing spatial reasoning about how viewpoint changes appearance.",
+        "dependencies": [
+          "T18.G1.01"
+        ]
+      }
+    ],
+    "T20": [
+      {
+        "id": "T20.G2.01",
+        "topic": "T20",
+        "name": "N/A",
+        "description": "Students compare two instruction sets for the same border: one long (\u201cred square, red square, red square\u2026\u201d) and one that uses a repeat card (\u201crepeat red square 4 times\u201d). They choose the concise, accurate version.",
+        "dependencies": [
+          "T01.G1.04"
+        ]
+      },
+      {
+        "id": "T20.G2.02",
+        "topic": "T20",
+        "name": "N/A",
+        "description": "Learners arrange tiles on one side of a line and then plan what tiles should appear on the other side so the design is symmetrical.",
+        "dependencies": [
+          "T05.G1.01",
+          "T01.G1.04"
+        ]
+      },
+      {
+        "id": "T20.G2.03",
+        "topic": "T20",
+        "name": "N/A",
+        "description": "Students interpret instructions with background and foreground patterns (e.g., \"repeat row A three times for the background, then repeat row B once on top\") to build a stacked design combining two different repeating patterns.",
+        "dependencies": [
+          "T20.G2.01",
+          "T01.G2.02"
+        ]
+      },
+      {
+        "id": "T20.G2.04",
+        "topic": "T20",
+        "name": "N/A",
+        "description": "Students consider \"what-if\" prompts (e.g., \"What happens if the second color changes from blue to green?\") and explain how the final pattern would change.",
+        "dependencies": [
+          "T01.G1.04",
+          "T20.G2.03"
+        ]
+      }
+    ],
+    "T21": [
+      {
+        "id": "T21.G2.01",
+        "topic": "T21",
+        "name": "N/A",
+        "description": "Students improve vague prompts (\"a dog\") by adding details (\"a fluffy white dog playing in snow\"). They compare before/after example outputs to see how specificity improves results. This uses a drag-and-drop interface where students add descriptor cards to a base prompt card. Activity Type: Prompt improvement exercise with visual feedback Estimated Time: 5-6 minutes CSTA: 2-IC-20 (Compare tradeoffs associated with computing technologies)",
+        "dependencies": [
+          "T21.G1.01"
+        ]
+      },
+      {
+        "id": "T21.G2.02",
+        "topic": "T21",
+        "name": "N/A",
+        "description": "Students discuss why AI-made pictures and responses need human review before sharing, using age-appropriate examples (making sure the robot didn't draw something silly, wrong, or mean). They look at picture scenarios and identify which AI outputs need fixing before use. Activity Type: Concept discussion with picture scenarios Estimated Time: 4-5 minutes CSTA: 2-IC-20",
+        "dependencies": [
+          "T21.G1.02"
+        ]
+      }
+    ],
+    "T22": [
+      {
+        "id": "T22.G2.01",
+        "topic": "T22",
+        "name": "N/A",
+        "description": "One student pretends to be a robot helper while another asks questions. They practice giving clear context (\"I need help with my math homework about adding\") vs vague requests. Students notice how clear questions get better \"robot\" answers.",
+        "dependencies": [
+          "T22.G1.01",
+          "T22.G1.02"
+        ]
+      },
+      {
+        "id": "T22.G2.02",
+        "topic": "T22",
+        "name": "N/A",
+        "description": "Students sort question cards into \"okay to ask\" (homework help, fun facts) vs \"not okay to ask\" (my home address, passwords, mean things about classmates). They learn that some information should stay private even from helpful robots.",
+        "dependencies": [
+          "T22.G2.01"
+        ]
+      }
+    ],
+    "T23": [
+      {
+        "id": "T23.G2.01",
+        "topic": "T23",
+        "name": "N/A",
+        "description": "Students read short picture stories (e.g., \"turn on light when someone claps,\" \"open door when tag is tapped\") and circle whether to use camera, microphone, or touch sensor to solve each task. Scenario-based decisions using illustrated cards.",
+        "dependencies": [
+          "T23.G1.03"
+        ]
+      },
+      {
+        "id": "T23.G2.02",
+        "topic": "T23",
+        "name": "N/A",
+        "description": "Students compare pairs of pictures (bright vs dark room for a camera, quiet vs noisy room for a mic) and pick which one makes it harder for the sensor to understand. They explain why using simple words.",
+        "dependencies": [
+          "T23.G2.01"
+        ]
+      },
+      {
+        "id": "T23.G2.03",
+        "topic": "T23",
+        "name": "N/A",
+        "description": "Students compare two illustrated scenarios: one where a toy reacts to a button press; another where an app tries to recognize an animal sound. They identify which one is \"guessing\" from sensor input versus following a direct command.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      }
+    ],
+    "T24": [
+      {
+        "id": "T24.G2.01",
+        "topic": "T24",
+        "name": "N/A",
+        "description": "Students watch a teacher demonstration of the `say [TEXT] in [LANGUAGE]` text-to-speech block reading a story aloud. They suggest sentences to add and observe how the computer speaks them with different voice types (Male, Female, Boy, Girl). This bridges listening to AI (G1) with coding speech features (G3) through guided observation rather than hands-on coding, maintaining age-appropriate learning for Grade 2.",
+        "dependencies": [
+          "T24.G1.01",
+          "T24.G1.03"
+        ]
+      },
+      {
+        "id": "T24.G2.02",
+        "topic": "T24",
+        "name": "N/A",
+        "description": "Students sort picture cards into \"AI can do this\" and \"AI cannot do this\" piles (e.g., AI can answer questions but cannot feel happy). They discuss AI limitations like lacking emotions or real-world experience.",
+        "dependencies": [
+          "T24.G1.02"
+        ]
+      },
+      {
+        "id": "T24.G2.03",
+        "topic": "T24",
+        "name": "N/A",
+        "description": "Students practice describing an image they want (subject, color, setting) before seeing AI results. They learn that better descriptions lead to better AI outputs.",
+        "dependencies": [
+          "T24.G1.03",
+          "T24.G2.02"
+        ]
+      },
+      {
+        "id": "T24.G2.04",
+        "topic": "T24",
+        "name": "N/A",
+        "description": "Students speak simple words into a microphone and observe how AI transcribes them. Through picture-based activities, they compare what they said to what the AI \"heard,\" noticing when the AI gets words right or makes mistakes. This bridges listening to AI (G1) with coding speech recognition (G3).",
+        "dependencies": [
+          "T24.G1.01",
+          "T24.G2.02"
+        ]
+      }
+    ],
+    "T25": [
+      {
+        "id": "T25.G2.01",
+        "topic": "T25",
+        "name": "N/A",
+        "description": "Students study a picture-based bar chart and provide meaningful text labels (e.g., rename \"Column A\" to \"Bananas\"). This underscores the importance of descriptive labels.",
+        "dependencies": [
+          "T25.G1.02"
+        ]
+      },
+      {
+        "id": "T25.G2.02",
+        "topic": "T25",
+        "name": "N/A",
+        "description": "Learners view a three-step story (wake up \u2192 eat breakfast \u2192 go to school) and encode it as (1) a timeline drawing, (2) a table with time + action, and (3) a narrative sentence. Emphasis is on seeing equivalence across forms.",
+        "dependencies": [
+          "T01.G1.01",
+          "T25.G1.03"
+        ]
+      },
+      {
+        "id": "T25.G2.03",
+        "topic": "T25",
+        "name": "N/A",
+        "description": "Students match questions (\"How many stickers?\" \"Which order do things happen?\") to the most useful representation type, building judgement about data tools.",
+        "dependencies": [
+          "T25.G1.02",
+          "T25.G2.02"
+        ]
+      },
+      {
+        "id": "T25.G2.04",
+        "topic": "T25",
+        "name": "N/A",
+        "description": "Learners create flashcards with two pieces of info (animal + habitat) to see how pairing attributes forms richer records.",
+        "dependencies": [
+          "T25.G1.02"
+        ]
+      }
+    ],
+    "T26": [
+      {
+        "id": "T26.G2.01",
+        "topic": "T26",
+        "name": "N/A",
+        "description": "Students categorize example data statements as \"observed\" (counting birds) or \"asked\" (favorite color), reinforcing method selection.",
+        "dependencies": [
+          "T01.G1.01",
+          "T26.G1.02"
+        ]
+      },
+      {
+        "id": "T26.G2.02",
+        "topic": "T26",
+        "name": "N/A",
+        "description": "Learners create a simple table to log respondents' names and answers, showing why we store identifiers alongside data.",
+        "dependencies": [
+          "T26.G1.01",
+          "T25.G1.02"
+        ]
+      },
+      {
+        "id": "T26.G2.03",
+        "topic": "T26",
+        "name": "N/A",
+        "description": "Students run a simple experiment (spin a top) and record each trial's duration using a timer, highlighting measurement precision.",
+        "dependencies": [
+          "T01.G1.01",
+          "T26.G1.02"
+        ]
+      },
+      {
+        "id": "T26.G2.04",
+        "topic": "T26",
+        "name": "N/A",
+        "description": "Learners see two surveys (3 responses vs 10) and explain why the larger one may be more reliable.",
+        "dependencies": [
+          "T26.G1.01",
+          "T26.G2.02"
+        ]
+      },
+      {
+        "id": "T26.G2.05",
+        "topic": "T26",
+        "name": "N/A",
+        "description": "Students run an unplugged survey with four or more answer choices (e.g., \"What's your favorite season?\"), practicing tally marks and organizing more complex response categories before learning coded surveys.",
+        "dependencies": [
+          "T26.G2.04",
+          "T01.G1.01"
+        ]
+      }
+    ],
+    "T27": [
+      {
+        "id": "T27.G2.01",
+        "topic": "T27",
+        "name": "N/A",
+        "description": "Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.",
+        "dependencies": [
+          "T01.G1.01",
+          "T27.G1.01"
+        ]
+      },
+      {
+        "id": "T27.G2.02",
+        "topic": "T27",
+        "name": "N/A",
+        "description": "Students analyze a small line plot (temperature across 5 days) and answer what increased/decreased.",
+        "dependencies": [
+          "T01.G1.01",
+          "T27.G1.01"
+        ]
+      },
+      {
+        "id": "T27.G2.03",
+        "topic": "T27",
+        "name": "N/A",
+        "description": "Learners look at illustrated lists like [3, 4, 3, 12] represented as pictures or bars and point out which value looks different, explaining why 12 doesn't fit the pattern of 3s and 4s. This builds intuition for what will later be called \"outliers\" in statistics.",
+        "dependencies": [
+          "T01.G1.10",
+          "T27.G2.01"
+        ]
+      },
+      {
+        "id": "T27.G2.04",
+        "topic": "T27",
+        "name": "N/A",
+        "description": "Students read a question (\"Which snack is most popular?\") and determine if the provided chart answers it or if more data is needed.",
+        "dependencies": [
+          "T27.G1.03",
+          "T27.G2.02"
+        ]
+      }
+    ],
+    "T28": [
+      {
+        "id": "T28.G2.01",
+        "topic": "T28",
+        "name": "N/A",
+        "description": "Students classify illustrated events (the sun rising, rolling a 7 on a six-sided die, drawing a red marble from a bag that only has red) using everyday language about certainty.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T28.G2.02",
+        "topic": "T28",
+        "name": "N/A",
+        "description": "Learners use a physical spinner (with a pencil and paperclip) or manipulative (drawing from a bag of colored blocks), run 10 trials, and record tallies with stickers or pictographs to see which color appears more often.",
+        "dependencies": [
+          "T26.G1.01",
+          "T25.G1.01"
+        ]
+      },
+      {
+        "id": "T28.G2.03",
+        "topic": "T28",
+        "name": "N/A",
+        "description": "Students compare two drawn spinners (equal vs uneven slices) and explain which is \u201cfairer\u201d when playing a game.",
+        "dependencies": [
+          "T01.G1.10"
+        ]
+      },
+      {
+        "id": "T28.G2.04",
+        "topic": "T28",
+        "name": "N/A",
+        "description": "Learners make a prediction before each of five physical coin flips (using real coins), then compare correct vs incorrect guesses to appreciate randomness.",
+        "dependencies": [
+          "T28.G2.02",
+          "T01.G1.04"
+        ]
+      }
+    ],
+    "T29": [
+      {
+        "id": "T29.G2.01",
+        "topic": "T29",
+        "name": "N/A",
+        "description": "Students identify patterns in text such as rhyming words (cat/hat) or repeated words in a short poem, preparing for computational pattern matching.",
+        "dependencies": [
+          "T29.G1.04"
+        ]
+      },
+      {
+        "id": "T29.G2.02",
+        "topic": "T29",
+        "name": "N/A",
+        "description": "Students arrange sentence strips from shortest to longest by counting words in each, understanding that text can be measured and compared.",
+        "dependencies": [
+          "T29.G1.02"
+        ]
+      },
+      {
+        "id": "T29.G2.03",
+        "topic": "T29",
+        "name": "N/A",
+        "description": "Students identify which text is a complete sentence (has meaning, starts with capital, ends with period) versus a list of words, understanding text structure.",
+        "dependencies": [
+          "T29.G1.02"
+        ]
+      },
+      {
+        "id": "T29.G2.04",
+        "topic": "T29",
+        "name": "N/A",
+        "description": "Given a sentence and replacement instructions (\"change 'cat' to 'dog'\"), students rewrite the sentence with the new word, preparing for programmatic text manipulation.",
+        "dependencies": [
+          "T29.G2.03",
+          "T29.G1.04"
+        ]
+      }
+    ],
+    "T30": [
+      {
+        "id": "T30.G2.01",
+        "topic": "T30",
+        "name": "N/A",
+        "description": "Students match simplified analogies (brain, short-term memory, backpack) to CPU, RAM, and storage.",
+        "dependencies": [
+          "T30.G1.01",
+          "T30.G1.02",
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T30.G2.02",
+        "topic": "T30",
+        "name": "N/A",
+        "description": "Learners arrange arrows showing how a key press travels to the CPU and then displays on screen.",
+        "dependencies": []
+      },
+      {
+        "id": "T30.G2.03",
+        "topic": "T30",
+        "name": "N/A",
+        "description": "Students decide which devices need cables (HDMI, USB) vs wireless (Bluetooth headphones) and give reasons (speed, mobility).",
+        "dependencies": [
+          "T30.G1.01",
+          "T01.G1.07"
+        ]
+      },
+      {
+        "id": "T30.G2.04",
+        "topic": "T30",
+        "name": "N/A",
+        "description": "Learners list simple habits (carry with two hands, clean hands, plug in gently) linking hardware care to digital responsibility.",
+        "dependencies": [
+          "T30.G1.01",
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T30.G2.05",
+        "topic": "T30",
+        "name": "N/A",
+        "description": "Students match sensors (camera, microphone, touch screen) to what they detect (light/images, sound/voices, finger touches) using picture cards or simple demonstrations.",
+        "dependencies": [
+          "T30.G1.03"
+        ]
+      }
+    ],
+    "T31": [
+      {
+        "id": "T31.G2.01",
+        "topic": "T31",
+        "name": "N/A",
+        "description": "Students view diagrams showing how computers, tablets, and phones connect through routers and cables to form a network. They identify components in simple network pictures. CSTA: E2-SAS-NW-02",
+        "dependencies": []
+      },
+      {
+        "id": "T31.G2.02",
+        "topic": "T31",
+        "name": "N/A",
+        "description": "Students discuss scenarios about keeping personal information private online. They identify which information should not be shared (address, password) vs what is safe to share (favorite color, age-appropriate username). CSTA: E2-SAS-SC-02",
+        "dependencies": []
+      }
+    ],
+    "T32": [
+      {
+        "id": "T32.G2.01",
+        "topic": "T32",
+        "name": "N/A",
+        "description": "Students use a guided template to build a safer password (animal + number + symbol) and actually create their own practice password. They explain why it's stronger than \"cat\" and practice remembering it.",
+        "dependencies": [
+          "T01.G1.01",
+          "T32.G1.03"
+        ]
+      },
+      {
+        "id": "T32.G2.02",
+        "topic": "T32",
+        "name": "N/A",
+        "description": "Learners follow picture instructions to log out of a shared tablet/computer and explain why logging off prevents others from accessing their work or personal information.",
+        "dependencies": [
+          "T01.G1.01",
+          "T03.G1.03"
+        ]
+      },
+      {
+        "id": "T32.G2.03",
+        "topic": "T32",
+        "name": "N/A",
+        "description": "Students choose how to respond to unkind messages (ignore/report) and discuss why kindness online matters and how to handle uncomfortable situations.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T32.G2.04",
+        "topic": "T32",
+        "name": "N/A",
+        "description": "Learners list practices (keep passwords hidden, don't leave device unattended, use devices in supervised areas) linking physical care to digital safety.",
+        "dependencies": [
+          "T01.G1.01",
+          "T03.G1.03"
+        ]
+      },
+      {
+        "id": "T32.G2.05",
+        "topic": "T32",
+        "name": "N/A",
+        "description": "Students watch teacher-led scenarios showing what happens when you click suspicious links (goes to fake website, downloads unwanted files, asks for passwords). They identify red flags before clicking and practice the \"stop and ask\" rule.",
+        "dependencies": [
+          "T32.G1.04"
+        ]
+      },
+      {
+        "id": "T32.G2.06",
+        "topic": "T32",
+        "name": "N/A",
+        "description": "Students learn why accounts need both usernames (to identify who you are) and passwords (to prove you are that person). They compare it to having a name and a secret handshake. Through illustrated examples, they understand that usernames can be public but passwords must stay private.",
+        "dependencies": [
+          "T32.G2.01"
+        ]
+      }
+    ],
+    "T33": [
+      {
+        "id": "T33.G2.01",
+        "topic": "T33",
+        "name": "N/A",
+        "description": "Students act out or illustrate what happens when an app sends a question to the internet: waiting, getting an answer, showing results. They recognize loading spinners and understand that internet helpers need time to respond. They discuss what happens when there's no internet connection.",
+        "dependencies": [
+          "T33.G1.01"
+        ]
+      }
+    ],
+    "T34": [
+      {
+        "id": "T34.G2.01",
+        "topic": "T34",
+        "name": "N/A",
+        "description": "Students fill a chart showing how a task (taking photos, shopping, banking) was done before computers vs today.",
+        "dependencies": [
+          "T34.G1.01",
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T34.G2.02",
+        "topic": "T34",
+        "name": "N/A",
+        "description": "Learners analyze a case (screen readers, online maps) and list groups that gained access.",
+        "dependencies": [
+          "T34.G1.01",
+          "T34.G1.02"
+        ]
+      },
+      {
+        "id": "T34.G2.03",
+        "topic": "T34",
+        "name": "N/A",
+        "description": "Students write/draw a mini-bio of a person (famous or local) who uses tech to help others.",
+        "dependencies": [
+          "T34.G1.02"
+        ]
+      }
+    ],
+    "T35": [
+      {
+        "id": "T35.G2.01",
+        "topic": "T35",
+        "name": "N/A",
+        "description": "Students create simple pros/cons charts for tools like video sharing or messaging apps. They list at least 2 positives and 2 negatives for each tool, then draw or place pictures showing examples of each benefit and harm to create a visual comparison chart.",
+        "dependencies": [
+          "T01.G1.07"
+        ]
+      },
+      {
+        "id": "T35.G2.02",
+        "topic": "T35",
+        "name": "N/A",
+        "description": "Learners design a simple daily routine that includes device time, outdoor play, meals, and sleep.",
+        "dependencies": [
+          "T01.G1.01",
+          "T03.G1.03"
+        ]
+      },
+      {
+        "id": "T35.G2.03",
+        "topic": "T35",
+        "name": "N/A",
+        "description": "Students role-play responses (ignore, block, tell adult) and positive messages.",
+        "dependencies": [
+          "T01.G1.01"
+        ]
+      },
+      {
+        "id": "T35.G2.04",
+        "topic": "T35",
+        "name": "N/A",
+        "description": "Students sort information cards (name, favorite color, home address, birthday, pet's name) into 'okay to share online' and 'keep private' piles. For each card, they explain WHY the information is private or safe to share (e.g., \"Home address is private because strangers could find where you live\" or \"Favorite color is safe because it doesn't help anyone locate you\").",
+        "dependencies": [
+          "T35.G2.01"
+        ]
+      }
+    ],
+    "T36": [
+      {
+        "id": "T36.G2.01",
+        "topic": "T36",
+        "name": "N/A",
+        "description": "Students match roles (story planner, builder, tester) to tasks in a CreatiCode project.",
+        "dependencies": [
+          "T36.G1.01"
+        ]
+      },
+      {
+        "id": "T36.G2.02",
+        "topic": "T36",
+        "name": "N/A",
+        "description": "Learners build a picture schedule showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep), understanding digital wellness.",
+        "dependencies": [
+          "T03.G1.03"
+        ]
+      },
+      {
+        "id": "T36.G2.03",
+        "topic": "T36",
+        "name": "N/A",
+        "description": "Students write or draw how classmates contribute unique skills (drawing, building, storytelling) to a project.",
+        "dependencies": [
+          "T36.G2.01"
+        ]
+      },
+      {
+        "id": "T36.G2.04",
+        "topic": "T36",
+        "name": "N/A",
+        "description": "Students identify and name careers where people create digital content (game designer, animator, app builder) through picture sorting and discussion.",
+        "dependencies": [
+          "T36.G1.01"
+        ]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "T01.G2.01",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "**Student task:** Look at pictures showing an everyday task. Which action happens over and over? **Example:** In cleaning up toys, \"pick up toy\" happens many times. _Implementation note: Highlight or MCQ. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": []
+    },
+    {
+      "id": "T01.G2.02",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "**Student task:** Look at two sets of directions. Pick the one that uses \"repeat ___ times\" to say the same thing in fewer words. **Example:** \"Walk 3 steps, walk 3 steps, walk 3 steps\" vs \"Repeat 'walk 3 steps' 3 times\" _Implementation note: MCQ (long explicit vs \"repeat\" version). CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.01"
+      ]
+    },
+    {
+      "id": "T01.G2.03",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "**Student task:** Look at a long list of repeated steps. Rewrite it using \"repeat ___ times\" to make it shorter and clearer. **Example:** \"Clap, clap, clap, clap\" becomes \"Repeat 'clap' 4 times\" _Implementation note: Choose or assemble compressed description with \"repeat.\" CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.02"
+      ]
+    },
+    {
+      "id": "T01.G2.04",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students match simple \"If it is ___, then do ___\" rules to images (rainy/sunny, door open/closed). _Implementation note: Visual MCQ. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G1.10"
+      ]
+    },
+    {
+      "id": "T01.G2.05",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students fill in missing condition or action in an if/then pair for a daily scenario. _Implementation note: Fill\u2011in with picture or word cards. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.04"
+      ]
+    },
+    {
+      "id": "T01.G2.06",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students choose which of several if/then statements fits a picture story. _Implementation note: MCQ; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.05"
+      ]
+    },
+    {
+      "id": "T01.G2.07",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students follow short number/picture algorithms with if/then (with 2-3 simple conditions) and identify the final result. _Implementation note: Tracing + MCQ result. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.06"
+      ]
+    },
+    {
+      "id": "T01.G2.08",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students compute total actions or final position for routines with \"repeat 3 times\" (with 3-5 steps total). _Implementation note: Tracing + MCQ. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.03"
+      ]
+    },
+    {
+      "id": "T01.G2.09",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students adjust a repeat count that causes too many or too few repetitions. _Implementation note: Increase/decrease repeat number; auto\u2011graded via final outcome. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.08"
+      ]
+    },
+    {
+      "id": "T01.G2.10",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students correct an if/then rule that doesn't match a picture situation. _Implementation note: MCQ or card swap. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.07"
+      ]
+    },
+    {
+      "id": "T01.G2.11",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students see a character on a small grid (3x3 or 4x4) and a sequence of \"forward/left/right\" arrows, then choose where the character ends up. _Implementation note: Path tracing with MCQ final position; auto\u2011graded by ending cell. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": []
+    },
+    {
+      "id": "T01.G2.12",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students see a start and goal on a grid and pick which of several arrow sequences reaches the goal without hitting a wall. _Implementation note: MCQ (choose arrow sequence); auto\u2011graded via simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.11"
+      ]
+    },
+    {
+      "id": "T01.G2.13",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students create instructions by dragging and dropping \"forward/left/right\" arrow cards to move a character from start to finish on a small grid. _Implementation note: Drag arrow cards; auto\u2011graded via simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.12"
+      ]
+    },
+    {
+      "id": "T01.G2.14",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students correct a set of directions that doesn't reach the goal or hits a wall. _Implementation note: Edit arrow sequence; auto\u2011graded via new simulation. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.13"
+      ]
+    },
+    {
+      "id": "T01.G2.15",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students match simple picture\u2011based instruction sequences (e.g., arrow cards showing \"forward, forward, turn right\") to equivalent visual block\u2011based commands, recognizing that pictures and blocks can represent the same algorithm. _Implementation note: Drag\u2011and\u2011drop matching with 3\u20134 sequence pairs; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.13"
+      ]
+    },
+    {
+      "id": "T01.G2.16",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code blocks does the same thing from 3-4 options. _Implementation note: MCQ matching visual sequence to code blocks; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.03",
+        "T01.G2.15"
+      ]
+    },
+    {
+      "id": "T01.G2.17",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students look at simple code blocks (move, turn, say) and identify what action each block performs by matching blocks to their behaviors. _Implementation note: MCQ matching blocks to actions; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101._",
+      "dependencies": [
+        "T01.G2.02",
+        "T01.G2.15"
+      ]
+    },
+    {
+      "id": "T01.G2.18",
+      "topic": "T01",
+      "name": "N/A",
+      "description": "Students look at an algorithm that doesn't work correctly. What's wrong? Why doesn't it work? (They don't need to fix it yet, just identify and explain the problem.) _Implementation note: MCQ identifying error + choosing explanation; auto\u2011graded. CSTA: E2\u2011ALG\u2011AF\u201101, E2\u2011ALG\u2011PS\u201103._",
+      "dependencies": [
+        "T01.G2.14"
+      ]
+    },
+    {
+      "id": "T02.G2.01",
+      "topic": "T02",
+      "name": "N/A",
+      "description": "Students see a 3\u20134 picture routine and build a horizontal row of labeled boxes (\"Step 1,\" \"Step 2,\" \"Step 3\") that describe each step in simple words or icons, using a simple box\u2011diagram layout (like instruction boxes on paper).",
+      "dependencies": [
+        "T02.G1.01"
+      ]
+    },
+    {
+      "id": "T02.G2.02",
+      "topic": "T02",
+      "name": "N/A",
+      "description": "Students are given a 3\u20134 box \"algorithm diagram\" and must choose which picture sequence matches it.",
+      "dependencies": [
+        "T02.G2.01"
+      ]
+    },
+    {
+      "id": "T02.G2.03",
+      "topic": "T02",
+      "name": "N/A",
+      "description": "Students see a short row of instruction cards with arrows or move/say icons (3\u20136 steps, no choices or repeats) and predict where a character ends up or what message appears last.",
+      "dependencies": [
+        "T02.G2.02"
+      ]
+    },
+    {
+      "id": "T02.G2.04",
+      "topic": "T02",
+      "name": "N/A",
+      "description": "Students reveal one instruction card at a time in a sequence and mark where the character is after each step (for example, on a number line or grid), building early tracing skills.",
+      "dependencies": [
+        "T02.G2.03"
+      ]
+    },
+    {
+      "id": "T02.G2.05",
+      "topic": "T02",
+      "name": "N/A",
+      "description": "Students match a simple 3\u20134 step box diagram to one of several written or picture\u2011card step sequences that carry out the same actions.",
+      "dependencies": [
+        "T02.G2.02"
+      ]
+    },
+    {
+      "id": "T02.G2.06",
+      "topic": "T02",
+      "name": "N/A",
+      "description": "Students are given a short left\u2011to\u2011right step sequence whose cards are out of order and reorder them to match a target picture or box diagram.",
+      "dependencies": [
+        "T02.G2.05"
+      ]
+    },
+    {
+      "id": "T03.G2.01",
+      "topic": "T03",
+      "name": "N/A",
+      "description": "Students read or hear a small project idea (e.g., \"Make a greeting card project\") and select which subtasks are needed (e.g., \"draw background,\" \"add message,\" \"add sound\").",
+      "dependencies": [
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T03.G2.02",
+      "topic": "T03",
+      "name": "N/A",
+      "description": "Students drag subtasks into type-based groups like \"drawing and colors,\" \"writing and words,\" or \"music and sounds\" for a small project, organizing by the kind of work needed.",
+      "dependencies": [
+        "T03.G2.01"
+      ]
+    },
+    {
+      "id": "T03.G2.03",
+      "topic": "T03",
+      "name": "N/A",
+      "description": "Students take 4\u20135 subtasks and order them into a logical sequence (e.g., plan \u2192 create \u2192 try it out), considering what must happen first.",
+      "dependencies": [
+        "T03.G2.02"
+      ]
+    },
+    {
+      "id": "T03.G2.04",
+      "topic": "T03",
+      "name": "N/A",
+      "description": "Students see a mini\u2011project checklist and mark which subtasks are complete based on a description of work done (\"We already drew the characters and added sounds.\").",
+      "dependencies": [
+        "T03.G2.03"
+      ]
+    },
+    {
+      "id": "T03.G2.04.01",
+      "topic": "T03",
+      "name": "N/A",
+      "description": "Students look at a list of project subtasks and identify which ones work together to create a single feature (e.g., \"draw player sprite,\" \"add player controls,\" \"make player move\" all contribute to the \"player movement\" feature), introducing the connection between subtasks and features.",
+      "dependencies": [
+        "T03.G2.04"
+      ]
+    },
+    {
+      "id": "T03.G2.05",
+      "topic": "T03",
+      "name": "N/A",
+      "description": "Students look at a simple game or animated story (e.g., a character that moves and makes sounds) and list what it can do (e.g., \"the cat can walk,\" \"it plays music,\" \"you can click to make it jump\"), preparing them to recognize features in projects.",
+      "dependencies": [
+        "T03.G2.04.01"
+      ]
+    },
+    {
+      "id": "T04.G2.01",
+      "topic": "T04",
+      "name": "N/A",
+      "description": "Students see a longer pattern like ABCABCABC and choose the \"unit\" that repeats.",
+      "dependencies": [
+        "T04.G1.02",
+        "T04.G1.03"
+      ]
+    },
+    {
+      "id": "T04.G2.02",
+      "topic": "T04",
+      "name": "N/A",
+      "description": "Students read or see an everyday algorithm (e.g., \"brush, rinse\" repeated three times) and highlight the part that repeats, focusing on the *pattern unit* rather than the full routine.",
+      "dependencies": [
+        "T04.G2.01"
+      ]
+    },
+    {
+      "id": "T04.G2.03",
+      "topic": "T04",
+      "name": "N/A",
+      "description": "Students compare two visual or written descriptions of the same pattern: one showing all steps explicitly (e.g., \"draw star, draw star, draw star\") vs one using \"repeat 3 times: draw star.\" They identify which is shorter and clearer, focusing on pattern comparison rather than coding concepts.",
+      "dependencies": [
+        "T01.G2.02"
+      ]
+    },
+    {
+      "id": "T04.G2.04",
+      "topic": "T04",
+      "name": "N/A",
+      "description": "Students rewrite a long visual or written pattern description by selecting or creating a compressed version using \"repeat ___ times\" notation. Focus is on recognizing and expressing repetition concisely, using visual notation like \"repeat 4: [pattern]\" rather than preparing for coding.",
+      "dependencies": [
+        "T04.G2.03"
+      ]
+    },
+    {
+      "id": "T04.G2.05",
+      "topic": "T04",
+      "name": "N/A",
+      "description": "Students see a visual representation of repetition\u2014a box drawn around pictures or steps with \"repeat 3 times\" written above it\u2014and match it to the equivalent expanded sequence. This visual \"repeat box\" notation helps organize repeated elements in a clear, visual way.",
+      "dependencies": [
+        "T04.G2.04"
+      ]
+    },
+    {
+      "id": "T05.G2.01",
+      "topic": "T05",
+      "name": "N/A",
+      "description": "Students see three users (e.g., kid, adult, person with glasses) and match each to a preferred design (colorful icons, simple layout, high contrast).",
+      "dependencies": [
+        "T05.G1.03"
+      ]
+    },
+    {
+      "id": "T05.G2.02",
+      "topic": "T05",
+      "name": "N/A",
+      "description": "Students select features like large buttons, captions, and audio instructions as \"helps more people use this.\"",
+      "dependencies": [
+        "T05.G1.04"
+      ]
+    },
+    {
+      "id": "T05.G2.03",
+      "topic": "T05",
+      "name": "N/A",
+      "description": "Students see picture pairs showing real things and their \"pretend computer versions\" (e.g., real traffic light vs animated traffic light on screen). They match which real situations have a computer pretend version and explain why trying ideas on a computer first can be safer.",
+      "dependencies": [
+        "T05.G1.01"
+      ]
+    },
+    {
+      "id": "T05.G2.04",
+      "topic": "T05",
+      "name": "N/A",
+      "description": "Students see a picture of a situation (e.g., garden with sun, rain, flowers, bugs, fence). They drag and drop 2\u20133 pictures of important things to include in a \"computer pretend version\" to answer a question like \"What helps the plant grow?\" while leaving out unimportant details.",
+      "dependencies": [
+        "T05.G2.03"
+      ]
+    },
+    {
+      "id": "T06.G2.01",
+      "topic": "T06",
+      "name": "N/A",
+      "description": "Students build a chain of 3-4 cause-and-effect relationships using picture cards where one event triggers the next (e.g., rain falls \u2192 flowers grow \u2192 bees come \u2192 honey is made). This unplugged activity introduces the concept of cascading events and event chains, foundational for understanding broadcasts and event sequences in programming.",
+      "dependencies": [
+        "T06.G1.03"
+      ]
+    },
+    {
+      "id": "T06.G2.02",
+      "topic": "T06",
+      "name": "N/A",
+      "description": "Students identify scenarios where different triggers can cause the same action (e.g., \"turn on light\" can happen when: you flip switch, you clap hands, or timer goes off). This introduces the concept of multiple event handlers for the same behavior.",
+      "dependencies": [
+        "T06.G2.01"
+      ]
+    },
+    {
+      "id": "T06.G2.03",
+      "topic": "T06",
+      "name": "N/A",
+      "description": "Students create a simple game rule card stating what happens when a specific event occurs (e.g., \"If you land on a star, move ahead 2 spaces\"). This unplugged activity connects event-driven thinking to game design, preparing for event-based game programming in Grade 3.",
+      "dependencies": [
+        "T06.G2.02"
+      ]
+    },
+    {
+      "id": "T07.G2.01",
+      "topic": "T07",
+      "name": "N/A",
+      "description": "Students sort simple task cards into two categories: \"needs repeating\" (like brushing all teeth, coloring all stars) vs \"do only once\" (like putting on a hat, opening a door). This picture-based classification develops the judgment of when repetition is needed, a key prerequisite for choosing between loops and sequential code. Use 6-8 task cards with clear yes/no answers.",
+      "dependencies": [
+        "T07.G1.02"
+      ]
+    },
+    {
+      "id": "T08.G2.01",
+      "topic": "T08",
+      "name": "N/A",
+      "description": "Students follow a path on a simple flowchart. At each diamond, answer a yes/no question to choose which way to go and find where you end up. This interactive flowchart activity with 2-3 decision points introduces visual representation of conditional logic and sequential decision-making.",
+      "dependencies": [
+        "T08.G1.03"
+      ]
+    },
+    {
+      "id": "T08.G2.02",
+      "topic": "T08",
+      "name": "N/A",
+      "description": "Students look at a picture scenario and fill in the blanks to create an \"If ___, then ___, else ___\" rule. For example, traffic light scenario: \"If light is green, then walk, else wait.\" This fill-in-the-blank activity with word/picture bank develops the ability to construct complete conditional statements.",
+      "dependencies": [
+        "T08.G2.01"
+      ]
+    },
+    {
+      "id": "T08.G2.03",
+      "topic": "T08",
+      "name": "N/A",
+      "description": "Students look at 2-3 \"if-then\" rules and a picture, then choose which rule applies to the situation shown. For example, rules about what to do when tired, hungry, or bored\u2014which one fits the picture? This multiple-choice rule selection activity develops pattern matching between situations and conditional rules.",
+      "dependencies": [
+        "T08.G2.02"
+      ]
+    },
+    {
+      "id": "T09.G2.01",
+      "topic": "T09",
+      "name": "N/A",
+      "description": "**Student task:** Before the game starts, set the score to 0. Then play and collect items. Why do we start at 0? _Implementation note: Picture-based initialization concept. CSTA: E2\u2011PRO\u2011PF\u201102._",
+      "dependencies": [
+        "T09.G1.02"
+      ]
+    },
+    {
+      "id": "T09.G2.02",
+      "topic": "T09",
+      "name": "N/A",
+      "description": "**Student task:** Follow along as the counter goes up. When it reaches the target number (like 5), something special happens! Predict when it will happen. _Implementation note: Picture-based prediction with threshold concept. CSTA: E2\u2011PRO\u2011PF\u201102._",
+      "dependencies": [
+        "T09.G2.01",
+        "T08.G2.01"
+      ]
+    },
+    {
+      "id": "T10.G2.01",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students organize a list of information into a table with labeled rows and columns (e.g., organize \"Sam has 3 apples, Lia has 2 oranges\" into a table).",
+      "dependencies": [
+        "T10.G1.03"
+      ]
+    },
+    {
+      "id": "T10.G2.02",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students add a new row of data to an existing picture table by filling in all column values for a new entry.",
+      "dependencies": [
+        "T10.G2.01"
+      ]
+    },
+    {
+      "id": "T10.G2.03",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students compare data from two different rows in a table and answer questions about differences or similarities (e.g., \"Who has more points, Sam or Lia?\").",
+      "dependencies": [
+        "T10.G2.01"
+      ]
+    },
+    {
+      "id": "T10.G2.04",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students rearrange rows in a simple table to put them in order by one column (e.g., \"arrange students from most to least points\").",
+      "dependencies": [
+        "T10.G2.01",
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T10.G2.05",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students identify and mark all rows in a table where a specific column matches a condition (e.g., \"Find all students with 10 or more points\").",
+      "dependencies": [
+        "T10.G2.01"
+      ]
+    },
+    {
+      "id": "T10.G2.06",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students count how many rows in a table satisfy a condition (e.g., \"How many students scored more than 5?\").",
+      "dependencies": [
+        "T10.G2.05"
+      ]
+    },
+    {
+      "id": "T10.G2.07",
+      "topic": "T10",
+      "name": "N/A",
+      "description": "Students transition from picture tables to understanding that code can have \"lists\" - ordered collections of items that the computer stores and uses. They match real-world examples (shopping list, playlist, leaderboard) to the concept of a code list.",
+      "dependencies": [
+        "T10.G2.01"
+      ]
+    },
+    {
+      "id": "T12.G2.01",
+      "topic": "T12",
+      "name": "N/A",
+      "description": "Students add a short note near a group of steps to explain why that section is there (e.g., \"These steps are to get ready,\" \"These steps are to clean up\"). This is an unplugged analogue of commenting and documenting parts of a project.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T12.G2.02",
+      "topic": "T12",
+      "name": "N/A",
+      "description": "Students see a simple plan with section titles that are vague or unclear (e.g., \"Stuff,\" \"More things\") and replace them with clearer titles that match the steps underneath (e.g., \"Set up chairs,\" \"Decorate the room\"). This mirrors renaming confusing identifiers but stays at the level of everyday language.",
+      "dependencies": [
+        "T12.G1.02"
+      ]
+    },
+    {
+      "id": "T12.G2.03",
+      "topic": "T12",
+      "name": "N/A",
+      "description": "Students review several section titles for one plan (e.g., \"Set up,\" \"Playing the game,\" \"Clean up time!\") and adjust or choose options so they all follow a similar style (for example, all starting with action words). This builds awareness of consistent naming without introducing code vocabulary.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T12.G2.04",
+      "topic": "T12",
+      "name": "N/A",
+      "description": "Students see 2\u20133 headings (e.g., \"Before class,\" \"During class,\" \"After class\") and a mixed set of picture steps, then group each step under the heading where it belongs. This extends the Grade 1 idea of splitting lists into clearly labeled sections.",
+      "dependencies": [
+        "T03.G1.02",
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T13.G2.01",
+      "topic": "T13",
+      "name": "N/A",
+      "description": "Students examine instructions where a character is supposed to act on a certain signal (e.g., clap, whistle, or card color) but the written or picture steps mention the wrong signal. They identify and fix the signal in the instructions so the behavior matches the story.",
+      "dependencies": [
+        "T01.G1.06"
+      ]
+    },
+    {
+      "id": "T13.G2.02",
+      "topic": "T13",
+      "name": "N/A",
+      "description": "Students \"walk through\" a simple set of instructions step by step, predicting what each step does and what the character or object will look like or where it will end up at the end. This mental tracing helps them spot logic errors before acting it out.",
+      "dependencies": [
+        "T01.G1.05",
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T13.G2.03",
+      "topic": "T13",
+      "name": "N/A",
+      "description": "Students modify instructions where an action repeats the wrong number of times (e.g., clap 2 times instead of 5, or march too many steps). They change the number of repeats so the behavior matches a picture or description.",
+      "dependencies": [
+        "T04.G2.01",
+        "T01.G2.01"
+      ]
+    },
+    {
+      "id": "T13.G2.04",
+      "topic": "T13",
+      "name": "N/A",
+      "description": "Students add a small \"check\" card or picture (e.g., a thumbs\u2011up or scoreboard picture) at a key point in a set of steps to show that something important has happened (like reaching a goal or using all the cards). This helps them see what is going on inside a longer routine.",
+      "dependencies": [
+        "T03.G1.03",
+        "T01.G1.09"
+      ]
+    },
+    {
+      "id": "T14.G2.01",
+      "topic": "T14",
+      "name": "N/A",
+      "description": "Students look at a turn-based scene with multiple players or timers and determine whose turn it is or what happens next when a turn ends. _CSTA: 1B-AP-11.__",
+      "dependencies": [
+        "T01.G1.01",
+        "T14.G1.02"
+      ]
+    },
+    {
+      "id": "T14.G2.02",
+      "topic": "T14",
+      "name": "N/A",
+      "description": "Students track a player's lives through a short picture story. They identify when a life is lost (touching a hazard) and when the game is over (lives reach zero). _CSTA: 1B-AP-12.__",
+      "dependencies": [
+        "T01.G1.04",
+        "T14.G1.05"
+      ]
+    },
+    {
+      "id": "T14.G2.03",
+      "topic": "T14",
+      "name": "N/A",
+      "description": "Students identify the condition for moving to the next level (touch goal, collect items) and notice that later levels are usually different or harder. _CSTA: 1B-AP-10.__",
+      "dependencies": [
+        "T01.G1.01",
+        "T14.G1.01"
+      ]
+    },
+    {
+      "id": "T14.G2.04",
+      "topic": "T14",
+      "name": "N/A",
+      "description": "Students order 3\u20134 picture cards showing a safe route through a level (jump over spikes, grab key, open door) to highlight planning before play. _CSTA: 1B-AP-11.__",
+      "dependencies": [
+        "T01.G1.04",
+        "T14.G1.04"
+      ]
+    },
+    {
+      "id": "T14.G2.05",
+      "topic": "T14",
+      "name": "N/A",
+      "description": "Presented with a short brief (\"Make it easier for new players\"), students choose the change that best matches the goal (add another heart, remove a hazard, shorten timer) to understand how game settings affect difficulty. _CSTA: 1B-AP-15.__",
+      "dependencies": [
+        "T01.G1.10",
+        "T14.G1.03"
+      ]
+    },
+    {
+      "id": "T15.G2.01",
+      "topic": "T15",
+      "name": "N/A",
+      "description": "Students compare two animation sequences (represented by frame strips) and identify which one represents a faster or slower action based on the gap between positions.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T15.G2.02",
+      "topic": "T15",
+      "name": "N/A",
+      "description": "In a story sequence, students identify the point where the location changes (e.g., from House to School).",
+      "dependencies": [
+        "T01.G1.10",
+        "T01.G1.04"
+      ]
+    },
+    {
+      "id": "T15.G2.03",
+      "topic": "T15",
+      "name": "N/A",
+      "description": "Students identify the repeating part of an animation (e.g., Left foot, Right foot, Left foot, Right foot).",
+      "dependencies": [
+        "T01.G1.07"
+      ]
+    },
+    {
+      "id": "T16.G2.01",
+      "topic": "T16",
+      "name": "N/A",
+      "description": "Look at before/after pictures showing interface interactions (button pressed \u2192 light turns on, slider moved \u2192 volume changes, text typed \u2192 letters appear). Describe what changed.",
+      "dependencies": [
+        "T16.G1.02"
+      ]
+    },
+    {
+      "id": "T16.G2.02",
+      "topic": "T16",
+      "name": "N/A",
+      "description": "Draw a simple interface on paper for a specific purpose (TV remote, game menu, calculator). Include buttons with labels, displays for information, and arrange them logically. Explain what each part does.",
+      "dependencies": [
+        "T16.G2.01"
+      ]
+    },
+    {
+      "id": "T17.G2.01",
+      "topic": "T17",
+      "name": "N/A",
+      "description": "Students look at motion blocks (move 10 steps, turn right, move 10 steps) and choose from picture options showing which direction the sprite will move. They build directional intuition before coding.",
+      "dependencies": [
+        "T17.G1.01"
+      ]
+    },
+    {
+      "id": "T18.G2.01",
+      "topic": "T18",
+      "name": "N/A",
+      "description": "Students look at simple 3D objects (toy car, block tower, etc.) from different angles and draw or select the correct front, top, and side view silhouettes, developing spatial reasoning about how viewpoint changes appearance.",
+      "dependencies": [
+        "T18.G1.01"
+      ]
+    },
+    {
+      "id": "T20.G2.01",
+      "topic": "T20",
+      "name": "N/A",
+      "description": "Students compare two instruction sets for the same border: one long (\u201cred square, red square, red square\u2026\u201d) and one that uses a repeat card (\u201crepeat red square 4 times\u201d). They choose the concise, accurate version.",
+      "dependencies": [
+        "T01.G1.04"
+      ]
+    },
+    {
+      "id": "T20.G2.02",
+      "topic": "T20",
+      "name": "N/A",
+      "description": "Learners arrange tiles on one side of a line and then plan what tiles should appear on the other side so the design is symmetrical.",
+      "dependencies": [
+        "T05.G1.01",
+        "T01.G1.04"
+      ]
+    },
+    {
+      "id": "T20.G2.03",
+      "topic": "T20",
+      "name": "N/A",
+      "description": "Students interpret instructions with background and foreground patterns (e.g., \"repeat row A three times for the background, then repeat row B once on top\") to build a stacked design combining two different repeating patterns.",
+      "dependencies": [
+        "T20.G2.01",
+        "T01.G2.02"
+      ]
+    },
+    {
+      "id": "T20.G2.04",
+      "topic": "T20",
+      "name": "N/A",
+      "description": "Students consider \"what-if\" prompts (e.g., \"What happens if the second color changes from blue to green?\") and explain how the final pattern would change.",
+      "dependencies": [
+        "T01.G1.04",
+        "T20.G2.03"
+      ]
+    },
+    {
+      "id": "T21.G2.01",
+      "topic": "T21",
+      "name": "N/A",
+      "description": "Students improve vague prompts (\"a dog\") by adding details (\"a fluffy white dog playing in snow\"). They compare before/after example outputs to see how specificity improves results. This uses a drag-and-drop interface where students add descriptor cards to a base prompt card. Activity Type: Prompt improvement exercise with visual feedback Estimated Time: 5-6 minutes CSTA: 2-IC-20 (Compare tradeoffs associated with computing technologies)",
+      "dependencies": [
+        "T21.G1.01"
+      ]
+    },
+    {
+      "id": "T21.G2.02",
+      "topic": "T21",
+      "name": "N/A",
+      "description": "Students discuss why AI-made pictures and responses need human review before sharing, using age-appropriate examples (making sure the robot didn't draw something silly, wrong, or mean). They look at picture scenarios and identify which AI outputs need fixing before use. Activity Type: Concept discussion with picture scenarios Estimated Time: 4-5 minutes CSTA: 2-IC-20",
+      "dependencies": [
+        "T21.G1.02"
+      ]
+    },
+    {
+      "id": "T22.G2.01",
+      "topic": "T22",
+      "name": "N/A",
+      "description": "One student pretends to be a robot helper while another asks questions. They practice giving clear context (\"I need help with my math homework about adding\") vs vague requests. Students notice how clear questions get better \"robot\" answers.",
+      "dependencies": [
+        "T22.G1.01",
+        "T22.G1.02"
+      ]
+    },
+    {
+      "id": "T22.G2.02",
+      "topic": "T22",
+      "name": "N/A",
+      "description": "Students sort question cards into \"okay to ask\" (homework help, fun facts) vs \"not okay to ask\" (my home address, passwords, mean things about classmates). They learn that some information should stay private even from helpful robots.",
+      "dependencies": [
+        "T22.G2.01"
+      ]
+    },
+    {
+      "id": "T23.G2.01",
+      "topic": "T23",
+      "name": "N/A",
+      "description": "Students read short picture stories (e.g., \"turn on light when someone claps,\" \"open door when tag is tapped\") and circle whether to use camera, microphone, or touch sensor to solve each task. Scenario-based decisions using illustrated cards.",
+      "dependencies": [
+        "T23.G1.03"
+      ]
+    },
+    {
+      "id": "T23.G2.02",
+      "topic": "T23",
+      "name": "N/A",
+      "description": "Students compare pairs of pictures (bright vs dark room for a camera, quiet vs noisy room for a mic) and pick which one makes it harder for the sensor to understand. They explain why using simple words.",
+      "dependencies": [
+        "T23.G2.01"
+      ]
+    },
+    {
+      "id": "T23.G2.03",
+      "topic": "T23",
+      "name": "N/A",
+      "description": "Students compare two illustrated scenarios: one where a toy reacts to a button press; another where an app tries to recognize an animal sound. They identify which one is \"guessing\" from sensor input versus following a direct command.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T24.G2.01",
+      "topic": "T24",
+      "name": "N/A",
+      "description": "Students watch a teacher demonstration of the `say [TEXT] in [LANGUAGE]` text-to-speech block reading a story aloud. They suggest sentences to add and observe how the computer speaks them with different voice types (Male, Female, Boy, Girl). This bridges listening to AI (G1) with coding speech features (G3) through guided observation rather than hands-on coding, maintaining age-appropriate learning for Grade 2.",
+      "dependencies": [
+        "T24.G1.01",
+        "T24.G1.03"
+      ]
+    },
+    {
+      "id": "T24.G2.02",
+      "topic": "T24",
+      "name": "N/A",
+      "description": "Students sort picture cards into \"AI can do this\" and \"AI cannot do this\" piles (e.g., AI can answer questions but cannot feel happy). They discuss AI limitations like lacking emotions or real-world experience.",
+      "dependencies": [
+        "T24.G1.02"
+      ]
+    },
+    {
+      "id": "T24.G2.03",
+      "topic": "T24",
+      "name": "N/A",
+      "description": "Students practice describing an image they want (subject, color, setting) before seeing AI results. They learn that better descriptions lead to better AI outputs.",
+      "dependencies": [
+        "T24.G1.03",
+        "T24.G2.02"
+      ]
+    },
+    {
+      "id": "T24.G2.04",
+      "topic": "T24",
+      "name": "N/A",
+      "description": "Students speak simple words into a microphone and observe how AI transcribes them. Through picture-based activities, they compare what they said to what the AI \"heard,\" noticing when the AI gets words right or makes mistakes. This bridges listening to AI (G1) with coding speech recognition (G3).",
+      "dependencies": [
+        "T24.G1.01",
+        "T24.G2.02"
+      ]
+    },
+    {
+      "id": "T25.G2.01",
+      "topic": "T25",
+      "name": "N/A",
+      "description": "Students study a picture-based bar chart and provide meaningful text labels (e.g., rename \"Column A\" to \"Bananas\"). This underscores the importance of descriptive labels.",
+      "dependencies": [
+        "T25.G1.02"
+      ]
+    },
+    {
+      "id": "T25.G2.02",
+      "topic": "T25",
+      "name": "N/A",
+      "description": "Learners view a three-step story (wake up \u2192 eat breakfast \u2192 go to school) and encode it as (1) a timeline drawing, (2) a table with time + action, and (3) a narrative sentence. Emphasis is on seeing equivalence across forms.",
+      "dependencies": [
+        "T01.G1.01",
+        "T25.G1.03"
+      ]
+    },
+    {
+      "id": "T25.G2.03",
+      "topic": "T25",
+      "name": "N/A",
+      "description": "Students match questions (\"How many stickers?\" \"Which order do things happen?\") to the most useful representation type, building judgement about data tools.",
+      "dependencies": [
+        "T25.G1.02",
+        "T25.G2.02"
+      ]
+    },
+    {
+      "id": "T25.G2.04",
+      "topic": "T25",
+      "name": "N/A",
+      "description": "Learners create flashcards with two pieces of info (animal + habitat) to see how pairing attributes forms richer records.",
+      "dependencies": [
+        "T25.G1.02"
+      ]
+    },
+    {
+      "id": "T26.G2.01",
+      "topic": "T26",
+      "name": "N/A",
+      "description": "Students categorize example data statements as \"observed\" (counting birds) or \"asked\" (favorite color), reinforcing method selection.",
+      "dependencies": [
+        "T01.G1.01",
+        "T26.G1.02"
+      ]
+    },
+    {
+      "id": "T26.G2.02",
+      "topic": "T26",
+      "name": "N/A",
+      "description": "Learners create a simple table to log respondents' names and answers, showing why we store identifiers alongside data.",
+      "dependencies": [
+        "T26.G1.01",
+        "T25.G1.02"
+      ]
+    },
+    {
+      "id": "T26.G2.03",
+      "topic": "T26",
+      "name": "N/A",
+      "description": "Students run a simple experiment (spin a top) and record each trial's duration using a timer, highlighting measurement precision.",
+      "dependencies": [
+        "T01.G1.01",
+        "T26.G1.02"
+      ]
+    },
+    {
+      "id": "T26.G2.04",
+      "topic": "T26",
+      "name": "N/A",
+      "description": "Learners see two surveys (3 responses vs 10) and explain why the larger one may be more reliable.",
+      "dependencies": [
+        "T26.G1.01",
+        "T26.G2.02"
+      ]
+    },
+    {
+      "id": "T26.G2.05",
+      "topic": "T26",
+      "name": "N/A",
+      "description": "Students run an unplugged survey with four or more answer choices (e.g., \"What's your favorite season?\"), practicing tally marks and organizing more complex response categories before learning coded surveys.",
+      "dependencies": [
+        "T26.G2.04",
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T27.G2.01",
+      "topic": "T27",
+      "name": "N/A",
+      "description": "Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.",
+      "dependencies": [
+        "T01.G1.01",
+        "T27.G1.01"
+      ]
+    },
+    {
+      "id": "T27.G2.02",
+      "topic": "T27",
+      "name": "N/A",
+      "description": "Students analyze a small line plot (temperature across 5 days) and answer what increased/decreased.",
+      "dependencies": [
+        "T01.G1.01",
+        "T27.G1.01"
+      ]
+    },
+    {
+      "id": "T27.G2.03",
+      "topic": "T27",
+      "name": "N/A",
+      "description": "Learners look at illustrated lists like [3, 4, 3, 12] represented as pictures or bars and point out which value looks different, explaining why 12 doesn't fit the pattern of 3s and 4s. This builds intuition for what will later be called \"outliers\" in statistics.",
+      "dependencies": [
+        "T01.G1.10",
+        "T27.G2.01"
+      ]
+    },
+    {
+      "id": "T27.G2.04",
+      "topic": "T27",
+      "name": "N/A",
+      "description": "Students read a question (\"Which snack is most popular?\") and determine if the provided chart answers it or if more data is needed.",
+      "dependencies": [
+        "T27.G1.03",
+        "T27.G2.02"
+      ]
+    },
+    {
+      "id": "T28.G2.01",
+      "topic": "T28",
+      "name": "N/A",
+      "description": "Students classify illustrated events (the sun rising, rolling a 7 on a six-sided die, drawing a red marble from a bag that only has red) using everyday language about certainty.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T28.G2.02",
+      "topic": "T28",
+      "name": "N/A",
+      "description": "Learners use a physical spinner (with a pencil and paperclip) or manipulative (drawing from a bag of colored blocks), run 10 trials, and record tallies with stickers or pictographs to see which color appears more often.",
+      "dependencies": [
+        "T26.G1.01",
+        "T25.G1.01"
+      ]
+    },
+    {
+      "id": "T28.G2.03",
+      "topic": "T28",
+      "name": "N/A",
+      "description": "Students compare two drawn spinners (equal vs uneven slices) and explain which is \u201cfairer\u201d when playing a game.",
+      "dependencies": [
+        "T01.G1.10"
+      ]
+    },
+    {
+      "id": "T28.G2.04",
+      "topic": "T28",
+      "name": "N/A",
+      "description": "Learners make a prediction before each of five physical coin flips (using real coins), then compare correct vs incorrect guesses to appreciate randomness.",
+      "dependencies": [
+        "T28.G2.02",
+        "T01.G1.04"
+      ]
+    },
+    {
+      "id": "T29.G2.01",
+      "topic": "T29",
+      "name": "N/A",
+      "description": "Students identify patterns in text such as rhyming words (cat/hat) or repeated words in a short poem, preparing for computational pattern matching.",
+      "dependencies": [
+        "T29.G1.04"
+      ]
+    },
+    {
+      "id": "T29.G2.02",
+      "topic": "T29",
+      "name": "N/A",
+      "description": "Students arrange sentence strips from shortest to longest by counting words in each, understanding that text can be measured and compared.",
+      "dependencies": [
+        "T29.G1.02"
+      ]
+    },
+    {
+      "id": "T29.G2.03",
+      "topic": "T29",
+      "name": "N/A",
+      "description": "Students identify which text is a complete sentence (has meaning, starts with capital, ends with period) versus a list of words, understanding text structure.",
+      "dependencies": [
+        "T29.G1.02"
+      ]
+    },
+    {
+      "id": "T29.G2.04",
+      "topic": "T29",
+      "name": "N/A",
+      "description": "Given a sentence and replacement instructions (\"change 'cat' to 'dog'\"), students rewrite the sentence with the new word, preparing for programmatic text manipulation.",
+      "dependencies": [
+        "T29.G2.03",
+        "T29.G1.04"
+      ]
+    },
+    {
+      "id": "T30.G2.01",
+      "topic": "T30",
+      "name": "N/A",
+      "description": "Students match simplified analogies (brain, short-term memory, backpack) to CPU, RAM, and storage.",
+      "dependencies": [
+        "T30.G1.01",
+        "T30.G1.02",
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T30.G2.02",
+      "topic": "T30",
+      "name": "N/A",
+      "description": "Learners arrange arrows showing how a key press travels to the CPU and then displays on screen.",
+      "dependencies": []
+    },
+    {
+      "id": "T30.G2.03",
+      "topic": "T30",
+      "name": "N/A",
+      "description": "Students decide which devices need cables (HDMI, USB) vs wireless (Bluetooth headphones) and give reasons (speed, mobility).",
+      "dependencies": [
+        "T30.G1.01",
+        "T01.G1.07"
+      ]
+    },
+    {
+      "id": "T30.G2.04",
+      "topic": "T30",
+      "name": "N/A",
+      "description": "Learners list simple habits (carry with two hands, clean hands, plug in gently) linking hardware care to digital responsibility.",
+      "dependencies": [
+        "T30.G1.01",
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T30.G2.05",
+      "topic": "T30",
+      "name": "N/A",
+      "description": "Students match sensors (camera, microphone, touch screen) to what they detect (light/images, sound/voices, finger touches) using picture cards or simple demonstrations.",
+      "dependencies": [
+        "T30.G1.03"
+      ]
+    },
+    {
+      "id": "T31.G2.01",
+      "topic": "T31",
+      "name": "N/A",
+      "description": "Students view diagrams showing how computers, tablets, and phones connect through routers and cables to form a network. They identify components in simple network pictures. CSTA: E2-SAS-NW-02",
+      "dependencies": []
+    },
+    {
+      "id": "T31.G2.02",
+      "topic": "T31",
+      "name": "N/A",
+      "description": "Students discuss scenarios about keeping personal information private online. They identify which information should not be shared (address, password) vs what is safe to share (favorite color, age-appropriate username). CSTA: E2-SAS-SC-02",
+      "dependencies": []
+    },
+    {
+      "id": "T32.G2.01",
+      "topic": "T32",
+      "name": "N/A",
+      "description": "Students use a guided template to build a safer password (animal + number + symbol) and actually create their own practice password. They explain why it's stronger than \"cat\" and practice remembering it.",
+      "dependencies": [
+        "T01.G1.01",
+        "T32.G1.03"
+      ]
+    },
+    {
+      "id": "T32.G2.02",
+      "topic": "T32",
+      "name": "N/A",
+      "description": "Learners follow picture instructions to log out of a shared tablet/computer and explain why logging off prevents others from accessing their work or personal information.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T32.G2.03",
+      "topic": "T32",
+      "name": "N/A",
+      "description": "Students choose how to respond to unkind messages (ignore/report) and discuss why kindness online matters and how to handle uncomfortable situations.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T32.G2.04",
+      "topic": "T32",
+      "name": "N/A",
+      "description": "Learners list practices (keep passwords hidden, don't leave device unattended, use devices in supervised areas) linking physical care to digital safety.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T32.G2.05",
+      "topic": "T32",
+      "name": "N/A",
+      "description": "Students watch teacher-led scenarios showing what happens when you click suspicious links (goes to fake website, downloads unwanted files, asks for passwords). They identify red flags before clicking and practice the \"stop and ask\" rule.",
+      "dependencies": [
+        "T32.G1.04"
+      ]
+    },
+    {
+      "id": "T32.G2.06",
+      "topic": "T32",
+      "name": "N/A",
+      "description": "Students learn why accounts need both usernames (to identify who you are) and passwords (to prove you are that person). They compare it to having a name and a secret handshake. Through illustrated examples, they understand that usernames can be public but passwords must stay private.",
+      "dependencies": [
+        "T32.G2.01"
+      ]
+    },
+    {
+      "id": "T33.G2.01",
+      "topic": "T33",
+      "name": "N/A",
+      "description": "Students act out or illustrate what happens when an app sends a question to the internet: waiting, getting an answer, showing results. They recognize loading spinners and understand that internet helpers need time to respond. They discuss what happens when there's no internet connection.",
+      "dependencies": [
+        "T33.G1.01"
+      ]
+    },
+    {
+      "id": "T34.G2.01",
+      "topic": "T34",
+      "name": "N/A",
+      "description": "Students fill a chart showing how a task (taking photos, shopping, banking) was done before computers vs today.",
+      "dependencies": [
+        "T34.G1.01",
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T34.G2.02",
+      "topic": "T34",
+      "name": "N/A",
+      "description": "Learners analyze a case (screen readers, online maps) and list groups that gained access.",
+      "dependencies": [
+        "T34.G1.01",
+        "T34.G1.02"
+      ]
+    },
+    {
+      "id": "T34.G2.03",
+      "topic": "T34",
+      "name": "N/A",
+      "description": "Students write/draw a mini-bio of a person (famous or local) who uses tech to help others.",
+      "dependencies": [
+        "T34.G1.02"
+      ]
+    },
+    {
+      "id": "T35.G2.01",
+      "topic": "T35",
+      "name": "N/A",
+      "description": "Students create simple pros/cons charts for tools like video sharing or messaging apps. They list at least 2 positives and 2 negatives for each tool, then draw or place pictures showing examples of each benefit and harm to create a visual comparison chart.",
+      "dependencies": [
+        "T01.G1.07"
+      ]
+    },
+    {
+      "id": "T35.G2.02",
+      "topic": "T35",
+      "name": "N/A",
+      "description": "Learners design a simple daily routine that includes device time, outdoor play, meals, and sleep.",
+      "dependencies": [
+        "T01.G1.01",
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T35.G2.03",
+      "topic": "T35",
+      "name": "N/A",
+      "description": "Students role-play responses (ignore, block, tell adult) and positive messages.",
+      "dependencies": [
+        "T01.G1.01"
+      ]
+    },
+    {
+      "id": "T35.G2.04",
+      "topic": "T35",
+      "name": "N/A",
+      "description": "Students sort information cards (name, favorite color, home address, birthday, pet's name) into 'okay to share online' and 'keep private' piles. For each card, they explain WHY the information is private or safe to share (e.g., \"Home address is private because strangers could find where you live\" or \"Favorite color is safe because it doesn't help anyone locate you\").",
+      "dependencies": [
+        "T35.G2.01"
+      ]
+    },
+    {
+      "id": "T36.G2.01",
+      "topic": "T36",
+      "name": "N/A",
+      "description": "Students match roles (story planner, builder, tester) to tasks in a CreatiCode project.",
+      "dependencies": [
+        "T36.G1.01"
+      ]
+    },
+    {
+      "id": "T36.G2.02",
+      "topic": "T36",
+      "name": "N/A",
+      "description": "Learners build a picture schedule showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep), understanding digital wellness.",
+      "dependencies": [
+        "T03.G1.03"
+      ]
+    },
+    {
+      "id": "T36.G2.03",
+      "topic": "T36",
+      "name": "N/A",
+      "description": "Students write or draw how classmates contribute unique skills (drawing, building, storytelling) to a project.",
+      "dependencies": [
+        "T36.G2.01"
+      ]
+    },
+    {
+      "id": "T36.G2.04",
+      "topic": "T36",
+      "name": "N/A",
+      "description": "Students identify and name careers where people create digital content (game designer, animator, app builder) through picture sorting and discussion.",
+      "dependencies": [
+        "T36.G1.01"
+      ]
+    }
+  ]
+}

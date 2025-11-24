@@ -1,0 +1,376 @@
+GRADE 3 (T25-T36) CROSS-TOPIC DEPENDENCY ANALYSIS
+====================================================================================================
+
+Total Grade 3 skills analyzed: 65
+Skills with issues: 51
+
+
+SKILL_ID: T25.G3.00.01
+SKILL_NAME: Create and name variables in CreatiCode
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T25.G3.00.02
+SKILL_NAME: Create and name lists in CreatiCode
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+ADD DEPENDENCY: T01.G2.01 or T01.G3.01
+REASON: Uses algorithms or sequences
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T25.G3.01.01
+SKILL_NAME: Add items to a list manually
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+ADD DEPENDENCY: T01.G2.01 or T01.G3.01
+REASON: Uses algorithms or sequences
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T25.G3.01.02
+SKILL_NAME: Map survey responses into list variables
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+ADD DEPENDENCY: T01.G2.01 or T01.G3.01
+REASON: Uses algorithms or sequences
+
+
+SKILL_ID: T25.G3.02.01
+SKILL_NAME: Use number variables for counting and scoring
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T25.G3.02.02
+SKILL_NAME: Use text variables for names and messages
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T25.G3.02.03
+SKILL_NAME: Use boolean variables for true/false states
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T25.G3.05
+SKILL_NAME: Identify when data needs cleaning
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T25.G3.06.01
+SKILL_NAME: Create a simple table in CreatiCode
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T26.G3.01
+SKILL_NAME: Script a CreatiCode survey loop
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T26.G3.02
+SKILL_NAME: Write fair survey questions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T26.G3.03
+SKILL_NAME: Log sensor-style events with counters
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T26.G3.04.01
+SKILL_NAME: Store raw data in lists
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+
+
+SKILL_ID: T26.G3.04.02
+SKILL_NAME: Generate summary data from raw data
+ADD DEPENDENCY: T07.G2.01 or T07.G3.01
+REASON: Uses loops or repetition
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+
+
+SKILL_ID: T26.G3.05
+SKILL_NAME: Spot common data collection mistakes
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+
+
+SKILL_ID: T26.G3.06
+SKILL_NAME: Implement basic consent before data collection
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T27.G3.00
+SKILL_NAME: Add basic widgets to display information
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T27.G3.01b
+SKILL_NAME: Create and populate data tables in CreatiCode
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T27.G3.01c
+SKILL_NAME: Find minimum and maximum values in tables
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T27.G3.02
+SKILL_NAME: Build comparison statements with evidence
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T27.G3.03
+SKILL_NAME: Use CreatiCode data tables to group and count
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T27.G3.05
+SKILL_NAME: Choose appropriate chart types for data
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T28.G3.01
+SKILL_NAME: Interpret provided simulation output
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T28.G3.02
+SKILL_NAME: Explain what "pick random" does by testing predictions
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+
+
+SKILL_ID: T28.G3.03
+SKILL_NAME: Record experimental data with teacher-provided blocks
+ADD DEPENDENCY: T07.G2.01 or T07.G3.01
+REASON: Uses loops or repetition
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+
+
+SKILL_ID: T28.G3.04
+SKILL_NAME: Compare predictions to simulated data
+ADD DEPENDENCY: T07.G2.01 or T07.G3.01
+REASON: Uses loops or repetition
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T28.G3.05
+SKILL_NAME: Describe randomness in games and simulate a simple game element
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+
+
+SKILL_ID: T28.G3.06
+SKILL_NAME: Modify a teacher-provided random generator
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+
+
+SKILL_ID: T28.G3.07
+SKILL_NAME: Assemble blocks to build a random generator
+ADD DEPENDENCY: T07.G2.01 or T07.G3.01
+REASON: Uses loops or repetition
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+
+
+SKILL_ID: T29.G3.01
+SKILL_NAME: Distinguish text data from numbers and pictures
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T29.G3.02
+SKILL_NAME: Count word occurrences using variables
+ADD DEPENDENCY: T07.G2.01 or T07.G3.01
+REASON: Uses loops or repetition
+
+
+SKILL_ID: T29.G3.04
+SKILL_NAME: Explain why clean text helps AI helpers
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T29.G3.05
+SKILL_NAME: Compare text for equality using "=" operator
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T30.G3.02
+SKILL_NAME: Identify device input types for CreatiCode projects
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T30.G3.03
+SKILL_NAME: Compare CreatiCode cloud save vs local export options
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T30.G3.04
+SKILL_NAME: Explain how sensors provide input to computer programs
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T30.G3.05
+SKILL_NAME: Access device camera in CreatiCode projects
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T30.G3.06
+SKILL_NAME: Access device microphone for audio input
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T31.G3.02
+SKILL_NAME: Recognize different types of online information sharing
+ADD DEPENDENCY: T05.G2.01 or T05.G3.01
+REASON: Uses functions or custom blocks
+
+
+SKILL_ID: T32.G3.02
+SKILL_NAME: Explain multi-factor authentication (MFA) with analogies
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T32.G3.04
+SKILL_NAME: Evaluate and use sharing settings in CreatiCode projects
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T09.G2.01 or T09.G3.01
+REASON: Uses variables or data storage
+
+
+SKILL_ID: T32.G3.05
+SKILL_NAME: Recognize phishing-like messages
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T33.G3.01
+SKILL_NAME: Identify cloud-connected features in familiar apps
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T34.G3.01
+SKILL_NAME: Sequence milestones on a timeline
+ADD DEPENDENCY: T01.G2.01 or T01.G3.01
+REASON: Uses algorithms or sequences
+
+
+SKILL_ID: T34.G3.02
+SKILL_NAME: Connect computing milestones to everyday life
+ADD DEPENDENCY: T11.G2.01 or T11.G3.01
+REASON: Uses random values
+
+
+SKILL_ID: T35.G3.01
+SKILL_NAME: Evaluate digital footprints
+ADD DEPENDENCY: T07.G2.01 or T07.G3.01
+REASON: Uses loops or repetition
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T35.G3.03
+SKILL_NAME: Develop class guidelines for respectful communication
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T35.G3.04
+SKILL_NAME: Recognize when apps collect data
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T36.G3.01
+SKILL_NAME: Ask classmates simple questions to understand project needs
+ADD DEPENDENCY: T04.G2.01 or T04.G3.01
+REASON: Uses UI elements or interaction
+
+
+SKILL_ID: T36.G3.02
+SKILL_NAME: Draft simple team agreements
+ADD DEPENDENCY: T08.G2.01 or T08.G3.01
+REASON: Uses conditionals/decisions
+
+
+SKILL_ID: T36.G3.03
+SKILL_NAME: Reflect on collaboration habits
+ADD DEPENDENCY: T10.G2.01 or T10.G3.01
+REASON: Uses lists or collections
+
