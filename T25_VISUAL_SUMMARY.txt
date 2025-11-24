@@ -1,0 +1,230 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                    T25 DATA REPRESENTATION - VISUAL SUMMARY                    ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ SKILL DISTRIBUTION BY GRADE                                                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Grade K  [███] 3 skills   ✅ All unplugged/picture-based
+Grade 1  [███] 3 skills   ✅ All unplugged/picture-based
+Grade 2  [████] 4 skills  ✅ All unplugged/picture-based
+Grade 3  [███████████] 11 skills  ⚠️  1 broad skill, circular dependency
+Grade 4  [██████] 6 skills  ⚠️  1 broad skill, content gap
+Grade 5  [██████████] 10 skills  ⚠️  3 broad skills
+Grade 6  [████████████] 12 skills  ⚠️  4 broad skills (MOST SKILLS)
+Grade 7  [██████████] 10 skills  ⚠️  2 broad skills
+Grade 8  [████] 4 skills  ❌ All 4 are overly broad!
+
+         0        5        10        15
+         └────────┴─────────┴─────────┘
+                  Skill Count
+
+TOTAL: 65 skills
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ISSUE BREAKDOWN                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Overly Broad Skills:     15 / 65  (23%)  ████████████████████████░░░░░░
+X-2 Borderline:           8 / 65  (12%)  ████████████░░░░░░░░░░░░░░░░░░
+Circular Dependencies:    1        (×)   ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+Content Gaps:             2        (!)   ████░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Overall Quality:  ████████░░  8/10
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TOPIC PROGRESSION                                                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+K-2: Foundation
+     ▼
+     └─── Unplugged data awareness
+          Symbols, legends, tables
+          Multiple representations
+          ✅ EXCELLENT
+
+G3:  Introduction to Digital Data
+     ▼
+     ├─── Variables (create, name, set)
+     ├─── Lists (add items, display)
+     ├─── Simple tables (2 columns)
+     └─── Data quality awareness
+          ⚠️  1 broad skill needs split
+
+G4:  Data Planning & Formats
+     ▼
+     ├─── Schema diagrams
+     ├─── Multiple encodings (decimal/fraction/%)
+     ├─── Dense vs sparse
+     └─── Metadata documentation
+          ⚠️  1 broad skill, missing quality content
+
+G5:  Complex Data Structures
+     ▼
+     ├─── Multi-type structures (design + implement)
+     ├─── Data cleaning & validation
+     ├─── Multi-column tables
+     └─── Query & filter operations
+          ⚠️  3 broad skills need splits
+
+G6:  Advanced Operations & Persistence
+     ▼
+     ├─── Metadata & documentation
+     ├─── Lossy vs lossless
+     ├─── Nested structures
+     ├─── Advanced queries & aggregation
+     ├─── Server storage
+     └─── CSV import/export
+          ⚠️  4 broad skills need splits
+
+G7:  Multi-Table & External Integration
+     ▼
+     ├─── Database normalization
+     ├─── Representation bias
+     ├─── Multiple persistence methods
+     ├─── Storage/performance tradeoffs
+     ├─── Database collections
+     └─── Google Sheets integration
+          ⚠️  2 broad skills need splits
+
+G8:  Advanced Concepts & Collaboration
+     ▼
+     ├─── Multi-modal schemas (AI integration)
+     ├─── Versioning & lineage
+     ├─── Compression strategies
+     └─── Collaboration documentation
+          ❌ ALL 4 skills too broad!
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ TOP 5 PRIORITY FIXES                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. 🔴 T25.G8.01 - Design schemas for multi-modal apps
+   Current: 1 overwhelming skill
+   Split into: 5 skills (vision AI, audio AI, history, relationships, unified)
+
+2. 🔴 T25.G7.01 - Normalize repeating data into separate tables
+   Current: 1 skill covering database normalization
+   Split into: 4 skills (identify, design, implement, query)
+
+3. 🔴 T25.G5.02.02 - Build data validation and cleaning project
+   Current: 1 full-project skill
+   Split into: 4-5 skills (normalize, validate, store, pipeline)
+
+4. 🔴 T25.G5.01.02 - Implement multi-type game state in CreatiCode
+   Current: 1 skill covering multiple concepts
+   Split into: 3 skills (implement, synchronize, combine)
+
+5. 🔴 T25.G3.02 - Choose the right variable type
+   Current: 1 skill covering 3 decisions
+   Split into: 3 skills (number/text, boolean, variable/list)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ CREATICODE FEATURES COVERAGE                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+CORE FEATURES:
+✅ Variables          [████████████████████████████] 100%
+✅ Lists              [████████████████████████████] 100%
+✅ Tables             [█████████████████████████░░░]  95%
+✅ Server Storage     [████████████████████████████] 100%
+✅ Database           [████████████████████████████] 100%
+✅ Google Sheets      [████████████████████████████] 100%
+✅ CSV Import/Export  [████████████████████████████] 100%
+
+ADVANCED FEATURES:
+⚠️  Computed Tables   [████████████░░░░░░░░░░░░░░░░]  50% (block exists, not taught)
+⚠️  Pivot Tables      [████████████░░░░░░░░░░░░░░░░]  50% (block exists, not taught)
+❌ KNN Tables         [░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0% (not covered)
+❌ Geo Info Tables    [░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0% (not covered)
+❌ AI Output Tables   [░░░░░░░░░░░░░░░░░░░░░░░░░░░░]   0% (covered in T23/T24 only)
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ IMPACT OF RECOMMENDED CHANGES                                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+CURRENT STATE:
+├─ Total skills: 65
+├─ Overly broad: 15 (23%)
+├─ Issues: 28
+└─ Quality: 8/10
+
+                    ↓ APPLY PRIORITY 1-2 FIXES ↓
+
+PROJECTED STATE:
+├─ Total skills: 90-95
+├─ Overly broad: 0-2 (0-2%)
+├─ Issues resolved: 24/28 (86%)
+└─ Quality: 9.5/10
+
+BENEFITS:
+✓ Clearer learning objectives
+✓ Better progress tracking
+✓ More achievable mastery checkpoints
+✓ Reduced cognitive overload
+✓ Improved skill granularity by 23%
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ KEY INSIGHTS                                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+💡 T25 shows EXCELLENT progression from concrete (tallies) to abstract (schemas)
+
+💡 K-2 unplugged foundation is PERFECT - no changes needed
+
+💡 Grade 3 introduction is well-paced but has 1 circular dependency to fix
+
+💡 Grades 5-8 suffer from "ambition bloat" - trying to teach too much per skill
+
+💡 Grade 8 needs complete restructuring (all 4 skills are overly broad)
+
+💡 CreatiCode features are comprehensively covered (95%+)
+
+💡 Missing coverage: Advanced AI/ML table integrations could be Grade 7-8 content
+
+💡 Main fix: Break 15 broad skills into 50+ focused skills = 30-35 new skills
+
+💡 Estimated effort: 2-3 weeks to rewrite and validate all Priority 1-2 splits
+
+💡 This is one of the BEST topics in skill map - just needs better granularity
+
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ RECOMMENDED NEXT STEPS                                                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+WEEK 1:
+[ ] Review comprehensive analysis with curriculum team
+[ ] Fix T25.G3.00.01 circular dependency (affects all later skills)
+[ ] Split Priority 1 skills: G3.02, G5.01.02, G5.02.02, G7.01, G8.01
+[ ] Add Grade 4 data quality skill
+
+WEEK 2:
+[ ] Split Priority 2 skills: G4.03, G6.01, G6.02, G6.03, G7.04
+[ ] Renumber all skills for consistency
+[ ] Update dependencies to reference new split skill IDs
+[ ] Validate X-2 rule compliance after changes
+
+WEEK 3:
+[ ] Create sample lesson plans for new split skills
+[ ] Test progression with pilot students/teachers
+[ ] Address feedback and iterate
+[ ] Document final changes
+
+WEEK 4+:
+[ ] Consider Priority 3 splits (optional)
+[ ] Add advanced AI table integration skills (G7-8)
+[ ] Create skill dependency visualization
+[ ] Update assessment rubrics
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                           END OF VISUAL SUMMARY
+═══════════════════════════════════════════════════════════════════════════════

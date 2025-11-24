@@ -1,0 +1,233 @@
+T26 (Data Collection & Logging) - Visual Skill Breakdown
+=========================================================
+Date: 2024-11-24
+
+GRADE-BY-GRADE SKILL COUNT
+===========================
+
+Kindergarten (3 skills)
+├── T26.GK.01 ✅ Identify countable things in a picture
+├── T26.GK.02 ✅ Use tokens to log repeated events
+└── T26.GK.03 ✅ Capture yes/no answers with smile/frown cards
+
+Grade 1 (3 skills)
+├── T26.G1.01 ✅ Run a three-option picture survey
+├── T26.G1.02 ✅ Keep observation logs over time
+└── T26.G1.03 ✅ Follow a simple data-collection checklist
+
+Grade 2 (5 skills)
+├── T26.G2.01 ✅ Distinguish observational vs survey data
+├── T26.G2.02 ✅ Build a two-column record sheet
+├── T26.G2.03 ✅ Use timers to collect duration data
+├── T26.G2.04 ✅ Explain why sample size matters
+└── T26.G2.05 ✅ Conduct a multi-response tally survey
+
+Grade 3 (6 skills) - FIRST CODING!
+├── T26.G3.01 ✅ Script a CreatiCode survey loop
+├── T26.G3.02 ✅ Write fair survey questions
+├── T26.G3.03 ✅ Log sensor-style events with counters
+├── T26.G3.04 ⚠️ Separate raw data from summary data (TOO BROAD)
+├── T26.G3.05 ✅ Spot common data collection mistakes
+└── T26.G3.06 ✅ Implement basic consent before data collection
+
+Grade 4 (7 skills, including 2 sub-skills)
+├── T26.G4.01 ✅ Create written data collection protocols for teammates
+├── T26.G4.02 ⚠️ Use tables to log multi-attribute events (TOO BROAD)
+├── T26.G4.03 ✅ Track missing/invalid data with flags
+├── T26.G4.04 ✅ Reflect on privacy in collection
+├── T26.G4.05 ✅ Practice simple file export and import
+├── T26.G4.06.01 ✅ [SUB] Use timer and loops for periodic data collection
+└── T26.G4.06 ✅ Collect data from one AI sensor
+
+Grade 5 (12 skills, including 5 sub-skills)
+├── T26.G5.01 ✅ Add print statements to track events during execution
+├── T26.G5.02 ⚠️ Plan sampling strategies (TOO BROAD)
+├── T26.G5.03 ✅ Validate data entry with error checks
+├── T26.G5.04.01 ✅ [SUB] Create tables with named columns
+├── T26.G5.04 ✅ Store logs in CreatiCode tables for export
+├── T26.G5.05.01 ✅ [SUB] Insert table data into cloud database collection
+├── T26.G5.05.02 ✅ [SUB] Fetch data from cloud collection into table
+├── T26.G5.06.01 ✅ [SUB] Record player scores to leaderboard
+├── T26.G5.06.02 ✅ [SUB] Retrieve and display leaderboard rankings
+├── T26.G5.07 ✅ Collect face detection data into tables
+├── T26.G5.08.01 ✅ [SUB] Export and import list variables to/from files
+├── T26.G5.08.02 ⚠️ Export and import tables to/from files (VERIFY BLOCKS)
+└── T26.G5.09 ✅ Collect data from two synchronized sensors
+
+Grade 6 (11 skills, including 5 sub-skills)
+├── T26.G6.01 ✅ Map stakeholder questions to data requirements
+├── T26.G6.02 ✅ Automate logging from three different sensors
+├── T26.G6.03 ✅ Create consent and opt-out workflows with widget dialogs
+├── T26.G6.04 ✅ Note when measurements might be inaccurate
+├── T26.G6.05.01 ✅ [SUB] Understand document structure for database collections
+├── T26.G6.05 ❌ Insert data from tables into database collections (DUPLICATE!)
+├── T26.G6.06.01 ✅ [SUB] Build simple database filter conditions
+├── T26.G6.01.01 ⚠️ [SUB] Build compound database conditions with AND/OR (RENAME!)
+├── T26.G6.06.02 ✅ [SUB] Query database collections with filters
+├── T26.G6.06.03 ✅ [SUB] Sort database query results
+├── T26.G6.07 ⚠️ Import data from Google Sheets into tables (VERIFY BLOCKS)
+├── T26.G6.08 ⚠️ Export tables to Google Sheets (VERIFY BLOCKS)
+└── T26.G6.09 ⚠️ Log multiplayer game session data (TOO BROAD)
+
+Grade 7 (7 skills, including 2 sub-skills)
+├── T26.G7.01 ✅ Build reusable data collection modules
+├── T26.G7.02 ✅ Monitor data quality in real time
+├── T26.G7.03 ✅ Document provenance for external CSV datasets
+├── T26.G7.04 ✅ Evaluate bias risks introduced during collection
+├── T26.G7.05 ✅ [SUB] Debug data collection scripts using print statements
+├── T26.G7.06 ⚠️ Update and append data to Google Sheets (VERIFY BLOCKS)
+├── T26.G7.07.01 ✅ [SUB] Update existing documents in database collections
+└── T26.G7.07.02 ✅ [SUB] Delete documents from database collections
+
+Grade 8 (5 skills, including 1 sub-skill)
+├── T26.G8.01 ✅ Design end-to-end telemetry pipelines with cloud integration
+├── T26.G8.01.01 ⚠️ [SUB] Implement end-to-end telemetry pipeline (CAPSTONE!)
+├── T26.G8.02 ✅ Implement scheduled data exports and resets
+├── T26.G8.03 ✅ Use AI assistant to review data collection protocols
+├── T26.G8.04 ✅ Publish data privacy agreements for peers
+└── T26.G8.05 ⚠️ Create and search semantic databases (ADVANCED!)
+
+
+LEGEND:
+=======
+✅ = Good (no issues)
+⚠️ = Needs attention
+❌ = Critical issue
+[SUB] = Sub-skill (prerequisite or component)
+
+
+ISSUE SUMMARY:
+==============
+Total Skills: 53
+  - Good: 43 (81%)
+  - Issues: 10 (19%)
+    - Critical: 6 (broad skills, duplicate, naming)
+    - Medium: 4 (feature verification)
+
+Status Breakdown:
+  ✅ Good (43): K (3), G1 (3), G2 (5), G3 (4), G4 (5), G5 (10), G6 (6), G7 (5), G8 (2)
+  ⚠️ Issues (10): G3 (1), G4 (1), G5 (2), G6 (5), G8 (1)
+  ❌ Critical (1): G6 (1 duplicate)
+
+
+SKILL TYPE BREAKDOWN:
+======================
+K-2 Unplugged:     11 skills (100% of K-2)
+G3-8 Coding:       39 skills (88% of G3-8)
+G3-8 Conceptual:    5 skills (11% of G3-8)
+G8 Projects:        1 skill  (1% of G3-8)
+
+
+CREATICODE BLOCKS USED:
+========================
+Survey/Input:
+  - ask and wait, answer, stop asking
+
+Variables:
+  - set/change/reduce variable
+  - export variable, import variable
+  - variable monitors
+
+Lists:
+  - add/insert/delete item
+  - sort/reverse/reshuffle
+  - join list, split text into list
+
+Tables (Primary for G4+):
+  - create table, add row, set cell
+  - delete rows/columns
+  - sort/aggregate/pivot
+  - export/import CSV
+  - find row by value
+
+Database (Cloud - G5+):
+  - insert from table into collection
+  - fetch from collection with filters
+  - update/delete documents
+  - Boolean operators (and/or/not)
+  - Query conditions
+
+Game Features:
+  - record player score
+  - show/hide leaderboard
+  - store/read user data
+
+Debugging:
+  - print to console (with color)
+  - get console log
+
+Sensors:
+  - microphone loudness
+  - mouse x/y position
+  - timer (reset, pause, resume)
+
+AI Vision:
+  - face detection → table
+  - hand detection → table
+  - body pose detection → table
+
+Advanced:
+  - Semantic database (embeddings)
+  - XO AI assistant
+
+TO VERIFY:
+  - Table export/import blocks
+  - Google Sheets integration
+
+
+PROGRESSION HIGHLIGHTS:
+=======================
+
+Survey Complexity:
+  K → Binary (yes/no cards)
+  G1 → Three options (picture stickers)
+  G2 → Four+ options (tally marks)
+  G3 → Coded surveys (ask loop)
+
+Data Structures:
+  G3 → Lists
+  G4 → Tables
+  G5 → Cloud database
+  G6+ → Database queries (CRUD)
+
+Sensor Complexity:
+  G4 → 1 sensor
+  G5 → 2 synchronized sensors
+  G6 → 3 different sensor types
+
+Privacy/Ethics Thread:
+  G3 → Basic consent
+  G4 → Privacy reflection
+  G6 → Consent workflows
+  G7 → Provenance, bias
+  G8 → Privacy agreements
+
+Database Operations:
+  G5 → Insert, fetch (C, R)
+  G6 → Query with filters
+  G7 → Update, delete (U, D)
+  G8 → Complete pipeline
+
+
+DEPENDENCY VISUALIZATION:
+==========================
+
+Within T26 (Simplified):
+GK.01 → GK.02, GK.03
+      → G1.01 → G1.02, G1.03
+             → G2.02, G2.04 → G2.05
+      → G1.02 → G2.01, G2.03
+             → G2.01 → G3.01 → G3.02, G3.03, G3.06
+                              → G3.03 → G3.04 → G3.05
+                                              → G4.01, G4.02
+                                     → G4.02 → G4.03, G5.01, G4.06
+                                            → G5.01 → G5.04
+                                                   → G5.04 → G6.01, G6.02, G5.05.01
+                                                          → G6.01 → G6.03, G7.01
+                                                                 → G7.01 → G7.02, G8.01
+                                                                        → G8.01 → G8.02, G8.03
+
+Main skill chains:
+1. Counting → Surveys → Coded surveys → Logging → Tables → Cloud DB → Pipelines
+2. Privacy: Consent → Reflection → Workflows → Provenance/Bias → Agreements
+3. Sensors: 1 sensor → 2 sensors → 3 sensors → Multi-input automation

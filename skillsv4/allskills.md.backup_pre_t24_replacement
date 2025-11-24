@@ -16768,7 +16768,7 @@ Skill: Use face position to control sprites
 Description: Students read face detection data from tables (accessing nose x/y coordinates using table blocks) to control sprite movement. They build projects where sprites follow face position, respond to head tilt angle, or trigger actions based on facial feature locations. They learn to handle cases when no face is detected using conditionals. Note: Face tracking can be jittery; students may experiment with smoothing techniques like averaging recent positions or using glide blocks instead of goto to create smoother movement.
 
 Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T24.G5.09.01: Read single face features from detection tables
 
@@ -16890,39 +16890,16 @@ Dependencies:
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
 
 
-ID: T24.G6.07.01
+ID: T24.G6.07
 Topic: T24 – XO & Generative AI Practices
-Skill: Use moderation blocks for text filtering
-Description: Students use the `get moderation result for [TEXT]` block to check user input for inappropriate content before processing or displaying. They build text-based safety systems for chatbots, comment systems, or user input fields using conditionals to accept ("Pass") or reject ("Fail") content. They learn how AI moderation identifies inappropriate language and protects users from harmful text, building projects that include text moderation in their input validation workflows.
+Skill: Use content moderation blocks to filter text and images
+Description: Students use AI moderation blocks to check both text and images for inappropriate content before processing or displaying. For text: they use `get moderation result for [TEXT]` to check user input in chatbots or comment systems. For images: they use `get moderation result for costume named [COSTUMENAME]` and `get moderation result for image at URL [URL]` to check images before displaying. They build safety systems using conditionals to accept ("Pass") or reject ("Fail") content, understanding how AI moderation protects users from inappropriate material. They create projects with user-generated content features that include comprehensive moderation checks for both text and visual inputs.
 
 Dependencies:
 * T06.G4.01: Trace event execution paths in a multi-event program
 * T08.G4.01: Use if‑else or else‑if chains
 * T24.G4.05: Understand content moderation in AI systems
-
-
-ID: T24.G6.07.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Use moderation blocks for image filtering (costumes)
-Description: Students use the `get moderation result for costume named [COSTUMENAME]` block to check sprite costumes for inappropriate visual content before displaying. They build safety systems for user-generated content projects where sprites can be customized, using conditionals to approve or reject costume changes. They learn how AI moderation analyzes images for inappropriate visual content, creating projects with safe costume selection and validation workflows.
-
-Dependencies:
-* T06.G4.01: Trace event execution paths in a multi-event program
-* T08.G4.01: Use if‑else or else‑if chains
-* T24.G4.05: Understand content moderation in AI systems
-* T24.G6.07.01: Use moderation blocks for text filtering
-
-
-ID: T24.G6.07.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Use moderation blocks for URL images
-Description: Students use the `get moderation result for image at URL [URL]` block to check images from web URLs before displaying them in projects. They build comprehensive moderation systems that validate images from external sources, protecting users from inappropriate web content. They learn to combine all three moderation types (text, costumes, URLs) in projects with diverse content sources, creating fully moderated user-generated content platforms with appropriate safety checks.
-
-Dependencies:
-* T08.G4.01: Use if‑else or else‑if chains
-* T24.G4.05: Understand content moderation in AI systems
-* T24.G6.07.01: Use moderation blocks for text filtering
-* T24.G6.07.02: Use moderation blocks for image filtering (costumes)
+* T24.G5.07.01: Use basic ChatGPT block with default settings
 
 
 ID: T24.G6.08.01
@@ -16957,66 +16934,26 @@ Dependencies:
 * T09.G4.01: Create and use a numeric variable for score or count
 
 
-ID: T24.G6.10.01
+ID: T24.G6.10
 Topic: T24 – XO & Generative AI Practices
-Skill: Understand hand detection table structure (47 rows)
-Description: Students use the `run hand detection table [TABLENAME] debug [yes] show video [yes]` block to detect hands from the camera and explore the table structure. They learn the table contains 47 rows per hand with specific organization: 5 fingers (thumb/index/middle/ring/pinky each with curl and direction values), 21 2D keypoints (wrist and finger joints with x/y coordinates), and 21 3D keypoints (same points with x/y/z coordinates). They observe debug mode showing hand detection visualization and understand how the AI identifies hand structure. This prepares them to read specific values for gesture recognition.
+Skill: Detect hand gestures for interactive controls
+Description: Students use the `run hand detection table [TABLENAME] debug [yes] show video [yes]` block to detect hands and finger positions from the camera. They learn the table structure with 47 rows per hand: 5 fingers (thumb/index/middle/ring/pinky with curl and direction values), plus 21 2D keypoints (wrist, finger joints with x/y) and 21 3D keypoints (same points with x/y/z). They understand curl (180° = straight finger) and direction (0° = pointing up) to recognize basic hand gestures like open hand, closed fist, or pointing.
 
 Dependencies:
 * T06.G4.01: Trace event execution paths in a multi-event program
 * T24.G5.09: Explore face detection and coordinate system
-* T24.G5.05.01: Read from and write to CreatiCode tables
+* T24.G5.10: Use face position to control sprites
 
 
-ID: T24.G6.10.02
+ID: T24.G6.11
 Topic: T24 – XO & Generative AI Practices
-Skill: Read curl and direction values for gesture recognition
-Description: Students practice reading hand detection data from tables using table blocks. They learn to extract curl values (180° = straight finger, 0° = curled finger) and direction values (0° = pointing up, 90° = pointing right) for individual fingers. They build simple projects that display finger curl and direction values on screen, understanding how these measurements enable gesture recognition. This scaffolds data reading skills before building full gesture control systems.
-
-Dependencies:
-* T24.G6.10.01: Understand hand detection table structure (47 rows)
-* T09.G4.01: Create and use a numeric variable for score or count
-
-
-ID: T24.G6.10.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Build basic hand gesture controls
-Description: Students combine hand detection data reading with conditionals to recognize basic hand gestures like open hand (all fingers extended), closed fist (all fingers curled), or pointing (index extended, others curled). They build interactive projects where detected hand gestures trigger sprite actions, creating simple gesture-based control systems. They learn to use curl and direction thresholds in conditional statements to reliably detect gestures.
-
-Dependencies:
-* T08.G4.01: Use if‑else or else‑if chains
-* T24.G6.10.02: Read curl and direction values for gesture recognition
-
-
-ID: T24.G6.11.01
-Topic: T24 – XO & Generative AI Practices
-Skill: Understand 2D body detection table structure
-Description: Students use the `run 2D body part recognition single person [yes] table [TABLENAME] debug [yes]` block to track body parts and explore the table structure. They learn the table contains columns: id (person identifier), part (body part name), x/y (coordinates), curl, and dir (direction). Body parts include: nose, eyes, ears, shoulders, elbows, wrists, hips, knees, ankles, plus computed left/right arm/leg positions. They observe debug mode showing skeleton overlay on detected bodies and understand how the AI identifies body structure. This prepares them to read position data for movement detection.
+Skill: Use 2D body part recognition for interactive games
+Description: Students use the `run 2D body part recognition single person [yes] table [TABLENAME] debug [yes]` block to track body parts in real-time. They learn the table structure (columns: id, part, x, y, curl, dir) identifying nose, eyes, ears, shoulders, elbows, wrists, hips, knees, ankles, plus computed left/right arm/leg positions. They build interactive games that respond to body movements like jumping, arm raises, or squatting by reading position data from tables and using conditionals to detect movements.
 
 Dependencies:
 * T06.G4.01: Trace event execution paths in a multi-event program
-* T24.G6.10.01: Understand hand detection table structure (47 rows)
-* T24.G5.05.01: Read from and write to CreatiCode tables
-
-
-ID: T24.G6.11.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Read body part positions and detect movements
-Description: Students practice reading 2D body detection data from tables using table blocks. They learn to extract x/y coordinates for specific body parts (shoulders, wrists, knees) and calculate position changes over time to detect movements. They build simple projects that track body part positions and display movement data on screen, understanding how position changes indicate actions like jumping (y-coordinate increases), arm raises (wrist y-coordinate higher than shoulder), or squatting (knee y-coordinate decreases). This scaffolds movement detection before building full interactive games.
-
-Dependencies:
-* T09.G4.01: Create and use a numeric variable for score or count
-* T24.G6.11.01: Understand 2D body detection table structure
-
-
-ID: T24.G6.11.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Build interactive games with body tracking
-Description: Students combine 2D body position reading with conditionals to build interactive games responding to body movements. They create projects where players control gameplay through physical movements like jumping to avoid obstacles, raising arms to collect items, or squatting to duck under barriers. They learn to set appropriate thresholds for movement detection and provide visual feedback for recognized actions, creating engaging body-controlled gaming experiences.
-
-Dependencies:
 * T08.G4.01: Use if‑else or else‑if chains
-* T24.G6.11.02: Read body part positions and detect movements
+* T24.G6.10: Detect hand gestures for interactive controls
 
 
 ID: T24.G6.12
@@ -17116,80 +17053,27 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 
 
-ID: T24.G7.07.01
+ID: T24.G7.07
 Topic: T24 – XO & Generative AI Practices
-Skill: Recognize complex hand gestures (thumbs up, peace, pointing)
-Description: Students combine hand detection data (curl and direction values) with conditionals to recognize complex gestures. They learn specific gesture patterns: thumbs up (thumb extended with high curl value, others curled), peace sign (index and middle extended, others curled), pointing (index extended, others curled). They build projects that detect these specific gestures using precise curl and direction thresholds in conditional logic, creating reliable gesture recognition systems.
+Skill: Build advanced gesture recognition systems
+Description: Students combine hand detection data (curl and direction values) with conditionals to recognize complex gestures like thumbs up (thumb extended, others curled), peace sign (index/middle extended, others curled), or pointing (index extended, others curled). They use the `set debug mode [yes/no]` block to toggle visualization on/off and build multi-gesture control systems where different hand poses trigger different sprite actions. They learn to create gesture vocabularies for interactive projects.
 
 Dependencies:
 * T08.G5.01: Use if‑else to handle two cases
 * T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G6.10.03: Build basic hand gesture controls
-
-
-ID: T24.G7.07.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Create gesture vocabulary systems
-Description: Students build gesture vocabulary systems where multiple distinct hand gestures are recognized and mapped to different meanings or actions. They create gesture-to-action lookup tables storing gesture names and corresponding behaviors. They learn to differentiate between similar gestures using precise measurement thresholds and build projects with rich gesture vocabularies (5+ gestures) that enable expressive hand-based communication and control.
-
-Dependencies:
-* T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G7.07.01: Recognize complex hand gestures (thumbs up, peace, pointing)
+* T24.G6.10: Detect hand gestures for interactive controls
 * T24.G7.01: Create reusable XO prompt templates in lists
 
 
-ID: T24.G7.07.03
+ID: T24.G7.08
 Topic: T24 – XO & Generative AI Practices
-Skill: Build multi-gesture control interfaces
-Description: Students create comprehensive gesture control interfaces combining multiple recognized gestures for rich interaction. They use the `set debug mode [yes/no]` block to toggle visualization on/off and build projects where different hand poses trigger different sprite actions, menu selections, or gameplay mechanics. They learn to handle gesture sequences, simultaneous two-hand gestures, and create polished gesture-driven user experiences with visual feedback for recognized gestures.
-
-Dependencies:
-* T08.G5.01: Use if‑else to handle two cases
-* T24.G7.07.02: Create gesture vocabulary systems
-* T24.G7.01: Create reusable XO prompt templates in lists
-
-
-ID: T24.G7.08.01
-Topic: T24 – XO & Generative AI Practices
-Skill: Understand 3D pose detection with 33 body parts
-Description: Students use the `run 3D pose detection debug [yes] table [TABLENAME]` block to detect 33 body parts with x/y/z coordinates and explore the table structure. They learn the 3D coordinate system (x=right, y=up, z=forward/depth from camera) and identify all tracked body parts: head, shoulders, elbows, wrists, hands, hips, knees, ankles, feet, plus detailed finger positions. They observe debug mode showing 3D skeleton visualization and understand how depth perception (z-axis) enables more sophisticated pose detection than 2D tracking. This prepares them for complex pose analysis.
-
-Dependencies:
-* T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G6.11.01: Understand 2D body detection table structure
-
-
-ID: T24.G7.08.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Calculate angles and distances between body parts
-Description: Students learn to calculate angles and distances between body parts using 3D coordinates. They use mathematical blocks to compute distances (using 3D distance formula with x/y/z values) and angles between joints (e.g., elbow angle, knee angle, arm position relative to body). They build analysis projects that calculate and display these measurements, understanding how geometric calculations enable precise pose recognition. This provides the mathematical foundation for detecting specific poses.
-
-Dependencies:
-* T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G7.08.01: Understand 3D pose detection with 33 body parts
-* T07.G5.01: Trace a repeat loop with variable updates
-
-
-ID: T24.G7.08.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Detect specific poses (jumping, yoga positions, etc.)
-Description: Students combine 3D body part position reading with angle/distance calculations to detect specific poses. They learn pose recognition patterns: jumping (both feet y-coordinates significantly above normal standing position), yoga tree pose (one foot raised, arms up, balance detected), T-pose (arms extended horizontally), squatting (knees bent at specific angles, hips lowered). They build pose detection systems using conditionals with calculated angles and positions, creating reliable recognition for target poses.
-
-Dependencies:
-* T08.G5.01: Use if‑else to handle two cases
-* T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G7.08.02: Calculate angles and distances between body parts
-
-
-ID: T24.G7.08.04
-Topic: T24 – XO & Generative AI Practices
-Skill: Build full-body pose-based games
-Description: Students create comprehensive games controlled entirely by body poses. They combine multiple pose detection techniques to build interactive experiences where players progress through challenges using physical movements (yoga instructor game validating poses, dance competition scoring accuracy, fitness game counting exercises). They learn to provide clear visual feedback for detected poses, handle pose transitions smoothly, and create engaging full-body gaming experiences leveraging 3D pose detection capabilities.
+Skill: Create full-body pose-based games with 3D detection
+Description: Students use the `run 3D pose detection debug [yes] table [TABLENAME]` block to detect 33 body parts with x/y/z coordinates. They learn the 3D coordinate system (x=right, y=up, z=forward) and build games that respond to complex poses like standing on one leg, arms spread, jumping, or yoga positions. They calculate angles between body parts and distances to detect specific poses, creating immersive body-controlled experiences.
 
 Dependencies:
 * T07.G5.01: Trace a repeat loop with variable updates
 * T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G7.08.03: Detect specific poses (jumping, yoga positions, etc.)
+* T24.G6.11: Use 2D body part recognition for interactive games
 * T24.G7.01: Create reusable XO prompt templates in lists
 
 
@@ -17201,7 +17085,7 @@ Description: Students use the `create KNN number classifier from table [TABLENAM
 Dependencies:
 * T09.G5.01: Use arithmetic and comparison operators with variables
 * T10.G5.03: Add and remove items from a list
-* T24.G5.12: Understand classification and pattern recognition concepts
+* T24.G6.12: Understand classification and pattern recognition
 * T24.G7.01: Create reusable XO prompt templates in lists
 
 
@@ -17223,7 +17107,7 @@ Description: Students learn the conceptual difference between keyword search (ex
 
 Dependencies:
 * T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G6.13: Use web search blocks for real-time information
+* T24.G6.15: Use web search blocks for real-time information
 * T24.G7.01: Create reusable XO prompt templates in lists
 
 
@@ -17235,7 +17119,7 @@ Description: Students build projects that first use `web search [QUERY] store to
 Dependencies:
 * T08.G5.01: Use if‑else to handle two cases
 * T09.G5.04: Use arithmetic and comparison operators with variables
-* T24.G6.13: Use web search blocks for real-time information
+* T24.G6.15: Use web search blocks for real-time information
 * T24.G7.02: Run an XO-led code review with evidence
 
 
@@ -17246,7 +17130,7 @@ Description: Students use the `attach files to chat` block to attach local files
 
 Dependencies:
 * T09.G5.01: Use arithmetic and comparison operators with variables
-* T24.G6.12: Use ChatGPT vision with costume attachment
+* T24.G6.13: Use ChatGPT vision with costume attachment
 * T24.G7.02: Run an XO-led code review with evidence
 
 
@@ -17271,37 +17155,16 @@ Dependencies:
 * T24.G7.10: Build prediction projects with KNN classifier
 
 
-ID: T24.G8.01.01
+ID: T24.G8.01
 Topic: T24 – XO & Generative AI Practices
-Skill: Create project metadata tables for prompts
-Description: Students create structured metadata tables to organize project information for prompt generation. They build tables with columns for: sprite name, mechanic type, constraint description, target grade level, and custom fields relevant to their projects. They learn to populate these tables systematically, understanding how structured metadata enables automated prompt generation. This foundational skill prepares them for building prompt concatenation scripts.
+Skill: Automate XO requests with data-driven prompt builders
+Description: Students store project metadata (sprite name, mechanic, constraint) in a table and build scripts that concatenate those fields into structured XO prompts. Pressing a widget button copies the prompt for immediate use. The metadata table includes columns for: sprite name, mechanic type, constraint description, target grade level, and auto-generated prompt text. This teaches systematic prompt generation from structured data.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T24.G7.01: Create reusable XO prompt templates in lists
-
-
-ID: T24.G8.01.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Build prompt concatenation scripts from metadata
-Description: Students write scripts that read metadata table values and concatenate them into structured XO prompts using text join blocks. They learn to construct prompts programmatically by combining field values with template text, creating dynamic prompt generation systems. They handle optional fields, format prompts with proper structure, and test generated prompts for quality. This teaches systematic prompt building from data.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.01.01: Create project metadata tables for prompts
-* T24.G7.04: Enforce responsible-use rules for XO assistance
-
-
-ID: T24.G8.01.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Integrate prompt builders with widget buttons
-Description: Students connect their prompt concatenation scripts to widget buttons for one-click prompt generation. They build user interfaces where pressing a button automatically generates a structured XO prompt from current metadata and copies it for immediate use. They learn to provide visual feedback, validate metadata completeness before generation, and create polished automation workflows. This completes the automated prompt generation system, enabling efficient XO interaction through data-driven prompt builders.
-
-Dependencies:
-* T06.G6.01: Trace event execution paths in a multi-event program
-* T24.G8.01.02: Build prompt concatenation scripts from metadata
 * T24.G7.04: Enforce responsible-use rules for XO assistance
 
 
@@ -17315,7 +17178,7 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.02: Run an XO-led code review with evidence
-* T24.G8.01.03: Integrate prompt builders with widget buttons
+* T24.G8.01: Automate XO requests with data-driven prompt builders
 
 
 ID: T24.G8.03
@@ -17328,12 +17191,12 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.03: Combine XO storyboards with AI sprite generation
 * T24.G7.04: Enforce responsible-use rules for XO assistance
-* T24.G8.01.03: Integrate prompt builders with widget buttons
+* T24.G8.01: Automate XO requests with data-driven prompt builders
 
 
 ID: T24.G8.04
 Topic: T24 – XO & Generative AI Practices
-Skill: Implement AI usage tracking and policy enforcement (CAPSTONE)
+Skill: Implement AI usage tracking and policy enforcement
 Description: Students create a comprehensive project with coded enforcement of AI usage rules: tracking XO contributions in lists, displaying AI attribution labels, implementing approval workflows with conditionals, and logging usage statistics. They document their policy decisions in code comments. This project combines: (1) contribution tracking table (timestamp, type, source, reviewer, status), (2) attribution display system, (3) approval workflow with conditional logic, (4) usage statistics dashboard, and (5) policy documentation in comments. This demonstrates mastery of responsible AI integration in projects.
 
 Dependencies:
@@ -17346,7 +17209,7 @@ Dependencies:
 
 ID: T24.G8.05
 Topic: T24 – XO & Generative AI Practices
-Skill: Build an interactive XO tutorial project (CAPSTONE)
+Skill: Build an interactive XO tutorial project
 Description: Students create a comprehensive interactive CreatiCode project that demonstrates XO best practices (planning, debugging, image iteration). The project includes step-by-step guidance, example prompts stored in lists, and interactive elements that let users practice safe AI interactions. This project combines: (1) tutorial navigation system with step tracking, (2) example prompt library stored in tables, (3) interactive practice exercises with validation, (4) progress tracking and feedback, and (5) comprehensive documentation of XO workflows. This demonstrates mastery of teaching others about responsible AI-assisted coding.
 
 Dependencies:
@@ -17354,7 +17217,7 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.05: Use XO to coach peers with rubric-based feedback
-* T24.G8.04: Implement AI usage tracking and policy enforcement (CAPSTONE)
+* T24.G8.04: Implement AI usage tracking and policy enforcement
 
 
 ID: T24.G8.06
@@ -17365,42 +17228,21 @@ Description: Students use the `run 2D body part recognition single person [no] t
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G7.08.04: Build full-body pose-based games
-* T24.G8.01.03: Integrate prompt builders with widget buttons
+* T24.G7.08: Create full-body pose-based games with 3D detection
+* T24.G8.01: Automate XO requests with data-driven prompt builders
 
 
-ID: T24.G8.07.01
+ID: T24.G8.07
 Topic: T24 – XO & Generative AI Practices
-Skill: Coordinate multiple CV data streams
-Description: Students learn to manage multiple computer vision detection blocks running simultaneously (face + hand + body detection). They understand data flow organization: each CV block writes to separate tables, data updates asynchronously at different rates, and timing coordination may be needed. They build projects that initialize and run multiple CV detections, organizing table data and managing computational load. This prepares them for synchronizing detections in multimodal projects.
+Skill: Create advanced gesture controls combining multiple CV features
+Description: Students build sophisticated projects combining face detection, hand gestures, and body poses for rich multimodal interaction. They create games where players use facial expressions, hand gestures, and body movements together (e.g., smile + wave hand + jump to trigger action). They learn to coordinate multiple computer vision data streams, handle synchronization, and build immersive experiences leveraging the full range of CreatiCode's CV capabilities.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G7.07.03: Build multi-gesture control interfaces
-* T24.G7.08.04: Build full-body pose-based games
-
-
-ID: T24.G8.07.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Synchronize face, hand, and body detection
-Description: Students build synchronization systems that coordinate timing and data flow between multiple CV streams. They learn to handle cases where detection rates differ (face detected but hands not visible), timestamp data for temporal coordination, and combine data from multiple sources coherently. They create projects that respond to combined CV inputs (e.g., "only trigger action when both face is centered AND hands are raised"), building robust multimodal detection systems.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.07.01: Coordinate multiple CV data streams
+* T24.G7.07: Build advanced gesture recognition systems
+* T24.G7.08: Create full-body pose-based games with 3D detection
 * T24.G8.06: Build multi-person body tracking systems
-
-
-ID: T24.G8.07.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Build multimodal interaction projects
-Description: Students create comprehensive projects combining face detection, hand gestures, and body poses for rich multimodal interaction. They build games where players use facial expressions, hand gestures, and body movements together (e.g., smile + wave hand + jump to trigger action). They learn to design intuitive multimodal controls, provide clear feedback for each detection type, and create immersive experiences leveraging the full range of CreatiCode's CV capabilities. This demonstrates mastery of coordinating multiple CV features for sophisticated interaction.
-
-Dependencies:
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.07.02: Synchronize face, hand, and body detection
 
 
 ID: T24.G8.08.01
@@ -17411,7 +17253,7 @@ Description: Students use the `create NN model named [NAME]` and `add layer to N
 Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.15: Understand neural network concepts and architecture
-* T24.G8.01.03: Integrate prompt builders with widget buttons
+* T24.G8.01: Automate XO requests with data-driven prompt builders
 
 
 ID: T24.G8.08.02
@@ -17423,47 +17265,16 @@ Dependencies:
 * T24.G8.08.01: Create neural network models and add layers
 
 
-ID: T24.G8.09.01
+ID: T24.G8.09
 Topic: T24 – XO & Generative AI Practices
-Skill: Prepare training and testing datasets
-Description: Students learn to prepare data for neural network training by splitting datasets into training and testing sets. They understand the purpose of each: training data (used to teach the model patterns), testing data (used to evaluate model accuracy on unseen data). They practice creating tables with proper structure (features in columns, one row per example), normalizing data values, and determining appropriate split ratios (typically 70-80% training, 20-30% testing). This foundational skill ensures quality data preparation for successful model training.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T24.G7.10: Build prediction projects with KNN classifier
-
-
-ID: T24.G8.09.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Configure training parameters (batch size, epochs)
-Description: Students learn to configure neural network training parameters. They understand batch size (number of examples processed together before updating weights: smaller = more updates but noisier, larger = more stable but slower, typical: 16-32) and epochs (complete passes through training data: more epochs = more learning but risk overfitting, typical: 10-100). They experiment with different parameter values and observe effects on training speed and accuracy, learning to balance learning quality with computational efficiency.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.09.01: Prepare training and testing datasets
-* T24.G8.08.02: Compile neural network models with loss and optimizer
-
-
-ID: T24.G8.09.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Train neural networks and monitor progress
-Description: Students use the `train NN model [NAME] using table [TABLE] rows from [START] to [END] input columns [INPUTS] output column [OUTPUT] batch size [BATCH] epochs [EPOCHS]` block to train neural networks on data. They monitor training progress, observe loss values decreasing over epochs, and learn to identify training issues (loss not decreasing, overfitting). They build projects that train models on prepared datasets and evaluate results, understanding the iterative nature of model training.
+Skill: Train and save neural network models
+Description: Students use the `train NN model [NAME] using table [TABLE] rows from [START] to [END] input columns [INPUTS] output column [OUTPUT] batch size [BATCH] epochs [EPOCHS]` block to train neural networks on data. They learn training parameters: (1) Batch size - number of examples processed together before updating weights (smaller = more updates but noisier, larger = more stable but slower, typical: 16-32), (2) Epochs - complete passes through training data (more epochs = more learning but risk overfitting, typical: 10-100). They split data into training/testing sets, monitor training progress, and evaluate accuracy. They use `save NN model named [NAME]` and `load NN model named [NAME]` to persist trained models, building complete ML pipelines: data preparation, training, testing, and deployment.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.09.02: Configure training parameters (batch size, epochs)
-
-
-ID: T24.G8.09.04
-Topic: T24 – XO & Generative AI Practices
-Skill: Save and load trained models
-Description: Students use the `save NN model named [NAME]` and `load NN model named [NAME]` blocks to persist trained models for reuse. They learn to save models after successful training, load pre-trained models to avoid retraining, and build complete ML pipelines: data preparation, training, testing, saving, and deployment. They create projects that train models once and load them for predictions, understanding model persistence and reusability in production applications.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.09.03: Train neural networks and monitor progress
+* T24.G7.10: Build prediction projects with KNN classifier
+* T24.G8.08.02: Compile neural network models with loss and optimizer
 
 
 ID: T24.G8.10
@@ -17475,7 +17286,7 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T24.G7.11: Understand semantic search vs keyword matching
-* T24.G8.01.03: Integrate prompt builders with widget buttons
+* T24.G8.01: Automate XO requests with data-driven prompt builders
 
 
 ID: T24.G8.11.01
@@ -17505,56 +17316,34 @@ Description: Students design and build projects that integrate 3+ different AI c
 
 Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G6.07.03: Use moderation blocks for URL images
+* T24.G6.07: Use content moderation blocks to filter text and images
 * T24.G7.12: Combine web search with ChatGPT for informed responses
-* T24.G8.07.03: Build multimodal interaction projects
+* T24.G8.07: Create advanced gesture controls combining multiple CV features
 
 
-ID: T24.G8.12.01
+ID: T24.G8.12
 Topic: T24 – XO & Generative AI Practices
-Skill: Understand RAG architecture and components
-Description: Students learn the conceptual architecture of Retrieval Augmented Generation (RAG) systems combining three components: (1) retrieval (semantic search or web search finding relevant information), (2) augmentation (adding retrieved context to prompts), and (3) generation (ChatGPT creating informed responses using context). Through examples and diagrams, they understand how RAG systems improve AI responses by grounding them in specific knowledge, reducing hallucinations, and enabling answers about specialized topics. This prepares them for building RAG systems in subsequent skills.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G7.11: Understand semantic search vs keyword matching
-* T24.G7.12: Combine web search with ChatGPT for informed responses
-
-
-ID: T24.G8.12.02
-Topic: T24 – XO & Generative AI Practices
-Skill: Build knowledge retrieval pipeline
-Description: Students build the retrieval component of RAG systems by creating pipelines that query semantic databases and web search, extract relevant snippets, and rank results by relevance. They learn to combine multiple retrieval sources (semantic search for stored knowledge, web search for current information), filter and deduplicate results, and select top-K most relevant items. They create retrieval systems that efficiently gather context for ChatGPT prompts, forming the foundation of RAG applications.
+Skill: Build RAG system combining web search and semantic search
+Description: Students create Retrieval Augmented Generation (RAG) systems combining web search, semantic search, and ChatGPT. They first search semantically for relevant stored knowledge, supplement with web search for current information, then feed combined context to ChatGPT for informed responses. They build advanced AI assistants that answer questions using both curated knowledge bases and real-time web data, demonstrating integration of multiple AI capabilities for comprehensive information retrieval.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.11.02: Add metadata filters to semantic searches
-* T24.G8.12.01: Understand RAG architecture and components
-
-
-ID: T24.G8.12.03
-Topic: T24 – XO & Generative AI Practices
-Skill: Integrate retrieval with ChatGPT generation
-Description: Students complete RAG systems by integrating retrieval pipelines with ChatGPT generation. They learn to format retrieved context for ChatGPT prompts, construct augmented prompts that include both user questions and relevant context, and generate informed responses. They build comprehensive RAG applications: knowledge-based Q&A systems, research assistants combining stored expertise with current web data, and specialized chatbots with domain knowledge. This demonstrates mastery of RAG architecture and integration of multiple AI capabilities for sophisticated information systems.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.12: Combine web search with ChatGPT for informed responses
-* T24.G8.12.02: Build knowledge retrieval pipeline
+* T24.G8.11.02: Add metadata filters to semantic searches
 
 
 ID: T24.G8.13
 Topic: T24 – XO & Generative AI Practices
-Skill: Build ML-powered interactive capstone project (CAPSTONE)
+Skill: Build ML-powered interactive capstone project
 Description: Students create a comprehensive capstone project integrating machine learning with interactive features. Examples: (1) gesture-controlled game using hand/body CV + KNN classifier for move recognition, (2) smart chatbot with semantic search knowledge base + neural network sentiment analysis, (3) multi-modal art creator combining ChatGPT + DALL-E + computer vision. They demonstrate mastery by combining 3+ AI capabilities (CV, ML, ChatGPT, semantic search) in a cohesive, well-documented, ethically-designed project showcasing CreatiCode's full AI platform potential.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T24.G8.07.03: Build multimodal interaction projects
-* T24.G8.09.04: Save and load trained models
-* T24.G8.12.03: Integrate retrieval with ChatGPT generation
+* T24.G8.07: Create advanced gesture controls combining multiple CV features
+* T24.G8.09: Train and save neural network models
+* T24.G8.12: Build RAG system combining web search and semantic search
 
 
 
@@ -17658,6 +17447,7 @@ Description: Students learn to create new variables using the 'Make a Variable' 
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T25.G3.00.02
@@ -17667,6 +17457,7 @@ Description: Students learn to create new lists using the 'Make a List' button i
 
 Dependencies:
 * T25.G3.00.01: Create and name variables in CreatiCode
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T25.G3.01.01
@@ -17688,31 +17479,14 @@ Dependencies:
 * T25.G2.01: Choose labels for a category chart
 
 
-ID: T25.G3.02.01
+ID: T25.G3.02
 Topic: T25 – Data Representation
-Skill: Use number variables for counting and scoring
-Description: Students create number variables (score, lives, timer) and practice storing numeric values. They use 'set [variable] to [number]' blocks with different numeric values and observe how number variables can be used in calculations. Students build a simple counter that tracks a numeric value, demonstrating when to use number variables.
+Skill: Choose the right variable type
+Description: Students learn to choose the appropriate variable type for different data needs. They practice: (1) deciding between number variables (for scores, counts) and text variables (for names, messages), (2) recognizing when to use boolean true/false values (for game states like 'isGameOver'), and (3) choosing between single variables (one value) and lists (multiple related values). Through examples, students match data requirements to CreatiCode's variable types.
 
 Dependencies:
 * T25.G3.01.02: Map survey responses into list variables
-
-
-ID: T25.G3.02.02
-Topic: T25 – Data Representation
-Skill: Use text variables for names and messages
-Description: Students create text variables (playerName, currentMessage, status) and practice storing text values. They use 'set [variable] to [text]' blocks with different text strings and understand that text variables store words, sentences, or any characters. Students build a greeting system that personalizes messages using text variables.
-
-Dependencies:
-* T25.G3.02.01: Use number variables for counting and scoring
-
-
-ID: T25.G3.02.03
-Topic: T25 – Data Representation
-Skill: Use boolean variables for true/false states
-Description: Students learn about boolean (true/false) variables for tracking binary states like isGameOver, isPaused, or hasKey. They practice setting boolean variables using true/false values and using them in conditional blocks. Students build a simple game state tracker that uses boolean variables to control game flow.
-
-Dependencies:
-* T25.G3.02.02: Use text variables for names and messages
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T08.G3.02: Decide when a single if is enough
 
 
@@ -17722,7 +17496,7 @@ Skill: Break sentences into structured records
 Description: Students read sentences ("Luna fed 4 fish to the seal") and fill a table with fields (character, action, quantity, target). This links narrative data to structured formats. Students implement one example in CreatiCode using four separate variables (character, action, quantity, target) to represent a structured record.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T08.G3.03: Pick the right conditional block for a scenario
 
 
@@ -17761,7 +17535,7 @@ Skill: Create a simple table in CreatiCode
 Description: Students create a simple two-column table in CreatiCode using 'create table' and 'add row to table' blocks. They practice adding rows with two values (e.g., Name and FavoriteColor), displaying the table on stage using 'display table', and understanding that tables organize related data into rows and columns.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T25.G2.04: Combine two data attributes
 
 
@@ -17781,7 +17555,7 @@ Skill: Build schema diagrams for simple apps
 Description: Students diagram an app's data needs (e.g., to-do list: task text, due date, done?) showing column names and types before coding. They practice identifying what data their app needs to store, choosing appropriate data types for each field, and documenting their plan on paper or in a digital document.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T25.G2.04: Combine two data attributes
 
 
@@ -17801,7 +17575,7 @@ Skill: Compare dense vs sparse representations
 Description: Students compare dense (storing all values) versus sparse (storing only non-empty values) data representations. Example: representing a tic-tac-toe board two ways: (1) list all 9 squares including empty ones [X, O, empty, X, O, empty, empty, empty, X], (2) list only filled squares with positions [square1:X, square2:O, square4:X, square5:O, square9:X]. Students implement both representations in CreatiCode and discuss which is better for different tasks.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T25.G2.03: Pick the best representation for a question
 
 
@@ -17811,7 +17585,7 @@ Skill: Document special rules in a data key
 Description: Learners create a legend for a mini-map (color = terrain) and add a note describing exceptions (e.g., "Purple = portal unless near volcano"). This highlights metadata importance. Students create a legend table in CreatiCode with columns for Symbol and Meaning to document their map's data key.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T25.G2.01: Choose labels for a category chart
 
 
@@ -17821,7 +17595,7 @@ Skill: Distinguish between raw data and computed values
 Description: Students examine a game scoreboard and identify which values are stored (points earned each round) vs computed (total score). They mark values as stored vs calculated in a schema diagram. Students build a simple scoreboard project using separate variables for round scores (stored) and a reporter block for total score (computed from 'round1Score + round2Score').
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T25.G4.01: Build schema diagrams for simple apps
 
 
@@ -17841,36 +17615,18 @@ Skill: Design multi-type data structures on paper
 Description: Students design a "player" data structure on paper showing different data types: text (name), number (score, health), Boolean (isAlive), and list (inventory). They create a schema diagram identifying which CreatiCode data structure to use for each field (individual variables for single values, lists for multiple items). This planning step precedes implementation.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T25.G4.01: Build schema diagrams for simple apps
 
 
-ID: T25.G5.01.02.01
+ID: T25.G5.01.02
 Topic: T25 – Data Representation
-Skill: Define game state variables with initial values
-Description: Students implement the initial game state design from T25.G5.01.01 by creating all necessary variables (playerName, score, health, isAlive) and lists (inventory) with appropriate initial values. They practice setting up the complete data structure at the start of the game using green-flag scripts that initialize each variable to its starting value.
+Skill: Implement multi-type game state in CreatiCode
+Description: Students implement their player data structure design from T25.G5.01.01 in CreatiCode using a combination of variables (playerName, score, health, isAlive) and lists (inventory). They practice coordinated updates: when player picks up an item, add to inventory list AND update score variable. This teaches maintaining consistent game state across multiple data structures.
 
 Dependencies:
 * T25.G5.01.01: Design multi-type data structures on paper
-
-
-ID: T25.G5.01.02.02
-Topic: T25 – Data Representation
-Skill: Update game state variables based on events
-Description: Students implement coordinated state updates in response to game events. When the player picks up an item, they add it to the inventory list AND update the score variable. When the player takes damage, they decrease health AND check if health reaches zero to set isAlive to false. This teaches maintaining consistent state across related variables.
-
-Dependencies:
-* T25.G5.01.02.01: Define game state variables with initial values
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T25.G5.01.02.03
-Topic: T25 – Data Representation
-Skill: Persist game state across game restarts
-Description: Students learn to save and restore the complete game state. They implement save functionality that stores all critical variables (score, health, inventory contents) and load functionality that retrieves these values when the game restarts. This teaches how to maintain game progress across sessions using persistent storage.
-
-Dependencies:
-* T25.G5.01.02.02: Update game state variables based on events
 
 
 ID: T25.G5.02.01
@@ -17883,50 +17639,14 @@ Dependencies:
 * T25.G3.04.02: Convert data to consistent units
 
 
-ID: T25.G5.02.02.01
+ID: T25.G5.02.02
 Topic: T25 – Data Representation
-Skill: Identify and catalog data quality issues
-Description: Students examine a dataset with multiple issues (inconsistent formats, duplicates, missing values, invalid entries) and create a checklist identifying each type of problem. They categorize issues by type (formatting, completeness, validity, uniqueness) and document examples of each. This prepares them to systematically address data quality problems.
+Skill: Build a data validation and cleaning project
+Description: Students build a complete survey response normalization project that accepts user inputs, applies multiple text operations to clean the data (lowercase conversion, text replacement, whitespace trimming), validates the cleaned data against expected formats, and stores only clean data in lists. This combines multiple cleaning techniques into a practical project.
 
 Dependencies:
 * T25.G5.02.01: Normalize text input using join and replace
 * T25.G3.05: Identify when data needs cleaning
-
-
-ID: T25.G5.02.02.02
-Topic: T25 – Data Representation
-Skill: Remove duplicate entries from lists
-Description: Students build a script that detects and removes duplicate entries from a list. They use loops to check if an item already exists in a "clean" list before adding it, creating a duplicate-free version. Students practice using 'contains' blocks and conditional logic to filter duplicates, demonstrating one focused data cleaning technique.
-
-Dependencies:
-* T25.G5.02.02.01: Identify and catalog data quality issues
-
-
-ID: T25.G5.02.02.03
-Topic: T25 – Data Representation
-Skill: Fix inconsistent text formats
-Description: Students build a script that standardizes text formatting in a list. They apply multiple transformations: convert all text to lowercase, remove extra whitespace, replace variant spellings with standard forms. Students use loops with 'replace in text' and text manipulation blocks to process each list item, demonstrating systematic format correction.
-
-Dependencies:
-* T25.G5.02.02.02: Remove duplicate entries from lists
-
-
-ID: T25.G5.02.02.04
-Topic: T25 – Data Representation
-Skill: Validate cleaned data against rules
-Description: Students implement validation checks that verify cleaned data meets quality requirements. They check that all entries match expected patterns (dates in correct format, numbers in valid ranges, required fields not empty) using conditional blocks. Invalid entries are flagged or removed, demonstrating how to verify data quality after cleaning.
-
-Dependencies:
-* T25.G5.02.02.03: Fix inconsistent text formats
-
-
-ID: T25.G5.02.02.05
-Topic: T25 – Data Representation
-Skill: Test data cleaning with sample datasets
-Description: Students create test cases with known data quality issues and verify their cleaning pipeline fixes them correctly. They prepare "dirty" sample data, run it through their cleaning process, and compare results to expected "clean" outputs. This teaches testing and validation of data processing workflows.
-
-Dependencies:
-* T25.G5.02.02.04: Validate cleaned data against rules
 
 
 ID: T25.G5.03
@@ -17946,7 +17666,7 @@ Description: Students learn to map repeated categorical text values (difficulty:
 
 Dependencies:
 * T25.G4.04: Document special rules in a data key
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 
 
 ID: T25.G5.05
@@ -17956,7 +17676,7 @@ Description: Students design a player profile where some fields might be empty (
 
 Dependencies:
 * T25.G4.01: Build schema diagrams for simple apps
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 
 
 ID: T25.G5.06.01
@@ -17993,7 +17713,7 @@ Skill: Validate data types and ranges before storage
 Description: Students write validation scripts that check user input before storing it in variables. Using conditional blocks, they verify that scores are numbers in valid ranges (e.g., 0-100) using comparison operators, and reject invalid inputs with error messages. This teaches defensive programming and data integrity.
 
 Dependencies:
-* T25.G3.02.03: Use boolean variables for true/false states
+* T25.G3.02: Choose the right variable type
 * T08.G4.01: Use if/else for binary choices
 
 
@@ -18024,7 +17744,7 @@ Skill: Nest tables and lists within each other
 Description: Students design and implement nested data structures using CreatiCode tables and lists. They practice creating a table where one column stores lists (e.g., a player table with Name, Score, and Inventory columns, where Inventory contains a list of item names). Students learn to access nested data using combined operations like 'item X of (item at row Y column Inventory of table)'.
 
 Dependencies:
-* T25.G5.01.02.03: Persist game state across game restarts
+* T25.G5.01.02: Implement multi-type game state in CreatiCode
 * T25.G5.03: Decide when to upgrade from list to table
 
 
@@ -18035,7 +17755,7 @@ Description: Learners examine an AI prompt template ('Write a summary about {top
 
 Dependencies:
 * T25.G5.04: Encode categorical values with numeric codes
-* T25.G5.02.02.05: Test data cleaning with sample datasets
+* T25.G5.02.02: Build a data validation and cleaning project
 
 
 ID: T25.G6.05.01
@@ -18072,7 +17792,7 @@ Skill: Save data to server storage
 Description: Students learn to save individual values across sessions using 'save public/private data [value] with name [key]' blocks. They practice storing values with unique key names (e.g., save score with key 'highScore'), understanding public vs private visibility settings (public = visible to all users, private = only this user), and verifying data persists after project restart.
 
 Dependencies:
-* T25.G5.01.02.03: Persist game state across game restarts
+* T25.G5.01.02: Implement multi-type game state in CreatiCode
 
 
 ID: T25.G6.06.02
@@ -18102,42 +17822,15 @@ Dependencies:
 * T25.G6.07.01: Export table data as CSV
 
 
-ID: T25.G7.01.01
+ID: T25.G7.01
 Topic: T25 – Data Representation
-Skill: Understand First Normal Form (1NF)
-Description: Students learn that First Normal Form requires each table cell to contain a single atomic value (no lists or multiple values in one cell). They examine a table with comma-separated values in cells (e.g., "red, blue, green" in a single colors cell) and refactor it so each color gets its own row. Students implement a simple 1NF transformation in CreatiCode.
+Skill: Normalize repeating data into separate tables
+Description: Students examine a table with repeated player info per score entry and refactor it into two tables (Players, Scores) with ID numbers linking them. They implement the normalized design in CreatiCode using two tables: Players table (PlayerID, Name, Team) and Scores table (ScoreID, PlayerID, Score, Date). Students practice looking up player names using PlayerID.
 
 Dependencies:
-* T25.G5.01.02.03: Persist game state across game restarts
+* T25.G5.01.02: Implement multi-type game state in CreatiCode
 * T25.G5.03: Decide when to upgrade from list to table
-
-
-ID: T25.G7.01.02
-Topic: T25 – Data Representation
-Skill: Understand Second Normal Form (2NF)
-Description: Students learn that Second Normal Form eliminates partial dependencies by ensuring all non-key attributes depend on the entire primary key. They examine a table where some data depends only on part of a composite key and split it into separate tables. Students practice identifying partial dependencies in example tables.
-
-Dependencies:
-* T25.G7.01.01: Understand First Normal Form (1NF)
 * T25.G6.03: Nest tables and lists within each other
-
-
-ID: T25.G7.01.03
-Topic: T25 – Data Representation
-Skill: Understand Third Normal Form (3NF)
-Description: Students learn that Third Normal Form eliminates transitive dependencies where non-key attributes depend on other non-key attributes. They examine tables where one field determines another (e.g., cityName determines stateCode) and extract these into separate lookup tables. Students practice identifying transitive dependencies.
-
-Dependencies:
-* T25.G7.01.02: Understand Second Normal Form (2NF)
-
-
-ID: T25.G7.01.04
-Topic: T25 – Data Representation
-Skill: Apply normalization to a game database
-Description: Students take a denormalized game database (Players table with repeated team info per player, scores repeated multiple times) and normalize it through 1NF, 2NF, and 3NF. They create separate tables (Players, Teams, Scores) with ID relationships and implement the normalized design in CreatiCode. Students practice looking up related data across tables using IDs.
-
-Dependencies:
-* T25.G7.01.03: Understand Third Normal Form (3NF)
 
 
 ID: T25.G7.02
@@ -18146,7 +17839,7 @@ Skill: Identify bias introduced by representation choices
 Description: Learners critique data schemas that collapse categories (e.g., combining 'Non-binary' and 'Prefer not to say' into 'Other') and discuss how such choices can hide important differences or create unfair outcomes in AI systems. Students redesign biased schemas to better represent all groups and explain their improvements.
 
 Dependencies:
-* T25.G5.01.02.03: Persist game state across game restarts
+* T25.G5.01.02: Implement multi-type game state in CreatiCode
 * T25.G5.04: Encode categorical values with numeric codes
 * T25.G6.01: Document metadata for datasets
 
@@ -18186,7 +17879,7 @@ Skill: Evaluate storage vs performance tradeoffs
 Description: Students build two versions of a game scoreboard: (1) store total score in a variable, update it each round, (2) store round scores in a list, calculate total using 'sum of list' reporter block. They compare the tradeoffs: pre-calculated totals are faster to display but use more storage and require careful updates; calculated totals are flexible but require computation each time.
 
 Dependencies:
-* T25.G5.01.02.03: Persist game state across game restarts
+* T25.G5.01.02: Implement multi-type game state in CreatiCode
 * T25.G6.01: Document metadata for datasets
 * T25.G6.02: Explain lossy vs lossless representation
 
@@ -18246,52 +17939,16 @@ Dependencies:
 * T25.G7.06.02: Read and write Google Sheets data
 
 
-ID: T25.G8.01.01
+ID: T25.G8.01
 Topic: T25 – Data Representation
-Skill: Design schema for text data with timestamps
-Description: Students design a data structure for storing text transcripts from speech recognition with associated metadata. They create a schema showing: transcript text field, timestamp field (when spoken), speaker ID field, and confidence score field. Students document this schema in a table showing field names, data types, and purposes.
+Skill: Design schemas for multi-modal apps
+Description: Students design data structures for applications that combine multiple AI modalities (vision from T23 + audio from T24). They create schemas showing: (1) transcript storage (text from speech recognition with timestamps), (2) pose data storage (body joint coordinates from pose detection), (3) conversation history (user prompts and AI responses), and (4) relationships between these data types (which pose triggered which response). Students document their schema using tables or diagrams.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T25.G6.01: Document metadata for datasets
-
-
-ID: T25.G8.01.02
-Topic: T25 – Data Representation
-Skill: Design schema for numeric sensor data
-Description: Students design a data structure for storing numeric sensor readings (temperature, position coordinates, distances). They create a schema showing: sensor value fields, reading timestamp, sensor ID, and measurement units. Students understand how to organize numeric data streams and implement a simple sensor data table in CreatiCode.
-
-Dependencies:
-* T25.G8.01.01: Design schema for text data with timestamps
-
-
-ID: T25.G8.01.03
-Topic: T25 – Data Representation
-Skill: Design schema for media file references
-Description: Students design a data structure for storing references to media files (images, videos, audio). They create a schema showing: file URL/path field, file type field, upload timestamp, file size, and associated metadata (description, tags). Students understand how to track media assets without storing the actual binary data in tables.
-
-Dependencies:
-* T25.G8.01.02: Design schema for numeric sensor data
-
-
-ID: T25.G8.01.04
-Topic: T25 – Data Representation
-Skill: Design schema for pose and gesture data
-Description: Students design a data structure for storing body pose detection results. They create a schema showing: arrays of joint coordinates (x, y positions for each body part), detection timestamp, confidence scores per joint, and detected gesture label. Students document how to organize spatial coordinate data.
-
-Dependencies:
-* T25.G8.01.03: Design schema for media file references
-
-
-ID: T25.G8.01.05
-Topic: T25 – Data Representation
-Skill: Integrate multi-modal schemas with relationships
-Description: Students combine their individual schemas (text, numeric, media, pose) into an integrated database design. They define relationships: which pose triggered which speech response, which media file corresponds to which timestamp, how conversation history links to sensor events. Students implement a simplified multi-modal data system in CreatiCode using multiple linked tables.
-
-Dependencies:
-* T25.G8.01.04: Design schema for pose and gesture data
 * T25.G6.03: Nest tables and lists within each other
-* T25.G7.01.04: Apply normalization to a game database
+* T25.G7.01: Normalize repeating data into separate tables
 
 
 ID: T25.G8.02
@@ -18324,7 +17981,7 @@ Description: Students create a data format specification document for their proj
 Dependencies:
 * T25.G6.01: Document metadata for datasets
 * T25.G7.03.02: Restore tables from CSV and server storage
-* T25.G7.01.04: Apply normalization to a game database
+* T25.G7.01: Normalize repeating data into separate tables
 
 
 ID: T26.GK.01
@@ -18465,30 +18122,17 @@ Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
-ID: T26.G3.04.01
+ID: T26.G3.04
 Topic: T26 – Data Collection & Logging
-Skill: Store raw data in lists
-Description: Students create a list to store all raw survey answers without any processing (e.g., 'red', 'blue', 'red', 'blue', 'red'), learning to preserve original data exactly as collected before any aggregation or transformation.
+Skill: Separate raw data from summary data
+Description: Students create and maintain two separate lists: one storing all raw survey answers (e.g., 'red', 'blue', 'red'), and another storing summary counts (e.g., 'red: 2', 'blue: 1'), demonstrating why we preserve original data before aggregating.
 
 Dependencies:
 * T26.G3.03: Log sensor-style events with counters
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
-Blocks: create list, add to list
-
-
-ID: T26.G3.04.02
-Topic: T26 – Data Collection & Logging
-Skill: Generate summary data from raw data
-Description: Students create a separate list that processes raw data to generate summary counts (e.g., 'red: 2', 'blue: 1'), demonstrating how to aggregate data while keeping the original data intact.
-
-Dependencies:
-* T26.G3.04.01: Store raw data in lists
-* T08.G3.01: Use a simple if in a script
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-Blocks: create list, add to list, join (for summary formatting), length of list
+Blocks: create list, add to list, join (for summary formatting)
 
 
 ID: T26.G3.05
@@ -18497,7 +18141,7 @@ Skill: Spot common data collection mistakes
 Description: Students review sample data sets containing common mistakes (missing entries, inconsistent spelling, duplicate records) and identify what went wrong, preparing them to track invalid data in G4.
 
 Dependencies:
-* T26.G3.04.02: Generate summary data from raw data
+* T26.G3.04: Separate raw data from summary data
 * T08.G3.01: Use a simple if in a script
 
 
@@ -18523,34 +18167,21 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-* T26.G3.04.02: Generate summary data from raw data
+* T26.G3.04: Separate raw data from summary data
 
 
-ID: T26.G4.02.01
+ID: T26.G4.02
 Topic: T26 – Data Collection & Logging
-Skill: Create basic tables for logging
-Description: Students create simple tables with columns (time, event) to log basic gameplay events. They practice adding rows to tables and understand table structure for organizing multi-attribute data.
+Skill: Use tables to log multi-attribute events
+Description: Learners capture gameplay telemetry in a table with columns (time, event, player). This mirrors logging for CreatiCode games.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-* T26.G3.04.01: Store raw data in lists
+* T26.G3.04: Separate raw data from summary data
 
-Blocks: create table, add row to table
-
-
-ID: T26.G4.02.02
-Topic: T26 – Data Collection & Logging
-Skill: Log structured events with multiple attributes
-Description: Students extend their tables to capture complex events with multiple attributes (time, event, player, score, level), creating comprehensive telemetry logs that mirror professional game logging systems.
-
-Dependencies:
-* T26.G4.02.01: Create basic tables for logging
-* T09.G3.05: Trace code with variables to predict outcomes
-* T26.G3.04.02: Generate summary data from raw data
-
-Blocks: create table, add row to table, set cell in table, get cell from table
+Blocks: create table, add row to table, set cell in table
 
 
 ID: T26.G4.03
@@ -18562,7 +18193,7 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-* T26.G4.02.02: Log structured events with multiple attributes
+* T26.G4.02: Use tables to log multi-attribute events
 
 
 ID: T26.G4.04
@@ -18584,7 +18215,7 @@ Description: Students export a simple list variable to a file (downloading it), 
 
 Dependencies:
 * T10.G3.03: Add and remove items from a list
-* T26.G4.02.01: Create basic tables for logging
+* T26.G4.02: Use tables to log multi-attribute events
 
 Blocks: export variable to file, import variable from file
 
