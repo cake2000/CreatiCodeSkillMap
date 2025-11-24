@@ -1,0 +1,932 @@
+Parsing allskills.md...
+Found 97 Grade K skills
+
+================================================================================
+GRADE K SKILLS BY TOPIC
+================================================================================
+
+T01:
+  T01.GK.01: Put pictures in order for getting ready for bed
+  T01.GK.02: Put pictures in order for coming to class
+  T01.GK.03: Find the first and last pictures
+  T01.GK.04: Pick the pictures that make sense
+  T01.GK.05: Move the picture that's in the wrong place
+  T01.GK.06: What comes next?
+  T01.GK.07: Find the pattern that repeats
+  T01.GK.08: Count how many times
+
+T02:
+  T02.GK.01: Recognize picture steps for a task
+  T02.GK.02: Order 3–4 pictures to make a story
+  T02.GK.03: Use first/next/last to describe a sequence
+  T02.GK.04: Fix one picture that is out of order
+
+T03:
+  T03.GK.01: Identify parts that make up a whole
+  T03.GK.02: Match parts to whole objects
+  T03.GK.03: Order 3–4 pictures to show steps in a routine
+  T03.GK.04: Choose the missing middle step in a routine
+  T03.GK.05: Describe what each step accomplishes
+
+T04:
+  T04.GK.01: Identify a simple repeating pattern
+  T04.GK.02: Extend a repeating pattern by one tile
+  T04.GK.03: Describe a pattern using simple words
+  T04.GK.04: Fix a broken pattern by replacing one tile
+
+T05:
+  T05.GK.01: Name who a tool helps
+  T05.GK.02: Match a simple problem to a helpful tool
+  T05.GK.03: Decide which version is easier to use
+  T05.GK.04: Choose a change that makes something easier
+
+T06:
+  T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+  T06.GK.02: Match "first" and "next" words to pictures in a sequence
+  T06.GK.03: Predict what happens "after this" in a picture sequence
+
+T08:
+  T08.GK.01: Match pictures to "if it rains" rules
+  T08.GK.02: Choose what happens next based on yes/no
+
+T09:
+  T09.GK.01: Recognize that a label can hold a number
+  T09.GK.02: Identify which label changed after an action
+
+T10:
+  T10.GK.01: Sort picture cards into groups
+  T10.GK.02: Count items in each group
+  T10.GK.03: Find which group has more
+  T10.GK.04: Add an item to the right group
+  T10.GK.05: Find the first and last item in a row
+  T10.GK.06: Look at a simple picture table
+  T10.GK.07: Match items that go together
+  T10.GK.08: Find all items with a special mark
+
+T13:
+  T13.GK.01: Spot a missing or wrong action in an animation
+  T13.GK.02: Retry after noticing something went wrong
+  T13.GK.03: Fix a single wrong direction or action in steps
+
+T14:
+  T14.GK.01: Match controls to character actions
+  T14.GK.02: Recognize a score in simple games
+  T14.GK.03: Identify when a game starts and ends
+  T14.GK.04: Match rewards to goals
+
+T15:
+  T15.GK.01: Sequence story pictures
+  T15.GK.02: Match emotions to faces
+  T15.GK.03: Identify speech bubbles
+
+T18:
+  T18.GK.01: Explore 3D shapes in the real world
+
+T20:
+  T20.GK.01: Picture pattern detective
+  T20.GK.02: Order art steps with cards
+  T20.GK.03: Continue the pattern trail
+  T20.GK.04: Fix the mixed-up art plan (picture-only)
+
+T21:
+  T21.GK.01: Tell which pictures look like AI made them
+  T21.GK.02: Match the picture to the words that describe it
+  T21.GK.03: Pick the helper that can talk back
+
+T22:
+  T22.GK.01: Recognize a talking helper vs a silent toy
+  T22.GK.02: Practice asking a picture helper a friendly question
+
+T23:
+  T23.GK.01: Match pictures of sensing
+  T23.GK.02: Point to where a device "looks" or "listens"
+  T23.GK.03: Choose when to uncover or quiet a helper
+
+T24:
+  T24.GK.01: Identify AI as a computer helper
+  T24.GK.02: Recognize AI-made vs human-made pictures
+  T24.GK.03: Give simple instructions to an AI helper
+
+T25:
+  T25.GK.01: Spot data in everyday objects
+  T25.GK.02: Match quantities to symbols
+  T25.GK.03: Build a two-symbol legend
+
+T26:
+  T26.GK.01: Identify countable things in a picture
+  T26.GK.02: Use tokens to log repeated events
+  T26.GK.03: Capture yes/no answers with smile/frown cards
+
+T27:
+  T27.GK.01: Sort objects by a rule and explain it
+  T27.GK.02: Compare which group has more
+  T27.GK.03: Read a two-column picture chart
+
+T29:
+  T29.GK.01: Recognize text vs pictures
+  T29.GK.02: Identify letters in text
+  T29.GK.03: Recognize that text has meaning
+
+T30:
+  T30.GK.01: Identify everyday computing devices
+  T30.GK.02: Match devices to actions
+  T30.GK.03: Recognize input vs output examples
+
+T31:
+  T31.GK.01: Recognize devices that connect to the internet (picture-based)
+
+T32:
+  T32.GK.01: Spot safe vs unsafe sharing
+  T32.GK.02: Recognize when to ask for help online
+  T32.GK.03: Understand that passwords keep things safe
+  T32.GK.04: Distinguish online vs offline activities
+
+T33:
+  T33.GK.01: Recognize that apps can talk to helpers on the internet
+
+T34:
+  T34.GK.01: Spot computing tools in daily life
+  T34.GK.02: Match old vs new versions of tech
+  T34.GK.03: Name a person who uses computers in their job
+
+T35:
+  T35.GK.01: Identify a helpful use of technology
+  T35.GK.02: Recognize signs of too much screen time
+  T35.GK.03: Practice device sharing etiquette
+  T35.GK.04: Choose safe sharing in role-play
+
+T36:
+  T36.GK.01: Match community helpers to digital tools
+  T36.GK.02: Take turns using a device to complete a task together
+  T36.GK.03: Describe what a digital tool helps someone do
+
+
+================================================================================
+X-2 RULE VIOLATIONS (K skills depending on non-K skills)
+================================================================================
+
+No violations found
+
+
+================================================================================
+MISSING CROSS-TOPIC DEPENDENCIES
+================================================================================
+
+T01:
+  T01.GK.01: Put pictures in order for getting ready for bed
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.02: Put pictures in order for coming to class
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.03: Find the first and last pictures
+    Missing: events
+    Reason: Skills using events/input should depend on event basics
+    Suggested: T05.GK, T06.GK
+  T01.GK.03: Find the first and last pictures
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.04: Pick the pictures that make sense
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.05: Move the picture that's in the wrong place
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T01.GK.05: Move the picture that's in the wrong place
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.06: What comes next?
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.07: Find the pattern that repeats
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T01.GK.07: Find the pattern that repeats
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T01.GK.07: Find the pattern that repeats
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T01.GK.08: Count how many times
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T01.GK.08: Count how many times
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T01.GK.08: Count how many times
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T01.GK.08: Count how many times
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T03:
+  T03.GK.01: Identify parts that make up a whole
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T04:
+  T04.GK.01: Identify a simple repeating pattern
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T04.GK.01: Identify a simple repeating pattern
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T04.GK.02: Extend a repeating pattern by one tile
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T04.GK.04: Fix a broken pattern by replacing one tile
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+
+T05:
+  T05.GK.04: Choose a change that makes something easier
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T05.GK.04: Choose a change that makes something easier
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T06:
+  T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T06.GK.03: Predict what happens "after this" in a picture sequence
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T06.GK.03: Predict what happens "after this" in a picture sequence
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+T08:
+  T08.GK.01: Match pictures to "if it rains" rules
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T08.GK.02: Choose what happens next based on yes/no
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T08.GK.02: Choose what happens next based on yes/no
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+T09:
+  T09.GK.01: Recognize that a label can hold a number
+    Missing: variables
+    Reason: Skills using variables should depend on variable basics
+    Suggested: T04.GK
+  T09.GK.01: Recognize that a label can hold a number
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T09.GK.02: Identify which label changed after an action
+    Missing: variables
+    Reason: Skills using variables should depend on variable basics
+    Suggested: T04.GK
+  T09.GK.02: Identify which label changed after an action
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T09.GK.02: Identify which label changed after an action
+    Missing: events
+    Reason: Skills using events/input should depend on event basics
+    Suggested: T05.GK, T06.GK
+  T09.GK.02: Identify which label changed after an action
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T10:
+  T10.GK.02: Count items in each group
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T10.GK.03: Find which group has more
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T10.GK.05: Find the first and last item in a row
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T10.GK.07: Match items that go together
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T10.GK.07: Match items that go together
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T10.GK.08: Find all items with a special mark
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+
+T13:
+  T13.GK.01: Spot a missing or wrong action in an animation
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T13.GK.01: Spot a missing or wrong action in an animation
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T13.GK.01: Spot a missing or wrong action in an animation
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T13.GK.02: Retry after noticing something went wrong
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T13.GK.02: Retry after noticing something went wrong
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T13.GK.02: Retry after noticing something went wrong
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T13.GK.03: Fix a single wrong direction or action in steps
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T13.GK.03: Fix a single wrong direction or action in steps
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T13.GK.03: Fix a single wrong direction or action in steps
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T13.GK.03: Fix a single wrong direction or action in steps
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T14:
+  T14.GK.01: Match controls to character actions
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T14.GK.01: Match controls to character actions
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T14.GK.01: Match controls to character actions
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T14.GK.01: Match controls to character actions
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T14.GK.02: Recognize a score in simple games
+    Missing: variables
+    Reason: Skills using variables should depend on variable basics
+    Suggested: T04.GK
+  T14.GK.02: Recognize a score in simple games
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T14.GK.02: Recognize a score in simple games
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T14.GK.03: Identify when a game starts and ends
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T14.GK.03: Identify when a game starts and ends
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T14.GK.04: Match rewards to goals
+    Missing: events
+    Reason: Skills using events/input should depend on event basics
+    Suggested: T05.GK, T06.GK
+
+T15:
+  T15.GK.01: Sequence story pictures
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T15.GK.02: Match emotions to faces
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T15.GK.02: Match emotions to faces
+    Missing: events
+    Reason: Skills using events/input should depend on event basics
+    Suggested: T05.GK, T06.GK
+  T15.GK.02: Match emotions to faces
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T15.GK.03: Identify speech bubbles
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T15.GK.03: Identify speech bubbles
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+
+T18:
+  T18.GK.01: Explore 3D shapes in the real world
+    Missing: variables
+    Reason: Skills using variables should depend on variable basics
+    Suggested: T04.GK
+  T18.GK.01: Explore 3D shapes in the real world
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T18.GK.01: Explore 3D shapes in the real world
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+T20:
+  T20.GK.01: Picture pattern detective
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T20.GK.01: Picture pattern detective
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T20.GK.02: Order art steps with cards
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+T21:
+  T21.GK.01: Tell which pictures look like AI made them
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T21.GK.03: Pick the helper that can talk back
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+
+T22:
+  T22.GK.01: Recognize a talking helper vs a silent toy
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T22.GK.02: Practice asking a picture helper a friendly question
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T22.GK.02: Practice asking a picture helper a friendly question
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+
+T23:
+  T23.GK.01: Match pictures of sensing
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T23.GK.01: Match pictures of sensing
+    Missing: events
+    Reason: Skills using events/input should depend on event basics
+    Suggested: T05.GK, T06.GK
+  T23.GK.02: Point to where a device "looks" or "listens"
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T23.GK.03: Choose when to uncover or quiet a helper
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T23.GK.03: Choose when to uncover or quiet a helper
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T23.GK.03: Choose when to uncover or quiet a helper
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T23.GK.03: Choose when to uncover or quiet a helper
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T24:
+  T24.GK.01: Identify AI as a computer helper
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T24.GK.01: Identify AI as a computer helper
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T24.GK.02: Recognize AI-made vs human-made pictures
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T24.GK.02: Recognize AI-made vs human-made pictures
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T24.GK.03: Give simple instructions to an AI helper
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T24.GK.03: Give simple instructions to an AI helper
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+T26:
+  T26.GK.01: Identify countable things in a picture
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T26.GK.01: Identify countable things in a picture
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T26.GK.02: Use tokens to log repeated events
+    Missing: loops
+    Reason: Skills using loops should depend on loop basics
+    Suggested: T02.GK
+  T26.GK.02: Use tokens to log repeated events
+    Missing: events
+    Reason: Skills using events/input should depend on event basics
+    Suggested: T05.GK, T06.GK
+
+T27:
+  T27.GK.02: Compare which group has more
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+
+T29:
+  T29.GK.01: Recognize text vs pictures
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T29.GK.02: Identify letters in text
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T29.GK.02: Identify letters in text
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+
+T30:
+  T30.GK.01: Identify everyday computing devices
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T30.GK.02: Match devices to actions
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T30.GK.02: Match devices to actions
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T30.GK.02: Match devices to actions
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T32:
+  T32.GK.02: Recognize when to ask for help online
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T32.GK.02: Recognize when to ask for help online
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T32.GK.03: Understand that passwords keep things safe
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T32.GK.03: Understand that passwords keep things safe
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T32.GK.04: Distinguish online vs offline activities
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T32.GK.04: Distinguish online vs offline activities
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T33:
+  T33.GK.01: Recognize that apps can talk to helpers on the internet
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T33.GK.01: Recognize that apps can talk to helpers on the internet
+    Missing: motion
+    Reason: Skills with motion should depend on motion basics
+    Suggested: T07.GK, T08.GK
+  T33.GK.01: Recognize that apps can talk to helpers on the internet
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+T34:
+  T34.GK.01: Spot computing tools in daily life
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+
+T35:
+  T35.GK.01: Identify a helpful use of technology
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T35.GK.01: Identify a helpful use of technology
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+  T35.GK.02: Recognize signs of too much screen time
+    Missing: conditionals
+    Reason: Skills using conditionals should depend on conditional basics
+    Suggested: T03.GK
+  T35.GK.02: Recognize signs of too much screen time
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+  T35.GK.04: Choose safe sharing in role-play
+    Missing: sprites
+    Reason: Skills using sprites should depend on sprite basics
+    Suggested: T09.GK
+  T35.GK.04: Choose safe sharing in role-play
+    Missing: sound
+    Reason: Skills using sound should depend on sound basics
+    Suggested: T12.GK
+
+T36:
+  T36.GK.03: Describe what a digital tool helps someone do
+    Missing: drawing
+    Reason: Skills with drawing should depend on drawing basics
+    Suggested: T11.GK
+
+
+================================================================================
+CIRCULAR DEPENDENCIES
+================================================================================
+
+No circular dependencies found
+
+
+================================================================================
+REDUNDANT TRANSITIVE DEPENDENCIES
+================================================================================
+
+No redundant dependencies found
+
+
+================================================================================
+TOPIC OVERLAP (Skills with similar content across topics)
+================================================================================
+
+Keyword: 'pictures' appears in 14 skills:
+  T01.GK.01 (T01 – Everyday Algorithms): Put pictures in order for getting ready for bed
+  T01.GK.02 (T01 – Everyday Algorithms): Put pictures in order for coming to class
+  T01.GK.03 (T01 – Everyday Algorithms): Find the first and last pictures
+  T01.GK.04 (T01 – Everyday Algorithms): Pick the pictures that make sense
+  T02.GK.02 (T02 – Algorithm Diagrams): Order 3–4 pictures to make a story
+  T03.GK.03 (T03 – Problem Decomposition): Order 3–4 pictures to show steps in a routine
+  T06.GK.01 (T06 – Events & Sequences): Order pictures showing a morning routine (event sequence concept)
+  T06.GK.02 (T06 – Events & Sequences): Match "first" and "next" words to pictures in a sequence
+  T08.GK.01 (T08 – Conditions & Logic): Match pictures to "if it rains" rules
+  T15.GK.01 (T15 – Stories & Animation): Sequence story pictures
+  T21.GK.01 (T21 – AI Media): Tell which pictures look like AI made them
+  T23.GK.01 (T23 – AI Perception): Match pictures of sensing
+  T24.GK.02 (T24 – XO & Generative AI Practices): Recognize AI-made vs human-made pictures
+  T29.GK.01 (T29 – Text Data & NLP Foundations): Recognize text vs pictures
+
+Keyword: 'that' appears in 14 skills:
+  T01.GK.04 (T01 – Everyday Algorithms): Pick the pictures that make sense
+  T01.GK.05 (T01 – Everyday Algorithms): Move the picture that's in the wrong place
+  T01.GK.07 (T01 – Everyday Algorithms): Find the pattern that repeats
+  T02.GK.04 (T02 – Algorithm Diagrams): Fix one picture that is out of order
+  T03.GK.01 (T03 – Problem Decomposition): Identify parts that make up a whole
+  T05.GK.04 (T05 – Human‑Centered Design): Choose a change that makes something easier
+  T09.GK.01 (T09 – Variables & Expressions): Recognize that a label can hold a number
+  T10.GK.07 (T10 – Lists & Tables): Match items that go together
+  T21.GK.02 (T21 – AI Media): Match the picture to the words that describe it
+  T21.GK.03 (T21 – AI Media): Pick the helper that can talk back
+  T29.GK.03 (T29 – Text Data & NLP Foundations): Recognize that text has meaning
+  T31.GK.01 (T31 – Internet & Cloud: Kindergarten): Recognize devices that connect to the internet (picture-based)
+  T32.GK.03 (T32 – Cybersecurity & Digital Safety): Understand that passwords keep things safe
+  T33.GK.01 (T33 – Connected Services): Recognize that apps can talk to helpers on the internet
+
+Keyword: 'match' appears in 14 skills:
+  T03.GK.02 (T03 – Problem Decomposition): Match parts to whole objects
+  T05.GK.02 (T05 – Human‑Centered Design): Match a simple problem to a helpful tool
+  T06.GK.02 (T06 – Events & Sequences): Match "first" and "next" words to pictures in a sequence
+  T08.GK.01 (T08 – Conditions & Logic): Match pictures to "if it rains" rules
+  T10.GK.07 (T10 – Lists & Tables): Match items that go together
+  T14.GK.01 (T14 – 2D Games): Match controls to character actions
+  T14.GK.04 (T14 – 2D Games): Match rewards to goals
+  T15.GK.02 (T15 – Stories & Animation): Match emotions to faces
+  T21.GK.02 (T21 – AI Media): Match the picture to the words that describe it
+  T23.GK.01 (T23 – AI Perception): Match pictures of sensing
+  T25.GK.02 (T25 – Data Representation): Match quantities to symbols
+  T30.GK.02 (T30 – Devices & Hardware Systems): Match devices to actions
+  T34.GK.02 (T34 – Computing History): Match old vs new versions of tech
+  T36.GK.01 (T36 – Careers, Collaboration & Future Paths): Match community helpers to digital tools
+
+Keyword: 'picture' appears in 13 skills:
+  T01.GK.05 (T01 – Everyday Algorithms): Move the picture that's in the wrong place
+  T02.GK.01 (T02 – Algorithm Diagrams): Recognize picture steps for a task
+  T02.GK.04 (T02 – Algorithm Diagrams): Fix one picture that is out of order
+  T06.GK.03 (T06 – Events & Sequences): Predict what happens "after this" in a picture sequence
+  T10.GK.01 (T10 – Lists & Tables): Sort picture cards into groups
+  T10.GK.06 (T10 – Lists & Tables): Look at a simple picture table
+  T20.GK.01 (T20 – Algorithmic Art & Creative Coding): Picture pattern detective
+  T20.GK.04 (T20 – Algorithmic Art & Creative Coding): Fix the mixed-up art plan (picture-only)
+  T21.GK.02 (T21 – AI Media): Match the picture to the words that describe it
+  T22.GK.02 (T22 – Chatbots & Prompting): Practice asking a picture helper a friendly question
+  T26.GK.01 (T26 – Data Collection & Logging): Identify countable things in a picture
+  T27.GK.03 (T27 – Data Analysis & Storytelling): Read a two-column picture chart
+  T31.GK.01 (T31 – Internet & Cloud: Kindergarten): Recognize devices that connect to the internet (picture-based)
+
+Keyword: 'recognize' appears in 12 skills:
+  T02.GK.01 (T02 – Algorithm Diagrams): Recognize picture steps for a task
+  T09.GK.01 (T09 – Variables & Expressions): Recognize that a label can hold a number
+  T14.GK.02 (T14 – 2D Games): Recognize a score in simple games
+  T22.GK.01 (T22 – Chatbots & Prompting): Recognize a talking helper vs a silent toy
+  T24.GK.02 (T24 – XO & Generative AI Practices): Recognize AI-made vs human-made pictures
+  T29.GK.01 (T29 – Text Data & NLP Foundations): Recognize text vs pictures
+  T29.GK.03 (T29 – Text Data & NLP Foundations): Recognize that text has meaning
+  T30.GK.03 (T30 – Devices & Hardware Systems): Recognize input vs output examples
+  T31.GK.01 (T31 – Internet & Cloud: Kindergarten): Recognize devices that connect to the internet (picture-based)
+  T32.GK.02 (T32 – Cybersecurity & Digital Safety): Recognize when to ask for help online
+  T33.GK.01 (T33 – Connected Services): Recognize that apps can talk to helpers on the internet
+  T35.GK.02 (T35 – Impacts & Ethics): Recognize signs of too much screen time
+
+Keyword: 'identify' appears in 10 skills:
+  T03.GK.01 (T03 – Problem Decomposition): Identify parts that make up a whole
+  T04.GK.01 (T04 – Algorithm Patterns): Identify a simple repeating pattern
+  T09.GK.02 (T09 – Variables & Expressions): Identify which label changed after an action
+  T14.GK.03 (T14 – 2D Games): Identify when a game starts and ends
+  T15.GK.03 (T15 – Stories & Animation): Identify speech bubbles
+  T24.GK.01 (T24 – XO & Generative AI Practices): Identify AI as a computer helper
+  T26.GK.01 (T26 – Data Collection & Logging): Identify countable things in a picture
+  T29.GK.02 (T29 – Text Data & NLP Foundations): Identify letters in text
+  T30.GK.01 (T30 – Devices & Hardware Systems): Identify everyday computing devices
+  T35.GK.01 (T35 – Impacts & Ethics): Identify a helpful use of technology
+
+Keyword: 'order' appears in 7 skills:
+  T01.GK.01 (T01 – Everyday Algorithms): Put pictures in order for getting ready for bed
+  T01.GK.02 (T01 – Everyday Algorithms): Put pictures in order for coming to class
+  T02.GK.02 (T02 – Algorithm Diagrams): Order 3–4 pictures to make a story
+  T02.GK.04 (T02 – Algorithm Diagrams): Fix one picture that is out of order
+  T03.GK.03 (T03 – Problem Decomposition): Order 3–4 pictures to show steps in a routine
+  T06.GK.01 (T06 – Events & Sequences): Order pictures showing a morning routine (event sequence concept)
+  T20.GK.02 (T20 – Algorithmic Art & Creative Coding): Order art steps with cards
+
+Keyword: 'pattern' appears in 7 skills:
+  T01.GK.07 (T01 – Everyday Algorithms): Find the pattern that repeats
+  T04.GK.01 (T04 – Algorithm Patterns): Identify a simple repeating pattern
+  T04.GK.02 (T04 – Algorithm Patterns): Extend a repeating pattern by one tile
+  T04.GK.03 (T04 – Algorithm Patterns): Describe a pattern using simple words
+  T04.GK.04 (T04 – Algorithm Patterns): Fix a broken pattern by replacing one tile
+  T20.GK.01 (T20 – Algorithmic Art & Creative Coding): Picture pattern detective
+  T20.GK.03 (T20 – Algorithmic Art & Creative Coding): Continue the pattern trail
+
+Keyword: 'simple' appears in 6 skills:
+  T04.GK.01 (T04 – Algorithm Patterns): Identify a simple repeating pattern
+  T04.GK.03 (T04 – Algorithm Patterns): Describe a pattern using simple words
+  T05.GK.02 (T05 – Human‑Centered Design): Match a simple problem to a helpful tool
+  T10.GK.06 (T10 – Lists & Tables): Look at a simple picture table
+  T14.GK.02 (T14 – 2D Games): Recognize a score in simple games
+  T24.GK.03 (T24 – XO & Generative AI Practices): Give simple instructions to an AI helper
+
+Keyword: 'helper' appears in 6 skills:
+  T21.GK.03 (T21 – AI Media): Pick the helper that can talk back
+  T22.GK.01 (T22 – Chatbots & Prompting): Recognize a talking helper vs a silent toy
+  T22.GK.02 (T22 – Chatbots & Prompting): Practice asking a picture helper a friendly question
+  T23.GK.03 (T23 – AI Perception): Choose when to uncover or quiet a helper
+  T24.GK.01 (T24 – XO & Generative AI Practices): Identify AI as a computer helper
+  T24.GK.03 (T24 – XO & Generative AI Practices): Give simple instructions to an AI helper
+
+Keyword: 'find' appears in 5 skills:
+  T01.GK.03 (T01 – Everyday Algorithms): Find the first and last pictures
+  T01.GK.07 (T01 – Everyday Algorithms): Find the pattern that repeats
+  T10.GK.03 (T10 – Lists & Tables): Find which group has more
+  T10.GK.05 (T10 – Lists & Tables): Find the first and last item in a row
+  T10.GK.08 (T10 – Lists & Tables): Find all items with a special mark
+
+Keyword: 'what' appears in 5 skills:
+  T01.GK.06 (T01 – Everyday Algorithms): What comes next?
+  T03.GK.05 (T03 – Problem Decomposition): Describe what each step accomplishes
+  T06.GK.03 (T06 – Events & Sequences): Predict what happens "after this" in a picture sequence
+  T08.GK.02 (T08 – Conditions & Logic): Choose what happens next based on yes/no
+  T36.GK.03 (T36 – Careers, Collaboration & Future Paths): Describe what a digital tool helps someone do
+
+Keyword: 'describe' appears in 5 skills:
+  T02.GK.03 (T02 – Algorithm Diagrams): Use first/next/last to describe a sequence
+  T03.GK.05 (T03 – Problem Decomposition): Describe what each step accomplishes
+  T04.GK.03 (T04 – Algorithm Patterns): Describe a pattern using simple words
+  T21.GK.02 (T21 – AI Media): Match the picture to the words that describe it
+  T36.GK.03 (T36 – Careers, Collaboration & Future Paths): Describe what a digital tool helps someone do
+
+Keyword: 'sequence' appears in 5 skills:
+  T02.GK.03 (T02 – Algorithm Diagrams): Use first/next/last to describe a sequence
+  T06.GK.01 (T06 – Events & Sequences): Order pictures showing a morning routine (event sequence concept)
+  T06.GK.02 (T06 – Events & Sequences): Match "first" and "next" words to pictures in a sequence
+  T06.GK.03 (T06 – Events & Sequences): Predict what happens "after this" in a picture sequence
+  T15.GK.01 (T15 – Stories & Animation): Sequence story pictures
+
+Keyword: 'choose' appears in 5 skills:
+  T03.GK.04 (T03 – Problem Decomposition): Choose the missing middle step in a routine
+  T05.GK.04 (T05 – Human‑Centered Design): Choose a change that makes something easier
+  T08.GK.02 (T08 – Conditions & Logic): Choose what happens next based on yes/no
+  T23.GK.03 (T23 – AI Perception): Choose when to uncover or quiet a helper
+  T35.GK.04 (T35 – Impacts & Ethics): Choose safe sharing in role-play
+
+Keyword: 'which' appears in 5 skills:
+  T05.GK.03 (T05 – Human‑Centered Design): Decide which version is easier to use
+  T09.GK.02 (T09 – Variables & Expressions): Identify which label changed after an action
+  T10.GK.03 (T10 – Lists & Tables): Find which group has more
+  T21.GK.01 (T21 – AI Media): Tell which pictures look like AI made them
+  T27.GK.02 (T27 – Data Analysis & Storytelling): Compare which group has more
+
+Keyword: 'first' appears in 4 skills:
+  T01.GK.03 (T01 – Everyday Algorithms): Find the first and last pictures
+  T02.GK.03 (T02 – Algorithm Diagrams): Use first/next/last to describe a sequence
+  T06.GK.02 (T06 – Events & Sequences): Match "first" and "next" words to pictures in a sequence
+  T10.GK.05 (T10 – Lists & Tables): Find the first and last item in a row
+
+Keyword: 'wrong' appears in 4 skills:
+  T01.GK.05 (T01 – Everyday Algorithms): Move the picture that's in the wrong place
+  T13.GK.01 (T13 – Testing, Debugging & Error Handling): Spot a missing or wrong action in an animation
+  T13.GK.02 (T13 – Testing, Debugging & Error Handling): Retry after noticing something went wrong
+  T13.GK.03 (T13 – Testing, Debugging & Error Handling): Fix a single wrong direction or action in steps
+
+Keyword: 'next' appears in 4 skills:
+  T01.GK.06 (T01 – Everyday Algorithms): What comes next?
+  T02.GK.03 (T02 – Algorithm Diagrams): Use first/next/last to describe a sequence
+  T06.GK.02 (T06 – Events & Sequences): Match "first" and "next" words to pictures in a sequence
+  T08.GK.02 (T08 – Conditions & Logic): Choose what happens next based on yes/no
+
+Keyword: 'steps' appears in 4 skills:
+  T02.GK.01 (T02 – Algorithm Diagrams): Recognize picture steps for a task
+  T03.GK.03 (T03 – Problem Decomposition): Order 3–4 pictures to show steps in a routine
+  T13.GK.03 (T13 – Testing, Debugging & Error Handling): Fix a single wrong direction or action in steps
+  T20.GK.02 (T20 – Algorithmic Art & Creative Coding): Order art steps with cards
+
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+Total Grade K skills: 97
+Topics with GK skills: 29
+X-2 violations: 0
+Missing cross-topic deps: 120
+Circular dependencies: 0
+Redundant dependencies: 0
+Keyword overlaps: 63
+
+
+================================================================================
+CROSS-TOPIC DEPENDENCY MATRIX
+================================================================================
+
+No cross-topic dependencies found

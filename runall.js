@@ -332,7 +332,7 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
           // Check for API errors
           const outputLower = output.toLowerCase();
           if (1 || outputLower.includes("api error") || outputLower.includes("usage limit")) {
-            console.log(`\n⚠️  API rate limit hit for grade ${grade}`);
+            console.log(`\n⚠️  API rate limit hit for grade ${grade}: ${output}`);
             console.log(`⏰ Waiting 3 minutes before retrying...`);
             await waitWithCountdown(3);
             retryCount++;

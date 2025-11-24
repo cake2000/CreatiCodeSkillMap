@@ -1,0 +1,422 @@
+GRADE K SKILLS WITH CURRENT DEPENDENCIES
+================================================================================
+
+
+================================================================================
+TOPIC: T01
+================================================================================
+
+T01.GK.01: Put pictures in order for getting ready for bed
+No dependencies
+
+T01.GK.02: Put pictures in order for coming to class
+No dependencies
+
+T01.GK.03: Find the first and last pictures
+No dependencies
+
+T01.GK.04: Pick the pictures that make sense
+No dependencies
+
+T01.GK.05: Move the picture that's in the wrong place
+No dependencies
+
+T01.GK.06: What comes next?
+No dependencies
+
+T01.GK.07: Find the pattern that repeats
+No dependencies
+
+T01.GK.08: Count how many times
+No dependencies
+
+================================================================================
+TOPIC: T02
+================================================================================
+
+T02.GK.01: Recognize picture steps for a task
+No dependencies
+
+T02.GK.02: Order 3–4 pictures to make a story
+No dependencies
+
+T02.GK.03: Use first/next/last to describe a sequence
+No dependencies
+
+T02.GK.04: Fix one picture that is out of order
+No dependencies
+
+================================================================================
+TOPIC: T03
+================================================================================
+
+T03.GK.01: Identify parts that make up a whole
+No dependencies
+
+T03.GK.02: Match parts to whole objects
+No dependencies
+
+T03.GK.03: Order 3–4 pictures to show steps in a routine
+No dependencies
+
+T03.GK.04: Choose the missing middle step in a routine
+No dependencies
+
+T03.GK.05: Describe what each step accomplishes
+No dependencies
+
+================================================================================
+TOPIC: T04
+================================================================================
+
+T04.GK.01: Identify a simple repeating pattern
+No dependencies
+
+T04.GK.02: Extend a repeating pattern by one tile
+No dependencies
+
+T04.GK.03: Describe a pattern using simple words
+No dependencies
+
+T04.GK.04: Fix a broken pattern by replacing one tile
+No dependencies
+
+================================================================================
+TOPIC: T05
+================================================================================
+
+T05.GK.01: Name who a tool helps
+No dependencies
+
+T05.GK.02: Match a simple problem to a helpful tool
+No dependencies
+
+T05.GK.03: Decide which version is easier to use
+No dependencies
+
+T05.GK.04: Choose a change that makes something easier
+No dependencies
+
+================================================================================
+TOPIC: T06
+================================================================================
+
+T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+No dependencies
+
+T06.GK.02: Match "first" and "next" words to pictures in a sequence
+No dependencies
+
+T06.GK.03: Predict what happens "after this" in a picture sequence
+No dependencies
+
+================================================================================
+TOPIC: T08
+================================================================================
+
+T08.GK.01: Match pictures to "if it rains" rules
+No dependencies
+
+T08.GK.02: Choose what happens next based on yes/no
+No dependencies
+
+================================================================================
+TOPIC: T09
+================================================================================
+
+T09.GK.01: Recognize that a label can hold a number
+No dependencies
+
+T09.GK.02: Identify which label changed after an action
+No dependencies
+
+================================================================================
+TOPIC: T10
+================================================================================
+
+T10.GK.01: Sort picture cards into groups
+No dependencies
+
+T10.GK.02: Count items in each group
+No dependencies
+
+T10.GK.03: Find which group has more
+No dependencies
+
+T10.GK.04: Add an item to the right group
+No dependencies
+
+T10.GK.05: Find the first and last item in a row
+No dependencies
+
+T10.GK.06: Look at a simple picture table
+No dependencies
+
+T10.GK.07: Match items that go together
+No dependencies
+
+T10.GK.08: Find all items with a special mark
+No dependencies
+
+================================================================================
+TOPIC: T13
+================================================================================
+
+T13.GK.01: Spot a missing or wrong action in an animation
+No dependencies
+
+T13.GK.02: Retry after noticing something went wrong
+No dependencies
+
+T13.GK.03: Fix a single wrong direction or action in steps
+No dependencies
+
+================================================================================
+TOPIC: T14
+================================================================================
+
+T14.GK.01: Match controls to character actions
+No dependencies
+
+T14.GK.02: Recognize a score in simple games
+No dependencies
+
+T14.GK.03: Identify when a game starts and ends
+No dependencies
+
+T14.GK.04: Match rewards to goals
+No dependencies
+
+================================================================================
+TOPIC: T15
+================================================================================
+
+T15.GK.01: Sequence story pictures
+No dependencies
+
+T15.GK.02: Match emotions to faces
+No dependencies
+
+T15.GK.03: Identify speech bubbles
+No dependencies
+
+================================================================================
+TOPIC: T18
+================================================================================
+
+T18.GK.01: Explore 3D shapes in the real world
+No dependencies
+
+================================================================================
+TOPIC: T20
+================================================================================
+
+T20.GK.01: Picture pattern detective
+No dependencies
+
+T20.GK.02: Order art steps with cards
+No dependencies
+
+T20.GK.03: Continue the pattern trail
+No dependencies
+
+T20.GK.04: Fix the mixed-up art plan (picture-only)
+No dependencies
+
+================================================================================
+TOPIC: T21
+================================================================================
+
+T21.GK.01: Tell which pictures look like AI made them
+No dependencies
+
+T21.GK.02: Match the picture to the words that describe it
+No dependencies
+
+T21.GK.03: Pick the helper that can talk back
+No dependencies
+
+================================================================================
+TOPIC: T22
+================================================================================
+
+T22.GK.01: Recognize a talking helper vs a silent toy
+No dependencies
+
+T22.GK.02: Practice asking a picture helper a friendly question
+No dependencies
+
+================================================================================
+TOPIC: T23
+================================================================================
+
+T23.GK.01: Match pictures of sensing
+No dependencies
+
+T23.GK.02: Point to where a device "looks" or "listens"
+No dependencies
+
+T23.GK.03: Choose when to uncover or quiet a helper
+No dependencies
+
+================================================================================
+TOPIC: T24
+================================================================================
+
+T24.GK.01: Identify AI as a computer helper
+No dependencies
+
+T24.GK.02: Recognize AI-made vs human-made pictures
+No dependencies
+
+T24.GK.03: Give simple instructions to an AI helper
+No dependencies
+
+================================================================================
+TOPIC: T25
+================================================================================
+
+T25.GK.01: Spot data in everyday objects
+No dependencies
+
+T25.GK.02: Match quantities to symbols
+No dependencies
+
+T25.GK.03: Build a two-symbol legend
+No dependencies
+
+================================================================================
+TOPIC: T26
+================================================================================
+
+T26.GK.01: Identify countable things in a picture
+No dependencies
+
+T26.GK.02: Use tokens to log repeated events
+No dependencies
+
+T26.GK.03: Capture yes/no answers with smile/frown cards
+No dependencies
+
+================================================================================
+TOPIC: T27
+================================================================================
+
+T27.GK.01: Sort objects by a rule and explain it
+No dependencies
+
+T27.GK.02: Compare which group has more
+No dependencies
+
+T27.GK.03: Read a two-column picture chart
+No dependencies
+
+================================================================================
+TOPIC: T29
+================================================================================
+
+T29.GK.01: Recognize text vs pictures
+No dependencies
+
+T29.GK.02: Identify letters in text
+No dependencies
+
+T29.GK.03: Recognize that text has meaning
+No dependencies
+
+================================================================================
+TOPIC: T30
+================================================================================
+
+T30.GK.01: Identify everyday computing devices
+No dependencies
+
+T30.GK.02: Match devices to actions
+No dependencies
+
+T30.GK.03: Recognize input vs output examples
+No dependencies
+
+================================================================================
+TOPIC: T31
+================================================================================
+
+T31.GK.01: Recognize devices that connect to the internet (picture-based)
+No dependencies
+
+================================================================================
+TOPIC: T32
+================================================================================
+
+T32.GK.01: Spot safe vs unsafe sharing
+No dependencies
+
+T32.GK.02: Recognize when to ask for help online
+No dependencies
+
+T32.GK.03: Understand that passwords keep things safe
+No dependencies
+
+T32.GK.04: Distinguish online vs offline activities
+No dependencies
+
+================================================================================
+TOPIC: T33
+================================================================================
+
+T33.GK.01: Recognize that apps can talk to helpers on the internet
+No dependencies
+
+================================================================================
+TOPIC: T34
+================================================================================
+
+T34.GK.01: Spot computing tools in daily life
+No dependencies
+
+T34.GK.02: Match old vs new versions of tech
+No dependencies
+
+T34.GK.03: Name a person who uses computers in their job
+No dependencies
+
+================================================================================
+TOPIC: T35
+================================================================================
+
+T35.GK.01: Identify a helpful use of technology
+No dependencies
+
+T35.GK.02: Recognize signs of too much screen time
+No dependencies
+
+T35.GK.03: Practice device sharing etiquette
+No dependencies
+
+T35.GK.04: Choose safe sharing in role-play
+No dependencies
+
+================================================================================
+TOPIC: T36
+================================================================================
+
+T36.GK.01: Match community helpers to digital tools
+No dependencies
+
+T36.GK.02: Take turns using a device to complete a task together
+No dependencies
+
+T36.GK.03: Describe what a digital tool helps someone do
+No dependencies
+
+
+================================================================================
+CROSS-TOPIC DEPENDENCY SUMMARY
+================================================================================
+
+Total Grade K dependencies: 0
+Cross-topic dependencies: 0
+Same-topic dependencies: 0
+
+Skills with no dependencies: 97
+Skills with dependencies: 0

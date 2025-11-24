@@ -1,0 +1,250 @@
+Parsing all skills...
+Performing comprehensive dependency analysis...
+
+Generating full report...
+
+========================================================================================================================
+COMPREHENSIVE GRADE K DEPENDENCY ANALYSIS
+========================================================================================================================
+
+Total Grade K Skills: 97
+Total Skills in Database: 1832
+
+ISSUE SUMMARY
+------------------------------------------------------------------------------------------------------------------------
+Total Issues Found: 9
+  - X-2 Rule Violations: 0
+  - Circular Dependencies: 0
+  - Missing Cross-Topic Dependencies: 4
+      * HIGH confidence: 3
+      * MEDIUM confidence: 1
+  - Redundant Transitive Dependencies: 5
+
+
+========================================================================================================================
+MISSING CROSS-TOPIC DEPENDENCIES (HIGH CONFIDENCE)
+========================================================================================================================
+
+1. T06.GK.01 - Order pictures showing a morning routine (event sequence concept)
+   Topic: T06 – Events & Sequences
+   Issue: Orders pictures (sequencing) without T01 dependency
+   Suggested Addition: T01.GK.01 or T01.GK.02
+   Rationale: Ordering pictures is the foundational skill in T01.GK.01-02
+   Current Dependencies: None
+
+2. T26.GK.01 - Identify countable things in a picture
+   Topic: T26 – Data Collection & Logging
+   Issue: Involves counting without counting prerequisite
+   Suggested Addition: T01.GK.08 (Count how many times) or T10.GK.02 (Count items in each group)
+   Rationale: Counting is explicitly mentioned in skill
+   Current Dependencies: T09.GK.01
+
+3. T26.GK.02 - Use tokens to log repeated events
+   Topic: T26 – Data Collection & Logging
+   Issue: About repetition/patterns without pattern prerequisite
+   Suggested Addition: T04.GK.01 or T01.GK.07
+   Rationale: "Repeat" in skill name indicates pattern concept
+   Current Dependencies: T09.GK.01, T26.GK.01
+
+========================================================================================================================
+MISSING CROSS-TOPIC DEPENDENCIES (MEDIUM CONFIDENCE)
+========================================================================================================================
+
+1. T29.GK.02 - Identify letters in text
+   Topic: T29 – Text Data & NLP Foundations
+   Issue: Involves counting without counting prerequisite
+   Suggested Addition: T01.GK.08 (Count how many times) or T10.GK.02 (Count items in each group)
+   Rationale: Counting is explicitly mentioned in skill
+   Current Dependencies: T29.GK.01
+
+========================================================================================================================
+REDUNDANT TRANSITIVE DEPENDENCIES
+========================================================================================================================
+
+1. T02.GK.03 - Use first/next/last to describe a sequence
+   Topic: T02 – Algorithm Diagrams
+   Issue: Direct dependency on T01.GK.01 is redundant (reachable via T02.GK.02)
+   Fix: Consider removing T01.GK.01 as it's already implied by T02.GK.02
+
+2. T02.GK.04 - Fix one picture that is out of order
+   Topic: T02 – Algorithm Diagrams
+   Issue: Direct dependency on T02.GK.02 is redundant (reachable via T02.GK.03)
+   Fix: Consider removing T02.GK.02 as it's already implied by T02.GK.03
+
+3. T24.GK.03 - Give simple instructions to an AI helper
+   Topic: T24 – XO & Generative AI Practices
+   Issue: Direct dependency on T24.GK.01 is redundant (reachable via T24.GK.02)
+   Fix: Consider removing T24.GK.01 as it's already implied by T24.GK.02
+
+4. T26.GK.02 - Use tokens to log repeated events
+   Topic: T26 – Data Collection & Logging
+   Issue: Direct dependency on T09.GK.01 is redundant (reachable via T26.GK.01)
+   Fix: Consider removing T09.GK.01 as it's already implied by T26.GK.01
+
+5. T29.GK.03 - Recognize that text has meaning
+   Topic: T29 – Text Data & NLP Foundations
+   Issue: Direct dependency on T29.GK.01 is redundant (reachable via T29.GK.02)
+   Fix: Consider removing T29.GK.01 as it's already implied by T29.GK.02
+
+========================================================================================================================
+ALL GRADE K SKILLS WITH DEPENDENCIES
+========================================================================================================================
+
+T01: 8 skills
+  T01.GK.01: Put pictures in order for getting ready for bed - 0 deps
+  T01.GK.02: Put pictures in order for coming to class - 0 deps
+  T01.GK.03: Find the first and last pictures - 1 deps
+  T01.GK.04: Pick the pictures that make sense - 1 deps
+  T01.GK.05: Move the picture that's in the wrong place - 1 deps
+  T01.GK.06: What comes next? - 1 deps
+  T01.GK.07: Find the pattern that repeats - 1 deps
+  T01.GK.08: Count how many times - 1 deps
+
+T02: 4 skills
+  T02.GK.01: Recognize picture steps for a task - 1 deps (1 cross-topic: T01.GK.01)
+  T02.GK.02: Order 3–4 pictures to make a story - 1 deps
+  T02.GK.03: Use first/next/last to describe a sequence - 2 deps (1 cross-topic: T01.GK.01)
+  T02.GK.04: Fix one picture that is out of order - 2 deps
+
+T03: 5 skills
+  T03.GK.01: Identify parts that make up a whole - 0 deps
+  T03.GK.02: Match parts to whole objects - 1 deps
+  T03.GK.03: Order 3–4 pictures to show steps in a routine - 1 deps (1 cross-topic: T01.GK.01)
+  T03.GK.04: Choose the missing middle step in a routine - 1 deps
+  T03.GK.05: Describe what each step accomplishes - 1 deps
+
+T04: 4 skills
+  T04.GK.01: Identify a simple repeating pattern - 0 deps
+  T04.GK.02: Extend a repeating pattern by one tile - 1 deps
+  T04.GK.03: Describe a pattern using simple words - 1 deps
+  T04.GK.04: Fix a broken pattern by replacing one tile - 1 deps
+
+T05: 4 skills
+  T05.GK.01: Name who a tool helps - 0 deps
+  T05.GK.02: Match a simple problem to a helpful tool - 1 deps
+  T05.GK.03: Decide which version is easier to use - 1 deps
+  T05.GK.04: Choose a change that makes something easier - 1 deps
+
+T06: 3 skills
+  T06.GK.01: Order pictures showing a morning routine (event sequence concept) - 0 deps
+  T06.GK.02: Match "first" and "next" words to pictures in a sequence - 1 deps
+  T06.GK.03: Predict what happens "after this" in a picture sequence - 1 deps
+
+T08: 2 skills
+  T08.GK.01: Match pictures to "if it rains" rules - 0 deps
+  T08.GK.02: Choose what happens next based on yes/no - 1 deps
+
+T09: 2 skills
+  T09.GK.01: Recognize that a label can hold a number - 1 deps (1 cross-topic: T01.GK.01)
+  T09.GK.02: Identify which label changed after an action - 1 deps
+
+T10: 8 skills
+  T10.GK.01: Sort picture cards into groups - 0 deps
+  T10.GK.02: Count items in each group - 1 deps
+  T10.GK.03: Find which group has more - 1 deps
+  T10.GK.04: Add an item to the right group - 1 deps
+  T10.GK.05: Find the first and last item in a row - 1 deps (1 cross-topic: T01.GK.03)
+  T10.GK.06: Look at a simple picture table - 1 deps
+  T10.GK.07: Match items that go together - 1 deps
+  T10.GK.08: Find all items with a special mark - 1 deps
+
+T13: 3 skills
+  T13.GK.01: Spot a missing or wrong action in an animation - 0 deps
+  T13.GK.02: Retry after noticing something went wrong - 2 deps (1 cross-topic: T01.GK.01)
+  T13.GK.03: Fix a single wrong direction or action in steps - 2 deps (1 cross-topic: T01.GK.03)
+
+T14: 4 skills
+  T14.GK.01: Match controls to character actions - 1 deps (1 cross-topic: T06.GK.01)
+  T14.GK.02: Recognize a score in simple games - 1 deps (1 cross-topic: T09.GK.01)
+  T14.GK.03: Identify when a game starts and ends - 0 deps
+  T14.GK.04: Match rewards to goals - 2 deps
+
+T15: 3 skills
+  T15.GK.01: Sequence story pictures - 1 deps (1 cross-topic: T01.GK.01)
+  T15.GK.02: Match emotions to faces - 0 deps
+  T15.GK.03: Identify speech bubbles - 0 deps
+
+T18: 1 skills
+  T18.GK.01: Explore 3D shapes in the real world - 0 deps
+
+T20: 4 skills
+  T20.GK.01: Picture pattern detective - 1 deps (1 cross-topic: T04.GK.01)
+  T20.GK.02: Order art steps with cards - 1 deps (1 cross-topic: T01.GK.01)
+  T20.GK.03: Continue the pattern trail - 1 deps (1 cross-topic: T04.GK.01)
+  T20.GK.04: Fix the mixed-up art plan (picture-only) - 1 deps (1 cross-topic: T04.GK.01)
+
+T21: 3 skills
+  T21.GK.01: Tell which pictures look like AI made them - 0 deps
+  T21.GK.02: Match the picture to the words that describe it - 1 deps
+  T21.GK.03: Pick the helper that can talk back - 0 deps
+
+T22: 2 skills
+  T22.GK.01: Recognize a talking helper vs a silent toy - 0 deps
+  T22.GK.02: Practice asking a picture helper a friendly question - 1 deps
+
+T23: 3 skills
+  T23.GK.01: Match pictures of sensing - 0 deps
+  T23.GK.02: Point to where a device "looks" or "listens" - 1 deps
+  T23.GK.03: Choose when to uncover or quiet a helper - 1 deps
+
+T24: 3 skills
+  T24.GK.01: Identify AI as a computer helper - 0 deps
+  T24.GK.02: Recognize AI-made vs human-made pictures - 1 deps
+  T24.GK.03: Give simple instructions to an AI helper - 2 deps
+
+T25: 3 skills
+  T25.GK.01: Spot data in everyday objects - 0 deps
+  T25.GK.02: Match quantities to symbols - 1 deps
+  T25.GK.03: Build a two-symbol legend - 1 deps
+
+T26: 3 skills
+  T26.GK.01: Identify countable things in a picture - 1 deps (1 cross-topic: T09.GK.01)
+  T26.GK.02: Use tokens to log repeated events - 2 deps (1 cross-topic: T09.GK.01)
+  T26.GK.03: Capture yes/no answers with smile/frown cards - 1 deps
+
+T27: 3 skills
+  T27.GK.01: Sort objects by a rule and explain it - 1 deps (1 cross-topic: T10.GK.01)
+  T27.GK.02: Compare which group has more - 1 deps
+  T27.GK.03: Read a two-column picture chart - 1 deps
+
+T29: 3 skills
+  T29.GK.01: Recognize text vs pictures - 0 deps
+  T29.GK.02: Identify letters in text - 1 deps
+  T29.GK.03: Recognize that text has meaning - 2 deps
+
+T30: 3 skills
+  T30.GK.01: Identify everyday computing devices - 0 deps
+  T30.GK.02: Match devices to actions - 1 deps
+  T30.GK.03: Recognize input vs output examples - 1 deps
+
+T31: 1 skills
+  T31.GK.01: Recognize devices that connect to the internet (picture-based) - 0 deps
+
+T32: 4 skills
+  T32.GK.01: Spot safe vs unsafe sharing - 0 deps
+  T32.GK.02: Recognize when to ask for help online - 1 deps
+  T32.GK.03: Understand that passwords keep things safe - 1 deps
+  T32.GK.04: Distinguish online vs offline activities - 1 deps
+
+T33: 1 skills
+  T33.GK.01: Recognize that apps can talk to helpers on the internet - 0 deps
+
+T34: 3 skills
+  T34.GK.01: Spot computing tools in daily life - 0 deps
+  T34.GK.02: Match old vs new versions of tech - 0 deps
+  T34.GK.03: Name a person who uses computers in their job - 1 deps
+
+T35: 4 skills
+  T35.GK.01: Identify a helpful use of technology - 0 deps
+  T35.GK.02: Recognize signs of too much screen time - 1 deps (1 cross-topic: T01.GK.01)
+  T35.GK.03: Practice device sharing etiquette - 1 deps (1 cross-topic: T01.GK.01)
+  T35.GK.04: Choose safe sharing in role-play - 1 deps
+
+T36: 3 skills
+  T36.GK.01: Match community helpers to digital tools - 1 deps (1 cross-topic: T01.GK.01)
+  T36.GK.02: Take turns using a device to complete a task together - 1 deps
+  T36.GK.03: Describe what a digital tool helps someone do - 1 deps
+
+
+Topics without Grade K skills (7):
+  T07, T11, T12, T16, T17, T19, T28

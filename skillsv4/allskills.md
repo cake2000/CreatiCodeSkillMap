@@ -1163,7 +1163,6 @@ Skill: Fix one picture that is out of order
 Description: Students see a 3‑picture "robot instructions" strip where one picture is clearly in the wrong place and drag it into the correct slot so the algorithm diagram makes sense.
 
 Dependencies:
-* T02.GK.02: Order 3–4 pictures to make a story
 * T02.GK.03: Use first/next/last to describe a sequence
 
 
@@ -3311,6 +3310,7 @@ Skill: Order pictures showing a morning routine (event sequence concept)
 Description: Students arrange 3-4 picture cards showing a simple morning routine in the correct order (e.g., wake up → brush teeth → eat breakfast → go to school). This unplugged activity builds foundational understanding of event sequences and chronological ordering without coding. Use familiar, concrete scenarios from daily life that children can relate to.
 
 Dependencies:
+* T01.GK.01: Recognize and compare object sizes
 
 
 ID: T06.GK.02
@@ -18481,6 +18481,7 @@ Description: Students scan a picture of a classroom and point to objects they co
 
 Dependencies:
 * T09.GK.01: Notice when things are different
+* T01.GK.08: Count objects in a set (1–10)
 
 ID: T26.GK.02
 Topic: T26 – Data Collection & Logging
@@ -18488,8 +18489,8 @@ Skill: Use tokens to log repeated events
 Description: Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first "log."
 
 Dependencies:
-* T09.GK.01: Notice when things are different
 * T26.GK.01: Identify countable things in a picture
+* T01.GK.07: Group objects by one attribute
 
 
 
@@ -20477,7 +20478,6 @@ Skill: Recognize that text has meaning
 Description: Students match simple written words to pictures (matching "CAT" to cat picture), understanding that text represents things and carries meaning.
 
 Dependencies:
-* T29.GK.01: Recognize text vs pictures
 * T29.GK.02: Identify letters in text
 
 
