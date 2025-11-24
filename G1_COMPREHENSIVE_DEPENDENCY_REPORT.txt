@@ -1,0 +1,795 @@
+COMPREHENSIVE GRADE 1 CROSS-TOPIC DEPENDENCY ANALYSIS
+====================================================================================================
+
+Analysis Date: 2024-11-24
+Total Grade 1 skills analyzed: 112
+Total issues identified: 68
+
+
+====================================================================================================
+INCOMPLETE_GAME_FOUNDATION: 6 ISSUES
+====================================================================================================
+
+1. Skill: T16.G1.01
+   Topic: T16 – User Interfaces
+   Name: Match interface elements to their purpose (unplugged)
+   Description: Given pictures of interface elements (button, slider, text box, picture) and pictures of purposes (click to start, move to change volume, type your name, look at photo), draw lines connecting each ele...
+   Current Dependencies: None
+
+   Missing Dependencies: Events (T6)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T16.G1.02
+   Topic: T16 – User Interfaces
+   Name: Arrange interface elements on a screen (unplugged)
+   Description: Cut out paper shapes representing buttons, labels, and pictures. Arrange them on a paper "screen" to create a simple interface (e.g., game menu with title, start button, and picture)....
+   Current Dependencies: T16.G1.01
+
+   Missing Dependencies: Events (T6)
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T29.G1.01
+   Topic: T29 – Text Data & NLP Foundations
+   Name: Sort words by first letter
+   Description: Students organize word cards alphabetically by first letter (all A words together, all B words together), preparing for dictionary and lookup concepts....
+   Current Dependencies: T29.GK.03
+
+   Missing Dependencies: Events (T6)
+
+----------------------------------------------------------------------------------------------------
+
+4. Skill: T29.G1.02
+   Topic: T29 – Text Data & NLP Foundations
+   Name: Count words in a sentence
+   Description: Given simple sentences written on strips, students count how many words are in each sentence by pointing to each word, distinguishing between letters and words....
+   Current Dependencies: T29.GK.03
+
+   Missing Dependencies: Events (T6), Variables (T9)
+
+----------------------------------------------------------------------------------------------------
+
+5. Skill: T29.G1.03
+   Topic: T29 – Text Data & NLP Foundations
+   Name: Group words by category
+   Description: Students sort word cards into concrete categories: animals, colors, actions, foods. They explain why each word belongs in its group....
+   Current Dependencies: T29.G1.02
+
+   Missing Dependencies: Events (T6)
+
+----------------------------------------------------------------------------------------------------
+
+6. Skill: T29.G1.04
+   Topic: T29 – Text Data & NLP Foundations
+   Name: Identify same words in different sentences
+   Description: Given 2-3 simple sentences, students find and circle words that appear in multiple sentences, building pattern recognition for word matching....
+   Current Dependencies: T29.G1.02
+
+   Missing Dependencies: Events (T6)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_EVENTS: 17 ISSUES
+====================================================================================================
+
+1. Skill: T01.G1.05
+   Topic: T01 – Everyday Algorithms
+   Name: Find the missing step in an algorithm
+   Description: Students see a 4‑step sequence with one blank and choose which picture fills the gap. _Implementation note: Click‑select from options. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._...
+   Current Dependencies: T01.G1.03
+
+   Content Indicators: click
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T04.G1.03
+   Topic: T04 – Algorithm Patterns
+   Name: Find repeated steps in an instruction list
+   Description: Students examine a short list of picture‑based steps (or action cards laid out in a row) and click or highlight the part that repeats (e.g., three identical “move forward” cards in a row)....
+   Current Dependencies: T01.GK.07
+
+   Content Indicators: click
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T08.G1.02
+   Topic: T08 – Conditions & Logic
+   Name: Predict the outcome of an if-then rule
+   Description: Students read a simple "if-then" rule and a starting situation, then predict what happens. For example, Rule: "If the cup is full, stop pouring." Starting: Cup is full. What happens? This multiple-cho...
+   Current Dependencies: T08.G1.01
+
+   Content Indicators: start
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+4. Skill: T09.G1.01
+   Topic: T09 – Variables & Expressions
+   Name: Change a displayed number by clicking a button
+   Description: **Student task:** Click a button to add 1 to a counter on screen. Watch the number go up. Try clicking multiple times. _Implementation note: Interactive counter with visual feedback. CSTA: E1‑PRO‑PF‑0...
+   Current Dependencies: T09.GK.02, T03.G1.01
+
+   Content Indicators: click
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+5. Skill: T12.G1.04
+   Topic: T12 – Organizing Programs
+   Name: Split a long list of steps into two lists
+   Description: Students are given a long mixed list of picture steps for a class event and asked to split them into two shorter lists (e.g., "Before the event" and "During the event," or "Adult jobs" and "Student jo...
+   Current Dependencies: T12.G1.01
+
+   Content Indicators: event
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+6. Skill: T13.G1.01
+   Topic: T13 – Testing, Debugging & Error Handling
+   Name: Identify which step causes a problem and explain why
+   Description: Students look at a set of picture-based steps that, when "played out" as a story, clearly go wrong (e.g., "jump before moving" when the intent is move-then-jump). They select or highlight the specific...
+   Current Dependencies: T01.GK.03
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+7. Skill: T14.G1.01
+   Topic: T14 – 2D Games
+   Name: Identify the player, goal, and obstacles
+   Description: In a labeled picture of a game level (maze, platformer, or board game), students point to and name: (1) the controllable character (marked with an arrow or labeled 'YOU'), (2) the goal object or locat...
+   Current Dependencies: T01.GK.03, T14.GK.03
+
+   Content Indicators: flag
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+8. Skill: T16.G1.01
+   Topic: T16 – User Interfaces
+   Name: Match interface elements to their purpose (unplugged)
+   Description: Given pictures of interface elements (button, slider, text box, picture) and pictures of purposes (click to start, move to change volume, type your name, look at photo), draw lines connecting each ele...
+   Current Dependencies: None
+
+   Content Indicators: click, start
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+9. Skill: T16.G1.02
+   Topic: T16 – User Interfaces
+   Name: Arrange interface elements on a screen (unplugged)
+   Description: Cut out paper shapes representing buttons, labels, and pictures. Arrange them on a paper "screen" to create a simple interface (e.g., game menu with title, start button, and picture)....
+   Current Dependencies: T16.G1.01
+
+   Content Indicators: start
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+10. Skill: T20.G1.04
+   Topic: T20 – Algorithmic Art & Creative Coding
+   Name: Fix a wrong instruction (text-based)
+   Description: Students hear an audio art direction set (with optional text for advanced readers) with one incorrect step (e.g., "draw circle, draw square, draw triangle" when the pattern shows two circles). They id...
+   Current Dependencies: T01.GK.01
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+11. Skill: T24.G1.02
+   Topic: T24 – XO & Generative AI Practices
+   Name: Compare AI answers to expected answers
+   Description: Students ask a simple question (e.g., "What color is the sky?") and compare the AI's answer to what they know. They discuss when AI gives good answers and when it might be wrong....
+   Current Dependencies: T24.GK.01, T24.GK.03
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+12. Skill: T28.G1.02
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Predict what might happen next
+   Description: Students make simple predictions about chance events before they happen (e.g., "I think the spinner will land on red" or "I think we will pull a blue block from the bag"). They compare their predictio...
+   Current Dependencies: T28.GK.03, T01.G1.04
+
+   Content Indicators: event
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+13. Skill: T28.G1.03
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Recognize when games use chance
+   Description: Students identify chance elements in simple games by pointing to parts of the game that involve randomness (dice, spinners, shuffled cards, drawing from a bag). They explain in simple words why these ...
+   Current Dependencies: T28.G1.02, T01.G1.10
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+14. Skill: T31.G1.01
+   Topic: T31 – Internet & Cloud: Grade 1
+   Name: Identify when a device is connected or disconnected (picture-based)
+   Description: Students examine pictures showing connectivity indicators (Wi-Fi symbol, "no connection" icon, loading spinner) and match them to scenarios like "playing an online game" vs "drawing offline."...
+   Current Dependencies: None
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+15. Skill: T32.G1.04
+   Topic: T32 – Cybersecurity & Digital Safety
+   Name: Spot obvious scam pop-ups
+   Description: Students see illustrated pop-ups with clear visual red flags and label them as "real" or "scam." Visual cues include: misspellings highlighted in red circles, urgent warnings shown with red flashing b...
+   Current Dependencies: T32.G1.01
+
+   Content Indicators: flag
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+16. Skill: T35.G1.04
+   Topic: T35 – Impacts & Ethics
+   Name: Identify who to tell when uncomfortable online
+   Description: Students match uncomfortable technology scenarios (mean message, scary image, stranger asking questions) with trusted adults who can help (parent, teacher, librarian)....
+   Current Dependencies: T35.G1.02
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+17. Skill: T36.G1.03
+   Topic: T36 – Careers, Collaboration & Future Paths
+   Name: Show listening behaviors when working on a group tech task
+   Description: Learners role-play or choose actions that show they're listening (eyes on speaker, waiting to talk) during a group technology activity, and explain why teams need good listeners....
+   Current Dependencies: T36.GK.02
+
+   Content Indicators: when
+   FIX: Add T06.GK.03 or T06.G1.01 (Events)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_LISTS: 7 ISSUES
+====================================================================================================
+
+1. Skill: T01.G1.09
+   Topic: T01 – Everyday Algorithms
+   Name: Match an algorithm to its goal
+   Description: Students match 3–4 short picture‑based routines (4–5 steps each) to goal labels, choosing from a list of 5–6 options that include some similar or overlapping goals, requiring careful attention to the ...
+   Current Dependencies: None
+
+   Content Indicators: list
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T04.G1.03
+   Topic: T04 – Algorithm Patterns
+   Name: Find repeated steps in an instruction list
+   Description: Students examine a short list of picture‑based steps (or action cards laid out in a row) and click or highlight the part that repeats (e.g., three identical “move forward” cards in a row)....
+   Current Dependencies: T01.GK.07
+
+   Content Indicators: list
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T04.G1.04
+   Topic: T04 – Algorithm Patterns
+   Name: Match a repeated picture story to a repeated step list
+   Description: Students match a picture story showing repeated actions with a simple list of steps that repeats the same action sequence....
+   Current Dependencies: T04.G1.03
+
+   Content Indicators: list
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+4. Skill: T06.G1.02
+   Topic: T06 – Events & Sequences
+   Name: Identify what triggers an action in a story
+   Description: Students listen to or read a simple story and identify the trigger (event) that causes each action. For example, "The dog barked WHEN the doorbell rang" - students identify "doorbell rang" as the trig...
+   Current Dependencies: T06.G1.01
+
+   Content Indicators: list
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+5. Skill: T12.G1.04
+   Topic: T12 – Organizing Programs
+   Name: Split a long list of steps into two lists
+   Description: Students are given a long mixed list of picture steps for a class event and asked to split them into two shorter lists (e.g., "Before the event" and "During the event," or "Adult jobs" and "Student jo...
+   Current Dependencies: T12.G1.01
+
+   Content Indicators: list
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+6. Skill: T13.G1.02
+   Topic: T13 – Testing, Debugging & Error Handling
+   Name: Fix a sequence error in steps
+   Description: Students reorder picture or word cards in a step list to fix a sequencing error that made a story or game behave strangely (for example, moving "say hello" so it happens after "walk to friend," or mov...
+   Current Dependencies: T01.GK.02
+
+   Content Indicators: list
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+7. Skill: T36.G1.03
+   Topic: T36 – Careers, Collaboration & Future Paths
+   Name: Show listening behaviors when working on a group tech task
+   Description: Learners role-play or choose actions that show they're listening (eyes on speaker, waiting to talk) during a group technology activity, and explain why teams need good listeners....
+   Current Dependencies: T36.GK.02
+
+   Content Indicators: list, group
+   FIX: Add T10.GK.01 or T10.G1.01 (Lists)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_LOOPS: 7 ISSUES
+====================================================================================================
+
+1. Skill: T04.G1.02
+   Topic: T04 – Algorithm Patterns
+   Name: Plan a short repeating animation pattern
+   Description: Students choose a 3‑panel picture pattern (e.g., spin, jump, spin) and arrange action cards to create a matching “dance” plan....
+   Current Dependencies: T04.G1.01
+
+   Content Indicators: repeat
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T04.G1.03
+   Topic: T04 – Algorithm Patterns
+   Name: Find repeated steps in an instruction list
+   Description: Students examine a short list of picture‑based steps (or action cards laid out in a row) and click or highlight the part that repeats (e.g., three identical “move forward” cards in a row)....
+   Current Dependencies: T01.GK.07
+
+   Content Indicators: repeat
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T04.G1.04
+   Topic: T04 – Algorithm Patterns
+   Name: Match a repeated picture story to a repeated step list
+   Description: Students match a picture story showing repeated actions with a simple list of steps that repeats the same action sequence....
+   Current Dependencies: T04.G1.03
+
+   Content Indicators: repeat
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+4. Skill: T09.G1.01
+   Topic: T09 – Variables & Expressions
+   Name: Change a displayed number by clicking a button
+   Description: **Student task:** Click a button to add 1 to a counter on screen. Watch the number go up. Try clicking multiple times. _Implementation note: Interactive counter with visual feedback. CSTA: E1‑PRO‑PF‑0...
+   Current Dependencies: T09.GK.02, T03.G1.01
+
+   Content Indicators: multiple times
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+5. Skill: T13.G1.03
+   Topic: T13 – Testing, Debugging & Error Handling
+   Name: Change a number to fix a repeated action
+   Description: Students modify a number in picture‑based instructions (e.g., change "jump 10 times" to "jump 3 times" so the movement matches a picture, or change a count of claps) to correct unexpected behavior in ...
+   Current Dependencies: T04.GK.02
+
+   Content Indicators: repeat
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+6. Skill: T20.G1.01
+   Topic: T20 – Algorithmic Art & Creative Coding
+   Name: Describe the art rule in words
+   Description: Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language (“two tiny, one big”)....
+   Current Dependencies: T01.GK.01
+
+   Content Indicators: repeat
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+7. Skill: T28.G1.04
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Conduct repeated trials with picture recording
+   Description: Students perform the same chance experiment 10 times (e.g., flip a coin, draw from a bag with replacement) and record each outcome using pictures or color-coded stickers. They count how many times eac...
+   Current Dependencies: T28.G1.01, T26.G1.01
+
+   Content Indicators: repeat, many times
+   FIX: Add T07.K.01 or T07.G1.01 (Loops)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_MOTION: 2 ISSUES
+====================================================================================================
+
+1. Skill: T16.G1.01
+   Topic: T16 – User Interfaces
+   Name: Match interface elements to their purpose (unplugged)
+   Description: Given pictures of interface elements (button, slider, text box, picture) and pictures of purposes (click to start, move to change volume, type your name, look at photo), draw lines connecting each ele...
+   Current Dependencies: None
+
+   Content Indicators: move
+   FIX: Add T14.GK.01 or similar (Motion blocks)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T17.G1.01
+   Topic: T17 – 2D Motion & Physics
+   Name: Identify fast vs slow motion (picture-based)
+   Description: Students watch two sprite animations and identify which sprite moves faster. They compare motion speeds visually and describe motion using "fast" and "slow" vocabulary....
+   Current Dependencies: None
+
+   Content Indicators: move, motion
+   FIX: Add T14.GK.01 or similar (Motion blocks)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_PEN: 13 ISSUES
+====================================================================================================
+
+1. Skill: T16.G1.01
+   Topic: T16 – User Interfaces
+   Name: Match interface elements to their purpose (unplugged)
+   Description: Given pictures of interface elements (button, slider, text box, picture) and pictures of purposes (click to start, move to change volume, type your name, look at photo), draw lines connecting each ele...
+   Current Dependencies: None
+
+   Content Indicators: draw, line
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T20.G1.02
+   Topic: T20 – Algorithmic Art & Creative Coding
+   Name: Match directions to drawings
+   Description: Learners match a simple written/audio direction set (“draw a blue square, then add three yellow dots under it”) to the drawing it would produce....
+   Current Dependencies: T03.GK.02
+
+   Content Indicators: draw
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T20.G1.04
+   Topic: T20 – Algorithmic Art & Creative Coding
+   Name: Fix a wrong instruction (text-based)
+   Description: Students hear an audio art direction set (with optional text for advanced readers) with one incorrect step (e.g., "draw circle, draw square, draw triangle" when the pattern shows two circles). They id...
+   Current Dependencies: T01.GK.01
+
+   Content Indicators: draw
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+4. Skill: T27.G1.01
+   Topic: T27 – Data Analysis & Storytelling
+   Name: Build a pictograph from tallies
+   Description: Students convert tally marks collected in T26 into stacked icons using manipulatives or drawing tools, linking collection to analysis visuals....
+   Current Dependencies: T27.GK.03
+
+   Content Indicators: draw
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+5. Skill: T28.G1.02
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Predict what might happen next
+   Description: Students make simple predictions about chance events before they happen (e.g., "I think the spinner will land on red" or "I think we will pull a blue block from the bag"). They compare their predictio...
+   Current Dependencies: T28.GK.03, T01.G1.04
+
+   Content Indicators: pen
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+6. Skill: T28.G1.03
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Recognize when games use chance
+   Description: Students identify chance elements in simple games by pointing to parts of the game that involve randomness (dice, spinners, shuffled cards, drawing from a bag). They explain in simple words why these ...
+   Current Dependencies: T28.G1.02, T01.G1.10
+
+   Content Indicators: draw
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+7. Skill: T28.G1.04
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Conduct repeated trials with picture recording
+   Description: Students perform the same chance experiment 10 times (e.g., flip a coin, draw from a bag with replacement) and record each outcome using pictures or color-coded stickers. They count how many times eac...
+   Current Dependencies: T28.G1.01, T26.G1.01
+
+   Content Indicators: draw
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+8. Skill: T30.G1.02
+   Topic: T30 – Devices & Hardware Systems
+   Name: Describe hardware vs software
+   Description: Students sort items (keyboard, game app, robot arm, drawing program) into hardware and software bins....
+   Current Dependencies: T30.G1.01
+
+   Content Indicators: draw
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+9. Skill: T31.G1.01
+   Topic: T31 – Internet & Cloud: Grade 1
+   Name: Identify when a device is connected or disconnected (picture-based)
+   Description: Students examine pictures showing connectivity indicators (Wi-Fi symbol, "no connection" icon, loading spinner) and match them to scenarios like "playing an online game" vs "drawing offline."...
+   Current Dependencies: None
+
+   Content Indicators: draw, line
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+10. Skill: T32.G1.03
+   Topic: T32 – Cybersecurity & Digital Safety
+   Name: Explain why passwords must be secret
+   Description: Students use picture matching with speech bubbles to understand password secrecy. They see illustrated scenarios showing "I should share my password" vs "I should keep my password secret" and select t...
+   Current Dependencies: T32.G1.01, T32.GK.03
+
+   Content Indicators: pen
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+11. Skill: T32.G1.04
+   Topic: T32 – Cybersecurity & Digital Safety
+   Name: Spot obvious scam pop-ups
+   Description: Students see illustrated pop-ups with clear visual red flags and label them as "real" or "scam." Visual cues include: misspellings highlighted in red circles, urgent warnings shown with red flashing b...
+   Current Dependencies: T32.G1.01
+
+   Content Indicators: pen
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+12. Skill: T33.G1.01
+   Topic: T33 – Connected Services
+   Name: Sort apps into online helpers and offline tools
+   Description: Students sort picture cards of apps into two groups: those that need internet helpers (maps, search, video chat) and those that work alone (camera, clock, basic games). They explain their sorting choi...
+   Current Dependencies: T33.GK.01
+
+   Content Indicators: line
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+13. Skill: T35.G1.04
+   Topic: T35 – Impacts & Ethics
+   Name: Identify who to tell when uncomfortable online
+   Description: Students match uncomfortable technology scenarios (mean message, scary image, stranger asking questions) with trusted adults who can help (parent, teacher, librarian)....
+   Current Dependencies: T35.G1.02
+
+   Content Indicators: line
+   FIX: Add T21.GK.01 or T21.G1.01 (Pen)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_VARIABLES: 11 ISSUES
+====================================================================================================
+
+1. Skill: T02.G1.01
+   Topic: T02 – Algorithm Diagrams
+   Name: Make a 3–4 step picture algorithm
+   Description: Students are given a simple task (e.g., "how to feed the class pet") and assemble 3–4 pictures into a numbered strip with arrows, treating it as clear picture instructions a robot could follow....
+   Current Dependencies: T02.GK.02
+
+   Content Indicators: number
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T05.G1.01
+   Topic: T05 – Human‑Centered Design
+   Name: Identify what a character needs in a story
+   Description: Students read/hear a short scenario and select what the character's real need is (remembering something, finding something, understanding a schedule)....
+   Current Dependencies: T05.GK.02
+
+   Content Indicators: remember
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T07.G1.01
+   Topic: T07 – Loops
+   Name: Count repetitions in a pattern
+   Description: Students count how many times a unit repeats in a given pattern and select the correct number. For example, shown a visual sequence of "jump-clap, jump-clap, jump-clap" they count 3 repetitions. Prese...
+   Current Dependencies: None
+
+   Content Indicators: count, number
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+4. Skill: T10.G1.02
+   Topic: T10 – Lists & Tables
+   Name: Make a picture tally chart
+   Description: Students count items in categories and represent the count using tally marks or pictures in a simple chart (e.g., count and tally how many students like each snack)....
+   Current Dependencies: T10.GK.02, T10.GK.06
+
+   Content Indicators: count
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+5. Skill: T10.G1.05
+   Topic: T10 – Lists & Tables
+   Name: Complete a pattern in a table
+   Description: Students identify a pattern in rows or columns of a table and fill in missing cells (e.g., alternating colors, increasing numbers shown as dots)....
+   Current Dependencies: T10.G1.03, T01.GK.07
+
+   Content Indicators: number
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+6. Skill: T13.G1.03
+   Topic: T13 – Testing, Debugging & Error Handling
+   Name: Change a number to fix a repeated action
+   Description: Students modify a number in picture‑based instructions (e.g., change "jump 10 times" to "jump 3 times" so the movement matches a picture, or change a count of claps) to correct unexpected behavior in ...
+   Current Dependencies: T04.GK.02
+
+   Content Indicators: count, number
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+7. Skill: T21.G1.02
+   Topic: T21 – AI Media
+   Name: Decide if AI words are safe to share
+   Description: Students sort prompt cards into "safe to say to a computer" (friendly animal, favorite color, type of weather) vs "not safe" (home address, full name, phone number). This builds privacy awareness and ...
+   Current Dependencies: T21.GK.03
+
+   Content Indicators: number
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+8. Skill: T25.G1.02
+   Topic: T25 – Data Representation
+   Name: Arrange data in picture rows and columns
+   Description: Learners arrange four objects into a simple table (rows = choices, columns = counts) using pictures instead of numerals, showing that tables are structured representations....
+   Current Dependencies: T25.G1.01
+
+   Content Indicators: count
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+9. Skill: T25.G1.03
+   Topic: T25 – Data Representation
+   Name: Describe the same fact in words and numbers
+   Description: Students practice saying "There are five apples" and also representing it with the numeral "5" and the word "five," highlighting multi-format representation....
+   Current Dependencies: T25.G1.01
+
+   Content Indicators: number
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+10. Skill: T28.G1.04
+   Topic: T28 – Chance & Simulations: K–8 Skill List
+   Name: Conduct repeated trials with picture recording
+   Description: Students perform the same chance experiment 10 times (e.g., flip a coin, draw from a bag with replacement) and record each outcome using pictures or color-coded stickers. They count how many times eac...
+   Current Dependencies: T28.G1.01, T26.G1.01
+
+   Content Indicators: count
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+11. Skill: T29.G1.02
+   Topic: T29 – Text Data & NLP Foundations
+   Name: Count words in a sentence
+   Description: Given simple sentences written on strips, students count how many words are in each sentence by pointing to each word, distinguishing between letters and words....
+   Current Dependencies: T29.GK.03
+
+   Content Indicators: count
+   FIX: Add T09.GK.02 or T09.G1.01 (Variables)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+MISSING_VISUAL_FOUNDATION: 2 ISSUES
+====================================================================================================
+
+1. Skill: T20.G1.02
+   Topic: T20 – Algorithmic Art & Creative Coding
+   Name: Match directions to drawings
+   Description: Learners match a simple written/audio direction set (“draw a blue square, then add three yellow dots under it”) to the drawing it would produce....
+   Current Dependencies: T03.GK.02
+
+   Missing Dependency: Pen (T21)
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T20.G1.04
+   Topic: T20 – Algorithmic Art & Creative Coding
+   Name: Fix a wrong instruction (text-based)
+   Description: Students hear an audio art direction set (with optional text for advanced readers) with one incorrect step (e.g., "draw circle, draw square, draw triangle" when the pattern shows two circles). They id...
+   Current Dependencies: T01.GK.01
+
+   Missing Dependency: Pen (T21)
+
+----------------------------------------------------------------------------------------------------
+
+
+====================================================================================================
+TRANSITIVE_REDUNDANT: 3 ISSUES
+====================================================================================================
+
+1. Skill: T10.G1.01
+   Topic: T10 – Lists & Tables
+   Name: Sort items using two rules
+   Description: Students sort 6-8 items into groups using two attributes (e.g., "big red shapes" vs "small blue shapes"), understanding that items can belong to groups based on multiple properties....
+   Current Dependencies: T10.GK.01, T10.GK.04
+
+   Redundant Dependency: T10.GK.01
+   Keep Instead: T10.GK.04
+   Reason: T10.GK.01 is direct dependency of T10.GK.04
+
+----------------------------------------------------------------------------------------------------
+
+2. Skill: T24.G1.02
+   Topic: T24 – XO & Generative AI Practices
+   Name: Compare AI answers to expected answers
+   Description: Students ask a simple question (e.g., "What color is the sky?") and compare the AI's answer to what they know. They discuss when AI gives good answers and when it might be wrong....
+   Current Dependencies: T24.GK.01, T24.GK.03
+
+   Redundant Dependency: T24.GK.01
+   Keep Instead: T24.GK.03
+   Reason: T24.GK.01 is direct dependency of T24.GK.03
+
+----------------------------------------------------------------------------------------------------
+
+3. Skill: T24.G1.03
+   Topic: T24 – XO & Generative AI Practices
+   Name: Understand AI needs clear instructions
+   Description: Students see examples of unclear instructions and their confusing results. They practice making instructions clearer by adding details like color, size, or action....
+   Current Dependencies: T24.GK.03, T24.G1.02
+
+   Redundant Dependency: T24.GK.03
+   Keep Instead: T24.G1.02
+   Reason: T24.GK.03 is direct dependency of T24.G1.02
+
+----------------------------------------------------------------------------------------------------
+

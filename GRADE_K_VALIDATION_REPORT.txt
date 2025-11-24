@@ -1,0 +1,107 @@
+================================================================================
+GRADE K SKILLS VALIDATION REPORT
+================================================================================
+
+Parsing allskills.md...
+Total skills parsed: 1832
+Total Grade K skills: 97
+
+--------------------------------------------------------------------------------
+CHECK 1: X-2 RULE (Grade K skills only depend on Grade K skills)
+--------------------------------------------------------------------------------
+STATUS: PASS
+All Grade K skills only depend on Grade K skills.
+
+--------------------------------------------------------------------------------
+CHECK 2: CIRCULAR DEPENDENCIES
+--------------------------------------------------------------------------------
+STATUS: PASS
+No circular dependencies found.
+
+--------------------------------------------------------------------------------
+CHECK 3: INVALID REFERENCES
+--------------------------------------------------------------------------------
+STATUS: PASS
+All dependency IDs are valid.
+
+--------------------------------------------------------------------------------
+CHECK 4: APPLIED CHANGES VERIFICATION
+--------------------------------------------------------------------------------
+STATUS: PASS
+All 6 fixes were correctly applied:
+  ✓ T14.GK.01 should have T06.GK.01
+  ✓ T14.GK.02 should have T09.GK.01
+  ✓ T13.GK.02 should have T01.GK.01
+  ✓ T26.GK.01 should have T09.GK.01
+  ✓ T26.GK.02 should have T09.GK.01
+  ✓ T27.GK.01 should have T10.GK.01
+
+--------------------------------------------------------------------------------
+CHECK 5: GRADE-LEVEL COHERENCE (Sample)
+--------------------------------------------------------------------------------
+T01.GK.01: Put pictures in order for getting ready for bed
+  Dependencies: None
+T09.GK.01: Recognize that a label can hold a number
+  Dependencies: T01.GK.01
+T10.GK.01: Sort picture cards into groups
+  Dependencies: None
+T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+  Dependencies: None
+
+STATUS: PASS
+Sample skills are properly defined.
+
+================================================================================
+FINAL VALIDATION STATUS
+================================================================================
+RESULT: PASS
+
+All 97 Grade K skills validated successfully.
+All dependency fixes have been correctly applied.
+No violations found.
+
+GRADE K SKILLS SUMMARY
+================================================================================
+Total Grade K Skills: 97
+
+Skills with dependencies: 70
+Skills without dependencies (foundation skills): 27
+
+TOPICS WITH GRADE K SKILLS
+================================================================================
+Total topics: 29
+  T01: 8 skills
+  T02: 4 skills
+  T03: 5 skills
+  T04: 4 skills
+  T05: 4 skills
+  T06: 3 skills
+  T08: 2 skills
+  T09: 2 skills
+  T10: 8 skills
+  T13: 3 skills
+  T14: 4 skills
+  T15: 3 skills
+  T18: 1 skills
+  T20: 4 skills
+  T21: 3 skills
+  T22: 2 skills
+  T23: 3 skills
+  T24: 3 skills
+  T25: 3 skills
+  T26: 3 skills
+  T27: 3 skills
+  T29: 3 skills
+  T30: 3 skills
+  T31: 1 skills
+  T32: 4 skills
+  T33: 1 skills
+  T34: 3 skills
+  T35: 4 skills
+  T36: 3 skills
+
+CROSS-GRADE DEPENDENCY CHECK
+================================================================================
+PASS: No cross-grade dependencies found
+All Grade K skills only depend on other Grade K skills
+

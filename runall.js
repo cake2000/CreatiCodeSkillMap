@@ -65,8 +65,8 @@ async function runAllScripts() {
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   // Number of iterations for each phase
-  const TOPIC_ITERATIONS = 1; // 3 iterations as requested
-  const GRADE_ITERATIONS = 3; // 3 iterations for grade-level checking
+  const TOPIC_ITERATIONS = 0; // 3 iterations as requested
+  const GRADE_ITERATIONS = 1; // 3 iterations for grade-level checking
 
   console.log("===========================================");
   console.log("Starting Two-Phase Optimization Strategy");
@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 25) continue;
+      // if ( iteration == 0 && i < 25) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -257,7 +257,7 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
       }
 
       const gradePrompt = `## Introduction
-We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on.
+We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on. Our goal is not only build solid foundations in coding concepts but also empower students to create amazing projects using CreatiCode's unique features, and along the way develop problem solving skills that will serve them for life.
 
 Read 00-START-HERE.md and spec_v2_updated.md to understand the whole project, and read the key references like CSTA standard draft, AI priorities, and creaticode introduction in the root folder.
 
@@ -331,7 +331,7 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
 
           // Check for API errors
           const outputLower = output.toLowerCase();
-          if (outputLower.includes("api error") || outputLower.includes("usage limit")) {
+          if (1 || outputLower.includes("api error") || outputLower.includes("usage limit")) {
             console.log(`\n⚠️  API rate limit hit for grade ${grade}`);
             console.log(`⏰ Waiting 3 minutes before retrying...`);
             await waitWithCountdown(3);

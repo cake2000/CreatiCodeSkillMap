@@ -1,0 +1,123 @@
+PHASE 2: Grade 3 Dependency Fixes - Examples
+
+=================================================================
+EXAMPLE 1: Invalid Dependency Fixed
+=================================================================
+
+Skill: T14.G3.06 - Switch to game mode
+Topic: T14 (Games)
+
+BEFORE:
+Dependencies:
+* T14.G3.05: Detect when sprite is clicked
+* T10.G3.01: Loop through and process each item in a list   <-- INVALID (doesn't exist)
+
+AFTER:
+Dependencies:
+* T14.G3.05: Detect when sprite is clicked
+* T09.G3.01.01: Create a new variable with a descriptive name  <-- FIXED
+* T07.G3.01: Use a counted repeat loop                         <-- ADDED
+
+Why: T10.G3.01 does not exist. Replaced with correct variable skill T09.G3.01.01
+
+=================================================================
+EXAMPLE 2: Cross-Topic Dependencies Added (Games)
+=================================================================
+
+Skill: T14.G3.02 - Keep sprite on screen
+Topic: T14 (Games)
+
+BEFORE:
+Dependencies:
+* T14.G3.01.02: Move sprite in 4 directions with arrow keys
+* T08.G3.01: Use a simple if in a script
+
+AFTER:
+Dependencies:
+* T14.G3.01.02: Move sprite in 4 directions with arrow keys
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.01: Create a new variable with a descriptive name  <-- ADDED
+
+Why: Skill uses if-statements with x/y positions, requires variable understanding
+
+=================================================================
+EXAMPLE 3: Cross-Topic Dependencies Added (Data Viz)
+=================================================================
+
+Skill: T20.G3.01 - Create a simple bar chart
+Topic: T20 (Data Visualization)
+
+BEFORE:
+Dependencies:
+* T20.G2.01: Read and interpret a picture-based bar chart
+
+AFTER:
+Dependencies:
+* T20.G2.01: Read and interpret a picture-based bar chart
+* T08.G3.01: Use a counted repeat loop  <-- ADDED
+
+Why: Creating charts requires looping through data points
+
+=================================================================
+EXAMPLE 4: Cross-Topic Dependencies Added (AI)
+=================================================================
+
+Skill: T25.G3.02.01 - Train a simple classifier with 2-3 categories
+Topic: T25 (AI Concepts)
+
+BEFORE:
+Dependencies:
+* T25.G3.01.01: Recognize that ML models learn from examples
+
+AFTER:
+Dependencies:
+* T25.G3.01.01: Recognize that ML models learn from examples
+* T09.G3.01.01: Create a new variable with a descriptive name  <-- ADDED
+* T10.G3.01.01: Create a numeric variable                      <-- ADDED
+
+Why: Training classifiers requires understanding variables for tracking data
+
+=================================================================
+EXAMPLE 5: Invalid Dependency Removed (No Replacement Needed)
+=================================================================
+
+Skill: T18.G3.03 - Initialize a 3D scene with a specific environment
+Topic: T18 (Simulation)
+
+BEFORE:
+Dependencies:
+* T18.G2.03: Create a basic 3D scene
+* T09.G3.01: Create and use a numeric variable  <-- INVALID (doesn't exist)
+
+AFTER:
+Dependencies:
+* T18.G2.03: Create a basic 3D scene
+
+Why: T09.G3.01 doesn't exist, and this skill doesn't actually require variables
+
+=================================================================
+SUMMARY OF CHANGES
+=================================================================
+
+Total changes: 90 (87 additions + 3 removals)
+
+By change type:
+- Invalid dependencies removed: 3
+- Conditional dependencies added (T09): 38
+- Variable dependencies added (T10): 24
+- Loop dependencies added (T08): 18
+- Event dependencies added (T07): 7
+
+By topic category:
+- Application topics (T14-T24): 45 additions
+- AI/ML topics (T25-T30): 30 additions
+- Advanced topics (T31-T36): 12 additions
+- Programming core topics (T06-T13): 0 additions (as expected)
+- Foundational topics (T01-T05): 0 additions (as expected)
+
+All changes follow conservative rules:
+✓ Only add with strong keyword evidence
+✓ Only remove if truly invalid
+✓ Ensure proper grade progression (X-2 rule)
+✓ No circular dependencies
+✓ No skill deletions

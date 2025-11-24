@@ -1,0 +1,47 @@
+COMPREHENSIVE GRADE 1 DEPENDENCY ANALYSIS
+================================================================================
+
+Total Grade 1 skills: 112
+Total issues found: 4
+
+
+MISSING_CROSS_TOPIC: 1 issues
+--------------------------------------------------------------------------------
+
+Skill: T20.G1.01
+  Topic: T20 – Algorithmic Art & Creative Coding
+  Name: Describe the art rule in words
+  Current deps: T01.GK.01
+Problem: Repeated actions should depend on Loops (T7)
+Suggestion: Add T07.K.01 or T07.G1.01
+
+
+TRANSITIVE_REDUNDANT: 3 issues
+--------------------------------------------------------------------------------
+
+Skill: T10.G1.01
+  Topic: T10 – Lists & Tables
+  Name: Sort items using two rules
+  Current deps: T10.GK.01, T10.GK.04
+Problem: T10.GK.01 is transitive through T10.GK.04
+Redundant: T10.GK.01
+Suggestion: Consider removing T10.GK.01 if it is truly redundant
+
+
+Skill: T24.G1.02
+  Topic: T24 – XO & Generative AI Practices
+  Name: Compare AI answers to expected answers
+  Current deps: T24.GK.01, T24.GK.03
+Problem: T24.GK.01 is transitive through T24.GK.03
+Redundant: T24.GK.01
+Suggestion: Consider removing T24.GK.01 if it is truly redundant
+
+
+Skill: T24.G1.03
+  Topic: T24 – XO & Generative AI Practices
+  Name: Understand AI needs clear instructions
+  Current deps: T24.GK.03, T24.G1.02
+Problem: T24.GK.03 is transitive through T24.G1.02
+Redundant: T24.GK.03
+Suggestion: Consider removing T24.GK.03 if it is truly redundant
+

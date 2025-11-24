@@ -1,0 +1,4287 @@
+# Grade 5 Comprehensive Dependency Analysis Report
+
+**Analysis Date:** 2024-11-24
+
+**Source File:** /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md
+
+## Executive Summary
+
+- **Total Grade 5 Skills Analyzed:** 393
+- **Total Dependency Changes Recommended:** 106
+- **X-2 Rule Violations:** 0
+- **Missing Cross-Topic Dependencies:** 106
+- **Circular Dependencies Detected:** 1238
+- **Potentially Redundant Dependencies:** 152
+
+## Changes by Topic
+
+### Summary Table
+
+| Topic | Topic Name | Skills Affected | Changes |
+|-------|------------|-----------------|----------|
+| 01 | Everyday Algorithms | 3 | 13 |
+| 02 | Algorithm Diagrams | 2 | 4 |
+| 03 | Problem Decomposition | 3 | 3 |
+| 04 | Algorithm Patterns | 2 | 2 |
+| 05 | Human‑Centered Design | 2 | 2 |
+| 06 | Events & Sequences: G3–8 Skill List | 4 | 9 |
+| 07 | Loops | 4 | 8 |
+| 08 | Conditions & Logic | 3 | 3 |
+| 09 | Variables & Expressions | 1 | 2 |
+| 10 | Lists & Tables | 3 | 3 |
+| 11 | Functions & Procedures | 10 | 20 |
+| 13 | Testing, Debugging & Error Handling | 3 | 5 |
+| 14 | 2D Games | 1 | 2 |
+| 15 | Stories & Animation | 2 | 2 |
+| 18 | 3D Worlds & Games | 1 | 2 |
+| 20 | Algorithmic Art & Creative Coding | 1 | 2 |
+| 21 | AI Media | 2 | 5 |
+| 22 | Chatbots & Prompting | 1 | 3 |
+| 23 | AI Perception | 2 | 2 |
+| 24 | XO & Generative AI Practices | 2 | 3 |
+| 25 | Data Representation | 2 | 3 |
+| 28 | Chance & Simulations: G2–8 Skill List | 1 | 1 |
+| 30 | Devices & Hardware Systems | 4 | 5 |
+| 32 | Cybersecurity & Digital Safety | 1 | 1 |
+| 35 | Impacts & Ethics | 1 | 1 |
+
+### Detailed Changes
+
+#### Topic 1: Everyday Algorithms
+
+**[T01.G5.02] Convert a flowchart with one conditional into code**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T01.G5.09] Explain why an algorithm is correct using loops and variables**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T01.G5.10] Rewrite a long algorithm using loops**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+#### Topic 2: Algorithm Diagrams
+
+**[T02.G5.01] Trace a script with nested loops using debug print**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T02.G5.02] Build a script with nested loops for a pattern**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+#### Topic 3: Problem Decomposition
+
+**[T03.G5.03] Identify task dependencies in a project plan**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T03.G5.04] Break vague tasks into specific, measurable steps**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T03.G5.06] Identify modules in example projects**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 4: Algorithm Patterns
+
+**[T04.G5.03] Apply the collect pattern to gather specific items from a collection**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T04.G5.06] Identify changeable vs fixed parts in a template**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 5: Human‑Centered Design
+
+**[T05.G5.03] Identify variables and initial values for a simulation**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T05.G5.05] Identify accessibility features needed in a design**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 6: Events & Sequences: G3–8 Skill List
+
+**[T06.G5.01] Identify standard event patterns in a small game**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T06.G5.07] Use a "when condition becomes true" event for state changes**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T06.G5.08] Send a broadcast with a parameter value**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T06.G5.10] Use condition events to trigger reactive updates**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 7: Loops
+
+**[T07.G5.01] Simulate repeated experiments with a loop**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T07.G5.02] Build a list with a loop**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T07.G5.03] Use loops to compute aggregates**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T07.G5.04] Nested loops for advanced patterns or tilings**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+#### Topic 8: Conditions & Logic
+
+**[T08.G5.03] Combine three or more conditions**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T08.G5.05] Use inline if-then-else expressions to compute conditional values**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T08.G5.06] Use condition-triggered events to respond to state changes**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 9: Variables & Expressions
+
+**[T09.G5.06] Trace a counter through loop iterations to predict final value**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+#### Topic 10: Lists & Tables
+
+**[T10.G5.09] Delete rows matching a condition**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T10.G5.11] Add a column at a specific position**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T10.G5.13] Insert a row at a specific position**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 11: Functions & Procedures
+
+**[T11.G5.01] Decompose a problem into logical custom block boundaries**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.02] Use custom blocks with parameters in a larger project**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.03] Match parameter names to argument values when calling custom blocks**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.04] Choose between adding a parameter vs. creating a separate block**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.06] Define a custom block with two or more parameters**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.07] Decide whether a custom block should be a command or reporter**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.08] Define a custom reporter block that returns a value**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.09] Debug a script with incorrect custom block calls**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.10] Use comments to document custom block purpose**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T11.G5.11] Create custom blocks with mixed text labels and parameters**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+#### Topic 13: Testing, Debugging & Error Handling
+
+**[T13.G5.05] Debug complex two-level nested structures**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T13.G5.06] Debug deeply nested structures (three+ levels)**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+**[T13.G5.09] Use breakpoint blocks to stop execution at specific points**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 14: 2D Games
+
+**[T14.G5.01] Configure gravity and weight parameters**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+#### Topic 15: Stories & Animation
+
+**[T15.G5.02] Broadcast specific actions**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T15.G5.08] Conditional endings**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 18: 3D Worlds & Games
+
+**[T18.G5.04] Use nested loops to create 3D grids of objects**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+#### Topic 20: Algorithmic Art & Creative Coding
+
+**[T20.G5.04] Create fractal-like nested patterns**
+
+- **ADD** dependency: `T10.G3.05`
+  - Rationale: Loop structures from Lists & Tables
+- **ADD** dependency: `T10.G4.18`
+  - Rationale: Loop structures from Lists & Tables
+
+#### Topic 21: AI Media
+
+**[T21.G5.03] Experiment with different voice types**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T21.G5.07] Understand ChatGPT parameters (temperature and length)**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+#### Topic 22: Chatbots & Prompting
+
+**[T22.G5.05] Identify ChatGPT block parameters in starter code**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+#### Topic 23: AI Perception
+
+**[T23.G5.04] Identify when AI sensing might be unfair**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T23.G5.05] Identify what data hand, body, and face detection provides**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 24: XO & Generative AI Practices
+
+**[T24.G5.07] Adjust ChatGPT creativity with temperature parameter**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T24.G5.12] Understand classification and pattern recognition concepts**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 25: Data Representation
+
+**[T25.G5.01] Define game state variables with initial values**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T25.G5.02] Identify and catalog data quality issues**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 28: Chance & Simulations: G2–8 Skill List
+
+**[T28.G5.02] Randomly assign participants to conditions**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 30: Devices & Hardware Systems
+
+**[T30.G5.01] Identify device requirements for CreatiCode AI features**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T30.G5.02] Plan safe device-handling procedures for group work**
+
+- **ADD** dependency: `T12.G3.05`
+  - Rationale: Procedures from Organizing Programs
+- **ADD** dependency: `T12.G4.05`
+  - Rationale: Procedures from Organizing Programs
+
+**[T30.G5.03] Explain how different sensors collect data**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+**[T30.G5.06] Select appropriate sensors for different CreatiCode project types**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 32: Cybersecurity & Digital Safety
+
+**[T32.G5.04] Review and identify PII in AI project data**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+#### Topic 35: Impacts & Ethics
+
+**[T35.G5.03] Analyze AI's differential impacts on workers and communities**
+
+- **ADD** dependency: `T09.G3.03`
+  - Rationale: Conditional logic from Variables & Expressions
+
+## Circular Dependencies
+
+The following circular dependencies require manual review:
+
+- **[T01.G5.02]** Convert a flowchart with one conditional into code
+  - Cycle: `T01.G5.02 -> T01.G5.02`
+
+- **[T01.G5.02]** Convert a flowchart with one conditional into code
+  - Cycle: `T01.G5.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T01.G5.02]** Convert pseudocode with variables into code
+  - Cycle: `T01.G5.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T01.G5.03]** Convert a short program into pseudocode
+  - Cycle: `T01.G5.03 -> T01.G5.02 -> T01.G5.02`
+
+- **[T01.G5.03]** Convert a short program into pseudocode
+  - Cycle: `T01.G5.03 -> T01.G5.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T01.G5.03]** Convert a short program into pseudocode
+  - Cycle: `T01.G5.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T01.G5.04]** Trace a "find the largest" algorithm
+  - Cycle: `T01.G5.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T01.G5.05]** Determine whether an algorithm is correct for all inputs
+  - Cycle: `T01.G5.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T01.G5.06]** Compare two algorithms for step counts (efficiency)
+  - Cycle: `T01.G5.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T01.G5.07]** Debug an algorithm that mis‑handles a simple edge case
+  - Cycle: `T01.G5.07 -> T01.G5.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T01.G5.08]** Add checks to handle edge cases
+  - Cycle: `T01.G5.08 -> T01.G5.07 -> T01.G5.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T01.G5.09]** Explain why an algorithm is correct using loops and variables
+  - Cycle: `T01.G5.09 -> T01.G5.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T01.G5.11]** Choose appropriate test cases for an algorithm
+  - Cycle: `T01.G5.11 -> T01.G5.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T01.G5.12]** Distinguish between algorithm correctness and efficiency
+  - Cycle: `T01.G5.12 -> T01.G4.12 -> T01.G4.05 -> T01.G4.05`
+
+- **[T01.G5.12]** Distinguish between algorithm correctness and efficiency
+  - Cycle: `T01.G5.12 -> T01.G5.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T03.G5.01]** Create a feature list and subtask breakdown
+  - Cycle: `T03.G5.01 -> T03.G4.01 -> T03.G3.06 -> T03.G3.05 -> T03.G3.05`
+
+- **[T03.G5.01]** Create a feature list and subtask breakdown
+  - Cycle: `T03.G5.01 -> T03.G4.01 -> T03.G3.06 -> T09.G3.02 -> T09.G3.02`
+
+- **[T03.G5.01]** Create a feature list and subtask breakdown
+  - Cycle: `T03.G5.01 -> T03.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T03.G5.01]** Create a feature list and subtask breakdown
+  - Cycle: `T03.G5.01 -> T03.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T03.G5.02]** Draw a high‑level project map
+  - Cycle: `T03.G5.02 -> T03.G4.01 -> T03.G3.06 -> T03.G3.05 -> T03.G3.05`
+
+- **[T03.G5.02]** Draw a high‑level project map
+  - Cycle: `T03.G5.02 -> T03.G4.01 -> T03.G3.06 -> T09.G3.02 -> T09.G3.02`
+
+- **[T03.G5.02]** Draw a high‑level project map
+  - Cycle: `T03.G5.02 -> T03.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T03.G5.02]** Draw a high‑level project map
+  - Cycle: `T03.G5.02 -> T03.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T03.G5.03]** Identify task dependencies in a project plan
+  - Cycle: `T03.G5.03 -> T03.G4.01 -> T03.G3.06 -> T03.G3.05 -> T03.G3.05`
+
+- **[T03.G5.03]** Identify task dependencies in a project plan
+  - Cycle: `T03.G5.03 -> T03.G4.01 -> T03.G3.06 -> T09.G3.02 -> T09.G3.02`
+
+- **[T03.G5.03]** Identify task dependencies in a project plan
+  - Cycle: `T03.G5.03 -> T03.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T03.G5.03]** Identify task dependencies in a project plan
+  - Cycle: `T03.G5.03 -> T03.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T03.G5.03]** Identify task dependencies in a project plan
+  - Cycle: `T03.G5.03 -> T03.G4.05 -> T03.G4.04 -> T03.G4.03 -> T03.G3.07 -> T03.G3.02 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T03.G5.03]** Identify task dependencies in a project plan
+  - Cycle: `T03.G5.03 -> T03.G4.05 -> T03.G4.04 -> T03.G4.03 -> T15.G3.01 -> T15.G3.01`
+
+- **[T03.G5.04]** Break vague tasks into specific, measurable steps
+  - Cycle: `T03.G5.04 -> T03.G4.01 -> T03.G3.06 -> T03.G3.05 -> T03.G3.05`
+
+- **[T03.G5.04]** Break vague tasks into specific, measurable steps
+  - Cycle: `T03.G5.04 -> T03.G4.01 -> T03.G3.06 -> T09.G3.02 -> T09.G3.02`
+
+- **[T03.G5.04]** Break vague tasks into specific, measurable steps
+  - Cycle: `T03.G5.04 -> T03.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T03.G5.04]** Break vague tasks into specific, measurable steps
+  - Cycle: `T03.G5.04 -> T03.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T03.G5.04]** Break vague tasks into specific, measurable steps
+  - Cycle: `T03.G5.04 -> T03.G4.06 -> T03.G4.05 -> T03.G4.04 -> T03.G4.03 -> T03.G3.07 -> T03.G3.02 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T03.G5.04]** Break vague tasks into specific, measurable steps
+  - Cycle: `T03.G5.04 -> T03.G4.06 -> T03.G4.05 -> T03.G4.04 -> T03.G4.03 -> T15.G3.01 -> T15.G3.01`
+
+- **[T03.G5.05]** Compare two project plans for the same idea
+  - Cycle: `T03.G5.05 -> T03.G4.05 -> T03.G4.04 -> T03.G4.03 -> T03.G3.07 -> T03.G3.02 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T03.G5.05]** Compare two project plans for the same idea
+  - Cycle: `T03.G5.05 -> T03.G4.05 -> T03.G4.04 -> T03.G4.03 -> T15.G3.01 -> T15.G3.01`
+
+- **[T03.G5.05]** Compare two project plans for the same idea
+  - Cycle: `T03.G5.05 -> T03.G4.01 -> T03.G3.06 -> T03.G3.05 -> T03.G3.05`
+
+- **[T03.G5.05]** Compare two project plans for the same idea
+  - Cycle: `T03.G5.05 -> T03.G4.01 -> T03.G3.06 -> T09.G3.02 -> T09.G3.02`
+
+- **[T03.G5.05]** Compare two project plans for the same idea
+  - Cycle: `T03.G5.05 -> T03.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T03.G5.05]** Compare two project plans for the same idea
+  - Cycle: `T03.G5.05 -> T03.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T03.G5.06]** Identify modules in example projects
+  - Cycle: `T03.G5.06 -> T03.G5.01 -> T03.G4.01 -> T03.G3.06 -> T03.G3.05 -> T03.G3.05`
+
+- **[T03.G5.06]** Identify modules in example projects
+  - Cycle: `T03.G5.06 -> T03.G5.01 -> T03.G4.01 -> T03.G3.06 -> T09.G3.02 -> T09.G3.02`
+
+- **[T03.G5.06]** Identify modules in example projects
+  - Cycle: `T03.G5.06 -> T03.G5.01 -> T03.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T03.G5.06]** Identify modules in example projects
+  - Cycle: `T03.G5.06 -> T03.G5.01 -> T03.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T04.G5.01]** Recognize a counter update pattern
+  - Cycle: `T04.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T04.G5.02]** Recognize an accumulator (sum/concatenate) pattern
+  - Cycle: `T04.G5.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T04.G5.02]** Compare counter and accumulator patterns and choose appropriately
+  - Cycle: `T04.G5.02 -> T04.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T04.G5.02]** Compare counter and accumulator patterns and choose appropriately
+  - Cycle: `T04.G5.02 -> T04.G5.02`
+
+- **[T04.G5.03]** Recognize a linear search pattern
+  - Cycle: `T04.G5.03 -> T04.G4.09 -> T04.G4.01 -> T04.G4.01`
+
+- **[T04.G5.03]** Recognize a linear search pattern
+  - Cycle: `T04.G5.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T04.G5.03]** Apply the collect pattern to gather specific items from a collection
+  - Cycle: `T04.G5.03 -> T04.G5.03`
+
+- **[T04.G5.04]** Recognize a filter‑and‑collect pattern
+  - Cycle: `T04.G5.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T04.G5.05]** Compare solutions that use a pattern vs those that don't
+  - Cycle: `T04.G5.05 -> T04.G4.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T04.G5.06]** Identify changeable vs fixed parts in a template
+  - Cycle: `T04.G5.06 -> T04.G3.04 -> T04.G3.04`
+
+- **[T04.G5.06]** Identify changeable vs fixed parts in a template
+  - Cycle: `T04.G5.06 -> T04.G4.03 -> T04.G3.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T04.G5.06]** Identify changeable vs fixed parts in a template
+  - Cycle: `T04.G5.06 -> T04.G4.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T04.G5.07]** Apply a counter pattern to solve a counting problem
+  - Cycle: `T04.G5.07 -> T04.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T05.G5.02]** Create two design alternatives for the same user need
+  - Cycle: `T05.G5.02 -> T05.G5.02`
+
+- **[T06.G5.01]** Identify standard event patterns in a small game
+  - Cycle: `T06.G5.01 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.01]** Identify standard event patterns in a small game
+  - Cycle: `T06.G5.01 -> T06.G4.07 -> T06.G4.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.01]** Identify standard event patterns in a small game
+  - Cycle: `T06.G5.01 -> T06.G4.09 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.01]** Identify standard event patterns in a small game
+  - Cycle: `T06.G5.01 -> T06.G4.09 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.02]** Add a new event‑triggered behavior to an existing game
+  - Cycle: `T06.G5.02 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.02]** Add a new event‑triggered behavior to an existing game
+  - Cycle: `T06.G5.02 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.02]** Add a new event‑triggered behavior to an existing game
+  - Cycle: `T06.G5.02 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.02]** Add a new event‑triggered behavior to an existing game
+  - Cycle: `T06.G5.02 -> T06.G4.07 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.03]** Design a simple broadcast sequence for level start/end
+  - Cycle: `T06.G5.03 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.03]** Design a simple broadcast sequence for level start/end
+  - Cycle: `T06.G5.03 -> T06.G4.07 -> T06.G4.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.04]** Trace event and broadcast order for a scenario
+  - Cycle: `T06.G5.04 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.04]** Trace event and broadcast order for a scenario
+  - Cycle: `T06.G5.04 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.04]** Trace event and broadcast order for a scenario
+  - Cycle: `T06.G5.04 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.04]** Trace event and broadcast order for a scenario
+  - Cycle: `T06.G5.04 -> T06.G4.07 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.05]** Find and fix conflicting event scripts
+  - Cycle: `T06.G5.05 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.05]** Find and fix conflicting event scripts
+  - Cycle: `T06.G5.05 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.05]** Find and fix conflicting event scripts
+  - Cycle: `T06.G5.05 -> T06.G4.06 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.05]** Find and fix conflicting event scripts
+  - Cycle: `T06.G5.05 -> T06.G4.07 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.06]** Add explanatory comments to individual event handlers
+  - Cycle: `T06.G5.06 -> T06.G5.01 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.06]** Add explanatory comments to individual event handlers
+  - Cycle: `T06.G5.06 -> T06.G5.01 -> T06.G4.07 -> T06.G4.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.06]** Add explanatory comments to individual event handlers
+  - Cycle: `T06.G5.06 -> T06.G5.01 -> T06.G4.09 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.06]** Add explanatory comments to individual event handlers
+  - Cycle: `T06.G5.06 -> T06.G5.01 -> T06.G4.09 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.07]** Use a "when condition becomes true" event for state changes
+  - Cycle: `T06.G5.07 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.07]** Use a "when condition becomes true" event for state changes
+  - Cycle: `T06.G5.07 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.07]** Use a "when condition becomes true" event for state changes
+  - Cycle: `T06.G5.07 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.07]** Use a "when condition becomes true" event for state changes
+  - Cycle: `T06.G5.07 -> T06.G5.01 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.07]** Use a "when condition becomes true" event for state changes
+  - Cycle: `T06.G5.07 -> T09.G4.01 -> T09.G4.01`
+
+- **[T06.G5.08]** Send a broadcast with a parameter value
+  - Cycle: `T06.G5.08 -> T06.G5.03 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.08]** Send a broadcast with a parameter value
+  - Cycle: `T06.G5.08 -> T06.G5.03 -> T06.G4.07 -> T06.G4.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.08]** Send a broadcast with a parameter value
+  - Cycle: `T06.G5.08 -> T09.G4.01 -> T09.G4.01`
+
+- **[T06.G5.08]** Receive a broadcast with parameter and store it in a variable
+  - Cycle: `T06.G5.08 -> T06.G5.08`
+
+- **[T06.G5.08]** Use 'broadcast with parameter and wait' for sequenced data passing
+  - Cycle: `T06.G5.08 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.09]** Use backdrop switch events for scene transitions
+  - Cycle: `T06.G5.09 -> T06.G5.03 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.09]** Use backdrop switch events for scene transitions
+  - Cycle: `T06.G5.09 -> T06.G5.03 -> T06.G4.07 -> T06.G4.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.10]** Use condition events to trigger reactive updates
+  - Cycle: `T06.G5.10 -> T06.G5.07 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T06.G5.10]** Use condition events to trigger reactive updates
+  - Cycle: `T06.G5.10 -> T06.G5.07 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T06.G5.10]** Use condition events to trigger reactive updates
+  - Cycle: `T06.G5.10 -> T06.G5.07 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T06.G5.10]** Use condition events to trigger reactive updates
+  - Cycle: `T06.G5.10 -> T06.G5.07 -> T06.G5.01 -> T06.G4.04 -> T06.G4.04`
+
+- **[T06.G5.10]** Use condition events to trigger reactive updates
+  - Cycle: `T06.G5.10 -> T06.G5.07 -> T09.G4.01 -> T09.G4.01`
+
+- **[T06.G5.10]** Use 2D physics collision events for realistic interactions
+  - Cycle: `T06.G5.10 -> T06.G4.08 -> T06.G4.08`
+
+- **[T07.G5.01]** Simulate repeated experiments with a loop
+  - Cycle: `T07.G5.01 -> T07.G4.03 -> T07.G4.03`
+
+- **[T07.G5.01]** Simulate repeated experiments with a loop
+  - Cycle: `T07.G5.01 -> T07.G4.06 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T07.G5.01]** Simulate repeated experiments with a loop
+  - Cycle: `T07.G5.01 -> T07.G4.06 -> T07.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T07.G5.02]** Build a list with a loop
+  - Cycle: `T07.G5.02 -> T07.G4.03 -> T07.G4.03`
+
+- **[T07.G5.02]** Build a list with a loop
+  - Cycle: `T07.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T07.G5.03]** Use loops to compute aggregates
+  - Cycle: `T07.G5.03 -> T07.G4.03 -> T07.G4.03`
+
+- **[T07.G5.03]** Use loops to compute aggregates
+  - Cycle: `T07.G5.03 -> T07.G4.06 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T07.G5.03]** Use loops to compute aggregates
+  - Cycle: `T07.G5.03 -> T07.G4.06 -> T07.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T07.G5.04]** Nested loops for advanced patterns or tilings
+  - Cycle: `T07.G5.04 -> T07.G4.05 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T07.G5.04]** Nested loops for advanced patterns or tilings
+  - Cycle: `T07.G5.04 -> T07.G4.05 -> T07.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T07.G5.04]** Nested loops for advanced patterns or tilings
+  - Cycle: `T07.G5.04 -> T07.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T07.G5.04]** Nested loops for advanced patterns or tilings
+  - Cycle: `T07.G5.04 -> T07.G4.07 -> T07.G4.03 -> T07.G4.03`
+
+- **[T08.G5.00]** Draw decision tree flowchart
+  - Cycle: `T08.G5.00 -> T08.G4.05 -> T08.G4.05`
+
+- **[T08.G5.00]** Draw decision tree flowchart
+  - Cycle: `T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T08.G5.00]** Draw decision tree flowchart
+  - Cycle: `T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G5.00 -> T08.G4.05 -> T08.G4.05`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.01`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G4.06 -> T08.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T08.G5.01]** Design multi-branch decision logic
+  - Cycle: `T08.G5.01 -> T08.G4.06 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T08.G5.03]** Combine three or more conditions
+  - Cycle: `T08.G5.03 -> T08.G4.05 -> T08.G4.05`
+
+- **[T08.G5.03]** Combine three or more conditions
+  - Cycle: `T08.G5.03 -> T08.G4.08 -> T08.G4.01 -> T08.G4.01`
+
+- **[T08.G5.03]** Combine three or more conditions
+  - Cycle: `T08.G5.03 -> T08.G4.08 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T08.G5.03]** Combine three or more conditions
+  - Cycle: `T08.G5.03 -> T08.G4.08 -> T08.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T08.G5.03]** Combine three or more conditions
+  - Cycle: `T08.G5.03 -> T08.G4.08 -> T08.G4.03 -> T08.G4.03`
+
+- **[T08.G5.03]** Combine three or more conditions
+  - Cycle: `T08.G5.03 -> T08.G4.08 -> T08.G4.03 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G5.00 -> T08.G4.05 -> T08.G4.05`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.01`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G4.06 -> T08.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.01 -> T08.G4.06 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T08.G5.04]** Trace complex decision logic
+  - Cycle: `T08.G5.04 -> T08.G5.03 -> T08.G4.08 -> T08.G4.03 -> T08.G4.03`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G5.00 -> T08.G4.05 -> T08.G4.05`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.01`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G4.06 -> T08.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T08.G5.05]** Use inline if-then-else expressions to compute conditional values
+  - Cycle: `T08.G5.05 -> T08.G5.01 -> T08.G4.06 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G5.00 -> T08.G4.05 -> T08.G4.05`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.01`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G4.06 -> T08.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G5.01 -> T08.G4.06 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T08.G4.07 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T08.G5.06]** Use condition-triggered events to respond to state changes
+  - Cycle: `T08.G5.06 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.01]** Use multiple variables together in a single expression
+  - Cycle: `T09.G5.01 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.01]** Use multiple variables together in a single expression
+  - Cycle: `T09.G5.01 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.01]** Use multiple variables together in a single expression
+  - Cycle: `T09.G5.01 -> T09.G4.09 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T09.G5.02]** Create and use string variables
+  - Cycle: `T09.G5.02 -> T09.G4.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.02]** Create and use string variables
+  - Cycle: `T09.G5.02 -> T09.G4.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.02]** Create and use boolean variables with true/false values
+  - Cycle: `T09.G5.02 -> T09.G4.07 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.02]** Create and use boolean variables with true/false values
+  - Cycle: `T09.G5.02 -> T09.G4.07 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.03]** Join strings using concatenation
+  - Cycle: `T09.G5.03 -> T09.G5.02 -> T09.G4.07 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.03]** Join strings using concatenation
+  - Cycle: `T09.G5.03 -> T09.G5.02 -> T09.G4.07 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.03]** Use multi-input join with separator
+  - Cycle: `T09.G5.03 -> T09.G5.03`
+
+- **[T09.G5.04]** Use variables as settings to control program behavior
+  - Cycle: `T09.G5.04 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.04]** Use variables as settings to control program behavior
+  - Cycle: `T09.G5.04 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.04]** Use variables as settings to control program behavior
+  - Cycle: `T09.G5.04 -> T09.G4.09 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T09.G5.05]** Use the accumulator pattern to compute running totals
+  - Cycle: `T09.G5.05 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T09.G5.05]** Use the accumulator pattern to compute running totals
+  - Cycle: `T09.G5.05 -> T09.G4.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.05]** Use the accumulator pattern to compute running totals
+  - Cycle: `T09.G5.05 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.06]** Trace a counter through loop iterations to predict final value
+  - Cycle: `T09.G5.06 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T09.G5.06]** Trace a counter through loop iterations to predict final value
+  - Cycle: `T09.G5.06 -> T09.G4.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.07]** Trace code with multiple interacting variables
+  - Cycle: `T09.G5.07 -> T09.G5.01 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.07]** Trace code with multiple interacting variables
+  - Cycle: `T09.G5.07 -> T09.G5.01 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T09.G5.07]** Trace code with multiple interacting variables
+  - Cycle: `T09.G5.07 -> T09.G5.01 -> T09.G4.09 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T09.G5.08]** Track high score using variable comparison
+  - Cycle: `T09.G5.08 -> T09.G4.06 -> T09.G4.06`
+
+- **[T09.G5.08]** Track high score using variable comparison
+  - Cycle: `T09.G5.08 -> T09.G5.05 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T09.G5.08]** Track high score using variable comparison
+  - Cycle: `T09.G5.08 -> T09.G5.05 -> T09.G4.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T09.G5.08]** Track high score using variable comparison
+  - Cycle: `T09.G5.08 -> T09.G5.05 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T10.G5.01]** Understand table structure (rows, columns, cells)
+  - Cycle: `T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.02]** Create a table and add columns
+  - Cycle: `T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.03]** Add rows of data to a table
+  - Cycle: `T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.04]** Read a cell value from a table
+  - Cycle: `T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.05]** Update a cell value in a table
+  - Cycle: `T10.G5.05 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.06]** Get the number of rows in a table
+  - Cycle: `T10.G5.06 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.06]** Find which row contains a value
+  - Cycle: `T10.G5.06 -> T10.G5.06`
+
+- **[T10.G5.06]** Find which row contains a value
+  - Cycle: `T10.G5.06 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.06]** Find which row contains a value
+  - Cycle: `T10.G5.06 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T10.G5.07]** Loop through table rows to compute aggregates
+  - Cycle: `T10.G5.07 -> T10.G5.06 -> T10.G5.06`
+
+- **[T10.G5.07]** Loop through table rows to compute aggregates
+  - Cycle: `T10.G5.07 -> T10.G5.06 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.07]** Loop through table rows to compute aggregates
+  - Cycle: `T10.G5.07 -> T10.G5.06 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T10.G5.07]** Loop through table rows to compute aggregates
+  - Cycle: `T10.G5.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T10.G5.08]** Use built-in table aggregate blocks
+  - Cycle: `T10.G5.08 -> T10.G5.07 -> T10.G5.06 -> T10.G5.06`
+
+- **[T10.G5.08]** Use built-in table aggregate blocks
+  - Cycle: `T10.G5.08 -> T10.G5.07 -> T10.G5.06 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.08]** Use built-in table aggregate blocks
+  - Cycle: `T10.G5.08 -> T10.G5.07 -> T10.G5.06 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T10.G5.08]** Use built-in table aggregate blocks
+  - Cycle: `T10.G5.08 -> T10.G5.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T10.G5.08]** Use built-in table aggregate blocks
+  - Cycle: `T10.G5.08 -> T10.G4.06 -> T10.G4.06`
+
+- **[T10.G5.09]** Delete a single row by index
+  - Cycle: `T10.G5.09 -> T10.G5.06 -> T10.G5.06`
+
+- **[T10.G5.09]** Delete a single row by index
+  - Cycle: `T10.G5.09 -> T10.G5.06 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.09]** Delete a single row by index
+  - Cycle: `T10.G5.09 -> T10.G5.06 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T10.G5.09]** Delete rows matching a condition
+  - Cycle: `T10.G5.09 -> T10.G5.09`
+
+- **[T10.G5.10]** Convert between lists and tables
+  - Cycle: `T10.G5.10 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.11]** Add a column at a specific position
+  - Cycle: `T10.G5.11 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.11]** Delete a single column
+  - Cycle: `T10.G5.11 -> T10.G5.11`
+
+- **[T10.G5.11]** Delete a single column
+  - Cycle: `T10.G5.11 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.12]** Copy list data to table column
+  - Cycle: `T10.G5.12 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.13]** Insert a row at a specific position
+  - Cycle: `T10.G5.13 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.14]** Replace an entire row in a table
+  - Cycle: `T10.G5.14 -> T10.G5.05 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.15]** Get an entire row as a text string
+  - Cycle: `T10.G5.15 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.15]** Get an entire row as a text string
+  - Cycle: `T10.G5.15 -> T10.G4.12 -> T09.G4.01 -> T09.G4.01`
+
+- **[T10.G5.16]** Find a row by partial match
+  - Cycle: `T10.G5.16 -> T10.G5.06 -> T10.G5.06`
+
+- **[T10.G5.16]** Find a row by partial match
+  - Cycle: `T10.G5.16 -> T10.G5.06 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.16]** Find a row by partial match
+  - Cycle: `T10.G5.16 -> T10.G5.06 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T10.G5.16]** Find a row by partial match
+  - Cycle: `T10.G5.16 -> T10.G4.19 -> T09.G4.01 -> T09.G4.01`
+
+- **[T10.G5.17]** Increment or decrement a table cell value
+  - Cycle: `T10.G5.17 -> T10.G5.05 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.17]** Increment or decrement a table cell value
+  - Cycle: `T10.G5.17 -> T10.G3.09 -> T10.G3.04 -> T10.G3.04`
+
+- **[T10.G5.17]** Increment or decrement a table cell value
+  - Cycle: `T10.G5.17 -> T10.G3.09 -> T09.G3.01 -> T09.G3.01`
+
+- **[T10.G5.18]** Show and hide table monitors
+  - Cycle: `T10.G5.18 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T10.G5.18]** Show and hide table monitors
+  - Cycle: `T10.G5.18 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.01]** Decompose a problem into logical custom block boundaries
+  - Cycle: `T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.01]** Decompose a problem into logical custom block boundaries
+  - Cycle: `T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.01]** Decompose a problem into logical custom block boundaries
+  - Cycle: `T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.01]** Decompose a problem into logical custom block boundaries
+  - Cycle: `T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.01]** Decompose a problem into logical custom block boundaries
+  - Cycle: `T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.02]** Use custom blocks with parameters in a larger project
+  - Cycle: `T11.G5.02 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.02]** Use custom blocks with parameters in a larger project
+  - Cycle: `T11.G5.02 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.02]** Use custom blocks with parameters in a larger project
+  - Cycle: `T11.G5.02 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.02]** Use custom blocks with parameters in a larger project
+  - Cycle: `T11.G5.02 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.02]** Use custom blocks with parameters in a larger project
+  - Cycle: `T11.G5.02 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.03]** Match parameter names to argument values when calling custom blocks
+  - Cycle: `T11.G5.03 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.03]** Match parameter names to argument values when calling custom blocks
+  - Cycle: `T11.G5.03 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.03]** Match parameter names to argument values when calling custom blocks
+  - Cycle: `T11.G5.03 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.03]** Match parameter names to argument values when calling custom blocks
+  - Cycle: `T11.G5.03 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.03]** Match parameter names to argument values when calling custom blocks
+  - Cycle: `T11.G5.03 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.04]** Choose between adding a parameter vs. creating a separate block
+  - Cycle: `T11.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.04]** Choose between adding a parameter vs. creating a separate block
+  - Cycle: `T11.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.04]** Choose between adding a parameter vs. creating a separate block
+  - Cycle: `T11.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.04]** Choose between adding a parameter vs. creating a separate block
+  - Cycle: `T11.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.04]** Choose between adding a parameter vs. creating a separate block
+  - Cycle: `T11.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.05]** Analyze a modular program structure
+  - Cycle: `T11.G5.05 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.05]** Analyze a modular program structure
+  - Cycle: `T11.G5.05 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.05]** Analyze a modular program structure
+  - Cycle: `T11.G5.05 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.05]** Analyze a modular program structure
+  - Cycle: `T11.G5.05 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.05]** Analyze a modular program structure
+  - Cycle: `T11.G5.05 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.06]** Define a custom block with two or more parameters
+  - Cycle: `T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.06]** Define a custom block with two or more parameters
+  - Cycle: `T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.06]** Define a custom block with two or more parameters
+  - Cycle: `T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.06]** Define a custom block with two or more parameters
+  - Cycle: `T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.06]** Define a custom block with two or more parameters
+  - Cycle: `T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.07]** Decide whether a custom block should be a command or reporter
+  - Cycle: `T11.G5.07 -> T11.G4.02 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.07]** Decide whether a custom block should be a command or reporter
+  - Cycle: `T11.G5.07 -> T11.G4.02 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.07]** Decide whether a custom block should be a command or reporter
+  - Cycle: `T11.G5.07 -> T11.G4.02 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.07]** Decide whether a custom block should be a command or reporter
+  - Cycle: `T11.G5.07 -> T11.G4.02 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.07]** Decide whether a custom block should be a command or reporter
+  - Cycle: `T11.G5.07 -> T11.G4.02 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.08]** Define a custom reporter block that returns a value
+  - Cycle: `T11.G5.08 -> T11.G4.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.08]** Define a custom reporter block that returns a value
+  - Cycle: `T11.G5.08 -> T11.G4.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.08]** Define a custom reporter block that returns a value
+  - Cycle: `T11.G5.08 -> T11.G4.03 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.08]** Define a custom reporter block that returns a value
+  - Cycle: `T11.G5.08 -> T11.G4.03 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.08]** Define a custom reporter block that returns a value
+  - Cycle: `T11.G5.08 -> T11.G4.03 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.08]** Define a custom reporter block that returns a value
+  - Cycle: `T11.G5.08 -> T11.G4.03 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T11.G5.09]** Debug a script with incorrect custom block calls
+  - Cycle: `T11.G5.09 -> T11.G4.05 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.09]** Debug a script with incorrect custom block calls
+  - Cycle: `T11.G5.09 -> T11.G4.05 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.09]** Debug a script with incorrect custom block calls
+  - Cycle: `T11.G5.09 -> T11.G4.05 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.09]** Debug a script with incorrect custom block calls
+  - Cycle: `T11.G5.09 -> T11.G4.05 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.09]** Debug a script with incorrect custom block calls
+  - Cycle: `T11.G5.09 -> T11.G4.05 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - Cycle: `T11.G5.10 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - Cycle: `T11.G5.10 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - Cycle: `T11.G5.10 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - Cycle: `T11.G5.10 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - Cycle: `T11.G5.10 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - Cycle: `T11.G5.10 -> T11.G5.08 -> T11.G4.03 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T11.G5.11]** Create custom blocks with mixed text labels and parameters
+  - Cycle: `T11.G5.11 -> T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T11.G5.11]** Create custom blocks with mixed text labels and parameters
+  - Cycle: `T11.G5.11 -> T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T11.G5.11]** Create custom blocks with mixed text labels and parameters
+  - Cycle: `T11.G5.11 -> T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T11.G5.11]** Create custom blocks with mixed text labels and parameters
+  - Cycle: `T11.G5.11 -> T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T11.G5.11]** Create custom blocks with mixed text labels and parameters
+  - Cycle: `T11.G5.11 -> T11.G5.06 -> T11.G4.07 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T11.G5.11]** Create custom blocks with mixed text labels and parameters
+  - Cycle: `T11.G5.11 -> T11.G5.10 -> T11.G5.08 -> T11.G4.03 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T12.G5.01]** Write a project description explaining what the program does
+  - Cycle: `T12.G5.01 -> T12.G4.01 -> T12.G3.02 -> T09.G3.02 -> T09.G3.02`
+
+- **[T12.G5.01]** Write a project description explaining what the program does
+  - Cycle: `T12.G5.01 -> T12.G4.01 -> T12.G3.03 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T12.G5.01]** Write a project description explaining what the program does
+  - Cycle: `T12.G5.01 -> T12.G4.01 -> T12.G3.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T12.G5.01]** Write a project description explaining what the program does
+  - Cycle: `T12.G5.01 -> T12.G4.01 -> T12.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T12.G5.01]** Write a project description explaining what the program does
+  - Cycle: `T12.G5.01 -> T12.G4.01 -> T12.G3.04 -> T10.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T12.G5.01]** Write a project description explaining what the program does
+  - Cycle: `T12.G5.01 -> T12.G4.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T12.G5.02]** Add inline comments explaining how code works and why choices were made
+  - Cycle: `T12.G5.02 -> T12.G4.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T12.G5.02]** Add inline comments explaining how code works and why choices were made
+  - Cycle: `T12.G5.02 -> T12.G4.04 -> T12.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T12.G5.02]** Add inline comments explaining how code works and why choices were made
+  - Cycle: `T12.G5.02 -> T12.G4.04 -> T12.G3.04 -> T10.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T12.G5.03]** Organize a project with 3+ features into labeled sections or scripts
+  - Cycle: `T12.G5.03 -> T12.G4.01 -> T12.G3.02 -> T09.G3.02 -> T09.G3.02`
+
+- **[T12.G5.03]** Organize a project with 3+ features into labeled sections or scripts
+  - Cycle: `T12.G5.03 -> T12.G4.01 -> T12.G3.03 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T12.G5.03]** Organize a project with 3+ features into labeled sections or scripts
+  - Cycle: `T12.G5.03 -> T12.G4.01 -> T12.G3.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T12.G5.03]** Organize a project with 3+ features into labeled sections or scripts
+  - Cycle: `T12.G5.03 -> T12.G4.01 -> T12.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T12.G5.03]** Organize a project with 3+ features into labeled sections or scripts
+  - Cycle: `T12.G5.03 -> T12.G4.01 -> T12.G3.04 -> T10.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T12.G5.04]** Review another student's code and suggest at least 2 organizational improvements
+  - Cycle: `T12.G5.04 -> T12.G4.02 -> T12.G3.05 -> T12.G3.03 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T12.G5.04]** Review another student's code and suggest at least 2 organizational improvements
+  - Cycle: `T12.G5.04 -> T12.G4.02 -> T12.G3.05 -> T12.G3.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T12.G5.04]** Review another student's code and suggest at least 2 organizational improvements
+  - Cycle: `T12.G5.04 -> T12.G4.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T12.G5.04]** Review another student's code and suggest at least 2 organizational improvements
+  - Cycle: `T12.G5.04 -> T12.G4.04 -> T12.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T12.G5.04]** Review another student's code and suggest at least 2 organizational improvements
+  - Cycle: `T12.G5.04 -> T12.G4.04 -> T12.G3.04 -> T10.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T12.G5.05]** Use return values in custom blocks
+  - Cycle: `T12.G5.05 -> T12.G4.05 -> T12.G3.05 -> T12.G3.03 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T12.G5.05]** Use return values in custom blocks
+  - Cycle: `T12.G5.05 -> T12.G4.05 -> T12.G3.05 -> T12.G3.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T12.G5.05]** Create custom blocks with natural language-style signatures
+  - Cycle: `T12.G5.05 -> T12.G5.05`
+
+- **[T13.G5.01]** Debug programs using advanced tracing and logging
+  - Cycle: `T13.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.01]** Debug programs using advanced tracing and logging
+  - Cycle: `T13.G5.01 -> T13.G4.08 -> T13.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.02]** Add input validation to handle invalid entries
+  - Cycle: `T13.G5.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.02]** Add input validation to handle invalid entries
+  - Cycle: `T13.G5.02 -> T13.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.03]** Create and follow a comprehensive test plan with multiple input types
+  - Cycle: `T13.G5.03 -> T13.G4.05 -> T13.G4.05`
+
+- **[T13.G5.04]** Make a fragile program more robust with defensive improvements
+  - Cycle: `T13.G5.04 -> T13.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.04]** Make a fragile program more robust with defensive improvements
+  - Cycle: `T13.G5.04 -> T13.G5.02 -> T13.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.05]** Debug complex two-level nested structures
+  - Cycle: `T13.G5.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.06]** Debug deeply nested structures (three+ levels)
+  - Cycle: `T13.G5.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.07]** Read and interpret error indicators
+  - Cycle: `T13.G5.07 -> T13.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.07]** Read and interpret error indicators
+  - Cycle: `T13.G5.07 -> T13.G5.01 -> T13.G4.08 -> T13.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.08]** Debug a program with limited changes allowed
+  - Cycle: `T13.G5.08 -> T13.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.08]** Debug a program with limited changes allowed
+  - Cycle: `T13.G5.08 -> T13.G5.01 -> T13.G4.08 -> T13.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.09]** Use breakpoint blocks to stop execution at specific points
+  - Cycle: `T13.G5.09 -> T13.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.09]** Use breakpoint blocks to stop execution at specific points
+  - Cycle: `T13.G5.09 -> T13.G5.01 -> T13.G4.08 -> T13.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T13.G5.10]** Interpret console output and error messages
+  - Cycle: `T13.G5.10 -> T13.G5.07 -> T13.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T13.G5.10]** Interpret console output and error messages
+  - Cycle: `T13.G5.10 -> T13.G5.07 -> T13.G5.01 -> T13.G4.08 -> T13.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.01]** Understand velocity variables
+  - Cycle: `T14.G5.01 -> T14.G3.11 -> T14.G3.01 -> T14.G3.01`
+
+- **[T14.G5.01]** Understand velocity variables
+  - Cycle: `T14.G5.01 -> T14.G3.11 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.01]** Apply gravity with velocity
+  - Cycle: `T14.G5.01 -> T14.G5.01`
+
+- **[T14.G5.01]** Apply gravity with velocity
+  - Cycle: `T14.G5.01 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.01]** Apply gravity with velocity
+  - Cycle: `T14.G5.01 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.01]** Apply gravity with velocity
+  - Cycle: `T14.G5.01 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.01]** Configure gravity and weight parameters
+  - Cycle: `T14.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.02]** Control jump timing with ground detection
+  - Cycle: `T14.G5.02 -> T14.G5.01 -> T14.G5.01`
+
+- **[T14.G5.02]** Control jump timing with ground detection
+  - Cycle: `T14.G5.02 -> T14.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.03]** Fix ground collisions by nudging up
+  - Cycle: `T14.G5.03 -> T14.G5.01 -> T14.G5.01`
+
+- **[T14.G5.03]** Fix ground collisions by nudging up
+  - Cycle: `T14.G5.03 -> T14.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.03]** Fix ground collisions by nudging up
+  - Cycle: `T14.G5.03 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.03]** Fix ground collisions by nudging up
+  - Cycle: `T14.G5.03 -> T07.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.03]** Fix ground collisions by snapping to surface
+  - Cycle: `T14.G5.03 -> T14.G5.03`
+
+- **[T14.G5.03]** Fix ground collisions by snapping to surface
+  - Cycle: `T14.G5.03 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.03]** Fix ground collisions by snapping to surface
+  - Cycle: `T14.G5.03 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.03]** Fix ground collisions by snapping to surface
+  - Cycle: `T14.G5.03 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.04]** Script viewport pans
+  - Cycle: `T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.04]** Script viewport pans
+  - Cycle: `T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.04]** Script viewport pans
+  - Cycle: `T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.04]** Script viewport pans
+  - Cycle: `T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.04]** Script viewport pans
+  - Cycle: `T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.04]** Script viewport pans
+  - Cycle: `T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T10.G3.01 -> T10.G3.01`
+
+- **[T14.G5.05]** Lock viewport to the player
+  - Cycle: `T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.05]** Lock viewport to the player
+  - Cycle: `T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.05]** Lock viewport to the player
+  - Cycle: `T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.05]** Lock viewport to the player
+  - Cycle: `T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.05]** Lock viewport to the player
+  - Cycle: `T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.05]** Lock viewport to the player
+  - Cycle: `T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T10.G3.01 -> T10.G3.01`
+
+- **[T14.G5.06]** Pin HUD to the screen
+  - Cycle: `T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.06]** Pin HUD to the screen
+  - Cycle: `T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.06]** Pin HUD to the screen
+  - Cycle: `T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.06]** Pin HUD to the screen
+  - Cycle: `T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.06]** Pin HUD to the screen
+  - Cycle: `T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.06]** Pin HUD to the screen
+  - Cycle: `T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T10.G3.01 -> T10.G3.01`
+
+- **[T14.G5.07]** Spawn near the viewport
+  - Cycle: `T14.G5.07 -> T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.07]** Spawn near the viewport
+  - Cycle: `T14.G5.07 -> T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.07]** Spawn near the viewport
+  - Cycle: `T14.G5.07 -> T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T14.G3.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.07]** Spawn near the viewport
+  - Cycle: `T14.G5.07 -> T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G3.07 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.07]** Spawn near the viewport
+  - Cycle: `T14.G5.07 -> T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.07]** Spawn near the viewport
+  - Cycle: `T14.G5.07 -> T14.G5.06 -> T14.G5.05 -> T14.G5.04 -> T14.G4.10 -> T14.G4.09 -> T14.G4.06 -> T14.G3.10 -> T10.G3.01 -> T10.G3.01`
+
+- **[T14.G5.08]** Timed waves
+  - Cycle: `T14.G5.08 -> T14.G4.08 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.08]** Timed waves
+  - Cycle: `T14.G5.08 -> T14.G4.08 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.08]** Timed waves
+  - Cycle: `T14.G5.08 -> T14.G4.08 -> T14.G3.07 -> T14.G3.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.08]** Timed waves
+  - Cycle: `T14.G5.08 -> T14.G4.08 -> T14.G3.07 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.08]** Timed waves
+  - Cycle: `T14.G5.08 -> T14.G4.02 -> T14.G4.01 -> T14.G3.01 -> T14.G3.01`
+
+- **[T14.G5.09]** High score list
+  - Cycle: `T14.G5.09 -> T14.G4.06 -> T14.G3.10 -> T14.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.09]** High score list
+  - Cycle: `T14.G5.09 -> T14.G4.06 -> T14.G3.10 -> T14.G3.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.09]** High score list
+  - Cycle: `T14.G5.09 -> T14.G4.06 -> T14.G3.10 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.09]** High score list
+  - Cycle: `T14.G5.09 -> T14.G4.06 -> T14.G3.10 -> T10.G3.01 -> T10.G3.01`
+
+- **[T14.G5.10]** Inventory system
+  - Cycle: `T14.G5.10 -> T14.G4.12 -> T14.G3.10 -> T14.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.10]** Inventory system
+  - Cycle: `T14.G5.10 -> T14.G4.12 -> T14.G3.10 -> T14.G3.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.10]** Inventory system
+  - Cycle: `T14.G5.10 -> T14.G4.12 -> T14.G3.10 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.10]** Inventory system
+  - Cycle: `T14.G5.10 -> T14.G4.12 -> T14.G3.10 -> T10.G3.01 -> T10.G3.01`
+
+- **[T14.G5.10]** Inventory system
+  - Cycle: `T14.G5.10 -> T14.G4.12 -> T14.G4.08 -> T14.G3.07 -> T14.G3.06 -> T14.G3.05 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.10]** Inventory system
+  - Cycle: `T14.G5.10 -> T14.G4.12 -> T14.G4.08 -> T14.G3.07 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.11]** Initialize 2D physics world
+  - Cycle: `T14.G5.11 -> T14.G5.01 -> T14.G5.01`
+
+- **[T14.G5.11]** Initialize 2D physics world
+  - Cycle: `T14.G5.11 -> T14.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.11]** Add dynamic physics body to sprite
+  - Cycle: `T14.G5.11 -> T14.G5.11`
+
+- **[T14.G5.11]** Add dynamic physics body to sprite
+  - Cycle: `T14.G5.11 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.11]** Add static physics body to sprite
+  - Cycle: `T14.G5.11 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.11]** Add static physics body to sprite
+  - Cycle: `T14.G5.11 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.11]** Add static physics body to sprite
+  - Cycle: `T14.G5.11 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G5.00 -> T08.G4.05 -> T08.G4.05`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G5.00 -> T08.G4.09 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.01`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G4.06 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G4.06 -> T08.G4.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T14.G5.11]** Set collision groups for selective collisions
+  - Cycle: `T14.G5.11 -> T08.G5.01 -> T08.G4.06 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T14.G5.11]** Create revolute joint (hinge) between physics bodies
+  - Cycle: `T14.G5.11 -> T09.G5.01 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T14.G5.11]** Create revolute joint (hinge) between physics bodies
+  - Cycle: `T14.G5.11 -> T09.G5.01 -> T09.G4.09 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T14.G5.11]** Create revolute joint (hinge) between physics bodies
+  - Cycle: `T14.G5.11 -> T09.G5.01 -> T09.G4.09 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.01]** Coordinate scene changes with broadcasts
+  - Cycle: `T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.01]** Coordinate scene changes with broadcasts
+  - Cycle: `T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.01]** Coordinate scene changes with broadcasts
+  - Cycle: `T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.01]** Coordinate scene changes with broadcasts
+  - Cycle: `T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.01]** Coordinate scene changes with broadcasts
+  - Cycle: `T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.01]** Coordinate scene changes with broadcasts
+  - Cycle: `T15.G5.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T15.G5.02]** Broadcast specific actions
+  - Cycle: `T15.G5.02 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.02]** Broadcast specific actions
+  - Cycle: `T15.G5.02 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.02]** Broadcast specific actions
+  - Cycle: `T15.G5.02 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.02]** Broadcast specific actions
+  - Cycle: `T15.G5.02 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.02]** Broadcast specific actions
+  - Cycle: `T15.G5.02 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.02]** Broadcast specific actions
+  - Cycle: `T15.G5.02 -> T15.G5.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T15.G5.02]** Sequential actions with broadcast and wait
+  - Cycle: `T15.G5.02 -> T15.G5.02`
+
+- **[T15.G5.03]** Simulated Camera Pan
+  - Cycle: `T15.G5.03 -> T15.G5.02 -> T15.G5.02`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G5.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T15.G5.04]** Layering sprites and text
+  - Cycle: `T15.G5.04 -> T15.G3.12 -> T15.G3.12`
+
+- **[T15.G5.05]** Join text strings
+  - Cycle: `T15.G5.05 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.05]** Join text strings
+  - Cycle: `T15.G5.05 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.05]** Join text strings
+  - Cycle: `T15.G5.05 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.05]** Join text strings
+  - Cycle: `T15.G5.05 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.06]** Text effects (Typewriter)
+  - Cycle: `T15.G5.06 -> T15.G5.05 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.06]** Text effects (Typewriter)
+  - Cycle: `T15.G5.06 -> T15.G5.05 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.06]** Text effects (Typewriter)
+  - Cycle: `T15.G5.06 -> T15.G5.05 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.06]** Text effects (Typewriter)
+  - Cycle: `T15.G5.06 -> T15.G5.05 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.07]** Track story choices
+  - Cycle: `T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.07]** Track story choices
+  - Cycle: `T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.07]** Track story choices
+  - Cycle: `T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.07]** Track story choices
+  - Cycle: `T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.07]** Track story choices
+  - Cycle: `T15.G5.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.08]** Conditional endings
+  - Cycle: `T15.G5.08 -> T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.08]** Conditional endings
+  - Cycle: `T15.G5.08 -> T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.08]** Conditional endings
+  - Cycle: `T15.G5.08 -> T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.08]** Conditional endings
+  - Cycle: `T15.G5.08 -> T15.G5.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.08]** Conditional endings
+  - Cycle: `T15.G5.08 -> T15.G5.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G3.00 -> T15.G3.00`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.01 -> T15.G4.08 -> T15.G4.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.09]** Draw rectangles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T15.G5.09]** Draw ovals and circles on vector costumes
+  - Cycle: `T15.G5.09 -> T15.G5.09`
+
+- **[T15.G5.09]** Create dynamic visual effects with shape drawing
+  - Cycle: `T15.G5.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T15.G5.10]** Draw straight lines on vector costumes
+  - Cycle: `T15.G5.10 -> T15.G5.09 -> T15.G5.09`
+
+- **[T15.G5.10]** Draw straight lines on vector costumes
+  - Cycle: `T15.G5.10 -> T15.G5.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T15.G5.10]** Draw bezier curves on vector costumes
+  - Cycle: `T15.G5.10 -> T15.G5.10`
+
+- **[T15.G5.11]** Clear all costume drawings
+  - Cycle: `T15.G5.11 -> T15.G5.10 -> T15.G5.10`
+
+- **[T15.G5.11]** Clear all costume drawings
+  - Cycle: `T15.G5.11 -> T15.G3.12 -> T15.G3.12`
+
+- **[T15.G5.11]** Clear all costume drawings
+  - Cycle: `T15.G5.11 -> T15.G3.12 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.12]** Basic text-to-speech with AI voices
+  - Cycle: `T15.G5.12 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.12]** Basic text-to-speech with AI voices
+  - Cycle: `T15.G5.12 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.12]** Basic text-to-speech with AI voices
+  - Cycle: `T15.G5.12 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.12]** Basic text-to-speech with AI voices
+  - Cycle: `T15.G5.12 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.12]** Select languages and voice types for text-to-speech
+  - Cycle: `T15.G5.12 -> T15.G5.12`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G3.11 -> T15.G3.11`
+
+- **[T15.G5.13]** Set widget background and border colors
+  - Cycle: `T15.G5.13 -> T15.G3.11 -> T10.G3.01 -> T10.G3.01`
+
+- **[T15.G5.13]** Format text inside widgets
+  - Cycle: `T15.G5.13 -> T15.G5.13`
+
+- **[T15.G5.14]** Dropdown menus for story choices
+  - Cycle: `T15.G5.14 -> T15.G5.13 -> T15.G5.13`
+
+- **[T15.G5.14]** Dropdown menus for story choices
+  - Cycle: `T15.G5.14 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T15.G5.14]** Dropdown menus for story choices
+  - Cycle: `T15.G5.14 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.02`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G4.03 -> T15.G4.02 -> T15.G4.03`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T15.G4.04 -> T15.G3.04 -> T15.G3.04`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G4.07 -> T15.G4.06 -> T15.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G4.07 -> T15.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G5.12 -> T15.G5.12`
+
+- **[T15.G5.15]** Calculate animation timing
+  - Cycle: `T15.G5.15 -> T15.G3.01 -> T15.G3.01`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T16.G4.08 -> T16.G4.08`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T16.G4.08 -> T08.G4.01 -> T08.G4.01`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T16.G4.08 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.01]** Create a multi‑screen app with a navigation interface
+  - Cycle: `T16.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T16.G5.02]** Design a form with multiple inputs and validation
+  - Cycle: `T16.G5.02 -> T16.G4.07 -> T16.G4.07`
+
+- **[T16.G5.02]** Design a form with multiple inputs and validation
+  - Cycle: `T16.G5.02 -> T16.G4.07 -> T16.G3.07 -> T16.G3.07`
+
+- **[T16.G5.02]** Design a form with multiple inputs and validation
+  - Cycle: `T16.G5.02 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.02]** Design a form with multiple inputs and validation
+  - Cycle: `T16.G5.02 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T16.G5.02]** Design a form with multiple inputs and validation
+  - Cycle: `T16.G5.02 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.02]** Add specialized picker widgets for dates and colors
+  - Cycle: `T16.G5.02 -> T16.G5.02`
+
+- **[T16.G5.03]** Build a leaderboard or high‑score display
+  - Cycle: `T16.G5.03 -> T16.G4.01 -> T16.G4.01`
+
+- **[T16.G5.03]** Build a leaderboard or high‑score display
+  - Cycle: `T16.G5.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T16.G5.03]** Build a leaderboard or high‑score display
+  - Cycle: `T16.G5.03 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.03]** Build a leaderboard or high‑score display
+  - Cycle: `T16.G5.03 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.03]** Build a leaderboard or high‑score display
+  - Cycle: `T16.G5.03 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.03]** Build a leaderboard or high‑score display
+  - Cycle: `T16.G5.03 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - Cycle: `T16.G5.04 -> T16.G4.06 -> T16.G4.05 -> T16.G4.02 -> T16.G3.08 -> T16.G3.07 -> T16.G3.07`
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - Cycle: `T16.G5.04 -> T16.G4.06 -> T16.G4.05 -> T16.G4.02 -> T16.G3.08 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - Cycle: `T16.G5.04 -> T16.G4.06 -> T16.G4.05 -> T16.G4.02 -> T16.G3.08 -> T09.G3.01 -> T09.G3.01`
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - Cycle: `T16.G5.04 -> T16.G4.06 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - Cycle: `T16.G5.04 -> T16.G4.06 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - Cycle: `T16.G5.04 -> T16.G4.06 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T16.G5.04]** Add and update a progress bar widget
+  - Cycle: `T16.G5.04 -> T16.G5.04`
+
+- **[T16.G5.04]** Add and update a progress bar widget
+  - Cycle: `T16.G5.04 -> T16.G3.04 -> T16.G3.04`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T16.G4.09 -> T16.G4.02 -> T16.G3.08 -> T16.G3.07 -> T16.G3.07`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T16.G4.09 -> T16.G4.02 -> T16.G3.08 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T16.G4.09 -> T16.G4.02 -> T16.G3.08 -> T09.G3.01 -> T09.G3.01`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T16.G4.09 -> T16.G3.02 -> T16.G3.02`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T16.G4.09 -> T16.G3.02 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T16.G4.09 -> T16.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T16.G5.04]** Animate widgets for visual feedback
+  - Cycle: `T16.G5.04 -> T07.G4.03 -> T07.G4.03`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T16.G4.08 -> T16.G4.08`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T16.G4.08 -> T08.G4.01 -> T08.G4.01`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T16.G4.08 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G4.09 -> T16.G4.02 -> T16.G3.08 -> T16.G3.07 -> T16.G3.07`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G4.09 -> T16.G4.02 -> T16.G3.08 -> T09.G3.01 -> T09.G3.01`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G4.09 -> T16.G3.02 -> T16.G3.02`
+
+- **[T16.G5.05]** Embed and control a video widget
+  - Cycle: `T16.G5.05 -> T16.G4.09 -> T16.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T16.G5.05]** Control video playback with advanced features
+  - Cycle: `T16.G5.05 -> T16.G5.05`
+
+- **[T16.G5.05]** Control video playback with advanced features
+  - Cycle: `T16.G5.05 -> T06.G4.03 -> T06.G4.02 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.05]** Control video playback with advanced features
+  - Cycle: `T16.G5.05 -> T06.G4.03 -> T06.G4.02 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T16.G5.05]** Control video playback with advanced features
+  - Cycle: `T16.G5.05 -> T06.G4.03 -> T06.G4.02 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.06]** Add a rich textbox for formatted content
+  - Cycle: `T16.G5.06 -> T16.G3.05 -> T16.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T16.G5.06]** Add a rich textbox for formatted content
+  - Cycle: `T16.G5.06 -> T16.G4.01 -> T16.G4.01`
+
+- **[T16.G5.06]** Create a chat window widget for messaging
+  - Cycle: `T16.G5.06 -> T16.G5.06`
+
+- **[T16.G5.06]** Create a chat window widget for messaging
+  - Cycle: `T16.G5.06 -> T16.G4.08 -> T16.G4.08`
+
+- **[T16.G5.06]** Create a chat window widget for messaging
+  - Cycle: `T16.G5.06 -> T16.G4.08 -> T08.G4.01 -> T08.G4.01`
+
+- **[T16.G5.06]** Create a chat window widget for messaging
+  - Cycle: `T16.G5.06 -> T16.G4.08 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - Cycle: `T16.G5.07 -> T16.G4.02 -> T16.G3.08 -> T16.G3.07 -> T16.G3.07`
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - Cycle: `T16.G5.07 -> T16.G4.02 -> T16.G3.08 -> T08.G3.01 -> T08.G3.01`
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - Cycle: `T16.G5.07 -> T16.G4.02 -> T16.G3.08 -> T09.G3.01 -> T09.G3.01`
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - Cycle: `T16.G5.07 -> T16.G4.06 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - Cycle: `T16.G5.07 -> T16.G4.06 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - Cycle: `T16.G5.07 -> T16.G4.06 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T16.G5.08]** Create confirmation dialogs with custom buttons
+  - Cycle: `T16.G5.08 -> T16.G3.02 -> T16.G3.02`
+
+- **[T16.G5.08]** Create confirmation dialogs with custom buttons
+  - Cycle: `T16.G5.08 -> T16.G3.02 -> T09.G3.02 -> T09.G3.02`
+
+- **[T16.G5.08]** Create confirmation dialogs with custom buttons
+  - Cycle: `T16.G5.08 -> T16.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T16.G5.08]** Create confirmation dialogs with custom buttons
+  - Cycle: `T16.G5.08 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T16.G5.08]** Create confirmation dialogs with custom buttons
+  - Cycle: `T16.G5.08 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.02]** Track gravity with velocity variables
+  - Cycle: `T17.G5.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.02]** Track gravity with velocity variables
+  - Cycle: `T17.G5.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.02]** Track gravity with velocity variables
+  - Cycle: `T17.G5.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.02]** Track gravity with velocity variables
+  - Cycle: `T17.G5.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.02]** Track gravity with velocity variables
+  - Cycle: `T17.G5.02 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.03]** Use horizontal speed and friction variables
+  - Cycle: `T17.G5.03 -> T17.G5.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.03]** Use horizontal speed and friction variables
+  - Cycle: `T17.G5.03 -> T17.G5.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.03]** Use horizontal speed and friction variables
+  - Cycle: `T17.G5.03 -> T17.G5.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.03]** Use horizontal speed and friction variables
+  - Cycle: `T17.G5.03 -> T17.G5.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.03]** Use horizontal speed and friction variables
+  - Cycle: `T17.G5.03 -> T17.G5.02 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.03]** Build a top-down vehicle with manual friction control
+  - Cycle: `T17.G5.03 -> T17.G5.03`
+
+- **[T17.G5.04]** Code a manual bounce with energy loss
+  - Cycle: `T17.G5.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.04]** Code a manual bounce with energy loss
+  - Cycle: `T17.G5.04 -> T17.G5.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.04]** Code a manual bounce with energy loss
+  - Cycle: `T17.G5.04 -> T17.G5.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.04]** Code a manual bounce with energy loss
+  - Cycle: `T17.G5.04 -> T17.G5.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.04]** Code a manual bounce with energy loss
+  - Cycle: `T17.G5.04 -> T17.G5.02 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.04]** Create a simple platformer using manual gravity
+  - Cycle: `T17.G5.04 -> T17.G5.04`
+
+- **[T17.G5.05]** Initialize a 2D physics world
+  - Cycle: `T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.05]** Initialize a 2D physics world
+  - Cycle: `T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.05]** Initialize a 2D physics world
+  - Cycle: `T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.05]** Initialize a 2D physics world
+  - Cycle: `T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.05]** Initialize a 2D physics world
+  - Cycle: `T17.G5.05 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.06]** Attach a dynamic body to a sprite
+  - Cycle: `T17.G5.06 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.06]** Attach a dynamic body to a sprite
+  - Cycle: `T17.G5.06 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.06]** Attach a dynamic body to a sprite
+  - Cycle: `T17.G5.06 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.06]** Attach a dynamic body to a sprite
+  - Cycle: `T17.G5.06 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.06]** Attach a dynamic body to a sprite
+  - Cycle: `T17.G5.06 -> T17.G5.05 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.06]** Practice creating multiple dynamic bodies
+  - Cycle: `T17.G5.06 -> T17.G5.06`
+
+- **[T17.G5.07]** Build fixed boundaries for floors and walls
+  - Cycle: `T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.07]** Build fixed boundaries for floors and walls
+  - Cycle: `T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.07]** Build fixed boundaries for floors and walls
+  - Cycle: `T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.07]** Build fixed boundaries for floors and walls
+  - Cycle: `T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.07]** Build fixed boundaries for floors and walls
+  - Cycle: `T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.08]** Apply an impulse to jump or push
+  - Cycle: `T17.G5.08 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.08]** Apply an impulse to jump or push
+  - Cycle: `T17.G5.08 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T17.G5.08]** Apply an impulse to jump or push
+  - Cycle: `T17.G5.08 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.08]** Apply an impulse to jump or push
+  - Cycle: `T17.G5.08 -> T17.G5.06 -> T17.G5.06`
+
+- **[T17.G5.08]** Distinguish forces from impulses
+  - Cycle: `T17.G5.08 -> T17.G5.08`
+
+- **[T17.G5.09]** Configure density for mass control
+  - Cycle: `T17.G5.09 -> T17.G5.06 -> T17.G5.06`
+
+- **[T17.G5.10]** Trace simple 2D physics motion
+  - Cycle: `T17.G5.10 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.10]** Trace simple 2D physics motion
+  - Cycle: `T17.G5.10 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.10]** Trace simple 2D physics motion
+  - Cycle: `T17.G5.10 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.10]** Trace simple 2D physics motion
+  - Cycle: `T17.G5.10 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.10]** Trace simple 2D physics motion
+  - Cycle: `T17.G5.10 -> T17.G5.06 -> T17.G5.06`
+
+- **[T17.G5.11]** Debug missing physics setup
+  - Cycle: `T17.G5.11 -> T17.G5.06 -> T17.G5.06`
+
+- **[T17.G5.11]** Debug missing physics setup
+  - Cycle: `T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.11]** Debug missing physics setup
+  - Cycle: `T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.11]** Debug missing physics setup
+  - Cycle: `T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.11]** Debug missing physics setup
+  - Cycle: `T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.11]** Debug missing physics setup
+  - Cycle: `T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.04 -> T17.G5.04`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.11 -> T17.G5.06 -> T17.G5.06`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T17.G5.12]** Choose manual vs engine-based physics
+  - Cycle: `T17.G5.12 -> T17.G5.11 -> T17.G5.07 -> T17.G5.05 -> T17.G4.02 -> T17.G4.01 -> T17.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T18.G5.01]** Initialize a 3D physics world with gravity
+  - Cycle: `T18.G5.01 -> T18.G4.06 -> T18.G4.05 -> T18.G4.05`
+
+- **[T18.G5.01]** Initialize a 3D physics world with gravity
+  - Cycle: `T18.G5.01 -> T18.G4.06 -> T08.G3.01 -> T08.G3.01`
+
+- **[T18.G5.01]** Initialize a 3D physics world with gravity
+  - Cycle: `T18.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T18.G5.01]** Add static physics bodies for immovable objects
+  - Cycle: `T18.G5.01 -> T18.G5.01`
+
+- **[T18.G5.02]** Configure restitution for bouncing behavior
+  - Cycle: `T18.G5.02 -> T18.G5.01 -> T18.G5.01`
+
+- **[T18.G5.02]** Configure friction for sliding behavior
+  - Cycle: `T18.G5.02 -> T18.G5.02`
+
+- **[T18.G5.03]** Detect physics collision events
+  - Cycle: `T18.G5.03 -> T18.G5.02 -> T18.G5.02`
+
+- **[T18.G5.03]** Detect physics collision events
+  - Cycle: `T18.G5.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T18.G5.03]** Respond to collisions by collecting items
+  - Cycle: `T18.G5.03 -> T18.G5.03`
+
+- **[T18.G5.04]** Use nested loops to create 3D grids of objects
+  - Cycle: `T18.G5.04 -> T18.G5.03 -> T18.G5.03`
+
+- **[T18.G5.04]** Add vertical variation to grid layouts
+  - Cycle: `T18.G5.04 -> T18.G5.04`
+
+- **[T18.G5.05]** Apply textures from the CreatiCode texture library
+  - Cycle: `T18.G5.05 -> T18.G5.04 -> T18.G5.04`
+
+- **[T18.G5.05]** Apply costume textures to objects
+  - Cycle: `T18.G5.05 -> T18.G5.05`
+
+- **[T18.G5.06]** Add fog for depth and atmosphere
+  - Cycle: `T18.G5.06 -> T18.G5.05 -> T18.G5.05`
+
+- **[T18.G5.06]** Add particle emitters for fire and smoke
+  - Cycle: `T18.G5.06 -> T18.G5.06`
+
+- **[T19.G5.01]** Create a local 2-player game on one keyboard
+  - Cycle: `T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T19.G5.01]** Create a local 2-player game on one keyboard
+  - Cycle: `T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T19.G5.01]** Create a local 2-player game on one keyboard
+  - Cycle: `T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T19.G5.01]** Create a local 2-player game on one keyboard
+  - Cycle: `T19.G5.01 -> T08.G4.01 -> T08.G4.01`
+
+- **[T19.G5.01]** Create a local 2-player game on one keyboard
+  - Cycle: `T19.G5.01 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T19.G5.01]** Create a local 2-player game on one keyboard
+  - Cycle: `T19.G5.01 -> T14.G5.01 -> T14.G5.01`
+
+- **[T19.G5.03]** Understand what "multiplayer" means
+  - Cycle: `T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T19.G5.03]** Understand what "multiplayer" means
+  - Cycle: `T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T19.G5.03]** Understand what "multiplayer" means
+  - Cycle: `T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T19.G5.03]** Understand what "multiplayer" means
+  - Cycle: `T19.G5.03 -> T19.G5.01 -> T08.G4.01 -> T08.G4.01`
+
+- **[T19.G5.03]** Understand what "multiplayer" means
+  - Cycle: `T19.G5.03 -> T19.G5.01 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T19.G5.03]** Understand what "multiplayer" means
+  - Cycle: `T19.G5.03 -> T19.G5.01 -> T14.G5.01 -> T14.G5.01`
+
+- **[T19.G5.04]** Understand host and client roles
+  - Cycle: `T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T19.G5.04]** Understand host and client roles
+  - Cycle: `T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T19.G5.04]** Understand host and client roles
+  - Cycle: `T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T19.G5.04]** Understand host and client roles
+  - Cycle: `T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T08.G4.01 -> T08.G4.01`
+
+- **[T19.G5.04]** Understand host and client roles
+  - Cycle: `T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T19.G5.04]** Understand host and client roles
+  - Cycle: `T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T14.G5.01 -> T14.G5.01`
+
+- **[T19.G5.05]** Understand synchronization basics
+  - Cycle: `T19.G5.05 -> T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T19.G5.05]** Understand synchronization basics
+  - Cycle: `T19.G5.05 -> T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T19.G5.05]** Understand synchronization basics
+  - Cycle: `T19.G5.05 -> T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T19.G5.05]** Understand synchronization basics
+  - Cycle: `T19.G5.05 -> T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T08.G4.01 -> T08.G4.01`
+
+- **[T19.G5.05]** Understand synchronization basics
+  - Cycle: `T19.G5.05 -> T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T19.G5.05]** Understand synchronization basics
+  - Cycle: `T19.G5.05 -> T19.G5.04 -> T19.G5.03 -> T19.G5.01 -> T14.G5.01 -> T14.G5.01`
+
+- **[T20.G5.01]** **[Technical Skill]** Implement simple data-driven visualization
+  - Cycle: `T20.G5.01 -> T10.G4.01 -> T10.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.01]** **[Technical Skill]** Implement simple data-driven visualization
+  - Cycle: `T20.G5.01 -> T10.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.01]** **[Technical Skill]** Implement simple data-driven visualization
+  - Cycle: `T20.G5.01 -> T20.G4.05 -> T20.G4.05`
+
+- **[T20.G5.01]** **[Technical Skill]** Implement simple data-driven visualization
+  - Cycle: `T20.G5.01 -> T20.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.01]** Map data to two visual properties
+  - Cycle: `T20.G5.01 -> T20.G5.01`
+
+- **[T20.G5.01]** Map data to two visual properties
+  - Cycle: `T20.G5.01 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.02]** Animate a pattern with a counter variable
+  - Cycle: `T20.G5.02 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.02]** Animate a pattern with a counter variable
+  - Cycle: `T20.G5.02 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.02]** Animate a pattern with a counter variable
+  - Cycle: `T20.G5.02 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.02]** Animate a pattern with a counter variable
+  - Cycle: `T20.G5.02 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.03]** Make art respond to mouse or keys
+  - Cycle: `T20.G5.03 -> T20.G4.05 -> T20.G4.05`
+
+- **[T20.G5.03]** Make art respond to mouse or keys
+  - Cycle: `T20.G5.03 -> T20.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - Cycle: `T20.G5.04 -> T20.G4.02 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.04]** Initialize 3D scenes
+  - Cycle: `T20.G5.04 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.04]** Initialize 3D scenes
+  - Cycle: `T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.04]** Initialize 3D scenes
+  - Cycle: `T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.04]** Initialize 3D scenes
+  - Cycle: `T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.06]** Add box shapes to 3D scenes
+  - Cycle: `T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.06]** Add box shapes to 3D scenes
+  - Cycle: `T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.06]** Add box shapes to 3D scenes
+  - Cycle: `T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.06]** Add box shapes to 3D scenes
+  - Cycle: `T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.07]** Add sphere shapes to 3D scenes
+  - Cycle: `T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.07]** Add sphere shapes to 3D scenes
+  - Cycle: `T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.07]** Add sphere shapes to 3D scenes
+  - Cycle: `T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.07]** Add sphere shapes to 3D scenes
+  - Cycle: `T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.08]** Add cylinder shapes to 3D scenes
+  - Cycle: `T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.08]** Add cylinder shapes to 3D scenes
+  - Cycle: `T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.08]** Add cylinder shapes to 3D scenes
+  - Cycle: `T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.08]** Add cylinder shapes to 3D scenes
+  - Cycle: `T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.09]** Create patterns with 3D shapes
+  - Cycle: `T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.09]** Create patterns with 3D shapes
+  - Cycle: `T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.09]** Create patterns with 3D shapes
+  - Cycle: `T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.09]** Create patterns with 3D shapes
+  - Cycle: `T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.10]** Create simple 3D artistic patterns
+  - Cycle: `T20.G5.10 -> T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T20.G5.10]** Create simple 3D artistic patterns
+  - Cycle: `T20.G5.10 -> T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T20.G3.05`
+
+- **[T20.G5.10]** Create simple 3D artistic patterns
+  - Cycle: `T20.G5.10 -> T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T20.G5.10]** Create simple 3D artistic patterns
+  - Cycle: `T20.G5.10 -> T20.G5.09 -> T20.G5.08 -> T20.G5.07 -> T20.G5.06 -> T20.G5.04 -> T20.G4.01 -> T20.G3.05 -> T10.G3.01 -> T10.G3.01`
+
+- **[T20.G5.05]** Explain data-to-visual design choices
+  - Cycle: `T20.G5.05 -> T20.G5.01 -> T20.G5.01`
+
+- **[T20.G5.05]** Explain data-to-visual design choices
+  - Cycle: `T20.G5.05 -> T20.G5.01 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T21.G5.01]** Decide AI vs hand-made for a single asset type
+  - Cycle: `T21.G5.01 -> T21.G4.01 -> T21.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T21.G5.02]** Generate a single AI image using a simple prompt
+  - Cycle: `T21.G5.02 -> T21.G4.01 -> T21.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T21.G5.03]** Use basic text-to-speech with default settings
+  - Cycle: `T21.G5.03 -> T21.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T21.G5.03]** Experiment with different voice types
+  - Cycle: `T21.G5.03 -> T21.G5.03`
+
+- **[T21.G5.04]** Understand how speech-to-text works
+  - Cycle: `T21.G5.04 -> T21.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T21.G5.05]** Explain why AI content needs safety review
+  - Cycle: `T21.G5.05 -> T21.G4.01 -> T21.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T21.G5.06]** Ask ChatGPT a simple question and display the response
+  - Cycle: `T21.G5.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T21.G5.07]** Understand ChatGPT parameters (temperature and length)
+  - Cycle: `T21.G5.07 -> T21.G5.06 -> T09.G3.01 -> T09.G3.01`
+
+- **[T22.G5.01]** Flag risky vs safe chatbot prompts
+  - Cycle: `T22.G5.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T22.G5.01]** Flag risky vs safe chatbot prompts
+  - Cycle: `T22.G5.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T22.G5.01]** Flag risky vs safe chatbot prompts
+  - Cycle: `T22.G5.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T22.G5.01]** Flag risky vs safe chatbot prompts
+  - Cycle: `T22.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T22.G5.01]** Flag risky vs safe chatbot prompts
+  - Cycle: `T22.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T22.G5.02]** Observe chatbot strengths and weaknesses through testing
+  - Cycle: `T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T22.G5.02]** Observe chatbot strengths and weaknesses through testing
+  - Cycle: `T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T22.G5.02]** Observe chatbot strengths and weaknesses through testing
+  - Cycle: `T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T22.G5.02]** Observe chatbot strengths and weaknesses through testing
+  - Cycle: `T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T22.G5.02]** Observe chatbot strengths and weaknesses through testing
+  - Cycle: `T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T22.G5.03]** Experiment with prompt phrasing to improve responses
+  - Cycle: `T22.G5.03 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T22.G5.03]** Experiment with prompt phrasing to improve responses
+  - Cycle: `T22.G5.03 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T22.G5.03]** Experiment with prompt phrasing to improve responses
+  - Cycle: `T22.G5.03 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T22.G5.03]** Experiment with prompt phrasing to improve responses
+  - Cycle: `T22.G5.03 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T22.G5.03]** Experiment with prompt phrasing to improve responses
+  - Cycle: `T22.G5.03 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - Cycle: `T22.G5.04 -> T09.G4.01 -> T09.G4.01`
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - Cycle: `T22.G5.04 -> T22.G5.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - Cycle: `T22.G5.04 -> T22.G5.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - Cycle: `T22.G5.04 -> T22.G5.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - Cycle: `T22.G5.04 -> T22.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - Cycle: `T22.G5.04 -> T22.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - Cycle: `T22.G5.05 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - Cycle: `T22.G5.05 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - Cycle: `T22.G5.05 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - Cycle: `T22.G5.05 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - Cycle: `T22.G5.05 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - Cycle: `T22.G5.05 -> T22.G5.04 -> T09.G4.01 -> T09.G4.01`
+
+- **[T23.G5.01]** Compare what people see vs what pixels show
+  - Cycle: `T23.G5.01 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T23.G5.01]** Compare what people see vs what pixels show
+  - Cycle: `T23.G5.01 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T23.G5.01]** Compare what people see vs what pixels show
+  - Cycle: `T23.G5.01 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T23.G5.02]** Explain why an AI might mis-hear or mis-see
+  - Cycle: `T23.G5.02 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T23.G5.02]** Explain why an AI might mis-hear or mis-see
+  - Cycle: `T23.G5.02 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T23.G5.02]** Explain why an AI might mis-hear or mis-see
+  - Cycle: `T23.G5.02 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T23.G5.02]** Explain why an AI might mis-hear or mis-see
+  - Cycle: `T23.G5.02 -> T23.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T23.G5.03]** Choose safe ways to handle sensor data
+  - Cycle: `T23.G5.03 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T23.G5.03]** Choose safe ways to handle sensor data
+  - Cycle: `T23.G5.03 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T23.G5.03]** Choose safe ways to handle sensor data
+  - Cycle: `T23.G5.03 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T23.G5.03]** Choose safe ways to handle sensor data
+  - Cycle: `T23.G5.03 -> T23.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T23.G5.04]** Identify when AI sensing might be unfair
+  - Cycle: `T23.G5.04 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T23.G5.04]** Identify when AI sensing might be unfair
+  - Cycle: `T23.G5.04 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T23.G5.04]** Identify when AI sensing might be unfair
+  - Cycle: `T23.G5.04 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T23.G5.04]** Identify when AI sensing might be unfair
+  - Cycle: `T23.G5.04 -> T23.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T23.G5.05]** Identify what data hand, body, and face detection provides
+  - Cycle: `T23.G5.05 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T23.G5.05]** Identify what data hand, body, and face detection provides
+  - Cycle: `T23.G5.05 -> T23.G5.01 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T23.G5.05]** Identify what data hand, body, and face detection provides
+  - Cycle: `T23.G5.05 -> T23.G5.01 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T23.G5.05]** Identify what data hand, body, and face detection provides
+  - Cycle: `T23.G5.05 -> T23.G5.01 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T23.G5.06]** Understand perception API workflow patterns
+  - Cycle: `T23.G5.06 -> T23.G5.05 -> T10.G5.04 -> T10.G5.03 -> T10.G5.02 -> T10.G5.01 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T23.G5.06]** Understand perception API workflow patterns
+  - Cycle: `T23.G5.06 -> T23.G5.05 -> T23.G5.01 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T23.G5.06]** Understand perception API workflow patterns
+  - Cycle: `T23.G5.06 -> T23.G5.05 -> T23.G5.01 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T23.G5.06]** Understand perception API workflow patterns
+  - Cycle: `T23.G5.06 -> T23.G5.05 -> T23.G5.01 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T24.G5.01]** Navigate XO's interface (chat, templates, tabs)
+  - Cycle: `T24.G5.01 -> T24.G4.03 -> T24.G3.04 -> T24.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.01]** Navigate XO's interface (chat, templates, tabs)
+  - Cycle: `T24.G5.01 -> T24.G4.03 -> T24.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T24.G5.01]** Navigate XO's interface (chat, templates, tabs)
+  - Cycle: `T24.G5.01 -> T24.G4.07 -> T24.G4.06 -> T24.G4.02 -> T24.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T24.G5.01]** Manage XO responses (pause, copy, pin)
+  - Cycle: `T24.G5.01 -> T24.G5.01`
+
+- **[T24.G5.02]** Ask XO for a three-step project plan
+  - Cycle: `T24.G5.02 -> T24.G5.01 -> T24.G5.01`
+
+- **[T24.G5.03]** Turn an XO suggestion into starter code safely
+  - Cycle: `T24.G5.03 -> T24.G5.01 -> T24.G5.01`
+
+- **[T24.G5.04]** Collect themed assets from narrative descriptions
+  - Cycle: `T24.G5.04 -> T24.G4.01 -> T24.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.04]** Collect themed assets from narrative descriptions
+  - Cycle: `T24.G5.04 -> T24.G4.01 -> T24.G4.00 -> T24.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T24.G5.04]** Collect themed assets from narrative descriptions
+  - Cycle: `T24.G5.04 -> T24.G5.02 -> T24.G5.01 -> T24.G5.01`
+
+- **[T24.G5.05]** Reject unsafe or off-spec XO suggestions
+  - Cycle: `T24.G5.05 -> T24.G4.03 -> T24.G3.04 -> T24.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.05]** Reject unsafe or off-spec XO suggestions
+  - Cycle: `T24.G5.05 -> T24.G4.03 -> T24.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T24.G5.05]** Reject unsafe or off-spec XO suggestions
+  - Cycle: `T24.G5.05 -> T24.G5.03 -> T24.G5.01 -> T24.G5.01`
+
+- **[T24.G5.05]** Read from and write to CreatiCode tables
+  - Cycle: `T24.G5.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.07]** Use basic ChatGPT block with default settings
+  - Cycle: `T24.G5.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.07]** Use basic ChatGPT block with default settings
+  - Cycle: `T24.G5.07 -> T24.G4.02 -> T24.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T24.G5.07]** Use basic ChatGPT block with default settings
+  - Cycle: `T24.G5.07 -> T24.G4.06 -> T24.G4.05 -> T24.G4.03 -> T24.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T24.G5.07]** Control ChatGPT response streaming and length
+  - Cycle: `T24.G5.07 -> T24.G5.07`
+
+- **[T24.G5.08]** Use continuous speech recognition for live voice input
+  - Cycle: `T24.G5.08 -> T10.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T24.G5.08]** Use continuous speech recognition for live voice input
+  - Cycle: `T24.G5.08 -> T24.G3.01 -> T24.G3.00 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.08]** Use continuous speech recognition for live voice input
+  - Cycle: `T24.G5.08 -> T24.G4.06 -> T24.G4.05 -> T24.G4.03 -> T24.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T24.G5.08]** Understand stage coordinate system for computer vision
+  - Cycle: `T24.G5.08 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.09]** Explore face detection and coordinate system
+  - Cycle: `T24.G5.09 -> T24.G4.06 -> T24.G4.02 -> T24.G3.03 -> T24.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.09]** Explore face detection and coordinate system
+  - Cycle: `T24.G5.09 -> T24.G4.06 -> T24.G4.02 -> T24.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T24.G5.09]** Explore face detection and coordinate system
+  - Cycle: `T24.G5.09 -> T24.G4.06 -> T24.G4.05 -> T24.G4.03 -> T24.G3.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T24.G5.09]** Read single face features from detection tables
+  - Cycle: `T24.G5.09 -> T24.G5.09`
+
+- **[T24.G5.10]** Use face position to control sprites
+  - Cycle: `T24.G5.10 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.10]** Use face position to control sprites
+  - Cycle: `T24.G5.10 -> T24.G5.09 -> T24.G5.09`
+
+- **[T24.G5.11]** Understand AI image search vs generation
+  - Cycle: `T24.G5.11 -> T24.G4.01 -> T24.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.11]** Understand AI image search vs generation
+  - Cycle: `T24.G5.11 -> T24.G4.01 -> T24.G4.00 -> T24.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T24.G5.11]** Understand AI image search vs generation
+  - Cycle: `T24.G5.11 -> T24.G5.04 -> T24.G5.02 -> T24.G5.01 -> T24.G5.01`
+
+- **[T24.G5.12]** Understand classification and pattern recognition concepts
+  - Cycle: `T24.G5.12 -> T09.G3.01 -> T09.G3.01`
+
+- **[T24.G5.12]** Understand classification and pattern recognition concepts
+  - Cycle: `T24.G5.12 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.01]** Design multi-type data structures on paper
+  - Cycle: `T25.G5.01 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.01]** Design multi-type data structures on paper
+  - Cycle: `T25.G5.01 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.01]** Design multi-type data structures on paper
+  - Cycle: `T25.G5.01 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.01]** Design multi-type data structures on paper
+  - Cycle: `T25.G5.01 -> T25.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.01]** Define game state variables with initial values
+  - Cycle: `T25.G5.01 -> T25.G5.01`
+
+- **[T25.G5.01]** Update game state variables based on events
+  - Cycle: `T25.G5.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.02]** Normalize text input using join and replace
+  - Cycle: `T25.G5.02 -> T25.G3.01 -> T25.G3.01`
+
+- **[T25.G5.02]** Normalize text input using join and replace
+  - Cycle: `T25.G5.02 -> T25.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.02]** Normalize text input using join and replace
+  - Cycle: `T25.G5.02 -> T25.G3.04 -> T25.G3.04`
+
+- **[T25.G5.02]** Normalize text input using join and replace
+  - Cycle: `T25.G5.02 -> T25.G3.04 -> T09.G3.02 -> T09.G3.02`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G5.02`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.03 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.03 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.03 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.03 -> T25.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.04 -> T25.G3.04`
+
+- **[T25.G5.02]** Identify and catalog data quality issues
+  - Cycle: `T25.G5.02 -> T25.G3.05 -> T25.G3.04 -> T09.G3.02 -> T09.G3.02`
+
+- **[T25.G5.03]** Decide when to upgrade from list to table
+  - Cycle: `T25.G5.03 -> T25.G3.01 -> T25.G3.01`
+
+- **[T25.G5.03]** Decide when to upgrade from list to table
+  - Cycle: `T25.G5.03 -> T25.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.03]** Decide when to upgrade from list to table
+  - Cycle: `T25.G5.03 -> T25.G4.03 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.03]** Decide when to upgrade from list to table
+  - Cycle: `T25.G5.03 -> T25.G4.03 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.03]** Decide when to upgrade from list to table
+  - Cycle: `T25.G5.03 -> T25.G4.03 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.04]** Encode categorical values with numeric codes
+  - Cycle: `T25.G5.04 -> T25.G4.04 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.04]** Encode categorical values with numeric codes
+  - Cycle: `T25.G5.04 -> T25.G4.04 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.04]** Encode categorical values with numeric codes
+  - Cycle: `T25.G5.04 -> T25.G4.04 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.04]** Encode categorical values with numeric codes
+  - Cycle: `T25.G5.04 -> T25.G4.04 -> T25.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.05]** Add meaningful default values to data fields
+  - Cycle: `T25.G5.05 -> T25.G4.01 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.05]** Add meaningful default values to data fields
+  - Cycle: `T25.G5.05 -> T25.G4.01 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.05]** Add meaningful default values to data fields
+  - Cycle: `T25.G5.05 -> T25.G4.01 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.05]** Add meaningful default values to data fields
+  - Cycle: `T25.G5.05 -> T25.G4.01 -> T25.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.06]** Create multi-column tables with varied data
+  - Cycle: `T25.G5.06 -> T25.G3.06 -> T25.G3.06`
+
+- **[T25.G5.06]** Create multi-column tables with varied data
+  - Cycle: `T25.G5.06 -> T25.G5.03 -> T25.G3.01 -> T25.G3.01`
+
+- **[T25.G5.06]** Create multi-column tables with varied data
+  - Cycle: `T25.G5.06 -> T25.G5.03 -> T25.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.06]** Create multi-column tables with varied data
+  - Cycle: `T25.G5.06 -> T25.G5.03 -> T25.G4.03 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.06]** Create multi-column tables with varied data
+  - Cycle: `T25.G5.06 -> T25.G5.03 -> T25.G4.03 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.06]** Create multi-column tables with varied data
+  - Cycle: `T25.G5.06 -> T25.G5.03 -> T25.G4.03 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.06]** Query tables by value
+  - Cycle: `T25.G5.06 -> T25.G5.06`
+
+- **[T25.G5.07]** Validate data types and ranges before storage
+  - Cycle: `T25.G5.07 -> T25.G3.02 -> T25.G3.02`
+
+- **[T25.G5.07]** Validate data types and ranges before storage
+  - Cycle: `T25.G5.07 -> T25.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T25.G5.07]** Validate data types and ranges before storage
+  - Cycle: `T25.G5.07 -> T25.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T25.G5.07]** Validate data types and ranges before storage
+  - Cycle: `T25.G5.07 -> T25.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T25.G5.07]** Validate data types and ranges before storage
+  - Cycle: `T25.G5.07 -> T08.G4.01 -> T08.G4.01`
+
+- **[T25.G5.07]** Validate data types and ranges before storage
+  - Cycle: `T25.G5.07 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T10.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - Cycle: `T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.02]** Plan sampling strategies
+  - Cycle: `T26.G5.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.02]** Plan sampling strategies
+  - Cycle: `T26.G5.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.02]** Plan sampling strategies
+  - Cycle: `T26.G5.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.02]** Plan sampling strategies
+  - Cycle: `T26.G5.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.02]** Plan sampling strategies
+  - Cycle: `T26.G5.02 -> T10.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T10.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T26.G4.03 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T26.G4.03 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - Cycle: `T26.G5.03 -> T26.G4.03 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.04]** Create tables with named columns
+  - Cycle: `T26.G5.04 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - Cycle: `T26.G5.04 -> T26.G5.04`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - Cycle: `T26.G5.05 -> T26.G5.04 -> T26.G5.04`
+
+- **[T26.G5.05]** Fetch data from cloud collection into table
+  - Cycle: `T26.G5.05 -> T26.G5.05`
+
+- **[T26.G5.06]** Record player scores to leaderboard
+  - Cycle: `T26.G5.06 -> T09.G4.01 -> T09.G4.01`
+
+- **[T26.G5.06]** Record player scores to leaderboard
+  - Cycle: `T26.G5.06 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.06]** Record player scores to leaderboard
+  - Cycle: `T26.G5.06 -> T26.G5.05 -> T26.G5.05`
+
+- **[T26.G5.06]** Retrieve and display leaderboard rankings
+  - Cycle: `T26.G5.06 -> T26.G5.06`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T23.G4.01 -> T08.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T23.G4.01 -> T08.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T23.G4.01 -> T08.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - Cycle: `T26.G5.07 -> T26.G5.04 -> T26.G5.04`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T10.G3.03 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T26.G4.05 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T26.G4.05 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - Cycle: `T26.G5.08 -> T26.G4.05 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T26.G5.01 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.04 -> T26.G5.04`
+
+- **[T26.G5.08]** Export and import tables to/from files
+  - Cycle: `T26.G5.08 -> T26.G5.08`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T10.G4.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T26.G4.02`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T26.G3.04 -> T26.G3.04`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.02 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G4.06 -> T26.G4.06`
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - Cycle: `T26.G5.09 -> T26.G5.04 -> T26.G5.04`
+
+- **[T27.G5.00]** Calculate percentages from grouped data
+  - Cycle: `T27.G5.00 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.00]** Calculate percentages from grouped data
+  - Cycle: `T27.G5.00 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T27.G4.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - Cycle: `T27.G5.01 -> T26.G3.04 -> T26.G3.04`
+
+- **[T27.G5.00]** Respond to widget events in dashboards
+  - Cycle: `T27.G5.00 -> T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.00]** Respond to widget events in dashboards
+  - Cycle: `T27.G5.00 -> T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.00]** Respond to widget events in dashboards
+  - Cycle: `T27.G5.00 -> T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T27.G5.00]** Respond to widget events in dashboards
+  - Cycle: `T27.G5.00 -> T27.G5.01 -> T09.G4.01 -> T09.G4.01`
+
+- **[T27.G5.01]** Group data by category and compute statistics (GROUP BY)
+  - Cycle: `T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.01]** Group data by category and compute statistics (GROUP BY)
+  - Cycle: `T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.01]** Group data by category and compute statistics (GROUP BY)
+  - Cycle: `T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T27.G5.01]** Group data by category and compute statistics (GROUP BY)
+  - Cycle: `T27.G5.01 -> T09.G4.01 -> T09.G4.01`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T26.G3.04 -> T26.G3.04`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G4.01 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T27.G5.02]** Correlate two variables visually
+  - Cycle: `T27.G5.02 -> T27.G5.00 -> T27.G5.01 -> T09.G4.01 -> T09.G4.01`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T26.G3.04 -> T26.G3.04`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T27.G5.02 -> T27.G4.01 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T27.G5.02 -> T27.G4.01 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - Cycle: `T27.G5.03 -> T27.G5.02 -> T27.G5.00 -> T27.G5.01 -> T09.G4.01 -> T09.G4.01`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T26.G3.04 -> T26.G3.04`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T26.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T27.G5.01 -> T27.G4.04 -> T27.G4.02 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T27.G5.04]** Present findings using slides or mini reports
+  - Cycle: `T27.G5.04 -> T27.G5.01 -> T09.G4.01 -> T09.G4.01`
+
+- **[T28.G5.01]** Generate compound event data (two dice)
+  - Cycle: `T28.G5.01 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.01]** Generate compound event data (two dice)
+  - Cycle: `T28.G5.01 -> T28.G4.04 -> T28.G4.01 -> T28.G3.07 -> T28.G3.06 -> T28.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T28.G5.01]** Generate compound event data (two dice)
+  - Cycle: `T28.G5.01 -> T28.G4.04 -> T28.G4.01 -> T28.G3.07 -> T28.G3.06 -> T28.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.01]** Generate compound event data (two dice)
+  - Cycle: `T28.G5.01 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T28.G5.01]** Generate compound event data (two dice)
+  - Cycle: `T28.G5.01 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T28.G5.01]** Generate compound event data (two dice)
+  - Cycle: `T28.G5.01 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T28.G5.01]** Analyze compound event distributions
+  - Cycle: `T28.G5.01 -> T28.G5.01`
+
+- **[T28.G5.01]** Analyze compound event distributions
+  - Cycle: `T28.G5.01 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.01]** Analyze compound event distributions
+  - Cycle: `T28.G5.01 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.01]** Analyze compound event distributions
+  - Cycle: `T28.G5.01 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.02]** Randomly assign participants to conditions
+  - Cycle: `T28.G5.02 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.02]** Randomly assign participants to conditions
+  - Cycle: `T28.G5.02 -> T28.G4.04 -> T28.G4.01 -> T28.G3.07 -> T28.G3.06 -> T28.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T28.G5.02]** Randomly assign participants to conditions
+  - Cycle: `T28.G5.02 -> T28.G4.04 -> T28.G4.01 -> T28.G3.07 -> T28.G3.06 -> T28.G3.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.02]** Randomly assign participants to conditions
+  - Cycle: `T28.G5.02 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T28.G5.02]** Randomly assign participants to conditions
+  - Cycle: `T28.G5.02 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T28.G5.02]** Randomly assign participants to conditions
+  - Cycle: `T28.G5.02 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T28.G4.03 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T28.G4.03 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T28.G4.05 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T08.G4.01 -> T08.G4.01`
+
+- **[T28.G5.03]** Use Monte Carlo sampling to estimate area or probability
+  - Cycle: `T28.G5.03 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.03 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.03 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.04 -> T28.G4.01 -> T28.G3.07 -> T28.G3.06 -> T28.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T28.G5.04]** Document simulation plans before coding
+  - Cycle: `T28.G5.04 -> T28.G4.04 -> T28.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T28.G5.05]** Calculate theoretical probability for simple events
+  - Cycle: `T28.G5.05 -> T28.G4.06 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.06]** Compare experimental and theoretical probability
+  - Cycle: `T28.G5.06 -> T28.G5.05 -> T28.G4.06 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.06]** Compare experimental and theoretical probability
+  - Cycle: `T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.06]** Compare experimental and theoretical probability
+  - Cycle: `T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.06]** Compare experimental and theoretical probability
+  - Cycle: `T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.07]** Create frequency distributions from simulation data
+  - Cycle: `T28.G5.07 -> T28.G5.01 -> T28.G5.01`
+
+- **[T28.G5.07]** Create frequency distributions from simulation data
+  - Cycle: `T28.G5.07 -> T28.G5.01 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.07]** Create frequency distributions from simulation data
+  - Cycle: `T28.G5.07 -> T28.G5.01 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.07]** Create frequency distributions from simulation data
+  - Cycle: `T28.G5.07 -> T28.G5.01 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.09]** Calculate expected value for simple scenarios
+  - Cycle: `T28.G5.09 -> T28.G5.05 -> T28.G4.06 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.09]** Calculate expected value for simple scenarios
+  - Cycle: `T28.G5.09 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.09]** Calculate expected value for simple scenarios
+  - Cycle: `T28.G5.09 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.09]** Calculate expected value for simple scenarios
+  - Cycle: `T28.G5.09 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.10]** Recognize independence and gambler's fallacy
+  - Cycle: `T28.G5.10 -> T28.G5.06 -> T28.G5.05 -> T28.G4.06 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.10]** Recognize independence and gambler's fallacy
+  - Cycle: `T28.G5.10 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.10]** Recognize independence and gambler's fallacy
+  - Cycle: `T28.G5.10 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.10]** Recognize independence and gambler's fallacy
+  - Cycle: `T28.G5.10 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.11]** Demonstrate the law of large numbers
+  - Cycle: `T28.G5.11 -> T28.G5.06 -> T28.G5.05 -> T28.G4.06 -> T28.G4.02 -> T28.G4.02`
+
+- **[T28.G5.11]** Demonstrate the law of large numbers
+  - Cycle: `T28.G5.11 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T27.G3.01`
+
+- **[T28.G5.11]** Demonstrate the law of large numbers
+  - Cycle: `T28.G5.11 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T27.G3.03 -> T27.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.11]** Demonstrate the law of large numbers
+  - Cycle: `T28.G5.11 -> T28.G5.06 -> T28.G4.03 -> T27.G3.04 -> T10.G3.01 -> T10.G3.01`
+
+- **[T28.G5.08]** Track agent state for probabilistic simulations
+  - Cycle: `T28.G5.08 -> T09.G4.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T28.G5.08]** Track agent state for probabilistic simulations
+  - Cycle: `T28.G5.08 -> T09.G4.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T28.G5.08]** Track agent state for probabilistic simulations
+  - Cycle: `T28.G5.08 -> T09.G5.01 -> T09.G4.09 -> T09.G4.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T28.G5.08]** Track agent state for probabilistic simulations
+  - Cycle: `T28.G5.08 -> T03.G3.01 -> T03.G2.05 -> T03.G2.04 -> T03.G2.04`
+
+- **[T29.G5.01]** Design table schemas for text data (chat logs)
+  - Cycle: `T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.01]** Design table schemas for text data (chat logs)
+  - Cycle: `T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.01]** Design table schemas for text data (chat logs)
+  - Cycle: `T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.01]** Design table schemas for text data (chat logs)
+  - Cycle: `T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.01]** Design table schemas for text data (chat logs)
+  - Cycle: `T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.01]** Design table schemas for text data (chat logs)
+  - Cycle: `T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T08.G4.02 -> T08.G4.01 -> T08.G4.01`
+
+- **[T29.G5.02]** Populate data tables from text using split
+  - Cycle: `T29.G5.02 -> T08.G4.02 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T29.G5.03]** Understand stop-words and their purpose
+  - Cycle: `T29.G5.03 -> T29.G5.08 -> T29.G5.08`
+
+- **[T29.G5.03]** Understand stop-words and their purpose
+  - Cycle: `T29.G5.03 -> T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.03]** Understand stop-words and their purpose
+  - Cycle: `T29.G5.03 -> T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.03]** Understand stop-words and their purpose
+  - Cycle: `T29.G5.03 -> T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.03]** Understand stop-words and their purpose
+  - Cycle: `T29.G5.03 -> T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.03]** Understand stop-words and their purpose
+  - Cycle: `T29.G5.03 -> T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - Cycle: `T29.G5.03 -> T29.G5.03`
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - Cycle: `T29.G5.03 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - Cycle: `T29.G5.03 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - Cycle: `T29.G5.03 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - Cycle: `T29.G5.03 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - Cycle: `T29.G5.03 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.04]** Create positive/negative sentiment word lists
+  - Cycle: `T29.G5.04 -> T29.G4.11 -> T29.G3.03 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.04]** Create positive/negative sentiment word lists
+  - Cycle: `T29.G5.04 -> T29.G4.11 -> T29.G3.03 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.04]** Create positive/negative sentiment word lists
+  - Cycle: `T29.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.04]** Create positive/negative sentiment word lists
+  - Cycle: `T29.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.04]** Create positive/negative sentiment word lists
+  - Cycle: `T29.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.04]** Create positive/negative sentiment word lists
+  - Cycle: `T29.G5.04 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.04]** Score text using sentiment word lists
+  - Cycle: `T29.G5.04 -> T29.G5.04`
+
+- **[T29.G5.04]** Score text using sentiment word lists
+  - Cycle: `T29.G5.04 -> T08.G4.01 -> T08.G4.01`
+
+- **[T29.G5.04]** Score text using sentiment word lists
+  - Cycle: `T29.G5.04 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T29.G5.01 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T08.G4.02 -> T08.G4.01 -> T08.G4.01`
+
+- **[T29.G5.05]** Build dynamic prompts with join and concatenation
+  - Cycle: `T29.G5.05 -> T29.G5.02 -> T08.G4.02 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.06]** Use the parse sentence block for parts of speech
+  - Cycle: `T29.G5.06 -> T29.G5.08 -> T29.G5.08`
+
+- **[T29.G5.07]** Trim whitespace from text input
+  - Cycle: `T29.G5.07 -> T29.G4.04 -> T29.G4.04`
+
+- **[T29.G5.07]** Trim whitespace from text input
+  - Cycle: `T29.G5.07 -> T29.G4.04 -> T29.G3.05 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.07]** Trim whitespace from text input
+  - Cycle: `T29.G5.07 -> T29.G4.04 -> T29.G3.05 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.07]** Trim whitespace from text input
+  - Cycle: `T29.G5.07 -> T29.G4.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.06 -> T29.G4.04 -> T29.G4.04`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.06 -> T29.G4.04 -> T29.G3.05 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.06 -> T29.G4.04 -> T29.G3.05 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.06 -> T29.G4.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.06 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.08]** Build word frequency table
+  - Cycle: `T29.G5.08 -> T29.G4.10 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.08]** Find and report most frequent word
+  - Cycle: `T29.G5.08 -> T29.G5.08`
+
+- **[T29.G5.08]** Find and report most frequent word
+  - Cycle: `T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.08]** Find and report most frequent word
+  - Cycle: `T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T11.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.08]** Find and report most frequent word
+  - Cycle: `T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.08]** Find and report most frequent word
+  - Cycle: `T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T11.G3.03 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.08]** Find and report most frequent word
+  - Cycle: `T29.G5.08 -> T11.G5.01 -> T11.G4.04 -> T11.G4.01 -> T11.G3.05 -> T11.G3.04 -> T07.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.09]** Highlight keywords in text display
+  - Cycle: `T29.G5.09 -> T29.G4.04 -> T29.G4.04`
+
+- **[T29.G5.09]** Highlight keywords in text display
+  - Cycle: `T29.G5.09 -> T29.G4.04 -> T29.G3.05 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.09]** Highlight keywords in text display
+  - Cycle: `T29.G5.09 -> T29.G4.04 -> T29.G3.05 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.09]** Highlight keywords in text display
+  - Cycle: `T29.G5.09 -> T29.G4.04 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.09]** Highlight keywords in text display
+  - Cycle: `T29.G5.09 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T29.G5.10]** Understand tokenization concepts
+  - Cycle: `T29.G5.10 -> T29.G4.03 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+- **[T29.G5.10]** Understand tokenization concepts
+  - Cycle: `T29.G5.10 -> T29.G4.03 -> T29.G4.01 -> T29.G4.00 -> T29.G3.04 -> T29.G3.03 -> T29.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T29.G5.10]** Understand tokenization concepts
+  - Cycle: `T29.G5.10 -> T29.G4.03 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T09.G3.02 -> T09.G3.02`
+
+- **[T29.G5.10]** Understand tokenization concepts
+  - Cycle: `T29.G5.10 -> T29.G4.03 -> T29.G4.01 -> T09.G3.05 -> T09.G3.04 -> T09.G3.03 -> T08.G3.02 -> T08.G3.01 -> T08.G3.01`
+
+- **[T29.G5.10]** Understand tokenization concepts
+  - Cycle: `T29.G5.10 -> T29.G4.03 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T29.G5.10]** Understand tokenization concepts
+  - Cycle: `T29.G5.10 -> T29.G4.03 -> T29.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T30.G5.01]** Identify device requirements for CreatiCode AI features
+  - Cycle: `T30.G5.01 -> T30.G4.01 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T30.G5.02]** Plan safe device-handling procedures for group work
+  - Cycle: `T30.G5.02 -> T30.G4.04 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T30.G5.03]** Explain how different sensors collect data
+  - Cycle: `T30.G5.03 -> T30.G4.01 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T30.G5.04]** Relate hardware choices to accessibility outcomes
+  - Cycle: `T30.G5.04 -> T30.G5.01 -> T30.G4.01 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T30.G5.05]** Configure 3D cameras for CreatiCode game scenes
+  - Cycle: `T30.G5.05 -> T30.G4.05 -> T30.G3.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T30.G5.05]** Configure 3D cameras for CreatiCode game scenes
+  - Cycle: `T30.G5.05 -> T30.G4.05 -> T30.G4.05`
+
+- **[T30.G5.05]** Configure 3D cameras for CreatiCode game scenes
+  - Cycle: `T30.G5.05 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T30.G5.05]** Enable mouse picking and hovering for 3D objects
+  - Cycle: `T30.G5.05 -> T30.G5.05`
+
+- **[T30.G5.06]** Use face detection in CreatiCode interactive projects
+  - Cycle: `T30.G5.06 -> T30.G3.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T30.G5.06]** Use face detection in CreatiCode interactive projects
+  - Cycle: `T30.G5.06 -> T30.G4.01 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T30.G5.06]** Select appropriate sensors for different CreatiCode project types
+  - Cycle: `T30.G5.06 -> T30.G5.05 -> T30.G4.05 -> T30.G3.05 -> T09.G3.01 -> T09.G3.01`
+
+- **[T30.G5.06]** Select appropriate sensors for different CreatiCode project types
+  - Cycle: `T30.G5.06 -> T30.G5.05 -> T30.G4.05 -> T30.G4.05`
+
+- **[T30.G5.06]** Select appropriate sensors for different CreatiCode project types
+  - Cycle: `T30.G5.06 -> T30.G5.05 -> T30.G5.05`
+
+- **[T30.G5.06]** Select appropriate sensors for different CreatiCode project types
+  - Cycle: `T30.G5.06 -> T30.G4.03 -> T30.G4.03`
+
+- **[T31.G5.02]** Decide when apps need the internet vs work offline
+  - Cycle: `T31.G5.02 -> T30.G3.01 -> T10.G3.01 -> T10.G3.01`
+
+- **[T31.G5.03]** Fetch and display a web page as markdown
+  - Cycle: `T31.G5.03 -> T09.G3.01 -> T09.G3.01`
+
+- **[T31.G5.04]** Create and join a multiplayer game session
+  - Cycle: `T31.G5.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T31.G5.04]** List available multiplayer games
+  - Cycle: `T31.G5.04 -> T31.G5.04`
+
+- **[T31.G5.05]** Check multiplayer connection status
+  - Cycle: `T31.G5.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T31.G5.05]** Check multiplayer connection status
+  - Cycle: `T31.G5.05 -> T31.G5.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T31.G5.05]** Check multiplayer connection status
+  - Cycle: `T31.G5.05 -> T31.G5.04 -> T31.G5.04`
+
+- **[T32.G5.03]** Compare privacy policies of kid-friendly apps
+  - Cycle: `T32.G5.03 -> T32.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T32.G5.04]** Review and identify PII in AI project data
+  - Cycle: `T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T32.G5.04]** Review and identify PII in AI project data
+  - Cycle: `T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T32.G5.04]** Review and identify PII in AI project data
+  - Cycle: `T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T32.G5.04]** Review and identify PII in AI project data
+  - Cycle: `T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T32.G5.04]** Review and identify PII in AI project data
+  - Cycle: `T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T32.G5.05]** Practice redacting sensitive data before sharing
+  - Cycle: `T32.G5.05 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T32.G5.05]** Practice redacting sensitive data before sharing
+  - Cycle: `T32.G5.05 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T32.G5.05]** Practice redacting sensitive data before sharing
+  - Cycle: `T32.G5.05 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T32.G5.05]** Practice redacting sensitive data before sharing
+  - Cycle: `T32.G5.05 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T32.G5.05]** Practice redacting sensitive data before sharing
+  - Cycle: `T32.G5.05 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T32.G5.06]** Understand consent for AI data collection
+  - Cycle: `T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T32.G5.06]** Understand consent for AI data collection
+  - Cycle: `T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T32.G5.06]** Understand consent for AI data collection
+  - Cycle: `T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T32.G5.06]** Understand consent for AI data collection
+  - Cycle: `T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T32.G5.06]** Understand consent for AI data collection
+  - Cycle: `T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T32.G5.07]** Create backup plans for CreatiCode projects
+  - Cycle: `T32.G5.07 -> T32.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T32.G5.08]** Add consent prompts to AI projects
+  - Cycle: `T32.G5.08 -> T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T06.G3.06 -> T06.G3.05 -> T08.G3.01 -> T08.G3.01`
+
+- **[T32.G5.08]** Add consent prompts to AI projects
+  - Cycle: `T32.G5.08 -> T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T06.G3.08 -> T06.G3.07 -> T09.G3.01 -> T09.G3.01`
+
+- **[T32.G5.08]** Add consent prompts to AI projects
+  - Cycle: `T32.G5.08 -> T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T32.G5.08]** Add consent prompts to AI projects
+  - Cycle: `T32.G5.08 -> T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T32.G5.08]** Add consent prompts to AI projects
+  - Cycle: `T32.G5.08 -> T32.G5.06 -> T32.G5.04 -> T22.G5.02 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T32.G5.09]** Understand why encryption protects data (unplugged activity)
+  - Cycle: `T32.G5.09 -> T32.G5.03 -> T32.G3.04 -> T09.G3.01 -> T09.G3.01`
+
+- **[T35.G5.01]** Examine global impacts of technology
+  - Cycle: `T35.G5.01 -> T35.G4.01 -> T35.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T35.G5.01]** Examine global impacts of technology
+  - Cycle: `T35.G5.01 -> T35.G4.01 -> T35.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T35.G5.01]** Examine global impacts of technology
+  - Cycle: `T35.G5.01 -> T35.G4.01 -> T16.G4.01 -> T16.G4.01`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.01 -> T35.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.01 -> T35.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.01 -> T16.G4.01 -> T16.G4.01`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.03 -> T35.G4.03`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.03 -> T22.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.03 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T35.G5.02]** Debate digital well-being scenarios
+  - Cycle: `T35.G5.02 -> T35.G4.03 -> T22.G4.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T35.G5.03]** Analyze AI's differential impacts on workers and communities
+  - Cycle: `T35.G5.03 -> T35.G4.01 -> T35.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T35.G5.03]** Analyze AI's differential impacts on workers and communities
+  - Cycle: `T35.G5.03 -> T35.G4.01 -> T35.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T35.G5.03]** Analyze AI's differential impacts on workers and communities
+  - Cycle: `T35.G5.03 -> T35.G4.01 -> T16.G4.01 -> T16.G4.01`
+
+- **[T35.G5.03]** Analyze AI's differential impacts on workers and communities
+  - Cycle: `T35.G5.03 -> T35.G4.02 -> T35.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T35.G5.03 -> T35.G4.01 -> T35.G3.01 -> T08.G3.01 -> T08.G3.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T35.G5.03 -> T35.G4.01 -> T35.G3.01 -> T09.G3.01 -> T09.G3.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T35.G5.03 -> T35.G4.01 -> T16.G4.01 -> T16.G4.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T35.G5.03 -> T35.G4.02 -> T35.G3.02 -> T10.G3.01 -> T10.G3.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T19.G5.01 -> T06.G4.01 -> T06.G3.09 -> T09.G3.02 -> T09.G3.02`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T19.G5.01 -> T08.G4.01 -> T08.G4.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T19.G5.01 -> T08.G4.01 -> T08.G4.00 -> T08.G4.00`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T19.G5.01 -> T14.G5.01 -> T14.G5.01`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T16.G5.01 -> T16.G4.08 -> T16.G4.08`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T16.G5.01 -> T09.G3.05 -> T08.G3.04 -> T08.G3.03 -> T08.G3.03`
+
+- **[T35.G5.04]** Visualize stakeholder impacts using data tools
+  - Cycle: `T35.G5.04 -> T16.G5.01 -> T09.G3.05 -> T08.G3.04 -> T07.G3.03 -> T04.G3.04 -> T04.G3.04`
+
+- **[T36.G5.02]** Follow a plan-build-feedback cycle
+  - Cycle: `T36.G5.02 -> T36.G4.02 -> T36.G3.02 -> T09.G3.01 -> T09.G3.01`
+
+## Potentially Redundant Dependencies
+
+Review these dependencies manually. Keeping them does no harm:
+
+- **[T01.G5.01]** Match a word description to a flowchart
+  - `T06.G3.01`: Reachable via T02.G4.01
+  - `T02.G3.01`: Reachable via T02.G4.01
+
+- **[T01.G5.02]** Convert a sequential flowchart into code
+  - `T06.G3.01`: Reachable via T01.G5.01
+  - `T06.G3.01`: Reachable via T02.G4.02
+  - `T09.G3.01`: Reachable via T01.G5.02
+
+- **[T01.G5.03]** Convert a short program into pseudocode
+  - `T09.G3.01`: Reachable via T01.G5.02
+
+- **[T01.G5.04]** Trace a "find the largest" algorithm
+  - `T06.G3.01`: Reachable via T07.G3.01
+  - `T06.G3.01`: Reachable via T07.G3.01
+
+- **[T01.G5.06]** Compare two algorithms for step counts (efficiency)
+  - `T06.G3.01`: Reachable via T07.G3.01
+
+- **[T01.G5.07]** Debug an algorithm that mis‑handles a simple edge case
+  - `T08.G3.01`: Reachable via T01.G5.05
+
+- **[T01.G5.08]** Add checks to handle edge cases
+  - `T08.G3.01`: Reachable via T01.G5.07
+
+- **[T01.G5.09]** Explain why an algorithm is correct using loops and variables
+  - `T07.G3.01`: Reachable via T01.G5.04
+  - `T09.G3.01`: Reachable via T01.G5.04
+
+- **[T01.G5.10]** Rewrite a long algorithm using loops
+  - `T06.G3.01`: Reachable via T07.G3.01
+
+- **[T03.G5.01]** Create a feature list and subtask breakdown
+  - `T06.G3.01`: Reachable via T03.G4.01
+
+- **[T04.G5.02]** Compare counter and accumulator patterns and choose appropriately
+  - `T04.G5.01`: Reachable via T04.G5.02
+
+- **[T04.G5.05]** Compare solutions that use a pattern vs those that don't
+  - `T09.G3.01`: Reachable via T04.G4.06
+
+- **[T04.G5.06]** Identify changeable vs fixed parts in a template
+  - `T04.G3.04`: Reachable via T04.G4.03
+
+- **[T04.G5.07]** Apply a counter pattern to solve a counting problem
+  - `T09.G3.01`: Reachable via T04.G5.01
+
+- **[T06.G5.01]** Identify standard event patterns in a small game
+  - `T06.G4.04`: Reachable via T06.G4.07
+
+- **[T06.G5.03]** Design a simple broadcast sequence for level start/end
+  - `T06.G4.04`: Reachable via T06.G4.07
+
+- **[T06.G5.07]** Use a "when condition becomes true" event for state changes
+  - `T06.G4.01`: Reachable via T06.G5.01
+
+- **[T06.G5.08]** Use 'broadcast with parameter and wait' for sequenced data passing
+  - `T06.G4.04`: Reachable via T06.G5.08
+
+- **[T06.G5.10]** Use condition events to trigger reactive updates
+  - `T09.G4.01`: Reachable via T06.G5.07
+
+- **[T08.G5.03]** Combine three or more conditions
+  - `T08.G4.05`: Reachable via T08.G4.08
+
+- **[T09.G5.05]** Use the accumulator pattern to compute running totals
+  - `T09.G4.05`: Reachable via T09.G4.09
+
+- **[T10.G5.06]** Find which row contains a value
+  - `T10.G4.01`: Reachable via T10.G5.06
+
+- **[T10.G5.07]** Loop through table rows to compute aggregates
+  - `T07.G3.01`: Reachable via T10.G5.06
+
+- **[T10.G5.10]** Convert between lists and tables
+  - `T10.G3.01`: Reachable via T10.G5.03
+
+- **[T10.G5.12]** Copy list data to table column
+  - `T10.G5.02`: Reachable via T10.G5.10
+  - `T10.G3.01`: Reachable via T10.G5.02
+
+- **[T10.G5.14]** Replace an entire row in a table
+  - `T10.G5.03`: Reachable via T10.G5.05
+
+- **[T10.G5.16]** Find a row by partial match
+  - `T09.G4.02`: Reachable via T10.G4.19
+
+- **[T10.G5.17]** Increment or decrement a table cell value
+  - `T10.G5.04`: Reachable via T10.G5.05
+
+- **[T11.G5.02]** Use custom blocks with parameters in a larger project
+  - `T11.G4.07`: Reachable via T11.G4.08
+
+- **[T11.G5.03]** Match parameter names to argument values when calling custom blocks
+  - `T11.G4.07`: Reachable via T11.G5.02
+
+- **[T11.G5.06]** Define a custom block with two or more parameters
+  - `T11.G4.07`: Reachable via T11.G5.03
+
+- **[T11.G5.07]** Decide whether a custom block should be a command or reporter
+  - `T11.G4.07`: Reachable via T11.G5.02
+
+- **[T11.G5.10]** Use comments to document custom block purpose
+  - `T11.G4.07`: Reachable via T11.G5.08
+
+- **[T12.G5.05]** Create custom blocks with natural language-style signatures
+  - `T12.G4.05`: Reachable via T12.G5.05
+  - `T12.G4.05`: Reachable via T12.G5.05
+
+- **[T13.G5.02]** Add input validation to handle invalid entries
+  - `T08.G3.01`: Reachable via T13.G4.02
+
+- **[T13.G5.05]** Debug complex two-level nested structures
+  - `T07.G3.01`: Reachable via T13.G4.01
+  - `T08.G3.01`: Reachable via T13.G4.01
+
+- **[T13.G5.06]** Debug deeply nested structures (three+ levels)
+  - `T07.G3.01`: Reachable via T13.G5.05
+  - `T08.G3.01`: Reachable via T13.G5.05
+
+- **[T13.G5.07]** Read and interpret error indicators
+  - `T06.G3.01`: Reachable via T13.G4.07
+  - `T13.G4.07`: Reachable via T13.G5.01
+
+- **[T13.G5.08]** Debug a program with limited changes allowed
+  - `T13.G4.07`: Reachable via T13.G5.01
+
+- **[T13.G5.09]** Use breakpoint blocks to stop execution at specific points
+  - `T13.G5.01`: Reachable via T13.G5.07
+
+- **[T13.G5.10]** Interpret console output and error messages
+  - `T13.G4.09`: Reachable via T13.G5.07
+
+- **[T14.G5.01]** Understand velocity variables
+  - `T09.G3.01`: Reachable via T14.G3.11
+  - `T09.G3.01`: Reachable via T14.G5.01
+
+- **[T14.G5.03]** Fix ground collisions by snapping to surface
+  - `T08.G3.05`: Reachable via T14.G5.03
+
+- **[T14.G5.05]** Lock viewport to the player
+  - `T07.G3.05`: Reachable via T14.G5.04
+
+- **[T14.G5.07]** Spawn near the viewport
+  - `T07.G3.05`: Reachable via T14.G5.06
+
+- **[T14.G5.09]** High score list
+  - `T10.G3.01`: Reachable via T14.G4.06
+
+- **[T14.G5.10]** Inventory system
+  - `T10.G3.01`: Reachable via T14.G4.12
+
+- **[T14.G5.11]** Initialize 2D physics world
+  - `T09.G3.01`: Reachable via T14.G5.01
+  - `T09.G3.01`: Reachable via T14.G5.11
+  - `T09.G3.01`: Reachable via T14.G5.11
+  - `T09.G3.01`: Reachable via T14.G5.11
+  - `T09.G3.01`: Reachable via T14.G5.11
+  - `T09.G3.01`: Reachable via T14.G5.11
+  - `T09.G5.01`: Reachable via T14.G5.11
+  - `T09.G5.01`: Reachable via T14.G5.11
+  - `T09.G5.01`: Reachable via T14.G5.11
+  - `T09.G5.01`: Reachable via T14.G5.11
+
+- **[T15.G5.06]** Text effects (Typewriter)
+  - `T07.G3.01`: Reachable via T15.G5.05
+
+- **[T15.G5.07]** Track story choices
+  - `T09.G3.01`: Reachable via T15.G4.06
+
+- **[T15.G5.08]** Conditional endings
+  - `T08.G3.01`: Reachable via T15.G5.07
+
+- **[T15.G5.09]** Create dynamic visual effects with shape drawing
+  - `T07.G3.01`: Reachable via T15.G5.09
+  - `T09.G3.02`: Reachable via T15.G5.09
+
+- **[T15.G5.12]** Basic text-to-speech with AI voices
+  - `T15.G3.04`: Reachable via T15.G4.05
+
+- **[T16.G5.04]** Implement a responsive HUD that reacts to game state
+  - `T09.G3.05`: Reachable via T16.G4.06
+  - `T16.G4.09`: Reachable via T16.G5.04
+  - `T07.G4.03`: Reachable via T16.G5.04
+
+- **[T16.G5.05]** Control video playback with advanced features
+  - `T06.G4.03`: Reachable via T16.G5.05
+  - `T06.G4.03`: Reachable via T16.G5.05
+
+- **[T16.G5.06]** Create a chat window widget for messaging
+  - `T16.G4.08`: Reachable via T16.G5.06
+
+- **[T16.G5.07]** Create a toolbox widget for item selection
+  - `T16.G4.02`: Reachable via T16.G4.06
+
+- **[T17.G5.02]** Track gravity with velocity variables
+  - `T09.G3.05`: Reachable via T17.G4.02
+
+- **[T17.G5.04]** Code a manual bounce with energy loss
+  - `T08.G3.01`: Reachable via T17.G5.02
+
+- **[T17.G5.05]** Initialize a 2D physics world
+  - `T06.G3.01`: Reachable via T17.G4.02
+
+- **[T20.G5.01]** Map data to two visual properties
+  - `T10.G5.01`: Reachable via T20.G5.01
+
+- **[T20.G5.02]** Animate a pattern with a counter variable
+  - `T07.G3.05`: Reachable via T20.G4.01
+
+- **[T20.G5.04]** Create fractal-like nested patterns
+  - `T07.G3.05`: Reachable via T20.G4.02
+  - `T20.G4.01`: Reachable via T20.G5.02
+
+- **[T21.G5.01]** Decide AI vs hand-made for a single asset type
+  - `T21.G4.01`: Reachable via T21.G4.03
+
+- **[T21.G5.05]** Explain why AI content needs safety review
+  - `T21.G4.01`: Reachable via T21.G4.03
+
+- **[T22.G5.03]** Experiment with prompt phrasing to improve responses
+  - `T22.G4.01`: Reachable via T22.G5.02
+
+- **[T22.G5.04]** Use a chatbot block to get AI responses
+  - `T22.G5.01`: Reachable via T22.G5.03
+
+- **[T22.G5.05]** Identify ChatGPT block parameters in starter code
+  - `T22.G5.02`: Reachable via T22.G5.04
+
+- **[T23.G5.01]** Compare what people see vs what pixels show
+  - `T08.G3.05`: Reachable via T23.G4.01
+
+- **[T23.G5.02]** Explain why an AI might mis-hear or mis-see
+  - `T08.G3.05`: Reachable via T23.G4.03
+
+- **[T23.G5.03]** Choose safe ways to handle sensor data
+  - `T08.G3.05`: Reachable via T23.G4.02
+
+- **[T23.G5.04]** Identify when AI sensing might be unfair
+  - `T08.G3.05`: Reachable via T23.G4.03
+
+- **[T24.G5.01]** Navigate XO's interface (chat, templates, tabs)
+  - `T24.G4.03`: Reachable via T24.G4.07
+
+- **[T24.G5.03]** Turn an XO suggestion into starter code safely
+  - `T24.G5.01`: Reachable via T24.G5.02
+
+- **[T24.G5.07]** Use basic ChatGPT block with default settings
+  - `T06.G3.01`: Reachable via T24.G4.02
+  - `T09.G3.01`: Reachable via T24.G4.02
+  - `T24.G4.02`: Reachable via T24.G4.06
+
+- **[T24.G5.08]** Use continuous speech recognition for live voice input
+  - `T06.G3.01`: Reachable via T24.G3.01
+
+- **[T24.G5.11]** Understand AI image search vs generation
+  - `T24.G4.01`: Reachable via T24.G5.04
+
+- **[T24.G5.12]** Understand classification and pattern recognition concepts
+  - `T09.G3.01`: Reachable via T24.G5.05
+
+- **[T25.G5.01]** Design multi-type data structures on paper
+  - `T25.G3.02`: Reachable via T25.G4.01
+
+- **[T25.G5.04]** Encode categorical values with numeric codes
+  - `T25.G3.02`: Reachable via T25.G4.04
+
+- **[T25.G5.05]** Add meaningful default values to data fields
+  - `T25.G3.02`: Reachable via T25.G4.01
+
+- **[T26.G5.01]** Add print statements to track events during execution
+  - `T09.G3.05`: Reachable via T26.G4.02
+
+- **[T26.G5.02]** Plan sampling strategies
+  - `T08.G3.01`: Reachable via T09.G3.05
+
+- **[T26.G5.03]** Validate data entry with error checks
+  - `T08.G3.01`: Reachable via T09.G3.05
+  - `T09.G3.05`: Reachable via T26.G4.03
+  - `T10.G3.03`: Reachable via T26.G4.03
+
+- **[T26.G5.04]** Store logs in CreatiCode tables for export
+  - `T09.G3.05`: Reachable via T26.G5.01
+  - `T10.G4.02`: Reachable via T26.G5.04
+  - `T26.G5.01`: Reachable via T26.G5.04
+
+- **[T26.G5.05]** Insert table data into cloud database collection
+  - `T10.G4.02`: Reachable via T26.G5.04
+  - `T10.G4.02`: Reachable via T26.G5.05
+
+- **[T26.G5.06]** Record player scores to leaderboard
+  - `T10.G4.02`: Reachable via T26.G5.05
+  - `T10.G4.02`: Reachable via T26.G5.06
+
+- **[T26.G5.07]** Collect face detection data into tables
+  - `T10.G4.02`: Reachable via T26.G5.04
+
+- **[T26.G5.08]** Export and import list variables to/from files
+  - `T09.G3.05`: Reachable via T26.G4.05
+  - `T10.G3.03`: Reachable via T26.G4.05
+  - `T10.G4.02`: Reachable via T26.G5.04
+  - `T26.G5.04`: Reachable via T26.G5.08
+
+- **[T26.G5.09]** Collect data from two synchronized sensors
+  - `T10.G4.02`: Reachable via T26.G5.04
+
+- **[T27.G5.00]** Calculate percentages from grouped data
+  - `T09.G3.01`: Reachable via T27.G3.03
+
+- **[T27.G5.01]** Build a simple interactive dashboard with filter widgets
+  - `T27.G4.02`: Reachable via T27.G4.04
+  - `T27.G3.01`: Reachable via T27.G4.04
+
+- **[T27.G5.02]** Correlate two variables visually
+  - `T09.G4.01`: Reachable via T27.G5.00
+
+- **[T27.G5.03]** Compare data from two sensors or sources
+  - `T09.G3.05`: Reachable via T27.G5.02
+  - `T26.G3.04`: Reachable via T27.G5.02
+
+- **[T28.G5.01]** Analyze compound event distributions
+  - `T27.G3.04`: Reachable via T28.G5.01
+
+- **[T28.G5.09]** Calculate expected value for simple scenarios
+  - `T28.G5.05`: Reachable via T28.G5.06
+
+- **[T28.G5.11]** Demonstrate the law of large numbers
+  - `T28.G4.03`: Reachable via T28.G5.06
+
+- **[T29.G5.03]** Build stop-word filter using tables
+  - `T11.G5.01`: Reachable via T29.G5.03
+
+- **[T29.G5.04]** Score text using sentiment word lists
+  - `T08.G4.01`: Reachable via T29.G5.04
+
+- **[T29.G5.08]** Build word frequency table
+  - `T07.G3.03`: Reachable via T29.G4.06
+  - `T08.G3.01`: Reachable via T29.G4.06
+  - `T09.G3.05`: Reachable via T29.G4.10
+  - `T10.G3.03`: Reachable via T29.G4.06
+  - `T11.G5.01`: Reachable via T29.G5.08
+
+- **[T29.G5.09]** Highlight keywords in text display
+  - `T06.G3.01`: Reachable via T07.G3.03
+
+- **[T30.G5.05]** Enable mouse picking and hovering for 3D objects
+  - `T30.G4.05`: Reachable via T30.G5.05
+
+- **[T31.G5.04]** List available multiplayer games
+  - `T09.G3.01`: Reachable via T31.G5.04
+
+- **[T32.G5.09]** Understand why encryption protects data (unplugged activity)
+  - `T32.G3.03`: Reachable via T32.G5.03
+
+- **[T32.G5.10]** Evaluate password strength
+  - `T32.G3.02`: Reachable via T32.G4.04
+
+- **[T33.G5.02]** Distinguish real-time collaboration from one-time requests
+  - `T31.G5.01`: Reachable via T33.G5.01
+
+- **[T33.G5.03]** Understand that shared URLs grant public access
+  - `T31.G5.01`: Reachable via T33.G5.01
+
+- **[T34.G5.02]** Compare invention timelines across industries
+  - `T34.G3.01`: Reachable via T34.G4.02
+
+- **[T36.G5.01]** Map personal interests to tech pathways
+  - `T36.G4.01`: Reachable via T36.G4.04
+
+- **[T36.G5.03]** Evaluate representation and inclusion in tech career stories
+  - `T36.G3.01`: Reachable via T36.G4.01
+
+## Implementation Notes
+
+### Critical Rules
+
+- **NEVER delete skills**
+- Only remove dependencies if genuinely incorrect or truly redundant
+- Be conservative - when in doubt, keep dependencies
+- Add dependencies liberally for prerequisites
+- Focus on cross-topic connections
+
+### Next Steps
+
+1. Review suggested dependency additions
+2. Manually resolve circular dependencies
+3. Apply changes to allskills.md
+4. Validate with automated tests
+

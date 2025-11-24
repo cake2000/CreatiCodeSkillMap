@@ -1,0 +1,682 @@
+Reading /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md...
+Total lines: 24634
+
+Updating T01.G5.02.01.01 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.01.02 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.01.03 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.01.04 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.02.01 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.02.02 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.02.03 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.02.02.04 (from T01.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.09 (from T01.G5.09):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T01.G5.10 (from T01.G5.10):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T02.G5.01 (from T02.G5.01):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T02.G5.02 (from T02.G5.02):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T03.G5.03 (from T03.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T03.G5.04 (from T03.G5.04):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T03.G5.06 (from T03.G5.06):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T04.G5.03 (from T04.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T04.G5.03.01 (from T04.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T04.G5.06 (from T04.G5.06):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T05.G5.03 (from T05.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T05.G5.05 (from T05.G5.05):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T06.G5.01 (from T06.G5.01):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T06.G5.07 (from T06.G5.07):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T06.G5.08.01 (from T06.G5.08):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T06.G5.08.02 (from T06.G5.08):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T06.G5.08.03 (from T06.G5.08):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T06.G5.10 (from T06.G5.10):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T06.G5.10.01 (from T06.G5.10):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T07.G5.01 (from T07.G5.01):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T07.G5.02 (from T07.G5.02):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T07.G5.03 (from T07.G5.03):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T07.G5.04 (from T07.G5.04):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T08.G5.03 (from T08.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T08.G5.05 (from T08.G5.05):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T08.G5.06 (from T08.G5.06):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T09.G5.06 (from T09.G5.06):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T10.G5.09.01 (from T10.G5.09):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T10.G5.09.02 (from T10.G5.09):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T10.G5.09.03 (from T10.G5.09):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T10.G5.11.01 (from T10.G5.11):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T10.G5.11.02 (from T10.G5.11):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T10.G5.11.03 (from T10.G5.11):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T10.G5.13 (from T10.G5.13):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T11.G5.01 (from T11.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.02 (from T11.G5.02):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.03 (from T11.G5.03):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.04 (from T11.G5.04):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.06 (from T11.G5.06):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.07 (from T11.G5.07):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.08 (from T11.G5.08):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.09 (from T11.G5.09):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.10 (from T11.G5.10):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T11.G5.11 (from T11.G5.11):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T13.G5.05 (from T13.G5.05):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T13.G5.06 (from T13.G5.06):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T13.G5.09 (from T13.G5.09):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T14.G5.01.01 (from T14.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T14.G5.01.02 (from T14.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T14.G5.01.03 (from T14.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T15.G5.02 (from T15.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T15.G5.02.01 (from T15.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T15.G5.08 (from T15.G5.08):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T18.G5.04.01 (from T18.G5.04):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T18.G5.04.02 (from T18.G5.04):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T20.G5.04 (from T20.G5.04):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T20.G5.04.00 (from T20.G5.04):
+  Current deps: []
+  Adding: ['T10.G3.05', 'T10.G4.18']
+
+Updating T21.G5.03 (from T21.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03', 'T12.G3.05', 'T12.G4.05']
+
+Updating T21.G5.07 (from T21.G5.07):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T22.G5.05 (from T22.G5.05):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T09.G3.03', 'T12.G4.05']
+
+Updating T23.G5.04 (from T23.G5.04):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T23.G5.05 (from T23.G5.05):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T24.G5.07.01 (from T24.G5.07):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T24.G5.07.02 (from T24.G5.07):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T24.G5.07.03 (from T24.G5.07):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T24.G5.12 (from T24.G5.12):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T25.G5.01.01 (from T25.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T25.G5.01.02.01 (from T25.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T25.G5.01.02.02 (from T25.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T25.G5.01.02.03 (from T25.G5.01):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T25.G5.02.01 (from T25.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T25.G5.02.02.01 (from T25.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T25.G5.02.02.02 (from T25.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T25.G5.02.02.03 (from T25.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T25.G5.02.02.04 (from T25.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T25.G5.02.02.05 (from T25.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T28.G5.02 (from T28.G5.02):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T30.G5.01 (from T30.G5.01):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T30.G5.02 (from T30.G5.02):
+  Current deps: []
+  Adding: ['T12.G3.05', 'T12.G4.05']
+
+Updating T30.G5.03 (from T30.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T30.G5.06 (from T30.G5.06):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T30.G5.06.01 (from T30.G5.06):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T32.G5.04 (from T32.G5.04):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Updating T35.G5.03 (from T35.G5.03):
+  Current deps: []
+  Adding: ['T09.G3.03']
+
+Writing to /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md...
+
+======================================================================
+SUMMARY OF CHANGES
+======================================================================
+
+Total Grade 5 skills updated: 61
+Total dependencies added: 152
+
+Changes by topic:
+
+T01:
+  T01.G5.02.01.01 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.01.02 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.01.03 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.01.04 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.02.01 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.02.02 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.02.03 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.02.02.04 (from T01.G5.02): added 3 dependencies
+    + T09.G3.03
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.09: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T01.G5.10: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+
+T02:
+  T02.G5.01: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T02.G5.02: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+
+T03:
+  T03.G5.03: added 1 dependencies
+    + T09.G3.03
+  T03.G5.04: added 1 dependencies
+    + T09.G3.03
+  T03.G5.06: added 1 dependencies
+    + T09.G3.03
+
+T04:
+  T04.G5.03: added 1 dependencies
+    + T09.G3.03
+  T04.G5.03.01 (from T04.G5.03): added 1 dependencies
+    + T09.G3.03
+  T04.G5.06: added 1 dependencies
+    + T09.G3.03
+
+T05:
+  T05.G5.03: added 1 dependencies
+    + T09.G3.03
+  T05.G5.05: added 1 dependencies
+    + T09.G3.03
+
+T06:
+  T06.G5.01: added 1 dependencies
+    + T09.G3.03
+  T06.G5.07: added 1 dependencies
+    + T09.G3.03
+  T06.G5.08.01 (from T06.G5.08): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T06.G5.08.02 (from T06.G5.08): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T06.G5.08.03 (from T06.G5.08): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T06.G5.10: added 1 dependencies
+    + T09.G3.03
+  T06.G5.10.01 (from T06.G5.10): added 1 dependencies
+    + T09.G3.03
+
+T07:
+  T07.G5.01: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T07.G5.02: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T07.G5.03: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T07.G5.04: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+
+T08:
+  T08.G5.03: added 1 dependencies
+    + T09.G3.03
+  T08.G5.05: added 1 dependencies
+    + T09.G3.03
+  T08.G5.06: added 1 dependencies
+    + T09.G3.03
+
+T09:
+  T09.G5.06: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+
+T10:
+  T10.G5.09.01 (from T10.G5.09): added 1 dependencies
+    + T09.G3.03
+  T10.G5.09.02 (from T10.G5.09): added 1 dependencies
+    + T09.G3.03
+  T10.G5.09.03 (from T10.G5.09): added 1 dependencies
+    + T09.G3.03
+  T10.G5.11.01 (from T10.G5.11): added 1 dependencies
+    + T09.G3.03
+  T10.G5.11.02 (from T10.G5.11): added 1 dependencies
+    + T09.G3.03
+  T10.G5.11.03 (from T10.G5.11): added 1 dependencies
+    + T09.G3.03
+  T10.G5.13: added 1 dependencies
+    + T09.G3.03
+
+T11:
+  T11.G5.01: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.02: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.03: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.04: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.06: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.07: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.08: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.09: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.10: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T11.G5.11: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+
+T13:
+  T13.G5.05: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T13.G5.06: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T13.G5.09: added 1 dependencies
+    + T09.G3.03
+
+T14:
+  T14.G5.01.01 (from T14.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T14.G5.01.02 (from T14.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T14.G5.01.03 (from T14.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+
+T15:
+  T15.G5.02: added 1 dependencies
+    + T09.G3.03
+  T15.G5.02.01 (from T15.G5.02): added 1 dependencies
+    + T09.G3.03
+  T15.G5.08: added 1 dependencies
+    + T09.G3.03
+
+T18:
+  T18.G5.04.01 (from T18.G5.04): added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T18.G5.04.02 (from T18.G5.04): added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+
+T20:
+  T20.G5.04: added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+  T20.G5.04.00 (from T20.G5.04): added 2 dependencies
+    + T10.G3.05
+    + T10.G4.18
+
+T21:
+  T21.G5.03: added 3 dependencies
+    + T09.G3.03
+    + T12.G3.05
+    + T12.G4.05
+  T21.G5.07: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+
+T22:
+  T22.G5.05: added 3 dependencies
+    + T12.G3.05
+    + T09.G3.03
+    + T12.G4.05
+
+T23:
+  T23.G5.04: added 1 dependencies
+    + T09.G3.03
+  T23.G5.05: added 1 dependencies
+    + T09.G3.03
+
+T24:
+  T24.G5.07.01 (from T24.G5.07): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T24.G5.07.02 (from T24.G5.07): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T24.G5.07.03 (from T24.G5.07): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T24.G5.12: added 1 dependencies
+    + T09.G3.03
+
+T25:
+  T25.G5.01.01 (from T25.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T25.G5.01.02.01 (from T25.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T25.G5.01.02.02 (from T25.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T25.G5.01.02.03 (from T25.G5.01): added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T25.G5.02.01 (from T25.G5.02): added 1 dependencies
+    + T09.G3.03
+  T25.G5.02.02.01 (from T25.G5.02): added 1 dependencies
+    + T09.G3.03
+  T25.G5.02.02.02 (from T25.G5.02): added 1 dependencies
+    + T09.G3.03
+  T25.G5.02.02.03 (from T25.G5.02): added 1 dependencies
+    + T09.G3.03
+  T25.G5.02.02.04 (from T25.G5.02): added 1 dependencies
+    + T09.G3.03
+  T25.G5.02.02.05 (from T25.G5.02): added 1 dependencies
+    + T09.G3.03
+
+T28:
+  T28.G5.02: added 1 dependencies
+    + T09.G3.03
+
+T30:
+  T30.G5.01: added 1 dependencies
+    + T09.G3.03
+  T30.G5.02: added 2 dependencies
+    + T12.G3.05
+    + T12.G4.05
+  T30.G5.03: added 1 dependencies
+    + T09.G3.03
+  T30.G5.06: added 1 dependencies
+    + T09.G3.03
+  T30.G5.06.01 (from T30.G5.06): added 1 dependencies
+    + T09.G3.03
+
+T32:
+  T32.G5.04: added 1 dependencies
+    + T09.G3.03
+
+T35:
+  T35.G5.03: added 1 dependencies
+    + T09.G3.03
+
+======================================================================
+Updated file saved to: /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md
+======================================================================
+
+FINAL STATUS: SUCCESS
+File updated: /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md

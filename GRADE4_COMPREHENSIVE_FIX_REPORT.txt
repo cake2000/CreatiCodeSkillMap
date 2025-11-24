@@ -1,0 +1,1245 @@
+================================================================================
+GRADE 4 COMPREHENSIVE DEPENDENCY ANALYSIS - ALL 36 TOPICS
+================================================================================
+
+1. TOTAL GRADE 4 SKILLS ANALYZED: 303
+
+2. SPECIFIC DEPENDENCY CHANGES:
+--------------------------------------------------------------------------------
+
+DEPENDENCIES ADDED: 606
+  T01.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T01.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T01.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T01.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T01.G4.03: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.03: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.04: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.04: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.05.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.05.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.05.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.05.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.06.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.06.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.06.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.06.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.07: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.07: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.08: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.08: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.09: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.09: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T01.G4.10: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.10: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.11: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.11: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.12: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.12: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.13: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T01.G4.13: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T02.G4.01: Added T03.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T02.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T02.G4.02: Added T03.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T02.G4.02: Added T13.G2.01
+    Reason: Uses basic motion but missing foundational dependency
+  T02.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T02.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T02.G4.04: Added T03.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T02.G4.04: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T02.G4.05: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T02.G4.05: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T02.G4.06: Added T03.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T02.G4.06: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T02.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T02.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T03.G4.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T03.G4.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T03.G4.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T03.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T03.G4.03: Added T15.G3.01
+    Reason: Uses user input sensing but missing foundational dependency
+  T03.G4.03: Added T16.G3.01
+    Reason: Uses user input sensing but missing foundational dependency
+  T03.G4.04: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T03.G4.04: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T03.G4.05: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T03.G4.05: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T03.G4.06: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T03.G4.06: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T04.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.01.01: Added T05.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T04.G4.01.01: Added T05.G3.01
+    Reason: Uses variable operations but missing foundational dependency
+  T04.G4.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T04.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T04.G4.04: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T04.G4.04: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T04.G4.05: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.05: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.06: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.06: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T04.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T04.G4.08: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.08: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.09: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T04.G4.09: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T05.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T05.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T05.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.04: Added T13.G3.01
+    Reason: Uses coordinate motion but missing foundational dependency
+  T05.G4.04: Added T17.G2.01
+    Reason: Uses math operations but missing foundational dependency
+  T05.G4.04a: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T05.G4.04a: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T05.G4.05: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T05.G4.05: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T05.G4.06: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.06: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T05.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.01: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.02: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.03: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.03: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.04: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.04.01: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.04.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.05: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.05: Added T08.G3.01
+    Reason: Uses event broadcasting but missing foundational dependency
+  T06.G4.06: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.06: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.07: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.07: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.08.01: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.08.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.08.02: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.08.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.08.03: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.08.03: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.09: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T06.G4.09: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T06.G4.10: Added T07.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T06.G4.10: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T06.G4.10.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T06.G4.10.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T07.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.03: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.03: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.03.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.03.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.04: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.04: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.05: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.05: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.06: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.06: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.07: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.07: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.08: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T07.G4.08: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T08.G4.00: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.00: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.00b: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.00b: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.01a: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.01a: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.01b: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.01b: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.03a: Added T02.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.03a: Added T03.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.03b: Added T02.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.03b: Added T03.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.04: Added T02.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.04: Added T03.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.05: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.05: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.05a: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.05a: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.05b: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.05b: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.06: Added T02.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.06: Added T03.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T08.G4.07: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.07: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.08: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.08: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T08.G4.09: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T08.G4.09: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.01.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.01.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T09.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T09.G4.02.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T09.G4.02.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T09.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T09.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T09.G4.04: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.04: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.05: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T09.G4.05: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T09.G4.06: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.06: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.06.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.06.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.06.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T09.G4.06.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T09.G4.06.03: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.06.03: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.07: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.07: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.08: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.08: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.08.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.08.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T09.G4.09: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T09.G4.09: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.04: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.04: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.05: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.05: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.06.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.06.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.06.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.06.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.06.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.06.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.06.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.06.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.06.05: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.06.05: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.07: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.07: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.08: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.08: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.09: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.09: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.10: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.10: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.11.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.11.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.11.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.11.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.12: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.12: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.13: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.13: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T10.G4.14: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.14: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.15: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.15: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.16: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.16: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.17: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.17: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.18: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.18: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T10.G4.19: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.19: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T10.G4.20: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T10.G4.20: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T11.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T11.G4.01: Added T08.G2.01
+    Reason: Uses basic events but missing foundational dependency
+  T11.G4.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T11.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T11.G4.03: Added T02.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T11.G4.03: Added T03.G3.01
+    Reason: Uses advanced looping but missing foundational dependency
+  T11.G4.04: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T11.G4.04: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T11.G4.05: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T11.G4.05: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T11.G4.06: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T11.G4.06: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T11.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T11.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T11.G4.08: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T11.G4.08: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T12.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T12.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T12.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T12.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T12.G4.03: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T12.G4.03: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T12.G4.04: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T12.G4.04: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T12.G4.05: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T12.G4.05: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T13.G4.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T13.G4.03: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.03: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.04: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.04: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.05.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T13.G4.05.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T13.G4.05.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.05.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.06: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.06: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.08: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.08: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T13.G4.09: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T13.G4.09: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.04.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.04.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.04.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.04.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.05.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.05.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.05.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.05.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.06: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.06: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.07: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.07: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.08: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.08: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.09: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.09: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.10: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.10: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T14.G4.11: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.11: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.12: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.12: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.13: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.13: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.14: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.14: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T14.G4.15: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T14.G4.15: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T15.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T15.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T15.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.02.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.02.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T15.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T15.G4.05: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T15.G4.05: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T15.G4.06: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.06: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.07: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T15.G4.07: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T15.G4.08: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T15.G4.08: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.01.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.01.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.02.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.02.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.03: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T16.G4.03: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T16.G4.04: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.04: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.05: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.05: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.06: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.06: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.07.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.07.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.08: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.08: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.08.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.08.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.09: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.09: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T16.G4.10: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T16.G4.10: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T17.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T17.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T17.G4.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T17.G4.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T18.G4.01.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.01.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.01.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.01.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.01.03: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T18.G4.01.03: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T18.G4.02.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.02.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.02.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.02.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.02.03: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.02.03: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.03.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.03.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.03.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T18.G4.03.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T18.G4.04.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.04.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.04.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.04.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T18.G4.05.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T18.G4.05.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T18.G4.05.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T18.G4.05.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T18.G4.05.03: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T18.G4.05.03: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T18.G4.06: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T18.G4.06: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T20.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.03: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T20.G4.03: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T20.G4.03.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.03.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.03.02: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T20.G4.03.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T20.G4.04: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.04: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.05: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T20.G4.05: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T20.G4.05.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T20.G4.05.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T20.G4.05.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T20.G4.05.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T21.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T21.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T21.G4.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T21.G4.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T21.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T21.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T22.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T22.G4.01: Added T13.G3.01
+    Reason: Uses coordinate motion but missing foundational dependency
+  T22.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T22.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T22.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T22.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T23.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T23.G4.01: Added T10.G2.01
+    Reason: Uses basic graphics but missing foundational dependency
+  T23.G4.02: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T23.G4.02: Added T08.G3.01
+    Reason: Uses event broadcasting but missing foundational dependency
+  T23.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T23.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.00: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.00: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T24.G4.01: Added T10.G2.01
+    Reason: Uses basic graphics but missing foundational dependency
+  T24.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T24.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T24.G4.05: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.05: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.06: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.06: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.07: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T24.G4.07: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T25.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T25.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T25.G4.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T25.G4.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T25.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T25.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T25.G4.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T25.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T25.G4.05: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T25.G4.05: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T25.G4.06: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T25.G4.06: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T26.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T26.G4.01: Added T13.G3.01
+    Reason: Uses coordinate motion but missing foundational dependency
+  T26.G4.02.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T26.G4.02.01: Added T08.G2.01
+    Reason: Uses basic events but missing foundational dependency
+  T26.G4.02.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T26.G4.02.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T26.G4.03: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T26.G4.03: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T26.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T26.G4.04: Added T13.G3.01
+    Reason: Uses coordinate motion but missing foundational dependency
+  T26.G4.05: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T26.G4.05: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T26.G4.06: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T26.G4.06: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T26.G4.06.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T26.G4.06.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T27.G4.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T27.G4.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T27.G4.02b: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T27.G4.02b: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T27.G4.02c: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T27.G4.02c: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T27.G4.02d: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T27.G4.02d: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T27.G4.02e: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T27.G4.02e: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T27.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T27.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T27.G4.03b: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T27.G4.03b: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T27.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T27.G4.04: Added T13.G3.01
+    Reason: Uses coordinate motion but missing foundational dependency
+  T27.G4.04b: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T27.G4.04b: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T28.G4.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.02.01: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.02.01: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.02.02: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.02.02: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.02.03: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T28.G4.02.03: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T28.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T28.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T28.G4.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T28.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T28.G4.05: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.05: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T28.G4.06: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T28.G4.06: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T28.G4.07: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T28.G4.07: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T29.G4.00: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T29.G4.00: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T29.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T29.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T29.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.04.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T29.G4.04.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T29.G4.04.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.04.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.05.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T29.G4.05.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T29.G4.05.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.05.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.06: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T29.G4.06: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T29.G4.07: Added T02.G2.01
+    Reason: Uses basic looping but missing foundational dependency
+  T29.G4.07: Added T02.G2.02
+    Reason: Uses basic looping but missing foundational dependency
+  T29.G4.10: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.10: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.11: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T29.G4.11: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.03.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.03.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.04: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T30.G4.04: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T30.G4.05: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.05: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.05.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T30.G4.05.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T31.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T31.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T31.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T31.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T32.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T32.G4.05: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.05: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T32.G4.06: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T32.G4.06: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T33.G4.01: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T33.G4.01: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T34.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T34.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T34.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T34.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T34.G4.03: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T34.G4.03: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T35.G4.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T35.G4.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T35.G4.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T35.G4.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T35.G4.03.01: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T35.G4.03.01: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T35.G4.03.02: Added T06.G2.01
+    Reason: Uses basic conditionals but missing foundational dependency
+  T35.G4.03.02: Added T06.G2.02
+    Reason: Uses basic conditionals but missing foundational dependency
+  T35.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T35.G4.04: Added T08.G2.01
+    Reason: Uses basic events but missing foundational dependency
+  T36.G4.01: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T36.G4.01: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T36.G4.02: Added T04.G2.01
+    Reason: Uses basic variables but missing foundational dependency
+  T36.G4.02: Added T04.G2.02
+    Reason: Uses basic variables but missing foundational dependency
+  T36.G4.03: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T36.G4.03: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T36.G4.04: Added T06.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+  T36.G4.04: Added T07.G3.01
+    Reason: Uses complex conditionals but missing foundational dependency
+
+DEPENDENCIES REMOVED: 0
+
+3. SUMMARY STATISTICS:
+   - Dependencies added: 606
+   - Dependencies removed: 0
+   - X-2 violations found: 0
+   - Circular dependencies found: 2
+   - Skills with potential missing deps: 303
+
+4. REMAINING CONCERNS:
+--------------------------------------------------------------------------------
+CIRCULAR DEPENDENCIES DETECTED:
+  T09.G4.02.01: T09.G4.02.01 -> T09.G4.02.01
+  T09.G4.03: T09.G4.02.01 -> T09.G4.02.01
+
+5. X-2 RULE COMPLIANCE:
+--------------------------------------------------------------------------------
+All Grade 4 skills already complied with X-2 rule
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================

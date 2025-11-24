@@ -7935,7 +7935,6 @@ Skill: Retry after noticing something went wrong
 Description: Students follow a simple set of picture steps for a task (e.g., stacking blocks, moving a character on a board), notice when the result is not what was intended, and try the steps again from the beginning. They experience the "try, check, retry" cycle without changing the steps themselves.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
 * T13.GK.01: Spot a missing or wrong action
 
 
@@ -8474,8 +8473,6 @@ Topic: T14 – 2D Games
 Skill: Match controls to character actions
 Description: Students drag arrow key cards (up, down, left, right) or action button cards (jump, run) onto pictures showing the matching movement or reaction (up arrow → character jumps up, right arrow → character walks right). They connect specific keyboard inputs to predictable character responses. _Implementation note: Match 4–6 input-action pairs via drag-and-drop. CSTA: 1A-AP-11.__
 
-Dependencies:
-* T06.GK.01: Match arrows to directions
 
 
 ID: T14.GK.02
@@ -8483,8 +8480,7 @@ Topic: T14 – 2D Games
 Skill: Recognize a score in simple games
 Description: Students compare before/after pictures of a score counter and gameplay moments (collecting a star, hitting a hazard) to see when the score changes and what it signals. _CSTA: 1A-AP-09.__
 
-Dependencies:
-* T09.GK.01: Notice when things are different
+
 
 
 ID: T14.GK.03
@@ -18479,8 +18475,7 @@ Topic: T26 – Data Collection & Logging
 Skill: Identify countable things in a picture
 Description: Students scan a picture of a classroom and point to objects they could count (books, chairs, students), building awareness that we can collect information by counting things we see.
 
-Dependencies:
-* T09.GK.01: Notice when things are different
+
 
 ID: T26.GK.02
 Topic: T26 – Data Collection & Logging
@@ -18488,7 +18483,6 @@ Skill: Use tokens to log repeated events
 Description: Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first "log."
 
 Dependencies:
-* T09.GK.01: Notice when things are different
 * T26.GK.01: Identify countable things in a picture
 
 
@@ -19296,8 +19290,7 @@ Topic: T27 – Data Analysis & Storytelling
 Skill: Sort objects by a rule and explain it
 Description: In this unplugged picture-based activity, students physically group objects (shapes, animals) and state the sorting rule ("all red things"), reinforcing that analysis starts with describing criteria.
 
-Dependencies:
-* T10.GK.01: Group pictures that are the same
+
 
 ID: T27.GK.02
 Topic: T27 – Data Analysis & Storytelling

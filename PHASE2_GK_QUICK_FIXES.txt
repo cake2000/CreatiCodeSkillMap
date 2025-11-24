@@ -1,0 +1,169 @@
+================================================================================
+GRADE K - PHASE 2 QUICK FIX GUIDE
+================================================================================
+
+Total Grade K Skills: 97
+Status: Excellent overall, minor enhancements needed
+Changes: 6 dependency additions, 2-3 possible removals
+
+================================================================================
+HIGH PRIORITY ADDITIONS (3)
+================================================================================
+
+1. T14.GK.01 - Add dependency on T06.GK.01
+   Skill: Match controls to character actions
+   Add: * T06.GK.01: Order pictures showing a morning routine (event sequence concept)
+   Why: Game controls are events - need event understanding first
+
+2. T14.GK.02 - Add dependency on T09.GK.01
+   Skill: Recognize a score in simple games
+   Add: * T09.GK.01: Recognize that a label can hold a number
+   Why: Score is a variable/number - need variable understanding first
+
+3. T13.GK.02 - Add dependency on T01.GK.01
+   Skill: Retry after noticing something went wrong
+   Add: * T01.GK.01: Put pictures in order for getting ready for bed
+   Why: Debugging needs understanding of correct sequences
+
+================================================================================
+MEDIUM PRIORITY ADDITIONS (3)
+================================================================================
+
+4. T26.GK.01 - Add dependency on T09.GK.01
+   Skill: Identify countable things in a picture
+   Add: * T09.GK.01: Recognize that a label can hold a number
+   Why: Counting data requires understanding numbers
+
+5. T26.GK.02 - Add dependency on T09.GK.01
+   Skill: Use tokens to log repeated events
+   Add: * T09.GK.01: Recognize that a label can hold a number
+   Why: Logging counts requires understanding numbers
+   Note: Already depends on T26.GK.01, creates path to T09.GK.01
+
+6. T27.GK.01 - Add dependency on T10.GK.01
+   Skill: Sort objects by a rule and explain it
+   Add: * T10.GK.01: Sort picture cards into groups
+   Why: Data sorting builds on general sorting concepts
+
+================================================================================
+TRANSITIVE REDUNDANCIES TO REVIEW (3)
+================================================================================
+
+CONSERVATIVE: Only remove if TRULY redundant!
+
+1. T02.GK.04 → T02.GK.02
+   Current: T02.GK.04 → T02.GK.03 → T02.GK.02 AND T02.GK.04 → T02.GK.02
+   Decision: KEEP (may be pedagogically valuable)
+
+2. T24.GK.03 → T24.GK.01
+   Current: T24.GK.03 → T24.GK.02 → T24.GK.01 AND T24.GK.03 → T24.GK.01
+   Decision: Consider removing direct T24.GK.03 → T24.GK.01
+   Reason: Clear sequence, transitive should be sufficient
+
+3. T29.GK.03 → T29.GK.01
+   Current: T29.GK.03 → T29.GK.02 → T29.GK.01 AND T29.GK.03 → T29.GK.01
+   Decision: Consider removing direct T29.GK.03 → T29.GK.01
+   Reason: Clear sequence, transitive should be sufficient
+
+================================================================================
+VALIDATION CHECKLIST
+================================================================================
+
+✓ X-2 Rule: All GK skills depend only on GK skills (100% compliant)
+✓ Circular Dependencies: None found
+✓ Invalid References: None found
+✓ Foundational Skills: 31 skills (good distribution)
+✓ Max Dependency Depth: 4 (appropriate for kindergarten)
+
+================================================================================
+CROSS-TOPIC DEPENDENCY SUMMARY
+================================================================================
+
+Existing patterns (working well):
+- T02 → T01: Algorithm diagrams build on everyday algorithms
+- T20 → T04: Art builds on patterns (excellent!)
+- T15 → T01: Stories build on sequences
+- T13 → T01: Debugging builds on sequences
+
+Adding (Phase 2):
+- T14 → T06: Games build on events
+- T14 → T09: Games build on variables
+- T13 → T01: Debugging builds on sequences (strengthen)
+- T26 → T09: Data counting builds on numbers
+- T27 → T10: Data sorting builds on grouping
+
+================================================================================
+IMPLEMENTATION ORDER
+================================================================================
+
+1. Add HIGH PRIORITY dependencies (3 additions)
+2. Add MEDIUM PRIORITY dependencies (3 additions)
+3. Review and decide on transitive redundancies (2-3 possible removals)
+4. Review within-topic gaps if time permits (7 cases in full report)
+
+================================================================================
+FILES AFFECTED
+================================================================================
+
+Primary file: /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md
+
+Skills to modify:
+- T13.GK.02 (add 1 dependency)
+- T14.GK.01 (add 1 dependency)
+- T14.GK.02 (add 1 dependency)
+- T26.GK.01 (add 1 dependency)
+- T26.GK.02 (add 1 dependency)
+- T27.GK.01 (add 1 dependency)
+- T24.GK.03 (possibly remove 1 dependency)
+- T29.GK.03 (possibly remove 1 dependency)
+
+Total: 6-8 skill modifications
+
+================================================================================
+EXAMPLES (Before/After)
+================================================================================
+
+EXAMPLE 1: T14.GK.02 (HIGH PRIORITY)
+Before:
+ID: T14.GK.02
+Topic: T14 – 2D Games
+Skill: Recognize a score in simple games
+Description: ...
+[No dependencies]
+
+After:
+ID: T14.GK.02
+Topic: T14 – 2D Games
+Skill: Recognize a score in simple games
+Description: ...
+
+Dependencies:
+* T09.GK.01: Recognize that a label can hold a number
+
+---
+
+EXAMPLE 2: T24.GK.03 (REDUNDANCY REMOVAL)
+Before:
+ID: T24.GK.03
+Topic: T24 – XO & Generative AI Practices
+Skill: Predict which "helper" is better for the job
+Description: ...
+
+Dependencies:
+* T24.GK.01: Identify AI as a computer helper
+* T24.GK.02: Know that AI helpers do different tasks
+
+After:
+ID: T24.GK.03
+Topic: T24 – XO & Generative AI Practices
+Skill: Predict which "helper" is better for the job
+Description: ...
+
+Dependencies:
+* T24.GK.02: Know that AI helpers do different tasks
+
+(Removed T24.GK.01 because T24.GK.02 already depends on T24.GK.01)
+
+================================================================================
+END OF QUICK FIX GUIDE
+================================================================================
