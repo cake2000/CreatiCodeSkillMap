@@ -11572,7 +11572,6 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T03.G2.01: Choose subtasks for a simple project idea
 
-
 ID: T18.G3.02
 Topic: T18 – 3D Worlds & Games
 Skill: Match camera views to 3D layouts
@@ -11581,7 +11580,6 @@ Description: Students compare front/top/side snapshots of the same object arrang
 Dependencies:
 * T18.G3.01: Interpret 3D axis directions
 * T07.G3.01: Use a counted repeat loop
-
 
 ID: T18.G3.03
 Topic: T18 – 3D Worlds & Games
@@ -11594,7 +11592,6 @@ Dependencies:
 * T07.G3.02: Trace a script with a simple loop
 * T03.G3.03: Create a 3‑panel storyboard for a project
 
-
 ID: T18.G3.04.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add a box shape to the 3D scene
@@ -11604,7 +11601,6 @@ Dependencies:
 * T18.G3.03: Initialize a 3D scene with a specific environment
 * T08.G3.01: Use a simple if in a script
 
-
 ID: T18.G3.04.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add a sphere shape to the 3D scene
@@ -11613,7 +11609,6 @@ Description: Students use the `add sphere` block to create round objects like ba
 Dependencies:
 * T18.G3.04.01: Add a box shape to the 3D scene
 
-
 ID: T18.G3.04.03
 Topic: T18 – 3D Worlds & Games
 Skill: Add a cylinder shape to the 3D scene
@@ -11621,7 +11616,6 @@ Description: Students use the `add cylinder` block to create columnar objects li
 
 Dependencies:
 * T18.G3.04.02: Add a sphere shape to the 3D scene
-
 
 ID: T18.G3.05
 Topic: T18 – 3D Worlds & Games
@@ -11633,7 +11627,6 @@ Dependencies:
 * T09.G3.02: Use a variable in a conditional (if block)
 * T08.G3.02: Decide when a single if is enough
 
-
 ID: T18.G3.06.01
 Topic: T18 – 3D Worlds & Games
 Skill: Change shape color using basic color picker
@@ -11644,7 +11637,6 @@ Dependencies:
 * T07.G3.03: Build a forever loop for simple animation
 * T03.G3.04: Match storyboard panels to project scenes
 
-
 ID: T18.G3.06.02
 Topic: T18 – 3D Worlds & Games
 Skill: Adjust shape transparency
@@ -11652,7 +11644,6 @@ Description: Students use opacity or alpha blocks to make objects partially or f
 
 Dependencies:
 * T18.G3.06.01: Change shape color using basic color picker
-
 
 ID: T18.G3.07
 Topic: T18 – 3D Worlds & Games
@@ -11664,7 +11655,6 @@ Dependencies:
 * T08.G3.03: Pick the right conditional block for a scenario
 * T09.G3.03: Debug missing or wrong variable updates
 
-
 ID: T18.G3.08
 Topic: T18 – 3D Worlds & Games
 Skill: Trace a short 3D script to predict positions
@@ -11674,7 +11664,6 @@ Dependencies:
 * T18.G3.07: Move a 3D player with keyboard input
 * T11.G3.01: Understand when to use custom blocks vs loops
 * T07.G3.04: Use repeat‑until to reach a simple goal
-
 
 ID: T18.G4.01.01
 Topic: T18 – 3D Worlds & Games
@@ -11687,7 +11676,6 @@ Dependencies:
 * T14.G3.01: Move a sprite with arrow keys (4 directions)
 * T18.G3.08: Trace a short 3D script to predict positions
 
-
 ID: T18.G4.01.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add capsule and torus shapes
@@ -11695,7 +11683,6 @@ Description: Students add capsule shapes (for character bodies, pillars) and tor
 
 Dependencies:
 * T18.G4.01.01: Add plane shapes for floors and walls
-
 
 ID: T18.G4.01.03
 Topic: T18 – 3D Worlds & Games
@@ -11705,7 +11692,6 @@ Description: Students create a complex environment using multiple primitive type
 Dependencies:
 * T18.G4.01.02: Add capsule and torus shapes
 
-
 ID: T18.G4.02.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add ambient lighting to set base brightness
@@ -11713,7 +11699,6 @@ Description: Students add an ambient light to provide overall base illumination 
 
 Dependencies:
 * T18.G4.01.03: Compose a multi-part 3D scene with multiple primitives
-
 
 ID: T18.G4.02.02
 Topic: T18 – 3D Worlds & Games
@@ -11723,7 +11708,6 @@ Description: Students place a directional light to simulate sunlight, adjusting 
 Dependencies:
 * T18.G4.02.01: Add ambient lighting to set base brightness
 
-
 ID: T18.G4.02.03
 Topic: T18 – 3D Worlds & Games
 Skill: Add point lights for localized illumination
@@ -11731,7 +11715,6 @@ Description: Students add point lights (like light bulbs or torches) that radiat
 
 Dependencies:
 * T18.G4.02.02: Add directional lighting for sunlight effect
-
 
 ID: T18.G4.03.01
 Topic: T18 – 3D Worlds & Games
@@ -11741,7 +11724,6 @@ Description: Students use orbit camera blocks to circle around a target object o
 Dependencies:
 * T18.G4.02.03: Add point lights for localized illumination
 
-
 ID: T18.G4.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Set up a follow camera to track a moving object
@@ -11749,7 +11731,6 @@ Description: Students attach the camera to follow a player or vehicle, adjusting
 
 Dependencies:
 * T18.G4.03.01: Set up an orbit camera to view a target
-
 
 ID: T18.G4.04.01
 Topic: T18 – 3D Worlds & Games
@@ -11759,7 +11740,6 @@ Description: Students select and place 3D models from CreatiCode's 1000+ model l
 Dependencies:
 * T18.G4.03.02: Set up a follow camera to track a moving object
 
-
 ID: T18.G4.04.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add avatar models to the scene
@@ -11767,7 +11747,6 @@ Description: Students add avatar models (humanoid characters) to their scenes, d
 
 Dependencies:
 * T18.G4.04.01: Place 3D models from the CreatiCode library
-
 
 ID: T18.G4.05.01
 Topic: T18 – 3D Worlds & Games
@@ -11778,7 +11757,6 @@ Dependencies:
 * T18.G4.04.02: Add avatar models to the scene
 * T07.G3.01: Use a counted repeat loop
 
-
 ID: T18.G4.05.02
 Topic: T18 – 3D Worlds & Games
 Skill: Animate scenery elements with rotation loops
@@ -11786,7 +11764,6 @@ Description: Students create looping animations for props (windmill spinning, fa
 
 Dependencies:
 * T18.G4.05.01: Play built-in avatar animations
-
 
 ID: T18.G4.05.03
 Topic: T18 – 3D Worlds & Games
@@ -11796,7 +11773,6 @@ Description: Students use loops to create bobbing platforms, swinging pendulums,
 Dependencies:
 * T18.G4.05.02: Animate scenery elements with rotation loops
 
-
 ID: T18.G4.06
 Topic: T18 – 3D Worlds & Games
 Skill: Detect when 3D objects are close or touching
@@ -11805,7 +11781,6 @@ Description: Students use distance checking or proximity detection to trigger ev
 Dependencies:
 * T18.G4.05.03: Animate scenery with position changes
 * T08.G3.01: Use a simple if in a script
-
 
 ID: T18.G5.01.01
 Topic: T18 – 3D Worlds & Games
@@ -11817,7 +11792,6 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01: Create and use a numeric variable for score or count
 
-
 ID: T18.G5.01.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add static physics bodies for immovable objects
@@ -11825,7 +11799,6 @@ Description: Students attach static (mass=0) physics bodies to floors, walls, an
 
 Dependencies:
 * T18.G5.01.01: Initialize a 3D physics world with gravity
-
 
 ID: T18.G5.01.03
 Topic: T18 – 3D Worlds & Games
@@ -11835,7 +11808,6 @@ Description: Students add dynamic physics bodies to players, crates, and project
 Dependencies:
 * T18.G5.01.02: Add static physics bodies for immovable objects
 
-
 ID: T18.G5.02.01
 Topic: T18 – 3D Worlds & Games
 Skill: Configure restitution for bouncing behavior
@@ -11844,7 +11816,6 @@ Description: Students adjust the restitution parameter on physics bodies to cont
 Dependencies:
 * T18.G5.01.03: Add dynamic physics bodies for movable objects
 
-
 ID: T18.G5.02.02
 Topic: T18 – 3D Worlds & Games
 Skill: Configure friction for sliding behavior
@@ -11852,7 +11823,6 @@ Description: Students adjust friction parameters to create slippery ice surfaces
 
 Dependencies:
 * T18.G5.02.01: Configure restitution for bouncing behavior
-
 
 ID: T18.G5.03.01
 Topic: T18 – 3D Worlds & Games
@@ -11863,7 +11833,6 @@ Dependencies:
 * T18.G5.02.02: Configure friction for sliding behavior
 * T08.G3.01: Use a simple if in a script
 
-
 ID: T18.G5.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Respond to collisions by collecting items
@@ -11871,7 +11840,6 @@ Description: Students respond to collision events by updating score, playing sou
 
 Dependencies:
 * T18.G5.03.01: Detect physics collision events
-
 
 ID: T18.G5.04.01
 Topic: T18 – 3D Worlds & Games
@@ -11882,7 +11850,6 @@ Dependencies:
 * T18.G5.03.02: Respond to collisions by collecting items
 * T07.G3.01: Use a counted repeat loop
 
-
 ID: T18.G5.04.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add vertical variation to grid layouts
@@ -11890,7 +11857,6 @@ Description: Students extend grid generation to vary Y coordinates, creating ste
 
 Dependencies:
 * T18.G5.04.01: Use nested loops to create 3D grids of objects
-
 
 ID: T18.G5.05.01
 Topic: T18 – 3D Worlds & Games
@@ -11900,7 +11866,6 @@ Description: Students select and apply textures from CreatiCode's 200+ texture l
 Dependencies:
 * T18.G5.04.02: Add vertical variation to grid layouts
 
-
 ID: T18.G5.05.02
 Topic: T18 – 3D Worlds & Games
 Skill: Apply costume textures to objects
@@ -11908,7 +11873,6 @@ Description: Students apply custom-drawn costumes as textures on 3D surfaces, br
 
 Dependencies:
 * T18.G5.05.01: Apply textures from the CreatiCode texture library
-
 
 ID: T18.G5.05.03
 Topic: T18 – 3D Worlds & Games
@@ -11918,7 +11882,6 @@ Description: Students adjust material blocks to control metallic sheen and surfa
 Dependencies:
 * T18.G5.05.02: Apply costume textures to objects
 
-
 ID: T18.G5.06.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add fog for depth and atmosphere
@@ -11926,7 +11889,6 @@ Description: Students enable fog in the scene, adjusting color, density, and sta
 
 Dependencies:
 * T18.G5.05.03: Adjust material properties for metallic and roughness
-
 
 ID: T18.G5.06.02
 Topic: T18 – 3D Worlds & Games
@@ -11936,7 +11898,6 @@ Description: Students add particle emitter blocks (fire, smoke types) and positi
 Dependencies:
 * T18.G5.06.01: Add fog for depth and atmosphere
 
-
 ID: T18.G5.06.03
 Topic: T18 – 3D Worlds & Games
 Skill: Configure particle emitter colors and sizes
@@ -11944,7 +11905,6 @@ Description: Students adjust emitter configuration blocks to change particle col
 
 Dependencies:
 * T18.G5.06.02: Add particle emitters for fire and smoke
-
 
 ID: T18.G6.01.01
 Topic: T18 – 3D Worlds & Games
@@ -11955,7 +11915,6 @@ Dependencies:
 * T18.G5.06.03: Configure particle emitter colors and sizes
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
-
 ID: T18.G6.01.02
 Topic: T18 – 3D Worlds & Games
 Skill: Set up collision groups for selective interaction
@@ -11963,7 +11922,6 @@ Description: Students assign 3D physics bodies to collision groups or masks so o
 
 Dependencies:
 * T18.G6.01.01: Apply forces and impulses to physics bodies
-
 
 ID: T18.G6.01.03
 Topic: T18 – 3D Worlds & Games
@@ -11973,7 +11931,6 @@ Description: Students use freeze blocks to lock rotation or movement on specific
 Dependencies:
 * T18.G6.01.02: Set up collision groups for selective interaction
 
-
 ID: T18.G6.02
 Topic: T18 – 3D Worlds & Games
 Skill: Trace multi-step 3D scripts with transforms
@@ -11981,7 +11938,6 @@ Description: Students read longer scripts that mix coordinate changes, rotations
 
 Dependencies:
 * T18.G6.01.03: Freeze physics body axes for constrained movement
-
 
 ID: T18.G6.03
 Topic: T18 – 3D Worlds & Games
@@ -11993,7 +11949,6 @@ Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T11.G3.01: Understand when to use custom blocks vs loops
 
-
 ID: T18.G6.04.01
 Topic: T18 – 3D Worlds & Games
 Skill: Implement camera rotation with mouse input
@@ -12001,7 +11956,6 @@ Description: Students map mouse movement to camera yaw and pitch to build a smoo
 
 Dependencies:
 * T18.G6.03: Refactor repeated object creation with loops
-
 
 ID: T18.G6.04.02
 Topic: T18 – 3D Worlds & Games
@@ -12011,7 +11965,6 @@ Description: Students add on-screen virtual joystick controls for mobile-friendl
 Dependencies:
 * T18.G6.04.01: Implement camera rotation with mouse input
 
-
 ID: T18.G6.05.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add spot lights for focused illumination
@@ -12019,7 +11972,6 @@ Description: Students add spot lights (like flashlights or stage lights) with co
 
 Dependencies:
 * T18.G6.04.02: Add virtual joystick controls
-
 
 ID: T18.G6.05.02
 Topic: T18 – 3D Worlds & Games
@@ -12029,7 +11981,6 @@ Description: Students enable shadow generation from lights, configuring which li
 Dependencies:
 * T18.G6.05.01: Add spot lights for focused illumination
 
-
 ID: T18.G6.05.03
 Topic: T18 – 3D Worlds & Games
 Skill: Add glow and highlight layers
@@ -12037,7 +11988,6 @@ Description: Students add objects to glow or highlight layers to make them emit 
 
 Dependencies:
 * T18.G6.05.02: Enable shadows for realistic lighting
-
 
 ID: T18.G6.06.01
 Topic: T18 – 3D Worlds & Games
@@ -12047,7 +11997,6 @@ Description: Students use speech bubble blocks to show dialog or thoughts above 
 Dependencies:
 * T18.G6.05.03: Add glow and highlight layers
 
-
 ID: T18.G6.06.02
 Topic: T18 – 3D Worlds & Games
 Skill: Detect mouse picking and clicking on 3D objects
@@ -12055,7 +12004,6 @@ Description: Students use mouse picking blocks to detect when users click on spe
 
 Dependencies:
 * T18.G6.06.01: Add speech bubbles to 3D characters
-
 
 ID: T18.G7.01.01
 Topic: T18 – 3D Worlds & Games
@@ -12065,7 +12013,6 @@ Description: Students use the column (extrude) block to create 3D shapes from 2D
 Dependencies:
 * T18.G6.06.02: Detect mouse picking and clicking on 3D objects
 
-
 ID: T18.G7.01.02
 Topic: T18 – 3D Worlds & Games
 Skill: Create 3D text objects
@@ -12073,7 +12020,6 @@ Description: Students add flat or thick 3D text blocks to create signs, titles, 
 
 Dependencies:
 * T18.G7.01.01: Create extruded 3D shapes from 2D polygons
-
 
 ID: T18.G7.01.03
 Topic: T18 – 3D Worlds & Games
@@ -12083,7 +12029,6 @@ Description: Students add cone, tube, rectangle tube, and stair shapes to expand
 Dependencies:
 * T18.G7.01.02: Create 3D text objects
 
-
 ID: T18.G7.02.01
 Topic: T18 – 3D Worlds & Games
 Skill: Copy objects using grid matrix patterns
@@ -12091,7 +12036,6 @@ Description: Students use grid matrix copying to efficiently duplicate objects i
 
 Dependencies:
 * T18.G7.01.03: Use advanced shapes (cone, tube, stairs)
-
 
 ID: T18.G7.02.02
 Topic: T18 – 3D Worlds & Games
@@ -12101,7 +12045,6 @@ Description: Students use mirror copy blocks to create symmetrical designs acros
 Dependencies:
 * T18.G7.02.01: Copy objects using grid matrix patterns
 
-
 ID: T18.G7.02.03
 Topic: T18 – 3D Worlds & Games
 Skill: Copy objects using rotational symmetry
@@ -12109,7 +12052,6 @@ Description: Students use rotational copy to duplicate objects in circular patte
 
 Dependencies:
 * T18.G7.02.02: Copy objects using mirror symmetry
-
 
 ID: T18.G7.03.01
 Topic: T18 – 3D Worlds & Games
@@ -12119,7 +12061,6 @@ Description: Students add distance constraints to keep two physics bodies at a f
 Dependencies:
 * T18.G7.02.03: Copy objects using rotational symmetry
 
-
 ID: T18.G7.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add hinge constraints for rotating joints
@@ -12127,7 +12068,6 @@ Description: Students add hinge constraints to create rotating joints like doors
 
 Dependencies:
 * T18.G7.03.01: Add distance constraints between physics bodies
-
 
 ID: T18.G7.03.03
 Topic: T18 – 3D Worlds & Games
@@ -12137,7 +12077,6 @@ Description: Students use fixed constraints to weld physics bodies together, cre
 Dependencies:
 * T18.G7.03.02: Add hinge constraints for rotating joints
 
-
 ID: T18.G7.04.01
 Topic: T18 – 3D Worlds & Games
 Skill: Implement waypoint-based NPC movement
@@ -12145,7 +12084,6 @@ Description: Students code NPCs to follow a list of waypoint positions, pausing 
 
 Dependencies:
 * T18.G7.03.03: Add fixed constraints for rigid connections
-
 
 ID: T18.G7.04.02
 Topic: T18 – 3D Worlds & Games
@@ -12155,7 +12093,6 @@ Description: Students code NPCs to detect player distance, then compute directio
 Dependencies:
 * T18.G7.04.01: Implement waypoint-based NPC movement
 
-
 ID: T18.G7.05.01
 Topic: T18 – 3D Worlds & Games
 Skill: Create compound physics bodies from merged meshes
@@ -12163,7 +12100,6 @@ Description: Students use merge blocks to combine multiple meshes, then attach c
 
 Dependencies:
 * T18.G7.04.02: Implement distance-based chase AI
-
 
 ID: T18.G7.05.02
 Topic: T18 – 3D Worlds & Games
@@ -12173,7 +12109,6 @@ Description: Students use carve blocks to subtract one mesh from another, creati
 Dependencies:
 * T18.G7.05.01: Create compound physics bodies from merged meshes
 
-
 ID: T18.G7.06.01
 Topic: T18 – 3D Worlds & Games
 Skill: Script camera position transitions for cutscenes
@@ -12181,7 +12116,6 @@ Description: Students choreograph camera movements through position/target waypo
 
 Dependencies:
 * T18.G7.05.02: Use carve operations for boolean geometry
-
 
 ID: T18.G7.06.02
 Topic: T18 – 3D Worlds & Games
@@ -12191,7 +12125,6 @@ Description: Students attach trail effects to moving objects (projectiles, vehic
 Dependencies:
 * T18.G7.06.01: Script camera position transitions for cutscenes
 
-
 ID: T18.G7.06.03
 Topic: T18 – 3D Worlds & Games
 Skill: Configure advanced particle emitters with custom shapes
@@ -12200,7 +12133,6 @@ Description: Students configure particle emitters to use box, sphere, cone, or m
 Dependencies:
 * T18.G7.06.02: Add particle trails to moving objects
 
-
 ID: T18.G8.01.01
 Topic: T18 – 3D Worlds & Games
 Skill: Create car simulations with physics
@@ -12208,7 +12140,6 @@ Description: Students use car simulation blocks to create drivable vehicles with
 
 Dependencies:
 * T18.G7.06.03: Configure advanced particle emitters with custom shapes
-
 
 ID: T18.G8.01.02
 Topic: T18 – 3D Worlds & Games
@@ -12219,7 +12150,6 @@ Dependencies:
 * T18.G8.01.01: Create car simulations with physics
 * T09.G3.01: Create and use a numeric variable for score or count
 
-
 ID: T18.G8.01.03
 Topic: T18 – 3D Worlds & Games
 Skill: Create and manage multiple 3D camera views
@@ -12227,7 +12157,6 @@ Description: Students create two camera feeds (main gameplay plus minimap/UI vie
 
 Dependencies:
 * T18.G8.01.02: Implement dynamic level loading from data structures
-
 
 ID: T18.G8.02.01
 Topic: T18 – 3D Worlds & Games
@@ -12237,7 +12166,6 @@ Description: Students add skybox textures to create 360-degree background enviro
 Dependencies:
 * T18.G8.01.03: Create and manage multiple 3D camera views
 
-
 ID: T18.G8.02.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add post-processing effects to scenes
@@ -12245,7 +12173,6 @@ Description: Students enable post-processing effects (bloom, color grading, dept
 
 Dependencies:
 * T18.G8.02.01: Add skybox textures to scenes
-
 
 ID: T18.G8.03.01
 Topic: T18 – 3D Worlds & Games
@@ -12255,7 +12182,6 @@ Description: Students use export blocks to save created 3D geometry as GLB files
 Dependencies:
 * T18.G8.02.02: Add post-processing effects to scenes
 
-
 ID: T18.G8.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Export 3D models as STL files for 3D printing
@@ -12263,7 +12189,6 @@ Description: Students export 3D geometry as STL files suitable for 3D printing, 
 
 Dependencies:
 * T18.G8.03.01: Export 3D models as GLB files
-
 
 ID: T18.G8.04.01
 Topic: T18 – 3D Worlds & Games
@@ -12273,7 +12198,6 @@ Description: Students enable AR world camera to place 3D objects in real-world e
 Dependencies:
 * T18.G8.03.02: Export 3D models as STL files for 3D printing
 
-
 ID: T18.G8.04.02
 Topic: T18 – 3D Worlds & Games
 Skill: Implement AR face tracking
@@ -12281,7 +12205,6 @@ Description: Students use face tracking blocks to attach 3D objects to detected 
 
 Dependencies:
 * T18.G8.04.01: Implement AR world camera tracking
-
 
 ID: T18.G8.04.03
 Topic: T18 – 3D Worlds & Games
@@ -12291,7 +12214,6 @@ Description: Students configure AR image tracking to display 3D content when spe
 Dependencies:
 * T18.G8.04.02: Implement AR face tracking
 
-
 ID: T18.G8.05.01
 Topic: T18 – 3D Worlds & Games
 Skill: Use mirrors for reflective surfaces
@@ -12299,7 +12221,6 @@ Description: Students add mirror blocks to create reflective surfaces that show 
 
 Dependencies:
 * T18.G8.04.03: Implement AR image tracking
-
 
 ID: T18.G8.05.02
 Topic: T18 – 3D Worlds & Games
@@ -12309,7 +12230,6 @@ Description: Students use geometry blocks to define custom meshes from vertices,
 Dependencies:
 * T18.G8.05.01: Use mirrors for reflective surfaces
 
-
 ID: T18.G8.06.01
 Topic: T18 – 3D Worlds & Games
 Skill: Analyze and optimize 3D scene performance
@@ -12317,7 +12237,6 @@ Description: Students profile a sluggish 3D project, identify bottlenecks (too m
 
 Dependencies:
 * T18.G8.05.02: Create custom geometry with points, lines, and triangles
-
 
 ID: T18.G8.06.02
 Topic: T18 – 3D Worlds & Games
@@ -12347,52 +12266,23 @@ Dependencies:
 None (foundational)
 
 
-ID: T19.G5.03
+ID: T19.G6.00A
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand what "multiplayer" means
-Description: Students learn that multiplayer games let multiple people play together over the internet, unlike single-player games where one person controls everything. They identify at least 3 examples of multiplayer games (online racing, battle games, cooperative puzzles) and 3 examples of single-player games (puzzle games they solve alone, story games with one character). They compare playing alone (single-player) to playing with friends online (multiplayer). They understand that multiplayer games need internet connections so players' computers can share what's happening in the game.
+Skill: Understand what "multiplayer" means in CreatiCode games
+Description: Students learn that multiplayer games let multiple people play together by connecting over the internet. They identify at least 3 examples of multiplayer games and 3 examples of single-player games, explaining the difference (single-player: one person controls everything; multiplayer: multiple people control different characters). They explain why multiplayer games need internet connections (players' computers must communicate to share game state). They compare local multiplayer (T19.G5.01 - same keyboard) to network multiplayer (different computers connected via internet). They demonstrate understanding by categorizing 5 games as single-player or multiplayer with justification.
 
 Dependencies:
 * T19.G5.01: Create a local 2-player game on one keyboard
 * T19.G5.02: Understand what the internet is
 
 
-ID: T19.G5.04
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand host and client roles
-Description: Students learn that in multiplayer games, one player is the "host" who starts the game, and other players are "clients" who join. They understand that the host's computer runs the main game and shares it with clients. They draw a simple diagram showing one host connected to 2-3 clients. They explain in simple terms: the host is like the game leader - if the host leaves, the game ends for everyone. They identify which player is the host when looking at a game (the person who created it).
-
-Dependencies:
-* T19.G5.03: Understand what "multiplayer" means
-
-
-ID: T19.G5.05
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand synchronization basics
-Description: Students learn that "synchronization" means making sure all players see the same thing at the same time in a multiplayer game. They understand that normal game actions (like moving a sprite with regular blocks) only happen on their own screen, but synchronized actions update everyone's screens. They explain why synchronization matters using a simple example: if one player scores a point, all players need to see the new score, not just the player who scored. They understand that keeping things synchronized is what makes multiplayer games work fairly.
-
-Dependencies:
-* T19.G5.04: Understand host and client roles
-
-
-ID: T19.G6.00A
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand what "multiplayer" means in CreatiCode games (deeper dive)
-Description: Building on basic multiplayer understanding, students explore CreatiCode-specific multiplayer concepts in depth. They identify at least 3 examples of multiplayer games and 3 examples of single-player games, explaining technical differences (single-player: all state is local; multiplayer: state is shared across network). They explain why multiplayer games need internet connections to share game state between players' computers. They compare local multiplayer (T19.G5.01 - same keyboard, shared screen) to network multiplayer (different computers, separate screens, connected via internet). They demonstrate understanding by categorizing 5 games as single-player or multiplayer with technical justification explaining data flow and state management.
-
-Dependencies:
-* T19.G5.03: Understand what "multiplayer" means
-* T19.G5.04: Understand host and client roles
-
-
 ID: T19.G6.00B
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand the host-client model and game rooms in depth
-Description: Building on basic host-client understanding, students learn the technical details of CreatiCode's multiplayer architecture. They understand that a "room" is one instance or session of a game - multiple rooms can exist simultaneously on the same server (Room 1 with 4 players, Room 2 with 2 players), and players in different rooms are completely isolated. They understand that the game world state is authoritative on the host's computer and synchronized to clients - if the host leaves, the game ends for everyone because the authoritative state is lost. They create detailed diagrams showing host-client connections with message flow arrows, server intermediary, and multiple clients. They identify which player is the host in a running game by checking who created it. They explain why this matters for game design (host needs reliable connection and sufficient processing power; host disconnection is catastrophic; asymmetric responsibilities between host and client code).
+Skill: Understand the host-client model and game rooms in multiplayer games
+Description: Students learn that in CreatiCode multiplayer, one player is the "host" who creates the game, and other players are "clients" who join. They understand that a "room" is one instance or session of a game - multiple rooms can exist at the same time (Room 1 with 4 players, Room 2 with 2 players), and players in different rooms don't see each other. They understand that the game world exists on the host's computer and is shared with clients - if the host leaves, the game ends for everyone. They diagram a simple host-client connection showing one host and 2-3 clients. They identify which player is the host in a running game by checking who created it. They explain why this matters for game design (host should be reliable and have good internet connection).
 
 Dependencies:
-* T19.G5.04: Understand host and client roles
-* T19.G6.00A: Understand what "multiplayer" means in CreatiCode games (deeper dive)
+* T19.G6.00A: Understand what "multiplayer" means in CreatiCode games
 
 
 ID: T19.G6.00C
@@ -12402,15 +12292,6 @@ Description: Students learn that when they add a sprite to a multiplayer game, o
 
 Dependencies:
 * T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
-
-
-ID: T19.G6.00C2
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand how code runs on original vs replicate sprites
-Description: Students learn that only "original" sprites run the code blocks in their scripts, while "replicate" sprites do not execute code but simply mirror the visual appearance and position of the original. They understand this means keyboard controls, game logic, and event handlers only run for the original sprite (the sprite you control), not for replicates (the sprites you see representing other players). They test this by adding a print statement to a sprite's script and observing it only prints once per player, not once per visible sprite. They explain why this design makes sense: each player's computer runs code for their own sprites, and synchronization handles displaying the results to other players.
-
-Dependencies:
-* T19.G6.00C: Understand sprite replication in multiplayer games
 
 
 ID: T19.G6.00D
@@ -12434,11 +12315,10 @@ Dependencies:
 
 ID: T19.G6.00F
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand synchronization mechanisms in depth
-Description: Building on basic synchronization understanding, students learn the technical mechanisms behind keeping game state consistent. They understand that normal movement blocks (like "change x by 10") only affect local sprite state, but synchronized blocks (like "synchronously set speed x 10 y 0") send state updates to the server which broadcasts to all clients. They create detailed tests with two windows comparing synchronized vs non-synchronized movement, documenting exactly when and how updates propagate. They explain the difference between continuous synchronization (movement, physics) and event-driven synchronization (broadcasts, messages). They understand why synchronization is necessary for fair multiplayer games (all players must see the same authoritative game state) and identify the performance trade-offs of different synchronization strategies (continuous updates use more bandwidth but provide smoother gameplay; event-driven updates are efficient but can cause perceived delays).
+Skill: Understand what "synchronization" means in multiplayer games
+Description: Students learn that "synchronization" means keeping all players' screens showing the same thing at the same time. They understand that normal movement blocks (like "change x by 10") only affect their own screen, but synchronized blocks (like "synchronously set speed x 10 y 0") update everyone's screen. They create a test with two windows comparing synchronized vs non-synchronized movement and observe that only synchronized blocks update both windows. They explain why synchronization is necessary for fair multiplayer games (all players must see the same game state).
 
 Dependencies:
-* T19.G5.05: Understand synchronization basics
 * T19.G6.00C: Understand sprite replication in multiplayer games
 
 
@@ -12476,16 +12356,6 @@ Description: Students learn that display names are what other players see during
 
 Dependencies:
 * T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
-
-
-ID: T19.G6.00K
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Distinguish multiplayer games from cloud variables
-Description: Students learn the differences between multiplayer games and cloud variables, two ways to share data in CreatiCode. They understand that cloud variables store simple data (numbers, text) that persists between sessions and is shared globally with everyone using the project, while multiplayer games create temporary game sessions with real-time sprite synchronization that only players in the same room can see. They compare use cases: cloud variables for high scores, saved progress, or shared counters that persist over time; multiplayer for real-time gameplay, character movement, and temporary game sessions. They identify 3 scenarios and choose whether multiplayer or cloud variables is more appropriate for each.
-
-Dependencies:
-* T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
-* T09.G5.01: Store and retrieve game state using variables
 
 
 ID: T19.G6.01A
@@ -12531,16 +12401,6 @@ Dependencies:
 * T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
 
 
-ID: T19.G6.01C3
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Handle capacity limits and "game full" scenarios
-Description: Students learn what happens when a game reaches its player capacity and how to handle "game full" situations. They test joining a game that is already at capacity and observe the error or rejection. They implement user-friendly messaging to inform players when a game is full ("Game is full! Please choose another game or wait for a spot to open."). They consider design solutions: displaying current player count before joining, listing only games with available spots, or implementing a queue/waiting list. They understand that handling capacity gracefully improves user experience and prevents frustration.
-
-Dependencies:
-* T19.G6.01C: Configure game capacity (maximum players)
-* T19.G6.01D: List available multiplayer games in a table
-
-
 ID: T19.G6.01D
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: List available multiplayer games in a table
@@ -12548,7 +12408,6 @@ Description: Students use `list multiplayer games in server` to display all acti
 
 Dependencies:
 * T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
-* T19.G6.00H: Understand what servers are in multiplayer games
 * T09.G5.01: Store and retrieve game state using variables
 
 
@@ -12581,24 +12440,15 @@ Dependencies:
 * T19.G6.01B: Join a multiplayer game room
 
 
-ID: T19.G6.02A
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand sprite registration purpose
-Description: Students learn why sprites must be "registered" with the multiplayer game server to be visible to other players. They understand that unregistered sprites exist only on their own screen (local), while registered sprites are synchronized across all players' screens (networked). They explain that registration tells the server "this sprite should be shared with all players" and sets up replication and synchronization. They compare local sprites (UI elements, cursors, effects that don't need to be shared) with networked sprites (player characters, game objects that all players interact with). They identify 3-5 sprites in a game design and categorize whether each should be registered or remain local with justification.
-
-Dependencies:
-* T19.G6.00C: Understand sprite replication in multiplayer games
-* T19.G6.00D: Understand Dynamic vs Static sprites in multiplayer games
-* T19.G6.00E: Understand collision shapes (Rectangle vs Circle) in multiplayer games
-
-
 ID: T19.G6.02B
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: Register sprites with the game server
 Description: Students use the `add this sprite to game as a [Dynamic/Static] [Rectangle/Circle]` block to register a sprite with the game server. They understand that this makes the sprite visible to other players. They choose Dynamic for moving sprites and Static for fixed obstacles. They choose Rectangle or Circle collision shape based on the sprite's appearance. They understand that only registered sprites appear in the multiplayer world.
 
 Dependencies:
-* T19.G6.02A: Understand sprite registration purpose
+* T19.G6.00C: Understand sprite replication in multiplayer games
+* T19.G6.00D: Understand Dynamic vs Static sprites in multiplayer games
+* T19.G6.00E: Understand collision shapes (Rectangle vs Circle) in multiplayer games
 * T19.G6.01B: Join a multiplayer game room
 
 
@@ -12613,152 +12463,35 @@ Dependencies:
 
 ID: T19.G6.03A
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Create a simple 2-player racing game (DEPRECATED - use sub-skills)
-Description: This skill has been broken down into sub-skills T19.G6.03A.01 through T19.G6.03A.04 for better scaffolding. Students should complete those sub-skills instead.
-
-Dependencies:
-* T19.G6.03A.04: Determine and display race winner
-
-
-ID: T19.G6.03A.01
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Set up multiplayer racing game structure
-Description: Students create the foundation for a 2-player racing game. They set up a game room with appropriate capacity (2 players), create a race track with a clear starting line and finish line, and register player sprites as Dynamic Circles. They position both players at the starting line when they join. They test with two windows to verify both players appear at the starting positions. This establishes the game world structure before adding movement and win conditions.
+Skill: Create a simple 2-player racing game
+Description: PROJECT INTEGRATION: This is a capstone project that integrates multiple multiplayer concepts. Students create a multiplayer racing game where two players compete to reach a goal first. They create and join a game room, register player sprites as Dynamic Circles, use synchronized movement for keyboard controls (arrow keys for player movement), and implement a finish line that detects when a player reaches it. They test with two windows to verify both players can race simultaneously and both windows show the same race outcome. This is students' first complete multiplayer game combining room setup, sprite registration, synchronized movement, and basic game mechanics.
 
 Dependencies:
 * T19.G6.01G: Test a multiplayer game with two browser windows
 * T19.G6.02B: Register sprites with the game server
 * T19.G6.02C: Initialize sprites when they join using "when added to game"
-
-
-ID: T19.G6.03A.02
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Implement synchronized racing controls
-Description: Students add keyboard-controlled movement to their racing game using synchronized speed blocks. They implement arrow key controls (up/down/left/right) that update speed x and y values to move players around the track. They test with two windows to verify that when one player moves, both windows show the same movement. They ensure controls are responsive and movement feels smooth for racing gameplay.
-
-Dependencies:
-* T19.G6.03A.01: Set up multiplayer racing game structure
 * T19.G6.05A: Use synchronized speed x/y blocks for movement
-
-
-ID: T19.G6.03A.03
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Add finish line and collision detection
-Description: Students implement finish line collision detection in their racing game. They create a finish line sprite or zone and use collision detection to identify when a player crosses it. They configure appropriate collision behavior (continue, not stop, so players can cross the line). They test with two windows to verify that crossing the finish line is detected correctly for both players.
-
-Dependencies:
-* T19.G6.03A.02: Implement synchronized racing controls
-* T19.G6.06: Configure stop vs continue collision behavior
-* T19.G6.07: Handle multiplayer collisions with triggered messages
-
-
-ID: T19.G6.03A.04
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Determine and display race winner
-Description: Students implement win condition logic to determine which player wins the race. When a player crosses the finish line first, they broadcast a "race_won" message with the winner's name. They create a handler that displays the winner (e.g., "Player 1 wins!" or show winner's name on screen) and stops or resets the game. They test with two windows to verify that both windows show the same winner and the game ends appropriately. This completes students' first full multiplayer competitive game.
-
-Dependencies:
-* T19.G6.03A.03: Add finish line and collision detection
-* T19.G6.04C: Broadcast multiplayer messages with parameters
 
 
 ID: T19.G6.03B
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Create a 2-player cooperative game (DEPRECATED - use sub-skills)
-Description: This skill has been broken down into sub-skills T19.G6.03B.01 through T19.G6.03B.04 for better scaffolding. Students should complete those sub-skills instead.
+Skill: Create a 2-player cooperative game
+Description: PROJECT INTEGRATION: This is a capstone project that integrates multiple multiplayer concepts. Students create a multiplayer game where two players must work together to achieve a goal. Examples include both players pressing switches simultaneously to open a door, one player creating platforms while another jumps across them, or both players collecting different items to complete a recipe. They implement shared objectives that require cooperation. They use broadcasts to notify both players when progress is made. They test with two windows to verify that cooperation is required to win.
 
 Dependencies:
-* T19.G6.03B.04: Broadcast cooperation events and check win condition
-
-
-ID: T19.G6.03B.01
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Design cooperative game objective
-Description: Students design a game objective that requires two players to cooperate to achieve. They choose one cooperative mechanic: both players pressing switches simultaneously to open a door, one player creating platforms while another jumps across them, both players collecting different items to complete a shared goal, or players combining abilities to solve a puzzle. They sketch or describe the game layout, player roles, and how cooperation is necessary. They identify what needs to be synchronized (player actions, shared progress, object states) for the cooperation to work across the network.
-
-Dependencies:
-* T19.G6.03A.04: Determine and display race winner
-
-
-ID: T19.G6.03B.02
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Implement individual player actions
-Description: Students implement the individual actions each player can perform in the cooperative game. They create keyboard controls for player-specific actions (pressing switches, placing platforms, collecting items). They register necessary sprites (players, switches, platforms, items) with appropriate Dynamic/Static settings. They test that each player can perform their individual actions correctly in two windows. At this stage, actions work locally but don't yet coordinate between players.
-
-Dependencies:
-* T19.G6.03B.01: Design cooperative game objective
-* T19.G6.02B: Register sprites with the game server
-* T19.G6.05A: Use synchronized speed x/y blocks for movement
-
-
-ID: T19.G6.03B.03
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Add shared progress tracking
-Description: Students create shared variables or counters to track cooperative progress that all players can see. They implement logic to detect when cooperation conditions are met (e.g., counter variable that increases when a player activates a switch, reaching target value when both switches are activated). They display progress indicators visible to all players (progress bars, counters, visual feedback). They test with two windows to verify that progress updates in one window are reflected in the other window.
-
-Dependencies:
-* T19.G6.03B.02: Implement individual player actions
-* T19.G6.08: Create shared world objects that stay synchronized
-
-
-ID: T19.G6.03B.04
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Broadcast cooperation events and check win condition
-Description: Students implement event broadcasting to notify all players when cooperative actions occur and when the win condition is met. When a player performs a cooperative action (activates switch, places platform, collects item), they broadcast an event with relevant parameters. They implement a win condition checker that monitors shared progress and broadcasts a "game_won" message when players achieve the cooperative goal. They create handlers that respond to these broadcasts by updating game state and displaying victory messages. They test with two windows to verify that cooperation is required to win and both windows show the same outcome. This completes students' first full multiplayer cooperative game.
-
-Dependencies:
-* T19.G6.03B.03: Add shared progress tracking
+* T19.G6.03A: Create a simple 2-player racing game
 * T19.G6.04C: Broadcast multiplayer messages with parameters
 
 
 ID: T19.G6.03C
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Add collision-based tag game mechanic (DEPRECATED - use sub-skills)
-Description: This skill has been broken down into sub-skills T19.G6.03C.01 through T19.G6.03C.04 for better scaffolding. Students should complete those sub-skills instead.
+Skill: Add collision-based tag game mechanic
+Description: PROJECT INTEGRATION: This is a capstone project that integrates multiplayer collision and messaging concepts. Students create a tag game where touching another player changes who is "it." They use multiplayer collision blocks to detect touches between players. They broadcast "tagged" messages with the new "it" player's name when collision occurs. They update visual indicators (color change, label, or effect) to show who is currently "it." They configure collision behavior appropriately (continue vs stop). They test in two windows to verify that tagging works correctly and both windows show the same "it" status.
 
 Dependencies:
-* T19.G6.03C.04: Polish and test tag game mechanics
-
-
-ID: T19.G6.03C.01
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Detect player-to-player collisions
-Description: Students implement collision detection between player sprites in a tag game. They set up a basic multiplayer game room with 2 players, register player sprites as Dynamic Circles, and add synchronized movement controls. They use multiplayer collision blocks to detect when one player sprite touches another player sprite. They configure collision behavior as "continue" so players can pass through each other (not block). They test with two windows to verify that collisions between players are detected correctly and collision events fire on both clients.
-
-Dependencies:
-* T19.G6.03A.04: Determine and display race winner
+* T19.G6.03A: Create a simple 2-player racing game
 * T19.G6.06: Configure stop vs continue collision behavior
 * T19.G6.07: Handle multiplayer collisions with triggered messages
-
-
-ID: T19.G6.03C.02
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Track and broadcast "it" status
-Description: Students implement game state to track which player is currently "it" in the tag game. They create a variable to store the name of the player who is "it." When a collision occurs between players, they check if one of them is "it," and if so, they change who is "it" to the other player and broadcast a "tagged" message with the new "it" player's name. They create handlers to receive "tagged" messages and update the local "it" status variable. They test with two windows to verify that "it" status changes correctly when players collide and both windows update their "it" tracking.
-
-Dependencies:
-* T19.G6.03C.01: Detect player-to-player collisions
-* T19.G6.04C: Broadcast multiplayer messages with parameters
-
-
-ID: T19.G6.03C.03
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Add visual indicators for "it" status
-Description: Students add visual feedback to show which player is currently "it." They implement visual changes that occur when a player becomes "it": color changes (change costume or color effect), label display (show "IT!" text near sprite), size changes (make "it" player slightly larger), or graphic effects (add glow or outline). They ensure visual changes are synchronized - when "it" status changes, all clients see the same visual indicators. They test with two windows to verify that visual indicators correctly show who is "it" on both screens and update when tagging occurs.
-
-Dependencies:
-* T19.G6.03C.02: Track and broadcast "it" status
-* T19.G6.04B: Receive and handle multiplayer broadcast messages
-
-
-ID: T19.G6.03C.04
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Polish and test tag game mechanics
-Description: Students refine and thoroughly test their tag game. They add game start logic (one player randomly designated as "it" at game start), add optional scoring (track how long each player has been "it" or how many tags each player made), implement game reset functionality, and polish visual/audio feedback. They test edge cases: simultaneous collisions, rapid re-tagging, player joining/leaving during game. They verify the game is fun and fair with two windows. This completes students' first collision-based multiplayer game integrating movement, collision detection, state broadcasting, and visual feedback.
-
-Dependencies:
-* T19.G6.03C.03: Add visual indicators for "it" status
-* T19.G6.12: Reset the game world for new rounds
 
 
 ID: T19.G6.04A
@@ -12792,22 +12525,13 @@ Dependencies:
 * T11.G5.01: Create a custom block with inputs
 
 
-ID: T19.G6.04D
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Access and use broadcast message parameters
-Description: Students learn how to retrieve and use the parameter data sent with multiplayer broadcast messages. They use the parameter reporter block inside "when I receive [MESSAGE]" handlers to access the data that was sent with the broadcast. They practice with different data types: numbers (scores, positions, counts), text (player names, status messages), and mixed data. They parse and validate parameter data before using it (check if it's a valid number, not empty, within expected range). They implement at least 3 different message handlers that use parameters to update game state differently based on the received data (e.g., "player_scored" updates specific player's score, "item_collected" hides specific item by ID, "status_change" displays specific status message).
-
-Dependencies:
-* T19.G6.04C: Broadcast multiplayer messages with parameters
-
-
 ID: T19.G6.05A
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: Use synchronized speed x/y blocks for movement
-Description: Students use the `synchronously set speed x (X) y (Y)` block to move sprites so that all players see the same motion. They understand that the server coordinates movement across all connected clients. They create a simple movement test and compare synchronized movement to regular movement blocks in two windows, observing that only synchronized blocks update all clients (regular movement only shows in one window; synchronized movement shows in both). They implement keyboard controls using synchronized movement for a multiplayer game (e.g., arrow keys control speed x and y). They understand when to use speed x/y: best for independent horizontal and vertical control (top-down games, platformers, grid-based movement) where players can move in any cardinal or diagonal direction directly. They verify movement is smooth and synchronized across both windows.
+Description: Students use the `synchronously set speed x (X) y (Y)` block to move sprites so that all players see the same motion. They understand that the server coordinates movement across all connected clients. They create a simple movement test and compare synchronized movement to regular movement blocks in two windows, observing that only synchronized blocks update all clients (regular movement only shows in one window; synchronized movement shows in both). They implement keyboard controls using synchronized movement for a multiplayer game (e.g., arrow keys control speed x and y). They verify movement is smooth and synchronized across both windows.
 
 Dependencies:
-* T19.G6.00F: Understand synchronization mechanisms in depth
+* T19.G6.00F: Understand what "synchronization" means in multiplayer games
 * T19.G6.02C: Initialize sprites when they join using "when added to game"
 * T14.G4.01: Compare position, velocity, and acceleration
 
@@ -12815,7 +12539,7 @@ Dependencies:
 ID: T19.G6.05B
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: Use synchronized speed/direction blocks for movement
-Description: Students use the `synchronously set speed (SPEED) dir (DIR)` block as an alternative way to move sprites in multiplayer games. They understand this is useful for rotation-based movement (like spaceship controls where the sprite points in a direction and moves forward/backward). They compare x/y movement vs speed/direction movement and explain when each is appropriate: x/y for independent horizontal/vertical control (top-down games, platformers) where you want direct cardinal movement; speed/direction for rotation-based control (vehicles, spaceships, tanks) where sprites face a direction and move forward/backward in that direction. They implement rotation-based controls (e.g., left/right arrow keys rotate sprite direction, up/down keys change speed to move forward/backward) and test in two windows to verify synchronized rotation and movement.
+Description: Students use the `synchronously set speed (SPEED) dir (DIR)` block as an alternative way to move sprites in multiplayer games. They understand this is useful for rotation-based movement (like spaceship controls where the sprite points in a direction and moves forward). They compare x/y movement vs speed/direction movement and explain when each is appropriate: x/y for grid-based or platformer movement, speed/direction for vehicles or rotational controls. They implement rotation-based controls (e.g., arrow keys rotate sprite, up key moves forward) and test in two windows.
 
 Dependencies:
 * T19.G6.05A: Use synchronized speed x/y blocks for movement
@@ -12942,16 +12666,6 @@ Dependencies:
 * T19.G6.00H: Understand what servers are in multiplayer games
 
 
-ID: T19.G7.00C
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand network delay and its impact on gameplay
-Description: Students learn that network delay (latency) is the time it takes for messages to travel from one computer to the server and then to other computers, and how this affects gameplay design. They understand that typical delays range from 20-200 milliseconds depending on distance and connection quality. They identify gameplay situations where delays cause problems: fast-paced action games (shooting, racing) are very sensitive to lag, while turn-based or slower games are more forgiving. They design gameplay mechanics that account for network delay: predictive movement (show where players will be), lag compensation (smooth interpolation), or turn-based actions (less affected by delay). They test their game with simulated or actual lag and evaluate whether the gameplay remains fun and fair.
-
-Dependencies:
-* T19.G6.00G: Understand what lag and latency mean in multiplayer games
-* T19.G7.00B: Choose appropriate server locations to minimize lag
-
-
 ID: T19.G7.01
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: Build a cooperative puzzle with shared progress counters
@@ -13032,16 +12746,6 @@ Dependencies:
 * T19.G7.04: Scale game logic to handle variable player counts
 
 
-ID: T19.G7.09
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Design fair starting conditions for variable player counts
-Description: Students design spawn points, resource distribution, and team assignments that remain balanced regardless of how many players join. They implement dynamic spawn point calculation (spread players evenly around arena or along starting line) rather than fixed positions. They ensure resource distribution scales with player count (more players = more items spawned or faster respawn rates). For team games, they implement automatic team balancing that distributes players evenly. They test with 2, 3, 4, 5, and 6+ players to verify fairness - no player should have inherent advantages based on join order or spawn location. They understand that fair starting conditions are crucial for competitive multiplayer games.
-
-Dependencies:
-* T19.G7.04: Scale game logic to handle variable player counts
-* T19.G7.05: Balance starting conditions and scoring for fairness
-
-
 ID: T19.G8.01
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: Implement team assignment or simple matchmaking
@@ -13064,17 +12768,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 
 
-ID: T19.G8.03
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Implement reconnection handling
-Description: Students implement logic to handle when a player temporarily loses connection and then reconnects to the game. They detect disconnection events using connection status checks and display appropriate feedback ("Connection lost... attempting to reconnect"). They preserve game state during brief disconnections so players can resume where they left off. They handle edge cases: player reconnects while game is in progress (restore their sprite and position), player disconnects during critical moments (pause/defer actions), extended disconnection (remove player after timeout). They test reconnection by deliberately disconnecting and reconnecting during gameplay. They understand that graceful reconnection handling improves player experience and prevents game disruption.
-
-Dependencies:
-* T19.G6.01F: Check connection status and display feedback
-* T19.G6.10C: Remove sprites and clean up when players leave
-* T19.G8.02: Implement host-authoritative validation to prevent cheating
-
-
 ID: T19.G8.04
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
 Skill: Debug message delivery timing issues
@@ -13089,53 +12782,14 @@ Dependencies:
 
 ID: T19.G8.05
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Explain the architecture of a multiplayer game system (DEPRECATED - use sub-skills)
-Description: This skill has been broken down into sub-skills T19.G8.05.01 through T19.G8.05.04 for better scaffolding. Students should complete those sub-skills instead.
-
-Dependencies:
-* T19.G8.05.04: Identify and explain performance bottlenecks
-
-
-ID: T19.G8.05.01
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Diagram client-server message flow
-Description: Students create a detailed diagram showing how messages flow in their multiplayer game system. They diagram the path from player input (keyboard press) → original sprite processing → message to server → server broadcast → message to clients → replicate sprite updates → screen display. They use arrows to show message direction and label each component (host client, other clients, server). They identify which components are on their computer vs on the server vs on other players' computers. They create diagrams for at least two different game events (movement, scoring) to understand different message patterns.
+Skill: Explain the architecture of a multiplayer game system
+Description: Students create a diagram showing how their multiplayer game works: player input, host/server processing, message broadcast, and screen updates. They identify potential bottlenecks (too many messages, slow hosts) and propose solutions. They understand the data flow in client-server architecture.
 
 Dependencies:
 * T19.G7.03: Choose what data to synchronize versus keep local
 * T19.G7.04: Scale game logic to handle variable player counts
 * T02.G6.01: Design a flowchart for a simple guessing game
-
-
-ID: T19.G8.05.02
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Identify synchronization points in your game
-Description: Students analyze their multiplayer game code to identify all synchronization points where data is shared across the network. They create a list of every place their game uses synchronized blocks (synchronously set speed, etc.) or broadcasts messages, documenting what data is synchronized and why. They categorize synchronization as continuous (movement, physics updates every frame) vs event-driven (collision, scoring, state changes). They explain for each synchronization point: what triggers it, what data is sent, which clients receive it, and what happens when received. This systematic analysis helps them understand their game's network communication patterns.
-
-Dependencies:
-* T19.G8.05.01: Diagram client-server message flow
-* T19.G7.03: Choose what data to synchronize versus keep local
-
-
-ID: T19.G8.05.03
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Trace a single game action through the system
-Description: Students select one specific game action (e.g., "Player 1 scores a point" or "Player 2 collects a coin") and trace its complete execution path through the multiplayer system. They document step-by-step: which code block runs first, what local processing happens, what message is sent to the server, how the server processes it, what broadcast is sent to all clients, how each client receives and processes the message, what state changes occur, and what visual updates happen. They use their trace to create a timeline diagram showing events in chronological order across all clients. They verify their trace by adding debug print statements and observing actual execution.
-
-Dependencies:
-* T19.G8.05.02: Identify synchronization points in your game
 * T06.G6.01: Trace event execution paths in a multi‑event program
-* T13.G6.01: Trace complex code with multiple variables
-
-
-ID: T19.G8.05.04
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Identify and explain performance bottlenecks
-Description: Students analyze their multiplayer architecture to identify potential performance bottlenecks and propose solutions. They examine: message frequency (are we broadcasting too often?), message size (are we sending too much data?), processing load (is the host doing too much work?), synchronization strategy (should this be continuous or event-driven?), and sprite count (too many Dynamic sprites?). They identify at least 3 potential bottlenecks in their game, explain why each is problematic (causes lag, uses too much bandwidth, slows host processing), and propose specific solutions (reduce broadcast frequency, use Static sprites, batch messages, optimize collision detection). They understand trade-offs in different architectures and can justify design decisions.
-
-Dependencies:
-* T19.G8.05.03: Trace a single game action through the system
-* T19.G7.03: Choose what data to synchronize versus keep local
 
 
 ID: T19.G8.06
@@ -13178,15 +12832,6 @@ Dependencies:
 * T19.G6.01F: Check connection status and display feedback
 * T08.G6.01: Use conditionals to control simulation steps
 
-
-ID: T19.G8.10
-Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Compare peer-to-peer vs client-server architectures
-Description: Students learn about two fundamental multiplayer architectures and compare their trade-offs. They understand peer-to-peer (P2P): all players connect directly to each other, no central server, each player's computer has equal authority. They understand client-server: one computer (host/server) coordinates everything, clients connect to server, server has authoritative game state. They compare advantages: P2P has no server costs and lower latency between nearby players; client-server has authoritative validation, easier synchronization, and better cheating prevention. They identify which architecture CreatiCode uses (client-server with host as server) and explain why. They discuss scenarios where each architecture works better: P2P for small cooperative games, client-server for competitive games needing anti-cheat.
-
-Dependencies:
-* T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
-* T19.G8.05.04: Identify and explain performance bottlenecks
 
 
 ID: T20.GK.01
@@ -13327,22 +12972,13 @@ Dependencies:
 * T20.G3.01: Translate art recipe cards into blocks
 
 
-ID: T20.G3.01.02
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
-Description: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
-
-Dependencies:
-* T20.G3.01.01: Explain CreatiCode drawing model
-
-
 ID: T20.G3.02
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Program a repeating border with loops
 Description: Students write a drawing program that repeats a sequence using a `repeat` block. They use CreatiCode's draw blocks (draw rectangle at current position, draw oval at current position) combined with motion blocks (move right, move down) to create border patterns. They see how loops reduce repetitive code.
 
 Dependencies:
-* T20.G3.01.02: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
+* T20.G3.01.01: Explain CreatiCode drawing model
 
 
 ID: T20.G3.03
@@ -13422,31 +13058,13 @@ Dependencies:
 * T09.G3.02: Use a variable in a conditional (if block)
 
 
-ID: T20.G4.03.01
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create smooth animations in drawings by using small movements in loops
-Description: Create smooth animations in drawings by using small movements in loops
-
-Dependencies:
-* T20.G4.03: Control art with parameters
-* T03.G4.03: Solve simple design challenges using creativity and constraints
-
-
-ID: T20.G4.03.02
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Design and apply color palettes by creating lists of colors for artistic projects
-Description: Design and apply color palettes by creating lists of colors for artistic projects
-
-Dependencies:
-* T20.G4.03: Control art with parameters
-
-
 ID: T20.G4.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Debug a multi-loop art script
 Description: Students receive a script whose nested loops miscount, overlap, or use the wrong color. They identify the issue and adjust counts, moves, or color changes.
 
 Dependencies:
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
@@ -13548,7 +13166,7 @@ Dependencies:
 * T20.G5.02: Animate a pattern with a counter variable
 
 
-ID: T20.G5.06
+ID: T20.G5.04.00.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Add box shapes to 3D scenes
 Description: Students use the `add box` block to place box shapes in the 3D scene. They learn to adjust width, height, and depth parameters and practice positioning boxes at different x, y, and z coordinates to create structures like platforms, walls, or buildings.
@@ -13557,40 +13175,40 @@ Dependencies:
 * T20.G5.04.00: Initialize 3D scenes
 
 
-ID: T20.G5.07
+ID: T20.G5.04.00.02
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Add sphere shapes to 3D scenes
 Description: Students use the `add sphere` block to place spherical shapes in the 3D scene. They learn to adjust diameter and segment parameters for smoothness and practice positioning spheres to create objects like balls, planets, or decorative elements.
 
 Dependencies:
-* T20.G5.06: Add box shapes to 3D scenes
+* T20.G5.04.00.01: Add box shapes to 3D scenes
 
 
-ID: T20.G5.08
+ID: T20.G5.04.00.03
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Add cylinder shapes to 3D scenes
 Description: Students use the `add cylinder` block to place cylindrical shapes in the 3D scene. They learn to adjust height and diameter parameters and practice positioning cylinders to create objects like pillars, posts, or tubes.
 
 Dependencies:
-* T20.G5.07: Add sphere shapes to 3D scenes
+* T20.G5.04.00.02: Add sphere shapes to 3D scenes
 
 
-ID: T20.G5.09
+ID: T20.G5.04.00.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Create patterns with 3D shapes
 Description: Students combine box, sphere, and cylinder shapes to create simple 3D patterns and structures. They use multiple shape types together and explore basic composition principles in 3D space, building simple scenes with varied geometric forms.
 
 Dependencies:
-* T20.G5.08: Add cylinder shapes to 3D scenes
+* T20.G5.04.00.03: Add cylinder shapes to 3D scenes
 
 
-ID: T20.G5.10
+ID: T20.G5.04.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Create simple 3D artistic patterns
 Description: Students explore CreatiCode's 3D capabilities by creating basic 3D shapes (spheres, boxes, cylinders) in loops to form artistic patterns. They use positioning and simple transformations to arrange 3D objects, introducing the third dimension to algorithmic art.
 
 Dependencies:
-* T20.G5.09: Create patterns with 3D shapes
+* T20.G5.04.00.04: Create patterns with 3D shapes
 
 
 ID: T20.G5.05
@@ -13666,7 +13284,7 @@ Skill: Apply materials and textures to 3D art
 Description: Students explore CreatiCode's material system by applying colors, textures, metallic and roughness properties to 3D shapes. They create artistic effects by combining materials with 3D patterns, understanding how material properties affect visual appearance.
 
 Dependencies:
-* T20.G5.10: Create simple 3D artistic patterns
+* T20.G5.04.01: Create simple 3D artistic patterns
 * T20.G6.05: Apply math transformations to art
 
 
@@ -13676,7 +13294,7 @@ Skill: Create 3D curve and line art
 Description: Students create algorithmic art using 3D lines and curves in space. They generate point lists using loops and math formulas (sine/cosine for spirals, parametric equations for helixes), understanding how 2D math concepts extend to 3D space with z-coordinates. They store calculated x, y, z positions in lists, then use these point lists to create 3D curves and line sculptures, forming spirals, helixes, and abstract shapes in three dimensions.
 
 Dependencies:
-* T20.G5.10: Create simple 3D artistic patterns
+* T20.G5.04.01: Create simple 3D artistic patterns
 * T20.G6.05: Apply math transformations to art
 
 
@@ -13687,7 +13305,7 @@ Description: Students add interactivity to their 3D algorithmic art by mapping k
 
 Dependencies:
 * T20.G5.03: Make art respond to mouse or keys
-* T20.G5.10: Create simple 3D artistic patterns
+* T20.G5.04.01: Create simple 3D artistic patterns
 
 
 ID: T20.G7.01
@@ -13755,57 +13373,38 @@ Dependencies:
 
 ID: T20.G7.05
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Generate fractal patterns using L-system rules (e.g., Koch curve variations, fractal trees with branching angles)
-Description: Generate fractal patterns using L-system rules (e.g., Koch curve variations, fractal trees with branching angles)
+Skill: Implement rule-based iterative art systems
+Description: Students implement rule-based iterative art systems (L-systems, cellular automata lite, or simple growth rules) where each iteration applies transformation rules to generate increasingly complex patterns. They start with simple substitution rules (e.g., line → line+branch) to create branching structures.
 
 Dependencies:
+* T07.G6.05: Fix a loop that runs too many or too few times
+* T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G6.05: Apply math transformations to art
-* T03.G7.02: Apply computational thinking to arts (visual, performing, media)
 
 
 ID: T20.G7.05.01
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement cellular automata for pattern generation (e.g., simple growth rules, elementary automata)
-Description: Implement cellular automata for pattern generation (e.g., simple growth rules, elementary automata)
-
-Dependencies:
-* T20.G7.05: Generate fractal patterns using L-system rules (e.g., Koch curve variations, fractal trees with branching angles)
-* T03.G7.03: Apply computational thinking to engineering
-
-
-ID: T20.G7.05.02
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create generative art systems that combine L-systems and cellular automata with random variations
-Description: Create generative art systems that combine L-systems and cellular automata with random variations
-
-Dependencies:
-* T20.G7.05.01: Implement cellular automata for pattern generation (e.g., simple growth rules, elementary automata)
-* T20.G7.04: Analyze real generative artworks
-
-
-ID: T20.G7.06
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Create 3D generative sculptures with particle effects
 Description: Students combine 3D shape creation with mathematical transformations and particle systems to create dynamic 3D sculptures. They use formulas to control 3D positions, rotations, and particle emission patterns, exploring how algorithmic art extends into three dimensions.
 
 Dependencies:
-* T20.G5.10: Create simple 3D artistic patterns
+* T20.G5.04.01: Create simple 3D artistic patterns
 * T20.G6.05: Apply math transformations to art
 * T20.G7.03: Study parameter impact on aesthetics
 * T20.G7.04.01: Create particle-based generative art
 
 
-ID: T20.G7.07
+ID: T20.G7.05.02
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Use lighting to enhance 3D algorithmic art
 Description: Students add and configure lights (point, directional, spot) to their 3D generative art. They explore how light position, color, and intensity create mood and highlight patterns. They use multiple lights to create dramatic shadows and artistic effects in their 3D sculptures.
 
 Dependencies:
-* T20.G5.10: Create simple 3D artistic patterns
-* T20.G7.06: Create 3D generative sculptures with particle effects
+* T20.G5.04.01: Create simple 3D artistic patterns
+* T20.G7.05.01: Create 3D generative sculptures with particle effects
 
 
-ID: T20.G7.08
+ID: T20.G7.05.03
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Generate custom 3D shapes from calculated vertices
 Description: Students create original 3D shapes by calculating vertex positions using algorithms and storing them in lists. They use loops to calculate x, y, z coordinates for each vertex based on mathematical formulas, building lists of positions. They then use these vertex lists with 3D shape creation blocks to generate custom 3D columns, cones, and extruded shapes, enabling unique geometric art beyond standard primitives.
@@ -13867,14 +13466,14 @@ Dependencies:
 
 ID: T20.G8.05
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement advanced 3D artistic effects including custom shaders, procedural materials, and dynamic lighting for sophisticated visual compositions
-Description: Implement advanced 3D artistic effects including custom shaders, procedural materials, and dynamic lighting for sophisticated visual compositions
+Skill: Combine multiple algorithms in an art pipeline
+Description: Students combine data-driven layouts with one additional technique (either noise-based variation OR animation) to create a two-phase algorithmic art pipeline. They ensure both phases work together cohesively and explain how each phase contributes to the final artistic result.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T20.G7.05.02: Create generative art systems that combine L-systems and cellular automata with random variations
+* T20.G7.05: Implement rule-based iterative art systems
 
 
 ID: T20.G8.05.01
@@ -13883,7 +13482,7 @@ Skill: Apply post-processing effects to generative art
 Description: Students add post-processing effects (bloom, glow, blur) to their algorithmic art to create atmospheric and aesthetic enhancements. They understand how these effects layer on top of rendered output and adjust parameters to achieve desired artistic results.
 
 Dependencies:
-* T20.G7.06: Create 3D generative sculptures with particle effects
+* T20.G7.05.01: Create 3D generative sculptures with particle effects
 * T20.G8.04: Optimize rendering for performance
 
 
