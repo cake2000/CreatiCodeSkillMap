@@ -9444,6 +9444,7 @@ Skill: Change sprite position
 Description: Use `go to x: () y: ()` and `glide (1) secs to x: () y: ()` to move sprites to different positions on the stage for scene composition.
 
 Dependencies:
+* T15.G3.00.03: Customize costumes in paint editor
 * T01.G3.01: Complete a simple script with missing blocks
 
 
@@ -9478,30 +9479,21 @@ Dependencies:
 
 ID: T15.G3.04
 Topic: T15 – Stories & Animation
-Skill: Display speech with say blocks
-Description: Use the `say [Hello!] for (2) seconds text size (16) [#FFFFFFFF] background [#000000FF] edge [#FFFFFFFF]` block to display text in speech bubbles. The parameters are: message text, duration in seconds, text size (number, e.g., 16 for normal, 24 for large), font color (hex code like #FFFFFFFF for white), background color (hex code like #FF0000FF for red), and edge/border color. Speech bubbles appear above the sprite and automatically disappear after the duration. Start with simple messages using default colors, then experiment with styling for different moods or emphasis.
+Skill: Say something
+Description: Use the `say [Hello] for (2) seconds` block to display text.
 
 Dependencies:
 * T15.G3.01: Change sprite position
 * T01.G3.01: Complete a simple script with missing blocks
 
 
-ID: T15.G3.04.01
-Topic: T15 – Stories & Animation
-Skill: Style speech bubbles for mood and emphasis
-Description: Customize speech bubble appearance to convey emotions and emphasis. Use larger text size (24-32) for shouting or excitement, smaller size (12-14) for whispers. Use color psychology for backgrounds: red (#FF0000FF) for anger or alerts, blue (#0000FFFF) for calm or sad speech, yellow (#FFFF00FF) for cheerful dialogue, green (#00FF00FF) for positive affirmations, purple (#800080FF) for magical or mysterious speech. Use white text (#FFFFFFFF) on dark backgrounds for high contrast, or black text (#000000FF) on light backgrounds. Match edge color to background for subtle borders, or use contrasting edge colors for bold outlines.
-
-Dependencies:
-* T15.G3.04: Display speech with say blocks
-
-
 ID: T15.G3.05
 Topic: T15 – Stories & Animation
-Skill: Display thoughts with think blocks
-Description: Use the `think [Hmm...] for (2) seconds text size (16) [#FFFFFFFF] background [#000000FF] edge [#FFFFFFFF]` block to show internal monologue in thought bubbles. Parameters work identically to say blocks: message text, duration, text size, font color, background color, and edge color. Think bubbles have a cloud-like appearance (vs. say bubbles which have a speech tail) to distinguish thoughts from spoken words. Use think for character reasoning, planning, or reactions that other characters should not hear.
+Skill: Think bubble
+Description: Use the `think [Hmm...]` block to show internal monologue.
 
 Dependencies:
-* T15.G3.04: Display speech with say blocks
+* T15.G3.04: Say something
 
 
 ID: T15.G3.05.01
@@ -9510,8 +9502,8 @@ Skill: Style think bubbles
 Description: Use the styled think block: `think [Hmm...] for (2) seconds text size (16) [#FFFFFFFF] background [#000000FF] edge [#FFFFFFFF]`. Parameters work identically to styled say blocks: duration, text size, font color, background color, and edge color. Use lighter background colors with transparency (#FFFFFF80 - white with 50% alpha) for daydreams or light thoughts, darker backgrounds (#000000FF - solid black) for worried or serious thoughts, and pastel colors (#FFB6C1FF - light pink) for happy daydreams.
 
 Dependencies:
-* T15.G3.05: Display thoughts with think blocks
-* T15.G3.04.01: Style speech bubbles for mood and emphasis
+* T15.G3.05: Think bubble
+* T15.G3.10: Enhanced say with styling
 
 
 ID: T15.G3.06
@@ -9551,59 +9543,32 @@ Dependencies:
 * T15.G3.08: Click to talk
 
 
+ID: T15.G3.10
+Topic: T15 – Stories & Animation
+Skill: Enhanced say with styling
+Description: Use the styled say block: `say [Hello!] for (2) seconds text size (16) [#FFFFFFFF] background [#000000FF] edge [#FFFFFFFF]`. The parameters are: duration in seconds, text size (number, e.g., 16 for normal, 24 for large), font color (hex code like #FFFFFFFF for white), background color (hex code like #FF0000FF for red), and edge/border color. Use larger text size (24-32) for shouting or emphasis, red backgrounds (#FF0000FF) for anger, blue backgrounds (#0000FFFF) for calm speech, or yellow backgrounds (#FFFF00FF) for cheerful dialogue.
+
+Dependencies:
+* T15.G3.04: Say something
+* T15.G3.06: Sequence dialogue
+
+
 ID: T15.G3.11
 Topic: T15 – Stories & Animation
-Skill: Create label widgets for persistent text
-Description: Create label widgets using `add label [text] at X (0) Y (0) width (200) height (50) padding (10) as [title]` to display PERSISTENT text that stays on screen. Labels are UI widgets (not temporary like say blocks or printed text) that remain visible until explicitly hidden, removed, or the project stops. The padding parameter adds space between text and label edges (larger padding = more space). Position labels using X/Y coordinates: center of stage is (0, 0), top is positive Y, bottom is negative Y, right is positive X, left is negative X. Labels float above all sprites.
+Skill: Display labels for titles
+Description: Create label widgets using `add label at X (0) Y (0) width (200) height (50) padding (10) as [title]` to display PERSISTENT text that stays on screen. Labels are UI widgets (not temporary like printed text) that remain visible until explicitly hidden or the project stops. After creating a label, set its text with `set value to [Chapter 1: The Beginning] for widget [title v]`. Position labels at screen edges: top center (X: 0, Y: 150) for titles, top left (X: -200, Y: 150) for scene headings, bottom center (X: 0, Y: -150) for subtitles. Labels float above all sprites and can be styled with widget styling blocks. Use for story titles, chapter headings, character name tags, or score displays.
 
 Dependencies:
-* T15.G3.04: Display speech with say blocks
-
-
-ID: T15.G3.11.01
-Topic: T15 – Stories & Animation
-Skill: Position labels for titles and UI elements
-Description: Position labels at strategic screen locations for different purposes. Top center (X: 0, Y: 150) for main titles and headings, top left (X: -200, Y: 150) for scene identifiers or chapter numbers, top right (X: 200, Y: 150) for scores or status, bottom center (X: 0, Y: -150) for subtitles or instructions, bottom left (X: -200, Y: -150) for character name tags, bottom right (X: 200, Y: -150) for timer or level indicators. The stage typically ranges from X: -240 to 240 and Y: -180 to 180. Choose width and height that fit your text: short titles (width: 150-200), long titles (width: 300-400), single-line labels (height: 30-50), multi-line labels (height: 60-100).
-
-Dependencies:
-* T15.G3.11: Create label widgets for persistent text
-
-
-ID: T15.G3.11.02
-Topic: T15 – Stories & Animation
-Skill: Update label text for dynamic displays
-Description: Change label text while your project runs using `set value to [New Text] for widget [title v]`. This replaces all existing text in the label. Use this to update story titles when scenes change, display character names when speakers change, or show status messages. Combine with variables to show dynamic information: `set value to (join [Score: ] (score)) for widget [scoreLabel v]`. Update labels in response to events: `when I receive [NewScene]` → `set value to [Chapter 2] for widget [title v]`. Labels update instantly when you change their value.
-
-Dependencies:
-* T15.G3.11.01: Position labels for titles and UI elements
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T15.G3.10: Enhanced say with styling
 
 
 ID: T15.G3.12
 Topic: T15 – Stories & Animation
-Skill: Print temporary text at positions
-Description: Use `print [text] at x (0) y (0) width (300) height (100) color [#2CADE5FF]` to display TEMPORARY text directly on the stage at specific coordinates. Unlike labels (which are widgets), printed text is drawn as a layer on the stage and stays until cleared or the project stops. Printed text appears BELOW sprites and widgets in the layer order. The text wraps within the specified width and height. Use color parameter for text color (hex format #RRGGBBAA). Printed text is useful for annotations, floating labels, or temporary messages that should not be clickable UI elements.
+Skill: Print text at positions
+Description: Use `print [Subtitle text] at x (0) y (0) width (300) height (100) color [#2CADE5FF]` to display TEMPORARY text directly on the stage at specific coordinates. Unlike labels (which are widgets), printed text is drawn as a layer on the stage and stays until cleared or the project stops. Use `print [text] at x (0) y (0) width (300) height (100) color [#2CADE5FF] for (2) seconds` to automatically hide the text after a duration. Create floating dialogue near characters by positioning text near sprite coordinates: `print [Ouch!] at x (my x) y ((my y) + (50))`. Display multiple simultaneous texts at different positions for conversations. Use `clear all my prints` to remove all printed text when scenes change: `when I receive [NewScene]` → `clear all my prints`.
 
 Dependencies:
-* T15.G3.11: Create label widgets for persistent text
-
-
-ID: T15.G3.12.01
-Topic: T15 – Stories & Animation
-Skill: Create timed and sprite-relative text
-Description: Use `print [text] at x (0) y (0) width (300) height (100) color [#2CADE5FF] for (2) seconds` to automatically hide text after a duration. This is useful for temporary notifications, damage numbers, or status effects. Create floating text near sprites by using sprite position variables: `print [Ouch!] at x (my x) y ((my y) + (50)) width (100) height (30) color [#FF0000FF] for (1) seconds` displays red text 50 pixels above the sprite for 1 second. The text stays at the printed position even if the sprite moves afterward (it is not attached to the sprite). Display multiple simultaneous texts at different positions for conversations or multiple events happening at once.
-
-Dependencies:
-* T15.G3.12: Print temporary text at positions
-
-
-ID: T15.G3.12.02
-Topic: T15 – Stories & Animation
-Skill: Clear printed text for scene changes
-Description: Use `clear all my prints` to remove all printed text created by this sprite. This clears both timed and permanent printed text. Use this when scenes change to remove old text: `when I receive [NewScene]` → `clear all my prints`. Note that `clear all my prints` only removes text printed by the current sprite. If multiple sprites print text, each sprite must clear its own prints, or you can use a scene manager sprite that broadcasts a 'ClearAll' message that all sprites respond to by clearing their prints. Printed text is NOT automatically cleared when you hide a sprite - you must explicitly clear it.
-
-Dependencies:
-* T15.G3.12.01: Create timed and sprite-relative text
+* T15.G3.11: Display labels for titles
 
 
 ID: T15.G4.01
@@ -9618,22 +9583,12 @@ Dependencies:
 
 ID: T15.G4.02
 Topic: T15 – Stories & Animation
-Skill: Use broadcasts to trigger scene changes
-Description: Use `broadcast [Scene2]` to send scene change messages and `when I receive [Scene2]` to respond to them. Broadcasting is how you coordinate multiple sprites to create the illusion of changing locations or scenes. When you `broadcast [Scene2]`, ALL sprites with `when I receive [Scene2]` hat blocks will run their scripts simultaneously. This allows you to trigger many changes at once: some sprites show, some hide, some move, some change appearance. Each sprite decides how to respond to each scene. For example, Scene1 might show characters in a house, Scene2 might show them in a forest - different sprites respond by showing/hiding/moving to create each scene.
+Skill: Scene management with broadcasts
+Description: Use `broadcast [Scene 2]` and `when I receive [Scene 2]` to manage scene transitions. Different sprites respond to scene broadcasts by moving, showing, or hiding to create the illusion of changing locations.
 
 Dependencies:
 * T15.G4.01: Animate with size changes
 * T15.G2.02: Identify scene transitions
-
-
-ID: T15.G4.02.01
-Topic: T15 – Stories & Animation
-Skill: Program sprite responses to scene broadcasts
-Description: In each sprite, add `when I receive [SceneName]` scripts that control how the sprite behaves in that scene. Use `show` to make the sprite visible in this scene, `hide` to make it invisible. Use `go to x: () y: ()` to position the sprite correctly for this scene. For example, a House sprite: `when I receive [Scene1]` → `show` + `go to x: (0) y: (-50)` (appears in Scene1), `when I receive [Scene2]` → `hide` (disappears in Scene2). A Character sprite might move between scenes: `when I receive [Scene1]` → `go to x: (-100) y: (0)` + `show`, `when I receive [Scene2]` → `go to x: (50) y: (0)` + `show`. Every sprite needs receive blocks for every scene where it appears or needs to do something.
-
-Dependencies:
-* T15.G4.02: Use broadcasts to trigger scene changes
-* T15.G4.03: Hide and Show characters
 
 
 ID: T15.G4.03
@@ -9740,7 +9695,7 @@ Description: Understand the layer order in CreatiCode projects: Background (stag
 
 Dependencies:
 * T15.G5.01: Coordinate scene changes with broadcasts
-* T15.G3.12: Print temporary text at positions
+* T15.G3.12: Print text at positions
 
 
 ID: T15.G5.05
@@ -9784,125 +9739,51 @@ Dependencies:
 
 ID: T15.G5.09
 Topic: T15 – Stories & Animation
-Skill: Draw rectangles on vector costumes
-Description: Use `draw rectangle at x (0) y (0) width (200) height (100) fill [#6269F8FF] border [#20B755FF] width (1) corner radius (0) rotation (0)` to programmatically draw rectangles on the sprite's current vector costume when your code runs. Unlike the paint editor (manual design tool), this block draws shapes dynamically as scripts execute. The rectangle is positioned at (x, y) coordinates relative to the costume center. Fill color is the inside color, border color is the outline color, border width is outline thickness in pixels. Corner radius creates rounded corners (0 = sharp, 10+ = rounded). Rotation rotates the rectangle clockwise by degrees. The rectangle is drawn ON the costume (not on the stage), so it moves with the sprite.
+Skill: Draw shapes on costumes with blocks
+Description: Use drawing blocks to programmatically add shapes to vector costumes when your code runs. Use `draw rectangle at x (0) y (0) width (200) height (100) fill [#6269F8FF] border [#20B755FF] width (1) corner radius (0) rotation (0)` to draw rectangles. Use `draw oval at x (0) y (0) width (100) height (100) fill [#E2F9F2FF] border [#F44399FF] width (1) rotation (0)` to draw circles and ovals. Unlike the paint editor (manual tool), these blocks draw shapes when scripts run, allowing dynamic visual effects like health bars that change size, status icons that appear/disappear, or patterns created in loops. The shapes are drawn on the sprite's current vector costume, not on the stage.
 
 Dependencies:
 * T15.G3.00.03: Customize costumes in paint editor
 * T15.G5.01: Coordinate scene changes with broadcasts
 
 
-ID: T15.G5.09.01
-Topic: T15 – Stories & Animation
-Skill: Draw ovals and circles on vector costumes
-Description: Use `draw oval at x (0) y (0) width (100) height (100) fill [#E2F9F2FF] border [#F44399FF] width (1) rotation (0)` to draw circles and ovals on vector costumes. When width equals height, you get a perfect circle. When width differs from height, you get an oval/ellipse. The position (x, y) is the center of the oval. Fill and border colors work the same as rectangles. Rotation rotates the oval clockwise by degrees (useful for tilted ovals). Combine rectangle and oval drawing in loops to create patterns: `repeat (10)` → `draw oval...` → `change x by (20)` creates a row of circles.
-
-Dependencies:
-* T15.G5.09: Draw rectangles on vector costumes
-
-
-ID: T15.G5.09.02
-Topic: T15 – Stories & Animation
-Skill: Create dynamic visual effects with shape drawing
-Description: Use shape drawing in loops and with variables to create dynamic visual effects. Create health bars that change size: `draw rectangle at x (-100) y (150) width ((health) * (2)) height (20) fill [#00FF00FF]...` where health variable (0-100) controls bar length. Create status icons that appear/disappear: `if <(hasShield) = [true]>` → `draw oval at x (50) y (50) width (30) height (30) fill [#0000FFFF]...` for a shield indicator. Generate patterns in loops: `repeat (10)` with `draw rectangle at x ((i) * (30))...` creates evenly spaced rectangles. Use rotation in loops to create radial patterns: `repeat (12)` with `draw rectangle... rotation ((i) * (30))` creates a starburst.
-
-Dependencies:
-* T15.G5.09.01: Draw ovals and circles on vector costumes
-* T07.G3.01: Use a counted repeat loop
-* T09.G3.02: Use variables to store numerical values
-
-
 ID: T15.G5.10
 Topic: T15 – Stories & Animation
-Skill: Draw straight lines on vector costumes
-Description: Use `draw line in [#386AF8FF] from x (0) y (0) to x (100) y (100) thickness (2)` to draw straight lines on vector costumes. The line goes from point (from x, from y) to point (to x, to y). Color is specified in hex format. Thickness is line width in pixels (1 = thin, 5+ = thick). Lines are useful for connecting objects, creating borders, drawing diagrams, or making custom shapes by combining multiple lines. Draw a square with 4 lines: line from (0,0) to (100,0), from (100,0) to (100,100), from (100,100) to (0,100), from (0,100) to (0,0). Draw a triangle with 3 lines connecting 3 points.
+Skill: Draw lines and curves on costumes
+Description: Use `draw line in [#386AF8FF] from x (0) y (0) to x (100) y (100) thickness (2)` to draw straight lines on vector costumes. For curved lines, use `draw curve in [#05DC6DFF] from x (20) y (20) to x (200) y (20) control 1 x (20) y (100) control 2 x (200) y (100) thickness (1)`, where control points shape the curve's bend. Combine line drawing with loops to create complex patterns programmatically, such as star bursts, connection lines between objects, or decorative borders that adapt based on variables.
 
 Dependencies:
-* T15.G5.09: Draw rectangles on vector costumes
-
-
-ID: T15.G5.10.01
-Topic: T15 – Stories & Animation
-Skill: Draw bezier curves on vector costumes
-Description: Use `draw curve in [#05DC6DFF] from x (20) y (20) to x (200) y (20) control 1 x (20) y (100) control 2 x (200) y (100) thickness (1)` to draw smooth curves using bezier math. The curve starts at (from x, from y) and ends at (to x, to y). Control points 1 and 2 shape the curve's bend - they act like invisible magnets pulling the curve toward them. To create a simple arc, place both control points above or below the line between start and end points. For S-curves, place control points on opposite sides. Experiment with control point positions to see how they affect curve shape. Curves are useful for smooth paths, decorative flourishes, or organic shapes.
-
-Dependencies:
-* T15.G5.10: Draw straight lines on vector costumes
-
-
-ID: T15.G5.10.02
-Topic: T15 – Stories & Animation
-Skill: Draw text on vector costumes
-Description: Use `draw text [Hello] at x (0) y (0) size (24) color [#000000FF] rotation (0)` to draw text directly on vector costumes. Unlike `print` blocks (which display text on the stage layer), this draws text AS PART OF the costume itself. The text becomes permanent part of the costume until cleared. Position (x, y) is the text anchor point. Size is font size in pixels. Color is text color in hex format. Rotation tilts the text clockwise by degrees. Use for labeling costume elements, adding titles to procedurally generated images, or creating text-based visual effects. Draw text in loops to create repeating labels or artistic text patterns.
-
-Dependencies:
-* T15.G5.10.01: Draw bezier curves on vector costumes
+* T15.G5.09: Draw shapes on costumes with blocks
 
 
 ID: T15.G5.11
 Topic: T15 – Stories & Animation
-Skill: Clear all costume drawings
-Description: Use `clear all drawings` to remove ALL programmatic drawings (rectangles, ovals, lines, curves, text) from this sprite's current costume. This block only clears elements drawn with drawing blocks - it does NOT erase shapes manually created in the paint editor. Those paint editor shapes are permanent parts of the costume. Use `clear all drawings` at the start of scripts with `when green flag clicked` to reset costumes to their original state, or use with scene changes `when I receive [NewScene]` to clear old visual elements before drawing new ones. This allows you to create dynamic costumes that change throughout your story or animation.
+Skill: Clear programmatic drawings
+Description: Use `clear all my prints` to remove all drawings created with `draw` blocks (rectangles, ovals, lines, curves) and `print` blocks (text) from this sprite's costume. Use `clear all prints` (without "my") to remove drawings from all sprites' costumes at once. Understand that these blocks only clear programmatically drawn elements - they do NOT erase shapes manually drawn in the paint editor. Use `clear all my prints` at the start of scenes with `when I receive [NewScene]` to reset costumes to their original state before drawing new dynamic elements.
 
 Dependencies:
-* T15.G5.10.02: Draw text on vector costumes
-* T15.G3.12.02: Clear printed text for scene changes
+* T15.G5.10: Draw lines and curves on costumes
+* T15.G3.12: Print text at positions
 
 
 ID: T15.G5.12
 Topic: T15 – Stories & Animation
-Skill: Basic text-to-speech with AI voices
-Description: Use `say [Hello everyone!] in [English (United States) v] as [Female v] speed (100) pitch (100) volume (100) store sound as []` to convert text to spoken audio using AI voices. This is DIFFERENT from regular say blocks - this block speaks the text aloud with synthesized speech, while regular say blocks just show text bubbles. The sprite will speak the text you provide. Leave 'store sound as' empty for now (advanced feature for saving audio). Speed, pitch, and volume are all set to 100 (normal) as a starting point. The block plays the speech and waits until it finishes before continuing to the next block in the script.
+Skill: Basic text-to-speech narration
+Description: Use `say [Hello everyone!] in [English (United States) v] as [Female v] speed (100) pitch (100) volume (100) store sound as []` to convert text to spoken audio using AI voices. The sprite will speak the text aloud. Language options include English, Spanish, French, Chinese, and 30+ others. Voice types include Male, Female, Male2, Female2, Male3, Female3, Boy, and Girl (not all voices work in all languages). Speed, pitch, and volume are percentages: 100 is normal, 50 is half speed/pitch/volume, 200 is double. Leave "store sound as" empty unless you want to save the audio for reuse. Use different voices for different characters to create distinct personalities.
 
 Dependencies:
 * T15.G4.05: Read widget value into variable
-* T15.G3.04: Display speech with say blocks
-
-
-ID: T15.G5.12.01
-Topic: T15 – Stories & Animation
-Skill: Select languages and voice types for text-to-speech
-Description: Choose from 30+ languages including English (United States), English (United Kingdom), Spanish (Spain), Spanish (Mexico), French (France), Chinese (Mandarin, China), Japanese (Japan), German (Germany), Italian (Italy), Portuguese (Brazil), Russian (Russia), Korean (Korea), and many more. Each language has multiple voice types: Female, Male, Female2, Male2, Female3, Male3, Boy, and Girl. Not all voice types work in all languages - experiment to find available voices. Use different voices for different characters to create distinct personalities: Female for a princess, Male for a knight, Boy/Girl for children characters. Language selection allows creating bilingual or multilingual stories.
-
-Dependencies:
-* T15.G5.12: Basic text-to-speech with AI voices
-
-
-ID: T15.G5.12.02
-Topic: T15 – Stories & Animation
-Skill: Adjust speech characteristics for expression
-Description: Modify speed, pitch, and volume to create expressive speech. Speed (50-200): 50 is half speed (slow, careful), 100 is normal, 150 is fast (excited), 200 is very fast (rushed). Pitch (50-200): 50 is low pitch (deep voice, serious), 100 is normal, 150 is high pitch (cheerful, excited), 200 is very high (childlike, squeaky). Volume (0-200): 0 is silent, 50 is quiet (whisper), 100 is normal, 150 is loud, 200 is very loud (shouting). Combine adjustments for character personality: speed=80, pitch=70, volume=100 for a wise old character; speed=120, pitch=140, volume=110 for an energetic child. Test values to find the right expression for each character or mood.
-
-Dependencies:
-* T15.G5.12.01: Select languages and voice types for text-to-speech
+* T15.G3.04: Say something
 
 
 ID: T15.G5.13
 Topic: T15 – Stories & Animation
-Skill: Set widget background and border colors
-Description: Use `set widget background color [#FFFFFFFF] border color [#000000FF] border width (2) border radius (10) for [widgetName v]` to customize widget appearance. Colors use hex format #RRGGBBAA where RR=red (00-FF), GG=green (00-FF), BB=blue (00-FF), AA=alpha/transparency (FF=solid/100%, 80=50%, 00=invisible/0%). Border width is outline thickness in pixels (0=no border, 2=thin, 5=thick). Border radius creates rounded corners (0=sharp, 10=slightly rounded, 20+=very rounded). This block works on labels, buttons, textboxes, and most widgets.
+Skill: Style widgets for stories
+Description: Customize widget appearance to match story themes using styling blocks. Use `set widget background color [#FFFFFFFF] border color [#000000FF] border width (2) border radius (10) for [widgetName v]` to change widget colors and borders. Colors use hex format #RRGGBBAA where RR=red, GG=green, BB=blue, AA=alpha/transparency (FF=solid, 00=invisible). Use `set text style [Arial v] font size (18) text color [#000000FF] boldness [bold v] text alignment [Center v] for [widgetName v]` to format text inside labels, buttons, and textboxes. Match widget colors to story mood: dark colors (#333333FF background, #FF0000FF text) for scary scenes, bright pastels (#FFB6C1FF background, #FFFFFFFF text) for happy scenes. Use larger fonts (24+) for emphasis, bold for important choices.
 
 Dependencies:
 * T15.G4.06: Simple branching with buttons
-* T15.G3.11: Create label widgets for persistent text
-
-
-ID: T15.G5.13.01
-Topic: T15 – Stories & Animation
-Skill: Format text inside widgets
-Description: Use `set text style [Arial v] font size (18) text color [#000000FF] boldness [bold v] text alignment [Center v] for [widgetName v]` to format text inside labels, buttons, and textboxes. Font options include Arial, Times New Roman, Courier, Georgia, Verdana, Comic Sans MS, and many more. Font size is in pixels (12=small, 18=medium, 24=large, 36+=very large). Text color uses hex format. Boldness can be [normal v] or [bold v]. Text alignment can be [Left v], [Center v], or [Right v]. Use larger fonts (24+) for titles and important buttons, smaller fonts (14-16) for descriptions, bold for emphasis, centered alignment for titles, left alignment for paragraphs.
-
-Dependencies:
-* T15.G5.13: Set widget background and border colors
-
-
-ID: T15.G5.13.02
-Topic: T15 – Stories & Animation
-Skill: Create cohesive widget themes for story atmosphere
-Description: Match widget colors to story mood and create visual cohesion. For scary/dark scenes: dark background (#333333FF), red or orange text (#FF0000FF or #FFA500FF), thick red borders. For happy/bright scenes: light pastel backgrounds (#FFB6C1FF pink, #87CEEBFF sky blue), white or black text, thin borders. For fantasy/magical scenes: purple/blue backgrounds (#800080FF, #4B0082FF), gold text (#FFD700FF), glowing effects with bright borders. For nature scenes: green backgrounds (#228B22FF), brown text (#8B4513FF), organic rounded corners (border radius 15+). Apply consistent styling to all widgets in a scene so they feel unified. Change all widget styles when scenes change to reinforce the new atmosphere.
-
-Dependencies:
-* T15.G5.13.01: Format text inside widgets
+* T15.G3.11: Display labels for titles
 
 
 ID: T15.G5.14
