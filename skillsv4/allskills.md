@@ -10909,6 +10909,15 @@ Dependencies:
 * T17.G5.06: Attach a dynamic body to a sprite
 
 
+ID: T17.G5.06.A.01
+Topic: T17 – 2D Motion & Physics
+Skill: Use debug mode to visualize collision shapes
+Description: Enable debug mode in the 2D physics world to see invisible collision shape outlines overlaid on sprites. Students learn that debug mode helps understand why collisions happen or don't happen, by showing the actual physics boundaries independent of sprite appearance.
+
+Dependencies:
+* T17.G5.06.A: Practice creating multiple dynamic bodies
+
+
 ID: T17.G5.06.01
 Topic: T17 – 2D Motion & Physics
 Skill: Choose Box vs Circle collision shapes
@@ -11074,6 +11083,24 @@ Dependencies:
 * T17.G5.08: Apply an impulse to jump or push
 
 
+ID: T17.G6.02.01.02
+Topic: T17 – 2D Motion & Physics
+Skill: Read velocity reporters for verification
+Description: Use velocity reporter blocks (x speed, y speed, speed) to read and verify the current velocity of a physics body. Students learn to check if velocity changes worked as expected, essential for debugging motion issues.
+
+Dependencies:
+* T17.G6.02.01: Set velocity directly for physics bodies
+
+
+ID: T17.G6.02.01.03
+Topic: T17 – 2D Motion & Physics
+Skill: Set rotation speed directly
+Description: Use 'physics set rotation speed' to directly control how fast a physics body spins (degrees per second). Students learn this gives immediate rotation control, parallel to setting linear velocity.
+
+Dependencies:
+* T17.G6.02.01: Set velocity directly for physics bodies
+
+
 ID: T17.G6.02.01.01
 Topic: T17 – 2D Motion & Physics
 Skill: Maintain constant speed in current direction
@@ -11116,7 +11143,7 @@ Dependencies:
 ID: T17.G6.04.01
 Topic: T17 – 2D Motion & Physics
 Skill: Detect collision end events
-Description: Students use `broadcast [message] when finish colliding with [sprite]` to trigger actions when objects stop touching. They use collision end events for exit zones, releasing grabbed objects, or state transitions.
+Description: Students use `broadcast [message] when finish colliding with [sprite]` to trigger actions when objects stop touching. Students learn collision end events are essential for: stopping lava damage when leaving fire, releasing pressed buttons, tracking exit from trigger zones, and any scenario needing 'when objects separate' detection.
 
 Dependencies:
 * T17.G6.04: Detect collisions for scoring or triggers
@@ -11162,7 +11189,7 @@ Dependencies:
 ID: T17.G6.05
 Topic: T17 – 2D Motion & Physics
 Skill: Set up static collision groups for filtering
-Description: Set up collision groups to filter which objects can interact with each other
+Description: Set up collision groups to filter which objects can interact with each other. Students learn the 3-step process: (1) Assign group numbers to sprites using 'physics collision groups', (2) Configure filters on BOTH sprites using 'physics add collision filter' (filters are directional), (3) Test that objects not in any group collide with everything by default. Example: Group 1 (players) filters out Group 2 (power-ups) so players pass through collectibles.
 
 Dependencies:
 * T08.G4.01: Write a condition that uses and/or
@@ -11219,7 +11246,7 @@ Dependencies:
 ID: T17.G6.07.01
 Topic: T17 – 2D Motion & Physics
 Skill: Configure world border properties
-Description: Students use `set world border collider friction [value]% restitution [value]%` and `set world border collision group [COLLISIONGROUP] colliding with group [TARGETGROUP]` to customize how objects interact with the automatic stage boundaries. They create bouncy walls, configure selective border collisions for different object types (e.g., players hit borders but bullets pass through), or remove border collisions for objects that should wrap around.
+Description: Set physics world border properties (friction and restitution). Students use 'physics world border friction' and 'physics world border restitution' blocks to control how sprites bounce and slide when hitting stage edges, creating realistic boundary behavior without manual edge detection.
 
 Dependencies:
 * T17.G5.05: Initialize a 2D physics world
@@ -11229,7 +11256,7 @@ Dependencies:
 ID: T17.G6.07.02
 Topic: T17 – 2D Motion & Physics
 Skill: Configure world borders for wrap-around or open-edge levels
-Description: Configure world border collision groups to create wrap-around effects or allow sprites to leave the stage
+Description: Set physics world border collision groups. Students use 'physics world border collision groups' block to configure whether certain sprites or groups can collide with stage borders, enabling scenarios where some objects pass through edges while others bounce.
 
 Dependencies:
 * T17.G6.07.01: Configure world border properties
@@ -11268,7 +11295,7 @@ Dependencies:
 ID: T17.G7.01.02
 Topic: T17 – 2D Motion & Physics
 Skill: Enable CCD for fast projectiles
-Description: Enable Continuous Collision Detection (CCD) for fast-moving projectiles to prevent tunneling through walls
+Description: Enable Continuous Collision Detection (CCD) to prevent fast-moving objects from tunneling through walls. Students observe that very fast physics bodies sometimes pass through thin obstacles (called 'tunneling'), then learn CCD solves this by detecting collisions between frames, ensuring no missed collisions at high speeds.
 
 Dependencies:
 * T17.G7.01: Launch a configurable projectile
@@ -11335,11 +11362,22 @@ Dependencies:
 
 ID: T17.G7.04.01
 Topic: T17 – 2D Motion & Physics
-Skill: Use rotation speed and torque
-Description: Students use `set rotation speed [value]` for direct rotation control, `add torque [value]` for continuous rotational force, and `apply torque impulse [value]` for physics-driven rotation. They build spinning objects, rotating platforms, and objects that tumble realistically.
+Skill: Use continuous torque to rotate bodies
+Description: Use 'physics add torque' to apply continuous rotational force to a physics body. Students learn that torque (like force for linear motion) accumulates over time, respecting the body's rotational mass and creating smooth, physics-based rotation. Compare to direct rotation speed control.
 
 Dependencies:
-* T17.G7.04: Build chains or stacks of physics objects
+* T17.G6.02.01.03: Set rotation speed directly
+* T17.G7.02: Combine multiple forces simultaneously
+
+
+ID: T17.G7.04.01.01
+Topic: T17 – 2D Motion & Physics
+Skill: Apply torque impulse for instant rotation
+Description: Use 'physics apply torque impulse' to apply an instant rotational "kick" to a physics body. Students learn that torque impulse (like linear impulse) applies immediately regardless of mass, perfect for one-time rotation events like hitting a spinning obstacle.
+
+Dependencies:
+* T17.G7.04.01: Use continuous torque to rotate bodies
+* T17.G5.08.02: Apply impulse at a position for rotation
 
 
 ID: T17.G7.05
