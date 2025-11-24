@@ -1,0 +1,14 @@
+T09 Optimization Changes
+==================================================
+
+SPLIT: T09.G3.02 -> T09.G3.02 (change) + T09.G3.02.01 (reduce)
+FIX DEPS: T09.G3.06 - changed to depend on G3.01.02 instead of G3.02
+SPLIT: T09.G4.01 -> T09.G4.01 (+) + T09.G4.01.01 (-)
+SPLIT: T09.G4.02 -> T09.G4.02 (*) + T09.G4.02.01 (/)
+FIX DEPS: T09.G4.05 - added T09.G3.01.04 and T09.G3.02
+SPLIT: T09.G4.06 -> 4 skills for comparison operators
+SPLIT: T09.G6.04 -> T09.G6.04 (length) + T09.G6.04.01 (case)
+SPLIT: T09.G6.05 -> T09.G6.05 (position) + T09.G6.05.01 (substring)
+SPLIT: T09.G7.01.01 -> 3 skills for math functions
+ADD: T09.G3.01.05 - Variable reporter blocks
+ADD: T09.G5.03.01 - Multi-input join

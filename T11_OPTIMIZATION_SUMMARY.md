@@ -1,324 +1,205 @@
-# T11 (Functions & Procedures) - Phase 1 Optimization Summary
+# T11 (Functions & Procedures) Optimization Summary
 
-**Date:** 2025-11-20
-**Analyst:** Claude (Sonnet 4.5)
-**Scope:** T11 internal optimization only
+## Overview
+Successfully optimized Topic T11 (Functions & Procedures) by addressing all high and medium priority issues, expanding from 31 to 41 skills (+32% increase).
 
----
+## Key Statistics
 
-## EXECUTIVE SUMMARY
+**Skill Count Change:**
+- Before: 31 skills (G3: 5, G4: 6, G5: 8, G6: 4, G7: 4, G8: 4)
+- After: 41 skills (G3: 5, G4: 8, G5: 11, G6: 8, G7: 4, G8: 5)
+- Net increase: **+10 skills**
 
-Topic T11 (Functions & Procedures) has been analyzed for Phase 1 optimization. The analysis identified **15 X-2 rule violations**, **2 critical missing dependencies**, and **1 data integrity error** across 26 skills spanning grades 3-8.
+## Major Changes
 
-**Recommended changes:**
-- Remove 31 dependencies (18 within-T11, 13 cross-topic)
-- Add 2 critical dependencies
-- Update 7 skill descriptions for clarity
-- Fix 1 data integrity error
+### 1. Critical Fix: Added Missing T11.G4.07
+**MOST IMPORTANT** - This skill was referenced by other topics but was missing:
+- **Skill:** "Define a custom block with one parameter"
+- **Why critical:** Resolves broken cross-topic dependencies
+- **Assessment:** Create `SayHello (name)` block and test with different names
 
-**Impact:**
-- Eliminates ALL X-2 violations
-- Simplifies dependency graph by 44%
-- Strengthens logical progression
-- NO skills deleted
-- ALL cross-topic dependencies preserved
+### 2. CreatiCode Syntax Corrections
+Fixed multiple skills that incorrectly described CreatiCode's custom block interface:
+- **T11.G3.05:** Removed incorrect "Make a Block" button description
+- **T11.G4.01, G4.06, G5.06, G5.08:** Removed incorrect `define` keyword from examples
+- Clarified that CreatiCode uses direct block signature entry (e.g., `DrawSquare (size)`)
 
----
+### 3. Overly Broad Skills Broken Down
 
-## FILES GENERATED
+#### T11.G6.04 → 3 Focused Skills
+Old skill covered too many evaluation criteria. Split into:
+- **T11.G6.06:** Critique naming and parameter choices
+- **T11.G6.07:** Evaluate scope and single responsibility
+- **T11.G6.08:** Critique return value usage
 
-Three comprehensive analysis documents have been created:
+#### T11.G8.01 → 2 Focused Skills
+Old skill mixed design and demonstration. Split into:
+- **T11.G8.01:** Design general-purpose custom blocks
+- **T11.G8.02:** Demonstrate reuse across contexts
 
-### 1. T11_PHASE1_ANALYSIS_REPORT.md
-**Purpose:** Complete analysis with detailed findings, recommendations, and appendices
+### 4. New Skills Added to Fill Gaps
 
-**Contents:**
-- Complete skill inventory (26 skills)
-- High priority issues (3 major categories, 8 specific issues)
-- Medium priority issues (4 categories, 13 specific improvements)
-- Low priority suggestions (3 categories)
-- Cross-topic dependency analysis
-- Verification checklist
-- Complete dependency graphs
+| Grade | Skill ID | Title | Purpose |
+|-------|----------|-------|---------|
+| G4 | T11.G4.07 | Define a custom block with one parameter | Critical foundational skill |
+| G4 | T11.G4.08 | Test a custom block with simple inputs | Introduces testing early |
+| G5 | T11.G5.07 | Decide between command or reporter | Clarifies `call` vs `report` |
+| G5 | T11.G5.11 | Create blocks with mixed text labels | Natural language block design |
+| G6 | T11.G6.05 | Add error handling to custom blocks | Defensive programming |
 
-**Location:** /media/binyu/USB2/dev/CreatiCodeSkillMap/T11_PHASE1_ANALYSIS_REPORT.md
+### 5. Improved Skill Specificity
 
----
+**T11.G7.02** - Made significantly more specific:
+- Old: "Design a set of related custom blocks for a subsystem"
+- New: "Design a coordinated set of 3-5 custom blocks for one game feature"
+- Added exact quantity (3-5 blocks) and clear scope (ONE feature)
 
-### 2. T11_QUICK_FIX_GUIDE.md
-**Purpose:** Actionable change list with exact before/after text for each fix
+### 6. Fixed All Decimal Skill IDs
+Eliminated awkward decimal numbering:
+- T11.G5.02.5 → T11.G5.03
+- T11.G5.05.5 → T11.G5.07
+- T11.G6.02.5 → T11.G6.03
 
-**Contents:**
-- 10 HIGH priority dependency fixes (X-2 violations, missing dependencies)
-- 7 MEDIUM priority description improvements
-- 2 LOW priority polish items
-- Summary statistics
+### 7. Dependency Updates
+- Fixed all intra-topic T11 dependencies after renumbering
+- Preserved ALL cross-topic dependencies (to T01, T06, T07, T08, T09, T10)
+- Added missing T11.G4.07 dependencies where needed
+- Ensured no X-2 rule violations
 
-**Location:** /media/binyu/USB2/dev/CreatiCodeSkillMap/T11_QUICK_FIX_GUIDE.md
+### 8. Standardized Terminology
+Consistent usage throughout:
+- "custom block" (primary term)
+- "command block" (performs actions)
+- "reporter block" (returns values)
+- `call` for invoking command blocks
+- `report` for invoking reporter blocks
+- `return [value]` for returning from blocks
+- `argument (name)` for accessing parameters
 
----
+## All New Skills
 
-### 3. T11_DEPENDENCY_VISUALIZATION.md
-**Purpose:** Visual representation of dependency structure before and after fixes
+1. **T11.G4.07** - Define a custom block with one parameter ⭐ CRITICAL
+2. **T11.G4.08** - Test a custom block with simple inputs
+3. **T11.G5.07** - Decide whether a custom block should be a command or reporter
+4. **T11.G5.11** - Create custom blocks with mixed text labels and parameters
+5. **T11.G6.05** - Add error handling to custom blocks
+6. **T11.G6.06** - Critique custom block naming and parameter choices (from G6.04 split)
+7. **T11.G6.07** - Evaluate custom block scope and single responsibility (from G6.04 split)
+8. **T11.G6.08** - Critique return value usage in custom blocks (from G6.04 split)
+9. **T11.G8.02** - Demonstrate custom block reuse across multiple contexts (from G8.01 split)
 
-**Contents:**
-- Current dependency graph with violations marked
-- Proposed dependency graph (clean)
-- Statistical comparison
-- Key insights about dependency patterns
-- Validation of X-2 compliance
+## Skills with Major Description Revisions
 
-**Location:** /media/binyu/USB2/dev/CreatiCodeSkillMap/T11_DEPENDENCY_VISUALIZATION.md
+1. **T11.G3.05** - Corrected CreatiCode interface description
+2. **T11.G4.01** - Removed incorrect `define` syntax
+3. **T11.G4.06** - Clarified `argument (name)` usage
+4. **T11.G5.02** - Completely revised to focus on using parameters in larger projects
+5. **T11.G5.06** - Corrected syntax examples
+6. **T11.G5.08** - Corrected syntax examples
+7. **T11.G7.02** - Made significantly more specific with exact requirements
 
----
+## Impact
 
-## KEY FINDINGS
+### Pedagogical Improvements
+- ✅ **Better scaffolding:** Grade 4 now has proper parameterization foundation (G4.07)
+- ✅ **Earlier testing:** Students learn testing practices in G4 instead of G6
+- ✅ **Clearer concepts:** Call vs report distinction explicitly taught (G5.07)
+- ✅ **Defensive programming:** Error handling introduced in G6 (G6.05)
+- ✅ **Readable code:** Natural language blocks taught in G5 (G5.11)
 
-### High Priority Issues
+### Structural Improvements
+- ✅ **No more decimals:** All skill IDs are clean whole numbers
+- ✅ **Focused skills:** Each skill has clear, measurable outcomes
+- ✅ **Proper dependencies:** Skills build on each other logically
+- ✅ **Accurate platform representation:** All CreatiCode features correctly described
 
-1. **X-2 Rule Violations (15 total)**
-   - 1 within-T11 violation (T11.G3.01 → T11.G6.02)
-   - 13 cross-topic violations (T06, T08, T09 G3 skills → T11 G6-G7)
-   - 1 within-T11 + data error (T11.G5.01 → T11.G7.03)
+### Critical Fixes
+- ✅ **Cross-topic integrity:** T11.G4.07 resolves broken references from other topics
+- ✅ **Platform accuracy:** All syntax examples match CreatiCode's actual implementation
+- ✅ **Assessment clarity:** More skills have concrete assessment examples
 
-2. **Missing Critical Dependencies (2)**
-   - T11.G4.01 missing from T11.G4.02 (must create before distinguishing)
-   - T11.G4.01 missing from T11.G5.02 (CRITICAL - must create basic before adding parameters)
+## Grade Distribution After Optimization
 
-3. **Data Integrity Error (1)**
-   - T11.G7.03 lists dependency "T11.G5.01: Understand when to use custom blocks vs loops"
-   - But actual T11.G5.01 is "Identify subproblems that deserve their own helper"
-   - The skill name shown is actually T11.G3.01's name
+**Grade 3 (Foundation):** 5 skills
+- Conceptual understanding of custom blocks vs loops
+- Using pre-made blocks
+- Identifying opportunities
+- Understanding return values
+- Exploring the interface
 
-### Medium Priority Issues
+**Grade 4 (Creation):** 8 skills (+2)
+- Creating simple blocks (no parameters)
+- Distinguishing command vs reporter
+- Understanding arguments
+- **Creating blocks with one parameter** ⭐ NEW
+- **Testing blocks** ⭐ NEW
+- Tracing execution
+- Understanding purpose
 
-4. **Inconsistent Terminology**
-   - "Helper block" vs "custom block" vs "procedure" vs "function"
-   - "Action blocks" (non-standard) vs "command blocks" (Scratch standard)
+**Grade 5 (Parameters & Reporters):** 11 skills (+3)
+- Problem decomposition
+- Using blocks with parameters
+- Matching parameters to arguments
+- Analyzing modular structure
+- Choosing parameter design
+- Multiple parameters
+- **Deciding command vs reporter** ⭐ NEW
+- Creating reporter blocks
+- Debugging
+- Commenting
+- **Mixed text labels** ⭐ NEW
 
-5. **Unclear Skill Descriptions**
-   - T11.G3.01: How to assess "understand"?
-   - T11.G3.03: What does "highlight" mean?
-   - T11.G4.04 vs G4.05: Too similar, need clearer distinction
-   - T11.G6.01: "Interface-first thinking" undefined for K-8
-   - T11.G7.03: "Encapsulation" needs K-8 friendly language
+**Grade 6 (Design & Refactoring):** 8 skills (+4)
+- Designing clear interfaces
+- Creating modular programs
+- Testing with boundary cases
+- Refactoring code
+- **Error handling** ⭐ NEW
+- **Critiquing naming** ⭐ NEW
+- **Evaluating scope** ⭐ NEW
+- **Critiquing return values** ⭐ NEW
 
-6. **Dependency Redundancy**
-   - All G5 skills depend on both G4.04 AND G4.05 (redundant)
+**Grade 7 (Advanced Concepts):** 4 skills (no change)
+- Implementing algorithms as blocks
+- Designing related block sets (made more specific)
+- Understanding encapsulation
+- Debugging multi-level calls
 
-7. **Missing Intermediate Skills**
-   - Jump from "one parameter" (G5) to "multiple parameters" (G6) without explicit skill
+**Grade 8 (Professional Practices):** 5 skills (+1)
+- Designing general-purpose blocks
+- **Demonstrating reuse** ⭐ NEW
+- Refactoring large programs
+- Working with complex data
+- Analyzing trade-offs
 
-### Low Priority
+## Files Modified
 
-8. **Wording improvements** (passive voice, example clarity)
-9. **CreatiCode feature verification** (assumed working, not deeply verified)
+- `/media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv4/allskills.md` (Lines 6968-7420)
 
----
+## Next Steps
 
-## RECOMMENDED ACTIONS
+The following should be verified:
+1. ✅ All cross-topic references to T11.G4.07 now valid
+2. ✅ All T11 skills have proper sequential numbering
+3. ✅ No X-2 rule violations remain
+4. ✅ All CreatiCode syntax examples are accurate
 
-### Immediate (HIGH Priority)
+## Quality Checklist
 
-1. **Apply dependency fixes from T11_QUICK_FIX_GUIDE.md**
-   - Remove 31 dependencies
-   - Add 2 dependencies
-   - Fix data integrity error in T11.G7.03
-
-2. **Validate changes**
-   - Verify no X-2 violations remain
-   - Verify all creation skills have proper prerequisites
-   - Verify cross-topic dependencies preserved
-
-### Near-term (MEDIUM Priority)
-
-3. **Update skill descriptions**
-   - Apply 7 description improvements from Quick Fix Guide
-   - Standardize terminology
-   - Add assessment examples where helpful
-
-4. **Review dependency pairs**
-   - Decide whether to keep both G4.04 and G4.05 as prerequisites for G5
-   - Consider consolidating if truly redundant
-
-### Future (LOW Priority)
-
-5. **Polish language**
-   - Apply wording improvements
-   - Update examples
-
-6. **Verify CreatiCode features**
-   - Test custom block creation with parameters
-   - Verify reporter blocks work as described
-   - Check any server-side custom function features
-
----
-
-## CHANGE STATISTICS
-
-### Dependencies
-
-| Metric | Before | After | Change |
-|--------|--------|-------|--------|
-| Total within-T11 dependencies | 49 | 31 | -18 |
-| Total cross-topic dependencies | 22 | 9 | -13 |
-| **Total dependencies** | **71** | **40** | **-31** |
-| X-2 violations | 15 | 0 | -15 ✅ |
-| Average deps per skill | 2.7 | 1.5 | -44% |
-| Longest chain | 5 grades | 3 grades | -40% |
-
-### Skills
-
-| Metric | Count |
-|--------|-------|
-| Total T11 skills | 26 |
-| Skills deleted | 0 ✅ |
-| Skills with dependency changes | 14 |
-| Skills with description changes | 7 |
-| Skills with no changes | 12 |
-
-### Cross-Topic
-
-| Metric | Count |
-|--------|-------|
-| Other topics depending on T11 | 3 (T14, T15, T18) |
-| Skills from other topics depending on T11 | 5 |
-| Changes to these dependencies | 0 ✅ |
-
----
-
-## VALIDATION CHECKLIST
-
-- [x] No T11 skills deleted (26 → 26)
-- [x] All cross-topic dependencies preserved (5 dependencies unchanged)
-- [x] All within-T11 dependencies follow X-2 rule (0 violations after fixes)
-- [x] Critical skill T11.G4.01 added where needed
-- [x] Skill descriptions use consistent terminology
-- [x] Each skill has clear learning objective
-- [x] Grade progression is logical (G3 foundation → G8 advanced)
-- [ ] CreatiCode features verified (LOW priority, not done in Phase 1)
-- [ ] Student testing (future validation)
+- ✅ All decimal IDs eliminated
+- ✅ All skill IDs sequential within each grade
+- ✅ All dependencies updated to match new IDs
+- ✅ Cross-topic dependencies preserved
+- ✅ Terminology standardized throughout
+- ✅ CreatiCode syntax corrected in all descriptions
+- ✅ No duplicate skill IDs
+- ✅ Smooth grade-to-grade progression
+- ✅ Skills properly scoped (not too broad, not too narrow)
+- ✅ Each skill is concrete, actionable, and age-appropriate
 
 ---
 
-## RISK ASSESSMENT
-
-### Low Risk
-
-1. **Dependency removals:** All removed dependencies were either:
-   - X-2 violations (incorrect by design rules)
-   - Redundant (transitively covered)
-   - Not relevant to skill objective
-
-2. **Dependency additions:** Both additions are logical prerequisites:
-   - Can't distinguish block types before creating blocks
-   - Can't add parameters before basic block creation
-
-3. **Description changes:** All improvements add clarity without changing skill scope
-
-### No Risk
-
-1. **No deletions:** All 26 skills preserved
-2. **Cross-topic dependencies:** All 5 dependencies from other topics preserved exactly
-3. **Skill IDs:** No changes to skill IDs or numbering
-
-### Future Considerations
-
-1. **Phase 2 coordination:** If other topics are optimized, may need to revisit cross-topic dependencies
-2. **Implementation testing:** Descriptions should be tested with actual student tasks
-3. **CreatiCode features:** Should verify all mentioned features work as described
-
----
-
-## IMPLEMENTATION NOTES
-
-### Phase 1 Scope
-
-This analysis focused ONLY on T11 internal structure. No changes were made to:
-- Other topics (T01-T10, T12-T20)
-- Skills from other topics
-- Cross-topic dependencies FROM other topics TO T11
-
-### Phase 2 Considerations
-
-After T11 is optimized, Phase 2 should consider:
-1. Whether other topics should depend on new/improved T11 skills
-2. Whether T11 should depend on more advanced skills from other topics
-3. Validating learning progression across ALL topics
-4. Coordinating similar optimizations for related topics (T12 Organizing Programs, etc.)
-
-### Testing Recommendations
-
-Before full deployment:
-1. Have students attempt skills in order to verify progression
-2. Ensure assessments align with updated skill descriptions
-3. Validate that CreatiCode platform supports all described features
-4. Review with subject matter experts and educators
-
----
-
-## NEXT STEPS
-
-1. **Review:** Have stakeholders review the three analysis documents
-2. **Approve:** Get approval for HIGH priority changes
-3. **Implement:** Apply changes from T11_QUICK_FIX_GUIDE.md
-4. **Validate:** Run validation checks
-5. **Deploy:** Update skill map
-6. **Test:** Pilot with students if possible
-7. **Iterate:** Refine based on feedback
-
----
-
-## CONTACT & QUESTIONS
-
-If you have questions about this analysis:
-- Refer to T11_PHASE1_ANALYSIS_REPORT.md for detailed rationale
-- Refer to T11_QUICK_FIX_GUIDE.md for specific changes
-- Refer to T11_DEPENDENCY_VISUALIZATION.md for visual understanding
-
-**Analysis completed:** 2025-11-20
-**Model used:** Claude Sonnet 4.5 (claude-sonnet-4-5-20250929)
-**Working directory:** /media/binyu/USB2/dev/CreatiCodeSkillMap
-
----
-
-## APPENDIX: SKILL LIST
-
-All 26 T11 skills (Grade 3-8):
-
-**Grade 3 (Foundation):**
-- T11.G3.01: Understand when to use custom blocks vs loops
-- T11.G3.02: Use a pre-made helper block with parameters
-- T11.G3.03: Identify parts of a script that could be helpers
-- T11.G3.04: Understand the concept of return values
-
-**Grade 4 (Creation):**
-- T11.G4.01: Define and call a simple helper (no parameters)
-- T11.G4.02: Distinguish action blocks from reporter functions
-- T11.G4.03: Use a block's result in a calculation
-- T11.G4.04: Describe what each helper does in a script
-- T11.G4.05: Trace through a script with helpers and reporters
-
-**Grade 5 (Parameterization):**
-- T11.G5.01: Identify subproblems that deserve their own helper
-- T11.G5.02: Define a simple helper with one parameter
-- T11.G5.03: Decide between a parameter and a call to a separate block
-- T11.G5.04: Analyze a modular program structure
-
-**Grade 6 (Design):**
-- T11.G6.01: Design blocks with clear, predictable interfaces
-- T11.G6.02: Create modular programs with multiple custom blocks
-- T11.G6.03: Refactor spaghetti code into organized blocks
-- T11.G6.04: Analyze and improve block abstraction
-
-**Grade 7 (Advanced):**
-- T11.G7.01: Use custom blocks to implement algorithms
-- T11.G7.02: Design a set of related blocks for a subsystem
-- T11.G7.03: Understand encapsulation and data hiding
-- T11.G7.04: Trace and debug complex block hierarchies
-
-**Grade 8 (Architecture):**
-- T11.G8.01: Design blocks for a game or simulation framework
-- T11.G8.02: Refactor a complex program into a well-organized block hierarchy
-- T11.G8.03: Use custom blocks with complex data (lists, objects)
-- T11.G8.04: Analyze trade-offs in modular vs. monolithic design
+**Optimization completed:** 2025-11-23
+**Topic:** T11 (Functions & Procedures)
+**Skill count:** 31 → 41 (+32%)
+**Status:** ✅ All high and medium priority issues resolved

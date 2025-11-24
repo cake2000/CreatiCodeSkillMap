@@ -8376,14 +8376,14 @@ Dependencies:
 ID: T14.GK.01
 Topic: T14 – 2D Games
 Skill: Match controls to character actions
-Description: Students drag arrow key cards (up, down, left, right) or action button cards (jump, run) onto pictures showing the matching movement or reaction (up arrow → character jumps up, right arrow → character walks right). They connect specific keyboard inputs to predictable character responses. _Implementation note: Match 4–6 input-action pairs via drag-and-drop. CSTA: 1A-AP-11.__
+Description: Students drag arrow key cards (up, down, left, right) or action button cards (jump, run) onto pictures showing the matching movement or reaction (up arrow → character jumps up, right arrow → character walks right). They connect specific keyboard inputs to predictable character responses. _Implementation note: Match 4–6 input-action pairs via drag-and-drop. CSTA: EK-ALG-AF-01.__
 
 
 
 ID: T14.GK.02
 Topic: T14 – 2D Games
 Skill: Recognize a score in simple games
-Description: Students compare before/after pictures of a score counter and gameplay moments (collecting a star, hitting a hazard) to see when the score changes and what it signals. _CSTA: 1A-AP-09.__
+Description: Students compare before/after pictures of a score counter and gameplay moments (collecting a star, hitting a hazard) to see when the score changes and what it signals.
 
 
 
@@ -8391,7 +8391,7 @@ Description: Students compare before/after pictures of a score counter and gamep
 ID: T14.GK.03
 Topic: T14 – 2D Games
 Skill: Identify when a game starts and ends
-Description: Students observe a simple game story with a clear beginning (Start screen) and ending (Game Over). They identify which pictures show the start, play, and end of the game. _CSTA: 1A-AP-08.__
+Description: Students observe a simple game story with a clear beginning (Start screen) and ending (Game Over). They identify which pictures show the start, play, and end of the game.
 
 
 
@@ -8399,7 +8399,7 @@ Description: Students observe a simple game story with a clear beginning (Start 
 ID: T14.GK.04
 Topic: T14 – 2D Games
 Skill: Match rewards to goals
-Description: Students match pictures of finishing a level (touching a flag, clearing a board) to appropriate celebration panels (You Win text, trophy, fireworks) so they connect goals to feedback. _CSTA: 1A-AP-11.__
+Description: Students match pictures of finishing a level (touching a flag, clearing a board) to appropriate celebration panels (You Win text, trophy, fireworks) so they connect goals to feedback.
 
 Dependencies:
 * T14.GK.02: Recognize a score in simple games
@@ -8411,7 +8411,7 @@ Dependencies:
 ID: T14.G1.01
 Topic: T14 – 2D Games
 Skill: Identify the player, goal, and obstacles
-Description: In a labeled picture of a game level (maze, platformer, or board game), students point to and name: (1) the controllable character (marked with an arrow or labeled 'YOU'), (2) the goal object or location (flag, door, finish line), and (3) hazards that should be avoided (spikes, enemies, water). _CSTA: 1B-AP-11.__
+Description: In a labeled picture of a game level (maze, platformer, or board game), students point to and name: (1) the controllable character (marked with an arrow or labeled 'YOU'), (2) the goal object or location (flag, door, finish line), and (3) hazards that should be avoided (spikes, enemies, water).
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -8421,7 +8421,7 @@ Dependencies:
 ID: T14.G1.02
 Topic: T14 – 2D Games
 Skill: Apply simple game rules
-Description: Students are given a simple rule (e.g., "Collect all coins to open the door") and a sequence of pictures. They decide if the player followed the rule. _CSTA: 1B-AP-08.__
+Description: Students are given a simple rule (e.g., "Collect all coins to open the door") and a sequence of pictures. They decide if the player followed the rule.
 
 Dependencies:
 * T14.G1.01: Identify the player, goal, and obstacles
@@ -8431,7 +8431,7 @@ Dependencies:
 ID: T14.G1.03
 Topic: T14 – 2D Games
 Skill: Compare game difficulty
-Description: Students compare two pictures of the same game level—one with more obstacles or fewer platforms—and identify which one would be harder to play. _CSTA: 1B-AP-10.__
+Description: Students compare two pictures of the same game level—one with more obstacles or fewer platforms—and identify which one would be harder to play.
 
 Dependencies:
 * T01.GK.04: Pick the pictures that make sense
@@ -8440,7 +8440,7 @@ Dependencies:
 ID: T14.G1.04
 Topic: T14 – 2D Games
 Skill: Predict the best next move
-Description: Given a short rule and a partially played level, students pick which control card (up, down, left, right, jump) keeps the player safe and moving toward the goal. _CSTA: 1B-AP-12.__
+Description: Given a short rule and a partially played level, students pick which control card (up, down, left, right, jump) keeps the player safe and moving toward the goal.
 
 Dependencies:
 * T14.G1.01: Identify the player, goal, and obstacles
@@ -8450,7 +8450,7 @@ Dependencies:
 ID: T14.G1.05
 Topic: T14 – 2D Games
 Skill: Distinguish helpers from hazards
-Description: Students sort icons from a level (heart, speed shoe, spike, slime) into "helps you win" and "makes you lose," building vocabulary around pickups and traps. _CSTA: 1B-AP-09.__
+Description: Students sort icons from a level (heart, speed shoe, spike, slime) into "helps you win" and "makes you lose," building vocabulary around pickups and traps.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -8460,7 +8460,7 @@ Dependencies:
 ID: T14.G2.01
 Topic: T14 – 2D Games
 Skill: Understand turns and rounds
-Description: Students look at a turn-based scene with multiple players or timers and determine whose turn it is or what happens next when a turn ends. _CSTA: 1B-AP-11.__
+Description: Students look at a turn-based scene with multiple players or timers and determine whose turn it is or what happens next when a turn ends.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -8470,7 +8470,7 @@ Dependencies:
 ID: T14.G2.02
 Topic: T14 – 2D Games
 Skill: Track lives and game over conditions
-Description: Students track a player's lives through a short picture story. They identify when a life is lost (touching a hazard) and when the game is over (lives reach zero). _CSTA: 1B-AP-12.__
+Description: Students track a player's lives through a short picture story. They identify when a life is lost (touching a hazard) and when the game is over (lives reach zero).
 
 Dependencies:
 * T01.G1.04: Predict the next step in a story sequence
@@ -8480,7 +8480,7 @@ Dependencies:
 ID: T14.G2.03
 Topic: T14 – 2D Games
 Skill: Recognize level progression
-Description: Students identify the condition for moving to the next level (touch goal, collect items) and notice that later levels are usually different or harder. _CSTA: 1B-AP-10.__
+Description: Students identify the condition for moving to the next level (touch goal, collect items) and notice that later levels are usually different or harder.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -8490,7 +8490,7 @@ Dependencies:
 ID: T14.G2.04
 Topic: T14 – 2D Games
 Skill: Sequence a safe route
-Description: Students order 3–4 picture cards showing a safe route through a level (jump over spikes, grab key, open door) to highlight planning before play. _CSTA: 1B-AP-11.__
+Description: Students order 3–4 picture cards showing a safe route through a level (jump over spikes, grab key, open door) to highlight planning before play.
 
 Dependencies:
 * T01.G1.04: Predict the next step in a story sequence
@@ -8500,7 +8500,7 @@ Dependencies:
 ID: T14.G2.05
 Topic: T14 – 2D Games
 Skill: Adjust game difficulty settings
-Description: Presented with a short brief ("Make it easier for new players"), students choose the change that best matches the goal (add another heart, remove a hazard, shorten timer) to understand how game settings affect difficulty. _CSTA: 1B-AP-15.__
+Description: Presented with a short brief ("Make it easier for new players"), students choose the change that best matches the goal (add another heart, remove a hazard, shorten timer) to understand how game settings affect difficulty.
 
 Dependencies:
 * T01.G1.10: Match pictures to "if/then" rules
@@ -8510,7 +8510,7 @@ Dependencies:
 ID: T14.G3.01.01
 Topic: T14 – 2D Games
 Skill: Move sprite left and right with arrow keys
-Description: Create scripts where pressing the left arrow key decreases x by a fixed amount (e.g., -10) and pressing the right arrow key increases x by the same amount (+10). Test that the sprite moves smoothly horizontally and travels equal distances in both directions. _CSTA: 2-AP-10.__
+Description: Create scripts where pressing the left arrow key decreases x by a fixed amount (e.g., -10) and pressing the right arrow key increases x by the same amount (+10). Test that the sprite moves smoothly horizontally and travels equal distances in both directions.
 
 Dependencies:
 * T14.G2.04: Sequence a safe route
@@ -8520,7 +8520,7 @@ Dependencies:
 ID: T14.G3.01.02
 Topic: T14 – 2D Games
 Skill: Move sprite in 4 directions with arrow keys
-Description: Extend left/right movement by adding up/down controls: up arrow changes y by +10, down arrow changes y by -10. Test that the sprite can move smoothly in all four cardinal directions and combine keys for diagonal movement without getting stuck. _CSTA: 2-AP-10.__
+Description: Extend left/right movement by adding up/down controls: up arrow changes y by +10, down arrow changes y by -10. Test that the sprite can move smoothly in all four cardinal directions and combine keys for diagonal movement without getting stuck.
 
 Dependencies:
 * T14.G3.01.01: Move sprite left and right with arrow keys
@@ -8529,109 +8529,109 @@ Dependencies:
 
 ID: T14.G3.02
 Topic: T14 – 2D Games
-Skill: Keep sprite on screen
-Description: Add boundary logic to prevent the player from leaving the stage. Use explicit x/y position checks with if-statements (e.g., `if x position < -240 then set x to -240`) to constrain movement within visible bounds. Test all four edges to ensure the player cannot move into invisible areas. _CSTA: 2-AP-13.__
+Skill: Move a sprite with keys (2 directions)
+Description: Create scripts for platformer/paddle games where only left/right keys control the sprite and ensure speeds match on both sides.
 
 Dependencies:
-* T14.G3.01.02: Move sprite in 4 directions with arrow keys
-* T08.G3.01: Use a simple if in a script
+* T14.G3.01.01: Move sprite left and right with arrow keys
+* T07.G3.02: Trace a script with a simple loop
 
 
 ID: T14.G3.03
 Topic: T14 – 2D Games
+Skill: Keep sprite on screen
+Description: Add boundary logic to prevent the player from leaving the stage. Use explicit x/y position checks with if-statements (e.g., `if x position < -240 then set x to -240`) to constrain movement within visible bounds. Test all four edges to ensure the player cannot move into invisible areas.
+
+Dependencies:
+* T08.G3.01: Use a simple if in a script
+
+
+ID: T14.G3.04
+Topic: T14 – 2D Games
 Skill: Detect touching a goal
-Description: Use `touching [Sprite]?` or `touching [Color]?` inside a forever loop to continuously check when the player reaches the goal. When collision is detected, broadcast a 'You Win' message and display a victory sprite or backdrop. _CSTA: 2-AP-13.__
+Description: Use `touching [Sprite]?` or `touching [Color]?` inside a forever loop to continuously check when the player reaches the goal. When collision is detected, broadcast a 'You Win' message and display a victory sprite or backdrop.
 
 Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T14.G2.03: Recognize level progression
 
 
-ID: T14.G3.04.01
+ID: T14.G3.05
 Topic: T14 – 2D Games
-Skill: Detect touching a hazard using sprite collision
-Description: Use `touching [Sprite]?` block to detect when the player touches a hazard sprite (enemy, spike, pit). Place this check inside a forever loop to continuously monitor collisions. When touched, broadcast a message or reduce lives. _CSTA: 2-AP-13.__
+Skill: Detect touching a hazard
+Description: Use collision checks with hazards (spikes, enemies) to reset the player to a safe position or broadcast a warning.
 
 Dependencies:
-* T14.G3.03: Detect touching a goal
 * T07.G3.03: Build a forever loop for simple animation
-
-
-ID: T14.G3.04.02
-Topic: T14 – 2D Games
-Skill: Detect touching a hazard using color collision
-Description: Use `touching color [red]?` block to detect when the player touches a specific color representing hazards (red for lava, black for pits). This allows using painted backdrops for level design instead of sprite-based obstacles. Test with different hazard colors. _CSTA: 2-AP-13.__
-
-Dependencies:
-* T14.G3.04.01: Detect touching a hazard using sprite collision
 * T08.G3.02: Decide when a single if is enough
 
 
-ID: T14.G3.05
+ID: T14.G3.06
 Topic: T14 – 2D Games
 Skill: Create a start screen
-Description: Program a "Start" button sprite that hides itself and broadcasts `Start Game` when clicked. All game sprites listen for this broadcast before beginning their scripts. _CSTA: 2-AP-16.__
+Description: Program a "Start" button sprite that hides itself and broadcasts `Start Game` when clicked.
 
 Dependencies:
 * T09.G3.02: Use a variable in a conditional (if block)
 * T06.G3.06: Trace a project with a single event and predict output
 
 
-ID: T14.G3.06
-Topic: T14 – 2D Games
-Skill: Switch to game mode
-Description: Program game objects to show and begin moving only after receiving `Start Game`, separating setup from play. Use `when I receive [Start Game]` hat blocks to trigger game behavior. _CSTA: 2-AP-16.__
-
-Dependencies:
-* T14.G3.05: Create a start screen
-* T10.G3.01: Loop through and process each item in a list
-
-
 ID: T14.G3.07
 Topic: T14 – 2D Games
-Skill: Trigger Game Over
-Description: Broadcast `Game Over` when losing conditions occur (lives reach zero, time runs out). Program all game sprites to stop their scripts and either hide or show a 'Game Over' message when they receive this broadcast. _CSTA: 2-AP-16.__
+Skill: Switch to game mode
+Description: Program game objects to show and begin moving only after receiving `Start Game`, separating setup from play.
 
 Dependencies:
-* T14.G3.06: Switch to game mode
-* T08.G3.03: Pick the right conditional block for a scenario
+* T10.G3.01: Loop through and process each item in a list
+* T11.G3.01: Understand when to use custom blocks vs loops
+* T14.G3.06: Create a start screen
 
 
 ID: T14.G3.08
 Topic: T14 – 2D Games
-Skill: Add sound effects to actions
-Description: Insert `start sound` blocks immediately after key movement, collision, or collection events to provide audio feedback. Match sound choices to actions (jump sound for jumping, coin sound for collecting). Test that sounds play reliably without overlapping or cutting off. _CSTA: 2-AP-17.__
+Skill: Trigger Game Over
+Description: Broadcast `Game Over` when losing conditions occur (lives reach zero, time runs out). Program all game sprites to stop their scripts and either hide or show a 'Game Over' message when they receive this broadcast.
 
 Dependencies:
-* T14.G3.04.01: Detect touching a hazard using sprite collision
-* T07.G3.04: Use repeat‑until to reach a simple goal
+* T12.G3.01: Write a comment explaining a complex block
+* T08.G3.03: Pick the right conditional block for a scenario
 
 
 ID: T14.G3.09
 Topic: T14 – 2D Games
-Skill: Visual effects on interaction
-Description: Use graphic effects (color, brightness, ghost) to show when a player is hit or collects an item. Apply effects temporarily using a combination of `set effect`, `wait`, and `clear effects`. _CSTA: 2-AP-17.__
+Skill: Add sound effects to actions
+Description: Insert `start sound` blocks immediately after key movement, collision, or collection events to provide audio feedback. Match sound choices to actions (jump sound for jumping, coin sound for collecting). Test that sounds play reliably without overlapping or cutting off.
 
 Dependencies:
-* T14.G3.04.01: Detect touching a hazard using sprite collision
-* T08.G3.04: Trace code with a single if/else
+* T09.G3.04: Debug a single missing or wrong variable block
+* T07.G3.04: Use repeat‑until to reach a simple goal
 
 
 ID: T14.G3.10
 Topic: T14 – 2D Games
-Skill: Create collectible items
-Description: Make items (coins, gems, stars) that disappear when the player touches them. Use clones to place multiple collectibles around the level, and delete each clone when touched. This foundational skill prepares for tracking scores and inventory. _CSTA: 2-AP-14.__
+Skill: Visual effects on interaction
+Description: Use graphic effects (color, brightness, ghost) to show when a player is hit or collects an item.
 
 Dependencies:
-* T14.G3.03: Detect touching a goal
-* T07.G3.03: Build a forever loop for simple animation
-* T08.G3.01: Use a simple if in a script
+* T11.G3.02: Use a pre-made custom block with parameters
+* T08.G3.04: Trace code with a single if/else
 
 
 ID: T14.G3.11
 Topic: T14 – 2D Games
+Skill: Create collectible items
+Description: Make items (coins, gems, stars) that disappear when the player touches them. Use clones to place multiple collectibles around the level, and delete each clone when touched. This foundational skill prepares for tracking scores and inventory.
+
+Dependencies:
+* T14.G3.04: Detect touching a goal
+* T07.G3.03: Build a forever loop for simple animation
+* T08.G3.01: Use a simple if in a script
+
+
+ID: T14.G3.12
+Topic: T14 – 2D Games
 Skill: Simple jump with key press
-Description: Program the player to jump when the space key is pressed by changing y position by a fixed amount (e.g., +50), waiting briefly, then returning to the original y position. This creates a simple hop suitable for basic platformers before learning physics-based jumping. _CSTA: 2-AP-10.__
+Description: Program the player to jump when the space key is pressed by changing y position by a fixed amount (e.g., +50), waiting briefly, then returning to the original y position. This creates a simple hop suitable for basic platformers before learning physics-based jumping.
 
 Dependencies:
 * T14.G3.01.02: Move sprite in 4 directions with arrow keys
@@ -8641,57 +8641,58 @@ Dependencies:
 ID: T14.G4.01
 Topic: T14 – 2D Games
 Skill: Spawn a projectile
-Description: Use `create clone of [Bullet]` (or `myself`) to spawn a projectile when an input occurs (key press or collision). Initialize the clone's position to match the player's position. _CSTA: 2-AP-14.__
+Description: Use `create clone of [Bullet]` (or `myself`) to spawn a projectile when an input occurs.
 
 Dependencies:
 * T14.G3.01.02: Move sprite in 4 directions with arrow keys
 * T06.G3.02: Build a key‑press script that controls a sprite
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.02
 Topic: T14 – 2D Games
 Skill: Move a projectile
-Description: Program projectile clones to move forward continuously in their current direction until they hit a target (using touching detection) or reach the edge of the screen. Use `when I start as a clone` hat block and a forever loop with movement blocks. _CSTA: 2-AP-14.__
+Description: Program projectile clones to move forward continuously in their current direction until they hit a target (using touching detection) or reach the edge of the screen. Include logic to delete the clone or trigger an effect when collision occurs.
 
 Dependencies:
-* T14.G4.01: Spawn a projectile
+* T14.G3.01.02: Move sprite in 4 directions with arrow keys
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.03
 Topic: T14 – 2D Games
 Skill: Clean up projectiles
-Description: Delete clones when they touch an edge or target to prevent lag and bugs. Use `touching edge?` condition combined with `delete this clone` block. _CSTA: 2-AP-14.__
+Description: Delete clones when they touch an edge/target to prevent lag and bugs.
 
 Dependencies:
 * T14.G4.02: Move a projectile
-* T08.G3.01: Use a simple if in a script
-
-
-ID: T14.G4.04.01
-Topic: T14 – 2D Games
-Skill: Create patrol movement pattern
-Description: Program an enemy to patrol back and forth between two points using a forever loop with `move` blocks. When the sprite touches an edge or boundary color, use `turn 180 degrees` to reverse direction. Test that movement is smooth and consistent. _CSTA: 2-AP-13.__
-
-Dependencies:
-* T14.G3.02: Keep sprite on screen
-* T07.G3.03: Build a forever loop for simple animation
-
-
-ID: T14.G4.04.02
-Topic: T14 – 2D Games
-Skill: Create glide movement pattern
-Description: Use `glide` blocks to move an enemy smoothly between predefined coordinates. Create a loop that alternates between two or more positions. This creates predictable, timed movement patterns suitable for platformers. _CSTA: 2-AP-13.__
-
-Dependencies:
-* T14.G4.04.01: Create patrol movement pattern
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
+
+
+ID: T14.G4.04
+Topic: T14 – 2D Games
+Skill: Simple enemy movement
+Description: Program an enemy to patrol back and forth between two points using `glide` blocks or by moving in one direction until touching a boundary, then reversing direction with `turn 180 degrees`. Create predictable movement patterns so players can time their actions. Test that the enemy maintains consistent speed in both directions.
+
+Dependencies:
+* T14.G3.01.02: Move sprite in 4 directions with arrow keys
+* T14.G3.03: Keep sprite on screen
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.05.01
 Topic: T14 – 2D Games
 Skill: Point sprite towards target
-Description: Use `point towards [Player]` to make a sprite always face the player character. Test that the sprite rotates correctly as the player moves to different positions. This foundational skill is essential for creating chasing enemies or aiming projectiles. _CSTA: 2-AP-13.__
+Description: Use `point towards [Player]` to make a sprite always face the player character. Test that the sprite rotates correctly as the player moves to different positions. This foundational skill is essential for creating chasing enemies or aiming projectiles.
 
 Dependencies:
 * T14.G3.01.02: Move sprite in 4 directions with arrow keys
@@ -8701,128 +8702,164 @@ Dependencies:
 ID: T14.G4.05.02
 Topic: T14 – 2D Games
 Skill: Chase the player
-Description: Combine `point towards [Player]` with `move` blocks inside a forever loop to create a chaser enemy that follows the player continuously. Adjust movement speed to balance difficulty. Test that the chaser can navigate around simple obstacles. _CSTA: 2-AP-13.__
+Description: Combine `point towards [Player]` with `move` blocks inside a forever loop to create a chaser enemy that follows the player continuously. Adjust movement speed to balance difficulty. Optionally add an if-statement to change speed based on distance to the player.
 
 Dependencies:
 * T14.G4.05.01: Point sprite towards target
-* T07.G3.03: Build a forever loop for simple animation
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.06
 Topic: T14 – 2D Games
 Skill: Create a Score variable
-Description: Create a global `Score` variable, initialize it to 0 at game start, and increase it when the player collects items or defeats enemies. Display the score on stage using the variable monitor and reset it when the game restarts. _CSTA: 2-AP-11.__
+Description: Create a global `Score` variable, initialize it to 0, and increase it when the player collects items or defeats enemies. Display the score on stage and reset it when the game restarts.
 
 Dependencies:
-* T14.G3.10: Create collectible items
+* T14.G3.11: Create collectible items
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G4.07
 Topic: T14 – 2D Games
 Skill: Create a Lives variable
-Description: Create a `Lives` variable, initialize it to a starting value (e.g., 3), decrease it upon damage, and check for zero to trigger Game Over. Display lives using the variable monitor or custom sprite costumes. _CSTA: 2-AP-11.__
+Description: Create a `Lives` variable, decrease it upon damage, and check for zero to trigger Game Over.
 
 Dependencies:
-* T14.G3.07: Trigger Game Over
+* T14.G3.08: Trigger Game Over
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G4.08
 Topic: T14 – 2D Games
 Skill: Create a Timer
-Description: Use a variable and a loop with `wait (1) seconds` to create a countdown or count-up timer. Use the timer value to drive win/loss conditions (time runs out = game over, or time bonus for fast completion). _CSTA: 2-AP-11.__
+Description: Use a variable and a loop with `wait (1) seconds` to create a countdown that drives win/loss conditions.
 
 Dependencies:
-* T14.G3.07: Trigger Game Over
+* T14.G3.08: Trigger Game Over
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G4.09
 Topic: T14 – 2D Games
 Skill: Detect level complete
-Description: Check if a completion condition (Score threshold, collect all items, touch goal) is met to trigger the next level. Use conditionals to test the win condition and broadcast a level complete message. _CSTA: 2-AP-13.__
+Description: Check if a condition (Score threshold, touch door) is met to trigger the next level.
 
 Dependencies:
-* T14.G3.07: Trigger Game Over
-* T14.G3.03: Detect touching a goal
-* T14.G4.06: Create a Score variable
+* T14.G3.08: Trigger Game Over
+* T14.G3.04: Detect touching a goal
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G4.10
 Topic: T14 – 2D Games
 Skill: Switch backdrops for levels
-Description: When `Next Level` is received, switch the backdrop using `switch backdrop to [backdrop2]` and reset player position to the starting coordinates for the new level. _CSTA: 2-AP-16.__
+Description: When `Next Level` is received, switch the backdrop and reset player position.
 
 Dependencies:
-* T14.G4.09: Detect level complete
+* T14.G3.01.02: Move sprite in 4 directions with arrow keys
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.11
 Topic: T14 – 2D Games
 Skill: Add checkpoints
-Description: Store the player's last checkpoint coordinates in variables (CheckpointX, CheckpointY). Update these variables when touching checkpoint objects. After hazards, restore the player to checkpoint position instead of the level start. _CSTA: 2-AP-11.__
+Description: Store the player's last checkpoint coordinates in variables and restore them after hazards instead of warping all the way back.
 
 Dependencies:
-* T14.G3.04.01: Detect touching a hazard using sprite collision
+* T14.G3.08: Trigger Game Over
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G4.12
 Topic: T14 – 2D Games
 Skill: Temporary power-ups
-Description: Give the player a temporary effect (speed boost, invincibility) by setting a boolean variable to true, applying the effect, using a timer to turn it off after a duration, then resetting the variable to false. _CSTA: 2-AP-11.__
+Description: Give the player a temporary effect (speed boost, shield) by toggling a variable and using a timer to turn it off.
 
 Dependencies:
-* T14.G3.10: Create collectible items
-* T14.G4.08: Create a Timer
+* T14.G3.01.02: Move sprite in 4 directions with arrow keys
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G4.13
 Topic: T14 – 2D Games
 Skill: Pause and resume the game
-Description: Create a Pause button that broadcasts `Pause Game`, causing all sprites to enter a wait loop. Broadcast `Resume Game` to exit the wait loop and continue. Use boolean variables to track pause state. _CSTA: 2-AP-16.__
+Description: Create a Pause button that broadcasts `Pause Game`, stops motion scripts, and resumes when `Resume Game` arrives.
 
 Dependencies:
-* T14.G3.07: Trigger Game Over
+* T14.G3.08: Trigger Game Over
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
 * T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.14
 Topic: T14 – 2D Games
 Skill: Reset on restart messages
-Description: Use `when I receive [Restart]` to send every sprite back to initial costume, position, and visibility. Reset all game variables to starting values to ensure consistent game restarts. _CSTA: 2-AP-16.__
+Description: Use `when I receive [Restart]` (or `Game Over`) to send every sprite back to a known costume, position, and visibility so repeats are consistent.
 
 Dependencies:
-* T14.G3.07: Trigger Game Over
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T14.G3.08: Trigger Game Over
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G4.15
 Topic: T14 – 2D Games
 Skill: Show damage feedback
-Description: When the player takes damage, show visual feedback by flashing the sprite (using repeat with ghost effect or color change), playing a hurt sound, and briefly making the player invincible using a temporary invincibility variable. _CSTA: 2-AP-17.__
+Description: When the player takes damage (loses a life), show visual feedback by flashing the sprite (using repeat with ghost effect or color change), playing a hurt sound, and briefly making the player invincible. Use a variable to track invincibility time so the player cannot be hit again immediately.
 
 Dependencies:
-* T14.G3.09: Visual effects on interaction
+* T14.G3.10: Visual effects on interaction
 * T14.G4.07: Create a Lives variable
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T14.G5.01.01
 Topic: T14 – 2D Games
 Skill: Understand velocity variables
-Description: Create a `y velocity` variable to control vertical movement. Instead of directly changing y position with arrow keys, set y velocity when jumping and continuously add y velocity to y position in a forever loop. Test that changing the velocity value changes how fast the sprite moves. _CSTA: 2-AP-11.__
+Description: Create a `y velocity` variable to control vertical movement. Instead of directly changing y position with arrow keys, set y velocity when jumping and continuously add y velocity to y position in a forever loop. Test that changing the velocity value changes how fast the sprite moves.
 
 Dependencies:
-* T14.G3.11: Simple jump with key press
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T14.G3.12: Simple jump with key press
+* T07.G3.05: Fix a simple repeat loop count
 
 
 ID: T14.G5.01.02
 Topic: T14 – 2D Games
 Skill: Apply gravity with velocity
-Description: Add a constant negative value (like -0.5) to `y velocity` each frame inside a forever loop to simulate gravity pulling the character down. Test that the sprite accelerates downward when not on the ground, creating realistic falling motion. _CSTA: 2-AP-11.__
+Description: Add a constant negative value (like -0.5) to `y velocity` each frame inside a forever loop to simulate gravity pulling the character down. Test that the sprite accelerates downward when not on the ground, creating realistic falling motion.
 
 Dependencies:
 * T14.G5.01.01: Understand velocity variables
@@ -8832,420 +8869,279 @@ Dependencies:
 ID: T14.G5.01.03
 Topic: T14 – 2D Games
 Skill: Configure gravity and weight parameters
-Description: Experiment with different gravity values to tune game feel. Test smaller values (like -0.3) for floaty moon-like jumps and larger values (like -1.5) for fast snappy movement. Adjust the initial jump velocity and gravity strength together to create the desired jump arc and falling speed. _CSTA: 2-AP-17.__
+Description: Experiment with different gravity values to tune game feel. Test smaller values (like -0.3) for floaty moon-like jumps and larger values (like -1.5) for fast snappy movement. Adjust the initial jump velocity and gravity strength together to create the desired jump arc and falling speed.
 
 Dependencies:
 * T14.G5.01.02: Apply gravity with velocity
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T14.G4.01: Spawn a projectile
 
 
 ID: T14.G5.02
 Topic: T14 – 2D Games
-Skill: Control jump timing with ground detection
-Description: Allow jumping only when the player is touching the ground color or platform sprite. Check `touching color [green]?` or use a sensor sprite at the player's feet before allowing jump. This prevents mid-air jumping. _CSTA: 2-AP-13.__
+Skill: Control jump timing
+Description: Allow jumping only when the player is touching the ground (or within a short "coyote time") by checking sensors before setting `y velocity`.
 
 Dependencies:
+* T14.G4.07: Create a Lives variable
 * T14.G5.01.03: Configure gravity and weight parameters
 * T06.G3.02: Build a key‑press script that controls a sprite
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
-ID: T14.G5.03.01
+ID: T14.G5.03
 Topic: T14 – 2D Games
-Skill: Fix ground collisions by nudging up
-Description: Prevent falling through floors by detecting when the player overlaps with ground (touching color or sprite), then repeatedly change y by small increments (+1) until no longer touching. This nudging technique keeps the player on top of platforms. _CSTA: 2-AP-13.__
+Skill: Fix ground collisions
+Description: Prevent falling through floors by nudging the sprite up until it is no longer intersecting the ground or by snapping to the floor after a fall.
 
 Dependencies:
+* T14.G4.03: Clean up projectiles
 * T14.G5.01.03: Configure gravity and weight parameters
-* T07.G3.04: Use repeat‑until to reach a simple goal
-
-
-ID: T14.G5.03.02
-Topic: T14 – 2D Games
-Skill: Fix ground collisions by snapping to surface
-Description: Alternative collision fix: when touching ground, set y velocity to 0 and position the player at a fixed y coordinate that represents the ground surface. This snapping method works well for flat terrain. _CSTA: 2-AP-13.__
-
-Dependencies:
-* T14.G5.03.01: Fix ground collisions by nudging up
+* T07.G3.05: Fix a simple repeat loop count
 * T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.04
 Topic: T14 – 2D Games
 Skill: Script viewport pans
-Description: Use `move viewport to x (XPOS) y (YPOS)` to position the camera at specific coordinates. Combine with `wait` blocks to create smooth camera pans during intro sequences. Test camera movement at level start to ensure the player sees the intended starting view. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Use `move viewport to x (XPOS) y (YPOS)` to position the camera at specific coordinates. Combine with `wait` blocks to create smooth camera pans during intro sequences. Test camera movement at level start to ensure the player sees the intended starting view. _Implementation note: CreatiCode-specific viewport control blocks.__
 
 Dependencies:
 * T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.05
 Topic: T14 – 2D Games
 Skill: Lock viewport to the player
-Description: Call `lock viewport to sprite [Player]` so the stage follows the player automatically. Test how viewport behaves when the player reaches the map boundary - the viewport should stop scrolling at edges to prevent showing empty space. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Call `lock viewport to sprite [Player]` so the stage follows the player automatically, noting how edges behave when the player reaches the map boundary.
 
 Dependencies:
-* T14.G5.04: Script viewport pans
+* T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.06
 Topic: T14 – 2D Games
 Skill: Pin HUD to the screen
-Description: Use `attach to viewport at x (XPOS) y (YPOS)` to place score, lives, and buttons relative to the viewport so they stay in the same spot even while the world scrolls. Test that HUD elements remain visible and positioned correctly during gameplay. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Use `attach to viewport at x (XPOS) y (YPOS)` to place score, lives, and buttons relative to the viewport so they stay in the same spot even while the world scrolls.
 
 Dependencies:
-* T14.G5.05: Lock viewport to the player
+* T14.G4.10: Switch backdrops for levels
+* T07.G3.05: Fix a simple repeat loop count
 * T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.07
 Topic: T14 – 2D Games
 Skill: Spawn near the viewport
-Description: Combine `viewport x`/`viewport y` reporters with random offsets to spawn enemies just outside the camera so they enter smoothly instead of popping on the player. This creates a better visual experience for scrolling games. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Combine `viewport x`/`viewport y` reporters with random offsets to spawn enemies just outside the camera so they enter smoothly instead of popping on the player.
 
 Dependencies:
-* T14.G5.06: Pin HUD to the screen
+* T14.G4.10: Switch backdrops for levels
 * T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.08
 Topic: T14 – 2D Games
 Skill: Timed waves
-Description: Use a repeat loop or custom block to spawn a set number of enemies every few seconds (using wait blocks). Track wave numbers in a variable and increase spawn count or enemy speed with each new wave to create escalating difficulty. _CSTA: 2-AP-13.__
+Description: Use a repeat loop or custom block to spawn a set number of enemies every few seconds (using wait blocks). Track wave numbers in a variable and increase spawn count or enemy speed with each new wave to create escalating difficulty.
 
 Dependencies:
 * T14.G4.08: Create a Timer
 * T14.G4.02: Move a projectile
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.09
 Topic: T14 – 2D Games
 Skill: High score list
-Description: Use a list to store the top scores, insert new scores in sorted order, and display the list in a viewport-attached HUD sprite. Limit the list to top 5 or 10 scores by deleting lower scores. _CSTA: 2-AP-14.__
+Description: Use a list to store the top scores, insert new scores in order, and display the list in a viewport-attached HUD sprite.
 
 Dependencies:
 * T14.G4.06: Create a Score variable
-* T10.G3.01: Loop through and process each item in a list
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G5.10
 Topic: T14 – 2D Games
 Skill: Inventory system
-Description: Track collected items ("Key", "Potion") in a list, check membership before allowing actions (e.g., "if [Key] in [Inventory] then open door"), and show collected icons in the HUD. _CSTA: 2-AP-14.__
+Description: Track collected items ("Key", "Potion") in a list, check membership before allowing actions, and show collected icons near the HUD.
 
 Dependencies:
 * T14.G4.12: Temporary power-ups
-* T10.G3.01: Loop through and process each item in a list
-
-
-ID: T14.G5.11.01
-Topic: T14 – 2D Games
-Skill: Initialize 2D physics world
-Description: Use the `initialize 2D physics world` block to enable physics simulation. Set gravity parameters (gravity X = 0, gravity Y = -100 for normal downward gravity). Understand that invisible walls are automatically created at stage edges to contain physics objects. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.01.03: Configure gravity and weight parameters
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T14.G5.11.02
-Topic: T14 – 2D Games
-Skill: Add dynamic physics body to sprite
-Description: Use `add physics body` block to make a sprite subject to physics. Set body type to "dynamic" so it responds to gravity and forces. Configure initial properties: mass (affects inertia), whether rotation is allowed, and initial velocity. Test that the sprite falls and collides realistically. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.01: Initialize 2D physics world
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T14.G5.11.03
-Topic: T14 – 2D Games
-Skill: Add static physics body to sprite
-Description: Use `add physics body` block with type "static" to create immovable platforms, walls, or ground. Static bodies don't move or fall, but dynamic bodies collide with them. Set the collision shape (rectangle, circle) to match the sprite's appearance. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
+* T07.G3.05: Fix a simple repeat loop count
 * T08.G3.05: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.04
-Topic: T14 – 2D Games
-Skill: Apply force to physics sprite
-Description: Use `apply force x: (50) y: (100)` block to push a physics sprite. Forces are continuous - they accumulate each frame the block runs. Use for continuous propulsion like rocket thrust or wind. Test how different force values affect movement speed. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T14.G5.11.05
-Topic: T14 – 2D Games
-Skill: Apply impulse to physics sprite
-Description: Use `apply impulse x: (50) y: (100)` block to give a physics sprite an instant velocity change. Impulses are one-time pushes, perfect for jumping or launching projectiles. Compare impulse (instant) vs force (continuous) behavior. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.04: Apply force to physics sprite
-* T08.G3.05: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.06
-Topic: T14 – 2D Games
-Skill: Set physics body restitution (bounciness)
-Description: Use `set restitution to (0.8)` block to control how bouncy a physics body is. Values: 0 = no bounce (stops on impact), 1 = perfect bounce (keeps all energy), >1 = gains energy. Test with dropping balls to see bounce height differences. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T14.G5.11.07
-Topic: T14 – 2D Games
-Skill: Set physics body friction
-Description: Use `set friction to (0.5)` block to control how much a physics body resists sliding. High friction (close to 1) = slides less, low friction (close to 0) = slides more like ice. Test with sliding objects on angled platforms. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T14.G5.11.08
-Topic: T14 – 2D Games
-Skill: Set physics body density and mass
-Description: Use `set density to (1)` or `set mass to (10)` blocks to control how heavy a physics body is. Heavier bodies are harder to push and fall faster through light objects. Compare behavior of heavy vs light objects in collisions. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-ID: T14.G5.11.09
-Topic: T14 – 2D Games
-Skill: Enable/disable physics body rotation
-Description: Use `allow rotation: [true/false]` parameter or block to control whether a physics body can spin when hit. Disable rotation for characters that should stay upright; enable for realistic tumbling objects. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T08.G3.05: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.10
-Topic: T14 – 2D Games
-Skill: Set collision groups for selective collisions
-Description: Use `set collision group to (1)` and `set collides with groups [1,2,3]` blocks to control which physics bodies collide with each other. This allows creating objects that pass through some things but not others (e.g., player bullets hit enemies but not other bullets). _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.03: Add static physics body to sprite
-* T08.G5.01: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.11
-Topic: T14 – 2D Games
-Skill: Detect physics collisions with event
-Description: Use `when [Sprite] collides with [Sprite2]` hat block or check collision reporters to detect when physics bodies touch. This triggers scripts for collision responses like damage, scoring, or sound effects. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-16.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T08.G3.05: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.12
-Topic: T14 – 2D Games
-Skill: Create weld joint between physics bodies
-Description: Use `create weld joint` between two physics sprites to permanently attach them together. They will move as one rigid object. Useful for compound objects like a car body + wheels or attached parts. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.03: Add static physics body to sprite
-* T08.G5.01: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.13
-Topic: T14 – 2D Games
-Skill: Create revolute joint (hinge) between physics bodies
-Description: Use `create revolute joint` to connect two physics sprites with a rotating pivot point. This creates hinges, swinging doors, or ragdoll limbs. Configure motor settings to add powered rotation. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.12: Create weld joint between physics bodies
-* T09.G5.01: Use a variable to store computation results
-
-
-ID: T14.G5.11.14
-Topic: T14 – 2D Games
-Skill: Create distance joint (rope/spring) between physics bodies
-Description: Use `create distance joint` to connect two physics sprites with a flexible distance constraint. This creates ropes, chains, or springs that can stretch slightly but maintain connection. Set min/max distance limits. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.12: Create weld joint between physics bodies
-* T09.G5.01: Use a variable to store computation results
-
-
-ID: T14.G5.11.15
-Topic: T14 – 2D Games
-Skill: Remove physics body from sprite
-Description: Use `remove physics body` block to convert a physics sprite back to normal sprite control. Useful when you need to switch between physics-based and script-based movement (e.g., cutscenes vs gameplay). _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T08.G5.01: Fix a condition that uses the wrong operator
-
-
-ID: T14.G5.11.16
-Topic: T14 – 2D Games
-Skill: Set physics body velocity directly
-Description: Use `set velocity x: (100) y: (0)` block to directly control a physics body's speed and direction. This bypasses forces/impulses and immediately sets the movement. Useful for precise control like character movement in a physics world. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T09.G5.01: Use a variable to store computation results
-
-
-ID: T14.G5.11.17
-Topic: T14 – 2D Games
-Skill: Get physics body properties (reporters)
-Description: Use reporter blocks like `x velocity`, `y velocity`, `angular velocity`, `is touching ground?` to read physics body state. Use these values in conditionals or variable calculations to create physics-aware game logic. _Implementation note: CreatiCode 2D Physics extension. CSTA: 2-AP-17.__
-
-Dependencies:
-* T14.G5.11.02: Add dynamic physics body to sprite
-* T09.G5.01: Use a variable to store computation results
 
 
 ID: T14.G6.01.01
 Topic: T14 – 2D Games
 Skill: Track game state with variable
-Description: Create a `State` variable to track what the character is doing. Set it to different text values like "Idle", "Running", or "Jumping" when actions occur. Display the variable to see how state changes as the player moves and test that it updates correctly. _CSTA: 2-AP-11.__
+Description: Create a `State` variable to track what the character is doing. Set it to different text values like "Idle", "Running", or "Jumping" when actions occur. Display the variable to see how state changes as the player moves and test that it updates correctly.
 
 Dependencies:
 * T14.G4.13: Pause and resume the game
-* T09.G5.01: Use a variable to store computation results
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G6.01.02
 Topic: T14 – 2D Games
 Skill: Character state machine
-Description: Use if-statements to check the `State` variable before allowing actions. For example, only allow jumping when State = "Idle" or "Running", preventing double-jumps. Change costumes based on the current state to match animations to character behavior. Test that state transitions work correctly. _CSTA: 2-AP-13.__
+Description: Use if-statements to check the `State` variable before allowing actions. For example, only allow jumping when State = "Idle" or "Running", preventing double-jumps. Change costumes based on the current state to match animations to character behavior. Test that state transitions work correctly.
 
 Dependencies:
 * T14.G6.01.01: Track game state with variable
-* T08.G5.01: Fix a condition that uses the wrong operator
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G6.02
 Topic: T14 – 2D Games
 Skill: Hitbox separation
-Description: Create a simple rectangular sprite (called a 'collision box' or 'hitbox') that is hidden during gameplay. Use this sprite for detecting when the player touches walls or enemies, while a separate art sprite follows it and shows the visual character. This technique makes collision detection more accurate and easier to debug. _CSTA: 2-AP-17.__
+Description: Create a simple rectangular sprite (called a 'collision box' or 'hitbox') that is hidden during gameplay. Use this sprite for detecting when the player touches walls or enemies, while a separate art sprite follows it and shows the visual character. This technique makes collision detection more accurate and easier to debug.
 
 Dependencies:
-* T14.G5.03.01: Fix ground collisions by nudging up
-* T09.G5.01: Use a variable to store computation results
+* T14.G5.03: Fix ground collisions
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G6.03
 Topic: T14 – 2D Games
 Skill: Multi-layer HUD with viewport attachments
-Description: Attach multiple sprites to the viewport (score, minimap, buttons) and manage their layering so UI always sits above gameplay while remaining interactive. Use `go to front layer` to ensure proper z-ordering. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Attach multiple sprites to the viewport (score, minimap, buttons) and manage their layering so UI always sits above gameplay while remaining interactive.
 
 Dependencies:
 * T14.G5.06: Pin HUD to the screen
-* T09.G5.01: Use a variable to store computation results
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G6.04
 Topic: T14 – 2D Games
 Skill: Stream level chunks with viewport reporters
-Description: Use `viewport x` and `viewport y` to track where the camera is positioned. Write scripts that create new game objects (platforms, enemies) when the camera gets close to them, and delete objects that are far behind the camera. This keeps your game running smoothly even with large levels. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Use `viewport x` and `viewport y` to track where the camera is positioned. Write scripts that create new game objects (platforms, enemies) when the camera gets close to them, and delete objects that are far behind the camera. This keeps your game running smoothly even with large levels.
 
 Dependencies:
 * T14.G5.04: Script viewport pans
 * T14.G5.05: Lock viewport to the player
-* T09.G5.01: Use a variable to store computation results
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G6.05
 Topic: T14 – 2D Games
 Skill: Cinematic camera rails
-Description: Call `detach from viewport`, run scripted `move viewport` sequences for intro/outro scenes, then relock to the player once the cutscene ends. Create smooth camera movements by using glide-like techniques with viewport positioning. _Implementation note: CreatiCode-specific viewport control blocks. CSTA: 2-AP-17.__
+Description: Call `detach from viewport`, run scripted `move viewport` sequences for intro/outro scenes, then relock to the player once the cutscene ends.
 
 Dependencies:
 * T14.G5.04: Script viewport pans
 * T14.G5.05: Lock viewport to the player
-* T08.G5.01: Fix a condition that uses the wrong operator
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
 
 
 ID: T14.G6.06
 Topic: T14 – 2D Games
 Skill: Mode and pause manager
-Description: Maintain a `Game Mode` variable and gate scripts so physics, UI, and spawns only run in the appropriate mode (Play, Pause, Shop, Cutscene). Use conditionals at the start of forever loops to check the current mode. _CSTA: 2-AP-13.__
+Description: Maintain a `Game Mode` variable and gate scripts so physics, UI, and spawns only run in the appropriate mode (Play, Pause, Shop, Cutscene).
 
 Dependencies:
 * T14.G6.01.02: Character state machine
-* T08.G5.01: Fix a condition that uses the wrong operator
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G6.07
 Topic: T14 – 2D Games
 Skill: Monitor and optimize clone count
-Description: Create a `Clone Count` variable and increment it when clones are created, decrement when deleted. Display this on stage to monitor performance. If count gets too high (causing lag), implement limits: set a maximum clone count, reuse existing clones instead of creating new ones, or delete off-screen clones proactively. _CSTA: 2-AP-17.__
+Description: Create a `Clone Count` variable and increment it when clones are created, decrement when deleted. Display this on stage to monitor performance. If count gets too high (causing lag), implement limits: set a maximum clone count, reuse existing clones instead of creating new ones, or delete off-screen clones proactively.
 
 Dependencies:
 * T14.G4.01: Spawn a projectile
 * T14.G4.03: Clean up projectiles
-* T09.G5.01: Use a variable to store computation results
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G7.01
 Topic: T14 – 2D Games
-Skill: Spatial partitioning (grid-based movement)
-Description: Implement movement that snaps to a tile grid (e.g., each move is exactly 32 pixels). Create lists to store which grid positions (x,y coordinates) are occupied by walls or objects. Before moving, check the target grid position in your lists to determine if movement is allowed, enabling puzzle or turn-based RPG logic. _CSTA: 3A-AP-16.__
+Skill: Spatial partitioning (grid)
+Description: Implement movement that snaps to a tile grid (e.g., each move is exactly 32 pixels). Create lists to store which grid positions (x,y coordinates) are occupied by walls or objects. Before moving, check the target grid position in your lists to determine if movement is allowed, enabling puzzle or turn-based RPG logic.
 
 Dependencies:
 * T14.G6.04: Stream level chunks with viewport reporters
+* T07.G6.05: Fix a loop that runs too many or too few times
+* T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T14.G7.02
 Topic: T14 – 2D Games
 Skill: Basic pathfinding
-Description: Create an enemy that moves toward the player using `point towards [Player]`, but when it hits a wall, add logic to try moving in alternative directions (up, down, left, right) until it finds a path around the obstacle. Use a repeat loop to test each direction and move in the first valid one. This prevents enemies from getting stuck on corners. _CSTA: 3A-AP-13.__
+Description: Create an enemy that moves toward the player using `point towards [Player]`, but when it hits a wall, add logic to try moving in alternative directions (up, down, left, right) until it finds a path around the obstacle. Use a repeat loop to test each direction and move in the first valid one. This prevents enemies from getting stuck on corners.
 
 Dependencies:
 * T14.G6.01.02: Character state machine
+* T07.G6.05: Fix a loop that runs too many or too few times
 * T08.G5.01: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G7.03
 Topic: T14 – 2D Games
 Skill: Balanced enemy spawning
-Description: Create a list of enemy types with numbers representing how often each should appear (e.g., 'Grunt:70', 'Tank:30'). Write a script that randomly selects from this list, using the numbers to make common enemies appear more often than rare ones. Adjust the ratios as the level increases to change difficulty. _CSTA: 3A-AP-16.__
+Description: Create a list of enemy types with numbers representing how often each should appear (e.g., 'Grunt:70', 'Tank:30'). Write a script that randomly selects from this list, using the numbers to make common enemies appear more often than rare ones. Adjust the ratios as the level increases to change difficulty.
 
 Dependencies:
 * T10.G5.01: Store and retrieve named data with a list
+* T07.G5.01: Loop over a list or range
+* T08.G5.01: Fix a condition that uses the wrong operator
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T14.G5.08: Timed waves
+
 
 
 ID: T14.G7.04
 Topic: T14 – 2D Games
 Skill: Monitor clone performance
-Description: Create a watcher to track how many clones exist at once. Test your game and observe if too many clones make it run slowly. Learn strategies to reduce clone count: reuse clones instead of creating new ones, delete clones that move off-screen, or limit how many can exist at once using a counter variable. _CSTA: 3A-AP-17.__
+Description: Create a watcher to track how many clones exist at once. Test your game and observe if too many clones make it run slowly. Learn strategies to reduce clone count: reuse clones instead of creating new ones, delete clones that move off-screen, or limit how many can exist at once using a counter variable.
 
 Dependencies:
 * T14.G6.07: Monitor and optimize clone count
 * T12.G5.01: Explain code changes to a peer
 
 
+
 ID: T14.G7.05
 Topic: T14 – 2D Games
 Skill: Difficulty curves
-Description: Store difficulty targets in a list (speed, damage, spawn interval by level) and apply them when the player advances, ensuring ramped but fair gameplay. Index into the list using the current level number to get appropriate parameters. _CSTA: 3A-AP-16.__
+Description: Store difficulty targets in a list (speed, damage, spawn interval by level) and apply them when the player advances, ensuring ramped but fair gameplay.
 
 Dependencies:
 * T10.G5.01: Store and retrieve named data with a list
+* T14.G7.06: Advanced level management system
 * T14.G5.08: Timed waves
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T14.G7.06
 Topic: T14 – 2D Games
 Skill: Advanced level management system
-Description: Create a comprehensive level management system that tracks the current level number in a variable, stores level-specific data (enemy counts, time limits, required score) in lists indexed by level number, and broadcasts level transition messages. Include logic to load the correct data when advancing or restarting levels. _CSTA: 3A-AP-16.__
+Description: Create a comprehensive level management system that tracks the current level number in a variable, stores level-specific data (enemy counts, time limits, required score) in lists indexed by level number, and broadcasts level transition messages. Include logic to load the correct data when advancing or restarting levels.
 
 Dependencies:
 * T14.G4.09: Detect level complete
@@ -9253,84 +9149,67 @@ Dependencies:
 * T10.G5.01: Store and retrieve named data with a list
 
 
-ID: T14.G7.07.01
-Topic: T14 – 2D Games
-Skill: Save high score to cloud
-Description: Use CreatiCode's cloud data blocks to save the player's high score permanently online. When the game ends, check if current score > saved high score, then update the cloud variable. Load the saved high score at game start to display previous best. _Implementation note: CreatiCode cloud data extension. CSTA: 3A-AP-16.__
-
-Dependencies:
-* T14.G4.06: Create a Score variable
-* T09.G5.01: Use a variable to store computation results
-
-
-ID: T14.G7.07.02
-Topic: T14 – 2D Games
-Skill: Save player progress and settings to cloud
-Description: Use cloud variables or lists to save game progress (current level, unlocked items, player settings like volume/difficulty). Load this data at game start so players can continue where they left off across sessions. _Implementation note: CreatiCode cloud data extension. CSTA: 3A-AP-16.__
-
-Dependencies:
-* T14.G7.07.01: Save high score to cloud
-* T10.G5.01: Store and retrieve named data with a list
-
-
-ID: T14.G7.07.03
-Topic: T14 – 2D Games
-Skill: Create global leaderboard
-Description: Use CreatiCode's Game category blocks or cloud lists to create a global leaderboard showing top player scores. Submit scores with player names, retrieve the top 10 list, and display it in the game. Handle ranking and sorting. _Implementation note: CreatiCode Game category or cloud data blocks. CSTA: 3A-AP-16.__
-
-Dependencies:
-* T14.G5.09: High score list
-* T14.G7.07.01: Save high score to cloud
-
 
 ID: T14.G8.01
 Topic: T14 – 2D Games
 Skill: Modular level loader
-Description: Create a system that reads a list of strings or table rows (e.g., "111000111" where 1=wall, 0=empty) to generate level layouts via clones. Parse each character to determine what object to spawn at each grid position. This allows creating many levels from data without manual sprite placement. _CSTA: 3B-AP-14.__
+Description: Create a system that reads a list of strings or table rows (e.g., "111000111") to generate level layouts via clones.
 
 Dependencies:
-* T14.G7.01: Spatial partitioning (grid-based movement)
+* T14.G7.01: Spatial partitioning (grid)
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T14.G8.02
 Topic: T14 – 2D Games
 Skill: Particle system
-Description: Create a flexible particle system (explosions, smoke, sparks) where one sprite manages many clones with individual properties like life, speed, color, and fade. Each clone updates its own properties over time before deleting itself. Use this for visual effects. _CSTA: 3B-AP-14.__
+Description: Create a flexible particle system (explosions, smoke) where one sprite manages many clones with properties like life, speed, and color.
 
 Dependencies:
 * T14.G7.04: Monitor clone performance
+* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 
 
 ID: T14.G8.03
 Topic: T14 – 2D Games
 Skill: Component-based entities
-Description: Design a flexible entity system where each sprite has a list of component tags (text values like 'CanTakeDamage', 'CanShoot', 'IsShopkeeper'). In your scripts, use if-statements to check if a sprite's list contains specific tags before activating behaviors. For example, only run damage logic if 'CanTakeDamage' is in the list. This enables modular, reusable game objects that can combine different capabilities flexibly. _CSTA: 3B-AP-14.__
+Description: Design a flexible entity system where each sprite has a list of component tags (text values like 'CanTakeDamage', 'CanShoot', 'IsShopkeeper'). In your scripts, use if-statements to check if a sprite's list contains specific tags before activating behaviors. For example, only run damage logic if 'CanTakeDamage' is in the list. This enables modular, reusable game objects that can combine different capabilities flexibly.
 
 Dependencies:
 * T14.G6.01.02: Character state machine
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T14.G8.04
 Topic: T14 – 2D Games
 Skill: Automated gameplay tests
-Description: Build a testing system that plays your game automatically using scripted inputs (simulate arrow key presses in sequence using broadcast messages). Program it to check if win/lose conditions trigger correctly (e.g., 'Does game end when lives reach 0?'). Use broadcast messages to log what happened during the test and compare it to expected results. _CSTA: 3B-AP-21.__
+Description: Build a testing system that plays your game automatically using scripted inputs (simulate arrow key presses in sequence). Program it to check if win/lose conditions trigger correctly (e.g., 'Does game end when lives reach 0?'). Use broadcast messages to log what happened during the test and compare it to expected results before releasing your game to players.
 
 Dependencies:
 * T14.G7.05: Difficulty curves
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 
 
 ID: T14.G8.05
 Topic: T14 – 2D Games
 Skill: Collect game statistics for balancing
-Description: Track and store player performance data in lists: how many times they die on each level, how long it takes to win, which power-ups they use most. After testing with multiple players, review this data to identify levels that are too hard or too easy. Adjust difficulty settings (enemy speed, obstacle count, time limits) based on the data to make your game fun and fair. _CSTA: 3B-AP-23.__
+Description: Track and store player performance data in lists: how many times they die on each level, how long it takes to win, which power-ups they use most. After testing with multiple players, review this data to identify levels that are too hard or too easy. Adjust difficulty settings (enemy speed, obstacle count, time limits) based on the data to make your game fun and fair.
 
 Dependencies:
 * T14.G7.03: Balanced enemy spawning
+* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
+
+
 ID: T15.GK.01
 Topic: T15 – Stories & Animation
 Skill: Sequence story pictures
