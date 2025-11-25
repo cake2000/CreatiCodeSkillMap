@@ -25455,266 +25455,314 @@ Dependencies:
 
 
 ID: T28.G2.01
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Sort events into certain / possible / impossible
-Description: Students classify illustrated events using everyday language about certainty. **Certain events** always happen (the sun rising tomorrow). **Possible events** might happen (rolling a 3 on a six-sided die). **Impossible events** cannot happen (rolling a 7 on a six-sided die, drawing a blue marble from a bag with only red marbles). Students sort 6-8 picture cards into three labeled bins.
+Description: Students classify illustrated events (the sun rising, rolling a 7 on a six-sided die, drawing a red marble from a bag that only has red) using everyday language about certainty.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
 
 
 ID: T28.G2.02
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Conduct a picture-based chance experiment
-Description: Learners use a physical spinner (made with a pencil and paperclip on a paper circle) or draw from a bag of colored blocks. They run 10 trials, recording each result with tally marks or stickers. After all trials, they count which color appeared most often. This hands-on activity builds intuition for randomness before introducing digital simulations.
+Description: Learners use a physical spinner (with a pencil and paperclip) or manipulative (drawing from a bag of colored blocks), run 10 trials, and record tallies with stickers or pictographs to see which color appears more often.
 
 Dependencies:
-* T28.G2.01: Sort events into certain / possible / impossible
+* T26.G1.01: Run a three-option picture survey
 * T25.G1.01: Record data with tally marks
 
 
 ID: T28.G2.03
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Decide if a simple game is fair
-Description: Students compare two spinners drawn on paper: one with equal-sized slices (e.g., 4 equal sections) and one with uneven slices (e.g., one section takes up half the circle). They explain which spinner is "fairer" for a game where each player picks a color. They learn that fair means each player has an equal chance of winning.
+Description: Students compare two drawn spinners (equal vs uneven slices) and explain which is “fairer” when playing a game.
 
 Dependencies:
-* T28.G2.02: Conduct a picture-based chance experiment
+* T01.G1.10: Match pictures to "if/then" rules
 
 
 ID: T28.G2.04
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Predict and observe outcomes
-Description: Learners make a prediction (heads or tails) before each of five physical coin flips using real coins. After each flip, they record whether their guess was correct or incorrect. At the end, they count how many guesses were right. They discuss: Can you predict what comes next? This activity helps students appreciate that random events cannot be predicted reliably.
+Description: Learners make a prediction before each of five physical coin flips (using real coins), then compare correct vs incorrect guesses to appreciate randomness.
 
 Dependencies:
 * T28.G2.02: Conduct a picture-based chance experiment
+* T01.G1.04: Predict the next step in a story sequence
 
 
 ID: T28.G3.01
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Interpret provided simulation output
-Description: Students watch a pre-built CreatiCode project that simulates a spinner spinning 20 times and displays results in a bar chart. They answer: (1) Which color appeared most often? (2) Which appeared least? (3) Did all colors appear the same number of times? They write 2-3 sentences explaining that even with equal chances, results vary because of randomness.
+Description: Students watch a pre-built CreatiCode project that runs 20 random trials and displays results in a bar chart. They answer specific questions: Which color appeared most often? Which appeared least? Did all colors appear the same number of times? They write 2-3 sentences explaining what the chart shows about randomness.
 
 Dependencies:
-* T28.G2.04: Predict and observe outcomes
-* T27.G2.01: Read a picture graph (pictograph)
+* T28.G2.01: Sort events into certain / possible / impossible
+* T07.G3.01: Use a counted repeat loop
 
 
 ID: T28.G3.02
-Topic: T28 – Chance & Simulations
-Skill: Explore the "pick random" operator block
-Description: Students drag a 'pick random 1 to 6' operator block into a 'say' block and click it repeatedly to see different values appear. They predict: Can it show 0? Can it show 7? Can it show 3.5? They test their predictions and write what the block does: it picks a whole number from the first value to the second value, where each number has an equal chance.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Explain what "pick random" does by testing predictions
+Description: Students experiment with a "pick random" block by running it repeatedly, observing results, and writing what the block does in their own words. They predict which values "pick random 1 to 6" can produce (possible vs impossible values) and test their predictions. Their explanation must include: (1) the range of possible values and (2) that each value has equal likelihood.
 
 Dependencies:
 * T28.G3.01: Interpret provided simulation output
 
 
 ID: T28.G3.03
-Topic: T28 – Chance & Simulations
-Skill: Run a teacher-provided simulation and record results
-Description: Students load a provided CreatiCode project that contains a script: 'when green flag clicked → repeat 10 → set result to pick random 0 to 1 → say result'. They run it 10 times and copy each result (0 or 1) into a table in their notebook. They count: How many 0s? How many 1s? This is their first experience running code that generates random data.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Record experimental data with teacher-provided blocks
+Description: Learners drag a provided script (`repeat 10` + `pick random 0 1`) into the workspace, run it, and copy the generated table into their notebook. They explain what each column means (trial, result).
 
 Dependencies:
-* T28.G3.02: Explore the "pick random" operator block
-* T07.G3.01: Use a counted repeat loop
+* T28.G3.02: Explain what "pick random" does by testing predictions
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T28.G3.04
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Compare predictions to simulated data
-Description: Before running a 20-trial simulation (provided), students write their prediction: "I think red will appear ___ times, blue will appear ___ times." After running the simulation, they record the actual counts. They calculate the difference (prediction - actual) for each color and discuss: Was your prediction close? Why is it hard to predict exact results?
+Description: Before running the provided simulation, students predict how many times each color will appear. Afterward, they compute the difference between prediction and actual counts.
 
 Dependencies:
-* T28.G3.03: Run a teacher-provided simulation and record results
+* T28.G3.03: Record experimental data with teacher-provided blocks
 
 
 ID: T28.G3.05
-Topic: T28 – Chance & Simulations
-Skill: Identify random elements in familiar games
-Description: Students think about familiar board and card games (Chutes and Ladders, Candy Land, Sorry!, Go Fish). For each game, they identify what makes it "lucky": Is there a die? A spinner? Card shuffling? They classify 3-4 games by asking: "Is this game more about luck or skill?" They learn that random elements (dice, spinners, shuffled cards) make outcomes uncertain.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Describe randomness in games and simulate a simple game element
+Description: Learners pick a familiar board or card game (Chutes and Ladders, Candy Land, Go Fish) and identify where randomness happens (dice roll, card shuffle, spinner). They create a simple CreatiCode simulation of one random element from the game (e.g., a virtual die or spinner) and explain in writing how that randomness affects whether skill or luck determines the winner.
 
 Dependencies:
-* T28.G3.04: Compare predictions to simulated data
+* T28.G3.01: Interpret provided simulation output
 
 
 ID: T28.G3.06
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Modify a teacher-provided random generator
-Description: Students receive a starter project with a simple script: 'if pick random 1 to 2 = 1 then say red else say blue'. They modify the script in one of these ways: (1) change the colors to different colors, (2) change from 2 outcomes to 3 outcomes by adjusting the range and adding another if block, or (3) change from colors to numbers. They click green flag 10+ times to verify their changes work and all outcomes can appear.
+Description: Students receive a simple 2-color spinner script and modify it to change the colors, the number of outcomes, or the range of random numbers. They test their changes to verify all outcomes can appear.
 
 Dependencies:
-* T28.G3.03: Run a teacher-provided simulation and record results
-* T08.G3.01: Use a simple if in a script
+* T28.G3.02: Explain what "pick random" does by testing predictions
+* T28.G3.03: Record experimental data with teacher-provided blocks
 
 
 ID: T28.G3.07
-Topic: T28 – Chance & Simulations
-Skill: Build a random generator from scratch
-Description: Starting with an empty project, students build their own random generator: (1) Add 'when green flag clicked', (2) Create a variable called 'result', (3) Add 'set result to pick random 1 to 3', (4) Add 'say result'. They click green flag 15+ times and tally how often each number appears. This is their first fully self-built simulation.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Assemble blocks to build a random generator
+Description: Students build a simple random generator from scratch by assembling a green flag script that uses 'pick random' to choose between 2-3 outcomes and displays the result with a 'say' block. They test their generator by clicking the green flag multiple times to verify all outcomes can appear.
 
 Dependencies:
 * T28.G3.06: Modify a teacher-provided random generator
-* T09.G3.01.01: Create a variable using the Make a Variable button
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 ID: T28.G4.01
-Topic: T28 – Chance & Simulations
-Skill: Convert random numbers to named outcomes using if-statements
-Description: Students extend their random generator to show words instead of numbers. They create a script: (1) Set 'roll' to pick random 1 to 4, (2) Use if-statements to convert: if roll = 1 then say "red", if roll = 2 then say "blue", if roll = 3 then say "green", if roll = 4 then say "yellow". They click green flag 20+ times to verify all four colors can appear. This teaches that random numbers can drive meaningful outcomes.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Build a random generator using if-statements
+Description: Students create a script that uses 'pick random 1-4' with if-statements to convert random numbers into meaningful outcomes (e.g., 1=red, 2=blue, 3=green, 4=yellow). This builds on basic random generators by adding conditional logic to interpret random values. They use a 'say' block to display the result and click the green flag multiple times to verify each outcome can appear.
 
 Dependencies:
-* T28.G3.07: Build a random generator from scratch
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T04.G3.02: Match a repeat box diagram to code blocks
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G3.07: Assemble blocks to build a random generator
 
 
 ID: T28.G4.02.01
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Log trial results to a list
-Description: Students extend their random generator to run multiple trials automatically. They: (1) Create a list called 'results', (2) Use 'repeat 50' to run 50 trials, (3) Inside the loop, add each random outcome to the list using 'add (result) to [results]'. After running, they check that the list contains 50 items using 'length of [results]'. This automates data collection instead of manual tallying.
+Description: Students extend their random generator to repeat 50 times using a counted loop, appending each result to a list variable. They verify the list contains 50 entries by displaying the list length and inspecting the list contents.
 
 Dependencies:
-* T28.G4.01: Convert random numbers to named outcomes using if-statements
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G3.02: Match a repeat box diagram to code blocks
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T10.G3.02: Add an item to a list
+* T10.G3.03: Get the length of a list
+* T28.G4.01: Build a random generator using if-statements
 
 
 ID: T28.G4.02.02
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Count frequencies of each outcome
-Description: After collecting 50 trial results in a list, students count how many times each outcome appeared. They create counter variables (redCount, blueCount, etc.), loop through the results list, and increment the appropriate counter using 'if item = "red" then change redCount by 1'. They display all counts on the stage to see the frequency distribution.
+Description: Students write code to count how many times each outcome appears in their trial list. They use variables to track counts for each color/outcome and display these counts on the stage.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.05: Trace code with variables to predict outcomes
 * T28.G4.02.01: Log trial results to a list
-* T10.G3.05: Loop through each item in a list
-* T09.G3.03: Use a variable in a simple conditional (if block)
 
 
 ID: T28.G4.02.03
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Calculate percentages from frequency counts
-Description: Students convert frequency counts to percentages to compare outcomes fairly. For each outcome, they calculate: percentage = (count / total trials) × 100. Example: If red appeared 12 times out of 50, that's (12/50)×100 = 24%. They display all percentages and compare: Does each color appear about 25% of the time for a fair 4-color spinner? What does it mean if one is much higher?
+Description: Students convert their frequency counts into percentages by dividing each count by the total number of trials and multiplying by 100. They display these percentages and explain what the percentages tell them about the simulation.
 
 Dependencies:
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T28.G4.02.02: Count frequencies of each outcome
 
 
 ID: T28.G4.03
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Show how sample size changes variability
-Description: Students run the same simulation twice with different sample sizes: once with 50 trials, once with 500 trials. They calculate percentages for each outcome in both runs. They observe: With 50 trials, percentages might be 20%, 35%, 22%, 23% (uneven). With 500 trials, they're closer to 25%, 26%, 24%, 25% (more even). They explain: "More trials = results closer to expected percentages."
+Description: Students run two experiments (50, 500 spins) and plot bar charts to see stability differences.
 
 Dependencies:
-* T28.G4.02.03: Calculate percentages from frequency counts
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T27.G3.04: Create side-by-side bar charts for two groups
+* T28.G4.02.03: Calculate percentages from frequency counts
 
 
 ID: T28.G4.04
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Debug an "unfair" simulation
-Description: Students receive a buggy simulation that produces unfair results (e.g., "red" appears twice as often). They inspect the code to find the bug. Common bugs: (1) if roll = 1 OR roll = 2 then "red" - red gets 2 chances, (2) pick random 1 to 3 but 4 outcomes mapped - one never appears. They fix the bug and run 100 trials to verify outcomes are now roughly equal.
+Description: Learners inspect a script where one outcome is favored (duplicate entries, wrong range) and fix it so outcomes are equally likely.
 
 Dependencies:
-* T28.G4.01: Convert random numbers to named outcomes using if-statements
-* T13.G3.01: Identify a bug when output differs from expectation
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.05: Trace code with variables to predict outcomes
+* T28.G4.01: Build a random generator using if-statements
 
 
 ID: T28.G4.05
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Generate and plot random coordinate pairs
-Description: Students create a script that generates random x,y coordinates and visualizes them. The script: (1) Repeat 50 times, (2) Set x to pick random -200 to 200, (3) Set y to pick random -150 to 150, (4) Go to x: (x) y: (y), (5) Stamp. After running, students see 50 dots scattered across the stage. They observe: points fill the area fairly evenly, not clumping in one spot.
+Description: Students write a script that generates random x and y coordinates within a specified range, stamps a dot at that location, and repeats 50 times to see how random points fill a rectangular area.
 
 Dependencies:
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T03.G3.01: Identify features in a small game description
+* T04.G3.02: Match a repeat box diagram to code blocks
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T28.G4.02.01: Log trial results to a list
-* T03.G3.01: Navigate a sprite using coordinates
 
 
 ID: T28.G4.06
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Interpret probabilities as fractions and percentages
-Description: Students connect different ways of expressing probability. For a fair 6-sided die: "The chance of rolling a 3 is 1 out of 6" = 1/6 ≈ 16.7%. For a 4-color spinner: "Each color has a 1 in 4 chance" = 1/4 = 25%. They practice converting: Given "2 out of 5 chance of rain," what's the percentage? (40%). They compare their simulation results to these theoretical values.
+Description: Students express the likelihood of simple events using both fraction and percentage notation (e.g., "1 out of 4" = 1/4 = 25%). They convert between these representations and explain what each notation means in the context of random events.
 
 Dependencies:
+* T04.G3.02: Match a repeat box diagram to code blocks
+* T06.G2.03: Design a simple "if-then" game rule
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T28.G4.02.03: Calculate percentages from frequency counts
 
 
 ID: T28.G4.07
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Generate random selections without repetition
-Description: Students create a simulation that picks items randomly without repeats, like dealing cards. Method: (1) Create a list of items (e.g., names for team captains), (2) Pick random index from 1 to length of list, (3) Get and display that item, (4) Delete that item from the list so it can't be picked again. They verify by running: after picking all items, the list should be empty and no name repeated.
+Description: Students create a simulation that randomly selects items from a list without choosing the same item twice (e.g., dealing cards, picking team members). They use list operations to remove selected items or track what has been chosen, ensuring no duplicates appear.
 
 Dependencies:
+* T04.G3.02: Match a repeat box diagram to code blocks
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T10.G3.03: Get the length of a list
 * T28.G4.02.01: Log trial results to a list
-* T10.G3.04: Delete an item from a list
 
 
 ID: T28.G5.01.01
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Generate compound event data (two dice)
-Description: Students simulate rolling two dice and recording the sum. Script: (1) Repeat 200 times, (2) Set die1 to pick random 1 to 6, (3) Set die2 to pick random 1 to 6, (4) Set sum to die1 + die2, (5) Add sum to [sums] list. After running, they check the list has 200 items and sums range from 2 to 12. This introduces compound events where two random values combine.
+Description: Students write a script that simulates rolling two virtual dice 200 times, calculates the sum for each roll, and stores all sums in a list. They verify their data by checking the list length and examining sample values.
 
 Dependencies:
-* T28.G4.02.01: Log trial results to a list
-* T28.G4.06: Interpret probabilities as fractions and percentages
-
-
-ID: T28.G5.01.02
-Topic: T28 – Chance & Simulations
-Skill: Analyze compound event distributions
-Description: Students count frequencies for each sum (2-12) from their two-dice data and create a bar chart. They observe that 7 appears most often and explain why: there are 6 ways to make 7 (1+6, 2+5, 3+4, 4+3, 5+2, 6+1) but only 1 way to make 2 (1+1) or 12 (6+6). This reveals that compound events aren't equally likely even when individual events are.
-
-Dependencies:
-* T28.G5.01.01: Generate compound event data (two dice)
-* T28.G4.02.02: Count frequencies of each outcome
-* T27.G4.01: Create a bar chart from a data table
-
-
-ID: T28.G5.02
-Topic: T28 – Chance & Simulations
-Skill: Randomly assign participants to conditions
-Description: Students simulate an A/B test by randomly assigning 100 participants to Group A or Group B. Script: (1) Repeat 100 times, (2) If pick random 1 to 2 = 1 then add "A" to groups else add "B", (3) After loop, count how many A's and B's. They verify the groups are roughly equal (about 50 each) and explain why this matters for fair experiments.
-
-Dependencies:
-* T28.G4.02.02: Count frequencies of each outcome
+* T28.G4.02.03: Calculate percentages from frequency counts
 * T28.G4.04: Debug an "unfair" simulation
 
 
-ID: T28.G5.03
-Topic: T28 – Chance & Simulations
-Skill: Use Monte Carlo sampling to estimate area
-Description: Students estimate the area of a circle inside a square using random points. Script: (1) Generate random x,y in a square, (2) Check if point is inside circle (if x² + y² < radius²), (3) Count hits vs total. After 1000 trials, fraction inside ≈ circle area / square area. They can even estimate π! (hits/total ≈ π/4). This shows how randomness can solve geometry problems.
+ID: T28.G5.01.02
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Analyze compound event distributions
+Description: Students create a frequency distribution and bar chart showing how often each sum (2-12) appeared in their two-dice simulation. They explain why 7 is the most common sum by identifying all the combinations that produce 7 (1+6, 2+5, 3+4, etc.) compared to other sums.
 
 Dependencies:
-* T28.G4.05: Generate and plot random coordinate pairs
+* T28.G5.01.01: Generate compound event data (two dice)
+* T27.G3.04: Create side-by-side bar charts for two groups
+* T09.G3.03: Use a variable in a simple conditional (if block)
+* T07.G3.01: Use a counted repeat loop
+
+
+ID: T28.G5.02
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Randomly assign participants to conditions
+Description: Students write a script that tags each simulated user as "A" or "B," logs assignment, and reports counts to ensure near-equal groups.
+
+Dependencies:
+* T28.G4.02.03
+* T28.G4.04
+* T09.G3.03
+
+
+ID: T28.G5.03
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Use Monte Carlo sampling to estimate area or probability
+Description: Students generate random coordinate pairs within a square, check if each point lands inside a simple shape (e.g., a triangle or rectangle within the square), and calculate the fraction of points inside. They compare this fraction to the actual area ratio and explain how more trials improve accuracy.
+
+Dependencies:
 * T28.G4.03: Show how sample size changes variability
+* T28.G4.05: Generate and plot random coordinate pairs
 * T08.G4.01: Choose actions based on user input or sensor values
 
 
 ID: T28.G5.04
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Document simulation plans before coding
-Description: Before building a simulation, students write a plan with 5 parts: (1) Question: What am I trying to find out? (2) Random model: What will be random? (die roll, coin flip, coordinates?) (3) Variables: What will I track? (4) Trials: How many times will I run it? (5) Success metric: How will I know it worked? This prevents "just start coding" and builds design thinking.
+Description: Students create a written simulation plan template that specifies: (1) the research question, (2) input variables and their ranges, (3) the random model (what randomness will be used), (4) number of trials to run, and (5) expected outputs/metrics. They complete this plan before writing any code to reinforce intentional design.
 
 Dependencies:
+* T05.G5.03: Identify variables and initial values for a simulation
+* T05.G5.04: Draft simple update rules for a simulation
 * T28.G4.03: Show how sample size changes variability
 * T28.G4.04: Debug an "unfair" simulation
-* T05.G4.01: Describe what a simulation should do before building
+* T09.G3.03: Use a variable in a simple conditional (if block)
+* T07.G3.01: Use a counted repeat loop
 
 
 ID: T28.G5.05
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Calculate theoretical probability for simple events
-Description: Students calculate probability using the formula: P(event) = favorable outcomes / total outcomes. Examples: P(rolling a 3) = 1/6, P(heads) = 1/2, P(red marble from bag with 3 red, 2 blue) = 3/5. They convert to decimals (0.6) and percentages (60%). This is "theoretical" because it's calculated from logic, not experiments.
+Description: Students determine the theoretical probability of simple events (rolling a specific number, flipping heads, choosing a colored marble from a bag) by counting favorable outcomes divided by total possible outcomes. They express probabilities as fractions and decimals.
 
 Dependencies:
 * T28.G4.06: Interpret probabilities as fractions and percentages
 
 
 ID: T28.G5.06
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Compare experimental and theoretical probability
-Description: Students calculate the theoretical probability (e.g., P(heads) = 50%), then run a simulation with 100 coin flips and find the experimental probability (e.g., 47% heads). They explain: (1) Why are they different? (randomness), (2) Will they match perfectly? (no), (3) What happens with more trials? (experimental gets closer to theoretical). This connects math to simulation.
+Description: Students run a simulation for a simple event (coin flip, die roll, spinner), compare their experimental frequencies to calculated theoretical probabilities, and explain why differences occur and how sample size affects accuracy.
 
 Dependencies:
 * T28.G5.05: Calculate theoretical probability for simple events
@@ -25722,19 +25770,18 @@ Dependencies:
 
 
 ID: T28.G5.07
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Create frequency distributions from simulation data
-Description: Students organize simulation results into a frequency table and histogram. For 100 die rolls, they create a table showing how many times each value (1-6) appeared. They identify: mode (most common), range (1 to 6), and whether distribution is "flat" (uniform) or "peaked." They compare their distribution to the expected uniform distribution.
+Description: Students generate data from repeated trials (e.g., sum of two dice rolled 100 times), organize results into frequency bins, and create a bar chart showing how often each outcome occurred. They identify which outcomes are most and least common.
 
 Dependencies:
 * T28.G5.01.02: Analyze compound event distributions
-* T27.G4.02: Create a histogram from continuous data
 
 
 ID: T28.G5.09
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Calculate expected value for simple scenarios
-Description: Students learn expected value: the long-run average outcome. For a fair die: E = (1×1/6) + (2×1/6) + ... + (6×1/6) = 3.5. For a game with 50% chance of $10 and 50% chance of $0: E = (10×0.5) + (0×0.5) = $5. They run simulations and compare the average of 1000 trials to the calculated expected value.
+Description: Students calculate the expected value (average outcome over many trials) for simple random events (e.g., rolling a die, spinning a wheel with prizes). They multiply each outcome by its probability, sum the results, and compare the calculated expected value to their simulation's average outcome.
 
 Dependencies:
 * T28.G5.05: Calculate theoretical probability for simple events
@@ -25742,110 +25789,114 @@ Dependencies:
 
 
 ID: T28.G5.10
-Topic: T28 – Chance & Simulations
-Skill: Recognize independence and the gambler's fallacy
-Description: Students explore a simulation that tracks coin flip streaks. After getting 5 heads in a row, they check: Is the next flip more likely to be tails? They discover: No! Each flip is independent—past results don't affect future outcomes. They identify the "gambler's fallacy" in scenarios like: "Red has come up 10 times at roulette, so black is due!"
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Recognize independence and gambler's fallacy
+Description: Students run simulations to demonstrate that past outcomes don't affect future outcomes in independent events (e.g., getting heads 5 times in a row doesn't make tails more likely on the 6th flip). They identify and explain the gambler's fallacy in real-world scenarios.
 
 Dependencies:
 * T28.G5.06: Compare experimental and theoretical probability
 
 
 ID: T28.G5.11
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Demonstrate the law of large numbers
-Description: Students run coin flip simulations with 10, 100, 1000, and 10000 trials, recording the percentage of heads each time. They observe: with 10 trials, might get 30% heads; with 10000 trials, get very close to 50%. They plot these percentages on a line graph and explain the "law of large numbers": more trials = experimental probability approaches theoretical probability.
+Description: Students run the same random experiment with increasing sample sizes (10, 100, 1000 trials) and observe how experimental probabilities converge toward theoretical probabilities as the number of trials increases. They create a line graph showing this convergence.
 
 Dependencies:
 * T28.G5.06: Compare experimental and theoretical probability
 * T28.G4.03: Show how sample size changes variability
-* T27.G4.03: Create a line graph showing change over time
 
 
 ID: T28.G5.08
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Track agent state for probabilistic simulations
-Description: Students create a "random walker" sprite that moves based on random choices. The agent has: (1) x,y position variables, (2) a facing direction variable (0=up, 90=right, etc.), (3) an energy level that decreases each step. Each step: randomly pick a direction, move 10 pixels, decrease energy by 1. They watch the agent wander until energy runs out, observing the random path taken.
+Description: Students create a sprite that represents an agent in a probabilistic simulation. The agent maintains its position using x,y coordinate variables and tracks one additional state variable that can change randomly or based on conditions (e.g., direction facing, energy level, or current mode). They write code to update these variables based on simulation rules and display the current values on the stage. This prepares students for building grid-based agents with random movement.
 
 Dependencies:
-* T28.G4.05: Generate and plot random coordinate pairs
 * T09.G4.04: Use variables to control animation or game state
+* T09.G5.01: Modify variables based on user input or sensor events
 * T03.G3.01: Navigate a sprite using coordinates
+* T07.G3.01: Use a counted repeat loop
+* T10.G3.05: Loop through each item in a list
 
 
 ID: T28.G6.01.01
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Manually test parameters and log results
-Description: Students test how changing a parameter affects simulation outcomes. Example: In a catch-the-falling-object game, they test ball speed = 1, 2, 3, 4, 5. For each speed, they play 10 times and record wins/losses. They create a table: Speed 1 → 10/10 wins, Speed 5 → 2/10 wins. They identify the "sweet spot" where the game is challenging but fair.
+Description: Students test a simulation with 3-5 different parameter values (e.g., enemy speed = 1, 2, 3, 4, 5), manually run 20 trials for each value, and record win rates in a table. They identify which parameter value produces the most balanced gameplay.
 
 Dependencies:
+* T09.G5.01: Modify variables based on user input or sensor events
 * T28.G5.04: Document simulation plans before coding
-* T28.G5.06: Compare experimental and theoretical probability
 
 
 ID: T28.G6.01.02
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Automate parameter sweeps with nested loops
-Description: Students automate parameter testing with nested loops. Outer loop: set speed to 1, then 2, then 3, etc. Inner loop: run 20 trials at current speed. They log results: [speed, wins]. After running, they have data for all speeds without manual effort. Example output: [[1, 20], [2, 18], [3, 15], [4, 10], [5, 4]]. This enables systematic experimentation.
+Description: Students write code using nested loops to automatically test a range of parameter values. The outer loop changes the parameter value, the inner loop runs multiple trials, and results are logged to a list or table for analysis.
 
 Dependencies:
 * T28.G6.01.01: Manually test parameters and log results
-* T07.G5.01: Use nested loops for grid or matrix operations
+* T07.G4.01: Loop until a goal condition is met
+* T07.G5.01: Use a counted repeat loop
 
 
 ID: T28.G6.02
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Use random seeds for reproducibility
-Description: Students use CreatiCode's seeded random block: 'set [randomList] to (100) random numbers with seed (42)'. They run their simulation using values from this list instead of pick random. Key test: Run twice with seed 42 → identical results. Change to seed 43 → different results. They explain why this matters: debugging ("I got a weird result—can you reproduce it?") and fairness ("same puzzle for all players").
+Description: Students populate a list with seeded random numbers using 'set [list] to (N) random numbers with seed (SEED)', then draw values from this list sequentially to create reproducible random sequences in their simulation. They run the simulation twice with the same seed to verify identical results, then try a different seed to see different outcomes. They explain why reproducibility matters for debugging and sharing results with others.
 
 Dependencies:
 * T28.G5.04: Document simulation plans before coding
-* T28.G6.01.02: Automate parameter sweeps with nested loops
+* T09.G5.01: Modify variables based on user input or sensor events
+* T07.G5.01: Use a counted repeat loop
 
 
 ID: T28.G6.03
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Measure percent error vs theoretical probability
-Description: Students calculate percent error to quantify simulation accuracy. Formula: |experimental - theoretical| / theoretical × 100%. Example: Theoretical P(heads) = 50%, experimental = 47%, error = |47-50|/50 × 100% = 6%. They establish thresholds: <5% error = good, 5-10% = acceptable, >10% = investigate. This teaches quantitative evaluation of simulations.
+Description: Students calculate percent error between observed frequencies and expected probabilities, stating whether the error is acceptable.
 
 Dependencies:
 * T28.G5.06: Compare experimental and theoretical probability
-* T28.G5.11: Demonstrate the law of large numbers
-
-
-ID: T28.G6.04
-Topic: T28 – Chance & Simulations
-Skill: Simulate noisy sensors for AI perception testing
-Description: Students generate fake sensor data to test AI without a camera. Example: For hand detection testing, generate 50 fake hand positions: x = 200 + pick random -15 to 15, y = 150 + pick random -15 to 15, confidence = 0.8 + pick random 0 to 20 / 100. They feed this synthetic data to their AI code and verify it responds correctly to both high and low confidence readings.
-
-Dependencies:
-* T28.G5.03: Use Monte Carlo sampling to estimate area
 * T28.G5.04: Document simulation plans before coding
 
 
-ID: T28.G6.05
-Topic: T28 – Chance & Simulations
-Skill: Model a simple agent in a grid world
-Description: Students create a grid-based agent with: (1) gridX and gridY variables (integer positions), (2) direction variable (0=up, 1=right, 2=down, 3=left). Movement commands: "forward" adds to gridY if direction=0, "turn right" changes direction = (direction + 1) mod 4. They convert grid coordinates to screen pixels (gridX × 40, gridY × 40) and visualize the agent moving in a discrete grid.
+ID: T28.G6.04
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Simulate noisy sensors for AI perception testing
+Description: Students generate synthetic sensor data with realistic variation (e.g., pose coordinates that vary within ±10 pixels, voice confidence scores between 0.7-0.95) to test AI perception logic without needing a live camera or microphone. They create at least 50 synthetic data points and verify their AI code responds correctly to the simulated input.
 
 Dependencies:
-* T28.G5.08: Track agent state for probabilistic simulations
+* T28.G5.03: Use Monte Carlo sampling to estimate area or probability
+* T28.G5.04: Document simulation plans before coding
+* T08.G4.01: Choose actions based on user input or sensor values
+
+
+ID: T28.G6.05
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Model a simple agent in a grid world
+Description: Students create a sprite that tracks its position and facing direction in a grid (using x,y coordinates and a direction variable). They implement basic movement rules (move forward one grid square, turn left 90°, turn right 90°) and test the agent's movement.
+
+Dependencies:
+* T28.G5.08: Track position and state for a single sprite
 * T28.G5.04: Document simulation plans before coding
 
 
 ID: T28.G6.06
-Topic: T28 – Chance & Simulations
-Skill: Simulate events with changing probabilities (dependent events)
-Description: Students simulate drawing marbles without replacement. Start: 5 red, 3 blue marbles in a list. First draw: P(red) = 5/8. If red drawn, remove it → second draw: P(red) = 4/7. They compare to independent events (replace marble each time) and see different distributions. This introduces conditional probability through simulation.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Simulate events with changing probabilities
+Description: Students build a simulation where one event's probability depends on a previous outcome (e.g., drawing cards without replacement, weather patterns where today's weather affects tomorrow's probability). They compare results to simulations where probabilities stay constant.
 
 Dependencies:
 * T28.G5.01.01: Generate compound event data (two dice)
-* T28.G4.07: Generate random selections without repetition
+* T28.G5.06: Compare experimental and theoretical probability
 
 
 ID: T28.G6.10
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Compare sampling methods (random, systematic, stratified)
-Description: From a population list of 100 items (e.g., survey responses with age/gender), students sample 20 items three ways: (1) Random: pick 20 at random, (2) Systematic: every 5th item, (3) Stratified: ensure equal male/female representation. They compare how well each sample represents the population and discuss: When might random sampling fail? When is stratified better?
+Description: Students implement and compare three sampling methods to collect data from a simulated population: random sampling (pick any items), systematic sampling (every Nth item), and stratified sampling (ensure equal representation from subgroups). They analyze which method provides the most representative sample for different scenarios.
 
 Dependencies:
 * T28.G5.02: Randomly assign participants to conditions
@@ -25853,39 +25904,39 @@ Dependencies:
 
 
 ID: T28.G6.11
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Calculate and interpret conditional probability
-Description: Students learn conditional probability notation: P(A|B) = "probability of A given B occurred." Example: Bag has 3 red, 2 blue. P(2nd is red | 1st was blue) = 3/4 (since after removing blue, 3 red remain out of 4). They run simulations filtering for "first was blue" cases and verify the fraction matches their calculation. Real-world example: P(rain | cloudy) ≠ P(rain).
+Description: Students calculate the probability of an event given that another event has occurred (e.g., probability of drawing a red marble given that the first marble was blue and not replaced). They use simulations to verify their calculations and explain conditional probability in real-world contexts.
 
 Dependencies:
-* T28.G6.06: Simulate events with changing probabilities (dependent events)
+* T28.G6.06: Simulate events with changing probabilities
 * T28.G5.05: Calculate theoretical probability for simple events
 
 
 ID: T28.G6.07
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Design an environment with obstacles and goals
-Description: Students extend their grid world by adding: (1) A walls list storing blocked coordinates like [[2,3], [2,4], [3,4]], (2) A goal coordinate [5,5], (3) Collision check: before moving, verify new position isn't in walls list, (4) Win detection: if agent position = goal, stop and celebrate. They test with different wall configurations to create mazes.
+Description: Students add walls (as sprites or using collision detection) and goal locations to their grid world. The agent detects when it hits a wall (can't move) or reaches a goal (mission complete). They test multiple starting positions.
 
 Dependencies:
 * T28.G6.05: Model a simple agent in a grid world
-* T10.G4.01: Search for an item in a list
+* T08.G4.01: Choose actions based on user input or sensor values
 
 
 ID: T28.G6.08
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Implement reward rules and track outcomes
-Description: Students add scoring to their grid agent: +10 points for reaching goal, -1 point for each step taken, -5 points for hitting a wall. They run 10 trials with random starting positions using 'startX = pick random 0 to 5, startY = pick random 0 to 5'. They log [startX, startY, finalScore] for each trial and identify which starting positions lead to better scores.
+Description: Students add a score variable that increases when the agent reaches goals and decreases when hitting walls. They run 10 trials with random starting positions and log the agent's final score for each trial, identifying which starting positions lead to better outcomes.
 
 Dependencies:
 * T28.G6.07: Design an environment with obstacles and goals
-* T28.G6.01.01: Manually test parameters and log results
+* T09.G5.01: Modify variables based on user input or sensor events
 
 
 ID: T28.G6.09
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Create simple two-sprite interaction
-Description: Students create two sprites that detect and respond to each other. Sprite A (cat) moves randomly. Sprite B (mouse) checks 'if distance to cat < 50 then glide away'. They use 'touching [cat]?' or calculate distance using coordinates. Both sprites move each tick, creating chase/flee dynamics. This prepares for multi-agent simulations.
+Description: Students build a project with two sprites that can detect each other and respond (e.g., one sprite changes color when touching the other, or sprites bounce away from each other). They use broadcasting or sensing blocks to enable basic communication between sprites.
 
 Dependencies:
 * T28.G6.05: Model a simple agent in a grid world
@@ -25893,9 +25944,9 @@ Dependencies:
 
 
 ID: T28.G7.01
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Create a two-agent interaction simulation
-Description: Students build a predator-prey simulation. Predator: each step, 70% chance move toward prey, 30% random move. Prey: each step, if predator close then flee, else random move. They add state tracking: prey has "energy" that decreases each step, predator has "hunger" that resets when catching prey. Run 100 time steps and log catches, average prey lifespan.
+Description: Students build a simulation with two sprites that follow simple probabilistic rules and can affect each other's state (e.g., tag game where one chases with random movements, simple predator-prey where sprites avoid/pursue each other). They run 20 time steps and observe the interaction patterns.
 
 Dependencies:
 * T28.G6.09: Create simple two-sprite interaction
@@ -25903,29 +25954,30 @@ Dependencies:
 
 
 ID: T28.G7.02
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Trace how a simple agent learns from rewards
-Description: Students observe a pre-built "learning agent" simulation. The agent has a preference table: at each grid cell, it stores which direction worked best previously. Initially all directions equal (25% each). After reaching goal, successful directions get +10% weight. Students trace 10 trials and answer: How did the preference table change? Why does the agent take fewer steps by trial 10? This previews reinforcement learning concepts.
+Description: Students observe a pre-built simulation where an agent's path-finding choices are updated based on a simple reward mechanism. A visual table displays which directions the agent prefers at each location, updating after each trial. Students answer specific questions: Which path did the agent take in trial 1 vs trial 10? Which location's preferences changed the most? Why did the agent's behavior improve? They write a 3-5 sentence explanation of the learning process.
 
 Dependencies:
 * T28.G6.08: Implement reward rules and track outcomes
-* T28.G7.01: Create a two-agent interaction simulation
+* T09.G5.05: Trace code with multiple variables
 
 
 ID: T28.G7.03
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Test for fairness using synthetic game testers
-Description: Students test whether a game/AI treats all groups fairly. They create 100 synthetic players: 50 "new players" (random skill 1-3) and 50 "experienced" (skill 7-10). They run each through the same game and compare average scores. If experienced players score 3x higher, is that fair or unfair? They also test for avatar bias: do certain avatar types get different outcomes?
+Description: Learners create synthetic player profiles with randomly assigned attributes (e.g., new vs experienced player, different avatar types) and run them through a game or AI feature to check if all groups receive similar rewards or outcomes. They report any differences found between groups.
 
 Dependencies:
 * T28.G6.04: Simulate noisy sensors for AI perception testing
 * T28.G6.08: Implement reward rules and track outcomes
+* T09.G5.05: Trace code with multiple variables
 
 
 ID: T28.G7.07
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Identify bias in random selection methods
-Description: Students investigate how "random" can be unfair. Example 1: Random from [A,A,A,B] isn't equal (75% A). Example 2: Shuffle algorithm that swaps with any position vs only later positions (latter is correct). They research real cases: 1970 draft lottery bias, or software random number bugs. They propose fixes: use verified algorithms, audit distributions, use stratified selection.
+Description: Students test different random selection algorithms (e.g., simple random choice vs weighted selection) and identify scenarios where seemingly "random" selection can produce biased outcomes. They analyze a real-world case where random selection failed to be fair and propose improvements.
 
 Dependencies:
 * T28.G7.03: Test for fairness using synthetic game testers
@@ -25933,110 +25985,130 @@ Dependencies:
 
 
 ID: T28.G7.04
-Topic: T28 – Chance & Simulations
-Skill: Perform permutation tests (compare shuffled results to real outcomes)
-Description: Students test if a difference is "real" using shuffling. Example: Version A scores [85,90,88], Version B scores [70,75,72]. Real difference in averages: 16 points. They combine all scores, shuffle 200 times, split into fake "A" and "B" groups each time, and count: How often is fake difference ≥ 16? If only 3 of 200 times, the real difference is likely meaningful, not chance.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Compare shuffled results to real outcomes
+Description: Students take experimental results (e.g., scores from two game versions), shuffle the labels randomly 100+ times, and count how often the shuffled difference is as large as the real difference. They explain whether the real result seems meaningful or could have happened by chance.
 
 Dependencies:
 * T28.G6.01.02: Automate parameter sweeps with nested loops
-* T28.G6.02: Use random seeds for reproducibility
+* T09.G5.05: Trace code with multiple variables
 
 
 ID: T28.G7.05
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Communicate simulation assumptions and limitations
-Description: Students write a "model card" for their simulation with: (1) Purpose: What question does it answer? (2) Assumptions: What did we simplify? (e.g., "agents can't see through walls," "all agents have equal speed"), (3) Limitations: What can't it predict? (4) Who might be affected: Would decisions based on this simulation hurt anyone? This mirrors AI documentation standards for responsible development.
+Description: Students create a "model card" document for their simulation that includes: (1) simulation purpose, (2) at least two explicit assumptions (e.g., "events are independent," "probabilities stay constant," "agents can't communicate"), (3) at least one limitation (e.g., "doesn't account for weather changes," "assumes unlimited resources"), and (4) who might be affected by these assumptions. This transparency practice mirrors AI documentation standards.
 
 Dependencies:
 * T28.G7.01: Create a two-agent interaction simulation
-* T28.G7.03: Test for fairness using synthetic game testers
+* T09.G5.05: Trace code with multiple variables
 
 
 ID: T28.G7.06.01
-Topic: T28 – Chance & Simulations
-Skill: Create multi-agent simulation (5-10 agents)
-Description: Students scale from 2 agents to 5-10 using clones. Each clone has its own state variables (stored in lists indexed by clone ID): position, speed, type (predator/prey/neutral). They implement clone-to-clone interaction: each frame, each clone checks distance to all other clones and responds. They verify independence: deleting one clone shouldn't crash others.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Create multi-agent simulation
+Description: Students extend their two-agent simulation to include 5-10 agents of different types (e.g., different speeds, behaviors, or goals). Each agent follows its own rules and can interact with other agents. They verify all agents are functioning independently.
 
 Dependencies:
 * T28.G7.01: Create a two-agent interaction simulation
-* T11.G5.02: Create clones with different behaviors
 
 
 ID: T28.G7.06.02
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Aggregate metrics across multiple agents
-Description: Students calculate population-level statistics from their multi-agent simulation: (1) Count agents by type (5 prey, 3 predators alive), (2) Average position (center of mass), (3) Total energy across all agents, (4) Clustering metric (how spread out are agents?). They display these metrics updating in real-time on stage, creating a "dashboard" view of the ecosystem.
+Description: Students create summary statistics that combine data from all agents in their multi-agent simulation (e.g., average position, count of each state, total energy across agents). They display these aggregated metrics updating in real-time during the simulation.
 
 Dependencies:
-* T28.G7.06.01: Create multi-agent simulation (5-10 agents)
-* T27.G5.01: Calculate mean from a dataset
+* T28.G7.06.01: Create multi-agent simulation
+* T10.G6.01: Sort a table by a column
 
 
 
 ID: T28.G8.01
-Topic: T28 – Chance & Simulations
-Skill: Build an automated simulation-to-dashboard pipeline
-Description: Students create an end-to-end pipeline: (1) Automated parameter sweep runs 5 configurations × 50 trials each, (2) Results stored in a table with columns [config, trial, outcome, score], (3) Analysis code calculates mean/median/range for each config, (4) Dashboard displays bar chart comparing configs, updates when new data added. Users can click a config to see detailed distribution. This is professional-grade simulation workflow.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Chain simulation → analysis → dashboard
+Description: Students build an automated pipeline that runs simulations with multiple parameter configurations, analyzes the results to identify patterns, and displays key findings in an interactive dashboard with auto-refreshing charts and summary statistics. Stakeholders can select different scenarios to explore results in real-time.
 
 Dependencies:
 * T28.G6.01.02: Automate parameter sweeps with nested loops
-* T28.G7.06.02: Aggregate metrics across multiple agents
 * T28.G7.05: Communicate simulation assumptions and limitations
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T10.G6.01: Sort a table by a column
+
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T28.G8.06
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Distinguish random from pseudorandom number generation
-Description: Students explore how computers generate "random" numbers. They demonstrate: same seed → same sequence. They research: (1) Linear Congruential Generators (simple formula), (2) Why video game speedrunners exploit seeds, (3) Why cryptography needs "true" randomness from hardware (mouse movement, electrical noise). They discuss: When is pseudorandom good enough? When must we use true randomness?
+Description: Students investigate how computers generate "random" numbers using pseudorandom algorithms. They explore the concept of seeds, demonstrate that the same seed produces the same sequence, and discuss implications for cryptography, games, and simulations. They compare true randomness (from physical sources) with computational pseudorandomness.
 
 Dependencies:
 * T28.G6.02: Use random seeds for reproducibility
 * T28.G7.07: Identify bias in random selection methods
+* T10.G6.01: Sort a table by a column
+
+* T14.G6.01.01: Track game state with variable
+* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T28.G8.02
-Topic: T28 – Chance & Simulations
-Skill: Explore measurement variability through repeated sampling (bootstrap)
-Description: Students learn bootstrap sampling: from original data of 100 items, repeatedly draw 100 items WITH replacement, calculate mean of each sample. After 500 bootstrap samples, they have 500 means. They create a histogram of these means to see the "sampling distribution." They calculate: middle 95% of means = confidence interval. This shows how much measurements can vary by chance.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Explore measurement variability through repeated sampling
+Description: Students take multiple random samples from a dataset (without replacement), compute statistics (mean, median) for each sample, and observe how results vary. They identify the range of values obtained and explain how sample variation helps understand measurement reliability.
 
 Dependencies:
 * T28.G6.01.02: Automate parameter sweeps with nested loops
-* T28.G7.04: Perform permutation tests (compare shuffled results to real outcomes)
-* T27.G6.01: Calculate statistics (mean, median, mode, range)
+* T28.G7.05: Communicate simulation assumptions and limitations
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
 
 
 
 ID: T28.G8.03
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Integrate simulations into AI assistant workflows
-Description: Students use CreatiCode's AI features to enhance their simulation workflow. They: (1) Export simulation summary as text, (2) Ask XO/ChatGPT: "Here are my results... What patterns do you see? What parameter should I test next?", (3) Critically evaluate: Did the AI notice the outlier? Did it suggest something useful? Students write a reflection comparing AI insights to their own analysis—sometimes AI helps, sometimes it misses context.
+Description: Students export their simulation results (summary statistics, key findings, data visualizations) and share them with an AI assistant (like CreatiCode's XO). They ask the AI to analyze patterns, suggest improvements, or make predictions. Students then critically evaluate the AI's responses by comparing them to their simulation data and write a brief assessment: Did the AI's recommendations make sense? What did the AI miss? What insights were helpful?
 
 Dependencies:
 * T28.G7.05: Communicate simulation assumptions and limitations
-* T28.G8.01: Build an automated simulation-to-dashboard pipeline
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T28.G8.04
-Topic: T28 – Chance & Simulations
+Topic: T28 – Chance & Simulations: G2–8 Skill List
 Skill: Publish simulation-backed policy briefs
-Description: Students write a 1-2 page policy brief using their simulation as evidence. Format: (1) Problem: "School lunch lines are too long," (2) Method: "Simulated 3 checkout configurations with 500 students," (3) Findings: "Configuration B reduced average wait by 40%," (4) Recommendation: "Implement B," (5) Limitations & Ethics: "Assumes equal speed; doesn't account for students with disabilities." This is civic data journalism.
+Description: Students write a structured policy brief (1-2 pages) that includes: (1) the real-world scenario being modeled, (2) simulation methodology and parameters tested, (3) key findings with supporting charts/data, (4) recommendations based on results, and (5) ethical analysis identifying who benefits and who might be harmed by different policy choices. This mirrors civic data journalism practices.
 
 Dependencies:
-* T28.G8.03: Integrate simulations into AI assistant workflows
 * T28.G7.05: Communicate simulation assumptions and limitations
-* T35.G7.01: Identify stakeholders affected by a computing solution
+* T28.G8.03: Integrate simulations into AI assistant workflows
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
+
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T28.G8.05
-Topic: T28 – Chance & Simulations
-Skill: Analyze how environment design biases agent behavior
-Description: Students run the same learning agent in two different mazes: Maze A has one clear path to goal, Maze B has multiple paths with one much shorter. They compare learned behaviors: In Maze A, agent always finds same path. In Maze B, agent might learn suboptimal path if it found reward before discovering shortcut. They write analysis: How does environment design create "bias" in what agents learn? Connections to AI training data bias.
+Topic: T28 – Chance & Simulations: G2–8 Skill List
+Skill: Analyze how environment design can bias agent behavior
+Description: Students compare two simulations where the same agent 'learns' in different environments (e.g., one with many obstacles near the reward, one with none). They write a short analysis on how the environment's design led to different learned behaviors, discussing the "bias" introduced by the world itself.
 
 Dependencies:
-* T28.G7.02: Trace how a simple agent learns from rewards
-* T28.G7.05: Communicate simulation assumptions and limitations
-* T35.G7.01: Identify stakeholders affected by a computing solution
+* T28.G6.01.02: Automate parameter sweeps with nested loops
+* T28.G7.05: Communicate simulation assumptions & limits
+* T08.G6.01: Use conditionals to control simulation steps
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
+* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T29.GK.01
@@ -26206,34 +26278,21 @@ Dependencies:
 * T29.G3.04: Explain why clean text helps AI helpers
 
 
-ID: T29.G4.01.01
+ID: T29.G4.01
 Topic: T29 – Text Data & NLP Foundations
-Skill: Use the split block to break text into a list
-Description: Students use the "set [list] to split of [text] with splitter [separator]" block to break a sentence into individual words using space as the separator. They observe how the sentence becomes a list of words and access individual items.
+Skill: Use split and join blocks for text manipulation
+Description: Students write a script that takes a sentence, uses the split block to separate it on spaces, stores each word in a list, and uses join to reconstruct text. This is the foundational skill for all text processing.
 
 Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Get the length of a list
 * T29.G4.00: Use ask/answer blocks for text input and display results
-
-
-ID: T29.G4.01.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use the join block to combine list items into text
-Description: Students use the "join [list] into text with [separator]" block to combine a list of words back into a sentence using space as the separator. They experiment with different separators like commas or newlines.
-
-Dependencies:
-* T29.G4.01.01: Use the split block to break text into a list
-
-
-ID: T29.G4.01.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use the part-of block to get specific segments
-Description: Students use the "part [index] of [text] by [separator]" block to directly extract a specific word from text without creating a full list. They compare this approach to splitting first.
-
-Dependencies:
-* T29.G4.01.01: Use the split block to break text into a list
 
 
 ID: T29.G4.02
@@ -26242,62 +26301,52 @@ Skill: Access individual characters using "letter # of" operator
 Description: Students use Scratch's "letter # of" operator to access and display specific characters from text by their position (index starting at 1). They extract first letter, last letter, or specific positions.
 
 Dependencies:
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T29.G4.00: Use ask/answer blocks for text input and display results
+* T29.G4.01: Use split and join blocks for text manipulation
 
 
-ID: T29.G4.03.01
+ID: T29.G4.03
 Topic: T29 – Text Data & NLP Foundations
-Skill: Count characters in text using "length of" operator
-Description: Students use Scratch's "length of" operator to count the total number of characters (including spaces and punctuation) in a text string. They explore how different texts have different lengths.
+Skill: Count characters and words using "length of" and split
+Description: Students use Scratch's "length of" operator to count characters in text, and use split on spaces plus list length to count words. They compare the two counts and discuss the difference.
 
 Dependencies:
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T06.G2.03: Design a simple "if-then" game rule
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T29.G4.00: Use ask/answer blocks for text input and display results
-
-
-ID: T29.G4.03.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Count words in text using split and list length
-Description: Students split text on spaces to create a word list, then use the "length of [list]" block to count total words. They compare character count vs word count to understand the difference.
-
-Dependencies:
 * T10.G3.03: Get the length of a list
-* T29.G4.01.01: Use the split block to break text into a list
-* T29.G4.03.01: Count characters in text using "length of" operator
+* T29.G4.01: Use split and join blocks for text manipulation
 
 
 ID: T29.G4.04.01
 Topic: T29 – Text Data & NLP Foundations
 Skill: Convert text case using lowercase/uppercase operators
-Description: Learners use the "[uppercase/lowercase] of text [text]" block to convert text to all lowercase or all uppercase. They understand why case normalization is important for comparing text (e.g., "Hello" vs "HELLO" vs "hello").
+Description: Learners build scripts that convert text to lowercase or uppercase using Scratch's case conversion operators, understanding case normalization for text comparison.
 
 Dependencies:
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.05: Trace code with variables to predict outcomes
-* T29.G4.00: Use ask/answer blocks for text input and display results
+* T29.G4.01: Use split and join blocks for text manipulation
 
 
 ID: T29.G4.04.02
 Topic: T29 – Text Data & NLP Foundations
-Skill: Test if text includes a substring
-Description: Students use the "[text] includes [pattern] ignore case [yes/no]" block to check if a word or phrase exists within text. They build a keyword detector that responds when specific words are found in user input.
+Skill: Test if text includes, starts with, or ends with a pattern
+Description: Students use string comparison blocks (includes, starts with, ends with) with case-insensitive options to check if text contains specific patterns, useful for keyword detection and validation.
 
 Dependencies:
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
 * T29.G3.05: Compare text for equality using "=" operator
 * T29.G4.04.01: Convert text case using lowercase/uppercase operators
-
-
-ID: T29.G4.04.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Test if text starts with or ends with a pattern
-Description: Students use the "[text] starts with [pattern]" and "[text] ends with [pattern]" blocks to check text boundaries. They validate file extensions (ends with ".txt") or check command prefixes (starts with "/").
-
-Dependencies:
-* T08.G3.01: Use a simple if in a script
-* T29.G4.04.02: Test if text includes a substring
 
 
 ID: T29.G4.05.01
@@ -26312,70 +26361,43 @@ Dependencies:
 
 ID: T29.G4.05.02
 Topic: T29 – Text Data & NLP Foundations
-Skill: Make a basic ChatGPT request and store the result
-Description: Students use the "OpenAI ChatGPT: request [prompt] result [variable]" block to send a simple text prompt to ChatGPT and store the response in a variable. They display the result using say blocks.
+Skill: Generate AI summaries using ChatGPT blocks
+Description: Students use CreatiCode's ChatGPT blocks to generate summaries of text content, experimenting with different prompt phrasings to improve summary quality.
 
 Dependencies:
 * T29.G4.05.01: Compare human vs AI summaries (conceptual)
+* T29.G4.01: Use split and join blocks for text manipulation
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
+* T10.G3.03: Add and remove items from a list
 
 
-ID: T29.G4.05.03
+ID: T29.G4.06
 Topic: T29 – Text Data & NLP Foundations
-Skill: Use ChatGPT to summarize text
-Description: Students craft prompts that ask ChatGPT to summarize longer text, experimenting with instructions like "Summarize this in 2 sentences" to control output length. They compare AI summaries to their own.
+Skill: Remove punctuation using replace or character filtering
+Description: Students use the replace block to remove common punctuation marks, or loop through characters to keep only letters and spaces. This builds on case conversion for full text cleaning.
 
 Dependencies:
-* T29.G4.05.02: Make a basic ChatGPT request and store the result
-
-
-ID: T29.G4.05.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Configure ChatGPT response length and temperature
-Description: Students adjust the "length" parameter to control how long responses can be, and experiment with the "temperature" parameter (0 = focused/deterministic, 1 = creative/random) to understand how it affects AI responses.
-
-Dependencies:
-* T29.G4.05.02: Make a basic ChatGPT request and store the result
-
-
-ID: T29.G4.06.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use the replace block to substitute text
-Description: Students use the "replace [old] with [new] in [text]" block to substitute one word or character with another. They practice replacing names, fixing typos, or swapping words in sentences.
-
-Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T29.G4.00: Use ask/answer blocks for text input and display results
-
-
-ID: T29.G4.06.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Remove punctuation using the replace block
-Description: Students use replace to remove punctuation by replacing it with empty text (e.g., replace "." with ""). They chain multiple replace operations to remove periods, commas, exclamation marks, and question marks from text.
-
-Dependencies:
+* T07.G3.03: Build a forever loop for simple animation
+* T10.G3.03: Get the length of a list
 * T29.G4.04.01: Convert text case using lowercase/uppercase operators
-* T29.G4.06.01: Use the replace block to substitute text
 
 
-ID: T29.G4.07.01
+ID: T29.G4.07
 Topic: T29 – Text Data & NLP Foundations
-Skill: Find text position using "position of" block
-Description: Students use the "position of [pattern] in [text]" block to find where a word or character first appears in text. They understand that position 1 is the first character, and 0 means "not found."
+Skill: Extract substrings and find text position
+Description: Students use "substring from position" operations (combining "letter # of" in loops or using split/join creatively) to extract parts of text. They find the position of specific text within strings.
 
 Dependencies:
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.03: Build a forever loop for simple animation
 * T29.G4.02: Access individual characters using "letter # of" operator
-
-
-ID: T29.G4.07.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Extract substrings using "substring" block
-Description: Students use the "substring of [text] from position [start] to position [end]" block to extract a portion of text between two positions. They extract first 3 characters, last 5 characters, or middle portions.
-
-Dependencies:
-* T29.G4.07.01: Find text position using "position of" block
 
 
 ID: T29.G4.10
@@ -26384,9 +26406,13 @@ Skill: Store text data in simple tables (2 columns max)
 Description: Students create simple two-column tables (e.g., 'word' and 'count') to organize text data, understanding when tables are better than lists for paired data.
 
 Dependencies:
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T11.G4.01: Define and call a simple custom block (no parameters)
-* T29.G4.01.01: Use the split block to break text into a list
+* T29.G4.01: Use split and join blocks for text manipulation
 
 
 ID: T29.G4.11
@@ -26474,34 +26500,15 @@ Dependencies:
 * T09.G4.04: Use variables to control animation or game state
 
 
-ID: T29.G5.06.01
+ID: T29.G5.06
 Topic: T29 – Text Data & NLP Foundations
-Skill: Use the parse sentence block to analyze grammar
-Description: Students use CreatiCode's "analyze sentence [text] and write into table [table]" block to identify parts of speech (nouns, verbs, adjectives) in a sentence. They examine the resulting table to see how each word is classified.
+Skill: Use the parse sentence block for parts of speech
+Description: Students use CreatiCode's "parse sentence" block (ai_parsesentence) to identify nouns, verbs, adjectives, and other parts of speech in text, building awareness of grammatical structure for NLP tasks. The block also returns lemmas (word stems).
 
 Dependencies:
-* T29.G4.01.01: Use the split block to break text into a list
-* T29.G4.10: Store text data in simple tables (2 columns max)
+* T29.G4.01: Use split and join blocks for text manipulation
+* T29.G5.08.02: Find and report most frequent word
 * T10.G3.05: Loop through each item in a list
-
-
-ID: T29.G5.06.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Extract lemmas (word stems) from parsed sentences
-Description: Students examine the lemma column in parse sentence results to understand word stems (e.g., "running" → "run", "cats" → "cat"). They use lemmas to group related words for better frequency analysis.
-
-Dependencies:
-* T29.G5.06.01: Use the parse sentence block to analyze grammar
-
-
-ID: T29.G5.06.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Filter words by part of speech
-Description: Students filter parsed sentence results to extract only nouns, only verbs, or only adjectives. They build word clouds or frequency tables for specific word types.
-
-Dependencies:
-* T29.G5.06.01: Use the parse sentence block to analyze grammar
-* T29.G5.08.01: Build word frequency table
 
 
 ID: T29.G5.07
@@ -26519,7 +26526,7 @@ Skill: Build word frequency table
 Description: Students split text into words, loop through each word, and count occurrences using a table with "word" and "count" columns. They create a complete frequency table for a text sample.
 
 Dependencies:
-* T29.G4.06.02: Remove punctuation using the replace block
+* T29.G4.06: Remove punctuation using replace or character filtering
 * T29.G4.10: Store text data in simple tables (2 columns max)
 * T07.G3.03: Trace code with simple loops to predict outcomes
 * T08.G3.01: Use a simple if in a script
@@ -26543,7 +26550,7 @@ Skill: Highlight keywords in text display
 Description: Learners write code that scans a paragraph, finds keyword positions using split and includes, and displays the text with visual highlighting (color changes on sprites or text display blocks).
 
 Dependencies:
-* T29.G4.04.02: Test if text includes a substring
+* T29.G4.04.02: Test if text includes, starts with, or ends with a pattern
 * T07.G3.03: Trace code with simple loops to predict outcomes
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T10.G3.05: Loop through each item in a list
@@ -26555,17 +26562,7 @@ Skill: Understand tokenization concepts
 Description: Students learn that AI models break text into tokens (not always whole words). They experiment with examples showing how 'running' might be 1 token but 'ChatGPT' might be 2 tokens. They discuss why token limits exist for AI APIs.
 
 Dependencies:
-* T29.G4.03.02: Count words in text using split and list length
-
-
-ID: T29.G5.11
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use content moderation to check text safety
-Description: Students use the "get moderation result for [text]" block to analyze text for inappropriate content. They build a simple content filter that warns users when text contains potentially harmful content.
-
-Dependencies:
-* T29.G4.05.02: Make a basic ChatGPT request and store the result
-* T08.G4.01: Choose actions based on user input or sensor values
+* T29.G4.03: Count characters and words using "length of" and split
 
 
 
@@ -26580,7 +26577,7 @@ Dependencies:
 * T08.G4.01: Choose actions based on user input or sensor values
 * T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
-* T29.G4.03.02: Count words in text using split and list length
+* T29.G4.03: Count characters and words using "length of" and split
 * T29.G5.03.02: Build stop-word filter using tables
 * T29.G5.10: Understand tokenization concepts
 
@@ -26612,25 +26609,6 @@ Dependencies:
 * T29.G6.02: Compute n-gram (bigram) frequencies
 
 
-ID: T29.G6.03.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use ChatGPT sessions for conversation context
-Description: Students understand how the session parameter ("new session" vs "continue session") affects ChatGPT conversations. They build a chatbot that remembers previous messages in the conversation.
-
-Dependencies:
-* T29.G4.05.04: Configure ChatGPT response length and temperature
-* T29.G6.02: Compute n-gram (bigram) frequencies
-
-
-ID: T29.G6.03.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Set system instructions for ChatGPT behavior
-Description: Students use the "OpenAI ChatGPT: system request" block to set behavior instructions (e.g., "You are a helpful tutor" or "Respond in Spanish"). They customize AI personality and response style.
-
-Dependencies:
-* T29.G6.03.01: Use ChatGPT sessions for conversation context
-
-
 ID: T29.G6.04
 Topic: T29 – Text Data & NLP Foundations
 Skill: Log AI prompts/responses with ratings and timestamps
@@ -26646,79 +26624,35 @@ Dependencies:
 * T29.G5.05: Build dynamic prompts with join and concatenation
 
 
-ID: T29.G6.06.01
+ID: T29.G6.06
 Topic: T29 – Text Data & NLP Foundations
-Skill: Start and stop speech recognition with Azure
-Description: Students use the "start recognizing speech in [language]" and "end speech recognition" blocks to record voice input. They understand the workflow: start recording → speak → stop recording → get result.
+Skill: Convert speech to text using voice recognition
+Description: Students use CreatiCode's speech-to-text blocks (Azure or OpenAI Whisper) to convert spoken input into text, then process the text using split, clean, and analysis techniques.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
+* T29.G5.02: Populate data tables from text using split
 * T29.G5.07: Trim whitespace from text input
 
 
-ID: T29.G6.06.02
+ID: T29.G6.07
 Topic: T29 – Text Data & NLP Foundations
-Skill: Retrieve recognized text from speech
-Description: Students use the "text from speech" reporter block to get the recognized text after speech recognition ends. They store it in a variable and display it using say blocks or text displays.
-
-Dependencies:
-* T29.G6.06.01: Start and stop speech recognition with Azure
-
-
-ID: T29.G6.06.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use OpenAI Whisper for speech recognition
-Description: Students use the alternative "OpenAI: start recognizing speech" block for Whisper-based recognition. They compare recognition quality between Azure and Whisper for different accents or audio quality.
-
-Dependencies:
-* T29.G6.06.02: Retrieve recognized text from speech
-
-
-ID: T29.G6.06.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use continuous speech recognition for real-time transcription
-Description: Students use "start continuous speech recognition in [language] into list [list]" to stream recognized speech into a list in real-time. They build a live transcription display that updates as the user speaks.
-
-Dependencies:
-* T29.G6.06.02: Retrieve recognized text from speech
-
-
-ID: T29.G6.07.01
-Topic: T29 – Text Data & NLP Foundations
-Skill: Convert text to speech using basic TTS block
-Description: Students use the "say [text] in [language] as [voice]" block to read text aloud using Azure TTS. They experiment with different languages and voice types (male/female).
+Skill: Convert text to speech with voice selection
+Description: Students use CreatiCode's text-to-speech blocks (Azure TTS) to read text aloud, experimenting with different voices and languages. They discuss accessibility applications.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T29.G4.01.02: Use the join block to combine list items into text
-
-
-ID: T29.G6.07.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Customize TTS with speed, pitch, and volume
-Description: Students adjust the speed (faster/slower), pitch (higher/lower), and volume parameters in the TTS block. They create expressive speech by varying these parameters for different contexts.
-
-Dependencies:
-* T29.G6.07.01: Convert text to speech using basic TTS block
-
-
-ID: T29.G6.07.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Stop speech and manage TTS playback
-Description: Students use the "stop speaking" block to interrupt TTS playback. They build interactive applications where new speech can interrupt previous speech, or where users can cancel speech.
-
-Dependencies:
-* T29.G6.07.01: Convert text to speech using basic TTS block
+* T29.G4.01: Use split and join blocks for text manipulation
 
 
 ID: T29.G6.08
 Topic: T29 – Text Data & NLP Foundations
 Skill: Compare text similarity using edit distance
-Description: Students use the "steps to change [text1] into [text2]" block to compute edit distance (how many character changes needed to transform one text into another). They use this to find similar words or detect typos.
+Description: Students use the text similarity block (operator_stringdiff) to compute edit distance (how many character changes needed to transform one text into another), understanding text similarity metrics.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T29.G4.03.01: Count characters in text using "length of" operator
+* T29.G4.03: Count characters and words using "length of" and split
 * T29.G6.01: Compare characters, words, and token counts
 
 
@@ -26784,29 +26718,20 @@ Skill: Critically annotate AI vs human summaries
 Description: Learners write their own summary, generate an AI summary, then systematically annotate differences: what the AI missed, what it distorted, what it added. They measure overlap and discuss AI summarization limitations.
 
 Dependencies:
-* T29.G4.05.03: Use ChatGPT to summarize text
+* T29.G5.01: Generate AI summaries using ChatGPT blocks
 * T29.G5.05: Build dynamic prompts with join and concatenation
 * T29.G6.04: Log AI prompts/responses with ratings and timestamps
 
 
-ID: T29.G7.05.01
+ID: T29.G7.05
 Topic: T29 – Text Data & NLP Foundations
-Skill: Use the web search block to retrieve search results
-Description: Students use the "web search [query] store top [k] in table [table]" block to perform a Google search and store results in a table. They explore the table structure (title, URL, snippet columns).
+Skill: Integrate web search results into text analysis
+Description: Students use CreatiCode's Google search API blocks to retrieve web search results, extract text from results, and analyze the retrieved information using text processing techniques.
 
 Dependencies:
+* T29.G6.04: Log AI prompts/responses with ratings and timestamps
 * T29.G5.02: Populate data tables from text using split
 * T11.G6.01: Sort a table by a column
-
-
-ID: T29.G7.05.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Extract and process text from web search results
-Description: Students iterate through web search result tables, extract snippets or titles, and apply text processing techniques (cleaning, keyword extraction, sentiment analysis) to analyze the retrieved information.
-
-Dependencies:
-* T29.G7.05.01: Use the web search block to retrieve search results
-* T29.G6.04: Log AI prompts/responses with ratings and timestamps
 
 
 
@@ -26881,60 +26806,18 @@ Dependencies:
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
-ID: T29.G8.05.01
+ID: T29.G8.05
 Topic: T29 – Text Data & NLP Foundations
-Skill: Understand regex pattern basics
-Description: Students learn basic regex syntax: literal characters match themselves, "." matches any character, "*" means "zero or more", "+" means "one or more". They test simple patterns using the "regex [pattern] test [text]" block.
+Skill: Use regex for advanced pattern matching
+Description: Students learn to use regular expressions with CreatiCode's regex blocks (regex test, regex match, regex search, regex replace, regex split) to find complex patterns like emails, phone numbers, URLs, or repeated words. They understand regex as a powerful but advanced pattern matching tool.
 
 Dependencies:
 * T29.G5.03.02: Build stop-word filter using tables
+* T29.G5.06: Use the parse sentence block for parts of speech
 * T29.G6.08: Compare text similarity using edit distance
 * T06.G6.01: Trace event execution paths in a multi‑event program
-
-
-ID: T29.G8.05.02
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use regex test block for pattern validation
-Description: Students use the "regex [pattern] test [text]" boolean block to check if text matches a pattern. They validate formats like email addresses, phone numbers, or dates using regex patterns.
-
-Dependencies:
-* T29.G8.05.01: Understand regex pattern basics
-
-
-ID: T29.G8.05.03
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use regex match to extract patterns
-Description: Students use the "regex [pattern] flag [g] match [text] into list [list]" block to find all occurrences of a pattern and store them in a list. They extract all numbers, all capitalized words, or all @mentions from text.
-
-Dependencies:
-* T29.G8.05.02: Use regex test block for pattern validation
-
-
-ID: T29.G8.05.04
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use regex search to find pattern positions
-Description: Students use the "regex [pattern] search [text]" block to find the starting position of a pattern in text. They locate where specific patterns occur within larger documents.
-
-Dependencies:
-* T29.G8.05.02: Use regex test block for pattern validation
-
-
-ID: T29.G8.05.05
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use regex replace for advanced text transformation
-Description: Students use the "regex [pattern] flag [g] replace [text] with [replacement]" block to replace all matches of a pattern. They redact phone numbers, standardize date formats, or clean up text with multiple spaces.
-
-Dependencies:
-* T29.G8.05.03: Use regex match to extract patterns
-
-
-ID: T29.G8.05.06
-Topic: T29 – Text Data & NLP Foundations
-Skill: Use regex split for flexible tokenization
-Description: Students use the "regex [pattern] flag [g] split [text] into list [list]" block to split text using regex patterns as delimiters. They split on multiple delimiters or complex patterns that simple split cannot handle.
-
-Dependencies:
-* T29.G8.05.03: Use regex match to extract patterns
+* T15.G6.01: Animation state machine
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T29.G8.06
@@ -26947,7 +26830,12 @@ Dependencies:
 * T29.G6.01: Compare characters, words, and token counts
 * T29.G6.04: Log AI prompts/responses with ratings and timestamps
 * T22.G6.01: Train a simple ML model (supervised learning)
+* T09.G3.05: Trace code with variables to predict outcomes
+* T10.G5.03: Add and remove items from a list
+* T02.G6.01: Learn the pseudocode generation block
 * T10.G6.01: Sort a table by a column
+
+* T15.G6.01: Animation state machine
 
 
 ID: T30.GK.01
@@ -26960,7 +26848,7 @@ Description: Students circle devices (tablet, smart speaker, traffic light contr
 ID: T30.GK.02
 Topic: T30 – Devices & Hardware Systems
 Skill: Match devices to actions
-Description: Learners match pictures (camera, speaker, automatic door) to simple descriptions ("takes pictures," "plays sound," "opens when someone walks up").
+Description: Learners match pictures (camera, speaker, automatic door) to simple descriptions (“takes pictures,” “plays sound,” “opens when someone walks up”).
 
 Dependencies:
 * T30.GK.01: Identify everyday computing devices
@@ -27059,7 +26947,7 @@ Dependencies:
 
 ID: T30.G3.01
 Topic: T30 – Devices & Hardware Systems
-Skill: Connect project ideas to required sensors
+Skill: Connect project ideas to required sensors/actuators
 Description: Students map CreatiCode project ideas (voice assistant, gesture game, face tracking app) to required hardware inputs (microphone, camera, keyboard, mouse) and explain how each sensor enables the project.
 
 Dependencies:
@@ -27123,7 +27011,7 @@ Description: Students diagram how data flows in CreatiCode projects (camera inpu
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T30.G2.02: Trace input → process → output
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.02
@@ -27134,7 +27022,7 @@ Description: Learners compare how CreatiCode projects perform on different devic
 Dependencies:
 * T06.G2.03: Design a simple "if-then" game rule
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.03
@@ -27157,6 +27045,7 @@ Dependencies:
 * T06.G2.02: Match multiple triggers to the same action
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T30.G3.05: Access device camera in CreatiCode projects
+* T30.G4.03: Differentiate latency vs bandwidth
 
 
 ID: T30.G4.04
@@ -27166,13 +27055,13 @@ Description: Learners research one adaptive device (switch, eye tracker) and exp
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.05
 Topic: T30 – Devices & Hardware Systems
-Skill: Respond to keyboard key press and release events in CreatiCode
-Description: Students program sprites to respond to keyboard events (when key pressed, when key released, key is pressed reporter, when key variable pressed/released) in CreatiCode projects, creating interactive keyboard controls for games and animations.
+Skill: Respond to keyboard and mouse events in CreatiCode
+Description: Students program sprites to respond to keyboard events (key press/release), mouse events (button click, drag, pointer movement, wheel scrolling), and sprite drag events (when sprite dragged/being dragged/stopped dragging) in CreatiCode projects, creating interactive controls for games and animations.
 
 Dependencies:
 * T06.G2.01: Create a simple cause-and-effect chain with picture cards
@@ -27180,7 +27069,7 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.05.01
@@ -27194,48 +27083,7 @@ Dependencies:
 * T06.G2.02: Match multiple triggers to the same action
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T30.G3.05: Access device camera in CreatiCode projects
-
-
-ID: T30.G4.05.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Respond to mouse button events in CreatiCode
-Description: Students program sprites to respond to mouse button events (when left/right mouse button pressed/released, mouse x/y position variables) in CreatiCode projects, creating mouse-controlled interactions.
-
-Dependencies:
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
-
-
-ID: T30.G4.05.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Respond to mouse drag and wheel events in CreatiCode
-Description: Students program sprites to respond to mouse pointer dragged events and mouse wheel scroll events in CreatiCode projects, creating drag-based and scroll-based interactions.
-
-Dependencies:
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
-
-
-ID: T30.G4.05.04
-Topic: T30 – Devices & Hardware Systems
-Skill: Use sprite drag events in CreatiCode
-Description: Students program sprites to respond to sprite drag events (when dragging starts, when being dragged, when dragging stops) in CreatiCode projects, creating draggable interactive elements.
-
-Dependencies:
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 
 
 ID: T30.G5.01
@@ -27259,7 +27107,7 @@ Dependencies:
 * T30.G2.04
 * T12.G3.05
 * T12.G4.05
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G5.03
@@ -27285,12 +27133,12 @@ Dependencies:
 
 ID: T30.G5.05
 Topic: T30 – Devices & Hardware Systems
-Skill: Add orbit cameras for 3D CreatiCode scenes
-Description: Students add orbit cameras to 3D CreatiCode projects using the "add orbit camera" block, controlling camera distance, angle, target position, and basic keyboard/mouse input settings.
+Skill: Configure 3D cameras for CreatiCode game scenes
+Description: Students add and configure orbit and follow cameras in 3D CreatiCode projects, controlling camera distance, angles, target position, and input methods (keyboard and mouse controls).
 
 Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G5.05.01
@@ -27299,31 +27147,9 @@ Skill: Enable mouse picking and hovering for 3D objects
 Description: Students enable mouse interactions for 3D objects using "turn on picking" and "turn on hovering" blocks, create "when this 3D object is picked/hovered" event handlers, and use reporter blocks (picked point x/y/z, hovered 3D object name) to make interactive 3D scenes where objects respond to mouse clicks and hovers.
 
 Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
-ID: T30.G5.05.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Add follow cameras for 3D CreatiCode scenes
-Description: Students add follow cameras to 3D CreatiCode projects using the "add follow camera" block, controlling direction lock options (none, 2-axis, 4-axis), see-through percentage, and how the camera tracks moving objects.
-
-Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G3.01: Connect project ideas to required sensors
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
-
-
-ID: T30.G5.05.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Configure advanced 3D camera settings in CreatiCode
-Description: Students configure advanced 3D camera settings including camera limits (radius min/max, visible range, vertical angle limits, speed ratios for panning/zooming/tilting) and camera viewport positioning to create polished 3D experiences.
-
-Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G3.01: Connect project ideas to required sensors
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
 
 
 ID: T30.G5.06
@@ -27343,8 +27169,8 @@ Skill: Select appropriate sensors for different CreatiCode project types
 Description: Students analyze different CreatiCode project types (quiz game, drawing app, fitness tracker, voice assistant, AR game) and justify which sensors (keyboard, mouse, camera, microphone) best suit each project's purpose, considering user experience and device requirements.
 
 Dependencies:
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
-* T30.G4.03.01: Compare 2D camera widgets vs 3D webcam backgrounds in CreatiCode
+* T30.G5.05
+* T30.G4.03.01
 * T09.G3.03
 
 
@@ -27395,8 +27221,8 @@ Dependencies:
 
 ID: T30.G6.05
 Topic: T30 – Devices & Hardware Systems
-Skill: Use one-shot speech recognition in CreatiCode projects
-Description: Students implement speech-to-text using one-shot recognition (start recognizing speech, end speech recognition, text from speech, clear speech text) with Azure and OpenAI Whisper APIs, understanding microphone requirements and language options.
+Skill: Use speech recognition in voice-controlled CreatiCode projects
+Description: Students implement speech-to-text using both one-shot recognition (start/end speech recognition) and continuous streaming recognition (start continuous speech recognition) with Azure and OpenAI Whisper APIs, plus text-to-speech blocks, to create voice-controlled CreatiCode projects, understanding microphone requirements and language options.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -27411,42 +27237,18 @@ Description: Students use the "turn on webcam background" block to overlay 3D ob
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 * T30.G6.04: Plan device capability checklists for CreatiCode AI projects
-
-
-ID: T30.G6.05.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Use continuous speech recognition in CreatiCode projects
-Description: Students implement continuous speech recognition using "start continuous speech recognition into list" and "stop continuous speech recognition" blocks to capture real-time streaming voice input, creating voice-controlled interfaces with ongoing speech capture.
-
-Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G3.06: Access device microphone for audio input
-* T30.G5.01: Identify device requirements for CreatiCode AI features
-* T30.G6.05: Use one-shot speech recognition in CreatiCode projects
-
-
-ID: T30.G6.05.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Use text-to-speech in CreatiCode projects
-Description: Students implement text-to-speech using the "say in language" block with voice type selection (Male/Female/Boy/Girl), speed/pitch/volume control, and "stop speaking" functionality to create audio feedback in CreatiCode projects.
-
-Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G3.06: Access device microphone for audio input
-* T30.G5.01: Identify device requirements for CreatiCode AI features
-* T30.G6.05: Use one-shot speech recognition in CreatiCode projects
 
 
 ID: T30.G6.06
 Topic: T30 – Devices & Hardware Systems
-Skill: Use hand detection in CreatiCode gesture games
-Description: Students use hand detection blocks (run hand detection, finger curl/dir values) to detect gestures (pointing, fist, open palm) and create gesture-controlled games in CreatiCode, understanding camera positioning requirements.
+Skill: Implement hand and 2D body tracking in CreatiCode projects
+Description: Students use hand detection (tracking finger curl angles) and 2D body part recognition (single or multiple person modes) to create gesture-controlled games in CreatiCode, comparing when computer vision input is more appropriate than keyboard/mouse and understanding camera positioning requirements.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 * T30.G5.06: Use face detection in CreatiCode interactive projects
 
 
@@ -27457,8 +27259,8 @@ Description: Students implement 3D pose detection (detecting 3D positions of bod
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
-* T30.G6.06: Use hand detection in CreatiCode gesture games
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
+* T30.G6.06: Implement hand and 2D body tracking in CreatiCode projects
 
 
 ID: T30.G6.06.02
@@ -27468,20 +27270,8 @@ Description: Students configure 3D objects to be draggable using "set dragging m
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 * T30.G5.05.01: Enable mouse picking and hovering for 3D objects
-
-
-ID: T30.G6.06.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Use 2D body part recognition in CreatiCode projects
-Description: Students use 2D body part recognition (single or multiple person modes) to track body part positions, arm/leg curl and direction values, creating full-body gesture-controlled games and understanding when to use 2D body tracking vs hand-only detection.
-
-Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G5.06: Use face detection in CreatiCode interactive projects
-* T30.G6.06: Use hand detection in CreatiCode gesture games
 
 
 ID: T30.G7.01
@@ -27542,8 +27332,8 @@ Skill: Optimize CreatiCode projects for mobile vs desktop devices
 Description: Students analyze how their CreatiCode projects perform on different devices and make design decisions based on screen size, touch vs mouse input, camera availability, and processing capabilities, creating responsive experiences.
 
 Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
+* T30.G5.01: Respond to keyboard and mouse events in CreatiCode
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 CSTA: 2-CS-02
 
 

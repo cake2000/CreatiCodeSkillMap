@@ -26960,7 +26960,7 @@ Description: Students circle devices (tablet, smart speaker, traffic light contr
 ID: T30.GK.02
 Topic: T30 – Devices & Hardware Systems
 Skill: Match devices to actions
-Description: Learners match pictures (camera, speaker, automatic door) to simple descriptions ("takes pictures," "plays sound," "opens when someone walks up").
+Description: Learners match pictures (camera, speaker, automatic door) to simple descriptions (“takes pictures,” “plays sound,” “opens when someone walks up”).
 
 Dependencies:
 * T30.GK.01: Identify everyday computing devices
@@ -27059,7 +27059,7 @@ Dependencies:
 
 ID: T30.G3.01
 Topic: T30 – Devices & Hardware Systems
-Skill: Connect project ideas to required sensors
+Skill: Connect project ideas to required sensors/actuators
 Description: Students map CreatiCode project ideas (voice assistant, gesture game, face tracking app) to required hardware inputs (microphone, camera, keyboard, mouse) and explain how each sensor enables the project.
 
 Dependencies:
@@ -27123,7 +27123,7 @@ Description: Students diagram how data flows in CreatiCode projects (camera inpu
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T30.G2.02: Trace input → process → output
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.02
@@ -27134,7 +27134,7 @@ Description: Learners compare how CreatiCode projects perform on different devic
 Dependencies:
 * T06.G2.03: Design a simple "if-then" game rule
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.03
@@ -27157,6 +27157,7 @@ Dependencies:
 * T06.G2.02: Match multiple triggers to the same action
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T30.G3.05: Access device camera in CreatiCode projects
+* T30.G4.03: Differentiate latency vs bandwidth
 
 
 ID: T30.G4.04
@@ -27166,13 +27167,13 @@ Description: Learners research one adaptive device (switch, eye tracker) and exp
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.05
 Topic: T30 – Devices & Hardware Systems
-Skill: Respond to keyboard key press and release events in CreatiCode
-Description: Students program sprites to respond to keyboard events (when key pressed, when key released, key is pressed reporter, when key variable pressed/released) in CreatiCode projects, creating interactive keyboard controls for games and animations.
+Skill: Respond to keyboard and mouse events in CreatiCode
+Description: Students program sprites to respond to keyboard events (key press/release), mouse events (button click, drag, pointer movement, wheel scrolling), and sprite drag events (when sprite dragged/being dragged/stopped dragging) in CreatiCode projects, creating interactive controls for games and animations.
 
 Dependencies:
 * T06.G2.01: Create a simple cause-and-effect chain with picture cards
@@ -27180,7 +27181,7 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G4.05.01
@@ -27194,48 +27195,7 @@ Dependencies:
 * T06.G2.02: Match multiple triggers to the same action
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T30.G3.05: Access device camera in CreatiCode projects
-
-
-ID: T30.G4.05.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Respond to mouse button events in CreatiCode
-Description: Students program sprites to respond to mouse button events (when left/right mouse button pressed/released, mouse x/y position variables) in CreatiCode projects, creating mouse-controlled interactions.
-
-Dependencies:
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
-
-
-ID: T30.G4.05.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Respond to mouse drag and wheel events in CreatiCode
-Description: Students program sprites to respond to mouse pointer dragged events and mouse wheel scroll events in CreatiCode projects, creating drag-based and scroll-based interactions.
-
-Dependencies:
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
-
-
-ID: T30.G4.05.04
-Topic: T30 – Devices & Hardware Systems
-Skill: Use sprite drag events in CreatiCode
-Description: Students program sprites to respond to sprite drag events (when dragging starts, when being dragged, when dragging stops) in CreatiCode projects, creating draggable interactive elements.
-
-Dependencies:
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 
 
 ID: T30.G5.01
@@ -27259,7 +27219,7 @@ Dependencies:
 * T30.G2.04
 * T12.G3.05
 * T12.G4.05
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G5.03
@@ -27285,12 +27245,12 @@ Dependencies:
 
 ID: T30.G5.05
 Topic: T30 – Devices & Hardware Systems
-Skill: Add orbit cameras for 3D CreatiCode scenes
-Description: Students add orbit cameras to 3D CreatiCode projects using the "add orbit camera" block, controlling camera distance, angle, target position, and basic keyboard/mouse input settings.
+Skill: Configure 3D cameras for CreatiCode game scenes
+Description: Students add and configure orbit and follow cameras in 3D CreatiCode projects, controlling camera distance, angles, target position, and input methods (keyboard and mouse controls).
 
 Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G3.01: Connect project ideas to required sensors
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G3.01: Connect project ideas to required sensors/actuators
 
 
 ID: T30.G5.05.01
@@ -27299,31 +27259,9 @@ Skill: Enable mouse picking and hovering for 3D objects
 Description: Students enable mouse interactions for 3D objects using "turn on picking" and "turn on hovering" blocks, create "when this 3D object is picked/hovered" event handlers, and use reporter blocks (picked point x/y/z, hovered 3D object name) to make interactive 3D scenes where objects respond to mouse clicks and hovers.
 
 Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
-ID: T30.G5.05.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Add follow cameras for 3D CreatiCode scenes
-Description: Students add follow cameras to 3D CreatiCode projects using the "add follow camera" block, controlling direction lock options (none, 2-axis, 4-axis), see-through percentage, and how the camera tracks moving objects.
-
-Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G3.01: Connect project ideas to required sensors
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
-
-
-ID: T30.G5.05.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Configure advanced 3D camera settings in CreatiCode
-Description: Students configure advanced 3D camera settings including camera limits (radius min/max, visible range, vertical angle limits, speed ratios for panning/zooming/tilting) and camera viewport positioning to create polished 3D experiences.
-
-Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G3.01: Connect project ideas to required sensors
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
 
 
 ID: T30.G5.06
@@ -27343,8 +27281,8 @@ Skill: Select appropriate sensors for different CreatiCode project types
 Description: Students analyze different CreatiCode project types (quiz game, drawing app, fitness tracker, voice assistant, AR game) and justify which sensors (keyboard, mouse, camera, microphone) best suit each project's purpose, considering user experience and device requirements.
 
 Dependencies:
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
-* T30.G4.03.01: Compare 2D camera widgets vs 3D webcam backgrounds in CreatiCode
+* T30.G5.05
+* T30.G4.03.01
 * T09.G3.03
 
 
@@ -27395,8 +27333,8 @@ Dependencies:
 
 ID: T30.G6.05
 Topic: T30 – Devices & Hardware Systems
-Skill: Use one-shot speech recognition in CreatiCode projects
-Description: Students implement speech-to-text using one-shot recognition (start recognizing speech, end speech recognition, text from speech, clear speech text) with Azure and OpenAI Whisper APIs, understanding microphone requirements and language options.
+Skill: Use speech recognition in voice-controlled CreatiCode projects
+Description: Students implement speech-to-text using both one-shot recognition (start/end speech recognition) and continuous streaming recognition (start continuous speech recognition) with Azure and OpenAI Whisper APIs, plus text-to-speech blocks, to create voice-controlled CreatiCode projects, understanding microphone requirements and language options.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -27411,42 +27349,18 @@ Description: Students use the "turn on webcam background" block to overlay 3D ob
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 * T30.G6.04: Plan device capability checklists for CreatiCode AI projects
-
-
-ID: T30.G6.05.02
-Topic: T30 – Devices & Hardware Systems
-Skill: Use continuous speech recognition in CreatiCode projects
-Description: Students implement continuous speech recognition using "start continuous speech recognition into list" and "stop continuous speech recognition" blocks to capture real-time streaming voice input, creating voice-controlled interfaces with ongoing speech capture.
-
-Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G3.06: Access device microphone for audio input
-* T30.G5.01: Identify device requirements for CreatiCode AI features
-* T30.G6.05: Use one-shot speech recognition in CreatiCode projects
-
-
-ID: T30.G6.05.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Use text-to-speech in CreatiCode projects
-Description: Students implement text-to-speech using the "say in language" block with voice type selection (Male/Female/Boy/Girl), speed/pitch/volume control, and "stop speaking" functionality to create audio feedback in CreatiCode projects.
-
-Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G3.06: Access device microphone for audio input
-* T30.G5.01: Identify device requirements for CreatiCode AI features
-* T30.G6.05: Use one-shot speech recognition in CreatiCode projects
 
 
 ID: T30.G6.06
 Topic: T30 – Devices & Hardware Systems
-Skill: Use hand detection in CreatiCode gesture games
-Description: Students use hand detection blocks (run hand detection, finger curl/dir values) to detect gestures (pointing, fist, open palm) and create gesture-controlled games in CreatiCode, understanding camera positioning requirements.
+Skill: Implement hand and 2D body tracking in CreatiCode projects
+Description: Students use hand detection (tracking finger curl angles) and 2D body part recognition (single or multiple person modes) to create gesture-controlled games in CreatiCode, comparing when computer vision input is more appropriate than keyboard/mouse and understanding camera positioning requirements.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 * T30.G5.06: Use face detection in CreatiCode interactive projects
 
 
@@ -27457,8 +27371,8 @@ Description: Students implement 3D pose detection (detecting 3D positions of bod
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
-* T30.G6.06: Use hand detection in CreatiCode gesture games
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
+* T30.G6.06: Implement hand and 2D body tracking in CreatiCode projects
 
 
 ID: T30.G6.06.02
@@ -27468,20 +27382,8 @@ Description: Students configure 3D objects to be draggable using "set dragging m
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 * T30.G5.05.01: Enable mouse picking and hovering for 3D objects
-
-
-ID: T30.G6.06.03
-Topic: T30 – Devices & Hardware Systems
-Skill: Use 2D body part recognition in CreatiCode projects
-Description: Students use 2D body part recognition (single or multiple person modes) to track body part positions, arm/leg curl and direction values, creating full-body gesture-controlled games and understanding when to use 2D body tracking vs hand-only detection.
-
-Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G5.06: Use face detection in CreatiCode interactive projects
-* T30.G6.06: Use hand detection in CreatiCode gesture games
 
 
 ID: T30.G7.01
@@ -27542,8 +27444,8 @@ Skill: Optimize CreatiCode projects for mobile vs desktop devices
 Description: Students analyze how their CreatiCode projects perform on different devices and make design decisions based on screen size, touch vs mouse input, camera availability, and processing capabilities, creating responsive experiences.
 
 Dependencies:
-* T30.G4.05: Respond to keyboard key press and release events in CreatiCode
-* T30.G5.05: Add orbit cameras for 3D CreatiCode scenes
+* T30.G5.01: Respond to keyboard and mouse events in CreatiCode
+* T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 CSTA: 2-CS-02
 
 
