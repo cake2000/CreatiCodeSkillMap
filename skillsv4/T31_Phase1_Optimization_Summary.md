@@ -103,15 +103,29 @@ All dependencies to other topics (T01-T34) were preserved, including:
 ## Statistics
 
 ### Skill Count Changes:
-- **Before:** 38 skills (GK through G8)
-- **After:** 60 skills (GK through G8)
-- **Added:** 22 new skills (58% increase)
+- **Before:** 42 skills (GK through G8)
+- **After:** 65 skills (GK through G8)
+- **Added:** 23 new skills (55% increase)
 
 ### Grade Distribution:
-- **K-4:** 7 skills (unchanged - conceptual foundation)
-- **Grade 5:** 8 skills (was 5) - Added user identity, split create/join game, added list games, connection status
-- **Grade 6:** 21 skills (was 10) - Expanded Google Sheets, added cloud sessions, multiplayer sprite management
-- **Grade 7:** 19 skills (was 5) - Completely restructured database, added leaderboard, user data, semantic database
+| Grade | Before | After | Change |
+|-------|--------|-------|--------|
+| K | 1 | 1 | 0 |
+| 1 | 1 | 1 | 0 |
+| 2 | 2 | 2 | 0 |
+| 3 | 2 | 2 | 0 |
+| 4 | 2 | 2 | 0 |
+| 5 | 6 | 8 | +2 |
+| 6 | 12 | 21 | +9 |
+| 7 | 11 | 22 | +11 |
+| 8 | 6 | 6 | 0 |
+| **Total** | **42** | **65** | **+23** |
+
+### Changes by Grade:
+- **K-4:** 8 skills (unchanged - conceptual foundation)
+- **Grade 5:** 8 skills (was 6) - Added user identity, split create/join game, reorganized list games/connection status
+- **Grade 6:** 21 skills (was 12) - Expanded Google Sheets, added cloud sessions, multiplayer sprite management
+- **Grade 7:** 22 skills (was 11) - Completely restructured database, added leaderboard, user data, semantic database
 - **Grade 8:** 6 skills (was 6) - Preserved AI-focused architectural and security skills
 
 ### Coverage by Feature Category:

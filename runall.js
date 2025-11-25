@@ -65,8 +65,8 @@ async function runAllScripts() {
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   // Number of iterations for each phase
-  const TOPIC_ITERATIONS = 2; // 3 iterations as requested
-  const GRADE_ITERATIONS = 1; // 3 iterations for grade-level checking
+  const TOPIC_ITERATIONS = 1; // 3 iterations as requested
+  const GRADE_ITERATIONS = 0; // 3 iterations for grade-level checking
 
   console.log("===========================================");
   console.log("Starting Two-Phase Optimization Strategy");
@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 22) continue;
+      if ( iteration == 0 && i < 32) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);

@@ -1,268 +1,189 @@
-# T35 Optimization Quick Reference
+# T35 Impacts & Ethics - Quick Reference Guide
 
-## At a Glance
+## Skill Counts by Grade
 
-- **Dependency Fixes**: 4 changes
-- **Description Improvements**: 13 skills enhanced
-- **New Skills**: 4 additions
-- **Deletions**: 0
-- **Total Changes**: 21 modifications to T35
-
----
-
-## Dependency Fixes (Copy-Paste Ready)
-
-### 1. T35.G4.02
-**REMOVE:**
-```
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-```
-
-**KEEP:**
-```
-  * T35.G3.02: Discuss how algorithms influence what we see
-```
+| Grade | Original | Optimized | Change | Notes |
+|-------|----------|-----------|--------|-------|
+| **GK** | 4 | 4 | - | No changes |
+| **G1** | 4 | 4 | - | No changes |
+| **G2** | 4 | 4 | - | 2 skills clarified |
+| **G3** | 4 | 4 | - | No changes |
+| **G4** | 5 | 7 | +2 | T35.G4.01 broken into 3 |
+| **G5** | 4 | 8 | +4 | T35.G5.01 broken into 3 + 2 new skills |
+| **G6** | 8 | 13 | +5 | T35.G6.01 and T35.G6.03.01 broken down |
+| **G7** | 11 | 17 | +6 | 3 skills broken down + 1 new skill |
+| **G8** | 6 | 10 | +4 | 2 skills broken down + 1 extra |
+| **TOTAL** | **50** | **71** | **+21** | 42% increase |
 
 ---
 
-### 2. T35.G5.03
-**REMOVE:**
-```
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-```
-
-**KEEP:**
-```
-  * T35.G4.01: Analyze case studies of tech helping/harming communities
-  * T35.G4.02: Understand advertising/persuasion online
-```
-
----
-
-### 3. T35.G6.03.01
-**REMOVE:**
-```
-  * T35.G6.03: Develop ethics guidelines for AI content generation (T21-T22)
-```
-
-**KEEP:**
-```
-  * T35.G5.03: Analyze AI's differential impacts on workers and communities
-```
-
----
-
-### 4. T35.G8.01
-**REMOVE:**
-```
-  * T04.G2.01: Identify the repeating unit in a longer pattern
-```
-
-**KEEP:**
-```
-  * T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
-  * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
-```
-
----
-
-## New Skills to Add
-
-### T35.G3.04 (Insert after T35.G3.03)
-
-```markdown
-### T35.G3.04 – Recognize when apps collect data
-
-_Dependency:_
-  * T35.G3.03: Develop class guidelines for respectful communication
-  * T09.G3.01: Create and use a numeric variable for score or count
-  * T16.G3.01: Add a label widget to display text
-
-- **Short name:** What does this app know about me?
-- **Description:** Students build a simple app (quiz or game) that collects data using variables and widgets. They create visible indicators showing what's being collected: labels that update to show "You've answered 5 questions" (counter variable), "Your high score: 100" (performance data), "You clicked on: Animals" (preference tracking). Students then discuss what the app "knows" about users and whether users can see what's collected.
-- **Challenge format:** Build-and-document project. Rubric checks: (1) app with visible data collection (variables displayed via labels), (2) at least 3 data types tracked, (3) reflection on transparency and user awareness.
-- **CSTA:** E3‑CAS‑ET‑02.
-```
-
----
-
-### T35.G5.04 (Insert after T35.G5.03)
-
-```markdown
-### T35.G5.04 – Visualize stakeholder impacts using data tools
-
-_Dependency:_
-  * T35.G5.03: Analyze AI's differential impacts on workers and communities
-  * T19.G5.01: Store data in a Google Sheet using blocks
-  * T16.G5.01: Build a simple survey using widgets
-
-- **Short name:** Who wins and loses from this technology?
-- **Description:** Students research a technology's impact on different stakeholders (e.g., AI chatbots impact: students, teachers, tutors, textbook companies). They collect impact data via widget-based surveys (rating scales 1-5: How much does this help/harm you?). Responses are stored in Google Sheets using cloud blocks. Students create data visualizations using table variables showing which groups benefit most/least, then discuss equity implications.
-- **Challenge format:** Survey project + data visualization + analysis. Rubric checks: (1) widget-based survey with 3+ stakeholder groups, (2) Google Sheets integration for data storage, (3) table-based visualization of results, (4) equity analysis identifying disparities.
-- **CSTA:** E5‑CAS‑ET‑02, CAS‑HC.
-```
-
----
-
-### T35.G6.05 (Insert after T35.G6.02)
-
-```markdown
-### T35.G6.05 – Build consent mechanisms for data collection
-
-_Dependency:_
-  * T35.G6.02: Analyze data privacy tradeoffs
-  * T16.G6.01: Create forms with multiple widget types
-  * T19.G6.01: Store and retrieve data from cloud tables
-
-- **Short name:** Ask before you collect
-- **Description:** Students build a project demonstrating informed consent using widgets and conditional logic. They create: (1) A clear consent form with checkboxes (button widgets) explaining each data type and why it's needed, (2) Conditional data collection: only save data to cloud tables if consent checkbox is checked, (3) A "view my data" button that retrieves and displays user's stored data, (4) A "delete my data" button that removes records from cloud storage. Students test with peers and reflect on what makes consent "informed" (clear language, granular choices, revocable).
-- **Challenge format:** Working consent-based app. Rubric checks: (1) granular consent interface with widgets, (2) conditional cloud data storage based on consent, (3) data access and deletion features, (4) reflection on informed consent principles.
-- **CSTA:** MS‑CAS‑ET‑06.
-```
-
----
-
-### T35.G7.07 (Insert after T35.G7.06)
-
-```markdown
-### T35.G7.07 – Compare honest vs. misleading data visualizations
-
-_Dependency:_
-  * T35.G6.04: Examine digital divide data
-  * T19.G7.01: Create data visualizations using table variables
-  * T16.G7.01: Build interactive data displays with widgets
-
-- **Short name:** Can data lie?
-- **Description:** Students analyze how data presentation affects interpretation. Given the same dataset (e.g., test scores over time), they create two visualizations using table variables and sprite graphics: (1) Honest version: Appropriate scale, full context, clear labels, (2) Misleading version: Truncated y-axis, cherry-picked time range, or misleading colors. Using widget buttons, users can toggle between versions. Students document how design choices change perception and write guidelines for ethical data visualization.
-- **Challenge format:** Dual visualization project + ethics guidelines. Rubric checks: (1) same data shown two ways, (2) widget toggle between versions, (3) documented design differences and their effects, (4) ethical guidelines for data presentation.
-- **CSTA:** MS‑CAS‑ET‑05, DAA‑DI.
-```
-
----
-
-## Description Enhancement Summary
-
-| Skill | Current Issue | Fix |
-|-------|--------------|-----|
-| **T35.G3.01** | Too abstract | Add widgets + ChatGPT for PII detection demo |
-| **T35.G3.02** | Pure discussion | Build recommendation simulator with variables/tables |
-| **T35.G3.03** | No actual chat | Add AI moderation blocks to working chat |
-| **T35.G4.01** | Just reading | Add interactive case viewer with widgets/tables |
-| **T35.G4.02** | Vague "sample apps" | Build persuasive vs. informative interface comparison |
-| **T35.G4.03** | No testing method | Add accessibility testing (mute, resize, keyboard, TTS) |
-| **T35.G6.01** | Unclear if building/analyzing | Build ethics evaluation tool with widgets |
-| **T35.G6.02** | Just reading policies | Build working privacy/consent demonstrator |
-| **T35.G6.03** | Doesn't use T21/T22 | Test AI blocks systematically for bias evidence |
-| **T35.G7.01** | Already good | Minor: add table visualization mention |
-| **T35.G7.04** | Should use T23 | Build surveillance simulator with perception blocks |
-| **T35.G7.05** | Should use T21 | Conduct AI art experiments before debate |
-| **T35.G8.03** | Just create rubric | Build assessment tool AS widget/table project |
-
----
-
-## CreatiCode Features by Grade
-
-### Grade 3
-- Variables (counters, tracking)
-- Conditionals (if-then logic)
-- Widget blocks (labels, text input, buttons)
-- Table variables (basic data display)
-- ChatGPT blocks (simple queries)
+## Skills Broken Down (Original → New)
 
 ### Grade 4
-- Widget interfaces (multi-element UI)
-- Table variables (data organization)
-- Sprite properties (accessibility: size, color)
-- Event blocks (keyboard controls)
-- AI Speaker (text-to-speech)
+- **T35.G4.01** → T35.G4.01.01, T35.G4.01.02, T35.G4.01.03
 
 ### Grade 5
-- Google Sheets integration
-- Widget surveys (forms)
-- Table visualization
-- Data analysis
+- **T35.G5.01** → T35.G5.01.01, T35.G5.01.02, T35.G5.01.03
 
 ### Grade 6
-- Cloud data storage
-- Conditional data logic
-- Complex widget forms
-- ChatGPT analysis
-- T21/T22 AI blocks (systematic testing)
+- **T35.G6.01** → T35.G6.01.01, T35.G6.01.02, T35.G6.01.03, T35.G6.01.04
+- **T35.G6.03.01** → T35.G6.03.01a, T35.G6.03.01b, T35.G6.03.01c
 
 ### Grade 7
-- T23 perception blocks (hand/body tracking)
-- T21 image generation (systematic testing)
-- Advanced table operations
-- Data visualization ethics
-- Multi-version projects (A/B comparison)
+- **T35.G7.01.01** → T35.G7.01.01a, T35.G7.01.01b, T35.G7.01.01c
+- **T35.G7.03** → T35.G7.03.01, T35.G7.03.02, T35.G7.03.03
+- **T35.G7.05.01** → T35.G7.05.01a, T35.G7.05.01b, T35.G7.05.01c
 
 ### Grade 8
-- Integration projects (widgets + tables + AI)
-- ChatGPT recommendations
-- Complex data tools
-- Assessment frameworks
+- **T35.G8.01** → T35.G8.01.01, T35.G8.01.02, T35.G8.01.03
+- **T35.G8.03.01** → T35.G8.03.01a, T35.G8.03.01b, T35.G8.03.01c
 
 ---
 
-## Validation Checklist
+## New Skills Added
 
-✅ **Dependency Rules:**
-- No same-grade dependencies (except removed)
-- All follow X-2 rule (Grade X only depends on X, X-1, X-2)
-- Cross-topic dependencies preserved (T04, T06-T09, T16, T19, T21-T24)
-
-✅ **Content Rules:**
-- K-2 remain picture-based/unplugged
-- Grade 3-8 specify actual CreatiCode blocks used
-- All skills mention concrete activities, not just "discuss"
-
-✅ **Coverage:**
-- All CSTA standards preserved
-- AI ethics (T21-T24) thoroughly covered
-- Data ethics (privacy, visualization) covered
-- Accessibility covered
-- Digital wellbeing covered
-- Equity/justice lens integrated
+| ID | Grade | Skill Name | Purpose |
+|----|-------|------------|---------|
+| **T35.G5.05** | G5 | Apply simple ethics questions | Scaffolding for G6 ethics frameworks |
+| **T35.G5.06** | G5 | Identify credible vs. non-credible sources | Media literacy foundation |
+| **T35.G7.08** | G7 | Analyze deepfakes and synthetic media | Misinformation/AI literacy |
 
 ---
 
-## One-Sentence Summary of Each Change
+## Skills Clarified (More Detail Added)
 
-1. **G3.01**: Build PII detector using widgets + ChatGPT
-2. **G3.02**: Build recommendation simulator with variables/if-blocks
-3. **G3.03**: Build moderated chat with AI moderation blocks
-4. **G3.04** ⭐NEW: Build app showing visible data collection
-5. **G4.01**: Add interactive case viewer with widgets
-6. **G4.02**: Build persuasive vs. neutral interfaces
-7. **G4.03**: Test accessibility features (mute, keyboard, TTS)
-8. **G5.04** ⭐NEW: Build stakeholder survey + Google Sheets visualization
-9. **G6.01**: Build ethics evaluation tool
-10. **G6.02**: Build privacy consent demonstrator
-11. **G6.03**: Test T21/T22 blocks systematically for bias
-12. **G6.05** ⭐NEW: Build consent mechanism with cloud storage
-13. **G7.01**: Add table visualization (minor)
-14. **G7.04**: Build surveillance simulator with T23 blocks
-15. **G7.05**: Conduct T21 art experiments before debate
-16. **G7.07** ⭐NEW: Build honest vs. misleading visualization comparison
-17. **G8.03**: Build assessment tool as interactive project
+| ID | Grade | Skill Name | What Changed |
+|----|-------|------------|--------------|
+| **T35.G2.02** | G2 | Plan balanced tech schedules | Added materials (picture cards, timers) |
+| **T35.G2.03** | G2 | Practice online kindness scripts | Added scenarios and speech bubbles |
+| **T35.G5.02** | G5 | Debate digital well-being scenarios | Clarified "evidence" means structured debate format |
+| **T35.G6.04** | G6 | Examine digital divide data | Added specific data types and intervention examples |
 
 ---
 
-## Key Principles Applied
+## Dependency Fixes
 
-1. **Concrete > Abstract**: Every "discuss" or "analyze" now includes building something
-2. **Use the Platform**: Leverage CreatiCode's unique AI/widget/cloud features
-3. **Evidence-Based**: Test AI blocks to see bias, don't just read about it
-4. **Scaffolded**: Each grade builds on previous with clear progression
-5. **Assessable**: Clear rubrics based on what students build, not just discuss
-6. **Integrated**: Connect ethics to actual coding skills (T21-T24, widgets, data)
+| ID | Old Dependency | New Dependency | Reason |
+|----|----------------|----------------|--------|
+| **T35.G5.03** | T09.G3.03 | T09.G4.01 | Fixed X-2 rule violation (G5 can't depend on G3) |
 
 ---
 
-## Notes for Implementation
+## Complete Skill List by Grade
 
-- **Dependencies**: Fix these FIRST (4 changes) before touching descriptions
-- **New Skills**: Add these SECOND (4 additions) to maintain numbering stability
-- **Descriptions**: Update LAST (13 enhancements) grade by grade
-- **Testing**: After changes, verify all T16, T19, T21-T24 dependencies still valid
-- **Documentation**: Note that some enhanced skills assume T16 (widgets) and T19 (data) exist in those grades - verify those topics are developed appropriately
+### Kindergarten (4 skills)
+- T35.GK.01: Identify a helpful use of technology
+- T35.GK.02: Recognize signs of too much screen time
+- T35.GK.03: Practice device sharing etiquette
+- T35.GK.04: Choose safe sharing in role-play
+
+### Grade 1 (4 skills)
+- T35.G1.01: Sort good vs not-so-good choices and explain why
+- T35.G1.02: Match feelings to technology experiences
+- T35.G1.03: Recognize that people make technology choices
+- T35.G1.04: Identify who to tell when uncomfortable online
+
+### Grade 2 (4 skills)
+- T35.G2.01: Compare benefits and harms of a tech tool
+- T35.G2.02: Plan balanced tech schedules (CLARIFIED)
+- T35.G2.03: Practice online kindness scripts (CLARIFIED)
+- T35.G2.04: Distinguish public vs. private information
+
+### Grade 3 (4 skills)
+- T35.G3.01: Evaluate digital footprints
+- T35.G3.02: Discuss how algorithms influence what we see
+- T35.G3.03: Develop class guidelines for respectful communication
+- T35.G3.04: Recognize when apps collect data
+
+### Grade 4 (8 skills)
+- T35.G4.01.01: Read and categorize tech impact case studies (NEW - from breakdown)
+- T35.G4.01.02: Build interactive case study viewer with widgets (NEW - from breakdown)
+- T35.G4.01.03: Identify tradeoffs in technology impacts (NEW - from breakdown)
+- T35.G4.02: Understand advertising/persuasion online
+- T35.G4.03.01: Test game accessibility features
+- T35.G4.03.02: Implement accessibility improvements
+- T35.G4.04: Create a digital citizen pledge project
+
+### Grade 5 (8 skills)
+- T35.G5.01.01: Research technology impacts in one community (NEW - from breakdown)
+- T35.G5.01.02: Compare impacts across two communities (NEW - from breakdown)
+- T35.G5.01.03: Explain why technology impacts differ across contexts (NEW - from breakdown)
+- T35.G5.02: Debate digital well-being scenarios (CLARIFIED)
+- T35.G5.03: Analyze AI's differential impacts on workers and communities (DEPENDENCY FIXED)
+- T35.G5.04: Visualize stakeholder impacts using data tools
+- T35.G5.05: Apply simple ethics questions to technology decisions (NEW - scaffolding)
+- T35.G5.06: Identify credible vs. non-credible online sources (NEW - media literacy)
+
+### Grade 6 (11 skills)
+- T35.G6.01.01: Apply beneficence lens (does it help? who benefits?) (NEW - from breakdown)
+- T35.G6.01.02: Apply fairness lens (equal access and impact?) (NEW - from breakdown)
+- T35.G6.01.03: Apply autonomy lens (user control and choice?) (NEW - from breakdown)
+- T35.G6.01.04: Build ethics evaluation tool combining all lenses (NEW - from breakdown)
+- T35.G6.02: Analyze data privacy tradeoffs
+- T35.G6.03.01a: Test AI image generation for bias (NEW - from breakdown)
+- T35.G6.03.01b: Test AI chatbots for accuracy and inclusivity (NEW - from breakdown)
+- T35.G6.03.01c: Build AI testing dashboard (NEW - from breakdown)
+- T35.G6.03.02: Synthesize comprehensive AI ethics guidelines
+- T35.G6.03.03: Develop ethics guidelines for AI perception and assistance (T23-T24)
+- T35.G6.04: Examine digital divide data (CLARIFIED)
+- T35.G6.05.01: Build consent form and data collection
+- T35.G6.05.02: Implement data viewing and deletion controls
+
+### Grade 7 (14 skills)
+- T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
+- T35.G7.01.01a: Build systematic testing framework for AI perception (NEW - from breakdown)
+- T35.G7.01.01b: Analyze audit data and identify disparities (NEW - from breakdown)
+- T35.G7.01.01c: Propose solutions for detected bias (NEW - from breakdown)
+- T35.G7.02: Explore unintended consequences of new tech
+- T35.G7.03.01: Build transparency vs. security tradeoff simulator (NEW - from breakdown)
+- T35.G7.03.02: Analyze stakeholder impacts at different transparency levels (NEW - from breakdown)
+- T35.G7.03.03: Justify transparency recommendations with evidence (NEW - from breakdown)
+- T35.G7.04.01: Build AI perception surveillance simulator
+- T35.G7.04.02: Analyze privacy and safety impacts
+- T35.G7.05.01a: Generate and analyze AI art in different styles (NEW - from breakdown)
+- T35.G7.05.01b: Create AI-generated commercial assets (NEW - from breakdown)
+- T35.G7.05.01c: Build AI art gallery with comparison data (NEW - from breakdown)
+- T35.G7.05.02: Debate ethics and propose policies
+- T35.G7.06: Facilitate community discussions on AI-powered tech policy
+- T35.G7.07: Compare honest vs. misleading data visualizations
+- T35.G7.08: Analyze deepfakes and synthetic media detection (NEW - misinformation literacy)
+
+### Grade 8 (9 skills)
+- T35.G8.01.01: Build ethical evaluation tool (NEW - from breakdown)
+- T35.G8.01.02: Evaluate real proposals using the tool (NEW - from breakdown)
+- T35.G8.01.03: Resolve conflicts between ethical frameworks (NEW - from breakdown)
+- T35.G8.01.01: Analyze AI chatbots' impact on information literacy (Pairing with T22)
+- T35.G8.02: Draft equity-focused policy briefs for AI in education
+- T35.G8.03.01a: Build accessibility and privacy assessment modules (NEW - from breakdown)
+- T35.G8.03.01b: Build wellbeing and cultural sensitivity modules (NEW - from breakdown)
+- T35.G8.03.01c: Integrate scoring and generate recommendations (NEW - from breakdown)
+- T35.G8.03.02: Apply tool to evaluate AI projects
+- T35.G8.04: Lead peer workshops on responsible tech use
+
+---
+
+## Key Improvements
+
+### 1. Focus
+- Each skill now addresses ONE clear concept
+- No more "build + test + analyze + propose" mega-skills
+
+### 2. Scaffolding
+- G5.05 bridges G5 analysis to G6 ethics frameworks
+- G5.06 teaches source evaluation before research projects
+- Sequential breakdowns ensure step-by-step progression
+
+### 3. Completeness
+- Added critical media literacy skills (source credibility, deepfakes)
+- Comprehensive AI ethics coverage (T21-T24)
+- No gaps in progression
+
+### 4. Dependencies
+- Fixed X-2 rule violation (G5 → G3)
+- All breakdowns have proper sequential dependencies
+- All cross-topic dependencies preserved
+
+### 5. Clarity
+- Concrete materials specified (picture cards, widgets, timers)
+- Specific actions described (sort, categorize, build, analyze)
+- Assessment methods clear (checklists, rubrics, table variables)
