@@ -30631,47 +30631,52 @@ Dependencies:
 ID: T36.GK.01
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Match community helpers to digital tools
-Description: Students drag pictures of workers (teacher, doctor, farmer, artist) onto the tools they use (tablet, scanner, drone, camera) and say one way the tool helps.
+Description: Students drag pictures of workers (teacher, doctor, farmer, artist) onto the digital tools they use (tablet, scanner, drone, camera). For each match, students say one way the tool helps that worker do their job better.
 
 Dependencies:
 * T01.GK.01: Answer what happens next in a sequence
 
 
-
 ID: T36.GK.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Take turns using a device to complete a task together
-Description: Learners pick the kind response in sharing scenarios (two kids want the tablet) and practice taking turns to complete a collaborative task on a device.
+Description: Students view picture scenarios where two children want to use the same tablet. They pick the kind response (sharing, taking turns) and explain why teamwork helps everyone finish faster.
 
 Dependencies:
 * T36.GK.01: Match community helpers to digital tools
-
-
 
 
 ID: T36.GK.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Describe what a digital tool helps someone do
-Description: Given a picture of someone using a tool (drawing app, video call), students say what job or task it helps with.
+Description: Given a picture of someone using a tool (drawing on a tablet, having a video call), students say what job or task it helps with. Students practice identifying the purpose of common digital tools.
 
 Dependencies:
 * T36.GK.01: Match community helpers to digital tools
 
 
+ID: T36.GK.04
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Identify different ways people work together
+Description: Students look at pictures showing teams working together (doctors and nurses, teachers and students, builders) and point to examples of people helping each other. Students describe one way the team members help each other.
+
+Dependencies:
+* T36.GK.02: Take turns using a device to complete a task together
 
 
 ID: T36.G1.01
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: List jobs that rely on computers
-Description: Learners select which professions (scientist, musician, builder, nurse, chef) use digital tools, and share a simple example.
+Description: Students select which professions (scientist, musician, builder, nurse, chef) use digital tools in their work. For each selected job, students share one simple example of how they use a computer or digital device.
 
 Dependencies:
 * T36.GK.03: Describe what a digital tool helps someone do
 
+
 ID: T36.G1.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Sort "helps" vs "problems" for a technology
-Description: Students place statements about a device (video chat, streaming, games) into "helps me" or "causes problems," recognizing tradeoffs.
+Description: Students place statements about a device (video chat, tablet games, streaming videos) into "helps me" or "causes problems" categories. Students recognize that technology has both benefits and challenges.
 
 Dependencies:
 * T36.G1.01: List jobs that rely on computers
@@ -30680,16 +30685,25 @@ Dependencies:
 ID: T36.G1.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Show listening behaviors when working on a group tech task
-Description: Learners role-play or choose actions that show they're listening (eyes on speaker, waiting to talk) during a group technology activity, and explain why teams need good listeners.
+Description: Students role-play or choose actions that show good listening (eyes on speaker, waiting to talk, nodding) during a group technology activity. Students explain why teams need good listeners to work well together.
 
 Dependencies:
 * T03.GK.01: Identify parts that make up a whole
 
 
+ID: T36.G1.04
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Identify jobs that make apps and games
+Description: Students look at pictures of people who make the apps and games they use (game designer, app builder). Students match each job to a picture of what they create (a game, an app on a phone).
+
+Dependencies:
+* T36.G1.01: List jobs that rely on computers
+
+
 ID: T36.G2.01
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Identify project roles in simple terms
-Description: Students match roles (story planner, builder, tester) to tasks in a CreatiCode project.
+Description: Students match roles (story planner, builder, tester) to tasks in a project. For example, the "builder" puts blocks together, the "tester" tries it out, and the "planner" decides what to make.
 
 Dependencies:
 * T36.G1.01: List jobs that rely on computers
@@ -30698,7 +30712,7 @@ Dependencies:
 ID: T36.G2.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Plan screen time as part of a balanced daily routine
-Description: Learners build a picture schedule showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep), understanding digital wellness.
+Description: Students build a picture schedule showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep). Students understand that balancing tech use with other activities keeps us healthy.
 
 Dependencies:
 * T03.G1.03: List steps for a simple classroom routine
@@ -30707,25 +30721,36 @@ Dependencies:
 ID: T36.G2.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Recognize teammates' different strengths
-Description: Students write or draw how classmates contribute unique skills (drawing, building, storytelling) to a project.
+Description: Students draw or write about how classmates contribute different skills to a project. One friend might be good at drawing, another at building, another at telling stories. Students explain why having different strengths makes a team better.
 
 Dependencies:
 * T36.G2.01: Identify project roles in simple terms
 
+
 ID: T36.G2.04
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Name jobs where people create digital things
-Description: Students identify and name careers where people create digital content (game designer, animator, app builder) through picture sorting and discussion.
+Description: Students identify careers where people create digital content (game designer, animator, app builder) through picture sorting. Students describe what each job creates and one tool they might use.
 
 Dependencies:
 * T36.G1.01: List jobs that rely on computers
 * T36.GK.03: Describe what a digital tool helps someone do
 
 
+ID: T36.G2.05
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Practice polite communication in group work
+Description: Students practice using kind words when working together ("please," "thank you," "great idea!"). Students role-play scenarios where they ask for help, offer help, or give a compliment to a teammate.
+
+Dependencies:
+* T36.GK.02: Take turns using a device to complete a task together
+* T36.G1.03: Show listening behaviors when working on a group tech task
+
+
 ID: T36.G3.01
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Ask classmates simple questions to understand project needs
-Description: Learners ask classmates or family members simple questions about what they would like in a CreatiCode app and summarize two key ideas they learned. Students practice collaborative inquiry skills like active listening and asking follow-up questions.
+Description: Students interview a classmate or family member about what they would like in a simple app or game. Students write down at least two ideas they learned from their interview and practice asking follow-up questions.
 
 Dependencies:
 * T36.G2.01: Identify project roles in simple terms
@@ -30734,7 +30759,7 @@ Dependencies:
 ID: T36.G3.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Draft simple team agreements
-Description: Students fill a charter listing team members, roles, goals, and rules (when to meet, how to share devices). Teams discuss and agree on specific collaboration practices like decision-making processes and conflict resolution approaches.
+Description: Students fill out a team charter listing: team member names, each person's role (builder, tester, planner), the project goal, and one rule for working together (like "listen when others talk"). Teams discuss and agree on their charter.
 
 Dependencies:
 * T36.G3.01: Ask classmates simple questions to understand project needs
@@ -30743,7 +30768,7 @@ Dependencies:
 ID: T36.G3.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Reflect on collaboration habits
-Description: After a group activity, learners list one teamwork success and one area to improve, proposing a next step.
+Description: After a group activity, students answer: "What did our team do well?" and "What could we do better next time?" Students write or say one specific thing they will try differently.
 
 Dependencies:
 * T36.G3.02: Draft simple team agreements
@@ -30752,16 +30777,26 @@ Dependencies:
 ID: T36.G3.04
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Explore what coders and digital designers do
-Description: Students watch short videos or look at pictures of programmers and digital designers at work, then describe one thing they do and one tool they use.
+Description: Students watch a short video or look at pictures of programmers and digital designers at work. Students describe one thing these workers do (like write code or draw characters) and one tool they use (like a computer or drawing tablet).
 
 Dependencies:
 * T36.G2.04: Name jobs where people create digital things
 
 
+ID: T36.G3.05
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Practice giving and receiving helpful feedback
+Description: Students practice giving kind and specific feedback on a classmate's work ("I like how you used bright colors" or "Maybe add a sound effect"). Students also practice saying "thank you" when receiving feedback, even if they disagree.
+
+Dependencies:
+* T36.G2.05: Practice polite communication in group work
+* T36.G3.03: Reflect on collaboration habits
+
+
 ID: T36.G4.01
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Explore diverse tech careers via profiles/videos
-Description: Students watch/read about technologists (UX designer, robotics technician, accessibility advocate) and summarize daily tasks + tools.
+Description: Students watch videos or read profiles about different technologists (UX designer, robotics technician, accessibility advocate). For each career, students write down: (1) what the person does daily, (2) what tools they use, and (3) one interesting fact.
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
@@ -30772,7 +30807,7 @@ Dependencies:
 ID: T36.G4.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Track work with a shared checklist
-Description: Teams create a simple three-column chart (To Do / Doing / Done), list tasks for a multi-step project, and update it at least twice.
+Description: Teams create a simple three-column chart (To Do / Doing / Done) on paper or whiteboard. They list tasks for a project, assign each task to a team member, and update the chart at least twice as they work.
 
 Dependencies:
 * T05.G3.01: Put human‑centered design steps in order
@@ -30785,17 +30820,18 @@ Dependencies:
 ID: T36.G4.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Role-play resolving disagreements in a coding or design project
-Description: Learners act out disagreements about a CreatiCode project (color scheme, character choice, feature priority) and practice referencing user needs to decide together.
+Description: Students act out scenarios where teammates disagree about a project decision (color scheme, character choice, which feature to add first). Students practice: (1) listening to both sides, (2) asking what the user needs, and (3) finding a fair solution together.
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T36.G3.02: Draft simple team agreements
 * T36.G3.03: Reflect on collaboration habits
 
+
 ID: T36.G4.04
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Categorize tech jobs by what they create
-Description: Students sort tech careers into categories based on output (people who make games, people who build apps, people who analyze data, people who design how things look) and discuss examples of each.
+Description: Students sort tech career cards into categories: (1) people who make games, (2) people who build apps, (3) people who analyze data, (4) people who design how things look. Students give one example job for each category.
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
@@ -30803,10 +30839,20 @@ Dependencies:
 * T36.G4.01: Explore diverse tech careers via profiles/videos
 
 
+ID: T36.G4.05
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Identify skills needed for different tech jobs
+Description: Students match skills (drawing, math, writing, problem-solving, talking to people) to different tech jobs. Students explain why a game designer needs creativity or why a data analyst needs math skills.
+
+Dependencies:
+* T36.G4.01: Explore diverse tech careers via profiles/videos
+* T36.G4.04: Categorize tech jobs by what they create
+
+
 ID: T36.G5.01
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Map personal interests to tech pathways
-Description: Students connect their hobbies/strengths (music, storytelling, sports, helping people) to matching tech roles (sound designer, narrative designer, sports data analyst, civic technologist) and explain why.
+Description: Students list their hobbies and strengths (music, storytelling, sports, helping people, art). Then they match each interest to a tech role that uses it (sound designer, narrative designer, sports data analyst, civic technologist, graphic designer). Students explain why each match makes sense.
 
 Dependencies:
 * T36.G4.04: Categorize tech jobs by what they create
@@ -30816,7 +30862,7 @@ Dependencies:
 ID: T36.G5.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Follow a plan-build-feedback cycle
-Description: Teams plan a small CreatiCode feature, build it, have another student test it, and write improvement notes. Focus stays on simple, age-appropriate iteration (no formal Kanban/sprint vocab). Students practice the iterative design process by gathering user feedback and making improvements based on observations.
+Description: Teams complete one cycle of: (1) plan a small CreatiCode feature together, (2) build it, (3) have another student test it and give feedback, (4) write notes about what to improve. Students learn that iteration (trying again with improvements) makes projects better.
 
 Dependencies:
 * T36.G4.02: Track work with a shared checklist
@@ -30826,17 +30872,37 @@ Dependencies:
 ID: T36.G5.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Evaluate representation and inclusion in tech career stories
-Description: Students review tech marketing, career profiles, or news images for diversity and representation, discuss gaps they notice, and sketch or describe a more inclusive alternative.
+Description: Students review tech marketing materials, career profiles, or news images. They identify: (1) who is shown (age, gender, background), (2) who might be missing, and (3) why diverse representation matters. Students sketch or describe a more inclusive alternative.
 
 Dependencies:
 * T36.G4.01: Explore diverse tech careers via profiles/videos
 * T36.G3.01: Ask classmates simple questions to understand project needs
 
 
+ID: T36.G5.04
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Lead a team check-in meeting
+Description: Students take turns leading a 5-minute team check-in where each member shares: (1) what they finished, (2) what they're working on, and (3) if they need help. The leader makes sure everyone gets a turn and writes down any blockers.
+
+Dependencies:
+* T36.G4.02: Track work with a shared checklist
+* T36.G4.03: Role-play resolving disagreements in a coding or design project
+
+
+ID: T36.G5.05
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Explore tech careers that help others
+Description: Students research tech jobs that focus on helping people: accessibility engineer (making tech usable for everyone), civic technologist (improving government services), health tech specialist (helping doctors and patients). Students describe how each job makes a positive difference.
+
+Dependencies:
+* T36.G5.01: Map personal interests to tech pathways
+* T36.G5.03: Evaluate representation and inclusion in tech career stories
+
+
 ID: T36.G6.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Compare computing career clusters (software, hardware, data, AI)
-Description: Learners research and compare four computing career clusters: software development, hardware engineering, data science, and AI/ML. Students identify typical job titles, required skills, and daily tasks for each cluster. For each cluster, students create a summary chart showing 2-3 example jobs, 3-4 key skills needed, and typical tools/technologies used.
+Skill: Research software development careers
+Description: Students research the software development career cluster, identifying: (1) 2-3 example job titles (software engineer, web developer, mobile app developer), (2) key skills needed (programming languages, problem-solving, debugging), and (3) typical tools used (code editors, version control, testing frameworks). Students create a summary chart of their findings.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30844,14 +30910,67 @@ Dependencies:
 * T08.G5.01: Design multi-branch decision logic
 * T18.G5.01
 * T24.G5.01
-* T36.G4.01: Explore diverse tech careers via profiles/videos
 * T36.G5.01: Map personal interests to tech pathways
 
 
 ID: T36.G6.01.01
 Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Research hardware engineering careers
+Description: Students research the hardware engineering career cluster, identifying: (1) 2-3 example job titles (hardware engineer, chip designer, robotics engineer), (2) key skills needed (electronics, physics, CAD design), and (3) typical tools/technologies used. Students create a summary chart of their findings.
+
+Dependencies:
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T06.G5.01: Identify standard event patterns in a small game
+* T08.G5.01: Design multi-branch decision logic
+* T18.G5.01
+* T24.G5.01
+* T36.G6.01: Research software development careers
+
+
+ID: T36.G6.01.02
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Research data science careers
+Description: Students research the data science career cluster, identifying: (1) 2-3 example job titles (data analyst, data scientist, business intelligence analyst), (2) key skills needed (statistics, data visualization, SQL), and (3) typical tools used (spreadsheets, databases, visualization software). Students create a summary chart of their findings.
+
+Dependencies:
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T06.G5.01: Identify standard event patterns in a small game
+* T08.G5.01: Design multi-branch decision logic
+* T18.G5.01
+* T24.G5.01
+* T36.G6.01: Research software development careers
+
+
+ID: T36.G6.01.03
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Research AI and machine learning careers
+Description: Students research the AI/ML career cluster, identifying: (1) 2-3 example job titles (ML engineer, AI researcher, NLP specialist), (2) key skills needed (math, programming, understanding of AI concepts), and (3) typical tools/technologies used. Students create a summary chart of their findings.
+
+Dependencies:
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T06.G5.01: Identify standard event patterns in a small game
+* T08.G5.01: Design multi-branch decision logic
+* T18.G5.01
+* T24.G5.01
+* T36.G6.01: Research software development careers
+
+
+ID: T36.G6.01.04
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Compare computing career clusters
+Description: After researching all four career clusters (software, hardware, data, AI), students create a comparison chart showing similarities and differences. Students identify which cluster best matches their interests and explain why.
+
+Dependencies:
+* T36.G6.01: Research software development careers
+* T36.G6.01.01: Research hardware engineering careers
+* T36.G6.01.02: Research data science careers
+* T36.G6.01.03: Research AI and machine learning careers
+
+
+ID: T36.G6.02
+Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Analyze representation in computing careers
-Description: Students research demographics across computing fields, identify underrepresented groups, and discuss barriers to entry including accessibility, geographic, and socioeconomic factors.
+Description: Students research demographics in computing fields using publicly available data. They identify underrepresented groups and discuss at least 3 barriers to entry (accessibility, geographic, socioeconomic, cultural factors). Students propose one way to improve representation.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30862,10 +30981,10 @@ Dependencies:
 * T36.G5.03: Evaluate representation and inclusion in tech career stories
 
 
-ID: T36.G6.01.02
+ID: T36.G6.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Connect AI skills to career pathways
-Description: Students examine how AI skills (image generation, chatbots, voice/vision recognition) connect to real-world AI career roles and identify strategies for building AI expertise.
+Description: Students examine how AI skills learned in CreatiCode (image generation, chatbots, voice recognition, vision) connect to real-world AI career roles. Students identify: (1) which CreatiCode AI features they've used, (2) which careers use similar technology, and (3) what additional skills they would need for those careers.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30876,10 +30995,10 @@ Dependencies:
 * T36.G5.01: Map personal interests to tech pathways
 
 
-ID: T36.G6.02
+ID: T36.G6.04
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Practice stand-ups, task boards, and sprint reviews in team projects
-Description: Teams run daily stand-up check-ins ("yesterday/today/blocked"), maintain task boards, and hold weekly sprint reviews; they track action items and reflect on progress.
+Skill: Run daily stand-up meetings
+Description: Teams practice running daily stand-up check-ins where each member briefly shares: (1) what they completed yesterday, (2) what they're working on today, and (3) any blockers. Stand-ups should be quick (under 10 minutes) and standing helps keep them short.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30887,14 +31006,33 @@ Dependencies:
 * T08.G5.01: Design multi-branch decision logic
 * T18.G5.01
 * T24.G5.01
-* T36.G4.02: Track work with a shared checklist
-* T36.G5.02: Follow a plan-build-feedback cycle
+* T36.G5.04: Lead a team check-in meeting
 
 
-ID: T36.G6.03
+ID: T36.G6.04.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Analyze job descriptions for skills/values
-Description: Students annotate simplified postings to highlight technical skills, collaboration traits, and values (accessibility, ethics).
+Skill: Maintain a team task board
+Description: Teams create and maintain a digital or physical task board with columns (Backlog, To Do, In Progress, Review, Done). Students practice: (1) writing clear task cards, (2) moving tasks as they progress, and (3) keeping the board updated throughout a project.
+
+Dependencies:
+* T36.G4.02: Track work with a shared checklist
+* T36.G6.04: Run daily stand-up meetings
+
+
+ID: T36.G6.04.02
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Conduct sprint reviews
+Description: At the end of a project phase, teams hold a sprint review meeting where they: (1) demonstrate what they built, (2) discuss what went well, (3) identify what to improve, and (4) plan action items for the next phase. Students practice giving and receiving constructive feedback.
+
+Dependencies:
+* T36.G5.02: Follow a plan-build-feedback cycle
+* T36.G6.04: Run daily stand-up meetings
+
+
+ID: T36.G6.05
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Analyze job descriptions for technical skills
+Description: Students read simplified job postings for tech roles. They highlight and list: (1) technical skills mentioned (programming languages, tools, platforms), (2) experience requirements, and (3) education preferences. Students identify which skills they already have and which they need to learn.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30906,10 +31044,19 @@ Dependencies:
 * T36.G5.01: Map personal interests to tech pathways
 
 
-ID: T36.G6.04
+ID: T36.G6.05.01
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Analyze job descriptions for soft skills and values
+Description: Students read the same job postings and identify: (1) collaboration and communication traits mentioned (teamwork, problem-solving, communication), (2) company values (accessibility, ethics, diversity, user focus), and (3) work style preferences (remote, team-based, independent). Students explain why these non-technical requirements matter.
+
+Dependencies:
+* T36.G6.05: Analyze job descriptions for technical skills
+
+
+ID: T36.G6.06
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Add ethics clauses to team charters
-Description: Learners amend team charters with commitments about responsible AI use, crediting sources and collaborators, protecting user data, and ensuring accessibility.
+Description: Students amend their team charters with specific commitments about: (1) responsible AI use, (2) crediting sources and collaborators, (3) protecting user data and privacy, and (4) ensuring accessibility for all users. Teams discuss why each commitment matters.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30920,10 +31067,10 @@ Dependencies:
 * T36.G5.02: Follow a plan-build-feedback cycle
 
 
-ID: T36.G6.05
+ID: T36.G6.07
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Document project contributions for a portfolio
-Description: Students write brief summaries of their CreatiCode projects including their role, skills used, and what they learned, creating the foundation for future portfolios.
+Description: Students write a brief summary (1-2 paragraphs) of a CreatiCode project including: (1) what the project does, (2) their specific role and contributions, (3) skills they used (coding, design, collaboration), and (4) what they learned. This summary becomes a portfolio entry.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -30937,146 +31084,235 @@ Dependencies:
 
 ID: T36.G7.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Interview or research diverse technologists about their career paths
-Description: Students interview (in person, virtually, or via recorded profiles) diverse tech professionals from various backgrounds, exploring their career journeys, daily work, challenges faced, and advice for students. Students prepare at least 5 interview questions and create a written summary or presentation of key findings about the professional's pathway and recommendations.
+Skill: Prepare interview questions for tech professionals
+Description: Students prepare at least 5 thoughtful questions to ask a tech professional, covering: career journey, daily work, challenges faced, skills needed, and advice for students. Questions should be open-ended and specific to the professional's field.
 
 Dependencies:
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
+* T36.G6.01.04: Compare computing career clusters
 * T36.G5.03: Evaluate representation and inclusion in tech career stories
 
 
 ID: T36.G7.01.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Research emerging tech careers and required skills
-Description: Students research new and emerging tech career paths (AI ethics specialist, sustainability technologist, accessibility engineer) and identify the skills, education, and experiences needed to pursue them.
+Skill: Conduct and summarize a career interview
+Description: Students interview a tech professional (in person, virtually, or via recorded profile) using their prepared questions. They create a written summary or presentation of key findings including: the professional's pathway, daily work, and recommendations for students.
 
 Dependencies:
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
+* T36.G7.01: Prepare interview questions for tech professionals
 
 
 ID: T36.G7.01.02
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Discuss AI ethics and equity with tech professionals
-Description: Students explore AI ethics, fairness, and responsible AI through conversations with professionals or case studies, learning strategies for ensuring AI tools serve all communities equitably.
+Skill: Research emerging tech careers and required skills
+Description: Students research new and emerging tech career paths (AI ethics specialist, sustainability technologist, accessibility engineer, VR/AR developer). For each career, students identify: the skills, education, and experiences needed to pursue them, and why these careers are growing.
 
 Dependencies:
-* T36.G6.01.01: Analyze representation in computing careers
+* T36.G6.01.04: Compare computing career clusters
+
+
+ID: T36.G7.01.03
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Discuss AI ethics and equity with tech professionals
+Description: Students explore AI ethics, fairness, and responsible AI through case studies or conversations with professionals. They learn about: bias in AI systems, strategies for ensuring AI serves all communities equitably, and the role of AI ethics specialists.
+
+Dependencies:
+* T36.G6.02: Analyze representation in computing careers
 
 
 ID: T36.G7.02
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Design cross-functional team diagrams
-Description: Learners create diagrams showing how design, engineering, QA, and ethics teammates collaborate on a larger CreatiCode-style project.
+Description: Students create a diagram showing how different roles collaborate on a large project: design (UX/UI), engineering (front-end, back-end), QA (testing), and ethics/accessibility review. Students draw arrows showing how work flows between roles and identify potential communication challenges.
 
 Dependencies:
-* T36.G6.02: Practice stand-ups, task boards, and sprint reviews in team projects
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
+* T36.G6.04.02: Conduct sprint reviews
+* T36.G6.01.04: Compare computing career clusters
 
 
 ID: T36.G7.03
 Topic: T36 – Careers, Collaboration & Future Paths
 Skill: Facilitate inclusive collaboration
-Description: Students analyze scenarios of exclusive/inclusive behavior (interrupting, credit sharing) and propose improvements.
+Description: Students analyze scenarios of exclusive behavior (interrupting, taking credit for others' work, ignoring quieter teammates) and inclusive behavior (making sure everyone speaks, giving credit, welcoming different perspectives). Students propose specific improvements for exclusive scenarios and practice facilitating discussions where everyone participates.
 
 Dependencies:
 * T36.G5.02: Follow a plan-build-feedback cycle
 * T36.G5.03: Evaluate representation and inclusion in tech career stories
-* T36.G5.01: Role-play resolving disagreements in a coding or design project
+* T36.G4.03: Role-play resolving disagreements in a coding or design project
 
 
 ID: T36.G7.04
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Mentor younger coders
-Description: Learners plan/deliver short lessons (debugging, AI safety) to younger students, reinforcing leadership and empathy.
+Skill: Plan a lesson for younger coders
+Description: Students plan a short lesson (10-15 minutes) to teach younger students a coding concept or tech safety topic (debugging basics, AI safety, online privacy). The plan includes: learning objective, step-by-step instructions, an activity, and how to check understanding.
 
 Dependencies:
-* T36.G6.04: Add ethics clauses to team charters
+* T36.G6.06: Add ethics clauses to team charters
 * T36.G5.03: Evaluate representation and inclusion in tech career stories
+
+
+ID: T36.G7.04.01
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Deliver a lesson to younger coders
+Description: Students deliver their planned lesson to younger students. After teaching, they reflect on: what went well, what was challenging, how they adapted to student questions, and what they would change next time. Students develop leadership and communication skills.
+
+Dependencies:
+* T36.G7.04: Plan a lesson for younger coders
 
 
 ID: T36.G7.05
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Use digital collaboration tools effectively
-Description: Students practice using shared documents, comment and feedback systems, and basic project tracking tools for team projects, developing skills needed for remote and distributed teamwork.
+Skill: Use shared documents for team collaboration
+Description: Students practice using shared documents (Google Docs, shared notes) for team projects. They learn to: (1) write in the same document without conflicts, (2) use comments to give feedback, (3) track changes and version history, and (4) resolve editing conflicts respectfully.
 
 Dependencies:
-* T36.G6.02: Practice stand-ups, task boards, and sprint reviews in team projects
-* T36.G6.05: Document project contributions for a portfolio
+* T36.G6.04.01: Maintain a team task board
+
+
+ID: T36.G7.05.01
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Use project tracking tools for team coordination
+Description: Students practice using basic project tracking tools (task lists, shared checklists, simple project boards) to coordinate team work. They learn to: assign tasks, set deadlines, track progress, and communicate about blockers asynchronously.
+
+Dependencies:
+* T36.G7.05: Use shared documents for team collaboration
+* T36.G6.07: Document project contributions for a portfolio
 
 
 ID: T36.G8.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Build multi-year career roadmaps
-Description: Students choose a target role (AI researcher, UX engineer, civic technologist) and outline high school coursework, extracurriculars, and portfolio goals.
+Skill: Identify high school courses for tech careers
+Description: Students research which high school courses support different tech career paths. For their target career (AI researcher, UX engineer, data scientist), they identify: (1) math courses needed (algebra, statistics, calculus), (2) science courses (computer science, physics), and (3) other relevant courses (art, communication, business).
 
 Dependencies:
-* T36.G7.01.01: Research emerging tech careers and required skills
-* T36.G6.01.02: Connect AI skills to career pathways
+* T36.G7.01.02: Research emerging tech careers and required skills
+* T36.G6.03: Connect AI skills to career pathways
 * T13.G6.01: Trace complex code with multiple variables
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 * T26.G6.01: Map stakeholder questions to data requirements
 
 
-ID: T36.G8.02
+ID: T36.G8.01.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Prepare resumes/portfolios and practice interviews
-Description: Learners assemble mini portfolios of CreatiCode projects, write short resumes, and conduct mock interviews with peers/mentors.
+Skill: Plan extracurriculars and portfolio goals
+Description: Students identify extracurricular activities that build skills for their target career: coding clubs, robotics teams, hackathons, internships, online courses. They set 3-5 specific portfolio goals (projects to complete, skills to demonstrate) for the next 2-3 years.
 
 Dependencies:
-* T36.G6.05: Document project contributions for a portfolio
-* T36.G6.03: Analyze job descriptions for skills/values
-* T36.G7.04: Mentor younger coders
+* T36.G8.01: Identify high school courses for tech careers
+
+
+ID: T36.G8.01.02
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Build a multi-year career roadmap
+Description: Students combine their course plan and extracurricular goals into a complete multi-year roadmap for their target career. The roadmap includes: year-by-year milestones, skills to develop, projects to complete, and people/communities to connect with.
+
+Dependencies:
+* T36.G8.01.01: Plan extracurriculars and portfolio goals
+
+
+ID: T36.G8.02
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Assemble a project portfolio
+Description: Students select 3-5 of their best CreatiCode projects and organize them into a portfolio. For each project, they include: project name, description, their role, skills demonstrated, and a screenshot or link. Students arrange projects to show growth and variety.
+
+Dependencies:
+* T36.G6.07: Document project contributions for a portfolio
+* T36.G6.05: Analyze job descriptions for technical skills
+
+
+ID: T36.G8.02.01
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Write a student resume
+Description: Students write a one-page resume including: contact information, objective/summary, skills (technical and soft skills), relevant projects/experience, and education. They tailor the resume to highlight skills mentioned in job descriptions they've analyzed.
+
+Dependencies:
+* T36.G8.02: Assemble a project portfolio
+* T36.G6.05.01: Analyze job descriptions for soft skills and values
+
+
+ID: T36.G8.02.02
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Practice interview skills
+Description: Students conduct mock interviews with peers or mentors. They practice: answering common questions (tell me about yourself, describe a project, how do you handle challenges), asking good questions, and following up professionally. Students give and receive feedback on interview performance.
+
+Dependencies:
+* T36.G8.02.01: Write a student resume
+* T36.G7.04.01: Deliver a lesson to younger coders
 
 
 ID: T36.G8.03
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Research AI's impact on job displacement vs augmentation
-Description: Students research how AI and automation affect different jobs, distinguishing between jobs at risk of displacement versus those that will be augmented by AI tools. Students create a comparison chart showing at least 3 job categories affected by AI, with specific examples of displacement risks and augmentation opportunities, supported by current research sources.
+Skill: Research jobs at risk of AI displacement
+Description: Students research how AI and automation are changing different jobs. They identify at least 3 job categories at risk of displacement (jobs where AI might replace human workers) and explain why these jobs are vulnerable (repetitive tasks, pattern recognition, data processing).
 
 Dependencies:
-* T36.G6.01.02: Connect AI skills to career pathways
-* T36.G7.01.02: Discuss AI ethics and equity with tech professionals
+* T36.G6.03: Connect AI skills to career pathways
+* T36.G7.01.03: Discuss AI ethics and equity with tech professionals
 * T03.G6.01: Propose modules for a medium project
 * T10.G6.01: Sort a table by a column
-
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T36.G8.03.01
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Analyze how AI impacts vary by community
-Description: Students examine how AI's workplace effects differ across communities based on education level, income, and geographic location, identifying which groups face greater challenges.
+Skill: Research jobs augmented by AI
+Description: Students research at least 3 job categories where AI augments (helps) human workers rather than replacing them. They explain how AI tools make these workers more effective (faster analysis, better decisions, reduced tedious work) while humans provide creativity, judgment, and relationship skills.
 
 Dependencies:
-* T36.G8.03: Research AI's impact on job displacement vs augmentation
-* T36.G6.01.01: Analyze representation in computing careers
-* T03.G6.01: Propose modules for a medium project
-* T10.G6.01: Sort a table by a column
-
-* T17.G6.01: Configure surface friction parameters
+* T36.G8.03: Research jobs at risk of AI displacement
 
 
 ID: T36.G8.03.02
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Design a proposal for equitable AI use in a school or community
-Description: Students create a proposal for how AI tools could be deployed equitably in their school or community, including recommendations for training programs, access initiatives, and safeguards against bias.
+Skill: Compare AI displacement vs augmentation patterns
+Description: Students create a comparison chart showing displacement-risk jobs vs augmentation-opportunity jobs. They identify patterns: which types of tasks are most at risk, which skills remain valuable, and how workers can prepare for AI-augmented careers.
 
 Dependencies:
-* T36.G8.03.01: Analyze how AI impacts vary by community
+* T36.G8.03.01: Research jobs augmented by AI
+
+
+ID: T36.G8.04
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Analyze how AI impacts vary by community
+Description: Students examine how AI's workplace effects differ across communities based on: education level, income, geographic location, and access to technology training. They identify which groups face greater challenges and discuss why these disparities exist.
+
+Dependencies:
+* T36.G8.03.02: Compare AI displacement vs augmentation patterns
+* T36.G6.02: Analyze representation in computing careers
+* T03.G6.01: Propose modules for a medium project
+* T10.G6.01: Sort a table by a column
+* T17.G6.01: Configure surface friction parameters
+
+
+ID: T36.G8.04.01
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Design a proposal for equitable AI use
+Description: Students create a proposal for how AI tools could be deployed equitably in their school or community. The proposal includes: (1) specific AI tools and their benefits, (2) training programs needed, (3) access initiatives for underserved groups, and (4) safeguards against bias. Students present their proposal and gather feedback.
+
+Dependencies:
+* T36.G8.04: Analyze how AI impacts vary by community
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 * T26.G6.01: Map stakeholder questions to data requirements
 
 
-ID: T36.G8.04
+ID: T36.G8.05
 Topic: T36 – Careers, Collaboration & Future Paths
-Skill: Facilitate capstone retrospectives with stakeholders
-Description: Learners run retrospectives for their final projects, gather peer/teacher feedback, and publish action items for future teams.
+Skill: Plan a capstone retrospective
+Description: Students plan a retrospective meeting for their final project, including: agenda (demo, what went well, improvements, lessons learned), who to invite (peers, teachers, mentors), feedback collection method (forms, discussion), and how to document outcomes for future teams.
 
 Dependencies:
 * T36.G7.02: Design cross-functional team diagrams
 * T36.G7.03: Facilitate inclusive collaboration
-* T36.G6.02: Practice stand-ups, task boards, and sprint reviews in team projects
+* T36.G6.04.02: Conduct sprint reviews
+
+
+ID: T36.G8.05.01
+Topic: T36 – Careers, Collaboration & Future Paths
+Skill: Facilitate a capstone retrospective with stakeholders
+Description: Students run their planned retrospective meeting, facilitating discussion among peers and teachers. They: demonstrate their project, guide reflection discussions, collect feedback professionally, and publish documented action items and lessons learned for future teams.
+
+Dependencies:
+* T36.G8.05: Plan a capstone retrospective
 * T08.G6.01a: Use conditionals in physics simulations
 * T34.G6.01: Analyze hardware computing eras (mainframe → PC → mobile)
 
