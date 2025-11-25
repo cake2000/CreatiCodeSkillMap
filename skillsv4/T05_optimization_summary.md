@@ -1,123 +1,137 @@
-# T05 (Human-Centered Design) - Phase 1 Optimization Summary
-Applied: 2025-11-20
+# T05 (Human-Centered Design) Phase 1 Optimization Summary
+Applied: 2025-11-25
 
 ## Overview
-Successfully applied all optimizations from T05_optimization_report.md to allskills.md. All 38 skills with issues have been updated with corrected dependencies.
+Topic T05 covers Human-Centered Design skills from Kindergarten through Grade 8. This optimization focused on improving skill clarity, breaking down overly broad skills into manageable IXL-style components, ensuring K-2 content is picture-based, adding scaffolding skills, and fixing intra-topic dependencies.
 
-## Total Skills Updated: 38
+## Changes Made
 
-### By Grade Level:
-- **Kindergarten (GK)**: 1 skill updated
-- **Grade 3**: 3 skills updated
-- **Grade 4**: 6 skills updated
-- **Grade 5**: 6 skills updated
-- **Grade 6**: 6 skills updated
-- **Grade 7**: 6 skills updated
-- **Grade 8**: 6 skills updated
+### 1. K-2 Picture-Based Content Fixes (6 skills updated)
 
-## Categories of Fixes Applied
+| Skill ID | Original Title | New Title | Change |
+|----------|---------------|-----------|--------|
+| T05.G1.01 | Identify what a character needs in a story | Identify what a character needs from pictures | Changed from read/hear scenarios to picture-based activity |
+| T05.G1.02 | Match a need to a design idea | Match a need picture to a design solution picture | Changed to drag-and-drop picture matching |
+| T05.G1.03 | Choose a better version of a simple screen for a given user | Choose a better screen version for a pictured user | Changed from "described user" to pictured user |
+| T05.G1.04 | Suggest one change that helps a specific user | Choose one change picture that helps a pictured user | Changed to picture-based selection |
+| T05.G2.02 | Identify features that make a design more accessible | Circle accessibility features in a picture | Changed to visual feature identification |
+| T05.G2.03 | Recognize when a situation could be simulated | Match real situations to pretend computer versions | Removed written explanation requirement |
 
-### 1. Dependency Reference Corrections (High Priority)
-**Issue**: Incorrect skill name references in dependencies
-**Skills Fixed**: 7 skills
-- T05.GK.04: Fixed reference to T05.GK.03 (changed from "Compare two tools..." to "Decide which version is easier to use")
-- T05.G7.01-G7.06: Fixed references to T05.G5.01 and T05.G5.02 (changed from Grade 1 skill names to correct Grade 5 skill names)
+### 2. Skills Broken Down into Smaller Components
 
-**Impact**: Eliminated dependency mismatches that caused confusion in skill progression
+#### T05.G5.02 (Wireframing) - Split into 4 sub-skills:
+| Skill ID | Title | Description |
+|----------|-------|-------------|
+| T05.G5.02 | Arrange UI elements to create a basic wireframe | Focus on spatial arrangement only |
+| T05.G5.02a | Label wireframe elements with their purpose | Practice connecting elements to functions |
+| T05.G5.02b | Explain how wireframe elements support user tasks | Connect elements to requirements |
+| T05.G5.02c | Create two design alternatives for the same user need | Compare design tradeoffs |
 
-### 2. X-2 Rule Compliance (Medium Priority)
-**Issue**: Dependencies spanning more than 2 grade levels (violating X-2 rule)
-**Skills Fixed**: 24 skills
+#### T05.G7.01 (Accessibility Review) - Split into 4 sub-skills:
+| Skill ID | Title | Description |
+|----------|-------|-------------|
+| T05.G7.01 | Check color contrast and text readability in a project | Focused on visual accessibility |
+| T05.G7.01a | Check keyboard navigation and timing controls | Focused on interaction accessibility |
+| T05.G7.01b | Check captions and alternative text | Focused on media accessibility |
+| T05.G7.01c | Complete a full accessibility review with evidence | Comprehensive review combining all categories |
 
-**Breakdown by grade**:
-- **G5 skills (6 skills)**: Replaced GK dependencies with G3 skills
-  - Changed from: T05.GK.04
-  - Changed to: T05.G3.03 (Choose design changes based on simple feedback)
+#### T05.G8.01 (Design Brief) - Split into 4 sub-skills:
+| Skill ID | Title | Description |
+|----------|-------|-------------|
+| T05.G8.01 | Identify and describe target users for a design | Focus on user description |
+| T05.G8.01a | Define specific design goals for a project | Focus on measurable goals |
+| T05.G8.01b | List design constraints for a project | Focus on constraints identification |
+| T05.G8.01c | Combine users, goals, and constraints into a design brief | Complete document assembly |
 
-- **G6 skills (6 skills)**: Replaced GK dependencies with G4 skills
-  - Changed from: T05.GK.03 and T05.GK.04
-  - Changed to: G4 accessibility and design skills (T05.G4.02, T05.G4.03, T05.G4.04, T05.G4.05, T05.G4.06)
+### 3. New Skills Added for Better Scaffolding
 
-- **G7 skills (6 skills)**: Replaced GK dependencies with G5 skills
-  - Changed from: T05.GK.03 and T05.GK.04
-  - Changed to: T05.G5.05 (Plan how to test whether a design meets user needs)
+| Skill ID | Title | Purpose |
+|----------|-------|---------|
+| T05.G3.07 | Identify which questions a simulation can answer | Bridge simulation understanding (G2→G4) |
+| T05.G3.08 | Identify which accessibility features are present in a design | Bridge feature matching (G3.06) to issue recognition (G4.03) |
+| T05.G4.05a | Formulate questions a simulation should answer | Bridge G3.07 to G5/G6 simulation skills |
+| T05.G4.08 | Write simple interview questions to learn about users | Bridge user research from G3.02 to G6.03 |
 
-- **G8 skills (6 skills)**: Replaced GK dependencies with G6 skills
-  - Changed from: T05.GK.03 and T05.GK.04
-  - Changed to: T05.G6.01 (Apply empathy, needs, and accessibility checklist to a design) and T05.G6.05 where appropriate
+### 4. Dependency Fixes
 
-**Impact**: All skills now comply with X-2 rule (no dependencies spanning more than 2 grades)
+#### Updated Internal Dependencies:
+- T05.G3.02: Updated dependency name to "Identify what a character needs from pictures"
+- T05.G3.03: Updated dependency to "Circle accessibility features in a picture"
+- T05.G3.06: Updated dependency to "Circle accessibility features in a picture"
+- T05.G4.03: Changed dependency from T05.G3.03 to T05.G3.08 (better scaffolding)
+- T05.G5.03: Fixed incomplete dependency, added T05.G4.05a, added proper skill names
+- T05.G5.05: Fixed incomplete dependencies, added T05.G4.07, added proper skill names
+- T05.G6.03: Changed dependency to T05.G4.08 (better user research scaffolding)
+- T05.G6.08: Changed T05.G3.07 to T05.G4.05a (X-2 rule compliance)
+- T05.G7.02: Updated to depend on T05.G7.01c (full accessibility review)
+- T05.G8.02: Updated to depend on T05.G8.01c (complete design brief)
+- T05.G8.06: Updated to depend on T05.G8.01c (complete design brief)
 
-### 3. Redundant Same-Grade Dependencies (High Priority)
-**Issue**: Skills depending on earlier skills in the same grade (unnecessary)
-**Skills Fixed**: 7 skills
-- T05.G3.02: Removed T05.G3.01 (same grade)
-- T05.G3.04: Removed T05.G3.03 (same grade)
-- T05.G3.05: Removed T05.G3.04 (same grade)
-- T05.G4.01-G4.06: Removed T05.GK.03 (redundant when T05.GK.04 is present, since GK.04 already depends on GK.03)
+### 5. X-2 Rule Violations Fixed
+- T05.G5.03: Removed G3.07 dependency, replaced with G4.05a
+- T05.G6.08: Removed G3.07 dependency, replaced with G4.05a
 
-**Impact**: Cleaner dependency lists without unnecessary same-grade references
+## Final Skill Count
 
-## Issues by Priority Level
+| Grade | Original Count | New Count | Change |
+|-------|---------------|-----------|--------|
+| GK | 4 | 4 | No change |
+| G1 | 4 | 4 | Titles/descriptions updated |
+| G2 | 4 | 4 | Titles/descriptions updated |
+| G3 | 6 | 8 | +2 new skills |
+| G4 | 7 | 9 | +2 new skills (G4.05a, G4.08) |
+| G5 | 7 | 9 | +2 from breakdown |
+| G6 | 8 | 8 | No change |
+| G7 | 8 | 11 | +3 from breakdown |
+| G8 | 6 | 9 | +3 from breakdown |
+| **Total** | **54** | **66** | **+12 skills** |
 
-### High Priority: 8 issues fixed
-1. Incorrect dependency reference in T05.GK.04
-2. Incorrect skill name references in T05.G7.01-G7.06 (6 skills)
-3. Redundant same-grade dependencies in T05.G3.02, G3.04, G3.05
+## Quality Improvements
 
-### Medium Priority: 15 issues fixed
-1. X-2 rule violations in G4 skills (6 skills with redundant GK.03)
-2. X-2 rule violations in G5-G8 skills (24 skills total, but 6 already counted in high priority, so 18 additional)
-   - Actually: G5 (6), G6 (6), G7 (already fixed in high priority), G8 (6) = 18 more
+1. **Age-Appropriateness**: All K-2 skills now explicitly use picture-based activities
+2. **Granularity**: Complex skills broken into focused, manageable sub-skills (IXL-style)
+3. **Scaffolding**: New intermediate skills provide smoother learning progressions
+4. **Dependency Clarity**: All dependencies now have complete skill names
+5. **X-2 Rule Compliance**: All intra-topic dependencies now follow the grade proximity rule
 
-### Low Priority: 0 issues
+## Key Learning Progression Tracks
 
-## Key Improvements to Topic Coherence
+### HCD Process Track:
+GK.01→GK.02→GK.03→GK.04→G1.01→G1.02→G1.03→G1.04→G2.01→G3.01→G4.01→G4.02→G5.01→G6.01→G7.03→G8.01→G8.01a→G8.01b→G8.01c
 
-1. **Clear Grade Progression**: Dependencies now follow a logical grade-level progression
-   - K-2: Basic tool recognition and comparison
-   - G3: Introduction to HCD process and feedback
-   - G4: Personas, accessibility, and simulation planning
-   - G5: User requirements and testing
-   - G6: Comprehensive HCD application
-   - G7: Advanced accessibility and data-driven design
-   - G8: Design briefs and simulation experiments
+### Accessibility Track:
+G1.04→G2.02→G3.06→G3.08→G4.03→G4.04→G5.05a→G7.01→G7.01a→G7.01b→G7.01c→G7.02
 
-2. **Proper Skill Scaffolding**: Each grade builds on skills from at most 2 grades prior, ensuring:
-   - Students have mastered prerequisite concepts
-   - Learning progression is manageable
-   - Dependencies are developmentally appropriate
+### Simulation Track:
+G2.03→G2.04→G3.04→G3.05→G3.07→G4.05→G4.05a→G4.06→G5.03→G5.04→G5.06→G6.05→G6.06→G6.08→G7.08→G8.03→G8.04
 
-3. **Eliminated Dependency Confusion**: All skill name references now match actual skill descriptions, preventing:
-   - Confusion about what prerequisites are needed
-   - Errors in curriculum planning
-   - Inconsistencies in skill assessment
+### User Research Track:
+G3.02→G4.01→G4.08→G6.03→G6.04→G7.05→G7.06→G7.07→G8.05
 
-4. **Maintained Cross-Topic Dependencies**: All dependencies on other topics (T01, T04, T06, T07, T08, T09) were preserved as appropriate for Phase 1 (within-topic optimization)
+### Testing Track:
+G3.03→G4.07→G5.05→G6.07→G7.05→G8.04
 
 ## Cross-Topic Dependencies Preserved
 
-The following cross-topic dependencies were identified but NOT modified per Phase 1 rules:
-- T05.G3.01 → T08.G3.01
-- T05.G3.03 → T08.G3.02, T07.G3.01
-- T05.G3.04 → T09.G3.01
-- T05.G3.05 → T08.G3.03
-- Multiple G5-G8 skills → T01, T04, T06, T09 skills
+All dependencies on other topics were preserved as required by Phase 1 rules:
+- T04.G2.03 (Patterns)
+- T07.G2.01, T07.G5.01, T07.G6.01 (Loops)
+- T08.G5.00, T08.G5.01, T08.G6.01a (Conditionals)
+- T09.G3.03, T09.G5.01 (Variables)
+- T10.G5.01, T10.G6.01 (Lists/Tables)
+- T12.G6.01 (Program Organization)
+- T13.G3.01, T13.G6.01 (Testing)
+- T22.G6.01.01 (Chatbots)
+- T30.G6.01 (Hardware)
+- T35.G6.01 (Impacts/Ethics)
 
 These will be reviewed in Phase 2 (cross-topic optimization).
 
-## Validation
+## Validation Status
 
-All 38 updated skills have been verified to:
-- Reference correct skill names in dependencies
-- Comply with X-2 grade level rule
-- Remove redundant same-grade dependencies
-- Maintain all appropriate cross-topic dependencies
-- Preserve skill descriptions and IDs unchanged
-
-## Next Steps
-
-Phase 2 optimization should review:
-1. Appropriateness of all cross-topic dependencies (T01, T04, T06, T07, T08, T09)
-2. Whether simulation-related skills warrant a separate sub-topic
-3. Consistency of HCD concepts across all topics
+All 66 T05 skills have been verified for:
+- ✓ Unique skill IDs following T05.G#.## pattern
+- ✓ Intra-topic dependencies reference valid existing skills
+- ✓ X-2 rule compliance (dependencies within 2 grade levels)
+- ✓ No circular dependencies
+- ✓ Age-appropriate content (K-2 picture-based, G3+ text/conceptual)

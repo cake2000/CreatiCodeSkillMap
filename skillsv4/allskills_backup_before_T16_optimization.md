@@ -12953,8 +12953,8 @@ Dependencies:
 
 ID: T16.G4.07
 Topic: T16 – User Interfaces
-Skill: Add and use checkbox widgets
-Description: Use "add checkbox at X (X) Y (Y) named [NAME]" block to create toggle options. The checkbox value is 0 when unchecked and 1 when checked. Use "value of widget [NAME v]" to read its state. Use "set value to [V] for widget [NAME v]" to check (V=1) or uncheck (V=0) it programmatically. Use "when widget [NAME v] clicked" or "when widget [NAME v] changes" to respond to user interactions. Checkboxes are used for settings where multiple options can be on simultaneously (e.g., enable sound, enable music, enable vibration - all independent). Each checkbox is an independent toggle, unlike radio buttons which are mutually exclusive.
+Skill: Add checkbox and radio button widgets
+Description: Use "add checkbox at X (X) Y (Y) named [NAME]" block to create toggle options that allow multiple selections. Use "add radio buttons [CHOICE1] [CHOICE2] [CHOICE3] [CHOICE4] [CHOICE5] [CHOICE6] [horizontal/vertical v] at x (X) y (Y) width (WIDTH) height (HEIGHT) named [NAME]" block to create mutually exclusive selections (only one can be selected at a time). Radio buttons support up to 6 choices with horizontal or vertical orientation. All radio buttons in a group share the same widget name. Use checkboxes for settings where multiple options can be on simultaneously (e.g., enable sound, enable music, enable vibration - all independent). Use radio buttons when only one choice is allowed (e.g., difficulty: Easy, Medium, Hard - only one can be selected). The mutual exclusivity of radio buttons is enforced automatically when they share the same group/widget name.
 
 Dependencies:
 * T01.G2.01: Find actions that repeat in everyday tasks
@@ -12968,18 +12968,6 @@ Dependencies:
 
 ID: T16.G4.07.01
 Topic: T16 – User Interfaces
-Skill: Add and use radio button widgets
-Description: Use "add radio buttons [CHOICE1] [CHOICE2] [CHOICE3] [CHOICE4] [CHOICE5] [CHOICE6] [horizontal/vertical v] at x (X) y (Y) width (WIDTH) height (HEIGHT) named [NAME]" block to create mutually exclusive selections (only one can be selected at a time). Radio buttons support up to 6 choices with horizontal or vertical orientation. All radio buttons in a group share the same widget name. Use "value of widget [NAME v]" to get which option is selected. Use "set value to [TEXT] for widget [NAME v]" to programmatically select an option by its text. Use radio buttons when only one choice is allowed (e.g., difficulty: Easy, Medium, Hard - only one can be selected). The mutual exclusivity is enforced automatically when they share the same group/widget name. This is different from checkboxes which allow multiple independent selections.
-
-Dependencies:
-* T16.G4.07: Add and use checkbox widgets
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T08.G3.04: Trace code with a single if/else
-
-
-ID: T16.G4.07.02
-Topic: T16 – User Interfaces
 Skill: Add and use tabs widget for organizing content
 Description: Use "create tabs at X (X) Y (Y) width (WIDTH) height (HEIGHT) names [TAB1] [TAB2] ... [TAB8] show heading [Yes/No v]" block to create a tabbed interface with up to 8 panels. Use "set tab container [TABNAME v]" to specify which tab newly created widgets should appear in. Use "select tab [TABNAME]" to switch between tabs programmatically. Use "[show/hide/add/remove v] tab named [TABNAME]" to manage individual tabs. Use "when tab [TABNAME v] selected" event to respond to user tab changes. Tabs organize content into logical sections within a single screen.
 
@@ -12990,7 +12978,7 @@ Dependencies:
 * T06.G2.02: Match multiple triggers to the same action
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T16.G3.07: Show and hide widgets
-* T16.G4.07.01: Add and use radio button widgets
+* T16.G4.07: Add checkbox and radio button widgets
 
 
 ID: T16.G4.08
@@ -13004,7 +12992,7 @@ Dependencies:
 * T06.G2.02: Match multiple triggers to the same action
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T16.G4.06: Read and respond to slider value changes
-* T16.G4.07: Add and use checkbox widgets
+* T16.G4.07: Add checkbox and radio button widgets
 
 
 ID: T16.G4.08.01
@@ -13069,7 +13057,7 @@ Skill: Design a form with multiple inputs and validation
 Description: Students create a form interface with multiple text input fields, dropdowns, or checkboxes, validate all inputs for completeness and correctness, and display a summary or confirmation message. This teaches form design and validation patterns.
 
 Dependencies:
-* T16.G4.07: Add and use checkbox widgets
+* T16.G4.07: Add checkbox and radio button widgets
 * T08.G3.05: Fix a condition that uses the wrong operator
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01.01: Create a new variable with a descriptive name
@@ -13191,37 +13179,12 @@ Dependencies:
 
 ID: T16.G5.06.01
 Topic: T16 – User Interfaces
-Skill: Add a chat window widget
-Description: Use "add chat window x (X) y (Y) width (WIDTH) height (HEIGHT) input rows (ROWS) background [BG] border [BORDERCOLOR] name [NAME]" block to create a chat interface. The chat window automatically creates two parts: at the bottom is a text input box on the left and a send button on the right; on the top is a scrollable chat history panel for displaying messages. The input box can have multiple rows (set ROWS to 1 for single line, 2+ for multi-line input). Style the chat window using background and border colors. Chat windows combine multiple UI elements (text input, button, scrollable panel) into a single widget for interactive conversations.
+Skill: Create a chat window widget for messaging
+Description: The chat window automatically creates a scrollable message history panel, a text input box, and a send button. Users can type messages in the input box and click send (or press Enter). Use "append to chat" to add messages programmatically. Customize message appearance with sender name, icon (robot icon, user icon, or custom costume), alignment (left for received messages, right for sent messages), text size, text color, and background color. Use "update last chat message" to modify the most recent message (useful for streaming AI responses or correcting errors). Chat windows combine multiple UI elements for interactive conversations.
 
 Dependencies:
 * T16.G5.06: Add a rich textbox for formatted content
 * T16.G4.08: Build a simple settings panel
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T08.G3.00: Identify if blocks in existing code
-* T09.G3.01.01: Create a new variable with a descriptive name
-
-
-ID: T16.G5.06.02
-Topic: T16 – User Interfaces
-Skill: Append messages to chat window
-Description: Use "append to chat [CHATNAME v] message [MESSAGE] as [SENDER] icon [ICON v] align [ALIGN v] text size (TEXTSIZE) color [COLOR] background [BG]" block to add a new message to the chat history panel. Customize the message appearance with sender name, icon (robot icon, user icon, or custom costume from your sprite's costumes), alignment (left for received messages, right for sent messages), text size, text color, and background color. Each appended message appears as a new entry in the scrollable chat history. Messages can be appended when the user clicks the send button, or programmatically (e.g., for chatbot responses, system notifications, or multiplayer chat). The chat automatically scrolls to show the newest message.
-
-Dependencies:
-* T16.G5.06.01: Add a chat window widget
-* T16.G3.02: Handle a button click event
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T08.G3.00: Identify if blocks in existing code
-* T09.G3.01.01: Create a new variable with a descriptive name
-
-
-ID: T16.G5.06.03
-Topic: T16 – User Interfaces
-Skill: Update streaming chat messages
-Description: Use "update last chat message to [MESSAGE] for chat [CHATNAME v]" block to modify the most recent message in the chat history panel. This block replaces the text of the last message with new text without adding a new message entry. This is useful for streaming AI responses (where the chatbot's message builds up word by word), correcting errors in the last message, or updating status messages (changing "Typing..." to the actual message). Unlike appending which adds a new message, updating modifies the existing last message in place. This creates a smooth typing effect for chatbots or real-time message updates.
-
-Dependencies:
-* T16.G5.06.02: Append messages to chat window
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.00: Identify if blocks in existing code
 * T09.G3.01.01: Create a new variable with a descriptive name
@@ -13323,8 +13286,8 @@ Dependencies:
 
 ID: T16.G6.06
 Topic: T16 – User Interfaces
-Skill: Add a menu bar widget
-Description: Use "add menu bar at X (X) Y (Y) width (WIDTH) height (HEIGHT) as [NAME]" block to create an empty application-style menu bar. The menu bar widget provides a horizontal bar at the specified position where you can add menu groups (like File, Edit, View, Help). The menu bar is initially empty and displays no menus until you add menu groups using skill T16.G6.06.01. Menu bars are common in desktop applications and provide organized access to commands and features. Position the menu bar at the top of your interface (Y around 170) for a traditional application layout.
+Skill: Create a menu bar with groups and items
+Description: Use "add menu bar at X (X) Y (Y) width (WIDTH) height (HEIGHT) as [NAME]" block to create application-style menus. Use "add menu group" to add menu groups (File, Edit, View). Use "add menu item" to add items within each group. Organize related commands into logical groups.
 
 Dependencies:
 * T16.G5.01: Create a multi‑screen app with a navigation interface
@@ -13333,25 +13296,14 @@ Dependencies:
 
 ID: T16.G6.06.01
 Topic: T16 – User Interfaces
-Skill: Add menu groups and items to menu bar
-Description: After creating a menu bar, use "add menu group [GROUPNAME] to menu bar named [MENUBARNAME v]" block to add menu groups (File, Edit, View, Help). Each group appears as a clickable label on the menu bar. Then use "add menu item [ITEMNAME] to menu group named [GROUPNAME v]" block to add items within each group. When users click a group name, a dropdown appears showing all items in that group. Organize related commands into logical groups (File: New, Open, Save; Edit: Cut, Copy, Paste; View: Zoom In, Zoom Out). Menu groups and items create a hierarchical navigation structure.
+Skill: Handle menu item click events
+Description: Use "when menu item [ITEMNAME] from group [GROUPNAME] clicked" event block to respond when users select menu items. Connect menu selections to actions (show/hide widgets, change settings, trigger functions). Compare menu bars to other navigation patterns (buttons, dropdowns, tabs).
 
 Dependencies:
-* T16.G6.06: Add a menu bar widget
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T16.G6.06: Create a menu bar with groups and items
 
 
 ID: T16.G6.06.02
-Topic: T16 – User Interfaces
-Skill: Handle menu item click events
-Description: Use "when menu item [ITEMNAME] from group [GROUPNAME] clicked" event block to respond when users select menu items. Connect menu selections to actions (show/hide widgets, change settings, trigger functions, broadcast messages). For example, "when menu item [Save] from group [File] clicked" can save project data to a list. Compare menu bars to other navigation patterns: menu bars are best for many organized commands (like desktop apps), dropdowns are best for selecting one option from a list, tabs are best for switching between different views, and buttons are best for 2-4 primary actions.
-
-Dependencies:
-* T16.G6.06.01: Add menu groups and items to menu bar
-* T06.G3.02: Build a key‑press script that controls a sprite
-
-
-ID: T16.G6.07
 Topic: T16 – User Interfaces
 Skill: Navigate to other projects
 Description: Use "run project [PROJECTID] in [new/this v] browser tab" block to launch another CreatiCode project. The target project auto-starts in full stage mode. Choose "new" to open in a new browser tab (keeps current project running) or "this" to replace the current project. Use "open URL [URL] in new browser tab" to open external websites. Project navigation enables creating multi-project experiences, portfolios with project menus, or educational sequences where completing one project leads to the next.
@@ -13546,15 +13498,6 @@ Dependencies:
 * T17.G4.01: Simulate falling with repeated motion
 
 
-ID: T17.G5.01
-Topic: T17 – 2D Motion & Physics
-Skill: Apply gravity to a sprite using 2D physics
-Description: Students use the physics engine to apply gravity forces to a sprite, observing how it falls and accelerates naturally. They understand that gravity is a constant downward force that affects all dynamic physics bodies in the scene.
-
-Dependencies:
-* T17.G4.02: Explain speed as position change over time
-
-
 ID: T17.G5.02
 Topic: T17 – 2D Motion & Physics
 Skill: Track gravity with velocity variables
@@ -13563,7 +13506,7 @@ Description: Students build a loop that stores a sprite's y-velocity in a variab
 Dependencies:
 * T07.G3.05: Fix a simple repeat loop count
 * T09.G3.05: Trace code with variables to predict outcomes
-* T17.G5.01: Apply gravity to a sprite using 2D physics
+* T17.G4.02: Explain speed as position change over time
 * T08.G3.00: Identify if blocks in existing code
 
 
@@ -13586,6 +13529,9 @@ Description: Create a top-down car or spaceship game using manual friction varia
 
 Dependencies:
 * T17.G5.03: Use horizontal speed and friction variables
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.04
@@ -13596,6 +13542,8 @@ Description: Students write a conditional that checks for ground contact, multip
 Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T17.G5.02: Track gravity with velocity variables
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.04.01
@@ -13605,6 +13553,9 @@ Description: Build a basic platformer game using manual gravity and bounce calcu
 
 Dependencies:
 * T17.G5.04: Code a manual bounce with energy loss
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.05
@@ -13627,6 +13578,9 @@ Description: Students convert a sprite to a dynamic physics body using `behave a
 
 Dependencies:
 * T17.G5.05: Initialize a 2D physics world
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.A
@@ -13636,6 +13590,9 @@ Description: Students create 2-3 different sprites and convert each to dynamic p
 
 Dependencies:
 * T17.G5.06: Attach a dynamic body to a sprite
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.A.01
@@ -13645,6 +13602,9 @@ Description: Enable debug mode in the 2D physics world to see invisible collisio
 
 Dependencies:
 * T17.G5.06.A: Practice creating multiple dynamic bodies
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.01
@@ -13654,24 +13614,33 @@ Description: Choose between Box and Circle collision shapes based on sprite appe
 
 Dependencies:
 * T17.G5.06.A: Practice creating multiple dynamic bodies
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.01.01
 Topic: T17 – 2D Motion & Physics
 Skill: Use Capsule shapes for elongated objects
-Description: Students select Capsule collision shapes for elongated sprites (characters, vehicles, rods). They observe how Capsules provide smoother rolling and better collision response for pill-shaped objects compared to boxes, useful for character physics that should roll over obstacles without catching on edges.
+Description: Use Capsule collision shapes for elongated sprites like characters or vehicles
 
 Dependencies:
 * T17.G5.06.01: Choose Box vs Circle collision shapes
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.01.02
 Topic: T17 – 2D Motion & Physics
 Skill: Use Convex Hull for sprite-fitted collision
-Description: Students apply Convex Hull collision shapes to create automatic collision boundaries that closely match sprite outlines. They understand that Convex Hull wraps the sprite's visible pixels with the smallest convex polygon, providing better visual accuracy than basic shapes but using more computational resources.
+Description: Use Convex Hull collision shapes for automatic sprite-fitted collision detection
 
 Dependencies:
 * T17.G5.06.01: Choose Box vs Circle collision shapes
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.02
@@ -13681,6 +13650,9 @@ Description: Students create sensor bodies using `behave as a [dynamic] [sensor]
 
 Dependencies:
 * T17.G5.06.01: Choose Box vs Circle collision shapes
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.06.03
@@ -13690,6 +13662,9 @@ Description: Students use `behave as a [dynamic] [object] in compound shape with
 
 Dependencies:
 * T17.G5.06.01: Choose Box vs Circle collision shapes
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.07
@@ -13699,6 +13674,9 @@ Description: Students add fixed physics bodies to floor or wall sprites using `b
 
 Dependencies:
 * T17.G5.05: Initialize a 2D physics world
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.08
@@ -13709,6 +13687,9 @@ Description: Students use `apply impulse [force] in direction [angle]` to make a
 Dependencies:
 * T06.G4.01: Use multiple event handlers in the same sprite
 * T17.G5.06: Attach a dynamic body to a sprite
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.08.01
@@ -13718,6 +13699,9 @@ Description: Students compare `add force [force] in direction [angle]` (applied 
 
 Dependencies:
 * T17.G5.08: Apply an impulse to jump or push
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.08.02
@@ -13727,42 +13711,21 @@ Description: Students use `apply impulse [force] in direction [angle] at positio
 
 Dependencies:
 * T17.G5.08.01: Distinguish forces from impulses
-
-
-ID: T17.G5.08.03
-Topic: T17 – 2D Motion & Physics
-Skill: Apply a single continuous force
-Description: Students use `add force [force] in direction [angle]` to apply a single continuous force to a physics body (e.g., constant wind, jetpack thrust). They observe how continuous forces create sustained acceleration unlike one-time impulses, preparing them for combining multiple forces.
-
-Dependencies:
-* T17.G5.08.01: Distinguish forces from impulses
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.09
 Topic: T17 – 2D Motion & Physics
 Skill: Configure density for mass control
-Description: Students adjust density using `update density [value]` to control how heavy a sprite feels. They understand that density × area = mass and experiment with light vs heavy objects in collisions.
+Description: Students adjust density using `update density [value] friction % restitution %` to control how heavy a sprite feels. They understand that density × area = mass and experiment with light vs heavy objects in collisions.
 
 Dependencies:
 * T17.G5.06: Attach a dynamic body to a sprite
-
-
-ID: T17.G5.09.01
-Topic: T17 – 2D Motion & Physics
-Skill: Introduce friction percentage
-Description: Students adjust the friction percentage parameter using `update density [value] friction [value]%` to control surface stickiness. They observe how friction affects sliding behavior and prepare for detailed friction experiments in G6.
-
-Dependencies:
-* T17.G5.09: Configure density for mass control
-
-
-ID: T17.G5.09.02
-Topic: T17 – 2D Motion & Physics
-Skill: Introduce restitution percentage
-Description: Students adjust the restitution percentage parameter using `update density [value] friction [value]% restitution [value]%` to control bounciness. They observe basic bounce behavior and prepare for systematic bounce height measurements in G6.
-
-Dependencies:
-* T17.G5.09.01: Introduce friction percentage
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.10
@@ -13773,6 +13736,8 @@ Description: Students experiment with a physics simulation by adjusting gravity,
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T17.G5.06: Attach a dynamic body to a sprite
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
 
 
 ID: T17.G5.10.01
@@ -13782,6 +13747,9 @@ Description: Students use `remove physics-based behavior` to detach a sprite fro
 
 Dependencies:
 * T17.G5.06: Attach a dynamic body to a sprite
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.11
@@ -13792,6 +13760,9 @@ Description: Students open a buggy project where the player never falls because 
 Dependencies:
 * T17.G5.06: Attach a dynamic body to a sprite
 * T17.G5.07: Build fixed boundaries for floors and walls
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T17.G5.12
@@ -13803,6 +13774,9 @@ Dependencies:
 * T05.G4.05: Plan a simulation with defined inputs and outputs
 * T17.G5.04: Code a manual bounce with energy loss
 * T17.G5.11: Debug missing physics setup
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 <!-- X-2 VIOLATION NOTE: Several G6-G7 skills below have cross-topic dependencies on T07/T08/T09.G3 skills,
@@ -13816,7 +13790,7 @@ Skill: Configure surface friction parameters
 Description: Students adjust the friction percentage using `update density [value] friction [value]% restitution [value]%` and measure how far objects slide on different surfaces. They learn to map friction values to sliding distances through systematic testing.
 
 Dependencies:
-* T17.G5.09.01: Introduce friction percentage
+* T17.G5.09: Configure density for mass control
 * T17.G5.10: Trace simple 2D physics motion
 
 
@@ -13826,7 +13800,6 @@ Skill: Control restitution (bounce) parameters
 Description: Students modify the restitution percentage and measure bounce heights. They learn the relationship between restitution values (0-100%) and energy conservation in collisions: 0% = no bounce, 100% = full bounce.
 
 Dependencies:
-* T17.G5.09.02: Introduce restitution percentage
 * T17.G6.01: Configure surface friction parameters
 
 
@@ -13909,7 +13882,7 @@ Dependencies:
 ID: T17.G6.04.02
 Topic: T17 – 2D Motion & Physics
 Skill: Enable ground detection for jump control
-Description: Students enable ground detection using `turn on ground detection within distance [value] debug [Yes/No]` and use the `<in collision below>` reporter in conditionals to allow jumping only when the sprite is standing on ground. This prevents mid-air double jumps and creates responsive platformer controls.
+Description: Enable ground detection and use the 'in collision below' reporter to control platformer jumping
 
 Dependencies:
 * T17.G6.04: Detect collisions for scoring or triggers
@@ -13918,7 +13891,7 @@ Dependencies:
 ID: T17.G6.04.02.01
 Topic: T17 – 2D Motion & Physics
 Skill: Use ground slope reporter for inclined surfaces
-Description: Students use the `(ground slope)` reporter to read the angle of the surface beneath a sprite. They adjust sprite behavior on slopes and ramps by detecting whether the character is on flat ground (0 degrees), uphill (positive), or downhill (negative), enabling features like sliding down steep slopes or adjusting movement speed on inclines.
+Description: Use the ground slope reporter to adjust sprite behavior on slopes and ramps
 
 Dependencies:
 * T17.G6.04.02: Enable ground detection for jump control
@@ -13945,47 +13918,30 @@ Dependencies:
 
 ID: T17.G6.05
 Topic: T17 – 2D Motion & Physics
-Skill: Add sprites to collision groups
-Description: Students assign group numbers to sprites using `add to collision group [G]` to categorize physics objects. They understand that collision groups are the foundation for collision filtering and that sprites can belong to multiple groups simultaneously.
+Skill: Set up static collision groups for filtering
+Description: Set up collision groups to filter which objects can interact with each other. Students learn the 3-step process: (1) Assign group numbers to sprites using 'physics collision groups', (2) Configure filters on BOTH sprites using 'physics add collision filter' (filters are directional), (3) Test that objects not in any group collide with everything by default. Example: Group 1 (players) filters out Group 2 (power-ups) so players pass through collectibles.
 
 Dependencies:
+* T08.G4.01: Write a condition that uses and/or
 * T17.G6.04.03: Identify collision management needs
 
 
 ID: T17.G6.05.01
 Topic: T17 – 2D Motion & Physics
-Skill: Enable collision filtering with other groups
-Description: Students configure collision filters using `enable collision with group [G]` and `disable collision with group [G]` to specify which groups a sprite should collide with. They understand that filters are directional and must be set on BOTH sprites for mutual pass-through behavior.
+Skill: Dynamically modify collision groups at runtime
+Description: Dynamically add or remove collision group memberships during gameplay (e.g., for invincibility, phasing)
 
 Dependencies:
-* T17.G6.05: Add sprites to collision groups
+* T17.G6.05: Set up static collision groups for filtering
 
 
 ID: T17.G6.05.02
 Topic: T17 – 2D Motion & Physics
-Skill: Test collision group filtering behavior
-Description: Students test collision group setups by running the game and verifying that objects pass through or collide as expected. They debug filtering issues by checking that groups are assigned correctly, filters are bidirectional, and objects without group assignments collide with everything by default.
-
-Dependencies:
-* T17.G6.05.01: Enable collision filtering with other groups
-
-
-ID: T17.G6.05.03
-Topic: T17 – 2D Motion & Physics
-Skill: Dynamically modify collision groups at runtime
-Description: Dynamically add or remove collision group memberships during gameplay (e.g., for invincibility, phasing) using `add to collision group [G]` and `remove from collision group [G]`.
-
-Dependencies:
-* T17.G6.05.02: Test collision group filtering behavior
-
-
-ID: T17.G6.05.04
-Topic: T17 – 2D Motion & Physics
 Skill: Use dominance groups for one-way pushing
-Description: Students use `set dominance group to [G]` to create one-way physical interactions where higher-dominance objects push lower-dominance objects without being pushed back. They apply this to create boss characters that can't be knocked back by players, heavy objects that push light ones, or unstoppable moving hazards.
+Description: Use dominance groups to create one-way interactions where stronger objects push weaker ones
 
 Dependencies:
-* T17.G6.05.02: Test collision group filtering behavior
+* T17.G6.05: Set up static collision groups for filtering
 
 
 ID: T17.G6.06
@@ -14020,7 +13976,7 @@ Dependencies:
 ID: T17.G6.07.01
 Topic: T17 – 2D Motion & Physics
 Skill: Configure world border properties
-Description: Set physics world border properties (friction and restitution). Students use `set world border collider friction [value]% restitution [value]%` to control how sprites bounce and slide when hitting stage edges, creating realistic boundary behavior without manual edge detection.
+Description: Set physics world border properties (friction and restitution). Students use 'physics world border friction' and 'physics world border restitution' blocks to control how sprites bounce and slide when hitting stage edges, creating realistic boundary behavior without manual edge detection.
 
 Dependencies:
 * T17.G5.05: Initialize a 2D physics world
@@ -14030,7 +13986,7 @@ Dependencies:
 ID: T17.G6.07.02
 Topic: T17 – 2D Motion & Physics
 Skill: Configure world borders for wrap-around or open-edge levels
-Description: Set physics world border collision groups. Students use `set world border collision group [G] colliding with group [G]` to configure whether certain sprites or groups can collide with stage borders, enabling scenarios where some objects pass through edges while others bounce.
+Description: Set physics world border collision groups. Students use 'physics world border collision groups' block to configure whether certain sprites or groups can collide with stage borders, enabling scenarios where some objects pass through edges while others bounce.
 
 Dependencies:
 * T17.G6.07.01: Configure world border properties
@@ -14069,7 +14025,7 @@ Dependencies:
 ID: T17.G7.01.02
 Topic: T17 – 2D Motion & Physics
 Skill: Enable CCD for fast projectiles
-Description: Enable Continuous Collision Detection (CCD) using `enable collision detection as a fast object [Yes]` to prevent fast-moving objects from tunneling through walls. Students observe that very fast physics bodies sometimes pass through thin obstacles (called 'tunneling'), then learn CCD solves this by detecting collisions between frames, ensuring no missed collisions at high speeds.
+Description: Enable Continuous Collision Detection (CCD) to prevent fast-moving objects from tunneling through walls. Students observe that very fast physics bodies sometimes pass through thin obstacles (called 'tunneling'), then learn CCD solves this by detecting collisions between frames, ensuring no missed collisions at high speeds.
 
 Dependencies:
 * T17.G7.01: Launch a configurable projectile
@@ -14081,7 +14037,7 @@ Skill: Combine multiple forces simultaneously
 Description: Students use `add force [force] in direction [angle]` to apply two or more forces in the same frame (gravity + constant wind, gravity + player thrust). They predict and observe the resulting curved motion paths.
 
 Dependencies:
-* T17.G5.08.03: Apply a single continuous force
+* T17.G5.08.01: Distinguish forces from impulses
 * T17.G6.07: Debug unstable physics behavior
 * T17.G6.08: Compare simulations to real-world motion
 
@@ -14137,7 +14093,7 @@ Dependencies:
 ID: T17.G7.04.01
 Topic: T17 – 2D Motion & Physics
 Skill: Use continuous torque to rotate bodies
-Description: Use `add torque [value]` to apply continuous rotational force to a physics body. Students learn that torque (like force for linear motion) accumulates over time, respecting the body's rotational mass and creating smooth, physics-based rotation. Compare to direct rotation speed control.
+Description: Use 'physics add torque' to apply continuous rotational force to a physics body. Students learn that torque (like force for linear motion) accumulates over time, respecting the body's rotational mass and creating smooth, physics-based rotation. Compare to direct rotation speed control.
 
 Dependencies:
 * T17.G6.02.01.03: Set rotation speed directly
@@ -14147,7 +14103,7 @@ Dependencies:
 ID: T17.G7.04.01.01
 Topic: T17 – 2D Motion & Physics
 Skill: Apply torque impulse for instant rotation
-Description: Use `apply torque impulse [value]` to apply an instant rotational "kick" to a physics body. Students learn that torque impulse (like linear impulse) applies immediately regardless of mass, perfect for one-time rotation events like hitting a spinning obstacle.
+Description: Use 'physics apply torque impulse' to apply an instant rotational "kick" to a physics body. Students learn that torque impulse (like linear impulse) applies immediately regardless of mass, perfect for one-time rotation events like hitting a spinning obstacle.
 
 Dependencies:
 * T17.G7.04.01: Use continuous torque to rotate bodies
@@ -14206,33 +14162,17 @@ Dependencies:
 
 ID: T17.G8.01
 Topic: T17 – 2D Motion & Physics
-Skill: Design a physics-based arcade game concept
-Description: Students design a launcher + target game (Angry Birds–style) by planning level layouts, identifying required physics objects (projectiles, targets, obstacles), and sketching game mechanics. They create design documents that specify win conditions and challenge progression before implementation.
-
-Dependencies:
-* T17.G7.06: Model a real-world physics scenario
-
-
-ID: T17.G8.01.01
-Topic: T17 – 2D Motion & Physics
-Skill: Implement physics arcade game mechanics
-Description: Students implement the game design from T17.G8.01 by creating sprites, setting up physics bodies, configuring collision detection, and scripting game logic. They translate design specifications into working code using physics blocks.
+Skill: Design and balance a physics-based arcade game
+Description: Students design a launcher + target game (Angry Birds–style) with multiple levels of difficulty. They test and adjust physics parameters (gravity, impulse strength, object density) to make gameplay fair but challenging.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
-* T17.G8.01: Design a physics-based arcade game concept
+* T17.G7.06: Model a real-world physics scenario
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T10.G6.01: Sort a table by a column
 
-
-ID: T17.G8.01.02
-Topic: T17 – 2D Motion & Physics
-Skill: Balance and tune physics game difficulty
-Description: Students playtest their physics game and adjust physics parameters (gravity, impulse strength, object density, friction, restitution) to balance difficulty. They iterate on parameter values to make gameplay fair but challenging, ensuring levels are neither too easy nor frustratingly hard.
-
-Dependencies:
-* T17.G8.01.01: Implement physics arcade game mechanics
+* T18.G6.01.01: Apply forces and impulses to physics bodies
 
 
 ID: T17.G8.02
@@ -14263,11 +14203,13 @@ Dependencies:
 ID: T17.G8.02.01.01
 Topic: T17 – 2D Motion & Physics
 Skill: Control revolute joint motors with speed and damping
-Description: Control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. Students learn to balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors.
+Description: Control revolute joint motors using speed and damping parameters to create powered rotations like fans or wheels
 
 Dependencies:
 * T17.G8.02.01: Implement revolute joints for hinges
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+* T25.G6.01: Document metadata for datasets
+* T33.G6.01: Identify and test Cloud blocks for network dependencies
 
 
 ID: T17.G8.02.02
@@ -14280,16 +14222,6 @@ Dependencies:
 * T02.G6.01: Learn the pseudocode generation block
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 * T16.G6.01: Evaluate an interface for usability
-
-
-ID: T17.G8.02.03
-Topic: T17 – 2D Motion & Physics
-Skill: Debug joint constraint issues
-Description: Students diagnose and fix common joint problems such as joints separating under force, rotation limits not working correctly, or motors behaving unpredictably. They learn to adjust joint parameters, verify anchor positions, and test constraint behavior systematically.
-
-Dependencies:
-* T17.G8.02.01: Implement revolute joints for hinges
-* T17.G8.02.02: Implement prismatic joints for sliding
 
 
 ID: T17.G8.03
@@ -14316,6 +14248,7 @@ Dependencies:
 * T17.G7.07: Evaluate whether a simulation meets requirements
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T10.G6.01: Sort a table by a column
+
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
@@ -14329,6 +14262,7 @@ Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T10.G6.01: Sort a table by a column
+
 
 
 ID: T17.G8.05
@@ -14358,32 +14292,13 @@ Dependencies:
 
 ID: T17.G8.07
 Topic: T17 – 2D Motion & Physics
-Skill: Plan a physics-based puzzle game
-Description: Students plan a physics puzzle game (pulleys, seesaws, Rube Goldberg machines) by identifying required physics mechanics, sketching level layouts, and defining puzzle solutions. They create design documents specifying which joints and physics properties each puzzle requires.
+Skill: Build a physics-based puzzle game
+Description: Design and implement a physics-based puzzle game (e.g., pulleys, seesaws, Rube Goldberg machines)
 
 Dependencies:
 * T17.G8.02: Implement fixed joints for connected objects
 * T17.G7.06: Model a real-world physics scenario
-
-
-ID: T17.G8.07.01
-Topic: T17 – 2D Motion & Physics
-Skill: Select appropriate joints for puzzle mechanics
-Description: Students analyze their puzzle game design and select the appropriate joint types (fixed, revolute, prismatic) for each puzzle element. They justify joint choices based on desired mechanical behavior and puzzle challenge design.
-
-Dependencies:
-* T17.G8.07: Plan a physics-based puzzle game
-* T17.G8.02.01: Implement revolute joints for hinges
-* T17.G8.02.02: Implement prismatic joints for sliding
-
-
-ID: T17.G8.07.02
-Topic: T17 – 2D Motion & Physics
-Skill: Implement and test physics puzzle game
-Description: Students implement their physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. They playtest puzzles to ensure solutions are discoverable and mechanics work as intended, iterating on joint parameters and object properties to achieve desired difficulty.
-
-Dependencies:
-* T17.G8.07.01: Select appropriate joints for puzzle mechanics
+* T18.G6.01.01: Apply forces and impulses to physics bodies
 * T26.G6.01: Map stakeholder questions to data requirements
 * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
@@ -14431,40 +14346,35 @@ Description: Students compare front/top/side snapshots of the same object arrang
 
 Dependencies:
 * T18.G3.01: Interpret 3D axis directions
+* T07.G3.01: Use a counted repeat loop
 
 
 ID: T18.G3.03
 Topic: T18 – 3D Worlds & Games
 Skill: Initialize a 3D scene with a specific environment
-Description: Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D scene [SCENETYPE]` block, selecting from environment options (Empty, Blue Sky, Castle, City, etc.) to set the stage for their 3D project.
+Description: Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D world` block, selecting from environment options (Empty, Blue Sky, Castle, City, etc.) to set the stage for their project.
 
 Dependencies:
 * T18.G3.02: Match camera views to 3D layouts
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
-ID: T18.G3.03.01
-Topic: T18 – 3D Worlds & Games
-Skill: Set scene background color
-Description: Students use the `set scene background color [COLOR]` block to change the background color of the 3D scene, creating different moods or visual styles.
-
-Dependencies:
-* T18.G3.03: Initialize a 3D scene with a specific environment
+* T09.G3.01: Create and use a numeric variable for score or count
+* T07.G3.02: Trace a script with a simple loop
+* T03.G3.03: Create a 3‑panel storyboard for a project
 
 
 ID: T18.G3.04.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add a box shape to the 3D scene
-Description: Students use the `add box [COLOR] size in x y z` block to place a box in the scene, adjusting color and size parameters (width, height, depth) to create objects like platforms, walls, or buildings.
+Description: Students use the `add box` block to place a box in the scene, adjusting width, height, and depth parameters to create objects like platforms, walls, or buildings.
 
 Dependencies:
 * T18.G3.03: Initialize a 3D scene with a specific environment
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T18.G3.04.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add a sphere shape to the 3D scene
-Description: Students use the `add sphere [COLOR] size in x y z` block to create round objects like balls, planets, or collectibles, adjusting color and size parameters (diameter in x, y, z for oval/stretched spheres).
+Description: Students use the `add sphere` block to create round objects like balls, planets, or collectibles, setting diameter and segments for smoothness.
 
 Dependencies:
 * T18.G3.04.01: Add a box shape to the 3D scene
@@ -14473,7 +14383,7 @@ Dependencies:
 ID: T18.G3.04.03
 Topic: T18 – 3D Worlds & Games
 Skill: Add a cylinder shape to the 3D scene
-Description: Students use the `add cylinder [COLOR] diameter top bottom height` block to create columnar objects like posts, tree trunks, or poles, adjusting color, height, and top/bottom diameter parameters.
+Description: Students use the `add cylinder` block to create columnar objects like posts, trees, or poles, adjusting height and diameter parameters.
 
 Dependencies:
 * T18.G3.04.02: Add a sphere shape to the 3D scene
@@ -14482,667 +14392,552 @@ Dependencies:
 ID: T18.G3.05
 Topic: T18 – 3D Worlds & Games
 Skill: Position shapes using x/y/z coordinates
-Description: Students use the `move to x y z in (T) seconds` block to position an object at target coordinates, connecting coordinate understanding from earlier math skills to actual 3D positioning.
+Description: Students set `x`, `y`, and `z` values (or use `go to x:y:z`) to move an object to a target location, connecting coordinate plans from earlier math/diagram skills (T02/T25) to actual blocks.
 
 Dependencies:
 * T18.G3.04.03: Add a cylinder shape to the 3D scene
-
-
-ID: T18.G3.05.01
-Topic: T18 – 3D Worlds & Games
-Skill: Turn objects to face a direction
-Description: Students use the `rotate to direction x y z in (T) seconds` block to orient objects in 3D space by setting rotation angles around each axis.
-
-Dependencies:
-* T18.G3.05: Position shapes using x/y/z coordinates
-
-
-ID: T18.G3.05.02
-Topic: T18 – 3D Worlds & Games
-Skill: Turn objects incrementally around an axis
-Description: Students use the `turn (N) degrees around the [AXIS] axis` block to rotate objects incrementally, understanding how each axis (X, Y, Z) affects rotation.
-
-Dependencies:
-* T18.G3.05.01: Turn objects to face a direction
+* T09.G3.02: Use a variable in a conditional (if block)
+* T08.G3.02: Decide when a single if is enough
 
 
 ID: T18.G3.06.01
 Topic: T18 – 3D Worlds & Games
-Skill: Change shape color using diffusion color
-Description: Students use the `update color diffusion [COLOR]` block to apply a solid diffusion color to 3D objects, learning how to differentiate objects visually (e.g., making the ground green, a player red).
+Skill: Change shape color using basic color picker
+Description: Students use the `set color` block to apply a solid color to 3D objects, learning how to differentiate objects visually (e.g., making the ground green, a player red).
 
 Dependencies:
-* T18.G3.05.02: Turn objects incrementally around an axis
+* T18.G3.05: Position shapes using x/y/z coordinates
+* T07.G3.03: Build a forever loop for simple animation
+* T03.G3.04: Match storyboard panels to project scenes
 
 
 ID: T18.G3.06.02
 Topic: T18 – 3D Worlds & Games
-Skill: Add emission glow to objects
-Description: Students use the emission color parameter in the `update color diffusion [COLOR] emission [COLOR]` block to make objects appear to glow or emit light.
+Skill: Adjust shape transparency
+Description: Students use opacity or alpha blocks to make objects partially or fully transparent, useful for windows, water, or ghost effects.
 
 Dependencies:
-* T18.G3.06.01: Change shape color using diffusion color
-
-
-ID: T18.G3.06.03
-Topic: T18 – 3D Worlds & Games
-Skill: Adjust shape transparency with material settings
-Description: Students use the `material setting: transparent [HASTRANSPARENCY]` block to make objects partially or fully transparent, useful for windows, water, or ghost effects.
-
-Dependencies:
-* T18.G3.06.02: Add emission glow to objects
+* T18.G3.06.01: Change shape color using basic color picker
 
 
 ID: T18.G3.07
 Topic: T18 – 3D Worlds & Games
-Skill: Name 3D objects for later reference
-Description: Students learn to give meaningful names to objects using the `as [NAME]` parameter when creating shapes, so they can refer to them later in their scripts for movement, collision, or other interactions.
+Skill: Move a 3D player with keyboard input
+Description: Students build a `forever` loop that checks arrow keys (or WASD) and `change x/z` so a player cube can walk around the scene.
 
 Dependencies:
-* T18.G3.06.03: Adjust shape transparency with material settings
+* T18.G3.06.02: Adjust shape transparency
+* T08.G3.03: Pick the right conditional block for a scenario
+* T09.G3.03: Debug missing or wrong variable updates
 
 
 ID: T18.G3.08
 Topic: T18 – 3D Worlds & Games
-Skill: Select and work with named objects
-Description: Students use the `select sprite object by name [NAME]` block to select previously created objects, then apply transformations (move, rotate, color) to them.
+Skill: Trace a short 3D script to predict positions
+Description: Students read a short 3D script that changes `x`, `y`, and rotation values and predict the final position/orientation without running it, reinforcing spatial reasoning.
 
 Dependencies:
-* T18.G3.07: Name 3D objects for later reference
+* T18.G3.07: Move a 3D player with keyboard input
+* T11.G3.01: Understand when to use custom blocks vs loops
+* T07.G3.04: Use repeat‑until to reach a simple goal
 
 
 ID: T18.G4.01.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add plane shapes for floors and walls
-Description: Students use the `add plane [COLOR] size x y` block to create flat surfaces for floors, walls, or backdrops, adjusting color, width, and height to build environments.
+Description: Students use the `add plane` block to create flat surfaces for floors, walls, or backdrops, adjusting width and height to build environments.
 
 Dependencies:
-* T18.G3.08: Select and work with named objects
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01.01: Create a variable for the player's score
+* T14.G3.01.01: Build random integer generator
+* T18.G3.08: Trace a short 3D script to predict positions
 
 
 ID: T18.G4.01.02
 Topic: T18 – 3D Worlds & Games
-Skill: Add capsule shapes to the 3D scene
-Description: Students use the `add capsule [COLOR] diameter top bottom height sides` block to create capsule shapes (for character bodies, pillars, rounded posts), adjusting top and bottom diameter and height parameters.
+Skill: Add capsule and torus shapes
+Description: Students add capsule shapes (for character bodies, pillars) and torus shapes (for rings, wheels) to expand their shape vocabulary beyond basic primitives.
 
 Dependencies:
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T18.G4.01.01: Add plane shapes for floors and walls
 
 
 ID: T18.G4.01.03
 Topic: T18 – 3D Worlds & Games
-Skill: Add torus shapes to the 3D scene
-Description: Students use the `add torus [COLOR] diameter thickness sides` block to create donut-shaped rings (for wheels, rings, halos), adjusting diameter and thickness parameters.
+Skill: Compose a multi-part 3D scene with multiple primitives
+Description: Students create a complex environment using multiple primitive types (boxes, spheres, cylinders, planes, etc.), aligning them precisely to build a room, park, or racetrack.
 
 Dependencies:
-* T18.G4.01.02: Add capsule shapes to the 3D scene
-
-
-ID: T18.G4.01.04
-Topic: T18 – 3D Worlds & Games
-Skill: Remove individual 3D objects from the scene
-Description: Students use the `remove object named [NAME]` block to delete specific objects from the scene, useful for collecting items, removing enemies, or cleaning up game elements.
-
-Dependencies:
-* T18.G4.01.03: Add torus shapes to the 3D scene
-
-
-ID: T18.G4.01.05
-Topic: T18 – 3D Worlds & Games
-Skill: Remove all 3D objects from the scene
-Description: Students use the `remove all objects` block to clear the entire scene at once, useful for resetting levels, transitioning between scenes, or starting fresh.
-
-Dependencies:
-* T18.G4.01.04: Remove individual 3D objects from the scene
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T18.G4.01.02: Add capsule and torus shapes
 
 
 ID: T18.G4.02.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add ambient lighting to set base brightness
-Description: Students use the `add ambient light [COLOR] sky direction xyz intensity` block to provide overall base illumination to the scene, adjusting color and intensity for the desired mood.
+Description: Students add an ambient light to provide overall base illumination to the scene, adjusting color and intensity for the desired mood.
 
 Dependencies:
-* T18.G4.01.05: Remove all 3D objects from the scene
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T18.G4.01.03: Compose a multi-part 3D scene with multiple primitives
 
 
 ID: T18.G4.02.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add directional lighting for sunlight effect
-Description: Students use the `add directional light [COLOR] in direction xyz at xyz intensity` block to simulate sunlight, adjusting direction, color, and intensity to create shadows and depth.
+Description: Students place a directional light to simulate sunlight, adjusting direction, color, and intensity to create shadows and depth.
 
 Dependencies:
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T18.G4.02.01: Add ambient lighting to set base brightness
 
 
 ID: T18.G4.02.03
 Topic: T18 – 3D Worlds & Games
 Skill: Add point lights for localized illumination
-Description: Students use the `add point light [COLOR] at xyz intensity` block to create localized light sources (like light bulbs or torches) that radiate in all directions, setting position and intensity for localized lighting effects.
+Description: Students add point lights (like light bulbs or torches) that radiate in all directions, setting position, range, and intensity for localized lighting effects.
 
 Dependencies:
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T18.G4.02.02: Add directional lighting for sunlight effect
-
-
-ID: T18.G4.02.04
-Topic: T18 – 3D Worlds & Games
-Skill: Add spot lights for focused illumination
-Description: Students use the `add spot light [COLOR] at xyz open angle intensity blur` block to create focused cone-shaped lights (like flashlights or stage lights) with configurable direction and cone angle.
-
-Dependencies:
-* T18.G4.02.03: Add point lights for localized illumination
-
-
-ID: T18.G4.02.05
-Topic: T18 – 3D Worlds & Games
-Skill: Remove lights from the scene
-Description: Students use the `remove light named [NAME]` block to delete specific lights, or `remove all lights` to clear all lighting for scene transitions or resets.
-
-Dependencies:
-* T18.G4.02.04: Add spot lights for focused illumination
 
 
 ID: T18.G4.03.01
 Topic: T18 – 3D Worlds & Games
 Skill: Set up an orbit camera to view a target
-Description: Students use the `add orbit camera distance v-angle h-angle` block to create a camera that circles around a target point, adjusting radius, vertical angle, and horizontal angle for strategic or cinematic views.
+Description: Students use orbit camera blocks to circle around a target object or point, adjusting radius, height, and rotation speed for a strategic or cinematic view.
 
 Dependencies:
-* T18.G4.02.05: Remove lights from the scene
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T18.G4.02.03: Add point lights for localized illumination
 
 
 ID: T18.G4.03.02
 Topic: T18 – 3D Worlds & Games
-Skill: Set camera target position
-Description: Students use the `set camera target xyz` block to specify what point the camera looks at, allowing them to focus on specific objects or areas in the scene.
-
-Dependencies:
-* T18.G4.03.01: Set up an orbit camera to view a target
-
-
-ID: T18.G4.03.03
-Topic: T18 – 3D Worlds & Games
 Skill: Set up a follow camera to track a moving object
-Description: Students use the `add follow camera distance z-offset v-angle h-angle` block to create a camera that automatically follows a player or vehicle, adjusting offset and height for a smooth third-person view.
+Description: Students attach the camera to follow a player or vehicle, adjusting offset and height for a smooth third-person view that moves with the target.
 
 Dependencies:
-* T18.G4.03.02: Set camera target position
-
-
-ID: T18.G4.03.04
-Topic: T18 – 3D Worlds & Games
-Skill: Configure camera distance limits
-Description: Students use the `configure camera radius min max visible range min max` block to set bounds on how close or far the camera can zoom, preventing players from zooming too far in or out.
-
-Dependencies:
-* T18.G4.03.03: Set up a follow camera to track a moving object
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T18.G4.03.01: Set up an orbit camera to view a target
 
 
 ID: T18.G4.04.01
 Topic: T18 – 3D Worlds & Games
 Skill: Place 3D models from the CreatiCode library
-Description: Students use the `add model [MODELTYPE] target height origin offset rotation` block to select and place 3D models from CreatiCode's library (trees, cars, buildings, furniture) to enhance their scenes.
+Description: Students select and place 3D models from CreatiCode's 1000+ model library (trees, cars, buildings, furniture) to enhance their scenes with detailed assets.
 
 Dependencies:
-* T18.G4.03.04: Configure camera distance limits
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T18.G4.03.02: Set up a follow camera to track a moving object
 
 
 ID: T18.G4.04.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add avatar models to the scene
-Description: Students use the `add avatar [AVATARTYPE] height as [NAME]` block to add humanoid character models to their scenes, preparing for character animation and gameplay.
+Description: Students add avatar models (humanoid characters) to their scenes, distinguishing avatars from static models and preparing for character animation.
 
 Dependencies:
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T18.G4.04.01: Place 3D models from the CreatiCode library
 
 
 ID: T18.G4.05.01
 Topic: T18 – 3D Worlds & Games
 Skill: Play built-in avatar animations
-Description: Students use the `start model animation [NAME] looping speed ratio` block to play built-in avatar animations (walking, running, jumping, dancing, waving) to bring characters to life.
+Description: Students use animation blocks to play one of 100+ built-in avatar animations (walking, running, jumping, dancing, waving) to bring characters to life.
 
 Dependencies:
 * T18.G4.04.02: Add avatar models to the scene
+* T07.G3.01: Use a counted repeat loop
 
 
 ID: T18.G4.05.02
 Topic: T18 – 3D Worlds & Games
 Skill: Animate scenery elements with rotation loops
-Description: Students create looping animations for props (windmill spinning, fans rotating, wheels turning) by combining forever loops with the `turn degrees around axis` block.
+Description: Students create looping animations for props (windmill spinning, fans rotating, wheels turning) by combining `forever` loops with rotation changes.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T18.G4.05.01: Play built-in avatar animations
-* T07.G3.03: Build a forever loop for simple animation
 
 
 ID: T18.G4.05.03
 Topic: T18 – 3D Worlds & Games
 Skill: Animate scenery with position changes
-Description: Students use forever loops with the `move to xyz in (T) seconds` block to create bobbing platforms, swinging pendulums, or moving obstacles.
+Description: Students use loops to create bobbing platforms, swinging pendulums, or moving obstacles by smoothly changing position coordinates over time.
 
 Dependencies:
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T18.G4.05.02: Animate scenery elements with rotation loops
 
 
 ID: T18.G4.06
 Topic: T18 – 3D Worlds & Games
-Skill: Calculate distance between 3D objects
-Description: Students use the `distance between objects [OBJECT1] and [OBJECT2]` block to calculate how far apart two objects are, useful for proximity detection, triggers, and game logic.
+Skill: Detect when 3D objects are close or touching
+Description: Students use distance checking or proximity detection to trigger events when the player gets near tokens, NPCs, or hazards, then respond with sound, score changes, or dialog.
 
 Dependencies:
-* T18.G4.05.03: Animate scenery with position changes
-
-
-ID: T18.G4.06.01
-Topic: T18 – 3D Worlds & Games
-Skill: Trigger events based on object proximity
-Description: Students combine distance checking with conditionals to trigger events when the player gets near collectibles, NPCs, or hazards, responding with sounds, score changes, or actions.
-
-Dependencies:
-* T18.G4.06: Calculate distance between 3D objects
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
+* T18.G4.05.03: Animate scenery with position changes
 
 
 ID: T18.G5.01.01
 Topic: T18 – 3D Worlds & Games
 Skill: Initialize a 3D physics world with gravity
-Description: Students use the `enable physics for scene with gravity` block to add physics simulation, setting gravity strength so objects can fall and interact realistically.
+Description: Students add the CreatiCode 3D physics initialization block and set gravity direction and strength (X/Y/Z vectors) so objects can fall and interact realistically.
 
 Dependencies:
-* T18.G4.06.01: Trigger events based on object proximity
+* T18.G4.06: Detect when 3D objects are close or touching
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01: Create and use a numeric variable for score or count
+* T07.G3.01: Use a counted repeat loop
 
 
 ID: T18.G5.01.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add static physics bodies for immovable objects
-Description: Students use the `add [SHAPE] physics body with mass 0` block to attach static physics bodies to floors, walls, and platforms that should not move but should block other objects.
+Description: Students attach static (mass=0) physics bodies to floors, walls, and platforms that should not move but should block other objects.
 
 Dependencies:
 * T18.G5.01.01: Initialize a 3D physics world with gravity
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.01.03
 Topic: T18 – 3D Worlds & Games
 Skill: Add dynamic physics bodies for movable objects
-Description: Students use the `add [SHAPE] physics body with mass` block to add dynamic physics bodies to players, crates, and projectiles with mass > 0, so they can fall and collide.
+Description: Students add dynamic physics bodies to players, crates, and projectiles, setting mass, restitution (bounciness), and friction so objects fall and collide realistically.
 
 Dependencies:
 * T18.G5.01.02: Add static physics bodies for immovable objects
-
-
-ID: T18.G5.01.04
-Topic: T18 – 3D Worlds & Games
-Skill: Remove physics bodies from objects
-Description: Students use the `remove physics body` block to remove physics simulation from objects, useful for changing objects from dynamic to static or removing from physics simulation.
-
-Dependencies:
-* T18.G5.01.03: Add dynamic physics bodies for movable objects
-
-
-ID: T18.G5.01.05
-Topic: T18 – 3D Worlds & Games
-Skill: Freeze and unfreeze physics bodies
-Description: Students use the `freeze physics body named [NAME]` block to temporarily pause physics simulation on specific objects, useful for creating paused states or static moments.
-
-Dependencies:
-* T18.G5.01.04: Remove physics bodies from objects
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.02.01
 Topic: T18 – 3D Worlds & Games
 Skill: Configure restitution for bouncing behavior
-Description: Students use the `update physics property restitution` block to control how bouncy objects are (0% = no bounce, 100% = perfect bounce), useful for balls, projectiles, or platforms.
+Description: Students adjust the restitution parameter on physics bodies to control how bouncy objects are (0 = no bounce, 1 = perfect bounce), useful for balls, projectiles, or platforms.
 
 Dependencies:
-* T18.G5.01.05: Freeze and unfreeze physics bodies
+* T18.G5.01.03: Add dynamic physics bodies for movable objects
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.02.02
 Topic: T18 – 3D Worlds & Games
 Skill: Configure friction for sliding behavior
-Description: Students use the `update physics property friction` block to create slippery ice surfaces (low friction) or sticky floors (high friction), controlling how easily objects slide.
+Description: Students adjust friction parameters to create slippery ice surfaces or sticky floors, controlling how easily objects slide across surfaces.
 
 Dependencies:
 * T18.G5.02.01: Configure restitution for bouncing behavior
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.03.01
 Topic: T18 – 3D Worlds & Games
 Skill: Detect physics collision events
-Description: Students use the `broadcast [MESSAGE] on collision between physics bodies` block to detect when physics objects touch, triggering game logic responses.
+Description: Students use `when body A collides with body B` event blocks to detect when physics objects touch, preparing to respond with game logic.
 
 Dependencies:
 * T18.G5.02.02: Configure friction for sliding behavior
+* T08.G3.01: Use a simple if in a script
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Respond to collisions by collecting items
-Description: Students handle collision events by updating score, playing sounds, or removing collectible objects when the player touches them, combining collision detection with game logic.
+Description: Students respond to collision events by updating score, playing sounds, or removing collectible objects when the player touches them.
 
 Dependencies:
 * T18.G5.03.01: Detect physics collision events
-* T09.G3.01: Create and use a numeric variable for score or count
-
-
-ID: T18.G5.03.03
-Topic: T18 – 3D Worlds & Games
-Skill: Get names of objects in contact
-Description: Students use the `names of physics bodies in contact for [NAME]` block to get a list of all objects currently touching a physics body, enabling advanced collision handling.
-
-Dependencies:
-* T18.G5.03.02: Respond to collisions by collecting items
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.04.01
 Topic: T18 – 3D Worlds & Games
-Skill: Apply textures from the CreatiCode texture library
-Description: Students use the `update texture [TEXTURENAME] unit size` block to apply pre-made textures (wood, stone, grass, metal) from CreatiCode's library to make surfaces look realistic.
+Skill: Use nested loops to create 3D grids of objects
+Description: Students apply nested loops to stamp or spawn objects at evenly spaced coordinates in X and Z directions, creating grids of platforms, trees, or tiles.
 
 Dependencies:
-* T18.G5.03.03: Get names of objects in contact
+* T18.G5.03.02
+* T07.G3.01
+* T10.G3.05
+* T10.G4.18
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.04.02
 Topic: T18 – 3D Worlds & Games
-Skill: Apply costume textures to objects
-Description: Students use the `update texture using costume [COSTUMENAME]` block to apply custom-drawn costumes as textures on 3D surfaces, bridging 2D sprite art with 3D geometry.
+Skill: Add vertical variation to grid layouts
+Description: Students extend grid generation to vary Y coordinates, creating stepped platforms, hills, or terraced landscapes by modifying height in loops.
 
 Dependencies:
-* T18.G5.04.01: Apply textures from the CreatiCode texture library
-
-
-ID: T18.G5.04.03
-Topic: T18 – 3D Worlds & Games
-Skill: Configure texture repetition and rotation
-Description: Students use the `update texture unit size repeat h v rotation` block to control how textures tile across surfaces, adjusting repetition and rotation for realistic patterns.
-
-Dependencies:
-* T18.G5.04.02: Apply costume textures to objects
+* T18.G5.04.01
+* T10.G3.05
+* T10.G4.18
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.05.01
 Topic: T18 – 3D Worlds & Games
-Skill: Adjust material roughness for surface appearance
-Description: Students use the `update color roughness` parameter to control surface roughness, creating different looks from smooth shiny surfaces to rough matte ones.
+Skill: Apply textures from the CreatiCode texture library
+Description: Students select and apply textures from CreatiCode's 200+ texture library (wood, stone, grass, metal, etc.) to make surfaces look realistic.
 
 Dependencies:
-* T18.G5.04.03: Configure texture repetition and rotation
+* T18.G5.04.02: Add vertical variation to grid layouts
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.05.02
 Topic: T18 – 3D Worlds & Games
-Skill: Adjust material brightness
-Description: Students use the `update color brightness` parameter to control how bright or dark a surface appears, useful for creating variation in scene lighting effects.
+Skill: Apply costume textures to objects
+Description: Students apply custom-drawn costumes as textures on 3D surfaces, bridging 2D sprite art with 3D geometry.
 
 Dependencies:
-* T18.G5.05.01: Adjust material roughness for surface appearance
+* T18.G5.05.01: Apply textures from the CreatiCode texture library
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.05.03
 Topic: T18 – 3D Worlds & Games
-Skill: Scale objects in 3D
-Description: Students use the `update scale x y z in (T) seconds` block to resize objects proportionally or non-proportionally, making objects grow, shrink, or stretch.
+Skill: Adjust material properties for metallic and roughness
+Description: Students adjust material blocks to control metallic sheen and surface roughness, creating different looks (shiny metal, matte plastic, rough stone).
 
 Dependencies:
-* T18.G5.05.02: Adjust material brightness
+* T18.G5.05.02: Apply costume textures to objects
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.06.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add fog for depth and atmosphere
-Description: Students use the `set scene fog [MODE] color start end density` block to enable fog effects, creating atmospheric depth or spooky environments.
+Description: Students enable fog in the scene, adjusting color, density, and start/end distance to create atmospheric depth or spooky environments.
 
 Dependencies:
-* T18.G5.05.03: Scale objects in 3D
+* T18.G5.05.03: Adjust material properties for metallic and roughness
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.06.02
 Topic: T18 – 3D Worlds & Games
-Skill: Add prebuilt particle emitters
-Description: Students use the `add prebuilt emitter for [TYPE]` block to add fire, smoke, or other particle effects from the prebuilt library with default settings.
+Skill: Add particle emitters for fire and smoke
+Description: Students add particle emitter blocks (fire, smoke types) and position them to create torches, campfires, or explosions.
 
 Dependencies:
 * T18.G5.06.01: Add fog for depth and atmosphere
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G5.06.03
 Topic: T18 – 3D Worlds & Games
-Skill: Configure emitter colors
-Description: Students use the `configure emitter [NAME] color: start end` block to customize particle colors, creating custom-colored fire, smoke, or magical effects.
+Skill: Configure particle emitter colors and sizes
+Description: Students adjust emitter configuration blocks to change particle colors, sizes, emission rates, and lifespans for custom visual effects.
 
 Dependencies:
-* T18.G5.06.02: Add prebuilt particle emitters
-
-
-ID: T18.G5.06.04
-Topic: T18 – 3D Worlds & Games
-Skill: Configure emitter sizes
-Description: Students use the `configure emitter [NAME] size: start end` block to control how particle sizes change over their lifetime, from small sparks to large clouds.
-
-Dependencies:
-* T18.G5.06.03: Configure emitter colors
-
-
-ID: T18.G5.06.05
-Topic: T18 – 3D Worlds & Games
-Skill: Start and stop particle emitters
-Description: Students use the `start emitter [NAME]` and `stop emitter [NAME]` blocks to control when particle effects are active, useful for triggering explosions or turning off flames.
-
-Dependencies:
-* T18.G5.06.04: Configure emitter sizes
+* T18.G5.06.02: Add particle emitters for fire and smoke
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T18.G6.01.01
 Topic: T18 – 3D Worlds & Games
-Skill: Apply impulses to physics bodies
-Description: Students use the `apply impulse strength direction xyz at relative point xyz` block to give objects an instant push (for jumping, explosions, or knockback effects).
+Skill: Apply forces and impulses to physics bodies
+Description: Students apply forces or impulses to physics bodies to create jumps, launches, or wind effects, understanding the difference between continuous forces and instant impulses.
 
 Dependencies:
-* T18.G5.06.05: Start and stop particle emitters
+* T18.G5.06.03: Configure particle emitter colors and sizes
+* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 ID: T18.G6.01.02
 Topic: T18 – 3D Worlds & Games
-Skill: Apply continuous forces to physics bodies
-Description: Students use the `apply force strength direction xyz at relative point xyz` block to apply ongoing forces (for wind, gravity modifications, or thrust effects).
+Skill: Set up collision groups for selective interaction
+Description: Students assign 3D physics bodies to collision groups or masks so only certain pairs collide (player with platforms/coins, enemies avoiding one another, projectiles passing through decorations).
 
 Dependencies:
-* T18.G6.01.01: Apply impulses to physics bodies
+* T18.G6.01.01: Apply forces and impulses to physics bodies
 
 
 ID: T18.G6.01.03
 Topic: T18 – 3D Worlds & Games
-Skill: Set physics body speed directly
-Description: Students use the `set physics body speed in xyz` block to set an object's velocity directly, useful for precise movement control in physics simulations.
+Skill: Freeze physics body axes for constrained movement
+Description: Students use freeze blocks to lock rotation or movement on specific axes, preventing unwanted spinning or movement (like keeping a character upright).
 
 Dependencies:
-* T18.G6.01.02: Apply continuous forces to physics bodies
+* T18.G6.01.02: Set up collision groups for selective interaction
 
 
-ID: T18.G6.01.04
+ID: T18.G6.02
 Topic: T18 – 3D Worlds & Games
-Skill: Set up collision groups for selective interaction
-Description: Students use the `update collision group target groups` block to assign physics bodies to groups, controlling which objects can collide with each other.
+Skill: Trace multi-step 3D scripts with transforms
+Description: Students read longer scripts that mix coordinate changes, rotations, and camera commands (orbit, zoom) and predict final object positions or camera headings without running it.
 
 Dependencies:
-* T18.G6.01.03: Set physics body speed directly
+* T18.G6.01.03: Freeze physics body axes for constrained movement
 
 
-ID: T18.G6.01.05
+ID: T18.G6.03
 Topic: T18 – 3D Worlds & Games
-Skill: Lock physics body movement and rotation axes
-Description: Students use the `lock physics body speed in X Y Z rotation around X Y Z` block to constrain movement or rotation on specific axes, keeping characters upright or restricting movement.
+Skill: Refactor repeated object creation with loops
+Description: Students rewrite scripts that manually duplicate "add object / set transform" blocks into loops or custom functions, reducing duplication when spawning many props.
 
 Dependencies:
-* T18.G6.01.04: Set up collision groups for selective interaction
-
-
-ID: T18.G6.02.01
-Topic: T18 – 3D Worlds & Games
-Skill: Add virtual joystick controls
-Description: Students use the `add [SIDE] joystick` block to add on-screen virtual joystick controls for mobile-friendly 3D navigation.
-
-Dependencies:
-* T18.G6.01.05: Lock physics body movement and rotation axes
-
-
-ID: T18.G6.02.02
-Topic: T18 – 3D Worlds & Games
-Skill: Read joystick input values
-Description: Students use the `joystick [PROPERTY]` block to read joystick X and Y values, mapping them to player movement or camera control.
-
-Dependencies:
-* T18.G6.02.01: Add virtual joystick controls
-
-
-ID: T18.G6.03.01
-Topic: T18 – 3D Worlds & Games
-Skill: Enable shadows from lights
-Description: Students use the `cast shadow from light named [NAME] blur size` block to enable shadow generation from specific lights, creating depth and realism.
-
-Dependencies:
-* T18.G6.02.02: Read joystick input values
-
-
-ID: T18.G6.03.02
-Topic: T18 – 3D Worlds & Games
-Skill: Configure objects to receive shadows
-Description: Students use the `receives shadow` block to control which objects show shadows cast on them, optimizing performance and visual quality.
-
-Dependencies:
-* T18.G6.03.01: Enable shadows from lights
+* T18.G6.02: Trace multi-step 3D scripts with transforms
+* T07.G5.01: Use a counted repeat loop
+* T11.G5.01: Understand when to use custom blocks vs loops
 
 
 ID: T18.G6.04.01
 Topic: T18 – 3D Worlds & Games
-Skill: Create glow layers for luminous effects
-Description: Students use the `create glow layer intensity blur size` block to set up glow effects, then add objects to the glow layer.
+Skill: Implement camera rotation with mouse input
+Description: Students map mouse movement to camera yaw and pitch to build a smooth first-person or free-look camera, including clamping pitch to avoid flipping.
 
 Dependencies:
-* T18.G6.03.02: Configure objects to receive shadows
+* T18.G6.03: Refactor repeated object creation with loops
 
 
 ID: T18.G6.04.02
 Topic: T18 – 3D Worlds & Games
-Skill: Create highlight layers for object emphasis
-Description: Students use the `create highlight layer blur size` block to create outline effects that make selected objects stand out.
+Skill: Add virtual joystick controls
+Description: Students add on-screen virtual joystick controls for mobile-friendly 3D navigation, mapping joystick input to player movement.
 
 Dependencies:
-* T18.G6.04.01: Create glow layers for luminous effects
+* T18.G6.04.01: Implement camera rotation with mouse input
 
 
 ID: T18.G6.05.01
 Topic: T18 – 3D Worlds & Games
-Skill: Add speech bubbles to 3D characters
-Description: Students use the `show speech bubble [TEXT] offset xyz` block to display dialog or thoughts above 3D characters, creating narrative or tutorial moments.
+Skill: Add spot lights for focused illumination
+Description: Students add spot lights (like flashlights or stage lights) with configurable direction, cone angle, and intensity for dramatic focused lighting.
 
 Dependencies:
-* T18.G6.04.02: Create highlight layers for object emphasis
+* T18.G6.04.02: Add virtual joystick controls
+
+
+ID: T18.G6.05.02
+Topic: T18 – 3D Worlds & Games
+Skill: Enable shadows for realistic lighting
+Description: Students enable shadow generation from lights, configuring which lights cast shadows and which objects receive them for depth and realism.
+
+Dependencies:
+* T18.G6.05.01: Add spot lights for focused illumination
+
+
+ID: T18.G6.05.03
+Topic: T18 – 3D Worlds & Games
+Skill: Add glow and highlight layers
+Description: Students add objects to glow or highlight layers to make them emit light or stand out, useful for power-ups, UI elements, or magical items.
+
+Dependencies:
+* T18.G6.05.02: Enable shadows for realistic lighting
 
 
 ID: T18.G6.06.01
 Topic: T18 – 3D Worlds & Games
-Skill: Enable mouse picking on 3D objects
-Description: Students use the `turn on picking with [BUTTON] for objects created in sprites` block to enable click detection on 3D objects.
+Skill: Add speech bubbles to 3D characters
+Description: Students use speech bubble blocks to show dialog or thoughts above 3D characters, creating narrative or tutorial moments.
 
 Dependencies:
-* T18.G6.05.01: Add speech bubbles to 3D characters
+* T18.G6.05.03: Add glow and highlight layers
 
 
 ID: T18.G6.06.02
 Topic: T18 – 3D Worlds & Games
-Skill: Get picked object information
-Description: Students use `picked object name`, `picked point x/y/z pos` blocks to determine which object was clicked and where, enabling interactive 3D interfaces.
+Skill: Detect mouse picking and clicking on 3D objects
+Description: Students use mouse picking blocks to detect when users click on specific 3D objects, enabling interactive menus, selectable items, or clickable NPCs.
 
 Dependencies:
-* T18.G6.06.01: Enable mouse picking on 3D objects
-
-
-ID: T18.G6.06.03
-Topic: T18 – 3D Worlds & Games
-Skill: Respond to object picking events
-Description: Students use the `when an object from this sprite is picked` event to handle clicks on 3D objects, triggering game actions or UI responses.
-
-Dependencies:
-* T18.G6.06.02: Get picked object information
+* T18.G6.06.01: Add speech bubbles to 3D characters
 
 
 ID: T18.G7.01.01
 Topic: T18 – 3D Worlds & Games
-Skill: Create extruded 3D shapes from 2D vertex lists
-Description: Students use the `add column [COLOR] 2D vertex list height cap type` block to extrude 2D polygon outlines into 3D shapes, making custom pillars, buildings, or unique geometry.
+Skill: Create extruded 3D shapes from 2D polygons
+Description: Students use the column (extrude) block to create 3D shapes from 2D polygon outlines, making custom pillars, buildings, or unique geometry.
 
 Dependencies:
-* T18.G6.06.03: Respond to object picking events
+* T18.G6.06.02: Detect mouse picking and clicking on 3D objects
 
 
 ID: T18.G7.01.02
 Topic: T18 – 3D Worlds & Games
-Skill: Create flat 3D text objects
-Description: Students use the `add 3D text [TEXT] font color width height diameter camera facing` block to create flat text labels, signs, or titles in the 3D world.
+Skill: Create 3D text objects
+Description: Students add flat or thick 3D text blocks to create signs, titles, or labels in the 3D world, adjusting font, size, and depth.
 
 Dependencies:
-* T18.G7.01.01: Create extruded 3D shapes from 2D vertex lists
+* T18.G7.01.01: Create extruded 3D shapes from 2D polygons
 
 
 ID: T18.G7.01.03
 Topic: T18 – 3D Worlds & Games
-Skill: Create thick 3D text objects
-Description: Students use the `add 3D thick text [TEXT] font color width height thickness diameter` block to create extruded text with depth for more prominent signs or logo effects.
+Skill: Use advanced shapes (cone, tube, stairs)
+Description: Students add cone, tube, rectangle tube, and stair shapes to expand their building vocabulary for more complex architecture and level design.
 
 Dependencies:
-* T18.G7.01.02: Create flat 3D text objects
-
-
-ID: T18.G7.01.04
-Topic: T18 – 3D Worlds & Games
-Skill: Add cone shapes from vertex lists
-Description: Students use the `add cone [COLOR] vertex list height` block to create cone shapes from 2D base outlines, useful for roofs, towers, or projectile tips.
-
-Dependencies:
-* T18.G7.01.03: Create thick 3D text objects
-
-
-ID: T18.G7.01.05
-Topic: T18 – 3D Worlds & Games
-Skill: Add tube shapes to the 3D scene
-Description: Students use the `add tube [COLOR] diameter top bottom height arc closed section cap type sides thickness` block to create hollow tubes for pipes, tunnels, or architectural elements.
-
-Dependencies:
-* T18.G7.01.04: Add cone shapes from vertex lists
-
-
-ID: T18.G7.01.06
-Topic: T18 – 3D Worlds & Games
-Skill: Add rectangle tube shapes
-Description: Students use the `add rectangle tube [COLOR] size X Y height cap type thickness sides` block to create hollow rectangular tubes for ducts, channels, or frames.
-
-Dependencies:
-* T18.G7.01.05: Add tube shapes to the 3D scene
-
-
-ID: T18.G7.01.07
-Topic: T18 – 3D Worlds & Games
-Skill: Add stair shapes to the 3D scene
-Description: Students use the `add stairs [COLOR] width depth height count thickness type` block to create staircase structures for platformers or architectural scenes.
-
-Dependencies:
-* T18.G7.01.06: Add rectangle tube shapes
+* T18.G7.01.02: Create 3D text objects
 
 
 ID: T18.G7.02.01
 Topic: T18 – 3D Worlds & Games
 Skill: Copy objects using grid matrix patterns
-Description: Students use the `copy by matrix count in xyz spacing in xyz` block to efficiently duplicate objects in 3D arrays (like building blocks, trees in a forest) without manual loops.
+Description: Students use grid matrix copying to efficiently duplicate objects in 3D arrays (like building blocks, trees in a forest) without manual loops.
 
 Dependencies:
-* T18.G7.01.07: Add stair shapes to the 3D scene
+* T18.G7.01.03: Use advanced shapes (cone, tube, stairs)
+* T07.G5.01: Grid patterns require nested loops to position objects.
 
 
 ID: T18.G7.02.02
 Topic: T18 – 3D Worlds & Games
 Skill: Copy objects using mirror symmetry
-Description: Students use the `copy to mirror position [TYPE]` block to create symmetrical designs across planes, useful for buildings, vehicles, or decorative patterns.
+Description: Students use mirror copy blocks to create symmetrical designs across planes, useful for buildings, vehicles, or decorative patterns.
 
 Dependencies:
 * T18.G7.02.01: Copy objects using grid matrix patterns
@@ -15151,7 +14946,7 @@ Dependencies:
 ID: T18.G7.02.03
 Topic: T18 – 3D Worlds & Games
 Skill: Copy objects using rotational symmetry
-Description: Students use the `copy to rotated position around [AXIS] axis count degree step` block to duplicate objects in circular patterns (like petals, spokes, columns around a center).
+Description: Students use rotational copy to duplicate objects in circular patterns (like petals, spokes, columns around a center), creating radial designs.
 
 Dependencies:
 * T18.G7.02.02: Copy objects using mirror symmetry
@@ -15160,7 +14955,7 @@ Dependencies:
 ID: T18.G7.03.01
 Topic: T18 – 3D Worlds & Games
 Skill: Add distance constraints between physics bodies
-Description: Students use the `add distance constraint between bodies` block to keep two physics bodies at a fixed or maximum distance, creating ropes, chains, or pendulums.
+Description: Students add distance constraints to keep two physics bodies at a fixed or maximum distance, creating ropes, chains, or pendulums.
 
 Dependencies:
 * T18.G7.02.03: Copy objects using rotational symmetry
@@ -15169,7 +14964,7 @@ Dependencies:
 ID: T18.G7.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Add hinge constraints for rotating joints
-Description: Students use the `add hinge constraint between bodies at point axis` block to create rotating joints like doors, gates, or mechanical arms that pivot around an axis.
+Description: Students add hinge constraints to create rotating joints like doors, gates, or mechanical arms that pivot around an axis.
 
 Dependencies:
 * T18.G7.03.01: Add distance constraints between physics bodies
@@ -15177,247 +14972,220 @@ Dependencies:
 
 ID: T18.G7.03.03
 Topic: T18 – 3D Worlds & Games
-Skill: Configure hinge constraint limits and motors
-Description: Students use the `set limits for hinge constraint` and `set speed for hinge constraint` blocks to control how far hinges can rotate and add motorized rotation.
+Skill: Add fixed constraints for rigid connections
+Description: Students use fixed constraints to weld physics bodies together, creating compound objects like connected train cars or attached weapons.
 
 Dependencies:
 * T18.G7.03.02: Add hinge constraints for rotating joints
 
 
-ID: T18.G7.03.04
-Topic: T18 – 3D Worlds & Games
-Skill: Add fixed constraints for rigid connections
-Description: Students use the `add fixed constraint between bodies` block to weld physics bodies together, creating compound objects like connected train cars or attached weapons.
-
-Dependencies:
-* T18.G7.03.03: Configure hinge constraint limits and motors
-
-
-ID: T18.G7.03.05
-Topic: T18 – 3D Worlds & Games
-Skill: Remove physics constraints
-Description: Students use the `remove constraint named [JOINTNAME]` block to disconnect previously linked physics bodies, useful for detaching objects or breaking connections.
-
-Dependencies:
-* T18.G7.03.04: Add fixed constraints for rigid connections
-
-
 ID: T18.G7.04.01
 Topic: T18 – 3D Worlds & Games
-Skill: Move objects along a direction
-Description: Students use the `move (DISTANCE) along current direction in (T) seconds` block to move objects forward based on their facing direction, useful for projectiles or AI movement.
+Skill: Implement waypoint-based NPC movement
+Description: Students code NPCs to follow a list of waypoint positions, pausing at each point or smoothly transitioning between them for patrol routes.
 
 Dependencies:
-* T18.G7.03.05: Remove physics constraints
+* T18.G7.03.03: Add fixed constraints for rigid connections
 
 
 ID: T18.G7.04.02
 Topic: T18 – 3D Worlds & Games
-Skill: Point objects toward a position
-Description: Students use the `point to position xyz in (T) seconds` block to orient objects toward a target location, useful for NPCs looking at players or turrets aiming.
+Skill: Implement distance-based chase AI
+Description: Students code NPCs to detect player distance, then compute direction vectors and adjust movement speed to chase or flee from the player.
 
 Dependencies:
-* T18.G7.04.01: Move objects along a direction
+* T18.G7.04.01: Implement waypoint-based NPC movement
 
 
 ID: T18.G7.05.01
 Topic: T18 – 3D Worlds & Games
-Skill: Merge multiple meshes into one
-Description: Students use the `merge [OBJECTNAME1] into [OBJECTNAME2]` block to combine multiple 3D objects into a single mesh for optimization or to create complex shapes.
+Skill: Create compound physics bodies from merged meshes
+Description: Students use merge blocks to combine multiple meshes, then attach compound physics bodies for complex collision shapes like vehicles or multi-part objects.
 
 Dependencies:
-* T18.G7.04.02: Point objects toward a position
+* T18.G7.04.02: Implement distance-based chase AI
 
 
 ID: T18.G7.05.02
 Topic: T18 – 3D Worlds & Games
-Skill: Create compound physics bodies
-Description: Students use the `add physics bodies into compound [NAME]` block to attach compound physics bodies to merged meshes for complex collision shapes like vehicles.
-
-Dependencies:
-* T18.G7.05.01: Merge multiple meshes into one
-
-
-ID: T18.G7.05.03
-Topic: T18 – 3D Worlds & Games
 Skill: Use carve operations for boolean geometry
-Description: Students use the `carve [STARTINGOBJECT] with [CARVINGOBJECT]` block to subtract one mesh from another, creating windows, doorways, or hollowed objects.
+Description: Students use carve blocks to subtract one mesh from another, creating windows, doorways, or hollowed objects.
 
 Dependencies:
-* T18.G7.05.02: Create compound physics bodies
+* T18.G7.05.01: Create compound physics bodies from merged meshes
 
 
 ID: T18.G7.06.01
 Topic: T18 – 3D Worlds & Games
-Skill: Animate camera position transitions
-Description: Students use the `set camera distance v-angle h-angle target xyz in (T) seconds` block to choreograph smooth camera movements for cutscenes or transitions.
+Skill: Script camera position transitions for cutscenes
+Description: Students choreograph camera movements through position/target waypoints, blending easing functions to create smooth cinematic transitions for intros or cutscenes.
 
 Dependencies:
-* T18.G7.05.03: Use carve operations for boolean geometry
+* T18.G7.05.02: Use carve operations for boolean geometry
 
 
 ID: T18.G7.06.02
 Topic: T18 – 3D Worlds & Games
-Skill: Add trails to moving objects
-Description: Students use the `add trail diffusion emission width segments` block to attach trail effects to moving objects, showing motion paths for projectiles, vehicles, or characters.
+Skill: Add particle trails to moving objects
+Description: Students attach trail effects to moving objects (projectiles, vehicles, characters) to show motion paths and add visual polish.
 
 Dependencies:
-* T18.G7.06.01: Animate camera position transitions
+* T18.G7.06.01: Script camera position transitions for cutscenes
 
 
 ID: T18.G7.06.03
 Topic: T18 – 3D Worlds & Games
-Skill: Create custom particle emitters
-Description: Students use the `add particle emitter shape texture facing camera life min max capacity` block to create custom particle systems with full control over appearance.
+Skill: Configure advanced particle emitters with custom shapes
+Description: Students configure particle emitters to use box, sphere, cone, or mesh emitter shapes, controlling emission direction and area for complex effects.
 
 Dependencies:
-* T18.G7.06.02: Add trails to moving objects
-
-
-ID: T18.G7.06.04
-Topic: T18 – 3D Worlds & Games
-Skill: Configure particle emitter shapes
-Description: Students use emitter shape configuration blocks (`configure box emitter`, `configure cone emitter`, `configure sphere emitter`) to control where particles spawn and in what pattern.
-
-Dependencies:
-* T18.G7.06.03: Create custom particle emitters
+* T18.G7.06.02: Add particle trails to moving objects
 
 
 ID: T18.G8.01.01
 Topic: T18 – 3D Worlds & Games
-Skill: Enable car physics simulation
-Description: Students use the `enable car simulation mass restitution friction tire friction suspension` block to enable car physics on a vehicle model.
+Skill: Create car simulations with physics
+Description: Students use car simulation blocks to create drivable vehicles with realistic steering, acceleration, and suspension physics.
 
 Dependencies:
-* T18.G7.06.04: Configure particle emitter shapes
+* T18.G7.06.03: Configure advanced particle emitters with custom shapes
 * T08.G6.01a: Use conditionals in physics simulations
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.01.02
 Topic: T18 – 3D Worlds & Games
-Skill: Control car engine and brakes
-Description: Students use the `set car engine force brake level` block to control acceleration and braking of physics-enabled vehicles.
+Skill: Implement dynamic level loading from data structures
+Description: Students store level data in lists or records and write code to spawn objects per level, supporting editing, replay, and difficulty scaling.
 
 Dependencies:
-* T18.G8.01.01: Enable car physics simulation
+* T18.G8.01.01: Create car simulations with physics
+* T09.G3.01: Create and use a numeric variable for score or count
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T18.G8.01.03
 Topic: T18 – 3D Worlds & Games
-Skill: Steer car to an angle
-Description: Students use the `steer car to angle` block to control wheel steering angle for turning physics-enabled vehicles.
+Skill: Create and manage multiple 3D camera views
+Description: Students create two camera feeds (main gameplay plus minimap/UI view or split-screen for multiplayer) and manage when each renders.
 
 Dependencies:
-* T18.G8.01.02: Control car engine and brakes
+* T18.G8.01.02: Implement dynamic level loading from data structures
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T18.G8.02.01
 Topic: T18 – 3D Worlds & Games
-Skill: Set up multiple camera display regions
-Description: Students use the `set display region bottom left width height border` block to create split-screen views or picture-in-picture displays for multiple camera feeds.
+Skill: Add skybox textures to scenes
+Description: Students add skybox textures to create 360-degree background environments (space, mountains, city skylines) for immersive scenes.
 
 Dependencies:
-* T18.G8.01.03: Steer car to an angle
+* T18.G8.01.03: Create and manage multiple 3D camera views
+* T08.G6.01a: Use conditionals in physics simulations
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.02.02
 Topic: T18 – 3D Worlds & Games
-Skill: Add skybox textures to scenes
-Description: Students use the `set sky [SKYTYPE]` block to add skybox textures for 360-degree background environments (space, mountains, city skylines).
+Skill: Add post-processing effects to scenes
+Description: Students enable post-processing effects (bloom, color grading, depth of field) to enhance visual quality and mood of entire scenes.
 
 Dependencies:
-* T18.G8.02.01: Set up multiple camera display regions
-
-
-ID: T18.G8.02.03
-Topic: T18 – 3D Worlds & Games
-Skill: Add post-processing pipeline effects
-Description: Students use the `add pipeline vignette bloom antialiasing sharpening contrast exposure` block to enhance visual quality with effects like bloom, vignette, and color grading.
-
-Dependencies:
-* T18.G8.02.02: Add skybox textures to scenes
+* T18.G8.02.01: Add skybox textures to scenes
 * T03.G6.01: Propose modules for a medium project
+* T08.G6.01a: Use conditionals in physics simulations
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.03.01
 Topic: T18 – 3D Worlds & Games
 Skill: Export 3D models as GLB files
-Description: Students use the `export object [NAME] as a GLB file` block to save created 3D geometry for use in other applications or sharing.
+Description: Students use export blocks to save created 3D geometry as GLB files for use in other applications or sharing.
 
 Dependencies:
-* T18.G8.02.03: Add post-processing pipeline effects
+* T18.G8.02.02: Add post-processing effects to scenes
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
+* T25.G6.01: Document metadata for datasets
 
 
 ID: T18.G8.03.02
 Topic: T18 – 3D Worlds & Games
 Skill: Export 3D models as STL files for 3D printing
-Description: Students use the `export object [NAME] as an STL file` block to export 3D geometry suitable for 3D printing, bridging digital creation with physical fabrication.
+Description: Students export 3D geometry as STL files suitable for 3D printing, bridging digital creation with physical fabrication.
 
 Dependencies:
 * T18.G8.03.01: Export 3D models as GLB files
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
+* T25.G6.01: Document metadata for datasets
+* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T18.G8.04.01
 Topic: T18 – 3D Worlds & Games
-Skill: Enable AR world camera mode
-Description: Students use the `switch to AR world camera scale emulation mode` block to enable augmented reality, placing 3D objects in real-world environments using the device camera.
+Skill: Implement AR world camera tracking
+Description: Students enable AR world camera to place 3D objects in real-world environments using device camera, creating augmented reality experiences.
 
 Dependencies:
 * T18.G8.03.02: Export 3D models as STL files for 3D printing
+* T19.G6.00A: Understand what "multiplayer" means in CreatiCode games (deeper dive)
+* T25.G6.01: Document metadata for datasets
+* T30.G6.01: Analyze sensor specifications for CreatiCode projects
 
 
 ID: T18.G8.04.02
 Topic: T18 – 3D Worlds & Games
-Skill: Enable AR face tracking mode
-Description: Students use the `switch to AR face camera show marker scale emulation mode` block to enable face tracking that can attach 3D objects to detected faces for filters or effects.
+Skill: Implement AR face tracking
+Description: Students use face tracking blocks to attach 3D objects to detected faces, creating filters or interactive AR effects.
 
 Dependencies:
-* T18.G8.04.01: Enable AR world camera mode
+* T18.G8.04.01: Implement AR world camera tracking
+* T03.G6.01: Propose modules for a medium project
+* T11.G6.01: Design custom blocks with clear, predictable interfaces
+* T23.G6.01.01: Capture a single spoken phrase with basic speech recognition
 
 
 ID: T18.G8.04.03
 Topic: T18 – 3D Worlds & Games
-Skill: Enable AR image/logo tracking mode
-Description: Students use the `switch to AR LOGO as [TYPE] camera` block to display 3D content when specific images or logos are detected by the camera.
+Skill: Implement AR image tracking
+Description: Students configure AR image tracking to display 3D content when specific images are detected by the camera, creating marker-based AR.
 
 Dependencies:
-* T18.G8.04.02: Enable AR face tracking mode
+* T18.G8.04.02: Implement AR face tracking
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T10.G6.01: Sort a table by a column
+
 
 
 ID: T18.G8.05.01
 Topic: T18 – 3D Worlds & Games
-Skill: Build mirrors for reflective surfaces
-Description: Students use the `build mirror brightness using object named [NAME]` block to create reflective surfaces showing other objects, useful for water, windows, or polished floors.
+Skill: Use mirrors for reflective surfaces
+Description: Students add mirror blocks to create reflective surfaces that show other objects in the scene, useful for water, windows, or polished floors.
 
 Dependencies:
-* T18.G8.04.03: Enable AR image/logo tracking mode
+* T18.G8.04.03: Implement AR image tracking
+* T03.G6.01: Propose modules for a medium project
+* T08.G6.01a: Use conditionals in physics simulations
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T18.G8.05.02
 Topic: T18 – 3D Worlds & Games
-Skill: Create geometry points in 3D space
-Description: Students use the `geometry: add point at xyz color size` block to define vertices in 3D space as the foundation for custom geometry.
+Skill: Create custom geometry with points, lines, and triangles
+Description: Students use geometry blocks to define custom meshes from vertices, edges, and faces, creating unique shapes not available as primitives.
 
 Dependencies:
-* T18.G8.05.01: Build mirrors for reflective surfaces
-
-
-ID: T18.G8.05.03
-Topic: T18 – 3D Worlds & Games
-Skill: Create geometry lines between points
-Description: Students use the `geometry: add line between points color diameter` block to create line segments between defined points for wireframe or structural visualization.
-
-Dependencies:
-* T18.G8.05.02: Create geometry points in 3D space
-
-
-ID: T18.G8.05.04
-Topic: T18 – 3D Worlds & Games
-Skill: Create geometry triangles from points
-Description: Students use the `geometry: add triangle from points color` block to create triangular faces from three points, building custom meshes from vertices.
-
-Dependencies:
-* T18.G8.05.03: Create geometry lines between points
+* T18.G8.05.01: Use mirrors for reflective surfaces
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T11.G6.01: Design custom blocks with clear, predictable interfaces
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T18.G8.06.01
@@ -15426,7 +15194,10 @@ Skill: Analyze and optimize 3D scene performance
 Description: Students profile a sluggish 3D project, identify bottlenecks (too many objects, physics bodies, or draw calls), and refactor using pooling, culling, or simplified meshes.
 
 Dependencies:
-* T18.G8.05.04: Create geometry triangles from points
+* T18.G8.05.02: Create custom geometry with points, lines, and triangles
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
 * T13.G6.01: Trace complex code with multiple variables
 
 
@@ -15437,7 +15208,9 @@ Description: Students review a completed 3D project and explain design choices (
 
 Dependencies:
 * T18.G8.06.01: Analyze and optimize 3D scene performance
+* T02.G6.01: Learn the pseudocode generation block
 * T03.G6.01: Propose modules for a medium project
+* T19.G6.00A: Understand what "multiplayer" means in CreatiCode games (deeper dive)
 
 
 ID: T19.G5.01

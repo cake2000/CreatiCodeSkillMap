@@ -1,0 +1,1299 @@
+================================================================================
+CREATICODE VARIABLE-RELATED BLOCKS COMPREHENSIVE LIST
+================================================================================
+
+================================================================================
+CATEGORY: VARIABLES (59 blocks)
+================================================================================
+
+[1/59]
+Block ID: data_reducevariableby
+Category: Variables
+Can be used for 3D: false
+Syntax: reduce [VARIABLE v] by (N)
+Usage Example: reduce [vx v] by (1)
+QuickDescription: 
+
+
+Description: 
+Reduces the variable VARIABLE by the amount of N. for young leaners who do not know negative numbers, this block is simpler to use than the 'change [VARIABLE v] by (N)' block .
+
+--------------------------------------------------------------------------------
+
+[2/59]
+Block ID: data_exportvariable
+Category: Variables
+Can be used for 3D: false
+Syntax: export variable [VARIABLE v]
+Usage Example: export variable [vx v]
+QuickDescription: 
+
+
+Description: 
+Exports the content of the selected variable VARIABLE to a txt file. The file will have the same name as the variable.
+
+--------------------------------------------------------------------------------
+
+[3/59]
+Block ID: data_importvariable
+Category: Variables
+Can be used for 3D: false
+Syntax: import variable [VARIABLE v]
+Usage Example: import variable [vx v]
+QuickDescription: 
+
+
+Description: 
+Display a file selection dialog window for user to pick a txt or csv file, then read the content of the select file and store it in the given variable. If user does not select any file, the variable will be unchanged.
+
+--------------------------------------------------------------------------------
+
+[4/59]
+Block ID: data_reduceitemoflist
+Category: Variables
+Can be used for 3D: false
+Syntax: reduce item (INDEX) of [LISTNAME v] by (N)
+Usage Example: reduce item (1) of [i v] by (1)
+QuickDescription: 
+
+
+Description: 
+Reduces the value of the item at the index of INDEX in the list LISTNAME by the amount of N. for young leaners who do not know negative numbers, this block is simpler to use than then 'change item (INDEX) of [LISTNAME v] by (N)' block
+
+--------------------------------------------------------------------------------
+
+[5/59]
+Block ID: data_changeitemoflist
+Category: Variables
+Can be used for 3D: false
+Syntax: change item (INDEX) of [LISTNAME v] by (N)
+Usage Example: change item (1) of [i v] by [10]
+QuickDescription: 
+
+
+Description: 
+Changes the value of the item at the index INDEX in the list LISTNAME by N.
+
+--------------------------------------------------------------------------------
+
+[6/59]
+Block ID: data_joinlistwith
+Category: Variables
+Can be used for 3D: false
+Syntax: join [LISTNAME v] into text with [SEPARATOR]
+Usage Example: join [i v] into text with [,]
+QuickDescription: 
+
+
+Description: 
+A reporter block that joins all items in the list LISTNAME into one text with the specified SEPARATOR. For example, if the list contains 3 items of 'a', 'b' and 'c', and the SEPARATOR is a comma, then the return value will be 'a,b,c'. To join the items as multiple lines, you can use '\n' as the SEPARATOR
+
+--------------------------------------------------------------------------------
+
+[7/59]
+Block ID: data_set_list_to_split_of
+Category: Variables
+Can be used for 3D: false
+Syntax: set [LISTNAME v] to split of [TEXT] with splitter [SEPARATOR]
+Usage Example: set [i v] to split of [a,b,c] with splitter [,]
+QuickDescription: 
+
+
+Description: 
+Splits the given text TEXT by the splitter separator SEPARATOR and stores the parts in the selected list LISTNAME. Note that to split a multi-line text into multiple lines by '\n', the SEPARATOR needs to be '\\n' to escape the '\'.
+
+--------------------------------------------------------------------------------
+
+[8/59]
+Block ID: data_deletevalueoflist
+Category: Variables
+Can be used for 3D: false
+Syntax: delete value [V] from [LISTNAME v]
+Usage Example: delete value [abc] from [my list v]
+QuickDescription: 
+
+
+Description: 
+find the first item with the given value V and delete it from the selected list LISTNAME.
+
+--------------------------------------------------------------------------------
+
+[9/59]
+Block ID: data_reverselist
+Category: Variables
+Can be used for 3D: false
+Syntax: reverse [LISTNAME v]
+Usage Example: reverse [i v]
+QuickDescription: 
+
+
+Description: 
+reverse the order of all the items in the selected list LISTNAME.
+
+--------------------------------------------------------------------------------
+
+[10/59]
+Block ID: data_reshuffle
+Category: Variables
+Can be used for 3D: false
+Syntax: reshuffle [LISTNAME v] randomly
+Usage Example: reshuffle [i v] randomly
+QuickDescription: 
+
+
+Description: 
+Reshuffles the items in the selected list LISTNAME randomly.
+
+--------------------------------------------------------------------------------
+
+[11/59]
+Block ID: data_sortlistby
+Category: Variables
+Can be used for 3D: false
+Syntax: sort list [LISTNAME v] from [METHOD v]
+Usage Example: sort list [i v] from [large to small v]
+QuickDescription: 
+
+
+Description: 
+Sorts the items in the selected list LISTNAME using the specified METHOD: 'large to small' or 'small to large'.
+
+--------------------------------------------------------------------------------
+
+[12/59]
+Block ID: data_insertitemsfromlist
+Category: Variables
+Can be used for 3D: false
+Syntax: insert (N) [SELECTOR v] items from [LISTNAME1 v] into [LISTNAME2 v]
+Usage Example: insert (5) [largest v] items from [ss v] into [tt v]
+QuickDescription: 
+
+
+Description: 
+select N items from the list LISTNAME1 and append them to the list LISTNAME2. The selection method is specified by SELECTOR: 'largest' or 'smallest' or 'random'
+
+--------------------------------------------------------------------------------
+
+[13/59]
+Block ID: data_copytolist
+Category: Variables
+Can be used for 3D: false
+Syntax: copy [LISTNAME1 v] to [LISTNAME2 v]
+Usage Example: copy [i v] to [j v]
+QuickDescription: 
+
+
+Description: 
+copies all items in the list LISTNAME1 to the list LISTNAME2 and replaces the original items in the list LISTNAME2. After this block runs, both lists will have the same items.
+
+--------------------------------------------------------------------------------
+
+[14/59]
+Block ID: data_appendtolist
+Category: Variables
+Can be used for 3D: false
+Syntax: append [LISTNAME1 v] to [LISTNAME2 v]
+Usage Example: append [i v] to [j v]
+QuickDescription: 
+
+
+Description: 
+appends all the items in the list LISTNAME1 to the end of the list LISTNAME2, below the original items in LISTNAME2.
+
+--------------------------------------------------------------------------------
+
+[15/59]
+Block ID: data_setrandomlist
+Category: Variables
+Can be used for 3D: false
+Syntax: set [LISTNAME v] to (N) random whole numbers between (MIN) and (MAX) [REPEATMETHOD v]
+Usage Example: set [i v] to (10) random whole numbers between (1) and (10) [no repetition v]
+QuickDescription: 
+
+
+Description: 
+Populate the list LISTNAME with N random whole numbers between MIN and MAX values. The REPEATMETHOD can be 'no repetition' (every random number will be different) or 'allow repetition' (duplicate random numbers are allowed).
+
+--------------------------------------------------------------------------------
+
+[16/59]
+Block ID: data_setrandomlistseed
+Category: Variables
+Can be used for 3D: false
+Syntax: set [LISTNAME v] to (N) random numbers with seed (SEED)
+Usage Example: set [list1 v] to (100) random numbers with seed (1)
+QuickDescription: 
+
+
+Description: 
+Populate the list LISTNAME with N random numbers between 0 and 1 using the SEED value. When the same SEED value is used, the result random numbers will be the same. This allows different users to get the same random number sequence when they use the same SEED. For example, our program can create a maze puzzle that is determined by the random numbers in the list, so 2 users can use the same SEED to get the same random maze and compete who can solve it first.
+
+--------------------------------------------------------------------------------
+
+[17/59]
+Block ID: data_itemnumoflist2
+Category: Variables
+Can be used for 3D: false
+Syntax: # of item containing [TEXT] in [LISTNAME v]
+Usage Example: # of item containing [a] in [i v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the position of the first item in the list LISTNAME where the item's value includes the specified TEXT as a substring.
+
+--------------------------------------------------------------------------------
+
+[18/59]
+Block ID: data_itemspecificvalueoflist
+Category: Variables
+Can be used for 3D: false
+Syntax: [METHOD v] of list [LISTNAME v]
+Usage Example: [smallest v] of list [ss v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the METHOD (can be smallest/largest/sum/average/median) of the given list LISTNAME
+
+--------------------------------------------------------------------------------
+
+[19/59]
+Block ID: data_for_each
+Category: Variables
+Can be used for 3D: false
+Syntax: for each item [VARIABLENAME v] in [LISTNAME v]
+end
+Usage Example: for each item [my variable v] in [ss v]
+end
+QuickDescription: 
+
+
+Description: 
+a c-block that iterates through all items in the given list, and in each iteration, the variable named VARIABLENAME will take the value of each item
+
+--------------------------------------------------------------------------------
+
+[20/59]
+Block ID: data_for_each_index
+Category: Variables
+Can be used for 3D: false
+Syntax: for each index [INDEXVARIABLENAME v] in [LISTNAME v]
+end
+Usage Example: for each index [my variable v] in [ss v]
+end
+QuickDescription: 
+
+
+Description: 
+a c-block that iterates through all items in the given list, and in each iteration, the variable named VARIABLENAME will take the index of each item starting at 1
+
+--------------------------------------------------------------------------------
+
+[21/59]
+Block ID: data_savedata
+Category: Variables
+Can be used for 3D: false
+Syntax: save [VISIBILITY v] data [VALUE] with name [KEY]
+Usage Example: save [public v] data [a] with name [b]
+QuickDescription: 
+
+
+Description: 
+saves the input data VALUE with the specified KEY in the server database. The data's VISIBILITY can be 'public' (all users running this project can read this data) or 'private' (only this user can read the data). Note that the data is stored as part of the current project, so it can only be read when this project runs.
+
+--------------------------------------------------------------------------------
+
+[22/59]
+Block ID: data_removedata
+Category: Variables
+Can be used for 3D: false
+Syntax: remove [VISIBILITY v] data named [KEY]
+Usage Example: remove [public v] data named [a]
+QuickDescription: 
+
+
+Description: 
+removes the data stored with the specified KEY. The VISIBILITY of the data can be 'public' (all users running this project can see it) or 'private' (only this user can see it).
+
+--------------------------------------------------------------------------------
+
+[23/59]
+Block ID: data_loaddata
+Category: Variables
+Can be used for 3D: false
+Syntax: load data named [KEY]
+Usage Example: load data named [a]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the data stored with the specified KEY. The data must have been stored with the given KEY beforehand. Also, if the data was stored with VISIBILITY of 'private', then only the user who has stored that data can read it.
+
+--------------------------------------------------------------------------------
+
+[24/59]
+Block ID: data_load_data_names
+Category: Variables
+Can be used for 3D: false
+Syntax: data names
+Usage Example: data names
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns a list of all data names in the project, separated by '&&', such as 'a&&b&&c'.
+
+--------------------------------------------------------------------------------
+
+[25/59]
+Block ID: data_rowatindexoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: row (ROWINDEX) of table [TABLENAME v] separator [SEPARATOR]
+Usage Example: row (1) of table [table1 v] separator [,]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns all the data in the given row with row index of ROWINDEX of the given table named TABLENAME. The data values will be joined into a string as separated by the specified SEPARATOR. This block is handy for reading all cells from a row
+
+--------------------------------------------------------------------------------
+
+[26/59]
+Block ID: data_rowindexwithcondition
+Category: Variables
+Can be used for 3D: false
+Syntax: row # of [VALUE] in column [COLUMN] in table [TABLENAME v]
+Usage Example: row # of [john] in column [name] in table [table1 v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the row index of a the given VALUE in the column named COLUMN of the table named TABLENAME. If the value is not found, it returns -1. Note that the row index of tables starts at 1.
+
+--------------------------------------------------------------------------------
+
+[27/59]
+Block ID: data_rowindexwithcondition2
+Category: Variables
+Can be used for 3D: false
+Syntax: row # of item containing [SUBSTRING] in column [COLUMN] in table [TABLENAME v]
+Usage Example: row # of item containing [zh] in column [name] in table [table1 v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that looks through the data in the column named COLUMN in the table named TABLENAME, and returns the row index of the first item that contains the given SUBSTRING. If the value is not a substring of any item in that column, this block will returns -1.
+
+--------------------------------------------------------------------------------
+
+[28/59]
+Block ID: data_addrowtotable
+Category: Variables
+Can be used for 3D: false
+Syntax: add to table [TABLENAME v]: [CELL1] [CELL2] [CELL3] [CELL4] [CELL5] [CELL6] [CELL7] [CELL8] [CELL9] [CELL10] [CELL11] [CELL12]
+Usage Example: add to table [table1 v]: [a] [b] [] [] [] [] [] [] [] [] [] []
+QuickDescription: 
+
+
+Description: 
+appends a new row of data to the table named TABLENAME at the bottom with values of CELL1 to CELL12. Any empty input will be ignored, and at most 12 data points can be appended using this block.
+
+--------------------------------------------------------------------------------
+
+[29/59]
+Block ID: data_removeallcolumnsfromtable
+Category: Variables
+Can be used for 3D: false
+Syntax: delete all columns from table [TABLENAME v]
+Usage Example: delete all columns from table [table1 v]
+QuickDescription: 
+
+
+Description: 
+deletes all columns from the table named TABLENAME so it becomes empty with no columns.
+
+--------------------------------------------------------------------------------
+
+[30/59]
+Block ID: data_addcolatposition
+Category: Variables
+Can be used for 3D: false
+Syntax: add column [COLUMNNAME] at position (POSITION) to table [TABLENAME v]
+Usage Example: add column [age] at position (1) to table [table1 v]
+QuickDescription: 
+
+
+Description: 
+adds a new column named COLUMNNAME at the column position of POSITION in the table named TABLENAME. The POSITION of the first column is 1.
+
+--------------------------------------------------------------------------------
+
+[31/59]
+Block ID: data_insertrowtotable
+Category: Variables
+Can be used for 3D: false
+Syntax: insert at row (ROWNUM) of table [TABLENAME v]: [CELL1] [CELL2] [CELL3] [CELL4] [CELL5] [CELL6] [CELL7] [CELL8] [CELL9] [CELL10] [CELL11] [CELL12]
+Usage Example: insert at row (1) of table [table1 v]: [c] [d] [] [] [] [] [] [] [] [] [] []
+QuickDescription: 
+
+
+Description: 
+inserts a new row of data at the specified row index of ROWNUM (first row has a row index of 1) to the table named TABLENAME. The value of the data cells in this row will be CELL1 to CELL12.. Empty cell values are ignored.
+
+--------------------------------------------------------------------------------
+
+[32/59]
+Block ID: data_replacerowoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: replace row (ROWNUM) of table [TABLENAME v] with: [CELL1] [CELL2] [CELL3] [CELL4] [CELL5] [CELL6] [CELL7] [CELL8] [CELL9] [CELL10] [CELL11] [CELL12]
+Usage Example: replace row (1) of table [table1 v] with: [2] [sophia] [] [] [] [] [] [] [] [] [] []
+QuickDescription: 
+
+
+Description: 
+replaces the data in the row at the specified row index of ROWNUM (first row has a row index of 1) in the table named TABLENAME. The value of the cells in this row will be CELL1 to CELL12. Empty cell values are ignored.
+
+--------------------------------------------------------------------------------
+
+[33/59]
+Block ID: data_replaceitematrowcolumn
+Category: Variables
+Can be used for 3D: false
+Syntax: replace item at row (ROWNUM) column [COLUMN] of table [TABLENAME v] with [VALUE]
+Usage Example: replace item at row (1) column [age] of table [table1 v] with [13]
+QuickDescription: 
+
+
+Description: 
+replaces the item at the row index of ROWNUM and column named COLUMN in the table named TABLENAME with the new value of VALUE.
+
+--------------------------------------------------------------------------------
+
+[34/59]
+Block ID: data_reduceitematrowcolumn
+Category: Variables
+Can be used for 3D: false
+Syntax: reduce item at row (ROWNUM) column [COLUMN] of table [TABLENAME v] by (CHANGEAMOUNT)
+Usage Example: reduce item at row (1) column [age] of table [table1 v] by (1)
+QuickDescription: 
+
+
+Description: 
+reduces the value of the item at row index of ROWNUM (first row has an index of 1) and the column named COLUMN in the table named TABLENAME by the CHANGEAMOUNT.
+
+--------------------------------------------------------------------------------
+
+[35/59]
+Block ID: data_changeitematrowcolumn
+Category: Variables
+Can be used for 3D: false
+Syntax: change item at row (ROWNUM) column [COLUMN] of table [TABLENAME v] by (CHANGEAMOUNT)
+Usage Example: change item at row (1) column [age] of table [table1 v] by (1)
+QuickDescription: 
+
+
+Description: 
+change the value of the item at row index of ROWNUM (first row has an index of 1) and the column named COLUMN in the table named TABLENAME by the CHANGEAMOUNT.
+
+--------------------------------------------------------------------------------
+
+[36/59]
+Block ID: data_settabletocomputed
+Category: Variables
+Can be used for 3D: false
+Syntax: set table [TABLENAME1 v] to [METHOD v] of column [COLUMN1] in table [TABLENAME2 v] by column [COLUMN2]
+Usage Example: set table [table1 v] to [smallest v] of column [age] in table [table2 v] by column [grade]
+QuickDescription: 
+
+
+Description: 
+update the value of the table named TABLENAME1 by aggregating the data from the table named TABLENAME2. The data in COLUMN2 of the table named TABLENAME2 will be grouped by the value of items in the column named COLUMN1, and the aggregation METHOD can be 'minimum', 'maximum', 'sum', 'average', 'median'. Note that this block will only be available when you have at least 2 tables defined in the project.
+Example Program:
+
+when green flag clicked
+    // [delete all columns will also remove all data]
+    delete all columns from table [t1 v]
+    // [add 3 columns, but there are no rows yet]
+    add column [name] at position (1) to table [t1 v]
+    add column [gender] at position (2) to table [t1 v]
+    add column [score] at position (3) to table [t1 v]
+    // [add 4 rows of data]
+    add to table [t1 v]: [Joe] [M] [92] [] [] [] [] [] [] [] [] []
+    add to table [t1 v]: [Mike] [M] [96] [] [] [] [] [] [] [] [] []
+    add to table [t1 v]: [Sophia] [F] [100] [] [] [] [] [] [] [] [] []
+    add to table [t1 v]: [Jenny] [F] [98] [] [] [] [] [] [] [] [] []
+    // [generate average score for gender of M vs F, so the summary table will have 2 columns of gender and score, and the first row will be M and 94, and second row will be F and 99]
+    set table [summary v] to [largest v] of column [score] in table [t1 v] by column [gender]
+end
+
+--------------------------------------------------------------------------------
+
+[37/59]
+Block ID: data_reshuffletable
+Category: Variables
+Can be used for 3D: false
+Syntax: reshuffle table [TABLENAME v] randomly
+Usage Example: reshuffle table [table1 v] randomly
+QuickDescription: 
+
+
+Description: 
+reshuffles the rows of the table named TABLENAME randomly.
+
+--------------------------------------------------------------------------------
+
+[38/59]
+Block ID: data_sorttablebycolumn
+Category: Variables
+Can be used for 3D: false
+Syntax: sort table [TABLENAME v] by column [COLUMN] [SORTORDER v]
+Usage Example: sort table [table1 v] by column [age] [SORTORDER v]
+QuickDescription: 
+
+
+Description: 
+sorts the table named TABLENAME by the specified column named COLUMN in the order of SORTORDER, which can be 'large to small' or 'small to large'.
+
+--------------------------------------------------------------------------------
+
+[39/59]
+Block ID: data_deleterowoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: delete row (ROWNUM) of table [TABLENAME v]
+Usage Example: delete row (1) of table [table1 v]
+QuickDescription: 
+
+
+Description: 
+deletes the row at the index of ROWNUM (first row has an index of 1) from the table named TABLENAME and then shift all rows below that row up by one row.
+
+--------------------------------------------------------------------------------
+
+[40/59]
+Block ID: data_deleterowwithcondition
+Category: Variables
+Can be used for 3D: false
+Syntax: delete rows with column [COLUMN] of value [VALUE] from table [TABLENAME v]
+Usage Example: delete rows with column [x] of value [1] from table [table1 v]
+QuickDescription: 
+
+
+Description: 
+deletes all rows from the table named TABLENAME where the column named COLUMN has the given VALUE.
+
+--------------------------------------------------------------------------------
+
+[41/59]
+Block ID: data_deleteallrowsoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: delete all rows from table [TABLENAME v]
+Usage Example: delete all rows from table [table1 v]
+QuickDescription: 
+
+
+Description: 
+deletes all rows from the table named TABLENAME but keep the columns.
+
+--------------------------------------------------------------------------------
+
+[42/59]
+Block ID: data_deletecolumnfromtable
+Category: Variables
+Can be used for 3D: false
+Syntax: delete column [COLUMNNAME] from table [TABLENAME v]
+Usage Example: delete column [age] from table [table1 v]
+QuickDescription: 
+
+
+Description: 
+deletes the column named COLUMNNAME from the table named TABLENAME.
+
+--------------------------------------------------------------------------------
+
+[43/59]
+Block ID: data_rowcountoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: row count of table [TABLENAME v]
+Usage Example: row count of table [table1 v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the total number of rows in the table named TABLENAME.
+
+--------------------------------------------------------------------------------
+
+[44/59]
+Block ID: data_computetable
+Category: Variables
+Can be used for 3D: false
+Syntax: [METHOD] of column [COLUMNNAME] in table [TABLE v]
+Usage Example: [smallest v] of column [age] in table [table1 v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that aggregates all the items in the column named COLUMNNAME in the table named TABLE. You can choose from 5 aggregation methods: 'smallest', 'largest', 'sum', 'average', 'median'..
+
+--------------------------------------------------------------------------------
+
+[45/59]
+Block ID: data_itematrowcolumnoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: item at row (ROWINDEX) column [COLUMNNAME] of table [TABLE v]
+Usage Example: item at row (1) column [age] of table [table1 v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the content of the one item at the row index of ROWINDEX (first row has an index of 1) and the given column named COLUMNANE of the table named TABLE.
+
+--------------------------------------------------------------------------------
+
+[46/59]
+Block ID: data_copy_table_into_table
+Category: Variables
+Can be used for 3D: false
+Syntax: copy table [TABLE1] into [TABLE2]
+Usage Example: copy table [table1 v] into [table2 v]
+QuickDescription: 
+
+
+Description: 
+copies all rows the table named TABLE1 into the table named TABLE2, which replaces any existing data in TABLE2. After this block these 2 tables will have exactly the same columns with the same content in them.
+
+--------------------------------------------------------------------------------
+
+[47/59]
+Block ID: data_append_table_into_table
+Category: Variables
+Can be used for 3D: false
+Syntax: append table [TABLE1] to [TABLE2]
+Usage Example: append table [table1 v] to [table2 v]
+QuickDescription: 
+
+
+Description: 
+appends the rows of table named TABLE1 to the bottom of the table named TABLE2. These 2 tables should have the same columns.
+
+--------------------------------------------------------------------------------
+
+[48/59]
+Block ID: data_pivot_table_into_table
+Category: Variables
+Can be used for 3D: false
+Syntax: pivot [TABLE1] into [TABLE2] row groups [ROWGROUPLIST] columns [VALUECOLUMNLIST] methods [METHODLIST]
+Usage Example: pivot [table1 v] into [table2 v] row groups [gender,grade] columns [age,height] methods [average,maximum]
+QuickDescription: 
+
+
+Description: 
+creates a pivot table using data from TABLE1 and stores the pivot table data in TABLE2. This block groups the data in TABLE1 using the list of columns specified in ROWGROUPLIST. The data values of the pivot table will come from the columns VALUECOLUMNLIST, and these columns will be aggregated using the methods given in METHODLIST. Both VALUECOLUMNLIST and METHODLIST are comma-separated lists. Each item in the VALUECOLUMNLIST is the name of one column, and it will be aggregated by the corrsponding method specified in METHODLIST. The methods can be 'sum', 'maximum', 'mimimum' or 'average'.
+Example Program:
+
+when green flag clicked
+    // [delete all columns will also remove all data]
+    delete all columns from table [t1 v]
+    // [add 3 columns, but there are no rows yet]
+    add column [name] at position (1) to table [t1 v]
+    add column [gender] at position (2) to table [t1 v]
+    add column [score] at position (3) to table [t1 v]
+    // [add 4 rows of data]
+    add to table [t1 v]: [Joe] [M] [92] [] [] [] [] [] [] [] [] []
+    add to table [t1 v]: [Mike] [M] [96] [] [] [] [] [] [] [] [] []
+    add to table [t1 v]: [Sophia] [F] [100] [] [] [] [] [] [] [] [] []
+    add to table [t1 v]: [Jenny] [F] [98] [] [] [] [] [] [] [] [] []
+    // [generate average score for gender of M vs F, so the summary table will have 2 columns of 'gender' and 'avg score', and the first row will be M and 94, and second row will be F and 99]
+    pivot [t1 v] into [summary v] row groups [gender] columns [score] methods [average]
+end
+
+--------------------------------------------------------------------------------
+
+[49/59]
+Block ID: data_showsnapshotoftable
+Category: Variables
+Can be used for 3D: false
+Syntax: show snapshot of table [TABLENAME v] from row (STARTROW) to (ENDROW) with style [STYLE] [THEMECOLOR]
+Usage Example: show snapshot of table [table1 v] from row (1) to (10) with style [style1 v] [#1E54B6FF]
+QuickDescription: 
+
+
+Description: 
+shows the content of the specified table TABLENAME in a pop up window between the STARTROW and ENDROW. The STYLE is a dropdown with 4 style choices of 'style1', 'style2', 'style3' and 'style4'. You can also specify a theme color as THEMECOLOR.
+
+--------------------------------------------------------------------------------
+
+[50/59]
+Block ID: data_lookuptable
+Category: Variables
+Can be used for 3D: false
+Syntax: item in column [RETURNCOLUMN] of [TABLENAME v] where column [SEARCHCOLUMN] equals [SEARCHTEXT]
+Usage Example: item in column [age] of [table1 v] where column [name] equals [John]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the item in the column RETURNCOLUMN of the table named TABLENAME where another column SEARCHCOLUMN equals the value of SEARCHTEXT. This block can be used to look for an item in one column using the value in another column.
+
+--------------------------------------------------------------------------------
+
+[51/59]
+Block ID: data_exporttable
+Category: Variables
+Can be used for 3D: false
+Syntax: export table [TABLENAME v] as [FILENAME]
+Usage Example: export table [table1 v] as [datatable]
+QuickDescription: 
+
+
+Description: 
+exports the table named TABLENAME as a csv file named FILENAME. If FILENAME is empty, then use the table name as the file name. The file extension is set to '.csv' automatically.
+
+--------------------------------------------------------------------------------
+
+[52/59]
+Block ID: data_importtable
+Category: Variables
+Can be used for 3D: false
+Syntax: import file into table [TABLE]
+Usage Example: import file into table [TABLE]
+QuickDescription: 
+
+
+Description: 
+Display a file selection dialog window for user to pick a txt or csv file, then read the content of the select file and split it into rows and columns, and store it in the given table variable. If user does not select any file, the variable will be unchanged.
+
+--------------------------------------------------------------------------------
+
+[53/59]
+Block ID: data_savetable
+Category: Variables
+Can be used for 3D: false
+Syntax: save table [TABLE v] to server as [DATANAME]
+Usage Example: save table [tt v] to server as [info]
+QuickDescription: 
+
+
+Description: 
+save the value of the entire table to the CreatiCode server with the given name
+
+--------------------------------------------------------------------------------
+
+[54/59]
+Block ID: data_loadtable
+Category: Variables
+Can be used for 3D: false
+Syntax: load [DATANAME] from server into table [TABLE v]
+Usage Example: load [info] from server into table [tt v]
+QuickDescription: 
+
+
+Description: 
+read data from the CreatiCode server with the given DATANAME and write them in the given table.
+
+--------------------------------------------------------------------------------
+
+[55/59]
+Block ID: data_showtable
+Category: Variables
+Can be used for 3D: false
+Syntax: show table [TABLENAME v]
+Usage Example: show table [table1 v]
+QuickDescription: 
+
+
+Description: 
+displays the table named TABLENAME on the stage.
+
+--------------------------------------------------------------------------------
+
+[56/59]
+Block ID: data_hidetable
+Category: Variables
+Can be used for 3D: false
+Syntax: hide table [TABLENAME v]
+Usage Example: hide table [table1 v]
+QuickDescription: 
+
+
+Description: 
+hides the table named TABLENAME from the stage.
+
+--------------------------------------------------------------------------------
+
+[57/59]
+Block ID: data_setlisttocolumn
+Category: Variables
+Can be used for 3D: false
+Syntax: copy list [LISTNAME v] to column [COLUMNNAME] of table [TABLENAME v]
+Usage Example: copy list [i v] to column [age] of table [table1 v]
+QuickDescription: 
+
+
+Description: 
+copies the contents of the list LISTNAME into the column COLUMNNAME of the table TABLENAME. The column must already exists in the table, and all existing data items in that column will be removed before the new data from the list is copied over.
+
+--------------------------------------------------------------------------------
+
+[58/59]
+Block ID: data_joincloudsession
+Category: Variables
+Can be used for 3D: false
+Syntax: join cloud session [SESSION]
+Usage Example: join cloud session [1234]
+QuickDescription: 
+
+
+Description: 
+joins an existing cloud session so updates to cloud variables are only shared within projects connected to this session. some user has to create the session with the same given name for the same project first
+
+--------------------------------------------------------------------------------
+
+[59/59]
+Block ID: data_createcloudsession
+Category: Variables
+Can be used for 3D: false
+Syntax: create cloud session [SESSION]
+Usage Example: create cloud session [1234]
+QuickDescription: 
+
+
+Description: 
+create a new cloud session so updates to cloud variables will only be shared among projects connected to this session, and other users running this project can join this session after its creation.
+
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+CATEGORY: OPERATORS (30 blocks)
+================================================================================
+
+[1/30]
+Block ID: operator_vector_distance
+Category: Operators
+Can be used for 3D: false
+Syntax: distance between x (X1) y (Y1) and x (X2) y (Y2) [METHOD v]
+Usage Example: distance between x (0) y (0) and x (100) y (100) [direct v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the distance between two points: (X1, Y1) and (X2, Y2). The calculation METHOD can be 'direct' for direct line distance, or 'manhattan' for manhattan distance (vertical distance + horizontal distance).
+
+--------------------------------------------------------------------------------
+
+[2/30]
+Block ID: operator_vector_distance3d
+Category: Operators
+Can be used for 3D: true
+Syntax: distance between x (X1) y (Y1) z (Z1) and x (X2) y (Y2) z (Z2) [METHOD v]
+Usage Example: distance between x (-200) y (-100) z (50) and x (300) y (200) z (100) [manhattan v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the distance between two points in 3D space: (X1, Y1, Z1) and (X2, Y2, Z2). The calculation METHOD can be 'direct' for direct line distance, or 'manhattan' for manhattan distance (distance along x + distance along y + distance along z)
+
+--------------------------------------------------------------------------------
+
+[3/30]
+Block ID: operator_vector_direction
+Category: Operators
+Can be used for 3D: false
+Syntax: direction from x (X1) y (Y1) to x (X2) y (Y2)
+Usage Example: direction from x (0) y (0) to x (100) y (100)
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the direction in degrees from the first point (X1, Y1) to the second point (X2, Y2). For example, direction from (0, 0) to (100, 100) is 45
+
+--------------------------------------------------------------------------------
+
+[4/30]
+Block ID: operator_include
+Category: Operators
+Can be used for 3D: false
+Syntax: [TEXT1] includes [TEXT2] ignore case [IGNORECASE v]
+Usage Example: [abc] includes [bc] ignore case [yes v]
+QuickDescription: 
+
+
+Description: 
+A boolean reporter block that returns true if TEXT1 includes TEXT2. Can specify to ignore case or not by setting IGNORECASE to 'yes' or 'no'.
+
+--------------------------------------------------------------------------------
+
+[5/30]
+Block ID: operator_start
+Category: Operators
+Can be used for 3D: false
+Syntax: [TEXT1] starts with [TEXT2] ignore case [IGNORECASE v]
+Usage Example: [abc] starts with [bc] ignore case [no v]
+QuickDescription: 
+
+
+Description: 
+A boolean reporter block that returns true if TEXT1 starts with TEXT2. Can specify to ignore case or not by setting IGNORECASE to 'yes' or 'no'.
+
+--------------------------------------------------------------------------------
+
+[6/30]
+Block ID: operator_end
+Category: Operators
+Can be used for 3D: false
+Syntax: [TEXT1] ends with [TEXT2] ignore case [IGNORECASE v]
+Usage Example: [abc] ends with [bc] ignore case [yes v]
+QuickDescription: 
+
+
+Description: 
+A boolean reporter block that returns true if TEXT1 ends with TEXT2. Can specify to ignore case or not by setting IGNORECASE to 'yes' or 'no'.
+
+--------------------------------------------------------------------------------
+
+[7/30]
+Block ID: operator_replace
+Category: Operators
+Can be used for 3D: false
+Syntax: replace [T1] with [T2] in [T3]
+Usage Example: replace [a] with [b] in [acab]
+QuickDescription: 
+
+
+Description: 
+A reporter block that replaces all occurrences of T1 with T2 in T3.
+
+--------------------------------------------------------------------------------
+
+[8/30]
+Block ID: operator_substringindex
+Category: Operators
+Can be used for 3D: false
+Syntax: position of [T1] in [T2]
+Usage Example: position of [ab] in [acab]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the position of T1 in T2. The first letter's position is 1.
+
+--------------------------------------------------------------------------------
+
+[9/30]
+Block ID: operator_substring
+Category: Operators
+Can be used for 3D: false
+Syntax: substring of [TEXT] from position (P1) to position (P2)
+Usage Example: substring of [acab] from position (2) to position (3)
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the substring of TEXT from position P1 to position P2. The first letter's position is 1.
+
+--------------------------------------------------------------------------------
+
+[10/30]
+Block ID: operator_splitsubstring
+Category: Operators
+Can be used for 3D: false
+Syntax: part (INDEX) of [TEXT] by [SEPARATOR]
+Usage Example: part (2) of [a-b-c] by [-]
+QuickDescription: 
+
+
+Description: 
+A reporter block that splits the TEXT using the given SEPARATOR, then returns the part at INDEX. The first part's position index is 1. For example, 'part (2) of [a-b-c] by [-]' would return 'b'
+
+--------------------------------------------------------------------------------
+
+[11/30]
+Block ID: operator_lcs
+Category: Operators
+Can be used for 3D: false
+Syntax: longest common substring between [TEXT1] and [TEXT2]
+Usage Example: longest common substring between [abc] and [bcd]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the longest common substring between TEXT1 and TEXT2
+
+--------------------------------------------------------------------------------
+
+[12/30]
+Block ID: operator_joinwith
+Category: Operators
+Can be used for 3D: false
+Syntax: join [T1] [T2] [T3] [T4] [T5] [T6] with [SEPARATOR]
+Usage Example: join [a] [b] [] [] [] [] with [ ]
+QuickDescription: 
+
+
+Description: 
+A reporter block that joins up to 6 input texts of T1/T2/T3/T4/T5/T6 with the specified SEPARATOR. The input texts can be empty
+
+--------------------------------------------------------------------------------
+
+[13/30]
+Block ID: operator_trim
+Category: Operators
+Can be used for 3D: false
+Syntax: trim [TEXT]
+Usage Example: trim [abc ]
+QuickDescription: 
+
+
+Description: 
+A reporter operator block that trims the leading and ending spaces from the input TEXT
+
+--------------------------------------------------------------------------------
+
+[14/30]
+Block ID: operator_isnumber
+Category: Operators
+Can be used for 3D: false
+Syntax: <[TEXT] is a number?>
+Usage Example: <[3.14] is a number?>
+QuickDescription: 
+
+
+Description: 
+a boolean reporter block that checks if the given TEXT can be converted to a number.
+
+--------------------------------------------------------------------------------
+
+[15/30]
+Block ID: operator_converttonumber
+Category: Operators
+Can be used for 3D: false
+Syntax: convert [TEXT] to a number
+Usage Example: convert [two] to a number
+QuickDescription: 
+
+
+Description: 
+A reporter block that converts the input TEXT to a number. This block can accept inputs like '200' or english words like 'one', 'two hundreds' and 'third'.
+
+--------------------------------------------------------------------------------
+
+[16/30]
+Block ID: operator_texttransform
+Category: Operators
+Can be used for 3D: false
+Syntax: [CASE v] of text [T]
+Usage Example: [uppercase v] of text [x]
+QuickDescription: 
+
+
+Description: 
+A reporter block that converts the input text T to the specified CASE ('uppercase' or 'lowercase').
+
+--------------------------------------------------------------------------------
+
+[17/30]
+Block ID: operator_regex_test
+Category: Operators
+Can be used for 3D: false
+Syntax: regex [REGEXPATTERN] test [TEXT]
+Usage Example: regex [foot] test [football]
+QuickDescription: 
+
+
+Description: 
+A boolean reporter block that returns true or false based on whether the TEXT contains the REGEXPATTERN.
+
+--------------------------------------------------------------------------------
+
+[18/30]
+Block ID: operator_regex_match_into_list
+Category: Operators
+Can be used for 3D: false
+Syntax: regex [REGEXPATTERN] flag [FLAG] match [TEXT] into list [LISTNAME v]
+Usage Example: regex [\d] flag [g] match [a01b2c3] into list [i v]
+QuickDescription: 
+
+
+Description: 
+matches the REGEXPATTERN in the given TEXT and stores the matching parts in the list LISTNAME. If FLAG is "g", all matching parts will be extracted out. If FLAG is empty, then only the first matching part will be stored in the list. For example, after running 'regex [\d] flag [g] match [a01b2c3] into list [i v]', the list 'i' will contain 4 items of 0, 1, 2, 3.
+
+--------------------------------------------------------------------------------
+
+[19/30]
+Block ID: operator_regex_search
+Category: Operators
+Can be used for 3D: false
+Syntax: regex [REGEXPATTERN] search [TEXT]
+Usage Example: regex [\d] search [a01b2c3]
+QuickDescription: 
+
+
+Description: 
+A reporter block that searches the TEXT for the REGEXPATTERN, and returns the position index of the first match, with 1 as the first position in the TEXT. For example, 'regex [\d] search [a01b2c3]' would return 2, since the first digit '0' is at position 2 in 'a01b2c3'.
+
+--------------------------------------------------------------------------------
+
+[20/30]
+Block ID: operator_regex_replace_with
+Category: Operators
+Can be used for 3D: false
+Syntax: regex [REGEXPATTERN] flag [FLAG] replace [TEXT] with [T]
+Usage Example: regex [\d] flag [g] replace [a01b2c3] with [x]
+QuickDescription: 
+
+
+Description: 
+A reporter block that replaces all matches of the REGEXPATTERN in the given TEXT with the replacement text T. If FLAG is "g", all matching parts in TEXT will be replaced with T. If FLAG is empty, then only the first matching part in TEXT will be replaced with T.
+
+--------------------------------------------------------------------------------
+
+[21/30]
+Block ID: operator_regex_split_into_list
+Category: Operators
+Can be used for 3D: false
+Syntax: regex [REGEXPATTERN] flag [FLAG] split [TEXT] into list [LISTNAME v]
+Usage Example: regex [\d] flag [g] split [a01b2c3] into list [i v]
+QuickDescription: 
+
+
+Description: 
+splits the TEXT with the REGEXPATTERN as the separator and stores the parts in the list LISTNAME. The FLAG can be used to control how the REGEXPATTERN is applied to split the TEXT.
+
+--------------------------------------------------------------------------------
+
+[22/30]
+Block ID: operator_diff
+Category: Operators
+Can be used for 3D: false
+Syntax: [V1] ≠ [V2]
+Usage Example: [a] ≠ [b]
+QuickDescription: 
+
+
+Description: 
+a boolean reporter block that checks if the first value V1 is different from the second value V2. The input values can be numbers, strings or reporter blocks.
+
+--------------------------------------------------------------------------------
+
+[23/30]
+Block ID: operator_gte
+Category: Operators
+Can be used for 3D: false
+Syntax: [V1] ≥ [V2]
+Usage Example: [a] ≥ [b]
+QuickDescription: 
+
+
+Description: 
+a boolean reporter block that checks if the first value V1 is greater than or equal to the second value V2. The input values can be numbers, strings or reporter blocks.
+
+--------------------------------------------------------------------------------
+
+[24/30]
+Block ID: operator_lte
+Category: Operators
+Can be used for 3D: false
+Syntax: [V1] ≤ [V2]
+Usage Example: [a] ≤ [b]
+QuickDescription: 
+
+
+Description: 
+a boolean reporter block that checks if the first value V1 is less than or equal to the second value V2. The input values can be numbers, strings or reporter blocks.
+
+--------------------------------------------------------------------------------
+
+[25/30]
+Block ID: operator_pow
+Category: Operators
+Can be used for 3D: false
+Syntax: (BASE) ^ (P)
+Usage Example: (5) ^ (2)
+QuickDescription: 
+
+
+Description: 
+A reporter operator block that returns the BASE number raised to the power of P
+
+--------------------------------------------------------------------------------
+
+[26/30]
+Block ID: operator_solveequation
+Category: Operators
+Can be used for 3D: false
+Syntax: solve equation [EQUATION]
+Usage Example: solve equation [x + y = 10, x + 2y = 12]
+QuickDescription: 
+
+
+Description: 
+A reporter block that solves the given EQUATION, which can contain one or more equations separated by commas, and returns the values of all variables in a comma-separated string like this: 'x,8,y,2'.
+
+--------------------------------------------------------------------------------
+
+[27/30]
+Block ID: operator_stringdiff
+Category: Operators
+Can be used for 3D: false
+Syntax: steps to change [STRING1] into [STRING2]
+Usage Example: steps to change [abc\nef] into [abc\nee]
+QuickDescription: 
+
+
+Description: 
+A reporter blcok that returns the minimum steps it takes to convert STRING1 into STRING2 line by line. For the given example, it will return:
+* (L2) ef -> ee
+
+--------------------------------------------------------------------------------
+
+[28/30]
+Block ID: operator_calc
+Category: Operators
+Can be used for 3D: false
+Syntax: calculate expression [EXPRESSION]
+Usage Example: calculate expression [(1 + 1) * (2^4)]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the value of any expression
+
+--------------------------------------------------------------------------------
+
+[29/30]
+Block ID: operator_noise2d
+Category: Operators
+Can be used for 3D: false
+Syntax: noise at x (XPOS) y (YPOS) seed (SEED)
+Usage Example: noise at x (100) y (100) seed (1)
+QuickDescription: 
+
+
+Description: 
+A reporter operator block that returns a random noise value at the given x and y coordinates of XPOS and YPOS, using the given random SEED. It uses the noise.simplex2(x,y) function to generate the noise value. The value is not truly random. It is meant to be smooth for neighbor points. This block can be used to generate random terrain map for 2D or 3D games. One special property of this block is that when the SEED is fixed, for the same x and y input, the noise number it generates is also fixed.
+
+--------------------------------------------------------------------------------
+
+[30/30]
+Block ID: operator_value_from_moving_average
+Category: Operators
+Can be used for 3D: false
+Syntax: value from [METHOD v] moving average window [LENGTH] of list [LISTNAME v]
+Usage Example: value from [simple v] moving average window [30] of list [i v]
+QuickDescription: 
+
+
+Description: 
+A reporter block that returns the moving average of the list LISTNAME with the specified window LENGTH. The METHOD for calculating the moving average can be 'simple' or 'exponential'. The returned value is a list of numbers seperated by commas that correspond to the moving average of a sliding window over the list. For example, if the list contains 1 to 6, then the simple moving average of 3 items will be '2,3,4,5'
+
+--------------------------------------------------------------------------------
+
