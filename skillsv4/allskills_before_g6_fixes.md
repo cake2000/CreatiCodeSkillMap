@@ -969,8 +969,8 @@ Skill: Spot unnecessary work in an algorithm
 Description: Students highlight lines where an algorithm keeps working after the result is found. _Implementation note: Code highlight; auto‑graded. CSTA: MS‑ALG‑AF‑01._
 
 Dependencies:
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T01.G6.04
@@ -980,8 +980,8 @@ Description: Students remove redundant checks/loops without changing output. _Im
 
 Dependencies:
 * T01.G6.03: Spot unnecessary work in an algorithm
-* T07.G5.01: Use a counted repeat loop
-* T08.G5.01: Use a simple if in a script
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T01.G6.05
@@ -1006,9 +1006,9 @@ Description: Students design a flowchart for a game turn (ask, check, update sco
 
 Dependencies:
 * T01.G5.01: Match a word description to a flowchart
-* T07.G5.01: Use a counted repeat loop
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T01.G6.08
@@ -1018,7 +1018,7 @@ Description: Students map each shape in a detailed, multi‑step flowchart to co
 
 Dependencies:
 * T01.G5.02.01.04: Convert a flowchart with loops and conditionals into code
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T01.G7.01
@@ -2074,8 +2074,8 @@ Description: Students read about an existing project and propose logical modules
 
 Dependencies:
 * T03.G5.01: Create a feature list and subtask breakdown
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T03.G6.02
@@ -2085,7 +2085,7 @@ Description: Students see an overlong process description and identify which pie
 
 Dependencies:
 * T03.G5.01: Create a feature list and subtask breakdown
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 ID: T03.G6.03
@@ -2717,7 +2717,7 @@ Description: Students classify 5+ diverse code snippets into groups based on the
 
 Dependencies:
 * T04.G4.05: Match multiple code snippets that share the same pattern
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T04.G6.02
@@ -2747,7 +2747,7 @@ Description: Students refactor repeated code sequences into a parameterized cust
 Dependencies:
 * T04.G3.04.02: Create a custom block (template) for repeated code patterns
 * T11.G4.07: Define a custom block with one parameter
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T04.G6.05
@@ -2766,8 +2766,8 @@ Description: Students compare two pattern-based solutions and select which is be
 
 Dependencies:
 * T04.G5.05: Compare solutions that use a pattern vs those that don't
-* T07.G5.01: Use a counted repeat loop
-* T08.G5.01: Use a simple if in a script
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
 
 
 ID: T04.G6.07
@@ -9122,8 +9122,8 @@ Skill: Trace complex code with multiple variables
 Description: Students step through a program with multiple variables and complex logic, tracking how each variable changes at each step. They use a table or mental model to predict the final state and verify correctness.
 
 Dependencies:
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T13.G5.01: Debug programs using advanced tracing and logging
 * T13.G5.06: Debug deeply nested structures (three+ levels)
 
@@ -9134,7 +9134,7 @@ Skill: Use a systematic debugging process (hypothesis-driven)
 Description: Students apply a 4-step debugging method: (1) observe and describe the symptom (what goes wrong and when), (2) form a hypothesis about which block or logic causes it (e.g., "I think the repeat count is too low"), (3) test the hypothesis by adding `say` blocks to check that value or temporarily changing the block, and (4) verify the fix by running all previous test cases. They document this process for 2-3 bugs, distinguishing it from random trial-and-error.
 
 Dependencies:
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T13.G5.01: Debug programs using advanced tracing and logging
 
 
@@ -9144,7 +9144,7 @@ Skill: Design systematic boundary tests using a matrix
 Description: Students design a systematic boundary test matrix for a program with numeric inputs. For each input variable, they identify 5 test values: (1) minimum valid, (2) just below minimum (invalid), (3) typical middle value, (4) maximum valid, (5) just above maximum (invalid). They create a test matrix documenting expected vs. actual results for each value, ensuring comprehensive coverage of edge conditions and invalid inputs.
 
 Dependencies:
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T13.G5.02: Add input validation to handle invalid entries
 
 
@@ -13401,7 +13401,7 @@ Description: Students apply forces or impulses to physics bodies to create jumps
 
 Dependencies:
 * T18.G5.06.03: Configure particle emitter colors and sizes
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 ID: T18.G6.01.02
@@ -13438,8 +13438,8 @@ Description: Students rewrite scripts that manually duplicate "add object / set 
 
 Dependencies:
 * T18.G6.02: Trace multi-step 3D scripts with transforms
-* T07.G5.01: Use a counted repeat loop
-* T11.G5.01: Understand when to use custom blocks vs loops
+* T07.G3.01: Use a counted repeat loop
+* T11.G3.01: Understand when to use custom blocks vs loops
 
 
 ID: T18.G6.04.01
@@ -15930,7 +15930,7 @@ CSTA: 2-AP-13 (Decompose problems and subproblems into parts)
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G4.01: Use broadcast to coordinate sprite actions
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T10.G5.03: Add and remove items from a list
 
 
@@ -17647,8 +17647,8 @@ Description: Students use the basic speech recognition flow: `start recognizing 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17663,8 +17663,8 @@ Description: Students extend basic speech recognition by exploring the language 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17679,8 +17679,8 @@ Description: Students learn continuous speech recognition: `start continuous spe
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17695,8 +17695,8 @@ Description: Students implement error handling for speech recognition failures: 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17711,8 +17711,8 @@ Description: Students use the `say [TEXT] in [LANGUAGE v] as [VOICETYPE v] speed
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17727,8 +17727,8 @@ Description: Students learn to interrupt text-to-speech output using the `stop s
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17743,8 +17743,8 @@ Description: Students use the `store sound as []` parameter in the TTS block to 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17759,8 +17759,8 @@ Description: Students combine speech-to-text (`start recognizing speech in [LANG
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17777,8 +17777,8 @@ Description: Students use `OpenAI: start recognizing speech in [LANGUAGE v] reco
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17794,8 +17794,8 @@ Description: Students use `run hand detection table [TABLENAME v] debug [yes v] 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17810,8 +17810,8 @@ Description: Students read the result table from `run hand detection table [resu
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -17827,8 +17827,8 @@ Description: Students extend hand detection by reading the direction (dir) colum
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -17858,7 +17858,7 @@ Description: Students read x/y coordinates from the hand detection table (wrist 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -17874,7 +17874,7 @@ Description: Students read the hand ID from the hand detection table (column: ha
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -17892,7 +17892,7 @@ Grade: 6
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -17908,7 +17908,7 @@ Description: Students implement moving average smoothing: store the last 5 wrist
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T09.G5.01: Use multiple variables together in a single expression
 * T09.G5.05: Use the accumulator pattern to compute running totals
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -17925,8 +17925,8 @@ Description: Students implement value clamping to constrain sensor readings to v
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17942,8 +17942,8 @@ Description: Students implement debouncing to ignore rapid changes in sensor dat
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17959,8 +17959,8 @@ Description: Students implement watchdog timers to detect when sensors stop prov
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -17991,8 +17991,8 @@ Description: Students add clear permission requests before enabling camera/mic d
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -18008,8 +18008,8 @@ Description: Students use `run 2D body part recognition single person [yes v] ta
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18026,8 +18026,8 @@ Description: Students calculate angles between body landmarks (e.g., arm angle f
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18043,8 +18043,8 @@ Description: Students use `run 3D pose detection debug [yes v] table [TABLENAME 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18060,8 +18060,8 @@ Description: Students use `run face detection debug [yes v] and write into table
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18077,8 +18077,8 @@ Description: Students read the face detection table to get face position and att
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18094,7 +18094,7 @@ Description: Students use advanced face detection to identify facial expressions
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18110,7 +18110,7 @@ Description: Students explore face detection attributes beyond position: estimat
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
+* T08.G3.01: Use a simple if in a script
 * T09.G5.01: Use multiple variables together in a single expression
 * T10.G5.04: Read a cell value from a table
 * T11.G5.01: Decompose a problem into logical custom block boundaries
@@ -18126,8 +18126,8 @@ Description: Students use natural language processing blocks to analyze sentence
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -18142,8 +18142,8 @@ Description: Students run comparative tests between the default speech recogniti
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T06.G5.01: Identify standard event patterns in a small game
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T09.G5.01: Use multiple variables together in a single expression
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 * T15.G5.01: Coordinate scene changes with broadcasts
@@ -24135,7 +24135,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.02
@@ -24146,7 +24145,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G5.03: Fetch and display a web page as markdown
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.03
@@ -24157,7 +24155,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.02: Read data from a Google Sheet cell
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.03.01
@@ -24168,7 +24165,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.03: Write data to a Google Sheet cell
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.03.02
@@ -24179,7 +24175,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.03: Write data to a Google Sheet cell
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.03.03
@@ -24190,7 +24185,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.03.02: List and manage multiple Google Sheets
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.04
@@ -24202,7 +24196,6 @@ CSTA: MS-SAS-NW-06
 Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
 * T31.G5.02: Decide when apps need the internet vs work offline
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.05
@@ -24214,7 +24207,6 @@ CSTA: MS-SAS-SC-09
 Dependencies:
 * T31.G5.01: Trace how a device reaches an online service
 * T31.G5.02: Decide when apps need the internet vs work offline
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.06
@@ -24226,7 +24218,6 @@ CSTA: MS-SAS-NW-06
 Dependencies:
 * T31.G5.04: Create and join a multiplayer game session
 * T31.G5.05: Check multiplayer connection status
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G6.06.01
@@ -24237,7 +24228,6 @@ CSTA: MS-SAS-NW-06
 
 Dependencies:
 * T31.G6.06: Add sprites to multiplayer game world
-* T09.G5.01: Required for working with lists
 
 
 ID: T31.G7.01
@@ -24792,10 +24782,10 @@ Description: Students design a CreatiCode UI that implements basic login securit
 _Implementation note: CreatiCode textbox widgets don't have native password masking. Students implement character masking by replacing each input character with asterisk (*) using string operations, demonstrating how password fields work._
 
 Dependencies:
-* T07.G5.01: Use a counted repeat loop
-* T08.G5.01: Use a simple if in a script
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T10.G5.01: Use a basic text (string) variable
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T10.G3.01: Use a basic text (string) variable
 * T16.G3.01: Create a simple UI with text and button widgets
 * T32.G4.02: Use password managers (conceptual)
 
@@ -25543,7 +25533,6 @@ Description: Students build comparison charts showing key characteristics (domin
 Dependencies:
 * T34.G4.01: Analyze cause/effect chains in computing history
 * T34.G5.02: Compare invention timelines across industries
-* T09.G5.01: Required for working with lists
 
 
 ID: T34.G6.02
@@ -25554,7 +25543,6 @@ Description: Learners examine who gained or lacked access to computing historica
 Dependencies:
 * T34.G5.01: Research 2-3 social movements where computing played a key role (e.g., civil rights data collection, open-source movement, accessibility advocacy) and present findings
 * T34.G4.02: Compare regional computing histories
-* T09.G5.01: Required for working with lists
 
 
 ID: T34.G6.03
@@ -25565,7 +25553,6 @@ Description: Students study famous software bugs and system failures (Ariane 5 r
 Dependencies:
 * T34.G5.01: Research 2-3 social movements where computing played a key role (e.g., civil rights data collection, open-source movement, accessibility advocacy) and present findings
 * T34.G4.01: Analyze cause/effect chains in computing history
-* T09.G5.01: Required for working with lists
 
 
 ID: T34.G7.01

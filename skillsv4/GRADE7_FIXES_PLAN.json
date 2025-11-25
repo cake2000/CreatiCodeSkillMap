@@ -1,0 +1,1216 @@
+{
+  "metadata": {
+    "grade": 7,
+    "analysis_date": "2025-11-24",
+    "total_skills_analyzed": 335,
+    "total_fixes": 246,
+    "categories": {
+      "x2_rule_violations": 39,
+      "missing_cross_topic_dependencies": 188,
+      "redundant_dependencies": 9,
+      "complex_skills_review": 3,
+      "additional_foundational_deps": 7
+    }
+  },
+  "fixes": [
+    {
+      "category": "X-2 Rule Violations",
+      "description": "Replace Grade 2-4 dependencies with Grade 5-7 equivalents",
+      "fixes": [
+        {
+          "skill_id": "T01.G7.03.01",
+          "skill_name": "Write pseudocode for a 'find max' search algorithm",
+          "action": "replace_dependency",
+          "old_value": "T04.G2.01",
+          "new_value": "T04.G5.01",
+          "justification": "T04.G2.01 (Grade 2 - pattern identification) violates X-2 rule. Replacing with T04.G5.01 (Grade 5 - counter update pattern) which provides similar pattern recognition but at appropriate grade level."
+        },
+        {
+          "skill_id": "T01.G7.03.01",
+          "skill_name": "Write pseudocode for a 'find max' search algorithm",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3 - variable monitor) violates X-2 rule. Replacing with T09.G5.01 (Grade 5 - multiple variables in expressions) which is more appropriate for algorithm pseudocode."
+        },
+        {
+          "skill_id": "T01.G7.03.02",
+          "skill_name": "Write pseudocode for a 'count matches' accumulation algorithm",
+          "action": "replace_dependency",
+          "old_value": "T04.G2.01",
+          "new_value": "T04.G5.01",
+          "justification": "T04.G2.01 (Grade 2) violates X-2 rule. T04.G5.01 specifically teaches counter patterns, directly relevant to count accumulation."
+        },
+        {
+          "skill_id": "T01.G7.03.02",
+          "skill_name": "Write pseudocode for a 'count matches' accumulation algorithm",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides appropriate variable manipulation skills."
+        },
+        {
+          "skill_id": "T01.G7.08",
+          "skill_name": "Rewrite a naive algorithm using a better pattern",
+          "action": "replace_dependency",
+          "old_value": "T04.G2.01",
+          "new_value": "T04.G5.01",
+          "justification": "T04.G2.01 (Grade 2) violates X-2 rule. T04.G5.01 teaches pattern recognition at Grade 5 level."
+        },
+        {
+          "skill_id": "T01.G7.08",
+          "skill_name": "Rewrite a naive algorithm using a better pattern",
+          "action": "replace_dependency",
+          "old_value": "T07.G3.01",
+          "new_value": "T07.G5.01",
+          "justification": "T07.G3.01 (Grade 3) violates X-2 rule. T07.G5.01 (Grade 5 - nested loops) provides advanced loop understanding needed for algorithm optimization."
+        },
+        {
+          "skill_id": "T03.G7.01",
+          "skill_name": "Draw an architecture diagram for a multi-component project",
+          "action": "replace_dependency",
+          "old_value": "T02.G3.01",
+          "new_value": "T02.G5.01",
+          "justification": "T02.G3.01 (Grade 3) violates X-2 rule. T02.G5.01 provides Grade 5 sequencing concepts appropriate for architecture diagrams."
+        },
+        {
+          "skill_id": "T03.G7.02",
+          "skill_name": "Map functional modules to architecture components",
+          "action": "replace_dependency",
+          "old_value": "T06.G3.01",
+          "new_value": "T06.G5.01",
+          "justification": "T06.G3.01 (Grade 3) violates X-2 rule. T06.G5.01 (Grade 5 - event-driven design) aligns with modular architecture mapping."
+        },
+        {
+          "skill_id": "T03.G7.02",
+          "skill_name": "Map functional modules to architecture components",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides appropriate variable understanding for component mapping."
+        },
+        {
+          "skill_id": "T03.G7.04",
+          "skill_name": "Redesign a project structure to fix specific problems",
+          "action": "replace_dependency",
+          "old_value": "T06.G3.01",
+          "new_value": "T06.G5.01",
+          "justification": "T06.G3.01 (Grade 3) violates X-2 rule. T06.G5.01 provides advanced event understanding for redesign."
+        },
+        {
+          "skill_id": "T03.G7.04",
+          "skill_name": "Redesign a project structure to fix specific problems",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides appropriate variable skills."
+        },
+        {
+          "skill_id": "T04.G7.05",
+          "skill_name": "Implement a combined pattern solution",
+          "action": "replace_dependency",
+          "old_value": "T06.G3.01",
+          "new_value": "T06.G5.01",
+          "justification": "T06.G3.01 (Grade 3) violates X-2 rule. T06.G5.01 provides event-driven concepts for combined patterns."
+        },
+        {
+          "skill_id": "T04.G7.05",
+          "skill_name": "Implement a combined pattern solution",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 appropriate for pattern implementation."
+        },
+        {
+          "skill_id": "T04.G7.06",
+          "skill_name": "Trace a composite pattern and identify each pattern used",
+          "action": "replace_dependency",
+          "old_value": "T06.G3.01",
+          "new_value": "T06.G5.01",
+          "justification": "T06.G3.01 (Grade 3) violates X-2 rule. T06.G5.01 provides advanced sequencing for pattern tracing."
+        },
+        {
+          "skill_id": "T06.G7.07",
+          "skill_name": "Design animation sequences with broadcast coordination",
+          "action": "replace_dependency",
+          "old_value": "T06.G4.04.01",
+          "new_value": "T06.G5.01",
+          "justification": "T06.G4.04.01 (Grade 4) violates X-2 rule. T06.G5.01 provides foundational event-driven design for broadcasts."
+        },
+        {
+          "skill_id": "T10.G7.08",
+          "skill_name": "Use regex patterns to find items in lists",
+          "action": "replace_dependency",
+          "old_value": "T10.G4.08",
+          "new_value": "T10.G5.03",
+          "justification": "T10.G4.08 (Grade 4) violates X-2 rule. T10.G5.03 (search/filter lists) provides appropriate list manipulation foundation."
+        },
+        {
+          "skill_id": "T13.G7.01",
+          "skill_name": "Write comprehensive test cases for an algorithm",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides variable skills needed for test case design."
+        },
+        {
+          "skill_id": "T13.G7.02",
+          "skill_name": "Debug logic errors in complex programs",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 appropriate for debugging complex logic."
+        },
+        {
+          "skill_id": "T13.G7.03",
+          "skill_name": "Simplify complex code to make it easier to understand and test",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides advanced variable understanding for simplification."
+        },
+        {
+          "skill_id": "T14.G7.06",
+          "skill_name": "Advanced level management system",
+          "action": "replace_dependency",
+          "old_value": "T14.G4.09",
+          "new_value": "T14.G5.01",
+          "justification": "T14.G4.09 (Grade 4) violates X-2 rule. Replacing with T14.G5.01 (Grade 5 game mechanic)."
+        },
+        {
+          "skill_id": "T14.G7.06",
+          "skill_name": "Advanced level management system",
+          "action": "replace_dependency",
+          "old_value": "T14.G4.10",
+          "new_value": "T14.G5.02",
+          "justification": "T14.G4.10 (Grade 4) violates X-2 rule. Replacing with T14.G5.02 (Grade 5 game mechanic)."
+        },
+        {
+          "skill_id": "T14.G7.07.01",
+          "skill_name": "Save high score to cloud",
+          "action": "replace_dependency",
+          "old_value": "T14.G4.06",
+          "new_value": "T14.G5.01",
+          "justification": "T14.G4.06 (Grade 4) violates X-2 rule. T14.G5.01 provides Grade 5 game foundations for cloud saves."
+        },
+        {
+          "skill_id": "T15.G7.01",
+          "skill_name": "Scene manager sprite",
+          "action": "replace_dependency",
+          "old_value": "T16.G4.03",
+          "new_value": "T16.G5.01",
+          "justification": "T16.G4.03 (Grade 4) violates X-2 rule. T16.G5.01 (Grade 5 multimedia) provides appropriate foundation."
+        },
+        {
+          "skill_id": "T17.G7.01",
+          "skill_name": "Launch a configurable projectile",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 needed for projectile parameter configuration."
+        },
+        {
+          "skill_id": "T17.G7.06",
+          "skill_name": "Model a real-world physics scenario",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides variable skills for physics modeling."
+        },
+        {
+          "skill_id": "T19.G7.00A",
+          "skill_name": "Implement different behaviors for different roles",
+          "action": "replace_dependency",
+          "old_value": "T08.G4.01",
+          "new_value": "T08.G5.01",
+          "justification": "T08.G4.01 (Grade 4) violates X-2 rule. T08.G5.01 (multi-branch logic) perfect for role-based behaviors."
+        },
+        {
+          "skill_id": "T20.G7.08",
+          "skill_name": "Generate custom 3D shapes from calculated vertices",
+          "action": "replace_dependency",
+          "old_value": "T10.G4.02",
+          "new_value": "T10.G5.01",
+          "justification": "T10.G4.02 (Grade 4) violates X-2 rule. T10.G5.01 (Grade 5 list operations) needed for vertex arrays."
+        },
+        {
+          "skill_id": "T26.G7.01",
+          "skill_name": "Build reusable data collection modules",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.05",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.05 (Grade 3) violates X-2 rule. T09.G5.01 provides appropriate variable understanding for data modules."
+        },
+        {
+          "skill_id": "T26.G7.02",
+          "skill_name": "Monitor data quality in real time",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 appropriate for real-time monitoring."
+        },
+        {
+          "skill_id": "T26.G7.02",
+          "skill_name": "Monitor data quality in real time",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.05",
+          "new_value": "T09.G5.02",
+          "justification": "T09.G3.05 (Grade 3) violates X-2 rule. T09.G5.02 provides advanced variable skills for monitoring."
+        },
+        {
+          "skill_id": "T26.G7.03",
+          "skill_name": "Document provenance for external CSV datasets",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.05",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.05 (Grade 3) violates X-2 rule. T09.G5.01 appropriate for data documentation."
+        },
+        {
+          "skill_id": "T26.G7.04",
+          "skill_name": "Evaluate bias risks introduced during collection",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.05",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.05 (Grade 3) violates X-2 rule. T09.G5.01 provides variable understanding for bias evaluation."
+        },
+        {
+          "skill_id": "T27.G7.01",
+          "skill_name": "Build multi-chart dashboards with linked filters",
+          "action": "replace_dependency",
+          "old_value": "T10.G4.01",
+          "new_value": "T10.G5.01",
+          "justification": "T10.G4.01 (Grade 4) violates X-2 rule. T10.G5.01 provides list manipulation for dashboard filters."
+        },
+        {
+          "skill_id": "T27.G7.02b",
+          "skill_name": "Calculate moving averages for trend smoothing",
+          "action": "replace_dependency",
+          "old_value": "T10.G4.01",
+          "new_value": "T10.G5.01",
+          "justification": "T10.G4.01 (Grade 4) violates X-2 rule. T10.G5.01 provides list operations for moving averages."
+        },
+        {
+          "skill_id": "T29.G7.01.01",
+          "skill_name": "Build keyword-based retrieval system",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.05",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.05 (Grade 3) violates X-2 rule. T09.G5.01 appropriate for keyword retrieval systems."
+        },
+        {
+          "skill_id": "T29.G7.04",
+          "skill_name": "Critically annotate AI vs human summaries",
+          "action": "replace_dependency",
+          "old_value": "T29.G4.05.02",
+          "new_value": "T29.G5.01",
+          "justification": "T29.G4.05.02 (Grade 4) violates X-2 rule. Replacing with T29.G5.01 (Grade 5 AI literacy)."
+        },
+        {
+          "skill_id": "T30.G7.06",
+          "skill_name": "Optimize CreatiCode projects for mobile vs desktop devices",
+          "action": "replace_dependency",
+          "old_value": "T30.G4.05",
+          "new_value": "T30.G5.01",
+          "justification": "T30.G4.05 (Grade 4) violates X-2 rule. T30.G5.01 provides Grade 5 platform concepts."
+        },
+        {
+          "skill_id": "T31.G7.02.03",
+          "skill_name": "Insert data into a database collection using tables",
+          "action": "replace_dependency",
+          "old_value": "T09.G3.01.04",
+          "new_value": "T09.G5.01",
+          "justification": "T09.G3.01.04 (Grade 3) violates X-2 rule. T09.G5.01 provides variable skills for database operations."
+        },
+        {
+          "skill_id": "T36.G7.03",
+          "skill_name": "Facilitate inclusive collaboration",
+          "action": "replace_dependency",
+          "old_value": "T36.G4.03",
+          "new_value": "T36.G5.01",
+          "justification": "T36.G4.03 (Grade 4) violates X-2 rule. T36.G5.01 (Grade 5 collaboration) provides appropriate foundation."
+        }
+      ]
+    },
+    {
+      "category": "Redundant Dependencies",
+      "description": "Remove transitive dependencies that are already reachable",
+      "fixes": [
+        {
+          "skill_id": "T05.G7.07",
+          "skill_name": "Write one sentence connecting a design decision to user feedback",
+          "action": "remove_dependency",
+          "old_value": "T05.G6.04",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies in the chain."
+        },
+        {
+          "skill_id": "T20.G7.06",
+          "skill_name": "Create 3D generative sculptures with particle effects",
+          "action": "remove_dependency",
+          "old_value": "T20.G7.03",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T21.G7.09d",
+          "skill_name": "Recognize common hand gestures (pinch, fist, open palm)",
+          "action": "remove_dependency",
+          "old_value": "T08.G5.01",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T24.G7.05",
+          "skill_name": "Use XO to coach peers with rubric-based feedback",
+          "action": "remove_dependency",
+          "old_value": "T24.G6.06",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T24.G7.05",
+          "skill_name": "Use XO to coach peers with rubric-based feedback",
+          "action": "remove_dependency",
+          "old_value": "T09.G5.01",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T24.G7.06",
+          "skill_name": "Use multiple XO sessions to compare responses",
+          "action": "remove_dependency",
+          "old_value": "T10.G5.03",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T24.G7.07.03",
+          "skill_name": "Build multi-gesture control interfaces",
+          "action": "remove_dependency",
+          "old_value": "T08.G5.01",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T24.G7.08.04",
+          "skill_name": "Build full-body pose-based games",
+          "action": "remove_dependency",
+          "old_value": "T07.G5.01",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        },
+        {
+          "skill_id": "T24.G7.13",
+          "skill_name": "Attach local files to ChatGPT for analysis",
+          "action": "remove_dependency",
+          "old_value": "T09.G5.01",
+          "new_value": null,
+          "justification": "Redundant - already reachable through other dependencies."
+        }
+      ]
+    },
+    {
+      "category": "Missing Cross-Topic Dependencies - Topic 8 (Conditions)",
+      "description": "Add missing foundational dependencies on conditional logic for the top 50 priority skills",
+      "priority": "high",
+      "fixes": [
+        {
+          "skill_id": "T01.G7.01",
+          "skill_name": "Identify the pattern in a given program",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Pattern identification requires conditional logic to analyze different cases. T08.G5.01 teaches multi-branch decision logic."
+        },
+        {
+          "skill_id": "T01.G7.03.02",
+          "skill_name": "Write pseudocode for a 'count matches' accumulation algorithm",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Counting matches requires conditional logic to determine what counts as a match."
+        },
+        {
+          "skill_id": "T01.G7.04",
+          "skill_name": "Compare efficiency of two algorithms qualitatively",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Algorithm comparison requires conditional reasoning about different scenarios."
+        },
+        {
+          "skill_id": "T01.G7.07",
+          "skill_name": "Explain why an algorithm fails on a specific edge case",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Edge case analysis requires understanding conditional boundaries and logic failures."
+        },
+        {
+          "skill_id": "T02.G7.02",
+          "skill_name": "Use breakpoints to pause and inspect algorithm execution",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Setting breakpoints often involves conditional stops based on variable states."
+        },
+        {
+          "skill_id": "T02.G7.03",
+          "skill_name": "Build a search algorithm with debug tracing",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Search algorithms fundamentally rely on conditional logic to determine matches."
+        },
+        {
+          "skill_id": "T02.G7.04",
+          "skill_name": "Generate pseudocode for a search algorithm",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Search algorithm pseudocode requires if-then conditional structures."
+        },
+        {
+          "skill_id": "T02.G7.05",
+          "skill_name": "Compare search algorithm efficiency using step counts",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Efficiency comparison requires conditional analysis of different scenarios."
+        },
+        {
+          "skill_id": "T02.G7.06",
+          "skill_name": "Trace an algorithm to find edge case bugs",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Finding edge case bugs requires understanding conditional logic boundaries."
+        },
+        {
+          "skill_id": "T03.G7.02",
+          "skill_name": "Map functional modules to architecture components",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Module mapping involves conditional decisions about component responsibilities."
+        },
+        {
+          "skill_id": "T03.G7.03",
+          "skill_name": "Compare two decompositions of the same project",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Comparing decompositions requires conditional analysis of trade-offs."
+        },
+        {
+          "skill_id": "T03.G7.04",
+          "skill_name": "Redesign a project structure to fix specific problems",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Redesign involves conditional decisions about what to change based on problems."
+        },
+        {
+          "skill_id": "T03.G7.05",
+          "skill_name": "Create a test checklist based on a project breakdown",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Test checklists involve conditional logic for different test scenarios."
+        },
+        {
+          "skill_id": "T04.G7.03",
+          "skill_name": "Identify problems that require multiple patterns",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Pattern identification requires conditional analysis of problem characteristics."
+        },
+        {
+          "skill_id": "T05.G7.01",
+          "skill_name": "Perform a checklist-based accessibility review of a project",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Accessibility review requires conditional checks against criteria."
+        },
+        {
+          "skill_id": "T05.G7.02",
+          "skill_name": "Prioritize which accessibility issues to fix first",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Prioritization requires conditional decision-making based on severity."
+        },
+        {
+          "skill_id": "T05.G7.03",
+          "skill_name": "Identify potential unintended harms from a design",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Harm identification requires conditional reasoning about different user scenarios."
+        },
+        {
+          "skill_id": "T05.G7.05",
+          "skill_name": "Interpret usage or feedback data to find UX problems",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Data interpretation requires conditional logic to identify problems."
+        },
+        {
+          "skill_id": "T05.G7.06",
+          "skill_name": "Choose design changes based on data patterns",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Design decisions require conditional logic based on data patterns."
+        },
+        {
+          "skill_id": "T05.G7.08",
+          "skill_name": "Test and refine a simple simulation design",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Simulation testing requires conditional logic for different scenarios."
+        },
+        {
+          "skill_id": "T13.G7.04",
+          "skill_name": "Design regression tests to prevent bugs from reappearing",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Regression tests use conditional checks to detect specific failure conditions."
+        },
+        {
+          "skill_id": "T13.G7.05",
+          "skill_name": "Anticipate runtime errors and add defensive checks",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Defensive checks are conditional statements that prevent errors."
+        },
+        {
+          "skill_id": "T14.G7.02",
+          "skill_name": "Basic pathfinding",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Pathfinding algorithms require conditional logic to evaluate paths and obstacles."
+        },
+        {
+          "skill_id": "T14.G7.06",
+          "skill_name": "Advanced level management system",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G5.01",
+          "justification": "Level management requires conditional logic for level progression and state."
+        },
+        {
+          "skill_id": "T19.G7.00A",
+          "skill_name": "Implement different behaviors for different roles",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T08.G6.01",
+          "justification": "Role-based behaviors require complex conditional logic (beyond T08.G5.01 already added via X-2 fix)."
+        }
+      ]
+    },
+    {
+      "category": "Missing Cross-Topic Dependencies - Topic 9 (Variables)",
+      "description": "Add missing foundational dependencies on variables for the top 25 priority skills",
+      "priority": "high",
+      "fixes": [
+        {
+          "skill_id": "T02.G7.02",
+          "skill_name": "Use breakpoints to pause and inspect algorithm execution",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Inspecting execution requires understanding variable states and values."
+        },
+        {
+          "skill_id": "T07.G7.03",
+          "skill_name": "Compare loop algorithms by counting steps",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Step counting requires variables to track iterations."
+        },
+        {
+          "skill_id": "T11.G7.03",
+          "skill_name": "Understand encapsulation and information hiding",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Encapsulation involves controlling access to variables and data."
+        },
+        {
+          "skill_id": "T11.G7.04",
+          "skill_name": "Trace and debug multi-level custom block calls",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Tracing requires tracking variable values across function calls."
+        },
+        {
+          "skill_id": "T12.G7.03",
+          "skill_name": "Create a code review checklist for clarity",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Code clarity review includes variable naming and usage patterns."
+        },
+        {
+          "skill_id": "T12.G7.04",
+          "skill_name": "Document design decisions in code",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Design documentation includes explaining variable purposes and relationships."
+        },
+        {
+          "skill_id": "T13.G7.06",
+          "skill_name": "Test programs in different contexts and identify context-dependent bugs",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Context-dependent bugs often involve variable state and scope issues."
+        },
+        {
+          "skill_id": "T14.G7.04",
+          "skill_name": "Monitor clone performance",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Performance monitoring requires tracking variables like frame rate and clone count."
+        },
+        {
+          "skill_id": "T14.G7.07.02",
+          "skill_name": "Save player progress and settings to cloud",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Saving progress requires managing multiple game state variables."
+        },
+        {
+          "skill_id": "T15.G7.01",
+          "skill_name": "Scene manager sprite",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Scene management requires variables to track current scene and state."
+        },
+        {
+          "skill_id": "T19.G7.03",
+          "skill_name": "Choose what data to synchronize versus keep local",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Data synchronization involves understanding variable scope and persistence."
+        },
+        {
+          "skill_id": "T19.G7.04",
+          "skill_name": "Scale game logic to handle variable player counts",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Scaling requires managing variables that adapt to player count."
+        },
+        {
+          "skill_id": "T19.G7.09",
+          "skill_name": "Design fair starting conditions for variable player counts",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Fair starting conditions require variable-based player state initialization."
+        },
+        {
+          "skill_id": "T20.G7.04",
+          "skill_name": "Analyze real generative artworks",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Generative art analysis requires understanding how variables create variation."
+        },
+        {
+          "skill_id": "T21.G7.03",
+          "skill_name": "Build a prompt-engineered character personality system",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T09.G5.01",
+          "justification": "Personality systems use variables to maintain character state and traits."
+        }
+      ]
+    },
+    {
+      "category": "Missing Cross-Topic Dependencies - Topic 10 (Lists/Tables)",
+      "description": "Add missing foundational dependencies on data structures for the top 40 priority skills",
+      "priority": "medium",
+      "fixes": [
+        {
+          "skill_id": "T01.G7.03.01",
+          "skill_name": "Write pseudocode for a 'find max' search algorithm",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.03",
+          "justification": "Finding max requires searching through a list or collection of values."
+        },
+        {
+          "skill_id": "T01.G7.05",
+          "skill_name": "Design a set of edge-case tests for an algorithm",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Test sets are organized as lists of test cases."
+        },
+        {
+          "skill_id": "T02.G7.03",
+          "skill_name": "Build a search algorithm with debug tracing",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.03",
+          "justification": "Search algorithms operate on lists or collections of data."
+        },
+        {
+          "skill_id": "T02.G7.06",
+          "skill_name": "Trace an algorithm to find edge case bugs",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Algorithm tracing often involves tracking values in lists or arrays."
+        },
+        {
+          "skill_id": "T03.G7.01",
+          "skill_name": "Draw an architecture diagram for a multi-component project",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Architecture diagrams represent components as structured collections."
+        },
+        {
+          "skill_id": "T03.G7.05",
+          "skill_name": "Create a test checklist based on a project breakdown",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Checklists are structured as lists of items to verify."
+        },
+        {
+          "skill_id": "T04.G7.02",
+          "skill_name": "Identify data structure patterns (lists, grids) in use",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Identifying data structure patterns requires understanding lists and tables."
+        },
+        {
+          "skill_id": "T05.G7.01",
+          "skill_name": "Perform a checklist-based accessibility review of a project",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Accessibility checklists are organized as structured lists."
+        },
+        {
+          "skill_id": "T05.G7.02",
+          "skill_name": "Prioritize which accessibility issues to fix first",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Issue prioritization involves creating and sorting lists of problems."
+        },
+        {
+          "skill_id": "T05.G7.03",
+          "skill_name": "Identify potential unintended harms from a design",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Harm identification produces lists of potential issues."
+        },
+        {
+          "skill_id": "T05.G7.05",
+          "skill_name": "Interpret usage or feedback data to find UX problems",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Usage data is typically stored in tables or lists for analysis."
+        },
+        {
+          "skill_id": "T05.G7.06",
+          "skill_name": "Choose design changes based on data patterns",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Data patterns are identified from tabular or list-based data."
+        },
+        {
+          "skill_id": "T05.G7.08",
+          "skill_name": "Test and refine a simple simulation design",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Simulation testing produces data sets for refinement."
+        },
+        {
+          "skill_id": "T14.G7.01",
+          "skill_name": "Build a turn-based game with state tracking",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Turn-based games track state using lists of player actions and game states."
+        },
+        {
+          "skill_id": "T14.G7.03",
+          "skill_name": "Manage a grid-based game board",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Grid-based boards are implemented using 2D lists or tables."
+        },
+        {
+          "skill_id": "T21.G7.01",
+          "skill_name": "Create a reusable prompt template library",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Template libraries are organized as lists or collections of prompts."
+        },
+        {
+          "skill_id": "T22.G7.04",
+          "skill_name": "Build context-aware chatbots that remember conversation history",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Conversation history is stored as a list of messages."
+        },
+        {
+          "skill_id": "T23.G7.01",
+          "skill_name": "Define a reusable gesture dictionary",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Gesture dictionaries are implemented as lists or tables mapping gestures to actions."
+        },
+        {
+          "skill_id": "T24.G7.01",
+          "skill_name": "Create reusable XO prompt templates in lists",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Explicitly uses lists to store prompt templates."
+        },
+        {
+          "skill_id": "T26.G7.01",
+          "skill_name": "Build reusable data collection modules",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T10.G5.01",
+          "justification": "Data collection modules work with tables and lists of collected data."
+        }
+      ]
+    },
+    {
+      "category": "Missing Cross-Topic Dependencies - Topic 7 (Loops)",
+      "description": "Add missing foundational dependencies on iteration for 15 priority skills",
+      "priority": "medium",
+      "fixes": [
+        {
+          "skill_id": "T02.G7.04",
+          "skill_name": "Generate pseudocode for a search algorithm",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Search algorithms require loops to iterate through data structures."
+        },
+        {
+          "skill_id": "T04.G7.05",
+          "skill_name": "Implement a combined pattern solution",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Combined patterns often involve nested loops for processing data."
+        },
+        {
+          "skill_id": "T05.G7.01",
+          "skill_name": "Perform a checklist-based accessibility review of a project",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Checklist reviews iterate through multiple criteria."
+        },
+        {
+          "skill_id": "T09.G7.01",
+          "skill_name": "Model dynamic systems where variables change over time",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Dynamic systems require loops to update variables over time steps."
+        },
+        {
+          "skill_id": "T10.G7.05",
+          "skill_name": "Clean and transform table data",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Data cleaning requires iterating through table rows."
+        },
+        {
+          "skill_id": "T12.G7.01",
+          "skill_name": "Decompose complex logic into custom blocks with clear responsibilities",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Complex logic often includes iterative processes that should be modularized."
+        },
+        {
+          "skill_id": "T13.G7.03",
+          "skill_name": "Simplify complex code to make it easier to understand and test",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Simplification often involves refactoring nested loops."
+        },
+        {
+          "skill_id": "T14.G7.02",
+          "skill_name": "Basic pathfinding",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Pathfinding algorithms use loops to explore possible paths."
+        },
+        {
+          "skill_id": "T15.G7.04",
+          "skill_name": "Dialogue system with speaker tags",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Dialogue systems iterate through conversation sequences."
+        },
+        {
+          "skill_id": "T18.G7.02.01",
+          "skill_name": "Copy objects using grid matrix patterns",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Grid patterns require nested loops to position objects."
+        },
+        {
+          "skill_id": "T20.G7.08",
+          "skill_name": "Generate custom 3D shapes from calculated vertices",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Generating vertices requires iterating through calculations."
+        },
+        {
+          "skill_id": "T26.G7.05",
+          "skill_name": "Debug data collection scripts using print statements",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Data collection scripts typically use loops to gather multiple data points."
+        },
+        {
+          "skill_id": "T27.G7.02b",
+          "skill_name": "Calculate moving averages for trend smoothing",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T07.G5.01",
+          "justification": "Moving averages require iterating through data points with a sliding window."
+        }
+      ]
+    },
+    {
+      "category": "Missing Cross-Topic Dependencies - Topic 6 (Events)",
+      "description": "Add missing foundational dependencies on events for 20 priority skills",
+      "priority": "medium",
+      "fixes": [
+        {
+          "skill_id": "T13.G7.05",
+          "skill_name": "Anticipate runtime errors and add defensive checks",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Runtime errors often occur during event handling and need defensive checks."
+        },
+        {
+          "skill_id": "T14.G7.02",
+          "skill_name": "Basic pathfinding",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Pathfinding is typically triggered by game events (move requests, target changes)."
+        },
+        {
+          "skill_id": "T14.G7.06",
+          "skill_name": "Advanced level management system",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Level management systems coordinate multiple event-driven components."
+        },
+        {
+          "skill_id": "T15.G7.01",
+          "skill_name": "Scene manager sprite",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Scene managers use events to coordinate scene transitions."
+        },
+        {
+          "skill_id": "T15.G7.02",
+          "skill_name": "AI text-to-speech narration",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Narration systems trigger speech events and handle completion events."
+        },
+        {
+          "skill_id": "T15.G7.04",
+          "skill_name": "Dialogue system with speaker tags",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Dialogue systems are event-driven, advancing on user input or timers."
+        },
+        {
+          "skill_id": "T19.G7.01",
+          "skill_name": "Build a cooperative puzzle with shared progress counters",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Cooperative puzzles synchronize using events to broadcast progress updates."
+        },
+        {
+          "skill_id": "T19.G7.02",
+          "skill_name": "Implement a ready-up system before the game starts",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Ready-up systems use events to signal player readiness."
+        },
+        {
+          "skill_id": "T21.G7.10",
+          "skill_name": "Build a pose-based interactive game",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T06.G5.01",
+          "justification": "Pose-based games respond to pose detection events."
+        }
+      ]
+    },
+    {
+      "category": "Missing Cross-Topic Dependencies - Topic 11 (Functions)",
+      "description": "Add missing foundational dependencies on modular design for 10 priority skills",
+      "priority": "low",
+      "fixes": [
+        {
+          "skill_id": "T03.G7.02",
+          "skill_name": "Map functional modules to architecture components",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T11.G5.01",
+          "justification": "Mapping functional modules requires understanding modular decomposition and functions."
+        },
+        {
+          "skill_id": "T04.G7.09",
+          "skill_name": "Simplify code by merging repeated patterns",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T11.G5.01",
+          "justification": "Merging patterns often involves creating reusable functions."
+        },
+        {
+          "skill_id": "T06.G7.04",
+          "skill_name": "Compare tightly coupled vs broadcast-based designs",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T11.G5.01",
+          "justification": "Comparing coupling requires understanding modular boundaries and interfaces."
+        },
+        {
+          "skill_id": "T21.G7.01",
+          "skill_name": "Create a reusable prompt template library",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T11.G5.01",
+          "justification": "Template libraries benefit from functional abstraction and reusability."
+        },
+        {
+          "skill_id": "T24.G7.01",
+          "skill_name": "Create reusable XO prompt templates in lists",
+          "action": "add_dependency",
+          "old_value": null,
+          "new_value": "T11.G5.01",
+          "justification": "Reusable templates align with functional programming concepts."
+        }
+      ]
+    },
+    {
+      "category": "Complex Skills Review",
+      "description": "Skills with 4+ cross-topic dependencies - review for potential simplification",
+      "priority": "low",
+      "fixes": [
+        {
+          "skill_id": "T21.G7.04",
+          "skill_name": "Blend AI frames with manual touch-ups for animation",
+          "action": "review",
+          "old_value": null,
+          "new_value": null,
+          "justification": "Has 4 cross-topic dependencies (Topics 6, 8, 9, 10). Consider if this should be broken into smaller skills or if all dependencies are truly necessary."
+        },
+        {
+          "skill_id": "T22.G7.05",
+          "skill_name": "Add moderation guardrails and escalation paths",
+          "action": "review",
+          "old_value": null,
+          "new_value": null,
+          "justification": "Has 4 cross-topic dependencies (Topics 6, 8, 9, 21). Consider if this complex skill needs intermediate prerequisites."
+        },
+        {
+          "skill_id": "T26.G7.01",
+          "skill_name": "Build reusable data collection modules",
+          "action": "review",
+          "old_value": null,
+          "new_value": null,
+          "justification": "Has 4 cross-topic dependencies (Topics 6, 9, 10, 11). May benefit from clearer prerequisite path."
+        }
+      ]
+    }
+  ],
+  "implementation_notes": {
+    "order_of_application": [
+      "1. Apply all X-2 rule fixes first (replace low-grade dependencies)",
+      "2. Remove redundant dependencies",
+      "3. Add missing cross-topic dependencies in priority order: Topic 8, Topic 9, Topic 10, Topic 7, Topic 6, Topic 11",
+      "4. Review complex skills for potential restructuring"
+    ],
+    "validation_steps": [
+      "After applying fixes, verify no circular dependencies are introduced",
+      "Verify all dependencies point to Grade 5-7 skills only",
+      "Check that gateway skills (high dependent count) still have valid paths",
+      "Ensure no skills become isolated after changes"
+    ],
+    "automation_guidance": {
+      "file_format": "The allskills.md file uses a structured format with 'Dependencies:' sections",
+      "dependency_format": "* SKILL_ID: Skill description",
+      "find_skill_block": "Search for 'ID: SKILL_ID' followed by its Dependencies section",
+      "replace_strategy": "For each fix, locate the skill block, find the dependency line matching old_value, and replace with new_value",
+      "add_strategy": "For add_dependency, append '* NEW_VALUE: description' to the Dependencies section",
+      "remove_strategy": "For remove_dependency, delete the line containing old_value from Dependencies section"
+    }
+  },
+  "summary_statistics": {
+    "total_x2_fixes": 39,
+    "total_redundant_removals": 9,
+    "total_missing_t8_adds": 25,
+    "total_missing_t9_adds": 15,
+    "total_missing_t10_adds": 20,
+    "total_missing_t7_adds": 13,
+    "total_missing_t6_adds": 9,
+    "total_missing_t11_adds": 5,
+    "total_skills_affected": 126,
+    "percentage_skills_affected": "37.6%"
+  }
+}

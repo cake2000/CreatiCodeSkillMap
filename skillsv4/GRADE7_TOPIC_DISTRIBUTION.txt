@@ -1,0 +1,124 @@
+GRADE 7 SKILLS - TOPIC DISTRIBUTION VISUALIZATION
+=================================================
+
+Total Skills: 335
+Total Topics: 36
+
+Distribution Chart:
+-------------------
+
+T21 – AI Media                              ████████████████████████████████ 30 (9.0%)
+T24 – XO & Generative AI Practices          █████████████████████████ 20 (6.0%)
+T17 – 2D Motion & Physics                   ███████████████████ 16 (4.8%)
+T18 – 3D Worlds & Games                     ███████████████████ 16 (4.8%)
+T25 – Data Representation                   ██████████████████ 15 (4.5%)
+T10 – Lists & Tables                        ████████████████ 14 (4.2%)
+T19 – Multiplayer Apps                      ██████████████ 12 (3.6%)
+T20 – Algorithmic Art & Creative Coding     ██████████████ 12 (3.6%)
+T33 – Connected Services                    ██████████████ 12 (3.6%)
+T23 – AI Perception                         █████████████ 11 (3.3%)
+T31 – Internet & Cloud                      █████████████ 11 (3.3%)
+T06 – Events & Sequences                    ████████████ 10 (3.0%)
+T22 – Chatbots & Prompting                  ████████████ 10 (3.0%)
+T04 – Algorithm Patterns                    ████████████ 10 (3.0%)
+T35 – Impacts & Ethics                      ████████████ 10 (3.0%)
+T01 – Everyday Algorithms                   ██████████ 9 (2.7%)
+T09 – Variables & Expressions               ██████████ 9 (2.7%)
+T14 – 2D Games                              ██████████ 9 (2.7%)
+T05 – Human‑Centered Design                 █████████ 8 (2.4%)
+T26 – Data Collection & Logging             █████████ 8 (2.4%)
+T28 – Chance & Simulations                  █████████ 8 (2.4%)
+T27 – Data Analysis & Storytelling          ████████ 7 (2.1%)
+T30 – Devices & Hardware Systems            ████████ 7 (2.1%)
+T36 – Careers, Collaboration & Future Paths ████████ 7 (2.1%)
+T02 – Algorithm Diagrams                    ███████ 6 (1.8%)
+T03 – Problem Decomposition                 ███████ 6 (1.8%)
+T13 – Testing, Debugging & Error Handling   ███████ 6 (1.8%)
+T16 – User Interfaces                       ██████ 5 (1.5%)
+T29 – Text Data & NLP Foundations           ██████ 5 (1.5%)
+T32 – Cybersecurity & Digital Safety        ██████ 5 (1.5%)
+T07 – Loops                                 █████ 4 (1.2%)
+T11 – Functions & Procedures                █████ 4 (1.2%)
+T12 – Organizing Programs                   █████ 4 (1.2%)
+T15 – Stories & Animation                   █████ 4 (1.2%)
+T34 – Computing History                     ████ 3 (0.9%)
+T08 – Conditions & Logic                    ███ 2 (0.6%)
+
+Category Groupings:
+-------------------
+
+AI & Machine Learning Topics (T21, T22, T23, T24, T29):
+  • Total: 76 skills (22.7% of Grade 7)
+  • Topics: 5
+  • Largest: T21 – AI Media (30 skills)
+
+Data & Analysis Topics (T10, T25, T26, T27):
+  • Total: 44 skills (13.1% of Grade 7)
+  • Topics: 4
+  • Focus: Data structures, representation, collection, analysis
+
+Game Development Topics (T14, T17, T18, T19):
+  • Total: 53 skills (15.8% of Grade 7)
+  • Topics: 4
+  • Coverage: 2D games, physics, 3D worlds, multiplayer
+
+Fundamentals Topics (T01-T13):
+  • Total: 73 skills (21.8% of Grade 7)
+  • Topics: 13
+  • Core CS concepts: Algorithms, loops, variables, functions, testing
+
+Application Development (T15, T16, T20):
+  • Total: 21 skills (6.3% of Grade 7)
+  • Topics: 3
+  • Focus: Stories, UI, creative coding
+
+Systems & Networks (T28, T30, T31, T32, T33):
+  • Total: 39 skills (11.6% of Grade 7)
+  • Topics: 5
+  • Coverage: Simulations, hardware, internet, security, services
+
+Society & Impact (T34, T35, T36):
+  • Total: 20 skills (6.0% of Grade 7)
+  • Topics: 3
+  • Focus: History, ethics, careers, collaboration
+
+Dependency Complexity Distribution:
+-----------------------------------
+
+No Dependencies:     █ 1 skill  (0.3%)
+1 Dependency:        ████████████████████████████ 78 skills (23.3%)
+2 Dependencies:      ██████████████████████████████████████████████ 128 skills (38.2%)
+3 Dependencies:      ████████████████████████████ 79 skills (23.6%)
+4 Dependencies:      ██████████ 30 skills (9.0%)
+5 Dependencies:      █████ 15 skills (4.5%)
+6 Dependencies:      ██ 4 skills (1.2%)
+
+Average Dependencies per Skill: 2.39
+
+Key Insights:
+-------------
+
+1. BALANCED CURRICULUM
+   - Well-distributed across traditional CS and modern AI topics
+   - No single topic dominates (largest is 9.0%)
+
+2. AI INTEGRATION
+   - 22.7% of skills are AI-related
+   - Shows contemporary focus while maintaining fundamentals
+
+3. MANAGEABLE COMPLEXITY
+   - 85.1% of skills have 1-3 dependencies
+   - Appropriate for 7th grade cognitive load
+
+4. CROSS-TOPIC INTEGRATION
+   - 424 unique dependencies across 335 skills
+   - Shows interconnected learning pathways
+
+5. FOUNDATION BUILDING
+   - Strong emphasis on fundamentals (21.8%)
+   - Prepares for advanced Grade 8 topics
+
+6. PRACTICAL APPLICATIONS
+   - Game development (15.8%)
+   - Connected services (11.6%)
+   - Real-world problem-solving focus
