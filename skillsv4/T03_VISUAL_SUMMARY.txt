@@ -1,0 +1,229 @@
+# T03 PROBLEM DECOMPOSITION - VISUAL SUMMARY
+# Quick Reference Guide
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        SKILLS BY GRADE OVERVIEW                          │
+└─────────────────────────────────────────────────────────────────────────┘
+
+GK [5] ━━ G1 [4] ━━ G2 [5] ━━ G3 [7] ━━ G4 [6] ━━ G5 [6] ━━ G6 [5] ━━ G7 [6] ━━ G8 [6]
+  ✓        ✓        ✓        ✓        ⚠️       ✓        ✓        ✓        ✓
+                              │         │
+                              │         └─ Complexity spike
+                              └─ Minor overlap
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                          KEY CONCEPTS BY GRADE                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+GK: Parts & Wholes
+    ├─ Identify parts (T03.GK.01)
+    ├─ Match parts (T03.GK.02)
+    └─ Simple routines (T03.GK.03-05)
+
+G1: Functional Understanding
+    ├─ Part functions (T03.G1.01-02)
+    └─ Story/game steps (T03.G1.03-04)
+
+G2: Project Introduction
+    ├─ Subtasks (T03.G2.01-03)
+    ├─ Progress tracking (T03.G2.04)
+    └─ Features concept (T03.G2.04.01-05)
+
+G3: Feature-Based Planning
+    ├─ Feature identification (T03.G3.01-02)
+    ├─ Storyboards (T03.G3.03-05)
+    ├─ Component interaction (T03.G3.05.01-06)
+    └─ Team roles (T03.G3.07)
+
+G4: Components & Modules ⚠️
+    ├─ Component breakdown (T03.G4.01) [7 deps]
+    ├─ Module grouping (T03.G4.02)
+    ├─ Team planning (T03.G4.03-04)
+    └─ Plan iteration (T03.G4.05-06) [G4.06: 8 deps + X-2 violation]
+
+G5: Structured Decomposition
+    ├─ Feature lists (T03.G5.01)
+    ├─ Project maps (T03.G5.02)
+    ├─ Dependencies (T03.G5.03-04)
+    └─ Module analysis (T03.G5.05-06)
+
+G6: Release Planning
+    ├─ Module design (T03.G6.01-02)
+    ├─ Milestones (T03.G6.03-04)
+    └─ AI assistance (T03.G6.05)
+
+G7: Architecture & Refactoring
+    ├─ Architecture diagrams (T03.G7.01-02)
+    ├─ Decomposition evaluation (T03.G7.03-04)
+    └─ Test planning (T03.G7.05-06)
+
+G8: Formal Specifications
+    ├─ Project specs (T03.G8.01-02)
+    ├─ Complexity ranking (T03.G8.03)
+    ├─ Scope management (T03.G8.04)
+    └─ Refactoring planning (T03.G8.05-06)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                       CRITICAL ISSUES HEATMAP                            │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Grade    Violations    Excessive Deps    Too Broad    Clarity
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ GK          -              -              -            -
+ G1          -              -              -            -
+ G2          -              -              -            -
+ G3          -              -              -            -
+ G4       🔴 1           🔴 2           🔴 1            -
+ G5          -              -              -         🟡 1
+ G6          -              -              -            -
+ G7          -              -           🟡 1         🟡 2
+ G8          -              -           🟡 2         🟡 1
+
+Legend: 🔴 Critical  🟡 Important  - None
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    TOP PRIORITY ACTION ITEMS                             │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Priority 1 (CRITICAL - Must Fix):
+  1. ⚠️ Fix T03.G4.06 X-2 rule violation
+     Remove: T06.G2.01, T06.G2.02 (G2 deps in G4 skill)
+     
+  2. ⚠️ Break down T03.G4.01 (7 dependencies)
+     Split into: .01, .02, .03 sub-skills
+     
+  3. ⚠️ Break down T03.G4.06 (8 dependencies)
+     Split into: .01, .02 sub-skills
+     
+  4. ⚠️ Review T03.G8.06 → T32.G6.01 dependency
+     Seems unrelated (cybersecurity?)
+
+Priority 2 (IMPORTANT - Should Fix):
+  5. Add T03.G2.06: Bridge tasks → features
+  6. Add T03.G3.08: Early module introduction
+  7. Add T03.G4.01.04: Component dependencies
+  8. Fix incomplete dependency references
+  9. Fix truncated descriptions
+
+Priority 3 (NICE-TO-HAVE):
+ 10. Clarify G2.05 vs G3.01 distinction
+ 11. Break down T03.G7.01 (architecture)
+ 12. Add T03.G6.06: Architecture prep
+ 13. Break down T03.G8.01 (spec writing)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                      DEPENDENCY ANALYSIS                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Skills with Most Dependencies:
+  1. T03.G4.06 ━━━━━━━━ 8 deps (4 from T04, 2 from T06, 1 from T07, 1 from T13)
+  2. T03.G4.01 ━━━━━━━ 7 deps (from T03, T04×2, T06, T07, T08, T09)
+  3. T03.G7.02 ━━━━━ 5 deps (from T06, T08, T09, T11, T03)
+  4. T03.G8.05 ━━━━━ 5 deps (from T02, T06, T10, T16, T03)
+
+Cross-Topic Dependency Pattern:
+  Heavy on: T06 (Events), T07 (Loops), T08 (Conditionals), T09 (Variables)
+  Moderate: T02 (Algorithms), T04 (Patterns), T10 (Data)
+  Light: T05, T11, T13, T16, T26, T32
+
+Intra-Topic Dependency Health:
+  ✓ Most skills depend on 1-2 prior T03 skills
+  ✓ Clear progression chains visible
+  ⚠️ G4.01 creates bottleneck (many skills depend on it)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        PROPOSED NEW SKILLS                               │
+└─────────────────────────────────────────────────────────────────────────┘
+
+G2: +1 skill
+  └─ T03.G2.06: Task vs Feature distinction
+
+G3: +1 skill
+  └─ T03.G3.08: Group features into modules
+
+G4: +6 skills (4 new + 2 breakdowns)
+  ├─ T03.G4.01.01: Identify candidate components
+  ├─ T03.G4.01.02: Define component responsibilities
+  ├─ T03.G4.01.03: Distinguish data vs logic components
+  ├─ T03.G4.01.04: Identify component dependencies
+  ├─ T03.G4.06.01: Identify affected plan parts
+  └─ T03.G4.06.02: Add tasks for test failures
+
+G6: +1 skill
+  └─ T03.G6.06: Describe project structure
+
+G7: +3 skills (breakdown)
+  ├─ T03.G7.01.01: Choose diagram notation
+  ├─ T03.G7.01.02: Map components to diagram
+  └─ T03.G7.01.03: Annotate data flows
+
+G8: +4 skills (breakdown)
+  ├─ T03.G8.01.01: Write overview section
+  ├─ T03.G8.01.02: Document features
+  ├─ T03.G8.01.03: Specify data & UI
+  └─ T03.G8.01.04: Define test criteria
+
+TOTAL NEW: 16 skills (15 additions + 1 bridge)
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         HEALTH SCORECARD                                 │
+└─────────────────────────────────────────────────────────────────────────┘
+
+Category                              Score    Status
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Age Appropriateness                   9/10     ✓ Excellent
+Conceptual Progression                8/10     ✓ Good
+Dependency Cleanliness                6/10     ⚠️ Needs Work
+Skill Granularity                     7/10     ⚠️ Some Too Broad
+Description Clarity                   8/10     ✓ Good
+Scaffolding Completeness              7/10     ⚠️ Some Gaps
+────────────────────────────────────────────────────────────
+OVERALL                              7.5/10    ✓ STRONG with issues
+
+Strengths:
+  ✓ Clear K-8 arc from concrete to abstract
+  ✓ Age-appropriate activities at each level
+  ✓ Introduces advanced concepts (architecture, refactoring)
+  ✓ Good integration of AI assistance (XO)
+
+Weaknesses:
+  ⚠️ G4 complexity spike
+  ⚠️ X-2 rule violation in G4.06
+  ⚠️ Some skills too broad (need breakdown)
+  ⚠️ Minor gaps in scaffolding
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         IMPLEMENTATION IMPACT                            │
+└─────────────────────────────────────────────────────────────────────────┘
+
+If all recommendations implemented:
+
+Current:  54 skills
+  + New:  16 skills
+  - Replaced: 3 skills (G4.01, G4.06, G7.01, G8.01 become parent skills)
+━━━━━━━━━━━━━━━━━
+Revised: 67 skills (24% increase)
+
+Skills by Grade After Changes:
+  GK: 5 → 5    (no change)
+  G1: 4 → 4    (no change)
+  G2: 5 → 6    (+1)
+  G3: 7 → 8    (+1)
+  G4: 6 → 12   (+6) ← Major restructuring
+  G5: 6 → 6    (no change)
+  G6: 5 → 6    (+1)
+  G7: 6 → 9    (+3)
+  G8: 6 → 10   (+4)
+
+Expected Benefits:
+  ✓ Smoother G3→G4 transition
+  ✓ Reduced coupling (fewer multi-dependency skills)
+  ✓ Better scaffolding for complex concepts
+  ✓ X-2 rule compliance restored
+  ✓ Clearer learning objectives per skill
+
+Trade-offs:
+  ⚠️ More total skills to implement
+  ⚠️ May need to adjust pacing
+  ✓ But each skill is clearer and more focused
+

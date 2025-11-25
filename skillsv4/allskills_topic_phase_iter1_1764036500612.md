@@ -19,8 +19,8 @@ Description: **Student task:** Look at 4 pictures. Put them in the right order. 
 
 ID: T01.GK.03
 Topic: T01 – Everyday Algorithms
-Skill: Identify the first and last steps in a sequence
-Description: **Student task:** Look at pictures showing steps in time order (a sequence of actions). Touch the first step that happens. Touch the last step that happens. This builds understanding that algorithms have a beginning and an end in time. _Implementation note: Click first/last pictures in a temporal sequence. CSTA: EK‑ALG‑AF‑01._
+Skill: Find the first and last pictures
+Description: **Student task:** Look at pictures in order. Touch the first picture. Touch the last picture. _Implementation note: Click first/last pictures. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
 * T01.GK.02: Put pictures in order for coming to class
@@ -152,7 +152,7 @@ Dependencies:
 ID: T01.G1.09
 Topic: T01 – Everyday Algorithms
 Skill: Match an algorithm to its goal
-Description: Students match 3–4 short picture‑based routines (4–5 steps each) to goal labels, choosing from a list of 5–6 options that include some similar goals as distractors, requiring careful attention to the specific steps in each routine. _Implementation note: Matching lines between sequences and goals; auto‑graded. CSTA: E1‑ALG‑AF‑01._
+Description: Students match 3–4 short picture‑based routines (4–5 steps each) to goal labels, choosing from a list of 5–6 options that include some similar or overlapping goals, requiring careful attention to the specific steps in each routine. _Implementation note: Matching lines between sequences and goals; auto‑graded. CSTA: E1‑ALG‑AF‑01._
 
 
 ID: T01.G1.10
@@ -222,7 +222,7 @@ Dependencies:
 ID: T01.G2.07
 Topic: T01 – Everyday Algorithms
 Skill: Trace an algorithm that uses an if/then choice
-Description: Students follow short number/picture algorithms with one if/then block that checks 2-3 possible conditions (like 'if sunny' vs 'if cloudy' vs 'if raining') and identify the final result for each case. _Implementation note: Tracing + MCQ result. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: Students follow short number/picture algorithms with if/then (with 2-3 simple conditions) and identify the final result. _Implementation note: Tracing + MCQ result. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.06: Choose the best if/then rule for a situation
@@ -326,16 +326,6 @@ Dependencies:
 * T01.G2.14: Fix maze directions that miss the goal
 
 
-ID: T01.G2.19
-Topic: T01 – Everyday Algorithms
-Skill: Read a simple 3-block script and match to pictures
-Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. This bridges picture-based understanding to reading code. _Implementation note: MCQ matching code to pictures; auto-graded. CSTA: E2-ALG-AF-01._
-
-Dependencies:
-* T01.G2.17: Identify the action each code block performs
-* T01.G2.15: Match picture instructions to visual block commands
-
-
 ID: T01.G3.01
 Topic: T01 – Everyday Algorithms
 Skill: Complete a simple script with missing blocks
@@ -358,7 +348,7 @@ Dependencies:
 ID: T01.G3.03
 Topic: T01 – Everyday Algorithms
 Skill: Identify repeated blocks in a script (no loops)
-Description: Students highlight which blocks repeat in a short script that hasn't been refactored yet (the same blocks appear multiple times in sequence before being converted to loops). The project should have a clear, visual goal that students can understand before examining the code. _Implementation note: Highlight or click region in code; project examples include geometric drawing (square, triangle), simple animation (repeated dance moves), basic movement patterns (zigzag, staircase). CSTA: E3‑ALG‑AF‑01._
+Description: Students highlight which blocks repeat in a short script from a familiar, simple project (e.g., sprite drawing a square with 4 explicit "move 10" blocks, character performing a dance with repeated moves, robot moving in a pattern with repeated turns). The project should have a clear, visual goal that students can understand before examining the code. _Implementation note: Highlight or click region in code; project examples include geometric drawing (square, triangle), simple animation (repeated dance moves), basic movement patterns (zigzag, staircase). CSTA: E3‑ALG‑AF‑01._
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -489,7 +479,7 @@ Dependencies:
 ID: T01.G4.01
 Topic: T01 – Everyday Algorithms
 Skill: Plan steps for a coded maze or goal‑reach task
-Description: Students write a numbered list of steps in simple sentences (not code) describing what the program should do to reach the flag without touching red walls. Plan should have 5-8 steps describing the sequence of actions. _Implementation note: Arrange/choose steps. CSTA: E4‑ALG‑AF‑01._
+Description: Students write numbered steps in words (multiple steps, about 5-8) for "reach the flag without touching red walls," describing what the program should do before coding. _Implementation note: Arrange/choose steps. CSTA: E4‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.11: Trace maze directions on a simple grid
@@ -542,7 +532,7 @@ Dependencies:
 ID: T01.G4.05.01
 Topic: T01 – Everyday Algorithms
 Skill: Identify differences between loop and no-loop script versions
-Description: Students compare two scripts that do the same thing: one with loops and one without. They identify the structural differences: number of blocks, presence of repeat blocks, and how many times each action appears in the code. _Implementation note: Side‑by‑side code comparison with MCQ identifying differences. CSTA: E4‑ALG‑IM‑04._
+Description: Students compare two scripts that do the same thing: one with loops and one without. They identify the structural differences (e.g., "This version has 12 blocks, this version has 5 blocks with a repeat 4 times loop"). _Implementation note: Side‑by‑side code comparison with MCQ identifying differences. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
 * T02.G2.01: Turn a picture routine into labeled boxes
@@ -699,26 +689,6 @@ Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
 * T07.G4.01: Create a forever game loop for controls
-
-
-ID: T01.G4.14
-Topic: T01 – Everyday Algorithms
-Skill: Identify the inner and outer loop in a nested loop script
-Description: Students look at a script with nested loops (a repeat inside another repeat). They identify which loop is the outer loop (runs fewer times, contains the other) and which is the inner loop (runs many times, inside the other). _Implementation note: Code reading with highlight/MCQ; auto-graded. CSTA: E4-ALG-AF-01, E4-ALG-PS-03._
-
-Dependencies:
-* T01.G4.04: Replace repeated patterns with loops
-* T07.G3.01: Use a counted repeat loop
-
-
-ID: T01.G4.15
-Topic: T01 – Everyday Algorithms
-Skill: Use a variable value in an if/then condition
-Description: Students add an if/then block that checks a variable value (e.g., "if score > 10, then say 'You win!'"). This connects variable tracking from T01.G4.08-09 to conditional logic. _Implementation note: Coding; auto-graded by behavior under different variable values. CSTA: E4-ALG-AF-01, E4-PRO-PF-01._
-
-Dependencies:
-* T01.G4.09: Use a variable to track a simple game state (lives or points)
-* T08.G3.01: Use a simple if in a script
 
 
 ID: T01.G5.01
@@ -926,26 +896,20 @@ Dependencies:
 * T02.G5.01: Trace a script with nested loops using debug print
 
 
-ID: T01.G5.09.01
+ID: T01.G5.09
 Topic: T01 – Everyday Algorithms
-Skill: Explain why a loop visits all necessary values
-Description: Students explain why a loop in a searching/counting algorithm is guaranteed to check every item it needs to check (e.g., "The loop starts at the first item and moves through each one until it reaches the end"). _Implementation note: MCQ/structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
+Skill: Explain why an algorithm is correct using loops and variables
+Description: Students give an informal explanation (not a formal proof) of why a loop + variable algorithm (e.g., max, count) is guaranteed to work, describing how the algorithm checks all values and updates correctly. _Implementation note: Structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G5.04.01: Trace a "find the largest" algorithm
-* T01.G5.04.02: Trace a "count matches" algorithm
-* T07.G3.01: Use a counted repeat loop
-
-
-ID: T01.G5.09.02
-Topic: T01 – Everyday Algorithms
-Skill: Explain why variable updates maintain correctness
-Description: Students explain why the variable updates in an algorithm ensure the final answer is correct (e.g., "The 'max' variable always holds the largest value seen so far, so when the loop ends, it holds the largest of all values"). _Implementation note: MCQ/structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.09.01: Explain why a loop visits all necessary values
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T01.G5.04.01
+* T01.G5.04.02
+* T07.G3.01
+* T09.G3.01.04
+* T10.G3.05
+* T10.G4.18
 * T04.G5.01: Recognize a counter update pattern
+* T03.G5.01: Create a feature list and subtask breakdown
 
 
 ID: T01.G5.10
@@ -1050,7 +1014,7 @@ Dependencies:
 ID: T01.G6.08
 Topic: T01 – Everyday Algorithms
 Skill: Implement code from a detailed flowchart
-Description: Students implement code from a detailed flowchart with 3+ decision points and nested loops. This extends the simpler flowchart-to-code skills from Grade 5 to more complex, multi-path algorithms typical of complete game turns. _Implementation note: Coding; auto‑graded structure + tests, assumes prior diagram‑to‑code practice from T02.G6.05. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑PF‑01._
+Description: Students map each shape in a detailed, multi‑step flowchart to code constructs in a CreatiCode project, focusing on correctness and readability rather than learning new notation. _Implementation note: Coding; auto‑graded structure + tests, assumes prior diagram‑to‑code practice from T02.G6.05. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑PF‑01._
 
 Dependencies:
 * T01.G5.02.01.04: Convert a flowchart with loops and conditionals into code
@@ -1063,8 +1027,7 @@ Skill: Identify the pattern in a given program
 Description: Students categorize code as search, sort, accumulation, or simulation. _Implementation note: MCQ; auto‑graded. CSTA: MS‑ALG‑AF‑01._
 
 Dependencies:
-* T01.G5.09.01: Explain why a loop visits all necessary values
-* T01.G5.09.02: Explain why variable updates maintain correctness
+* T01.G5.09: Explain why an algorithm is correct using loops and variables
 * T01.G6.02: Compare how step counts grow with input size
 * T08.G5.01: Pattern identification requires conditional logic to analyze different cases. T0
 
@@ -1164,6 +1127,7 @@ Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
 
 
 ID: T01.G8.02
@@ -1176,6 +1140,7 @@ Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T07.G6.01: Trace nested loops with variable bounds
 * T13.G6.01: Trace complex code with multiple variables
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T01.G8.03
@@ -1186,6 +1151,8 @@ Description: Students explain how changed rules affect outcomes. _Implementation
 Dependencies:
 * T01.G8.02: Interpret the behavior of a simulation algorithm over time
 * T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T01.G8.04
@@ -1196,6 +1163,8 @@ Description: Students highlight base case and recursive step in a **natural‑la
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01.04: Display variable value on stage using the variable monitor
+* T10.G6.01: Sort a table by a column
+* T21.G6.01: Plan a mixed-source asset kit for a game or story project
 
 
 ID: T01.G8.05
@@ -1217,6 +1186,8 @@ Skill: Analyze who is helped or harmed by a real‑world algorithm
 Description: Students identify stakeholders and impacts of a real‑world algorithm. _Implementation note: Scenario with MCQ + short answers. CSTA: MS‑ALG‑IM‑08. AI4K12: Ethical design (D), Societal impacts (E)._
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
@@ -1228,6 +1199,8 @@ Description: Students propose specific mitigations based on identified harms. _I
 Dependencies:
 * T01.G8.06: Analyze who is helped or harmed by a real‑world algorithm
 * T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
+* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T01.G8.08
@@ -1266,8 +1239,6 @@ Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 
 
-## KINDERGARTEN (4 skills - unchanged)
-
 ID: T02.GK.01
 Topic: T02 – Algorithm Diagrams
 Skill: Recognize picture steps for a task
@@ -1278,6 +1249,7 @@ Dependencies:
 
 
 
+
 ID: T02.GK.02
 Topic: T02 – Algorithm Diagrams
 Skill: Order 3–4 pictures to make a story
@@ -1285,6 +1257,7 @@ Description: Students drag 3–4 scrambled pictures into arrow‑connected boxes
 
 Dependencies:
 * T02.GK.01: Recognize picture steps for a task
+
 
 
 
@@ -1308,10 +1281,6 @@ Dependencies:
 
 
 
-
----
-
-## GRADE 1 (5 skills - unchanged)
 
 ID: T02.G1.01
 Topic: T02 – Algorithm Diagrams
@@ -1357,10 +1326,6 @@ Description: Students see an algorithm strip with one clearly wrong picture (e.g
 Dependencies:
 * T02.G1.04: Find a broken picture algorithm
 
-
----
-
-## GRADE 2 (7 skills - added 1 new)
 
 ID: T02.G2.01
 Topic: T02 – Algorithm Diagrams
@@ -1416,30 +1381,13 @@ Dependencies:
 * T02.G2.05: Match a box diagram to a step sequence
 
 
-ID: T02.G2.07
-Topic: T02 – Algorithm Diagrams
-Skill: Explore the CreatiCode workspace and run a script
-Description: Students open CreatiCode, identify the block workspace, sprite stage, and play button, then run a pre-made script to see how block programs execute, preparing for the transition from picture algorithms to block coding.
-
-Dependencies:
-* T02.G2.06: Fix a sequencing error in a step sequence
-
-**[NEW SKILL - Bridges G2 unplugged to G3 coding]**
-
-
----
-
-## GRADE 3 (6 skills - modified 2)
-
 ID: T02.G3.01
 Topic: T02 – Algorithm Diagrams
 Skill: Identify basic block sequence in CreatiCode
 Description: Students build a simple 3-step block sequence in CreatiCode (e.g., move, turn, say) and observe how blocks run from top to bottom, learning that code follows a sequence just like picture algorithms from earlier grades.
 
 Dependencies:
-* T02.G2.07: Explore the CreatiCode workspace and run a script
-
-**[CHANGED: dependency updated from T02.G2.02 to new T02.G2.07]**
+* T02.G2.02: Read a box diagram and choose the matching pictures
 
 
 ID: T02.G3.02
@@ -1463,12 +1411,10 @@ Dependencies:
 ID: T02.G3.04
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a block sequence with an if/else decision
-Description: Students follow a CreatiCode script with one if/else block and trace which path executes for a given condition, understanding how conditional decisions work in code.
+Description: Students follow a CreatiCode script with one if/else block and trace which path executes for a given condition, connecting the concept of decision diamonds from unplugged activities to actual code blocks.
 
 Dependencies:
 * T02.G3.03: Build a block sequence for a simple task
-
-**[CHANGED: removed reference to "decision diamonds from unplugged activities" as T02 has no prior decision diamond skill]**
 
 
 ID: T02.G3.05
@@ -1489,21 +1435,16 @@ Dependencies:
 * T02.G3.03: Build a block sequence for a simple task
 
 
----
-
-## GRADE 4 (9 skills - major changes)
-
 ID: T02.G4.01
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a block script with a repeat loop
 Description: Students follow a CreatiCode script containing a "repeat (n) times" block and predict what happens after all repetitions complete.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T02.G3.03: Build a block sequence for a simple task
-* T02.G3.02: Predict the outcome of a block sequence
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-
-**[CHANGED: removed T02.G2.01 and T02.G2.02 (picture diagram skills), added T02.G3.02]**
 
 
 ID: T02.G4.02
@@ -1512,10 +1453,9 @@ Skill: Build a block script with a repeat loop
 Description: Students create a CreatiCode script using a "repeat" block to accomplish a repetitive task (e.g., "draw a square by repeating: move 100, turn 90").
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T02.G4.01: Trace a block script with a repeat loop
-* T02.G3.03: Build a block sequence for a simple task
-
-**[CHANGED: removed T02.G2.01 and T02.G2.02]**
 
 
 ID: T02.G4.03
@@ -1531,71 +1471,33 @@ Dependencies:
 * T13.G3.01: Test and trace simple block-based scripts
 
 
-ID: T02.G4.04.01
+ID: T02.G4.04
 Topic: T02 – Algorithm Diagrams
-Skill: Build a script with sequential loop and decision
-Description: Students create a CreatiCode script that has a repeat loop followed by an if/else block (e.g., "repeat 4: move 10" then "if x > 100, say 'far', else say 'close'"), practicing using both structures in sequence.
+Skill: Build a script combining loops and decisions
+Description: Students create a CreatiCode script that uses both repeat blocks and if/else blocks together (e.g., "repeat 10 times: if x > 0, move right, else move left").
 
 Dependencies:
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T02.G4.02: Build a block script with a repeat loop
-* T02.G3.05: Create a block script with one if/else decision
-
-**[NEW SUB-SKILL - replaces overly broad T02.G4.04, part 1 of 3]**
-
-
-ID: T02.G4.04.02
-Topic: T02 – Algorithm Diagrams
-Skill: Build a script with a decision inside a loop
-Description: Students create a CreatiCode script with an if/else block placed inside a repeat loop (e.g., "repeat 10: if x > 0, move right, else move left"), understanding how decisions can be made on each iteration.
-
-Dependencies:
-* T02.G4.04.01: Build a script with sequential loop and decision
 * T02.G4.03: Trace a script with multiple if/else decisions
 * T06.G2.01: Create a simple cause-and-effect chain with picture cards
-
-**[NEW SUB-SKILL - part 2 of 3]**
-
-
-ID: T02.G4.04.03
-Topic: T02 – Algorithm Diagrams
-Skill: Build a script with nested loops and decisions
-Description: Students create a CreatiCode script that combines nested repeat blocks with if/else decisions (e.g., outer loop for rows, inner loop for columns, with decision inside), demonstrating complex control flow.
-
-Dependencies:
-* T02.G4.04.02: Build a script with a decision inside a loop
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T06.G2.02: Match multiple triggers to the same action
 * T06.G2.03: Design a simple "if-then" game rule
-
-**[NEW SUB-SKILL - part 3 of 3]**
-
-
-ID: T02.G4.04.04
-Topic: T02 – Algorithm Diagrams
-Skill: Predict loop output before using debug print
-Description: Students look at a repeat loop script and predict what will happen on each iteration (e.g., "after 1: x=5, after 2: x=10"), writing predictions on paper before running the code to build mental tracing skills.
-
-Dependencies:
-* T02.G4.02: Build a block script with a repeat loop
-* T02.G3.02: Predict the outcome of a block sequence
-
-**[NEW BRIDGING SKILL - fills gap before debug print introduction]**
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
 ID: T02.G4.05
 Topic: T02 – Algorithm Diagrams
 Skill: Understand debug print blocks for tracing
-Description: Students learn to insert "debug print" blocks (console log) into their scripts to display variable values in the console, understanding that this helps them see what the algorithm is doing step-by-step.
+Description: Students learn to insert "debug print" blocks into their scripts to display variable values in the console, understanding that this helps them see what the algorithm is doing step-by-step.
 
 Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
-* T02.G4.04.04: Predict loop output before using debug print
 * T04.G2.01: Identify the repeating unit in a longer pattern
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T13.G3.01: Test and trace simple block-based scripts
-
-Note: This skill requires understanding variables from T09 (Variables) topic. Assumes students have learned basic variable creation and use in T09.G3.01 or equivalent.
-
-**[CHANGED: added T02.G4.04.04 dependency and note about variables]**
 
 
 ID: T02.G4.06
@@ -1604,14 +1506,13 @@ Skill: Use debug print to trace variable changes in a loop
 Description: Students add debug print blocks inside a loop to see how a variable (like a counter) changes with each iteration, manually recording the values to build a simple trace table on paper.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T02.G4.05: Understand debug print blocks for tracing
-* T02.G4.04.04: Predict loop output before using debug print
 * T04.G2.01: Identify the repeating unit in a longer pattern
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T13.G3.01: Test and trace simple block-based scripts
-
-**[CHANGED: removed T02.G2.01 and T02.G2.02, added T02.G4.04.04]**
 
 
 ID: T02.G4.07
@@ -1626,35 +1527,16 @@ Dependencies:
 * T13.G3.01: Test and trace simple block-based scripts
 
 
-ID: T02.G4.08
-Topic: T02 – Algorithm Diagrams
-Skill: Build a simple nested repeat loop for a pattern
-Description: Students create a script with one repeat loop inside another (e.g., "outer repeat 3: inner repeat 4: stamp") to create a simple grid or repeated pattern, understanding nested loop structure without the complexity of variables.
-
-Dependencies:
-* T02.G4.02: Build a block script with a repeat loop
-* T04.G3.01: Identify a pattern and predict what comes next
-
-**[NEW BRIDGING SKILL - introduces nested loops before adding variable tracing in G5]**
-
-
----
-
-## GRADE 5 (6 skills - modified 2)
-
 ID: T02.G5.01
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a script with nested loops using debug print
 Description: Students trace a CreatiCode script containing nested repeat blocks by adding debug print statements and recording the output to understand how the inner and outer loops interact.
 
 Dependencies:
-* T02.G4.06: Use debug print to trace variable changes in a loop
-* T02.G4.08: Build a simple nested repeat loop for a pattern
+* T02.G4.06
 * T10.G3.05
 * T10.G4.18
 * T07.G5.01: Simulate repeated experiments with a loop
-
-**[CHANGED: added full skill name to T02.G4.06 reference, added T02.G4.08 dependency]**
 
 
 ID: T02.G5.02
@@ -1663,14 +1545,12 @@ Skill: Build a script with nested loops for a pattern
 Description: Students create a script using nested repeat blocks to generate a pattern (e.g., "draw a grid" or "create rows of stamps"), demonstrating algorithmic thinking with nested structures.
 
 Dependencies:
-* T02.G5.01: Trace a script with nested loops using debug print
+* T02.G5.01
 * T10.G3.05
 * T10.G4.18
 * T07.G5.01: Simulate repeated experiments with a loop
 * T04.G5.01: Recognize a counter update pattern
 * T03.G5.01: Create a feature list and subtask breakdown
-
-**[CHANGED: added full skill name to T02.G5.01 reference]**
 
 
 ID: T02.G5.03
@@ -1711,19 +1591,13 @@ Dependencies:
 * T02.G5.05: Compare two algorithms by counting blocks
 
 
----
-
-## GRADE 6 (7 skills - modified 1, added 1 new)
-
 ID: T02.G6.01
 Topic: T02 – Algorithm Diagrams
 Skill: Learn the pseudocode generation block
-Description: Students find and use the "get pseudocode from sprite blocks" block in CreatiCode's control category to convert their block scripts into text-based pseudocode that describes what the algorithm does.
+Description: Students discover the "get pseudocode from sprite blocks" block in CreatiCode's control category and understand that it converts their block scripts into text-based pseudocode that describes what the algorithm does.
 
 Dependencies:
 * T02.G5.02: Build a script with nested loops for a pattern
-
-**[CHANGED: improved description clarity - "find and use" instead of "discover and understand"]**
 
 
 ID: T02.G6.02
@@ -1771,103 +1645,35 @@ Dependencies:
 * T02.G5.04: Create a manual trace table for a script with accumulation
 
 
-ID: T02.G6.07
-Topic: T02 – Algorithm Diagrams
-Skill: Build an algorithm to find maximum value in a list
-Description: Students create a script that examines each value in a list and tracks the largest one found (using a "max so far" variable), using debug print to show when the maximum changes.
-
-Dependencies:
-* T02.G6.06: Trace a data processing algorithm using debug print
-* T10.G5.03: Work with list data structures
-
-**[NEW BRIDGING SKILL - fills gap between tracing data processing and building search algorithms]**
-
-
----
-
-## GRADE 7 (9 skills - major changes)
-
 ID: T02.G7.01
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a simulation algorithm step-by-step
-Description: Students trace a CreatiCode script that models change over time (e.g., a counter incrementing each step, a sprite accelerating as it moves) using debug print to record state after each iteration and predict future values based on the pattern.
+Description: Students trace a CreatiCode script that models a process over time (e.g., a counter stepping up, an object moving with changing speed) using debug print to show state after each step and predict future behavior.
 
 Dependencies:
 * T02.G6.06: Trace a data processing algorithm using debug print
 
-**[CHANGED: improved description clarity - "models change over time" more specific than "models a process"]**
 
-
-ID: T02.G7.02.01
+ID: T02.G7.02
 Topic: T02 – Algorithm Diagrams
-Skill: Set a breakpoint to pause algorithm execution
-Description: Students learn to set a breakpoint in CreatiCode on a specific block and run their script to see it pause at that point, understanding that breakpoints let them stop and examine their code mid-execution.
+Skill: Use breakpoints to pause and inspect algorithm execution
+Description: Students learn to use the debugger's breakpoint feature in CreatiCode to pause execution at specific points, examine variable values, and step through their algorithm one block at a time.
 
 Dependencies:
 * T02.G6.05: Debug using pseudocode comparison
+* T08.G5.01: Setting breakpoints often involves conditional stops based on variable states.
+* T09.G5.01: Inspecting execution requires understanding variable states and values.
 
-**[NEW SUB-SKILL - replaces overly broad T02.G7.02, part 1 of 3]**
 
-
-ID: T02.G7.02.02
+ID: T02.G7.03
 Topic: T02 – Algorithm Diagrams
-Skill: Examine variable values at a breakpoint
-Description: Students pause their script at a breakpoint and examine the current values of variables to understand the program state at that moment, comparing actual values to their predictions.
-
-Dependencies:
-* T02.G7.02.01: Set a breakpoint to pause algorithm execution
-* T09.G5.01: Inspecting execution requires understanding variable states and values
-
-**[NEW SUB-SKILL - part 2 of 3]**
-
-
-ID: T02.G7.02.03
-Topic: T02 – Algorithm Diagrams
-Skill: Step through algorithm execution block by block
-Description: Students use the debugger's step controls to execute their algorithm one block at a time after hitting a breakpoint, watching how variables and sprite state change with each step.
-
-Dependencies:
-* T02.G7.02.02: Examine variable values at a breakpoint
-* T08.G5.01: Setting breakpoints often involves conditional stops based on variable states
-
-**[NEW SUB-SKILL - part 3 of 3]**
-
-
-ID: T02.G7.03.01
-Topic: T02 – Algorithm Diagrams
-Skill: Build a simple linear search algorithm
-Description: Students create a script that searches through a list of values sequentially to find a specific item (e.g., "check each number until you find 7"), understanding the basic linear search pattern.
+Skill: Build a search algorithm with debug tracing
+Description: Students create a script to search through a list or check conditions sequentially (e.g., "find the first sprite with score > 10"), using debug print to show each check and the final result.
 
 Dependencies:
 * T02.G6.06: Trace a data processing algorithm using debug print
-* T02.G6.07: Build an algorithm to find maximum value in a list
-* T10.G5.03: Search algorithms operate on lists or collections of data
-
-**[NEW SUB-SKILL - replaces overly broad T02.G7.03, part 1 of 3]**
-
-
-ID: T02.G7.03.02
-Topic: T02 – Algorithm Diagrams
-Skill: Add debug print to trace search steps
-Description: Students add debug print blocks to their search algorithm to display each item being checked and whether it matches, making the search process visible.
-
-Dependencies:
-* T02.G7.03.01: Build a simple linear search algorithm
-* T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches
-
-**[NEW SUB-SKILL - part 2 of 3]**
-
-
-ID: T02.G7.03.03
-Topic: T02 – Algorithm Diagrams
-Skill: Build a search with early exit on match
-Description: Students modify their search algorithm to stop immediately when the target item is found (early exit) rather than checking all items, using a variable to track whether a match was found.
-
-Dependencies:
-* T02.G7.03.02: Add debug print to trace search steps
-* T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches
-
-**[NEW SUB-SKILL - part 3 of 3]**
+* T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches.
+* T10.G5.03: Search algorithms operate on lists or collections of data.
 
 
 ID: T02.G7.04
@@ -1876,10 +1682,10 @@ Skill: Generate pseudocode for a search algorithm
 Description: Students build a search algorithm in blocks, use the pseudocode generation block to convert it, and analyze how the pseudocode represents the search logic (loop through items, check condition, return result).
 
 Dependencies:
-* T02.G7.03.03: Build a search with early exit on match
+* T02.G7.03: Build a search algorithm with debug tracing
 * T02.G6.02: Generate and read pseudocode from a simple script
-* T08.G5.01: Search algorithm pseudocode requires if-then conditional structures
-* T07.G5.01: Search algorithms require loops to iterate through data structures
+* T08.G5.01: Search algorithm pseudocode requires if-then conditional structures.
+* T07.G5.01: Search algorithms require loops to iterate through data structures.
 
 
 ID: T02.G7.05
@@ -1888,9 +1694,9 @@ Skill: Compare search algorithm efficiency using step counts
 Description: Students compare two different search algorithms (e.g., linear search with different stopping conditions) by counting how many steps/checks each makes for the same input, using debug print to count iterations.
 
 Dependencies:
-* T02.G7.03.02: Add debug print to trace search steps
+* T02.G7.03: Build a search algorithm with debug tracing
 * T02.G5.05: Compare two algorithms by counting blocks
-* T08.G5.01: Efficiency comparison requires conditional analysis of different scenarios
+* T08.G5.01: Efficiency comparison requires conditional analysis of different scenarios.
 
 
 ID: T02.G7.06
@@ -1899,51 +1705,22 @@ Skill: Trace an algorithm to find edge case bugs
 Description: Students test their algorithms with edge cases (empty list, single element, all same values) using debug print and breakpoints to identify where the algorithm fails or produces unexpected results.
 
 Dependencies:
-* T02.G7.02.03: Step through algorithm execution block by block
-* T02.G7.03.02: Add debug print to trace search steps
-* T08.G5.01: Finding edge case bugs requires understanding conditional logic boundaries
-* T10.G5.01: Algorithm tracing often involves tracking values in lists or arrays
+* T02.G7.02: Use breakpoints to pause and inspect algorithm execution
+* T02.G7.03: Build a search algorithm with debug tracing
+* T08.G5.01: Finding edge case bugs requires understanding conditional logic boundaries.
+* T10.G5.01: Algorithm tracing often involves tracking values in lists or arrays.
 
 
----
-
-## GRADE 8 (8 skills - major changes)
-
-ID: T02.G8.01.01
+ID: T02.G8.01
 Topic: T02 – Algorithm Diagrams
-Skill: Write pseudocode for a multi-step calculation
-Description: Students write pseudocode on paper for an algorithm that performs multiple calculations in sequence (e.g., "calculate average of 5 numbers: sum them, then divide by 5"), using clear structure and variable names.
+Skill: Write pseudocode for a complex algorithm from scratch
+Description: Students write detailed pseudocode on paper for a moderately complex algorithm (e.g., "find the median of 5 numbers" or "validate user input") using clear structure, loops, and conditionals before coding.
 
 Dependencies:
 * T02.G6.04: Use pseudocode to plan before coding
-* T10.G6.01: Sort a table by a column
-
-**[NEW SUB-SKILL - replaces overly broad T02.G8.01, part 1 of 3]**
-
-
-ID: T02.G8.01.02
-Topic: T02 – Algorithm Diagrams
-Skill: Write pseudocode for input validation
-Description: Students write pseudocode for an algorithm that checks if user input meets requirements (e.g., "ensure number is between 1 and 100, ask again if not"), using conditionals and loops for validation.
-
-Dependencies:
-* T02.G8.01.01: Write pseudocode for a multi-step calculation
 * T06.G6.01: Trace event execution paths in a multi‑event program
-
-**[NEW SUB-SKILL - part 2 of 3]**
-
-
-ID: T02.G8.01.03
-Topic: T02 – Algorithm Diagrams
-Skill: Write pseudocode for a data processing algorithm
-Description: Students write pseudocode for an algorithm that processes a collection of data to find a result (e.g., "find median of a list: sort values, find middle position"), using loops, conditionals, and clear logic flow.
-
-Dependencies:
-* T02.G8.01.01: Write pseudocode for a multi-step calculation
 * T10.G6.01: Sort a table by a column
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
-
-**[NEW SUB-SKILL - part 3 of 3]**
 
 
 ID: T02.G8.02
@@ -1952,11 +1729,9 @@ Skill: Implement and verify pseudocode with block code
 Description: Students take pseudocode (their own or provided), implement it as a CreatiCode block script, then generate the pseudocode from their blocks to verify their implementation matches the original plan.
 
 Dependencies:
-* T02.G8.01.01: Write pseudocode for a multi-step calculation
+* T02.G8.01: Write pseudocode for a complex algorithm from scratch
 * T10.G6.01: Sort a table by a column
 * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
-
-**[CHANGED: updated dependency to first sub-skill of T02.G8.01]**
 
 
 ID: T02.G8.03
@@ -1994,11 +1769,6 @@ Dependencies:
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T08.G6.01a: Use conditionals in physics simulations
 * T10.G6.01: Sort a table by a column
-
-Note: This is an advanced concept. Provide examples of when randomness is useful (games, simulations) vs. when consistency is required (calculations, sorting).
-
-**[CHANGED: added teaching note about advanced difficulty]**
-
 
 
 ID: T03.GK.01
@@ -2140,23 +1910,13 @@ Dependencies:
 * T03.G2.04.01: Recognize that related subtasks can be grouped as features
 
 
-ID: T03.G2.06
-Topic: T03 – Problem Decomposition
-Skill: Distinguish between a complete task and the features needed
-Description: Students distinguish between a complete task (like "make the cat move") and the features needed (like "move left", "move right"), understanding that a single task may require multiple features to accomplish.
-
-Dependencies:
-* T03.G2.05: Identify what a simple game or story can do
-* T02.G2.05: Create a 3-step flowchart
-
-
 ID: T03.G3.01
 Topic: T03 – Problem Decomposition
 Skill: Identify features in a small game description
 Description: Students read a short game description and highlight or select each distinct feature (e.g., player controls, scoring, win/lose screen).
 
 Dependencies:
-* T03.G2.06: Distinguish between a complete task and the features needed
+* T03.G2.05: Identify what a simple game or story can do
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
@@ -2225,20 +1985,10 @@ Dependencies:
 * T03.G3.02: Group features into "must‑have" vs "nice‑to‑have"
 
 
-ID: T03.G3.08
+ID: T03.G4.01
 Topic: T03 – Problem Decomposition
-Skill: Recognize when multiple sprites need to perform similar actions
-Description: Students recognize when multiple sprites need to perform similar actions and group those actions together (e.g., "all enemies need to move toward the player," "all coins need to check if the player touched them"), introducing early understanding of modules and reusable functionality.
-
-Dependencies:
-* T03.G3.04: Match storyboard panels to project scenes
-* T01.G3.06: Execute a simple sequence (green flag with 3+ blocks)
-
-
-ID: T03.G4.01.01
-Topic: T03 – Problem Decomposition
-Skill: Identify subtasks within a project
-Description: Students look at a project description (e.g., "quiz game with levels") and identify the main subtasks needed (e.g., "show questions," "track score," "move between levels," "display results").
+Skill: Break a medium‑size project into components
+Description: Students are given a description of a project (e.g., "quiz game with levels") and identify specific components with clear responsibilities, such as "question bank stores all quiz questions," "score tracker counts and displays points," "level manager controls which questions appear," and "UI displays questions and buttons."
 
 Dependencies:
 * T03.G3.06: Understand how project parts work together
@@ -2250,40 +2000,13 @@ Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
-ID: T03.G4.01.02
-Topic: T03 – Problem Decomposition
-Skill: Organize subtasks in sequence
-Description: Students arrange identified subtasks into a logical order, considering which tasks must happen first and which depend on others (e.g., "create question bank before showing questions," "set up score tracker before updating it").
-
-Dependencies:
-* T03.G4.01.01: Identify subtasks within a project
-
-
-ID: T03.G4.01.03
-Topic: T03 – Problem Decomposition
-Skill: Assign subtasks to team members
-Description: Students match subtasks to team members based on their roles or skills (e.g., "Alice creates questions," "Bob codes the score system," "Claire designs the UI").
-
-Dependencies:
-* T03.G4.01.02: Organize subtasks in sequence
-
-
-ID: T03.G4.01.04
-Topic: T03 – Problem Decomposition
-Skill: Track completion of subtasks
-Description: Students use a checklist or progress tracker to mark which subtasks are done and which are still in progress, monitoring overall project progress.
-
-Dependencies:
-* T03.G4.01.03: Assign subtasks to team members
-
-
 ID: T03.G4.02
 Topic: T03 – Problem Decomposition
 Skill: Group related components into modules
 Description: Students drag components into higher‑level modules (e.g., "game logic," "user interface," "data"), organizing by how components work together: shared data, similar purpose, or frequent communication patterns.
 
 Dependencies:
-* T03.G4.01.04: Track completion of subtasks
+* T03.G4.01: Break a medium‑size project into components
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
@@ -2320,26 +2043,20 @@ Dependencies:
 * T13.G3.01: Test and trace simple block-based scripts
 
 
-ID: T03.G4.06.01
+ID: T03.G4.06
 Topic: T03 – Problem Decomposition
-Skill: Identify reusable code patterns
-Description: Students examine code in a project and identify patterns that appear multiple times (e.g., "this code to move left appears in 3 sprites," "we check for collision in 4 different places"), recognizing opportunities for reuse.
+Skill: Update a plan after testing feedback
+Description: Students see test feedback ("The game crashes when score is 0") and choose which new tasks should be added to the plan.
 
 Dependencies:
 * T03.G4.05: Spot a missing or unnecessary task in a plan
-* T04.G3.01: Identify the repeating unit in a longer pattern
-* T07.G3.01: Use a counted repeat loop
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T13.G3.01: Test and trace simple block-based scripts
-
-
-ID: T03.G4.06.02
-Topic: T03 – Problem Decomposition
-Skill: Create custom blocks from reusable patterns
-Description: Students see test feedback ("The game crashes when score is 0") and choose which new tasks should be added to the plan, focusing on using custom blocks to avoid repeating code.
-
-Dependencies:
-* T03.G4.06.01: Identify reusable code patterns
-* T11.G4.01: Recognize when similar code appears in multiple places
 
 
 ID: T03.G5.01
@@ -2348,7 +2065,7 @@ Skill: Create a feature list and subtask breakdown
 Description: Students read a project pitch and produce a structured list: main features with 2–3 subtasks each.
 
 Dependencies:
-* T03.G4.01.04: Track completion of subtasks
+* T03.G4.01: Break a medium‑size project into components
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
@@ -2359,7 +2076,7 @@ Skill: Draw a high‑level project map
 Description: Students create a simple diagram showing how key screens, levels, or components connect (e.g., "menu → level 1 → level 2 → game over"), focusing on overall project structure rather than algorithm details.
 
 Dependencies:
-* T03.G4.01.04: Track completion of subtasks
+* T03.G4.01: Break a medium‑size project into components
 * T02.G4.01: Add a loop to an existing flowchart
 
 
@@ -2369,8 +2086,8 @@ Skill: Identify task dependencies in a project plan
 Description: Students examine a list of tasks and mark which ones must be done before others (e.g., "design characters before animate movement," "create variables before using them in scoring").
 
 Dependencies:
-* T03.G4.01.04: Track completion of subtasks
-* T03.G4.05: Spot a missing or unnecessary task in a plan
+* T03.G4.01
+* T03.G4.05
 * T09.G3.03
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
@@ -2381,8 +2098,8 @@ Skill: Break vague tasks into specific, measurable steps
 Description: Students identify tasks that are too vague to implement (e.g., "make AI for enemies" with no details) and break them down into specific, concrete sub‑tasks with clear acceptance criteria (e.g., "enemy follows player when within 5 steps," "enemy changes direction when hitting wall," "enemy speeds up after 30 seconds"), ensuring each subtask is small enough to code and test.
 
 Dependencies:
-* T03.G4.01.04: Track completion of subtasks
-* T03.G4.06.02: Create custom blocks from reusable patterns
+* T03.G4.01
+* T03.G4.06
 * T09.G3.03
 * T02.G5.01: Trace a script with nested loops using debug print
 
@@ -2394,7 +2111,7 @@ Description: Students compare two project plans for the same idea and choose whi
 
 Dependencies:
 * T03.G4.05: Spot a missing or unnecessary task in a plan
-* T03.G4.01.04: Track completion of subtasks
+* T03.G4.01: Break a medium‑size project into components
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
 
@@ -2447,7 +2164,7 @@ Description: Students read that a planned feature is harder than expected (e.g.,
 
 Dependencies:
 * T03.G6.03: Break a project into milestones (v1/v2/v3)
-* T03.G4.06.02: Create custom blocks from reusable patterns
+* T03.G4.06: Update a plan after testing feedback
 
 
 ID: T03.G6.05
@@ -2459,10 +2176,10 @@ Dependencies:
 * T03.G5.01: Create a feature list and subtask breakdown
 
 
-ID: T03.G7.01.01
+ID: T03.G7.01
 Topic: T03 – Problem Decomposition
-Skill: Identify main components in software architecture
-Description: Students examine a complex project description and identify the main components needed (e.g., "player control system," "enemy AI system," "scoring system," "UI system"), recognizing the high-level parts that make up the architecture.
+Skill: Draw an architecture diagram for a multi‑component project
+Description: Students create a diagram showing main components, key data flows, and communication patterns for a complex project, treating it as a *high‑level architecture view* of components and their interactions rather than detailed implementation (which lives in T02).
 
 Dependencies:
 * T03.G6.01: Propose modules for a medium project
@@ -2471,31 +2188,13 @@ Dependencies:
 * T10.G5.01: Architecture diagrams represent components as structured collections.
 
 
-ID: T03.G7.01.02
-Topic: T03 – Problem Decomposition
-Skill: Define responsibilities for each component
-Description: Students take identified components and define what each component is responsible for (e.g., "player control system handles keyboard input and sprite movement," "scoring system tracks points and displays score"), clarifying the role and boundaries of each architectural component.
-
-Dependencies:
-* T03.G7.01.01: Identify main components in software architecture
-
-
-ID: T03.G7.01.03
-Topic: T03 – Problem Decomposition
-Skill: Design interactions between components
-Description: Students create a diagram showing how components communicate and share data (e.g., "player control sends position to collision detector," "scoring system receives events from enemy AI"), mapping out the key data flows and communication patterns in the architecture.
-
-Dependencies:
-* T03.G7.01.02: Define responsibilities for each component
-
-
 ID: T03.G7.02
 Topic: T03 – Problem Decomposition
 Skill: Map functional modules to architecture components
 Description: Students match existing project modules and functionality to components in an architecture diagram, focusing on logical organization.
 
 Dependencies:
-* T03.G7.01.03: Design interactions between components
+* T03.G7.01: Draw an architecture diagram for a multi‑component project
 * T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G5.01: Display variable value on stage using the variable monitor
 * T08.G5.01: Module mapping involves conditional decisions about component responsibilities.
@@ -2547,43 +2246,16 @@ Dependencies:
 * T03.G5.03: Identify task dependencies in a project plan
 
 
-ID: T03.G8.01.01
+ID: T03.G8.01
 Topic: T03 – Problem Decomposition
-Skill: Analyze user requirements from specifications
-Description: Students read a project specification or user story and identify the key user requirements (e.g., "users need to be able to save progress," "the game must support 2-4 players," "results should be displayed in a table"), extracting what the system must do for its users.
+Skill: Outline a formal project specification
+Description: Students fill in a structured template (Overview, Features, Data, UI, Testing) for a substantial project, focusing on clear decomposition into sections and subsections.
 
 Dependencies:
-* T03.G7.01.03: Design interactions between components
+* T03.G7.01: Draw an architecture diagram for a multi‑component project
 * T02.G6.01: Learn the pseudocode generation block
 * T07.G6.01: Trace nested loops with variable bounds
 * T10.G6.01: Sort a table by a column
-
-
-ID: T03.G8.01.02
-Topic: T03 – Problem Decomposition
-Skill: Identify technical constraints
-Description: Students examine a project specification and identify technical constraints (e.g., "must work on mobile devices," "cannot use external libraries," "must load in under 3 seconds," "limited to 10 sprites"), recognizing limitations that affect implementation choices.
-
-Dependencies:
-* T03.G8.01.01: Analyze user requirements from specifications
-
-
-ID: T03.G8.01.03
-Topic: T03 – Problem Decomposition
-Skill: Break down system into modules
-Description: Students take the identified requirements and constraints and propose a module breakdown (e.g., "data storage module," "game logic module," "rendering module," "input handler module"), organizing the system into logical components.
-
-Dependencies:
-* T03.G8.01.02: Identify technical constraints
-
-
-ID: T03.G8.01.04
-Topic: T03 – Problem Decomposition
-Skill: Define module interfaces and interactions
-Description: Students specify how modules will communicate (e.g., "game logic sends score updates to data storage," "input handler passes key presses to game logic," "rendering module reads game state from game logic"), defining clear interfaces and data flows between modules.
-
-Dependencies:
-* T03.G8.01.03: Break down system into modules
 
 
 ID: T03.G8.02
@@ -2592,7 +2264,7 @@ Skill: Use XO to refine and check a project spec
 Description: Students provide a draft specification to XO, ask for feedback on missing pieces or risks, then integrate selected suggestions into their specification.
 
 Dependencies:
-* T03.G8.01.04: Define module interfaces and interactions
+* T03.G8.01: Outline a formal project specification
 * T10.G6.01: Sort a table by a column
 
 
@@ -2643,6 +2315,7 @@ Dependencies:
 * T03.G8.05: Propose a refactoring plan for a complex project
 * T03.G6.04: Adjust milestones when constraints are discovered
 * T08.G6.01a: Use conditionals in physics simulations
+* T32.G6.01: Identify common malware types
 
 
 ID: T04.GK.01
@@ -2867,22 +2540,12 @@ Dependencies:
 
 ID: T04.G3.09
 Topic: T04 – Algorithm Patterns
-Skill: Recognize nested repetition in visual patterns
-Description: Students examine VISUAL patterns (like grids of stars, repeated tile patterns, or nested shapes) and identify that an outer pattern repeats an inner pattern. They understand conceptually that "the outer part repeats the inner part" by seeing examples like: 3 rows, each with 4 stars. Focus is on visual/conceptual understanding of nested repetition before analyzing code.
+Skill: Recognize nested loops in patterns (outer loop repeats inner loop)
+Description: Students examine visual patterns or code with nested loops and identify which loop is the outer loop (runs fewer times) and which is the inner loop (runs many times for each outer iteration). They understand that the outer loop "repeats the inner loop," creating patterns like grids or multi-level repetition.
 
 Dependencies:
 * T04.G3.01: Identify where a loop could replace repeated blocks
 * T07.G3.01: Use a counted repeat loop
-
-
-ID: T04.G3.10
-Topic: T04 – Algorithm Patterns
-Skill: Use a variable to count loop iterations
-Description: Students create a variable, set it to 0, and increment it by 1 each time through a simple loop. They observe how the variable tracks the count and display it to see the progression (1, 2, 3...). This introduces the foundational concept of counters before pattern recognition.
-
-Dependencies:
-* T07.G3.01: Use a counted repeat loop
-* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T04.G4.01
@@ -2899,43 +2562,55 @@ Dependencies:
 
 ID: T04.G4.01.01
 Topic: T04 – Algorithm Patterns
-Skill: Identify problems that require tracking a count
-Description: Students examine problem scenarios (like "count how many red items", "track number of jumps", "tally correct answers") and identify which problems need a counter variable to track a count, distinguishing these from problems that don't require counting. Focus is on problem analysis, not yet on code patterns.
+Skill: Recognize when to use a counter pattern to track counts
+Description: Students examine simple scenarios and problems (like "count how many red items" or "track number of jumps") and identify when a counter pattern (initialize to 0, increment by 1) is the appropriate solution approach.
 
 Dependencies:
-* T04.G3.10: Use a variable to count loop iterations
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T04.G4.01: Trace a loop that creates a visual pattern
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
 ID: T04.G4.02
 Topic: T04 – Algorithm Patterns
-Skill: Analyze nested loop code structure (outer vs inner loop)
-Description: Students read nested loop CODE and analyze which loop controls what aspect of the output (e.g., which controls rows vs columns in a grid pattern). Focus is on understanding code structure: identifying the outer loop, inner loop, and determining the role each plays in creating the pattern.
+Skill: Identify nested pattern structure (outer vs inner loop)
+Description: Students see nested loops and choose which part controls rows vs columns in a grid pattern. Focus is on analyzing and reading nested loop structures, not yet creating them.
 
 Dependencies:
-* T04.G3.09: Recognize nested repetition in visual patterns
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G3.09: Recognize nested loops in patterns (outer loop repeats inner loop)
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T13.G3.01: Test and trace simple block-based scripts
 
 
 ID: T04.G4.03
 Topic: T04 – Algorithm Patterns
 Skill: Recognize "if" patterns that handle special cases
-Description: Students identify code patterns like "bounce on edge" or "wrap around screen" as standard conditional patterns that handle boundary or edge cases.
+Description: Students identify code patterns like "bounce on edge" or "wrap around screen" as standard conditional patterns.
 
 Dependencies:
 * T04.G3.05: Customize a template by changing repeated elements
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
 
 
 ID: T04.G4.04
 Topic: T04 – Algorithm Patterns
 Skill: Identify template patterns in example projects
-Description: Students examine 2-3 simple example projects and identify which elements form the reusable template pattern (the structure that stays the same) versus customization points (values that change). This bridges from creating templates (G3.04) to understanding how templates work as reusable patterns.
+Description: Students examine 2-3 simple example projects and identify which elements form the reusable template pattern (the structure that stays the same) versus customization points (values that change). This bridges from recognizing templates (G3.04) to understanding how templates work as patterns.
 
 Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T04.G3.04.03: Use custom blocks to make programs more readable and maintainable
 * T04.G3.05: Customize a template by changing repeated elements
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
 ID: T04.G4.05
@@ -2944,19 +2619,32 @@ Skill: Match multiple code snippets that share the same pattern
 Description: Students identify 2–3 code snippets that implement the same algorithm pattern (e.g., boundary-check-and-adjust, loop-and-count, test-and-respond) and select which snippets belong together based on their underlying logic structure.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T04.G3.08: Match algorithm descriptions to code pattern shapes
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T13.G3.01: Test and trace simple block-based scripts
 
 
 ID: T04.G4.06
 Topic: T04 – Algorithm Patterns
 Skill: Identify when a known pattern can solve a new problem
-Description: Students see a new problem description and choose which known pattern (e.g., loop over list, counter pattern, conditional check) would help solve it. Focus is on pattern selection based on problem characteristics.
+Description: Students see a new problem description and choose which known pattern (e.g., loop over list, counter pattern) would help.
 
 Dependencies:
-* T04.G4.01: Trace a loop that creates a visual pattern
-* T04.G4.05: Match multiple code snippets that share the same pattern
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G3.08: Match algorithm descriptions to code pattern shapes
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T04.G4.07
@@ -2975,7 +2663,10 @@ Skill: Use a template to create a customized project
 Description: Students start with a provided template project and modify specific marked elements (colors, sounds, repeat counts) to create their own version while preserving the template structure.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T04.G4.04: Identify template patterns in example projects
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
 ID: T04.G4.09
@@ -2984,9 +2675,13 @@ Skill: Use loops to iterate through all items in a list
 Description: Students write or complete code that uses a loop to process each item in a list one by one, understanding the basic pattern of list iteration that underlies many algorithm patterns.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T04.G4.01: Trace a loop that creates a visual pattern
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T10.G4.01: Use list blocks to add, remove, and access items
 
 
 ID: T04.G5.01
@@ -3028,31 +2723,36 @@ Skill: Recognize a linear search pattern
 Description: Students identify the "look at each item and compare" pattern in code that searches for a match. Focus is on the search pattern: iterating through items to find one that matches a condition.
 
 Dependencies:
-* T04.G4.09: Use loops to iterate through all items in a list
-* T08.G3.01: Use a simple if in a script
+* T04.G4.09
+* T08.G3.01
+* T09.G3.03
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
 
 ID: T04.G5.03.01
 Topic: T04 – Algorithm Patterns
-Skill: Recognize the filter-collect pattern structure
-Description: Students identify code that implements the filter-collect pattern: loop through items, test each against a condition (filter), and add matching items to a result list (collect). They understand this extends search (which finds ONE match) to collect ALL matches.
+Skill: Apply the collect pattern to gather specific items from a collection
+Description: Students implement or complete code that uses the collect pattern: loop through items, test each against criteria, and add matching items to a new list. This extends the search pattern by collecting all matches rather than just finding one.
 
 Dependencies:
-* T04.G5.03: Recognize a linear search pattern
-* T04.G4.05: Match multiple code snippets that share the same pattern
-* T08.G3.01: Use a simple if in a script
+* T04.G5.03
+* T09.G3.03
+* T07.G5.01: Simulate repeated experiments with a loop
+* T10.G5.01: Understand table structure (rows, columns, cells)
+* T02.G5.01: Trace a script with nested loops using debug print
 
 
 ID: T04.G5.04
 Topic: T04 – Algorithm Patterns
-Skill: Apply the filter-collect pattern to gather matching items
-Description: Students implement or complete code that uses the filter-collect pattern: loop through items, test each against criteria, and add matching items to a new list. They practice writing the pattern from scratch or completing partial implementations.
+Skill: Recognize a filter‑and‑collect pattern
+Description: Students identify code that loops, tests a condition, and adds matching items to a list.
 
 Dependencies:
-* T04.G5.03.01: Recognize the filter-collect pattern structure
+* T04.G4.05: Match multiple code snippets that share the same pattern
+* T08.G3.01: Use a simple if in a script
 * T07.G5.01: Simulate repeated experiments with a loop
 * T10.G5.01: Understand table structure (rows, columns, cells)
+* T02.G5.01: Trace a script with nested loops using debug print
 
 
 ID: T04.G5.05
@@ -3072,8 +2772,13 @@ Skill: Identify changeable vs fixed parts in a template
 Description: Students look at a simple template project (e.g., a basic animation or greeting card) and mark which parts are placeholders (meant to be changed, like colors or messages) vs structural elements (meant to stay the same, like loop structure or event handlers). Focus is on binary classification: changeable or fixed.
 
 Dependencies:
-* T04.G4.08: Use a template to create a customized project
-* T04.G4.03: Recognize "if" patterns that handle special cases
+* T04.G3.04.01
+* T04.G4.03
+* T09.G3.03
+* T06.G5.01: Identify standard event patterns in a small game
+* T07.G5.01: Simulate repeated experiments with a loop
+* T02.G5.01: Trace a script with nested loops using debug print
+* T03.G5.01: Create a feature list and subtask breakdown
 
 
 ID: T04.G5.07
@@ -3085,16 +2790,6 @@ Dependencies:
 * T04.G5.01: Recognize a counter update pattern
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T10.G5.01: Understand table structure (rows, columns, cells)
-
-
-ID: T04.G5.08
-Topic: T04 – Algorithm Patterns
-Skill: Create a custom block with one parameter for reusable patterns
-Description: Students create a custom block that takes one parameter, replacing a hard-coded value with the parameter. They understand how parameters make blocks reusable with different values (e.g., a "draw square" block that takes size as a parameter).
-
-Dependencies:
-* T04.G3.04.02: Create a custom block (template) for repeated code patterns
-* T11.G4.07: Define a custom block with one parameter
 
 
 ID: T04.G6.01
@@ -3116,53 +2811,34 @@ Dependencies:
 * T04.G4.05: Match multiple code snippets that share the same pattern
 
 
-ID: T04.G6.02.01
-Topic: T04 – Algorithm Patterns
-Skill: Apply filter pattern with two AND criteria
-Description: Students filter a list using two conditions that must both be true (AND logic). For example, "find items that are both red AND large" or "select sprites that are both moving AND visible." Focus is on combining exactly two conditions with AND.
-
-Dependencies:
-* T04.G5.04: Apply the filter-collect pattern to gather matching items
-* T08.G5.01: Use a simple if in a script
-
-
 ID: T04.G6.03
 Topic: T04 – Algorithm Patterns
-Skill: Apply filter pattern with complex multi-criteria logic
-Description: Students extend the filter pattern to handle complex multi-criteria logic using both AND and OR operators. They combine multiple conditions to select items matching complex requirements (e.g., "items that are (red AND large) OR (blue AND small)").
+Skill: Apply filter pattern with multiple criteria
+Description: Students extend the basic filter pattern (from T04.G5.04) to handle multiple criteria, combining conditions to select items that match complex requirements (e.g., "items that are both red AND large" or "items that are blue OR circle-shaped"). This clarifies how the filter pattern scales from single to multiple conditions.
 
 Dependencies:
-* T04.G6.02.01: Apply filter pattern with two AND criteria
+* T04.G5.03: Recognize a linear search pattern
 * T04.G6.01: Group snippets by underlying algorithm pattern
 
 
 ID: T04.G6.04
 Topic: T04 – Algorithm Patterns
-Skill: Turn repeated code into a custom block with multiple parameters
-Description: Students refactor repeated code sequences into a parameterized custom block that can be reused with different values. They identify multiple varying elements, add parameters to the custom block (e.g., number of steps, color, speed), and replace repeated code with calls to the custom block.
+Skill: Turn repeated code into a custom block with parameters
+Description: Students refactor repeated code sequences into a parameterized custom block that can be reused with different values. They identify the varying elements, add parameters to the custom block (e.g., number of steps, color), and replace repeated code with calls to the custom block.
 
 Dependencies:
-* T04.G5.08: Create a custom block with one parameter for reusable patterns
-* T11.G5.01: Define a custom block with multiple parameters
+* T04.G3.04.02: Create a custom block (template) for repeated code patterns
+* T11.G4.07: Define a custom block with one parameter
 * T08.G5.01: Use a simple if in a script
 
 
 ID: T04.G6.05
 Topic: T04 – Algorithm Patterns
-Skill: Identify and categorize customization points in a complex template
-Description: Students inspect a complex template project (quiz, platformer, etc.) and identify which elements are customization points versus structural code. They categorize each customization point by what aspect it controls (appearance, behavior, difficulty, content, etc.).
+Skill: Analyze a template project and identify customization points
+Description: Students inspect a more complex template (quiz, platformer, etc.) and identify specific customization points with detailed analysis: what each point controls, how to modify it safely, what values are acceptable, and which changes would break the template's structure. Focus is on understanding the template's internal logic and constraints.
 
 Dependencies:
 * T04.G5.06: Identify changeable vs fixed parts in a template
-
-
-ID: T04.G6.05.01
-Topic: T04 – Algorithm Patterns
-Skill: Analyze safe modification constraints for template parameters
-Description: Students examine customization points in a template and determine: what values are safe to change, what ranges are acceptable (e.g., speed between 1-10), and which changes would break the template's functionality. They explain the constraints and reasoning for each parameter.
-
-Dependencies:
-* T04.G6.05: Identify and categorize customization points in a complex template
 
 
 ID: T04.G6.06

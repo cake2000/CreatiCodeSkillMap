@@ -238,7 +238,7 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < gradeList.length; i++) {
-      if (iteration === 0 && i < 6) continue; // skip some grades for testing
+      // if (iteration === 0 && i < 6) continue; // skip some grades for testing
       const grade = gradeList[i];
       console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade}`);
       console.log(`${"─".repeat(50)}`);

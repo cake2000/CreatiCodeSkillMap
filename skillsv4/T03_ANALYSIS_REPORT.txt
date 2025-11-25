@@ -1,0 +1,664 @@
+# T03 PROBLEM DECOMPOSITION - COMPREHENSIVE ANALYSIS REPORT
+# Analysis Date: 2025-11-24
+# Total Skills Found: 54 skills (GK=5, G1=4, G2=5, G3=7, G4=6, G5=6, G6=5, G7=6, G8=6)
+
+================================================================================
+SECTION 1: COMPLETE SKILL INVENTORY BY GRADE
+================================================================================
+
+KINDERGARTEN (5 skills)
+----------------------
+T03.GK.01 - Identify parts that make up a whole
+  Dependencies: None
+  Type: Picture-based identification
+  
+T03.GK.02 - Match parts to whole objects
+  Dependencies: T03.GK.01
+  Type: Picture-based matching
+  
+T03.GK.03 - Order 3–4 pictures to show steps in a routine
+  Dependencies: T01.GK.01 (cross-topic)
+  Type: Picture sequencing
+  
+T03.GK.04 - Choose the missing middle step in a routine
+  Dependencies: T03.GK.03
+  Type: Gap-filling exercise
+  
+T03.GK.05 - Describe what each step accomplishes
+  Dependencies: T03.GK.03
+  Type: Step analysis
+
+GRADE 1 (4 skills)
+------------------
+T03.G1.01 - Describe what one part of a system does
+  Dependencies: T03.GK.01
+  Type: Functional analysis
+  
+T03.G1.02 - Group related parts by function
+  Dependencies: T03.G1.01
+  Type: Categorization
+  
+T03.G1.03 - List steps for a simple classroom routine
+  Dependencies: T03.GK.03
+  Type: Planning with pictures/words
+  
+T03.G1.04 - Match steps to parts of a tiny story or game
+  Dependencies: T03.G1.03
+  Type: Story decomposition
+
+GRADE 2 (5 skills)
+------------------
+T03.G2.01 - Choose subtasks for a simple project idea
+  Dependencies: T03.G1.03
+  Type: Project planning introduction
+  
+T03.G2.02 - Group subtasks by type
+  Dependencies: T03.G2.01
+  Type: Task categorization
+  
+T03.G2.03 - Arrange subtasks into a reasonable order
+  Dependencies: T03.G2.02
+  Type: Sequencing
+  
+T03.G2.04 - Use a checklist to track progress on a mini-project
+  Dependencies: T03.G2.03
+  Type: Progress tracking
+  
+T03.G2.04.01 - Recognize that related subtasks can be grouped as features
+  Dependencies: T03.G2.04
+  Type: Feature concept introduction
+  
+T03.G2.05 - Identify what a simple game or story can do
+  Dependencies: T03.G2.04.01
+  Type: Feature identification
+
+GRADE 3 (7 skills)
+------------------
+T03.G3.01 - Identify features in a small game description
+  Dependencies: T03.G2.05, T06.G3.01 (cross-topic)
+  Type: Feature extraction
+  
+T03.G3.02 - Group features into "must-have" vs "nice-to-have"
+  Dependencies: T03.G3.01, T07.G3.01 (cross-topic)
+  Type: Prioritization
+  
+T03.G3.03 - Create a 3-panel storyboard for a project
+  Dependencies: T03.G3.02
+  Type: Visual planning
+  
+T03.G3.04 - Match storyboard panels to project scenes
+  Dependencies: T03.G3.03
+  Type: Structure mapping
+  
+T03.G3.05 - Choose a step-by-step plan for a small project
+  Dependencies: T03.G3.04
+  Type: Plan evaluation
+  
+T03.G3.05.01 - Identify main parts in a simple project
+  Dependencies: T03.G3.05
+  Type: Component identification
+  
+T03.G3.06 - Understand how project parts work together
+  Dependencies: T03.G3.05.01, T09.G3.02 (cross-topic)
+  Type: Component interaction
+  
+T03.G3.07 - Identify different jobs needed to make a project
+  Dependencies: T03.G3.02
+  Type: Role identification
+
+GRADE 4 (6 skills)
+------------------
+T03.G4.01 - Break a medium-size project into components
+  Dependencies: T03.G3.06, T04.G2.01, T04.G2.02, T06.G3.01, T07.G2.01, T08.G3.01, T09.G3.01.04 (7 deps!)
+  Type: Component decomposition
+  ⚠️ ISSUE: 7 dependencies - very high coupling
+  
+T03.G4.02 - Group related components into modules
+  Dependencies: T03.G4.01, T07.G2.01
+  Type: Module grouping
+  
+T03.G4.03 - Assign project tasks to team roles
+  Dependencies: T03.G3.07, T13.G3.01
+  Type: Team task assignment
+  
+T03.G4.04 - Create a task list with owners and sequence
+  Dependencies: T03.G4.03, T05.G3.01, T05.G3.02, T07.G2.01 (4 deps)
+  Type: Project management
+  
+T03.G4.05 - Spot a missing or unnecessary task in a plan
+  Dependencies: T03.G4.04, T07.G2.01, T13.G3.01
+  Type: Plan analysis
+  
+T03.G4.06 - Update a plan after testing feedback
+  Dependencies: T03.G4.05, T04.G2.01, T04.G2.02, T04.G2.03, T06.G2.01, T06.G2.02, T07.G2.01, T13.G3.01 (8 deps!)
+  Type: Iterative planning
+  ⚠️ ISSUE: 8 dependencies - excessive coupling, includes G2 deps (violates X-2 rule)
+
+GRADE 5 (6 skills)
+------------------
+T03.G5.01 - Create a feature list and subtask breakdown
+  Dependencies: T03.G4.01, T06.G3.01, T10.G5.01
+  Type: Structured decomposition
+  
+T03.G5.02 - Draw a high-level project map
+  Dependencies: T03.G4.01, T02.G4.01
+  Type: Architecture visualization
+  
+T03.G5.03 - Identify task dependencies in a project plan
+  Dependencies: T03.G4.01, T03.G4.05, T09.G3.03, T10.G5.01
+  Type: Dependency analysis
+  
+T03.G5.04 - Break vague tasks into specific, measurable steps
+  Dependencies: T03.G4.01, T03.G4.06, T09.G3.03, T02.G5.01
+  Type: Task refinement
+  
+T03.G5.05 - Compare two project plans for the same idea
+  Dependencies: T03.G4.05, T03.G4.01, T10.G5.01
+  Type: Plan comparison
+  
+T03.G5.06 - Identify modules in example projects
+  Dependencies: T03.G5.01, T03.G4.02, T09.G3.03, T11.G5.01
+  Type: Module identification
+
+GRADE 6 (5 skills)
+------------------
+T03.G6.01 - Propose modules for a medium project
+  Dependencies: T03.G5.01, T06.G5.01, T09.G5.01
+  Type: Module design
+  
+T03.G6.02 - Identify reusable components in a complex process
+  Dependencies: T03.G5.01, T06.G5.01
+  Type: Reusability analysis
+  
+T03.G6.03 - Break a project into milestones (v1/v2/v3)
+  Dependencies: T03.G5.01
+  Type: Release planning
+  
+T03.G6.04 - Adjust milestones when constraints are discovered
+  Dependencies: T03.G6.03, T03.G4.06
+  Type: Adaptive planning
+  
+T03.G6.05 - Use XO to expand a basic idea into subtasks
+  Dependencies: T03.G5.01
+  Type: AI-assisted decomposition
+
+GRADE 7 (6 skills)
+------------------
+T03.G7.01 - Draw an architecture diagram for a multi-component project
+  Dependencies: T03.G6.01, T02.G5.01, T04.G5.01, T10.G5.01
+  Type: Architecture design
+  
+T03.G7.02 - Map functional modules to architecture components
+  Dependencies: T03.G7.01, T06.G5.01, T09.G5.01, T08.G5.01, T11.G5.01
+  Type: Module mapping
+  
+T03.G7.03 - Compare two decompositions of the same project
+  Dependencies: T03.G6.01, T03.G5.05, T08.G5.01
+  Type: Decomposition evaluation
+  
+T03.G7.04 - Redesign a project structure to fix specific problems
+  Dependencies: T03.G7.03, T06.G5.01, T09.G5.01, T08.G5.01
+  Type: Refactoring design
+  
+T03.G7.05 - Create a test checklist based on a project breakdown
+  Dependencies: T03.G6.01, T03.G5.02, T08.G5.01, T10.G5.01
+  Type: Test planning
+  
+T03.G7.06 - Update a project plan after test results
+  Dependencies: T03.G7.05, T03.G5.03
+  Type: Test-driven planning
+
+GRADE 8 (6 skills)
+------------------
+T03.G8.01 - Outline a formal project specification
+  Dependencies: T03.G7.01, T02.G6.01, T07.G6.01, T10.G6.01
+  Type: Specification writing
+  
+T03.G8.02 - Use XO to refine and check a project spec
+  Dependencies: T03.G8.01, T10.G6.01
+  Type: AI-assisted spec review
+  
+T03.G8.03 - Rank project ideas by complexity and timeline
+  Dependencies: T03.G7.03, T10.G6.01, T13.G6.01, T26.G6.01
+  Type: Project estimation
+  
+T03.G8.04 - Reduce scope of over-ambitious plans
+  Dependencies: T03.G8.03, T03.G6.03, T02.G6.01, T04.G6.01, T08.G6.01a
+  Type: Scope management
+  
+T03.G8.05 - Propose a refactoring plan for a complex project
+  Dependencies: T03.G7.04, T06.G6.01, T02.G6.01, T10.G6.01, T16.G6.01
+  Type: Architecture refactoring
+  
+T03.G8.06 - Map refactoring tasks to future milestones
+  Dependencies: T03.G8.05, T03.G6.04, T08.G6.01a, T32.G6.01
+  Type: Refactoring planning
+
+================================================================================
+SECTION 2: SPECIFIC ISSUES IDENTIFIED
+================================================================================
+
+A. DEPENDENCY VIOLATIONS (X-2 RULE)
+------------------------------------
+⚠️ T03.G4.06 - Update a plan after testing feedback
+   - Depends on T06.G2.01, T06.G2.02 (Grade 2 deps when in Grade 4)
+   - VIOLATION: References skills 2 grades below (should be max 2 grades back)
+   - Impact: Creates backward dependency on much earlier content
+
+⚠️ T03.G6.04 - Adjust milestones when constraints are discovered
+   - Depends on T03.G4.06 (Grade 4 skill when in Grade 6)
+   - This creates a chain that pulls in the G2 violations
+
+B. EXCESSIVE DEPENDENCIES
+--------------------------
+⚠️ T03.G4.01 - Break a medium-size project into components
+   - Has 7 dependencies (6 cross-topic + 1 intra-topic)
+   - Too many prerequisites for a single skill
+   - Suggests the skill might be too complex
+
+⚠️ T03.G4.06 - Update a plan after testing feedback
+   - Has 8 dependencies
+   - Excessive coupling indicates skill is too broad
+   - Should be broken down into smaller skills
+
+C. SKILLS THAT ARE TOO BROAD
+-----------------------------
+⚠️ T03.G4.01 - Break a medium-size project into components
+   ISSUE: This is a complex skill covering multiple concepts
+   - Identifying components
+   - Understanding component responsibilities
+   - Differentiating component types
+   RECOMMENDATION: Break into sub-skills:
+   - T03.G4.01.01: Identify candidate components in a project
+   - T03.G4.01.02: Define clear responsibilities for each component
+   - T03.G4.01.03: Distinguish data components from logic components
+
+⚠️ T03.G7.01 - Draw an architecture diagram for a multi-component project
+   ISSUE: "Multi-component project" is very broad
+   - Choosing diagram notation
+   - Identifying what to include/exclude
+   - Showing relationships
+   RECOMMENDATION: Break into steps:
+   - T03.G7.01.01: Choose appropriate diagram elements for project complexity
+   - T03.G7.01.02: Map components and connections in an architecture diagram
+   - T03.G7.01.03: Annotate diagrams with data flows and interactions
+
+⚠️ T03.G8.01 - Outline a formal project specification
+   ISSUE: "Formal specification" covers many aspects
+   - Overview section
+   - Features section
+   - Data section
+   - UI section
+   - Testing section
+   RECOMMENDATION: Consider breaking down by section or add scaffolding
+
+⚠️ T03.G8.05 - Propose a refactoring plan for a complex project
+   ISSUE: Very advanced and open-ended
+   - Analyzing existing structure
+   - Identifying problems
+   - Proposing solutions
+   - Creating implementation plan
+   RECOMMENDATION: Already somewhat scoped but could benefit from scaffolding
+
+D. VAGUE OR UNCLEAR DESCRIPTIONS
+---------------------------------
+⚠️ T03.G5.03 - Identify task dependencies in a project plan
+   ISSUE: Dependencies list shows "T03.G4.01" without description
+   - Incomplete dependency reference
+   - Makes it hard to understand prerequisites
+
+⚠️ T03.G7.01 - Dependencies include: "T10.G5.01: Architecture diagrams represent components as structured collections."
+   ISSUE: This reads like a description, not a skill title
+   - Inconsistent dependency format
+   - Needs cleanup
+
+⚠️ T03.G7.02 - Dependency: "T11.G5.01: Mapping functional modules requires understanding modular decomposition and func"
+   ISSUE: Description is truncated ("func")
+   - Incomplete text
+
+E. PROGRESSION ISSUES
+----------------------
+⚠️ Gap between G2 and G3 transition
+   - G2 ends with "Identify what a simple game or story can do"
+   - G3 starts with "Identify features in a small game description"
+   - These are very similar - potential overlap/redundancy
+
+⚠️ Sudden complexity jump at G4
+   - G4.01 has 7 dependencies suddenly
+   - May need intermediate scaffolding skills in late G3
+
+⚠️ Module concept introduced late
+   - "Modules" first appear in G4.02
+   - Concept of grouping components into higher-level structures
+   - Could benefit from earlier, simpler introduction
+
+F. AGE-APPROPRIATENESS CONCERNS
+--------------------------------
+✓ GK-G2: Appropriate (picture-based, unplugged, concrete routines)
+✓ G3: Appropriate (beginning block-based project planning)
+✓ G4-G5: Appropriate (team projects, structured planning)
+⚠️ G6-G8: Some skills may be ambitious but not inappropriate
+   - T03.G8.05 "Propose refactoring plan" is very advanced
+   - T03.G8.01 "Formal specification" is professional-level
+   - These push boundaries but may be acceptable for advanced 8th graders
+
+G. DUPLICATES AND OVERLAPS
+---------------------------
+⚠️ Potential overlap:
+   T03.G2.05 - "Identify what a simple game or story can do"
+   T03.G3.01 - "Identify features in a small game description"
+   ISSUE: These seem to cover very similar ground
+   RECOMMENDATION: Either merge or differentiate more clearly
+
+⚠️ Potential overlap:
+   T03.G5.06 - "Identify modules in example projects"
+   T03.G6.01 - "Propose modules for a medium project"
+   ISSUE: Both about identifying/proposing modules
+   RECOMMENDATION: G5.06 should be receptive (analyzing existing), G6.01 productive (creating new) - distinction is present but could be clearer
+
+H. MISSING SCAFFOLDING
+-----------------------
+⚠️ Missing: Introduction to components vs features
+   - Features introduced in G2
+   - Components introduced in G4
+   - No explicit skill bridging these concepts in G3
+
+⚠️ Missing: Simple module concept in G3
+   - Modules suddenly appear in G4.02
+   - Could use a G3 skill like "Group related parts into simple modules"
+
+⚠️ Missing: Dependency understanding before G5
+   - G5.03 is first skill explicitly about dependencies
+   - Earlier grades work with sequences but not dependencies
+   - Could add G4 skill: "Identify which tasks must come before others"
+
+⚠️ Missing: Architecture basics before G7
+   - G7.01 jumps to "architecture diagram"
+   - No prior introduction to architecture concepts
+   - Could add G6 skill: "Describe the high-level structure of a project"
+
+I. CROSS-TOPIC DEPENDENCY CONCERNS
+-----------------------------------
+Many skills have extensive cross-topic dependencies, which is expected, but some notable patterns:
+
+⚠️ Heavy dependency on T06, T07, T08, T09 (Events, Loops, Conditionals, Variables)
+   - This is logical but creates tight coupling
+   - Students must complete significant portions of multiple topics before progressing in T03
+
+⚠️ T03.G8.06 depends on T32.G6.01 (Identify common malware types)
+   ISSUE: This seems unrelated - why does decomposition depend on cybersecurity?
+   RECOMMENDATION: Review if this dependency is necessary
+
+================================================================================
+SECTION 3: LOGICAL PROGRESSION ANALYSIS
+================================================================================
+
+KINDERGARTEN → GRADE 1: ✓ GOOD
+- Clear progression from identifying parts to describing functions
+- Maintains picture-based/concrete approach
+
+GRADE 1 → GRADE 2: ✓ GOOD
+- Natural extension from routines to simple projects
+- Introduces subtasks and checklists appropriately
+
+GRADE 2 → GRADE 3: ⚠️ NEEDS ATTENTION
+- Introduces block-based coding context (appropriate)
+- Slight redundancy between G2.05 and G3.01
+- Could use more scaffolding around components vs features
+
+GRADE 3 → GRADE 4: ⚠️ STEEP JUMP
+- Sudden increase in complexity (G4.01 has 7 deps)
+- Introduction of team concepts
+- Module concept appears suddenly
+- RECOMMENDATION: Add intermediate skills or restructure
+
+GRADE 4 → GRADE 5: ✓ ACCEPTABLE
+- Builds on G4 component work
+- Adds structured documentation (feature lists, maps)
+- Reasonable progression
+
+GRADE 5 → GRADE 6: ✓ GOOD
+- Introduces milestones and versioning
+- AI assistance (XO) introduced appropriately
+- Maintains coherent thread
+
+GRADE 6 → GRADE 7: ✓ GOOD
+- Architecture diagrams build on prior structure work
+- Refactoring concepts introduced
+- Test planning added
+
+GRADE 7 → GRADE 8: ✓ GOOD
+- Culminates in formal specifications
+- Scope management and estimation
+- Advanced refactoring planning
+
+Overall K-8 Trajectory: ✓ MOSTLY COHERENT
+- Clear arc from concrete parts to abstract architecture
+- Few gaps but generally well-scaffolded
+- Main issues are in G3-G4 transition and some G4/G6 dependency violations
+
+================================================================================
+SECTION 4: RECOMMENDATIONS
+================================================================================
+
+PRIORITY 1: CRITICAL FIXES
+---------------------------
+1. FIX T03.G4.06 dependency violation
+   - Remove T06.G2.01, T06.G2.02 dependencies (violate X-2 rule)
+   - Consider if these G2 skills are truly necessary
+   - If needed, find equivalent G3+ skills to reference
+
+2. BREAK DOWN T03.G4.01
+   Current: "Break a medium-size project into components"
+   Proposed:
+   - T03.G4.01.01: Identify candidate components in a project description
+   - T03.G4.01.02: Describe the responsibility of each component
+   - T03.G4.01.03: Distinguish data components from logic components
+   This reduces the 7-dependency burden
+
+3. BREAK DOWN T03.G4.06
+   Current: "Update a plan after testing feedback"
+   Proposed:
+   - T03.G4.06.01: Identify which parts of a plan are affected by test feedback
+   - T03.G4.06.02: Add new tasks to address test failures
+   This reduces the 8-dependency burden and improves clarity
+
+4. REVIEW T03.G8.06 dependency on T32.G6.01
+   - Seems unrelated (cybersecurity → decomposition)
+   - Remove or justify with clear rationale
+
+PRIORITY 2: IMPORTANT IMPROVEMENTS
+-----------------------------------
+5. ADD SCAFFOLDING BETWEEN G2 AND G3
+   Add: T03.G2.06: Explain the difference between a task and a feature
+   - Bridges subtasks (G2) to features (G3)
+   - Dependencies: T03.G2.04.01, T03.G2.05
+
+6. ADD MODULE INTRODUCTION IN G3
+   Add: T03.G3.08: Group related features into simple modules
+   - Earlier introduction to module concept
+   - Dependencies: T03.G3.01, T03.G3.02
+   - Makes G4.02 less abrupt
+
+7. ADD DEPENDENCY SKILL IN G4
+   Add: T03.G4.01.04: Identify which components depend on which other components
+   - Scaffolds G5.03 "Identify task dependencies"
+   - Dependencies: T03.G4.01.03
+
+8. CLARIFY T03.G5.03 dependencies
+   - Fix incomplete "T03.G4.01" reference
+   - Add full descriptions
+
+9. FIX TRUNCATED DESCRIPTIONS
+   - T03.G7.02 dependency on T11.G5.01 (text cut off)
+   - T03.G7.01 dependency description format
+
+PRIORITY 3: NICE-TO-HAVE ENHANCEMENTS
+--------------------------------------
+10. DIFFERENTIATE G2.05 and G3.01 more clearly
+    - Either merge or make distinction explicit in descriptions
+    - Current descriptions are too similar
+
+11. BREAK DOWN T03.G7.01
+    Proposed sub-skills:
+    - T03.G7.01.01: Choose diagram notation appropriate to project
+    - T03.G7.01.02: Map components and connections to diagram
+    - T03.G7.01.03: Add data flows and interaction patterns
+
+12. ADD ARCHITECTURE INTRODUCTION IN G6
+    Add: T03.G6.06: Describe the high-level structure of a project
+    - Prepares for G7.01 architecture diagrams
+    - More gradual introduction to architecture thinking
+
+13. BREAK DOWN T03.G8.01
+    Proposed sub-skills:
+    - T03.G8.01.01: Write project overview and goals
+    - T03.G8.01.02: Document features and requirements
+    - T03.G8.01.03: Specify data structures and UI elements
+    - T03.G8.01.04: Define test criteria and acceptance conditions
+
+================================================================================
+SECTION 5: SUGGESTED NEW SKILLS
+================================================================================
+
+NEW SKILL PROPOSALS:
+
+T03.G2.06 - Explain the difference between a task and a feature
+Description: Students compare tasks and features side by side (e.g., "draw a sprite" is a task, "player can jump" is a feature) and explain how multiple tasks create one feature.
+Dependencies: T03.G2.04.01, T03.G2.05
+Rationale: Bridges G2→G3 transition, clarifies important conceptual distinction
+
+T03.G3.08 - Group related features into simple modules
+Description: Students look at a list of features from a simple game and group them into modules like "player actions," "enemy behavior," and "scoring," introducing module thinking early.
+Dependencies: T03.G3.01, T03.G3.02
+Rationale: Earlier module introduction, smoother G3→G4 transition
+
+T03.G4.01.01 - Identify candidate components in a project description
+Description: Students read a project description and list possible components (e.g., "player," "enemies," "score display," "level manager").
+Dependencies: T03.G3.06, T06.G3.01, T08.G3.01
+Rationale: First step of breaking down G4.01
+
+T03.G4.01.02 - Describe the responsibility of each component
+Description: For each component identified, students write a brief statement of what it's responsible for (e.g., "score tracker: keeps track of points and updates display").
+Dependencies: T03.G4.01.01
+Rationale: Second step of G4.01 breakdown
+
+T03.G4.01.03 - Distinguish data components from logic components
+Description: Students categorize components as primarily data holders (variables, lists) or logic controllers (game manager, AI controller).
+Dependencies: T03.G4.01.02, T09.G3.01.04
+Rationale: Third step of G4.01 breakdown
+
+T03.G4.01.04 - Identify which components depend on other components
+Description: Students draw simple arrows or list which components need to communicate with which others (e.g., "score tracker needs score variable," "enemy AI needs player position").
+Dependencies: T03.G4.01.03
+Rationale: Scaffolds dependency thinking before G5.03
+
+T03.G4.06.01 - Identify which parts of a plan are affected by test feedback
+Description: Students read test feedback and mark which existing tasks need changes vs which need new tasks added.
+Dependencies: T03.G4.05, T13.G3.01
+Rationale: First step of breaking down G4.06
+
+T03.G4.06.02 - Add new tasks to a plan to address test failures
+Description: Students see test failures and write specific new tasks to fix them, inserting them in the right place in the task sequence.
+Dependencies: T03.G4.06.01, T03.G4.04
+Rationale: Second step of G4.06 breakdown, removes need for many G2 dependencies
+
+T03.G6.06 - Describe the high-level structure of a project
+Description: Students explain a project's structure in words: "It has three main parts: the player controls, the enemy system, and the scoring system. They connect when..."
+Dependencies: T03.G6.01, T03.G6.02
+Rationale: Prepares for architecture diagrams in G7
+
+T03.G7.01.01 - Choose diagram notation appropriate to project complexity
+Description: Students see different diagram styles (simple boxes-and-arrows, flowchart-like, UML-lite) and choose which fits their project.
+Dependencies: T03.G6.06 (proposed above), T02.G5.01
+Rationale: First step of G7.01 breakdown
+
+T03.G7.01.02 - Map components and connections to diagram
+Description: Students take a component list and draw boxes/nodes with connecting lines showing relationships.
+Dependencies: T03.G7.01.01
+Rationale: Second step of G7.01 breakdown
+
+T03.G7.01.03 - Annotate diagrams with data flows and interactions
+Description: Students add labels to their diagram arrows showing what data or messages flow between components.
+Dependencies: T03.G7.01.02
+Rationale: Third step of G7.01 breakdown
+
+T03.G8.01.01 - Write project overview and goals section
+Description: Students write a 2-3 paragraph overview describing what the project does and what it aims to achieve.
+Dependencies: T03.G7.01
+Rationale: First part of specification breakdown
+
+T03.G8.01.02 - Document features and requirements section
+Description: Students create a structured list of all features with acceptance criteria for each.
+Dependencies: T03.G8.01.01, T03.G6.03
+Rationale: Second part of specification
+
+T03.G8.01.03 - Specify data structures and UI elements section
+Description: Students document the data structures (variables, lists, tables) and UI components needed.
+Dependencies: T03.G8.01.02, T10.G6.01
+Rationale: Third part of specification
+
+T03.G8.01.04 - Define test criteria and acceptance conditions section
+Description: Students write specific, measurable tests for each major feature and define what "done" means.
+Dependencies: T03.G8.01.03, T03.G7.05
+Rationale: Fourth part of specification
+
+================================================================================
+SECTION 6: SUMMARY STATISTICS
+================================================================================
+
+Total T03 Skills: 54
+- Kindergarten: 5
+- Grade 1: 4
+- Grade 2: 5 (includes 1 sub-skill .01)
+- Grade 3: 7 (includes 2 sub-skills .01)
+- Grade 4: 6
+- Grade 5: 6
+- Grade 6: 5
+- Grade 7: 6
+- Grade 8: 6
+
+Proposed New Skills: 16
+- Grade 2: 1 (T03.G2.06)
+- Grade 3: 1 (T03.G3.08)
+- Grade 4: 4 (T03.G4.01.01-04, T03.G4.06.01-02)
+- Grade 6: 1 (T03.G6.06)
+- Grade 7: 3 (T03.G7.01.01-03)
+- Grade 8: 4 (T03.G8.01.01-04)
+
+Critical Issues Found: 4
+- X-2 rule violations: 1 (T03.G4.06)
+- Excessive dependencies (>6): 2 (T03.G4.01, T03.G4.06)
+- Questionable cross-topic dependency: 1 (T03.G8.06→T32.G6.01)
+
+Skills Needing Breakdown: 5
+- T03.G4.01 (7 deps, too complex)
+- T03.G4.06 (8 deps, too broad)
+- T03.G7.01 (architecture diagram - complex)
+- T03.G8.01 (formal spec - very broad)
+- T03.G8.05 (refactoring plan - complex but acceptable)
+
+Clarity Issues: 3
+- Incomplete dependency references (T03.G5.03)
+- Truncated descriptions (T03.G7.02)
+- Inconsistent dependency format (T03.G7.01)
+
+Progression Quality:
+- K→G1: Excellent
+- G1→G2: Excellent  
+- G2→G3: Good (minor overlap issue)
+- G3→G4: Needs improvement (steep jump)
+- G4→G5: Good
+- G5→G6: Excellent
+- G6→G7: Excellent
+- G7→G8: Excellent
+
+Overall Assessment: STRONG FOUNDATION with SPECIFIC ISSUES TO ADDRESS
+- The progression from concrete part identification to abstract architecture is coherent
+- Age-appropriate development through grades K-8
+- Main concerns are G4 complexity spike and some dependency violations
+- Recommended additions will smooth progression and reduce coupling
+
+================================================================================
+END OF ANALYSIS
+================================================================================
