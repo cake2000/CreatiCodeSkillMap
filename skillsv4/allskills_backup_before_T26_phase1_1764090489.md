@@ -23948,8 +23948,6 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
-Blocks: ask and wait, answer, if-then
-
 
 ID: T26.G3.03
 Topic: T26 – Data Collection & Logging
@@ -23960,8 +23958,6 @@ Dependencies:
 * T26.G3.01: Script a CreatiCode survey loop
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-
-Blocks: when key pressed, change variable by 1, variable monitor
 
 
 ID: T26.G3.04.01
@@ -24016,7 +24012,7 @@ Blocks: ask and wait, if-then, add to list
 ID: T26.G4.01
 Topic: T26 – Data Collection & Logging
 Skill: Create written data collection protocols for teammates
-Description: Students draft multi-step written protocols (who to ask, how many people, what to say) so teammates can collect consistent data. This is a planning/documentation activity that applies knowledge from coding skills to organize real-world data collection processes.
+Description: Students draft multi-step written protocols (who to ask, how many people, what to say) so teammates can collect consistent data. (This is a planning/documentation activity, not coding)
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -24072,8 +24068,6 @@ Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Get the length of a list
 * T26.G4.02.02: Log structured events with multiple attributes
-
-Blocks: create table, add row to table, set cell in table, if-then
 
 
 ID: T26.G4.04
@@ -24139,66 +24133,10 @@ Dependencies:
 * T05.G3.02: Identify user needs from a short interview transcript
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T10.G3.03: Get the length of a list
-* T26.G4.02.01: Create basic tables for logging
+* T26.G4.02.01: Save and load data from a text file
 * T26.G4.06.01: Use timer and loops for periodic data collection
 
 Blocks: loudness of microphone, mouse x, mouse y, add item to list, repeat
-
-
-ID: T26.G4.07
-Topic: T26 – Data Collection & Logging
-Skill: Use list statistics blocks to summarize collected data
-Description: Students apply list statistics blocks (min, max, sum, average) to analyze collected data, learning to compute basic statistical summaries that reveal patterns in their datasets.
-
-Dependencies:
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Get the length of a list
-* T26.G3.04.01: Store raw data in lists
-
-Blocks: min of list, max of list, sum of list, average of list, length of list
-
-
-ID: T26.G5.01.01
-Topic: T26 – Data Collection & Logging
-Grade: Grade 5
-Skill: Use basic print to console block
-Description: Students use the print to console block to display simple messages, learning the fundamental mechanism for outputting information to the console for debugging and logging.
-
-Dependencies:
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-
-Blocks: print to console
-
-
-ID: T26.G5.01.02
-Topic: T26 – Data Collection & Logging
-Grade: Grade 5
-Skill: Print variable values for debugging
-Description: Students insert print statements that display variable values at key points in their code, learning to track how data changes during program execution.
-
-Dependencies:
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-* T26.G5.01.01: Use basic print to console block
-
-Blocks: print to console, join, variables
-
-
-ID: T26.G5.01.03
-Topic: T26 – Data Collection & Logging
-Grade: Grade 5
-Skill: Use color-coded console messages for different event types
-Description: Students use console blocks with different colors (red for errors, green for success, yellow for warnings) to create more informative logging systems that make it easier to identify event types at a glance.
-
-Dependencies:
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-* T26.G5.01.02: Print variable values for debugging
-
-Blocks: print to console with color, variables
 
 
 ID: T26.G5.01
@@ -24209,8 +24147,7 @@ Description: Students insert print blocks at key points in their code to display
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-* T26.G4.02.02: Log structured events with multiple attributes
-* T26.G5.01.03: Use color-coded console messages for different event types
+* T26.G4.02: Use tables to log multi-attribute events
 
 Blocks: print to console, variables
 
@@ -24239,8 +24176,6 @@ Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 * T26.G4.03: Track missing/invalid data with flags
-
-Blocks: if-then, comparison operators, add to list, print to console
 
 
 ID: T26.G5.04.01
@@ -24332,8 +24267,6 @@ Dependencies:
 * T23.G4.01: Detect faces and show bounding boxes
 * T26.G5.04: Store logs in CreatiCode tables for export
 
-Blocks: detect faces, get face data, add row to table, timer
-
 
 ID: T26.G5.08.01
 Topic: T26 – Data Collection & Logging
@@ -24377,32 +24310,6 @@ Dependencies:
 Blocks: loudness of microphone, mouse x, mouse y, add row to table, timer
 
 
-ID: T26.G5.10
-Topic: T26 – Data Collection & Logging
-Skill: Save key-value data to server storage
-Description: Students use server storage blocks to save simple key-value pairs (like player preferences or game settings) to persistent cloud storage, learning the basics of data persistence beyond local variables.
-
-Dependencies:
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-* T26.G5.05.01: Insert table data into cloud database collection
-
-Blocks: set server value for key, get server value for key
-
-
-ID: T26.G5.11
-Topic: T26 – Data Collection & Logging
-Skill: Read key-value data from server storage
-Description: Students retrieve previously stored key-value data from server storage, learning to access persistent data across sessions and use it to restore application state.
-
-Dependencies:
-* T09.G3.05: Trace code with variables to predict outcomes
-* T10.G3.03: Add and remove items from a list
-* T26.G5.10: Save key-value data to server storage
-
-Blocks: get server value for key, set variable to
-
-
 ID: T26.G6.01
 Topic: T26 – Data Collection & Logging
 Skill: Map stakeholder questions to data requirements
@@ -24416,34 +24323,6 @@ Dependencies:
 * T26.G5.04: Store logs in CreatiCode tables for export
 
 
-ID: T26.G6.02.01
-Topic: T26 – Data Collection & Logging
-Grade: Grade 6
-Skill: Log hand tracking data to table
-Description: Students use hand tracking blocks to capture hand landmark data (position, gesture) into tables with timestamps, learning to collect real-time body tracking sensor data.
-
-Dependencies:
-* T10.G4.02: Read and modify cells in a table
-* T23.G5.01: Detect hands and show hand landmarks
-* T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: detect hands, get hand data, add row to table, timer
-
-
-ID: T26.G6.02.02
-Topic: T26 – Data Collection & Logging
-Grade: Grade 6
-Skill: Combine face and hand tracking data in one table
-Description: Students log data from both face detection and hand tracking simultaneously into a unified table, learning to synchronize multiple AI sensor streams with matching timestamps.
-
-Dependencies:
-* T10.G4.02: Read and modify cells in a table
-* T26.G5.07: Collect face detection data into tables
-* T26.G6.02.01: Log hand tracking data to table
-
-Blocks: detect faces, detect hands, get face data, get hand data, add row to table, timer
-
-
 ID: T26.G6.02
 Topic: T26 – Data Collection & Logging
 Skill: Automate logging from three different sensors
@@ -24454,7 +24333,7 @@ Dependencies:
 * T09.G4.04: Trace code with variables to predict outcomes
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.04: Store logs in CreatiCode tables for export
-* T26.G6.02.02: Combine face and hand tracking data in one table
+* T26.G5.09: Collect data from two synchronized sensors
 
 Blocks: detect faces, detect hands, loudness of microphone, add row to table, timer
 
@@ -24471,8 +24350,6 @@ Dependencies:
 * T26.G4.04: Reflect on privacy in collection
 * T26.G6.01: Map stakeholder questions to data requirements
 
-Blocks: show dialog, ask and wait, if-then-else, add row to table
-
 
 ID: T26.G6.04
 Topic: T26 – Data Collection & Logging
@@ -24485,8 +24362,6 @@ Dependencies:
 * T09.G4.04: Trace code with variables to predict outcomes
 * T10.G4.02: Read and modify cells in a table
 * T26.G5.03: Validate data entry with error checks
-
-Blocks: create table, add row to table, set cell in table, if-then-else
 
 
 ID: T26.G6.05.01
@@ -24527,7 +24402,7 @@ Dependencies:
 Blocks: cond [comparison operators], field [fieldname] reporter
 
 
-ID: T26.G6.06.01.01
+ID: T26.G6.01.01
 Topic: T26 – Data Collection & Logging
 Grade: Grade 6
 Skill: Build compound database conditions with AND/OR
@@ -24603,32 +24478,6 @@ Dependencies:
 * T26.G5.06.01: Record player scores to leaderboard
 * T26.G6.01: Map stakeholder questions to data requirements
 
-Blocks: multiplayer blocks, add row to table, get player ID, timer
-
-
-ID: T26.G6.10
-Topic: T26 – Data Collection & Logging
-Skill: Delete rows from tables by index
-Description: Students learn to remove specific rows from tables using row index, understanding how to clean up or correct collected data by removing individual records.
-
-Dependencies:
-* T10.G4.02: Read and modify cells in a table
-* T26.G5.04: Store logs in CreatiCode tables for export
-
-Blocks: delete row from table at index, number of rows in table
-
-
-ID: T26.G6.11
-Topic: T26 – Data Collection & Logging
-Skill: Clear all rows from a table
-Description: Students use blocks to remove all rows from a table while preserving the column structure, learning to reset data collection tables for new sessions or experiments.
-
-Dependencies:
-* T10.G4.02: Read and modify cells in a table
-* T26.G6.10: Delete rows from tables by index
-
-Blocks: clear all rows from table, create table
-
 
 ID: T26.G7.01
 Topic: T26 – Data Collection & Logging
@@ -24641,6 +24490,7 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T11.G5.02: Define a custom block with one parameter
 * T26.G6.01: Map stakeholder questions to data requirements
+* T10.G5.01: Data collection modules work with tables and lists of collected data.
 
 Blocks: define custom block, call custom block, add row to table
 
@@ -24657,36 +24507,6 @@ Dependencies:
 * T26.G6.04: Note when measurements might be inaccurate
 * T26.G7.01: Build reusable data collection modules
 
-Blocks: variable monitor, count items in list, if-then, operators
-
-
-ID: T26.G7.03.01
-Topic: T26 – Data Collection & Logging
-Grade: Grade 7
-Skill: Import CSV data files into tables
-Description: Students use file import blocks to load CSV datasets (weather data, public statistics) into CreatiCode tables, learning to work with external data sources in standard formats.
-
-Dependencies:
-* T10.G5.03: Add and remove items from a list
-* T26.G5.04: Store logs in CreatiCode tables for export
-* T26.G5.08.02: Export and import tables to/from files
-
-Blocks: import table from file, read CSV into table
-
-
-ID: T26.G7.03.02
-Topic: T26 – Data Collection & Logging
-Grade: Grade 7
-Skill: Create metadata table for data sources
-Description: Students create a separate metadata table that documents information about their datasets (source URL, license, date downloaded, refresh date), learning to track data provenance systematically.
-
-Dependencies:
-* T10.G5.03: Add and remove items from a list
-* T26.G5.04: Store logs in CreatiCode tables for export
-* T26.G7.03.01: Import CSV data files into tables
-
-Blocks: create table, add row to table, set cell in table
-
 
 ID: T26.G7.03
 Topic: T26 – Data Collection & Logging
@@ -24699,9 +24519,6 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T26.G5.04: Store logs in CreatiCode tables for export
 * T26.G6.03: Create consent and opt-out workflows with widget dialogs
-* T26.G7.03.02: Create metadata table for data sources
-
-Blocks: import table from file, create table, add row to table
 
 
 ID: T26.G7.04
@@ -24726,7 +24543,7 @@ Description: Students debug data collection issues by strategically placing prin
 Dependencies:
 * T26.G5.01: Add print statements to track events during execution
 * T26.G5.04: Store logs in CreatiCode tables for export
-* T07.G5.01: Use a repeat loop in a script
+* T07.G5.01: Data collection scripts typically use loops to gather multiple data points.
 
 Blocks: print to console, variables, lists, tables
 
@@ -24753,7 +24570,7 @@ Description: Students modify specific fields in existing database documents usin
 Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T26.G6.06.02: Query database collections with filters
-* T26.G6.06.01.01: Build compound database conditions with AND/OR
+* T26.G6.01.01: Build compound database conditions with AND/OR
 
 Blocks: update collection from table, update collection in-place where, set fields, cond expressions
 
@@ -24767,7 +24584,7 @@ Description: Students remove obsolete or unwanted documents from collections usi
 Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T26.G7.07.01: Update existing documents in database collections
-* T26.G6.06.01.01: Build compound database conditions with AND/OR
+* T26.G6.01.01: Build compound database conditions with AND/OR
 
 Blocks: remove all documents from collection where, cond expressions
 
@@ -24824,8 +24641,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T25.G6.01: Document metadata for datasets
 
-Blocks: timer, export table to file, clear all rows from table, custom block
-
 
 ID: T26.G8.03
 Topic: T26 – Data Collection & Logging
@@ -24842,8 +24657,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 * T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
-
-Blocks: XO chat, ask and wait, variables
 
 
 ID: T26.G8.04
@@ -24897,6 +24710,9 @@ Description: Learners count two piles (≤5 each) and state which is larger or i
 Dependencies:
 * T27.GK.01: Sort objects by a rule and explain it
 
+
+
+
 ID: T27.GK.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Read a two-column picture chart
@@ -24904,6 +24720,9 @@ Description: Students interpret which category wins using a pictograph (one icon
 
 Dependencies:
 * T27.GK.02: Compare which group has more
+
+
+
 
 ID: T27.G1.01
 Topic: T27 – Data Analysis & Storytelling
@@ -24916,34 +24735,40 @@ Dependencies:
 ID: T27.G1.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Answer "how many more?" questions
-Description: Learners compute the difference between two categories using picture charts by counting and subtracting (e.g., "apples has 5 and oranges has 3, so apples has 2 more").
+Description: Learners compute the difference between two categories using picture charts.
 
 Dependencies:
 * T27.G1.01: Build a pictograph from tallies
+
 
 ID: T27.G1.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Tell a one-sentence story with data
-Description: Students describe what the chart shows ("Most kids chose apples") using comparative language to communicate findings.
+Description: Students describe what the chart shows ("Most kids chose apples") using comparative language.
 
 Dependencies:
 * T27.G1.01: Build a pictograph from tallies
+
 
 ID: T27.G2.01
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create bar charts with axes labels
-Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes (category names on one axis, numbers on the other), reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.
+Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes, reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.
 
 Dependencies:
+* T01.G1.01: Put pictures in order to plant a seed
 * T27.G1.01: Build a pictograph from tallies
+
 
 ID: T27.G2.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Interpret simple line plots
-Description: Students analyze a small line plot (temperature across 5 days) and answer what increased/decreased, identifying the direction of change between data points.
+Description: Students analyze a small line plot (temperature across 5 days) and answer what increased/decreased.
 
 Dependencies:
-* T27.G2.01: Create bar charts with axes labels
+* T01.G1.01: Put pictures in order to plant a seed
+* T27.G1.01: Build a pictograph from tallies
+
 
 ID: T27.G2.03
 Topic: T27 – Data Analysis & Storytelling
@@ -24951,469 +24776,460 @@ Skill: Find values that look different from others
 Description: Learners look at illustrated lists like [3, 4, 3, 12] represented as pictures or bars and point out which value looks different, explaining why 12 doesn't fit the pattern of 3s and 4s. This builds intuition for what will later be called "outliers" in statistics.
 
 Dependencies:
+* T01.G1.10: Match pictures to "if/then" rules
 * T27.G2.01: Create bar charts with axes labels
+
 
 ID: T27.G2.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Decide if data answers the question asked
-Description: Students read a question ("Which snack is most popular?") and determine if the provided chart answers it or if more data is needed, building critical thinking about data relevance.
+Description: Students read a question ("Which snack is most popular?") and determine if the provided chart answers it or if more data is needed.
 
 Dependencies:
 * T27.G1.03: Tell a one-sentence story with data
 * T27.G2.02: Interpret simple line plots
 
-ID: T27.G3.01
+
+ID: T27.G3.00
 Topic: T27 – Data Analysis & Storytelling
-Skill: Create a data table with columns in CreatiCode
-Description: Students learn to create table structure by adding columns using 'add column [name] at position (1) to table [table1 v]'. They create tables with 2-3 columns (e.g., name, score, grade) and understand that columns define what data will be stored.
+Skill: Add basic widgets to display information
+Description: Students learn to add simple text labels and buttons using CreatiCode widget blocks ('add button', 'add label'), position them on stage, and set initial text. This foundational skill prepares for interactive dashboards in later grades.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T27.G3.01b
+Topic: T27 – Data Analysis & Storytelling
+Skill: Create and populate data tables in CreatiCode
+Description: Students learn to create table structure by adding columns (using 'add column [name] at position (1) to table [table1 v]'), populate rows with data (using 'add to table [table1 v]: [value1] [value2] [value3]'), and display tables to verify contents (using 'show table [table1 v]'). This builds the foundation for all data analysis activities in G3 and beyond.
+
+Dependencies:
 * T27.G2.01: Create bar charts with axes labels
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T27.G3.01
+Topic: T27 – Data Analysis & Storytelling
+Skill: Compute sum and average from data tables
+Description: Students use CreatiCode's built-in aggregation blocks to compute basic statistics from data tables: [sum v] and [average v] of column [scores] in table [data v]. They learn to calculate totals and means efficiently using built-in blocks, forming the foundation for more advanced statistical operations.
+
+Dependencies:
+* T27.G3.01b: Create and populate data tables in CreatiCode
+* T07.G3.01: Use a counted repeat loop
+
+
+ID: T27.G3.01c
+Topic: T27 – Data Analysis & Storytelling
+Skill: Find minimum and maximum values in tables
+Description: Students use CreatiCode's [minimum v] and [maximum v] aggregation blocks to find the smallest and largest values in table columns. They learn when finding extremes is useful (identifying top performers, detecting outliers, understanding data range) and practice interpreting these values in context.
+
+Dependencies:
+* T27.G3.01: Compute sum and average from data tables
+
 
 ID: T27.G3.02
-Topic: T27 – Data Analysis & Storytelling
-Skill: Add rows of data to a table
-Description: Students populate tables with data using 'add to table [table1 v]: [value1] [value2] [value3]' to append rows. They practice entering multiple rows of real data (e.g., student names and test scores) and understand that each row represents one record.
-
-Dependencies:
-* T27.G3.01: Create a data table with columns in CreatiCode
-
-ID: T27.G3.03
-Topic: T27 – Data Analysis & Storytelling
-Skill: Display tables on stage
-Description: Students use 'show table [table1 v]' to display their data tables on the stage for visual inspection, and 'hide table [table1 v]' to remove them. This allows verification that data was entered correctly.
-
-Dependencies:
-* T27.G3.02: Add rows of data to a table
-
-ID: T27.G3.04
-Topic: T27 – Data Analysis & Storytelling
-Skill: Read individual values from a table
-Description: Students use 'item at row (1) column [score] of table [data v]' to retrieve specific cell values from tables. They practice reading values by row number and column name, understanding how to access any piece of data in their table.
-
-Dependencies:
-* T27.G3.03: Display tables on stage
-
-ID: T27.G3.05
-Topic: T27 – Data Analysis & Storytelling
-Skill: Count rows in a table
-Description: Students use 'row count of table [data v]' to determine how many records exist in their table. This is essential for loops that process all rows and for understanding dataset size.
-
-Dependencies:
-* T27.G3.04: Read individual values from a table
-
-ID: T27.G3.06
-Topic: T27 – Data Analysis & Storytelling
-Skill: Compute sum of a column
-Description: Students use '[sum v] of column [scores] in table [data v]' to calculate the total of all values in a numeric column. They apply this to real scenarios like totaling points, sales, or quantities.
-
-Dependencies:
-* T27.G3.05: Count rows in a table
-
-ID: T27.G3.07
-Topic: T27 – Data Analysis & Storytelling
-Skill: Compute average of a column
-Description: Students use '[average v] of column [scores] in table [data v]' to calculate the mean value. They understand that average = sum ÷ count and interpret what the average tells us about typical values in the data.
-
-Dependencies:
-* T27.G3.06: Compute sum of a column
-
-ID: T27.G3.08
-Topic: T27 – Data Analysis & Storytelling
-Skill: Find smallest and largest values in a column
-Description: Students use '[smallest v] of column [scores] in table [data v]' and '[largest v] of column [scores] in table [data v]' to find extreme values. They learn when finding extremes is useful (identifying top performers, detecting outliers, understanding data range).
-
-Dependencies:
-* T27.G3.07: Compute average of a column
-
-ID: T27.G3.09
 Topic: T27 – Data Analysis & Storytelling
 Skill: Build comparison statements with evidence
 Description: Learners write comparison statements like "X has more than Y because 15 vs 10" displayed in sprite speech bubbles, reinforcing evidence-based claims using computed data from their analysis.
 
 Dependencies:
-* T27.G3.08: Find smallest and largest values in a column
+* T27.G3.01: Compute totals and averages from data tables
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
-ID: T27.G3.10
+
+ID: T27.G3.03
 Topic: T27 – Data Analysis & Storytelling
-Skill: Draw a bar chart from table data
-Description: Students use 'draw [bar v] chart using columns [scores] from table [data v] x (0) y (0) width (300) height (200)' to create bar charts from their table data. They learn to specify which column(s) to visualize and position the chart on stage.
+Skill: Use CreatiCode data tables to group and count
+Description: Students use 'row count of table [data v]' to count total rows, and simple filtering with 'delete rows with column [type] of value [desert]' to isolate specific categories before counting, learning basic data grouping.
 
 Dependencies:
-* T27.G3.09: Build comparison statements with evidence
+* T27.G3.01b: Create and populate data tables in CreatiCode
+* T27.G3.02: Build comparison statements with evidence
 
-ID: T27.G3.11
+
+ID: T27.G3.04
 Topic: T27 – Data Analysis & Storytelling
-Skill: Draw a line chart from table data
-Description: Students use 'draw [line v] chart using columns [daily_scores] from table [data v]' to create line charts showing change over time. They understand that line charts connect data points to show trends.
+Skill: Create side-by-side bar charts for two groups
+Description: Learners use CreatiCode's 'draw [bar v] chart using columns [classA,classB] from table [scores v]' block to generate multi-series bar charts comparing two categories (e.g., Class A vs Class B scores), reinforcing comparative visualization skills.
 
 Dependencies:
-* T27.G3.10: Draw a bar chart from table data
+* T27.G3.03: Use CreatiCode data tables to group and count
 
-ID: T27.G3.12
+
+ID: T27.G3.05
 Topic: T27 – Data Analysis & Storytelling
 Skill: Choose appropriate chart types for data
 Description: Students learn when to use bar charts (comparing categories), line charts (showing change over time), and percentage charts (showing parts of a whole). They practice selecting the right chart type based on what question they want to answer with their data.
 
 Dependencies:
-* T27.G3.11: Draw a line chart from table data
+* T27.G3.04: Create side-by-side bar charts for two groups
+
 
 ID: T27.G4.01
-Topic: T27 – Data Analysis & Storytelling
-Skill: Delete rows from a table by value
-Description: Students use 'delete rows with column [status] of value [inactive] from table [data v]' to remove rows matching a specific value. This is useful for cleaning data or filtering out unwanted records.
-
-Dependencies:
-* T27.G3.05: Count rows in a table
-* T08.G3.01: Use a simple if in a script
-
-ID: T27.G4.02
-Topic: T27 – Data Analysis & Storytelling
-Skill: Delete all rows from a table
-Description: Students use 'delete all rows from table [data v]' to clear table contents while keeping the column structure. This is useful for resetting data before collecting new information.
-
-Dependencies:
-* T27.G4.01: Delete rows from a table by value
-
-ID: T27.G4.03
-Topic: T27 – Data Analysis & Storytelling
-Skill: Understand median concept
-Description: Students examine small, pre-sorted datasets and identify the median (middle value) through visual inspection and counting. They explain why median differs from mean and when median is more useful (when data has extreme values). They connect to everyday situations: median is like finding the 'middle kid' when lining up by height.
-
-Dependencies:
-* T27.G3.07: Compute average of a column
-
-ID: T27.G4.04
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate median using built-in blocks
-Description: Students use '[median v] of column [scores] in table [data v]' to find the middle value in table columns. They verify results by sorting data and finding the middle position manually.
-
-Dependencies:
-* T27.G4.03: Understand median concept
-
-ID: T27.G4.05
-Topic: T27 – Data Analysis & Storytelling
-Skill: Understand mode concept
-Description: Students identify the mode (most frequent value) in small datasets by counting occurrences. They understand when mode is useful (finding most popular choice, most common response) and how it differs from mean and median.
-
-Dependencies:
-* T27.G4.03: Understand median concept
-
-ID: T27.G4.06
-Topic: T27 – Data Analysis & Storytelling
-Skill: Sort tables by a column
-Description: Students use 'sort table [data v] by column [score] [large to small v]' to organize data for analysis, understanding ascending vs descending order and how sorting reveals patterns (top performers, lowest values, alphabetical order).
-
-Dependencies:
-* T27.G4.04: Calculate median using built-in blocks
-
-ID: T27.G4.07
-Topic: T27 – Data Analysis & Storytelling
-Skill: Filter rows by condition using loops
-Description: Students implement filtering for range-based conditions (like keeping rows where score > 50) by iterating through rows using loops with conditional logic to copy matching rows to a new table. They learn when custom loops are needed versus built-in deletion blocks.
-
-Dependencies:
-* T27.G4.06: Sort tables by a column
-* T07.G3.01: Use a counted repeat loop
-* T08.G3.01: Use a simple if in a script
-
-ID: T27.G4.08
 Topic: T27 – Data Analysis & Storytelling
 Skill: Analyze change over time using line graphs
 Description: Students read game data (such as scores over 10 rounds) and use line graphs to identify segments where values rise, fall, or stay flat, building temporal analysis skills.
 
 Dependencies:
-* T27.G3.11: Draw a line chart from table data
-* T27.G4.06: Sort tables by a column
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.05: Trace code with variables to predict outcomes
+* T26.G3.04.01: Export list values to a CSV text file
+* T27.G3.04: Create side-by-side bar charts for two groups
 
-ID: T27.G4.09
+
+ID: T27.G4.02b
+Topic: T27 – Data Analysis & Storytelling
+Skill: Understand median and mode concepts
+Description: Students examine small, pre-sorted datasets and identify the median (middle value) and mode (most frequent value) through visual inspection and counting. They explain why these statistics differ from the mean and when each is most useful (e.g., median is less affected by values that look different). They connect these concepts to everyday situations: median is like finding the 'middle kid' when lining up by height, mode is like finding the most popular lunch choice in class.
+
+Dependencies:
+* T27.G3.01: Compute sum and average from data tables
+
+
+ID: T27.G4.02c
+Topic: T27 – Data Analysis & Storytelling
+Skill: Calculate median using built-in blocks
+Description: Students use CreatiCode's built-in [median v] aggregation block to find the middle value in table columns: [median v] of column [scores] in table [data v]. They learn that median requires sorted data and understand when median is more useful than average (when data has extreme values).
+
+Dependencies:
+* T27.G4.02b: Understand median and mode concepts
+
+
+ID: T27.G4.02e
+Topic: T27 – Data Analysis & Storytelling
+Skill: Calculate mode by counting frequencies
+Description: Students implement mode calculation by manually counting how often each value appears using loops and conditional logic. Since there is no built-in mode aggregation block, they build a custom algorithm: loop through each unique value, count its frequency, and track which value appears most often. This connects statistical concepts to algorithm design.
+
+Dependencies:
+* T27.G4.02b: Understand median and mode concepts
+* T08.G3.01: Use a simple if in a script
+
+
+ID: T27.G4.02d
+Topic: T27 – Data Analysis & Storytelling
+Skill: Filter table rows by condition
+Description: Students use CreatiCode's built-in filtering for exact matches (e.g., 'delete rows with column [score] of value [0]' to remove rows with zero scores). For range-based filtering (like keeping rows where score > 50), they iterate through rows using loops with conditional logic to copy matching rows to a new table. They learn when built-in blocks suffice versus when custom loops are needed.
+
+Dependencies:
+* T27.G3.03: Use CreatiCode data tables to group and count
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T27.G4.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Check data quality before analysis
-Description: Students inspect a table for specific issues: missing entries (empty cells), duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each. They use visual inspection and 'show table' to identify problematic data.
+Description: Students inspect a table for specific issues: missing entries, duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each (ignore row, replace with average, flag for review). They use visual inspection and simple conditional checks to identify problematic data.
 
 Dependencies:
-* T27.G4.07: Filter rows by condition using loops
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.05: Trace code with variables to predict outcomes
+* T26.G3.04: [Unknown skill]
+* T27.G3.03: Use CreatiCode data tables to group and count
 
-ID: T27.G4.10
+
+ID: T27.G4.03b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Handle missing or invalid data
-Description: Students decide how to handle data quality issues: skip rows with missing values using conditional loops, replace missing numbers with averages using 'replace item' blocks, or flag invalid entries for review. They implement their chosen strategy and document their decisions.
+Description: Students decide how to handle data quality issues: skip rows with missing values, replace missing numbers with averages, or flag invalid entries for review. They implement their chosen strategy using conditional blocks and document their decisions.
 
 Dependencies:
-* T27.G4.09: Check data quality before analysis
+* T27.G4.03: Check data quality before analysis
 
-ID: T27.G4.11
+
+ID: T27.G4.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create narrative captions for charts
-Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications for their visualizations. They practice explaining what the chart shows, who would care, and what action might follow.
+Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications for their visualizations.
 
 Dependencies:
-* T27.G4.08: Analyze change over time using line graphs
-* T27.G3.09: Build comparison statements with evidence
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.05: Trace code with variables to predict outcomes
+* T26.G3.04: [Unknown skill]
+* T27.G4.01: Analyze change over time using line graphs
+
+
+ID: T27.G4.04b
+Topic: T27 – Data Analysis & Storytelling
+Skill: Sort tables to organize data
+Description: Students use 'sort table [data v] by column [score] [large to small v]' to organize data for analysis, understanding ascending vs descending order and how sorting reveals patterns (top performers, lowest values, alphabetical order). Sorting is essential for finding medians and identifying extremes.
+
+Dependencies:
+* T27.G4.02d: Filter table rows by condition
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T27.G5.00
+Topic: T27 – Data Analysis & Storytelling
+Skill: Calculate percentages from grouped data
+Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and display results using percentage charts (created with 'draw [percentage v] chart using columns [...] from table [...]'), connecting raw counts to relative comparisons for interpretive analysis.
+
+Dependencies:
+* T27.G3.03: Use CreatiCode data tables to group and count
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 ID: T27.G5.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Draw percentage charts from table data
-Description: Students use 'draw [percentage v] chart using columns [categories] from table [data v]' to create charts showing parts of a whole. They understand that percentage charts show relative proportions and are useful for composition analysis.
+Skill: Build a simple interactive dashboard with filter widgets
+Description: Students connect pre-existing widgets to data filtering logic, so clicking a button or selecting a dropdown option triggers table filtering and chart updates. They learn to respond to widget events and update visualizations dynamically based on user choices.
 
 Dependencies:
-* T27.G3.12: Choose appropriate chart types for data
+* T27.G4.02d: Filter table rows by condition
+* T09.G3.05: Trace code with variables to predict outcomes
+* T26.G3.04: Separate raw data from summary data
+* T27.G4.04: Create narrative captions for charts
+* T27.G3.00: Add basic widgets to display information
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
-ID: T27.G5.02
+
+ID: T27.G5.00b
 Topic: T27 – Data Analysis & Storytelling
-Skill: Draw pie charts using category and value columns
-Description: Students use 'draw pie chart using category [type] and value [count] from table [data v]' to create pie charts where categories and values come from different columns. This specialized block automatically calculates percentages.
+Skill: Respond to widget events in dashboards
+Description: Students use 'when widget [filterButton v] clicked' and 'when widget [dropdown v] changes' event blocks to trigger data filtering or chart updates, making dashboards interactive and responsive to user choices.
 
 Dependencies:
-* T27.G5.01: Draw percentage charts from table data
+* T27.G5.01: Build a simple interactive dashboard with filter widgets
+* T27.G3.00: Add basic widgets to display information
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
-ID: T27.G5.03
-Topic: T27 – Data Analysis & Storytelling
-Skill: Calculate percentages from grouped data
-Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and display results, connecting raw counts to relative comparisons for interpretive analysis.
 
-Dependencies:
-* T27.G5.02: Draw pie charts using category and value columns
-* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
-
-ID: T27.G5.04
+ID: T27.G5.01b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Group data by category and compute statistics (GROUP BY)
-Description: Students use 'set table [summary v] to [average v] of column [score] in table [data v] by column [grade]' to create summary tables showing statistics per group (e.g., average score per grade level, total sales per region). This enables powerful comparative analysis across categories.
+Description: Students use 'set table [summary v] to [average v] of column [score] in table [data v] by column [grade]' to create summary tables showing statistics per group (e.g., average score per grade level, total sales per region). This enables powerful comparative analysis across categories and is a foundational database operation.
 
 Dependencies:
-* T27.G4.06: Sort tables by a column
-* T27.G3.07: Compute average of a column
+* T27.G4.04b: Sort tables to organize data
+* T27.G3.01: Compute totals and averages from data tables
+* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 
-ID: T27.G5.05
-Topic: T27 – Data Analysis & Storytelling
-Skill: Add basic widgets to display information
-Description: Students learn to add simple text labels and buttons using CreatiCode widget blocks ('add button', 'add label'), position them on stage, and set initial text. This foundational skill prepares for interactive dashboards.
 
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T27.G5.03: Calculate percentages from grouped data
-
-ID: T27.G5.06
-Topic: T27 – Data Analysis & Storytelling
-Skill: Respond to widget click events
-Description: Students use 'when widget [filterButton v] clicked' event blocks to trigger actions when users interact with buttons. They connect button clicks to data operations like filtering or chart updates.
-
-Dependencies:
-* T27.G5.05: Add basic widgets to display information
-* T06.G4.01: Sequence multiple sprite events
-
-ID: T27.G5.07
-Topic: T27 – Data Analysis & Storytelling
-Skill: Build a simple interactive dashboard
-Description: Students combine widgets, tables, and charts into an interactive dashboard where clicking a button filters the data and redraws the chart. They practice connecting user interface elements to data operations.
-
-Dependencies:
-* T27.G5.06: Respond to widget click events
-* T27.G4.07: Filter rows by condition using loops
-
-ID: T27.G5.08
+ID: T27.G5.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Correlate two variables visually
 Description: Students create dual bar charts or overlaid line charts (using multi-column chart blocks) to explore relationships (e.g., comparing time played vs high score using side-by-side bars) and describe patterns they observe, such as positive correlation, negative correlation, or no clear relationship.
 
 Dependencies:
-* T27.G5.04: Group data by category and compute statistics (GROUP BY)
-* T27.G4.08: Analyze change over time using line graphs
+* T27.G4.01: Analyze change over time using line graphs
+* T27.G5.00: Calculate percentages from grouped data
+* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 
-ID: T27.G5.09
+
+ID: T27.G5.03
 Topic: T27 – Data Analysis & Storytelling
-Skill: Compare data from two sources
-Description: Students analyze two related datasets to spot mismatches and hypothesize causes. For example, comparing expected versus actual values in a table. They use side-by-side table comparison or manual inspection to identify discrepancies.
+Skill: Compare data from two sensors or sources
+Description: Students analyze two related datasets to spot mismatches and hypothesize causes. For example, comparing AI voice commands (what was said) versus actions taken (what the program did), or comparing sensor readings from two different devices. They use side-by-side table comparison or manual inspection to identify discrepancies between expected and actual data.
 
 Dependencies:
-* T27.G5.08: Correlate two variables visually
+* T09.G3.05: Trace code with variables to predict outcomes
+* T26.G3.04: Separate raw data from summary data
+* T27.G5.02: Correlate two variables visually
 
-ID: T27.G5.10
+
+ID: T27.G5.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Present findings using slides or mini reports
 Description: Learners assemble one chart (screenshot from CreatiCode) + one key insight + one recommendation in a short presentation (using Google Slides, PowerPoint, or text widgets in CreatiCode), practicing clear data-driven communication for specific audiences.
 
 Dependencies:
-* T27.G5.07: Build a simple interactive dashboard
-* T27.G4.11: Create narrative captions for charts
+* T09.G3.05: Trace code with variables to predict outcomes
+* T26.G3.04: Separate raw data from summary data
+* T27.G5.01: Build a simple interactive dashboard with filter widgets
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
 
 ID: T27.G6.01
-Topic: T27 – Data Analysis & Storytelling
-Skill: Look up row index by value
-Description: Students use 'row # of [John] in column [name] in table [students v]' to find which row contains a specific value. This is the first step in VLOOKUP-style operations for cross-referencing data.
-
-Dependencies:
-* T27.G5.04: Group data by category and compute statistics (GROUP BY)
-* T09.G4.04: Trace code with variables to predict outcomes
-
-ID: T27.G6.02
-Topic: T27 – Data Analysis & Storytelling
-Skill: Look up values across tables (VLOOKUP)
-Description: Students use a two-step lookup process: first 'row # of [John] in column [name] in table [students v]' to find the matching row, then 'item at row (...) column [age] of table [students v]' to retrieve related information, similar to spreadsheet VLOOKUP operations.
-
-Dependencies:
-* T27.G6.01: Look up row index by value
-
-ID: T27.G6.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Filter tables using AND conditions
 Description: Students implement filtering logic where multiple conditions must all be true (AND logic). They use loops with compound conditionals to check if rows meet all criteria (e.g., level = "Forest" AND score > 50), understanding that AND filters become more restrictive as conditions are added.
 
 Dependencies:
-* T27.G4.07: Filter rows by condition using loops
-* T08.G4.01: Use an if-else block with compound conditions
+* T27.G4.02d: Filter table rows by condition
+* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
+* T09.G4.04: Trace code with variables to predict outcomes
+* T26.G4.04: Plan a one-week observation schedule for a variable
+* T27.G5.03: Compare data from two sensors or sources
 
-ID: T27.G6.04
+
+ID: T27.G6.01c
 Topic: T27 – Data Analysis & Storytelling
 Skill: Filter tables using OR conditions
-Description: Students implement filtering logic where at least one condition must be true (OR logic). They learn to check if rows meet any of several criteria (e.g., level = "Forest" OR level = "Desert"), understanding that OR filters become less restrictive, contrasting with AND logic.
+Description: Students implement filtering logic where at least one condition must be true (OR logic). They learn to check if rows meet any of several criteria (e.g., level = "Forest" OR level = "Desert"), understanding that OR filters become less restrictive as conditions are added, contrasting with AND logic.
 
 Dependencies:
-* T27.G6.03: Filter tables using AND conditions
+* T27.G6.01: Filter tables using AND conditions
 
-ID: T27.G6.05
+
+ID: T27.G6.01b
+Topic: T27 – Data Analysis & Storytelling
+Skill: Look up values across tables (VLOOKUP)
+Description: Students use a two-step lookup process: first 'row # of [John] in column [name] in table [students v]' to find the matching row, then 'item at row (...) column [age] of table [students v]' to retrieve related information, similar to spreadsheet VLOOKUP operations. This enables cross-referencing data from different sources (e.g., looking up student scores by matching names across two tables).
+
+Dependencies:
+* T27.G5.01b: Group data by category and compute statistics (GROUP BY)
+* T09.G4.04: Trace code with variables to predict outcomes
+
+
+ID: T27.G6.01d
 Topic: T27 – Data Analysis & Storytelling
 Skill: Combine data from two tables
 Description: Students learn to merge data from two related tables using lookups iteratively, copying matching rows into a new combined table. This prepares for database-style JOIN operations in data analysis.
 
 Dependencies:
-* T27.G6.02: Look up values across tables (VLOOKUP)
-* T27.G6.04: Filter tables using OR conditions
+* T27.G6.01b: Look up values across tables (VLOOKUP)
 
-ID: T27.G6.06
+
+ID: T27.G6.02
 Topic: T27 – Data Analysis & Storytelling
 Skill: Compare two groups using data
 Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better by comparing averages using aggregation blocks, calculating the difference between group means, and stating conclusions about whether differences are large or small relative to the data range.
 
 Dependencies:
-* T27.G6.03: Filter tables using AND conditions
-* T27.G5.04: Group data by category and compute statistics (GROUP BY)
+* T08.G4.01: Use an if-else block with compound conditions
+* T09.G4.04: Trace code with variables to predict outcomes
+* T26.G4.04: Plan a one-week observation schedule for a variable
+* T27.G6.01: Filter table rows using multiple conditions
 
-ID: T27.G6.07
+
+ID: T27.G6.02b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create pivot tables for multi-dimensional analysis
 Description: Students use 'pivot [data v] into [summary v] row groups [grade,gender] columns [score] methods [average]' to create multi-dimensional summaries (e.g., average scores broken down by both grade AND gender). This enables complex comparative analysis across multiple grouping variables simultaneously.
 
 Dependencies:
-* T27.G5.04: Group data by category and compute statistics (GROUP BY)
+* T27.G5.01b: Group data by category and compute statistics (GROUP BY)
 * T10.G4.01: Use list length and item access in expressions
 
-ID: T27.G6.08
+
+ID: T27.G6.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Identify trends and patterns in time-series data
 Description: Students analyze multi-week data to identify trends (increasing, decreasing, cyclical patterns) and articulate patterns with supporting evidence from the data. They distinguish between short-term fluctuations and long-term trends.
 
 Dependencies:
-* T27.G5.08: Correlate two variables visually
-* T27.G6.06: Compare two groups using data
+* T27.G5.02: Correlate two variables visually
+* T27.G6.01: Filter table rows using multiple conditions
+* T09.G4.04: Trace code with variables to predict outcomes
 
-ID: T27.G6.09
+
+ID: T27.G6.03b
 Topic: T27 – Data Analysis & Storytelling
-Skill: Export tables to CSV files
-Description: Students use 'export table [data v] as [analysis_results]' to save analysis results as CSV files for sharing. This enables data exchange and collaboration beyond CreatiCode.
+Skill: Export and import data using CSV files
+Description: Students use 'export table [data v] as [analysis_results]' to save analysis results as CSV files for sharing, and 'import file into table [imported v]' to load external data. This enables real-world data exchange and collaboration beyond CreatiCode.
 
 Dependencies:
-* T27.G6.08: Identify trends and patterns in time-series data
+* T27.G6.01: Filter table rows using multiple conditions
+* T06.G4.01: Sequence multiple sprite events
 
-ID: T27.G6.10
-Topic: T27 – Data Analysis & Storytelling
-Skill: Import data from CSV files
-Description: Students use 'import file into table [imported v]' to load external data from CSV files into CreatiCode tables. This enables working with real-world datasets from other sources.
 
-Dependencies:
-* T27.G6.09: Export tables to CSV files
-
-ID: T27.G6.11
+ID: T27.G6.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Create structured summaries with labeled findings
-Description: Learners condense findings into structured text formats using consistent labels: METRIC (key number), INSIGHT (pattern observed), ACTION (recommended next step). This teaches clear, organized data communication.
+Description: Learners condense findings into structured text formats using consistent labels: METRIC (key number), INSIGHT (pattern observed), ACTION (recommended next step). These structured summaries can be used for reports, shared with teammates, or copied into AI assistants for further analysis. This teaches clear, organized data communication.
 
 Dependencies:
-* T27.G6.06: Compare two groups using data
-* T27.G5.10: Present findings using slides or mini reports
+* T06.G4.01: Sequence multiple sprite events
+* T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
+* T09.G4.04: Trace code with variables to predict outcomes
+* T26.G4.04: Plan a one-week observation schedule for a variable
+* T27.G6.02: Compare two groups using data
+
 
 ID: T27.G7.01
 Topic: T27 – Data Analysis & Storytelling
-Skill: Read data from Google Sheets
-Description: Students use 'read from google sheet: url [URL] sheet name [Sheet1] range [A1:D10] into table [data v]' to import shared data from cloud spreadsheets. This enables collaboration with data stored online.
+Skill: Build multi-chart dashboards with linked filters
+Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter using shared variables and broadcast messages. When a user changes the filter value, a broadcast message triggers all charts to redraw using the updated shared variable, providing cohesive synchronized analysis. This explicitly uses event broadcasting to coordinate multiple visualizations.
 
 Dependencies:
-* T27.G6.10: Import data from CSV files
+* T10.G5.01: Use list length and item access in expressions
+* T26.G5.04: Separate raw data from summary data
+* T27.G6.03: Identify trends and patterns in time-series data
+* T27.G6.04: Create structured summaries for AI input
+
+
+ID: T27.G7.01b
+Topic: T27 – Data Analysis & Storytelling
+Skill: Integrate Google Sheets for cloud collaboration
+Description: Students use 'read from google sheet: url [URL] sheet name [Sheet1] range [A1:D10] into table [data v]' to import shared data and 'write into google sheet: url [URL] sheet name [Sheet1] start cell [A1] from table [results v]' to publish findings. This enables real-time collaboration and data sharing beyond CreatiCode, connecting to professional cloud workflows.
+
+Dependencies:
+* T27.G6.03b: Export and import data using CSV files
 * T06.G5.01: Broadcast a custom message and respond in another sprite
+
 
 ID: T27.G7.02
 Topic: T27 – Data Analysis & Storytelling
-Skill: Write data to Google Sheets
-Description: Students use 'write into google sheet: url [URL] sheet name [Sheet1] start cell [A1] from table [results v]' to publish findings to cloud spreadsheets. This enables real-time collaboration and data sharing beyond CreatiCode.
+Skill: Compare predictions to actual outcomes
+Description: Learners compare predicted values versus actual outcomes (e.g., XO's time estimate vs actual time), calculate the difference (called a "residual" in statistics) for each prediction, and identify patterns in errors to detect systematic over- or under-prediction.
 
 Dependencies:
-* T27.G7.01: Read data from Google Sheets
+* T08.G5.01: Use a simple if in a script
+* T09.G5.01: Model real-world quantities using variables and formulas
+* T26.G5.04: Separate raw data from summary data
+* T27.G7.01: Build multi-chart dashboards with linked filters
 
-ID: T27.G7.03
-Topic: T27 – Data Analysis & Storytelling
-Skill: Build multi-chart dashboards with linked filters
-Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter using shared variables and broadcast messages. When a user changes the filter value, a broadcast message triggers all charts to redraw using the updated shared variable.
 
-Dependencies:
-* T27.G6.08: Identify trends and patterns in time-series data
-* T27.G5.07: Build a simple interactive dashboard
-* T06.G5.01: Broadcast a custom message and respond in another sprite
-
-ID: T27.G7.04
-Topic: T27 – Data Analysis & Storytelling
-Skill: Extract table column to list for processing
-Description: Students learn to copy values from a table column into a list using loops, iterating through each row and adding values to a list. This is required because some analysis blocks (like moving averages) work only on lists, not tables.
-
-Dependencies:
-* T27.G7.03: Build multi-chart dashboards with linked filters
-* T10.G5.01: Use list length and item access in expressions
-
-ID: T27.G7.05
+ID: T27.G7.02b
 Topic: T27 – Data Analysis & Storytelling
 Skill: Calculate moving averages for trend smoothing
-Description: Students use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
+Description: Students first extract a table column into a list using loops (copying each row's value to a list), which is required because moving average blocks work only on lists, not tables. Then they use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
 
 Dependencies:
-* T27.G7.04: Extract table column to list for processing
+* T27.G6.03: Identify trends and patterns in time-series data
+* T27.G7.01: Build multi-chart dashboards with linked filters
+* T10.G5.01: Use list length and item access in expressions
+* T07.G5.01: Moving averages require iterating through data points with a sliding window.
 
-ID: T27.G7.06
-Topic: T27 – Data Analysis & Storytelling
-Skill: Compare predictions to actual outcomes
-Description: Learners compare predicted values versus actual outcomes, calculate the difference (called a "residual") for each prediction, and identify patterns in errors to detect systematic over- or under-prediction.
 
-Dependencies:
-* T27.G7.05: Calculate moving averages for trend smoothing
-* T09.G5.01: Model real-world quantities using variables and formulas
-
-ID: T27.G7.07
+ID: T27.G7.02c
 Topic: T27 – Data Analysis & Storytelling
 Skill: Automate chart updates with variables
-Description: Students learn to connect chart blocks to table variables so that when data changes (via widget interaction, new imports, or computed updates), charts automatically redraw without manual regeneration. This prepares for automated reporting.
+Description: Students learn to connect chart blocks to table variables so that when data changes (via widget interaction, new imports, or computed updates), charts automatically redraw without manual regeneration. This prepares for automated reporting and dynamic dashboards.
 
 Dependencies:
-* T27.G7.03: Build multi-chart dashboards with linked filters
+* T27.G7.01: Build multi-chart dashboards with linked filters
 * T09.G6.01: Model real-world quantities using variables and formulas
 
-ID: T27.G7.08
+
+ID: T27.G7.03
 Topic: T27 – Data Analysis & Storytelling
 Skill: Evaluate fairness metrics across user groups
 Description: Students compute simple success rates or accuracy metrics separately for different user groups (e.g., by age or region), compare the results, and discuss any disparities found, tying to AI4K12's ethical lens for fairness evaluation.
 
 Dependencies:
-* T27.G7.06: Compare predictions to actual outcomes
-* T27.G6.06: Compare two groups using data
+* T08.G5.01: Use a simple if in a script
+* T09.G5.01: Model real-world quantities using variables and formulas
+* T26.G5.04: Separate raw data from summary data
+* T27.G7.02: Compare predictions to actual outcomes
 
-ID: T27.G7.09
+
+ID: T27.G7.04
 Topic: T27 – Data Analysis & Storytelling
 Skill: Write findings reports for an audience
 Description: Learners prepare a short report with "Finding, Evidence, Recommendation" sections aimed at teachers or peers, practicing clear data-driven communication tailored to their audience.
 
 Dependencies:
-* T27.G7.08: Evaluate fairness metrics across user groups
-* T27.G6.11: Create structured summaries with labeled findings
+* T06.G5.01: Broadcast a custom message and respond in another sprite
+* T10.G5.03: Add and remove items from a list
+* T26.G5.04: Separate raw data from summary data
+* T27.G7.03: Evaluate fairness metrics across user groups
+
 
 ID: T27.G8.01
 Topic: T27 – Data Analysis & Storytelling
@@ -25421,9 +25237,16 @@ Skill: Determine if differences are statistically meaningful
 Description: Students use simple statistical reasoning (e.g., comparing differences to typical variation, or simulating many samples to see if patterns persist) to judge whether observed differences are likely real or due to chance, documenting their assumptions and methods.
 
 Dependencies:
-* T27.G7.08: Evaluate fairness metrics across user groups
+* T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
+* T26.G6.01: Map stakeholder questions to data requirements
+* T27.G7.03: Evaluate fairness metrics across user groups
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+* T10.G6.02: Filter table rows based on a condition
+* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
+
 
 ID: T27.G8.02
 Topic: T27 – Data Analysis & Storytelling
@@ -25431,9 +25254,18 @@ Skill: Automate report generation
 Description: Learners build scripts that assemble updated charts and textual findings (using variables to populate text templates) at the press of a button, supporting repeatable reporting workflows for ongoing data monitoring.
 
 Dependencies:
-* T27.G7.07: Automate chart updates with variables
-* T27.G8.01: Determine if differences are statistically meaningful
 * T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
+* T26.G6.01: Map stakeholder questions to data requirements
+* T27.G7.02c: Automate chart updates with variables
+* T27.G8.01: Determine if differences are statistically meaningful
+* T06.G6.02: Identify parallel vs sequential event behaviors
+* T07.G6.02: Refactor complex repeated patterns into loops with variables
+* T15.G6.01: Animation state machine
+
 
 ID: T27.G8.03
 Topic: T27 – Data Analysis & Storytelling
@@ -25441,8 +25273,14 @@ Skill: Integrate data analysis into AI prompt engineering
 Description: Students extract key statistics from their analysis, construct prompts that include these metrics (e.g., "Given average score=75 and 20% drop-off at level 3, suggest improvements"), send to XO (CreatiCode's AI assistant), and critically evaluate whether the AI's recommendations align with the data.
 
 Dependencies:
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T26.G6.01: Map stakeholder questions to data requirements
 * T27.G8.02: Automate report generation
-* T22.G6.01: Send a prompt to XO and display the response
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+* T17.G6.01: Configure surface friction parameters
+
 
 ID: T27.G8.04
 Topic: T27 – Data Analysis & Storytelling
@@ -25450,8 +25288,13 @@ Skill: Publish data stories to a shared platform
 Description: Learners create polished data stories with charts, written context, ethical considerations, and calls to action, then publish to CreatiCode's sharing feature or export as a web page for others to view and learn from.
 
 Dependencies:
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T26.G6.01: Map stakeholder questions to data requirements
 * T27.G8.03: Integrate data analysis into AI prompt engineering
-* T27.G7.09: Write findings reports for an audience
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T28.G2.01

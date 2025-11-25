@@ -94,7 +94,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      // if ( iteration == 0 && i < 4) continue;
+      if ( iteration == 0 && i < 22) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -189,6 +189,7 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
             console.log(`\n⚠️  API rate limit hit for topic ${topic.code}`);
             console.log(`⏰ Waiting 3 minutes before retrying...`);
             await waitWithCountdown(3);
+            console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
             retryCount++;
           } else {
             success = true;
@@ -203,6 +204,7 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
           if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
             console.log(`⏰ waiting 3 minutes ${new Date().toLocaleString()}...`);
             await waitWithCountdown(3);
+            console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
             retryCount++;
           } else {
             // console.error(`⚠️  Skipping topic ${topic.code} after error`);
