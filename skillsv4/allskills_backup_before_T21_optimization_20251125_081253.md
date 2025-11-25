@@ -17568,18 +17568,19 @@ Dependencies:
 ---
 
 
-## TOPIC: T21 – AI Media (Phase 1 Optimized - November 2025)
-# Applied Phase 1 topic-focused optimizations:
-# - Removed orphaned dependency sections at Grade K and Grade 7 headers
-# - Fixed duplicate dependency section in T21.G5.02a
-# - Added missing dependencies section to T21.G6.13
-# - Ensured all skills follow X-2 dependency rule
-# - Verified skill descriptions match actual CreatiCode AI blocks
-# Total: 79 skills (GK-G8)
+## TOPIC: T21 – AI Media
 
 Focus: AI-generated media (text, images, voice) and computer vision
 
 ## GRADE K (3 skills)
+
+Dependencies:
+* T20.G7.06: Create 3D generative sculptures with particle effects
+* T20.G8.04: Optimize rendering for performance
+* T03.G6.01: Propose modules for a medium project
+* T08.G6.01a: Use conditionals in physics simulations
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+
 
 ID: T21.GK.01
 Topic: T21 – AI Media
@@ -17763,12 +17764,14 @@ ID: T21.G5.02a
 Topic: T21 – AI Media
 Skill: Search AI image library for pre-made assets
 Description: Students use the `search for AI image of [TYPE v] with query [QUERY]` block to find pre-generated AI images from a curated library. TYPE options include Object, Character, and Backdrop. They compare using the AI library (faster, curated, safe) versus generating custom images with DALL-E (more specific, original). This teaches appropriate tool selection.
-CSTA: 2-IC-20
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01.01: Create a new variable with a descriptive name
 * T29.G3.01: Distinguish text data from numbers and pictures
+CSTA: 2-IC-20
+
+Dependencies: None
 
 
 ID: T21.G5.03
@@ -18088,13 +18091,13 @@ Skill: Stop camera-based AI detection to manage resources
 Description: Students learn to properly stop camera-based AI features when they're no longer needed. They use `stop 2D body part recognition` to stop body tracking and `stop continuous speech recognition` to stop speech recognition. For face and hand detection, they learn to restart the project or use conditional logic to prevent detection from starting. They understand why stopping detection is important: saves battery power, reduces processing load, protects user privacy, and prevents unnecessary data collection. They implement proper start/stop workflows in their applications (e.g., start detection when entering game mode, stop when exiting; toggle buttons to control detection).
 CSTA: 2-IC-23 (Describe tradeoffs between allowing information to be public and keeping information private and secure)
 
+## GRADE 7 (25 skills)
+
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T21.G6.11: Detect faces in camera video (basic detection setup)
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
 
-
-## GRADE 7 (25 skills)
 
 ID: T21.G7.01
 Topic: T21 – AI Media
@@ -18105,11 +18108,12 @@ CSTA: 3A-AP-17 (Decompose problems into smaller components)
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T09.G5.01: Use variables to make a program more general or clear
-* T10.G5.01: Use a list to manage a collection of similar items
 * T10.G6.01: Sort a table by a column
-* T11.G5.01: Create a custom block to group a sequence of actions
+
 * T21.G6.03: Build a prompt test bench inside CreatiCode
 * T21.G6.04: Iterate when an AI output fails requirements
+* T10.G5.01: Template libraries are organized as lists or collections of prompts.
+* T11.G5.01: Template libraries benefit from functional abstraction and reusability.
 
 
 ID: T21.G7.02
@@ -18121,6 +18125,7 @@ CSTA: 3A-AP-17
 Dependencies:
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.04: Iterate when an AI output fails requirements
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
 
@@ -18134,6 +18139,7 @@ CSTA: 3A-IC-24 (Evaluate the ways computing impacts personal, ethical, social, e
 Dependencies:
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.03: Build a prompt test bench inside CreatiCode
 * T21.G6.04: Iterate when an AI output fails requirements
 
@@ -18149,6 +18155,7 @@ Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.04: Iterate when an AI output fails requirements
 
 
@@ -18162,6 +18169,7 @@ Dependencies:
 * T06.G5.01: Fix a behavior that runs at the wrong time
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G5.03: Use basic text-to-speech with default settings
 * T21.G6.04: Iterate when an AI output fails requirements
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
@@ -18175,6 +18183,7 @@ CSTA: 3A-AP-16 (Design and iteratively develop computational artifacts)
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.05: Use Azure speech recognition (ai_startspeech block)
 
 
@@ -18220,6 +18229,7 @@ CSTA: 3A-DA-09 (Translate between different data representations)
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
 
 
@@ -18232,6 +18242,7 @@ CSTA: 3A-DA-09
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.09: Detect hands in camera video (basic hand detection)
 
 
@@ -18243,6 +18254,7 @@ CSTA: 3A-DA-09
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.09a: Read finger curl and direction values
 
 
@@ -18254,6 +18266,7 @@ CSTA: 3A-DA-09
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.09b: Read 2D hand keypoint coordinates
 
 
@@ -18275,10 +18288,10 @@ Description: Students create a simple game that responds to body movements detec
 CSTA: 3A-AP-16
 
 Dependencies:
-* T06.G5.01: Fix a behavior that runs at the wrong time
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Use variables to make a program more general or clear
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
+* T06.G5.01: Pose-based games respond to pose detection events.
 
 
 ID: T21.G7.11
@@ -18290,6 +18303,7 @@ CSTA: 3A-DA-09
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
 
 
@@ -18331,6 +18345,7 @@ CSTA: 3A-AP-17
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.13a: Compile and configure a neural network
 
 
@@ -18372,6 +18387,7 @@ CSTA: 3A-AP-17
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.15: Understand K-Nearest Neighbors (KNN) classification
 
 
@@ -18383,6 +18399,7 @@ CSTA: 3A-DA-09
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
 
 
@@ -18446,14 +18463,15 @@ CSTA: 3B-AP-16 (Demonstrate code reuse by creating programming solutions using l
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T10.G6.02: Filter table rows based on a condition
-* T13.G6.01: Trace complex code with multiple variables
+
 * T21.G6.06: Check user input with AI content moderation
 * T21.G7.01: Create a reusable prompt template library
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.02: Filter table rows based on a condition
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.02
@@ -18463,14 +18481,15 @@ Description: Students build a dashboard that lists each generated asset with met
 CSTA: 3B-IC-27 (Predict how computational innovations can affect personal, ethical, social, and cultural practices)
 
 Dependencies:
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
-* T08.G6.01a: Use conditionals in physics simulations
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.06: Check user input with AI content moderation
 * T21.G7.01: Create a reusable prompt template library
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T21.G8.03
@@ -18482,14 +18501,15 @@ CSTA: 3B-AP-16
 Implementation Guidance: Teachers should provide starter template with scene array structure [sceneName, narration, imagePrompt, audioFile] and navigation button framework. Students focus on AI content generation and synchronization.
 
 Dependencies:
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
 * T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.02: Use ChatGPT to expand creative briefs before generating art
 * T21.G7.05: Synchronize AI visuals with AI narration for a single scene
+* T02.G6.01: Learn the pseudocode generation block
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T21.G8.04
@@ -18499,13 +18519,14 @@ Description: Students research a real example (e.g., a game studio using AI conc
 CSTA: 3B-IC-27
 
 Dependencies:
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T10.G6.02: Filter table rows based on a condition
+
 * T21.G8.02: Implement an approval pipeline for AI assets
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.05
@@ -18530,13 +18551,14 @@ Description: Students create an interactive chatbot that maintains conversation 
 CSTA: 3B-AP-16
 
 Dependencies:
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.08: Manage multiple ChatGPT conversation threads
+* T03.G6.01: Propose modules for a medium project
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.07
@@ -18546,11 +18568,12 @@ Description: Students build a fact-checking assistant that uses the `web search 
 CSTA: 3B-DA-07 (Evaluate the ability of models to predict real-world outcomes)
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
+* T21.G6.08: Use ChatGPT to generate story text or dialogue
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 * T10.G6.02: Filter table rows based on a condition
-* T21.G6.08: Use ChatGPT to generate story text or dialogue
 
 
 ID: T21.G8.08
@@ -18575,13 +18598,14 @@ Description: Students create a fitness application that tracks exercises using 2
 CSTA: 3B-AP-16
 
 Dependencies:
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.10: Build a pose-based interactive game
+* T02.G6.01: Learn the pseudocode generation block
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.10
@@ -18591,13 +18615,14 @@ Description: Students create and train a neural network to recognize handwritten
 CSTA: 3B-AP-16
 
 Dependencies:
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
+* T21.G7.14: Save and load trained neural network models
+* T07.G6.01: Trace nested loops with variable bounds
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 * T13.G6.01: Trace complex code with multiple variables
-* T21.G7.14: Save and load trained neural network models
 
 
 ID: T21.G8.11
@@ -18607,13 +18632,14 @@ Description: Students create a neural network to classify patterns or categories
 CSTA: 3B-AP-16
 
 Dependencies:
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T10.G6.02: Filter table rows based on a condition
+
 * T21.G7.13b: Train a neural network and observe learning
+* T03.G6.01: Propose modules for a medium project
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.12
@@ -18623,12 +18649,13 @@ Description: Students learn to measure neural network performance using metrics 
 CSTA: 3B-DA-07
 
 Dependencies:
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
+* T21.G8.10: Build a neural network for number recognition
 * T02.G6.01: Learn the pseudocode generation block
 * T03.G6.01: Propose modules for a medium project
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T21.G8.10: Build a neural network for number recognition
 
 
 ID: T21.G8.13
@@ -18638,12 +18665,13 @@ Description: Students build a real-time classification system using KNN. They us
 CSTA: 3B-AP-16
 
 Dependencies:
+* T08.G6.01: Use conditionals to control simulation steps
+* T10.G6.01: Sort a table by a column
+
+* T21.G7.16: Create a KNN classifier from training data
 * T02.G6.01: Learn the pseudocode generation block
 * T03.G6.01: Propose modules for a medium project
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T08.G6.01: Use conditionals to control simulation steps
-* T10.G6.01: Sort a table by a column
-* T21.G7.16: Create a KNN classifier from training data
 
 
 ID: T21.G8.14
@@ -18653,11 +18681,12 @@ Description: Students use the `create semantic database from table [TABLE v]` bl
 CSTA: 3B-DA-05 (Use data analysis tools to identify significant patterns in data)
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
+* T21.G6.08: Use ChatGPT to generate story text or dialogue
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T21.G6.08: Use ChatGPT to generate story text or dialogue
 
 
 ID: T21.G8.15
@@ -18667,11 +18696,12 @@ Description: Students use `search semantic database with [QUERY] store top (K) i
 CSTA: 3B-DA-05
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
+* T21.G8.14: Create a semantic search database
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 * T10.G6.02: Filter table rows based on a condition
-* T21.G8.14: Create a semantic search database
 
 
 ID: T21.G8.16
@@ -18711,9 +18741,10 @@ Description: Students use the `web search [QUERY] store top (K) in table [TABLE 
 CSTA: 3B-DA-05
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 * T10.G6.02: Filter table rows based on a condition
 
 
@@ -18726,14 +18757,15 @@ CSTA: 3B-AP-16
 Implementation Guidance: Start with simple queries (factual questions with clear answers) before progressing to complex research questions requiring synthesis across multiple sources.
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+
 * T21.G8.07: Combine ChatGPT with web search for fact-checking
 * T21.G8.17: Use web search to gather information
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T21.G8.19
@@ -18743,9 +18775,10 @@ Description: Students learn that ChatGPT and other LLMs can "hallucinate" by con
 CSTA: 3B-IC-27
 
 Dependencies:
+* T21.G8.07: Combine ChatGPT with web search for fact-checking
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T10.G6.01: Sort a table by a column
-* T21.G8.07: Combine ChatGPT with web search for fact-checking
+
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
@@ -18756,11 +18789,12 @@ Description: Students learn how malicious users try to manipulate AI systems thr
 CSTA: 3B-IC-27
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 * T21.G6.06: Check user input with AI content moderation
 * T21.G8.06: Build a multi-turn ChatGPT conversation system
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T10.G6.01: Sort a table by a column
+
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.21

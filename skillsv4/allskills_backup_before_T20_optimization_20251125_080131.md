@@ -16515,7 +16515,7 @@ Dependencies:
 ID: T20.GK.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Picture pattern detective
-Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row "repeat" using everyday words.
+Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row “repeat” using everyday words.
 
 Dependencies:
 * T04.GK.01: Identify a simple repeating pattern
@@ -16556,30 +16556,22 @@ Dependencies:
 
 
 
-## GRADE 1 SKILLS (Verbal Pattern Description)
-
-
-
 ID: T20.G1.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Describe the art rule in words
-Description: Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language ("two tiny, one big").
+Description: Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language (“two tiny, one big”).
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
-
-
 ID: T20.G1.02
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Match directions to drawings
-Description: Learners match a simple written/audio direction set ("draw a blue square, then add three yellow dots under it") to the drawing it would produce.
+Description: Learners match a simple written/audio direction set (“draw a blue square, then add three yellow dots under it”) to the drawing it would produce.
 
 Dependencies:
 * T03.GK.02: Match parts to whole objects
-
-
 
 
 ID: T20.G1.03
@@ -16591,8 +16583,6 @@ Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
-
-
 ID: T20.G1.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Fix a wrong instruction (text-based)
@@ -16602,21 +16592,13 @@ Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
-
-
-## GRADE 2 SKILLS (Repeat Concepts & Layering)
-
-
-
 ID: T20.G2.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Use repeat cards in an art recipe
-Description: Students compare two instruction sets for the same border: one long ("red square, red square, red square…") and one that uses a repeat card ("repeat red square 4 times"). They choose the concise, accurate version.
+Description: Students compare two instruction sets for the same border: one long (“red square, red square, red square…”) and one that uses a repeat card (“repeat red square 4 times”). They choose the concise, accurate version.
 
 Dependencies:
 * T01.G1.04: Predict the next step in a story sequence
-
-
 
 
 ID: T20.G2.02
@@ -16625,9 +16607,8 @@ Skill: Plan mirrored mosaics
 Description: Learners arrange tiles on one side of a line and then plan what tiles should appear on the other side so the design is symmetrical.
 
 Dependencies:
+* T05.G1.01: Identify what a character needs in a story
 * T01.G1.04: Predict the next step in a story sequence
-
-
 
 
 ID: T20.G2.03
@@ -16640,21 +16621,14 @@ Dependencies:
 * T01.G2.02: Use "repeat" to make directions shorter
 
 
-
-
 ID: T20.G2.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Explain how a change affects the art
 Description: Students consider "what-if" prompts (e.g., "What happens if the second color changes from blue to green?") and explain how the final pattern would change.
 
 Dependencies:
+* T01.G1.04: Predict the next step in a story sequence
 * T20.G2.03: Build layered pattern recipes
-
-
-
-
-## GRADE 3 SKILLS (Introduction to Block Coding)
-
 
 
 ID: T20.G3.01
@@ -16667,919 +16641,678 @@ Dependencies:
 * T20.G2.01: Use repeat cards in an art recipe
 
 
-
-
-ID: T20.G3.02
+ID: T20.G3.01.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Understand CreatiCode's two drawing systems
-Description: Students learn that CreatiCode has two ways to draw: (1) Looks blocks (draw rectangle/oval/line on costume in vector mode) and (2) Pen blocks (pen up/down to draw trails as sprite moves). They understand that stamps don't exist—each shape must be drawn fresh using these blocks. They see examples of when to use each system.
+Skill: Explain CreatiCode drawing model
+Description: Students learn that CreatiCode uses two drawing approaches: Looks category blocks (draw rectangle, draw oval) that draw at sprite position, and Pen category blocks for trails. They understand no stamp block exists - each shape is drawn fresh at current position.
 
 Dependencies:
 * T20.G3.01: Translate art recipe cards into blocks
 
 
+ID: T20.G3.01.02
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
+Description: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
+
+Dependencies:
+* T20.G3.01.01: Explain CreatiCode drawing model
+
+
+ID: T20.G3.02
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Program a repeating border with loops
+Description: Students write a drawing program that repeats a sequence using a `repeat` block. They use CreatiCode's draw blocks (draw rectangle at current position, draw oval at current position) combined with motion blocks (move right, move down) to create border patterns. They see how loops reduce repetitive code.
+
+Dependencies:
+* T20.G3.01.02: Use the basic pen blocks to draw lines by moving the sprite (pen down, pen up, set pen color, set pen size)
 
 
 ID: T20.G3.03
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Use pen down to start drawing trails
-Description: Students use the "pen down" block to make sprites leave a trail as they move. They understand that pen down turns on the trail and pen up turns it off. They create simple line drawings by moving sprites with pen down.
-
-Dependencies:
-* T20.G3.02: Understand CreatiCode's two drawing systems
-
-
-
-
-ID: T20.G3.04
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Use pen up to stop drawing trails
-Description: Students use the "pen up" block to stop the trail when they want to move without drawing. They practice alternating pen down (drawing) and pen up (repositioning) to create patterns with gaps.
-
-Dependencies:
-* T20.G3.03: Use pen down to start drawing trails
-
-
-
-
-ID: T20.G3.05
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Set pen color using color values
-Description: Students use the "set pen color" block with hex color values (#RRGGBBAA format) to change trail colors. They experiment with different colors and see how the trail color changes immediately after this block.
-
-Dependencies:
-* T20.G3.04: Use pen up to stop drawing trails
-
-
-
-
-ID: T20.G3.06
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Set pen size to control trail width
-Description: Students use the "set pen size" block to make trails thicker or thinner. They experiment with different pen sizes (e.g., 1, 5, 10) and observe how this affects the visual weight of their drawings.
-
-Dependencies:
-* T20.G3.05: Set pen color using color values
-
-
-
-
-ID: T20.G3.07
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Draw rectangles at sprite position
-Description: Students use the "draw rectangle" block from the Looks category to draw rectangles centered at the sprite's current position. They understand that each block call draws a new rectangle and that the sprite doesn't need pen down for this. They control width and height parameters.
-
-Dependencies:
-* T20.G3.02: Understand CreatiCode's two drawing systems
-
-
-
-
-ID: T20.G3.08
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Draw ovals at sprite position
-Description: Students use the "draw oval" block from the Looks category to draw ovals/circles centered at the sprite's current position. They control width and height parameters to create circles (equal dimensions) or stretched ovals.
-
-Dependencies:
-* T20.G3.07: Draw rectangles at sprite position
-
-
-
-
-ID: T20.G3.09
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Program a repeating border with loops
-Description: Students write a drawing program that repeats a sequence using a `repeat` block. They combine draw blocks (draw rectangle or draw oval) with motion blocks (move right, move down) to create border patterns. They see how loops reduce repetitive code.
-
-Dependencies:
-* T20.G3.08: Draw ovals at sprite position
-* T07.G3.01: Use a counted repeat loop
-
-
-
-
-ID: T20.G3.10
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Trace a drawing loop and predict output
 Description: Students read a short script using draw blocks in a loop (e.g., loop drawing rectangles with move blocks) and predict how many shapes or what final layout appears. This tracing skill builds understanding before tackling nested loops.
 
 Dependencies:
-* T20.G3.09: Program a repeating border with loops
+* T20.G3.02: Program a repeating border with loops
+* T07.G3.01: Use a counted repeat loop
 
 
-
-
-ID: T20.G3.11
+ID: T20.G3.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Tile a grid with nested loops
-Description: Learners combine two loops—one for columns, one for rows—to fill a small grid with a pattern tile. This is the first double-loop exposure in an art context. They use go to x: y: blocks to position before drawing each tile.
+Description: Learners combine two loops—one for columns, one for rows—to fill a small grid with a pattern tile. This is the first double-loop exposure in an art context.
 
 Dependencies:
-* T20.G3.10: Trace a drawing loop and predict output
+* T20.G3.03: Trace a drawing loop and predict output
+* T07.G3.01: Use a counted repeat loop
 
 
-
-
-ID: T20.G3.12
+ID: T20.G3.05
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Add simple randomness for variety
-Description: Students extend a loop-based drawing by adding `pick random` for shape colors, sizes, or x/y position variations. They add randomness to one property at a time (e.g., color) to see how it creates visual variety while maintaining pattern structure.
+Description: Students extend a loop-based drawing by adding `pick random` for shape colors, sizes, or x/y position variations (e.g., `draw oval at x ((x position) + (pick random (-10) to (10)))` to add randomness to patterns.
 
 Dependencies:
-* T20.G3.11: Tile a grid with nested loops
+* T20.G3.04: Tile a grid with nested loops
+* T09.G3.02: Use a variable in a conditional (if block)
+* T07.G3.03: Build a forever loop for simple animation
 
 
-
-
-ID: T20.G3.13
+ID: T20.G3.05.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Use variables to change pattern size
 Description: Students create a variable for size or spacing and use it in their draw blocks to control pattern dimensions. They experiment with different values to see how one variable changes the entire design, preparing for variable incrementation in loops.
 
 Dependencies:
-* T20.G3.12: Add simple randomness for variety
+* T20.G3.05: Add simple randomness for variety
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-
-
-## GRADE 4 SKILLS (Incremental Patterns & Interactivity)
-
 
 
 ID: T20.G4.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement incremental loops for spirals
-Description: Students write a loop that increases a variable (distance or angle) each iteration to create spiral patterns. They use `go to x: () y: ()` blocks with calculated positions and draw blocks (draw oval, draw rectangle) to place shapes along the spiral path. They focus on incrementing variables with the "change" block and mathematical position calculations using operators.
+Skill: **[Technical Skill]** Implement incremental loops for spirals
+Description: Students write a loop that increases a variable (distance or angle) each iteration to create spiral patterns. They use `go to x: () y: ()` blocks with calculated positions and draw blocks (draw oval, draw rectangle) to place shapes along the spiral path. They focus on incrementing variables and mathematical position calculations.
 
 Dependencies:
-* T20.G3.13: Use variables to change pattern size
-* T09.G3.02: Use change block to increase a variable
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-
-
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T20.G3.05.01: Use variables to change pattern size
 
 
 ID: T20.G4.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Define a custom block for a tile pattern
-Description: Students create a custom block (no parameters yet) that draws a geometric tile pattern using draw blocks (draw rectangle, draw oval). They understand that the custom block encapsulates the drawing sequence and can be called multiple times.
+Skill: **[Technical Skill]** Implement tessellation with custom blocks
+Description: Students create a custom block that draws a geometric tile pattern using draw blocks (draw rectangle, draw oval), then use nested loops to repeat it across the stage. They focus on modular code structure and coordinate calculations.
 
 Dependencies:
-* T20.G3.09: Program a repeating border with loops
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T03.G2.01: Choose subtasks for a simple project idea
+* T03.G2.02: Group subtasks by type
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.01: Use a counted repeat loop
+* T07.G3.05: Fix a simple repeat loop count
 * T11.G4.01: Define and call a simple custom block (no parameters)
-
-
+* T20.G3.05: Add simple randomness for variety
 
 
 ID: T20.G4.03
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Call custom tile block in nested loops
-Description: Students use nested loops to call their custom tile block across the stage, creating tessellation patterns. They combine modular code structure (custom block) with iteration (nested loops) and coordinate calculations (positioning before each call).
+Skill: Control art with parameters
+Description: Students expose variables (e.g., sides, size, rotation) through sliders or input prompts and show how changing a value reshapes the art.
 
 Dependencies:
-* T20.G4.02: Define a custom block for a tile pattern
-* T20.G3.11: Tile a grid with nested loops
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.05: Fix a simple repeat loop count
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.02: Use change block to increase a variable
+* T20.G4.01: **[Technical Skill]** Implement incremental loops for spirals
 
 
+ID: T20.G4.03.01
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Create smooth animations in drawings by using small movements in loops
+Description: Create smooth animations in drawings by using small movements in loops
+
+Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T03.G4.03: Assign project tasks to team roles
+* T20.G4.03: Control art with parameters
+
+
+ID: T20.G4.03.02
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Design and apply color palettes by creating lists of colors for artistic projects
+Description: Design and apply color palettes by creating lists of colors for artistic projects
+
+Dependencies:
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T20.G4.03: Control art with parameters
 
 
 ID: T20.G4.04
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Control art with parameter variables
-Description: Students expose variables (e.g., sides, size, rotation) through sliders or input prompts and show how changing a value reshapes the art. They use the variable monitor or "ask and wait" to get user input, then use those values throughout their drawing code.
+Skill: Debug a multi-loop art script
+Description: Students receive a script whose nested loops miscount, overlap, or use the wrong color. They identify the issue and adjust counts, moves, or color changes.
 
 Dependencies:
-* T20.G4.01: Implement incremental loops for spirals
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
+* T20.G3.05: Add simple randomness for variety
 
 
 ID: T20.G4.05
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create smooth animations with small movements
-Description: Students create animated drawings by using small movements in forever loops with wait blocks. They understand that small increments create smooth motion. They animate simple properties like position, rotation, or size changes over time.
+Skill: Recolor art with simple input events
+Description: Learners add a button or key event that recolors or re-draws the art tile with a different palette, introducing light interactivity before full animations.
 
 Dependencies:
-* T20.G4.04: Control art with parameter variables
-* T07.G3.03: Build a forever loop for simple animation
-
-
-
-
-ID: T20.G4.06
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create a color palette list
-Description: Students create a list containing 3-5 hex color values (#RRGGBBAA format) representing their color palette. They understand that lists can store color values just like numbers or text. They manually add colors to the list.
-
-Dependencies:
-* T20.G3.05: Set pen color using color values
-* T10.G4.01: Create a list and add items through code
-
-
-
-
-ID: T20.G4.07
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply colors from a palette list in loops
-Description: Students iterate through their color palette list in a loop, using each color for different shapes in their pattern. They use "item # of list" to access colors and apply them to their drawing blocks, creating cohesive color schemes in their algorithmic art.
-
-Dependencies:
-* T20.G4.06: Create a color palette list
-* T10.G4.02: Use a loop to iterate through a list
-
-
-
-
-ID: T20.G4.08
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Debug a multi-loop art script
-Description: Students receive a script whose nested loops miscount, overlap, or use the wrong color. They identify the issue by tracing loop iterations and adjust counts, moves, or color changes. They verify their fix produces the intended visual output.
-
-Dependencies:
-* T20.G3.11: Tile a grid with nested loops
-* T08.G3.01: Use a simple if in a script
-
-
-
-
-ID: T20.G4.09
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Recolor art with button clicks
-Description: Learners add a button event (when sprite clicked) that recolors the art with a different palette. They introduce light interactivity by changing color variables or cycling through a color list when the user clicks.
-
-Dependencies:
-* T20.G4.07: Apply colors from a palette list in loops
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.05: Fix a simple repeat loop count
+* T08.G3.01: Use a simple if in a script
+* T20.G3.05: Add simple randomness for variety
 
 
-
-
-ID: T20.G4.10
+ID: T20.G4.05.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Redraw art with key events
-Description: Students add keyboard event handlers (when key pressed) that clear and re-draw the art tile with modified parameters. This introduces full interactivity where different keys create different variations of the same algorithmic pattern.
+Skill: Map list values to drawing positions
+Description: Students create a simple list of 3-5 numbers and use each value to control drawing positions (e.g., x-coordinates or heights). They practice the basic concept of reading data from a list and using it to create visual output, preparing for full data visualization.
 
 Dependencies:
-* T20.G4.09: Recolor art with button clicks
-* T06.G3.02: Use key‑press events
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T05.G3.01: Put human‑centered design steps in order
+* T05.G3.02: Identify user needs from a short interview transcript
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T10.G4.01: Find an item's position in a list (linear search)
+* T10.G4.02: Store and retrieve parallel list data
+* T20.G4.01: **[Technical Skill]** Implement incremental loops for spirals
 
 
-
-
-ID: T20.G4.11
+ID: T20.G4.05.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Map small data lists to drawing positions
-Description: Students create a simple list of 3-5 numbers and use each value to control drawing positions (e.g., x-coordinates or heights). They practice the basic concept of reading data from a list and using it in go to or draw blocks to create visual output, preparing for full data visualization.
+Skill: Use color reporter for dynamic palettes
+Description: Students use the color reporter block to generate colors dynamically using HSV values (color/hue 0-100, saturation 0-100, brightness 0-100). They create color gradients and palettes by varying these parameters in loops.
 
 Dependencies:
-* T20.G4.07: Apply colors from a palette list in loops
-* T10.G4.02: Use a loop to iterate through a list
-
-
-
-
-ID: T20.G4.12
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Generate colors using HSV values
-Description: Students use the color reporter block with HSV parameters (hue 0-100, saturation 0-100, brightness 0-100) to create colors programmatically. They understand that varying these parameters in loops creates gradients and dynamic palettes, going beyond fixed hex colors.
-
-Dependencies:
-* T20.G4.06: Create a color palette list
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-
-
-
-
-## GRADE 5 SKILLS (Data Visualization & 3D Introduction)
-
+* T20.G4.05.01: Map list values to drawing positions
 
 
 ID: T20.G5.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement bar chart visualization from list
-Description: Students read values from a single list of numbers and implement algorithms to map data to visual properties. They iterate through the list, drawing rectangles with heights proportional to each data value. They focus on translating data values to coordinates and dimensions, creating a simple bar chart visualization.
+Skill: **[Technical Skill]** Implement simple data-driven visualization
+Description: Students read values from a single list of numbers and implement algorithms to map data to basic visual properties using draw blocks. They choose appropriate drawing blocks for their visualization type: draw rectangle for bar charts (heights) or draw oval for scatter plots (dot positions). They focus on iterating through one-dimensional data and translating values to coordinates.
 
 Dependencies:
-* T20.G4.11: Map small data lists to drawing positions
+* T07.G3.05: Fix a simple repeat loop count
+* T10.G4.01: Create a list and add items through code
 * T10.G4.02: Use a loop to iterate through a list
+* T20.G4.05.01: Map list values to drawing positions
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
+ID: T20.G5.01.01
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Map data to two visual properties
+Description: Students extend single-list visualization by using data to control TWO visual properties simultaneously (e.g., list values control both height and color of rectangles, or both x-position and size of circles). They use simple parallel lists or calculate secondary properties from primary data.
+
+Dependencies:
+* T20.G5.01: Implement simple data-driven visualization
+* T10.G5.01: Use nested lists to represent structured data
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T20.G5.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Map data to two visual properties
-Description: Students extend single-list visualization by using data to control TWO visual properties simultaneously (e.g., list values control both height and color of rectangles, or both x-position and size of circles). They use simple calculations or parallel lists to derive the second property from data.
+Skill: Animate a pattern with a counter variable
+Description: Students use a forever loop plus a counter variable to gradually grow, rotate, or fade a pattern.
 
 Dependencies:
-* T20.G5.01: Implement bar chart visualization from list
-* T10.G5.01: Use nested lists to represent structured data
-
-
+* T07.G3.05: Fix a simple repeat loop count
+* T20.G4.01: Implement incremental loops for spirals
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G5.03
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Animate a pattern with a counter variable
-Description: Students use a forever loop plus a counter variable to gradually grow, rotate, or fade a pattern. They increment the counter each frame and use it to modify drawing parameters, creating animated generative art that evolves over time.
+Skill: Make art respond to mouse or keys
+Description: Students add event handlers so art changes when the cursor moves, the mouse clicks, or keys are pressed.
 
 Dependencies:
-* T20.G4.05: Create smooth animations with small movements
-* T09.G3.02: Use change block to increase a variable
-
-
+* T07.G3.05: Fix a simple repeat loop count
+* T20.G4.05: Recolor art with simple input events
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G5.04
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Make art respond to mouse position
-Description: Students use mouse x and mouse y reporter blocks to make art change based on cursor position. They map mouse coordinates to drawing parameters (colors, sizes, positions) so the artwork responds dynamically as the user moves the mouse.
+Skill: Create fractal-like nested patterns
+Description: Students draw a pattern, then nest smaller versions inside or around it using loops/custom blocks, mimicking fractal depth without formal recursion.
 
 Dependencies:
-* T20.G4.10: Redraw art with key events
-* T06.G3.03: Use mouse position in scripts
+* T07.G3.05
+* T20.G4.02
+* T10.G3.05
+* T10.G4.18
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
-
-
-ID: T20.G5.05
+ID: T20.G5.04.00
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Make art respond to keyboard input
-Description: Students add key-sensing blocks to continuously check which keys are pressed and modify art parameters accordingly. Unlike discrete key events, this creates continuous interactive control where holding keys affects the art in real-time.
+Skill: Initialize 3D scenes
+Description: Students learn to initialize a 3D scene using the `initialize 3D world` block and understand the 3D coordinate system. They explore how 3D positioning differs from 2D, learning about x (width), y (height), and z (depth) axes and how to navigate the 3D space.
 
 Dependencies:
-* T20.G5.04: Make art respond to mouse position
-
-
+* T20.G4.01
+* T20.G5.02
+* T10.G3.05
+* T10.G4.18
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 ID: T20.G5.06
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create fractal-like nested patterns
-Description: Students draw a pattern, then nest smaller versions inside or around it using loops and custom blocks, mimicking fractal depth. They use size variables that decrease with each nesting level, creating recursive-looking patterns using iteration (not actual recursion).
+Skill: Add box shapes to 3D scenes
+Description: Students use the `add box` block to place box shapes in the 3D scene. They learn to adjust width, height, and depth parameters and practice positioning boxes at different x, y, and z coordinates to create structures like platforms, walls, or buildings.
 
 Dependencies:
-* T20.G4.03: Call custom tile block in nested loops
-* T11.G4.02: Add parameters to custom blocks
-
-
+* T20.G5.04.00: Initialize 3D scenes
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G5.07
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Initialize a 3D scene for algorithmic art
-Description: Students use the `initialize 3D world` block to set up a 3D environment. They understand the 3D coordinate system: x (left-right), y (up-down), z (forward-back). They learn how to position the camera to view their 3D art. They understand that 3D art uses depth as an additional creative dimension.
+Skill: Add sphere shapes to 3D scenes
+Description: Students use the `add sphere` block to place spherical shapes in the 3D scene. They learn to adjust diameter and segment parameters for smoothness and practice positioning spheres to create objects like balls, planets, or decorative elements.
 
 Dependencies:
-* T20.G4.01: Implement incremental loops for spirals
+* T20.G5.06: Add box shapes to 3D scenes
+* T07.G3.01: Use a counted repeat loop
 * T09.G3.01.01: Create a new variable with a descriptive name
-
-
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G5.08
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Add box shapes algorithmically in loops
-Description: Students use the `add box` block inside loops to create patterns with boxes in 3D space. They calculate positions using loop variables and place multiple boxes at different coordinates. They control width, height, and depth to create varied structures. They focus on algorithmic placement, not manual positioning.
+Skill: Add cylinder shapes to 3D scenes
+Description: Students use the `add cylinder` block to place cylindrical shapes in the 3D scene. They learn to adjust height and diameter parameters and practice positioning cylinders to create objects like pillars, posts, or tubes.
 
 Dependencies:
-* T20.G5.07: Initialize a 3D scene for algorithmic art
+* T20.G5.07: Add sphere shapes to 3D scenes
 * T07.G3.01: Use a counted repeat loop
-
-
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G5.09
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Add sphere shapes algorithmically in loops
-Description: Students use the `add sphere` block inside loops to create patterns with spheres in 3D space. They calculate positions using loop variables and mathematical formulas. They control diameter and segments parameters to balance smoothness with performance. They combine spheres with boxes to create varied 3D compositions.
+Skill: Create patterns with 3D shapes
+Description: Students combine box, sphere, and cylinder shapes to create simple 3D patterns and structures. They use multiple shape types together and explore basic composition principles in 3D space, building simple scenes with varied geometric forms.
 
 Dependencies:
-* T20.G5.08: Add box shapes algorithmically in loops
-
-
+* T20.G5.08: Add cylinder shapes to 3D scenes
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G5.10
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Add cylinder shapes algorithmically in loops
-Description: Students use the `add cylinder` block inside loops to create patterns with cylinders in 3D space. They calculate positions and use rotation to orient cylinders in different directions. They control height and diameter parameters. They understand how cylinders can create posts, pillars, or tubes in their 3D algorithmic art.
+Skill: Create simple 3D artistic patterns
+Description: Students explore CreatiCode's 3D capabilities by creating basic 3D shapes (spheres, boxes, cylinders) in loops to form artistic patterns. They use positioning and simple transformations to arrange 3D objects, introducing the third dimension to algorithmic art.
 
 Dependencies:
-* T20.G5.09: Add sphere shapes algorithmically in loops
+* T20.G5.09: Create patterns with 3D shapes
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
-
-
-ID: T20.G5.11
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create 3D geometric patterns with multiple shapes
-Description: Students combine boxes, spheres, and cylinders in algorithmic patterns using loops and mathematical formulas. They create 3D structures where shape type varies based on loop conditions (e.g., every 3rd position uses sphere instead of box). They focus on composition and spatial arrangement in three dimensions.
-
-Dependencies:
-* T20.G5.10: Add cylinder shapes algorithmically in loops
-* T08.G3.01: Use a simple if in a script
-
-
-
-
-ID: T20.G5.12
+ID: T20.G5.05
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Explain data-to-visual design choices
-Description: Learners justify why certain colors, sizes, or motions represent data categories in their visualizations. They explain the reasoning behind their visual encoding choices (e.g., "I used red for high values because red signals intensity" or "I used position for time because it shows progression"). This reinforces the data-art connection.
+Description: Learners justify why certain colors, sizes, or motions represent data categories, reinforcing the data-art connection.
 
 Dependencies:
-* T20.G5.02: Map data to two visual properties
-
-
-
-
-## GRADE 6 SKILLS (Advanced Patterns & 3D Art)
-
+* T07.G3.05: Fix a simple repeat loop count
+* T20.G5.01: Implement simple data-driven visualization
+* T09.G3.01.01: Create a new variable with a descriptive name
+* T10.G3.01.01: Create a new list variable
 
 
 ID: T20.G6.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Trace and explain an art algorithm
-Description: Students examine code with comments and section markers containing nested loops, variables, and color changes. They explain what each section (identified by comments) contributes to the final artwork. They trace variable values through iterations and explain how loops, conditionals, and calculations combine to create the visual result.
+Description: Students examine code with comments and section markers containing nested loops, variables, and color changes. They explain what each section (identified by comments) contributes to the final artwork, demonstrating code comprehension.
 
 Dependencies:
-* T20.G5.06: Create fractal-like nested patterns
+* T05.G5.01: Write clear user needs and requirements for a small app
 * T07.G5.01: Use a counted repeat loop
-
-
+* T09.G5.01: Model a character trait or game stat with a variable
+* T20.G5.04: Create fractal-like nested patterns
 
 
 ID: T20.G6.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Refactor repetitive art into loops
-Description: Learners take a long, repetitive art script (many similar blocks with slightly different values) and reorganize it using loops with incrementing variables. They maintain the same visual result while dramatically reducing code length. They demonstrate understanding of loop mechanics and abstraction.
+Skill: Refactor repetitive art into loops/custom blocks
+Description: Learners take a long, repetitive art script and reorganize it with loops or custom blocks without changing the visual result.
 
 Dependencies:
-* T20.G6.01: Trace and explain an art algorithm
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T07.G5.01: Use a counted repeat loop
 * T11.G5.01: Identify repeated code that could become a custom block
-
-
+* T20.G5.04: Create fractal-like nested patterns
 
 
 ID: T20.G6.03
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Refactor repetitive art into custom blocks
-Description: Students identify repeated drawing sequences and extract them into parameterized custom blocks. They replace multiple similar code sections with custom block calls that use different parameter values. They demonstrate understanding of abstraction and code modularity.
+Skill: Use variables and conditionals to branch designs
+Description: Students create art where colors/shapes change based on variable thresholds (e.g., alternate palette when index is even, draw special motif every 5th loop).
 
 Dependencies:
-* T20.G6.02: Refactor repetitive art into loops
-* T11.G5.02: Use parameters in custom blocks
-
-
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T07.G5.01: Use a counted repeat loop
+* T08.G5.01: Use a simple if in a script
+* T09.G5.01: Model a character trait or game stat with a variable
+* T20.G5.02: Animate a pattern with a counter variable
 
 
 ID: T20.G6.04
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Use variables and conditionals to branch designs
-Description: Students create art where colors/shapes change based on variable thresholds. They use conditionals to alternate palettes when a counter is even, draw special motifs every 5th loop iteration, or change patterns based on position ranges. They combine variables, conditionals, and drawing to create complex rule-based art.
+Skill: **[Technical Skill]** Implement multi-field data visualization
+Description: Students implement algorithms to process structured data (nested lists or multiple parallel lists representing objects with multiple attributes) and map different data fields to distinct visual properties using draw blocks. For example, they draw rectangles where x-position comes from one list, height from another, and color is determined by a third field value. They use iteration and conditional logic to process 2-3 data attributes.
 
 Dependencies:
-* T20.G5.03: Animate a pattern with a counter variable
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T07.G5.01: Use a counted repeat loop
 * T08.G5.01: Use a simple if in a script
-
-
+* T10.G5.01: Use nested lists to represent structured data
+* T20.G5.01: Implement simple data-driven visualization
 
 
 ID: T20.G6.05
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement multi-field data visualization
-Description: Students implement algorithms to process structured data (nested lists representing objects with multiple attributes) and map different data fields to distinct visual properties. They draw shapes where x-position comes from one field, height from another, and color is determined by a third field value. They use iteration and conditional logic to process 2-3 data attributes simultaneously.
+Skill: Apply math transformations to art
+Description: Learners use formulas (e.g., sine/cosine, coordinate rotation) to produce smoother curves or waves and explain the relationship between the formula and resulting pattern.
 
 Dependencies:
-* T20.G5.02: Map data to two visual properties
-* T10.G5.01: Use nested lists to represent structured data
-
-
-
-
-ID: T20.G6.06
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply sine functions to create wave patterns
-Description: Learners use sine functions (sine of loop counter) to produce smooth curves and waves in their art. They understand that sine values oscillate between -1 and 1, creating natural wave motion. They map sine outputs to positions, creating flowing patterns. They explain the relationship between the sine formula and resulting pattern.
-
-Dependencies:
-* T20.G5.06: Create fractal-like nested patterns
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T07.G5.01: Use a counted repeat loop
 * T09.G5.01: Model a character trait or game stat with a variable
+* T20.G5.04: Create fractal-like nested patterns
 
 
-
-
-ID: T20.G6.07
+ID: T20.G6.05.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply cosine functions to create circular patterns
-Description: Students use both sine and cosine functions together to calculate positions on circles and spirals. They understand that sine gives y-coordinate and cosine gives x-coordinate for circular motion. They create circular arrangements of shapes by calculating positions with (cos(angle), sin(angle)).
+Skill: Apply materials and textures to 3D art
+Description: Students explore CreatiCode's material system by applying colors, textures, metallic and roughness properties to 3D shapes. They create artistic effects by combining materials with 3D patterns, understanding how material properties affect visual appearance.
 
 Dependencies:
-* T20.G6.06: Apply sine functions to create wave patterns
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T20.G5.10: Create simple 3D artistic patterns
+* T20.G6.05: Apply math transformations to art
 
 
-
-
-ID: T20.G6.08
+ID: T20.G6.05.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply color materials to 3D shapes
-Description: Students use material blocks to set colors on 3D shapes with diffusion (matte) or emission (glowing) properties. They understand that materials determine how surfaces appear. They apply different colors to different shapes in their algorithmic 3D art, creating visual variety and emphasis.
+Skill: Create 3D curve and line art
+Description: Students create algorithmic art using 3D lines and curves in space. They generate point lists using loops and math formulas (sine/cosine for spirals, parametric equations for helixes), understanding how 2D math concepts extend to 3D space with z-coordinates. They store calculated x, y, z positions in lists, then use these point lists to create 3D curves and line sculptures, forming spirals, helixes, and abstract shapes in three dimensions.
 
 Dependencies:
-* T20.G5.11: Create 3D geometric patterns with multiple shapes
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T20.G5.10: Create simple 3D artistic patterns
+* T20.G6.05: Apply math transformations to art
 
 
-
-
-ID: T20.G6.09
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply texture materials to 3D shapes
-Description: Students apply texture materials from CreatiCode's texture library to 3D shapes. They understand that textures add surface detail without additional geometry. They experiment with different textures (wood, metal, stone, fabric) and see how textures change the artistic appearance of their 3D patterns.
-
-Dependencies:
-* T20.G6.08: Apply color materials to 3D shapes
-
-
-
-
-ID: T20.G6.10
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply roughness properties to 3D materials
-Description: Students adjust roughness properties (0 = shiny/reflective, 1 = matte/rough) to control surface appearance. They understand that roughness affects how light interacts with surfaces. They use varying roughness values in their algorithmic 3D art to create visual interest and material variety.
-
-Dependencies:
-* T20.G6.09: Apply texture materials to 3D shapes
-
-
-
-
-ID: T20.G6.11
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create 3D curves from calculated point lists
-Description: Students generate point lists using loops and math formulas (sine/cosine for spirals, parametric equations for helixes). They store calculated x, y, z positions in nested lists. They use these point lists with 3D curve blocks to create line sculptures in space. They understand how 2D math concepts extend to 3D with z-coordinates.
-
-Dependencies:
-* T20.G6.07: Apply cosine functions to create circular patterns
-* T10.G5.01: Use nested lists to represent structured data
-
-
-
-
-ID: T20.G6.12
+ID: T20.G6.05.03
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Create interactive 3D generative art
-Description: Students add interactivity to their 3D algorithmic art by mapping keyboard/mouse input to 3D transformations, camera angles, or generative parameters. They create art that viewers can explore and manipulate in real-time. They use key sensing or mouse position to control 3D art parameters dynamically.
+Description: Students add interactivity to their 3D algorithmic art by mapping keyboard/mouse input to 3D transformations, camera angles, or generative parameters. They create art that viewers can explore and manipulate in real-time.
 
 Dependencies:
-* T20.G5.05: Make art respond to keyboard input
-* T20.G5.11: Create 3D geometric patterns with multiple shapes
-
-
-
-
-## GRADE 7 SKILLS (Advanced Algorithms & Systems)
-
+* T05.G5.01: Write clear user needs and requirements for a small app
+* T20.G5.03: Make art respond to mouse or keys
+* T20.G5.10: Create simple 3D artistic patterns
 
 
 ID: T20.G7.01
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Compare efficiency of art algorithms
-Description: Students evaluate two code samples that draw the same design but with different performance characteristics. They identify which uses fewer operations, has better loop structure, or avoids redundant calculations. They choose the more efficient approach and justify why based on operation count or execution time.
+Description: Students evaluate two code samples that draw the same design but with different performance characteristics. They choose the more efficient approach and justify why.
 
 Dependencies:
-* T20.G6.01: Trace and explain an art algorithm
 * T07.G6.05: Fix a loop that runs too many or too few times
-
-
+* T08.G6.01: Use conditionals to control simulation steps
+* T20.G6.01: Trace and explain an art algorithm
 
 
 ID: T20.G7.02
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Use repeat-until loops in art algorithms
-Description: Learners replace fixed `repeat` blocks with `repeat until` loops so a drawing continues until reaching a boundary or meeting a condition. They use conditionals to determine when the pattern is complete (e.g., repeat until x position > 400, or repeat until color brightness < 10). This creates more flexible, adaptive art algorithms.
+Skill: Use while/repeat-until loops in art
+Description: Learners replace fixed `repeat` blocks with `repeat until` or `while` loops so a drawing continues until reaching a boundary or meeting a condition.
 
 Dependencies:
-* T20.G6.04: Use variables and conditionals to branch designs
+* T07.G6.05: Fix a loop that runs too many or too few times
 * T08.G6.01: Use conditionals to control simulation steps
-
-
+* T20.G6.02: Refactor repetitive art into loops/custom blocks
 
 
 ID: T20.G7.03
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Study parameter impact on aesthetics
-Description: Students create a parameterized art piece with exposed controls (sliders for randomness, angle change, speed). They systematically adjust each parameter one at a time and document in a table how each change affects specific aesthetic qualities (symmetry, balance, density, motion). They analyze which parameters have the strongest visual impact and explain why.
+Description: Students create a parameterized art piece with exposed controls (sliders or variables for randomness, angle change, speed). They systematically adjust each parameter one at a time and document in a table how each change affects specific aesthetic qualities (symmetry, balance, density, motion). They analyze which parameters have the strongest visual impact.
 
 Dependencies:
-* T20.G6.04: Use variables and conditionals to branch designs
+* T07.G6.05: Fix a loop that runs too many or too few times
 * T09.G6.01: Model real-world quantities using variables and formulas
-
-
+* T20.G6.03: Use variables and conditionals to branch designs
 
 
 ID: T20.G7.04
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Analyze real generative artworks
-Description: Students examine professional algorithmic art or natural patterns (examples: Vera Molnár, Manfred Mohr, fractal geometry in nature) and write pseudocode or create simplified CreatiCode implementations showing the loops, math formulas, and randomness that likely generated them. They explain their reasoning for each algorithmic choice and compare their implementation to the original.
+Description: Students examine professional algorithmic art or natural patterns and write pseudocode or create simplified CreatiCode implementations showing the loops, math formulas, and randomness that likely generated them. They explain their reasoning for each choice.
 
 Dependencies:
+* T07.G6.05: Fix a loop that runs too many or too few times
 * T20.G6.01: Trace and explain an art algorithm
-* T20.G6.07: Apply cosine functions to create circular patterns
+* T20.G6.05: Apply math transformations to art
+* T09.G5.01: Generative art analysis requires understanding how variables create variation.
 
 
+ID: T20.G7.04.00
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Understand particle system basics
+Description: Students learn particle system concepts by creating simple stationary particle effects with basic properties (color, lifetime, size). They understand how particles are generated, how they behave over time, and how to configure basic emitter properties.
+
+Dependencies:
+* T20.G6.03: Use variables and conditionals to branch designs
+* T20.G7.03: Study parameter impact on aesthetics
+
+
+ID: T20.G7.04.01
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Create particle-based generative art
+Description: Students create standalone particle-based algorithmic art by configuring particle emitters with color gradients, size changes over lifetime, and movement patterns. They use particle systems to create effects like flowing streams, energy fields, or abstract motion art without requiring 3D objects.
+
+Dependencies:
+* T20.G7.04.00: Understand particle system basics
 
 
 ID: T20.G7.05
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Understand particle emitter properties
-Description: Students learn particle system concepts by creating simple stationary particle effects. They understand particle properties: color, lifetime, size, speed, emission rate. They configure basic emitter properties and observe how changes affect the visual result. They understand that particles are temporary visual elements generated continuously.
+Skill: Generate fractal patterns using L-system rules (e.g., Koch curve variations, fractal trees with branching angles)
+Description: Generate fractal patterns using L-system rules (e.g., Koch curve variations, fractal trees with branching angles)
 
 Dependencies:
-* T20.G6.04: Use variables and conditionals to branch designs
+* T20.G6.05: Apply math transformations to art
+* T03.G7.02: Apply computational thinking to arts (visual, performing, media)
 
 
+ID: T20.G7.05.01
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Implement cellular automata for pattern generation (e.g., simple growth rules, elementary automata)
+Description: Implement cellular automata for pattern generation (e.g., simple growth rules, elementary automata)
+
+Dependencies:
+* T20.G7.05: Generate fractal patterns using L-system rules (e.g., Koch curve variations, fractal trees with branching angles)
+* T03.G7.03: Apply computational thinking to engineering
+
+
+ID: T20.G7.05.02
+Topic: T20 – Algorithmic Art & Creative Coding
+Skill: Create generative art systems that combine L-systems and cellular automata with random variations
+Description: Create generative art systems that combine L-systems and cellular automata with random variations
+
+Dependencies:
+* T20.G7.05.01: Implement cellular automata for pattern generation (e.g., simple growth rules, elementary automata)
+* T20.G7.04: Analyze real generative artworks
 
 
 ID: T20.G7.06
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Configure particle color gradients
-Description: Students create particle emitters with color gradients that change over particle lifetime. They set start color and end color, creating effects like fire (yellow to red to black) or magic (blue to purple to transparent). They understand how color transitions create dynamic visual effects.
+Skill: Create 3D generative sculptures with particle effects
+Description: Students combine 3D shape creation with mathematical transformations and particle systems to create dynamic 3D sculptures. They use formulas to control 3D positions, rotations, and particle emission patterns, exploring how algorithmic art extends into three dimensions.
 
 Dependencies:
-* T20.G7.05: Understand particle emitter properties
-
-
+* T20.G5.10: Create simple 3D artistic patterns
+* T20.G6.05: Apply math transformations to art
+* T20.G7.04.01: Create particle-based generative art
 
 
 ID: T20.G7.07
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Configure particle size changes
-Description: Students configure particles to change size over their lifetime (start size, end size). They create effects like growing bubbles, shrinking sparks, or expanding explosions. They understand how size changes affect perceived particle behavior and energy.
+Skill: Use lighting to enhance 3D algorithmic art
+Description: Students add and configure lights (point, directional, spot) to their 3D generative art. They explore how light position, color, and intensity create mood and highlight patterns. They use multiple lights to create dramatic shadows and artistic effects in their 3D sculptures.
 
 Dependencies:
-* T20.G7.06: Configure particle color gradients
-
-
+* T20.G5.10: Create simple 3D artistic patterns
+* T20.G7.06: Create 3D generative sculptures with particle effects
 
 
 ID: T20.G7.08
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create particle-based generative art
-Description: Students create standalone particle-based algorithmic art by combining color gradients, size changes, emission patterns, and movement. They use particle systems to create effects like flowing streams, energy fields, or abstract motion art. They control emitter position algorithmically, moving it in patterns to paint with particles.
+Skill: Generate custom 3D shapes from calculated vertices
+Description: Students create original 3D shapes by calculating vertex positions using algorithms and storing them in lists. They use loops to calculate x, y, z coordinates for each vertex based on mathematical formulas, building lists of positions. They then use these vertex lists with 3D shape creation blocks to generate custom 3D columns, cones, and extruded shapes, enabling unique geometric art beyond standard primitives.
 
 Dependencies:
-* T20.G7.07: Configure particle size changes
-
-
-
-
-ID: T20.G7.09
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement L-system string generation
-Description: Students implement L-system (Lindenmayer system) rules by starting with an axiom string and repeatedly applying replacement rules. They understand that L-systems use string rewriting: each character is replaced according to rules (e.g., "A" → "AB", "B" → "A"). They generate strings through multiple iterations and see how simple rules create complex patterns.
-
-Dependencies:
-* T20.G6.07: Apply cosine functions to create circular patterns
-* T10.G6.02: Manipulate text with string operations
-
-
-
-
-ID: T20.G7.10
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Draw L-system fractal trees
-Description: Students translate L-system strings into visual patterns by interpreting characters as drawing commands (F = forward, + = turn left, - = turn right, [ = save position, ] = restore position). They draw fractal trees and Koch curves by processing the generated strings. They see how recursive rules create self-similar patterns.
-
-Dependencies:
-* T20.G7.09: Implement L-system string generation
-* T11.G7.02: Understand recursive thinking through examples
-
-
-
-
-ID: T20.G7.11
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement elementary cellular automaton
-Description: Students implement a 1D cellular automaton by creating a row of cells (list) where each cell's next state depends on its current state and neighbors' states. They implement rules (e.g., Rule 30, Rule 90) as conditional logic. They generate multiple rows over time, creating 2D patterns from 1D rules. They understand how simple local rules create emergent global patterns.
-
-Dependencies:
-* T20.G7.04: Analyze real generative artworks
-* T10.G6.03: Implement algorithms using 2D tables
-
-
-
-
-ID: T20.G7.12
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create hybrid generative systems
-Description: Students combine multiple generative techniques (L-systems, cellular automata, particle systems, mathematical functions) with controlled randomness to create unique art systems. They layer techniques: use cellular automata to control particle emission, or use L-systems with random angle variations. They create art that is both rule-based and unpredictable.
-
-Dependencies:
-* T20.G7.10: Draw L-system fractal trees
-* T20.G7.11: Implement elementary cellular automaton
-
-
-
-
-ID: T20.G7.13
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Add point lights to 3D algorithmic art
-Description: Students add point lights (emitting equally in all directions) to their 3D generative art. They position lights algorithmically using loop variables. They control light color and intensity to create mood. They understand how light position affects shadows and highlights on their 3D shapes.
-
-Dependencies:
-* T20.G5.11: Create 3D geometric patterns with multiple shapes
-
-
-
-
-ID: T20.G7.14
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Add directional lights to 3D algorithmic art
-Description: Students add directional lights (parallel rays like sunlight) to their 3D art. They control direction vector to determine where light comes from. They understand that directional lights don't have position (infinitely far away) but do have direction. They compare effects of point vs directional lights on their sculptures.
-
-Dependencies:
-* T20.G7.13: Add point lights to 3D algorithmic art
-
-
-
-
-ID: T20.G7.15
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Use lighting to enhance 3D art mood
-Description: Students use multiple lights (point, directional, ambient) to create dramatic effects in their 3D generative art. They adjust light colors and intensities to create mood (warm vs cool, bright vs dark). They position lights to highlight patterns and create intentional shadows. They understand lighting as an artistic tool, not just illumination.
-
-Dependencies:
-* T20.G7.14: Add directional lights to 3D algorithmic art
-
-
-
-
-ID: T20.G7.16
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Combine 3D shapes with particle effects
-Description: Students create dynamic 3D sculptures by combining algorithmic 3D shape placement with particle systems. They emit particles from shape positions, attach particle trails to moving 3D objects, or use particles to highlight 3D patterns. They understand how particles add motion and energy to static 3D geometry.
-
-Dependencies:
-* T20.G7.08: Create particle-based generative art
-* T20.G5.11: Create 3D geometric patterns with multiple shapes
-
-
-
-
-ID: T20.G7.17
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Generate custom 3D shapes from vertex lists
-Description: Students create original 3D shapes by calculating vertex positions using algorithms. They use loops to calculate x, y, z coordinates for each vertex based on mathematical formulas. They store positions in nested lists. They use these vertex lists with 3D shape creation blocks (add column, add cone with custom profiles) to generate unique geometric art beyond standard primitives.
-
-Dependencies:
-* T20.G6.11: Create 3D curves from calculated point lists
-* T10.G5.01: Use nested lists to represent structured data
-
-
-
-
-## GRADE 8 SKILLS (Expert Techniques & Theory)
-
+* T20.G6.05.02: Create 3D curve and line art
+* T10.G5.01: Use a loop to iterate through a list
+* T07.G5.01: Generating vertices requires iterating through calculations.
 
 
 ID: T20.G8.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement multi-dimensional data mapping
-Description: Students implement sophisticated algorithms to process complex datasets with 4+ attributes and map them to multiple visual channels simultaneously (size, color, motion, position, rotation, opacity). They use custom scaling functions to normalize different data ranges to visual ranges. They implement optimization strategies for handling larger datasets. This goes beyond G6 by handling more dimensions and considering performance.
+Skill: **[Technical Skill]** Implement multi-dimensional data mapping algorithms
+Description: Students implement sophisticated algorithms to process complex datasets with 4+ attributes and map them to multiple visual channels simultaneously (size, color, motion, position, rotation, opacity). They use advanced programming techniques including custom scaling functions, normalization algorithms, and optimization strategies for handling larger datasets. This goes beyond G6.04 by handling more dimensions, using mathematical transformations, and considering performance.
 
 Dependencies:
-* T20.G6.05: Implement multi-field data visualization
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01: Use conditionals to control simulation steps
 * T10.G7.01: Implement algorithms using complex nested data structures
-
-
+* T20.G6.04: Implement multi-field data visualization
+* T20.G7.01: Compare efficiency of art algorithms
+* T02.G6.01: Learn the pseudocode generation block
+* T03.G6.01: Propose modules for a medium project
+* T07.G6.02: Refactor complex repeated patterns into loops with variables
 
 
 ID: T20.G8.02
 Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Create constrained generative artwork
-Description: Students combine randomness with constraints implemented as conditionals and boundary checks. They enforce limited color palettes (only use colors from approved list), symmetry rules (mirror operations), and bounding boxes (spatial constraints checked with if statements). The output is unique due to randomness yet cohesive due to constraints. They explain how constraints guide creativity.
+Description: Students combine randomness with constraints implemented as conditionals and boundary checks (limited color palettes, symmetry rules enforced by mirroring, bounding boxes checked with if statements) so output is unique yet cohesive.
 
 Dependencies:
-* T20.G7.12: Create hybrid generative systems
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
+* T20.G7.04: Analyze real generative artworks
+* T10.G6.01: Sort a table by a column
 
-
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T20.G8.03
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Evaluate authorship in generative art
-Description: Students write a position paper or participate in structured discussion analyzing authorship questions in algorithmic art. They address: Who is the artist—coder, algorithm, or viewer? How do we evaluate originality when code produces unique outputs? They discuss intellectual property (can you copyright an algorithm? a specific output?). They defend their positions with examples from art history and current practice.
+Skill: Evaluate authorship and originality in generative art
+Description: Students write a position paper or participate in structured discussion analyzing authorship questions in algorithmic art (who is the artist—coder, algorithm, or user?), evaluate originality when code produces unique outputs, and discuss ethical considerations like attribution and intellectual property. They defend their positions with examples.
 
 Dependencies:
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G7.04: Analyze real generative artworks
+* T02.G6.01: Learn the pseudocode generation block
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-
-
 
 
 ID: T20.G8.04
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Profile rendering performance
-Description: Students use timing methods to measure how long different parts of their art algorithm take to execute. They identify bottlenecks (nested loops with heavy operations, excessive drawing calls, redundant calculations). They understand frame rate concepts and measure frames per second in animated art.
+Skill: Optimize rendering for performance
+Description: Learners profile a slow project, identify bottlenecks (excess clones, redundant drawing), and refactor to hit a target frame rate.
 
 Dependencies:
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01: Use conditionals to control simulation steps
+* T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G7.01: Compare efficiency of art algorithms
+* T10.G6.01: Sort a table by a column
+
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 * T13.G6.01: Trace complex code with multiple variables
-
-
 
 
 ID: T20.G8.05
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Optimize algorithms to improve frame rate
-Description: Learners refactor slow algorithms using optimization techniques: reduce redundant calculations by storing values, decrease loop iterations by increasing step size, batch drawing operations, or cull off-screen elements. They profile before and after optimization to measure improvement. They hit target frame rates (30+ fps) while maintaining visual quality.
+Skill: Implement advanced 3D artistic effects including custom shaders, procedural materials, and dynamic lighting for sophisticated visual compositions
+Description: Implement advanced 3D artistic effects including custom shaders, procedural materials, and dynamic lighting for sophisticated visual compositions
 
 Dependencies:
-* T20.G8.04: Profile rendering performance
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T20.G7.05.02: Create generative art systems that combine L-systems and cellular automata with random variations
+* T02.G6.01: Learn the pseudocode generation block
+* T03.G6.01: Propose modules for a medium project
+* T25.G6.01: Document metadata for datasets
 
 
-
-
-ID: T20.G8.06
+ID: T20.G8.05.01
 Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create procedural texture patterns
-Description: Students generate 2D texture patterns algorithmically using mathematical functions (noise, gradients, cellular patterns). They create custom patterns by drawing small repeated elements or calculating color values pixel-by-pixel. They understand procedural generation principles: deterministic from parameters, infinitely scalable, memory-efficient compared to bitmap textures.
-
-Dependencies:
-* T20.G6.07: Apply cosine functions to create circular patterns
-* T20.G7.12: Create hybrid generative systems
+Skill: Apply post-processing effects to generative art
+Description: Students add post-processing effects (bloom, glow, blur) to their algorithmic art to create atmospheric and aesthetic enhancements. They understand how these effects layer on top of rendered output and adjust parameters to achieve desired artistic results.
 
 
 
-
-ID: T20.G8.07
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Apply procedural materials to 3D art
-Description: Students apply their procedurally-generated texture patterns to 3D shapes in algorithmic art. They map calculated patterns to material color, roughness, or emission. They create unique 3D sculptures with custom algorithmic surfaces. They understand how procedural textures enable artistic control beyond pre-made texture libraries.
-
-Dependencies:
-* T20.G8.06: Create procedural texture patterns
-* T20.G6.10: Apply roughness properties to 3D materials
-
-
-
-
-ID: T20.G8.08
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Implement dynamic lighting systems
-Description: Students create lighting that changes over time or responds to art parameters. They animate light positions in loops, adjust light colors based on data or music, or create pulsing light intensity. They implement multiple dynamic lights that interact with their 3D algorithmic sculptures, creating atmospheric and dramatic effects.
-
-Dependencies:
-* T20.G7.15: Use lighting to enhance 3D art mood
-* T20.G5.03: Animate a pattern with a counter variable
-
-
-
-
-ID: T20.G8.09
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Create advanced particle-based compositions
-Description: Students create sophisticated particle systems with multiple emitters, custom movement patterns (attracted to points, flowing along paths, orbital motion), and conditional particle behavior (change color when crossing boundaries, emit sub-particles on collision). They choreograph particle systems to create complex visual narratives and abstract compositions.
-
-Dependencies:
-* T20.G7.08: Create particle-based generative art
-* T08.G6.01: Use conditionals to control simulation steps
-
-
-
-
-ID: T20.G8.10
-Topic: T20 – Algorithmic Art & Creative Coding
-Skill: Combine all techniques in a cohesive artwork
-Description: Students create a complete generative art piece that combines multiple advanced techniques: 3D geometry, procedural materials, dynamic lighting, particle systems, mathematical transformations, and data visualization. They demonstrate technical mastery, aesthetic sensibility, and conceptual coherence. They document their artistic intent, technical implementation, and algorithmic choices. They present their work and explain how code creates art.
-
-Dependencies:
-* T20.G8.07: Apply procedural materials to 3D art
-* T20.G8.08: Implement dynamic lighting systems
-* T20.G8.09: Create advanced particle-based compositions
-* T20.G8.02: Create constrained generative artwork
-
-
----
-
-
-## TOPIC: T21 – AI Media (Phase 1 Optimized - November 2025)
-# Applied Phase 1 topic-focused optimizations:
-# - Removed orphaned dependency sections at Grade K and Grade 7 headers
-# - Fixed duplicate dependency section in T21.G5.02a
-# - Added missing dependencies section to T21.G6.13
-# - Ensured all skills follow X-2 dependency rule
-# - Verified skill descriptions match actual CreatiCode AI blocks
-# Total: 79 skills (GK-G8)
+## TOPIC: T21 – AI Media
 
 Focus: AI-generated media (text, images, voice) and computer vision
 
 ## GRADE K (3 skills)
+
+Dependencies:
+* T20.G7.06: Create 3D generative sculptures with particle effects
+* T20.G8.04: Optimize rendering for performance
+* T03.G6.01: Propose modules for a medium project
+* T08.G6.01a: Use conditionals in physics simulations
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+
 
 ID: T21.GK.01
 Topic: T21 – AI Media
@@ -17763,12 +17496,14 @@ ID: T21.G5.02a
 Topic: T21 – AI Media
 Skill: Search AI image library for pre-made assets
 Description: Students use the `search for AI image of [TYPE v] with query [QUERY]` block to find pre-generated AI images from a curated library. TYPE options include Object, Character, and Backdrop. They compare using the AI library (faster, curated, safe) versus generating custom images with DALL-E (more specific, original). This teaches appropriate tool selection.
-CSTA: 2-IC-20
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01.01: Create a new variable with a descriptive name
 * T29.G3.01: Distinguish text data from numbers and pictures
+CSTA: 2-IC-20
+
+Dependencies: None
 
 
 ID: T21.G5.03
@@ -18088,13 +17823,13 @@ Skill: Stop camera-based AI detection to manage resources
 Description: Students learn to properly stop camera-based AI features when they're no longer needed. They use `stop 2D body part recognition` to stop body tracking and `stop continuous speech recognition` to stop speech recognition. For face and hand detection, they learn to restart the project or use conditional logic to prevent detection from starting. They understand why stopping detection is important: saves battery power, reduces processing load, protects user privacy, and prevents unnecessary data collection. They implement proper start/stop workflows in their applications (e.g., start detection when entering game mode, stop when exiting; toggle buttons to control detection).
 CSTA: 2-IC-23 (Describe tradeoffs between allowing information to be public and keeping information private and secure)
 
+## GRADE 7 (25 skills)
+
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T21.G6.11: Detect faces in camera video (basic detection setup)
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
 
-
-## GRADE 7 (25 skills)
 
 ID: T21.G7.01
 Topic: T21 – AI Media
@@ -18105,11 +17840,12 @@ CSTA: 3A-AP-17 (Decompose problems into smaller components)
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T09.G5.01: Use variables to make a program more general or clear
-* T10.G5.01: Use a list to manage a collection of similar items
 * T10.G6.01: Sort a table by a column
-* T11.G5.01: Create a custom block to group a sequence of actions
+
 * T21.G6.03: Build a prompt test bench inside CreatiCode
 * T21.G6.04: Iterate when an AI output fails requirements
+* T10.G5.01: Template libraries are organized as lists or collections of prompts.
+* T11.G5.01: Template libraries benefit from functional abstraction and reusability.
 
 
 ID: T21.G7.02
@@ -18121,6 +17857,7 @@ CSTA: 3A-AP-17
 Dependencies:
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.04: Iterate when an AI output fails requirements
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
 
@@ -18134,6 +17871,7 @@ CSTA: 3A-IC-24 (Evaluate the ways computing impacts personal, ethical, social, e
 Dependencies:
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.03: Build a prompt test bench inside CreatiCode
 * T21.G6.04: Iterate when an AI output fails requirements
 
@@ -18149,6 +17887,7 @@ Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.04: Iterate when an AI output fails requirements
 
 
@@ -18162,6 +17901,7 @@ Dependencies:
 * T06.G5.01: Fix a behavior that runs at the wrong time
 * T09.G5.01: Use variables to make a program more general or clear
 * T10.G6.01: Sort a table by a column
+
 * T21.G5.03: Use basic text-to-speech with default settings
 * T21.G6.04: Iterate when an AI output fails requirements
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
@@ -18175,6 +17915,7 @@ CSTA: 3A-AP-16 (Design and iteratively develop computational artifacts)
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.05: Use Azure speech recognition (ai_startspeech block)
 
 
@@ -18220,6 +17961,7 @@ CSTA: 3A-DA-09 (Translate between different data representations)
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
 
 
@@ -18232,6 +17974,7 @@ CSTA: 3A-DA-09
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.09: Detect hands in camera video (basic hand detection)
 
 
@@ -18243,6 +17986,7 @@ CSTA: 3A-DA-09
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.09a: Read finger curl and direction values
 
 
@@ -18254,6 +17998,7 @@ CSTA: 3A-DA-09
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.09b: Read 2D hand keypoint coordinates
 
 
@@ -18275,10 +18020,10 @@ Description: Students create a simple game that responds to body movements detec
 CSTA: 3A-AP-16
 
 Dependencies:
-* T06.G5.01: Fix a behavior that runs at the wrong time
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Use variables to make a program more general or clear
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
+* T06.G5.01: Pose-based games respond to pose detection events.
 
 
 ID: T21.G7.11
@@ -18290,6 +18035,7 @@ CSTA: 3A-DA-09
 Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
 
 
@@ -18331,6 +18077,7 @@ CSTA: 3A-AP-17
 Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.13a: Compile and configure a neural network
 
 
@@ -18372,6 +18119,7 @@ CSTA: 3A-AP-17
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.15: Understand K-Nearest Neighbors (KNN) classification
 
 
@@ -18383,6 +18131,7 @@ CSTA: 3A-DA-09
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
 
 
@@ -18446,14 +18195,15 @@ CSTA: 3B-AP-16 (Demonstrate code reuse by creating programming solutions using l
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T10.G6.02: Filter table rows based on a condition
-* T13.G6.01: Trace complex code with multiple variables
+
 * T21.G6.06: Check user input with AI content moderation
 * T21.G7.01: Create a reusable prompt template library
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.02: Filter table rows based on a condition
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.02
@@ -18463,14 +18213,15 @@ Description: Students build a dashboard that lists each generated asset with met
 CSTA: 3B-IC-27 (Predict how computational innovations can affect personal, ethical, social, and cultural practices)
 
 Dependencies:
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
-* T08.G6.01a: Use conditionals in physics simulations
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G6.06: Check user input with AI content moderation
 * T21.G7.01: Create a reusable prompt template library
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T21.G8.03
@@ -18482,14 +18233,15 @@ CSTA: 3B-AP-16
 Implementation Guidance: Teachers should provide starter template with scene array structure [sceneName, narration, imagePrompt, audioFile] and navigation button framework. Students focus on AI content generation and synchronization.
 
 Dependencies:
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
 * T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.02: Use ChatGPT to expand creative briefs before generating art
 * T21.G7.05: Synchronize AI visuals with AI narration for a single scene
+* T02.G6.01: Learn the pseudocode generation block
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T21.G8.04
@@ -18499,13 +18251,14 @@ Description: Students research a real example (e.g., a game studio using AI conc
 CSTA: 3B-IC-27
 
 Dependencies:
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T10.G6.02: Filter table rows based on a condition
+
 * T21.G8.02: Implement an approval pipeline for AI assets
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.05
@@ -18530,13 +18283,14 @@ Description: Students create an interactive chatbot that maintains conversation 
 CSTA: 3B-AP-16
 
 Dependencies:
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.08: Manage multiple ChatGPT conversation threads
+* T03.G6.01: Propose modules for a medium project
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.07
@@ -18546,11 +18300,12 @@ Description: Students build a fact-checking assistant that uses the `web search 
 CSTA: 3B-DA-07 (Evaluate the ability of models to predict real-world outcomes)
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
+* T21.G6.08: Use ChatGPT to generate story text or dialogue
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 * T10.G6.02: Filter table rows based on a condition
-* T21.G6.08: Use ChatGPT to generate story text or dialogue
 
 
 ID: T21.G8.08
@@ -18575,13 +18330,14 @@ Description: Students create a fitness application that tracks exercises using 2
 CSTA: 3B-AP-16
 
 Dependencies:
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
 * T21.G7.10: Build a pose-based interactive game
+* T02.G6.01: Learn the pseudocode generation block
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.10
@@ -18591,13 +18347,14 @@ Description: Students create and train a neural network to recognize handwritten
 CSTA: 3B-AP-16
 
 Dependencies:
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
+
+* T21.G7.14: Save and load trained neural network models
+* T07.G6.01: Trace nested loops with variable bounds
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 * T13.G6.01: Trace complex code with multiple variables
-* T21.G7.14: Save and load trained neural network models
 
 
 ID: T21.G8.11
@@ -18607,13 +18364,14 @@ Description: Students create a neural network to classify patterns or categories
 CSTA: 3B-AP-16
 
 Dependencies:
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T10.G6.02: Filter table rows based on a condition
+
 * T21.G7.13b: Train a neural network and observe learning
+* T03.G6.01: Propose modules for a medium project
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.12
@@ -18623,12 +18381,13 @@ Description: Students learn to measure neural network performance using metrics 
 CSTA: 3B-DA-07
 
 Dependencies:
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
+* T21.G8.10: Build a neural network for number recognition
 * T02.G6.01: Learn the pseudocode generation block
 * T03.G6.01: Propose modules for a medium project
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T21.G8.10: Build a neural network for number recognition
 
 
 ID: T21.G8.13
@@ -18638,12 +18397,13 @@ Description: Students build a real-time classification system using KNN. They us
 CSTA: 3B-AP-16
 
 Dependencies:
+* T08.G6.01: Use conditionals to control simulation steps
+* T10.G6.01: Sort a table by a column
+
+* T21.G7.16: Create a KNN classifier from training data
 * T02.G6.01: Learn the pseudocode generation block
 * T03.G6.01: Propose modules for a medium project
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T08.G6.01: Use conditionals to control simulation steps
-* T10.G6.01: Sort a table by a column
-* T21.G7.16: Create a KNN classifier from training data
 
 
 ID: T21.G8.14
@@ -18653,11 +18413,12 @@ Description: Students use the `create semantic database from table [TABLE v]` bl
 CSTA: 3B-DA-05 (Use data analysis tools to identify significant patterns in data)
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
+* T21.G6.08: Use ChatGPT to generate story text or dialogue
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T21.G6.08: Use ChatGPT to generate story text or dialogue
 
 
 ID: T21.G8.15
@@ -18667,11 +18428,12 @@ Description: Students use `search semantic database with [QUERY] store top (K) i
 CSTA: 3B-DA-05
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
+* T21.G8.14: Create a semantic search database
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 * T10.G6.02: Filter table rows based on a condition
-* T21.G8.14: Create a semantic search database
 
 
 ID: T21.G8.16
@@ -18711,9 +18473,10 @@ Description: Students use the `web search [QUERY] store top (K) in table [TABLE 
 CSTA: 3B-DA-05
 
 Dependencies:
+* T10.G6.01: Sort a table by a column
+
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 * T10.G6.02: Filter table rows based on a condition
 
 
@@ -18726,14 +18489,15 @@ CSTA: 3B-AP-16
 Implementation Guidance: Start with simple queries (factual questions with clear answers) before progressing to complex research questions requiring synthesis across multiple sources.
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+
 * T21.G8.07: Combine ChatGPT with web search for fact-checking
 * T21.G8.17: Use web search to gather information
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
+* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T21.G8.19
@@ -18743,9 +18507,10 @@ Description: Students learn that ChatGPT and other LLMs can "hallucinate" by con
 CSTA: 3B-IC-27
 
 Dependencies:
+* T21.G8.07: Combine ChatGPT with web search for fact-checking
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T10.G6.01: Sort a table by a column
-* T21.G8.07: Combine ChatGPT with web search for fact-checking
+
 * T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
@@ -18756,11 +18521,12 @@ Description: Students learn how malicious users try to manipulate AI systems thr
 CSTA: 3B-IC-27
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 * T21.G6.06: Check user input with AI content moderation
 * T21.G8.06: Build a multi-turn ChatGPT conversation system
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T10.G6.01: Sort a table by a column
+
+* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.21
