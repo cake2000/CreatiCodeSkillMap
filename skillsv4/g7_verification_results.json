@@ -1,0 +1,34 @@
+{
+  "x2_fixes": {
+    "applied": 39,
+    "failed": []
+  },
+  "redundant_removals": {
+    "applied": 9,
+    "failed": []
+  },
+  "t8_additions": {
+    "applied": 25,
+    "failed": []
+  },
+  "t9_additions": {
+    "applied": 15,
+    "failed": []
+  },
+  "t10_additions": {
+    "applied": 20,
+    "failed": []
+  },
+  "t7_additions": {
+    "applied": 13,
+    "failed": []
+  },
+  "t6_additions": {
+    "applied": 9,
+    "failed": []
+  },
+  "t11_additions": {
+    "applied": 5,
+    "failed": []
+  }
+}

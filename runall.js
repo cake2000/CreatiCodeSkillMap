@@ -65,7 +65,7 @@ async function runAllScripts() {
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   // Number of iterations for each phase
-  const TOPIC_ITERATIONS = 0; // 3 iterations as requested
+  const TOPIC_ITERATIONS = 2; // 3 iterations as requested
   const GRADE_ITERATIONS = 1; // 3 iterations for grade-level checking
 
   console.log("===========================================");
@@ -317,7 +317,7 @@ Additional context about CreatiCode features is available at:
 
 Use subagents/task to keep main context clean and small. For example, use Task with subagent_type=general-purpose to analyze and fix dependency issues.
 
-Automatically fix all dependency issues for grade ${grade} skills. For output, summarize the key dependency changes you made for grade ${grade} in skillsv4/allskills.md.`;
+Automatically fix all dependency issues for high and intermediate priorities automatically (no need to ask me) for grade ${grade} skills. For output, summarize the key dependency changes you made for grade ${grade} in skillsv4/allskills.md.`;
 
       let success = false;
       let retryCount = 0;

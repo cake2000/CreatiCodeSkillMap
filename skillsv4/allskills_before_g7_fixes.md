@@ -1029,7 +1029,6 @@ Description: Students categorize code as search, sort, accumulation, or simulati
 Dependencies:
 * T01.G5.09: Explain why an algorithm is correct using loops and variables
 * T01.G6.02: Compare how step counts grow with input size
-* T08.G5.01: Pattern identification requires conditional logic to analyze different cases. T0
 
 
 ID: T01.G7.02
@@ -1048,9 +1047,8 @@ Description: Students write structured pseudocode for "find the largest value in
 
 Dependencies:
 * T01.G5.04.01: Trace a "find the largest" algorithm
-* T04.G5.01: Identify the repeating unit in a longer pattern
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T10.G5.03: Finding max requires searching through a list or collection of values.
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T01.G7.03.02
@@ -1060,9 +1058,8 @@ Description: Students write structured pseudocode for "count items that match a 
 
 Dependencies:
 * T01.G5.04.02: Trace a "count matches" algorithm
-* T04.G5.01: Identify the repeating unit in a longer pattern
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T08.G5.01: Counting matches requires conditional logic to determine what counts as a match.
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T01.G7.04
@@ -1073,7 +1070,6 @@ Description: Students reason which algorithm scales better as inputs grow. _Impl
 Dependencies:
 * T01.G5.06: Compare two algorithms for step counts (efficiency)
 * T01.G6.02: Compare how step counts grow with input size
-* T08.G5.01: Algorithm comparison requires conditional reasoning about different scenarios.
 
 
 ID: T01.G7.05
@@ -1083,7 +1079,6 @@ Description: Students pick tests (including edge cases) that give high confidenc
 
 Dependencies:
 * T01.G5.11: Choose appropriate test cases for an algorithm
-* T10.G5.01: Test sets are organized as lists of test cases.
 
 
 ID: T01.G7.06
@@ -1102,7 +1097,6 @@ Description: Students explain which step causes the failure and why. _Implementa
 
 Dependencies:
 * T01.G7.06: Run an algorithm on edge cases and find failures
-* T08.G5.01: Edge case analysis requires understanding conditional boundaries and logic failu
 
 
 ID: T01.G7.08
@@ -1112,8 +1106,8 @@ Description: Students replace repeated naive logic with a cleaner pattern (singl
 
 Dependencies:
 * T01.G7.02: Choose a pattern to solve a problem
-* T04.G5.01: Identify the repeating unit in a longer pattern
-* T07.G5.01: Use a counted repeat loop
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T07.G3.01: Use a counted repeat loop
 
 
 ID: T01.G8.01
@@ -1125,9 +1119,6 @@ Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T01.G8.02
@@ -1138,9 +1129,6 @@ Description: Students explain what happens to variables after several steps. _Im
 Dependencies:
 * T01.G8.01: Design one‑step update rules for a simple simulation
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T07.G6.01: Trace nested loops with variable bounds
-* T13.G6.01: Trace complex code with multiple variables
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T01.G8.03
@@ -1150,9 +1138,6 @@ Description: Students explain how changed rules affect outcomes. _Implementation
 
 Dependencies:
 * T01.G8.02: Interpret the behavior of a simulation algorithm over time
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T01.G8.04
@@ -1163,8 +1148,6 @@ Description: Students highlight base case and recursive step in a **natural‑la
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T10.G6.01: Sort a table by a column
-* T21.G6.01: Plan a mixed-source asset kit for a game or story project
 
 
 ID: T01.G8.05
@@ -1175,20 +1158,12 @@ Description: Students step through a **diagram or story version** of recursion (
 Dependencies:
 * T01.G8.04: Identify base case and recursive step in an algorithm description
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T03.G6.01: Propose modules for a medium project
-* T08.G6.01a: Use conditionals in physics simulations
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T01.G8.06
 Topic: T01 – Everyday Algorithms
 Skill: Analyze who is helped or harmed by a real‑world algorithm
 Description: Students identify stakeholders and impacts of a real‑world algorithm. _Implementation note: Scenario with MCQ + short answers. CSTA: MS‑ALG‑IM‑08. AI4K12: Ethical design (D), Societal impacts (E)._
-
-Dependencies:
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T01.G8.07
@@ -1198,9 +1173,6 @@ Description: Students propose specific mitigations based on identified harms. _I
 
 Dependencies:
 * T01.G8.06: Analyze who is helped or harmed by a real‑world algorithm
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T01.G8.08
@@ -1211,9 +1183,6 @@ Description: Students reorganize code into helper blocks, remove duplication, an
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T01.G8.09
@@ -1224,9 +1193,6 @@ Description: Students make local changes (e.g., break loops early, avoid unneces
 Dependencies:
 * T01.G6.04: Revise an algorithm to do less work
 * T07.G3.01: Use a counted repeat loop
-* T03.G6.01: Propose modules for a medium project
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T01.G8.10
@@ -1236,9 +1202,6 @@ Description: Students insert logs or display statements at key points and use th
 
 Dependencies:
 * T01.G7.08: Rewrite a naive algorithm using a better pattern
-* T04.G6.01: Group snippets by underlying algorithm pattern
-
-
 ID: T02.GK.01
 Topic: T02 – Algorithm Diagrams
 Skill: Recognize picture steps for a task
@@ -1661,8 +1624,6 @@ Description: Students learn to use the debugger's breakpoint feature in CreatiCo
 
 Dependencies:
 * T02.G6.05: Debug using pseudocode comparison
-* T08.G5.01: Setting breakpoints often involves conditional stops based on variable states.
-* T09.G5.01: Inspecting execution requires understanding variable states and values.
 
 
 ID: T02.G7.03
@@ -1672,8 +1633,6 @@ Description: Students create a script to search through a list or check conditio
 
 Dependencies:
 * T02.G6.06: Trace a data processing algorithm using debug print
-* T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches.
-* T10.G5.03: Search algorithms operate on lists or collections of data.
 
 
 ID: T02.G7.04
@@ -1684,8 +1643,6 @@ Description: Students build a search algorithm in blocks, use the pseudocode gen
 Dependencies:
 * T02.G7.03: Build a search algorithm with debug tracing
 * T02.G6.02: Generate and read pseudocode from a simple script
-* T08.G5.01: Search algorithm pseudocode requires if-then conditional structures.
-* T07.G5.01: Search algorithms require loops to iterate through data structures.
 
 
 ID: T02.G7.05
@@ -1696,7 +1653,6 @@ Description: Students compare two different search algorithms (e.g., linear sear
 Dependencies:
 * T02.G7.03: Build a search algorithm with debug tracing
 * T02.G5.05: Compare two algorithms by counting blocks
-* T08.G5.01: Efficiency comparison requires conditional analysis of different scenarios.
 
 
 ID: T02.G7.06
@@ -1707,8 +1663,6 @@ Description: Students test their algorithms with edge cases (empty list, single 
 Dependencies:
 * T02.G7.02: Use breakpoints to pause and inspect algorithm execution
 * T02.G7.03: Build a search algorithm with debug tracing
-* T08.G5.01: Finding edge case bugs requires understanding conditional logic boundaries.
-* T10.G5.01: Algorithm tracing often involves tracking values in lists or arrays.
 
 
 ID: T02.G8.01
@@ -1718,9 +1672,6 @@ Description: Students write detailed pseudocode on paper for a moderately comple
 
 Dependencies:
 * T02.G6.04: Use pseudocode to plan before coding
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T02.G8.02
@@ -1730,8 +1681,6 @@ Description: Students take pseudocode (their own or provided), implement it as a
 
 Dependencies:
 * T02.G8.01: Write pseudocode for a complex algorithm from scratch
-* T10.G6.01: Sort a table by a column
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T02.G8.03
@@ -1742,9 +1691,6 @@ Description: Students systematically trace their algorithms using multiple test 
 Dependencies:
 * T02.G8.02: Implement and verify pseudocode with block code
 * T02.G7.06: Trace an algorithm to find edge case bugs
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T02.G8.04
@@ -1754,9 +1700,6 @@ Description: Students analyze their block scripts and generated pseudocode to fi
 
 Dependencies:
 * T02.G8.03: Trace complex algorithms with multiple test cases
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T02.G8.05
@@ -1766,9 +1709,6 @@ Description: Students build and trace two versions of an algorithm—one that al
 
 Dependencies:
 * T02.G7.01: Trace a simulation algorithm step-by-step
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T08.G6.01a: Use conditionals in physics simulations
-* T10.G6.01: Sort a table by a column
 
 
 ID: T03.GK.01
@@ -2183,9 +2123,8 @@ Description: Students create a diagram showing main components, key data flows, 
 
 Dependencies:
 * T03.G6.01: Propose modules for a medium project
-* T02.G5.01: Identify start, action, and end symbols in flowcharts
+* T02.G3.01: Identify start, action, and end symbols in flowcharts
 * T04.G5.01: Identify the repeating unit in a longer pattern
-* T10.G5.01: Architecture diagrams represent components as structured collections.
 
 
 ID: T03.G7.02
@@ -2195,10 +2134,8 @@ Description: Students match existing project modules and functionality to compon
 
 Dependencies:
 * T03.G7.01: Draw an architecture diagram for a multi‑component project
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T08.G5.01: Module mapping involves conditional decisions about component responsibilities.
-* T11.G5.01: Mapping functional modules requires understanding modular decomposition and func
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T03.G7.03
@@ -2209,7 +2146,6 @@ Description: Students compare two architecture sketches or task breakdowns for t
 Dependencies:
 * T03.G6.01: Propose modules for a medium project
 * T03.G5.05: Compare two project plans for the same idea
-* T08.G5.01: Comparing decompositions requires conditional analysis of trade-offs.
 
 
 ID: T03.G7.04
@@ -2219,9 +2155,8 @@ Description: Students are given a project with identified structural problems (e
 
 Dependencies:
 * T03.G7.03: Compare two decompositions of the same project
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T08.G5.01: Redesign involves conditional decisions about what to change based on problems.
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T03.G7.05
@@ -2232,8 +2167,6 @@ Description: Students list specific test cases for each major feature/module (e.
 Dependencies:
 * T03.G6.01: Propose modules for a medium project
 * T03.G5.02: Draw a high‑level project map
-* T08.G5.01: Test checklists involve conditional logic for different test scenarios.
-* T10.G5.01: Checklists are structured as lists of items to verify.
 
 
 ID: T03.G7.06
@@ -2253,9 +2186,6 @@ Description: Students fill in a structured template (Overview, Features, Data, U
 
 Dependencies:
 * T03.G7.01: Draw an architecture diagram for a multi‑component project
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T03.G8.02
@@ -2265,7 +2195,6 @@ Description: Students provide a draft specification to XO, ask for feedback on m
 
 Dependencies:
 * T03.G8.01: Outline a formal project specification
-* T10.G6.01: Sort a table by a column
 
 
 ID: T03.G8.03
@@ -2275,9 +2204,6 @@ Description: Students compare several project ideas and rank them from quickest 
 
 Dependencies:
 * T03.G7.03: Compare two decompositions of the same project
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T03.G8.04
@@ -2288,9 +2214,6 @@ Description: Students analyze a too‑ambitious project plan (e.g., "10 levels w
 Dependencies:
 * T03.G8.03: Rank project ideas by complexity and timeline
 * T03.G6.03: Break a project into milestones (v1/v2/v3)
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T03.G8.05
@@ -2301,9 +2224,6 @@ Description: Students review a description of a complex project with specific st
 Dependencies:
 * T03.G7.04: Redesign a project structure to fix specific problems
 * T06.G6.01: Trace event execution paths in a multi‑event program
-* T02.G6.01: Learn the pseudocode generation block
-* T10.G6.01: Sort a table by a column
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T03.G8.06
@@ -2314,8 +2234,6 @@ Description: Students take a list of refactoring tasks and assign them to future
 Dependencies:
 * T03.G8.05: Propose a refactoring plan for a complex project
 * T03.G6.04: Adjust milestones when constraints are discovered
-* T08.G6.01a: Use conditionals in physics simulations
-* T32.G6.01: Identify common malware types
 
 
 ID: T04.GK.01
@@ -2891,7 +2809,6 @@ Description: Students recognize when code uses a list or grid pattern (e.g., ite
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T08.G5.01: Use a simple if in a script
-* T10.G5.01: Identifying data structure patterns requires understanding lists and tables.
 
 
 ID: T04.G7.03
@@ -2903,7 +2820,6 @@ Dependencies:
 * T04.G5.01: Recognize a counter update pattern
 * T04.G5.02: Recognize an accumulator (sum/concatenate) pattern
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T08.G5.01: Pattern identification requires conditional analysis of problem characteristics.
 
 
 ID: T04.G7.04
@@ -2922,9 +2838,8 @@ Description: Students code a solution that uses two patterns together (e.g., loo
 
 Dependencies:
 * T04.G7.04: Outline a solution combining two patterns
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T07.G5.01: Combined patterns often involve nested loops for processing data.
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
 ID: T04.G7.06
@@ -2934,7 +2849,7 @@ Description: Students trace code that combines multiple patterns and label which
 
 Dependencies:
 * T04.G7.03: Identify problems that require multiple patterns
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 ID: T04.G7.07
@@ -2964,7 +2879,6 @@ Description: Students refactor code that has repeated pattern blocks into a more
 Dependencies:
 * T04.G6.02: Identify pattern variants that look different but behave the same
 * T07.G5.01: Use a counted repeat loop
-* T11.G5.01: Merging patterns often involves creating reusable functions.
 
 
 ID: T04.G7.10
@@ -2984,9 +2898,6 @@ Description: Students examine code patterns and classify them as either algorith
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T04.G7.01: Identify the main loop patterns in a simulation or game
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T14.G6.01.01: Track game state with variable
 
 
 ID: T04.G8.01
@@ -2998,9 +2909,6 @@ Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T14.G6.01.01: Track game state with variable
 
 
 ID: T04.G8.02
@@ -3013,8 +2921,6 @@ Dependencies:
 * T04.G7.02: Identify data structure patterns (lists, grids) in use
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T15.G6.01: Animation state machine
 
 
 ID: T04.G8.03
@@ -3026,9 +2932,6 @@ Dependencies:
 * T04.G7.01: Identify the main loop patterns in a simulation or game
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variable bounds
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.02: Identify parallel vs sequential event behaviors
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T04.G8.04
@@ -3058,7 +2961,6 @@ Description: Students match structured pattern-usage instructions (identifying w
 
 Dependencies:
 * T04.G8.05: Complete a "pattern card" describing a reusable solution
-* T10.G6.01: Sort a table by a column
 
 
 ID: T05.GK.01
@@ -3481,9 +3383,6 @@ Description: Students systematically evaluate a given CreatiCode project using a
 Dependencies:
 * T05.G5.05: Plan how to test whether a design meets user needs
 * T05.G5.05a: Identify accessibility features needed in a design
-* T08.G5.01: Accessibility review requires conditional checks against criteria.
-* T10.G5.01: Accessibility checklists are organized as structured lists.
-* T07.G5.01: Checklist reviews iterate through multiple criteria.
 
 
 ID: T05.G7.02
@@ -3493,8 +3392,6 @@ Description: Students see a list of identified issues and rank them by severity/
 
 Dependencies:
 * T05.G7.01: Perform a checklist-based accessibility review of a project
-* T08.G5.01: Prioritization requires conditional decision-making based on severity.
-* T10.G5.01: Issue prioritization involves creating and sorting lists of problems.
 
 
 ID: T05.G7.03
@@ -3505,8 +3402,6 @@ Description: Students read a project description (e.g., social app, data collect
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T05.G5.05: Plan how to test whether a design meets user needs
-* T08.G5.01: Harm identification requires conditional reasoning about different user scenario
-* T10.G5.01: Harm identification produces lists of potential issues.
 
 
 ID: T05.G7.04
@@ -3526,8 +3421,6 @@ Description: Students analyze a simple data visualization (bar chart of feature 
 Dependencies:
 * T05.G5.05: Plan how to test whether a design meets user needs
 * T05.G6.04: Update a design based on specific user feedback
-* T08.G5.01: Data interpretation requires conditional logic to identify problems.
-* T10.G5.01: Usage data is typically stored in tables or lists for analysis.
 
 
 ID: T05.G7.06
@@ -3537,8 +3430,6 @@ Description: Students select which design changes correspond logically to the id
 
 Dependencies:
 * T05.G7.05: Interpret usage or feedback data to find UX problems
-* T08.G5.01: Design decisions require conditional logic based on data patterns.
-* T10.G5.01: Data patterns are identified from tabular or list-based data.
 
 
 ID: T05.G7.07
@@ -3548,6 +3439,7 @@ Description: Write single sentence connecting design decision to evidence using 
 
 Dependencies:
 * T05.G7.06: Choose design changes based on data patterns
+* T05.G6.04: Update a design based on specific user feedback
 
 
 ID: T05.G7.08
@@ -3558,8 +3450,6 @@ Description: Students implement a simple simulation they planned (or are given a
 Dependencies:
 * T05.G6.05: Plan a simple CreatiCode simulation with variables, rules, and UI
 * T05.G6.08: Identify user questions a simulation should answer
-* T08.G5.01: Simulation testing requires conditional logic for different scenarios.
-* T10.G5.01: Simulation testing produces data sets for refinement.
 
 
 ID: T05.G8.01
@@ -3569,9 +3459,6 @@ Description: Students complete a brief including target users, design goals, and
 
 Dependencies:
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T30.G6.01: Analyze sensor specifications for CreatiCode projects
 
 
 ID: T05.G8.02
@@ -3581,8 +3468,6 @@ Description: Students send their brief to XO, collect critique, and incorporate 
 
 Dependencies:
 * T05.G8.01: Create a concise design brief with users, goals, and constraints
-* T10.G6.01: Sort a table by a column
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T05.G8.03
@@ -3593,9 +3478,6 @@ Description: Students design a simulation experiment by identifying one variable
 Dependencies:
 * T05.G6.05: Plan a simple CreatiCode simulation with variables, rules, and UI
 * T05.G6.06: Justify what is modeled vs simplified in a simulation design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T05.G8.04
@@ -3605,7 +3487,6 @@ Description: Students view a set of simulation results and choose appropriate co
 
 Dependencies:
 * T05.G8.03: Plan controlled simulation experiments (change one variable)
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T05.G8.05
@@ -3616,9 +3497,6 @@ Description: Students write 2–3 sentence justifications for design choices, ex
 Dependencies:
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T05.G7.06: Choose design changes based on data patterns
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T10.G6.01: Sort a table by a column
 
 
 ID: T05.G8.06
@@ -3629,8 +3507,6 @@ Description: Students evaluate a sample design brief, identifying strengths and 
 Dependencies:
 * T05.G8.01: Create a concise design brief with users, goals, and constraints
 * T05.G8.03: Plan controlled simulation experiments (change one variable)
-* T10.G6.01: Sort a table by a column
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T06.GK.01
@@ -4368,7 +4244,6 @@ Dependencies:
 * T06.G6.03.01: Group related event handlers by category
 * T06.G6.04: Design meaningful custom broadcasts and document them
 * T06.G7.03: Design a broadcast protocol to decouple components
-* T11.G5.01: Comparing coupling requires understanding modular boundaries and interfaces.
 
 
 ID: T06.G7.05.01
@@ -4426,7 +4301,7 @@ Skill: Design animation sequences with broadcast coordination
 Description: Students create complex multi-sprite animations by coordinating broadcasts to sequence different animation stages (e.g., "intro-start" → sprite1 animates → broadcasts "intro-part2" → sprite2 animates → broadcasts "intro-done"). Use 'broadcast and wait' to ensure timing.
 
 Dependencies:
-* T06.G5.01: Use 'broadcast and wait' to sequence sprite actions
+* T06.G4.04.01: Use 'broadcast and wait' to sequence sprite actions
 * T06.G7.03: Design a broadcast protocol to decouple components
 
 
@@ -4439,9 +4314,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G7.04: Compare tightly coupled vs broadcast‑based designs
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T06.G8.02
@@ -4454,9 +4326,6 @@ Dependencies:
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G7.04: Compare tightly coupled vs broadcast‑based designs
 * T08.G6.01: Use conditionals to control simulation steps
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T08.G6.01a: Use conditionals in physics simulations
-* T10.G6.01: Sort a table by a column
 
 
 ID: T06.G8.03
@@ -4469,9 +4338,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G7.04: Compare tightly coupled vs broadcast‑based designs
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T08.G6.01a: Use conditionals in physics simulations
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T06.G8.04
@@ -4484,9 +4350,6 @@ Dependencies:
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G7.04: Compare tightly coupled vs broadcast‑based designs
 * T08.G6.01: Use conditionals to control simulation steps
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T06.G8.05
@@ -4498,9 +4361,6 @@ Dependencies:
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G8.01: Debug event timing issues in complex projects
 * T09.G6.01: Use lists to manage collections of data
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T17.G6.01: Configure surface friction parameters
 
 
 ID: T06.G8.06.01
@@ -4511,9 +4371,6 @@ Description: Students use "when colliding with [sprite]" in 3D contexts to detec
 Dependencies:
 * T06.G4.08.01: Use 'when touching sprite' for sprite-to-sprite collision
 * T18.G6.02: Add and position 3D objects
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T06.G8.06.02
@@ -4524,9 +4381,6 @@ Description: Students use "when an object from this sprite is picked" to detect 
 Dependencies:
 * T06.G8.06.01: Use 3D collision events for object interactions
 * T06.G7.05.01: Use 'when mouse button pressed at x,y' for click position tracking
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T06.G8.06.03
@@ -4537,9 +4391,6 @@ Description: Students use "when an object starts to be dragged", "when being dra
 Dependencies:
 * T06.G8.06.02: Use 3D object picking events for selection
 * T06.G6.07.01: Use 'when dragging starts' for drag initialization
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T25.G6.01: Document metadata for datasets
 
 
 ID: T06.G8.06.04
@@ -4550,9 +4401,6 @@ Description: Students use "broadcast when distance <= D" and "broadcast when obj
 Dependencies:
 * T06.G8.06.01: Use 3D collision events for object interactions
 * T06.G7.03: Design a broadcast protocol to decouple components
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T06.G8.06.05
@@ -4563,9 +4411,6 @@ Description: Students use "when 3D scene is initialized" to perform one-time 3D 
 Dependencies:
 * T06.G4.09: Use green flag initialization to prepare game state
 * T18.G6.01: Build a simple 3D scene with camera controls
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T07.K.01
@@ -4983,7 +4828,6 @@ Dependencies:
 * T07.G6.05: Trace nested loops using a trace table
 * T07.G6.07: Use loops to update values iteratively
 * T08.G6.01: Use conditionals to control simulation steps
-* T09.G5.01: Step counting requires variables to track iterations.
 
 
 ID: T07.G7.04
@@ -5007,8 +4851,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
 * T07.G7.04: Loop patterns for counting and accumulation
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T07.G8.02
@@ -5022,9 +4864,6 @@ Dependencies:
 * T07.G7.03: Compare loop algorithms by counting steps
 * T07.G7.04: Loop patterns for counting and accumulation
 * T08.G6.01: Use conditionals to control simulation steps
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
 
 
 ID: T07.G8.02.01
@@ -5036,9 +4875,6 @@ Dependencies:
 * T07.G8.02: Analyze iterative algorithms to identify components
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T08.G6.01: Use conditionals to control simulation steps
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T10.G6.01: Sort a table by a column
-* T32.G6.01: Identify common malware types
 
 
 ID: T07.G8.02.02
@@ -5050,9 +4886,6 @@ Dependencies:
 * T07.G8.02: Analyze iterative algorithms to identify components
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T10.G6.01: Sort a table by a column
 
 
 ID: T07.G8.02.03
@@ -5064,9 +4897,6 @@ Dependencies:
 * T07.G8.02: Analyze iterative algorithms to identify components
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T08.G6.01: Use conditionals to control simulation steps
-* T02.G6.01: Learn the pseudocode generation block
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T07.G8.03
@@ -5079,9 +4909,6 @@ Dependencies:
 * T07.G7.03: Compare loop algorithms by counting steps
 * T07.G7.04: Loop patterns for counting and accumulation
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T08.G6.01a: Use conditionals in physics simulations
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T07.G8.04
@@ -5095,9 +4922,6 @@ Dependencies:
 * T07.G7.04: Loop patterns for counting and accumulation
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T03.G6.01: Propose modules for a medium project
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T10.G6.01: Sort a table by a column
 
 
 ID: T08.GK.01
@@ -5746,17 +5570,13 @@ Topic: T08 – Conditions & Logic
 Skill: Analyze logical equivalence of conditionals
 Description: Students compare two conditional expressions and decide whether they are logically equivalent (e.g., De Morgan's law patterns like NOT(A OR B) vs NOT A AND NOT B). This introduces formal logic concepts and develops the ability to recognize and apply logical transformation rules.
 
-
-CSTA: E8-ALG-AF-01, E8-PRO-PF-01
-
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T08.G6.01: Use conditionals to control simulation steps
 * T08.G7.01: Reason about fairness using conditions
 * T08.G7.02: Design tests for condition-heavy code
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T23.G6.01.01: Capture a single spoken phrase with basic speech recognition
+
+CSTA: E8-ALG-AF-01, E8-PRO-PF-01
 
 
 ID: T08.G8.02
@@ -5764,17 +5584,13 @@ Topic: T08 – Conditions & Logic
 Skill: Use logic to design robust input validation
 Description: Students use compound conditions to validate user input (e.g., "age between 13 and 18," "password long enough and contains a number") and prevent invalid states. This applies conditional logic to data validation and security, teaching defensive programming practices.
 
-
-CSTA: E8-ALG-AF-01, E8-PRO-PF-01, E8-IC-CY-01
-
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T08.G6.01: Use conditionals to control simulation steps
 * T08.G7.01: Reason about fairness using conditions
 * T08.G7.02: Design tests for condition-heavy code
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
+
+CSTA: E8-ALG-AF-01, E8-PRO-PF-01, E8-IC-CY-01
 
 
 ID: T09.GK.01
@@ -6388,7 +6204,6 @@ Description: Students create simulations where variables represent quantities th
 
 Dependencies:
 * T09.G6.06: Use temporary variables for multi-step calculations
-* T07.G5.01: Dynamic systems require loops to update variables over time steps.
 
 
 ID: T09.G7.01.01
@@ -6475,9 +6290,6 @@ Description: Students implement a linear search algorithm that uses a variable t
 Dependencies:
 * T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
 * T09.G7.06: Predict behavior changes from modifying variable values
-* T02.G6.01: Learn the pseudocode generation block
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T09.G8.01.02
@@ -6487,9 +6299,6 @@ Description: Students use a boolean flag variable (e.g., "found") to remember wh
 
 Dependencies:
 * T09.G8.01.01: Use variables to track index position in linear search
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T09.G8.01.03
@@ -6499,8 +6308,6 @@ Description: Students implement iterative approximation algorithms (e.g., Newton
 
 Dependencies:
 * T09.G8.01.02: Use flag variables in search algorithms to track found status
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T09.G8.02
@@ -6511,9 +6318,6 @@ Description: Students identify opportunities to simplify expressions: replacing 
 Dependencies:
 * T09.G6.03: Use exponents (^) in expressions
 * T09.G7.06: Predict behavior changes from modifying variable values
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T09.G8.02.01
@@ -6523,9 +6327,6 @@ Description: Students use min() and max() functions to keep variable values with
 
 Dependencies:
 * T09.G7.01.03: Use square root (sqrt) function in expressions
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T09.G8.02.02
@@ -6535,9 +6336,6 @@ Description: Students use sine, cosine, and tangent functions to calculate angle
 
 Dependencies:
 * T09.G7.01.03: Use square root (sqrt) function in expressions
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T09.G8.03
@@ -6548,9 +6346,6 @@ Description: Students use cloud variables to save data that persists across sess
 Dependencies:
 * T09.G7.04: Understand local vs global variable scope
 * T09.G7.05: Save and load variables to/from files
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T09.G8.04
@@ -6561,9 +6356,6 @@ Description: Students identify and fix bugs in programs with multiple sprites sh
 Dependencies:
 * T09.G7.04: Understand local vs global variable scope
 * T09.G7.06: Predict behavior changes from modifying variable values
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T09.G8.05
@@ -6575,9 +6367,6 @@ Dependencies:
 * T09.G6.03: Use exponents (^) in expressions
 * T09.G7.02: Compute average using sum and count variables
 * T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
-* T07.G6.01: Trace nested loops with variable bounds
-* T14.G6.01.01: Track game state with variable
-* T21.G6.01: Plan a mixed-source asset kit for a game or story project
 
 
 ID: T09.G8.06
@@ -6585,17 +6374,12 @@ Topic: T09 – Variables & Expressions
 Skill: Use variables to collect and store multiple data readings
 Description: Students use variables to collect data from repeated user inputs or sensor readings over time, storing values for later analysis. They implement collection loops that gather specified numbers of readings and store running statistics.
 
-
-
-## GRADE K (8 skills)
-
 Dependencies:
 * T09.G7.02: Compute average using sum and count variables
 * T09.G8.01.01: Use variables to track index position in linear search
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
+
+## GRADE K (8 skills)
 
 ID: T10.GK.01
 Topic: T10 – Lists & Tables
@@ -7723,7 +7507,6 @@ Dependencies:
 * T10.G5.05: Update a cell value in a table
 * T10.G5.07: Loop through table rows to compute aggregates
 * T08.G5.01: Use compound conditions with and/or/not
-* T07.G5.01: Data cleaning requires iterating through table rows.
 
 
 ID: T10.G7.06
@@ -7754,7 +7537,7 @@ Skill: Use regex patterns to find items in lists
 Description: Students use regular expression patterns to find items in lists that match complex text patterns (e.g., "find all emails," "find all phone numbers," "find all codes starting with A"). They implement pattern matching using regex blocks if available or manual string checking.
 
 Dependencies:
-* T10.G5.03: Filter items from a list based on a condition
+* T10.G4.08: Filter items from a list based on a condition
 * T09.G6.02: Use text operations (join, split, substring, case conversion)
 
 
@@ -7830,9 +7613,6 @@ Description: Students write nested loops to analyze relationships between two ta
 Dependencies:
 * T07.G5.01: Use conditional loops for searching
 * T10.G6.04: Use table lookup to find related data
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T10.G8.02
@@ -7843,9 +7623,6 @@ Description: Students implement bubble sort by writing nested loops: the outer l
 Dependencies:
 * T10.G4.10: Swap two items in a list
 * T07.G6.01: Trace nested loops with variable bounds
-* T02.G6.01: Learn the pseudocode generation block
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T10.G8.03
@@ -7856,9 +7633,6 @@ Description: Students implement selection sort by writing nested loops: the oute
 Dependencies:
 * T10.G8.02: Implement bubble sort algorithm step by step
 * T10.G4.07: Find the maximum or minimum item in a list manually
-* T02.G6.01: Learn the pseudocode generation block
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T10.G8.04
@@ -7870,9 +7644,6 @@ Dependencies:
 * T10.G7.03: Design a table schema for a real-world scenario
 * T10.G5.07: Loop through table rows to compute aggregates
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T10.G8.05
@@ -7883,9 +7654,6 @@ Description: Students work with a realistic multi-column table (e.g., weather da
 Dependencies:
 * T10.G7.07: Analyze a dataset to find patterns or outliers
 * T10.G6.01: Sort a table by a column
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T28.G6.01.01: Manually test parameters and log results
 
 
 ID: T10.G8.06
@@ -7896,9 +7664,6 @@ Description: Students design and use multiple tables that reference each other (
 Dependencies:
 * T10.G8.01: Use nested loops to compare data across two tables
 * T10.G7.03: Design a table schema for a real-world scenario
-* T03.G6.01: Propose modules for a medium project
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T10.G8.07
@@ -7910,9 +7675,6 @@ Dependencies:
 * T10.G8.03: Implement selection sort algorithm step by step
 * T10.G4.02: Store and retrieve parallel list data
 * T09.G7.01: Compare computational efficiency of different approaches
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T10.G8.08
@@ -7920,17 +7682,12 @@ Topic: T10 – Lists & Tables
 Skill: Use advanced list operations for algorithm optimization
 Description: Students apply advanced list techniques like binary search on sorted lists, two-pointer techniques, or sliding window algorithms to solve problems more efficiently than brute force approaches.
 
-
-
----
-
 Dependencies:
 * T10.G8.02: Implement bubble sort algorithm step by step
 * T09.G7.01: Compare computational efficiency of different approaches
-* T08.G6.01a: Use conditionals in physics simulations
-* T18.G6.01.01: Apply forces and impulses to physics bodies
-* T33.G6.01: Identify and test Cloud blocks for network dependencies
 
+
+---
 
 ID: T11.G3.01
 Topic: T11 – Functions & Procedures
@@ -8391,7 +8148,6 @@ Dependencies:
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
 * T11.G6.04: Refactor spaghetti code into organized custom blocks
 * T11.G6.08: Critique return value usage in custom blocks
-* T09.G5.01: Encapsulation involves controlling access to variables and data.
 
 
 ID: T11.G7.04
@@ -8403,7 +8159,6 @@ Dependencies:
 * T11.G5.09: Debug a script with incorrect custom block calls
 * T11.G6.04: Refactor spaghetti code into organized custom blocks
 * T11.G6.05: Add error handling to custom blocks
-* T09.G5.01: Tracing requires tracking variable values across function calls.
 
 
 ID: T11.G8.01
@@ -8417,9 +8172,6 @@ Dependencies:
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
 * T11.G7.02: Design a coordinated set of 3-5 custom blocks for one game feature
 * T11.G7.03: Understand encapsulation and information hiding
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T11.G8.02
@@ -8433,9 +8185,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T11.G8.01: Design general-purpose custom blocks with reusable interfaces
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
 
 
 ID: T11.G8.03
@@ -8447,9 +8196,6 @@ Dependencies:
 * T11.G7.02: Design a coordinated set of 3-5 custom blocks for one game feature
 * T11.G7.03: Understand encapsulation and information hiding
 * T11.G7.04: Trace and debug multi-level custom block calls
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T17.G6.01: Configure surface friction parameters
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T11.G8.04
@@ -8461,9 +8207,6 @@ Dependencies:
 * T10.G7.01: Use lists of lists (2D lists) to store tabular data
 * T11.G7.02: Design a coordinated set of 3-5 custom blocks for one game feature
 * T11.G7.03: Understand encapsulation and information hiding
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T11.G8.05
@@ -8475,10 +8218,6 @@ Dependencies:
 * T11.G7.03: Understand encapsulation and information hiding
 * T11.G7.04: Trace and debug multi-level custom block calls
 * T11.G8.03: Refactor a large program into a hierarchical block structure
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T13.G6.01: Trace complex code with multiple variables
-
 
 ID: T12.G1.01
 Topic: T12 – Organizing Programs
@@ -8830,7 +8569,6 @@ Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T12.G5.05: Use return values in custom blocks
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T07.G5.01: Complex logic often includes iterative processes that should be modularized.
 
 
 ID: T12.G7.02
@@ -8853,7 +8591,6 @@ Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 * T12.G6.03: Follow a provided style guide for naming conventions
-* T09.G5.01: Code clarity review includes variable naming and usage patterns.
 
 
 ID: T12.G7.04
@@ -8865,7 +8602,6 @@ Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T12.G6.02: Use comments to explain algorithm logic
 * T12.G6.04: Document code for collaborative maintenance
-* T09.G5.01: Design documentation includes explaining variable purposes and relationships.
 
 
 ID: T12.G8.01
@@ -8878,8 +8614,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T12.G7.03: Create a code review checklist for clarity
 * T12.G7.04: Document design decisions in code
-* T07.G6.01: Trace nested loops with variable bounds
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
 
 
 ID: T12.G8.02
@@ -8893,9 +8627,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T12.G7.02: Compare two code versions and identify readability differences
 * T12.G7.04: Document design decisions in code
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T10.G6.01: Sort a table by a column
 
 
 ID: T12.G8.03
@@ -8908,9 +8639,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T12.G7.01: Decompose complex logic into custom blocks with clear responsibilities
 * T12.G7.04: Document design decisions in code
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T12.G8.04
@@ -8922,9 +8650,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T12.G7.02: Compare two code versions and identify readability differences
 * T12.G8.02: Create comprehensive documentation for a complex project
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T17.G6.01: Configure surface friction parameters
 
 
 ID: T12.G8.05
@@ -8935,9 +8660,6 @@ Description: Students create a comprehensive style guide for a team project, def
 Dependencies:
 * T12.G7.03: Create a code review checklist for clarity
 * T12.G8.01: Apply consistent style across a large project
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T26.G6.01: Map stakeholder questions to data requirements
-* T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 
 
 ID: T13.GK.01
@@ -9453,7 +9175,7 @@ Description: Students analyze an algorithm (e.g., finding maximum in a list, cal
 
 Dependencies:
 * T08.G5.01: Design multi-branch decision logic
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T13.G6.03: Design systematic boundary tests
 
 
@@ -9464,7 +9186,7 @@ Description: Students identify and correct logic errors in a program (bugs that 
 
 Dependencies:
 * T08.G5.01: Design multi-branch decision logic
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T13.G6.01: Trace complex code with multiple variables
 
 
@@ -9475,9 +9197,8 @@ Description: Students identify a complex section of code (long script with 20+ b
 
 Dependencies:
 * T08.G5.01: Design multi-branch decision logic
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T13.G6.04: Document known limitations and potential bugs
-* T07.G5.01: Simplification often involves refactoring nested loops.
 
 
 ID: T13.G7.04
@@ -9500,7 +9221,6 @@ Dependencies:
 * T08.G5.01: Design multi-branch decision logic
 * T13.G5.02: Add input validation to handle invalid entries
 * T13.G6.03: Design systematic boundary tests
-* T06.G5.01: Runtime errors often occur during event handling and need defensive checks.
 
 
 ID: T13.G7.06
@@ -9511,7 +9231,6 @@ Description: Students test a program under different conditions: different sprit
 Dependencies:
 * T13.G6.02: Use a systematic debugging process
 * T13.G6.03: Design systematic boundary tests
-* T09.G5.01: Context-dependent bugs often involve variable state and scope issues.
 
 
 ID: T13.G8.01
@@ -9523,9 +9242,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T13.G6.01: Trace complex code with multiple variables
 * T13.G7.01: Write comprehensive test cases for an algorithm
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T13.G8.02
@@ -9537,9 +9253,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T08.G6.01: Use conditionals to control simulation steps
 * T13.G6.01: Trace complex code with multiple variables
-* T06.G6.02: Identify parallel vs sequential event behaviors
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T13.G8.03
@@ -9551,9 +9264,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T08.G6.01: Use conditionals to control simulation steps
 * T13.G7.05: Anticipate runtime errors and add defensive checks
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T13.G8.04
@@ -9565,9 +9275,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T13.G7.02: Debug logic errors in complex programs
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
 
 
 ID: T13.G8.05
@@ -9579,9 +9286,6 @@ Dependencies:
 * T11.G5.01: Create a custom block with parameters
 * T13.G6.01: Trace complex code with multiple variables
 * T13.G7.02: Debug logic errors in complex programs
-* T08.G6.01a: Use conditionals in physics simulations
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
 
 
 ID: T14.GK.01
@@ -10602,7 +10306,6 @@ Description: Implement movement that snaps to a tile grid (e.g., each move is ex
 Dependencies:
 * T14.G6.04: Stream level chunks with viewport reporters
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G5.01: Turn-based games track state using lists of player actions and game states.
 
 
 ID: T14.G7.02
@@ -10613,8 +10316,6 @@ Description: Create an enemy that moves toward the player using `point towards [
 Dependencies:
 * T14.G6.01.02: Character state machine
 * T08.G5.01: Fix a condition that uses the wrong operator
-* T07.G5.01: Pathfinding algorithms use loops to explore possible paths.
-* T06.G5.01: Pathfinding is typically triggered by game events (move requests, target changes
 
 
 ID: T14.G7.03
@@ -10635,7 +10336,6 @@ Description: Create a watcher to track how many clones exist at once. Test your 
 Dependencies:
 * T14.G6.07: Monitor and optimize clone count
 * T12.G5.01: Explain code changes to a peer
-* T09.G5.01: Performance monitoring requires tracking variables like frame rate and clone cou
 
 
 ID: T14.G7.05
@@ -10654,11 +10354,9 @@ Skill: Advanced level management system
 Description: Create a comprehensive level management system that tracks the current level number in a variable, stores level-specific data (enemy counts, time limits, required score) in lists indexed by level number, and broadcasts level transition messages. Include logic to load the correct data when advancing or restarting levels. _CSTA: 3A-AP-16.__
 
 Dependencies:
-* T14.G5.01: Detect level complete
-* T14.G5.02: Switch backdrops for levels
+* T14.G4.09: Detect level complete
+* T14.G4.10: Switch backdrops for levels
 * T10.G5.01: Store and retrieve named data with a list
-* T08.G5.01: Level management requires conditional logic for level progression and state.
-* T06.G5.01: Level management systems coordinate multiple event-driven components.
 
 
 ID: T14.G7.07.01
@@ -10667,7 +10365,7 @@ Skill: Save high score to cloud
 Description: Use CreatiCode's cloud data blocks to save the player's high score permanently online. When the game ends, check if current score > saved high score, then update the cloud variable. Load the saved high score at game start to display previous best. _Implementation note: CreatiCode cloud data extension. CSTA: 3A-AP-16.__
 
 Dependencies:
-* T14.G5.01: Create a Score variable
+* T14.G4.06: Create a Score variable
 * T09.G5.01: Use a variable to store computation results
 
 
@@ -10679,7 +10377,6 @@ Description: Use cloud variables or lists to save game progress (current level, 
 Dependencies:
 * T14.G7.07.01: Save high score to cloud
 * T10.G5.01: Store and retrieve named data with a list
-* T09.G5.01: Saving progress requires managing multiple game state variables.
 
 
 ID: T14.G7.07.03
@@ -10700,9 +10397,6 @@ Description: Create a system that reads a list of strings or table rows (e.g., "
 Dependencies:
 * T14.G7.01: Spatial partitioning (grid-based movement)
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T14.G8.02
@@ -10713,9 +10407,6 @@ Description: Create a flexible particle system (explosions, smoke, sparks) where
 Dependencies:
 * T14.G7.04: Monitor clone performance
 * T08.G6.01: Use conditionals to control simulation steps
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T10.G6.01: Sort a table by a column
 
 
 ID: T14.G8.03
@@ -10726,9 +10417,6 @@ Description: Design a flexible entity system where each sprite has a list of com
 Dependencies:
 * T14.G6.01.02: Character state machine
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T02.G6.01: Learn the pseudocode generation block
-* T08.G6.01a: Use conditionals in physics simulations
-* T10.G6.01: Sort a table by a column
 
 
 ID: T14.G8.04
@@ -10739,9 +10427,6 @@ Description: Build a testing system that plays your game automatically using scr
 Dependencies:
 * T14.G7.05: Difficulty curves
 * T08.G6.01: Use conditionals to control simulation steps
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T14.G8.05
@@ -10752,11 +10437,6 @@ Description: Track and store player performance data in lists: how many times th
 Dependencies:
 * T14.G7.03: Balanced enemy spawning
 * T08.G6.01: Use conditionals to control simulation steps
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-
-
 ID: T15.GK.01
 Topic: T15 – Stories & Animation
 Skill: Sequence story pictures
@@ -11545,9 +11225,7 @@ Description: Create a dedicated "SceneManager" sprite (use `hide` to keep it inv
 Dependencies:
 * T15.G6.03: Cutscene controller with custom blocks
 * T15.G5.01: Coordinate scene changes with broadcasts
-* T16.G5.01: Hide and show widgets
-* T09.G5.01: Scene management requires variables to track current scene and state.
-* T06.G5.01: Scene managers use events to coordinate scene transitions.
+* T16.G4.03: Hide and show widgets
 
 
 
@@ -11558,7 +11236,6 @@ Description: Use `say [text] in [language v] as [voice v] speed (100) pitch (100
 
 Dependencies:
 * T15.G6.01: Animation state machine
-* T06.G5.01: Narration systems trigger speech events and handle completion events.
 
 
 
@@ -11581,8 +11258,6 @@ Description: Build a dialogue system where each list item in `[dialogueData v]` 
 Dependencies:
 * T15.G6.02: List-based Dialogue
 * T15.G7.03: Split text at delimiter
-* T07.G5.01: Dialogue systems iterate through conversation sequences.
-* T06.G5.01: Dialogue systems are event-driven, advancing on user input or timers.
 
 
 ID: T15.G8.01
@@ -11593,9 +11268,6 @@ Description: Plan and create a nested list structure for branching stories where
 Dependencies:
 * T15.G7.03: Dialogue system with speaker tags
 * T10.G6.01: Use nested lists or tables for structured data
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T15.G8.01.01
@@ -11605,9 +11277,6 @@ Description: Read the current story node from the data structure and display ava
 
 Dependencies:
 * T15.G8.01: Design story node data structure
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T15.G8.01.02
@@ -11617,9 +11286,6 @@ Description: When a player selects a choice, look up the corresponding "next nod
 
 Dependencies:
 * T15.G8.01.01: Display choices from story node
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T15.G8.02
@@ -11630,9 +11296,6 @@ Description: Implement accessibility features: use text-to-speech blocks for aud
 Dependencies:
 * T15.G7.03: Dialogue system with speaker tags
 * T16.G7.03: Design an accessible interface for users with different abilities
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T20.G6.01: Trace and explain an art algorithm
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T15.G8.03
@@ -11644,9 +11307,6 @@ Dependencies:
 * T15.G8.01.02: Navigate story nodes by choice
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T09.G7.01: Use cloud variables for persistent data
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T15.G8.03.01
@@ -11657,9 +11317,6 @@ Description: Parse a saved state string back into individual variables to restor
 Dependencies:
 * T15.G8.03: Encode story state for saving
 * T15.G7.03: Split text at delimiter
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T15.G8.04
@@ -11670,9 +11327,6 @@ Description: Use `show speech bubble [Hello!] offset xyz (0) (0) (110) max width
 Dependencies:
 * T15.G7.02: AI text-to-speech narration
 * T17.G7.01: Create and control 3D sprite objects
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T15.G8.05
@@ -11683,9 +11337,6 @@ Description: Use `add camera widget at X (0) Y (0) width (320) height (240) from
 Dependencies:
 * T15.G7.01: Scene manager sprite
 * T16.G6.01: Add and control camera widgets
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
 
 
 ID: T16.K.01
@@ -12377,9 +12028,6 @@ Dependencies:
 * T16.G7.04: Create a help or tutorial interface
 * T16.G7.03: Design an accessible interface for users with different abilities
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T07.G6.01: Trace nested loops with variable bounds
-* T17.G6.01: Configure surface friction parameters
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T16.G8.02
@@ -12391,9 +12039,6 @@ Dependencies:
 * T16.G7.02: Implement a search or filter interface
 * T16.G7.01: Build a data collection interface (survey or questionnaire)
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T16.G8.03
@@ -12404,9 +12049,6 @@ Description: Students examine two different interface designs for the same task 
 Dependencies:
 * T16.G7.03: Design an accessible interface for users with different abilities
 * T16.G6.02: Design an interface based on user feedback
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T16.G8.04
@@ -12417,9 +12059,6 @@ Description: Students conduct user testing of their interface (having peers try 
 Dependencies:
 * T16.G8.03: Analyze UI design patterns and their effectiveness
 * T16.G6.02: Design an interface based on user feedback
-* T18.G6.01.01: Apply forces and impulses to physics bodies
-* T26.G6.01: Map stakeholder questions to data requirements
-* T32.G6.01: Identify common malware types
 
 
 ID: T17.K.01
@@ -13013,7 +12652,7 @@ Description: Students create a launcher where users set angle and power using sl
 
 Dependencies:
 * T08.G5.01: Fix a condition that uses the wrong operator
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T17.G5.08: Apply an impulse to jump or push
 * T17.G6.04: Detect collisions for scoring or triggers
 
@@ -13151,7 +12790,7 @@ Description: Students choose a real phenomenon (bouncing ball, swinging pendulum
 
 Dependencies:
 * T08.G5.01: Fix a condition that uses the wrong operator
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T17.G6.08: Compare simulations to real-world motion
 
 
@@ -13174,9 +12813,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T17.G7.06: Model a real-world physics scenario
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T10.G6.01: Sort a table by a column
-* T18.G6.01.01: Apply forces and impulses to physics bodies
 
 
 ID: T17.G8.02
@@ -13187,9 +12823,6 @@ Description: Students use `fix relative position to [sprite]` to weld sprites to
 Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T17.G7.06: Model a real-world physics scenario
-* T02.G6.01: Learn the pseudocode generation block
-* T16.G6.01: Evaluate an interface for usability
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T17.G8.02.01
@@ -13199,9 +12832,6 @@ Description: Students use `set [sprite] as rotation axis with offset x [X] y [Y]
 
 Dependencies:
 * T17.G8.02: Implement fixed joints for connected objects
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T17.G8.02.01.01
@@ -13211,9 +12841,6 @@ Description: Control revolute joint motors using speed and damping parameters to
 
 Dependencies:
 * T17.G8.02.01: Implement revolute joints for hinges
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T25.G6.01: Document metadata for datasets
-* T33.G6.01: Identify and test Cloud blocks for network dependencies
 
 
 ID: T17.G8.02.02
@@ -13223,9 +12850,6 @@ Description: Students use `allow [Horizontal/Vertical] sliding relative to [spri
 
 Dependencies:
 * T17.G8.02.01: Implement revolute joints for hinges
-* T02.G6.01: Learn the pseudocode generation block
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T17.G8.03
@@ -13236,9 +12860,6 @@ Description: Students create scripts that spawn test objects, run the simulation
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T17.G7.07: Evaluate whether a simulation meets requirements
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T17.G8.04
@@ -13250,9 +12871,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T17.G7.06: Model a real-world physics scenario
 * T17.G7.07: Evaluate whether a simulation meets requirements
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T17.G8.04.01
@@ -13262,9 +12880,6 @@ Description: Students implement shape optimizations by using simpler collision s
 
 Dependencies:
 * T17.G8.04: Identify physics performance bottlenecks
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T10.G6.01: Sort a table by a column
 
 
 ID: T17.G8.05
@@ -13274,9 +12889,6 @@ Description: Students use `set gravity scale [value]%` to create floaty zones or
 
 Dependencies:
 * T17.G7.06: Model a real-world physics scenario
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T17.G8.06
@@ -13287,9 +12899,6 @@ Description: Students log player attempts (launch angle, power, success/fail), a
 Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T17.G7.06: Model a real-world physics scenario
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T17.G8.07
@@ -13300,9 +12909,6 @@ Description: Design and implement a physics-based puzzle game (e.g., pulleys, se
 Dependencies:
 * T17.G8.02: Implement fixed joints for connected objects
 * T17.G7.06: Model a real-world physics scenario
-* T18.G6.01.01: Apply forces and impulses to physics bodies
-* T26.G6.01: Map stakeholder questions to data requirements
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 ID: T18.GK.01
@@ -13933,7 +13539,6 @@ Description: Students use grid matrix copying to efficiently duplicate objects i
 
 Dependencies:
 * T18.G7.01.03: Use advanced shapes (cone, tube, stairs)
-* T07.G5.01: Grid patterns require nested loops to position objects.
 
 
 ID: T18.G7.02.02
@@ -14051,9 +13656,6 @@ Description: Students use car simulation blocks to create drivable vehicles with
 
 Dependencies:
 * T18.G7.06.03: Configure advanced particle emitters with custom shapes
-* T08.G6.01a: Use conditionals in physics simulations
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.01.02
@@ -14064,9 +13666,6 @@ Description: Students store level data in lists or records and write code to spa
 Dependencies:
 * T18.G8.01.01: Create car simulations with physics
 * T09.G3.01: Create and use a numeric variable for score or count
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T18.G8.01.03
@@ -14076,9 +13675,6 @@ Description: Students create two camera feeds (main gameplay plus minimap/UI vie
 
 Dependencies:
 * T18.G8.01.02: Implement dynamic level loading from data structures
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T18.G8.02.01
@@ -14088,9 +13684,6 @@ Description: Students add skybox textures to create 360-degree background enviro
 
 Dependencies:
 * T18.G8.01.03: Create and manage multiple 3D camera views
-* T08.G6.01a: Use conditionals in physics simulations
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.02.02
@@ -14100,9 +13693,6 @@ Description: Students enable post-processing effects (bloom, color grading, dept
 
 Dependencies:
 * T18.G8.02.01: Add skybox textures to scenes
-* T03.G6.01: Propose modules for a medium project
-* T08.G6.01a: Use conditionals in physics simulations
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.03.01
@@ -14112,9 +13702,6 @@ Description: Students use export blocks to save created 3D geometry as GLB files
 
 Dependencies:
 * T18.G8.02.02: Add post-processing effects to scenes
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T25.G6.01: Document metadata for datasets
 
 
 ID: T18.G8.03.02
@@ -14124,9 +13711,6 @@ Description: Students export 3D geometry as STL files suitable for 3D printing, 
 
 Dependencies:
 * T18.G8.03.01: Export 3D models as GLB files
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T25.G6.01: Document metadata for datasets
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T18.G8.04.01
@@ -14136,9 +13720,6 @@ Description: Students enable AR world camera to place 3D objects in real-world e
 
 Dependencies:
 * T18.G8.03.02: Export 3D models as STL files for 3D printing
-* T19.G6.00A: Understand what "multiplayer" means in CreatiCode games (deeper dive)
-* T25.G6.01: Document metadata for datasets
-* T30.G6.01: Analyze sensor specifications for CreatiCode projects
 
 
 ID: T18.G8.04.02
@@ -14148,9 +13729,6 @@ Description: Students use face tracking blocks to attach 3D objects to detected 
 
 Dependencies:
 * T18.G8.04.01: Implement AR world camera tracking
-* T03.G6.01: Propose modules for a medium project
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T23.G6.01.01: Capture a single spoken phrase with basic speech recognition
 
 
 ID: T18.G8.04.03
@@ -14160,9 +13738,6 @@ Description: Students configure AR image tracking to display 3D content when spe
 
 Dependencies:
 * T18.G8.04.02: Implement AR face tracking
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
 
 
 ID: T18.G8.05.01
@@ -14172,9 +13747,6 @@ Description: Students add mirror blocks to create reflective surfaces that show 
 
 Dependencies:
 * T18.G8.04.03: Implement AR image tracking
-* T03.G6.01: Propose modules for a medium project
-* T08.G6.01a: Use conditionals in physics simulations
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T18.G8.05.02
@@ -14184,9 +13756,6 @@ Description: Students use geometry blocks to define custom meshes from vertices,
 
 Dependencies:
 * T18.G8.05.01: Use mirrors for reflective surfaces
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T18.G8.06.01
@@ -14196,9 +13765,6 @@ Description: Students profile a sluggish 3D project, identify bottlenecks (too m
 
 Dependencies:
 * T18.G8.05.02: Create custom geometry with points, lines, and triangles
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T18.G8.06.02
@@ -14208,10 +13774,6 @@ Description: Students review a completed 3D project and explain design choices (
 
 Dependencies:
 * T18.G8.06.01: Analyze and optimize 3D scene performance
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T19.G6.00A: Understand what "multiplayer" means in CreatiCode games (deeper dive)
-
 
 ID: T19.G5.01
 Topic: T19 – Multiplayer Apps: Grade 6–8 Skill List
@@ -15006,8 +14568,7 @@ Description: Students implement role-based behavior differences in their game co
 Dependencies:
 * T19.G6.00I: Understand what roles are in multiplayer games
 * T19.G6.01E: List players in a game room
-* T08.G5.01: Use conditionals with multiple outcomes
-* T08.G6.01: Role-based behaviors require complex conditional logic (beyond T08.G5.01 already
+* T08.G4.01: Use conditionals with multiple outcomes
 
 
 ID: T19.G7.00B
@@ -15038,7 +14599,6 @@ Description: Students design a multiplayer task where players must work together
 Dependencies:
 * T19.G6.08: Create shared world objects that stay synchronized
 * T19.G6.09: Display a synchronized scoreboard for multiplayer sessions
-* T06.G5.01: Cooperative puzzles synchronize using events to broadcast progress updates.
 
 
 ID: T19.G7.02
@@ -15049,7 +14609,6 @@ Description: Students create a lobby where players click a "Ready" button that b
 Dependencies:
 * T19.G6.10A: Detect when players join or leave the game
 * T19.G6.04C: Broadcast multiplayer messages with parameters
-* T06.G5.01: Ready-up systems use events to signal player readiness.
 
 
 ID: T19.G7.03
@@ -15060,7 +14619,6 @@ Description: Students decide which variables should sync across all clients (sco
 Dependencies:
 * T19.G6.05A: Use synchronized speed x/y blocks for movement
 * T19.G6.04C: Broadcast multiplayer messages with parameters
-* T09.G5.01: Data synchronization involves understanding variable scope and persistence.
 
 
 ID: T19.G7.04
@@ -15071,7 +14629,6 @@ Description: Students refactor scripts to loop over the player list when creatin
 Dependencies:
 * T19.G6.10A: Detect when players join or leave the game
 * T07.G5.01: Use a loop to repeat a task an exact number of times
-* T09.G5.01: Scaling requires managing variables that adapt to player count.
 
 
 ID: T19.G7.05
@@ -15122,7 +14679,6 @@ Description: Students design spawn points, resource distribution, and team assig
 Dependencies:
 * T19.G7.04: Scale game logic to handle variable player counts
 * T19.G7.05: Balance starting conditions and scoring for fairness
-* T09.G5.01: Fair starting conditions require variable-based player state initialization.
 
 
 ID: T19.G8.01
@@ -15134,9 +14690,6 @@ Dependencies:
 * T19.G7.04: Scale game logic to handle variable player counts
 * T19.G7.00A: Implement different behaviors for different roles
 * T07.G6.01: Trace nested loops with variable bounds
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.02
@@ -15148,9 +14701,6 @@ Dependencies:
 * T19.G7.03: Choose what data to synchronize versus keep local
 * T19.G7.04: Scale game logic to handle variable player counts
 * T08.G6.01: Use conditionals to control simulation steps
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.03
@@ -15162,9 +14712,6 @@ Dependencies:
 * T19.G6.01F: Check connection status and display feedback
 * T19.G6.10C: Remove sprites and clean up when players leave
 * T19.G8.02: Implement host-authoritative validation to prevent cheating
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.04
@@ -15177,9 +14724,6 @@ Dependencies:
 * T19.G7.03: Choose what data to synchronize versus keep local
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T13.G6.01: Trace complex code with multiple variables
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.02: Identify parallel vs sequential event behaviors
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T19.G8.05
@@ -15189,9 +14733,6 @@ Description: This skill has been broken down into sub-skills T19.G8.05.01 throug
 
 Dependencies:
 * T19.G8.05.04: Identify and explain performance bottlenecks
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T17.G6.01: Configure surface friction parameters
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T19.G8.05.01
@@ -15203,9 +14744,6 @@ Dependencies:
 * T19.G7.03: Choose what data to synchronize versus keep local
 * T19.G7.04: Scale game logic to handle variable player counts
 * T02.G6.01: Design a flowchart for a simple guessing game
-* T02.G6.02: Generate and read pseudocode from a simple script
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
 
 
 ID: T19.G8.05.02
@@ -15216,9 +14754,6 @@ Description: Students analyze their multiplayer game code to identify all synchr
 Dependencies:
 * T19.G8.05.01: Diagram client-server message flow
 * T19.G7.03: Choose what data to synchronize versus keep local
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.05.03
@@ -15230,9 +14765,6 @@ Dependencies:
 * T19.G8.05.02: Identify synchronization points in your game
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T13.G6.01: Trace complex code with multiple variables
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.05.04
@@ -15243,9 +14775,6 @@ Description: Students analyze their multiplayer architecture to identify potenti
 Dependencies:
 * T19.G8.05.03: Trace a single game action through the system
 * T19.G7.03: Choose what data to synchronize versus keep local
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
 
 
 ID: T19.G8.06
@@ -15256,9 +14785,6 @@ Description: Students learn what data is shared with other players: display name
 Dependencies:
 * T19.G6.01B: Join a multiplayer game room
 * T19.G6.04C: Broadcast multiplayer messages with parameters
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.07
@@ -15270,9 +14796,6 @@ Dependencies:
 * T19.G6.00D: Understand Dynamic vs Static sprites in multiplayer games
 * T19.G7.03: Choose what data to synchronize versus keep local
 * T19.G6.04C: Broadcast multiplayer messages with parameters
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T19.G8.08
@@ -15283,9 +14806,6 @@ Description: Students use timing and counting techniques to measure multiplayer 
 Dependencies:
 * T19.G8.07: Optimize network traffic in multiplayer games
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T19.G8.09
@@ -15296,9 +14816,6 @@ Description: Students implement error handling for common multiplayer problems: 
 Dependencies:
 * T19.G6.01F: Check connection status and display feedback
 * T08.G6.01: Use conditionals to control simulation steps
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
 
 
 ID: T19.G8.10
@@ -15309,9 +14826,6 @@ Description: Students learn about two fundamental multiplayer architectures and 
 Dependencies:
 * T19.G6.00B: Understand the host-client model and game rooms in multiplayer games
 * T19.G8.05.04: Identify and explain performance bottlenecks
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T20.GK.01
@@ -15933,7 +15447,6 @@ Dependencies:
 * T07.G6.05: Fix a loop that runs too many or too few times
 * T20.G6.01: Trace and explain an art algorithm
 * T20.G6.05: Apply math transformations to art
-* T09.G5.01: Generative art analysis requires understanding how variables create variation.
 
 
 ID: T20.G7.04.00
@@ -15993,6 +15506,7 @@ Description: Students combine 3D shape creation with mathematical transformation
 Dependencies:
 * T20.G5.10: Create simple 3D artistic patterns
 * T20.G6.05: Apply math transformations to art
+* T20.G7.03: Study parameter impact on aesthetics
 * T20.G7.04.01: Create particle-based generative art
 
 
@@ -16013,8 +15527,7 @@ Description: Students create original 3D shapes by calculating vertex positions 
 
 Dependencies:
 * T20.G6.05.02: Create 3D curve and line art
-* T10.G5.01: Use a loop to iterate through a list
-* T07.G5.01: Generating vertices requires iterating through calculations.
+* T10.G4.02: Use a loop to iterate through a list
 
 
 ID: T20.G8.01
@@ -16029,9 +15542,6 @@ Dependencies:
 * T10.G7.01: Implement algorithms using complex nested data structures
 * T20.G6.04: Implement multi-field data visualization
 * T20.G7.01: Compare efficiency of art algorithms
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
 
 
 ID: T20.G8.02
@@ -16044,9 +15554,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G7.04: Analyze real generative artworks
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T20.G8.03
@@ -16059,8 +15566,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G7.04: Analyze real generative artworks
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T20.G8.04
@@ -16073,9 +15578,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G7.01: Compare efficiency of art algorithms
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T20.G8.05
@@ -16088,9 +15590,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T20.G7.05.02: Create generative art systems that combine L-systems and cellular automata with random variations
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T25.G6.01: Document metadata for datasets
 
 
 ID: T20.G8.05.01
@@ -16098,6 +15597,9 @@ Topic: T20 – Algorithmic Art & Creative Coding
 Skill: Apply post-processing effects to generative art
 Description: Students add post-processing effects (bloom, glow, blur) to their algorithmic art to create atmospheric and aesthetic enhancements. They understand how these effects layer on top of rendered output and adjust parameters to achieve desired artistic results.
 
+Dependencies:
+* T20.G7.06: Create 3D generative sculptures with particle effects
+* T20.G8.04: Optimize rendering for performance
 
 
 ## TOPIC: T21 – AI Media
@@ -16105,14 +15607,6 @@ Description: Students add post-processing effects (bloom, glow, blur) to their a
 Focus: AI-generated media (text, images, voice) and computer vision
 
 ## GRADE K (3 skills)
-
-Dependencies:
-* T20.G7.06: Create 3D generative sculptures with particle effects
-* T20.G8.04: Optimize rendering for performance
-* T03.G6.01: Propose modules for a medium project
-* T08.G6.01a: Use conditionals in physics simulations
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-
 
 ID: T21.GK.01
 Topic: T21 – AI Media
@@ -16643,8 +16137,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G6.03: Build a prompt test bench inside CreatiCode
 * T21.G6.04: Iterate when an AI output fails requirements
-* T10.G5.01: Template libraries are organized as lists or collections of prompts.
-* T11.G5.01: Template libraries benefit from functional abstraction and reusability.
 
 
 ID: T21.G7.02
@@ -16799,6 +16291,7 @@ Description: Students combine data from curl values, direction values, and keypo
 CSTA: 3A-DA-09
 
 Dependencies:
+* T08.G5.01: Use a simple if in a script
 * T21.G7.09a: Read finger curl and direction values
 * T21.G7.09b: Read 2D hand keypoint coordinates
 
@@ -16813,7 +16306,6 @@ Dependencies:
 * T08.G5.01: Use a simple if in a script
 * T09.G5.01: Use variables to make a program more general or clear
 * T21.G6.12: Track 2D body parts in camera video (basic setup)
-* T06.G5.01: Pose-based games respond to pose detection events.
 
 
 ID: T21.G7.11
@@ -16986,9 +16478,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G6.06: Check user input with AI content moderation
 * T21.G7.01: Create a reusable prompt template library
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.02: Filter table rows based on a condition
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.02
@@ -17003,9 +16492,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G6.06: Check user input with AI content moderation
 * T21.G7.01: Create a reusable prompt template library
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T21.G8.03
@@ -17022,9 +16508,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G7.02: Use ChatGPT to expand creative briefs before generating art
 * T21.G7.05: Synchronize AI visuals with AI narration for a single scene
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T21.G8.04
@@ -17038,9 +16521,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T21.G8.02: Implement an approval pipeline for AI assets
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.05
@@ -17052,9 +16532,6 @@ CSTA: 3B-AP-16
 Dependencies:
 * T21.G7.06: Use continuous speech recognition for live dictation
 * T21.G8.01: Build a user-facing generative art widget with guardrails
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T21.G8.06
@@ -17068,9 +16545,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T21.G7.08: Manage multiple ChatGPT conversation threads
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.07
@@ -17082,9 +16556,6 @@ CSTA: 3B-DA-07 (Evaluate the ability of models to predict real-world outcomes)
 Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.08
@@ -17097,9 +16568,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T21.G7.09d: Recognize common hand gestures (pinch, fist, open palm)
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
 
 
 ID: T21.G8.09
@@ -17113,9 +16581,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T21.G7.10: Build a pose-based interactive game
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.10
@@ -17129,9 +16594,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T21.G7.14: Save and load trained neural network models
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.11
@@ -17145,9 +16607,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T21.G7.13b: Train a neural network and observe learning
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.12
@@ -17160,9 +16619,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T21.G8.10: Build a neural network for number recognition
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T21.G8.13
@@ -17175,9 +16631,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T10.G6.01: Sort a table by a column
 * T21.G7.16: Create a KNN classifier from training data
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
 
 
 ID: T21.G8.14
@@ -17189,9 +16642,6 @@ CSTA: 3B-DA-05 (Use data analysis tools to identify significant patterns in data
 Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T21.G8.15
@@ -17203,9 +16653,6 @@ CSTA: 3B-DA-05
 Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G8.14: Create a semantic search database
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.16
@@ -17217,9 +16664,6 @@ CSTA: 3B-IC-27
 Dependencies:
 * T21.G8.15: Search with semantic similarity
 * T21.G6.08: Use ChatGPT to generate story text or dialogue
-* T07.G6.01: Trace nested loops with variable bounds
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T15.G6.01: Animation state machine
 
 
 ID: T21.G8.16a
@@ -17233,9 +16677,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T21.G8.06: Build a multi-turn ChatGPT conversation system
 * T21.G8.16: Understand RAG (Retrieval-Augmented Generation) architecture
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T21.G8.17
@@ -17246,9 +16687,6 @@ CSTA: 3B-DA-05
 
 Dependencies:
 * T10.G6.01: Sort a table by a column
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T21.G8.18
@@ -17265,9 +16703,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T21.G8.07: Combine ChatGPT with web search for fact-checking
 * T21.G8.17: Use web search to gather information
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T21.G8.19
@@ -17278,9 +16713,6 @@ CSTA: 3B-IC-27
 
 Dependencies:
 * T21.G8.07: Combine ChatGPT with web search for fact-checking
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T21.G8.20
@@ -17292,9 +16724,6 @@ CSTA: 3B-IC-27
 Dependencies:
 * T21.G6.06: Check user input with AI content moderation
 * T21.G8.06: Build a multi-turn ChatGPT conversation system
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T21.G8.21
@@ -17306,9 +16735,6 @@ CSTA: 3B-IC-27
 Dependencies:
 * T21.G7.18: Use generic LLM models with different providers
 * T21.G8.02: Implement an approval pipeline for AI assets
-* T03.G6.01: Propose modules for a medium project
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T22.GK.01
@@ -17811,7 +17237,6 @@ Description: Students create widgets (dropdowns, sliders, toggles) that gather k
 Dependencies:
 * T22.G6.07: Debug off-topic responses by rewriting prompts
 * T22.G7.02.01: Create and use custom personas with system messages
-* T10.G5.01: Conversation history is stored as a list of messages.
 
 Alternative UI Paths (need at least one):
 * T22.G6.04.02: Build a conversation log with dynamic updates
@@ -17893,9 +17318,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G7.02.01: Create and use custom personas with system messages
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T15.G6.01: Animation state machine
 
 
 ID: T22.G8.01.02
@@ -17907,9 +17329,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G8.01.01: Import data and create a semantic index
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T15.G6.01: Animation state machine
 
 
 ID: T22.G8.01.03
@@ -17923,9 +17342,6 @@ Dependencies:
 * T22.G7.03: Manage chat history and reset logic
 * T22.G7.05: Add moderation guardrails and escalation paths
 * T22.G8.01.02: Search semantic database with filters and conditions
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T22.G8.02
@@ -17942,9 +17358,6 @@ Dependencies:
 * T22.G7.03: Manage chat history and reset logic
 * T22.G7.05: Add moderation guardrails and escalation paths
 * T22.G7.09: User-test the chatbot for inclusivity and clarity
-* T02.G6.01: Learn the pseudocode generation block
-* T18.G6.01.01: Apply forces and impulses to physics bodies
-* T24.G6.01: Provide complete context when asking XO to debug
 
 
 ID: T22.G8.03.01
@@ -17958,9 +17371,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G7.02.01: Create and use custom personas with system messages
 * T22.G7.02.02: Use few-shot prompting with example exchanges
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-* T24.G6.01: Provide complete context when asking XO to debug
 
 
 ID: T22.G8.03.02
@@ -17972,9 +17382,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G8.03.01: Specify JSON format in prompts
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T15.G6.01: Animation state machine
 
 
 ID: T22.G8.03.03
@@ -17988,9 +17395,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G7.05: Add moderation guardrails and escalation paths
 * T22.G8.03.02: Parse and extract JSON responses
-* T03.G6.02: Identify reusable components in a complex process
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T22.G8.04
@@ -18004,9 +17408,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G7.05: Add moderation guardrails and escalation paths
 * T22.G7.09: User-test the chatbot for inclusivity and clarity
-* T03.G6.01: Propose modules for a medium project
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.02: Identify parallel vs sequential event behaviors
 
 
 ID: T22.G8.05
@@ -18014,20 +17415,15 @@ Topic: T22 – Chatbots & Prompting
 Skill: Integrate web search into chatbot responses
 Description: Students use the `web search [QUERY] store top (K) in table [TABLE]` block to fetch current information before generating a response. They prepend search results to the prompt so the chatbot can answer questions about recent events or live data not in its training.
 
-
-
----
-
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T22.G7.02.01: Create and use custom personas with system messages
 * T22.G7.05: Add moderation guardrails and escalation paths
 * T22.G8.01.03: Integrate search results into chatbot prompts (RAG)
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T13.G6.01: Trace complex code with multiple variables
 
+
+---
 
 ID: T23.GK.01
 Topic: T23 – AI Perception
@@ -18775,7 +18171,6 @@ Dependencies:
 * T11.G5.02: Define a custom block with one parameter
 * T23.G6.04.04: Recognize basic gestures from hand detection data
 * T23.G6.04.05: Drive UI elements with live hand detection
-* T10.G5.01: Gesture dictionaries are implemented as lists or tables mapping gestures to acti
 
 ID: T23.G7.01.02
 Topic: T23 – AI Perception
@@ -18874,10 +18269,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T23.G7.01: Define a reusable gesture dictionary
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.01
 Topic: T23 – AI Perception
@@ -18889,10 +18280,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T23.G7.02: Require multimodal confirmation (voice + gesture)
 * T23.G6.03.01: Build a two-way voice chatbot loop
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.01.02
 Topic: T23 – AI Perception
@@ -18902,26 +18289,17 @@ Description: Students practice KNN with a simple dataset before gesture classifi
 Dependencies:
 * T23.G8.00: Understand supervised learning for perception classification
 * T10.G6.02: Sort a table by a column
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.01.03
 Topic: T23 – AI Perception
 Skill: Split collected data into training and test sets
 Description: Students learn the importance of separating data into training and test sets to evaluate classifier performance accurately. They implement data splitting: collect 100 samples, use 70 for training and 30 for testing (70/30 split). They understand that testing on training data gives falsely optimistic results and that test data must represent real-world usage. They implement random sampling to ensure balanced splits and avoid bias (equal representation of each gesture class in both sets).
 
-
-Grade: 8
-
 Dependencies:
 * T10.G6.02: Sort a table by a column
 * T23.G8.01.02: Practice KNN classification with simple numeric data
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T14.G6.01.01: Track game state with variable
 
+Grade: 8
 
 ID: T23.G8.02.01
 Topic: T23 – AI Perception
@@ -18932,10 +18310,6 @@ Dependencies:
 * T16.G6.01: Attach a button to a sprite and respond to clicks
 * T10.G6.02: Sort a table by a column
 * T23.G7.01: Define a reusable gesture dictionary
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.02.02
 Topic: T23 – AI Perception
@@ -18946,10 +18320,6 @@ Dependencies:
 * T10.G6.02: Sort a table by a column
 * T23.G8.00: Understand supervised learning for perception classification
 * T23.G8.02.01: Create data collection UI for gesture samples
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-
 
 ID: T23.G8.02.03
 Topic: T23 – AI Perception
@@ -18959,10 +18329,6 @@ Description: Students deploy their trained KNN classifier to recognize gestures 
 Dependencies:
 * T10.G6.02: Sort a table by a column
 * T23.G8.02.02: Train KNN classifier with collected gesture data
-* T03.G6.01: Propose modules for a medium project
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-
 
 ID: T23.G8.03
 Topic: T23 – AI Perception
@@ -18974,10 +18340,6 @@ Dependencies:
 * T23.G7.02: Require multimodal confirmation (voice + gesture)
 * T23.G7.03: Score a pose-based challenge with coaching tips
 * T23.G6.03.01: Build a two-way voice chatbot loop
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-
 
 ID: T23.G8.03.01
 Topic: T23 – AI Perception
@@ -18987,10 +18349,6 @@ Description: Students systematically evaluate KNN classifier performance by crea
 Dependencies:
 * T10.G6.02: Sort a table by a column
 * T23.G8.02.03: Deploy trained classifier to recognize live gestures
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.04
 Topic: T23 – AI Perception
@@ -19002,10 +18360,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T23.G7.05: Implement fairness safeguards for perception systems
 * T23.G6.08: Add consent and privacy controls for sensor use
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T13.G6.01: Trace complex code with multiple variables
-
 
 ID: T23.G8.04.01
 Topic: T23 – AI Perception
@@ -19015,10 +18369,6 @@ Description: Students systematically experiment with K parameter in KNN classifi
 Dependencies:
 * T10.G6.02: Sort a table by a column
 * T23.G8.03.01: Evaluate classifier performance using confusion matrices
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-
 
 ID: T23.G8.05
 Topic: T23 – AI Perception
@@ -19030,10 +18380,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T23.G7.04: Monitor detection accuracy across different users
 * T23.G7.05: Implement fairness safeguards for perception systems
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.05.01
 Topic: T23 – AI Perception
@@ -19043,10 +18389,6 @@ Description: Students improve gesture classifier performance through feature eng
 Dependencies:
 * T10.G6.02: Sort a table by a column
 * T23.G8.03.01: Evaluate classifier performance using confusion matrices
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-
 
 ID: T23.G8.06
 Topic: T23 – AI Perception
@@ -19056,10 +18398,6 @@ Description: Students learn the fundamental differences between KNN and neural n
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T23.G8.04.01: Experiment with different K values in KNN classification
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.07
 Topic: T23 – AI Perception
@@ -19069,10 +18407,6 @@ Description: Students use pre-trained neural network models in CreatiCode for pe
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T23.G8.06: Introduction to neural networks and how they differ from KNN
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.08
 Topic: T23 – AI Perception
@@ -19083,10 +18417,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T23.G8.07: Practice using pre-trained neural network models
 * T23.G8.02.02: Train KNN classifier with collected gesture data
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.09
 Topic: T23 – AI Perception
@@ -19096,10 +18426,6 @@ Description: Students learn to persist trained neural network models for reuse. 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T23.G8.08: Build a custom neural network for gesture classification
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-
 
 ID: T23.G8.10
 Topic: T23 – AI Perception
@@ -19109,10 +18435,6 @@ Description: Students implement semantic search for flexible voice command recog
 Dependencies:
 * T22.G7.01: Compare completion vs chat models and choose the appropriate one
 * T23.G6.11: Use NLP sentence analysis to extract parts of speech
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T10.G6.01: Sort a table by a column
-
 
 ID: T23.G8.11
 Topic: T23 – AI Perception
@@ -19122,10 +18444,6 @@ Description: Students add content moderation to voice-based chat applications us
 Dependencies:
 * T22.G6.01: Trace how a chatbot script processes each turn
 * T23.G6.03.01: Build a two-way voice chatbot loop
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T08.G6.01a: Use conditionals in physics simulations
-
 
 ID: T23.G8.12
 Topic: T23 – AI Perception
@@ -19136,9 +18454,7 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T23.G8.09: Save and load trained neural network models
 * T23.G8.03.01: Evaluate classifier performance using confusion matrices
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
+
 
 
 ID: T24.GK.01
@@ -19945,8 +19261,6 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T24.G6.05: Maintain a prompt/response lab notebook using lists
 * T24.G6.06: Label risky prompts and rewrite them safely
-* T10.G5.01: Explicitly uses lists to store prompt templates.
-* T11.G5.01: Reusable templates align with functional programming concepts.
 
 
 ID: T24.G7.02
@@ -19994,6 +19308,8 @@ Skill: Use XO to coach peers with rubric-based feedback
 Description: Students feed XO a project summary and ask for constructive feedback. They then edit the response to match a class rubric (naming strengths, next steps) before sending it to a peer. This reinforces human oversight and empathy. They maintain a feedback table with columns for: peer name, XO raw feedback, edited feedback, rubric alignment score, and peer response. This teaches responsible AI-mediated peer review.
 
 Dependencies:
+* T09.G5.01: Use arithmetic and comparison operators with variables
+* T24.G6.06: Label risky prompts and rewrite them safely
 * T24.G7.02: Run an XO-led code review with evidence
 * T24.G7.04: Enforce responsible-use rules for XO assistance
 
@@ -20006,6 +19322,7 @@ Description: Students use the `select chatbot [1/2/3/4]` block to create two XO 
 Dependencies:
 * T24.G7.02: Run an XO-led code review with evidence
 * T24.G7.05: Use XO to coach peers with rubric-based feedback
+* T10.G5.03: Add and remove items from a list
 
 
 ID: T24.G7.07.01
@@ -20036,6 +19353,7 @@ Skill: Build multi-gesture control interfaces
 Description: Students create comprehensive gesture control interfaces combining multiple recognized gestures for rich interaction. They use the `set debug mode [yes/no]` block to toggle visualization on/off and build projects where different hand poses trigger different sprite actions, menu selections, or gameplay mechanics. They learn to handle gesture sequences, simultaneous two-hand gestures, and create polished gesture-driven user experiences with visual feedback for recognized gestures.
 
 Dependencies:
+* T08.G5.01: Use if‑else to handle two cases
 * T24.G7.07.02: Create gesture vocabulary systems
 * T24.G7.01: Create reusable XO prompt templates in lists
 
@@ -20078,6 +19396,7 @@ Skill: Build full-body pose-based games
 Description: Students create comprehensive games controlled entirely by body poses. They combine multiple pose detection techniques to build interactive experiences where players progress through challenges using physical movements (yoga instructor game validating poses, dance competition scoring accuracy, fitness game counting exercises). They learn to provide clear visual feedback for detected poses, handle pose transitions smoothly, and create engaging full-body gaming experiences leveraging 3D pose detection capabilities.
 
 Dependencies:
+* T07.G5.01: Trace a repeat loop with variable updates
 * T09.G5.01: Use arithmetic and comparison operators with variables
 * T24.G7.08.03: Detect specific poses (jumping, yoga positions, etc.)
 * T24.G7.01: Create reusable XO prompt templates in lists
@@ -20135,6 +19454,7 @@ Skill: Attach local files to ChatGPT for analysis
 Description: Students use the `attach files to chat` block to attach local files (text, CSV, images) to ChatGPT sessions for analysis. The block opens a file selection window, returns file paths separated by newlines, and adds files to the LLM chat session. They build projects that analyze uploaded documents, process data files, or work with user-provided content, learning to handle file-based AI interactions and multi-file analysis workflows.
 
 Dependencies:
+* T09.G5.01: Use arithmetic and comparison operators with variables
 * T24.G6.12: Use ChatGPT vision with costume attachment
 * T24.G7.02: Run an XO-led code review with evidence
 
@@ -20170,9 +19490,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T24.G7.01: Create reusable XO prompt templates in lists
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
 
 
 ID: T24.G8.01.02
@@ -20184,9 +19501,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.01.01: Create project metadata tables for prompts
 * T24.G7.04: Enforce responsible-use rules for XO assistance
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T15.G6.01: Animation state machine
 
 
 ID: T24.G8.01.03
@@ -20198,9 +19512,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T24.G8.01.02: Build prompt concatenation scripts from metadata
 * T24.G7.04: Enforce responsible-use rules for XO assistance
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T24.G8.02
@@ -20214,9 +19525,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.02: Run an XO-led code review with evidence
 * T24.G8.01.03: Integrate prompt builders with widget buttons
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
 
 
 ID: T24.G8.03
@@ -20230,9 +19538,6 @@ Dependencies:
 * T24.G7.03: Combine XO storyboards with AI sprite generation
 * T24.G7.04: Enforce responsible-use rules for XO assistance
 * T24.G8.01.03: Integrate prompt builders with widget buttons
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T24.G8.04
@@ -20246,9 +19551,6 @@ Dependencies:
 * T24.G7.04: Enforce responsible-use rules for XO assistance
 * T24.G8.02: Pair XO with automated tests to validate fixes
 * T24.G8.03: Compare XO-generated code/image options with human-crafted versions
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T06.G6.02: Identify parallel vs sequential event behaviors
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T24.G8.05
@@ -20262,9 +19564,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.05: Use XO to coach peers with rubric-based feedback
 * T24.G8.04: Implement AI usage tracking and policy enforcement (CAPSTONE)
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
-* T08.G6.01a: Use conditionals in physics simulations
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T24.G8.06
@@ -20277,9 +19576,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.08.04: Build full-body pose-based games
 * T24.G8.01.03: Integrate prompt builders with widget buttons
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T10.G6.01: Sort a table by a column
 
 
 ID: T24.G8.07.01
@@ -20292,9 +19588,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.07.03: Build multi-gesture control interfaces
 * T24.G7.08.04: Build full-body pose-based games
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
-* T10.G6.01: Sort a table by a column
 
 
 ID: T24.G8.07.02
@@ -20306,9 +19599,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.07.01: Coordinate multiple CV data streams
 * T24.G8.06: Build multi-person body tracking systems
-* T02.G6.01: Learn the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
 
 
 ID: T24.G8.07.03
@@ -20320,9 +19610,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.07.02: Synchronize face, hand, and body detection
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T24.G8.08.01
@@ -20334,9 +19621,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.15: Understand neural network concepts and architecture
 * T24.G8.01.03: Integrate prompt builders with widget buttons
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T24.G8.08.02
@@ -20346,9 +19630,6 @@ Description: Students use the `compile NN model [NAME] loss [LOSS] optimizer [OP
 
 Dependencies:
 * T24.G8.08.01: Create neural network models and add layers
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T24.G8.09.01
@@ -20360,9 +19641,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T24.G7.10: Build prediction projects with KNN classifier
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T24.G8.09.02
@@ -20374,9 +19652,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.09.01: Prepare training and testing datasets
 * T24.G8.08.02: Compile neural network models with loss and optimizer
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T24.G8.09.03
@@ -20388,9 +19663,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.09.02: Configure training parameters (batch size, epochs)
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
-* T10.G6.01: Sort a table by a column
 
 
 ID: T24.G8.09.04
@@ -20401,9 +19673,6 @@ Description: Students use the `save NN model named [NAME]` and `load NN model na
 Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.09.03: Train neural networks and monitor progress
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T24.G8.10
@@ -20416,9 +19685,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T24.G7.11: Understand semantic search vs keyword matching
 * T24.G8.01.03: Integrate prompt builders with widget buttons
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T24.G8.11.01
@@ -20429,9 +19695,6 @@ Description: Students use the `search semantic database with [QUERY] store top (
 Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.10: Create semantic vector databases with Pinecone
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 
 
 ID: T24.G8.11.02
@@ -20442,9 +19705,6 @@ Description: Students enhance semantic searches with metadata filtering using `s
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T24.G8.11.01: Build basic semantic search projects
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T24.G8.11A
@@ -20457,9 +19717,6 @@ Dependencies:
 * T24.G6.07.03: Use moderation blocks for URL images
 * T24.G7.12: Combine web search with ChatGPT for informed responses
 * T24.G8.07.03: Build multimodal interaction projects
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T24.G8.12.01
@@ -20471,9 +19728,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.11: Understand semantic search vs keyword matching
 * T24.G7.12: Combine web search with ChatGPT for informed responses
-* T08.G6.01a: Use conditionals in physics simulations
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T24.G8.12.02
@@ -20486,9 +19740,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G8.11.02: Add metadata filters to semantic searches
 * T24.G8.12.01: Understand RAG architecture and components
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T24.G8.12.03
@@ -20500,9 +19751,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T24.G7.12: Combine web search with ChatGPT for informed responses
 * T24.G8.12.02: Build knowledge retrieval pipeline
-* T07.G6.01: Trace nested loops with variable bounds
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T24.G8.13
@@ -20516,9 +19764,7 @@ Dependencies:
 * T24.G8.07.03: Build multimodal interaction projects
 * T24.G8.09.04: Save and load trained models
 * T24.G8.12.03: Integrate retrieval with ChatGPT generation
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+
 
 
 ID: T25.GK.01
@@ -21329,9 +20575,6 @@ Description: Students design a data structure for storing text transcripts from 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T25.G6.01: Document metadata for datasets
-* T03.G6.01: Propose modules for a medium project
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.02: Identify parallel vs sequential event behaviors
 
 
 ID: T25.G8.01.02
@@ -21341,9 +20584,6 @@ Description: Students design a data structure for storing numeric sensor reading
 
 Dependencies:
 * T25.G8.01.01: Design schema for text data with timestamps
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T06.G6.01: Trace event execution paths in a multi‑event program
 
 
 ID: T25.G8.01.03
@@ -21353,9 +20593,6 @@ Description: Students design a data structure for storing references to media fi
 
 Dependencies:
 * T25.G8.01.02: Design schema for numeric sensor data
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T06.G6.01: Trace event execution paths in a multi‑event program
 
 
 ID: T25.G8.01.04
@@ -21365,9 +20602,6 @@ Description: Students design a data structure for storing body pose detection re
 
 Dependencies:
 * T25.G8.01.03: Design schema for media file references
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T06.G6.01: Trace event execution paths in a multi‑event program
 
 
 ID: T25.G8.01.05
@@ -21379,9 +20613,6 @@ Dependencies:
 * T25.G8.01.04: Design schema for pose and gesture data
 * T25.G6.03: Nest tables and lists within each other
 * T25.G7.01.04: Apply normalization to a game database
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T25.G8.02
@@ -21392,9 +20623,6 @@ Description: Learners add fields for source, timestamp, and transformation notes
 Dependencies:
 * T25.G6.01: Document metadata for datasets
 * T25.G7.02: Identify bias introduced by representation choices
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T25.G8.03
@@ -21407,9 +20635,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T25.G6.02: Explain lossy vs lossless representation
 * T25.G7.04: Evaluate storage vs performance tradeoffs
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T25.G8.04
@@ -21421,9 +20646,6 @@ Dependencies:
 * T25.G6.01: Document metadata for datasets
 * T25.G7.03.02: Restore tables from CSV and server storage
 * T25.G7.01.04: Apply normalization to a game database
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T26.GK.01
@@ -22092,11 +21314,10 @@ Description: Students wrap logging behavior into custom blocks (e.g., `logEvent 
 
 Dependencies:
 * T06.G5.01: Build a green-flag script that runs a 3-5 block sequence
-* T09.G5.01: Trace code with variables to predict outcomes
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 * T11.G5.02: Define a custom block with one parameter
 * T26.G6.01: Map stakeholder questions to data requirements
-* T10.G5.01: Data collection modules work with tables and lists of collected data.
 
 Blocks: define custom block, call custom block, add row to table
 
@@ -22107,8 +21328,8 @@ Skill: Monitor data quality in real time
 Description: Learners build HUD widgets indicating percentage of responses collected, number of nulls, or out-of-range counts to catch issues while collecting.
 
 Dependencies:
-* T09.G5.01: Display variable value on stage using the variable monitor
-* T09.G5.02: Trace code with variables to predict outcomes
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 * T26.G6.04: Note when measurements might be inaccurate
 * T26.G7.01: Build reusable data collection modules
@@ -22121,7 +21342,7 @@ Description: Students import an open dataset from CSV files (weather data, publi
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
-* T09.G5.01: Trace code with variables to predict outcomes
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 * T26.G5.04: Store logs in CreatiCode tables for export
 * T26.G6.03: Create consent and opt-out workflows with widget dialogs
@@ -22134,7 +21355,7 @@ Description: Learners compare planned participants vs actual participants and hi
 
 Dependencies:
 * T08.G5.01: Use a simple if in a script
-* T09.G5.01: Trace code with variables to predict outcomes
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 * T26.G5.02: Plan sampling strategies
 * T26.G7.02: Monitor data quality in real time
@@ -22149,7 +21370,6 @@ Description: Students debug data collection issues by strategically placing prin
 Dependencies:
 * T26.G5.01: Add print statements to track events during execution
 * T26.G5.04: Store logs in CreatiCode tables for export
-* T07.G5.01: Data collection scripts typically use loops to gather multiple data points.
 
 Blocks: print to console, variables, lists, tables
 
@@ -22206,9 +21426,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 * T26.G7.01: Build reusable data collection modules
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T26.G8.01.01
@@ -22217,17 +21434,13 @@ Grade: Grade 8
 Skill: Implement end-to-end telemetry pipeline
 Description: Students build a complete working telemetry system that collects game events, validates them, stores in tables, saves to database, and exports to file, implementing the pipeline they designed in T26.G8.01.
 
-
-Blocks: All telemetry blocks (events, validation, tables, database insert/fetch/update, file export)
-
 Dependencies:
 * T26.G8.01: Design end-to-end telemetry pipelines with cloud integration
 * T26.G7.07.01: Update existing documents in database collections
 * T26.G6.06.02: Query database collections with filters
 * T26.G5.08.02: Export and import tables to/from files
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T13.G6.01: Trace complex code with multiple variables
+
+Blocks: All telemetry blocks (events, validation, tables, database insert/fetch/update, file export)
 
 
 ID: T26.G8.02
@@ -22241,9 +21454,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T26.G7.01: Build reusable data collection modules
 * T26.G8.01: Design end-to-end telemetry pipelines with cloud integration
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T25.G6.01: Document metadata for datasets
 
 
 ID: T26.G8.03
@@ -22257,9 +21467,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T24.G6.01: Use XO to generate code snippets
 * T26.G8.01: Design end-to-end telemetry pipelines with cloud integration
-* T07.G6.01: Trace nested loops with variable bounds
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
 
 
 ID: T26.G8.04
@@ -22272,9 +21479,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T26.G6.03: Create consent and opt-out workflows with widget dialogs
 * T26.G7.04: Evaluate bias risks introduced during collection
-* T07.G6.01: Trace nested loops with variable bounds
-* T13.G6.01: Trace complex code with multiple variables
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T26.G8.05
@@ -22282,17 +21486,13 @@ Topic: T26 – Data Collection & Logging
 Skill: Create and search semantic databases for AI-powered data retrieval
 Description: Students use CreatiCode semantic database blocks to store text documents with AI-generated embeddings, then perform natural language searches (e.g., 'find articles about space exploration') to retrieve semantically similar records, understanding how AI enables meaning-based search beyond exact keyword matching.
 
-
-Blocks: semantic database insert, semantic search, embeddings
-
 Dependencies:
 * T10.G6.01: Sort a table by a column
 * T24.G7.01: Generate text or ideas with AI prompts
 * T26.G6.05: Insert data from tables into database collections
 * T26.G6.06.02: Query database collections with filters
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
+
+Blocks: semantic database insert, semantic search, embeddings
 
 
 ID: T27.GK.01
@@ -22758,7 +21958,7 @@ Skill: Build multi-chart dashboards with linked filters
 Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter using shared variables and broadcast messages. When a user changes the filter value, a broadcast message triggers all charts to redraw using the updated shared variable, providing cohesive synchronized analysis. This explicitly uses event broadcasting to coordinate multiple visualizations.
 
 Dependencies:
-* T10.G5.01: Use list length and item access in expressions
+* T10.G4.01: Use list length and item access in expressions
 * T26.G5.04: Separate raw data from summary data
 * T27.G6.03: Identify trends and patterns in time-series data
 * T27.G6.04: Create structured summaries for AI input
@@ -22794,8 +21994,7 @@ Description: Students first extract a table column into a list using loops (copy
 Dependencies:
 * T27.G6.03: Identify trends and patterns in time-series data
 * T27.G7.01: Build multi-chart dashboards with linked filters
-* T10.G5.01: Use list length and item access in expressions
-* T07.G5.01: Moving averages require iterating through data points with a sliding window.
+* T10.G4.01: Use list length and item access in expressions
 
 
 ID: T27.G7.02c
@@ -22843,9 +22042,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T26.G6.01: Map stakeholder questions to data requirements
 * T27.G7.03: Evaluate fairness metrics across user groups
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T10.G6.02: Filter table rows based on a condition
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
 
 
 ID: T27.G8.02
@@ -22861,9 +22057,6 @@ Dependencies:
 * T26.G6.01: Map stakeholder questions to data requirements
 * T27.G7.02c: Automate chart updates with variables
 * T27.G8.01: Determine if differences are statistically meaningful
-* T06.G6.02: Identify parallel vs sequential event behaviors
-* T07.G6.02: Refactor complex repeated patterns into loops with variables
-* T15.G6.01: Animation state machine
 
 
 ID: T27.G8.03
@@ -22876,9 +22069,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T26.G6.01: Map stakeholder questions to data requirements
 * T27.G8.02: Automate report generation
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T17.G6.01: Configure surface friction parameters
 
 
 ID: T27.G8.04
@@ -22891,9 +22081,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T26.G6.01: Map stakeholder questions to data requirements
 * T27.G8.03: Integrate data analysis into AI prompt engineering
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T28.G2.01
@@ -23474,9 +22661,6 @@ Dependencies:
 * T28.G6.01.02: Automate parameter sweeps with nested loops
 * T28.G7.05: Communicate simulation assumptions and limitations
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T28.G8.06
@@ -23487,9 +22671,6 @@ Description: Students investigate how computers generate "random" numbers using 
 Dependencies:
 * T28.G6.02: Use random seeds for reproducibility
 * T28.G7.07: Identify bias in random selection methods
-* T10.G6.01: Sort a table by a column
-* T14.G6.01.01: Track game state with variable
-* T16.G6.01: Evaluate an interface for usability
 
 
 ID: T28.G8.02
@@ -23501,9 +22682,6 @@ Dependencies:
 * T28.G6.01.02: Automate parameter sweeps with nested loops
 * T28.G7.05: Communicate simulation assumptions and limitations
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T28.G8.03
@@ -23514,9 +22692,6 @@ Description: Students export their simulation results (summary statistics, key f
 Dependencies:
 * T28.G7.05: Communicate simulation assumptions and limitations
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T28.G8.04
@@ -23528,9 +22703,6 @@ Dependencies:
 * T28.G7.05: Communicate simulation assumptions and limitations
 * T28.G8.03: Integrate simulations into AI assistant workflows
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T28.G8.05
@@ -23543,8 +22715,9 @@ Dependencies:
 * T28.G7.05: Communicate simulation assumptions & limits
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T10.G6.01: Sort a table by a column
-* T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
+
+
+
 
 
 ID: T29.GK.01
@@ -24124,7 +23297,7 @@ Dependencies:
 * T29.G6.02: Compute n-gram (bigram) frequencies
 * T29.G6.03: Create autocomplete suggestions from bigrams
 * T11.G6.01: Sort a table by a column
-* T09.G5.01: Trace code with variables to predict outcomes
+* T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
 
 
@@ -24154,7 +23327,7 @@ Skill: Critically annotate AI vs human summaries
 Description: Learners write their own summary, generate an AI summary, then systematically annotate differences: what the AI missed, what it distorted, what it added. They measure overlap and discuss AI summarization limitations.
 
 Dependencies:
-* T29.G5.01: Generate AI summaries using ChatGPT blocks
+* T29.G4.05.02: Generate AI summaries using ChatGPT blocks
 * T29.G5.05: Build dynamic prompts with join and concatenation
 * T29.G6.04: Log AI prompts/responses with ratings and timestamps
 
@@ -24184,9 +23357,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T02.G6.01: Learn the pseudocode generation block
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
 
 
 ID: T29.G8.02
@@ -24201,9 +23371,6 @@ Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T10.G6.02: Filter table rows based on a condition
-* T15.G6.01: Animation state machine
 
 
 ID: T29.G8.03
@@ -24217,9 +23384,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T15.G6.01: Animation state machine
-* T17.G6.01: Configure surface friction parameters
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T29.G8.04
@@ -24233,9 +23397,6 @@ Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
-* T07.G6.01: Trace nested loops with variable bounds
-* T15.G6.01: Animation state machine
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T29.G8.05
@@ -24247,9 +23408,6 @@ Dependencies:
 * T29.G5.03.02: Build stop-word filter using tables
 * T29.G5.06: Use the parse sentence block for parts of speech
 * T29.G6.08: Compare text similarity using edit distance
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T15.G6.01: Animation state machine
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T29.G8.06
@@ -24264,9 +23422,10 @@ Dependencies:
 * T22.G6.01: Train a simple ML model (supervised learning)
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G5.03: Add and remove items from a list
-* T02.G6.01: Learn the pseudocode generation block
-* T10.G6.01: Sort a table by a column
-* T15.G6.01: Animation state machine
+
+
+
+
 
 
 ID: T30.GK.01
@@ -24763,7 +23922,7 @@ Skill: Optimize CreatiCode projects for mobile vs desktop devices
 Description: Students analyze how their CreatiCode projects perform on different devices and make design decisions based on screen size, touch vs mouse input, camera availability, and processing capabilities, creating responsive experiences.
 
 Dependencies:
-* T30.G5.01: Respond to keyboard and mouse events in CreatiCode
+* T30.G4.05: Respond to keyboard and mouse events in CreatiCode
 * T30.G5.05: Configure 3D cameras for CreatiCode game scenes
 CSTA: 2-CS-02
 
@@ -24786,9 +23945,6 @@ Description: Students design comprehensive diagrams showing how CreatiCode proje
 Dependencies:
 * T30.G7.04: Explain cloud vs edge processing in CreatiCode AI projects
 * T30.G7.01: Monitor and optimize CreatiCode project performance
-* T03.G6.01: Propose modules for a medium project
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T30.G8.02
@@ -24799,8 +23955,6 @@ Description: Learners research energy use, e-waste, and sourcing for devices use
 Dependencies:
 * T30.G7.01: Monitor and optimize CreatiCode project performance
 * T30.G7.04: Explain cloud vs edge processing in CreatiCode AI projects
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T30.G8.03
@@ -24811,9 +23965,6 @@ Description: Students create test plans covering multiple device types, OS versi
 Dependencies:
 * T30.G7.02: Design redundancy and fail-safes for CreatiCode sensors
 * T30.G7.03: Plan graceful degradation strategies
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T32.G6.01: Identify common malware types
-* T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 
 
 ID: T30.G8.04
@@ -24824,9 +23975,6 @@ Description: Learners write "hardware playbooks" describing required devices, se
 Dependencies:
 * T30.G8.03: Plan hardware integration tests
 * T30.G7.02: Design redundancy and fail-safes for CreatiCode sensors
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T31.GK.01
@@ -25140,7 +24288,7 @@ Description: Students use CreatiCode's Database blocks to prepare data in a tabl
 CSTA: MS-SAS-NW-06
 
 Dependencies:
-* T09.G5.01: Display variable value on stage using the variable monitor
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T31.G5.04: Create and join a multiplayer game session
 
 
@@ -25216,9 +24364,6 @@ Dependencies:
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T31.G7.04: Client-server vs peer-to-peer architecture
 * T31.G7.05: Analyze societal impacts of networked systems
-* T03.G6.01: Propose modules for a medium project
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T31.G8.02
@@ -25231,9 +24376,6 @@ Dependencies:
 * T31.G7.04: Client-server vs peer-to-peer architecture
 * T31.G7.05: Analyze societal impacts of networked systems
 * T31.G8.01: Architect edge vs cloud processing pipelines for AI
-* T07.G6.01: Trace nested loops with variable bounds
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T20.G6.01: Trace and explain an art algorithm
 
 
 ID: T31.G8.03
@@ -25246,9 +24388,6 @@ Dependencies:
 * T31.G7.04: Client-server vs peer-to-peer architecture
 * T31.G7.05: Analyze societal impacts of networked systems
 * T31.G8.02: Understand AI service network requirements
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T31.G8.04
@@ -25260,9 +24399,6 @@ CSTA: MS-SAS-SC-09
 Dependencies:
 * T31.G7.05: Analyze societal impacts of networked systems
 * T31.G8.03: Design secure AI-powered cloud systems
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 ID: T31.G8.04.01
@@ -25274,8 +24410,6 @@ CSTA: MS-SAS-NW-06
 Dependencies:
 * T31.G6.02: Read data from a Google Sheet cell
 * T31.G8.04: Implement privacy protection for AI data
-* T08.G6.01a: Use conditionals in physics simulations
-* T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 
 
 ID: T31.G8.05
@@ -25287,9 +24421,6 @@ CSTA: MS-SAS-HW-03
 Dependencies:
 * T31.G8.02: Understand AI service network requirements
 * T31.G8.03: Design secure AI-powered cloud systems
-* T13.G6.01: Trace complex code with multiple variables
-* T20.G6.01: Trace and explain an art algorithm
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 ID: T31.G8.06
@@ -25301,9 +24432,7 @@ CSTA: MS-SAS-IM-11
 Dependencies:
 * T31.G8.04: Implement privacy protection for AI data
 * T31.G8.05: Evaluate AI service resilience and fallbacks
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
+
 
 
 ID: T32.GK.01
@@ -25760,10 +24889,6 @@ Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T32.G6.01: Identify common malware types
 * T32.G6.07: Analyze ethical hacking vs malicious hacking through case studies
-* T08.G6.01a: Use conditionals in physics simulations
-* T13.G6.01: Trace complex code with multiple variables
-* T15.G6.01: Animation state machine
-
 
 ID: T32.G8.02
 Topic: T32 – Cybersecurity & Digital Safety
@@ -25775,10 +24900,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T32.G6.01: Identify common malware types
 * T32.G6.05: Design secure login flows in CreatiCode apps
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-
 
 ID: T32.G8.03
 Topic: T32 – Cybersecurity & Digital Safety
@@ -25792,10 +24913,6 @@ Dependencies:
 * T24.G6.01: Integrate AI features into existing projects
 * T32.G6.01: Identify common malware types
 * T32.G6.06: Conduct AI-specific threat modeling for class projects
-* T07.G6.01: Trace nested loops with variable bounds
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-
 
 ID: T32.G8.04
 Topic: T32 – Cybersecurity & Digital Safety
@@ -25806,10 +24923,6 @@ Dependencies:
 * T32.G8.03: Audit AI projects for security vulnerabilities
 * T32.G7.04: Analyze facial recognition technology ethics and societal impacts
 * T32.G7.05: Evaluate emotion detection and behavior analysis ethics
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-
 
 ID: T32.G8.05
 Topic: T32 – Cybersecurity & Digital Safety
@@ -25822,9 +24935,6 @@ Dependencies:
 * T32.G7.03: Implement secure logging and monitoring in CreatiCode apps
 * T32.G8.03: Audit AI projects for security vulnerabilities
 * T32.G8.04: Audit AI projects for ethical concerns
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T33.GK.01
@@ -26189,9 +25299,6 @@ Dependencies:
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T33.G7.01: List, add, and remove sheets in a Google Spreadsheet
 * T33.G7.02: Perform targeted Google Sheets cell operations
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T33.G8.02
@@ -26204,9 +25311,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T33.G7.08: Compare service options and pick the right tool
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
-* T10.G6.01: Sort a table by a column
 
 
 ID: T33.G8.03
@@ -26219,9 +25323,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T33.G7.08: Compare service options and pick the right tool
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T33.G8.04
@@ -26235,9 +25336,6 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T33.G7.08: Compare service options and pick the right tool
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.02: Filter table rows based on a condition
 
 
 ID: T33.G8.05
@@ -26250,9 +25348,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T33.G7.08: Compare service options and pick the right tool
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
 
 
 ID: T33.G8.06
@@ -26266,10 +25361,6 @@ Dependencies:
 * T31.G6.01: Trace the steps of an HTTP/HTTPS request
 * T33.G7.07: Build workflows that combine multiple services
 * T33.G8.04: Validate and sanitize data received from external services
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
-
 
 ID: T34.GK.01
 Topic: T34 – Computing History
@@ -26516,9 +25607,6 @@ Description: Students analyze historical patterns (processor speeds, adoption cu
 Dependencies:
 * T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 * T34.G7.01: Research AI history milestones
-* T03.G6.01: Propose modules for a medium project
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T33.G6.01: Identify and test Cloud blocks for network dependencies
 
 
 ID: T34.G8.02
@@ -26529,7 +25617,6 @@ Description: Learners investigate how policies, education, and industry shaped c
 Dependencies:
 * T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 * T34.G7.02: Evaluate technology policies over time
-* T10.G6.01: Sort a table by a column
 
 
 ID: T34.G8.03
@@ -26540,8 +25627,6 @@ Description: Students gather primary sources (oral histories, historical documen
 Dependencies:
 * T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 * T34.G7.03: Create museum-style exhibits for innovators
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T36.G6.01: Compare computing career clusters (software, hardware, data, AI)
 
 
 ID: T35.GK.01
@@ -27051,9 +26136,6 @@ Description: Students build an ethical evaluation tool using widgets and table v
 Dependencies:
 * T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
 * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
-* T02.G6.01: Learn the pseudocode generation block
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T35.G8.01.01
@@ -27064,9 +26146,6 @@ Description: Following T22 chatbot projects, students analyze how AI-generated a
 Dependencies:
 * T35.G8.01: Apply ethical frameworks to real proposals
 * T35.G7.01: Conduct bias audits for AI content generation (T21-T22)
-* T07.G6.01: Trace nested loops with variable bounds
-* T10.G6.01: Sort a table by a column
-* T13.G6.01: Trace complex code with multiple variables
 
 
 ID: T35.G8.02
@@ -27077,9 +26156,6 @@ Description: Students create data-driven policy briefs with integrated visualiza
 Dependencies:
 * T35.G7.06: Facilitate community discussions on AI-powered tech policy
 * T35.G6.04: Examine digital divide data
-* T02.G6.01: Learn the pseudocode generation block
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T35.G8.03.01
@@ -27092,9 +26168,6 @@ Dependencies:
 * T35.G6.01: Apply ethics lenses (beneficence, fairness, autonomy)
 * T16.G8.01: Build complex multi-widget applications
 * T22.G8.01: Use ChatGPT for advanced analysis
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T06.G6.01: Trace event execution paths in a multi‑event program
-* T07.G6.01: Trace nested loops with variable bounds
 
 
 ID: T35.G8.03.02
@@ -27105,9 +26178,6 @@ Description: Using the impact assessment tool built in T35.G8.03.01, students co
 Dependencies:
 * T35.G8.03.01: Build impact assessment tool with scoring
 * T16.G8.01: Build complex multi-widget applications
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T08.G6.01a: Use conditionals in physics simulations
 
 
 ID: T35.G8.04
@@ -27118,9 +26188,6 @@ Description: Students design and build interactive workshop tools for teaching y
 Dependencies:
 * T35.G7.06: Facilitate community discussions on AI-powered tech policy
 * T35.G6.04: Examine digital divide data
-* T03.G6.01: Propose modules for a medium project
-* T07.G6.01: Trace nested loops with variable bounds
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 ID: T36.GK.01
@@ -27476,7 +26543,7 @@ Description: Students analyze scenarios of exclusive/inclusive behavior (interru
 Dependencies:
 * T36.G5.02: Follow a plan-build-feedback cycle
 * T36.G5.03: Evaluate representation and inclusion in tech career stories
-* T36.G5.01: Role-play resolving disagreements in a coding or design project
+* T36.G4.03: Role-play resolving disagreements in a coding or design project
 
 
 ID: T36.G7.04
@@ -27507,9 +26574,6 @@ Description: Students choose a target role (AI researcher, UX engineer, civic te
 Dependencies:
 * T36.G7.01.01: Research emerging tech careers and required skills
 * T36.G6.01.02: Connect AI skills to career pathways
-* T13.G6.01: Trace complex code with multiple variables
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T36.G8.02
@@ -27531,10 +26595,6 @@ Description: Students research how AI and automation affect different jobs, dist
 Dependencies:
 * T36.G6.01.02: Connect AI skills to career pathways
 * T36.G7.01.02: Discuss AI ethics and equity with tech professionals
-* T03.G6.01: Propose modules for a medium project
-* T10.G6.01: Sort a table by a column
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-
 
 ID: T36.G8.03.01
 Topic: T36 – Careers, Collaboration & Future Paths
@@ -27544,10 +26604,6 @@ Description: Students examine how AI's workplace effects differ across communiti
 Dependencies:
 * T36.G8.03: Research AI's impact on job displacement vs augmentation
 * T36.G6.01.01: Analyze representation in computing careers
-* T03.G6.01: Propose modules for a medium project
-* T10.G6.01: Sort a table by a column
-* T17.G6.01: Configure surface friction parameters
-
 
 ID: T36.G8.03.02
 Topic: T36 – Careers, Collaboration & Future Paths
@@ -27556,9 +26612,6 @@ Description: Students create a proposal for how AI tools could be deployed equit
 
 Dependencies:
 * T36.G8.03.01: Analyze how AI impacts vary by community
-* T12.G6.01: Analyze a program's structure using a checklist and suggest specific improvements
-* T22.G6.01.01: Make a basic ChatGPT request with one parameter
-* T26.G6.01: Map stakeholder questions to data requirements
 
 
 ID: T36.G8.04
@@ -27570,6 +26623,4 @@ Dependencies:
 * T36.G7.02: Design cross-functional team diagrams
 * T36.G7.03: Facilitate inclusive collaboration
 * T36.G6.02: Practice stand-ups, task boards, and sprint reviews in team projects
-* T08.G6.01a: Use conditionals in physics simulations
-* T34.G6.01: Analyze major waves of computing (mainframe → personal computer → internet → mobile → AI), identifying what each wave made possible and what barriers remained
 
