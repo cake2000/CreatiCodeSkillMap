@@ -1,15 +1,6 @@
-# T01 - Everyday Algorithms (Phase 1 Optimized - November 2025)
-# Applied Phase 1 topic-focused optimizations:
-# - Split T01.G2.18 into T01.G2.18.01 (identify) and T01.G2.18.02 (explain)
-# - Marked T01.G4.02 as CAPSTONE skill with scheduling guidance
-# - Clarified T01.G2.15-17 as picture-based matching ONLY (no code writing)
-# - Fixed truncated dependency descriptions in G7 skills
-# - Added structure explanation for T01.G5.02.XX sub-skills
-# - Fixed dependency reference mismatch in T01.GK.05
-# - Added concrete examples for recursion skills T01.G8.04-05
-# - Clarified assessment formats in T01.G3.11 and T01.G4.12
-# - Streamlined dependency lists (removed unnecessary cross-topic deps)
-# Total: 119 skills (1 new sub-skill added from split)
+# T01 - Everyday Algorithms (Optimized)
+# Applied optimizations based on comprehensive analysis
+# Total changes: Breaking down 12 skills, fixing 20+ dependencies, clarifying 15+ descriptions
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -50,7 +41,7 @@ Skill: Move the picture that's in the wrong place
 Description: **Student task:** Look at the pictures. One picture is in the wrong place. Move it to the right place. _Implementation note: Drag the "wrong" card into correct position. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
 
 Dependencies:
-* T01.GK.03: Identify the first and last steps in a sequence
+* T01.GK.03: Find the first and last pictures
 
 
 
@@ -300,7 +291,7 @@ Dependencies:
 ID: T01.G2.15
 Topic: T01 – Everyday Algorithms
 Skill: Match picture instructions to visual block commands
-Description: Students match simple picture‑based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block images, recognizing that pictures and blocks can represent the same algorithm. _Implementation note: Picture-based matching ONLY - no code writing or block arrangement. Drag‑and‑drop matching with 3–4 sequence pairs; auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students match simple picture‑based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block‑based commands, recognizing that pictures and blocks can represent the same algorithm. _Implementation note: Drag‑and‑drop matching with 3–4 sequence pairs; auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.13: Write directions to navigate a simple grid
@@ -308,8 +299,8 @@ Dependencies:
 
 ID: T01.G2.16
 Topic: T01 – Everyday Algorithms
-Skill: Match code block images to picture sequences
-Description: Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code block IMAGES does the same thing from 3-4 options. _Implementation note: Picture-based MCQ ONLY - students select from pre-drawn block images, no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Skill: Match code blocks to picture sequences
+Description: Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code blocks does the same thing from 3-4 options. _Implementation note: MCQ matching visual sequence to code blocks; auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.03: Replace repeated steps with a repeat instruction
@@ -319,35 +310,26 @@ Dependencies:
 ID: T01.G2.17
 Topic: T01 – Everyday Algorithms
 Skill: Identify the action each code block performs
-Description: Students look at simple code block IMAGES (move, turn, say) and identify what action each block performs by matching block images to picture-based behaviors (character moving, turning, speaking). _Implementation note: Picture-based MCQ matching block images to action pictures - no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students look at simple code blocks (move, turn, say) and identify what action each block performs by matching blocks to their behaviors. _Implementation note: MCQ matching blocks to actions; auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.02: Use "repeat" to make directions shorter
 * T01.G2.15: Match picture instructions to visual block commands
 
 
-ID: T01.G2.18.01
+ID: T01.G2.18
 Topic: T01 – Everyday Algorithms
-Skill: Find the mistake in a broken algorithm
-Description: Students look at a picture-based algorithm that doesn't work correctly and identify which step is wrong by selecting from picture-based answer choices. Focus is on IDENTIFICATION only - no explanation required at this stage. _Implementation note: MCQ with picture options identifying which step is wrong; auto‑graded. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Skill: Find and explain what's wrong with a broken algorithm
+Description: Students look at an algorithm that doesn't work correctly. What's wrong? Why doesn't it work? (They don't need to fix it yet, just identify and explain the problem.) _Implementation note: MCQ identifying error + choosing explanation; auto‑graded. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.14: Fix maze directions that miss the goal
 
 
-ID: T01.G2.18.02
-Topic: T01 – Everyday Algorithms
-Skill: Choose why an algorithm doesn't work
-Description: After identifying a mistake in an algorithm, students choose from simple picture-based explanations WHY the algorithm doesn't work. Example: "It goes the wrong way" vs "It misses a step" vs "It does steps in wrong order." _Implementation note: MCQ with simple picture+text explanations; auto-graded. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G2.18.01: Find the mistake in a broken algorithm
-
-
 ID: T01.G2.19
 Topic: T01 – Everyday Algorithms
 Skill: Read a simple 3-block script and match to pictures
-Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. This bridges picture-based understanding to reading code. _Implementation note: MCQ matching code to pictures; auto-graded. Picture-based matching only - no code writing required. CSTA: E2-ALG-AF-01._
+Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. This bridges picture-based understanding to reading code. _Implementation note: MCQ matching code to pictures; auto-graded. CSTA: E2-ALG-AF-01._
 
 Dependencies:
 * T01.G2.17: Identify the action each code block performs
@@ -451,8 +433,8 @@ Dependencies:
 
 ID: T01.G3.11
 Topic: T01 – Everyday Algorithms
-Skill: Choose the best description of what a short program does
-Description: Students read a short script (5-8 blocks) and select the best one-sentence description from 4 options that explains what the script achieves (its goal) and how it achieves it (the key actions). _Implementation note: MCQ with 4 description options; auto-graded. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
+Skill: Explain in words what a short program does
+Description: Students select or write a one‑sentence description of what a short script achieves (its goal) and how it achieves it (the key actions it performs). _Implementation note: Code‑reading MCQ/short answer. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 Dependencies:
 * T07.G3.02: Trace a script with a simple loop
@@ -517,13 +499,15 @@ Dependencies:
 
 ID: T01.G4.02
 Topic: T01 – Everyday Algorithms
-Skill: Implement a written plan in code (Capstone)
-Description: **CAPSTONE SKILL** - Students turn a given plan into a CreatiCode script and test it, converting each step from T01.G4.01 into code blocks. This integrates planning, coding, and testing. _Implementation note: Schedule in Q3-Q4 of Grade 4 after students have mastered component skills separately. Coding task; auto‑grading checks match between plan and behavior. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
+Skill: Implement a written plan in code
+Description: Students turn a given plan into a CreatiCode script and test it, converting each step from T01.G4.01 into a few code blocks. _Implementation note: Coding; auto‑grading checks match between plan and behavior. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
 
 Dependencies:
 * T01.G4.01: Plan steps for a coded maze or goal‑reach task
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G3.01: Use a counted repeat loop
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T08.G3.01: Use a simple if in a script
 * T13.G3.01: Test and trace simple block-based scripts
 
@@ -689,13 +673,16 @@ Dependencies:
 
 ID: T01.G4.12
 Topic: T01 – Everyday Algorithms
-Skill: Choose and explain why one algorithm solution is better
-Description: Students compare two working algorithms that achieve the same goal and select which is better, then choose the best explanation from provided options: (a) fewer steps/shorter, (b) easier to understand/clearer, or (c) uses better structures like loops. _Implementation note: Two-part MCQ: (1) select best algorithm from 2-3 options, (2) select explanation from 3-4 provided reasons. Auto-graded. CSTA: E4‑ALG‑IM‑04._
+Skill: Explain why one algorithm solution is better than another
+Description: Students compare two working algorithms that achieve the same goal and explain which is better based on provided criteria: (a) fewer steps/shorter, (b) easier to understand/clearer, or (c) uses better structures like loops. _Implementation note: MCQ for selecting best algorithm + choosing explanation from provided reasons addressing clarity, efficiency, or structure. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
-* T01.G2.18.02: Choose why an algorithm doesn't work
+* T01.G2.18: Find and explain what's wrong with a broken algorithm
 * T01.G4.05.02: Explain why the loop version is better
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.03: Design a simple "if-then" game rule
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
@@ -745,21 +732,17 @@ Dependencies:
 * T02.G4.01: Read a simple flowchart with loops
 
 
-## T01.G5.02 Sub-Skills Structure
-## Flowchart-to-Code: T01.G5.02.01.XX (4 skills progressing from sequential → conditionals → loops → combined)
-## Pseudocode-to-Code: T01.G5.02.02.XX (4 skills following same progression)
-
 ID: T01.G5.02.01.01
 Topic: T01 – Everyday Algorithms
 Skill: Convert a sequential flowchart into code
 Description: Students implement a simple sequential flowchart (5-7 steps, no loops or conditionals) as block‑based code. Focus on mapping flowchart rectangles to action blocks. _Implementation note: Coding task; auto‑graded on behavior matching flowchart. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 Dependencies:
-* T01.G5.01: Match a word description to a flowchart (Flowchart reading)
-* T06.G3.01: Build a green‑flag script (Basic coding)
-* T09.G3.03: Use variables in expressions (Variables)
-* T10.G3.05: Create and use simple lists (Lists)
-* T10.G4.18: Advanced list operations (Lists)
+* T01.G5.01
+* T06.G3.01
+* T09.G3.03
+* T10.G3.05
+* T10.G4.18
 
 
 ID: T01.G5.02.01.02
@@ -1083,7 +1066,7 @@ Dependencies:
 * T01.G5.09.01: Explain why a loop visits all necessary values
 * T01.G5.09.02: Explain why variable updates maintain correctness
 * T01.G6.02: Compare how step counts grow with input size
-* T08.G5.01: Use conditional logic to analyze different cases in pattern identification
+* T08.G5.01: Pattern identification requires conditional logic to analyze different cases. T0
 
 
 ID: T01.G7.02
@@ -1156,7 +1139,7 @@ Description: Students explain which step causes the failure and why. _Implementa
 
 Dependencies:
 * T01.G7.06: Run an algorithm on edge cases and find failures
-* T08.G5.01: Apply conditional logic to understand boundary conditions and logic failures in edge cases
+* T08.G5.01: Edge case analysis requires understanding conditional boundaries and logic failu
 
 
 ID: T01.G7.08
@@ -1208,7 +1191,7 @@ Dependencies:
 ID: T01.G8.04
 Topic: T01 – Everyday Algorithms
 Skill: Identify base case and recursive step in an algorithm description
-Description: Students highlight base case and recursive step in a **natural‑language** description of a recursive process, keeping recursion **concept‑only** (no code blocks). **Concrete example:** Students see a story about counting nested boxes: "To count all boxes: if there are no boxes inside, count is 1 (base case). Otherwise, count this box plus count all boxes inside (recursive step)." Students identify which sentence is the base case and which is the recursive step. _Implementation note: MCQ/highlight; auto‑graded. CSTA: MS‑ALG‑PS‑07._
+Description: Students highlight base case and recursive step in a **natural‑language** description of a recursive process (e.g., "to count the blocks in a stack, count the top block, then count the rest"), keeping recursion **concept‑only** (no code blocks). _Implementation note: MCQ/highlight; auto‑graded. CSTA: MS‑ALG‑PS‑07._
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -1218,12 +1201,14 @@ Dependencies:
 ID: T01.G8.05
 Topic: T01 – Everyday Algorithms
 Skill: Trace a conceptual recursive algorithm on small inputs
-Description: Students step through a **diagram or story version** of recursion for small inputs, marking each call/return to show how the answer is built, without writing or reading recursive code. **Concrete example:** Given "To find the sum of numbers 1 to N: if N=1, sum is 1; otherwise, sum is N plus sum(1 to N-1)." Trace sum(3): sum(3)=3+sum(2), sum(2)=2+sum(1), sum(1)=1, then return: 1→3→6. Students fill in a visual call/return diagram. _Implementation note: Tracing table with call stack visualization; auto‑graded. CSTA: MS‑ALG‑PS‑07._
+Description: Students step through a **diagram or story version** of recursion (e.g., factorial, sum of list) for small inputs, marking each call/return to show how the answer is built, without writing or reading recursive code. _Implementation note: Tracing table; auto‑graded. CSTA: MS‑ALG‑PS‑07._
 
 Dependencies:
 * T01.G8.04: Identify base case and recursive step in an algorithm description
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T03.G6.01: Propose modules for a medium project
+* T08.G6.01a: Use conditionals in physics simulations
+* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 ID: T01.G8.06
@@ -1280,17 +1265,6 @@ Dependencies:
 * T01.G7.08: Rewrite a naive algorithm using a better pattern
 * T04.G6.01: Group snippets by underlying algorithm pattern
 
-
-# T02 - Algorithm Diagrams (Phase 1 Optimized - November 2025)
-# Applied Phase 1 topic-focused optimizations:
-# - Updated all "debug print" terminology to actual CreatiCode "print [MESSAGE] in [console] color [COLOR]" block
-# - Updated pseudocode generation skill to reflect actual block: "get scripts for all blocks from sprite into list"
-# - Updated breakpoint skills to reference actual CreatiCode "breakpoint" block and Debug Mode
-# - Added full skill names to incomplete dependency references (T10.G3.05, T10.G4.18)
-# - Verified all intra-topic dependencies follow X-2 rule
-# - Ensured grade-appropriate progression from picture-based (K-2) to block coding (3+)
-# - Skills already properly broken down with sub-skills (T02.G4.04.XX, T02.G7.02.XX, T02.G7.03.XX, T02.G8.01.XX)
-# Total: 61 skills (including sub-skills)
 
 ## KINDERGARTEN (4 skills - unchanged)
 
@@ -1609,8 +1583,8 @@ Dependencies:
 
 ID: T02.G4.05
 Topic: T02 – Algorithm Diagrams
-Skill: Understand the print block for tracing
-Description: Students learn to use the "print [MESSAGE] in [console] color [COLOR]" block from CreatiCode's Control category to display messages and variable values in the console panel below the editor. They understand that this helps them see what the algorithm is doing step-by-step during execution.
+Skill: Understand debug print blocks for tracing
+Description: Students learn to insert "debug print" blocks (console log) into their scripts to display variable values in the console, understanding that this helps them see what the algorithm is doing step-by-step.
 
 Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
@@ -1621,32 +1595,32 @@ Dependencies:
 
 Note: This skill requires understanding variables from T09 (Variables) topic. Assumes students have learned basic variable creation and use in T09.G3.01 or equivalent.
 
-**[CHANGED: Updated to reflect actual CreatiCode block - "print [MESSAGE] in [console] color [COLOR]"]**
+**[CHANGED: added T02.G4.04.04 dependency and note about variables]**
 
 
 ID: T02.G4.06
 Topic: T02 – Algorithm Diagrams
-Skill: Use the print block to trace variable changes in a loop
-Description: Students add "print [variable value] in [console]" blocks inside a repeat loop to see how a variable (like a counter) changes with each iteration, manually recording the console output to build a simple trace table on paper.
+Skill: Use debug print to trace variable changes in a loop
+Description: Students add debug print blocks inside a loop to see how a variable (like a counter) changes with each iteration, manually recording the values to build a simple trace table on paper.
 
 Dependencies:
-* T02.G4.05: Understand the print block for tracing
+* T02.G4.05: Understand debug print blocks for tracing
 * T02.G4.04.04: Predict loop output before using debug print
 * T04.G2.01: Identify the repeating unit in a longer pattern
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T13.G3.01: Test and trace simple block-based scripts
 
-**[CHANGED: Updated skill name and description to use "print block" terminology]**
+**[CHANGED: removed T02.G2.01 and T02.G2.02, added T02.G4.04.04]**
 
 
 ID: T02.G4.07
 Topic: T02 – Algorithm Diagrams
-Skill: Find and fix a sequencing error using the print block
-Description: Students are given a block script that produces the wrong result; they add "print" blocks at different points to display variable values and messages in the console, identify where the error occurs, and fix the block order.
+Skill: Find and fix a sequencing error using debug print
+Description: Students are given a block script that produces the wrong result; they add debug print blocks to identify where the error occurs and fix the block order.
 
 Dependencies:
-* T02.G4.06: Use the print block to trace variable changes in a loop
+* T02.G4.06: Use debug print to trace variable changes in a loop
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T13.G3.01: Test and trace simple block-based scripts
@@ -1670,52 +1644,52 @@ Dependencies:
 
 ID: T02.G5.01
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a script with nested loops using the print block
-Description: Students trace a CreatiCode script containing nested repeat blocks by adding "print" blocks inside both the inner and outer loops to display loop counters and understand how the loops interact, recording the console output to see the execution pattern.
+Skill: Trace a script with nested loops using debug print
+Description: Students trace a CreatiCode script containing nested repeat blocks by adding debug print statements and recording the output to understand how the inner and outer loops interact.
 
 Dependencies:
-* T02.G4.06: Use the print block to trace variable changes in a loop
+* T02.G4.06: Use debug print to trace variable changes in a loop
 * T02.G4.08: Build a simple nested repeat loop for a pattern
-* T10.G3.05: Work with lists
-* T10.G4.18: Advanced list operations
+* T10.G3.05
+* T10.G4.18
 * T07.G5.01: Simulate repeated experiments with a loop
 
-**[CHANGED: Updated to "print block" terminology, added full skill names to dependencies]**
+**[CHANGED: added full skill name to T02.G4.06 reference, added T02.G4.08 dependency]**
 
 
 ID: T02.G5.02
 Topic: T02 – Algorithm Diagrams
 Skill: Build a script with nested loops for a pattern
-Description: Students create a script using nested repeat blocks to generate a pattern (e.g., "draw a grid of stamps" by using outer loop for rows, inner loop for columns), demonstrating algorithmic thinking with nested structures.
+Description: Students create a script using nested repeat blocks to generate a pattern (e.g., "draw a grid" or "create rows of stamps"), demonstrating algorithmic thinking with nested structures.
 
 Dependencies:
-* T02.G5.01: Trace a script with nested loops using the print block
-* T10.G3.05: Work with lists
-* T10.G4.18: Advanced list operations
+* T02.G5.01: Trace a script with nested loops using debug print
+* T10.G3.05
+* T10.G4.18
 * T07.G5.01: Simulate repeated experiments with a loop
 * T04.G5.01: Recognize a counter update pattern
 * T03.G5.01: Create a feature list and subtask breakdown
 
-**[CHANGED: Updated dependency name, added full skill names]**
+**[CHANGED: added full skill name to T02.G5.01 reference]**
 
 
 ID: T02.G5.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace multiple variables using the print block
-Description: Students trace a script that tracks multiple changing values (like position and score) by strategically placing "print" blocks to display multiple variables in the console and recording the output in a simple table format.
+Skill: Trace multiple variables using debug print
+Description: Students trace a script that tracks multiple changing values (like position and score) by strategically placing debug print blocks and recording the output in a simple table.
 
 Dependencies:
-* T02.G4.06: Use the print block to trace variable changes in a loop
+* T02.G4.06: Use debug print to trace variable changes in a loop
 * T09.G5.01: Use multiple variables together in a single expression
 
 
 ID: T02.G5.04
 Topic: T02 – Algorithm Diagrams
 Skill: Create a manual trace table for a script with accumulation
-Description: Students run a script that accumulates values (adds to a running total) and create their own trace table format on paper showing how variables change at each step, using "print" block console output to verify their predictions.
+Description: Students run a script that accumulates values (adds to a running total) and create their own trace table format on paper showing how variables change at each step, using debug print output to verify their predictions.
 
 Dependencies:
-* T02.G5.03: Trace multiple variables using the print block
+* T02.G5.03: Trace multiple variables using debug print
 * T09.G5.01: Use multiple variables together in a single expression
 
 
@@ -1744,18 +1718,18 @@ Dependencies:
 ID: T02.G6.01
 Topic: T02 – Algorithm Diagrams
 Skill: Learn the pseudocode generation block
-Description: Students find the "get scripts for all blocks from sprite [SPRITE] into list [LIST]" block in CreatiCode's Control category. They learn that this block stores information about a sprite's code into a list, where list item 1 contains the pseudocode (a human-readable text description of what the algorithm does).
+Description: Students find and use the "get pseudocode from sprite blocks" block in CreatiCode's control category to convert their block scripts into text-based pseudocode that describes what the algorithm does.
 
 Dependencies:
 * T02.G5.02: Build a script with nested loops for a pattern
 
-**[CHANGED: Updated to reflect actual CreatiCode block syntax - "get scripts for all blocks from sprite into list" where list[1] = pseudocode]**
+**[CHANGED: improved description clarity - "find and use" instead of "discover and understand"]**
 
 
 ID: T02.G6.02
 Topic: T02 – Algorithm Diagrams
 Skill: Generate and read pseudocode from a simple script
-Description: Students build a simple block script (with sequence and one loop or if/else), use the "get scripts for all blocks from sprite into list" block, then read item 1 of the list to see the pseudocode and understand how their blocks translate to text descriptions.
+Description: Students build a simple block script (with sequence and one loop or if/else), use the pseudocode generation block to convert it, and read the resulting pseudocode to understand how their blocks translate to text descriptions.
 
 Dependencies:
 * T02.G6.01: Learn the pseudocode generation block
@@ -1764,7 +1738,7 @@ Dependencies:
 ID: T02.G6.03
 Topic: T02 – Algorithm Diagrams
 Skill: Compare block code to its generated pseudocode
-Description: Students create a script with loops and decisions, use the pseudocode generation block to retrieve the pseudocode, and identify how each block structure (repeat, if/else, sequence) is represented in the pseudocode text, building connection between visual blocks and written algorithm descriptions.
+Description: Students create a script with loops and decisions, generate its pseudocode, and identify how each block structure (repeat, if/else, sequence) is represented in the pseudocode text.
 
 Dependencies:
 * T02.G6.02: Generate and read pseudocode from a simple script
@@ -1790,8 +1764,8 @@ Dependencies:
 
 ID: T02.G6.06
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a data processing algorithm using the print block
-Description: Students trace a script that processes multiple inputs (e.g., "check 5 numbers and find the largest") by adding "print" blocks to show in the console how the algorithm examines each value and updates the result.
+Skill: Trace a data processing algorithm using debug print
+Description: Students trace a script that processes multiple inputs (e.g., "check 5 numbers and find the largest") using debug print blocks to show how the algorithm examines each value and updates the result.
 
 Dependencies:
 * T02.G5.04: Create a manual trace table for a script with accumulation
@@ -1800,13 +1774,13 @@ Dependencies:
 ID: T02.G6.07
 Topic: T02 – Algorithm Diagrams
 Skill: Build an algorithm to find maximum value in a list
-Description: Students create a script that examines each value in a list and tracks the largest one found (using a "max so far" variable), using the "print" block to show in the console when the maximum changes.
+Description: Students create a script that examines each value in a list and tracks the largest one found (using a "max so far" variable), using debug print to show when the maximum changes.
 
 Dependencies:
-* T02.G6.06: Trace a data processing algorithm using the print block
+* T02.G6.06: Trace a data processing algorithm using debug print
 * T10.G5.03: Work with list data structures
 
-**[BRIDGING SKILL - Updated to "print block" terminology]**
+**[NEW BRIDGING SKILL - fills gap between tracing data processing and building search algorithms]**
 
 
 ---
@@ -1816,90 +1790,90 @@ Dependencies:
 ID: T02.G7.01
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a simulation algorithm step-by-step
-Description: Students trace a CreatiCode script that models change over time (e.g., a counter incrementing each step, a sprite accelerating as it moves) using the "print" block to record state in the console after each iteration and predict future values based on the pattern.
+Description: Students trace a CreatiCode script that models change over time (e.g., a counter incrementing each step, a sprite accelerating as it moves) using debug print to record state after each iteration and predict future values based on the pattern.
 
 Dependencies:
-* T02.G6.06: Trace a data processing algorithm using the print block
+* T02.G6.06: Trace a data processing algorithm using debug print
 
-**[CHANGED: Updated to "print block" terminology]**
+**[CHANGED: improved description clarity - "models change over time" more specific than "models a process"]**
 
 
 ID: T02.G7.02.01
 Topic: T02 – Algorithm Diagrams
-Skill: Use the breakpoint block to pause execution
-Description: Students learn to add the "breakpoint" block from CreatiCode's Control category at a specific point in their script. When they run their program using Debug Mode (the blue arrow button next to the green flag), execution pauses at the breakpoint, allowing them to examine the program state.
+Skill: Set a breakpoint to pause algorithm execution
+Description: Students learn to set a breakpoint in CreatiCode on a specific block and run their script to see it pause at that point, understanding that breakpoints let them stop and examine their code mid-execution.
 
 Dependencies:
 * T02.G6.05: Debug using pseudocode comparison
 
-**[NEW SUB-SKILL - Updated to reflect actual CreatiCode "breakpoint" block and Debug Mode]**
+**[NEW SUB-SKILL - replaces overly broad T02.G7.02, part 1 of 3]**
 
 
 ID: T02.G7.02.02
 Topic: T02 – Algorithm Diagrams
 Skill: Examine variable values at a breakpoint
-Description: Students pause their script using a breakpoint block in Debug Mode and examine the current values of variables displayed in the variable panel to understand the program state at that moment, comparing actual values to their predictions.
+Description: Students pause their script at a breakpoint and examine the current values of variables to understand the program state at that moment, comparing actual values to their predictions.
 
 Dependencies:
-* T02.G7.02.01: Use the breakpoint block to pause execution
+* T02.G7.02.01: Set a breakpoint to pause algorithm execution
 * T09.G5.01: Inspecting execution requires understanding variable states and values
 
-**[SUB-SKILL - Updated dependency name]**
+**[NEW SUB-SKILL - part 2 of 3]**
 
 
 ID: T02.G7.02.03
 Topic: T02 – Algorithm Diagrams
 Skill: Step through algorithm execution block by block
-Description: Students use Debug Mode's step controls to execute their algorithm one block at a time after pausing at a breakpoint, watching how variables and sprite state change with each step. They practice using step-over to move through code systematically.
+Description: Students use the debugger's step controls to execute their algorithm one block at a time after hitting a breakpoint, watching how variables and sprite state change with each step.
 
 Dependencies:
 * T02.G7.02.02: Examine variable values at a breakpoint
 * T08.G5.01: Setting breakpoints often involves conditional stops based on variable states
 
-**[SUB-SKILL - Clarified Debug Mode step controls]**
+**[NEW SUB-SKILL - part 3 of 3]**
 
 
 ID: T02.G7.03.01
 Topic: T02 – Algorithm Diagrams
 Skill: Build a simple linear search algorithm
-Description: Students create a script that searches through a list of values sequentially to find a specific item (e.g., "check each number until you find 7"), understanding the basic linear search pattern using a repeat loop and list access.
+Description: Students create a script that searches through a list of values sequentially to find a specific item (e.g., "check each number until you find 7"), understanding the basic linear search pattern.
 
 Dependencies:
-* T02.G6.06: Trace a data processing algorithm using the print block
+* T02.G6.06: Trace a data processing algorithm using debug print
 * T02.G6.07: Build an algorithm to find maximum value in a list
 * T10.G5.03: Search algorithms operate on lists or collections of data
 
-**[SUB-SKILL - Updated dependency name]**
+**[NEW SUB-SKILL - replaces overly broad T02.G7.03, part 1 of 3]**
 
 
 ID: T02.G7.03.02
 Topic: T02 – Algorithm Diagrams
-Skill: Add print blocks to trace search steps
-Description: Students add "print" blocks to their search algorithm to display in the console each item being checked and whether it matches the target, making the search process visible step-by-step.
+Skill: Add debug print to trace search steps
+Description: Students add debug print blocks to their search algorithm to display each item being checked and whether it matches, making the search process visible.
 
 Dependencies:
 * T02.G7.03.01: Build a simple linear search algorithm
 * T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches
 
-**[SUB-SKILL - Updated to "print block" terminology]**
+**[NEW SUB-SKILL - part 2 of 3]**
 
 
 ID: T02.G7.03.03
 Topic: T02 – Algorithm Diagrams
 Skill: Build a search with early exit on match
-Description: Students modify their search algorithm to stop immediately when the target item is found (early exit using "stop this script" or a "found" variable) rather than checking all items, improving algorithm efficiency.
+Description: Students modify their search algorithm to stop immediately when the target item is found (early exit) rather than checking all items, using a variable to track whether a match was found.
 
 Dependencies:
-* T02.G7.03.02: Add print blocks to trace search steps
+* T02.G7.03.02: Add debug print to trace search steps
 * T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches
 
-**[SUB-SKILL - Updated dependency name]**
+**[NEW SUB-SKILL - part 3 of 3]**
 
 
 ID: T02.G7.04
 Topic: T02 – Algorithm Diagrams
 Skill: Generate pseudocode for a search algorithm
-Description: Students build a search algorithm in blocks, use the "get scripts for all blocks from sprite into list" block to retrieve the pseudocode, and analyze how the pseudocode represents the search logic (loop through items, check condition, return result).
+Description: Students build a search algorithm in blocks, use the pseudocode generation block to convert it, and analyze how the pseudocode represents the search logic (loop through items, check condition, return result).
 
 Dependencies:
 * T02.G7.03.03: Build a search with early exit on match
@@ -1911,10 +1885,10 @@ Dependencies:
 ID: T02.G7.05
 Topic: T02 – Algorithm Diagrams
 Skill: Compare search algorithm efficiency using step counts
-Description: Students compare two different search algorithms (e.g., linear search with different stopping conditions) by counting how many steps/checks each makes for the same input, using "print" blocks to count and display iterations in the console.
+Description: Students compare two different search algorithms (e.g., linear search with different stopping conditions) by counting how many steps/checks each makes for the same input, using debug print to count iterations.
 
 Dependencies:
-* T02.G7.03.02: Add print blocks to trace search steps
+* T02.G7.03.02: Add debug print to trace search steps
 * T02.G5.05: Compare two algorithms by counting blocks
 * T08.G5.01: Efficiency comparison requires conditional analysis of different scenarios
 
@@ -1922,11 +1896,11 @@ Dependencies:
 ID: T02.G7.06
 Topic: T02 – Algorithm Diagrams
 Skill: Trace an algorithm to find edge case bugs
-Description: Students test their algorithms with edge cases (empty list, single element, all same values) using "print" blocks and breakpoints in Debug Mode to identify where the algorithm fails or produces unexpected results.
+Description: Students test their algorithms with edge cases (empty list, single element, all same values) using debug print and breakpoints to identify where the algorithm fails or produces unexpected results.
 
 Dependencies:
 * T02.G7.02.03: Step through algorithm execution block by block
-* T02.G7.03.02: Add print blocks to trace search steps
+* T02.G7.03.02: Add debug print to trace search steps
 * T08.G5.01: Finding edge case bugs requires understanding conditional logic boundaries
 * T10.G5.01: Algorithm tracing often involves tracking values in lists or arrays
 
@@ -1988,7 +1962,7 @@ Dependencies:
 ID: T02.G8.03
 Topic: T02 – Algorithm Diagrams
 Skill: Trace complex algorithms with multiple test cases
-Description: Students systematically trace their algorithms using multiple test cases (normal, edge, boundary), recording inputs and outputs using "print" blocks and manual trace tables to verify correctness across different scenarios.
+Description: Students systematically trace their algorithms using multiple test cases (normal, edge, boundary), recording inputs and outputs using debug print and manual trace tables to verify correctness.
 
 Dependencies:
 * T02.G8.02: Implement and verify pseudocode with block code
@@ -2013,7 +1987,7 @@ Dependencies:
 ID: T02.G8.05
 Topic: T02 – Algorithm Diagrams
 Skill: Compare deterministic and probabilistic algorithms
-Description: Students build and trace two versions of an algorithm—one that always gives the same result (deterministic) and one that includes randomness using CreatiCode's "pick random" block (probabilistic)—using "print" blocks to compare outputs across multiple runs and discuss when each approach is appropriate.
+Description: Students build and trace two versions of an algorithm—one that always gives the same result (deterministic) and one that includes randomness (probabilistic)—using debug print to compare outputs across multiple runs and discussing when each approach is appropriate.
 
 Dependencies:
 * T02.G7.01: Trace a simulation algorithm step-by-step
@@ -2023,7 +1997,7 @@ Dependencies:
 
 Note: This is an advanced concept. Provide examples of when randomness is useful (games, simulations) vs. when consistency is required (calculations, sorting).
 
-**[CHANGED: Updated to "print block" terminology, added "pick random" block reference]**
+**[CHANGED: added teaching note about advanced difficulty]**
 
 
 
