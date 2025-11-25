@@ -1,0 +1,1333 @@
+{
+  "grade7_analysis": {
+    "total_skills": 335,
+    "skills_by_topic": {
+      "Everyday Algorithms": 9,
+      "Programs & Debugging": 6,
+      "Sequencing": 6,
+      "Loops": 10,
+      "Events": 8,
+      "Conditionals": 10,
+      "Variables": 4,
+      "Functions": 2,
+      "Operators": 9,
+      "Data Structures": 14,
+      "Cloning": 4,
+      "Custom Blocks": 4,
+      "Animation": 6,
+      "Game Design": 9,
+      "Game Mechanics": 4,
+      "UI Design": 5,
+      "Drawing": 16,
+      "Pen Effects": 16,
+      "Sound": 12,
+      "Music": 12,
+      "Text": 30,
+      "Multimedia": 10,
+      "Interactions": 11,
+      "Simulation": 20,
+      "Math": 15,
+      "Data Analysis": 8,
+      "AI": 7,
+      "Sensors": 8,
+      "Robotics": 5,
+      "Electronics": 7,
+      "Networks": 11,
+      "Cybersecurity": 5,
+      "Web": 12,
+      "Databases": 3,
+      "Computer Systems": 10,
+      "Ethics": 7
+    },
+    "dependency_issues": [
+      {
+        "skill_id": "T01.G7.03.01",
+        "skill_name": "Write pseudocode for a \"find max\" search algorithm",
+        "topic": "Everyday Algorithms",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T01.G5.04.01",
+          "T04.G2.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T04.G2.01",
+        "violating_grade": "G2",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T01.G5.04.01",
+          "T09.G3.01.04"
+        ],
+        "rationale": "Grade 7 skill depends on G2 (grade 2), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T01.G7.03.01",
+        "skill_name": "Write pseudocode for a \"find max\" search algorithm",
+        "topic": "Everyday Algorithms",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T01.G5.04.01",
+          "T04.G2.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T01.G5.04.01",
+          "T04.G2.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T01.G7.03.02",
+        "skill_name": "Write pseudocode for a \"count matches\" accumulation algorithm",
+        "topic": "Everyday Algorithms",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T01.G5.04.02",
+          "T04.G2.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T04.G2.01",
+        "violating_grade": "G2",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T01.G5.04.02",
+          "T09.G3.01.04"
+        ],
+        "rationale": "Grade 7 skill depends on G2 (grade 2), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T01.G7.03.02",
+        "skill_name": "Write pseudocode for a \"count matches\" accumulation algorithm",
+        "topic": "Everyday Algorithms",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T01.G5.04.02",
+          "T04.G2.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T01.G5.04.02",
+          "T04.G2.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T01.G7.08",
+        "skill_name": "Rewrite a naive algorithm using a better pattern",
+        "topic": "Everyday Algorithms",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T01.G7.02",
+          "T04.G2.01",
+          "T07.G3.01"
+        ],
+        "violating_dependency": "T04.G2.01",
+        "violating_grade": "G2",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T01.G7.02",
+          "T07.G3.01"
+        ],
+        "rationale": "Grade 7 skill depends on G2 (grade 2), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T01.G7.08",
+        "skill_name": "Rewrite a naive algorithm using a better pattern",
+        "topic": "Everyday Algorithms",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T01.G7.02",
+          "T04.G2.01",
+          "T07.G3.01"
+        ],
+        "violating_dependency": "T07.G3.01",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T01.G7.02",
+          "T04.G2.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T03.G7.01",
+        "skill_name": "Draw an architecture diagram for a multi\u2011component project",
+        "topic": "Sequencing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T03.G6.01",
+          "T02.G3.01",
+          "T04.G5.01"
+        ],
+        "violating_dependency": "T02.G3.01",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T03.G6.01",
+          "T04.G5.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T03.G7.02",
+        "skill_name": "Map functional modules to architecture components",
+        "topic": "Sequencing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T03.G7.01",
+          "T06.G3.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T06.G3.01",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T03.G7.01",
+          "T09.G3.01.04"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T03.G7.02",
+        "skill_name": "Map functional modules to architecture components",
+        "topic": "Sequencing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T03.G7.01",
+          "T06.G3.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T03.G7.01",
+          "T06.G3.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T03.G7.04",
+        "skill_name": "Redesign a project structure to fix specific problems",
+        "topic": "Sequencing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T03.G7.03",
+          "T06.G3.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T06.G3.01",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T03.G7.03",
+          "T09.G3.01.04"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T03.G7.04",
+        "skill_name": "Redesign a project structure to fix specific problems",
+        "topic": "Sequencing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T03.G7.03",
+          "T06.G3.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T03.G7.03",
+          "T06.G3.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T04.G7.05",
+        "skill_name": "Implement a combined pattern solution",
+        "topic": "Loops",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T04.G7.04",
+          "T06.G3.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T06.G3.01",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T04.G7.04",
+          "T09.G3.01.04"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T04.G7.05",
+        "skill_name": "Implement a combined pattern solution",
+        "topic": "Loops",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T04.G7.04",
+          "T06.G3.01",
+          "T09.G3.01.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T04.G7.04",
+          "T06.G3.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T04.G7.06",
+        "skill_name": "Trace a composite pattern and identify each pattern used",
+        "topic": "Loops",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T04.G7.03",
+          "T06.G3.01"
+        ],
+        "violating_dependency": "T06.G3.01",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T04.G7.03"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T06.G7.07",
+        "skill_name": "Design animation sequences with broadcast coordination",
+        "topic": "Conditionals",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T06.G4.04.01",
+          "T06.G7.03"
+        ],
+        "violating_dependency": "T06.G4.04.01",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T06.G7.03"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T10.G7.08",
+        "skill_name": "Use regex patterns to find items in lists",
+        "topic": "Data Structures",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T10.G4.08",
+          "T09.G6.02"
+        ],
+        "violating_dependency": "T10.G4.08",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T09.G6.02"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T13.G7.01",
+        "skill_name": "Write comprehensive test cases for an algorithm",
+        "topic": "Animation",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.01.04",
+          "T13.G6.03"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T13.G6.03"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T13.G7.02",
+        "skill_name": "Debug logic errors in complex programs",
+        "topic": "Animation",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.01.04",
+          "T13.G6.01"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T13.G6.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T13.G7.03",
+        "skill_name": "Simplify complex code to make it easier to understand and test",
+        "topic": "Animation",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.01.04",
+          "T13.G6.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T13.G6.04"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T13.G7.03",
+        "skill_name": "Simplify complex code to make it easier to understand and test",
+        "topic": "Animation",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.01.04",
+          "T13.G6.04"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T04.G5.01"
+        ],
+        "rationale": "Continuous animation requires loop knowledge"
+      },
+      {
+        "skill_id": "T14.G7.01",
+        "skill_name": "Spatial partitioning (grid-based movement)",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.04",
+          "T09.G6.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T04.G5.01"
+        ],
+        "rationale": "Game with movement/enemies requires loop knowledge for game mechanics"
+      },
+      {
+        "skill_id": "T14.G7.01",
+        "skill_name": "Spatial partitioning (grid-based movement)",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.04",
+          "T09.G6.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.02",
+        "skill_name": "Basic pathfinding",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.01.02",
+          "T08.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T04.G5.01"
+        ],
+        "rationale": "Game with movement/enemies requires loop knowledge for game mechanics"
+      },
+      {
+        "skill_id": "T14.G7.02",
+        "skill_name": "Basic pathfinding",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.01.02",
+          "T08.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.03",
+        "skill_name": "Balanced enemy spawning",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T10.G5.01",
+          "T14.G5.08"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T04.G5.01"
+        ],
+        "rationale": "Game with movement/enemies requires loop knowledge for game mechanics"
+      },
+      {
+        "skill_id": "T14.G7.03",
+        "skill_name": "Balanced enemy spawning",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T10.G5.01",
+          "T14.G5.08"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.04",
+        "skill_name": "Monitor clone performance",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.07",
+          "T12.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T04.G5.01"
+        ],
+        "rationale": "Game with movement/enemies requires loop knowledge for game mechanics"
+      },
+      {
+        "skill_id": "T14.G7.04",
+        "skill_name": "Monitor clone performance",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.07",
+          "T12.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Game state tracking (score/health/timer) requires variable knowledge"
+      },
+      {
+        "skill_id": "T14.G7.04",
+        "skill_name": "Monitor clone performance",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G6.07",
+          "T12.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.05",
+        "skill_name": "Difficulty curves",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T10.G5.01",
+          "T14.G5.08"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.06",
+        "skill_name": "Advanced level management system",
+        "topic": "Game Design",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T14.G4.09",
+          "T14.G4.10",
+          "T10.G5.01"
+        ],
+        "violating_dependency": "T14.G4.09",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T14.G4.10",
+          "T10.G5.01"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T14.G7.06",
+        "skill_name": "Advanced level management system",
+        "topic": "Game Design",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T14.G4.09",
+          "T14.G4.10",
+          "T10.G5.01"
+        ],
+        "violating_dependency": "T14.G4.10",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T14.G4.09",
+          "T10.G5.01"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T14.G7.06",
+        "skill_name": "Advanced level management system",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G4.09",
+          "T14.G4.10",
+          "T10.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T04.G5.01"
+        ],
+        "rationale": "Game with movement/enemies requires loop knowledge for game mechanics"
+      },
+      {
+        "skill_id": "T14.G7.06",
+        "skill_name": "Advanced level management system",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G4.09",
+          "T14.G4.10",
+          "T10.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Game state tracking (score/health/timer) requires variable knowledge"
+      },
+      {
+        "skill_id": "T14.G7.06",
+        "skill_name": "Advanced level management system",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G4.09",
+          "T14.G4.10",
+          "T10.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.07.01",
+        "skill_name": "Save high score to cloud",
+        "topic": "Game Design",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T14.G4.06",
+          "T09.G5.01"
+        ],
+        "violating_dependency": "T14.G4.06",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T09.G5.01"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T14.G7.07.01",
+        "skill_name": "Save high score to cloud",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G4.06",
+          "T09.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Game state tracking (score/health/timer) requires variable knowledge"
+      },
+      {
+        "skill_id": "T14.G7.07.01",
+        "skill_name": "Save high score to cloud",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G4.06",
+          "T09.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.07.02",
+        "skill_name": "Save player progress and settings to cloud",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G7.07.01",
+          "T10.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T14.G7.07.03",
+        "skill_name": "Create global leaderboard",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G5.09",
+          "T14.G7.07.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Game state tracking (score/health/timer) requires variable knowledge"
+      },
+      {
+        "skill_id": "T14.G7.07.03",
+        "skill_name": "Create global leaderboard",
+        "topic": "Game Design",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T14.G5.09",
+          "T14.G7.07.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T15.G7.01",
+        "skill_name": "Scene manager sprite",
+        "topic": "Game Mechanics",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T15.G6.03",
+          "T15.G5.01",
+          "T16.G4.03"
+        ],
+        "violating_dependency": "T16.G4.03",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T15.G6.03",
+          "T15.G5.01"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T15.G7.01",
+        "skill_name": "Scene manager sprite",
+        "topic": "Game Mechanics",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T15.G6.03",
+          "T15.G5.01",
+          "T16.G4.03"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Game state tracking (score/health/timer) requires variable knowledge"
+      },
+      {
+        "skill_id": "T15.G7.01",
+        "skill_name": "Scene manager sprite",
+        "topic": "Game Mechanics",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T15.G6.03",
+          "T15.G5.01",
+          "T16.G4.03"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T15.G7.02",
+        "skill_name": "AI text-to-speech narration",
+        "topic": "Game Mechanics",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T15.G6.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T15.G7.03",
+        "skill_name": "Split text at delimiter",
+        "topic": "Game Mechanics",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T12.G5.01",
+          "T15.G6.02",
+          "T07.G5.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T06.G5.01"
+        ],
+        "rationale": "Game logic (collision/win-lose) requires conditional knowledge"
+      },
+      {
+        "skill_id": "T17.G7.01",
+        "skill_name": "Launch a configurable projectile",
+        "topic": "Drawing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.01.04",
+          "T17.G5.08",
+          "T17.G6.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T17.G5.08",
+          "T17.G6.04"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T17.G7.06",
+        "skill_name": "Model a real-world physics scenario",
+        "topic": "Drawing",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.01.04",
+          "T17.G6.08"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T17.G6.08"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T19.G7.00A",
+        "skill_name": "Implement different behaviors for different roles",
+        "topic": "Sound",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T19.G6.00",
+          "T19.G6.01",
+          "T08.G4.01"
+        ],
+        "violating_dependency": "T08.G4.01",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T19.G6.00",
+          "T19.G6.01"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T20.G7.08",
+        "skill_name": "Generate custom 3D shapes from calculated vertices",
+        "topic": "Music",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T20.G6.05.02",
+          "T10.G4.02"
+        ],
+        "violating_dependency": "T10.G4.02",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T20.G6.05.02"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T24.G7.01",
+        "skill_name": "Create reusable XO prompt templates in lists",
+        "topic": "Simulation",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T09.G5.01",
+          "T10.G5.03",
+          "T24.G6.05",
+          "T24.G6.06"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Simulation state tracking requires variable knowledge"
+      },
+      {
+        "skill_id": "T24.G7.04",
+        "skill_name": "Enforce responsible-use rules for XO assistance",
+        "topic": "Simulation",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T10.G5.03",
+          "T24.G6.05",
+          "T24.G5.05",
+          "T24.G7.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Simulation state tracking requires variable knowledge"
+      },
+      {
+        "skill_id": "T24.G7.07.02",
+        "skill_name": "Create gesture vocabulary systems",
+        "topic": "Simulation",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T09.G5.01",
+          "T24.G7.07.01",
+          "T24.G7.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Simulation state tracking requires variable knowledge"
+      },
+      {
+        "skill_id": "T24.G7.08.01",
+        "skill_name": "Understand 3D pose detection with 33 body parts",
+        "topic": "Simulation",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T09.G5.01",
+          "T24.G6.11.01"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Simulation state tracking requires variable knowledge"
+      },
+      {
+        "skill_id": "T24.G7.10",
+        "skill_name": "Build prediction projects with KNN classifier",
+        "topic": "Simulation",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G5.04",
+          "T24.G7.09"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T07.G5.01"
+        ],
+        "rationale": "Simulation state tracking requires variable knowledge"
+      },
+      {
+        "skill_id": "T26.G7.01",
+        "skill_name": "Build reusable data collection modules",
+        "topic": "Data Analysis",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T06.G5.01",
+          "T09.G3.05",
+          "T10.G5.03",
+          "T11.G5.02",
+          "T26.G6.01"
+        ],
+        "violating_dependency": "T09.G3.05",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T06.G5.01",
+          "T10.G5.03",
+          "T11.G5.02",
+          "T26.G6.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T26.G7.02",
+        "skill_name": "Monitor data quality in real time",
+        "topic": "Data Analysis",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T09.G3.01.04",
+          "T09.G3.05",
+          "T10.G5.03",
+          "T26.G6.04",
+          "T26.G7.01"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T09.G3.05",
+          "T10.G5.03",
+          "T26.G6.04",
+          "T26.G7.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T26.G7.02",
+        "skill_name": "Monitor data quality in real time",
+        "topic": "Data Analysis",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T09.G3.01.04",
+          "T09.G3.05",
+          "T10.G5.03",
+          "T26.G6.04",
+          "T26.G7.01"
+        ],
+        "violating_dependency": "T09.G3.05",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T09.G3.01.04",
+          "T10.G5.03",
+          "T26.G6.04",
+          "T26.G7.01"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T26.G7.03",
+        "skill_name": "Document provenance for external CSV datasets",
+        "topic": "Data Analysis",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.05",
+          "T10.G5.03",
+          "T26.G5.04",
+          "T26.G6.03"
+        ],
+        "violating_dependency": "T09.G3.05",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T10.G5.03",
+          "T26.G5.04",
+          "T26.G6.03"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T26.G7.04",
+        "skill_name": "Evaluate bias risks introduced during collection",
+        "topic": "Data Analysis",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T08.G5.01",
+          "T09.G3.05",
+          "T10.G5.03",
+          "T26.G5.02",
+          "T26.G7.02"
+        ],
+        "violating_dependency": "T09.G3.05",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T08.G5.01",
+          "T10.G5.03",
+          "T26.G5.02",
+          "T26.G7.02"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T26.G7.05",
+        "skill_name": "Debug data collection scripts using print statements",
+        "topic": "Data Analysis",
+        "issue_type": "missing_cross_topic",
+        "current_dependencies": [
+          "T26.G5.01",
+          "T26.G5.04"
+        ],
+        "recommended_action": "add",
+        "recommended_dependencies": [
+          "T10.G5.01"
+        ],
+        "rationale": "Data analysis requires data structure knowledge"
+      },
+      {
+        "skill_id": "T27.G7.01",
+        "skill_name": "Build multi-chart dashboards with linked filters",
+        "topic": "AI",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T10.G4.01",
+          "T26.G5.04",
+          "T27.G6.03",
+          "T27.G6.04"
+        ],
+        "violating_dependency": "T10.G4.01",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T26.G5.04",
+          "T27.G6.03",
+          "T27.G6.04"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T27.G7.02b",
+        "skill_name": "Calculate moving averages for trend smoothing",
+        "topic": "AI",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T27.G6.03",
+          "T27.G7.01",
+          "T10.G4.01"
+        ],
+        "violating_dependency": "T10.G4.01",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T27.G6.03",
+          "T27.G7.01"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T29.G7.01.01",
+        "skill_name": "Build keyword-based retrieval system",
+        "topic": "Robotics",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T29.G5.03.02",
+          "T29.G6.02",
+          "T29.G6.03",
+          "T11.G6.01",
+          "T09.G3.05",
+          "T10.G5.03"
+        ],
+        "violating_dependency": "T09.G3.05",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T29.G5.03.02",
+          "T29.G6.02",
+          "T29.G6.03",
+          "T11.G6.01",
+          "T10.G5.03"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T29.G7.04",
+        "skill_name": "Critically annotate AI vs human summaries",
+        "topic": "Robotics",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T29.G4.05.02",
+          "T29.G5.05",
+          "T29.G6.04"
+        ],
+        "violating_dependency": "T29.G4.05.02",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T29.G5.05",
+          "T29.G6.04"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T30.G7.06",
+        "skill_name": "Optimize CreatiCode projects for mobile vs desktop devices",
+        "topic": "Electronics",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T30.G4.05",
+          "T30.G5.05"
+        ],
+        "violating_dependency": "T30.G4.05",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T30.G5.05"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T31.G7.02.03",
+        "skill_name": "Insert data into a database collection using tables",
+        "topic": "Networks",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T09.G3.01.04",
+          "T31.G5.04"
+        ],
+        "violating_dependency": "T09.G3.01.04",
+        "violating_grade": "G3",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T31.G5.04"
+        ],
+        "rationale": "Grade 7 skill depends on G3 (grade 3), which violates X-2 rule (must be >= grade 5)"
+      },
+      {
+        "skill_id": "T36.G7.03",
+        "skill_name": "Facilitate inclusive collaboration",
+        "topic": "Ethics",
+        "issue_type": "x2_violation",
+        "current_dependencies": [
+          "T36.G5.02",
+          "T36.G5.03",
+          "T36.G4.03"
+        ],
+        "violating_dependency": "T36.G4.03",
+        "violating_grade": "G4",
+        "recommended_action": "remove",
+        "recommended_dependencies": [
+          "T36.G5.02",
+          "T36.G5.03"
+        ],
+        "rationale": "Grade 7 skill depends on G4 (grade 4), which violates X-2 rule (must be >= grade 5)"
+      }
+    ],
+    "cross_topic_patterns": [
+      {
+        "pattern": "Game skills missing loop dependencies",
+        "affected_skills": [
+          "T14.G7.01",
+          "T14.G7.02",
+          "T14.G7.03",
+          "T14.G7.04",
+          "T14.G7.05",
+          "T14.G7.06",
+          "T14.G7.07.01",
+          "T14.G7.07.02",
+          "T14.G7.07.03",
+          "T15.G7.01",
+          "T15.G7.02",
+          "T15.G7.03",
+          "T15.G7.04"
+        ],
+        "recommendation": "Add dependencies on T04 (Loops) G5/G6 skills for game mechanics"
+      },
+      {
+        "pattern": "Game skills missing variable dependencies",
+        "affected_skills": [
+          "T14.G7.01",
+          "T14.G7.02",
+          "T14.G7.03",
+          "T14.G7.04",
+          "T14.G7.05",
+          "T14.G7.06",
+          "T14.G7.07.01",
+          "T14.G7.07.02",
+          "T14.G7.07.03",
+          "T15.G7.01",
+          "T15.G7.02",
+          "T15.G7.04"
+        ],
+        "recommendation": "Add dependencies on T07 (Variables) G5/G6 skills for score/state tracking"
+      },
+      {
+        "pattern": "Game skills missing conditional dependencies",
+        "affected_skills": [
+          "T14.G7.01",
+          "T14.G7.02",
+          "T14.G7.03",
+          "T14.G7.04",
+          "T14.G7.05",
+          "T14.G7.06",
+          "T14.G7.07.01",
+          "T14.G7.07.02",
+          "T14.G7.07.03",
+          "T15.G7.01",
+          "T15.G7.02",
+          "T15.G7.03",
+          "T15.G7.04"
+        ],
+        "recommendation": "Add dependencies on T06 (Conditionals) G5/G6 skills for game logic"
+      },
+      {
+        "pattern": "Animation skills missing loop dependencies",
+        "affected_skills": [
+          "T13.G7.01",
+          "T13.G7.02",
+          "T13.G7.03",
+          "T13.G7.04",
+          "T13.G7.05",
+          "T13.G7.06"
+        ],
+        "recommendation": "Add dependencies on T04 (Loops) for continuous animation"
+      },
+      {
+        "pattern": "Data analysis skills missing data structure dependencies",
+        "affected_skills": [
+          "T26.G7.05"
+        ],
+        "recommendation": "Add dependencies on T10 (Data Structures) for working with datasets"
+      }
+    ],
+    "summary": {
+      "total_issues": 68,
+      "x2_violations": 39,
+      "missing_cross_topic": 29,
+      "transitive_redundant": 0
+    }
+  }
+}

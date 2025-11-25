@@ -238,7 +238,7 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < gradeList.length; i++) {
-      if (iteration === 0 && i < 1) continue; // skip some grades for testing
+      if (iteration === 0 && i < 6) continue; // skip some grades for testing
       const grade = gradeList[i];
       console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade}`);
       console.log(`${"─".repeat(50)}`);
@@ -345,7 +345,7 @@ Automatically fix all dependency issues for grade ${grade} skills. For output, s
         } catch (error) {
           console.error(`\n❌ Error processing grade ${grade}:`, error.message.substring(0, 100));
           const errorStr = error.toString().toLowerCase();
-          if (errorStr.includes("api error") || errorStr.includes("usage limit")) {
+          if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
             console.log(`⏰ API limit - waiting 3 minutes...`);
             await waitWithCountdown(3);
             retryCount++;

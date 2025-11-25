@@ -42,9 +42,9 @@ def load_all_skill_ids() -> Set[str]:
 
 def find_skill_title(skill_id: str, allskills_content: str) -> str:
     """Find the title of a skill from allskills.md content"""
-    # Look for the skill block
-    pattern = rf"## {re.escape(skill_id)}\n\nSkill: (.+?)\n"
-    match = re.search(pattern, allskills_content)
+    # Look for the skill block - format is "ID: TXXX.GX.XX\nTopic: ...\nSkill: ..."
+    pattern = rf"ID: {re.escape(skill_id)}\n.*?\nSkill: (.+?)\n"
+    match = re.search(pattern, allskills_content, re.DOTALL)
     if match:
         return match.group(1)
     return skill_id  # Fallback to ID if title not found
@@ -55,8 +55,8 @@ def find_skill_block(skill_id: str, content: str) -> Tuple[int, int, str]:
     Find a skill block in the content
     Returns: (start_pos, end_pos, block_content)
     """
-    # Pattern to match skill block header
-    pattern = rf"## {re.escape(skill_id)}\n\n"
+    # Pattern to match skill block header - format is "ID: TXXX.GX.XX"
+    pattern = rf"ID: {re.escape(skill_id)}\n"
     match = re.search(pattern, content)
 
     if not match:
@@ -64,8 +64,8 @@ def find_skill_block(skill_id: str, content: str) -> Tuple[int, int, str]:
 
     start_pos = match.start()
 
-    # Find the end of this skill block (start of next ## or end of file)
-    next_skill = re.search(r"\n## T\d+\.G\d+\.", content[match.end():])
+    # Find the end of this skill block (start of next ID: or end of file)
+    next_skill = re.search(r"\nID: T\d+\.G\w+\.", content[match.end():])
     if next_skill:
         end_pos = match.end() + next_skill.start()
     else:
@@ -80,14 +80,15 @@ def get_existing_dependencies(block_content: str) -> Set[str]:
     deps = set()
 
     # Find Dependencies section
-    deps_match = re.search(r"Dependencies:\n((?:\* \[.+?\]: .+?\n)*)", block_content)
+    deps_match = re.search(r"Dependencies:\n((?:\* .+?\n)+)", block_content)
     if deps_match:
         deps_section = deps_match.group(1)
-        # Extract dependency IDs
+        # Extract dependency IDs - format is "* SKILL_ID: Title" (no brackets)
         for line in deps_section.strip().split('\n'):
-            id_match = re.match(r"\* \[(.+?)\]:", line)
-            if id_match:
-                deps.add(id_match.group(1))
+            if line.strip():
+                id_match = re.match(r"\* ([^:]+):", line.strip())
+                if id_match:
+                    deps.add(id_match.group(1).strip())
 
     return deps
 
@@ -95,29 +96,37 @@ def get_existing_dependencies(block_content: str) -> Set[str]:
 def add_dependency_to_block(block_content: str, dep_id: str, dep_title: str) -> str:
     """Add a dependency to a skill block"""
     # Find Dependencies section
-    deps_match = re.search(r"(Dependencies:\n)((?:\* \[.+?\]: .+?\n)*)", block_content)
+    deps_match = re.search(r"(Dependencies:\n)((?:\* .+?\n)+)", block_content)
 
-    if not deps_match:
-        # No Dependencies section found, this is an error
-        return block_content
+    if deps_match:
+        # Dependencies section exists, add to it
+        deps_start = deps_match.start(2)
+        deps_end = deps_match.end(2)
 
-    deps_start = deps_match.start(2)
-    deps_end = deps_match.end(2)
+        existing_deps_text = block_content[deps_start:deps_end]
+        new_dep_line = f"* {dep_id}: {dep_title}\n"
 
-    existing_deps_text = block_content[deps_start:deps_end]
-    new_dep_line = f"* [{dep_id}]: {dep_title}\n"
+        # Add the new dependency
+        updated_deps_text = existing_deps_text + new_dep_line
 
-    # Add the new dependency
-    updated_deps_text = existing_deps_text + new_dep_line
+        # Replace in block
+        return block_content[:deps_start] + updated_deps_text + block_content[deps_end:]
+    else:
+        # No Dependencies section found - need to create one
+        # Insert after Description line
+        desc_match = re.search(r"(Description: .+?\n)", block_content, re.DOTALL)
+        if desc_match:
+            insert_pos = desc_match.end()
+            new_deps_section = f"\nDependencies:\n* {dep_id}: {dep_title}\n"
+            return block_content[:insert_pos] + new_deps_section + block_content[insert_pos:]
 
-    # Replace in block
-    return block_content[:deps_start] + updated_deps_text + block_content[deps_end:]
+    return block_content
 
 
 def remove_dependency_from_block(block_content: str, dep_id: str) -> str:
     """Remove a dependency from a skill block"""
-    # Find and remove the dependency line
-    pattern = rf"\* \[{re.escape(dep_id)}\]: .+?\n"
+    # Find and remove the dependency line - format is "* SKILL_ID: Title"
+    pattern = rf"\* {re.escape(dep_id)}: .+?\n"
     return re.sub(pattern, "", block_content)
 
 

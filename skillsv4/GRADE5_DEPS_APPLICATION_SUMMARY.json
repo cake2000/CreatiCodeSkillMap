@@ -1,0 +1,3093 @@
+{
+  "total_deps_added": 608,
+  "total_deps_removed": 2,
+  "skipped_suggestions": [],
+  "by_topic": {
+    "T01": 17,
+    "T02": 6,
+    "T03": 5,
+    "T04": 16,
+    "T05": 9,
+    "T06": 10,
+    "T07": 8,
+    "T08": 8,
+    "T09": 15,
+    "T10": 19,
+    "T11": 7,
+    "T12": 7,
+    "T13": 24,
+    "T14": 93,
+    "T15": 67,
+    "T16": 34,
+    "T17": 64,
+    "T18": 42,
+    "T19": 14,
+    "T20": 27,
+    "T21": 25,
+    "T22": 11,
+    "T23": 10,
+    "T24": 24,
+    "T26": 1,
+    "T30": 2,
+    "T34": 1,
+    "T25": 23,
+    "T27": 3,
+    "T28": 6,
+    "T29": 6,
+    "T31": 4
+  },
+  "successful_additions": [
+    {
+      "skill_id": "T01.G5.02.01.03",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.02.01.04",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T01.G5.02.01.04",
+      "dep_id": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T01.G5.02.02.01",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.03",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.04.01",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T01.G5.04.01",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.04.02",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T01.G5.04.02",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T01.G5.04.02",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.05",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.07",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.08",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.09",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T01.G5.09",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T01.G5.11",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T01.G5.12",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T02.G5.01",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T02.G5.02",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T02.G5.03",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T02.G5.04",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T03.G5.01",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T03.G5.03",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T03.G5.04",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T03.G5.05",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T03.G5.06",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T04.G5.01",
+      "dep_id": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T04.G5.02.01",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T04.G5.02.01",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.03",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.03.01",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.03.01",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.03.01",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T04.G5.04",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T04.G5.05",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "dep_id": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T04.G5.06",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T04.G5.07",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T05.G5.03",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T05.G5.03",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "dep_id": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T05.G5.04",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T05.G5.05",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T05.G5.06",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T06.G5.01",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T06.G5.04",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T06.G5.05",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T06.G5.06",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T06.G5.08.01",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T06.G5.08.02",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T06.G5.08.02",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T06.G5.08.03",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T06.G5.10",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T06.G5.10.01",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T07.G5.01",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T07.G5.01",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T07.G5.02",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T07.G5.02",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "dep_id": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T07.G5.03",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T07.G5.04",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T08.G5.00",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T08.G5.01",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T08.G5.03",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T08.G5.04",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T08.G5.05",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T08.G5.06",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T08.G5.06",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T09.G5.02",
+      "dep_id": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T09.G5.02.01",
+      "dep_id": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T09.G5.03",
+      "dep_id": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T09.G5.03.01",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T09.G5.04",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "dep_id": "T06.G5.01",
+      "reason": "Skill uses events"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "dep_id": "T10.G5.01",
+      "reason": "Skill uses lists"
+    },
+    {
+      "skill_id": "T09.G5.05",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T09.G5.06",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T09.G5.07",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "dep_id": "T08.G5.00",
+      "reason": "Skill uses conditionals"
+    },
+    {
+      "skill_id": "T09.G5.08",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.01",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T10.G5.02",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.05",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T10.G5.06.01",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.06.02",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.07",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.08",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.09.02",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.09.03",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.10",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T10.G5.10",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.11.02",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.11.03",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.15",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T10.G5.17",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T10.G5.17",
+      "dep_id": "T04.G5.01",
+      "reason": "Skill involves patterns"
+    },
+    {
+      "skill_id": "T10.G5.18",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.01",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T11.G5.01",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T11.G5.03",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.05",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.05",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T11.G5.09",
+      "dep_id": "T02.G5.01",
+      "reason": "Skill involves debugging/tracing"
+    },
+    {
+      "skill_id": "T11.G5.11",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T12.G5.02",
+      "dep_id": "T07.G5.01",
+      "reason": "Skill uses loops"
+    },
+    {
+      "skill_id": "T12.G5.03",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T12.G5.03",
+      "dep_id": "T03.G5.01",
+      "reason": "Skill involves decomposition/planning"
+    },
+    {
+      "skill_id": "T12.G5.04",
+      "dep_id": "T09.G5.01",
+      "reason": "Skill uses variables"
+    },
+    {
+      "skill_id": "T12.G5.05",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T12.G5.05.01",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T12.G5.05.02",
+      "dep_id": "T11.G5.01",
+      "reason": "Skill uses functions"
+    },
+    {
+      "skill_id": "T13.G5.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T13.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.03",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.03",
+      "dep_id": "T08.G3.00",
+      "reason": "Debugging skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T13.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.04",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.04",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T13.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.06",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.07",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.07",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T13.G5.08",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.08",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.08",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T13.G5.09",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.09",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.09",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T13.G5.10",
+      "dep_id": "T06.G3.01",
+      "reason": "Debugging skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T13.G5.10",
+      "dep_id": "T07.G3.01",
+      "reason": "Debugging skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T13.G5.10",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.01.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T14.G5.01.03",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.03",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.01.03",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.03.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.03.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.03.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.03.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.03.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.03.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.04",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.04",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.05",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.06",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.06",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.06",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.07",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.07",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.07",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.08",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.08",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.08",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.08",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.09",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.09",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.09",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.09",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T14.G5.10",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.10",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.10",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.10",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.03",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.03",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.04",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.04",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.04",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.11.05",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.05",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.06",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.06",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.06",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T14.G5.11.07",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.07",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.07",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.08",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.08",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.08",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.09",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.09",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.09",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.10",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.10",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.10",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.11",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T14.G5.11.11",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.11",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.12",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.12",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.12",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.13",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.13",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.13",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.14",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.14",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.14",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.15",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.15",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.15",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Games skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.16",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.16",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.16",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.17",
+      "dep_id": "T06.G3.01",
+      "reason": "Games skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.17",
+      "dep_id": "T07.G3.01",
+      "reason": "Games skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T14.G5.11.17",
+      "dep_id": "T08.G3.00",
+      "reason": "Games skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T15.G5.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.02.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.02.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.02.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.03",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.04",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.04",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.05",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.05",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.06",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.06",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.07",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.07",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.07",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.08",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.08",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.08",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.09.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.10.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.11",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T15.G5.11",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.11",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.12.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.13.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T15.G5.14",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.14",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.15",
+      "dep_id": "T06.G3.01",
+      "reason": "Storytelling skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T15.G5.15",
+      "dep_id": "T07.G3.01",
+      "reason": "Storytelling skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T15.G5.15",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Storytelling skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T16.G5.01",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T16.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T16.G5.02.01",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.02.01",
+      "dep_id": "T08.G3.00",
+      "reason": "User Interface skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T16.G5.02.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T16.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.03",
+      "dep_id": "T08.G3.00",
+      "reason": "User Interface skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T16.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.04.01",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.04.01",
+      "dep_id": "T08.G3.00",
+      "reason": "User Interface skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T16.G5.04.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T16.G5.04.02",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.04.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T16.G5.04.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T16.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T16.G5.05",
+      "dep_id": "T08.G3.00",
+      "reason": "User Interface skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T16.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T16.G5.05.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T16.G5.05.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T16.G5.05.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T16.G5.05.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T16.G5.06",
+      "dep_id": "T06.G3.01",
+      "reason": "User Interface skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T16.G5.06",
+      "dep_id": "T08.G3.00",
+      "reason": "User Interface skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T16.G5.06",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T16.G5.06.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T16.G5.06.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T16.G5.06.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T16.G5.07",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T16.G5.07",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T16.G5.07",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T16.G5.08",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T16.G5.08",
+      "dep_id": "T09.G3.01.01",
+      "reason": "User Interface skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.03",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.03",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.03.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.03.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.03.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.04",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.04",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.04.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.04.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.04.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.05",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.05",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T17.G5.06",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.A",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.A",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T17.G5.06.A",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.A.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.A.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.A.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.01.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T17.G5.06.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.03",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.03",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.06.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T17.G5.07",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.07",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.07",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08.02",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08.02",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.08.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.09",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.09",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.09",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T17.G5.10",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.10",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T17.G5.10.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.10.01",
+      "dep_id": "T08.G3.00",
+      "reason": "Physics/Motion skill requires T08 foundation"
+    },
+    {
+      "skill_id": "T17.G5.10.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.11",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.11",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T17.G5.11",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T17.G5.12",
+      "dep_id": "T07.G3.01",
+      "reason": "Physics/Motion skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T17.G5.12",
+      "dep_id": "T08.G3.00",
+      "reason": "Requires conditional logic foundation from T08"
+    },
+    {
+      "skill_id": "T17.G5.12",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Physics/Motion skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.01",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.02",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.02",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.03",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.03",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.01.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.02.01",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.02.01",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.02.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.02.02",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.02.02",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.02.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.03.01",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T18.G5.03.01",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.03.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.03.02",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.03.02",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.03.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.04.01",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.04.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.04.02",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.04.02",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.04.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.01",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.01",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.02",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.02",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.03",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.03",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.05.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.01",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.01",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.02",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.02",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.03",
+      "dep_id": "T06.G3.01",
+      "reason": "3D Worlds skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.03",
+      "dep_id": "T07.G3.01",
+      "reason": "3D Worlds skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T18.G5.06.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "3D Worlds skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T19.G5.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Multiplayer skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T19.G5.01",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Multiplayer skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T19.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Multiplayer skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T19.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Multiplayer skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T19.G5.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Multiplayer skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T19.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "Multiplayer skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T19.G5.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Multiplayer skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T19.G5.03",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Multiplayer skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T19.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "Multiplayer skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T19.G5.04",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Multiplayer skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T19.G5.04",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Multiplayer skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T19.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "Multiplayer skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T19.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Multiplayer skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T19.G5.05",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Multiplayer skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T20.G5.01.01",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.01.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T20.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T20.G5.02",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.03",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.04",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.04.00",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.04.00",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.06",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.06",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.06",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.07",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.07",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.07",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.08",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.08",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.08",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.09",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.09",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.09",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.10",
+      "dep_id": "T07.G3.01",
+      "reason": "Generative Art skill requires T07 foundation"
+    },
+    {
+      "skill_id": "T20.G5.10",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.10",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T20.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Generative Art skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T20.G5.05",
+      "dep_id": "T10.G3.01.01",
+      "reason": "Generative Art skill requires T10 foundation"
+    },
+    {
+      "skill_id": "T21.G5.01",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.01",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Text skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T21.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.02",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T21.G5.02a",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.02a",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.02a",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Text skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T21.G5.03",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T21.G5.03a",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.03a",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.03a",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Text skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T21.G5.03b",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.03b",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.03b",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Text skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T21.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.04",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.04",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T21.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Text skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T21.G5.05",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Text skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T21.G5.06",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T21.G5.07",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Text skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T21.G5.07",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T21.G5.07",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Text skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T22.G5.01",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T22.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Voice skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T22.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Voice skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T22.G5.02",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Voice skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T22.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Voice skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T22.G5.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Voice skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T22.G5.03",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T22.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Voice skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T22.G5.04",
+      "dep_id": "T29.G3.01",
+      "reason": "Requires text manipulation foundation from T29"
+    },
+    {
+      "skill_id": "T22.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Voice skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T22.G5.05",
+      "dep_id": "T29.G3.01",
+      "reason": "AI Voice skill requires T29 foundation"
+    },
+    {
+      "skill_id": "T23.G5.01",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Vision skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T23.G5.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Vision skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T23.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Vision skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T23.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Vision skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T23.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Vision skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T23.G5.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Vision skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T23.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Vision skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T23.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Vision skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T23.G5.06",
+      "dep_id": "T06.G3.01",
+      "reason": "AI Vision skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T23.G5.06",
+      "dep_id": "T09.G3.01.01",
+      "reason": "AI Vision skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.01.01",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.01.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.01.02",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.01.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.02",
+      "dep_id": "T06.G3.01",
+      "reason": "Requires event handling foundation from T06"
+    },
+    {
+      "skill_id": "T24.G5.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.03",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.04",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.05",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.07.02",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.07.02",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.07.03",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.07.03",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T24.G5.08",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.09",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.09",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T24.G5.09.01",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.09.01",
+      "dep_id": "T09.G3.01.01",
+      "reason": "Requires variable handling foundation from T09"
+    },
+    {
+      "skill_id": "T24.G5.11",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T24.G5.11",
+      "dep_id": "T09.G3.01.01",
+      "reason": "XO Assistant skill requires T09 foundation"
+    },
+    {
+      "skill_id": "T24.G5.12",
+      "dep_id": "T06.G3.01",
+      "reason": "XO Assistant skill requires T06 foundation"
+    },
+    {
+      "skill_id": "T26.G5.02",
+      "dep_id": "T26.G3.01",
+      "reason": "Replace T26.G2.05 (G2) with G3+ equivalent to fix X-2 violation"
+    },
+    {
+      "skill_id": "T30.G5.02",
+      "dep_id": "T30.G3.01",
+      "reason": "Replace T30.G2.04 (G2) with G3+ equivalent to fix X-2 violation"
+    },
+    {
+      "skill_id": "T34.G5.03",
+      "dep_id": "T34.G3.01",
+      "reason": "Replace T34.G2.03 (G2) with G3+ equivalent to fix X-2 violation"
+    },
+    {
+      "skill_id": "T25.G5.01.01",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Design multi-type data structures on paper\""
+    },
+    {
+      "skill_id": "T25.G5.01.01",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Design multi-type data structures on paper\""
+    },
+    {
+      "skill_id": "T25.G5.01.02.01",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Define game state variables with initial values\""
+    },
+    {
+      "skill_id": "T25.G5.01.02.01",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Define game state variables with initial values\""
+    },
+    {
+      "skill_id": "T25.G5.01.02.02",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Update game state variables based on events\""
+    },
+    {
+      "skill_id": "T25.G5.01.02.03",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Persist game state across game restarts\""
+    },
+    {
+      "skill_id": "T25.G5.01.02.03",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Persist game state across game restarts\""
+    },
+    {
+      "skill_id": "T25.G5.02.02.02",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Remove duplicate entries from lists\""
+    },
+    {
+      "skill_id": "T25.G5.02.02.03",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Fix inconsistent text formats\""
+    },
+    {
+      "skill_id": "T25.G5.02.02.04",
+      "dep_id": "T07.G3.01",
+      "reason": "T25 data validation requires iteration: \"Validate cleaned data against rules\""
+    },
+    {
+      "skill_id": "T25.G5.02.02.05",
+      "dep_id": "T07.G3.01",
+      "reason": "T25 data validation requires iteration: \"Test data cleaning with sample datasets\""
+    },
+    {
+      "skill_id": "T25.G5.03",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Decide when to upgrade from list to table\""
+    },
+    {
+      "skill_id": "T25.G5.04",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Encode categorical values with numeric codes\""
+    },
+    {
+      "skill_id": "T25.G5.04",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Encode categorical values with numeric codes\""
+    },
+    {
+      "skill_id": "T25.G5.05",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Add meaningful default values to data fields\""
+    },
+    {
+      "skill_id": "T25.G5.06.01",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Create multi-column tables with varied data\""
+    },
+    {
+      "skill_id": "T25.G5.06.01",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Create multi-column tables with varied data\""
+    },
+    {
+      "skill_id": "T25.G5.06.02",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Query tables by value\""
+    },
+    {
+      "skill_id": "T25.G5.06.02",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Query tables by value\""
+    },
+    {
+      "skill_id": "T25.G5.06.03",
+      "dep_id": "T10.G3.05",
+      "reason": "T25 data structures require list understanding: \"Filter and delete table rows\""
+    },
+    {
+      "skill_id": "T25.G5.06.03",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Filter and delete table rows\""
+    },
+    {
+      "skill_id": "T25.G5.07",
+      "dep_id": "T09.G3.03",
+      "reason": "T25 state tracking requires variables: \"Validate data types and ranges before storage\""
+    },
+    {
+      "skill_id": "T25.G5.07",
+      "dep_id": "T07.G3.01",
+      "reason": "T25 data validation requires iteration: \"Validate data types and ranges before storage\""
+    },
+    {
+      "skill_id": "T27.G5.01",
+      "dep_id": "T06.G3.01",
+      "reason": "T27 interactive dashboards require events: \"Build a simple interactive dashboard with filter widgets\""
+    },
+    {
+      "skill_id": "T27.G5.00b",
+      "dep_id": "T06.G3.01",
+      "reason": "T27 interactive dashboards require events: \"Respond to widget events in dashboards\""
+    },
+    {
+      "skill_id": "T27.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "T27 interactive dashboards require events: \"Present findings using slides or mini reports\""
+    },
+    {
+      "skill_id": "T28.G5.01.02",
+      "dep_id": "T09.G3.03",
+      "reason": "T28 simulations track state with variables: \"Analyze compound event distributions\""
+    },
+    {
+      "skill_id": "T28.G5.01.02",
+      "dep_id": "T07.G3.01",
+      "reason": "T28 simulations iterate with loops: \"Analyze compound event distributions\""
+    },
+    {
+      "skill_id": "T28.G5.04",
+      "dep_id": "T09.G3.03",
+      "reason": "T28 simulations track state with variables: \"Document simulation plans before coding\""
+    },
+    {
+      "skill_id": "T28.G5.04",
+      "dep_id": "T07.G3.01",
+      "reason": "T28 simulations iterate with loops: \"Document simulation plans before coding\""
+    },
+    {
+      "skill_id": "T28.G5.08",
+      "dep_id": "T07.G3.01",
+      "reason": "T28 simulations iterate with loops: \"Track agent state for probabilistic simulations\""
+    },
+    {
+      "skill_id": "T28.G5.08",
+      "dep_id": "T10.G3.05",
+      "reason": "T28 multi-agent tracking uses lists: \"Track agent state for probabilistic simulations\""
+    },
+    {
+      "skill_id": "T29.G5.01",
+      "dep_id": "T10.G3.05",
+      "reason": "T29 text parsing produces lists: \"Design table schemas for text data (chat logs)\""
+    },
+    {
+      "skill_id": "T29.G5.02",
+      "dep_id": "T10.G3.05",
+      "reason": "T29 text parsing produces lists: \"Populate data tables from text using split\""
+    },
+    {
+      "skill_id": "T29.G5.03.02",
+      "dep_id": "T10.G3.05",
+      "reason": "T29 text parsing produces lists: \"Build stop-word filter using tables\""
+    },
+    {
+      "skill_id": "T29.G5.04.01",
+      "dep_id": "T10.G3.05",
+      "reason": "T29 text parsing produces lists: \"Create positive/negative sentiment word lists\""
+    },
+    {
+      "skill_id": "T29.G5.06",
+      "dep_id": "T10.G3.05",
+      "reason": "T29 text parsing produces lists: \"Use the parse sentence block for parts of speech\""
+    },
+    {
+      "skill_id": "T29.G5.09",
+      "dep_id": "T10.G3.05",
+      "reason": "T29 text parsing produces lists: \"Highlight keywords in text display\""
+    },
+    {
+      "skill_id": "T31.G5.04",
+      "dep_id": "T06.G3.01",
+      "reason": "T31 multiplayer uses event-based interaction: \"Create and join a multiplayer game session\""
+    },
+    {
+      "skill_id": "T31.G5.04.01",
+      "dep_id": "T06.G3.01",
+      "reason": "T31 multiplayer uses event-based interaction: \"List available multiplayer games\""
+    },
+    {
+      "skill_id": "T31.G5.04.01",
+      "dep_id": "T10.G3.05",
+      "reason": "T31 listing games uses lists: \"List available multiplayer games\""
+    },
+    {
+      "skill_id": "T31.G5.05",
+      "dep_id": "T06.G3.01",
+      "reason": "T31 multiplayer uses event-based interaction: \"Check multiplayer connection status\""
+    },
+    {
+      "skill_id": "T30.G5.05.01",
+      "dep_id": "T06.G3.01",
+      "reason": "T30 mouse picking requires event handling: \"when this 3D object is picked/hovered\""
+    }
+  ],
+  "successful_removals": [
+    {
+      "skill_id": "T26.G5.02",
+      "dep_id": "T26.G2.05",
+      "reason": "Violates X-2 rule (G5 cannot depend on G2)"
+    },
+    {
+      "skill_id": "T34.G5.03",
+      "dep_id": "T34.G2.03",
+      "reason": "Violates X-2 rule (G5 cannot depend on G2)"
+    }
+  ]
+}
