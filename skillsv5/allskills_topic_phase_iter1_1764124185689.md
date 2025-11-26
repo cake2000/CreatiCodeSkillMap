@@ -1,12 +1,5 @@
-# T01 - Everyday Algorithms (Phase 2 Optimized - November 2025)
-# Applied Phase 2 topic-focused optimizations:
-# - Split T01.G5.03 into T01.G5.03.01 (loops), T01.G5.03.02 (conditionals), T01.G5.03.03 (variables)
-# - Split T01.G8.08 into T01.G8.08.01 (helper blocks), T01.G8.08.02 (remove duplication), T01.G8.08.03 (meaningful names)
-# - Verified all skills use active verbs (no vague "Understand" or "Know")
-# - Confirmed K-2 skills use picture-based/unplugged format
-# - Verified X-2 rule compliance for all intra-topic dependencies
-# - No duplicates found within T01
-# Previous Phase 1 optimizations preserved:
+# T01 - Everyday Algorithms (Phase 1 Optimized - November 2025)
+# Applied Phase 1 topic-focused optimizations:
 # - Split T01.G2.18 into T01.G2.18.01 (identify) and T01.G2.18.02 (explain)
 # - Marked T01.G4.02 as CAPSTONE skill with scheduling guidance
 # - Clarified T01.G2.15-17 as picture-based matching ONLY (no code writing)
@@ -15,7 +8,8 @@
 # - Fixed dependency reference mismatch in T01.GK.05
 # - Added concrete examples for recursion skills T01.G8.04-05
 # - Clarified assessment formats in T01.G3.11 and T01.G4.12
-# Total: 125 skills (6 new sub-skills added from Phase 2 splits: T01.G5.03.01-04, T01.G8.08.01-04)
+# - Streamlined dependency lists (removed unnecessary cross-topic deps)
+# Total: 119 skills (1 new sub-skill added from split)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -1103,60 +1097,19 @@ Dependencies:
 
 
 
-## T01.G5.03 Sub-Skills Structure
-## Converts program structures to pseudocode in progressive complexity:
-## .01 - Programs with loops
-## .02 - Programs with conditionals
-## .03 - Programs with variables
-
-ID: T01.G5.03.01
+ID: T01.G5.03
 Topic: T01 – Everyday Algorithms
-Skill: Convert a program with loops into pseudocode
-Description: Students rewrite a short program containing repeat loops as structured pseudocode, using REPEAT N TIMES notation and focusing on clarity for a human reader. _Implementation note: Guided pseudocode; auto-graded for correct loop representation. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
+Skill: Convert a short program into pseudocode
+Description: Students rewrite a short program as structured pseudocode showing loops, if/then, and variables, using the pseudocode conventions introduced in T02 and focusing on clarity for a human reader who is thinking about the real task. _Implementation note: Guided pseudocode; rubric/auto‑grading focused on structure and faithfulness to behavior. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 Dependencies:
+* T01.G5.02.02.01: Convert sequential pseudocode into code
+* T01.G5.02.02.02: Convert pseudocode with conditionals into code
 * T01.G5.02.02.03: Convert pseudocode with loops into code
 * T07.G3.01: Use a counted repeat loop
-* T03.G5.01: Create a feature list and subtask breakdown
-
-
-
-
-ID: T01.G5.03.02
-Topic: T01 – Everyday Algorithms
-Skill: Convert a program with conditionals into pseudocode
-Description: Students rewrite a short program containing if/then logic as structured pseudocode, using IF...THEN...ELSE notation and focusing on clarity for a human reader. _Implementation note: Guided pseudocode; auto-graded for correct conditional representation. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.02.02.02: Convert pseudocode with conditionals into code
 * T08.G3.01: Use a simple if in a script
-* T03.G5.01: Create a feature list and subtask breakdown
-
-
-
-
-ID: T01.G5.03.03
-Topic: T01 – Everyday Algorithms
-Skill: Convert a program with variables into pseudocode
-Description: Students rewrite a short program containing variable assignments and updates as structured pseudocode, using SET variable TO value notation and focusing on clarity for a human reader. _Implementation note: Guided pseudocode; auto-graded for correct variable representation. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.02.02.04: Convert pseudocode with variables into code
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T03.G5.01: Create a feature list and subtask breakdown
-
-
-
-
-ID: T01.G5.03.04
-Topic: T01 – Everyday Algorithms
-Skill: Convert a complete program into pseudocode
-Description: Students rewrite a short program containing loops, if/then, and variables as structured pseudocode, combining the notation from T01.G5.03.01-03 and focusing on clarity for a human reader. This is the culminating skill for the code-to-pseudocode progression. _Implementation note: Guided pseudocode; rubric/auto‑grading focused on structure and faithfulness to behavior. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.03.01: Convert a program with loops into pseudocode
-* T01.G5.03.02: Convert a program with conditionals into pseudocode
-* T01.G5.03.03: Convert a program with variables into pseudocode
 
 
 
@@ -1640,58 +1593,16 @@ Dependencies:
 
 
 
-## T01.G8.08 Sub-Skills Structure
-## Refactoring for clarity broken into focused sub-skills:
-## .01 - Extract helper blocks (modularization)
-## .02 - Remove duplicate code
-## .03 - Apply meaningful names
-
-ID: T01.G8.08.01
+ID: T01.G8.08
 Topic: T01 – Everyday Algorithms
-Skill: Extract helper blocks from a medium-sized program
-Description: Students identify repeated or complex code sections and reorganize them into named helper blocks (custom blocks/procedures), improving code organization and reusability. _Implementation note: Coding refactor; auto-graded via behavior preservation + structure check for helper block usage. CSTA: MS‑PRO‑TR‑11._
+Skill: Refactor a medium‑sized program for clarity
+Description: Students reorganize code into helper blocks, remove duplication, and add meaningful names. _Implementation note: Coding refactor; auto‑graded via behavior + structure. CSTA: MS‑PRO‑TR‑11._
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T03.G6.01: Propose modules for a medium project
-
-
-
-
-ID: T01.G8.08.02
-Topic: T01 – Everyday Algorithms
-Skill: Remove duplicate code in a medium-sized program
-Description: Students identify code that appears multiple times and consolidate it using loops or helper blocks, ensuring the program does the same thing with less repetition. _Implementation note: Coding refactor; auto-graded via behavior preservation + reduced block count. CSTA: MS‑PRO‑TR‑11._
-
-Dependencies:
-* T01.G8.08.01: Extract helper blocks from a medium-sized program
-* T07.G3.01: Use a counted repeat loop
-
-
-
-
-ID: T01.G8.08.03
-Topic: T01 – Everyday Algorithms
-Skill: Apply meaningful names to variables and blocks
-Description: Students rename variables and custom blocks to use clear, descriptive names that explain their purpose (e.g., "playerScore" instead of "x", "moveToGoal" instead of "myBlock1"). _Implementation note: Coding refactor; auto-graded via behavior preservation + naming rubric. CSTA: MS‑PRO‑TR‑11._
-
-Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T03.G6.01: Propose modules for a medium project
-
-
-
-
-ID: T01.G8.08.04
-Topic: T01 – Everyday Algorithms
-Skill: Refactor a medium-sized program for overall clarity
-Description: Students apply all three clarity refactoring techniques (helper blocks, removing duplication, meaningful names) to improve a medium-sized program's readability and maintainability. This is the culminating skill for clarity refactoring. _Implementation note: Coding refactor; auto‑graded via behavior + structure. CSTA: MS‑PRO‑TR‑11._
-
-Dependencies:
-* T01.G8.08.01: Extract helper blocks from a medium-sized program
-* T01.G8.08.02: Remove duplicate code in a medium-sized program
-* T01.G8.08.03: Apply meaningful names to variables and blocks
 * T02.G6.01: Learn the pseudocode generation block
+* T03.G6.01: Propose modules for a medium project
 * T08.G6.01a: Use conditionals in physics simulations
 
 
@@ -1727,14 +1638,13 @@ Dependencies:
 # T02 - Algorithm Diagrams (Phase 1 Optimized - November 2025)
 # Applied Phase 1 topic-focused optimizations:
 # - Updated all "debug print" terminology to actual CreatiCode "print [MESSAGE] in [console] color [COLOR]" block
-# T02 Algorithm Diagrams - Optimized
-# - 61 skills total (K-8) with proper sub-skill breakdown
-# - K-2: Picture-based sequencing and box diagrams (unplugged)
-# - Grade 3+: Block-based coding in CreatiCode
-# - Sub-skills: T02.G4.04.XX (loops+decisions), T02.G7.02.XX (breakpoints), T02.G7.03.XX (search), T02.G8.01.XX (pseudocode)
-# - All dependency names use actual skill titles (not explanatory text)
-# - Cross-topic dependencies preserved, X-2 rule verified
-# - Removed inappropriate dependencies (T21.G6.01.01 ChatGPT, T32.G6.04 ethics from algorithm skills)
+# - Updated pseudocode generation skill to reflect actual block: "get scripts for all blocks from sprite into list"
+# - Updated breakpoint skills to reference actual CreatiCode "breakpoint" block and Debug Mode
+# - Added full skill names to incomplete dependency references (T10.G3.05, T10.G4.18)
+# - Verified all intra-topic dependencies follow X-2 rule
+# - Ensured grade-appropriate progression from picture-based (K-2) to block coding (3+)
+# - Skills already properly broken down with sub-skills (T02.G4.04.XX, T02.G7.02.XX, T02.G7.03.XX, T02.G8.01.XX)
+# Total: 61 skills (including sub-skills)
 
 ## KINDERGARTEN (4 skills - unchanged)
 
@@ -1942,6 +1852,8 @@ Description: Students open CreatiCode, identify the block workspace, sprite stag
 Dependencies:
 * T02.G2.06: Fix a sequencing error in a step sequence
 
+**[NEW SKILL - Bridges G2 unplugged to G3 coding]**
+
 
 ---
 
@@ -1957,6 +1869,8 @@ Description: Students build a simple 3-step block sequence in CreatiCode (e.g., 
 
 Dependencies:
 * T02.G2.07: Explore the CreatiCode workspace and run a script
+
+**[CHANGED: dependency updated from T02.G2.02 to new T02.G2.07]**
 
 
 
@@ -1993,6 +1907,8 @@ Description: Students follow a CreatiCode script with one if/else block and trac
 
 Dependencies:
 * T02.G3.03: Build a block sequence for a simple task
+
+**[CHANGED: removed reference to "decision diamonds from unplugged activities" as T02 has no prior decision diamond skill]**
 
 
 
@@ -2036,6 +1952,8 @@ Dependencies:
 * T02.G3.02: Predict the outcome of a block sequence
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 
+**[CHANGED: removed T02.G2.01 and T02.G2.02 (picture diagram skills), added T02.G3.02]**
+
 
 
 
@@ -2048,6 +1966,8 @@ Description: Students create a CreatiCode script using a "repeat" block to accom
 Dependencies:
 * T02.G4.01: Trace a block script with a repeat loop
 * T02.G3.03: Build a block sequence for a simple task
+
+**[CHANGED: removed T02.G2.01 and T02.G2.02]**
 
 
 
@@ -2078,6 +1998,8 @@ Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
 * T02.G3.05: Create a block script with one if/else decision
 
+**[NEW SUB-SKILL - replaces overly broad T02.G4.04, part 1 of 3]**
+
 
 
 
@@ -2091,6 +2013,8 @@ Dependencies:
 * T02.G4.04.01: Build a script with sequential loop and decision
 * T02.G4.03: Trace a script with multiple if/else decisions
 * T06.G2.01: Create a simple cause-and-effect chain with picture cards
+
+**[NEW SUB-SKILL - part 2 of 3]**
 
 
 
@@ -2106,6 +2030,8 @@ Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T06.G2.03: Design a simple "if-then" game rule
 
+**[NEW SUB-SKILL - part 3 of 3]**
+
 
 
 
@@ -2118,6 +2044,8 @@ Description: Students look at a repeat loop script and predict what will happen 
 Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
 * T02.G3.02: Predict the outcome of a block sequence
+
+**[NEW BRIDGING SKILL - fills gap before debug print introduction]**
 
 
 
@@ -2135,7 +2063,9 @@ Dependencies:
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T12.G3.01: Test and trace simple block-based scripts
 
-Note: This skill requires understanding variables from T09 (Variables) topic.
+Note: This skill requires understanding variables from T09 (Variables) topic. Assumes students have learned basic variable creation and use in T09.G3.01 or equivalent.
+
+**[CHANGED: Updated to reflect actual CreatiCode block - "print [MESSAGE] in [console] color [COLOR]"]**
 
 
 
@@ -2153,6 +2083,8 @@ Dependencies:
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T12.G3.01: Test and trace simple block-based scripts
+
+**[CHANGED: Updated skill name and description to use "print block" terminology]**
 
 
 
@@ -2182,6 +2114,8 @@ Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
 * T04.G3.09: Recognize nested repetition in visual patterns
 
+**[NEW BRIDGING SKILL - introduces nested loops before adding variable tracing in G5]**
+
 
 ---
 
@@ -2202,6 +2136,8 @@ Dependencies:
 * T10.G4.18: Advanced list operations
 * T07.G5.01: Simulate repeated experiments with a loop
 
+**[CHANGED: Updated to "print block" terminology, added full skill names to dependencies]**
+
 
 
 
@@ -2218,6 +2154,8 @@ Dependencies:
 * T07.G5.01: Simulate repeated experiments with a loop
 * T04.G5.01: Recognize a counter update pattern
 * T03.G5.01: Create a feature list and subtask breakdown
+
+**[CHANGED: Updated dependency name, added full skill names]**
 
 
 
@@ -2284,6 +2222,8 @@ Description: Students find the "get scripts for all blocks from sprite [SPRITE] 
 
 Dependencies:
 * T02.G5.02: Build a script with nested loops for a pattern
+
+**[CHANGED: Updated to reflect actual CreatiCode block syntax - "get scripts for all blocks from sprite into list" where list[1] = pseudocode]**
 
 
 
@@ -2358,6 +2298,8 @@ Dependencies:
 * T02.G6.06: Trace a data processing algorithm using the print block
 * T10.G5.03: Work with list data structures
 
+**[BRIDGING SKILL - Updated to "print block" terminology]**
+
 
 ---
 
@@ -2374,6 +2316,8 @@ Description: Students trace a CreatiCode script that models change over time (e.
 Dependencies:
 * T02.G6.06: Trace a data processing algorithm using the print block
 
+**[CHANGED: Updated to "print block" terminology]**
+
 
 
 
@@ -2386,6 +2330,8 @@ Description: Students learn to add the "breakpoint" block from CreatiCode's Cont
 Dependencies:
 * T02.G6.05: Debug using pseudocode comparison
 
+**[NEW SUB-SKILL - Updated to reflect actual CreatiCode "breakpoint" block and Debug Mode]**
+
 
 
 
@@ -2397,7 +2343,9 @@ Description: Students pause their script using a breakpoint block in Debug Mode 
 
 Dependencies:
 * T02.G7.02.01: Use the breakpoint block to pause execution
-* T09.G5.01: Use multiple variables together in a single expression
+* T09.G5.01: Inspecting execution requires understanding variable states and values
+
+**[SUB-SKILL - Updated dependency name]**
 
 
 
@@ -2410,7 +2358,9 @@ Description: Students use Debug Mode's step controls to execute their algorithm 
 
 Dependencies:
 * T02.G7.02.02: Examine variable values at a breakpoint
-* T08.G5.01: Build a program using nested conditionals
+* T08.G5.01: Setting breakpoints often involves conditional stops based on variable states
+
+**[SUB-SKILL - Clarified Debug Mode step controls]**
 
 
 
@@ -2424,7 +2374,9 @@ Description: Students create a script that searches through a list of values seq
 Dependencies:
 * T02.G6.06: Trace a data processing algorithm using the print block
 * T02.G6.07: Build an algorithm to find maximum value in a list
-* T10.G5.03: Work with list data structures
+* T10.G5.03: Search algorithms operate on lists or collections of data
+
+**[SUB-SKILL - Updated dependency name]**
 
 
 
@@ -2437,7 +2389,9 @@ Description: Students add "print" blocks to their search algorithm to display in
 
 Dependencies:
 * T02.G7.03.01: Build a simple linear search algorithm
-* T08.G5.01: Build a program using nested conditionals
+* T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches
+
+**[SUB-SKILL - Updated to "print block" terminology]**
 
 
 
@@ -2450,7 +2404,9 @@ Description: Students modify their search algorithm to stop immediately when the
 
 Dependencies:
 * T02.G7.03.02: Add print blocks to trace search steps
-* T08.G5.01: Build a program using nested conditionals
+* T08.G5.01: Search algorithms fundamentally rely on conditional logic to determine matches
+
+**[SUB-SKILL - Updated dependency name]**
 
 
 
@@ -2464,8 +2420,8 @@ Description: Students build a search algorithm in blocks, use the "get scripts f
 Dependencies:
 * T02.G7.03.03: Build a search with early exit on match
 * T02.G6.02: Generate and read pseudocode from a simple script
-* T08.G5.01: Build a program using nested conditionals
-* T07.G5.01: Simulate repeated experiments with a loop
+* T08.G5.01: Search algorithm pseudocode requires if-then conditional structures
+* T07.G5.01: Search algorithms require loops to iterate through data structures
 
 
 
@@ -2479,7 +2435,7 @@ Description: Students compare two different search algorithms (e.g., linear sear
 Dependencies:
 * T02.G7.03.02: Add print blocks to trace search steps
 * T02.G5.05: Compare two algorithms by counting blocks
-* T08.G5.01: Build a program using nested conditionals
+* T08.G5.01: Efficiency comparison requires conditional analysis of different scenarios
 
 
 
@@ -2493,8 +2449,8 @@ Description: Students test their algorithms with edge cases (empty list, single 
 Dependencies:
 * T02.G7.02.03: Step through algorithm execution block by block
 * T02.G7.03.02: Add print blocks to trace search steps
-* T08.G5.01: Build a program using nested conditionals
-* T10.G5.03: Work with list data structures
+* T08.G5.01: Finding edge case bugs requires understanding conditional logic boundaries
+* T10.G5.01: Algorithm tracing often involves tracking values in lists or arrays
 
 
 ---
@@ -2544,6 +2500,10 @@ Dependencies:
 * T02.G8.01.01: Write pseudocode for a multi-step calculation
 * T10.G6.01: Sort a table by a column
 
+* T21.G6.01.01: Make a basic ChatGPT request with one parameter
+
+**[NEW SUB-SKILL - part 3 of 3]**
+
 
 
 
@@ -2555,7 +2515,11 @@ Description: Students take pseudocode (their own or provided), implement it as a
 
 Dependencies:
 * T02.G8.01.01: Write pseudocode for a multi-step calculation
-* T02.G6.01: Learn the pseudocode generation block
+* T10.G6.01: Sort a table by a column
+
+* T32.G6.04: Apply ethics lenses (beneficence, fairness, autonomy)
+
+**[CHANGED: updated dependency to first sub-skill of T02.G8.01]**
 
 
 
@@ -2570,6 +2534,9 @@ Dependencies:
 * T02.G8.02: Implement and verify pseudocode with block code
 * T02.G7.06: Trace an algorithm to find edge case bugs
 * T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
+* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 
@@ -2582,8 +2549,9 @@ Description: Students analyze their block scripts and generated pseudocode to fi
 
 Dependencies:
 * T02.G8.03: Trace complex algorithms with multiple test cases
-* T02.G5.06: Improve an algorithm by removing redundant blocks
+* T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
 
 
 
@@ -2597,10 +2565,14 @@ Description: Students build and trace two versions of an algorithm—one that al
 
 Dependencies:
 * T02.G7.01: Trace a simulation algorithm step-by-step
-* T02.G8.03: Trace complex algorithms with multiple test cases
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T08.G6.01a: Use conditionals in physics simulations
+* T10.G6.01: Sort a table by a column
+
 
 Note: This is an advanced concept. Provide examples of when randomness is useful (games, simulations) vs. when consistency is required (calculations, sorting).
+
+**[CHANGED: Updated to "print block" terminology, added "pick random" block reference]**
 
 
 
@@ -2660,8 +2632,8 @@ Dependencies:
 
 ID: T03.GK.05
 Topic: T03 – Problem Decomposition
-Skill: Select what each step accomplishes from picture choices
-Description: Students look at picture cards showing each step in a familiar routine and select from multiple-choice pictures what that step accomplishes or what changes after it (e.g., select the picture of clean hands after the handwashing step, select the picture of feet ready to go outside after putting on shoes).
+Skill: Describe what each step accomplishes
+Description: Students look at each step in a familiar routine and select or describe what that step accomplishes or what changes after it (e.g., "After washing hands, hands are clean," "After putting on shoes, feet are ready to go outside").
 
 Dependencies:
 * T03.GK.03: Order 3–4 pictures to show steps in a routine
@@ -2673,8 +2645,8 @@ Dependencies:
 
 ID: T03.G1.01
 Topic: T03 – Problem Decomposition
-Skill: Match a part to its function using picture cards
-Description: Students tap on a part in a picture (e.g., wheels, door, button) and select from multiple-choice picture or word cards what that part does (e.g., match wheels to "helps it roll," match door to "lets people in").
+Skill: Describe what one part of a system does
+Description: Students select a part in a picture (e.g., wheels, door, button) and choose what it does from options.
 
 Dependencies:
 * T03.GK.01: Identify parts that make up a whole
@@ -2689,7 +2661,7 @@ Skill: Group related parts by function
 Description: Students drag parts into functional groups such as "things that help it move," "things that help it see or hear," or "things that make it look nice" for a simple object (e.g., robot or toy car), categorizing by what each part does.
 
 Dependencies:
-* T03.G1.01: Match a part to its function using picture cards
+* T03.G1.01: Describe what one part of a system does
 
 
 
@@ -2769,8 +2741,8 @@ Dependencies:
 
 ID: T03.G2.05
 Topic: T03 – Problem Decomposition
-Skill: Select features shown in a video of a simple game or story
-Description: Students watch a short video of a simple game or animated story (e.g., a character that moves and makes sounds) and select from picture or word cards what it can do (e.g., select "the cat can walk," "it plays music," "you can click to make it jump"), preparing them to recognize features in projects.
+Skill: Identify what a simple game or story can do (its features)
+Description: Students look at a simple game or animated story (e.g., a character that moves and makes sounds) and list what it can do (e.g., "the cat can walk," "it plays music," "you can click to make it jump"), preparing them to recognize features in projects.
 
 Dependencies:
 * T03.G2.02: Group subtasks by type
@@ -2781,11 +2753,11 @@ Dependencies:
 
 ID: T03.G2.06
 Topic: T03 – Problem Decomposition
-Skill: Sort cards into "whole project" vs "single feature" categories
-Description: Students drag picture or word cards into two columns: one for the complete project goal (e.g., "make a jumping game") and one for individual features (e.g., "sprite jumps when clicked," "score increases," "game over when falling"), learning that a single project requires multiple features working together.
+Skill: Distinguish between a complete project and individual features
+Description: Students distinguish between the complete project goal (e.g., "make a jumping game") and the individual features needed to achieve it (e.g., "sprite jumps when clicked," "score increases," "game over when falling"), understanding that a single project requires multiple features working together.
 
 Dependencies:
-* T03.G2.05: Select features shown in a video of a simple game or story
+* T03.G2.05: Identify what a simple game or story can do (its features)
 * T02.G2.05: Create a 3-step flowchart
 
 
@@ -2794,11 +2766,11 @@ Dependencies:
 
 ID: T03.G2.07
 Topic: T03 – Problem Decomposition
-Skill: Group subtask cards that work together for one feature
-Description: Students drag subtask word cards into groups based on which ones work together to create a single feature (e.g., group "draw player sprite," "add player controls," "make player move" together as the "player movement" feature), connecting subtasks to higher-level features.
+Skill: Recognize that related subtasks form features
+Description: Students look at a list of project subtasks and identify which ones work together to create a single feature (e.g., "draw player sprite," "add player controls," "make player move" all contribute to the "player movement" feature), connecting subtasks to higher-level features.
 
 Dependencies:
-* T03.G2.06: Sort cards into "whole project" vs "single feature" categories
+* T03.G2.06: Distinguish between a complete project and individual features
 
 
 
@@ -2810,7 +2782,7 @@ Skill: Identify features in a small game description
 Description: Students read a short game description and highlight or select each distinct feature (e.g., player controls, scoring, win/lose screen).
 
 Dependencies:
-* T03.G2.07: Group subtask cards that work together for one feature
+* T03.G2.07: Recognize that related subtasks form features
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
@@ -2969,8 +2941,8 @@ Dependencies:
 
 ID: T03.G4.02
 Topic: T03 – Problem Decomposition
-Skill: Explain what modules are and why they help organize projects
-Description: Students examine example projects organized into modules (e.g., "the player module includes the player sprite, movement scripts, and controls") and explain in their own words how grouping related components makes projects easier to build and maintain.
+Skill: Understand what modules are
+Description: Students learn that modules are collections of related components that work together for a common purpose (e.g., "the player module includes the player sprite, movement scripts, and controls"), understanding that organizing a project into modules makes it easier to build and maintain.
 
 Dependencies:
 * T03.G4.01.03: Track completion of subtasks
@@ -2986,7 +2958,7 @@ Skill: Group related components into modules
 Description: Students drag components into higher‑level modules (e.g., "game logic," "user interface," "data"), organizing by how components work together: shared data, similar purpose, or frequent communication patterns.
 
 Dependencies:
-* T03.G4.02: Explain what modules are and why they help organize projects
+* T03.G4.02: Understand what modules are
 
 
 
@@ -3220,8 +3192,8 @@ Dependencies:
 
 ID: T03.G7.01
 Topic: T03 – Problem Decomposition
-Skill: Explain software architecture concepts using project examples
-Description: Students examine complex projects and explain how software architecture organizes a system into components and their relationships, describing why good architecture makes projects easier to build, test, and modify using concrete examples from the projects.
+Skill: Understand software architecture concepts
+Description: Students learn that software architecture is the high-level organization of a system into components and their relationships, understanding why good architecture makes projects easier to build, test, and modify.
 
 Dependencies:
 * T03.G6.01: Propose modules for a medium project (grouped hierarchy)
@@ -3237,7 +3209,7 @@ Skill: Identify main components in software architecture
 Description: Students examine a complex project description and identify the main components needed (e.g., "player control system," "enemy AI system," "scoring system," "UI system"), recognizing the high-level parts that make up the architecture.
 
 Dependencies:
-* T03.G7.01: Explain software architecture concepts using project examples
+* T03.G7.01: Understand software architecture concepts
 * T10.G5.01: Architecture diagrams represent components as structured collections.
 
 
@@ -3337,8 +3309,8 @@ Dependencies:
 
 ID: T03.G8.01
 Topic: T03 – Problem Decomposition
-Skill: Distinguish between system-level and feature-level decomposition
-Description: Students analyze project breakdowns and distinguish between feature-level decomposition (breaking down what a project does) and system-level decomposition (breaking down how the technical implementation is organized), selecting the appropriate approach for given scenarios.
+Skill: Understand system-level vs. feature-level decomposition
+Description: Students learn the difference between feature-level decomposition (breaking down what a project does) and system-level decomposition (breaking down how the technical implementation is organized), understanding when to use each approach.
 
 Dependencies:
 * T03.G7.01.03: Design interactions between components
@@ -3354,7 +3326,7 @@ Skill: Analyze user requirements from specifications
 Description: Students read a project specification or user story and identify the key user requirements (e.g., "users need to be able to save progress," "the game must support 2-4 players," "results should be displayed in a table"), extracting what the system must do for its users.
 
 Dependencies:
-* T03.G8.01: Distinguish between system-level and feature-level decomposition
+* T03.G8.01: Understand system-level vs. feature-level decomposition
 * T10.G6.01: Sort a table by a column
 
 
@@ -4072,7 +4044,7 @@ Description: Students examine custom blocks with hard-coded values and identify 
 
 Dependencies:
 * T04.G5.06: Identify changeable vs fixed parts in a template
-* T04.G4.04: Identify template patterns in example projects
+* T04.G3.04.02: Create a custom block (template) for repeated code patterns
 
 
 
@@ -4515,8 +4487,8 @@ Dependencies:
 
 ID: T05.GK.01
 Topic: T05 – Human‑Centered Design
-Skill: Identify who a tool helps from picture cards
-Description: Students see a picture card of a person and a tool (e.g., grandparent + smartphone) and click on "Who does this help?" from picture options. Picture-based selection activity with visual scenarios only.
+Skill: Name who a tool helps
+Description: Students see a picture of a person and a tool (e.g., grandparent + smartphone) and choose “Who does this help?” from options.
 
 
 
@@ -4525,11 +4497,11 @@ Description: Students see a picture card of a person and a tool (e.g., grandpare
 
 ID: T05.GK.02
 Topic: T05 – Human‑Centered Design
-Skill: Match problem pictures to helpful tool pictures
-Description: Students drag-and-drop to match picture cards showing simple everyday problems (e.g., picture of dark room) to picture cards showing tools that help (e.g., flashlight). Picture-based matching activity with visual scenarios only.
+Skill: Match a simple problem to a helpful tool
+Description: Students match simple everyday problems (e.g., “It’s dark”) to tools that help (e.g., flashlight).
 
 Dependencies:
-* T05.GK.01: Identify who a tool helps from picture cards
+* T05.GK.01: Name who a tool helps
 
 
 
@@ -4539,11 +4511,11 @@ Dependencies:
 
 ID: T05.GK.03
 Topic: T05 – Human‑Centered Design
-Skill: Select the easier-to-use version from two pictures
-Description: Students compare two picture cards of an interface/tool (big vs tiny button, clear vs cluttered screen) and click on which is easier to use. Picture-based comparison activity with visual scenarios only.
+Skill: Decide which version is easier to use
+Description: Students compare two pictures of an interface/tool (big vs tiny button, clear vs cluttered screen) and choose which is easier.
 
 Dependencies:
-* T05.GK.02: Match problem pictures to helpful tool pictures
+* T05.GK.02: Match a simple problem to a helpful tool
 
 
 
@@ -4553,11 +4525,11 @@ Dependencies:
 
 ID: T05.GK.04
 Topic: T05 – Human‑Centered Design
-Skill: Select a change picture that makes a device easier to use
-Description: Students see picture cards showing possible changes (bigger button, clearer text, speaker icon for sound) and click on which change would help a pictured character use a device. Picture-based selection activity with visual scenarios only.
+Skill: Choose a change that makes something easier
+Description: Students pick one change (bigger button, clearer text, speaker icon for sound) that would help a character use a device.
 
 Dependencies:
-* T05.GK.03: Select the easier-to-use version from two pictures
+* T05.GK.03: Decide which version is easier to use
 
 
 
@@ -4571,7 +4543,7 @@ Skill: Identify what a character needs from pictures
 Description: Students see a picture story showing a character with a problem (e.g., child can't reach a shelf, person squinting at small text, someone lost in a building) and choose from picture options what the character needs (a step stool, bigger text, a map sign). Picture-based activity using visual scenarios only.
 
 Dependencies:
-* T05.GK.02: Match problem pictures to helpful tool pictures
+* T05.GK.02: Match a simple problem to a helpful tool
 
 
 
@@ -4595,7 +4567,7 @@ Skill: Choose a better screen version for a pictured user
 Description: Students see a picture of a user (young child, elderly person with glasses, person using one hand) and two screen versions side by side, then click on which screen version would work better for that pictured user. Picture-based comparison activity.
 
 Dependencies:
-* T05.GK.03: Select the easier-to-use version from two pictures
+* T05.GK.03: Decide which version is easier to use
 
 
 
@@ -4615,8 +4587,8 @@ Dependencies:
 
 ID: T05.G2.01
 Topic: T05 – Human‑Centered Design
-Skill: Match user pictures to preferred design pictures
-Description: Students see three picture cards of users (e.g., kid, adult, person with glasses) and drag-and-drop to match each to a preferred design picture (colorful icons, simple layout, high contrast). Picture-based matching activity with visual scenarios only.
+Skill: Match different users to different preferred designs
+Description: Students see three users (e.g., kid, adult, person with glasses) and match each to a preferred design (colorful icons, simple layout, high contrast).
 
 Dependencies:
 * T05.G1.03: Choose a better screen version for a pictured user
@@ -4667,7 +4639,7 @@ Skill: Put human‑centered design steps in order
 Description: Students order cards like "learn about users," "plan design," "build," "test with users" into a simple HCD cycle.
 
 Dependencies:
-* T05.G2.01: Match user pictures to preferred design pictures
+* T05.G2.01: Match different users to different preferred designs
 
 
 
@@ -4679,7 +4651,7 @@ Skill: Identify user needs from a short interview transcript
 Description: Students read 3–4 lines of a mock interview and select the main need or problem.
 
 Dependencies:
-* T05.G2.01: Match user pictures to preferred design pictures
+* T05.G2.01: Match different users to different preferred designs
 * T05.G1.01: Identify what a character needs from pictures
 
 
@@ -4700,8 +4672,8 @@ Dependencies:
 
 ID: T05.G3.04
 Topic: T05 – Human‑Centered Design
-Skill: Select the main variable a simple simulation should display
-Description: Students select what the main "thing that changes" is in a simple simulation (e.g., plant height, number of cars) from multiple choice options, considering what question they want the simulation to help answer.
+Skill: Decide what a simple simulation should show
+Description: Students choose what the main "thing that changes" is in a simple simulation (e.g., plant height, number of cars), thinking about what question they want the simulation to help answer.
 
 Dependencies:
 * T05.G2.04: Choose what to include in a very simple simulation
@@ -4729,7 +4701,7 @@ Description: Students see accessibility features (captions, large text, high con
 
 Dependencies:
 * T05.G2.02: Circle accessibility features in a picture
-* T05.G2.01: Match user pictures to preferred design pictures
+* T05.G2.01: Match different users to different preferred designs
 
 
 
@@ -4741,7 +4713,7 @@ Skill: Identify which questions a simulation can answer
 Description: Students see a list of questions about a real-world situation (e.g., "How many birds will there be next year?", "What color are the birds?", "What happens if we plant more trees?") and sort them into "simulation can help answer" vs "need other ways to find out." Builds understanding of what simulations are useful for.
 
 Dependencies:
-* T05.G3.04: Select the main variable a simple simulation should display
+* T05.G3.04: Decide what a simple simulation should show
 * T05.G3.05: Select simple rules for a simulation
 
 
@@ -4780,7 +4752,7 @@ Description: Students see a real-world situation and write 2-3 specific question
 
 Dependencies:
 * T05.G3.07: Identify which questions a simulation can answer
-* T05.G4.05: Categorize factors as included or ignored in a simulation
+* T05.G4.05: Decide what to include vs ignore in a simulation
 
 
 
@@ -4841,11 +4813,11 @@ Dependencies:
 
 ID: T05.G4.05
 Topic: T05 – Human‑Centered Design
-Skill: Categorize factors as included or ignored in a simulation
-Description: Students see a real‑world situation and categorize factors by dragging them into "include" (2–3 important factors) and "ignore" (1–2 unimportant details) columns for the simulation.
+Skill: Decide what to include vs ignore in a simulation
+Description: Students see a real‑world situation and pick 2–3 important factors for the simulation and 1–2 details to ignore.
 
 Dependencies:
-* T05.G3.04: Select the main variable a simple simulation should display
+* T05.G3.04: Decide what a simple simulation should show
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
@@ -4854,11 +4826,11 @@ Dependencies:
 
 ID: T05.G4.06
 Topic: T05 – Human‑Centered Design
-Skill: Select the best justification for a simulation simplification
-Description: Students select the best reason from multiple choice options for why a given factor can be ignored in a simulation (e.g., too complex, not needed for the question, minimal impact on results).
+Skill: Explain why a simplification is reasonable
+Description: Students choose the best reason for ignoring a given factor (too complex, not needed for the question, etc.).
 
 Dependencies:
-* T05.G3.04: Select the main variable a simple simulation should display
+* T05.G3.04: Decide what a simple simulation should show
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 
 
@@ -4971,7 +4943,7 @@ Skill: Identify variables and initial values for a simulation
 Description: Students list or select variables (e.g., "number of rabbits") and their starting values from a story, as a planning step before building the simulation in CreatiCode using the variable blocks (e.g., T17/T25–T27).
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
+* T05.G4.05: Decide what to include vs ignore in a simulation
 * T05.G4.05a: Formulate questions a simulation should answer
 * T09.G3.03: Create a variable and display its value
 * T10.G5.01: Understand table structure (rows, columns, cells)
@@ -4988,7 +4960,7 @@ Description: Students choose or write rules for how variables change each step (
 
 Dependencies:
 * T05.G3.05: Select simple rules for a simulation
-* T05.G4.05: Categorize factors as included or ignored in a simulation
+* T05.G4.05: Decide what to include vs ignore in a simulation
 * T07.G5.01: Simulate repeated experiments with a loop
 * T08.G5.00: Draw decision tree flowchart
 * T09.G5.01: Use multiple variables together in a single expression
@@ -5020,7 +4992,7 @@ Skill: Plan what to measure in a simulation experiment
 Description: Students choose what data to record when running a simulation (e.g., population at each step), planning to use tables for data logging and charts for visualization.
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
+* T05.G4.05: Decide what to include vs ignore in a simulation
 * T03.G5.01: Create a feature list and subtask breakdown
 
 
@@ -5082,8 +5054,8 @@ Skill: Plan a simple CreatiCode simulation with variables, rules, and UI
 Description: Students complete a planning template listing variables, rules, and simple UI widgets (sliders for parameters, labels for displays, buttons for controls, charts for results) for a simulation idea, as a bridge from paper planning (T05/T03) to actual CreatiCode simulations (e.g., physics/data topics).
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T05.G4.06: Select the best justification for a simulation simplification
+* T05.G4.05: Decide what to include vs ignore in a simulation
+* T05.G4.06: Explain why a simplification is reasonable
 
 
 
@@ -5091,12 +5063,12 @@ Dependencies:
 
 ID: T05.G6.06
 Topic: T05 – Human‑Centered Design
-Skill: Write justifications for simulation modeling choices
-Description: Students write brief reasons (1-2 sentences each) explaining why specific aspects of reality are included or simplified in a simulation design, connecting choices to the simulation's purpose.
+Skill: Justify what is modeled vs simplified in a simulation design
+Description: Students select or write brief reasons for including or ignoring certain aspects of reality.
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T05.G4.06: Select the best justification for a simulation simplification
+* T05.G4.05: Decide what to include vs ignore in a simulation
+* T05.G4.06: Explain why a simplification is reasonable
 
 
 
@@ -5181,8 +5153,8 @@ Dependencies:
 
 ID: T05.G7.02
 Topic: T05 – Human‑Centered Design
-Skill: Rank accessibility issues by severity and impact
-Description: Students see a list of identified accessibility issues and drag-and-drop to rank them by severity/impact, placing issues affecting more users or blocking core functionality higher in priority.
+Skill: Prioritize which accessibility issues to fix first
+Description: Students see a list of identified issues and rank them by severity/impact.
 
 Dependencies:
 * T05.G7.01c: Complete a full accessibility review with evidence
@@ -5210,8 +5182,8 @@ Dependencies:
 
 ID: T05.G7.04
 Topic: T05 – Human‑Centered Design
-Skill: Match potential harms to mitigation strategies
-Description: Students drag-and-drop to match each identified potential harm (privacy risk, addictive feature, exclusion) to an appropriate mitigation strategy from a provided list.
+Skill: Propose one concrete mitigation per harm
+Description: Students match each harm to a suggested mitigation strategy.
 
 Dependencies:
 * T05.G7.03: Identify potential unintended harms from a design
@@ -5237,8 +5209,8 @@ Dependencies:
 
 ID: T05.G7.06
 Topic: T05 – Human‑Centered Design
-Skill: Select design changes that address identified data patterns
-Description: Students select from multiple choice options which design changes correspond logically to the identified data issues (e.g., if data shows users skip a feature, choose to make it more visible or simplify access).
+Skill: Choose design changes based on data patterns
+Description: Students select which design changes correspond logically to the identified data issues.
 
 Dependencies:
 * T05.G7.05: Interpret usage or feedback data to find UX problems
@@ -5255,7 +5227,7 @@ Skill: Write one sentence connecting a design decision to user feedback
 Description: Write single sentence connecting design decision to evidence using sentence stems. Scaffolds formal justification writing in G8.05.
 
 Dependencies:
-* T05.G7.06: Select design changes that address identified data patterns
+* T05.G7.06: Choose design changes based on data patterns
 
 
 
@@ -5348,7 +5320,7 @@ Description: Students design a simulation experiment by identifying one variable
 
 Dependencies:
 * T05.G6.05: Plan a simple CreatiCode simulation with variables, rules, and UI
-* T05.G6.06: Write justifications for simulation modeling choices
+* T05.G6.06: Justify what is modeled vs simplified in a simulation design
 * T07.G6.01: Trace nested loops with variable bounds
 * T10.G6.01: Sort a table by a column
 
@@ -5360,8 +5332,8 @@ Dependencies:
 
 ID: T05.G8.04
 Topic: T05 – Human‑Centered Design
-Skill: Draw valid conclusions from simulation results
-Description: Students view a set of simulation results (tables, charts) and select appropriate conclusions from multiple choice options, identifying which conclusions are supported by data and which represent over‑generalization.
+Skill: Interpret simulation results and connect back to the question
+Description: Students view a set of simulation results and choose appropriate conclusions, checking for over‑generalization.
 
 Dependencies:
 * T05.G8.03: Plan controlled simulation experiments (change one variable)
@@ -5378,7 +5350,7 @@ Description: Students write 2–3 sentence justifications for design choices, ex
 
 Dependencies:
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T05.G7.06: Select design changes that address identified data patterns
+* T05.G7.06: Choose design changes based on data patterns
 * T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01a: Use conditionals in physics simulations
 * T10.G6.01: Sort a table by a column
@@ -5390,8 +5362,8 @@ Dependencies:
 
 ID: T05.G8.06
 Topic: T05 – Human‑Centered Design
-Skill: Evaluate a design brief for HCD principles and simulation quality
-Description: Students read a sample design brief and complete a structured evaluation checklist, identifying 2-3 strengths and 2-3 gaps in user focus (empathy, needs, accessibility) and simulation planning (variables, rules, questions).
+Skill: Critique a peer design brief for HCD and simulation quality
+Description: Students evaluate a sample design brief, identifying strengths and gaps in user focus and simulation planning.
 
 Dependencies:
 * T05.G8.01c: Combine users, goals, and constraints into a design brief
@@ -7968,7 +7940,7 @@ Description: **Student task:** Click a button to add 1 to a counter on screen. W
 
 Dependencies:
 * T09.GK.02: Identify which label changed after an action
-* T03.G1.01: Match a part to its function using picture cards
+* T03.G1.01: Describe what one part of a system does
 
 
 

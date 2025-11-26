@@ -296,7 +296,7 @@
 - `enable physics for scene with gravity (GRAVITY)` - Initialize physics engine
 - `update gravity for scene to (GRAVITY)` - Change gravity
 - `set physics frame rate [RATE]` - Set physics update rate
-- `get physics frame rate for [NAME]` - Get physics frame rate
+- `get physics frame rate` - Get physics frame rate
 
 ### Physics Bodies
 - `add [SHAPE] physics body with mass (MASS) restitution (RESTITUTION)% friction (FRICTION)% frozen [ISFROZEN] debug [ISDEBUG] [COLOR]` - Add physics body

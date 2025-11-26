@@ -314,7 +314,7 @@ Total 3D-related blocks found: **239 blocks**
 - `enable physics for scene with gravity (G)` - Initialize physics engine
 - `update gravity for scene to (G)` - Change gravity
 - `set physics frame rate [RATE]` - Set simulation rate
-- `get physics frame rate for [NAME]` - Get frame rate
+- `get physics frame rate` - Get frame rate
 
 #### Physics Bodies:
 - `add [SHAPE] physics body with mass (M) restitution (R)% friction (F)% frozen [YES/NO] debug [YES/NO] [COLOR]` - Add physics body

@@ -306,7 +306,7 @@ This document organizes all 239 3D blocks by their primary function to help veri
 - `enable physics for scene with gravity (GRAVITY)`
 - `update gravity for scene to (GRAVITY)`
 - `set physics frame rate [RATE]`
-- `get physics frame rate for [NAME]`
+- `get physics frame rate`
 
 ## PHYSICS - BODIES (6 blocks)
 - `add [SHAPE] physics body with mass (MASS) restitution (RESTITUTION)% friction (FRICTION)% frozen [ISFROZEN] debug [ISDEBUG] [COLOR]`

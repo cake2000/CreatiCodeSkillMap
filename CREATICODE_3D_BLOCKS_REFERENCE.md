@@ -291,7 +291,7 @@ Physics simulation, rigid bodies, constraints, collisions, and vehicle simulatio
 - enable physics for scene with gravity (GRAVITY)
 - update gravity for scene to (GRAVITY)
 - set physics frame rate [RATE]
-- get physics frame rate for [NAME]
+- get physics frame rate
 
 **Physics Bodies:**
 - add [SHAPE v] physics body with mass (MASS) restitution (RESTITUTION)% friction (FRICTION)% frozen [ISFROZEN v] debug [ISDEBUG v] [COLOR]
