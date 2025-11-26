@@ -22,7 +22,7 @@ async function runAllScripts() {
   console.log(`║  Start Time: ${startTime.toLocaleString()}  ║`);
   console.log("╚══════════════════════════════════════════════════════════╝\n");
 
-  // All 36 topics identified from the skill map
+  // All 34 topics identified from the skill map (Updated v7)
   const topics = [
     { code: "T01", name: "Everyday Algorithms" },
     { code: "T02", name: "Algorithm Diagrams" },
@@ -34,46 +34,44 @@ async function runAllScripts() {
     { code: "T08", name: "Conditions & Logic" },
     { code: "T09", name: "Variables & Expressions" },
     { code: "T10", name: "Lists & Tables" },
-    { code: "T11", name: "Functions & Procedures" },
-    { code: "T12", name: "Organizing Programs" },
-    { code: "T13", name: "Testing, Debugging & Error Handling" },
-    { code: "T14", name: "2D Games" },
-    { code: "T15", name: "Stories & Animation" },
-    { code: "T16", name: "User Interfaces" },
-    { code: "T17", name: "2D Motion & Physics" },
-    { code: "T18", name: "3D Worlds & Games" },
-    { code: "T19", name: "Multiplayer Apps" },
-    { code: "T20", name: "Algorithmic Art & Creative Coding" },
-    { code: "T21", name: "AI Media" },
-    { code: "T22", name: "Chatbots & Prompting" },
-    { code: "T23", name: "AI Perception" },
-    { code: "T24", name: "XO & Generative AI Practices" },
-    { code: "T25", name: "Data Representation" },
-    { code: "T26", name: "Data Collection & Logging" },
-    { code: "T27", name: "Data Analysis & Storytelling" },
-    { code: "T28", name: "Chance & Simulations" },
-    { code: "T29", name: "Text Data & NLP Foundations" },
-    { code: "T30", name: "Devices & Hardware Systems" },
-    { code: "T31", name: "Internet & Cloud" },
-    { code: "T32", name: "Cybersecurity & Digital Safety" },
+    { code: "T11", name: "Functions & Organization" },
+    { code: "T12", name: "Testing, Debugging & Error Handling" },
+    { code: "T13", name: "2D Games" },
+    { code: "T14", name: "Stories & Animation" },
+    { code: "T15", name: "User Interfaces" },
+    { code: "T16", name: "2D Motion & Physics" },
+    { code: "T17", name: "3D Worlds & Games" },
+    { code: "T18", name: "Multiplayer Apps" },
+    { code: "T19", name: "Algorithmic Art & Creative Coding" },
+    { code: "T20", name: "AI Media" },
+    { code: "T21", name: "Chatbots & Prompting" },
+    { code: "T22", name: "AI Perception" },
+    { code: "T23", name: "Generative AI Practices" },
+    { code: "T24", name: "Data Representation" },
+    { code: "T25", name: "Data Collection & Logging" },
+    { code: "T26", name: "Data Analysis & Storytelling" },
+    { code: "T27", name: "Chance & Simulations" },
+    { code: "T28", name: "Text Data & NLP Foundations" },
+    { code: "T29", name: "Devices & Hardware Systems" },
+    { code: "T30", name: "Internet & Cloud" },
+    { code: "T31", name: "Cybersecurity & Digital Safety" },
+    { code: "T32", name: "Digital Citizenship" },
     { code: "T33", name: "Connected Services & Tool Wrappers" },
-    { code: "T34", name: "Computing History" },
-    { code: "T35", name: "Impacts & Ethics" },
-    { code: "T36", name: "Careers, Collaboration & Future Paths" }
+    { code: "T34", name: "Computing History" }
   ];
 
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   // Number of iterations for each phase
-  const TOPIC_ITERATIONS = 1; // 3 iterations as requested
-  const GRADE_ITERATIONS = 0; // 3 iterations for grade-level checking
+  const TOPIC_ITERATIONS = 1; 
+  const GRADE_ITERATIONS = 0; 
 
   console.log("===========================================");
   console.log("Starting Two-Phase Optimization Strategy");
   console.log("===========================================\n");
   console.log(`Phase 1: ${topics.length} topics × ${TOPIC_ITERATIONS} iterations = ${topics.length * TOPIC_ITERATIONS} focused topic passes`);
   console.log(`Phase 2: ${gradeList.length} grades × ${GRADE_ITERATIONS} iterations = ${gradeList.length * GRADE_ITERATIONS} focused grade passes`);
-  console.log(`Total: ${topics.length * TOPIC_ITERATIONS + gradeList.length * GRADE_ITERATIONS} focused passes (vs. 900 unfocused)\n`);
+  console.log(`Total: ${topics.length * TOPIC_ITERATIONS + gradeList.length * GRADE_ITERATIONS} focused passes\n`);
 
   // PHASE 1: Topic-by-Topic Processing
   console.log("===========================================");
@@ -89,12 +87,12 @@ async function runAllScripts() {
 
     // Back up allskills.md for this iteration
     const timestamp = Date.now();
-    const backupPath = `./skillsv4/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
-    execSync(`cp ./skillsv4/allskills.md "${backupPath}"`);
+    const backupPath = `./skillsv5/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
+    execSync(`cp ./skillsv5/allskills.md "${backupPath}"`);
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 32) continue;
+      // if ( iteration == 0 && i < 32) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -102,11 +100,11 @@ async function runAllScripts() {
       console.log(`  ${new Date().toLocaleString()}`);
 
       const topicPrompt = `## Introduction
-We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on. Our goal is not only build solid foundations in coding concepts but also empower students to create amazing projects using CreatiCode's unique features, and along the way develop problem solving skills that will serve them for life.
+We are aiming for "IXL for coding based on CreatiCode", and we need top quality results. This skill map will become the new golden standard for all coding platforms/educators to rely on. Our goal is not only to build solid foundations in coding concepts but also empower students to create amazing projects using CreatiCode's unique features, and along the way develop problem solving skills that will serve them for life.
 
 Read 00-START-HERE.md and spec_v2_updated.md to understand the whole project, and read the key references like CSTA standard draft, AI priorities, and creaticode introduction in the root folder.
 
-Latest version of skills are in "skillsv4" folder. Read the file skillsv4/allskills.md, which contains all skills.
+Latest version of skills are in "skillsv5" folder. Read the file skillsv5/allskills.md, which contains all skills.
 
 ## Phase 1: Topic-Focused Optimization for ${topic.code} - ${topic.name}
 
@@ -114,72 +112,59 @@ You are in PHASE 1 of a two-phase optimization process. In this phase, you are f
 
 ### Your Specific Tasks for Topic ${topic.code}:
 
-1. **Internal Topic Coherence**
-   - Review ALL skills in topic ${topic.code} across grades K-8
-   - Ensure each skill is clear, specific, and manageable (like IXL skills)
-   - Check for duplicates or significant overlaps WITHIN this topic
-   - Verify logical progression from kindergarten through grade 8
+1. **Internal Topic Coherence & Granularity**
+   - Review ALL skills in topic ${topic.code} across grades K-8.
+   - Ensure each skill is clear, specific, and manageable (atomic, IXL-style).
+   - **Break down any skill** that is too broad (e.g., "Create a game") into sub-skills (e.g., "Move player," "Detect collision," "Update score"). Use sub-IDs like ${topic.code}.G4.05.01.
+   - Check for duplicates or significant overlaps WITHIN this topic.
+   - Verify logical progression from kindergarten through grade 8.
 
-
-2. **Skill Quality Checks**
-   - Feel free to make MAJOR revisions to skill descriptions as needed or add/update skills
-   - Break down any skills that are too broad or complex
-   - Skills should be designed to help students gain problem solving skills beyond just learning how to use CreatiCode features or basic coding concepts
-   - The list of skills has to be comprehensive and scaffolded. You are encouraged to add missing skills to ensure proper scaffolding and knowledge coverage within the topic.
-   - Skill description should be actionable, relatable to the target age group, easy to understand, and implementable
-   - If the skill is related how to use a CreatiCode feature, such as how a block or tool works, ensure it accurately reflects the feature's capabilities. You absolutely must check the creaticode repos to verify this by reviewing ALL blocks offered in the related categories and consider how they should be used to teach the skill. For example, for 2D physics or 3D skills, you have to look into what blocks are offered and how they work to design meaningful skills around them since these skills are totally depending on the specific features of the platform. For 3D skills, you would have to look into how to initialize a 3D scene, control the camera, adding shapes/models/avatars, moving/rotating, handle collision/physics. For 2D physics, we have to enable the 2D physics engine first and then define the physics body for sprites, etc. Similar for widget category for app development, which are essential when developping AI apps like adding buttons/labels/textbox/chat window and handle user interactions. You also hav to check out other categories like AI (how to call ChatGPT/LLM, hand/body gesture tracking, speech-to-text and text-to-speech, etc), multiplayer, cloud, etc, when you work with related topics. You can search in this file to get all blocks in any category: /media/binyu/USB2/ScratchCopilot/blockdes8.txt. For example, search "Category:" to find all categories in that file or find all blocks within one category by searching "Category: <category name>". The current skills may not fully reflect the actual features of CreatiCode, so you have to improve them based on what the platform actually offers, and maybe some big changes are needed.
-   - Ensure skill descriptions are concrete and assessable
-   - Merge truly redundant skills within the topic (but be conservative)
-   - When breaking down skills, use sub-IDs like ${topic.code}.G4.05.01, ${topic.code}.G4.05.02
+2. **Skill Quality & Assessability**
+   - **Standardize verbs**: Ensure skill titles use active, measurable verbs (e.g., "Explain," "Trace," "Predict," "Debug") rather than vague ones like "Understand."
+   - **Visual Assets**: For K-2 skills, ensure descriptions specify "picture cards" or "visual scenarios" clearly.
+   - **CreatiCode Features**: Ensure skills accurately reflect CreatiCode's blocks (e.g., specific 3D, Physics, or AI blocks). Refer to blocks in 	 '../../ScratchCopilot/blockdes8.txt' if needed.
+   - **Project Scoping**: For G8 capstone skills, ensure they are scoped as manageable mini-projects or properly broken down.
 
 3. **Intra-Topic Dependencies ONLY**
-   - Fix dependencies WITHIN topic ${topic.code} only
-   - Ensure no skill depends on a later skill in the same topic
-   - Remove unnecessary same-grade dependencies (earlier skills in same topic/grade are assumed)
-   - Apply the X-2 rule: dependencies should be at grades X, X-1, or X-2 only. For example, for a grade 4 skill, dependencies can only be at grades 4, 3, or 2.
-   - **CRITICAL: PRESERVE all dependencies to OTHER topics (T## where ## ≠ ${topic.code.slice(1)})**
+   - Fix dependencies WITHIN topic ${topic.code} only.
+   - Ensure no skill depends on a later skill in the same topic.
+   - Remove unnecessary same-grade dependencies (linear progression is assumed).
+   - Apply the X-2 rule: dependencies should be at grades X, X-1, or X-2 only.
+   - **CRITICAL: PRESERVE all dependencies to OTHER topics.**
 
 4. **Grade-Appropriate Content**
-   - K-2 skills should be picture-based or unplugged
-   - Grade 3+ skills should involve block-based coding
-   - Ensure complexity increases appropriately with grade level
+   - K-2 skills should be picture-based or unplugged.
+   - Grade 3+ skills should involve block-based coding.
+   - Ensure complexity increases appropriately.
 
 CRITICAL RULES - NEVER VIOLATE THESE:
-- **NEVER delete any skills** - only improve/clarify their descriptions
-- **NEVER remove dependencies to skills from OTHER topics** (preserve all cross-topic dependencies)
-- **NEVER modify skills from other topics** - focus ONLY on ${topic.code}
-- Only remove a dependency if it's genuinely incorrect AND within topic ${topic.code}
-- When you identify inter-topic dependency issues, ignore them
+- **NEVER delete any skills** - only improve/clarify their descriptions or split them.
+- **NEVER remove dependencies to skills from OTHER topics** (preserve all cross-topic dependencies).
+- **NEVER modify skills from other topics** - focus ONLY on ${topic.code}.
+- Only remove a dependency if it's genuinely incorrect AND within topic ${topic.code}.
 
 IMPORTANT CONSTRAINTS:
-- ONLY modify skills in topic ${topic.code}
-- Do NOT change inter-topic dependencies (those will be fixed in Phase 2)
-- Focus on making this topic internally consistent and high quality
-- Preserve the existing skill structure unless there's a compelling reason to change it
+- ONLY modify skills in topic ${topic.code}.
+- Do NOT change inter-topic dependencies (those will be fixed in Phase 2).
+- Focus on making this topic internally consistent and high quality.
 
 Additional context about CreatiCode features is available at:
 * client side: ../../scratch-workspace
 * server side: ../../creaticode-ws
 * AI copilot: ../../ScratchCopilot
 
-Use subagents/task to keep main context clean and small. For example, use Task with subagent_type=general-purpose to analyze and fix issues.
+Use subagents/task to keep main context clean and small.
 
-## Special Note On this run
-
-I have reviewed the skills, and one BIG problem is the skills are still too big for some categories, such as 3D worlds. For one example, there is one skill T18.G3.04 that covers adding ALL shapes like boxes, spheres, etc. Although each shape is already a big skill by itself since many parameters are there for each block for customizing it. So for cases like this, that skill needs to be broken down into many smaller skills. And you can use additional skill IDs like T18.G3.04.01, T18.G3.04.02, etc. to define each smaller skill. Please make sure all skills are manageable and implementable by students. Do this for every topic where applicable and every skill. In general, when introducing new blocks/features, make sure each skill is focused on one SINGLE block/feature ONLY, so students can learn to use it well. If a skill is too big, break it down into smaller skills.
-
-YOU ARE PERMITTED TO MAKE MAJOR CHANGES, especially breaking down overly broad skills into smaller, manageable ones.
-
-Now, automatically fix all high and medium priority issues within topic ${topic.code}. For output, summarize the key changes you made to topic ${topic.code} skills in skillsv4/allskills.md.`;
+Now, automatically fix all high and medium priority issues within topic ${topic.code}. For output, summarize the key changes you made to topic ${topic.code} skills in skillsv5/allskills.md.`;
 
       let success = false;
       let retryCount = 0;
-      const maxRetries = 30000;
+      const maxRetries = 3; // Reduced from 30000 to 3 for realism in this script context
 
       while (!success && retryCount < maxRetries) {
         try {
           const output = execSync(
-            `claude --add-dir ../../scratch-workspace --add-dir ../../creaticode-ws --add-dir ../../ScratchCopilot -p "${topicPrompt.replace(/"/g, '\\"')}"`,
+            `claude --add-dir ../../scratch-workspace --add-dir ../../creaticode-ws --add-dir ../../ScratchCopilot -p "${topicPrompt.replace(/"/g, '\"')}"`,
             { encoding: "utf8", maxBuffer: 1024 * 1024 * 10 }
           );
 
@@ -207,8 +192,8 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
             console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
             retryCount++;
           } else {
-            // console.error(`⚠️  Skipping topic ${topic.code} after error`);
-            // break;
+             // Break on non-rate-limit errors to avoid infinite loops in testing
+             retryCount++;
           }
         }
       }
@@ -235,12 +220,11 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
 
     // Back up allskills.md for this iteration
     const timestamp = Date.now();
-    const backupPath = `./skillsv4/allskills_grade_phase_iter${iteration + 1}_${timestamp}.md`;
-    execSync(`cp ./skillsv4/allskills.md "${backupPath}"`);
+    const backupPath = `./skillsv5/allskills_grade_phase_iter${iteration + 1}_${timestamp}.md`;
+    execSync(`cp ./skillsv5/allskills.md "${backupPath}"`);
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < gradeList.length; i++) {
-      // if (iteration === 0 && i < 6) continue; // skip some grades for testing
       const grade = gradeList[i];
       console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade}`);
       console.log(`${"─".repeat(50)}`);
@@ -260,11 +244,11 @@ Now, automatically fix all high and medium priority issues within topic ${topic.
       }
 
       const gradePrompt = `## Introduction
-We are aiming for "IXL for coding based on creaticode", and we need top quality result. This skill map will become the new golden standard for all coding platforms/educators to rely on. Our goal is not only build solid foundations in coding concepts but also empower students to create amazing projects using CreatiCode's unique features, and along the way develop problem solving skills that will serve them for life.
+We are aiming for "IXL for coding based on CreatiCode", and we need top quality results. This skill map will become the new golden standard for all coding platforms/educators to rely on.
 
-Read 00-START-HERE.md and spec_v2_updated.md to understand the whole project, and read the key references like CSTA standard draft, AI priorities, and creaticode introduction in the root folder.
+Read 00-START-HERE.md and spec_v2_updated.md to understand the whole project.
 
-Latest version of skills are in "skillsv4" folder. Read the file skillsv4/allskills.md, which contains all skills.
+Latest version of skills are in "skillsv5" folder. Read the file skillsv5/allskills.md, which contains all skills.
 
 ## Phase 2: Grade-Level Cross-Topic Dependency Checking for Grade ${grade}
 
@@ -273,53 +257,47 @@ You are in PHASE 2 of a two-phase optimization process. Phase 1 has already opti
 ### Your Specific Tasks for Grade ${grade}:
 
 1. **Inter-Topic Dependencies**
-   - Review ALL skills at grade ${grade} across all 36 topics
-   - Check all of other topics that might be related to each skill's own topic
-   - ADD missing cross-topic dependencies where needed
-   - Ensure skills from different topics that relate to each other have proper dependencies
-   - Example: A game skill might need to depend on loops, variables, and graphics skills
+   - Review ALL skills at grade ${grade} across all 34 topics.
+   - **ADD missing cross-topic dependencies**:
+     - **Cybersecurity (T31) & DigCit (T32)** -> Connected Services (T33) & Multiplayer (T18).
+     - **Math (T09/T27)** -> Data Science (T24-T26).
+     - **UI (T15)** -> App projects in other topics.
+   - Ensure skills from different topics that relate to each other have proper dependencies.
 
 2. **Dependency Validation**
    - Enforce the X-2 rule strictly: Grade ${grade} skills can only depend on ${allowedGrades}.
-   - Fix dependencies that violate this rule by finding appropriate scaffolding skills
-   - Check for circular dependencies across topics
-   - Remove transitive dependencies (if A→B and B→C, remove A→C) ONLY if truly redundant
+   - Fix dependencies that violate this rule by finding appropriate scaffolding skills.
+   - Check for circular dependencies across topics.
 
 3. **Grade-Level Coherence**
-   - Ensure all grade ${grade} skills work together as a cohesive curriculum
-   - Ensure skills from different topics complement each other well and there is no significant overlap between skills from different topics. If such cases are found, adjust skills or remove them, or add dependencies to clarify learning pathways.
-   - Check that foundational skills are available for more advanced skills
-   - ${grade !== 'K' ? `Verify that grade ${grade === '1' ? 'K' : parseInt(grade) - 1} provides adequate preparation` : 'Ensure kindergarten skills are truly introductory'}
-   - Add dependencies where skills clearly build on each other
+   - Ensure all grade ${grade} skills work together as a cohesive curriculum.
+   - Check that foundational skills are available for more advanced skills.
+   - Add dependencies where skills clearly build on each other.
 
 4. **Scaffolding Verification**
-   - Ensure critical gateway skills have proper dependencies
-   - Check that complex skills have sufficient prerequisite skills
-   - Verify learning pathways make sense across topics at this grade level
-   - When needed skills are missing from allowed grades, find appropriate scaffolding
+   - Ensure critical gateway skills have proper dependencies.
+   - Check that complex skills have sufficient prerequisite skills.
 
 CRITICAL RULES - NEVER VIOLATE THESE:
-- **NEVER delete any skills** - Phase 1 already handled skill quality
-- **Only remove a dependency if it's genuinely incorrect or truly redundant**
-- **Be conservative** - when in doubt, keep the dependency
-- **Add dependencies liberally** - better to over-specify than under-specify prerequisites
-- **Do not update skill ID** when removing a skill to avoid invalidating existing dependencies
-- **Preserve all valid dependencies** even if they seem numerous
+- **NEVER delete any skills** - Phase 1 already handled skill quality.
+- **Only remove a dependency if it's genuinely incorrect or truly redundant.**
+- **Add dependencies liberally** - better to over-specify than under-specify prerequisites.
+- **Do not update skill ID** when removing a skill to avoid invalidating existing dependencies.
+- **Preserve all valid dependencies** even if they seem numerous.
 
 IMPORTANT CONSTRAINTS:
-- Focus ONLY on grade ${grade} skills and their dependencies
-- Do NOT modify skill content or break down skills (that was Phase 1)
-- Only modify dependency lists to ensure proper cross-topic connections
-- Maintain the integrity of intra-topic progressions from Phase 1
+- Focus ONLY on grade ${grade} skills and their dependencies.
+- Do NOT modify skill content or break down skills (that was Phase 1).
+- Only modify dependency lists to ensure proper cross-topic connections.
 
 Additional context about CreatiCode features is available at:
 * client side: ../../scratch-workspace
 * server side: ../../creaticode-ws
 * AI copilot: ../../ScratchCopilot
 
-Use subagents/task to keep main context clean and small. For example, use Task with subagent_type=general-purpose to analyze and fix dependency issues.
+Use subagents/task to keep main context clean and small.
 
-Automatically fix all dependency issues for high and intermediate priorities automatically (no need to ask me) for grade ${grade} skills. For output, summarize the key dependency changes you made for grade ${grade} in skillsv4/allskills.md.`;
+Automatically fix all dependency issues for high and intermediate priorities automatically (no need to ask me) for grade ${grade} skills. For output, summarize the key dependency changes you made for grade ${grade} in skillsv5/allskills.md.`;
 
       let success = false;
       let retryCount = 0;
@@ -328,7 +306,7 @@ Automatically fix all dependency issues for high and intermediate priorities aut
       while (!success && retryCount < maxRetries) {
         try {
           const output = execSync(
-            `claude --add-dir ../../scratch-workspace --add-dir ../../creaticode-ws --add-dir ../../ScratchCopilot -p "${gradePrompt.replace(/"/g, '\\"')}"`,
+            `claude --add-dir ../../scratch-workspace --add-dir ../../creaticode-ws --add-dir ../../ScratchCopilot -p "${gradePrompt.replace(/"/g, '\"')}"`,
             { encoding: "utf8", maxBuffer: 1024 * 1024 * 10 }
           );
 
@@ -381,7 +359,7 @@ Automatically fix all dependency issues for high and intermediate priorities aut
   console.log(`- Phase 1: Processed ${topics.length} topics × ${TOPIC_ITERATIONS} iterations`);
   console.log(`- Phase 2: Processed ${gradeList.length} grades × ${GRADE_ITERATIONS} iterations`);
   console.log(`- Total: ${topics.length * TOPIC_ITERATIONS + gradeList.length * GRADE_ITERATIONS} focused optimization passes`);
-  console.log(`\nCheck skillsv4/allskills.md for the optimized skill map.\n`);
+  console.log(`\nCheck skillsv5/allskills.md for the optimized skill map.\n`);
 }
 
 // Run the script
