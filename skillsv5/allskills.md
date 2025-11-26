@@ -5453,8 +5453,8 @@ Dependencies:
 
 ID: T06.G1.02
 Topic: T06 – Events & Sequences
-Skill: Identify what triggers an action in a story
-Description: Students listen to or read a simple story and identify the trigger (event) that causes each action. For example, "The dog barked WHEN the doorbell rang" - students identify "doorbell rang" as the trigger. This builds event recognition skills in narrative contexts.
+Skill: Identify what triggers an action in a picture story
+Description: Given a simple picture story (3-4 illustrated panels), students identify the trigger (event) that causes each action by circling or pointing to the trigger picture. For example, in a sequence showing doorbell → dog barking, students identify "doorbell rang" as the trigger for "dog barked." This builds event recognition skills in visual narrative contexts.
 
 Dependencies:
 * T06.G1.01: Match action cards to trigger cards (if this happens, then do this)
@@ -5465,11 +5465,11 @@ Dependencies:
 
 ID: T06.G1.03
 Topic: T06 – Events & Sequences
-Skill: Sequence trigger-action pairs in order
-Description: Students arrange multiple trigger-action pairs in chronological order to tell a complete story (e.g., "when alarm rings → wake up," "when dressed → eat breakfast," "when finished eating → brush teeth"). This combines event understanding with sequencing, preparing for multi-event programs.
+Skill: Arrange trigger-action picture pairs in chronological order
+Description: Using picture cards, students arrange multiple trigger-action pairs in chronological order to tell a complete story (e.g., "alarm rings → wake up" card, "get dressed → eat breakfast" card, "finish eating → brush teeth" card). This unplugged activity combines event understanding with sequencing, preparing for multi-event programs.
 
 Dependencies:
-* T06.G1.02: Identify what triggers an action in a story
+* T06.G1.02: Identify what triggers an action in a picture story
 
 
 
@@ -5481,7 +5481,7 @@ Skill: Create a simple cause-and-effect chain with picture cards
 Description: Students build a chain of 3-4 cause-and-effect relationships using picture cards where one event triggers the next (e.g., rain falls → flowers grow → bees come → honey is made). This unplugged activity introduces the concept of cascading events and event chains, foundational for understanding broadcasts and event sequences in programming.
 
 Dependencies:
-* T06.G1.03: Sequence trigger-action pairs in order
+* T06.G1.03: Arrange trigger-action picture pairs in chronological order
 
 
 
@@ -5489,8 +5489,8 @@ Dependencies:
 
 ID: T06.G2.02
 Topic: T06 – Events & Sequences
-Skill: Match multiple triggers to the same action
-Description: Students identify scenarios where different triggers can cause the same action (e.g., "turn on light" can happen when: you flip switch, you clap hands, or timer goes off). This introduces the concept of multiple event handlers for the same behavior.
+Skill: Match multiple trigger cards to the same action card
+Description: Using picture cards, students identify scenarios where different triggers can cause the same action (e.g., match three trigger cards "flip switch," "clap hands," "timer goes off" to one action card "light turns on"). This unplugged activity introduces the concept of multiple event handlers for the same behavior.
 
 Dependencies:
 * T06.G2.01: Create a simple cause-and-effect chain with picture cards
@@ -5834,12 +5834,41 @@ Dependencies:
 
 ID: T06.G5.01
 Topic: T06 – Events & Sequences
-Skill: Identify standard event patterns in a small game
-Description: Students identify and label standard event patterns in a small game: 'game-start' (green flag + initialization), 'reset-level' (broadcast to reset sprites), 'on-collision' (when touching sprite or color), 'on-score-change' (when condition becomes true). Match each pattern to its corresponding event blocks in code.
+Skill: Identify the game-start pattern in existing code
+Description: Students locate and label the 'game-start' pattern in a small game: identify the green flag event handler that performs initialization (reset score, position sprites, set variables). Explain why initialization must happen first.
 
 Dependencies:
 * T06.G4.12: Use green flag initialization to prepare game state
 * T09.G3.03: Use variables in expressions
+
+
+ID: T06.G5.01.01
+Topic: T06 – Events & Sequences
+Skill: Identify the reset-level pattern using broadcasts
+Description: Students locate and label the 'reset-level' pattern: find the broadcast that triggers level reset and the receivers that reposition sprites and reset local state. Trace the broadcast from sender to all receivers.
+
+Dependencies:
+* T06.G5.01: Identify the game-start pattern in existing code
+* T06.G4.06: Match a broadcast send to its receivers
+
+
+ID: T06.G5.01.02
+Topic: T06 – Events & Sequences
+Skill: Identify the on-collision pattern for game interactions
+Description: Students locate and label the 'on-collision' pattern: find "when touching sprite" or "when touching color" event handlers that trigger game actions (scoring, damage, level transition). Explain the relationship between collision detection and game logic.
+
+Dependencies:
+* T06.G5.01.01: Identify the reset-level pattern using broadcasts
+* T06.G4.09: Use "when touching sprite" for sprite-to-sprite collision
+
+
+ID: T06.G5.01.03
+Topic: T06 – Events & Sequences
+Skill: Identify the on-state-change pattern using condition events
+Description: Students locate and label the 'on-state-change' pattern: find "when <condition>" blocks that trigger actions when game state changes (score reaches threshold, health becomes zero). Explain how condition events enable reactive game logic.
+
+Dependencies:
+* T06.G5.01.02: Identify the on-collision pattern for game interactions
 
 
 
@@ -5902,7 +5931,7 @@ Skill: Add explanatory comments to individual event handlers
 Description: Students add clear comments above or within event scripts explaining when each runs (trigger), what event activates it, and what actions it performs. Focus on documenting the purpose of individual handlers. Example: '-- Runs when player touches goal -- Ends level and shows victory message'
 
 Dependencies:
-* T06.G5.01: Identify standard event patterns in a small game
+* T06.G5.01.03: Identify the on-state-change pattern using condition events
 * T03.G5.01: Create a feature list and subtask breakdown
 
 
@@ -5915,7 +5944,7 @@ Skill: Use "when <condition>" event for state changes
 Description: Students use the "when <condition>" block to trigger actions based on variable or expression changes (e.g., when score > 10, when health = 0). This enables event-driven logic without polling.
 
 Dependencies:
-* T06.G5.01: Identify standard event patterns in a small game
+* T06.G5.01.03: Identify the on-state-change pattern using condition events
 * T09.G4.01: Use addition (+) in variable expressions
 
 
@@ -6242,8 +6271,8 @@ Dependencies:
 
 ID: T06.G7.02
 Topic: T06 – Events & Sequences
-Skill: Trace state changes in event-driven code
-Description: Students read code that manages a state variable and events, then trace how state changes in response to inputs.
+Skill: Trace state changes and predict program behavior in event-driven code
+Description: Students read code that manages a state variable and events, then fill in a state-transition table showing: (1) current state, (2) triggering event, (3) resulting state, and (4) actions performed. Given a sequence of inputs, predict the final state value.
 
 Dependencies:
 * T06.G7.01: Create a simple state machine with broadcasts
@@ -6355,8 +6384,8 @@ Dependencies:
 
 ID: T06.G8.01
 Topic: T06 – Events & Sequences
-Skill: Debug event timing issues in complex projects
-Description: Students identify and fix problems where events happen in the wrong order or at the same time causing unexpected behaviors (e.g., score updates before collision check).
+Skill: Debug event timing issues using logging and broadcast-and-wait
+Description: Students identify and fix race conditions and timing issues in event-driven code. Apply two debugging techniques: (1) Add "say" blocks to log when each event fires and in what order, (2) Replace "broadcast" with "broadcast and wait" to enforce sequencing. Given a buggy project, identify the timing issue and implement the fix.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -6369,8 +6398,8 @@ Dependencies:
 
 ID: T06.G8.02
 Topic: T06 – Events & Sequences
-Skill: Design fallback behaviors for missed or repeated events
-Description: Students add guards or checks so programs behave reasonably even if events fire in unexpected ways (e.g., double clicks, missed start).
+Skill: Implement guard conditions to handle missed or repeated events
+Description: Students add guard conditions (e.g., if not already running, if state is valid) to ensure programs behave correctly when events fire unexpectedly. Implement at least two guards: (1) prevent double-click issues using a 'processing' flag, (2) handle missed initialization by checking/setting default values.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -6383,8 +6412,8 @@ Dependencies:
 
 ID: T06.G8.03
 Topic: T06 – Events & Sequences
-Skill: Document the event protocol of a project
-Description: Students create a concise table or diagram listing events/broadcasts, senders, receivers, and purpose.
+Skill: Create an event protocol table documenting all broadcasts in a project
+Description: Students create a structured table with columns: (1) Event/Broadcast Name, (2) Sender Sprite, (3) Receiver Sprite(s), (4) Parameter (if any), (5) Purpose/When Triggered. Document at least 5 broadcasts from an existing project, ensuring each entry is complete and accurate.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -6397,8 +6426,8 @@ Dependencies:
 
 ID: T06.G8.04
 Topic: T06 – Events & Sequences
-Skill: Review and critique an event design for clarity and maintainability
-Description: Students evaluate a project's event structure, identifying confusing names, unnecessary events, or tight coupling, and suggest improvements.
+Skill: Evaluate an event design using a checklist and propose specific improvements
+Description: Students apply a 5-point checklist to evaluate a project's event structure: (1) Are broadcast names descriptive? (2) Are there unused broadcasts? (3) Is any sprite receiving too many broadcasts? (4) Could any broadcasts be combined? (5) Are there missing receivers? List at least 3 specific issues found and propose concrete fixes for each.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -6498,10 +6527,20 @@ Dependencies:
 
 
 
+ID: T07.K.01
+Topic: T07 – Loops
+Skill: Complete a repeating pattern
+Description: **Student task:** Drag pictures to fill in missing items in a simple repeating pattern. **Picture cards:** Show 4-5 items in a row with the last 1-2 items missing (e.g., dog-cat-dog-cat-dog-?). Students select the correct picture from 3 choices to complete the pattern. Use AB patterns (red-blue-red-blue), AAB patterns (clap-clap-jump), or ABC patterns (apple-banana-cherry). Visual themes include animals, shapes, colors, or everyday objects. This picture-based activity builds foundational understanding of repetition without any coding.
+
+Dependencies:
+
+
+
+
 ID: T07.G1.01
 Topic: T07 – Loops
 Skill: Count repetitions in a pattern
-Description: Students count how many times a unit repeats in a given pattern and select the correct number. For example, shown a visual sequence of "jump-clap, jump-clap, jump-clap" they count 3 repetitions. Present 2-5 repetitions and use concrete, observable actions or objects. This develops the concept of "how many times" which is essential for understanding loop counts.
+Description: **Student task:** Count how many times a unit repeats in a given visual pattern and select the correct number. **Picture cards:** Show a visual sequence (e.g., "jump-clap, jump-clap, jump-clap" illustrated with 6 picture cards showing alternating actions). Students count that the unit repeats 3 times and select "3" from choices like 2, 3, or 4. Present 2-5 repetitions using concrete, observable actions or objects such as hand motions, animal movements, or stacking objects. This develops the concept of "how many times" which is essential for understanding loop counts.
 
 Dependencies:
 * T07.K.01: Complete a repeating pattern
@@ -6513,7 +6552,7 @@ Dependencies:
 ID: T07.G1.02
 Topic: T07 – Loops
 Skill: Match "do N times" instructions to outcomes
-Description: Students match a simple "do something N times" instruction to the correct visual outcome. For example, given "clap 4 times" they select the picture showing 4 claps (not 3 or 5). Use familiar actions like clapping, jumping, or stacking blocks. This connects the abstract concept of "repeat N times" to concrete results, preparing for the `repeat N` block in Grade 3.
+Description: **Student task:** Match a simple "do something N times" instruction to the correct visual outcome. **Picture cards:** Show an instruction card (e.g., "clap 4 times" with a speech bubble icon) and 3 picture choices showing different numbers of claps (3, 4, or 5 clap icons). Students select the picture matching the instruction. Use familiar actions like clapping hands, jumping, stacking blocks, or drawing stars. Numbers should range from 2-5 for first graders. This connects the abstract concept of "repeat N times" to concrete visual results, preparing for the `repeat N` block in Grade 3.
 
 Dependencies:
 * T07.G1.01: Count repetitions in a pattern
@@ -6525,7 +6564,7 @@ Dependencies:
 ID: T07.G2.01
 Topic: T07 – Loops
 Skill: Identify when to use "repeat" vs "do once"
-Description: Students sort simple task cards into two categories: "needs repeating" (like brushing all teeth, coloring all stars) vs "do only once" (like putting on a hat, opening a door). This picture-based classification develops the judgment of when repetition is needed, a key prerequisite for choosing between loops and sequential code. Use 6-8 task cards with clear yes/no answers.
+Description: **Student task:** Sort picture task cards into two labeled bins: "Do many times" vs "Do only once." **Picture cards:** Show 6-8 task cards depicting everyday activities. Cards for "Do many times" bin: brushing all teeth (many teeth), coloring all stars on a page (many stars), watering all plants (many pots), feeding fish every day. Cards for "Do only once" bin: putting on a hat, opening a door, turning on a light switch, sitting in a chair. Students drag each card to the correct bin. This picture-based classification develops judgment about when repetition is needed—a key prerequisite for choosing between loops and sequential code.
 
 Dependencies:
 * T07.G1.02: Match "do N times" instructions to outcomes
@@ -6810,29 +6849,29 @@ Dependencies:
 
 
 
-ID: T07.G5.04
-Topic: T07 – Loops
-Skill: Nested loops for advanced patterns or tilings
-Description: Students design or reproduce more complex tilings or repeating art (checkerboards, stripes, simple mosaics) using nested loops and coordinate changes, reinforcing multiplicative reasoning and spatial thinking.
-
-Dependencies:
-* T07.G4.05: Debug complex loop conditions and boundaries
-* T07.G4.07: Trace simple nested loops with fixed bounds
-* T10.G3.05: Use random values in code
-* T10.G4.18: Use random numbers to model chance or variety
-* T04.G5.01: Recognize a counter update pattern
-
-
-
-
-
 ID: T07.G5.04.01
 Topic: T07 – Loops
 Skill: Build simple nested loops
-Description: Students write their first nested loop structure by placing one loop inside another. Start with concrete tasks like creating a simple grid pattern (e.g., 3 rows of 4 stamps each) or repeating a short sequence multiple times. The outer loop controls how many groups, the inner loop controls repetitions within each group. Use small fixed counts (2-4 iterations each) and visual feedback to make the nested structure clear. This scaffolding skill prepares students for analyzing variable bounds in nested loops.
+Description: Students write their first nested loop structure by placing one loop inside another. Start with concrete tasks like creating a simple grid pattern (e.g., 3 rows of 4 stamps each) or repeating a short sequence multiple times. The outer loop controls how many groups, the inner loop controls repetitions within each group. Use small fixed counts (2-4 iterations each) and visual feedback to make the nested structure clear. This scaffolding skill prepares students for more complex nested loop applications.
 
 Dependencies:
 * T07.G4.07: Trace simple nested loops with fixed bounds
+
+
+
+
+
+ID: T07.G5.04
+Topic: T07 – Loops
+Skill: Create nested loops for advanced patterns or tilings
+Description: Students design or reproduce more complex tilings or repeating art (checkerboards, stripes, simple mosaics) using nested loops and coordinate changes, reinforcing multiplicative reasoning and spatial thinking. Building on basic nested loop construction, students now apply nested loops to create visually interesting patterns.
+
+Dependencies:
+* T07.G5.04.01: Build simple nested loops
+* T07.G4.05: Debug complex loop conditions and boundaries
+* T10.G3.05: Use random values in code
+* T10.G4.18: Use random numbers to model chance or variety
+* T04.G5.01: Recognize a counter update pattern
 
 
 
@@ -6846,7 +6885,7 @@ Description: Students analyze code with nested loops where the inner loop bound 
 Dependencies:
 * T07.G4.03.01: Use a basic for-loop with start, limit, and step
 * T07.G5.03: Use loops to compute aggregates
-* T07.G5.04: Nested loops for advanced patterns or tilings
+* T07.G5.04: Create nested loops for advanced patterns or tilings
 * T07.G5.04.01: Build simple nested loops
 * T09.G4.01: Use variables to store and update game state
 
@@ -6870,11 +6909,12 @@ Dependencies:
 
 ID: T07.G6.03
 Topic: T07 – Loops
-Skill: Loop‑based search in a list
-Description: Students implement a simple linear search using a for-each loop to find the first item in a list that matches a target (e.g., find the first score above 90), and then respond (e.g., report the position or value). They use conditional logic inside the loop to check each item and a flag or result variable to track whether the target was found.
+Skill: Implement loop-based linear search in a list
+Description: Students implement a simple linear search using a for-each loop to find the first item in a list that matches a target (e.g., find the first score above 90), and then respond (e.g., report the position or value). They use conditional logic inside the loop to check each item and a flag or result variable to track whether the target was found. Optionally use break to exit early when found.
 
 Dependencies:
 * T07.G5.02: Build a list with a loop
+* T07.G6.08.01: Use break to exit a loop early
 * T07.G6.09.01: Use for-each item to iterate over list values
 * T08.G4.01: Use if-then-else in a project
 
@@ -6943,7 +6983,7 @@ Description: Students use CreatiCode's `break` block to exit a loop immediately 
 
 Dependencies:
 * T07.G5.02: Build a list with a loop
-* T07.G6.03: Loop‑based search in a list
+* T07.G6.09.01: Use for-each item to iterate over list values
 
 
 
@@ -7003,8 +7043,8 @@ Dependencies:
 
 ID: T07.G7.02
 Topic: T07 – Loops
-Skill: Nested loops for 2D grids and tile maps
-Description: Students use two loops to process a conceptual 2D grid (e.g., rows and columns of tiles), even if represented as positions or a 1D list plus indices, introducing matrix‑like reasoning.
+Skill: Build nested loops for 2D grids and tile maps
+Description: Students use two nested loops to process a conceptual 2D grid (e.g., rows and columns of tiles), even if represented as positions or a 1D list plus indices. This introduces matrix-like reasoning for organizing and processing spatial data.
 
 Dependencies:
 * T07.G6.05: Trace nested loops with abstract calculations using trace tables
@@ -7031,8 +7071,8 @@ Dependencies:
 
 ID: T07.G7.04
 Topic: T07 – Loops
-Skill: Loop patterns for counting and accumulation
-Description: Students identify and/or construct loops that follow common accumulator patterns (counting, summing, tracking min/max), distinguishing them from unrelated code.
+Skill: Identify and construct loop patterns for counting and accumulation
+Description: Students identify and construct loops that follow common accumulator patterns (counting, summing, tracking min/max), distinguishing them from unrelated code. They recognize these patterns as reusable solutions for aggregation problems.
 
 Dependencies:
 * T07.G6.05: Trace nested loops with abstract calculations using trace tables
@@ -7136,17 +7176,6 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
 * T07.G7.04: Loop patterns for counting and accumulation
-
-
-
-
-
-ID: T07.K.01
-Topic: T07 – Loops
-Skill: Complete a repeating pattern
-Description: Students drag pictures to fill in missing items in a simple repeating pattern (AB, AAB, or ABC patterns). For example, given "dog-cat-dog-cat-dog-?" they select "cat" from 3 choices. This picture-based activity builds foundational understanding of repetition without coding. Use 3-4 repetitions of the pattern with 1-2 missing items. Visual themes include animals, shapes, or everyday objects.
-
-Dependencies:
 
 
 
@@ -7425,7 +7454,7 @@ CSTA: E3-ALG-AF-01, E3-PRO-PF-02
 
 ID: T08.G4.00
 Topic: T08 – Conditions & Logic
-Skill: Understand AND truth table
+Skill: Predict outcomes using AND truth table
 Description: Students predict the output of AND operations with various inputs (true AND true, true AND false, false AND true, false AND false). This foundational skill teaches students to reason about logical conjunction before implementing it in code. Use interactive truth table activities where students fill in blanks or match scenarios to outcomes (e.g., "You can play outside if it's sunny AND you finished homework - when can you play?").
 
 Dependencies:
@@ -7453,7 +7482,7 @@ CSTA: E4-ALG-AF-01
 
 ID: T08.G4.01a
 Topic: T08 – Conditions & Logic
-Skill: Understand OR truth table
+Skill: Predict outcomes using OR truth table
 Description: Students predict the output of OR operations with various inputs (true OR true, true OR false, false OR true, false OR false). This teaches logical disjunction reasoning before implementation. Use truth table activities similar to AND but emphasizing "at least one" (e.g., "You get dessert if you ate vegetables OR you cleaned your room - when do you get dessert?").
 
 Dependencies:
@@ -7510,8 +7539,8 @@ CSTA: E4-ALG-AF-01
 
 ID: T08.G4.05a
 Topic: T08 – Conditions & Logic
-Skill: Understand NOT truth table
-Description: Students predict the output of NOT operations (NOT true = false, NOT false = true). This foundational skill teaches logical negation reasoning before implementation. Use truth table activities where students fill in "opposite" values and real-world examples (e.g., "if NOT raining, then go outside" - when do you go outside?). Understanding negation is essential for compound logic.
+Skill: Predict outcomes using NOT truth table
+Description: Students predict the output of NOT operations (NOT true = false, NOT false = true). This foundational skill teaches logical negation reasoning before implementation. Use truth table activities where students fill in "opposite" values and real-world examples (e.g., "if NOT raining, then go outside" - when do you go outside?). Applying negation correctly is essential for compound logic.
 
 Dependencies:
 * T08.G4.05: Use else-if for multiple exclusive conditions
@@ -7679,7 +7708,6 @@ Description: Students plan multi-branch logic visually by drawing decision tree 
 Dependencies:
 * T08.G4.05: Use else-if for multiple exclusive conditions
 * T08.G4.09: Trace code with a sequence of if/else blocks
-* T08.G2.01: Follow branching paths based on yes/no questions
 * T03.G5.01: Create a feature list and subtask breakdown
 
 CSTA: E5-ALG-AF-01
@@ -7742,8 +7770,8 @@ Skill: Use inline if-then-else expressions to compute conditional values
 Description: Students use CreatiCode's inline conditional expression reporter block (`if <condition> then [value1] else [value2]`) to compute values conditionally without using full if/else control blocks. This is useful for setting variables or parameters based on a condition in a single expression (e.g., `set speed to (if fast mode then 10 else 5)`). This introduces the ternary operator concept and promotes more concise code.
 
 Dependencies:
-* T08.G5.01
-* T09.G3.03
+* T08.G5.01: Design multi-branch decision logic
+* T09.G3.03: Use a variable in a simple conditional (if block)
 * T11.G5.01: Decompose a problem into logical custom block boundaries
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
@@ -7758,10 +7786,10 @@ Skill: Use condition-triggered events to respond to state changes
 Description: Students use CreatiCode's `when <condition>` hat block to trigger scripts when a boolean condition becomes true. This is useful for game programming where actions should happen the moment a state changes (e.g., `when score > 100` to trigger a level-up sequence). Students compare this pattern to polling with forever loops, understanding event-driven vs polling patterns.
 
 Dependencies:
-* T08.G5.01
-* T08.G4.07
-* T06.G4.01
-* T09.G3.03
+* T08.G5.01: Design multi-branch decision logic
+* T08.G4.07: Use if to control state changes
+* T06.G4.01: Add conditional logic within an event handler
+* T09.G3.03: Use a variable in a simple conditional (if block)
 * T07.G5.01: Simulate repeated experiments with a loop
 * T04.G5.01: Recognize a counter update pattern
 
@@ -7885,7 +7913,7 @@ Skill: Simplify complex boolean expressions
 Description: Students apply boolean algebra rules (De Morgan's laws, distributive property, elimination of double negation) to simplify complex conditional expressions. For example, simplify "NOT(A OR B)" to "NOT A AND NOT B", or "if (A AND B) OR (A AND C)" to "if A AND (B OR C)". This develops formal logic skills and prepares students for analyzing logical equivalence in G8.
 
 Dependencies:
-* T08.G4.05b: Use NOT to invert conditions
+* T08.G5.03: Combine three or more conditions
 * T08.G6.03: Debug multi-condition logic
 
 CSTA: E7-ALG-AF-01
@@ -7920,9 +7948,6 @@ Topic: T08 – Conditions & Logic
 Skill: Use logic to design robust input validation
 Description: Students use compound conditions to validate user input (e.g., "age between 13 and 18," "password long enough and contains a number") and prevent invalid states. This applies conditional logic to data validation and security, teaching defensive programming practices.
 
-
-CSTA: E8-ALG-AF-01, E8-PRO-PF-01, E8-IC-CY-01
-
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T08.G6.01: Use conditionals to control simulation steps
@@ -7931,6 +7956,8 @@ Dependencies:
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T07.G6.01: Trace nested loops with variable bounds
 * T10.G6.01: Sort a table by a column
+
+CSTA: E8-ALG-AF-01, E8-PRO-PF-01, E8-IC-CY-01
 
 
 
@@ -8776,8 +8803,8 @@ Dependencies:
 
 ID: T09.G6.06.01
 Topic: T09 – Variables & Expressions
-Skill: Explain Variable Persistence across Events
-Description: Students understand that variables maintain their values across different event handlers and broadcasts. When one script sets a variable and broadcasts a message, another script receiving that broadcast can read the updated value. This enables coordination between different parts of a program.
+Skill: Trace variable values across multiple event handlers
+Description: Students trace how variables maintain their values across different event handlers and broadcasts. They predict the value of a variable after a sequence of events: one script sets a variable and broadcasts a message, another script receiving that broadcast reads the updated value. This demonstrates coordination between different parts of a program through shared variable state.
 
 Dependencies:
 * T09.G5.04: Use variables as settings to control program behavior
@@ -8876,8 +8903,8 @@ Dependencies:
 
 ID: T09.G7.04
 Topic: T09 – Variables & Expressions
-Skill: Understand for-this-sprite vs for-all-sprites variable scope
-Description: Students learn the difference between for-this-sprite variables (visible only within one sprite) and for-all-sprites variables (visible to all sprites). They understand when to use each type and how to share data between sprites using for-all-sprites variables. This reflects CreatiCode's terminology for local vs global scope.
+Skill: Choose between for-this-sprite and for-all-sprites variable scope
+Description: Students distinguish between for-this-sprite variables (visible only within one sprite) and for-all-sprites variables (visible to all sprites). They choose the appropriate scope when creating variables: for-this-sprite for private data each sprite needs separately, for-all-sprites for shared data like game score. They demonstrate sharing data between sprites using for-all-sprites variables.
 
 Dependencies:
 * T09.G5.04: Use variables as settings to control program behavior
@@ -9472,8 +9499,8 @@ Dependencies:
 
 ID: T10.G2.07
 Topic: T10 – Lists & Tables
-Skill: Understand what a list is in coding
-Description: Students transition from picture tables to understanding that code can have "lists" - ordered collections of items that the computer stores and uses. They match real-world examples (shopping list, playlist, leaderboard) to the concept of a code list.
+Skill: Identify real-world examples of lists
+Description: Students transition from picture tables to recognizing that code can have "lists" - ordered collections of items that the computer stores and uses. They match real-world examples (shopping list, playlist, leaderboard) to the concept of a code list by selecting which picture scenarios represent lists.
 
 Dependencies:
 * T10.G2.01: Build a simple data table from a list
@@ -9997,8 +10024,8 @@ Dependencies:
 
 ID: T10.G5.01
 Topic: T10 – Lists & Tables
-Skill: Understand table structure (rows, columns, cells)
-Description: Students identify and label the parts of a table: rows (horizontal, numbered), columns (vertical, named), and cells (values at row-column intersections). Given a sample table, they state the number of rows and columns, identify the value at a specific row-column intersection, and explain that each row represents one record while each column represents one attribute. Students understand that a table is like having multiple parallel lists (one list per column) organized together, where all lists have the same length and items at the same position are related. A table makes it easier to manage related data than using many separate parallel lists.
+Skill: Identify table structure (rows, columns, cells)
+Description: Students identify and label the parts of a table: rows (horizontal, numbered), columns (vertical, named), and cells (values at row-column intersections). Given a sample table, they state the number of rows and columns, identify the value at a specific row-column intersection, and explain that each row represents one record while each column represents one attribute. Students recognize that a table is like having multiple parallel lists (one list per column) organized together, where all lists have the same length and items at the same position are related. A table makes it easier to manage related data than using many separate parallel lists.
 
 Dependencies:
 * T10.G4.02: Store and retrieve parallel list data
@@ -10592,7 +10619,7 @@ Skill: Use nested loops to compare data across two tables
 Description: Students write nested loops to analyze relationships between two tables (e.g., matching orders to customers, finding common elements). The outer loop iterates through one table while the inner loop searches the other table for matches.
 
 Dependencies:
-* T07.G5.01: Simulate repeated experiments with a loop
+* T07.G6.01: Trace nested loops with variable bounds
 * T10.G6.04: Use table lookup to find related data
 
 
@@ -11505,8 +11532,8 @@ Dependencies:
 
 ID: T11.G4.18
 Topic: T11 – Functions & Organization
-Skill: Understand and document variable scope
-Description: Students learn that variables can be "for this sprite only" (local) or "for all sprites" (global) and practice identifying which scope each variable in a project uses. They add comments explaining why each variable has its particular scope (e.g., "// playerScore is for all sprites so the score display can read it").
+Skill: Identify and document variable scope choices
+Description: Students identify whether each variable in a project is "for this sprite only" (local) or "for all sprites" (global) and add comments explaining why each variable has its particular scope. They practice choosing appropriate scope when creating new variables and document their reasoning (e.g., "// playerScore is for all sprites so the score display can read it" or "// tempCalculation is for this sprite only because no other sprite needs it").
 
 Dependencies:
 * T11.G4.17: Improve variable naming in a project
@@ -11518,8 +11545,8 @@ Dependencies:
 
 ID: T11.G4.19
 Topic: T11 – Functions & Organization
-Skill: Define a custom block with one parameter
-Description: Students create custom blocks that accept a single input parameter by including it in the definition signature (e.g., define (draw square (size))). Inside the custom block, they use (argument (size)) to reference the parameter value. This introduces the concept of making blocks flexible and reusable.
+Skill: Generalize a custom block by adding a parameter
+Description: Students take an existing custom block without parameters and add a single input parameter to make it more flexible. For example, they might convert a "DrawSquare50" block (that always draws 50-pixel squares) into "DrawSquare (size)" that can draw any size. They identify which fixed values should become parameters and update the block definition and all call sites. This skill focuses on the refactoring process of adding parameters to existing blocks (vs T11.G4.10 which teaches creating parameterized blocks from scratch).
 
 Dependencies:
 * T11.G4.15: Choose descriptive names for custom blocks
@@ -11872,12 +11899,12 @@ Dependencies:
 
 ID: T11.G5.21
 Topic: T11 – Functions & Organization
-Skill: Create a custom reporter block that returns a value
-Description: Students create custom reporter blocks that return values using return [VALUE] inside the definition (e.g., define (calculate area (width) (height)) with return [(argument (width)) * (argument (height))]). They understand that reporter blocks return data instead of performing actions.
+Skill: Chain multiple custom reporter blocks together
+Description: Students practice chaining custom reporter blocks by using the return value of one block as an argument to another. For example, they might use `report CalculateArea [10] [20]` as an input to `report DoubleValue [...]`, creating expressions like `report DoubleValue [(report CalculateArea [5] [10])]`. They learn to compose complex calculations from simpler building blocks, demonstrating the power of well-designed reporter interfaces.
 
 Dependencies:
 * T11.G4.21: Define a custom block with multiple parameters
-* T11.G5.01: Decompose a problem into logical custom block boundaries
+* T11.G5.11: Define a custom reporter block that returns a value
 
 
 
@@ -11897,8 +11924,8 @@ Dependencies:
 
 ID: T11.G5.23
 Topic: T11 – Functions & Organization
-Skill: Distinguish between command blocks and reporter blocks
-Description: Students learn the difference between command (stack) blocks that perform actions using call block-name [args] and reporter blocks that return values using report block-name [args]. They practice identifying when to use each type (e.g., use command blocks for "move sprite", "draw shape" vs. reporter blocks for "calculate distance", "get score").
+Skill: Convert a command block to a reporter block
+Description: Students take an existing custom command block that sets a variable or produces a side effect and refactor it into a custom reporter block that returns a value instead. For example, converting `SetCalculatedScore (points)` that sets a global variable into `CalculateScore (points) returns: score` that returns the value. They update all call sites from `call` syntax to `report` syntax and modify any code that read the global variable to use the returned value directly.
 
 Dependencies:
 * T11.G5.22: Call a custom reporter block using report syntax
@@ -12217,8 +12244,8 @@ Dependencies:
 
 ID: T11.G7.03
 Topic: T11 – Functions & Organization
-Skill: Explain Encapsulation and Information Hiding
-Description: Students implement the custom block set they planned in T11.G7.02.01, creating exactly 3-5 related blocks that work together. They test each block individually and then test the feature as a whole. They demonstrate that the blocks have consistent naming patterns, complementary parameters, and clear division of responsibilities. They show the complete feature working correctly in a demonstration project.
+Skill: Implement a coordinated set of custom blocks for one feature
+Description: Students implement the custom block set they planned in T11.G7.02, creating exactly 3-5 related blocks that work together. They test each block individually and then test the feature as a whole. They demonstrate that the blocks have consistent naming patterns, complementary parameters, and clear division of responsibilities. They show the complete feature working correctly in a demonstration project.
 
 Assessment example: Students implement their planned "Inventory System" with blocks `AddItem (item)`, `RemoveItem (item)`, `HasItem (item) returns: true/false`, `ShowInventory`, and `ClearInventory`. They demonstrate these blocks working together in a simple collection game where players pick up items, check their inventory, and use items.
 
@@ -12248,8 +12275,8 @@ Dependencies:
 
 ID: T11.G7.05
 Topic: T11 – Functions & Organization
-Skill: Identify Helper Blocks
-Description: Students understand the principle of encapsulation: a well-designed custom block acts like a "black box" where users only need to know WHAT it does (its interface: name, parameters, return value) and not HOW it does it (the implementation inside). They compare examples of blocks with clean, self-contained interfaces versus blocks that require users to know internal details (like specific variable names used inside). They explain how "information hiding" makes code easier to use, understand, and modify, because changes to internal implementation won't break code that calls the block as long as the interface stays the same.
+Skill: Apply encapsulation and information hiding principles
+Description: Students apply the principle of encapsulation: a well-designed custom block acts like a "black box" where users only need to know WHAT it does (its interface: name, parameters, return value) and not HOW it does it (the implementation inside). They compare examples of blocks with clean, self-contained interfaces versus blocks that require users to know internal details (like specific variable names used inside). They explain how "information hiding" makes code easier to use, understand, and modify, because changes to internal implementation won't break code that calls the block as long as the interface stays the same.
 
 Assessment example: Students compare two implementations of a score system: (A) custom blocks with clear interfaces that hide internal score tracking in local variables, vs (B) blocks that require callers to directly manipulate global score variables. They explain why version A is better: users don't need to know how score is stored internally, and the implementation can be changed without breaking calling code.
 
@@ -12363,7 +12390,7 @@ Assessment example: Students create general-purpose utility blocks like `CheckOv
 Dependencies:
 * T11.G6.03: Design complete custom block interfaces before implementation
 * T11.G7.03: Implement a coordinated set of custom blocks for one feature
-* T11.G7.05: Understand encapsulation and information hiding
+* T11.G7.05: Apply encapsulation and information hiding principles
 * T02.G6.01: Learn the pseudocode generation block
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T07.G6.01: Trace nested loops with variable bounds
@@ -12402,7 +12429,7 @@ Assessment example: Students refactor a 40-block game into a hierarchy: main scr
 
 Dependencies:
 * T11.G7.03: Implement a coordinated set of custom blocks for one feature
-* T11.G7.05: Understand encapsulation and information hiding
+* T11.G7.05: Apply encapsulation and information hiding principles
 * T11.G7.06: Trace and debug multi-level custom block calls
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T16.G6.01: Configure surface friction parameters
@@ -12424,7 +12451,7 @@ Dependencies:
 * T11.G8.01: Design general-purpose custom blocks with reusable interfaces
 * T10.G7.01: Use lists of lists (2D lists) to store tabular data
 * T11.G7.03: Implement a coordinated set of custom blocks for one feature
-* T11.G7.05: Understand encapsulation and information hiding
+* T11.G7.05: Apply encapsulation and information hiding principles
 * T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01: Use conditionals to control simulation steps
 * T09.G6.01: Model real-world quantities using variables and formulas
@@ -12443,7 +12470,7 @@ Assessment example: Students compare three versions of the same program: (A) all
 
 Dependencies:
 * T11.G8.03: Refactor a large program into a hierarchical block structure
-* T11.G7.05: Understand encapsulation and information hiding
+* T11.G7.05: Apply encapsulation and information hiding principles
 * T11.G7.06: Trace and debug multi-level custom block calls
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T09.G6.01: Model real-world quantities using variables and formulas
@@ -12509,7 +12536,7 @@ Description: Students create a formal documentation guide for a multi-feature pr
 Dependencies:
 * T11.G8.08: Apply consistent style across a large project
 * T11.G7.11: Document design decisions in code
-* T11.G6.01: Design custom blocks with clear, predictable interfaces
+* T11.G6.01: Choose clear, descriptive names for custom blocks
 * T06.G6.01: Trace event execution paths in a multi‑event program
 
 
@@ -12559,8 +12586,8 @@ Dependencies:
 
 ID: T12.GK.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Spot a missing or wrong action in an animation
-Description: Students watch a short picture story or animation and compare what happens to what was supposed to happen (e.g., the character should jump but doesn't, or moves the wrong direction). They simply point to or circle the moment something went wrong without explaining why or fixing it.
+Skill: Spot a missing or wrong action in a picture sequence
+Description: Students view a 3-5 picture sequence showing a character completing a simple task (e.g., a robot picking up a ball, a cat walking to food). They compare the sequence to a goal picture showing the expected result. Using picture cards or a drag-and-drop interface, they point to or circle the one picture where something went wrong (e.g., the robot turned the wrong way, the cat skipped a step). They do not explain why or fix it—only identify it.
 
 
 
@@ -12569,12 +12596,12 @@ Description: Students watch a short picture story or animation and compare what 
 
 ID: T12.GK.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Retry after noticing something went wrong
-Description: Students follow a simple set of picture steps for a task (e.g., stacking blocks, moving a character on a board), notice when the result is not what was intended, and try the steps again from the beginning. They experience the "try, check, retry" cycle without changing the steps themselves.
+Skill: Recognize and retry after noticing failure
+Description: Students follow a 3-4 picture card sequence for a simple task (e.g., stacking colored blocks to match a target tower, moving a game piece along a path). When the result does not match the goal picture, they recognize the mismatch and try the steps again from the beginning. Using a visual "try, check, retry" cycle chart, they experience that repeating steps is a normal part of problem-solving.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
-* T12.GK.01: Spot a missing or wrong action
+* T12.GK.01: Spot a missing or wrong action in a picture sequence
 
 
 
@@ -12584,12 +12611,12 @@ Dependencies:
 
 ID: T12.GK.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix a single wrong direction or action in steps
-Description: Students "play computer" by acting out or watching a character follow a short list of picture steps to reach a fun goal (like a treasure or door). When the character ends up in the wrong place or does something silly, they identify which one movement is wrong (e.g., an arrow pointing left instead of right, or "sit down" too early) and swap it for a better step so the routine works.
+Skill: Fix a single wrong direction in picture steps
+Description: Students use arrow picture cards to guide a character on a grid to reach a goal (e.g., treasure, door, food). When the character ends up in the wrong place, they identify which one arrow card is wrong (e.g., "left" should be "right") and swap it with the correct direction card. The activity uses physical or drag-and-drop arrow cards on a simple 3x3 or 4x4 grid.
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
-* T12.GK.01: Spot a missing or wrong action
+* T12.GK.01: Spot a missing or wrong action in a picture sequence
 
 
 
@@ -12597,8 +12624,8 @@ Dependencies:
 
 ID: T12.G1.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Identify which step causes a problem and explain why
-Description: Students look at a set of picture-based steps that, when "played out" as a story, clearly go wrong (e.g., "jump before moving" when the intent is move-then-jump). They select or highlight the specific step that causes the problem AND explain in simple words why that step is wrong (e.g., "This step happens too early").
+Skill: Identify which picture step causes a problem and explain why
+Description: Students view a 4-6 picture card sequence that tells a story with one step in the wrong order (e.g., "brush teeth" before "put toothpaste on brush"). They click or tap the picture card that causes the problem and verbally or in writing explain why it is wrong using a sentence starter like "This step is wrong because...". The interface shows a visual marker on the selected card.
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -12609,8 +12636,8 @@ Dependencies:
 
 ID: T12.G1.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix a sequence error in steps
-Description: Students reorder picture or word cards in a step list to fix a sequencing error that made a story or game behave strangely (for example, moving "say hello" so it happens after "walk to friend," or moving a "wait" picture to the correct position).
+Skill: Reorder picture cards to fix a sequence error
+Description: Students are given 4-5 picture cards that are out of order for a familiar routine (e.g., making a sandwich, getting dressed). They drag-and-drop or physically move the cards to fix the sequence so the story makes sense. They verify their fix by "reading" the corrected sequence aloud.
 
 Dependencies:
 * T01.GK.02: Put pictures in order for coming to class
@@ -12621,8 +12648,8 @@ Dependencies:
 
 ID: T12.G1.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Change a single action number to fix behavior
-Description: Students modify a number in a single action instruction (e.g., change "move 10 steps" to "move 50 steps" so the distance matches a picture, or change "wait 5 seconds" to "wait 2 seconds"). This focuses on non-repeat numeric parameters like distances, delays, sizes, or angles - NOT loop counts (which are covered in T13.G2.03).
+Skill: Change a number on a picture card to fix behavior
+Description: Students view an instruction card with a number (e.g., "jump 2 times" shown as a jumping figure with the number 2). The result does not match the goal (e.g., character should jump 5 times to reach a platform). They click or tap to change the number from 2 to 5. Activities use simple number spinners or number buttons on visual instruction cards.
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -12633,8 +12660,8 @@ Dependencies:
 
 ID: T12.G1.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Demonstrate steps physically and identify the error
-Description: Students act out a set of picture steps (e.g., pretend to follow a recipe, walk through a maze path) and identify where something goes wrong. They explain the error verbally or by pointing (e.g., "We forgot to open the paint before painting" or "I went left instead of right here").
+Skill: Act out picture steps and identify the error
+Description: Students physically act out a 3-5 step picture sequence (e.g., pretend to follow a recipe, walk through a floor maze). When the result does not match the goal, they stop and point to which picture step caused the problem. They explain verbally: "I went wrong here because..." This unplugged activity builds body-based understanding of tracing.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -12645,8 +12672,8 @@ Dependencies:
 
 ID: T12.G2.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix steps that use the wrong signal
-Description: Students examine instructions where a character is supposed to act on a certain signal (e.g., clap, whistle, or card color) but the written or picture steps mention the wrong signal. They identify and fix the signal in the instructions so the behavior matches the story.
+Skill: Fix a wrong signal in picture instructions
+Description: Students view a picture rule card showing "When [signal], do [action]" (e.g., "When you see RED card, clap"). They observe a demonstration where the wrong signal is used (BLUE card triggers clapping). They identify and fix the signal by selecting the correct signal picture card from options. Activities use color-coded or symbol signal cards.
 
 Dependencies:
 * T01.G1.06: Fix a routine with one wrong step
@@ -12657,8 +12684,8 @@ Dependencies:
 
 ID: T12.G2.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Trace a set of steps and predict behavior
-Description: Students "walk through" a simple set of instructions step by step, predicting what each step does and what the character or object will look like or where it will end up at the end. This mental tracing helps them spot logic errors before acting it out.
+Skill: Trace picture steps and predict the ending position
+Description: Students view a 4-6 picture card sequence showing movement commands for a character on a grid (e.g., "move up," "move right," "move right"). Before running or acting it out, they predict which square the character will end on by placing a marker or clicking the predicted destination. Then they trace the steps to verify their prediction.
 
 Dependencies:
 * T01.G1.05: Find the missing step in an algorithm
@@ -12670,8 +12697,8 @@ Dependencies:
 
 ID: T12.G2.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix a repeat count that happens too many or too few times
-Description: Students modify the repeat count in loop instructions where an action repeats the wrong number of times (e.g., "repeat 2 times" should be "repeat 5 times" for 5 claps, or "repeat 10 times" is too many march steps). This skill specifically focuses on adjusting loop iteration counts to match intended behavior.
+Skill: Fix a repeat count on a loop picture card
+Description: Students view a "repeat" picture card with a number (e.g., "repeat 3 times: [hop picture]"). They observe that the result does not match the goal (e.g., character needs to hop 5 times to cross a bridge). They fix the repeat number by clicking a number spinner or selecting the correct number from options. Activities show visual loop cards with editable numbers.
 
 Dependencies:
 * T04.G2.01: Identify the repeating unit in a longer pattern
@@ -12683,8 +12710,8 @@ Dependencies:
 
 ID: T12.G2.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Add a simple check to see if steps worked
-Description: Students add a small "check" card or picture (e.g., a thumbs‑up or scoreboard picture) at a key point in a set of steps to show that something important has happened (like reaching a goal or using all the cards). This helps them see what is going on inside a longer routine.
+Skill: Add a checkpoint card to verify progress
+Description: Students have a 5-6 step picture card sequence and a goal. They add a "checkpoint" picture card (thumbs-up, star, or flag) at a key point to verify progress (e.g., after step 3, add a checkpoint to confirm the character has reached the middle). When they trace the steps, they pause at checkpoints to confirm the current state matches expectations.
 
 Dependencies:
 * T03.G1.03: List steps for a simple classroom routine
@@ -12696,8 +12723,8 @@ Dependencies:
 
 ID: T12.G3.00
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Recognize when a CreatiCode script has errors
-Description: Students learn to identify common error indicators in CreatiCode at the introductory level: (1) blocks that turn red or orange when clicked (indicating an error in that block), (2) scripts that don't run when the green flag is clicked (nothing happens), (3) sprites that freeze or stop responding during execution. They practice spotting these visual cues and understanding that they signal something needs to be fixed. This is a foundational recognition skill - learning WHAT signals appear - preparing them for later systematic interpretation of errors.
+Skill: Identify error indicators in CreatiCode scripts
+Description: Students identify three types of error indicators in CreatiCode: (1) blocks that turn red or orange when clicked, (2) scripts that don't start when the green flag is clicked, (3) sprites that freeze during execution. Given 3-4 example scripts with different error states, they classify which type of error indicator is present. This foundational skill teaches WHAT error signals look like before learning to fix them.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -12713,8 +12740,8 @@ Description: Students perform two key debugging skills: (1) TRACE - Look at a si
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T12.G2.02: Trace a set of steps and predict behavior
-* T12.G3.00: Recognize when a CreatiCode script has errors
+* T12.G2.02: Trace picture steps and predict the ending position
+* T12.G3.00: Identify error indicators in CreatiCode scripts
 
 
 
@@ -12727,7 +12754,7 @@ Description: Students identify and replace a single incorrect block in a short s
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T12.G2.03: Fix a repeat count that happens too many or too few times
+* T12.G2.03: Fix a repeat count on a loop picture card
 
 
 
@@ -12740,7 +12767,7 @@ Description: Students identify where a block is missing in a script (e.g., forgo
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T12.G2.02: Trace a set of steps and predict behavior
+* T12.G2.02: Trace picture steps and predict the ending position
 
 
 
@@ -12748,12 +12775,12 @@ Dependencies:
 
 ID: T12.G3.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Practice the debugging cycle: run, observe, change, test again
-Description: Students practice the iterative debugging cycle: (1) run the program, (2) observe what went wrong (sprite moves wrong direction, says wrong message, etc.), (3) make ONE specific change to a block (change a number, swap a block, reorder blocks), and (4) test again. They repeat this cycle 2-3 times, experiencing iteration as normal rather than expecting perfection on first try. This teaches that debugging is a process, not a single action.
+Skill: Apply the debugging cycle: run, observe, change, test again
+Description: Students apply the iterative debugging cycle: (1) run the program, (2) observe what went wrong (sprite moves wrong direction, says wrong message), (3) make ONE specific change to a block (change a number, swap a block, reorder blocks), and (4) test again. They complete this cycle 2-3 times on a given buggy script, learning that iteration is a normal part of debugging.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T12.G2.04: Add a simple check to see if steps worked
+* T12.G2.04: Add a checkpoint card to verify progress
 
 
 
@@ -12821,7 +12848,7 @@ Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 * T12.G3.01: Test and trace simple block-based scripts
-* T12.G3.04: Practice the debugging cycle: run, observe, change, test again
+* T12.G3.04: Apply the debugging cycle: run, observe, change, test again
 
 
 
@@ -12902,7 +12929,7 @@ Dependencies:
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T12.G3.01: Test and trace simple block-based scripts
-* T12.G3.04: Practice the debugging cycle: run, observe, change, test again
+* T12.G3.04: Apply the debugging cycle: run, observe, change, test again
 
 
 
@@ -12971,7 +12998,7 @@ Description: Students add `print [message] in [console v]` or `print [message] i
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T12.G3.04: Practice the debugging cycle: run, observe, change, test again
+* T12.G3.04: Apply the debugging cycle: run, observe, change, test again
 * T12.G4.07: Record what went wrong and how you fixed it
 
 
@@ -13309,8 +13336,8 @@ Dependencies:
 
 ID: T12.G7.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Simplify complex code to make it easier to understand and test
-Description: Students identify a complex section of code (long script with 20+ blocks, deep nesting, or repeated blocks) and simplify it using at least two techniques: (1) break large scripts into smaller custom blocks with clear names, (2) replace repeated code blocks with a loop or custom block, (3) rename variables to be more descriptive (e.g., "playerScore" instead of "s"), or (4) add comment blocks to explain what each section does. They verify the refactored version produces identical results using test cases from earlier work. This makes code easier to debug and maintain.
+Skill: Refactor complex code to improve testability
+Description: Students identify a complex section of code (long script with 20+ blocks, deep nesting, or repeated blocks) and refactor it using at least two techniques: (1) break large scripts into smaller custom blocks with clear names, (2) replace repeated code blocks with a loop or custom block, (3) rename variables to be more descriptive (e.g., "playerScore" instead of "s"), or (4) add comment blocks to explain what each section does. They verify the refactored version produces identical results using test cases from earlier work. This makes code easier to debug and maintain.
 
 Dependencies:
 * T08.G5.01: Design multi-branch decision logic
@@ -13475,7 +13502,7 @@ Dependencies:
 ID: T13.GK.03
 Topic: T13 – 2D Games
 Skill: Identify when a game starts and ends
-Description: Students observe a simple game story with a clear beginning (Start screen) and ending (Game Over). They identify which pictures show the start, play, and end of the game. _CSTA: 1A-AP-08.__
+Description: Students observe picture cards showing a simple game story with a clear beginning (Start screen) and ending (Game Over). They sort 3-4 picture cards into "Start", "Playing", and "End" categories by dragging them to labeled boxes. _Implementation note: Use drag-and-drop sorting with 3-4 game scene cards. CSTA: 1A-AP-08.__
 
 Dependencies:
 None
@@ -13521,8 +13548,8 @@ Dependencies:
 
 ID: T13.G1.03
 Topic: T13 – 2D Games
-Skill: Compare game difficulty
-Description: Students compare two pictures of the same game level—one with more obstacles or fewer platforms—and identify which one would be harder to play. _CSTA: 1B-AP-10.__
+Skill: Compare game difficulty using picture cards
+Description: Students compare two picture cards showing the same game level—one with more obstacles or fewer platforms—and click on the picture that shows the harder level. _Implementation note: Side-by-side picture comparison with click-to-select. CSTA: 1B-AP-10.__
 
 Dependencies:
 * T01.GK.04: Pick the pictures that make sense
@@ -13556,8 +13583,8 @@ Dependencies:
 
 ID: T13.G2.01
 Topic: T13 – 2D Games
-Skill: Understand turns and rounds
-Description: Students look at a turn-based scene with multiple players or timers and determine whose turn it is or what happens next when a turn ends. _CSTA: 1B-AP-11.__
+Skill: Identify turns and rounds in a turn-based game
+Description: Students look at picture cards showing a turn-based scene with multiple players or timers and identify whose turn it is or predict what happens next when a turn ends. _Implementation note: Show 3-4 picture cards of game states with turn indicators. CSTA: 1B-AP-11.__
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -13568,8 +13595,8 @@ Dependencies:
 
 ID: T13.G2.02
 Topic: T13 – 2D Games
-Skill: Track lives and game over conditions
-Description: Students track a player's lives through a short picture story. They identify when a life is lost (touching a hazard) and when the game is over (lives reach zero). _CSTA: 1B-AP-12.__
+Skill: Track lives and game over conditions using picture cards
+Description: Students track a player's lives through 4-5 picture cards showing a short game story. They identify when a life is lost (touching a hazard) and predict which picture card shows "Game Over" (when lives reach zero). _Implementation note: Sequence of picture cards with life counter visible; click on Game Over frame. CSTA: 1B-AP-12.__
 
 Dependencies:
 * T01.G1.04: Predict the next step in a story sequence
@@ -13580,8 +13607,8 @@ Dependencies:
 
 ID: T13.G2.03
 Topic: T13 – 2D Games
-Skill: Recognize level progression
-Description: Students identify the condition for moving to the next level (touch goal, collect items) and notice that later levels are usually different or harder. _CSTA: 1B-AP-10.__
+Skill: Recognize level progression using picture cards
+Description: Students view picture cards showing Level 1 and Level 2 of a game. They identify the condition for moving to the next level (touch goal, collect all items) by matching "before" and "after" pictures, and predict that later levels are usually different or harder. _Implementation note: Match-pairs activity with level transition picture cards. CSTA: 1B-AP-10.__
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -13604,8 +13631,8 @@ Dependencies:
 
 ID: T13.G2.05
 Topic: T13 – 2D Games
-Skill: Adjust game difficulty settings
-Description: Presented with a short brief ("Make it easier for new players"), students choose the change that best matches the goal (add another heart, remove a hazard, shorten timer) to understand how game settings affect difficulty. _CSTA: 1B-AP-15.__
+Skill: Select game difficulty changes using picture cards
+Description: Students view a picture card with a brief ("Make it easier for new players") and choose from 3 picture cards showing different changes (add another heart, remove a hazard, shorten timer). They click on the picture card that best matches the goal to demonstrate how game settings affect difficulty. _Implementation note: Multiple-choice picture selection. CSTA: 1B-AP-15.__
 
 Dependencies:
 * T01.G1.10: Match pictures to "if/then" rules
@@ -13989,7 +14016,7 @@ Dependencies:
 
 ID: T13.G5.01.01
 Topic: T13 – 2D Games
-Skill: Understand velocity variables
+Skill: Create velocity variables for smooth movement
 Description: Create a `y velocity` variable to control vertical movement. Instead of directly changing y position with arrow keys, set y velocity when jumping and continuously add y velocity to y position in a forever loop using `change y by (y velocity)`. Test that changing the velocity value changes how fast the sprite moves. _CSTA: 2-AP-11.__
 
 Dependencies:

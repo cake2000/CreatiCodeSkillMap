@@ -92,7 +92,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      // if ( iteration == 0 && i < 32) continue;
+      if ( iteration == 0 && i < 13) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -119,6 +119,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
    - Use active verbs (Explain, Trace, Predict, Debug) not vague ones (Understand)
    - K-2 skills: specify picture cards or visual scenarios
    - Reference CreatiCode blocks from ../../ScratchCopilot/blockdes8.txt if needed
+   - No duplicate or overlapping skills within the topic.
 
 3. Dependencies (intra-topic ONLY)
    - Fix dependencies WITHIN ${topic.code} only
