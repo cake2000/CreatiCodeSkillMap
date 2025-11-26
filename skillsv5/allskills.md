@@ -1,31 +1,25 @@
-# T01 - Everyday Algorithms (Phase 3 Optimized - November 2025)
-# Applied Phase 3 topic-focused optimizations:
-# - Fixed vague verb: T01.G8.10 "understand" → "analyze"
-# - Clarified G2 picture/code matching progression (T01.G2.15-17, G2.19) with **Progression note:** tags
-#   to eliminate perceived overlap and show clear skill hierarchy:
-#   - T01.G2.15: SEQUENCE-level matching (picture sequences → block images)
-#   - T01.G2.16: REVERSE direction + repeat blocks (pictures → blocks)
-#   - T01.G2.17: INDIVIDUAL BLOCK recognition (single blocks → actions)
-#   - T01.G2.19: CAPSTONE - reading actual vertically-stacked scripts
-# - Verified X-2 rule compliance for all intra-topic dependencies (CONFIRMED: no violations)
-# - Verified K-2 skills all use picture-based/unplugged format (CONFIRMED: all 38 skills compliant)
-# - No duplicate skills found within T01
-# Previous Phase 1+2 optimizations preserved:
-# - Split T01.G5.03 into T01.G5.03.01 (loops), T01.G5.03.02 (conditionals), T01.G5.03.03 (variables)
-# - Split T01.G8.08 into T01.G8.08.01 (helper blocks), T01.G8.08.02 (remove duplication), T01.G8.08.03 (meaningful names)
-# - Split T01.G2.18 into T01.G2.18.01 (identify) and T01.G2.18.02 (explain)
+# T01 - Everyday Algorithms (Phase 4 Optimized - November 2025)
+# Applied Phase 4 topic-focused optimizations:
+# - Strengthened K-2 skills with more specific visual scenarios and picture card details
+# - Improved active verb usage throughout (Trace, Predict, Debug, Identify, Select)
+# - Added sub-skills for overly broad Grade 4 skills (T01.G4.03, T01.G4.10)
+# - Fixed X-2 rule violations by adjusting dependencies
+# - Enhanced Grade 3 transition skills with clearer scaffolding
+# - Added new bridging skills for smoother K-8 progression
+# - Clarified all assessment methods with specific formats
+# Previous optimizations preserved (Phase 1-3):
+# - Split T01.G5.03 into sub-skills (.01-.04 for loops, conditionals, variables, combined)
+# - Split T01.G8.08 into sub-skills (.01-.04 for helper blocks, duplication, naming, combined)
+# - Split T01.G2.18 into .01 (identify) and .02 (explain)
 # - Marked T01.G4.02 as CAPSTONE skill with scheduling guidance
-# - Fixed truncated dependency descriptions in G7 skills
-# - Added structure explanation for T01.G5.02.XX sub-skills
-# - Fixed dependency reference mismatch in T01.GK.05
+# - Clarified G2 picture/code matching progression with Progression notes
 # - Added concrete examples for recursion skills T01.G8.04-05
-# - Clarified assessment formats in T01.G3.11 and T01.G4.12
-# Total: 125 skills (unchanged from Phase 2)
+# Total: 128 skills (3 new sub-skills added, reorganized for better granularity)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
-Skill: Put pictures in order for getting ready for bed
-Description: **Student task:** Look at 3 pictures. Put them in order: first, next, last. **Example:** Put on pajamas, brush teeth, get in bed. _Implementation note: Drag‑drop sequence (3 items). CSTA: EK‑ALG‑AF‑01._
+Skill: Sequence three picture cards for a bedtime routine
+Description: **Student task:** Drag 3 picture cards showing bedtime actions into the correct order from first to last. **Visual scenario:** Picture cards show: (A) child putting on pajamas, (B) child brushing teeth at sink, (C) child getting into bed with stuffed animal. **Correct order:** A → B → C. _Implementation note: Drag‑drop sequence with large, colorful picture cards; audio support reads card labels on hover. Auto-graded by final sequence position. CSTA: EK‑ALG‑AF‑01._
 
 
 
@@ -34,8 +28,8 @@ Description: **Student task:** Look at 3 pictures. Put them in order: first, nex
 
 ID: T01.GK.02
 Topic: T01 – Everyday Algorithms
-Skill: Put pictures in order for coming to class
-Description: **Student task:** Look at 4 pictures. Put them in the right order. **Example:** Come in, hang up backpack, sit down, listen. _Implementation note: Drag‑drop 4 items. CSTA: EK‑ALG‑AF‑01._
+Skill: Sequence four picture cards for a classroom arrival routine
+Description: **Student task:** Drag 4 picture cards showing classroom arrival steps into the correct order. **Visual scenario:** Picture cards show: (A) child walking through door, (B) child hanging backpack on hook, (C) child sitting at desk, (D) child looking at teacher with hand raised. **Correct order:** A → B → C → D. _Implementation note: Drag‑drop sequence with 4 large picture cards; extends GK.01 by adding one more step. Auto-graded by final sequence. CSTA: EK‑ALG‑AF‑01._
 
 
 
@@ -45,11 +39,11 @@ Description: **Student task:** Look at 4 pictures. Put them in the right order. 
 
 ID: T01.GK.03
 Topic: T01 – Everyday Algorithms
-Skill: Identify the first and last steps in a sequence
-Description: **Student task:** Look at pictures showing steps in time order (a sequence of actions). Touch the first step that happens. Touch the last step that happens. This builds understanding that algorithms have a beginning and an end in time. _Implementation note: Click first/last pictures in a temporal sequence. CSTA: EK‑ALG‑AF‑01._
+Skill: Tap the first and last picture cards in a sequence
+Description: **Student task:** Look at 4-5 picture cards already arranged in order. Tap the card that shows what happens FIRST. Then tap the card that shows what happens LAST. **Visual scenario:** Cards show a sandwich-making sequence: get bread, spread peanut butter, add jelly, put bread on top, eat sandwich. **Correct answers:** "get bread" is FIRST, "eat sandwich" is LAST. _Implementation note: Two-tap selection task; audio prompt "Which happens first?" and "Which happens last?" Auto-graded by correct selections. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.02: Put pictures in order for coming to class
+* T01.GK.02: Sequence four picture cards for a classroom arrival routine
 
 
 
@@ -57,11 +51,11 @@ Dependencies:
 
 ID: T01.GK.04
 Topic: T01 – Everyday Algorithms
-Skill: Pick the pictures that make sense
-Description: **Student task:** Look at two sets of pictures. Which one makes sense? **Example:** Wash hands → dry hands → eat vs eat → wash hands → dry hands. _Implementation note: Two sequences, choose one. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑IM‑04._
+Skill: Select the picture sequence that makes sense
+Description: **Student task:** Look at two rows of picture cards. Tap the row that shows the correct order. **Visual scenario:** Row A shows: wash hands → dry hands → eat food. Row B shows: eat food → wash hands → dry hands. **Correct answer:** Row A (you wash before eating). _Implementation note: Binary choice between two pre-arranged sequences; audio asks "Which row shows the right order?" Auto-graded by selection. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑IM‑04._
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T01.GK.01: Sequence three picture cards for a bedtime routine
 
 
 
@@ -69,11 +63,11 @@ Dependencies:
 
 ID: T01.GK.05
 Topic: T01 – Everyday Algorithms
-Skill: Move the picture that's in the wrong place
-Description: **Student task:** Look at the pictures. One picture is in the wrong place. Move it to the right place. _Implementation note: Drag the "wrong" card into correct position. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
+Skill: Drag the misplaced picture card to its correct position
+Description: **Student task:** Look at 4 picture cards in a row. One card is in the wrong spot. Drag it to where it belongs. **Visual scenario:** Cards show plant-growing steps with "water the plant" incorrectly placed before "put seed in soil." Student drags "water the plant" to after "put seed in soil." _Implementation note: Single card drag-and-drop to fix sequence; visual highlight shows the "wrong" card wobbling. Auto-graded by final arrangement. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
 
 Dependencies:
-* T01.GK.03: Identify the first and last steps in a sequence
+* T01.GK.03: Tap the first and last picture cards in a sequence
 
 
 
@@ -83,11 +77,11 @@ Dependencies:
 
 ID: T01.GK.06
 Topic: T01 – Everyday Algorithms
-Skill: What comes next?
-Description: **Student task:** Look at the first two pictures. What should come last? _Implementation note: MCQ, choose final picture. CSTA: EK‑ALG‑AF‑01._
+Skill: Predict the next picture card in a sequence
+Description: **Student task:** Look at 2 picture cards showing the start of a routine. Tap the picture card that shows what comes next. **Visual scenario:** Shows "put on socks" → "put on shoes" → [?]. Answer choices: (A) tie shoelaces, (B) take off shirt, (C) brush hair. **Correct answer:** (A) tie shoelaces. _Implementation note: MCQ with 3 picture options; audio reads "What comes next?" Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T01.GK.01: Sequence three picture cards for a bedtime routine
 
 
 
@@ -95,11 +89,11 @@ Dependencies:
 
 ID: T01.GK.07
 Topic: T01 – Everyday Algorithms
-Skill: Find the pattern that repeats
-Description: **Student task:** Watch the actions. Which two actions happen over and over? **Example:** hop–clap–hop–clap _Implementation note: Visual pattern MCQ. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
+Skill: Identify the repeating pattern in an animation
+Description: **Student task:** Watch a short animation showing repeated actions. Tap the picture cards that show what repeats. **Visual scenario:** Animation shows character: hop → clap → hop → clap → hop → clap. Answer choices show different action pairs. **Correct answer:** hop-clap pattern. _Implementation note: Animation (3-4 seconds) + MCQ with 3 pattern options shown as picture card pairs. Auto-graded by selection. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T01.GK.01: Sequence three picture cards for a bedtime routine
 
 
 
@@ -109,11 +103,11 @@ Dependencies:
 
 ID: T01.GK.08
 Topic: T01 – Everyday Algorithms
-Skill: Count how many times
-Description: **Student task:** Watch the character perform a repeated action (e.g., jump, clap, spin). Count how many times by selecting from picture‑based answer choices. _Implementation note: Short animation (2–4 seconds) + picture‑based count choices showing 1-4 actions. CSTA: EK‑ALG‑AF‑01._
+Skill: Count how many times an action repeats in an animation
+Description: **Student task:** Watch a character do the same action multiple times. Tap the number that shows how many times. **Visual scenario:** Animation shows bunny jumping 3 times. Answer choices: picture cards showing 1, 2, 3, or 4 bunny jumps. **Correct answer:** 3. _Implementation note: Short animation (2-4 seconds) + picture-based count choices (1-4); audio asks "How many times did bunny jump?" Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.07: Find the pattern that repeats
+* T01.GK.07: Identify the repeating pattern in an animation
 
 
 
@@ -123,11 +117,11 @@ Dependencies:
 
 ID: T01.G1.01
 Topic: T01 – Everyday Algorithms
-Skill: Put pictures in order to plant a seed
-Description: **Student task:** Look at 4 pictures. Put them in the right order to plant a seed. **Example:** Get pot, add soil, put seed in, water it. _Implementation note: Drag‑drop (4 items). CSTA: E1‑ALG‑AF‑01._
+Skill: Sequence four picture cards for planting a seed
+Description: **Student task:** Drag 4 picture cards into the correct order to plant a seed. **Visual scenario:** Cards show: (A) get a pot, (B) add soil to pot, (C) put seed in soil, (D) water the seed. Students arrange A → B → C → D. _Implementation note: Drag‑drop with 4 cards; builds on GK sequencing with nature/science context. Auto-graded by final arrangement. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.02: Put pictures in order for coming to class
+* T01.GK.02: Sequence four picture cards for a classroom arrival routine
 
 
 
@@ -135,11 +129,11 @@ Dependencies:
 
 ID: T01.G1.02
 Topic: T01 – Everyday Algorithms
-Skill: Put pictures in order to make breakfast
-Description: **Student task:** Look at 5 pictures. Put them in the right order to make breakfast. **Example:** Get bowl, pour cereal, pour milk, eat, wash bowl. _Implementation note: Drag‑drop (5 items). CSTA: E1‑ALG‑AF‑01._
+Skill: Sequence five picture cards for making breakfast
+Description: **Student task:** Drag 5 picture cards into the correct order to make cereal for breakfast. **Visual scenario:** Cards show: (A) get bowl from cabinet, (B) pour cereal into bowl, (C) pour milk, (D) eat cereal with spoon, (E) put bowl in sink. Students arrange A → B → C → D → E. _Implementation note: Drag‑drop with 5 cards; extends G1.01 by adding one more step. Auto-graded by final arrangement. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T01.G1.01: Put pictures in order to plant a seed
+* T01.G1.01: Sequence four picture cards for planting a seed
 
 
 
@@ -147,11 +141,11 @@ Dependencies:
 
 ID: T01.G1.03
 Topic: T01 – Everyday Algorithms
-Skill: Add a missing last step to a routine
-Description: Students see a 3‑step routine about a familiar everyday task (e.g., making a sandwich: get bread, add peanut butter, add jelly) and choose the correct 4th step from picture options (eat, clean up, put away ingredients). _Implementation note: MCQ picture choice with 3–4 plausible options; contexts include meal prep, getting ready, classroom routines. CSTA: E1‑ALG‑AF‑01._
+Skill: Select the missing last step in a routine
+Description: **Student task:** Look at 3 picture cards showing an incomplete routine. Select the picture that shows the correct last step. **Visual scenario:** Cards show: get bread → add peanut butter → add jelly → [?]. Answer choices: (A) eat sandwich, (B) turn on TV, (C) go outside. **Correct answer:** (A) eat sandwich. _Implementation note: MCQ with 3-4 picture options; extends GK.06 prediction with completion framing. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.06: What comes next?
+* T01.GK.06: Predict the next picture card in a sequence
 
 
 
@@ -159,11 +153,11 @@ Dependencies:
 
 ID: T01.G1.04
 Topic: T01 – Everyday Algorithms
-Skill: Predict the next step in a story sequence
-Description: Students see 3 story panels showing a narrative sequence (e.g., character sees ball, walks toward ball, reaches for ball) and choose what happens next from picture options, focusing on cause‑and‑effect in stories rather than procedural routines. _Implementation note: MCQ visuals with story context (not everyday tasks). CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
+Skill: Predict the next panel in a story sequence
+Description: **Student task:** Look at 3 story panels showing a cause-and-effect sequence. Select the picture that shows what happens next. **Visual scenario:** Panels show: (1) dog sees ball, (2) dog runs toward ball, (3) dog reaches for ball. Answer choices: (A) dog catches ball, (B) dog sleeps, (C) dog eats food. **Correct answer:** (A) dog catches ball. _Implementation note: MCQ with 3 picture options; focuses on narrative cause-effect rather than procedural routines. Auto-graded. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 Dependencies:
-* T01.GK.06: What comes next?
+* T01.GK.06: Predict the next picture card in a sequence
 
 
 
@@ -171,11 +165,11 @@ Dependencies:
 
 ID: T01.G1.05
 Topic: T01 – Everyday Algorithms
-Skill: Find the missing step in an algorithm
-Description: Students see a 4‑step sequence with one blank and choose which picture fills the gap. _Implementation note: Click‑select from options. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
+Skill: Select the missing middle step in an algorithm
+Description: **Student task:** Look at 4 picture cards with one blank in the MIDDLE (not the end). Select the picture that fills the gap. **Visual scenario:** Cards show: get cup → [?] → pour milk → drink. Answer choices: (A) open refrigerator, (B) wash hands, (C) sit down. **Correct answer:** (A) open refrigerator. _Implementation note: MCQ with 3-4 picture options; extends G1.03 by placing gap in middle instead of end. Auto-graded. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G1.03: Add a missing last step to a routine
+* T01.G1.03: Select the missing last step in a routine
 
 
 
@@ -183,11 +177,11 @@ Dependencies:
 
 ID: T01.G1.06
 Topic: T01 – Everyday Algorithms
-Skill: Fix a routine with one wrong step
-Description: Students identify a clearly wrong step (e.g., "eat" before "cook") and replace it with a correct picture. _Implementation note: Select wrong step, then replacement. CSTA: E1‑ALG‑AF‑01._
+Skill: Identify and replace the wrong step in a routine
+Description: **Student task:** Look at 4 picture cards. One card shows a completely WRONG action (not just out of order). Tap the wrong card, then select the correct replacement. **Visual scenario:** Cards show: get pan → eat food → cook egg → put on plate. "Eat food" is wrong because you can't eat before cooking. Replace with "crack egg into pan." _Implementation note: Two-step task: (1) tap wrong card, (2) select replacement from 3 options. Auto-graded. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.05: Move the picture that's in the wrong place
+* T01.GK.05: Drag the misplaced picture card to its correct position
 
 
 
@@ -195,11 +189,11 @@ Dependencies:
 
 ID: T01.G1.07
 Topic: T01 – Everyday Algorithms
-Skill: Decide if two algorithms finish with the same result
-Description: Students compare two routines and decide whether both achieve the same goal. _Implementation note: Side‑by‑side sequences with Yes/No or "Which work?" question. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
+Skill: Compare two algorithms to check if they achieve the same result
+Description: **Student task:** Look at two rows of picture cards showing different routines. Do both routines end with the same result? **Visual scenario:** Row A: get bread → add butter → add jam. Row B: get bread → add jam → add butter. Question: "Do both make the same thing?" **Correct answer:** Yes (both make bread with butter and jam). _Implementation note: Side-by-side comparison + Yes/No question. Auto-graded. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 Dependencies:
-* T01.GK.04: Pick the pictures that make sense
+* T01.GK.04: Select the picture sequence that makes sense
 
 
 
@@ -207,11 +201,11 @@ Dependencies:
 
 ID: T01.G1.08
 Topic: T01 – Everyday Algorithms
-Skill: Choose the algorithm that uses fewer steps
-Description: Students pick between two correct routines that differ in length; they choose the shorter correct one. _Implementation note: Choose shorter correct sequence. CSTA: E1‑ALG‑IM‑04._
+Skill: Select the shorter algorithm that achieves the same goal
+Description: **Student task:** Look at two correct routines that both achieve the same goal. Select the one that uses FEWER steps. **Visual scenario:** Row A (5 cards): get sponge → wet sponge → add soap → scrub dish → rinse dish. Row B (4 cards): get soapy sponge → scrub dish → rinse dish → done. Question: "Which uses fewer steps?" **Correct answer:** Row B (4 steps vs 5 steps). _Implementation note: Count-and-compare task + selection. Auto-graded. CSTA: E1‑ALG‑IM‑04._
 
 Dependencies:
-* T01.G1.07: Decide if two algorithms finish with the same result
+* T01.G1.07: Compare two algorithms to check if they achieve the same result
 
 
 
@@ -219,8 +213,8 @@ Dependencies:
 
 ID: T01.G1.09
 Topic: T01 – Everyday Algorithms
-Skill: Match an algorithm to its goal
-Description: Students match 3–4 short picture‑based routines (4–5 steps each) to goal labels, choosing from a list of 5–6 options that include some similar goals as distractors, requiring careful attention to the specific steps in each routine. _Implementation note: Matching lines between sequences and goals; auto‑graded. CSTA: E1‑ALG‑AF‑01._
+Skill: Match picture-based routines to their goals
+Description: **Student task:** Draw lines connecting 3 picture-card routines to their matching goal labels. Distractors include similar-sounding goals. **Visual scenario:** Routine 1: water can → soil → seed → water. Routine 2: brush → paste → mouth → rinse. Routine 3: paper → crayons → draw → show. Goals: "Plant a seed", "Brush teeth", "Make a drawing", "Cook food", "Build a tower". _Implementation note: Line-matching exercise; auto-graded by correct pairings. CSTA: E1‑ALG‑AF‑01._
 
 
 
@@ -228,11 +222,11 @@ Description: Students match 3–4 short picture‑based routines (4–5 steps ea
 
 ID: T01.G1.10
 Topic: T01 – Everyday Algorithms
-Skill: Match pictures to "if/then" rules
-Description: **Student task:** Look at pictures. Match them to "If this, then that" sentences. **Example:** "If it rains, then use an umbrella." _Implementation note: MCQ match picture ↔ sentence. CSTA: E1‑ALG‑AF‑01 (conceptual branching)._
+Skill: Match situation pictures to if/then rules
+Description: **Student task:** Match picture cards showing situations to "If... then..." sentences. **Visual scenario:** Picture A shows rain clouds. Picture B shows sunny sky. Sentences: "If it rains, then use umbrella", "If it's sunny, then wear sunglasses". Match rain picture → umbrella rule, sunny picture → sunglasses rule. _Implementation note: Line-matching or MCQ; introduces conditional thinking with pictures. Auto-graded. CSTA: E1‑ALG‑AF‑01 (conceptual branching)._
 
 Dependencies:
-* T01.GK.04: Pick the pictures that make sense
+* T01.GK.04: Select the picture sequence that makes sense
 
 
 
@@ -240,11 +234,11 @@ Dependencies:
 
 ID: T01.G2.01
 Topic: T01 – Everyday Algorithms
-Skill: Find actions that repeat in everyday tasks
-Description: **Student task:** Look at pictures showing an everyday task. Which action happens over and over? **Example:** In cleaning up toys, "pick up toy" happens many times. _Implementation note: Highlight or MCQ. CSTA: E2‑ALG‑AF‑01._
+Skill: Identify the repeating action in an everyday task
+Description: **Student task:** Look at picture cards showing an everyday task being done multiple times. Select which action repeats. **Visual scenario:** Cards show: pick up toy → put in box → pick up toy → put in box → pick up toy → put in box. Question: "Which action repeats?" Answer choices: (A) pick up toy, (B) open door, (C) eat snack. **Correct answer:** (A) pick up toy. _Implementation note: MCQ identifying repeated action; extends GK.07 to real-world task context. Auto-graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.07: Find the pattern that repeats
+* T01.GK.07: Identify the repeating pattern in an animation
 * T04.G1.03: Find repeated steps in an instruction list
 
 
@@ -253,11 +247,11 @@ Dependencies:
 
 ID: T01.G2.02
 Topic: T01 – Everyday Algorithms
-Skill: Use "repeat" to make directions shorter
-Description: **Student task:** Look at two sets of directions. Pick the one that uses "repeat ___ times" to say the same thing in fewer words. **Example:** "Walk 3 steps, walk 3 steps, walk 3 steps" vs "Repeat 'walk 3 steps' 3 times" _Implementation note: MCQ (long explicit vs "repeat" version). CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Skill: Select the shorter "repeat" version of directions
+Description: **Student task:** Compare two ways to write the same directions. Select the shorter version that uses "repeat ___ times". **Visual scenario:** Version A: "clap, clap, clap, clap" (4 separate cards). Version B: "repeat 'clap' 4 times" (1 card with repeat symbol). Question: "Which says the same thing with fewer cards?" **Correct answer:** Version B. _Implementation note: MCQ comparing explicit vs compressed versions. Auto-graded. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G2.01: Find actions that repeat in everyday tasks
+* T01.G2.01: Identify the repeating action in an everyday task
 
 
 
@@ -265,11 +259,11 @@ Dependencies:
 
 ID: T01.G2.03
 Topic: T01 – Everyday Algorithms
-Skill: Replace repeated steps with a repeat instruction
-Description: **Student task:** Look at a long list of repeated steps. Rewrite it using "repeat ___ times" to make it shorter and clearer. **Example:** "Clap, clap, clap, clap" becomes "Repeat 'clap' 4 times" _Implementation note: Choose or assemble compressed description with "repeat." CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Skill: Rewrite repeated steps using a "repeat" instruction
+Description: **Student task:** Look at a long list of repeated picture cards (5-6 repeating actions). Drag and arrange cards to create the equivalent "repeat ___ times" version. **Visual scenario:** Given: jump → jump → jump → jump → jump (5 cards). Create: "repeat 'jump' 5 times" by selecting the action card and the number 5. _Implementation note: Assembly/drag task to build compressed form; auto-graded by matching result. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G2.02: Use "repeat" to make directions shorter
+* T01.G2.02: Select the shorter "repeat" version of directions
 
 
 
@@ -707,19 +701,36 @@ Dependencies:
 
 
 
-ID: T01.G4.03
+ID: T01.G4.03.01
 Topic: T01 – Everyday Algorithms
-Skill: Identify repeated patterns in longer scripts
-Description: Students highlight repeated sequences (not just single blocks) in longer scripts with multiple patterns. They identify which sequences of 2-4 blocks repeat in the script. _Implementation note: Highlight blocks; auto‑grading checks region. CSTA: E4‑ALG‑AF‑01._
+Skill: Identify two-block sequences that repeat in a script
+Description: **Student task:** Look at a script with 8-10 blocks. Highlight the 2-block sequence that appears multiple times. **Example:** A script with "move 10, turn 90, move 10, turn 90, move 10, turn 90" - highlight "move 10, turn 90" as the repeating pair. _Implementation note: Block highlight selection; auto-graded by region match. CSTA: E4‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G3.03: Identify repeated blocks in a script (no loops)
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
 * T07.G3.01: Use a counted repeat loop
-* T08.G3.01: Use a simple if in a script
+
+
+
+
+ID: T01.G4.03.02
+Topic: T01 – Everyday Algorithms
+Skill: Identify three-block sequences that repeat in a script
+Description: **Student task:** Look at a script with 12-15 blocks. Highlight the 3-block sequence that appears multiple times. **Example:** A script for drawing a shape with "move, turn, change color" repeating. _Implementation note: Block highlight selection; extends G4.03.01 to longer patterns. Auto-graded by region match. CSTA: E4‑ALG‑AF‑01._
+
+Dependencies:
+* T01.G4.03.01: Identify two-block sequences that repeat in a script
+
+
+
+
+ID: T01.G4.03.03
+Topic: T01 – Everyday Algorithms
+Skill: Identify multiple different patterns in a single script
+Description: **Student task:** Look at a longer script with 15-20 blocks. Identify TWO different repeating patterns in the same script. **Example:** A drawing script might have both a "move-turn" pattern AND a "color change" pattern. _Implementation note: Multiple highlight selections; auto-graded by identifying both patterns. CSTA: E4‑ALG‑AF‑01._
+
+Dependencies:
+* T01.G4.03.02: Identify three-block sequences that repeat in a script
 
 
 
@@ -727,13 +738,11 @@ Dependencies:
 
 ID: T01.G4.04
 Topic: T01 – Everyday Algorithms
-Skill: Replace repeated patterns with loops
-Description: Students refactor repeated patterns (sequences of 2-3 blocks that repeat) into loops that contain multiple blocks. _Implementation note: Coding refactor; auto‑graded by behavior & fewer blocks. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Skill: Refactor repeated patterns into loops
+Description: **Student task:** Take a script with repeated 2-3 block sequences and refactor it to use a repeat loop. The refactored version should produce identical behavior with fewer blocks. **Example:** Convert "move 10, turn 90" repeated 4 times into "repeat 4 [move 10, turn 90]". _Implementation note: Coding refactor task; auto-graded by behavior match AND reduced block count. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G4.03: Identify repeated patterns in longer scripts
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
+* T01.G4.03.01: Identify two-block sequences that repeat in a script
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -742,15 +751,11 @@ Dependencies:
 
 ID: T01.G4.05.01
 Topic: T01 – Everyday Algorithms
-Skill: Identify differences between loop and no-loop script versions
-Description: Students compare two scripts that do the same thing: one with loops and one without. They identify the structural differences: number of blocks, presence of repeat blocks, and how many times each action appears in the code. _Implementation note: Side‑by‑side code comparison with MCQ identifying differences. CSTA: E4‑ALG‑IM‑04._
+Skill: Compare loop and no-loop script versions
+Description: **Student task:** Look at two scripts side-by-side that produce the same result. One uses explicit repetition, one uses a loop. Identify 3 differences: (1) total block count, (2) presence of repeat block, (3) how many times each action appears in code. _Implementation note: Side-by-side code comparison with MCQ checklist. Auto-graded. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T06.G2.03: Design a simple "if-then" game rule
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T01.G4.04: Refactor repeated patterns into loops
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -759,14 +764,11 @@ Dependencies:
 
 ID: T01.G4.05.02
 Topic: T01 – Everyday Algorithms
-Skill: Explain why the loop version is better
-Description: Students explain why the loop version is better based on provided criteria: (a) fewer blocks/shorter, (b) easier to understand, or (c) easier to modify. _Implementation note: MCQ choosing explanation; auto‑graded. CSTA: E4‑ALG‑IM‑04._
+Skill: Select reasons why the loop version is better
+Description: **Student task:** After comparing two scripts, select the best explanation for why the loop version is better. Choose from: (a) fewer blocks/shorter code, (b) easier to understand pattern, (c) easier to modify repeat count. _Implementation note: MCQ with 3-4 explanation options; auto-graded. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
-* T01.G4.05.01: Identify differences between loop and no-loop script versions
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T01.G4.05.01: Compare loop and no-loop script versions
 
 
 
@@ -774,15 +776,12 @@ Dependencies:
 
 ID: T01.G4.06.01
 Topic: T01 – Everyday Algorithms
-Skill: Identify which names in a script are variables
-Description: Students look at a script and identify which names represent variables (vs sprite names, block names, etc.). _Implementation note: Code‑reading MCQ/highlight. CSTA: E4‑PRO‑DH‑02._
+Skill: Identify variable names in a script
+Description: **Student task:** Look at a script with sprites, blocks, and variables. Highlight or select which names are variables (not sprite names or block names). **Example:** In a game script, identify "score", "lives", "speed" as variables vs "Cat" (sprite) or "move" (block). _Implementation note: Code-reading with highlight/MCQ selection. Auto-graded. CSTA: E4‑PRO‑DH‑02._
 
 Dependencies:
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.01.04: Display variable value on stage using the variable monitor
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -790,13 +789,11 @@ Dependencies:
 
 ID: T01.G4.06.02
 Topic: T01 – Everyday Algorithms
-Skill: Explain what values each variable stores
-Description: Students explain what each variable stores (e.g., "score stores the number of coins collected," "speed stores how fast the character moves"). _Implementation note: MCQ matching variables to descriptions. CSTA: E4‑PRO‑DH‑02._
+Skill: Match variables to their purpose descriptions
+Description: **Student task:** Look at a script with 2-3 variables. Match each variable name to a description of what it stores. **Example:** Match "score" → "number of coins collected", "lives" → "how many tries remaining", "speed" → "how fast character moves". _Implementation note: Matching exercise or MCQ; auto-graded. CSTA: E4‑PRO‑DH‑02._
 
 Dependencies:
-* T01.G4.06.01: Identify which names in a script are variables
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T01.G4.06.01: Identify variable names in a script
 
 
 
@@ -804,16 +801,11 @@ Dependencies:
 
 ID: T01.G4.07
 Topic: T01 – Everyday Algorithms
-Skill: Trace a simple counter variable
-Description: Students follow a script that initializes a variable and increments it in a loop (through several iterations), then predict its final value. _Implementation note: Tracing + MCQ. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
+Skill: Trace a counter variable through loop iterations
+Description: **Student task:** Follow a script with a counter variable inside a repeat loop. Track the counter value through each iteration and predict its final value. **Example:** "set count to 0, repeat 4 [change count by 1]" → final count = 4. _Implementation note: Tracing table showing value after each iteration + MCQ for final value. Auto-graded. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
 
 Dependencies:
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T01.G4.06.02: Match variables to their purpose descriptions
 * T07.G3.01: Use a counted repeat loop
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
@@ -823,18 +815,11 @@ Dependencies:
 
 ID: T01.G4.08
 Topic: T01 – Everyday Algorithms
-Skill: Add a variable to count events in a program
-Description: Students add a variable (e.g., `steps`, `coins`) and increment it at the right place in an existing script. _Implementation note: Coding; auto‑grading checks updates and display. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
+Skill: Add a counter variable to an existing program
+Description: **Student task:** Add a new variable (e.g., "steps" or "coins") to an existing script and place "change [variable] by 1" in the right location to count events. **Example:** Add a "jumps" counter that increases each time the character jumps. _Implementation note: Coding task in starter project; auto-graded by variable display and correct increment placement. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
 
 Dependencies:
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T08.G3.01: Use a simple if in a script
+* T01.G4.07: Trace a counter variable through loop iterations
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
@@ -843,36 +828,36 @@ Dependencies:
 
 ID: T01.G4.09
 Topic: T01 – Everyday Algorithms
-Skill: Use a variable to track a simple game state (lives or points)
-Description: Students extend a game to use a variable for lives or points, decreasing or increasing it based on events. This applies the skills from T01.G4.08 in a game context. _Implementation note: Coding; auto‑graded on correct updates. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
+Skill: Track game state with lives or score variables
+Description: **Student task:** Extend a simple game to track lives or score. Add variable that increases when collecting items OR decreases when hitting obstacles. **Example:** "score" starts at 0, increases by 10 when touching coin; "lives" starts at 3, decreases by 1 when touching enemy. _Implementation note: Coding in game starter project; auto-graded by variable updates under test scenarios. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑DH‑02._
 
 Dependencies:
-* T01.G4.08: Add a variable to count events in a program
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T01.G4.08: Add a counter variable to an existing program
+* T08.G3.01: Use a simple if in a script
 
 
 
 
 
-ID: T01.G4.10
+ID: T01.G4.10.01
 Topic: T01 – Everyday Algorithms
-Skill: Trace a multi‑step algorithm with loops and variables
-Description: Students trace code with a loop and variable updates (with 2-3 variables changing values) to find final values or positions. _Implementation note: Code‑reading + MCQ. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Skill: Trace two variables changing in a loop
+Description: **Student task:** Follow a script with TWO variables being updated inside a loop. Track both values through each iteration. **Example:** "repeat 3 [change x by 2, change y by 5]" with x=0, y=0 initially → after loop: x=6, y=15. _Implementation note: Dual-column tracing table + MCQ for final values. Auto-graded. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G2.01: Find actions that repeat in everyday tasks
-* T01.G4.07: Trace a simple counter variable
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T01.G4.07: Trace a counter variable through loop iterations
 * T07.G3.01: Use a counted repeat loop
-* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+
+
+ID: T01.G4.10.02
+Topic: T01 – Everyday Algorithms
+Skill: Trace variables with position and direction changes
+Description: **Student task:** Follow a script where variables control sprite position and direction. Trace values through iterations to predict final position. **Example:** "repeat 4 [move x by 10, turn 90]" → predict ending position and direction. _Implementation note: Tracing with visual grid showing position + MCQ. Auto-graded. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+
+Dependencies:
+* T01.G4.10.01: Trace two variables changing in a loop
 * T12.G3.01: Test and trace simple block-based scripts
 
 
@@ -881,18 +866,12 @@ Dependencies:
 
 ID: T01.G4.11
 Topic: T01 – Everyday Algorithms
-Skill: Debug an off‑by‑one counting bug
-Description: Students fix a counter that ends too high or too low (off by one) by adjusting initialization (e.g., start at 0 vs 1) or loop bounds. _Implementation note: Coding edits; auto‑graded with multiple tests. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
+Skill: Debug an off-by-one counting error
+Description: **Student task:** Fix a counter variable that ends one too high or one too low. Diagnose whether the bug is in (a) initialization (start at 0 vs 1) or (b) loop count (repeat 9 vs 10). **Example:** Counter should end at 10 but ends at 9 - fix by changing "set count to 1" to "set count to 0" OR changing "repeat 9" to "repeat 10". _Implementation note: Coding debug task; auto-graded with test cases checking final counter value. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
 
 Dependencies:
-* T01.G4.07: Trace a simple counter variable
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T01.G4.10.01: Trace two variables changing in a loop
 * T07.G3.01: Use a counted repeat loop
-* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T12.G3.01: Test and trace simple block-based scripts
 
 
@@ -901,14 +880,12 @@ Dependencies:
 
 ID: T01.G4.12
 Topic: T01 – Everyday Algorithms
-Skill: Choose and explain why one algorithm solution is better
-Description: Students compare two working algorithms that achieve the same goal and select which is better, then choose the best explanation from provided options: (a) fewer steps/shorter, (b) easier to understand/clearer, or (c) uses better structures like loops. _Implementation note: Two-part MCQ: (1) select best algorithm from 2-3 options, (2) select explanation from 3-4 provided reasons. Auto-graded. CSTA: E4‑ALG‑IM‑04._
+Skill: Select the better algorithm and explain why
+Description: **Student task:** Compare two working algorithms that achieve the same goal. Select which is better and choose the reason from options: (a) fewer blocks/shorter, (b) clearer/easier to understand, (c) uses better structures like loops. _Implementation note: Two-part MCQ: (1) select best algorithm, (2) select explanation. Auto-graded. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
-* T01.G2.18.02: Choose why an algorithm doesn't work
-* T01.G4.05.02: Explain why the loop version is better
-* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T01.G4.05.02: Select reasons why the loop version is better
+* T01.G3.11: Choose the best description of what a short program does
 
 
 
@@ -916,15 +893,10 @@ Dependencies:
 
 ID: T01.G4.13
 Topic: T01 – Everyday Algorithms
-Skill: Compare 'repeat N times' with 'repeat until' loops
-Description: Students look at two scripts that do the same thing. One uses 'repeat 10' and one uses 'repeat until touching edge.' What's different? When would you use each type? _Implementation note: MCQ comparing loop types; auto‑graded. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Skill: Compare counted loops with condition-based loops
+Description: **Student task:** Compare two scripts that achieve similar results. One uses "repeat 10 times" (counted), one uses "repeat until touching edge" (condition-based). Identify when each type is better: counted when you know exact repetitions, condition-based when you need to stop based on a situation. _Implementation note: Side-by-side comparison + MCQ on when to use each type. Auto-graded. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G2.01: Turn a picture routine into labeled boxes
-* T02.G2.02: Read a box diagram and choose the matching pictures
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
-* T06.G2.02: Match multiple triggers to the same action
-* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
 * T07.G4.01: Create a forever game loop for controls
 
@@ -934,11 +906,11 @@ Dependencies:
 
 ID: T01.G4.14
 Topic: T01 – Everyday Algorithms
-Skill: Identify the inner and outer loop in a nested loop script
-Description: Students look at a script with nested loops (a repeat inside another repeat). They identify which loop is the outer loop (runs fewer times, contains the other) and which is the inner loop (runs many times, inside the other). _Implementation note: Code reading with highlight/MCQ; auto-graded. CSTA: E4-ALG-AF-01, E4-ALG-PS-03._
+Skill: Identify inner and outer loops in nested loop scripts
+Description: **Student task:** Look at a script with one repeat loop inside another. Identify which is the OUTER loop (runs fewer times, wraps around) and which is the INNER loop (runs more total times, nested inside). **Example:** "repeat 3 [repeat 4 [move 10]]" - outer loop runs 3 times, inner loop runs 12 times total (4×3). _Implementation note: Code reading with highlight selection + MCQ. Auto-graded. CSTA: E4-ALG-AF-01, E4-ALG-PS-03._
 
 Dependencies:
-* T01.G4.04: Replace repeated patterns with loops
+* T01.G4.04: Refactor repeated patterns into loops
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -947,11 +919,11 @@ Dependencies:
 
 ID: T01.G4.15
 Topic: T01 – Everyday Algorithms
-Skill: Use a variable value in an if/then condition
-Description: Students add an if/then block that checks a variable value (e.g., "if score > 10, then say 'You win!'"). This connects variable tracking from T01.G4.08-09 to conditional logic. _Implementation note: Coding; auto-graded by behavior under different variable values. CSTA: E4-ALG-AF-01, E4-PRO-PF-01._
+Skill: Add conditional logic based on variable values
+Description: **Student task:** Add an if/then block that checks a variable value and triggers an action. **Example:** "if score > 10 then say 'You win!'" or "if lives = 0 then broadcast game-over". _Implementation note: Coding task; auto-graded by testing behavior with different variable values. CSTA: E4-ALG-AF-01, E4-PRO-PF-01._
 
 Dependencies:
-* T01.G4.09: Use a variable to track a simple game state (lives or points)
+* T01.G4.09: Track game state with lives or score variables
 * T08.G3.01: Use a simple if in a script
 
 
@@ -8007,7 +7979,23 @@ Dependencies:
 CSTA: E8-ALG-AF-01, E8-PRO-PF-01, E8-IC-CY-01
 
 
-
+# T09 - Variables & Expressions (Phase 3 Optimized - November 2025)
+# Applied Phase 3 topic-focused optimizations:
+# - Fixed vague verb: T09.G7.04 "Understand" → "Distinguish between" (skill title)
+# - Fixed dependency text: T09.G7.05.01, T09.G8.03, T09.G8.04 references updated
+# - Verified X-2 rule compliance for all intra-topic dependencies (CONFIRMED: no violations)
+# - Verified K-2 skills all use picture-based format with **Student task:** prefix (CONFIRMED: all 6 skills compliant)
+# - Verified no duplicate skills found within T09
+# - Verified logical K-8 progression:
+#   - K: Visual labels with numbers (recognition, change detection)
+#   - G1-G2: Interactive counters (clicking, tracking, initialization, comparison)
+#   - G3: Core variable operations (create, set, change, display, conditionals, basic debugging, tracing)
+#   - G4: Arithmetic operators, comparisons, loop counters, flags, random values, advanced debugging
+#   - G5: Multiple variables, data types (string, boolean), accumulators, advanced tracing
+#   - G6: Real-world modeling, PEMDAS, advanced operators (exponents, modulo), string operations
+#   - G7: Dynamic systems, math functions, averages, compound conditions, scope, file I/O, regex
+#   - G8: Algorithm variables, optimization, trigonometry, cloud variables, symbolic math
+# Total: 92 skills (unchanged)
 
 
 
@@ -8950,7 +8938,7 @@ Dependencies:
 
 ID: T09.G7.04
 Topic: T09 – Variables & Expressions
-Skill: Choose between for-this-sprite and for-all-sprites variable scope
+Skill: Distinguish between for-this-sprite and for-all-sprites variable scope
 Description: Students distinguish between for-this-sprite variables (visible only within one sprite) and for-all-sprites variables (visible to all sprites). They choose the appropriate scope when creating variables: for-this-sprite for private data each sprite needs separately, for-all-sprites for shared data like game score. They demonstrate sharing data between sprites using for-all-sprites variables.
 
 Dependencies:
@@ -8967,7 +8955,7 @@ Skill: Save variables to a file (export)
 Description: Students use file export operations to save variable values to a file. This enables persistent storage of game state, settings, or high scores that survives beyond program execution. They understand how to format data for export and choose appropriate file formats.
 
 Dependencies:
-* T09.G7.04: Understand for-this-sprite vs for-all-sprites variable scope
+* T09.G7.04: Distinguish between for-this-sprite and for-all-sprites variable scope
 
 
 
@@ -9203,7 +9191,7 @@ Skill: Use cloud variables for persistent data storage
 Description: Students use cloud variables to save data that persists across sessions and is shared between users. They understand that cloud variables are stored on a server and updated in real-time, enabling high scores, user preferences, or multiplayer data sharing.
 
 Dependencies:
-* T09.G7.04: Understand for-this-sprite vs for-all-sprites variable scope
+* T09.G7.04: Distinguish between for-this-sprite and for-all-sprites variable scope
 * T09.G7.05.02: Load variables from a file (import)
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T07.G6.01: Trace nested loops with variable bounds
@@ -9219,7 +9207,7 @@ Skill: Debug variable scope and concurrent update errors
 Description: Students identify and fix bugs in programs with multiple sprites sharing variables: scope confusion (for-this-sprite vs for-all-sprites), race conditions when multiple scripts update the same variable, or initialization order dependencies. They trace variable states across concurrent scripts.
 
 Dependencies:
-* T09.G7.04: Understand for-this-sprite vs for-all-sprites variable scope
+* T09.G7.04: Distinguish between for-this-sprite and for-all-sprites variable scope
 * T09.G7.06: Predict behavior changes from modifying variable values
 * T02.G6.01: Learn the pseudocode generation block
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design

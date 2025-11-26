@@ -92,7 +92,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 4) continue;
+      // if ( iteration == 0 && i < 4) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -135,6 +135,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 - Do NOT modify skills from other topics
 - PRESERVE all dependencies to OTHER topics
 - ONLY modify ${topic.code} skills
+- DON'T be afraid of changes. Think outside the box and don't limit yourself by the existing skills design. We need to aim for top quality so every iteration should make significant improvements based on existing skills and go beyond it. There are ALWAYS ways to improve skills. Make bold changes if needed so that the skill map converge towards high quality faster.
 
 ## Step 3: Make the edits to skillsv5/allskills.md
 
