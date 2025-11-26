@@ -5131,6 +5131,39 @@ Dependencies:
 
 
 
+ID: T05.G6.01.01
+Topic: T05 – Human‑Centered Design
+Skill: Rate a design on empathy criteria
+Description: Students evaluate a design specifically on empathy criteria: Does it acknowledge user frustrations? Does it use language appropriate for the target audience? Does it consider the user's context (time-pressed, distracted, stressed)? Students mark each criterion pass/fail and cite specific evidence from the design.
+
+Dependencies:
+* T05.G6.01: Evaluate a design using HCD principle checklist
+
+
+
+
+ID: T05.G6.01.02
+Topic: T05 – Human‑Centered Design
+Skill: Rate a design on user needs criteria
+Description: Students evaluate a design specifically on whether it addresses user needs: Does each main feature solve a stated user problem? Are the most important tasks easy to complete? Does it avoid unnecessary features that distract from core needs? Students mark each criterion and explain their reasoning.
+
+Dependencies:
+* T05.G6.01: Evaluate a design using HCD principle checklist
+
+
+
+
+ID: T05.G6.01.03
+Topic: T05 – Human‑Centered Design
+Skill: Rate a design on accessibility criteria
+Description: Students evaluate a design specifically on accessibility: Is text readable (size, contrast)? Are interactive elements large enough? Does it work without color alone? Can it be used with keyboard only? Students mark each criterion pass/fail and note specific accessibility barriers found.
+
+Dependencies:
+* T05.G6.01: Evaluate a design using HCD principle checklist
+
+
+
+
 ID: T05.G6.02
 Topic: T05 – Human‑Centered Design
 Skill: Propose targeted design changes for HCD gaps
@@ -5290,8 +5323,8 @@ Skill: Identify potential unintended harms from a design
 Description: Students read a project description (e.g., social app, data collection tool) and identify potential harms from a checklist: privacy risks, addictive features, misinformation spread, exclusion of user groups, or unintended data exposure.
 
 Dependencies:
-* T05.G5.01: Write clear user needs and requirements for a small app
-* T05.G5.05: Plan how to test whether a design meets user needs
+* T05.G5.01: Write a requirements document with multiple user stories
+* T05.G5.05: Create a usability test plan with tasks and success criteria
 * T08.G5.01: Use nested conditionals to handle multiple outcomes
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
@@ -5317,8 +5350,8 @@ Skill: Interpret usage or feedback data to find UX problems
 Description: Students analyze a simple data visualization (bar chart of feature usage, pie chart of user complaints, or table of task completion times) to identify patterns indicating UX problems, such as features users avoid or tasks that take too long.
 
 Dependencies:
-* T05.G5.05: Plan how to test whether a design meets user needs
-* T05.G6.04: Update a design based on specific user feedback
+* T05.G5.05: Create a usability test plan with tasks and success criteria
+* T05.G6.04: Map user feedback to specific design changes
 * T08.G5.01: Use nested conditionals to handle multiple outcomes
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
@@ -5343,7 +5376,7 @@ Dependencies:
 ID: T05.G7.07
 Topic: T05 – Human‑Centered Design
 Skill: Write one sentence connecting a design decision to user feedback
-Description: Write single sentence connecting design decision to evidence using sentence stems. Scaffolds formal justification writing in G8.05.
+Description: Students complete sentence stems to connect design decisions to evidence (e.g., "We changed [X] because users said [Y]" or "Based on the data showing [A], we decided to [B]"). Activity provides 3-4 sentence starters and students fill in specific details from given user feedback or test results. Scaffolds the multi-sentence justifications required in G8.05.
 
 Dependencies:
 * T05.G7.06: Select design changes that address identified data patterns
@@ -5359,7 +5392,7 @@ Description: Students implement a simple simulation they planned (or are given a
 
 Dependencies:
 * T05.G6.05: Plan a simple CreatiCode simulation with variables, rules, and UI
-* T05.G6.08: Identify user questions a simulation should answer
+* T05.G6.08: Classify which user questions suit simulation vs other methods
 * T08.G5.01: Use nested conditionals to handle multiple outcomes
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
@@ -5412,7 +5445,7 @@ Skill: Identify and describe target users for a design
 Description: Students write a clear description of the target user(s) for a design project, including age, experience level, needs, and context of use. They identify 1-2 primary user groups and explain why they are the focus.
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T05.G6.01: Evaluate a design using HCD principle checklist
 
 
 
@@ -5468,7 +5501,7 @@ Skill: Explain key design decisions in terms of user needs and data
 Description: Students write 2–3 sentence justifications for design choices, explicitly connecting each decision to evidence: user feedback quotes, survey data, or usability test results. Example: "We added larger buttons because 3 of 5 testers missed the small tap targets."
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T05.G6.01: Evaluate a design using HCD principle checklist
 * T05.G7.06: Select design changes that address identified data patterns
 * T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01a: Use conditionals in physics simulations
