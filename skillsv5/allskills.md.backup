@@ -9762,23 +9762,14 @@ Dependencies:
 * T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
 
 
-# T10 – Lists & Tables (Optimized - November 2025, Revision 2)
-# Optimizations (Revision 1):
+# T10 – Lists & Tables (Optimized - November 2025)
+# Optimizations:
 # 1. Enhanced K-2 skills with Visual scenario format (Student task, Visual scenario, Correct answer, Implementation note)
 # 2. Fixed vague verbs: "Look at" → "Read", T10.G5.01 "Understand" → "Identify"
 # 3. Split T10.G8.08 into sub-skills: .01 binary search, .02 two-pointer, .03 sliding window
 # 4. Verified all X-2 rule compliance for intra-topic dependencies
 # 5. Fixed T10.G5.02 dependency name from "Understand table structure" → "Identify table structure"
 # 6. Total skills: 113 → 115 (split 1 skill into 3 = +2 skills)
-#
-# Optimizations (Revision 2 - November 2025):
-# 7. Added 4 new essential skills: T10.G4.21 (extract sublist), T10.G6.09 (nested lists/2D arrays), T10.G6.10 (access 2D array elements), T10.G7.15 (stack operations)
-# 8. Enhanced descriptions: replaced passive "understand" with observable verbs (observe, verify, note, recognize)
-# 9. Added G3 bridging skill T10.G3.11 (predict list changes) for computational thinking
-# 10. Added G5 bridging skill T10.G5.19 (manual table filter) to address G6→G3 dependency gap
-# 11. Fixed dependency for T10.G6.02 (was violating X-2 rule with G3 dependencies)
-# 12. Improved K-2 skills with richer visual scenarios and explicit learning progressions
-# 13. Total skills: 115 → 122 (+7 skills for better progression and coverage)
 
 ## T10 – Lists & Tables
 ---
@@ -9796,13 +9787,15 @@ Description: **Student task:** Drag 4-6 picture cards into 2 colored boxes based
 
 
 
+
 ID: T10.GK.02
 Topic: T10 – Lists & Tables
 Skill: Count items in each group
-Description: **Student task:** After sorting picture cards into groups, count how many items are in each group and tap the correct count from picture choices. **Visual scenario:** Two boxes after sorting: "Pets" box has 3 animals (cat, dog, fish), "Wild animals" box has 2 animals (lion, bear). Question: "How many pets?" **Correct answer:** Tap the picture showing 3 dots. _Implementation note: Multi-choice with dot representations (1-4 dots). Audio reads numbers on tap. CSTA: EK-ALG-AF-01._
+Description: After sorting items into groups, students count how many items are in each group and select the count from picture-based answer choices (showing 1, 2, 3, or 4 dots/items).
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
+
 
 
 
@@ -9810,7 +9803,7 @@ Dependencies:
 ID: T10.GK.03
 Topic: T10 – Lists & Tables
 Skill: Find which group has more
-Description: **Student task:** Look at two groups of sorted items and tap the group that has more items. **Visual scenario:** Two boxes after sorting: "Circles" box has 4 shapes, "Triangles" box has 2 shapes. Question: "Which group has more?" **Correct answer:** Tap the "Circles" box. _Implementation note: Visual comparison activity with highlighting on selection. CSTA: EK-ALG-AF-01._
+Description: Students compare two groups of sorted items and identify which group has more items. Answer choices show pictures of the two groups.
 
 Dependencies:
 * T10.GK.02: Count items in each group
@@ -9818,13 +9811,15 @@ Dependencies:
 
 
 
+
 ID: T10.GK.04
 Topic: T10 – Lists & Tables
 Skill: Add an item to the right group
-Description: **Student task:** Look at two boxes with sorted picture cards. A new picture card appears. Drag it to the correct box. **Visual scenario:** "Animals" box has dog and cat pictures. "Foods" box has apple and banana pictures. New card shows a bird. **Correct answer:** Drag the bird card to the "Animals" box. _Implementation note: Drag-drop with snap-to-box feedback. CSTA: EK-ALG-AF-01._
+Description: Students are shown sorted groups and one new item. They decide which group the new item belongs to and drag it there.
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
+
 
 
 
@@ -9832,7 +9827,7 @@ Dependencies:
 ID: T10.GK.05
 Topic: T10 – Lists & Tables
 Skill: Find the first and last item in a row
-Description: **Student task:** Look at a row of 3-5 picture cards arranged from left to right. Tap the first item, then tap the last item. **Visual scenario:** Five picture cards in a row: apple, banana, orange, grape, watermelon. **Correct answer:** Tap apple (first), then tap watermelon (last). _Implementation note: Sequential tap activity with visual order indicators. CSTA: EK-ALG-AF-01._
+Description: Students identify the first and last item in a row of 3-5 picture cards arranged in order (left to right).
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -9840,13 +9835,15 @@ Dependencies:
 
 
 
+
 ID: T10.GK.06
 Topic: T10 – Lists & Tables
-Skill: Read a simple picture table
-Description: **Student task:** Look at a picture table showing which child likes which fruit. Answer questions by tapping the correct cell. **Visual scenario:** 2x3 table with rows for "Sam" and "Lia", columns for "Fruit" showing apple and banana icons. Question: "What does Sam like?" **Correct answer:** Tap the cell showing Sam's fruit (apple). _Implementation note: Interactive table with cell highlighting on tap. CSTA: EK-ALG-AF-01._
+Skill: Look at a simple picture table
+Description: Students view a simple 2x3 or 3x3 picture table (e.g., a chart showing which child likes which fruit) and answer questions like "What does Sam like?" by tapping the correct cell.
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
+
 
 
 
@@ -9854,7 +9851,7 @@ Dependencies:
 ID: T10.GK.07
 Topic: T10 – Lists & Tables
 Skill: Match items that go together
-Description: **Student task:** Draw lines or drag to match pairs of related items. **Visual scenario:** Left column shows 3 animals (dog, fish, bird). Right column shows 3 homes (doghouse, fishbowl, nest). **Correct answer:** Dog→doghouse, fish→fishbowl, bird→nest. _Implementation note: Line-drawing or drag-drop matching with visual connection feedback. CSTA: EK-ALG-AF-01._
+Description: Students match pairs of related items (e.g., match animals to their homes, match tools to their uses) by drawing lines or dragging.
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
@@ -9862,10 +9859,11 @@ Dependencies:
 
 
 
+
 ID: T10.GK.08
 Topic: T10 – Lists & Tables
 Skill: Find all items with a special mark
-Description: **Student task:** Look at a collection of picture cards. Some have a star mark. Tap all cards with stars, then count how many you found. **Visual scenario:** 6 picture cards showing toys. 3 cards have gold stars on them (teddy bear, ball, puzzle). **Correct answer:** Tap the 3 starred cards, then tap "3" from the number choices. _Implementation note: Multi-tap selection with counter display. CSTA: EK-ALG-AF-01._
+Description: Students identify all items in a collection that have a special visual mark (star, checkmark, red border) and count them.
 
 Dependencies:
 * T10.GK.02: Count items in each group
@@ -9881,7 +9879,7 @@ Dependencies:
 ID: T10.G1.01
 Topic: T10 – Lists & Tables
 Skill: Sort items using two rules
-Description: **Student task:** Drag 6-8 items into groups where each item must match TWO rules (e.g., must be both "big" AND "red"). **Visual scenario:** 8 shape cards: big red circle, small red square, big blue triangle, small blue circle, big red square, small red triangle, big blue square, small blue square. Two boxes: "Big AND Red" and "Other." **Correct answer:** Only big red circle and big red square go in "Big AND Red" box; all others go in "Other" box. _Implementation note: Two-attribute classification with visual rule indicators. CSTA: E1-ALG-AF-01._
+Description: Students sort 6-8 items into groups using two attributes (e.g., "big red shapes" vs "small blue shapes"), understanding that items can belong to groups based on multiple properties.
 
 Dependencies:
 * T10.GK.01: Sort picture cards into groups
@@ -9890,14 +9888,16 @@ Dependencies:
 
 
 
+
 ID: T10.G1.02
 Topic: T10 – Lists & Tables
 Skill: Make a picture tally chart
-Description: **Student task:** Count items in categories and add tally marks or picture icons to show the count. **Visual scenario:** Picture shows 5 students' snack choices: 2 chose apple, 2 chose banana, 1 chose orange. Empty chart has rows for each snack. **Correct answer:** Add 2 tally marks (or 2 apple icons) in apple row, 2 in banana row, 1 in orange row. _Implementation note: Interactive chart builder with drag-drop tally marks or icons. CSTA: E1-ALG-AF-01._
+Description: Students count items in categories and represent the count using tally marks or pictures in a simple chart (e.g., count and tally how many students like each snack).
 
 Dependencies:
 * T10.GK.02: Count items in each group
-* T10.GK.06: Read a simple picture table
+* T10.GK.06: Look at a simple picture table
+
 
 
 
@@ -9905,10 +9905,11 @@ Dependencies:
 ID: T10.G1.03
 Topic: T10 – Lists & Tables
 Skill: Read information from a picture table
-Description: **Student task:** Answer questions by finding and tapping specific cells in a picture table with 3-4 rows and 3-4 columns. **Visual scenario:** 3x3 table showing 3 students (rows) and what they have: pencils, crayons, erasers (columns with number icons). Question: "How many pencils does Lia have?" **Correct answer:** Tap the cell at Lia's row, pencils column showing "5." _Implementation note: Interactive table with question-guided cell selection. CSTA: E1-ALG-AF-01._
+Description: Students answer questions by finding and reading specific cells in a picture table with 3-4 rows and 3-4 columns.
 
 Dependencies:
-* T10.GK.06: Read a simple picture table
+* T10.GK.06: Look at a simple picture table
+
 
 
 
@@ -9916,7 +9917,7 @@ Dependencies:
 ID: T10.G1.04
 Topic: T10 – Lists & Tables
 Skill: Find the row or column with the most
-Description: **Student task:** Look at a picture table and tap the row or column that has the most items in total. **Visual scenario:** 3x2 table showing students and their points. Row 1 (Sam): 5 stars. Row 2 (Lia): 8 stars. Row 3 (Max): 3 stars. Question: "Which student has the most stars?" **Correct answer:** Tap Lia's row (8 stars). _Implementation note: Visual comparison with highlighting on tap. CSTA: E1-ALG-AF-01._
+Description: Students examine a picture table and identify which row or column has the most items by comparing visually.
 
 Dependencies:
 * T10.G1.03: Read information from a picture table
@@ -9925,10 +9926,11 @@ Dependencies:
 
 
 
+
 ID: T10.G1.05
 Topic: T10 – Lists & Tables
 Skill: Complete a pattern in a table
-Description: **Student task:** Look at a table with a pattern in rows or columns. Some cells are empty. Drag the correct picture or number to fill the missing cells. **Visual scenario:** 3x3 table with alternating colors: Red, Blue, ?, Red, Blue, ?, Red, Blue, ?. **Correct answer:** Fill each ? with Red to continue the Red-Blue-Red pattern. _Implementation note: Drag-drop pattern completion with visual feedback. CSTA: E1-ALG-AF-01._
+Description: Students identify a pattern in rows or columns of a table and fill in missing cells (e.g., alternating colors, increasing numbers shown as dots).
 
 Dependencies:
 * T10.G1.03: Read information from a picture table
@@ -9937,10 +9939,11 @@ Dependencies:
 
 
 
+
 ID: T10.G1.06
 Topic: T10 – Lists & Tables
 Skill: Find items that belong in both groups
-Description: **Student task:** Look at a collection of picture cards. Find and tap all items that match TWO conditions at the same time (e.g., items that are both red AND round). **Visual scenario:** 8 cards showing shapes: red circle, blue circle, red square, green triangle, red triangle, blue square, green circle, red oval. Question: "Find all things that are both RED and ROUND." **Correct answer:** Tap only the red circle. _Implementation note: Multi-select activity with AND logic indicator. CSTA: E1-ALG-AF-01._
+Description: Students identify items that satisfy two conditions (e.g., "Find things that are both red AND round" from a mixed collection).
 
 Dependencies:
 * T10.G1.01: Sort items using two rules
@@ -9956,7 +9959,7 @@ Dependencies:
 ID: T10.G2.01
 Topic: T10 – Lists & Tables
 Skill: Build a simple data table from a list
-Description: **Student task:** Read a list of information and fill in a table with labeled rows and columns. **Visual scenario:** Text list: "Sam has 3 apples, Lia has 2 oranges, Max has 5 bananas." Empty table with columns: Name, Fruit, Count. **Correct answer:** Fill 3 rows: (Sam, apples, 3), (Lia, oranges, 2), (Max, bananas, 5). _Implementation note: Interactive table builder with drag-drop or type-in fields. CSTA: E2-ALG-AF-01._
+Description: Students organize a list of information into a table with labeled rows and columns (e.g., organize "Sam has 3 apples, Lia has 2 oranges" into a table).
 
 Dependencies:
 * T10.G1.03: Read information from a picture table
@@ -9964,13 +9967,15 @@ Dependencies:
 
 
 
+
 ID: T10.G2.02
 Topic: T10 – Lists & Tables
 Skill: Add a new row to a table
-Description: **Student task:** Look at an existing picture table. You're given new information for a new student. Add a new row by filling in all the column values. **Visual scenario:** Table has 2 students with columns: Name, Favorite Color. You get: "Add Tom who likes Green." **Correct answer:** Add row 3: (Tom, Green). _Implementation note: Interactive row addition with column-guided input. CSTA: E2-ALG-AF-01._
+Description: Students add a new row of data to an existing picture table by filling in all column values for a new entry.
 
 Dependencies:
 * T10.G2.01: Build a simple data table from a list
+
 
 
 
@@ -9978,7 +9983,7 @@ Dependencies:
 ID: T10.G2.03
 Topic: T10 – Lists & Tables
 Skill: Compare two rows in a table
-Description: **Student task:** Look at two different rows in a table and answer questions about differences or similarities. **Visual scenario:** Table with columns: Student, Math Score, Reading Score. Row 1: (Sam, 85, 90). Row 2: (Lia, 80, 95). Question: "Who has a higher Math score?" **Correct answer:** Sam. "Who has a higher Reading score?" **Correct answer:** Lia. _Implementation note: Guided comparison questions with row highlighting. CSTA: E2-ALG-AF-01._
+Description: Students compare data from two different rows in a table and answer questions about differences or similarities (e.g., "Who has more points, Sam or Lia?").
 
 Dependencies:
 * T10.G2.01: Build a simple data table from a list
@@ -9986,10 +9991,11 @@ Dependencies:
 
 
 
+
 ID: T10.G2.04
 Topic: T10 – Lists & Tables
 Skill: Sort table rows by a column value
-Description: **Student task:** Rearrange rows in a simple table to put them in order by one column (e.g., from most to least points). **Visual scenario:** 3-row table: (Sam, 5 points), (Lia, 9 points), (Max, 3 points). Instruction: "Arrange from most to least points." **Correct answer:** Lia (9), Sam (5), Max (3). _Implementation note: Drag-drop row reordering with visual order indicators. CSTA: E2-ALG-AF-01._
+Description: Students rearrange rows in a simple table to put them in order by one column (e.g., "arrange students from most to least points").
 
 Dependencies:
 * T10.G2.01: Build a simple data table from a list
@@ -9998,13 +10004,15 @@ Dependencies:
 
 
 
+
 ID: T10.G2.05
 Topic: T10 – Lists & Tables
 Skill: Find all rows that match a rule
-Description: **Student task:** Look at a table and mark all rows where a specific column matches a condition. **Visual scenario:** 5-row table with student scores. Question: "Mark all students with 10 or more points." Rows: (Sam, 8), (Lia, 12), (Max, 15), (Eva, 6), (Tom, 10). **Correct answer:** Mark Lia, Max, and Tom rows. _Implementation note: Multi-select row marking with condition indicator. CSTA: E2-ALG-AF-01._
+Description: Students identify and mark all rows in a table where a specific column matches a condition (e.g., "Find all students with 10 or more points").
 
 Dependencies:
 * T10.G2.01: Build a simple data table from a list
+
 
 
 
@@ -10012,7 +10020,7 @@ Dependencies:
 ID: T10.G2.06
 Topic: T10 – Lists & Tables
 Skill: Count rows that match a condition
-Description: **Student task:** Look at a table and count how many rows satisfy a condition. **Visual scenario:** 5-row table with student scores: (Sam, 8), (Lia, 12), (Max, 15), (Eva, 6), (Tom, 10). Question: "How many students scored more than 5?" **Correct answer:** 5 students (all of them: Sam 8, Lia 12, Max 15, Eva 6, Tom 10 are all greater than 5). _Implementation note: Count-focused activity with condition highlighting. CSTA: E2-ALG-AF-01._
+Description: Students count how many rows in a table satisfy a condition (e.g., "How many students scored more than 5?").
 
 Dependencies:
 * T10.G2.05: Find all rows that match a rule
@@ -10020,10 +10028,11 @@ Dependencies:
 
 
 
+
 ID: T10.G2.07
 Topic: T10 – Lists & Tables
 Skill: Identify real-world examples of lists
-Description: Students transition from picture tables to recognizing that code can have "lists" - ordered collections of items that the computer stores and uses. **Student task:** Look at picture scenarios and tap which ones represent "lists" (ordered collections). **Visual scenario:** Four pictures: (A) shopping list on paper, (B) single ball, (C) music playlist on phone, (D) leaderboard with ranked players. **Correct answer:** Tap A, C, and D (all are ordered collections). _Implementation note: Multi-select concept recognition activity. CSTA: E2-ALG-AF-01._
+Description: Students transition from picture tables to recognizing that code can have "lists" - ordered collections of items that the computer stores and uses. They match real-world examples (shopping list, playlist, leaderboard) to the concept of a code list by selecting which picture scenarios represent lists.
 
 Dependencies:
 * T10.G2.01: Build a simple data table from a list
@@ -10031,7 +10040,7 @@ Dependencies:
 
 ---
 
-## GRADE 3 (13 skills)
+## GRADE 3 (12 skills)
 
 
 
@@ -10039,7 +10048,7 @@ Dependencies:
 ID: T10.G3.01.01
 Topic: T10 – Lists & Tables
 Skill: Create a new list variable
-Description: Students create a new list variable in the Variables palette by clicking "Make a List" and giving it a descriptive name (e.g., "fruits", "scores", "inventory"). Lists are containers that can hold multiple values, unlike regular variables which hold only one value. Students recognize that this is the first step before any list operations can be performed, and verify the empty list appears in the Variables palette.
+Description: Students create a new list variable in the Variables palette by clicking "Make a List" and giving it a descriptive name (e.g., "fruits", "scores", "inventory"). They understand that lists are containers that can hold multiple values, unlike regular variables which hold only one value. This is the first step before any list operations can be performed.
 
 Dependencies:
 * T09.G3.01.01: Create a new variable
@@ -10047,10 +10056,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.01.02
 Topic: T10 – Lists & Tables
 Skill: Add an item to the end of a list
-Description: Students use the `add [item] to [list]` block to add items one at a time to the end of a list. They observe how each item is added in sequence (1, 2, 3...) and note that lists grow dynamically as items are added. Students practice adding 3-4 items and use the list monitor to verify the growing list.
+Description: Students use the `add [item] to [list]` block to add items one at a time to the end of a list. They observe how each item is added in sequence (1, 2, 3...) and understand that lists grow dynamically as items are added. They practice adding 3-4 items and use the list monitor to see the growing list.
 
 Dependencies:
 * T10.G3.01.01: Create a new list variable
@@ -10058,13 +10068,15 @@ Dependencies:
 
 
 
+
 ID: T10.G3.02
 Topic: T10 – Lists & Tables
 Skill: Read items from a list by position (index starts at 1)
-Description: Students use the `item (1) of [list]` block to retrieve specific items from a list by their position number (index). The first item is at position 1, second at position 2, etc. Students practice reading different positions and displaying or using the retrieved values, verifying the correct item is returned.
+Description: Students use the `item (1) of [list]` block to retrieve specific items from a list by their position number (index). They understand that the first item is at position 1, second at position 2, etc. Students practice reading different positions and displaying or using the retrieved values.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
+
 
 
 
@@ -10072,7 +10084,7 @@ Dependencies:
 ID: T10.G3.03
 Topic: T10 – Lists & Tables
 Skill: Get the length of a list
-Description: Students use the `length of [list]` block to find how many items are in a list. They observe that as items are added or removed, the length changes accordingly. This is essential for knowing the bounds when accessing list items and avoiding out-of-range errors.
+Description: Students use the `length of [list]` block to find how many items are in a list. They understand that as items are added or removed, the length changes. This is essential for knowing the bounds when accessing list items.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10080,10 +10092,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.04.01
 Topic: T10 – Lists & Tables
 Skill: Delete an item at a specific position
-Description: Students use the `delete (position) of [list]` block to remove an item from a specific position in the list. They observe how items after the deleted position shift down (e.g., item 3 becomes item 2) and verify that the list length decreases by 1. Students practice deleting items from different positions (beginning, middle, end) and predict the resulting list state.
+Description: Students use the `delete (position) of [list]` block to remove an item from a specific position in the list. They observe how items after the deleted position shift down (e.g., item 3 becomes item 2). They understand that the list length decreases by 1 and practice deleting items from different positions (beginning, middle, end).
 
 Dependencies:
 * T10.G3.02: Read items from a list by position (index starts at 1)
@@ -10092,10 +10105,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.04.02
 Topic: T10 – Lists & Tables
 Skill: Clear all items from a list
-Description: Students use the `delete all of [list]` block to remove every item from a list at once, returning it to empty. Clearing is useful for starting fresh or resetting for a new game. Students observe that after clearing, the list length becomes 0 and verify the list monitor shows an empty list.
+Description: Students use the `delete all of [list]` block to remove every item from a list at once, returning it to empty. They understand when clearing is useful (starting fresh, resetting for a new game) and observe that after clearing, the list length becomes 0.
 
 Dependencies:
 * T10.G3.04.01: Delete an item at a specific position
@@ -10104,10 +10118,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.05
 Topic: T10 – Lists & Tables
 Skill: Loop through each item in a list
-Description: Students use the `for each [item] in [list]` block to automatically visit every item in sequence. Unlike counted repeat loops where you specify a number of repetitions, this block iterates through all items regardless of list length. Students perform simple actions on each item (e.g., say each fruit name) and observe that every item is processed exactly once. Keep the list short (3-4 items) and actions simple.
+Description: Students use the `for each [item] in [list]` block to automatically visit every item in sequence. Unlike counted repeat loops where you specify a number of repetitions, this block iterates through all items regardless of list length. Students perform simple actions on each item (e.g., say each fruit name). Keep the list short (3-4 items) and actions simple.
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
@@ -10117,10 +10132,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.06
 Topic: T10 – Lists & Tables
 Skill: Check if a list contains a specific item
-Description: Students use the `[list] contains [item]?` block to check whether a value exists in a list. They combine this with conditionals to make decisions based on list membership (e.g., "if my fruits list contains 'apple' then say 'I have an apple!'"). Students test with items that are in the list and items that are not.
+Description: Students use the `[list] contains [item]?` block to check whether a value exists in a list. They use this in conditionals to make decisions based on list membership (e.g., "if my fruits list contains 'apple' then say 'I have an apple!'").
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10129,10 +10145,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.07
 Topic: T10 – Lists & Tables
 Skill: Count items in a list that match a condition
-Description: Students loop through a short list and count items that match a simple condition (e.g., "count numbers greater than 5" or "count items equal to 'apple'"). They use a counter variable that increments inside a conditional inside a loop. Students predict the count before running and verify their prediction matches the result.
+Description: Students loop through a short list and count items that match a simple condition (e.g., "count numbers greater than 5" or "count items equal to 'apple'"). They use a counter variable that increments inside a conditional inside a loop.
 
 Dependencies:
 * T10.G3.05: Loop through each item in a list
@@ -10142,10 +10159,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.08
 Topic: T10 – Lists & Tables
 Skill: Check if a list is empty before accessing
-Description: Students check whether a list is empty (has zero items) before trying to read from it, to avoid errors. They use the `length of [list] = 0` condition in an if-statement to guard list access. This defensive programming pattern prevents crashes when dealing with lists that might be empty.
+Description: Students check whether a list is empty (has zero items) before trying to read from it, to avoid errors. They use the `length of [list] = 0` condition.
 
 Dependencies:
 * T10.G3.03: Get the length of a list
@@ -10154,10 +10172,11 @@ Dependencies:
 
 
 
+
 ID: T10.G3.09
 Topic: T10 – Lists & Tables
 Skill: Increment or decrement a list item's value
-Description: Students use the `change item (position) of [list] by (amount)` block to modify numeric values in a list arithmetically (e.g., increase a player's score by 10, decrease health by 5). This block changes the value in place without needing to manually get-calculate-replace, making score updates and counters much simpler. For young learners who don't know negative numbers, the `reduce item (position) of [list] by (amount)` block provides a simpler way to decrease values. Students verify the change by reading the item before and after modification.
+Description: Students use the `change item (position) of [list] by (amount)` block to modify numeric values in a list arithmetically (e.g., increase a player's score by 10, decrease health by 5). They understand this changes the value without needing to manually get-calculate-replace, making score updates and counters much simpler. For young learners who don't know negative numbers, the `reduce item (position) of [list] by (amount)` block provides a simpler way to decrease values.
 
 Dependencies:
 * T10.G3.02: Read items from a list by position (index starts at 1)
@@ -10166,31 +10185,19 @@ Dependencies:
 
 
 
+
 ID: T10.G3.10
 Topic: T10 – Lists & Tables
 Skill: Display a list monitor on the stage
-Description: Students enable the list monitor by checking the checkbox next to the list name in the Variables palette. The monitor displays all items with their positions (1, 2, 3...) and updates in real-time as items are added, removed, or changed. Students use visual feedback to verify list state and debug their programs by watching the monitor while running code.
+Description: Enable the list monitor by checking the checkbox next to the list name in the Variables palette. Observe how the monitor displays all items with their positions (1, 2, 3...). Watch it update in real-time as items are added, removed, or changed. Visual feedback is essential for understanding list state and debugging.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
-
-
-
-
-ID: T10.G3.11
-Topic: T10 – Lists & Tables
-Skill: Predict and trace list changes step by step
-Description: Students trace through a short sequence of list operations (3-5 blocks) and predict the final state of the list. Given blocks like: create list → add "apple" → add "banana" → delete item 1 → add "cherry", students write down what the list contains after each step and predict the final result ["banana", "cherry"]. This builds mental models of how lists work and prepares students for debugging. Students verify predictions by running the code and comparing actual vs expected results.
-
-Dependencies:
-* T10.G3.01.02: Add an item to the end of a list
-* T10.G3.04.01: Delete an item at a specific position
-* T10.G3.10: Display a list monitor on the stage
 
 
 ---
 
-## GRADE 4 (29 skills)
+## GRADE 4 (28 skills)
 
 
 
@@ -10202,6 +10209,7 @@ Description: Students use the `item # of [value] in [list]` block to find the po
 
 Dependencies:
 * T10.G3.02: Read items from a list by position (index starts at 1)
+
 
 
 
@@ -10219,14 +10227,16 @@ Dependencies:
 
 
 
+
 ID: T10.G4.02
 Topic: T10 – Lists & Tables
 Skill: Store and retrieve parallel list data
-Description: Students use two lists in parallel (e.g., "playerNames" and "playerScores") where items at the same index are related. They add items to both lists together and use the same index to retrieve matching data (e.g., "the player at index 2 in names has the score at index 2 in scores"). Students recognize that keeping parallel lists synchronized is critical—adding to one requires adding to the other at the same position.
+Description: Students use two lists in parallel (e.g., "playerNames" and "playerScores") where items at the same index are related. They add items to both lists together and use the same index to retrieve matching data (e.g., "the player at index 2 in names has the score at index 2 in scores").
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
 * T10.G3.02: Read items from a list by position (index starts at 1)
+
 
 
 
@@ -10234,11 +10244,12 @@ Dependencies:
 ID: T10.G4.03
 Topic: T10 – Lists & Tables
 Skill: Insert an item at a specific position in a list
-Description: Students use the `insert [item] at (position) of [list]` block to add items at the beginning, middle, or end of a list. They observe how existing items shift to higher indices to make room and verify the new item appears at the correct position. Students practice inserting at position 1 (prepend), at length+1 (append), and at middle positions.
+Description: Students use the `insert [item] at (position) of [list]` block to add items at the beginning, middle, or end of a list. They understand how existing items shift to make room and practice inserting at specific positions.
 
 Dependencies:
 * T10.G3.02: Read items from a list by position (index starts at 1)
 * T10.G3.03: Get the length of a list
+
 
 
 
@@ -10246,7 +10257,7 @@ Dependencies:
 ID: T10.G4.04
 Topic: T10 – Lists & Tables
 Skill: Replace an item in a list
-Description: Students use the `replace item (position) of [list] with [value]` block to update an existing item without changing the list length. They practice replacing items based on position and recognize the difference between replacing (overwrites in place, same length) and inserting (shifts existing items, length increases).
+Description: Students use the `replace item (position) of [list] with [value]` block to update an existing item without changing the list length. They practice replacing items based on position and understand the difference between replacing (overwrites in place) and inserting (shifts existing items).
 
 Dependencies:
 * T10.G3.02: Read items from a list by position (index starts at 1)
@@ -10254,10 +10265,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.05
 Topic: T10 – Lists & Tables
 Skill: Use built-in blocks to sort a list
-Description: Students use CreatiCode's `sort list [list] from [large to small/small to large]` block to sort numeric or alphabetic lists. They observe how the order changes and note that sorting rearranges items by value. Students verify the sort by reading the first and last items to confirm the order direction.
+Description: Students use CreatiCode's `sort list [list] from [large to small/small to large]` block to sort numeric or alphabetic lists. They observe how the order changes and understand that sorting rearranges items by value.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10265,10 +10277,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.06.01
 Topic: T10 – Lists & Tables
 Skill: Find the smallest value in a list
-Description: Students use the `[smallest v] of list [list]` block to find the minimum value in a numeric list. This block scans all items and returns the lowest value. Students practice with different lists and predict which value will be returned before running the code.
+Description: Students use the `[smallest v] of list [list]` block to find the minimum value in a numeric list. They understand this scans all items and returns the lowest value. They practice with different lists and predict which value will be returned.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10277,13 +10290,15 @@ Dependencies:
 
 
 
+
 ID: T10.G4.06.02
 Topic: T10 – Lists & Tables
 Skill: Find the largest value in a list
-Description: Students use the `[largest v] of list [list]` block to find the maximum value in a numeric list. This block scans all items and returns the highest value. Students compare this to finding smallest and recognize when to use min vs max operations.
+Description: Students use the `[largest v] of list [list]` block to find the maximum value in a numeric list. They understand this scans all items and returns the highest value. They compare this to finding smallest and understand min/max concepts.
 
 Dependencies:
 * T10.G4.06.01: Find the smallest value in a list
+
 
 
 
@@ -10291,7 +10306,7 @@ Dependencies:
 ID: T10.G4.06.03
 Topic: T10 – Lists & Tables
 Skill: Calculate the sum of all values in a list
-Description: Students use the `[sum v] of list [list]` block to add up all numeric values in a list. This is useful for computing totals (total points, total money). Students verify results by manual addition with small lists to build confidence in the block's behavior.
+Description: Students use the `[sum v] of list [list]` block to add up all numeric values in a list. They understand this is useful for totals (total points, total money) and verify results by manual addition with small lists.
 
 Dependencies:
 * T10.G4.06.01: Find the smallest value in a list
@@ -10299,10 +10314,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.06.04
 Topic: T10 – Lists & Tables
 Skill: Calculate the average of values in a list
-Description: Students use the `[average v] of list [list]` block to find the mean of all numeric values. Average represents a typical/central value and equals sum divided by length. Students apply this to practical scenarios like grade averages, temperature averages, and game score averages.
+Description: Students use the `[average v] of list [list]` block to find the mean of all numeric values. They understand average represents typical/middle value and relate it to sum divided by length. They use this for grade averages, temperature averages, etc.
 
 Dependencies:
 * T10.G3.03: Get the length of a list
@@ -10311,10 +10327,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.06.05
 Topic: T10 – Lists & Tables
 Skill: Find the median value in a list
-Description: Students use the `[median v] of list [list]` block to find the middle value when sorted. Median differs from average because it is less affected by outliers. Students identify scenarios where median is more useful than average (income data, test scores with extreme values) by comparing both measures on lists with outliers.
+Description: Students use the `[median v] of list [list]` block to find the middle value when sorted. They understand median differs from average (less affected by outliers) and identify when median is more useful than average (income, test scores with outliers).
 
 Dependencies:
 * T10.G4.05: Use built-in blocks to sort a list
@@ -10323,10 +10340,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.07
 Topic: T10 – Lists & Tables
 Skill: Find the maximum or minimum item in a list manually
-Description: Students write a loop to find the largest or smallest item in a numeric list without using built-in blocks. They initialize a "best so far" variable with the first item, loop through remaining items comparing each to the current best, and update the best when a better value is found. Students trace through a 5-item list and track how the "best so far" variable changes. This manual algorithm builds algorithmic thinking for aggregation operations.
+Description: Students write a loop to find the largest or smallest item in a numeric list without using built-in blocks. They initialize a "best so far" variable with the first item, loop through remaining items comparing each to the current best, and update when a better value is found. This manual algorithm builds understanding of how aggregation works internally.
 
 Dependencies:
 * T10.G3.05: Loop through each item in a list
@@ -10336,10 +10354,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.08
 Topic: T10 – Lists & Tables
 Skill: Filter items from a list based on a condition
-Description: Students loop through a list and build a new filtered list containing only items that satisfy a condition (e.g., "keep only scores > 50"). They create an empty result list, use conditionals inside a loop to check each item, and add matching items to the result list. Students verify the filtered list contains exactly the items that match the condition.
+Description: Students loop through a list and build a new filtered list containing only items that satisfy a condition (e.g., "keep only scores > 50"). They create an empty result list, use conditionals inside a loop to check each item, and add matching items to the result list.
 
 Dependencies:
 * T10.G3.05: Loop through each item in a list
@@ -10349,10 +10368,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.09
 Topic: T10 – Lists & Tables
 Skill: Build a high score list with parallel lists
-Description: Students create a leaderboard using two parallel lists (names and scores). When a new score is added, they find the correct position to insert it (to keep scores sorted in descending order) and insert both the name and score at matching positions. Students verify that the leaderboard remains sorted after each insertion.
+Description: Students create a leaderboard using two parallel lists (names and scores). When a new score is added, they find the correct position to insert it (to keep scores sorted) and insert both the name and score at matching positions.
 
 Dependencies:
 * T10.G4.01.02: Implement manual linear search with loop
@@ -10362,10 +10382,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.10
 Topic: T10 – Lists & Tables
 Skill: Swap two items in a list
-Description: Students swap the positions of two items in a list using a temporary variable. They store one item in the temp variable, replace it with the other item, then put the temp value in the second position. Students trace through the three-step swap process and verify both items exchange positions correctly. This pattern is a building block for sorting algorithms.
+Description: Students swap the positions of two items in a list using a temporary variable. They store one item temporarily, replace it with the other, then put the temporary value in the second position. This is a building block for sorting algorithms.
 
 Dependencies:
 * T10.G4.04: Replace an item in a list
@@ -10374,10 +10395,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.11.01
 Topic: T10 – Lists & Tables
 Skill: Copy one list to another (replacing contents)
-Description: Students use the `copy [list1] to [list2]` block to duplicate a list. This REPLACES all items in list2 with items from list1, so list2's original contents are lost. After copying, both lists have identical items but remain separate (changing one doesn't affect the other). Students verify independence by modifying one list and confirming the other remains unchanged.
+Description: Students use the `copy [list1] to [list2]` block to duplicate a list. They understand this REPLACES all items in list2 with items from list1, so list2's original contents are lost. After copying, both lists have identical items but remain separate (changing one doesn't affect the other).
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10386,10 +10408,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.11.02
 Topic: T10 – Lists & Tables
 Skill: Append one list to another (adding to end)
-Description: Students use the `append [list1] to [list2]` block to add all items from list1 to the END of list2. This PRESERVES list2's original items and adds list1's items below them. Students compare append vs. copy and identify when each is appropriate: copy for backup/duplication, append for combining datasets.
+Description: Students use the `append [list1] to [list2]` block to add all items from list1 to the END of list2. They understand this PRESERVES list2's original items and adds list1's items below them. They compare append vs. copy and identify when each is appropriate.
 
 Dependencies:
 * T10.G4.11.01: Copy one list to another (replacing contents)
@@ -10397,10 +10420,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.12
 Topic: T10 – Lists & Tables
 Skill: Split a text string into a list
-Description: Students use the `set [list] to split of [text] with splitter [delimiter]` block to convert text into a list of items (e.g., split "apple,banana,orange" by "," to get a list of three fruits). Students experiment with different delimiters (comma, space, newline) and verify the resulting list contains the expected items. This introduces text processing and list creation from external data.
+Description: Students use the `set [list] to split of [text] with splitter [delimiter]` block to convert text into a list of items (e.g., split "apple,banana,orange" by "," to get a list of three fruits). This introduces text processing and list creation from external data.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10409,10 +10433,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.13
 Topic: T10 – Lists & Tables
 Skill: Join list items into a text string
-Description: Students use the `join [list] into text with [delimiter]` block to combine list items into a single text string (e.g., join ["red", "green", "blue"] with ", " to get "red, green, blue"). This is the inverse of split and is useful for displaying list contents or saving list data as text.
+Description: Students use the `join [list] into text with [delimiter]` block to combine list items into a single text string (e.g., join ["red", "green", "blue"] with ", " to get "red, green, blue"). This is useful for displaying or saving list data.
 
 Dependencies:
 * T10.G4.12: Split a text string into a list
@@ -10421,10 +10446,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.14
 Topic: T10 – Lists & Tables
 Skill: Reverse the order of items in a list
-Description: Students use the `reverse [list]` block to flip item order (first becomes last, last becomes first). They observe the list monitor to see position changes. Reversing is useful for converting ascending to descending order, reversing time sequences, or inverting rankings.
+Description: Students use the `reverse [list]` block to flip item order (first becomes last, last becomes first). They observe the list monitor to see position changes and understand when reversing is useful: converting ascending to descending order, reversing time sequences, or inverting rankings.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10433,10 +10459,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.15
 Topic: T10 – Lists & Tables
 Skill: Randomly shuffle items in a list
-Description: Students use the `reshuffle [list] randomly` block to randomly rearrange all items. Each shuffle produces a different random order. Applications include shuffling cards, randomizing quiz questions, or creating random starting positions. Students note that reshuffling destroys the original order (make a copy first if needed).
+Description: Students use the `reshuffle [list] randomly` block to randomly rearrange all items. Each shuffle produces a different random order. They use this for games: shuffling cards, randomizing quiz questions, or creating random starting positions. They understand that reshuffling destroys the original order.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10444,10 +10471,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.16.01
 Topic: T10 – Lists & Tables
 Skill: Generate a list of random numbers with options
-Description: Students use the `set [list] to (N) random whole numbers between (min) and (max) [no repetition/allow repetition]` block to populate a list with random values. They select whether to allow duplicate numbers and apply this for generating test data, simulating dice rolls, or creating random scores.
+Description: Students use the `set [list] to (N) random whole numbers between (min) and (max) [no repetition/allow repetition]` block to populate a list with random values. They choose whether to allow duplicate numbers and use this for generating test data, simulating dice rolls, or creating random scores.
 
 Dependencies:
 * T10.G3.01.02: Add an item to the end of a list
@@ -10456,10 +10484,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.16.02
 Topic: T10 – Lists & Tables
 Skill: Generate seeded random list
-Description: Students use the seeded random block `set [list] to (N) random numbers with seed (SEED)` which generates the same sequence when using the same seed. This enables reproducible randomness for games (same level layout with same seed) and testing scenarios requiring consistent random data. Students verify that the same seed always produces the same list.
+Description: Students explore the seeded random block `set [list] to (N) random numbers with seed (SEED)` which generates the same sequence when using the same seed. They understand this is useful for reproducible randomness in games (same level layout with same seed) and testing scenarios that need consistent random data.
 
 Dependencies:
 * T10.G4.16.01: Generate a list of random numbers with options
@@ -10467,10 +10496,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.17
 Topic: T10 – Lists & Tables
 Skill: Delete an item from a list by value
-Description: Students use the `delete value [item] from [list]` block to remove the first occurrence of a specific value (e.g., delete "apple" from the fruits list). This finds and removes the item without needing to know its position, which differs from deleting by index. Students test with items that exist (removes first match) and items that don't exist (no change).
+Description: Students use the `delete value [item] from [list]` block to remove the first occurrence of a specific value (e.g., delete "apple" from the fruits list). They understand this finds and removes the item without needing to know its position, which is different from deleting by index.
 
 Dependencies:
 * T10.G3.04.01: Delete an item at a specific position
@@ -10479,10 +10509,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.18
 Topic: T10 – Lists & Tables
 Skill: Loop through list indices
-Description: Students use the `for each index [i] in [list]` block to iterate through list positions (1, 2, 3...) instead of values. This is necessary when they need to know both the position and the value, or when they need to modify items while looping. Students compare index-based iteration to value-based iteration and identify use cases for each.
+Description: Students use the `for each index [i] in [list]` block to iterate through list positions (1, 2, 3...) instead of values. They use this when they need to know both the position and the value, or when they need to modify items while looping.
 
 Dependencies:
 * T10.G3.02: Read items from a list by position (index starts at 1)
@@ -10491,10 +10522,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.19
 Topic: T10 – Lists & Tables
 Skill: Find an item containing a substring
-Description: Students use the `# of item containing [substring] in [list]` block to find the first list item that includes a partial match (e.g., find first name containing "son" in a names list). Students compare exact matching (T10.G4.01.01) to partial matching and identify when each is appropriate.
+Description: Students use the `# of item containing [substring] in [list]` block to find the first list item that includes a partial match (e.g., find first name containing "son" in a names list). They compare this to exact matching and understand when partial matching is useful.
 
 Dependencies:
 * T10.G4.01.01: Find an item's position using built-in block
@@ -10503,10 +10535,11 @@ Dependencies:
 
 
 
+
 ID: T10.G4.20
 Topic: T10 – Lists & Tables
 Skill: Select multiple items from a list by criteria
-Description: Students use the `insert (N) [largest/smallest/random] items from [list1] into [list2]` block to extract top/bottom/random items efficiently. Applications include leaderboards (top 10 scores), random sampling (pick 5 random quiz questions), or filtering extremes (3 coldest days). Students verify results by checking that list2 contains exactly N items matching the specified criteria.
+Description: Students use the `insert (N) [largest/smallest/random] items from [list1] into [list2]` block to extract top/bottom/random items efficiently. They use this for leaderboards (top 10 scores), random sampling (pick 5 random quiz questions), or filtering extremes (3 coldest days).
 
 Dependencies:
 * T10.G4.05: Use built-in blocks to sort a list
@@ -10514,22 +10547,9 @@ Dependencies:
 * T10.G4.11.02: Append one list to another (adding to end)
 
 
-
-
-ID: T10.G4.21
-Topic: T10 – Lists & Tables
-Skill: Extract a sublist from a range of positions
-Description: Students create a new list containing items from a specific range within an existing list. Using a loop from start position to end position, they read each item from the source list and add it to a new result list. For example, to extract items 3-5 from a 10-item list, they loop from 3 to 5, reading and adding each item. This pattern is useful for pagination (show items 11-20), processing chunks of data, or splitting a list into smaller pieces.
-
-Dependencies:
-* T10.G3.02: Read items from a list by position (index starts at 1)
-* T10.G3.01.02: Add an item to the end of a list
-* T07.G3.01: Use a counted repeat loop
-
-
 ---
 
-## GRADE 5 (22 skills)
+## GRADE 5 (21 skills)
 
 
 
@@ -10545,13 +10565,15 @@ Dependencies:
 
 
 
+
 ID: T10.G5.02
 Topic: T10 – Lists & Tables
 Skill: Create a table and add columns
-Description: Students create an empty table variable and use `add column [name] at position (n) to table [table]` to define the table structure. Columns must be created before data can be added to them, and the position parameter controls column order (1 = first column, 2 = second, etc.). Students verify the table structure by examining the table monitor.
+Description: Students create an empty table variable and use `add column [name] at position (n) to table [table]` to define the table structure. They understand that columns must be created before data can be added to them, and they can control column order using the position parameter (1 = first column, 2 = second, etc.).
 
 Dependencies:
-* T10.G5.01: Identify table structure (rows, columns, cells)
+* T10.G5.01: Understand table structure (rows, columns, cells)
+
 
 
 
@@ -10567,6 +10589,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.04
 Topic: T10 – Lists & Tables
 Skill: Read a cell value from a table
@@ -10574,6 +10597,7 @@ Description: Students use the `item at row (n) column [name] of table [table]` b
 
 Dependencies:
 * T10.G5.03: Add rows of data to a table
+
 
 
 
@@ -10589,6 +10613,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.06.01
 Topic: T10 – Lists & Tables
 Skill: Get the number of rows in a table
@@ -10596,6 +10621,7 @@ Description: Students use the `row count of table [table]` block to find how man
 
 Dependencies:
 * T10.G5.04: Read a cell value from a table
+
 
 
 
@@ -10608,6 +10634,7 @@ Description: Students use the `row # of [value] in column [name] in table [table
 Dependencies:
 * T10.G5.06.01: Get the number of rows in a table
 * T10.G4.01.01: Find an item's position using built-in block
+
 
 
 
@@ -10625,6 +10652,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.08
 Topic: T10 – Lists & Tables
 Skill: Use built-in table aggregate blocks
@@ -10637,6 +10665,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.09.01
 Topic: T10 – Lists & Tables
 Skill: Delete a single row by index
@@ -10644,6 +10673,7 @@ Description: Students use the `delete row (n) of table [table]` block to remove 
 
 Dependencies:
 * T10.G5.06.01: Get the number of rows in a table
+
 
 
 
@@ -10660,6 +10690,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.09.03
 Topic: T10 – Lists & Tables
 Skill: Clear all rows from a table
@@ -10667,6 +10698,7 @@ Description: Students use the `delete all rows from table [table]` block to remo
 
 Dependencies:
 * T10.G5.09.01: Delete a single row by index
+
 
 
 
@@ -10684,6 +10716,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.11.01
 Topic: T10 – Lists & Tables
 Skill: Add a column at a specific position
@@ -10691,6 +10724,7 @@ Description: Students use the `add column [name] at position (n) to table [table
 
 Dependencies:
 * T10.G5.02: Create a table and add columns
+
 
 
 
@@ -10707,6 +10741,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.11.03
 Topic: T10 – Lists & Tables
 Skill: Remove all columns from a table
@@ -10714,6 +10749,7 @@ Description: Students use the `delete all columns from table [table]` block to c
 
 Dependencies:
 * T10.G5.11.02: Delete a single column
+
 
 
 
@@ -10731,6 +10767,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.13
 Topic: T10 – Lists & Tables
 Skill: Insert a row at a specific position
@@ -10743,6 +10780,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.14
 Topic: T10 – Lists & Tables
 Skill: Replace an entire row in a table
@@ -10751,6 +10789,7 @@ Description: Students use `replace row (n) of table [table] with: [cell1] [cell2
 Dependencies:
 * T10.G5.05: Update a cell value in a table
 * T10.G5.03: Add rows of data to a table
+
 
 
 
@@ -10768,6 +10807,7 @@ Dependencies:
 
 
 
+
 ID: T10.G5.16
 Topic: T10 – Lists & Tables
 Skill: Find a row by partial match
@@ -10780,10 +10820,11 @@ Dependencies:
 
 
 
+
 ID: T10.G5.17
 Topic: T10 – Lists & Tables
 Skill: Increment or decrement a table cell value
-Description: Students use `change item at row (n) column [name] of table [table] by (amount)` to modify numeric cell values arithmetically (e.g., increase a player's score by 10, decrease inventory by 3). For young learners, the `reduce item at row (n) column [name] of table [table] by (amount)` block provides a simpler way to decrease values without negative numbers. Students compare this to replacement (T10.G5.05) and recognize when arithmetic modification is more efficient than get-calculate-replace patterns.
+Description: Students use `change item at row (n) column [name] of table [table] by (amount)` to modify numeric cell values arithmetically (e.g., increase a player's score by 10, decrease inventory by 3). For young learners, the `reduce item at row (n) column [name] of table [table] by (amount)` block provides a simpler way to decrease values without negative numbers. They compare this to replacement (T10.G5.05) and understand when arithmetic modification is more efficient than get-calculate-replace patterns.
 
 Dependencies:
 * T10.G5.05: Update a cell value in a table
@@ -10793,33 +10834,20 @@ Dependencies:
 
 
 
+
 ID: T10.G5.18
 Topic: T10 – Lists & Tables
 Skill: Show and hide table monitors
-Description: Students use `show table [table]` and `hide table [table]` blocks to display or hide the table monitor on the stage. Applications include debugging programs by observing table state, showing results to users, or hiding implementation details during gameplay.
+Description: Students use `show table [table]` and `hide table [table]` blocks to display or hide the table monitor on the stage. They use this to debug their programs, show results to users, or hide implementation details.
 
 Dependencies:
 * T10.G5.02: Create a table and add columns
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
-
-
-ID: T10.G5.19
-Topic: T10 – Lists & Tables
-Skill: Build a filtered table manually using conditionals
-Description: Students create a new table containing only rows that match a specific condition by looping through the source table and using if-statements. For each row, they check if a column value meets a criterion (e.g., score > 80), and if so, add that row to a result table. This manual filtering approach builds the algorithmic thinking needed before using advanced built-in filter operations in Grade 6. Students trace through 5-7 sample rows and verify their filtered result contains exactly the matching rows.
-
-Dependencies:
-* T10.G5.06.01: Get the number of rows in a table
-* T10.G5.04: Read a cell value from a table
-* T10.G5.03: Add rows of data to a table
-* T08.G4.01: Combine two conditions with AND
-
-
 ---
 
-## GRADE 6 (11 skills)
+## GRADE 6 (8 skills)
 
 
 
@@ -10836,14 +10864,16 @@ Dependencies:
 
 
 
+
 ID: T10.G6.02
 Topic: T10 – Lists & Tables
 Skill: Filter table rows based on a condition
-Description: Students loop through a table and identify rows where a column value meets a condition (e.g., "find all students with score > 80"). They collect matching row numbers into a list or build a new filtered table containing only matching rows. Students verify their filter by checking that all rows in the result satisfy the condition.
+Description: Students loop through a table and identify rows where a column value meets a condition (e.g., "find all students with score > 80"). They either collect matching row numbers or build a new filtered table with matching rows.
 
 Dependencies:
-* T10.G5.19: Build a filtered table manually using conditionals
-* T08.G5.01: Use compound conditions with and/or/not
+* T10.G5.07: Loop through table rows to compute aggregates
+* T08.G4.01: Combine two conditions with AND
+
 
 
 
@@ -10855,6 +10885,7 @@ Description: Students use `copy table [t1] into [t2]` to duplicate a table and `
 
 Dependencies:
 * T10.G5.03: Add rows of data to a table
+
 
 
 
@@ -10871,6 +10902,7 @@ Dependencies:
 
 
 
+
 ID: T10.G6.05
 Topic: T10 – Lists & Tables
 Skill: Group data and compute aggregates per group
@@ -10879,6 +10911,7 @@ Description: Students use CreatiCode's `set table [result] to [method] of column
 Dependencies:
 * T10.G5.08: Use built-in table aggregate blocks
 * T10.G6.02: Filter table rows based on a condition
+
 
 
 
@@ -10895,6 +10928,7 @@ Dependencies:
 
 
 
+
 ID: T10.G6.07
 Topic: T10 – Lists & Tables
 Skill: Remove duplicate items from a list
@@ -10907,56 +10941,20 @@ Dependencies:
 
 
 
+
 ID: T10.G6.08
 Topic: T10 – Lists & Tables
 Skill: Shuffle table rows randomly
-Description: Students use the `reshuffle table [table] randomly` block to randomize row order while keeping row integrity (all columns in a row stay together). Applications include randomizing quiz questions stored in tables, shuffling game data, or anonymizing datasets for privacy.
+Description: Students use the `reshuffle table [table] randomly` block to randomize row order while keeping row integrity (all columns in a row stay together). They use this for randomizing quiz questions stored in tables, shuffling game data, or anonymizing datasets.
 
 Dependencies:
 * T10.G4.15: Randomly shuffle items in a list
 * T10.G5.03: Add rows of data to a table
 
 
-
-
-ID: T10.G6.09
-Topic: T10 – Lists & Tables
-Skill: Create and populate a nested list (2D array)
-Description: Students create a list where each item is itself a list, forming a 2D grid structure. For example, a 3x3 tic-tac-toe board can be represented as a list of 3 rows, where each row is a list of 3 cells. Students create the structure by making an outer list, then adding inner lists as items. They populate cells by first accessing the inner list, then setting items within it. This introduces the concept of nested data structures as an alternative to tables for grid-based data.
-
-Dependencies:
-* T10.G4.02: Store and retrieve parallel list data
-* T10.G4.03: Insert an item at a specific position in a list
-* T10.G4.04: Replace an item in a list
-
-
-
-
-ID: T10.G6.10
-Topic: T10 – Lists & Tables
-Skill: Access elements in a nested list using row and column indices
-Description: Students read and write values in a 2D list using two indices: first to select the row (outer list item), then to select the column (inner list item). For example, to get the value at row 2, column 3 of a grid, they use `item 3 of (item 2 of grid)`. Students practice navigating the nested structure and recognize that accessing requires two steps: outer index first, then inner index.
-
-Dependencies:
-* T10.G6.09: Create and populate a nested list (2D array)
-* T10.G4.18: Loop through list indices
-
-
-
-
-ID: T10.G6.11
-Topic: T10 – Lists & Tables
-Skill: Iterate through all elements of a 2D array with nested loops
-Description: Students use nested loops to visit every cell in a 2D array: the outer loop iterates through rows (1 to number of rows), and the inner loop iterates through columns (1 to number of columns in that row). For each cell, they perform an operation like summing values, finding the maximum, or checking for a condition. Students trace through a 3x3 grid and predict the order in which cells are visited (row-major order).
-
-Dependencies:
-* T10.G6.10: Access elements in a nested list using row and column indices
-* T07.G6.01: Trace nested loops with variable bounds
-
-
 ---
 
-## GRADE 7 (15 skills)
+## GRADE 7 (14 skills)
 
 
 
@@ -10968,6 +10966,7 @@ Description: Students use CreatiCode's `pivot [source] into [result] row groups 
 
 Dependencies:
 * T10.G6.05: Group data and compute aggregates per group
+
 
 
 
@@ -10984,6 +10983,7 @@ Dependencies:
 
 
 
+
 ID: T10.G7.03
 Topic: T10 – Lists & Tables
 Skill: Design a table schema for a real-world scenario
@@ -10991,6 +10991,7 @@ Description: Students design the structure of a table (what columns to include, 
 
 Dependencies:
 * T10.G5.02: Create a table and add columns
+
 
 
 
@@ -11007,10 +11008,11 @@ Dependencies:
 
 
 
+
 ID: T10.G7.05
 Topic: T10 – Lists & Tables
 Skill: Clean and transform table data
-Description: Students apply data cleaning transformations to improve data quality. Techniques include: trimming whitespace from text, standardizing text case (uppercase/lowercase), removing or replacing invalid characters, and standardizing formats (date formats, phone numbers). Students write loops to process each row and apply these transformations, verifying improvements by spot-checking cleaned values.
+Description: Students apply data cleaning transformations to improve data quality: trim whitespace from text, standardize text case (uppercase/lowercase), remove or replace invalid characters, and standardize formats (e.g., date formats, phone numbers). They write loops to process each row and apply these transformations. Example transformations: Trim whitespace (join/split by space), standardize case (lowercase/uppercase blocks), remove invalid characters (replace non-alphanumeric), handle missing values (replace empty with defaults like 0 or "N/A"), validate ranges (check if numeric values are within expected bounds).
 
 Dependencies:
 * T10.G5.05: Update a cell value in a table
@@ -11020,10 +11022,11 @@ Dependencies:
 
 
 
+
 ID: T10.G7.06
 Topic: T10 – Lists & Tables
 Skill: Validate and handle missing data in tables
-Description: Students detect data quality issues: missing values (empty cells), out-of-range values (e.g., age > 150), and invalid data types (text in numeric columns). They implement validation rules and handle issues by replacing missing values with defaults (e.g., 0 or "N/A"), deleting invalid rows, or marking rows for manual review. Students report the count of issues found and fixed.
+Description: Students detect data quality issues: missing values (empty cells), out-of-range values (e.g., age > 150), and invalid data types (text in numeric columns). They implement validation rules and handle issues by: replacing missing values with defaults (e.g., 0 or "N/A"), deleting invalid rows, or marking rows for manual review.
 
 Dependencies:
 * T10.G7.05: Clean and transform table data
@@ -11033,10 +11036,11 @@ Dependencies:
 
 
 
+
 ID: T10.G7.07
 Topic: T10 – Lists & Tables
 Skill: Analyze a dataset to find patterns or outliers
-Description: Students examine a table of data and write code to find patterns (most frequent value, trends over time) or identify outliers (values much larger/smaller than typical). They combine aggregates, sorting, and conditionals to discover insights and report their findings with supporting evidence from the data.
+Description: Students examine a table of data and write code to find patterns (e.g., the most frequent value, trends over time) or identify outliers (values much larger/smaller than typical). They use aggregates, sorting, and conditionals to discover insights.
 
 Dependencies:
 * T10.G6.05: Group data and compute aggregates per group
@@ -11046,13 +11050,15 @@ Dependencies:
 
 
 
+
 ID: T10.G7.08
 Topic: T10 – Lists & Tables
 Skill: Use regex patterns to find items in lists
-Description: Students use regular expression patterns to find items in lists that match complex text patterns (e.g., "find all emails," "find all phone numbers," "find all codes starting with A"). They use CreatiCode's regex blocks to extract matching items into a new list and verify the pattern matches only intended items.
+Description: Students use regular expression patterns to find items in lists that match complex text patterns (e.g., "find all emails," "find all phone numbers," "find all codes starting with A"). They implement pattern matching using regex blocks if available or manual string checking.
 
 Dependencies:
 * T10.G4.08: Filter items from a list based on a condition
+
 
 
 
@@ -11069,6 +11075,7 @@ Dependencies:
 
 
 
+
 ID: T10.G7.10
 Topic: T10 – Lists & Tables
 Skill: Manage Google Sheets structure
@@ -11077,6 +11084,7 @@ Description: Students use `add sheet [name] to google sheet at URL [url]`, `remo
 Dependencies:
 * T10.G7.09: Read and write data with Google Sheets
 * T10.G5.11.01: Add a column at a specific position
+
 
 
 
@@ -11093,6 +11101,7 @@ Dependencies:
 
 
 
+
 ID: T10.G7.12
 Topic: T10 – Lists & Tables
 Skill: Export table data to a file
@@ -11101,6 +11110,7 @@ Description: Students use `export table [table] as [filename]` to save table dat
 Dependencies:
 * T10.G7.02: Import external data into a table
 * T10.G5.02: Create a table and add columns
+
 
 
 
@@ -11117,32 +11127,20 @@ Dependencies:
 
 
 
+
 ID: T10.G7.14
 Topic: T10 – Lists & Tables
 Skill: Use AI to analyze table data
-Description: Students use CreatiCode's AI blocks to ask questions about table data (e.g., "What are the key insights from this sales data?" or "Summarize the trends in this dataset"). Students formulate clear questions, interpret AI responses, and verify AI suggestions against actual data.
+Description: Students use CreatiCode's AI blocks to ask questions about table data (e.g., "What are the key insights from this sales data?" or "Summarize the trends in this dataset"). They learn how AI can assist with data analysis.
 
 Dependencies:
 * T10.G7.07: Analyze a dataset to find patterns or outliers
 * T10.G5.08: Use built-in table aggregate blocks
 
 
-
-
-ID: T10.G7.15
-Topic: T10 – Lists & Tables
-Skill: Implement stack operations (push and pop)
-Description: Students implement stack behavior using a list: push (add to end), pop (remove and return last item), and peek (read last item without removing). They use `add [item] to [stack]` for push, `item (length of [stack]) of [stack]` with `delete (length of [stack]) of [stack]` for pop, and recognize LIFO (Last-In-First-Out) behavior. Applications include undo functionality (push each action, pop to undo), expression evaluation, and backtracking algorithms. Students trace through a sequence of push/pop operations and predict the stack state after each.
-
-Dependencies:
-* T10.G4.03: Insert an item at a specific position in a list
-* T10.G3.04.01: Delete an item at a specific position
-* T10.G3.03: Get the length of a list
-
-
 ---
 
-## GRADE 8 (10 skills)
+## GRADE 8 (8 skills)
 
 
 
@@ -11159,6 +11157,7 @@ Dependencies:
 
 
 
+
 ID: T10.G8.02
 Topic: T10 – Lists & Tables
 Skill: Implement bubble sort algorithm step by step
@@ -11167,6 +11166,7 @@ Description: Students implement bubble sort by writing nested loops: the outer l
 Dependencies:
 * T10.G4.10: Swap two items in a list
 * T07.G6.01: Trace nested loops with variable bounds
+
 
 
 
@@ -11183,6 +11183,7 @@ Dependencies:
 
 
 
+
 ID: T10.G8.04
 Topic: T10 – Lists & Tables
 Skill: Build a simulation using table-based state
@@ -11191,6 +11192,7 @@ Description: Students create a simulation (e.g., a game with multiple entities, 
 Dependencies:
 * T10.G7.03: Design a table schema for a real-world scenario
 * T10.G5.07: Loop through table rows to compute aggregates
+
 
 
 
@@ -11207,6 +11209,7 @@ Dependencies:
 
 
 
+
 ID: T10.G8.06
 Topic: T10 – Lists & Tables
 Skill: Model relationships using multiple linked tables
@@ -11215,6 +11218,7 @@ Description: Students design and use multiple tables that reference each other (
 Dependencies:
 * T10.G8.01: Use nested loops to compare data across two tables
 * T10.G7.03: Design a table schema for a real-world scenario
+
 
 
 
@@ -11232,39 +11236,15 @@ Dependencies:
 
 
 
-ID: T10.G8.08.01
+
+ID: T10.G8.08
 Topic: T10 – Lists & Tables
-Skill: Implement binary search on sorted lists
-Description: Students implement binary search algorithm to find items in O(log n) time instead of O(n) linear search. They repeatedly divide the sorted list's search space in half: compare the middle element to the target, then search either the left half (if target is smaller) or right half (if target is larger). Students trace through the algorithm step-by-step, counting comparisons, and compare performance to linear search to demonstrate logarithmic efficiency gains. This introduces divide-and-conquer algorithmic thinking.
+Skill: Use advanced list operations for algorithm optimization
+Description: Students apply advanced list techniques to solve problems more efficiently than brute force approaches. They implement binary search on sorted lists to find items in O(log n) time instead of O(n) linear search by repeatedly dividing the search space in half. They use two-pointer techniques where pointers move from both ends toward the center to solve problems like finding pairs that sum to a target or removing duplicates from sorted lists. They apply sliding window algorithms to efficiently process contiguous subarrays by maintaining a window that slides through the data, useful for finding maximum sum subarrays, longest substrings, or moving averages. These techniques demonstrate how clever list manipulation can dramatically improve performance for common algorithmic patterns.
 
 Dependencies:
 * T10.G8.02: Implement bubble sort algorithm step by step
 * T09.G7.01: Compare computational efficiency of different approaches
-
-
-
-
-ID: T10.G8.08.02
-Topic: T10 – Lists & Tables
-Skill: Use two-pointer technique for list problems
-Description: Students apply two-pointer techniques where pointers move from both ends toward the center to solve problems efficiently. Common patterns: Finding pairs that sum to a target value (one pointer at start, one at end, move based on comparison), removing duplicates from sorted lists (slow and fast pointers), or checking palindromes (compare from both ends). Students implement at least one two-pointer algorithm, trace pointer movements, and understand how this technique avoids nested loops for certain problems.
-
-Dependencies:
-* T10.G8.08.01: Implement binary search on sorted lists
-* T09.G7.01: Compare computational efficiency of different approaches
-
-
-
-
-ID: T10.G8.08.03
-Topic: T10 – Lists & Tables
-Skill: Apply sliding window algorithms
-Description: Students use sliding window algorithms to efficiently process contiguous subarrays by maintaining a window that slides through the data. Common applications: finding maximum sum of k consecutive elements, longest substring without repeating characters, or moving averages. Implementation pattern: Initialize window with first k elements, slide window right by adding next element and removing leftmost element, track window state (sum, max, set of unique items), update result after each slide. Students understand how sliding window reduces O(n*k) to O(n) by reusing previous computations.
-
-Dependencies:
-* T10.G8.08.02: Use two-pointer technique for list problems
-* T09.G7.01: Compare computational efficiency of different approaches
-
 
 ---
 
@@ -11273,10 +11253,10 @@ Dependencies:
 
 ID: T11.GK.01
 Topic: T11 – Functions & Organization
-Skill: Circle picture cards that belong together
-Description: Students identify activities that naturally belong together as a group by circling related picture cards with colored markers. For example, in a picture sequence showing "get ready for school," they circle all the steps about eating breakfast (get bowl, pour cereal, add milk, eat) in blue and all the steps about getting dressed in green. This builds the foundational idea that actions can be organized into meaningful clusters.
+Skill: Group activities that belong together
+Description: Students identify activities that naturally belong together as a group. For example, in a picture sequence showing "get ready for school," they circle all the steps about eating breakfast (get bowl, pour cereal, add milk, eat) as one group and all the steps about getting dressed as another group. This builds the foundational idea that actions can be organized into meaningful clusters before introducing the concept of naming or reusing these groups.
 
-Assessment example: Given 12 picture cards showing a morning routine, students use colored circles to group related activities: breakfast steps in blue, getting dressed steps in green, brushing teeth steps in yellow. They explain why each group belongs together.
+Assessment example: Given 12 picture cards showing a morning routine, students use colored circles to group related activities: breakfast steps in blue, getting dressed steps in green, brushing teeth steps in yellow.
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -11289,13 +11269,13 @@ Dependencies:
 
 ID: T11.GK.02
 Topic: T11 – Functions & Organization
-Skill: Select a clear name for a picture card group
-Description: Students select a clear, descriptive name for a group of related picture cards from multiple choice options. After grouping activities together (like in T11.GK.01), they choose a name that describes what the whole group does. For example, a group of steps about mixing ingredients should be called "Make the Batter" rather than vague names like "Step 1" or "The First Part."
+Skill: Name a group of activities
+Description: Students practice giving a clear, descriptive name to a group of related activities. After grouping activities together (like in T11.GK.01), they choose a name that describes what the whole group does. For example, a group of steps about mixing ingredients might be called "Make the Batter" rather than vague names like "Step 1" or "The First Part."
 
-Assessment example: Given three groups of picture cards (1: wash hands, put on apron, get ingredients; 2: mix, stir, pour; 3: put in oven, set timer, wait), students select appropriate names from options: "Get Ready," "Make the Batter," and "Bake the Cake" (rejecting vague options like "First Things" or "More Stuff").
+Assessment example: Given three groups of picture cards (1: wash hands, put on apron, get ingredients; 2: mix, stir, pour; 3: put in oven, set timer, wait), students suggest appropriate names like "Get Ready," "Make the Batter," and "Bake the Cake."
 
 Dependencies:
-* T11.GK.01: Circle picture cards that belong together
+* T11.GK.01: Group activities that belong together
 
 ---
 
@@ -11304,13 +11284,13 @@ Dependencies:
 
 ID: T11.GK.03
 Topic: T11 – Functions & Organization
-Skill: Drag a named group card into a bigger picture plan
-Description: Students drag named group cards into slots in a larger picture plan to simplify instructions. For example, instead of listing all breakfast steps again, a morning routine uses a single "Do Breakfast" card. Students drag named cards like "Do Breakfast," "Get Dressed," and "Pack Backpack" into the correct slots. This introduces abstraction: once you name a group, you refer to it by that single name.
+Skill: Use a named group in a bigger plan
+Description: Students see how a named group of activities can be referenced by its name in a larger set of instructions. For example, instead of listing all breakfast steps again, a morning routine might just say "Do Breakfast" as one step. This introduces the core idea of abstraction: once you name a group, you can refer to the whole group by that single name.
 
-Assessment example: Given three named group cards ("Do Breakfast," "Get Dressed," "Pack Backpack") and a "Get Ready for School" plan with three empty slots, students drag each card into the correct slot to create a simplified 3-step plan.
+Assessment example: Students create a simplified "Get Ready for School" plan with just three steps: "Do Breakfast," "Get Dressed," "Pack Backpack," where each step represents a group of activities they previously organized.
 
 Dependencies:
-* T11.GK.02: Select a clear name for a picture card group
+* T11.GK.02: Name a group of activities
 
 ---
 
@@ -11319,10 +11299,8 @@ Dependencies:
 
 ID: T11.G1.01
 Topic: T11 – Functions & Organization
-Skill: Identify the main instruction set from picture cards
-Description: Students examine 2–3 short sets of picture‑based instructions (e.g., "how to set up the game," "how to decorate," "how to clean up") and tap on the set that tells everyone what to do overall for an activity. This builds the idea that some instructions are the main plan and others are helper tasks.
-
-Assessment example: Given three picture card sets for a birthday party, students tap on the "Run the Party" set (not "Set Up Decorations" or "Clean Up") as the main instructions that reference the other sets.
+Skill: Find the main set of instructions
+Description: Students look at 2–3 short sets of picture‑based instructions (e.g., "how to set up the game," "how to decorate," "how to clean up") and decide which one tells everyone what to do overall for an activity. This builds the idea that some instructions are the main plan and others are side tasks.
 
 Dependencies:
 * T01.GK.03: Find the first and last pictures
@@ -11333,13 +11311,11 @@ Dependencies:
 
 ID: T11.G1.02
 Topic: T11 – Functions & Organization
-Skill: Match picture step groups to clear titles
-Description: Students match each group of picture steps to a clear title that tells what it is for (e.g., "Getting Ready," "Playing the Game," "Clean‑Up Time"). They draw lines from picture groups to title labels, rejecting vague titles like "Stuff" or "Things to Do."
-
-Assessment example: Given three picture groups and six title options (three good, three vague), students draw lines connecting each group to its clear title, explaining why "Set Up the Game" is better than "Some Stuff."
+Skill: Give a clear title to a set of steps
+Description: Students practice giving each group of picture steps a clear title that tells what it is for (e.g., "Getting Ready," "Playing the Game," "Clean‑Up Time") instead of vague titles like "Stuff" or "Things to Do."
 
 Dependencies:
-* T11.G1.01: Identify the main instruction set from picture cards
+* T11.G1.01: Find the main set of instructions
 
 
 
@@ -11347,10 +11323,8 @@ Dependencies:
 
 ID: T11.G1.03
 Topic: T11 – Functions & Organization
-Skill: Match picture groups to their purpose descriptions
-Description: Students see 2–3 groups of picture instructions for a class routine and match each group to a simple purpose description by drawing lines. For example: "These steps get the classroom ready," "These steps are for playing," "These steps are for cleaning up." This strengthens the habit of explaining the role of each part of a plan.
-
-Assessment example: Given three picture groups for a class art project and three description cards, students draw lines matching each group to its purpose: "Get supplies" → "These steps gather what we need."
+Skill: Tell what each group of steps does
+Description: Students see 2–3 groups of picture instructions for a class routine and match each group to a simple description (e.g., "These steps get the classroom ready," "These steps are for playing," "These steps are for cleaning up"). This strengthens the habit of explaining the role of each part of a plan.
 
 Dependencies:
 * T03.GK.01: Tap picture cards to identify parts of a whole object
@@ -11361,13 +11335,11 @@ Dependencies:
 
 ID: T11.G1.04
 Topic: T11 – Functions & Organization
-Skill: Drag picture cards to split into two category boxes
-Description: Students drag picture cards from a long mixed list into two labeled category boxes (e.g., "Before the event" and "During the event," or "Adult jobs" and "Student jobs"). This mirrors splitting one big routine into smaller, organized parts.
-
-Assessment example: Given 8 picture cards for a school field trip and two boxes labeled "Before We Leave" and "At the Museum," students drag each card into the correct box.
+Skill: Split a long list of steps into two lists
+Description: Students are given a long mixed list of picture steps for a class event and asked to split them into two shorter lists (e.g., "Before the event" and "During the event," or "Adult jobs" and "Student jobs"). This mirrors splitting one big routine into smaller, organized parts.
 
 Dependencies:
-* T11.G1.01: Identify the main instruction set from picture cards
+* T11.G1.01: Find the main set of instructions
 
 
 
@@ -11375,13 +11347,13 @@ Dependencies:
 
 ID: T11.G1.05
 Topic: T11 – Functions & Organization
-Skill: Circle repeated activity groups in a picture sequence
-Description: Students examine a longer picture-based activity plan and circle each occurrence of the same group of actions that appears multiple times. For example, in a "classroom game" sequence, they circle all instances of "reset the game board" (put pieces back, shuffle cards, reset timer) that happen before each round. This builds recognition of repetition at the group level, not just single actions.
+Skill: Find repeated groups of activities
+Description: Students examine a longer picture-based activity plan and identify when the same group of actions appears multiple times. For example, in a "classroom game" sequence, they might notice that "reset the game board" (put pieces back, shuffle cards, reset timer) happens before each round. This builds recognition of repetition at the group level, not just single actions.
 
-Assessment example: Given a picture sequence for playing three rounds of a board game, students use colored circles to mark each occurrence of the "setup" activities that appear before each round, counting how many times the same group repeats.
+Assessment example: Given a picture sequence for playing three rounds of a board game, students circle the "setup" activities that appear before each round, recognizing that the same group of actions repeats.
 
 Dependencies:
-* T11.GK.03: Drag a named group card into a bigger picture plan
+* T11.GK.03: Use a named group in a bigger plan
 * T04.G1.01: Notice when steps repeat in a sequence
 
 ---
@@ -11391,14 +11363,14 @@ Dependencies:
 
 ID: T11.G1.06
 Topic: T11 – Functions & Organization
-Skill: Create a label card for repeated activity groups
-Description: Students create a label card for a group of activities that repeats, writing a clear name so they can refer to it instead of repeating the same steps multiple times. This introduces the practical benefit of naming: it saves time and reduces clutter.
+Skill: Create labels for repeated activity groups
+Description: Students create a label or title for a group of activities that repeats, so they can refer to it by name instead of drawing or listing the same steps multiple times. This introduces the practical benefit of naming: it saves time and reduces clutter when the same sequence is needed in multiple places.
 
-Assessment example: After identifying that "clean workspace" (wipe table, throw away trash, put supplies away) happens multiple times in an art project, students write "Clean Workspace" on a label card and explain where to place it in the sequence.
+Assessment example: After identifying that "clean workspace" (wipe table, throw away trash, put supplies away) happens multiple times in an art project, students create a "Clean Workspace" label card they can place in the sequence wherever needed.
 
 Dependencies:
-* T11.G1.05: Circle repeated activity groups in a picture sequence
-* T11.GK.02: Select a clear name for a picture card group
+* T11.G1.05: Find repeated groups of activities
+* T11.GK.02: Name a group of activities
 
 ---
 
@@ -11407,13 +11379,13 @@ Dependencies:
 
 ID: T11.G1.07
 Topic: T11 – Functions & Organization
-Skill: Replace repeated picture groups with label cards
-Description: Students simplify a complex picture-based plan by replacing repeated activity groups with their label cards. Where they previously had the full sequence of steps repeated, they now drag in a single label card. This demonstrates how abstraction reduces complexity and makes plans easier to read.
+Skill: Use a label to replace repeated activity groups
+Description: Students simplify a complex picture-based plan by replacing repeated activity groups with their labels. Where they previously had the full sequence of steps repeated, they now place just the label card. This demonstrates how abstraction reduces complexity and makes plans easier to read and follow.
 
-Assessment example: Students take a 20-step picture sequence for a class activity that has three repeated "clean up" sections and replace each occurrence with a single "Clean Up" label card, reducing the visible sequence to 14 steps plus a labeled definition box for "Clean Up."
+Assessment example: Students take a 20-step picture sequence for a class activity that has three repeated "clean up" sections and replace each with a single "Clean Up" label card, reducing the sequence to 14 steps plus the definition of "Clean Up."
 
 Dependencies:
-* T11.G1.06: Create a label card for repeated activity groups
+* T11.G1.06: Create labels for repeated activity groups
 
 ---
 
@@ -11422,13 +11394,13 @@ Dependencies:
 
 ID: T11.G1.08
 Topic: T11 – Functions & Organization
-Skill: Decide between one label or multiple similar labels
-Description: Students identify when activity groups are similar but not identical, deciding whether to create one shared label or multiple specific labels. For example, "Set Up for Game 1" and "Set Up for Game 2" involve similar activities but with different materials. This introduces the idea that sometimes you need multiple related groups rather than one group with variations.
+Skill: Recognize the need for different versions of similar groups
+Description: Students identify when activity groups are similar but not identical, requiring different labels. For example, "Set Up for Game 1" and "Set Up for Game 2" involve similar activities but with different materials. This introduces the idea that sometimes you need multiple related groups rather than one group with variations.
 
-Assessment example: Given a sequence for running two different classroom games, students compare the "setup" phases and decide whether to create "Setup Game 1" and "Setup Game 2" labels or find enough commonality for a single "Setup Game" label, explaining their reasoning.
+Assessment example: Given a sequence for running two different classroom games, students identify that both games have "setup" phases but decide whether to create "Setup Game 1" and "Setup Game 2" labels or find what's common enough for a single "Setup Game" label.
 
 Dependencies:
-* T11.G1.07: Replace repeated picture groups with label cards
+* T11.G1.07: Use a label to replace repeated activity groups
 
 ---
 
@@ -11437,10 +11409,8 @@ Dependencies:
 
 ID: T11.G2.01
 Topic: T11 – Functions & Organization
-Skill: Write a note card explaining a section's purpose
-Description: Students write a short note card and attach it near a group of picture steps to explain why that section is there (e.g., "These steps are to get ready," "These steps are to clean up"). This is an unplugged analogue of code comments.
-
-Assessment example: Given a picture plan with three sections, students write three note cards explaining each section's purpose and place them next to the appropriate groups.
+Skill: Add a note to explain a section of a plan
+Description: Students add a short note near a group of steps to explain why that section is there (e.g., "These steps are to get ready," "These steps are to clean up"). This is an unplugged analogue of commenting and documenting parts of a project.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -11451,13 +11421,11 @@ Dependencies:
 
 ID: T11.G2.02
 Topic: T11 – Functions & Organization
-Skill: Replace vague labels with clear descriptive titles
-Description: Students identify vague or unclear section titles in a plan (e.g., "Stuff," "More things") and replace them with clearer titles that match the steps underneath (e.g., "Set up chairs," "Decorate the room"). They cross out bad labels and write better ones.
-
-Assessment example: Given a plan with labels "Thing 1," "Other Stuff," and "Last Part," students examine each section's picture cards and rewrite the labels as "Gather Supplies," "Build the Project," and "Clean Up."
+Skill: Fix confusing labels on a plan
+Description: Students see a simple plan with section titles that are vague or unclear (e.g., "Stuff," "More things") and replace them with clearer titles that match the steps underneath (e.g., "Set up chairs," "Decorate the room"). This mirrors renaming confusing identifiers but stays at the level of everyday language.
 
 Dependencies:
-* T11.G1.02: Match picture step groups to clear titles
+* T11.G1.02: Give a clear title to a set of steps
 
 
 
@@ -11465,10 +11433,8 @@ Dependencies:
 
 ID: T11.G2.03
 Topic: T11 – Functions & Organization
-Skill: Edit section titles to follow a consistent style
-Description: Students review several section titles for one plan (e.g., "Set up," "Playing the game," "Clean up time!") and edit them to follow a similar style (for example, all starting with action words like "Set Up," "Play Game," "Clean Up"). This builds awareness of consistent naming.
-
-Assessment example: Given titles "Getting ready," "PLAY!!!", and "clean-up time," students rewrite all three in a consistent style: "Get Ready," "Play the Game," "Clean Up."
+Skill: Use the same style for section titles
+Description: Students review several section titles for one plan (e.g., "Set up," "Playing the game," "Clean up time!") and adjust or choose options so they all follow a similar style (for example, all starting with action words). This builds awareness of consistent naming without introducing code vocabulary.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -11479,10 +11445,8 @@ Dependencies:
 
 ID: T11.G2.04
 Topic: T11 – Functions & Organization
-Skill: Sort picture cards under category headings
-Description: Students see 2–3 headings (e.g., "Before class," "During class," "After class") and a mixed set of picture step cards, then drag each card under the heading where it belongs. This extends the Grade 1 idea of splitting lists into clearly labeled sections.
-
-Assessment example: Given headings "Morning," "Lunch," "Afternoon" and 9 mixed picture cards, students drag each card under the correct heading, creating three organized groups.
+Skill: Group related steps under a heading
+Description: Students see 2–3 headings (e.g., "Before class," "During class," "After class") and a mixed set of picture steps, then group each step under the heading where it belongs. This extends the Grade 1 idea of splitting lists into clearly labeled sections.
 
 Dependencies:
 * T03.G1.02: Drag part cards into function-based groups
@@ -11494,13 +11458,13 @@ Dependencies:
 
 ID: T11.G2.05
 Topic: T11 – Functions & Organization
-Skill: Label activity groups for clarity, not just repetition
-Description: Students decide whether to create labeled groups based on organization benefits, not just repetition. Some groups should be named and separated even if they only happen once, because they represent distinct phases. For example, "Check Safety Rules" might happen only once but deserves its own label for clarity.
+Skill: Identify when to create activity groups for organization
+Description: Students decide whether to group activities based on organization benefits, not just repetition. Some groups of activities should be named and separated even if they only happen once, because they represent distinct responsibilities or phases. For example, "Check Safety Rules" might happen only once at the start but deserves its own label for clarity.
 
-Assessment example: Given a field trip plan, students mark which activity groups should get labels: some because they repeat (like "count students"), others because they're important distinct phases (like "review safety rules" or "board the bus") even though they happen only once.
+Assessment example: Given a field trip plan, students identify which activity groups should get labels: some because they repeat (like "count students"), others because they're important distinct phases (like "review safety rules" or "board the bus") even though they happen only once.
 
 Dependencies:
-* T11.G1.08: Decide between one label or multiple similar labels
+* T11.G1.08: Recognize the need for different versions of similar groups
 * T03.G2.01: Choose subtasks for a simple project idea
 
 ---
@@ -11510,13 +11474,13 @@ Dependencies:
 
 ID: T11.G2.06
 Topic: T11 – Functions & Organization
-Skill: Organize a plan into 3-5 labeled groups
-Description: Students organize a moderately complex activity plan into 3-5 labeled groups that work together to accomplish the overall goal. They identify natural boundaries between groups and give each a clear name. This builds decomposition skills: breaking a large plan into coordinated, named pieces.
+Skill: Create multiple labeled groups that work together
+Description: Students organize a moderately complex activity plan into 3-5 labeled groups that work together to accomplish the overall goal. They identify natural boundaries between groups and give each a clear name. This builds decomposition skills: breaking a large plan into a coordinated set of smaller, named pieces.
 
-Assessment example: For a "make and serve snacks" activity, students create labels for: "Wash Hands," "Prepare Snacks," "Set Table," "Serve Snacks," "Clean Up," drawing boundaries between groups and explaining how each contributes to the whole activity.
+Assessment example: For a "make and serve snacks" activity, students create labels for: "Wash Hands," "Prepare Snacks," "Set Table," "Serve Snacks," "Clean Up," showing how each labeled group contributes to the whole activity.
 
 Dependencies:
-* T11.G2.05: Label activity groups for clarity, not just repetition
+* T11.G2.05: Identify when to create activity groups for organization
 * T03.G2.02: Drag subtask cards into type-based category boxes
 
 ---
@@ -11526,13 +11490,13 @@ Dependencies:
 
 ID: T11.G2.07
 Topic: T11 – Functions & Organization
-Skill: Draw arrows showing which groups must happen first
-Description: Students draw arrows between labeled groups to show when one must happen before another, and identify groups that can happen in any order. They use simple language like "you must do Wash Hands before Prepare Snacks" or "Set Table can happen before or after Prepare Snacks."
+Skill: Explain dependencies between labeled groups
+Description: Students identify and explain when one labeled group must happen before another, and when groups can happen in any order. They use simple language like "you must do Wash Hands before Prepare Snacks" or "Set Table can happen before or after Prepare Snacks." This builds understanding of dependencies and sequencing at a higher level of abstraction.
 
-Assessment example: Given 5 labeled activity groups for a class party, students draw arrows showing dependencies (e.g., "Set Up" → "Play Games" → "Clean Up") and circle groups that can happen in any order, explaining their reasoning.
+Assessment example: Given 5 labeled activity groups for a class party, students create arrows or ordering notes showing which groups must happen in sequence and which can happen in flexible order, explaining their reasoning.
 
 Dependencies:
-* T11.G2.06: Organize a plan into 3-5 labeled groups
+* T11.G2.06: Create multiple labeled groups that work together
 * T01.G2.01: Identify pictures that must stay in order vs those that can swap
 
 ---
@@ -11542,13 +11506,13 @@ Dependencies:
 
 ID: T11.G2.08
 Topic: T11 – Functions & Organization
-Skill: Sort labels into reusable vs. plan-specific categories
-Description: Students identify labeled activity groups that could be useful in multiple different plans, not just the current one. For example, "Wash Hands" and "Clean Workspace" are useful in many activities (art, science, cooking). They sort labels into "reusable" and "plan-specific" categories.
+Skill: Recognize when labeled groups can be reused in different plans
+Description: Students identify labeled activity groups that could be useful in multiple different plans, not just the current one. For example, "Wash Hands" and "Clean Workspace" are useful in many different activities (art, science, cooking). This introduces the concept of reusable components: some groups are specific to one plan, while others are general-purpose.
 
-Assessment example: After creating labeled groups for a cooking activity, students sort labels into two boxes: "Only for cooking" (like "Mix Ingredients") and "Useful for other activities" (like "Wash Hands" or "Clean Up"), then name two other activities where reusable labels could be used.
+Assessment example: After creating labeled groups for a cooking activity, students sort the labels into "only for cooking" (like "Mix Ingredients") and "useful for other activities" (like "Wash Hands" or "Clean Up"), suggesting other activities where the reusable labels could be used.
 
 Dependencies:
-* T11.G2.06: Organize a plan into 3-5 labeled groups
+* T11.G2.06: Create multiple labeled groups that work together
 
 ---
 
@@ -11557,13 +11521,13 @@ Dependencies:
 
 ID: T11.G2.09
 Topic: T11 – Functions & Organization
-Skill: Write one-sentence purpose descriptions for each group
-Description: Students write one sentence describing what each labeled activity group is meant to accomplish and why it's part of the overall plan. This focuses on the WHAT and WHY (the group's purpose) rather than HOW (the specific steps inside). This prepares students to design and document custom blocks with clear purposes.
+Skill: Describe the purpose of each labeled group
+Description: Students write or explain in one sentence what each labeled activity group is meant to accomplish and why it's part of the overall plan. This focuses on the WHAT and WHY (the group's purpose and role) rather than HOW (the specific steps inside). This thinking skill prepares students to design and document custom blocks with clear purposes.
 
 Assessment example: For a classroom activity broken into labeled groups, students complete sentences like "The Setup Group gets everything ready so we can start the activity" and "The Practice Group helps us learn the new skill before we try it ourselves."
 
 Dependencies:
-* T11.G2.06: Organize a plan into 3-5 labeled groups
+* T11.G2.06: Create multiple labeled groups that work together
 * T02.G2.01: Turn a picture routine into labeled boxes
 
 ---
@@ -11573,14 +11537,12 @@ Dependencies:
 
 ID: T11.G3.01
 Topic: T11 – Functions & Organization
-Skill: Insert a comment block to explain code purpose
-Description: Students insert the comment block (// [text]) from the My Blocks category to add simple comments that label or explain parts of their script (e.g., "// Move the cat" or "// Check if score > 10"). This introduces documenting code for others to understand.
-
-Assessment example: Given a 5-block script, students add a comment block above each section explaining its purpose, then another student reads only the comments to describe what the script does.
+Skill: Add a comment to explain a block in a script
+Description: Students use the comment block (// [text]) from the My Blocks category to add simple comments that label or explain parts of their script (e.g., "// Move the cat" or "// Check if score > 10"). This introduces the concept of documenting code for others to understand.
 
 Dependencies:
 * T07.G3.02: Trace a script with a simple loop
-* T11.G2.01: Write a note card explaining a section's purpose
+* T11.G2.01: Add a note to explain a section of a plan
 
 
 
@@ -11588,14 +11550,12 @@ Dependencies:
 
 ID: T11.G3.02
 Topic: T11 – Functions & Organization
-Skill: Write a header comment summarizing script purpose
+Skill: Create a header comment for a script
 Description: Students add a comment block (// [text]) at the beginning of a script, right after the hat block, that summarizes the script's purpose and role in the larger program (e.g., "// Game initialization: sets lives to 3, resets score, shows start screen"). This is a first step toward systematic documentation.
-
-Assessment example: Given three scripts without header comments, students write appropriate header comments that summarize what each script does in one sentence.
 
 Dependencies:
 * T09.G3.02: Use a variable in a conditional (if block)
-* T11.G3.01: Insert a comment block to explain code purpose
+* T11.G3.01: Add a comment to explain a block in a script
 
 
 
@@ -11603,16 +11563,14 @@ Dependencies:
 
 ID: T11.G3.03
 Topic: T11 – Functions & Organization
-Skill: Rename vague variables to descriptive names
-Description: Students examine a script with unclear variable names (e.g., "x", "temp", "v1") and rename them to be more descriptive and meaningful (e.g., "playerScore", "enemySpeed", "livesRemaining"). They identify vague names and replace them with names that clearly indicate what the variable represents.
-
-Assessment example: Given a script with variables named "a", "x", and "n", students rename them to "score", "playerX", and "livesLeft" based on how they're used in the code.
+Skill: Use clearer variable names to improve readability
+Description: Students examine a script with unclear variable names (e.g., "x", "temp", "v1") and rename them to be more descriptive and meaningful (e.g., "playerScore", "enemySpeed", "livesRemaining"). They practice identifying vague names and replacing them with names that clearly indicate what the variable represents.
 
 Dependencies:
 * T09.G3.01: Create a variable and set its starting value
 * T07.G3.03: Build a forever loop for simple animation
 * T08.G3.01: Use a simple if in a script
-* T11.G3.01: Insert a comment block to explain code purpose
+* T11.G3.01: Add a comment to explain a block in a script
 
 
 
@@ -11620,14 +11578,12 @@ Dependencies:
 
 ID: T11.G3.04
 Topic: T11 – Functions & Organization
-Skill: Merge consecutive similar blocks into one efficient block
-Description: Students identify patterns of similar consecutive blocks (e.g., multiple "move 10 steps" blocks or repeated "change score by 1" blocks) and combine them into single, more efficient blocks with appropriate values (e.g., "move 30 steps" or "change score by 3"). This reduces redundancy and makes code cleaner.
-
-Assessment example: Given a script with "move 10 steps" repeated 5 times, students delete 4 blocks and change the remaining one to "move 50 steps", verifying the behavior is the same.
+Skill: Combine similar consecutive blocks into one
+Description: Students recognize patterns of similar consecutive blocks (e.g., multiple "move 10 steps" blocks or repeated "change score by 1" blocks) and combine them into single, more efficient blocks with appropriate values (e.g., "move 30 steps" or "change score by 3"). This reduces redundancy and makes code cleaner and easier to read.
 
 Dependencies:
 * T07.G3.03: Build a forever loop for simple animation
-* T11.G3.01: Insert a comment block to explain code purpose
+* T11.G3.01: Add a comment to explain a block in a script
 
 
 
@@ -11635,16 +11591,14 @@ Dependencies:
 
 ID: T11.G3.05
 Topic: T11 – Functions & Organization
-Skill: Describe how multiple scripts work together in a project
+Skill: Explain the structure of a multi-script project
 Description: Students write or select explanations for how the scripts in a project interact and fit together (e.g., "The green-flag script sets up the game, and the key-press scripts let the player control the character"). This develops understanding of overall code organization.
-
-Assessment example: Given a project with 4 scripts, students write one sentence describing each script's role and draw arrows showing how they relate (e.g., "Setup script initializes variables that Game script uses").
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T06.G3.02: Add a second event to the same sprite
 * T08.G3.03: Pick the right conditional block for a scenario
-* T11.G3.02: Write a header comment summarizing script purpose
+* T11.G3.02: Create a header comment for a script
 
 
 
@@ -11652,15 +11606,13 @@ Dependencies:
 
 ID: T11.G3.06
 Topic: T11 – Functions & Organization
-Skill: Define a custom block without parameters
-Description: Students create simple custom blocks **without parameters** using CreatiCode's define syntax. In the My Blocks category, they create a custom block with a descriptive, action-based name (e.g., define (draw square)) that groups 3-5 related blocks. The focus is on understanding how to define a reusable block using the define (BLOCKSIGNATURE) syntax.
-
-Assessment example: Students create a custom block named "DrawSquare" that contains 4 blocks (repeat 4: move 50 steps, turn 90 degrees) and verify it works when called.
+Skill: Create a simple custom block without parameters
+Description: Students learn to create simple custom blocks **without parameters** using CreatiCode's define syntax. In the My Blocks category, they create a custom block with a descriptive, action-based name (e.g., define (draw square)) that groups 3-5 related blocks. The focus is on understanding how to define a reusable block using the define (BLOCKSIGNATURE) syntax.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
-* T11.G3.03: Rename vague variables to descriptive names
+* T11.G3.03: Use clearer variable names to improve readability
 
 
 
@@ -11668,14 +11620,12 @@ Dependencies:
 
 ID: T11.G3.07
 Topic: T11 – Functions & Organization
-Skill: Call a custom block using the call syntax
-Description: Students call a custom block they created using the call syntax (e.g., call draw square). They replace repeated code in their main script with calls to the custom block, experiencing how custom blocks make code more organized and easier to read.
-
-Assessment example: Students take a script with repeated code and replace 3 identical sections with "call DrawSquare", verifying the program still works correctly.
+Skill: Call a custom block from a script
+Description: Students learn to call a custom block they created using the call syntax (e.g., call draw square). They practice replacing repeated code in their main script with calls to the custom block, experiencing how custom blocks make code more organized and easier to read.
 
 Dependencies:
-* T11.G3.06: Define a custom block without parameters
-* T11.G3.04: Merge consecutive similar blocks into one efficient block
+* T11.G3.06: Create a simple custom block without parameters
+* T11.G3.04: Combine similar consecutive blocks into one
 
 
 
@@ -11683,14 +11633,12 @@ Dependencies:
 
 ID: T11.G3.08
 Topic: T11 – Functions & Organization
-Skill: Document a custom block with a purpose comment
+Skill: Add a comment describing what a custom block does
 Description: Students add a comment block (// [text]) at the beginning of a custom block's definition to describe what the block does and when to use it (e.g., "// Draws a square with side length 50"). This extends documentation skills to custom blocks.
 
-Assessment example: Students add documentation comments to 3 custom blocks, each comment explaining in one sentence what the block does.
-
 Dependencies:
-* T11.G3.06: Define a custom block without parameters
-* T11.G3.02: Write a header comment summarizing script purpose
+* T11.G3.06: Create a simple custom block without parameters
+* T11.G3.02: Create a header comment for a script
 
 
 
@@ -11782,10 +11730,10 @@ Dependencies:
 
 ID: T11.G3.14
 Topic: T11 – Functions & Organization
-Skill: Navigate the "Make a Block" interface and create empty blocks
-Description: Students open CreatiCode's "My Blocks" category, click "Make a Block," and navigate the basic interface. They type a simple block name (without parameters, like "ResetGame" or "JumpUp") and observe the preview of how the block will look. After clicking OK, they see the `define (ResetGame)` hat block appear, understanding this is where they add the block's code. They practice this process 2-3 times with different names.
+Skill: Explore the "Make a Block" interface basics
+Description: Students open CreatiCode's "My Blocks" category, click "Make a Block," and explore the basic interface. They type a simple block name (without parameters, like "ResetGame" or "JumpUp") and observe the preview of how the block will look. After clicking OK, they see the `define (ResetGame)` hat block appear, understanding this is where they would add the block's code. They practice this process 2-3 times with different names, exploring without completing full implementations yet.
 
-Assessment example: Students open the "Make a Block" dialog, type three different simple block names ("StartGame", "ShowMenu", "PlaySound"), observe each preview, click OK to see the define block appear, and explain what the define block is for.
+Assessment example: Students open the "Make a Block" dialog, type three different simple block names like "StartGame", "ShowMenu", and "PlaySound", observe each preview, click OK to see the define block appear, then delete them without adding code inside.
 
 Dependencies:
 * T11.G3.13: Identify reporter blocks in existing code
@@ -12063,10 +12011,10 @@ Skill: Document a program with embedded comments
 Description: Students add comments to multiple scripts, blocks, and sections in a complete project, explaining what each part does and how it contributes to the whole. This is the first experience with systematic documentation.
 
 Dependencies:
-* T11.G3.02: Write a header comment summarizing script purpose
-* T11.G3.03: Rename vague variables to descriptive names
+* T11.G3.02: Create a header comment for a script
+* T11.G3.03: Use clearer variable names to improve readability
 * T11.G3.05: Explain the structure of a multi-script project
-* T11.G3.08: Document a custom block with a purpose comment
+* T11.G3.08: Add a comment describing what a custom block does
 
 
 
@@ -12078,9 +12026,9 @@ Skill: Choose descriptive names for custom blocks
 Description: Students create custom blocks with clear, verb-based names (e.g., "move forward", "draw star", "check collision") so that anyone using the block understands its purpose without looking inside. They practice renaming poorly-named blocks to follow naming conventions.
 
 Dependencies:
-* T11.G3.06: Define a custom block without parameters
-* T11.G3.07: Call a custom block using the call syntax
-* T11.G3.03: Rename vague variables to descriptive names
+* T11.G3.06: Create a simple custom block without parameters
+* T11.G3.07: Call a custom block from a script
+* T11.G3.03: Use clearer variable names to improve readability
 
 
 
@@ -12088,14 +12036,12 @@ Dependencies:
 
 ID: T11.G4.16
 Topic: T11 – Functions & Organization
-Skill: Extract repeated code segments into a custom block
+Skill: Refactor identical repeated code into a custom block
 Description: Students identify identical or nearly-identical code segments that appear multiple times (within or across scripts) and extract them into a single custom block. Focus is on recognizing exact duplication and eliminating it through reuse.
-
-Assessment example: Given a script with the same 5-block sequence appearing 3 times, students create a custom block containing those blocks and replace all 3 occurrences with calls to the new block.
 
 Dependencies:
 * T11.G4.15: Choose descriptive names for custom blocks
-* T11.G3.04: Merge consecutive similar blocks into one efficient block
+* T11.G3.04: Combine similar consecutive blocks into one
 * T04.G3.01: Find repeating motifs in a script and predict continuation
 
 
@@ -12104,14 +12050,12 @@ Dependencies:
 
 ID: T11.G4.17
 Topic: T11 – Functions & Organization
-Skill: Audit and rename all unclear variables in a project
-Description: Students audit a project's variables and ensure that all have clear, descriptive names (e.g., "playerScore" instead of "x", "livesRemaining" instead of "n"). They rename unclear variables to follow a consistent naming convention and make the code easier to understand.
-
-Assessment example: Given a project with variables named "a", "b", "x", "temp", students rename all of them to descriptive names and explain their choices.
+Skill: Improve variable naming in a project
+Description: Students examine a project and ensure that variables have clear, descriptive names (e.g., "playerScore" instead of "x", "livesRemaining" instead of "n"). They rename unclear variables to follow a consistent naming convention and make the code easier to understand.
 
 Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T11.G3.03: Rename vague variables to descriptive names
+* T11.G3.03: Use clearer variable names to improve readability
 * T11.G4.14: Document a program with embedded comments
 
 
@@ -12133,13 +12077,11 @@ Dependencies:
 
 ID: T11.G4.19
 Topic: T11 – Functions & Organization
-Skill: Refactor a fixed custom block by adding a parameter
-Description: Students take an existing custom block without parameters and add a single input parameter to make it more flexible. For example, they convert a "DrawSquare50" block (that always draws 50-pixel squares) into "DrawSquare (size)" that can draw any size. They identify which fixed values should become parameters and update the block definition and all call sites. This refactoring skill teaches adding parameters to existing blocks (complements T11.G4.10 which creates parameterized blocks from scratch).
-
-Assessment example: Given a "Jump100" custom block that always jumps 100 pixels, students refactor it into "Jump (height)" and update all 4 call sites to pass appropriate height values.
+Skill: Generalize a custom block by adding a parameter
+Description: Students take an existing custom block without parameters and add a single input parameter to make it more flexible. For example, they might convert a "DrawSquare50" block (that always draws 50-pixel squares) into "DrawSquare (size)" that can draw any size. They identify which fixed values should become parameters and update the block definition and all call sites. This skill focuses on the refactoring process of adding parameters to existing blocks (vs T11.G4.10 which teaches creating parameterized blocks from scratch).
 
 Dependencies:
-* T11.G4.11: Call the same custom block with different parameter values
+* T11.G4.15: Choose descriptive names for custom blocks
 * T11.G4.16: Refactor identical repeated code into a custom block
 * T09.G3.03: Modify a variable's value during execution
 
@@ -12149,14 +12091,11 @@ Dependencies:
 
 ID: T11.G4.20
 Topic: T11 – Functions & Organization
-Skill: Pass variable values as arguments to custom blocks
-Description: Students call custom blocks by passing variable values (not just literal numbers) as arguments. For example, `call DrawSquare [size]` where size is a variable, or `call MoveSprite [playerX] [playerY]`. This shows how custom blocks become even more flexible when combined with variables.
-
-Assessment example: Students create a loop that calls `call DrawSquare [i * 10]` with i increasing each iteration, demonstrating that variables and expressions can be passed as arguments.
+Skill: Call a custom block with parameter values
+Description: Students learn to call custom blocks that have parameters by passing values using square brackets (e.g., call draw square [50]). They practice calling the same block with different values to see how parameters make blocks reusable for different situations.
 
 Dependencies:
-* T11.G4.11: Call the same custom block with different parameter values
-* T09.G3.03: Modify a variable's value during execution
+* T11.G4.19: Define a custom block with one parameter
 
 
 
@@ -12164,14 +12103,11 @@ Dependencies:
 
 ID: T11.G4.21
 Topic: T11 – Functions & Organization
-Skill: Define a custom block with two parameters
-Description: Students create custom blocks that accept two input parameters (e.g., define (draw polygon (sides) (size))). Inside the custom block, they use (argument (sides)) and (argument (size)) to reference each parameter value. When calling the block, they pass all values: call draw polygon [4] [100].
-
-Assessment example: Students create a `define (DrawRectangle (width) (height))` block and test it with various width/height combinations to verify both parameters work correctly.
+Skill: Define a custom block with multiple parameters
+Description: Students create custom blocks that accept multiple input parameters (e.g., define (draw polygon (sides) (size))). Inside the custom block, they use (argument (sides)) and (argument (size)) to reference each parameter value. When calling the block, they pass all values: call draw polygon [4] [100].
 
 Dependencies:
-* T11.G4.10: Define a custom block with one parameter
-* T11.G4.20: Pass variable values as arguments to custom blocks
+* T11.G4.20: Call a custom block with parameter values
 
 
 
@@ -12495,13 +12431,11 @@ Dependencies:
 
 ID: T11.G5.21
 Topic: T11 – Functions & Organization
-Skill: Nest custom reporter blocks inside other reporters
-Description: Students nest custom reporter blocks by using the return value of one block as an argument to another. For example, `report DoubleValue [(report CalculateArea [5] [10])]` nests CalculateArea inside DoubleValue. They compose complex calculations from simpler building blocks, demonstrating the power of well-designed reporter interfaces.
-
-Assessment example: Students create two reporter blocks (GetDistance and DoubleIt) and nest them: `report DoubleIt [(report GetDistance [sprite1] [sprite2])]`, verifying the composed result is twice the distance.
+Skill: Chain multiple custom reporter blocks together
+Description: Students practice chaining custom reporter blocks by using the return value of one block as an argument to another. For example, they might use `report CalculateArea [10] [20]` as an input to `report DoubleValue [...]`, creating expressions like `report DoubleValue [(report CalculateArea [5] [10])]`. They learn to compose complex calculations from simpler building blocks, demonstrating the power of well-designed reporter interfaces.
 
 Dependencies:
-* T11.G4.21: Define a custom block with two parameters
+* T11.G4.21: Define a custom block with multiple parameters
 * T11.G5.11: Define a custom reporter block that returns a value
 
 
@@ -12510,14 +12444,11 @@ Dependencies:
 
 ID: T11.G5.22
 Topic: T11 – Functions & Organization
-Skill: Use reporter return values in conditions and assignments
-Description: Students use custom reporter return values in various contexts: in conditional tests (`if <(report IsColliding [player] [enemy])>`), in variable assignments (`set distance to (report GetDistance [x1] [y1])`), and in expressions. This reinforces that reporters can be used anywhere a value is needed.
-
-Assessment example: Students create a custom reporter `IsInBounds (x) (y)` that returns true/false, then use it in an if statement: `if <(report IsInBounds [newX] [newY])> then move`.
+Skill: Call a custom reporter block using report syntax
+Description: Students learn to call custom reporter blocks using the report syntax (e.g., report calculate area [10] [20]) and use the returned value in expressions or assignments. They practice using reporter blocks where data is needed (e.g., in a set variable block or as a condition).
 
 Dependencies:
-* T11.G5.11: Define a custom reporter block that returns a value
-* T11.G5.12: Use custom reporter return value in multiple contexts
+* T11.G5.21: Create a custom reporter block that returns a value
 
 
 
@@ -12525,14 +12456,12 @@ Dependencies:
 
 ID: T11.G5.23
 Topic: T11 – Functions & Organization
-Skill: Refactor a command block into a reporter block
-Description: Students refactor an existing custom command block that sets a variable into a custom reporter block that returns a value instead. For example, converting `SetCalculatedScore (points)` that sets a global variable into `CalculateScore (points)` that returns the value. They update all call sites from `call` syntax to `report` syntax and modify code that read the global variable to use the returned value directly.
-
-Assessment example: Students refactor `call CalculateBonus [score]` (which sets a global bonus variable) into `set bonus to (report CalculateBonus [score])`, making the data flow explicit.
+Skill: Convert a command block to a reporter block
+Description: Students take an existing custom command block that sets a variable or produces a side effect and refactor it into a custom reporter block that returns a value instead. For example, converting `SetCalculatedScore (points)` that sets a global variable into `CalculateScore (points) returns: score` that returns the value. They update all call sites from `call` syntax to `report` syntax and modify any code that read the global variable to use the returned value directly.
 
 Dependencies:
-* T11.G5.21: Nest custom reporter blocks inside other reporters
-* T11.G4.20: Pass variable values as arguments to custom blocks
+* T11.G5.22: Call a custom reporter block using report syntax
+* T11.G4.20: Call a custom block with parameter values
 
 
 
@@ -12540,13 +12469,11 @@ Dependencies:
 
 ID: T11.G5.24
 Topic: T11 – Functions & Organization
-Skill: Design custom blocks with natural language-style signatures
-Description: Students create custom blocks with mixed text labels and parameters (e.g., define (move (sprite) to x (x) y (y)) or define (add (a) to (b))) to make blocks read like natural language and be more intuitive to use. They design block signatures that clearly communicate the block's purpose through natural phrasing.
-
-Assessment example: Students redesign blocks with unclear signatures like `DoMove [50] [100]` into readable versions like `Move sprite to x [50] y [100]`, making the code self-documenting.
+Skill: Create custom blocks with natural language-style signatures
+Description: Students create custom blocks with mixed text labels and parameters (e.g., define (move (sprite) to x (x) y (y)) or define (add (a) to (b))) to make blocks read like natural language and be more intuitive to use. They practice designing block signatures that clearly communicate the block's purpose through natural phrasing.
 
 Dependencies:
-* T11.G5.15: Create custom blocks with mixed text labels and parameters
+* T11.G5.23: Distinguish between command blocks and reporter blocks
 * T11.G5.20: Review another student's code and suggest at least 2 organizational improvements
 
 
@@ -13189,22 +13116,10 @@ Dependencies:
 
 
 
-# T12 – Testing, Debugging & Error Handling (Phase 4 Optimized - November 2025)
-# Applied Phase 4 topic-focused optimizations:
-# - Enhanced K-2 skills with specific visual scenarios and picture card details
-# - Improved active verb usage throughout (Trace, Predict, Debug, Identify, Select, Compare)
-# - Split broad skills into sub-skills (T12.G3.04 debugging cycle, T12.G6.02 hypothesis method)
-# - Fixed X-2 rule violations by adjusting dependencies
-# - Added new bridging skills for smoother K-8 progression
-# - Introduced testing mindset skills in early grades
-# - Added performance debugging and collaborative debugging pathways
-# - Clarified CreatiCode-specific features (breakpoints, console, debug mode)
-# Total: 67 skills (6 new skills added, restructured for better granularity)
-
 ID: T12.GK.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Spot a wrong action in a picture sequence
-Description: **Student task:** View 4 picture cards showing a robot getting a ball. One card shows the robot doing something wrong. Tap the wrong card. **Visual scenario:** Cards show: (A) Robot sees ball, (B) Robot walks toward ball, (C) Robot turns away from ball [WRONG], (D) Robot reaches for ball. **Correct answer:** Card C is wrong - robot turns away instead of toward the ball. _Implementation note: Single-tap selection on wrong card; audio prompt "Which picture shows something wrong?" Large colorful cards with clear robot actions. CSTA: K-2 debugging concepts._
+Skill: Spot a missing or wrong action in a picture sequence
+Description: Students view a 3-5 picture sequence showing a character completing a simple task (e.g., a robot picking up a ball, a cat walking to food). They compare the sequence to a goal picture showing the expected result. Using picture cards or a drag-and-drop interface, they point to or circle the one picture where something went wrong (e.g., the robot turned the wrong way, the cat skipped a step). They do not explain why or fix it—only identify it.
 
 
 
@@ -13213,12 +13128,12 @@ Description: **Student task:** View 4 picture cards showing a robot getting a ba
 
 ID: T12.GK.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Compare result to goal and try again
-Description: **Student task:** Follow picture card steps to build a block tower. Compare your tower to the goal picture. If it doesn't match, tap "Try Again" and rebuild. **Visual scenario:** Goal shows red-blue-green tower. Student follows 3 instruction cards. If tower is red-green-blue (wrong order), they see "Does it match? No!" and tap retry button. **Success criteria:** Student identifies mismatch and chooses to retry. _Implementation note: Interactive tower-building with visual comparison; "try, check, retry" cycle chart displayed; audio: "Does your tower match? Try again!" CSTA: K-2 debugging, iterative improvement._
+Skill: Recognize and retry after noticing failure
+Description: Students follow a 3-4 picture card sequence for a simple task (e.g., stacking colored blocks to match a target tower, moving a game piece along a path). When the result does not match the goal picture, they recognize the mismatch and try the steps again from the beginning. Using a visual "try, check, retry" cycle chart, they experience that repeating steps is a normal part of problem-solving.
 
 Dependencies:
-* T01.GK.01: Sequence three picture cards for a bedtime routine
-* T12.GK.01: Spot a wrong action in a picture sequence
+* T01.GK.01: Put pictures in order for getting ready for bed
+* T12.GK.01: Spot a missing or wrong action in a picture sequence
 
 
 
@@ -13228,36 +13143,24 @@ Dependencies:
 
 ID: T12.GK.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix one wrong arrow card to reach the goal
-Description: **Student task:** A bunny wants to reach the carrot on a 3x3 grid. The arrow cards guide the bunny, but one arrow is wrong. Find and swap the wrong arrow. **Visual scenario:** Grid shows bunny at bottom-left, carrot at top-right. Arrow cards: → → ↑ (but middle arrow should be ↑). Bunny ends up at wrong square. Student drags correct arrow (↑) to replace wrong arrow (→). **Correct answer:** Replace second → with ↑. _Implementation note: 3x3 grid with animated bunny; drag-and-drop arrow swap; visual path tracing shows where bunny goes; audio: "Oh no! Wrong square. Which arrow is wrong?" CSTA: K-2 debugging._
+Skill: Fix a single wrong direction in picture steps
+Description: Students use arrow picture cards to guide a character on a grid to reach a goal (e.g., treasure, door, food). When the character ends up in the wrong place, they identify which one arrow card is wrong (e.g., "left" should be "right") and swap it with the correct direction card. The activity uses physical or drag-and-drop arrow cards on a simple 3x3 or 4x4 grid.
 
 Dependencies:
-* T01.GK.03: Tap the first and last picture cards in a sequence
-* T12.GK.01: Spot a wrong action in a picture sequence
+* T01.GK.03: Find the first and last pictures
+* T12.GK.01: Spot a missing or wrong action in a picture sequence
 
-
-
-
-
-ID: T12.GK.04
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Sort picture cards into "works" and "doesn't work"
-Description: **Student task:** Look at 4 picture cards showing a character doing steps. Drag cards that show correct steps to the "Works" box and wrong steps to the "Doesn't Work" box. **Visual scenario:** Cards show making a sandwich: (A) Put bread on plate ✓, (B) Spread peanut butter ✓, (C) Put lid on jar before spreading ✗, (D) Eat sandwich ✓. **Correct sorting:** A, B, D → Works; C → Doesn't Work. _Implementation note: Two-box sorting with drag-drop; green checkmark for Works box, red X for Doesn't Work box; audio feedback. CSTA: K-2 categorizing errors._
-
-Dependencies:
-* T12.GK.01: Spot a wrong action in a picture sequence
 
 
 
 
 ID: T12.G1.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Tap the wrong step and explain why using a sentence starter
-Description: **Student task:** View 5 picture cards showing "brushing teeth" steps. One card is in the wrong place. Tap the wrong card and complete the sentence: "This step is wrong because ___." **Visual scenario:** Cards show: (A) Get toothbrush, (B) Brush teeth [WRONG - too early], (C) Put toothpaste on brush, (D) Brush teeth, (E) Rinse mouth. **Correct answer:** Tap card B; explanation: "This step is wrong because you need toothpaste first." _Implementation note: Tap selection + sentence completion with word bank (first/before/after); audio reads sentence starter. CSTA: 1A-AP debugging with explanation._
+Skill: Identify which picture step causes a problem and explain why
+Description: Students view a 4-6 picture card sequence that tells a story with one step in the wrong order (e.g., "brush teeth" before "put toothpaste on brush"). They click or tap the picture card that causes the problem and verbally or in writing explain why it is wrong using a sentence starter like "This step is wrong because...". The interface shows a visual marker on the selected card.
 
 Dependencies:
-* T01.GK.03: Tap the first and last picture cards in a sequence
-* T12.GK.01: Spot a wrong action in a picture sequence
+* T01.GK.03: Find the first and last pictures
 
 
 
@@ -13265,12 +13168,11 @@ Dependencies:
 
 ID: T12.G1.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Drag picture cards to fix a scrambled sequence
-Description: **Student task:** 5 picture cards for "getting dressed" are scrambled. Drag them into the correct order, then tap "Check" to verify. **Visual scenario:** Scrambled cards: socks, shirt, shoes, pants, underwear. **Correct order:** underwear → pants → shirt → socks → shoes. After arranging, student taps Check and animation shows character getting dressed in that order. _Implementation note: Drag-and-drop reordering with animated verification; audio reads back sequence; "Try Again" if wrong. CSTA: 1A-AP-11 sequencing and debugging._
+Skill: Reorder picture cards to fix a sequence error
+Description: Students are given 4-5 picture cards that are out of order for a familiar routine (e.g., making a sandwich, getting dressed). They drag-and-drop or physically move the cards to fix the sequence so the story makes sense. They verify their fix by "reading" the corrected sequence aloud.
 
 Dependencies:
-* T01.GK.02: Sequence four picture cards for a classroom arrival routine
-* T12.GK.02: Compare result to goal and try again
+* T01.GK.02: Put pictures in order for coming to class
 
 
 
@@ -13278,12 +13180,11 @@ Dependencies:
 
 ID: T12.G1.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Change a number on an instruction card to fix the result
-Description: **Student task:** A frog needs to jump 5 times to reach a lily pad. The instruction card says "Jump 2 times." Change the number to make it work. **Visual scenario:** Frog on left, lily pad 5 hops away. Instruction card shows jumping frog icon with "2". Student uses number spinner (1-9) to change 2 to 5. Animation shows frog jumping 5 times and landing on lily pad. _Implementation note: Number spinner on card; animated preview of result; audio: "The frog jumped 2 times but needs 5!" CSTA: 1A-AP debugging with values._
+Skill: Change a number on a picture card to fix behavior
+Description: Students view an instruction card with a number (e.g., "jump 2 times" shown as a jumping figure with the number 2). The result does not match the goal (e.g., character should jump 5 times to reach a platform). They click or tap to change the number from 2 to 5. Activities use simple number spinners or number buttons on visual instruction cards.
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
-* T12.GK.02: Compare result to goal and try again
 
 
 
@@ -13291,37 +13192,23 @@ Dependencies:
 
 ID: T12.G1.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Act out picture steps and point to where it went wrong
-Description: **Student task:** Act out 4 picture card steps for "making a paper airplane." When the airplane doesn't fly, point to which step caused the problem. **Visual scenario:** Cards show: (A) Fold paper in half, (B) Fold wings, (C) Skip creasing the fold [WRONG], (D) Throw airplane. Student acts out each step, airplane falls flat, student points to card C and says "I went wrong here because the fold wasn't creased." _Implementation note: Unplugged activity; video model of steps; selection interface for choosing problematic card; verbal explanation recorded or typed. CSTA: 1A-AP unplugged debugging._
+Skill: Act out picture steps and identify the error
+Description: Students physically act out a 3-5 step picture sequence (e.g., pretend to follow a recipe, walk through a floor maze). When the result does not match the goal, they stop and point to which picture step caused the problem. They explain verbally: "I went wrong here because..." This unplugged activity builds body-based understanding of tracing.
 
 Dependencies:
-* T01.GK.01: Sequence three picture cards for a bedtime routine
-* T12.G1.01: Tap the wrong step and explain why using a sentence starter
+* T01.GK.01: Put pictures in order for getting ready for bed
 
-
-
-
-
-ID: T12.G1.05
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Predict what happens next before checking
-Description: **Student task:** Look at 3 picture card steps. Before seeing the result, predict what will happen by tapping one of 3 outcome pictures. Then tap "Check" to see if you were right. **Visual scenario:** Steps show: (A) Put seeds in pot, (B) Water the seeds, (C) Put pot in sunny window. Outcome choices: (1) Flowers grow, (2) Seeds stay dry, (3) Pot falls over. **Correct prediction:** Flowers grow. _Implementation note: Prediction selection before reveal; "Was your prediction correct?" reflection prompt; builds testing mindset. CSTA: 1A-AP prediction and verification._
-
-Dependencies:
-* T12.GK.02: Compare result to goal and try again
-* T01.GK.06: Predict the next picture card in a sequence
 
 
 
 
 ID: T12.G2.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix a wrong trigger signal in a picture rule card
-Description: **Student task:** A rule card says "When you see RED card, clap." But the demo shows clapping when BLUE card appears. Fix the rule by selecting the correct signal. **Visual scenario:** Rule card shows "When [BLUE card], do [clap hands]" - this is wrong. Student selects RED card from 4 color options (red, blue, green, yellow) to fix the trigger. Animation shows corrected rule working: RED card → clap. _Implementation note: Signal selection from color/symbol options; animated demonstration of broken vs fixed rule; builds event-trigger debugging. CSTA: 1A-AP-11 event debugging._
+Skill: Fix a wrong signal in picture instructions
+Description: Students view a picture rule card showing "When [signal], do [action]" (e.g., "When you see RED card, clap"). They observe a demonstration where the wrong signal is used (BLUE card triggers clapping). They identify and fix the signal by selecting the correct signal picture card from options. Activities use color-coded or symbol signal cards.
 
 Dependencies:
-* T01.G1.06: Drag the wrong step to its correct spot
-* T12.G1.01: Tap the wrong step and explain why using a sentence starter
+* T01.G1.06: Fix a routine with one wrong step
 
 
 
@@ -13329,12 +13216,12 @@ Dependencies:
 
 ID: T12.G2.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Trace arrow cards on a grid and predict the ending square
-Description: **Student task:** View 5 arrow cards for a robot on a 4x4 grid. Before the robot moves, click the square where you predict it will end. Then tap "Go" to check. **Visual scenario:** Robot starts at (1,1). Arrow cards: → → ↑ ↑ →. Student clicks predicted end square (4,3). Robot animates along path. **Correct prediction:** Square (4,3). If wrong, path is highlighted to show where prediction diverged. _Implementation note: Grid with clickable squares; animated path tracing; prediction vs actual comparison; mental tracing practice. CSTA: 1A-AP tracing and prediction._
+Skill: Trace picture steps and predict the ending position
+Description: Students view a 4-6 picture card sequence showing movement commands for a character on a grid (e.g., "move up," "move right," "move right"). Before running or acting it out, they predict which square the character will end on by placing a marker or clicking the predicted destination. Then they trace the steps to verify their prediction.
 
 Dependencies:
-* T01.G1.05: Identify the missing step in a picture routine
-* T12.G1.05: Predict what happens next before checking
+* T01.G1.05: Find the missing step in an algorithm
+* T03.G1.03: List steps for a simple classroom routine
 
 
 
@@ -13342,12 +13229,12 @@ Dependencies:
 
 ID: T12.G2.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix the repeat count on a loop picture card
-Description: **Student task:** A kangaroo needs to hop across 5 stepping stones. The loop card says "Repeat 3 times: [hop]." Fix the number so the kangaroo crosses all stones. **Visual scenario:** 5 stepping stones across a river. Loop card shows "Repeat [3] times" with hop icon. Kangaroo hops 3 times and falls in water. Student changes 3 to 5 using spinner. Kangaroo successfully crosses. _Implementation note: Visual loop card with editable number; animated result preview; clear cause-effect between number and outcome. CSTA: 1A-AP loop debugging._
+Skill: Fix a repeat count on a loop picture card
+Description: Students view a "repeat" picture card with a number (e.g., "repeat 3 times: [hop picture]"). They observe that the result does not match the goal (e.g., character needs to hop 5 times to cross a bridge). They fix the repeat number by clicking a number spinner or selecting the correct number from options. Activities show visual loop cards with editable numbers.
 
 Dependencies:
-* T04.G1.01: Identify which part of a pattern repeats
-* T12.G1.03: Change a number on an instruction card to fix the result
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T01.G2.01: Find actions that repeat in everyday tasks
 
 
 
@@ -13355,36 +13242,24 @@ Dependencies:
 
 ID: T12.G2.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Add a checkpoint card to verify progress at a key point
-Description: **Student task:** A sequence has 6 steps for a character to collect 3 coins. Add a checkpoint card after step 3 to verify 2 coins are collected. **Visual scenario:** 6 step cards for coin collection. Student drags checkpoint card (star icon) between step 3 and 4. When tracing, animation pauses at checkpoint showing "Checkpoint: 2 coins? ✓ Yes!" before continuing. _Implementation note: Drag checkpoint card into sequence; pause-and-verify animation; teaches incremental testing. CSTA: 1A-AP verification and testing._
+Skill: Add a checkpoint card to verify progress
+Description: Students have a 5-6 step picture card sequence and a goal. They add a "checkpoint" picture card (thumbs-up, star, or flag) at a key point to verify progress (e.g., after step 3, add a checkpoint to confirm the character has reached the middle). When they trace the steps, they pause at checkpoints to confirm the current state matches expectations.
 
 Dependencies:
-* T12.G1.05: Predict what happens next before checking
-* T12.G2.02: Trace arrow cards on a grid and predict the ending square
+* T03.G1.03: List steps for a simple classroom routine
+* T01.G1.09: Match an algorithm to its goal
 
-
-
-
-
-ID: T12.G2.05
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Match error types to picture examples
-Description: **Student task:** Match 3 error type cards to the correct picture examples. Error types: (A) Wrong Order, (B) Wrong Number, (C) Missing Step. **Visual scenario:** Picture examples show: (1) Recipe with "bake" before "mix ingredients" → Wrong Order, (2) "Jump 2 times" but need 5 jumps → Wrong Number, (3) Plant sequence missing "water" step → Missing Step. _Implementation note: Drag-and-drop matching; 3 error type cards to 3 example pictures; categorization of error types prepares for Grade 3 coding. CSTA: 1A-AP error categorization._
-
-Dependencies:
-* T12.G1.01: Tap the wrong step and explain why using a sentence starter
-* T12.G1.03: Change a number on an instruction card to fix the result
 
 
 
 
 ID: T12.G3.00
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Identify three types of error indicators in CreatiCode
-Description: Students learn to recognize error indicators in CreatiCode: (1) **Red/orange blocks** - blocks that turn red or orange indicate invalid inputs or connections, (2) **Scripts that don't run** - clicking green flag does nothing because trigger block is missing or disconnected, (3) **Frozen sprites** - sprite stops mid-execution due to infinite loop or blocking operation. Given 4 example scripts, students classify each into one of these three error types. _Assessment: Multiple choice matching error screenshots to error type names._
+Skill: Identify error indicators in CreatiCode scripts
+Description: Students identify three types of error indicators in CreatiCode: (1) blocks that turn red or orange when clicked, (2) scripts that don't start when the green flag is clicked, (3) sprites that freeze during execution. Given 3-4 example scripts with different error states, they classify which type of error indicator is present. This foundational skill teaches WHAT error signals look like before learning to fix them.
 
 Dependencies:
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -13392,13 +13267,13 @@ Dependencies:
 
 ID: T12.G3.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Trace a 5-block script mentally, then run to verify prediction
-Description: Students practice the trace-then-test workflow: (1) **TRACE** - Read a 5-block script (e.g., `when green flag clicked`, `go to x:0 y:0`, `move 100 steps`, `turn right 90 degrees`, `say "Hello!"`) and predict the sprite's final position and speech without running it. (2) **TEST** - Run the script and compare actual behavior to prediction. (3) **ISOLATE** - If prediction was wrong, identify which block caused the surprise by clicking blocks one at a time. _Assessment: Predict final x,y coordinates and message before running; auto-graded by prediction accuracy._
+Skill: Test and trace simple block-based scripts
+Description: Students perform two key debugging skills: (1) TRACE - Look at a simple 3-5 block script without running it and predict what each block will do in sequence (sprite's final position, appearance, or speech), then (2) TEST - Run the script in CreatiCode, observe the actual behavior, and compare it to their prediction. If behavior doesn't match expectation (e.g., "should move 50 steps right, then say Hello"), they identify which specific block produced unexpected results by checking one block at a time. This combines mental tracing with actual testing.
 
 Dependencies:
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
-* T12.G2.02: Trace arrow cards on a grid and predict the ending square
-* T12.G3.00: Identify three types of error indicators in CreatiCode
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G2.02: Trace picture steps and predict the ending position
+* T12.G3.00: Identify error indicators in CreatiCode scripts
 
 
 
@@ -13406,12 +13281,12 @@ Dependencies:
 
 ID: T12.G3.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Fix a wrong value or direction in a single block
-Description: Students debug a script where one block has an incorrect value or direction. Examples: (1) `move 10 steps` should be `move 100 steps` to reach the goal, (2) `turn right 90` should be `turn left 90` to face the target, (3) `say "Goodbye"` should be `say "Hello"`. They identify the wrong block and change only its parameter or dropdown selection. _Assessment: Given buggy script and goal description, student modifies one block; auto-graded by script behavior._
+Skill: Fix a wrong block in a sequence
+Description: Students identify and replace a single incorrect block in a short script (e.g., "move 10 steps" should be "move 50 steps," or "turn right" should be "turn left") to make the program work correctly.
 
 Dependencies:
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
-* T12.G2.03: Fix the repeat count on a loop picture card
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G2.03: Fix a repeat count on a loop picture card
 
 
 
@@ -13419,12 +13294,12 @@ Dependencies:
 
 ID: T12.G3.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Add a missing block to complete a script
-Description: Students debug a script that's missing one essential block. Examples: (1) Script moves sprite but forgot `point in direction 90` first, so sprite moves in wrong direction, (2) Script should say hello then move, but `say "Hello"` is missing, (3) Loop has no stopping condition. Students identify what's missing and where it should go, then add the block. _Assessment: Given incomplete script and expected behavior, student adds one block; auto-graded by behavior match._
+Skill: Debug a script with a missing block
+Description: Students identify where a block is missing in a script (e.g., forgot to add "point in direction" before moving, or missing a "say" block) and add it in the correct position.
 
 Dependencies:
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
-* T12.G2.02: Trace arrow cards on a grid and predict the ending square
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G2.02: Trace picture steps and predict the ending position
 
 
 
@@ -13432,13 +13307,12 @@ Dependencies:
 
 ID: T12.G3.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Apply the Run-Observe-Change-Test debugging cycle
-Description: Students practice the iterative debugging cycle on a buggy script with 2-3 errors: (1) **RUN** - Click green flag, (2) **OBSERVE** - Note what went wrong (wrong direction, wrong message, wrong position), (3) **CHANGE** - Make ONE specific change to fix one problem, (4) **TEST** - Run again to check. Repeat cycle until all bugs are fixed. Key learning: Making one change at a time helps isolate problems. _Assessment: Given script with multiple bugs, student applies cycle; tracked by number of runs and successful fixes._
+Skill: Apply the debugging cycle: run, observe, change, test again
+Description: Students apply the iterative debugging cycle: (1) run the program, (2) observe what went wrong (sprite moves wrong direction, says wrong message), (3) make ONE specific change to a block (change a number, swap a block, reorder blocks), and (4) test again. They complete this cycle 2-3 times on a given buggy script, learning that iteration is a normal part of debugging.
 
 Dependencies:
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
-* T12.G3.01: Trace a 5-block script mentally, then run to verify prediction
-* T12.G2.04: Add a checkpoint card to verify progress at a key point
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G2.04: Add a checkpoint card to verify progress
 
 
 
@@ -13446,38 +13320,25 @@ Dependencies:
 
 ID: T12.G3.05
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Point to the bug and explain why it causes the problem
-Description: Students run a buggy script, identify the problematic block, AND explain the cause-effect relationship. Example: Script should make sprite face right then move to x:200, but sprite moves left. Student identifies `point in direction -90` and explains: "This block points left (-90) instead of right (90), so the sprite moves the wrong way." The explanation must connect the bug to the symptom. _Assessment: Select buggy block + complete explanation sentence; both must be correct._
+Skill: Identify and explain which block causes unexpected behavior
+Description: Students run a script that produces wrong output and identify which specific block is causing the problem by mentally stepping through the code and comparing expected behavior to actual behavior at each step. They not only point to the problematic block but also explain WHY it's wrong (e.g., "This says 'turn right 90' but it should be 'turn left 90' to face the target"). This skill builds on T13.G3.01 by requiring explanation of the error, not just identification.
 
 Dependencies:
-* T12.G3.01: Trace a 5-block script mentally, then run to verify prediction
-* T12.G3.02: Fix a wrong value or direction in a single block
+* T12.G3.01: Test and trace simple block-based scripts
 
-
-
-
-
-ID: T12.G3.06
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Reorder blocks to fix a sequence bug
-Description: Students debug a script where blocks are in the wrong order. Example: Script should go to starting position, then repeat moving and turning, but `go to x:0 y:0` is inside the loop instead of before it. Student drags `go to` block outside and before the loop. _Assessment: Drag blocks to correct positions; auto-graded by behavior match._
-
-Dependencies:
-* T12.G3.01: Trace a 5-block script mentally, then run to verify prediction
-* T12.G3.03: Add a missing block to complete a script
 
 
 
 
 ID: T12.G4.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug a conditional statement inside a loop
-Description: Students debug programs with an `if` block inside a `repeat` loop. Bug types: (1) Wrong condition value (e.g., `if score > 5` should be `if score > 10`), (2) Missing action inside if-block, (3) Condition that never becomes true. Students trace through 2-3 loop iterations mentally to identify when the bug triggers. _Assessment: Given loop-with-conditional, identify and fix the bug; auto-graded._
+Skill: Debug a conditional inside a loop
+Description: Students debug a simple program with a single conditional check inside a counted loop (e.g., repeat 10 times with one if statement inside). The bug might be a wrong condition value, a missing action inside the if-block, or incorrect block placement. This introduces the concept of debugging nested structures at the simplest level.
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
-* T08.G3.01: Use a simple if statement in a script
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
+* T08.G3.01: Use a simple if in a script
+* T12.G3.01: Test and trace simple block-based scripts
 
 
 
@@ -13485,13 +13346,20 @@ Dependencies:
 
 ID: T12.G4.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Identify and test edge cases for a program
-Description: Students learn that **edge cases** are extreme or unusual inputs that often cause bugs: zero values, maximum/minimum values, boundary positions (x=240, y=180), empty conditions. Given a program, they: (1) Brainstorm 3 edge cases (e.g., "What if score is 0?", "What if sprite is at stage edge?"), (2) Test each edge case manually, (3) Record pass/fail for each. _Assessment: Generate edge cases + test results table; at least 2 edge cases must be valid._
+Skill: Identify and manually test edge cases
+Description: Students learn what an "edge case" is: an unusual or extreme input that might cause problems (e.g., score is exactly 0, sprite is at the very edge of the stage at x=240 or y=180, countdown timer reaches 0). Given a program with a conditional, they brainstorm 2-3 edge cases (extreme values, boundary positions, zero/negative numbers) and manually test each one, recording whether the program handles it correctly or fails.
 
 Dependencies:
-* T08.G3.01: Use a simple if statement in a script
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
+* T12.G3.01: Test and trace simple block-based scripts
 
 
 
@@ -13499,13 +13367,20 @@ Dependencies:
 
 ID: T12.G4.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Redesign a working program using a different approach
-Description: Given a working program, students create an alternative version that achieves the same result differently. Examples: (1) Replace `repeat 4 [move, turn]` with `forever [if touching edge, stop]`, (2) Replace nested ifs with if-else chain. They test both versions with 3 identical inputs and verify identical outputs. _Assessment: Create alternative implementation + comparison table showing both produce same results._
+Skill: Design an alternative approach and compare results
+Description: Given a working program, students redesign it to accomplish the same task using a different approach (e.g., using a different loop structure, rearranging conditions, or using a wait instead of repeat). They test both versions with the same inputs, compare results, and verify both produce correct output.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T08.G3.01: Use a simple if statement in a script
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
+* T08.G3.01: Use a simple if in a script
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G3.04: Apply the debugging cycle: run, observe, change, test again
 
 
 
@@ -13513,13 +13388,19 @@ Dependencies:
 
 ID: T12.G4.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Diagnose and fix an infinite loop
-Description: Students recognize when a `forever` or `repeat until` loop never exits (sprite freezes, program hangs). They diagnose the cause: (1) Condition never becomes true (e.g., `repeat until score > 100` but score never increases), (2) Missing update inside loop, (3) Wrong comparison operator. They fix by adding the missing update or correcting the condition. _Assessment: Given stuck program, identify cause + apply fix; auto-graded._
+Skill: Identify and fix an infinite loop or program hang
+Description: Students recognize that a `forever` or `repeat until` loop is stuck (never exits) and diagnose why (e.g., the condition never becomes true, or the update is missing). They fix the condition or add a stopping mechanism.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T08.G3.01: Use a simple if statement in a script
-* T12.G3.05: Point to the bug and explain why it causes the problem
+* T08.G3.01: Use a simple if in a script
+* T12.G3.02: Fix a wrong block in a sequence
 
 
 
@@ -13527,13 +13408,15 @@ Dependencies:
 
 ID: T12.G4.05.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Write a test plan with 5 test cases before running
-Description: Students create a test plan template with three columns: **Input/Action**, **Expected Result**, **Pass/Fail** (blank). They write 5 test cases BEFORE running the program. Example for a score checker: (1) score=0 → "Try again", (2) score=5 → "Good job", (3) score=10 → "Great!", (4) score=-1 → should handle gracefully, (5) score=100 → "Perfect!". Key learning: Document expectations before testing. _Assessment: Test plan with 5 valid test cases; graded on case variety and expected result accuracy._
+Skill: Create a simple test plan with documented test cases
+Description: Students write a simple test plan using a template with three columns: (1) Input/Action, (2) Expected Result, (3) Pass/Fail (left blank). They document 3-5 different test cases before running the program (e.g., "Input: score = 10, Expected: sprite says 'Good job!'"). This introduces systematic testing by documenting expectations before testing, distinguishing it from exploratory trial-and-error.
 
 Dependencies:
-* T08.G3.01: Use a simple if statement in a script
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
-* T12.G4.02: Identify and test edge cases for a program
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.03: Design a simple "if-then" game rule
+* T08.G3.01: Use a simple if in a script
+* T12.G3.01: Test and trace simple block-based scripts
 
 
 
@@ -13541,11 +13424,13 @@ Dependencies:
 
 ID: T12.G4.05.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Execute test plan and record Pass/Fail results
-Description: Students run their program with each test case from their test plan and record results: **Pass** (actual matched expected) or **Fail** (actual differed from expected). For failures, they note what actually happened. After all tests, they summarize: "X of Y tests passed." _Assessment: Completed test plan with accurate Pass/Fail markings; failures must include actual result observed._
+Skill: Run tests and record results
+Description: Students follow their test plan, run the program with each test case, and record whether each test passed (result matched expectation) or failed (result didn't match). They identify which cases need fixing.
 
 Dependencies:
-* T12.G4.05.01: Write a test plan with 5 test cases before running
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G4.05.01: Create a simple test plan with documented test cases
 
 
 
@@ -13553,12 +13438,15 @@ Dependencies:
 
 ID: T12.G4.06
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Compare two solutions and evaluate which is easier to debug
-Description: Students examine two programs solving the same task (e.g., draw a square). They compare: (1) Number of blocks, (2) Nesting depth, (3) Variable usage, (4) Clarity of structure. They argue which version would be easier to test and debug, with specific reasons. Example: "Version A uses a loop with 4 blocks; Version B has 16 separate blocks. A is easier to debug because one fix affects all iterations." _Assessment: Written comparison with 2+ specific reasons._
+Skill: Compare two programs solving the same task
+Description: Students examine two different programs that both accomplish the same goal but may have different structure, efficiency, or robustness. They decide which version would be easier to test, debug, and reuse (e.g., clearer structure, fewer special‑case bugs, helpful messages) and explain why.
 
 Dependencies:
-* T12.G4.03: Redesign a working program using a different approach
-* T12.G4.05.02: Execute test plan and record Pass/Fail results
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T08.G3.01: Use a simple if in a script
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G4.03: Design an alternative approach and compare results
 
 
 
@@ -13566,12 +13454,14 @@ Dependencies:
 
 ID: T12.G4.07
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Document what went wrong and how you fixed it
-Description: After fixing a bug, students write a **bug report** using a template: (1) **Symptom:** What happened wrong? (e.g., "Sprite moved backward instead of forward"), (2) **Cause:** Which block had the bug? (e.g., "`move -10 steps` should be `move 10 steps`"), (3) **Fix:** What did you change? (e.g., "Changed -10 to 10"). This creates a debugging log without requiring formal hypothesis methodology. _Assessment: Complete bug report template for 1-2 bugs._
+Skill: Record what went wrong and how you fixed it
+Description: After finding and fixing a bug, students write a simple note or fill in a template describing: (1) what was wrong (the symptom they saw), and (2) what they changed to fix it (which block they modified, added, or removed). This introduces basic debugging documentation without requiring formal hypothesis-testing methodology.
 
 Dependencies:
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
-* T12.G3.05: Point to the bug and explain why it causes the problem
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G3.04: Apply the debugging cycle: run, observe, change, test again
 
 
 
@@ -13579,12 +13469,13 @@ Dependencies:
 
 ID: T12.G4.08.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Classify bug as sequence error (wrong order)
-Description: Students examine 3 buggy programs and identify which have **sequence errors** - blocks in wrong order. Example: `say "I'm here!"` before `go to x:100 y:100` means message appears at wrong location. Students classify the bug type and explain: "The blocks are in wrong order because [reason]." _Assessment: Correctly classify 2 of 3 programs as sequence errors or not; explanation required._
+Skill: Identify sequence errors (blocks in wrong order)
+Description: Students examine broken programs and identify sequence errors where blocks are in the wrong order (e.g., "say Hello" happens before "move to position," or sprite changes costume after it should have been visible). Given 2-3 programs with sequence bugs, they identify which blocks need to be reordered and explain why the current sequence produces wrong behavior.
 
 Dependencies:
-* T12.G3.06: Reorder blocks to fix a sequence bug
-* T12.G4.07: Document what went wrong and how you fixed it
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G3.02: Fix a wrong block in a sequence
 
 
 
@@ -13592,12 +13483,13 @@ Dependencies:
 
 ID: T12.G4.08.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Classify bug as value error (wrong number/text)
-Description: Students examine 3 buggy programs and identify which have **value errors** - correct block type but wrong parameter. Examples: `move 10 steps` should be `move 100 steps`, `turn left` should be `turn right`, `say "Hello"` should be `say "Goodbye"`. Students identify the incorrect value and state the correct value. _Assessment: Correctly identify value errors and provide correct values for 2 of 3 programs._
+Skill: Identify value errors (wrong numbers/text in blocks)
+Description: Students examine broken programs and identify value errors where blocks have wrong numbers, text, or choices (e.g., "move 10 steps" should be "move 50 steps," "turn left" should be "turn right," sprite name is misspelled). Given 2-3 programs with value bugs, they identify incorrect parameters and explain what the correct values should be.
 
 Dependencies:
-* T12.G3.02: Fix a wrong value or direction in a single block
-* T12.G4.07: Document what went wrong and how you fixed it
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G3.02: Fix a wrong block in a sequence
 
 
 
@@ -13605,13 +13497,13 @@ Dependencies:
 
 ID: T12.G4.08.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Classify bug as logic error (wrong operator/condition)
-Description: Students examine 3 buggy programs and identify which have **logic errors** - wrong operator or condition. Examples: `if score > 10` should be `if score < 10`, `if touching edge and key pressed` should use `or` not `and`. Students identify the logic error and explain: "The condition is wrong because [when it triggers vs when it should]." _Assessment: Correctly classify logic errors and explain the correction for 2 of 3 programs._
+Skill: Identify logic errors (wrong operators/conditions)
+Description: Students examine broken programs and identify logic errors in conditionals where operators or conditions are wrong (e.g., using > instead of <, "if x < 0" should be "if x > 240," "and" should be "or"). Given 2-3 programs with logic bugs, they identify incorrect conditions and explain how the wrong logic produces unexpected behavior.
 
 Dependencies:
-* T08.G3.01: Use a simple if statement in a script
-* T12.G4.01: Debug a conditional statement inside a loop
-* T12.G4.07: Document what went wrong and how you fixed it
+* T08.G3.01: Use a simple if in a script
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G4.01: Debug a conditional inside a loop
 
 
 
@@ -13619,12 +13511,13 @@ Dependencies:
 
 ID: T12.G4.08.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Classify bug as missing block error
-Description: Students examine 3 buggy programs and identify which have **missing block errors** - required block is absent. Examples: Missing `set score to 0` at start (score keeps old value), missing `point in direction` (sprite faces wrong way), missing `stop all` (game doesn't end). Students identify: (1) What's missing, (2) Where it should go, (3) What symptom it causes. _Assessment: Correctly identify missing blocks for 2 of 3 programs._
+Skill: Identify missing block errors
+Description: Students examine broken programs and identify where necessary blocks are missing (e.g., forgot "point in direction" before moving, missing "set variable to 0" initialization, no "stop all" at game end). Given 2-3 programs with missing blocks, they identify what's missing, where it should go, and explain what symptom the missing block causes.
 
 Dependencies:
-* T12.G3.03: Add a missing block to complete a script
-* T12.G4.07: Document what went wrong and how you fixed it
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G3.01: Test and trace simple block-based scripts
+* T12.G3.03: Debug a script with a missing block
 
 
 
@@ -13632,12 +13525,13 @@ Dependencies:
 
 ID: T12.G4.09
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Add print blocks to trace which code is running
-Description: Students add `print [message] in [console v]` blocks at key points to trace execution: (1) Before loop: `print "entering loop"`, (2) Inside loop: `print "loop iteration"`, (3) Inside conditional: `print "condition was true"`. They run the program and read console output to understand execution order. After debugging, they remove print blocks. _Assessment: Add 3+ print blocks to trace a buggy program; identify where execution diverges from expectation._
+Skill: Use debug print blocks to trace program execution
+Description: Students add `print [message] in [console v]` or `print [message] in [alert v]` blocks at key points in their program to see which parts of code are running and in what order. They use simple messages like "loop started", "reached this point", or print variable values like "score is now [score]" to understand program flow. After finding the bug, they remove the debug blocks. This introduces systematic tracing using CreatiCode's built-in debug features.
 
 Dependencies:
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
-* T12.G4.07: Document what went wrong and how you fixed it
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G3.04: Apply the debugging cycle: run, observe, change, test again
+* T12.G4.07: Record what went wrong and how you fixed it
 
 
 
@@ -13645,12 +13539,14 @@ Dependencies:
 
 ID: T12.G5.01.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Use say blocks to show execution flow visually
-Description: Students add `say [message] for [0.5] seconds` blocks to visually trace execution on the stage (instead of console). Messages like "Starting loop", "Checking condition", "Loop done" appear as speech bubbles. This is useful when console isn't visible or for visual learners. Students trace a 10+ block program with 4+ say blocks. _Assessment: Add say blocks to trace execution; identify execution order from observation._
+Skill: Use say blocks to display execution progress
+Description: Students add `say [message]` blocks at key points in their program to show which part of code is currently executing. They use simple messages like "loop started", "reached checkpoint 1", "entering if-block" to trace program flow. This helps identify which sections of code are running and in what order, making it easier to locate where behavior diverges from expectations.
 
 Dependencies:
-* T12.G4.09: Add print blocks to trace which code is running
+* T12.G4.09: Use debug print blocks to trace program execution
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -13658,12 +13554,14 @@ Dependencies:
 
 ID: T12.G5.01.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Use say blocks to display variable values during execution
-Description: Students add `say (join "score=" score)` blocks inside loops to watch variable values change during execution. Example: Inside a counting loop, `say (join "i=" i)` shows i=1, i=2, i=3... This helps identify when variables don't update as expected (e.g., score stuck at 0). _Assessment: Add say blocks showing 2+ variables; identify which variable has unexpected values._
+Skill: Use say blocks to display variable values
+Description: Students add `say [variable]` blocks inside loops and conditionals to display current variable values during execution. This allows them to see how variables change over time and identify when values are incorrect (e.g., "say score" shows score is stuck at 0 instead of increasing). This technique is especially useful for debugging calculations and variable updates.
 
 Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T12.G5.01.01: Use say blocks to show execution flow visually
+* T12.G5.01.01: Use say blocks to display execution progress
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -13671,12 +13569,14 @@ Dependencies:
 
 ID: T12.G5.01.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Enable variable monitors to track multiple values in real-time
-Description: Students enable variable monitors (checkbox in variable palette) to display 3+ variables on stage simultaneously. Unlike say blocks, monitors update in real-time without pausing execution. Students observe variable relationships (e.g., x and y changing together during movement, score and lives updating). _Assessment: Enable monitors for 3+ variables; describe how values change and identify unexpected patterns._
+Skill: Use variable monitors to track multiple values
+Description: Students check the monitor boxes for multiple variables to display them simultaneously on stage while the program runs. They observe how multiple values change in real-time during execution, making it easier to spot relationships between variables or identify which variable has an incorrect value. This method is less intrusive than say blocks since it doesn't pause or slow down program execution.
 
 Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T12.G5.01.02: Use say blocks to display variable values during execution
+* T12.G5.01.02: Use say blocks to display variable values
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -13684,13 +13584,15 @@ Dependencies:
 
 ID: T12.G5.01.04
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Combine multiple tracing methods to isolate a bug
-Description: Students combine techniques for complex bugs: (1) **Print blocks** for console log, (2) **Say blocks** for visual flow, (3) **Variable monitors** for real-time values, (4) **Checkpoint messages** at section boundaries. Strategy: Add output before loop, inside loop, inside conditional, after loop. Compare expected vs actual output at each point to narrow down bug location. _Assessment: Debug a complex program using 3+ methods; document which method revealed the bug._
+Skill: Systematically trace execution flow with multiple methods
+Description: Students combine multiple debugging techniques to systematically trace complex bugs: (1) use say blocks for execution flow, (2) use say blocks for critical variable values, (3) enable variable monitors for real-time tracking, and (4) use debug print blocks for console output. They systematically add debug output at each major section (before loop, inside loop, after conditional) to narrow down where the bug occurs. This represents mastery of advanced debugging techniques.
 
 Dependencies:
-* T12.G5.01.01: Use say blocks to show execution flow visually
-* T12.G5.01.02: Use say blocks to display variable values during execution
-* T12.G5.01.03: Enable variable monitors to track multiple values in real-time
+* T12.G5.01.01: Use say blocks to display execution progress
+* T12.G5.01.02: Use say blocks to display variable values
+* T12.G5.01.03: Use variable monitors to track multiple values
+* T12.G4.08.01: Identify sequence errors
+* T12.G4.08.02: Identify value errors
 
 
 
@@ -13698,13 +13600,14 @@ Dependencies:
 
 ID: T12.G5.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Add input validation to reject or handle invalid entries
-Description: Students add conditional checks after `ask` blocks to validate user input: (1) Check if answer is a number when number expected, (2) Check if number is in valid range (e.g., 1-10), (3) Provide feedback and re-ask if invalid. Example: `ask "Enter a number 1-10"` then `if answer < 1 or answer > 10 then say "Invalid! Try again"`. _Assessment: Add validation to 2+ inputs; demonstrate handling of invalid entries._
+Skill: Add input validation to handle invalid entries
+Description: Students design a program that accepts user input and add conditional checks to reject or handle invalid entries gracefully (e.g., if a player enters a negative number when a positive is required, the program asks again or defaults safely). This builds on edge case awareness by actively preventing problems.
 
 Dependencies:
-* T08.G3.01: Use a simple if statement in a script
-* T12.G4.02: Identify and test edge cases for a program
-* T07.G4.01: Use repeat-until to create a conditional loop
+* T08.G3.01: Use a simple if in a script
+* T12.G4.02: Identify and manually test edge cases
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
 
 
 
@@ -13712,12 +13615,14 @@ Dependencies:
 
 ID: T12.G5.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Create a comprehensive test plan covering normal, boundary, and invalid cases
-Description: Students design test plans with three categories: (1) **Normal cases** - typical expected inputs (3 tests), (2) **Boundary cases** - edge values like 0, max, min (3 tests), (3) **Invalid inputs** - out of range, wrong type (2 tests). Total: 8+ test cases. After running, they summarize: "Normal: 3/3 pass, Boundary: 2/3 pass, Invalid: 1/2 pass" and identify which category needs most attention. _Assessment: Test plan with 8+ cases across 3 categories; summary analysis._
+Skill: Create and follow a comprehensive test plan with multiple input types
+Description: Students design a comprehensive test plan covering three categories of inputs: (1) normal/typical cases (expected use), (2) boundary cases (minimum, maximum, zero, edge of screen), and (3) invalid inputs (negative when positive expected, empty values). They create 8-10 test cases total across all three categories, run each systematically, record pass/fail results, and summarize which categories had the most failures.
 
 Dependencies:
-* T12.G4.05.02: Execute test plan and record Pass/Fail results
-* T12.G5.02: Add input validation to reject or handle invalid entries
+* T12.G4.05.02: Run tests and record results
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -13725,13 +13630,14 @@ Dependencies:
 
 ID: T12.G5.04.01
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Add defensive checks before risky operations
-Description: Students identify risky operations and add defensive if-checks: (1) **Division**: `if divisor ≠ 0 then [divide]`, (2) **List access**: `if length of list > 0 then [item 1 of list]`, (3) **Position**: `if x < 240 then [move right]`. They test with edge cases that would have failed without the check. _Assessment: Add defensive checks to 3+ risky operations; demonstrate edge case handling._
+Skill: Add condition checks before risky operations
+Description: Students identify risky operations in their program (accessing list items, division, sprite positioning) and add defensive if-checks before executing them. For example: check "if list length > 0" before accessing item 1, check "if divisor ≠ 0" before dividing, check "if x < 240" before moving right. They test that these checks prevent crashes or unexpected behavior in edge cases.
 
 Dependencies:
-* T12.G4.02: Identify and test edge cases for a program
-* T12.G5.02: Add input validation to reject or handle invalid entries
-* T08.G4.01: Use if-else to create two-branch decisions
+* T12.G4.02: Identify and manually test edge cases
+* T12.G5.02: Add input validation to handle invalid entries
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -13739,12 +13645,14 @@ Dependencies:
 
 ID: T12.G5.04.02
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Clamp values to stay within valid boundaries
-Description: Students add boundary clamping: (1) **Score floor**: `if score < 0 then set score to 0`, (2) **Stage edges**: `if x > 240 then set x to 240`, (3) **Timer minimum**: `if timer < 0 then set timer to 0`. This prevents undefined behavior by keeping values in valid ranges. They test with inputs that would exceed boundaries. _Assessment: Add clamping for 3+ boundaries; verify boundary values are handled._
+Skill: Handle boundary values gracefully
+Description: Students add special handling for boundary conditions in their programs: when score reaches exactly 0, when sprite reaches stage edges (x=±240, y=±180), when lists become empty, or when timers hit 0. They use conditionals to handle these cases explicitly (e.g., "if score < 0 then set score to 0" or "if x > 240 then set x to 240") rather than allowing undefined behavior. They test boundary cases to verify graceful handling.
 
 Dependencies:
-* T12.G5.04.01: Add defensive checks before risky operations
-* T08.G4.01: Use if-else to create two-branch decisions
+* T12.G4.02: Identify and manually test edge cases
+* T12.G5.04.01: Add condition checks before risky operations
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -13752,13 +13660,13 @@ Dependencies:
 
 ID: T12.G5.04.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Document defensive code improvements with before/after examples
-Description: Students document defensive improvements using a template: (1) **Risk**: What could go wrong? (e.g., "Division by zero if user enters 0"), (2) **Defense added**: What check was added? (e.g., "Added if divisor ≠ 0"), (3) **Test case**: What now passes? (e.g., "Input 0 shows 'Cannot divide by zero' instead of crashing"). Document 3+ defensive improvements. _Assessment: Complete documentation for 3+ improvements with specific examples._
+Skill: Document defensive improvements made
+Description: Students create documentation describing the defensive improvements they made to a program. For each improvement, they explain: (1) what was fragile or could fail, (2) what defensive check or handling they added, and (3) what test case now passes that previously would have failed. This combines defensive programming with documentation skills, teaching students to explain their robustness improvements.
 
 Dependencies:
-* T12.G5.04.01: Add defensive checks before risky operations
-* T12.G5.04.02: Clamp values to stay within valid boundaries
-* T12.G4.07: Document what went wrong and how you fixed it
+* T12.G5.04.01: Add condition checks before risky operations
+* T12.G5.04.02: Handle boundary values gracefully
+* T12.G4.07: Record what went wrong and how you fixed it
 
 
 
@@ -13766,13 +13674,16 @@ Dependencies:
 
 ID: T12.G5.05
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug two-level nested structures (loop in loop or if in loop)
-Description: Students debug programs with two-level nesting: (1) **Nested loops**: `repeat 3 [repeat 4 [...]]` where bug is in inner or outer loop count, (2) **If-else in loop**: `repeat 10 [if-else [...][...]]` where bug is in condition or one branch. Strategy: Add print/say blocks at each nesting level to identify which level causes the bug. _Assessment: Debug 2+ nested structure bugs; document which level had the error._
+Skill: Debug complex two-level nested structures
+Description: Students debug a program with complex two-level nesting: loops inside loops, conditionals with if-else branches inside loops, or multiple conditionals in sequence within a loop. They systematically identify which level (outer loop, inner structure, or specific condition) has the bug and fix it. This builds on simpler single-conditional-in-loop debugging from G4.
 
 Dependencies:
-* T07.G4.01: Use repeat-until to create a conditional loop
-* T08.G4.01: Use if-else to create two-branch decisions
-* T12.G4.01: Debug a conditional statement inside a loop
+* T07.G3.01
+* T08.G3.01
+* T12.G4.01
+* T10.G3.05
+* T10.G4.18
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -13781,11 +13692,15 @@ Dependencies:
 ID: T12.G5.06
 Topic: T12 – Testing, Debugging & Error Handling
 Skill: Debug deeply nested structures (three+ levels)
-Description: Students debug programs with three+ levels of nesting: `repeat [repeat [if [...] then [...]]]`. Strategy: Use **indented print statements** showing nesting level (e.g., "  outer loop", "    inner loop", "      condition true"). Trace output to identify which level produces unexpected behavior. _Assessment: Debug a 3-level nested program; identify bug location by nesting level._
+Description: Students debug a program with three or more levels of nesting (e.g., a loop inside a loop with a conditional inside that, or nested conditionals inside nested loops). They trace through multiple levels systematically to identify which level is causing incorrect behavior and fix it. This is more complex than two-level nesting.
 
 Dependencies:
-* T12.G5.05: Debug two-level nested structures (loop in loop or if in loop)
-* T12.G5.01.04: Combine multiple tracing methods to isolate a bug
+* T07.G3.01
+* T08.G3.01
+* T12.G5.05
+* T10.G3.05
+* T10.G4.18
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -13793,13 +13708,15 @@ Dependencies:
 
 ID: T12.G5.07
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Interpret error indicators to form debugging hypotheses
-Description: Students systematically interpret CreatiCode error indicators: (1) **Red/orange block** → invalid parameter (check inputs), (2) **Frozen sprite** → infinite loop or blocking call (check loop conditions), (3) **Script doesn't run** → missing trigger or disconnected blocks (check hat block). For each indicator type, they form a hypothesis and test it. _Assessment: Given 3 error scenarios, identify indicator type + form correct hypothesis for each._
+Skill: Read and interpret error indicators systematically
+Description: Students systematically interpret error indicators in CreatiCode to diagnose problems: they examine blocks that turn red/orange (identifying which parameter or operation is invalid), analyze sprites that freeze (checking for infinite loops or missing wait blocks), and investigate scripts that don't run (verifying trigger blocks and dependencies). They connect each type of error indicator to specific categories of bugs and use this information to form debugging hypotheses. This advances beyond G3.00's basic recognition by teaching systematic interpretation of error signals.
 
 Dependencies:
-* T12.G3.00: Identify three types of error indicators in CreatiCode
-* T12.G5.01.04: Combine multiple tracing methods to isolate a bug
-* T12.G4.04: Diagnose and fix an infinite loop
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T12.G4.07: Record what went wrong and how you fixed it
+* T12.G5.01.04: Systematically trace execution flow with multiple methods
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.00: Identify if blocks in existing code
 
 
 
