@@ -119,7 +119,7 @@ async function runAllScripts() {
 Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 
 ## Step 1: Read these files first
-- 00-START-HERE.md and spec_v2_updated.md for project context
+- skillmap_run_context.md for project context
 - skillsv5/allskills.md for all current skills
 - creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively.
 
@@ -137,6 +137,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
    - Reference CreatiCode blocks from ../../ScratchCopilot/blockdes8.txt if needed
    - No duplicate or overlapping skills within the topic.
    - Skills do not exceed current topic boundaries considering there are 34 topics total.
+   - Skills have depth and range from foundational to advanced within the topic. Remember that as AI can do a lot of basic tasks, programming will become more challenging and complex and large-scale, and skills should reflect that trend.
 
 3. Dependencies (intra-topic ONLY)
    - Fix dependencies WITHIN ${topic.code} only
@@ -280,7 +281,7 @@ Use subagents/Task tool to keep context small. Proceed now.`;
 Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${topic.code} (${topic.name}).
 
 ## Step 1: Read these files first
-- 00-START-HERE.md and spec_v2_updated.md for project context
+- skillmap_run_context.md for project context
 - skillsv5/allskills.md for all current skills
 - creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively.
 

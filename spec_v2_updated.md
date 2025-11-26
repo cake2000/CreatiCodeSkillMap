@@ -19,6 +19,22 @@ This specification defines the **CreatiCode K–8 Skill Map**, a comprehensive l
 - 4,167 validated skill dependencies
 - 27 identified gateway skills for curriculum focus
 
+### 0.1 Current Working Files & Versions (Context)
+
+This document describes the **v2 concept-level implementation** of the skill map:
+- **1,119 skills**, **34 topics**, **5 domains**, and **4,167 dependencies**.
+- These counts are based on the enriched JSON/YAML sources used for the original v2 rollout.
+
+Since then, the repository has evolved:
+- `skillsv5/allskills.md` now contains an expanded **micro-skill representation** (≈2,900 IXL‑style skills) built from this v2 baseline.  
+- Automation scripts such as `runonebyone.js` operate directly on `skillsv5/allskills.md` and treat it as the **authoritative working file**.
+- Some earlier documents (e.g., `docs/domains_topics_overview.md`) still list **36 topics (T01–T36)**. In the current production map and automation loop, we work with **34 topics (T01–T34)**; topics labeled T35/T36 are considered **archival or folded into other topics**.
+
+When you use this spec together with `skillsv5/allskills.md`:
+- Treat this document as the **design contract** (domains, topics, K–2 model, dependency philosophy, AI4K12 and CSTA alignment, gateway skills).  
+- Treat `skillsv5/allskills.md` as the **live implementation** that may contain more granular micro‑steps and in‑progress refinements.  
+- If numeric totals differ between files, assume that `skillsv5/allskills.md` reflects the **latest working state**, while this spec reflects the **intended structure and constraints** that edits should respect.
+
 ---
 
 ## 1. High-Level Objectives & Achievements
@@ -33,7 +49,7 @@ This specification defines the **CreatiCode K–8 Skill Map**, a comprehensive l
 
 ### Achievements (Actual Implementation)
 
-✅ **1,119 skills** across **36 topics** in **5 domains** (Kindergarten through Grade 8)
+✅ **1,119 skills** across **34 topics** in **5 domains** (Kindergarten through Grade 8)
 
 ✅ **4,167 dependency relationships** creating explicit learning pathways
 
@@ -134,12 +150,12 @@ Domains align 1:1 with CSTA Topic Areas:
    - K-2: Sorting, counting, simple charts (picture-based)
    - 3-8: Data processing with code, visualization, statistical analysis
 
-5. **D5: Systems & Society** (T30-T36, 235 skills, 21.0%)
+5. **D5: Systems & Society** (T30-T34, 235 skills, 21.0%)
    - Hardware, internet, cybersecurity, APIs, history, impacts, ethics
    - K-2: Device recognition, privacy concepts, ethical scenarios (picture-based)
    - 3-8: Technical understanding + societal implications
 
-### 3.2 Topics (36)
+### 3.2 Topics (34)
 
 **Topic Structure:**
 - Each topic spans K-8 (or subset, e.g., G3-8 for coding-only topics)
@@ -152,10 +168,10 @@ Domains align 1:1 with CSTA Topic Areas:
 **Programming Constructs (T06-T13):** Core coding concepts
 **Applications (T14-T24):** Projects and AI integration
 **Data Science (T25-T29):** Working with information
-**Computing Context (T30-T36):** Technology in society
+**Computing Context (T30-T34):** Technology in society
 
 **K-2 Coverage:**
-- **Full coverage (10+ skills):** 14 topics (T01-T04, T13, T20, T25-T28, T30, T32, T34-T36)
+- **Full coverage (10+ skills):** 14 topics (T01-T04, T13, T20, T25-T28, T30, T32, T34-T34)
 - **Partial coverage:** 3 topics (T05, T07, T31)
 - **Bridge/pre-skills (G2 only):** 8 topics (T06, T08-T10, T12, T14, T21)
 - **Deferred to G3+:** 11 topics (T11, T15-T19, T22-T24, T29, T33)
@@ -393,7 +409,7 @@ Age-appropriate, culturally responsive themes:
 - **Outcome:** Can collect, analyze, and visualize data
 
 **Path 5: AI & Ethics (3-8)**
-- **Topics:** T21-T24 (AI Media, Chatbots, Voice/Vision, XO), T35-T36 (Impacts, Ethics) + core skills
+- **Topics:** T21-T24 (AI Media, Chatbots, Voice/Vision, XO), T35-T34 (Impacts, Ethics) + core skills
 - **Skills:** ~130 AI-focused skills
 - **Outcome:** Can use, understand, and create AI ethically
 
@@ -472,7 +488,7 @@ Age-appropriate, culturally responsive themes:
 - Case studies of AI in society
 - **NEW K-2:** Who makes AI? People behind technology
 
-**T36: Ethics, Careers, Collaboration & Communication (34 skills)**
+**T34: Ethics, Careers, Collaboration & Communication (34 skills)**
 - Ethical decision-making frameworks
 - Collaboration with AI systems
 - CS career pathways
@@ -812,7 +828,7 @@ Age-appropriate, culturally responsive themes:
 - Focus: CSTA alignment, CreatiCode capabilities
 
 **v2.0 (This Document - Production Implementation):**
-- Reflects actual implementation (1,119 skills, 36 topics, 5 domains)
+- Reflects actual implementation (1,119 skills, 34 topics, 5 domains)
 - Added: AI4K12 integration (~87.5% coverage)
 - Added: K-2 picture-based framework (206 skills)
 - Added: Dependency mapping (4,167 relationships)
@@ -828,7 +844,7 @@ Age-appropriate, culturally responsive themes:
 4. ⭐ Gateway skills and learning pathways identified
 5. ⭐ Grade 3 empirically identified as critical transition
 6. ⭐ Skill count: ~500-700 (estimated) → 1,119 (actual)
-7. ⭐ Topic count: 30-50 (suggested) → 36 (actual)
+7. ⭐ Topic count: 30-50 (suggested) → 34 (actual)
 
 ---
 
@@ -868,4 +884,4 @@ The **CreatiCode K-8 Skill Map v2.0** represents the most comprehensive, standar
 
 ---
 
-*This specification reflects the actual, validated implementation of the CreatiCode K-8 Skill Map and incorporates all major discoveries and decisions made during the development process.*
+*This specification reflects the validated **v2 concept-level implementation** of the CreatiCode K-8 Skill Map and incorporates all major discoveries and decisions made during that phase; the current `skillsv5/allskills.md` micro-skill file builds on this foundation and is undergoing ongoing refinement.*
