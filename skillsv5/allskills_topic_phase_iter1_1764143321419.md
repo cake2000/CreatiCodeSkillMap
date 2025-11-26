@@ -1,26 +1,21 @@
-# T01 - Everyday Algorithms (Phase 3 Optimized - November 2025)
-# Applied Phase 3 topic-focused optimizations:
-# - Fixed vague verb: T01.G8.10 "understand" → "analyze"
-# - Clarified G2 picture/code matching progression (T01.G2.15-17, G2.19) with **Progression note:** tags
-#   to eliminate perceived overlap and show clear skill hierarchy:
-#   - T01.G2.15: SEQUENCE-level matching (picture sequences → block images)
-#   - T01.G2.16: REVERSE direction + repeat blocks (pictures → blocks)
-#   - T01.G2.17: INDIVIDUAL BLOCK recognition (single blocks → actions)
-#   - T01.G2.19: CAPSTONE - reading actual vertically-stacked scripts
-# - Verified X-2 rule compliance for all intra-topic dependencies (CONFIRMED: no violations)
-# - Verified K-2 skills all use picture-based/unplugged format (CONFIRMED: all 38 skills compliant)
-# - No duplicate skills found within T01
-# Previous Phase 1+2 optimizations preserved:
+# T01 - Everyday Algorithms (Phase 2 Optimized - November 2025)
+# Applied Phase 2 topic-focused optimizations:
 # - Split T01.G5.03 into T01.G5.03.01 (loops), T01.G5.03.02 (conditionals), T01.G5.03.03 (variables)
 # - Split T01.G8.08 into T01.G8.08.01 (helper blocks), T01.G8.08.02 (remove duplication), T01.G8.08.03 (meaningful names)
+# - Verified all skills use active verbs (no vague "Understand" or "Know")
+# - Confirmed K-2 skills use picture-based/unplugged format
+# - Verified X-2 rule compliance for all intra-topic dependencies
+# - No duplicates found within T01
+# Previous Phase 1 optimizations preserved:
 # - Split T01.G2.18 into T01.G2.18.01 (identify) and T01.G2.18.02 (explain)
 # - Marked T01.G4.02 as CAPSTONE skill with scheduling guidance
+# - Clarified T01.G2.15-17 as picture-based matching ONLY (no code writing)
 # - Fixed truncated dependency descriptions in G7 skills
 # - Added structure explanation for T01.G5.02.XX sub-skills
 # - Fixed dependency reference mismatch in T01.GK.05
 # - Added concrete examples for recursion skills T01.G8.04-05
 # - Clarified assessment formats in T01.G3.11 and T01.G4.12
-# Total: 125 skills (unchanged from Phase 2)
+# Total: 125 skills (6 new sub-skills added from Phase 2 splits: T01.G5.03.01-04, T01.G8.08.01-04)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -407,7 +402,7 @@ Dependencies:
 ID: T01.G2.15
 Topic: T01 – Everyday Algorithms
 Skill: Match picture instructions to visual block commands
-Description: Students match simple picture‑based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block images, recognizing that pictures and blocks can represent the same algorithm. **Progression note:** This skill focuses on SEQUENCE-level matching (3-4 step sequences), building on the grid navigation skills to connect familiar direction sequences to code block representations. _Implementation note: Picture-based matching ONLY - no code writing or block arrangement. Drag‑and‑drop matching with 3–4 sequence pairs; auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students match simple picture‑based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block images, recognizing that pictures and blocks can represent the same algorithm. _Implementation note: Picture-based matching ONLY - no code writing or block arrangement. Drag‑and‑drop matching with 3–4 sequence pairs; auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.13: Write directions to navigate a simple grid
@@ -419,7 +414,7 @@ Dependencies:
 ID: T01.G2.16
 Topic: T01 – Everyday Algorithms
 Skill: Match code block images to picture sequences
-Description: Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code block IMAGES does the same thing from 3-4 options. **Progression note:** This skill REVERSES the direction from T01.G2.15 - students start with pictures and find matching blocks, and introduces "repeat" block images (building on T01.G2.03). This tests the same concept bidirectionally. _Implementation note: Picture-based MCQ ONLY - students select from pre-drawn block images, no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code block IMAGES does the same thing from 3-4 options. _Implementation note: Picture-based MCQ ONLY - students select from pre-drawn block images, no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.03: Replace repeated steps with a repeat instruction
@@ -432,7 +427,7 @@ Dependencies:
 ID: T01.G2.17
 Topic: T01 – Everyday Algorithms
 Skill: Identify the action each code block performs
-Description: Students look at simple code block IMAGES (move, turn, say) and identify what action each SINGLE block performs by matching block images to picture-based behaviors (character moving, turning, speaking). **Progression note:** This skill focuses on INDIVIDUAL BLOCK recognition (unlike T01.G2.15-16 which focus on sequences), building vocabulary of what each block type does before combining them. _Implementation note: Picture-based MCQ matching block images to action pictures - no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students look at simple code block IMAGES (move, turn, say) and identify what action each block performs by matching block images to picture-based behaviors (character moving, turning, speaking). _Implementation note: Picture-based MCQ matching block images to action pictures - no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.02: Use "repeat" to make directions shorter
@@ -469,7 +464,7 @@ Dependencies:
 ID: T01.G2.19
 Topic: T01 – Everyday Algorithms
 Skill: Read a simple 3-block script and match to pictures
-Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. **Progression note:** This is the CAPSTONE skill for G2 code reading - students read actual block script format (vertically stacked, like real code) rather than just block images. This bridges picture-based understanding to reading code structure, preparing for Grade 3 coding. _Implementation note: MCQ matching code to pictures; auto-graded. Picture-based matching only - no code writing required. CSTA: E2-ALG-AF-01._
+Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. This bridges picture-based understanding to reading code. _Implementation note: MCQ matching code to pictures; auto-graded. Picture-based matching only - no code writing required. CSTA: E2-ALG-AF-01._
 
 Dependencies:
 * T01.G2.17: Identify the action each code block performs
@@ -1721,7 +1716,7 @@ Dependencies:
 
 ID: T01.G8.10
 Topic: T01 – Everyday Algorithms
-Skill: Use logging/probes to analyze algorithm behavior
+Skill: Use logging/probes to understand algorithm behavior
 Description: Students insert logs or display statements at key points and use them to answer questions about an algorithm's internal behavior. _Implementation note: Coding + reading logs; auto‑graded. CSTA: MS‑ALG‑PS‑07, MS‑PRO‑TR‑11._
 
 Dependencies:
@@ -2130,8 +2125,8 @@ Dependencies:
 
 ID: T02.G4.05
 Topic: T02 – Algorithm Diagrams
-Skill: Use the print block to display messages in the console
-Description: Students learn to use the "print [MESSAGE] in [console] color [COLOR]" block from CreatiCode's Control category to display messages and variable values in the console panel below the editor. They observe how this helps them see what the algorithm is doing step-by-step during execution.
+Skill: Understand the print block for tracing
+Description: Students learn to use the "print [MESSAGE] in [console] color [COLOR]" block from CreatiCode's Control category to display messages and variable values in the console panel below the editor. They understand that this helps them see what the algorithm is doing step-by-step during execution.
 
 Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
@@ -2152,7 +2147,7 @@ Skill: Use the print block to trace variable changes in a loop
 Description: Students add "print [variable value] in [console]" blocks inside a repeat loop to see how a variable (like a counter) changes with each iteration, manually recording the console output to build a simple trace table on paper.
 
 Dependencies:
-* T02.G4.05: Use the print block to display messages in the console
+* T02.G4.05: Understand the print block for tracing
 * T02.G4.04.04: Predict loop output before using debug print
 * T04.G2.01: Identify the repeating unit in a longer pattern
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
@@ -2583,10 +2578,11 @@ Dependencies:
 ID: T02.G8.04
 Topic: T02 – Algorithm Diagrams
 Skill: Identify and remove redundant algorithm steps
-Description: Students analyze their block scripts and generated pseudocode to find redundant steps (duplicate checks, unnecessary variables, repeated operations), remove them, and verify the simplified algorithm still works correctly. This extends earlier algorithm improvement skills to more complex, multi-step algorithms.
+Description: Students analyze their block scripts and generated pseudocode to find redundant steps (duplicate checks, unnecessary variables, repeated operations), remove them, and verify the simplified algorithm still works correctly.
 
 Dependencies:
 * T02.G8.03: Trace complex algorithms with multiple test cases
+* T02.G5.06: Improve an algorithm by removing redundant blocks
 * T07.G6.01: Trace nested loops with variable bounds
 
 
@@ -2713,8 +2709,8 @@ Dependencies:
 
 ID: T03.G1.04
 Topic: T03 – Problem Decomposition
-Skill: Match steps to parts of a tiny story or game using picture cards
-Description: Students see a tiny story or game idea shown in pictures (e.g., "A cat says hello, then dances") and drag picture or word cards to match which step goes with each character or scene (e.g., drag "cat walks to tree" card to the cat character picture, drag "music plays" card to the background picture).
+Skill: Match steps to parts of a tiny story or game
+Description: Students see a tiny story or game idea (e.g., "A cat says hello, then dances") and match which step goes with each character or scene (e.g., "cat walks to tree" matches with the cat character, "music plays" matches with the background).
 
 Dependencies:
 * T03.G1.03: List steps for a simple classroom routine
@@ -2749,8 +2745,8 @@ Dependencies:
 
 ID: T03.G2.03
 Topic: T03 – Problem Decomposition
-Skill: Arrange subtask cards into a reasonable order
-Description: Students drag 4–5 subtask word cards and arrange them into a logical sequence (e.g., plan → create → try it out), considering what must happen first.
+Skill: Arrange subtasks into a reasonable order
+Description: Students take 4–5 subtasks and order them into a logical sequence (e.g., plan → create → try it out), considering what must happen first.
 
 Dependencies:
 * T03.G2.02: Group subtasks by type
@@ -2761,11 +2757,11 @@ Dependencies:
 
 ID: T03.G2.04
 Topic: T03 – Problem Decomposition
-Skill: Mark completed subtasks on a visual checklist
-Description: Students see a visual checklist with picture or word cards showing subtasks for a mini‑project, and tap or drag checkmarks to mark which subtasks are complete based on a description of work done ("We already drew the characters and added sounds.").
+Skill: Use a checklist to track progress on a mini‑project
+Description: Students see a mini‑project checklist and mark which subtasks are complete based on a description of work done ("We already drew the characters and added sounds.").
 
 Dependencies:
-* T03.G2.03: Arrange subtask cards into a reasonable order
+* T03.G2.03: Arrange subtasks into a reasonable order
 
 
 
@@ -3471,8 +3467,8 @@ Dependencies:
 
 ID: T04.GK.01
 Topic: T04 – Algorithm Patterns
-Skill: Select a row of picture cards showing a repeating pattern
-Description: Students look at rows of picture cards (colored shapes, animals, or objects) and click on the row that shows a clear repeating pattern (ABAB, AABB, ABCABC), distinguishing it from broken or random rows. Visual scenario activity using picture cards only.
+Skill: Identify a simple repeating pattern
+Description: Students look at rows of pictures or tiles and pick the row that shows a clear repeating pattern (ABAB, AABB, ABCABC), distinguishing it from broken or random rows.
 
 
 
@@ -3481,8 +3477,8 @@ Description: Students look at rows of picture cards (colored shapes, animals, or
 
 ID: T04.GK.02
 Topic: T04 – Algorithm Patterns
-Skill: Drag the next picture card to extend a repeating pattern
-Description: Students see a short pattern of picture cards (e.g., red circle, blue square, red circle, blue square, ?) and drag-and-drop the correct picture card to extend the pattern by one. Visual scenario activity using picture cards only.
+Skill: Extend a repeating pattern by one tile
+Description: Students see a short pattern (e.g., red, blue, red, blue, ?) and choose or drag the next picture.
 
 Dependencies:
 * T04.GK.01: Identify a simple repeating pattern
@@ -3495,8 +3491,8 @@ Dependencies:
 
 ID: T04.GK.03
 Topic: T04 – Algorithm Patterns
-Skill: Match a picture pattern to its spoken description
-Description: Students see a pattern of picture cards (shapes, colors, or objects) and click on the audio button that matches the pattern description (e.g., "circle, square, circle, square"). Audio-supported visual matching activity for pre-readers.
+Skill: Describe a pattern using simple words
+Description: Students see a pattern and choose the matching description (e.g., "circle, square, circle, square").
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -3509,8 +3505,8 @@ Dependencies:
 
 ID: T04.GK.04
 Topic: T04 – Algorithm Patterns
-Skill: Debug a broken pattern by replacing the wrong picture card
-Description: Students see a row of picture cards with one wrong picture (highlighted or marked) and drag-and-drop the correct picture card to fix the broken repeating pattern. Visual debugging activity using picture cards only.
+Skill: Fix a broken pattern by replacing one tile
+Description: Students see a pattern row with one wrong picture and replace just that tile to restore the repeating pattern.
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -3523,8 +3519,8 @@ Dependencies:
 
 ID: T04.G1.01
 Topic: T04 – Algorithm Patterns
-Skill: Match picture cards of actions to a character's repeated movements
-Description: Students see picture cards showing action sequences (e.g., hop, clap, hop, clap) and match them to a short animation showing a character performing those same repeated movements. Visual matching activity using picture cards and simple animations.
+Skill: Match a picture pattern to a movement pattern
+Description: Students match a picture pattern (e.g., hop, clap, hop, clap) to a character's actions in a short story or animation.
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -3535,8 +3531,8 @@ Dependencies:
 
 ID: T04.G1.02
 Topic: T04 – Algorithm Patterns
-Skill: Arrange action picture cards to create a repeating dance plan
-Description: Students drag-and-drop 3-4 action picture cards (e.g., spin, jump, spin, jump) into a sequence to create a repeating "dance" plan that matches a target animation. Unplugged visual planning activity using picture cards.
+Skill: Plan a short repeating animation pattern
+Description: Students choose a 3‑panel picture pattern (e.g., spin, jump, spin) and arrange action cards to create a matching "dance" plan.
 
 Dependencies:
 * T04.G1.01: Match a picture pattern to a movement pattern
@@ -3547,8 +3543,8 @@ Dependencies:
 
 ID: T04.G1.03
 Topic: T04 – Algorithm Patterns
-Skill: Highlight the repeated steps in a row of picture cards
-Description: Students examine a row of picture-based instruction cards (e.g., move forward, move forward, move forward, turn) and click to highlight which cards repeat (e.g., three identical "move forward" cards). Visual selection activity using picture cards.
+Skill: Find repeated steps in an instruction list
+Description: Students examine a short list of picture‑based steps (or action cards laid out in a row) and click or highlight the part that repeats (e.g., three identical "move forward" cards in a row).
 
 Dependencies:
 * T01.GK.07: Find the pattern that repeats
@@ -3559,8 +3555,8 @@ Dependencies:
 
 ID: T04.G1.04
 Topic: T04 – Algorithm Patterns
-Skill: Match a picture story to a step-by-step action card sequence
-Description: Students see a simple picture story (comic strip) showing a character repeating actions and match it to the correct row of step-by-step action cards that represent the same repeated sequence. Visual matching activity using picture cards.
+Skill: Match a repeated picture story to a repeated step list
+Description: Students match a picture story showing repeated actions with a simple list of steps that repeats the same action sequence.
 
 Dependencies:
 * T04.G1.03: Find repeated steps in an instruction list
@@ -3571,8 +3567,8 @@ Dependencies:
 
 ID: T04.G2.01
 Topic: T04 – Algorithm Patterns
-Skill: Select the repeating unit from a longer picture pattern
-Description: Students see a longer pattern of picture cards (e.g., star-moon-sun-star-moon-sun-star-moon-sun) and click on the group of cards that forms the repeating "unit" (e.g., star-moon-sun). Visual pattern recognition activity using picture cards.
+Skill: Identify the repeating unit in a longer pattern
+Description: Students see a longer pattern like ABCABCABC and choose the "unit" that repeats.
 
 Dependencies:
 * T04.G1.02: Plan a short repeating animation pattern
@@ -3584,8 +3580,8 @@ Dependencies:
 
 ID: T04.G2.02
 Topic: T04 – Algorithm Patterns
-Skill: Highlight the repeated steps in an everyday routine shown with picture cards
-Description: Students see picture cards showing an everyday routine (e.g., brush teeth, rinse, brush teeth, rinse, brush teeth, rinse) and click to highlight the step sequence that repeats. Focus is on identifying the pattern unit in familiar activities. Visual selection activity using picture cards.
+Skill: Spot repeated step sequences in everyday algorithms
+Description: Students read or see an everyday algorithm (e.g., "brush, rinse" repeated three times) and highlight the part that repeats, focusing on the *pattern unit* rather than the full routine.
 
 Dependencies:
 * T04.G2.01: Identify the repeating unit in a longer pattern
@@ -3596,8 +3592,8 @@ Dependencies:
 
 ID: T04.G2.03
 Topic: T04 – Algorithm Patterns
-Skill: Compare expanded vs compressed representations of a repeating pattern
-Description: Students see two visual representations of the same pattern using picture cards: one showing all steps explicitly (three star cards in a row) vs one using a "repeat 3" label with a single star card. They click on which representation is shorter and clearer. Unplugged visual comparison activity.
+Skill: Compare a long explicit description vs a compressed "repeat" description
+Description: Students compare two visual or written descriptions of the same pattern: one showing all steps explicitly (e.g., "draw star, draw star, draw star") vs one using "repeat 3 times: draw star." They identify which is shorter and clearer, focusing on pattern comparison rather than coding concepts.
 
 Dependencies:
 * T01.G2.02: Use "repeat" to make directions shorter
@@ -3608,8 +3604,8 @@ Dependencies:
 
 ID: T04.G2.04
 Topic: T04 – Algorithm Patterns
-Skill: Create a "repeat ___ times" label for a row of repeated picture cards
-Description: Students see a row of repeated picture cards (e.g., four jump cards) and select or type the correct number to create a "repeat 4: [jump]" compressed representation. Focus is on expressing repetition concisely using visual notation. Unplugged activity preparing for loop concepts.
+Skill: Replace repeated steps with a "repeat ___ times" phrase
+Description: Students rewrite a long visual or written pattern description by selecting or creating a compressed version using "repeat ___ times" notation. Focus is on recognizing and expressing repetition concisely, using visual notation like "repeat 4: [pattern]" rather than preparing for coding.
 
 Dependencies:
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
@@ -3620,8 +3616,8 @@ Dependencies:
 
 ID: T04.G2.05
 Topic: T04 – Algorithm Patterns
-Skill: Match a "repeat box" diagram to its expanded picture card sequence
-Description: Students see a visual "repeat box" (a box drawn around picture cards with "repeat 3 times" label) and match it to the equivalent expanded sequence showing all three repetitions. UNPLUGGED visual matching activity preparing students for code blocks in Grade 3.
+Skill: Match a "repeat box" diagram to repeated steps (unplugged visual activity)
+Description: Students see a visual representation of repetition—a box drawn around pictures or steps with "repeat 3 times" written above it—and match it to the equivalent expanded sequence showing all repetitions. This is an UNPLUGGED activity using visual notation (pictures, drawings) to help organize repeated elements before transitioning to code blocks.
 
 Dependencies:
 * T04.G2.04: Replace repeated steps with a "repeat ___ times" phrase
@@ -3733,8 +3729,8 @@ Dependencies:
 
 ID: T04.G3.07
 Topic: T04 – Algorithm Patterns
-Skill: Debug a loop where one action block is incorrect
-Description: Students examine a loop or repeated sequence where one action block differs from the intended pattern and edit that block to fix the error. Focus is on identifying and correcting single-step pattern errors.
+Skill: Fix a pattern where one step is wrong
+Description: Students repair a loop or repeated sequence where one action is different from the rest.
 
 Dependencies:
 * T04.G3.06: Fix a loop that repeats too many or too few times
@@ -3894,8 +3890,8 @@ Dependencies:
 
 ID: T04.G4.07
 Topic: T04 – Algorithm Patterns
-Skill: Evaluate the benefits of reusing algorithm patterns
-Description: Students answer multiple-choice questions distinguishing true benefits of reusing patterns (e.g., "less code to write," "fewer bugs," "easier to understand") from incorrect claims (e.g., "makes code run faster," "uses less memory"). Focus is on reasoning about code quality tradeoffs.
+Skill: Select reasons why reusing a pattern saves time
+Description: Students answer multiple-choice questions identifying benefits of reusing patterns (e.g., "less code to write," "fewer bugs," "easier to understand") versus incorrect claims (e.g., "makes code run faster," "uses less memory").
 
 Dependencies:
 * T04.G3.08: Match algorithm descriptions to code pattern shapes
@@ -4259,7 +4255,7 @@ Description: Students recognize when code uses a list or grid pattern (e.g., ite
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T08.G5.01: Use a simple if in a script
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T10.G5.01: Identifying data structure patterns requires understanding lists and tables.
 
 
 
@@ -4274,7 +4270,7 @@ Dependencies:
 * T04.G5.01: Recognize a counter update pattern
 * T04.G5.02: Recognize an accumulator (sum/concatenate) pattern
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T08.G5.01: Use a simple if in a script
+* T08.G5.01: Pattern identification requires conditional analysis of problem characteristics.
 
 
 
@@ -4299,9 +4295,9 @@ Description: Students code a solution that uses two patterns together (e.g., loo
 
 Dependencies:
 * T04.G7.04: Outline a solution combining two patterns
-* T06.G5.01: Identify standard event patterns in a small game
-* T09.G5.01: Use multiple variables together in a single expression
-* T07.G5.01: Simulate repeated experiments with a loop
+* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G5.01: Display variable value on stage using the variable monitor
+* T07.G5.01: Combined patterns often involve nested loops for processing data.
 
 
 
@@ -4378,8 +4374,8 @@ Description: Students refactor code that has repeated pattern blocks into a more
 
 Dependencies:
 * T04.G6.02: Identify pattern variants that look different but behave the same
-* T07.G5.01: Simulate repeated experiments with a loop
-* T11.G5.01: Define a custom block with multiple parameters
+* T07.G5.01: Use a counted repeat loop
+* T11.G5.01: Merging patterns often involves creating reusable functions.
 
 
 
@@ -4516,17 +4512,6 @@ Dependencies:
 
 
 
-# T05 - Human-Centered Design (Phase 3 Optimized - November 2025)
-# Applied Phase 3 topic-focused optimizations:
-# - Fixed dependency reference mismatch: T05.G2.04 now correctly references T05.G2.03 skill title
-# - Fixed truncated dependency descriptions in G7 skills (T05.G7.01a, G7.01c, G7.02, G7.03, G7.05, G7.06, G7.08)
-#   Replaced explanatory text with actual skill titles for cross-topic dependencies (T07, T08, T10)
-# - Verified X-2 rule compliance for all intra-topic dependencies (CONFIRMED: no violations)
-# - Verified K-2 skills all use picture-based/unplugged format (CONFIRMED: all 12 skills compliant)
-# - Two parallel tracks identified: Design Track (user research, wireframes, accessibility) and
-#   Simulation Track (variables, rules, experiments) - both support HCD principles
-# - No duplicate skills found within T05
-# Total: 55 skills (unchanged from Phase 2)
 
 ID: T05.GK.01
 Topic: T05 – Human‑Centered Design
@@ -4670,7 +4655,7 @@ Skill: Choose what to include in a very simple simulation
 Description: Students see a picture of a situation (e.g., garden with sun, rain, flowers, bugs, fence). They drag and drop 2–3 pictures of important things to include in a "computer pretend version" to answer a question like "What helps the plant grow?" while leaving out unimportant details.
 
 Dependencies:
-* T05.G2.03: Match real situations to pretend computer versions
+* T05.G2.03: Recognize when a situation could be simulated
 
 
 
@@ -5150,7 +5135,7 @@ Description: Students test a CreatiCode project for keyboard-only navigation (ca
 
 Dependencies:
 * T05.G7.01: Check color contrast and text readability in a project
-* T07.G5.01: Simulate repeated experiments with a loop
+* T07.G5.01: Checklist reviews iterate through multiple criteria.
 
 
 
@@ -5175,7 +5160,7 @@ Description: Students perform a comprehensive accessibility review combining all
 
 Dependencies:
 * T05.G7.01b: Check captions and alternative text in a project
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T10.G5.01: Accessibility checklists are organized as structured lists.
 
 
 
@@ -5188,7 +5173,7 @@ Description: Students evaluate a CreatiCode project for color contrast issues (t
 
 Dependencies:
 * T05.G5.05a: Identify accessibility features needed in a design
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
+* T08.G5.01: Accessibility review requires conditional checks against criteria.
 
 
 
@@ -5201,8 +5186,8 @@ Description: Students see a list of identified accessibility issues and drag-and
 
 Dependencies:
 * T05.G7.01c: Complete a full accessibility review with evidence
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Prioritization requires conditional decision-making based on severity.
+* T10.G5.01: Issue prioritization involves creating and sorting lists of problems.
 
 
 
@@ -5216,8 +5201,8 @@ Description: Students read a project description (e.g., social app, data collect
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T05.G5.05: Plan how to test whether a design meets user needs
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Harm identification requires conditional reasoning about different user scenario
+* T10.G5.01: Harm identification produces lists of potential issues.
 
 
 
@@ -5243,8 +5228,8 @@ Description: Students analyze a simple data visualization (bar chart of feature 
 Dependencies:
 * T05.G5.05: Plan how to test whether a design meets user needs
 * T05.G6.04: Update a design based on specific user feedback
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Data interpretation requires conditional logic to identify problems.
+* T10.G5.01: Usage data is typically stored in tables or lists for analysis.
 
 
 
@@ -5257,8 +5242,8 @@ Description: Students select from multiple choice options which design changes c
 
 Dependencies:
 * T05.G7.05: Interpret usage or feedback data to find UX problems
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Design decisions require conditional logic based on data patterns.
+* T10.G5.01: Data patterns are identified from tabular or list-based data.
 
 
 
@@ -5284,8 +5269,8 @@ Description: Students implement a simple simulation they planned (or are given a
 Dependencies:
 * T05.G6.05: Plan a simple CreatiCode simulation with variables, rules, and UI
 * T05.G6.08: Identify user questions a simulation should answer
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Simulation testing requires conditional logic for different scenarios.
+* T10.G5.01: Simulation testing produces data sets for refinement.
 
 
 
@@ -5424,7 +5409,7 @@ Skill: Order pictures showing a morning routine (event sequence concept)
 Description: Students arrange 3-4 picture cards showing a simple morning routine in the correct order (e.g., wake up → brush teeth → eat breakfast → go to school). This unplugged activity builds foundational understanding of event sequences and chronological ordering without coding. Use familiar, concrete scenarios from daily life that children can relate to.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T01.GK.01: Recognize and compare object sizes
 
 
 
@@ -5702,8 +5687,8 @@ Dependencies:
 
 ID: T06.G4.03
 Topic: T06 – Events & Sequences
-Skill: Select broadcast as the communication method for sprite coordination
-Description: Given a project idea requiring coordination between sprites (e.g., "when player reaches goal, show next level"), students choose broadcast as the appropriate communication method from options including direct references, broadcasts, and variables. This introduces the concept of inter-sprite communication before building it.
+Skill: Recognize when a broadcast could connect sprites
+Description: Students see a project idea requiring coordination between sprites (e.g., "when player reaches goal, show next level") and choose that a broadcast is appropriate. This introduces the concept of inter-sprite communication before building it.
 
 Dependencies:
 * T06.G4.02: Trace which scripts run for different inputs
@@ -5849,8 +5834,8 @@ Dependencies:
 
 ID: T06.G5.01
 Topic: T06 – Events & Sequences
-Skill: Locate and label the game-start pattern in existing code
-Description: Students locate and label the 'game-start' pattern in a small game: find the green flag event handler that performs initialization (reset score, position sprites, set variables) and mark it with a comment. Explain why initialization must happen first.
+Skill: Identify the game-start pattern in existing code
+Description: Students locate and label the 'game-start' pattern in a small game: identify the green flag event handler that performs initialization (reset score, position sprites, set variables). Explain why initialization must happen first.
 
 Dependencies:
 * T06.G4.12: Use green flag initialization to prepare game state
@@ -5859,31 +5844,31 @@ Dependencies:
 
 ID: T06.G5.01.01
 Topic: T06 – Events & Sequences
-Skill: Trace and label the reset-level pattern using broadcasts
-Description: Students trace and label the 'reset-level' pattern: find the broadcast that triggers level reset and the receivers that reposition sprites and reset local state. Draw arrows showing the broadcast flow from sender to all receivers.
+Skill: Identify the reset-level pattern using broadcasts
+Description: Students locate and label the 'reset-level' pattern: find the broadcast that triggers level reset and the receivers that reposition sprites and reset local state. Trace the broadcast from sender to all receivers.
 
 Dependencies:
-* T06.G5.01: Locate and label the game-start pattern in existing code
+* T06.G5.01: Identify the game-start pattern in existing code
 * T06.G4.06: Match a broadcast send to its receivers
 
 
 ID: T06.G5.01.02
 Topic: T06 – Events & Sequences
-Skill: Locate and explain the on-collision pattern for game interactions
-Description: Students locate and label the 'on-collision' pattern: find "when touching sprite" or "when touching color" event handlers that trigger game actions (scoring, damage, level transition). Explain how collision detection connects to game logic by describing the cause-effect relationship.
+Skill: Identify the on-collision pattern for game interactions
+Description: Students locate and label the 'on-collision' pattern: find "when touching sprite" or "when touching color" event handlers that trigger game actions (scoring, damage, level transition). Explain the relationship between collision detection and game logic.
 
 Dependencies:
-* T06.G5.01.01: Trace and label the reset-level pattern using broadcasts
+* T06.G5.01.01: Identify the reset-level pattern using broadcasts
 * T06.G4.09: Use "when touching sprite" for sprite-to-sprite collision
 
 
 ID: T06.G5.01.03
 Topic: T06 – Events & Sequences
-Skill: Locate and explain the on-state-change pattern using condition events
-Description: Students locate and label the 'on-state-change' pattern: find "when <condition>" blocks that trigger actions when game state changes (score reaches threshold, health becomes zero). Explain how condition events enable reactive game logic by describing when and why each condition fires.
+Skill: Identify the on-state-change pattern using condition events
+Description: Students locate and label the 'on-state-change' pattern: find "when <condition>" blocks that trigger actions when game state changes (score reaches threshold, health becomes zero). Explain how condition events enable reactive game logic.
 
 Dependencies:
-* T06.G5.01.02: Locate and explain the on-collision pattern for game interactions
+* T06.G5.01.02: Identify the on-collision pattern for game interactions
 
 
 
@@ -6044,8 +6029,8 @@ Dependencies:
 
 ID: T06.G6.02
 Topic: T06 – Events & Sequences
-Skill: Distinguish parallel vs sequential event behaviors in code
-Description: Students analyze code to determine which scripts run concurrently (multiple event handlers triggered by same event start together) vs sequentially (using 'broadcast and wait' ensures order). Label each script as "parallel" or "sequential" and explain that Scratch's threading model allows parallel execution unlike traditional procedural code.
+Skill: Identify parallel vs sequential event behaviors
+Description: Students analyze code to determine which scripts run concurrently (multiple event handlers triggered by same event start together) vs sequentially (using 'broadcast and wait' ensures order). Explain that Scratch's threading model allows parallel execution unlike traditional procedural code.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -6390,7 +6375,7 @@ Skill: Design animation sequences with broadcast coordination
 Description: Students create complex multi-sprite animations by coordinating broadcasts to sequence different animation stages (e.g., "intro-start" → sprite1 animates → broadcasts "intro-part2" → sprite2 animates → broadcasts "intro-done"). Use 'broadcast and wait' to ensure timing.
 
 Dependencies:
-* T06.G6.02: Distinguish parallel vs sequential event behaviors in code
+* T06.G4.05: Use "broadcast and wait" to sequence sprite actions
 * T06.G7.03: Design a broadcast protocol to decouple components
 
 
@@ -6413,22 +6398,13 @@ Dependencies:
 
 ID: T06.G8.02
 Topic: T06 – Events & Sequences
-Skill: Implement a processing flag to prevent double-click issues
-Description: Students add a 'processing' flag variable that prevents event handlers from running multiple times simultaneously. When an event fires, check if already processing; if not, set flag to true, run the action, then set flag to false. Apply this pattern to prevent issues when users click rapidly or press keys multiple times.
+Skill: Implement guard conditions to handle missed or repeated events
+Description: Students add guard conditions (e.g., if not already running, if state is valid) to ensure programs behave correctly when events fire unexpectedly. Implement at least two guards: (1) prevent double-click issues using a 'processing' flag, (2) handle missed initialization by checking/setting default values.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G7.04: Compare tightly coupled vs broadcast-based designs
-
-
-ID: T06.G8.02.01
-Topic: T06 – Events & Sequences
-Skill: Add default value checks to handle missed initialization
-Description: Students add guard conditions at the start of event handlers to check if required variables have valid values, and set defaults if not (e.g., if score is undefined, set to 0). This ensures robust programs that work correctly even if initialization events were missed or skipped.
-
-Dependencies:
-* T06.G8.02: Implement a processing flag to prevent double-click issues
 
 
 
@@ -6486,23 +6462,13 @@ Dependencies:
 
 
 
-ID: T06.G6.20
-Topic: T06 – Events & Sequences
-Skill: Design collision response patterns for game interactions
-Description: Students design and implement collision response patterns that combine collision detection events with appropriate game logic (scoring, damage, state changes, sound effects). Create a collision response table documenting: collision type, triggering sprites, and resulting actions. This bridges basic collision events to complex 3D collision handling.
-
-Dependencies:
-* T06.G5.12: Use 2D physics collision events for realistic interactions
-* T06.G5.01.02: Locate and explain the on-collision pattern for game interactions
-
-
 ID: T06.G8.07
 Topic: T06 – Events & Sequences
 Skill: Use 3D collision events for object interactions
 Description: Students use "when colliding with [sprite]" in 3D contexts to detect when 3D objects collide, triggering appropriate responses (damage, scoring, state changes). Compare to 2D collision events to understand how collision detection works in 3D space.
 
 Dependencies:
-* T06.G6.20: Design collision response patterns for game interactions
+* T06.G4.09: Use "when touching sprite" for sprite-to-sprite collision
 * T17.G6.02: Add and position 3D objects
 
 
@@ -6554,7 +6520,7 @@ Skill: Use "when 3D scene is initialized" for setup
 Description: Students use "when 3D scene is initialized" to perform one-time 3D setup (loading 3D models, positioning camera, setting lighting, initializing 3D physics). This ensures 3D resources are ready before other scripts run, similar to green flag initialization but specifically for 3D content.
 
 Dependencies:
-* T06.G6.19: Use a variable to track simple program states
+* T06.G4.12: Use green flag initialization to prepare game state
 * T17.G6.01: Build a simple 3D scene with camera controls
 
 
@@ -6935,7 +6901,7 @@ Description: Students refactor longer scripts where the repeated segments have s
 Dependencies:
 * T07.G4.03.01: Use a basic for-loop with start, limit, and step
 * T07.G4.04: Identify and convert simple repeated code into loops
-* T07.G5.04: Create nested loops for advanced patterns or tilings
+* T07.G5.04: Nested loops for advanced patterns or tilings
 
 
 
@@ -6976,7 +6942,7 @@ Description: Students use trace tables to systematically track variable values t
 
 Dependencies:
 * T07.G5.03: Use loops to compute aggregates
-* T07.G5.04: Create nested loops for advanced patterns or tilings
+* T07.G5.04: Nested loops for advanced patterns or tilings
 * T09.G4.01: Use variables to store and update game state
 
 
@@ -6990,7 +6956,7 @@ Description: Students trace nested loops that produce visual/spatial output wher
 
 Dependencies:
 * T07.G6.05: Trace nested loops with abstract calculations using trace tables
-* T07.G5.04: Create nested loops for advanced patterns or tilings
+* T07.G5.04: Nested loops for advanced patterns or tilings
 
 
 
@@ -7017,7 +6983,7 @@ Description: Students use CreatiCode's `break` block to exit a loop immediately 
 
 Dependencies:
 * T07.G5.02: Build a list with a loop
-* T07.G4.03.01: Use a basic for-loop with start, limit, and step
+* T07.G6.09.01: Use for-each item to iterate over list values
 
 
 
@@ -7125,7 +7091,7 @@ Description: Students design loop‑based simulations that approximate probabili
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
-* T07.G7.04: Identify and construct loop patterns for counting and accumulation
+* T07.G7.04: Loop patterns for counting and accumulation
 
 
 
@@ -7195,7 +7161,7 @@ Description: Students use nested loops to process 2D‑structured data (e.g., a 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
-* T07.G7.04: Identify and construct loop patterns for counting and accumulation
+* T07.G7.04: Loop patterns for counting and accumulation
 
 
 
@@ -7209,7 +7175,7 @@ Description: Students compare different loop structures for the same problem (e.
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
-* T07.G7.04: Identify and construct loop patterns for counting and accumulation
+* T07.G7.04: Loop patterns for counting and accumulation
 
 
 
@@ -7506,7 +7472,7 @@ Skill: Identify situations requiring AND
 Description: Students recognize real-world scenarios that require both conditions to be true before an action occurs (e.g., "You need a ticket AND to be tall enough to ride", "Save file if changes were made AND user clicks save button"). This develops pattern recognition for AND logic in everyday contexts before coding it. Present 4-5 scenarios and students identify which ones need AND vs single conditions.
 
 Dependencies:
-* T08.G4.00: Predict outcomes using AND truth table
+* T08.G4.00: Understand AND truth table
 
 CSTA: E4-ALG-AF-01
 
@@ -7534,7 +7500,7 @@ Skill: Distinguish AND vs OR scenarios
 Description: Students are given scenarios and choose whether they require AND (both conditions) or OR (at least one condition). For example, "To enter the club you need to be a member OR pay a fee" (OR) vs "To graduate you need to pass all classes AND complete the project" (AND). This develops critical thinking about boolean logic operator selection. Present 5-6 mixed scenarios.
 
 Dependencies:
-* T08.G4.01a: Predict outcomes using OR truth table
+* T08.G4.01a: Understand OR truth table
 * T08.G4.00b: Identify situations requiring AND
 
 CSTA: E4-ALG-AF-01
@@ -7591,7 +7557,7 @@ Skill: Use NOT to invert conditions
 Description: Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly. This introduces logical negation in code and develops code clarity judgment. Students compare "if NOT condition" vs "if opposite condition" patterns.
 
 Dependencies:
-* T08.G4.05a: Predict outcomes using NOT truth table
+* T08.G4.05a: Understand NOT truth table
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
@@ -7766,26 +7732,13 @@ CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
 
 
-ID: T08.G5.02
-Topic: T08 – Conditions & Logic
-Skill: Implement multi-branch decision logic in code
-Description: Students translate their decision tree designs into actual code using nested or chained if/else statements. Given a flowchart or design specification, students build the corresponding conditional structure (e.g., grading system with A/B/C/D/F outcomes, game difficulty selector). This bridges design (T08.G5.01) and complex boolean logic (T08.G5.03).
-
-Dependencies:
-* T08.G5.01: Design multi-branch decision logic
-
-CSTA: E5-ALG-AF-01, E5-PRO-PF-01
-
-
-
-
 ID: T08.G5.03
 Topic: T08 – Conditions & Logic
 Skill: Combine three or more conditions
 Description: Students write compound conditions that combine three or more tests using AND/OR/NOT, such as "if score > 100 AND lives > 0 AND has_key then ..." This extends compound logic skills to more complex scenarios requiring multiple simultaneous checks.
 
 Dependencies:
-* T08.G5.02: Implement multi-branch decision logic in code
+* T08.G4.05b: Use NOT to invert conditions
 * T08.G4.08: Analyze and fix a compound logic bug
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
@@ -30448,7 +30401,7 @@ Dependencies:
 ID: T25.GK.01
 Topic: T25 – Data Collection & Logging
 Skill: Identify countable things in a picture
-Description: Using picture cards showing a classroom scene, students point to objects they could count (books, chairs, students), building awareness that we can collect information by counting things we see.
+Description: Students scan a picture of a classroom and point to objects they could count (books, chairs, students), building awareness that we can collect information by counting things we see.
 
 Dependencies:
 * T09.GK.01: Notice when things are different
@@ -30460,7 +30413,7 @@ Dependencies:
 ID: T25.GK.02
 Topic: T25 – Data Collection & Logging
 Skill: Use tokens to log repeated events
-Description: Using picture cards showing a short animated sequence, learners slide a bead or token each time an event occurs (e.g., a bunny hops), then count tokens at the end to create their first "log."
+Description: Learners watch a simple animation and slide a bead/token each time an event occurs, then count tokens at the end. This is their first "log."
 
 Dependencies:
 * T25.GK.01: Identify countable things in a picture
@@ -30475,7 +30428,7 @@ Dependencies:
 ID: T25.GK.03
 Topic: T25 – Data Collection & Logging
 Skill: Capture yes/no answers with smile/frown cards
-Description: Using smile and frown picture cards, students ask a peer a yes/no question (e.g., "Do you like apples?") and place the response card into the correct bin, making a physical tally of answers.
+Description: Students ask a peer a yes/no question and place the response card into the correct bin, making a physical tally.
 
 Dependencies:
 * T25.GK.01: Identify countable things in a picture
@@ -30486,8 +30439,8 @@ Dependencies:
 
 ID: T25.G1.01
 Topic: T25 – Data Collection & Logging
-Skill: Conduct a three-option picture survey
-Description: Using picture cards showing three snack options (e.g., apple, cookie, banana), students survey five peers by having them point to their favorite, then place stickers on a mini poster to record each answer.
+Skill: Run a three-option picture survey
+Description: Students pick a topic (favorite snack) and provide three picture choices. They ask five peers and place stickers on a mini poster to record answers.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -30498,11 +30451,11 @@ Dependencies:
 
 ID: T25.G1.02
 Topic: T25 – Data Collection & Logging
-Skill: Record observation logs over time
-Description: Using picture cards showing weather icons (sunny, cloudy, rainy), learners observe and record the weather twice daily (morning and afternoon) for a week using a visual log sheet, emphasizing longitudinal data collection.
+Skill: Keep observation logs over time
+Description: Learners observe a daily attribute twice (morning vs afternoon temperature icon) for a week, emphasizing longitudinal collection.
 
 Dependencies:
-* T25.G1.01: Conduct a three-option picture survey
+* T25.G1.01: Run a three-option picture survey
 
 
 
@@ -30511,10 +30464,10 @@ Dependencies:
 ID: T25.G1.03
 Topic: T25 – Data Collection & Logging
 Skill: Follow a simple data-collection checklist
-Description: Using a picture-based checklist showing three steps (introduce, ask, record), students practice collecting data from classmates in the same order each time and reflect on why following consistent steps matters.
+Description: Students learn to (1) introduce themselves, (2) ask the question the same way, (3) record the answer immediately. They practice on classmates and reflect on why following steps matters.
 
 Dependencies:
-* T25.G1.01: Conduct a three-option picture survey
+* T25.G1.01: Run a three-option picture survey
 
 
 
@@ -30523,11 +30476,11 @@ Dependencies:
 ID: T25.G2.01
 Topic: T25 – Data Collection & Logging
 Skill: Distinguish observational vs survey data
-Description: Using picture cards showing example data collection scenarios, students sort statements into two bins: "observed" (counting birds at the feeder) vs "asked" (asking about favorite color), reinforcing method selection.
+Description: Students categorize example data statements as "observed" (counting birds) or "asked" (favorite color), reinforcing method selection.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
-* T25.G1.02: Record observation logs over time
+* T25.G1.02: Keep observation logs over time
 
 
 
@@ -30536,10 +30489,10 @@ Dependencies:
 ID: T25.G2.02
 Topic: T25 – Data Collection & Logging
 Skill: Build a two-column record sheet
-Description: Using a visual template, learners create a simple two-column table to log respondents' names and answers, demonstrating why we store identifiers alongside data.
+Description: Learners create a simple table to log respondents' names and answers, showing why we store identifiers alongside data.
 
 Dependencies:
-* T25.G1.01: Conduct a three-option picture survey
+* T25.G1.01: Run a three-option picture survey
 * T24.G1.02: Design a picture table
 
 
@@ -30548,12 +30501,12 @@ Dependencies:
 
 ID: T25.G2.03
 Topic: T25 – Data Collection & Logging
-Skill: Measure and record duration data
-Description: Using a visual recording sheet, students run a simple experiment (spin a top or roll a ball) and record each trial's duration using a timer, highlighting measurement precision and repeated trials.
+Skill: Use timers to collect duration data
+Description: Students run a simple experiment (spin a top) and record each trial's duration using a timer, highlighting measurement precision.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
-* T25.G1.02: Record observation logs over time
+* T25.G1.02: Keep observation logs over time
 
 
 
@@ -30562,10 +30515,10 @@ Dependencies:
 ID: T25.G2.04
 Topic: T25 – Data Collection & Logging
 Skill: Explain why sample size matters
-Description: Using picture cards showing two survey results (3 responses vs 10 responses), learners compare and explain why the larger sample may be more reliable for drawing conclusions.
+Description: Learners see two surveys (3 responses vs 10) and explain why the larger one may be more reliable.
 
 Dependencies:
-* T25.G1.01: Conduct a three-option picture survey
+* T25.G1.01: Run a three-option picture survey
 * T25.G2.02: Build a two-column record sheet
 
 
@@ -30575,7 +30528,7 @@ Dependencies:
 ID: T25.G2.05
 Topic: T25 – Data Collection & Logging
 Skill: Conduct a multi-response tally survey
-Description: Using picture cards showing four season choices, students run an unplugged survey asking "What's your favorite season?", practicing tally marks on a visual sheet and organizing more complex response categories before learning coded surveys.
+Description: Students run an unplugged survey with four or more answer choices (e.g., "What's your favorite season?"), practicing tally marks and organizing more complex response categories before learning coded surveys.
 
 Dependencies:
 * T25.G2.04: Explain why sample size matters
@@ -30587,8 +30540,8 @@ Dependencies:
 
 ID: T25.G3.01
 Topic: T25 – Data Collection & Logging
-Skill: Build a CreatiCode survey loop
-Description: Students build a script that repeats the `ask` block five times, storing each answer in a list variable using `add item to list`, creating their first programmatic survey.
+Skill: Script a CreatiCode survey loop
+Description: Students write a script that repeats `ask` five times, storing each answer in a list variable (linking T26 to T25 representations).
 
 Dependencies:
 * T25.G2.01: Distinguish observational vs survey data
@@ -30602,11 +30555,11 @@ Blocks: ask and wait, repeat, add item to list
 
 ID: T25.G3.02
 Topic: T25 – Data Collection & Logging
-Skill: Design fair survey questions
-Description: Learners compare two survey questions—one biased ("Don't you love cats?") and one neutral ("What is your favorite pet?")—then design their own fair question and implement it in CreatiCode using the ask block with multiple-choice buttons, ensuring all response options are equally valid.
+Skill: Write fair survey questions
+Description: Learners compare two survey questions—one that suggests an answer ("Don't you love cats?") and one that is neutral ("What is your favorite pet?")—then practice writing their own fair survey question and implement it in CreatiCode using the ask block with multiple-choice buttons, ensuring all response options are equally valid.
 
 Dependencies:
-* T25.G3.01: Build a CreatiCode survey loop
+* T25.G3.01: Script a CreatiCode survey loop
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
@@ -30618,11 +30571,11 @@ Blocks: ask and wait, answer, if-then
 
 ID: T25.G3.03
 Topic: T25 – Data Collection & Logging
-Skill: Implement sensor-style event logging with counters
-Description: Students implement a script where a sprite increments a counter variable each time a key is pressed, simulating basic telemetry collection for tracking user interactions.
+Skill: Log sensor-style events with counters
+Description: Students build a script where a sprite increments a counter variable each time a key is pressed, simulating basic telemetry collection for tracking user interactions.
 
 Dependencies:
-* T25.G3.01: Build a CreatiCode survey loop
+* T25.G3.01: Script a CreatiCode survey loop
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
@@ -30638,7 +30591,7 @@ Skill: Store raw data in lists
 Description: Students create a list to store all raw survey answers without any processing (e.g., 'red', 'blue', 'red', 'blue', 'red'), learning to preserve original data exactly as collected before any aggregation or transformation.
 
 Dependencies:
-* T25.G3.03: Implement sensor-style event logging with counters
+* T25.G3.03: Log sensor-style events with counters
 * T08.G3.01: Use a simple if in a script
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
@@ -30666,8 +30619,8 @@ Blocks: create list, add to list, join (for summary formatting), length of list
 
 ID: T25.G3.05
 Topic: T25 – Data Collection & Logging
-Skill: Identify common data collection mistakes
-Description: Students analyze sample data sets containing common mistakes (missing entries, inconsistent spelling, duplicate records) and identify what went wrong, preparing them to track invalid data in G4.
+Skill: Spot common data collection mistakes
+Description: Students review sample data sets containing common mistakes (missing entries, inconsistent spelling, duplicate records) and identify what went wrong, preparing them to track invalid data in G4.
 
 Dependencies:
 * T25.G3.04.02: Generate summary data from raw data
@@ -30684,7 +30637,7 @@ Skill: Implement basic consent before data collection
 Description: Students create a consent workflow that uses an ask block to get user permission ('Do you want to share your answer? yes/no') before collecting and saving any data. They use an if-then block to only store the response if the user agrees, learning to implement privacy-by-design.
 
 Dependencies:
-* T25.G3.01: Build a CreatiCode survey loop
+* T25.G3.01: Script a CreatiCode survey loop
 * T08.G3.01: Use a simple if in a script
 
 Blocks: ask and wait, if-then, add to list
@@ -30876,7 +30829,7 @@ Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
 * T25.G4.02.02: Log structured events with multiple attributes
-* T25.G4.07: Use list statistics blocks to summarize collected data
+* T25.G5.01.03: Use color-coded console messages for different event types
 
 Blocks: print to console, variables
 
@@ -30943,7 +30896,7 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G3.03: Add and remove items from a list
-* T25.G3.01: Build a CreatiCode survey loop
+* T25.G3.01: Script a CreatiCode survey loop
 
 Blocks: ask and wait, pick random from list
 
@@ -30976,8 +30929,8 @@ Description: Learners push collected events into table variables with named colu
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T10.G4.02: Read and modify cells in a table
-* T25.G4.02.02: Log structured events with multiple attributes
-* T25.G4.07: Use list statistics blocks to summarize collected data
+* T25.G5.01: Add print statements to track events during execution
+* T25.G5.04.01: Create tables with named columns
 
 Blocks: create table, add row to table, get cell from table, set cell in table
 
@@ -31190,8 +31143,7 @@ Dependencies:
 * T09.G4.04: Trace code with variables to predict outcomes
 * T10.G4.02: Read and modify cells in a table
 * T25.G5.04: Store logs in CreatiCode tables for export
-* T25.G5.07: Collect face detection data into tables
-* T25.G5.09: Collect data from two synchronized sensors
+* T25.G6.02.02: Combine face and hand tracking data in one table
 
 Blocks: detect faces, detect hands, loudness of microphone, add row to table, timer
 
@@ -31490,7 +31442,7 @@ Dependencies:
 * T10.G5.03: Add and remove items from a list
 * T25.G5.04: Store logs in CreatiCode tables for export
 * T25.G6.03: Create consent and opt-out workflows with widget dialogs
-* T25.G6.07: Import data from Google Sheets into tables
+* T25.G7.03.02: Create metadata table for data sources
 
 Blocks: import table from file, create table, add row to table
 
@@ -31755,8 +31707,8 @@ Dependencies:
 
 ID: T26.GK.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Compare which group has more using picture cards
-Description: Using picture cards showing two groups of objects (≤5 each), learners count each pile and state which is larger or if they match, building comparative reasoning through visual comparison.
+Skill: Compare which group has more
+Description: Learners count two piles (≤5 each) and state which is larger or if they match, building comparative reasoning.
 
 Dependencies:
 * T26.GK.01: Sort objects by a rule and explain it
@@ -31770,7 +31722,7 @@ Skill: Read a two-column picture chart
 Description: Students interpret which category wins using a pictograph (one icon per item), establishing the basic concept of visual comparisons.
 
 Dependencies:
-* T26.GK.02: Compare which group has more using picture cards
+* T26.GK.02: Compare which group has more
 
 
 
@@ -31799,8 +31751,8 @@ Dependencies:
 
 ID: T26.G1.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Describe a picture chart finding in one sentence
-Description: Students describe what the chart shows ("Most kids chose apples") using comparative language to communicate findings from visual data.
+Skill: Tell a one-sentence story with data
+Description: Students describe what the chart shows ("Most kids chose apples") using comparative language to communicate findings.
 
 Dependencies:
 * T26.G1.01: Build a pictograph from tallies
@@ -31847,7 +31799,7 @@ Skill: Decide if data answers the question asked
 Description: Students read a question ("Which snack is most popular?") and determine if the provided chart answers it or if more data is needed, building critical thinking about data relevance.
 
 Dependencies:
-* T26.G1.03: Describe a picture chart finding in one sentence
+* T26.G1.03: Tell a one-sentence story with data
 * T26.G2.02: Interpret simple line plots
 
 
@@ -32012,7 +31964,7 @@ Dependencies:
 
 ID: T26.G4.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Identify the median in a sorted dataset
+Skill: Understand median concept
 Description: Students examine small, pre-sorted datasets and identify the median (middle value) through visual inspection and counting. They explain why median differs from mean and when median is more useful (when data has extreme values). They connect to everyday situations: median is like finding the 'middle kid' when lining up by height.
 
 Dependencies:
@@ -32027,18 +31979,18 @@ Skill: Calculate median using built-in blocks
 Description: Students use '[median v] of column [scores] in table [data v]' to find the middle value in table columns. They verify results by sorting data and finding the middle position manually.
 
 Dependencies:
-* T26.G4.03: Identify the median in a sorted dataset
+* T26.G4.03: Understand median concept
 
 
 
 
 ID: T26.G4.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Identify the mode in a dataset by counting
-Description: Students identify the mode (most frequent value) in small datasets by counting occurrences. They explain when mode is useful (finding most popular choice, most common response) and how it differs from mean and median.
+Skill: Understand mode concept
+Description: Students identify the mode (most frequent value) in small datasets by counting occurrences. They understand when mode is useful (finding most popular choice, most common response) and how it differs from mean and median.
 
 Dependencies:
-* T26.G4.03: Identify the median in a sorted dataset
+* T26.G4.03: Understand median concept
 
 
 
@@ -32516,79 +32468,13 @@ Dependencies:
 
 
 
-ID: T27.GK.01
-Topic: T27 – Chance & Simulations
-Skill: Sort picture cards into "will happen" and "won't happen"
-Description: Students sort 6-8 illustrated picture cards showing everyday events into two labeled bins: "will happen" (certain events like the sun coming up, a dropped ball falling down) and "won't happen" (impossible events like a fish flying in the sky, ice staying frozen in hot sun). This unplugged activity introduces the concept that some events are predictable while others cannot occur.
-
-Dependencies:
-(none)
-
-
-
-
-ID: T27.GK.02
-Topic: T27 – Chance & Simulations
-Skill: Identify "maybe" events using picture cards
-Description: Students examine illustrated picture cards showing events with uncertain outcomes (will it rain today? will I pick a red crayon from a mixed box?). They place these "maybe" cards in a middle pile between "will happen" and "won't happen" bins. This introduces the idea that some events are uncertain—we don't know if they will happen until we try.
-
-Dependencies:
-* T27.GK.01: Sort picture cards into "will happen" and "won't happen"
-
-
-
-
-ID: T27.GK.03
-Topic: T27 – Chance & Simulations
-Skill: Play a simple spinner game with picture outcomes
-Description: Students take turns spinning a paper spinner divided into 4 equal colored sections. Before each spin, they point to which color they hope to land on. After 5 spins each, they notice that nobody could control where the spinner landed. This hands-on activity builds intuition that spinner outcomes are unpredictable.
-
-Dependencies:
-* T27.GK.02: Identify "maybe" events using picture cards
-
-
-
-
-ID: T27.G1.01
-Topic: T27 – Chance & Simulations
-Skill: Predict outcomes before a coin flip using picture recording
-Description: Students predict "heads" or "tails" before each flip by pointing to a picture card. After flipping a real coin, they place a sticker on a recording sheet under the matching picture (heads or tails). After 6 flips, they count stickers in each column and compare to their predictions. This introduces recording random outcomes.
-
-Dependencies:
-* T27.GK.03: Play a simple spinner game with picture outcomes
-
-
-
-
-ID: T27.G1.02
-Topic: T27 – Chance & Simulations
-Skill: Compare spinners with different numbers of sections
-Description: Students examine two paper spinners: one with 2 equal sections (red, blue) and one with 4 equal sections (red, blue, green, yellow). They spin each 8 times and record results with tally marks. They discuss: Which spinner gives more choices? Did red come up more on the 2-section spinner? This builds awareness that the number of options affects outcomes.
-
-Dependencies:
-* T27.G1.01: Predict outcomes before a coin flip using picture recording
-
-
-
-
-ID: T27.G1.03
-Topic: T27 – Chance & Simulations
-Skill: Sort picture cards by likelihood (more likely, less likely)
-Description: Students sort illustrated scenario cards into "more likely" and "less likely" piles. Examples: picking a red marble from a bag with 5 red and 1 blue (more likely red), vs picking blue from the same bag (less likely). They explain their reasoning using the pictures to count items. This extends beyond certain/impossible to compare relative chances.
-
-Dependencies:
-* T27.G1.02: Compare spinners with different numbers of sections
-
-
-
-
 ID: T27.G2.01
 Topic: T27 – Chance & Simulations
 Skill: Sort events into certain / possible / impossible
-Description: Students classify illustrated picture cards showing everyday events using everyday language about certainty. **Certain events** always happen (the sun rising tomorrow). **Possible events** might happen (rolling a 3 on a six-sided die). **Impossible events** cannot happen (rolling a 7 on a six-sided die, drawing a blue marble from a bag with only red marbles). Students sort 6-8 picture cards into three labeled bins.
+Description: Students classify illustrated events using everyday language about certainty. **Certain events** always happen (the sun rising tomorrow). **Possible events** might happen (rolling a 3 on a six-sided die). **Impossible events** cannot happen (rolling a 7 on a six-sided die, drawing a blue marble from a bag with only red marbles). Students sort 6-8 picture cards into three labeled bins.
 
 Dependencies:
-* T27.G1.03: Sort picture cards by likelihood (more likely, less likely)
+* T01.G1.01: Put pictures in order to plant a seed
 
 
 
@@ -32633,8 +32519,8 @@ Dependencies:
 
 ID: T27.G3.01
 Topic: T27 – Chance & Simulations
-Skill: Read and explain simulation output from a bar chart
-Description: Students run a pre-built CreatiCode project that simulates a spinner spinning 20 times and displays results in a bar chart. They identify which color appeared most often, which appeared least, and whether all colors appeared equally. They write 2-3 sentences explaining that even with equal chances, results vary because of randomness.
+Skill: Interpret provided simulation output
+Description: Students watch a pre-built CreatiCode project that simulates a spinner spinning 20 times and displays results in a bar chart. They answer: (1) Which color appeared most often? (2) Which appeared least? (3) Did all colors appear the same number of times? They write 2-3 sentences explaining that even with equal chances, results vary because of randomness.
 
 Dependencies:
 * T27.G2.04: Predict and observe outcomes
@@ -32646,11 +32532,11 @@ Dependencies:
 
 ID: T27.G3.02
 Topic: T27 – Chance & Simulations
-Skill: Test the "pick random" operator block
-Description: Students drag the 'pick random 1 to 6' operator block into a 'say' block and click it repeatedly to observe different values appearing. They predict whether it can show 0, 7, or 3.5, then test each prediction. They write a description of what the block does: it picks a whole number from the first value to the second value, where each number has an equal chance.
+Skill: Explore the "pick random" operator block
+Description: Students drag a 'pick random 1 to 6' operator block into a 'say' block and click it repeatedly to see different values appear. They predict: Can it show 0? Can it show 7? Can it show 3.5? They test their predictions and write what the block does: it picks a whole number from the first value to the second value, where each number has an equal chance.
 
 Dependencies:
-* T27.G3.01: Read and explain simulation output from a bar chart
+* T27.G3.01: Interpret provided simulation output
 
 
 
@@ -32658,11 +32544,11 @@ Dependencies:
 
 ID: T27.G3.03
 Topic: T27 – Chance & Simulations
-Skill: Run a simulation and record results in a table
-Description: Students load a provided CreatiCode project containing a script: 'when green flag clicked → repeat 10 → set result to pick random 0 to 1 → say result'. They run it 10 times and copy each result (0 or 1) into a table in their notebook. They count the totals: How many 0s? How many 1s? This provides their first experience running code that generates random data.
+Skill: Run a teacher-provided simulation and record results
+Description: Students load a provided CreatiCode project that contains a script: 'when green flag clicked → repeat 10 → set result to pick random 0 to 1 → say result'. They run it 10 times and copy each result (0 or 1) into a table in their notebook. They count: How many 0s? How many 1s? This is their first experience running code that generates random data.
 
 Dependencies:
-* T27.G3.02: Test the "pick random" operator block
+* T27.G3.02: Explore the "pick random" operator block
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -32671,11 +32557,11 @@ Dependencies:
 
 ID: T27.G3.04
 Topic: T27 – Chance & Simulations
-Skill: Predict outcomes and compare to simulation results
+Skill: Compare predictions to simulated data
 Description: Before running a 20-trial simulation (provided), students write their prediction: "I think red will appear ___ times, blue will appear ___ times." After running the simulation, they record the actual counts. They calculate the difference (prediction - actual) for each color and discuss: Was your prediction close? Why is it hard to predict exact results?
 
 Dependencies:
-* T27.G3.03: Run a simulation and record results in a table
+* T27.G3.03: Run a teacher-provided simulation and record results
 
 
 
@@ -32683,11 +32569,11 @@ Dependencies:
 
 ID: T27.G3.05
 Topic: T27 – Chance & Simulations
-Skill: Classify games by their random elements
-Description: Students analyze familiar board and card games (Chutes and Ladders, Candy Land, Sorry!, Go Fish). For each game, they identify what makes it "lucky": dice, spinner, or card shuffling. They classify 3-4 games by asking: "Is this game more about luck or skill?" They explain that random elements (dice, spinners, shuffled cards) make outcomes uncertain.
+Skill: Identify random elements in familiar games
+Description: Students think about familiar board and card games (Chutes and Ladders, Candy Land, Sorry!, Go Fish). For each game, they identify what makes it "lucky": Is there a die? A spinner? Card shuffling? They classify 3-4 games by asking: "Is this game more about luck or skill?" They learn that random elements (dice, spinners, shuffled cards) make outcomes uncertain.
 
 Dependencies:
-* T27.G3.04: Predict outcomes and compare to simulation results
+* T27.G3.04: Compare predictions to simulated data
 
 
 
@@ -32695,11 +32581,11 @@ Dependencies:
 
 ID: T27.G3.06
 Topic: T27 – Chance & Simulations
-Skill: Modify a random generator to change outcomes
+Skill: Modify a teacher-provided random generator
 Description: Students receive a starter project with a simple script: 'if pick random 1 to 2 = 1 then say red else say blue'. They modify the script in one of these ways: (1) change the colors to different colors, (2) change from 2 outcomes to 3 outcomes by adjusting the range and adding another if block, or (3) change from colors to numbers. They click green flag 10+ times to verify their changes work and all outcomes can appear.
 
 Dependencies:
-* T27.G3.03: Run a simulation and record results in a table
+* T27.G3.03: Run a teacher-provided simulation and record results
 * T08.G3.01: Use a simple if in a script
 
 
@@ -32708,11 +32594,11 @@ Dependencies:
 
 ID: T27.G3.07
 Topic: T27 – Chance & Simulations
-Skill: Build a random number generator from scratch
+Skill: Build a random generator from scratch
 Description: Starting with an empty project, students build their own random generator: (1) Add 'when green flag clicked', (2) Create a variable called 'result', (3) Add 'set result to pick random 1 to 3', (4) Add 'say result'. They click green flag 15+ times and tally how often each number appears. This is their first fully self-built simulation.
 
 Dependencies:
-* T27.G3.06: Modify a random generator to change outcomes
+* T27.G3.06: Modify a teacher-provided random generator
 * T09.G3.01.01: Create a variable using the Make a Variable button
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
@@ -32722,11 +32608,11 @@ Dependencies:
 
 ID: T27.G4.01
 Topic: T27 – Chance & Simulations
-Skill: Map random numbers to named outcomes using if-statements
-Description: Students extend their random generator to show words instead of numbers. They create a script: (1) Set 'roll' to pick random 1 to 4, (2) Use if-statements to convert: if roll = 1 then say "red", if roll = 2 then say "blue", if roll = 3 then say "green", if roll = 4 then say "yellow". They click green flag 20+ times to verify all four colors can appear. This demonstrates that random numbers can drive meaningful outcomes.
+Skill: Convert random numbers to named outcomes using if-statements
+Description: Students extend their random generator to show words instead of numbers. They create a script: (1) Set 'roll' to pick random 1 to 4, (2) Use if-statements to convert: if roll = 1 then say "red", if roll = 2 then say "blue", if roll = 3 then say "green", if roll = 4 then say "yellow". They click green flag 20+ times to verify all four colors can appear. This teaches that random numbers can drive meaningful outcomes.
 
 Dependencies:
-* T27.G3.07: Build a random number generator from scratch
+* T27.G3.07: Build a random generator from scratch
 * T08.G3.01: Use a simple if in a script
 
 
@@ -32739,7 +32625,7 @@ Skill: Log trial results to a list
 Description: Students extend their random generator to run multiple trials automatically. They: (1) Create a list called 'results', (2) Use 'repeat 50' to run 50 trials, (3) Inside the loop, add each random outcome to the list using 'add (result) to [results]'. After running, they check that the list contains 50 items using 'length of [results]'. This automates data collection instead of manual tallying.
 
 Dependencies:
-* T27.G4.01: Map random numbers to named outcomes using if-statements
+* T27.G4.01: Convert random numbers to named outcomes using if-statements
 * T07.G3.01: Use a counted repeat loop
 * T10.G3.02: Add an item to a list
 
@@ -32792,7 +32678,7 @@ Skill: Debug an "unfair" simulation
 Description: Students receive a buggy simulation that produces unfair results (e.g., "red" appears twice as often). They inspect the code to find the bug. Common bugs: (1) if roll = 1 OR roll = 2 then "red" - red gets 2 chances, (2) pick random 1 to 3 but 4 outcomes mapped - one never appears. They fix the bug and run 100 trials to verify outcomes are now roughly equal.
 
 Dependencies:
-* T27.G4.01: Map random numbers to named outcomes using if-statements
+* T27.G4.01: Convert random numbers to named outcomes using if-statements
 * T12.G3.01: Identify a bug when output differs from expectation
 
 
@@ -32893,7 +32779,7 @@ Dependencies:
 
 ID: T27.G5.04
 Topic: T27 – Chance & Simulations
-Skill: Write a simulation plan before coding
+Skill: Document simulation plans before coding
 Description: Before building a simulation, students write a plan with 5 parts: (1) Question: What am I trying to find out? (2) Random model: What will be random? (die roll, coin flip, coordinates?) (3) Variables: What will I track? (4) Trials: How many times will I run it? (5) Success metric: How will I know it worked? This prevents "just start coding" and builds design thinking.
 
 Dependencies:
@@ -32972,7 +32858,7 @@ Dependencies:
 
 ID: T27.G5.10
 Topic: T27 – Chance & Simulations
-Skill: Identify independent events and the gambler's fallacy
+Skill: Recognize independence and the gambler's fallacy
 Description: Students explore a simulation that tracks coin flip streaks. After getting 5 heads in a row, they check: Is the next flip more likely to be tails? They discover: No! Each flip is independent—past results don't affect future outcomes. They identify the "gambler's fallacy" in scenarios like: "Red has come up 10 times at roulette, so black is due!"
 
 Dependencies:
@@ -32984,7 +32870,7 @@ Dependencies:
 
 ID: T27.G5.11
 Topic: T27 – Chance & Simulations
-Skill: Verify the law of large numbers through simulation
+Skill: Demonstrate the law of large numbers
 Description: Students run coin flip simulations with 10, 100, 1000, and 10000 trials, recording the percentage of heads each time. They observe: with 10 trials, might get 30% heads; with 10000 trials, get very close to 50%. They plot these percentages on a line graph and explain the "law of large numbers": more trials = experimental probability approaches theoretical probability.
 
 Dependencies:
@@ -33002,7 +32888,7 @@ Skill: Manually test parameters and log results
 Description: Students test how changing a parameter affects simulation outcomes. Example: In a catch-the-falling-object game, they test ball speed = 1, 2, 3, 4, 5. For each speed, they play 10 times and record wins/losses. They create a table: Speed 1 → 10/10 wins, Speed 5 → 2/10 wins. They identify the "sweet spot" where the game is challenging but fair.
 
 Dependencies:
-* T27.G5.04: Write a simulation plan before coding
+* T27.G5.04: Document simulation plans before coding
 * T27.G5.06: Compare experimental and theoretical probability
 
 
@@ -33024,11 +32910,11 @@ Dependencies:
 
 ID: T27.G6.02
 Topic: T27 – Chance & Simulations
-Skill: Apply random seeds for reproducible simulations
+Skill: Use random seeds for reproducibility
 Description: Students use CreatiCode's seeded random block: 'set [randomList] to (100) random numbers with seed (42)'. They run their simulation using values from this list instead of pick random. Key test: Run twice with seed 42 → identical results. Change to seed 43 → different results. They explain why this matters: debugging ("I got a weird result—can you reproduce it?") and fairness ("same puzzle for all players").
 
 Dependencies:
-* T27.G5.04: Write a simulation plan before coding
+* T27.G5.04: Document simulation plans before coding
 * T27.G6.01.02: Automate parameter sweeps with nested loops
 
 
@@ -33042,7 +32928,7 @@ Description: Students calculate percent error to quantify simulation accuracy. F
 
 Dependencies:
 * T27.G5.06: Compare experimental and theoretical probability
-* T27.G5.11: Verify the law of large numbers through simulation
+* T27.G5.11: Demonstrate the law of large numbers
 
 
 
@@ -33055,7 +32941,7 @@ Description: Students generate fake sensor data to test AI without a camera. Exa
 
 Dependencies:
 * T27.G5.03: Use Monte Carlo sampling to estimate area
-* T27.G5.04: Write a simulation plan before coding
+* T27.G5.04: Document simulation plans before coding
 
 
 
@@ -33068,7 +32954,7 @@ Description: Students create a grid-based agent with: (1) gridX and gridY variab
 
 Dependencies:
 * T27.G5.08: Track agent state for probabilistic simulations
-* T27.G5.04: Write a simulation plan before coding
+* T27.G5.04: Document simulation plans before coding
 
 
 
@@ -33133,7 +33019,7 @@ Description: From a population list of 100 items (e.g., survey responses with ag
 
 Dependencies:
 * T27.G5.02: Randomly assign participants to conditions
-* T27.G5.11: Verify the law of large numbers through simulation
+* T27.G5.11: Demonstrate the law of large numbers
 
 
 
@@ -33167,7 +33053,7 @@ Dependencies:
 
 ID: T27.G7.02
 Topic: T27 – Chance & Simulations
-Skill: Trace agent learning from rewards over trials
+Skill: Trace how a simple agent learns from rewards
 Description: Students observe a pre-built "learning agent" simulation. The agent has a preference table: at each grid cell, it stores which direction worked best previously. Initially all directions equal (25% each). After reaching goal, successful directions get +10% weight. Students trace 10 trials and answer: How did the preference table change? Why does the agent take fewer steps by trial 10? This previews reinforcement learning concepts.
 
 Dependencies:
@@ -33198,7 +33084,7 @@ Description: Students test if a difference is "real" using shuffling. Example: V
 
 Dependencies:
 * T27.G6.01.02: Automate parameter sweeps with nested loops
-* T27.G6.02: Apply random seeds for reproducible simulations
+* T27.G6.02: Use random seeds for reproducibility
 
 
 
@@ -33206,7 +33092,7 @@ Dependencies:
 
 ID: T27.G7.05
 Topic: T27 – Chance & Simulations
-Skill: Write a model card documenting simulation assumptions
+Skill: Communicate simulation assumptions and limitations
 Description: Students write a "model card" for their simulation with: (1) Purpose: What question does it answer? (2) Assumptions: What did we simplify? (e.g., "agents can't see through walls," "all agents have equal speed"), (3) Limitations: What can't it predict? (4) Who might be affected: Would decisions based on this simulation hurt anyone? This mirrors AI documentation standards for responsible development.
 
 Dependencies:
@@ -33265,7 +33151,7 @@ Description: Students create an end-to-end pipeline: (1) Automated parameter swe
 Dependencies:
 * T27.G6.01.02: Automate parameter sweeps with nested loops
 * T27.G7.06.02: Aggregate metrics across multiple agents
-* T27.G7.05: Write a model card documenting simulation assumptions
+* T27.G7.05: Communicate simulation assumptions and limitations
 
 
 
@@ -33292,7 +33178,7 @@ Skill: Integrate simulations into AI assistant workflows
 Description: Students use CreatiCode's AI features to enhance their simulation workflow. They: (1) Export simulation summary as text, (2) Ask XO/ChatGPT: "Here are my results... What patterns do you see? What parameter should I test next?", (3) Critically evaluate: Did the AI notice the outlier? Did it suggest something useful? Students write a reflection comparing AI insights to their own analysis—sometimes AI helps, sometimes it misses context.
 
 Dependencies:
-* T27.G7.05: Write a model card documenting simulation assumptions
+* T27.G7.05: Communicate simulation assumptions and limitations
 * T27.G8.01: Build an automated simulation-to-dashboard pipeline
 * T21.G6.01.01: Make a basic ChatGPT request with one parameter
 
@@ -33307,7 +33193,7 @@ Description: Students write a 1-2 page policy brief using their simulation as ev
 
 Dependencies:
 * T27.G8.03: Integrate simulations into AI assistant workflows
-* T27.G7.05: Write a model card documenting simulation assumptions
+* T27.G7.05: Communicate simulation assumptions and limitations
 * T32.G7.07: Identify stakeholders affected by a computing solution
 
 
@@ -33320,8 +33206,8 @@ Skill: Analyze how environment design biases agent behavior
 Description: Students run the same learning agent in two different mazes: Maze A has one clear path to goal, Maze B has multiple paths with one much shorter. They compare learned behaviors: In Maze A, agent always finds same path. In Maze B, agent might learn suboptimal path if it found reward before discovering shortcut. They write analysis: How does environment design create "bias" in what agents learn? Connections to AI training data bias.
 
 Dependencies:
-* T27.G7.02: Trace agent learning from rewards over trials
-* T27.G7.05: Write a model card documenting simulation assumptions
+* T27.G7.02: Trace how a simple agent learns from rewards
+* T27.G7.05: Communicate simulation assumptions and limitations
 * T32.G7.07: Identify stakeholders affected by a computing solution
 
 
@@ -33330,11 +33216,11 @@ Dependencies:
 
 ID: T27.G8.06
 Topic: T27 – Chance & Simulations
-Skill: Explain the difference between random and pseudorandom generation
+Skill: Distinguish random from pseudorandom number generation
 Description: Students explore how computers generate "random" numbers. They demonstrate: same seed → same sequence. They research: (1) Linear Congruential Generators (simple formula), (2) Why video game speedrunners exploit seeds, (3) Why cryptography needs "true" randomness from hardware (mouse movement, electrical noise). They discuss: When is pseudorandom good enough? When must we use true randomness?
 
 Dependencies:
-* T27.G6.02: Apply random seeds for reproducible simulations
+* T27.G6.02: Use random seeds for reproducibility
 * T27.G7.07: Identify bias in random selection methods
 
 
@@ -33409,7 +33295,7 @@ Skill: Group words by category
 Description: Students sort word cards into concrete categories: animals, colors, actions, foods. They explain why each word belongs in its group.
 
 Dependencies:
-* T28.GK.03: Recognize that text has meaning
+* T28.G1.02: Count words in a sentence
 
 
 
@@ -33798,8 +33684,8 @@ Dependencies:
 
 ID: T28.G4.11
 Topic: T28 – Text Data & NLP Foundations
-Skill: Label emotional tone in sample texts
-Description: Students read sample texts and label them as positive, negative, or neutral. They explain how word choice affects emotional tone and identify "sentiment words" in each sample.
+Skill: Recognize emotional tone in text (unplugged/semi-plugged)
+Description: Students read sample texts and label them as positive, negative, or neutral. They discuss how word choice affects emotional tone and begin identifying "sentiment words."
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
@@ -33841,8 +33727,8 @@ Dependencies:
 
 ID: T28.G5.03.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Identify stop-words in word frequency results
-Description: Students analyze word frequency results and identify common words (the, a, is) that dominate. They label these as 'stop-words' and explain when to remove them vs keep them for text analysis.
+Skill: Understand stop-words and their purpose
+Description: Students analyze word frequency results and notice that common words (the, a, is) dominate. They learn these are called 'stop-words' and discuss when to remove them vs keep them.
 
 Dependencies:
 * T28.G5.08.01: Build word frequency table
@@ -34003,8 +33889,8 @@ Dependencies:
 
 ID: T28.G5.10
 Topic: T28 – Text Data & NLP Foundations
-Skill: Explain how AI models tokenize text
-Description: Students demonstrate that AI models break text into tokens (not always whole words). They experiment with examples showing how 'running' might be 1 token but 'ChatGPT' might be 2 tokens and explain why token limits exist for AI APIs.
+Skill: Understand tokenization concepts
+Description: Students learn that AI models break text into tokens (not always whole words). They experiment with examples showing how 'running' might be 1 token but 'ChatGPT' might be 2 tokens. They discuss why token limits exist for AI APIs.
 
 Dependencies:
 * T28.G4.03.02: Count words in text using split and list length
@@ -34082,11 +33968,11 @@ Dependencies:
 ID: T28.G6.03.01
 Topic: T28 – Text Data & NLP Foundations
 Skill: Use ChatGPT sessions for conversation context
-Description: Students demonstrate how the session parameter ("new session" vs "continue session") affects ChatGPT conversations. They build a chatbot that remembers previous messages in the conversation.
+Description: Students understand how the session parameter ("new session" vs "continue session") affects ChatGPT conversations. They build a chatbot that remembers previous messages in the conversation.
 
 Dependencies:
 * T28.G4.05.04: Configure ChatGPT response length and temperature
-* T28.G5.05: Build dynamic prompts with join and concatenation
+* T28.G6.02: Compute n-gram (bigram) frequencies
 
 
 
@@ -34299,8 +34185,8 @@ Skill: Critically annotate AI vs human summaries
 Description: Learners write their own summary, generate an AI summary, then systematically annotate differences: what the AI missed, what it distorted, what it added. They measure overlap and discuss AI summarization limitations.
 
 Dependencies:
+* T28.G4.05.03: Use ChatGPT to summarize text
 * T28.G5.05: Build dynamic prompts with join and concatenation
-* T28.G6.03.01: Use ChatGPT sessions for conversation context
 * T28.G6.04: Log AI prompts/responses with ratings and timestamps
 
 
@@ -34419,10 +34305,11 @@ Dependencies:
 
 ID: T28.G8.05.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Apply basic regex pattern syntax
-Description: Students apply basic regex syntax: literal characters match themselves, "." matches any character, "*" means "zero or more", "+" means "one or more". They test simple patterns using the "regex [pattern] test [text]" block.
+Skill: Understand regex pattern basics
+Description: Students learn basic regex syntax: literal characters match themselves, "." matches any character, "*" means "zero or more", "+" means "one or more". They test simple patterns using the "regex [pattern] test [text]" block.
 
 Dependencies:
+* T28.G5.03.02: Build stop-word filter using tables
 * T28.G6.08: Compare text similarity using edit distance
 * T06.G6.01: Trace event execution paths in a multi‑event program
 
@@ -34508,8 +34395,8 @@ Dependencies:
 
 ID: T29.GK.01
 Topic: T29 – Devices & Hardware Systems
-Skill: Identify everyday computing devices using picture cards
-Description: Students view picture cards showing computing devices (tablet, smart speaker, traffic light controller, laptop, game console) and circle which ones are computers, then explain one job each selected device performs using a matching activity.
+Skill: Identify everyday computing devices
+Description: Students circle devices (tablet, smart speaker, traffic light controller) and explain one job each device performs.
 
 
 
@@ -34518,11 +34405,11 @@ Description: Students view picture cards showing computing devices (tablet, smar
 
 ID: T29.GK.02
 Topic: T29 – Devices & Hardware Systems
-Skill: Match device pictures to their actions
-Description: Learners use picture cards to match devices (camera, speaker, automatic door, tablet, microphone) to simple action descriptions ("takes pictures," "plays sound," "opens when someone walks up," "shows games," "listens to voice").
+Skill: Match devices to actions
+Description: Learners match pictures (camera, speaker, automatic door) to simple descriptions ("takes pictures," "plays sound," "opens when someone walks up").
 
 Dependencies:
-* T29.GK.01: Identify everyday computing devices using picture cards
+* T29.GK.01: Identify everyday computing devices
 
 
 
@@ -34532,11 +34419,11 @@ Dependencies:
 
 ID: T29.GK.03
 Topic: T29 – Devices & Hardware Systems
-Skill: Sort input and output devices using picture cards
-Description: Students use picture cards showing devices (microphone, light bulb, button, screen, keyboard, speaker) and sort them into two bins: "sends information IN" (input) or "sends information OUT" (output).
+Skill: Recognize input vs output examples
+Description: Students categorize simple objects (microphone, light bulb, button, screen) as sending information into a computer or out to people.
 
 Dependencies:
-* T29.GK.02: Match device pictures to their actions
+* T29.GK.02: Match devices to actions
 
 
 
@@ -34546,22 +34433,22 @@ Dependencies:
 
 ID: T29.G1.01
 Topic: T29 – Devices & Hardware Systems
-Skill: Label basic computer parts on a diagram
-Description: Learners view a labeled diagram of a laptop/desktop showing key components (screen, keyboard, mouse, power button, speakers) and match name labels to each part, then state each part's job using picture card prompts.
+Skill: Label basic computer parts
+Description: Learners label key components on a laptop/desktop photo and state each part's job.
 
 Dependencies:
-* T29.GK.01: Identify everyday computing devices using picture cards
+* T29.GK.01: Identify everyday computing devices
 
 
 
 
 ID: T29.G1.02
 Topic: T29 – Devices & Hardware Systems
-Skill: Sort hardware vs software using picture cards
-Description: Students use picture cards showing items (keyboard, game app icon, robot arm, drawing program icon, mouse, video player icon) and sort them into "hardware" (things you can touch) and "software" (programs that run) bins.
+Skill: Describe hardware vs software
+Description: Students sort items (keyboard, game app, robot arm, drawing program) into hardware and software bins.
 
 Dependencies:
-* T29.G1.01: Label basic computer parts on a diagram
+* T29.G1.01: Label basic computer parts
 
 
 
@@ -34569,11 +34456,11 @@ Dependencies:
 
 ID: T29.G1.03
 Topic: T29 – Devices & Hardware Systems
-Skill: Identify sensors in everyday places using picture scenarios
-Description: Learners view picture scenarios showing automatic doors, touchless faucets, and smart toys, then circle the sensor and describe what it detects (motion, hands, voice) using visual prompts.
+Skill: Recognize sensors in the environment
+Description: Learners identify automatic doors, faucets, and smart toys as sensor-based devices and describe what they detect.
 
 Dependencies:
-* T29.G1.01: Label basic computer parts on a diagram
+* T29.G1.01: Label basic computer parts
 
 
 
@@ -34581,12 +34468,12 @@ Dependencies:
 
 ID: T29.G2.01
 Topic: T29 – Devices & Hardware Systems
-Skill: Match internal computer parts to everyday analogies using picture cards
-Description: Students use picture cards to match simplified analogies (brain→CPU, short-term memory→RAM, backpack→storage) and explain each component's job using visual diagrams.
+Skill: Explain core internal components
+Description: Students match simplified analogies (brain, short-term memory, backpack) to CPU, RAM, and storage.
 
 Dependencies:
-* T29.G1.01: Label basic computer parts on a diagram
-* T29.G1.02: Sort hardware vs software using picture cards
+* T29.G1.01: Label basic computer parts
+* T29.G1.02: Describe hardware vs software
 * T01.G1.01: Put pictures in order to plant a seed
 
 
@@ -34595,12 +34482,12 @@ Dependencies:
 
 ID: T29.G2.02
 Topic: T29 – Devices & Hardware Systems
-Skill: Trace input-process-output flow using visual diagrams
-Description: Learners use picture cards to arrange arrows showing how a key press (input) travels to the CPU (process) and then displays a letter on screen (output), sequencing the steps correctly.
+Skill: Trace input → process → output
+Description: Learners arrange arrows showing how a key press travels to the CPU and then displays on screen.
 
 Dependencies:
-* T29.GK.03: Sort input and output devices using picture cards
-* T29.G1.01: Label basic computer parts on a diagram
+* T29.GK.03: Recognize input vs output examples
+* T29.G1.01: Label basic computer parts
 * T01.G1.01: Put pictures in order to plant a seed
 
 
@@ -34609,11 +34496,11 @@ Dependencies:
 
 ID: T29.G2.03
 Topic: T29 – Devices & Hardware Systems
-Skill: Compare wired vs wireless connections using picture scenarios
-Description: Students view picture scenarios showing devices (HDMI cable, USB printer, Bluetooth headphones, Wi-Fi tablet) and sort them into "wired" vs "wireless" categories, then explain reasons for each choice (speed, mobility) using visual prompts.
+Skill: Compare wired vs wireless connections
+Description: Students decide which devices need cables (HDMI, USB) vs wireless (Bluetooth headphones) and give reasons (speed, mobility).
 
 Dependencies:
-* T29.G1.01: Label basic computer parts on a diagram
+* T29.G1.01: Label basic computer parts
 * T01.G1.07: Decide if two algorithms finish with the same result
 
 
@@ -34622,11 +34509,11 @@ Dependencies:
 
 ID: T29.G2.04
 Topic: T29 – Devices & Hardware Systems
-Skill: Identify device care habits using picture scenarios
-Description: Learners view picture scenarios showing good and bad device care habits (carry with two hands, clean hands before use, plug in gently, dropping tablet) and sort them into "good care" vs "bad care" categories.
+Skill: Share best practices for caring for devices
+Description: Learners list simple habits (carry with two hands, clean hands, plug in gently) linking hardware care to digital responsibility.
 
 Dependencies:
-* T29.G1.01: Label basic computer parts on a diagram
+* T29.G1.01: Label basic computer parts
 * T01.G1.01: Put pictures in order to plant a seed
 
 
@@ -34635,12 +34522,12 @@ Dependencies:
 
 ID: T29.G2.05
 Topic: T29 – Devices & Hardware Systems
-Skill: Match sensors to what they detect using picture cards
-Description: Students use picture cards to match sensors (camera, microphone, touch screen, motion sensor) to what they detect (light/images, sound/voices, finger touches, movement), completing a visual matching activity.
+Skill: Identify common device sensors and their inputs
+Description: Students match sensors (camera, microphone, touch screen) to what they detect (light/images, sound/voices, finger touches) using picture cards or simple demonstrations.
 
 Dependencies:
-* T29.G1.03: Identify sensors in everyday places using picture scenarios
-* T29.GK.03: Sort input and output devices using picture cards
+* T29.G1.03: Recognize sensors in the environment
+* T29.GK.03: Recognize input vs output examples
 
 
 
@@ -34652,8 +34539,8 @@ Skill: Connect project ideas to required sensors
 Description: Students map CreatiCode project ideas (voice assistant, gesture game, face tracking app) to required hardware inputs (microphone, camera, keyboard, mouse) and explain how each sensor enables the project.
 
 Dependencies:
-* T29.G2.01: Match internal computer parts to everyday analogies using picture cards
-* T29.G2.02: Trace input-process-output flow using visual diagrams
+* T29.G2.01: Explain core internal components
+* T29.G2.02: Trace input → process → output
 
 
 
@@ -34665,8 +34552,7 @@ Skill: Identify device input types for CreatiCode projects
 Description: Students identify device input types used in CreatiCode projects (keyboard keys, mouse buttons, camera feed, microphone audio) and explain when to use each input method in games and interactive apps.
 
 Dependencies:
-* T29.G2.02: Trace input-process-output flow using visual diagrams
-* T29.G2.05: Match sensors to what they detect using picture cards
+* T29.G1.01: Label basic computer parts
 
 
 
@@ -34678,7 +34564,7 @@ Skill: Compare CreatiCode cloud save vs local export options
 Description: Students analyze pros/cons of saving projects to CreatiCode cloud (always accessible online, auto-saved) vs exporting to device storage (offline backup, can be shared as files), referencing accessibility, backup safety, and sharing methods.
 
 Dependencies:
-* T29.G2.01: Match internal computer parts to everyday analogies using picture cards
+* T29.G2.01: Explain core internal components
 
 
 
@@ -34690,8 +34576,8 @@ Skill: Explain how sensors provide input to computer programs
 Description: Students connect the conceptual understanding of sensors (camera, microphone) from Grade 2 to how programs use sensor data, explaining how a camera provides image data that programs can analyze and how a microphone provides audio data that programs can process.
 
 Dependencies:
-* T29.G2.05: Match sensors to what they detect using picture cards
-* T29.G2.02: Trace input-process-output flow using visual diagrams
+* T29.G2.05: Identify common device sensors and their inputs
+* T29.G2.02: Trace input → process → output
 
 
 
@@ -34703,8 +34589,8 @@ Skill: Access device camera in CreatiCode projects
 Description: Students enable camera permissions and display the camera feed in CreatiCode projects, understanding when and why camera access is needed and how to respect user privacy.
 
 Dependencies:
-* T29.G2.05: Match sensors to what they detect using picture cards
-* T29.G2.02: Trace input-process-output flow using visual diagrams
+* T29.G2.05: Identify common device sensors and their inputs
+* T29.G2.02: Trace input → process → output
 
 
 
@@ -34716,8 +34602,8 @@ Skill: Access device microphone for audio input
 Description: Learners enable microphone permissions and capture audio in CreatiCode projects, explaining when microphone access is appropriate and how to protect user privacy.
 
 Dependencies:
-* T29.G2.05: Match sensors to what they detect using picture cards
-* T29.G2.02: Trace input-process-output flow using visual diagrams
+* T29.G2.05: Identify common device sensors and their inputs
+* T29.G2.02: Trace input → process → output
 
 
 
@@ -34730,7 +34616,7 @@ Description: Students diagram how data flows in CreatiCode projects (camera inpu
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T29.G2.02: Trace input-process-output flow using visual diagrams
+* T29.G2.02: Trace input → process → output
 * T29.G3.01: Connect project ideas to required sensors
 
 
@@ -34758,7 +34644,7 @@ Description: Students describe latency and bandwidth using everyday metaphors an
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T29.G2.03: Compare wired vs wireless connections using picture scenarios
+* T29.G2.03: Compare wired vs wireless connections
 
 
 
@@ -34781,8 +34667,8 @@ Dependencies:
 
 ID: T29.G4.04
 Topic: T29 – Devices & Hardware Systems
-Skill: Identify types of accessibility hardware and their purposes
-Description: Learners identify one adaptive device (switch, eye tracker, screen reader) and explain how it helps users with disabilities access software, describing how the device connects to the computer and what user needs it addresses.
+Skill: Explore accessibility hardware
+Description: Learners research one adaptive device (switch, eye tracker) and explain how it helps users access software built in T16.
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
@@ -34896,10 +34782,11 @@ Skill: Plan safe device-handling procedures for group work
 Description: Learners design checklists for borrowing laptops/tablets (inspect cables, sanitize microphones, log battery level), emphasizing stewardship.
 
 Dependencies:
-* T29.G4.04: Identify types of accessibility hardware and their purposes
-* T29.G3.01: Connect project ideas to required sensors
+* T29.G4.04
+* T29.G2.04
 * T11.G3.06
 * T11.G4.19
+* T29.G3.01: Connect project ideas to required sensors
 
 
 
@@ -34907,12 +34794,12 @@ Dependencies:
 
 ID: T29.G5.03
 Topic: T29 – Devices & Hardware Systems
-Skill: Compare sensor data types and sampling rates
-Description: Students compare how different sensors collect data at different rates (camera frame rates, microphone sample rates, motion sensor polling) and explain how these technical differences affect CreatiCode project performance and responsiveness.
+Skill: Explain how different sensors collect data
+Description: Students describe what each sensor measures (microphones capture sound waves, cameras capture light, accelerometers measure motion) and give one CreatiCode use case for each.
 
 Dependencies:
-* T29.G4.01: Trace data flow in CreatiCode AI projects
-* T29.G4.02: Explain how device performance affects project responsiveness
+* T29.G4.01
+* T29.G4.02
 * T09.G3.03
 
 
@@ -34926,7 +34813,7 @@ Description: Learners compare two device setups (standard laptop vs laptop + swi
 
 Dependencies:
 * T29.G5.01: Identify device requirements for CreatiCode AI features
-* T29.G4.04: Identify types of accessibility hardware and their purposes
+* T29.G4.04: Explore accessibility hardware
 
 
 
@@ -35023,7 +34910,7 @@ Description: Students read simplified spec sheets for cameras and microphones us
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T29.G5.01: Identify device requirements for CreatiCode AI features
-* T29.G5.03: Compare sensor data types and sampling rates
+* T29.G5.03: Explain how different sensors collect data
 
 
 
@@ -35066,7 +34953,7 @@ Description: Learners create checklists specifying device requirements for Creat
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T29.G5.01: Identify device requirements for CreatiCode AI features
-* T29.G5.03: Compare sensor data types and sampling rates
+* T29.G5.03: Explain how different sensors collect data
 
 
 
@@ -35248,7 +35135,7 @@ Description: Learners analyze privacy scenarios involving AI-powered sensors (vo
 
 Dependencies:
 * T29.G6.03: Explain camera and microphone privacy permissions
-* T29.G5.03: Compare sensor data types and sampling rates
+* T29.G5.03: Explain how different sensors collect data
 
 
 
@@ -35260,7 +35147,7 @@ Skill: Optimize CreatiCode projects for mobile vs desktop devices
 Description: Students analyze how their CreatiCode projects perform on different devices and make design decisions based on screen size, touch vs mouse input, camera availability, and processing capabilities, creating responsive experiences.
 
 Dependencies:
-* T29.G6.04: Plan device capability checklists for CreatiCode AI projects
+* T29.G4.05: Respond to keyboard key press and release events in CreatiCode
 * T29.G5.05: Add orbit cameras for 3D CreatiCode scenes
 CSTA: 2-CS-02
 
@@ -35371,8 +35258,8 @@ Dependencies:
 
 ID: T30.G2.01
 Topic: T30 – Internet & Cloud: Grade 2
-Skill: Explain how the internet connects many computers (picture-based)
-Description: Students view diagrams showing how computers, tablets, and phones connect through routers and cables to form a network. They identify components in simple network pictures and explain how devices communicate.
+Skill: Understand that the internet connects many computers (picture-based)
+Description: Students view diagrams showing how computers, tablets, and phones connect through routers and cables to form a network. They identify components in simple network pictures.
 CSTA: E2-SAS-NW-02
 
 Dependencies:
@@ -35400,7 +35287,7 @@ Description: Students follow a visual diagram showing: device → router → int
 CSTA: E3-SAS-NW-02
 
 Dependencies:
-* T30.G2.01: Explain how the internet connects many computers (picture-based)
+* T30.G2.01: Understand that the internet connects many computers (picture-based)
 
 
 
@@ -35413,7 +35300,7 @@ Description: Students categorize activities (email, video call, online game, sha
 CSTA: E3-SAS-NW-02
 
 Dependencies:
-* T30.G2.01: Explain how the internet connects many computers (picture-based)
+* T30.G2.01: Understand that the internet connects many computers (picture-based)
 
 
 
@@ -35684,8 +35571,8 @@ Dependencies:
 
 ID: T30.G6.10
 Topic: T30 – Internet & Cloud: Grade 6
-Skill: Record and compare network latency effects on AI responsiveness
-Description: Students use timer blocks to measure network latency in scenarios where it affects chatbot conversations, image generation feedback, and real-time gesture recognition. They record response times in a table, compare results across scenarios, and propose mitigation strategies (local caching, progressive responses, graceful degradation).
+Skill: Measure and analyze how latency affects AI responsiveness and fairness
+Description: Students use timer blocks to measure network latency in scenarios where it affects T21 chatbot conversations, T20 image generation feedback, and T23 real-time gesture recognition. They record and compare response times, then propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -35699,8 +35586,8 @@ Dependencies:
 
 ID: T30.G6.11
 Topic: T30 – Internet & Cloud: Grade 6
-Skill: Classify data privacy risks when sharing AI-generated content
-Description: Students review datasets containing conversation logs, generated images, sensor recordings, and chatbot interactions. They classify each data type by privacy risk level (low/medium/high) and decide when to anonymize prompts, restrict access to outputs, rotate session IDs, or implement consent mechanisms.
+Skill: Evaluate privacy when sharing AI-generated content and data
+Description: Students review datasets containing T23 XO conversation logs, T21 generated images, T23 sensor recordings, and T21 chatbot interactions. They decide when to anonymize prompts, restrict access to AI outputs, rotate session IDs, and implement consent mechanisms.
 CSTA: MS-SAS-SC-09
 
 Dependencies:
@@ -35846,8 +35733,8 @@ Dependencies:
 
 ID: T30.G7.01
 Topic: T30 – Internet & Cloud: Grade 7
-Skill: Diagram client-server communication for multiplayer games
-Description: Students create diagrams showing how a central server receives updates from each client and broadcasts them back. They label timing constraints, message ordering, and identify potential synchronization issues.
+Skill: Model a distributed multiplayer server
+Description: Students diagram how a central server receives updates from each client and broadcasts them back, noting timing and ordering constraints.
 CSTA: MS-SAS-NW-05
 
 Dependencies:
@@ -36095,8 +35982,8 @@ Dependencies:
 
 ID: T30.G7.20
 Topic: T30 – Internet & Cloud: Grade 7
-Skill: Analyze trade-offs between network topologies
-Description: Students diagram physical and logical network topologies (star, mesh, and peer-to-peer), labeling how nodes are arranged and connected. They create a comparison table evaluating trade-offs in latency, resilience, and implementation complexity for each topology type.
+Skill: Compare network topology options
+Description: Students analyze physical and logical network topologies (star, mesh, and peer-to-peer), focusing on how nodes are arranged and connected. They evaluate trade-offs in terms of latency, resilience, and implementation complexity.
 CSTA: MS-SAS-NW-04
 
 Dependencies:
@@ -36108,12 +35995,12 @@ Dependencies:
 
 ID: T30.G7.21
 Topic: T30 – Internet & Cloud: Grade 7
-Skill: Differentiate client-server from peer-to-peer architecture
-Description: Students diagram the architectural differences between centralized client-server models (like CreatiCode's multiplayer system) and peer-to-peer approaches. They create a comparison chart analyzing trade-offs including latency, trust/authority, scalability, and ease of implementation.
+Skill: Client-server vs peer-to-peer architecture
+Description: Students understand the architectural differences between centralized client-server models (like CreatiCode's multiplayer system) and peer-to-peer approaches. They analyze trade-offs including latency, trust/authority, scalability, and ease of implementation.
 CSTA: MS-SAS-NW-04
 
 Dependencies:
-* T30.G7.20: Analyze trade-offs between network topologies
+* T30.G7.20: Compare network topology options
 
 
 
@@ -36126,8 +36013,8 @@ Description: Students research societal impacts of widely used networked tools: 
 CSTA: MS-SAS-IM-11
 
 Dependencies:
-* T30.G6.11: Classify data privacy risks when sharing AI-generated content
-* T30.G7.21: Differentiate client-server from peer-to-peer architecture
+* T30.G6.11: Evaluate privacy when sharing AI-generated content and data
+* T30.G7.21: Client-server vs peer-to-peer architecture
 
 
 
@@ -36135,14 +36022,14 @@ Dependencies:
 
 ID: T30.G8.01
 Topic: T30 – Internet & Cloud: Grade 8
-Skill: Design edge vs cloud processing pipelines for AI applications
-Description: Students create diagrams showing which AI computations happen on-device (camera preprocessing for privacy, real-time gesture recognition) and which require cloud resources (image generation, chatbot reasoning). They label each component with latency, privacy, and cost justifications.
+Skill: Architect edge vs cloud processing pipelines for AI
+Description: Students design diagrams showing which AI computations happen on-device (T23 camera preprocessing for privacy, real-time gesture recognition) and which require cloud resources (T21 DALL-E generation, T22 ChatGPT reasoning). They cite latency, privacy, and cost reasons while connecting to T20-T23 dependencies.
 CSTA: MS-SAS-NW-05
 
 Dependencies:
 * T02.G6.01: Design a flowchart for a simple guessing game
 * T30.G6.01: Trace the steps of an HTTP/HTTPS request
-* T30.G7.21: Differentiate client-server from peer-to-peer architecture
+* T30.G7.21: Client-server vs peer-to-peer architecture
 * T30.G7.22: Analyze societal impacts of networked systems
 * T03.G6.01: Propose modules for a medium project
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
@@ -36154,14 +36041,14 @@ Dependencies:
 
 ID: T30.G8.02
 Topic: T30 – Internet & Cloud: Grade 8
-Skill: Analyze bandwidth and latency requirements for AI services
-Description: Students calculate bandwidth, latency, and reliability requirements for AI features (real-time voice, image upload, continuous sensor data). They document requirements in a table and design network architectures that meet those specifications.
+Skill: Understand AI service network requirements
+Description: Students analyze bandwidth, latency, and reliability requirements for T20-T23 AI features (real-time voice for T22, image upload for T21, continuous sensor data for T23) and design network architectures that support these needs.
 CSTA: MS-SAS-NW-05
 
 Dependencies:
-* T30.G7.21: Differentiate client-server from peer-to-peer architecture
+* T30.G7.21: Client-server vs peer-to-peer architecture
 * T30.G7.22: Analyze societal impacts of networked systems
-* T30.G8.01: Design edge vs cloud processing pipelines for AI applications
+* T30.G8.01: Architect edge vs cloud processing pipelines for AI
 * T07.G6.01: Trace nested loops with variable bounds
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
 * T19.G6.01: Trace and explain an art algorithm
@@ -36177,9 +36064,9 @@ Description: Students outline authentication, encryption, and server-side valida
 CSTA: MS-SAS-SC-09
 
 Dependencies:
-* T30.G7.21: Differentiate client-server from peer-to-peer architecture
+* T30.G7.21: Client-server vs peer-to-peer architecture
 * T30.G7.22: Analyze societal impacts of networked systems
-* T30.G8.02: Analyze bandwidth and latency requirements for AI services
+* T30.G8.02: Understand AI service network requirements
 * T07.G6.01: Trace nested loops with variable bounds
 * T08.G6.01a: Use conditionals in physics simulations
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
@@ -36207,12 +36094,12 @@ Dependencies:
 
 ID: T30.G8.05
 Topic: T30 – Internet & Cloud: Grade 8
-Skill: Design fallback strategies for AI service failures
-Description: Students identify failure scenarios for AI dependencies (API downtime, speech recognition failures) and implement graceful degradation strategies. They code fallback behaviors including cached responses, offline modes, and manual alternatives.
+Skill: Evaluate AI service resilience and fallbacks
+Description: Students analyze failure scenarios for T20-T23 AI dependencies (OpenAI API downtime, speech recognition failures) and design graceful degradation strategies (cached responses, offline modes, manual fallbacks).
 CSTA: MS-SAS-HW-03
 
 Dependencies:
-* T30.G8.02: Analyze bandwidth and latency requirements for AI services
+* T30.G8.02: Understand AI service network requirements
 * T30.G8.03: Design secure AI-powered cloud systems
 * T12.G6.01: Trace complex code with multiple variables
 * T19.G6.01: Trace and explain an art algorithm
@@ -36230,7 +36117,7 @@ CSTA: MS-SAS-IM-11
 
 Dependencies:
 * T30.G8.04: Implement privacy protection for AI data
-* T30.G8.05: Design fallback strategies for AI service failures
+* T30.G8.05: Evaluate AI service resilience and fallbacks
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
@@ -36260,7 +36147,7 @@ Dependencies:
 
 ID: T31.GK.03
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Recognize that passwords keep things safe
+Skill: Understand that passwords keep things safe
 Description: Students compare visual representations of passwords using picture-based examples. They see a weak password shown as "cat" (3 letters, easy to guess) compared to a longer password represented with pictures showing different character types (letters, numbers, symbols). They identify which is harder to guess by comparing length and variety visually.
 
 Dependencies:
@@ -36310,7 +36197,7 @@ Description: Students use picture matching with speech bubbles to understand pas
 
 Dependencies:
 * T31.G1.01: Identify personally identifiable information (PII)
-* T31.GK.03: Recognize that passwords keep things safe
+* T31.GK.03: Understand that passwords keep things safe
 
 
 
@@ -36487,7 +36374,7 @@ Dependencies:
 
 ID: T31.G4.03
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain data breaches through stories
+Skill: Understand data breaches through stories
 Description: Students read an age-appropriate article about a data breach and list two protective steps individuals should take (change passwords, enable MFA). They discuss what companies should do differently to protect user data.
 
 Dependencies:
@@ -36509,7 +36396,7 @@ Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T31.G3.02: Explain multi-factor authentication (MFA) with analogies
-* T31.G4.03: Explain data breaches through stories
+* T31.G4.03: Understand data breaches through stories
 
 
 
@@ -36584,7 +36471,7 @@ Description: Students review data from their AI projects (T21 chatbot logs, T20 
 Dependencies:
 * T21.G5.02
 * T20.G5.02
-* T31.G5.03: Compare privacy policies of kid-friendly apps
+* T31.G5.03
 * T09.G3.03
 
 
@@ -36603,7 +36490,7 @@ Dependencies:
 
 ID: T31.G5.06
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain consent for AI data collection
+Skill: Understand consent for AI data collection
 Description: Students learn why getting permission matters before collecting personal data for AI training. They discuss how personal data affects AI outputs (chatbot learns speech patterns, image generators remember faces) and why users should know when their data is being used. They design a simple "I agree" checkbox concept.
 
 Dependencies:
@@ -36631,14 +36518,14 @@ Skill: Add consent prompts to AI projects
 Description: Students add consent prompts to their AI projects asking users "May I use your input to improve this chatbot?" with Yes/No options. They discuss why consent matters for fairness and connect to previous work on privacy and data collection.
 
 Dependencies:
-* T31.G5.06: Explain consent for AI data collection
+* T31.G5.06: Understand consent for AI data collection
 
 
 
 
 ID: T31.G5.09
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain why encryption protects data (unplugged activity)
+Skill: Understand why encryption protects data (unplugged activity)
 Description: Students learn that encryption scrambles messages so only intended recipients can read them. Using an unplugged activity with alphabet substitution (A→D, B→E, etc.), they encode and decode simple words. They discuss why websites use encryption (padlock icon) to keep data private during transmission and why encrypted data looks like nonsense to attackers.
 
 Dependencies:
@@ -36662,11 +36549,11 @@ Dependencies:
 
 ID: T31.G6.01.01
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain viruses and worms (self-replicating malware)
+Skill: Understand viruses and worms (self-replicating malware)
 Description: Students learn about viruses and worms, which are self-replicating malware that spread from system to system. They create a reference card explaining how these malware types spread, their typical targets, warning signs (unexpected system slowdowns, files appearing), and defense strategies (antivirus software, avoiding suspicious downloads). They discuss real-world examples of famous computer viruses.
 
 Dependencies:
-* T31.G4.03: Explain data breaches through stories
+* T31.G4.03: Understand data breaches through stories
 * T31.G5.01: Analyze digital social engineering tactics
 
 
@@ -36674,33 +36561,33 @@ Dependencies:
 
 ID: T31.G6.01.02
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain ransomware (data hostage attacks)
+Skill: Understand ransomware (data hostage attacks)
 Description: Students learn about ransomware that encrypts user data and demands payment for decryption. They create a reference card explaining how ransomware works, typical attack vectors (phishing emails, malicious downloads), warning signs (files become inaccessible, ransom messages appear), and defense strategies (regular backups, email vigilance, security updates). They discuss why paying ransom is discouraged.
 
 Dependencies:
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
 
 ID: T31.G6.01.03
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain spyware (monitoring malware)
+Skill: Understand spyware (monitoring malware)
 Description: Students learn about spyware that secretly monitors user activity and collects personal information. They create a reference card explaining how spyware tracks browsing habits, captures keystrokes, and steals credentials. They discuss warning signs (browser hijacking, unexpected pop-ups, slow performance) and defense strategies (anti-spyware tools, careful software installation, permission monitoring).
 
 Dependencies:
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
 
 ID: T31.G6.01.04
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain trojans (disguised malware)
+Skill: Understand trojans (disguised malware)
 Description: Students learn about trojan horses that appear as legitimate software but contain malicious code. They create a reference card explaining how trojans disguise themselves (fake apps, game mods, utility tools), warning signs (unexpected system behavior, unauthorized access), and defense strategies (download only from trusted sources, verify software authenticity, use security software). They discuss real-world trojan examples.
 
 Dependencies:
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
@@ -36711,29 +36598,29 @@ Skill: Recognize phishing attack patterns and warning signs
 Description: Students analyze phishing attacks in depth: fake emails requesting login credentials, impersonation of trusted organizations, urgent language to pressure action, and suspicious links. They examine real phishing email examples (sanitized), identify red flags, and practice appropriate responses (delete, report, verify through official channels).
 
 Dependencies:
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
 
 ID: T31.G6.03
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain network attacks (DoS, MitM)
+Skill: Understand network attacks (DoS, MitM)
 Description: Students learn about network-level attacks: denial-of-service (DoS) attacks that overload systems making them unavailable, and man-in-the-middle (MitM) attacks that intercept communications. They discuss why HTTPS protects against MitM and how organizations defend against DoS attacks. They consider impact on availability and confidentiality.
 
 Dependencies:
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
 
 ID: T31.G6.04
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain database vulnerabilities (SQL injection basics)
+Skill: Learn about database vulnerabilities (SQL injection basics)
 Description: Students learn conceptually about SQL injection attacks where attackers insert malicious code into input fields to manipulate databases. Through simplified examples (no actual SQL coding), they understand how input validation prevents injection and why treating user input as untrusted is crucial for security.
 
 Dependencies:
-* T31.G6.01.04: Explain trojans (disguised malware)
+* T31.G6.01.04: Understand trojans (disguised malware)
 
 
 
@@ -36788,7 +36675,7 @@ Dependencies:
 * T21.G6.01: Trace chatbot conversation flow
 * T22.G5.01: Use camera blocks to detect objects
 * T31.G5.01: Analyze digital social engineering tactics
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
@@ -36799,8 +36686,8 @@ Skill: Analyze ethical hacking vs malicious hacking through case studies
 Description: Students read simplified bug bounty reports and analyze: (1) What was the vulnerability discovered? (2) How did the researcher report it responsibly? (3) Why was getting permission crucial? They role-play ethical disclosure vs. malicious exploitation scenarios and discuss the importance of "white hat" hacking in improving security.
 
 Dependencies:
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
-* T31.G4.03: Explain data breaches through stories
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
+* T31.G4.03: Understand data breaches through stories
 
 
 
@@ -36812,7 +36699,7 @@ Description: Students use CreatiCode blocks to shift letters using alphabet posi
 
 Dependencies:
 * T10.G4.01: Concatenate strings to build messages
-* T31.G5.09: Explain why encryption protects data (unplugged activity)
+* T31.G5.09: Understand why encryption protects data (unplugged activity)
 
 
 
@@ -36852,7 +36739,7 @@ Dependencies:
 * T07.G5.01: Use a counted repeat loop
 * T11.G5.17: Store and retrieve structured data with tables
 * T31.G5.07: Create backup plans for CreatiCode projects
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 
 
 
@@ -36864,7 +36751,7 @@ Description: Following T22 perception projects, students debate benefits (findin
 
 Dependencies:
 * T22.G6.01: Use camera to detect and track faces
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 * T31.G5.04: Review and identify PII in AI project data
 
 
@@ -36890,7 +36777,7 @@ Description: Students follow a teacher-approved security testing checklist to te
 
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 * T31.G6.07: Analyze ethical hacking vs malicious hacking through case studies
 * T08.G6.01a: Use conditionals in physics simulations
 * T12.G6.01: Trace complex code with multiple variables
@@ -36943,7 +36830,7 @@ Description: Students design a simple role system inside a CreatiCode project wi
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T09.G6.01: Model real-world quantities using variables and formulas
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 * T31.G6.05.01: Validate password length using string blocks
 * T31.G6.05.03: Track login attempts and implement account lockout
 * T04.G6.01: Group snippets by underlying algorithm pattern
@@ -36965,7 +36852,7 @@ Dependencies:
 * T21.G6.04: Debug chatbot logic with conditional responses
 * T22.G6.03: Analyze perception system accuracy
 * T23.G6.01: Integrate AI features into existing projects
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 * T31.G6.06: Conduct AI-specific threat modeling for class projects
 * T07.G6.01: Trace nested loops with variable bounds
 * T11.G6.01: Design custom blocks with clear, predictable interfaces
@@ -37035,7 +36922,7 @@ Description: Students draft an incident response plan for an AI system failure o
 
 Dependencies:
 * T01.G6.01: Count comparisons in linear and binary search
-* T31.G6.01.01: Explain viruses and worms (self-replicating malware)
+* T31.G6.01.01: Understand viruses and worms (self-replicating malware)
 * T31.G7.03: Implement secure logging and monitoring in CreatiCode apps
 * T31.G8.03.04: Create security audit report with risk ratings
 * T31.G8.04: Audit AI projects for ethical concerns
@@ -37059,8 +36946,8 @@ Description: Students pick pictures showing technology helping someone (video ca
 
 ID: T32.GK.02
 Topic: T32 – Digital Citizenship
-Skill: Point to pictures showing too much screen time
-Description: Students look at picture cards showing different screen time scenarios (tired eyes, missing outdoor play, energetic after break) and point to pictures that show too much screen time. They connect picture cards of scenarios to feeling cards (tired/happy) to understand the effects.
+Skill: Recognize signs of too much screen time
+Description: Students look at pictures showing different screen time scenarios (tired eyes, missing outdoor play, energetic after break) and connect them to feelings (tired/happy) to recognize signs of too much screen time.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -37131,8 +37018,8 @@ Dependencies:
 
 ID: T32.GK.08
 Topic: T32 – Digital Citizenship
-Skill: Describe ways people work together using picture cards
-Description: Students look at picture cards showing teams working together (doctors and nurses, teachers and students, builders) and point to examples of people helping each other. Students describe one way the team members help each other using the picture cards as prompts.
+Skill: Identify different ways people work together
+Description: Students look at pictures showing teams working together (doctors and nurses, teachers and students, builders) and point to examples of people helping each other. Students describe one way the team members help each other.
 
 Dependencies:
 * T32.GK.06: Take turns using a device to complete a task together
@@ -37167,8 +37054,8 @@ Dependencies:
 
 ID: T32.G1.03
 Topic: T32 – Digital Citizenship
-Skill: Circle design choices made by app creators
-Description: Students look at picture cards showing app screens and circle design choices made by creators (characters, colors, sounds). They match circled elements to "someone chose this" labels to understand that people make technology choices.
+Skill: Recognize that people make technology choices
+Description: Students look at app screenshots and identify choices made by creators (characters, colors, sounds) by circling elements and matching them to "someone chose this" labels.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -37179,8 +37066,8 @@ Dependencies:
 
 ID: T32.G1.04
 Topic: T32 – Digital Citizenship
-Skill: Match uncomfortable scenarios to trusted adults using picture cards
-Description: Students use picture cards showing uncomfortable technology scenarios (mean message, scary image, stranger asking questions) and match them with picture cards of trusted adults who can help (parent, teacher, librarian).
+Skill: Identify who to tell when uncomfortable online
+Description: Students match uncomfortable technology scenarios (mean message, scary image, stranger asking questions) with trusted adults who can help (parent, teacher, librarian).
 
 Dependencies:
 * T32.G1.02: Match feelings to technology experiences
@@ -37191,8 +37078,8 @@ Dependencies:
 
 ID: T32.G1.05
 Topic: T32 – Digital Citizenship
-Skill: Sort picture cards of jobs that use computers
-Description: Students sort picture cards showing different professions (scientist, musician, builder, nurse, chef) into piles: "uses computers" and "does not use computers." For each job placed in the "uses computers" pile, students point to a picture card showing how that worker uses a digital tool.
+Skill: List jobs that rely on computers
+Description: Students select which professions (scientist, musician, builder, nurse, chef) use digital tools in their work. For each selected job, students share one simple example of how they use a computer or digital device.
 
 Dependencies:
 * T32.GK.07: Describe what a digital tool helps someone do
@@ -37203,8 +37090,8 @@ Dependencies:
 
 ID: T32.G1.06
 Topic: T32 – Digital Citizenship
-Skill: Sort picture cards showing technology helps vs problems
-Description: Students sort picture cards showing technology scenarios (video chat with grandma, staying up too late playing games, learning with videos, eyes hurting from screen) into "helps me" or "causes problems" piles. Students explain their sorting using the pictures.
+Skill: Sort "helps" vs "problems" for a technology
+Description: Students place statements about a device (video chat, tablet games, streaming videos) into "helps me" or "causes problems" categories. Students recognize that technology has both benefits and challenges.
 
 Dependencies:
 * T32.G1.05: List jobs that rely on computers
@@ -37215,8 +37102,8 @@ Dependencies:
 
 ID: T32.G1.07
 Topic: T32 – Digital Citizenship
-Skill: Select picture cards showing good listening behaviors
-Description: Students select picture cards showing good listening behaviors (eyes on speaker, waiting to talk, nodding) from a set that also includes poor listening (interrupting, looking away). Students sort cards into "good listener" and "not listening" piles and explain why teams need good listeners.
+Skill: Show listening behaviors when working on a group tech task
+Description: Students role-play or choose actions that show good listening (eyes on speaker, waiting to talk, nodding) during a group technology activity. Students explain why teams need good listeners to work well together.
 
 Dependencies:
 * T03.GK.01: Identify parts that make up a whole
@@ -37227,8 +37114,8 @@ Dependencies:
 
 ID: T32.G1.08
 Topic: T32 – Digital Citizenship
-Skill: Match picture cards of creators to what they make
-Description: Students use picture cards showing people who make apps and games (game designer, app builder, animator). They match each creator card to a picture card of what they create (a game, an app on a phone, a cartoon character).
+Skill: Identify jobs that make apps and games
+Description: Students look at pictures of people who make the apps and games they use (game designer, app builder). Students match each job to a picture of what they create (a game, an app on a phone).
 
 Dependencies:
 * T32.G1.05: List jobs that rely on computers
@@ -37288,8 +37175,8 @@ Dependencies:
 
 ID: T32.G2.05
 Topic: T32 – Digital Citizenship
-Skill: Match project roles to tasks using picture cards
-Description: Students use picture cards to match roles (story planner, builder, tester) to task cards in a project. For example, the "builder" card matches to "puts blocks together," the "tester" card matches to "tries it out," and the "planner" card matches to "decides what to make."
+Skill: Identify project roles in simple terms
+Description: Students match roles (story planner, builder, tester) to tasks in a project. For example, the "builder" puts blocks together, the "tester" tries it out, and the "planner" decides what to make.
 
 Dependencies:
 * T32.G1.05: List jobs that rely on computers
@@ -37300,11 +37187,10 @@ Dependencies:
 
 ID: T32.G2.06
 Topic: T32 – Digital Citizenship
-Skill: Build a picture schedule balancing screen time with other activities
-Description: Students build a picture schedule using activity cards showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep). They arrange cards to create a balanced day and explain why balancing tech use with other activities keeps us healthy.
+Skill: Plan screen time as part of a balanced daily routine
+Description: Students build a picture schedule showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep). Students understand that balancing tech use with other activities keeps us healthy.
 
 Dependencies:
-* T32.G2.02: Plan balanced tech schedules
 * T03.G1.03: List steps for a simple classroom routine
 
 
@@ -37313,8 +37199,8 @@ Dependencies:
 
 ID: T32.G2.07
 Topic: T32 – Digital Citizenship
-Skill: Draw or describe teammates' different strengths
-Description: Students draw or write about how classmates contribute different skills to a project using picture prompts. One friend might be good at drawing, another at building, another at telling stories. Students explain why having different strengths makes a team better.
+Skill: Recognize teammates' different strengths
+Description: Students draw or write about how classmates contribute different skills to a project. One friend might be good at drawing, another at building, another at telling stories. Students explain why having different strengths makes a team better.
 
 Dependencies:
 * T32.G2.05: Identify project roles in simple terms
@@ -37338,8 +37224,8 @@ Dependencies:
 
 ID: T32.G2.09
 Topic: T32 – Digital Citizenship
-Skill: Practice polite communication using scenario cards
-Description: Students use picture scenario cards showing group work situations. They practice using kind words when working together ("please," "thank you," "great idea!") by selecting speech bubble cards with polite phrases to match each scenario. Students role-play asking for help, offering help, or giving a compliment.
+Skill: Practice polite communication in group work
+Description: Students practice using kind words when working together ("please," "thank you," "great idea!"). Students role-play scenarios where they ask for help, offer help, or give a compliment to a teammate.
 
 Dependencies:
 * T32.GK.06: Take turns using a device to complete a task together
@@ -37395,8 +37281,8 @@ Dependencies:
 
 ID: T32.G3.04
 Topic: T32 – Digital Citizenship
-Skill: Build an app that shows what data it collects
-Description: Students build a simple app (quiz or game) that collects data using variables and widgets. They create visible indicators showing what's being collected: labels that update to show "You've answered 5 questions" (counter variable), "Your high score: 100" (performance data), "You clicked on: Animals" (preference tracking). Students then explain what the app "knows" about users and whether users can see what's collected.
+Skill: Recognize when apps collect data
+Description: Students build a simple app (quiz or game) that collects data using variables and widgets. They create visible indicators showing what's being collected: labels that update to show "You've answered 5 questions" (counter variable), "Your high score: 100" (performance data), "You clicked on: Animals" (preference tracking). Students then discuss what the app "knows" about users and whether users can see what's collected.
 
 Dependencies:
 * T32.G3.01: Evaluate digital footprints
@@ -37498,7 +37384,7 @@ Dependencies:
 
 ID: T32.G4.03
 Topic: T32 – Digital Citizenship
-Skill: Analyze technology impact tradeoffs
+Skill: Analyze Data Breaches through Stories
 Description: Using the case study viewer, students analyze each scenario to identify tradeoffs: What is gained? What is lost? Who benefits? Who is harmed? They document at least 2 tradeoffs per case study and explain why the same technology can have different impacts on different groups.
 
 Dependencies:
@@ -37510,7 +37396,7 @@ Dependencies:
 
 ID: T32.G4.04
 Topic: T32 – Digital Citizenship
-Skill: Compare persuasive vs informative design patterns
+Skill: Understand advertising/persuasion online
 Description: Students analyze actual CreatiCode community projects to identify persuasive design patterns (bright colors for "buy" buttons, countdown timers, celebrity endorsements in sprites). They create a project that demonstrates persuasive vs. informative design: two versions of the same app (e.g., a game invitation) where one uses persuasive tactics (flashing sprites, urgent language in labels) and one is neutral. Using widget blocks, they build both interfaces and have peers compare them, documenting which tactics they notice.
 
 Dependencies:
@@ -37640,7 +37526,7 @@ Dependencies:
 
 ID: T32.G4.12
 Topic: T32 – Digital Citizenship
-Skill: Match skills to tech job requirements
+Skill: Identify skills needed for different tech jobs
 Description: Students match skills (drawing, math, writing, problem-solving, talking to people) to different tech jobs. Students explain why a game designer needs creativity or why a data analyst needs math skills.
 
 Dependencies:
@@ -37743,8 +37629,8 @@ Dependencies:
 
 ID: T32.G5.08
 Topic: T32 – Digital Citizenship
-Skill: Evaluate online sources using credibility criteria
-Description: Students evaluate online information sources by checking: (1) Author/organization credentials, (2) Publication date and currency, (3) Evidence and citations provided, (4) Bias and purpose (inform vs. persuade vs. sell), (5) Corroboration with other sources. They rate sources as high/medium/low credibility and explain their reasoning.
+Skill: Identify credible vs. non-credible online sources
+Description: Students learn to evaluate online information sources by checking: (1) Author/organization credentials, (2) Publication date and currency, (3) Evidence and citations provided, (4) Bias and purpose (inform vs. persuade vs. sell), (5) Corroboration with other sources. They practice rating sources as high/medium/low credibility and explaining their reasoning.
 
 Dependencies:
 * T32.G5.01: Research technology impacts in one community
@@ -37755,7 +37641,7 @@ Dependencies:
 
 ID: T32.G5.09
 Topic: T32 – Digital Citizenship
-Skill: Map personal interests to tech pathways
+Skill: Demonstrate Encryption Basics (Unplugged)
 Description: Students list their hobbies and strengths (music, storytelling, sports, helping people, art). Then they match each interest to a tech role that uses it (sound designer, narrative designer, sports data analyst, civic technologist, graphic designer). Students explain why each match makes sense.
 
 Dependencies:
@@ -37858,12 +37744,12 @@ Dependencies:
 
 ID: T32.G6.03
 Topic: T32 – Digital Citizenship
-Skill: Build AI testing dashboard combining image and chatbot tests
-Description: Students create a comprehensive testing dashboard using widgets that combines image generation and chatbot testing. The dashboard includes: dropdown to select AI tool (Image/Chat), text input for test prompt, buttons to record observations (Biased/Fair, Accurate/Inaccurate, Inclusive/Exclusive), and table display showing all logged test results. This consolidates data from T32.G6.01 and T32.G6.02.
+Skill: Explain Network Attacks (DoS, MitM)
+Description: Students create a comprehensive testing dashboard using widgets that combines image generation and chatbot testing. The dashboard includes: dropdown to select AI tool (Image/Chat), text input for test prompt, buttons to record observations (Biased/Fair, Accurate/Inaccurate, Inclusive/Exclusive), and table display showing all logged test results. This consolidates data from both T35.G6.03.01a and T35.G6.03.01b.
 
 Dependencies:
-* T32.G6.01: Test AI image generation for bias
-* T32.G6.02: Test AI chatbots for accuracy and inclusivity
+* T32.G6.03.01a: Test AI image generation for bias
+* T32.G6.03.01b: Test AI chatbots for accuracy and inclusivity
 * T15.G6.01: Create forms with multiple widget types
 
 
@@ -37950,10 +37836,10 @@ Dependencies:
 ID: T32.G6.09
 Topic: T32 – Digital Citizenship
 Skill: Synthesize comprehensive AI ethics guidelines
-Description: Using findings from T32.G6.03 testing dashboard, students synthesize comprehensive ethics guidelines for AI content generation (T20-T21). They: (1) Analyze test data using table variable operations to identify patterns (e.g., "80% of 'CEO' images showed men"), (2) Create an interactive ethics guidelines document using widgets: buttons to select AI type (Image/Chat), dropdown for ethical concern category (Bias, Misinformation, Inclusivity, Citation), labels displaying specific guidelines and evidence, (3) Develop decision frameworks: When is bias acceptable? How to write inclusive prompts? How to verify AI outputs? (4) Include concrete examples: "Good prompt: 'diverse group of doctors' vs Biased prompt: 'doctor'". Students present guidelines as a widget-based reference tool that other students can use when working with T21-T22 AI blocks.
+Description: Using findings from T35.G6.03.01c testing dashboard, students synthesize comprehensive ethics guidelines for AI content generation (T20-T21). They: (1) Analyze test data using table variable operations to identify patterns (e.g., "80% of 'CEO' images showed men"), (2) Create an interactive ethics guidelines document using widgets: buttons to select AI type (Image/Chat), dropdown for ethical concern category (Bias, Misinformation, Inclusivity, Citation), labels displaying specific guidelines and evidence, (3) Develop decision frameworks: When is bias acceptable? How to write inclusive prompts? How to verify AI outputs? (4) Include concrete examples: "Good prompt: 'diverse group of doctors' vs Biased prompt: 'doctor'". Students present guidelines as a widget-based reference tool that other students can use when working with T21-T22 AI blocks.
 
 Dependencies:
-* T32.G6.03: Build AI testing dashboard combining image and chatbot tests
+* T32.G6.03.01c: Build AI testing dashboard
 * T15.G6.01: Create forms with multiple widget types
 
 
@@ -38270,10 +38156,10 @@ Dependencies:
 ID: T32.G7.02
 Topic: T32 – Digital Citizenship
 Skill: Analyze audit data and identify disparities
-Description: Building on T32.G7.01, students analyze the collected test data using table variable operations to calculate accuracy rates by demographic group and identify disparities (e.g., "T23 hand tracking: 95% accurate for light skin, 78% for dark skin"). They create visualizations (bar charts) showing disparity patterns clearly.
+Description: Building on T35.G7.01.01a, students analyze the collected test data using table variable operations to calculate accuracy rates by demographic group and identify disparities (e.g., "T23 hand tracking: 95% accurate for light skin, 78% for dark skin"). They create visualizations (bar charts) showing disparity patterns clearly.
 
 Dependencies:
-* T32.G7.01: Build systematic testing framework for AI perception
+* T32.G7.01.01a: Build systematic testing framework for AI perception
 * T15.G7.01: Build interactive data displays with widgets
 
 
@@ -38283,10 +38169,10 @@ Dependencies:
 ID: T32.G7.03
 Topic: T32 – Digital Citizenship
 Skill: Propose solutions for detected bias
-Description: Using the disparity analysis from T32.G7.02, students propose both technical solutions (better training data, adjustable sensitivity settings) and policy solutions (required bias testing before deployment, transparency requirements, regular audits). They present evidence-based recommendations with specific implementation steps.
+Description: Using the disparity analysis from T35.G7.01.01b, students propose both technical solutions (better training data, adjustable sensitivity settings) and policy solutions (required bias testing before deployment, transparency requirements, regular audits). They present evidence-based recommendations with specific implementation steps.
 
 Dependencies:
-* T32.G7.02: Analyze audit data and identify disparities
+* T32.G7.01.01b: Analyze audit data and identify disparities
 
 
 
@@ -38298,7 +38184,7 @@ Skill: Generate and analyze AI art in different styles
 Description: Students use T21 (DALL-E) blocks to generate art "in the style of" famous artists (e.g., "landscape in Van Gogh style," "portrait in Picasso style," "photograph in Ansel Adams style"). They document quality and similarity to original artists' work in a table variable with columns: Artist Style, Prompt, Quality Rating (1-5), Similarity to Original, Ethical Concerns.
 
 Dependencies:
-* T32.G6.03: Build AI testing dashboard combining image and chatbot tests
+* T32.G6.03.01c: Build AI testing dashboard
 * T32.G5.05: Analyze AI's differential impacts on workers and communities
 * T20.G7.01: Generate complex images with AI
 
@@ -38312,7 +38198,7 @@ Skill: Create AI-generated commercial assets
 Description: Students generate commercial assets using T21 blocks (logos for fictional companies, product images, stock photos of diverse scenarios). They create a comparison table logging: Prompt, Time to generate, Quality rating (1-5), Could this replace human work? (Yes/No/Partial), Ethical concerns noted. They conduct a time comparison study: Generate 10 images with AI (seconds) vs. estimate human creation time for similar work (hours/days).
 
 Dependencies:
-* T32.G7.04: Generate and analyze AI art in different styles
+* T32.G7.05.01a: Generate and analyze AI art in different styles
 * T20.G7.01: Generate complex images with AI
 
 
@@ -38325,7 +38211,7 @@ Skill: Build AI art gallery with comparison data
 Description: Students build an interactive gallery widget display showing AI-generated works with metadata (artist style referenced, generation time, prompt used, quality ratings, replacement potential). The gallery allows users to browse through generated images and view associated data. Students document patterns in what AI does well vs. poorly, and where human creativity remains essential.
 
 Dependencies:
-* T32.G7.05: Create AI-generated commercial assets
+* T32.G7.05.01b: Create AI-generated commercial assets
 * T15.G7.01: Build interactive data displays with widgets
 
 
@@ -38338,7 +38224,7 @@ Skill: Conduct bias audits for AI content generation (T20-T21)
 Description: Students systematically audit T20 image generation for representation across demographics and T21 chatbots for response quality by dialect/topic. They measure disparities, analyze root causes, and propose mitigation strategies. Students use table variables to log results (columns: Prompt, Demographic, Quality Rating) and create data visualizations showing disparity patterns.
 
 Dependencies:
-* T32.G6.03: Build AI testing dashboard combining image and chatbot tests
+* T32.G6.03.01c: Build AI testing dashboard
 * T32.G5.05: Analyze AI's differential impacts on workers and communities
 
 
@@ -38425,10 +38311,10 @@ Dependencies:
 ID: T32.G7.14
 Topic: T32 – Digital Citizenship
 Skill: Debate ethics and propose policies
-Description: Using findings from T32.G7.06 AI art gallery experiments, students research stakeholder perspectives and engage in structured debates about AI media generation ethics. They: (1) Research perspectives through interviews/articles: Artists' concerns about devaluation of work and copyright, Educators' views on AI in creative learning, Business perspectives on efficiency and cost, Consumers' views on AI disclosure, (2) Build an interactive debate tool using widgets: Buttons to select debate topics (AI art copyright, Training data attribution, Disclosure requirements, Artist compensation), Dropdown for stakeholder perspective (Artist, Business, Consumer, Educator, AI Researcher), Text display of arguments and counter-arguments for each position, (3) Conduct classroom debates using evidence from research and experiments, (4) Draft policy proposals addressing: Should AI art be copyrightable?, Should training data sources be credited/compensated?, When must AI generation be disclosed?, How can artists adapt/benefit? Students present proposals with specific, actionable recommendations grounded in their experimental evidence and stakeholder research.
+Description: Using findings from T35.G7.05.01c experiments, students research stakeholder perspectives and engage in structured debates about AI media generation ethics. They: (1) Research perspectives through interviews/articles: Artists' concerns about devaluation of work and copyright, Educators' views on AI in creative learning, Business perspectives on efficiency and cost, Consumers' views on AI disclosure, (2) Build an interactive debate tool using widgets: Buttons to select debate topics (AI art copyright, Training data attribution, Disclosure requirements, Artist compensation), Dropdown for stakeholder perspective (Artist, Business, Consumer, Educator, AI Researcher), Text display of arguments and counter-arguments for each position, (3) Conduct classroom debates using evidence from research and experiments, (4) Draft policy proposals addressing: Should AI art be copyrightable?, Should training data sources be credited/compensated?, When must AI generation be disclosed?, How can artists adapt/benefit? Students present proposals with specific, actionable recommendations grounded in their experimental evidence and stakeholder research.
 
 Dependencies:
-* T32.G7.06: Build AI art gallery with comparison data
+* T32.G7.05.01c: Build AI art gallery with comparison data
 * T15.G7.01: Build interactive data displays with widgets
 
 
@@ -38468,8 +38354,8 @@ Skill: Analyze deepfakes and synthetic media detection
 Description: Students learn about deepfakes and synthetic media by examining examples and learning detection techniques. They identify warning signs (unnatural blinking, lighting inconsistencies, audio-visual mismatches, facial distortions). They build a checklist tool using widgets for evaluating media authenticity and practice applying it to sample videos/images. Students discuss implications for misinformation, consent, and trust in digital media.
 
 Dependencies:
-* T32.G7.06: Build AI art gallery with comparison data
-* T32.G5.08: Evaluate online sources using credibility criteria
+* T32.G7.05.01c: Build AI art gallery with comparison data
+* T32.G5.08: Identify credible vs. non-credible online sources
 
 
 
@@ -38545,7 +38431,7 @@ Description: Students analyze scenarios of exclusive behavior (interrupting, tak
 Dependencies:
 * T32.G5.10: Follow a plan-build-feedback cycle
 * T32.G5.11: Evaluate representation and inclusion in tech career stories
-* T32.G5.12: Lead a team check-in meeting
+* T32.G4.10: Role-play resolving disagreements in a coding or design project
 
 
 
@@ -38621,10 +38507,10 @@ Dependencies:
 ID: T32.G8.02
 Topic: T32 – Digital Citizenship
 Skill: Build wellbeing and cultural sensitivity modules
-Description: Building on T32.G8.01, students add two more assessment modules: (3) Wellbeing module: Checklist items for time limits, addictive patterns avoided, breaks encouraged, age-appropriate content, (4) Cultural sensitivity module: Checklist items for inclusive representation, stereotypes avoided, multiple perspectives, respectful content. Each follows the same rating structure (Yes/No/Partial/NA, evidence notes, 1-5 scoring).
+Description: Building on T35.G8.03.01a, students add two more assessment modules: (3) Wellbeing module: Checklist items for time limits, addictive patterns avoided, breaks encouraged, age-appropriate content, (4) Cultural sensitivity module: Checklist items for inclusive representation, stereotypes avoided, multiple perspectives, respectful content. Each follows the same rating structure (Yes/No/Partial/NA, evidence notes, 1-5 scoring).
 
 Dependencies:
-* T32.G8.01: Build accessibility and privacy assessment modules
+* T32.G8.03.01a: Build accessibility and privacy assessment modules
 * T15.G8.01: Build complex multi-widget applications
 
 
@@ -38637,7 +38523,7 @@ Skill: Integrate scoring and generate recommendations
 Description: Students integrate all four assessment modules into one comprehensive tool. They add: (1) Navigation buttons to move between assessment categories, (2) Overall project score calculation (average across all four categories), (3) ChatGPT integration that analyzes the assessment data and generates specific, actionable recommendations (e.g., "Project scored 2/5 on accessibility. Lacks keyboard controls - consider adding when key pressed blocks. Missing text-to-speech - add AI Speaker blocks"). Students test their complete tool on sample projects to ensure scoring is consistent and recommendations are useful.
 
 Dependencies:
-* T32.G8.02: Build wellbeing and cultural sensitivity modules
+* T32.G8.03.01b: Build wellbeing and cultural sensitivity modules
 * T21.G8.01: Use ChatGPT for advanced analysis
 
 
@@ -38663,7 +38549,7 @@ Skill: Build interactive workshop tools
 Description: Students design and build interactive teaching tools using widgets and blocks for their workshop. Examples: timer widget for screen balance, scenario simulator for kindness, sorting game for privacy, or bias demo for AI ethics. They also create an assessment component (quiz) to check understanding.
 
 Dependencies:
-* T32.G8.04.01: Design workshop curriculum for responsible tech
+* T32.G8.04.03: Deliver workshop and iterate
 * T16.G8.01: Build complex multi-widget applications
 
 ID: T32.G8.04.03
@@ -38672,14 +38558,14 @@ Skill: Deliver workshop and iterate
 Description: Students pilot their workshops with younger grades, delivering the lesson and using their interactive tools. They collect feedback using widget-based surveys and iterate on their tools and lesson plan based on what worked and what didn't.
 
 Dependencies:
-* T32.G8.04.02: Build interactive workshop tools
+* T32.G8.04.03: Deliver workshop and iterate
 ID: T32.G8.05
 Topic: T32 – Digital Citizenship
 Skill: Evaluate real proposals using the tool
-Description: Students evaluate real proposals (predictive policing, emotion AI in schools, personalized education platforms, facial recognition for attendance) using the impact assessment tool built in T32.G8.03. They systematically assess each proposal across all frameworks, gathering evidence from research and documenting where frameworks agree or conflict.
+Description: Students evaluate real proposals (predictive policing, emotion AI in schools, personalized education platforms, facial recognition for attendance) using the tool built in T35.G8.01.01. They systematically assess each proposal across all frameworks, gathering evidence from research and documenting where frameworks agree or conflict.
 
 Dependencies:
-* T32.G8.03: Integrate scoring and generate recommendations
+* T32.G8.04.03: Deliver workshop and iterate
 * T15.G8.01: Build complex multi-widget applications
 
 
@@ -38733,10 +38619,10 @@ Dependencies:
 ID: T32.G8.09
 Topic: T32 – Digital Citizenship
 Skill: Apply tool to evaluate AI projects
-Description: Using the impact assessment tool built in T32.G8.03, students conduct comprehensive evaluations of real CreatiCode community projects. They: (1) Select 3+ diverse community projects for evaluation (at least one using AI blocks T20-T23, at least one game, at least one educational tool), (2) Systematically assess each project using the tool, gathering evidence for each category: Test accessibility features, Review data collection practices, Analyze potential wellbeing impacts, Evaluate cultural representation, (3) Generate assessment reports: Use the tool's scoring output, Review ChatGPT-generated recommendations, Add their own observations and suggestions, (4) Create a comparative analysis using table variables: Which categories had lowest scores across projects? What common issues emerged? Which projects demonstrated best practices?, (5) Present findings to project creators with constructive, evidence-based recommendations. Students reflect on assessment challenges: How to score subjective categories consistently? When are tradeoffs acceptable? How to balance thoroughness with practicality?
+Description: Using the impact assessment tool built in T35.G8.03.01c, students conduct comprehensive evaluations of real CreatiCode community projects. They: (1) Select 3+ diverse community projects for evaluation (at least one using AI blocks T20-T23, at least one game, at least one educational tool), (2) Systematically assess each project using the tool, gathering evidence for each category: Test accessibility features, Review data collection practices, Analyze potential wellbeing impacts, Evaluate cultural representation, (3) Generate assessment reports: Use the tool's scoring output, Review ChatGPT-generated recommendations, Add their own observations and suggestions, (4) Create a comparative analysis using table variables: Which categories had lowest scores across projects? What common issues emerged? Which projects demonstrated best practices?, (5) Present findings to project creators with constructive, evidence-based recommendations. Students reflect on assessment challenges: How to score subjective categories consistently? When are tradeoffs acceptable? How to balance thoroughness with practicality?
 
 Dependencies:
-* T32.G8.03: Integrate scoring and generate recommendations
+* T32.G8.03.01c: Integrate scoring and generate recommendations
 * T15.G8.01: Build complex multi-widget applications
 * T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T07.G6.01: Trace nested loops with variable bounds
@@ -38764,7 +38650,7 @@ Dependencies:
 
 ID: T32.G8.11
 Topic: T32 – Digital Citizenship
-Skill: Research high school courses for tech careers
+Skill: Identify high school courses for tech careers
 Description: Students research which high school courses support different tech career paths. For their target career (AI researcher, UX engineer, data scientist), they identify: (1) math courses needed (algebra, statistics, calculus), (2) science courses (computer science, physics), and (3) other relevant courses (art, communication, business).
 
 Dependencies:
@@ -39028,8 +38914,8 @@ Dependencies:
 
 ID: T33.G5.03
 Topic: T33 – Connected Services
-Skill: Identify risks of shared URLs and distinguish safe vs private data
-Description: Students learn that URLs shared in projects make data accessible to anyone who sees the link. They practice identifying what information is safe to share publicly (test data, fictional characters, public facts) versus private (real names, addresses, photos, passwords). They create example "safe" datasets for coding projects using made-up information and recognize that sharing a project with a URL is like posting that URL on a public bulletin board.
+Skill: Explain Risks of Shared URLs
+Description: Students learn that URLs shared in projects make data accessible to anyone who sees the link. They practice identifying what information is safe to share publicly (test data, fictional characters, public facts) versus private (real names, addresses, photos, passwords). They create example "safe" datasets for coding projects using made-up information and understand that sharing a project with a URL is like posting that URL on a public bulletin board.
 
 Dependencies:
 * T30.G5.01: Trace how a device reaches an online service
@@ -39050,7 +38936,7 @@ Dependencies:
 * T09.G4.04: Trace code with variables to predict outcomes
 * T30.G5.01: Trace how a device reaches an online service
 * T33.G5.01: Compare local storage versus cloud storage tradeoffs
-* T33.G5.03: Identify risks of shared URLs and distinguish safe vs private data
+* T33.G5.03: Understand that shared URLs grant public access
 
 Note: For AI blocks, see Topic T32. For Multiplayer game blocks, see Topic T19.
 
@@ -39067,7 +38953,7 @@ Dependencies:
 * T08.G4.01: Use if-else to choose between two outcomes
 * T09.G4.01: Prompt user for input and store it in a variable
 * T30.G5.01: Trace how a device reaches an online service
-* T33.G5.03: Identify risks of shared URLs and distinguish safe vs private data
+* T33.G5.03: Understand that shared URLs grant public access
 * T33.G6.01: Identify and test Cloud blocks for network dependencies
 
 
@@ -39155,7 +39041,7 @@ Skill: Apply privacy principles to Google Sheet URLs
 Description: Students apply their understanding of URL sharing (from T33.G5.03) specifically to Google Sheets integration. They practice checking sheet permissions before integrating, creating test sheets with fictional data for projects, and documenting which sheets are safe to share. They understand that anyone with access to their CreatiCode project can access the Google Sheet URL embedded in the code. They create a "data safety checklist" for their projects listing which data sources contain real versus test information.
 
 Dependencies:
-* T33.G5.03: Identify risks of shared URLs and distinguish safe vs private data
+* T33.G5.03: Understand that shared URLs grant public access
 * T33.G6.03: Read data from Google Sheets into a table
 * T33.G6.04: Write data from a table to Google Sheets
 * T32.G5.04: Debate digital well-being scenarios
@@ -39166,8 +39052,8 @@ Dependencies:
 
 ID: T33.G6.09
 Topic: T33 – Connected Services
-Skill: Compare cloud database collections and Google Sheets for data storage
-Description: Students compare CreatiCode's cloud database collections with Google Sheets to determine when each is appropriate. They identify that collections are like spreadsheet tables but stored on CreatiCode's servers (no Google account needed), with faster access and built-in query features. They analyze tradeoffs: Google Sheets are visible in a browser and shareable outside CreatiCode, while database collections are private to their CreatiCode account and optimized for programmatic access. They select use cases for each: Sheets for human-readable data and external collaboration, collections for app-internal data like user scores or game states.
+Skill: Compare Cloud Database Collections and Google Sheets
+Description: Students compare CreatiCode's cloud database collections with Google Sheets to understand when each is appropriate. They learn that collections are like spreadsheet tables but stored on CreatiCode's servers (no Google account needed), with faster access and built-in query features. They understand tradeoffs: Google Sheets are visible in a browser and shareable outside CreatiCode, while database collections are private to their CreatiCode account and optimized for programmatic access. They identify use cases for each: Sheets for human-readable data and external collaboration, collections for app-internal data like user scores or game states.
 
 Dependencies:
 * T10.G5.01: Understand table structure (rows, columns, cells)
@@ -39187,7 +39073,7 @@ Dependencies:
 * T08.G5.01: Use nested conditionals for multi-branch decisions
 * T10.G5.01: Understand table structure (rows, columns, cells)
 * T30.G5.01: Trace how a device reaches an online service
-* T33.G6.09: Compare cloud database collections and Google Sheets for data storage
+* T33.G6.09: Understand cloud database collections versus Google Sheets
 
 
 
@@ -39324,7 +39210,7 @@ Dependencies:
 * T09.G5.01: Use multiple variables together in a single expression
 * T30.G5.01: Trace how a device reaches an online service
 * T33.G5.02: Distinguish real-time collaboration from one-time requests
-* T33.G5.03: Identify risks of shared URLs and distinguish safe vs private data
+* T33.G5.03: Understand that shared URLs grant public access
 
 
 
@@ -39349,13 +39235,13 @@ Note: Cloud sessions synchronize cloud variables only. For full multiplayer game
 
 ID: T33.G7.06
 Topic: T33 – Connected Services
-Skill: Trace how CreatiCode handles automatic service authorization
-Description: Students trace how CreatiCode's Cloud and AI blocks handle authentication automatically through the platform—they don't need API keys or login credentials. They identify that this simplifies development but means they're using CreatiCode's shared service accounts. They recognize that this automatic authorization is a teaching convenience and that professional applications require managing their own API keys and authentication. They document which blocks use automatic authorization (all Cloud and AI blocks) versus which require user-provided credentials (none in CreatiCode's educational environment).
+Skill: Understand automatic service authorization in CreatiCode
+Description: Students learn that CreatiCode's Cloud and AI blocks handle authentication automatically through the platform—they don't need API keys or login credentials. They understand that this simplifies development but means they're using CreatiCode's shared service accounts. They recognize that this automatic authorization is a teaching convenience and that professional applications require managing their own API keys and authentication. They document which blocks use automatic authorization (all Cloud and AI blocks) versus which require user-provided credentials (none in CreatiCode's educational environment).
 
 Dependencies:
 * T08.G5.01: Use nested conditionals for multi-branch decisions
 * T30.G5.01: Trace how a device reaches an online service
-* T33.G5.03: Identify risks of shared URLs and distinguish safe vs private data
+* T33.G5.03: Understand that shared URLs grant public access
 * T33.G6.03: Read data from Google Sheets into a table
 
 
@@ -39636,8 +39522,8 @@ Dependencies:
 
 ID: T34.GK.01
 Topic: T34 – Computing History
-Skill: Identify computing tools in picture scenes
-Description: Using illustrated picture cards showing familiar places (home, school, store), students click on computing devices (tablet, smart speaker, checkout scanner) and match each to one job it performs.
+Skill: Spot computing tools in daily life
+Description: Students identify devices (tablet, smart speaker, checkout scanner) in illustrated scenes and describe one job each performs.
 
 
 
@@ -39646,8 +39532,8 @@ Description: Using illustrated picture cards showing familiar places (home, scho
 
 ID: T34.GK.02
 Topic: T34 – Computing History
-Skill: Match old and new technology in picture pairs
-Description: Using picture cards showing paired images (rotary phone vs smartphone, bulky PC vs tablet), students drag old and new versions together and explain that technology changes over time.
+Skill: Match old vs new versions of tech
+Description: Learners compare paired images (rotary phone vs smartphone, bulky PC vs tablet) to grasp that technology changes over time.
 
 
 
@@ -39656,8 +39542,8 @@ Description: Using picture cards showing paired images (rotary phone vs smartpho
 
 ID: T34.GK.03
 Topic: T34 – Computing History
-Skill: Match workers to their computing tools in pictures
-Description: Using picture cards showing everyday workers (teacher, nurse, mechanic), students drag lines to connect each person to the computing tool they use (laptop, tablet, diagnostic computer).
+Skill: Name a person who uses computers in their job
+Description: Students connect everyday professions (teacher, nurse, mechanic) with computing tools they rely on.
 
 
 
@@ -39667,11 +39553,11 @@ Description: Using picture cards showing everyday workers (teacher, nurse, mecha
 
 ID: T34.G1.01
 Topic: T34 – Computing History
-Skill: Describe life before and after a technology using picture stories
-Description: Using illustrated picture cards showing "before" and "after" scenes (writing letters vs video chat, paper maps vs GPS), students point to differences and explain how computing changed how people do things.
+Skill: Describe life before and after a technology
+Description: Learners compare short stories (writing letters vs video chat) to explain how computing changed communication.
 
 Dependencies:
-* T34.GK.02: Match old and new technology in picture pairs
+* T34.GK.02: Match old vs new versions of tech
 
 
 
@@ -39679,11 +39565,11 @@ Dependencies:
 
 ID: T34.G1.02
 Topic: T34 – Computing History
-Skill: Recognize computing inventors in picture cards
-Description: Using illustrated picture cards showing global contributors (Ada Lovelace, Granville Woods, Radia Perlman), students match each person's picture to a card showing their computing idea or invention.
+Skill: Recognize inventors from diverse backgrounds
+Description: Students learn about global contributors (Ada Lovelace, Granville Woods, Radia Perlman, Maya Lin's digital work) and link each person to their computing idea.
 
 Dependencies:
-* T34.GK.03: Match workers to their computing tools in pictures
+* T34.GK.03: Name a person who uses computers in their job
 
 
 
@@ -39691,11 +39577,11 @@ Dependencies:
 
 ID: T34.G1.03
 Topic: T34 – Computing History
-Skill: Sort computing tool pictures by era
-Description: Using picture cards of computing tools (abacus, calculator, bulky computer, laptop, smartphone), students drag each card into "very old," "old," or "new" bins and explain that tools became smaller and more powerful over time.
+Skill: Sort computing tools by era
+Description: Students sort images of computing tools (abacus, calculator, bulky computer, laptop, smartphone) into "very old," "old," and "new" categories and explain that tools became smaller and more powerful over time.
 
 Dependencies:
-* T34.GK.02: Match old and new technology in picture pairs
+* T34.GK.02: Match old vs new versions of tech
 
 
 
@@ -39703,11 +39589,11 @@ Dependencies:
 
 ID: T34.G2.01
 Topic: T34 – Computing History
-Skill: Complete "then vs now" comparison charts using picture cards
-Description: Using picture cards showing tasks (taking photos, shopping, banking), students drag images into a two-column chart to show how each task was done before computers vs today.
+Skill: Build "then vs now" comparison charts
+Description: Students fill a chart showing how a task (taking photos, shopping, banking) was done before computers vs today.
 
 Dependencies:
-* T34.G1.01: Describe life before and after a technology using picture stories
+* T34.G1.01: Describe life before and after a technology
 * T01.G1.01: Put pictures in order to plant a seed
 
 
@@ -39716,12 +39602,12 @@ Dependencies:
 
 ID: T34.G2.02
 Topic: T34 – Computing History
-Skill: Sort picture cards showing who inventions helped
-Description: Using picture cards showing people using computing inventions (screen readers, online maps, smartphones), students sort cards into "helped" and "could not use" groups and discuss who might be left out.
+Skill: Analyze an invention's impact on different communities
+Description: Learners analyze one computing invention (screen readers, online maps, smartphones) and list which groups it helped and which groups may have been left out.
 
 Dependencies:
-* T34.G1.01: Describe life before and after a technology using picture stories
-* T34.G1.02: Recognize computing inventors in picture cards
+* T34.G1.01: Describe life before and after a technology
+* T34.G1.02: Recognize inventors from diverse backgrounds
 
 
 
@@ -39729,11 +39615,11 @@ Dependencies:
 
 ID: T34.G2.03
 Topic: T34 – Computing History
-Skill: Complete mini-biography picture templates of computing helpers
-Description: Using illustrated templates with picture cards, students drag icons showing facts (birthplace, invention, how they helped) onto a mini-bio poster about a person who uses tech to help others.
+Skill: Create mini-biographies of computing helpers
+Description: Students write/draw a mini-bio of a person (famous or local) who uses tech to help others.
 
 Dependencies:
-* T34.G1.02: Recognize computing inventors in picture cards
+* T34.G1.02: Recognize inventors from diverse backgrounds
 
 
 
@@ -39808,29 +39694,6 @@ Dependencies:
 * T12.G3.01: Test and trace simple block-based scripts
 * T34.G3.01: Sequence milestones on a timeline
 * T34.G3.02: Connect computing milestones to everyday life
-
-
-
-
-ID: T34.G4.01.01
-Topic: T34 – Computing History
-Skill: Identify a single cause-effect link between two inventions
-Description: Students select two related computing inventions from a list (e.g., vacuum tube → transistor, or transistor → microchip) and write one sentence explaining how the first enabled the second.
-
-Dependencies:
-* T34.G3.01: Sequence milestones on a timeline
-* T34.G3.02: Connect computing milestones to everyday life
-
-
-
-
-ID: T34.G4.01.02
-Topic: T34 – Computing History
-Skill: Construct a multi-step cause-effect chain diagram
-Description: Students build a diagram with at least three linked inventions showing cascading effects (e.g., transistor → microchip → personal computer → smartphone) and label each arrow with the enabling factor.
-
-Dependencies:
-* T34.G4.01.01: Identify a single cause-effect link between two inventions
 
 
 
@@ -40001,7 +39864,7 @@ Skill: Analyze how user interface evolution expanded access
 Description: Students trace UI evolution (command line → GUI → touchscreen → voice) and explain how each advance made computers accessible to new user groups.
 
 Dependencies:
-* T34.G4.03: Trace data storage evolution
+* T34.G3.04: Trace software evolution from text to visual
 * T34.G6.03: Evaluate who had access to computing in different eras
 
 
@@ -40031,29 +39894,6 @@ Dependencies:
 * T34.G5.01: Research a social movement where computing played a key role
 * T34.G5.02: Compare invention timelines across industries
 * T34.G6.01: Analyze hardware computing eras (mainframe → PC → mobile)
-
-
-
-
-ID: T34.G7.01.01
-Topic: T34 – Computing History
-Skill: Sequence early AI milestones (1950s-1980s)
-Description: Students place early AI milestones (Turing test proposal, first expert systems, early chatbots like ELIZA) on a timeline and explain the limitations of each era.
-
-Dependencies:
-* T34.G5.02: Compare invention timelines across industries
-* T34.G6.01: Analyze hardware computing eras (mainframe → PC → mobile)
-
-
-
-
-ID: T34.G7.01.02
-Topic: T34 – Computing History
-Skill: Trace modern AI breakthroughs (1990s-present)
-Description: Students create a timeline of modern AI developments (machine learning, deep learning, large language models) and identify what hardware or data advances enabled each breakthrough.
-
-Dependencies:
-* T34.G7.01.01: Sequence early AI milestones (1950s-1980s)
 
 
 
@@ -40133,7 +39973,7 @@ Skill: Gather primary sources for computing history research
 Description: Students gather primary sources (oral histories, historical documents, archival photos) about a computing history topic and organize them with proper citations.
 
 Dependencies:
-* T34.G6.03: Evaluate who had access to computing in different eras
+* T34.G5.03: Conduct interviews about technology changes
 * T34.G7.03: Design a museum-style exhibit about a computing pioneer
 
 

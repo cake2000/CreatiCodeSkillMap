@@ -63,8 +63,8 @@ async function runAllScripts() {
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   // Number of iterations for each phase
-  const TOPIC_ITERATIONS = 1; 
-  const GRADE_ITERATIONS = 0; 
+  const TOPIC_ITERATIONS = 2; 
+  const GRADE_ITERATIONS = 1; 
 
   console.log("===========================================");
   console.log("Starting Two-Phase Optimization Strategy");
@@ -92,7 +92,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 13) continue;
+      if ( iteration == 0 && i < 4) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -144,7 +144,7 @@ Use subagents/Task tool to keep context small. Proceed now.`;
 
       let success = false;
       let retryCount = 0;
-      const maxRetries = 3; // Reduced from 30000 to 3 for realism in this script context
+      const maxRetries = 3000000; 
 
       while (!success && retryCount < maxRetries) {
         try {
@@ -162,7 +162,7 @@ Use subagents/Task tool to keep context small. Proceed now.`;
           // Check for API errors
           console.log(`\n⚠️  OUTPUT for topic ${topic.code}: ${output}`);
           const outputLower = output.toLowerCase();
-          if (outputLower.includes("api error") || outputLower.includes("usage limit")) {
+          if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
             console.log(`\n⚠️  API rate limit hit for topic ${topic.code}`);
             console.log(`⏰ Waiting 3 minutes before retrying...`);
             await waitWithCountdown(3);
@@ -293,7 +293,7 @@ Use subagents/Task tool to keep context small. Proceed now.`;
           // Check for API errors
             console.log(`\n⚠️  OUPUT for grade ${grade}: ${output}`);
           const outputLower = output.toLowerCase();
-          if (outputLower.includes("api error") || outputLower.includes("usage limit")) {
+          if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
             console.log(`\n⚠️  API rate limit hit for grade ${grade}`);
             console.log(`⏰ Waiting 3 minutes before retrying...`);
             await waitWithCountdown(3);

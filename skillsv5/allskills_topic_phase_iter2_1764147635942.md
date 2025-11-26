@@ -1,26 +1,21 @@
-# T01 - Everyday Algorithms (Phase 3 Optimized - November 2025)
-# Applied Phase 3 topic-focused optimizations:
-# - Fixed vague verb: T01.G8.10 "understand" → "analyze"
-# - Clarified G2 picture/code matching progression (T01.G2.15-17, G2.19) with **Progression note:** tags
-#   to eliminate perceived overlap and show clear skill hierarchy:
-#   - T01.G2.15: SEQUENCE-level matching (picture sequences → block images)
-#   - T01.G2.16: REVERSE direction + repeat blocks (pictures → blocks)
-#   - T01.G2.17: INDIVIDUAL BLOCK recognition (single blocks → actions)
-#   - T01.G2.19: CAPSTONE - reading actual vertically-stacked scripts
-# - Verified X-2 rule compliance for all intra-topic dependencies (CONFIRMED: no violations)
-# - Verified K-2 skills all use picture-based/unplugged format (CONFIRMED: all 38 skills compliant)
-# - No duplicate skills found within T01
-# Previous Phase 1+2 optimizations preserved:
+# T01 - Everyday Algorithms (Phase 2 Optimized - November 2025)
+# Applied Phase 2 topic-focused optimizations:
 # - Split T01.G5.03 into T01.G5.03.01 (loops), T01.G5.03.02 (conditionals), T01.G5.03.03 (variables)
 # - Split T01.G8.08 into T01.G8.08.01 (helper blocks), T01.G8.08.02 (remove duplication), T01.G8.08.03 (meaningful names)
+# - Verified all skills use active verbs (no vague "Understand" or "Know")
+# - Confirmed K-2 skills use picture-based/unplugged format
+# - Verified X-2 rule compliance for all intra-topic dependencies
+# - No duplicates found within T01
+# Previous Phase 1 optimizations preserved:
 # - Split T01.G2.18 into T01.G2.18.01 (identify) and T01.G2.18.02 (explain)
 # - Marked T01.G4.02 as CAPSTONE skill with scheduling guidance
+# - Clarified T01.G2.15-17 as picture-based matching ONLY (no code writing)
 # - Fixed truncated dependency descriptions in G7 skills
 # - Added structure explanation for T01.G5.02.XX sub-skills
 # - Fixed dependency reference mismatch in T01.GK.05
 # - Added concrete examples for recursion skills T01.G8.04-05
 # - Clarified assessment formats in T01.G3.11 and T01.G4.12
-# Total: 125 skills (unchanged from Phase 2)
+# Total: 125 skills (6 new sub-skills added from Phase 2 splits: T01.G5.03.01-04, T01.G8.08.01-04)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -407,7 +402,7 @@ Dependencies:
 ID: T01.G2.15
 Topic: T01 – Everyday Algorithms
 Skill: Match picture instructions to visual block commands
-Description: Students match simple picture‑based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block images, recognizing that pictures and blocks can represent the same algorithm. **Progression note:** This skill focuses on SEQUENCE-level matching (3-4 step sequences), building on the grid navigation skills to connect familiar direction sequences to code block representations. _Implementation note: Picture-based matching ONLY - no code writing or block arrangement. Drag‑and‑drop matching with 3–4 sequence pairs; auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students match simple picture‑based instruction sequences (e.g., arrow cards showing "forward, forward, turn right") to equivalent visual block images, recognizing that pictures and blocks can represent the same algorithm. _Implementation note: Picture-based matching ONLY - no code writing or block arrangement. Drag‑and‑drop matching with 3–4 sequence pairs; auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.13: Write directions to navigate a simple grid
@@ -419,7 +414,7 @@ Dependencies:
 ID: T01.G2.16
 Topic: T01 – Everyday Algorithms
 Skill: Match code block images to picture sequences
-Description: Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code block IMAGES does the same thing from 3-4 options. **Progression note:** This skill REVERSES the direction from T01.G2.15 - students start with pictures and find matching blocks, and introduces "repeat" block images (building on T01.G2.03). This tests the same concept bidirectionally. _Implementation note: Picture-based MCQ ONLY - students select from pre-drawn block images, no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students look at a picture sequence showing actions (e.g., 3 pictures of a character moving and turning). Then they choose which set of code block IMAGES does the same thing from 3-4 options. _Implementation note: Picture-based MCQ ONLY - students select from pre-drawn block images, no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.03: Replace repeated steps with a repeat instruction
@@ -432,7 +427,7 @@ Dependencies:
 ID: T01.G2.17
 Topic: T01 – Everyday Algorithms
 Skill: Identify the action each code block performs
-Description: Students look at simple code block IMAGES (move, turn, say) and identify what action each SINGLE block performs by matching block images to picture-based behaviors (character moving, turning, speaking). **Progression note:** This skill focuses on INDIVIDUAL BLOCK recognition (unlike T01.G2.15-16 which focus on sequences), building vocabulary of what each block type does before combining them. _Implementation note: Picture-based MCQ matching block images to action pictures - no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: Students look at simple code block IMAGES (move, turn, say) and identify what action each block performs by matching block images to picture-based behaviors (character moving, turning, speaking). _Implementation note: Picture-based MCQ matching block images to action pictures - no code writing. Auto‑graded. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.02: Use "repeat" to make directions shorter
@@ -469,7 +464,7 @@ Dependencies:
 ID: T01.G2.19
 Topic: T01 – Everyday Algorithms
 Skill: Read a simple 3-block script and match to pictures
-Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. **Progression note:** This is the CAPSTONE skill for G2 code reading - students read actual block script format (vertically stacked, like real code) rather than just block images. This bridges picture-based understanding to reading code structure, preparing for Grade 3 coding. _Implementation note: MCQ matching code to pictures; auto-graded. Picture-based matching only - no code writing required. CSTA: E2-ALG-AF-01._
+Description: Students see a simple 3-block script (like: move forward, turn right, move forward) and match it to a picture sequence showing the same actions. This bridges picture-based understanding to reading code. _Implementation note: MCQ matching code to pictures; auto-graded. Picture-based matching only - no code writing required. CSTA: E2-ALG-AF-01._
 
 Dependencies:
 * T01.G2.17: Identify the action each code block performs
@@ -1721,7 +1716,7 @@ Dependencies:
 
 ID: T01.G8.10
 Topic: T01 – Everyday Algorithms
-Skill: Use logging/probes to analyze algorithm behavior
+Skill: Use logging/probes to understand algorithm behavior
 Description: Students insert logs or display statements at key points and use them to answer questions about an algorithm's internal behavior. _Implementation note: Coding + reading logs; auto‑graded. CSTA: MS‑ALG‑PS‑07, MS‑PRO‑TR‑11._
 
 Dependencies:
@@ -2130,8 +2125,8 @@ Dependencies:
 
 ID: T02.G4.05
 Topic: T02 – Algorithm Diagrams
-Skill: Use the print block to display messages in the console
-Description: Students learn to use the "print [MESSAGE] in [console] color [COLOR]" block from CreatiCode's Control category to display messages and variable values in the console panel below the editor. They observe how this helps them see what the algorithm is doing step-by-step during execution.
+Skill: Understand the print block for tracing
+Description: Students learn to use the "print [MESSAGE] in [console] color [COLOR]" block from CreatiCode's Control category to display messages and variable values in the console panel below the editor. They understand that this helps them see what the algorithm is doing step-by-step during execution.
 
 Dependencies:
 * T02.G4.02: Build a block script with a repeat loop
@@ -2152,7 +2147,7 @@ Skill: Use the print block to trace variable changes in a loop
 Description: Students add "print [variable value] in [console]" blocks inside a repeat loop to see how a variable (like a counter) changes with each iteration, manually recording the console output to build a simple trace table on paper.
 
 Dependencies:
-* T02.G4.05: Use the print block to display messages in the console
+* T02.G4.05: Understand the print block for tracing
 * T02.G4.04.04: Predict loop output before using debug print
 * T04.G2.01: Identify the repeating unit in a longer pattern
 * T04.G2.02: Spot repeated step sequences in everyday algorithms
@@ -2583,10 +2578,11 @@ Dependencies:
 ID: T02.G8.04
 Topic: T02 – Algorithm Diagrams
 Skill: Identify and remove redundant algorithm steps
-Description: Students analyze their block scripts and generated pseudocode to find redundant steps (duplicate checks, unnecessary variables, repeated operations), remove them, and verify the simplified algorithm still works correctly. This extends earlier algorithm improvement skills to more complex, multi-step algorithms.
+Description: Students analyze their block scripts and generated pseudocode to find redundant steps (duplicate checks, unnecessary variables, repeated operations), remove them, and verify the simplified algorithm still works correctly.
 
 Dependencies:
 * T02.G8.03: Trace complex algorithms with multiple test cases
+* T02.G5.06: Improve an algorithm by removing redundant blocks
 * T07.G6.01: Trace nested loops with variable bounds
 
 
@@ -2713,8 +2709,8 @@ Dependencies:
 
 ID: T03.G1.04
 Topic: T03 – Problem Decomposition
-Skill: Match steps to parts of a tiny story or game using picture cards
-Description: Students see a tiny story or game idea shown in pictures (e.g., "A cat says hello, then dances") and drag picture or word cards to match which step goes with each character or scene (e.g., drag "cat walks to tree" card to the cat character picture, drag "music plays" card to the background picture).
+Skill: Match steps to parts of a tiny story or game
+Description: Students see a tiny story or game idea (e.g., "A cat says hello, then dances") and match which step goes with each character or scene (e.g., "cat walks to tree" matches with the cat character, "music plays" matches with the background).
 
 Dependencies:
 * T03.G1.03: List steps for a simple classroom routine
@@ -2749,8 +2745,8 @@ Dependencies:
 
 ID: T03.G2.03
 Topic: T03 – Problem Decomposition
-Skill: Arrange subtask cards into a reasonable order
-Description: Students drag 4–5 subtask word cards and arrange them into a logical sequence (e.g., plan → create → try it out), considering what must happen first.
+Skill: Arrange subtasks into a reasonable order
+Description: Students take 4–5 subtasks and order them into a logical sequence (e.g., plan → create → try it out), considering what must happen first.
 
 Dependencies:
 * T03.G2.02: Group subtasks by type
@@ -2761,11 +2757,11 @@ Dependencies:
 
 ID: T03.G2.04
 Topic: T03 – Problem Decomposition
-Skill: Mark completed subtasks on a visual checklist
-Description: Students see a visual checklist with picture or word cards showing subtasks for a mini‑project, and tap or drag checkmarks to mark which subtasks are complete based on a description of work done ("We already drew the characters and added sounds.").
+Skill: Use a checklist to track progress on a mini‑project
+Description: Students see a mini‑project checklist and mark which subtasks are complete based on a description of work done ("We already drew the characters and added sounds.").
 
 Dependencies:
-* T03.G2.03: Arrange subtask cards into a reasonable order
+* T03.G2.03: Arrange subtasks into a reasonable order
 
 
 
@@ -3471,8 +3467,8 @@ Dependencies:
 
 ID: T04.GK.01
 Topic: T04 – Algorithm Patterns
-Skill: Select a row of picture cards showing a repeating pattern
-Description: Students look at rows of picture cards (colored shapes, animals, or objects) and click on the row that shows a clear repeating pattern (ABAB, AABB, ABCABC), distinguishing it from broken or random rows. Visual scenario activity using picture cards only.
+Skill: Identify a simple repeating pattern
+Description: Students look at rows of pictures or tiles and pick the row that shows a clear repeating pattern (ABAB, AABB, ABCABC), distinguishing it from broken or random rows.
 
 
 
@@ -3481,8 +3477,8 @@ Description: Students look at rows of picture cards (colored shapes, animals, or
 
 ID: T04.GK.02
 Topic: T04 – Algorithm Patterns
-Skill: Drag the next picture card to extend a repeating pattern
-Description: Students see a short pattern of picture cards (e.g., red circle, blue square, red circle, blue square, ?) and drag-and-drop the correct picture card to extend the pattern by one. Visual scenario activity using picture cards only.
+Skill: Extend a repeating pattern by one tile
+Description: Students see a short pattern (e.g., red, blue, red, blue, ?) and choose or drag the next picture.
 
 Dependencies:
 * T04.GK.01: Identify a simple repeating pattern
@@ -3495,8 +3491,8 @@ Dependencies:
 
 ID: T04.GK.03
 Topic: T04 – Algorithm Patterns
-Skill: Match a picture pattern to its spoken description
-Description: Students see a pattern of picture cards (shapes, colors, or objects) and click on the audio button that matches the pattern description (e.g., "circle, square, circle, square"). Audio-supported visual matching activity for pre-readers.
+Skill: Describe a pattern using simple words
+Description: Students see a pattern and choose the matching description (e.g., "circle, square, circle, square").
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -3509,8 +3505,8 @@ Dependencies:
 
 ID: T04.GK.04
 Topic: T04 – Algorithm Patterns
-Skill: Debug a broken pattern by replacing the wrong picture card
-Description: Students see a row of picture cards with one wrong picture (highlighted or marked) and drag-and-drop the correct picture card to fix the broken repeating pattern. Visual debugging activity using picture cards only.
+Skill: Fix a broken pattern by replacing one tile
+Description: Students see a pattern row with one wrong picture and replace just that tile to restore the repeating pattern.
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -3523,8 +3519,8 @@ Dependencies:
 
 ID: T04.G1.01
 Topic: T04 – Algorithm Patterns
-Skill: Match picture cards of actions to a character's repeated movements
-Description: Students see picture cards showing action sequences (e.g., hop, clap, hop, clap) and match them to a short animation showing a character performing those same repeated movements. Visual matching activity using picture cards and simple animations.
+Skill: Match a picture pattern to a movement pattern
+Description: Students match a picture pattern (e.g., hop, clap, hop, clap) to a character's actions in a short story or animation.
 
 Dependencies:
 * T04.GK.02: Extend a repeating pattern by one tile
@@ -3535,8 +3531,8 @@ Dependencies:
 
 ID: T04.G1.02
 Topic: T04 – Algorithm Patterns
-Skill: Arrange action picture cards to create a repeating dance plan
-Description: Students drag-and-drop 3-4 action picture cards (e.g., spin, jump, spin, jump) into a sequence to create a repeating "dance" plan that matches a target animation. Unplugged visual planning activity using picture cards.
+Skill: Plan a short repeating animation pattern
+Description: Students choose a 3‑panel picture pattern (e.g., spin, jump, spin) and arrange action cards to create a matching "dance" plan.
 
 Dependencies:
 * T04.G1.01: Match a picture pattern to a movement pattern
@@ -3547,8 +3543,8 @@ Dependencies:
 
 ID: T04.G1.03
 Topic: T04 – Algorithm Patterns
-Skill: Highlight the repeated steps in a row of picture cards
-Description: Students examine a row of picture-based instruction cards (e.g., move forward, move forward, move forward, turn) and click to highlight which cards repeat (e.g., three identical "move forward" cards). Visual selection activity using picture cards.
+Skill: Find repeated steps in an instruction list
+Description: Students examine a short list of picture‑based steps (or action cards laid out in a row) and click or highlight the part that repeats (e.g., three identical "move forward" cards in a row).
 
 Dependencies:
 * T01.GK.07: Find the pattern that repeats
@@ -3559,8 +3555,8 @@ Dependencies:
 
 ID: T04.G1.04
 Topic: T04 – Algorithm Patterns
-Skill: Match a picture story to a step-by-step action card sequence
-Description: Students see a simple picture story (comic strip) showing a character repeating actions and match it to the correct row of step-by-step action cards that represent the same repeated sequence. Visual matching activity using picture cards.
+Skill: Match a repeated picture story to a repeated step list
+Description: Students match a picture story showing repeated actions with a simple list of steps that repeats the same action sequence.
 
 Dependencies:
 * T04.G1.03: Find repeated steps in an instruction list
@@ -3571,8 +3567,8 @@ Dependencies:
 
 ID: T04.G2.01
 Topic: T04 – Algorithm Patterns
-Skill: Select the repeating unit from a longer picture pattern
-Description: Students see a longer pattern of picture cards (e.g., star-moon-sun-star-moon-sun-star-moon-sun) and click on the group of cards that forms the repeating "unit" (e.g., star-moon-sun). Visual pattern recognition activity using picture cards.
+Skill: Identify the repeating unit in a longer pattern
+Description: Students see a longer pattern like ABCABCABC and choose the "unit" that repeats.
 
 Dependencies:
 * T04.G1.02: Plan a short repeating animation pattern
@@ -3584,8 +3580,8 @@ Dependencies:
 
 ID: T04.G2.02
 Topic: T04 – Algorithm Patterns
-Skill: Highlight the repeated steps in an everyday routine shown with picture cards
-Description: Students see picture cards showing an everyday routine (e.g., brush teeth, rinse, brush teeth, rinse, brush teeth, rinse) and click to highlight the step sequence that repeats. Focus is on identifying the pattern unit in familiar activities. Visual selection activity using picture cards.
+Skill: Spot repeated step sequences in everyday algorithms
+Description: Students read or see an everyday algorithm (e.g., "brush, rinse" repeated three times) and highlight the part that repeats, focusing on the *pattern unit* rather than the full routine.
 
 Dependencies:
 * T04.G2.01: Identify the repeating unit in a longer pattern
@@ -3596,8 +3592,8 @@ Dependencies:
 
 ID: T04.G2.03
 Topic: T04 – Algorithm Patterns
-Skill: Compare expanded vs compressed representations of a repeating pattern
-Description: Students see two visual representations of the same pattern using picture cards: one showing all steps explicitly (three star cards in a row) vs one using a "repeat 3" label with a single star card. They click on which representation is shorter and clearer. Unplugged visual comparison activity.
+Skill: Compare a long explicit description vs a compressed "repeat" description
+Description: Students compare two visual or written descriptions of the same pattern: one showing all steps explicitly (e.g., "draw star, draw star, draw star") vs one using "repeat 3 times: draw star." They identify which is shorter and clearer, focusing on pattern comparison rather than coding concepts.
 
 Dependencies:
 * T01.G2.02: Use "repeat" to make directions shorter
@@ -3608,8 +3604,8 @@ Dependencies:
 
 ID: T04.G2.04
 Topic: T04 – Algorithm Patterns
-Skill: Create a "repeat ___ times" label for a row of repeated picture cards
-Description: Students see a row of repeated picture cards (e.g., four jump cards) and select or type the correct number to create a "repeat 4: [jump]" compressed representation. Focus is on expressing repetition concisely using visual notation. Unplugged activity preparing for loop concepts.
+Skill: Replace repeated steps with a "repeat ___ times" phrase
+Description: Students rewrite a long visual or written pattern description by selecting or creating a compressed version using "repeat ___ times" notation. Focus is on recognizing and expressing repetition concisely, using visual notation like "repeat 4: [pattern]" rather than preparing for coding.
 
 Dependencies:
 * T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
@@ -3620,8 +3616,8 @@ Dependencies:
 
 ID: T04.G2.05
 Topic: T04 – Algorithm Patterns
-Skill: Match a "repeat box" diagram to its expanded picture card sequence
-Description: Students see a visual "repeat box" (a box drawn around picture cards with "repeat 3 times" label) and match it to the equivalent expanded sequence showing all three repetitions. UNPLUGGED visual matching activity preparing students for code blocks in Grade 3.
+Skill: Match a "repeat box" diagram to repeated steps (unplugged visual activity)
+Description: Students see a visual representation of repetition—a box drawn around pictures or steps with "repeat 3 times" written above it—and match it to the equivalent expanded sequence showing all repetitions. This is an UNPLUGGED activity using visual notation (pictures, drawings) to help organize repeated elements before transitioning to code blocks.
 
 Dependencies:
 * T04.G2.04: Replace repeated steps with a "repeat ___ times" phrase
@@ -3733,8 +3729,8 @@ Dependencies:
 
 ID: T04.G3.07
 Topic: T04 – Algorithm Patterns
-Skill: Debug a loop where one action block is incorrect
-Description: Students examine a loop or repeated sequence where one action block differs from the intended pattern and edit that block to fix the error. Focus is on identifying and correcting single-step pattern errors.
+Skill: Fix a pattern where one step is wrong
+Description: Students repair a loop or repeated sequence where one action is different from the rest.
 
 Dependencies:
 * T04.G3.06: Fix a loop that repeats too many or too few times
@@ -3894,8 +3890,8 @@ Dependencies:
 
 ID: T04.G4.07
 Topic: T04 – Algorithm Patterns
-Skill: Evaluate the benefits of reusing algorithm patterns
-Description: Students answer multiple-choice questions distinguishing true benefits of reusing patterns (e.g., "less code to write," "fewer bugs," "easier to understand") from incorrect claims (e.g., "makes code run faster," "uses less memory"). Focus is on reasoning about code quality tradeoffs.
+Skill: Select reasons why reusing a pattern saves time
+Description: Students answer multiple-choice questions identifying benefits of reusing patterns (e.g., "less code to write," "fewer bugs," "easier to understand") versus incorrect claims (e.g., "makes code run faster," "uses less memory").
 
 Dependencies:
 * T04.G3.08: Match algorithm descriptions to code pattern shapes
@@ -4259,7 +4255,7 @@ Description: Students recognize when code uses a list or grid pattern (e.g., ite
 Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 * T08.G5.01: Use a simple if in a script
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T10.G5.01: Identifying data structure patterns requires understanding lists and tables.
 
 
 
@@ -4274,7 +4270,7 @@ Dependencies:
 * T04.G5.01: Recognize a counter update pattern
 * T04.G5.02: Recognize an accumulator (sum/concatenate) pattern
 * T04.G6.01: Group snippets by underlying algorithm pattern
-* T08.G5.01: Use a simple if in a script
+* T08.G5.01: Pattern identification requires conditional analysis of problem characteristics.
 
 
 
@@ -4299,9 +4295,9 @@ Description: Students code a solution that uses two patterns together (e.g., loo
 
 Dependencies:
 * T04.G7.04: Outline a solution combining two patterns
-* T06.G5.01: Identify standard event patterns in a small game
-* T09.G5.01: Use multiple variables together in a single expression
-* T07.G5.01: Simulate repeated experiments with a loop
+* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G5.01: Display variable value on stage using the variable monitor
+* T07.G5.01: Combined patterns often involve nested loops for processing data.
 
 
 
@@ -4378,8 +4374,8 @@ Description: Students refactor code that has repeated pattern blocks into a more
 
 Dependencies:
 * T04.G6.02: Identify pattern variants that look different but behave the same
-* T07.G5.01: Simulate repeated experiments with a loop
-* T11.G5.01: Define a custom block with multiple parameters
+* T07.G5.01: Use a counted repeat loop
+* T11.G5.01: Merging patterns often involves creating reusable functions.
 
 
 
@@ -4516,17 +4512,6 @@ Dependencies:
 
 
 
-# T05 - Human-Centered Design (Phase 3 Optimized - November 2025)
-# Applied Phase 3 topic-focused optimizations:
-# - Fixed dependency reference mismatch: T05.G2.04 now correctly references T05.G2.03 skill title
-# - Fixed truncated dependency descriptions in G7 skills (T05.G7.01a, G7.01c, G7.02, G7.03, G7.05, G7.06, G7.08)
-#   Replaced explanatory text with actual skill titles for cross-topic dependencies (T07, T08, T10)
-# - Verified X-2 rule compliance for all intra-topic dependencies (CONFIRMED: no violations)
-# - Verified K-2 skills all use picture-based/unplugged format (CONFIRMED: all 12 skills compliant)
-# - Two parallel tracks identified: Design Track (user research, wireframes, accessibility) and
-#   Simulation Track (variables, rules, experiments) - both support HCD principles
-# - No duplicate skills found within T05
-# Total: 55 skills (unchanged from Phase 2)
 
 ID: T05.GK.01
 Topic: T05 – Human‑Centered Design
@@ -4670,7 +4655,7 @@ Skill: Choose what to include in a very simple simulation
 Description: Students see a picture of a situation (e.g., garden with sun, rain, flowers, bugs, fence). They drag and drop 2–3 pictures of important things to include in a "computer pretend version" to answer a question like "What helps the plant grow?" while leaving out unimportant details.
 
 Dependencies:
-* T05.G2.03: Match real situations to pretend computer versions
+* T05.G2.03: Recognize when a situation could be simulated
 
 
 
@@ -5150,7 +5135,7 @@ Description: Students test a CreatiCode project for keyboard-only navigation (ca
 
 Dependencies:
 * T05.G7.01: Check color contrast and text readability in a project
-* T07.G5.01: Simulate repeated experiments with a loop
+* T07.G5.01: Checklist reviews iterate through multiple criteria.
 
 
 
@@ -5175,7 +5160,7 @@ Description: Students perform a comprehensive accessibility review combining all
 
 Dependencies:
 * T05.G7.01b: Check captions and alternative text in a project
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T10.G5.01: Accessibility checklists are organized as structured lists.
 
 
 
@@ -5188,7 +5173,7 @@ Description: Students evaluate a CreatiCode project for color contrast issues (t
 
 Dependencies:
 * T05.G5.05a: Identify accessibility features needed in a design
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
+* T08.G5.01: Accessibility review requires conditional checks against criteria.
 
 
 
@@ -5201,8 +5186,8 @@ Description: Students see a list of identified accessibility issues and drag-and
 
 Dependencies:
 * T05.G7.01c: Complete a full accessibility review with evidence
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Prioritization requires conditional decision-making based on severity.
+* T10.G5.01: Issue prioritization involves creating and sorting lists of problems.
 
 
 
@@ -5216,8 +5201,8 @@ Description: Students read a project description (e.g., social app, data collect
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T05.G5.05: Plan how to test whether a design meets user needs
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Harm identification requires conditional reasoning about different user scenario
+* T10.G5.01: Harm identification produces lists of potential issues.
 
 
 
@@ -5243,8 +5228,8 @@ Description: Students analyze a simple data visualization (bar chart of feature 
 Dependencies:
 * T05.G5.05: Plan how to test whether a design meets user needs
 * T05.G6.04: Update a design based on specific user feedback
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Data interpretation requires conditional logic to identify problems.
+* T10.G5.01: Usage data is typically stored in tables or lists for analysis.
 
 
 
@@ -5257,8 +5242,8 @@ Description: Students select from multiple choice options which design changes c
 
 Dependencies:
 * T05.G7.05: Interpret usage or feedback data to find UX problems
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Design decisions require conditional logic based on data patterns.
+* T10.G5.01: Data patterns are identified from tabular or list-based data.
 
 
 
@@ -5284,8 +5269,8 @@ Description: Students implement a simple simulation they planned (or are given a
 Dependencies:
 * T05.G6.05: Plan a simple CreatiCode simulation with variables, rules, and UI
 * T05.G6.08: Identify user questions a simulation should answer
-* T08.G5.01: Use nested conditionals to handle multiple outcomes
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T08.G5.01: Simulation testing requires conditional logic for different scenarios.
+* T10.G5.01: Simulation testing produces data sets for refinement.
 
 
 
@@ -5424,7 +5409,7 @@ Skill: Order pictures showing a morning routine (event sequence concept)
 Description: Students arrange 3-4 picture cards showing a simple morning routine in the correct order (e.g., wake up → brush teeth → eat breakfast → go to school). This unplugged activity builds foundational understanding of event sequences and chronological ordering without coding. Use familiar, concrete scenarios from daily life that children can relate to.
 
 Dependencies:
-* T01.GK.01: Put pictures in order for getting ready for bed
+* T01.GK.01: Recognize and compare object sizes
 
 
 
@@ -5702,8 +5687,8 @@ Dependencies:
 
 ID: T06.G4.03
 Topic: T06 – Events & Sequences
-Skill: Select broadcast as the communication method for sprite coordination
-Description: Given a project idea requiring coordination between sprites (e.g., "when player reaches goal, show next level"), students choose broadcast as the appropriate communication method from options including direct references, broadcasts, and variables. This introduces the concept of inter-sprite communication before building it.
+Skill: Recognize when a broadcast could connect sprites
+Description: Students see a project idea requiring coordination between sprites (e.g., "when player reaches goal, show next level") and choose that a broadcast is appropriate. This introduces the concept of inter-sprite communication before building it.
 
 Dependencies:
 * T06.G4.02: Trace which scripts run for different inputs
@@ -5849,8 +5834,8 @@ Dependencies:
 
 ID: T06.G5.01
 Topic: T06 – Events & Sequences
-Skill: Locate and label the game-start pattern in existing code
-Description: Students locate and label the 'game-start' pattern in a small game: find the green flag event handler that performs initialization (reset score, position sprites, set variables) and mark it with a comment. Explain why initialization must happen first.
+Skill: Identify the game-start pattern in existing code
+Description: Students locate and label the 'game-start' pattern in a small game: identify the green flag event handler that performs initialization (reset score, position sprites, set variables). Explain why initialization must happen first.
 
 Dependencies:
 * T06.G4.12: Use green flag initialization to prepare game state
@@ -5859,31 +5844,31 @@ Dependencies:
 
 ID: T06.G5.01.01
 Topic: T06 – Events & Sequences
-Skill: Trace and label the reset-level pattern using broadcasts
-Description: Students trace and label the 'reset-level' pattern: find the broadcast that triggers level reset and the receivers that reposition sprites and reset local state. Draw arrows showing the broadcast flow from sender to all receivers.
+Skill: Identify the reset-level pattern using broadcasts
+Description: Students locate and label the 'reset-level' pattern: find the broadcast that triggers level reset and the receivers that reposition sprites and reset local state. Trace the broadcast from sender to all receivers.
 
 Dependencies:
-* T06.G5.01: Locate and label the game-start pattern in existing code
+* T06.G5.01: Identify the game-start pattern in existing code
 * T06.G4.06: Match a broadcast send to its receivers
 
 
 ID: T06.G5.01.02
 Topic: T06 – Events & Sequences
-Skill: Locate and explain the on-collision pattern for game interactions
-Description: Students locate and label the 'on-collision' pattern: find "when touching sprite" or "when touching color" event handlers that trigger game actions (scoring, damage, level transition). Explain how collision detection connects to game logic by describing the cause-effect relationship.
+Skill: Identify the on-collision pattern for game interactions
+Description: Students locate and label the 'on-collision' pattern: find "when touching sprite" or "when touching color" event handlers that trigger game actions (scoring, damage, level transition). Explain the relationship between collision detection and game logic.
 
 Dependencies:
-* T06.G5.01.01: Trace and label the reset-level pattern using broadcasts
+* T06.G5.01.01: Identify the reset-level pattern using broadcasts
 * T06.G4.09: Use "when touching sprite" for sprite-to-sprite collision
 
 
 ID: T06.G5.01.03
 Topic: T06 – Events & Sequences
-Skill: Locate and explain the on-state-change pattern using condition events
-Description: Students locate and label the 'on-state-change' pattern: find "when <condition>" blocks that trigger actions when game state changes (score reaches threshold, health becomes zero). Explain how condition events enable reactive game logic by describing when and why each condition fires.
+Skill: Identify the on-state-change pattern using condition events
+Description: Students locate and label the 'on-state-change' pattern: find "when <condition>" blocks that trigger actions when game state changes (score reaches threshold, health becomes zero). Explain how condition events enable reactive game logic.
 
 Dependencies:
-* T06.G5.01.02: Locate and explain the on-collision pattern for game interactions
+* T06.G5.01.02: Identify the on-collision pattern for game interactions
 
 
 
@@ -6044,8 +6029,8 @@ Dependencies:
 
 ID: T06.G6.02
 Topic: T06 – Events & Sequences
-Skill: Distinguish parallel vs sequential event behaviors in code
-Description: Students analyze code to determine which scripts run concurrently (multiple event handlers triggered by same event start together) vs sequentially (using 'broadcast and wait' ensures order). Label each script as "parallel" or "sequential" and explain that Scratch's threading model allows parallel execution unlike traditional procedural code.
+Skill: Identify parallel vs sequential event behaviors
+Description: Students analyze code to determine which scripts run concurrently (multiple event handlers triggered by same event start together) vs sequentially (using 'broadcast and wait' ensures order). Explain that Scratch's threading model allows parallel execution unlike traditional procedural code.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
@@ -6390,7 +6375,7 @@ Skill: Design animation sequences with broadcast coordination
 Description: Students create complex multi-sprite animations by coordinating broadcasts to sequence different animation stages (e.g., "intro-start" → sprite1 animates → broadcasts "intro-part2" → sprite2 animates → broadcasts "intro-done"). Use 'broadcast and wait' to ensure timing.
 
 Dependencies:
-* T06.G6.02: Distinguish parallel vs sequential event behaviors in code
+* T06.G4.05: Use "broadcast and wait" to sequence sprite actions
 * T06.G7.03: Design a broadcast protocol to decouple components
 
 
@@ -6413,22 +6398,13 @@ Dependencies:
 
 ID: T06.G8.02
 Topic: T06 – Events & Sequences
-Skill: Implement a processing flag to prevent double-click issues
-Description: Students add a 'processing' flag variable that prevents event handlers from running multiple times simultaneously. When an event fires, check if already processing; if not, set flag to true, run the action, then set flag to false. Apply this pattern to prevent issues when users click rapidly or press keys multiple times.
+Skill: Implement guard conditions to handle missed or repeated events
+Description: Students add guard conditions (e.g., if not already running, if state is valid) to ensure programs behave correctly when events fire unexpectedly. Implement at least two guards: (1) prevent double-click issues using a 'processing' flag, (2) handle missed initialization by checking/setting default values.
 
 Dependencies:
 * T06.G6.01: Trace event execution paths in a multi-event program
 * T06.G7.03: Design a broadcast protocol to decouple components
 * T06.G7.04: Compare tightly coupled vs broadcast-based designs
-
-
-ID: T06.G8.02.01
-Topic: T06 – Events & Sequences
-Skill: Add default value checks to handle missed initialization
-Description: Students add guard conditions at the start of event handlers to check if required variables have valid values, and set defaults if not (e.g., if score is undefined, set to 0). This ensures robust programs that work correctly even if initialization events were missed or skipped.
-
-Dependencies:
-* T06.G8.02: Implement a processing flag to prevent double-click issues
 
 
 
@@ -6486,23 +6462,13 @@ Dependencies:
 
 
 
-ID: T06.G6.20
-Topic: T06 – Events & Sequences
-Skill: Design collision response patterns for game interactions
-Description: Students design and implement collision response patterns that combine collision detection events with appropriate game logic (scoring, damage, state changes, sound effects). Create a collision response table documenting: collision type, triggering sprites, and resulting actions. This bridges basic collision events to complex 3D collision handling.
-
-Dependencies:
-* T06.G5.12: Use 2D physics collision events for realistic interactions
-* T06.G5.01.02: Locate and explain the on-collision pattern for game interactions
-
-
 ID: T06.G8.07
 Topic: T06 – Events & Sequences
 Skill: Use 3D collision events for object interactions
 Description: Students use "when colliding with [sprite]" in 3D contexts to detect when 3D objects collide, triggering appropriate responses (damage, scoring, state changes). Compare to 2D collision events to understand how collision detection works in 3D space.
 
 Dependencies:
-* T06.G6.20: Design collision response patterns for game interactions
+* T06.G4.09: Use "when touching sprite" for sprite-to-sprite collision
 * T17.G6.02: Add and position 3D objects
 
 
@@ -6554,7 +6520,7 @@ Skill: Use "when 3D scene is initialized" for setup
 Description: Students use "when 3D scene is initialized" to perform one-time 3D setup (loading 3D models, positioning camera, setting lighting, initializing 3D physics). This ensures 3D resources are ready before other scripts run, similar to green flag initialization but specifically for 3D content.
 
 Dependencies:
-* T06.G6.19: Use a variable to track simple program states
+* T06.G4.12: Use green flag initialization to prepare game state
 * T17.G6.01: Build a simple 3D scene with camera controls
 
 
@@ -6935,7 +6901,7 @@ Description: Students refactor longer scripts where the repeated segments have s
 Dependencies:
 * T07.G4.03.01: Use a basic for-loop with start, limit, and step
 * T07.G4.04: Identify and convert simple repeated code into loops
-* T07.G5.04: Create nested loops for advanced patterns or tilings
+* T07.G5.04: Nested loops for advanced patterns or tilings
 
 
 
@@ -6976,7 +6942,7 @@ Description: Students use trace tables to systematically track variable values t
 
 Dependencies:
 * T07.G5.03: Use loops to compute aggregates
-* T07.G5.04: Create nested loops for advanced patterns or tilings
+* T07.G5.04: Nested loops for advanced patterns or tilings
 * T09.G4.01: Use variables to store and update game state
 
 
@@ -6990,7 +6956,7 @@ Description: Students trace nested loops that produce visual/spatial output wher
 
 Dependencies:
 * T07.G6.05: Trace nested loops with abstract calculations using trace tables
-* T07.G5.04: Create nested loops for advanced patterns or tilings
+* T07.G5.04: Nested loops for advanced patterns or tilings
 
 
 
@@ -7017,7 +6983,7 @@ Description: Students use CreatiCode's `break` block to exit a loop immediately 
 
 Dependencies:
 * T07.G5.02: Build a list with a loop
-* T07.G4.03.01: Use a basic for-loop with start, limit, and step
+* T07.G6.09.01: Use for-each item to iterate over list values
 
 
 
@@ -7125,7 +7091,7 @@ Description: Students design loop‑based simulations that approximate probabili
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
-* T07.G7.04: Identify and construct loop patterns for counting and accumulation
+* T07.G7.04: Loop patterns for counting and accumulation
 
 
 
@@ -7195,7 +7161,7 @@ Description: Students use nested loops to process 2D‑structured data (e.g., a 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
-* T07.G7.04: Identify and construct loop patterns for counting and accumulation
+* T07.G7.04: Loop patterns for counting and accumulation
 
 
 
@@ -7209,7 +7175,7 @@ Description: Students compare different loop structures for the same problem (e.
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 * T07.G7.03: Compare loop algorithms by counting steps
-* T07.G7.04: Identify and construct loop patterns for counting and accumulation
+* T07.G7.04: Loop patterns for counting and accumulation
 
 
 
@@ -7506,7 +7472,7 @@ Skill: Identify situations requiring AND
 Description: Students recognize real-world scenarios that require both conditions to be true before an action occurs (e.g., "You need a ticket AND to be tall enough to ride", "Save file if changes were made AND user clicks save button"). This develops pattern recognition for AND logic in everyday contexts before coding it. Present 4-5 scenarios and students identify which ones need AND vs single conditions.
 
 Dependencies:
-* T08.G4.00: Predict outcomes using AND truth table
+* T08.G4.00: Understand AND truth table
 
 CSTA: E4-ALG-AF-01
 
@@ -7534,7 +7500,7 @@ Skill: Distinguish AND vs OR scenarios
 Description: Students are given scenarios and choose whether they require AND (both conditions) or OR (at least one condition). For example, "To enter the club you need to be a member OR pay a fee" (OR) vs "To graduate you need to pass all classes AND complete the project" (AND). This develops critical thinking about boolean logic operator selection. Present 5-6 mixed scenarios.
 
 Dependencies:
-* T08.G4.01a: Predict outcomes using OR truth table
+* T08.G4.01a: Understand OR truth table
 * T08.G4.00b: Identify situations requiring AND
 
 CSTA: E4-ALG-AF-01
@@ -7591,7 +7557,7 @@ Skill: Use NOT to invert conditions
 Description: Students use NOT to invert conditions (e.g., "if NOT touching ground, then falling") and reason about when inversion is clearer than checking the opposite directly. This introduces logical negation in code and develops code clarity judgment. Students compare "if NOT condition" vs "if opposite condition" patterns.
 
 Dependencies:
-* T08.G4.05a: Predict outcomes using NOT truth table
+* T08.G4.05a: Understand NOT truth table
 
 CSTA: E4-ALG-AF-01, E4-PRO-PF-01
 
@@ -7766,26 +7732,13 @@ CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
 
 
-ID: T08.G5.02
-Topic: T08 – Conditions & Logic
-Skill: Implement multi-branch decision logic in code
-Description: Students translate their decision tree designs into actual code using nested or chained if/else statements. Given a flowchart or design specification, students build the corresponding conditional structure (e.g., grading system with A/B/C/D/F outcomes, game difficulty selector). This bridges design (T08.G5.01) and complex boolean logic (T08.G5.03).
-
-Dependencies:
-* T08.G5.01: Design multi-branch decision logic
-
-CSTA: E5-ALG-AF-01, E5-PRO-PF-01
-
-
-
-
 ID: T08.G5.03
 Topic: T08 – Conditions & Logic
 Skill: Combine three or more conditions
 Description: Students write compound conditions that combine three or more tests using AND/OR/NOT, such as "if score > 100 AND lives > 0 AND has_key then ..." This extends compound logic skills to more complex scenarios requiring multiple simultaneous checks.
 
 Dependencies:
-* T08.G5.02: Implement multi-branch decision logic in code
+* T08.G4.05b: Use NOT to invert conditions
 * T08.G4.08: Analyze and fix a compound logic bug
 
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
