@@ -1,20 +1,25 @@
-# T01 - Everyday Algorithms (Phase 4 Optimized - November 2025)
-# Applied Phase 4 topic-focused optimizations:
-# - Strengthened K-2 skills with more specific visual scenarios and picture card details
-# - Improved active verb usage throughout (Trace, Predict, Debug, Identify, Select)
-# - Added sub-skills for overly broad Grade 4 skills (T01.G4.03, T01.G4.10)
-# - Fixed X-2 rule violations by adjusting dependencies
-# - Enhanced Grade 3 transition skills with clearer scaffolding
-# - Added new bridging skills for smoother K-8 progression
-# - Clarified all assessment methods with specific formats
-# Previous optimizations preserved (Phase 1-3):
-# - Split T01.G5.03 into sub-skills (.01-.04 for loops, conditionals, variables, combined)
+# T01 - Everyday Algorithms (Phase 5 Optimized - November 2025)
+# Applied Phase 5 topic-focused optimizations:
+# MAJOR CHANGES:
+# 1. G2 Visual Scenarios: Added detailed visual scenarios to T01.G2.04-G2.14
+#    - All if/then skills now have concrete picture-based examples
+#    - All maze/grid skills now have specific grid layouts and characters
+# 2. G5 Consolidation: Reduced from 24 to ~16 skills (-8 skills)
+#    - T01.G5.02: 8 sub-skills → 4 skills (foundation + capstone for flowchart/pseudocode)
+#    - T01.G5.03: 4 sub-skills → 1 consolidated skill
+#    - T01.G5.09: 2 sub-skills → 1 combined skill
+# 3. G3 Dependency Fixes: Added T01.G2 dependencies to G3 skills
+#    - T01.G3.01 now depends on T01.G2.19 (code reading bridge)
+#    - T01.G3.06 now depends on T01.G2.08 (repeat tracing bridge)
+#    - T01.G3.10 now depends on T01.G2.07 (if/then tracing bridge)
+#    - T01.G3.14 now depends on T01.G2.09 (repeat debugging bridge)
+# Previous optimizations preserved (Phase 1-4):
 # - Split T01.G8.08 into sub-skills (.01-.04 for helper blocks, duplication, naming, combined)
 # - Split T01.G2.18 into .01 (identify) and .02 (explain)
 # - Marked T01.G4.02 as CAPSTONE skill with scheduling guidance
 # - Clarified G2 picture/code matching progression with Progression notes
 # - Added concrete examples for recursion skills T01.G8.04-05
-# Total: 128 skills (3 new sub-skills added, reorganized for better granularity)
+# Total: ~120 skills (consolidated from 128, -8 from G5 reduction)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -272,7 +277,7 @@ Dependencies:
 ID: T01.G2.04
 Topic: T01 – Everyday Algorithms
 Skill: Match if/then rules to pictures
-Description: Students match simple "If it is ___, then do ___" rules to images (rainy/sunny, door open/closed). _Implementation note: Visual MCQ. CSTA: E2‑ALG‑AF‑01._
+Description: **Student task:** Draw lines connecting if/then rule cards to matching picture cards. **Visual scenario:** Rule cards show: "If it is raining, then use umbrella" and "If door is open, then close it." Picture cards show: (A) rain clouds with person holding umbrella, (B) sunny sky with sunglasses, (C) open door with arrow pointing to closed door, (D) closed window. Students match: rain rule → picture A, door rule → picture C. _Implementation note: Line-matching with 3-4 rules and 4-5 pictures (includes distractors). Auto-graded by correct pairings. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G1.10: Match pictures to "if/then" rules
@@ -284,7 +289,7 @@ Dependencies:
 ID: T01.G2.05
 Topic: T01 – Everyday Algorithms
 Skill: Complete a simple if/then algorithm
-Description: Students fill in missing condition or action in an if/then pair for a daily scenario. _Implementation note: Fill‑in with picture or word cards. CSTA: E2‑ALG‑AF‑01._
+Description: **Student task:** Look at an incomplete if/then rule card. Drag the correct picture card to fill in the blank. **Visual scenario:** Rule card shows: "If it is cold outside, then ___." Blank space for action. Answer choices: (A) wear a jacket, (B) eat ice cream, (C) go swimming. **Correct answer:** (A) wear a jacket. _Implementation note: Fill-in-the-blank with picture cards for condition OR action; 3-4 answer choices. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.04: Match if/then rules to pictures
@@ -296,7 +301,7 @@ Dependencies:
 ID: T01.G2.06
 Topic: T01 – Everyday Algorithms
 Skill: Choose the best if/then rule for a situation
-Description: Students choose which of several if/then statements fits a picture story. _Implementation note: MCQ; auto‑graded. CSTA: E2‑ALG‑AF‑01._
+Description: **Student task:** Look at a 2-3 panel picture story. Select which if/then rule best describes what should happen. **Visual scenario:** Story panels show: (1) child at crosswalk, (2) walk signal turns green, (3) [what happens next?]. Rule choices: (A) "If signal is green, then walk across," (B) "If signal is red, then run across," (C) "If signal is green, then sit down." **Correct answer:** (A). _Implementation note: Picture story + MCQ with 3-4 if/then rule choices. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.05: Complete a simple if/then algorithm
@@ -308,7 +313,7 @@ Dependencies:
 ID: T01.G2.07
 Topic: T01 – Everyday Algorithms
 Skill: Trace an algorithm that uses an if/then choice
-Description: Students follow short number/picture algorithms with one if/then block that checks 2-3 possible conditions (like 'if sunny' vs 'if cloudy' vs 'if raining') and identify the final result for each case. _Implementation note: Tracing + MCQ result. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Look at a picture algorithm with an if/then decision branch. Follow the path based on the given starting condition and select the final outcome. **Visual scenario:** Algorithm shows: START → check weather picture → IF sunny THEN "go to park" → IF rainy THEN "stay home" → END. Given condition: rainy cloud picture. Question: "Where does the character end up?" **Correct answer:** stay home. _Implementation note: Branching picture algorithm with 2-3 conditions; students trace the correct path. Auto-graded by final outcome selection. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.06: Choose the best if/then rule for a situation
@@ -320,7 +325,7 @@ Dependencies:
 ID: T01.G2.08
 Topic: T01 – Everyday Algorithms
 Skill: Trace an algorithm that uses "repeat ___ times"
-Description: Students compute total actions or final position for routines with "repeat 3 times" (with 3-5 steps total). _Implementation note: Tracing + MCQ. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Look at a picture algorithm with a "repeat ___ times" loop. Count the total actions or find the final position. **Visual scenario:** Algorithm shows: START at position 0 → "repeat 3 times: hop forward 2 spaces" → END. Number line from 0-10 shown. Question: "Where does the bunny end up?" **Correct answer:** position 6 (hopped 2 spaces, 3 times = 6 total). _Implementation note: Picture-based loop tracing with visual number line or grid; 3-5 total steps. Auto-graded by final position/count. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.03: Replace repeated steps with a repeat instruction
@@ -332,7 +337,7 @@ Dependencies:
 ID: T01.G2.09
 Topic: T01 – Everyday Algorithms
 Skill: Fix a wrong repeat count in an algorithm
-Description: Students adjust a repeat count that causes too many or too few repetitions. _Implementation note: Increase/decrease repeat number; auto‑graded via final outcome. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Look at a picture algorithm where the repeat count is wrong. The character ends up in the wrong place. Change the number to fix it. **Visual scenario:** Goal: bunny should reach the carrot at position 8. Algorithm shows: START at 0 → "repeat 3 times: hop 2 spaces." Current result: bunny at position 6 (too short!). Fix: change 3 to 4. Question: "What number should go in the repeat box?" **Correct answer:** 4. _Implementation note: Number adjustment task with visual before/after; auto-graded by correct repeat count. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.08: Trace an algorithm that uses "repeat ___ times"
@@ -344,7 +349,7 @@ Dependencies:
 ID: T01.G2.10
 Topic: T01 – Everyday Algorithms
 Skill: Fix a wrong or missing if/then branch
-Description: Students correct an if/then rule that doesn't match a picture situation. _Implementation note: MCQ or card swap. CSTA: E2‑ALG‑AF‑01._
+Description: **Student task:** Look at a picture algorithm where an if/then branch has the wrong action or is missing. Fix it by selecting the correct action. **Visual scenario:** Algorithm shows: "If touching hot stove, then ___" with wrong action "keep touching." Story shows child getting hurt. Fix by selecting "pull hand away" from choices: (A) pull hand away, (B) touch again, (C) sit down. **Correct answer:** (A) pull hand away. _Implementation note: Error-correction MCQ with 3-4 action choices; visual story shows consequence of bug. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
 * T01.G2.07: Trace an algorithm that uses an if/then choice
@@ -356,7 +361,7 @@ Dependencies:
 ID: T01.G2.11
 Topic: T01 – Everyday Algorithms
 Skill: Trace maze directions on a simple grid
-Description: Students see a character on a small grid (3x3 or 4x4) and a sequence of "forward/left/right" arrows, then choose where the character ends up. _Implementation note: Path tracing with MCQ final position; auto‑graded by ending cell. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Look at a character on a 3×3 grid and a sequence of arrow cards. Trace the path and tap where the character ends up. **Visual scenario:** Grid shows: robot starting at bottom-left corner facing right. Arrow sequence: → → ↑ → (forward, forward, turn up, forward). Grid has cells labeled A1-C3. Question: "Where does the robot end up?" Answer choices show different grid cells highlighted. **Correct answer:** cell C2. _Implementation note: Visual grid with path tracing; 3-5 arrow cards. Auto-graded by final position selection. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 
 
@@ -365,7 +370,7 @@ Description: Students see a character on a small grid (3x3 or 4x4) and a sequenc
 ID: T01.G2.12
 Topic: T01 – Everyday Algorithms
 Skill: Choose directions that reach the goal
-Description: Students see a start and goal on a grid and pick which of several arrow sequences reaches the goal without hitting a wall. _Implementation note: MCQ (choose arrow sequence); auto‑graded via simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Look at a 3×3 grid with START (mouse), GOAL (cheese), and one wall block. Select which arrow sequence reaches the goal without hitting the wall. **Visual scenario:** Grid shows: mouse at A1, cheese at C3, wall at B2. Arrow sequence options: (A) →→↑↑ (hits wall), (B) ↑↑→→ (reaches goal), (C) →↑→↑ (reaches goal). Question: "Which path gets the mouse to the cheese?" _Implementation note: MCQ with 3 arrow sequences; visual shows wall obstacle. Auto-graded by simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.11: Trace maze directions on a simple grid
@@ -377,7 +382,7 @@ Dependencies:
 ID: T01.G2.13
 Topic: T01 – Everyday Algorithms
 Skill: Write directions to navigate a simple grid
-Description: Students create instructions by dragging and dropping "forward/left/right" arrow cards to move a character from start to finish on a small grid. _Implementation note: Drag arrow cards; auto‑graded via simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Drag arrow cards from a card bank to create a path from START to GOAL on a 3×3 or 4×4 grid. **Visual scenario:** Grid shows: cat at A1 (START), fish at C2 (GOAL), wall at B1. Available arrow cards: →, ↑, ←, ↓ (multiple of each). Students drag arrows to build sequence: ↑ → → ↓ to navigate around wall to fish. _Implementation note: Drag-and-drop arrow card assembly; grid shows path preview as cards are placed. Auto-graded by successful path simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.12: Choose directions that reach the goal
@@ -389,7 +394,7 @@ Dependencies:
 ID: T01.G2.14
 Topic: T01 – Everyday Algorithms
 Skill: Fix maze directions that miss the goal
-Description: Students correct a set of directions that doesn't reach the goal or hits a wall. _Implementation note: Edit arrow sequence; auto‑graded via new simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Description: **Student task:** Look at a grid path that doesn't work. Find and fix the wrong arrow card to make the character reach the goal. **Visual scenario:** Grid shows: dog at A1 (START), bone at B3 (GOAL). Given sequence: → ↑ → (ends at C2, misses goal!). Visual shows dog ending at wrong cell with "X". Students must change the last → to ↑ so sequence becomes: → ↑ ↑. Question: "Which arrow needs to change?" **Correct answer:** Replace third arrow (→) with (↑). _Implementation note: Single card replacement; shows before/after path preview. Auto-graded by correct path simulation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G2.13: Write directions to navigate a simple grid
@@ -479,6 +484,7 @@ Skill: Complete a simple script with missing blocks
 Description: **Student task:** Look at a script that's almost finished. Add 1 or 2 missing blocks to make it work. **Context:** Start with a mostly built project. Script should do 3-5 simple actions (e.g., move forward twice, turn, say something). _Implementation note: Guided coding in a starter project (mostly pre‑built); auto‑graded via final behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 Dependencies:
+* T01.G2.19: Read a simple 3-block script and match to pictures
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
@@ -542,6 +548,7 @@ Skill: Trace a repeat loop to find total movement
 Description: Students trace a script with a `repeat` loop to determine how far a sprite moves or how many actions occur, calculating total distance or rotation. _Implementation note: Tracing + MCQ. CSTA: E3‑ALG‑AF‑01._
 
 Dependencies:
+* T01.G2.08: Trace an algorithm that uses "repeat ___ times"
 * T04.G3.03: Match a "repeat N" loop to repeated behavior
 * T07.G3.01: Use a counted repeat loop
 
@@ -592,6 +599,7 @@ Skill: Trace a script with a single if/then
 Description: Students predict whether the if/then block will run in a given situation (with 2-3 possible conditions). _Implementation note: Tracing scenario + MCQ. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 Dependencies:
+* T01.G2.07: Trace an algorithm that uses an if/then choice
 * T08.G3.01: Use a simple if in a script
 
 
@@ -640,6 +648,7 @@ Skill: Debug a loop that repeats the wrong number of times
 Description: Students fix a `repeat` loop that runs too many or too few times by adjusting the loop count so the behavior matches the description. _Implementation note: Coding edit (loop count); auto‑graded via final behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑TR‑03._
 
 Dependencies:
+* T01.G2.09: Fix a wrong repeat count in an algorithm
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -941,199 +950,114 @@ Dependencies:
 * T02.G4.01: Read a simple flowchart with loops
 
 
-## T01.G5.02 Sub-Skills Structure
-## Flowchart-to-Code: T01.G5.02.01.XX (4 skills progressing from sequential → conditionals → loops → combined)
-## Pseudocode-to-Code: T01.G5.02.02.XX (4 skills following same progression)
+## T01.G5.02 CONSOLIDATED Structure (Phase 5 Optimization)
+## Reduced from 8 sub-skills to 4 focused skills:
+## - Two foundation skills (sequential flowchart, sequential pseudocode)
+## - Two capstone skills (complex flowchart, complex pseudocode)
 
 
 
 
-ID: T01.G5.02.01.01
+ID: T01.G5.02.01
 Topic: T01 – Everyday Algorithms
 Skill: Convert a sequential flowchart into code
-Description: Students implement a simple sequential flowchart (5-7 steps, no loops or conditionals) as block‑based code. Focus on mapping flowchart rectangles to action blocks. _Implementation note: Coding task; auto‑graded on behavior matching flowchart. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
+Description: **Student task:** Implement a simple sequential flowchart (5-7 steps, no loops or conditionals) as block-based code. Focus on mapping flowchart rectangles to action blocks. **Example:** Flowchart shows: START → "set score to 0" → "move 50 steps" → "say Hello" → END. Students build matching CreatiCode script. _Implementation note: Foundation skill for flowchart-to-code; auto-graded on behavior matching flowchart. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 Dependencies:
-* T01.G5.01: Match a word description to a flowchart (Flowchart reading)
-* T06.G3.01: Build a green‑flag script (Basic coding)
-* T09.G3.03: Use variables in expressions (Variables)
-* T10.G3.05: Create and use simple lists (Lists)
-* T10.G4.18: Advanced list operations (Lists)
+* T01.G5.01: Match a word description to a flowchart
+* T06.G3.01: Build a green‑flag script
+* T09.G3.03: Use variables in expressions
 
 
 
 
 
-ID: T01.G5.02.01.02
+ID: T01.G5.02.02
 Topic: T01 – Everyday Algorithms
-Skill: Convert a flowchart with one conditional into code
-Description: Students implement a flowchart with one decision diamond as block‑based code, mapping the diamond to an if/then block. _Implementation note: Coding task; auto‑graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
+Skill: Convert a complex flowchart into code
+Description: **Student task:** Implement a flowchart with loops AND conditionals as block-based code for a CreatiCode project. **Example:** Flowchart shows: START → "set lives to 3" → loop diamond "repeat until lives=0" → decision diamond "if touching enemy?" → yes: "change lives by -1" → no: "move 10" → END. Students build matching game loop with conditional logic. _Implementation note: Capstone skill for flowchart-to-code; auto-graded on behavior matching flowchart logic. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 Dependencies:
-* T01.G5.02.01.01
-* T08.G3.01
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
-
-
-
-
-
-ID: T01.G5.02.01.03
-Topic: T01 – Everyday Algorithms
-Skill: Convert a flowchart with one loop into code
-Description: Students implement a flowchart with one loop structure as block‑based code, mapping loop connectors to repeat blocks. _Implementation note: Coding task; auto‑graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
-
-Dependencies:
-* T01.G5.02.01.01
-* T07.G3.01
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
-* T03.G5.01: Write a feature list with subtasks for each feature
-
-
-
-
-
-ID: T01.G5.02.01.04
-Topic: T01 – Everyday Algorithms
-Skill: Convert a flowchart with loops and conditionals into code
-Description: Students implement a flowchart with both loops AND conditionals as block‑based code for a small CreatiCode project (e.g., simple game turn, animated sequence with choices). _Implementation note: Coding task; auto‑graded on behavior matching flowchart logic. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
-
-Dependencies:
-* T01.G5.02.01.02
-* T01.G5.02.01.03
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
+* T01.G5.02.01: Convert a sequential flowchart into code
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
 * T07.G5.01: Simulate repeated experiments with a loop
-* T08.G5.00: Draw decision tree flowchart
 
 
 
 
 
-ID: T01.G5.02.02.01
+## [REMOVED - Consolidated into T01.G5.02.02]
+
+
+
+
+
+## [REMOVED - Consolidated into T01.G5.02.02]
+
+
+
+
+
+ID: T01.G5.02.03
 Topic: T01 – Everyday Algorithms
 Skill: Convert sequential pseudocode into code
-Description: Students implement simple sequential pseudocode (structured text with action statements) as block‑based code. _Implementation note: Coding task; auto‑graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
+Description: **Student task:** Implement simple sequential pseudocode (structured text with action statements) as block-based code. **Example:** Pseudocode shows: "SET x TO 100, MOVE TO x, SAY 'Done!'". Students build: set x to 100, go to x, say "Done!". _Implementation note: Foundation skill for pseudocode-to-code; auto-graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 Dependencies:
-* T06.G3.01
-* T02.G4.02
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
-* T03.G5.01: Write a feature list with subtasks for each feature
+* T06.G3.01: Build a green‑flag script
+* T02.G4.02: Read pseudocode notation
+* T09.G3.03: Use variables in expressions
 
 
 
 
 
-ID: T01.G5.02.02.02
+ID: T01.G5.02.04
 Topic: T01 – Everyday Algorithms
-Skill: Convert pseudocode with conditionals into code
-Description: Students implement pseudocode with IF/THEN statements as block‑based code. _Implementation note: Coding task; auto‑graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
+Skill: Convert complex pseudocode into code
+Description: **Student task:** Implement pseudocode with loops, conditionals, AND variables as block-based code for a CreatiCode project. **Example:** Pseudocode: "SET score TO 0; REPEAT 5 TIMES { IF touching coin THEN SET score TO score + 10; MOVE 20 }". Students build matching script with all three structures. _Implementation note: Capstone skill for pseudocode-to-code; auto-graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 Dependencies:
-* T01.G5.02.02.01
-* T08.G3.01
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
-
-
-
-
-
-ID: T01.G5.02.02.03
-Topic: T01 – Everyday Algorithms
-Skill: Convert pseudocode with loops into code
-Description: Students implement pseudocode with REPEAT statements as block‑based code. _Implementation note: Coding task; auto‑graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
-
-Dependencies:
-* T01.G5.02.02.01
-* T07.G3.01
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
-
-
-
-
-
-ID: T01.G5.02.02.04
-Topic: T01 – Everyday Algorithms
-Skill: Convert pseudocode with variables into code
-Description: Students implement pseudocode with SET variable statements as block‑based code for a small CreatiCode project (e.g., score tracker, animated routine with conditions). _Implementation note: Coding task; auto‑graded on behavior. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
-
-Dependencies:
-* T01.G5.02.02.01
-* T09.G3.01.04
-* T09.G3.03
-* T10.G3.05
-* T10.G4.18
-
-
-
-
-
-## T01.G5.03 Sub-Skills Structure
-## Converts program structures to pseudocode in progressive complexity:
-## .01 - Programs with loops
-## .02 - Programs with conditionals
-## .03 - Programs with variables
-
-ID: T01.G5.03.01
-Topic: T01 – Everyday Algorithms
-Skill: Convert a program with loops into pseudocode
-Description: Students rewrite a short program containing repeat loops as structured pseudocode, using REPEAT N TIMES notation and focusing on clarity for a human reader. _Implementation note: Guided pseudocode; auto-graded for correct loop representation. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.02.02.03: Convert pseudocode with loops into code
+* T01.G5.02.03: Convert sequential pseudocode into code
 * T07.G3.01: Use a counted repeat loop
-* T03.G5.01: Write a feature list with subtasks for each feature
-
-
-
-
-ID: T01.G5.03.02
-Topic: T01 – Everyday Algorithms
-Skill: Convert a program with conditionals into pseudocode
-Description: Students rewrite a short program containing if/then logic as structured pseudocode, using IF...THEN...ELSE notation and focusing on clarity for a human reader. _Implementation note: Guided pseudocode; auto-graded for correct conditional representation. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.02.02.02: Convert pseudocode with conditionals into code
 * T08.G3.01: Use a simple if in a script
-* T03.G5.01: Write a feature list with subtasks for each feature
+* T09.G3.01.04: Display variable value on stage
 
 
 
 
-ID: T01.G5.03.03
+
+## [REMOVED - Consolidated into T01.G5.02.04]
+
+
+
+
+
+## [REMOVED - Consolidated into T01.G5.02.04]
+
+
+
+
+
+## T01.G5.03 CONSOLIDATED (Phase 5 Optimization)
+## Reduced from 4 sub-skills to 1 focused skill
+
+ID: T01.G5.03
 Topic: T01 – Everyday Algorithms
-Skill: Convert a program with variables into pseudocode
-Description: Students rewrite a short program containing variable assignments and updates as structured pseudocode, using SET variable TO value notation and focusing on clarity for a human reader. _Implementation note: Guided pseudocode; auto-graded for correct variable representation. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
+Skill: Convert a program into pseudocode
+Description: **Student task:** Rewrite a short CreatiCode program containing loops, conditionals, and variables as structured pseudocode. Use notation: REPEAT N TIMES, IF...THEN...ELSE, SET variable TO value. **Example:** Given script with "repeat 4 [if touching edge then bounce, move 10]", write pseudocode: "REPEAT 4 TIMES { IF touching edge THEN bounce; MOVE 10 }". Focus on clarity for human readers. _Implementation note: Reverse skill from code-reading; builds algorithm documentation skills. Auto-graded for structure and faithfulness to behavior. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 Dependencies:
-* T01.G5.02.02.04: Convert pseudocode with variables into code
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-* T03.G5.01: Write a feature list with subtasks for each feature
+* T01.G5.02.04: Convert complex pseudocode into code
+* T07.G3.01: Use a counted repeat loop
+* T08.G3.01: Use a simple if in a script
+* T09.G3.01.04: Display variable value on stage
 
 
 
 
-ID: T01.G5.03.04
-Topic: T01 – Everyday Algorithms
-Skill: Convert a complete program into pseudocode
-Description: Students rewrite a short program containing loops, if/then, and variables as structured pseudocode, combining the notation from T01.G5.03.01-03 and focusing on clarity for a human reader. This is the culminating skill for the code-to-pseudocode progression. _Implementation note: Guided pseudocode; rubric/auto‑grading focused on structure and faithfulness to behavior. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.03.01: Convert a program with loops into pseudocode
-* T01.G5.03.02: Convert a program with conditionals into pseudocode
-* T01.G5.03.03: Convert a program with variables into pseudocode
+## [REMOVED - T01.G5.03.02, T01.G5.03.03, T01.G5.03.04 consolidated into T01.G5.03]
 
 
 
@@ -1228,29 +1152,23 @@ Dependencies:
 
 
 
-ID: T01.G5.09.01
+ID: T01.G5.09
 Topic: T01 – Everyday Algorithms
-Skill: Explain why a loop visits all necessary values
-Description: Students explain why a loop in a searching/counting algorithm is guaranteed to check every item it needs to check (e.g., "The loop starts at the first item and moves through each one until it reaches the end"). _Implementation note: MCQ/structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
+Skill: Explain why algorithm components maintain correctness
+Description: **Student task:** Explain why algorithm components (loops and variable updates) ensure the algorithm produces the correct result. **Part 1 (loops):** Explain why a loop is guaranteed to check every item needed (e.g., "The loop starts at the first item and moves through each one until it reaches the end"). **Part 2 (variables):** Explain why variable updates ensure the correct answer (e.g., "The 'max' variable always holds the largest value seen so far, so when the loop ends, it holds the largest of all values"). _Implementation note: Two-part MCQ/structured explanation combining loop completeness and variable invariants. Auto-graded patterns. CSTA: E5‑ALG‑PS‑03._
 
 Dependencies:
 * T01.G5.04.01: Trace a "find the largest" algorithm
 * T01.G5.04.02: Trace a "count matches" algorithm
 * T07.G3.01: Use a counted repeat loop
-
-
-
-
-
-ID: T01.G5.09.02
-Topic: T01 – Everyday Algorithms
-Skill: Explain why variable updates maintain correctness
-Description: Students explain why the variable updates in an algorithm ensure the final answer is correct (e.g., "The 'max' variable always holds the largest value seen so far, so when the loop ends, it holds the largest of all values"). _Implementation note: MCQ/structured explanation; auto‑graded patterns. CSTA: E5‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G5.09.01: Explain why a loop visits all necessary values
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T04.G5.01: Identify and classify counter update patterns in code
+
+
+
+
+
+## [REMOVED - T01.G5.09.02 consolidated into T01.G5.09]
 
 
 
@@ -1404,8 +1322,7 @@ Skill: Identify the pattern in a given program
 Description: Students categorize code as search, sort, accumulation, or simulation. _Implementation note: MCQ; auto‑graded. CSTA: MS‑ALG‑AF‑01._
 
 Dependencies:
-* T01.G5.09.01: Explain why a loop visits all necessary values
-* T01.G5.09.02: Explain why variable updates maintain correctness
+* T01.G5.09: Explain why algorithm components maintain correctness
 * T01.G6.02: Compare how step counts grow with input size
 * T08.G5.01: Use conditional logic to analyze different cases in pattern identification
 
@@ -1701,31 +1618,46 @@ Dependencies:
 * T04.G6.01: Group snippets by underlying algorithm pattern
 
 
-# T02 - Algorithm Diagrams (Phase 2 Optimized - November 2025)
-# Applied Phase 2 topic-focused optimizations:
+# T02 - Algorithm Diagrams (Phase 5 Optimized - November 2025)
+# Applied Phase 5 topic-focused optimizations:
 # MAJOR CHANGES:
-# - Added bridging skills: T02.G2.08 (picture→block matching), T02.G3.07-08 (loop introduction)
-# - Split T02.G4.03 into .01-.02 (sequential vs nested if/else tracing)
-# - Merged T02.G4.05+06 into unified print-tracing skill
-# - Fixed vague verbs: "Learn"→"Use", "Explore"→"Identify"
-# - Added testing skill T02.G6.08 for systematic verification
-# - Enhanced K-2 descriptions with specific visual scenarios
-# - Split T02.G7.01 into .01-.02 (counter vs physics simulations)
-# PRESERVED:
-# - All cross-topic dependencies unchanged
-# - X-2 rule verified for all intra-topic dependencies
-# - Print block terminology: "print [MESSAGE] in [console] color [COLOR]"
-# Total: 68 skills (K:4, G1:5, G2:8, G3:8, G4:7, G5:6, G6:8, G7:11, G8:8)
+# 1. Topic Alignment - Added TRUE diagram skills throughout:
+#    - GK: Arrows, numbered boxes, START/END labels, question boxes (flowchart precursors)
+#    - G1-G2: Diagram building, tracing, debugging; decision boxes with Yes/No; repeat symbols
+#    - G3-G4: Flowchart drawing (ovals, rectangles, diamonds, loop symbols)
+#    - G5: Flowchart with nested structures, flowchart-to-code conversion
+#    - G6-G8: Pseudocode generation, comparison, planning workflows
+# 2. K-2 Differentiation from T01:
+#    - T01 = sequencing picture cards (ordering)
+#    - T02 = diagram notation (arrows, boxes, symbols, decision points)
+# 3. New Skills Added:
+#    - T02.GK.05: Identify question box (decision precursor)
+#    - T02.G1.06: Trace Yes/No decision diagram
+#    - T02.G2.09: Identify repeat symbol (loop arrow)
+#    - T02.G3.09: Draw simple flowchart
+#    - T02.G4.04.03: Draw flowchart with decision diamond
+#    - T02.G4.07: Draw flowchart with loop symbol
+#    - T02.G5.07: Draw flowchart with nested structures
+#    - T02.G5.08: Convert flowchart to block script
+# 4. All Skills Enhanced:
+#    - Active verbs throughout (Build, Trace, Draw, Debug, Compare, Predict)
+#    - Detailed visual scenarios for every skill
+#    - Consistent **Student task:** format
+# 5. Dependency Cleanup:
+#    - Removed excessive cross-topic deps where not essential
+#    - X-2 rule maintained for intra-topic deps
+# PRESERVED: All cross-topic dependencies to other topics unchanged
+# Total: 74 skills (K:5, G1:6, G2:9, G3:9, G4:7, G5:8, G6:8, G7:10, G8:5 + sub-skills)
 
-## KINDERGARTEN (4 skills)
+## KINDERGARTEN (5 skills - added T02.GK.05 for question boxes)
 
 
 
 
 ID: T02.GK.01
 Topic: T02 – Algorithm Diagrams
-Skill: Recognize picture steps for a task
-Description: **Student task:** Look at 2-3 picture strips showing steps to complete a task. Tap the strip where the steps are in the right order. **Visual scenario:** Picture strips show "brushing teeth": (A) correct: get toothbrush → add toothpaste → brush teeth, (B) wrong: brush teeth → get toothbrush → add toothpaste. Students select strip A. _Implementation note: Binary or ternary choice between picture strips with 3-4 pictures each; large colorful pictures with arrows connecting them. Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
+Skill: Identify arrows showing "what comes next" in a picture strip
+Description: **Student task:** Look at a picture strip with 3 pictures connected by arrows (→). Tap the arrow that shows "what comes next" after brushing teeth. **Visual scenario:** Strip shows: [get toothbrush] →₁ [add toothpaste] →₂ [brush teeth]. Students tap arrow₁ or arrow₂ based on the question "Which arrow shows what happens after 'get toothbrush'?" **Correct answer:** Arrow₁. _Implementation note: Introduces arrows as directional symbols in diagrams; focuses on arrow meaning rather than sequencing. Large colorful arrows with highlight on tap. Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
 * T01.GK.01: Sequence three picture cards for a bedtime routine
@@ -1737,11 +1669,11 @@ Dependencies:
 
 ID: T02.GK.02
 Topic: T02 – Algorithm Diagrams
-Skill: Order 3–4 pictures to make a story
-Description: **Student task:** Drag 3–4 scrambled picture cards into numbered boxes (1, 2, 3, 4) connected by arrows to show the correct order. **Visual scenario:** Cards show "robot getting dressed": (A) robot in pajamas, (B) robot putting on shirt, (C) robot putting on pants, (D) robot with backpack ready. Correct order: A → B → C → D. _Implementation note: Drag-drop with 4 large picture cards into labeled slots; arrows show sequence flow. Auto-graded by final arrangement. CSTA: EK‑ALG‑AF‑01._
+Skill: Place pictures into a diagram strip with numbered boxes
+Description: **Student task:** Drag 3–4 scrambled picture cards into a pre-made diagram strip with numbered boxes (Box 1 → Box 2 → Box 3 → Box 4) connected by arrows. **Visual scenario:** Empty diagram strip shows: [1] → [2] → [3] → [4]. Cards show "robot getting dressed": (A) robot in pajamas, (B) robot putting on shirt, (C) robot putting on pants, (D) robot with backpack ready. Students drag cards into boxes: A in Box 1, B in Box 2, C in Box 3, D in Box 4. _Implementation note: Focuses on filling a diagram structure (not creating sequence); arrows are fixed in the diagram. Auto-graded by final arrangement. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
-* T02.GK.01: Recognize picture steps for a task
+* T02.GK.01: Identify arrows showing "what comes next" in a picture strip
 
 
 
@@ -1750,12 +1682,11 @@ Dependencies:
 
 ID: T02.GK.03
 Topic: T02 – Algorithm Diagrams
-Skill: Label steps as first, next, and last
-Description: **Student task:** Look at 3 ordered pictures on a strip. Drag the labels "First," "Next," and "Last" to match each picture. **Visual scenario:** Strip shows "making a sandwich": (1) get bread, (2) add filling, (3) put bread on top. Students drag "First" to picture 1, "Next" to picture 2, "Last" to picture 3. _Implementation note: Label drag-drop onto 3 pictures; audio support reads labels. Auto-graded by correct label placement. CSTA: EK‑ALG‑AF‑01._
+Skill: Label START and END boxes in a picture diagram
+Description: **Student task:** Look at a 3-box diagram strip. Drag the "START" label to the first box and "END" label to the last box. **Visual scenario:** Diagram shows 3 boxes connected by arrows: [?] → [add soap] → [?]. Labels available: "START: turn on water" and "END: dry hands." Students drag START label to first box, END label to last box. _Implementation note: Introduces START/END as diagram conventions; foundational for flowcharts. Audio support reads labels. Auto-graded by correct label placement. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
-* T01.GK.01: Sequence three picture cards for a bedtime routine
-* T02.GK.02: Order 3–4 pictures to make a story
+* T02.GK.02: Place pictures into a diagram strip with numbered boxes
 
 
 
@@ -1763,29 +1694,38 @@ Dependencies:
 
 ID: T02.GK.04
 Topic: T02 – Algorithm Diagrams
-Skill: Fix one picture that is out of order
-Description: **Student task:** Look at a 3-picture strip where one picture is in the wrong spot. Drag that picture to the correct position. **Visual scenario:** Strip shows "watering a plant" with "water plant" incorrectly placed BEFORE "get watering can." Student drags "water plant" to after "get watering can." _Implementation note: Single card drag to fix sequence; wobbling animation highlights the misplaced card. Auto-graded by final arrangement. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
+Skill: Fix a diagram by moving one misplaced picture box
+Description: **Student task:** Look at a 3-box diagram where one picture box is in the wrong position. Drag that box to fix the diagram. **Visual scenario:** Diagram shows "watering a plant": [water plant] → [get watering can] → [watch plant grow]. The first box is wrong—"water plant" should come after "get watering can." Student drags "water plant" box to the middle position. _Implementation note: Emphasizes fixing a diagram structure; wobbling animation highlights misplaced box. Auto-graded by final arrangement. CSTA: EK‑ALG‑AF‑01, EK‑ALG‑PS‑03._
 
 Dependencies:
-* T02.GK.03: Label steps as first, next, and last
+* T02.GK.03: Label START and END boxes in a picture diagram
 
 
+
+
+ID: T02.GK.05
+Topic: T02 – Algorithm Diagrams
+Skill: Identify the "question box" in a simple picture diagram
+Description: **Student task:** Look at a picture diagram with regular boxes and one special "question box" (shown with a question mark or different color). Tap the question box. **Visual scenario:** Diagram shows: [START: wake up] → [?Is it raining?] → [get umbrella OR wear hat]. The question box has a "?" symbol and different shape/color. Students tap the question box. _Implementation note: Pre-cursor to flowchart decision diamonds; introduces concept that some boxes ask questions. Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
+
+Dependencies:
+* T02.GK.03: Label START and END boxes in a picture diagram
 
 
 ---
 
-## GRADE 1 (5 skills)
+## GRADE 1 (6 skills - added T02.G1.06 for decision paths)
 
 
 
 
 ID: T02.G1.01
 Topic: T02 – Algorithm Diagrams
-Skill: Create a 3–4 step picture algorithm for a task
-Description: **Student task:** Given a task description, assemble 3–4 picture cards into a numbered strip with arrows showing the algorithm. **Visual scenario:** Task: "Feed the class fish." Available pictures: (A) sprinkle food, (B) open food container, (C) look at fish tank, (D) close container. Students arrange: C → B → A → D. _Implementation note: Drag-drop picture assembly with task prompt; arrows auto-connect placed cards. Auto-graded by valid sequence for task. CSTA: E1‑ALG‑AF‑01._
+Skill: Build a 4-box diagram strip for a given task
+Description: **Student task:** Given a task description, drag 4 picture cards into empty diagram boxes connected by arrows to create an algorithm diagram. **Visual scenario:** Task: "Feed the class fish." Empty diagram: [1] → [2] → [3] → [4]. Available picture cards: (A) sprinkle food, (B) open food container, (C) look at fish tank, (D) close container. Students build diagram: [C: look at tank] → [B: open container] → [A: sprinkle food] → [D: close container]. _Implementation note: Emphasizes building a diagram structure from scratch; arrows are pre-drawn. Auto-graded by valid sequence. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T02.GK.02: Order 3–4 pictures to make a story
+* T02.GK.02: Place pictures into a diagram strip with numbered boxes
 
 
 
@@ -1793,11 +1733,11 @@ Dependencies:
 
 ID: T02.G1.02
 Topic: T02 – Algorithm Diagrams
-Skill: Add a missing step to a picture algorithm
-Description: **Student task:** Look at a picture algorithm strip with one step missing (shown as "?"). Select the correct picture to fill the gap. **Visual scenario:** Strip shows "making lemonade": get cup → [?] → stir → drink. Answer choices: (A) add water and lemon, (B) wash hands, (C) put on hat. **Correct answer:** (A) add water and lemon. _Implementation note: MCQ with 3 picture options to fill gap; auto-graded by selection. CSTA: E1‑ALG‑AF‑01._
+Skill: Fill the missing box in a diagram strip
+Description: **Student task:** Look at a diagram strip with one empty box marked "?". Select the correct picture card to fill the missing box. **Visual scenario:** Diagram shows "making lemonade": [get cup] → [?] → [stir] → [drink]. Answer choices: (A) add water and lemon, (B) wash hands, (C) put on hat. **Correct answer:** (A) add water and lemon fills the empty box. _Implementation note: MCQ with 3 picture options to complete diagram; emphasizes diagram completeness. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G1.01: Create a 3–4 step picture algorithm for a task
+* T02.G1.01: Build a 4-box diagram strip for a given task
 
 
 
@@ -1805,11 +1745,11 @@ Dependencies:
 
 ID: T02.G1.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a picture algorithm and predict the outcome
-Description: **Student task:** Follow a 3–4 step picture algorithm and select what the final result should be. **Visual scenario:** Strip shows "planting a seed": get pot → add soil → plant seed → water. Question: "What happens next?" Answer choices: (A) plant grows, (B) pot breaks, (C) seed disappears. **Correct answer:** (A) plant grows. _Implementation note: MCQ with 3 picture outcome options; tests understanding of algorithm completion. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01._
+Skill: Trace a diagram and predict the final result
+Description: **Student task:** Follow a 4-box diagram strip from START to END. Predict what the result will be after all steps complete. **Visual scenario:** Diagram shows "planting a seed": [START: get pot] → [add soil] → [plant seed] → [water] → END. Question: "What will happen after following this diagram?" Answer choices: (A) plant grows, (B) pot breaks, (C) seed disappears. **Correct answer:** (A) plant grows. _Implementation note: Introduces tracing as following arrows through a diagram; MCQ with 3 picture outcomes. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G1.01: Create a 3–4 step picture algorithm for a task
+* T02.G1.01: Build a 4-box diagram strip for a given task
 
 
 
@@ -1817,11 +1757,11 @@ Dependencies:
 
 ID: T02.G1.04
 Topic: T02 – Algorithm Diagrams
-Skill: Identify the broken picture algorithm
-Description: **Student task:** Compare two picture algorithm strips for the same task. One is correct, one has a missing or wrong step. Tap the broken one. **Visual scenario:** Task: "Wash hands." Strip A: turn on water → add soap → rub hands → dry hands. Strip B: turn on water → rub hands → dry hands (missing soap step). Question: "Which algorithm is broken?" **Correct answer:** Strip B. _Implementation note: Side-by-side comparison with binary selection; auto-graded. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
+Skill: Compare two diagrams and identify the broken one
+Description: **Student task:** Compare two diagram strips for the same task. One diagram is correct, one has a missing or wrong box. Tap the broken diagram. **Visual scenario:** Task: "Wash hands." Diagram A: [turn on water] → [add soap] → [rub hands] → [dry hands]. Diagram B: [turn on water] → [rub hands] → [dry hands] (missing soap box). Question: "Which diagram is broken?" **Correct answer:** Diagram B (missing a box). _Implementation note: Side-by-side diagram comparison; focuses on diagram structure integrity. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G1.01: Create a 3–4 step picture algorithm for a task
+* T02.G1.01: Build a 4-box diagram strip for a given task
 
 
 
@@ -1829,27 +1769,37 @@ Dependencies:
 
 ID: T02.G1.05
 Topic: T02 – Algorithm Diagrams
-Skill: Fix one wrong step in a picture algorithm
-Description: **Student task:** Look at a picture algorithm strip with one clearly wrong picture. Replace that picture with the correct one from the choices. **Visual scenario:** Strip shows "make a sandwich": eat sandwich → add peanut butter → add jelly → put bread on top. The first step "eat sandwich" is wrong. Student replaces it with "get bread slices." _Implementation note: Tap wrong card, then select replacement from 3-4 options. Auto-graded by correct replacement. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
+Skill: Debug a diagram by replacing the wrong box
+Description: **Student task:** Look at a diagram strip with one clearly wrong picture in a box. Tap the wrong box, then select the correct picture to replace it. **Visual scenario:** Diagram shows "make a sandwich": [eat sandwich] → [add peanut butter] → [add jelly] → [put bread on top]. The first box "eat sandwich" is wrong—you can't eat before making! Student taps it and selects "get bread slices" from 3 options. _Implementation note: Two-step debug: (1) identify wrong box, (2) select replacement. Emphasizes diagram debugging. Auto-graded by correct replacement. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G1.04: Identify the broken picture algorithm
+* T02.G1.04: Compare two diagrams and identify the broken one
+
+
+ID: T02.G1.06
+Topic: T02 – Algorithm Diagrams
+Skill: Trace a diagram with a Yes/No question box
+Description: **Student task:** Follow a diagram that has a "question box" with Yes and No arrows leading to different picture boxes. Answer what happens for a given scenario. **Visual scenario:** Diagram shows: [START: Is it cold?] with two arrows: "Yes" → [wear jacket] → END, "No" → [wear t-shirt] → END. Question: "It IS cold today. What do you wear?" **Correct answer:** wear jacket (follow the Yes arrow). _Implementation note: First branching diagram; introduces conditional paths visually. MCQ with 2 picture options. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01, E1‑ALG‑PS‑03._
+
+Dependencies:
+* T02.GK.05: Identify the "question box" in a simple picture diagram
+* T02.G1.03: Trace a diagram and predict the final result
 
 
 ---
 
-## GRADE 2 (8 skills - added bridging skill T02.G2.08)
+## GRADE 2 (9 skills - added T02.G2.09 for repeat symbols)
 
 
 
 
 ID: T02.G2.01
 Topic: T02 – Algorithm Diagrams
-Skill: Convert a picture routine into labeled boxes
-Description: **Student task:** Look at a 3–4 picture routine. Create a matching row of labeled boxes by dragging word/icon labels into "Step 1," "Step 2," "Step 3" boxes. **Visual scenario:** Pictures show "getting ready for school": wake up → get dressed → eat breakfast → grab backpack. Students drag matching labels into boxes: "Wake up" → "Get dressed" → "Eat" → "Get bag." _Implementation note: Picture-to-box conversion with drag-drop labels; introduces abstract representation. Auto-graded by label placement. CSTA: E2‑ALG‑AF‑01._
+Skill: Convert a picture diagram into a text-label diagram
+Description: **Student task:** Look at a 4-box picture diagram. Create an equivalent text-label diagram by dragging word labels into matching boxes. **Visual scenario:** Picture diagram shows "getting ready for school": [🌅wake up] → [👕get dressed] → [🍳eat breakfast] → [🎒grab backpack]. Empty text diagram: [___] → [___] → [___] → [___]. Students drag text labels: "Wake up" → "Get dressed" → "Eat" → "Get bag" to match the picture diagram. _Implementation note: Introduces text-based diagrams as abstraction from pictures; same structure, different representation. Auto-graded by label placement. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G1.01: Create a 3–4 step picture algorithm for a task
+* T02.G1.01: Build a 4-box diagram strip for a given task
 
 
 
@@ -1857,11 +1807,11 @@ Dependencies:
 
 ID: T02.G2.02
 Topic: T02 – Algorithm Diagrams
-Skill: Match a box diagram to the correct picture sequence
-Description: **Student task:** Look at a 3–4 box algorithm diagram with labels. Select which picture sequence matches it from 2-3 options. **Visual scenario:** Box diagram: "Get ball" → "Throw ball" → "Catch ball." Picture options: (A) getting ball, throwing, catching, (B) kicking ball, running, sitting, (C) eating, sleeping, playing. **Correct answer:** (A). _Implementation note: Box-to-picture matching with MCQ; reverses T02.G2.01 direction. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
+Skill: Match a text-label diagram to its picture diagram
+Description: **Student task:** Look at a text-label diagram. Select which picture diagram shows the same algorithm from 2-3 options. **Visual scenario:** Text diagram: [Get ball] → [Throw ball] → [Catch ball]. Picture diagram options: (A) [🏀get] → [🤾throw] → [🙌catch], (B) [⚽kick] → [🏃run] → [🪑sit], (C) [🍕eat] → [😴sleep] → [🎮play]. **Correct answer:** (A). _Implementation note: Reverses G2.01 direction; tests understanding that diagrams can use different representations. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G2.01: Convert a picture routine into labeled boxes
+* T02.G2.01: Convert a picture diagram into a text-label diagram
 
 
 
@@ -1869,11 +1819,11 @@ Dependencies:
 
 ID: T02.G2.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a linear instruction sequence to predict the result
-Description: **Student task:** Follow a row of 4–6 instruction cards with arrows. Predict where the character ends up or what message appears. **Visual scenario:** Cards show: "Start at 0" → "Move right 2" → "Move right 3" → "Say number." Number line from 0-10 shown. Question: "What number does the character say?" Answer choices: 3, 5, 7. **Correct answer:** 5. _Implementation note: Sequential tracing with visual number line/grid; introduces step-by-step execution. Auto-graded by final answer. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Skill: Trace a text-label diagram on a number line
+Description: **Student task:** Follow a text-label diagram with movement instructions. Track position on a number line and predict the final result. **Visual scenario:** Diagram: [START at 0] → [Move right 2] → [Move right 3] → [Say number]. Number line 0-10 shown below. Students trace: 0 → 2 → 5 → say "5". Question: "What number does the character say?" Answer choices: 3, 5, 7. **Correct answer:** 5. _Implementation note: Introduces tracing as stepping through diagram boxes while tracking state. Auto-graded by final answer. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G2.02: Match a box diagram to the correct picture sequence
+* T02.G2.02: Match a text-label diagram to its picture diagram
 
 
 
@@ -1881,11 +1831,11 @@ Dependencies:
 
 ID: T02.G2.04
 Topic: T02 – Algorithm Diagrams
-Skill: Track changes step-by-step through an instruction sequence
-Description: **Student task:** Reveal instruction cards one at a time. After each card, mark the character's position on a number line or grid. **Visual scenario:** 4 cards revealed one by one: "Start at 2" → mark 2, "Move right 3" → mark 5, "Move left 1" → mark 4, "Move right 2" → mark 6. Students mark position after each step. _Implementation note: Step-by-step reveal with position marking; builds trace table intuition. Auto-graded by position sequence. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Skill: Build a trace table for a diagram step-by-step
+Description: **Student task:** As each box in a diagram is revealed, mark the character's position in a trace table. **Visual scenario:** Diagram boxes revealed one at a time: [Start at 2] → write "2" in table, [Move right 3] → write "5", [Move left 1] → write "4", [Move right 2] → write "6". Trace table has columns: Step | Position. Students fill in each row. _Implementation note: First trace table experience; builds systematic tracking. Auto-graded by position sequence in table. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G2.03: Trace a linear instruction sequence to predict the result
+* T02.G2.03: Trace a text-label diagram on a number line
 
 
 
@@ -1893,11 +1843,12 @@ Dependencies:
 
 ID: T02.G2.05
 Topic: T02 – Algorithm Diagrams
-Skill: Match a box diagram to a written step sequence
-Description: **Student task:** Look at a 3–4 step box diagram. Match it to the correct written step sequence from 2-3 options. **Visual scenario:** Box diagram: "Add 5" → "Double it" → "Subtract 3." Written options: (A) "Add 5, then double, then subtract 3", (B) "Subtract 3, then add 5, then double", (C) "Double, then add 5, then subtract 3." **Correct answer:** (A). _Implementation note: Diagram-to-text matching; bridges visual and text representations. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
+Skill: Trace a diagram with a Yes/No decision box
+Description: **Student task:** Follow a text-label diagram that includes a decision box (shown as diamond shape) with Yes/No paths. Predict the result for a given condition. **Visual scenario:** Diagram: [START: x=7] → ◇Is x > 5?◇ with "Yes" → [Say "Big!"] → END, "No" → [Say "Small!"] → END. Question: "What does the character say?" **Correct answer:** "Big!" (since 7 > 5, follow Yes path). _Implementation note: Introduces diamond decision shape; builds on G1.06 Yes/No boxes with formal notation. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G2.02: Match a box diagram to the correct picture sequence
+* T02.G1.06: Trace a diagram with a Yes/No question box
+* T02.G2.03: Trace a text-label diagram on a number line
 
 
 
@@ -1905,11 +1856,11 @@ Dependencies:
 
 ID: T02.G2.06
 Topic: T02 – Algorithm Diagrams
-Skill: Fix a sequencing error in a step sequence
-Description: **Student task:** Look at a step sequence where cards are out of order. Drag cards to reorder them to match the target box diagram. **Visual scenario:** Target diagram: "Get paint" → "Dip brush" → "Paint picture." Given cards in wrong order: "Paint picture" → "Get paint" → "Dip brush." Students reorder to match target. _Implementation note: Card reordering to match target; debugging at sequence level. Auto-graded by final arrangement. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
+Skill: Debug a diagram by reordering misplaced boxes
+Description: **Student task:** Look at a diagram where boxes are in the wrong order. Drag boxes to reorder them to match the target algorithm. **Visual scenario:** Target: "Get paint" → "Dip brush" → "Paint picture." Given broken diagram: [Paint picture] → [Get paint] → [Dip brush]. Students drag boxes to fix: [Get paint] → [Dip brush] → [Paint picture]. _Implementation note: Multi-step diagram debugging; reorder multiple boxes. Auto-graded by final arrangement. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G2.05: Match a box diagram to a written step sequence
+* T02.G2.04: Build a trace table for a diagram step-by-step
 
 
 
@@ -1917,39 +1868,49 @@ Dependencies:
 
 ID: T02.G2.07
 Topic: T02 – Algorithm Diagrams
-Skill: Identify CreatiCode workspace components and run a pre-made script
-Description: **Student task:** Open CreatiCode, identify the block workspace, sprite stage, and green flag button. Run a pre-made script by clicking the green flag. **Visual scenario:** Students see CreatiCode with a simple 3-block script already built. They identify: (1) block area on left, (2) stage on right, (3) green flag at top. They click green flag to run and watch sprite move. _Implementation note: Guided exploration with hotspot identification + script execution; prepares for block coding. Auto-graded by correct hotspot selections + running script. CSTA: E2‑ALG‑AF‑01._
+Skill: Identify CreatiCode workspace and run a pre-made block script
+Description: **Student task:** Open CreatiCode, identify the block workspace, sprite stage, and green flag button. Run a pre-made script by clicking the green flag. **Visual scenario:** Students see CreatiCode with a simple 3-block script already built. They identify: (1) block palette on left, (2) script area in middle, (3) stage on right, (4) green flag at top. Click green flag to run and watch sprite move. _Implementation note: Guided exploration; prepares for understanding blocks as executable diagrams. Auto-graded by correct hotspot selections + script execution. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G2.06: Fix a sequencing error in a step sequence
+* T02.G2.06: Debug a diagram by reordering misplaced boxes
 
 
 
 
 ID: T02.G2.08
 Topic: T02 – Algorithm Diagrams
-Skill: Match picture algorithm strips to block sequences
-Description: **Student task:** Look at a 3-4 step picture algorithm strip. Select which block sequence (shown as images of stacked blocks) does the same thing. **Visual scenario:** Picture strip: "Move forward" → "Turn right" → "Move forward" → "Say hello." Block options show 3 different block stacks. Students select the one with: move → turn right → move → say. _Implementation note: Critical bridging skill from pictures to blocks; picture-based MCQ with block images (no coding). Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
+Skill: Match a text-label diagram to a block script (bridging skill)
+Description: **Student task:** Look at a text-label diagram. Select which block script (shown as images of stacked blocks) implements the same algorithm. **Visual scenario:** Text diagram: [Move forward] → [Turn right] → [Move forward] → [Say hello]. Block options show 3 different block stacks. Students select the one with: move → turn right → move → say blocks matching the diagram. _Implementation note: CRITICAL BRIDGING SKILL from diagrams to blocks; shows blocks as executable versions of diagrams. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G2.07: Identify CreatiCode workspace components and run a pre-made script
-* T02.G2.03: Trace a linear instruction sequence to predict the result
+* T02.G2.07: Identify CreatiCode workspace and run a pre-made block script
+* T02.G2.03: Trace a text-label diagram on a number line
+
+
+ID: T02.G2.09
+Topic: T02 – Algorithm Diagrams
+Skill: Identify a repeat symbol (loop arrow) in a diagram
+Description: **Student task:** Look at a diagram that has a "repeat" symbol (curved arrow going back to an earlier box). Tap the repeat symbol and identify how many times the loop runs. **Visual scenario:** Diagram shows: [START] → [Jump] → [Clap] with a curved arrow labeled "×3" going from [Clap] back to [Jump] → [END]. Question: "What does the curved arrow mean?" Answer choices: (A) Do Jump-Clap 3 times, (B) Skip Jump, (C) Go backwards. **Correct answer:** (A). _Implementation note: Introduces loop notation in diagrams; precursor to repeat blocks. Auto-graded by selection. CSTA: E2‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G2.04: Build a trace table for a diagram step-by-step
+* T04.G2.01: Identify the repeating unit in a longer pattern
 
 
 ---
 
-## GRADE 3 (8 skills - added T02.G3.07-08 for loop introduction)
+## GRADE 3 (9 skills - added T02.G3.09 for flowchart introduction)
 
 
 
 
 ID: T02.G3.01
 Topic: T02 – Algorithm Diagrams
-Skill: Build and run a basic block sequence in CreatiCode
-Description: **Student task:** Build a simple 3-4 block sequence in CreatiCode by snapping blocks together, then run it with the green flag. **Context:** Students create a sequence like: move 50 steps → turn 90 degrees → say "Hello!" They observe that blocks execute from top to bottom, just like picture algorithms. _Implementation note: First block-building task; scaffolded with block palette guidance. Auto-graded by behavior (sprite position + message). CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
+Skill: Build and run a 4-block sequence in CreatiCode
+Description: **Student task:** Build a simple 4-block sequence in CreatiCode by snapping blocks together, then run it with the green flag. **Visual scenario:** Students create: [move 50 steps] → [turn 90°] → [move 50 steps] → [say "Hello!"]. They observe blocks execute top-to-bottom, just like diagram boxes execute left-to-right. _Implementation note: First block-building task; emphasizes blocks as executable diagram boxes. Auto-graded by sprite position + message. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G2.08: Match picture algorithm strips to block sequences
+* T02.G2.08: Match a text-label diagram to a block script (bridging skill)
 
 
 
@@ -1957,11 +1918,11 @@ Dependencies:
 
 ID: T02.G3.02
 Topic: T02 – Algorithm Diagrams
-Skill: Predict the outcome of a block sequence
-Description: **Student task:** Look at a 4–5 block script WITHOUT running it. Predict what the sprite will do or say. **Context:** Script shows: move 100 → turn 90 → move 50 → say "Done!" Students predict: (1) sprite moves right then up, (2) sprite says "Done!" Answer format: select sprite's final position from grid + select message. _Implementation note: Mental tracing without execution; builds prediction skills before debugging. Auto-graded by position and message selection. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
+Skill: Predict the outcome of a block sequence without running it
+Description: **Student task:** Look at a 5-block script WITHOUT running it. Predict what the sprite will do and where it ends up. **Visual scenario:** Script: [move 100] → [turn 90°] → [move 50] → [turn 90°] → [say "Done!"]. Grid shows starting position. Students predict: (1) sprite's final position on grid, (2) sprite says "Done!". _Implementation note: Mental tracing without execution; same skill as tracing a diagram. Auto-graded by position and message selection. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G3.01: Build and run a basic block sequence in CreatiCode
+* T02.G3.01: Build and run a 4-block sequence in CreatiCode
 
 
 
@@ -1969,11 +1930,11 @@ Dependencies:
 
 ID: T02.G3.03
 Topic: T02 – Algorithm Diagrams
-Skill: Build a block sequence for a specified task
-Description: **Student task:** Create a 4–6 block script to accomplish a given task. **Context:** Task: "Make the sprite draw a short line, then say 'Done!'" Students build: pen down → move 100 → pen up → say "Done!" The script must achieve the goal in 4-6 blocks. _Implementation note: Guided building with task specification; auto-graded by behavior (line drawn + message displayed). CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
+Skill: Build a block script to implement a given algorithm
+Description: **Student task:** Given a task description, create a 4–6 block script that implements the algorithm. **Visual scenario:** Task: "Make the sprite draw a short line, then say 'Done!'" Students build: [pen down] → [move 100] → [pen up] → [say "Done!"]. This is the executable version of a diagram. _Implementation note: Task specification → block implementation; auto-graded by behavior. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G3.02: Predict the outcome of a block sequence
+* T02.G3.02: Predict the outcome of a block sequence without running it
 
 
 
@@ -1981,11 +1942,12 @@ Dependencies:
 
 ID: T02.G3.04
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a block sequence with one if/else decision
-Description: **Student task:** Follow a script with one if/else block. Given a starting condition, trace which path executes and predict the outcome. **Context:** Script: if x > 50 then say "Big!" else say "Small!" Given: x = 30. Students trace: condition is false → "else" path runs → sprite says "Small!" _Implementation note: Single if/else tracing with given condition value; builds conditional reasoning. Auto-graded by path and outcome selection. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
+Skill: Trace a block script with one if/else decision
+Description: **Student task:** Follow a block script with one if/else block. Given a starting value, trace which branch executes and predict the outcome. **Visual scenario:** Script: [if x > 50 then] → [say "Big!"] [else] → [say "Small!"]. Given: x = 30. Students trace: condition 30 > 50 is FALSE → follow "else" branch → sprite says "Small!". _Implementation note: Single if/else tracing; mirrors tracing a decision diamond in a diagram. Auto-graded by path and outcome. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G3.03: Build a block sequence for a specified task
+* T02.G3.03: Build a block script to implement a given algorithm
+* T02.G2.05: Trace a diagram with a Yes/No decision box
 
 
 
@@ -1993,11 +1955,11 @@ Dependencies:
 
 ID: T02.G3.05
 Topic: T02 – Algorithm Diagrams
-Skill: Create a block script with one if/else decision
-Description: **Student task:** Build a script with one if/else block to handle a simple decision. **Context:** Task: "If the sprite is touching the edge, say 'Stop!' Otherwise, move forward 10 steps." Students build: if touching edge? then say "Stop!" else move 10. _Implementation note: First conditional building task; auto-graded by testing both branches (sprite at edge vs not at edge). CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
+Skill: Build a block script with one if/else decision
+Description: **Student task:** Build a block script with one if/else block to handle a simple decision. **Visual scenario:** Task: "If the sprite is touching the edge, say 'Stop!' Otherwise, move forward 10 steps." Students build: [if touching edge?] → [say "Stop!"] [else] → [move 10]. _Implementation note: First conditional building; implements a decision diagram as executable code. Auto-graded by testing both branches. CSTA: E3‑ALG‑AF‑01, E3‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G3.04: Trace a block sequence with one if/else decision
+* T02.G3.04: Trace a block script with one if/else decision
 
 
 
@@ -2005,35 +1967,45 @@ Dependencies:
 
 ID: T02.G3.06
 Topic: T02 – Algorithm Diagrams
-Skill: Compare two block sequences for the same task
-Description: **Student task:** Look at two block scripts that both accomplish the same goal. Identify which uses fewer blocks or is easier to understand. **Context:** Both scripts move sprite to position (100, 100). Script A: go to x:0 y:0 → glide to x:100 y:100. Script B: set x to 100 → set y to 100 → wait 1 second. Students identify: Script A is shorter (2 blocks vs 3). _Implementation note: Side-by-side comparison with qualitative analysis; focuses on clarity and brevity. Auto-graded by selection + reasoning. CSTA: E3‑ALG‑IM‑04._
+Skill: Compare two block scripts for the same task
+Description: **Student task:** Look at two block scripts that both accomplish the same goal. Identify which uses fewer blocks or is clearer. **Visual scenario:** Task: "Move sprite to (100, 100)." Script A: [go to x:0 y:0] → [glide to x:100 y:100] (2 blocks). Script B: [set x to 100] → [set y to 100] → [wait 1 sec] (3 blocks). Question: "Which script is simpler?" **Answer:** Script A (fewer blocks, same result). _Implementation note: Algorithm comparison; introduces efficiency thinking. Auto-graded by selection. CSTA: E3‑ALG‑IM‑04._
 
 Dependencies:
-* T02.G3.03: Build a block sequence for a specified task
+* T02.G3.03: Build a block script to implement a given algorithm
 
 
 
 
 ID: T02.G3.07
 Topic: T02 – Algorithm Diagrams
-Skill: Recognize when a task needs repetition
-Description: **Student task:** Look at a task description and identify whether the algorithm needs to repeat an action. **Context:** Task A: "Draw a square (4 equal sides)." Task B: "Say hello once." Question: "Which task needs repetition?" Students identify: Task A needs repetition (same move-turn pattern 4 times). _Implementation note: Conceptual introduction to loops through task analysis; MCQ identifying repetition need. Prepares for loop tracing in G3.08. Auto-graded by selection. CSTA: E3‑ALG‑AF‑01._
+Skill: Identify when an algorithm diagram needs a loop symbol
+Description: **Student task:** Look at a task description and identify whether the algorithm diagram would need a repeat/loop symbol. **Visual scenario:** Task A: "Draw a square (4 equal sides)" – needs [move-turn] repeated 4×. Task B: "Say hello once" – no repetition. Question: "Which task needs a loop in its diagram?" **Answer:** Task A (same steps repeat). _Implementation note: Connects loop concept to diagram notation (repeat symbols). Auto-graded by selection. CSTA: E3‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G3.03: Build a block sequence for a specified task
-* T04.G2.01: Identify the repeating unit in a longer pattern
+* T02.G2.09: Identify a repeat symbol (loop arrow) in a diagram
+* T02.G3.03: Build a block script to implement a given algorithm
 
 
 
 
 ID: T02.G3.08
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a simple repeat loop in CreatiCode
-Description: **Student task:** Follow a script with a "repeat N times" block. Predict what happens after all repetitions complete. **Context:** Script: repeat 4 [move 50, turn 90]. Students trace: iteration 1 → move+turn, iteration 2 → move+turn, etc. Final result: sprite draws a square and ends at starting position. _Implementation note: First loop tracing; uses simple repeat with small N (3-5). Auto-graded by final position/pattern prediction. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
+Skill: Trace a repeat block script and predict the final result
+Description: **Student task:** Follow a block script with a "repeat N times" block. Predict what happens after all repetitions. **Visual scenario:** Script: [repeat 4] → [move 50] → [turn 90°]. Trace table: Iteration 1: move+turn, Iteration 2: move+turn, Iteration 3: move+turn, Iteration 4: move+turn. Result: sprite draws a square, ends at start. _Implementation note: First loop tracing in blocks; connects to diagram repeat symbols. Auto-graded by final position/pattern. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G3.07: Recognize when a task needs repetition
+* T02.G3.07: Identify when an algorithm diagram needs a loop symbol
 * T07.G2.01: Identify when to use "repeat" vs "do once"
+
+
+ID: T02.G3.09
+Topic: T02 – Algorithm Diagrams
+Skill: Draw a simple flowchart for a block script
+Description: **Student task:** Given a simple 4-5 block script, draw a matching flowchart using START/END ovals, action rectangles, and arrows. **Visual scenario:** Script: [move 50] → [turn 90°] → [say "Done!"]. Students draw: (START oval) → [move 50 rect] → [turn 90° rect] → [say "Done!" rect] → (END oval). Drag flowchart shapes and connect with arrows. _Implementation note: First flowchart creation; introduces standard symbols. Auto-graded by shape sequence and connections. CSTA: E3‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G3.01: Build and run a 4-block sequence in CreatiCode
+* T02.GK.03: Label START and END boxes in a picture diagram
 
 
 ---
@@ -2045,13 +2017,12 @@ Dependencies:
 
 ID: T02.G4.01
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a block script with a repeat loop
-Description: **Student task:** Follow a script with a repeat loop and track what changes with each iteration. **Context:** Script: set count to 0 → repeat 5 [change count by 2]. Students trace: after iteration 1: count=2, after 2: count=4, ... final: count=10. _Implementation note: Builds on G3.08 tracing; adds variable tracking within loop. Auto-graded by iteration values and final result. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Skill: Trace a repeat loop with variable tracking in a trace table
+Description: **Student task:** Follow a block script with a repeat loop. Track variable changes in a trace table for each iteration. **Visual scenario:** Script: [set count to 0] → [repeat 5] → [change count by 2]. Trace table: Iteration | count: 1 | 2, 2 | 4, 3 | 6, 4 | 8, 5 | 10. Students fill in each row as loop executes. _Implementation note: Combines loop tracing with formal trace tables. Auto-graded by trace table values. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G3.08: Trace a simple repeat loop in CreatiCode
-* T02.G3.02: Predict the outcome of a block sequence
-* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T02.G3.08: Trace a repeat block script and predict the final result
+* T02.G2.04: Build a trace table for a diagram step-by-step
 
 
 
@@ -2059,12 +2030,12 @@ Dependencies:
 
 ID: T02.G4.02
 Topic: T02 – Algorithm Diagrams
-Skill: Build a block script with a repeat loop
-Description: **Student task:** Create a script using a repeat block to accomplish a repetitive task. **Context:** Task: "Draw a square (4 sides, each 100 steps, turn 90° after each side)." Students build: repeat 4 [move 100, turn 90]. _Implementation note: First loop building task; simple geometric pattern. Auto-graded by drawn shape matching target. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
+Skill: Build a block script with a repeat loop for a pattern
+Description: **Student task:** Create a block script using a repeat block to draw a geometric pattern. **Visual scenario:** Task: "Draw a square (4 sides, each 100 steps, turn 90° after each)." Students build: [repeat 4] → [move 100] → [turn 90°]. Result: sprite draws a square. _Implementation note: First loop building; implements repetitive algorithm. Auto-graded by drawn shape. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G4.01: Trace a block script with a repeat loop
-* T02.G3.03: Build a block sequence for a specified task
+* T02.G4.01: Trace a repeat loop with variable tracking in a trace table
+* T02.G3.03: Build a block script to implement a given algorithm
 
 
 
@@ -2073,11 +2044,10 @@ Dependencies:
 ID: T02.G4.03.01
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a script with sequential if/else decisions
-Description: **Student task:** Follow a script with 2-3 if/else blocks that run one after another (sequential, not nested). Trace which conditions are true and which actions execute. **Context:** Script: if x > 50 say "Big" else say "Small" → if y > 50 say "High" else say "Low". Given x=60, y=30. Trace: first if → true → "Big", second if → false → "Low". _Implementation note: Sequential conditionals (each runs independently); builds on single if/else. Auto-graded by both outputs. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Description: **Student task:** Trace a block script with 2 if/else blocks that run one after another (sequential, not nested). Track which conditions are true. **Visual scenario:** Script: [if x > 50 say "Big" else say "Small"] → [if y > 50 say "High" else say "Low"]. Given: x=60, y=30. Trace: first if: 60>50=TRUE → "Big"; second if: 30>50=FALSE → "Low". Result: "Big" then "Low". _Implementation note: Sequential conditionals; each decision independent. Auto-graded by both outputs. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G3.05: Create a block script with one if/else decision
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T02.G3.05: Build a block script with one if/else decision
 * T12.G3.01: Test and trace simple block-based scripts
 
 
@@ -2086,11 +2056,10 @@ Dependencies:
 ID: T02.G4.03.02
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a script with nested if/else decisions
-Description: **Student task:** Follow a script where one if/else is INSIDE another if/else (nested). Trace which path through the nested structure executes. **Context:** Script: if x > 50 [if y > 50 say "Big & High" else say "Big & Low"] else say "Small". Given x=60, y=30. Trace: outer if → true → enter inner → inner if → false → "Big & Low". _Implementation note: Nested conditionals (fundamentally different tracing pattern from sequential); requires tracking depth. Auto-graded by final output. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Description: **Student task:** Trace a block script where one if/else is INSIDE another if/else (nested). Track the path through nested structure. **Visual scenario:** Script: [if x > 50] → [if y > 50 say "Big & High" else say "Big & Low"] [else say "Small"]. Given: x=60, y=30. Trace: outer if: 60>50=TRUE → enter inner; inner if: 30>50=FALSE → "Big & Low". _Implementation note: Nested conditionals; requires tracking depth level. Auto-graded by final output. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
 * T02.G4.03.01: Trace a script with sequential if/else decisions
-* T06.G2.02: Match multiple triggers to the same action
 
 
 
@@ -2098,12 +2067,12 @@ Dependencies:
 
 ID: T02.G4.04.01
 Topic: T02 – Algorithm Diagrams
-Skill: Build a script with sequential loop and decision
-Description: **Student task:** Create a script with a repeat loop FOLLOWED BY an if/else block (sequential, not nested). **Context:** Task: "Move forward 4 times (10 steps each), then check: if x > 100 say 'Far!' else say 'Close!'" Students build: repeat 4 [move 10] → if x > 100 say "Far!" else say "Close!" _Implementation note: Loop then decision (sequential combination); tests both structures working together. Auto-graded by final position check + message. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
+Skill: Build a script with loop followed by decision (sequential)
+Description: **Student task:** Build a block script with a repeat loop FOLLOWED BY an if/else block (sequential, not nested). **Visual scenario:** Task: "Move 4 times (10 steps each), then check if you've gone far." Students build: [repeat 4] → [move 10] → [if x > 100 say "Far!" else say "Close!"]. Loop runs first, then decision checks result. _Implementation note: Sequential combination of structures. Auto-graded by position + message. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G4.02: Build a block script with a repeat loop
-* T02.G3.05: Create a block script with one if/else decision
+* T02.G4.02: Build a block script with a repeat loop for a pattern
+* T02.G3.05: Build a block script with one if/else decision
 
 
 
@@ -2111,13 +2080,12 @@ Dependencies:
 
 ID: T02.G4.04.02
 Topic: T02 – Algorithm Diagrams
-Skill: Build a script with a decision inside a loop
-Description: **Student task:** Create a script with an if/else block INSIDE a repeat loop (decision made each iteration). **Context:** Task: "Repeat 10 times: if touching color blue, turn 90°, else move 10 steps." Students build: repeat 10 [if touching blue? turn 90 else move 10]. The decision is evaluated each iteration. _Implementation note: Decision inside loop (nested combination); decision affects each iteration differently. Auto-graded by path taken based on sprite environment. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
+Skill: Build a script with decision inside a loop (nested)
+Description: **Student task:** Build a block script with an if/else block INSIDE a repeat loop (decision made each iteration). **Visual scenario:** Task: "Repeat 10 times: if touching blue, turn; otherwise move." Students build: [repeat 10] → [if touching blue? turn 90° else move 10]. Decision runs each iteration—behavior depends on environment. _Implementation note: Nested combination; decision affects each iteration. Auto-graded by final path. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G4.04.01: Build a script with sequential loop and decision
+* T02.G4.04.01: Build a script with loop followed by decision (sequential)
 * T02.G4.03.02: Trace a script with nested if/else decisions
-* T06.G2.01: Create a simple cause-and-effect chain with picture cards
 
 
 
@@ -2125,13 +2093,12 @@ Dependencies:
 
 ID: T02.G4.04.03
 Topic: T02 – Algorithm Diagrams
-Skill: Build a script with nested loops and decisions
-Description: **Student task:** Create a script combining nested repeat blocks with if/else decisions inside. **Context:** Task: "Create a 3×3 grid of stamps. For each position: if row + column is even, stamp blue, else stamp red." Students build: repeat 3 (rows) [repeat 3 (columns) [if (row+col) mod 2 = 0 set color blue else set color red, stamp]]. _Implementation note: Complex control flow; CHALLENGING skill - consider for advanced students. Auto-graded by grid pattern. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
+Skill: Draw a flowchart with a decision diamond
+Description: **Student task:** Draw a flowchart for a block script that includes an if/else decision, using diamond shape for the decision. **Visual scenario:** Script: [if score > 10] → [say "Winner!"] [else] → [say "Try again"]. Students draw: (START) → ◇score > 10?◇ with "Yes" → [say "Winner!"] → (END), "No" → [say "Try again"] → (END). _Implementation note: Introduces diamond decision symbol in flowcharts. Auto-graded by shape types and connections. CSTA: E4‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G4.04.02: Build a script with a decision inside a loop
-* T07.G2.01: Identify when to use "repeat" vs "do once"
-* T06.G2.03: Design a simple "if-then" game rule
+* T02.G3.09: Draw a simple flowchart for a block script
+* T02.G3.05: Build a block script with one if/else decision
 
 
 
@@ -2139,12 +2106,12 @@ Dependencies:
 
 ID: T02.G4.04.04
 Topic: T02 – Algorithm Diagrams
-Skill: Predict loop output before running code
-Description: **Student task:** Look at a repeat loop script. Write predictions for what happens on each iteration BEFORE running the code. **Context:** Script: set x to 0 → repeat 4 [change x by 5]. Students write: "Iteration 1: x=5, Iteration 2: x=10, Iteration 3: x=15, Iteration 4: x=20." Then run to verify. _Implementation note: Paper-based prediction before digital verification; builds mental tracing. Auto-graded by matching predictions to actual output. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+Skill: Predict loop output in a trace table before running code
+Description: **Student task:** Fill in a trace table predicting what happens each iteration of a repeat loop BEFORE running the code. **Visual scenario:** Script: [set x to 0] → [repeat 4] → [change x by 5]. Students fill trace table: Iteration 1: x=5, 2: x=10, 3: x=15, 4: x=20. Then run script to verify predictions match. _Implementation note: Prediction before execution; builds mental tracing skills. Auto-graded by trace table accuracy. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G4.02: Build a block script with a repeat loop
-* T02.G3.02: Predict the outcome of a block sequence
+* T02.G4.01: Trace a repeat loop with variable tracking in a trace table
+* T02.G3.02: Predict the outcome of a block sequence without running it
 
 
 
@@ -2152,13 +2119,11 @@ Dependencies:
 
 ID: T02.G4.05
 Topic: T02 – Algorithm Diagrams
-Skill: Use the print block to trace variable changes in a loop
-Description: **Student task:** Add "print [MESSAGE] in [console] color [COLOR]" blocks inside a repeat loop to display how variables change with each iteration. Record console output to build a trace table. **Context:** Script: set count to 0 → repeat 5 [change count by 3, print count]. Students add print block, run script, record console output: 3, 6, 9, 12, 15. _Implementation note: Combines tool learning (print block) with trace tables. Auto-graded by trace table correctness. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
+Skill: Use the print block to output variable values to console
+Description: **Student task:** Add "print [MESSAGE] in [console]" blocks inside a repeat loop to display variable changes in the console. Record output to verify trace table predictions. **Visual scenario:** Script: [set count to 0] → [repeat 5] → [change count by 3, print count]. Console shows: 3, 6, 9, 12, 15. Students compare console output to their trace table. _Implementation note: Introduces print block as debugging/tracing tool. Auto-graded by trace table matching console output. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G4.04.04: Predict loop output before running code
-* T04.G2.01: Identify the repeating unit in a longer pattern
-* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T02.G4.04.04: Predict loop output in a trace table before running code
 * T12.G3.01: Test and trace simple block-based scripts
 
 
@@ -2168,14 +2133,11 @@ Dependencies:
 
 ID: T02.G4.06
 Topic: T02 – Algorithm Diagrams
-Skill: Debug a script using the print block to find errors
-Description: **Student task:** Given a buggy script, add "print" blocks to display variable values in the console. Identify where the error occurs and fix it. **Context:** Script supposed to count to 10 but prints wrong values. Students add print blocks, find variable starts at 1 instead of 0, fix initialization. _Implementation note: First debugging with print blocks. Auto-graded by fixed script. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
-
+Skill: Debug a script by adding print blocks to find the error
+Description: **Student task:** Given a buggy script, add "print" blocks to display variable values. Use console output to identify and fix the error. **Visual scenario:** Buggy script supposed to count 0-10 by 2s, but outputs 2,4,6,8,10,12. Students add print blocks, discover initialization error (starts at 2 not 0). Fix: change "set x to 2" to "set x to 0". _Implementation note: Print-based debugging workflow. Auto-graded by corrected script behavior. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G4.05: Use the print block to trace variable changes in a loop
-* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
-* T12.G3.01: Test and trace simple block-based scripts
+* T02.G4.05: Use the print block to output variable values to console
 
 
 
@@ -2184,32 +2146,29 @@ Dependencies:
 
 ID: T02.G4.07
 Topic: T02 – Algorithm Diagrams
-Skill: Build a simple nested repeat loop for a pattern
-Description: **Student task:** Create a script with one repeat loop inside another to make a grid or pattern. **Context:** Task: "Create a 3×4 grid of stamps." Students build: repeat 3 [repeat 4 [stamp, move right], go to next row]. _Implementation note: Nested loops without variable tracking; focuses on structure. Auto-graded by visual pattern. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑PF‑01._
+Skill: Draw a flowchart with a loop symbol
+Description: **Student task:** Draw a flowchart for a block script with a repeat loop, using proper loop notation (back-arrow or loop box). **Visual scenario:** Script: [repeat 4] → [move 50] → [turn 90°]. Students draw: (START) → [Loop: 4 times] → [move 50] → [turn 90°] → (back to loop check) → (END when done). _Implementation note: Introduces loop representation in flowcharts. Auto-graded by structure and connections. CSTA: E4‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G4.02: Build a block script with a repeat loop
-* T04.G3.09: Recognize nested repetition in visual patterns
+* T02.G4.04.03: Draw a flowchart with a decision diamond
+* T02.G4.02: Build a block script with a repeat loop for a pattern
 
 
 ---
 
-## GRADE 5 (6 skills)
+## GRADE 5 (8 skills - expanded flowchart and algorithm analysis)
 
 
 
 
 ID: T02.G5.01
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a script with nested loops using the print block
-Description: Students trace a CreatiCode script containing nested repeat blocks by adding "print" blocks inside both the inner and outer loops to display loop counters and understand how the loops interact, recording the console output to see the execution pattern.
+Skill: Trace nested loops using print blocks and a trace table
+Description: **Student task:** Trace a script with nested repeat blocks by adding print blocks inside both loops. Record console output in a trace table showing outer and inner loop iterations. **Visual scenario:** Script: [repeat 3 (outer)] → [repeat 2 (inner)] → [print "outer: " + i + " inner: " + j]. Trace table: outer=1,inner=1 | outer=1,inner=2 | outer=2,inner=1 | outer=2,inner=2 | outer=3,inner=1 | outer=3,inner=2. _Implementation note: Multi-level loop tracing. Auto-graded by trace table accuracy. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G4.05: Use the print block to trace variable changes in a loop
-* T02.G4.07: Build a simple nested repeat loop for a pattern
-* T10.G3.05: Work with lists
-* T10.G4.18: Advanced list operations
-* T07.G5.01: Simulate repeated experiments with a loop
+* T02.G4.05: Use the print block to output variable values to console
+* T02.G4.07: Draw a flowchart with a loop symbol
 
 
 
@@ -2217,16 +2176,11 @@ Dependencies:
 
 ID: T02.G5.02
 Topic: T02 – Algorithm Diagrams
-Skill: Build a script with nested loops for a pattern
-Description: Students create a script using nested repeat blocks to generate a pattern (e.g., "draw a grid of stamps" by using outer loop for rows, inner loop for columns), demonstrating algorithmic thinking with nested structures.
+Skill: Build a nested loop script to create a 2D pattern
+Description: **Student task:** Create a script using nested repeat blocks to generate a 2D grid pattern (outer loop for rows, inner loop for columns). **Visual scenario:** Task: "Create a 4×3 grid of stamps." Students build: [repeat 3 (rows)] → [repeat 4 (cols)] → [stamp, move right 50], [move to next row]. Result: 3 rows of 4 stamps each. _Implementation note: Nested loop construction for 2D patterns. Auto-graded by visual grid output. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G5.01: Trace a script with nested loops using the print block
-* T10.G3.05: Work with lists
-* T10.G4.18: Advanced list operations
-* T07.G5.01: Simulate repeated experiments with a loop
-* T04.G5.01: Identify and classify counter update patterns in code
-* T03.G5.01: Write a feature list with subtasks for each feature
+* T02.G5.01: Trace nested loops using print blocks and a trace table
 
 
 
@@ -2234,11 +2188,11 @@ Dependencies:
 
 ID: T02.G5.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace multiple variables using the print block
-Description: Students trace a script that tracks multiple changing values (like position and score) by strategically placing "print" blocks to display multiple variables in the console and recording the output in a simple table format.
+Skill: Trace multiple variables in a multi-column trace table
+Description: **Student task:** Trace a script that tracks multiple changing values. Use print blocks to display multiple variables and record output in a multi-column trace table. **Visual scenario:** Script tracks x-position and score: each iteration moves right and adds points. Trace table columns: Iteration | x | score. Students fill: 1|50|10, 2|100|25, 3|150|45, etc. _Implementation note: Multi-variable tracing; complex trace tables. Auto-graded by table accuracy. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G4.05: Use the print block to trace variable changes in a loop
+* T02.G4.05: Use the print block to output variable values to console
 * T09.G5.01: Use multiple variables together in a single expression
 
 
@@ -2247,12 +2201,11 @@ Dependencies:
 
 ID: T02.G5.04
 Topic: T02 – Algorithm Diagrams
-Skill: Create a manual trace table for a script with accumulation
-Description: Students run a script that accumulates values (adds to a running total) and create their own trace table format on paper showing how variables change at each step, using "print" block console output to verify their predictions.
+Skill: Design and fill a trace table for an accumulator algorithm
+Description: **Student task:** Create your own trace table format for a script that accumulates values. Predict values before running, then verify with print output. **Visual scenario:** Script: running total that doubles each iteration. Students design table with columns they choose (iteration, total, change). Predict: 1|2|2, 2|4|2, 3|8|4... Then verify with console output. _Implementation note: Student-designed trace tables; accumulator pattern focus. Auto-graded by prediction accuracy. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G5.03: Trace multiple variables using the print block
-* T09.G5.01: Use multiple variables together in a single expression
+* T02.G5.03: Trace multiple variables in a multi-column trace table
 
 
 
@@ -2260,11 +2213,12 @@ Dependencies:
 
 ID: T02.G5.05
 Topic: T02 – Algorithm Diagrams
-Skill: Compare two algorithms by counting blocks
-Description: Students compare two different block scripts that solve the same problem by counting the number of blocks used and identifying which is more efficient or easier to understand.
+Skill: Compare two algorithms by counting operations
+Description: **Student task:** Compare two block scripts that solve the same problem. Count blocks and trace execution steps to identify which is more efficient. **Visual scenario:** Task: "Move sprite 200 steps." Algorithm A: [repeat 4] → [move 50] (4 iterations). Algorithm B: [move 200] (1 operation). Students count: A=4 move operations, B=1 move operation. B is more efficient. _Implementation note: Efficiency analysis by operation counting. Auto-graded by efficiency identification. CSTA: E5‑ALG‑IM‑04._
 
 Dependencies:
-* T02.G3.06: Compare two block sequences for the same task
+* T02.G3.06: Compare two block scripts for the same task
+* T02.G5.01: Trace nested loops using print blocks and a trace table
 
 
 
@@ -2272,11 +2226,31 @@ Dependencies:
 
 ID: T02.G5.06
 Topic: T02 – Algorithm Diagrams
-Skill: Improve an algorithm by removing redundant blocks
-Description: Students are given a working script with unnecessary blocks (e.g., duplicate moves, redundant checks) and remove them to make the algorithm more efficient while keeping the same behavior.
+Skill: Optimize an algorithm by removing redundant blocks
+Description: **Student task:** Given a working script with unnecessary blocks, identify and remove redundant operations while keeping the same output behavior. **Visual scenario:** Script with redundant steps: [move 50] → [move -50] → [move 50] → [turn 90°]. Redundant: first two moves cancel out. Optimized: [move 50] → [turn 90°]. Students identify and remove waste. _Implementation note: Algorithm optimization; same behavior, fewer blocks. Auto-graded by output matching + block count reduction. CSTA: E5‑ALG‑IM‑04._
 
 Dependencies:
-* T02.G5.05: Compare two algorithms by counting blocks
+* T02.G5.05: Compare two algorithms by counting operations
+
+
+ID: T02.G5.07
+Topic: T02 – Algorithm Diagrams
+Skill: Draw a flowchart with nested structures
+Description: **Student task:** Draw a flowchart for a block script that has a loop containing a decision (or vice versa). Show proper nesting in the diagram. **Visual scenario:** Script: [repeat 5] → [if touching edge, turn 180°, else move 10]. Flowchart shows: loop box containing a decision diamond inside, with both branches returning to loop check. _Implementation note: Advanced flowchart with nested control structures. Auto-graded by structure and nesting accuracy. CSTA: E5‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G4.07: Draw a flowchart with a loop symbol
+* T02.G4.04.02: Build a script with decision inside a loop (nested)
+
+
+ID: T02.G5.08
+Topic: T02 – Algorithm Diagrams
+Skill: Convert a flowchart to a block script
+Description: **Student task:** Given a flowchart diagram, build the equivalent block script in CreatiCode. **Visual scenario:** Flowchart shows: (START) → ◇x > 0?◇ → "Yes" → [move x] → (END), "No" → [turn 180°] → (END). Students build: [if x > 0] → [move x] [else] → [turn 180°]. _Implementation note: Flowchart-to-code translation. Auto-graded by script behavior matching flowchart logic. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑PF‑01._
+
+Dependencies:
+* T02.G5.07: Draw a flowchart with nested structures
+* T02.G4.04.02: Build a script with decision inside a loop (nested)
 
 
 ---
@@ -2288,11 +2262,11 @@ Dependencies:
 
 ID: T02.G6.01
 Topic: T02 – Algorithm Diagrams
-Skill: Use the pseudocode generation block
-Description: Students find the "get scripts for all blocks from sprite [SPRITE] into list [LIST]" block in CreatiCode's Control category. They learn that this block stores information about a sprite's code into a list, where list item 1 contains the pseudocode (a human-readable text description of what the algorithm does).
+Skill: Use the pseudocode generation block to export algorithm text
+Description: **Student task:** Find and use the "get scripts for all blocks from sprite [SPRITE] into list [LIST]" block. Read item 1 of the list to see the pseudocode—a text description of your algorithm. **Visual scenario:** Script: [repeat 4] → [move 50] → [turn 90°]. After running the block, list item 1 shows: "repeat 4 times: move 50 steps, turn 90 degrees". Students see how blocks translate to text. _Implementation note: Introduces pseudocode generation tool. Auto-graded by successful pseudocode extraction. CSTA: E6‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G5.02: Build a script with nested loops for a pattern
+* T02.G5.08: Convert a flowchart to a block script
 
 
 
@@ -2300,11 +2274,11 @@ Dependencies:
 
 ID: T02.G6.02
 Topic: T02 – Algorithm Diagrams
-Skill: Generate and read pseudocode from a simple script
-Description: Students build a simple block script (with sequence and one loop or if/else), use the "get scripts for all blocks from sprite into list" block, then read item 1 of the list to see the pseudocode and understand how their blocks translate to text descriptions.
+Skill: Match block structures to their pseudocode representation
+Description: **Student task:** Build scripts with different structures (sequence, loop, if/else), generate pseudocode for each, and identify how each structure appears in text form. **Visual scenario:** Students build 3 scripts: (1) sequence only, (2) with loop, (3) with if/else. Generate pseudocode for each. Match: "if...then...else" appears for conditionals, "repeat N times" for loops. _Implementation note: Structure recognition in pseudocode. Auto-graded by correct structure-to-text matching. CSTA: E6‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G6.01: Use the pseudocode generation block
+* T02.G6.01: Use the pseudocode generation block to export algorithm text
 
 
 
@@ -2312,11 +2286,11 @@ Dependencies:
 
 ID: T02.G6.03
 Topic: T02 – Algorithm Diagrams
-Skill: Compare block code to its generated pseudocode
-Description: Students create a script with loops and decisions, use the pseudocode generation block to retrieve the pseudocode, and identify how each block structure (repeat, if/else, sequence) is represented in the pseudocode text, building connection between visual blocks and written algorithm descriptions.
+Skill: Identify differences between block script and its pseudocode
+Description: **Student task:** Compare a block script to its generated pseudocode. Identify what information is preserved vs. lost in translation. **Visual scenario:** Script uses specific block names; pseudocode uses generic terms. Script: [glide 1 secs to x:100 y:100]. Pseudocode: "glide to position (100,100) over 1 second". Students note: exact block name differs, but meaning preserved. _Implementation note: Critical analysis of representation differences. Auto-graded by correct identification. CSTA: E6‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G6.02: Generate and read pseudocode from a simple script
+* T02.G6.02: Match block structures to their pseudocode representation
 
 
 
@@ -2324,11 +2298,11 @@ Dependencies:
 
 ID: T02.G6.04
 Topic: T02 – Algorithm Diagrams
-Skill: Use pseudocode to plan before coding
-Description: Students write simple pseudocode on paper first (e.g., "repeat 4 times: draw side, turn 90"), then build the matching block script in CreatiCode, learning to plan algorithms before implementing them.
+Skill: Write pseudocode first, then implement as blocks
+Description: **Student task:** Write pseudocode on paper for a given task BEFORE coding. Then build the matching block script. Compare your pseudocode to the generated pseudocode. **Visual scenario:** Task: "Draw a triangle." Student writes: "repeat 3: move 100, turn 120". Then builds: [repeat 3] → [move 100] → [turn 120°]. Generate pseudocode to verify match. _Implementation note: Pseudocode-first planning workflow. Auto-graded by script behavior + pseudocode similarity. CSTA: E6‑ALG‑AF‑01, E6‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G6.03: Compare block code to its generated pseudocode
+* T02.G6.03: Identify differences between block script and its pseudocode
 
 
 
@@ -2336,11 +2310,11 @@ Dependencies:
 
 ID: T02.G6.05
 Topic: T02 – Algorithm Diagrams
-Skill: Debug using pseudocode comparison
-Description: Students generate pseudocode from a buggy script, read the pseudocode to understand what the algorithm actually does (vs. what it should do), then fix the blocks based on the insight gained.
+Skill: Debug by comparing actual pseudocode to intended algorithm
+Description: **Student task:** Generate pseudocode from a buggy script. Compare to the intended algorithm description. Identify the mismatch and fix the blocks. **Visual scenario:** Task was "draw a square" but sprite draws a line. Generate pseudocode, see "repeat 4: move 100" (missing turn!). Compare to correct: "repeat 4: move 100, turn 90". Fix: add [turn 90°] inside loop. _Implementation note: Pseudocode-based debugging. Auto-graded by corrected script output. CSTA: E6‑ALG‑AF‑01, E6‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G6.03: Compare block code to its generated pseudocode
+* T02.G6.03: Identify differences between block script and its pseudocode
 
 
 
@@ -2348,11 +2322,12 @@ Dependencies:
 
 ID: T02.G6.06
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a data processing algorithm using the print block
-Description: Students trace a script that processes multiple inputs (e.g., "check 5 numbers and find the largest") by adding "print" blocks to show in the console how the algorithm examines each value and updates the result.
+Skill: Trace a list-processing algorithm with print blocks
+Description: **Student task:** Trace a script that processes a list (e.g., finding the largest value). Add print blocks to show each item examined and how the result variable updates. **Visual scenario:** Script: [set max to item 1] → [repeat for each item] → [if item > max, set max to item, print "new max: " + max]. Console shows progression: "checking 5... checking 12, new max: 12... checking 8..." _Implementation note: List traversal tracing. Auto-graded by trace accuracy. CSTA: E6‑ALG‑AF‑01, E6‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G5.04: Create a manual trace table for a script with accumulation
+* T02.G5.04: Design and fill a trace table for an accumulator algorithm
+* T10.G5.03: Work with list data structures
 
 
 
@@ -2360,23 +2335,22 @@ Dependencies:
 
 ID: T02.G6.07
 Topic: T02 – Algorithm Diagrams
-Skill: Build an algorithm to find maximum value in a list
-Description: Students create a script that examines each value in a list and tracks the largest one found (using a "max so far" variable), using the "print" block to show in the console when the maximum changes.
+Skill: Build a find-maximum algorithm with trace output
+Description: **Student task:** Create a script that finds the maximum value in a list. Track the "max so far" variable and print when it changes. **Visual scenario:** List: [5, 12, 8, 3, 15, 7]. Students build: [set max to item 1] → [repeat for items 2-6] → [if item > max, set max to item, print "new max found: " + max]. Console: "new max: 12... new max: 15". Final max = 15. _Implementation note: Classic find-max algorithm with tracing. Auto-graded by correct max + trace log. CSTA: E6‑ALG‑AF‑01, E6‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G6.06: Trace a data processing algorithm using the print block
-* T10.G5.03: Work with list data structures
+* T02.G6.06: Trace a list-processing algorithm with print blocks
 
 
 
 
 ID: T02.G6.08
 Topic: T02 – Algorithm Diagrams
-Skill: Test an algorithm with normal, edge, and boundary cases
-Description: Students systematically test their algorithms using different categories of test cases: normal cases (typical inputs), edge cases (empty lists, single items), and boundary cases (minimum/maximum values), using "print" blocks to verify correct behavior across all scenarios.
+Skill: Test an algorithm with normal, edge, and boundary inputs
+Description: **Student task:** Test your find-max algorithm with different categories of inputs. Document results for each category. **Visual scenario:** Test categories: (1) Normal: [5, 12, 8] → max=12 ✓. (2) Edge - empty list: [] → should handle gracefully. (3) Edge - one item: [7] → max=7 ✓. (4) Boundary: all same [5,5,5] → max=5 ✓. Students test each and record pass/fail. _Implementation note: Systematic testing categories. Auto-graded by correct handling of all cases. CSTA: E6‑ALG‑AF‑01, E6‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G6.07: Build an algorithm to find maximum value in a list
+* T02.G6.07: Build a find-maximum algorithm with trace output
 
 
 ---
@@ -2388,11 +2362,11 @@ Dependencies:
 
 ID: T02.G7.01.01
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a counter/accumulator simulation
-Description: Students trace a CreatiCode script that models change over time using counters or accumulators (e.g., a score that increases by different amounts each step, a counter incrementing based on conditions) using the "print" block to record state in the console after each iteration and predict future values based on the pattern.
+Skill: Trace a simulation with counter/accumulator patterns
+Description: **Student task:** Trace a script that simulates change over time using counters (e.g., score increasing, population growing). Print state after each iteration and predict future values. **Visual scenario:** Simulation: bank balance grows by 10% each year. Script: [set balance to 100] → [repeat 5] → [change balance by balance * 0.1, print balance]. Trace: 110, 121, 133.1... Students predict year 6 value. _Implementation note: Simulation tracing with growth patterns. Auto-graded by prediction accuracy. CSTA: E7‑ALG‑AF‑01, E7‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G6.06: Trace a data processing algorithm using the print block
+* T02.G6.06: Trace a list-processing algorithm with print blocks
 
 
 
@@ -2400,11 +2374,11 @@ Dependencies:
 
 ID: T02.G7.01.02
 Topic: T02 – Algorithm Diagrams
-Skill: Trace a physics simulation (position/velocity)
-Description: Students trace a CreatiCode script that models physics-based change over time (e.g., a sprite accelerating as it moves, velocity changing position, gravity affecting motion) using the "print" block to record position, velocity, and other state variables in the console after each iteration and predict future values based on the physics pattern.
+Skill: Trace a physics simulation with position and velocity
+Description: **Student task:** Trace a physics simulation where velocity affects position each frame. Track multiple state variables (position, velocity, acceleration) in a trace table. **Visual scenario:** Falling ball: [set y to 200, velocity to 0] → [repeat] → [change velocity by -2 (gravity), change y by velocity, print "y=" + y + " v=" + velocity]. Trace: y=200,v=0 | y=198,v=-2 | y=194,v=-4... _Implementation note: Physics simulation with multiple coupled variables. Auto-graded by trace table accuracy. CSTA: E7‑ALG‑AF‑01, E7‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G7.01.01: Trace a counter/accumulator simulation
+* T02.G7.01.01: Trace a simulation with counter/accumulator patterns
 
 
 
@@ -2412,11 +2386,11 @@ Dependencies:
 
 ID: T02.G7.02.01
 Topic: T02 – Algorithm Diagrams
-Skill: Use the breakpoint block to pause execution
-Description: Students learn to add the "breakpoint" block from CreatiCode's Control category at a specific point in their script. When they run their program using Debug Mode (the blue arrow button next to the green flag), execution pauses at the breakpoint, allowing them to examine the program state.
+Skill: Add a breakpoint block to pause execution at a specific line
+Description: **Student task:** Add the "breakpoint" block from Control category at a strategic point in a script. Run in Debug Mode (blue arrow) to pause execution there. **Visual scenario:** Script: [set x to 0] → [repeat 5] → [change x by 10] → [BREAKPOINT] → [say x]. Run in Debug Mode. Execution pauses after the loop. Students see x=50 before the say block runs. _Implementation note: Introduces breakpoint debugging tool. Auto-graded by correct breakpoint placement and pause observation. CSTA: E7‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G6.05: Debug using pseudocode comparison
+* T02.G6.05: Debug by comparing actual pseudocode to intended algorithm
 
 
 
@@ -2424,12 +2398,11 @@ Dependencies:
 
 ID: T02.G7.02.02
 Topic: T02 – Algorithm Diagrams
-Skill: Examine variable values at a breakpoint
-Description: Students pause their script using a breakpoint block in Debug Mode and examine the current values of variables displayed in the variable panel to understand the program state at that moment, comparing actual values to their predictions.
+Skill: Examine variable values in the variable panel at a breakpoint
+Description: **Student task:** Pause at a breakpoint in Debug Mode. Examine the current values of all variables in the variable panel. Compare actual values to your predictions. **Visual scenario:** Script paused at breakpoint mid-loop. Variable panel shows: x=30, count=3. Student predicted x=40 at this point—there's a bug! The mismatch reveals the loop started counting from 1 instead of 0. _Implementation note: Variable inspection during pause. Auto-graded by prediction vs actual comparison. CSTA: E7‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G7.02.01: Use the breakpoint block to pause execution
-* T09.G5.01: Use multiple variables together in a single expression
+* T02.G7.02.01: Add a breakpoint block to pause execution at a specific line
 
 
 
@@ -2437,12 +2410,11 @@ Dependencies:
 
 ID: T02.G7.02.03
 Topic: T02 – Algorithm Diagrams
-Skill: Step through algorithm execution block by block
-Description: Students use Debug Mode's step controls to execute their algorithm one block at a time after pausing at a breakpoint, watching how variables and sprite state change with each step. They practice using step-over to move through code systematically.
+Skill: Step through code block-by-block using Debug Mode controls
+Description: **Student task:** After pausing at a breakpoint, use Debug Mode's step controls to execute one block at a time. Watch variables and sprite state change after each step. **Visual scenario:** Paused at breakpoint. Click "Step Over" → one block executes → x changes from 10 to 20 → click again → another block → sprite moves. Students trace execution manually, block by block. _Implementation note: Step-through debugging. Auto-graded by accurate step-by-step trace. CSTA: E7‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G7.02.02: Examine variable values at a breakpoint
-* T08.G5.01: Build a program using nested conditionals
+* T02.G7.02.02: Examine variable values in the variable panel at a breakpoint
 
 
 
@@ -2450,12 +2422,11 @@ Dependencies:
 
 ID: T02.G7.03.01
 Topic: T02 – Algorithm Diagrams
-Skill: Build a simple linear search algorithm
-Description: Students create a script that searches through a list of values sequentially to find a specific item (e.g., "check each number until you find 7"), understanding the basic linear search pattern using a repeat loop and list access.
+Skill: Build a linear search algorithm to find a target value
+Description: **Student task:** Create a script that searches through a list sequentially to find a specific target value. Return the position where it's found (or "not found"). **Visual scenario:** List: [4, 8, 2, 7, 5]. Target: 7. Students build: [repeat for each item] → [if item = target, say "Found at position " + i]. Script checks 4, 8, 2, 7 → "Found at position 4". _Implementation note: Basic linear search algorithm. Auto-graded by correct position returned. CSTA: E7‑ALG‑AF‑01, E7‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G6.06: Trace a data processing algorithm using the print block
-* T02.G6.07: Build an algorithm to find maximum value in a list
+* T02.G6.07: Build a find-maximum algorithm with trace output
 * T10.G5.03: Work with list data structures
 
 
@@ -2464,12 +2435,11 @@ Dependencies:
 
 ID: T02.G7.03.02
 Topic: T02 – Algorithm Diagrams
-Skill: Add print blocks to trace search steps
-Description: Students add "print" blocks to their search algorithm to display in the console each item being checked and whether it matches the target, making the search process visible step-by-step.
+Skill: Add trace output to visualize search algorithm steps
+Description: **Student task:** Add print blocks to your search algorithm to show each comparison in the console. Make the search process visible step-by-step. **Visual scenario:** Searching for 7 in [4, 8, 2, 7, 5]. Console output: "Checking item 1: 4 - no match", "Checking item 2: 8 - no match", "Checking item 3: 2 - no match", "Checking item 4: 7 - FOUND!" _Implementation note: Search algorithm tracing. Auto-graded by correct trace sequence. CSTA: E7‑ALG‑AF‑01, E7‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G7.03.01: Build a simple linear search algorithm
-* T08.G5.01: Build a program using nested conditionals
+* T02.G7.03.01: Build a linear search algorithm to find a target value
 
 
 
@@ -2477,12 +2447,11 @@ Dependencies:
 
 ID: T02.G7.03.03
 Topic: T02 – Algorithm Diagrams
-Skill: Build a search with early exit on match
-Description: Students modify their search algorithm to stop immediately when the target item is found (early exit using "stop this script" or a "found" variable) rather than checking all items, improving algorithm efficiency.
+Skill: Optimize search with early exit when target is found
+Description: **Student task:** Modify your search algorithm to stop immediately when the target is found instead of checking all remaining items. Use "stop this script" or a flag variable. **Visual scenario:** List: [4, 8, 7, 2, 5]. Target: 7. Without early exit: checks all 5 items. With early exit: stops after item 3. Console shows only 3 checks instead of 5. Compare efficiency. _Implementation note: Early exit optimization. Auto-graded by reduced comparison count. CSTA: E7‑ALG‑IM‑04, E7‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G7.03.02: Add print blocks to trace search steps
-* T08.G5.01: Build a program using nested conditionals
+* T02.G7.03.02: Add trace output to visualize search algorithm steps
 
 
 
@@ -2490,14 +2459,12 @@ Dependencies:
 
 ID: T02.G7.04
 Topic: T02 – Algorithm Diagrams
-Skill: Generate pseudocode for a search algorithm
-Description: Students build a search algorithm in blocks, use the "get scripts for all blocks from sprite into list" block to retrieve the pseudocode, and analyze how the pseudocode represents the search logic (loop through items, check condition, return result).
+Skill: Generate and analyze pseudocode for a search algorithm
+Description: **Student task:** Generate pseudocode from your search algorithm. Analyze how the pseudocode represents the search logic (iteration, comparison, early exit). **Visual scenario:** Block script for linear search with early exit. Generated pseudocode: "for each item in list: if item equals target: return position; stop searching; return not found". Students identify: loop structure, conditional check, early exit pattern. _Implementation note: Pseudocode analysis of search algorithms. Auto-graded by structure identification. CSTA: E7‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G7.03.03: Build a search with early exit on match
-* T02.G6.02: Generate and read pseudocode from a simple script
-* T08.G5.01: Build a program using nested conditionals
-* T07.G5.01: Simulate repeated experiments with a loop
+* T02.G7.03.03: Optimize search with early exit when target is found
+* T02.G6.02: Match block structures to their pseudocode representation
 
 
 
@@ -2505,13 +2472,12 @@ Dependencies:
 
 ID: T02.G7.05
 Topic: T02 – Algorithm Diagrams
-Skill: Compare search algorithm efficiency using step counts
-Description: Students compare two different search algorithms (e.g., linear search with different stopping conditions) by counting how many steps/checks each makes for the same input, using "print" blocks to count and display iterations in the console.
+Skill: Compare search algorithm efficiency by counting comparisons
+Description: **Student task:** Compare two search algorithms on the same input. Count comparisons each makes using a counter variable and print blocks. **Visual scenario:** List: [4, 8, 2, 7, 5, 9, 1, 3]. Target: 7. Algorithm A (no early exit): 8 comparisons. Algorithm B (early exit): 4 comparisons. Students add [change comparisons by 1] inside loop and print final count. _Implementation note: Algorithm efficiency comparison. Auto-graded by correct counts. CSTA: E7‑ALG‑IM‑04._
 
 Dependencies:
-* T02.G7.03.02: Add print blocks to trace search steps
-* T02.G5.05: Compare two algorithms by counting blocks
-* T08.G5.01: Build a program using nested conditionals
+* T02.G7.03.03: Optimize search with early exit when target is found
+* T02.G5.05: Compare two algorithms by counting operations
 
 
 
@@ -2519,14 +2485,13 @@ Dependencies:
 
 ID: T02.G7.06
 Topic: T02 – Algorithm Diagrams
-Skill: Trace an algorithm to find edge case bugs
-Description: Students test their algorithms with edge cases (empty list, single element, all same values) using "print" blocks and breakpoints in Debug Mode to identify where the algorithm fails or produces unexpected results.
+Skill: Debug edge case failures using breakpoints and trace output
+Description: **Student task:** Test your search algorithm with edge cases. Use breakpoints and print blocks to identify where/why it fails. **Visual scenario:** Edge cases: (1) empty list [] → should return "not found" without error. (2) single item [7] → should find it. (3) target not in list [1,2,3] target=9 → should return "not found". Students step through with breakpoints to find bugs. _Implementation note: Edge case debugging. Auto-graded by all edge cases handled. CSTA: E7‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G7.02.03: Step through algorithm execution block by block
-* T02.G7.03.02: Add print blocks to trace search steps
-* T08.G5.01: Build a program using nested conditionals
-* T10.G5.03: Work with list data structures
+* T02.G7.02.03: Step through code block-by-block using Debug Mode controls
+* T02.G7.03.02: Add trace output to visualize search algorithm steps
+* T02.G6.08: Test an algorithm with normal, edge, and boundary inputs
 
 
 ---
@@ -2538,15 +2503,11 @@ Dependencies:
 
 ID: T02.G8.01.01
 Topic: T02 – Algorithm Diagrams
-Skill: Write pseudocode for a multi-step calculation
-Description: Students write pseudocode on paper for an algorithm that performs multiple calculations in sequence (e.g., "calculate average of 5 numbers: sum them, then divide by 5"), using clear structure and variable names.
+Skill: Write pseudocode for a multi-step calculation algorithm
+Description: **Student task:** Write pseudocode on paper for an algorithm that performs multiple sequential calculations. Use clear variable names and proper structure. **Visual scenario:** Task: "Calculate the average of a list of numbers." Student writes: "SET sum to 0; FOR each number in list: ADD number to sum; SET average to sum / count; RETURN average". Then implement and verify. _Implementation note: Pseudocode writing for calculations. Auto-graded by pseudocode structure + implementation match. CSTA: E8‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G6.04: Use pseudocode to plan before coding
-* T10.G6.01: Sort a table by a column
-
-
-**[NEW SUB-SKILL - replaces overly broad T02.G8.01, part 1 of 3]**
+* T02.G6.04: Write pseudocode first, then implement as blocks
 
 
 
@@ -2554,14 +2515,11 @@ Dependencies:
 
 ID: T02.G8.01.02
 Topic: T02 – Algorithm Diagrams
-Skill: Write pseudocode for input validation
-Description: Students write pseudocode for an algorithm that checks if user input meets requirements (e.g., "ensure number is between 1 and 100, ask again if not"), using conditionals and loops for validation.
+Skill: Write pseudocode for input validation with error handling
+Description: **Student task:** Write pseudocode for an algorithm that validates user input and handles invalid cases. Use loops for re-prompting and conditionals for validation. **Visual scenario:** Task: "Get a number between 1-100 from user." Student writes: "REPEAT: ASK user for number; IF number < 1 OR number > 100: PRINT 'Invalid, try again'; UNTIL number is valid; RETURN number". _Implementation note: Validation loop pattern. Auto-graded by handling invalid inputs correctly. CSTA: E8‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G8.01.01: Write pseudocode for a multi-step calculation
-* T06.G6.01: Trace event execution paths in a multi‑event program
-
-**[NEW SUB-SKILL - part 2 of 3]**
+* T02.G8.01.01: Write pseudocode for a multi-step calculation algorithm
 
 
 
@@ -2570,10 +2528,10 @@ Dependencies:
 ID: T02.G8.01.03
 Topic: T02 – Algorithm Diagrams
 Skill: Write pseudocode for a data processing algorithm
-Description: Students write pseudocode for an algorithm that processes a collection of data to find a result (e.g., "find median of a list: sort values, find middle position"), using loops, conditionals, and clear logic flow.
+Description: **Student task:** Write pseudocode for an algorithm that processes a collection of data to produce a result. Include loops, conditionals, and helper steps. **Visual scenario:** Task: "Find the median of a list." Student writes: "SORT the list; SET middle to length / 2; IF length is odd: RETURN item at middle; ELSE: RETURN average of items at middle and middle+1". _Implementation note: Complex data processing pseudocode. Auto-graded by algorithm correctness. CSTA: E8‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G8.01.01: Write pseudocode for a multi-step calculation
+* T02.G8.01.01: Write pseudocode for a multi-step calculation algorithm
 * T10.G6.01: Sort a table by a column
 
 
@@ -2582,12 +2540,12 @@ Dependencies:
 
 ID: T02.G8.02
 Topic: T02 – Algorithm Diagrams
-Skill: Implement and verify pseudocode with block code
-Description: Students take pseudocode (their own or provided), implement it as a CreatiCode block script, then generate the pseudocode from their blocks to verify their implementation matches the original plan.
+Skill: Implement pseudocode as blocks and verify with generated pseudocode
+Description: **Student task:** Take written pseudocode and implement it as a CreatiCode block script. Generate pseudocode from your blocks and compare to verify your implementation matches the plan. **Visual scenario:** Given pseudocode for average calculation. Students build blocks. Generate pseudocode. Compare: original says "divide by count", generated says "divide by length of list" — equivalent! Implementation verified. _Implementation note: Pseudocode → code → verification cycle. Auto-graded by behavior match. CSTA: E8‑ALG‑AF‑01, E8‑PRO‑PF‑01._
 
 Dependencies:
-* T02.G8.01.01: Write pseudocode for a multi-step calculation
-* T02.G6.01: Use the pseudocode generation block
+* T02.G8.01.01: Write pseudocode for a multi-step calculation algorithm
+* T02.G6.01: Use the pseudocode generation block to export algorithm text
 
 
 
@@ -2595,13 +2553,12 @@ Dependencies:
 
 ID: T02.G8.03
 Topic: T02 – Algorithm Diagrams
-Skill: Trace complex algorithms with multiple test cases
-Description: Students systematically trace their algorithms using multiple test cases (normal, edge, boundary), recording inputs and outputs using "print" blocks and manual trace tables to verify correctness across different scenarios.
+Skill: Systematically trace algorithms with comprehensive test cases
+Description: **Student task:** Create a test plan with normal, edge, and boundary cases. Trace your algorithm for each case using trace tables and print output. Document results. **Visual scenario:** Testing median algorithm: Normal: [1,2,3,4,5]→3✓. Edge: [5]→5✓. Edge: []→handle error✓. Boundary: [1,1,1,1,1]→1✓. Even length: [1,2,3,4]→2.5✓. Complete test matrix documented. _Implementation note: Systematic testing methodology. Auto-graded by test coverage + correctness. CSTA: E8‑ALG‑AF‑01, E8‑PRO‑TR‑03._
 
 Dependencies:
-* T02.G8.02: Implement and verify pseudocode with block code
-* T02.G7.06: Trace an algorithm to find edge case bugs
-* T09.G6.01: Model real-world quantities using variables and formulas
+* T02.G8.02: Implement pseudocode as blocks and verify with generated pseudocode
+* T02.G7.06: Debug edge case failures using breakpoints and trace output
 
 
 
@@ -2609,12 +2566,12 @@ Dependencies:
 
 ID: T02.G8.04
 Topic: T02 – Algorithm Diagrams
-Skill: Identify and remove redundant algorithm steps
-Description: Students analyze their block scripts and generated pseudocode to find redundant steps (duplicate checks, unnecessary variables, repeated operations), remove them, and verify the simplified algorithm still works correctly. This extends earlier algorithm improvement skills to more complex, multi-step algorithms.
+Skill: Refactor algorithms by identifying and removing redundancy
+Description: **Student task:** Analyze a complex algorithm to find redundant operations. Remove them and verify the simplified version still works. **Visual scenario:** Original: calculates sum twice, stores intermediate values never used. Pseudocode shows: "sum = 0; for each x: sum += x; total = sum; average = total / count". Redundant: "total" variable. Simplified: "sum = 0; for each x: sum += x; average = sum / count". Test to verify same behavior. _Implementation note: Algorithm refactoring. Auto-graded by behavior preservation + reduced complexity. CSTA: E8‑ALG‑IM‑04._
 
 Dependencies:
-* T02.G8.03: Trace complex algorithms with multiple test cases
-* T07.G6.01: Trace nested loops with variable bounds
+* T02.G8.03: Systematically trace algorithms with comprehensive test cases
+* T02.G5.06: Optimize an algorithm by removing redundant blocks
 
 
 
@@ -2623,25 +2580,34 @@ Dependencies:
 
 ID: T02.G8.05
 Topic: T02 – Algorithm Diagrams
-Skill: Compare deterministic and probabilistic algorithms
-Description: Students build and trace two versions of an algorithm—one that always gives the same result (deterministic) and one that includes randomness using CreatiCode's "pick random" block (probabilistic)—using "print" blocks to compare outputs across multiple runs and discuss when each approach is appropriate.
+Skill: Compare deterministic vs probabilistic algorithm outputs
+Description: **Student task:** Build two versions of an algorithm—one deterministic (same input → same output) and one probabilistic (uses randomness). Run each multiple times and compare outputs. **Visual scenario:** Task: "Select an item from a list." Deterministic: always return first item. Probabilistic: return random item using [pick random]. Run 5 times each. Deterministic: A,A,A,A,A. Probabilistic: C,A,D,B,A. Discuss when each is appropriate. _Implementation note: Algorithm behavior comparison. Auto-graded by correct identification of patterns. CSTA: E8‑ALG‑AF‑01._
 
 Dependencies:
-* T02.G7.01.02: Trace a physics simulation (position/velocity)
-* T02.G8.03: Trace complex algorithms with multiple test cases
-* T08.G6.01a: Use conditionals in physics simulations
-
-Note: This is an advanced concept. Provide examples of when randomness is useful (games, simulations) vs. when consistency is required (calculations, sorting).
+* T02.G8.03: Systematically trace algorithms with comprehensive test cases
+* T02.G7.01.02: Trace a physics simulation with position and velocity
 
 
 
 
 
+
+# T03 - Problem Decomposition (Phase 3 Optimized - November 2025)
+# Applied Phase 3 topic-focused optimizations:
+# - Consolidated overly granular sub-skills (G4.01.01-03 → G4.01-03, G7.01.01-03 → G7.01-03, G8.01.01-04 → G8.01-04)
+# - Added explicit PICTURE-BASED designations for all K-2 skills
+# - Strengthened vague verbs: "Explain" → "Trace and explain", "Describe" → "Identify and describe"
+# - Added CreatiCode-specific decomposition skills: AI pipelines, 3D scenes, physics, widgets, multiplayer
+# - Added hands-on coding decomposition skills at G3-G5 level
+# - Improved G8 skills with practical application focus
+# - Fixed skill progression to ensure smooth K-8 trajectory
+# - Removed redundant skills (T03.G4.03 merged with T03.G4.01.02)
+# Total: 62 skills (reduced from 68, but more focused and actionable)
 
 ID: T03.GK.01
 Topic: T03 – Problem Decomposition
 Skill: Tap picture cards to identify parts of a whole object
-Description: Students look at picture cards showing familiar objects or scenes (e.g., playground, classroom, robot) and tap on picture cards of individual parts (slide, swings, door, wheels). Visual scenario activity using picture cards with audio support.
+Description: **Student task:** Tap on picture cards showing individual parts that belong to a whole object. **Visual scenario:** See a picture card of a playground. Tap on picture cards of parts: slide, swings, sandbox, bench. Distractors include unrelated items like a book or cup. PICTURE-BASED visual recognition activity with audio support for pre-readers.
 
 
 
@@ -2651,7 +2617,7 @@ Description: Students look at picture cards showing familiar objects or scenes (
 ID: T03.GK.02
 Topic: T03 – Problem Decomposition
 Skill: Drag picture cards of parts to match their whole objects
-Description: Students drag picture cards showing close-up parts (e.g., wheel, keyboard, door handle) to picture cards of the whole object they belong to (car, computer, refrigerator). Visual drag-and-drop matching activity using picture cards.
+Description: **Student task:** Drag picture cards of close-up parts to the whole objects they belong to. **Visual scenario:** Drag "wheel" to "car," drag "keyboard" to "computer," drag "door handle" to "refrigerator." 4-5 matching pairs with clear visual cues. PICTURE-BASED drag-and-drop matching activity.
 
 Dependencies:
 * T03.GK.01: Tap picture cards to identify parts of a whole object
@@ -2665,7 +2631,7 @@ Dependencies:
 ID: T03.GK.03
 Topic: T03 – Problem Decomposition
 Skill: Arrange 3–4 picture cards to plan steps in a routine
-Description: Students drag and arrange 3–4 picture cards to show steps in a classroom or home routine (e.g., wash hands, pack backpack) as a plan for getting the task done. Visual sequencing activity using picture cards with audio support.
+Description: **Student task:** Drag and arrange 3–4 picture cards to show the steps of a routine as a plan. **Visual scenario:** "Plan how to wash hands": arrange cards for "turn on water" → "add soap" → "scrub hands" → "dry hands." Audio narration guides students through the planning activity. PICTURE-BASED sequencing activity.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -2678,8 +2644,8 @@ Dependencies:
 
 ID: T03.GK.04
 Topic: T03 – Problem Decomposition
-Skill: Select the missing middle picture card in a routine plan
-Description: Students see picture cards showing the first and last steps of a 3-step routine and tap to select the picture card that fits in the middle so the plan makes sense (e.g., first: get soap, middle: ?, last: dry hands). Visual selection activity using picture cards.
+Skill: Select the missing middle step in a routine plan
+Description: **Student task:** Given the first and last steps, tap to select the picture card that fits in the middle. **Visual scenario:** First card: "get soap." Last card: "dry hands." Middle card is missing. Choose from: "scrub hands" (correct), "eat lunch" (wrong), "read book" (wrong). PICTURE-BASED logical completion activity.
 
 Dependencies:
 * T03.GK.03: Arrange 3–4 picture cards to plan steps in a routine
@@ -2691,8 +2657,8 @@ Dependencies:
 
 ID: T03.GK.05
 Topic: T03 – Problem Decomposition
-Skill: Match each step's picture card to its result picture card
-Description: Students look at picture cards showing each step in a familiar routine and tap to select from multiple-choice picture cards what that step accomplishes (e.g., match "scrub hands" step to "clean hands" result, match "put on shoes" step to "feet ready" result). Visual cause-and-effect matching using picture cards.
+Skill: Match each step to what it accomplishes
+Description: **Student task:** Match picture cards of steps to picture cards of their results. **Visual scenario:** Drag "scrub hands" to "clean hands," drag "put on shoes" to "feet ready," drag "brush teeth" to "clean teeth." Helps students understand why each step matters in a plan. PICTURE-BASED cause-and-effect matching activity.
 
 Dependencies:
 * T03.GK.03: Arrange 3–4 picture cards to plan steps in a routine
@@ -2704,8 +2670,8 @@ Dependencies:
 
 ID: T03.G1.01
 Topic: T03 – Problem Decomposition
-Skill: Match part picture cards to function word cards
-Description: Students tap on a part in a picture card (e.g., wheels, door, button) and select from multiple-choice word cards what that part does (e.g., match wheels to "helps it roll," match door to "lets people in"). Visual matching activity using picture and word cards.
+Skill: Match parts to their functions using picture and word cards
+Description: **Student task:** Tap on a part picture card, then select the word card describing what it does. **Visual scenario:** Match "wheels" to "helps it roll," match "door" to "lets people in," match "button" to "turns it on." 4-5 matching pairs with audio support. PICTURE-BASED matching activity with simple word cards.
 
 Dependencies:
 * T03.GK.01: Tap picture cards to identify parts of a whole object
@@ -2716,11 +2682,11 @@ Dependencies:
 
 ID: T03.G1.02
 Topic: T03 – Problem Decomposition
-Skill: Drag part cards into function-based groups
-Description: Students drag picture cards of parts into labeled groups such as "things that help it move," "things that help it see or hear," or "things that make it look nice" for a simple object (e.g., robot or toy car). Visual sorting activity using picture cards with labeled category boxes.
+Skill: Sort parts into function-based groups
+Description: **Student task:** Drag picture cards of parts into labeled category boxes based on function. **Visual scenario:** Sort robot parts: drag "wheels" to "things that help it move," drag "camera" to "things that help it see," drag "paint" to "things that make it look nice." 6-8 parts across 3 categories. PICTURE-BASED sorting activity.
 
 Dependencies:
-* T03.G1.01: Match part picture cards to function word cards
+* T03.G1.01: Match parts to their functions using picture and word cards
 
 
 
@@ -2728,8 +2694,8 @@ Dependencies:
 
 ID: T03.G1.03
 Topic: T03 – Problem Decomposition
-Skill: Arrange 4–5 step cards to plan a classroom routine
-Description: Students drag and arrange 4–5 picture or word cards to build a step-by-step plan for a familiar routine (e.g., "line up for recess": put away work → push in chair → stand up → walk to door → wait quietly). Visual sequencing activity using picture/word cards.
+Skill: Arrange 4–5 step cards to plan a longer routine
+Description: **Student task:** Drag and arrange 4–5 picture/word cards to build a step-by-step plan. **Visual scenario:** "Plan how to line up for recess": arrange "put away work" → "push in chair" → "stand up" → "walk to door" → "wait quietly." Mix of picture cards (for pre-readers) and simple word cards. PICTURE-BASED sequencing activity.
 
 Dependencies:
 * T03.GK.03: Arrange 3–4 picture cards to plan steps in a routine
@@ -2740,11 +2706,11 @@ Dependencies:
 
 ID: T03.G1.04
 Topic: T03 – Problem Decomposition
-Skill: Drag step cards to match characters in a story plan
-Description: Students see a tiny story or game idea shown in picture cards (e.g., "A cat says hello, then dances") and drag word cards to match which step goes with each character or scene (e.g., drag "cat walks to tree" card to the cat picture, drag "music plays" card to the background picture). Visual matching activity introducing project planning.
+Skill: Match steps to characters in a simple story plan
+Description: **Student task:** See a story idea and drag word cards to match steps with characters. **Visual scenario:** Story: "A cat says hello, then dances." Drag "says hello" to the cat picture, drag "music plays" to the background. Introduces idea that different parts of a project have different jobs. PICTURE-BASED matching activity for early project planning.
 
 Dependencies:
-* T03.G1.03: Arrange 4–5 step cards to plan a classroom routine
+* T03.G1.03: Arrange 4–5 step cards to plan a longer routine
 
 
 
@@ -2752,11 +2718,11 @@ Dependencies:
 
 ID: T03.G2.01
 Topic: T03 – Problem Decomposition
-Skill: Select word cards showing subtasks needed for a project
-Description: Students read or hear a small project idea (e.g., "Make a greeting card project") and tap to select which word cards show needed subtasks (e.g., "draw background," "add message," "add sound") from a set that includes distractors. Visual selection activity using word cards.
+Skill: Select subtasks needed for a small project
+Description: **Student task:** Read/hear a project idea and tap to select word cards showing needed subtasks. **Visual scenario:** Project: "Make a greeting card." Select from: "draw background" ✓, "add message" ✓, "add sound" ✓, "make it fly" ✗, "cook dinner" ✗. 5-6 options with 3-4 correct answers. PICTURE-BASED selection activity with word cards and audio support.
 
 Dependencies:
-* T03.G1.03: Arrange 4–5 step cards to plan a classroom routine
+* T03.G1.03: Arrange 4–5 step cards to plan a longer routine
 
 
 
@@ -2764,11 +2730,11 @@ Dependencies:
 
 ID: T03.G2.02
 Topic: T03 – Problem Decomposition
-Skill: Drag subtask cards into type-based category boxes
-Description: Students drag word cards showing subtasks into labeled category boxes like "drawing and colors," "writing and words," or "music and sounds" for a small project. Visual sorting activity organizing subtasks by work type.
+Skill: Sort subtasks into category boxes by work type
+Description: **Student task:** Drag subtask word cards into labeled category boxes. **Visual scenario:** Sort subtasks for a game project: drag "draw character" to "Art," drag "write story" to "Writing," drag "add music" to "Sound." 6-8 subtasks across 3 categories. PICTURE-BASED sorting activity organizing work by type.
 
 Dependencies:
-* T03.G2.01: Select word cards showing subtasks needed for a project
+* T03.G2.01: Select subtasks needed for a small project
 
 
 
@@ -2776,11 +2742,11 @@ Dependencies:
 
 ID: T03.G2.03
 Topic: T03 – Problem Decomposition
-Skill: Arrange subtask word cards in logical sequence
-Description: Students drag 4–5 subtask word cards and arrange them into a logical sequence (e.g., plan → create → try it out), placing cards that must happen first at the beginning. Visual sequencing activity using word cards.
+Skill: Arrange subtasks in logical sequence
+Description: **Student task:** Drag 4–5 subtask word cards and arrange them in the order they should be done. **Visual scenario:** Arrange: "plan the game" → "draw the pictures" → "make it work" → "try it out" → "fix problems." Introduces concept that order matters when building something. PICTURE-BASED sequencing activity with word cards.
 
 Dependencies:
-* T03.G2.02: Drag subtask cards into type-based category boxes
+* T03.G2.02: Sort subtasks into category boxes by work type
 
 
 
@@ -2788,11 +2754,11 @@ Dependencies:
 
 ID: T03.G2.04
 Topic: T03 – Problem Decomposition
-Skill: Tap checkmarks on completed subtask cards
-Description: Students see a visual checklist with word cards showing subtasks for a mini-project and tap to add checkmarks to subtasks that are complete based on a description of work done (e.g., "We already drew the characters and added sounds"). Visual checklist activity using word cards.
+Skill: Track progress by marking completed subtasks
+Description: **Student task:** Read what's been done and tap checkmarks on completed subtasks. **Visual scenario:** "We already drew the characters and added sounds." Checklist shows: "draw characters" ✓, "add sounds" ✓, "write story" □, "test game" □. Introduces progress tracking. PICTURE-BASED checklist activity.
 
 Dependencies:
-* T03.G2.03: Arrange subtask word cards in logical sequence
+* T03.G2.03: Arrange subtasks in logical sequence
 
 
 
@@ -2800,11 +2766,11 @@ Dependencies:
 
 ID: T03.G2.05
 Topic: T03 – Problem Decomposition
-Skill: Select word cards matching features shown in a project video
-Description: Students watch a short video of a simple game or animated story (e.g., a character that moves and makes sounds) and tap to select word cards describing what it can do (e.g., "the cat can walk," "it plays music," "you can click to make it jump"). Visual observation and selection activity.
+Skill: Identify features by watching a project demo
+Description: **Student task:** Watch a short project video and select word cards describing its features. **Visual scenario:** Watch: cat walks, clicks make it jump, music plays. Select from: "the cat can walk" ✓, "you can click to make it jump" ✓, "it plays music" ✓, "it flies" ✗. Introduces observing and naming project features. PICTURE-BASED observation activity.
 
 Dependencies:
-* T03.G2.02: Drag subtask cards into type-based category boxes
+* T03.G2.02: Sort subtasks into category boxes by work type
 
 
 
@@ -2812,11 +2778,11 @@ Dependencies:
 
 ID: T03.G2.06
 Topic: T03 – Problem Decomposition
-Skill: Drag word cards into "whole project" vs "single feature" columns
-Description: Students drag word cards into two columns: one for complete project goals (e.g., "make a jumping game") and one for individual features (e.g., "sprite jumps when clicked," "score increases," "game over when falling"). Visual sorting activity showing that projects contain multiple features.
+Skill: Distinguish whole projects from single features
+Description: **Student task:** Drag word cards into "Whole Project" vs "Single Feature" columns. **Visual scenario:** "Whole Project" column: "make a jumping game." "Single Feature" column: "sprite jumps when clicked," "score increases," "game over when falling." Shows that projects are made of many features. PICTURE-BASED sorting activity.
 
 Dependencies:
-* T03.G2.05: Select word cards matching features shown in a project video
+* T03.G2.05: Identify features by watching a project demo
 * T02.G2.05: Create a 3-step flowchart
 
 
@@ -2825,11 +2791,11 @@ Dependencies:
 
 ID: T03.G2.07
 Topic: T03 – Problem Decomposition
-Skill: Drag subtask cards into groups that create one feature
-Description: Students drag subtask word cards into groups based on which ones work together to create a single feature (e.g., group "draw player sprite," "add player controls," "make player move" together as the "player movement" feature). Visual grouping activity connecting subtasks to features.
+Skill: Group subtasks that work together for one feature
+Description: **Student task:** Drag subtask cards into groups that create a single feature. **Visual scenario:** "Player Movement" group: "draw player sprite," "add arrow key controls," "make player move." "Scoring" group: "create score variable," "add points when hit." Shows how subtasks combine into features. PICTURE-BASED grouping activity.
 
 Dependencies:
-* T03.G2.06: Drag word cards into "whole project" vs "single feature" columns
+* T03.G2.06: Distinguish whole projects from single features
 
 
 
@@ -2837,11 +2803,11 @@ Dependencies:
 
 ID: T03.G3.01
 Topic: T03 – Problem Decomposition
-Skill: List distinct features from a game description
-Description: Students read a short game description and list each distinct feature needed (e.g., player controls, scoring system, win/lose screen), writing or selecting 3-5 features that the game requires to work.
+Skill: List distinct features needed for a game
+Description: **Student task:** Read a game description and list 3-5 distinct features the game needs. **Coding scenario:** Game: "Catch falling apples to score points." List features: "player moves left/right," "apples fall from top," "score increases when caught," "game ends after time." Auto-graded by matching required features. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G2.07: Drag subtask cards into groups that create one feature
+* T03.G2.07: Group subtasks that work together for one feature
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
@@ -2851,10 +2817,10 @@ Dependencies:
 ID: T03.G3.02
 Topic: T03 – Problem Decomposition
 Skill: Categorize features as "must-have" or "nice-to-have"
-Description: Students sort feature cards into two categories: essential features (required for the game to function) vs extra features (enhancements that aren't required), explaining why each feature belongs in its category.
+Description: **Student task:** Sort features into "Must-Have" (game won't work without) vs "Nice-to-Have" (extras). **Coding scenario:** Apple catching game. Must-Have: "player moves," "apples fall," "score tracking." Nice-to-Have: "sound effects," "high score," "different apple colors." Auto-graded by correct categorization. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G3.01: List distinct features from a game description
+* T03.G3.01: List distinct features needed for a game
 * T07.G3.01: Use a counted repeat loop
 
 
@@ -2863,8 +2829,8 @@ Dependencies:
 
 ID: T03.G3.03
 Topic: T03 – Problem Decomposition
-Skill: Sketch a 3–4 panel storyboard for a coding project
-Description: Students sketch or arrange 3–4 panels showing key moments of their coding project (beginning, middle, end, or key interactions), creating a visual plan before coding an animation or game level.
+Skill: Create a storyboard for a coding project
+Description: **Student task:** Arrange 3-4 panels showing key moments of a project. **Coding scenario:** Create storyboard for a space game: Panel 1 (Start): rocket at bottom. Panel 2 (Play): rocket moves, asteroids fall. Panel 3 (End): explosion or "You Win!" Use CreatiCode diagram editor. Auto-graded by panel completeness. _CSTA: 1B-AP-11._
 
 Dependencies:
 * T03.G3.02: Categorize features as "must-have" or "nice-to-have"
@@ -2875,23 +2841,11 @@ Dependencies:
 
 ID: T03.G3.04
 Topic: T03 – Problem Decomposition
-Skill: Label storyboard panels with project scene names
-Description: Students label each storyboard panel with the corresponding project scene or screen name (e.g., "start screen," "main game," "end screen"), connecting visual planning to project structure.
+Skill: Label storyboard panels with scene names
+Description: **Student task:** Label each storyboard panel with a scene name matching project structure. **Coding scenario:** Space game storyboard: Label Panel 1 as "Title Screen," Panel 2 as "Gameplay," Panel 3 as "Game Over Screen." Connects visual plan to how code will be organized. Auto-graded by matching labels. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G3.03: Sketch a 3–4 panel storyboard for a coding project
-
-
-
-
-
-ID: T03.G3.04.01
-Topic: T03 – Problem Decomposition
-Skill: List main components in a simple coding project
-Description: Students examine a simple coding project (e.g., a basic maze game) and list its main components (e.g., "player character," "walls," "goal," "win message"), naming 3-5 distinct parts and describing what each one does.
-
-Dependencies:
-* T03.G3.04: Label storyboard panels with project scene names
+* T03.G3.03: Create a storyboard for a coding project
 
 
 
@@ -2899,11 +2853,11 @@ Dependencies:
 
 ID: T03.G3.05
 Topic: T03 – Problem Decomposition
-Skill: Compare project plans and select the best sequence
-Description: Students compare 2–3 alternative project plans and select the most logical sequence (e.g., "design → build → test" vs "test → build → design"), explaining why the chosen order makes sense for completing the project.
+Skill: List main components of a coding project
+Description: **Student task:** Open a simple project and list its main components with their purposes. **Coding scenario:** Open a maze game project. List: "Player sprite: moves with arrow keys," "Wall sprites: block movement," "Goal sprite: triggers win message," "Score variable: tracks attempts." 3-5 components required. Auto-graded by component identification. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G3.04.01: List main components in a simple coding project
+* T03.G3.04: Label storyboard panels with scene names
 
 
 
@@ -2911,12 +2865,11 @@ Dependencies:
 
 ID: T03.G3.06
 Topic: T03 – Problem Decomposition
-Skill: Describe how two project components interact
-Description: Students examine a simple project and describe how two components work together to produce a result (e.g., "the player sprite and goal sprite interact to show the win message when they touch," "the score variable and score display interact to show points on screen").
+Skill: Compare project plans and select the best sequence
+Description: **Student task:** Compare 2-3 project plans and select the one with the best logical sequence. **Coding scenario:** Plan A: "test → build → design." Plan B: "design → build → test." Plan C: "build → design → test." Select Plan B and explain why design must come before building. Auto-graded by selection. _CSTA: 1B-AP-12._
 
 Dependencies:
-* T03.G3.04.01: List main components in a simple coding project
-* T09.G3.02: Use a variable in a conditional (if block)
+* T03.G3.05: List main components of a coding project
 
 
 
@@ -2924,8 +2877,21 @@ Dependencies:
 
 ID: T03.G3.07
 Topic: T03 – Problem Decomposition
-Skill: List different job types needed to create a project
-Description: Students examine a completed project and list the different types of work that went into it (e.g., "art: drew the pictures," "writing: wrote the story," "coding: made it work"), introducing the concept of roles in project creation.
+Skill: Trace how two components interact in a project
+Description: **Student task:** Examine a project and trace how two components work together. **Coding scenario:** In maze game: "When player sprite touches goal sprite, the score variable increases and say block shows 'You Win!'" Trace the interaction: player position → collision detection → variable update → display. Auto-graded by identifying both components and their interaction. _CSTA: 1B-AP-10._
+
+Dependencies:
+* T03.G3.05: List main components of a coding project
+* T09.G3.02: Use a variable in a conditional (if block)
+
+
+
+
+
+ID: T03.G3.08
+Topic: T03 – Problem Decomposition
+Skill: Identify different work types needed for a project
+Description: **Student task:** Examine a completed project and list the different types of work involved. **Coding scenario:** Story animation project. List work types: "Art: drew backgrounds and characters," "Writing: wrote the story dialogue," "Sound: recorded voice and music," "Coding: made animations work." Introduces roles in project creation. Auto-graded by category coverage. _CSTA: 1B-IC-20._
 
 Dependencies:
 * T03.G3.02: Categorize features as "must-have" or "nice-to-have"
@@ -2934,13 +2900,13 @@ Dependencies:
 
 
 
-ID: T03.G3.08
+ID: T03.G3.09
 Topic: T03 – Problem Decomposition
-Skill: Identify when multiple sprites need similar actions
-Description: Students examine a project with multiple sprites and identify which sprites need similar actions (e.g., "all enemies need to move toward the player," "all coins need collision checks"), grouping shared behaviors to introduce reusable functionality concepts.
+Skill: Identify sprites that need similar code
+Description: **Student task:** Find sprites in a project that need similar actions and could share code. **Coding scenario:** Space invader game: "Enemy1, Enemy2, Enemy3 all need: move down slowly, check if touching player, disappear when hit." Group these sprites as "Enemies" that share behavior. Introduces reusable code concept. Auto-graded by correct grouping. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G3.04.01: List main components in a simple coding project
+* T03.G3.05: List main components of a coding project
 * T01.G3.06: Execute a simple sequence (green flag with 3+ blocks)
 
 
@@ -2949,11 +2915,11 @@ Dependencies:
 
 ID: T03.G4.01
 Topic: T03 – Problem Decomposition
-Skill: List subtasks needed for a multi-feature project
-Description: Students read a project description (e.g., "quiz game with levels") and list 4-6 subtasks needed to build it (e.g., "show questions," "track score," "move between levels," "display results"), breaking down project goals into actionable work items.
+Skill: Break down a multi-feature project into subtasks
+Description: **Student task:** Read a project description and list 4-6 subtasks needed to build it. **Coding scenario:** Project: "Quiz game with levels." Subtasks: "create question list," "show one question at a time," "check answer and update score," "track which level player is on," "show results at end." Auto-graded by subtask coverage. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G3.06: Describe how two project components interact
+* T03.G3.07: Trace how two components interact in a project
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T08.G3.01: Use a simple if in a script
 
@@ -2961,63 +2927,13 @@ Dependencies:
 
 
 
-ID: T03.G4.01.01
-Topic: T03 – Problem Decomposition
-Skill: Arrange subtasks in logical build order
-Description: Students arrange subtasks in the order they should be built, placing prerequisite tasks first (e.g., "create question bank before showing questions," "set up score tracker before updating it"), creating an ordered task list.
-
-Dependencies:
-* T03.G4.01: List subtasks needed for a multi-feature project
-
-
-
-
-
-ID: T03.G4.01.02
-Topic: T03 – Problem Decomposition
-Skill: Assign subtasks to team members by role
-Description: Students match subtasks to team members based on roles or skills (e.g., "Alice creates questions," "Bob codes the score system," "Claire designs the UI"), or categorize tasks by type for solo projects.
-
-Dependencies:
-* T03.G4.01.01: Arrange subtasks in logical build order
-* T03.G3.07: List different job types needed to create a project
-
-
-
-
-
-ID: T03.G4.01.03
-Topic: T03 – Problem Decomposition
-Skill: Update a progress tracker for project subtasks
-Description: Students use a checklist or table to mark subtasks as "not started," "in progress," or "done," monitoring overall project progress and identifying blocking tasks.
-
-Dependencies:
-* T03.G4.01.02: Assign subtasks to team members by role
-
-
-
-
-
 ID: T03.G4.02
 Topic: T03 – Problem Decomposition
-Skill: Explain how modules organize project components
-Description: Students examine projects organized into modules (e.g., "player module includes sprite, movement scripts, controls") and explain in their own words how grouping related components makes projects easier to build, understand, and maintain.
+Skill: Arrange subtasks in logical build order
+Description: **Student task:** Arrange subtasks in the order they should be built, with prerequisites first. **Coding scenario:** Quiz game subtasks: 1. "create question list" (first - data needed), 2. "set up score variable" (before using it), 3. "show questions" (needs list), 4. "check answers" (needs score), 5. "show results" (last). Auto-graded by correct ordering. _CSTA: 1B-AP-12._
 
 Dependencies:
-* T03.G4.01.03: Update a progress tracker for project subtasks
-* T03.G3.08: Identify when multiple sprites need similar actions
-
-
-
-
-
-ID: T03.G4.02.01
-Topic: T03 – Problem Decomposition
-Skill: Sort project components into logical modules
-Description: Students sort components into higher-level modules (e.g., "game logic," "user interface," "data"), grouping by shared data, similar purpose, or frequent communication patterns.
-
-Dependencies:
-* T03.G4.02: Explain how modules organize project components
+* T03.G4.01: Break down a multi-feature project into subtasks
 
 
 
@@ -3025,12 +2941,12 @@ Dependencies:
 
 ID: T03.G4.03
 Topic: T03 – Problem Decomposition
-Skill: Match project tasks to team roles
-Description: Students match tasks (e.g., "create visuals," "design game logic," "test features") to team roles (e.g., artist, designer, tester), explaining why each role is suited for specific tasks.
+Skill: Assign subtasks to team roles
+Description: **Student task:** Match subtasks to team members based on roles/skills. **Coding scenario:** Quiz game team: "Alice (artist): design question cards," "Bob (coder): write score logic," "Claire (writer): create questions," "Dan (tester): try the game." For solo projects, categorize tasks by type. Auto-graded by role-task matching. _CSTA: 1B-IC-20._
 
 Dependencies:
-* T03.G4.01.02: Assign subtasks to team members by role
-* T12.G3.01: Test and trace simple block-based scripts
+* T03.G4.02: Arrange subtasks in logical build order
+* T03.G3.08: Identify different work types needed for a project
 
 
 
@@ -3038,25 +2954,11 @@ Dependencies:
 
 ID: T03.G4.04
 Topic: T03 – Problem Decomposition
-Skill: Build a task table with owners and sequence
-Description: Students build a table listing each task (e.g., "draw player sprite," "code movement," "create level 1 layout"), assign an owner to each task, and mark sequence priority ("do first," "do next," "do last") to show logical work order.
+Skill: Track progress using a task checklist
+Description: **Student task:** Use a checklist to mark subtasks as "not started," "in progress," or "done." **Coding scenario:** Quiz game tracker: "create questions ✓ done," "score logic ◐ in progress," "show results □ not started." Identify blocking task: "can't test until score logic is done." Auto-graded by correct status assignment. _CSTA: 1B-AP-15._
 
 Dependencies:
-* T03.G4.03: Match project tasks to team roles
-* T03.G4.01.01: Arrange subtasks in logical build order
-* T05.G3.01: Put human‑centered design steps in order
-
-
-
-
-
-ID: T03.G4.04.01
-Topic: T03 – Problem Decomposition
-Skill: Identify which task must complete before another can start
-Description: Students examine pairs of tasks and identify which one must be completed first (e.g., "design characters" before "animate characters," "create variables" before "use variables in score"), explaining the dependency relationship.
-
-Dependencies:
-* T03.G4.04: Build a task table with owners and sequence
+* T03.G4.03: Assign subtasks to team roles
 
 
 
@@ -3064,12 +2966,12 @@ Dependencies:
 
 ID: T03.G4.05
 Topic: T03 – Problem Decomposition
-Skill: Find missing or unnecessary tasks in a project plan
-Description: Students review a project plan and identify one missing critical task (e.g., "test the game" is missing) or one unnecessary task (e.g., duplicated step), explaining how it affects plan completeness or efficiency.
+Skill: Trace how modules organize project components
+Description: **Student task:** Examine a project organized into modules and trace how grouping helps. **Coding scenario:** Platformer game modules: "Player Module: player sprite + movement scripts + jump code," "Enemy Module: enemy sprites + patrol code + collision." Trace why grouping helps: "easier to find player code, can copy Enemy Module for new enemies." Auto-graded by identifying module benefits. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G4.04.01: Identify which task must complete before another can start
-* T12.G3.01: Test and trace simple block-based scripts
+* T03.G4.04: Track progress using a task checklist
+* T03.G3.09: Identify sprites that need similar code
 
 
 
@@ -3077,11 +2979,49 @@ Dependencies:
 
 ID: T03.G4.06
 Topic: T03 – Problem Decomposition
-Skill: Find repeated code patterns across sprites
-Description: Students examine code across multiple sprites and find patterns that appear multiple times (e.g., "this move-left code appears in 3 sprites," "collision check code repeats in 4 places"), listing opportunities for code reuse.
+Skill: Sort components into logical modules
+Description: **Student task:** Sort project components into logical modules by shared purpose or data. **Coding scenario:** Racing game components: Sort "car sprite," "speed variable," "acceleration code" into "Car Module." Sort "timer display," "lap counter," "finish line check" into "Race Logic Module." Sort "background," "track sprites" into "Graphics Module." Auto-graded by correct groupings. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G3.08: Identify when multiple sprites need similar actions
+* T03.G4.05: Trace how modules organize project components
+
+
+
+
+
+ID: T03.G4.07
+Topic: T03 – Problem Decomposition
+Skill: Identify which task must complete before another
+Description: **Student task:** Examine pairs of tasks and identify which must complete first. **Coding scenario:** Quiz game: "create questions" must finish before "display questions." "Set up score variable" must finish before "update score on correct answer." Draw arrows showing dependencies. Auto-graded by correct dependency identification. _CSTA: 1B-AP-12._
+
+Dependencies:
+* T03.G4.02: Arrange subtasks in logical build order
+* T12.G3.01: Test and trace simple block-based scripts
+
+
+
+
+
+ID: T03.G4.08
+Topic: T03 – Problem Decomposition
+Skill: Find missing or unnecessary tasks in a project plan
+Description: **Student task:** Review a project plan and find missing critical tasks or unnecessary duplicates. **Coding scenario:** Quiz game plan missing "test the game" — identify it's needed. Plan has "draw background" twice — identify duplicate. Plan has "cook dinner" — identify it's unrelated. Auto-graded by correct identification. _CSTA: 1B-AP-15._
+
+Dependencies:
+* T03.G4.07: Identify which task must complete before another
+* T12.G3.01: Test and trace simple block-based scripts
+
+
+
+
+
+ID: T03.G4.09
+Topic: T03 – Problem Decomposition
+Skill: Find repeated code patterns across sprites
+Description: **Student task:** Examine code across multiple sprites and find patterns that repeat. **Coding scenario:** Platform game: "Enemy1, Enemy2, Enemy3 all have same patrol code: forever [move 50 steps, wait 1 sec, turn 180 degrees]." Identify this pattern repeats 3 times. List opportunities for creating a custom block. Auto-graded by pattern identification. _CSTA: 1B-AP-13._
+
+Dependencies:
+* T03.G3.09: Identify sprites that need similar code
 * T04.G3.04.01: Identify repeated code segments that could be simplified with templates
 * T07.G3.01: Use a counted repeat loop
 
@@ -3089,13 +3029,13 @@ Dependencies:
 
 
 
-ID: T03.G4.06.01
+ID: T03.G4.10
 Topic: T03 – Problem Decomposition
-Skill: Design custom block names and inputs from repeated patterns
-Description: Students identify repeated code patterns and design custom blocks for them, specifying block name and required inputs (e.g., "a 'moveToward' block that takes a target sprite as input," "a 'bounce' block with speed parameter").
+Skill: Design custom block names and inputs for repeated patterns
+Description: **Student task:** Design custom blocks for repeated code patterns, specifying name and inputs. **Coding scenario:** Patrol pattern repeats in 3 enemies. Design: "patrol [steps] [wait_time]" custom block that takes steps to move and wait time as inputs. Each enemy calls it with different values. Auto-graded by block design completeness. _CSTA: 1B-AP-14._
 
 Dependencies:
-* T03.G4.06: Find repeated code patterns across sprites
+* T03.G4.09: Find repeated code patterns across sprites
 * T11.G4.01: Recognize when similar code appears in multiple places
 
 
@@ -3105,11 +3045,11 @@ Dependencies:
 ID: T03.G5.01
 Topic: T03 – Problem Decomposition
 Skill: Write a feature list with subtasks for each feature
-Description: Students read a project pitch and produce a structured document listing main features with 2–3 subtasks each (e.g., "Scoring feature: create score variable, update on collision, display on screen"), organizing the project into a clear hierarchy.
+Description: **Student task:** Create a structured document listing main features with 2-3 subtasks each. **Coding scenario:** Adventure game pitch: "Scoring feature: 1. create score variable, 2. add points on coin pickup, 3. display score on screen." "Movement feature: 1. arrow key detection, 2. change position, 3. animate walking." Auto-graded by structure and coverage. _CSTA: 1B-AP-11._
 
 Dependencies:
-* T03.G4.01.03: Update a progress tracker for project subtasks
-* T03.G4.02.01: Sort project components into logical modules
+* T03.G4.04: Track progress using a task checklist
+* T03.G4.06: Sort components into logical modules
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
 
@@ -3118,11 +3058,11 @@ Dependencies:
 
 ID: T03.G5.02
 Topic: T03 – Problem Decomposition
-Skill: Draw a diagram showing project screen/level flow
-Description: Students create a diagram showing how key screens, levels, or components connect (e.g., "menu → level 1 → level 2 → game over"), using arrows to show navigation flow between project parts.
+Skill: Draw a screen/level flow diagram
+Description: **Student task:** Create a diagram showing how screens or levels connect in a project. **Coding scenario:** Adventure game flow: "Title Screen → Level 1 → Level 2 → Boss Level → Win Screen." Add "Game Over Screen" branching from any level. Use arrows showing navigation. Use CreatiCode diagram editor. Auto-graded by completeness and logical flow. _CSTA: 1B-AP-12._
 
 Dependencies:
-* T03.G4.02.01: Sort project components into logical modules
+* T03.G4.06: Sort components into logical modules
 * T02.G4.01: Add a loop to an existing flowchart
 
 
@@ -3132,11 +3072,11 @@ Dependencies:
 ID: T03.G5.03
 Topic: T03 – Problem Decomposition
 Skill: Mark dependencies between tasks in a project plan
-Description: Students examine a list of tasks and mark which ones depend on others (e.g., "animate movement depends on design characters," "display score depends on create variables"), drawing dependency arrows or annotating a task list.
+Description: **Student task:** Examine a list of tasks and mark which ones depend on others using arrows. **Coding scenario:** Tasks: "A: create player sprite," "B: add movement code," "C: create score variable," "D: update score on collision." Draw arrows: A→B (movement needs sprite), C→D (update needs variable). Auto-graded by correct dependency arrows. _CSTA: 1B-AP-12._
 
 Dependencies:
-* T03.G4.04.01: Identify which task must complete before another can start
-* T03.G4.05: Find missing or unnecessary tasks in a project plan
+* T03.G4.07: Identify which task must complete before another
+* T03.G4.08: Find missing or unnecessary tasks in a project plan
 * T10.G5.01: Understand table structure (rows, columns, cells)
 
 
@@ -3145,12 +3085,12 @@ Dependencies:
 
 ID: T03.G5.04
 Topic: T03 – Problem Decomposition
-Skill: Decompose vague tasks into testable sub-tasks
-Description: Students identify vague tasks (e.g., "make AI for enemies") and decompose them into specific, testable sub-tasks with success criteria (e.g., "enemy follows player when within 5 steps," "enemy changes direction at walls," "enemy speeds up after 30 seconds").
+Skill: Decompose vague tasks into specific testable sub-tasks
+Description: **Student task:** Take vague tasks and break them into specific, testable sub-tasks. **Coding scenario:** Vague: "make AI for enemies." Specific sub-tasks: "1. enemy moves toward player when within 100 steps (test: measure distance)," "2. enemy turns at walls (test: check direction change)," "3. enemy speeds up after 30 seconds (test: check speed variable)." Auto-graded by specificity and testability. _CSTA: 1B-AP-15._
 
 Dependencies:
-* T03.G4.05: Find missing or unnecessary tasks in a project plan
-* T03.G4.06.01: Design custom block names and inputs from repeated patterns
+* T03.G4.08: Find missing or unnecessary tasks in a project plan
+* T03.G4.10: Design custom block names and inputs for repeated patterns
 * T02.G5.01: Trace a script with nested loops using debug print
 
 
@@ -3160,11 +3100,11 @@ Dependencies:
 ID: T03.G5.05
 Topic: T03 – Problem Decomposition
 Skill: Evaluate two project plans and justify the better choice
-Description: Students compare two project plans for the same idea and explain which is better organized, citing specific criteria (e.g., clearer subtasks, proper dependencies, realistic scope, fewer gaps).
+Description: **Student task:** Compare two project plans and explain which is better with specific reasons. **Coding scenario:** Plan A: tasks in random order, no dependencies marked, missing "test game." Plan B: logical order, dependencies shown, includes testing. Justify: "Plan B is better because it shows prerequisites and won't forget testing." Auto-graded by criteria cited. _CSTA: 1B-AP-15._
 
 Dependencies:
 * T03.G5.03: Mark dependencies between tasks in a project plan
-* T03.G4.05: Find missing or unnecessary tasks in a project plan
+* T03.G4.08: Find missing or unnecessary tasks in a project plan
 
 
 
@@ -3173,12 +3113,25 @@ Dependencies:
 ID: T03.G5.06
 Topic: T03 – Problem Decomposition
 Skill: Label modules in an example project
-Description: Students examine an example project and label its logical modules (groups of related components working together), such as "player control module," "enemy AI module," or "scoring module," explaining what each module handles.
+Description: **Student task:** Examine a project and label its logical modules with their responsibilities. **Coding scenario:** Platform game project: Label "Player Control Module: handles keyboard input and sprite movement." Label "Enemy AI Module: controls enemy patrol and chase behavior." Label "Scoring Module: tracks and displays points." Auto-graded by correct module identification. _CSTA: 1B-AP-14._
 
 Dependencies:
 * T03.G5.01: Write a feature list with subtasks for each feature
-* T03.G4.02.01: Sort project components into logical modules
+* T03.G4.06: Sort components into logical modules
 * T11.G5.01: Decompose a problem into logical custom block boundaries
+
+
+
+
+
+ID: T03.G5.07
+Topic: T03 – Problem Decomposition
+Skill: Decompose a 2D physics simulation into components
+Description: **Student task:** Break down a 2D physics project into its key components. **Coding scenario:** Ball bounce simulation: "Physics world setup: initialize 2D physics with gravity," "Ball component: sprite + physics body + restitution," "Walls: static bodies at edges," "Interactions: collision detection and bounce." Uses CreatiCode 2D Physics blocks. Auto-graded by component identification. _CSTA: 1B-AP-11._
+
+Dependencies:
+* T03.G5.01: Write a feature list with subtasks for each feature
+* T03.G4.05: Trace how modules organize project components
 
 
 
@@ -3186,8 +3139,8 @@ Dependencies:
 
 ID: T03.G6.01
 Topic: T03 – Problem Decomposition
-Skill: Propose a module hierarchy for a medium project
-Description: Students read about a project and propose logical modules (e.g., "player control," "enemy behavior," "scoring"), organizing them into a hierarchy showing which modules contain sub-modules and how they relate.
+Skill: Propose a module hierarchy for a medium-sized project
+Description: **Student task:** Read a project description and propose a hierarchy of modules with sub-modules. **Coding scenario:** Racing game: "Top-level: Car Module (sub: car sprite, controls, physics), Track Module (sub: background, checkpoints, finish line), UI Module (sub: timer, lap counter, results)." Show which modules contain others. Auto-graded by hierarchy structure. _CSTA: 2-AP-13._
 
 Dependencies:
 * T03.G5.06: Label modules in an example project
@@ -3200,12 +3153,12 @@ Dependencies:
 
 ID: T03.G6.02
 Topic: T03 – Problem Decomposition
-Skill: List components that could be reused across projects
-Description: Students examine components from multiple projects and list which could be reused (e.g., "collision detection," "level reset," "score update"), naming each reusable component and describing its purpose and parameters.
+Skill: Identify reusable components across projects
+Description: **Student task:** Examine components from multiple projects and identify which could be reused. **Coding scenario:** Compare 3 games. Reusable: "collision detection custom block (used in all 3)," "score display widget (same in 2 games)," "sound manager (plays sounds in all)." Name each, describe purpose and parameters. Auto-graded by reusability identification. _CSTA: 2-AP-14._
 
 Dependencies:
 * T03.G5.01: Write a feature list with subtasks for each feature
-* T03.G4.06.01: Design custom block names and inputs from repeated patterns
+* T03.G4.10: Design custom block names and inputs for repeated patterns
 
 
 
@@ -3213,8 +3166,8 @@ Dependencies:
 
 ID: T03.G6.03
 Topic: T03 – Problem Decomposition
-Skill: Organize features into v1/v2/v3 milestone columns
-Description: Students sort features into "v1 (prototype)," "v2 (improvements)," and "v3 (stretch goals)" columns, deciding which features are essential for a working first version versus which can wait.
+Skill: Organize features into v1/v2/v3 milestones
+Description: **Student task:** Sort features into milestone columns: v1 (working prototype), v2 (improvements), v3 (stretch goals). **Coding scenario:** Adventure game: v1 (player moves, basic enemies, one level), v2 (score system, multiple levels, sound effects), v3 (boss battles, leaderboard, multiplayer). Explain why v1 choices are essential. Auto-graded by milestone organization. _CSTA: 2-AP-15._
 
 Dependencies:
 * T03.G5.01: Write a feature list with subtasks for each feature
@@ -3227,10 +3180,10 @@ Dependencies:
 ID: T03.G6.04
 Topic: T03 – Problem Decomposition
 Skill: Revise milestones when constraints are discovered
-Description: Students respond to a discovered constraint (e.g., "multiplayer is harder than expected") by moving features between milestones, proposing simpler alternatives for v1, and explaining how changes affect project scope and timeline.
+Description: **Student task:** Respond to a discovered constraint by moving features between milestones. **Coding scenario:** Original v1 included multiplayer. Discovery: "multiplayer requires server setup we can't do." Revision: move multiplayer to v3, add "local 2-player on same keyboard" to v1 instead. Explain trade-offs. Auto-graded by logical revision. _CSTA: 2-AP-15._
 
 Dependencies:
-* T03.G6.03: Organize features into v1/v2/v3 milestone columns
+* T03.G6.03: Organize features into v1/v2/v3 milestones
 * T03.G5.03: Mark dependencies between tasks in a project plan
 
 
@@ -3239,8 +3192,21 @@ Dependencies:
 
 ID: T03.G6.05
 Topic: T03 – Problem Decomposition
-Skill: Prompt XO to generate subtasks and evaluate suggestions
-Description: Students prompt XO (AI assistant) with a project idea, receive suggested subtasks, then evaluate each suggestion—keeping, modifying, or discarding based on project decomposition principles.
+Skill: Decompose an AI chatbot project into components
+Description: **Student task:** Break down an AI chatbot project into its pipeline components. **Coding scenario:** Quiz helper chatbot: "Input component: text input widget or speech recognition," "AI component: ChatGPT request with quiz context," "Output component: text-to-speech response," "State: track conversation history." Uses CreatiCode AI/widget blocks. Auto-graded by component coverage. _CSTA: 2-AP-13._
+
+Dependencies:
+* T03.G5.01: Write a feature list with subtasks for each feature
+* T03.G6.01: Propose a module hierarchy for a medium-sized project
+
+
+
+
+
+ID: T03.G6.06
+Topic: T03 – Problem Decomposition
+Skill: Use XO to generate subtasks and evaluate suggestions
+Description: **Student task:** Prompt XO with a project idea, then critically evaluate its suggested subtasks. **Coding scenario:** Prompt: "Help me plan a maze game." XO suggests 8 tasks. Evaluate each: keep "create player sprite," modify "add walls" to be more specific, discard "add online leaderboard" as too complex for v1. Auto-graded by evaluation reasoning. _CSTA: 2-IC-23._
 
 Dependencies:
 * T03.G5.01: Write a feature list with subtasks for each feature
@@ -3251,49 +3217,12 @@ Dependencies:
 
 ID: T03.G7.01
 Topic: T03 – Problem Decomposition
-Skill: Explain software architecture using project examples
-Description: Students examine complex projects and explain how architecture organizes systems into components and relationships, using concrete examples to describe why good architecture improves building, testing, and modifying projects.
+Skill: Trace how architecture organizes a complex project
+Description: **Student task:** Examine a complex project and trace how its architecture organizes components. **Coding scenario:** Multiplayer racing game architecture: "Trace how Game State Manager coordinates Car Module, Track Module, and Network Module. Show data flow: user input → Car → position update → Network → other players." Explain why this organization helps testing. Auto-graded by tracing accuracy. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G6.01: Propose a module hierarchy for a medium project
-* T02.G5.01: Identify start, action, and end symbols in flowcharts
-
-
-
-
-
-ID: T03.G7.01.01
-Topic: T03 – Problem Decomposition
-Skill: List main architectural components for a complex project
-Description: Students examine a complex project description and list the main architectural components needed (e.g., "player control system," "enemy AI system," "scoring system," "UI system"), identifying high-level parts that form the architecture.
-
-Dependencies:
-* T03.G7.01: Explain software architecture using project examples
-* T10.G5.01: Understand table structure (rows, columns, cells)
-
-
-
-
-
-ID: T03.G7.01.02
-Topic: T03 – Problem Decomposition
-Skill: Write responsibility statements for each component
-Description: Students write responsibility statements for each component (e.g., "player control system: handles keyboard input and sprite movement," "scoring system: tracks points and displays score"), defining clear boundaries.
-
-Dependencies:
-* T03.G7.01.01: List main architectural components for a complex project
-
-
-
-
-
-ID: T03.G7.01.03
-Topic: T03 – Problem Decomposition
-Skill: Draw component interaction diagrams
-Description: Students create diagrams showing how components communicate and share data (e.g., arrows: "player control → position → collision detector," "enemy AI → events → scoring system"), mapping data flows between architectural components.
-
-Dependencies:
-* T03.G7.01.02: Write responsibility statements for each component
+* T03.G6.01: Propose a module hierarchy for a medium-sized project
+* T02.G5.01: Trace a script with nested loops using debug print
 
 
 
@@ -3301,13 +3230,12 @@ Dependencies:
 
 ID: T03.G7.02
 Topic: T03 – Problem Decomposition
-Skill: Match project modules to architecture components
-Description: Students match existing project modules and functionality to components in an architecture diagram, ensuring logical organization and clear boundaries between components.
+Skill: List architectural components with responsibility statements
+Description: **Student task:** List main architectural components and write a responsibility statement for each. **Coding scenario:** RPG game: "Player System: handles character stats, inventory, and movement." "Combat System: manages battles, damage calculation, and animations." "World System: controls maps, NPCs, and quests." Each statement defines clear boundaries. Auto-graded by component coverage and clarity. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G7.01.03: Draw component interaction diagrams
-* T06.G5.01: Build a green‑flag script that runs a 3–5 block sequence
-* T11.G5.01: Decompose a problem into logical custom block boundaries
+* T03.G7.01: Trace how architecture organizes a complex project
+* T10.G5.01: Understand table structure (rows, columns, cells)
 
 
 
@@ -3315,12 +3243,11 @@ Dependencies:
 
 ID: T03.G7.03
 Topic: T03 – Problem Decomposition
-Skill: Evaluate trade-offs between two architecture designs
-Description: Students compare two architecture sketches for the same project and evaluate trade-offs based on: module boundary clarity, code reuse opportunities, and ease of future modifications, recommending which design is better.
+Skill: Draw component interaction diagrams
+Description: **Student task:** Create diagrams showing how components communicate and share data. **Coding scenario:** RPG game diagram: Draw arrows: "Player System → position → World System," "Combat System → damage → Player System," "World System → NPC data → Combat System." Label each arrow with what data flows. Use CreatiCode diagram editor. Auto-graded by diagram completeness. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G6.01: Propose a module hierarchy for a medium project
-* T03.G5.05: Evaluate two project plans and justify the better choice
+* T03.G7.02: List architectural components with responsibility statements
 
 
 
@@ -3328,12 +3255,12 @@ Dependencies:
 
 ID: T03.G7.04
 Topic: T03 – Problem Decomposition
-Skill: Propose a restructured design to fix identified problems
-Description: Given a project with structural problems (e.g., duplicated collision code, unclear state ownership, high coupling), students propose a new module breakdown with clear responsibilities that solves each identified problem, explaining how.
+Skill: Evaluate trade-offs between two architecture designs
+Description: **Student task:** Compare two architecture designs and evaluate trade-offs. **Coding scenario:** Design A: all code in one sprite (simple but hard to maintain). Design B: separate sprites for each system (more files but easier to test and modify). Evaluate: "B has clearer boundaries but needs more messages between sprites." Recommend one with justification. Auto-graded by trade-off analysis. _CSTA: 2-AP-17._
 
 Dependencies:
-* T03.G7.03: Evaluate trade-offs between two architecture designs
-* T03.G6.02: List components that could be reused across projects
+* T03.G6.01: Propose a module hierarchy for a medium-sized project
+* T03.G5.05: Evaluate two project plans and justify the better choice
 
 
 
@@ -3341,13 +3268,12 @@ Dependencies:
 
 ID: T03.G7.05
 Topic: T03 – Problem Decomposition
-Skill: Write test cases for each module in a project breakdown
-Description: Students list specific test cases for each module (e.g., "Enemy AI: verify enemy moves toward player when within range," "Scoring: check score increases on coin collision," "Game state: test game over triggers when lives reach zero").
+Skill: Propose a restructured design to fix problems
+Description: **Student task:** Given a project with structural problems, propose a new module breakdown to fix them. **Coding scenario:** Problem: "collision code duplicated in 5 sprites, score updates happen in 3 different places." Solution: "Create Collision Manager sprite to handle all collisions," "Create Score Manager to centralize all score updates." Explain how each change fixes a problem. Auto-graded by solution relevance. _CSTA: 2-AP-17._
 
 Dependencies:
-* T03.G6.01: Propose a module hierarchy for a medium project
-* T03.G5.02: Draw a diagram showing project screen/level flow
-* T10.G5.01: Understand table structure (rows, columns, cells)
+* T03.G7.04: Evaluate trade-offs between two architecture designs
+* T03.G6.02: Identify reusable components across projects
 
 
 
@@ -3355,12 +3281,39 @@ Dependencies:
 
 ID: T03.G7.06
 Topic: T03 – Problem Decomposition
-Skill: Insert bug-fix tasks into a project plan after testing
-Description: Students read test results showing failures and insert new tasks (e.g., "fix collision bug," "add null-check edge case") into the project plan at appropriate positions, maintaining proper task dependencies.
+Skill: Write test cases for each module
+Description: **Student task:** List specific test cases for each module in a project breakdown. **Coding scenario:** Platform game modules: "Player Module: test jump height is exactly 100 pixels, test can't move through walls." "Enemy Module: test patrol reverses at edges, test damage reduces player health." "Score Module: test coin adds 10 points, test score displays correctly." Auto-graded by test coverage. _CSTA: 2-AP-17._
 
 Dependencies:
-* T03.G7.05: Write test cases for each module in a project breakdown
+* T03.G6.01: Propose a module hierarchy for a medium-sized project
+* T03.G5.02: Draw a screen/level flow diagram
+* T10.G5.01: Understand table structure (rows, columns, cells)
+
+
+
+
+
+ID: T03.G7.07
+Topic: T03 – Problem Decomposition
+Skill: Insert bug-fix tasks into a project plan
+Description: **Student task:** Read test results with failures and insert bug-fix tasks at appropriate positions. **Coding scenario:** Test results: "Player falls through floor (FAIL)," "Score doesn't reset on new game (FAIL)." Insert: "Fix floor collision check" after "Create floor sprites" and before "Add enemies." "Fix score reset" in "Game State Manager" section. Maintain dependencies. Auto-graded by insertion logic. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G7.06: Write test cases for each module
 * T03.G5.03: Mark dependencies between tasks in a project plan
+
+
+
+
+
+ID: T03.G7.08
+Topic: T03 – Problem Decomposition
+Skill: Decompose a 3D scene project into components
+Description: **Student task:** Break down a 3D project into its key components using CreatiCode 3D blocks. **Coding scenario:** 3D racing game: "Scene Setup: initialize 3D scene + camera follow," "Car Component: 3D model + physics body + controls," "Track Component: 3D terrain + checkpoints + boundaries," "UI Overlay: speedometer widget attached to viewport." Auto-graded by component identification. _CSTA: 2-AP-13._
+
+Dependencies:
+* T03.G6.01: Propose a module hierarchy for a medium-sized project
+* T03.G5.07: Decompose a 2D physics simulation into components
 
 
 
@@ -3369,20 +3322,20 @@ Dependencies:
 ID: T03.G8.01
 Topic: T03 – Problem Decomposition
 Skill: Distinguish feature-level vs system-level decomposition
-Description: Students analyze project breakdowns and distinguish between feature-level decomposition (what a project does) and system-level decomposition (how implementation is organized), selecting the appropriate approach for given scenarios and explaining why.
+Description: **Student task:** Analyze project breakdowns and identify whether they use feature-level (what it does) or system-level (how it's organized) decomposition. **Coding scenario:** Breakdown A: "jumping feature, scoring feature, level feature" = feature-level. Breakdown B: "input handler, game state manager, renderer" = system-level. Explain when each is appropriate: feature-level for planning, system-level for implementation. Auto-graded by correct identification. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G7.01.03: Draw component interaction diagrams
+* T03.G7.03: Draw component interaction diagrams
 * T02.G6.01: Use the pseudocode generation block
 
 
 
 
 
-ID: T03.G8.01.01
+ID: T03.G8.02
 Topic: T03 – Problem Decomposition
 Skill: Extract user requirements from a project specification
-Description: Students read a project specification or user story and extract key user requirements (e.g., "save progress," "support 2-4 players," "display results in table"), listing what the system must do for users with priority levels.
+Description: **Student task:** Read a project specification and extract key user requirements with priorities. **Coding scenario:** Spec: "Educational math game for elementary students. Must track progress, show animations, include sound. Nice to have: multiplayer, leaderboard." Extract: "Must: progress tracking (P1), animations (P1), sound (P2). Optional: multiplayer (P3), leaderboard (P3)." Auto-graded by requirement extraction. _CSTA: 2-AP-13._
 
 Dependencies:
 * T03.G8.01: Distinguish feature-level vs system-level decomposition
@@ -3392,64 +3345,13 @@ Dependencies:
 
 
 
-
-ID: T03.G8.01.02
-Topic: T03 – Problem Decomposition
-Skill: List technical constraints from a specification
-Description: Students examine a project specification and list technical constraints (e.g., "must work on mobile," "no external libraries," "load in <3 seconds," "max 10 sprites"), categorizing them as platform, performance, or resource limitations.
-
-Dependencies:
-* T03.G8.01.01: Extract user requirements from a project specification
-
-
-
-
-
-ID: T03.G8.01.03
-Topic: T03 – Problem Decomposition
-Skill: Propose technical modules from requirements and constraints
-Description: Students take requirements and constraints and propose a technical module breakdown (e.g., "data storage module," "game logic module," "rendering module," "input handler module"), organizing the system into components with clear responsibilities.
-
-Dependencies:
-* T03.G8.01.02: List technical constraints from a specification
-
-
-
-
-
-ID: T03.G8.01.04
-Topic: T03 – Problem Decomposition
-Skill: Specify module interfaces and data flows
-Description: Students specify how modules communicate (e.g., "game logic → score updates → data storage," "input handler → key presses → game logic"), defining clear interfaces with input/output data types for each module connection.
-
-Dependencies:
-* T03.G8.01.03: Propose technical modules from requirements and constraints
-
-
-
-
-
-ID: T03.G8.02
-Topic: T03 – Problem Decomposition
-Skill: Prompt XO to review a specification and apply feedback
-Description: Students provide a draft specification to XO (AI assistant), request feedback on gaps or risks, then critically evaluate each suggestion and integrate selected improvements into their specification.
-
-Dependencies:
-* T03.G8.01.04: Specify module interfaces and data flows
-* T03.G6.05: Prompt XO to generate subtasks and evaluate suggestions
-
-
-
-
-
 ID: T03.G8.03
 Topic: T03 – Problem Decomposition
-Skill: Rank project ideas by complexity with justification
-Description: Students compare several project ideas and rank them from simplest to most complex, providing justification based on: feature count, dependency chains, technical unknowns, and implementation risks.
+Skill: List technical constraints from a specification
+Description: **Student task:** Examine a specification and extract technical constraints by category. **Coding scenario:** Spec: "Must run on school tablets, no network required, all data local, max 5 sprites for performance." Constraints: "Platform: tablet-compatible (touch controls)," "Network: offline-only," "Performance: max 5 sprites," "Storage: local only (use cloud variable simulation)." Auto-graded by constraint identification. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G7.03: Evaluate trade-offs between two architecture designs
-* T10.G6.01: Sort a table by a column
+* T03.G8.02: Extract user requirements from a project specification
 
 
 
@@ -3458,13 +3360,11 @@ Dependencies:
 
 ID: T03.G8.04
 Topic: T03 – Problem Decomposition
-Skill: Cut scope from over-ambitious plans with trade-off analysis
-Description: Students analyze an over-ambitious project plan and propose specific scope reductions, creating a revised feature list showing what stays in v1, moves to v2, or gets cut, with trade-off analysis for each decision (e.g., "cutting multiplayer saves significant complexity but limits replayability").
+Skill: Propose technical modules from requirements and constraints
+Description: **Student task:** Take requirements and constraints and propose a technical module breakdown. **Coding scenario:** Requirements: progress tracking, animations, sound. Constraints: offline, max 5 sprites. Modules: "Progress Manager (1 sprite): saves to local storage," "Animation Controller (1 sprite): manages all character animations," "Sound Manager (1 sprite): handles all audio," "Game Logic (2 sprites): player + level." Total: 5 sprites. Auto-graded by constraint satisfaction. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G8.03: Rank project ideas by complexity with justification
-* T03.G6.03: Organize features into v1/v2/v3 milestone columns
-* T03.G6.04: Revise milestones when constraints are discovered
+* T03.G8.03: List technical constraints from a specification
 
 
 
@@ -3472,12 +3372,11 @@ Dependencies:
 
 ID: T03.G8.05
 Topic: T03 – Problem Decomposition
-Skill: Write a refactoring plan for a complex project
-Description: Students review a complex project with structural problems (duplicated code, unclear responsibilities, tight coupling) and write a step-by-step refactoring plan to reorganize it into clearer modules, prioritizing which refactorings to do first based on impact.
+Skill: Specify module interfaces and data flows
+Description: **Student task:** Specify how modules communicate with clear interfaces. **Coding scenario:** Math game interfaces: "Progress Manager receives: {level: number, score: number} via broadcast 'save-progress'." "Animation Controller receives: {action: string, sprite: string} via broadcast 'animate'." "Game Logic sends: score updates to Progress Manager, animation requests to Animation Controller." Define input/output for each. Auto-graded by interface clarity. _CSTA: 2-AP-14._
 
 Dependencies:
-* T03.G7.04: Propose a restructured design to fix identified problems
-* T03.G8.01.03: Propose technical modules from requirements and constraints
+* T03.G8.04: Propose technical modules from requirements and constraints
 
 
 
@@ -3485,26 +3384,108 @@ Dependencies:
 
 ID: T03.G8.06
 Topic: T03 – Problem Decomposition
-Skill: Assign refactoring tasks to release milestones
-Description: Students take a list of refactoring tasks and assign them to release milestones (e.g., "v1.1: critical bug fixes," "v1.2: architecture cleanup," "v2.0: major restructure"), prioritizing by impact and respecting dependencies.
+Skill: Use XO to review a specification and apply feedback
+Description: **Student task:** Provide a draft specification to XO and critically evaluate its feedback. **Coding scenario:** Draft spec for puzzle game. XO feedback: "Missing: how levels increase difficulty," "Risk: no save system mentioned," "Suggestion: add tutorial level." Evaluate each: integrate "difficulty progression," add "auto-save after each level," defer tutorial to v2. Explain reasoning for each decision. Auto-graded by feedback integration. _CSTA: 2-IC-23._
 
 Dependencies:
-* T03.G8.05: Write a refactoring plan for a complex project
+* T03.G8.05: Specify module interfaces and data flows
+* T03.G6.06: Use XO to generate subtasks and evaluate suggestions
+
+
+
+
+
+ID: T03.G8.07
+Topic: T03 – Problem Decomposition
+Skill: Rank project ideas by complexity with justification
+Description: **Student task:** Compare project ideas and rank them by complexity with specific justification. **Coding scenario:** Ideas: A) Single-player quiz, B) Two-player racing, C) Multiplayer RPG. Rank: A (simplest: no real-time sync), B (medium: needs timing, two inputs), C (complex: network, persistent state, multiple systems). Justify each ranking citing: feature count, dependencies, unknowns. Auto-graded by justification quality. _CSTA: 2-AP-15._
+
+Dependencies:
+* T03.G7.04: Evaluate trade-offs between two architecture designs
+* T10.G6.01: Sort a table by a column
+
+
+
+
+
+ID: T03.G8.08
+Topic: T03 – Problem Decomposition
+Skill: Cut scope from over-ambitious plans with trade-off analysis
+Description: **Student task:** Analyze an over-ambitious plan and propose scope reductions with trade-offs. **Coding scenario:** Plan has 15 features for 2-week project. Cut to 6 for v1: keep "core gameplay" (essential), keep "basic UI" (usable), cut "voice commands" (complex, not essential), move "leaderboard" to v2 (nice but not critical). Trade-off: "cutting voice saves 3 days but reduces accessibility." Auto-graded by trade-off analysis. _CSTA: 2-AP-15._
+
+Dependencies:
+* T03.G8.07: Rank project ideas by complexity with justification
+* T03.G6.03: Organize features into v1/v2/v3 milestones
 * T03.G6.04: Revise milestones when constraints are discovered
 
 
 
 
 
-# T04 - Algorithm Patterns (Phase 3 Optimized - November 2025)
-# Applied Phase 3 topic-focused optimizations:
-# - Improved vague verbs: Changed "Recognize" to "Identify", "Match" to "Identify and match"
-# - Added explicit picture-based and unplugged designations for K-2 skills
-# - Added missing progression skills: G1.05, G3.06.01, G4.05.01, G5.03.02, G8.02.01
-# - Fixed X-2 rule violations: Adjusted dependencies to be within 2 grade levels
-# - Clarified skill descriptions for auto-gradability
-# - No duplicate skills removed - all serve distinct learning objectives
-# Total: 71 skills (4 new skills added: T04.G1.05, T04.G4.05.01, T04.G5.03.02, T04.G8.02.01)
+
+ID: T03.G8.09
+Topic: T03 – Problem Decomposition
+Skill: Write a refactoring plan for a complex project
+Description: **Student task:** Review a project with structural problems and write a step-by-step refactoring plan. **Coding scenario:** Problems: "1. Collision code duplicated in 5 sprites, 2. Score variable updated in 3 places, 3. No clear game state management." Plan: "Step 1 (high impact): Create Collision Manager sprite, Step 2: Centralize score in Score Manager, Step 3: Add Game State Manager for level/game-over." Prioritize by impact. Auto-graded by plan completeness. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G7.05: Propose a restructured design to fix problems
+* T03.G8.04: Propose technical modules from requirements and constraints
+
+
+
+
+
+ID: T03.G8.10
+Topic: T03 – Problem Decomposition
+Skill: Assign refactoring tasks to release milestones
+Description: **Student task:** Take refactoring tasks and assign them to release milestones by priority. **Coding scenario:** Tasks: "Create Collision Manager, Centralize score, Add Game State Manager, Split large sprite into modules, Add unit tests." Assign: "v1.1 (bug fix): Collision Manager (blocks bugs)," "v1.2 (cleanup): Centralize score, Game State Manager," "v2.0 (architecture): Split sprite, Add tests." Respect dependencies. Auto-graded by milestone logic. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G8.09: Write a refactoring plan for a complex project
+* T03.G6.04: Revise milestones when constraints are discovered
+
+
+
+
+
+ID: T03.G8.11
+Topic: T03 – Problem Decomposition
+Skill: Decompose a multiplayer project into components
+Description: **Student task:** Break down a multiplayer project using CreatiCode multiplayer blocks. **Coding scenario:** Multiplayer racing game: "Room Management: create/join game room, list players," "State Sync: broadcast position updates to all players," "Host Logic: host tracks race progress, declares winner," "Client Logic: receives updates, renders other players." Identify what runs on host vs all clients. Auto-graded by component coverage. _CSTA: 2-AP-13._
+
+Dependencies:
+* T03.G7.08: Decompose a 3D scene project into components
+* T03.G8.04: Propose technical modules from requirements and constraints
+
+
+
+
+
+# T04 - Algorithm Patterns (Phase 5 Optimized - November 2025)
+# Applied Phase 5 topic-focused optimizations:
+# MAJOR CHANGES:
+# 1. Fixed X-2 Rule Violations:
+#    - T04.G4.01: Changed dep T07.G2.01 → T07.G3.02 (within X-2)
+#    - T04.G4.07: Removed dep T06.G2.03, added T04.G4.05 (internal)
+#    - T04.G8.00/G8.01: Fixed non-existent T13.G6.01.01 → T13.G6.01
+#    - T04.G8.03: Fixed T08.G6.01a → T08.G6.01
+# 2. Moved Advanced Skills:
+#    - T04.G3.04.01-03 (custom blocks) moved to G4 as T04.G4.02.01-03 (too advanced for G3)
+# 3. Added New Skills (7 skills):
+#    - T04.G1.06: Debug picture sequence by identifying missing step
+#    - T04.G4.00: Predict loop output before tracing
+#    - T04.G5.03.03: Implement early-exit pattern in search
+#    - T04.G5.04.01: Identify map pattern structure
+#    - T04.G6.02.02: Apply map/transform pattern
+#    - T04.G7.02.01: Identify state machine patterns in game code
+#    - T04.G8.01.01: Identify and trace pipeline patterns
+# 4. Improved Descriptions:
+#    - Changed "Analyze" to specific active verbs (Label, Trace, Determine, Compare)
+#    - Added concrete task descriptions with examples
+#    - Clarified assessment criteria
+# Previous optimizations preserved (Phase 1-4)
+# Total: 78 skills (7 new skills added, 3 moved from G3 to G4)
 
 ID: T04.GK.01
 Topic: T04 – Algorithm Patterns
@@ -3617,6 +3598,17 @@ Dependencies:
 
 
 
+ID: T04.G1.06
+Topic: T04 – Algorithm Patterns
+Skill: Debug a picture sequence by identifying the missing step
+Description: Students see a picture sequence showing actions (e.g., hop, clap, hop, ___, hop, clap) with one card missing or showing a blank placeholder. Students select from 3-4 picture options which card completes the pattern correctly. Focus is on recognizing what should come next based on the established pattern. PICTURE-BASED debugging activity that builds on prediction skills.
+
+Dependencies:
+* T04.G1.05: Predict the next action in a repeating picture sequence
+
+
+
+
 ID: T04.G2.01
 Topic: T04 – Algorithm Patterns
 Skill: Select the repeating unit from a longer picture pattern
@@ -3716,10 +3708,12 @@ Dependencies:
 
 
 
-ID: T04.G3.04.01
+# NOTE: T04.G3.04.01-03 moved to G4 as T04.G4.02.01-03 (too advanced for G3)
+
+ID: T04.G3.04.01-MOVED
 Topic: T04 – Algorithm Patterns
-Skill: Identify repeated code segments that could be simplified with templates
-Description: Students examine small projects and identify code segments that are repeated with only minor variations (like different values or colors), recognizing these as opportunities for creating reusable templates or custom blocks.
+Skill: [MOVED TO T04.G4.02.01] Identify repeated code for custom blocks
+Description: SKILL MOVED - See T04.G4.02.01 for current version. Custom block skills moved to G4.
 
 Dependencies:
 * T04.G3.02: Identify where a loop could replace repeated blocks
@@ -3729,10 +3723,10 @@ Dependencies:
 
 
 
-ID: T04.G3.04.02
+ID: T04.G3.04.02-MOVED
 Topic: T04 – Algorithm Patterns
-Skill: Create a custom block (template) for repeated code patterns
-Description: Students take identified repeated code patterns and create a custom block that captures the common structure, using parameters or variables as placeholders for the parts that vary between uses.
+Skill: [MOVED TO T04.G4.02.02] Create custom block for repeated patterns
+Description: SKILL MOVED - See T04.G4.02.02 for current version. Custom block skills moved to G4.
 
 Dependencies:
 * T04.G3.04.01: Identify repeated code segments that could be simplified with templates
@@ -3808,8 +3802,8 @@ Dependencies:
 
 ID: T04.G3.09
 Topic: T04 – Algorithm Patterns
-Skill: Analyze nested repetition in visual patterns
-Description: Students examine VISUAL patterns (like grids of stars, repeated tile patterns, or nested shapes) and identify that an outer pattern repeats an inner pattern. They explain conceptually that "the outer part repeats the inner part" by seeing examples like: 3 rows, each with 4 stars. Focus is on visual/conceptual understanding of nested repetition before analyzing code.
+Skill: Label inner and outer patterns in nested visual structures
+Description: Students examine VISUAL nested patterns (3 rows of 4 stars, 2 groups of 3 circles) and label which part is the "outer" pattern (rows/groups) and which is the "inner" pattern (items within each row/group). Students write labels like: "Outer: 3 rows, Inner: 4 stars per row." This prepares for nested loop code analysis. Assessment shows 3-4 visual patterns and students label outer/inner components for each.
 
 Dependencies:
 * T04.G3.02: Identify where a loop could replace repeated blocks
