@@ -8748,7 +8748,7 @@ Dependencies:
 
 ID: T09.G6.06.01
 Topic: T09 – Variables & Expressions
-Skill: Understand variable persistence across events and broadcasts
+Skill: Explain Variable Persistence across Events
 Description: Students understand that variables maintain their values across different event handlers and broadcasts. When one script sets a variable and broadcasts a message, another script receiving that broadcast can read the updated value. This enables coordination between different parts of a program.
 
 Dependencies:
@@ -11075,7 +11075,7 @@ Dependencies:
 
 ID: T11.G3.10
 Topic: T11 – Functions & Organization
-Skill: Understand when to use custom blocks vs loops
+Skill: Distinguish When to Use Custom Blocks vs Loops
 Description: Students identify scenarios where a custom block (called "My Block" in CreatiCode) is more appropriate than a loop. They recognize that loops repeat the SAME action multiple times, while custom blocks group a SEQUENCE of different actions for reuse or organization. Given example scripts or problems, they choose the better organizational approach and explain their reasoning. This conceptual gateway skill builds organizational thinking without requiring students to define custom blocks yet.
 
 Assessment example: Present 3-4 scenarios (e.g., "draw a house," "move 10 steps 5 times," "reset game state," "count to 10"). Students label each as better solved with a loop or a custom block and explain why.
@@ -12189,7 +12189,7 @@ Dependencies:
 
 ID: T11.G7.03
 Topic: T11 – Functions & Organization
-Skill: Implement a coordinated set of custom blocks for one feature
+Skill: Explain Encapsulation and Information Hiding
 Description: Students implement the custom block set they planned in T11.G7.02.01, creating exactly 3-5 related blocks that work together. They test each block individually and then test the feature as a whole. They demonstrate that the blocks have consistent naming patterns, complementary parameters, and clear division of responsibilities. They show the complete feature working correctly in a demonstration project.
 
 Assessment example: Students implement their planned "Inventory System" with blocks `AddItem (item)`, `RemoveItem (item)`, `HasItem (item) returns: true/false`, `ShowInventory`, and `ClearInventory`. They demonstrate these blocks working together in a simple collection game where players pick up items, check their inventory, and use items.
@@ -12220,7 +12220,7 @@ Dependencies:
 
 ID: T11.G7.05
 Topic: T11 – Functions & Organization
-Skill: Understand encapsulation and information hiding
+Skill: Identify Helper Blocks
 Description: Students understand the principle of encapsulation: a well-designed custom block acts like a "black box" where users only need to know WHAT it does (its interface: name, parameters, return value) and not HOW it does it (the implementation inside). They compare examples of blocks with clean, self-contained interfaces versus blocks that require users to know internal details (like specific variable names used inside). They explain how "information hiding" makes code easier to use, understand, and modify, because changes to internal implementation won't break code that calls the block as long as the interface stays the same.
 
 Assessment example: Students compare two implementations of a score system: (A) custom blocks with clear interfaces that hide internal score tracking in local variables, vs (B) blocks that require callers to directly manipulate global score variables. They explain why version A is better: users don't need to know how score is stored internally, and the implementation can be changed without breaking calling code.
@@ -12254,7 +12254,7 @@ Dependencies:
 
 ID: T11.G7.07
 Topic: T11 – Functions & Organization
-Skill: Understand when custom blocks call each other (helper blocks)
+Skill: Analyze Helper Block Structure
 Description: Students learn that custom blocks can call other custom blocks, and identify "helper blocks" that are primarily called by other custom blocks rather than from main scripts. They understand that breaking complex blocks into smaller helper blocks improves organization and enables reuse at multiple levels. They design block structures where main blocks handle coordination and call helper blocks for specific subtasks.
 
 Assessment example: Students create a `DrawComplexShape` block that calls helper blocks `DrawPolygon (sides)` and `MoveToNextPosition (x) (y)`. They explain that the helper blocks are reusable pieces that DrawComplexShape orchestrates to accomplish its goal.
@@ -19998,7 +19998,7 @@ Dependencies:
 
 ID: T18.G6.00F
 Topic: T18 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand synchronization mechanisms in depth
+Skill: Explain Synchronization Mechanisms
 Description: Students learn the technical details of how CreatiCode synchronizes game state. They understand that synchronized movement blocks automatically send position updates through the network. Broadcasting messages explicitly synchronizes events (player scored, game started). They compare automatic synchronization (positions of Dynamic sprites) to manual synchronization (broadcasts for custom events). They explain when to use each: continuous data (movement) uses synchronized blocks, discrete events (scoring, collecting) use broadcasts.
 
 Dependencies:
@@ -20013,7 +20013,7 @@ Dependencies:
 
 ID: T18.G6.00G
 Topic: T18 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand what lag and latency mean in multiplayer games
+Skill: Explain Lag and Latency
 Description: Students learn that "lag" or "latency" is the delay between an action and seeing it on other players' screens. They understand this delay is caused by network message travel time (physical distance, internet speed). They identify how lag affects gameplay: high lag makes games feel unresponsive, low lag feels smooth and immediate. They test games on different server locations and observe lag differences. They explain why some games are more affected by lag than others (fast-paced action games vs turn-based strategy).
 
 Dependencies:
@@ -20027,7 +20027,7 @@ Dependencies:
 
 ID: T18.G6.00H
 Topic: T18 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand what servers are in multiplayer games
+Skill: Explain Role of Game Servers
 Description: Students learn that servers are computers that relay messages between players and store game rooms. CreatiCode provides servers in different geographic locations (US-East, US-West, Europe, Asia). They understand that all players must connect to the same server to play together. They explain why server location matters (closer servers = lower lag) and why servers are necessary (relay messages, maintain game room, validate actions). They identify which server location is best for their geography and play group.
 
 Dependencies:
@@ -20041,7 +20041,7 @@ Dependencies:
 
 ID: T18.G6.00I
 Topic: T18 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand what roles are in multiplayer games
+Skill: Explain Player Roles
 Description: Students learn that "roles" are labels assigned to players (e.g., "red team", "builder", "seeker", "guard") that can be used to give different behaviors or responsibilities. They understand that roles are optional text labels that don't automatically change behavior - developers must write code to check roles and act accordingly. They identify examples of role-based games (asymmetric games, team games, job-based games). They explain how roles enable game variety: players can have different abilities, objectives, or team assignments.
 
 Dependencies:
@@ -20055,13 +20055,14 @@ Dependencies:
 
 ID: T18.G6.00J
 Topic: T18 – Multiplayer Apps: Grade 6–8 Skill List
-Skill: Understand display names and game names
+Skill: Distinguish Display Names from Usernames
 Description: Students learn the difference between account names (private, for login), display names (public, shown to other players), and game names (identifies the game room). They understand that display names let players identify each other without revealing personal information. Game names let players find and join specific games. They choose clear, appropriate display names and unique game names. They explain why these distinctions matter for privacy and usability.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
 * T10.G5.01: Understand table structure (rows, columns, cells)
 * T18.G6.00B: Understand the host-client model and game rooms in multiplayer games
+* T32.G2.04: Distinguish public vs. private information
 
 
 
@@ -20094,6 +20095,7 @@ Dependencies:
 * T10.G5.01: Understand table structure (rows, columns, cells)
 * T18.G6.00B: Understand the host-client model and game rooms in multiplayer games
 * T18.G6.00J: Understand display names and game names
+* T32.G4.01: Read and categorize tech impact case studies
 
 
 
@@ -35035,7 +35037,7 @@ Dependencies:
 ID: T29.G7.05
 Topic: T29 – Devices & Hardware Systems
 Skill: Debate privacy implications of AI-powered sensors
-Description: Learners analyze privacy scenarios involving AI-powered sensors (voice assistants always listening, classroom cameras detecting faces, hand tracking in games) and propose specific guidelines balancing utility and privacy (when to ask permission, when to delete data, how to inform users), connecting to T23 perception ethics and T24 data handling.
+Description: Learners analyze privacy scenarios involving AI-powered sensors (voice assistants always listening, classroom cameras detecting faces, hand tracking in games) and propose specific guidelines balancing utility and privacy (when to ask permission, when to delete data, how to inform users), connecting to T22 perception ethics and T24 data handling.
 
 Dependencies:
 * T29.G6.03: Explain camera and microphone privacy permissions
@@ -35075,7 +35077,7 @@ CSTA: MS-SAS-HW-01
 ID: T29.G8.01
 Topic: T29 – Devices & Hardware Systems
 Skill: Design device-cloud architecture for CreatiCode AI projects
-Description: Students design comprehensive diagrams showing how CreatiCode projects balance local device processing (camera feed display, keyboard input, real-time animation) with cloud API calls (T21 image generation, T22 ChatGPT reasoning, T23 speech recognition), optimizing for latency, privacy, cost, and offline functionality.
+Description: Students design comprehensive diagrams showing how CreatiCode projects balance local device processing (camera feed display, keyboard input, real-time animation) with cloud API calls (T20 image generation, T22 ChatGPT reasoning, T23 speech recognition), optimizing for latency, privacy, cost, and offline functionality.
 
 Dependencies:
 * T29.G7.04: Explain cloud vs edge processing in CreatiCode AI projects
@@ -35476,7 +35478,7 @@ Dependencies:
 ID: T30.G6.10
 Topic: T30 – Internet & Cloud: Grade 6
 Skill: Measure and analyze how latency affects AI responsiveness and fairness
-Description: Students use timer blocks to measure network latency in scenarios where it affects T22 chatbot conversations, T21 image generation feedback, and T23 real-time gesture recognition. They record and compare response times, then propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
+Description: Students use timer blocks to measure network latency in scenarios where it affects T21 chatbot conversations, T20 image generation feedback, and T23 real-time gesture recognition. They record and compare response times, then propose mitigation strategies (local caching, progressive responses, graceful degradation) and analyze fairness implications.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -35491,7 +35493,7 @@ Dependencies:
 ID: T30.G6.11
 Topic: T30 – Internet & Cloud: Grade 6
 Skill: Evaluate privacy when sharing AI-generated content and data
-Description: Students review datasets containing T24 XO conversation logs, T21 generated images, T23 sensor recordings, and T22 chatbot interactions. They decide when to anonymize prompts, restrict access to AI outputs, rotate session IDs, and implement consent mechanisms.
+Description: Students review datasets containing T23 XO conversation logs, T21 generated images, T23 sensor recordings, and T21 chatbot interactions. They decide when to anonymize prompts, restrict access to AI outputs, rotate session IDs, and implement consent mechanisms.
 CSTA: MS-SAS-SC-09
 
 Dependencies:
@@ -35927,7 +35929,7 @@ Dependencies:
 ID: T30.G8.01
 Topic: T30 – Internet & Cloud: Grade 8
 Skill: Architect edge vs cloud processing pipelines for AI
-Description: Students design diagrams showing which AI computations happen on-device (T23 camera preprocessing for privacy, real-time gesture recognition) and which require cloud resources (T21 DALL-E generation, T22 ChatGPT reasoning). They cite latency, privacy, and cost reasons while connecting to T21-T24 dependencies.
+Description: Students design diagrams showing which AI computations happen on-device (T23 camera preprocessing for privacy, real-time gesture recognition) and which require cloud resources (T21 DALL-E generation, T22 ChatGPT reasoning). They cite latency, privacy, and cost reasons while connecting to T20-T23 dependencies.
 CSTA: MS-SAS-NW-05
 
 Dependencies:
@@ -35946,7 +35948,7 @@ Dependencies:
 ID: T30.G8.02
 Topic: T30 – Internet & Cloud: Grade 8
 Skill: Understand AI service network requirements
-Description: Students analyze bandwidth, latency, and reliability requirements for T21-T24 AI features (real-time voice for T22, image upload for T21, continuous sensor data for T23) and design network architectures that support these needs.
+Description: Students analyze bandwidth, latency, and reliability requirements for T20-T23 AI features (real-time voice for T22, image upload for T21, continuous sensor data for T23) and design network architectures that support these needs.
 CSTA: MS-SAS-NW-05
 
 Dependencies:
@@ -35964,7 +35966,7 @@ Dependencies:
 ID: T30.G8.03
 Topic: T30 – Internet & Cloud: Grade 8
 Skill: Design secure AI-powered cloud systems
-Description: Students outline authentication, encryption, and server-side validation for AI-powered apps using T21-T24 features. They address prompt injection attacks on T22 chatbots, unauthorized access to T21 image generation, and privacy protection for T23 sensor data.
+Description: Students outline authentication, encryption, and server-side validation for AI-powered apps using T20-T23 features. They address prompt injection attacks on T21 chatbots, unauthorized access to T20 image generation, and privacy protection for T23 sensor data.
 CSTA: MS-SAS-SC-09
 
 Dependencies:
@@ -35982,7 +35984,7 @@ Dependencies:
 ID: T30.G8.04
 Topic: T30 – Internet & Cloud: Grade 8
 Skill: Implement privacy protection for AI data
-Description: Students implement privacy measures for AI data: hashing T24 XO prompt logs, encrypting T23 sensor data before cloud storage, and anonymizing T22 chatbot conversations. They use simple encryption techniques while understanding AI-specific privacy needs.
+Description: Students implement privacy measures for AI data: hashing T23 XO prompt logs, encrypting T23 sensor data before cloud storage, and anonymizing T21 chatbot conversations. They use simple encryption techniques while understanding AI-specific privacy needs.
 CSTA: MS-SAS-SC-09
 
 Dependencies:
@@ -35999,7 +36001,7 @@ Dependencies:
 ID: T30.G8.05
 Topic: T30 – Internet & Cloud: Grade 8
 Skill: Evaluate AI service resilience and fallbacks
-Description: Students analyze failure scenarios for T21-T24 AI dependencies (OpenAI API downtime, speech recognition failures) and design graceful degradation strategies (cached responses, offline modes, manual fallbacks).
+Description: Students analyze failure scenarios for T20-T23 AI dependencies (OpenAI API downtime, speech recognition failures) and design graceful degradation strategies (cached responses, offline modes, manual fallbacks).
 CSTA: MS-SAS-HW-03
 
 Dependencies:
@@ -36016,7 +36018,7 @@ Dependencies:
 ID: T30.G8.06
 Topic: T30 – Internet & Cloud: Grade 8
 Skill: Build AI service monitoring and ethics dashboards
-Description: Students create monitoring dashboards that track T21-T24 AI service usage (API call counts, response times, error rates) and ethical metrics (content moderation flags, bias detection alerts, user consent tracking). They connect monitoring to T35 ethics requirements.
+Description: Students create monitoring dashboards that track T20-T23 AI service usage (API call counts, response times, error rates) and ethical metrics (content moderation flags, bias detection alerts, user consent tracking). They connect monitoring to T35 ethics requirements.
 CSTA: MS-SAS-IM-11
 
 Dependencies:
@@ -36370,7 +36372,7 @@ Dependencies:
 ID: T31.G5.04
 Topic: T31 – Cybersecurity & Digital Safety
 Skill: Review and identify PII in AI project data
-Description: Students review data from their AI projects (T22 chatbot logs, T21 image generation prompts, T23 sensor recordings) and identify personal information such as names, locations, photos of faces, and sensitive topics discussed. They categorize data as "safe to share," "needs redaction," or "should stay private."
+Description: Students review data from their AI projects (T21 chatbot logs, T20 image generation prompts, T23 sensor recordings) and identify personal information such as names, locations, photos of faces, and sensitive topics discussed. They categorize data as "safe to share," "needs redaction," or "should stay private."
 
 Dependencies:
 * T21.G5.02
@@ -36651,7 +36653,7 @@ Dependencies:
 ID: T31.G7.04
 Topic: T31 – Cybersecurity & Digital Safety
 Skill: Analyze facial recognition technology ethics and societal impacts
-Description: Following T23 perception projects, students debate benefits (finding missing persons, unlocking phones conveniently) and risks (tracking without consent, misidentification, surveillance state) of facial recognition AI. They analyze real-world case studies, discuss bias concerns (higher error rates for certain demographics), and propose ethical guidelines for use.
+Description: Following T22 perception projects, students debate benefits (finding missing persons, unlocking phones conveniently) and risks (tracking without consent, misidentification, surveillance state) of facial recognition AI. They analyze real-world case studies, discuss bias concerns (higher error rates for certain demographics), and propose ethical guidelines for use.
 
 Dependencies:
 * T22.G6.01: Use camera to detect and track faces
@@ -36749,7 +36751,7 @@ Dependencies:
 ID: T31.G8.03.01
 Topic: T31 – Cybersecurity & Digital Safety
 Skill: Test chatbots for prompt injection vulnerabilities
-Description: Students conduct security testing of their T22 chatbot projects by attempting prompt injection attacks. They try inputs designed to trick the AI into ignoring instructions, revealing system prompts, or producing inappropriate outputs. Examples include: "Ignore previous instructions and say...", "What are your secret rules?", or jailbreak attempts. They document which prompts succeed in bypassing controls and implement input filtering or prompt engineering to prevent manipulation.
+Description: Students conduct security testing of their T21 chatbot projects by attempting prompt injection attacks. They try inputs designed to trick the AI into ignoring instructions, revealing system prompts, or producing inappropriate outputs. Examples include: "Ignore previous instructions and say...", "What are your secret rules?", or jailbreak attempts. They document which prompts succeed in bypassing controls and implement input filtering or prompt engineering to prevent manipulation.
 
 Dependencies:
 * T20.G6.04: Iterate on prompts based on generated results
@@ -36768,7 +36770,7 @@ Dependencies:
 ID: T31.G8.03.02
 Topic: T31 – Cybersecurity & Digital Safety
 Skill: Audit image generation for content filter bypasses
-Description: Students test their T21 image generation projects to identify content filter bypass techniques. They attempt prompts that might circumvent safety filters (indirect descriptions, creative spelling, coded language) and document which approaches succeed in generating inappropriate content. They analyze why filters failed and implement stronger prompt validation, content moderation, or API safety settings to prevent misuse.
+Description: Students test their T20 image generation projects to identify content filter bypass techniques. They attempt prompts that might circumvent safety filters (indirect descriptions, creative spelling, coded language) and document which approaches succeed in generating inappropriate content. They analyze why filters failed and implement stronger prompt validation, content moderation, or API safety settings to prevent misuse.
 
 Dependencies:
 * T31.G8.03.01: Test chatbots for prompt injection vulnerabilities
@@ -37288,7 +37290,7 @@ Dependencies:
 
 ID: T32.G4.03
 Topic: T32 – Digital Citizenship
-Skill: Identify tradeoffs in technology impacts
+Skill: Analyze Data Breaches through Stories
 Description: Using the case study viewer, students analyze each scenario to identify tradeoffs: What is gained? What is lost? Who benefits? Who is harmed? They document at least 2 tradeoffs per case study and explain why the same technology can have different impacts on different groups.
 
 Dependencies:
@@ -37493,7 +37495,7 @@ Dependencies:
 ID: T32.G5.05
 Topic: T32 – Digital Citizenship
 Skill: Analyze AI's differential impacts on workers and communities
-Description: Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T21-T24 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.
+Description: Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T20-T23 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.
 
 Dependencies:
 * T32.G4.03: Identify tradeoffs in technology impacts
@@ -37506,7 +37508,7 @@ Dependencies:
 
 ID: T32.G5.06
 Topic: T32 – Digital Citizenship
-Skill: Visualize stakeholder impacts using data tools
+Skill: Explain Consent for AI Data Collection
 Description: Students research a technology's impact on different stakeholders (e.g., AI chatbots impact: students, teachers, tutors, textbook companies). They collect impact data via widget-based surveys (rating scales 1-5: How much does this help/harm you?). Responses are stored in Google Sheets using cloud blocks. Students create data visualizations using table variables showing which groups benefit most/least, then discuss equity implications.
 
 Dependencies:
@@ -37545,7 +37547,7 @@ Dependencies:
 
 ID: T32.G5.09
 Topic: T32 – Digital Citizenship
-Skill: Map personal interests to tech pathways
+Skill: Demonstrate Encryption Basics (Unplugged)
 Description: Students list their hobbies and strengths (music, storytelling, sports, helping people, art). Then they match each interest to a tech role that uses it (sound designer, narrative designer, sports data analyst, civic technologist, graphic designer). Students explain why each match makes sense.
 
 Dependencies:
@@ -37611,7 +37613,7 @@ Dependencies:
 ID: T32.G6.01
 Topic: T32 – Digital Citizenship
 Skill: Test AI image generation for bias
-Description: Students test CreatiCode's T21 image generation blocks for bias. They generate 10+ images with prompts like "doctor," "nurse," "CEO," "teacher," "engineer," "artist" and document demographic representation patterns using a table variable (columns: Prompt, Gender Observed, Race Observed, Age Observed, Stereotype Present?). They analyze patterns in the results.
+Description: Students test CreatiCode's T20 image generation blocks for bias. They generate 10+ images with prompts like "doctor," "nurse," "CEO," "teacher," "engineer," "artist" and document demographic representation patterns using a table variable (columns: Prompt, Gender Observed, Race Observed, Age Observed, Stereotype Present?). They analyze patterns in the results.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -37648,7 +37650,7 @@ Dependencies:
 
 ID: T32.G6.03
 Topic: T32 – Digital Citizenship
-Skill: Build AI testing dashboard
+Skill: Explain Network Attacks (DoS, MitM)
 Description: Students create a comprehensive testing dashboard using widgets that combines image generation and chatbot testing. The dashboard includes: dropdown to select AI tool (Image/Chat), text input for test prompt, buttons to record observations (Biased/Fair, Accurate/Inaccurate, Inclusive/Exclusive), and table display showing all logged test results. This consolidates data from both T35.G6.03.01a and T35.G6.03.01b.
 
 Dependencies:
@@ -37740,7 +37742,7 @@ Dependencies:
 ID: T32.G6.09
 Topic: T32 – Digital Citizenship
 Skill: Synthesize comprehensive AI ethics guidelines
-Description: Using findings from T35.G6.03.01c testing dashboard, students synthesize comprehensive ethics guidelines for AI content generation (T21-T22). They: (1) Analyze test data using table variable operations to identify patterns (e.g., "80% of 'CEO' images showed men"), (2) Create an interactive ethics guidelines document using widgets: buttons to select AI type (Image/Chat), dropdown for ethical concern category (Bias, Misinformation, Inclusivity, Citation), labels displaying specific guidelines and evidence, (3) Develop decision frameworks: When is bias acceptable? How to write inclusive prompts? How to verify AI outputs? (4) Include concrete examples: "Good prompt: 'diverse group of doctors' vs Biased prompt: 'doctor'". Students present guidelines as a widget-based reference tool that other students can use when working with T21-T22 AI blocks.
+Description: Using findings from T35.G6.03.01c testing dashboard, students synthesize comprehensive ethics guidelines for AI content generation (T20-T21). They: (1) Analyze test data using table variable operations to identify patterns (e.g., "80% of 'CEO' images showed men"), (2) Create an interactive ethics guidelines document using widgets: buttons to select AI type (Image/Chat), dropdown for ethical concern category (Bias, Misinformation, Inclusivity, Citation), labels displaying specific guidelines and evidence, (3) Develop decision frameworks: When is bias acceptable? How to write inclusive prompts? How to verify AI outputs? (4) Include concrete examples: "Good prompt: 'diverse group of doctors' vs Biased prompt: 'doctor'". Students present guidelines as a widget-based reference tool that other students can use when working with T21-T22 AI blocks.
 
 Dependencies:
 * T32.G6.03.01c: Build AI testing dashboard
@@ -37752,8 +37754,8 @@ Dependencies:
 
 ID: T32.G6.10
 Topic: T32 – Digital Citizenship
-Skill: Develop ethics guidelines for AI perception and assistance (T23-T24)
-Description: Students actively test AI perception and assistance tools to develop evidence-based guidelines. For T23 (Perception): Test hand/body tracking with different skin tones and lighting, documenting accuracy variations. For T24 (Coding Assistants): Test AI coding help with different question types and English proficiency levels. Students build a testing demo using widgets that displays test results (table variables showing: test case, demographic/condition, accuracy rating, ethical concerns). Using findings, they create comprehensive guidelines addressing consent, surveillance concerns, equity in recognition accuracy, academic integrity, proper citation, and avoiding over-dependency.
+Skill: Develop ethics guidelines for AI perception and assistance (T22-T23)
+Description: Students actively test AI perception and assistance tools to develop evidence-based guidelines. For T22 (Perception): Test hand/body tracking with different skin tones and lighting, documenting accuracy variations. For T23 (Coding Assistants): Test AI coding help with different question types and English proficiency levels. Students build a testing demo using widgets that displays test results (table variables showing: test case, demographic/condition, accuracy rating, ethical concerns). Using findings, they create comprehensive guidelines addressing consent, surveillance concerns, equity in recognition accuracy, academic integrity, proper citation, and avoiding over-dependency.
 
 Dependencies:
 * T05.G5.01: Write clear user needs and requirements for a small app
@@ -38050,8 +38052,8 @@ Skill: Build systematic testing framework for AI perception
 Description: Students create a comprehensive testing framework to audit T23-T24 AI tools for bias. They build a test suite using widgets with dropdown menus to select test conditions (skin tone: light/medium/dark, lighting: bright/dim/mixed, English proficiency: native/intermediate/beginner) and automated data collection that logs results to table variables (columns: Tool Type, Test Condition, Accuracy Score, Error Type, Timestamp).
 
 Dependencies:
-* T32.G7.07: Conduct bias audits for AI content generation (T21-T22)
-* T32.G6.10: Develop ethics guidelines for AI perception and assistance (T23-T24)
+* T32.G7.07: Conduct bias audits for AI content generation (T20-T21)
+* T32.G6.10: Develop ethics guidelines for AI perception and assistance (T22-T23)
 
 
 
@@ -38124,8 +38126,8 @@ Dependencies:
 
 ID: T32.G7.07
 Topic: T32 – Digital Citizenship
-Skill: Conduct bias audits for AI content generation (T21-T22)
-Description: Students systematically audit T21 image generation for representation across demographics and T22 chatbots for response quality by dialect/topic. They measure disparities, analyze root causes, and propose mitigation strategies. Students use table variables to log results (columns: Prompt, Demographic, Quality Rating) and create data visualizations showing disparity patterns.
+Skill: Conduct bias audits for AI content generation (T20-T21)
+Description: Students systematically audit T20 image generation for representation across demographics and T21 chatbots for response quality by dialect/topic. They measure disparities, analyze root causes, and propose mitigation strategies. Students use table variables to log results (columns: Prompt, Demographic, Quality Rating) and create data visualizations showing disparity patterns.
 
 Dependencies:
 * T32.G6.03.01c: Build AI testing dashboard
@@ -38188,11 +38190,11 @@ Dependencies:
 ID: T32.G7.12
 Topic: T32 – Digital Citizenship
 Skill: Build AI perception surveillance simulator
-Description: Students use CreatiCode's T23 perception blocks (hand detection, body pose tracking) to build a surveillance simulator demonstrating how AI perception can be used for monitoring. They create a project that: (1) Uses hand detection to count people entering/exiting a "virtual space" (tracking when hands appear/disappear, maintaining entry/exit counters using variables), (2) Uses body pose detection to classify movements (e.g., walking vs. running based on joint distance changes, standing vs. sitting based on body position), (3) Logs all detections to a table variable with detailed data (timestamp, movement type, duration, body position data), (4) Creates a monitoring dashboard using widgets: labels showing live counts, table display of detection log, buttons to start/stop/clear monitoring. Students experience first-hand what data AI perception systems can capture.
+Description: Students use CreatiCode's T22 perception blocks (hand detection, body pose tracking) to build a surveillance simulator demonstrating how AI perception can be used for monitoring. They create a project that: (1) Uses hand detection to count people entering/exiting a "virtual space" (tracking when hands appear/disappear, maintaining entry/exit counters using variables), (2) Uses body pose detection to classify movements (e.g., walking vs. running based on joint distance changes, standing vs. sitting based on body position), (3) Logs all detections to a table variable with detailed data (timestamp, movement type, duration, body position data), (4) Creates a monitoring dashboard using widgets: labels showing live counts, table display of detection log, buttons to start/stop/clear monitoring. Students experience first-hand what data AI perception systems can capture.
 
 Dependencies:
 * T32.G6.08: Analyze data privacy tradeoffs
-* T32.G6.10: Develop ethics guidelines for AI perception and assistance (T23-T24)
+* T32.G6.10: Develop ethics guidelines for AI perception and assistance (T22-T23)
 * T22.G7.01: Use hand and body tracking for interactive projects
 
 
@@ -38228,7 +38230,7 @@ Dependencies:
 ID: T32.G7.15
 Topic: T32 – Digital Citizenship
 Skill: Facilitate community discussions on AI-powered tech policy
-Description: Students design and conduct structured interviews with 3+ stakeholders (teachers, parents, students) about a local AI policy question (e.g., Should schools use AI proctoring? Should the school allow AI writing assistants?). They create interview protocols with at least 5 open-ended questions, document responses, and create a summary report identifying areas of agreement and disagreement on AI governance, connecting to T21-T24 applications.
+Description: Students design and conduct structured interviews with 3+ stakeholders (teachers, parents, students) about a local AI policy question (e.g., Should schools use AI proctoring? Should the school allow AI writing assistants?). They create interview protocols with at least 5 open-ended questions, document responses, and create a summary report identifying areas of agreement and disagreement on AI governance, connecting to T20-T23 applications.
 
 Dependencies:
 * T32.G6.11: Examine digital divide data
@@ -38434,29 +38436,42 @@ Dependencies:
 
 
 
-ID: T32.G8.04
+
+ID: T32.G8.04.01
 Topic: T32 – Digital Citizenship
-Skill: Build ethical evaluation tool
-Description: Students build an ethical evaluation tool using widgets and table variables to systematically assess computing proposals. The tool includes: (1) Input interface: Text field for project name/description, (2) Framework selection: Buttons to choose ethical frameworks (Beneficence: Does it help? Who benefits?, Fairness: Equal access/impact?, Autonomy: User control/choice?, Justice: Does it reduce inequality?), (3) Assessment form: For each framework, rating scales (1-5) and text fields for evidence, (4) Output: Table variable comparing ratings across frameworks, ChatGPT-generated summary of ethical tensions (e.g., "High beneficence for crime reduction conflicts with low autonomy from constant surveillance").
+Skill: Design workshop curriculum for responsible tech
+Description: Students plan a short lesson (10-15 minutes) to teach younger students a coding concept or tech safety topic (debugging basics, AI safety, online privacy). The plan includes: learning objective, step-by-step instructions, an activity, and how to check understanding. They select the workshop topic (screen balance, kindness, privacy, AI ethics).
 
 Dependencies:
-* T32.G7.07: Conduct bias audits for AI content generation (T21-T22)
+* T32.G7.07: Conduct bias audits for AI content generation (T20-T21)
 * T32.G6.07: Build ethics evaluation tool combining all lenses
 * T02.G6.01: Learn the pseudocode generation block
 * T07.G6.01: Trace nested loops with variable bounds
 * T09.G6.01: Model real-world quantities using variables and formulas
 
+ID: T32.G8.04.02
+Topic: T32 – Digital Citizenship
+Skill: Build interactive workshop tools
+Description: Students design and build interactive teaching tools using widgets and blocks for their workshop. Examples: timer widget for screen balance, scenario simulator for kindness, sorting game for privacy, or bias demo for AI ethics. They also create an assessment component (quiz) to check understanding.
 
+Dependencies:
+* T32.G8.04.03: Deliver workshop and iterate
+* T16.G8.01: Build complex multi-widget applications
 
+ID: T32.G8.04.03
+Topic: T32 – Digital Citizenship
+Skill: Deliver workshop and iterate
+Description: Students pilot their workshops with younger grades, delivering the lesson and using their interactive tools. They collect feedback using widget-based surveys and iterate on their tools and lesson plan based on what worked and what didn't.
 
-
+Dependencies:
+* T32.G8.04.03: Deliver workshop and iterate
 ID: T32.G8.05
 Topic: T32 – Digital Citizenship
 Skill: Evaluate real proposals using the tool
 Description: Students evaluate real proposals (predictive policing, emotion AI in schools, personalized education platforms, facial recognition for attendance) using the tool built in T35.G8.01.01. They systematically assess each proposal across all frameworks, gathering evidence from research and documenting where frameworks agree or conflict.
 
 Dependencies:
-* T32.G8.04: Build ethical evaluation tool
+* T32.G8.04.03: Deliver workshop and iterate
 * T15.G8.01: Build complex multi-widget applications
 
 
@@ -38478,11 +38493,11 @@ Dependencies:
 ID: T32.G8.07
 Topic: T32 – Digital Citizenship
 Skill: Analyze AI chatbots' impact on information literacy (Pairing with T22)
-Description: Following T22 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.
+Description: Following T21 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.
 
 Dependencies:
 * T32.G8.06: Resolve conflicts between ethical frameworks
-* T32.G7.07: Conduct bias audits for AI content generation (T21-T22)
+* T32.G7.07: Conduct bias audits for AI content generation (T20-T21)
 * T07.G6.01: Trace nested loops with variable bounds
 * T10.G6.01: Sort a table by a column
 * T12.G6.01: Trace complex code with multiple variables
@@ -38494,7 +38509,7 @@ Dependencies:
 ID: T32.G8.08
 Topic: T32 – Digital Citizenship
 Skill: Draft equity-focused policy briefs for AI in education
-Description: Students create data-driven policy briefs with integrated visualizations. They: (1) Research and collect data on AI equity issues: survey students about T21-T24 tool access, analyze AI output bias from their T35.G7.01 audits, review privacy policies from education AI tools, (2) Build data visualizations using table variables and sprite graphics: bar charts showing access disparities by demographic, pie charts of bias audit results, timeline of privacy incidents, (3) Draft one-page policy brief with embedded visualizations addressing differential access, bias in AI outputs, and privacy protection, (4) Create interactive brief using widgets: buttons to toggle between data views, clickable recommendations that expand to show supporting evidence and action steps. Students present briefs with specific, measurable action items grounded in their visualized data.
+Description: Students create data-driven policy briefs with integrated visualizations. They: (1) Research and collect data on AI equity issues: survey students about T20-T23 tool access, analyze AI output bias from their T35.G7.01 audits, review privacy policies from education AI tools, (2) Build data visualizations using table variables and sprite graphics: bar charts showing access disparities by demographic, pie charts of bias audit results, timeline of privacy incidents, (3) Draft one-page policy brief with embedded visualizations addressing differential access, bias in AI outputs, and privacy protection, (4) Create interactive brief using widgets: buttons to toggle between data views, clickable recommendations that expand to show supporting evidence and action steps. Students present briefs with specific, measurable action items grounded in their visualized data.
 
 Dependencies:
 * T32.G7.15: Facilitate community discussions on AI-powered tech policy
@@ -38510,7 +38525,7 @@ Dependencies:
 ID: T32.G8.09
 Topic: T32 – Digital Citizenship
 Skill: Apply tool to evaluate AI projects
-Description: Using the impact assessment tool built in T35.G8.03.01c, students conduct comprehensive evaluations of real CreatiCode community projects. They: (1) Select 3+ diverse community projects for evaluation (at least one using AI blocks T21-T24, at least one game, at least one educational tool), (2) Systematically assess each project using the tool, gathering evidence for each category: Test accessibility features, Review data collection practices, Analyze potential wellbeing impacts, Evaluate cultural representation, (3) Generate assessment reports: Use the tool's scoring output, Review ChatGPT-generated recommendations, Add their own observations and suggestions, (4) Create a comparative analysis using table variables: Which categories had lowest scores across projects? What common issues emerged? Which projects demonstrated best practices?, (5) Present findings to project creators with constructive, evidence-based recommendations. Students reflect on assessment challenges: How to score subjective categories consistently? When are tradeoffs acceptable? How to balance thoroughness with practicality?
+Description: Using the impact assessment tool built in T35.G8.03.01c, students conduct comprehensive evaluations of real CreatiCode community projects. They: (1) Select 3+ diverse community projects for evaluation (at least one using AI blocks T20-T23, at least one game, at least one educational tool), (2) Systematically assess each project using the tool, gathering evidence for each category: Test accessibility features, Review data collection practices, Analyze potential wellbeing impacts, Evaluate cultural representation, (3) Generate assessment reports: Use the tool's scoring output, Review ChatGPT-generated recommendations, Add their own observations and suggestions, (4) Create a comparative analysis using table variables: Which categories had lowest scores across projects? What common issues emerged? Which projects demonstrated best practices?, (5) Present findings to project creators with constructive, evidence-based recommendations. Students reflect on assessment challenges: How to score subjective categories consistently? When are tradeoffs acceptable? How to balance thoroughness with practicality?
 
 Dependencies:
 * T32.G8.03.01c: Integrate scoring and generate recommendations
@@ -38526,7 +38541,7 @@ Dependencies:
 ID: T32.G8.10
 Topic: T32 – Digital Citizenship
 Skill: Lead peer workshops on responsible tech use
-Description: Students design and build interactive workshop tools for teaching younger students about responsible tech use. They create: (1) Workshop topic selection: Choose from screen balance, online kindness, privacy awareness, or AI ethics, (2) Interactive teaching tool using widgets and blocks: For screen balance (timer widget showing healthy tech time limits, activity tracker), For online kindness (scenario simulator with multiple choice responses and consequence feedback), For privacy (information sorting game using drag-drop widgets), For AI ethics (bias demonstration tool using T21/T22 blocks), (3) Assessment component: Quiz using widgets to check understanding, results stored in table variable, (4) Take-home materials: Printable guidelines generated from workshop data. Students pilot workshops with younger grades, collect feedback using widget-based surveys, and iterate on their tools based on what worked.
+Description: Students design and build interactive workshop tools for teaching younger students about responsible tech use. They create: (1) Workshop topic selection: Choose from screen balance, online kindness, privacy awareness, or AI ethics, (2) Interactive teaching tool using widgets and blocks: For screen balance (timer widget showing healthy tech time limits, activity tracker), For online kindness (scenario simulator with multiple choice responses and consequence feedback), For privacy (information sorting game using drag-drop widgets), For AI ethics (bias demonstration tool using T20/T21 blocks), (3) Assessment component: Quiz using widgets to check understanding, results stored in table variable, (4) Take-home materials: Printable guidelines generated from workshop data. Students pilot workshops with younger grades, collect feedback using widget-based surveys, and iterate on their tools based on what worked.
 
 Dependencies:
 * T32.G7.15: Facilitate community discussions on AI-powered tech policy
@@ -38805,12 +38820,13 @@ Dependencies:
 
 ID: T33.G5.03
 Topic: T33 – Connected Services
-Skill: Understand that shared URLs grant public access
+Skill: Explain Risks of Shared URLs
 Description: Students learn that URLs shared in projects make data accessible to anyone who sees the link. They practice identifying what information is safe to share publicly (test data, fictional characters, public facts) versus private (real names, addresses, photos, passwords). They create example "safe" datasets for coding projects using made-up information and understand that sharing a project with a URL is like posting that URL on a public bulletin board.
 
 Dependencies:
 * T30.G5.01: Trace how a device reaches an online service
 * T33.G5.01: Compare local storage versus cloud storage tradeoffs
+* T32.G2.04: Distinguish public vs. private information
 
 
 
@@ -38934,6 +38950,7 @@ Dependencies:
 * T33.G5.03: Understand that shared URLs grant public access
 * T33.G6.03: Read data from Google Sheets into a table
 * T33.G6.04: Write data from a table to Google Sheets
+* T32.G5.04: Debate digital well-being scenarios
 
 
 
@@ -38941,7 +38958,7 @@ Dependencies:
 
 ID: T33.G6.09
 Topic: T33 – Connected Services
-Skill: Understand cloud database collections versus Google Sheets
+Skill: Compare Cloud Database Collections and Google Sheets
 Description: Students compare CreatiCode's cloud database collections with Google Sheets to understand when each is appropriate. They learn that collections are like spreadsheet tables but stored on CreatiCode's servers (no Google account needed), with faster access and built-in query features. They understand tradeoffs: Google Sheets are visible in a browser and shareable outside CreatiCode, while database collections are private to their CreatiCode account and optimized for programmatic access. They identify use cases for each: Sheets for human-readable data and external collaboration, collections for app-internal data like user scores or game states.
 
 Dependencies:
