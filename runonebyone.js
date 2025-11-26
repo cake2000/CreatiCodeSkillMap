@@ -1,4 +1,5 @@
 const { execSync, spawnSync } = require("child_process");
+const fs = require("fs");
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -62,6 +63,19 @@ async function runAllScripts() {
 
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
+  const loadAvailableGradeTopics = () => {
+    const content = fs.readFileSync("./skillsv5/allskills.md", "utf8");
+    const set = new Set();
+    const regex = /ID:\s*T(\d{2})\.G([K1-8])/g;
+    let match;
+    while ((match = regex.exec(content)) !== null) {
+      const topicCode = `T${match[1]}`;
+      const gradeCode = match[2].toUpperCase();
+      set.add(`${gradeCode}-${topicCode}`);
+    }
+    return set;
+  };
+
   // Number of iterations for each phase
   const TOPIC_ITERATIONS = 2; 
   const GRADE_ITERATIONS = 1; 
@@ -70,8 +84,9 @@ async function runAllScripts() {
   console.log("Starting Two-Phase Optimization Strategy");
   console.log("===========================================\n");
   console.log(`Phase 1: ${topics.length} topics × ${TOPIC_ITERATIONS} iterations = ${topics.length * TOPIC_ITERATIONS} focused topic passes`);
-  console.log(`Phase 2: ${gradeList.length} grades × ${GRADE_ITERATIONS} iterations = ${gradeList.length * GRADE_ITERATIONS} focused grade passes`);
-  console.log(`Total: ${topics.length * TOPIC_ITERATIONS + gradeList.length * GRADE_ITERATIONS} focused passes\n`);
+  const phase2Combos = gradeList.length * topics.length;
+  console.log(`Phase 2: ${gradeList.length} grades × ${topics.length} topics × ${GRADE_ITERATIONS} iterations = ${phase2Combos * GRADE_ITERATIONS} possible grade-topic passes (skips combos with no skills)`);
+  console.log(`Total: ${topics.length * TOPIC_ITERATIONS + phase2Combos * GRADE_ITERATIONS} focused passes\n`);
 
   // PHASE 1: Topic-by-Topic Processing
   console.log("===========================================");
@@ -92,7 +107,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 4) continue;
+      // if ( iteration == 0 && i < 4) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -106,6 +121,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 ## Step 1: Read these files first
 - 00-START-HERE.md and spec_v2_updated.md for project context
 - skillsv5/allskills.md for all current skills
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively.
 
 ## Step 2: For topic ${topic.code} only, fix these issues
 
@@ -120,6 +136,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
    - K-2 skills: specify picture cards or visual scenarios
    - Reference CreatiCode blocks from ../../ScratchCopilot/blockdes8.txt if needed
    - No duplicate or overlapping skills within the topic.
+   - Skills do not exceed current topic boundaries considering there are 34 topics total.
 
 3. Dependencies (intra-topic ONLY)
    - Fix dependencies WITHIN ${topic.code} only
@@ -175,8 +192,8 @@ Use subagents/Task tool to keep context small. Proceed now.`;
             success = true;
             console.log(`✅ Completed topic ${topic.code}`);
             // wait one minute
-            console.log(`⏳ Waiting 1 minute to avoid rate limits...`);
-            await waitWithCountdown(1);
+            console.log(`⏳ Waiting 0.1 minute to avoid rate limits...`);
+            await waitWithCountdown(0.1);
           }
         } catch (error) {
           console.error(`\n❌ Error processing topic ${topic.code}:`, error.message.substring(0, 100));
@@ -201,15 +218,18 @@ Use subagents/Task tool to keep context small. Proceed now.`;
     console.log(`\n✅ Completed Topic Phase Iteration ${iteration + 1}/${TOPIC_ITERATIONS}`);
   }
 
-  // PHASE 2: Grade-by-Grade Processing
+  // PHASE 2: Grade+Topic Processing
   console.log("\n\n===========================================");
-  console.log("PHASE 2: Grade-by-Grade Cross-Topic Dependency Checking");
+  console.log("PHASE 2: Grade+Topic Cross-Topic Dependency Checking");
   console.log(`Started at: ${new Date().toLocaleString()}`);
   console.log("===========================================\n");
 
+  let completedGradeTopicCombos = 0;
+  let skippedGradeTopicCombos = 0;
+
   for (let iteration = 0; iteration < GRADE_ITERATIONS; iteration++) {
     console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    console.log(`  Grade Phase - Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
+    console.log(`  Grade+Topic Phase - Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
     console.log(`  ${new Date().toLocaleString()}`);
     console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
 
@@ -219,37 +239,55 @@ Use subagents/Task tool to keep context small. Proceed now.`;
     execSync(`cp ./skillsv5/allskills.md "${backupPath}"`);
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
+    const availableGradeTopics = loadAvailableGradeTopics();
+
     for (let i = 0; i < gradeList.length; i++) {
       const grade = gradeList[i];
-      console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade}`);
+      console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade} across topics`);
       console.log(`${"─".repeat(50)}`);
 
-      // print date time
-      console.log(`  ${new Date().toLocaleString()}`);
+      for (let j = 0; j < topics.length; j++) {
+        const topic = topics[j];
+        const comboKey = `${grade}-${topic.code}`;
 
-      // Calculate allowed dependency grades
-      let allowedGrades;
-      if (grade === 'K') {
-        allowedGrades = 'K only';
-      } else if (grade === '1') {
-        allowedGrades = 'K and 1';
-      } else {
-        const gradeNum = parseInt(grade);
-        allowedGrades = `grades ${gradeNum - 2}, ${gradeNum - 1}, and ${gradeNum}`;
-      }
+        if (!availableGradeTopics.has(comboKey)) {
+          console.log(`  ⏭️  Skipping Grade ${grade} Topic ${topic.code} (${topic.name}) - no skills found`);
+          skippedGradeTopicCombos++;
+          continue;
+        }
 
-      const gradePrompt = `AUTONOMOUS MODE: Do NOT ask any questions. Do NOT ask for clarification. Do NOT ask for permission. Proceed immediately with your best judgment. This is a non-interactive batch session.
+        const comboIndex = (i * topics.length) + j + 1;
+        const comboTotal = gradeList.length * topics.length;
+        console.log(`\n  [${comboIndex}/${comboTotal}] Processing Grade ${grade} Topic ${topic.code}: ${topic.name}`);
+        console.log(`  ${"─".repeat(48)}`);
 
-Your task: Fix cross-topic dependencies for Grade ${grade} skills.
+        // print date time
+        console.log(`    ${new Date().toLocaleString()}`);
+
+        // Calculate allowed dependency grades
+        let allowedGrades;
+        if (grade === 'K') {
+          allowedGrades = 'K only';
+        } else if (grade === '1') {
+          allowedGrades = 'K and 1';
+        } else {
+          const gradeNum = parseInt(grade);
+          allowedGrades = `grades ${gradeNum - 2}, ${gradeNum - 1}, and ${gradeNum}`;
+        }
+
+        const gradeTopicPrompt = `AUTONOMOUS MODE: Do NOT ask any questions. Do NOT ask for clarification. Do NOT ask for permission. Proceed immediately with your best judgment. This is a non-interactive batch session.
+
+Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${topic.code} (${topic.name}).
 
 ## Step 1: Read these files first
 - 00-START-HERE.md and spec_v2_updated.md for project context
 - skillsv5/allskills.md for all current skills
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively.
 
-## Step 2: For Grade ${grade} skills only, fix these issues
+## Step 2: For Grade ${grade} skills in ${topic.code} only, fix these issues
 
 1. Inter-Topic Dependencies
-   - Review ALL Grade ${grade} skills across all 34 topics
+   - Review ALL Grade ${grade} skills in ${topic.code}
    - ADD missing cross-topic dependencies:
      - Cybersecurity (T31) & DigCit (T32) -> Connected Services (T33) & Multiplayer (T18)
      - Math (T09/T27) -> Data Science (T24-T26)
@@ -268,7 +306,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills.
 - NEVER delete any skills
 - Only remove deps if genuinely incorrect
 - Add dependencies liberally
-- Focus ONLY on Grade ${grade} dependencies
+- Focus ONLY on Grade ${grade} dependencies inside ${topic.code}
 
 ## Step 3: Make the edits to skillsv5/allskills.md
 
@@ -276,56 +314,58 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills.
 
 Use subagents/Task tool to keep context small. Proceed now.`;
 
-      let success = false;
-      let retryCount = 0;
-      const maxRetries = 30000000;
+        let success = false;
+        let retryCount = 0;
+        const maxRetries = 30000000;
 
-      while (!success && retryCount < maxRetries) {
-        try {
-          const result = spawnSync('claude', [
-            '--dangerously-skip-permissions',
-            '--add-dir', '../../scratch-workspace',
-            '--add-dir', '../../creaticode-ws',
-            '--add-dir', '../../ScratchCopilot',
-            '-p', gradePrompt
-          ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });
+        while (!success && retryCount < maxRetries) {
+          try {
+            const result = spawnSync('claude', [
+              '--dangerously-skip-permissions',
+              '--add-dir', '../../scratch-workspace',
+              '--add-dir', '../../creaticode-ws',
+              '--add-dir', '../../ScratchCopilot',
+              '-p', gradeTopicPrompt
+            ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });
 
-          const output = result.stdout || '';
-          if (result.error) throw result.error;
+            const output = result.stdout || '';
+            if (result.error) throw result.error;
 
-          // Check for API errors
-            console.log(`\n⚠️  OUPUT for grade ${grade}: ${output}`);
-          const outputLower = output.toLowerCase();
-          if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
-            console.log(`\n⚠️  API rate limit hit for grade ${grade}`);
-            console.log(`⏰ Waiting 3 minutes before retrying...`);
-            await waitWithCountdown(3);
-            console.log(`⏰ retry time: ${new Date().toLocaleString()}...`);
-            retryCount++;
-          } else {
-            success = true;
-            console.log(`✅ Completed grade ${grade}`);
-          }
-        } catch (error) {
-          console.error(`\n❌ Error processing grade ${grade}:`, error.message.substring(0, 100));
-          const errorStr = error.toString().toLowerCase();
-          if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
-            console.log(`⏰ API limit - waiting 3 minutes...`);
-            await waitWithCountdown(3);
-            retryCount++;
-          } else {
-            console.error(`⚠️  Skipping grade ${grade} after error`);
-            break;
+            // Check for API errors
+              console.log(`\n⚠️  OUPUT for grade ${grade} topic ${topic.code}: ${output}`);
+            const outputLower = output.toLowerCase();
+            if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
+              console.log(`\n⚠️  API rate limit hit for grade ${grade} topic ${topic.code}`);
+              console.log(`⏰ Waiting 3 minutes before retrying...`);
+              await waitWithCountdown(3);
+              console.log(`⏰ retry time: ${new Date().toLocaleString()}...`);
+              retryCount++;
+            } else {
+              success = true;
+              completedGradeTopicCombos++;
+              console.log(`✅ Completed grade ${grade} topic ${topic.code}`);
+            }
+          } catch (error) {
+            console.error(`\n❌ Error processing grade ${grade} topic ${topic.code}:`, error.message.substring(0, 100));
+            const errorStr = error.toString().toLowerCase();
+            if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
+              console.log(`⏰ API limit - waiting 3 minutes...`);
+              await waitWithCountdown(3);
+              retryCount++;
+            } else {
+              console.error(`⚠️  Skipping grade ${grade} topic ${topic.code} after error`);
+              break;
+            }
           }
         }
-      }
 
-      if (!success) {
-        console.log(`⚠️  Failed to process grade ${grade} after ${maxRetries} retries`);
+        if (!success) {
+          console.log(`⚠️  Failed to process grade ${grade} topic ${topic.code} after ${maxRetries} retries`);
+        }
       }
     }
 
-    console.log(`\n✅ Completed Grade Phase Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
+    console.log(`\n✅ Completed Grade+Topic Phase Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
   }
 
   const endTime = new Date();
@@ -340,9 +380,10 @@ Use subagents/Task tool to keep context small. Proceed now.`;
   console.log(`\nCompleted at: ${endTime.toLocaleString()}`);
   console.log(`Total elapsed time: ${hours}h ${minutes}m ${seconds}s`);
   console.log(`\nSummary:`);
+  const totalPassesCompleted = topics.length * TOPIC_ITERATIONS + completedGradeTopicCombos;
   console.log(`- Phase 1: Processed ${topics.length} topics × ${TOPIC_ITERATIONS} iterations`);
-  console.log(`- Phase 2: Processed ${gradeList.length} grades × ${GRADE_ITERATIONS} iterations`);
-  console.log(`- Total: ${topics.length * TOPIC_ITERATIONS + gradeList.length * GRADE_ITERATIONS} focused optimization passes`);
+  console.log(`- Phase 2: Processed ${completedGradeTopicCombos} grade-topic combos across ${GRADE_ITERATIONS} iteration(s); skipped ${skippedGradeTopicCombos} empty combos`);
+  console.log(`- Total: ${totalPassesCompleted} focused optimization passes executed`);
   console.log(`\nCheck skillsv5/allskills.md for the optimized skill map.\n`);
 }
 

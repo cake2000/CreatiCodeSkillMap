@@ -1,6 +1,6 @@
 # CreatiCode K-8 Skill Map - START HERE
 
-Welcome! This directory contains the complete CreatiCode K-8 Skill Map system with 1,155 skills, 36 topics, and 5 domains ready for implementation.
+Welcome! This directory contains the complete CreatiCode K-8 Skill Map system with 34 topics, and 5 domains ready for implementation.
 
 ## What You Have
 
@@ -32,7 +32,7 @@ Complete system documentation including:
 ### 3. **domains_topics.yaml**
 The domain and topic structure:
 - 5 CSTA-aligned domains
-- 36 topics with descriptions
+- 34 topics with descriptions
 - Domain mappings
 - Machine-readable format for systems
 
@@ -45,7 +45,7 @@ The complete skill catalog:
 
 ### 5. **topic_grade_matrix.md**
 Visual coverage matrix showing:
-- All 36 topics in rows
+- All 34 topics in rows
 - Grades 1-8 in columns
 - Skill counts per cell
 - Quick visual assessment of balance
@@ -62,14 +62,11 @@ Curated pathways for major competitions:
 
 | Metric | Value |
 |--------|-------|
-| Total Skills | 1,155 |
-| Topics | 36 |
+| Topics | 34 |
 | Domains | 5 (CSTA-aligned) |
 | Grade Coverage | 1-8 |
 | Avg Skills per Topic | 32 |
 | Avg Skills per Grade | 144 |
-| Largest Topic | T09 (Variables & Expressions) - 40 skills |
-| Smallest Topic | T24 (XO & AI Practices) - 28 skills |
 
 ## Domain Distribution
 
@@ -159,8 +156,6 @@ Primary Output Files (what you use):
 Source Reference Files (how we built it):
   • skills_T01_everyday_algorithms.md
   • skills_T02_representing_tracing.md
-  • ... (34 more topic files)
-  • skills_T36_ethics_careers.md
 
 Supporting Reference:
   • spec.md                     - Original design specification
@@ -201,7 +196,7 @@ See README.md "What's Not Included" section for details.
 ## Quality Assurance
 
 All files verified for:
-- ✓ Completeness (1,155 skills from all 36 topics)
+- ✓ Completeness (all skills from all 34 topics)
 - ✓ Consistency (all skills have required metadata)
 - ✓ Uniqueness (no duplicate skill IDs)
 - ✓ Balance (140-150 skills/grade, 28-40 skills/topic)
@@ -215,7 +210,7 @@ All files verified for:
 - topic_grade_matrix.md: 3.3 KB (visual matrix)
 - competition_paths.md: 11.6 KB (competition guides)
 - README.md: 12.2 KB (full documentation)
-- 36 topic files: 800+ KB total (source reference)
+- 34 topic files: 800+ KB total (source reference)
 
 **Total: ~1.6 MB of documentation and data (production-ready)**
 
@@ -242,7 +237,7 @@ All files verified for:
 
 - Generated: November 16, 2025
 - Version: 1.0 (Production Ready)
-- Total Development: 1,155 skills extracted and organized from 36 comprehensive topic documents
+- Total Development: 1,155 skills extracted and organized from 34 comprehensive topic documents
 
 ---
 
