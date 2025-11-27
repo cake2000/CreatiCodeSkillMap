@@ -9514,51 +9514,33 @@ Dependencies:
 CSTA: E8-ALG-AF-01, E8-PRO-PF-01
 
 
-# T09 - Variables & Expressions (Phase 5 Optimized - November 2025)
-# Phase 5 Major Optimizations Applied:
-# 1. RESTRUCTURED DEPENDENCY CHAINS - Flattened deep linear chains for flexible progression:
-#    - Arithmetic operators (+,-,*,/) now parallel after G4.01 foundation
-#    - String operations reorganized into logical groups (basic, extraction, transformation)
-#    - Math functions grouped by purpose, not sequential prerequisite
-#    - Comparison operators now branch from single foundation skill
-# 2. REDUCED EXCESSIVE CROSS-TOPIC DEPENDENCIES:
-#    - G4 arithmetic operators no longer require T04 pattern skills
-#    - Debugging skills streamlined to focus on T09-internal prerequisites
-#    - Fixed X-2 violations in G5 accumulator/tracing skills
-# 3. ENHANCED K-2 PICTURE-BASED SKILLS with more concrete scenarios:
-#    - Added GK.03: Compare two counters in game pictures
-#    - Added G1.03: Predict counter value after drag-drop actions
-#    - Added G2.03: Debug why counter shows wrong number
-# 4. ADDED ADVANCED SKILLS FOR AI-ERA DEPTH:
-#    - G6.08: Use variables to parameterize AI prompts dynamically
-#    - G7.10: Design variable naming conventions for maintainability
-#    - G8.09: Use variables to manage state in multi-turn AI conversations
-#    - G8.10: Analyze variable usage patterns for code optimization
-# 5. CONSOLIDATED OVERLY GRANULAR SKILLS:
-#    - G3.01 sub-skills merged where appropriate (now 3 instead of 5)
-#    - G4.06 comparison operators consolidated (now 2 foundation + extensions)
-#    - G4.09 debugging skills reduced from 3 to 2 focused categories
-# 6. IMPROVED ACTIVE VERBS throughout (Trace, Debug, Design, Predict, Analyze)
+# T09 - Variables & Expressions (Phase 4 Optimized - November 2025)
+# Phase 4 Optimizations Applied:
+# - Enhanced K-2 skills with more specific tasks and clearer engagement prompts
+# - Added 4 bridging skills: T09.G5.02.02, T09.G5.09, T09.G7.01.04, T09.G7.09
+# - Removed T09.G8.02.01 (moved to G7.01.04 for better math function sequence)
+# - Fixed remaining X-2 violations in G6-G8 intra-topic dependencies
+# - Improved skill descriptions with more active verbs
 # Logical K-8 Progression:
-#   - K: Visual labels with numbers (recognition, change detection, comparison via pictures)
-#   - G1-G2: Interactive counters (clicking, tracking, initialization, prediction, basic debugging)
-#   - G3: Core variable operations (create/set/change, display, conditionals, copy, basic debug, trace)
-#   - G4: Arithmetic operators (parallel), comparisons (branched), loop counters, flags, random, debug
-#   - G5: Multiple variables, data types (string, boolean, type awareness), accumulators, advanced tracing
-#   - G6: Real-world modeling, PEMDAS, advanced operators, string operations (grouped), AI integration
-#   - G7: Dynamic systems, math functions (grouped), scope, file I/O, regex (grouped), variable design
-#   - G8: Algorithm variables, optimization, advanced math, cloud variables, AI state, symbolic math
-# Total: 98 skills (rebalanced from 98, with higher quality and better structure)
+#   - K: Visual labels with numbers (recognition, change detection via pictures)
+#   - G1-G2: Interactive counters (clicking, tracking, initialization, comparison)
+#   - G3: Core variable operations (create, set, change, display, conditionals, basic debugging, tracing)
+#   - G4: Arithmetic operators, comparisons, loop counters, flags, random values, advanced debugging
+#   - G5: Multiple variables, data types (string, boolean, type awareness), accumulators, advanced tracing, basic formatting
+#   - G6: Real-world modeling, PEMDAS, advanced operators (exponents, modulo), string operations
+#   - G7: Dynamic systems, math functions (incl. min/max), scope, file I/O, scope debugging, regex
+#   - G8: Algorithm variables, optimization, trigonometry, cloud variables, symbolic math
+# Total: 95 skills (+3 bridging skills)
 
 
 
 ID: T09.GK.01
 Topic: T09 – Variables & Expressions
 Skill: Recognize that labels can show different numbers
-Description: **Student task:** Look at game pictures with labels like "Score: 5", "Lives: 3", "Stars: 2". Point to the label that shows how many stars you have. Then point to the label that shows your score. **Visual scenario:** A colorful game screen with a character, collected stars, and multiple labeled counters at different positions. _Implementation note: Picture-based hot-spot clicking. Show 3-4 labels and ask student to click the correct one. Audio prompt reads labels aloud. CSTA: EK‑PRO‑PF‑02._
+Description: **Student task:** Look at game pictures with labels like "Score: 5", "Lives: 3", "Stars: 2". Point to the label that shows how many stars you have. Then point to the label that shows your score. _Implementation note: Picture-based hot-spot clicking. Show 3-4 labels and ask student to click the correct one. CSTA: EK‑PRO‑PF‑02._
 
 Dependencies:
-* T01.GK.01: Sequence three picture cards for a bedtime routine
+* T01.GK.01: Put pictures in order for getting ready for bed
 
 
 
@@ -9567,21 +9549,10 @@ Dependencies:
 ID: T09.GK.02
 Topic: T09 – Variables & Expressions
 Skill: Identify which label changed after collecting something
-Description: **Student task:** Look at two game pictures: BEFORE and AFTER catching a star. Which label changed? Tap the label that is different. **Visual scenario:** Side-by-side screenshots: Left shows Score: 2, Stars: 1. Right shows Score: 2, Stars: 2. The Stars label changed! _Implementation note: Side-by-side before/after comparison with tap-to-select. Highlight feedback on correct answer. CSTA: EK‑PRO‑PF‑02._
+Description: **Student task:** Look at two game pictures: BEFORE and AFTER catching a star. Which label changed? Circle the label that is different. (Example: Score was 2, now it's 3!) _Implementation note: Side-by-side before/after comparison. Highlight the changed label. CSTA: EK‑PRO‑PF‑02._
 
 Dependencies:
 * T09.GK.01: Recognize that labels can show different numbers
-
-
-
-
-ID: T09.GK.03
-Topic: T09 – Variables & Expressions
-Skill: Compare two counters in game pictures to find which is bigger
-Description: **Student task:** Look at the game picture. Player 1 has Score: 4. Player 2 has Score: 7. Tap the player who has MORE points! **Visual scenario:** Split-screen showing two game characters with their score labels clearly visible. _Implementation note: Picture comparison task. Audio asks "Who has more points?" Extends GK.02 by comparing values across labels. CSTA: EK‑PRO‑PF‑02._
-
-Dependencies:
-* T09.GK.02: Identify which label changed after collecting something
 
 
 
@@ -9590,10 +9561,10 @@ Dependencies:
 ID: T09.G1.01
 Topic: T09 – Variables & Expressions
 Skill: Change a displayed number by clicking a button
-Description: **Student task:** Click the big +1 button to add 1 to the counter. Watch the number go up! Click it 5 times. What number do you see now? **Visual scenario:** Large animated button with counter display starting at 0. Each click shows +1 animation and sound. _Implementation note: Large clickable button (minimum 48x48px) with animated counter. Audio feedback on each click. Final answer verification. CSTA: E1‑PRO‑PF‑02._
+Description: **Student task:** Click the big button to add 1 to the counter. Watch the number go up! Click it 5 times. What number do you see now? _Implementation note: Large clickable button with animated counter. Audio feedback on each click. CSTA: E1‑PRO‑PF‑02._
 
 Dependencies:
-* T09.GK.03: Compare two counters in game pictures to find which is bigger
+* T09.GK.02: Identify which label changed after collecting something
 * T03.G1.01: Match a part to its function using picture cards
 
 
@@ -9602,22 +9573,11 @@ Dependencies:
 
 ID: T09.G1.02
 Topic: T09 – Variables & Expressions
-Skill: Track items collected using a picture counter
-Description: **Student task:** Drag the stars into the basket. Watch the star counter go up each time! How many stars did you collect? **Visual scenario:** 5 scattered stars on screen, a basket in corner, and a "Stars: 0" counter that animates up with each drop. _Implementation note: Drag-and-drop with animated counter increment and celebration at completion. CSTA: E1‑PRO‑PF‑02._
+Skill: Use a picture counter to track stars collected
+Description: **Student task:** Drag the stars into the basket. Watch the star counter go up each time! How many stars did you collect? _Implementation note: Drag-and-drop with animated counter increment. Final count revealed at end. CSTA: E1‑PRO‑PF‑02._
 
 Dependencies:
 * T09.G1.01: Change a displayed number by clicking a button
-
-
-
-
-ID: T09.G1.03
-Topic: T09 – Variables & Expressions
-Skill: Predict counter value after collecting items
-Description: **Student task:** The counter shows 2. You are going to drag 3 more stars to the basket. What number will the counter show after? Tap your answer: 3, 4, or 5? **Visual scenario:** Counter at 2 with 3 uncollected stars visible. Multiple choice answers below. _Implementation note: Prediction before action. Student chooses answer, then drags stars to verify. Builds mental math with counters. CSTA: E1‑PRO‑PF‑02._
-
-Dependencies:
-* T09.G1.02: Track items collected using a picture counter
 
 
 
@@ -9626,10 +9586,10 @@ Dependencies:
 ID: T09.G2.01
 Topic: T09 – Variables & Expressions
 Skill: Set a starting value for a counter before a game begins
-Description: **Student task:** Before the race starts, set each racer's starting position. Drag the "Start:" number to 0 for a fair race, or to 5 to give one racer a head start. What happens differently? **Visual scenario:** Two racing characters with editable start position counters. _Implementation note: Picture-based choice of initial values. Shows cause-effect of different starting values. CSTA: E2‑PRO‑PF‑02._
+Description: **Student task:** Before the game starts, choose where the score should begin: 0, 5, or 10? Click to set it, then play! Why might we want different starting numbers? _Implementation note: Picture-based choice of initial value. Discuss why 0 is common. CSTA: E2‑PRO‑PF‑02._
 
 Dependencies:
-* T09.G1.03: Predict counter value after collecting items
+* T09.G1.02: Use a picture counter to track stars collected
 
 
 
@@ -9638,7 +9598,7 @@ Dependencies:
 ID: T09.G2.02
 Topic: T09 – Variables & Expressions
 Skill: Predict when a counter reaches a target number
-Description: **Student task:** The score starts at 2. Each star adds 1 point. The treasure chest opens when score reaches 5. How many stars do you need to collect? **Visual scenario:** Score counter at 2, treasure chest labeled "Opens at 5", and stars to collect. _Implementation note: Animated prediction activity requiring gap calculation (5-2=3). Counter increments toward goal with celebratory reveal when target reached. CSTA: E2‑PRO‑PF‑02._
+Description: **Student task:** The counter starts at 0 and goes up by 1 each click. When will it reach 5 and make the balloon pop? Predict how many clicks you need! _Implementation note: Animated prediction activity. Counter increments toward goal with celebratory reveal. CSTA: E2‑PRO‑PF‑02._
 
 Dependencies:
 * T09.G2.01: Set a starting value for a counter before a game begins
@@ -9647,309 +9607,471 @@ Dependencies:
 
 
 
-ID: T09.G2.03
+
+ID: T09.G3.01.01
 Topic: T09 – Variables & Expressions
-Skill: Debug why a counter shows a wrong number
-Description: **Student task:** Sam collected 4 apples but the counter shows 3. Look at the pictures and find what went wrong! Did Sam miss counting one apple? **Visual scenario:** Four collected apples shown, but counter displays 3. Visual cue highlights the missing count. _Implementation note: Entry-level debugging through picture analysis. Student identifies the discrepancy and taps the missed item. Prepares for G3 debugging skills. CSTA: E2‑PRO‑PF‑02._
+Skill: Create a new variable with a descriptive name
+Description: Students create their first variable in the block editor by choosing "Make a Variable" and giving it a simple, meaningful name (e.g., "score", "lives", "stars"). They understand that the variable name should describe what it stores. This is the first step in understanding variables as named storage containers.
 
 Dependencies:
-* T09.G2.02: Predict when a counter reaches a target number
-
-
-
-
-
-ID: T09.G3.01
-Topic: T09 – Variables & Expressions
-Skill: Create, initialize, and increment a variable
-Description: Students create their first variable in the block editor by choosing "Make a Variable" with a descriptive name (e.g., "score", "lives"), immediately initialize it with "set [variable] to (value)" at program start, and use "change [variable] by (1)" to increase it by 1 when events occur. They understand that (1) variable names should describe what they store, (2) variables need starting values, and (3) "change by" adds to the current value. This consolidates basic variable creation, initialization, and the increment-by-1 pattern.
-
-Dependencies:
-* T09.G2.03: Debug why a counter shows a wrong number
+* T09.G2.02: Compare a counter to a target number to trigger an event
 * T03.G2.01: Choose subtasks for a simple project idea
+
+
+
+
+
+ID: T09.G3.01.02
+Topic: T09 – Variables & Expressions
+Skill: Set a variable to an initial value at program start
+Description: Students use the "set [variable] to (value)" block to initialize a variable to a starting value (typically 0) when the green flag is clicked. They understand that setting an initial value prepares the variable for use and ensures consistent starting conditions.
+
+Dependencies:
+* T09.G3.01.01: Create a new variable with a descriptive name
+
+
+
+
+
+ID: T09.G3.01.03
+Topic: T09 – Variables & Expressions
+Skill: Change a variable value by 1 using the change block
+Description: Students use "change [variable] by (1)" to increase a variable's value by exactly 1 when a simple event occurs (like touching a star or clicking the sprite). They observe the variable monitor on stage updating and understand that "change by" adds to the current value. This introduces the basic increment pattern.
+
+Dependencies:
+* T09.G3.01.02: Set a variable to an initial value at program start
+
+
+
+
+
+ID: T09.G3.01.04
+Topic: T09 – Variables & Expressions
+Skill: Display variable value on stage using the variable monitor
+Description: Students check the checkbox next to their variable to show its monitor on stage, watching it update in real-time as their code runs. They understand that the monitor helps them see what value the variable currently holds.
+
+Dependencies:
+* T09.G3.01.03: Change a variable value by 1 using the change block
+
+
+
+
+
+ID: T09.G3.01.05
+Topic: T09 – Variables & Expressions
+Skill: Use variable reporter blocks in other blocks
+Description: Students drag the round [variable] reporter block into other blocks to use the variable's value (e.g., "say [score]" or "move [speed] steps"). They understand that the variable reporter provides the current value and can be used anywhere a number input is needed. This is the foundation for using variables in expressions.
+
+Dependencies:
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 
 
 ID: T09.G3.02
 Topic: T09 – Variables & Expressions
-Skill: Change and reduce variables with display monitoring
-Description: Students use `change [variable] by (amount)` to increase and `reduce [variable] by (amount)` to decrease variables by arbitrary amounts (e.g., change score by 10, reduce lives by 1). They check the checkbox next to their variable to show its monitor on stage and watch it update in real-time as their code runs. This combines arbitrary increment/decrement operations with real-time visualization.
+Skill: Use change block to increase a variable
+Description: Students use `change [variable] by (amount)` to increase a variable by arbitrary amounts (e.g., change score by 10, change lives by 5). They understand that "change" adds to the current value. This extends the basic increment-by-1 pattern (G3.01.03) to arbitrary positive amounts.
 
 Dependencies:
-* T09.G3.01: Create, initialize, and increment a variable
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+
+
+
+ID: T09.G3.02.01
+Topic: T09 – Variables & Expressions
+Skill: Use reduce block to decrease a variable
+Description: Students use `reduce [variable] by (amount)` to decrease a variable by arbitrary amounts (e.g., reduce lives by 1, reduce health by 10). They understand that "reduce" subtracts from the current value, which is the opposite of "change". This provides an intuitive way to decrement variables.
+
+Dependencies:
+* T09.G3.02: Use change block to increase a variable
+
 
 
 
 
 ID: T09.G3.03
 Topic: T09 – Variables & Expressions
-Skill: Use variable reporter blocks in other blocks
-Description: Students drag the round [variable] reporter block into other blocks to use the variable's value (e.g., "say [score]", "move [speed] steps", or simple conditionals like "if score > 3 then say 'Great!'"). They understand that the variable reporter provides the current value and can be used anywhere a value input is needed. This connects variables to both output (say) and control structures (if).
+Skill: Use a variable in a simple conditional (if block)
+Description: Students write their first conditional that reads a variable's value using very simple comparisons (e.g., "if score > 3 then say 'Great!'"). This connects the variable concept to conditional logic with small, easy-to-test numbers. Focus on understanding that variables can be checked in conditions.
 
 Dependencies:
-* T09.G3.02: Change and reduce variables with display monitoring
+* T09.G3.02.01: Use reduce block to decrease a variable
 * T08.G3.02: Decide when a single if is enough
 
 
 
 
-ID: T09.G3.04
+
+ID: T09.G3.04.01
 Topic: T09 – Variables & Expressions
-Skill: Use a variable in a simple conditional (if block)
-Description: Students write conditionals that read a variable's value using simple comparisons (e.g., "if score > 3 then say 'Great!'", "if lives < 1 then say 'Game Over'"). This explicitly connects the variable concept to conditional logic with small, easy-to-test numbers. Focus on understanding that variables can be checked in conditions to control program behavior.
+Skill: Debug missing variable initialization
+Description: Students inspect a very simple script (3-5 blocks) where a variable doesn't work because it wasn't initialized. Focus on recognizing the symptom (variable starts with wrong value or shows 0 unexpectedly) and finding the missing "set [variable] to [initial value]" block that should appear at program start. This is entry-level debugging with clear initialization failures.
 
 Dependencies:
-* T09.G3.03: Use variable reporter blocks in other blocks
+* T09.G3.03: Use a variable in a simple conditional (if block)
+
+
+
+
+
+ID: T09.G3.04.02
+Topic: T09 – Variables & Expressions
+Skill: Debug missing change/update block
+Description: Students inspect a very simple script (3-5 blocks) where a variable doesn't update as expected during gameplay. Focus on recognizing the symptom (score stays at 0 even after collecting items) and finding the missing "change [variable] by [amount]" or "reduce [variable] by [amount]" block. This builds pattern recognition for update-related bugs.
+
+Dependencies:
+* T09.G3.04.01: Debug missing variable initialization
+
+
+
+
+
+ID: T09.G3.04.03
+Topic: T09 – Variables & Expressions
+Skill: Debug wrong value in variable block
+Description: Students inspect a very simple script (3-5 blocks) where a variable changes by the wrong amount (e.g., "change score by 10" when it should be "change score by 1"). Focus on finding one obvious wrong number in a change/reduce/set block and correcting it. This completes basic variable debugging skills.
+
+Dependencies:
+* T09.G3.04.02: Debug missing change/update block
+
 
 
 
 
 ID: T09.G3.05
 Topic: T09 – Variables & Expressions
-Skill: Debug missing initialization and wrong update values
-Description: Students inspect simple scripts (3-5 blocks) where variables don't work because they weren't initialized OR update by the wrong amount. They recognize symptoms (variable starts with wrong value, or changes incorrectly) and find the missing "set [variable] to [initial value]" block or wrong number in "change by [amount]" blocks. This consolidates the two most common beginner variable bugs: missing initialization and wrong literal values.
+Skill: Trace code with variables to predict outcomes
+Description: Students trace a very short script (3-4 steps) where a variable changes in simple ways (set to 0, change by 1, change by 1 again), and predict the final value by reading and following the code. This skill focuses on understanding existing code and predicting outcomes, not creating new variables. Use small numbers and obvious changes.
 
 Dependencies:
-* T09.G3.04: Use a variable in a simple conditional (if block)
+* T09.G3.04.03: Debug wrong value in variable block
+* T08.G3.04: Trace code with a single if/else
+
 
 
 
 
 ID: T09.G3.06
 Topic: T09 – Variables & Expressions
-Skill: Debug missing change/update block
-Description: Students inspect simple scripts (3-5 blocks) where a variable doesn't update as expected during gameplay. Focus on recognizing the symptom (score stays at 0 even after collecting items) and finding the missing "change [variable] by [amount]" or "reduce [variable] by [amount]" block that should appear in the event handler. This builds pattern recognition for update-related bugs.
-
-Dependencies:
-* T09.G3.05: Debug missing initialization and wrong update values
-
-
-
-
-ID: T09.G3.07
-Topic: T09 – Variables & Expressions
-Skill: Trace code with variables to predict outcomes
-Description: Students trace a very short script (3-4 steps) where a variable changes in simple ways (set to 0, change by 1, change by 1 again), and predict the final value by reading and following the code. This skill focuses on understanding existing code and predicting outcomes, not creating new variables. Use small numbers and obvious changes.
-
-Dependencies:
-* T09.G3.06: Debug missing change/update block
-* T08.G3.04: Trace code with a single if/else
-
-
-
-
-ID: T09.G3.08
-Topic: T09 – Variables & Expressions
 Skill: Copy one variable's value to another variable
 Description: Students use "set [variable1] to [variable2]" to copy the value from one variable to another. They understand that this creates an independent copy - changing one variable later doesn't affect the other. Examples: "set backup_score to score", "set player_x to enemy_x". This bridges the gap between basic variable operations and using variables in complex expressions.
 
 Dependencies:
-* T09.G3.01: Create, initialize, and increment a variable
+* T09.G3.01.02: Set a variable to an initial value at program start
+
 
 
 
 
 ID: T09.G4.01
 Topic: T09 – Variables & Expressions
-Skill: Use arithmetic operators in variable expressions (foundation)
-Description: Students understand that expressions can combine variables and values using operators. They create their first expression using addition: "set total to score + bonus". They understand that the + operator combines two values into a sum and can be used with variables, literals, or other values. This establishes the foundation for all arithmetic operators.
+Skill: Use addition (+) in variable expressions
+Description: Students use the + operator block to create expressions that add values, such as "set total to score + bonus" or "set sum to a + b". They understand that the + operator combines two values into a sum and can be used with variables, literals, or other expressions.
 
 Dependencies:
-* T09.G3.07: Trace code with variables to predict outcomes
-* T09.G3.08: Copy one variable's value to another variable
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.05: Trace code with variables to predict outcomes
+* T09.G3.06: Copy one variable's value to another variable
+
+
+
+
+
+ID: T09.G4.01.01
+Topic: T09 – Variables & Expressions
+Skill: Use subtraction (-) in variable expressions
+Description: Students use the - operator block to create expressions that subtract values, such as "set remaining to total - used" or "set difference to a - b". They understand that the - operator finds the difference between two values and can compute negative results.
+
+Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.01: Use addition (+) in variable expressions
+
 
 
 
 
 ID: T09.G4.02
 Topic: T09 – Variables & Expressions
-Skill: Use addition (+) in variable expressions
-Description: Students use the + operator block to create expressions that add values, such as "set total to score + bonus" or "set sum to a + b". They understand that the + operator combines two values into a sum and can be used with variables, literals, or other expressions. This extends the foundation with practical addition patterns.
+Skill: Use multiplication (*) in expressions
+Description: Students use the * operator to create expressions that multiply values, such as "set total to lives * 100" or "set area to width * height". They understand that multiplication scales one value by another.
 
 Dependencies:
-* T09.G4.01: Use arithmetic operators in variable expressions (foundation)
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.01.01: Use subtraction (-) in variable expressions
+
+
+
+
+
+ID: T09.G4.02.01
+Topic: T09 – Variables & Expressions
+Skill: Use division (/) in expressions
+Description: Students use the / operator to create expressions that divide values, such as "set average to sum / count" or "set half to total / 2". They understand that division splits one value by another and may produce decimal results.
+
+Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.02: Use multiplication (*) in expressions
+
 
 
 
 
 ID: T09.G4.03
 Topic: T09 – Variables & Expressions
-Skill: Use subtraction (-) in variable expressions
-Description: Students use the - operator block to create expressions that subtract values, such as "set remaining to total - used" or "set difference to a - b". They understand that the - operator finds the difference between two values and can compute negative results.
+Skill: Combine two arithmetic operators in a single expression
+Description: Students write expressions that combine exactly two operators in one statement using the same type of operation, such as "a + b + c" or "x * y * z". They learn to nest operator blocks in Scratch/CreatiCode and read the resulting expression. This is simpler than mixing different operator types and prepares for G6.02 precedence rules.
 
 Dependencies:
-* T09.G4.01: Use arithmetic operators in variable expressions (foundation)
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.02.01: Use division (/) in expressions
+
 
 
 
 
 ID: T09.G4.04
 Topic: T09 – Variables & Expressions
-Skill: Use multiplication (*) in expressions
-Description: Students use the * operator to create expressions that multiply values, such as "set total to lives * 100" or "set area to width * height". They understand that multiplication scales one value by another.
+Skill: Store and use user input in a variable
+Description: Students use an "ask and wait" or input block to capture user input (a number or text), store it in a variable, and then use that variable in later blocks or conditionals.
 
 Dependencies:
-* T09.G4.01: Use arithmetic operators in variable expressions (foundation)
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G3.02: Build a key‑press script that controls a sprite
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.03: Use a variable in a simple conditional (if block)
+
 
 
 
 
 ID: T09.G4.05
 Topic: T09 – Variables & Expressions
-Skill: Use division (/) in expressions
-Description: Students use the / operator to create expressions that divide values, such as "set average to sum / count" or "set half to total / 2". They understand that division splits one value by another and may produce decimal results.
+Skill: Use a variable as a loop counter
+Description: Students create a counter variable (e.g., "i" or "count"), set it to a starting value before a loop, and change it by 1 inside the loop each iteration. They display or use the counter value to see it change (e.g., say the number, or use it to position a sprite). This introduces the for-loop pattern: initialize before loop, update inside loop. Example: set i to 1, repeat 5 times: say i, change i by 1.
 
 Dependencies:
-* T09.G4.01: Use arithmetic operators in variable expressions (foundation)
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+* T09.G3.02: Use change block to increase a variable
+
 
 
 
 
 ID: T09.G4.06
 Topic: T09 – Variables & Expressions
-Skill: Combine two arithmetic operators in a single expression
-Description: Students write expressions that combine exactly two operators in one statement using the same type of operation, such as "a + b + c" or "x * y * z". They learn to nest operator blocks in Scratch/CreatiCode and read the resulting expression. This is simpler than mixing different operator types and prepares for G6.02 precedence rules.
+Skill: Use basic comparison operators (=, <) in conditionals
+Description: Students use the equals (=) and less than (<) operators in conditionals to compare values. Examples: "if score = 10", "if lives < 3". They understand that comparisons evaluate to true/false and control program flow. These are the most intuitive comparisons for beginners.
 
 Dependencies:
-* T09.G4.02: Use addition (+) in variable expressions
-* T09.G4.03: Use subtraction (-) in variable expressions
-* T09.G4.04: Use multiplication (*) in expressions
-* T09.G4.05: Use division (/) in expressions
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.03: Use a variable in a simple conditional (if block)
+* T09.G3.05: Trace code with variables to predict outcomes
+
+
+
+
+
+ID: T09.G4.06.01
+Topic: T09 – Variables & Expressions
+Skill: Use greater than (>) operator in conditionals
+Description: Students use the greater than (>) operator to check if one value exceeds another. Examples: "if score > 100", "if health > 0". They understand that > is the opposite of < and when to use each.
+
+Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.06: Use basic comparison operators (=, <) in conditionals
+
+
+
+
+
+ID: T09.G4.06.02
+Topic: T09 – Variables & Expressions
+Skill: Use not equal (≠) operator in conditionals
+Description: Students use the not equal (≠) operator to check if values are different. Examples: "if lives ≠ 0", "if answer ≠ correct". They understand that ≠ is the opposite of = and when checking for difference is useful.
+
+Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.06: Use basic comparison operators (=, <) in conditionals
+
+
+
+
+
+ID: T09.G4.06.03
+Topic: T09 – Variables & Expressions
+Skill: Use greater-or-equal (≥) and less-or-equal (≤) operators
+Description: Students use >= and <= operators for inclusive comparisons. Examples: "if score >= 100" (at least 100), "if health <= 20" (at most 20). They understand these include the boundary value unlike > and <, which is important for "at least" and "at most" conditions.
+
+Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G2.03: Compare a long explicit description vs a compressed "repeat" description
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G4.06.01: Use greater than (>) operator in conditionals
+
 
 
 
 
 ID: T09.G4.07
 Topic: T09 – Variables & Expressions
-Skill: Store and use user input in a variable
-Description: Students use an "ask and wait" or input block to capture user input (a number or text), store it in a variable, and then use that variable in later blocks or conditionals.
+Skill: Use a flag variable to track state (0/1 or true/false)
+Description: Students create variables (using 0/1 or meaningful names like "game_over") to remember whether an event occurred. They set the flag when the event happens (e.g., "set has_key to 1" when collecting a key) and check it in conditionals to control later behavior (e.g., "if has_key = 1 then open door"). This introduces state tracking, where a variable's value persists and affects future decisions.
 
 Dependencies:
-* T06.G3.02: Build a key‑press script that controls a sprite
-* T09.G3.04: Use a variable in a simple conditional (if block)
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T06.G2.03: Design a simple "if-then" game rule
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.03: Use a variable in a simple conditional (if block)
+* T09.G3.04.01: Debug missing variable initialization
+
 
 
 
 
 ID: T09.G4.08
 Topic: T09 – Variables & Expressions
-Skill: Use a variable as a loop counter
-Description: Students create a counter variable (e.g., "i" or "count"), set it to a starting value before a loop, and change it by 1 inside the loop each iteration. They display or use the counter value to see it change (e.g., say the number, or use it to position a sprite). This introduces the for-loop pattern: initialize before loop, update inside loop. Example: set i to 1, repeat 5 times: say i, change i by 1.
-
-Dependencies:
-* T07.G3.01: Use a counted repeat loop
-* T09.G3.02: Change and reduce variables with display monitoring
-
-
-
-
-ID: T09.G4.09
-Topic: T09 – Variables & Expressions
-Skill: Use comparison operators in conditionals (foundation)
-Description: Students understand that conditionals can compare variable values using operators. They use the equals (=) and less than (<) operators as their first comparisons. Examples: "if score = 10", "if lives < 3". They understand that comparisons evaluate to true/false and control program flow. These are the most intuitive comparisons for beginners and establish the foundation for all comparison operators.
-
-Dependencies:
-* T09.G3.04: Use a variable in a simple conditional (if block)
-* T09.G3.07: Trace code with variables to predict outcomes
-
-
-
-
-ID: T09.G4.10
-Topic: T09 – Variables & Expressions
-Skill: Use basic comparison operators (=, <) in conditionals
-Description: Students use the equals (=) and less than (<) operators in conditionals to compare values. Examples: "if score = 10", "if lives < 3". They understand that comparisons evaluate to true/false and control program flow. These are the most intuitive comparisons for beginners.
-
-Dependencies:
-* T09.G4.09: Use comparison operators in conditionals (foundation)
-
-
-
-
-ID: T09.G4.11
-Topic: T09 – Variables & Expressions
-Skill: Use greater than (>) operator in conditionals
-Description: Students use the greater than (>) operator to check if one value exceeds another. Examples: "if score > 100", "if health > 0". They understand that > is the opposite of < and when to use each.
-
-Dependencies:
-* T09.G4.09: Use comparison operators in conditionals (foundation)
-
-
-
-
-ID: T09.G4.12
-Topic: T09 – Variables & Expressions
-Skill: Use not equal (≠) and inclusive comparison (≥, ≤) operators
-Description: Students use not equal (≠) to check if values are different, and greater-or-equal (≥) and less-or-equal (≤) for inclusive comparisons. Examples: "if lives ≠ 0", "if score >= 100" (at least 100), "if health <= 20" (at most 20). They understand that ≥/≤ include the boundary value unlike >/< which is important for "at least" and "at most" conditions.
-
-Dependencies:
-* T09.G4.10: Use basic comparison operators (=, <) in conditionals
-* T09.G4.11: Use greater than (>) operator in conditionals
-
-
-
-
-ID: T09.G4.13
-Topic: T09 – Variables & Expressions
-Skill: Use a flag variable to track state (0/1 or true/false)
-Description: Students create variables (using 0/1 or meaningful names like "game_over") to remember whether an event occurred. They set the flag when the event happens (e.g., "set has_key to 1" when collecting a key) and check it in conditionals to control later behavior (e.g., "if has_key = 1 then open door"). This introduces state tracking, where a variable's value persists and affects future decisions.
-
-Dependencies:
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G3.04: Use a variable in a simple conditional (if block)
-* T09.G3.05: Debug missing initialization and wrong update values
-
-
-
-
-ID: T09.G4.14
-Topic: T09 – Variables & Expressions
 Skill: Use random number blocks to set variable values
 Description: Students use the "pick random (min) to (max)" block to set variables to random values, enabling games with unpredictable elements like random enemy positions, random prizes, or dice rolls.
 
 Dependencies:
-* T09.G3.01: Create, initialize, and increment a variable
+* T01.G2.01: Find actions that repeat in everyday tasks
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T04.G3.02: Match a repeat box diagram to code blocks
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.01.02: Set a variable to an initial value at program start
 
 
 
 
-ID: T09.G4.15
+
+ID: T09.G4.08.01
 Topic: T09 – Variables & Expressions
 Skill: Choose appropriate variable display modes (normal, large, slider)
 Description: Students right-click on a variable monitor and choose between display modes: normal (shows name and value), large (shows only value in big text), or slider (shows value with draggable control). They understand when each mode is useful for different purposes (large for score display, slider for testing/adjusting values).
 
 Dependencies:
-* T09.G3.02: Change and reduce variables with display monitoring
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T06.G2.01: Create a simple cause-and-effect chain with picture cards
+* T06.G2.02: Match multiple triggers to the same action
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T09.G3.01.04: Display variable value on stage using the variable monitor
 * T12.G3.01: Test and trace simple block-based scripts
 
 
 
 
-ID: T09.G4.16
+
+ID: T09.G4.09.01
 Topic: T09 – Variables & Expressions
 Skill: Debug variable used before initialization
-Description: Students examine a program where a variable is used in an expression or conditional before being initialized (set to a starting value). They trace through the code to identify that the variable needs to be initialized at program start or before first use. This builds on G3.05 by handling scripts with 6-10 blocks in more complex contexts.
+Description: Students examine a program where a variable is used in an expression or conditional before being initialized (set to a starting value). They trace through the code to identify that the variable needs to be initialized at program start or before first use. This builds on G3.04.01 by handling scripts with 6-10 blocks in more complex contexts.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T09.G3.06: Debug missing change/update block
-* T09.G4.08: Use a variable as a loop counter
+* T09.G3.04.03: Debug wrong value in variable block
+* T09.G4.05: Use a variable as a loop counter
 * T12.G3.01: Test and trace simple block-based scripts
 
 
 
 
-ID: T09.G4.17
+
+ID: T09.G4.09.02
 Topic: T09 – Variables & Expressions
-Skill: Debug wrong variable or update frequency errors
-Description: Students examine programs where the wrong variable is used in an expression (e.g., using "lives" instead of "score") OR a variable is updated the wrong number of times (often in loops - counter increments on every frame instead of once per event). They trace through the code to identify which variable should be used based on intended logic, or trace loop iterations to identify update frequency problems. This consolidates the two common intermediate debugging patterns.
+Skill: Debug wrong variable selected in expression
+Description: Students examine a program where the wrong variable is used in an expression or conditional (e.g., using "lives" instead of "score" in a calculation). They trace through the code to identify which variable should be used based on the intended logic. This requires understanding variable names and their purposes.
 
 Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T07.G3.01: Use a counted repeat loop
-* T09.G4.08: Use a variable as a loop counter
-* T09.G4.16: Debug variable used before initialization
+* T09.G4.09.01: Debug variable used before initialization
 * T12.G3.01: Test and trace simple block-based scripts
+
+
+
+
+
+ID: T09.G4.09.03
+Topic: T09 – Variables & Expressions
+Skill: Debug variable updated too many or too few times
+Description: Students examine a program where a variable is updated the wrong number of times, often in a loop context (e.g., counter increments on every frame instead of once per event, or doesn't increment inside the loop when it should). They trace through the loop iterations to identify the update frequency problem and fix the placement or condition of the update block.
+
+Dependencies:
+* T02.G2.01: Turn a picture routine into labeled boxes
+* T02.G2.02: Read a box diagram and choose the matching pictures
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T07.G3.01: Use a counted repeat loop
+* T09.G4.09.02: Debug wrong variable selected in expression
+* T09.G4.05: Use a variable as a loop counter
+* T12.G3.01: Test and trace simple block-based scripts
+
 
 
 
@@ -9960,8 +10082,9 @@ Skill: Use multiple variables together in a single expression
 Description: Students write expressions that reference 2-3 different variables in one calculation, such as "set area to width * height" or "set total to price * quantity". The focus is on using multiple named variables (not just literals) to compute a result, understanding that variables can reference each other.
 
 Dependencies:
-* T09.G4.06: Combine two arithmetic operators in a single expression
-* T09.G4.17: Debug wrong variable or update frequency errors
+* T09.G4.03: Combine two arithmetic operators in a single expression
+* T09.G4.09.03: Debug variable updated too many or too few times
+
 
 
 
@@ -9972,137 +10095,144 @@ Skill: Create and use string variables
 Description: Students create variables that hold text instead of numbers (e.g., name, message, status). They set string values using "set [myName] to [Alice]" and display them using say blocks or labels.
 
 Dependencies:
+* T09.G4.04: Store and use user input in a variable
 * T06.G5.01: Identify standard event patterns in a small game
-* T09.G4.07: Store and use user input in a variable
 
 
 
 
-ID: T09.G5.03
+
+ID: T09.G5.02.01
 Topic: T09 – Variables & Expressions
 Skill: Create and use boolean variables with true/false values
 Description: Students create variables that hold boolean (true/false) values instead of numbers or text. They set boolean values using logic blocks and use them in conditionals to control program flow. Examples: "set isJumping to true", "if isJumping = true then...". This is more intuitive than using 0/1 for flags.
 
 Dependencies:
+* T09.G4.07: Use a flag variable to track state (0/1 or true/false)
 * T08.G5.00: Draw decision tree flowchart
-* T09.G4.13: Use a flag variable to track state (0/1 or true/false)
 
 
 
 
-ID: T09.G5.04
+
+
+
+ID: T09.G5.02.02
 Topic: T09 – Variables & Expressions
 Skill: Distinguish between number, string, and boolean variable types
 Description: Students identify the three main variable types (number, string, boolean) and explain what each can store. They predict what happens when you try to use the wrong type (e.g., adding a number to a string) and choose the appropriate variable type for different data. Example: "score" should be number, "playerName" should be string, "gameOver" should be boolean.
 
 Dependencies:
 * T09.G5.02: Create and use string variables
-* T09.G5.03: Create and use boolean variables with true/false values
+* T09.G5.02.01: Create and use boolean variables with true/false values
+
+ID: T09.G5.03
+Topic: T09 – Variables & Expressions
+Skill: Join strings using concatenation
+Description: Students use the `join` block to combine multiple text values into one string, such as "join [Hello ] [name]" to create personalized messages. They understand that join combines text end-to-end without spaces unless explicitly added.
+
+Dependencies:
+* T09.G5.02: Create and use string variables
+* T06.G5.01: Identify standard event patterns in a small game
+
+
+
+
+
+ID: T09.G5.03.01
+Topic: T09 – Variables & Expressions
+Skill: Use multi-input join with separator
+Description: Students use the advanced join block `join [T1] [T2] [T3] [T4] [T5] [T6] with [SEPARATOR]` to combine multiple strings with a separator between them. They apply this for creating CSV data, formatted lists, or comma-separated values. Example: join names with ", " to create "Alice, Bob, Carol".
+
+Dependencies:
+* T09.G5.03: Join strings using concatenation
+
+
+
+
+
+ID: T09.G5.04
+Topic: T09 – Variables & Expressions
+Skill: Use variables as settings to control program behavior
+Description: Students create variables that control game or program settings (e.g., player_speed, enemy_count, difficulty_level) and use them throughout the code so changing one value updates the entire program's behavior. This demonstrates the power of variables as configurable parameters.
+
+Dependencies:
+* T09.G4.09.03: Debug variable updated too many or too few times
+* T11.G5.01: Decompose a problem into logical custom block boundaries
+
 
 
 
 
 ID: T09.G5.05
 Topic: T09 – Variables & Expressions
-Skill: Join strings using concatenation
-Description: Students use the `join` block to combine multiple text values into one string, such as "join [Hello ] [name]" to create personalized messages. They understand that join combines text end-to-end without spaces unless explicitly added.
+Skill: Use the accumulator pattern to compute running totals
+Description: Students implement the accumulator pattern: initialize a variable to 0, then add values to it repeatedly (in a loop or across events) to compute totals. They understand this pattern is essential for sums, averages, and statistics. Example: "set total to 0", then in loop: "change total by (item value)".
 
 Dependencies:
+* T09.G4.05: Use a variable as a loop counter
+* T09.G4.09.03: Debug variable updated too many or too few times
 * T06.G5.01: Identify standard event patterns in a small game
-* T09.G5.02: Create and use string variables
+* T07.G5.01: Simulate repeated experiments with a loop
+* T04.G5.01: Identify and classify counter update patterns in code
+
 
 
 
 
 ID: T09.G5.06
 Topic: T09 – Variables & Expressions
-Skill: Use multi-input join with separator
-Description: Students use the advanced join block `join [T1] [T2] [T3] [T4] [T5] [T6] with [SEPARATOR]` to combine multiple strings with a separator between them. They apply this for creating CSV data, formatted lists, or comma-separated values. Example: join names with ", " to create "Alice, Bob, Carol".
+Skill: Trace a counter through loop iterations to predict final value
+Description: Students trace a script where a counter variable starts at a value and changes inside a repeat loop, tracking its value at each iteration and predicting the final value. Example: "set i to 0, repeat 5 times: change i by 2" results in i = 10. This extends G3.05 tracing to multi-iteration contexts.
 
 Dependencies:
-* T09.G5.05: Join strings using concatenation
+* T09.G4.05: Use a variable as a loop counter
+* T07.G5.01: Simulate repeated experiments with a loop
+* T04.G5.01: Identify and classify counter update patterns in code
+* T02.G5.01: Trace a script with nested loops using debug print
+
 
 
 
 
 ID: T09.G5.07
 Topic: T09 – Variables & Expressions
-Skill: Use variables as settings to control program behavior
-Description: Students create variables that control game or program settings (e.g., player_speed, enemy_count, difficulty_level) and use them throughout the code so changing one value updates the entire program's behavior. This demonstrates the power of variables as configurable parameters.
+Skill: Trace code with multiple interacting variables
+Description: Students trace code involving 2-3 variables that interact through expressions, recording each variable's value at each step. Focus on understanding how assignment order affects results (e.g., "set a to b" before vs after "set b to 5").
 
 Dependencies:
-* T09.G4.17: Debug wrong variable or update frequency errors
-* T11.G5.01: Decompose a problem into logical custom block boundaries
+* T09.G5.01: Use multiple variables together in a single expression
+* T09.G5.06: Trace a counter through loop iterations to predict final value
+* T02.G5.01: Trace a script with nested loops using debug print
+
 
 
 
 
 ID: T09.G5.08
 Topic: T09 – Variables & Expressions
-Skill: Use the accumulator pattern to compute running totals
-Description: Students implement the accumulator pattern: initialize a variable to 0, then add values to it repeatedly (in a loop or across events) to compute totals. They understand this pattern is essential for sums, averages, and statistics. Example: "set total to 0", then in loop: "change total by (item value)".
+Skill: Track high score using variable comparison
+Description: Students implement a high score system: compare current score to high_score variable, and if current is greater, update high_score. This combines accumulator tracking with conditional updates and persists the "best so far" value.
 
 Dependencies:
+* T09.G4.06.03: Use greater-or-equal (≥) and less-or-equal (≤) operators
+* T09.G5.05: Use the accumulator pattern to compute running totals
+* T08.G5.00: Draw decision tree flowchart
 * T04.G5.01: Identify and classify counter update patterns in code
-* T06.G5.01: Identify standard event patterns in a small game
-* T07.G5.01: Simulate repeated experiments with a loop
-* T09.G4.08: Use a variable as a loop counter
-* T09.G4.17: Debug wrong variable or update frequency errors
+
+
 
 
 
 
 ID: T09.G5.09
 Topic: T09 – Variables & Expressions
-Skill: Trace a counter through loop iterations to predict final value
-Description: Students trace a script where a counter variable starts at a value and changes inside a repeat loop, tracking its value at each iteration and predicting the final value. Example: "set i to 0, repeat 5 times: change i by 2" results in i = 10. This extends G3.07 tracing to multi-iteration contexts.
-
-Dependencies:
-* T02.G5.01: Trace a script with nested loops using debug print
-* T04.G5.01: Identify and classify counter update patterns in code
-* T07.G5.01: Simulate repeated experiments with a loop
-* T09.G4.08: Use a variable as a loop counter
-
-
-
-
-ID: T09.G5.10
-Topic: T09 – Variables & Expressions
-Skill: Trace code with multiple interacting variables
-Description: Students trace code involving 2-3 variables that interact through expressions, recording each variable's value at each step. Focus on understanding how assignment order affects results (e.g., "set a to b" before vs after "set b to 5").
-
-Dependencies:
-* T02.G5.01: Trace a script with nested loops using debug print
-* T09.G5.01: Use multiple variables together in a single expression
-* T09.G5.09: Trace a counter through loop iterations to predict final value
-
-
-
-
-ID: T09.G5.11
-Topic: T09 – Variables & Expressions
-Skill: Track high score using variable comparison
-Description: Students implement a high score system: compare current score to high_score variable, and if current is greater, update high_score. This combines accumulator tracking with conditional updates and persists the "best so far" value.
-
-Dependencies:
-* T04.G5.01: Identify and classify counter update patterns in code
-* T08.G5.00: Draw decision tree flowchart
-* T09.G4.12: Use not equal (≠) and inclusive comparison (≥, ≤) operators
-* T09.G5.08: Use the accumulator pattern to compute running totals
-
-
-
-
-ID: T09.G5.12
-Topic: T09 – Variables & Expressions
 Skill: Apply basic text formatting using string operations
 Description: Students combine string variables and join operations to create formatted output messages. They build messages like "Player: [name] - Score: [score]" by joining text literals with variable values. This prepares them for more advanced string operations in Grade 6 by practicing composition of text from multiple parts.
 
 Dependencies:
-* T09.G5.06: Use multi-input join with separator
-* T09.G5.10: Trace code with multiple interacting variables
-
-
+* T09.G5.03.01: Use multi-input join with separator
+* T09.G5.07: Trace code with multiple interacting variables
 
 
 ID: T09.G6.01
@@ -10111,8 +10241,9 @@ Skill: Model real-world quantities using variables and formulas
 Description: Students create variables representing real-world quantities (e.g., distance, time, money, temperature) and update them using formulas. Examples: total_cost = price × quantity, distance = speed × time. This connects math formulas to programming.
 
 Dependencies:
-* T09.G5.08: Use the accumulator pattern to compute running totals
-* T09.G5.10: Trace code with multiple interacting variables
+* T09.G5.05: Use the accumulator pattern to compute running totals
+* T09.G5.07: Trace code with multiple interacting variables
+
 
 
 
@@ -10123,12 +10254,13 @@ Skill: Apply operator precedence rules (PEMDAS) in expressions
 Description: Students write and evaluate expressions mixing addition/subtraction with multiplication/division, understanding that * and / are evaluated before + and -. They learn to read and predict evaluation order in expressions like "a + b * c" (multiply first, then add). This focuses on understanding the default order of operations.
 
 Dependencies:
-* T09.G5.10: Trace code with multiple interacting variables
+* T09.G5.07: Trace code with multiple interacting variables
 
 
 
 
-ID: T09.G6.03
+
+ID: T09.G6.02.01
 Topic: T09 – Variables & Expressions
 Skill: Use parentheses to override operator precedence
 Description: Students use parentheses to control evaluation order in expressions, overriding default PEMDAS precedence. They predict and explain different results from "(a + b) * c" vs "a + b * c". This enables them to write expressions that match their intended calculation order.
@@ -10139,104 +10271,149 @@ Dependencies:
 
 
 
-ID: T09.G6.04
+
+ID: T09.G6.03
 Topic: T09 – Variables & Expressions
-Skill: Use exponents (^) and modulo (%) operators
-Description: Students use the power operator (^) to compute squares, cubes, and other powers (e.g., "set area to side ^ 2"), and the modulo operator (% or mod) to find remainders from division. They apply modulo to practical tasks like determining odd/even numbers (n mod 2), cycling through values, or creating repeating patterns. Example: "if score mod 10 = 0" to trigger events every 10 points.
+Skill: Use exponents (^) in expressions
+Description: Students use the power operator (^) to compute squares, cubes, and other powers in expressions, such as "set area to side ^ 2" for square area or "set volume to side ^ 3" for cube volume. This extends arithmetic operations to exponential calculations.
 
 Dependencies:
-* T09.G6.03: Use parentheses to override operator precedence
+* T09.G6.02.01: Use parentheses to override operator precedence
+
+
+
+
+
+ID: T09.G6.03.01
+Topic: T09 – Variables & Expressions
+Skill: Use modulo (remainder) operator in expressions
+Description: Students use the modulo operator (mod or %) to find remainders from division. They apply this to practical tasks like determining odd/even numbers (n mod 2), cycling through values (position mod max), or creating repeating patterns. Example: "if score mod 10 = 0" to trigger events every 10 points.
+
+Dependencies:
+* T09.G6.02.01: Use parentheses to override operator precedence
+
+
+
+
+
+ID: T09.G6.04
+Topic: T09 – Variables & Expressions
+Skill: Use string length operator
+Description: Students use `length of [string]` to get the character count of text. They apply this to validate input (e.g., check password length) or process text. Example: "if length of [name] > 10".
+
+Dependencies:
+* T09.G5.03: Join strings using concatenation
+
+
+
+
+
+ID: T09.G6.04.01
+Topic: T09 – Variables & Expressions
+Skill: Use case conversion (uppercase/lowercase) operators
+Description: Students use `[CASE v] of text [T]` blocks to convert text to uppercase or lowercase. They apply this for formatting output or case-insensitive comparisons. Examples: uppercase for shouting effects, lowercase for normalizing user input.
+
+Dependencies:
+* T09.G6.04: Use string length operator
+
+
+
+
+
+ID: T09.G6.04.02
+Topic: T09 – Variables & Expressions
+Skill: Use letter-of operator to extract single character
+Description: Students use the `letter (position) of [text]` block to extract a single character from a specific position in a string. They apply this for character-by-character text processing, validation, or creating acronyms. Example: "letter 1 of [name]" to get first initial.
+
+Dependencies:
+* T09.G6.04.01: Use case conversion (uppercase/lowercase) operators
+
 
 
 
 
 ID: T09.G6.05
 Topic: T09 – Variables & Expressions
-Skill: Use string length and join operations
-Description: Students use `length of [string]` to get the character count of text and combine it with join operations for validation and formatting. They apply this to validate input (e.g., check password length) and create formatted output. Example: "if length of [name] > 10".
+Skill: Use position operator to find substrings
+Description: Students use `position of [search] in [text]` to find where a substring appears (returns position number, or 0 if not found). They apply this for text searching and validation. Example: check if email contains "@".
 
 Dependencies:
-* T09.G5.05: Join strings using concatenation
+* T09.G6.04.02: Use letter-of operator to extract single character
+
+
+
+
+
+ID: T09.G6.05.01
+Topic: T09 – Variables & Expressions
+Skill: Use substring operator to extract text portions
+Description: Students use `substring of [text] from position (start) to (end)` to extract parts of strings. They apply this for text parsing, extracting initials, or getting file extensions. Example: extract first name from full name.
+
+Dependencies:
+* T09.G6.05: Use position operator to find substrings
+
+
+
+
+
+ID: T09.G6.05.02
+Topic: T09 – Variables & Expressions
+Skill: Use replace operator to substitute text
+Description: Students use the `replace [old] with [new] in [text]` block to substitute text within strings. They apply this for text correction, find-and-replace operations, or text normalization. Example: replace all spaces with underscores in a filename.
+
+Dependencies:
+* T09.G6.05.01: Use substring operator to extract text portions
+
+
+
+
+
+ID: T09.G6.05.03
+Topic: T09 – Variables & Expressions
+Skill: Use split operator to break string into parts
+Description: Students use the `split [text] by [delimiter]` block to break a string into a list of parts separated by a delimiter. They apply this for parsing CSV data, breaking sentences into words, or processing structured text. Example: split "apple,banana,cherry" by "," to get a list of fruits.
+
+Dependencies:
+* T09.G6.05.02: Use replace operator to substitute text
+
 
 
 
 
 ID: T09.G6.06
 Topic: T09 – Variables & Expressions
-Skill: Extract characters with letter-of operator
-Description: Students use the `letter (position) of [text]` block to extract a single character from a specific position in a string. They apply this for character-by-character text processing, validation, or creating acronyms. Example: "letter 1 of [name]" to get first initial.
+Skill: Use temporary variables for multi-step calculations
+Description: Students create temporary variables to hold intermediate results in multi-step calculations. For example, when calculating average: first compute total, then count, then divide total by count. This improves code readability and enables debugging by inspecting intermediate states.
 
 Dependencies:
-* T09.G6.05: Use string length and join operations
+* T09.G5.05: Use the accumulator pattern to compute running totals
+* T09.G6.02.01: Use parentheses to override operator precedence
+
+
+
+
+
+ID: T09.G6.06.01
+Topic: T09 – Variables & Expressions
+Skill: Trace variable values across multiple event handlers
+Description: Students trace how variables maintain their values across different event handlers and broadcasts. They predict the value of a variable after a sequence of events: one script sets a variable and broadcasts a message, another script receiving that broadcast reads the updated value. This demonstrates coordination between different parts of a program through shared variable state.
+
+Dependencies:
+* T09.G5.04: Use variables as settings to control program behavior
+
 
 
 
 
 ID: T09.G6.07
 Topic: T09 – Variables & Expressions
-Skill: Find and extract text with position and substring operators
-Description: Students use `position of [search] in [text]` to find where a substring appears (returns position number, or 0 if not found), and `substring of [text] from position (start) to (end)` to extract parts of strings. They apply this for text searching, parsing, and extracting portions like initials or file extensions. Example: check if email contains "@", extract first name from full name.
-
-Dependencies:
-* T09.G6.06: Extract characters with letter-of operator
-
-
-
-
-ID: T09.G6.08
-Topic: T09 – Variables & Expressions
-Skill: Transform text with replace, split, and case operators
-Description: Students use `replace [old] with [new] in [text]` to substitute text, `split [text] by [delimiter]` to break strings into lists, and `[CASE v] of text [T]` for uppercase/lowercase conversion. They apply these for text normalization, parsing CSV data, formatting output, and case-insensitive comparisons. Example: replace all spaces with underscores, split "apple,banana,cherry" by ",", convert to uppercase for shouting effects.
-
-Dependencies:
-* T09.G6.07: Find and extract text with position and substring operators
-
-
-
-
-ID: T09.G6.09
-Topic: T09 – Variables & Expressions
-Skill: Use temporary variables for multi-step calculations
-Description: Students create temporary variables to hold intermediate results in multi-step calculations. For example, when calculating average: first compute total, then count, then divide total by count. This improves code readability and enables debugging by inspecting intermediate states.
-
-Dependencies:
-* T09.G5.08: Use the accumulator pattern to compute running totals
-* T09.G6.03: Use parentheses to override operator precedence
-
-
-
-
-ID: T09.G6.10
-Topic: T09 – Variables & Expressions
-Skill: Trace variable values across multiple event handlers
-Description: Students trace how variables maintain their values across different event handlers and broadcasts. They predict the value of a variable after a sequence of events: one script sets a variable and broadcasts a message, another script receiving that broadcast reads the updated value. This demonstrates coordination between different parts of a program through shared variable state.
-
-Dependencies:
-* T09.G5.07: Use variables as settings to control program behavior
-
-
-
-
-ID: T09.G6.11
-Topic: T09 – Variables & Expressions
 Skill: Debug off-by-one and comparison operator errors
-Description: Students debug scripts where variables control program flow through conditionals and loops. Common bugs include: wrong comparison operator (using > instead of >=), off-by-one errors in loop conditions, or variables not being reset. This extends G4.17 by focusing on control-flow bugs.
+Description: Students debug scripts where variables control program flow through conditionals and loops. Common bugs include: wrong comparison operator (using > instead of >=), off-by-one errors in loop conditions, or variables not being reset. This extends G4.09 by focusing on control-flow bugs.
 
 Dependencies:
-* T09.G4.17: Debug wrong variable or update frequency errors
-* T09.G5.10: Trace code with multiple interacting variables
+* T09.G4.09.03: Debug variable updated too many or too few times
+* T09.G5.07: Trace code with multiple interacting variables
 
-
-
-
-ID: T09.G6.12
-Topic: T09 – Variables & Expressions
-Skill: Use variables to parameterize AI prompts dynamically
-Description: Students create variables to store user preferences, settings, or context information, then use these variables to construct dynamic AI prompts. Examples: "set style to [answer]", then "ask AI to draw [subject] in [style] style", or "set difficulty to [hard]", then "ask AI to generate [difficulty] math problem". This demonstrates how variables enable personalized and adaptive AI interactions.
-
-Dependencies:
-* T09.G5.07: Use variables as settings to control program behavior
-* T09.G5.12: Apply basic text formatting using string operations
 
 
 
@@ -10247,307 +10424,422 @@ Skill: Model dynamic systems where variables change over time
 Description: Students create simulations where variables represent quantities that change each frame or time step. Examples: position updated by velocity, population growing by percentage, temperature cooling. They set up update rules (e.g., "change position by speed") and observe how repeated updates create realistic animations.
 
 Dependencies:
+* T09.G6.06: Use temporary variables for multi-step calculations
 * T07.G5.01: Dynamic systems require loops to update variables over time steps.
-* T09.G6.09: Use temporary variables for multi-step calculations
 
 
+
+
+
+ID: T09.G7.01.01
+Topic: T09 – Variables & Expressions
+Skill: Use rounding functions (round, floor, ceiling) in expressions
+Description: Students use rounding functions to convert decimals to integers: round() rounds to nearest, floor() rounds down, ceiling() rounds up. They understand when each is appropriate. Examples: "set rounded_score to round(score)" for display, "set pages to ceiling(items / 10)" for pagination.
+
+Dependencies:
+* T09.G6.03: Use exponents (^) in expressions
+
+
+
+
+
+ID: T09.G7.01.02
+Topic: T09 – Variables & Expressions
+Skill: Use absolute value (abs) function in expressions
+Description: Students use the abs() function to get the magnitude of a number without regard to sign (removes negative signs). They apply this for distance calculations, error magnitudes, or ensuring positive values. Example: "set distance to abs(x1 - x2)".
+
+Dependencies:
+* T09.G7.01.01: Use rounding functions (round, floor, ceiling) in expressions
+
+
+
+
+
+ID: T09.G7.01.03
+Topic: T09 – Variables & Expressions
+Skill: Use square root (sqrt) function in expressions
+Description: Students use the sqrt() function to find square roots in calculations. They apply this for distance formulas (Pythagorean theorem), scaling, or inverse of squaring operations. Example: "set distance to sqrt((x2-x1)^2 + (y2-y1)^2)".
+
+Dependencies:
+* T09.G7.01.02: Use absolute value (abs) function in expressions
+
+
+
+
+
+
+ID: T09.G7.01.04
+Topic: T09 – Variables & Expressions
+Skill: Use min and max functions to constrain variable values
+Description: Students use min() and max() functions to keep variable values within bounds. Examples: "set x to max(0, min(480, x))" to keep x between 0 and 480, or "set health to max(0, health)" to prevent negative health. This is essential for game boundaries, clamping values, and value validation.
+
+Dependencies:
+* T09.G7.01.03: Use square root (sqrt) function in expressions
 
 
 ID: T09.G7.02
 Topic: T09 – Variables & Expressions
-Skill: Use rounding and absolute value functions
-Description: Students use rounding functions to convert decimals to integers: round() rounds to nearest, floor() rounds down, ceiling() rounds up. They also use abs() to get magnitude without regard to sign. They understand when each is appropriate. Examples: "set rounded_score to round(score)" for display, "set pages to ceiling(items / 10)" for pagination, "set distance to abs(x1 - x2)" for magnitude.
+Skill: Compute average using sum and count variables
+Description: Students implement average calculation: maintain a sum variable (accumulating values) and a count variable (tracking how many), then compute average by dividing sum by count. This combines multiple variable patterns and connects to data analysis.
 
 Dependencies:
-* T09.G6.04: Use exponents (^) and modulo (%) operators
+* T09.G5.05: Use the accumulator pattern to compute running totals
+* T09.G6.06: Use temporary variables for multi-step calculations
+
 
 
 
 
 ID: T09.G7.03
 Topic: T09 – Variables & Expressions
-Skill: Use square root and distance functions
-Description: Students use the sqrt() function to find square roots and distance 2D block to calculate Euclidean distance between points. They apply these for distance formulas (Pythagorean theorem), collision detection ranges, or proximity checks. Examples: "set distance to sqrt((x2-x1)^2 + (y2-y1)^2)" or using the built-in distance block for simplified calculations.
+Skill: Use compound conditions (AND, OR, NOT) with variables
+Description: Students create conditional expressions using logical operators (AND, OR, NOT) to combine multiple variable comparisons. Example: "if score > 10 AND lives > 0" or "if NOT game_over". This enables more nuanced decision logic.
 
 Dependencies:
-* T09.G7.02: Use rounding and absolute value functions
+* T09.G5.08: Track high score using variable comparison
+* T09.G6.07: Debug off-by-one and comparison operator errors
+
 
 
 
 
 ID: T09.G7.04
 Topic: T09 – Variables & Expressions
-Skill: Use min, max, and direction functions
-Description: Students use min() and max() functions to keep variable values within bounds and the direction block to calculate angles between points. Examples: "set x to max(0, min(480, x))" to keep x between 0 and 480, "set health to max(0, health)" to prevent negative health, or calculate angle toward moving target for aiming mechanics. These are essential for game boundaries, clamping values, and trajectory calculations.
+Skill: Distinguish between for-this-sprite and for-all-sprites variable scope
+Description: Students distinguish between for-this-sprite variables (visible only within one sprite) and for-all-sprites variables (visible to all sprites). They choose the appropriate scope when creating variables: for-this-sprite for private data each sprite needs separately, for-all-sprites for shared data like game score. They demonstrate sharing data between sprites using for-all-sprites variables.
 
 Dependencies:
-* T09.G7.03: Use square root and distance functions
+* T09.G5.04: Use variables as settings to control program behavior
+* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 
 
-ID: T09.G7.05
+
+ID: T09.G7.05.01
 Topic: T09 – Variables & Expressions
-Skill: Compute average using sum and count variables
-Description: Students implement average calculation: maintain a sum variable (accumulating values) and a count variable (tracking how many), then compute average by dividing sum by count. This combines multiple variable patterns and connects to data analysis.
+Skill: Save variables to a file (export)
+Description: Students use file export operations to save variable values to a file. This enables persistent storage of game state, settings, or high scores that survives beyond program execution. They understand how to format data for export and choose appropriate file formats.
 
 Dependencies:
-* T09.G5.08: Use the accumulator pattern to compute running totals
-* T09.G6.09: Use temporary variables for multi-step calculations
+* T09.G7.04: Distinguish between for-this-sprite and for-all-sprites variable scope
+
+
+
+
+
+ID: T09.G7.05.02
+Topic: T09 – Variables & Expressions
+Skill: Load variables from a file (import)
+Description: Students use file import operations to load variable values from a file into their program. This enables restoring saved game state, loading settings, or importing data from other sources. They understand how to parse imported data and assign values to variables. This complements export to create complete save/load functionality.
+
+Dependencies:
+* T09.G7.05.01: Save variables to a file (export)
+
 
 
 
 
 ID: T09.G7.06
 Topic: T09 – Variables & Expressions
-Skill: Use compound conditions (AND, OR, NOT) with variables
-Description: Students create conditional expressions using logical operators (AND, OR, NOT) to combine multiple variable comparisons. Example: "if score > 10 AND lives > 0" or "if NOT game_over". This enables more nuanced decision logic.
+Skill: Predict behavior changes from modifying variable values
+Description: Students analyze existing code and predict how behavior changes when variable initialization values, update amounts, or conditions are modified. Example: "If speed changes from 5 to 10, what happens?" This is analytical reasoning about code without running it.
 
 Dependencies:
-* T09.G5.11: Track high score using variable comparison
-* T09.G6.11: Debug off-by-one and comparison operator errors
+* T09.G6.07: Debug off-by-one and comparison operator errors
+* T09.G7.01: Model dynamic systems where variables change over time
+
 
 
 
 
 ID: T09.G7.07
 Topic: T09 – Variables & Expressions
-Skill: Distinguish between for-this-sprite and for-all-sprites variable scope
-Description: Students distinguish between for-this-sprite variables (visible only within one sprite) and for-all-sprites variables (visible to all sprites). They choose the appropriate scope when creating variables: for-this-sprite for private data each sprite needs separately, for-all-sprites for shared data like game score. They demonstrate sharing data between sprites using for-all-sprites variables.
+Skill: Use regex test to check if pattern matches text
+Description: Students use the regex test operation to check if a text string matches a regular expression pattern, returning true or false. They apply this for input validation (e.g., checking if email format is valid, if password meets requirements). Example: test if text matches pattern "^[A-Za-z]+$" for letters only.
 
 Dependencies:
-* T09.G5.07: Use variables as settings to control program behavior
-* T09.G6.01: Model real-world quantities using variables and formulas
+* T09.G6.05.03: Use split operator to break string into parts
+
+
+
+
+
+ID: T09.G7.07.01
+Topic: T09 – Variables & Expressions
+Skill: Use regex match to find pattern occurrences
+Description: Students use the regex match operation to find all occurrences of a pattern in text, returning a list of matches. They apply this for extracting data (e.g., finding all numbers in text, extracting hashtags from messages). Example: match all words starting with capital letters.
+
+Dependencies:
+* T09.G7.07: Use regex test to check if pattern matches text
+
+
+
+
+
+ID: T09.G7.07.02
+Topic: T09 – Variables & Expressions
+Skill: Use regex replace for pattern-based substitution
+Description: Students use the regex replace operation to substitute text matching a pattern with replacement text. They apply this for advanced text processing (e.g., removing all digits, normalizing whitespace, redacting sensitive information). Example: replace all sequences of spaces with single space.
+
+Dependencies:
+* T09.G7.07.01: Use regex match to find pattern occurrences
+
+
+
+
+
+ID: T09.G7.07.03
+Topic: T09 – Variables & Expressions
+Skill: Use regex split to divide text by pattern
+Description: Students use the regex split operation to break text into parts based on a pattern delimiter (not just a fixed string). They apply this for flexible parsing (e.g., split by any whitespace, split by punctuation). Example: split text by one or more spaces using pattern "\s+".
+
+Dependencies:
+* T09.G7.07.02: Use regex replace for pattern-based substitution
+
 
 
 
 
 ID: T09.G7.08
 Topic: T09 – Variables & Expressions
-Skill: Save and load variables from files (import/export)
-Description: Students use file export operations to save variable values to a file and file import operations to load them back. This enables persistent storage of game state, settings, or high scores that survives beyond program execution. They understand how to format data for export/import and create complete save/load functionality.
+Skill: Use distance 2D block to calculate distance between points
+Description: Students use the distance 2D block to calculate the Euclidean distance between two points (x1, y1) and (x2, y2). They apply this for collision detection ranges, proximity checks, or measuring sprite distances. This simplifies distance calculations that would otherwise require the Pythagorean theorem formula.
 
 Dependencies:
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
+* T09.G7.01.03: Use square root (sqrt) function in expressions
+
+
+
+
+
+ID: T09.G7.08.01
+Topic: T09 – Variables & Expressions
+Skill: Use direction block to calculate angle between points
+Description: Students use the direction block to calculate the angle from one point to another point. They apply this for aiming mechanics, rotation toward targets, or trajectory calculations. Example: point sprite toward moving target, calculate reflection angles.
+
+Dependencies:
+* T09.G7.08: Use distance 2D block to calculate distance between points
+
+
 
 
 
 
 ID: T09.G7.09
 Topic: T09 – Variables & Expressions
-Skill: Predict behavior changes from modifying variable values
-Description: Students analyze existing code and predict how behavior changes when variable initialization values, update amounts, or conditions are modified. Example: "If speed changes from 5 to 10, what happens?" This is analytical reasoning about code without running it.
-
-Dependencies:
-* T09.G6.11: Debug off-by-one and comparison operator errors
-* T09.G7.01: Model dynamic systems where variables change over time
-
-
-
-
-ID: T09.G7.10
-Topic: T09 – Variables & Expressions
-Skill: Use regex test to validate text patterns
-Description: Students use the regex test operation to check if a text string matches a regular expression pattern, returning true or false. They apply this for input validation (e.g., checking if email format is valid, if password meets requirements). Example: test if text matches pattern "^[A-Za-z]+$" for letters only.
-
-Dependencies:
-* T09.G6.08: Transform text with replace, split, and case operators
-
-
-
-
-ID: T09.G7.11
-Topic: T09 – Variables & Expressions
-Skill: Use regex match to find pattern occurrences
-Description: Students use the regex match operation to find all occurrences of a pattern in text, returning a list of matches. They apply this for extracting data (e.g., finding all numbers in text, extracting hashtags from messages). Example: match all words starting with capital letters.
-
-Dependencies:
-* T09.G7.10: Use regex test to validate text patterns
-
-
-
-
-ID: T09.G7.12
-Topic: T09 – Variables & Expressions
-Skill: Use regex replace and split for pattern-based text processing
-Description: Students use regex replace to substitute text matching a pattern with replacement text, and regex split to break text into parts based on a pattern delimiter (not just fixed strings). They apply these for advanced text processing: removing all digits, normalizing whitespace, flexible parsing. Examples: replace all sequences of spaces with single space, split by any whitespace using pattern "\s+".
-
-Dependencies:
-* T09.G7.11: Use regex match to find pattern occurrences
-
-
-
-
-ID: T09.G7.13
-Topic: T09 – Variables & Expressions
 Skill: Debug variable scope and update timing errors
 Description: Students identify and fix bugs related to variable scope (using for-this-sprite when for-all-sprites was needed, or vice versa) and update timing (variable read before being set in another script). They trace variable values across multiple sprites and event handlers to diagnose why a variable has an unexpected value. This prepares them for G8 concurrent update debugging.
 
 Dependencies:
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
-* T09.G7.09: Predict behavior changes from modifying variable values
+* T09.G7.04: Distinguish between for-this-sprite and for-all-sprites variable scope
+* T09.G7.06: Predict behavior changes from modifying variable values
 
 
-
-
-ID: T09.G7.14
-Topic: T09 – Variables & Expressions
-Skill: Design variable naming conventions for maintainability
-Description: Students establish and follow consistent variable naming conventions (e.g., camelCase, snake_case, descriptive names) for their projects. They understand how good naming improves code readability and maintainability. They refactor existing code to use better variable names and explain why certain names are clearer than others. Examples: "playerSpeed" vs "ps", "highScore" vs "hs", "isGameOver" vs "flag1".
-
-Dependencies:
-* T09.G6.10: Trace variable values across multiple event handlers
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
-
-
-
-
-ID: T09.G8.01
+ID: T09.G8.01.01
 Topic: T09 – Variables & Expressions
 Skill: Use variables to track index position in linear search
 Description: Students implement a linear search algorithm that uses a variable to track the current index position while searching through values. They initialize an index variable, update it in each iteration, and use it to check each position until finding the target value or reaching the end.
 
 Dependencies:
+* T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
+* T09.G7.06: Predict behavior changes from modifying variable values
 * T02.G6.01: Use the pseudocode generation block
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variable bounds
-* T09.G7.06: Use compound conditions (AND, OR, NOT) with variables
-* T09.G7.09: Predict behavior changes from modifying variable values
+
+
+
+
+
+ID: T09.G8.01.02
+Topic: T09 – Variables & Expressions
+Skill: Use flag variables in search algorithms to track found status
+Description: Students use a boolean flag variable (e.g., "found") to remember whether a search has succeeded. They set the flag to false initially, update it to true when the target is found, and check it to determine next actions. This pattern helps control loop termination and post-search behavior.
+
+Dependencies:
+* T09.G8.01.01: Use variables to track index position in linear search
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+
+
+
+
+
+ID: T09.G8.01.03
+Topic: T09 – Variables & Expressions
+Skill: Use variables in iterative approximation algorithms
+Description: Students implement iterative approximation algorithms (e.g., Newton's method for square roots, binary search for values) that use variables to track and refine estimates across multiple iterations. They understand convergence criteria and when to stop iterating.
+
+Dependencies:
+* T09.G8.01.02: Use flag variables in search algorithms to track found status
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
+
 
 
 
 
 ID: T09.G8.02
 Topic: T09 – Variables & Expressions
-Skill: Use flag variables in search algorithms to track found status
-Description: Students use a boolean flag variable (e.g., "found") to remember whether a search has succeeded. They set the flag to false initially, update it to true when the target is found, and check it to determine next actions. This pattern helps control loop termination and post-search behavior.
+Skill: Simplify and optimize variable expressions
+Description: Students identify opportunities to simplify expressions: replacing "x + x + x" with "x * 3", factoring common subexpressions, or replacing a counting loop with a direct formula. They evaluate trade-offs between readability and efficiency.
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T09.G6.03: Use exponents (^) in expressions
+* T09.G7.06: Predict behavior changes from modifying variable values
 * T06.G6.01: Trace event execution paths in a multi‑event program
 * T07.G6.01: Trace nested loops with variable bounds
-* T09.G8.01: Use variables to track index position in linear search
+* T10.G6.01: Sort a table by a column
+
+
+
+
+
+
+
+
+
+
+ID: T09.G8.02.02
+Topic: T09 – Variables & Expressions
+Skill: Use trigonometric functions (sin, cos, tan) in expressions
+Description: Students use sine, cosine, and tangent functions to calculate angles and circular motion. They apply these to create circular paths, calculate trajectory angles, or convert between polar and Cartesian coordinates. Example: "set x to radius * cos(angle)", "set y to radius * sin(angle)".
+
+Dependencies:
+* T09.G7.01.03: Use square root (sqrt) function in expressions
+* T02.G6.01: Use the pseudocode generation block
+* T07.G6.01: Trace nested loops with variable bounds
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
+
+
+
+
+
+ID: T09.G8.02.03
+Topic: T09 – Variables & Expressions
+Skill: Use inverse trigonometric functions (asin, acos, atan) in expressions
+Description: Students use inverse trigonometric functions (arcsine, arccosine, arctangent) to calculate angles from coordinate ratios or side lengths. They apply these for angle calculation from vectors, direction finding, or converting Cartesian to polar coordinates. Example: "set angle to atan2(dy, dx)" for direction to target.
+
+Dependencies:
+* T09.G8.02.02: Use trigonometric functions (sin, cos, tan) in expressions
+
+
+
+
+
+ID: T09.G8.02.04
+Topic: T09 – Variables & Expressions
+Skill: Use logarithmic functions (ln, log) in expressions
+Description: Students use natural logarithm (ln) and base-10 logarithm (log) functions in calculations. They apply these for exponential decay models, scientific calculations, or data transformations. Example: calculating decay rates, pH calculations, or logarithmic scales.
+
+Dependencies:
+* T09.G8.02.02: Use trigonometric functions (sin, cos, tan) in expressions
+
+
+
+
+
+ID: T09.G8.02.05
+Topic: T09 – Variables & Expressions
+Skill: Use exponential functions (e^x, 10^x) in expressions
+Description: Students use exponential functions with base e (e^x) and base 10 (10^x) in calculations. They apply these for growth models, compound interest, or scientific notation. Example: modeling population growth, radioactive decay, or converting between logarithmic and linear scales.
+
+Dependencies:
+* T09.G8.02.04: Use logarithmic functions (ln, log) in expressions
+
 
 
 
 
 ID: T09.G8.03
 Topic: T09 – Variables & Expressions
-Skill: Use variables in iterative approximation algorithms
-Description: Students implement iterative approximation algorithms (e.g., Newton's method for square roots, binary search for values) that use variables to track and refine estimates across multiple iterations. They understand convergence criteria and when to stop iterating.
+Skill: Use cloud variables for persistent data storage
+Description: Students use cloud variables to save data that persists across sessions and is shared between users. They understand that cloud variables are stored on a server and updated in real-time, enabling high scores, user preferences, or multiplayer data sharing.
 
 Dependencies:
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T09.G7.04: Distinguish between for-this-sprite and for-all-sprites variable scope
+* T09.G7.05.02: Load variables from a file (import)
+* T04.G6.01: Group snippets by underlying algorithm pattern
 * T07.G6.01: Trace nested loops with variable bounds
-* T09.G8.02: Use flag variables in search algorithms to track found status
+* T15.G6.01: Evaluate an interface for usability
+
 
 
 
 
 ID: T09.G8.04
 Topic: T09 – Variables & Expressions
-Skill: Simplify and optimize variable expressions
-Description: Students identify opportunities to simplify expressions: replacing "x + x + x" with "x * 3", factoring common subexpressions, or replacing a counting loop with a direct formula. They evaluate trade-offs between readability and efficiency.
+Skill: Debug variable scope and concurrent update errors
+Description: Students identify and fix bugs in programs with multiple sprites sharing variables: scope confusion (for-this-sprite vs for-all-sprites), race conditions when multiple scripts update the same variable, or initialization order dependencies. They trace variable states across concurrent scripts.
 
 Dependencies:
-* T06.G6.01: Trace event execution paths in a multi‑event program
+* T09.G7.09: Debug variable scope and update timing errors
+* T02.G6.01: Use the pseudocode generation block
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
 * T07.G6.01: Trace nested loops with variable bounds
-* T09.G6.04: Use exponents (^) and modulo (%) operators
-* T09.G7.09: Predict behavior changes from modifying variable values
-* T10.G6.01: Sort a table by a column
+
 
 
 
 
 ID: T09.G8.05
 Topic: T09 – Variables & Expressions
-Skill: Use trigonometric functions in expressions
-Description: Students use sine, cosine, tangent, and their inverse functions (asin, acos, atan) to calculate angles and circular motion. They apply these to create circular paths, calculate trajectory angles, or convert between polar and Cartesian coordinates. Examples: "set x to radius * cos(angle)", "set angle to atan2(dy, dx)" for direction to target.
+Skill: Translate mathematical formulas into code expressions
+Description: Students translate real-world formulas (distance = speed × time, area = π × r², compound interest) into variable assignments and expressions. They handle operator precedence, multi-step calculations, and unit considerations. This capstone skill demonstrates mastery of variables and expressions.
 
 Dependencies:
-* T02.G6.01: Use the pseudocode generation block
+* T09.G6.03: Use exponents (^) in expressions
+* T09.G7.02: Compute average using sum and count variables
+* T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
 * T07.G6.01: Trace nested loops with variable bounds
-* T09.G7.03: Use square root and distance functions
-* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
+* T13.G6.01.01: Track game state with variable
+* T20.G6.01: Plan a mixed-source asset kit for a game or story project
+
 
 
 
 
 ID: T09.G8.06
 Topic: T09 – Variables & Expressions
-Skill: Use logarithmic and exponential functions in expressions
-Description: Students use natural logarithm (ln), base-10 logarithm (log), and exponential functions (e^x, 10^x) in calculations. They apply these for exponential growth/decay models, compound interest, scientific calculations, or data transformations. Examples: modeling population growth, radioactive decay, pH calculations, or converting between logarithmic and linear scales.
+Skill: Use variables to collect and store multiple data readings
+Description: Students use variables to collect data from repeated user inputs or program-generated values over time, storing values for later analysis. They implement collection loops that gather specified numbers of readings and store running statistics. This demonstrates using variables as data collection containers for computational analysis.
 
 Dependencies:
-* T09.G8.05: Use trigonometric functions in expressions
+* T09.G7.02: Compute average using sum and count variables
+* T09.G8.01.01: Use variables to track index position in linear search
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
+
 
 
 
 
 ID: T09.G8.07
 Topic: T09 – Variables & Expressions
-Skill: Use cloud variables for persistent data storage
-Description: Students use cloud variables to save data that persists across sessions and is shared between users. They understand that cloud variables are stored on a server and updated in real-time, enabling high scores, user preferences, or multiplayer data sharing.
+Skill: Use calculate block to evaluate string expressions
+Description: Students use the calculate/evaluate block to evaluate mathematical expressions stored as strings. They apply this for creating calculator programs, evaluating user-entered formulas, or dynamic expression evaluation. Example: calculate "5 + 3 * 2" returns 11. This enables runtime expression parsing and evaluation.
 
 Dependencies:
-* T04.G6.01: Group snippets by underlying algorithm pattern
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
-* T09.G7.08: Save and load variables from files (import/export)
-* T15.G6.01: Evaluate an interface for usability
+* T09.G8.02: Simplify and optimize variable expressions
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+
 
 
 
 
 ID: T09.G8.08
 Topic: T09 – Variables & Expressions
-Skill: Debug variable scope and concurrent update errors
-Description: Students identify and fix bugs in programs with multiple sprites sharing variables: scope confusion (for-this-sprite vs for-all-sprites), race conditions when multiple scripts update the same variable, or initialization order dependencies. They trace variable states across concurrent scripts.
+Skill: Use solve-equation block to find variable values
+Description: Students use the solve-equation block to find values of variables that satisfy equations. They apply this for algebraic problem solving, finding intersections, or constraint satisfaction. Example: solve "x + 5 = 12" for x, or solve "2*x + y = 10 AND x - y = 2" for x and y. This enables symbolic math solving within programs.
 
 Dependencies:
-* T02.G6.01: Use the pseudocode generation block
-* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
-* T07.G6.01: Trace nested loops with variable bounds
-* T09.G7.13: Debug variable scope and update timing errors
+* T09.G8.07: Use calculate block to evaluate string expressions
+* T09.G7.03: Use compound conditions (AND, OR, NOT) with variables
 
 
-
-
-ID: T09.G8.09
-Topic: T09 – Variables & Expressions
-Skill: Use variables to manage state in multi-turn AI conversations
-Description: Students use variables to track conversation context across multiple AI interactions. Examples: storing user preferences mentioned earlier, tracking conversation topics, maintaining dialogue history, or counting interaction rounds. They understand how variables enable AI systems to "remember" previous interactions and provide contextually relevant responses. Example: "set userFavoriteColor to [answer]", then later "generate poem about [userFavoriteColor]".
-
-Dependencies:
-* T09.G6.10: Trace variable values across multiple event handlers
-* T09.G6.12: Use variables to parameterize AI prompts dynamically
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
-
-
-
-
-ID: T09.G8.10
-Topic: T09 – Variables & Expressions
-Skill: Analyze variable usage patterns for code optimization
-Description: Students analyze their code to identify variable usage patterns and optimization opportunities: variables that are set but never read (dead code), variables updated unnecessarily, or calculations that could be cached in variables instead of recomputed. They refactor code to eliminate redundant variable operations and improve efficiency while maintaining correctness.
-
-Dependencies:
-* T09.G7.09: Predict behavior changes from modifying variable values
-* T09.G7.14: Design variable naming conventions for maintainability
-* T09.G8.04: Simplify and optimize variable expressions
-
-
-
-
-ID: T09.G8.11
-Topic: T09 – Variables & Expressions
-Skill: Translate mathematical formulas into code expressions
-Description: Students translate real-world formulas (distance = speed × time, area = π × r², compound interest) into variable assignments and expressions. They handle operator precedence, multi-step calculations, and unit considerations. This capstone skill demonstrates mastery of variables and expressions.
-
-Dependencies:
-* T09.G6.01: Model real-world quantities using variables and formulas
-* T09.G6.03: Use parentheses to override operator precedence
-* T09.G7.05: Compute average using sum and count variables
 # T10 – Lists & Tables (Optimized - November 2025, Revision 2)
 # Optimizations (Revision 1):
 # 1. Enhanced K-2 skills with Visual scenario format (Student task, Visual scenario, Correct answer, Implementation note)
@@ -10817,7 +11109,7 @@ Dependencies:
 
 ---
 
-## GRADE 3 (15 skills)
+## GRADE 3 (13 skills)
 
 
 
@@ -10974,33 +11266,9 @@ Dependencies:
 * T10.G3.10: Display a list monitor on the stage
 
 
-
-
-ID: T10.G3.12
-Topic: T10 – Lists & Tables
-Skill: Debug a list program by identifying wrong positions
-Description: Students identify and fix bugs in list programs where items are accessed, inserted, or deleted at wrong positions. Given a buggy program that should add items to a shopping cart but produces incorrect results, students use step-by-step execution and list monitors to find where positions are off-by-one or incorrect. They practice common debugging patterns: verifying list contents after each operation, checking that indices are within bounds (1 to length), and understanding how deletions shift subsequent items.
-
-Dependencies:
-* T10.G3.11: Predict and trace list changes step by step
-* T10.G3.02: Read items from a list by position (index starts at 1)
-
-
-
-
-ID: T10.G3.13
-Topic: T10 – Lists & Tables
-Skill: Use a list to store user inputs
-Description: Students create interactive programs that collect multiple inputs from users and store them in a list. They use the `ask and wait` block inside a loop to gather several responses (e.g., "Enter 3 favorite foods"), adding each answer to a list. After collection, they display or process the collected data, such as saying all items back to the user. This introduces the practical pattern of building lists dynamically from user interaction rather than hardcoding values.
-
-Dependencies:
-* T10.G3.01.02: Add an item to the end of a list
-* T07.G3.01: Use a counted repeat loop
-
-
 ---
 
-## GRADE 4 (30 skills)
+## GRADE 4 (29 skills)
 
 
 
@@ -11337,33 +11605,9 @@ Dependencies:
 * T07.G3.01: Use a counted repeat loop
 
 
-
-
-ID: T10.G4.22
-Topic: T10 – Lists & Tables
-Skill: Transform each item in a list using a loop
-Description: Students iterate through a list and apply a transformation to each item (e.g., double all numbers, convert all text to uppercase, add a prefix to each name). They use a loop with index access to read each item, transform it, and replace it in the same position. This pattern introduces the map operation concept where every element is processed uniformly. Students trace through a 4-item list showing the before and after state.
-
-Dependencies:
-* T10.G4.18: Loop through list indices
-* T10.G4.04: Replace an item in a list
-
-
-
-
-ID: T10.G4.23
-Topic: T10 – Lists & Tables
-Skill: Reduce a list to a single value using accumulation
-Description: Students implement the accumulator pattern to reduce a list to a single result: start with an initial value (0 for sum, 1 for product, empty string for concatenation), loop through all items, and combine each item with the accumulator. Beyond sum (already covered), students apply this pattern to compute products of all numbers, concatenate all strings, or find the longest string. This introduces the reduce/fold concept foundational to functional programming.
-
-Dependencies:
-* T10.G3.05: Loop through each item in a list
-* T10.G4.06.03: Calculate the sum of all values in a list
-
-
 ---
 
-## GRADE 5 (26 skills)
+## GRADE 5 (22 skills)
 
 
 
@@ -11651,35 +11895,9 @@ Dependencies:
 * T08.G4.01: Combine two conditions with AND
 
 
-
-
-ID: T10.G5.20
-Topic: T10 – Lists & Tables
-Skill: Debug table programs by tracing row and column access
-Description: Students identify and fix bugs in table programs where cells are accessed at wrong row-column combinations, rows are skipped in loops, or data is written to incorrect positions. Given a buggy program that should update a student gradebook but produces incorrect results, students use step-by-step execution and table monitors to trace which cells are being read or written. They practice common debugging patterns: logging row/column indices during loops, verifying cell values match expectations, and checking loop bounds against row count.
-
-Dependencies:
-* T10.G5.04: Read a cell value from a table
-* T10.G5.07: Loop through table rows to compute aggregates
-* T10.G3.12: Debug a list program by identifying wrong positions
-
-
-
-
-ID: T10.G5.21
-Topic: T10 – Lists & Tables
-Skill: Compare values across two columns in the same row
-Description: Students write programs that compare values in different columns of the same row to make decisions or compute derived values. Examples: compare "budget" and "spent" columns to find rows that are over budget, compare "expected" and "actual" columns to calculate differences, or compare "score1" and "score2" columns to determine which is higher. Students loop through rows, read both column values, apply comparison logic, and either flag rows, update a third column, or count matches.
-
-Dependencies:
-* T10.G5.04: Read a cell value from a table
-* T10.G5.07: Loop through table rows to compute aggregates
-* T08.G4.01: Combine two conditions with AND
-
-
 ---
 
-## GRADE 6 (14 skills)
+## GRADE 6 (11 skills)
 
 
 
@@ -11814,48 +12032,9 @@ Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
 
 
-
-
-ID: T10.G6.12
-Topic: T10 – Lists & Tables
-Skill: Implement queue operations (enqueue and dequeue)
-Description: Students implement queue behavior using a list: enqueue (add to end), dequeue (remove and return first item), and peek (read first item without removing). They use `add [item] to [queue]` for enqueue, `item (1) of [queue]` with `delete (1) of [queue]` for dequeue, and recognize FIFO (First-In-First-Out) behavior. Applications include task queues (process tasks in order received), print queues, breadth-first traversal, and simulating waiting lines. Students contrast FIFO (queue) with LIFO (stack) behavior by tracing the same operations on both data structures.
-
-Dependencies:
-* T10.G4.03: Insert an item at a specific position in a list
-* T10.G3.04.01: Delete an item at a specific position
-* T10.G3.03: Get the length of a list
-
-
-
-
-ID: T10.G6.13
-Topic: T10 – Lists & Tables
-Skill: Use frequency counting with lists
-Description: Students count occurrences of each unique value in a list by using parallel lists (one for unique values, one for counts). They loop through the source list, check if each item exists in the values list, and either increment its count or add a new entry. This technique enables finding the most/least frequent items, creating histograms, and analyzing data distributions. Students apply this to real scenarios like counting votes, tallying survey responses, or finding the mode of a dataset.
-
-Dependencies:
-* T10.G4.02: Store and retrieve parallel list data
-* T10.G4.01.01: Find an item's position using built-in block
-* T10.G3.09: Increment or decrement a list item's value
-
-
-
-
-ID: T10.G6.14
-Topic: T10 – Lists & Tables
-Skill: Merge two sorted lists into one sorted list
-Description: Students implement the merge algorithm: given two already-sorted lists, combine them into one sorted list without re-sorting. They use two pointers (one for each list), repeatedly compare the current items, add the smaller one to the result, and advance that pointer. This O(n) algorithm is more efficient than concatenating and re-sorting O(n log n), and is a building block for merge sort. Students trace through merging [1, 4, 7] and [2, 3, 8] step by step.
-
-Dependencies:
-* T10.G4.05: Use built-in blocks to sort a list
-* T10.G4.18: Loop through list indices
-* T10.G3.08: Check if a list is empty before accessing
-
-
 ---
 
-## GRADE 7 (17 skills)
+## GRADE 7 (15 skills)
 
 
 
@@ -12034,37 +12213,14 @@ Skill: Implement stack operations (push and pop)
 Description: Students implement stack behavior using a list: push (add to end), pop (remove and return last item), and peek (read last item without removing). They use `add [item] to [stack]` for push, `item (length of [stack]) of [stack]` with `delete (length of [stack]) of [stack]` for pop, and recognize LIFO (Last-In-First-Out) behavior. Applications include undo functionality (push each action, pop to undo), expression evaluation, and backtracking algorithms. Students trace through a sequence of push/pop operations and predict the stack state after each.
 
 Dependencies:
-* T10.G6.12: Implement queue operations (enqueue and dequeue)
-
-
-
-
-ID: T10.G7.16
-Topic: T10 – Lists & Tables
-Skill: Use KNN classification with table data
-Description: Students use CreatiCode's KNN (K-Nearest Neighbors) blocks to classify new data points based on existing labeled data stored in a table. They prepare training data in a table with feature columns and a label column, use the `add training data from table [table] features [cols] labels [col]` block, then classify new inputs using the trained model. Students experiment with different k values and observe how it affects classification accuracy. This introduces supervised machine learning concepts using familiar table data.
-
-Dependencies:
-* T10.G7.03: Design a table schema for a real-world scenario
-* T10.G5.08: Use built-in table aggregate blocks
-
-
-
-
-ID: T10.G7.17
-Topic: T10 – Lists & Tables
-Skill: Build a simple recommendation system using tables
-Description: Students create a basic recommendation system using table data and similarity calculations. Given a table of users and their ratings/preferences (e.g., movie ratings, product reviews), students find similar users by comparing their ratings, then recommend items that similar users liked but the target user hasn't seen. They implement a simple similarity measure (count of matching ratings) and use table lookups to generate recommendations. This practical application combines table operations with real-world data analysis.
-
-Dependencies:
-* T10.G6.04: Use table lookup to find related data
-* T10.G6.05: Group data and compute aggregates per group
-* T10.G5.07: Loop through table rows to compute aggregates
+* T10.G4.03: Insert an item at a specific position in a list
+* T10.G3.04.01: Delete an item at a specific position
+* T10.G3.03: Get the length of a list
 
 
 ---
 
-## GRADE 8 (13 skills)
+## GRADE 8 (10 skills)
 
 
 
@@ -12186,45 +12342,6 @@ Description: Students use sliding window algorithms to efficiently process conti
 Dependencies:
 * T10.G8.08.02: Use two-pointer technique for list problems
 * T09.G7.01: Compare computational efficiency of different approaches
-
-
-
-
-ID: T10.G8.09
-Topic: T10 – Lists & Tables
-Skill: Implement a priority queue using sorted insertion
-Description: Students implement a priority queue where items are always retrieved in priority order (highest or lowest first). They maintain a sorted list by inserting new items at the correct position (binary search for position, then insert) rather than sorting after each insertion. Students compare this O(n) insertion with O(1) removal to naive approaches (O(1) insertion with O(n) search for removal). Applications include task schedulers, event-driven simulations, and Dijkstra's algorithm foundations.
-
-Dependencies:
-* T10.G8.08.01: Implement binary search on sorted lists
-* T10.G6.12: Implement queue operations (enqueue and dequeue)
-
-
-
-
-ID: T10.G8.10
-Topic: T10 – Lists & Tables
-Skill: Parse and process structured text into tables
-Description: Students write programs to parse structured text data (log files, configuration files, semi-structured reports) into tables for analysis. They use string operations (split, find, substring) to extract fields from each line, handle variations in format, skip header/footer lines, and build a clean table from messy input. This real-world skill prepares students for data engineering tasks where raw data must be cleaned and structured before analysis.
-
-Dependencies:
-* T10.G7.05: Clean and transform table data
-* T10.G4.12: Split a text string into a list
-* T10.G5.03: Add rows of data to a table
-
-
-
-
-ID: T10.G8.11
-Topic: T10 – Lists & Tables
-Skill: Design and implement a data pipeline with multiple transformations
-Description: Students design a multi-step data processing pipeline: import raw data → clean/validate → transform → aggregate → visualize/export. They chain together table operations learned throughout T10 to build an end-to-end solution for a realistic scenario (e.g., process survey data, analyze game statistics, generate a report from transaction logs). Students document their pipeline design before implementing, handle errors gracefully, and verify output quality at each stage.
-
-Dependencies:
-* T10.G8.05: Query and report statistics from a complex dataset
-* T10.G7.02: Import external data into a table
-* T10.G7.12: Export table data to a file
-* T10.G7.06: Validate and handle missing data in tables
 
 
 ---
@@ -12966,22 +13083,6 @@ Dependencies:
 
 
 
-ID: T11.G4.10.01
-Topic: T11 – Functions & Organization
-Skill: Use the argument block correctly inside a custom block definition
-Description: Students practice using the `(argument (parameterName))` reporter block correctly inside custom block definitions. They understand that: (1) argument blocks only work inside the define block that declares that parameter, (2) each argument block retrieves the value passed when the block was called, (3) argument blocks can be used multiple times within the same definition, (4) argument blocks work in any input slot (move, say, calculations). They identify errors when argument blocks are misused (wrong parameter name, used outside definition).
-
-Assessment example: Inside `define (DrawPolygon (sides))`, students use `(argument (sides))` in three places: `repeat (argument (sides)) [turn right (360 / (argument (sides))) degrees; move 50 steps]`. They explain why each argument block returns the same value (the number passed when calling).
-
-Dependencies:
-* T11.G4.10: Define a custom block with one parameter
-* T11.G4.08: Identify the argument block in a custom block definition
-
----
-
-
-
-
 ID: T11.G4.11
 Topic: T11 – Functions & Organization
 Skill: Call the same custom block with different parameter values
@@ -13186,22 +13287,6 @@ Dependencies:
 
 
 
-ID: T11.G5.02.01
-Topic: T11 – Functions & Organization
-Skill: Sketch a block interaction diagram before coding
-Description: Students create a visual diagram showing how their planned custom blocks will interact BEFORE writing any code. The diagram shows: (1) which blocks call which other blocks (arrows), (2) what data flows between blocks (parameters and return values labeled on arrows), (3) which blocks are "entry points" (called from main script) vs "helper blocks" (called by other custom blocks). This visual planning helps students think through their design and catch problems before implementation.
-
-Assessment example: For a quiz game, students draw a diagram: "Main Script → calls SetupQuiz → calls ShowQuestion(num) → ShowQuestion calls CheckAnswer(input) → CheckAnswer returns correct/wrong → Main Script calls UpdateScore(result) → UpdateScore calls ShowFeedback". They label arrows with data types (number, string, boolean).
-
-Dependencies:
-* T11.G5.02: Create a complete custom block decomposition plan
-* T11.G5.01: Identify 2-3 main responsibilities in a project description
-
----
-
-
-
-
 ID: T11.G5.03
 Topic: T11 – Functions & Organization
 Skill: Create 2-3 parameterized custom blocks for a small project
@@ -13350,10 +13435,10 @@ Dependencies:
 
 ID: T11.G5.12
 Topic: T11 – Functions & Organization
-Skill: Compose custom reporters in nested expressions
-Description: Students practice nesting custom reporter blocks inside other blocks to build complex expressions. They use the return value of a custom reporter directly inside another block's input slot: in arithmetic expressions, inside other custom reporters, within comparison operators, or as arguments to other blocks. This builds fluency with reporter composition—chaining multiple reporters together to compute complex results from simpler building blocks.
+Skill: Use custom reporter return value in multiple contexts
+Description: Students practice using the value returned by their custom reporter blocks in various contexts: inside other reporters, in conditional tests, in variable assignments, and nested inside other custom blocks. They demonstrate that custom reporters work just like built-in reporters—they can be placed anywhere a value is needed. This builds fluency with reporter composition and reinforces that well-designed reporters are versatile tools.
 
-Assessment example: Students create `define (DistanceBetween (x1) (y1) (x2) (y2))` and nest it in expressions: `if <(report DistanceBetween [playerX] [playerY] [enemyX] [enemyY]) < 50>`, `set danger to ((report DistanceBetween [x1] [y1] [x2] [y2]) * 2)`, and `say (join [Distance: ] (report DistanceBetween [0] [0] [100] [100]))`.
+Assessment example: Students create `define (DistanceBetween (x1) (y1) (x2) (y2))` that returns the calculated distance. They use it in multiple ways: `say (report DistanceBetween [0] [0] [100] [100])`, `if <(report DistanceBetween [x1] [y1] [x2] [y2]) < 50>`, and `set closestDistance to (report DistanceBetween [x1] [y1] [x2] [y2])`.
 
 Dependencies:
 * T11.G5.11: Define a custom reporter block that returns a value
@@ -13503,14 +13588,14 @@ Dependencies:
 
 ID: T11.G5.22
 Topic: T11 – Functions & Organization
-Skill: Create boolean reporter blocks for conditional logic
-Description: Students create custom reporter blocks that return true/false (boolean) values for use in conditional tests. Unlike numeric reporters, boolean reporters answer yes/no questions about game state, making conditions more readable. Students create blocks like `IsColliding (sprite1) (sprite2)`, `IsInBounds (x) (y)`, or `HasEnoughLives` that encapsulate complex condition logic. They use these reporters directly in if blocks: `if <(report IsInBounds [newX] [newY])> then move`.
+Skill: Use reporter return values in conditions and assignments
+Description: Students use custom reporter return values in various contexts: in conditional tests (`if <(report IsColliding [player] [enemy])>`), in variable assignments (`set distance to (report GetDistance [x1] [y1])`), and in expressions. This reinforces that reporters can be used anywhere a value is needed.
 
-Assessment example: Students create `define (IsGameOver)` that returns true if lives <= 0 OR time <= 0, then use it in: `if <(report IsGameOver)> then call ShowEndScreen`. They explain how this boolean reporter makes the main script more readable than writing the complex condition inline.
+Assessment example: Students create a custom reporter `IsInBounds (x) (y)` that returns true/false, then use it in an if statement: `if <(report IsInBounds [newX] [newY])> then move`.
 
 Dependencies:
 * T11.G5.11: Define a custom reporter block that returns a value
-* T11.G5.12: Compose custom reporters in nested expressions
+* T11.G5.12: Use custom reporter return value in multiple contexts
 
 
 
@@ -13755,30 +13840,12 @@ Dependencies:
 
 ID: T11.G6.14
 Topic: T11 – Functions & Organization
-Skill: Apply a code quality checklist to evaluate program structure
-Description: Students use a structured checklist to systematically evaluate a multi-script program's quality. The checklist covers: (1) naming conventions (are variables and blocks clearly named?), (2) documentation (are comments present and helpful?), (3) organization (are scripts logically grouped?), (4) modularity (are custom blocks appropriately sized?), (5) duplication (is there repeated code that should be extracted?). For each checklist item, students mark "pass" or "needs improvement" and note specific examples.
-
-Assessment example: Given a 20-block game project, students apply a 5-item checklist and create an evaluation report: "Naming: NEEDS IMPROVEMENT - variable 'x' should be 'playerScore'. Documentation: PASS - all scripts have header comments. Organization: NEEDS IMPROVEMENT - collision checking mixed with drawing code..."
+Skill: Analyze a program's structure using a checklist and suggest specific improvements
+Description: Students use a structured checklist (covering naming, comments, script organization, etc.) to systematically evaluate a multi-script program and propose specific refactoring steps. Focus is on methodical, checklist-driven review rather than informal peer feedback.
 
 Dependencies:
 * T11.G5.19: Organize a project with 3+ features into labeled sections or scripts
 * T11.G5.20: Review another student's code and suggest at least 2 organizational improvements
-
----
-
-
-
-
-ID: T11.G6.14.01
-Topic: T11 – Functions & Organization
-Skill: Propose specific refactoring steps based on checklist findings
-Description: Building on checklist evaluation (T11.G6.14), students propose concrete, actionable refactoring steps for each "needs improvement" item. They prioritize refactoring steps by impact (which changes will most improve readability/maintainability?) and create a numbered action plan. They explain what each refactoring step will improve and estimate the scope of changes needed (how many places need updating?).
-
-Assessment example: From checklist findings, students create an action plan: "1. Rename 'x' to 'playerScore' (5 occurrences) - HIGH impact on readability. 2. Extract collision checking into CheckCollision block (3 copies of same code) - HIGH impact on duplication. 3. Add header comment to green-flag script - MEDIUM impact on documentation."
-
-Dependencies:
-* T11.G6.14: Apply a code quality checklist to evaluate program structure
-* T11.G6.08: Refactor spaghetti code into organized custom blocks
 
 
 
@@ -13925,10 +13992,10 @@ Dependencies:
 
 ID: T11.G7.07
 Topic: T11 – Functions & Organization
-Skill: Design and implement helper blocks for complex operations
-Description: Students design custom blocks that call other custom blocks (helper blocks) to break complex operations into manageable subtasks. They identify when a block is becoming too complex and extract subtasks into separate helper blocks. They distinguish between "public" blocks (called from main scripts) and "helper" blocks (called primarily by other custom blocks). They create hierarchical structures where main blocks coordinate helpers, improving organization and enabling reuse at multiple levels.
+Skill: Analyze Helper Block Structure
+Description: Students learn that custom blocks can call other custom blocks, and identify "helper blocks" that are primarily called by other custom blocks rather than from main scripts. They understand that breaking complex blocks into smaller helper blocks improves organization and enables reuse at multiple levels. They design block structures where main blocks handle coordination and call helper blocks for specific subtasks.
 
-Assessment example: Students refactor a complex `DrawComplexShape` block by extracting helpers: `DrawPolygon (sides)` and `MoveToNextPosition (distance) (angle)`. They document which blocks are "main" vs "helper" and explain how this structure makes the code easier to understand, test, and modify.
+Assessment example: Students create a `DrawComplexShape` block that calls helper blocks `DrawPolygon (sides)` and `MoveToNextPosition (x) (y)`. They explain that the helper blocks are reusable pieces that DrawComplexShape orchestrates to accomplish its goal.
 
 Dependencies:
 * T11.G7.03: Implement a coordinated set of custom blocks for one feature
@@ -13942,14 +14009,13 @@ Dependencies:
 ID: T11.G7.08
 Topic: T11 – Functions & Organization
 Skill: Decompose complex logic into custom blocks with clear responsibilities
-Description: Students identify a complex script with multiple logical responsibilities and decompose it into separate custom blocks, each handling one specific task (e.g., "initialize game", "update score", "check game over"). Unlike G4 which extracts repeated code, this focuses on separating distinct logical concerns even when code isn't duplicated. They apply the single responsibility principle: each block should do ONE thing well. They identify natural boundaries in the logic (setup vs gameplay vs cleanup, input vs processing vs output) and create blocks that respect these boundaries.
-
-Assessment example: Given a 30-block game script that mixes initialization, player input handling, collision detection, and score display, students decompose it into: `InitializeGame` (setup), `HandleInput` (keyboard/mouse), `UpdateGameState` (collisions, physics), `RenderDisplay` (drawing, score). They explain why each responsibility deserves its own block.
+Description: Students identify a complex script with multiple logical responsibilities and decompose it into separate custom blocks, each handling one specific task (e.g., "initialize game", "update score", "check game over"). Unlike G4 which extracts repeated code, this focuses on separating distinct logical concerns even when code isn't duplicated.
 
 Dependencies:
-* T11.G6.11: Evaluate custom block scope and single responsibility
-* T11.G6.14: Apply a code quality checklist to evaluate program structure
+* T11.G5.23: Distinguish between command blocks and reporter blocks
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
 * T11.G6.17: Document code for collaborative maintenance
+* T08.G5.01: Use a simple if in a script
 
 
 
@@ -14048,7 +14114,9 @@ Dependencies:
 * T11.G7.03: Implement a coordinated set of custom blocks for one feature
 * T11.G7.05: Apply encapsulation and information hiding principles
 * T11.G7.06: Trace and debug multi-level custom block calls
-* T11.G7.07: Design and implement helper blocks for complex operations
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T16.G6.01: Configure surface friction parameters
+* T21.G6.01.01: Make a basic ChatGPT request with one parameter
 
 ---
 
@@ -14087,6 +14155,8 @@ Dependencies:
 * T11.G8.03: Refactor a large program into a hierarchical block structure
 * T11.G7.05: Apply encapsulation and information hiding principles
 * T11.G7.06: Trace and debug multi-level custom block calls
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T09.G6.01: Model real-world quantities using variables and formulas
 * T12.G6.01: Trace complex code with multiple variables
 
 ---
@@ -14191,77 +14261,24 @@ Description: Students create a comprehensive style guide for a team project, def
 Dependencies:
 * T11.G8.08: Apply consistent style across a large project
 * T11.G8.11: Write documentation for users with varying technical backgrounds
-
----
-
-
-
-
-ID: T11.G8.13
-Topic: T11 – Functions & Organization
-Skill: Evaluate and integrate AI-generated code blocks into projects
-Description: As AI coding assistants become more prevalent, students learn to critically evaluate AI-generated custom blocks before integrating them. They check AI-generated code for: (1) correct functionality (does it do what was requested?), (2) interface quality (are names and parameters clear?), (3) edge case handling (does it handle invalid inputs?), (4) consistency with existing code style, (5) appropriate scope (does it do one thing well?). Students practice accepting good suggestions, rejecting poor ones, and modifying AI code to meet quality standards.
-
-Assessment example: Given 3 AI-generated custom blocks for a game feature, students evaluate each: "Block 1: ACCEPT - clear name, handles edge cases. Block 2: MODIFY - good logic but parameter names are vague, rename 'x' to 'playerHealth'. Block 3: REJECT - tries to do too much (violates single responsibility), ask AI to split into smaller blocks."
-
-Dependencies:
-* T11.G8.01: Design general-purpose custom blocks with reusable interfaces
-* T11.G7.05: Apply encapsulation and information hiding principles
-* T11.G6.11: Evaluate custom block scope and single responsibility
-
----
-
-
-
-
-ID: T11.G8.14
-Topic: T11 – Functions & Organization
-Skill: Design custom block APIs for extensibility
-Description: Students design custom block interfaces (APIs) that anticipate future extensions without requiring changes to existing callers. They learn principles like: (1) using parameters for variable parts rather than hardcoding, (2) returning values rather than setting global state, (3) keeping blocks focused on single responsibilities, (4) using consistent naming patterns. They design blocks that can be extended (new functionality added) or composed (combined with other blocks) without breaking existing code.
-
-Assessment example: Students design a scoring system API: `AddPoints (points)`, `GetScore returns: number`, `ResetScore`, `ApplyMultiplier (multiplier)`. They explain how this design allows future extensions (like combo systems or score decay) without changing existing callers, because each block has a clear, focused purpose and communicates through return values rather than hidden state.
-
-Dependencies:
-* T11.G8.01: Design general-purpose custom blocks with reusable interfaces
-* T11.G8.06: Create a reusable block library across projects
-* T11.G7.04: Document a coordinated custom block set
-
----
-
-
-
-
-ID: T11.G8.15
-Topic: T11 – Functions & Organization
-Skill: Organize large projects with multiple sprite coordination
-Description: Students organize complex projects where multiple sprites need to work together, each with their own custom blocks and local variables. They design clear communication patterns between sprites (broadcasts, cloud variables) and ensure each sprite's code is independently understandable. They create documentation showing which sprites are responsible for which features and how they interact. This prepares students for multi-file, multi-module software architecture concepts.
-
-Assessment example: Students organize a multiplayer game with 4 sprites (Player, Enemy, ScoreManager, LevelManager). Each sprite has its own custom blocks. They document: "Player handles movement and collision detection. ScoreManager provides AddScore and GetScore blocks called by other sprites via broadcast. LevelManager controls when to spawn enemies by broadcasting 'SpawnEnemy'."
-
-Dependencies:
-* T11.G8.03: Refactor a large program into a hierarchical block structure
-* T11.G8.10: Structure code for team collaboration with clear module boundaries
-* T11.G8.09: Create comprehensive documentation for a complex project
-
----
+* T09.G6.01: Model real-world quantities using variables and formulas
 
 
 
 
 
-# T12 – Testing, Debugging & Error Handling (Phase 5 Optimized - November 2025)
-# Applied Phase 5 comprehensive optimizations:
-# - Enhanced K-2 visual/unplugged debugging with concrete picture-based scenarios
-# - Added modern debugging skills: AI API debugging, async operation handling, console mastery
-# - Introduced table variable debugging pathway for AI features (hand/body tracking returns table data)
-# - Added physics debugging skills (2D/3D collision, gravity, force issues)
-# - Added multiplayer/network debugging (sync issues, message timing, connection handling)
-# - Consolidated tracing sub-skills while maintaining granularity
-# - Added step-by-step execution mode skill (CreatiCode-specific feature)
-# - Enhanced G8 with AI-generated code review, large-scale project debugging, performance profiling
-# - Improved active verbs throughout (Trace, Predict, Debug, Identify, Diagnose, Refactor)
-# - All dependencies verified for X-2 rule compliance
-# Total: 76 skills (10 new skills for modern debugging practices)
+# T12 – Testing, Debugging & Error Handling (Phase 4 Optimized - November 2025)
+# Applied Phase 4 topic-focused optimizations:
+# - Enhanced K-2 skills with specific visual scenarios and picture card details
+# - Improved active verb usage throughout (Trace, Predict, Debug, Identify, Select, Compare)
+# - Added new sub-skills for progression (T12.GK.04, T12.G1.05, T12.G2.05, T12.G3.06, T12.G6.06)
+# - Fixed X-2 rule violations by adjusting dependencies to same/adjacent grades
+# - Streamlined cross-topic dependencies (reduced from 126 to essential prerequisites)
+# - Introduced testing mindset skills in early grades (prediction before checking)
+# - Added timing/context debugging pathway (G6.06, G7.06)
+# - Clarified CreatiCode-specific features (breakpoints, console, debug mode)
+# - Improved bug classification sub-skills (T12.G4.08.01-04)
+# Total: 66 skills (5 new skills added, reorganized for better granularity)
 
 ID: T12.GK.01
 Topic: T12 – Testing, Debugging & Error Handling
@@ -14528,16 +14545,6 @@ Dependencies:
 * T12.G3.01: Trace a 5-block script mentally, then run to verify prediction
 * T12.G3.03: Add a missing block to complete a script
 
-
-
-ID: T12.G3.07
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Use step-by-step execution mode to trace one block at a time
-Description: Students use CreatiCode's step-by-step execution feature (blue arrow button) to execute scripts one block at a time. For each step: (1) Predict what the highlighted block will do, (2) Click Step button to execute just that block, (3) Observe the result, (4) Compare prediction to actual behavior. This helps isolate exactly which block causes unexpected behavior. _Assessment: Use step mode on a 6-8 block script; identify which step produces unexpected result._
-
-Dependencies:
-* T12.G3.01: Trace a 5-block script mentally, then run to verify prediction
-* T12.G3.04: Apply the Run-Observe-Change-Test debugging cycle
 
 
 
@@ -14915,27 +14922,6 @@ Dependencies:
 
 
 
-ID: T12.G5.11
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug table variable access errors
-Description: Students debug programs using table variables (common with AI features like hand tracking). Common errors: (1) **Empty table**: Accessing table before data loaded (row count = 0), (2) **Wrong row/column index**: Off-by-one or hardcoded index when data size varies, (3) **Missing table creation**: Table not initialized. Students add defensive checks: `if (row count of [table]) > 0 then [access table]`. _Assessment: Debug 2+ table access errors; add defensive row count checks._
-
-Dependencies:
-* T10.G4.01: Create and populate table variables with rows and columns
-* T12.G5.04.01: Add defensive checks before risky operations
-
-
-
-ID: T12.G5.12
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug asynchronous wait conditions
-Description: Students debug programs where operations must wait for previous operations to complete. Common issues: (1) Using AI result before response received, (2) Checking sensor data before sensor initialized, (3) Accessing loaded resource before loading completes. Students use `wait until` blocks or callback patterns to ensure proper sequencing. _Assessment: Debug 2+ async timing bugs; implement proper wait conditions._
-
-Dependencies:
-* T07.G4.01: Use repeat-until to create a conditional loop
-* T12.G5.07: Interpret error indicators to form debugging hypotheses
-
-
 
 
 ID: T12.G6.01
@@ -15014,27 +15000,6 @@ Dependencies:
 * T12.G6.02: Apply hypothesis-driven debugging (observe → hypothesize → test → verify)
 * T12.G5.09: Use breakpoint blocks and Debug Mode to pause and inspect
 
-
-
-ID: T12.G6.07
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug 2D physics simulation issues
-Description: Students debug programs using CreatiCode's 2D physics engine. Common issues: (1) **Objects fall infinitely**: Missing floor or floor not set as static body, (2) **Objects pass through each other**: Collision detection not enabled or wrong collision groups, (3) **Unexpected bouncing**: Wrong restitution/friction values, (4) **Forces not applied**: Physics not started or body type wrong. Students use physics visualization (show bodies) to diagnose issues. _Assessment: Debug 3+ physics bugs; explain physics properties involved._
-
-Dependencies:
-* T12.G6.02: Apply hypothesis-driven debugging (observe → hypothesize → test → verify)
-* T12.G5.11: Debug table variable access errors
-
-
-
-ID: T12.G6.08
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug AI API response handling
-Description: Students debug programs using AI APIs (ChatGPT blocks, image generation). Common issues: (1) **Empty response**: API returned nothing or still waiting, (2) **Response in wrong variable**: Mismatched session names, (3) **Rate limiting**: Too many requests too fast, (4) **Invalid prompt**: Moderation filter blocked request. Students add proper wait conditions and error checks. _Assessment: Debug AI API program; handle empty/error responses gracefully._
-
-Dependencies:
-* T12.G5.12: Debug asynchronous wait conditions
-* T12.G6.02: Apply hypothesis-driven debugging (observe → hypothesize → test → verify)
 
 
 
@@ -15117,26 +15082,6 @@ Dependencies:
 
 
 
-ID: T12.G7.07
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug multiplayer synchronization issues
-Description: Students debug programs using CreatiCode's multiplayer features. Common issues: (1) **Variable desync**: Players see different values for shared variables, (2) **Message ordering**: Messages arrive in different order than sent, (3) **Join/leave timing**: Player joins mid-game with stale state, (4) **Connection failures**: Game continues without disconnected player. Students add sync checks and recovery logic. _Assessment: Debug 2+ multiplayer bugs; implement synchronization fixes._
-
-Dependencies:
-* T12.G6.08: Debug AI API response handling
-* T12.G7.01: Write 15-case test suite for an algorithm covering all categories
-
-
-
-ID: T12.G7.08
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug 3D scene and camera issues
-Description: Students debug 3D programs in CreatiCode. Common issues: (1) **Object not visible**: Object behind camera, wrong scale, or inside another object, (2) **Camera problems**: Camera facing wrong direction, wrong field of view, (3) **Lighting issues**: Too dark (no lights) or washed out (too many), (4) **Z-fighting**: Overlapping surfaces flicker. Students use camera inspection and object bounds to diagnose. _Assessment: Debug 3+ 3D rendering bugs; explain spatial relationships involved._
-
-Dependencies:
-* T12.G6.07: Debug 2D physics simulation issues
-* T12.G7.02: Debug subtle logic errors (off-by-one, wrong operator, wrong assignment)
-
 
 
 ID: T12.G8.01
@@ -15205,43 +15150,11 @@ Dependencies:
 
 
 
-ID: T12.G8.06
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Review and verify AI-generated code for correctness
-Description: Students critically evaluate code generated by AI assistants (like XO). Process: (1) **Read line-by-line**: Understand what each block does, (2) **Question assumptions**: Does AI's solution match your requirements?, (3) **Test edge cases**: AI often misses boundaries, (4) **Verify logic**: Check conditions, operators, variable usage, (5) **Add defensive code**: AI may skip error handling. Never blindly accept AI code. _Assessment: Review AI-generated solution; identify 3+ issues; fix and document improvements._
-
-Dependencies:
-* T12.G8.04: Conduct code review using 4-question robustness framework
-* T12.G8.02: Verify implementation correctness against written specifications
-
-
-
-ID: T12.G8.07
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug large-scale projects with multiple sprites and scripts
-Description: Students debug complex projects with 5+ sprites, multiple scripts per sprite, and shared variables. Strategies: (1) **Isolate by sprite**: Test each sprite alone, (2) **Trace message flow**: Document broadcast/receive chains, (3) **Variable ownership**: Track which scripts modify shared variables, (4) **Systematic disable**: Comment out scripts to isolate problem. _Assessment: Debug a multi-sprite project; create debugging documentation showing isolation strategy._
-
-Dependencies:
-* T12.G8.05: Trace error propagation through nested custom block calls
-* T12.G7.07: Debug multiplayer synchronization issues
-
-
-
-ID: T12.G8.08
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Profile and debug performance issues
-Description: Students identify and fix performance problems: (1) **Identify symptoms**: Lag, slow response, dropped frames, (2) **Isolate cause**: Too many clones, heavy loops, frequent costume changes, large images, (3) **Measure**: Use timer blocks to measure execution time, (4) **Optimize**: Reduce clone count, simplify graphics, add wait blocks to reduce CPU usage. _Assessment: Profile a laggy project; identify 2+ performance issues; implement fixes with measurable improvement._
-
-Dependencies:
-* T12.G7.03: Refactor complex code to improve testability and debuggability
-* T12.G8.07: Debug large-scale projects with multiple sprites and scripts
-
-
 
 ID: T13.GK.01
 Topic: T13 – 2D Games
 Skill: Match arrow keys to character movements
-Description: **Student task:** Drag arrow key picture cards onto matching character movement pictures. **Visual scenario:** Four large colorful arrow key cards (↑, ↓, ←, →) and four character movement pictures: (A) character jumping upward with arms raised, (B) character sliding/falling downward, (C) character walking left facing left, (D) character walking right facing right. **Correct matches:** Up arrow → A (jumping up), Down arrow → B (going down), Left arrow → C (walking left), Right arrow → D (walking right). _Implementation note: Drag-drop matching with visual arrow keys and animated character poses. Audio reads "up arrow" / "moves up" on hover. Auto-graded. CSTA: 1A-AP-11._
+Description: Drag arrow key picture cards (up arrow, down arrow, left arrow, right arrow) onto pictures showing matching character movements. Four picture cards show: (A) character jumping up, (B) character sliding down, (C) character walking left, (D) character walking right. Students drag arrow keys to match movements. _Implementation note: Drag-drop matching with 4 arrow-movement pairs; large colorful arrow keys and animated character poses. Audio reads "up arrow" / "moves up" on hover. Auto-graded. CSTA: 1A-AP-11._
 
 Dependencies:
 * T06.GK.02: Match "first," "next," and "last" labels to pictures in a 3-step sequence
@@ -15251,7 +15164,7 @@ Dependencies:
 ID: T13.GK.02
 Topic: T13 – 2D Games
 Skill: Recognize when a score changes in a simple game
-Description: **Student task:** Look at before/after picture pairs showing game moments. Tap the pair where the score changed. **Visual scenario:** Two picture pairs showing game moments: Pair A shows BEFORE (character near star, score displays "3") and AFTER (character touched star, score displays "4"). Pair B shows BEFORE (character walking, score displays "2") and AFTER (character still walking, score still displays "2"). **Correct answer:** Pair A (score changed from 3 to 4 when star was collected). _Implementation note: Click-to-select from 2-3 picture pairs; score counter visually highlighted with color border. Audio support available. CSTA: 1A-AP-09._
+Description: Look at before/after picture pairs showing game moments. Tap the picture pair where the score changed. Pair A shows: BEFORE - character near star, score shows 3 → AFTER - character touched star, score shows 4. Pair B shows: BEFORE - character walking, score shows 2 → AFTER - character still walking, score shows 2. Correct answer: Pair A (score changed). _Implementation note: Click-to-select from 2-3 picture pairs; visual highlight on score counter. Audio support available. CSTA: 1A-AP-09._
 
 Dependencies:
 * T09.GK.01: Recognize that labels can show different numbers
@@ -15260,8 +15173,8 @@ Dependencies:
 
 ID: T13.GK.03
 Topic: T13 – 2D Games
-Skill: Sort picture cards into Start, Playing, and End game phases
-Description: **Student task:** Drag picture cards showing different game moments into three labeled boxes representing game phases. **Visual scenario:** Six picture cards: (A) "Press Start" title screen with big button, (B) character collecting a gold coin mid-jump, (C) character jumping over a spike obstacle, (D) "Game Over" screen with sad face, (E) character standing at starting position with flag, (F) trophy with "You Win!" celebration sparkles. Three sorting boxes labeled: START (green), PLAYING (blue), END (red). **Correct sorting:** START box → A and E, PLAYING box → B and C, END box → D and F. _Implementation note: Drag-and-drop sorting into 3 color-coded boxes. Auto-graded by final placement. CSTA: 1A-AP-08._
+Skill: Sort picture cards into Start, Playing, and End
+Description: Drag 5-6 picture cards showing different game moments into three labeled boxes: START, PLAYING, END. Cards show: (A) "Press Start" screen, (B) character collecting coin, (C) character jumping over obstacle, (D) "Game Over" screen, (E) character at starting position, (F) trophy with "You Win!" Correct sorting: START box gets A and E, PLAYING box gets B and C, END box gets D and F. _Implementation note: Drag-and-drop sorting into 3 labeled boxes with visual borders. Auto-graded by final placement. CSTA: 1A-AP-08._
 
 Dependencies:
 * T01.GK.03: Tap the first and last picture cards in a sequence
@@ -15432,8 +15345,8 @@ Dependencies:
 
 ID: T13.G3.01.01
 Topic: T13 – 2D Games
-Skill: Program horizontal movement with arrow keys
-Description: Build sprite movement using `when [left arrow] key pressed` with `change x by (-10)` for left, and `when [right arrow] key pressed` with `change x by (10)` for right. **How it works:** Each key press triggers the change-by block once, moving sprite 10 pixels. Holding the key triggers repeated events (automatic repeat). **Test your code:** Verify sprite moves equal distances left and right, responds immediately to key presses. **Debug tips:** If sprite only moves once per key press, ensure you're holding the key. If sprite moves wrong direction, check positive/negative values (negative x = left, positive x = right). _CSTA: 2-AP-10._
+Skill: Move sprite left and right with arrow keys
+Description: Program sprite movement using `when [left arrow] key pressed` event blocks with `change x by (-10)` for left movement and `change x by (10)` for right movement. Test that the sprite moves equal distances in both directions and responds immediately to key presses without delay. This introduces basic player control using motion_changexby blocks. _CSTA: 2-AP-10._
 
 Dependencies:
 * T13.G2.04: Sequence picture cards showing a safe path through a level
@@ -15443,40 +15356,40 @@ Dependencies:
 
 ID: T13.G3.01.02
 Topic: T13 – 2D Games
-Skill: Program 4-directional movement with arrow keys
-Description: Extend horizontal movement by adding vertical controls: `when [up arrow] key pressed` with `change y by (10)` and `when [down arrow] key pressed` with `change y by (-10)`. **Coordinate system:** Positive y = up (toward top of screen), negative y = down (toward bottom). **Test your code:** Press each arrow key to verify all four directions work correctly. Test diagonal movement by pressing two keys simultaneously (up + right should move diagonally). **Total setup:** 4 separate `when key pressed` scripts, one for each arrow key. This 4-directional control is standard for top-down games like maze or exploration games. _CSTA: 2-AP-10._
+Skill: Move sprite in 4 directions with arrow keys
+Description: Extend horizontal movement by adding `when [up arrow] key pressed` with `change y by (10)` and `when [down arrow] key pressed` with `change y by (-10)`. Test all four cardinal directions and verify diagonal movement works by pressing two keys simultaneously. Use motion_changeyby blocks for vertical control. _CSTA: 2-AP-10._
 
 Dependencies:
-* T13.G3.01.01: Program horizontal movement with arrow keys
+* T13.G3.01.01: Move sprite left and right with arrow keys
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
 
 
 
 ID: T13.G3.01.03
 Topic: T13 – 2D Games
-Skill: Debug and tune movement speed
-Description: Test different step values in `change x by` and `change y by` blocks to find the right movement speed for your game. **Experiment:** Try values 5, 10, 15, 20 and observe the difference. **Game type guidelines:** Maze games → slower (5-8 steps) for precise navigation; Action games → faster (10-15 steps) for responsive feel; Racing games → very fast (15-25 steps). **Debug scenario:** Movement feels sluggish → increase step value; Player overshoots targets → decrease step value. **Testing process:** Change value, play test, observe, adjust, repeat until movement feels right. This iterative tuning is essential game design skill. _CSTA: 2-AP-17._
+Skill: Test movement speed and adjust step size
+Description: Debug movement that feels too fast or slow by testing different step values (5, 10, 15, 20) in `change x by` and `change y by` blocks. Compare movement speeds and select appropriate values for game type (slower for maze games, faster for action games). This builds testing and tuning skills. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
+* T13.G3.01.02: Move sprite in 4 directions with arrow keys
 
 
 
 ID: T13.G3.02
 Topic: T13 – 2D Games
-Skill: Constrain sprite within screen boundaries
-Description: Add boundary checking to prevent sprite from leaving the visible stage area. **Stage boundaries:** x ranges from -240 (left edge) to 240 (right edge), y ranges from -180 (bottom) to 180 (top). **Implementation:** Inside a `forever` loop, add 4 if-statements: `if <(x position) < (-240)> then [set x to (-240)]`, `if <(x position) > (240)> then [set x to (240)]`, same pattern for y with -180/180. **Why forever loop:** Boundary checks must run continuously, not just during movement, to catch any position changes. **Test your code:** Move sprite to each edge and verify it stops exactly at boundary without going off-screen. _CSTA: 2-AP-13._
+Skill: Keep sprite on screen
+Description: Add boundary checking using `if <(x position) < (-240)> then [set x to (-240)]` pattern for all four edges (x: -240 to 240, y: -180 to 180). Place checks inside a forever loop that runs continuously. Test by deliberately moving sprite to each edge and verifying it stops at boundaries using motion_setx and motion_sety blocks. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
+* T13.G3.01.02: Move sprite in 4 directions with arrow keys
 * T08.G3.01: Use a simple if in a script
 
 
 
 ID: T13.G3.03.01
 Topic: T13 – 2D Games
-Skill: Detect collision with goal sprite
-Description: Use `if <touching [Goal]?> then` block inside a `forever` loop to continuously check if player reaches the goal. **How collision detection works:** The `touching?` block returns true when any part of player sprite's visible pixels overlap with any part of Goal sprite's visible pixels. **Implementation:** `forever { if <touching [Goal]?> then { say [You Win!] for (2) seconds } }`. **Test your code:** Move player to touch goal from different directions (left, right, above, below) to verify detection works from all angles. **Common issue:** If goal has transparent pixels in costume, collision only triggers on visible parts. _CSTA: 2-AP-13._
+Skill: Detect touching a goal sprite
+Description: Use `if <touching [Goal]?> then` block inside a forever loop to continuously check collision with a goal sprite. When touched, display feedback with `say [You Win!] for (2) seconds`. Test by moving player to goal and verifying detection works from different angles. Uses sensing_touchingobject block. _CSTA: 2-AP-13._
 
 Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
@@ -15629,11 +15542,11 @@ Dependencies:
 
 ID: T13.G4.01
 Topic: T13 – 2D Games
-Skill: Spawn projectile clones from player position
-Description: Create shooting mechanic using clones. **Setup:** Create a Bullet sprite and hide it at game start. **Spawning:** In Player sprite, use `when [space] key pressed` with `create clone of [Bullet]`. **Clone initialization:** In Bullet sprite, use `when I start as a clone` with `go to [Player]` to spawn at player position, then `point in direction (90)` to aim right (or use player's direction). **Trace:** Press space → clone created → clone teleports to player → clone ready to move. **Debug:** If bullets spawn at wrong location, ensure `go to [Player]` runs before movement code. _CSTA: 2-AP-14._
+Skill: Spawn a projectile clone at player position
+Description: Use `when [space] key pressed` to create a projectile clone with `create clone of [Bullet]`. In the bullet's `when I start as a clone` script, use `go to [Player]` to initialize position and `point in direction (90)` to set heading. Test that projectiles spawn at player location. Uses control_create_clone_with_id. _CSTA: 2-AP-14._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
+* T13.G3.01.02: Move sprite in 4 directions with arrow keys
 * T06.G3.02: Build a key-press script that controls a sprite
 * T08.G3.01: Use a simple if in a script
 
@@ -15641,11 +15554,11 @@ Dependencies:
 
 ID: T13.G4.02
 Topic: T13 – 2D Games
-Skill: Program projectile movement and hit detection
-Description: Make projectiles move and detect hits. **Movement:** In `when I start as a clone`, after positioning, add `forever { move (10) steps }` to travel continuously in the projectile's direction. **Hit detection:** Inside the forever loop, add `if <touching [Enemy]?> then { delete this clone }` to remove projectile when it hits enemy. **Complete clone script:** `when I start as a clone { go to [Player], point in direction (90), forever { move (10) steps, if <touching [Enemy]?> then { delete this clone } } }`. **Test:** Fire projectile, verify it moves straight, hits enemy and disappears. _CSTA: 2-AP-14._
+Skill: Move projectile clone continuously
+Description: In the projectile's `when I start as a clone` script, add `forever` loop with `move (10) steps` to make it travel continuously in its direction. Add `if <touching [Enemy]?> then [delete this clone]` to remove projectile on hit. Test projectile movement and collision. Uses motion_movesteps. _CSTA: 2-AP-14._
 
 Dependencies:
-* T13.G4.01: Spawn projectile clones from player position
+* T13.G4.01: Spawn a projectile clone at player position
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
 * T08.G3.01: Use a simple if in a script
 
@@ -15882,22 +15795,13 @@ Dependencies:
 
 
 
-ID: T13.G5.02.01
-Topic: T13 – 2D Games
-Skill: Compare manual velocity to physics engine simulation
-Description: Trace and predict the differences between manual velocity code (using variables and change-by blocks) versus the built-in physics engine. **Manual velocity:** You control every aspect with code—adding gravity each frame, checking floor collision, stopping y-velocity when landing. **Physics engine:** Automatic gravity, realistic bounce, rotation from impacts. Create two versions of a falling ball: one with manual `change [y velocity] by (-0.5)` in a loop, one with physics engine enabled. Observe differences: physics engine handles edge cases (bouncing, spinning) that would require many lines of manual code. This prepares you to choose the right approach for your game. _CSTA: 2-AP-17._
-
-Dependencies:
-* T13.G5.02: Handle platform collisions
-
-
 ID: T13.G5.03
 Topic: T13 – 2D Games
 Skill: Enable 2D physics engine
-Description: Use `turn physics on with type [dynamic]` (CreatiCode physics_turnonphysics block) to enable realistic physics simulation on sprites. **Three physics body types:** `dynamic` = moves, affected by gravity and forces (use for player, balls, enemies), `static` = immovable obstacle (use for platforms, walls, ground), `sensor` = detects collisions but doesn't block movement (use for trigger zones, coin collection areas). Trace: when physics turns on, sprite immediately falls due to gravity. Debug: if sprite falls through floor, ensure floor sprite has `type [static]` physics enabled. _CSTA: 2-AP-13._
+Description: Use `turn physics on with type [dynamic]` (using CreatiCode physics_turnonphysics block) to enable realistic physics on sprites. Create static objects with `type [static]` for platforms that don't move. Create sensors with `type [sensor]` for trigger zones that detect collisions without blocking movement. Compare physics-based movement to manual velocity code. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G5.02.01: Compare manual velocity to physics engine simulation
+* T13.G5.01: Implement velocity-based movement with gravity
 
 
 
@@ -15913,48 +15817,22 @@ Dependencies:
 
 ID: T13.G5.05
 Topic: T13 – 2D Games
-Skill: Configure physics properties for mass, bounce, and friction
-Description: Adjust physics sprite properties to tune gameplay feel. **Mass:** `set mass to (MASS)` (CreatiCode physics_setMass)—heavier objects push lighter ones, respond less to forces. **Bounciness (restitution):** `set bounciness to (VALUE)` (CreatiCode physics_setrestitution)—0=no bounce (stops on impact), 1=perfect bounce (ball returns to original height). **Friction:** `set friction to (VALUE)` (CreatiCode physics_setfrictioncoefficient)—0=ice (slides forever), 1=rubber (stops quickly). **Collision shape:** `set physics shape to [rectangle/circle]`—circle rolls smoothly, rectangle slides. Trace: ball with bounciness=0.8 drops from height 100, bounces to height 80, then 64, then 51... _CSTA: 2-AP-13._
+Skill: Configure physics properties
+Description: Adjust physics sprite properties to tune gameplay feel: `set mass to (MASS)` (CreatiCode physics_setMass) for weight, `set bounciness to (VALUE)` (CreatiCode physics_setrestitution) for bounce (0=no bounce, 1=perfect bounce), `set friction to (VALUE)` (CreatiCode physics_setfrictioncoefficient) for grip vs. slipperiness, `set drag to (VALUE)` for air/water resistance. Use `set physics shape to [rectangle/circle]` to define collision boundaries. _CSTA: 2-AP-13._
 
 Dependencies:
 * T13.G5.03: Enable 2D physics engine
-
-
-ID: T13.G5.05.01
-Topic: T13 – 2D Games
-Skill: Tune damping for game feel
-Description: Use `set damping to (VALUE)` (CreatiCode physics_setdampingfactor) to control how quickly physics objects slow down in air/space. **Damping values:** 0=no damping (objects maintain velocity forever, space physics), 0.1-0.3=light air resistance (normal platformer feel), 0.5+=heavy resistance (underwater/mud feel). Test movement feel by adjusting damping: low damping creates floaty, momentum-based movement; high damping creates snappy, responsive control. Create three physics profiles: **Space** (damping=0, gravity scale=0.1), **Normal** (damping=0.2, gravity scale=1), **Underwater** (damping=0.5, gravity scale=0.3). Compare how each feels when controlling the player. _CSTA: 2-AP-17._
-
-Dependencies:
-* T13.G5.05: Configure physics properties for mass, bounce, and friction
 
 
 
 ID: T13.G5.06
 Topic: T13 – 2D Games
 Skill: Detect and respond to physics collisions
-Description: Use `when I collide with [Sprite]` event (CreatiCode physics_whencollidebegin) to trigger code when physics bodies touch. **Collision event provides context:** the touching sprite's name is available for conditional responses. Use `collision force` reporter (CreatiCode physics_getimpactforce) to measure impact strength—high force = hard hit (deal damage), low force = soft touch (ignore). Use `colliding below?` (CreatiCode physics_getcollidingbottom) to detect ground contact for jump logic. Trace: player lands on platform → colliding below becomes true → allow jump input. _CSTA: 2-AP-16._
+Description: Use `when I collide with [Sprite]` event (CreatiCode physics_whencollidebegin) to trigger code when physics bodies touch. Read `collision force` reporter (CreatiCode physics_getimpactforce) to measure impact strength for damage or effects. Use `colliding below?` with `turn on collision detection` (CreatiCode physics_getcollidingbottom) to detect ground contact. Create physics groups with `set physics group to [GROUP]` to control which objects collide. _CSTA: 2-AP-16._
 
 Dependencies:
 * T13.G5.03: Enable 2D physics engine
 
-
-ID: T13.G5.06.01
-Topic: T13 – 2D Games
-Skill: Configure collision groups for selective collisions
-Description: Use collision groups (numbered 0-15) to control which physics objects collide with each other. Use `set physics group to [1]` (CreatiCode physics_setbodygroup) to assign sprites to groups. Use `enable collision with group [2]` and `disable collision with group [3]` (CreatiCode physics_addcollisiongroup, physics_removecollisiongroup) to configure interactions. **Design pattern:** Group 1 = Player, Group 2 = Enemies, Group 3 = Player bullets, Group 4 = Enemy bullets. Configure: Player bullets collide with Enemies (damage), Player bullets don't collide with Player (pass through). This prevents friendly fire and enables complex game logic. Debug: if objects pass through each other unexpectedly, check collision group settings. _CSTA: 2-AP-16._
-
-Dependencies:
-* T13.G5.06: Detect and respond to physics collisions
-
-
-ID: T13.G5.06.02
-Topic: T13 – 2D Games
-Skill: Use dominance groups for collision resolution
-Description: Use `set dominance group to [VALUE]` (CreatiCode physics_setdominancegroup) with values from -127 to 127 to control which sprite "wins" when two physics objects collide. **Higher dominance = immovable against lower dominance.** Example: Player (dominance 0) collides with Heavy Door (dominance 100) → player is pushed back, door doesn't move. Player (dominance 0) collides with Light Box (dominance -50) → player pushes box easily. Trace: when dominance is equal, both objects move based on mass. When dominance differs, lower-dominance object is always pushed. Use for: unmovable NPCs, heavy obstacles, lightweight collectibles. _CSTA: 2-AP-13._
-
-Dependencies:
-* T13.G5.06: Detect and respond to physics collisions
 
 
 ID: T13.G5.07
@@ -16049,11 +15927,11 @@ Dependencies:
 
 ID: T13.G5.15
 Topic: T13 – 2D Games
-Skill: Design balanced physics parameters through iteration
-Description: Experiment systematically with physics values to achieve desired game feel. **Variables to tune:** Jump impulse (50-200), gravity scale (0.5-2.0), damping (0-0.5), friction (0-1), bounciness (0-1). **Testing methodology:** Change one variable at a time, play test, record observations, repeat. **Document results:** "Impulse 100 + gravity 1.0 = realistic jump. Impulse 150 + gravity 0.5 = floaty moon jump." **Create physics profiles:** (1) Underwater: damping 0.5, gravity 0.3, slow floaty feel. (2) Moon: gravity 0.2, high jumps, slow falls. (3) Tight platformer: damping 0.1, gravity 1.5, snappy responsive control. Compare player experience across profiles. _CSTA: 2-AP-17._
+Skill: Design balanced physics parameters
+Description: Experiment systematically with physics values to achieve desired game feel. Test jump height by varying jump impulse (50 to 200) and gravity scale (0.5 to 2.0). Document how each parameter affects gameplay: floaty vs snappy, heavy vs light. Create at least 3 different physics profiles (underwater, moon gravity, normal) and compare player experience. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G5.05.01: Tune damping for game feel
+* T13.G5.05: Configure physics properties
 
 
 
@@ -16205,20 +16083,11 @@ Dependencies:
 
 ID: T13.G6.11
 Topic: T13 – 2D Games
-Skill: Program physics rotation and torque mechanics
-Description: Control sprite rotation with physics. **Angular velocity:** `set angular velocity to (DEGREES/SEC)` (CreatiCode physics_setangularvelocity)—positive=clockwise, negative=counter-clockwise. **Lock rotation:** `lock rotation` (CreatiCode physics_lockrotation)—essential for player characters that should stay upright despite collisions. **Off-center forces:** `apply force x (X) y (Y) at x (PX) y (PY)` (CreatiCode physics_applyforceatpoint)—force applied away from center creates spin (torque). **Direct torque:** `apply torque (TORQUE)` (CreatiCode physics_addtorque)—pure rotational force without movement. **Use cases:** Rolling balls (angular velocity), player characters (lock rotation), vehicle crashes (off-center impacts cause spin), spinning saw blades (constant torque). Trace: force applied at sprite's top-right corner pushes sprite right AND rotates counter-clockwise. _CSTA: 2-AP-13._
+Skill: Advanced physics: rotation and torque
+Description: Use `set angular velocity to (DEGREES/SEC)` (CreatiCode physics_setangularvelocity) to make sprites spin. Use `lock rotation` (CreatiCode physics_lockrotation) to keep characters upright. Apply off-center forces with `apply force x (X) y (Y) at x (PX) y (PY)` (CreatiCode physics_applyforceatpoint) to create rotation (torque). Use `apply torque (TORQUE)` (CreatiCode physics_addtorque) for direct rotational force. _CSTA: 2-AP-13._
 
 Dependencies:
 * T13.G5.04: Apply physics forces and impulses
-
-
-ID: T13.G6.11.01
-Topic: T13 – 2D Games
-Skill: Detect and respond to ground slope
-Description: Use `ground slope` reporter (CreatiCode physics_getgroundslope) to read the angle of the surface below the sprite in degrees. **Slope values:** 0=flat ground, positive=uphill to right, negative=uphill to left. Combine with `colliding below?` to only read slope when touching ground. **Applications:** Rotate character sprite to match slope angle for realistic walking. Detect steep slopes (>45°) to trigger sliding behavior. Calculate slope-adjusted speed: reduce speed going uphill, increase going downhill using `cos of (slope)`. Debug: ensure ground detection is enabled with proper raycast distance. _CSTA: 2-AP-13._
-
-Dependencies:
-* T13.G5.06: Detect and respond to physics collisions
 
 
 
@@ -16335,21 +16204,11 @@ Dependencies:
 ID: T13.G7.04
 Topic: T13 – 2D Games
 Skill: Profile and optimize clone performance
-Description: Use clone counter to track performance during complex gameplay. Test with many clones and identify lag points by watching frame rate. **Optimization strategies:** Object pooling (reusing clones instead of create/delete), spatial culling (deleting clones far from viewport), spawn throttling (limiting clones per frame), batch operations (process multiple clones per loop iteration). Document performance improvements with before/after measurements. _CSTA: 3A-AP-17._
+Description: Use clone counter to track performance during complex gameplay. Test with many clones and identify lag points by watching frame rate. Apply optimization strategies: object pooling (reusing clones), spatial culling (deleting clones far from viewport), spawn throttling (limiting clones per frame). Document performance improvements. _CSTA: 3A-AP-17._
 
 Dependencies:
 * T13.G6.10: Monitor and optimize clone count
 * T11.G5.17: Explain code changes to a peer
-
-
-ID: T13.G7.04.01
-Topic: T13 – 2D Games
-Skill: Implement object pooling for clone reuse
-Description: Create an object pool system that reuses clones instead of constantly creating and deleting them. **Pool concept:** Pre-create clones at game start and hide them off-screen. When you need an object, "activate" a pooled clone (show it, position it) instead of creating new. When object is "destroyed," hide and return to pool instead of deleting. **Implementation:** Use list to track pool status (`add [inactive] to [Pool Status]`), loop through pool to find inactive clone, set its position and show it, mark as active. When done, hide and mark inactive. **Benefits:** Eliminates create/delete overhead, consistent memory usage, no garbage collection spikes. Test: compare frame rate with 100 bullets using pooling vs. create/delete. _CSTA: 3A-AP-17._
-
-Dependencies:
-* T13.G7.04: Profile and optimize clone performance
-* T10.G4.01: Build a list to collect input or track state
 
 
 
@@ -16545,21 +16404,11 @@ Dependencies:
 
 ID: T13.G8.06
 Topic: T13 – 2D Games
-Skill: Program advanced terrain physics with slopes
-Description: Use `ground slope` reporter (CreatiCode physics_getgroundslope) to read angle of surface below sprite. **Implementation:** When `colliding below?` is true, read slope angle and: (1) Rotate character sprite to match slope using `point in direction (90 + (ground slope))`, (2) Detect steep slopes (>45°) and trigger sliding behavior with reduced friction, (3) Calculate slope-adjusted movement: `set velocity x to ((base speed) * (cos of (ground slope)))` for realistic uphill/downhill speed variation. **Debug:** If slope reading is erratic, ensure ground detection raycast distance is appropriate for terrain complexity. _CSTA: 3A-AP-13._
-
-Dependencies:
-* T13.G6.11.01: Detect and respond to ground slope
-
-
-ID: T13.G8.06.01
-Topic: T13 – 2D Games
-Skill: Configure fast-moving object collision detection
-Description: Enable continuous collision detection (CCD) for fast-moving objects like bullets using `enable fast collision detection` (CreatiCode physics_enableccd). **The tunneling problem:** Without CCD, fast objects can "tunnel" through thin walls in a single frame because they skip from one side to the other without ever overlapping. **When to use CCD:** Bullets, arrows, fast-moving projectiles, small objects moving quickly. **Trade-off:** CCD uses more CPU than standard collision, so only enable on sprites that need it. **Debug:** If fast bullets pass through enemies without triggering collision, enable CCD on the bullet sprite. _CSTA: 3A-AP-13._
+Skill: Advanced terrain physics
+Description: Use `ground slope` reporter (CreatiCode physics_getgroundslope) to read angle of surface below sprite. Adjust character rotation on slopes or determine if surface is climbable based on steepness. Combine with `colliding below?` detection for precise ground interaction. Create realistic slope mechanics (sliding down steep slopes, friction on inclines). _CSTA: 3A-AP-13._
 
 Dependencies:
 * T13.G5.06: Detect and respond to physics collisions
-* T13.G4.02: Move projectile clone continuously
 
 
 
@@ -16654,66 +16503,26 @@ Dependencies:
 ID: T13.G8.15
 Topic: T13 – 2D Games
 Skill: Conduct comprehensive game evaluation
-Description: Perform thorough evaluation of completed game: playtest with 10+ diverse players (different ages/skills), collect quantitative data (completion rates, death locations, playtime), gather qualitative feedback (fun moments, frustration points, suggestions). Analyze data to identify patterns. Create prioritized improvement list. Implement top 3 improvements and re-test to measure impact. Document entire evaluation process with before/after metrics. _CSTA: 3A-AP-19._
+Description: Perform thorough evaluation of completed game: playtest with 10+ diverse players (different ages/skills), collect quantitative data (completion rates, death locations, playtime), gather qualitative feedback (fun moments, frustration points, suggestions). Analyze data to identify patterns. Create prioritized improvement list. Implement top 3 improvements and re-test to measure impact. Document entire evaluation process. _CSTA: 3A-AP-19._
 
 Dependencies:
 * T13.G7.16: Collect and analyze playtesting data
 * T12.G5.01: Document testing and debugging choices
 
 
-ID: T13.G8.16
-Topic: T13 – 2D Games
-Skill: Use AI to generate game dialogue and descriptions
-Description: Integrate AI text generation (CreatiCode ChatGPT blocks) to create dynamic game content. Use `ask AI [prompt]` to generate: NPC dialogue variations ("Write 3 different greetings for a friendly shopkeeper"), item descriptions ("Describe a magical sword in 2 sentences"), story text ("Write what happens when the hero finds the treasure"). **Implementation:** Store AI-generated text in variables, then display with `say` blocks. **Design considerations:** Cache generated text to avoid repeated API calls, provide fallback text if AI is unavailable, review generated content for appropriateness. This demonstrates how AI augments human creativity in game design. _CSTA: 3A-AP-16._
 
-Dependencies:
-* T13.G6.14: Design player feedback systems
-* T24.G6.01: Use ChatGPT blocks to generate text responses
-
-
-ID: T13.G8.17
-Topic: T13 – 2D Games
-Skill: Architect large-scale game with multiple systems
-Description: Design and implement a complete game integrating multiple complex systems: state machine (game states + character states), physics engine (platforming or physics puzzles), save/load system (persistent progress), economy system (currency, shop, upgrades), progression system (levels, unlocks, achievements), AI enemies (multiple behavior types), and UI/HUD (menus, inventory, health). **Architecture approach:** Create system diagram showing how systems interact, define clear interfaces between systems (broadcasts, shared variables), implement each system in isolation then integrate. **Documentation:** Write technical design document describing each system's purpose, implementation, and dependencies. This capstone skill demonstrates mastery of game development. _CSTA: 3A-AP-16._
-
-Dependencies:
-* T13.G8.08: Design complete game progression system
-* T13.G8.09: Design boss encounter mechanics
-* T13.G7.09: Create save/load custom blocks
-
-
-
-# T14 - Stories & Animation (Phase 6 Optimized - November 2025)
-# Applied Phase 6 comprehensive optimizations:
-# MAJOR CHANGES:
-# 1. Expanded K-2 Foundation (3→5 skills each):
-#    - Added GK.04: Identify cause-effect in story sequences
-#    - Added GK.05: Match sound to story moment (pre-literacy audio connection)
-#    - Added G1.04: Identify character goal in picture story
-#    - Added G1.05: Sequence story with cause-effect relationships
-#    - Added G2.04: Predict story ending from visual clues
-#    - Added G2.05: Compare two story paths in branching picture narrative
-# 2. Enhanced AI-Era Storytelling Skills (G6-G8):
-#    - Added G6.09: Generate character dialogue with ChatGPT blocks
-#    - Added G6.10: Create AI-generated character costumes
-#    - Added G7.04: Build adaptive narrative with AI-driven responses
-#    - Added G7.05: Design procedural animation sequences with loops
-#    - Added G7.06: Implement parallax scrolling for depth effect
-#    - Added G8.06: Build collaborative multiplayer story with cloud variables
-#    - Added G8.07: Design story template system for reusable narratives
-# 3. Improved Narrative Design Skills:
-#    - Added G4.10: Design character arc with beginning/middle/end states
-#    - Added G5.16: Create dramatic tension through pacing and timing
-#    - Added G5.17: Design visual transitions between scenes
-# 4. Fixed Dependencies:
-#    - All dependencies now strictly follow X-2 rule
-#    - Cross-topic dependencies preserved unchanged
-#    - Internal progression strengthened with clearer pathways
-# 5. Enhanced Skill Depth:
-#    - All skills use active verbs (Design, Build, Trace, Debug, Predict)
-#    - K-2 skills specify visual scenarios with picture cards
-#    - G3+ skills include debugging tips and tracing examples
-# Total: 104 skills across K-8 (expanded from 88 for AI-era depth)
+# T14 - Stories & Animation (Phase 4 Optimized - November 2025)
+# Applied Phase 4 topic-focused optimizations:
+# - Enhanced K-2 skills with detailed visual scenarios and picture card descriptions
+# - Improved active verb usage throughout (Trace, Predict, Debug, Design, Create)
+# - Fixed redundant cross-topic dependencies - each skill now has focused, relevant deps
+# - Fixed X-2 rule violations - dependencies stay within 2 grade levels
+# - Improved G3 skill organization and descriptions with clearer scaffolding
+# - Added bridging skills T14.G7.02 (text parsing) for smoother G6-G8 progression
+# - Consolidated skill numbering (T14.G7.03 was renumbered to T14.G7.02, T14.G7.04 to T14.G7.03)
+# - Streamlined descriptions with active verbs: Implement, Design, Build, Create
+# - All skills now have concrete tracing examples and debugging tips
+# Total: 88 skills across K-8 (optimized for internal coherence and quality)
 
 ID: T14.GK.01
 Topic: T14 – Stories & Animation
@@ -16743,28 +16552,6 @@ ID: T14.GK.03
 Topic: T14 – Stories & Animation
 Skill: Identify which character is speaking from speech bubble
 Description: **Student task:** Look at a picture with two characters and one speech bubble. Tap the character who is talking based on where the speech bubble points. **Visual scenario:** Picture shows a blue dog and an orange cat standing side by side. A speech bubble with "Woof! Woof!" has a tail pointing toward the dog. Question: "Who is talking?" **Correct answer:** Tap the dog (speech bubble points to dog, and dogs say "Woof"). _Implementation note: Picture-based click selection with clear speech bubble tail pointing to speaker. Audio reads speech bubble text aloud. Include obvious content clues (meow=cat, woof=dog, ribbit=frog). CSTA: EK-IC-SI-01._
-
-
-
-
-ID: T14.GK.04
-Topic: T14 – Stories & Animation
-Skill: Identify cause-effect in a story sequence
-Description: **Student task:** Look at 2 picture cards showing a cause and effect. Tap the picture that shows WHAT HAPPENED (effect). **Visual scenario:** Card A shows a child kicking a ball. Card B shows the ball flying through the air. Question: "Which picture shows what happened AFTER the kick?" **Correct answer:** Card B (the ball flying is the effect of the kick). _Implementation note: Two-card cause-effect matching. Audio describes both cards. Use clear physical cause-effect: blow candle → flame goes out; push domino → domino falls; open umbrella → stay dry in rain. Focus on immediate, visible consequences. CSTA: EK-IC-SI-01._
-
-Dependencies:
-* T14.GK.01: Sequence three story picture cards (beginning, middle, end)
-
-
-
-
-ID: T14.GK.05
-Topic: T14 – Stories & Animation
-Skill: Match sound to story moment
-Description: **Student task:** Look at a story picture and listen to 3 different sounds. Tap the sound that matches what is happening in the picture. **Visual scenario:** Picture shows a cartoon thunderstorm with rain, dark clouds, and lightning. Sound choices: (A) Birds chirping, (B) Thunder rumbling and rain, (C) Children laughing. **Correct answer:** (B) Thunder and rain (matches the storm picture). _Implementation note: Picture-to-audio matching MCQ. Play each sound when tapped before selection. Use distinctive, recognizable sounds: animals, weather, actions (splashing, crunching, knocking). Builds audio storytelling awareness. CSTA: EK-IC-SI-01._
-
-Dependencies:
-* T14.GK.02: Match character emotion to facial expression
 
 
 
@@ -16808,30 +16595,6 @@ Dependencies:
 
 
 
-ID: T14.G1.04
-Topic: T14 – Stories & Animation
-Skill: Identify character goal in a picture story
-Description: **Student task:** Look at a 3-panel picture story and identify what the main character is TRYING to do (their goal). **Visual scenario:** Panel 1: A squirrel looks up at an acorn high in a tree. Panel 2: The squirrel climbs up the tree trunk. Panel 3: The squirrel reaches for the acorn. Question: "What does the squirrel want to do?" Answer choices: (A) Get the acorn, (B) Take a nap, (C) Find a friend. **Correct answer:** (A) Get the acorn. _Implementation note: 3-panel story with MCQ about character motivation. Characters should clearly show desire through body language (reaching, looking, pointing). Audio narrates each panel. Understanding character goals is foundational to story comprehension. CSTA: EK-IC-SI-01._
-
-Dependencies:
-* T14.GK.01: Sequence three story picture cards (beginning, middle, end)
-* T14.GK.04: Identify cause-effect in a story sequence
-
-
-
-
-ID: T14.G1.05
-Topic: T14 – Stories & Animation
-Skill: Sequence story with cause-effect relationships
-Description: **Student task:** Drag 4 picture cards into order so each card causes the next to happen. **Visual scenario:** Cards show: (A) Wind blows leaves off tree, (B) Leaves pile up on ground, (C) Child rakes leaves into a bag, (D) Child jumps into leaf pile (out of order initially). **Correct order:** A → B → D → C (Wait - actually: A→B, then child jumps D, which happens before raking C? Let me reconsider: Wind→leaves fall→pile up→child rakes). Better scenario: A=ice cream falls, B=ice cream on ground, C=dog licks ice cream, D=child cries. Order: A→B→C→D. _Implementation note: Drag-drop sequence where each event causes the next. Audio explains cause-effect: "First THIS happened, so THEN that happened." Use clear domino-effect scenarios. CSTA: EK-IC-SI-01._
-
-Dependencies:
-* T14.GK.04: Identify cause-effect in a story sequence
-* T01.GK.02: Sequence four picture cards for a classroom arrival routine
-
-
-
-
 
 ID: T14.G2.01
 Topic: T14 – Stories & Animation
@@ -16867,30 +16630,6 @@ Description: **Student task:** Look at a strip of 6 animation frames showing a r
 Dependencies:
 * T14.G2.01: Compare animation speed by analyzing frame spacing
 * T01.GK.07: Identify the repeating pattern in an animation
-
-
-
-
-ID: T14.G2.04
-Topic: T14 – Stories & Animation
-Skill: Predict story ending from visual clues
-Description: **Student task:** Look at 3 story picture cards showing the beginning and middle. Predict what happens at the END by choosing from 3 possible ending pictures. **Visual scenario:** Card 1: A girl plants a seed in soil. Card 2: The girl waters the seed, and a small sprout appears. Card 3 (choose ending): (A) A tall flower blooms, (B) The pot is empty, (C) Snow covers the pot. **Correct answer:** (A) A tall flower blooms (logical growth progression from sprout). _Implementation note: 3-card story with ending prediction MCQ. Use visual clues in middle cards to foreshadow endings. Endings should follow cause-effect logic. Audio narrates each card. CSTA: EK-IC-SI-01._
-
-Dependencies:
-* T14.G1.04: Identify character goal in a picture story
-* T14.G1.05: Sequence story with cause-effect relationships
-
-
-
-
-ID: T14.G2.05
-Topic: T14 – Stories & Animation
-Skill: Compare two story paths in a branching picture narrative
-Description: **Student task:** Look at a story that splits into two different paths. Identify how the two endings are DIFFERENT based on the choice made. **Visual scenario:** Start: Knight approaches a fork in the road. Path A: Knight goes left → finds friendly dragon → they become friends (happy ending). Path B: Knight goes right → finds treasure chest → takes treasure home (different happy ending). Question: "What is different about the two endings?" Answer choices describe the different outcomes. _Implementation note: Branching story visualization with two parallel paths. Audio explains "Different choices lead to different endings." Foundation for understanding interactive narratives. CSTA: EK-IC-SI-01._
-
-Dependencies:
-* T14.G2.04: Predict story ending from visual clues
-* T14.G2.02: Identify where the scene changes in a story strip
 
 
 
@@ -17335,18 +17074,6 @@ Dependencies:
 
 
 
-ID: T14.G4.10
-Topic: T14 – Stories & Animation
-Skill: Design character arc with beginning, middle, and end states
-Description: Plan how a character changes throughout the story using three distinct states. **Beginning state:** character's initial appearance, position, and behavior (Hero starts small, shy, in corner). **Middle state:** character transformation during challenges (Hero grows larger, gains confidence, moves to center). **End state:** character's final form after resolution (Hero at full size, bold costume, center stage). **Implementation:** use costume changes, size changes, position changes to visually represent character growth. Design a character arc document: list each state's visual properties, what triggers the transition, and what it means for the story. Trace: Beginning (size 80%, costume "shy") → Challenge completed → Middle (size 100%, costume "brave") → Final victory → End (size 120%, costume "hero").
-
-Dependencies:
-* T14.G4.09: Apply graphics effects for visual atmosphere and transitions
-* T14.G4.02: Use broadcasts to coordinate scene changes across sprites
-
-
-
-
 
 ID: T14.G5.01
 Topic: T14 – Stories & Animation
@@ -17662,30 +17389,6 @@ Dependencies:
 
 
 
-ID: T14.G5.16
-Topic: T14 – Stories & Animation
-Skill: Create dramatic tension through pacing and timing
-Description: Design pacing strategies to build emotional impact in stories. **Build suspense:** slow down before climax with longer waits (2-3 secs), slower glides, more costume frames. **Release tension:** speed up during action with shorter waits (0.1-0.3 secs), faster animations. **Dramatic pause:** insert `wait (2) seconds` before important reveals for anticipation. **Timing patterns:** horror (slow approach, sudden appearance), comedy (quick setup, pause, punchline), mystery (gradual reveal with increasing tempo). **Implementation:** vary `wait` durations throughout story: slow (1-3 secs) for tension, fast (0.1-0.5 secs) for action, pause (2-4 secs) before reveals. Trace a suspense sequence: `glide (3) secs` (slow approach), `wait (2)` (pause), `say [BOO!]` (sudden reveal).
-
-Dependencies:
-* T14.G5.15: Calculate and synchronize animation timing
-* T14.G4.10: Design character arc with beginning, middle, and end states
-
-
-
-
-ID: T14.G5.17
-Topic: T14 – Stories & Animation
-Skill: Design visual transitions between scenes
-Description: Create smooth scene transitions that enhance storytelling. **Fade to black:** all sprites `repeat (10) { change [brightness v] effect by (-10) }`, then change scene, then fade in. **Wipe effect:** move a black rectangle sprite across screen while changing scene behind it. **Zoom transition:** all sprites `repeat (10) { change size by (-10) }` (zoom out), change scene, `repeat (10) { change size by (10) }` (zoom in). **Dissolve:** current sprites fade out (ghost effect) while new sprites fade in simultaneously. **Match cut:** end scene with sprite in specific position/pose, start next scene with different sprite in same position/pose for visual continuity. Choose transitions that match story mood: fades for time passing, wipes for location changes, zooms for emphasis.
-
-Dependencies:
-* T14.G4.09: Apply graphics effects for visual atmosphere and transitions
-* T14.G5.02: Broadcast action events to coordinate group animations
-
-
-
-
 
 ID: T14.G6.01
 Topic: T14 – Stories & Animation
@@ -17792,30 +17495,6 @@ Dependencies:
 
 
 
-ID: T14.G6.09
-Topic: T14 – Stories & Animation
-Skill: Generate character dialogue with ChatGPT blocks
-Description: Use `ask ChatGPT [prompt] and wait` to generate dynamic dialogue responses. **Story dialogue prompt:** `ask ChatGPT [You are a wise wizard in a fantasy story. A young hero asks you for advice about facing a dragon. Give a short, encouraging response in 2 sentences.] and wait`, then use `(ChatGPT response)` in say block. **Character voice consistency:** include character description in prompt ("You are grumpy but kind..."). **Safety:** review AI responses before displaying; use `if <(length of (ChatGPT response)) > (0)>` to handle empty responses. **Use cases:** NPCs that respond to player questions, procedurally generated story events, adaptive dialogue based on player choices. Design prompts that produce age-appropriate, story-consistent responses.
-
-Dependencies:
-* T14.G6.02: Store and iterate dialogue using lists
-* T14.G5.05: Create dynamic dialogue by joining text and variables
-
-
-
-
-ID: T14.G6.10
-Topic: T14 – Stories & Animation
-Skill: Create AI-generated character costumes and backdrops
-Description: Use AI image generation to create custom story visuals. **Generate backdrop:** `search library for [magical forest with glowing mushrooms] and add as backdrop` finds or generates scene backgrounds. **Generate costume:** `search library for [friendly dragon character cartoon style] and add as costume for [dragon v]` creates character appearances. **Best practices:** use descriptive prompts (art style, mood, colors), test multiple prompts for best results, save generated images as permanent costumes. **Creative storytelling:** let players describe characters → generate custom costumes; procedurally generate scene backgrounds based on story location. Combine AI-generated visuals with coded animations for unique stories.
-
-Dependencies:
-* T14.G6.09: Generate character dialogue with ChatGPT blocks
-* T14.G4.02.02: Change stage backdrop to match scene changes
-
-
-
-
 
 ID: T14.G7.01
 Topic: T14 – Stories & Animation
@@ -17852,42 +17531,6 @@ Description: Create data-driven dialogue where list items contain "Speaker: Text
 Dependencies:
 * T14.G7.02: Parse structured text using delimiter splitting
 * T14.G6.02: Store and iterate dialogue using lists
-
-
-
-
-ID: T14.G7.04
-Topic: T14 – Stories & Animation
-Skill: Build adaptive narrative with AI-driven responses
-Description: Combine ChatGPT with story state for contextually-aware AI dialogue. **Context-aware prompts:** include story state in prompt: `ask ChatGPT (join [The player has made these choices: ] (join (playerHistory) [. As the wizard character, respond to their question about...])) and wait`. **Memory pattern:** store key player choices in list → include summary in AI prompts → AI responses reference past decisions. **Adaptive NPCs:** AI generates different responses based on player's accumulated karma/trust/relationship values. **Guardrails:** validate AI responses fit story; have fallback dialogue if AI fails. Design prompt templates that produce consistent, story-appropriate responses while allowing AI creativity.
-
-Dependencies:
-* T14.G6.09: Generate character dialogue with ChatGPT blocks
-* T14.G7.03: Build automated dialogue system with speaker tags
-
-
-
-
-ID: T14.G7.05
-Topic: T14 – Stories & Animation
-Skill: Design procedural animation sequences with mathematical patterns
-Description: Generate complex animations using mathematical formulas. **Sine wave motion:** `forever { set y to ((100) * (sin of ((timer) * (180)))) }` creates smooth up-down bobbing. **Circular motion:** `set x to ((radius) * (cos of (angle)))`, `set y to ((radius) * (sin of (angle)))`, `change [angle v] by (5)` creates orbit. **Easing functions:** slow-start: `change x by ((targetX - x) / (10))` creates deceleration effect. **Breathing animation:** `set size to ((100) + ((10) * (sin of ((timer) * (90)))))` creates subtle breathing. **Figure-8 pattern:** combine two sine waves with different frequencies for complex paths. Trace mathematical values through animation frames to understand patterns.
-
-Dependencies:
-* T14.G6.01: Implement animation state machines with variables
-* T14.G5.15: Calculate and synchronize animation timing
-
-
-
-
-ID: T14.G7.06
-Topic: T14 – Stories & Animation
-Skill: Implement parallax scrolling for depth effect
-Description: Create illusion of depth by moving background layers at different speeds. **Layer setup:** create 3+ background sprites (far, middle, near). **Parallax movement:** when scrolling, far layer `change x by (-1)`, middle layer `change x by (-3)`, near layer `change x by (-5)`. Slower movement = farther away. **Infinite scrolling:** when sprite reaches edge, teleport to opposite side: `if <(x position) < (-500)> then change x by (1000)`. **Vertical parallax:** use same technique with Y for up/down scrolling (platformers, elevators). **Combined with camera:** parallax layers move opposite to "camera" direction. Trace layer positions to verify correct relative speeds.
-
-Dependencies:
-* T14.G5.03: Simulate camera panning by moving all sprites together
-* T14.G5.04.01: Control sprite layer order with layer blocks
 
 
 
@@ -17997,89 +17640,14 @@ Dependencies:
 
 
 
-ID: T14.G8.06
-Topic: T14 – Stories & Animation
-Skill: Build collaborative multiplayer story with cloud variables
-Description: Create shared storytelling experiences using cloud variables. **Shared story state:** use cloud variables `☁ currentScene`, `☁ storyChoices` to synchronize state across players. **Turn-based storytelling:** `☁ currentWriter` tracks who's writing; other players see updates in real-time. **Collaborative voting:** multiple players vote on story choices; most votes determine path: `change [☁ voteA v] by (1)`. **Real-time updates:** poll cloud variables to detect changes: `if <not <(☁ scene) = (lastScene)>>` then update display. **Conflict resolution:** use timestamps or player IDs to handle simultaneous edits. **Architecture:** one player hosts (makes decisions), others observe; or democratic voting on all choices. Design collaborative stories that remain coherent with multiple contributors.
-
-Dependencies:
-* T14.G8.01.02: Navigate story graph based on player choices
-* T14.G7.01: Design centralized scene manager architecture
-
-
-
-
-ID: T14.G8.07
-Topic: T14 – Stories & Animation
-Skill: Design story template system for reusable narratives
-Description: Create modular story templates that can be filled with different content. **Template structure:** define slots for character names, locations, objects, outcomes. **Data separation:** story template in one list (with placeholders like {HERO}, {VILLAIN}), content data in another list. **Template rendering:** replace placeholders with actual content: loop through template, find {PLACEHOLDER}, replace with value from content list. **Reusable components:** build library of scene templates (introduction, conflict, resolution) that can be combined differently. **User-generated stories:** let players fill in template slots to create their own stories using your narrative structure. **Benefits:** one story engine powers multiple narratives; easy to add new stories by defining content data. Design templates that produce coherent stories regardless of content filled in.
-
-Dependencies:
-* T14.G8.01: Design branching story node data structures
-* T14.G7.02: Parse structured text using delimiter splitting
-
-
-
-
-
-# T15 - User Interfaces (Phase 5 Optimized - November 2025)
-# Comprehensive optimization for UI/UX skill progression K-8
-# Key improvements:
-# - Expanded K-2 from 6 to 12 picture-based/unplugged skills
-# - Active verbs throughout: Identify, Match, Sort, Predict, Trace, Debug, Create, Evaluate
-# - Broke down broad skills into granular sub-skills
-# - Added debugging skill (T15.G3.06.01) for widget name mismatches
-# - Fixed all intra-topic X-2 rule violations (removed cross-topic G6 deps from G8 skills)
-# - Enhanced G7-G8 with advanced UX patterns for AI era (chat interfaces, dashboards)
-# - Total: 77 skills with smooth K-8 progression (K:4, G1:4, G2:4, G3:12, G4:15, G5:17, G6:12, G7:5, G8:6)
-
-# ============ KINDERGARTEN (4 skills) ============
-
-ID: T15.K.01
-Topic: T15 – User Interfaces
-Skill: Identify buttons in everyday interfaces (pictures)
-Description: **Student task:** Look at 4 pictures of everyday devices (remote control, microwave, tablet, toy robot) and tap all the buttons you can find. **Visual scenario:** Each device shows clickable button regions in various shapes. **Correct answers:** Tap 2-3 buttons on each device. _Implementation: Tap-to-select; audio says "Buttons are things we press to make something happen!"_
-
-Dependencies:
-* None
-
-
-ID: T15.K.02
-Topic: T15 – User Interfaces
-Skill: Recognize text displays and labels (pictures)
-Description: **Student task:** Look at 4 pictures (TV showing channel number, microwave showing time, elevator showing floor, tablet showing app name) and tap where text/numbers appear. **Visual scenario:** Each device has information displays. _Implementation: Tap-to-select; audio says "Displays show us information!"_
-
-Dependencies:
-* T15.K.01: Identify buttons in everyday interfaces (pictures)
-
-
-ID: T15.K.03
-Topic: T15 – User Interfaces
-Skill: Sort interface elements by type (pictures)
-Description: **Student task:** Drag 6 interface element pictures into 2 buckets: "Things we press" (buttons) and "Things we look at" (displays). **Visual scenario:** Play button, power button, volume button vs. score counter, timer, message display. _Implementation: Drag-and-drop sorting._
-
-Dependencies:
-* T15.K.02: Recognize text displays and labels (pictures)
-
-
-ID: T15.K.04
-Topic: T15 – User Interfaces
-Skill: Match button to action (pictures)
-Description: **Student task:** Draw lines connecting 4 buttons to what they do. **Visual scenario:** Play triangle → music plays; Stop square → music stops; Volume speaker → sound louder; Power circle → device turns off. _Implementation: Drag-to-match lines._
-
-Dependencies:
-* T15.K.03: Sort interface elements by type (pictures)
-
-
-# ============ GRADE 1 (4 skills) ============
 
 ID: T15.G1.01
 Topic: T15 – User Interfaces
 Skill: Match interface elements to their purpose (unplugged)
-Description: **Student task:** Given pictures of interface elements (button, slider, text box, picture display) and pictures of purposes (click to start, slide to change volume, type your name, show a photo), draw lines connecting each element to its purpose. **Activity:** Paper-based matching exercise. _Implementation: Line-drawing on paper or digital drag-to-match._
+Description: Given pictures of interface elements (button, slider, text box, picture) and pictures of purposes (click to start, move to change volume, type your name, look at photo), draw lines connecting each element to its purpose.
 
 Dependencies:
-* T15.K.04: Match button to action (pictures)
+* T15.K.02: Recognize labels and text displays (pictures)
 
 
 
@@ -18088,42 +17656,22 @@ Dependencies:
 ID: T15.G1.02
 Topic: T15 – User Interfaces
 Skill: Arrange interface elements on a screen (unplugged)
-Description: **Student task:** Cut out paper shapes representing buttons, labels, and pictures. Arrange them on a paper "screen" to create a simple game menu with title at top, start button in middle, and picture at bottom. **Activity:** Physical paper prototyping. _Implementation: Photo-graded or teacher-graded arrangement._
+Description: Cut out paper shapes representing buttons, labels, and pictures. Arrange them on a paper "screen" to create a simple interface (e.g., game menu with title, start button, and picture).
 
 Dependencies:
 * T15.G1.01: Match interface elements to their purpose (unplugged)
 
 
-ID: T15.G1.03
-Topic: T15 – User Interfaces
-Skill: Predict what happens when a button is pressed (pictures)
-Description: **Student task:** Look at a picture of an interface with a highlighted button, then choose from 3 pictures what will happen when that button is pressed. **Visual scenario:** Game start screen with "Play" button highlighted → choose from: game starts, game closes, nothing happens. _Implementation: Multiple-choice visual selection._
-
-Dependencies:
-* T15.G1.02: Arrange interface elements on a screen (unplugged)
 
 
-ID: T15.G1.04
-Topic: T15 – User Interfaces
-Skill: Identify input vs output elements (pictures)
-Description: **Student task:** Look at an interface picture and sort elements into "I give information" (inputs: keyboard, textbox, button) vs "I receive information" (outputs: screen, speaker, display). **Visual scenario:** Computer setup with various peripherals. _Implementation: Drag-and-drop sorting into 2 categories._
-
-Dependencies:
-* T15.G1.03: Predict what happens when a button is pressed (pictures)
-
-
-
-
-
-# ============ GRADE 2 (4 skills) ============
 
 ID: T15.G2.01
 Topic: T15 – User Interfaces
-Skill: Trace interface interactions with before/after pictures
-Description: **Student task:** Look at before/after picture pairs showing interface interactions (button pressed → light turns on, slider moved → volume bar grows, text typed → letters appear in box). Describe what changed in each pair. **Visual scenario:** 4 pairs of before/after interface states. _Implementation: Visual comparison with verbal or written response._
+Skill: Identify what happens when you interact with interfaces (picture-based)
+Description: Look at before/after pictures showing interface interactions (button pressed → light turns on, slider moved → volume changes, text typed → letters appear). Describe what changed.
 
 Dependencies:
-* T15.G1.04: Identify input vs output elements (pictures)
+* T15.G1.02: Arrange interface elements on a screen (unplugged)
 
 
 
@@ -18131,41 +17679,20 @@ Dependencies:
 
 ID: T15.G2.02
 Topic: T15 – User Interfaces
-Skill: Sequence interface interaction steps (pictures)
-Description: **Student task:** Put 4 picture cards in order showing how to use an interface: (1) see a button, (2) click the button, (3) button changes appearance, (4) action happens. **Visual scenario:** Ordering sequence for "play a song" or "send a message" interaction. _Implementation: Drag-to-sequence ordering._
-
-Dependencies:
-* T15.G2.01: Trace interface interactions with before/after pictures
-
-
-ID: T15.G2.03
-Topic: T15 – User Interfaces
 Skill: Design a simple interface on paper (unplugged)
-Description: **Student task:** Draw a simple interface on paper for a specific purpose (game menu, calculator, music player). Include: buttons with labels, a display for information, arrange elements logically. Explain what each part does. **Activity:** Paper prototyping with crayons/markers. _Implementation: Teacher-graded or peer-reviewed drawing._
+Description: Draw a simple interface on paper for a specific purpose (TV remote, game menu, calculator). Include buttons with labels, displays for information, and arrange them logically. Explain what each part does.
 
 Dependencies:
-* T15.G2.02: Sequence interface interaction steps (pictures)
-
-
-ID: T15.G2.04
-Topic: T15 – User Interfaces
-Skill: Identify good vs confusing interfaces (pictures)
-Description: **Student task:** Look at 2 interface designs for the same purpose (e.g., two game menus) and tap which one is easier to use. Then explain why. **Visual scenario:** One clear interface with big buttons and labels vs one cluttered interface with small unlabeled buttons. _Implementation: Multiple-choice with explanation prompt._
-
-Dependencies:
-* T15.G2.03: Design a simple interface on paper (unplugged)
+* T15.G2.01: Identify what happens when you interact with interfaces (picture-based)
 
 
 
 
-
-# ============ GRADE 3 (12 skills) ============
-# Introduction to widget blocks - buttons, labels, textboxes, basic events
 
 ID: T15.G3.01
 Topic: T15 – User Interfaces
 Skill: Add a button widget to the stage
-Description: Use "add button [TEXT] at X (X) Y (Y) width (WIDTH) height (HEIGHT) tooltip [TOOLTIP] as [NAME]" block to create a clickable button on the stage. Specify the button's text label, position (X, Y coordinates), size (width and height in pixels), tooltip (text shown on hover), and name. Widgets are UI elements that float above sprites and remain visible regardless of sprite position.
+Description: Use "add button [TEXT] at X (X) Y (Y) width (WIDTH) height (HEIGHT) tooltip [TOOLTIP] as [NAME]" block to create a clickable button on the stage. Specify the button's text label, position (X, Y coordinates), size (width and height in pixels), tooltip (text shown on hover), and name. Understand that widgets are UI elements that float above sprites.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -18253,20 +17780,11 @@ Dependencies:
 ID: T15.G3.06
 Topic: T15 – User Interfaces
 Skill: Get text from a textbox widget
-Description: Use the "value of widget" block to retrieve the text that a user typed into a textbox. Store the input in a variable or use it directly in other blocks (e.g., display it in a label, use it in a greeting). The value block works with any widget type to get its current content.
+Description: Use the "value of widget" block to retrieve the text that a user typed into a textbox. Store the input in a variable or use it directly in other blocks (e.g., display it in a label, use it in a greeting).
 
 Dependencies:
 * T15.G3.05: Add a textbox widget for user input
 * T09.G3.02: Use a variable in a conditional (if block)
-
-
-ID: T15.G3.06.01
-Topic: T15 – User Interfaces
-Skill: Debug widget name mismatches
-Description: Identify and fix errors caused by mismatched widget names. **Common errors:** Using "value of widget [button1]" when the button was named "myButton"; event block referencing wrong widget name. **Debug process:** Check that widget name in "add widget" block matches name in event/value blocks exactly (case-sensitive). _Auto-graded: Given buggy code with mismatched names, fix the widget references._
-
-Dependencies:
-* T15.G3.06: Get text from a textbox widget
 
 
 
@@ -18309,13 +17827,10 @@ Dependencies:
 
 
 
-# ============ GRADE 4 (15 skills) ============
-# Widget styling, input widgets (slider, dropdown, checkbox, radio), settings panels
-
 ID: T15.G4.01
 Topic: T15 – User Interfaces
 Skill: Style widget text properties
-Description: Use "set text style [FONTSTYLE v] font size (FONTSIZE) text color [TEXTCOLOR] boldness [bold/normal v] text alignment [Left/Middle/Right v] for widget [WIDGETNAME v]" block to style widget text. Choose from font families (sans-serif for clean modern look, Arial for readability, Bangers for fun themes). Set font size in pixels, text color, bold/normal weight, and left/middle/right alignment. Create visually appealing labels and buttons.
+Description: Use "set text style [FONTSTYLE v] font size (FONTSIZE) text color [TEXTCOLOR] boldness [bold/normal v] text alignment [Left/Middle/Right v] for widget [WIDGETNAME v]" block to style widget text. Choose from many font families (sans-serif for clean modern text, Arial/Helvetica for readability, Bangers/Creepster for fun themed text). Set font size in pixels, text color, bold or normal weight, and alignment. Create visually appealing labels and buttons with appropriate text formatting.
 
 Dependencies:
 * T15.G3.08: Position and resize widgets
@@ -18501,13 +18016,10 @@ Dependencies:
 
 
 
-# ============ GRADE 5 (17 skills) ============
-# Complex widgets (video, chat, toolbox), multi-screen apps, forms, HUD, animations
-
 ID: T15.G5.01
 Topic: T15 – User Interfaces
-Skill: Create a multi-screen app with navigation
-Description: Build a multi-screen application with navigation between views (home, game, settings, results). **Approach 1:** Use buttons to navigate by showing/hiding widget groups using "set widget visible" block. **Approach 2:** Use tabs widget to organize screens into panels. Track current screen in a variable. Create consistent navigation (back buttons, menu) across all screens.
+Skill: Create a multi‑screen app with a navigation interface
+Description: Build a multi-screen application with navigation between different views (home screen, game screen, settings screen, results screen). Use buttons to navigate between screens by showing/hiding different groups of widgets, OR use the tabs widget to organize screens into separate tabs. Manage which widgets are visible on each screen using the "set widget visible" block or tab containers.
 
 Dependencies:
 * T15.G4.08: Build a simple settings panel
@@ -18753,16 +18265,13 @@ Dependencies:
 
 
 
-# ============ GRADE 6 (12 skills) ============
-# Usability evaluation, responsive design, camera widgets, menu bars, accessibility basics
-
 ID: T15.G6.01
 Topic: T15 – User Interfaces
 Skill: Evaluate an interface for usability
-Description: Examine an existing interface (app screenshot) and identify usability issues and strengths. **Evaluation criteria:** Are buttons clearly labeled? Is the layout intuitive? Can users find important actions? Are colors accessible for colorblind users? **Activity:** Write 3 strengths and 3 improvements for a given interface. Learn to think like a UX designer.
+Description: Students examine an existing interface (a simple app screenshot) and identify issues or strengths: Are buttons clearly labeled? Is the layout intuitive? Are colors accessible for colorblind users? They learn to think like a UX designer and consider diverse users.
 
 Dependencies:
-* T15.G5.03: Build a leaderboard or high-score display
+* T15.G5.03: Build a leaderboard or high‑score display
 
 
 
@@ -18897,13 +18406,10 @@ Dependencies:
 
 
 
-# ============ GRADE 7 (7 skills) ============
-# Data collection interfaces, search/filter, accessibility, charts, help systems
-
 ID: T15.G7.01
 Topic: T15 – User Interfaces
-Skill: Build a data collection interface (survey/questionnaire)
-Description: Design an interface for a survey or questionnaire. **Components:** Text inputs for open questions, dropdowns for multiple-choice, checkboxes for multi-select, radio buttons for single-select. **Validation:** Check that required fields are filled, display error messages for empty/invalid inputs. **Data handling:** Store responses in variables or lists. Create a submit button that validates all inputs and displays a confirmation.
+Skill: Build a data collection interface (survey or questionnaire)
+Description: Students design an interface for a survey or questionnaire with text inputs, dropdowns, checkboxes, or radio buttons; validate responses; and collect the data. They learn how interfaces are used to gather information.
 
 Dependencies:
 * T15.G6.03: Use color and contrast to improve readability
@@ -18965,17 +18471,18 @@ Dependencies:
 
 
 
-# ============ GRADE 8 (6 skills) ============
-# Advanced UX patterns: wizards, dynamic content, pattern analysis, usability testing
-
 ID: T15.G8.01
 Topic: T15 – User Interfaces
 Skill: Design a wizard or step-by-step interface
-Description: Build a "wizard" interface that guides users through a multi-step process (character creation, game setup, checkout). **Components:** Previous/Next buttons, progress indicator showing current step, validation at each step before allowing progression. **State management:** Track current step number, store collected data across steps. **UX patterns:** Disable Next until required fields are valid, show summary at final step.
+Description: Students build a "wizard" interface that guides users through a multi-step process (e.g., character creation, game setup, checkout) with Previous/Next buttons, progress indicators, and validation at each step. They manage state across multiple screens.
 
 Dependencies:
 * T15.G7.04: Create a help or tutorial interface
 * T15.G7.03: Design an accessible interface for users with different abilities
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T07.G6.01: Trace nested loops with variable bounds
+* T16.G6.01: Configure surface friction parameters
+* T25.G6.01: Map stakeholder questions to data requirements
 
 
 
@@ -18984,11 +18491,15 @@ Dependencies:
 ID: T15.G8.02
 Topic: T15 – User Interfaces
 Skill: Implement dynamic content loading in a UI
-Description: Design an interface where selecting an option dynamically loads and displays related content. **Example:** Clicking a character name displays their stats in a details panel; clicking a level shows its preview. **Implementation:** Store content data in lists/tables, use selection index to retrieve and display matching data. **UX patterns:** Show loading state while content loads, highlight selected item, clear previous content before showing new.
+Description: Students design an interface where selecting an option dynamically loads and displays related content (e.g., clicking a character name displays their stats, clicking a level number shows the level preview). Content is retrieved from lists or variables.
 
 Dependencies:
 * T15.G7.02: Implement a search or filter interface
-* T15.G7.01: Build a data collection interface (survey/questionnaire)
+* T15.G7.01: Build a data collection interface (survey or questionnaire)
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T03.G6.01: Propose a module hierarchy for a medium project
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -18997,11 +18508,14 @@ Dependencies:
 ID: T15.G8.03
 Topic: T15 – User Interfaces
 Skill: Analyze UI design patterns and their effectiveness
-Description: Examine two different interface designs for the same task (two settings menu layouts, two number input methods) and evaluate effectiveness. **Criteria:** Clarity (is the purpose obvious?), ease of use (how many clicks/steps?), accessibility (works for all users?), aesthetics (visually appealing?). **Activity:** Given two designs, write analysis comparing them on each criterion, recommend which is better and why.
+Description: Students examine two different interface designs for the same task (e.g., two layouts for a settings menu, two ways to input a number) and evaluate which is more effective based on clarity, ease of use, and aesthetics. They write a brief analysis.
 
 Dependencies:
 * T15.G7.03: Design an accessible interface for users with different abilities
 * T15.G6.02: Design an interface based on user feedback
+* T03.G6.01: Propose a module hierarchy for a medium project
+* T07.G6.01: Trace nested loops with variable bounds
+* T10.G6.01: Sort a table by a column
 
 
 
@@ -19010,98 +18524,63 @@ Dependencies:
 
 ID: T15.G8.04
 Topic: T15 – User Interfaces
-Skill: Conduct usability testing and refine UI design
-Description: Conduct user testing of an interface and iterate based on findings. **Test protocol:** Give peers a specific task to complete using your interface, observe silently, note where they struggle/hesitate/make errors. **Documentation:** Record observations (what confused users, what took too long, what worked well). **Iteration:** Prioritize issues by severity, redesign problematic areas, retest to verify improvements. This reinforces the human-centered design cycle.
+Skill: Document and refine a UI design based on usability testing
+Description: Students conduct user testing of their interface (having peers try to complete a task using their interface, noting where they struggle), document observations, and refactor the interface to resolve usability issues. This reinforces the human-centered design cycle.
 
 Dependencies:
 * T15.G8.03: Analyze UI design patterns and their effectiveness
 * T15.G6.02: Design an interface based on user feedback
+* T17.G6.01.01: Apply forces and impulses to physics bodies
+* T25.G6.01: Map stakeholder questions to data requirements
+* T31.G6.01: Identify common malware types
 
 
-ID: T15.G8.05
+
+
+
+# T15 - User Interfaces (Phase 4 Optimized - November 2025)
+# Applied Phase 4 topic-focused optimizations:
+# - Expanded K-2 from 6 to 14 skills with specific picture-based activity types
+# - Strengthened active verb usage (Identify, Match, Sort, Predict, Trace, Debug)
+# - Added sub-skills for broad G4-G5 skills (settings panel, forms, HUD)
+# - Fixed intra-topic X-2 rule compliance
+# - Enhanced G7-G8 with more granular UX analysis and design skills
+# - Added bridging skills for smoother progression between grade levels
+# - Clarified all assessment methods with specific formats
+# Total: 82 skills (expanded from 70 for better granularity)
+
+ID: T15.K.01
 Topic: T15 – User Interfaces
-Skill: Build an AI-integrated chat interface
-Description: Create a chat interface that integrates with AI services. **Components:** Chat window widget for message history, text input for user queries, send button, loading indicator while waiting for AI response. **AI integration:** Send user input to AI service, receive streaming response, update chat with AI reply using streaming message updates. **UX considerations:** Show "typing" indicator, handle errors gracefully, allow conversation history to scroll.
+Skill: Identify buttons in everyday interfaces (pictures)
+Description: **Student task:** Look at 4 pictures of everyday devices (remote control, microwave, tablet, toy robot) and tap all the buttons you can find. **Visual scenario:** Each device image highlights clickable button regions. Buttons have various shapes (round, square, rectangle). **Correct answers:** Tap 2-3 buttons on each device. _Implementation note: Tap-to-select on picture; audio says "Buttons are things we press to make something happen!" Auto-graded by correct selections. CSTA: EK‑ICT‑01._
 
 Dependencies:
-* T15.G7.05: Display data as charts in a widget
-* T15.G5.06.03: Update streaming chat messages
+* None
 
 
-ID: T15.G8.06
+
+
+
+ID: T15.K.02
 Topic: T15 – User Interfaces
-Skill: Design data-driven dashboard interfaces
-Description: Build a dashboard that displays multiple data visualizations and controls. **Layout:** Use responsive layout system to create grid of widgets (charts, labels, controls). **Data sources:** Connect widgets to list/table data that updates in real-time. **Interactivity:** Use dropdowns/buttons to filter data, update all related visualizations when filters change. **Real-world application:** Game stats dashboard, weather display, project tracker.
+Skill: Recognize labels and text displays (pictures)
+Description: Look at pictures of interfaces and identify where text appears (TV screen showing channel number, microwave display showing time, sign on door). Point to text displays and explain that some parts of screens show information to users.
 
 Dependencies:
-* T15.G8.02: Implement dynamic content loading in a UI
-* T15.G7.05: Display data as charts in a widget
+* T15.K.01: Identify buttons in everyday interfaces (pictures)
 
 
 
-
-
-# T16 - 2D Motion & Physics (November 2025 Optimization)
-# CHANGES MADE:
-# 1. K-2 Foundation Skills Enhanced:
-#    - K skills improved with detailed picture-based descriptions
-#    - Added T16.K.03: Identify objects that fall down (gravity introduction)
-#    - Added T16.G1.02: Predict motion direction from arrows
-#    - Added T16.G1.03: Sort objects by how they fall (fast/slow)
-#    - Added T16.G2.02: Identify bouncing vs sliding motion
-#    - Added T16.G2.03: Predict collision outcomes
-#    - All K-2 skills now have **Visual scenario** and **Student task** format
-# 2. Vague Skills Improved with Active Verbs and Details:
-#    - T16.G5.03.01: Added implementation steps for vehicle game
-#    - T16.G5.04.01: Added feature list for platformer
-#    - T16.G5.06.01: Added guidelines for Box vs Circle selection
-#    - T16.G6.04.04: Added examples for trigger zones
-#    - T16.G7.05.02: Added HUD element examples
-#    - T16.G8.02-G8.07: Added examples and process steps
-# 3. Spurious Cross-Topic Dependencies Removed:
-#    - T16.G8.02: Removed T21 (AI), T15, T02, T09 deps - now uses T16 prereqs
-#    - T16.G8.02.01: Removed T02, T07, T11 deps
-#    - T16.G8.02.02: Removed T02, T11, T15 deps
-#    - T16.G8.03: Removed T02, T05, T07 deps
-#    - T16.G8.04: Removed T04, T07, T10, T11 deps
-#    - T16.G8.04.01: Removed T04, T06, T10 deps
-#    - T16.G8.05: Removed T02, T03, T07 deps
-#    - T16.G8.06: Removed T03, T04, T07, T09 deps
-#    - T16.G8.07.02: Removed T25, T32 deps (data/ethics unrelated to physics)
-# 4. Intra-Topic Dependencies Strengthened:
-#    - G8 skills now properly depend on G7 and other G8 physics skills
-#    - K-G2 chain properly linked: K.01→K.02→K.03→G1.01→G1.02→G1.03→G2.01→G2.02→G2.03
-# 5. Duplicate Removed:
-#    - Removed duplicate T16.G1.03 entry
-# Total skills: 95 (was 92, added 3 new K-2 skills)
 
 
 ID: T16.G1.01
 Topic: T16 – 2D Motion & Physics
 Skill: Identify fast vs slow motion (picture-based)
-Description: **Student task:** Watch two sprite animations side by side and tap which sprite moves faster. **Visual scenario:** Two cats walk across the screen—one takes small slow steps, one takes big fast leaps. Student taps the fast cat. **Vocabulary:** Students describe motion using "fast," "slow," "quick," and "gentle." _Auto-graded by correct selection._
+Description: Students watch two sprite animations and identify which sprite moves faster. They compare motion speeds visually and describe motion using "fast" and "slow" vocabulary.
 
 Dependencies:
 * T16.K.02: Match sprite to position after motion (picture-based)
 
-
-ID: T16.G1.02
-Topic: T16 – 2D Motion & Physics
-Skill: Predict motion direction from arrow pictures (picture-based)
-Description: **Student task:** Look at a sprite with an arrow showing its direction, then tap where the sprite will be after it moves. **Visual scenario:** A car sprite has a green arrow pointing right. Three position choices show the car left, center, or right. Student taps the right position. _This builds directional intuition for motion prediction._ Auto-graded by correct position selection.
-
-Dependencies:
-* T16.G1.01: Identify fast vs slow motion (picture-based)
-
-
-ID: T16.G1.03
-Topic: T16 – 2D Motion & Physics
-Skill: Sort objects by how they fall (picture-based)
-Description: **Student task:** Sort picture cards of objects into "falls fast" and "falls slow" piles. **Visual scenario:** Cards show feather, rock, balloon, ball, leaf, brick. Students sort based on everyday experience with gravity. **Discussion:** Teacher asks why some things fall faster (heavier, less air). _Builds intuition for gravity before coding._ Auto-graded by correct sorting.
-
-Dependencies:
-* T16.K.03: Identify objects that fall down (picture-based)
-* T16.G1.01: Identify fast vs slow motion (picture-based)
 
 
 
@@ -19109,31 +18588,11 @@ Dependencies:
 ID: T16.G2.01
 Topic: T16 – 2D Motion & Physics
 Skill: Predict sprite direction from motion blocks (picture choices)
-Description: **Student task:** Look at motion blocks (move 10 steps, turn right, move 10 steps) shown as picture cards and choose which picture shows where the sprite ends up. **Visual scenario:** A cat starts facing right. Blocks show: turn left, move forward. Four picture choices show cat in different positions. Student picks the cat that moved up. _Builds directional intuition before coding._ Auto-graded by correct picture selection.
+Description: Students look at motion blocks (move 10 steps, turn right, move 10 steps) and choose from picture options showing which direction the sprite will move. They build directional intuition before coding.
 
 Dependencies:
-* T16.G1.02: Predict motion direction from arrow pictures (picture-based)
+* T16.G1.01: Identify fast vs slow motion (picture-based)
 
-
-
-
-
-ID: T16.G2.02
-Topic: T16 – 2D Motion & Physics
-Skill: Identify bouncing vs sliding motion (picture-based)
-Description: **Student task:** Watch two animations and identify which shows bouncing and which shows sliding. **Visual scenario:** Animation A shows a ball hitting a wall and bouncing back. Animation B shows a box sliding along the floor and stopping. Student labels each correctly. **Vocabulary:** "bounce," "slide," "stop," "reverse direction." _Builds intuition for friction and restitution concepts._ Auto-graded by correct labeling.
-
-Dependencies:
-* T16.G2.01: Predict sprite direction from motion blocks (picture choices)
-
-
-ID: T16.G2.03
-Topic: T16 – 2D Motion & Physics
-Skill: Predict collision outcomes (picture-based)
-Description: **Student task:** Look at a picture showing two objects about to collide, then choose what happens next. **Visual scenario:** A rolling ball approaches a stationary block. Choices: (A) ball stops, block moves, (B) ball bounces back, block stays, (C) both move right. Student picks based on intuition about heavy/light objects. _Reveals physics intuition about mass and momentum._ Auto-graded by reasonable selection with explanation prompt.
-
-Dependencies:
-* T16.G2.02: Identify bouncing vs sliding motion (picture-based)
 
 
 
@@ -19141,11 +18600,11 @@ Dependencies:
 ID: T16.G3.01
 Topic: T16 – 2D Motion & Physics
 Skill: Trace how motion blocks change sprite position
-Description: Students trace through motion blocks (move, glide) to determine how a sprite's position changes. They predict the sprite's final position after running a sequence of motion blocks, explaining their reasoning step by step. **Example:** Given `go to x: 0 y: 0`, `move 50 steps`, `turn right 90 degrees`, `move 30 steps`, students trace position changes to predict final x,y coordinates.
+Description: Students trace through motion blocks (move, glide) to determine how a sprite's position changes. They predict the sprite's final position after running a sequence of motion blocks, explaining their reasoning step by step.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T16.G2.03: Predict collision outcomes (picture-based)
+* T16.G2.01: Predict sprite direction from motion blocks (picture choices)
 
 
 
@@ -19264,7 +18723,7 @@ Dependencies:
 ID: T16.G5.03.01
 Topic: T16 – 2D Motion & Physics
 Skill: Build a top-down vehicle with manual friction control
-Description: Students create a top-down car or spaceship game using manual friction variables. **Implementation:** (1) Add xVelocity and yVelocity variables, (2) respond to arrow keys to adjust velocities, (3) multiply both velocities by friction factor (0.95) each frame so vehicle drifts to a stop, (4) update sprite position using velocities. The vehicle should feel responsive but gradually slow down when keys are released.
+Description: Create a top-down car or spaceship game using manual friction variables to control movement
 
 Dependencies:
 * T16.G5.03: Use horizontal speed and friction variables
@@ -19289,11 +18748,10 @@ Dependencies:
 ID: T16.G5.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Create a simple platformer using manual gravity
-Description: Students build a basic platformer game combining manual gravity, horizontal friction, and ground detection. **Features:** (1) Character falls with gravity (yVelocity decreases each frame), (2) pressing jump key adds upward velocity only when touching ground, (3) left/right keys control horizontal movement with friction, (4) character stops at floor level. This integrates all manual physics concepts before using the engine.
+Description: Build a basic platformer game using manual gravity and bounce calculations with velocity variables
 
 Dependencies:
 * T16.G5.04: Code a manual bounce with energy loss
-* T16.G5.03: Use horizontal speed and friction variables
 
 
 
@@ -19330,7 +18788,7 @@ Dependencies:
 ID: T16.G5.06.01
 Topic: T16 – 2D Motion & Physics
 Skill: Choose Box vs Circle collision shapes
-Description: Students select between Box and Circle collision shapes based on sprite appearance and desired physics behavior. **Guidelines:** Use Box for rectangular sprites (platforms, crates, walls) that should stack stably. Use Circle for round sprites (balls, wheels, coins) that should roll smoothly. Students test both shapes on the same sprite to observe behavioral differences.
+Description: Choose between Box and Circle collision shapes based on sprite appearance and desired physics behavior
 
 Dependencies:
 * T16.G5.06.00: Practice creating multiple dynamic bodies
@@ -19706,7 +19164,7 @@ Dependencies:
 ID: T16.G6.04.04
 Topic: T16 – 2D Motion & Physics
 Skill: Build trigger zones and collectibles with sensor bodies
-Description: Students combine sensor bodies with collision events to create functional game elements. **Examples:** (1) Checkpoint zone that saves player progress when entered, (2) collectible coins that add score and hide when touched, (3) danger zone that triggers damage without blocking movement. The sensor detects entry but doesn't physically block the player.
+Description: Use sensor bodies to create trigger zones, checkpoints, and collectible items that detect without physical collision
 
 Dependencies:
 * T16.G5.06.02: Create sensor bodies for trigger zones
@@ -20022,7 +19480,7 @@ Dependencies:
 ID: T16.G7.05.02
 Topic: T16 – 2D Motion & Physics
 Skill: Use velocity reporters for UI speedometers and HUDs
-Description: Students create visual HUD elements that display real-time physics data. **Examples:** (1) Speedometer that shows `(speed)` as a number or visual gauge, (2) tachometer showing `(angular speed)` for rotating objects, (3) velocity indicator arrows pointing in direction of movement. They update HUD elements each frame to reflect current physics state.
+Description: Read velocity and angular speed reporters to display speedometers, tachometers, and other HUD elements
 
 Dependencies:
 * T16.G7.05: Read velocity and mass reporters
@@ -20101,11 +19559,14 @@ Dependencies:
 ID: T16.G8.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement fixed joints for connected objects
-Description: Students use `fix relative position to [sprite]` to weld sprites together so they move as a single rigid unit, and `remove relative position constraint` to break the connection. **Examples:** compound objects (car with wheels), multi-part characters (robot with detachable arms), towed vehicles that can be detached mid-game. Students learn fixed joints are useful when objects should move as one rigid body.
+Description: Students use `fix relative position to [sprite]` to weld sprites together so they move as a single rigid unit, and `remove relative position constraint` to break the connection. Examples: compound objects, multi-part characters, towed vehicles that can be detached.
 
 Dependencies:
+* T09.G6.01: Model real-world quantities using variables and formulas
 * T16.G7.06: Model a real-world physics scenario
-* T16.G7.04: Build chains or stacks of physics objects
+* T02.G6.01: Use the pseudocode generation block
+* T15.G6.01: Evaluate an interface for usability
+* T21.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 
@@ -20114,11 +19575,13 @@ Dependencies:
 ID: T16.G8.02.01
 Topic: T16 – 2D Motion & Physics
 Skill: Implement revolute joints for hinges
-Description: Students use `set [sprite] as rotation axis with offset x [X] y [Y]` to create hinged objects like doors, seesaws, and pendulums. They configure rotation behavior with `set rotation axis speed [S] damping factor [D]%`, and use `remove rotation axis` to disconnect hinges. **Examples:** swinging doors, seesaw balance puzzles, pendulum clocks, catapult arms. Students understand revolute joints allow rotation around a fixed point.
+Description: Students use `set [sprite] as rotation axis with offset x [X] y [Y]` to create hinged objects like doors, seesaws, and pendulums. They configure rotation behavior with `set rotation axis speed [S] damping factor [D]%`, and use `remove rotation axis` to disconnect hinges. Examples: breakable doors, detachable rotating parts.
 
 Dependencies:
 * T16.G8.02: Implement fixed joints for connected objects
-* T16.G7.04.01: Use continuous torque to rotate bodies
+* T02.G6.01: Use the pseudocode generation block
+* T07.G6.01: Trace nested loops with variable bounds
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 
@@ -20127,10 +19590,11 @@ Dependencies:
 ID: T16.G8.02.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Control revolute joint motors with speed and damping
-Description: Students control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. They learn to balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors. **Examples:** motorized windmill, spinning platform, rotating obstacle in a game.
+Description: Control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. Students learn to balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors.
 
 Dependencies:
 * T16.G8.02.01: Implement revolute joints for hinges
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 
@@ -20139,10 +19603,13 @@ Dependencies:
 ID: T16.G8.02.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement prismatic joints for sliding
-Description: Students use `allow [Horizontal/Vertical] sliding relative to [sprite] range from [min] to [max]` to create pistons, sliding doors, and spring-loaded platforms with configurable movement limits. **Examples:** elevator platform that slides vertically, piston in a machine, sliding puzzle pieces. Note: Prismatic joints are permanent once created; plan constraint usage during the design phase.
+Description: Students use `allow [Horizontal/Vertical] sliding relative to [sprite] range from [min] to [max]` to create pistons, sliding doors, and spring-loaded platforms with configurable movement limits. Note: Prismatic joints are permanent once created; plan constraint usage during the design phase.
 
 Dependencies:
-* T16.G8.02: Implement fixed joints for connected objects
+* T16.G8.02.01: Implement revolute joints for hinges
+* T02.G6.01: Use the pseudocode generation block
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
+* T15.G6.01: Evaluate an interface for usability
 
 
 
@@ -20164,12 +19631,14 @@ Dependencies:
 ID: T16.G8.03
 Topic: T16 – 2D Motion & Physics
 Skill: Build automated physics regression tests
-Description: Students create scripts that spawn test objects, run the simulation for a set time, and assert that positions, velocities, or collision counts stay within tolerances. **Process:** (1) Set up known initial conditions, (2) run physics for fixed frames, (3) check final state against expected values, (4) report pass/fail. This guards against regressions when modifying physics code.
+Description: Students create scripts that spawn test objects, run the simulation for a set time, and assert that positions, velocities, or collision counts stay within tolerances. This guards against regressions when modifying physics code.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T16.G7.07: Evaluate whether a simulation meets requirements
-* T16.G7.05.01: Instrument and graph motion data
+* T02.G6.01: Use the pseudocode generation block
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -20178,12 +19647,15 @@ Dependencies:
 ID: T16.G8.04
 Topic: T16 – 2D Motion & Physics
 Skill: Identify physics performance bottlenecks
-Description: Students identify performance bottlenecks in a busy physics scene by observing frame rate and lag during playtesting. **Diagnostic process:** (1) Observe where lag occurs, (2) count active physics bodies, (3) check collision shape complexity, (4) review collision group settings. They learn that physics performance depends on body count, shape complexity, and collision pair counts.
+Description: Students identify performance bottlenecks in a busy physics scene by observing frame rate and lag during playtesting. They diagnose issues like too many active objects, complex collision shapes, or unnecessary collision checks.
 
 Dependencies:
+* T07.G6.01: Trace nested loops with variable bounds
 * T16.G7.06: Model a real-world physics scenario
 * T16.G7.07: Evaluate whether a simulation meets requirements
-* T16.G6.05.02: Test collision group filtering behavior
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T10.G6.01: Sort a table by a column
+* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 
@@ -20192,11 +19664,13 @@ Dependencies:
 ID: T16.G8.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Optimize collision shapes for performance
-Description: Students implement shape optimizations by using simpler collision shapes (Box instead of Convex Hull), reducing active object count, using compound shapes sparingly, disabling unnecessary collision groups, and hiding debug overlays. **Optimization checklist:** (1) Use Box/Circle over Convex Hull, (2) limit active bodies to <50, (3) use collision groups to reduce pair checks, (4) disable debug mode in production. They verify improvements through repeated playtesting.
+Description: Students implement shape optimizations by using simpler collision shapes (Box instead of Convex Hull), reducing active object count, using compound shapes sparingly, disabling unnecessary collision groups, and hiding debug overlays. They verify improvements through repeated playtesting.
 
 Dependencies:
 * T16.G8.04: Identify physics performance bottlenecks
-* T16.G5.06.01.02: Use Convex Hull for sprite-fitted collision
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T10.G6.01: Sort a table by a column
 
 
 
@@ -20205,11 +19679,13 @@ Dependencies:
 ID: T16.G8.05
 Topic: T16 – 2D Motion & Physics
 Skill: Control gravity scale and time speed
-Description: Students use `set gravity scale [value]%` to create floaty zones (low gravity), reverse gravity areas (negative values), or heavy gravity zones. They use `set physics time speed [value]%` to create slow-motion effects (50%) or fast-forward (200%) for dramatic game moments. **Examples:** moon-gravity platformer levels, bullet-time effects, time-manipulation puzzles.
+Description: Students use `set gravity scale [value]%` to create floaty zones or reverse gravity areas, and `set physics time speed [value]%` to create slow-motion or fast-forward effects for dramatic game moments.
 
 Dependencies:
 * T16.G7.06: Model a real-world physics scenario
-* T16.G5.05: Initialize a 2D physics world
+* T02.G6.01: Use the pseudocode generation block
+* T03.G6.01: Propose a module hierarchy for a medium project
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -20218,11 +19694,14 @@ Dependencies:
 ID: T16.G8.06
 Topic: T16 – 2D Motion & Physics
 Skill: Use instrumentation data to tune difficulty
-Description: Students log player attempts (launch angle, power, success/fail), analyze the dataset, and retune physics parameters (gravity, impulse strength, target size) to achieve a desired win rate. **Process:** (1) Add logging for player actions, (2) collect 10+ playtests, (3) calculate success rate, (4) adjust physics parameters to reach target difficulty (e.g., 60% win rate), (5) re-test. They connect physics tweaks to game analytics.
+Description: Students log player attempts (launch angle, power, success/fail), analyze the dataset, and retune physics parameters (gravity, impulse strength, target size) to achieve a desired win rate. They connect physics tweaks to game analytics.
 
 Dependencies:
-* T16.G7.05.01: Instrument and graph motion data
-* T16.G8.01.02: Balance and tune physics game difficulty
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T16.G7.06: Model a real-world physics scenario
+* T03.G6.01: Propose a module hierarchy for a medium project
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -20258,11 +19737,12 @@ Dependencies:
 ID: T16.G8.07.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement and test physics puzzle game
-Description: Students implement their physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. **Development cycle:** (1) Build first puzzle with joints, (2) playtest for solvability, (3) adjust physics parameters, (4) add visual feedback for puzzle state, (5) iterate until solutions are discoverable. They learn that good physics puzzles have clear mechanics and fair difficulty curves.
+Description: Students implement their physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. They playtest puzzles to ensure solutions are discoverable and mechanics work as intended, iterating on joint parameters and object properties to achieve desired difficulty.
 
 Dependencies:
 * T16.G8.07.01: Select appropriate joints for puzzle mechanics
-* T16.G8.01.02: Balance and tune physics game difficulty
+* T25.G6.01: Map stakeholder questions to data requirements
+* T32.G6.04: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 
@@ -20271,7 +19751,7 @@ Dependencies:
 ID: T16.K.01
 Topic: T16 – 2D Motion & Physics
 Skill: Identify which sprite moved (picture-based)
-Description: **Student task:** Look at two "before" and "after" picture cards showing a stage with multiple sprites. Tap the sprite that changed position. **Visual scenario:** Before card shows cat, dog, and ball in a row. After card shows dog moved to the right. Student taps the dog. **Vocabulary:** "moved," "same spot," "different spot." _Introduces the concept that motion = change in position._ Auto-graded by correct selection.
+Description: Given before/after picture cards, students identify which sprite changed position. They point to the sprite that moved and explain that motion means a sprite's position changes on the stage.
 
 Dependencies:
 None
@@ -20283,19 +19763,11 @@ None
 ID: T16.K.02
 Topic: T16 – 2D Motion & Physics
 Skill: Match sprite to position after motion (picture-based)
-Description: **Student task:** See a simple motion instruction (arrow or "move right") and choose which picture shows where the sprite will end up. **Visual scenario:** A bird is shown with a right-pointing arrow. Three pictures show the bird in different positions. Student taps the picture with the bird moved right. _Develops spatial reasoning for predicting motion._ Auto-graded by correct selection.
+Description: Students see a motion block sequence and choose which picture shows where the sprite will end up. They develop spatial reasoning by predicting final positions from simple motion sequences.
 
 Dependencies:
 * T16.K.01: Identify which sprite moved (picture-based)
 
-
-ID: T16.K.03
-Topic: T16 – 2D Motion & Physics
-Skill: Identify objects that fall down (picture-based)
-Description: **Student task:** Sort picture cards of objects into "falls down" and "stays up" piles. **Visual scenario:** Cards show: apple on table edge, balloon tied to string, ball in the air, bird flying, rock on a hill. Students sort based on everyday experience. **Discussion:** What makes things fall? (Gravity pulls things down.) _First introduction to gravity concept._ Auto-graded by correct sorting.
-
-Dependencies:
-* T16.K.01: Identify which sprite moved (picture-based)
 
 
 

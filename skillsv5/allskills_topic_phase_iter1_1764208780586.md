@@ -19041,67 +19041,14 @@ Dependencies:
 
 
 
-# T16 - 2D Motion & Physics (November 2025 Optimization)
-# CHANGES MADE:
-# 1. K-2 Foundation Skills Enhanced:
-#    - K skills improved with detailed picture-based descriptions
-#    - Added T16.K.03: Identify objects that fall down (gravity introduction)
-#    - Added T16.G1.02: Predict motion direction from arrows
-#    - Added T16.G1.03: Sort objects by how they fall (fast/slow)
-#    - Added T16.G2.02: Identify bouncing vs sliding motion
-#    - Added T16.G2.03: Predict collision outcomes
-#    - All K-2 skills now have **Visual scenario** and **Student task** format
-# 2. Vague Skills Improved with Active Verbs and Details:
-#    - T16.G5.03.01: Added implementation steps for vehicle game
-#    - T16.G5.04.01: Added feature list for platformer
-#    - T16.G5.06.01: Added guidelines for Box vs Circle selection
-#    - T16.G6.04.04: Added examples for trigger zones
-#    - T16.G7.05.02: Added HUD element examples
-#    - T16.G8.02-G8.07: Added examples and process steps
-# 3. Spurious Cross-Topic Dependencies Removed:
-#    - T16.G8.02: Removed T21 (AI), T15, T02, T09 deps - now uses T16 prereqs
-#    - T16.G8.02.01: Removed T02, T07, T11 deps
-#    - T16.G8.02.02: Removed T02, T11, T15 deps
-#    - T16.G8.03: Removed T02, T05, T07 deps
-#    - T16.G8.04: Removed T04, T07, T10, T11 deps
-#    - T16.G8.04.01: Removed T04, T06, T10 deps
-#    - T16.G8.05: Removed T02, T03, T07 deps
-#    - T16.G8.06: Removed T03, T04, T07, T09 deps
-#    - T16.G8.07.02: Removed T25, T32 deps (data/ethics unrelated to physics)
-# 4. Intra-Topic Dependencies Strengthened:
-#    - G8 skills now properly depend on G7 and other G8 physics skills
-#    - K-G2 chain properly linked: K.01→K.02→K.03→G1.01→G1.02→G1.03→G2.01→G2.02→G2.03
-# 5. Duplicate Removed:
-#    - Removed duplicate T16.G1.03 entry
-# Total skills: 95 (was 92, added 3 new K-2 skills)
-
-
 ID: T16.G1.01
 Topic: T16 – 2D Motion & Physics
 Skill: Identify fast vs slow motion (picture-based)
-Description: **Student task:** Watch two sprite animations side by side and tap which sprite moves faster. **Visual scenario:** Two cats walk across the screen—one takes small slow steps, one takes big fast leaps. Student taps the fast cat. **Vocabulary:** Students describe motion using "fast," "slow," "quick," and "gentle." _Auto-graded by correct selection._
+Description: Students watch two sprite animations and identify which sprite moves faster. They compare motion speeds visually and describe motion using "fast" and "slow" vocabulary.
 
 Dependencies:
 * T16.K.02: Match sprite to position after motion (picture-based)
 
-
-ID: T16.G1.02
-Topic: T16 – 2D Motion & Physics
-Skill: Predict motion direction from arrow pictures (picture-based)
-Description: **Student task:** Look at a sprite with an arrow showing its direction, then tap where the sprite will be after it moves. **Visual scenario:** A car sprite has a green arrow pointing right. Three position choices show the car left, center, or right. Student taps the right position. _This builds directional intuition for motion prediction._ Auto-graded by correct position selection.
-
-Dependencies:
-* T16.G1.01: Identify fast vs slow motion (picture-based)
-
-
-ID: T16.G1.03
-Topic: T16 – 2D Motion & Physics
-Skill: Sort objects by how they fall (picture-based)
-Description: **Student task:** Sort picture cards of objects into "falls fast" and "falls slow" piles. **Visual scenario:** Cards show feather, rock, balloon, ball, leaf, brick. Students sort based on everyday experience with gravity. **Discussion:** Teacher asks why some things fall faster (heavier, less air). _Builds intuition for gravity before coding._ Auto-graded by correct sorting.
-
-Dependencies:
-* T16.K.03: Identify objects that fall down (picture-based)
-* T16.G1.01: Identify fast vs slow motion (picture-based)
 
 
 
@@ -19109,31 +19056,11 @@ Dependencies:
 ID: T16.G2.01
 Topic: T16 – 2D Motion & Physics
 Skill: Predict sprite direction from motion blocks (picture choices)
-Description: **Student task:** Look at motion blocks (move 10 steps, turn right, move 10 steps) shown as picture cards and choose which picture shows where the sprite ends up. **Visual scenario:** A cat starts facing right. Blocks show: turn left, move forward. Four picture choices show cat in different positions. Student picks the cat that moved up. _Builds directional intuition before coding._ Auto-graded by correct picture selection.
+Description: Students look at motion blocks (move 10 steps, turn right, move 10 steps) and choose from picture options showing which direction the sprite will move. They build directional intuition before coding.
 
 Dependencies:
-* T16.G1.02: Predict motion direction from arrow pictures (picture-based)
+* T16.G1.01: Identify fast vs slow motion (picture-based)
 
-
-
-
-
-ID: T16.G2.02
-Topic: T16 – 2D Motion & Physics
-Skill: Identify bouncing vs sliding motion (picture-based)
-Description: **Student task:** Watch two animations and identify which shows bouncing and which shows sliding. **Visual scenario:** Animation A shows a ball hitting a wall and bouncing back. Animation B shows a box sliding along the floor and stopping. Student labels each correctly. **Vocabulary:** "bounce," "slide," "stop," "reverse direction." _Builds intuition for friction and restitution concepts._ Auto-graded by correct labeling.
-
-Dependencies:
-* T16.G2.01: Predict sprite direction from motion blocks (picture choices)
-
-
-ID: T16.G2.03
-Topic: T16 – 2D Motion & Physics
-Skill: Predict collision outcomes (picture-based)
-Description: **Student task:** Look at a picture showing two objects about to collide, then choose what happens next. **Visual scenario:** A rolling ball approaches a stationary block. Choices: (A) ball stops, block moves, (B) ball bounces back, block stays, (C) both move right. Student picks based on intuition about heavy/light objects. _Reveals physics intuition about mass and momentum._ Auto-graded by reasonable selection with explanation prompt.
-
-Dependencies:
-* T16.G2.02: Identify bouncing vs sliding motion (picture-based)
 
 
 
@@ -19141,11 +19068,11 @@ Dependencies:
 ID: T16.G3.01
 Topic: T16 – 2D Motion & Physics
 Skill: Trace how motion blocks change sprite position
-Description: Students trace through motion blocks (move, glide) to determine how a sprite's position changes. They predict the sprite's final position after running a sequence of motion blocks, explaining their reasoning step by step. **Example:** Given `go to x: 0 y: 0`, `move 50 steps`, `turn right 90 degrees`, `move 30 steps`, students trace position changes to predict final x,y coordinates.
+Description: Students trace through motion blocks (move, glide) to determine how a sprite's position changes. They predict the sprite's final position after running a sequence of motion blocks, explaining their reasoning step by step.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T16.G2.03: Predict collision outcomes (picture-based)
+* T16.G2.01: Predict sprite direction from motion blocks (picture choices)
 
 
 
@@ -19264,7 +19191,7 @@ Dependencies:
 ID: T16.G5.03.01
 Topic: T16 – 2D Motion & Physics
 Skill: Build a top-down vehicle with manual friction control
-Description: Students create a top-down car or spaceship game using manual friction variables. **Implementation:** (1) Add xVelocity and yVelocity variables, (2) respond to arrow keys to adjust velocities, (3) multiply both velocities by friction factor (0.95) each frame so vehicle drifts to a stop, (4) update sprite position using velocities. The vehicle should feel responsive but gradually slow down when keys are released.
+Description: Create a top-down car or spaceship game using manual friction variables to control movement
 
 Dependencies:
 * T16.G5.03: Use horizontal speed and friction variables
@@ -19289,11 +19216,10 @@ Dependencies:
 ID: T16.G5.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Create a simple platformer using manual gravity
-Description: Students build a basic platformer game combining manual gravity, horizontal friction, and ground detection. **Features:** (1) Character falls with gravity (yVelocity decreases each frame), (2) pressing jump key adds upward velocity only when touching ground, (3) left/right keys control horizontal movement with friction, (4) character stops at floor level. This integrates all manual physics concepts before using the engine.
+Description: Build a basic platformer game using manual gravity and bounce calculations with velocity variables
 
 Dependencies:
 * T16.G5.04: Code a manual bounce with energy loss
-* T16.G5.03: Use horizontal speed and friction variables
 
 
 
@@ -19330,7 +19256,7 @@ Dependencies:
 ID: T16.G5.06.01
 Topic: T16 – 2D Motion & Physics
 Skill: Choose Box vs Circle collision shapes
-Description: Students select between Box and Circle collision shapes based on sprite appearance and desired physics behavior. **Guidelines:** Use Box for rectangular sprites (platforms, crates, walls) that should stack stably. Use Circle for round sprites (balls, wheels, coins) that should roll smoothly. Students test both shapes on the same sprite to observe behavioral differences.
+Description: Choose between Box and Circle collision shapes based on sprite appearance and desired physics behavior
 
 Dependencies:
 * T16.G5.06.00: Practice creating multiple dynamic bodies
@@ -19706,7 +19632,7 @@ Dependencies:
 ID: T16.G6.04.04
 Topic: T16 – 2D Motion & Physics
 Skill: Build trigger zones and collectibles with sensor bodies
-Description: Students combine sensor bodies with collision events to create functional game elements. **Examples:** (1) Checkpoint zone that saves player progress when entered, (2) collectible coins that add score and hide when touched, (3) danger zone that triggers damage without blocking movement. The sensor detects entry but doesn't physically block the player.
+Description: Use sensor bodies to create trigger zones, checkpoints, and collectible items that detect without physical collision
 
 Dependencies:
 * T16.G5.06.02: Create sensor bodies for trigger zones
@@ -20022,7 +19948,7 @@ Dependencies:
 ID: T16.G7.05.02
 Topic: T16 – 2D Motion & Physics
 Skill: Use velocity reporters for UI speedometers and HUDs
-Description: Students create visual HUD elements that display real-time physics data. **Examples:** (1) Speedometer that shows `(speed)` as a number or visual gauge, (2) tachometer showing `(angular speed)` for rotating objects, (3) velocity indicator arrows pointing in direction of movement. They update HUD elements each frame to reflect current physics state.
+Description: Read velocity and angular speed reporters to display speedometers, tachometers, and other HUD elements
 
 Dependencies:
 * T16.G7.05: Read velocity and mass reporters
@@ -20101,11 +20027,14 @@ Dependencies:
 ID: T16.G8.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement fixed joints for connected objects
-Description: Students use `fix relative position to [sprite]` to weld sprites together so they move as a single rigid unit, and `remove relative position constraint` to break the connection. **Examples:** compound objects (car with wheels), multi-part characters (robot with detachable arms), towed vehicles that can be detached mid-game. Students learn fixed joints are useful when objects should move as one rigid body.
+Description: Students use `fix relative position to [sprite]` to weld sprites together so they move as a single rigid unit, and `remove relative position constraint` to break the connection. Examples: compound objects, multi-part characters, towed vehicles that can be detached.
 
 Dependencies:
+* T09.G6.01: Model real-world quantities using variables and formulas
 * T16.G7.06: Model a real-world physics scenario
-* T16.G7.04: Build chains or stacks of physics objects
+* T02.G6.01: Use the pseudocode generation block
+* T15.G6.01: Evaluate an interface for usability
+* T21.G6.01.01: Make a basic ChatGPT request with one parameter
 
 
 
@@ -20114,11 +20043,13 @@ Dependencies:
 ID: T16.G8.02.01
 Topic: T16 – 2D Motion & Physics
 Skill: Implement revolute joints for hinges
-Description: Students use `set [sprite] as rotation axis with offset x [X] y [Y]` to create hinged objects like doors, seesaws, and pendulums. They configure rotation behavior with `set rotation axis speed [S] damping factor [D]%`, and use `remove rotation axis` to disconnect hinges. **Examples:** swinging doors, seesaw balance puzzles, pendulum clocks, catapult arms. Students understand revolute joints allow rotation around a fixed point.
+Description: Students use `set [sprite] as rotation axis with offset x [X] y [Y]` to create hinged objects like doors, seesaws, and pendulums. They configure rotation behavior with `set rotation axis speed [S] damping factor [D]%`, and use `remove rotation axis` to disconnect hinges. Examples: breakable doors, detachable rotating parts.
 
 Dependencies:
 * T16.G8.02: Implement fixed joints for connected objects
-* T16.G7.04.01: Use continuous torque to rotate bodies
+* T02.G6.01: Use the pseudocode generation block
+* T07.G6.01: Trace nested loops with variable bounds
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 
@@ -20127,10 +20058,11 @@ Dependencies:
 ID: T16.G8.02.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Control revolute joint motors with speed and damping
-Description: Students control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. They learn to balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors. **Examples:** motorized windmill, spinning platform, rotating obstacle in a game.
+Description: Control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. Students learn to balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors.
 
 Dependencies:
 * T16.G8.02.01: Implement revolute joints for hinges
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
 
 
 
@@ -20139,10 +20071,13 @@ Dependencies:
 ID: T16.G8.02.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement prismatic joints for sliding
-Description: Students use `allow [Horizontal/Vertical] sliding relative to [sprite] range from [min] to [max]` to create pistons, sliding doors, and spring-loaded platforms with configurable movement limits. **Examples:** elevator platform that slides vertically, piston in a machine, sliding puzzle pieces. Note: Prismatic joints are permanent once created; plan constraint usage during the design phase.
+Description: Students use `allow [Horizontal/Vertical] sliding relative to [sprite] range from [min] to [max]` to create pistons, sliding doors, and spring-loaded platforms with configurable movement limits. Note: Prismatic joints are permanent once created; plan constraint usage during the design phase.
 
 Dependencies:
-* T16.G8.02: Implement fixed joints for connected objects
+* T16.G8.02.01: Implement revolute joints for hinges
+* T02.G6.01: Use the pseudocode generation block
+* T11.G6.14: Analyze a program's structure using a checklist and suggest specific improvements
+* T15.G6.01: Evaluate an interface for usability
 
 
 
@@ -20164,12 +20099,14 @@ Dependencies:
 ID: T16.G8.03
 Topic: T16 – 2D Motion & Physics
 Skill: Build automated physics regression tests
-Description: Students create scripts that spawn test objects, run the simulation for a set time, and assert that positions, velocities, or collision counts stay within tolerances. **Process:** (1) Set up known initial conditions, (2) run physics for fixed frames, (3) check final state against expected values, (4) report pass/fail. This guards against regressions when modifying physics code.
+Description: Students create scripts that spawn test objects, run the simulation for a set time, and assert that positions, velocities, or collision counts stay within tolerances. This guards against regressions when modifying physics code.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
 * T16.G7.07: Evaluate whether a simulation meets requirements
-* T16.G7.05.01: Instrument and graph motion data
+* T02.G6.01: Use the pseudocode generation block
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -20178,12 +20115,15 @@ Dependencies:
 ID: T16.G8.04
 Topic: T16 – 2D Motion & Physics
 Skill: Identify physics performance bottlenecks
-Description: Students identify performance bottlenecks in a busy physics scene by observing frame rate and lag during playtesting. **Diagnostic process:** (1) Observe where lag occurs, (2) count active physics bodies, (3) check collision shape complexity, (4) review collision group settings. They learn that physics performance depends on body count, shape complexity, and collision pair counts.
+Description: Students identify performance bottlenecks in a busy physics scene by observing frame rate and lag during playtesting. They diagnose issues like too many active objects, complex collision shapes, or unnecessary collision checks.
 
 Dependencies:
+* T07.G6.01: Trace nested loops with variable bounds
 * T16.G7.06: Model a real-world physics scenario
 * T16.G7.07: Evaluate whether a simulation meets requirements
-* T16.G6.05.02: Test collision group filtering behavior
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T10.G6.01: Sort a table by a column
+* T11.G6.01: Design custom blocks with clear, predictable interfaces
 
 
 
@@ -20192,11 +20132,13 @@ Dependencies:
 ID: T16.G8.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Optimize collision shapes for performance
-Description: Students implement shape optimizations by using simpler collision shapes (Box instead of Convex Hull), reducing active object count, using compound shapes sparingly, disabling unnecessary collision groups, and hiding debug overlays. **Optimization checklist:** (1) Use Box/Circle over Convex Hull, (2) limit active bodies to <50, (3) use collision groups to reduce pair checks, (4) disable debug mode in production. They verify improvements through repeated playtesting.
+Description: Students implement shape optimizations by using simpler collision shapes (Box instead of Convex Hull), reducing active object count, using compound shapes sparingly, disabling unnecessary collision groups, and hiding debug overlays. They verify improvements through repeated playtesting.
 
 Dependencies:
 * T16.G8.04: Identify physics performance bottlenecks
-* T16.G5.06.01.02: Use Convex Hull for sprite-fitted collision
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T10.G6.01: Sort a table by a column
 
 
 
@@ -20205,11 +20147,13 @@ Dependencies:
 ID: T16.G8.05
 Topic: T16 – 2D Motion & Physics
 Skill: Control gravity scale and time speed
-Description: Students use `set gravity scale [value]%` to create floaty zones (low gravity), reverse gravity areas (negative values), or heavy gravity zones. They use `set physics time speed [value]%` to create slow-motion effects (50%) or fast-forward (200%) for dramatic game moments. **Examples:** moon-gravity platformer levels, bullet-time effects, time-manipulation puzzles.
+Description: Students use `set gravity scale [value]%` to create floaty zones or reverse gravity areas, and `set physics time speed [value]%` to create slow-motion or fast-forward effects for dramatic game moments.
 
 Dependencies:
 * T16.G7.06: Model a real-world physics scenario
-* T16.G5.05: Initialize a 2D physics world
+* T02.G6.01: Use the pseudocode generation block
+* T03.G6.01: Propose a module hierarchy for a medium project
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -20218,11 +20162,14 @@ Dependencies:
 ID: T16.G8.06
 Topic: T16 – 2D Motion & Physics
 Skill: Use instrumentation data to tune difficulty
-Description: Students log player attempts (launch angle, power, success/fail), analyze the dataset, and retune physics parameters (gravity, impulse strength, target size) to achieve a desired win rate. **Process:** (1) Add logging for player actions, (2) collect 10+ playtests, (3) calculate success rate, (4) adjust physics parameters to reach target difficulty (e.g., 60% win rate), (5) re-test. They connect physics tweaks to game analytics.
+Description: Students log player attempts (launch angle, power, success/fail), analyze the dataset, and retune physics parameters (gravity, impulse strength, target size) to achieve a desired win rate. They connect physics tweaks to game analytics.
 
 Dependencies:
-* T16.G7.05.01: Instrument and graph motion data
-* T16.G8.01.02: Balance and tune physics game difficulty
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T16.G7.06: Model a real-world physics scenario
+* T03.G6.01: Propose a module hierarchy for a medium project
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
 
 
 
@@ -20258,11 +20205,12 @@ Dependencies:
 ID: T16.G8.07.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement and test physics puzzle game
-Description: Students implement their physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. **Development cycle:** (1) Build first puzzle with joints, (2) playtest for solvability, (3) adjust physics parameters, (4) add visual feedback for puzzle state, (5) iterate until solutions are discoverable. They learn that good physics puzzles have clear mechanics and fair difficulty curves.
+Description: Students implement their physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. They playtest puzzles to ensure solutions are discoverable and mechanics work as intended, iterating on joint parameters and object properties to achieve desired difficulty.
 
 Dependencies:
 * T16.G8.07.01: Select appropriate joints for puzzle mechanics
-* T16.G8.01.02: Balance and tune physics game difficulty
+* T25.G6.01: Map stakeholder questions to data requirements
+* T32.G6.04: Apply ethics lenses (beneficence, fairness, autonomy)
 
 
 
@@ -20271,7 +20219,7 @@ Dependencies:
 ID: T16.K.01
 Topic: T16 – 2D Motion & Physics
 Skill: Identify which sprite moved (picture-based)
-Description: **Student task:** Look at two "before" and "after" picture cards showing a stage with multiple sprites. Tap the sprite that changed position. **Visual scenario:** Before card shows cat, dog, and ball in a row. After card shows dog moved to the right. Student taps the dog. **Vocabulary:** "moved," "same spot," "different spot." _Introduces the concept that motion = change in position._ Auto-graded by correct selection.
+Description: Given before/after picture cards, students identify which sprite changed position. They point to the sprite that moved and explain that motion means a sprite's position changes on the stage.
 
 Dependencies:
 None
@@ -20283,19 +20231,11 @@ None
 ID: T16.K.02
 Topic: T16 – 2D Motion & Physics
 Skill: Match sprite to position after motion (picture-based)
-Description: **Student task:** See a simple motion instruction (arrow or "move right") and choose which picture shows where the sprite will end up. **Visual scenario:** A bird is shown with a right-pointing arrow. Three pictures show the bird in different positions. Student taps the picture with the bird moved right. _Develops spatial reasoning for predicting motion._ Auto-graded by correct selection.
+Description: Students see a motion block sequence and choose which picture shows where the sprite will end up. They develop spatial reasoning by predicting final positions from simple motion sequences.
 
 Dependencies:
 * T16.K.01: Identify which sprite moved (picture-based)
 
-
-ID: T16.K.03
-Topic: T16 – 2D Motion & Physics
-Skill: Identify objects that fall down (picture-based)
-Description: **Student task:** Sort picture cards of objects into "falls down" and "stays up" piles. **Visual scenario:** Cards show: apple on table edge, balloon tied to string, ball in the air, bird flying, rock on a hill. Students sort based on everyday experience. **Discussion:** What makes things fall? (Gravity pulls things down.) _First introduction to gravity concept._ Auto-graded by correct sorting.
-
-Dependencies:
-* T16.K.01: Identify which sprite moved (picture-based)
 
 
 
