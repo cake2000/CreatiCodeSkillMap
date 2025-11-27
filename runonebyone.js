@@ -121,7 +121,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
 - skillsv5/allskills.md for all current skills
-- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively.
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
 
 ## Step 2: For topic ${topic.code} only, fix these issues
 
@@ -283,7 +283,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
 - skillsv5/allskills.md for all current skills
-- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game category, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively.
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game category, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
 
 ## Step 2: For Grade ${grade} skills in ${topic.code} only, fix these issues
 
