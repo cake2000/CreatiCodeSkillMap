@@ -160,7 +160,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 
 ## Step 4: Output a summary of changes made. You must say something.
 
-Use subagents/Task tool to keep context small. Proceed now.`;
+Use subagents/Task tool to keep context small. For simple standalone tasks, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now.`;
 
       let success = false;
       let retryCount = 0;
@@ -313,7 +313,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 
 ## Step 4: Output a summary of dependency changes. You must say something.
 
-Use subagents/Task tool to keep context small. Proceed now.`;
+Use subagents/Task tool to keep context small. For simple standalone tasks, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now.`;
 
         let success = false;
         let retryCount = 0;
