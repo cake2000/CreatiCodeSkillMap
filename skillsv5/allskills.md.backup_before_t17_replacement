@@ -21816,552 +21816,598 @@ Dependencies:
 # Format: All skills follow consistent structure with active verbs
 # Auto-gradable: K-2 skills have clear visual scenarios and answer keys
 
-## KINDERGARTEN (5 skills - Picture-based 3D shape recognition)
-
 ID: T17.GK.01
 Topic: T17 – 3D Worlds & Games
 Skill: Sort picture cards of 3D shapes by type
-Description: **Student task:** Drag picture cards showing 3D objects into groups: cubes/boxes, spheres/balls, and cylinders/cans. **Visual scenario:** 9 picture cards show: wooden block, basketball, soup can, dice, orange, paper towel roll, gift box, marble, battery. **Correct groups:** Cubes (block, dice, gift box), Spheres (basketball, orange, marble), Cylinders (soup can, paper towel roll, battery). _Implementation note: Drag-drop sorting with 3 labeled bins. Auto-graded by final groupings. CSTA: 1A-AP-11._
+Description: **Student task:** Drag picture cards showing 3D objects into groups: cubes/boxes, spheres/balls, and cylinders/cans. **Visual scenario:** 9 picture cards show: wooden block, basketball, soup can, dice, orange, paper towel roll, gift box, marble, battery. **Correct groups:** Cubes (block, dice, gift box), Spheres (basketball, orange, marble), Cylinders (soup can, paper towel roll, battery). _Implementation note: Drag-drop sorting with 3 labeled bins. Auto-graded by final groupings._
 
 Dependencies: None
+
 
 
 
 ID: T17.GK.02
 Topic: T17 – 3D Worlds & Games
 Skill: Match 3D shapes to real-world objects
-Description: **Student task:** Draw lines connecting 3D shape icons to pictures of matching real-world objects. **Visual scenario:** Left column: cube icon, sphere icon, cylinder icon, cone icon. Right column: ice cream cone, basketball, filing cabinet, tin can. **Correct matches:** Cube→filing cabinet, Sphere→basketball, Cylinder→tin can, Cone→ice cream cone. _Implementation note: Line-drawing matching exercise. Auto-graded by connection accuracy. CSTA: 1A-AP-11._
+Description: **Student task:** Draw lines connecting 3D shape icons to pictures of matching real-world objects. **Visual scenario:** Left column: cube icon, sphere icon, cylinder icon, cone icon. Right column: ice cream cone, basketball, filing cabinet, tin can. **Correct matches:** Cube→filing cabinet, Sphere→basketball, Cylinder→tin can, Cone→ice cream cone. _Implementation note: Line-drawing matching exercise. Auto-graded by connection accuracy._
 
 Dependencies:
 * T17.GK.01: Sort picture cards of 3D shapes by type
+
 
 
 
 ID: T17.GK.03
 Topic: T17 – 3D Worlds & Games
 Skill: Identify how many faces a 3D shape has
-Description: **Student task:** Tap the number that shows how many flat faces the shape has. **Visual scenario:** Shows a cube with faces highlighted one by one, counting prompt "How many flat faces?" Answer choices: 4, 6, 8. **Correct answer:** 6. Second item shows a cylinder, choices: 2, 3, 4, answer: 2 (top and bottom). _Implementation note: MCQ with animated face highlighting. Auto-graded by selection. CSTA: 1A-AP-09._
+Description: **Student task:** Tap the number that shows how many flat faces the shape has. **Visual scenario:** Shows a cube with faces highlighted one by one, counting prompt "How many flat faces?" Answer choices: 4, 6, 8. **Correct answer:** 6. Second item shows a cylinder, choices: 2, 3, 4, answer: 2 (top and bottom). _Implementation note: MCQ with animated face highlighting. Auto-graded by selection._
 
 Dependencies:
 * T17.GK.01: Sort picture cards of 3D shapes by type
 
 
 
+
 ID: T17.GK.04
 Topic: T17 – 3D Worlds & Games
 Skill: Predict which 3D shape can roll
-Description: **Student task:** Tap all the shapes that can roll. **Visual scenario:** Shows picture cards: cube, sphere, cylinder, pyramid. **Correct answers:** Sphere and cylinder (both have curved surfaces). _Implementation note: Multi-select with audio "Which shapes can roll down a ramp?" Auto-graded by selections. CSTA: 1A-AP-12._
+Description: **Student task:** Tap all the shapes that can roll. **Visual scenario:** Shows picture cards: cube, sphere, cylinder, pyramid. **Correct answers:** Sphere and cylinder (both have curved surfaces). _Implementation note: Multi-select with audio "Which shapes can roll down a ramp?" Auto-graded by selections._
 
 Dependencies:
 * T17.GK.02: Match 3D shapes to real-world objects
 
 
 
+
 ID: T17.GK.05
 Topic: T17 – 3D Worlds & Games
 Skill: Predict which 3D shapes can stack stably
-Description: **Student task:** Tap all shapes that can stack on top of each other without falling. **Visual scenario:** Shows: cube, sphere, cylinder (standing), cone (point up). **Correct answers:** Cube and cylinder (flat tops). _Implementation note: Multi-select with visual of stacking attempt. Auto-graded by selections. CSTA: 1A-AP-12._
+Description: **Student task:** Tap all shapes that can stack on top of each other without falling. **Visual scenario:** Shows: cube, sphere, cylinder (standing), cone (point up). **Correct answers:** Cube and cylinder (flat tops). _Implementation note: Multi-select with visual of stacking attempt. Auto-graded by selections._
 
 Dependencies:
 * T17.GK.04: Predict which 3D shape can roll
 
 
 
-## GRADE 1 (6 skills - Shape vocabulary and spatial relationships)
+
 
 ID: T17.G1.01
 Topic: T17 – 3D Worlds & Games
 Skill: Match 3D shapes to their names
-Description: **Student task:** Draw lines connecting 3D shape pictures to their name labels. **Visual scenario:** Left column shows: cube, sphere, cylinder, cone, pyramid. Right column shows labels in scrambled order. **Correct matches:** Each shape to its name. _Implementation note: Line-drawing matching. Auto-graded by connection accuracy. CSTA: 1B-AP-11._
+Description: **Student task:** Draw lines connecting 3D shape pictures to their name labels. **Visual scenario:** Left column shows: cube, sphere, cylinder, cone, pyramid. Right column shows labels in scrambled order. **Correct matches:** Each shape to its name. _Implementation note: Line-drawing matching. Auto-graded by connection accuracy._
 
 Dependencies:
 * T17.GK.05: Predict which 3D shapes can stack stably
 
 
 
+
 ID: T17.G1.02
 Topic: T17 – 3D Worlds & Games
 Skill: Identify the shadow a 3D shape would cast
-Description: **Student task:** Match each 3D shape to its shadow when light shines from above. **Visual scenario:** Top row: cube, sphere, cylinder, cone. Bottom row: shadow shapes (square, circle, circle, triangle). **Correct matches:** Cube→square, Sphere→circle, Cylinder→circle, Cone→triangle. _Implementation note: Drag-drop matching. Auto-graded by correct pairings. CSTA: 1B-AP-12._
+Description: **Student task:** Match each 3D shape to its shadow when light shines from above. **Visual scenario:** Top row: cube, sphere, cylinder, cone. Bottom row: shadow shapes (square, circle, circle, triangle). **Correct matches:** Cube→square, Sphere→circle, Cylinder→circle, Cone→triangle. _Implementation note: Drag-drop matching. Auto-graded by correct pairings._
 
 Dependencies:
 * T17.G1.01: Match 3D shapes to their names
+
 
 
 
 ID: T17.G1.03
 Topic: T17 – 3D Worlds & Games
 Skill: Select the correct net that folds into a 3D shape
-Description: **Student task:** Tap the flat pattern (net) that would fold into the shown 3D shape. **Visual scenario:** Shows a cube, with 3 net options (one correct cross-shaped net, two incorrect patterns). **Correct answer:** The cross-shaped net. _Implementation note: MCQ with visual folding animation on selection. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** Tap the flat pattern (net) that would fold into the shown 3D shape. **Visual scenario:** Shows a cube, with 3 net options (one correct cross-shaped net, two incorrect patterns). **Correct answer:** The cross-shaped net. _Implementation note: MCQ with visual folding animation on selection. Auto-graded by selection._
 
 Dependencies:
 * T17.G1.02: Identify the shadow a 3D shape would cast
 
 
 
+
 ID: T17.G1.04
 Topic: T17 – 3D Worlds & Games
 Skill: Use spatial words to describe object positions
-Description: **Student task:** Select the word that describes where the ball is compared to the box. **Visual scenario:** Shows a ball and box in various positions. Prompt: "The ball is ___ the box." Choices: above, below, beside, inside. **Correct answer:** Varies by image (e.g., ball on top = "above"). _Implementation note: MCQ with clear spatial relationships. Auto-graded by selection. CSTA: 1B-AP-11._
+Description: **Student task:** Select the word that describes where the ball is compared to the box. **Visual scenario:** Shows a ball and box in various positions. Prompt: "The ball is ___ the box." Choices: above, below, beside, inside. **Correct answer:** Varies by image (e.g., ball on top = "above"). _Implementation note: MCQ with clear spatial relationships. Auto-graded by selection._
 
 Dependencies:
 * T17.G1.01: Match 3D shapes to their names
 
 
 
+
 ID: T17.G1.05
 Topic: T17 – 3D Worlds & Games
 Skill: Predict the view from a different position
-Description: **Student task:** A toy car faces right. Tap which picture shows what you would see if you walked behind the car. **Visual scenario:** Car shown from side view. 3 answer choices showing car from front, back, and other side. **Correct answer:** Back view of car. _Implementation note: MCQ testing perspective taking. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** A toy car faces right. Tap which picture shows what you would see if you walked behind the car. **Visual scenario:** Car shown from side view. 3 answer choices showing car from front, back, and other side. **Correct answer:** Back view of car. _Implementation note: MCQ testing perspective taking. Auto-graded by selection._
 
 Dependencies:
 * T17.G1.04: Use spatial words to describe object positions
 
 
 
-ID: T17.G1.06
-Topic: T17 – 3D Worlds & Games
-Skill: Count edges and vertices on 3D shapes
-Description: **Student task:** Count and tap the number showing how many edges (straight lines where faces meet) or vertices (corners) a shape has. **Visual scenario:** Shows a cube with edges highlighted in yellow. Question: "How many edges?" Choices: 8, 10, 12. **Correct answer:** 12. Follow-up with pyramid for vertices. _Implementation note: MCQ with visual highlighting. Auto-graded. CSTA: 1B-AP-09._
 
-Dependencies:
-* T17.GK.03: Identify how many faces a 3D shape has
-
-
-
-## GRADE 2 (6 skills - Multi-view reasoning and perspective)
 
 ID: T17.G2.01
 Topic: T17 – 3D Worlds & Games
 Skill: Identify front, top, and side views of 3D objects
-Description: **Student task:** Match each view label (front, top, side) to the correct silhouette of a 3D object. **Visual scenario:** Shows a simple house made of blocks, then 3 silhouettes. Student matches "Front view," "Top view," "Side view" labels to correct silhouettes. _Implementation note: Drag-drop matching. Auto-graded by label placement. CSTA: 1B-AP-11._
+Description: **Student task:** Match each view label (front, top, side) to the correct silhouette of a 3D object. **Visual scenario:** Shows a simple house made of blocks, then 3 silhouettes. Student matches "Front view," "Top view," "Side view" labels to correct silhouettes. _Implementation note: Drag-drop matching. Auto-graded by label placement._
 
 Dependencies:
 * T17.G1.05: Predict the view from a different position
 
 
 
+
 ID: T17.G2.02
 Topic: T17 – 3D Worlds & Games
 Skill: Predict where an object will appear after rotation
-Description: **Student task:** A cube has a star on the front face. If we rotate it 90° to the right, which face will show the star? **Visual scenario:** Cube shown with star on front, arrows indicating rotation. Choices: front, right, back, left sides. **Correct answer:** The star moves to the left side after rotating right. _Implementation note: MCQ with rotation animation. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** A cube has a star on the front face. If we rotate it 90° to the right, which face will show the star? **Visual scenario:** Cube shown with star on front, arrows indicating rotation. Choices: front, right, back, left sides. **Correct answer:** The star moves to the left side after rotating right. _Implementation note: MCQ with rotation animation. Auto-graded by selection._
 
 Dependencies:
 * T17.G2.01: Identify front, top, and side views of 3D objects
+
 
 
 
 ID: T17.G2.03
 Topic: T17 – 3D Worlds & Games
 Skill: Trace a path through a simple 3D maze from above
-Description: **Student task:** Looking at a maze from above (bird's eye view), draw the path from start to finish. **Visual scenario:** Top-down view of a simple 3D block maze with green start and red finish markers. Student draws path avoiding walls. _Implementation note: Path drawing with collision detection. Auto-graded by valid path completion. CSTA: 1B-AP-11._
+Description: **Student task:** Looking at a maze from above (bird's eye view), draw the path from start to finish. **Visual scenario:** Top-down view of a simple 3D block maze with green start and red finish markers. Student draws path avoiding walls. _Implementation note: Path drawing with collision detection. Auto-graded by valid path completion._
 
 Dependencies:
 * T17.G2.01: Identify front, top, and side views of 3D objects
 
 
 
+
 ID: T17.G2.04
 Topic: T17 – 3D Worlds & Games
 Skill: Count blocks in a 3D structure including hidden ones
-Description: **Student task:** Count the total number of blocks in this structure, including blocks you cannot see. **Visual scenario:** Shows an L-shaped structure of cubes (some hidden behind others). Student enters number. **Correct answer:** Total including hidden blocks. _Implementation note: Numeric entry with visual hints available. Auto-graded by count. CSTA: 1B-AP-09._
+Description: **Student task:** Count the total number of blocks in this structure, including blocks you cannot see. **Visual scenario:** Shows an L-shaped structure of cubes (some hidden behind others). Student enters number. **Correct answer:** Total including hidden blocks. _Implementation note: Numeric entry with visual hints available. Auto-graded by count._
 
 Dependencies:
 * T17.G2.02: Predict where an object will appear after rotation
 
 
 
+
 ID: T17.G2.05
 Topic: T17 – 3D Worlds & Games
 Skill: Match 3D scenes to their bird's eye view maps
-Description: **Student task:** Match each 3D scene to its top-down map view. **Visual scenario:** Left: 3 different room arrangements with furniture. Right: 3 top-down floor plan views. Student draws lines to match. _Implementation note: Line-drawing matching. Auto-graded by correct pairings. CSTA: 1B-AP-11._
+Description: **Student task:** Match each 3D scene to its top-down map view. **Visual scenario:** Left: 3 different room arrangements with furniture. Right: 3 top-down floor plan views. Student draws lines to match. _Implementation note: Line-drawing matching. Auto-graded by correct pairings._
 
 Dependencies:
 * T17.G2.03: Trace a path through a simple 3D maze from above
 
 
 
+
 ID: T17.G2.06
 Topic: T17 – 3D Worlds & Games
 Skill: Predict how light creates shadows in a 3D scene
-Description: **Student task:** The sun is on the left. Tap where the tree's shadow will fall. **Visual scenario:** Shows a tree with sun position indicated. Three possible shadow positions marked A, B, C. **Correct answer:** Shadow falls to the right (opposite sun). _Implementation note: MCQ testing light/shadow reasoning. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** The sun is on the left. Tap where the tree's shadow will fall. **Visual scenario:** Shows a tree with sun position indicated. Three possible shadow positions marked A, B, C. **Correct answer:** Shadow falls to the right (opposite sun). _Implementation note: MCQ testing light/shadow reasoning. Auto-graded by selection._
 
 Dependencies:
 * T17.G2.04: Count blocks in a 3D structure including hidden ones
 
 
 
-## GRADE 3 (21 skills - 3D fundamentals in CreatiCode)
+
 
 ID: T17.G3.01
 Topic: T17 – 3D Worlds & Games
-Skill: Interpret 3D axis directions (X, Y, Z)
-Description: Students read a labeled axis diagram or CreatiCode gizmo and identify which axis (X, Y, Z) controls width (left/right), height (up/down), and depth (forward/back), linking math vocabulary to the 3D coordinate system. They understand that positive X moves right, negative X moves left; positive Y moves up, negative Y moves down; positive Z moves forward (toward camera), negative Z moves back (away from camera). _CSTA: 2-AP-13._
+Skill: Interpret 3D axis directions
+Description: Students read a labeled axis diagram or CreatiCode gizmo and identify which axis (X, Y, Z) controls width (left/right), height (up/down), and depth (forward/back), linking math vocabulary to the 3D coordinate system.
 
 Dependencies:
 * T17.G2.06: Predict how light creates shadows in a 3D scene
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+
 
 
 
 ID: T17.G3.02
 Topic: T17 – 3D Worlds & Games
 Skill: Match camera views to 3D scene layouts
-Description: Students view a 3D scene with multiple objects (tree, house, car) and match screenshots from different camera positions to camera icons placed around the scene, understanding how camera position determines what appears in view. They identify which camera angle produces which view (top-down, side view, front view, angled perspective). _CSTA: 2-AP-10._
+Description: Students view a 3D scene with multiple objects (tree, house, car) and match screenshots from different camera positions to camera icons placed around the scene, understanding how camera position determines what appears in view.
 
 Dependencies:
-* T17.G3.01: Interpret 3D axis directions (X, Y, Z)
+* T17.G3.01: Interpret 3D axis directions
+
+
 
 
 
 ID: T17.G3.03
 Topic: T17 – 3D Worlds & Games
 Skill: Initialize a 3D scene with a specific environment
-Description: Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D scene [SCENETYPE]` block, selecting from environment options (Empty, Blue Sky, Castle, City, Forest, etc.) to set the stage for their 3D project. **How it works:** This block must run before any 3D objects can be added—it sets up the 3D rendering engine, camera, and base environment. **Test your code:** Run and verify the selected environment appears. _CSTA: 2-AP-10._
+Description: Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D scene [SCENETYPE]` block, selecting from environment options (Empty, Blue Sky, Castle, City, etc.) to set the stage for their 3D project.
 
 Dependencies:
 * T17.G3.02: Match camera views to 3D scene layouts
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+
 
 
 
 ID: T17.G3.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Set scene background color
-Description: Students use the `set scene background color [COLOR]` block to change the background color of the 3D scene, creating different moods or visual styles (bright blue sky, dark night, foggy gray, sunset orange). They experiment with color choices to match their project theme. _CSTA: 2-AP-15._
+Description: Students use the `set scene background color [COLOR]` block to change the background color of the 3D scene, creating different moods or visual styles.
 
 Dependencies:
 * T17.G3.03: Initialize a 3D scene with a specific environment
+
+
 
 
 
 ID: T17.G3.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add a box shape to the 3D scene
-Description: Students use the `add box [COLOR] size in x y z` block to place a box in the scene, adjusting color and size parameters (width in x, height in y, depth in z) to create objects like platforms, walls, or buildings. **Parameters:** color (hex or name), x-size (width), y-size (height), z-size (depth). **Common uses:** Ground platforms, walls, crates, buildings. _CSTA: 2-AP-13._
+Description: Students use the `add box [COLOR] size in x y z` block to place a box in the scene, adjusting color and size parameters (width, height, depth) to create objects like platforms, walls, or buildings.
 
 Dependencies:
 * T17.G3.03: Initialize a 3D scene with a specific environment
 
 
 
+
+
 ID: T17.G3.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add a sphere shape to the 3D scene
-Description: Students use the `add sphere [COLOR] size in x y z` block to create round objects like balls, planets, or collectibles, adjusting color and size parameters. Setting equal x/y/z creates perfect spheres; different values create ovals/ellipsoids. **Common uses:** Balls, planets, collectible items, boulders. _CSTA: 2-AP-13._
+Description: Students use the `add sphere [COLOR] size in x y z` block to create round objects like balls, planets, or collectibles, adjusting color and size parameters (diameter in x, y, z for oval/stretched spheres).
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.04.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add a cylinder shape to the 3D scene
-Description: Students use the `add cylinder [COLOR] diameter top bottom height` block to create columnar objects like posts, tree trunks, or poles. They adjust color, height, and top/bottom diameter parameters. **How it works:** Equal top and bottom diameters create cylinders; different values create cones or truncated cones. _CSTA: 2-AP-13._
+Description: Students use the `add cylinder [COLOR] diameter top bottom height` block to create columnar objects like posts, tree trunks, or poles, adjusting color, height, and top/bottom diameter parameters.
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.05
 Topic: T17 – 3D Worlds & Games
 Skill: Position shapes using x/y/z coordinates
-Description: Students use the `move to x y z in (T) seconds` block to position objects at target coordinates. They understand that x controls left/right, y controls up/down, z controls forward/back. **Coordinate examples:** (0, 0, 0) = center, (5, 0, 0) = 5 units right, (0, 10, -5) = 10 units up and 5 units back. **Test your code:** Place objects at specific coordinates and verify they appear where expected. _CSTA: 2-AP-13._
+Description: Students use the `move to x y z in (T) seconds` block to position an object at target coordinates, connecting coordinate understanding from earlier math skills to actual 3D positioning.
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Turn objects to face a direction
-Description: Students use the `rotate to direction x y z in (T) seconds` block to orient objects in 3D space by setting rotation angles (in degrees) around each axis. **Rotation axes:** X-axis rotation = pitch (tilt forward/back), Y-axis rotation = yaw (turn left/right), Z-axis rotation = roll (lean sideways). _CSTA: 2-AP-13._
+Description: Students use the `rotate to direction x y z in (T) seconds` block to orient objects in 3D space by setting rotation angles around each axis.
 
 Dependencies:
 * T17.G3.05: Position shapes using x/y/z coordinates
+
+
 
 
 
 ID: T17.G3.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Turn objects incrementally around an axis
-Description: Students use the `turn (N) degrees around the [AXIS] axis` block to rotate objects incrementally, understanding how each axis (X, Y, Z) affects rotation. They create spinning objects by using this block in loops. **Common uses:** Spinning coins, rotating platforms, turning characters to face directions. _CSTA: 2-AP-13._
+Description: Students use the `turn (N) degrees around the [AXIS] axis` block to rotate objects incrementally, understanding how each axis (X, Y, Z) affects rotation.
 
 Dependencies:
 * T17.G3.05.01: Turn objects to face a direction
 
 
 
+
+
 ID: T17.G3.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Change shape color using diffusion color
-Description: Students use the `update color diffusion [COLOR]` block to apply a solid diffusion color to 3D objects, learning how to differentiate objects visually (e.g., making the ground green, a player red, enemies purple). **How it works:** Diffusion color is the base surface color of the object under lighting. _CSTA: 2-AP-15._
+Description: Students use the `update color diffusion [COLOR]` block to apply a solid diffusion color to 3D objects, learning how to differentiate objects visually (e.g., making the ground green, a player red).
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add emission glow to objects
-Description: Students use the emission color parameter in the `update color diffusion [COLOR] emission [COLOR]` block to make objects appear to glow or emit light. **How it works:** Emission makes objects bright even in darkness—useful for lamps, lasers, power-ups, magical effects. _CSTA: 2-AP-15._
+Description: Students use the emission color parameter in the `update color diffusion [COLOR] emission [COLOR]` block to make objects appear to glow or emit light.
 
 Dependencies:
 * T17.G3.06.01: Change shape color using diffusion color
+
+
 
 
 
 ID: T17.G3.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Adjust shape transparency with material settings
-Description: Students use the `material setting: transparent [HASTRANSPARENCY]` block and alpha values in color codes to make objects partially or fully transparent. **Uses:** Windows, water, ghost effects, force fields. **How it works:** Alpha channel in #RRGGBBAA format controls transparency (FF = opaque, 00 = invisible). _CSTA: 2-AP-15._
+Description: Students use the `material setting: transparent [HASTRANSPARENCY]` block to make objects partially or fully transparent, useful for windows, water, or ghost effects.
 
 Dependencies:
 * T17.G3.06.02: Add emission glow to objects
 
 
 
+
+
 ID: T17.G3.07
 Topic: T17 – 3D Worlds & Games
 Skill: Name 3D objects for later reference
-Description: Students learn to give meaningful names to objects using the `as [NAME]` parameter when creating shapes, so they can refer to them later in their scripts for movement, collision, or other interactions. **Naming guidelines:** Use descriptive names (player, ground, enemy1, coin5) not generic names (object1, thing). _CSTA: 2-AP-11._
+Description: Students learn to give meaningful names to objects using the `as [NAME]` parameter when creating shapes, so they can refer to them later in their scripts for movement, collision, or other interactions.
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
 
 
 
+
+
 ID: T17.G3.08
 Topic: T17 – 3D Worlds & Games
 Skill: Select and work with named objects
-Description: Students use the `select sprite object by name [NAME]` block to select previously created objects, then apply transformations (move, rotate, color) to them. **How it works:** After selection, subsequent transformation blocks affect only the selected object. **Common pattern:** Select by name → modify properties → select another object. _CSTA: 2-AP-11._
+Description: Students use the `select sprite object by name [NAME]` block to select previously created objects, then apply transformations (move, rotate, color) to them.
 
 Dependencies:
 * T17.G3.07: Name 3D objects for later reference
 
 
 
+
+
 ID: T17.G3.09
 Topic: T17 – 3D Worlds & Games
 Skill: Predict object position from coordinate values
-Description: Students read x/y/z coordinate values in code and predict where an object will appear in the 3D scene (e.g., "move to x: 0, y: 5, z: -10" means centered horizontally, elevated 5 units, and 10 units away from camera). They build mental mapping between numbers and spatial locations. **Practice:** Given coordinates, students point to where object will appear before running code. _CSTA: 2-AP-12._
+Description: Students read x/y/z coordinate values in code and predict where an object will appear in the 3D scene (e.g., "move to x: 0, y: 5, z: -10" means centered horizontally, elevated 5 units, and 10 units away), building mental mapping between numbers and spatial locations.
 
 Dependencies:
 * T17.G3.05: Position shapes using x/y/z coordinates
 
 
 
+
+
 ID: T17.G3.10
 Topic: T17 – 3D Worlds & Games
 Skill: Debug a mispositioned object by fixing coordinates
-Description: Students examine a 3D scene where an object appears in the wrong location (e.g., underground at y: -5 instead of y: 5, or too far at z: -100 instead of z: -10) and correct the coordinate values in the code to place the object in the intended position. **Debug process:** Identify which axis is wrong → determine correct value → test fix. _CSTA: 2-AP-17._
+Description: Students examine a 3D scene where an object appears in the wrong location (e.g., underground at y: -5 instead of y: 5) and correct the coordinate values in the code to place the object in the intended position.
 
 Dependencies:
 * T17.G3.09: Predict object position from coordinate values
 
 
 
-ID: T17.G3.11
-Topic: T17 – 3D Worlds & Games
-Skill: Erase all pen drawings from the 3D scene
-Description: Students use the `erase all` block to clear all drawn shapes from the 3D scene, useful for resetting scenes or clearing between levels. They understand this removes visual drawings but doesn't delete 3D objects created with add blocks. _CSTA: 2-AP-10._
 
-Dependencies:
-* T17.G3.08: Select and work with named objects
-
-
-
-ID: T17.G3.12
-Topic: T17 – 3D Worlds & Games
-Skill: Build a simple 3D scene with shapes and colors
-Description: Students combine scene initialization, shape creation (boxes, spheres, cylinders), positioning, coloring, and naming to create a simple 3D environment (e.g., a park with ground, trees as cylinders, balls as spheres). **Requirements:** At least 5 objects, 3 different shapes, 3 different colors, meaningful names. _CSTA: 2-AP-16._
-
-Dependencies:
-* T17.G3.08: Select and work with named objects
-* T17.G3.06.01: Change shape color using diffusion color
-
-
-
-## GRADE 4 (24 skills - Advanced shapes, lighting, camera, and animation)
 
 ID: T17.G4.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add plane shapes for floors and walls
-Description: Students use the `add plane [COLOR] size x y` block to create flat surfaces for floors, walls, or backdrops, adjusting color, width, and height to build environments. **How planes work:** Planes are 2D surfaces with no thickness—perfect for ground, walls, or backdrop panels. **Common uses:** Ground platforms, wall panels, backdrop screens. _CSTA: 2-AP-13._
+Description: Students use the `add plane [COLOR] size x y` block to create flat surfaces for floors, walls, or backdrops, adjusting color, width, and height to build environments.
 
 Dependencies:
-* T17.G3.12: Build a simple 3D scene with shapes and colors
+* T17.G3.08: Select and work with named objects
+
+
 
 
 
 ID: T17.G4.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add capsule shapes to the 3D scene
-Description: Students use the `add capsule [COLOR] diameter top bottom height sides` block to create capsule shapes (for character bodies, pillars, rounded posts), adjusting top and bottom diameter and height parameters. **What capsules are:** Cylinders with rounded ends—good for smooth character bodies. _CSTA: 2-AP-13._
+Description: Students use the `add capsule [COLOR] diameter top bottom height sides` block to create capsule shapes (for character bodies, pillars, rounded posts), adjusting top and bottom diameter and height parameters.
 
 Dependencies:
 * T17.G4.01.01: Add plane shapes for floors and walls
+
+
 
 
 
 ID: T17.G4.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add torus shapes to the 3D scene
-Description: Students use the `add torus [COLOR] diameter thickness sides` block to create donut-shaped rings (for wheels, rings, halos), adjusting diameter (size of whole ring) and thickness (thickness of tube) parameters. **Common uses:** Rings, wheels, halos, portals. _CSTA: 2-AP-13._
+Description: Students use the `add torus [COLOR] diameter thickness sides` block to create donut-shaped rings (for wheels, rings, halos), adjusting diameter and thickness parameters.
 
 Dependencies:
 * T17.G4.01.02: Add capsule shapes to the 3D scene
 
 
 
+
+
 ID: T17.G4.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Remove individual 3D objects from the scene
-Description: Students use the `remove object named [NAME]` block to delete specific objects from the scene, useful for collecting items, removing enemies, or cleaning up game elements. **How it works:** Select object by name, then remove block deletes only that object. _CSTA: 2-AP-10._
+Description: Students use the `remove object named [NAME]` block to delete specific objects from the scene, useful for collecting items, removing enemies, or cleaning up game elements.
 
 Dependencies:
 * T17.G4.01.03: Add torus shapes to the 3D scene
 
 
 
+
+
 ID: T17.G4.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Remove all 3D objects from the scene
-Description: Students use the `remove all objects` block to clear the entire scene at once, useful for resetting levels, transitioning between scenes, or starting fresh. **Difference from erase all:** Remove all deletes 3D objects; erase all clears pen drawings. _CSTA: 2-AP-10._
+Description: Students use the `remove all objects` block to clear the entire scene at once, useful for resetting levels, transitioning between scenes, or starting fresh.
 
 Dependencies:
 * T17.G4.01.04: Remove individual 3D objects from the scene
 
 
 
+
+
 ID: T17.G4.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add ambient lighting to set base brightness
-Description: Students use the `add ambient light [COLOR] intensity` block to provide overall base illumination to the scene. **What ambient light does:** Provides even lighting from all directions with no shadows—sets minimum brightness level. **When to use:** Always add ambient light first to prevent completely black unlit areas. _CSTA: 2-AP-15._
+Description: Students use the `add ambient light [COLOR] sky direction xyz intensity` block to provide overall base illumination to the scene, adjusting color and intensity for the desired mood.
 
 Dependencies:
 * T17.G4.01.01: Add plane shapes for floors and walls
 
 
 
+
+
 ID: T17.G4.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add directional lighting for sunlight effect
-Description: Students use the `add directional light [COLOR] in direction xyz intensity` block to simulate sunlight coming from a specific direction. **What directional light does:** Creates parallel rays like sunlight; casts shadows; adds depth and definition. **Direction parameter:** Points toward where light comes FROM (negative Y = sun from above). _CSTA: 2-AP-15._
+Description: Students use the `add directional light [COLOR] in direction xyz at xyz intensity` block to simulate sunlight, adjusting direction, color, and intensity to create shadows and depth.
 
 Dependencies:
 * T17.G4.02.01: Add ambient lighting to set base brightness
 
 
 
+
+
 ID: T17.G4.02.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add point lights for localized illumination
-Description: Students use the `add point light [COLOR] at xyz intensity` block to create localized light sources that radiate in all directions from a point, like light bulbs or torches. **What point lights do:** Light radiates from a point; brightness decreases with distance. **Common uses:** Torches, lamps, campfires, glowing objects. _CSTA: 2-AP-15._
+Description: Students use the `add point light [COLOR] at xyz intensity` block to create localized light sources (like light bulbs or torches) that radiate in all directions, setting position and intensity for localized lighting effects.
 
 Dependencies:
 * T17.G4.02.02: Add directional lighting for sunlight effect
 
 
 
+
+
 ID: T17.G4.02.04
 Topic: T17 – 3D Worlds & Games
 Skill: Add spot lights for focused illumination
-Description: Students use the `add spot light [COLOR] at xyz direction xyz angle intensity` block to create focused cone-shaped lights like flashlights or stage lights. **What spot lights do:** Light projects in a cone; angle controls how wide the cone spreads. **Common uses:** Flashlights, stage spotlights, car headlights. _CSTA: 2-AP-15._
+Description: Students use the `add spot light [COLOR] at xyz open angle intensity blur` block to create focused cone-shaped lights (like flashlights or stage lights) with configurable direction and cone angle.
 
 Dependencies:
 * T17.G4.02.03: Add point lights for localized illumination
 
 
 
+
+
 ID: T17.G4.02.05
 Topic: T17 – 3D Worlds & Games
 Skill: Remove lights from the scene
-Description: Students use the `remove light named [NAME]` block to delete specific lights, or `remove all lights` to clear all lighting for scene transitions or resets. **When to use:** Change lighting between day/night, enter dark cave, transition between scenes. _CSTA: 2-AP-10._
+Description: Students use the `remove light named [NAME]` block to delete specific lights, or `remove all lights` to clear all lighting for scene transitions or resets.
 
 Dependencies:
 * T17.G4.02.04: Add spot lights for focused illumination
 
 
 
+
+
 ID: T17.G4.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Set up an orbit camera to view a target
-Description: Students use the `add orbit camera distance v-angle h-angle` block to create a camera that circles around a target point. **Parameters:** distance (how far from target), v-angle (vertical angle—higher = looking down), h-angle (horizontal angle—rotation around target). **Common uses:** Character viewers, examine objects from all angles. _CSTA: 2-AP-13._
+Description: Students use the `add orbit camera distance v-angle h-angle` block to create a camera that circles around a target point, adjusting radius, vertical angle, and horizontal angle for strategic or cinematic views.
 
 Dependencies:
 * T17.G4.02.05: Remove lights from the scene
 
 
 
+
+
 ID: T17.G4.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Set camera target position
-Description: Students use the `set camera target xyz` block to specify what point the camera looks at. **How it works:** Camera always looks toward target point; changing target makes camera turn to face different locations. **Uses:** Focus camera on player, important objects, or action areas. _CSTA: 2-AP-13._
+Description: Students use the `set camera target xyz` block to specify what point the camera looks at, allowing them to focus on specific objects or areas in the scene.
 
 Dependencies:
 * T17.G4.03.01: Set up an orbit camera to view a target
 
 
 
+
+
 ID: T17.G4.03.03
 Topic: T17 – 3D Worlds & Games
 Skill: Set up a follow camera to track a moving object
-Description: Students use the `add follow camera distance height rotation` block to create a camera that automatically follows a player or vehicle. **How it works:** Camera maintains constant offset from target object as it moves. **Common uses:** Third-person games where camera follows player character. _CSTA: 2-AP-13._
+Description: Students use the `add follow camera distance z-offset v-angle h-angle` block to create a camera that automatically follows a player or vehicle, adjusting offset and height for a smooth third-person view.
 
 Dependencies:
 * T17.G4.03.02: Set camera target position
 
 
 
+
+
 ID: T17.G4.03.04
 Topic: T17 – 3D Worlds & Games
 Skill: Configure camera distance limits
-Description: Students use the `configure camera radius min max` block to set bounds on how close or far the camera can zoom, preventing players from zooming too far in or out. **Why limits matter:** Prevent seeing inside objects (too close) or losing detail (too far). _CSTA: 2-AP-13._
+Description: Students use the `configure camera radius min max visible range min max` block to set bounds on how close or far the camera can zoom, preventing players from zooming too far in or out.
 
 Dependencies:
 * T17.G4.03.03: Set up a follow camera to track a moving object
 
 
 
+
+
 ID: T17.G4.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Place 3D models from the CreatiCode library
-Description: Students use the `add model [MODELTYPE]` block to select and place 3D models from CreatiCode's library (trees, cars, buildings, furniture, animals) to enhance their scenes. **Model categories:** Nature, vehicles, buildings, characters, props. **How to use:** Select category → select specific model → set position and size. _CSTA: 2-AP-16._
+Description: Students use the `add model [MODELTYPE] target height origin offset rotation` block to select and place 3D models from CreatiCode's library (trees, cars, buildings, furniture) to enhance their scenes.
 
 Dependencies:
 * T17.G4.03.04: Configure camera distance limits
 
 
 
+
+
 ID: T17.G4.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add avatar models to the scene
-Description: Students use the `add avatar [AVATARTYPE] height as [NAME]` block to add humanoid character models to their scenes. **Available avatars:** Various character types with built-in animation rigs. **Preparation for:** Animation blocks that require avatar models. _CSTA: 2-AP-16._
+Description: Students use the `add avatar [AVATARTYPE] height as [NAME]` block to add humanoid character models to their scenes, preparing for character animation and gameplay.
 
 Dependencies:
 * T17.G4.04.01: Place 3D models from the CreatiCode library
 
 
 
+
+
 ID: T17.G4.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Play built-in avatar animations
-Description: Students use the `start model animation [NAME] looping speed` block to play built-in avatar animations (walking, running, jumping, dancing, waving) to bring characters to life. **Parameters:** animation name (from list), looping (true/false), speed (multiplier). **Common animations:** Idle, walk, run, jump, wave, dance. _CSTA: 2-AP-16._
+Description: Students use the `start model animation [NAME] looping speed ratio` block to play built-in avatar animations (walking, running, jumping, dancing, waving) to bring characters to life.
 
 Dependencies:
 * T17.G4.04.02: Add avatar models to the scene
 
 
 
+
+
 ID: T17.G4.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Animate scenery elements with rotation loops
-Description: Students create looping animations for props (windmill spinning, fans rotating, wheels turning) by combining forever loops with the `turn degrees around axis` block. **Common pattern:** Forever loop → turn 5 degrees around Y axis → creates continuous spinning. _CSTA: 2-AP-12._
+Description: Students create looping animations for props (windmill spinning, fans rotating, wheels turning) by combining forever loops with the `turn degrees around axis` block.
 
 Dependencies:
 * T17.G4.05.01: Play built-in avatar animations
@@ -22369,30 +22415,36 @@ Dependencies:
 
 
 
+
+
 ID: T17.G4.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Animate scenery with position changes
-Description: Students use forever loops with the `move to xyz in (T) seconds` block or `glide to xyz` to create bobbing platforms, swinging pendulums, or moving obstacles. **Pattern example:** Forever → move to position A → wait → move to position B → wait → (repeat). _CSTA: 2-AP-12._
+Description: Students use forever loops with the `move to xyz in (T) seconds` block to create bobbing platforms, swinging pendulums, or moving obstacles.
 
 Dependencies:
 * T17.G4.05.02: Animate scenery elements with rotation loops
 
 
 
+
+
 ID: T17.G4.06
 Topic: T17 – 3D Worlds & Games
 Skill: Calculate distance between 3D objects
-Description: Students use the `distance between objects [OBJECT1] and [OBJECT2]` block to calculate how far apart two objects are, useful for proximity detection, triggers, and game logic. **Returns:** Distance as a number (in scene units). **Common uses:** Detect when player is near collectible, enemy detection range, trigger cutscenes. _CSTA: 2-AP-13._
+Description: Students use the `distance between objects [OBJECT1] and [OBJECT2]` block to calculate how far apart two objects are, useful for proximity detection, triggers, and game logic.
 
 Dependencies:
 * T17.G4.05.03: Animate scenery with position changes
 
 
 
+
+
 ID: T17.G4.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Trigger events based on object proximity
-Description: Students combine distance checking with conditionals to trigger events when the player gets near collectibles, NPCs, or hazards. **Common pattern:** Forever loop → if distance < threshold → trigger event (play sound, show message, add score). _CSTA: 2-AP-12._
+Description: Students combine distance checking with conditionals to trigger events when the player gets near collectibles, NPCs, or hazards, responding with sounds, score changes, or actions.
 
 Dependencies:
 * T17.G4.06: Calculate distance between 3D objects
@@ -22400,10 +22452,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G4.07
 Topic: T17 – 3D Worlds & Games
 Skill: Debug mispositioned 3D objects using coordinate inspection
-Description: Students analyze a 3D scene where multiple objects are incorrectly placed and systematically identify which coordinate values (x, y, or z) need adjustment. **Debug process:** Inspect current coordinates → compare to intended position → identify which axis is wrong → calculate correction → test fix. **Common errors:** Underground (y too low), too far (z very negative), off-center (x wrong). _CSTA: 2-AP-17._
+Description: Students analyze a 3D scene where objects are incorrectly placed and systematically identify which coordinate values (x, y, or z) need adjustment, using the console to log positions and iteratively fix placement bugs.
 
 Dependencies:
 * T17.G4.06.01: Trigger events based on object proximity
@@ -22411,10 +22465,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G4.08
 Topic: T17 – 3D Worlds & Games
 Skill: Build a complete 3D scene with multiple elements
-Description: Students combine shapes, lighting, camera, and models to create a cohesive 3D environment (e.g., a park with trees, benches, and paths; a room with furniture). **Requirements:** Scene initialization, at least 3 shapes, 2 light sources (ambient + directional/point), camera setup, 2+ models from library, all objects positioned and colored meaningfully. _CSTA: 2-AP-16._
+Description: Students combine shapes, lighting, camera, and models to create a cohesive 3D environment (e.g., a park with trees, benches, and paths; a room with furniture). This capstone skill integrates scene initialization, shape placement, object naming, and visual styling.
 
 Dependencies:
 * T17.G4.04.02: Add avatar models to the scene
@@ -22423,92 +22479,108 @@ Dependencies:
 
 
 
-## GRADE 5 (29 skills - Physics simulation and visual effects)
+
 
 ID: T17.G5.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Initialize a 3D physics world with gravity
-Description: Students use the `enable physics for scene with gravity` block to add physics simulation, setting gravity strength (usually -9.8 for Earth-like or -20 for stronger effect) so objects can fall and interact realistically. **How it works:** Must be called AFTER scene initialization and BEFORE adding physics bodies. **Gravity parameter:** Negative values pull down (typical: -9.8 to -30). _CSTA: 2-AP-13._
+Description: Students use the `enable physics for scene with gravity` block to add physics simulation, setting gravity strength so objects can fall and interact realistically.
 
 Dependencies:
 * T17.G4.06.01: Trigger events based on object proximity
 
 
 
+
+
 ID: T17.G5.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add static physics bodies for immovable objects
-Description: Students use the `add physics body with mass 0` block to attach static physics bodies to floors, walls, and platforms that should not move but should block other objects. **What static means:** Mass = 0 means object won't move from forces/collisions but still participates in physics. **Common uses:** Ground, walls, platforms. _CSTA: 2-AP-13._
+Description: Students use the `add [SHAPE] physics body with mass 0` block to attach static physics bodies to floors, walls, and platforms that should not move but should block other objects.
 
 Dependencies:
 * T17.G5.01.01: Initialize a 3D physics world with gravity
 
 
 
+
+
 ID: T17.G5.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add dynamic physics bodies for movable objects
-Description: Students use the `add physics body with mass` block to add dynamic physics bodies to players, crates, and projectiles with mass > 0, so they can fall, be pushed, and collide. **What dynamic means:** Mass > 0 means object affected by gravity and forces. **Typical masses:** Small items = 1, characters = 5-10, heavy objects = 20+. _CSTA: 2-AP-13._
+Description: Students use the `add [SHAPE] physics body with mass` block to add dynamic physics bodies to players, crates, and projectiles with mass > 0, so they can fall and collide.
 
 Dependencies:
 * T17.G5.01.02: Add static physics bodies for immovable objects
 
 
 
+
+
 ID: T17.G5.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Remove physics bodies from objects
-Description: Students use the `remove physics body` block to remove physics simulation from objects, useful for changing objects from dynamic to static or removing from physics simulation entirely. **When to use:** Object collected and should no longer interact, transition from physics to manual control. _CSTA: 2-AP-10._
+Description: Students use the `remove physics body` block to remove physics simulation from objects, useful for changing objects from dynamic to static or removing from physics simulation.
 
 Dependencies:
 * T17.G5.01.03: Add dynamic physics bodies for movable objects
 
 
 
+
+
 ID: T17.G5.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Freeze and unfreeze physics bodies
-Description: Students use the `freeze physics body named [NAME]` and `unfreeze physics body named [NAME]` blocks to temporarily pause physics simulation on specific objects. **Uses:** Create paused states, temporarily stop object during cutscenes, freeze object in mid-air. _CSTA: 2-AP-10._
+Description: Students use the `freeze physics body named [NAME]` block to temporarily pause physics simulation on specific objects, useful for creating paused states or static moments.
 
 Dependencies:
 * T17.G5.01.04: Remove physics bodies from objects
 
 
 
+
+
 ID: T17.G5.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Configure restitution for bouncing behavior
-Description: Students use the `update physics property restitution [VALUE]` block to control how bouncy objects are. **Restitution values:** 0 = no bounce (sticks on impact), 0.5 = moderate bounce, 1.0 = perfect elastic bounce (returns to original height), >1.0 = gains energy (bounces higher). **Common uses:** Balls = 0.7-0.9, crates = 0.1-0.3. _CSTA: 2-AP-13._
+Description: Students use the `update physics property restitution` block to control how bouncy objects are (0% = no bounce, 100% = perfect bounce), useful for balls, projectiles, or platforms.
 
 Dependencies:
 * T17.G5.01.05: Freeze and unfreeze physics bodies
 
 
 
+
+
 ID: T17.G5.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Configure friction for sliding behavior
-Description: Students use the `update physics property friction [VALUE]` block to control how easily objects slide. **Friction values:** 0 = perfectly slippery (ice), 0.5 = normal, 1.0 = sticky (rubber on rubber), 2.0+ = very sticky. **Common uses:** Ice surfaces = 0-0.1, normal ground = 0.5, sticky surfaces = 1.0+. _CSTA: 2-AP-13._
+Description: Students use the `update physics property friction` block to create slippery ice surfaces (low friction) or sticky floors (high friction), controlling how easily objects slide.
 
 Dependencies:
 * T17.G5.02.01: Configure restitution for bouncing behavior
 
 
 
+
+
 ID: T17.G5.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Detect physics collision events
-Description: Students use the `broadcast [MESSAGE] on collision between physics bodies` block to detect when physics objects touch, triggering game logic responses. **How it works:** Broadcasts message when two physics bodies collide; specify which bodies or use "any". **Common uses:** Player hits enemy, ball hits goal, projectile hits target. _CSTA: 2-AP-12._
+Description: Students use the `broadcast [MESSAGE] on collision between physics bodies` block to detect when physics objects touch, triggering game logic responses.
 
 Dependencies:
 * T17.G5.02.02: Configure friction for sliding behavior
 
 
 
+
+
 ID: T17.G5.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Respond to collisions by collecting items
-Description: Students handle collision events by updating score, playing sounds, or removing collectible objects when the player touches them. **Pattern:** When collision detected → change score by 1 → play sound → remove collectible object. _CSTA: 2-AP-16._
+Description: Students handle collision events by updating score, playing sounds, or removing collectible objects when the player touches them, combining collision detection with game logic.
 
 Dependencies:
 * T17.G5.03.01: Detect physics collision events
@@ -22516,150 +22588,178 @@ Dependencies:
 
 
 
+
+
 ID: T17.G5.03.03
 Topic: T17 – 3D Worlds & Games
 Skill: Get names of objects in contact
-Description: Students use the `names of physics bodies in contact for [NAME]` block to get a list of all objects currently touching a physics body, enabling advanced collision handling (checking multiple simultaneous collisions). **Returns:** List of object names. **Uses:** Check if standing on ground, detect multiple enemies touching player. _CSTA: 2-AP-13._
+Description: Students use the `names of physics bodies in contact for [NAME]` block to get a list of all objects currently touching a physics body, enabling advanced collision handling.
 
 Dependencies:
 * T17.G5.03.02: Respond to collisions by collecting items
 
 
 
+
+
 ID: T17.G5.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Apply textures from the CreatiCode texture library
-Description: Students use the `update texture [TEXTURENAME]` block to apply pre-made textures (wood, stone, grass, metal, brick, dirt) from CreatiCode's library to make surfaces look realistic. **Texture categories:** Natural (grass, dirt, stone), architectural (brick, wood planks), materials (metal, fabric). _CSTA: 2-AP-15._
+Description: Students use the `update texture [TEXTURENAME] unit size` block to apply pre-made textures (wood, stone, grass, metal) from CreatiCode's library to make surfaces look realistic.
 
 Dependencies:
 * T17.G5.03.03: Get names of objects in contact
 
 
 
+
+
 ID: T17.G5.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Apply costume textures to objects
-Description: Students use the `update texture using costume [COSTUMENAME]` block to apply custom-drawn costumes as textures on 3D surfaces, bridging 2D sprite art with 3D geometry. **How to use:** Draw costume in costume editor → apply costume as texture → costume wraps around 3D object. _CSTA: 2-AP-15._
+Description: Students use the `update texture using costume [COSTUMENAME]` block to apply custom-drawn costumes as textures on 3D surfaces, bridging 2D sprite art with 3D geometry.
 
 Dependencies:
 * T17.G5.04.01: Apply textures from the CreatiCode texture library
 
 
 
+
+
 ID: T17.G5.04.03
 Topic: T17 – 3D Worlds & Games
 Skill: Configure texture repetition and rotation
-Description: Students use texture tiling parameters to control how textures tile across surfaces. **Parameters:** repeat-h and repeat-v (how many times texture tiles horizontally/vertically), rotation (texture rotation angle). **Effect:** Higher repeat values create smaller tiling patterns; lower values create stretched textures. _CSTA: 2-AP-15._
+Description: Students use the `update texture unit size repeat h v rotation` block to control how textures tile across surfaces, adjusting repetition and rotation for realistic patterns.
 
 Dependencies:
 * T17.G5.04.02: Apply costume textures to objects
 
 
 
+
+
 ID: T17.G5.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Adjust material roughness for surface appearance
-Description: Students use the `update color roughness [VALUE]` parameter to control surface roughness. **Roughness values:** 0 = perfectly shiny/reflective (mirror, metal), 0.5 = moderate (plastic), 1.0 = completely matte/rough (cloth, concrete). **Visual effect:** Lower values create sharper specular highlights. _CSTA: 2-AP-15._
+Description: Students use the `update color roughness` parameter to control surface roughness, creating different looks from smooth shiny surfaces to rough matte ones.
 
 Dependencies:
 * T17.G5.04.03: Configure texture repetition and rotation
 
 
 
+
+
 ID: T17.G5.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Adjust material brightness
-Description: Students use the `update color brightness [VALUE]` parameter to control how bright or dark a surface appears under lighting. **Brightness values:** 0 = completely black, 1.0 = normal, 2.0+ = extra bright. **Uses:** Make surfaces brighter/darker without changing base color. _CSTA: 2-AP-15._
+Description: Students use the `update color brightness` parameter to control how bright or dark a surface appears, useful for creating variation in scene lighting effects.
 
 Dependencies:
 * T17.G5.05.01: Adjust material roughness for surface appearance
 
 
 
+
+
 ID: T17.G5.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Scale objects in 3D
-Description: Students use the `update scale x y z in (T) seconds` block to resize objects proportionally or non-proportionally. **Scale values:** 1 = original size, 2 = double size, 0.5 = half size. **Non-proportional:** Different x/y/z values stretch objects (e.g., x=1, y=2, z=1 makes object twice as tall). _CSTA: 2-AP-13._
+Description: Students use the `update scale x y z in (T) seconds` block to resize objects proportionally or non-proportionally, making objects grow, shrink, or stretch.
 
 Dependencies:
 * T17.G5.05.02: Adjust material brightness
 
 
 
+
+
 ID: T17.G5.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add fog for depth and atmosphere
-Description: Students use the `set scene fog [MODE] color start end density` block to enable fog effects, creating atmospheric depth or spooky environments. **Fog parameters:** color (fog color), start (distance where fog begins), end (distance where fog is solid), density (fog thickness). **Common uses:** Spooky atmosphere, hide far objects, create depth perception. _CSTA: 2-AP-15._
+Description: Students use the `set scene fog [MODE] color start end density` block to enable fog effects, creating atmospheric depth or spooky environments.
 
 Dependencies:
 * T17.G5.05.03: Scale objects in 3D
 
 
 
+
+
 ID: T17.G5.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add prebuilt fire particle emitters
-Description: Students use the `add prebuilt emitter for [fire]` block to add fire particle effects from the prebuilt library with default settings. **What fire emitters do:** Emit orange/yellow flame particles moving upward with natural flickering. **Common uses:** Torches, campfires, explosions, lava. _CSTA: 2-AP-16._
+Description: Students use the `add prebuilt emitter for [fire]` block to add fire particle effects from the prebuilt library with default settings, creating flames for torches, campfires, or explosions.
 
 Dependencies:
 * T17.G5.06.01: Add fog for depth and atmosphere
 
 
 
+
 ID: T17.G5.06.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add prebuilt smoke particle emitters
-Description: Students use the `add prebuilt emitter for [smoke]` block to add smoke particle effects from the prebuilt library. **What smoke emitters do:** Emit gray/white particles drifting upward and fading. **Common uses:** Chimneys, exhaust, steam, aftermath of explosions. _CSTA: 2-AP-16._
+Description: Students use the `add prebuilt emitter for [smoke]` block to add smoke particle effects from the prebuilt library, creating rising smoke for chimneys, exhaust, or aftermath effects.
 
 Dependencies:
 * T17.G5.06.02: Add prebuilt fire particle emitters
 
 
 
+
 ID: T17.G5.06.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add prebuilt spark particle emitters
-Description: Students use the `add prebuilt emitter for [sparks]` block to add spark particle effects from the prebuilt library. **What spark emitters do:** Emit bright yellow/white particles scattering outward and fading quickly. **Common uses:** Welding, electrical effects, impact flashes, magical effects. _CSTA: 2-AP-16._
+Description: Students use the `add prebuilt emitter for [sparks]` block to add spark particle effects from the prebuilt library, creating sparks for welding, electrical effects, or impact flashes.
 
 Dependencies:
 * T17.G5.06.02.01: Add prebuilt smoke particle emitters
 
 
 
+
+
 ID: T17.G5.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Configure emitter colors
-Description: Students use the `configure emitter [NAME] color: start end` block to customize particle colors over lifetime. **How it works:** Start color = initial particle color, end color = final particle color before disappearing. Particles smoothly transition between colors. **Uses:** Custom fire colors, magical effects, colored smoke. _CSTA: 2-AP-15._
+Description: Students use the `configure emitter [NAME] color: start end` block to customize particle colors, creating custom-colored fire, smoke, or magical effects.
 
 Dependencies:
 * T17.G5.06.02.02: Add prebuilt spark particle emitters
 
 
 
+
+
 ID: T17.G5.06.04
 Topic: T17 – 3D Worlds & Games
 Skill: Configure emitter sizes
-Description: Students use the `configure emitter [NAME] size: start end` block to control how particle sizes change over lifetime. **How it works:** Start size = particle size at birth, end size = particle size at death. **Common patterns:** Growing (start small, end large for explosions), shrinking (start large, end small for fading), constant (same start/end). _CSTA: 2-AP-15._
+Description: Students use the `configure emitter [NAME] size: start end` block to control how particle sizes change over their lifetime, from small sparks to large clouds.
 
 Dependencies:
 * T17.G5.06.03: Configure emitter colors
 
 
 
+
+
 ID: T17.G5.06.05
 Topic: T17 – 3D Worlds & Games
 Skill: Start and stop particle emitters
-Description: Students use the `start emitter [NAME]` and `stop emitter [NAME]` blocks to control when particle effects are active. **When to use:** Start emitter when action begins (torch lit, engine starts), stop emitter when action ends (fire extinguished, engine stops). _CSTA: 2-AP-10._
+Description: Students use the `start emitter [NAME]` and `stop emitter [NAME]` blocks to control when particle effects are active, useful for triggering explosions or turning off flames.
 
 Dependencies:
 * T17.G5.06.04: Configure emitter sizes
 
 
 
+
+
 ID: T17.G5.07
 Topic: T17 – 3D Worlds & Games
 Skill: Predict physics behavior before running simulation
-Description: Students examine code that sets up physics bodies with different masses, restitution, and friction values, then predict the outcome (e.g., which ball will bounce higher, which object will slide further, what happens when heavy object hits light object) before running the simulation to verify. **Prediction factors:** Higher restitution = more bounce, lower friction = more sliding, higher mass = harder to move. _CSTA: 2-AP-12._
+Description: Students examine code that sets up physics bodies with different masses, restitution, and friction values, then predict the outcome (e.g., which ball will bounce higher, which object will slide further) before running the simulation to verify.
 
 Dependencies:
 * T17.G5.02.02: Configure friction for sliding behavior
@@ -22667,10 +22767,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G5.08
 Topic: T17 – 3D Worlds & Games
 Skill: Design collectible placement for balanced gameplay
-Description: Students analyze a 3D game level and strategically place collectible items at varying difficulties—some easy to reach (on main path), some requiring skill (jumping to higher platforms, avoiding hazards), some optional (hard-to-find secrets). They justify placement decisions based on game design principles (reward exploration, create risk/reward choices, guide player through level). _CSTA: 2-AP-18._
+Description: Students analyze a 3D game level and strategically place collectible items at varying difficulties - some easy to reach, some requiring skill. They justify placement decisions based on game design principles.
 
 Dependencies:
 * T17.G5.03.02: Respond to collisions by collecting items
@@ -22678,173 +22780,192 @@ Dependencies:
 
 
 
-ID: T17.G5.09
-Topic: T17 – 3D Worlds & Games
-Skill: Build a simple physics-based interaction
-Description: Students create a simple physics experience (bowling with spheres and boxes, stacking blocks, ball rolling down ramp) that demonstrates understanding of physics bodies, gravity, collisions, and material properties. **Requirements:** At least 3 dynamic bodies, 2 static bodies, appropriate masses and properties, observable physical behavior. _CSTA: 2-AP-16._
 
-Dependencies:
-* T17.G5.07: Predict physics behavior before running simulation
-* T17.G5.01.03: Add dynamic physics bodies for movable objects
-
-
-
-## GRADE 6 (24 skills - Advanced physics and interactivity)
 
 ID: T17.G6.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Apply impulses to physics bodies
-Description: Students use the `apply impulse strength direction xyz at relative point xyz` block to give objects an instant push (for jumping, explosions, or knockback effects). **Impulse vs force:** Impulse = instant change in velocity (single powerful push), force = continuous acceleration. **Parameters:** Strength (how strong), direction (which way), application point (where on object—affects rotation). _CSTA: 2-AP-13._
+Description: Students use the `apply impulse strength direction xyz at relative point xyz` block to give objects an instant push (for jumping, explosions, or knockback effects).
 
 Dependencies:
 * T17.G5.01.03: Add dynamic physics bodies for movable objects
+
+
 
 
 
 ID: T17.G6.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Apply continuous forces to physics bodies
-Description: Students use the `apply force strength direction xyz at relative point xyz` block to apply ongoing forces (for wind, gravity modifications, or thrust effects). **Force characteristics:** Applied continuously each frame, creates gradual acceleration, realistic for sustained pushes. **Common uses:** Wind pushing objects, rocket thrust, magnets, conveyor belts. _CSTA: 2-AP-13._
+Description: Students use the `apply force strength direction xyz at relative point xyz` block to apply ongoing forces (for wind, gravity modifications, or thrust effects).
 
 Dependencies:
 * T17.G6.01.01: Apply impulses to physics bodies
 
 
 
+
+
 ID: T17.G6.01.03
 Topic: T17 – 3D Worlds & Games
-Skill: Set physics body velocity directly
-Description: Students use the `set physics body speed in xyz` block to set an object's velocity directly, useful for precise movement control in physics simulations. **When to use:** When you want exact velocity rather than applying forces (character movement, respawning with specific speed, resetting motion). _CSTA: 2-AP-13._
+Skill: Set physics body speed directly
+Description: Students use the `set physics body speed in xyz` block to set an object's velocity directly, useful for precise movement control in physics simulations.
 
 Dependencies:
 * T17.G6.01.02: Apply continuous forces to physics bodies
 
 
 
+
+
 ID: T17.G6.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Set up collision groups for selective interaction
-Description: Students use the `update collision group [GROUP] target groups [LIST]` block to assign physics bodies to groups and control which objects can collide with each other. **How it works:** Assign object to group (1-15), specify which groups it can collide with. **Uses:** Player bullets don't hit player, team-based collision (red team can't hit red team), one-way platforms. _CSTA: 2-AP-13._
+Description: Students use the `update collision group target groups` block to assign physics bodies to groups, controlling which objects can collide with each other.
 
 Dependencies:
-* T17.G6.01.03: Set physics body velocity directly
+* T17.G6.01.03: Set physics body speed directly
+
+
 
 
 
 ID: T17.G6.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Lock physics body movement and rotation axes
-Description: Students use the `lock physics body movement in X Y Z rotation around X Y Z` block to constrain movement or rotation on specific axes. **Common uses:** Lock Y rotation to keep characters upright, lock Z movement for 2D-style gameplay in 3D, lock X/Z movement for elevator. _CSTA: 2-AP-13._
+Description: Students use the `lock physics body speed in X Y Z rotation around X Y Z` block to constrain movement or rotation on specific axes, keeping characters upright or restricting movement.
 
 Dependencies:
 * T17.G6.01.04: Set up collision groups for selective interaction
 
 
 
+
+
 ID: T17.G6.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add virtual joystick controls
-Description: Students use the `add [SIDE] joystick` block to add on-screen virtual joystick controls for mobile-friendly 3D navigation. **Sides:** Left or right side of screen. **Common pattern:** Left joystick for movement, right joystick for camera/aiming. _CSTA: 2-AP-16._
+Description: Students use the `add [SIDE] joystick` block to add on-screen virtual joystick controls for mobile-friendly 3D navigation.
 
 Dependencies:
 * T17.G6.01.05: Lock physics body movement and rotation axes
 
 
 
+
+
 ID: T17.G6.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Read joystick input values
-Description: Students use the `joystick [PROPERTY]` block to read joystick X and Y values (-1 to 1), mapping them to player movement or camera control. **Values:** X = -1 (left), 0 (center), 1 (right); Y = -1 (down), 0 (center), 1 (up). **Common pattern:** Multiply joystick values by movement speed to get velocity. _CSTA: 2-AP-13._
+Description: Students use the `joystick [PROPERTY]` block to read joystick X and Y values, mapping them to player movement or camera control.
 
 Dependencies:
 * T17.G6.02.01: Add virtual joystick controls
 
 
 
+
+
 ID: T17.G6.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable shadows from lights
-Description: Students use the `cast shadow from light named [NAME]` block to enable shadow generation from specific lights, creating depth and realism. **Performance note:** Shadows are computationally expensive—enable only on important lights (main directional/sun light). **Parameters:** Blur size (softer vs sharper shadows). _CSTA: 2-AP-15._
+Description: Students use the `cast shadow from light named [NAME] blur size` block to enable shadow generation from specific lights, creating depth and realism.
 
 Dependencies:
 * T17.G4.02.02: Add directional lighting for sunlight effect
 
 
 
+
+
 ID: T17.G6.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Configure objects to receive shadows
-Description: Students use the `receives shadow [TRUE/FALSE]` block to control which objects show shadows cast on them. **Performance optimization:** Disable shadow receiving on distant or unimportant objects to improve performance. _CSTA: 2-AP-15._
+Description: Students use the `receives shadow` block to control which objects show shadows cast on them, optimizing performance and visual quality.
 
 Dependencies:
 * T17.G6.03.01: Enable shadows from lights
 
 
 
+
+
 ID: T17.G6.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Create glow layers for luminous effects
-Description: Students use the `create glow layer intensity blur` block to set up glow effects, then add objects to the glow layer so they appear to emit light. **How it works:** Objects in glow layer create bloom/halo effect. **Uses:** Magical items, lasers, neon signs, power-ups. _CSTA: 2-AP-15._
+Description: Students use the `create glow layer intensity blur size` block to set up glow effects, then add objects to the glow layer.
 
 Dependencies:
 * T17.G6.03.02: Configure objects to receive shadows
 
 
 
+
+
 ID: T17.G6.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create highlight layers for object emphasis
-Description: Students use the `create highlight layer color blur` block to create outline effects that make selected objects stand out (outline in glowing color). **Uses:** Show interactable objects, highlight objectives, indicate selection, show damage/power-up state. _CSTA: 2-AP-15._
+Description: Students use the `create highlight layer blur size` block to create outline effects that make selected objects stand out.
 
 Dependencies:
 * T17.G6.04.01: Create glow layers for luminous effects
 
 
 
+
+
 ID: T17.G6.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add speech bubbles to 3D characters
-Description: Students use the `show speech bubble [TEXT] offset xyz` block to display dialog or thoughts above 3D characters. **Parameters:** Text content, offset (position relative to character). **Uses:** NPC dialog, tutorial instructions, character thoughts, hints. _CSTA: 2-AP-16._
+Description: Students use the `show speech bubble [TEXT] offset xyz` block to display dialog or thoughts above 3D characters, creating narrative or tutorial moments.
 
 Dependencies:
 * T17.G6.04.02: Create highlight layers for object emphasis
 
 
 
+
+
 ID: T17.G6.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable mouse picking on 3D objects
-Description: Students use the `turn on picking with [BUTTON]` block to enable click detection on 3D objects. **How it works:** After enabling picking, clicking on 3D objects triggers pick events. **Button options:** Left click, right click, or both. _CSTA: 2-AP-10._
+Description: Students use the `turn on picking with [BUTTON] for objects created in sprites` block to enable click detection on 3D objects.
 
 Dependencies:
 * T17.G6.05.01: Add speech bubbles to 3D characters
 
 
 
+
+
 ID: T17.G6.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Get picked object information
-Description: Students use `picked object name`, `picked point x/y/z` reporter blocks to determine which object was clicked and where on the object. **What you get:** Object name (which object), pick point coordinates (exact location on object surface). **Uses:** Identify clicked object, spawn effects at click point. _CSTA: 2-AP-13._
+Description: Students use `picked object name`, `picked point x/y/z pos` blocks to determine which object was clicked and where, enabling interactive 3D interfaces.
 
 Dependencies:
 * T17.G6.06.01: Enable mouse picking on 3D objects
 
 
 
+
+
 ID: T17.G6.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Respond to object picking events
-Description: Students use the `when an object from this sprite is picked` event to handle clicks on 3D objects, triggering game actions or UI responses. **Common pattern:** When object picked → check which object (picked object name) → execute appropriate action (show info, collect, activate). _CSTA: 2-AP-12._
+Description: Students use the `when an object from this sprite is picked` event to handle clicks on 3D objects, triggering game actions or UI responses.
 
 Dependencies:
 * T17.G6.06.02: Get picked object information
 
 
 
+
+
 ID: T17.G6.07
 Topic: T17 – 3D Worlds & Games
 Skill: Debug physics collision issues systematically
-Description: Students diagnose why physics collisions are not working as expected (e.g., objects passing through each other, unexpected bouncing, no collision detection) by checking: (1) Do both objects have physics bodies? (2) Are collision groups configured correctly? (3) Are bodies frozen? (4) Are masses appropriate? They use a systematic debugging checklist and console logging to identify problems. _CSTA: 2-AP-17._
+Description: Students diagnose why physics collisions are not working as expected (e.g., objects passing through each other, unexpected bouncing) by checking collision groups, physics body types, and constraint settings, using a systematic debugging approach.
 
 Dependencies:
 * T17.G6.01.04: Set up collision groups for selective interaction
@@ -22852,21 +22973,25 @@ Dependencies:
 
 
 
+
+
 ID: T17.G6.08
 Topic: T17 – 3D Worlds & Games
 Skill: Design responsive player movement controls for 3D space
-Description: Students implement a player control scheme that feels responsive and intuitive, choosing between: (1) Direct velocity control (set speed directly—instant response but less realistic), (2) Force-based movement (apply forces—realistic physics but slower response), or (3) Impulse-based (impulse when key pressed—jump-like feel). They test and justify their choice based on game feel requirements and player feedback. _CSTA: 2-AP-18._
+Description: Students implement a player control scheme that feels responsive and intuitive, combining joystick input with physics forces, choosing between direct velocity control vs. force-based movement based on game feel requirements.
 
 Dependencies:
-* T17.G6.02.02: Read joystick input values
-* T17.G6.01.03: Set physics body velocity directly
+* T17.G4.02.02: Add directional lighting for sunlight effect
+* T17.G6.01.03: Set physics body speed directly
+
+
 
 
 
 ID: T17.G6.09
 Topic: T17 – 3D Worlds & Games
 Skill: Build a physics-based puzzle or game
-Description: Students create a complete physics-based experience (e.g., ball maze—tilt platform to roll ball to goal, stacking game—stack blocks without falling, physics puzzle—use physics to reach goal) combining physics bodies, collision detection, scoring, and win/lose conditions. **Requirements:** Clear objective, physics-based mechanics (not just scripted movement), win condition, lose condition (optional), score/feedback. _CSTA: 2-AP-16._
+Description: Students create a complete physics-based experience (e.g., ball maze, stacking game, physics puzzle) combining physics bodies, collision detection, scoring, and win/lose conditions. This capstone skill integrates physics fundamentals with game design.
 
 Dependencies:
 * T17.G6.07: Debug physics collision issues systematically
@@ -22875,253 +23000,335 @@ Dependencies:
 
 
 
-## GRADE 7 (25 skills - Advanced geometry and effects)
+
 
 ID: T17.G7.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Create extruded 3D shapes from 2D vertex lists
-Description: Students use the `add column [COLOR] 2D vertex list height` block to extrude 2D polygon outlines into 3D shapes, making custom pillars, buildings, or unique geometry. **How it works:** Provide list of 2D points (x,z coordinates) defining base shape, specify extrusion height. **Uses:** Custom building footprints, irregular pillars, logo extrusions. _CSTA: 3A-AP-13._
+Description: Students use the `add column [COLOR] 2D vertex list height cap type` block to extrude 2D polygon outlines into 3D shapes, making custom pillars, buildings, or unique geometry.
 
 Dependencies:
 * T17.G6.06.03: Respond to object picking events
 
 
 
+
+
 ID: T17.G7.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create flat 3D text objects
-Description: Students use the `add 3D text [TEXT] font color width height` block to create flat text labels, signs, or titles in the 3D world. **Parameters:** Text content, font, color, width (horizontal size), height (vertical size), camera facing (always faces camera or fixed orientation). **Uses:** Signs, labels, floating UI elements. _CSTA: 2-AP-16._
+Description: Students use the `add 3D text [TEXT] font color width height diameter camera facing` block to create flat text labels, signs, or titles in the 3D world.
 
 Dependencies:
 * T17.G7.01.01: Create extruded 3D shapes from 2D vertex lists
 
 
 
+
+
 ID: T17.G7.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Create thick 3D text objects
-Description: Students use the `add 3D thick text [TEXT] font color width height thickness` block to create extruded text with depth for more prominent signs or logo effects. **Difference from flat text:** Adds depth/thickness parameter, creates solid 3D letters. **Uses:** Logos, prominent signs, 3D titles. _CSTA: 2-AP-16._
+Description: Students use the `add 3D thick text [TEXT] font color width height thickness diameter` block to create extruded text with depth for more prominent signs or logo effects.
 
 Dependencies:
 * T17.G7.01.02: Create flat 3D text objects
 
 
 
+
+
 ID: T17.G7.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Add cone shapes from vertex lists
-Description: Students use the `add cone [COLOR] vertex list height` block to create cone shapes from 2D base outlines, useful for roofs, towers, or projectile tips. **How it works:** Base defined by 2D vertex list, tip at specified height above base center. _CSTA: 3A-AP-13._
+Description: Students use the `add cone [COLOR] vertex list height` block to create cone shapes from 2D base outlines, useful for roofs, towers, or projectile tips.
 
 Dependencies:
 * T17.G7.01.03: Create thick 3D text objects
 
 
 
+
+
 ID: T17.G7.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Add tube shapes to the 3D scene
-Description: Students use the `add tube [COLOR] diameter-top diameter-bottom height arc sides thickness` block to create hollow tubes for pipes, tunnels, or architectural elements. **Parameters:** Top/bottom diameters (different = tapered), arc (full circle = 360°, half = 180°), thickness (wall thickness). _CSTA: 3A-AP-13._
+Description: Students use the `add tube [COLOR] diameter top bottom height arc closed section cap type sides thickness` block to create hollow tubes for pipes, tunnels, or architectural elements.
 
 Dependencies:
 * T17.G7.01.04: Add cone shapes from vertex lists
 
 
 
+
+
 ID: T17.G7.01.06
 Topic: T17 – 3D Worlds & Games
 Skill: Add rectangle tube shapes
-Description: Students use the `add rectangle tube [COLOR] size-X size-Y height thickness` block to create hollow rectangular tubes for ducts, channels, or frames. **Uses:** Rectangular pipes, architectural frames, ductwork. _CSTA: 3A-AP-13._
+Description: Students use the `add rectangle tube [COLOR] size X Y height cap type thickness sides` block to create hollow rectangular tubes for ducts, channels, or frames.
 
 Dependencies:
 * T17.G7.01.05: Add tube shapes to the 3D scene
 
 
 
+
+
 ID: T17.G7.01.07
 Topic: T17 – 3D Worlds & Games
 Skill: Add stair shapes to the 3D scene
-Description: Students use the `add stairs [COLOR] width depth height step-count` block to create staircase structures for platformers or architectural scenes. **Parameters:** Width (how wide), depth (how deep each step), height (total rise), step count (number of steps). _CSTA: 2-AP-16._
+Description: Students use the `add stairs [COLOR] width depth height count thickness type` block to create staircase structures for platformers or architectural scenes.
 
 Dependencies:
 * T17.G7.01.06: Add rectangle tube shapes
 
 
 
+
+
 ID: T17.G7.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Copy objects using grid matrix patterns
-Description: Students use the `copy by matrix count-x count-y count-z spacing-x spacing-y spacing-z` block to efficiently duplicate objects in 3D arrays without manual loops. **Uses:** Create forests (grid of trees), building blocks, fences, arrays of collectibles. **How it works:** Copies selected object in 3D grid pattern with specified spacing. _CSTA: 3A-AP-17._
+Description: Students use the `copy by matrix count in xyz spacing in xyz` block to efficiently duplicate objects in 3D arrays (like building blocks, trees in a forest) without manual loops.
 
 Dependencies:
 * T17.G7.01.07: Add stair shapes to the 3D scene
 
 
 
+
+
 ID: T17.G7.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Copy objects using mirror symmetry
-Description: Students use the `copy to mirror position [PLANE]` block to create symmetrical designs across planes (XY, XZ, YZ). **Uses:** Symmetrical buildings, vehicles (left/right mirror), decorative patterns. **How it works:** Creates mirrored copy across specified plane. _CSTA: 3A-AP-17._
+Description: Students use the `copy to mirror position [TYPE]` block to create symmetrical designs across planes, useful for buildings, vehicles, or decorative patterns.
 
 Dependencies:
 * T17.G7.02.01: Copy objects using grid matrix patterns
 
 
 
+
+
 ID: T17.G7.02.03
 Topic: T17 – 3D Worlds & Games
 Skill: Copy objects using rotational symmetry
-Description: Students use the `copy to rotated position around [AXIS] count degrees` block to duplicate objects in circular patterns (like petals, spokes, columns around a center). **Parameters:** Axis of rotation (X, Y, or Z), count (how many copies), degree step (angle between copies—360/count for even distribution). _CSTA: 3A-AP-17._
+Description: Students use the `copy to rotated position around [AXIS] axis count degree step` block to duplicate objects in circular patterns (like petals, spokes, columns around a center).
 
 Dependencies:
 * T17.G7.02.02: Copy objects using mirror symmetry
 
 
 
+
+
 ID: T17.G7.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add distance constraints between physics bodies
-Description: Students use the `add distance constraint between [BODY1] and [BODY2] distance` block to keep two physics bodies at a fixed or maximum distance, creating ropes, chains, or pendulums. **How it works:** Constraint maintains specified distance between bodies as they move. **Uses:** Ropes, chains, swinging objects, tethers. _CSTA: 3A-AP-13._
+Description: Students use the `add distance constraint between bodies` block to keep two physics bodies at a fixed or maximum distance, creating ropes, chains, or pendulums.
 
 Dependencies:
 * T17.G7.02.03: Copy objects using rotational symmetry
 
 
 
+
+
 ID: T17.G7.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add hinge constraints for rotating joints
-Description: Students use the `add hinge constraint between [BODY1] and [BODY2] at point axis` block to create rotating joints like doors, gates, or mechanical arms that pivot around an axis. **Parameters:** Hinge point (where joint is), axis (which axis to rotate around). **Uses:** Doors, gates, swinging bridges, mechanical arms. _CSTA: 3A-AP-13._
+Description: Students use the `add hinge constraint between bodies at point axis` block to create rotating joints like doors, gates, or mechanical arms that pivot around an axis.
 
 Dependencies:
 * T17.G7.03.01: Add distance constraints between physics bodies
 
 
 
+
+
 ID: T17.G7.03.03
 Topic: T17 – 3D Worlds & Games
 Skill: Configure hinge constraint limits and motors
-Description: Students use the `set limits for hinge constraint min max` to control how far hinges can rotate (door that only opens 90°) and `set motor for hinge constraint speed` to add motorized rotation (automatic opening door). **Limits:** Prevent over-rotation. **Motors:** Create automatic movement. _CSTA: 3A-AP-13._
+Description: Students use the `set limits for hinge constraint` and `set speed for hinge constraint` blocks to control how far hinges can rotate and add motorized rotation.
 
 Dependencies:
 * T17.G7.03.02: Add hinge constraints for rotating joints
 
 
 
+
+
 ID: T17.G7.03.04
 Topic: T17 – 3D Worlds & Games
 Skill: Add fixed constraints for rigid connections
-Description: Students use the `add fixed constraint between [BODY1] and [BODY2]` block to weld physics bodies together rigidly, creating compound objects like connected train cars or attached weapons. **How it works:** Bodies locked together, move as single unit. **Uses:** Multi-part objects, attached weapons/tools. _CSTA: 3A-AP-13._
+Description: Students use the `add fixed constraint between bodies` block to weld physics bodies together, creating compound objects like connected train cars or attached weapons.
 
 Dependencies:
 * T17.G7.03.03: Configure hinge constraint limits and motors
 
 
 
+
+
 ID: T17.G7.03.05
 Topic: T17 – 3D Worlds & Games
 Skill: Remove physics constraints
-Description: Students use the `remove constraint named [NAME]` block to disconnect previously linked physics bodies, useful for detaching objects or breaking connections (breaking rope, opening lock, separating train cars). _CSTA: 2-AP-10._
+Description: Students use the `remove constraint named [JOINTNAME]` block to disconnect previously linked physics bodies, useful for detaching objects or breaking connections.
 
 Dependencies:
 * T17.G7.03.04: Add fixed constraints for rigid connections
 
 
 
+
+
 ID: T17.G7.04.01
 Topic: T17 – 3D Worlds & Games
-Skill: Move objects along their current direction
-Description: Students use the `move [DISTANCE] along current direction in [T] seconds` block to move objects forward based on their facing direction, useful for projectiles or AI movement that should move "forward" relative to rotation. _CSTA: 2-AP-13._
+Skill: Move objects along a direction
+Description: Students use the `move (DISTANCE) along current direction in (T) seconds` block to move objects forward based on their facing direction, useful for projectiles or AI movement.
 
 Dependencies:
 * T17.G7.03.05: Remove physics constraints
 
 
 
+
+
 ID: T17.G7.04.02
 Topic: T17 – 3D Worlds & Games
-Skill: Point objects toward a target position
-Description: Students use the `point to position xyz in [T] seconds` block to orient objects toward a target location, useful for NPCs looking at players or turrets aiming. **How it works:** Smoothly rotates object to face target position over specified time. _CSTA: 2-AP-13._
+Skill: Point objects toward a position
+Description: Students use the `point to position xyz in (T) seconds` block to orient objects toward a target location, useful for NPCs looking at players or turrets aiming.
 
 Dependencies:
-* T17.G7.04.01: Move objects along their current direction
+* T17.G7.04.01: Move objects along a direction
+
+
 
 
 
 ID: T17.G7.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Merge multiple meshes into one
-Description: Students use the `merge [OBJECT1] into [OBJECT2]` block to combine multiple 3D objects into a single mesh for optimization or to create complex shapes. **Benefits:** Better performance (one object instead of many), enable compound physics shapes. **Use case:** Merge building parts, combine decorative elements. _CSTA: 3A-AP-17._
+Description: Students use the `merge [OBJECTNAME1] into [OBJECTNAME2]` block to combine multiple 3D objects into a single mesh for optimization or to create complex shapes.
 
 Dependencies:
-* T17.G7.04.02: Point objects toward a target position
+* T17.G7.04.02: Point objects toward a position
+
+
 
 
 
 ID: T17.G7.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create compound physics bodies
-Description: Students use the `add physics bodies into compound [NAME]` block to attach compound physics bodies to merged meshes for complex collision shapes like vehicles (multiple collision shapes for different parts). _CSTA: 3A-AP-17._
+Description: Students use the `add physics bodies into compound [NAME]` block to attach compound physics bodies to merged meshes for complex collision shapes like vehicles.
 
 Dependencies:
 * T17.G7.05.01: Merge multiple meshes into one
 
 
 
+
+
 ID: T17.G7.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Use carve operations for boolean geometry
-Description: Students use the `carve [OBJECT1] with [OBJECT2]` block to subtract one mesh from another, creating windows, doorways, or hollowed objects (boolean subtraction). **How it works:** Object2's volume removed from Object1. **Uses:** Cut windows in walls, create tunnels, hollow out objects. _CSTA: 3A-AP-13._
+Description: Students use the `carve [STARTINGOBJECT] with [CARVINGOBJECT]` block to subtract one mesh from another, creating windows, doorways, or hollowed objects.
 
 Dependencies:
 * T17.G7.05.02: Create compound physics bodies
 
 
 
+
+
 ID: T17.G7.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Animate camera position transitions
-Description: Students use the `set camera distance v-angle h-angle target xyz in [T] seconds` block to choreograph smooth camera movements for cutscenes or transitions. **Parameters:** All camera parameters can be smoothly animated over time. **Uses:** Cinematic cutscenes, camera reveals, dramatic angles. _CSTA: 2-AP-16._
+Description: Students use the `set camera distance v-angle h-angle target xyz in (T) seconds` block to choreograph smooth camera movements for cutscenes or transitions.
 
 Dependencies:
 * T17.G7.05.03: Use carve operations for boolean geometry
 
 
 
+
+
 ID: T17.G7.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add trails to moving objects
-Description: Students use the `add trail color width segments` block to attach trail effects to moving objects, showing motion paths for projectiles, vehicles, or characters. **Parameters:** Color (trail color), width (trail thickness), segments (how many trail segments to track). _CSTA: 2-AP-16._
+Description: Students use the `add trail diffusion emission width segments` block to attach trail effects to moving objects, showing motion paths for projectiles, vehicles, or characters.
 
 Dependencies:
 * T17.G7.06.01: Animate camera position transitions
+
+
 
 
 
 ID: T17.G7.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Create custom particle emitters
-Description: Students use the `add particle emitter [CONFIG]` block to create custom particle systems with full control over appearance, movement, lifetime, and behavior. **Parameters:** Emission rate, particle lifetime, initial velocity, colors, sizes, textures. **Uses:** Custom effects beyond prebuilt options. _CSTA: 3A-AP-17._
+Description: Students use the `add particle emitter shape texture facing camera life min max capacity` block to create custom particle systems with full control over appearance.
 
 Dependencies:
 * T17.G7.06.02: Add trails to moving objects
 
 
 
+
+
+ID: T17.G7.06.04
+Topic: T17 – 3D Worlds & Games
+Skill: Configure box emitter shapes
+Description: Students use the `configure box emitter` block to spawn particles within a rectangular volume, creating effects like area-based rain, snow, or rectangular forcefields.
+
+Dependencies:
+* T17.G7.06.03: Create custom particle emitters
+
+
+
+
+ID: T17.G7.06.04.01
+Topic: T17 – 3D Worlds & Games
+Skill: Configure cone emitter shapes
+Description: Students use the `configure cone emitter` block to spawn particles in a cone pattern, creating directional effects like spotlights, jets, or sprays emanating from a point.
+
+Dependencies:
+* T17.G7.06.04: Configure box emitter shapes
+
+
+
+
+ID: T17.G7.06.04.02
+Topic: T17 – 3D Worlds & Games
+Skill: Configure sphere emitter shapes
+Description: Students use the `configure sphere emitter` block to spawn particles outward from a central sphere, creating radial effects like explosions, magic auras, or expanding shockwaves.
+
+Dependencies:
+* T17.G7.06.04.01: Configure cone emitter shapes
+
+
+
+
+
 ID: T17.G7.07
 Topic: T17 – 3D Worlds & Games
 Skill: Trace camera and object movement in complex scenes
-Description: Students analyze a multi-object 3D animation sequence with camera transitions, predicting the visual result at each keyframe by mentally tracing: (1) Object positions and rotations through time, (2) Camera position and target, (3) What appears in frame at each moment. They document predictions then run to verify. _CSTA: 3A-AP-23._
+Description: Students analyze a multi-object 3D animation sequence with camera transitions, predicting the visual result at each keyframe by mentally tracing object positions, rotations, and camera angles through time.
 
 Dependencies:
 * T17.G7.06.01: Animate camera position transitions
-* T17.G7.04.02: Point objects toward a target position
+* T17.G7.04.02: Point objects toward a position
+
+
 
 
 
 ID: T17.G7.08
 Topic: T17 – 3D Worlds & Games
 Skill: Design level progression with increasing difficulty
-Description: Students create a multi-level 3D game where each level introduces new challenges, obstacles, or mechanics progressively. They balance difficulty curves ensuring: (1) Early levels teach mechanics, (2) Mid levels challenge mastery, (3) Late levels require combining skills. They test with players and adjust pacing based on feedback. _CSTA: 3A-AP-18._
+Description: Students create a multi-level 3D game where each level introduces new challenges, obstacles, or mechanics. They balance difficulty curves and ensure players can learn mechanics progressively before facing harder challenges.
 
 Dependencies:
 * T17.G6.09: Build a physics-based puzzle or game
@@ -23129,63 +23336,73 @@ Dependencies:
 
 
 
-## GRADE 8 (24 skills - Professional techniques and integration)
+
 
 ID: T17.G8.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable car physics simulation
-Description: Students use the `enable car simulation mass restitution friction tire-friction suspension` block to enable car physics on a vehicle model. **Parameters:** Mass (vehicle weight), restitution (bounciness), friction (body friction), tire friction (grip), suspension (spring stiffness). _CSTA: 3A-AP-13._
+Description: Students use the `enable car simulation mass restitution friction tire friction suspension` block to enable car physics on a vehicle model.
 
 Dependencies:
-* T17.G7.06.03: Create custom particle emitters
+* T17.G7.06.04.02: Configure sphere emitter shapes
 * T08.G6.01: Use conditionals in physics simulations
+
+
 
 
 
 ID: T17.G8.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Control car engine and brakes
-Description: Students use the `set car engine force [FORCE] brake [LEVEL]` block to control acceleration and braking of physics-enabled vehicles. **Engine force:** Positive = accelerate, 0 = coast, negative = reverse. **Brake level:** 0 = no brakes, 1 = full brakes. _CSTA: 3A-AP-13._
+Description: Students use the `set car engine force brake level` block to control acceleration and braking of physics-enabled vehicles.
 
 Dependencies:
 * T17.G8.01.01: Enable car physics simulation
 
 
 
+
+
 ID: T17.G8.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Steer car to an angle
-Description: Students use the `steer car to angle [DEGREES]` block to control wheel steering angle for turning physics-enabled vehicles. **Angle:** 0 = straight, positive = turn right, negative = turn left. **Typical range:** -30 to 30 degrees. _CSTA: 3A-AP-13._
+Description: Students use the `steer car to angle` block to control wheel steering angle for turning physics-enabled vehicles.
 
 Dependencies:
 * T17.G8.01.02: Control car engine and brakes
 
 
 
+
+
 ID: T17.G8.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Set up multiple camera display regions
-Description: Students use the `set display region bottom-left width height border` block to create split-screen views or picture-in-picture displays for multiple camera feeds (two-player split-screen, rear-view mirrors, mini-map cameras). **Parameters:** Position (where region appears), size (region dimensions), border (frame visibility). _CSTA: 3A-AP-17._
+Description: Students use the `set display region bottom left width height border` block to create split-screen views or picture-in-picture displays for multiple camera feeds.
 
 Dependencies:
 * T17.G8.01.03: Steer car to an angle
 
 
 
+
+
 ID: T17.G8.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add skybox textures to scenes
-Description: Students use the `set sky [SKYTYPE]` block to add skybox textures for 360-degree background environments (space, mountains, city skylines, fantasy worlds). **What skyboxes are:** Cube-mapped textures creating illusion of distant environment. **Available options:** Various preset skyboxes from library. _CSTA: 2-AP-15._
+Description: Students use the `set sky [SKYTYPE]` block to add skybox textures for 360-degree background environments (space, mountains, city skylines).
 
 Dependencies:
 * T17.G8.02.01: Set up multiple camera display regions
 
 
 
+
+
 ID: T17.G8.02.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add post-processing pipeline effects
-Description: Students use the `add pipeline vignette bloom antialiasing sharpening contrast exposure` block to enhance visual quality with post-processing effects. **Effects:** Vignette (darkened edges), bloom (glow on bright areas), antialiasing (smooth edges), sharpening (detail enhancement), contrast (light/dark separation), exposure (overall brightness). _CSTA: 3A-AP-17._
+Description: Students use the `add pipeline vignette bloom antialiasing sharpening contrast exposure` block to enhance visual quality with effects like bloom, vignette, and color grading.
 
 Dependencies:
 * T17.G8.02.02: Add skybox textures to scenes
@@ -23193,100 +23410,120 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Export 3D models as GLB files
-Description: Students use the `export object [NAME] as GLB file` block to save created 3D geometry for use in other applications or sharing. **GLB format:** Standard 3D model format supported by many applications (Blender, Unity, web viewers). **Uses:** Share creations, use in other software, 3D printing preparation. _CSTA: 3A-AP-21._
+Description: Students use the `export object [NAME] as a GLB file` block to save created 3D geometry for use in other applications or sharing.
 
 Dependencies:
 * T17.G8.02.03: Add post-processing pipeline effects
 
 
 
+
+
 ID: T17.G8.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Export 3D models as STL files for 3D printing
-Description: Students use the `export object [NAME] as STL file` block to export 3D geometry suitable for 3D printing, bridging digital creation with physical fabrication. **STL format:** Standard for 3D printing. **Preparation needed:** Ensure mesh is closed (no holes), appropriate scale, manifold geometry. _CSTA: 3A-AP-21._
+Description: Students use the `export object [NAME] as an STL file` block to export 3D geometry suitable for 3D printing, bridging digital creation with physical fabrication.
 
 Dependencies:
 * T17.G8.03.01: Export 3D models as GLB files
 
 
 
+
+
 ID: T17.G8.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable AR world camera mode
-Description: Students use the `switch to AR world camera` block to enable augmented reality, placing 3D objects in real-world environments using the device camera. **How it works:** Device camera becomes background, 3D objects appear anchored in real world. **Uses:** AR games, educational AR visualizations, virtual furniture placement. _CSTA: 3B-AP-16._
+Description: Students use the `switch to AR world camera scale emulation mode` block to enable augmented reality, placing 3D objects in real-world environments using the device camera.
 
 Dependencies:
 * T17.G8.03.02: Export 3D models as STL files for 3D printing
 
 
 
+
+
 ID: T17.G8.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Enable AR face tracking mode
-Description: Students use the `switch to AR face camera` block to enable face tracking that can attach 3D objects to detected faces for filters or effects. **How it works:** Detects face landmarks, tracks face movement, anchors objects to face position. **Uses:** Face filters, virtual makeup, educational face anatomy. _CSTA: 3B-AP-16._
+Description: Students use the `switch to AR face camera show marker scale emulation mode` block to enable face tracking that can attach 3D objects to detected faces for filters or effects.
 
 Dependencies:
 * T17.G8.04.01: Enable AR world camera mode
 
 
 
+
+
 ID: T17.G8.04.03
 Topic: T17 – 3D Worlds & Games
 Skill: Enable AR image/logo tracking mode
-Description: Students use the `switch to AR image tracking` block to display 3D content when specific images or logos are detected by the camera. **How it works:** Upload target image, camera detects image, 3D content appears anchored to image. **Uses:** Interactive posters, educational cards, marketing AR. _CSTA: 3B-AP-16._
+Description: Students use the `switch to AR LOGO as [TYPE] camera` block to display 3D content when specific images or logos are detected by the camera.
 
 Dependencies:
 * T17.G8.04.02: Enable AR face tracking mode
 
 
 
+
+
 ID: T17.G8.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Build mirrors for reflective surfaces
-Description: Students use the `build mirror brightness using object [NAME]` block to create reflective surfaces showing other objects, useful for water, windows, or polished floors. **Parameters:** Brightness (reflection intensity), object (which object becomes mirror surface). _CSTA: 3A-AP-17._
+Description: Students use the `build mirror brightness using object named [NAME]` block to create reflective surfaces showing other objects, useful for water, windows, or polished floors.
 
 Dependencies:
 * T17.G8.04.03: Enable AR image/logo tracking mode
 
 
 
+
+
 ID: T17.G8.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create geometry points in 3D space
-Description: Students use the `geometry: add point at xyz color size` block to define vertices in 3D space as the foundation for custom procedural geometry. **Uses:** Building custom meshes from scratch, visualizing data points, creating custom shapes. _CSTA: 3A-AP-13._
+Description: Students use the `geometry: add point at xyz color size` block to define vertices in 3D space as the foundation for custom geometry.
 
 Dependencies:
 * T17.G8.05.01: Build mirrors for reflective surfaces
 
 
 
+
+
 ID: T17.G8.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Create geometry lines between points
-Description: Students use the `geometry: add line between points` block to create line segments between defined points for wireframe or structural visualization. **Uses:** Visualize connections, create wireframe models, show relationships between data points. _CSTA: 3A-AP-13._
+Description: Students use the `geometry: add line between points color diameter` block to create line segments between defined points for wireframe or structural visualization.
 
 Dependencies:
 * T17.G8.05.02: Create geometry points in 3D space
 
 
 
+
+
 ID: T17.G8.05.04
 Topic: T17 – 3D Worlds & Games
 Skill: Create geometry triangles from points
-Description: Students use the `geometry: add triangle from points color` block to create triangular faces from three points, building custom meshes from vertices programmatically. **How it works:** Three points define triangle, normal direction determines which side is visible. **Uses:** Procedural mesh generation, terrain, custom models. _CSTA: 3A-AP-13._
+Description: Students use the `geometry: add triangle from points color` block to create triangular faces from three points, building custom meshes from vertices.
 
 Dependencies:
 * T17.G8.05.03: Create geometry lines between points
 
 
 
+
+
 ID: T17.G8.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Analyze and optimize 3D scene performance
-Description: Students profile a sluggish 3D project, identify bottlenecks (too many objects, excessive physics bodies, inefficient loops, too many dynamic objects, large textures, many lights with shadows), and refactor using: object pooling (reuse instead of create/delete), culling (remove off-screen objects), merged meshes, optimized textures, fewer lights. They measure before/after performance. _CSTA: 3B-AP-11._
+Description: Students profile a sluggish 3D project, identify bottlenecks (too many objects, physics bodies, or draw calls), and refactor using pooling, culling, or simplified meshes.
 
 Dependencies:
 * T17.G8.05.04: Create geometry triangles from points
@@ -23294,10 +23531,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Analyze trade-offs in 3D design decisions
-Description: Students review a completed 3D project and explain design choices with justifications: (1) Physics vs manual motion (realism vs control), (2) Camera placement (gameplay clarity vs cinematic feel), (3) Effect usage (visual appeal vs performance), (4) Lighting approach (realism vs performance). They cite pros and cons relative to project requirements and constraints. _CSTA: 3B-AP-22._
+Description: Students review a completed 3D project and explain design choices (physics vs manual motion, camera placement, effect usage), citing pros and cons relative to requirements.
 
 Dependencies:
 * T17.G8.06.01: Analyze and optimize 3D scene performance
@@ -23305,10 +23544,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.07
 Topic: T17 – 3D Worlds & Games
 Skill: Design and document a 3D game architecture
-Description: Students plan a complex 3D game by creating a comprehensive design document outlining: (1) Game mechanics (core gameplay loop, controls, win/lose conditions), (2) Level structure (how levels progress, difficulty curve), (3) Object hierarchy (what objects exist, how they interact), (4) Physics requirements (what uses physics, collision rules), (5) Visual effects (particles, lighting, post-processing), (6) Control schemes (keyboard/joystick mapping). They justify technical choices and identify potential challenges with mitigation strategies. _CSTA: 3B-AP-14._
+Description: Students plan a complex 3D game by creating a design document that outlines: game mechanics, level structure, object hierarchy, physics requirements, visual effects, and control schemes. They justify technical choices and identify potential challenges.
 
 Dependencies:
 * T17.G8.06.02: Analyze trade-offs in 3D design decisions
@@ -23316,26 +23557,32 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.08
 Topic: T17 – 3D Worlds & Games
 Skill: Integrate AI behaviors with 3D game mechanics
-Description: Students combine AI-driven behaviors (pathfinding, decision-making, state machines, targeting) with 3D physics and animation to create intelligent NPCs or enemies that respond dynamically to player actions in 3D space. **Requirements:** AI selects targets in 3D, navigates around obstacles, responds to player position, uses appropriate animations, interacts with physics (avoids falling, responds to collisions). _CSTA: 3B-AP-16._
+Description: Students combine AI-driven behaviors (pathfinding, decision-making, targeting) with 3D physics and animation to create intelligent NPCs or enemies that respond dynamically to player actions in 3D space.
 
 Dependencies:
 * T17.G8.01.03: Steer car to an angle
-* T17.G7.04.02: Point objects toward a target position
+* T17.G7.04.02: Point objects toward a position
+
+
 
 
 
 ID: T17.G8.09
 Topic: T17 – 3D Worlds & Games
 Skill: Build a complete 3D game with physics, effects, and UI
-Description: Students create a polished 3D game integrating multiple systems: (1) 3D scene with environment, lighting, and effects (fog, particles, shadows), (2) Physics-based gameplay (player physics, collisions, physics puzzles), (3) Player controls (responsive input, camera control), (4) Scoring/UI (HUD, menus, feedback), (5) Multiple levels or progressive difficulty, (6) Visual and audio feedback (effects, sounds). **This is the capstone skill demonstrating mastery of 3D game development.** _CSTA: 3B-AP-16._
+Description: Students create a polished 3D game integrating multiple systems: 3D scene with lighting and effects, physics-based gameplay, player controls, scoring/UI, multiple levels or progressive difficulty, and visual feedback. This capstone demonstrates mastery of 3D game development.
 
 Dependencies:
 * T17.G8.07: Design and document a 3D game architecture
 * T17.G8.04.01: Enable AR world camera mode
 * T17.G8.02.03: Add post-processing pipeline effects
+
+
 
 
 
@@ -23353,8 +23600,8 @@ None (foundational)
 
 ID: T18.GK.02
 Topic: T18 – Multiplayer Apps
-Skill: Explain why taking turns matters in games
-Description: Students view picture cards showing children playing board games, using playground swings, and sharing classroom materials. They sort pictures into "my turn" and "their turn" piles. They explain why taking turns is important (fairness, everyone gets a chance, prevents conflicts). They practice with physical activities—waiting for their turn and recognizing when another player's turn begins. They predict what happens when someone skips the turn order ("the game isn't fair anymore"). This introduces sequential actions in multiplayer contexts, preparing for later understanding of game state management.
+Skill: Understand taking turns in games
+Description: Students explain why taking turns is important when playing games with others. They identify examples of turn-taking in familiar activities (board games, playground equipment, classroom activities). They practice waiting for their turn and recognizing when it's another player's turn. They understand that turn-taking ensures fairness and prevents conflicts. This introduces the concept of sequential actions in multiplayer contexts, preparing for later understanding of game state management.
 
 Dependencies:
 * T18.GK.01: Recognize when friends play together
@@ -23425,8 +23672,8 @@ Dependencies:
 
 ID: T18.G1.04
 Topic: T18 – Multiplayer Apps
-Skill: Demonstrate sportsmanship when winning and losing
-Description: Students view picture scenarios showing different reactions to game outcomes (cheering for others, pouting, sharing, arguing). They sort pictures into "good sport" and "not a good sport" categories. They role-play congratulating winners and encouraging players who didn't win in classroom games. They explain which behaviors make games more fun (cheering for everyone, helping others, being patient, saying "good game") versus less fun (gloating, quitting, arguing, blaming). They predict whether players will want to play again based on how they were treated. This establishes sportsmanship concepts essential for positive multiplayer experiences online and offline.
+Skill: Understand winning and losing gracefully
+Description: Students practice responding positively to both winning and losing in group games. They congratulate winners, encourage players who didn't win, and recognize that everyone can have fun regardless of outcome. They identify behaviors that make games more fun (cheering, helping, being patient) versus less fun (gloating, quitting, arguing). They understand that how players treat each other affects whether people want to play together again. This establishes sportsmanship concepts essential for positive multiplayer experiences.
 
 Dependencies:
 * T18.G1.03: Recognize fair and unfair starting conditions
@@ -23474,8 +23721,8 @@ Dependencies:
 
 ID: T18.G2.04
 Topic: T18 – Multiplayer Apps
-Skill: Practice patience when teammates work at different speeds
-Description: Students observe picture scenarios of group activities where members work at different paces (one child finishes building blocks while another is still gathering pieces). They identify when faster members need to wait for others to catch up and explain why waiting helps the whole group succeed (everyone stays together, nobody gets lost, shared understanding). They practice waiting during classroom activities and identify productive strategies (help others, check your own work, plan next steps, encourage teammates). They predict what happens if fast players don't wait ("the team can't finish together"). This introduces synchronization concepts where multiplayer games must wait for all players to reach certain states before proceeding.
+Skill: Understand waiting for others in group activities
+Description: Students practice patience when different team members work at different speeds. They recognize that in group activities, faster members sometimes need to wait for others to catch up. They explain why waiting helps the whole group succeed (everyone stays together, nobody gets lost, shared understanding). They identify strategies for productive waiting (help others, check your own work, plan next steps). This introduces synchronization concepts where multiplayer games must wait for all players to reach certain states before proceeding.
 
 Dependencies:
 * T18.G2.01: Design simple cooperative challenges
@@ -23579,8 +23826,8 @@ Dependencies:
 
 ID: T18.G4.03
 Topic: T18 – Multiplayer Apps
-Skill: Explain how synchronization keeps multiplayer games consistent
-Description: Students define "synchronization" as keeping the game state the same for all players. They describe how when one player moves their character, that movement must be sent to other players so everyone sees it in (nearly) the same position. They categorize data types: what needs synchronization (player positions, scores, game events, shared object states) versus what stays local (sound effects, local UI feedback, input hints). They trace what happens when synchronization fails (players see different game states, unfair outcomes, confusion). They explain why synchronization is challenging (internet messages take time to travel, players may have different internet speeds, messages can arrive in different orders). This introduces synchronization concepts central to all networked multiplayer systems.
+Skill: Understand synchronization in multiplayer games
+Description: Students explain that "synchronization" means keeping the game state the same for all players. They describe how when one player moves their character, that movement must be sent to other players so everyone sees it. They identify what needs synchronization (player positions, scores, game events) versus what doesn't (sound effects, local UI feedback). They explain why synchronization is challenging (internet messages take time to travel, players may have different internet speeds). This introduces synchronization concepts central to all networked multiplayer systems.
 
 Dependencies:
 * T18.G4.02: Explain online multiplayer concepts
@@ -23617,33 +23864,11 @@ Dependencies:
 ID: T18.G5.01
 Topic: T18 – Multiplayer Apps
 Skill: Create and configure a multiplayer game room
-Description: Students use the "create game" block from the Multiplayer extension to create a game room as the host. They configure essential parameters: unique game name (so players can find it), server location (choosing closest server to minimize lag), password (for private games) or empty password (for public games), game capacity (maximum number of players), and world dimensions. They verify the game was created by checking the "connected to game" boolean reporter. They explain that they are now the host responsible for running the authoritative game state. This establishes the foundational skill for all networked multiplayer game development.
+Description: Students use CreatiCode multiplayer blocks to create a game room as the host. They configure essential parameters: unique game name (so players can find it), server location (choosing closest server to minimize lag), password (for private games) or empty password (for public games), game capacity (maximum number of players), and world dimensions. They verify the game was created by checking connection status. They understand they are now the host responsible for running the authoritative game state. This establishes the foundational skill for all networked multiplayer game development.
 
 Dependencies:
 * T18.G4.04: Explain host and client roles
 * T09.G3.01.01: Create a new variable with a descriptive name
-
-
-
-
-ID: T18.G5.01.01
-Topic: T18 – Multiplayer Apps
-Skill: Configure game room capacity and world dimensions
-Description: Students set appropriate capacity limits (2, 4, 8 players) based on game design requirements. They configure world width and height dimensions that match their game's playable area. They test what happens when capacity is reached (new players cannot join). They explain how capacity affects gameplay (too few limits interaction, too many causes chaos). They predict performance implications of larger world sizes and player counts.
-
-Dependencies:
-* T18.G5.01: Create and configure a multiplayer game room
-
-
-
-
-ID: T18.G5.01.02
-Topic: T18 – Multiplayer Apps
-Skill: Set player display name and role during game creation
-Description: Students configure their own display name (visible to other players) and role (custom string like "red team" or "seeker") when creating a game. They explain that display names help players identify each other while roles enable different gameplay behaviors. They test how role assignments appear in the player list. They design meaningful role names for their game concepts.
-
-Dependencies:
-* T18.G5.01: Create and configure a multiplayer game room
 
 
 
@@ -23688,23 +23913,11 @@ Dependencies:
 ID: T18.G5.05
 Topic: T18 – Multiplayer Apps
 Skill: Broadcast and receive multiplayer messages
-Description: Students use the "broadcast message with parameter mode" block to send custom messages between all players in a game room. They send messages with parameters to share game events (player scored, item collected, round started). They implement "when I receive multiplayer message" listeners to react when messages arrive. They test with two windows to verify messages sent from one window trigger listeners in the other. They distinguish between regular broadcasts (only within one instance) and multiplayer broadcasts (across all connected instances). This enables custom event synchronization beyond automatic position updates.
+Description: Students use multiplayer broadcast blocks to send custom messages between all players in a game room. They send messages with parameters to share game events (player scored, item collected, round started). They implement "when I receive multiplayer message" listeners to react when messages arrive. They test with two windows to verify messages sent from one window trigger listeners in the other. They distinguish between regular broadcasts (only within one instance) and multiplayer broadcasts (across all connected instances). This enables custom event synchronization beyond automatic position updates.
 
 Dependencies:
 * T18.G5.04: Implement synchronized sprite movement
 * T06.G4.01: Use broadcast to coordinate sprite actions
-
-
-
-
-ID: T18.G5.05.01
-Topic: T18 – Multiplayer Apps
-Skill: Choose broadcast mode for different scenarios
-Description: Students select the appropriate broadcast mode: "All Sprites" (message received by all sprites including replicates on all players' browsers) versus "Exclude Replicate" (only received by original sprites, not replicate sprites that mirror remote players). They explain when each mode is appropriate: "All Sprites" for global events affecting everyone, "Exclude Replicate" for owner-only actions. They test both modes and observe the difference in which sprites respond.
-
-Dependencies:
-* T18.G5.05: Broadcast and receive multiplayer messages
-* T18.G6.01: Trace how code runs on original versus replicate sprites
 
 
 
@@ -23785,39 +23998,15 @@ Dependencies:
 
 
 
-ID: T18.G6.03.01
-Topic: T18 – Multiplayer Apps
-Skill: Implement synchronized collision events with touch broadcasts
-Description: Students use the "when touching sprite will trigger message" block to broadcast collision events to all players. They configure what happens when sprites collide (stop movement, trigger message with parameter). They implement collision-based game mechanics that work consistently across all clients (scoring when ball enters goal, damage when player touches hazard, collection when player touches item). They test collision events with multiple windows to verify all clients respond to the same collisions.
-
-Dependencies:
-* T18.G6.03: Choose appropriate collision shapes for multiplayer sprites
-* T18.G5.05: Broadcast and receive multiplayer messages
-
-
-
-
 
 ID: T18.G6.04
 Topic: T18 – Multiplayer Apps
 Skill: Manage game rooms and server locations
-Description: Students explain how CreatiCode game rooms exist on servers in different geographic locations (US-East, US-West, Europe, Asia). They understand that all players must connect to the same server to play together and that server location affects lag (closer servers = lower lag). They choose appropriate server locations based on where players are located. They use "list multiplayer games in server in table" to see active games and filter by server. They understand that game rooms are temporary (exist while players are connected) versus permanent (game doesn't save after all players leave). This enables informed decisions about server selection and room management.
+Description: Students explain how CreatiCode game rooms exist on servers in different geographic locations (US-East, US-West, Europe, Asia). They understand that all players must connect to the same server to play together and that server location affects lag (closer servers = lower lag). They choose appropriate server locations based on where players are located. They use "list multiplayer games on server" to see active games and filter by server. They understand that game rooms are temporary (exist while players are connected) versus permanent (game doesn't save after all players leave). This enables informed decisions about server selection and room management.
 
 Dependencies:
 * T18.G5.01: Create and configure a multiplayer game room
 * T18.G5.02: Join an existing multiplayer game
-
-
-
-
-ID: T18.G6.04.01
-Topic: T18 – Multiplayer Apps
-Skill: Build a game browser using the game list table
-Description: Students use the "list multiplayer games in server in table" block to fetch available games into a table variable. They display game information from the table (Host Name, Game Name, User Count columns) in a visual game browser. They allow players to select a game from the list and automatically fill in join parameters. They refresh the list periodically to show newly created games. They filter or sort games to help players find appropriate matches.
-
-Dependencies:
-* T18.G6.04: Manage game rooms and server locations
-* T10.G5.01: Understand table structure (rows, columns, cells)
 
 
 
@@ -23900,18 +24089,6 @@ Dependencies:
 
 
 
-ID: T18.G6.10.01
-Topic: T18 – Multiplayer Apps
-Skill: Use reset game world to restart rounds
-Description: Students use the "reset game world" block to clean up all game objects and restart a new round within the same game room. They implement round-based gameplay where scores persist but positions and objects reset. They coordinate resets so all players experience the new round simultaneously. They handle edge cases (players joining during reset, ensuring all clients receive reset). They design clear round transitions with countdowns or announcements.
-
-Dependencies:
-* T18.G6.10: Handle game capacity and full game scenarios
-* T18.G5.03: Register sprites with the multiplayer system
-
-
-
-
 
 ID: T18.G6.11
 Topic: T18 – Multiplayer Apps
@@ -23972,28 +24149,6 @@ Description: Students systematically troubleshoot common multiplayer problems: s
 Dependencies:
 * T18.G5.06: Test multiplayer games with multiple windows
 * T12.G6.01: Trace complex code with multiple variables
-
-
-
-
-ID: T18.G6.15.01
-Topic: T18 – Multiplayer Apps
-Skill: Debug sprite registration and visibility issues
-Description: Students diagnose why sprites don't appear on other players' screens. They verify sprites are registered with "add sprite to game" block before expecting visibility. They check that registration happens after successful connection. They trace the "when added to game" event to confirm it fires on all clients. They test with print statements showing registration success on both host and client windows.
-
-Dependencies:
-* T18.G6.15: Debug common multiplayer synchronization issues
-
-
-
-
-ID: T18.G6.15.02
-Topic: T18 – Multiplayer Apps
-Skill: Debug movement synchronization issues
-Description: Students diagnose why movement doesn't appear on other players' screens. They verify they're using synchronized movement blocks (not regular movement blocks). They check that sprites are registered as Dynamic (not Static) for moving objects. They trace position values on multiple windows to identify desynchronization points. They test latency effects by moving sprites and observing delay on other clients.
-
-Dependencies:
-* T18.G6.15: Debug common multiplayer synchronization issues
 
 
 
@@ -24138,28 +24293,6 @@ Description: Students design multiplayer puzzles or challenges where players mus
 Dependencies:
 * T18.G6.17: Build a complete cooperative multiplayer game
 * T18.G6.08: Create shared world objects synchronized for all players
-
-
-
-
-ID: T18.G7.08.01
-Topic: T18 – Multiplayer Apps
-Skill: Design simultaneous action requirements
-Description: Students implement mechanics requiring players to act at the same time (both stand on pressure plates, both click within a time window, synchronized movements). They use broadcasts to signal readiness and detect when all required players have acted. They handle timing tolerance (how close in time is "simultaneous"). They provide visual feedback showing which players have completed their part and who is still needed.
-
-Dependencies:
-* T18.G7.08: Implement cooperative puzzle mechanics
-
-
-
-
-ID: T18.G7.08.02
-Topic: T18 – Multiplayer Apps
-Skill: Implement player-to-player item passing
-Description: Students create mechanics where players can transfer items, resources, or abilities to each other. They implement item ownership tracking (who currently has the key). They broadcast transfer events so all clients update ownership displays. They handle edge cases (transferring to disconnected player, transferring non-existent items). They design UI that clearly shows who has what items.
-
-Dependencies:
-* T18.G7.08: Implement cooperative puzzle mechanics
 
 
 
@@ -24321,60 +24454,11 @@ Dependencies:
 
 
 
-ID: T18.G8.11
-Topic: T18 – Multiplayer Apps
-Skill: Implement state reconciliation after network interruptions
-Description: Students design systems to resynchronize game state when a player's connection becomes unstable. They implement full state snapshots that can be sent to rejoining players. They detect when local state diverges from authoritative state (using checksums or version numbers). They trigger and handle state correction messages. They test by simulating network instability and verifying state converges correctly. This addresses real-world networking challenges in production multiplayer systems.
-
-Dependencies:
-* T18.G8.03: Implement reconnection handling
-* T18.G8.04: Debug message delivery timing issues
-
-
-
-
-ID: T18.G8.12
-Topic: T18 – Multiplayer Apps
-Skill: Design multiplayer games for AI era collaboration
-Description: Students design multiplayer experiences where AI assistants can participate alongside human players (AI-controlled teammates, AI opponents that adapt, AI coaches providing guidance). They implement clear interfaces between human input, AI decisions, and game state updates. They consider how AI can fill empty player slots or provide practice opponents. They explore human-AI collaborative puzzle solving where each contributes different strengths. This prepares for the future of gaming where human and AI collaboration becomes standard.
-
-Dependencies:
-* T18.G8.01: Implement team assignment and matchmaking systems
-* T18.G8.10: Compare peer-to-peer versus client-server architectures
-
-
-
-
-ID: T18.G8.13
-Topic: T18 – Multiplayer Apps
-Skill: Analyze and mitigate common multiplayer security vulnerabilities
-Description: Students identify security risks in multiplayer games: message spoofing (pretending to be another player), replay attacks (resending valid messages), data injection (sending malformed parameters), and denial of service (flooding with messages). They implement mitigations: validate message sources, use sequence numbers to prevent replay, sanitize parameters, rate-limit messages per player. They test by attempting exploits on their own games and verifying defenses work. This builds security thinking essential for any networked application.
-
-Dependencies:
-* T18.G8.02: Implement host-authoritative validation to prevent cheating
-* T18.G8.09: Analyze data privacy in multiplayer contexts
-
-
-
-
-ID: T18.G8.14
-Topic: T18 – Multiplayer Apps
-Skill: Build a production-quality multiplayer game with all advanced features
-Description: Students design and implement a comprehensive multiplayer game integrating all Grade 8 skills: team matchmaking, host-authoritative validation, reconnection handling, optimized network traffic, comprehensive error handling, privacy protection, and documented architecture. They conduct thorough testing with multiple real players across different network conditions. They document known limitations and future improvements. They gather user feedback and create a final iteration. This capstone demonstrates professional-level multiplayer game development competency.
-
-Dependencies:
-* T18.G8.08: Implement comprehensive error handling
-* T18.G8.10: Compare peer-to-peer versus client-server architectures
-* T18.G8.11: Implement state reconciliation after network interruptions
-
-
-
-
 
 ID: T19.GK.01
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Picture pattern detective
-Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) shown as picture cards and tap/circle the row that follows a clean repeat. The activity is entirely visual with drag-and-drop or tap-to-select interaction. No text reading required.
+Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row "repeat" using everyday words.
 
 Dependencies:
 * T04.GK.01: Identify a simple repeating pattern
@@ -24388,7 +24472,7 @@ Dependencies:
 ID: T19.GK.02
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Order art steps with cards
-Description: Learners drag picture cards showing simple art steps (e.g., picture of picking red crayon → picture of drawing big circle → picture of adding yellow dots) to match a finished coloring page. All cards show clear action pictures, no text reading required.
+Description: Learners drag picture cards showing simple art steps like "pick red crayon," "draw big circle," "add yellow dots" to match a finished coloring page. Cards show clear action pictures, no text needed.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -24433,8 +24517,8 @@ Dependencies:
 
 ID: T19.G1.01
 Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Match pattern rules to picture cards
-Description: Students view a short repeating design (e.g., two small stars then one big sun) and match it to the picture card that shows the rule (e.g., card showing 'small-small-big'). They do NOT need to write or verbally describe—they select from visual options.
+Skill: Describe the art rule in words
+Description: Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language ("two tiny, one big").
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -24569,8 +24653,8 @@ Dependencies:
 
 ID: T19.G3.02
 Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Compare Pen blocks and Looks draw blocks
-Description: Students classify example projects as using either Pen blocks (trails during movement) or Looks draw blocks (shapes at sprite position). Given side-by-side examples, they identify which drawing system each project uses and explain that Pen draws trails while Looks blocks draw shapes directly. They understand that stamps don't exist in CreatiCode—each shape must be drawn fresh.
+Skill: Distinguish CreatiCode's two drawing systems
+Description: Students identify and compare CreatiCode's two drawing methods: (1) Looks blocks (draw rectangle/oval/line on costume in vector mode) and (2) Pen blocks (pen up/down to draw trails as sprite moves). Given example projects, they classify which drawing system is used and explain why stamps don't exist—each shape must be drawn fresh using these blocks.
 
 Dependencies:
 * T19.G3.01: Translate art recipe cards into blocks
@@ -24644,17 +24728,6 @@ Dependencies:
 
 
 
-
-
-
-
-ID: T19.G3.06.01
-Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Clear the canvas with erase all
-Description: Students use the "erase all" block to clear all pen trails before starting a new drawing. They understand that erase all removes trails but doesn't affect sprites. They practice the pattern: erase all → set pen properties → pen down → draw.
-
-Dependencies:
-* T19.G3.06: Set pen size to control trail width
 
 
 
@@ -25125,18 +25198,6 @@ ID: T19.G5.13
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Create video-sensing art with motion detection
 Description: Students use the video sensing blocks to detect motion from the camera and map it to drawing actions. They use "video motion on sprite" to trigger drawing when movement is detected, or "video direction" to control drawing direction. They create interactive art that responds to the viewer's physical movements in real-time.
-
-Dependencies:
-* T19.G5.04: Make art respond to mouse position
-* T06.G3.03: Use mouse position in scripts
-
-
-
-
-ID: T19.G5.14
-Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Create sound-reactive art with microphone input
-Description: Students use the "loudness" sensing block to detect sound levels from the microphone and map them to drawing parameters. They create art where louder sounds create bigger shapes, brighter colors, or faster movement. They understand that loudness returns a value from 0-100 that can drive visual changes.
 
 Dependencies:
 * T19.G5.04: Make art respond to mouse position

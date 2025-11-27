@@ -8409,42 +8409,19 @@ Dependencies:
 * T06.G6.22: Build periodic event triggers using timer reset patterns
 
 
-# T07 - Loops (Phase 6 Optimized - November 2025)
-# Applied Phase 6 topic-focused optimizations:
-# MAJOR CHANGES IN PHASE 6:
-# 1. Enhanced K-2 Prediction Skills (IXL-style):
-#    - T07.K.01.01: Predict the next item in AB pattern (visual MCQ)
-#    - T07.G1.03.01: Predict outcome before counting steps
-#    - T07.G2.02.01: Predict final position before tracing animation
-# 2. Expanded Grade 3 Gateway with Sub-Skills:
-#    - T07.G3.01.01: Read a repeat block and predict the outcome before running
-#    - T07.G3.01.02: Modify repeat count to achieve a target outcome
-#    - T07.G3.05.01: Debug a repeat loop with wrong action inside (not just count)
-# 3. Added Grade 4 Pattern Recognition Progression:
-#    - T07.G4.02.01: Identify which condition fires on each iteration
-#    - T07.G4.07.01: Build a nested loop to draw a rectangle grid
-#    - T07.G4.08.01: Compare manual wait vs timed repeat for animation
-# 4. Added Grade 5 Real-World Application Skills:
-#    - T07.G5.01.01: Use loops to collect user input repeatedly
-#    - T07.G5.03.01: Compute min and max using loop with comparisons
-#    - T07.G5.04.02: Trace a nested loop to predict stamp count before running
-# 5. Enhanced Grade 6 with CreatiCode 3D Loops:
-#    - T07.G6.11: Use for-each-3D-object to iterate over scene objects
-#    - T07.G6.08.03: Compare break vs flag variable for early exit
-# 6. Added Grade 7 Advanced Algorithm Skills:
-#    - T07.G7.06: Implement binary search using loops
-#    - T07.G7.07: Use loops for input validation with retry
-#    - T07.G7.02.01: Calculate 1D index from 2D coordinates
-# 7. Expanded Grade 8 with AI-Era Programming:
-#    - T07.G8.07: Implement game loops with delta time
-#    - T07.G8.08: Design loops for batch AI API calls
-#    - T07.G8.02.04: Implement Newton-Raphson iteration
-#    - T07.G8.09: Analyze loop complexity (O(n), O(n²))
-# Previous optimizations preserved (Phase 1-5):
-# - Bridge skill T07.G2.04 for K-2 to G3 transition
-# - Parallel list iteration, string iteration, loop invariants, AI assistance
-# - All dependencies verified within X-2 rule
-# Total: 79 skills (+18 new skills for depth, prediction, and AI-era progression)
+# T07 - Loops (Phase 5 Optimized - November 2025)
+# Applied Phase 5 topic-focused optimizations:
+# - Enhanced K-2 progression with bridge skill (T07.G2.04) for smoother K-2 to G3 transition
+# - Added parallel list iteration skill (T07.G6.10) for common programming pattern
+# - Added string character iteration skill (T07.G5.05) for text processing
+# - Added loop invariant skill (T07.G8.05) for formal algorithm reasoning
+# - Added AI-assisted loop generation skill (T07.G8.06) for modern programming workflows
+# - Added loop optimization skill (T07.G7.05) for performance awareness
+# - Fixed T07.G3.04 dependencies: added T07.G3.02 as prerequisite
+# - Fixed T07.G6.02 dependencies: removed unnecessary T07.G5.04, added T09.G4.01
+# - Improved descriptions for clarity and concrete CreatiCode block references
+# - All skills use active verbs (Trace, Debug, Predict, Implement, Refactor, etc.)
+# Total: 61 skills (6 new skills added for better coverage and depth)
 
 ID: T07.K.01
 Topic: T07 – Loops
@@ -8452,26 +8429,6 @@ Skill: Complete a repeating pattern
 Description: **Student task:** Drag the correct picture to fill in the missing item in a simple repeating pattern. **Visual scenario:** Show 4-5 items in a row with the last item missing. Example: red apple → green apple → red apple → green apple → [?]. Students select from 3 picture choices (red apple, banana, orange) to complete the AB pattern. Use simple AB patterns only at this level. **Visual themes:** animals (cat-dog), colors (red-blue), shapes (circle-square), or food (apple-banana). _Implementation note: Single drag-drop with 3 picture options; audio prompt "What comes next?" Auto-graded by correct selection. CSTA: EK-ALG-PS-03._
 
 Dependencies:
-
-
-
-ID: T07.K.01.01
-Topic: T07 – Loops
-Skill: Predict the next TWO items in an AB pattern
-Description: **Student task:** Look at a repeating pattern (AB AB AB). Predict what the next TWO items should be, then verify by revealing them. **Visual scenario:** Show: star → moon → star → moon → star → moon → [?] → [?]. Students first select their prediction from choices showing pairs: (A) star-moon, (B) moon-star, (C) star-star. After selecting, animation reveals the correct answer. **Correct answer:** star-moon. _Implementation note: Prediction-then-verify format builds metacognition; students commit to an answer before seeing confirmation. Audio asks "What do you think comes next?" CSTA: EK-ALG-PS-03._
-
-Dependencies:
-* T07.K.01: Complete a repeating pattern
-
-
-
-ID: T07.K.02
-Topic: T07 – Loops
-Skill: Extend an AAB repeating pattern
-Description: **Student task:** Drag pictures to complete a more complex AAB pattern (two same, then one different). **Visual scenario:** Show pattern: jump → jump → clap → jump → jump → [?]. Students select from 3 picture choices (clap, jump, sit) to continue the AAB pattern. **Correct answer:** clap. **Visual themes:** actions (clap-clap-jump), animals (dog-dog-cat), shapes (circle-circle-star). _Implementation note: Extends K.01 by introducing AAB patterns; audio asks "What comes next in the pattern?" Auto-graded. CSTA: EK-ALG-PS-03._
-
-Dependencies:
-* T07.K.01.01: Predict the next TWO items in an AB pattern
 
 
 
@@ -8518,16 +8475,6 @@ Dependencies:
 
 
 
-ID: T07.G1.03.01
-Topic: T07 – Loops
-Skill: Predict the outcome of a "do N times" instruction
-Description: **Student task:** Given an instruction card "Jump 4 times starting from square 2", predict where the character will end up BEFORE seeing the animation. **Visual scenario:** Number line squares 1-8. Character starts on square 2. Instruction shows "Jump 4 times (each jump = 1 square)". Students predict: 2 + 4 = square 6. Select from choices: square 5, 6, or 7. After selecting, animation plays to verify. **Correct answer:** square 6. _Implementation note: Prediction-before-verification format; stronger focus on mental calculation than G1.03 which focuses on counting visible spaces. Audio asks "Where will the bunny end up?" CSTA: E1-ALG-PS-03._
-
-Dependencies:
-* T07.G1.03: Predict how many steps to reach a goal
-
-
-
 
 
 ID: T07.G2.01
@@ -8536,7 +8483,7 @@ Skill: Sort tasks into "repeat many times" vs "do once"
 Description: **Student task:** Drag picture task cards into two labeled bins: "Do many times" vs "Do only once." **Visual scenario:** Two bins with clear labels and icons (loop arrow vs single arrow). **Picture cards for "Do many times" bin:** brushing all teeth (many teeth icon), coloring all 5 stars on a page (stars icon), watering all 4 plants (pots icon), sweeping entire floor. **Cards for "Do only once" bin:** putting on ONE hat, opening THE door, flipping light switch ON, sitting in chair. _Implementation note: 6-8 drag-drop cards into 2 bins; emphasizes recognizing when a task requires repetition vs single action. Audio reads card labels. Auto-graded by bin placement. CSTA: E2-ALG-PS-03._
 
 Dependencies:
-* T07.G1.03.01: Predict the outcome of a "do N times" instruction
+* T07.G1.03: Predict how many steps to reach a goal
 
 
 ID: T07.G2.02
@@ -8548,23 +8495,13 @@ Dependencies:
 * T07.G2.01: Sort tasks into "repeat many times" vs "do once"
 
 
-
-ID: T07.G2.02.01
-Topic: T07 – Loops
-Skill: Predict final position before tracing animation
-Description: **Student task:** Look at a pictorial repeat instruction ("repeat 4 times: move right 1 square") and the starting position. Predict the final position BEFORE watching the animation, then watch to verify. **Visual scenario:** Robot at square 2. Instruction card shows "Repeat 4: move right." Students predict: 2 + 4 = square 6. MCQ choices: 5, 6, 7. After prediction, animation plays step-by-step so students can verify their thinking. **Correct answer:** 6. _Implementation note: Prediction-first format develops mental simulation skills; animation provides immediate feedback. Builds on G2.02 by adding prediction before tracing. Audio: "Where do you THINK the robot will end up? Let's check!" CSTA: E2-ALG-PS-03._
-
-Dependencies:
-* T07.G2.02: Trace a pictorial "repeat" instruction step by step
-
-
 ID: T07.G2.03
 Topic: T07 – Loops
 Skill: Identify when a repeat loop should stop
 Description: **Student task:** Look at a picture showing a character repeating an action toward a goal. The goal has a flag or marker. Tap the picture that shows when the character should STOP repeating. **Visual scenario:** 4 panels showing a snail moving toward a lettuce leaf: (A) snail at start, (B) snail halfway, (C) snail at lettuce, (D) snail past lettuce. Students select panel C - the snail stops when it reaches the goal. **Correct answer:** Panel C. _Implementation note: MCQ with 4 picture panels; introduces the concept of stopping condition (until). Audio asks "When should the snail stop?" Auto-graded. Prepares for repeat-until loops. CSTA: E2-ALG-PS-03._
 
 Dependencies:
-* T07.G2.02.01: Predict final position before tracing animation
+* T07.G2.02: Trace a pictorial "repeat" instruction step by step
 
 
 ID: T07.G2.04
@@ -8580,32 +8517,12 @@ Dependencies:
 
 ID: T07.G3.01
 Topic: T07 – Loops
-Skill: Use a counted repeat loop (GATEWAY)
-Description: Students use their first `repeat N` block to run a simple action multiple times. **Task:** Make a sprite say "Hello!" 3 times using `repeat 3 [say "Hello!" for 1 second]`. Students drag the `repeat` C-block from Control, set N=3, and place the `say` block inside. **Key insight:** `repeat 3` means "do this 3 times" - directly applying K-2 pattern knowledge to code. Start with N=2-3 and single action inside. Students run the code and observe the sprite saying hello 3 times in sequence.
+Skill: Use a counted repeat loop
+Description: Students use their first `repeat N` loop to run a simple action a specific number of times (e.g., make a sprite say "Hello!" 3 times, or play a sound 2 times). This gateway skill introduces the fundamental concept of repetition in programming by replacing copied blocks with a single loop. Start with 2-3 repetitions and a single action inside. Students learn that `repeat 3` means "do this 3 times" - directly applying their K-2 understanding of counting repetitions.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T07.G2.04: Build a repeating picture sequence from instructions
-
-
-
-ID: T07.G3.01.01
-Topic: T07 – Loops
-Skill: Predict the outcome of a repeat block before running
-Description: Students read a script with `repeat N` and predict what will happen BEFORE clicking the green flag. **Task:** Given `when green flag clicked, repeat 4 [stamp]`, students predict: "The sprite will stamp 4 copies of itself." MCQ: (A) 3 stamps, (B) 4 stamps, (C) 5 stamps. After selecting, students run the code to verify. **Focus:** Building the habit of mental execution before running code. This prediction skill is essential for debugging - you must know what SHOULD happen to identify when something goes wrong.
-
-Dependencies:
-* T07.G3.01: Use a counted repeat loop (GATEWAY)
-
-
-
-ID: T07.G3.01.02
-Topic: T07 – Loops
-Skill: Modify repeat count to achieve a target outcome
-Description: Students change the repeat count to produce a specified result. **Task:** Given `repeat 3 [move 20 steps]` that moves the sprite 60 steps, modify the code so the sprite moves exactly 100 steps. Students calculate: 100 ÷ 20 = 5, so change to `repeat 5`. **Variations:** (1) "Make the sprite turn exactly 360 degrees" with `repeat ? [turn 45]` → answer: 8, (2) "Play the drum 6 times" with `repeat ? [play drum]` → answer: 6. This reverse-engineering skill builds number sense with loops.
-
-Dependencies:
-* T07.G3.01.01: Predict the outcome of a repeat block before running
 
 
 
@@ -8617,7 +8534,7 @@ Skill: Trace a script with a simple repeat loop
 Description: Students read a script with a single `repeat N` loop (N = 2-4) and predict the outcome. Example: `repeat 3 [move 10 steps]` - students predict the sprite moves 30 steps total (3 × 10). Use concrete, visual actions like moving, stamping, or changing costume. Focus is on "multiply the action by the count" understanding. Students trace on paper or mentally before running the code.
 
 Dependencies:
-* T07.G3.01.02: Modify repeat count to achieve a target outcome
+* T07.G3.01: Use a counted repeat loop
 * T04.G3.03: Match a "repeat N" loop to repeated behavior
 
 
@@ -8691,16 +8608,6 @@ Dependencies:
 
 
 
-ID: T07.G3.05.01
-Topic: T07 – Loops
-Skill: Debug a repeat loop with wrong action inside
-Description: Students debug a `repeat` loop where the count is correct but the ACTION inside is wrong. **Task:** Goal is "make sprite move 100 steps total using 4 moves." Code shows `repeat 4 [move 30 steps]`. Students trace: 4 × 30 = 120, but goal is 100. Fix: change to `move 25 steps` (100 ÷ 4 = 25). **Key insight:** The bug isn't always in the repeat count - sometimes the action inside needs fixing. This complements G3.05 which focuses on count errors.
-
-Dependencies:
-* T07.G3.05: Debug a wrong repeat loop count
-
-
-
 
 
 ID: T07.G4.01
@@ -8722,18 +8629,8 @@ Skill: Combine a loop with an if statement inside
 Description: Students write a loop containing an `if` block to check a condition on each iteration. Example 1: `forever [if <touching edge?> [bounce]]` - check for edge collision every frame. Example 2: `repeat 10 [if <pick random 1 to 2 = 1> [stamp]]` - conditionally stamp on each iteration. Students understand that the if block runs on EVERY iteration, not just once.
 
 Dependencies:
-* T07.G3.05.01: Debug a repeat loop with wrong action inside
+* T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
-
-
-
-ID: T07.G4.02.01
-Topic: T07 – Loops
-Skill: Identify which iterations trigger a condition
-Description: Students trace a loop with an `if` inside and identify WHICH iterations cause the condition to fire. **Task:** Given `for i from 1 to 6 [if (i mod 2 = 0) [stamp]]`, identify which iterations produce a stamp. Students trace: i=1 (1 mod 2=1, no stamp), i=2 (2 mod 2=0, STAMP), i=3 (no), i=4 (STAMP), i=5 (no), i=6 (STAMP). **Answer:** Stamps on iterations 2, 4, 6. This granular tracing builds understanding of conditional behavior within loops.
-
-Dependencies:
-* T07.G4.02: Combine a loop with an if statement inside
 
 
 
@@ -8849,16 +8746,6 @@ Dependencies:
 
 
 
-ID: T07.G4.07.01
-Topic: T07 – Loops
-Skill: Build a nested loop to draw a rectangle grid
-Description: Students construct their first nested loop from scratch to create a rectangular pattern. **Task:** Draw a 3×4 grid of stamps (3 rows, 4 columns). Students build: outer loop `for row from 1 to 3`, inner loop `for col from 1 to 4 [go to x=(col*40-80) y=(row*30-60), stamp]`. **Process:** (1) identify that rows need one loop, columns need another, (2) determine which loop is outer vs inner, (3) calculate positions from row/col values. This construction skill follows tracing (G4.07).
-
-Dependencies:
-* T07.G4.07: Trace nested loops with fixed counts
-
-
-
 
 
 ID: T07.G4.08
@@ -8872,16 +8759,6 @@ Dependencies:
 
 
 
-ID: T07.G4.08.01
-Topic: T07 – Loops
-Skill: Compare manual wait vs timed repeat for animations
-Description: Students compare two approaches to timed animations and identify when each is appropriate. **Approach A (manual):** `repeat 5 [move 10, wait 0.5 secs]` - wait block inside loop. **Approach B (timed):** `repeat 5 times at intervals of 0.5 seconds [move 10]` - built-in timing. **Analysis:** Manual wait: flexible timing per iteration, can vary wait. Timed repeat: cleaner code, guaranteed intervals even if action takes time. Students choose the appropriate approach for different scenarios.
-
-Dependencies:
-* T07.G4.08: Use timed repeat for spaced animations
-
-
-
 
 
 ID: T07.G5.01
@@ -8890,19 +8767,9 @@ Skill: Use a loop to run repeated experiments
 Description: Students use loops to repeat a random experiment many times and count outcomes. Pattern: (1) initialize counters to 0, (2) repeat N times: generate random outcome, increment appropriate counter, (3) display results. Example: flip a coin 100 times, count heads vs tails. Students see that more trials → results closer to expected probability. This connects loops to data collection and statistics.
 
 Dependencies:
-* T07.G4.08.01: Compare manual wait vs timed repeat for animations
-* T07.G4.02.01: Identify which iterations trigger a condition
+* T07.G4.03: Use a counter variable inside a loop
+* T07.G4.06: Trace a loop containing a conditional
 * T10.G4.18: Use random numbers to model chance or variety
-
-
-
-ID: T07.G5.01.01
-Topic: T07 – Loops
-Skill: Use loops to collect user input repeatedly
-Description: Students use loops to gather multiple inputs from the user. **Pattern:** `set names to empty list, repeat 3 [ask "Enter a name", add (answer) to names]`. **Variations:** (1) Collect scores until user enters -1 (sentinel): `repeat until (answer = -1) [ask "Score?", if (answer ≠ -1) [add answer to scores]]`, (2) Collect exactly 5 guesses for a game. **Key insight:** Loops automate repetitive input collection, making programs interactive and data-driven.
-
-Dependencies:
-* T07.G5.01: Use a loop to run repeated experiments
 
 
 
@@ -8928,17 +8795,7 @@ Description: Students use loops with an accumulator variable to compute aggregat
 
 Dependencies:
 * T07.G5.02: Populate a list using a loop
-* T07.G5.01.01: Use loops to collect user input repeatedly
-
-
-
-ID: T07.G5.03.01
-Topic: T07 – Loops
-Skill: Compute min and max using a loop with comparisons
-Description: Students find minimum and maximum values in a list using the accumulator pattern with comparisons. **Min pattern:** `set minVal to (item 1 of list), for each item in list [if (item < minVal) [set minVal to item]]`. **Max pattern:** similar with `>`. **Task:** Given temperatures [72, 68, 75, 70, 65], find the lowest (65) and highest (75). **Key insight:** Initialize accumulator to first item (not 0 or arbitrary value), then compare each subsequent item. Students trace through to verify correctness.
-
-Dependencies:
-* T07.G5.03: Compute sum and average using a loop
+* T07.G4.06: Trace a loop containing a conditional
 
 
 
@@ -8950,17 +8807,7 @@ Skill: Build nested loops for a simple grid
 Description: Students create their first nested loop structure. Example: draw a 3×4 grid of stamps. Outer loop (rows): `for row from 1 to 3`, inner loop (columns): `for col from 1 to 4 [go to x=(col*40) y=(row*40), stamp]`. Students understand: outer loop runs 3 times, inner loop runs 4 times PER outer iteration = 12 stamps total. Start with small grids (2×3 or 3×4).
 
 Dependencies:
-* T07.G4.07.01: Build a nested loop to draw a rectangle grid
-
-
-
-ID: T07.G5.04.02
-Topic: T07 – Loops
-Skill: Predict stamp count before running nested loop
-Description: Students read nested loop code and predict the total number of stamps/outputs BEFORE running. **Task:** Given `for row from 1 to 4 [for col from 1 to 5 [stamp]]`, predict stamp count. MCQ: (A) 9 stamps, (B) 20 stamps, (C) 25 stamps. Students calculate: 4 rows × 5 columns = 20. **Verification:** Run code and count stamps to confirm. **Variations:** Different grid sizes, non-square grids. This prediction skill ensures students understand multiplicative relationship before constructing complex patterns.
-
-Dependencies:
-* T07.G5.04.01: Build nested loops for a simple grid
+* T07.G4.07: Trace nested loops with fixed counts
 
 
 
@@ -8972,7 +8819,7 @@ Skill: Create patterns with nested loops
 Description: Students use nested loops to create checkerboards, stripes, or color patterns. Example checkerboard: `for row from 1 to 8 [for col from 1 to 8 [if ((row + col) mod 2 = 0) [set color black] else [set color white], stamp]]`. Students modify loop variables and conditions to create different patterns. This combines nested loops with conditionals for visual creativity.
 
 Dependencies:
-* T07.G5.04.02: Predict stamp count before running nested loop
+* T07.G5.04.01: Build nested loops for a simple grid
 * T07.G4.05: Debug off-by-one errors in loops
 
 
@@ -8995,7 +8842,7 @@ Description: Students trace nested loops where inner loop count depends on outer
 
 Dependencies:
 * T07.G5.04: Create patterns with nested loops
-* T07.G5.03.01: Compute min and max using a loop with comparisons
+* T07.G5.03: Compute sum and average using a loop
 * T09.G4.01: Use variables to store and update game state
 
 
@@ -9104,16 +8951,6 @@ Dependencies:
 
 
 
-ID: T07.G6.08.03
-Topic: T07 – Loops
-Skill: Compare break vs flag variable for early exit
-Description: Students compare two approaches to early loop termination. **Approach A (break):** `for each item [if (item = target) [set found to true, break]]` - immediately exits. **Approach B (flag):** `set found to false, for each item [if (found = false and item = target) [set found to true]]` - checks flag each iteration. **Analysis:** Break is cleaner and more efficient (fewer iterations after finding). Flag works in languages without break. Students identify when each approach is appropriate.
-
-Dependencies:
-* T07.G6.08.02: Use continue to skip loop iterations
-
-
-
 
 
 ID: T07.G6.09.01
@@ -9149,17 +8986,6 @@ Dependencies:
 
 
 
-ID: T07.G6.11
-Topic: T07 – Loops
-Skill: Use for-each-3D-object to iterate over scene objects
-Description: Students use CreatiCode's `for each 3D object named [variable]` block to process all 3D objects in a scene. **Pattern:** After creating multiple 3D objects (boxes, spheres), use `for each 3D object named [objName] [select sprite object by name (objName), turn 30 degrees around Z axis]` to apply an action to all objects. **Applications:** (1) make all objects spin together, (2) change colors of all objects based on condition, (3) collect positions of all objects for physics simulation. This CreatiCode-specific loop block enables powerful 3D scene manipulation.
-
-Dependencies:
-* T07.G6.09.01: Use for-each item to iterate over list values
-* T07.G6.08.03: Compare break vs flag variable for early exit
-
-
-
 
 ID: T07.G7.01
 Topic: T07 – Loops
@@ -9168,7 +8994,7 @@ Description: Students use loops to simulate motion with physics-like rules. Grav
 
 Dependencies:
 * T07.G6.07: Implement iterative update loops
-* T07.G6.11: Use for-each-3D-object to iterate over scene objects
+* T07.G6.06: Trace nested loops for spatial patterns
 
 
 
@@ -9183,16 +9009,6 @@ Dependencies:
 * T07.G6.06: Trace nested loops for spatial patterns
 * T07.G6.05: Use trace tables for nested loop calculations
 * T08.G6.01: Use conditionals to control simulation steps
-
-
-
-ID: T07.G7.02.01
-Topic: T07 – Loops
-Skill: Calculate 1D index from 2D coordinates
-Description: Students convert between 2D grid positions and 1D list indices. **Formula:** `index = row * width + col` (0-indexed) or `index = (row-1) * width + col` (1-indexed). **Task:** Given a 4×5 grid stored in a list, find the index of cell at row 3, col 2. Calculate: (3-1) × 5 + 2 = 12. **Reverse:** Given index 17, find row and col: row = floor(17/5) + 1 = 4, col = 17 mod 5 = 2. This skill is essential for working with grids stored as flat lists (common in game development).
-
-Dependencies:
-* T07.G7.02: Process 2D grids using nested loops
 
 
 
@@ -9218,7 +9034,7 @@ Description: Students identify common loop patterns: (1) Count: `set count to 0,
 
 Dependencies:
 * T07.G6.07: Implement iterative update loops
-* T07.G5.03.01: Compute min and max using a loop with comparisons
+* T07.G5.03: Compute sum and average using a loop
 * T08.G6.01: Use conditionals to control simulation steps
 
 
@@ -9230,28 +9046,6 @@ Description: Students identify and fix performance issues in loops. Common optim
 Dependencies:
 * T07.G7.03: Compare loop algorithms by counting iterations
 * T07.G7.04: Recognize and apply accumulator patterns
-
-
-
-ID: T07.G7.06
-Topic: T07 – Loops
-Skill: Implement binary search using loops
-Description: Students implement iterative binary search to find a value in a SORTED list efficiently. **Pattern:** `set low to 1, set high to (length of list), repeat until (low > high) [set mid to floor((low+high)/2), if (item mid = target) [found at mid, break], if (item mid < target) [set low to mid+1] else [set high to mid-1]]`. **Comparison:** Binary search checks ~log₂(n) items vs linear search checking all n. For 1000 items: binary ≈ 10 checks, linear ≈ 500 average. Students trace through examples and verify O(log n) efficiency.
-
-Dependencies:
-* T07.G7.03: Compare loop algorithms by counting iterations
-* T07.G7.05: Optimize loop performance by reducing redundant operations
-
-
-
-ID: T07.G7.07
-Topic: T07 – Loops
-Skill: Use loops for input validation with retry
-Description: Students implement validation loops that keep asking for input until valid. **Pattern:** `repeat until (validInput) [ask "Enter age (1-120)", if (answer > 0 and answer <= 120) [set validInput to true, set age to answer] else [say "Invalid, try again"]]`. **Applications:** (1) Ensure numeric input in range, (2) Validate password format, (3) Confirm user choice (yes/no). **Key insight:** Loops with user input must have achievable exit conditions to avoid infinite loops in interactive programs.
-
-Dependencies:
-* T07.G7.04: Recognize and apply accumulator patterns
-* T07.G7.05: Optimize loop performance by reducing redundant operations
 
 
 
@@ -9323,17 +9117,6 @@ Dependencies:
 
 
 
-ID: T07.G8.02.04
-Topic: T07 – Loops
-Skill: Implement Newton-Raphson iteration for square roots
-Description: Students implement Newton's method to approximate square roots iteratively. **Pattern:** To find √S: `set guess to S/2, repeat 10 [set guess to ((guess + S/guess) / 2)]`. **Example:** √25: guess starts at 12.5 → 6.25 → 5.125 → 5.002 → 5.0000... **Key insight:** Each iteration improves the estimate. Students trace convergence and learn that iterative refinement is a powerful technique used in numerical computing, graphics, and AI optimization.
-
-Dependencies:
-* T07.G8.02.03: Generate Fibonacci numbers iteratively
-* T07.G8.02: Analyze iterative algorithm structure
-
-
-
 
 
 ID: T07.G8.03
@@ -9342,7 +9125,7 @@ Skill: Process 2D data structures with nested loops
 Description: Students use nested loops to compute statistics on 2D data. Examples: (1) Row sums: `for row from 1 to rows [set rowSum to 0, for col from 1 to cols [change rowSum by (value at row,col)], add rowSum to results]`. (2) Column averages. (3) Count cells matching condition. Students apply accumulator patterns within nested loop structures.
 
 Dependencies:
-* T07.G7.02.01: Calculate 1D index from 2D coordinates
+* T07.G7.02: Process 2D grids using nested loops
 * T07.G7.04: Recognize and apply accumulator patterns
 
 
@@ -9377,67 +9160,47 @@ Description: Students write clear natural language descriptions of loop behavior
 
 Dependencies:
 * T07.G8.04: Justify loop design choices
-* T07.G7.07: Use loops for input validation with retry
-
-
-
-ID: T07.G8.07
-Topic: T07 – Loops
-Skill: Implement game loops with delta time
-Description: Students implement game loops that use delta time for frame-rate independent motion. **Pattern:** `set lastTime to (timer), forever [set deltaTime to (timer - lastTime), set lastTime to timer, change x by (speed * deltaTime)]`. **Key insight:** Multiplying movement by deltaTime ensures consistent speed regardless of frame rate - fast computers don't make the game faster. Students compare fixed-timestep vs delta-time approaches and understand why professional games use delta time.
-
-Dependencies:
-* T07.G8.01: Implement Monte Carlo simulations
-* T07.G8.04: Justify loop design choices
-
-
-
-ID: T07.G8.08
-Topic: T07 – Loops
-Skill: Design loops for batch AI API calls
-Description: Students design loops to process multiple items using AI services. **Pattern:** `for each item in inputs [send item to ChatGPT block, wait for response, add response to results, wait 0.5 seconds]`. **Considerations:** (1) Rate limiting - add delays between calls, (2) Error handling - what if one call fails?, (3) Progress feedback - show user which item is processing. **Applications:** Classify multiple images, translate list of sentences, generate summaries for articles. Students balance efficiency with API constraints.
-
-Dependencies:
-* T07.G8.06: Describe loop requirements to AI coding assistant
-* T07.G8.04: Justify loop design choices
-
-
-
-ID: T07.G8.09
-Topic: T07 – Loops
-Skill: Analyze loop complexity (O(n), O(n²), O(log n))
-Description: Students analyze loop structures to determine Big-O complexity. **Single loop** over n items: O(n). **Nested loops** (for i to n [for j to n]): O(n²). **Binary search** halving each time: O(log n). **Task:** Given code, identify the complexity and explain how doubling n affects runtime. Example: nested loop with n=100 runs 10,000 times; with n=200 runs 40,000 times (4× slower, not 2×). Students predict performance for large inputs and choose appropriate algorithms.
-
-Dependencies:
-* T07.G7.06: Implement binary search using loops
-* T07.G8.02: Analyze iterative algorithm structure
+* T07.G7.04: Recognize and apply accumulator patterns
 
 
 
 
-# T08 - Conditions & Logic (Phase 5 Optimized - November 2025)
-# Phase 5 Major Optimizations Applied:
-# 1. FIXED DEPENDENCY ORDER ISSUES:
-#    - Reordered skills so dependencies appear before dependents
-#    - Fixed T08.G4.05a (NOT truth table) to depend on T08.G4.02 instead of T08.G4.05
-#    - Fixed T08.G3.02 to depend on T08.G3.01 directly
-# 2. ADDED INTERMEDIATE SCAFFOLDING SKILLS:
-#    - Added T08.G4.01c: Debug simple AND/OR condition errors (bridge debugging)
-#    - Added T08.G5.08a: Design three-state systems (bridge to full state machines)
-#    - Added T08.G3.07a: Use conditionals inside loops (forever/repeat)
-# 3. IMPROVED SKILL QUALITY:
-#    - Enhanced descriptions with clearer active verbs
-#    - Added more specific examples and block references
-# 4. STREAMLINED PROGRESSION:
-#    - NOT concepts now introduced before else-if for better conceptual flow
-#    - State machine skills now have smoother 2→3→n state progression
-# Previous Phase 4 enhancements preserved
-# Total: 89 skills (+3 new skills for better scaffolding)
+# T08 - Conditions & Logic (Phase 4 Optimized - November 2025)
+# Applied Phase 4 topic-focused optimizations:
+# MAJOR CHANGES:
+# 1. Enhanced K-2 Picture-Based Skills:
+#    - Added T08.GK.04: Trace picture robot following if-then instruction cards
+#    - Added T08.G1.05: Match multiple if-then rules to picture sequences
+#    - Added T08.G2.06: Predict branching flowchart outcomes before tracing
+#    - Added T08.G2.07: Debug a broken picture rule (find which condition/action is wrong)
+# 2. Added Advanced G3 Scaffolding Skills:
+#    - Added T08.G3.06: Trace multiple sequential if blocks
+#    - Added T08.G3.07: Use sensing blocks as conditions (touching, key pressed)
+# 3. Added G5 Design Pattern Skills:
+#    - Added T08.G5.09: Use guard clauses to exit early from conditions
+#    - Added T08.G5.10: Implement short-circuit evaluation patterns
+#    - Added T08.G5.11: Design fallback/default value patterns using conditionals
+# 4. Added G6 Advanced Application Skills:
+#    - Added T08.G6.04: Implement responsive UI conditionals (screen size, input type)
+#    - Added T08.G6.05: Use conditionals with AI detection results (hand/body tracking)
+#    - Added T08.G6.06: Implement priority-based condition checking
+# 5. Added G7-G8 AI-Era Computational Thinking Skills:
+#    - Added T08.G7.04: Analyze decision trees in AI/ML context
+#    - Added T08.G7.05: Design condition coverage test matrices
+#    - Added T08.G8.03: Implement fuzzy/threshold-based conditions (confidence scores)
+#    - Added T08.G8.04: Design conditional logic for multi-agent coordination
+#    - Added T08.G8.05: Analyze and optimize condition evaluation order for performance
+# Previous optimizations preserved (Phase 1-3):
+# - Expanded K-2 skills with picture-based activities
+# - Added CreatiCode block skills (string matching, boolean variables, type checking)
+# - Split overly broad G6.01 into domain-specific sub-skills
+# - Fixed X-2 rule violations in intra-topic dependencies
+# Total: 87 skills (+18 new skills for depth and AI-era progression)
 
 ID: T08.GK.01
 Topic: T08 – Conditions & Logic
 Skill: Match pictures to "if it rains" rules
-Description: **Student task:** Look at pictures showing weather (rain, sun, snow) and actions (umbrella, sunglasses, coat). Drag each action picture to match the correct "If [weather], then [action]" sentence. For example, drag umbrella picture to "If it rains, then use an umbrella." This drag-and-drop matching activity with 4 items helps students **recognize that conditions lead to specific actions** using familiar weather scenarios.
+Description: **Student task:** Look at pictures showing weather (rain, sun, snow) and actions (umbrella, sunglasses, coat). Drag each action picture to match the correct "If [weather], then [action]" sentence. For example, drag umbrella picture to "If it rains, then use an umbrella." This drag-and-drop matching activity with 4 items introduces conditional rules using familiar weather scenarios.
 
 CSTA: EK-ALG-AF-01
 
@@ -9741,7 +9504,7 @@ Skill: Decide when a single if is enough
 Description: Students identify simple scenarios where an action should happen only when one condition is true (e.g., "move when space key is pressed" or "say 'Good!' when touching star"). This builds conceptual understanding of when to use a simple if block through concrete, visual examples. Students practice recognizing single-condition situations in game and animation contexts.
 
 Dependencies:
-* T08.G3.01: Use a simple if in a script
+* T08.G3.01b: Use advanced comparison operators (≤, ≥, ≠)
 
 CSTA: E3-ALG-AF-01
 
@@ -9815,24 +9578,12 @@ Dependencies:
 CSTA: E3-ALG-AF-01, E3-PRO-PF-01
 
 
-ID: T08.G3.07a
-Topic: T08 – Conditions & Logic
-Skill: Use conditionals inside loops
-Description: **Student task:** Add an if block inside a forever or repeat loop to check conditions repeatedly. For example, in a forever loop: "if <key pressed> then move 10 steps". Students build simple interactive programs where the sprite continuously checks for user input. This combines loops (T07) with conditionals for responsive behavior.
-
-Dependencies:
-* T08.G3.07: Use sensing blocks as conditions
-* T07.G3.03: Build a forever loop for simple animation
-
-CSTA: E3-ALG-AF-01, E3-PRO-PF-01
-
-
 
 
 ID: T08.G4.00
 Topic: T08 – Conditions & Logic
 Skill: Predict outcomes using AND truth table
-Description: Students predict the output of AND operations with various inputs (true AND true, true AND false, false AND true, false AND false). This foundational skill teaches students to reason about logical conjunction before implementing it in code. Use interactive truth table activities where students fill in blanks or match scenarios to outcomes (e.g., "You can play outside if it's sunny AND you finished homework - when can you play?"). Students can use CreatiCode's truth table visualization tool if available.
+Description: Students predict the output of AND operations with various inputs (true AND true, true AND false, false AND true, false AND false). This foundational skill teaches students to reason about logical conjunction before implementing it in code. Use interactive truth table activities where students fill in blanks or match scenarios to outcomes (e.g., "You can play outside if it's sunny AND you finished homework - when can you play?").
 
 Dependencies:
 * T08.G3.06: Trace multiple sequential if blocks
@@ -9883,17 +9634,6 @@ Dependencies:
 CSTA: E4-ALG-AF-01
 
 
-ID: T08.G4.01c
-Topic: T08 – Conditions & Logic
-Skill: Debug simple AND/OR condition errors
-Description: **Student task:** Find and fix a bug where AND was used instead of OR (or vice versa). For example, a game ends when "score = 0 AND lives = 0" but should end when "score = 0 OR lives = 0". Students trace through the condition with test values to identify the logical error. This bridges simple comparison debugging (G3.05) to compound logic debugging (G4.08).
-
-Dependencies:
-* T08.G4.01b: Distinguish AND vs OR scenarios
-* T08.G4.01: Combine two conditions with AND
-
-CSTA: E4-ALG-AF-01, E4-PRO-PF-02
-
 
 
 
@@ -9931,7 +9671,7 @@ Skill: Predict outcomes using NOT truth table
 Description: Students predict the output of NOT operations (NOT true = false, NOT false = true). This foundational skill teaches logical negation reasoning before implementation. Use truth table activities where students fill in "opposite" values and real-world examples (e.g., "if NOT raining, then go outside" - when do you go outside?). Applying negation correctly is essential for compound logic.
 
 Dependencies:
-* T08.G4.02: Combine two conditions with OR
+* T08.G4.05: Use else-if for multiple exclusive conditions
 
 CSTA: E4-ALG-AF-01
 
@@ -10265,17 +10005,6 @@ Dependencies:
 CSTA: E5-ALG-AF-01, E5-PRO-PF-01
 
 
-ID: T08.G5.08a
-Topic: T08 – Conditions & Logic
-Skill: Design three-state systems
-Description: **Student task:** Extend a two-state system to three states. For example, a traffic light (red/yellow/green) or a game character (idle/walking/running). Students add a third state variable value, define transitions between all three states, and write code handling all cases. This bridges two-state systems (G5.08) to full state machines (G6.02).
-
-Dependencies:
-* T08.G5.08: Design simple two-state systems
-
-CSTA: E5-ALG-AF-01, E5-PRO-PF-01
-
-
 ID: T08.G5.09
 Topic: T08 – Conditions & Logic
 Skill: Use guard clauses to exit early from conditions
@@ -10321,7 +10050,7 @@ Description: Students analyze a system or game mechanic and list all possible st
 
 Dependencies:
 * T08.G5.09: Use guard clauses to exit early from conditions
-* T08.G5.08a: Design three-state systems
+* T08.G5.08: Design simple two-state systems
 
 CSTA: E6-ALG-AF-01
 
@@ -10623,42 +10352,41 @@ Dependencies:
 CSTA: E8-ALG-AF-01, E8-PRO-PF-01
 
 
-# T09 - Variables & Expressions (Phase 6 Optimized - November 2025)
-# Phase 6 Major Optimizations Applied:
-# 1. MERGED REDUNDANT SKILLS:
-#    - Combined G4.09 (foundation) with G4.10 (=, <) - both were about comparison operators
-#    - Streamlined comparison operator progression to avoid repetition
-# 2. ADDED CREATICODE-SPECIFIC FEATURES:
-#    - G3.09: Use reduce block for decreasing variables (CreatiCode extension)
-#    - G4.18: Use for-loop block with variable (CreatiCode's enhanced loop)
-#    - G6.13: Use expression calculator block for complex formulas
-#    - G7.15: React to variable changes with event block
-#    - G8.12: Use fast-updating cloud variables for real-time sync
-# 3. ENHANCED AI-ERA SKILLS WITH DEPTH:
-#    - G6.12: Expanded to cover AI prompt templates with multiple variables
-#    - G7.16: Store and process AI model outputs in variables
-#    - G8.13: Use variables with semantic search and web results
-#    - G8.14: Build adaptive AI systems using variable-based context
-# 4. IMPROVED PRACTICAL APPLICATIONS:
-#    - G5.13: Use variables for animation state machines
-#    - G6.14: Build dynamic UI with widget-bound variables
-#    - G7.17: Create multiplayer game state with shared variables
-# 5. STRENGTHENED DEBUGGING PROGRESSION:
-#    - Clearer bug categories: initialization, update, scope, timing, concurrency
-#    - Each grade builds on previous debugging skills systematically
-# 6. ACTIVE VERBS AND SPECIFIC SCENARIOS:
-#    - All skills use observable verbs: Create, Set, Trace, Debug, Predict, Design, Implement
-#    - K-2 skills have explicit visual scenarios with picture-based interactions
+# T09 - Variables & Expressions (Phase 5 Optimized - November 2025)
+# Phase 5 Major Optimizations Applied:
+# 1. RESTRUCTURED DEPENDENCY CHAINS - Flattened deep linear chains for flexible progression:
+#    - Arithmetic operators (+,-,*,/) now parallel after G4.01 foundation
+#    - String operations reorganized into logical groups (basic, extraction, transformation)
+#    - Math functions grouped by purpose, not sequential prerequisite
+#    - Comparison operators now branch from single foundation skill
+# 2. REDUCED EXCESSIVE CROSS-TOPIC DEPENDENCIES:
+#    - G4 arithmetic operators no longer require T04 pattern skills
+#    - Debugging skills streamlined to focus on T09-internal prerequisites
+#    - Fixed X-2 violations in G5 accumulator/tracing skills
+# 3. ENHANCED K-2 PICTURE-BASED SKILLS with more concrete scenarios:
+#    - Added GK.03: Compare two counters in game pictures
+#    - Added G1.03: Predict counter value after drag-drop actions
+#    - Added G2.03: Debug why counter shows wrong number
+# 4. ADDED ADVANCED SKILLS FOR AI-ERA DEPTH:
+#    - G6.08: Use variables to parameterize AI prompts dynamically
+#    - G7.10: Design variable naming conventions for maintainability
+#    - G8.09: Use variables to manage state in multi-turn AI conversations
+#    - G8.10: Analyze variable usage patterns for code optimization
+# 5. CONSOLIDATED OVERLY GRANULAR SKILLS:
+#    - G3.01 sub-skills merged where appropriate (now 3 instead of 5)
+#    - G4.06 comparison operators consolidated (now 2 foundation + extensions)
+#    - G4.09 debugging skills reduced from 3 to 2 focused categories
+# 6. IMPROVED ACTIVE VERBS throughout (Trace, Debug, Design, Predict, Analyze)
 # Logical K-8 Progression:
 #   - K: Visual labels with numbers (recognition, change detection, comparison via pictures)
 #   - G1-G2: Interactive counters (clicking, tracking, initialization, prediction, basic debugging)
-#   - G3: Core variable operations (create/set/change/reduce, display, conditionals, copy, trace, basic debug)
-#   - G4: Arithmetic operators (parallel), comparisons, for-loops with variables, flags, random, debug
-#   - G5: Multiple variables, data types (string, boolean), accumulators, animation states, tracing
-#   - G6: Real-world modeling, PEMDAS, string operations, expression calculator, AI prompts, widgets
-#   - G7: Dynamic systems, math functions, scope, file I/O, regex, variable events, multiplayer
-#   - G8: Algorithm variables, optimization, trig/log functions, cloud variables, AI state management
-# Total: 93 skills (was 83: merged G4.09/G4.10 duplicates, added 11 new CreatiCode/AI skills)
+#   - G3: Core variable operations (create/set/change, display, conditionals, copy, basic debug, trace)
+#   - G4: Arithmetic operators (parallel), comparisons (branched), loop counters, flags, random, debug
+#   - G5: Multiple variables, data types (string, boolean, type awareness), accumulators, advanced tracing
+#   - G6: Real-world modeling, PEMDAS, advanced operators, string operations (grouped), AI integration
+#   - G7: Dynamic systems, math functions (grouped), scope, file I/O, regex (grouped), variable design
+#   - G8: Algorithm variables, optimization, advanced math, cloud variables, AI state, symbolic math
+# Total: 98 skills (rebalanced from 98, with higher quality and better structure)
 
 
 
@@ -10860,17 +10588,6 @@ Dependencies:
 
 
 
-ID: T09.G3.09
-Topic: T09 – Variables & Expressions
-Skill: Use the reduce block for decreasing variables
-Description: Students use CreatiCode's `reduce [variable] by (amount)` block as an alternative to `change by` with negative numbers. This block is designed for young learners who may not yet understand negative numbers. Examples: "reduce lives by 1" when hit by enemy, "reduce time by 1" each second. Students understand that reduce decreases while change-by-positive increases.
-
-Dependencies:
-* T09.G3.02: Change and reduce variables with display monitoring
-
-
-
-
 ID: T09.G4.01
 Topic: T09 – Variables & Expressions
 Skill: Use arithmetic operators in variable expressions (foundation)
@@ -10967,8 +10684,8 @@ Dependencies:
 
 ID: T09.G4.09
 Topic: T09 – Variables & Expressions
-Skill: Use equals (=) and less than (<) comparison operators in conditionals
-Description: Students use the equals (=) and less than (<) operators in conditionals to compare variable values. Examples: "if score = 10 then say 'You win!'", "if lives < 1 then broadcast game_over". They understand that comparisons evaluate to true/false and control which code runs. These are the foundational comparisons: = checks for exact match, < checks if left value is smaller than right.
+Skill: Use comparison operators in conditionals (foundation)
+Description: Students understand that conditionals can compare variable values using operators. They use the equals (=) and less than (<) operators as their first comparisons. Examples: "if score = 10", "if lives < 3". They understand that comparisons evaluate to true/false and control program flow. These are the most intuitive comparisons for beginners and establish the foundation for all comparison operators.
 
 Dependencies:
 * T09.G3.04: Use a variable in a simple conditional (if block)
@@ -10979,23 +10696,34 @@ Dependencies:
 
 ID: T09.G4.10
 Topic: T09 – Variables & Expressions
-Skill: Use greater than (>) operator in conditionals
-Description: Students use the greater than (>) operator to check if one value exceeds another. Examples: "if score > 100 then say 'High score!'", "if health > 0 then keep playing". They understand that > is the opposite of < and when to use each based on what they want to check.
+Skill: Use basic comparison operators (=, <) in conditionals
+Description: Students use the equals (=) and less than (<) operators in conditionals to compare values. Examples: "if score = 10", "if lives < 3". They understand that comparisons evaluate to true/false and control program flow. These are the most intuitive comparisons for beginners.
 
 Dependencies:
-* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+* T09.G4.09: Use comparison operators in conditionals (foundation)
 
 
 
 
 ID: T09.G4.11
 Topic: T09 – Variables & Expressions
-Skill: Use not equal (≠) and inclusive comparison (≥, ≤) operators
-Description: Students use CreatiCode's extended comparison operators: not equal (≠) to check if values are different, greater-or-equal (≥) for "at least" conditions, and less-or-equal (≤) for "at most" conditions. Examples: "if lives ≠ 0 then keep playing", "if score ≥ 100 then unlock bonus level", "if health ≤ 20 then show warning". They understand that ≥/≤ include the boundary value unlike >/< which exclude it.
+Skill: Use greater than (>) operator in conditionals
+Description: Students use the greater than (>) operator to check if one value exceeds another. Examples: "if score > 100", "if health > 0". They understand that > is the opposite of < and when to use each.
 
 Dependencies:
-* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
-* T09.G4.10: Use greater than (>) operator in conditionals
+* T09.G4.09: Use comparison operators in conditionals (foundation)
+
+
+
+
+ID: T09.G4.12
+Topic: T09 – Variables & Expressions
+Skill: Use not equal (≠) and inclusive comparison (≥, ≤) operators
+Description: Students use not equal (≠) to check if values are different, and greater-or-equal (≥) and less-or-equal (≤) for inclusive comparisons. Examples: "if lives ≠ 0", "if score >= 100" (at least 100), "if health <= 20" (at most 20). They understand that ≥/≤ include the boundary value unlike >/< which is important for "at least" and "at most" conditions.
+
+Dependencies:
+* T09.G4.10: Use basic comparison operators (=, <) in conditionals
+* T09.G4.11: Use greater than (>) operator in conditionals
 
 
 
@@ -11060,18 +10788,6 @@ Dependencies:
 * T09.G4.08: Use a variable as a loop counter
 * T09.G4.16: Debug variable used before initialization
 * T12.G3.01: Test and trace simple block-based scripts
-
-
-
-
-ID: T09.G4.18
-Topic: T09 – Variables & Expressions
-Skill: Use CreatiCode's for-loop block with automatic variable
-Description: Students use CreatiCode's `for [variable] from (start) to (limit) at step (step)` block which automatically manages a loop counter variable. Examples: "for i from 1 to 10 at step 1" counts 1,2,3...10, or "for i from 0 to 100 at step 10" counts 0,10,20...100. This is more efficient than manually initializing and changing a counter inside a repeat loop. Students compare both approaches and understand when to use each.
-
-Dependencies:
-* T07.G3.01: Use a counted repeat loop
-* T09.G4.08: Use a variable as a loop counter
 
 
 
@@ -11209,7 +10925,7 @@ Description: Students implement a high score system: compare current score to hi
 Dependencies:
 * T04.G5.01: Identify and classify counter update patterns in code
 * T08.G5.00: Draw decision tree flowchart
-* T09.G4.11: Use not equal (≠) and inclusive comparison (≥, ≤) operators
+* T09.G4.12: Use not equal (≠) and inclusive comparison (≥, ≤) operators
 * T09.G5.08: Use the accumulator pattern to compute running totals
 
 
@@ -11223,19 +10939,6 @@ Description: Students combine string variables and join operations to create for
 Dependencies:
 * T09.G5.06: Use multi-input join with separator
 * T09.G5.10: Trace code with multiple interacting variables
-
-
-
-
-ID: T09.G5.13
-Topic: T09 – Variables & Expressions
-Skill: Use variables for animation state machines
-Description: Students create a state variable (e.g., "animation_state" with values like "idle", "walking", "jumping") to control which animation plays and what behaviors are active. They use conditionals to check the state and switch between states based on events. Example: "if animation_state = walking then switch costume to walk1, else if animation_state = jumping then switch costume to jump1". This pattern is essential for character controllers and game entities.
-
-Dependencies:
-* T09.G4.13: Use a flag variable to track state (0/1 or true/false)
-* T09.G5.02: Create and use string variables
-* T09.G5.04: Distinguish between number, string, and boolean variable types
 
 
 
@@ -11372,30 +11075,6 @@ Description: Students create variables to store user preferences, settings, or c
 Dependencies:
 * T09.G5.07: Use variables as settings to control program behavior
 * T09.G5.12: Apply basic text formatting using string operations
-
-
-
-
-ID: T09.G6.13
-Topic: T09 – Variables & Expressions
-Skill: Use the expression calculator block for complex formulas
-Description: Students use CreatiCode's `calculate expression [text]` block to evaluate mathematical expressions written as text strings. This allows for dynamic formula evaluation where the expression itself can be constructed or modified at runtime. Examples: "calculate expression [(1 + 1) * (2^4)]" returns 32, or building a formula string from user input like "calculate expression [join [price] [* 1.08]]" for tax calculation. Students understand when to use this vs regular operator blocks.
-
-Dependencies:
-* T09.G5.12: Apply basic text formatting using string operations
-* T09.G6.04: Use exponents (^) and modulo (%) operators
-
-
-
-
-ID: T09.G6.14
-Topic: T09 – Variables & Expressions
-Skill: Build dynamic UI with widget-bound variables
-Description: Students connect variables to CreatiCode UI widgets (labels, text inputs, sliders) to create interactive interfaces. They use variables to display values in label widgets, read user input from text fields into variables, and bind slider widgets to control variable values. Example: create a "Speed: [speed]" label that updates automatically, or use a slider widget to let users adjust difficulty level stored in a variable. This pattern is essential for building user-friendly applications.
-
-Dependencies:
-* T09.G5.07: Use variables as settings to control program behavior
-* T09.G6.10: Trace variable values across multiple event handlers
 
 
 
@@ -11561,43 +11240,6 @@ Dependencies:
 
 
 
-ID: T09.G7.15
-Topic: T09 – Variables & Expressions
-Skill: React to variable changes with the variable-changed event
-Description: Students use CreatiCode's `when variable [name] changed` event block to trigger scripts automatically whenever a specific variable's value changes. This enables reactive programming patterns where scripts respond to state changes without polling. Examples: update a UI element when score changes, trigger sound when health drops, or sync multiplayer state when position variables update. Students understand this is more efficient than continuously checking variable values in a forever loop.
-
-Dependencies:
-* T09.G6.10: Trace variable values across multiple event handlers
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
-
-
-
-
-ID: T09.G7.16
-Topic: T09 – Variables & Expressions
-Skill: Store and process AI model outputs in variables
-Description: Students use variables to capture outputs from AI blocks (ChatGPT responses, image recognition results, speech-to-text transcriptions) and process them for further use. They understand that AI blocks store their results in specified variables, then use string operations or conditionals to extract meaning from the responses. Example: "ChatGPT request [question] result [aiResponse]", then "if aiResponse includes yes then do action". This connects AI capabilities to programmatic decision-making.
-
-Dependencies:
-* T09.G5.12: Apply basic text formatting using string operations
-* T09.G6.12: Use variables to parameterize AI prompts dynamically
-* T09.G7.10: Use regex test to validate text patterns
-
-
-
-
-ID: T09.G7.17
-Topic: T09 – Variables & Expressions
-Skill: Create multiplayer game state with shared variables
-Description: Students design variable structures for multiplayer games where multiple players need access to shared state. They use for-all-sprites variables for global game state (game_phase, current_turn), and consider how cloud variables can synchronize state across connected players. Example: create turn-based game with "currentPlayer" variable that all sprites check, or shared "gameOver" flag that affects all players. Students plan variable scoping to ensure appropriate data sharing vs privacy.
-
-Dependencies:
-* T09.G7.07: Distinguish between for-this-sprite and for-all-sprites variable scope
-* T09.G7.13: Debug variable scope and update timing errors
-
-
-
-
 ID: T09.G8.01
 Topic: T09 – Variables & Expressions
 Skill: Use variables to track index position in linear search
@@ -11744,45 +11386,6 @@ Dependencies:
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T09.G6.03: Use parentheses to override operator precedence
 * T09.G7.05: Compute average using sum and count variables
-
-
-
-
-ID: T09.G8.12
-Topic: T09 – Variables & Expressions
-Skill: Use fast-updating cloud variables for real-time synchronization
-Description: Students use CreatiCode's cloud variable system to create real-time multiplayer experiences. They join or create cloud sessions with `join cloud session` or `create cloud session named`, then use cloud variables that automatically sync across all connected players. They understand the difference between regular cloud variables (for persistence) and fast-updating cloud variables (for real-time gameplay). Example: sync player positions in a multiplayer racing game, or create a collaborative drawing canvas where strokes appear for all users in real-time.
-
-Dependencies:
-* T09.G7.17: Create multiplayer game state with shared variables
-* T09.G8.07: Use cloud variables for persistent data storage
-
-
-
-
-ID: T09.G8.13
-Topic: T09 – Variables & Expressions
-Skill: Use variables with web search and semantic database results
-Description: Students use variables to work with CreatiCode's web search and semantic database blocks. They store search results (from `web search [query] store top (K) in table`) and semantic query results in table variables, then extract and process specific fields. Example: search for information about a topic, store results in a table variable, extract the first result's summary, and display it to the user. This connects AI-powered information retrieval to variable-based data processing.
-
-Dependencies:
-* T09.G7.16: Store and process AI model outputs in variables
-* T09.G8.09: Use variables to manage state in multi-turn AI conversations
-
-
-
-
-ID: T09.G8.14
-Topic: T09 – Variables & Expressions
-Skill: Build adaptive AI systems using variable-based context
-Description: Students design AI interactions that adapt based on accumulated variable state. They track user preferences, interaction history, and conversation context in variables, then use this context to modify AI prompts and responses. Example: build a personalized tutor that tracks which topics the user struggles with (stored in variables), adjusts difficulty based on success rate, and provides targeted help. This represents advanced integration of variables with AI capabilities for intelligent, context-aware applications.
-
-Dependencies:
-* T09.G7.16: Store and process AI model outputs in variables
-* T09.G8.09: Use variables to manage state in multi-turn AI conversations
-* T09.G8.10: Analyze variable usage patterns for code optimization
-
-
 # T10 – Lists & Tables (Optimized - November 2025, Revision 2)
 # Optimizations (Revision 1):
 # 1. Enhanced K-2 skills with Visual scenario format (Student task, Visual scenario, Correct answer, Implementation note)
@@ -12235,7 +11838,7 @@ Dependencies:
 
 ---
 
-## GRADE 4 (31 skills)
+## GRADE 4 (30 skills)
 
 
 
@@ -12403,7 +12006,6 @@ Dependencies:
 * T10.G4.01.02: Implement manual linear search with loop
 * T10.G4.02: Store and retrieve parallel list data
 * T10.G4.03: Insert an item at a specific position in a list
-* T10.G4.05: Use built-in blocks to sort a list
 
 
 
@@ -12597,19 +12199,6 @@ Dependencies:
 * T10.G4.06.03: Calculate the sum of all values in a list
 
 
-
-
-ID: T10.G4.24
-Topic: T10 – Lists & Tables
-Skill: Predict list state after a sequence of operations
-Description: Students read a sequence of 5-7 list operations (add, delete, insert, replace) and predict the final list contents without running the code. They trace through each operation step by step, writing the list state after each step, then verify their prediction by running the code. This skill emphasizes understanding how each operation modifies the list and develops mental execution abilities critical for debugging and algorithm design.
-
-Dependencies:
-* T10.G3.11: Predict and trace list changes step by step
-* T10.G4.03: Insert an item at a specific position in a list
-* T10.G4.04: Replace an item in a list
-
-
 ---
 
 ## GRADE 5 (26 skills)
@@ -12703,7 +12292,6 @@ Description: Students use a counted loop from 1 to `row count of table` to itera
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T10.G5.06.01: Get the number of rows in a table
-* T10.G5.04: Read a cell value from a table
 * T09.G3.01.02: Increment and decrement a variable
 
 
@@ -12929,7 +12517,7 @@ Dependencies:
 
 ---
 
-## GRADE 6 (18 skills)
+## GRADE 6 (14 skills)
 
 
 
@@ -13103,57 +12691,9 @@ Dependencies:
 * T10.G3.08: Check if a list is empty before accessing
 
 
-
-
-ID: T10.G6.15
-Topic: T10 – Lists & Tables
-Skill: Swap adjacent items based on comparison
-Description: Students practice the swap pattern in the context of sorting: compare two adjacent items, swap them if out of order, and recognize that multiple passes are needed to fully sort. They trace through swapping adjacent pairs and observe how items gradually move toward correct positions. This builds directly toward implementing bubble sort and selection sort algorithms in Grade 8.
-
-Dependencies:
-* T10.G4.10: Swap two items in a list
-* T10.G4.18: Loop through list indices
-
-
-
-
-ID: T10.G6.16
-Topic: T10 – Lists & Tables
-Skill: Find maximum in a sublist range
-Description: Students extend the manual find-max algorithm (T10.G4.07) to find the maximum or minimum within a specific range of indices, not the entire list. They loop from a start position to an end position, tracking the best value and its position. This pattern is essential for selection sort (find min in remaining unsorted portion) and other range-based algorithms.
-
-Dependencies:
-* T10.G4.07: Find the maximum or minimum item in a list manually
-* T10.G4.21: Extract a sublist from a range of positions
-
-
-
-
-ID: T10.G6.17
-Topic: T10 – Lists & Tables
-Skill: Parse text into structured list data
-Description: Students use text splitting and string operations to parse semi-structured text (like CSV lines, simple log entries, or formatted strings) into list items for programmatic processing. They use the split block to break text by delimiters, handle edge cases like extra spaces, and build lists from parsed text. This bridges text manipulation and list operations, preparing for complex data parsing in Grade 8.
-
-Dependencies:
-* T10.G4.12: Split a text string into a list
-* T10.G4.08: Filter items from a list based on a condition
-
-
-
-
-ID: T10.G6.18
-Topic: T10 – Lists & Tables
-Skill: Select a random item from a list
-Description: Students use the `item (random v) of [list]` block or generate a random index using `pick random (1) to (length of [list])` to select items at random. Applications include picking random quiz questions, selecting random game events, or implementing simple random sampling. Students verify that multiple runs produce different selections and understand the difference between random access and sequential access.
-
-Dependencies:
-* T10.G3.02: Read items from a list by position (index starts at 1)
-* T10.G3.03: Get the length of a list
-
-
 ---
 
-## GRADE 7 (18 skills)
+## GRADE 7 (17 skills)
 
 
 
@@ -13360,18 +12900,6 @@ Dependencies:
 * T10.G5.07: Loop through table rows to compute aggregates
 
 
-
-
-ID: T10.G7.18
-Topic: T10 – Lists & Tables
-Skill: Debug table operations by logging intermediate states
-Description: Students develop systematic debugging strategies for table programs: logging row/column values during loops using console output, checking boundary conditions (first row, last row, empty table), verifying column values match expected types, and using table snapshots to compare before/after states. Given a buggy table program, students add logging statements to trace execution, identify where values diverge from expectations, and fix the issue. This skill builds on list debugging (T10.G3.12) but addresses table-specific challenges like multi-column access patterns and row counting errors.
-
-Dependencies:
-* T10.G5.20: Debug table programs by tracing row and column access
-* T10.G7.06: Validate and handle missing data in tables
-
-
 ---
 
 ## GRADE 8 (13 skills)
@@ -13397,7 +12925,7 @@ Skill: Implement bubble sort algorithm step by step
 Description: Students implement bubble sort by writing nested loops: the outer loop controls passes, the inner loop compares adjacent items and swaps if out of order. They trace through the algorithm to understand how items "bubble" to their correct positions.
 
 Dependencies:
-* T10.G6.15: Swap adjacent items based on comparison
+* T10.G4.10: Swap two items in a list
 * T07.G6.01: Trace nested loops with variable bounds
 
 
@@ -13410,7 +12938,7 @@ Description: Students implement selection sort by writing nested loops: the oute
 
 Dependencies:
 * T10.G8.02: Implement bubble sort algorithm step by step
-* T10.G6.16: Find maximum in a sublist range
+* T10.G4.07: Find the maximum or minimum item in a list manually
 
 
 
@@ -13458,7 +12986,7 @@ Description: Students simulate a simple hash table by using a list where each po
 
 Dependencies:
 * T10.G8.03: Implement selection sort algorithm step by step
-* T10.G6.13: Use frequency counting with lists
+* T10.G4.02: Store and retrieve parallel list data
 * T09.G7.01: Compare computational efficiency of different approaches
 
 
@@ -13519,7 +13047,7 @@ Description: Students write programs to parse structured text data (log files, c
 
 Dependencies:
 * T10.G7.05: Clean and transform table data
-* T10.G6.17: Parse text into structured list data
+* T10.G4.12: Split a text string into a list
 * T10.G5.03: Add rows of data to a table
 
 
@@ -13588,19 +13116,6 @@ Dependencies:
 
 
 
-
-ID: T11.GK.04
-Topic: T11 – Functions & Organization
-Skill: Predict what happens when a group card is used
-Description: **Student task:** View a named group card (like "Clean Up") and its picture steps. Then see a bigger plan that uses this group card. Predict which picture steps will happen when the plan reaches "Clean Up." **Visual scenario:** Group card "Make Snack" shows: get apple, wash apple, cut apple. Main plan shows: Do Homework → Make Snack → Watch TV. Student taps to select which pictures happen during "Make Snack." **Success criteria:** Student correctly identifies all 3 steps that belong to the group. _Implementation note: Tap-to-select multiple pictures; visual highlighting when group card is reached in sequence. CSTA: K-2 abstraction._
-
-Assessment example: Given "Make Snack" group card with 3 steps and a daily routine that uses it, students tap all pictures that happen when "Make Snack" runs.
-
-Dependencies:
-* T11.GK.03: Drag a named group card into a bigger picture plan
-
----
-
 ID: T11.G1.01
 Topic: T11 – Functions & Organization
 Skill: Identify the main instruction set from picture cards
@@ -13659,8 +13174,8 @@ Dependencies:
 
 ID: T11.G1.05
 Topic: T11 – Functions & Organization
-Skill: Identify repeated activity groups in a picture sequence
-Description: **Student task:** Students examine a longer picture-based activity plan and circle each occurrence of the same group of actions that appears multiple times. For example, in a "classroom game" sequence, they circle all instances of "reset the game board" (put pieces back, shuffle cards, reset timer) that happen before each round. This builds recognition of repetition at the group level, not just single actions. **Visual scenario:** A "Game Day" picture sequence shows: setup game board → play round 1 → setup game board → play round 2 → setup game board → play round 3. Students circle all three occurrences of the "setup game board" group (3 pictures each: put pieces back, shuffle cards, reset timer). **Success criteria:** Student circles all three instances and counts them correctly.
+Skill: Circle repeated activity groups in a picture sequence
+Description: Students examine a longer picture-based activity plan and circle each occurrence of the same group of actions that appears multiple times. For example, in a "classroom game" sequence, they circle all instances of "reset the game board" (put pieces back, shuffle cards, reset timer) that happen before each round. This builds recognition of repetition at the group level, not just single actions.
 
 Assessment example: Given a picture sequence for playing three rounds of a board game, students use colored circles to mark each occurrence of the "setup" activities that appear before each round, counting how many times the same group repeats.
 
@@ -14012,22 +13527,6 @@ Dependencies:
 
 
 
-ID: T11.G3.10.01
-Topic: T11 – Functions & Organization
-Skill: Trace what happens inside a custom block definition
-Description: Students trace step-by-step through a simple custom block definition (3-5 blocks) to predict what the sprite will do when the block is called. They number each block inside the definition in execution order and describe the final state. This builds mental models of how custom block definitions execute before students create their own.
-
-Assessment example: Given `define (Greet)` with `say [Hello]`, `wait 1 seconds`, `say [Goodbye]`, students number blocks 1-3 and describe: "First says Hello, waits 1 second, then says Goodbye."
-
-Dependencies:
-* T11.G3.09: Distinguish custom blocks from built-in blocks
-* T07.G3.02: Trace a script with a simple loop
-
----
-
-
-
-
 
 ID: T11.G3.11
 Topic: T11 – Functions & Organization
@@ -14375,7 +13874,7 @@ Dependencies:
 
 ID: T11.G4.14
 Topic: T11 – Functions & Organization
-Skill: Add systematic documentation to a program with embedded comments
+Skill: Document a program with embedded comments
 Description: Students add comments to multiple scripts, blocks, and sections in a complete project, explaining what each part does and how it contributes to the whole. This is the first experience with systematic documentation.
 
 Dependencies:
@@ -14436,7 +13935,7 @@ Dependencies:
 
 ID: T11.G4.18
 Topic: T11 – Functions & Organization
-Skill: Analyze and document variable scope decisions
+Skill: Identify and document variable scope choices
 Description: Students identify whether each variable in a project is "for this sprite only" (local) or "for all sprites" (global) and add comments explaining why each variable has its particular scope. They practice choosing appropriate scope when creating new variables and document their reasoning (e.g., "// playerScore is for all sprites so the score display can read it" or "// tempCalculation is for this sprite only because no other sprite needs it").
 
 Dependencies:
@@ -14560,7 +14059,7 @@ Dependencies:
 ID: T11.G5.04
 Topic: T11 – Functions & Organization
 Skill: Demonstrate code reuse with parameterized custom blocks
-Description: Students extend their project from T11.G5.03 to demonstrate how parameterized custom blocks enable code reuse. They call the same custom block with different parameter values in multiple places, showing that one flexible block definition can handle many similar situations. They explain how this reduces code duplication and makes the program easier to understand and modify.
+Description: Students extend their project from T11.G5.02.01 to demonstrate how parameterized custom blocks enable code reuse. They call the same custom block with different parameter values in multiple places, showing that one flexible block definition can handle many similar situations. They explain how this reduces code duplication and makes the program easier to understand and modify.
 
 Assessment example: Students create `define (DrawPolygon (sides) (size))` and use it throughout a drawing program: `call DrawPolygon [3] [50]` for triangles, `call DrawPolygon [4] [60]` for squares, `call DrawPolygon [6] [40]` for hexagons, demonstrating that one block handles all regular polygons.
 
@@ -14640,8 +14139,8 @@ Dependencies:
 
 ID: T11.G5.09
 Topic: T11 – Functions & Organization
-Skill: Define a custom block with three or more parameters
-Description: Students create custom blocks with three or more parameters, practicing logical parameter ordering (most important first, natural reading order) and clear parameter names. They distinguish between required parameters (always needed) and optional-like parameters (often have default values in mind). They implement blocks like `DrawRectangle (width) (height) (color)` or `CreateEnemy (x) (y) (speed) (health)`, demonstrating that complex blocks can handle many customization points. Inside the definition, they access each parameter using the `argument` block for each parameter name. They call the block with various argument combinations, testing that each parameter works correctly.
+Skill: Define a custom block with two or more parameters
+Description: Students create a custom block with multiple parameters (e.g., `DrawRectangle (width) (height)` or `MoveSprite (x) (y) (speed)`). Inside the definition, they access each parameter using the `argument` block for each parameter name. They practice ordering parameters logically and using clear parameter names. They call the block with various argument combinations, testing that each parameter works correctly.
 
 Assessment example: Students create `define (DrawRectangle (width) (height) (color))` with code that uses all three parameters. They test with calls like `call DrawRectangle [100] [50] [red]` and `call DrawRectangle [80] [120] [blue]`.
 
@@ -14770,7 +14269,7 @@ Dependencies:
 
 ID: T11.G5.17
 Topic: T11 – Functions & Organization
-Skill: Create a user-facing project description explaining what the program does
+Skill: Write a project description explaining what the program does
 Description: Students write a clear project description (in the project notes or as a comment at the top of the main script) that explains: (1) what the project does, (2) how to use it (controls/interactions), and (3) what the main features are. This user-facing documentation helps others understand the project without reading the code.
 
 Dependencies:
@@ -15151,7 +14650,7 @@ Dependencies:
 
 ID: T11.G6.17
 Topic: T11 – Functions & Organization
-Skill: Create maintenance documentation for collaborative development
+Skill: Document code for collaborative maintenance
 Description: Students add comments and documentation to a project so that a peer or their future self can understand and modify it. They explain key variables, the role of each script, and any non-obvious design choices. Focus is on written documentation and comments that enable others to maintain the code.
 
 Dependencies:
@@ -15278,22 +14777,6 @@ Dependencies:
 
 
 
-ID: T11.G7.07.01
-Topic: T11 – Functions & Organization
-Skill: Trace a simple recursive custom block
-Description: Students trace execution through a custom block that calls itself with a modified parameter value (simple recursion). They follow the "base case" (when recursion stops) and "recursive case" (when block calls itself). They use a call stack diagram to track which call is active and what parameter values are at each level. This introduces recursion as a powerful organizational pattern where a block solves a problem by solving smaller versions of itself.
-
-Assessment example: Given `define (CountDown (n))` that says n, then if n > 0 calls `call CountDown [n-1]`, students trace `call CountDown [3]` showing the sequence: says 3 → calls CountDown(2) → says 2 → calls CountDown(1) → says 1 → calls CountDown(0) → says 0 → stops.
-
-Dependencies:
-* T11.G7.06: Trace and debug multi-level custom block calls
-* T11.G7.07: Design and implement helper blocks for complex operations
-
----
-
-
-
-
 ID: T11.G7.08
 Topic: T11 – Functions & Organization
 Skill: Decompose complex logic into custom blocks with clear responsibilities
@@ -15347,23 +14830,6 @@ Dependencies:
 * T11.G6.17: Document code for collaborative maintenance
 * T11.G7.10: Create a code review checklist for clarity
 * T10.G5.01: Use a table to store and organize related data
-
-
-
-ID: T11.G7.12
-Topic: T11 – Functions & Organization
-Skill: Review AI-generated custom block suggestions for correctness
-Description: Students evaluate custom blocks generated by AI coding assistants (like CreatiCode's XO) by checking if the block: (1) does what was requested, (2) uses correct CreatiCode syntax, (3) has appropriate parameters, (4) handles the described use case. They identify blocks that are correct, blocks that need minor fixes, and blocks that should be rejected. This skill prepares students to work effectively with AI coding tools while maintaining code quality.
-
-Assessment example: Given an AI-generated `DrawTriangle (size)` block, students verify it correctly draws a triangle by tracing the code, checking the turn angles (should be 120°), and testing with sample values.
-
-Dependencies:
-* T11.G7.04: Document a coordinated custom block set
-* T11.G7.05: Apply encapsulation and information hiding principles
-
----
-
-
 
 
 
@@ -15618,56 +15084,22 @@ Dependencies:
 ---
 
 
-ID: T11.G8.16
-Topic: T11 – Functions & Organization
-Skill: Architect a multi-feature project with AI-assisted code generation
-Description: Students plan and build a substantial project (50+ blocks) using AI assistance strategically. They: (1) decompose the project into major features, (2) design custom block interfaces for each feature, (3) use AI to generate initial implementations, (4) review and refactor AI-generated code to meet quality standards, (5) integrate all components into a cohesive whole. This skill demonstrates professional-level project organization where AI is a tool within a thoughtful development process.
-
-Assessment example: Students create a complete platformer game by: designing 8-10 custom blocks on paper first, using AI to generate initial code for movement and collision, manually reviewing and improving AI suggestions, adding their own blocks for scoring and level progression, and documenting the final architecture.
-
-Dependencies:
-* T11.G8.13: Evaluate and integrate AI-generated code blocks into projects
-* T11.G8.14: Design custom block APIs for extensibility
-* T11.G8.15: Organize large projects with multiple sprite coordination
-
----
 
 
 
-
-
-
-
-
-# T12 – Testing, Debugging & Error Handling (Phase 6 Optimized - November 2025)
-# Applied Phase 6 comprehensive optimizations:
-# MAJOR CHANGES IN PHASE 6:
-# 1. Added G2→G3 Bridge Skill:
-#    - T12.G3.00.01: Recognize that code produces bugs when instructions don't match intent
-#    - Conceptually bridges picture-based debugging to code-based debugging
-# 2. Enhanced AI-Era Skills:
-#    - T12.G7.09: Apply binary search debugging to isolate bugs in large scripts
-#    - T12.G7.10: Debug AI prompt engineering issues (prompt→output mismatch)
-#    - T12.G8.09: Evaluate AI assistant suggestions critically before applying
-#    - T12.G8.10: Debug emergent behavior in multi-agent systems
-# 3. Added Computational Thinking Depth:
-#    - T12.G5.13: Explain bug causation using cause-effect reasoning
-#    - T12.G6.09: Apply rubber duck debugging (verbalize code logic aloud)
-#    - T12.G6.10: Create minimal reproducible examples for bug reports
-# 4. Refined G4.03 to focus on testing/debugging:
-#    - Changed from "Redesign" to "Test alternative implementations for robustness"
-# 5. Fixed dependency issues:
-#    - T12.G6.07: Removed forced table variable dependency, focused on physics debugging
-# 6. Strengthened progression:
-#    - K-2: Visual/unplugged debugging with concrete picture-based scenarios
-#    - G3-4: Basic code debugging, iterative testing, error classification
-#    - G5-6: Advanced tracing, defensive coding, hypothesis-driven debugging
-#    - G7-8: Professional practices, AI-era debugging, large-scale systems
-# Previous optimizations preserved (Phase 1-5):
-# - Modern debugging skills: AI API debugging, async handling, console mastery
-# - Physics/3D/multiplayer debugging pathways
-# - Step-by-step execution mode, breakpoints
-# Total: 84 skills (8 new skills for AI-era debugging and computational thinking)
+# T12 – Testing, Debugging & Error Handling (Phase 5 Optimized - November 2025)
+# Applied Phase 5 comprehensive optimizations:
+# - Enhanced K-2 visual/unplugged debugging with concrete picture-based scenarios
+# - Added modern debugging skills: AI API debugging, async operation handling, console mastery
+# - Introduced table variable debugging pathway for AI features (hand/body tracking returns table data)
+# - Added physics debugging skills (2D/3D collision, gravity, force issues)
+# - Added multiplayer/network debugging (sync issues, message timing, connection handling)
+# - Consolidated tracing sub-skills while maintaining granularity
+# - Added step-by-step execution mode skill (CreatiCode-specific feature)
+# - Enhanced G8 with AI-generated code review, large-scale project debugging, performance profiling
+# - Improved active verbs throughout (Trace, Predict, Debug, Identify, Diagnose, Refactor)
+# - All dependencies verified for X-2 rule compliance
+# Total: 76 skills (10 new skills for modern debugging practices)
 
 ID: T12.GK.01
 Topic: T12 – Testing, Debugging & Error Handling
@@ -15857,18 +15289,6 @@ Dependencies:
 
 
 
-ID: T12.G3.00.01
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Recognize that bugs occur when code doesn't match intent
-Description: Students understand the fundamental concept: **A bug is a mismatch between what you WANTED and what you WROTE**. Given 3 scenarios showing: (1) Intent: "move right" → Code: `move -100 steps` → Result: sprite moves left = BUG, (2) Intent: "say hello" → Code: `say "Hello"` → Result: says hello = NO BUG, (3) Intent: "wait 2 seconds" → Code: `wait 20 secs` → Result: waits too long = BUG. Students identify which are bugs and explain the intent-code mismatch. This bridges G2 picture-based error spotting to G3 code-based debugging. _Assessment: Classify 3 scenarios as bug/no-bug with explanation of mismatch._
-
-Dependencies:
-* T12.G2.05: Match error types to picture examples
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
-
-
-
-
 
 ID: T12.G3.01
 Topic: T12 – Testing, Debugging & Error Handling
@@ -15989,8 +15409,8 @@ Dependencies:
 
 ID: T12.G4.03
 Topic: T12 – Testing, Debugging & Error Handling
-Skill: Test alternative implementations for robustness
-Description: Students compare two implementations solving the same problem to evaluate which is more robust and testable. Given Implementation A (e.g., `repeat 4 [move 50, turn 90]`) and Implementation B (e.g., `repeat until touching edge [move 10, turn 90]`), they: (1) Run both with 3 test inputs, (2) Note which handles edge cases better (e.g., what if starting position varies?), (3) Identify which fails more gracefully when inputs are unusual. Key insight: Different implementations have different failure modes. _Assessment: Comparison table with test results + recommendation for which is more robust and why._
+Skill: Redesign a working program using a different approach
+Description: Given a working program, students create an alternative version that achieves the same result differently. Examples: (1) Replace `repeat 4 [move, turn]` with `forever [if touching edge, stop]`, (2) Replace nested ifs with if-else chain. They test both versions with 3 identical inputs and verify identical outputs. _Assessment: Create alternative implementation + comparison table showing both produce same results._
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
@@ -16356,19 +15776,6 @@ Dependencies:
 
 
 
-ID: T12.G5.13
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Explain bug causation using cause-effect chain reasoning
-Description: Students practice **causal reasoning** for bugs by constructing cause-effect chains. Given a symptom (e.g., "sprite disappears off screen"), they trace backward: (1) **Immediate cause**: sprite x > 240, (2) **Prior cause**: move block adds 100 each time, (3) **Root cause**: no boundary check before moving. They write chains like: "The sprite disappears [EFFECT] because x exceeds 240 [CAUSE] because move block runs in forever loop without check [ROOT CAUSE]." This deepens debugging beyond "find and fix" to "understand why." _Assessment: Write cause-effect chains for 3 bugs; chains must have 2+ levels._
-
-Dependencies:
-* T12.G5.01.04: Combine multiple tracing methods to isolate a bug
-* T12.G4.07: Document what went wrong and how you fixed it
-* T12.G3.05: Point to the bug and explain why it causes the problem
-
-
-
-
 ID: T12.G6.01
 Topic: T12 – Testing, Debugging & Error Handling
 Skill: Trace code with 4+ variables using a variable tracking table
@@ -16454,7 +15861,7 @@ Description: Students debug programs using CreatiCode's 2D physics engine. Commo
 
 Dependencies:
 * T12.G6.02: Apply hypothesis-driven debugging (observe → hypothesize → test → verify)
-* T12.G5.07: Interpret error indicators to form debugging hypotheses
+* T12.G5.11: Debug table variable access errors
 
 
 
@@ -16466,31 +15873,6 @@ Description: Students debug programs using AI APIs (ChatGPT blocks, image genera
 Dependencies:
 * T12.G5.12: Debug asynchronous wait conditions
 * T12.G6.02: Apply hypothesis-driven debugging (observe → hypothesize → test → verify)
-
-
-
-
-ID: T12.G6.09
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Apply rubber duck debugging by verbalizing code logic
-Description: Students practice **rubber duck debugging** - explaining code line-by-line to an inanimate object (or peer who just listens). Process: (1) Describe what each block SHOULD do, (2) Say what variables contain at each step, (3) State what the expected vs actual output is. The act of verbalizing often reveals the bug without the "duck" responding. Students debug a program by recording themselves explaining it, then identify the moment they realize the bug. _Assessment: Audio/written transcript of debugging explanation; identify "aha moment" where bug became clear._
-
-Dependencies:
-* T12.G5.13: Explain bug causation using cause-effect chain reasoning
-* T12.G6.01: Trace code with 4+ variables using a variable tracking table
-
-
-
-
-ID: T12.G6.10
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Create minimal reproducible examples for bug reports
-Description: Students learn to **isolate bugs** by creating **minimal reproducible examples** (MREs). Given a large program with a bug, they: (1) Identify which sprites/scripts are needed to reproduce the bug, (2) Remove everything unrelated, (3) Simplify remaining code to minimum needed, (4) Verify bug still occurs in simplified version. An MRE should be <10 blocks if possible. Key insight: If you can't reproduce it simply, you don't understand it yet. _Assessment: Given buggy program, create MRE with ≤50% of original code; bug must still reproduce._
-
-Dependencies:
-* T12.G6.02: Apply hypothesis-driven debugging (observe → hypothesize → test → verify)
-* T12.G5.13: Explain bug causation using cause-effect chain reasoning
-
 
 
 
@@ -16595,31 +15977,6 @@ Dependencies:
 
 
 
-
-ID: T12.G7.09
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Apply binary search debugging to isolate bugs in large scripts
-Description: Students use **binary search debugging** to efficiently find bugs in long scripts (30+ blocks). Process: (1) Add print/breakpoint at middle of script, (2) Run and check: Is output correct at midpoint? (3) If yes, bug is in second half; if no, bug is in first half, (4) Repeat, splitting the problematic half. This reduces debugging from O(n) to O(log n) checks. Students document each split and the reasoning for which half to investigate next. _Assessment: Debug a 30+ block script in ≤5 iterations; document binary search process._
-
-Dependencies:
-* T12.G6.10: Create minimal reproducible examples for bug reports
-* T12.G7.02: Debug subtle logic errors (off-by-one, wrong operator, wrong assignment)
-
-
-
-
-ID: T12.G7.10
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug AI prompt engineering issues
-Description: Students debug programs where **AI output doesn't match intent** due to prompt issues. Common problems: (1) **Vague prompt**: "make something cool" → unpredictable output, (2) **Missing constraints**: didn't specify length/format → wrong format returned, (3) **Ambiguous context**: AI misinterprets intent without examples, (4) **Prompt injection**: user input corrupts prompt. Students iterate on prompts: Original → Problem identified → Improved prompt → Test. _Assessment: Debug 2 prompt engineering bugs; document before/after prompts with rationale._
-
-Dependencies:
-* T12.G6.08: Debug AI API response handling
-* T12.G6.10: Create minimal reproducible examples for bug reports
-
-
-
-
 ID: T12.G8.01
 Topic: T12 – Testing, Debugging & Error Handling
 Skill: Design test suite with explicit code path coverage tracking
@@ -16719,35 +16076,6 @@ Dependencies:
 
 
 
-
-ID: T12.G8.09
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Evaluate AI assistant suggestions critically before applying
-Description: Students develop **critical AI collaboration skills** by evaluating suggestions from AI assistants (like XO) before applying them. Process: (1) **Understand before accepting**: Can you explain what the suggestion does?, (2) **Check context fit**: Does it match your specific requirements?, (3) **Identify limitations**: What assumptions did the AI make?, (4) **Test thoroughly**: AI suggestions may work for common cases but fail edge cases, (5) **Adapt, don't copy**: Modify suggestions to fit your exact needs. Students document 3 AI suggestions with their evaluation and modifications. _Assessment: Document evaluation of 3 AI suggestions; include rationale for accepting/modifying/rejecting each._
-
-Dependencies:
-* T12.G8.06: Review and verify AI-generated code for correctness
-* T12.G7.10: Debug AI prompt engineering issues
-
-
-
-
-ID: T12.G8.10
-Topic: T12 – Testing, Debugging & Error Handling
-Skill: Debug emergent behavior in multi-agent systems
-Description: Students debug **emergent behaviors** - unexpected patterns arising from multiple sprites/agents interacting. Examples: (1) **Oscillation**: Two sprites chasing each other create infinite loop, (2) **Deadlock**: Multiple sprites waiting for each other, (3) **Cascading failures**: One sprite's error triggers chain reaction, (4) **Unexpected clustering**: Agents group in unintended ways. Students identify which interaction rules create the emergence, then modify rules to fix or redirect behavior. Key insight: Bug may not be in any single sprite but in their interaction. _Assessment: Debug 2 emergent behavior bugs; explain interaction patterns causing them._
-
-Dependencies:
-* T12.G8.07: Debug large-scale projects with multiple sprites and scripts
-* T12.G7.07: Debug multiplayer synchronization issues
-
-
-
-
-# T13 – 2D Games (Optimized)
-
-## Kindergarten (6 skills)
-
 ID: T13.GK.01
 Topic: T13 – 2D Games
 Skill: Match arrow keys to character movements
@@ -16755,6 +16083,7 @@ Description: **Student task:** Drag arrow key picture cards onto matching charac
 
 Dependencies:
 * T06.GK.02: Match "first," "next," and "last" labels to pictures in a 3-step sequence
+
 
 
 ID: T13.GK.02
@@ -16766,6 +16095,7 @@ Dependencies:
 * T09.GK.01: Recognize that labels can show different numbers
 
 
+
 ID: T13.GK.03
 Topic: T13 – 2D Games
 Skill: Sort picture cards into Start, Playing, and End game phases
@@ -16773,6 +16103,7 @@ Description: **Student task:** Drag picture cards showing different game moments
 
 Dependencies:
 * T01.GK.03: Tap the first and last picture cards in a sequence
+
 
 
 ID: T13.GK.04
@@ -16785,6 +16116,7 @@ Dependencies:
 * T13.GK.03: Sort picture cards into Start, Playing, and End
 
 
+
 ID: T13.GK.05
 Topic: T13 – 2D Games
 Skill: Identify what caused a score to increase
@@ -16792,6 +16124,7 @@ Description: Look at 3 picture cards showing game actions. Tap the card that sho
 
 Dependencies:
 * T13.GK.02: Recognize when a score changes in a simple game
+
 
 
 ID: T13.GK.06
@@ -16803,7 +16136,6 @@ Dependencies:
 * T01.GK.04: Select the picture sequence that makes sense
 
 
-## Grade 1 (6 skills)
 
 ID: T13.G1.01
 Topic: T13 – 2D Games
@@ -16813,6 +16145,7 @@ Description: Look at a labeled game level picture. Drag three labels (PLAYER, GO
 Dependencies:
 * T13.GK.06: Identify the player character in game pictures
 * T13.GK.03: Sort picture cards into Start, Playing, and End
+
 
 
 ID: T13.G1.02
@@ -16825,6 +16158,7 @@ Dependencies:
 * T13.GK.04: Match game goals to celebration pictures
 
 
+
 ID: T13.G1.03
 Topic: T13 – 2D Games
 Skill: Compare game difficulty using side-by-side picture cards
@@ -16832,6 +16166,7 @@ Description: Look at two versions of the same game level shown side by side. Cli
 
 Dependencies:
 * T01.GK.04: Select the picture sequence that makes sense
+
 
 
 ID: T13.G1.04
@@ -16844,6 +16179,7 @@ Dependencies:
 * T13.GK.01: Match arrow keys to character movements
 
 
+
 ID: T13.G1.05
 Topic: T13 – 2D Games
 Skill: Sort game items into "helps you" and "hurts you" categories
@@ -16852,6 +16188,7 @@ Description: Drag 6-8 game item picture cards into two labeled boxes: HELPS YOU 
 Dependencies:
 * T13.GK.05: Identify what caused a score to increase
 * T13.GK.04: Match game goals to celebration pictures
+
 
 
 ID: T13.G1.06
@@ -16864,7 +16201,6 @@ Dependencies:
 * T01.G1.10: Match situation pictures to if/then rules
 
 
-## Grade 2 (6 skills)
 
 ID: T13.G2.01
 Topic: T13 – 2D Games
@@ -16874,6 +16210,7 @@ Description: Look at picture cards showing turn-based game states with turn indi
 Dependencies:
 * T01.G1.01: Sequence four picture cards for planting a seed
 * T13.G1.02: Apply a simple game rule to picture sequences
+
 
 
 ID: T13.G2.02
@@ -16886,6 +16223,7 @@ Dependencies:
 * T13.G1.05: Sort game items into "helps you" and "hurts you" categories
 
 
+
 ID: T13.G2.03
 Topic: T13 – 2D Games
 Skill: Identify how to advance to the next level using picture pairs
@@ -16894,6 +16232,7 @@ Description: Match "before level ends" pictures to "condition met" pictures usin
 Dependencies:
 * T01.G1.01: Sequence four picture cards for planting a seed
 * T13.G1.01: Identify the player, goal, and obstacles using labeled picture cards
+
 
 
 ID: T13.G2.04
@@ -16906,6 +16245,7 @@ Dependencies:
 * T13.G1.04: Select the best next move using control picture cards
 
 
+
 ID: T13.G2.05
 Topic: T13 – 2D Games
 Skill: Select the picture that makes a game easier for new players
@@ -16914,6 +16254,7 @@ Description: Read or listen to a goal (e.g., "Make it easier for new players"). 
 Dependencies:
 * T13.G1.03: Compare game difficulty using side-by-side picture cards
 * T13.G1.06: Predict what happens when touching different game items
+
 
 
 ID: T13.G2.06
@@ -16926,7 +16267,6 @@ Dependencies:
 * T13.G2.02: Track lives through a picture sequence and predict Game Over
 
 
-## Grade 3 (14 skills)
 
 ID: T13.G3.01.01
 Topic: T13 – 2D Games
@@ -16936,6 +16276,7 @@ Description: Build sprite movement using `when [left arrow] key pressed` with `c
 Dependencies:
 * T13.G2.04: Sequence picture cards showing a safe path through a level
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+
 
 
 ID: T13.G3.01.02
@@ -16948,6 +16289,7 @@ Dependencies:
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
 
 
+
 ID: T13.G3.01.03
 Topic: T13 – 2D Games
 Skill: Debug and tune movement speed
@@ -16955,6 +16297,7 @@ Description: Test different step values in `change x by` and `change y by` block
 
 Dependencies:
 * T13.G3.01.02: Program 4-directional movement with arrow keys
+
 
 
 ID: T13.G3.02
@@ -16967,6 +16310,7 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 
 
+
 ID: T13.G3.03.01
 Topic: T13 – 2D Games
 Skill: Detect collision with goal sprite
@@ -16977,13 +16321,15 @@ Dependencies:
 * T13.G2.03: Identify how to advance to the next level using picture pairs
 
 
+
 ID: T13.G3.03.02
 Topic: T13 – 2D Games
 Skill: Detect touching a goal color
 Description: Use `if <touching color [green]?> then` block to detect when player reaches a colored goal area on the backdrop. This allows backdrop-based level design without sprite goals. Test with different goal colors and verify color picker selects exact color. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G3.03.01: Detect collision with goal sprite
+* T13.G3.03.01: Detect touching a goal sprite
+
 
 
 ID: T13.G3.04.01
@@ -16992,8 +16338,9 @@ Skill: Detect touching a hazard using sprite collision
 Description: Use `if <touching [Hazard]?> then` inside a forever loop to detect collision with hazard sprites (enemies, spikes, pits). When touched, provide feedback with `say [Ouch!]` and prepare for game over logic. Test collision detection from all sides of hazard. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G3.03.01: Detect collision with goal sprite
+* T13.G3.03.01: Detect touching a goal sprite
 * T07.G3.03: Build a forever loop for simple animation
+
 
 
 ID: T13.G3.04.02
@@ -17006,6 +16353,7 @@ Dependencies:
 * T08.G3.02: Decide when a single if is enough
 
 
+
 ID: T13.G3.05
 Topic: T13 – 2D Games
 Skill: Create a start screen with button
@@ -17014,6 +16362,7 @@ Description: Design a "Start" button sprite that uses `when this sprite clicked`
 Dependencies:
 * T09.G3.02: Use a variable in a conditional (if block)
 * T06.G3.06: Trace a project with a single event and predict output
+
 
 
 ID: T13.G3.06
@@ -17026,6 +16375,7 @@ Dependencies:
 * T10.G3.01: Loop through and process each item in a list
 
 
+
 ID: T13.G3.07
 Topic: T13 – 2D Games
 Skill: Trigger Game Over with broadcast
@@ -17034,6 +16384,7 @@ Description: When a losing condition occurs (touching hazard, lives zero), broad
 Dependencies:
 * T13.G3.06: Program sprites to respond to game start
 * T08.G3.03: Pick the right conditional block for a scenario
+
 
 
 ID: T13.G3.08
@@ -17046,6 +16397,7 @@ Dependencies:
 * T07.G3.04: Use repeat-until to reach a simple goal
 
 
+
 ID: T13.G3.09
 Topic: T13 – 2D Games
 Skill: Create visual feedback with graphic effects
@@ -17056,18 +16408,62 @@ Dependencies:
 * T08.G3.04: Trace code with a single if/else
 
 
+
 ID: T13.G3.10
 Topic: T13 – 2D Games
 Skill: Create collectible items with clones
 Description: Use `create clone of [myself]` block to spawn multiple collectibles (coins, gems) at different positions. In the clone's `when I start as a clone` script, use `if <touching [Player]?> then [delete this clone]` to make items disappear when collected. Test that each clone deletes independently. Uses control_create_clone_with_id. _CSTA: 2-AP-14._
 
 Dependencies:
-* T13.G3.03.01: Detect collision with goal sprite
+* T13.G3.03.01: Detect touching a goal sprite
 * T07.G3.03: Build a forever loop for simple animation
 * T08.G3.01: Use a simple if in a script
 
 
-## Grade 4 (20 skills)
+
+ID: T13.G3.11
+Topic: T13 – 2D Games
+Skill: Program simple jump with key press
+Description: Create a jump by using `when [space] key pressed` with `change y by (50)`, `wait (0.3) seconds`, `change y by (-50)` to create a hop. Test jump height and duration. This simple jump pattern works for basic platformers before learning physics-based jumping. _CSTA: 2-AP-10._
+
+Dependencies:
+* T13.G3.01.02: Move sprite in 4 directions with arrow keys
+* T06.G3.02: Build a key-press script that controls a sprite
+
+
+
+ID: T13.G3.12
+Topic: T13 – 2D Games
+Skill: Debug collision detection that doesn't trigger
+Description: Trace why collision doesn't work by checking: (1) Is collision check inside a loop? (2) Are sprite names spelled exactly right? (3) Does collision block test the right object? Add `say [checking]` blocks to verify the if-block runs. This develops systematic debugging skills. _CSTA: 2-AP-17._
+
+Dependencies:
+* T13.G3.04.01: Detect touching a hazard using sprite collision
+* T08.G3.04: Trace code with a single if/else
+
+
+
+ID: T13.G3.13
+Topic: T13 – 2D Games
+Skill: Test edge cases in boundary checking
+Description: Systematically test boundary code by deliberately moving sprite to each screen edge (top, bottom, left, right) and both corners. Verify sprite stops exactly at boundary without going offscreen or bouncing. Adjust boundary values if gaps appear. _CSTA: 2-AP-17._
+
+Dependencies:
+* T13.G3.02: Keep sprite on screen
+* T08.G3.01: Use a simple if in a script
+
+
+
+ID: T13.G3.14
+Topic: T13 – 2D Games
+Skill: Verify game start sequence works correctly
+Description: Test the complete startup flow: (1) Verify all sprites are hidden at green flag, (2) Start button is visible and clickable, (3) Clicking button broadcasts message, (4) All game sprites appear and become active. Debug if any sprite appears too early or doesn't respond. _CSTA: 2-AP-17._
+
+Dependencies:
+* T13.G3.06: Program sprites to respond to game start
+* T07.G3.04: Use repeat-until to reach a simple goal
+
+
 
 ID: T13.G4.01
 Topic: T13 – 2D Games
@@ -17078,6 +16474,7 @@ Dependencies:
 * T13.G3.01.02: Program 4-directional movement with arrow keys
 * T06.G3.02: Build a key-press script that controls a sprite
 * T08.G3.01: Use a simple if in a script
+
 
 
 ID: T13.G4.02
@@ -17091,15 +16488,17 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 
 
+
 ID: T13.G4.03
 Topic: T13 – 2D Games
 Skill: Clean up projectiles at screen edge
 Description: Add `if <touching edge?> then [delete this clone]` inside the projectile's movement loop to prevent lag from offscreen projectiles. Test by firing projectiles in all directions and verifying they disappear at edges. This prevents performance issues. _CSTA: 2-AP-14._
 
 Dependencies:
-* T13.G4.02: Program projectile movement and hit detection
+* T13.G4.02: Move projectile clone continuously
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
 * T08.G3.01: Use a simple if in a script
+
 
 
 ID: T13.G4.04.01
@@ -17108,9 +16507,10 @@ Skill: Create horizontal patrol movement
 Description: Program enemy with `forever` loop containing `move (3) steps`, `if <touching edge?> then [turn 180 degrees]` to patrol back and forth. Adjust speed by changing step size. Test that enemy reverses smoothly at boundaries. Uses motion_movesteps and motion_turnright. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G3.02: Constrain sprite within screen boundaries
+* T13.G3.02: Keep sprite on screen
 * T07.G3.03: Build a forever loop for simple animation
 * T08.G3.01: Use a simple if in a script
+
 
 
 ID: T13.G4.04.02
@@ -17124,15 +16524,17 @@ Dependencies:
 * T07.G3.01: Use a counted repeat loop
 
 
+
 ID: T13.G4.05.01
 Topic: T13 – 2D Games
 Skill: Point sprite toward player
 Description: Use `point towards [Player]` block to make an enemy sprite rotate to face the player sprite. Place inside a forever loop to continuously track player position. Test by moving player around and observing enemy rotation. Uses motion_pointtowards. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
+* T13.G3.01.02: Move sprite in 4 directions with arrow keys
 * T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
 * T07.G3.03: Build a forever loop for simple animation
+
 
 
 ID: T13.G4.05.02
@@ -17146,6 +16548,7 @@ Dependencies:
 * T08.G3.01: Use a simple if in a script
 
 
+
 ID: T13.G4.06
 Topic: T13 – 2D Games
 Skill: Create and manage a Score variable
@@ -17156,15 +16559,6 @@ Dependencies:
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
-ID: T13.G4.06.01
-Topic: T13 – 2D Games
-Skill: Display score using widget label
-Description: Create a custom score display using `widget_addlabel` block to show score in a styled label widget. **Setup:** Use `widget_addlabel` with text set to `join [Score: ] (Score)` variable, position at top-right of stage, and style with large font and bright color. **Update:** Inside a forever loop, use `widget_settext` to continuously update the label with current score value. **Advantages over variable monitor:** Custom positioning, styling, and integration with game UI theme. **Test:** Collect items and verify label updates in real-time. Uses widget_addlabel and widget_settext blocks. _CSTA: 2-AP-17._
-
-Dependencies:
-* T13.G4.06: Create and manage a Score variable
-* T09.G3.01.04: Display variable value on stage using the variable monitor
-
 
 ID: T13.G4.07
 Topic: T13 – 2D Games
@@ -17174,940 +16568,990 @@ Description: Create a `Lives` variable, initialize to 3 at game start with `set 
 Dependencies:
 * T13.G3.07: Trigger Game Over with broadcast
 * T13.G3.04.01: Detect touching a hazard using sprite collision
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G4.08
 Topic: T13 – 2D Games
-Skill: Implement temporary invincibility after damage
-Description: After taking damage, set an `Invincible` variable to 1, wait 2 seconds, then set back to 0. Modify damage detection to check `if <(Invincible) = (0)> and <touching [Enemy]?>`. Add visual feedback with ghost effect during invincibility. Test that player can't take damage twice rapidly. _CSTA: 2-AP-13._
+Skill: Create a countdown timer
+Description: Create a `Timer` variable set to 30, use `repeat until <(Timer) = (0)>` with `change [Timer] by (-1)` and `wait (1) seconds` inside. When timer reaches zero, broadcast Game Over. Test timer counts correctly. _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G4.07: Create and manage a Lives variable
-* T09.G3.02: Use a variable in a conditional (if block)
+* T13.G3.07: Trigger Game Over with broadcast
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G4.09
 Topic: T13 – 2D Games
-Skill: Build a timer system
-Description: Create a `Timer` variable, set to 60 at game start, use `forever { wait (1) second, change [Timer] by (-1), if <(Timer) = (0)> then [broadcast Time Up] }` to count down. Show timer monitor. Test countdown and time-up trigger. _CSTA: 2-AP-11._
+Skill: Detect win condition with score threshold
+Description: Use `if <(Score) > (9)> then [broadcast Level Complete]` to check if player has collected enough items to win. Place check inside forever loop or after collecting each item. Test that win triggers at correct score. _CSTA: 2-AP-13._
 
 Dependencies:
+* T13.G3.03.01: Detect touching a goal sprite
 * T13.G4.06: Create and manage a Score variable
-* T09.G3.02: Use a variable in a conditional (if block)
+* T08.G3.01: Use a simple if in a script
+
 
 
 ID: T13.G4.10
 Topic: T13 – 2D Games
-Skill: Implement win condition based on score
-Description: Add `if <(Score) > (10)> then [broadcast You Win]` inside the forever loop that updates score. Create a win screen sprite that appears when receiving the broadcast. Test that reaching the target score triggers victory. _CSTA: 2-AP-13._
+Skill: Switch backdrop for next level
+Description: Use `when I receive [Level Complete]` to switch backdrop with `switch backdrop to [Level2]` and reset player position with `go to x: (-200) y: (0)`. Reset Score and Lives if needed. Test backdrop changes and position resets. Uses motion_gotoxy. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G4.06: Create and manage a Score variable
-* T13.G3.07: Trigger Game Over with broadcast
+* T13.G4.09: Detect win condition with score threshold
+* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+
 
 
 ID: T13.G4.11
 Topic: T13 – 2D Games
-Skill: Create multi-level progression
-Description: Create a `Level` variable starting at 1. When win condition is met, use `change [Level] by (1)` and `broadcast [Next Level]`. Each level sprite should respond by switching backdrop and resetting positions. Test progression through 2-3 levels. _CSTA: 2-AP-16._
+Skill: Save and restore checkpoint position
+Description: Create `CheckpointX` and `CheckpointY` variables. When touching checkpoint sprite, use `set [CheckpointX] to (x position)` and `set [CheckpointY] to (y position)`. After hazard collision, use `go to x: (CheckpointX) y: (CheckpointY)` instead of level start. Test checkpoint save and restore. _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G4.10: Implement win condition based on score
-* T09.G3.02: Use a variable in a conditional (if block)
+* T13.G3.04.01: Detect touching a hazard using sprite collision
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G4.12
 Topic: T13 – 2D Games
-Skill: Add power-up collectibles with temporary effects
-Description: Create power-up sprite clones that set a `PowerUp` variable to 1 when collected, apply effect (e.g., double speed: `move (20) steps` instead of 10), wait 5 seconds, then reset. Test power-up timing and effect. _CSTA: 2-AP-14._
+Skill: Create temporary power-up with timer
+Description: When collecting a power-up, set boolean variable `PowerUp` to true, apply effect (increase speed, invincibility), use `wait (5) seconds`, then set `PowerUp` to false and remove effect. Use `if <(PowerUp) = [true]>` to check active status. Test power-up duration and effects. _CSTA: 2-AP-11._
 
 Dependencies:
 * T13.G3.10: Create collectible items with clones
-* T09.G3.02: Use a variable in a conditional (if block)
+* T13.G4.08: Create a countdown timer
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G4.13
 Topic: T13 – 2D Games
-Skill: Debug score not updating correctly
-Description: Trace score changes by adding `say [Score changed!]` blocks after each `change [Score]` command. Verify collision detection runs before score changes. Check that score resets properly at game start. Test edge cases like collecting multiple items rapidly. _CSTA: 2-AP-17._
+Skill: Pause and resume with variable flag
+Description: Create boolean `Paused` variable. When P key pressed, toggle pause state. In all game scripts, add `wait until <not <(Paused) = [true]>>` in main loops to freeze game when paused. Test pause/resume functionality. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G4.06: Create and manage a Score variable
-* T08.G3.04: Trace code with a single if/else
+* T13.G3.07: Trigger Game Over with broadcast
+* T08.G3.01: Use a simple if in a script
+
 
 
 ID: T13.G4.14
 Topic: T13 – 2D Games
-Skill: Balance game difficulty through testing
-Description: Play-test your game multiple times adjusting: enemy speed, player lives, timer duration, and score goals. Document what feels too easy vs. too hard. Aim for 70% success rate for target skill level. This teaches design iteration. _CSTA: 2-AP-17._
+Skill: Reset all sprites on restart message
+Description: Create `when I receive [Restart]` scripts for every sprite that reset position with `go to x: () y: ()`, costume with `switch costume to [costume1]`, and visibility with `show` or `hide`. Reset all variables to starting values. Test complete game reset. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G4.07: Create and manage a Lives variable
-* T13.G4.09: Build a timer system
+* T13.G3.07: Trigger Game Over with broadcast
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G4.15
 Topic: T13 – 2D Games
-Skill: Trace game state transitions
-Description: Map out game flow: Start → Playing → Win/Lose → Restart. Trace which broadcasts trigger which state changes. Add debug messages at each state transition. Verify all paths work correctly (can you restart after winning? after losing?). _CSTA: 2-AP-17._
+Skill: Create damage flash effect with invincibility
+Description: When taking damage, use `repeat (5)` loop with `set [ghost] effect to (50)`, `wait (0.1) seconds`, `clear graphic effects`, `wait (0.1) seconds` to flash sprite. Set temporary `Invincible` variable to prevent multiple hits during flash. Test visual feedback. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.07: Trigger Game Over with broadcast
-* T13.G4.10: Implement win condition based on score
+* T13.G3.09: Create visual feedback with graphic effects
+* T13.G4.07: Create and manage a Lives variable
+* T07.G3.01: Use a counted repeat loop
+
 
 
 ID: T13.G4.16
 Topic: T13 – 2D Games
-Skill: Implement parallax scrolling background
-Description: Create multiple backdrop layers (clouds, mountains, ground) as sprites. Move them at different speeds in a forever loop (clouds slowest, ground fastest) to create depth illusion. Test smooth scrolling without gaps. _CSTA: 2-AP-17._
+Skill: Layer sound effects without cutting off
+Description: Use `start sound [sound]` instead of `play sound until done` to allow multiple sounds to play simultaneously (movement, collection, background music). Test that collecting multiple items quickly doesn't cut off sound effects. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.01.01: Program horizontal movement with arrow keys
-* T07.G3.03: Build a forever loop for simple animation
+* T13.G3.08: Add sound effects to player actions
+* T13.G4.06: Create and manage a Score variable
+
 
 
 ID: T13.G4.17
 Topic: T13 – 2D Games
-Skill: Create settings menu with widget slider
-Description: Build a settings menu using widget blocks. **Setup:** Create a Settings sprite with `when this sprite clicked` event. **Slider creation:** Use `widget_addslider` block to create a volume slider with range 0-100, positioned at center of stage. **Apply settings:** Use `widget_getvalue` to read slider value and store in a `Volume` variable, then use `set volume to (Volume)%` to apply the setting. **Test:** Click settings, adjust slider, verify volume changes. This introduces game UI design using widget_addslider and widget_getvalue blocks. _CSTA: 2-AP-16._
+Skill: Debug clone cleanup issues
+Description: Trace clone-related bugs by verifying: (1) Each clone has `when I start as a clone` script, (2) Clones delete with `delete this clone` when needed, (3) Forever loops in clones stop when deleted. Add `say [clone created]` for debugging. Test that clones don't accumulate. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.05: Create a start screen with button
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G4.03: Clean up projectiles at screen edge
+* T13.G3.10: Create collectible items with clones
+
 
 
 ID: T13.G4.18
 Topic: T13 – 2D Games
-Skill: Design complete game loop with restart
-Description: Integrate start screen, gameplay, win/loss conditions, and restart button. Ensure all variables reset properly, sprites return to starting positions, and game can be replayed infinitely without refresh. Test complete loop 3+ times. _CSTA: 2-AP-16._
+Skill: Test and balance game difficulty
+Description: Systematically test game by adjusting enemy speed, projectile speed, lives count, and timer duration. Play test multiple times and record whether game is too easy or too hard. Adjust values incrementally until balanced. This builds design and iteration skills. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.15: Trace game state transitions
-* T13.G4.11: Create multi-level progression
+* T13.G4.07: Create and manage a Lives variable
+* T13.G4.08: Create a countdown timer
 
 
-## Grade 5 (18 skills)
 
 ID: T13.G5.01
 Topic: T13 – 2D Games
-Skill: Implement physics-based jumping
-Description: Create realistic jump using gravity simulation. **Setup:** Create `YVelocity` variable. **Jump start:** When space pressed and on ground, `set [YVelocity] to (15)`. **Gravity loop:** In forever loop, use `change y by (YVelocity)` then `change [YVelocity] by (-1)` to simulate gravity pulling down. **Ground collision:** Add `if <(y position) < (-140)> then [set y to (-140), set [YVelocity] to (0)]` to stop at ground. **Test:** Verify smooth parabolic arc, can't double-jump, lands correctly. _CSTA: 2-AP-13._
+Skill: Implement velocity-based movement with gravity
+Description: Create `x velocity` and `y velocity` variables to control sprite movement. Use `change y by (y velocity)` in a forever loop to apply velocity. Add gravity by using `change [y velocity] by (-0.5)` each frame. Tune gravity values to achieve desired jump arcs and falling speed. Test different gravity strengths (moon physics vs. snappy platforming). _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G3.11: Program simple jump with key press
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G5.02
 Topic: T13 – 2D Games
-Skill: Detect platform collision and landing
-Description: Create platform sprites with specific colors. Use `if <touching color [platform brown]?> and <(YVelocity) < (0)>> then [set y to top of platform, set [YVelocity] to (0)]` to land on platforms. Test jumping between multiple platforms at different heights. _CSTA: 2-AP-13._
+Skill: Handle platform collisions
+Description: Prevent falling through floors using collision detection. When touching ground color or sprite, use `repeat until <not <touching [Ground]?>>` with `change y by (1)` to nudge the player up. Set y velocity to 0 when landing. Implement ground detection for jumping (only allow jump when `touching color [green]?`). _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G5.01: Implement physics-based jumping
-* T13.G3.04.02: Detect touching a hazard using color collision
+* T13.G5.01: Implement velocity-based movement with gravity
+* T07.G3.04: Use repeat-until to reach a simple goal
+* T08.G3.01: Use a simple if in a script
+
 
 
 ID: T13.G5.02.01
 Topic: T13 – 2D Games
-Skill: Debug falling through platforms
-Description: If player falls through platforms, check: (1) Is YVelocity negative check present? (2) Is y-position set correctly to platform top? (3) Does platform color match exactly? Add debug `say` blocks to show YVelocity value during collision. _CSTA: 2-AP-17._
+Skill: Compare manual velocity to physics engine simulation
+Description: Trace and predict the differences between manual velocity code (using variables and change-by blocks) versus the built-in physics engine. **Manual velocity:** You control every aspect with code—adding gravity each frame, checking floor collision, stopping y-velocity when landing. **Physics engine:** Automatic gravity, realistic bounce, rotation from impacts. Create two versions of a falling ball: one with manual `change [y velocity] by (-0.5)` in a loop, one with physics engine enabled. Observe differences: physics engine handles edge cases (bouncing, spinning) that would require many lines of manual code. This prepares you to choose the right approach for your game. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G5.02: Detect platform collision and landing
+* T13.G5.02: Handle platform collisions
 
 
 ID: T13.G5.03
 Topic: T13 – 2D Games
-Skill: Create moving platform
-Description: Create platform sprite with `forever { glide (3) secs to x:(200) y:(0), glide (3) secs to x:(-200) y:(0) }`. When player lands on it, add `change x by (platform's x velocity)` to move player with platform. Test that player stays on moving platform. _CSTA: 2-AP-13._
+Skill: Enable 2D physics engine
+Description: Use `turn physics on with type [dynamic]` (CreatiCode physics_turnonphysics block) to enable realistic physics simulation on sprites. **Three physics body types:** `dynamic` = moves, affected by gravity and forces (use for player, balls, enemies), `static` = immovable obstacle (use for platforms, walls, ground), `sensor` = detects collisions but doesn't block movement (use for trigger zones, coin collection areas). Trace: when physics turns on, sprite immediately falls due to gravity. Debug: if sprite falls through floor, ensure floor sprite has `type [static]` physics enabled. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G5.02: Detect platform collision and landing
-* T13.G4.04.02: Create glide patrol between points
+* T13.G5.02.01: Compare manual velocity to physics engine simulation
+
 
 
 ID: T13.G5.04
 Topic: T13 – 2D Games
-Skill: Implement wall jumping
-Description: When touching wall color and space pressed, set YVelocity to 12 and change x by 20 (away from wall) to create wall jump. Add `if <touching color [wall]?> then [allow wall jump]` condition. Test jumping between parallel walls. _CSTA: 2-AP-13._
+Skill: Apply physics forces and impulses
+Description: Use `apply force x (X) y (Y)` (CreatiCode physics_applyforce) to push physics sprites with gradual acceleration. Use `apply impulse x (X) y (Y)` (CreatiCode physics_applyimpulse) for instant velocity changes like jumping. Set velocity directly with `set velocity x to (VX)` and `set velocity y to (VY)` (CreatiCode physics_setvelocityx/y) for precise control. Test how forces respect mass while velocity setters provide consistent speed. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G5.01: Implement physics-based jumping
-* T13.G3.04.02: Detect touching a hazard using color collision
+* T13.G5.03: Enable 2D physics engine
+
 
 
 ID: T13.G5.05
 Topic: T13 – 2D Games
-Skill: Program enemy patrol with direction tracking
-Description: Create `EnemyDirection` variable. Use `forever { if <(EnemyDirection) = (1)> then [move (3) steps] else [move (-3) steps], if <touching edge?> or <touching color [wall]?> then [set [EnemyDirection] to (0 - EnemyDirection)] }` to patrol and reverse. Test patrol between walls. _CSTA: 2-AP-13._
+Skill: Configure physics properties for mass, bounce, and friction
+Description: Adjust physics sprite properties to tune gameplay feel. **Mass:** `set mass to (MASS)` (CreatiCode physics_setMass)—heavier objects push lighter ones, respond less to forces. **Bounciness (restitution):** `set bounciness to (VALUE)` (CreatiCode physics_setrestitution)—0=no bounce (stops on impact), 1=perfect bounce (ball returns to original height). **Friction:** `set friction to (VALUE)` (CreatiCode physics_setfrictioncoefficient)—0=ice (slides forever), 1=rubber (stops quickly). **Collision shape:** `set physics shape to [rectangle/circle]`—circle rolls smoothly, rectangle slides. Trace: ball with bounciness=0.8 drops from height 100, bounces to height 80, then 64, then 51... _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G4.04.01: Create horizontal patrol movement
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G5.03: Enable 2D physics engine
 
 
 ID: T13.G5.05.01
 Topic: T13 – 2D Games
-Skill: Add animation to enemy patrol
-Description: Extend patrol code to switch costumes based on direction: `if <(EnemyDirection) = (1)> then [switch costume to [right]] else [switch costume to [left]]` inside patrol loop. Test that enemy faces movement direction. _CSTA: 2-AP-17._
+Skill: Tune damping for game feel
+Description: Use `set damping to (VALUE)` (CreatiCode physics_setdampingfactor) to control how quickly physics objects slow down in air/space. **Damping values:** 0=no damping (objects maintain velocity forever, space physics), 0.1-0.3=light air resistance (normal platformer feel), 0.5+=heavy resistance (underwater/mud feel). Test movement feel by adjusting damping: low damping creates floaty, momentum-based movement; high damping creates snappy, responsive control. Create three physics profiles: **Space** (damping=0, gravity scale=0.1), **Normal** (damping=0.2, gravity scale=1), **Underwater** (damping=0.5, gravity scale=0.3). Compare how each feels when controlling the player. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G5.05: Program enemy patrol with direction tracking
+* T13.G5.05: Configure physics properties for mass, bounce, and friction
+
 
 
 ID: T13.G5.06
 Topic: T13 – 2D Games
-Skill: Create enemy that shoots projectiles
-Description: In enemy sprite, add `forever { wait (2) seconds, create clone of [Enemy Bullet] }` to shoot periodically. In Enemy Bullet clone script, use `go to [Enemy]`, `point towards [Player]`, then move continuously. Test enemy shooting at player. _CSTA: 2-AP-14._
+Skill: Detect and respond to physics collisions
+Description: Use `when I collide with [Sprite]` event (CreatiCode physics_whencollidebegin) to trigger code when physics bodies touch. **Collision event provides context:** the touching sprite's name is available for conditional responses. Use `collision force` reporter (CreatiCode physics_getimpactforce) to measure impact strength—high force = hard hit (deal damage), low force = soft touch (ignore). Use `colliding below?` (CreatiCode physics_getcollidingbottom) to detect ground contact for jump logic. Trace: player lands on platform → colliding below becomes true → allow jump input. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G4.01: Spawn projectile clones from player position
-* T13.G4.05.01: Point sprite toward player
+* T13.G5.03: Enable 2D physics engine
 
 
 ID: T13.G5.06.01
 Topic: T13 – 2D Games
-Skill: Vary enemy shot timing with randomization
-Description: Change enemy shooting to `wait (pick random (1) to (4)) seconds` to make shooting unpredictable. Test that shots occur at irregular intervals, increasing difficulty. _CSTA: 2-AP-14._
+Skill: Configure collision groups for selective collisions
+Description: Use collision groups (numbered 0-15) to control which physics objects collide with each other. Use `set physics group to [1]` (CreatiCode physics_setbodygroup) to assign sprites to groups. Use `enable collision with group [2]` and `disable collision with group [3]` (CreatiCode physics_addcollisiongroup, physics_removecollisiongroup) to configure interactions. **Design pattern:** Group 1 = Player, Group 2 = Enemies, Group 3 = Player bullets, Group 4 = Enemy bullets. Configure: Player bullets collide with Enemies (damage), Player bullets don't collide with Player (pass through). This prevents friendly fire and enables complex game logic. Debug: if objects pass through each other unexpectedly, check collision group settings. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G5.06: Create enemy that shoots projectiles
+* T13.G5.06: Detect and respond to physics collisions
 
 
 ID: T13.G5.06.02
 Topic: T13 – 2D Games
-Skill: Debug projectile direction errors
-Description: If projectiles move in wrong direction, add `say [direction]` after `point towards` to verify angle. Check that `go to` runs before `point towards`. Verify movement uses correct direction value. _CSTA: 2-AP-17._
+Skill: Use dominance groups for collision resolution
+Description: Use `set dominance group to [VALUE]` (CreatiCode physics_setdominancegroup) with values from -127 to 127 to control which sprite "wins" when two physics objects collide. **Higher dominance = immovable against lower dominance.** Example: Player (dominance 0) collides with Heavy Door (dominance 100) → player is pushed back, door doesn't move. Player (dominance 0) collides with Light Box (dominance -50) → player pushes box easily. Trace: when dominance is equal, both objects move based on mass. When dominance differs, lower-dominance object is always pushed. Use for: unmovable NPCs, heavy obstacles, lightweight collectibles. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G5.06: Create enemy that shoots projectiles
+* T13.G5.06: Detect and respond to physics collisions
 
 
 ID: T13.G5.07
 Topic: T13 – 2D Games
-Skill: Implement combo score multiplier
-Description: Create `Combo` variable that increases by 1 for each rapid collection (within 2 seconds). When collecting item: `change [Score] by (Combo)`, `set [Combo] to ((Combo) + (1))`. After 2 seconds of no collection, `set [Combo] to (1)`. Test combo building and timeout. _CSTA: 2-AP-11._
+Skill: Track and control viewport position
+Description: Use `viewport x` and `viewport y` reporters (CreatiCode motion_viewportx/y blocks) to read camera position. Use `move viewport to x (X) y (Y)` (CreatiCode motion_move_viewport) to manually position the camera. Use `detach from viewport` (CreatiCode motion_detachfromviewport) to unlock sprites from camera movement. _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G4.06: Create and manage a Score variable
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G4.10: Switch backdrop for next level
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G5.08
 Topic: T13 – 2D Games
-Skill: Create checkpoint system
-Description: Create `CheckpointX` and `CheckpointY` variables. When touching checkpoint sprite, save position: `set [CheckpointX] to (x position)`, `set [CheckpointY] to (y position)`. On death, respawn at checkpoint instead of start: `go to x:(CheckpointX) y:(CheckpointY)`. Test multiple checkpoints. _CSTA: 2-AP-11._
+Skill: Lock camera to player
+Description: Use `lock viewport to sprite [Player]` (CreatiCode viewport control) to make the camera follow the player automatically. Test viewport behavior at map boundaries to ensure the camera stops scrolling when reaching edges. Use `attach to viewport at x (X) y (Y)` to pin HUD elements (score, lives, buttons) to the screen so they don't scroll. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.07: Create and manage a Lives variable
-* T13.G3.03.01: Detect collision with goal sprite
+* T13.G5.07: Track and control viewport position
+* T13.G4.10: Switch backdrop for next level
+
 
 
 ID: T13.G5.09
 Topic: T13 – 2D Games
-Skill: Build boss fight with health system
-Description: Create `BossHealth` variable set to 20. When boss is hit by player bullet, `change [BossHealth] by (-1)`. Use `if <(BossHealth) = (0)> then [broadcast Boss Defeated]`. Display boss health bar using variable monitor. Test boss taking damage and defeat. _CSTA: 2-AP-11._
+Skill: Spawn objects relative to viewport
+Description: Combine viewport reporters with offsets to spawn enemies near camera edges: `go to x ((viewport x) + (pick random 240 to 300)) y ((viewport y))`. This makes enemies enter smoothly from off-screen rather than popping into view. _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G4.02: Program projectile movement and hit detection
-* T13.G4.07: Create and manage a Lives variable
+* T13.G5.07: Track and control viewport position
+* T13.G4.01: Spawn a projectile clone at player position
+
 
 
 ID: T13.G5.10
 Topic: T13 – 2D Games
-Skill: Create boss attack patterns
-Description: Design boss with multiple attack phases based on health. Use nested ifs: `if <(BossHealth) > (10)> then [attack pattern 1] else [if <(BossHealth) > (5)> then [attack pattern 2] else [attack pattern 3]]`. Test that boss changes behavior at health thresholds. _CSTA: 2-AP-13._
+Skill: Create timed enemy waves
+Description: Use loops with timers to spawn sets of enemies at intervals using `repeat (count) times` with `wait (seconds) seconds`. Store wave number in a variable and increase enemy count, speed, or difficulty with each wave to create escalating challenge. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G5.09: Build boss fight with health system
-* T08.G4.01: Use nested ifs for complex decisions
+* T13.G4.08: Create a countdown timer
+* T13.G4.01: Spawn a projectile clone at player position
+* T07.G3.01: Use a counted repeat loop
+
 
 
 ID: T13.G5.11
 Topic: T13 – 2D Games
-Skill: Implement scrolling camera following player
-Description: Make all non-player sprites follow player movement in reverse. When player moves right, all other sprites `change x by (-player's x change)`. Create smooth following by tracking player's last position and calculating delta. Test camera following player movement. _CSTA: 2-AP-13._
+Skill: Track high scores with lists
+Description: Create a `High Scores` list to store multiple score values. When game ends, add current score with `add [Score] to [High Scores]`. Implement sorting logic to arrange scores from highest to lowest. Keep only top 10 scores by checking `length of [High Scores]` and deleting lowest scores. Display top 5 scores on game over screen. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G4.06: Create and manage a Score variable
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G5.12
 Topic: T13 – 2D Games
-Skill: Create procedural level generation
-Description: Use `create clone of [Platform]` with `set x to (pick random (-200) to (200))` and `set y to (pick random (-100) to (100))` to generate random platform positions at game start. Test that levels are playable but different each time. _CSTA: 2-AP-14._
+Skill: Create inventory system
+Description: Create an `Inventory` list to track collected items. Add items with `add [Key] to [Inventory]` when touched. Check inventory membership with `<[Inventory] contains [Key]?>` before allowing actions (opening doors, using abilities). Remove used items with `delete (position) of [Inventory]`. Track quantities with a parallel list for stackable items. _CSTA: 2-AP-13._
 
 Dependencies:
 * T13.G3.10: Create collectible items with clones
-* T10.G4.02: Use lists to organize and manage game data
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G5.13
 Topic: T13 – 2D Games
-Skill: Build achievement system with list
-Description: Create `Achievements` list to track accomplishments. When condition met (e.g., score > 100), check `if <[Achievements] contains [High Score]?> = false then [add [High Score] to [Achievements]]`. Display achievements on screen. Test unlocking multiple achievements. _CSTA: 2-AP-11._
+Skill: Display inventory visually
+Description: Create sprite clones for each inventory item and position them near the HUD using `attach to viewport`. Update displayed icons dynamically as items are collected or used. Limit inventory capacity by checking `<(length of [Inventory]) < (10)>` before adding items. _CSTA: 2-AP-17._
 
 Dependencies:
-* T10.G4.02: Use lists to organize and manage game data
-* T13.G4.10: Implement win condition based on score
+* T13.G5.12: Create inventory system
+* T13.G5.08: Lock camera to player
+* T13.G4.01: Spawn a projectile clone at player position
+
 
 
 ID: T13.G5.14
 Topic: T13 – 2D Games
-Skill: Store level data in table variable
-Description: Create a table variable `LevelData` to store complex level information with columns for level number, enemy count, time limit, and required score. **Setup:** Use `table_addrow` to add rows like: `[Level: 1, Enemies: 3, Time: 60, TargetScore: 10]`, `[Level: 2, Enemies: 5, Time: 45, TargetScore: 15]`. **Loading level:** Use `table_getvalue` with row = current level and column names to retrieve data: `set [TimeLimit] to (table_getvalue [LevelData] row:(Level) column:[Time])`. **Advantages:** Centralized level configuration, easy to add new levels without changing code logic, supports complex data structures. **Test:** Progress through levels and verify each level loads correct parameters (enemy count, time, score goal) from table. Uses table_create, table_addrow, and table_getvalue blocks. _CSTA: 2-AP-11._
+Skill: Advanced viewport spawning patterns
+Description: Combine `viewport x`/`viewport y` with random offsets to create varied spawn patterns: enemies entering from sides, items falling from above, obstacles ahead of player. Use distance calculations to spawn objects when camera approaches specific positions. _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G4.11: Create multi-level progression
-* T10.G5.01: Use table variables to organize related data
+* T13.G5.09: Spawn objects relative to viewport
+* T13.G5.10: Create timed enemy waves
+
 
 
 ID: T13.G5.15
 Topic: T13 – 2D Games
-Skill: Debug performance issues with too many clones
-Description: If game lags, count active clones using a `CloneCount` variable. Add limits: `if <(CloneCount) < (20)> then [create clone]`. Delete offscreen clones immediately. Test performance with clone limits. _CSTA: 2-AP-17._
+Skill: Design balanced physics parameters through iteration
+Description: Experiment systematically with physics values to achieve desired game feel. **Variables to tune:** Jump impulse (50-200), gravity scale (0.5-2.0), damping (0-0.5), friction (0-1), bounciness (0-1). **Testing methodology:** Change one variable at a time, play test, record observations, repeat. **Document results:** "Impulse 100 + gravity 1.0 = realistic jump. Impulse 150 + gravity 0.5 = floaty moon jump." **Create physics profiles:** (1) Underwater: damping 0.5, gravity 0.3, slow floaty feel. (2) Moon: gravity 0.2, high jumps, slow falls. (3) Tight platformer: damping 0.1, gravity 1.5, snappy responsive control. Compare player experience across profiles. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.10: Create collectible items with clones
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G5.05.01: Tune damping for game feel
+
 
 
 ID: T13.G5.16
 Topic: T13 – 2D Games
-Skill: Trace and fix collision detection bugs
-Description: Add visual debugging to collision: use `set [ghost] effect to (50)` when collision detected, `say [touching!]` to confirm detection triggers. Check collision conditions run inside loops. Verify sprite names match exactly. _CSTA: 2-AP-17._
+Skill: Balance challenge through playtesting
+Description: Test your level with 3+ players and collect feedback. Identify sections where players struggle repeatedly (too hard) or breeze through (too easy). Adjust difficulty variables: enemy speed, platform spacing, timer length, hazard count. Document changes and re-test to verify improvements. _CSTA: 2-AP-19._
 
 Dependencies:
-* T13.G3.04.01: Detect touching a hazard using sprite collision
-* T08.G4.02: Trace complex conditional logic
+* T13.G5.10: Create timed enemy waves
+* T13.G4.09: Detect win condition with score threshold
+
 
 
 ID: T13.G5.17
 Topic: T13 – 2D Games
-Skill: Optimize game with broadcast efficiency
-Description: Reduce unnecessary broadcasts by combining related events. Instead of broadcasting every score change, only broadcast when reaching milestones. Use variables for frequent checks instead of broadcasts. Test that game responsiveness improves. _CSTA: 2-AP-17._
+Skill: Create reward feedback loops
+Description: Design systems that make collecting items satisfying: play sound effects immediately, animate items with effects before they disappear, show score increases with temporary text sprites, track combo multipliers for consecutive collections. Test that feedback feels responsive and rewarding. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.07: Trigger Game Over with broadcast
-* T09.G4.01: Build a program that uses variables for input and output
+* T13.G5.12: Create inventory system
+* T13.G3.08: Add sound effects to player actions
+* T13.G3.09: Create visual feedback with graphic effects
 
 
-## Grade 6 (19 skills)
+
+ID: T13.G5.18
+Topic: T13 – 2D Games
+Skill: Design scrolling level layouts
+Description: Create a large backdrop (wider than the stage) for scrolling levels. Plan level layout on paper or with a drawing tool, marking: starting position, collectible placement, enemy spawn points, platforms, goal location. Consider pacing: start easy, gradually increase challenge, add checkpoint after difficult section. Test that camera boundaries work correctly. _CSTA: 2-AP-17._
+
+Dependencies:
+* T13.G5.08: Lock camera to player
+* T13.G4.10: Switch backdrop for next level
+
+
 
 ID: T13.G6.01
 Topic: T13 – 2D Games
-Skill: Design inventory system with list
-Description: Create `Inventory` list to store collected items. When collecting power-up, `add [Shield] to [Inventory]`. Create UI sprite that displays inventory contents by iterating through list with `for each [item] in [Inventory]` showing each item. Test collecting and displaying multiple items. _CSTA: 2-AP-11._
+Skill: Implement game state machine
+Description: Create a `Game State` variable with values: "Menu", "Playing", "Paused", "GameOver". Use if-statements to check state before running game logic. Only allow movement when state = "Playing". Change state when events occur (Start button sets "Playing", ESC key sets "Paused"). Test all state transitions work correctly. _CSTA: 2-AP-13._
 
 Dependencies:
-* T10.G5.02: Build a project that processes list data with iteration
-* T13.G4.12: Add power-up collectibles with temporary effects
+* T13.G4.13: Pause and resume with variable flag
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G6.02
 Topic: T13 – 2D Games
-Skill: Implement item usage from inventory
-Description: When key pressed (e.g., "1"), use `item (1) of [Inventory]` to activate first item, then `delete (1) of [Inventory]` to remove it. Different items trigger different effects (shield, speed boost, extra life). Test using items and inventory updating. _CSTA: 2-AP-13._
+Skill: Define character state machine
+Description: Create a `Character State` variable with values: "Idle", "Running", "Jumping", "Falling", "Crouching", "Attacking". Document when each state should activate and what behaviors are allowed in each state. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G6.01: Design inventory system with list
-* T08.G5.01: Design multi-branch logic with if/else if/else
+* T13.G6.01: Implement game state machine
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G6.03
 Topic: T13 – 2D Games
-Skill: Create quest system with tracking
-Description: Create `Quests` list containing objectives like "Collect 5 coins", "Defeat 3 enemies". Create `QuestProgress` list to track completion counts. Update progress when events occur, check completion with `if <(item (1) of [QuestProgress]) = (5)>`. Test quest completion. _CSTA: 2-AP-11._
+Skill: Implement state transitions with validation
+Description: Write scripts that check current state and inputs to determine valid transitions. Example: if State = "Idle" and space pressed and on ground, set State to "Jumping". Prevent invalid transitions (can't jump while already jumping). Match costumes to states so visuals always reflect current state. _CSTA: 2-AP-13._
 
 Dependencies:
-* T10.G5.02: Build a project that processes list data with iteration
-* T13.G4.10: Implement win condition based on score
+* T13.G6.02: Define character state machine
+* T08.G3.03: Pick the right conditional block for a scenario
+
 
 
 ID: T13.G6.04
 Topic: T13 – 2D Games
-Skill: Build dialogue system with NPC
-Description: Create `DialogueLines` list with conversation text. Create NPC sprite that displays lines using `for each [line] in [DialogueLines] { say (line) for (3) seconds }` when clicked. Test multi-line dialogue flow. _CSTA: 2-AP-16._
+Skill: Gate actions by state
+Description: Before allowing player actions, check if they're valid for current state. Only allow shooting when State = "Idle" or "Running", not while "Jumping" or "Crouching". Only process movement input when Game State = "Playing", not in "Paused" or "Menu". This prevents bugs and creates polished game feel. _CSTA: 2-AP-13._
 
 Dependencies:
-* T10.G5.02: Build a project that processes list data with iteration
-* T13.G3.05: Create a start screen with button
+* T13.G6.03: Implement state transitions with validation
+* T08.G3.03: Pick the right conditional block for a scenario
+
 
 
 ID: T13.G6.05
 Topic: T13 – 2D Games
-Skill: Create branching dialogue choices
-Description: Extend dialogue with choices. Display question, show two option sprites (A/B). When option clicked, broadcast choice and continue with different dialogue paths. Use `if <(Choice) = (A)> then [show dialogue path A] else [show dialogue path B]`. Test both paths. _CSTA: 2-AP-13._
+Skill: Implement mode manager system
+Description: Create a `Game Mode` variable with values: "Play", "Pause", "Shop", "Cutscene". Place mode checks at the start of every sprite's main loop using if-statements. Only run physics, UI, and spawning in appropriate modes. This centralizes state control across all game sprites. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G6.04: Build dialogue system with NPC
-* T08.G5.01: Design multi-branch logic with if/else if/else
+* T13.G6.02: Define character state machine
+* T13.G4.13: Pause and resume with variable flag
+
 
 
 ID: T13.G6.06
 Topic: T13 – 2D Games
-Skill: Implement save/load with list export
-Description: Use custom blocks to save game state: create `SaveGame` block that adds all critical variables to a `SaveData` list, then export list. Create `LoadGame` block that imports list and restores variables. Test saving and loading game progress. _CSTA: 2-AP-14._
+Skill: Separate hitbox from visuals
+Description: Create a simple rectangular sprite as a hidden hitbox using `hide`. Use this for collision detection while a separate art sprite follows it with `go to [Hitbox]` and displays the visual character. This makes collision more accurate and easier to debug. Test that visual sprite stays aligned with hitbox. _CSTA: 2-AP-16._
 
 Dependencies:
-* T10.G5.02: Build a project that processes list data with iteration
-* T11.G5.01: Define a custom block with no parameters
+* T13.G5.02: Handle platform collisions
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G6.07
 Topic: T13 – 2D Games
-Skill: Create minimap display
-Description: Create minimap sprite that shows scaled-down version of level. Place small dots representing player and enemies at scaled positions: `set minimap dot x to ((player x) / (5))`. Update in forever loop. Test that minimap reflects actual positions. _CSTA: 2-AP-17._
+Skill: Multi-layer HUD management
+Description: Attach multiple sprites to viewport (score, minimap, buttons) and manage layering with `go to front layer` and `go back (N) layers` so UI always sits above gameplay while remaining interactive. Test that buttons are clickable and text stays readable. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.01.02: Program 4-directional movement with arrow keys
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G5.08: Lock camera to player
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G6.08
 Topic: T13 – 2D Games
-Skill: Build stealth detection system
-Description: Create vision cone for enemy using `if <(distance to [Player]) < (100)> and <towards [Player] is within 45 degrees of my direction> then [set [Detected] to (1)]`. Add stealth mechanics where being detected triggers alert. Test detection angles. _CSTA: 2-AP-13._
+Skill: Stream level chunks dynamically
+Description: Use viewport reporters to track camera position. Create game objects (platforms, enemies) when camera gets close using distance calculations: `<(distance to [viewport position]) < (300)>`. Delete objects far behind camera to optimize performance. This enables large scrolling levels without lag. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G4.05.01: Point sprite toward player
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G5.07: Track and control viewport position
+* T13.G5.08: Lock camera to player
+* T13.G4.01: Spawn a projectile clone at player position
+
 
 
 ID: T13.G6.09
 Topic: T13 – 2D Games
-Skill: Implement AI pathfinding between waypoints
-Description: Create `Waypoints` list with coordinates. Enemy moves through waypoints in order: `go to x:(item (WaypointIndex) of [WaypointsX]) y:(item (WaypointIndex) of [WaypointsY])`, then increment WaypointIndex. Test enemy following path. _CSTA: 2-AP-14._
+Skill: Create cinematic camera sequences
+Description: Use `detach from viewport` to unlock camera, then script camera movements with `move viewport to x () y ()` combined with glide or wait blocks for cutscenes. When cutscene ends, use `lock viewport to [Player]` to resume normal gameplay. _CSTA: 2-AP-17._
 
 Dependencies:
-* T10.G5.02: Build a project that processes list data with iteration
-* T13.G4.05.02: Create chasing enemy behavior
+* T13.G5.07: Track and control viewport position
+* T13.G5.08: Lock camera to player
+
 
 
 ID: T13.G6.10
 Topic: T13 – 2D Games
-Skill: Create wave-based enemy spawning
-Description: Create `Wave` variable. Each wave spawns increasing enemies: `repeat ((Wave) * (3)) { create clone of [Enemy], wait (1) second }`. When all enemies defeated, `change [Wave] by (1)` and spawn next wave. Test wave progression. _CSTA: 2-AP-14._
+Skill: Monitor and optimize clone count
+Description: Create a variable to count active clones. Increment when creating (`change [Clone Count] by (1)`), decrement when deleting. Display counter and observe during gameplay. If count exceeds 50, implement limits: reuse clones, delete off-screen clones immediately, or cap maximum spawns. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G3.10: Create collectible items with clones
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G4.01: Spawn a projectile clone at player position
+* T13.G4.03: Clean up projectiles at screen edge
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G6.11
 Topic: T13 – 2D Games
-Skill: Build combo attack system
-Description: Track button press timing with `PressTime` variable. If space pressed within 0.5 seconds of last press, increment `ComboStage`. Different combo stages trigger different attack animations and damage amounts. Reset combo after timeout. _CSTA: 2-AP-13._
+Skill: Program physics rotation and torque mechanics
+Description: Control sprite rotation with physics. **Angular velocity:** `set angular velocity to (DEGREES/SEC)` (CreatiCode physics_setangularvelocity)—positive=clockwise, negative=counter-clockwise. **Lock rotation:** `lock rotation` (CreatiCode physics_lockrotation)—essential for player characters that should stay upright despite collisions. **Off-center forces:** `apply force x (X) y (Y) at x (PX) y (PY)` (CreatiCode physics_applyforceatpoint)—force applied away from center creates spin (torque). **Direct torque:** `apply torque (TORQUE)` (CreatiCode physics_addtorque)—pure rotational force without movement. **Use cases:** Rolling balls (angular velocity), player characters (lock rotation), vehicle crashes (off-center impacts cause spin), spinning saw blades (constant torque). Trace: force applied at sprite's top-right corner pushes sprite right AND rotates counter-clockwise. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G4.01: Spawn projectile clones from player position
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G5.04: Apply physics forces and impulses
 
 
 ID: T13.G6.11.01
 Topic: T13 – 2D Games
-Skill: Add custom block for attack execution
-Description: Create custom block `ExecuteAttack [stage]` that takes combo stage as parameter and switches between attack types (light punch, heavy punch, kick). Call from combo system. Test attack variety. _CSTA: 2-AP-14._
+Skill: Detect and respond to ground slope
+Description: Use `ground slope` reporter (CreatiCode physics_getgroundslope) to read the angle of the surface below the sprite in degrees. **Slope values:** 0=flat ground, positive=uphill to right, negative=uphill to left. Combine with `colliding below?` to only read slope when touching ground. **Applications:** Rotate character sprite to match slope angle for realistic walking. Detect steep slopes (>45°) to trigger sliding behavior. Calculate slope-adjusted speed: reduce speed going uphill, increase going downhill using `cos of (slope)`. Debug: ensure ground detection is enabled with proper raycast distance. _CSTA: 2-AP-13._
 
 Dependencies:
-* T13.G6.11: Build combo attack system
-* T11.G5.02: Define a custom block with input parameters
+* T13.G5.06: Detect and respond to physics collisions
+
 
 
 ID: T13.G6.12
 Topic: T13 – 2D Games
-Skill: Implement dodge roll with cooldown
-Description: When dodge key pressed and `DodgeCooldown = 0`, set player to invincible, move quickly in current direction with `repeat (10) { move (15) steps }`, set cooldown to 3 seconds, gradually decrease cooldown in loop. Test dodge timing and cooldown. _CSTA: 2-AP-13._
+Skill: Design state-based character behavior
+Description: Map out a state diagram on paper showing all character states and valid transitions between them. For each state, document: allowed actions, costume/animation, entry conditions, exit conditions. Implement the system, then playtest to verify all transitions feel natural and no states can be entered incorrectly. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.08: Implement temporary invincibility after damage
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G6.03: Implement state transitions with validation
+
 
 
 ID: T13.G6.13
 Topic: T13 – 2D Games
-Skill: Create charge attack mechanic
-Description: Track how long attack button is held using timer. When released, damage = hold duration * multiplier. Visual feedback shows charge level increasing. Add max charge limit. Test different charge levels and damage output. _CSTA: 2-AP-13._
+Skill: Create enemy behavior patterns
+Description: Design and implement 3 distinct enemy types with different behaviors: patroller (moves back and forth), chaser (follows player), shooter (stays still, fires projectiles). For each enemy type, define: movement pattern, attack behavior, health/damage, and appropriate state machine. Test that each feels unique and provides different tactical challenges. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.01: Spawn projectile clones from player position
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G6.03: Implement state transitions with validation
+* T13.G4.04.01: Create horizontal patrol movement
+* T13.G4.05.02: Create chasing enemy behavior
+
 
 
 ID: T13.G6.14
 Topic: T13 – 2D Games
-Skill: Build tower defense spawn and path system
-Description: Create waypoint path for enemies. Spawn enemies at intervals that follow path using waypoint list. Player places tower sprites that shoot at enemies within range. Test enemy pathing and tower shooting. _CSTA: 2-AP-14._
+Skill: Design player feedback systems
+Description: Implement multi-sensory feedback for key player actions: hit effects (screen shake, sound, visual flash), collection feedback (particle effects, score popup, satisfying sound), successful actions (victory animation, fanfare). Test that feedback is noticeable but not overwhelming. Compare with vs. without feedback to feel the difference. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G6.09: Implement AI pathfinding between waypoints
-* T13.G5.06: Create enemy that shoots projectiles
+* T13.G5.17: Create reward feedback loops
+* T13.G3.08: Add sound effects to player actions
+
 
 
 ID: T13.G6.15
 Topic: T13 – 2D Games
-Skill: Implement resource management (wood, gold)
-Description: Create variables for multiple resources (Wood, Gold, Stone). Different actions cost different resources: `if <(Gold) > (10)> then [build tower, change [Gold] by (-10)]`. Display resources with monitors. Test gathering and spending resources. _CSTA: 2-AP-11._
+Skill: Balance resource management
+Description: Design and implement a resource system (ammo, health, stamina, energy). Determine starting amounts, consumption rates, and regeneration/collection mechanics. Playtest to ensure: resources feel limited but not frustrating, players make meaningful choices about when to use resources, scarcity creates tension. Adjust values based on testing. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.06: Create and manage a Score variable
-* T09.G5.01: Design a complex program using multiple variables
+* T13.G5.12: Create inventory system
+* T13.G4.07: Create and manage a Lives variable
+
 
 
 ID: T13.G6.16
 Topic: T13 – 2D Games
-Skill: Create upgrade system with costs
-Description: Create `TowerLevel` variable. When upgrade button clicked, check `if <(Gold) > (upgrade cost)> then [change [TowerLevel] by (1), change [Gold] by (0 - upgrade cost)]`. Higher level increases damage/range. Test upgrading and cost scaling. _CSTA: 2-AP-13._
+Skill: Design level pacing and flow
+Description: Plan a complete level with intentional pacing: tutorial section (introduce mechanics safely), building tension (gradually increase challenge), climax (most difficult section), resolution (easier section or boss, then goal). Draw the level layout showing difficulty curve. Implement and playtest, observing where players get frustrated or bored. Revise pacing based on feedback. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G6.15: Implement resource management (wood, gold)
-* T08.G5.01: Design multi-branch logic with if/else if/else
+* T13.G5.18: Design scrolling level layouts
+* T13.G4.09: Detect win condition with score threshold
+
 
 
 ID: T13.G6.17
 Topic: T13 – 2D Games
-Skill: Debug complex game logic with systematic testing
-Description: Create test checklist for game systems: movement, collision, scoring, lives, win/loss conditions. Test each system independently, then together. Document bugs found and fixes applied. Practice methodical debugging. _CSTA: 2-AP-17._
+Skill: Create risk-reward mechanics
+Description: Design optional challenges that offer rewards for increased risk: bonus collectibles in dangerous locations, shortcut paths through hazards, timed challenges with score bonuses. Ensure the high-skill path feels rewarding without being required. Test with multiple players to verify risk-reward balance feels fair. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.14: Balance game difficulty through testing
-* T08.G5.02: Debug nested conditionals using trace tables
+* T13.G5.16: Balance challenge through playtesting
+* T13.G5.12: Create inventory system
+
 
 
 ID: T13.G6.18
 Topic: T13 – 2D Games
-Skill: Optimize code with custom helper blocks
-Description: Create reusable custom blocks for common game functions: `ResetPlayer`, `SpawnEnemy [x] [y]`, `UpdateHUD`. Replace repeated code with custom block calls. Test that abstraction doesn't break functionality. _CSTA: 2-AP-14._
+Skill: Implement progressive difficulty
+Description: Design a difficulty progression system across multiple levels. Create a list storing difficulty parameters by level: enemy speed, spawn rate, hazard count, time limit. Apply appropriate settings when each level loads using `item (Current Level) of [Difficulty Settings]`. Ensure difficulty curve is smooth (not too easy then suddenly impossible). _CSTA: 2-AP-17._
 
 Dependencies:
-* T11.G5.02: Define a custom block with input parameters
-* T13.G4.18: Design complete game loop with restart
+* T13.G5.10: Create timed enemy waves
+* T13.G4.10: Switch backdrop for next level
 
 
-ID: T13.G6.19
-Topic: T13 – 2D Games
-Skill: Generate enemy dialogue with AI
-Description: Integrate ChatGPT blocks to create dynamic enemy dialogue. **Setup:** Create custom block `GenerateEnemyDialogue [enemy type] [player action]` that calls `chatgpt_chat` with prompt: "You are a [enemy type] enemy. The player just [player action]. Respond with a short threatening or taunting message (max 10 words)." **Implementation:** When player encounters enemy or defeats it, call the custom block and display the AI-generated response using `say` block. **Example prompts:** Enemy type = "goblin warrior", player action = "attacked you" → AI generates "You dare challenge me, foolish human?" **Test:** Encounter different enemy types and verify dialogue varies appropriately. Uses chatgpt_chat and custom blocks. This teaches AI integration for game content generation at an appropriate grade level. _CSTA: 2-AP-14._
-
-Dependencies:
-* T13.G6.04: Build dialogue system with NPC
-* T11.G5.02: Define a custom block with input parameters
-* T14.G6.01: Use ChatGPT to generate story text from prompts
-
-
-## Grade 7 (18 skills)
 
 ID: T13.G7.01
 Topic: T13 – 2D Games
-Skill: Design state machine for enemy AI
-Description: Create `EnemyState` variable with states: "patrol", "chase", "attack", "retreat". Use nested ifs to check conditions and transition states: `if <(distance to [Player]) < (100)> then [set [EnemyState] to (chase)]`. Each state has different behavior. Test state transitions. _CSTA: 2-AP-13._
+Skill: Implement grid-based spatial system
+Description: Create movement that snaps to a tile grid (each move is exactly 32 pixels). Create lists storing which grid positions are occupied by walls/objects. Before moving, check target position in lists with `<[Grid] contains (target position)?>` to determine if movement is allowed. Enables puzzle or turn-based RPG logic. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G6.08: Build stealth detection system
-* T08.G6.01: Design complex conditional trees
+* T13.G6.08: Stream level chunks dynamically
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G7.02
 Topic: T13 – 2D Games
-Skill: Implement A-star pathfinding basics
-Description: Create simplified pathfinding using waypoint costs. Calculate path cost to player through different waypoints, choose lowest cost path. Enemy moves toward waypoint with lowest total cost to reach player. Test enemy finding optimal path around obstacles. _CSTA: 2-AP-14._
+Skill: Basic obstacle pathfinding
+Description: Create enemies that move toward player using `point towards [Player]` but navigate around walls. When hitting wall, try alternative directions (up, down, left, right) in sequence using `<not <touching [Wall]?>>` checks until finding a path. This prevents enemies getting stuck on corners. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G6.09: Implement AI pathfinding between waypoints
-* T10.G6.01: Design algorithms that process list data
+* T13.G6.04: Gate actions by state
+* T13.G4.05.02: Create chasing enemy behavior
+
 
 
 ID: T13.G7.03
 Topic: T13 – 2D Games
-Skill: Create behavior trees for complex AI
-Description: Build hierarchical AI decision system. Root node checks "Can see player?" If yes, go to attack branch. If no, go to patrol branch. Each branch has sub-decisions. Implement using nested custom blocks representing tree nodes. Test AI decision making. _CSTA: 2-AP-14._
+Skill: Weighted random enemy spawning
+Description: Create a list of enemy types with spawn weights (e.g., 'Grunt:70', 'Tank:30'). Implement weighted random selection making common enemies appear more than rare ones. Adjust ratios as level increases to control difficulty progression. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G7.01: Design state machine for enemy AI
-* T11.G6.01: Create custom blocks with return values
+* T10.G4.01: Build a list to collect input or track state
+* T13.G5.10: Create timed enemy waves
+
 
 
 ID: T13.G7.04
 Topic: T13 – 2D Games
-Skill: Build particle system for visual effects
-Description: Create particle effect using rapid clone spawning. When explosion event occurs, spawn 20+ small particle clones with random directions and speeds: `point in direction (pick random (0) to (360))`, `repeat (10) { move (speed) steps, change size by (-10) }`, then delete. Test explosion effects. _CSTA: 2-AP-14._
+Skill: Profile and optimize clone performance
+Description: Use clone counter to track performance during complex gameplay. Test with many clones and identify lag points by watching frame rate. **Optimization strategies:** Object pooling (reusing clones instead of create/delete), spatial culling (deleting clones far from viewport), spawn throttling (limiting clones per frame), batch operations (process multiple clones per loop iteration). Document performance improvements with before/after measurements. _CSTA: 3A-AP-17._
 
 Dependencies:
-* T13.G3.10: Create collectible items with clones
-* T09.G6.01: Use mathematical operations in programs
+* T13.G6.10: Monitor and optimize clone count
+* T11.G5.17: Explain code changes to a peer
 
 
 ID: T13.G7.04.01
 Topic: T13 – 2D Games
-Skill: Create reusable particle effect custom block
-Description: Create custom block `SpawnParticles [x] [y] [count] [color]` that spawns particle effects at any location with configurable parameters. Test calling from different game events (explosions, power-ups, impacts). _CSTA: 2-AP-14._
+Skill: Implement object pooling for clone reuse
+Description: Create an object pool system that reuses clones instead of constantly creating and deleting them. **Pool concept:** Pre-create clones at game start and hide them off-screen. When you need an object, "activate" a pooled clone (show it, position it) instead of creating new. When object is "destroyed," hide and return to pool instead of deleting. **Implementation:** Use list to track pool status (`add [inactive] to [Pool Status]`), loop through pool to find inactive clone, set its position and show it, mark as active. When done, hide and mark inactive. **Benefits:** Eliminates create/delete overhead, consistent memory usage, no garbage collection spikes. Test: compare frame rate with 100 bullets using pooling vs. create/delete. _CSTA: 3A-AP-17._
 
 Dependencies:
-* T13.G7.04: Build particle system for visual effects
-* T11.G6.01: Create custom blocks with return values
+* T13.G7.04: Profile and optimize clone performance
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G7.05
 Topic: T13 – 2D Games
-Skill: Implement sprite pooling for performance
-Description: Instead of constantly creating/deleting clones, create pool of hidden clones at start. When needed, unhide and position clone. When done, hide it for reuse. Reduces lag from clone creation. Create `AvailableBullets` list tracking unused clones. Test performance improvement. _CSTA: 2-AP-17._
+Skill: Implement difficulty curves
+Description: Store difficulty targets in lists (speed, damage, spawn interval by level). Apply settings when player advances using `item (Current Level) of [Difficulty Settings]`. Design balanced curve: early levels easy to learn, middle levels gradually harder, late levels challenging but fair. Test and adjust based on feedback. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G5.15: Debug performance issues with too many clones
-* T10.G6.01: Design algorithms that process list data
+* T13.G5.10: Create timed enemy waves
+* T13.G4.09: Detect win condition with score threshold
+* T13.G4.10: Switch backdrop for next level
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G7.06
 Topic: T13 – 2D Games
-Skill: Create level editor with saving
-Description: Build mode where clicking places platforms, enemies, items. Store placed objects in lists with coordinates and types. Export lists as level data. Create `LoadLevel` block that recreates level from saved lists. Test creating and loading custom levels. _CSTA: 2-AP-14._
+Skill: Advanced level management system
+Description: Create `Current Level` variable and level configuration list. When level changes, read configuration (backdrop name, enemy count, timer length) using list lookups and apply all settings via custom block. Implement level unlocking system requiring previous level completion by checking `Max Level Reached` variable. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G6.06: Implement save/load with list export
-* T10.G6.01: Design algorithms that process list data
+* T13.G5.10: Create timed enemy waves
+* T13.G4.09: Detect win condition with score threshold
+* T13.G4.10: Switch backdrop for next level
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G7.07
 Topic: T13 – 2D Games
-Skill: Build random dungeon generator
-Description: Create algorithm that generates connected rooms. Use 2D grid list where each cell = room type (empty, corridor, enemy room, treasure). Randomly place rooms ensuring connectivity. Convert grid to actual level layout with platforms and enemies. Test dungeon variety and playability. _CSTA: 2-AP-14._
+Skill: Implement cloud variable save system
+Description: Create cloud variables (with ☁ symbol) that persist between sessions. When player completes level or reaches checkpoint, save progress: `set [☁ Saved Level] to (Current Level)`. On game start, load saved value to resume. Cloud variables sync across users in CreatiCode. _CSTA: 2-AP-11._
 
 Dependencies:
-* T13.G5.12: Create procedural level generation
-* T10.G6.01: Design algorithms that process list data
+* T13.G4.09: Detect win condition with score threshold
+* T09.G3.01.04: Display variable value on stage using the variable monitor
+
 
 
 ID: T13.G7.08
 Topic: T13 – 2D Games
-Skill: Implement fog of war exploration
-Description: Create `Explored` list matching level grid. Areas start hidden with dark overlay sprites. When player enters area, mark as explored in list and remove overlay clone. Test exploration reveals map gradually. _CSTA: 2-AP-14._
+Skill: Design save data structure
+Description: Identify data needing persistence: player progress (level, score), unlocked content (characters, upgrades), settings (difficulty, volume). Convert multiple variables into storable format by combining into text string: "1000,5,3" represents Score, Level, Lives. Write scripts to split string back into values when loading. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G6.07: Create minimap display
-* T10.G6.01: Design algorithms that process list data
+* T13.G4.06: Create and manage a Score variable
+* T13.G4.09: Detect win condition with score threshold
+* T10.G4.01: Build a list to collect input or track state
+
 
 
 ID: T13.G7.09
 Topic: T13 – 2D Games
-Skill: Create context-sensitive action system
-Description: Display different action prompts based on what player is near. Use `if <touching [Door]?> then [show "Press E to Open"], if <touching [NPC]?> then [show "Press E to Talk"]`. Action key triggers appropriate response. Test multiple interactable types. _CSTA: 2-AP-13._
+Skill: Create save/load custom blocks
+Description: Create custom blocks "Save Game" and "Load Game". Save Game stores all important variables to cloud storage or lists. Load Game reads stored data and restores variables to saved values. Add to menu system. Test by playing, saving, stopping project, restarting, and loading. _CSTA: 2-AP-16._
 
 Dependencies:
-* T13.G6.04: Build dialogue system with NPC
-* T08.G6.01: Design complex conditional trees
+* T13.G7.08: Design save data structure
+* T11.G4.01: Create a custom block for a repeated action
+
 
 
 ID: T13.G7.10
 Topic: T13 – 2D Games
-Skill: Build skill tree and unlocking system
-Description: Create table of skills with dependencies. Player earns skill points, spends to unlock skills. Check `if <[RequiredSkills] contains [prerequisite]> then [allow unlock]`. Display skill tree UI showing locked/unlocked skills. Test dependency chains. _CSTA: 2-AP-14._
+Skill: Implement user data storage
+Description: Use `store value (VALUE) for key [KEY]` (CreatiCode game_storeuserdatakey) to save custom game data for current player. Unlike cloud variables, user data is private per player. Use named keys: "HighScore", "UnlockedLevels", "Inventory". Load with `read value for key [KEY]` (CreatiCode game_readuserdatakey). Check if key exists (returns empty if never set). _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G6.16: Create upgrade system with costs
-* T10.G6.01: Design algorithms that process list data
+* T13.G7.08: Design save data structure
+
 
 
 ID: T13.G7.11
 Topic: T13 – 2D Games
-Skill: Implement equipment system with stat modifiers
-Description: Create `Equipment` list containing worn items. Each item adds stat bonuses stored in parallel lists (EquipmentNames, StatTypes, StatValues). Calculate total stats by iterating through equipped items. Test equipping different item combinations and resulting stats. _CSTA: 2-AP-14._
+Skill: Implement global leaderboard
+Description: Use `record score (SCORE) to leaderboard` (CreatiCode game_recordplayerscore) to submit player's score to game-wide leaderboard when game ends. Use `show leaderboard` (CreatiCode game_showgameleaderboard) to display top scores on game over screen. Use `hide leaderboard` (CreatiCode game_hidegameleaderboard) when returning to gameplay. Scores automatically rank highest to lowest. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G6.01: Design inventory system with list
-* T10.G6.01: Design algorithms that process list data
+* T13.G4.06: Create and manage a Score variable
+* T13.G3.07: Trigger Game Over with broadcast
+
 
 
 ID: T13.G7.12
 Topic: T13 – 2D Games
-Skill: Create status effect system (poison, burn, freeze)
-Description: Create `ActiveEffects` list and `EffectTimers` list. When effect applied, add to list with duration. Each game tick, apply effect (damage over time, slow movement), decrease timer, remove when expired. Test multiple simultaneous effects. _CSTA: 2-AP-14._
+Skill: Design AI behavior personalities
+Description: Create 3+ enemy types with distinct "personalities" through behavior parameters: aggressive (fast movement, charges player), cautious (keeps distance, circles player), ambusher (hides until player nearby). For each personality, document: decision-making rules, movement pattern, attack pattern. Playtest to ensure each feels meaningfully different. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G6.12: Implement dodge roll with cooldown
-* T10.G6.01: Design algorithms that process list data
+* T13.G7.02: Basic obstacle pathfinding
+* T13.G6.13: Create enemy behavior patterns
+
 
 
 ID: T13.G7.13
 Topic: T13 – 2D Games
-Skill: Build crafting system with recipes
-Description: Create recipe table with ingredient requirements and output items. When crafting, check `if <[Inventory] contains all ingredients> then [remove ingredients, add crafted item]`. Display craftable recipes based on current inventory. Test crafting items. _CSTA: 2-AP-14._
+Skill: Balance game economy
+Description: Design and balance game economy: earning rate (coins per minute), spending costs (upgrades, items), pacing (when players can afford upgrades). Create spreadsheet calculating: how long to earn first upgrade, progression pace, total playtime to unlock everything. Test with players and adjust values so progression feels rewarding but not grindy. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G6.15: Implement resource management (wood, gold)
-* T10.G6.01: Design algorithms that process list data
+* T13.G5.12: Create inventory system
+* T13.G6.15: Balance resource management
+
 
 
 ID: T13.G7.14
 Topic: T13 – 2D Games
-Skill: Implement day/night cycle affecting gameplay
-Description: Create `TimeOfDay` variable cycling 0-24. Different events occur at different times: enemies stronger at night, shops only open during day, special events at specific hours. Use tint effects to visualize time. Test time-based mechanics. _CSTA: 2-AP-13._
+Skill: Design branching level paths
+Description: Create levels with multiple paths to the goal: easy safe route (longer, fewer rewards), medium risk route (balanced), hard shortcut (dangerous, bonus rewards). Ensure all paths are viable for different skill levels. Playtest with various skill levels to verify each path serves its intended audience. _CSTA: 2-AP-17._
 
 Dependencies:
-* T13.G4.09: Build a timer system
-* T09.G6.01: Use mathematical operations in programs
+* T13.G6.16: Design level pacing and flow
+* T13.G6.17: Create risk-reward mechanics
+
 
 
 ID: T13.G7.15
 Topic: T13 – 2D Games
-Skill: Create weather system affecting mechanics
-Description: Create `Weather` variable (clear, rain, snow). Weather affects gameplay: rain reduces traction (slower acceleration), snow reduces visibility (fog effect), clear = normal. Weather changes randomly over time. Test different weather effects on gameplay. _CSTA: 2-AP-13._
+Skill: Implement dynamic difficulty adjustment
+Description: Track player performance (death count, time taken, damage received). Adjust difficulty in real-time or between levels: if player dies 3+ times, reduce enemy count by 20%; if player takes no damage, increase enemy speed by 10%. Document adjustments and test that game remains challenging but fair for different skill levels. _CSTA: 3A-AP-17._
 
 Dependencies:
-* T13.G3.09: Create visual feedback with graphic effects
-* T09.G6.01: Use mathematical operations in programs
+* T13.G7.05: Implement difficulty curves
+* T13.G6.18: Implement progressive difficulty
+
 
 
 ID: T13.G7.16
 Topic: T13 – 2D Games
-Skill: Debug complex game systems with logging
-Description: Create debug mode that logs events to a list: "Player hit at x:120 y:45 time:234", "Enemy spawned type:goblin wave:3". Display log on screen or export for analysis. Use logging to trace complex bugs across multiple systems. _CSTA: 2-AP-17._
+Skill: Collect and analyze playtesting data
+Description: Track player performance data in lists: deaths per level, completion time, power-up usage frequency. After testing with multiple players, calculate averages to identify: levels that are too hard (high death rate), too easy (fast completion), unused mechanics. Adjust design based on data and re-test to verify improvements. _CSTA: 3A-AP-19._
 
 Dependencies:
-* T13.G6.17: Debug complex game logic with systematic testing
-* T10.G6.01: Design algorithms that process list data
+* T13.G5.16: Balance challenge through playtesting
+* T10.G4.01: Build a list to collect input or track state
 
 
-ID: T13.G7.17
-Topic: T13 – 2D Games
-Skill: Create multiplayer game room
-Description: Implement multiplayer functionality using CreatiCode multiplayer blocks. **Setup:** Use `mp_createmultiplayergame [room name]` block to create a new game room with a unique name (e.g., "Battle Arena 1"). **Broadcasting room ID:** Display the room name on screen so other players can join. **Initializing host:** Set a `PlayerRole` variable to "host" for the player who creates the room. **Test:** Run the project, click to create game room, verify room is created and room name is displayed. Uses mp_createmultiplayergame block. This is the foundation for multiplayer game development. _CSTA: 2-AP-16._
-
-Dependencies:
-* T13.G4.18: Design complete game loop with restart
-* T09.G6.01: Use mathematical operations in programs
-
-
-ID: T13.G7.18
-Topic: T13 – 2D Games
-Skill: Join and sync player sprites
-Description: Enable other players to join an existing game room and sync sprites. **Joining:** Use `mp_joinmultiplayergame [room name]` block with the room name to join an existing game. **Adding sprite to game:** After joining, use `mp_addspritetogame` block to register the local player sprite in the multiplayer session. **Broadcasting position:** In a forever loop, use `mp_broadcastmessagetoall [message]` where message = `join [x:] (x position) [y:] (y position)` to share player position with all players. **Receiving updates:** Use `when I receive multiplayer message` with `mp_getmessagedata` to read other players' positions and update their sprite clones accordingly. **Test:** Open project in two browser tabs, create room in tab 1, join from tab 2, verify both player sprites appear and move. Uses mp_joinmultiplayergame, mp_addspritetogame, mp_broadcastmessagetoall, and mp_getmessagedata blocks. _CSTA: 2-AP-16._
-
-Dependencies:
-* T13.G7.17: Create multiplayer game room
-* T13.G3.01.02: Program 4-directional movement with arrow keys
-
-
-## Grade 8 (19 skills)
 
 ID: T13.G8.01
 Topic: T13 – 2D Games
-Skill: Design modular game architecture
-Description: Organize game into modules using custom blocks: `GameManager` block controls game flow, `PlayerController` handles input, `EnemyAI` manages enemies, `UIManager` updates display. Each module has clear responsibility. Test that modules work independently and together. _CSTA: 2-AP-14._
+Skill: Modular level loader from data
+Description: Create system that reads list of strings or table rows (e.g., "111000111" where 1=wall, 0=empty) to generate level layouts using clones. Use nested loops: outer for rows, inner for columns. Each character creates specific tile type at grid position `(x: (col * 32) y: (row * 32))`. Test with multiple level data strings. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G6.18: Optimize code with custom helper blocks
-* T11.G7.01: Design programs using procedural decomposition
+* T13.G7.01: Implement grid-based spatial system
+* T10.G5.01: Store and retrieve named data with a list
+
 
 
 ID: T13.G8.02
 Topic: T13 – 2D Games
-Skill: Implement event-driven architecture
-Description: Create centralized event system. Game events broadcast messages ("PlayerDamaged", "EnemyDefeated", "ItemCollected") with data. Multiple systems listen and respond independently. Decouples systems for easier modification. Test event propagation across systems. _CSTA: 2-AP-16._
+Skill: Flexible particle system
+Description: Create particle system (explosions, smoke, rain) where one sprite manages many short-lived clones. Each particle has properties in lists (lifetime, speed, direction, color) that change over time using `change by` blocks. Particles auto-delete after lifetime expires. Test different particle counts to balance visuals and performance. _CSTA: 3A-AP-17._
 
 Dependencies:
-* T13.G3.07: Trigger Game Over with broadcast
-* T11.G7.01: Design programs using procedural decomposition
+* T13.G7.04: Profile and optimize clone performance
+* T10.G5.01: Store and retrieve named data with a list
+
 
 
 ID: T13.G8.03
 Topic: T13 – 2D Games
-Skill: Build data-driven gameplay with table variables
-Description: Store all game balance data (enemy stats, item properties, level parameters) in table variables. Code reads from tables rather than hardcoding values. Modify game balance by editing tables without changing code. Test data-driven modification workflow. Uses table_create, table_addrow, table_getvalue blocks extensively. _CSTA: 2-AP-11._
+Skill: Component-based entity system
+Description: Design entity system where each sprite has list of component tags (text values: 'CanTakeDamage', 'CanShoot', 'IsShopkeeper'). In scripts, use `<[Components] contains [CanTakeDamage]?>` to check before activating behaviors. Run damage logic only if list contains 'CanTakeDamage'. This modular approach creates many object types by mixing components without code duplication. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G5.14: Store level data in table variable
-* T10.G7.01: Use table variables for complex data organization
+* T13.G6.04: Gate actions by state
+* T10.G5.01: Store and retrieve named data with a list
+
 
 
 ID: T13.G8.04
 Topic: T13 – 2D Games
-Skill: Create save system with state serialization
-Description: Build comprehensive save system that captures entire game state. Serialize all variables, lists, and table data into exportable format. Implement `SerializeState` and `DeserializeState` custom blocks. Test saving mid-game and restoring exact state. _CSTA: 2-AP-14._
+Skill: Implement physics joints
+Description: Create complex physics objects using joints. Use `add fixed joint to [Sprite]` (CreatiCode physics_addfixedjoint) to rigidly connect sprites moving as one unit. Use `add revolute joint to [Sprite] at x (X) y (Y)` (CreatiCode physics_addrevoltejoint) for rotating connections like hinges. Use `add prismatic joint to [Sprite]` (CreatiCode physics_addprismaticjoint) for sliding connections like pistons. Test with doors, pendulums, vehicles. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G6.06: Implement save/load with list export
-* T11.G7.01: Design programs using procedural decomposition
+* T13.G5.06: Detect and respond to physics collisions
+
 
 
 ID: T13.G8.05
 Topic: T13 – 2D Games
-Skill: Implement replay system recording inputs
-Description: Record all player inputs with timestamps to a list. Replay mode reads inputs and executes them with timing. Useful for debugging, testing, and creating demos. Create `RecordInput` and `PlaybackInputs` custom blocks. Test recording and replaying gameplay. _CSTA: 2-AP-14._
+Skill: Advanced physics control
+Description: Master advanced physics techniques: use `set gravity scale to (SCALE)` (CreatiCode physics_setgravityscale) for per-sprite gravity (0=float, 2=heavy), `set damping to (VALUE)` (CreatiCode physics_setdampingfactor) to simulate resistance, `lock movement` (CreatiCode physics_lockmovement) to prevent movement while allowing rotation, `turn physics off` (CreatiCode physics_turnoffphysics) to temporarily disable physics. Read physics state with `velocity x/y` and `mass` reporters. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G7.06: Create level editor with saving
-* T10.G7.01: Use table variables for complex data organization
+* T13.G5.05: Configure physics properties
+* T13.G5.06: Detect and respond to physics collisions
+
 
 
 ID: T13.G8.06
 Topic: T13 – 2D Games
-Skill: Design AI director that adjusts difficulty
-Description: Create AI director that monitors player performance (deaths, health, time taken) and adjusts difficulty dynamically. If player struggling, reduce enemy count or increase health drops. If excelling, increase challenge. Create `AnalyzePerformance` and `AdjustDifficulty` custom blocks. Test adaptive difficulty. _CSTA: 2-AP-14._
+Skill: Program advanced terrain physics with slopes
+Description: Use `ground slope` reporter (CreatiCode physics_getgroundslope) to read angle of surface below sprite. **Implementation:** When `colliding below?` is true, read slope angle and: (1) Rotate character sprite to match slope using `point in direction (90 + (ground slope))`, (2) Detect steep slopes (>45°) and trigger sliding behavior with reduced friction, (3) Calculate slope-adjusted movement: `set velocity x to ((base speed) * (cos of (ground slope)))` for realistic uphill/downhill speed variation. **Debug:** If slope reading is erratic, ensure ground detection raycast distance is appropriate for terrain complexity. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G6.10: Create wave-based enemy spawning
-* T11.G7.01: Design programs using procedural decomposition
+* T13.G6.11.01: Detect and respond to ground slope
 
 
 ID: T13.G8.06.01
 Topic: T13 – 2D Games
-Skill: Balance AI director with player feedback
-Description: Test AI director with multiple players of different skill levels. Collect feedback on difficulty curve. Adjust director parameters (thresholds, adjustment magnitudes) based on testing. Document balancing decisions. _CSTA: 2-AP-17._
+Skill: Configure fast-moving object collision detection
+Description: Enable continuous collision detection (CCD) for fast-moving objects like bullets using `enable fast collision detection` (CreatiCode physics_enableccd). **The tunneling problem:** Without CCD, fast objects can "tunnel" through thin walls in a single frame because they skip from one side to the other without ever overlapping. **When to use CCD:** Bullets, arrows, fast-moving projectiles, small objects moving quickly. **Trade-off:** CCD uses more CPU than standard collision, so only enable on sprites that need it. **Debug:** If fast bullets pass through enemies without triggering collision, enable CCD on the bullet sprite. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G8.06: Design AI director that adjusts difficulty
+* T13.G5.06: Detect and respond to physics collisions
+* T13.G4.02: Move projectile clone continuously
+
 
 
 ID: T13.G8.07
 Topic: T13 – 2D Games
-Skill: Build animation state machine
-Description: Create comprehensive animation system using state machine. States include: idle, walk, run, jump, attack, damaged, death. Transitions between states based on game conditions. Use `AnimationState` variable and nested conditionals to control costume switching and timing. Test all animation transitions. _CSTA: 2-AP-13._
+Skill: Automated gameplay testing system
+Description: Build testing system that plays game automatically using scripted inputs. Create list of test commands: "[space,0.5]" (press space, wait 0.5s). Program test runner executing commands via `when I receive [run test]` broadcasting key messages. Check if win/lose conditions trigger correctly. Log results via broadcast messages and compare to expected outcomes. _CSTA: 3A-AP-19._
 
 Dependencies:
-* T13.G7.01: Design state machine for enemy AI
-* T08.G7.01: Model complex systems with state machines
+* T13.G7.05: Implement difficulty curves
+* T10.G5.01: Store and retrieve named data with a list
+
 
 
 ID: T13.G8.08
 Topic: T13 – 2D Games
-Skill: Implement inverse kinematics for character limbs
-Description: Create procedural limb animation using math. Given target position, calculate joint angles for arm/leg segments to reach target. Use trigonometry to solve 2-joint IK. Apply to aiming weapon toward cursor or feet adapting to terrain slopes. Test IK solving. _CSTA: 2-AP-14._
+Skill: Design complete game progression system
+Description: Design full progression system spanning multiple sessions: character levels/XP, skill trees/upgrades, unlock system (new abilities, levels, characters), achievement system. Create progression document showing: what unlocks when, how long each tier takes, why players should care. Implement save/load for all progression. Test progression pace feels rewarding over multiple play sessions. _CSTA: 3A-AP-16._
 
 Dependencies:
-* T13.G6.13: Create charge attack mechanic
-* T09.G7.01: Apply mathematical concepts in programming
+* T13.G7.09: Create save/load custom blocks
+* T13.G7.13: Balance game economy
+
 
 
 ID: T13.G8.09
 Topic: T13 – 2D Games
-Skill: Create advanced camera system with smoothing
-Description: Implement camera that smoothly follows player with easing. Camera position = current + (target - current) * smoothing factor. Add camera shake for impacts, zoom for specific events, boundary constraints to keep level in view. Create `UpdateCamera` custom block. Test camera behaviors. _CSTA: 2-AP-14._
+Skill: Design boss encounter mechanics
+Description: Design multi-phase boss battle with distinct mechanics. Plan: Phase 1 (simple attacks, teach patterns), Phase 2 (new attacks at 50% health), Phase 3 (aggressive finale at 25% health). Create telegraph system warning players before attacks. Design arena layout supporting mechanics. Implement and balance so boss feels challenging but fair. _CSTA: 3A-AP-17._
 
 Dependencies:
-* T13.G5.11: Implement scrolling camera following player
-* T09.G7.01: Apply mathematical concepts in programming
+* T13.G6.13: Create enemy behavior patterns
+* T13.G7.12: Design AI behavior personalities
+
 
 
 ID: T13.G8.10
 Topic: T13 – 2D Games
-Skill: Build advanced particle systems with physics
-Description: Extend particle system with realistic physics. Particles affected by gravity, wind, bounce on collision. Create particle emitters with configurable spawn rates, lifetimes, forces. Build effects: fire (rising particles), water (falling particles), smoke (drifting particles). Create `ParticleEmitter [type]` custom block. _CСТА: 2-AP-14._
+Skill: Implement procedural content generation
+Description: Create system generating random but playable level layouts. Use algorithms to: ensure path from start to goal exists, maintain target difficulty (platform density, gap sizes), place collectibles and enemies strategically. Test generated levels are completable and fun. Implement seed system allowing players to replay favorite generated levels. _CSTA: 3A-AP-13._
 
 Dependencies:
-* T13.G7.04: Build particle system for visual effects
-* T09.G7.01: Apply mathematical concepts in programming
+* T13.G8.01: Modular level loader from data
+* T13.G7.01: Implement grid-based spatial system
+
 
 
 ID: T13.G8.11
 Topic: T13 – 2D Games
-Skill: Implement steering behaviors for AI movement
-Description: Create steering behaviors: seek (move toward target), flee (move away), wander (random exploration), pursue (predict target's future position). Combine behaviors with weighted priorities. Create `CalculateSteering [behavior] [target]` custom block. Test AI movement patterns. _CSTA: 2-AP-14._
+Skill: Design and implement power-up system
+Description: Create 5+ power-ups with distinct tactical uses: temporary invincibility, speed boost, weapon upgrade, shield, double jump. For each, define: duration, effect strength, acquisition method, visual/audio feedback. Balance so each power-up feels powerful but limited. Test that power-ups create meaningful strategic choices. _CSTA: 3A-AP-16._
 
 Dependencies:
-* T13.G7.03: Create behavior trees for complex AI
-* T09.G7.01: Apply mathematical concepts in programming
+* T13.G5.12: Create inventory system
+* T13.G6.15: Balance resource management
+
 
 
 ID: T13.G8.12
 Topic: T13 – 2D Games
-Skill: Create influence map for strategic AI
-Description: Build grid representing strategic value of map locations. High value near objectives, low value near hazards. AI uses influence map to make strategic decisions (positioning, retreat paths). Update map as game state changes. Test AI using influence data for decisions. _CSTA: 2-AP-14._
+Skill: Design narrative through gameplay
+Description: Integrate storytelling into game mechanics without cutscenes: environmental storytelling (visual clues in level design), mechanics that reveal character (movement style reflects personality), progression expressing narrative arc (abilities matching story growth). Create game where players understand story through play. Document how mechanics support narrative. _CSTA: 3A-AP-16._
 
 Dependencies:
-* T13.G7.02: Implement A-star pathfinding basics
-* T10.G7.01: Use table variables for complex data organization
+* T13.G6.16: Design level pacing and flow
+* T13.G7.14: Design branching level paths
+
 
 
 ID: T13.G8.13
 Topic: T13 – 2D Games
-Skill: Build team AI with coordination
-Description: Create AI where multiple enemies coordinate. Use shared variables for team state. Enemies call for reinforcements, flank player, cover retreating teammates. Implement `TeamCoordination` custom block that analyzes team needs and assigns roles. Test coordinated team behaviors. _CSTA: 2-AP-14._
+Skill: Implement advanced tutorial design
+Description: Design tutorial seamlessly integrated into first level: introduce one mechanic at a time, provide immediate safe practice opportunity, give feedback on success/failure, escalate complexity gradually. Use visual cues and environmental design rather than text popups. Test with new players who haven't played your game. Revise based on where they get confused. _CSTA: 3A-AP-19._
 
 Dependencies:
-* T13.G7.01: Design state machine for enemy AI
-* T11.G7.01: Design programs using procedural decomposition
+* T13.G6.16: Design level pacing and flow
+* T13.G7.16: Collect and analyze playtesting data
+
 
 
 ID: T13.G8.14
 Topic: T13 – 2D Games
-Skill: Implement advanced physics: friction and momentum
-Description: Add realistic physics to movement. Track `XVelocity` and `YVelocity`, apply friction each frame: `set [XVelocity] to ((XVelocity) * (0.9))`. Acceleration builds velocity, friction slows it. Creates sliding, momentum-based movement. Test ice physics, vehicle handling. _CSTA: 2-AP-13._
+Skill: Create competitive multiplayer mechanics
+Description: Design and implement competitive mechanics: race mode (who reaches goal fastest), survival mode (who survives longest), score attack (highest score in time limit). Implement fair starting conditions, simultaneous input handling, tie-breaking rules, score/time display for both players. Balance so skilled players win but less-skilled players have fun. _CSTA: 3A-AP-16._
 
 Dependencies:
-* T13.G5.01: Implement physics-based jumping
-* T09.G7.01: Apply mathematical concepts in programming
+* T13.G7.06: Advanced level management system
+* T13.G7.11: Implement global leaderboard
+
 
 
 ID: T13.G8.15
 Topic: T13 – 2D Games
-Skill: Create advanced collision response with physics
-Description: Implement collision response that calculates bounce angles and energy transfer. When collision detected, calculate collision normal vector, reflect velocity vector, apply elasticity coefficient. Creates realistic bouncing, sliding along walls. Test physics-based collision. _CSTA: 2-AP-14._
+Skill: Conduct comprehensive game evaluation
+Description: Perform thorough evaluation of completed game: playtest with 10+ diverse players (different ages/skills), collect quantitative data (completion rates, death locations, playtime), gather qualitative feedback (fun moments, frustration points, suggestions). Analyze data to identify patterns. Create prioritized improvement list. Implement top 3 improvements and re-test to measure impact. Document entire evaluation process with before/after metrics. _CSTA: 3A-AP-19._
 
 Dependencies:
-* T13.G8.14: Implement advanced physics: friction and momentum
-* T09.G7.01: Apply mathematical concepts in programming
+* T13.G7.16: Collect and analyze playtesting data
+* T12.G5.01: Document testing and debugging choices
 
 
 ID: T13.G8.16
 Topic: T13 – 2D Games
-Skill: Build profiling system to measure performance
-Description: Create performance profiler that measures frame rate, clone count, script execution counts. Display performance metrics on screen. Identify performance bottlenecks. Create `StartProfiling` and `ReportMetrics` custom blocks. Test identifying and fixing performance issues. _CSTA: 2-AP-17._
+Skill: Use AI to generate game dialogue and descriptions
+Description: Integrate AI text generation (CreatiCode ChatGPT blocks) to create dynamic game content. Use `ask AI [prompt]` to generate: NPC dialogue variations ("Write 3 different greetings for a friendly shopkeeper"), item descriptions ("Describe a magical sword in 2 sentences"), story text ("Write what happens when the hero finds the treasure"). **Implementation:** Store AI-generated text in variables, then display with `say` blocks. **Design considerations:** Cache generated text to avoid repeated API calls, provide fallback text if AI is unavailable, review generated content for appropriateness. This demonstrates how AI augments human creativity in game design. _CSTA: 3A-AP-16._
 
 Dependencies:
-* T13.G7.16: Debug complex game systems with logging
-* T10.G7.01: Use table variables for complex data organization
+* T13.G6.14: Design player feedback systems
+* T24.G6.01: Use ChatGPT blocks to generate text responses
 
 
 ID: T13.G8.17
 Topic: T13 – 2D Games
-Skill: Implement complete tutorial system
-Description: Build interactive tutorial that teaches game mechanics step by step. Use state machine for tutorial progress. Highlight UI elements, display instructions, wait for player to complete actions before proceeding. Create `TutorialManager` with steps defined in table. Test tutorial flow and clarity. _CSTA: 2-AP-16._
+Skill: Architect large-scale game with multiple systems
+Description: Design and implement a complete game integrating multiple complex systems: state machine (game states + character states), physics engine (platforming or physics puzzles), save/load system (persistent progress), economy system (currency, shop, upgrades), progression system (levels, unlocks, achievements), AI enemies (multiple behavior types), and UI/HUD (menus, inventory, health). **Architecture approach:** Create system diagram showing how systems interact, define clear interfaces between systems (broadcasts, shared variables), implement each system in isolation then integrate. **Documentation:** Write technical design document describing each system's purpose, implementation, and dependencies. This capstone skill demonstrates mastery of game development. _CSTA: 3A-AP-16._
 
 Dependencies:
-* T13.G6.04: Build dialogue system with NPC
-* T13.G8.01: Design modular game architecture
-
-
-ID: T13.G8.18
-Topic: T13 – 2D Games
-Skill: Implement real-time multiplayer combat
-Description: Build synchronous multiplayer combat system using multiplayer blocks. **Combat mechanics:** When player attacks, use `mp_broadcastmessagetoall [attack]` with attack data including attacker ID, damage, and hit position. **Receiving attacks:** Use `when I receive multiplayer message` to detect incoming attacks, check if local player is hit using position/hitbox comparison, apply damage if hit. **Health sync:** Broadcast health changes with `mp_broadcastmessagetoall` to keep all clients updated. **Hit detection:** Use distance calculation between attack position and player position to determine hits: `if <(distance to attack position) < (50)> then [take damage]`. **Test:** Open in multiple browser tabs, have players attack each other, verify damage is applied and health syncs correctly across all clients. Uses mp_broadcastmessagetoall, mp_getmessagedata, and multiplayer event blocks. _CSTA: 2-AP-16._
-
-Dependencies:
-* T13.G7.18: Join and sync player sprites
-* T13.G4.02: Program projectile movement and hit detection
-
-
-ID: T13.G8.19
-Topic: T13 – 2D Games
-Skill: Design multiplayer game architecture
-Description: Design complete architecture for multiplayer game considering network latency, client-server vs peer-to-peer models, and state synchronization strategies. **Key concepts:** Client-side prediction (immediate local feedback while waiting for server confirmation), server reconciliation (correcting client state based on authoritative server), entity interpolation (smoothing movement between network updates). **Implementation approach:** Use CreatiCode multiplayer blocks with authoritative host model where room creator validates game events. **Design decisions:** Which data to sync (positions, health, game state), sync frequency (every frame vs. significant events only), conflict resolution (who wins when both players shoot simultaneously). **Documentation:** Create architecture diagram showing data flow between clients and message types. **Test:** Document edge cases (what happens if player disconnects mid-game?) and implement graceful handling. This teaches multiplayer system design principles applicable beyond block-based programming. _CSTA: 2-AP-16._
-
-Dependencies:
-* T13.G8.18: Implement real-time multiplayer combat
-* T13.G8.01: Design modular game architecture
+* T13.G8.08: Design complete game progression system
+* T13.G8.09: Design boss encounter mechanics
+* T13.G7.09: Create save/load custom blocks
 
 
 
-# T14 - Stories & Animation (Phase 7 Optimized - November 2025)
-# Applied Phase 7 comprehensive optimizations:
+# T14 - Stories & Animation (Phase 6 Optimized - November 2025)
+# Applied Phase 6 comprehensive optimizations:
 # MAJOR CHANGES:
-# 1. Fixed T14.G1.05 description (removed author self-doubt commentary)
-# 2. Added sub-skills for deeper coverage:
-#    - G6.09.01: Design effective ChatGPT prompts for character voices
-#    - G6.09.02: Handle AI response errors and timeouts gracefully
-#    - G7.04.01: Maintain narrative coherence with AI context management
-#    - G8.02.01: Test accessibility features with screen reader simulation
-# 3. Enhanced G7-G8 AI-era skills:
-#    - G7.07: Create procedural story generation with AI
-#    - G8.08: Build interactive fiction with real-time AI narration
-#    - G8.09: Design multi-modal storytelling (text, voice, visuals)
-# 4. Improved skill depth with debugging scenarios and tracing examples
-# 5. All dependencies strictly follow X-2 rule
-# 6. Cross-topic dependencies preserved unchanged
-# Total: 112 skills across K-8 (expanded from 104 for AI-era depth and granularity)
+# 1. Expanded K-2 Foundation (3→5 skills each):
+#    - Added GK.04: Identify cause-effect in story sequences
+#    - Added GK.05: Match sound to story moment (pre-literacy audio connection)
+#    - Added G1.04: Identify character goal in picture story
+#    - Added G1.05: Sequence story with cause-effect relationships
+#    - Added G2.04: Predict story ending from visual clues
+#    - Added G2.05: Compare two story paths in branching picture narrative
+# 2. Enhanced AI-Era Storytelling Skills (G6-G8):
+#    - Added G6.09: Generate character dialogue with ChatGPT blocks
+#    - Added G6.10: Create AI-generated character costumes
+#    - Added G7.04: Build adaptive narrative with AI-driven responses
+#    - Added G7.05: Design procedural animation sequences with loops
+#    - Added G7.06: Implement parallax scrolling for depth effect
+#    - Added G8.06: Build collaborative multiplayer story with cloud variables
+#    - Added G8.07: Design story template system for reusable narratives
+# 3. Improved Narrative Design Skills:
+#    - Added G4.10: Design character arc with beginning/middle/end states
+#    - Added G5.16: Create dramatic tension through pacing and timing
+#    - Added G5.17: Design visual transitions between scenes
+# 4. Fixed Dependencies:
+#    - All dependencies now strictly follow X-2 rule
+#    - Cross-topic dependencies preserved unchanged
+#    - Internal progression strengthened with clearer pathways
+# 5. Enhanced Skill Depth:
+#    - All skills use active verbs (Design, Build, Trace, Debug, Predict)
+#    - K-2 skills specify visual scenarios with picture cards
+#    - G3+ skills include debugging tips and tracing examples
+# Total: 104 skills across K-8 (expanded from 88 for AI-era depth)
 
 ID: T14.GK.01
 Topic: T14 – Stories & Animation
@@ -18217,7 +17661,7 @@ Dependencies:
 ID: T14.G1.05
 Topic: T14 – Stories & Animation
 Skill: Sequence story with cause-effect relationships
-Description: **Student task:** Drag 4 picture cards into order so each card causes the next to happen. **Visual scenario:** Cards show: (A) Ice cream cone falls from child's hand, (B) Ice cream lands on the ground, (C) Dog licks the ice cream, (D) Child looks sad. **Correct order:** A → B → C → D (ice cream falls, lands, dog eats it, child is sad). _Implementation note: Drag-drop sequence where each event causes the next. Audio explains cause-effect: "First THIS happened, so THEN that happened." Use clear domino-effect scenarios. CSTA: EK-IC-SI-01._
+Description: **Student task:** Drag 4 picture cards into order so each card causes the next to happen. **Visual scenario:** Cards show: (A) Wind blows leaves off tree, (B) Leaves pile up on ground, (C) Child rakes leaves into a bag, (D) Child jumps into leaf pile (out of order initially). **Correct order:** A → B → D → C (Wait - actually: A→B, then child jumps D, which happens before raking C? Let me reconsider: Wind→leaves fall→pile up→child rakes). Better scenario: A=ice cream falls, B=ice cream on ground, C=dog licks ice cream, D=child cries. Order: A→B→C→D. _Implementation note: Drag-drop sequence where each event causes the next. Audio explains cause-effect: "First THIS happened, so THEN that happened." Use clear domino-effect scenarios. CSTA: EK-IC-SI-01._
 
 Dependencies:
 * T14.GK.04: Identify cause-effect in a story sequence
@@ -19198,26 +18642,6 @@ Dependencies:
 
 
 
-ID: T14.G6.09.01
-Topic: T14 – Stories & Animation
-Skill: Design effective ChatGPT prompts for character voices
-Description: Craft prompts that produce consistent, character-appropriate AI dialogue. **Prompt structure:** (1) Character description ("You are a grumpy but wise old wizard"), (2) Situation context ("A young hero asks about the dragon"), (3) Response guidelines ("Reply in 2 sentences, use archaic speech"). **Voice consistency techniques:** include personality traits, speech patterns, vocabulary level, emotional state. **Iteration:** test prompts, identify off-character responses, refine constraints. **Examples:** villain = formal + threatening + long sentences; child NPC = simple words + exclamation marks + short sentences. Debug: AI breaks character → add stronger constraints ("Never be friendly", "Always use medieval words").
-
-Dependencies:
-* T14.G6.09: Generate character dialogue with ChatGPT blocks
-
-
-ID: T14.G6.09.02
-Topic: T14 – Stories & Animation
-Skill: Handle AI response errors and timeouts gracefully
-Description: Build robust error handling for AI-dependent dialogue. **Common issues:** empty response (AI failed), timeout (network slow), inappropriate content (filtered). **Error detection:** `if <(length of (ChatGPT response)) = (0)> then` use fallback dialogue. **Timeout handling:** use `ask ChatGPT... and wait` with fallback: if response takes too long, show "Wizard is thinking..." then retry or use pre-written backup. **Fallback dialogue:** pre-write dialogue alternatives for when AI fails. **User feedback:** don't show raw errors; show story-appropriate messages ("The crystal ball is cloudy..."). Design stories that remain playable even when AI services are unavailable.
-
-Dependencies:
-* T14.G6.09.01: Design effective ChatGPT prompts for character voices
-
-
-
-
 ID: T14.G6.10
 Topic: T14 – Stories & Animation
 Skill: Create AI-generated character costumes and backdrops
@@ -19282,17 +18706,6 @@ Dependencies:
 
 
 
-ID: T14.G7.04.01
-Topic: T14 – Stories & Animation
-Skill: Maintain narrative coherence with AI context management
-Description: Keep AI-generated content consistent with story logic using context windows. **Context accumulation:** build conversation history: `add (join [Player: ] (playerInput)) to [chatHistory v]`, `add (join [NPC: ] (aiResponse)) to [chatHistory v]`. **Context in prompts:** include recent history in each prompt: `ask ChatGPT (join [Story so far: ] (join (historyText) [. Now respond to...])) and wait`. **Memory limits:** summarize old events rather than including everything; keep recent 5-10 exchanges verbatim. **Coherence checks:** verify AI doesn't contradict established facts; include key facts in every prompt ("Remember: the princess is actually a dragon in disguise"). Debug: AI forgets plot points → include them explicitly in system prompt.
-
-Dependencies:
-* T14.G7.04: Build adaptive narrative with AI-driven responses
-
-
-
-
 ID: T14.G7.05
 Topic: T14 – Stories & Animation
 Skill: Design procedural animation sequences with mathematical patterns
@@ -19313,18 +18726,6 @@ Description: Create illusion of depth by moving background layers at different s
 Dependencies:
 * T14.G5.03: Simulate camera panning by moving all sprites together
 * T14.G5.04.01: Control sprite layer order with layer blocks
-
-
-
-
-ID: T14.G7.07
-Topic: T14 – Stories & Animation
-Skill: Create procedural story generation with AI assistance
-Description: Build systems that generate unique story content each playthrough. **Story seed prompts:** "Generate a unique quest: give me a quest-giver name, quest objective, and reward in JSON format: {name: '', objective: '', reward: ''}". **Parse AI response:** extract structured data from AI output using delimiter parsing. **Combine elements:** mix AI-generated content with hand-crafted story structure. **Procedural characters:** generate NPC names, backstories, dialogue from templates + AI. **Replayability:** each playthrough gets unique AI-generated elements while maintaining consistent story beats. **Quality control:** validate AI output fits game constraints; regenerate if invalid. Design hybrid systems where human-authored structure meets AI-generated variety.
-
-Dependencies:
-* T14.G7.04.01: Maintain narrative coherence with AI context management
-* T14.G7.02: Parse structured text using delimiter splitting
 
 
 
@@ -19377,17 +18778,6 @@ Dependencies:
 * T14.G7.03: Build automated dialogue system with speaker tags
 * T14.G5.12: Add AI-generated speech with text-to-speech blocks
 * T15.G7.03: Design an accessible interface for users with different abilities
-
-
-
-
-ID: T14.G8.02.01
-Topic: T14 – Stories & Animation
-Skill: Test accessibility features with screen reader simulation
-Description: Validate accessibility by simulating assistive technology usage. **Screen reader testing:** play story with eyes closed using only TTS audio; verify all information is conveyed audibly. **Keyboard navigation testing:** unplug mouse; verify all interactions possible with keyboard alone. **Timing testing:** verify users have adequate time to read/respond; test with 2x time limits. **Color blindness testing:** verify information isn't conveyed by color alone; use patterns or labels alongside colors. **Checklist approach:** document each accessibility requirement; systematically verify each. **User testing:** ideally test with actual users who use assistive technology. Debug: information only visible (not audible) → add TTS narration; timed interactions too fast → add pause/extend options.
-
-Dependencies:
-* T14.G8.02: Implement accessibility features in interactive stories
 
 
 
@@ -19469,62 +18859,17 @@ Dependencies:
 
 
 
-ID: T14.G8.08
-Topic: T14 – Stories & Animation
-Skill: Build interactive fiction with real-time AI narration
-Description: Create open-ended interactive fiction where AI generates the narrative in real-time. **Game loop:** display current situation → player types action → AI generates outcome → update state → repeat. **Persistent world state:** track location, inventory, NPCs met, choices made in variables/lists. **AI prompt design:** include world state, allowed actions, narrative style in each prompt. **Example prompt:** "Setting: medieval fantasy. Player is in [location] with [inventory]. They said: [playerInput]. Describe what happens next in 2-3 sentences, second-person narrative." **Guardrails:** detect and handle out-of-bounds actions ("You can't fly in this story"); maintain consistency with established facts. **Save system:** serialize world state for save/load. Design AI prompts that produce engaging, consistent, interactive narratives.
 
-Dependencies:
-* T14.G7.04.01: Maintain narrative coherence with AI context management
-* T14.G8.01.02: Navigate story graph based on player choices
-
-
-ID: T14.G8.09
-Topic: T14 – Stories & Animation
-Skill: Design multi-modal storytelling combining text, voice, and visuals
-Description: Orchestrate synchronized presentation across multiple modalities. **Modal coordination:** when dialogue displays, TTS speaks same text, character animation shows talking. **Timing synchronization:** TTS duration varies by text length; use TTS callback or estimate duration to sync animations. **Modal preferences:** let users choose preferred mode (text-only, audio-only, both); store preference variable. **Accessibility by design:** text for deaf users, audio for blind users, visuals for everyone. **Emotional enhancement:** match TTS parameters to text mood; sync background music to narrative beat; visual effects reinforce story moments. **Implementation pattern:** `broadcast [StoryMoment]` triggers: (1) text display, (2) TTS playback, (3) animation, (4) sound effects - all coordinated by timing variables. Design stories that leverage multiple modalities for maximum emotional impact and accessibility.
-
-Dependencies:
-* T14.G5.12: Add AI-generated speech with text-to-speech blocks
-* T14.G8.02: Implement accessibility features in interactive stories
-* T14.G7.01: Design centralized scene manager architecture
-
-
-ID: T14.G8.10
-Topic: T14 – Stories & Animation
-Skill: Implement cinematic camera techniques in 2D stories
-Description: Apply film camera techniques to enhance 2D storytelling. **Zoom effects:** all sprites scale up for "close-up" → emphasizes emotion; scale down for "wide shot" → shows environment. **Pan and tracking:** smooth sprite movement simulates camera following character. **Dutch angle:** rotate sprites slightly for tension/unease. **Shot composition:** apply rule of thirds by positioning key elements at intersection points (±80 x, ±60 y). **Cutaway technique:** briefly show reaction shots by hiding main action, showing observer sprite reaction, returning. **Shot sequence:** establishing shot (wide) → medium shot → close-up for emotional moments → back to medium. **Timing:** dramatic beats use slower transitions; action uses quick cuts. Design scenes thinking like a film director choosing camera angles.
-
-Dependencies:
-* T14.G5.03: Simulate camera panning by moving all sprites together
-* T14.G5.17: Design visual transitions between scenes
-* T14.G7.05: Design procedural animation sequences with mathematical patterns
-
-
-
-
-
-# T15 - User Interfaces (Phase 6 Optimized - November 2025)
+# T15 - User Interfaces (Phase 5 Optimized - November 2025)
 # Comprehensive optimization for UI/UX skill progression K-8
-# PHASE 6 CHANGES:
-# 1. Added joystick widget skills (G5.09, G5.09.01) - critical for mobile game UI
-# 2. Expanded G7 with 4 new skills:
-#    - T15.G7.06: Voice-activated UI integration
-#    - T15.G7.07: Keyboard navigation for accessibility
-#    - T15.G7.08: Loading states and progress feedback
-#    - T15.G7.09: Error handling and user feedback patterns
-# 3. Expanded G8 with advanced AI-era patterns:
-#    - T15.G8.07: AI-assisted form completion
-#    - T15.G8.08: Adaptive interfaces based on user behavior
-#    - T15.G8.09: Multi-modal input interfaces (touch, voice, gesture)
-#    - T15.G8.10: Design system and component library creation
-# 4. Fixed X-2 rule violations in G5 skills (removed unnecessary cross-topic deps)
-# 5. Improved skill descriptions with clearer block syntax and parameters
-# 6. Streamlined dependencies to focus on intra-topic progression
-# Previous improvements preserved:
-# - Active verbs: Identify, Match, Sort, Predict, Trace, Debug, Create, Evaluate
-# - Granular sub-skills, debugging skills
-# - Total: 87 skills (K:4, G1:4, G2:4, G3:12, G4:15, G5:18, G6:11, G7:9, G8:10)
+# Key improvements:
+# - Expanded K-2 from 6 to 12 picture-based/unplugged skills
+# - Active verbs throughout: Identify, Match, Sort, Predict, Trace, Debug, Create, Evaluate
+# - Broke down broad skills into granular sub-skills
+# - Added debugging skill (T15.G3.06.01) for widget name mismatches
+# - Fixed all intra-topic X-2 rule violations (removed cross-topic G6 deps from G8 skills)
+# - Enhanced G7-G8 with advanced UX patterns for AI era (chat interfaces, dashboards)
+# - Total: 77 skills with smooth K-8 progression (K:4, G1:4, G2:4, G3:12, G4:15, G5:17, G6:12, G7:5, G8:6)
 
 # ============ KINDERGARTEN (4 skills) ============
 
@@ -19994,8 +19339,8 @@ Dependencies:
 
 
 
-# ============ GRADE 5 (18 skills) ============
-# Complex widgets (video, chat, toolbox, joystick), multi-screen apps, forms, HUD, animations
+# ============ GRADE 5 (17 skills) ============
+# Complex widgets (video, chat, toolbox), multi-screen apps, forms, HUD, animations
 
 ID: T15.G5.01
 Topic: T15 – User Interfaces
@@ -20004,7 +19349,9 @@ Description: Build a multi-screen application with navigation between views (hom
 
 Dependencies:
 * T15.G4.08: Build a simple settings panel
-* T15.G4.07.02: Add and use tabs widget for organizing content
+* T09.G3.05: Trace code with variables to predict outcomes
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -20013,11 +19360,13 @@ Dependencies:
 ID: T15.G5.02
 Topic: T15 – User Interfaces
 Skill: Design a form with multiple inputs and validation
-Description: Create a form interface with multiple text input fields, dropdowns, or checkboxes. **Form design:** Group related inputs, add clear labels, arrange logically top-to-bottom. **Validation:** Check that required fields are not empty, verify text format (e.g., no numbers in name), display error messages next to invalid fields. **Submission:** Create submit button that validates all inputs, shows confirmation message or error list.
+Description: Students create a form interface with multiple text input fields, dropdowns, or checkboxes, validate all inputs for completeness and correctness, and display a summary or confirmation message. This teaches form design and validation patterns.
 
 Dependencies:
 * T15.G4.07: Add and use checkbox widgets
-* T15.G4.04: Get the selected value from a dropdown
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20026,10 +19375,13 @@ Dependencies:
 ID: T15.G5.02.01
 Topic: T15 – User Interfaces
 Skill: Add specialized picker widgets for dates and colors
-Description: Use "add date picker at X (X) Y (Y) as [NAME]" and "add color picker at X (X) Y (Y) as [NAME]" blocks to create specialized input controls. Date pickers display a calendar interface (value format: YYYYMMDD like 20250115). Color pickers display a visual color selector (value format: #RRGGBBAA like #FF0000FF for red). Use "value of widget" to retrieve selected dates/colors. Use "set value to [V] for widget [NAME]" to pre-select dates or colors. Use "when widget [NAME] changes" to respond to user selections.
+Description: Use the "add date picker widget" and "add color picker widget" blocks to create specialized input controls. Date pickers let users select dates from a calendar interface; color pickers let users choose colors visually. Retrieve selected values using the "value of widget" block.
 
 Dependencies:
 * T15.G5.02: Design a form with multiple inputs and validation
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20038,11 +19390,14 @@ Dependencies:
 ID: T15.G5.03
 Topic: T15 – User Interfaces
 Skill: Build a leaderboard or high‑score display
-Description: Create a leaderboard interface that displays ranked data. **Data structure:** Store scores in a list sorted high-to-low. **Display:** Use labels or a textbox to show rankings (e.g., "1. Alice: 500\n2. Bob: 350"). **Dynamic updates:** When new scores are added, re-sort the list and update the display. **Formatting:** Use consistent spacing, highlight top 3, show player names with scores.
+Description: Students create a label or series of labels that display high scores or player rankings. They use lists or variables to store scores and update the display dynamically. This introduces the concept of showing structured data in a UI.
 
 Dependencies:
 * T15.G4.01: Style widget text properties
 * T10.G3.01: Loop through and process each item in a list
+* T09.G3.05: Trace code with variables to predict outcomes
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
 
 
 
@@ -20051,11 +19406,13 @@ Dependencies:
 ID: T15.G5.04
 Topic: T15 – User Interfaces
 Skill: Implement a responsive HUD that reacts to game state
-Description: Design a "heads-up display" (HUD) showing real-time game information. **Elements:** Health/progress bar, score label, lives counter, timer, status messages. **Updates:** Use "set widget value" to update labels when variables change. **Positioning:** Place HUD elements at screen edges so they don't block gameplay. **Visibility:** Show/hide elements based on game state (hide "Game Over" until game ends).
+Description: Students design a "heads-up display" (HUD)—on-screen UI elements that show real-time game information (health bar, ammo count, mini-map indicator, status text). The HUD updates dynamically as game variables change.
 
 Dependencies:
 * T15.G4.06: Read and respond to slider value changes
-* T15.G5.03: Build a leaderboard or high‑score display
+* T08.G3.05: Fix a condition that uses the wrong operator
+* T09.G3.05: Trace code with variables to predict outcomes
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -20064,10 +19421,14 @@ Dependencies:
 ID: T15.G5.04.01
 Topic: T15 – User Interfaces
 Skill: Add and update a progress bar widget
-Description: Use "add progress bar as (CURRENT) out of total (TOTAL) at x (X) y (Y) width (WIDTH) height (HEIGHT) color [COLOR] background [BG] border width (BORDERWIDTH) color [BORDERCOLOR] as [NAME]" block to create a progress indicator. **Parameters:** CURRENT and TOTAL define fill percentage, colors customize appearance (use #RRGGBBAA format). **Updates:** Use "set value to [NEWCURRENT] for widget [NAME]" to animate progress. **Use cases:** Health bars (100/100→50/100), loading indicators, completion status, timers counting down.
+Description: Use the "add progress bar widget" block to create a visual indicator of progress or completion. Set the progress bar's minimum, maximum, and current values. Update the progress bar dynamically using "set widget value" to show loading progress, health levels, or task completion status.
 
 Dependencies:
 * T15.G5.04: Implement a responsive HUD that reacts to game state
+* T15.G3.04: Update label text dynamically
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20076,11 +19437,15 @@ Dependencies:
 ID: T15.G5.04.02
 Topic: T15 – User Interfaces
 Skill: Animate widgets for visual feedback
-Description: Animate widgets for visual feedback and smooth transitions. **Movement:** "move widget [NAME] to X Y in T seconds [blocking v]" slides widgets. **Transparency:** "set transparency for widget [NAME] to (T)% in (N) seconds" fades widgets (0%=visible, 100%=invisible). **Scaling:** "scale widget [NAME] to width (W)% height (H)% in (T) seconds" grows/shrinks. **Rotation:** "rotate widget [NAME] by (D) degrees in (T) seconds" spins widgets. **Blocking modes:** "blocking" waits until animation finishes; "non-blocking" continues immediately. Combine with hover events for interactive effects.
+Description: Animate widgets for visual feedback and smooth transitions. Use "move widget [NAME] to X Y in T seconds" to slide widgets in from the side. Use "set transparency for widget [NAME] to (T)% in (N) seconds [blocking v]" to create fade effects. Transparency creates fade effects (0% = fully visible, 100% = invisible but still present). This is different from "set visibility" which instantly shows or hides widgets. Use transparency for smooth fade-in/fade-out animations; use visibility for instant show/hide. Use "scale widget [NAME] to width (W)% height (H)% in (T) seconds" to grow or shrink widgets. Use "rotate widget [NAME] by (D) degrees in (T) seconds" to spin widgets for attention-grabbing effects. Combine with "when pointer enters widget" for hover effects. Animations improve user experience by making interfaces feel responsive and polished.
 
 Dependencies:
 * T15.G5.04.01: Add and update a progress bar widget
 * T15.G4.09: Respond to hover events on widgets
+* T07.G4.03: Use "repeat until" to control animation duration
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20089,11 +19454,14 @@ Dependencies:
 ID: T15.G5.05
 Topic: T15 – User Interfaces
 Skill: Embed and control a video widget
-Description: Use "add youtube video [URL] at X (X) Y (Y) width (WIDTH) height (HEIGHT) named [NAME] in [foreground/background v]" block to embed a YouTube video. **Layers:** foreground = user can click to play/pause; background = non-interactive, plays automatically. **URL format:** Use full YouTube URL or video ID. **Use cases:** Tutorial videos, game cutscenes, educational content, background ambiance.
+Description: Use "add youtube video [URL] at X (X) Y (Y) width (WIDTH) height (HEIGHT) named [NAME] in [foreground/background v]" block to embed a YouTube video. Set the video's URL, position, size, name, and layer. Use foreground layer for interactive videos users can click to play/pause. Use background layer for non-interactive videos that play automatically. Video widgets are useful for tutorials, cutscenes, educational content, or entertainment.
 
 Dependencies:
-* T15.G5.01: Create a multi‑screen app with navigation
-* T15.G4.02.01: Add an image widget to the stage
+* T15.G5.01: Create a multi‑screen app with a navigation interface
+* T15.G4.09: Respond to hover events on widgets
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20102,10 +19470,13 @@ Dependencies:
 ID: T15.G5.05.01
 Topic: T15 – User Interfaces
 Skill: Control video playback with advanced features
-Description: Control video playback programmatically. **Playback controls:** "[start/pause/stop/mute/unmute v] video for [VIDEONAME v]". **Seeking:** "seek to (TIME) seconds in video named [VIDEONAME v]". **Volume:** "set volume to (VOLUME) for [VIDEONAME v]" (0-100). **Speed:** "set playback speed ratio (SPEED) for [VIDEONAME v]" (100=normal, 200=2x). **Status:** "current video time for [VIDEONAME v]" returns current position in seconds.
+Description: Control video playback with advanced features. Use "pause video", "seek to seconds", "set volume", and "set playback speed" blocks to precisely control video behavior. Use "current video time for [VIDEONAME v]" to get the current playback position in seconds. Use the "when video stopped" event to trigger actions when a video finishes (e.g., move to next screen, show quiz questions). Create interactive video experiences with checkpoints, progress tracking, branching choices, or programmatic control.
 
 Dependencies:
 * T15.G5.05: Embed and control a video widget
+* T06.G4.03: Use broadcast and "when I receive" for communication
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20114,10 +19485,13 @@ Dependencies:
 ID: T15.G5.05.02
 Topic: T15 – User Interfaces
 Skill: Respond to video playback events
-Description: Use video event hat blocks to create interactive video experiences. **Events:** "when video [NAME] start" triggers when playback begins. "when video [NAME] paused" detects pause. "when video [NAME] stopped" triggers when video ends. "when video time is (T) seconds for [NAME]" triggers at specific timestamps. **Applications:** Show quiz at 1:30, display subtitles, trigger animations at key moments, auto-advance to next screen when video ends.
+Description: Use video event blocks to create interactive video experiences. Use "when video [NAME] start" to trigger actions when playback begins. Use "when video [NAME] paused" to detect when user pauses the video. Use "when video time is (T) seconds for [NAME]" to trigger actions at specific timestamps (show quiz questions at 1:30, display commentary at 2:00). Combine these events with video control blocks to create interactive lessons, branching narratives, or video-based games.
 
 Dependencies:
-* T15.G5.05.01: Control video playback with advanced features
+* T15.G5.05: Embed and control a video widget
+* T06.G4.03: Use broadcast and "when I receive" for communication
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20126,11 +19500,14 @@ Dependencies:
 ID: T15.G5.06
 Topic: T15 – User Interfaces
 Skill: Add a rich textbox for formatted content
-Description: Use "add rich textbox at X (X) Y (Y) width (WIDTH) height (HEIGHT) padding (PADDING) mode [input/read-only v] as [NAME]" block to create a text area supporting formatted text. **Input mode:** Users see a toolbar to format text (bold, italic, colors). **Read-only mode:** Display pre-formatted content. **Value format:** "value of widget" returns HTML markup. **Use cases:** Note-taking apps (input), styled instructions (read-only), formatted stories.
+Description: Use "add rich textbox at X (X) Y (Y) width (WIDTH) height (HEIGHT) padding (PADDING) mode [input/read-only v] as [NAME]" block to create a text area that supports formatted text (bold, italic, font sizes, colors). In input mode, users can format text using toolbar buttons. In read-only mode, display pre-formatted content with styling. Retrieve formatted content using "value of widget" block (returns HTML markup like "&lt;b&gt;text&lt;/b&gt;"), which is useful for storing or transferring formatted content but requires HTML knowledge to parse or manipulate. Use input mode for note-taking apps or message composers; use read-only mode for styled instructions, stories, or formatted displays.
 
 Dependencies:
-* T15.G4.01: Style widget text properties
 * T15.G3.05: Add a textbox widget for user input
+* T15.G4.01: Style widget text properties
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20139,11 +19516,14 @@ Dependencies:
 ID: T15.G5.06.01
 Topic: T15 – User Interfaces
 Skill: Add a chat window widget
-Description: Use "add chat window x (X) y (Y) width (WIDTH) height (HEIGHT) input rows (ROWS) background [BG] border [BORDERCOLOR] name [NAME]" block to create a chat interface. **Structure:** Bottom has text input + send button; top has scrollable message history. **Input rows:** 1 for single-line, 2+ for multi-line input. **Styling:** Set background and border colors (#RRGGBBAA format). Chat windows are compound widgets combining input, button, and scrollable panel for conversations.
+Description: Use "add chat window x (X) y (Y) width (WIDTH) height (HEIGHT) input rows (ROWS) background [BG] border [BORDERCOLOR] name [NAME]" block to create a chat interface. The chat window automatically creates two parts: at the bottom is a text input box on the left and a send button on the right; on the top is a scrollable chat history panel for displaying messages. The input box can have multiple rows (set ROWS to 1 for single line, 2+ for multi-line input). Style the chat window using background and border colors. Chat windows combine multiple UI elements (text input, button, scrollable panel) into a single widget for interactive conversations.
 
 Dependencies:
 * T15.G5.06: Add a rich textbox for formatted content
 * T15.G4.08: Build a simple settings panel
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20152,10 +19532,14 @@ Dependencies:
 ID: T15.G5.06.02
 Topic: T15 – User Interfaces
 Skill: Append messages to chat window
-Description: Use "append to chat [CHATNAME v] message [MESSAGE] as [SENDER] icon [ICON v] align [ALIGN v] text size (TEXTSIZE) color [COLOR] background [BG]" block to add messages. **Parameters:** SENDER shows name, ICON can be 'ROBOT', 'USER', or costume name; ALIGN 'Left' for received, 'Right' for sent. **Auto-scroll:** Chat scrolls to newest message. **Triggers:** Append on send button click or programmatically for bot responses.
+Description: Use "append to chat [CHATNAME v] message [MESSAGE] as [SENDER] icon [ICON v] align [ALIGN v] text size (TEXTSIZE) color [COLOR] background [BG]" block to add a new message to the chat history panel. Customize the message appearance with sender name, icon (robot icon, user icon, or custom costume from your sprite's costumes), alignment (left for received messages, right for sent messages), text size, text color, and background color. Each appended message appears as a new entry in the scrollable chat history. Messages can be appended when the user clicks the send button, or programmatically (e.g., for chatbot responses, system notifications, or multiplayer chat). The chat automatically scrolls to show the newest message.
 
 Dependencies:
 * T15.G5.06.01: Add a chat window widget
+* T15.G3.02: Handle a button click event
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20164,10 +19548,13 @@ Dependencies:
 ID: T15.G5.06.03
 Topic: T15 – User Interfaces
 Skill: Update streaming chat messages
-Description: Use "update last chat message to [MESSAGE] for chat [CHATNAME v]" block to modify the most recent message in-place without adding a new entry. **Use cases:** Streaming AI responses (text builds word-by-word), updating "Typing..." to actual message, correcting last message. **Difference from append:** Update replaces; append adds new. Creates smooth typing effect for chatbots.
+Description: Use "update last chat message to [MESSAGE] for chat [CHATNAME v]" block to modify the most recent message in the chat history panel. This block replaces the text of the last message with new text without adding a new message entry. This is useful for streaming AI responses (where the chatbot's message builds up word by word), correcting errors in the last message, or updating status messages (changing "Typing..." to the actual message). Unlike appending which adds a new message, updating modifies the existing last message in place. This creates a smooth typing effect for chatbots or real-time message updates.
 
 Dependencies:
 * T15.G5.06.02: Append messages to chat window
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20176,11 +19563,14 @@ Dependencies:
 ID: T15.G5.07
 Topic: T15 – User Interfaces
 Skill: Create a toolbox widget for item selection
-Description: Use "add toolbox at x (X) y (Y) width (WIDTH) height (HEIGHT) row count (ROWCOUNT) column count (COLCOUNT) as [NAME]" to create a grid selector. **Populate:** "set icon to [COSTUME v] at row (R) column (C) for toolbox [NAME]". **Selection:** "value of widget [NAME]" returns selected cell index (1, 2, 3...). **Events:** "when widget [NAME] clicked" and "when widget [NAME] changes". **Use cases:** Game inventories, tool palettes, building block selectors, item shops.
+Description: Use the "add toolbox widget" block to create a grid-based icon selector with specified rows and columns. Use "set icon to toolbox" with row number, column number, and costume name to populate cells with images. When a user clicks a cell, both "when widget [toolbox1 v] clicked" and "when widget [toolbox1 v] changes" events trigger. Use "value of widget [toolbox1 v]" to get the selected cell index (1 = first icon, 2 = second icon, etc.). Toolboxes are ideal for game inventories, building block selectors, tool palettes, or item shops.
 
 Dependencies:
 * T15.G4.02.01: Add an image widget to the stage
 * T15.G4.06: Read and respond to slider value changes
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T08.G3.00: Identify if blocks in existing code
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
@@ -20189,36 +19579,19 @@ Dependencies:
 ID: T15.G5.08
 Topic: T15 – User Interfaces
 Skill: Create confirmation dialogs with custom buttons
-Description: Use "confirm [TEXT] with buttons [BUTTON1] [BUTTON2] [BUTTON3] [BUTTON4] [BUTTON5] [BUTTON6]" reporter block to create modal dialogs. **Behavior:** Pauses execution until user clicks a button; returns clicked button's text. **Buttons:** Up to 6 (blank = hidden). **Use cases:** Save/Cancel decisions, difficulty selection (Easy/Medium/Hard), Yes/No confirmations, error messages with OK.
+Description: Use "confirm [TEXT] with buttons [BUTTON1] [BUTTON2] [BUTTON3] [BUTTON4] [BUTTON5] [BUTTON6]" block to create modal dialogs that pause program execution until the user clicks a button. Add up to 6 buttons (blank buttons are hidden). The block returns the text of the clicked button. Use confirmation dialogs for important decisions (Save or Cancel? Easy, Medium, or Hard? Yes or No?), error messages, or user choices.
 
 Dependencies:
 * T15.G3.02: Handle a button click event
-* T15.G4.04: Get the selected value from a dropdown
+* T08.G3.04: Trace code with a single if/else
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.01.01: Create a new variable with a descriptive name
 
 
 
 
 
-ID: T15.G5.09
-Topic: T15 – User Interfaces
-Skill: Add a virtual joystick for touch controls
-Description: Use "add joystick to [left/right v] side of screen as [NAME] outer color [OUTERCOLOR] inner color [INNERCOLOR] size [SIZE]%" block to create touch-based game controls. **Positioning:** Left side for movement, right side for camera/actions. **Sizing:** Percentage of screen width (20-40% typical). **Colors:** Customize outer ring and inner knob colors. Joysticks are essential for mobile game interfaces on tablets and phones.
-
-Dependencies:
-* T15.G5.04: Implement a responsive HUD that reacts to game state
-* T15.G4.02: Style widget appearance
-
-
-ID: T15.G5.09.01
-Topic: T15 – User Interfaces
-Skill: Read joystick input values
-Description: Use "joystick [NAME v] [x/y/direction/distance/pressed v]" reporter block to read joystick state. **Reporters:** x (-100 to 100 horizontal), y (-100 to 100 vertical), direction (0-360 degrees), distance (0-100 from center), pressed (true/false). **Applications:** Move sprites using x/y, rotate using direction, control speed using distance. Combine with forever loop to create continuous movement controls.
-
-Dependencies:
-* T15.G5.09: Add a virtual joystick for touch controls
-
-
-# ============ GRADE 6 (11 skills) ============
+# ============ GRADE 6 (12 skills) ============
 # Usability evaluation, responsive design, camera widgets, menu bars, accessibility basics
 
 ID: T15.G6.01
@@ -20362,8 +19735,8 @@ Dependencies:
 
 
 
-# ============ GRADE 7 (9 skills) ============
-# Data collection interfaces, search/filter, accessibility, charts, help systems, voice UI, error handling
+# ============ GRADE 7 (7 skills) ============
+# Data collection interfaces, search/filter, accessibility, charts, help systems
 
 ID: T15.G7.01
 Topic: T15 – User Interfaces
@@ -20430,48 +19803,8 @@ Dependencies:
 
 
 
-ID: T15.G7.06
-Topic: T15 – User Interfaces
-Skill: Integrate voice feedback with UI elements
-Description: Combine UI widgets with AI Speaker for voice feedback. **Patterns:** Read button labels aloud when hovered, announce state changes ("Volume set to 80%"), confirm actions ("Game saved"), read error messages aloud. Use "AI Speaker" block triggered by widget events. Voice feedback improves accessibility for users with visual impairments and creates more immersive experiences.
-
-Dependencies:
-* T15.G6.03.02: Manage widget states and focus for clear feedback
-* T15.G5.04.02: Animate widgets for visual feedback
-
-
-ID: T15.G7.07
-Topic: T15 – User Interfaces
-Skill: Design keyboard-navigable interfaces
-Description: Design interfaces that work without a mouse using keyboard controls. **Patterns:** Tab key moves focus between widgets, Enter activates focused button, arrow keys navigate within widget groups. **Visual feedback:** Highlight focused widget with border or glow effect. **Implementation:** Use "when key pressed" events combined with focus tracking variable. Essential for accessibility and power users.
-
-Dependencies:
-* T15.G7.03: Design an accessible interface for users with different abilities
-* T15.G6.03.02: Manage widget states and focus for clear feedback
-
-
-ID: T15.G7.08
-Topic: T15 – User Interfaces
-Skill: Implement loading states and progress feedback
-Description: Design loading states that keep users informed during slow operations. **Components:** Progress bar for known durations, spinning indicator for unknown durations, status text explaining what's happening. **Patterns:** Show "Loading..." immediately, update progress percentage, display "Complete!" then auto-close. **Best practices:** Never freeze UI without feedback, provide cancel option for long operations.
-
-Dependencies:
-* T15.G5.04.01: Add and update a progress bar widget
-* T15.G6.03.02: Manage widget states and focus for clear feedback
-
-
-ID: T15.G7.09
-Topic: T15 – User Interfaces
-Skill: Design error handling and user feedback patterns
-Description: Create clear error messages and feedback systems. **Error display:** Red border on invalid fields, error message near the problem, list of all errors at form top. **Success feedback:** Green checkmarks, confirmation messages, smooth transitions. **Recovery guidance:** Explain what went wrong AND how to fix it ("Email missing @ - enter a valid email address"). **Timing:** Show errors immediately on invalid input or after submit attempt.
-
-Dependencies:
-* T15.G7.01: Build a data collection interface (survey/questionnaire)
-* T15.G6.03: Use color and contrast to improve readability
-
-
-# ============ GRADE 8 (10 skills) ============
-# Advanced UX patterns: wizards, dynamic content, pattern analysis, usability testing, AI integration
+# ============ GRADE 8 (6 skills) ============
+# Advanced UX patterns: wizards, dynamic content, pattern analysis, usability testing
 
 ID: T15.G8.01
 Topic: T15 – User Interfaces
@@ -20543,120 +19876,42 @@ Dependencies:
 * T15.G7.05: Display data as charts in a widget
 
 
-ID: T15.G8.07
-Topic: T15 – User Interfaces
-Skill: Implement AI-assisted form completion
-Description: Create smart forms that use AI to assist users. **Auto-complete:** Suggest completions as user types based on common inputs or AI predictions. **Smart defaults:** Pre-fill fields based on context or user history. **Validation suggestions:** When input is invalid, use AI to suggest corrections ("Did you mean...?"). **Implementation:** Send partial input to AI service, display suggestions in dropdown, apply selection on click.
-
-Dependencies:
-* T15.G8.05: Build an AI-integrated chat interface
-* T15.G7.09: Design error handling and user feedback patterns
-
-
-ID: T15.G8.08
-Topic: T15 – User Interfaces
-Skill: Design adaptive interfaces based on user behavior
-Description: Create interfaces that adapt based on how users interact. **Tracking:** Monitor which buttons are clicked most, how long users spend on screens, which features are ignored. **Adaptation:** Reorder menu items by frequency, show shortcuts for common actions, hide rarely-used features in "More" menus. **Personalization:** Remember user preferences, adjust layouts based on past behavior. This introduces user-centered adaptive design.
-
-Dependencies:
-* T15.G8.04: Conduct usability testing and refine UI design
-* T15.G8.02: Implement dynamic content loading in a UI
-
-
-ID: T15.G8.09
-Topic: T15 – User Interfaces
-Skill: Build multi-modal input interfaces
-Description: Design interfaces that accept multiple input types simultaneously. **Input modes:** Touch (joystick, buttons), voice (speech recognition), keyboard, mouse, gestures (hand tracking). **Mode switching:** Auto-detect available inputs, allow seamless switching between modes. **Feedback:** Provide visual confirmation for voice commands, audio confirmation for touch. **Accessibility:** Multiple input modes ensure usability for users with different abilities.
-
-Dependencies:
-* T15.G7.06: Integrate voice feedback with UI elements
-* T15.G5.09.01: Read joystick input values
-
-
-ID: T15.G8.10
-Topic: T15 – User Interfaces
-Skill: Create a design system with reusable components
-Description: Build a cohesive design system for consistent UI across a large project. **Components:** Define standard button styles (primary, secondary, danger), input field styles, label styles, color palette, spacing rules. **Documentation:** Create a reference project showing all component styles. **Reusability:** Use variables for colors/sizes so changing one value updates all components. **Benefits:** Faster development, consistent look, easier maintenance.
-
-Dependencies:
-* T15.G8.03: Analyze UI design patterns and their effectiveness
-* T15.G6.04: Create an interface that works on different screen sizes
 
 
 
-# T16 - 2D Motion & Physics (Phase 2 Optimization - November 2025)
-# CHANGES MADE IN THIS OPTIMIZATION:
+# T16 - 2D Motion & Physics (November 2025 Optimization)
+# CHANGES MADE:
 # 1. K-2 Foundation Skills Enhanced:
-#    - Added T16.K.04: Sequence two motion steps (picture-based) - builds multi-step motion intuition
-#    - Added T16.G2.04: Compare speeds of two moving objects (picture-based) - quantitative speed comparison
-#    - All K-2 skills retain **Visual scenario** and **Student task** format
-# 2. Gap-Filling Skills Added:
-#    - T16.G3.03: Debug why sprite doesn't move as expected (picture-based debugging intro)
-#    - T16.G4.03: Build a simple bounce animation without physics engine (prereq to manual bounce)
-#    - T16.G5.13: Use (speed) reporter to display total speed (combining x/y)
-#    - T16.G6.09: Use screen shake for collision impact effects
-#    - T16.G7.08: Create a physics-based sports game (basketball, golf, etc.)
-#    - T16.G8.08: Design multi-level physics game with level progression
-#    - T16.G8.09: Implement object pooling for spawning many physics objects
-# 3. Computational Thinking Depth Added:
-#    - T16.G8.10: Decompose complex physics behavior into testable sub-components
-#    - T16.G8.11: Apply physics patterns to new game genres
-# 4. All Skill Descriptions Improved with Active Verbs:
-#    - Changed passive "Students use..." to active "Configure...", "Debug...", "Trace...", "Implement..."
-#    - Added specific examples and acceptance criteria throughout
-#    - Enhanced clarity and measurability of learning outcomes
-# 5. File Ordering Fixed:
-#    - Corrected T16.G5.06.00 and T16.G5.06.00.01 to come AFTER T16.G5.06 (proper dependency order)
-#    - Maintained K→G1→G2→G3→G4→G5→G6→G7→G8 grade progression
-#    - Within each grade: main IDs first, then sub-IDs (G5.01→G5.02→...→G5.06→G5.06.00→G5.06.00.01→G5.06.01...)
-# 6. Cross-Topic Dependencies Preserved:
-#    - ALL existing cross-topic dependencies (T02, T04, T05, T06, T07, T08, T09, T10) kept UNCHANGED
-#    - Only intra-topic (T16) dependencies modified for logical flow
-# 7. Previous Optimizations Maintained:
-#    - K-G2 chain properly linked: K.01→K.02→K.03→K.04→G1.01→G1.02→G1.03→G2.01→G2.02→G2.03→G2.04
-#    - Spurious cross-topic dependencies remain removed from G8 skills (per November 2025 optimization)
-#    - G8 skills properly depend on G7 and other G8 physics skills
-# Total skills: 108 (was 97, added 11 new skills)
-
-
-ID: T16.K.01
-Topic: T16 – 2D Motion & Physics
-Skill: Identify which sprite moved (picture-based)
-Description: **Student task:** Look at two "before" and "after" picture cards showing a stage with multiple sprites. Tap the sprite that changed position. **Visual scenario:** Before card shows cat, dog, and ball in a row. After card shows dog moved to the right. Student taps the dog. **Vocabulary:** "moved," "same spot," "different spot." _Introduces the concept that motion = change in position._ Auto-graded by correct selection.
-
-Dependencies:
-None
-
-
-
-
-ID: T16.K.02
-Topic: T16 – 2D Motion & Physics
-Skill: Match sprite to position after motion (picture-based)
-Description: **Student task:** See a simple motion instruction (arrow or "move right") and choose which picture shows where the sprite will end up. **Visual scenario:** A bird is shown with a right-pointing arrow. Three pictures show the bird in different positions. Student taps the picture with the bird moved right. _Develops spatial reasoning for predicting motion._ Auto-graded by correct selection.
-
-Dependencies:
-* T16.K.01: Identify which sprite moved (picture-based)
-
-
-ID: T16.K.03
-Topic: T16 – 2D Motion & Physics
-Skill: Identify objects that fall down (picture-based)
-Description: **Student task:** Sort picture cards of objects into "falls down" and "stays up" piles. **Visual scenario:** Cards show: apple on table edge, balloon tied to string, ball in the air, bird flying, rock on a hill. Students sort based on everyday experience. **Discussion:** What makes things fall? (Gravity pulls things down.) _First introduction to gravity concept._ Auto-graded by correct sorting.
-
-Dependencies:
-* T16.K.01: Identify which sprite moved (picture-based)
-
-
-ID: T16.K.04
-Topic: T16 – 2D Motion & Physics
-Skill: Sequence two motion steps (picture-based)
-Description: **Student task:** Look at picture cards showing two motion steps (arrow right, then arrow up) and choose which final position picture is correct. **Visual scenario:** Cat starts in bottom-left. Card 1 shows "right arrow," Card 2 shows "up arrow." Four choices show cat in different corners. Student picks cat in top-right (moved right then up). **Vocabulary:** "first," "then," "after that." _Builds sequential motion thinking before coding._ Auto-graded by correct selection.
-
-Dependencies:
-* T16.K.02: Match sprite to position after motion (picture-based)
-
-
+#    - K skills improved with detailed picture-based descriptions
+#    - Added T16.K.03: Identify objects that fall down (gravity introduction)
+#    - Added T16.G1.02: Predict motion direction from arrows
+#    - Added T16.G1.03: Sort objects by how they fall (fast/slow)
+#    - Added T16.G2.02: Identify bouncing vs sliding motion
+#    - Added T16.G2.03: Predict collision outcomes
+#    - All K-2 skills now have **Visual scenario** and **Student task** format
+# 2. Vague Skills Improved with Active Verbs and Details:
+#    - T16.G5.03.01: Added implementation steps for vehicle game
+#    - T16.G5.04.01: Added feature list for platformer
+#    - T16.G5.06.01: Added guidelines for Box vs Circle selection
+#    - T16.G6.04.04: Added examples for trigger zones
+#    - T16.G7.05.02: Added HUD element examples
+#    - T16.G8.02-G8.07: Added examples and process steps
+# 3. Spurious Cross-Topic Dependencies Removed:
+#    - T16.G8.02: Removed T21 (AI), T15, T02, T09 deps - now uses T16 prereqs
+#    - T16.G8.02.01: Removed T02, T07, T11 deps
+#    - T16.G8.02.02: Removed T02, T11, T15 deps
+#    - T16.G8.03: Removed T02, T05, T07 deps
+#    - T16.G8.04: Removed T04, T07, T10, T11 deps
+#    - T16.G8.04.01: Removed T04, T06, T10 deps
+#    - T16.G8.05: Removed T02, T03, T07 deps
+#    - T16.G8.06: Removed T03, T04, T07, T09 deps
+#    - T16.G8.07.02: Removed T25, T32 deps (data/ethics unrelated to physics)
+# 4. Intra-Topic Dependencies Strengthened:
+#    - G8 skills now properly depend on G7 and other G8 physics skills
+#    - K-G2 chain properly linked: K.01→K.02→K.03→G1.01→G1.02→G1.03→G2.01→G2.02→G2.03
+# 5. Duplicate Removed:
+#    - Removed duplicate T16.G1.03 entry
+# Total skills: 95 (was 92, added 3 new K-2 skills)
 
 
 ID: T16.G1.01
@@ -20700,6 +19955,7 @@ Dependencies:
 
 
 
+
 ID: T16.G2.02
 Topic: T16 – 2D Motion & Physics
 Skill: Identify bouncing vs sliding motion (picture-based)
@@ -20718,21 +19974,12 @@ Dependencies:
 * T16.G2.02: Identify bouncing vs sliding motion (picture-based)
 
 
-ID: T16.G2.04
-Topic: T16 – 2D Motion & Physics
-Skill: Compare speeds of two moving objects (picture-based)
-Description: **Student task:** Watch two sprites race across the screen at different speeds, then answer: "Which one is faster?" and "Which one is slower?" **Visual scenario:** A rabbit hops quickly across the top, a turtle walks slowly across the bottom. Student identifies rabbit as faster, turtle as slower. **Extension:** Students estimate how much faster (e.g., "twice as fast," "a little faster"). _Builds quantitative speed comparison before variables._ Auto-graded by correct identification.
-
-Dependencies:
-* T16.G1.01: Identify fast vs slow motion (picture-based)
-
-
 
 
 ID: T16.G3.01
 Topic: T16 – 2D Motion & Physics
 Skill: Trace how motion blocks change sprite position
-Description: Trace through motion blocks (`move`, `glide`) to determine how a sprite's position changes. Predict the sprite's final position after running a sequence of motion blocks, explaining reasoning step by step. **Example:** Given `go to x: 0 y: 0`, `move 50 steps`, `turn right 90 degrees`, `move 30 steps`, trace position changes to predict final x,y coordinates. **Acceptance criteria:** Correctly calculate final position with step-by-step work shown.
+Description: Students trace through motion blocks (move, glide) to determine how a sprite's position changes. They predict the sprite's final position after running a sequence of motion blocks, explaining their reasoning step by step. **Example:** Given `go to x: 0 y: 0`, `move 50 steps`, `turn right 90 degrees`, `move 30 steps`, students trace position changes to predict final x,y coordinates.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -20741,22 +19988,15 @@ Dependencies:
 
 
 
+
 ID: T16.G3.02
 Topic: T16 – 2D Motion & Physics
 Skill: Predict direction and distance of sprite motion
-Description: Predict which direction a sprite will move and approximately how far, given a sequence of motion blocks. Develop intuition for motion before variables are introduced. **Example:** Given `point in direction 90`, `move 100 steps`, predict sprite moves straight up approximately 100 units. **Acceptance criteria:** Correct direction and reasonable distance estimate.
+Description: Students predict which direction a sprite will move and approximately how far, given a sequence of motion blocks. They develop intuition for motion before variables are introduced.
 
 Dependencies:
 * T16.G3.01: Trace how motion blocks change sprite position
 
-
-ID: T16.G3.03
-Topic: T16 – 2D Motion & Physics
-Skill: Debug why sprite doesn't move as expected (picture-based debugging intro)
-Description: Examine a buggy motion script shown as picture blocks and identify why the sprite doesn't reach the expected position. **Visual scenario:** Script shows `point in direction 0`, `move 50 steps` but sprite should face right (90 degrees). Student identifies wrong direction value. **Common bugs:** wrong direction, wrong step count, missing turn block. _Introduces debugging thinking before text code._ **Acceptance criteria:** Correctly identify the bug and suggest fix.
-
-Dependencies:
-* T16.G3.02: Predict direction and distance of sprite motion
 
 
 
@@ -20764,7 +20004,7 @@ Dependencies:
 ID: T16.G4.01
 Topic: T16 – 2D Motion & Physics
 Skill: Simulate falling with repeated motion
-Description: Create a simple falling animation by repeatedly moving a sprite down in a loop. Observe that the sprite appears to "fall" due to gravity conceptually, preparing for velocity-based motion. **Implementation:** Use `repeat` loop with `change y by -5` to simulate falling. **Acceptance criteria:** Sprite falls smoothly from top to bottom of stage.
+Description: Students create a simple falling animation by repeatedly moving a sprite down in a loop. They observe that the sprite appears to "fall" due to gravity conceptually, preparing them for velocity-based motion.
 
 Dependencies:
 * T02.G2.01: Turn a picture routine into labeled boxes
@@ -20775,10 +20015,11 @@ Dependencies:
 
 
 
+
 ID: T16.G4.02
 Topic: T16 – 2D Motion & Physics
 Skill: Explain speed as position change over time
-Description: Explain that speed means "how much position changes each time the loop runs." Compare fast vs slow motion by changing the step size in a loop. **Example:** `change y by -2` creates slow falling, `change y by -10` creates fast falling. **Acceptance criteria:** Correctly explain relationship between step size and perceived speed.
+Description: Students explain that speed means "how much position changes each time the loop runs." They compare fast vs slow motion by changing the step size in a loop.
 
 Dependencies:
 * T01.G2.01: Find actions that repeat in everyday tasks
@@ -20789,14 +20030,29 @@ Dependencies:
 * T16.G4.01: Simulate falling with repeated motion
 
 
-ID: T16.G4.03
+
+
+
+ID: T16.G5.06.00
 Topic: T16 – 2D Motion & Physics
-Skill: Build a simple bounce animation without physics engine
-Description: Create a bouncing ball animation using loops and conditionals without the physics engine. **Implementation:** (1) Move ball down in loop, (2) when touching floor (y < -150), reverse direction, (3) ball moves up, (4) when touching top, reverse again. **Acceptance criteria:** Ball bounces continuously between top and bottom without physics blocks. _This manual approach builds understanding before using restitution parameters._
+Skill: Practice creating multiple dynamic bodies
+Description: Students create 2-3 different sprites and convert each to dynamic physics bodies. They experiment with different starting positions and observe how all bodies fall and interact, building fluency with the basic dynamic body setup before exploring shape options.
 
 Dependencies:
-* T08.G3.01: Use a simple if in a script
-* T16.G4.02: Explain speed as position change over time
+* T16.G5.06: Attach a dynamic body to a sprite
+
+
+
+
+
+ID: T16.G5.06.00.01
+Topic: T16 – 2D Motion & Physics
+Skill: Use debug mode to visualize collision shapes
+Description: Enable debug mode in the 2D physics world to see invisible collision shape outlines overlaid on sprites. Students learn that debug mode helps understand why collisions happen or don't happen, by showing the actual physics boundaries independent of sprite appearance.
+
+Dependencies:
+* T16.G5.06.00: Practice creating multiple dynamic bodies
+
 
 
 
@@ -20804,7 +20060,7 @@ Dependencies:
 ID: T16.G5.01
 Topic: T16 – 2D Motion & Physics
 Skill: Apply gravity to a sprite using 2D physics
-Description: Use the physics engine to apply gravity forces to a sprite, observing how it falls and accelerates naturally. Understand that gravity is a constant downward force that affects all dynamic physics bodies in the scene. **Implementation:** Initialize physics world with gravity, attach dynamic body to sprite. **Acceptance criteria:** Sprite falls and accelerates smoothly.
+Description: Students use the physics engine to apply gravity forces to a sprite, observing how it falls and accelerates naturally. They understand that gravity is a constant downward force that affects all dynamic physics bodies in the scene.
 
 Dependencies:
 * T16.G4.02: Explain speed as position change over time
@@ -20812,10 +20068,11 @@ Dependencies:
 
 
 
+
 ID: T16.G5.02
 Topic: T16 – 2D Motion & Physics
 Skill: Track gravity with velocity variables
-Description: Build a loop that stores a sprite's y-velocity in a variable, subtracts a gravity constant each frame, then adds the velocity to the sprite's y-position. This manual approach mirrors classic Scratch tutorials and prepares for physics debugging. **Implementation:** Create `yVelocity` variable, each frame: `change yVelocity by -1`, `change y by yVelocity`. **Acceptance criteria:** Manual gravity produces smooth acceleration matching physics engine behavior.
+Description: Students build a loop that stores a sprite's y-velocity in a variable, subtracts a gravity constant each frame, then adds the velocity to the sprite's y-position. This manual approach mirrors classic Scratch tutorials and prepares students for physics debugging.
 
 Dependencies:
 * T07.G3.05: Fix a simple repeat loop count
@@ -20826,10 +20083,11 @@ Dependencies:
 
 
 
+
 ID: T16.G5.03
 Topic: T16 – 2D Motion & Physics
 Skill: Use horizontal speed and friction variables
-Description: Add an x-velocity variable, respond to arrow keys to change it, and multiply by a friction factor (e.g., 0.9) each tick so motion glides to a stop. This prepares for platformer mechanics. **Implementation:** Create `xVelocity` variable, arrow keys: `change xVelocity by 2`, each frame: `set xVelocity to (xVelocity * 0.9)`, `change x by xVelocity`. **Acceptance criteria:** Sprite accelerates when keys pressed, glides to stop when released.
+Description: Students add an x-velocity variable, respond to arrow keys to change it, and multiply by a friction factor (e.g., 0.9) each tick so motion glides to a stop. This prepares students for platformer mechanics.
 
 Dependencies:
 * T09.G4.03: Use multiple variables in a single script
@@ -20838,10 +20096,13 @@ Dependencies:
 * T08.G3.00: Identify if blocks in existing code
 
 
+
+
+
 ID: T16.G5.03.01
 Topic: T16 – 2D Motion & Physics
 Skill: Build a top-down vehicle with manual friction control
-Description: Create a top-down car or spaceship game using manual friction variables. **Implementation:** (1) Add xVelocity and yVelocity variables, (2) respond to arrow keys to adjust velocities, (3) multiply both velocities by friction factor (0.95) each frame so vehicle drifts to a stop, (4) update sprite position using velocities. **Acceptance criteria:** Vehicle feels responsive but gradually slows down when keys are released, creating realistic drift mechanics.
+Description: Students create a top-down car or spaceship game using manual friction variables. **Implementation:** (1) Add xVelocity and yVelocity variables, (2) respond to arrow keys to adjust velocities, (3) multiply both velocities by friction factor (0.95) each frame so vehicle drifts to a stop, (4) update sprite position using velocities. The vehicle should feel responsive but gradually slow down when keys are released.
 
 Dependencies:
 * T16.G5.03: Use horizontal speed and friction variables
@@ -20849,20 +20110,24 @@ Dependencies:
 
 
 
+
 ID: T16.G5.04
 Topic: T16 – 2D Motion & Physics
 Skill: Code a manual bounce with energy loss
-Description: Write a conditional that checks for ground contact, multiplies the y-velocity by a negative damping factor (e.g., -0.6), and sends the sprite back up with reduced height. This cements physics vocabulary before using the engine's restitution. **Implementation:** `if <y position < -150>`, `set yVelocity to (yVelocity * -0.6)`. **Acceptance criteria:** Ball bounces with decreasing height until stopping.
+Description: Students write a conditional that checks for ground contact, multiplies the y-velocity by a negative damping factor (e.g., -0.6), and sends the sprite back up with reduced height. This cements physics vocabulary before using the engine's restitution.
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
 * T16.G5.02: Track gravity with velocity variables
 
 
+
+
+
 ID: T16.G5.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Create a simple platformer using manual gravity
-Description: Build a basic platformer game combining manual gravity, horizontal friction, and ground detection. **Features:** (1) Character falls with gravity (yVelocity decreases each frame), (2) pressing jump key adds upward velocity only when touching ground, (3) left/right keys control horizontal movement with friction, (4) character stops at floor level. **Acceptance criteria:** All features work correctly, character can jump and move smoothly. This integrates all manual physics concepts before using the engine.
+Description: Students build a basic platformer game combining manual gravity, horizontal friction, and ground detection. **Features:** (1) Character falls with gravity (yVelocity decreases each frame), (2) pressing jump key adds upward velocity only when touching ground, (3) left/right keys control horizontal movement with friction, (4) character stops at floor level. This integrates all manual physics concepts before using the engine.
 
 Dependencies:
 * T16.G5.04: Code a manual bounce with energy loss
@@ -20871,10 +20136,11 @@ Dependencies:
 
 
 
+
 ID: T16.G5.05
 Topic: T16 – 2D Motion & Physics
 Skill: Initialize a 2D physics world
-Description: Add the `initialize 2D physics world with gravity x [0] y [-100]` block, set appropriate gravity values, and confirm the debug overlay shows the world running. Understand that no physics behavior occurs until this block executes. **Note:** Running this block again resets the entire physics world, useful for level transitions or game resets. **Acceptance criteria:** Physics world initializes successfully, debug overlay visible.
+Description: Students add the `initialize 2D physics world with gravity x [0] y [-100]` block, set appropriate gravity values, and confirm the debug overlay shows the world running. They understand that no physics behavior occurs until this block executes. Note: Running this block again resets the entire physics world, useful for level transitions or game resets.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
@@ -20886,76 +20152,75 @@ Dependencies:
 
 
 
+
 ID: T16.G5.06
 Topic: T16 – 2D Motion & Physics
 Skill: Attach a dynamic body to a sprite
-Description: Convert a sprite to a dynamic physics body using `behave as a [dynamic] [object] shape [Box] debug [Yes]`. Observe the sprite fall and stop when it hits the stage floor, confirming the physics world affects it. **Acceptance criteria:** Sprite falls under gravity and collides with stage boundaries correctly.
+Description: Students convert a sprite to a dynamic physics body using `behave as a [dynamic] [object] shape [Box] debug [Yes]`. They observe the sprite fall and stop when it hits the stage floor, confirming the physics world affects it.
 
 Dependencies:
 * T16.G5.05: Initialize a 2D physics world
 
 
-ID: T16.G5.06.00
-Topic: T16 – 2D Motion & Physics
-Skill: Practice creating multiple dynamic bodies
-Description: Create 2-3 different sprites and convert each to dynamic physics bodies. Experiment with different starting positions and observe how all bodies fall and interact, building fluency with the basic dynamic body setup before exploring shape options. **Acceptance criteria:** All sprites fall independently and collide with each other realistically.
 
-Dependencies:
-* T16.G5.06: Attach a dynamic body to a sprite
-
-
-ID: T16.G5.06.00.01
-Topic: T16 – 2D Motion & Physics
-Skill: Use debug mode to visualize collision shapes
-Description: Enable debug mode in the 2D physics world to see invisible collision shape outlines overlaid on sprites. Understand that debug mode helps understand why collisions happen or don't happen, by showing the actual physics boundaries independent of sprite appearance. **Acceptance criteria:** Debug outlines visible, correctly identify shape boundaries vs sprite visuals.
-
-Dependencies:
-* T16.G5.06.00: Practice creating multiple dynamic bodies
 
 
 ID: T16.G5.06.01
 Topic: T16 – 2D Motion & Physics
 Skill: Choose Box vs Circle collision shapes
-Description: Select between Box and Circle collision shapes based on sprite appearance and desired physics behavior. **Guidelines:** Use Box for rectangular sprites (platforms, crates, walls) that should stack stably. Use Circle for round sprites (balls, wheels, coins) that should roll smoothly. Test both shapes on the same sprite to observe behavioral differences. **Acceptance criteria:** Correctly justify shape choice for given sprites.
+Description: Students select between Box and Circle collision shapes based on sprite appearance and desired physics behavior. **Guidelines:** Use Box for rectangular sprites (platforms, crates, walls) that should stack stably. Use Circle for round sprites (balls, wheels, coins) that should roll smoothly. Students test both shapes on the same sprite to observe behavioral differences.
 
 Dependencies:
 * T16.G5.06.00: Practice creating multiple dynamic bodies
 
 
+
+
+
 ID: T16.G5.06.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Use Capsule shapes for elongated objects
-Description: Select Capsule collision shapes for elongated sprites (characters, vehicles, rods). Observe how Capsules provide smoother rolling and better collision response for pill-shaped objects compared to boxes, useful for character physics that should roll over obstacles without catching on edges. **Acceptance criteria:** Capsule shape selected for appropriate sprites, smooth obstacle traversal demonstrated.
+Description: Students select Capsule collision shapes for elongated sprites (characters, vehicles, rods). They observe how Capsules provide smoother rolling and better collision response for pill-shaped objects compared to boxes, useful for character physics that should roll over obstacles without catching on edges.
 
 Dependencies:
 * T16.G5.06.01: Choose Box vs Circle collision shapes
+
+
+
 
 
 ID: T16.G5.06.01.02
 Topic: T16 – 2D Motion & Physics
 Skill: Use Convex Hull for sprite-fitted collision
-Description: Apply Convex Hull collision shapes to create automatic collision boundaries that closely match sprite outlines. Understand that Convex Hull wraps the sprite's visible pixels with the smallest convex polygon, providing better visual accuracy than basic shapes but using more computational resources. **Acceptance criteria:** Convex Hull applied correctly, trade-offs understood.
+Description: Students apply Convex Hull collision shapes to create automatic collision boundaries that closely match sprite outlines. They understand that Convex Hull wraps the sprite's visible pixels with the smallest convex polygon, providing better visual accuracy than basic shapes but using more computational resources.
 
 Dependencies:
 * T16.G5.06.01: Choose Box vs Circle collision shapes
+
+
+
 
 
 ID: T16.G5.06.02
 Topic: T16 – 2D Motion & Physics
 Skill: Create sensor bodies for trigger zones
-Description: Create sensor bodies using `behave as a [dynamic] [sensor]` that detect overlaps without causing physical collisions. Use sensors for trigger zones, collectible detection areas, and checkpoint markers. **Acceptance criteria:** Sensor detects overlaps but doesn't physically block movement.
+Description: Students create sensor bodies using `behave as a [dynamic] [sensor]` that detect overlaps without causing physical collisions. They use sensors for trigger zones, collectible detection areas, and checkpoint markers.
 
 Dependencies:
 * T16.G5.06.01: Choose Box vs Circle collision shapes
+
+
+
 
 
 ID: T16.G5.06.03
 Topic: T16 – 2D Motion & Physics
 Skill: Create compound shapes for complex sprites
-Description: Use `behave as a [dynamic] [object] in compound shape with curve tolerance [value] point distance [value]` to create physics bodies that match complex or concave sprite outlines. Understand the trade-off between accuracy and performance. **Acceptance criteria:** Compound shape created for complex sprite, performance impact considered.
+Description: Students use `behave as a [dynamic] [object] in compound shape with curve tolerance [value] point distance [value]` to create physics bodies that match complex or concave sprite outlines. They understand the trade-off between accuracy and performance.
 
 Dependencies:
 * T16.G5.06.01: Choose Box vs Circle collision shapes
+
 
 
 
@@ -20963,7 +20228,7 @@ Dependencies:
 ID: T16.G5.07
 Topic: T16 – 2D Motion & Physics
 Skill: Build fixed boundaries for floors and walls
-Description: Add fixed physics bodies to floor or wall sprites using `behave as a [fixed] [object]` so falling or sliding objects stop on contact. Learn to use fixed bodies for geometry that should not move. **Acceptance criteria:** Fixed boundaries stop dynamic objects correctly, fixed bodies don't move under force.
+Description: Students add fixed physics bodies to floor or wall sprites using `behave as a [fixed] [object]` so falling or sliding objects stop on contact. They learn to use fixed bodies for geometry that should not move.
 
 Dependencies:
 * T16.G5.05: Initialize a 2D physics world
@@ -20971,41 +20236,52 @@ Dependencies:
 
 
 
+
 ID: T16.G5.08
 Topic: T16 – 2D Motion & Physics
 Skill: Apply an impulse to jump or push
-Description: Use `apply impulse [force] in direction [angle]` to make a dynamic sprite jump in response to input (e.g., direction 90 for upward jump). Control impulse strength so the sprite clears a target platform height. **Acceptance criteria:** Impulse produces consistent jump height, sprite lands on target platform.
+Description: Students use `apply impulse [force] in direction [angle]` to make a dynamic sprite jump in response to input (e.g., direction 90 for upward jump). They control impulse strength so the sprite clears a target platform height.
 
 Dependencies:
 * T06.G4.01: Use multiple event handlers in the same sprite
 * T16.G5.06: Attach a dynamic body to a sprite
 
 
+
+
+
 ID: T16.G5.08.01
 Topic: T16 – 2D Motion & Physics
 Skill: Distinguish forces from impulses
-Description: Compare `add force [force] in direction [angle]` (applied continuously each frame) with `apply impulse [force] in direction [angle]` (applied once instantly). Use forces for sustained thrust (jetpack) and impulses for sudden actions (jump, kick). **Acceptance criteria:** Correctly explain difference, select appropriate method for given scenarios.
+Description: Students compare `add force [force] in direction [angle]` (applied continuously each frame) with `apply impulse [force] in direction [angle]` (applied once instantly). They use forces for sustained thrust (jetpack) and impulses for sudden actions (jump, kick).
 
 Dependencies:
 * T16.G5.08: Apply an impulse to jump or push
 
 
+
+
+
 ID: T16.G5.08.02
 Topic: T16 – 2D Motion & Physics
 Skill: Apply impulse at a position for rotation
-Description: Use `apply impulse [force] in direction [angle] at position x [X] y [Y]` to apply off-center impulses. Observe how impulses applied away from center create instant rotation (torque), useful for hitting objects at an angle or creating spin effects. **Acceptance criteria:** Off-center impulse produces rotation, effect understood and controlled.
+Description: Students use `apply impulse [force] in direction [angle] at position x [X] y [Y]` to apply off-center impulses. They observe how impulses applied away from center create instant rotation (torque), useful for hitting objects at an angle or creating spin effects.
 
 Dependencies:
 * T16.G5.08.01: Distinguish forces from impulses
+
+
+
 
 
 ID: T16.G5.08.03
 Topic: T16 – 2D Motion & Physics
 Skill: Apply a single continuous force
-Description: Use `add force [force] in direction [angle]` to apply a single continuous force to a physics body (e.g., constant wind, jetpack thrust). Observe how continuous forces create sustained acceleration unlike one-time impulses, preparing for combining multiple forces. **Acceptance criteria:** Continuous force creates sustained acceleration, difference from impulse clear.
+Description: Students use `add force [force] in direction [angle]` to apply a single continuous force to a physics body (e.g., constant wind, jetpack thrust). They observe how continuous forces create sustained acceleration unlike one-time impulses, preparing them for combining multiple forces.
 
 Dependencies:
 * T16.G5.08.01: Distinguish forces from impulses
+
 
 
 
@@ -21013,25 +20289,31 @@ Dependencies:
 ID: T16.G5.09
 Topic: T16 – 2D Motion & Physics
 Skill: Configure density for mass control
-Description: Adjust density using `update density [value]` to control how heavy a sprite feels. Understand that density × area = mass and experiment with light vs heavy objects in collisions. **Acceptance criteria:** Demonstrate density's effect on collision outcomes, heavier objects push lighter ones.
+Description: Students adjust density using `update density [value]` to control how heavy a sprite feels. They understand that density × area = mass and experiment with light vs heavy objects in collisions.
 
 Dependencies:
 * T16.G5.06: Attach a dynamic body to a sprite
 
 
+
+
+
 ID: T16.G5.09.01
 Topic: T16 – 2D Motion & Physics
 Skill: Introduce friction percentage
-Description: Adjust the friction percentage parameter using `update density [value] friction [value]%` to control surface stickiness. Observe how friction affects sliding behavior and prepare for detailed friction experiments in G6. **Acceptance criteria:** Friction changes sliding distance, relationship understood.
+Description: Students adjust the friction percentage parameter using `update density [value] friction [value]%` to control surface stickiness. They observe how friction affects sliding behavior and prepare for detailed friction experiments in G6.
 
 Dependencies:
 * T16.G5.09: Configure density for mass control
 
 
+
+
+
 ID: T16.G5.09.02
 Topic: T16 – 2D Motion & Physics
 Skill: Introduce restitution percentage
-Description: Adjust the restitution percentage parameter using `update density [value] friction [value]% restitution [value]%` to control bounciness. Observe basic bounce behavior and prepare for systematic bounce height measurements in G6. **Acceptance criteria:** Restitution changes bounce height, 0%=no bounce, 100%=full bounce understood.
+Description: Students adjust the restitution percentage parameter using `update density [value] friction [value]% restitution [value]%` to control bounciness. They observe basic bounce behavior and prepare for systematic bounce height measurements in G6.
 
 Dependencies:
 * T16.G5.09.01: Introduce friction percentage
@@ -21039,23 +20321,28 @@ Dependencies:
 
 
 
+
 ID: T16.G5.10
 Topic: T16 – 2D Motion & Physics
 Skill: Trace simple 2D physics motion
-Description: Experiment with a physics simulation by adjusting gravity, density, and starting height values, then predict and verify where the sprite lands. Run the simulation, observe outcomes, and choose the correct statement about where the sprite ends up (e.g., "lands on the platform," "still in the air," "passed through the floor"). This hands-on prediction and testing builds physics intuition. **Acceptance criteria:** Correctly predict landing position based on physics parameters.
+Description: Students experiment with a physics simulation by adjusting gravity, density, and starting height values, then predict and verify where the sprite lands. They run the simulation, observe outcomes, and choose the correct statement about where the sprite ends up (e.g., "lands on the platform," "still in the air," "passed through the floor"). This hands-on prediction and testing builds physics intuition.
 
 Dependencies:
 * T09.G3.05: Trace code with variables to predict outcomes
 * T16.G5.06: Attach a dynamic body to a sprite
 
 
+
+
+
 ID: T16.G5.10.01
 Topic: T16 – 2D Motion & Physics
 Skill: Remove physics body from a sprite
-Description: Use `remove physics-based behavior` to detach a sprite from the physics engine so it no longer responds to gravity or collisions. Use this for collected items, destroyed enemies, or transitioning between physics and non-physics modes. **Acceptance criteria:** Sprite stops responding to physics after removal, useful for collectibles demonstrated.
+Description: Students use `remove physics-based behavior` to detach a sprite from the physics engine so it no longer responds to gravity or collisions. They use this for collected items, destroyed enemies, or transitioning between physics and non-physics modes.
 
 Dependencies:
 * T16.G5.06: Attach a dynamic body to a sprite
+
 
 
 
@@ -21063,7 +20350,7 @@ Dependencies:
 ID: T16.G5.11
 Topic: T16 – 2D Motion & Physics
 Skill: Debug missing physics setup
-Description: Open a buggy project where the player never falls because the physics world was not initialized or the body was left as fixed. Inspect the scripts, identify the missing setup, and re-test. **Acceptance criteria:** Correctly identify missing initialization or incorrect body type, fix implemented successfully.
+Description: Students open a buggy project where the player never falls because the physics world was not initialized or the body was left as fixed. They inspect the scripts, identify the missing setup, and re-test.
 
 Dependencies:
 * T16.G5.06: Attach a dynamic body to a sprite
@@ -21072,10 +20359,11 @@ Dependencies:
 
 
 
+
 ID: T16.G5.12
 Topic: T16 – 2D Motion & Physics
 Skill: Choose manual vs engine-based physics
-Description: After experiencing both manual velocity variables (G5.02-G5.04) and the physics engine (G5.05-G5.11), compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and choose the most appropriate approach for each. Justify decisions based on project requirements and hands-on experience with both methods. **Acceptance criteria:** Correct method chosen for each scenario with clear justification.
+Description: After experiencing both manual velocity variables (G5.02-G5.04) and the physics engine (G5.05-G5.11), students compare CreatiCode project briefs (platformer, UI animation, top-down maze, pinball machine) and choose the most appropriate approach for each. They justify their decision based on project requirements and their hands-on experience with both methods.
 
 Dependencies:
 * T05.G4.05: Plan a simulation with defined inputs and outputs
@@ -21083,20 +20371,10 @@ Dependencies:
 * T16.G5.11: Debug missing physics setup
 
 
-ID: T16.G5.13
-Topic: T16 – 2D Motion & Physics
-Skill: Use (speed) reporter to display total speed
-Description: Use the `(speed)` reporter block to read and display a physics body's total velocity magnitude (combining x and y components). Understand that `(speed)` returns the scalar speed value while `(x speed)` and `(y speed)` return directional components. **Example use cases:** Display speedometer in racing game, check if object has stopped moving, trigger effects at high speeds. **Acceptance criteria:** Correctly display total speed, explain difference from x/y speed components.
-
-Dependencies:
-* T16.G5.06: Attach a dynamic body to a sprite
-* T16.G5.08: Apply an impulse to jump or push
-
-
 <!-- X-2 VIOLATION NOTE: Several G6-G7 skills below have cross-topic dependencies on T07/T08/T09.G3 skills,
      creating 3-4 grade gaps. This is acceptable since they are cross-topic dependencies (not within-topic)
      and will be addressed in Phase 2 cross-topic dependency optimization. The skills are properly scaffolded
-     within T16 itself. -->
+     within T17 itself. -->
 
 
 
@@ -21104,7 +20382,7 @@ Dependencies:
 ID: T16.G6.01
 Topic: T16 – 2D Motion & Physics
 Skill: Configure surface friction parameters
-Description: Adjust the friction percentage using `update density [value] friction [value]% restitution [value]%` and measure how far objects slide on different surfaces. Map friction values to sliding distances through systematic testing. **Acceptance criteria:** Friction experiment completed, data table shows friction vs distance relationship.
+Description: Students adjust the friction percentage using `update density [value] friction [value]% restitution [value]%` and measure how far objects slide on different surfaces. They learn to map friction values to sliding distances through systematic testing.
 
 Dependencies:
 * T16.G5.09.01: Introduce friction percentage
@@ -21113,61 +20391,78 @@ Dependencies:
 
 
 
+
 ID: T16.G6.02
 Topic: T16 – 2D Motion & Physics
 Skill: Control restitution (bounce) parameters
-Description: Modify the restitution percentage and measure bounce heights. Learn the relationship between restitution values (0-100%) and energy conservation in collisions: 0% = no bounce, 100% = full bounce. **Acceptance criteria:** Restitution experiment completed, bounce height graph shows linear relationship.
+Description: Students modify the restitution percentage and measure bounce heights. They learn the relationship between restitution values (0-100%) and energy conservation in collisions: 0% = no bounce, 100% = full bounce.
 
 Dependencies:
 * T16.G5.09.02: Introduce restitution percentage
 * T16.G6.01: Configure surface friction parameters
 
 
+
+
+
 ID: T16.G6.02.01
 Topic: T16 – 2D Motion & Physics
 Skill: Set velocity directly for physics bodies
-Description: Use `set x speed [value]`, `set y speed [value]`, and `set speed [value] in direction [angle]` to directly control physics body velocity. Compare direct velocity setting to impulses and understand when each approach is appropriate. **Guidelines:** Use direct velocity for instant speed changes, teleports, or capping max speed. Use impulses for physics-realistic acceleration. **Acceptance criteria:** Demonstrate both methods, explain appropriate use cases.
+Description: Students use `set x speed [value]`, `set y speed [value]`, and `set speed [value] in direction [angle]` to directly control physics body velocity. They compare direct velocity setting to impulses and understand when each approach is appropriate.
 
 Dependencies:
 * T16.G5.06: Attach a dynamic body to a sprite
 * T16.G5.08: Apply an impulse to jump or push
 
 
-ID: T16.G6.02.01.01
-Topic: T16 – 2D Motion & Physics
-Skill: Maintain constant speed in current direction
-Description: Use `set speed [value] in moving direction` to regulate an object's speed without changing its trajectory. This is useful for maintaining constant character movement speed, limiting maximum velocity, or normalizing physics-driven velocities while preserving direction changes from collisions or forces. **Acceptance criteria:** Speed clamped successfully, direction preserved through collisions.
 
-Dependencies:
-* T16.G6.02.01: Set velocity directly for physics bodies
 
 
 ID: T16.G6.02.01.02
 Topic: T16 – 2D Motion & Physics
 Skill: Read velocity reporters for verification
-Description: Use velocity reporter blocks (`(x speed)`, `(y speed)`, `(speed)`) to read and verify the current velocity of a physics body. Learn to check if velocity changes worked as expected, essential for debugging motion issues. **Acceptance criteria:** Velocity values read correctly, used to verify expected behavior in script.
+Description: Use velocity reporter blocks (x speed, y speed, speed) to read and verify the current velocity of a physics body. Students learn to check if velocity changes worked as expected, essential for debugging motion issues.
 
 Dependencies:
 * T16.G6.02.01: Set velocity directly for physics bodies
+
+
+
 
 
 ID: T16.G6.02.01.03
 Topic: T16 – 2D Motion & Physics
 Skill: Set rotation speed directly
-Description: Use `set rotation speed [value]` to directly control how fast a physics body spins (degrees per second). Understand this gives immediate rotation control, parallel to setting linear velocity. **Acceptance criteria:** Rotation speed set correctly, predictable spinning behavior demonstrated.
+Description: Use 'physics set rotation speed' to directly control how fast a physics body spins (degrees per second). Students learn this gives immediate rotation control, parallel to setting linear velocity.
 
 Dependencies:
 * T16.G6.02.01: Set velocity directly for physics bodies
+
+
+
+
+
+ID: T16.G6.02.01.01
+Topic: T16 – 2D Motion & Physics
+Skill: Maintain constant speed in current direction
+Description: Students use `set speed [value] in moving direction` to regulate an object's speed without changing its trajectory. This is useful for maintaining constant character movement speed, limiting maximum velocity, or normalizing physics-driven velocities while preserving direction changes from collisions or forces.
+
+Dependencies:
+* T16.G6.02.01: Set velocity directly for physics bodies
+
+
+
 
 
 ID: T16.G6.02.02
 Topic: T16 – 2D Motion & Physics
 Skill: Compare dynamic vs movable body types
-Description: Compare dynamic bodies (affected by forces and gravity) with movable (kinematic) bodies (move via velocity but don't respond to forces). Identify scenarios where each type is appropriate: dynamic for player characters and falling objects, movable for moving platforms and elevators. **Acceptance criteria:** Correctly identify body type for 5+ scenarios, explain reasoning.
+Description: Students compare dynamic bodies (affected by forces and gravity) with movable (kinematic) bodies (move via velocity but don't respond to forces). They identify scenarios where each type is appropriate: dynamic for player characters and falling objects, movable for moving platforms and elevators.
 
 Dependencies:
 * T16.G5.06: Attach a dynamic body to a sprite
 * T16.G6.02.01: Set velocity directly for physics bodies
+
 
 
 
@@ -21175,7 +20470,7 @@ Dependencies:
 ID: T16.G6.03
 Topic: T16 – 2D Motion & Physics
 Skill: Build a movable (kinematic) moving platform
-Description: Create a platform using `behave as a [movable] [object]` that moves on a fixed path while still colliding with players. Use `set x speed` and `set y speed` to control platform motion directly rather than relying on physics forces. **Acceptance criteria:** Platform moves on path, carries player correctly, doesn't respond to gravity or impulses.
+Description: Students create a platform using `behave as a [movable] [object]` that moves on a fixed path while still colliding with players. They use `set x speed` and `set y speed` to control platform motion directly rather than relying on physics forces.
 
 Dependencies:
 * T07.G3.05: Fix a simple repeat loop count
@@ -21184,56 +20479,72 @@ Dependencies:
 
 
 
+
 ID: T16.G6.04
 Topic: T16 – 2D Motion & Physics
 Skill: Detect collisions for scoring or triggers
-Description: Use `broadcast [message] when colliding with [sprite]` to listen for collision events between sprites. Run scoring or state-change scripts in response to collisions (player hits coin, ball hits bumper). **Acceptance criteria:** Collision detection triggers score change or state transition correctly.
+Description: Students use `broadcast [message] when colliding with [sprite]` to listen for collision events between sprites. They run scoring or state-change scripts in response to collisions (player hits coin, ball hits bumper).
 
 Dependencies:
 * T06.G4.01: Use multiple event handlers in the same sprite
 * T16.G5.10: Trace simple 2D physics motion
 
 
+
+
+
 ID: T16.G6.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Detect collision end events
-Description: Use `broadcast [message] when finish colliding with [sprite]` to trigger actions when objects stop touching. Understand collision end events are essential for: stopping lava damage when leaving fire, releasing pressed buttons, tracking exit from trigger zones, and any scenario needing 'when objects separate' detection. **Acceptance criteria:** End-collision event triggers action correctly, difference from start-collision understood.
+Description: Students use `broadcast [message] when finish colliding with [sprite]` to trigger actions when objects stop touching. Students learn collision end events are essential for: stopping lava damage when leaving fire, releasing pressed buttons, tracking exit from trigger zones, and any scenario needing 'when objects separate' detection.
 
 Dependencies:
 * T16.G6.04: Detect collisions for scoring or triggers
+
+
+
 
 
 ID: T16.G6.04.02
 Topic: T16 – 2D Motion & Physics
 Skill: Enable ground detection for jump control
-Description: Enable ground detection using `turn on ground detection within distance [value] debug [Yes/No]` and use the `<in collision below>` reporter in conditionals to allow jumping only when the sprite is standing on ground. This prevents mid-air double jumps and creates responsive platformer controls. **Acceptance criteria:** Jump only works when grounded, no double-jumping possible.
+Description: Students enable ground detection using `turn on ground detection within distance [value] debug [Yes/No]` and use the `<in collision below>` reporter in conditionals to allow jumping only when the sprite is standing on ground. This prevents mid-air double jumps and creates responsive platformer controls.
 
 Dependencies:
 * T16.G6.04: Detect collisions for scoring or triggers
+
+
+
 
 
 ID: T16.G6.04.02.01
 Topic: T16 – 2D Motion & Physics
 Skill: Use ground slope reporter for inclined surfaces
-Description: Use the `(ground slope)` reporter to read the angle of the surface beneath a sprite. Adjust sprite behavior on slopes and ramps by detecting whether the character is on flat ground (0 degrees), uphill (positive), or downhill (negative), enabling features like sliding down steep slopes or adjusting movement speed on inclines. **Acceptance criteria:** Slope angle read correctly, behavior changes based on slope angle.
+Description: Students use the `(ground slope)` reporter to read the angle of the surface beneath a sprite. They adjust sprite behavior on slopes and ramps by detecting whether the character is on flat ground (0 degrees), uphill (positive), or downhill (negative), enabling features like sliding down steep slopes or adjusting movement speed on inclines.
 
 Dependencies:
 * T16.G6.04.02: Enable ground detection for jump control
 
 
+
+
+
 ID: T16.G6.04.03
 Topic: T16 – 2D Motion & Physics
 Skill: Identify collision management needs
-Description: Analyze a game design (with multiple object types like players, enemies, collectibles, hazards, and platforms) and identify which objects should collide with each other and which should pass through. Plan collision filtering strategy before implementing collision groups. **Acceptance criteria:** Collision matrix created showing all object type pairs, pass-through vs collide decision for each.
+Description: Students analyze a game design (with multiple object types like players, enemies, collectibles, hazards, and platforms) and identify which objects should collide with each other and which should pass through. They plan collision filtering strategy before implementing collision groups.
 
 Dependencies:
 * T16.G6.04: Detect collisions for scoring or triggers
 
 
+
+
+
 ID: T16.G6.04.04
 Topic: T16 – 2D Motion & Physics
 Skill: Build trigger zones and collectibles with sensor bodies
-Description: Combine sensor bodies with collision events to create functional game elements. **Examples:** (1) Checkpoint zone that saves player progress when entered, (2) collectible coins that add score and hide when touched, (3) danger zone that triggers damage without blocking movement. The sensor detects entry but doesn't physically block the player. **Acceptance criteria:** All three example types implemented and working correctly.
+Description: Students combine sensor bodies with collision events to create functional game elements. **Examples:** (1) Checkpoint zone that saves player progress when entered, (2) collectible coins that add score and hide when touched, (3) danger zone that triggers damage without blocking movement. The sensor detects entry but doesn't physically block the player.
 
 Dependencies:
 * T16.G5.06.02: Create sensor bodies for trigger zones
@@ -21242,49 +20553,63 @@ Dependencies:
 
 
 
+
 ID: T16.G6.05
 Topic: T16 – 2D Motion & Physics
 Skill: Add sprites to collision groups
-Description: Assign group numbers to sprites using `add to collision group [G]` to categorize physics objects. Understand that collision groups are the foundation for collision filtering and that sprites can belong to multiple groups simultaneously. **Acceptance criteria:** Sprites assigned to groups correctly, multiple group membership understood.
+Description: Students assign group numbers to sprites using `add to collision group [G]` to categorize physics objects. They understand that collision groups are the foundation for collision filtering and that sprites can belong to multiple groups simultaneously.
 
 Dependencies:
 * T16.G6.04.03: Identify collision management needs
 
 
+
+
+
 ID: T16.G6.05.01
 Topic: T16 – 2D Motion & Physics
 Skill: Enable collision filtering with other groups
-Description: Configure collision filters using `enable collision with group [G]` and `disable collision with group [G]` to specify which groups a sprite should collide with. Understand that filters are directional and must be set on BOTH sprites for mutual pass-through behavior. **Acceptance criteria:** Collision filtering works correctly, bidirectional requirement understood.
+Description: Students configure collision filters using `enable collision with group [G]` and `disable collision with group [G]` to specify which groups a sprite should collide with. They understand that filters are directional and must be set on BOTH sprites for mutual pass-through behavior.
 
 Dependencies:
 * T16.G6.05: Add sprites to collision groups
 
 
+
+
+
 ID: T16.G6.05.02
 Topic: T16 – 2D Motion & Physics
 Skill: Test collision group filtering behavior
-Description: Test collision group setups by running the game and verifying that objects pass through or collide as expected. Debug filtering issues by checking that groups are assigned correctly, filters are bidirectional, and objects without group assignments collide with everything by default. **Acceptance criteria:** All collision behaviors match design, filtering bugs identified and fixed.
+Description: Students test collision group setups by running the game and verifying that objects pass through or collide as expected. They debug filtering issues by checking that groups are assigned correctly, filters are bidirectional, and objects without group assignments collide with everything by default.
 
 Dependencies:
 * T16.G6.05.01: Enable collision filtering with other groups
 
 
+
+
+
 ID: T16.G6.05.03
 Topic: T16 – 2D Motion & Physics
 Skill: Dynamically modify collision groups at runtime
-Description: Dynamically add or remove collision group memberships during gameplay (e.g., for invincibility, phasing) using `add to collision group [G]` and `remove from collision group [G]`. **Example use cases:** Player invincibility after hit, ghost mode power-up, phase-shifting mechanics. **Acceptance criteria:** Runtime group changes work correctly, gameplay uses demonstrated.
+Description: Dynamically add or remove collision group memberships during gameplay (e.g., for invincibility, phasing) using `add to collision group [G]` and `remove from collision group [G]`.
 
 Dependencies:
 * T16.G6.05.02: Test collision group filtering behavior
+
+
+
 
 
 ID: T16.G6.05.04
 Topic: T16 – 2D Motion & Physics
 Skill: Use dominance groups for one-way pushing
-Description: Use `set dominance group to [G]` to create one-way physical interactions where higher-dominance objects push lower-dominance objects without being pushed back. Apply this to create boss characters that can't be knocked back by players, heavy objects that push light ones, or unstoppable moving hazards. **Acceptance criteria:** Dominance demonstrated with boss that pushes player without being pushed.
+Description: Students use `set dominance group to [G]` to create one-way physical interactions where higher-dominance objects push lower-dominance objects without being pushed back. They apply this to create boss characters that can't be knocked back by players, heavy objects that push light ones, or unstoppable moving hazards.
 
 Dependencies:
 * T16.G6.05.02: Test collision group filtering behavior
+
 
 
 
@@ -21292,17 +20617,20 @@ Dependencies:
 ID: T16.G6.06
 Topic: T16 – 2D Motion & Physics
 Skill: Blend manual and engine sprites in a level
-Description: Create a project that combines manual motion (scrolling backgrounds, UI elements, non-physics objects) with physics bodies (falling objects, player characters) running simultaneously. **Success criteria:** Manual sprites move smoothly without physics interference, physics sprites respond to gravity and collisions correctly, and no unintended physics bodies are created. **Acceptance criteria:** Mixed project works correctly, no interference between systems.
+Description: Students create a project that combines manual motion (scrolling backgrounds, UI elements, non-physics objects) with physics bodies (falling objects, player characters) running simultaneously. Success criteria: manual sprites move smoothly without physics interference, physics sprites respond to gravity and collisions correctly, and no unintended physics bodies are created.
 
 Dependencies:
 * T16.G5.10: Trace simple 2D physics motion
 * T16.G5.11: Debug missing physics setup
 
 
+
+
+
 ID: T16.G6.06.01
 Topic: T16 – 2D Motion & Physics
 Skill: Lock movement or rotation of physics bodies
-Description: Use `prevent body movement from forces [Yes]` and `prevent body rotation from forces [Yes]` to constrain physics objects. Create characters that stay upright, platforms that resist being pushed, or objects that only rotate without moving. **Acceptance criteria:** Constraints applied correctly, constrained bodies behave as expected under forces.
+Description: Students use `prevent body movement from forces [Yes]` and `prevent body rotation from forces [Yes]` to constrain physics objects. They create characters that stay upright, platforms that resist being pushed, or objects that only rotate without moving.
 
 Dependencies:
 * T16.G5.06: Attach a dynamic body to a sprite
@@ -21310,30 +20638,37 @@ Dependencies:
 
 
 
+
 ID: T16.G6.07
 Topic: T16 – 2D Motion & Physics
 Skill: Debug unstable physics behavior
-Description: Diagnose why a sprite jitters, sinks through a platform, or flies off-screen (e.g., density too low, conflicting impulses, missing collision groups) and adjust parameters to stabilize the scene. **Common causes:** too-high forces, too-small collision shapes, missing fixed bodies, tunneling (solved with CCD). **Acceptance criteria:** Unstable behavior identified, root cause diagnosed, fix applied successfully.
+Description: Students diagnose why a sprite jitters, sinks through a platform, or flies off-screen (e.g., density too low, conflicting impulses, missing collision groups) and adjust parameters to stabilize the scene.
 
 Dependencies:
 * T16.G6.01: Configure surface friction parameters
 * T16.G6.02: Control restitution (bounce) parameters
 
 
+
+
+
 ID: T16.G6.07.01
 Topic: T16 – 2D Motion & Physics
 Skill: Configure world border properties
-Description: Set physics world border properties (friction and restitution). Use `set world border collider friction [value]% restitution [value]%` to control how sprites bounce and slide when hitting stage edges, creating realistic boundary behavior without manual edge detection. **Acceptance criteria:** Border friction and restitution configured, edge behavior matches design intent.
+Description: Set physics world border properties (friction and restitution). Students use `set world border collider friction [value]% restitution [value]%` to control how sprites bounce and slide when hitting stage edges, creating realistic boundary behavior without manual edge detection.
 
 Dependencies:
 * T16.G5.05: Initialize a 2D physics world
 * T16.G6.01: Configure surface friction parameters
 
 
+
+
+
 ID: T16.G6.07.02
 Topic: T16 – 2D Motion & Physics
 Skill: Configure world borders for wrap-around or open-edge levels
-Description: Set physics world border collision groups. Use `set world border collision group [G] colliding with group [G]` to configure whether certain sprites or groups can collide with stage borders, enabling scenarios where some objects pass through edges while others bounce. **Acceptance criteria:** Group-based border collision works, pass-through and bounce behaviors configured correctly.
+Description: Set physics world border collision groups. Students use `set world border collision group [G] colliding with group [G]` to configure whether certain sprites or groups can collide with stage borders, enabling scenarios where some objects pass through edges while others bounce.
 
 Dependencies:
 * T16.G6.07.01: Configure world border properties
@@ -21341,23 +20676,15 @@ Dependencies:
 
 
 
+
 ID: T16.G6.08
 Topic: T16 – 2D Motion & Physics
 Skill: Compare simulations to real-world motion
-Description: Record bounce heights or slide distances in CreatiCode, compare them to expected real-world results, and discuss how closely the simulation matches reality and what simplifications the physics engine makes. **Acceptance criteria:** Real vs simulated comparison completed, engine limitations identified and explained.
+Description: Students record bounce heights or slide distances in CreatiCode, compare them to expected real-world results, and discuss how closely the simulation matches reality and what simplifications the physics engine makes.
 
 Dependencies:
 * T16.G5.10: Trace simple 2D physics motion
 
-
-ID: T16.G6.09
-Topic: T16 – 2D Motion & Physics
-Skill: Use screen shake for collision impact effects
-Description: Implement screen shake effects when high-speed collisions occur to enhance impact feedback. **Implementation:** (1) Detect collision events, (2) check collision velocity using velocity reporters, (3) if speed > threshold, apply random camera offset for several frames, (4) gradually reduce shake intensity. **Example use cases:** Ball hitting wall at high speed, car crashes, explosions. **Acceptance criteria:** Screen shake triggers on hard impacts, intensity scales with collision force, effect feels satisfying.
-
-Dependencies:
-* T16.G6.04: Detect collisions for scoring or triggers
-* T16.G6.02.01.02: Read velocity reporters for verification
 
 
 
@@ -21365,7 +20692,7 @@ Dependencies:
 ID: T16.G7.01
 Topic: T16 – 2D Motion & Physics
 Skill: Launch a configurable projectile
-Description: Create a launcher where users set angle and power using sliders. The projectile receives an initial impulse using `apply impulse [force] in direction [angle]` that produces a parabolic arc toward targets. **Acceptance criteria:** Sliders control launch angle and power, projectile follows realistic arc, targets hittable with correct settings.
+Description: Students create a launcher where users set angle and power using sliders. The projectile receives an initial impulse using `apply impulse [force] in direction [angle]` that produces a parabolic arc toward targets.
 
 Dependencies:
 * T08.G5.01: Fix a condition that uses the wrong operator
@@ -21374,22 +20701,29 @@ Dependencies:
 * T16.G6.04: Detect collisions for scoring or triggers
 
 
+
+
+
 ID: T16.G7.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Point sprite in movement direction
-Description: Use `point in direction of speed` to automatically rotate a sprite to face its current movement direction. This is essential for arrows, rockets, and birds that should visually align with their trajectory as they fly along parabolic arcs. **Acceptance criteria:** Sprite rotates to match velocity direction throughout flight.
+Description: Students use `point in direction of speed` to automatically rotate a sprite to face its current movement direction. This is essential for arrows, rockets, and birds that should visually align with their trajectory as they fly along parabolic arcs.
 
 Dependencies:
 * T16.G7.01: Launch a configurable projectile
+
+
+
 
 
 ID: T16.G7.01.02
 Topic: T16 – 2D Motion & Physics
 Skill: Enable CCD for fast projectiles
-Description: Enable Continuous Collision Detection (CCD) using `enable collision detection as a fast object [Yes]` to prevent fast-moving objects from tunneling through walls. Observe that very fast physics bodies sometimes pass through thin obstacles (called 'tunneling'), then learn CCD solves this by detecting collisions between frames, ensuring no missed collisions at high speeds. **Acceptance criteria:** CCD enabled, fast projectile no longer tunnels through thin walls.
+Description: Enable Continuous Collision Detection (CCD) using `enable collision detection as a fast object [Yes]` to prevent fast-moving objects from tunneling through walls. Students observe that very fast physics bodies sometimes pass through thin obstacles (called 'tunneling'), then learn CCD solves this by detecting collisions between frames, ensuring no missed collisions at high speeds.
 
 Dependencies:
 * T16.G7.01: Launch a configurable projectile
+
 
 
 
@@ -21397,7 +20731,7 @@ Dependencies:
 ID: T16.G7.02
 Topic: T16 – 2D Motion & Physics
 Skill: Combine multiple forces simultaneously
-Description: Use `add force [force] in direction [angle]` to apply two or more forces in the same frame (gravity + constant wind, gravity + player thrust). Predict and observe the resulting curved motion paths. **Acceptance criteria:** Multiple forces combined correctly, resulting trajectory matches prediction, force vectors understood.
+Description: Students use `add force [force] in direction [angle]` to apply two or more forces in the same frame (gravity + constant wind, gravity + player thrust). They predict and observe the resulting curved motion paths.
 
 Dependencies:
 * T16.G5.08.03: Apply a single continuous force
@@ -21405,19 +20739,25 @@ Dependencies:
 * T16.G6.08: Compare simulations to real-world motion
 
 
+
+
+
 ID: T16.G7.02.01
 Topic: T16 – 2D Motion & Physics
 Skill: Clear forces and torques from physics bodies
-Description: Use `remove all forces` and `remove all torques` to reset accumulated forces on physics bodies. Use this for game resets, mode transitions, or when switching from force-driven to velocity-driven control. **Acceptance criteria:** Forces cleared successfully, clean state transitions demonstrated.
+Description: Students use `remove all forces` and `remove all torques` to reset accumulated forces on physics bodies. They use this for game resets, mode transitions, or when switching from force-driven to velocity-driven control.
 
 Dependencies:
 * T16.G7.02: Combine multiple forces simultaneously
 
 
+
+
+
 ID: T16.G7.02.02
 Topic: T16 – 2D Motion & Physics
 Skill: Apply force at a position for continuous rotation
-Description: Use `add force [force] in direction [angle] at position x [X] y [Y]` to apply continuous off-center forces. Observe how sustained forces applied away from center create continuous rotation (torque), useful for thrusters, spinning mechanisms, or torque-based controls. **Acceptance criteria:** Off-center force creates rotation, torque effect controlled and predictable.
+Description: Students use `add force [force] in direction [angle] at position x [X] y [Y]` to apply continuous off-center forces. They observe how sustained forces applied away from center create continuous rotation (torque), useful for thrusters, spinning mechanisms, or torque-based controls.
 
 Dependencies:
 * T16.G5.08.02: Apply impulse at a position for rotation
@@ -21426,20 +20766,24 @@ Dependencies:
 
 
 
+
 ID: T16.G7.03
 Topic: T16 – 2D Motion & Physics
 Skill: Simulate drag with manual force calculations
-Description: Manually implement drag effects by calculating forces opposite to velocity (applying force proportional to speed in the reverse direction). Experiment with different drag coefficients and observe how they affect motion through different media (air, water, honey). This manual approach builds understanding before using built-in damping. **Acceptance criteria:** Manual drag implemented, different media simulated, drag coefficient effect understood.
+Description: Students manually implement drag effects by calculating forces opposite to velocity (applying force proportional to speed in the reverse direction). They experiment with different drag coefficients and observe how they affect motion through different media (air, water, honey). This manual approach builds understanding before using built-in damping.
 
 Dependencies:
 * T16.G5.08.01: Distinguish forces from impulses
 * T16.G6.07: Debug unstable physics behavior
 
 
+
+
+
 ID: T16.G7.03.01
 Topic: T16 – 2D Motion & Physics
 Skill: Use built-in damping as alternative to manual drag
-Description: Use the built-in `set damping factor for movement [M]% rotation [R]%` block to simulate air resistance or water friction as an easier alternative to manual force calculations. Compare results with manual implementation and tune damping percentages for desired slowdown behavior. **Acceptance criteria:** Damping configured correctly, comparison with manual drag completed, trade-offs understood.
+Description: Students use the built-in `set damping factor for movement [M]% rotation [R]%` block to simulate air resistance or water friction as an easier alternative to manual force calculations. They compare results with their manual implementation and tune damping percentages for desired slowdown behavior.
 
 Dependencies:
 * T16.G7.03: Simulate drag with manual force calculations
@@ -21447,30 +20791,37 @@ Dependencies:
 
 
 
+
 ID: T16.G7.04
 Topic: T16 – 2D Motion & Physics
 Skill: Build chains or stacks of physics objects
-Description: Create stacks of boxes or chains of linked sprites and explore how forces propagate through the system when one element is pushed. Observe how density affects collision outcomes. **Acceptance criteria:** Stack or chain built successfully, force propagation observed, density effects demonstrated.
+Description: Students create stacks of boxes or chains of linked sprites and explore how forces propagate through the system when one element is pushed. They observe how density affects collision outcomes.
 
 Dependencies:
 * T16.G6.07: Debug unstable physics behavior
 * T16.G6.08: Compare simulations to real-world motion
 
 
+
+
+
 ID: T16.G7.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Use continuous torque to rotate bodies
-Description: Use `add torque [value]` to apply continuous rotational force to a physics body. Understand that torque (like force for linear motion) accumulates over time, respecting the body's rotational mass and creating smooth, physics-based rotation. Compare to direct rotation speed control. **Acceptance criteria:** Torque applied correctly, difference from direct rotation speed understood.
+Description: Use `add torque [value]` to apply continuous rotational force to a physics body. Students learn that torque (like force for linear motion) accumulates over time, respecting the body's rotational mass and creating smooth, physics-based rotation. Compare to direct rotation speed control.
 
 Dependencies:
 * T16.G6.02.01.03: Set rotation speed directly
 * T16.G7.02: Combine multiple forces simultaneously
 
 
+
+
+
 ID: T16.G7.04.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Apply torque impulse for instant rotation
-Description: Use `apply torque impulse [value]` to apply an instant rotational "kick" to a physics body. Understand that torque impulse (like linear impulse) applies immediately regardless of mass, perfect for one-time rotation events like hitting a spinning obstacle. **Acceptance criteria:** Torque impulse applied correctly, instant rotation vs continuous torque distinguished.
+Description: Use `apply torque impulse [value]` to apply an instant rotational "kick" to a physics body. Students learn that torque impulse (like linear impulse) applies immediately regardless of mass, perfect for one-time rotation events like hitting a spinning obstacle.
 
 Dependencies:
 * T16.G7.04.01: Use continuous torque to rotate bodies
@@ -21479,33 +20830,41 @@ Dependencies:
 
 
 
+
 ID: T16.G7.05
 Topic: T16 – 2D Motion & Physics
 Skill: Read velocity and mass reporters
-Description: Use the reporter blocks `(x speed)`, `(y speed)`, `(mass)`, `(angular speed)`, and `(ground slope)` to display real-time physics data on screen. Use this data for UI displays, conditional logic, and debugging. **Acceptance criteria:** All reporter types used correctly, data displayed in HUD or used in logic.
+Description: Students use the reporter blocks `(x speed)`, `(y speed)`, `(mass)`, `(angular speed)`, and `(ground slope)` to display real-time physics data on screen. They use this data for UI displays, conditional logic, and debugging.
 
 Dependencies:
 * T16.G6.07: Debug unstable physics behavior
 * T16.G6.08: Compare simulations to real-world motion
 
 
+
+
+
 ID: T16.G7.05.01
 Topic: T16 – 2D Motion & Physics
 Skill: Instrument and graph motion data
-Description: Record motion data from a sprite every few frames using velocity reporters, store values in lists, and create a graph. Use the graph to confirm constant acceleration or spot errors. **Acceptance criteria:** Data logged to list successfully, graph created, acceleration pattern confirmed or debugged.
+Description: Students record motion data from a sprite every few frames using velocity reporters, store values in lists, and create a graph. They use the graph to confirm constant acceleration or spot errors.
 
 Dependencies:
 * T10.G5.01: Add and remove items from a list
 * T16.G7.05: Read velocity and mass reporters
 
 
+
+
+
 ID: T16.G7.05.02
 Topic: T16 – 2D Motion & Physics
 Skill: Use velocity reporters for UI speedometers and HUDs
-Description: Create visual HUD elements that display real-time physics data. **Examples:** (1) Speedometer that shows `(speed)` as a number or visual gauge, (2) tachometer showing `(angular speed)` for rotating objects, (3) velocity indicator arrows pointing in direction of movement. Update HUD elements each frame to reflect current physics state. **Acceptance criteria:** All three HUD types implemented and updating correctly.
+Description: Students create visual HUD elements that display real-time physics data. **Examples:** (1) Speedometer that shows `(speed)` as a number or visual gauge, (2) tachometer showing `(angular speed)` for rotating objects, (3) velocity indicator arrows pointing in direction of movement. They update HUD elements each frame to reflect current physics state.
 
 Dependencies:
 * T16.G7.05: Read velocity and mass reporters
+
 
 
 
@@ -21513,7 +20872,7 @@ Dependencies:
 ID: T16.G7.06
 Topic: T16 – 2D Motion & Physics
 Skill: Model a real-world physics scenario
-Description: Choose a real phenomenon (bouncing ball, swinging pendulum, sliding object) and build a CreatiCode simulation that approximates it. Explain which physics properties (gravity, friction, restitution) were tuned to mimic reality. **Acceptance criteria:** Simulation matches real-world behavior qualitatively, physics parameters justified.
+Description: Students choose a real phenomenon (bouncing ball, swinging pendulum, sliding object) and build a CreatiCode simulation that approximates it. They explain which physics properties (gravity, friction, restitution) they tuned to mimic reality.
 
 Dependencies:
 * T08.G5.01: Fix a condition that uses the wrong operator
@@ -21523,25 +20882,16 @@ Dependencies:
 
 
 
+
 ID: T16.G7.07
 Topic: T16 – 2D Motion & Physics
 Skill: Evaluate whether a simulation meets requirements
-Description: Given target requirements (e.g., "ball must clear the second bumper but stop before the third"), test a simulation against them. Examine logged data and decide if requirements were met, citing evidence. **Acceptance criteria:** All requirements tested, pass/fail determined correctly, evidence cited from logs or observations.
+Description: Students are given target requirements (e.g., "ball must clear the second bumper but stop before the third") and test a simulation against them. They examine logged data and decide if requirements were met, citing evidence.
 
 Dependencies:
 * T16.G6.07: Debug unstable physics behavior
 * T16.G6.08: Compare simulations to real-world motion
 
-
-ID: T16.G7.08
-Topic: T16 – 2D Motion & Physics
-Skill: Create a physics-based sports game
-Description: Design and implement a sports game (basketball, golf, soccer) using physics mechanics. **Implementation:** (1) Configure gravity and restitution for sport ball, (2) implement launch/kick mechanics with angle and power control, (3) create goal/target with collision detection, (4) add scoring system based on successful shots. **Examples:** Basketball with arc shots and backboard bounces, mini-golf with putting power control, soccer with kicked ball physics. **Acceptance criteria:** Sport mechanics feel realistic, scoring works correctly, game is playable and fun.
-
-Dependencies:
-* T16.G7.01: Launch a configurable projectile
-* T16.G6.04: Detect collisions for scoring or triggers
-* T16.G6.02: Control restitution (bounce) parameters
 
 
 
@@ -21549,16 +20899,19 @@ Dependencies:
 ID: T16.G8.01
 Topic: T16 – 2D Motion & Physics
 Skill: Design a physics-based arcade game concept
-Description: Design a launcher + target game (Angry Birds–style) by planning level layouts, identifying required physics objects (projectiles, targets, obstacles), and sketching game mechanics. Create design documents that specify win conditions and challenge progression before implementation. **Acceptance criteria:** Complete design document with sketches, object list, mechanics description, and win conditions.
+Description: Students design a launcher + target game (Angry Birds–style) by planning level layouts, identifying required physics objects (projectiles, targets, obstacles), and sketching game mechanics. They create design documents that specify win conditions and challenge progression before implementation.
 
 Dependencies:
 * T16.G7.06: Model a real-world physics scenario
 
 
+
+
+
 ID: T16.G8.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Implement physics arcade game mechanics
-Description: Implement the game design from T16.G8.01 by creating sprites, setting up physics bodies, configuring collision detection, and scripting game logic. Translate design specifications into working code using physics blocks. **Acceptance criteria:** All designed mechanics implemented, game playable from start to win condition.
+Description: Students implement the game design from T17.G8.01 by creating sprites, setting up physics bodies, configuring collision detection, and scripting game logic. They translate design specifications into working code using physics blocks.
 
 Dependencies:
 * T07.G6.01: Trace nested loops with variable bounds
@@ -21568,10 +20921,13 @@ Dependencies:
 * T10.G6.01: Sort a table by a column
 
 
+
+
+
 ID: T16.G8.01.02
 Topic: T16 – 2D Motion & Physics
 Skill: Balance and tune physics game difficulty
-Description: Playtest physics game and adjust physics parameters (gravity, impulse strength, object density, friction, restitution) to balance difficulty. Iterate on parameter values to make gameplay fair but challenging, ensuring levels are neither too easy nor frustratingly hard. **Acceptance criteria:** Game difficulty balanced through playtesting, parameter changes justified, target win rate achieved.
+Description: Students playtest their physics game and adjust physics parameters (gravity, impulse strength, object density, friction, restitution) to balance difficulty. They iterate on parameter values to make gameplay fair but challenging, ensuring levels are neither too easy nor frustratingly hard.
 
 Dependencies:
 * T16.G8.01.01: Implement physics arcade game mechanics
@@ -21579,48 +20935,61 @@ Dependencies:
 
 
 
+
 ID: T16.G8.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement fixed joints for connected objects
-Description: Use `fix relative position to [sprite]` to weld sprites together so they move as a single rigid unit, and `remove relative position constraint` to break the connection. **Examples:** compound objects (car with wheels), multi-part characters (robot with detachable arms), towed vehicles that can be detached mid-game. Fixed joints are useful when objects should move as one rigid body. **Acceptance criteria:** Fixed joint created, compound object behaves as single unit, detachment works.
+Description: Students use `fix relative position to [sprite]` to weld sprites together so they move as a single rigid unit, and `remove relative position constraint` to break the connection. **Examples:** compound objects (car with wheels), multi-part characters (robot with detachable arms), towed vehicles that can be detached mid-game. Students learn fixed joints are useful when objects should move as one rigid body.
 
 Dependencies:
 * T16.G7.06: Model a real-world physics scenario
 * T16.G7.04: Build chains or stacks of physics objects
 
 
+
+
+
 ID: T16.G8.02.01
 Topic: T16 – 2D Motion & Physics
 Skill: Implement revolute joints for hinges
-Description: Use `set [sprite] as rotation axis with offset x [X] y [Y]` to create hinged objects like doors, seesaws, and pendulums. Configure rotation behavior with `set rotation axis speed [S] damping factor [D]%`, and use `remove rotation axis` to disconnect hinges. **Examples:** swinging doors, seesaw balance puzzles, pendulum clocks, catapult arms. Revolute joints allow rotation around a fixed point. **Acceptance criteria:** Hinge joint created, rotation constrained to axis, motor control demonstrated if applicable.
+Description: Students use `set [sprite] as rotation axis with offset x [X] y [Y]` to create hinged objects like doors, seesaws, and pendulums. They configure rotation behavior with `set rotation axis speed [S] damping factor [D]%`, and use `remove rotation axis` to disconnect hinges. **Examples:** swinging doors, seesaw balance puzzles, pendulum clocks, catapult arms. Students understand revolute joints allow rotation around a fixed point.
 
 Dependencies:
 * T16.G8.02: Implement fixed joints for connected objects
 * T16.G7.04.01: Use continuous torque to rotate bodies
 
 
+
+
+
 ID: T16.G8.02.01.01
 Topic: T16 – 2D Motion & Physics
 Skill: Control revolute joint motors with speed and damping
-Description: Control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. Balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors. **Examples:** motorized windmill, spinning platform, rotating obstacle in a game. **Acceptance criteria:** Motor speed and damping configured, rotation behavior controllable and predictable.
+Description: Students control revolute joint motors using `set rotation axis speed [S] damping factor [D]%` to create powered rotations like fans or wheels. They learn to balance speed for rotation rate and damping for resistance, creating smooth or snappy rotation behaviors. **Examples:** motorized windmill, spinning platform, rotating obstacle in a game.
 
 Dependencies:
 * T16.G8.02.01: Implement revolute joints for hinges
 
 
+
+
+
 ID: T16.G8.02.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement prismatic joints for sliding
-Description: Use `allow [Horizontal/Vertical] sliding relative to [sprite] range from [min] to [max]` to create pistons, sliding doors, and spring-loaded platforms with configurable movement limits. **Examples:** elevator platform that slides vertically, piston in a machine, sliding puzzle pieces. **Note:** Prismatic joints are permanent once created; plan constraint usage during the design phase. **Acceptance criteria:** Sliding joint created, movement constrained to range, sliding behavior smooth.
+Description: Students use `allow [Horizontal/Vertical] sliding relative to [sprite] range from [min] to [max]` to create pistons, sliding doors, and spring-loaded platforms with configurable movement limits. **Examples:** elevator platform that slides vertically, piston in a machine, sliding puzzle pieces. Note: Prismatic joints are permanent once created; plan constraint usage during the design phase.
 
 Dependencies:
 * T16.G8.02: Implement fixed joints for connected objects
 
 
+
+
+
 ID: T16.G8.02.03
 Topic: T16 – 2D Motion & Physics
 Skill: Debug joint constraint issues
-Description: Diagnose and fix common joint problems such as joints separating under force, rotation limits not working correctly, or motors behaving unpredictably. Adjust joint parameters, verify anchor positions, and test constraint behavior systematically. **Acceptance criteria:** Joint bug identified, root cause diagnosed, fix applied successfully.
+Description: Students diagnose and fix common joint problems such as joints separating under force, rotation limits not working correctly, or motors behaving unpredictably. They learn to adjust joint parameters, verify anchor positions, and test constraint behavior systematically.
 
 Dependencies:
 * T16.G8.02.01: Implement revolute joints for hinges
@@ -21629,10 +20998,11 @@ Dependencies:
 
 
 
+
 ID: T16.G8.03
 Topic: T16 – 2D Motion & Physics
 Skill: Build automated physics regression tests
-Description: Create scripts that spawn test objects, run the simulation for a set time, and assert that positions, velocities, or collision counts stay within tolerances. **Process:** (1) Set up known initial conditions, (2) run physics for fixed frames, (3) check final state against expected values, (4) report pass/fail. This guards against regressions when modifying physics code. **Acceptance criteria:** Test script created, passes for correct physics, fails for broken physics.
+Description: Students create scripts that spawn test objects, run the simulation for a set time, and assert that positions, velocities, or collision counts stay within tolerances. **Process:** (1) Set up known initial conditions, (2) run physics for fixed frames, (3) check final state against expected values, (4) report pass/fail. This guards against regressions when modifying physics code.
 
 Dependencies:
 * T08.G6.01: Use conditionals to control simulation steps
@@ -21642,10 +21012,11 @@ Dependencies:
 
 
 
+
 ID: T16.G8.04
 Topic: T16 – 2D Motion & Physics
 Skill: Identify physics performance bottlenecks
-Description: Identify performance bottlenecks in a busy physics scene by observing frame rate and lag during playtesting. **Diagnostic process:** (1) Observe where lag occurs, (2) count active physics bodies, (3) check collision shape complexity, (4) review collision group settings. Physics performance depends on body count, shape complexity, and collision pair counts. **Acceptance criteria:** Bottleneck identified, contributing factors explained, measurement data provided.
+Description: Students identify performance bottlenecks in a busy physics scene by observing frame rate and lag during playtesting. **Diagnostic process:** (1) Observe where lag occurs, (2) count active physics bodies, (3) check collision shape complexity, (4) review collision group settings. They learn that physics performance depends on body count, shape complexity, and collision pair counts.
 
 Dependencies:
 * T16.G7.06: Model a real-world physics scenario
@@ -21653,10 +21024,13 @@ Dependencies:
 * T16.G6.05.02: Test collision group filtering behavior
 
 
+
+
+
 ID: T16.G8.04.01
 Topic: T16 – 2D Motion & Physics
 Skill: Optimize collision shapes for performance
-Description: Implement shape optimizations by using simpler collision shapes (Box instead of Convex Hull), reducing active object count, using compound shapes sparingly, disabling unnecessary collision groups, and hiding debug overlays. **Optimization checklist:** (1) Use Box/Circle over Convex Hull, (2) limit active bodies to <50, (3) use collision groups to reduce pair checks, (4) disable debug mode in production. Verify improvements through repeated playtesting. **Acceptance criteria:** Optimizations applied, performance improvement measured, checklist completed.
+Description: Students implement shape optimizations by using simpler collision shapes (Box instead of Convex Hull), reducing active object count, using compound shapes sparingly, disabling unnecessary collision groups, and hiding debug overlays. **Optimization checklist:** (1) Use Box/Circle over Convex Hull, (2) limit active bodies to <50, (3) use collision groups to reduce pair checks, (4) disable debug mode in production. They verify improvements through repeated playtesting.
 
 Dependencies:
 * T16.G8.04: Identify physics performance bottlenecks
@@ -21665,10 +21039,11 @@ Dependencies:
 
 
 
+
 ID: T16.G8.05
 Topic: T16 – 2D Motion & Physics
 Skill: Control gravity scale and time speed
-Description: Use `set gravity scale [value]%` to create floaty zones (low gravity), reverse gravity areas (negative values), or heavy gravity zones. Use `set physics time speed [value]%` to create slow-motion effects (50%) or fast-forward (200%) for dramatic game moments. **Examples:** moon-gravity platformer levels, bullet-time effects, time-manipulation puzzles. **Acceptance criteria:** Gravity scale zones created, time speed effects implemented, gameplay enhanced by effects.
+Description: Students use `set gravity scale [value]%` to create floaty zones (low gravity), reverse gravity areas (negative values), or heavy gravity zones. They use `set physics time speed [value]%` to create slow-motion effects (50%) or fast-forward (200%) for dramatic game moments. **Examples:** moon-gravity platformer levels, bullet-time effects, time-manipulation puzzles.
 
 Dependencies:
 * T16.G7.06: Model a real-world physics scenario
@@ -21677,10 +21052,11 @@ Dependencies:
 
 
 
+
 ID: T16.G8.06
 Topic: T16 – 2D Motion & Physics
 Skill: Use instrumentation data to tune difficulty
-Description: Log player attempts (launch angle, power, success/fail), analyze the dataset, and retune physics parameters (gravity, impulse strength, target size) to achieve a desired win rate. **Process:** (1) Add logging for player actions, (2) collect 10+ playtests, (3) calculate success rate, (4) adjust physics parameters to reach target difficulty (e.g., 60% win rate), (5) re-test. Connect physics tweaks to game analytics. **Acceptance criteria:** Data logged successfully, analysis completed, parameters tuned to target win rate.
+Description: Students log player attempts (launch angle, power, success/fail), analyze the dataset, and retune physics parameters (gravity, impulse strength, target size) to achieve a desired win rate. **Process:** (1) Add logging for player actions, (2) collect 10+ playtests, (3) calculate success rate, (4) adjust physics parameters to reach target difficulty (e.g., 60% win rate), (5) re-test. They connect physics tweaks to game analytics.
 
 Dependencies:
 * T16.G7.05.01: Instrument and graph motion data
@@ -21689,20 +21065,24 @@ Dependencies:
 
 
 
+
 ID: T16.G8.07
 Topic: T16 – 2D Motion & Physics
 Skill: Plan a physics-based puzzle game
-Description: Plan a physics puzzle game (pulleys, seesaws, Rube Goldberg machines) by identifying required physics mechanics, sketching level layouts, and defining puzzle solutions. Create design documents specifying which joints and physics properties each puzzle requires. **Acceptance criteria:** Complete puzzle game design document with mechanics list, level sketches, and solution descriptions.
+Description: Students plan a physics puzzle game (pulleys, seesaws, Rube Goldberg machines) by identifying required physics mechanics, sketching level layouts, and defining puzzle solutions. They create design documents specifying which joints and physics properties each puzzle requires.
 
 Dependencies:
 * T16.G8.02: Implement fixed joints for connected objects
 * T16.G7.06: Model a real-world physics scenario
 
 
+
+
+
 ID: T16.G8.07.01
 Topic: T16 – 2D Motion & Physics
 Skill: Select appropriate joints for puzzle mechanics
-Description: Analyze puzzle game design and select the appropriate joint types (fixed, revolute, prismatic) for each puzzle element. Justify joint choices based on desired mechanical behavior and puzzle challenge design. **Acceptance criteria:** Joint types selected for all puzzle elements, choices justified clearly.
+Description: Students analyze their puzzle game design and select the appropriate joint types (fixed, revolute, prismatic) for each puzzle element. They justify joint choices based on desired mechanical behavior and puzzle challenge design.
 
 Dependencies:
 * T16.G8.07: Plan a physics-based puzzle game
@@ -21710,658 +21090,673 @@ Dependencies:
 * T16.G8.02.02: Implement prismatic joints for sliding
 
 
+
+
+
 ID: T16.G8.07.02
 Topic: T16 – 2D Motion & Physics
 Skill: Implement and test physics puzzle game
-Description: Implement physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. **Development cycle:** (1) Build first puzzle with joints, (2) playtest for solvability, (3) adjust physics parameters, (4) add visual feedback for puzzle state, (5) iterate until solutions are discoverable. Good physics puzzles have clear mechanics and fair difficulty curves. **Acceptance criteria:** Puzzle game implemented, all puzzles solvable, difficulty curve appropriate.
+Description: Students implement their physics puzzle game by creating joints, configuring physics parameters, and scripting win conditions. **Development cycle:** (1) Build first puzzle with joints, (2) playtest for solvability, (3) adjust physics parameters, (4) add visual feedback for puzzle state, (5) iterate until solutions are discoverable. They learn that good physics puzzles have clear mechanics and fair difficulty curves.
 
 Dependencies:
 * T16.G8.07.01: Select appropriate joints for puzzle mechanics
 * T16.G8.01.02: Balance and tune physics game difficulty
 
 
-ID: T16.G8.08
+
+
+
+ID: T16.K.01
 Topic: T16 – 2D Motion & Physics
-Skill: Design multi-level physics game with level progression
-Description: Design a multi-level physics game with increasing difficulty and new mechanics introduced gradually. **Design process:** (1) Create level progression plan (easy→medium→hard), (2) introduce one new mechanic per 2-3 levels, (3) design tutorial levels for new mechanics, (4) plan difficulty curve using playtesting data, (5) create level transition system with save/load. **Acceptance criteria:** Complete level progression document with 8+ levels, difficulty curve planned, mechanics introduction schedule defined.
+Skill: Identify which sprite moved (picture-based)
+Description: **Student task:** Look at two "before" and "after" picture cards showing a stage with multiple sprites. Tap the sprite that changed position. **Visual scenario:** Before card shows cat, dog, and ball in a row. After card shows dog moved to the right. Student taps the dog. **Vocabulary:** "moved," "same spot," "different spot." _Introduces the concept that motion = change in position._ Auto-graded by correct selection.
 
 Dependencies:
-* T16.G8.01.02: Balance and tune physics game difficulty
-* T16.G8.07.02: Implement and test physics puzzle game
+None
 
 
-ID: T16.G8.09
+
+
+
+ID: T16.K.02
 Topic: T16 – 2D Motion & Physics
-Skill: Implement object pooling for spawning many physics objects
-Description: Implement object pooling to efficiently spawn and recycle many physics objects (projectiles, particles, collectibles) without performance degradation. **Implementation:** (1) Create pool of hidden clones at start, (2) when spawning needed, show and position a hidden clone, (3) when object destroyed, hide and return to pool instead of deleting, (4) reuse pooled objects for new spawns. **Benefits:** Avoids constant create/delete overhead, maintains stable frame rate with many objects. **Acceptance criteria:** Pool created with 20+ objects, spawn/recycle working correctly, performance stable with many active objects.
+Skill: Match sprite to position after motion (picture-based)
+Description: **Student task:** See a simple motion instruction (arrow or "move right") and choose which picture shows where the sprite will end up. **Visual scenario:** A bird is shown with a right-pointing arrow. Three pictures show the bird in different positions. Student taps the picture with the bird moved right. _Develops spatial reasoning for predicting motion._ Auto-graded by correct selection.
 
 Dependencies:
-* T16.G8.04.01: Optimize collision shapes for performance
-* T16.G7.01: Launch a configurable projectile
+* T16.K.01: Identify which sprite moved (picture-based)
 
 
-ID: T16.G8.10
+ID: T16.K.03
 Topic: T16 – 2D Motion & Physics
-Skill: Decompose complex physics behavior into testable sub-components
-Description: Decompose complex physics behavior (e.g., vehicle physics, character controller, chain reaction puzzle) into independent testable sub-components. **Process:** (1) Identify core behaviors (movement, jumping, collision response), (2) create isolated test scene for each behavior, (3) verify each component works independently, (4) integrate components and test interactions, (5) debug integration issues. **Example:** Character controller decomposed into: ground detection test, jump force test, friction test, slope climbing test. **Acceptance criteria:** Complex behavior decomposed into 4+ testable components, each tested independently, integration completed successfully.
+Skill: Identify objects that fall down (picture-based)
+Description: **Student task:** Sort picture cards of objects into "falls down" and "stays up" piles. **Visual scenario:** Cards show: apple on table edge, balloon tied to string, ball in the air, bird flying, rock on a hill. Students sort based on everyday experience. **Discussion:** What makes things fall? (Gravity pulls things down.) _First introduction to gravity concept._ Auto-graded by correct sorting.
 
 Dependencies:
-* T16.G8.03: Build automated physics regression tests
-* T16.G8.02.03: Debug joint constraint issues
-
-
-ID: T16.G8.11
-Topic: T16 – 2D Motion & Physics
-Skill: Apply physics patterns to new game genres
-Description: Identify physics patterns from existing games (launcher, platformer, puzzle, sports) and apply them to create a new game in a different genre. **Process:** (1) Analyze mechanics from 2+ existing physics games, (2) identify reusable patterns (projectile launch, collision scoring, force accumulation, joint constraints), (3) combine patterns in novel way for new genre, (4) prototype and playtest new combination. **Example:** Combine golf launch mechanics with puzzle game chain reactions to create golf-puzzle hybrid. **Acceptance criteria:** New game genre created using 3+ physics patterns from different sources, prototype demonstrates novel combination, gameplay is cohesive.
-
-Dependencies:
-* T16.G8.01.02: Balance and tune physics game difficulty
-* T16.G8.07.02: Implement and test physics puzzle game
-* T16.G7.08: Create a physics-based sports game
+* T16.K.01: Identify which sprite moved (picture-based)
 
 
 
-# T17 - 3D Worlds & Games (BOLD OPTIMIZED VERSION - November 2025)
 
-# MAJOR IMPROVEMENTS FROM PREVIOUS VERSION:
-#
-# 1. ENHANCED K-2 FOUNDATION (Picture-based spatial reasoning):
-#    - GK: Clearer visual scenarios, auto-gradable tasks, concrete shape manipulation
-#    - G1: Added shadow/net prediction, spatial vocabulary with clear scenarios
-#    - G2: Multi-view reasoning, perspective taking, mental rotation challenges
-#    Total K-2 skills: 17 (up from 16)
-#
-# 2. STRONGER COMPUTATIONAL THINKING AT EVERY GRADE:
-#    - G3: Added coordinate prediction (G3.09) and debugging (G3.10), capstone (G3.12)
-#    - G4: Added object mispositioning debug skill (G4.07)
-#    - G5: Added physics prediction skill (G5.07), physics integration (G5.09)
-#    - G6: Added systematic physics debugging (G6.07)
-#    - G7: Added camera/movement tracing (G7.07)
-#    - G8: Added architecture design (G8.07) and performance analysis (G8.06)
-#
-# 3. PARALLEL SKILL PROGRESSION (removed illogical linear dependencies):
-#    - Shapes, lighting, camera can now progress independently at G3-G4
-#    - Physics properties can be learned in parallel tracks
-#    - Advanced effects don't force linear progression
-#
-# 4. DESIGN THINKING & PROBLEM-SOLVING:
-#    - G5.08: Design collectible placement strategy
-#    - G6.08: Design responsive player controls
-#    - G7.08: Design level progression with difficulty curves
-#    - G8.08: Integrate AI with 3D mechanics
-#
-# 5. BETTER GRANULARITY & SUB-SKILLS:
-#    - Lighting: 5 sub-skills (ambient, directional, point, spot, removal)
-#    - Cameras: 4 sub-skills (orbit, target, follow, limits)
-#    - Physics: Organized into bodies, properties, collisions, materials
-#    - Effects: Fog, particles (fire, smoke, sparks), emitter config
-#
-# 6. CAPSTONE INTEGRATION SKILLS:
-#    - G3.12: Build a simple 3D scene with shapes and colors
-#    - G4.08: Complete 3D scene with all elements
-#    - G5.09: Simple physics-based interaction
-#    - G6.09: Physics-based puzzle or game
-#    - G8.09: Complete 3D game with physics, effects, and UI
-#
-# 7. PRESERVED ALL CROSS-TOPIC DEPENDENCIES:
-#    - T06 (Sequencing), T07 (Loops), T08 (Conditionals), T09 (Variables)
-#    - T03 (Decomposition), T12 (Tracing)
-#
-# 8. X-2 RULE COMPLIANCE:
-#    - All internal dependencies respect grade-level constraints
-#    - Skills only depend on current grade, X-1, or X-2
-#
-# Total skills: 163 (increased from ~147 for better depth and thinking skills)
-# Format: All skills follow consistent structure with active verbs
-# Auto-gradable: K-2 skills have clear visual scenarios and answer keys
-
-## KINDERGARTEN (5 skills - Picture-based 3D shape recognition)
+# T17 - 3D Worlds & Games (Phase 6 Optimized - November 2025)
+# MAJOR CHANGES:
+# 1. Enhanced K-2 Foundation (picture-based spatial reasoning):
+#    - GK.01-GK.05: 3D shape recognition, faces/edges, stacking, spatial vocabulary
+#    - G1.01-G1.05: Shape views, shadow matching, nets, spatial directions
+#    - G2.01-G2.06: Multi-view reasoning, perspective, 3D mental rotation
+# 2. Reorganized G3-G4 dependencies:
+#    - Removed illogical linear chains (lighting no longer depends on remove-all)
+#    - Parallel skill tracks: Shapes, Lighting, Cameras can progress independently
+#    - Added debugging and prediction skills for 3D scenes
+# 3. Added Computational Thinking Skills:
+#    - G4.07: Debug mispositioned 3D objects using coordinates
+#    - G5.07: Predict physics behavior before running simulation
+#    - G6.07: Debug physics collision issues systematically
+#    - G7.07: Trace camera/object movement in complex scenes
+#    - G8.07: Design and document a 3D game architecture
+# 4. Added 3D Game Design Skills:
+#    - G5.08: Design a collectible placement strategy
+#    - G6.08: Design player movement controls for 3D space
+#    - G7.08: Design level progression with increasing difficulty
+#    - G8.08: Integrate AI behaviors with 3D game mechanics
+# 5. Added Capstone Integration Skills:
+#    - G4.08: Build a complete 3D scene with multiple elements
+#    - G6.09: Build a physics-based puzzle or game
+#    - G8.09: Build a complete 3D game with physics, effects, and UI
+# Total: ~150 skills (added 30+ for depth, K-2 foundation, and computational thinking)
 
 ID: T17.GK.01
 Topic: T17 – 3D Worlds & Games
 Skill: Sort picture cards of 3D shapes by type
-Description: **Student task:** Drag picture cards showing 3D objects into groups: cubes/boxes, spheres/balls, and cylinders/cans. **Visual scenario:** 9 picture cards show: wooden block, basketball, soup can, dice, orange, paper towel roll, gift box, marble, battery. **Correct groups:** Cubes (block, dice, gift box), Spheres (basketball, orange, marble), Cylinders (soup can, paper towel roll, battery). _Implementation note: Drag-drop sorting with 3 labeled bins. Auto-graded by final groupings. CSTA: 1A-AP-11._
+Description: **Student task:** Drag picture cards showing 3D objects into groups: cubes/boxes, spheres/balls, and cylinders/cans. **Visual scenario:** 9 picture cards show: wooden block, basketball, soup can, dice, orange, paper towel roll, gift box, marble, battery. **Correct groups:** Cubes (block, dice, gift box), Spheres (basketball, orange, marble), Cylinders (soup can, paper towel roll, battery). _Implementation note: Drag-drop sorting with 3 labeled bins. Auto-graded by final groupings._
 
 Dependencies: None
+
 
 
 
 ID: T17.GK.02
 Topic: T17 – 3D Worlds & Games
 Skill: Match 3D shapes to real-world objects
-Description: **Student task:** Draw lines connecting 3D shape icons to pictures of matching real-world objects. **Visual scenario:** Left column: cube icon, sphere icon, cylinder icon, cone icon. Right column: ice cream cone, basketball, filing cabinet, tin can. **Correct matches:** Cube→filing cabinet, Sphere→basketball, Cylinder→tin can, Cone→ice cream cone. _Implementation note: Line-drawing matching exercise. Auto-graded by connection accuracy. CSTA: 1A-AP-11._
+Description: **Student task:** Draw lines connecting 3D shape icons to pictures of matching real-world objects. **Visual scenario:** Left column: cube icon, sphere icon, cylinder icon, cone icon. Right column: ice cream cone, basketball, filing cabinet, tin can. **Correct matches:** Cube→filing cabinet, Sphere→basketball, Cylinder→tin can, Cone→ice cream cone. _Implementation note: Line-drawing matching exercise. Auto-graded by connection accuracy._
 
 Dependencies:
 * T17.GK.01: Sort picture cards of 3D shapes by type
+
 
 
 
 ID: T17.GK.03
 Topic: T17 – 3D Worlds & Games
 Skill: Identify how many faces a 3D shape has
-Description: **Student task:** Tap the number that shows how many flat faces the shape has. **Visual scenario:** Shows a cube with faces highlighted one by one, counting prompt "How many flat faces?" Answer choices: 4, 6, 8. **Correct answer:** 6. Second item shows a cylinder, choices: 2, 3, 4, answer: 2 (top and bottom). _Implementation note: MCQ with animated face highlighting. Auto-graded by selection. CSTA: 1A-AP-09._
+Description: **Student task:** Tap the number that shows how many flat faces the shape has. **Visual scenario:** Shows a cube with faces highlighted one by one, counting prompt "How many flat faces?" Answer choices: 4, 6, 8. **Correct answer:** 6. Second item shows a cylinder, choices: 2, 3, 4, answer: 2 (top and bottom). _Implementation note: MCQ with animated face highlighting. Auto-graded by selection._
 
 Dependencies:
 * T17.GK.01: Sort picture cards of 3D shapes by type
 
 
 
+
 ID: T17.GK.04
 Topic: T17 – 3D Worlds & Games
 Skill: Predict which 3D shape can roll
-Description: **Student task:** Tap all the shapes that can roll. **Visual scenario:** Shows picture cards: cube, sphere, cylinder, pyramid. **Correct answers:** Sphere and cylinder (both have curved surfaces). _Implementation note: Multi-select with audio "Which shapes can roll down a ramp?" Auto-graded by selections. CSTA: 1A-AP-12._
+Description: **Student task:** Tap all the shapes that can roll. **Visual scenario:** Shows picture cards: cube, sphere, cylinder, pyramid. **Correct answers:** Sphere and cylinder (both have curved surfaces). _Implementation note: Multi-select with audio "Which shapes can roll down a ramp?" Auto-graded by selections._
 
 Dependencies:
 * T17.GK.02: Match 3D shapes to real-world objects
 
 
 
+
 ID: T17.GK.05
 Topic: T17 – 3D Worlds & Games
 Skill: Predict which 3D shapes can stack stably
-Description: **Student task:** Tap all shapes that can stack on top of each other without falling. **Visual scenario:** Shows: cube, sphere, cylinder (standing), cone (point up). **Correct answers:** Cube and cylinder (flat tops). _Implementation note: Multi-select with visual of stacking attempt. Auto-graded by selections. CSTA: 1A-AP-12._
+Description: **Student task:** Tap all shapes that can stack on top of each other without falling. **Visual scenario:** Shows: cube, sphere, cylinder (standing), cone (point up). **Correct answers:** Cube and cylinder (flat tops). _Implementation note: Multi-select with visual of stacking attempt. Auto-graded by selections._
 
 Dependencies:
 * T17.GK.04: Predict which 3D shape can roll
 
 
 
-## GRADE 1 (6 skills - Shape vocabulary and spatial relationships)
+
 
 ID: T17.G1.01
 Topic: T17 – 3D Worlds & Games
 Skill: Match 3D shapes to their names
-Description: **Student task:** Draw lines connecting 3D shape pictures to their name labels. **Visual scenario:** Left column shows: cube, sphere, cylinder, cone, pyramid. Right column shows labels in scrambled order. **Correct matches:** Each shape to its name. _Implementation note: Line-drawing matching. Auto-graded by connection accuracy. CSTA: 1B-AP-11._
+Description: **Student task:** Draw lines connecting 3D shape pictures to their name labels. **Visual scenario:** Left column shows: cube, sphere, cylinder, cone, pyramid. Right column shows labels in scrambled order. **Correct matches:** Each shape to its name. _Implementation note: Line-drawing matching. Auto-graded by connection accuracy._
 
 Dependencies:
 * T17.GK.05: Predict which 3D shapes can stack stably
 
 
 
+
 ID: T17.G1.02
 Topic: T17 – 3D Worlds & Games
 Skill: Identify the shadow a 3D shape would cast
-Description: **Student task:** Match each 3D shape to its shadow when light shines from above. **Visual scenario:** Top row: cube, sphere, cylinder, cone. Bottom row: shadow shapes (square, circle, circle, triangle). **Correct matches:** Cube→square, Sphere→circle, Cylinder→circle, Cone→triangle. _Implementation note: Drag-drop matching. Auto-graded by correct pairings. CSTA: 1B-AP-12._
+Description: **Student task:** Match each 3D shape to its shadow when light shines from above. **Visual scenario:** Top row: cube, sphere, cylinder, cone. Bottom row: shadow shapes (square, circle, circle, triangle). **Correct matches:** Cube→square, Sphere→circle, Cylinder→circle, Cone→triangle. _Implementation note: Drag-drop matching. Auto-graded by correct pairings._
 
 Dependencies:
 * T17.G1.01: Match 3D shapes to their names
+
 
 
 
 ID: T17.G1.03
 Topic: T17 – 3D Worlds & Games
 Skill: Select the correct net that folds into a 3D shape
-Description: **Student task:** Tap the flat pattern (net) that would fold into the shown 3D shape. **Visual scenario:** Shows a cube, with 3 net options (one correct cross-shaped net, two incorrect patterns). **Correct answer:** The cross-shaped net. _Implementation note: MCQ with visual folding animation on selection. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** Tap the flat pattern (net) that would fold into the shown 3D shape. **Visual scenario:** Shows a cube, with 3 net options (one correct cross-shaped net, two incorrect patterns). **Correct answer:** The cross-shaped net. _Implementation note: MCQ with visual folding animation on selection. Auto-graded by selection._
 
 Dependencies:
 * T17.G1.02: Identify the shadow a 3D shape would cast
 
 
 
+
 ID: T17.G1.04
 Topic: T17 – 3D Worlds & Games
 Skill: Use spatial words to describe object positions
-Description: **Student task:** Select the word that describes where the ball is compared to the box. **Visual scenario:** Shows a ball and box in various positions. Prompt: "The ball is ___ the box." Choices: above, below, beside, inside. **Correct answer:** Varies by image (e.g., ball on top = "above"). _Implementation note: MCQ with clear spatial relationships. Auto-graded by selection. CSTA: 1B-AP-11._
+Description: **Student task:** Select the word that describes where the ball is compared to the box. **Visual scenario:** Shows a ball and box in various positions. Prompt: "The ball is ___ the box." Choices: above, below, beside, inside. **Correct answer:** Varies by image (e.g., ball on top = "above"). _Implementation note: MCQ with clear spatial relationships. Auto-graded by selection._
 
 Dependencies:
 * T17.G1.01: Match 3D shapes to their names
 
 
 
+
 ID: T17.G1.05
 Topic: T17 – 3D Worlds & Games
 Skill: Predict the view from a different position
-Description: **Student task:** A toy car faces right. Tap which picture shows what you would see if you walked behind the car. **Visual scenario:** Car shown from side view. 3 answer choices showing car from front, back, and other side. **Correct answer:** Back view of car. _Implementation note: MCQ testing perspective taking. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** A toy car faces right. Tap which picture shows what you would see if you walked behind the car. **Visual scenario:** Car shown from side view. 3 answer choices showing car from front, back, and other side. **Correct answer:** Back view of car. _Implementation note: MCQ testing perspective taking. Auto-graded by selection._
 
 Dependencies:
 * T17.G1.04: Use spatial words to describe object positions
 
 
 
-ID: T17.G1.06
-Topic: T17 – 3D Worlds & Games
-Skill: Count edges and vertices on 3D shapes
-Description: **Student task:** Count and tap the number showing how many edges (straight lines where faces meet) or vertices (corners) a shape has. **Visual scenario:** Shows a cube with edges highlighted in yellow. Question: "How many edges?" Choices: 8, 10, 12. **Correct answer:** 12. Follow-up with pyramid for vertices. _Implementation note: MCQ with visual highlighting. Auto-graded. CSTA: 1B-AP-09._
 
-Dependencies:
-* T17.GK.03: Identify how many faces a 3D shape has
-
-
-
-## GRADE 2 (6 skills - Multi-view reasoning and perspective)
 
 ID: T17.G2.01
 Topic: T17 – 3D Worlds & Games
 Skill: Identify front, top, and side views of 3D objects
-Description: **Student task:** Match each view label (front, top, side) to the correct silhouette of a 3D object. **Visual scenario:** Shows a simple house made of blocks, then 3 silhouettes. Student matches "Front view," "Top view," "Side view" labels to correct silhouettes. _Implementation note: Drag-drop matching. Auto-graded by label placement. CSTA: 1B-AP-11._
+Description: **Student task:** Match each view label (front, top, side) to the correct silhouette of a 3D object. **Visual scenario:** Shows a simple house made of blocks, then 3 silhouettes. Student matches "Front view," "Top view," "Side view" labels to correct silhouettes. _Implementation note: Drag-drop matching. Auto-graded by label placement._
 
 Dependencies:
 * T17.G1.05: Predict the view from a different position
 
 
 
+
 ID: T17.G2.02
 Topic: T17 – 3D Worlds & Games
 Skill: Predict where an object will appear after rotation
-Description: **Student task:** A cube has a star on the front face. If we rotate it 90° to the right, which face will show the star? **Visual scenario:** Cube shown with star on front, arrows indicating rotation. Choices: front, right, back, left sides. **Correct answer:** The star moves to the left side after rotating right. _Implementation note: MCQ with rotation animation. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** A cube has a star on the front face. If we rotate it 90° to the right, which face will show the star? **Visual scenario:** Cube shown with star on front, arrows indicating rotation. Choices: front, right, back, left sides. **Correct answer:** The star moves to the left side after rotating right. _Implementation note: MCQ with rotation animation. Auto-graded by selection._
 
 Dependencies:
 * T17.G2.01: Identify front, top, and side views of 3D objects
+
 
 
 
 ID: T17.G2.03
 Topic: T17 – 3D Worlds & Games
 Skill: Trace a path through a simple 3D maze from above
-Description: **Student task:** Looking at a maze from above (bird's eye view), draw the path from start to finish. **Visual scenario:** Top-down view of a simple 3D block maze with green start and red finish markers. Student draws path avoiding walls. _Implementation note: Path drawing with collision detection. Auto-graded by valid path completion. CSTA: 1B-AP-11._
+Description: **Student task:** Looking at a maze from above (bird's eye view), draw the path from start to finish. **Visual scenario:** Top-down view of a simple 3D block maze with green start and red finish markers. Student draws path avoiding walls. _Implementation note: Path drawing with collision detection. Auto-graded by valid path completion._
 
 Dependencies:
 * T17.G2.01: Identify front, top, and side views of 3D objects
 
 
 
+
 ID: T17.G2.04
 Topic: T17 – 3D Worlds & Games
 Skill: Count blocks in a 3D structure including hidden ones
-Description: **Student task:** Count the total number of blocks in this structure, including blocks you cannot see. **Visual scenario:** Shows an L-shaped structure of cubes (some hidden behind others). Student enters number. **Correct answer:** Total including hidden blocks. _Implementation note: Numeric entry with visual hints available. Auto-graded by count. CSTA: 1B-AP-09._
+Description: **Student task:** Count the total number of blocks in this structure, including blocks you cannot see. **Visual scenario:** Shows an L-shaped structure of cubes (some hidden behind others). Student enters number. **Correct answer:** Total including hidden blocks. _Implementation note: Numeric entry with visual hints available. Auto-graded by count._
 
 Dependencies:
 * T17.G2.02: Predict where an object will appear after rotation
 
 
 
+
 ID: T17.G2.05
 Topic: T17 – 3D Worlds & Games
 Skill: Match 3D scenes to their bird's eye view maps
-Description: **Student task:** Match each 3D scene to its top-down map view. **Visual scenario:** Left: 3 different room arrangements with furniture. Right: 3 top-down floor plan views. Student draws lines to match. _Implementation note: Line-drawing matching. Auto-graded by correct pairings. CSTA: 1B-AP-11._
+Description: **Student task:** Match each 3D scene to its top-down map view. **Visual scenario:** Left: 3 different room arrangements with furniture. Right: 3 top-down floor plan views. Student draws lines to match. _Implementation note: Line-drawing matching. Auto-graded by correct pairings._
 
 Dependencies:
 * T17.G2.03: Trace a path through a simple 3D maze from above
 
 
 
+
 ID: T17.G2.06
 Topic: T17 – 3D Worlds & Games
 Skill: Predict how light creates shadows in a 3D scene
-Description: **Student task:** The sun is on the left. Tap where the tree's shadow will fall. **Visual scenario:** Shows a tree with sun position indicated. Three possible shadow positions marked A, B, C. **Correct answer:** Shadow falls to the right (opposite sun). _Implementation note: MCQ testing light/shadow reasoning. Auto-graded by selection. CSTA: 1B-AP-12._
+Description: **Student task:** The sun is on the left. Tap where the tree's shadow will fall. **Visual scenario:** Shows a tree with sun position indicated. Three possible shadow positions marked A, B, C. **Correct answer:** Shadow falls to the right (opposite sun). _Implementation note: MCQ testing light/shadow reasoning. Auto-graded by selection._
 
 Dependencies:
 * T17.G2.04: Count blocks in a 3D structure including hidden ones
 
 
 
-## GRADE 3 (21 skills - 3D fundamentals in CreatiCode)
+
 
 ID: T17.G3.01
 Topic: T17 – 3D Worlds & Games
-Skill: Interpret 3D axis directions (X, Y, Z)
-Description: Students read a labeled axis diagram or CreatiCode gizmo and identify which axis (X, Y, Z) controls width (left/right), height (up/down), and depth (forward/back), linking math vocabulary to the 3D coordinate system. They understand that positive X moves right, negative X moves left; positive Y moves up, negative Y moves down; positive Z moves forward (toward camera), negative Z moves back (away from camera). _CSTA: 2-AP-13._
+Skill: Interpret 3D axis directions
+Description: Students read a labeled axis diagram or CreatiCode gizmo and identify which axis (X, Y, Z) controls width (left/right), height (up/down), and depth (forward/back), linking math vocabulary to the 3D coordinate system.
 
 Dependencies:
 * T17.G2.06: Predict how light creates shadows in a 3D scene
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+
 
 
 
 ID: T17.G3.02
 Topic: T17 – 3D Worlds & Games
 Skill: Match camera views to 3D scene layouts
-Description: Students view a 3D scene with multiple objects (tree, house, car) and match screenshots from different camera positions to camera icons placed around the scene, understanding how camera position determines what appears in view. They identify which camera angle produces which view (top-down, side view, front view, angled perspective). _CSTA: 2-AP-10._
+Description: Students view a 3D scene with multiple objects (tree, house, car) and match screenshots from different camera positions to camera icons placed around the scene, understanding how camera position determines what appears in view.
 
 Dependencies:
-* T17.G3.01: Interpret 3D axis directions (X, Y, Z)
+* T17.G3.01: Interpret 3D axis directions
+
+
 
 
 
 ID: T17.G3.03
 Topic: T17 – 3D Worlds & Games
 Skill: Initialize a 3D scene with a specific environment
-Description: Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D scene [SCENETYPE]` block, selecting from environment options (Empty, Blue Sky, Castle, City, Forest, etc.) to set the stage for their 3D project. **How it works:** This block must run before any 3D objects can be added—it sets up the 3D rendering engine, camera, and base environment. **Test your code:** Run and verify the selected environment appears. _CSTA: 2-AP-10._
+Description: Students add a `when green flag clicked` script that calls the CreatiCode `initialize 3D scene [SCENETYPE]` block, selecting from environment options (Empty, Blue Sky, Castle, City, etc.) to set the stage for their 3D project.
 
 Dependencies:
 * T17.G3.02: Match camera views to 3D scene layouts
-* T06.G3.01: Build a green-flag script that runs a 3-5 block sequence
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+
 
 
 
 ID: T17.G3.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Set scene background color
-Description: Students use the `set scene background color [COLOR]` block to change the background color of the 3D scene, creating different moods or visual styles (bright blue sky, dark night, foggy gray, sunset orange). They experiment with color choices to match their project theme. _CSTA: 2-AP-15._
+Description: Students use the `set scene background color [COLOR]` block to change the background color of the 3D scene, creating different moods or visual styles.
 
 Dependencies:
 * T17.G3.03: Initialize a 3D scene with a specific environment
+
+
 
 
 
 ID: T17.G3.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add a box shape to the 3D scene
-Description: Students use the `add box [COLOR] size in x y z` block to place a box in the scene, adjusting color and size parameters (width in x, height in y, depth in z) to create objects like platforms, walls, or buildings. **Parameters:** color (hex or name), x-size (width), y-size (height), z-size (depth). **Common uses:** Ground platforms, walls, crates, buildings. _CSTA: 2-AP-13._
+Description: Students use the `add box [COLOR] size in x y z` block to place a box in the scene, adjusting color and size parameters (width, height, depth) to create objects like platforms, walls, or buildings.
 
 Dependencies:
 * T17.G3.03: Initialize a 3D scene with a specific environment
 
 
 
+
+
 ID: T17.G3.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add a sphere shape to the 3D scene
-Description: Students use the `add sphere [COLOR] size in x y z` block to create round objects like balls, planets, or collectibles, adjusting color and size parameters. Setting equal x/y/z creates perfect spheres; different values create ovals/ellipsoids. **Common uses:** Balls, planets, collectible items, boulders. _CSTA: 2-AP-13._
+Description: Students use the `add sphere [COLOR] size in x y z` block to create round objects like balls, planets, or collectibles, adjusting color and size parameters (diameter in x, y, z for oval/stretched spheres).
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.04.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add a cylinder shape to the 3D scene
-Description: Students use the `add cylinder [COLOR] diameter top bottom height` block to create columnar objects like posts, tree trunks, or poles. They adjust color, height, and top/bottom diameter parameters. **How it works:** Equal top and bottom diameters create cylinders; different values create cones or truncated cones. _CSTA: 2-AP-13._
+Description: Students use the `add cylinder [COLOR] diameter top bottom height` block to create columnar objects like posts, tree trunks, or poles, adjusting color, height, and top/bottom diameter parameters.
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.05
 Topic: T17 – 3D Worlds & Games
 Skill: Position shapes using x/y/z coordinates
-Description: Students use the `move to x y z in (T) seconds` block to position objects at target coordinates. They understand that x controls left/right, y controls up/down, z controls forward/back. **Coordinate examples:** (0, 0, 0) = center, (5, 0, 0) = 5 units right, (0, 10, -5) = 10 units up and 5 units back. **Test your code:** Place objects at specific coordinates and verify they appear where expected. _CSTA: 2-AP-13._
+Description: Students use the `move to x y z in (T) seconds` block to position an object at target coordinates, connecting coordinate understanding from earlier math skills to actual 3D positioning.
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Turn objects to face a direction
-Description: Students use the `rotate to direction x y z in (T) seconds` block to orient objects in 3D space by setting rotation angles (in degrees) around each axis. **Rotation axes:** X-axis rotation = pitch (tilt forward/back), Y-axis rotation = yaw (turn left/right), Z-axis rotation = roll (lean sideways). _CSTA: 2-AP-13._
+Description: Students use the `rotate to direction x y z in (T) seconds` block to orient objects in 3D space by setting rotation angles around each axis.
 
 Dependencies:
 * T17.G3.05: Position shapes using x/y/z coordinates
+
+
 
 
 
 ID: T17.G3.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Turn objects incrementally around an axis
-Description: Students use the `turn (N) degrees around the [AXIS] axis` block to rotate objects incrementally, understanding how each axis (X, Y, Z) affects rotation. They create spinning objects by using this block in loops. **Common uses:** Spinning coins, rotating platforms, turning characters to face directions. _CSTA: 2-AP-13._
+Description: Students use the `turn (N) degrees around the [AXIS] axis` block to rotate objects incrementally, understanding how each axis (X, Y, Z) affects rotation.
 
 Dependencies:
 * T17.G3.05.01: Turn objects to face a direction
 
 
 
+
+
 ID: T17.G3.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Change shape color using diffusion color
-Description: Students use the `update color diffusion [COLOR]` block to apply a solid diffusion color to 3D objects, learning how to differentiate objects visually (e.g., making the ground green, a player red, enemies purple). **How it works:** Diffusion color is the base surface color of the object under lighting. _CSTA: 2-AP-15._
+Description: Students use the `update color diffusion [COLOR]` block to apply a solid diffusion color to 3D objects, learning how to differentiate objects visually (e.g., making the ground green, a player red).
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
+
+
 
 
 
 ID: T17.G3.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add emission glow to objects
-Description: Students use the emission color parameter in the `update color diffusion [COLOR] emission [COLOR]` block to make objects appear to glow or emit light. **How it works:** Emission makes objects bright even in darkness—useful for lamps, lasers, power-ups, magical effects. _CSTA: 2-AP-15._
+Description: Students use the emission color parameter in the `update color diffusion [COLOR] emission [COLOR]` block to make objects appear to glow or emit light.
 
 Dependencies:
 * T17.G3.06.01: Change shape color using diffusion color
+
+
 
 
 
 ID: T17.G3.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Adjust shape transparency with material settings
-Description: Students use the `material setting: transparent [HASTRANSPARENCY]` block and alpha values in color codes to make objects partially or fully transparent. **Uses:** Windows, water, ghost effects, force fields. **How it works:** Alpha channel in #RRGGBBAA format controls transparency (FF = opaque, 00 = invisible). _CSTA: 2-AP-15._
+Description: Students use the `material setting: transparent [HASTRANSPARENCY]` block to make objects partially or fully transparent, useful for windows, water, or ghost effects.
 
 Dependencies:
 * T17.G3.06.02: Add emission glow to objects
 
 
 
+
+
 ID: T17.G3.07
 Topic: T17 – 3D Worlds & Games
 Skill: Name 3D objects for later reference
-Description: Students learn to give meaningful names to objects using the `as [NAME]` parameter when creating shapes, so they can refer to them later in their scripts for movement, collision, or other interactions. **Naming guidelines:** Use descriptive names (player, ground, enemy1, coin5) not generic names (object1, thing). _CSTA: 2-AP-11._
+Description: Students learn to give meaningful names to objects using the `as [NAME]` parameter when creating shapes, so they can refer to them later in their scripts for movement, collision, or other interactions.
 
 Dependencies:
 * T17.G3.04.01: Add a box shape to the 3D scene
 
 
 
+
+
 ID: T17.G3.08
 Topic: T17 – 3D Worlds & Games
 Skill: Select and work with named objects
-Description: Students use the `select sprite object by name [NAME]` block to select previously created objects, then apply transformations (move, rotate, color) to them. **How it works:** After selection, subsequent transformation blocks affect only the selected object. **Common pattern:** Select by name → modify properties → select another object. _CSTA: 2-AP-11._
+Description: Students use the `select sprite object by name [NAME]` block to select previously created objects, then apply transformations (move, rotate, color) to them.
 
 Dependencies:
 * T17.G3.07: Name 3D objects for later reference
 
 
 
+
+
 ID: T17.G3.09
 Topic: T17 – 3D Worlds & Games
 Skill: Predict object position from coordinate values
-Description: Students read x/y/z coordinate values in code and predict where an object will appear in the 3D scene (e.g., "move to x: 0, y: 5, z: -10" means centered horizontally, elevated 5 units, and 10 units away from camera). They build mental mapping between numbers and spatial locations. **Practice:** Given coordinates, students point to where object will appear before running code. _CSTA: 2-AP-12._
+Description: Students read x/y/z coordinate values in code and predict where an object will appear in the 3D scene (e.g., "move to x: 0, y: 5, z: -10" means centered horizontally, elevated 5 units, and 10 units away), building mental mapping between numbers and spatial locations.
 
 Dependencies:
 * T17.G3.05: Position shapes using x/y/z coordinates
 
 
 
+
+
 ID: T17.G3.10
 Topic: T17 – 3D Worlds & Games
 Skill: Debug a mispositioned object by fixing coordinates
-Description: Students examine a 3D scene where an object appears in the wrong location (e.g., underground at y: -5 instead of y: 5, or too far at z: -100 instead of z: -10) and correct the coordinate values in the code to place the object in the intended position. **Debug process:** Identify which axis is wrong → determine correct value → test fix. _CSTA: 2-AP-17._
+Description: Students examine a 3D scene where an object appears in the wrong location (e.g., underground at y: -5 instead of y: 5) and correct the coordinate values in the code to place the object in the intended position.
 
 Dependencies:
 * T17.G3.09: Predict object position from coordinate values
 
 
 
-ID: T17.G3.11
-Topic: T17 – 3D Worlds & Games
-Skill: Erase all pen drawings from the 3D scene
-Description: Students use the `erase all` block to clear all drawn shapes from the 3D scene, useful for resetting scenes or clearing between levels. They understand this removes visual drawings but doesn't delete 3D objects created with add blocks. _CSTA: 2-AP-10._
 
-Dependencies:
-* T17.G3.08: Select and work with named objects
-
-
-
-ID: T17.G3.12
-Topic: T17 – 3D Worlds & Games
-Skill: Build a simple 3D scene with shapes and colors
-Description: Students combine scene initialization, shape creation (boxes, spheres, cylinders), positioning, coloring, and naming to create a simple 3D environment (e.g., a park with ground, trees as cylinders, balls as spheres). **Requirements:** At least 5 objects, 3 different shapes, 3 different colors, meaningful names. _CSTA: 2-AP-16._
-
-Dependencies:
-* T17.G3.08: Select and work with named objects
-* T17.G3.06.01: Change shape color using diffusion color
-
-
-
-## GRADE 4 (24 skills - Advanced shapes, lighting, camera, and animation)
 
 ID: T17.G4.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add plane shapes for floors and walls
-Description: Students use the `add plane [COLOR] size x y` block to create flat surfaces for floors, walls, or backdrops, adjusting color, width, and height to build environments. **How planes work:** Planes are 2D surfaces with no thickness—perfect for ground, walls, or backdrop panels. **Common uses:** Ground platforms, wall panels, backdrop screens. _CSTA: 2-AP-13._
+Description: Students use the `add plane [COLOR] size x y` block to create flat surfaces for floors, walls, or backdrops, adjusting color, width, and height to build environments.
 
 Dependencies:
-* T17.G3.12: Build a simple 3D scene with shapes and colors
+* T17.G3.08: Select and work with named objects
+
+
 
 
 
 ID: T17.G4.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add capsule shapes to the 3D scene
-Description: Students use the `add capsule [COLOR] diameter top bottom height sides` block to create capsule shapes (for character bodies, pillars, rounded posts), adjusting top and bottom diameter and height parameters. **What capsules are:** Cylinders with rounded ends—good for smooth character bodies. _CSTA: 2-AP-13._
+Description: Students use the `add capsule [COLOR] diameter top bottom height sides` block to create capsule shapes (for character bodies, pillars, rounded posts), adjusting top and bottom diameter and height parameters.
 
 Dependencies:
 * T17.G4.01.01: Add plane shapes for floors and walls
+
+
 
 
 
 ID: T17.G4.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add torus shapes to the 3D scene
-Description: Students use the `add torus [COLOR] diameter thickness sides` block to create donut-shaped rings (for wheels, rings, halos), adjusting diameter (size of whole ring) and thickness (thickness of tube) parameters. **Common uses:** Rings, wheels, halos, portals. _CSTA: 2-AP-13._
+Description: Students use the `add torus [COLOR] diameter thickness sides` block to create donut-shaped rings (for wheels, rings, halos), adjusting diameter and thickness parameters.
 
 Dependencies:
 * T17.G4.01.02: Add capsule shapes to the 3D scene
 
 
 
+
+
 ID: T17.G4.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Remove individual 3D objects from the scene
-Description: Students use the `remove object named [NAME]` block to delete specific objects from the scene, useful for collecting items, removing enemies, or cleaning up game elements. **How it works:** Select object by name, then remove block deletes only that object. _CSTA: 2-AP-10._
+Description: Students use the `remove object named [NAME]` block to delete specific objects from the scene, useful for collecting items, removing enemies, or cleaning up game elements.
 
 Dependencies:
 * T17.G4.01.03: Add torus shapes to the 3D scene
 
 
 
+
+
 ID: T17.G4.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Remove all 3D objects from the scene
-Description: Students use the `remove all objects` block to clear the entire scene at once, useful for resetting levels, transitioning between scenes, or starting fresh. **Difference from erase all:** Remove all deletes 3D objects; erase all clears pen drawings. _CSTA: 2-AP-10._
+Description: Students use the `remove all objects` block to clear the entire scene at once, useful for resetting levels, transitioning between scenes, or starting fresh.
 
 Dependencies:
 * T17.G4.01.04: Remove individual 3D objects from the scene
 
 
 
+
+
 ID: T17.G4.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add ambient lighting to set base brightness
-Description: Students use the `add ambient light [COLOR] intensity` block to provide overall base illumination to the scene. **What ambient light does:** Provides even lighting from all directions with no shadows—sets minimum brightness level. **When to use:** Always add ambient light first to prevent completely black unlit areas. _CSTA: 2-AP-15._
+Description: Students use the `add ambient light [COLOR] sky direction xyz intensity` block to provide overall base illumination to the scene, adjusting color and intensity for the desired mood.
 
 Dependencies:
 * T17.G4.01.01: Add plane shapes for floors and walls
 
 
 
+
+
 ID: T17.G4.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add directional lighting for sunlight effect
-Description: Students use the `add directional light [COLOR] in direction xyz intensity` block to simulate sunlight coming from a specific direction. **What directional light does:** Creates parallel rays like sunlight; casts shadows; adds depth and definition. **Direction parameter:** Points toward where light comes FROM (negative Y = sun from above). _CSTA: 2-AP-15._
+Description: Students use the `add directional light [COLOR] in direction xyz at xyz intensity` block to simulate sunlight, adjusting direction, color, and intensity to create shadows and depth.
 
 Dependencies:
 * T17.G4.02.01: Add ambient lighting to set base brightness
 
 
 
+
+
 ID: T17.G4.02.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add point lights for localized illumination
-Description: Students use the `add point light [COLOR] at xyz intensity` block to create localized light sources that radiate in all directions from a point, like light bulbs or torches. **What point lights do:** Light radiates from a point; brightness decreases with distance. **Common uses:** Torches, lamps, campfires, glowing objects. _CSTA: 2-AP-15._
+Description: Students use the `add point light [COLOR] at xyz intensity` block to create localized light sources (like light bulbs or torches) that radiate in all directions, setting position and intensity for localized lighting effects.
 
 Dependencies:
 * T17.G4.02.02: Add directional lighting for sunlight effect
 
 
 
+
+
 ID: T17.G4.02.04
 Topic: T17 – 3D Worlds & Games
 Skill: Add spot lights for focused illumination
-Description: Students use the `add spot light [COLOR] at xyz direction xyz angle intensity` block to create focused cone-shaped lights like flashlights or stage lights. **What spot lights do:** Light projects in a cone; angle controls how wide the cone spreads. **Common uses:** Flashlights, stage spotlights, car headlights. _CSTA: 2-AP-15._
+Description: Students use the `add spot light [COLOR] at xyz open angle intensity blur` block to create focused cone-shaped lights (like flashlights or stage lights) with configurable direction and cone angle.
 
 Dependencies:
 * T17.G4.02.03: Add point lights for localized illumination
 
 
 
+
+
 ID: T17.G4.02.05
 Topic: T17 – 3D Worlds & Games
 Skill: Remove lights from the scene
-Description: Students use the `remove light named [NAME]` block to delete specific lights, or `remove all lights` to clear all lighting for scene transitions or resets. **When to use:** Change lighting between day/night, enter dark cave, transition between scenes. _CSTA: 2-AP-10._
+Description: Students use the `remove light named [NAME]` block to delete specific lights, or `remove all lights` to clear all lighting for scene transitions or resets.
 
 Dependencies:
 * T17.G4.02.04: Add spot lights for focused illumination
 
 
 
+
+
 ID: T17.G4.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Set up an orbit camera to view a target
-Description: Students use the `add orbit camera distance v-angle h-angle` block to create a camera that circles around a target point. **Parameters:** distance (how far from target), v-angle (vertical angle—higher = looking down), h-angle (horizontal angle—rotation around target). **Common uses:** Character viewers, examine objects from all angles. _CSTA: 2-AP-13._
+Description: Students use the `add orbit camera distance v-angle h-angle` block to create a camera that circles around a target point, adjusting radius, vertical angle, and horizontal angle for strategic or cinematic views.
 
 Dependencies:
 * T17.G4.02.05: Remove lights from the scene
 
 
 
+
+
 ID: T17.G4.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Set camera target position
-Description: Students use the `set camera target xyz` block to specify what point the camera looks at. **How it works:** Camera always looks toward target point; changing target makes camera turn to face different locations. **Uses:** Focus camera on player, important objects, or action areas. _CSTA: 2-AP-13._
+Description: Students use the `set camera target xyz` block to specify what point the camera looks at, allowing them to focus on specific objects or areas in the scene.
 
 Dependencies:
 * T17.G4.03.01: Set up an orbit camera to view a target
 
 
 
+
+
 ID: T17.G4.03.03
 Topic: T17 – 3D Worlds & Games
 Skill: Set up a follow camera to track a moving object
-Description: Students use the `add follow camera distance height rotation` block to create a camera that automatically follows a player or vehicle. **How it works:** Camera maintains constant offset from target object as it moves. **Common uses:** Third-person games where camera follows player character. _CSTA: 2-AP-13._
+Description: Students use the `add follow camera distance z-offset v-angle h-angle` block to create a camera that automatically follows a player or vehicle, adjusting offset and height for a smooth third-person view.
 
 Dependencies:
 * T17.G4.03.02: Set camera target position
 
 
 
+
+
 ID: T17.G4.03.04
 Topic: T17 – 3D Worlds & Games
 Skill: Configure camera distance limits
-Description: Students use the `configure camera radius min max` block to set bounds on how close or far the camera can zoom, preventing players from zooming too far in or out. **Why limits matter:** Prevent seeing inside objects (too close) or losing detail (too far). _CSTA: 2-AP-13._
+Description: Students use the `configure camera radius min max visible range min max` block to set bounds on how close or far the camera can zoom, preventing players from zooming too far in or out.
 
 Dependencies:
 * T17.G4.03.03: Set up a follow camera to track a moving object
 
 
 
+
+
 ID: T17.G4.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Place 3D models from the CreatiCode library
-Description: Students use the `add model [MODELTYPE]` block to select and place 3D models from CreatiCode's library (trees, cars, buildings, furniture, animals) to enhance their scenes. **Model categories:** Nature, vehicles, buildings, characters, props. **How to use:** Select category → select specific model → set position and size. _CSTA: 2-AP-16._
+Description: Students use the `add model [MODELTYPE] target height origin offset rotation` block to select and place 3D models from CreatiCode's library (trees, cars, buildings, furniture) to enhance their scenes.
 
 Dependencies:
 * T17.G4.03.04: Configure camera distance limits
 
 
 
+
+
 ID: T17.G4.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add avatar models to the scene
-Description: Students use the `add avatar [AVATARTYPE] height as [NAME]` block to add humanoid character models to their scenes. **Available avatars:** Various character types with built-in animation rigs. **Preparation for:** Animation blocks that require avatar models. _CSTA: 2-AP-16._
+Description: Students use the `add avatar [AVATARTYPE] height as [NAME]` block to add humanoid character models to their scenes, preparing for character animation and gameplay.
 
 Dependencies:
 * T17.G4.04.01: Place 3D models from the CreatiCode library
 
 
 
+
+
 ID: T17.G4.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Play built-in avatar animations
-Description: Students use the `start model animation [NAME] looping speed` block to play built-in avatar animations (walking, running, jumping, dancing, waving) to bring characters to life. **Parameters:** animation name (from list), looping (true/false), speed (multiplier). **Common animations:** Idle, walk, run, jump, wave, dance. _CSTA: 2-AP-16._
+Description: Students use the `start model animation [NAME] looping speed ratio` block to play built-in avatar animations (walking, running, jumping, dancing, waving) to bring characters to life.
 
 Dependencies:
 * T17.G4.04.02: Add avatar models to the scene
 
 
 
+
+
 ID: T17.G4.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Animate scenery elements with rotation loops
-Description: Students create looping animations for props (windmill spinning, fans rotating, wheels turning) by combining forever loops with the `turn degrees around axis` block. **Common pattern:** Forever loop → turn 5 degrees around Y axis → creates continuous spinning. _CSTA: 2-AP-12._
+Description: Students create looping animations for props (windmill spinning, fans rotating, wheels turning) by combining forever loops with the `turn degrees around axis` block.
 
 Dependencies:
 * T17.G4.05.01: Play built-in avatar animations
@@ -22369,30 +21764,36 @@ Dependencies:
 
 
 
+
+
 ID: T17.G4.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Animate scenery with position changes
-Description: Students use forever loops with the `move to xyz in (T) seconds` block or `glide to xyz` to create bobbing platforms, swinging pendulums, or moving obstacles. **Pattern example:** Forever → move to position A → wait → move to position B → wait → (repeat). _CSTA: 2-AP-12._
+Description: Students use forever loops with the `move to xyz in (T) seconds` block to create bobbing platforms, swinging pendulums, or moving obstacles.
 
 Dependencies:
 * T17.G4.05.02: Animate scenery elements with rotation loops
 
 
 
+
+
 ID: T17.G4.06
 Topic: T17 – 3D Worlds & Games
 Skill: Calculate distance between 3D objects
-Description: Students use the `distance between objects [OBJECT1] and [OBJECT2]` block to calculate how far apart two objects are, useful for proximity detection, triggers, and game logic. **Returns:** Distance as a number (in scene units). **Common uses:** Detect when player is near collectible, enemy detection range, trigger cutscenes. _CSTA: 2-AP-13._
+Description: Students use the `distance between objects [OBJECT1] and [OBJECT2]` block to calculate how far apart two objects are, useful for proximity detection, triggers, and game logic.
 
 Dependencies:
 * T17.G4.05.03: Animate scenery with position changes
 
 
 
+
+
 ID: T17.G4.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Trigger events based on object proximity
-Description: Students combine distance checking with conditionals to trigger events when the player gets near collectibles, NPCs, or hazards. **Common pattern:** Forever loop → if distance < threshold → trigger event (play sound, show message, add score). _CSTA: 2-AP-12._
+Description: Students combine distance checking with conditionals to trigger events when the player gets near collectibles, NPCs, or hazards, responding with sounds, score changes, or actions.
 
 Dependencies:
 * T17.G4.06: Calculate distance between 3D objects
@@ -22400,10 +21801,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G4.07
 Topic: T17 – 3D Worlds & Games
 Skill: Debug mispositioned 3D objects using coordinate inspection
-Description: Students analyze a 3D scene where multiple objects are incorrectly placed and systematically identify which coordinate values (x, y, or z) need adjustment. **Debug process:** Inspect current coordinates → compare to intended position → identify which axis is wrong → calculate correction → test fix. **Common errors:** Underground (y too low), too far (z very negative), off-center (x wrong). _CSTA: 2-AP-17._
+Description: Students analyze a 3D scene where objects are incorrectly placed and systematically identify which coordinate values (x, y, or z) need adjustment, using the console to log positions and iteratively fix placement bugs.
 
 Dependencies:
 * T17.G4.06.01: Trigger events based on object proximity
@@ -22411,10 +21814,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G4.08
 Topic: T17 – 3D Worlds & Games
 Skill: Build a complete 3D scene with multiple elements
-Description: Students combine shapes, lighting, camera, and models to create a cohesive 3D environment (e.g., a park with trees, benches, and paths; a room with furniture). **Requirements:** Scene initialization, at least 3 shapes, 2 light sources (ambient + directional/point), camera setup, 2+ models from library, all objects positioned and colored meaningfully. _CSTA: 2-AP-16._
+Description: Students combine shapes, lighting, camera, and models to create a cohesive 3D environment (e.g., a park with trees, benches, and paths; a room with furniture). This capstone skill integrates scene initialization, shape placement, object naming, and visual styling.
 
 Dependencies:
 * T17.G4.04.02: Add avatar models to the scene
@@ -22423,92 +21828,108 @@ Dependencies:
 
 
 
-## GRADE 5 (29 skills - Physics simulation and visual effects)
+
 
 ID: T17.G5.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Initialize a 3D physics world with gravity
-Description: Students use the `enable physics for scene with gravity` block to add physics simulation, setting gravity strength (usually -9.8 for Earth-like or -20 for stronger effect) so objects can fall and interact realistically. **How it works:** Must be called AFTER scene initialization and BEFORE adding physics bodies. **Gravity parameter:** Negative values pull down (typical: -9.8 to -30). _CSTA: 2-AP-13._
+Description: Students use the `enable physics for scene with gravity` block to add physics simulation, setting gravity strength so objects can fall and interact realistically.
 
 Dependencies:
 * T17.G4.06.01: Trigger events based on object proximity
 
 
 
+
+
 ID: T17.G5.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add static physics bodies for immovable objects
-Description: Students use the `add physics body with mass 0` block to attach static physics bodies to floors, walls, and platforms that should not move but should block other objects. **What static means:** Mass = 0 means object won't move from forces/collisions but still participates in physics. **Common uses:** Ground, walls, platforms. _CSTA: 2-AP-13._
+Description: Students use the `add [SHAPE] physics body with mass 0` block to attach static physics bodies to floors, walls, and platforms that should not move but should block other objects.
 
 Dependencies:
 * T17.G5.01.01: Initialize a 3D physics world with gravity
 
 
 
+
+
 ID: T17.G5.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add dynamic physics bodies for movable objects
-Description: Students use the `add physics body with mass` block to add dynamic physics bodies to players, crates, and projectiles with mass > 0, so they can fall, be pushed, and collide. **What dynamic means:** Mass > 0 means object affected by gravity and forces. **Typical masses:** Small items = 1, characters = 5-10, heavy objects = 20+. _CSTA: 2-AP-13._
+Description: Students use the `add [SHAPE] physics body with mass` block to add dynamic physics bodies to players, crates, and projectiles with mass > 0, so they can fall and collide.
 
 Dependencies:
 * T17.G5.01.02: Add static physics bodies for immovable objects
 
 
 
+
+
 ID: T17.G5.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Remove physics bodies from objects
-Description: Students use the `remove physics body` block to remove physics simulation from objects, useful for changing objects from dynamic to static or removing from physics simulation entirely. **When to use:** Object collected and should no longer interact, transition from physics to manual control. _CSTA: 2-AP-10._
+Description: Students use the `remove physics body` block to remove physics simulation from objects, useful for changing objects from dynamic to static or removing from physics simulation.
 
 Dependencies:
 * T17.G5.01.03: Add dynamic physics bodies for movable objects
 
 
 
+
+
 ID: T17.G5.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Freeze and unfreeze physics bodies
-Description: Students use the `freeze physics body named [NAME]` and `unfreeze physics body named [NAME]` blocks to temporarily pause physics simulation on specific objects. **Uses:** Create paused states, temporarily stop object during cutscenes, freeze object in mid-air. _CSTA: 2-AP-10._
+Description: Students use the `freeze physics body named [NAME]` block to temporarily pause physics simulation on specific objects, useful for creating paused states or static moments.
 
 Dependencies:
 * T17.G5.01.04: Remove physics bodies from objects
 
 
 
+
+
 ID: T17.G5.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Configure restitution for bouncing behavior
-Description: Students use the `update physics property restitution [VALUE]` block to control how bouncy objects are. **Restitution values:** 0 = no bounce (sticks on impact), 0.5 = moderate bounce, 1.0 = perfect elastic bounce (returns to original height), >1.0 = gains energy (bounces higher). **Common uses:** Balls = 0.7-0.9, crates = 0.1-0.3. _CSTA: 2-AP-13._
+Description: Students use the `update physics property restitution` block to control how bouncy objects are (0% = no bounce, 100% = perfect bounce), useful for balls, projectiles, or platforms.
 
 Dependencies:
 * T17.G5.01.05: Freeze and unfreeze physics bodies
 
 
 
+
+
 ID: T17.G5.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Configure friction for sliding behavior
-Description: Students use the `update physics property friction [VALUE]` block to control how easily objects slide. **Friction values:** 0 = perfectly slippery (ice), 0.5 = normal, 1.0 = sticky (rubber on rubber), 2.0+ = very sticky. **Common uses:** Ice surfaces = 0-0.1, normal ground = 0.5, sticky surfaces = 1.0+. _CSTA: 2-AP-13._
+Description: Students use the `update physics property friction` block to create slippery ice surfaces (low friction) or sticky floors (high friction), controlling how easily objects slide.
 
 Dependencies:
 * T17.G5.02.01: Configure restitution for bouncing behavior
 
 
 
+
+
 ID: T17.G5.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Detect physics collision events
-Description: Students use the `broadcast [MESSAGE] on collision between physics bodies` block to detect when physics objects touch, triggering game logic responses. **How it works:** Broadcasts message when two physics bodies collide; specify which bodies or use "any". **Common uses:** Player hits enemy, ball hits goal, projectile hits target. _CSTA: 2-AP-12._
+Description: Students use the `broadcast [MESSAGE] on collision between physics bodies` block to detect when physics objects touch, triggering game logic responses.
 
 Dependencies:
 * T17.G5.02.02: Configure friction for sliding behavior
 
 
 
+
+
 ID: T17.G5.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Respond to collisions by collecting items
-Description: Students handle collision events by updating score, playing sounds, or removing collectible objects when the player touches them. **Pattern:** When collision detected → change score by 1 → play sound → remove collectible object. _CSTA: 2-AP-16._
+Description: Students handle collision events by updating score, playing sounds, or removing collectible objects when the player touches them, combining collision detection with game logic.
 
 Dependencies:
 * T17.G5.03.01: Detect physics collision events
@@ -22516,150 +21937,178 @@ Dependencies:
 
 
 
+
+
 ID: T17.G5.03.03
 Topic: T17 – 3D Worlds & Games
 Skill: Get names of objects in contact
-Description: Students use the `names of physics bodies in contact for [NAME]` block to get a list of all objects currently touching a physics body, enabling advanced collision handling (checking multiple simultaneous collisions). **Returns:** List of object names. **Uses:** Check if standing on ground, detect multiple enemies touching player. _CSTA: 2-AP-13._
+Description: Students use the `names of physics bodies in contact for [NAME]` block to get a list of all objects currently touching a physics body, enabling advanced collision handling.
 
 Dependencies:
 * T17.G5.03.02: Respond to collisions by collecting items
 
 
 
+
+
 ID: T17.G5.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Apply textures from the CreatiCode texture library
-Description: Students use the `update texture [TEXTURENAME]` block to apply pre-made textures (wood, stone, grass, metal, brick, dirt) from CreatiCode's library to make surfaces look realistic. **Texture categories:** Natural (grass, dirt, stone), architectural (brick, wood planks), materials (metal, fabric). _CSTA: 2-AP-15._
+Description: Students use the `update texture [TEXTURENAME] unit size` block to apply pre-made textures (wood, stone, grass, metal) from CreatiCode's library to make surfaces look realistic.
 
 Dependencies:
 * T17.G5.03.03: Get names of objects in contact
 
 
 
+
+
 ID: T17.G5.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Apply costume textures to objects
-Description: Students use the `update texture using costume [COSTUMENAME]` block to apply custom-drawn costumes as textures on 3D surfaces, bridging 2D sprite art with 3D geometry. **How to use:** Draw costume in costume editor → apply costume as texture → costume wraps around 3D object. _CSTA: 2-AP-15._
+Description: Students use the `update texture using costume [COSTUMENAME]` block to apply custom-drawn costumes as textures on 3D surfaces, bridging 2D sprite art with 3D geometry.
 
 Dependencies:
 * T17.G5.04.01: Apply textures from the CreatiCode texture library
 
 
 
+
+
 ID: T17.G5.04.03
 Topic: T17 – 3D Worlds & Games
 Skill: Configure texture repetition and rotation
-Description: Students use texture tiling parameters to control how textures tile across surfaces. **Parameters:** repeat-h and repeat-v (how many times texture tiles horizontally/vertically), rotation (texture rotation angle). **Effect:** Higher repeat values create smaller tiling patterns; lower values create stretched textures. _CSTA: 2-AP-15._
+Description: Students use the `update texture unit size repeat h v rotation` block to control how textures tile across surfaces, adjusting repetition and rotation for realistic patterns.
 
 Dependencies:
 * T17.G5.04.02: Apply costume textures to objects
 
 
 
+
+
 ID: T17.G5.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Adjust material roughness for surface appearance
-Description: Students use the `update color roughness [VALUE]` parameter to control surface roughness. **Roughness values:** 0 = perfectly shiny/reflective (mirror, metal), 0.5 = moderate (plastic), 1.0 = completely matte/rough (cloth, concrete). **Visual effect:** Lower values create sharper specular highlights. _CSTA: 2-AP-15._
+Description: Students use the `update color roughness` parameter to control surface roughness, creating different looks from smooth shiny surfaces to rough matte ones.
 
 Dependencies:
 * T17.G5.04.03: Configure texture repetition and rotation
 
 
 
+
+
 ID: T17.G5.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Adjust material brightness
-Description: Students use the `update color brightness [VALUE]` parameter to control how bright or dark a surface appears under lighting. **Brightness values:** 0 = completely black, 1.0 = normal, 2.0+ = extra bright. **Uses:** Make surfaces brighter/darker without changing base color. _CSTA: 2-AP-15._
+Description: Students use the `update color brightness` parameter to control how bright or dark a surface appears, useful for creating variation in scene lighting effects.
 
 Dependencies:
 * T17.G5.05.01: Adjust material roughness for surface appearance
 
 
 
+
+
 ID: T17.G5.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Scale objects in 3D
-Description: Students use the `update scale x y z in (T) seconds` block to resize objects proportionally or non-proportionally. **Scale values:** 1 = original size, 2 = double size, 0.5 = half size. **Non-proportional:** Different x/y/z values stretch objects (e.g., x=1, y=2, z=1 makes object twice as tall). _CSTA: 2-AP-13._
+Description: Students use the `update scale x y z in (T) seconds` block to resize objects proportionally or non-proportionally, making objects grow, shrink, or stretch.
 
 Dependencies:
 * T17.G5.05.02: Adjust material brightness
 
 
 
+
+
 ID: T17.G5.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add fog for depth and atmosphere
-Description: Students use the `set scene fog [MODE] color start end density` block to enable fog effects, creating atmospheric depth or spooky environments. **Fog parameters:** color (fog color), start (distance where fog begins), end (distance where fog is solid), density (fog thickness). **Common uses:** Spooky atmosphere, hide far objects, create depth perception. _CSTA: 2-AP-15._
+Description: Students use the `set scene fog [MODE] color start end density` block to enable fog effects, creating atmospheric depth or spooky environments.
 
 Dependencies:
 * T17.G5.05.03: Scale objects in 3D
 
 
 
+
+
 ID: T17.G5.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add prebuilt fire particle emitters
-Description: Students use the `add prebuilt emitter for [fire]` block to add fire particle effects from the prebuilt library with default settings. **What fire emitters do:** Emit orange/yellow flame particles moving upward with natural flickering. **Common uses:** Torches, campfires, explosions, lava. _CSTA: 2-AP-16._
+Description: Students use the `add prebuilt emitter for [fire]` block to add fire particle effects from the prebuilt library with default settings, creating flames for torches, campfires, or explosions.
 
 Dependencies:
 * T17.G5.06.01: Add fog for depth and atmosphere
 
 
 
+
 ID: T17.G5.06.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add prebuilt smoke particle emitters
-Description: Students use the `add prebuilt emitter for [smoke]` block to add smoke particle effects from the prebuilt library. **What smoke emitters do:** Emit gray/white particles drifting upward and fading. **Common uses:** Chimneys, exhaust, steam, aftermath of explosions. _CSTA: 2-AP-16._
+Description: Students use the `add prebuilt emitter for [smoke]` block to add smoke particle effects from the prebuilt library, creating rising smoke for chimneys, exhaust, or aftermath effects.
 
 Dependencies:
 * T17.G5.06.02: Add prebuilt fire particle emitters
 
 
 
+
 ID: T17.G5.06.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add prebuilt spark particle emitters
-Description: Students use the `add prebuilt emitter for [sparks]` block to add spark particle effects from the prebuilt library. **What spark emitters do:** Emit bright yellow/white particles scattering outward and fading quickly. **Common uses:** Welding, electrical effects, impact flashes, magical effects. _CSTA: 2-AP-16._
+Description: Students use the `add prebuilt emitter for [sparks]` block to add spark particle effects from the prebuilt library, creating sparks for welding, electrical effects, or impact flashes.
 
 Dependencies:
 * T17.G5.06.02.01: Add prebuilt smoke particle emitters
 
 
 
+
+
 ID: T17.G5.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Configure emitter colors
-Description: Students use the `configure emitter [NAME] color: start end` block to customize particle colors over lifetime. **How it works:** Start color = initial particle color, end color = final particle color before disappearing. Particles smoothly transition between colors. **Uses:** Custom fire colors, magical effects, colored smoke. _CSTA: 2-AP-15._
+Description: Students use the `configure emitter [NAME] color: start end` block to customize particle colors, creating custom-colored fire, smoke, or magical effects.
 
 Dependencies:
 * T17.G5.06.02.02: Add prebuilt spark particle emitters
 
 
 
+
+
 ID: T17.G5.06.04
 Topic: T17 – 3D Worlds & Games
 Skill: Configure emitter sizes
-Description: Students use the `configure emitter [NAME] size: start end` block to control how particle sizes change over lifetime. **How it works:** Start size = particle size at birth, end size = particle size at death. **Common patterns:** Growing (start small, end large for explosions), shrinking (start large, end small for fading), constant (same start/end). _CSTA: 2-AP-15._
+Description: Students use the `configure emitter [NAME] size: start end` block to control how particle sizes change over their lifetime, from small sparks to large clouds.
 
 Dependencies:
 * T17.G5.06.03: Configure emitter colors
 
 
 
+
+
 ID: T17.G5.06.05
 Topic: T17 – 3D Worlds & Games
 Skill: Start and stop particle emitters
-Description: Students use the `start emitter [NAME]` and `stop emitter [NAME]` blocks to control when particle effects are active. **When to use:** Start emitter when action begins (torch lit, engine starts), stop emitter when action ends (fire extinguished, engine stops). _CSTA: 2-AP-10._
+Description: Students use the `start emitter [NAME]` and `stop emitter [NAME]` blocks to control when particle effects are active, useful for triggering explosions or turning off flames.
 
 Dependencies:
 * T17.G5.06.04: Configure emitter sizes
 
 
 
+
+
 ID: T17.G5.07
 Topic: T17 – 3D Worlds & Games
 Skill: Predict physics behavior before running simulation
-Description: Students examine code that sets up physics bodies with different masses, restitution, and friction values, then predict the outcome (e.g., which ball will bounce higher, which object will slide further, what happens when heavy object hits light object) before running the simulation to verify. **Prediction factors:** Higher restitution = more bounce, lower friction = more sliding, higher mass = harder to move. _CSTA: 2-AP-12._
+Description: Students examine code that sets up physics bodies with different masses, restitution, and friction values, then predict the outcome (e.g., which ball will bounce higher, which object will slide further) before running the simulation to verify.
 
 Dependencies:
 * T17.G5.02.02: Configure friction for sliding behavior
@@ -22667,10 +22116,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G5.08
 Topic: T17 – 3D Worlds & Games
 Skill: Design collectible placement for balanced gameplay
-Description: Students analyze a 3D game level and strategically place collectible items at varying difficulties—some easy to reach (on main path), some requiring skill (jumping to higher platforms, avoiding hazards), some optional (hard-to-find secrets). They justify placement decisions based on game design principles (reward exploration, create risk/reward choices, guide player through level). _CSTA: 2-AP-18._
+Description: Students analyze a 3D game level and strategically place collectible items at varying difficulties - some easy to reach, some requiring skill. They justify placement decisions based on game design principles.
 
 Dependencies:
 * T17.G5.03.02: Respond to collisions by collecting items
@@ -22678,173 +22129,192 @@ Dependencies:
 
 
 
-ID: T17.G5.09
-Topic: T17 – 3D Worlds & Games
-Skill: Build a simple physics-based interaction
-Description: Students create a simple physics experience (bowling with spheres and boxes, stacking blocks, ball rolling down ramp) that demonstrates understanding of physics bodies, gravity, collisions, and material properties. **Requirements:** At least 3 dynamic bodies, 2 static bodies, appropriate masses and properties, observable physical behavior. _CSTA: 2-AP-16._
 
-Dependencies:
-* T17.G5.07: Predict physics behavior before running simulation
-* T17.G5.01.03: Add dynamic physics bodies for movable objects
-
-
-
-## GRADE 6 (24 skills - Advanced physics and interactivity)
 
 ID: T17.G6.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Apply impulses to physics bodies
-Description: Students use the `apply impulse strength direction xyz at relative point xyz` block to give objects an instant push (for jumping, explosions, or knockback effects). **Impulse vs force:** Impulse = instant change in velocity (single powerful push), force = continuous acceleration. **Parameters:** Strength (how strong), direction (which way), application point (where on object—affects rotation). _CSTA: 2-AP-13._
+Description: Students use the `apply impulse strength direction xyz at relative point xyz` block to give objects an instant push (for jumping, explosions, or knockback effects).
 
 Dependencies:
 * T17.G5.01.03: Add dynamic physics bodies for movable objects
+
+
 
 
 
 ID: T17.G6.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Apply continuous forces to physics bodies
-Description: Students use the `apply force strength direction xyz at relative point xyz` block to apply ongoing forces (for wind, gravity modifications, or thrust effects). **Force characteristics:** Applied continuously each frame, creates gradual acceleration, realistic for sustained pushes. **Common uses:** Wind pushing objects, rocket thrust, magnets, conveyor belts. _CSTA: 2-AP-13._
+Description: Students use the `apply force strength direction xyz at relative point xyz` block to apply ongoing forces (for wind, gravity modifications, or thrust effects).
 
 Dependencies:
 * T17.G6.01.01: Apply impulses to physics bodies
 
 
 
+
+
 ID: T17.G6.01.03
 Topic: T17 – 3D Worlds & Games
-Skill: Set physics body velocity directly
-Description: Students use the `set physics body speed in xyz` block to set an object's velocity directly, useful for precise movement control in physics simulations. **When to use:** When you want exact velocity rather than applying forces (character movement, respawning with specific speed, resetting motion). _CSTA: 2-AP-13._
+Skill: Set physics body speed directly
+Description: Students use the `set physics body speed in xyz` block to set an object's velocity directly, useful for precise movement control in physics simulations.
 
 Dependencies:
 * T17.G6.01.02: Apply continuous forces to physics bodies
 
 
 
+
+
 ID: T17.G6.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Set up collision groups for selective interaction
-Description: Students use the `update collision group [GROUP] target groups [LIST]` block to assign physics bodies to groups and control which objects can collide with each other. **How it works:** Assign object to group (1-15), specify which groups it can collide with. **Uses:** Player bullets don't hit player, team-based collision (red team can't hit red team), one-way platforms. _CSTA: 2-AP-13._
+Description: Students use the `update collision group target groups` block to assign physics bodies to groups, controlling which objects can collide with each other.
 
 Dependencies:
-* T17.G6.01.03: Set physics body velocity directly
+* T17.G6.01.03: Set physics body speed directly
+
+
 
 
 
 ID: T17.G6.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Lock physics body movement and rotation axes
-Description: Students use the `lock physics body movement in X Y Z rotation around X Y Z` block to constrain movement or rotation on specific axes. **Common uses:** Lock Y rotation to keep characters upright, lock Z movement for 2D-style gameplay in 3D, lock X/Z movement for elevator. _CSTA: 2-AP-13._
+Description: Students use the `lock physics body speed in X Y Z rotation around X Y Z` block to constrain movement or rotation on specific axes, keeping characters upright or restricting movement.
 
 Dependencies:
 * T17.G6.01.04: Set up collision groups for selective interaction
 
 
 
+
+
 ID: T17.G6.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add virtual joystick controls
-Description: Students use the `add [SIDE] joystick` block to add on-screen virtual joystick controls for mobile-friendly 3D navigation. **Sides:** Left or right side of screen. **Common pattern:** Left joystick for movement, right joystick for camera/aiming. _CSTA: 2-AP-16._
+Description: Students use the `add [SIDE] joystick` block to add on-screen virtual joystick controls for mobile-friendly 3D navigation.
 
 Dependencies:
 * T17.G6.01.05: Lock physics body movement and rotation axes
 
 
 
+
+
 ID: T17.G6.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Read joystick input values
-Description: Students use the `joystick [PROPERTY]` block to read joystick X and Y values (-1 to 1), mapping them to player movement or camera control. **Values:** X = -1 (left), 0 (center), 1 (right); Y = -1 (down), 0 (center), 1 (up). **Common pattern:** Multiply joystick values by movement speed to get velocity. _CSTA: 2-AP-13._
+Description: Students use the `joystick [PROPERTY]` block to read joystick X and Y values, mapping them to player movement or camera control.
 
 Dependencies:
 * T17.G6.02.01: Add virtual joystick controls
 
 
 
+
+
 ID: T17.G6.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable shadows from lights
-Description: Students use the `cast shadow from light named [NAME]` block to enable shadow generation from specific lights, creating depth and realism. **Performance note:** Shadows are computationally expensive—enable only on important lights (main directional/sun light). **Parameters:** Blur size (softer vs sharper shadows). _CSTA: 2-AP-15._
+Description: Students use the `cast shadow from light named [NAME] blur size` block to enable shadow generation from specific lights, creating depth and realism.
 
 Dependencies:
 * T17.G4.02.02: Add directional lighting for sunlight effect
 
 
 
+
+
 ID: T17.G6.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Configure objects to receive shadows
-Description: Students use the `receives shadow [TRUE/FALSE]` block to control which objects show shadows cast on them. **Performance optimization:** Disable shadow receiving on distant or unimportant objects to improve performance. _CSTA: 2-AP-15._
+Description: Students use the `receives shadow` block to control which objects show shadows cast on them, optimizing performance and visual quality.
 
 Dependencies:
 * T17.G6.03.01: Enable shadows from lights
 
 
 
+
+
 ID: T17.G6.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Create glow layers for luminous effects
-Description: Students use the `create glow layer intensity blur` block to set up glow effects, then add objects to the glow layer so they appear to emit light. **How it works:** Objects in glow layer create bloom/halo effect. **Uses:** Magical items, lasers, neon signs, power-ups. _CSTA: 2-AP-15._
+Description: Students use the `create glow layer intensity blur size` block to set up glow effects, then add objects to the glow layer.
 
 Dependencies:
 * T17.G6.03.02: Configure objects to receive shadows
 
 
 
+
+
 ID: T17.G6.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create highlight layers for object emphasis
-Description: Students use the `create highlight layer color blur` block to create outline effects that make selected objects stand out (outline in glowing color). **Uses:** Show interactable objects, highlight objectives, indicate selection, show damage/power-up state. _CSTA: 2-AP-15._
+Description: Students use the `create highlight layer blur size` block to create outline effects that make selected objects stand out.
 
 Dependencies:
 * T17.G6.04.01: Create glow layers for luminous effects
 
 
 
+
+
 ID: T17.G6.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add speech bubbles to 3D characters
-Description: Students use the `show speech bubble [TEXT] offset xyz` block to display dialog or thoughts above 3D characters. **Parameters:** Text content, offset (position relative to character). **Uses:** NPC dialog, tutorial instructions, character thoughts, hints. _CSTA: 2-AP-16._
+Description: Students use the `show speech bubble [TEXT] offset xyz` block to display dialog or thoughts above 3D characters, creating narrative or tutorial moments.
 
 Dependencies:
 * T17.G6.04.02: Create highlight layers for object emphasis
 
 
 
+
+
 ID: T17.G6.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable mouse picking on 3D objects
-Description: Students use the `turn on picking with [BUTTON]` block to enable click detection on 3D objects. **How it works:** After enabling picking, clicking on 3D objects triggers pick events. **Button options:** Left click, right click, or both. _CSTA: 2-AP-10._
+Description: Students use the `turn on picking with [BUTTON] for objects created in sprites` block to enable click detection on 3D objects.
 
 Dependencies:
 * T17.G6.05.01: Add speech bubbles to 3D characters
 
 
 
+
+
 ID: T17.G6.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Get picked object information
-Description: Students use `picked object name`, `picked point x/y/z` reporter blocks to determine which object was clicked and where on the object. **What you get:** Object name (which object), pick point coordinates (exact location on object surface). **Uses:** Identify clicked object, spawn effects at click point. _CSTA: 2-AP-13._
+Description: Students use `picked object name`, `picked point x/y/z pos` blocks to determine which object was clicked and where, enabling interactive 3D interfaces.
 
 Dependencies:
 * T17.G6.06.01: Enable mouse picking on 3D objects
 
 
 
+
+
 ID: T17.G6.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Respond to object picking events
-Description: Students use the `when an object from this sprite is picked` event to handle clicks on 3D objects, triggering game actions or UI responses. **Common pattern:** When object picked → check which object (picked object name) → execute appropriate action (show info, collect, activate). _CSTA: 2-AP-12._
+Description: Students use the `when an object from this sprite is picked` event to handle clicks on 3D objects, triggering game actions or UI responses.
 
 Dependencies:
 * T17.G6.06.02: Get picked object information
 
 
 
+
+
 ID: T17.G6.07
 Topic: T17 – 3D Worlds & Games
 Skill: Debug physics collision issues systematically
-Description: Students diagnose why physics collisions are not working as expected (e.g., objects passing through each other, unexpected bouncing, no collision detection) by checking: (1) Do both objects have physics bodies? (2) Are collision groups configured correctly? (3) Are bodies frozen? (4) Are masses appropriate? They use a systematic debugging checklist and console logging to identify problems. _CSTA: 2-AP-17._
+Description: Students diagnose why physics collisions are not working as expected (e.g., objects passing through each other, unexpected bouncing) by checking collision groups, physics body types, and constraint settings, using a systematic debugging approach.
 
 Dependencies:
 * T17.G6.01.04: Set up collision groups for selective interaction
@@ -22852,21 +22322,25 @@ Dependencies:
 
 
 
+
+
 ID: T17.G6.08
 Topic: T17 – 3D Worlds & Games
 Skill: Design responsive player movement controls for 3D space
-Description: Students implement a player control scheme that feels responsive and intuitive, choosing between: (1) Direct velocity control (set speed directly—instant response but less realistic), (2) Force-based movement (apply forces—realistic physics but slower response), or (3) Impulse-based (impulse when key pressed—jump-like feel). They test and justify their choice based on game feel requirements and player feedback. _CSTA: 2-AP-18._
+Description: Students implement a player control scheme that feels responsive and intuitive, combining joystick input with physics forces, choosing between direct velocity control vs. force-based movement based on game feel requirements.
 
 Dependencies:
-* T17.G6.02.02: Read joystick input values
-* T17.G6.01.03: Set physics body velocity directly
+* T17.G4.02.02: Add directional lighting for sunlight effect
+* T17.G6.01.03: Set physics body speed directly
+
+
 
 
 
 ID: T17.G6.09
 Topic: T17 – 3D Worlds & Games
 Skill: Build a physics-based puzzle or game
-Description: Students create a complete physics-based experience (e.g., ball maze—tilt platform to roll ball to goal, stacking game—stack blocks without falling, physics puzzle—use physics to reach goal) combining physics bodies, collision detection, scoring, and win/lose conditions. **Requirements:** Clear objective, physics-based mechanics (not just scripted movement), win condition, lose condition (optional), score/feedback. _CSTA: 2-AP-16._
+Description: Students create a complete physics-based experience (e.g., ball maze, stacking game, physics puzzle) combining physics bodies, collision detection, scoring, and win/lose conditions. This capstone skill integrates physics fundamentals with game design.
 
 Dependencies:
 * T17.G6.07: Debug physics collision issues systematically
@@ -22875,253 +22349,335 @@ Dependencies:
 
 
 
-## GRADE 7 (25 skills - Advanced geometry and effects)
+
 
 ID: T17.G7.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Create extruded 3D shapes from 2D vertex lists
-Description: Students use the `add column [COLOR] 2D vertex list height` block to extrude 2D polygon outlines into 3D shapes, making custom pillars, buildings, or unique geometry. **How it works:** Provide list of 2D points (x,z coordinates) defining base shape, specify extrusion height. **Uses:** Custom building footprints, irregular pillars, logo extrusions. _CSTA: 3A-AP-13._
+Description: Students use the `add column [COLOR] 2D vertex list height cap type` block to extrude 2D polygon outlines into 3D shapes, making custom pillars, buildings, or unique geometry.
 
 Dependencies:
 * T17.G6.06.03: Respond to object picking events
 
 
 
+
+
 ID: T17.G7.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create flat 3D text objects
-Description: Students use the `add 3D text [TEXT] font color width height` block to create flat text labels, signs, or titles in the 3D world. **Parameters:** Text content, font, color, width (horizontal size), height (vertical size), camera facing (always faces camera or fixed orientation). **Uses:** Signs, labels, floating UI elements. _CSTA: 2-AP-16._
+Description: Students use the `add 3D text [TEXT] font color width height diameter camera facing` block to create flat text labels, signs, or titles in the 3D world.
 
 Dependencies:
 * T17.G7.01.01: Create extruded 3D shapes from 2D vertex lists
 
 
 
+
+
 ID: T17.G7.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Create thick 3D text objects
-Description: Students use the `add 3D thick text [TEXT] font color width height thickness` block to create extruded text with depth for more prominent signs or logo effects. **Difference from flat text:** Adds depth/thickness parameter, creates solid 3D letters. **Uses:** Logos, prominent signs, 3D titles. _CSTA: 2-AP-16._
+Description: Students use the `add 3D thick text [TEXT] font color width height thickness diameter` block to create extruded text with depth for more prominent signs or logo effects.
 
 Dependencies:
 * T17.G7.01.02: Create flat 3D text objects
 
 
 
+
+
 ID: T17.G7.01.04
 Topic: T17 – 3D Worlds & Games
 Skill: Add cone shapes from vertex lists
-Description: Students use the `add cone [COLOR] vertex list height` block to create cone shapes from 2D base outlines, useful for roofs, towers, or projectile tips. **How it works:** Base defined by 2D vertex list, tip at specified height above base center. _CSTA: 3A-AP-13._
+Description: Students use the `add cone [COLOR] vertex list height` block to create cone shapes from 2D base outlines, useful for roofs, towers, or projectile tips.
 
 Dependencies:
 * T17.G7.01.03: Create thick 3D text objects
 
 
 
+
+
 ID: T17.G7.01.05
 Topic: T17 – 3D Worlds & Games
 Skill: Add tube shapes to the 3D scene
-Description: Students use the `add tube [COLOR] diameter-top diameter-bottom height arc sides thickness` block to create hollow tubes for pipes, tunnels, or architectural elements. **Parameters:** Top/bottom diameters (different = tapered), arc (full circle = 360°, half = 180°), thickness (wall thickness). _CSTA: 3A-AP-13._
+Description: Students use the `add tube [COLOR] diameter top bottom height arc closed section cap type sides thickness` block to create hollow tubes for pipes, tunnels, or architectural elements.
 
 Dependencies:
 * T17.G7.01.04: Add cone shapes from vertex lists
 
 
 
+
+
 ID: T17.G7.01.06
 Topic: T17 – 3D Worlds & Games
 Skill: Add rectangle tube shapes
-Description: Students use the `add rectangle tube [COLOR] size-X size-Y height thickness` block to create hollow rectangular tubes for ducts, channels, or frames. **Uses:** Rectangular pipes, architectural frames, ductwork. _CSTA: 3A-AP-13._
+Description: Students use the `add rectangle tube [COLOR] size X Y height cap type thickness sides` block to create hollow rectangular tubes for ducts, channels, or frames.
 
 Dependencies:
 * T17.G7.01.05: Add tube shapes to the 3D scene
 
 
 
+
+
 ID: T17.G7.01.07
 Topic: T17 – 3D Worlds & Games
 Skill: Add stair shapes to the 3D scene
-Description: Students use the `add stairs [COLOR] width depth height step-count` block to create staircase structures for platformers or architectural scenes. **Parameters:** Width (how wide), depth (how deep each step), height (total rise), step count (number of steps). _CSTA: 2-AP-16._
+Description: Students use the `add stairs [COLOR] width depth height count thickness type` block to create staircase structures for platformers or architectural scenes.
 
 Dependencies:
 * T17.G7.01.06: Add rectangle tube shapes
 
 
 
+
+
 ID: T17.G7.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Copy objects using grid matrix patterns
-Description: Students use the `copy by matrix count-x count-y count-z spacing-x spacing-y spacing-z` block to efficiently duplicate objects in 3D arrays without manual loops. **Uses:** Create forests (grid of trees), building blocks, fences, arrays of collectibles. **How it works:** Copies selected object in 3D grid pattern with specified spacing. _CSTA: 3A-AP-17._
+Description: Students use the `copy by matrix count in xyz spacing in xyz` block to efficiently duplicate objects in 3D arrays (like building blocks, trees in a forest) without manual loops.
 
 Dependencies:
 * T17.G7.01.07: Add stair shapes to the 3D scene
 
 
 
+
+
 ID: T17.G7.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Copy objects using mirror symmetry
-Description: Students use the `copy to mirror position [PLANE]` block to create symmetrical designs across planes (XY, XZ, YZ). **Uses:** Symmetrical buildings, vehicles (left/right mirror), decorative patterns. **How it works:** Creates mirrored copy across specified plane. _CSTA: 3A-AP-17._
+Description: Students use the `copy to mirror position [TYPE]` block to create symmetrical designs across planes, useful for buildings, vehicles, or decorative patterns.
 
 Dependencies:
 * T17.G7.02.01: Copy objects using grid matrix patterns
 
 
 
+
+
 ID: T17.G7.02.03
 Topic: T17 – 3D Worlds & Games
 Skill: Copy objects using rotational symmetry
-Description: Students use the `copy to rotated position around [AXIS] count degrees` block to duplicate objects in circular patterns (like petals, spokes, columns around a center). **Parameters:** Axis of rotation (X, Y, or Z), count (how many copies), degree step (angle between copies—360/count for even distribution). _CSTA: 3A-AP-17._
+Description: Students use the `copy to rotated position around [AXIS] axis count degree step` block to duplicate objects in circular patterns (like petals, spokes, columns around a center).
 
 Dependencies:
 * T17.G7.02.02: Copy objects using mirror symmetry
 
 
 
+
+
 ID: T17.G7.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Add distance constraints between physics bodies
-Description: Students use the `add distance constraint between [BODY1] and [BODY2] distance` block to keep two physics bodies at a fixed or maximum distance, creating ropes, chains, or pendulums. **How it works:** Constraint maintains specified distance between bodies as they move. **Uses:** Ropes, chains, swinging objects, tethers. _CSTA: 3A-AP-13._
+Description: Students use the `add distance constraint between bodies` block to keep two physics bodies at a fixed or maximum distance, creating ropes, chains, or pendulums.
 
 Dependencies:
 * T17.G7.02.03: Copy objects using rotational symmetry
 
 
 
+
+
 ID: T17.G7.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add hinge constraints for rotating joints
-Description: Students use the `add hinge constraint between [BODY1] and [BODY2] at point axis` block to create rotating joints like doors, gates, or mechanical arms that pivot around an axis. **Parameters:** Hinge point (where joint is), axis (which axis to rotate around). **Uses:** Doors, gates, swinging bridges, mechanical arms. _CSTA: 3A-AP-13._
+Description: Students use the `add hinge constraint between bodies at point axis` block to create rotating joints like doors, gates, or mechanical arms that pivot around an axis.
 
 Dependencies:
 * T17.G7.03.01: Add distance constraints between physics bodies
 
 
 
+
+
 ID: T17.G7.03.03
 Topic: T17 – 3D Worlds & Games
 Skill: Configure hinge constraint limits and motors
-Description: Students use the `set limits for hinge constraint min max` to control how far hinges can rotate (door that only opens 90°) and `set motor for hinge constraint speed` to add motorized rotation (automatic opening door). **Limits:** Prevent over-rotation. **Motors:** Create automatic movement. _CSTA: 3A-AP-13._
+Description: Students use the `set limits for hinge constraint` and `set speed for hinge constraint` blocks to control how far hinges can rotate and add motorized rotation.
 
 Dependencies:
 * T17.G7.03.02: Add hinge constraints for rotating joints
 
 
 
+
+
 ID: T17.G7.03.04
 Topic: T17 – 3D Worlds & Games
 Skill: Add fixed constraints for rigid connections
-Description: Students use the `add fixed constraint between [BODY1] and [BODY2]` block to weld physics bodies together rigidly, creating compound objects like connected train cars or attached weapons. **How it works:** Bodies locked together, move as single unit. **Uses:** Multi-part objects, attached weapons/tools. _CSTA: 3A-AP-13._
+Description: Students use the `add fixed constraint between bodies` block to weld physics bodies together, creating compound objects like connected train cars or attached weapons.
 
 Dependencies:
 * T17.G7.03.03: Configure hinge constraint limits and motors
 
 
 
+
+
 ID: T17.G7.03.05
 Topic: T17 – 3D Worlds & Games
 Skill: Remove physics constraints
-Description: Students use the `remove constraint named [NAME]` block to disconnect previously linked physics bodies, useful for detaching objects or breaking connections (breaking rope, opening lock, separating train cars). _CSTA: 2-AP-10._
+Description: Students use the `remove constraint named [JOINTNAME]` block to disconnect previously linked physics bodies, useful for detaching objects or breaking connections.
 
 Dependencies:
 * T17.G7.03.04: Add fixed constraints for rigid connections
 
 
 
+
+
 ID: T17.G7.04.01
 Topic: T17 – 3D Worlds & Games
-Skill: Move objects along their current direction
-Description: Students use the `move [DISTANCE] along current direction in [T] seconds` block to move objects forward based on their facing direction, useful for projectiles or AI movement that should move "forward" relative to rotation. _CSTA: 2-AP-13._
+Skill: Move objects along a direction
+Description: Students use the `move (DISTANCE) along current direction in (T) seconds` block to move objects forward based on their facing direction, useful for projectiles or AI movement.
 
 Dependencies:
 * T17.G7.03.05: Remove physics constraints
 
 
 
+
+
 ID: T17.G7.04.02
 Topic: T17 – 3D Worlds & Games
-Skill: Point objects toward a target position
-Description: Students use the `point to position xyz in [T] seconds` block to orient objects toward a target location, useful for NPCs looking at players or turrets aiming. **How it works:** Smoothly rotates object to face target position over specified time. _CSTA: 2-AP-13._
+Skill: Point objects toward a position
+Description: Students use the `point to position xyz in (T) seconds` block to orient objects toward a target location, useful for NPCs looking at players or turrets aiming.
 
 Dependencies:
-* T17.G7.04.01: Move objects along their current direction
+* T17.G7.04.01: Move objects along a direction
+
+
 
 
 
 ID: T17.G7.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Merge multiple meshes into one
-Description: Students use the `merge [OBJECT1] into [OBJECT2]` block to combine multiple 3D objects into a single mesh for optimization or to create complex shapes. **Benefits:** Better performance (one object instead of many), enable compound physics shapes. **Use case:** Merge building parts, combine decorative elements. _CSTA: 3A-AP-17._
+Description: Students use the `merge [OBJECTNAME1] into [OBJECTNAME2]` block to combine multiple 3D objects into a single mesh for optimization or to create complex shapes.
 
 Dependencies:
-* T17.G7.04.02: Point objects toward a target position
+* T17.G7.04.02: Point objects toward a position
+
+
 
 
 
 ID: T17.G7.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create compound physics bodies
-Description: Students use the `add physics bodies into compound [NAME]` block to attach compound physics bodies to merged meshes for complex collision shapes like vehicles (multiple collision shapes for different parts). _CSTA: 3A-AP-17._
+Description: Students use the `add physics bodies into compound [NAME]` block to attach compound physics bodies to merged meshes for complex collision shapes like vehicles.
 
 Dependencies:
 * T17.G7.05.01: Merge multiple meshes into one
 
 
 
+
+
 ID: T17.G7.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Use carve operations for boolean geometry
-Description: Students use the `carve [OBJECT1] with [OBJECT2]` block to subtract one mesh from another, creating windows, doorways, or hollowed objects (boolean subtraction). **How it works:** Object2's volume removed from Object1. **Uses:** Cut windows in walls, create tunnels, hollow out objects. _CSTA: 3A-AP-13._
+Description: Students use the `carve [STARTINGOBJECT] with [CARVINGOBJECT]` block to subtract one mesh from another, creating windows, doorways, or hollowed objects.
 
 Dependencies:
 * T17.G7.05.02: Create compound physics bodies
 
 
 
+
+
 ID: T17.G7.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Animate camera position transitions
-Description: Students use the `set camera distance v-angle h-angle target xyz in [T] seconds` block to choreograph smooth camera movements for cutscenes or transitions. **Parameters:** All camera parameters can be smoothly animated over time. **Uses:** Cinematic cutscenes, camera reveals, dramatic angles. _CSTA: 2-AP-16._
+Description: Students use the `set camera distance v-angle h-angle target xyz in (T) seconds` block to choreograph smooth camera movements for cutscenes or transitions.
 
 Dependencies:
 * T17.G7.05.03: Use carve operations for boolean geometry
 
 
 
+
+
 ID: T17.G7.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add trails to moving objects
-Description: Students use the `add trail color width segments` block to attach trail effects to moving objects, showing motion paths for projectiles, vehicles, or characters. **Parameters:** Color (trail color), width (trail thickness), segments (how many trail segments to track). _CSTA: 2-AP-16._
+Description: Students use the `add trail diffusion emission width segments` block to attach trail effects to moving objects, showing motion paths for projectiles, vehicles, or characters.
 
 Dependencies:
 * T17.G7.06.01: Animate camera position transitions
+
+
 
 
 
 ID: T17.G7.06.03
 Topic: T17 – 3D Worlds & Games
 Skill: Create custom particle emitters
-Description: Students use the `add particle emitter [CONFIG]` block to create custom particle systems with full control over appearance, movement, lifetime, and behavior. **Parameters:** Emission rate, particle lifetime, initial velocity, colors, sizes, textures. **Uses:** Custom effects beyond prebuilt options. _CSTA: 3A-AP-17._
+Description: Students use the `add particle emitter shape texture facing camera life min max capacity` block to create custom particle systems with full control over appearance.
 
 Dependencies:
 * T17.G7.06.02: Add trails to moving objects
 
 
 
+
+
+ID: T17.G7.06.04
+Topic: T17 – 3D Worlds & Games
+Skill: Configure box emitter shapes
+Description: Students use the `configure box emitter` block to spawn particles within a rectangular volume, creating effects like area-based rain, snow, or rectangular forcefields.
+
+Dependencies:
+* T17.G7.06.03: Create custom particle emitters
+
+
+
+
+ID: T17.G7.06.04.01
+Topic: T17 – 3D Worlds & Games
+Skill: Configure cone emitter shapes
+Description: Students use the `configure cone emitter` block to spawn particles in a cone pattern, creating directional effects like spotlights, jets, or sprays emanating from a point.
+
+Dependencies:
+* T17.G7.06.04: Configure box emitter shapes
+
+
+
+
+ID: T17.G7.06.04.02
+Topic: T17 – 3D Worlds & Games
+Skill: Configure sphere emitter shapes
+Description: Students use the `configure sphere emitter` block to spawn particles outward from a central sphere, creating radial effects like explosions, magic auras, or expanding shockwaves.
+
+Dependencies:
+* T17.G7.06.04.01: Configure cone emitter shapes
+
+
+
+
+
 ID: T17.G7.07
 Topic: T17 – 3D Worlds & Games
 Skill: Trace camera and object movement in complex scenes
-Description: Students analyze a multi-object 3D animation sequence with camera transitions, predicting the visual result at each keyframe by mentally tracing: (1) Object positions and rotations through time, (2) Camera position and target, (3) What appears in frame at each moment. They document predictions then run to verify. _CSTA: 3A-AP-23._
+Description: Students analyze a multi-object 3D animation sequence with camera transitions, predicting the visual result at each keyframe by mentally tracing object positions, rotations, and camera angles through time.
 
 Dependencies:
 * T17.G7.06.01: Animate camera position transitions
-* T17.G7.04.02: Point objects toward a target position
+* T17.G7.04.02: Point objects toward a position
+
+
 
 
 
 ID: T17.G7.08
 Topic: T17 – 3D Worlds & Games
 Skill: Design level progression with increasing difficulty
-Description: Students create a multi-level 3D game where each level introduces new challenges, obstacles, or mechanics progressively. They balance difficulty curves ensuring: (1) Early levels teach mechanics, (2) Mid levels challenge mastery, (3) Late levels require combining skills. They test with players and adjust pacing based on feedback. _CSTA: 3A-AP-18._
+Description: Students create a multi-level 3D game where each level introduces new challenges, obstacles, or mechanics. They balance difficulty curves and ensure players can learn mechanics progressively before facing harder challenges.
 
 Dependencies:
 * T17.G6.09: Build a physics-based puzzle or game
@@ -23129,63 +22685,73 @@ Dependencies:
 
 
 
-## GRADE 8 (24 skills - Professional techniques and integration)
+
 
 ID: T17.G8.01.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable car physics simulation
-Description: Students use the `enable car simulation mass restitution friction tire-friction suspension` block to enable car physics on a vehicle model. **Parameters:** Mass (vehicle weight), restitution (bounciness), friction (body friction), tire friction (grip), suspension (spring stiffness). _CSTA: 3A-AP-13._
+Description: Students use the `enable car simulation mass restitution friction tire friction suspension` block to enable car physics on a vehicle model.
 
 Dependencies:
-* T17.G7.06.03: Create custom particle emitters
+* T17.G7.06.04.02: Configure sphere emitter shapes
 * T08.G6.01: Use conditionals in physics simulations
+
+
 
 
 
 ID: T17.G8.01.02
 Topic: T17 – 3D Worlds & Games
 Skill: Control car engine and brakes
-Description: Students use the `set car engine force [FORCE] brake [LEVEL]` block to control acceleration and braking of physics-enabled vehicles. **Engine force:** Positive = accelerate, 0 = coast, negative = reverse. **Brake level:** 0 = no brakes, 1 = full brakes. _CSTA: 3A-AP-13._
+Description: Students use the `set car engine force brake level` block to control acceleration and braking of physics-enabled vehicles.
 
 Dependencies:
 * T17.G8.01.01: Enable car physics simulation
 
 
 
+
+
 ID: T17.G8.01.03
 Topic: T17 – 3D Worlds & Games
 Skill: Steer car to an angle
-Description: Students use the `steer car to angle [DEGREES]` block to control wheel steering angle for turning physics-enabled vehicles. **Angle:** 0 = straight, positive = turn right, negative = turn left. **Typical range:** -30 to 30 degrees. _CSTA: 3A-AP-13._
+Description: Students use the `steer car to angle` block to control wheel steering angle for turning physics-enabled vehicles.
 
 Dependencies:
 * T17.G8.01.02: Control car engine and brakes
 
 
 
+
+
 ID: T17.G8.02.01
 Topic: T17 – 3D Worlds & Games
 Skill: Set up multiple camera display regions
-Description: Students use the `set display region bottom-left width height border` block to create split-screen views or picture-in-picture displays for multiple camera feeds (two-player split-screen, rear-view mirrors, mini-map cameras). **Parameters:** Position (where region appears), size (region dimensions), border (frame visibility). _CSTA: 3A-AP-17._
+Description: Students use the `set display region bottom left width height border` block to create split-screen views or picture-in-picture displays for multiple camera feeds.
 
 Dependencies:
 * T17.G8.01.03: Steer car to an angle
 
 
 
+
+
 ID: T17.G8.02.02
 Topic: T17 – 3D Worlds & Games
 Skill: Add skybox textures to scenes
-Description: Students use the `set sky [SKYTYPE]` block to add skybox textures for 360-degree background environments (space, mountains, city skylines, fantasy worlds). **What skyboxes are:** Cube-mapped textures creating illusion of distant environment. **Available options:** Various preset skyboxes from library. _CSTA: 2-AP-15._
+Description: Students use the `set sky [SKYTYPE]` block to add skybox textures for 360-degree background environments (space, mountains, city skylines).
 
 Dependencies:
 * T17.G8.02.01: Set up multiple camera display regions
 
 
 
+
+
 ID: T17.G8.02.03
 Topic: T17 – 3D Worlds & Games
 Skill: Add post-processing pipeline effects
-Description: Students use the `add pipeline vignette bloom antialiasing sharpening contrast exposure` block to enhance visual quality with post-processing effects. **Effects:** Vignette (darkened edges), bloom (glow on bright areas), antialiasing (smooth edges), sharpening (detail enhancement), contrast (light/dark separation), exposure (overall brightness). _CSTA: 3A-AP-17._
+Description: Students use the `add pipeline vignette bloom antialiasing sharpening contrast exposure` block to enhance visual quality with effects like bloom, vignette, and color grading.
 
 Dependencies:
 * T17.G8.02.02: Add skybox textures to scenes
@@ -23193,100 +22759,120 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.03.01
 Topic: T17 – 3D Worlds & Games
 Skill: Export 3D models as GLB files
-Description: Students use the `export object [NAME] as GLB file` block to save created 3D geometry for use in other applications or sharing. **GLB format:** Standard 3D model format supported by many applications (Blender, Unity, web viewers). **Uses:** Share creations, use in other software, 3D printing preparation. _CSTA: 3A-AP-21._
+Description: Students use the `export object [NAME] as a GLB file` block to save created 3D geometry for use in other applications or sharing.
 
 Dependencies:
 * T17.G8.02.03: Add post-processing pipeline effects
 
 
 
+
+
 ID: T17.G8.03.02
 Topic: T17 – 3D Worlds & Games
 Skill: Export 3D models as STL files for 3D printing
-Description: Students use the `export object [NAME] as STL file` block to export 3D geometry suitable for 3D printing, bridging digital creation with physical fabrication. **STL format:** Standard for 3D printing. **Preparation needed:** Ensure mesh is closed (no holes), appropriate scale, manifold geometry. _CSTA: 3A-AP-21._
+Description: Students use the `export object [NAME] as an STL file` block to export 3D geometry suitable for 3D printing, bridging digital creation with physical fabrication.
 
 Dependencies:
 * T17.G8.03.01: Export 3D models as GLB files
 
 
 
+
+
 ID: T17.G8.04.01
 Topic: T17 – 3D Worlds & Games
 Skill: Enable AR world camera mode
-Description: Students use the `switch to AR world camera` block to enable augmented reality, placing 3D objects in real-world environments using the device camera. **How it works:** Device camera becomes background, 3D objects appear anchored in real world. **Uses:** AR games, educational AR visualizations, virtual furniture placement. _CSTA: 3B-AP-16._
+Description: Students use the `switch to AR world camera scale emulation mode` block to enable augmented reality, placing 3D objects in real-world environments using the device camera.
 
 Dependencies:
 * T17.G8.03.02: Export 3D models as STL files for 3D printing
 
 
 
+
+
 ID: T17.G8.04.02
 Topic: T17 – 3D Worlds & Games
 Skill: Enable AR face tracking mode
-Description: Students use the `switch to AR face camera` block to enable face tracking that can attach 3D objects to detected faces for filters or effects. **How it works:** Detects face landmarks, tracks face movement, anchors objects to face position. **Uses:** Face filters, virtual makeup, educational face anatomy. _CSTA: 3B-AP-16._
+Description: Students use the `switch to AR face camera show marker scale emulation mode` block to enable face tracking that can attach 3D objects to detected faces for filters or effects.
 
 Dependencies:
 * T17.G8.04.01: Enable AR world camera mode
 
 
 
+
+
 ID: T17.G8.04.03
 Topic: T17 – 3D Worlds & Games
 Skill: Enable AR image/logo tracking mode
-Description: Students use the `switch to AR image tracking` block to display 3D content when specific images or logos are detected by the camera. **How it works:** Upload target image, camera detects image, 3D content appears anchored to image. **Uses:** Interactive posters, educational cards, marketing AR. _CSTA: 3B-AP-16._
+Description: Students use the `switch to AR LOGO as [TYPE] camera` block to display 3D content when specific images or logos are detected by the camera.
 
 Dependencies:
 * T17.G8.04.02: Enable AR face tracking mode
 
 
 
+
+
 ID: T17.G8.05.01
 Topic: T17 – 3D Worlds & Games
 Skill: Build mirrors for reflective surfaces
-Description: Students use the `build mirror brightness using object [NAME]` block to create reflective surfaces showing other objects, useful for water, windows, or polished floors. **Parameters:** Brightness (reflection intensity), object (which object becomes mirror surface). _CSTA: 3A-AP-17._
+Description: Students use the `build mirror brightness using object named [NAME]` block to create reflective surfaces showing other objects, useful for water, windows, or polished floors.
 
 Dependencies:
 * T17.G8.04.03: Enable AR image/logo tracking mode
 
 
 
+
+
 ID: T17.G8.05.02
 Topic: T17 – 3D Worlds & Games
 Skill: Create geometry points in 3D space
-Description: Students use the `geometry: add point at xyz color size` block to define vertices in 3D space as the foundation for custom procedural geometry. **Uses:** Building custom meshes from scratch, visualizing data points, creating custom shapes. _CSTA: 3A-AP-13._
+Description: Students use the `geometry: add point at xyz color size` block to define vertices in 3D space as the foundation for custom geometry.
 
 Dependencies:
 * T17.G8.05.01: Build mirrors for reflective surfaces
 
 
 
+
+
 ID: T17.G8.05.03
 Topic: T17 – 3D Worlds & Games
 Skill: Create geometry lines between points
-Description: Students use the `geometry: add line between points` block to create line segments between defined points for wireframe or structural visualization. **Uses:** Visualize connections, create wireframe models, show relationships between data points. _CSTA: 3A-AP-13._
+Description: Students use the `geometry: add line between points color diameter` block to create line segments between defined points for wireframe or structural visualization.
 
 Dependencies:
 * T17.G8.05.02: Create geometry points in 3D space
 
 
 
+
+
 ID: T17.G8.05.04
 Topic: T17 – 3D Worlds & Games
 Skill: Create geometry triangles from points
-Description: Students use the `geometry: add triangle from points color` block to create triangular faces from three points, building custom meshes from vertices programmatically. **How it works:** Three points define triangle, normal direction determines which side is visible. **Uses:** Procedural mesh generation, terrain, custom models. _CSTA: 3A-AP-13._
+Description: Students use the `geometry: add triangle from points color` block to create triangular faces from three points, building custom meshes from vertices.
 
 Dependencies:
 * T17.G8.05.03: Create geometry lines between points
 
 
 
+
+
 ID: T17.G8.06.01
 Topic: T17 – 3D Worlds & Games
 Skill: Analyze and optimize 3D scene performance
-Description: Students profile a sluggish 3D project, identify bottlenecks (too many objects, excessive physics bodies, inefficient loops, too many dynamic objects, large textures, many lights with shadows), and refactor using: object pooling (reuse instead of create/delete), culling (remove off-screen objects), merged meshes, optimized textures, fewer lights. They measure before/after performance. _CSTA: 3B-AP-11._
+Description: Students profile a sluggish 3D project, identify bottlenecks (too many objects, physics bodies, or draw calls), and refactor using pooling, culling, or simplified meshes.
 
 Dependencies:
 * T17.G8.05.04: Create geometry triangles from points
@@ -23294,10 +22880,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.06.02
 Topic: T17 – 3D Worlds & Games
 Skill: Analyze trade-offs in 3D design decisions
-Description: Students review a completed 3D project and explain design choices with justifications: (1) Physics vs manual motion (realism vs control), (2) Camera placement (gameplay clarity vs cinematic feel), (3) Effect usage (visual appeal vs performance), (4) Lighting approach (realism vs performance). They cite pros and cons relative to project requirements and constraints. _CSTA: 3B-AP-22._
+Description: Students review a completed 3D project and explain design choices (physics vs manual motion, camera placement, effect usage), citing pros and cons relative to requirements.
 
 Dependencies:
 * T17.G8.06.01: Analyze and optimize 3D scene performance
@@ -23305,10 +22893,12 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.07
 Topic: T17 – 3D Worlds & Games
 Skill: Design and document a 3D game architecture
-Description: Students plan a complex 3D game by creating a comprehensive design document outlining: (1) Game mechanics (core gameplay loop, controls, win/lose conditions), (2) Level structure (how levels progress, difficulty curve), (3) Object hierarchy (what objects exist, how they interact), (4) Physics requirements (what uses physics, collision rules), (5) Visual effects (particles, lighting, post-processing), (6) Control schemes (keyboard/joystick mapping). They justify technical choices and identify potential challenges with mitigation strategies. _CSTA: 3B-AP-14._
+Description: Students plan a complex 3D game by creating a design document that outlines: game mechanics, level structure, object hierarchy, physics requirements, visual effects, and control schemes. They justify technical choices and identify potential challenges.
 
 Dependencies:
 * T17.G8.06.02: Analyze trade-offs in 3D design decisions
@@ -23316,26 +22906,32 @@ Dependencies:
 
 
 
+
+
 ID: T17.G8.08
 Topic: T17 – 3D Worlds & Games
 Skill: Integrate AI behaviors with 3D game mechanics
-Description: Students combine AI-driven behaviors (pathfinding, decision-making, state machines, targeting) with 3D physics and animation to create intelligent NPCs or enemies that respond dynamically to player actions in 3D space. **Requirements:** AI selects targets in 3D, navigates around obstacles, responds to player position, uses appropriate animations, interacts with physics (avoids falling, responds to collisions). _CSTA: 3B-AP-16._
+Description: Students combine AI-driven behaviors (pathfinding, decision-making, targeting) with 3D physics and animation to create intelligent NPCs or enemies that respond dynamically to player actions in 3D space.
 
 Dependencies:
 * T17.G8.01.03: Steer car to an angle
-* T17.G7.04.02: Point objects toward a target position
+* T17.G7.04.02: Point objects toward a position
+
+
 
 
 
 ID: T17.G8.09
 Topic: T17 – 3D Worlds & Games
 Skill: Build a complete 3D game with physics, effects, and UI
-Description: Students create a polished 3D game integrating multiple systems: (1) 3D scene with environment, lighting, and effects (fog, particles, shadows), (2) Physics-based gameplay (player physics, collisions, physics puzzles), (3) Player controls (responsive input, camera control), (4) Scoring/UI (HUD, menus, feedback), (5) Multiple levels or progressive difficulty, (6) Visual and audio feedback (effects, sounds). **This is the capstone skill demonstrating mastery of 3D game development.** _CSTA: 3B-AP-16._
+Description: Students create a polished 3D game integrating multiple systems: 3D scene with lighting and effects, physics-based gameplay, player controls, scoring/UI, multiple levels or progressive difficulty, and visual feedback. This capstone demonstrates mastery of 3D game development.
 
 Dependencies:
 * T17.G8.07: Design and document a 3D game architecture
 * T17.G8.04.01: Enable AR world camera mode
 * T17.G8.02.03: Add post-processing pipeline effects
+
+
 
 
 
@@ -23353,8 +22949,8 @@ None (foundational)
 
 ID: T18.GK.02
 Topic: T18 – Multiplayer Apps
-Skill: Explain why taking turns matters in games
-Description: Students view picture cards showing children playing board games, using playground swings, and sharing classroom materials. They sort pictures into "my turn" and "their turn" piles. They explain why taking turns is important (fairness, everyone gets a chance, prevents conflicts). They practice with physical activities—waiting for their turn and recognizing when another player's turn begins. They predict what happens when someone skips the turn order ("the game isn't fair anymore"). This introduces sequential actions in multiplayer contexts, preparing for later understanding of game state management.
+Skill: Understand taking turns in games
+Description: Students explain why taking turns is important when playing games with others. They identify examples of turn-taking in familiar activities (board games, playground equipment, classroom activities). They practice waiting for their turn and recognizing when it's another player's turn. They understand that turn-taking ensures fairness and prevents conflicts. This introduces the concept of sequential actions in multiplayer contexts, preparing for later understanding of game state management.
 
 Dependencies:
 * T18.GK.01: Recognize when friends play together
@@ -23425,8 +23021,8 @@ Dependencies:
 
 ID: T18.G1.04
 Topic: T18 – Multiplayer Apps
-Skill: Demonstrate sportsmanship when winning and losing
-Description: Students view picture scenarios showing different reactions to game outcomes (cheering for others, pouting, sharing, arguing). They sort pictures into "good sport" and "not a good sport" categories. They role-play congratulating winners and encouraging players who didn't win in classroom games. They explain which behaviors make games more fun (cheering for everyone, helping others, being patient, saying "good game") versus less fun (gloating, quitting, arguing, blaming). They predict whether players will want to play again based on how they were treated. This establishes sportsmanship concepts essential for positive multiplayer experiences online and offline.
+Skill: Understand winning and losing gracefully
+Description: Students practice responding positively to both winning and losing in group games. They congratulate winners, encourage players who didn't win, and recognize that everyone can have fun regardless of outcome. They identify behaviors that make games more fun (cheering, helping, being patient) versus less fun (gloating, quitting, arguing). They understand that how players treat each other affects whether people want to play together again. This establishes sportsmanship concepts essential for positive multiplayer experiences.
 
 Dependencies:
 * T18.G1.03: Recognize fair and unfair starting conditions
@@ -23474,8 +23070,8 @@ Dependencies:
 
 ID: T18.G2.04
 Topic: T18 – Multiplayer Apps
-Skill: Practice patience when teammates work at different speeds
-Description: Students observe picture scenarios of group activities where members work at different paces (one child finishes building blocks while another is still gathering pieces). They identify when faster members need to wait for others to catch up and explain why waiting helps the whole group succeed (everyone stays together, nobody gets lost, shared understanding). They practice waiting during classroom activities and identify productive strategies (help others, check your own work, plan next steps, encourage teammates). They predict what happens if fast players don't wait ("the team can't finish together"). This introduces synchronization concepts where multiplayer games must wait for all players to reach certain states before proceeding.
+Skill: Understand waiting for others in group activities
+Description: Students practice patience when different team members work at different speeds. They recognize that in group activities, faster members sometimes need to wait for others to catch up. They explain why waiting helps the whole group succeed (everyone stays together, nobody gets lost, shared understanding). They identify strategies for productive waiting (help others, check your own work, plan next steps). This introduces synchronization concepts where multiplayer games must wait for all players to reach certain states before proceeding.
 
 Dependencies:
 * T18.G2.01: Design simple cooperative challenges
@@ -23579,8 +23175,8 @@ Dependencies:
 
 ID: T18.G4.03
 Topic: T18 – Multiplayer Apps
-Skill: Explain how synchronization keeps multiplayer games consistent
-Description: Students define "synchronization" as keeping the game state the same for all players. They describe how when one player moves their character, that movement must be sent to other players so everyone sees it in (nearly) the same position. They categorize data types: what needs synchronization (player positions, scores, game events, shared object states) versus what stays local (sound effects, local UI feedback, input hints). They trace what happens when synchronization fails (players see different game states, unfair outcomes, confusion). They explain why synchronization is challenging (internet messages take time to travel, players may have different internet speeds, messages can arrive in different orders). This introduces synchronization concepts central to all networked multiplayer systems.
+Skill: Understand synchronization in multiplayer games
+Description: Students explain that "synchronization" means keeping the game state the same for all players. They describe how when one player moves their character, that movement must be sent to other players so everyone sees it. They identify what needs synchronization (player positions, scores, game events) versus what doesn't (sound effects, local UI feedback). They explain why synchronization is challenging (internet messages take time to travel, players may have different internet speeds). This introduces synchronization concepts central to all networked multiplayer systems.
 
 Dependencies:
 * T18.G4.02: Explain online multiplayer concepts
@@ -23617,33 +23213,11 @@ Dependencies:
 ID: T18.G5.01
 Topic: T18 – Multiplayer Apps
 Skill: Create and configure a multiplayer game room
-Description: Students use the "create game" block from the Multiplayer extension to create a game room as the host. They configure essential parameters: unique game name (so players can find it), server location (choosing closest server to minimize lag), password (for private games) or empty password (for public games), game capacity (maximum number of players), and world dimensions. They verify the game was created by checking the "connected to game" boolean reporter. They explain that they are now the host responsible for running the authoritative game state. This establishes the foundational skill for all networked multiplayer game development.
+Description: Students use CreatiCode multiplayer blocks to create a game room as the host. They configure essential parameters: unique game name (so players can find it), server location (choosing closest server to minimize lag), password (for private games) or empty password (for public games), game capacity (maximum number of players), and world dimensions. They verify the game was created by checking connection status. They understand they are now the host responsible for running the authoritative game state. This establishes the foundational skill for all networked multiplayer game development.
 
 Dependencies:
 * T18.G4.04: Explain host and client roles
 * T09.G3.01.01: Create a new variable with a descriptive name
-
-
-
-
-ID: T18.G5.01.01
-Topic: T18 – Multiplayer Apps
-Skill: Configure game room capacity and world dimensions
-Description: Students set appropriate capacity limits (2, 4, 8 players) based on game design requirements. They configure world width and height dimensions that match their game's playable area. They test what happens when capacity is reached (new players cannot join). They explain how capacity affects gameplay (too few limits interaction, too many causes chaos). They predict performance implications of larger world sizes and player counts.
-
-Dependencies:
-* T18.G5.01: Create and configure a multiplayer game room
-
-
-
-
-ID: T18.G5.01.02
-Topic: T18 – Multiplayer Apps
-Skill: Set player display name and role during game creation
-Description: Students configure their own display name (visible to other players) and role (custom string like "red team" or "seeker") when creating a game. They explain that display names help players identify each other while roles enable different gameplay behaviors. They test how role assignments appear in the player list. They design meaningful role names for their game concepts.
-
-Dependencies:
-* T18.G5.01: Create and configure a multiplayer game room
 
 
 
@@ -23688,23 +23262,11 @@ Dependencies:
 ID: T18.G5.05
 Topic: T18 – Multiplayer Apps
 Skill: Broadcast and receive multiplayer messages
-Description: Students use the "broadcast message with parameter mode" block to send custom messages between all players in a game room. They send messages with parameters to share game events (player scored, item collected, round started). They implement "when I receive multiplayer message" listeners to react when messages arrive. They test with two windows to verify messages sent from one window trigger listeners in the other. They distinguish between regular broadcasts (only within one instance) and multiplayer broadcasts (across all connected instances). This enables custom event synchronization beyond automatic position updates.
+Description: Students use multiplayer broadcast blocks to send custom messages between all players in a game room. They send messages with parameters to share game events (player scored, item collected, round started). They implement "when I receive multiplayer message" listeners to react when messages arrive. They test with two windows to verify messages sent from one window trigger listeners in the other. They distinguish between regular broadcasts (only within one instance) and multiplayer broadcasts (across all connected instances). This enables custom event synchronization beyond automatic position updates.
 
 Dependencies:
 * T18.G5.04: Implement synchronized sprite movement
 * T06.G4.01: Use broadcast to coordinate sprite actions
-
-
-
-
-ID: T18.G5.05.01
-Topic: T18 – Multiplayer Apps
-Skill: Choose broadcast mode for different scenarios
-Description: Students select the appropriate broadcast mode: "All Sprites" (message received by all sprites including replicates on all players' browsers) versus "Exclude Replicate" (only received by original sprites, not replicate sprites that mirror remote players). They explain when each mode is appropriate: "All Sprites" for global events affecting everyone, "Exclude Replicate" for owner-only actions. They test both modes and observe the difference in which sprites respond.
-
-Dependencies:
-* T18.G5.05: Broadcast and receive multiplayer messages
-* T18.G6.01: Trace how code runs on original versus replicate sprites
 
 
 
@@ -23785,39 +23347,15 @@ Dependencies:
 
 
 
-ID: T18.G6.03.01
-Topic: T18 – Multiplayer Apps
-Skill: Implement synchronized collision events with touch broadcasts
-Description: Students use the "when touching sprite will trigger message" block to broadcast collision events to all players. They configure what happens when sprites collide (stop movement, trigger message with parameter). They implement collision-based game mechanics that work consistently across all clients (scoring when ball enters goal, damage when player touches hazard, collection when player touches item). They test collision events with multiple windows to verify all clients respond to the same collisions.
-
-Dependencies:
-* T18.G6.03: Choose appropriate collision shapes for multiplayer sprites
-* T18.G5.05: Broadcast and receive multiplayer messages
-
-
-
-
 
 ID: T18.G6.04
 Topic: T18 – Multiplayer Apps
 Skill: Manage game rooms and server locations
-Description: Students explain how CreatiCode game rooms exist on servers in different geographic locations (US-East, US-West, Europe, Asia). They understand that all players must connect to the same server to play together and that server location affects lag (closer servers = lower lag). They choose appropriate server locations based on where players are located. They use "list multiplayer games in server in table" to see active games and filter by server. They understand that game rooms are temporary (exist while players are connected) versus permanent (game doesn't save after all players leave). This enables informed decisions about server selection and room management.
+Description: Students explain how CreatiCode game rooms exist on servers in different geographic locations (US-East, US-West, Europe, Asia). They understand that all players must connect to the same server to play together and that server location affects lag (closer servers = lower lag). They choose appropriate server locations based on where players are located. They use "list multiplayer games on server" to see active games and filter by server. They understand that game rooms are temporary (exist while players are connected) versus permanent (game doesn't save after all players leave). This enables informed decisions about server selection and room management.
 
 Dependencies:
 * T18.G5.01: Create and configure a multiplayer game room
 * T18.G5.02: Join an existing multiplayer game
-
-
-
-
-ID: T18.G6.04.01
-Topic: T18 – Multiplayer Apps
-Skill: Build a game browser using the game list table
-Description: Students use the "list multiplayer games in server in table" block to fetch available games into a table variable. They display game information from the table (Host Name, Game Name, User Count columns) in a visual game browser. They allow players to select a game from the list and automatically fill in join parameters. They refresh the list periodically to show newly created games. They filter or sort games to help players find appropriate matches.
-
-Dependencies:
-* T18.G6.04: Manage game rooms and server locations
-* T10.G5.01: Understand table structure (rows, columns, cells)
 
 
 
@@ -23900,18 +23438,6 @@ Dependencies:
 
 
 
-ID: T18.G6.10.01
-Topic: T18 – Multiplayer Apps
-Skill: Use reset game world to restart rounds
-Description: Students use the "reset game world" block to clean up all game objects and restart a new round within the same game room. They implement round-based gameplay where scores persist but positions and objects reset. They coordinate resets so all players experience the new round simultaneously. They handle edge cases (players joining during reset, ensuring all clients receive reset). They design clear round transitions with countdowns or announcements.
-
-Dependencies:
-* T18.G6.10: Handle game capacity and full game scenarios
-* T18.G5.03: Register sprites with the multiplayer system
-
-
-
-
 
 ID: T18.G6.11
 Topic: T18 – Multiplayer Apps
@@ -23972,28 +23498,6 @@ Description: Students systematically troubleshoot common multiplayer problems: s
 Dependencies:
 * T18.G5.06: Test multiplayer games with multiple windows
 * T12.G6.01: Trace complex code with multiple variables
-
-
-
-
-ID: T18.G6.15.01
-Topic: T18 – Multiplayer Apps
-Skill: Debug sprite registration and visibility issues
-Description: Students diagnose why sprites don't appear on other players' screens. They verify sprites are registered with "add sprite to game" block before expecting visibility. They check that registration happens after successful connection. They trace the "when added to game" event to confirm it fires on all clients. They test with print statements showing registration success on both host and client windows.
-
-Dependencies:
-* T18.G6.15: Debug common multiplayer synchronization issues
-
-
-
-
-ID: T18.G6.15.02
-Topic: T18 – Multiplayer Apps
-Skill: Debug movement synchronization issues
-Description: Students diagnose why movement doesn't appear on other players' screens. They verify they're using synchronized movement blocks (not regular movement blocks). They check that sprites are registered as Dynamic (not Static) for moving objects. They trace position values on multiple windows to identify desynchronization points. They test latency effects by moving sprites and observing delay on other clients.
-
-Dependencies:
-* T18.G6.15: Debug common multiplayer synchronization issues
 
 
 
@@ -24138,28 +23642,6 @@ Description: Students design multiplayer puzzles or challenges where players mus
 Dependencies:
 * T18.G6.17: Build a complete cooperative multiplayer game
 * T18.G6.08: Create shared world objects synchronized for all players
-
-
-
-
-ID: T18.G7.08.01
-Topic: T18 – Multiplayer Apps
-Skill: Design simultaneous action requirements
-Description: Students implement mechanics requiring players to act at the same time (both stand on pressure plates, both click within a time window, synchronized movements). They use broadcasts to signal readiness and detect when all required players have acted. They handle timing tolerance (how close in time is "simultaneous"). They provide visual feedback showing which players have completed their part and who is still needed.
-
-Dependencies:
-* T18.G7.08: Implement cooperative puzzle mechanics
-
-
-
-
-ID: T18.G7.08.02
-Topic: T18 – Multiplayer Apps
-Skill: Implement player-to-player item passing
-Description: Students create mechanics where players can transfer items, resources, or abilities to each other. They implement item ownership tracking (who currently has the key). They broadcast transfer events so all clients update ownership displays. They handle edge cases (transferring to disconnected player, transferring non-existent items). They design UI that clearly shows who has what items.
-
-Dependencies:
-* T18.G7.08: Implement cooperative puzzle mechanics
 
 
 
@@ -24321,60 +23803,11 @@ Dependencies:
 
 
 
-ID: T18.G8.11
-Topic: T18 – Multiplayer Apps
-Skill: Implement state reconciliation after network interruptions
-Description: Students design systems to resynchronize game state when a player's connection becomes unstable. They implement full state snapshots that can be sent to rejoining players. They detect when local state diverges from authoritative state (using checksums or version numbers). They trigger and handle state correction messages. They test by simulating network instability and verifying state converges correctly. This addresses real-world networking challenges in production multiplayer systems.
-
-Dependencies:
-* T18.G8.03: Implement reconnection handling
-* T18.G8.04: Debug message delivery timing issues
-
-
-
-
-ID: T18.G8.12
-Topic: T18 – Multiplayer Apps
-Skill: Design multiplayer games for AI era collaboration
-Description: Students design multiplayer experiences where AI assistants can participate alongside human players (AI-controlled teammates, AI opponents that adapt, AI coaches providing guidance). They implement clear interfaces between human input, AI decisions, and game state updates. They consider how AI can fill empty player slots or provide practice opponents. They explore human-AI collaborative puzzle solving where each contributes different strengths. This prepares for the future of gaming where human and AI collaboration becomes standard.
-
-Dependencies:
-* T18.G8.01: Implement team assignment and matchmaking systems
-* T18.G8.10: Compare peer-to-peer versus client-server architectures
-
-
-
-
-ID: T18.G8.13
-Topic: T18 – Multiplayer Apps
-Skill: Analyze and mitigate common multiplayer security vulnerabilities
-Description: Students identify security risks in multiplayer games: message spoofing (pretending to be another player), replay attacks (resending valid messages), data injection (sending malformed parameters), and denial of service (flooding with messages). They implement mitigations: validate message sources, use sequence numbers to prevent replay, sanitize parameters, rate-limit messages per player. They test by attempting exploits on their own games and verifying defenses work. This builds security thinking essential for any networked application.
-
-Dependencies:
-* T18.G8.02: Implement host-authoritative validation to prevent cheating
-* T18.G8.09: Analyze data privacy in multiplayer contexts
-
-
-
-
-ID: T18.G8.14
-Topic: T18 – Multiplayer Apps
-Skill: Build a production-quality multiplayer game with all advanced features
-Description: Students design and implement a comprehensive multiplayer game integrating all Grade 8 skills: team matchmaking, host-authoritative validation, reconnection handling, optimized network traffic, comprehensive error handling, privacy protection, and documented architecture. They conduct thorough testing with multiple real players across different network conditions. They document known limitations and future improvements. They gather user feedback and create a final iteration. This capstone demonstrates professional-level multiplayer game development competency.
-
-Dependencies:
-* T18.G8.08: Implement comprehensive error handling
-* T18.G8.10: Compare peer-to-peer versus client-server architectures
-* T18.G8.11: Implement state reconciliation after network interruptions
-
-
-
-
 
 ID: T19.GK.01
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Picture pattern detective
-Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) shown as picture cards and tap/circle the row that follows a clean repeat. The activity is entirely visual with drag-and-drop or tap-to-select interaction. No text reading required.
+Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) and identify which rows follow a clean repeat. They explain what makes a row "repeat" using everyday words.
 
 Dependencies:
 * T04.GK.01: Identify a simple repeating pattern
@@ -24388,7 +23821,7 @@ Dependencies:
 ID: T19.GK.02
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Order art steps with cards
-Description: Learners drag picture cards showing simple art steps (e.g., picture of picking red crayon → picture of drawing big circle → picture of adding yellow dots) to match a finished coloring page. All cards show clear action pictures, no text reading required.
+Description: Learners drag picture cards showing simple art steps like "pick red crayon," "draw big circle," "add yellow dots" to match a finished coloring page. Cards show clear action pictures, no text needed.
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -24433,8 +23866,8 @@ Dependencies:
 
 ID: T19.G1.01
 Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Match pattern rules to picture cards
-Description: Students view a short repeating design (e.g., two small stars then one big sun) and match it to the picture card that shows the rule (e.g., card showing 'small-small-big'). They do NOT need to write or verbally describe—they select from visual options.
+Skill: Describe the art rule in words
+Description: Students view a short repeating design (e.g., two small stars then one big sun) and describe it in everyday language ("two tiny, one big").
 
 Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
@@ -24569,8 +24002,8 @@ Dependencies:
 
 ID: T19.G3.02
 Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Compare Pen blocks and Looks draw blocks
-Description: Students classify example projects as using either Pen blocks (trails during movement) or Looks draw blocks (shapes at sprite position). Given side-by-side examples, they identify which drawing system each project uses and explain that Pen draws trails while Looks blocks draw shapes directly. They understand that stamps don't exist in CreatiCode—each shape must be drawn fresh.
+Skill: Distinguish CreatiCode's two drawing systems
+Description: Students identify and compare CreatiCode's two drawing methods: (1) Looks blocks (draw rectangle/oval/line on costume in vector mode) and (2) Pen blocks (pen up/down to draw trails as sprite moves). Given example projects, they classify which drawing system is used and explain why stamps don't exist—each shape must be drawn fresh using these blocks.
 
 Dependencies:
 * T19.G3.01: Translate art recipe cards into blocks
@@ -24644,17 +24077,6 @@ Dependencies:
 
 
 
-
-
-
-
-ID: T19.G3.06.01
-Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Clear the canvas with erase all
-Description: Students use the "erase all" block to clear all pen trails before starting a new drawing. They understand that erase all removes trails but doesn't affect sprites. They practice the pattern: erase all → set pen properties → pen down → draw.
-
-Dependencies:
-* T19.G3.06: Set pen size to control trail width
 
 
 
@@ -25125,18 +24547,6 @@ ID: T19.G5.13
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Create video-sensing art with motion detection
 Description: Students use the video sensing blocks to detect motion from the camera and map it to drawing actions. They use "video motion on sprite" to trigger drawing when movement is detected, or "video direction" to control drawing direction. They create interactive art that responds to the viewer's physical movements in real-time.
-
-Dependencies:
-* T19.G5.04: Make art respond to mouse position
-* T06.G3.03: Use mouse position in scripts
-
-
-
-
-ID: T19.G5.14
-Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Create sound-reactive art with microphone input
-Description: Students use the "loudness" sensing block to detect sound levels from the microphone and map them to drawing parameters. They create art where louder sounds create bigger shapes, brighter colors, or faster movement. They understand that loudness returns a value from 0-100 that can drive visual changes.
 
 Dependencies:
 * T19.G5.04: Make art respond to mouse position

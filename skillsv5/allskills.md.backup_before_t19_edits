@@ -24648,17 +24648,6 @@ Dependencies:
 
 
 
-ID: T19.G3.06.01
-Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Clear the canvas with erase all
-Description: Students use the "erase all" block to clear all pen trails before starting a new drawing. They understand that erase all removes trails but doesn't affect sprites. They practice the pattern: erase all → set pen properties → pen down → draw.
-
-Dependencies:
-* T19.G3.06: Set pen size to control trail width
-
-
-
-
 ID: T19.G3.07
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Draw rectangles at sprite position
@@ -25125,18 +25114,6 @@ ID: T19.G5.13
 Topic: T19 – Algorithmic Art & Creative Coding
 Skill: Create video-sensing art with motion detection
 Description: Students use the video sensing blocks to detect motion from the camera and map it to drawing actions. They use "video motion on sprite" to trigger drawing when movement is detected, or "video direction" to control drawing direction. They create interactive art that responds to the viewer's physical movements in real-time.
-
-Dependencies:
-* T19.G5.04: Make art respond to mouse position
-* T06.G3.03: Use mouse position in scripts
-
-
-
-
-ID: T19.G5.14
-Topic: T19 – Algorithmic Art & Creative Coding
-Skill: Create sound-reactive art with microphone input
-Description: Students use the "loudness" sensing block to detect sound levels from the microphone and map them to drawing parameters. They create art where louder sounds create bigger shapes, brighter colors, or faster movement. They understand that loudness returns a value from 0-100 that can drive visual changes.
 
 Dependencies:
 * T19.G5.04: Make art respond to mouse position
