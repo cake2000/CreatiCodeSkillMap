@@ -107,7 +107,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 18) continue;
+      if ( iteration == 0 && i < 23) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -121,7 +121,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
 - skillsv5/allskills.md for all current skills
-- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks, microbit extension for hardware related skills),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
 
 ## Step 2: For topic ${topic.code} only, fix these issues
 
@@ -160,7 +160,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 
 ## Step 4: Output a summary of changes made. You must say something.
 
-Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now.`;
+Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now. Again, you MUST make some improvements.`;
 
       let success = false;
       let retryCount = 0;

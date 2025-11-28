@@ -32117,37 +32117,10 @@ Dependencies:
 
 
 
-# T24 - Data Representation (Phase 7 Optimized - November 2025)
-# Applied Phase 7 topic-focused optimizations:
-# MAJOR CHANGES IN PHASE 7:
-# 1. Enhanced K-2 Skills with Visual Scenarios:
-#    - Added **Student task:** and **Visual scenario:** format to all K-2 skills
-#    - K-2 skills now specify picture cards, drag-drop, and auto-grading details
-# 2. Added G2→G3 Bridge Skill:
-#    - T24.G3.00: Arrange given data blocks to match a picture table (critical bridge)
-#    - Smooths transition from picture-based to code-based data representation
-# 3. Improved Active Verbs:
-#    - Changed "Understand" to specific verbs: Trace, Predict, Debug, Explain
-#    - All skills now use measurable action verbs
-# 4. Fixed X-2 Rule Dependencies:
-#    - Verified all intra-topic dependencies follow grade X, X-1, or X-2 rule
-#    - Preserved cross-topic dependencies unchanged
-# 5. Added Advanced Skills for AI-Era Data Challenges:
-#    - T24.G7.07: Design data pipelines with transformation stages
-#    - T24.G8.06: Implement real-time data buffering for streaming AI inputs
-#    - T24.G8.07: Design data versioning systems for ML model training
-# 6. Consolidated Redundant Skills:
-#    - Merged overlapping list/table operations where appropriate
-#    - Clarified distinction between local storage vs cloud storage
-# 7. Enhanced Grade 8 ML Data Integration:
-#    - Expanded neural network training data skills
-#    - Added semantic database and vector embedding skills
-# Total: ~150 skills (added 8 new skills for progression and AI-era depth)
-
 ID: T24.GK.01
 Topic: T24 – Data Representation
-Skill: Sort items into pictures, words, and numerals
-Description: **Student task:** Look at 9 cards showing pictures (drawings), words (labels), and numerals (number symbols). Drag each card into the correct bin: Pictures, Words, or Numbers. **Visual scenario:** Cards show: apple drawing, "apple" text, "3", cat drawing, "dog" text, "7", tree drawing, "ball" text, "5". Three bins labeled with icons. **Learning goal:** Recognize that data appears in multiple forms. _Implementation note: Drag-drop sorting; audio reads labels on hover. Auto-graded by correct bin placement. CSTA: DA-01._
+Skill: Identify pictures, words, and numerals as data forms
+Description: Using picture cards, students sort items into three categories: pictures (drawings of objects), words (written labels), and numerals (number symbols). They point to each and say what information it shows, building awareness that data appears in multiple forms.
 
 Dependencies: None
 
@@ -32157,10 +32130,10 @@ Dependencies: None
 ID: T24.GK.02
 Topic: T24 – Data Representation
 Skill: Represent quantities with symbols
-Description: **Student task:** Count the items in a picture (1-5 objects). Then drag the matching number of symbols (dots, tally marks, or stickers) onto a card. **Visual scenario:** Picture shows 4 apples. Students drag 4 dot symbols onto an empty card. **Learning goal:** Symbols encode counts—same quantity, different representation. _Implementation note: Drag-drop with count validation. Auto-graded by correct symbol count. CSTA: DA-01._
+Description: Students count a small set of items (1-5) and choose a symbol (tally marks, dots, stickers) to represent the quantity. They place the matching number of symbols on a card, reinforcing that symbols encode counts.
 
 Dependencies:
-* T24.GK.01: Sort items into pictures, words, and numerals
+* T24.GK.01: Identify pictures, words, and numerals as data forms
 
 
 
@@ -32168,32 +32141,19 @@ Dependencies:
 ID: T24.GK.03
 Topic: T24 – Data Representation
 Skill: Create a two-symbol legend
-Description: **Student task:** Given two categories (sunny/rainy), pick a symbol for each and drag them to create a legend card ("☀ = sunny", "🌧 = rainy"). Then label 4 weather pictures using your symbols. **Visual scenario:** Legend template with empty boxes; weather pictures to label. **Learning goal:** Legends map symbols to meanings. _Implementation note: Symbol selection + drag-to-label. Auto-graded by correct symbol-meaning pairs. CSTA: DA-01._
+Description: Given two categories (happy/sad, hot/cold), students select or draw symbols to represent each category and use them to label pictures. They create a simple legend card showing "☀ = hot" and "❄ = cold" style mappings, preparing for chart legends.
 
 Dependencies:
 * T24.GK.02: Represent quantities with symbols
-
-
 
 
 ID: T24.GK.04
 Topic: T24 – Data Representation
 Skill: Sort picture cards into labeled bins
-Description: **Student task:** Look at 8 animal picture cards. Drag each card into the correct bin: "Farm Animals" or "Zoo Animals". **Visual scenario:** Cards show: cow, lion, chicken, elephant, pig, giraffe, sheep, zebra. Two bins with farm/zoo icons. **Learning goal:** Classification organizes data into categories. _Implementation note: Drag-drop sorting with audio feedback. Auto-graded by correct placement. CSTA: DA-01._
+Description: Using picture cards of animals and two labeled bins (Farm/Zoo), students physically sort cards into the correct categories. This introduces data classification as a hands-on activity.
 
 Dependencies:
-* T24.GK.01: Sort items into pictures, words, and numerals
-
-
-
-
-ID: T24.GK.05
-Topic: T24 – Data Representation
-Skill: Predict which symbol represents more
-Description: **Student task:** Look at two cards showing the same quantity in different symbols (4 dots vs 4 tally marks). Tap YES if they show the same amount, or NO if different. **Visual scenario:** Side-by-side cards with different symbol types but same count. **Learning goal:** Same data, different representations—quantity stays the same. _Implementation note: Binary choice with audio explanation. Auto-graded by selection. CSTA: DA-01._
-
-Dependencies:
-* T24.GK.02: Represent quantities with symbols
+* T24.GK.01: Identify pictures, words, and numerals as data forms
 
 
 
@@ -32201,7 +32161,7 @@ Dependencies:
 ID: T24.G1.01
 Topic: T24 – Data Representation
 Skill: Record events using tally marks
-Description: **Student task:** Watch a short animation showing fish swimming by. Make a tally mark each time a fish appears (tap to add mark). After the animation, tap the numeral that matches your tally count. **Visual scenario:** Animation area shows 4 fish swimming past one by one. Tally area below. Number choices: 2, 3, 4, 5. **Correct answer:** 4. **Learning goal:** Record events as they happen with symbols. _Implementation note: Tap-to-tally + number selection. Auto-graded by count match. CSTA: DA-01._
+Description: Students watch a short animation (e.g., fish swimming by) and make a tally mark each time the event occurs. After counting, they convert the tally marks to numerals (e.g., |||| = 4), practicing data recording.
 
 Dependencies:
 * T24.GK.02: Represent quantities with symbols
@@ -32212,7 +32172,7 @@ Dependencies:
 ID: T24.G1.02
 Topic: T24 – Data Representation
 Skill: Organize data into picture rows and columns
-Description: **Student task:** Arrange 6 fruit picture cards into a 2×3 table where rows are fruit types (apple, banana) and columns count how many of each. **Visual scenario:** Blank 2-row table; cards to drag: 3 apples, 3 bananas. Row labels visible. **Learning goal:** Tables organize data into rows (categories) and columns (attributes). _Implementation note: Drag-drop into table cells. Auto-graded by correct placement. CSTA: DA-01._
+Description: Learners arrange picture cards into a simple 2×2 or 3×2 table layout where rows represent categories (apple, banana) and columns show counts. They physically place pictures to see how tables organize information.
 
 Dependencies:
 * T24.G1.01: Record events using tally marks
@@ -32223,18 +32183,16 @@ Dependencies:
 ID: T24.G1.03
 Topic: T24 – Data Representation
 Skill: Express the same fact in words and numbers
-Description: **Student task:** Match cards showing the same quantity in three forms: picture (5 stars), numeral ("5"), and words ("five"). Connect all three that represent the same amount. **Visual scenario:** 3 sets of cards scattered; students draw lines to match. **Learning goal:** Same information can be represented multiple ways. _Implementation note: Line-drawing to connect matches. Auto-graded by correct pairings. CSTA: DA-01._
+Description: Students practice representing the same information multiple ways: saying "There are five apples," writing the numeral "5," and writing the word "five." They match cards showing these three representations of the same quantity.
 
 Dependencies:
 * T24.G1.01: Record events using tally marks
 
 
-
-
 ID: T24.G1.04
 Topic: T24 – Data Representation
 Skill: Compare two simple data displays
-Description: **Student task:** Look at the same data shown two ways: (A) tally marks, (B) picture table. Tap which display answers "How many red?" faster. **Visual scenario:** Side-by-side displays showing color counts. **Learning goal:** Different representations answer different questions better. _Implementation note: Binary choice with explanation. Auto-graded by selection. CSTA: DA-01._
+Description: Using picture cards showing the same data in two formats (tally marks vs. picture table), students identify which display answers "how many red?" more easily. This builds judgment about representation choices.
 
 Dependencies:
 * T24.G1.02: Organize data into picture rows and columns
@@ -32243,21 +32201,10 @@ Dependencies:
 
 
 
-ID: T24.G1.05
-Topic: T24 – Data Representation
-Skill: Trace data from picture to table
-Description: **Student task:** Look at a picture showing 3 red balls and 2 blue balls. Then look at a table with "Color" and "Count" columns. Tap the cell that shows "3" belongs to. **Visual scenario:** Picture above, partially filled table below. Students identify where "3" goes. **Correct answer:** The "Red" row, "Count" column. **Learning goal:** Trace how visual data becomes table data. _Implementation note: Tap-to-select cell. Auto-graded by correct cell selection. CSTA: DA-01._
-
-Dependencies:
-* T24.G1.02: Organize data into picture rows and columns
-
-
-
-
 ID: T24.G2.01
 Topic: T24 – Data Representation
 Skill: Add meaningful labels to a category chart
-Description: **Student task:** Look at a picture bar chart with labels "Column A" and "Column B". The chart shows apple and banana counts. Replace the generic labels with "Apples" and "Bananas" by dragging the correct label to each column. **Visual scenario:** Bar chart with placeholder labels; label cards to drag. **Learning goal:** Clear labels help others understand data. _Implementation note: Drag-drop label replacement. Auto-graded by correct labels. CSTA: DA-02._
+Description: Students study a picture-based bar chart with generic labels ("Column A", "Column B") and replace them with descriptive names (e.g., "Bananas", "Apples"). They explain why clear labels help others understand data.
 
 Dependencies:
 * T24.G1.02: Organize data into picture rows and columns
@@ -32268,7 +32215,7 @@ Dependencies:
 ID: T24.G2.02
 Topic: T24 – Data Representation
 Skill: Convert between timeline, table, and sentence formats
-Description: **Student task:** View a three-step story (wake up → eat breakfast → go to school). Represent it three ways: (1) arrange timeline cards in order, (2) fill a two-column table with Time + Action, (3) tap the correct sentence version. **Visual scenario:** Three work areas for each format; same story data in each. **Learning goal:** Same information translates across formats. _Implementation note: Multi-format conversion task. Auto-graded by all three correct. CSTA: DA-02._
+Description: Learners view a three-step story (wake up → eat breakfast → go to school) and represent it as (1) a timeline drawing, (2) a two-column table with time + action, and (3) a narrative sentence. They practice translating the same information across formats.
 
 Dependencies:
 * T01.G1.01: Put pictures in order to plant a seed
@@ -32280,7 +32227,7 @@ Dependencies:
 ID: T24.G2.03
 Topic: T24 – Data Representation
 Skill: Select the best representation for a question
-Description: **Student task:** Match each question to the best representation type. Questions: "How many of each color?" "What happened first?" "Who lives where?" Answers: table, timeline, map. **Visual scenario:** Question cards on left, representation icons on right. Draw lines to match. **Learning goal:** Different questions need different representations. _Implementation note: Line-drawing to match. Auto-graded by correct pairings. CSTA: DA-02._
+Description: Students match questions ("How many of each color?" → table; "What happened first?" → timeline) to the most useful representation type. They justify their choices, building judgment about which tools answer which questions.
 
 Dependencies:
 * T24.G1.04: Compare two simple data displays
@@ -32292,18 +32239,16 @@ Dependencies:
 ID: T24.G2.04
 Topic: T24 – Data Representation
 Skill: Create records with two attributes
-Description: **Student task:** Create flashcards combining two pieces of information. Given "Lion" and "Savanna", drag both to create a record card "Lion - Savanna". Create 4 animal-habitat pairs. **Visual scenario:** Animal cards and habitat cards; record card templates. **Learning goal:** Records pair multiple attributes about one item. _Implementation note: Drag-combine to create pairs. Auto-graded by correct pairings. CSTA: DA-02._
+Description: Learners create flashcards combining two pieces of information (animal + habitat, like "Lion - Savanna"). They understand that pairing attributes creates richer data records that answer multiple questions.
 
 Dependencies:
 * T24.G1.02: Organize data into picture rows and columns
 
 
-
-
 ID: T24.G2.05
 Topic: T24 – Data Representation
 Skill: Identify missing data in a picture chart
-Description: **Student task:** Look at a chart with some cells empty. Tap all the empty cells and explain what information is missing. **Visual scenario:** Pet count chart with 2 of 6 cells empty. Students tap empty cells. **Learning goal:** Missing data makes charts incomplete and less useful. _Implementation note: Tap-to-select empty cells. Auto-graded by finding all gaps. CSTA: DA-02._
+Description: Using picture cards showing an incomplete chart (some cells empty), students identify what information is missing and explain why gaps make the data less useful. This prepares for data quality concepts in later grades.
 
 Dependencies:
 * T24.G2.01: Add meaningful labels to a category chart
@@ -32312,37 +32257,13 @@ Dependencies:
 
 
 
-ID: T24.G2.06
-Topic: T24 – Data Representation
-Skill: Predict what happens when data format changes
-Description: **Student task:** Look at data shown as tally marks. If we convert it to a bar chart, predict what the chart will look like. Tap the correct bar chart option. **Visual scenario:** Tally marks showing Red:4, Blue:2, Green:3. Three bar chart options (one correct). **Learning goal:** Predict data transformation outcomes. _Implementation note: MCQ with visual options. Auto-graded by selection. CSTA: DA-02._
-
-Dependencies:
-* T24.G1.04: Compare two simple data displays
-* T24.G2.03: Select the best representation for a question
-
-
-
-
-ID: T24.G3.00
-Topic: T24 – Data Representation
-Skill: Arrange given blocks to match a picture table
-Description: **Bridge skill from picture-based to code-based:** Students see a picture table showing Name and Age columns with 3 rows of data. They arrange pre-made CreatiCode blocks (create table, add row) in the correct order to recreate the picture table digitally. This bridges G2 picture tables to G3 coding.
-
-Dependencies:
-* T24.G2.04: Create records with two attributes
-* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-
-
-
-
 ID: T24.G3.00.01.01
 Topic: T24 – Data Representation
 Skill: Create and name a variable in CreatiCode
-Description: Students use the 'Make a Variable' button in CreatiCode to create new variables. They practice choosing meaningful names (like 'score' not 'x') and explain why descriptive names help others understand the code. They create at least three variables with descriptive names.
+Description: Students use the 'Make a Variable' button in CreatiCode to create new variables. They practice choosing meaningful names (like 'score' not 'x') and understand that variables store one value at a time. They create at least three variables with descriptive names.
 
 Dependencies:
-* T24.G3.00: Arrange given blocks to match a picture table
+* T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 
 
 
@@ -32350,18 +32271,16 @@ Dependencies:
 ID: T24.G3.00.01.02
 Topic: T24 – Data Representation
 Skill: Assign values to variables using set blocks
-Description: Students use 'set [variable] to [value]' blocks to assign values to variables. They practice setting variables to numbers and text strings, tracing how 'set' replaces the previous value completely.
+Description: Students use 'set [variable] to [value]' blocks to assign values to variables. They practice setting variables to numbers, text strings, and observe that 'set' replaces the previous value completely.
 
 Dependencies:
 * T24.G3.00.01.01: Create and name a variable in CreatiCode
 
 
-
-
-ID: T24.G3.00.01.03
+ID: T24.G3.00.01.02.01
 Topic: T24 – Data Representation
 Skill: Modify variables using change blocks
-Description: Students use 'change [variable] by [amount]' blocks to increment or decrement numeric variables. They trace the difference between 'set' (replace value) vs 'change' (add to value) and predict outcomes in a counting script.
+Description: Students use 'change [variable] by [amount]' blocks to increment or decrement numeric variables. They compare 'set' (replace value) vs 'change' (add to value) and practice using both in a counting script.
 
 Dependencies:
 * T24.G3.00.01.02: Assign values to variables using set blocks
@@ -32369,13 +32288,13 @@ Dependencies:
 
 
 
-ID: T24.G3.00.01.04
+ID: T24.G3.00.01.03
 Topic: T24 – Data Representation
-Skill: Display and trace variable monitors on stage
-Description: Students check and uncheck variable checkboxes to show/hide variable monitors on stage. They trace how variable values update in real-time when scripts run, learning to visualize variable state during program execution.
+Skill: Display and observe variable monitors on stage
+Description: Students check and uncheck variable checkboxes to show/hide variable monitors on stage. They observe how variable values update in real-time when the variable changes, learning to visualize variable state during program execution.
 
 Dependencies:
-* T24.G3.00.01.03: Modify variables using change blocks
+* T24.G3.00.01.02.01: Modify variables using change blocks
 
 
 
@@ -32383,10 +32302,10 @@ Dependencies:
 ID: T24.G3.00.02.01
 Topic: T24 – Data Representation
 Skill: Create and name a list in CreatiCode
-Description: Students use the 'Make a List' button in CreatiCode to create new lists. They practice naming lists descriptively (like 'playerNames' not 'list1') and explain that lists store many values in order, unlike variables which store one.
+Description: Students use the 'Make a List' button in CreatiCode to create new lists. They practice naming lists descriptively (like 'playerNames' not 'list1') and understand that lists store many values in order, unlike variables which store one.
 
 Dependencies:
-* T24.G3.00.01.04: Display and trace variable monitors on stage
+* T24.G3.00.01.03: Display and observe variable monitors on stage
 
 
 
@@ -32394,7 +32313,7 @@ Dependencies:
 ID: T24.G3.00.02.02
 Topic: T24 – Data Representation
 Skill: Add items to the end of a list
-Description: Students use 'add [item] to [list]' blocks to append items to the end of a list. They practice adding multiple items and trace that each new item appears at the bottom of the list monitor.
+Description: Students use 'add [item] to [list]' blocks to append items to the end of a list. They practice adding multiple items and observe that each new item appears at the bottom of the list monitor.
 
 Dependencies:
 * T24.G3.00.02.01: Create and name a list in CreatiCode
@@ -32405,7 +32324,7 @@ Dependencies:
 ID: T24.G3.00.02.03
 Topic: T24 – Data Representation
 Skill: Display list monitors and read index numbers
-Description: Students check list checkboxes to show list monitors on stage. They trace that list monitors display items with index numbers (1, 2, 3...) and practice identifying which item is at which position.
+Description: Students check list checkboxes to show list monitors on stage. They observe that list monitors display items with index numbers (1, 2, 3...) and practice identifying which item is at which position.
 
 Dependencies:
 * T24.G3.00.02.02: Add items to the end of a list
@@ -32461,7 +32380,7 @@ Dependencies:
 ID: T24.G3.02.03
 Topic: T24 – Data Representation
 Skill: Store true/false states in boolean variables
-Description: Students create boolean variables (isGameOver, isPaused, hasKey) to track binary states. They practice setting variables to 'true' or 'false' and use them in if-blocks to control program flow based on state.
+Description: Students create boolean variables (isGameOver, isPaused, hasKey) to track binary states. They practice setting variables to 'true' or 'false' and using them in if-blocks to control program flow based on state.
 
 Dependencies:
 * T24.G3.02.02: Store text data in variables for names and messages
@@ -32499,7 +32418,7 @@ Skill: Convert data to consistent units
 Description: Students build a CreatiCode project that converts mixed time formats to a single unit. Users enter values in either minutes or seconds, and the program converts everything to seconds using variables and math operators.
 
 Dependencies:
-* T24.G3.04.01: Spot inconsistent units in data tables
+* T24.G3.04.01: Identify inconsistent units in data
 * T09.G3.02: Use a variable in a conditional (if block)
 
 
@@ -32520,7 +32439,7 @@ Dependencies:
 ID: T24.G3.06.01.01
 Topic: T24 – Data Representation
 Skill: Create an empty table with column names
-Description: Students use table creation blocks to make a new empty table and specify column names (Name, Age, Score). They explain that tables organize data into rows (records) and columns (fields), extending the concept from G2 picture tables.
+Description: Students use table creation blocks to make a new empty table and specify column names (Name, Age, Score). They understand that tables organize data into rows (records) and columns (fields), extending the concept from G2 picture tables.
 
 Dependencies:
 * T24.G3.02.03: Store true/false states in boolean variables
@@ -32532,7 +32451,7 @@ Dependencies:
 ID: T24.G3.06.01.02
 Topic: T24 – Data Representation
 Skill: Add rows of data to a table
-Description: Students use 'add row to table' blocks to insert rows with multiple values. They practice adding rows one at a time, ensuring each value aligns with its column, and trace how the table grows row by row in the table monitor.
+Description: Students use 'add row to table' blocks to insert rows with multiple values. They practice adding rows one at a time, ensuring each value aligns with its column, and observe how the table grows row by row in the table monitor.
 
 Dependencies:
 * T24.G3.06.01.01: Create an empty table with column names
@@ -32543,7 +32462,7 @@ Dependencies:
 ID: T24.G3.06.01.03
 Topic: T24 – Data Representation
 Skill: Display and read table monitors on stage
-Description: Students use 'show table [name]' blocks to display tables on stage. They trace how tables appear with labeled columns and numbered rows, and practice reading specific values from the visual display.
+Description: Students use 'show table [name]' blocks to display tables on stage. They observe how tables appear with labeled columns and numbered rows, and practice reading specific values from the visual display.
 
 Dependencies:
 * T24.G3.06.01.02: Add rows of data to a table
@@ -32554,7 +32473,7 @@ Dependencies:
 ID: T24.G3.06.02
 Topic: T24 – Data Representation
 Skill: Retrieve table values by row and column
-Description: Students use 'item at row [number] column [name] of table' blocks to retrieve specific cell values. They practice accessing individual cells like "item at row 2 column 'Name'" and display the retrieved values using 'say' blocks.
+Description: Students use 'item at row [number] column [name] of table' blocks to retrieve specific cell values. They practice accessing individual cells like "item at row 2 column 'Name'" and displaying the retrieved values using 'say' blocks.
 
 Dependencies:
 * T24.G3.06.01.03: Display and read table monitors on stage
@@ -32566,7 +32485,7 @@ Dependencies:
 ID: T24.G3.07.01
 Topic: T24 – Data Representation
 Skill: Delete items from lists by position
-Description: Students use 'delete item [index] of [list]' blocks to remove items at specific positions. They trace how deleting item 2 shifts all later items down (item 3 becomes item 2), and practice deleting first, last, and middle items.
+Description: Students use 'delete item [index] of [list]' blocks to remove items at specific positions. They observe how deleting item 2 shifts all later items down (item 3 becomes item 2), and practice deleting first, last, and middle items.
 
 Dependencies:
 * T24.G3.01.01: Build a list from scratch using add blocks
@@ -32577,7 +32496,7 @@ Dependencies:
 ID: T24.G3.07.02
 Topic: T24 – Data Representation
 Skill: Insert items at specific positions in lists
-Description: Students use 'insert [item] at [index] of [list]' blocks to add items at specific positions (not just the end). They trace how inserting at position 2 shifts existing item 2 to position 3, and practice inserting at various positions.
+Description: Students use 'insert [item] at [index] of [list]' blocks to add items at specific positions (not just the end). They observe how inserting at position 2 shifts existing item 2 to position 3, and practice inserting at various positions.
 
 Dependencies:
 * T24.G3.07.01: Delete items from lists by position
@@ -32599,12 +32518,10 @@ Dependencies:
 ID: T24.G3.07.04
 Topic: T24 – Data Representation
 Skill: Get list length and access items by index
-Description: Students use 'length of [list]' reporter blocks to count total items and 'item [index] of [list]' blocks to retrieve specific items by position. They trace that indices start at 1 (not 0) in CreatiCode.
+Description: Students use 'length of [list]' reporter blocks to count total items and 'item [index] of [list]' blocks to retrieve specific items by position. They understand that indices start at 1 (not 0) in CreatiCode.
 
 Dependencies:
 * T24.G3.07.03: Replace items in lists by position
-
-
 
 
 ID: T24.G3.07.05
@@ -32622,7 +32539,7 @@ Dependencies:
 ID: T24.G4.01
 Topic: T24 – Data Representation
 Skill: Design schema diagrams for simple apps
-Description: Students diagram an app's data needs (e.g., to-do list: task text, due date, done?) showing column names and types before coding. They identify what data their app needs, choose appropriate data types for each field, and document the plan on paper before implementing.
+Description: Students diagram an app's data needs (e.g., to-do list: task text, due date, done?) showing column names and types before coding. They identify what data their app needs, choose appropriate data types for each field, and document the plan on paper.
 
 Dependencies:
 * T24.G2.05: Identify missing data in a picture chart
@@ -32634,7 +32551,7 @@ Dependencies:
 ID: T24.G4.02
 Topic: T24 – Data Representation
 Skill: Convert values between decimal, fraction, and percentage formats
-Description: Students represent the same numerical fact in three formats: decimal (0.75), fraction (3/4), and percentage (75%). They use CreatiCode's math operators and variables to convert and display values in each format, tracing the mathematical relationships.
+Description: Students represent the same numerical fact in three formats: decimal (0.75), fraction (3/4), and percentage (75%). They use CreatiCode's math operators and variables to convert and display values in each format.
 
 Dependencies:
 * T24.G2.02: Convert between timeline, table, and sentence formats
@@ -32646,7 +32563,7 @@ Dependencies:
 ID: T24.G4.03
 Topic: T24 – Data Representation
 Skill: Compare dense versus sparse data representations
-Description: Students compare dense (storing all values including empty) versus sparse (storing only non-empty values) representations. Example: tic-tac-toe board as [X, O, empty, X, O, empty, empty, empty, X] vs [(1,X), (2,O), (4,X), (5,O), (9,X)]. They analyze which uses less storage and predict when each is appropriate.
+Description: Students compare dense (storing all values including empty) versus sparse (storing only non-empty values) representations. Example: tic-tac-toe board as [X, O, empty, X, O, empty, empty, empty, X] vs [(1,X), (2,O), (4,X), (5,O), (9,X)]. They analyze which uses less storage and when each is appropriate.
 
 Dependencies:
 * T24.G2.03: Select the best representation for a question
@@ -32658,7 +32575,7 @@ Dependencies:
 ID: T24.G4.04
 Topic: T24 – Data Representation
 Skill: Create data legends with special rules
-Description: Students create a legend table for a mini-map (color = terrain) with columns for Symbol and Meaning. They add notes documenting exceptions (e.g., "Purple = portal unless near volcano"), practicing how to document encoding rules clearly.
+Description: Students create a legend table for a mini-map (color = terrain) with columns for Symbol and Meaning. They add notes documenting exceptions (e.g., "Purple = portal unless near volcano"), practicing how to document encoding rules.
 
 Dependencies:
 * T24.G2.01: Add meaningful labels to a category chart
@@ -32675,17 +32592,6 @@ Description: Students examine a game scoreboard and identify which values are st
 Dependencies:
 * T24.G3.07.04: Get list length and access items by index
 * T24.G4.01: Design schema diagrams for simple apps
-
-
-
-
-ID: T24.G4.05.01
-Topic: T24 – Data Representation
-Skill: Trace when to store vs when to compute values
-Description: Students trace through scenarios deciding whether to store or compute: (1) player's current health (store—changes over time), (2) total inventory weight (compute—sum of item weights), (3) high score (store—persists across sessions). They explain tradeoffs for each decision.
-
-Dependencies:
-* T24.G4.05: Differentiate stored data from computed values
 
 
 
@@ -33743,30 +33649,6 @@ Dependencies:
 
 
 
-ID: T24.G7.07
-Topic: T24 – Data Representation
-Skill: Design data transformation pipelines on paper
-Description: Students design (on paper) a multi-step data transformation workflow: raw input → cleaned data → enriched data → final output. They diagram each stage showing: input format, transformation rules, output format. They identify what happens if any stage fails.
-
-Dependencies:
-* T24.G6.08.02: Group table rows by column values
-* T24.G7.01.04: Normalize a game database through all three normal forms
-
-
-
-
-ID: T24.G7.08
-Topic: T24 – Data Representation
-Skill: Implement data transformation with intermediate tables
-Description: Students implement their pipeline design using intermediate tables at each stage. They create scripts that: (1) read raw data into table1, (2) transform and write to table2, (3) enrich and write to table3. They add validation checks between stages.
-
-Dependencies:
-* T24.G7.07: Design data transformation pipelines on paper
-* T24.G6.08.01: Copy and append tables
-
-
-
-
 ID: T24.G8.01.01.01
 Topic: T24 – Data Representation
 Skill: Design schema for speech recognition data with timestamps
@@ -33954,90 +33836,31 @@ Dependencies:
 
 
 
-ID: T24.G8.06
-Topic: T24 – Data Representation
-Skill: Implement real-time data buffering for streaming AI inputs
-Description: Students design and implement buffering strategies for high-frequency data streams (e.g., 30 fps hand tracking). They create circular buffer data structures using lists, implement overflow handling (drop oldest vs drop newest), and configure buffer sizes based on processing speed requirements.
-
-Dependencies:
-* T24.G8.01.04: Design schema for body pose and hand tracking data
-* T24.G7.04: Evaluate storage vs performance tradeoffs
-
-
-
-
-ID: T24.G8.07
-Topic: T24 – Data Representation
-Skill: Design data versioning systems for ML model training
-Description: Students create versioning tables that track dataset iterations used for training ML models. They record: dataset version ID, creation date, row count, feature columns used, model accuracy achieved. They implement rollback functionality to restore previous dataset versions.
-
-Dependencies:
-* T24.G8.02: Track data versioning and transformation history
-* T24.G8.05.05: Format training datasets for neural network models
-
-
-
-
-ID: T24.G8.08
-Topic: T24 – Data Representation
-Skill: Debug data representation issues using table snapshots
-Description: Students learn systematic debugging of data representation problems by capturing table snapshots at key execution points. They use 'show snapshot of table' blocks to compare expected vs actual table states, identify where data corruption occurs in multi-step transformations.
-
-Dependencies:
-* T24.G6.08.04: Show table snapshots with custom styling
-* T24.G7.03.03.03: Compare persistence methods and choose appropriately
-
-
-
-
-ID: T24.G8.09
-Topic: T24 – Data Representation
-Skill: Integrate web API data into local tables
-Description: Students use 'web search store top in table' and web fetch blocks to retrieve external data and store it in local tables. They parse JSON/CSV responses, handle missing fields with defaults, and merge external data with existing project data.
-
-Dependencies:
-* T24.G7.06.02.01: Import Google Sheets data to CreatiCode tables
-* T24.G6.07.02: Import CSV files into tables
-
-
-
-
-ID: T24.G8.10
-Topic: T24 – Data Representation
-Skill: Design data pipelines with transformation stages
-Description: Students design multi-stage data pipelines where raw input data flows through: (1) validation stage—reject invalid entries, (2) transformation stage—normalize formats, (3) enrichment stage—add computed fields, (4) storage stage—write to tables. They implement each stage as separate scripts and chain them together.
-
-Dependencies:
-* T24.G8.02: Track data versioning and transformation history
-* T24.G7.01.04: Normalize a game database through all three normal forms
-
-
-
-
-# T25 - Data Collection & Logging (Phase 7 Optimized - November 2025)
-# Applied Phase 7 topic-focused optimizations:
+# T25 - Data Collection & Logging (Phase 6 Optimized - November 2025)
+# Applied Phase 6 topic-focused optimizations:
 # MAJOR CHANGES:
-# 1. Fixed Circular Dependencies:
-#    - T25.G5.01 no longer depends on T25.G5.01.03 (was backwards)
-#    - T25.G4.06 no longer depends on T25.G4.06.01 (reordered properly)
+# 1. Fixed X-2 Rule Dependency Violations:
+#    - Removed G0-G1 deps from G3+ skills (e.g., T01.GK.01, T01.G1.01 from G3+)
+#    - Ensured all intra-topic deps follow grade X, X-1, or X-2 rule
 # 2. Added Advanced Skills for AI-Era Data Challenges:
-#    - T25.G7.10: Implement data versioning with change history
-#    - T25.G7.11: Create audit trail for data modifications
-#    - T25.G8.09: Design data lineage tracking system
-#    - T25.G8.10: Implement data quality scoring algorithms
-#    - T25.G8.11: Build automated data anomaly detection
+#    - T25.G6.12: Implement rate limiting for high-frequency sensor data
+#    - T25.G7.08: Create real-time data dashboard with live updates
+#    - T25.G7.09: Implement data aggregation pipelines (batch processing)
+#    - T25.G8.06: Design multi-source data fusion system
+#    - T25.G8.07: Implement streaming data collection with buffering
+#    - T25.G8.08: Debug large-scale data collection with sampling
 # 3. Improved Skill Quality:
-#    - All skills now use active verbs (Explain, Trace, Predict, Debug, Design, Implement)
-#    - Removed redundant T25.G5.08.01 (overlapped with T25.G4.05)
-#    - Enhanced descriptions with specific CreatiCode block references
-# 4. Strengthened Progression:
-#    - Console logging skills now properly scaffold (.01 -> .02 -> .03 -> parent)
-#    - Sensor data collection builds from single (G4) -> dual (G5) -> multiple (G6)
-#    - Database skills progress: insert -> fetch -> filter -> update -> delete
-# 5. Enhanced K-2 Foundation:
-#    - All K-2 skills include explicit visual scenarios and picture card instructions
-#    - Clear auto-grading criteria for each activity
-# Total: 91 skills (added 5 new advanced skills, removed 1 redundant skill)
+#    - Changed vague verbs (Practice, Understand) to active verbs (Export, Trace, Design)
+#    - Added picture-based scenarios to K-2 skills
+#    - Fixed console logging progression (sub-skills before parent)
+# 4. Enhanced K-2 Foundation:
+#    - T25.GK.04: Compare two collection methods in pictures
+#    - T25.G1.04: Predict what happens if a log step is skipped
+#    - T25.G2.06: Trace a simple data collection picture sequence
+# 5. Removed Redundancy:
+#    - Consolidated overlapping export skills
+#    - Clarified table vs list logging distinction
+# Total: 82 skills (added 12 new advanced skills for depth)
 
 ID: T25.GK.01
 Topic: T25 – Data Collection & Logging
@@ -34114,7 +33937,7 @@ Dependencies:
 ID: T25.G1.03
 Topic: T25 – Data Collection & Logging
 Skill: Follow a data-collection checklist
-Description: **Student task:** Using a picture checklist showing 3 steps (greet, ask, record), put the steps in correct order, then role-play collecting a friend's favorite color. **Visual scenario:** Scrambled step cards; student arranges then simulates. **Learning goal:** Apply consistent data collection procedures in the correct sequence. _Implementation note: Drag to order, then confirmation. Auto-graded by correct sequence. CSTA: DI-01._
+Description: **Student task:** Using a picture checklist showing 3 steps (greet, ask, record), put the steps in correct order, then role-play collecting a friend's favorite color. **Visual scenario:** Scrambled step cards; student arranges then simulates. **Learning goal:** Learn consistent data collection procedures. _Implementation note: Drag to order, then confirmation. Auto-graded by correct sequence. CSTA: DI-01._
 
 Dependencies:
 * T25.G1.01: Conduct a three-option picture survey
@@ -34147,7 +33970,7 @@ Dependencies:
 ID: T25.G2.02
 Topic: T25 – Data Collection & Logging
 Skill: Build a two-column record sheet
-Description: **Student task:** Create a simple two-column table with "Name" and "Answer" headers. Fill in 4 sample entries from a favorite pet survey. **Visual scenario:** Blank two-column template; example entries to fill. **Learning goal:** Demonstrate that identifiers (who) and data (what) must be stored together to make data useful. _Implementation note: Drag names and answers to correct cells. Auto-graded by correct placement. CSTA: DI-02._
+Description: **Student task:** Create a simple two-column table with "Name" and "Answer" headers. Fill in 4 sample entries from a favorite pet survey. **Visual scenario:** Blank two-column template; example entries to fill. **Learning goal:** Understand why identifiers (who) and data (what) are stored together. _Implementation note: Drag names and answers to correct cells. Auto-graded by correct placement. CSTA: DI-02._
 
 Dependencies:
 * T25.G1.01: Conduct a three-option picture survey
@@ -34172,7 +33995,7 @@ Dependencies:
 ID: T25.G2.04
 Topic: T25 – Data Collection & Logging
 Skill: Explain why sample size matters
-Description: **Student task:** Look at two picture cards showing survey results: (A) asked 3 friends, 2 said "cat"; (B) asked 10 friends, 6 said "cat". Tap which result is more reliable and explain why. **Visual scenario:** Side-by-side pictographs with different sample sizes. **Learning goal:** Predict that larger samples give more reliable results and explain the reasoning. _Implementation note: Binary choice with explanation prompt. Auto-graded by selection. CSTA: DI-02._
+Description: **Student task:** Look at two picture cards showing survey results: (A) asked 3 friends, 2 said "cat"; (B) asked 10 friends, 6 said "cat". Tap which result is more reliable and explain why. **Visual scenario:** Side-by-side pictographs with different sample sizes. **Learning goal:** Understand that larger samples give more reliable results. _Implementation note: Binary choice with explanation prompt. Auto-graded by selection. CSTA: DI-02._
 
 Dependencies:
 * T25.G1.01: Conduct a three-option picture survey
@@ -34185,7 +34008,7 @@ Dependencies:
 ID: T25.G2.05
 Topic: T25 – Data Collection & Logging
 Skill: Conduct a multi-response tally survey
-Description: **Student task:** Using picture cards showing four season choices, run a survey asking "What's your favorite season?". For each response, add a tally mark to the matching column. **Visual scenario:** Four-column tally sheet with season icons; tally marks to add. **Learning goal:** Organize multiple response categories using tally marks and compare totals. _Implementation note: Tap to add tally marks; show totals at end. Auto-graded by tally counts. CSTA: DI-02._
+Description: **Student task:** Using picture cards showing four season choices, run a survey asking "What's your favorite season?". For each response, add a tally mark to the matching column. **Visual scenario:** Four-column tally sheet with season icons; tally marks to add. **Learning goal:** Practice organizing multiple response categories. _Implementation note: Tap to add tally marks; show totals at end. Auto-graded by tally counts. CSTA: DI-02._
 
 Dependencies:
 * T25.G2.04: Explain why sample size matters
@@ -34410,14 +34233,15 @@ Blocks: export variable to file, import variable from file
 ID: T25.G4.06
 Topic: T25 – Data Collection & Logging
 Skill: Collect data from one sensor
-Description: Students collect data from a single sensor (microphone volume or mouse position) by logging its values to a list ten times using a counted loop. They apply the timer and wait blocks learned in T25.G4.06.01 to collect data at regular intervals, building familiarity with continuous sensor data collection.
+Description: Students collect data from a single sensor (microphone volume or mouse position) by logging its values to a list ten times using a counted loop. They build familiarity with continuous sensor data collection.
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T10.G3.03: Get the length of a list
+* T25.G4.02.01: Create basic tables for logging
 * T25.G4.06.01: Use timer and loops for periodic data collection
 
-Blocks: loudness of microphone, mouse x, mouse y, add item to list, repeat, timer, wait
+Blocks: loudness of microphone, mouse x, mouse y, add item to list, repeat
 
 
 
@@ -34427,14 +34251,14 @@ ID: T25.G4.06.01
 Topic: T25 – Data Collection & Logging
 Grade: Grade 4
 Skill: Use timer and loops for periodic data collection
-Description: Students use a counted loop (repeat 10) with timer reset and wait blocks to collect data at regular intervals. They learn that using `wait 0.5 seconds` inside a loop creates consistent time gaps between data points, understanding the mechanics of time-based data gathering essential for sensor collection.
+Description: Students use a counted loop (repeat 10) with timer reset and wait blocks to collect data at regular intervals, understanding the mechanics of time-based data gathering.
 
 Dependencies:
 * T07.G3.01: Use a counted repeat loop
 * T09.G3.05: Trace code with variables to predict outcomes
-* T25.G4.02.01: Create basic tables for logging
+* T10.G3.03: Get the length of a list
 
-Blocks: repeat, reset timer, wait seconds, timer, add row to table
+Blocks: repeat, reset timer, wait seconds, timer
 
 
 
@@ -34459,12 +34283,12 @@ Blocks: min of list, max of list, sum of list, average of list, length of list
 ID: T25.G5.01
 Topic: T25 – Data Collection & Logging
 Skill: Track game events with console logging
-Description: Students insert print blocks at key points in their code to display messages to the console when specific game events occur (level start, player hit, score update), creating a chronological log for debugging and analysis. They use color-coded messages (red for errors, green for success) to categorize events.
+Description: Students insert print blocks at key points in their code to display messages to the console when specific game events occur (level start, player hit, score update), creating a chronological log for debugging and analysis.
 
 Dependencies:
-* T25.G5.01.02: Print variable values for debugging
 * T25.G5.01.03: Use color-coded console messages for event types
 * T25.G4.02.02: Log structured events with multiple attributes
+* T25.G4.07: Compute statistics from collected data
 
 Blocks: print to console, print to console with color, variables
 
@@ -34664,19 +34488,34 @@ Blocks: detect faces, get face data, add row to table, timer
 
 
 
-
-ID: T25.G5.08
+ID: T25.G5.08.01
 Topic: T25 – Data Collection & Logging
 Grade: Grade 5
-Skill: Export and import tables to/from files
-Description: Students export table variables to downloadable CSV files using the `export table` block and import them back using `import file into table`, understanding table file persistence and backup strategies for data collected during experiments.
+Skill: Export and import list variables to files
+Description: Students export a list variable to a downloadable JSON file and import it back in a new project, understanding basic file I/O for list data persistence.
 
 Dependencies:
 * T10.G4.02: Read and modify cells in a table
-* T25.G5.04: Store logs in tables for export
 * T25.G4.05: Export and import list data to files
 
-Blocks: export table to file, import file into table
+Blocks: export variable to file, import variable from file
+
+
+
+
+
+ID: T25.G5.08.02
+Topic: T25 – Data Collection & Logging
+Grade: Grade 5
+Skill: Export and import tables to/from files
+Description: Students export table variables to downloadable files and import them back, understanding table file persistence and backup strategies.
+
+Dependencies:
+* T10.G4.02: Read and modify cells in a table
+* T25.G5.04: Store logs in CreatiCode tables for export
+* T25.G5.08.01: Export and import list variables to/from files
+
+Blocks: export table to file, import table from file
 
 
 
@@ -34835,7 +34674,7 @@ Dependencies:
 * T10.G4.02: Read and modify cells in a table
 * T25.G5.05.01: Insert table data into cloud database collection
 * T25.G6.01: Map stakeholder questions to data requirements
-* T25.G6.05.01: Trace document structure for database collections
+* T25.G6.05.01: Understand document structure for database collections
 
 Blocks: insert from table into collection, set database URL and key
 
@@ -35074,7 +34913,7 @@ Description: Students use file import blocks to load CSV datasets (weather data,
 Dependencies:
 * T10.G6.01: Sort a table by a column
 * T25.G5.04: Store logs in tables for export
-* T25.G5.08: Export and import tables to/from files
+* T25.G5.08.02: Export and import tables to/from files
 
 Blocks: import table from file, read CSV into table
 
@@ -35235,7 +35074,7 @@ Dependencies:
 * T25.G8.01: Design end-to-end telemetry pipelines with cloud integration
 * T25.G7.07.01: Update existing documents in database collections
 * T25.G6.06.02: Query database collections with filters
-* T25.G5.08: Export and import tables to/from files
+* T25.G5.08.02: Export and import tables to/from files
 
 Blocks: All telemetry blocks (events, validation, tables, database insert/fetch/update, file export)
 
@@ -35345,81 +35184,13 @@ Dependencies:
 Blocks: pick random, sample every nth row, print to console, if-then
 
 
-ID: T25.G7.10
-Topic: T25 – Data Collection & Logging
-Grade: Grade 7
-Skill: Implement data versioning with change history
-Description: Students create a versioning system that stores snapshots of data at key moments (before updates, after imports). They add a "version" column to tables and implement a custom block that copies current data to an archive table before modifications, enabling rollback to previous states.
-
-Dependencies:
-* T25.G7.01: Build reusable data collection modules
-* T25.G7.03.02: Create metadata table for data sources
-* T11.G5.03: Define a custom block with one parameter
-
-Blocks: define custom block, clone table into archive, add column, set cell, timer
-
-
-ID: T25.G7.11
-Topic: T25 – Data Collection & Logging
-Grade: Grade 7
-Skill: Create audit trail for data modifications
-Description: Students implement an audit log table that records every data modification (insert, update, delete) with timestamp, user ID, action type, and before/after values. They use custom blocks to wrap all data operations and automatically log changes, ensuring accountability and traceability.
-
-Dependencies:
-* T25.G7.10: Implement data versioning with change history
-* T25.G7.01: Build reusable data collection modules
-* T25.G6.05: Insert data from tables into database collections
-
-Blocks: define custom block, add row to audit table, timer, join, variables
-
-
-ID: T25.G8.09
-Topic: T25 – Data Collection & Logging
-Grade: Grade 8
-Skill: Design data lineage tracking system
-Description: Students design and implement a data lineage system that tracks where data originated (sensor, user input, API), what transformations were applied (aggregation, filtering, normalization), and where it flows (display, database, export). They create a lineage metadata table that links each data record to its source and transformation history.
-
-Dependencies:
-* T25.G8.01: Design end-to-end telemetry pipelines with cloud integration
-* T25.G7.11: Create audit trail for data modifications
-* T25.G7.03: Document provenance for external datasets
-
-Blocks: create lineage table, add row, join, timer, variables, custom blocks
-
-
-ID: T25.G8.10
-Topic: T25 – Data Collection & Logging
-Grade: Grade 8
-Skill: Implement data quality scoring algorithms
-Description: Students create a data quality scoring system that evaluates collected data on multiple dimensions: completeness (% of non-empty fields), consistency (% matching expected formats), timeliness (age of data), and accuracy (% within valid ranges). They compute a composite quality score and flag records below threshold for review.
-
-Dependencies:
-* T25.G8.01: Design end-to-end telemetry pipelines with cloud integration
-* T25.G7.02: Monitor data quality in real time
-* T25.G6.04: Flag measurement accuracy in data tables
-
-Blocks: count items, list operations, division, if-then, variables, add column
-
-
-ID: T25.G8.11
-Topic: T25 – Data Collection & Logging
-Grade: Grade 8
-Skill: Build automated data anomaly detection
-Description: Students implement anomaly detection algorithms that automatically identify outliers in collected data using statistical methods (values beyond 2 standard deviations, sudden spikes/drops compared to rolling average). They create alerts when anomalies are detected and log them to a separate anomaly table for investigation.
-
-Dependencies:
-* T25.G8.10: Implement data quality scoring algorithms
-* T25.G7.09: Implement data aggregation pipelines
-* T25.G5.03: Validate data entry with error checks
-
-Blocks: average of list, standard deviation, abs, if-then, add row to table, print to console
 
 
 
 ID: T26.GK.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Sort classroom objects by a rule and explain it
-Description: **Student task:** Sort 8 picture cards of classroom objects into two groups and state your sorting rule. **Visual scenario:** Cards show: pencil, red crayon, blue marker, scissors, red eraser, stapler, blue crayon, red book. Students drag cards into two labeled bins and then select the rule they used from choices like "things that are red" or "things for writing." **Success criteria:** All cards sorted consistently with stated rule. _Implementation note: Drag-drop sorting with rule selection from picture choices._
+Skill: Sort objects by a rule and explain it
+Description: In this unplugged picture-based activity, students physically group objects (shapes, animals) and state the sorting rule ("all red things"), reinforcing that analysis starts with describing criteria.
 
 Dependencies:
 * T10.GK.01: Group pictures that are the same
@@ -35429,168 +35200,134 @@ Dependencies:
 
 ID: T26.GK.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Compare which pile has more snacks using picture cards
-Description: **Student task:** Count picture cards in two piles and tap the pile with more items. **Visual scenario:** Two plates shown—Plate A has 3 apple pictures, Plate B has 5 apple pictures (numbers vary, always ≤5). Student counts each pile by tapping items, then taps the plate that has more. If equal, tap "same" button. **Success criteria:** Correctly identify larger group across 4 rounds. _Implementation note: Tap-to-count animation with audio feedback._
+Skill: Compare which group has more using picture cards
+Description: Using picture cards showing two groups of objects (≤5 each), learners count each pile and state which is larger or if they match, building comparative reasoning through visual comparison.
 
 Dependencies:
-* T26.GK.01: Sort classroom objects by a rule and explain it
+* T26.GK.01: Sort objects by a rule and explain it
 
 
 
 
 ID: T26.GK.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Read a pictograph showing favorite fruits
-Description: **Student task:** Look at a pictograph where each fruit icon = 1 vote and answer "Which fruit got the most votes?" **Visual scenario:** Pictograph shows columns for apple (4 icons), banana (2 icons), orange (5 icons). Student taps the fruit with the tallest column. **Follow-up:** "How many more votes did orange get than banana?" Student taps the correct number (3). **Success criteria:** Identify winner and calculate difference correctly. _Implementation note: Tap-to-select with visual counting support._
+Skill: Read a two-column picture chart
+Description: Students interpret which category wins using a pictograph (one icon per item), establishing the basic concept of visual comparisons.
 
 Dependencies:
-* T26.GK.02: Compare which pile has more snacks using picture cards
+* T26.GK.02: Compare which group has more using picture cards
 
 
 
 
 ID: T26.GK.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Predict which pet is most popular before counting votes
-Description: **Student task:** Before seeing the full chart, look at a partially hidden pictograph and predict which category will win, then check your prediction. **Visual scenario:** Pictograph of "Our Class Pets" (dog, cat, fish) is partially covered. Student sees first row only and predicts winner. Chart reveals fully; student compares prediction to actual result and taps "I was right" or "I was wrong." **Success criteria:** Make prediction and correctly evaluate outcome. _Implementation note: Progressive reveal with prediction tracking._
+Skill: Predict which group might have more before counting
+Description: Before counting or comparing picture cards, students make a prediction about which group will have more items and explain their reasoning. After counting, they check if their prediction was correct. This builds inquiry mindset and hypothesis-forming skills.
 
 Dependencies:
-* T26.GK.03: Read a pictograph showing favorite fruits
-
-
-
-
-ID: T26.GK.05
-Topic: T26 – Data Analysis & Storytelling
-Skill: Tell what the chart says using picture sentence starters
-Description: **Student task:** Complete a sentence about what the pictograph shows using picture-word choices. **Visual scenario:** After viewing a favorite-color pictograph, student sees sentence frame: "[picture of blue/red/green] got the [most/fewest] votes." Student taps correct picture-word for each blank. **Example completion:** "Blue got the most votes." **Success criteria:** Complete 2 sentences correctly describing chart findings. _Implementation note: Picture-word sentence builder with audio reading support._
-
-Dependencies:
-* T26.GK.03: Read a pictograph showing favorite fruits
+* T26.GK.02: Compare which group has more using picture cards
 
 
 
 
 ID: T26.G1.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Build a pictograph from tally marks about lunch choices
-Description: **Student task:** Convert tally marks into a pictograph by dragging stacked icons. **Visual scenario:** Tally chart shows lunch votes—pizza (IIII = 4), sandwich (III = 3), salad (II = 2). Student drags food icons to build columns matching the tallies. Each icon = 1 vote. **Success criteria:** Pictograph columns match tally counts exactly. _Implementation note: Drag-drop icon placement with tally reference visible._
+Skill: Build a pictograph from tallies
+Description: Students convert tally marks collected in T26 into stacked icons using manipulatives or drawing tools, linking collection to analysis visuals.
 
 Dependencies:
-* T26.GK.03: Read a pictograph showing favorite fruits
+* T26.GK.03: Read a two-column picture chart
 
 
 
 
 ID: T26.G1.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate "how many more?" using a pictograph
-Description: **Student task:** Find the difference between two categories in a pictograph. **Visual scenario:** Pictograph shows birthday months—March (6 icons), April (4 icons), May (3 icons). Questions: "How many more birthdays in March than May?" Student counts: 6 - 3 = 3, taps "3". **Success criteria:** Correctly calculate differences for 3 comparison questions. _Implementation note: Tap-to-count with subtraction support._
+Skill: Answer "how many more?" questions
+Description: Learners compute the difference between two categories using picture charts by counting and subtracting (e.g., "apples has 5 and oranges has 3, so apples has 2 more").
 
 Dependencies:
-* T26.G1.01: Build a pictograph from tally marks about lunch choices
+* T26.G1.01: Build a pictograph from tallies
 
 
 
 
 ID: T26.G1.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Describe a pictograph finding in one complete sentence
-Description: **Student task:** Choose words to complete a sentence describing chart findings. **Visual scenario:** After viewing a "Favorite Season" pictograph, student completes: "The chart shows that [summer/winter/spring] is the [most/least] popular season because it has [3/5/7] votes." **Success criteria:** Create grammatically correct sentence with accurate data. _Implementation note: Word-bank sentence completion with validation._
+Skill: Describe a picture chart finding in one sentence
+Description: Students describe what the chart shows ("Most kids chose apples") using comparative language to communicate findings from visual data.
 
 Dependencies:
-* T26.G1.01: Build a pictograph from tally marks about lunch choices
+* T26.G1.01: Build a pictograph from tallies
 
 
 
 
 ID: T26.G1.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Identify questions that data can and cannot answer
-Description: **Student task:** Sort question cards into "data can answer" and "data cannot answer" bins. **Visual scenario:** Given a pictograph of "Pets in Our Class," sort questions: ✓"How many students have dogs?" ✓"Which pet is most common?" ✗"Why do people like cats?" ✗"Are dogs better than fish?" **Key insight:** Data tells us "what" and "how many" but not "why" or "which is better." **Success criteria:** Correctly sort 6 questions. _Implementation note: Drag-drop sorting with explanation feedback._
+Skill: Ask a question that data can answer
+Description: Students practice formulating simple questions that can be answered by collecting and analyzing data (e.g., "Which snack do we like best?" or "How many pets do we have?"). This builds the foundation for data-driven inquiry.
 
 Dependencies:
-* T26.G1.03: Describe a pictograph finding in one complete sentence
-
-
-
-
-ID: T26.G1.05
-Topic: T26 – Data Analysis & Storytelling
-Skill: Tell a simple data story using three picture cards
-Description: **Student task:** Arrange 3 picture cards to tell a story about what the data shows. **Visual scenario:** Cards show: (1) "We asked everyone their favorite color" (kids raising hands), (2) "We counted the votes" (pictograph being built), (3) "Blue won!" (blue ribbon). Student arranges cards in order and taps to hear the story read aloud. **Success criteria:** Arrange cards in logical sequence (question → data → finding). _Implementation note: Drag-to-sequence with audio narration._
-
-Dependencies:
-* T26.G1.03: Describe a pictograph finding in one complete sentence
+* T26.G1.01: Build a pictograph from tallies
 
 
 
 
 ID: T26.G2.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Build a bar chart with labeled axes for weather data
-Description: **Student task:** Create a bar chart by dragging bars to correct heights and labeling axes. **Visual scenario:** Data shows "Sunny Days This Week"—Monday (3 hours), Tuesday (5 hours), Wednesday (2 hours). Student drags bars to match heights, then labels: bottom axis = "Day", side axis = "Hours of Sun". **Success criteria:** Bar heights match data and both axes labeled correctly. _Implementation note: Drag-to-height bars with label placement zones._
+Skill: Create bar charts with axes labels
+Description: Learners build a bar chart using paper, crayons, or simple drag-and-drop drawing tools (no coding) with labeled axes (category names on one axis, numbers on the other), reinforcing representation clarity. This is an unplugged/pre-coding activity focused on understanding chart structure.
 
 Dependencies:
-* T26.G1.01: Build a pictograph from tally marks about lunch choices
+* T26.G1.01: Build a pictograph from tallies
 
 
 
 
 ID: T26.G2.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Read a line plot and identify increases and decreases
-Description: **Student task:** Examine a line plot and answer questions about direction of change. **Visual scenario:** Line plot shows "Temperature This Week" with 5 points connected. Questions: "Did temperature go UP or DOWN from Monday to Tuesday?" "Which day was coldest?" "Did it get warmer or cooler overall?" **Success criteria:** Answer 4 direction questions correctly by tapping UP/DOWN/SAME arrows. _Implementation note: Interactive line plot with directional answer buttons._
+Skill: Interpret simple line plots
+Description: Students analyze a small line plot (temperature across 5 days) and answer what increased/decreased, identifying the direction of change between data points.
 
 Dependencies:
-* T26.G2.01: Build a bar chart with labeled axes for weather data
+* T26.G2.01: Create bar charts with axes labels
 
 
 
 
 ID: T26.G2.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Spot the value that looks different from the others
-Description: **Student task:** Find the unusual value in a bar chart and explain why it's different. **Visual scenario:** Bar chart shows "Books Read This Month" by 5 students: Ali (4), Ben (3), Cara (12), Dan (4), Eve (3). Student taps the unusual bar (Cara's 12) and selects explanation: "It's much bigger than the others." **Key concept:** This unusual value is called an "outlier" — it stands out from the group. **Success criteria:** Identify outlier and select correct explanation in 2 scenarios. _Implementation note: Tap-to-select with explanation choices._
+Skill: Find values that look different from others
+Description: Learners look at illustrated lists like [3, 4, 3, 12] represented as pictures or bars and point out which value looks different, explaining why 12 doesn't fit the pattern of 3s and 4s. This builds intuition for what will later be called "outliers" in statistics.
 
 Dependencies:
-* T26.G2.01: Build a bar chart with labeled axes for weather data
+* T26.G2.01: Create bar charts with axes labels
 
 
 
 
 ID: T26.G2.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Match questions to the charts that can answer them
-Description: **Student task:** Draw lines connecting questions to the correct chart type. **Visual scenario:** Three charts shown: (A) bar chart of "Favorite Sports", (B) line plot of "Daily Steps", (C) pictograph of "Pets at Home". Questions: "Which sport is most popular?" → A, "Did I walk more on Tuesday or Wednesday?" → B, "How many cats?" → C. Also includes a trick question "Why do kids like soccer?" that matches NONE. **Success criteria:** Match 4 questions correctly including identifying the unanswerable one. _Implementation note: Line-drawing matching interface._
+Skill: Decide if data answers the question asked
+Description: Students read a question ("Which snack is most popular?") and determine if the provided chart answers it or if more data is needed, building critical thinking about data relevance.
 
 Dependencies:
-* T26.G1.04: Identify questions that data can and cannot answer
-* T26.G2.02: Read a line plot and identify increases and decreases
+* T26.G1.03: Describe a picture chart finding in one sentence
+* T26.G2.02: Interpret simple line plots
 
 
 
 
 ID: T26.G2.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Tell a weather story based on a line plot
-Description: **Student task:** Create a 3-sentence story explaining what happened in a line plot. **Visual scenario:** Line plot shows temperature rising from morning (cold) to noon (warm) to afternoon (hot), then dropping at evening (cool). Student selects sentence parts to build story: "In the morning it was [cold/warm/hot]. By noon it got [colder/warmer]. At night the temperature [went up/went down/stayed the same]." **Success criteria:** Create accurate 3-sentence story matching the data pattern. _Implementation note: Sentence-part selection with story preview._
+Skill: Tell a story about what the chart shows
+Description: Students create a simple narrative (2-3 sentences) describing what happened based on a chart. For example, looking at a temperature line plot: "It was cold in the morning, then it got warmer at lunch, and then cooler again at night." This develops storytelling skills with data.
 
 Dependencies:
-* T26.G1.05: Tell a simple data story using three picture cards
-* T26.G2.02: Read a line plot and identify increases and decreases
-
-
-
-
-ID: T26.G2.06
-Topic: T26 – Data Analysis & Storytelling
-Skill: Compare two bar charts about the same topic
-Description: **Student task:** Compare two bar charts showing similar data from different groups and identify similarities and differences. **Visual scenario:** Two bar charts show "Favorite Recess Activity" for Class A and Class B. Both have Soccer, Tag, and Swings. Student answers: "Which activity is #1 in both classes?" "Which class likes swings more?" **Success criteria:** Answer 3 comparison questions correctly. _Implementation note: Side-by-side charts with tap-to-answer._
-
-Dependencies:
-* T26.G2.01: Build a bar chart with labeled axes for weather data
-* T26.G1.02: Calculate "how many more?" using a pictograph
+* T26.G1.03: Describe a picture chart finding in one sentence
+* T26.G2.02: Interpret simple line plots
 
 
 
@@ -35598,11 +35335,11 @@ Dependencies:
 ID: T26.G3.01
 Topic: T26 – Data Analysis & Storytelling
 Skill: Create a data table with columns in CreatiCode
-Description: Students create table structure using 'add column [name] at position (1) to table [table1 v]'. They create a 3-column table (e.g., Name, Score, Grade) and verify columns appear in correct order. **Key concept:** Columns define what information each row will hold—like headers in a spreadsheet.
+Description: Students learn to create table structure by adding columns using 'add column [name] at position (1) to table [table1 v]'. They create tables with 2-3 columns (e.g., name, score, grade) and understand that columns define what data will be stored.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T26.G2.01: Build a bar chart with labeled axes for weather data
+* T26.G2.01: Create bar charts with axes labels
 
 
 
@@ -35610,7 +35347,7 @@ Dependencies:
 ID: T26.G3.02
 Topic: T26 – Data Analysis & Storytelling
 Skill: Add rows of data to a table
-Description: Students populate tables using 'add to table [table1 v]: [value1] [value2] [value3]' to append rows. They enter 5+ rows of real data (e.g., game scores) and understand that each row = one record. They verify data by checking row count increases after each addition.
+Description: Students populate tables with data using 'add to table [table1 v]: [value1] [value2] [value3]' to append rows. They practice entering multiple rows of real data (e.g., student names and test scores) and understand that each row represents one record.
 
 Dependencies:
 * T26.G3.01: Create a data table with columns in CreatiCode
@@ -35620,8 +35357,8 @@ Dependencies:
 
 ID: T26.G3.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Display and inspect table data on stage
-Description: Students use 'show table [table1 v]' to display tables on stage for verification and 'hide table [table1 v]' to remove them. They practice inspecting data visually to confirm values were entered correctly before analysis.
+Skill: Display tables on stage
+Description: Students use 'show table [table1 v]' to display their data tables on the stage for visual inspection, and 'hide table [table1 v]' to remove them. This allows verification that data was entered correctly.
 
 Dependencies:
 * T26.G3.02: Add rows of data to a table
@@ -35631,66 +35368,66 @@ Dependencies:
 
 ID: T26.G3.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Read individual cell values from a table
-Description: Students use 'item at row (1) column [score] of table [data v]' to retrieve specific cell values. They practice reading the first row's name, then the third row's score, understanding row-column addressing like coordinates on a grid.
+Skill: Read individual values from a table
+Description: Students use 'item at row (1) column [score] of table [data v]' to retrieve specific cell values from tables. They practice reading values by row number and column name, understanding how to access any piece of data in their table.
 
 Dependencies:
-* T26.G3.03: Display and inspect table data on stage
+* T26.G3.03: Display tables on stage
 
 
 
 
 ID: T26.G3.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Count rows to determine dataset size
-Description: Students use 'row count of table [data v]' to find how many records exist. They understand that row count tells us "how much data we have" and is essential for calculating averages or iterating through all rows.
+Skill: Count rows in a table
+Description: Students use 'row count of table [data v]' to determine how many records exist in their table. This is essential for loops that process all rows and for understanding dataset size.
 
 Dependencies:
-* T26.G3.04: Read individual cell values from a table
+* T26.G3.04: Read individual values from a table
 
 
 
 
 ID: T26.G3.06
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate the sum of a numeric column
-Description: Students use '[sum v] of column [scores] in table [data v]' to total all values in a column. They apply this to scenarios like: total points scored, total items sold, total time spent. They display the result using a sprite's say block.
+Skill: Compute sum of a column
+Description: Students use '[sum v] of column [scores] in table [data v]' to calculate the total of all values in a numeric column. They apply this to real scenarios like totaling points, sales, or quantities.
 
 Dependencies:
-* T26.G3.05: Count rows to determine dataset size
+* T26.G3.05: Count rows in a table
 
 
 
 
 ID: T26.G3.07
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate the average of a numeric column
-Description: Students use '[average v] of column [scores] in table [data v]' to find the mean. They understand average = sum ÷ count and interpret what average means: "A typical value" or "What most values are close to."
+Skill: Compute average of a column
+Description: Students use '[average v] of column [scores] in table [data v]' to calculate the mean value. They understand that average = sum ÷ count and interpret what the average tells us about typical values in the data.
 
 Dependencies:
-* T26.G3.06: Calculate the sum of a numeric column
+* T26.G3.06: Compute sum of a column
 
 
 
 
 ID: T26.G3.08
 Topic: T26 – Data Analysis & Storytelling
-Skill: Find minimum and maximum values in a column
-Description: Students use '[smallest v] of column [scores] in table [data v]' and '[largest v] of column [scores] in table [data v]' to find extremes. They calculate range (largest - smallest) and explain what extremes tell us: best performer, worst case, data spread.
+Skill: Find smallest and largest values in a column
+Description: Students use '[smallest v] of column [scores] in table [data v]' and '[largest v] of column [scores] in table [data v]' to find extreme values. They learn when finding extremes is useful (identifying top performers, detecting outliers, understanding data range).
 
 Dependencies:
-* T26.G3.07: Calculate the average of a numeric column
+* T26.G3.07: Compute average of a column
 
 
 
 
 ID: T26.G3.09
 Topic: T26 – Data Analysis & Storytelling
-Skill: Display data findings using sprite speech bubbles
-Description: Students combine computed statistics with say blocks to present findings: 'say (join "The average score is " [average of scores])'. They practice displaying multiple findings (average, max, min) in sequence, making data talk through the sprite.
+Skill: Build comparison statements with evidence
+Description: Learners write comparison statements like "X has more than Y because 15 vs 10" displayed in sprite speech bubbles, reinforcing evidence-based claims using computed data from their analysis.
 
 Dependencies:
-* T26.G3.08: Find minimum and maximum values in a column
+* T26.G3.08: Find smallest and largest values in a column
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
@@ -35699,18 +35436,18 @@ Dependencies:
 ID: T26.G3.10
 Topic: T26 – Data Analysis & Storytelling
 Skill: Draw a bar chart from table data
-Description: Students use 'draw [bar v] chart using columns [scores] from table [data v] x (0) y (0) width (300) height (200)' to visualize data. They position the chart and understand that bar height = value magnitude. They compare visual heights to confirm which category is largest.
+Description: Students use 'draw [bar v] chart using columns [scores] from table [data v] x (0) y (0) width (300) height (200)' to create bar charts from their table data. They learn to specify which column(s) to visualize and position the chart on stage.
 
 Dependencies:
-* T26.G3.09: Display data findings using sprite speech bubbles
+* T26.G3.09: Build comparison statements with evidence
 
 
 
 
 ID: T26.G3.11
 Topic: T26 – Data Analysis & Storytelling
-Skill: Draw a line chart to show change over time
-Description: Students use 'draw [line v] chart using columns [daily_scores] from table [data v]' for time-series data. They understand line charts connect points to show trends—rising lines mean increasing values, falling lines mean decreasing. They identify peaks and valleys.
+Skill: Draw a line chart from table data
+Description: Students use 'draw [line v] chart using columns [daily_scores] from table [data v]' to create line charts showing change over time. They understand that line charts connect data points to show trends.
 
 Dependencies:
 * T26.G3.10: Draw a bar chart from table data
@@ -35720,34 +35457,34 @@ Dependencies:
 
 ID: T26.G3.12
 Topic: T26 – Data Analysis & Storytelling
-Skill: Select the appropriate chart type for different data questions
-Description: Students learn chart selection rules: Bar charts for "which category has more?", Line charts for "how did values change over time?", Pie/percentage charts for "what fraction of the whole?" Given a data question, they select and draw the appropriate chart type.
+Skill: Choose appropriate chart types for data
+Description: Students learn when to use bar charts (comparing categories), line charts (showing change over time), and percentage charts (showing parts of a whole). They practice selecting the right chart type based on what question they want to answer with their data.
 
 Dependencies:
-* T26.G3.11: Draw a line chart to show change over time
+* T26.G3.11: Draw a line chart from table data
 
 
 
 
 ID: T26.G3.13
 Topic: T26 – Data Analysis & Storytelling
-Skill: Create a simple data story with narration using text-to-speech
-Description: Students use TTS blocks to narrate their data findings: 'speak [The highest score was 95, earned by Alex] voice [Female v]'. They create a 3-part data story: (1) introduce the question, (2) present key finding, (3) state conclusion. The sprite speaks the story aloud.
+Skill: Identify questions your data can and cannot answer
+Description: Students examine their dataset and list 2-3 questions it can answer (e.g., "Which student has the highest score?") and 2-3 questions it cannot answer (e.g., "Why did they get that score?" or "What score will they get next time?"). This builds awareness of data limitations.
 
 Dependencies:
-* T26.G3.12: Select the appropriate chart type for different data questions
-* T22.G3.01: Use the AI speaker to speak text in a chosen voice
+* T26.G3.12: Choose appropriate chart types for data
+* T26.G2.04: Decide if data answers the question asked
 
 
 
 
 ID: T26.G4.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Sort tables by a column to reveal patterns
-Description: Students use 'sort table [data v] by column [score] [large to small v]' to organize data. They sort scores high-to-low to find top performers, and alphabetically to find names. They observe how sorting makes patterns visible that were hidden in unsorted data.
+Skill: Delete rows from a table by value
+Description: Students use 'delete rows with column [status] of value [inactive] from table [data v]' to remove rows matching a specific value. This is useful for cleaning data or filtering out unwanted records.
 
 Dependencies:
-* T26.G3.08: Find minimum and maximum values in a column
+* T26.G3.05: Count rows in a table
 * T08.G3.01: Use a simple if in a script
 
 
@@ -35755,66 +35492,66 @@ Dependencies:
 
 ID: T26.G4.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Delete rows matching a specific value
-Description: Students use 'delete rows with column [status] of value [inactive] from table [data v]' to remove unwanted records. They clean data by removing "test" entries or filtering out incomplete records. They verify row count decreases after deletion.
+Skill: Delete all rows from a table
+Description: Students use 'delete all rows from table [data v]' to clear table contents while keeping the column structure. This is useful for resetting data before collecting new information.
 
 Dependencies:
-* T26.G4.01: Sort tables by a column to reveal patterns
+* T26.G4.01: Delete rows from a table by value
 
 
 
 
 ID: T26.G4.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Reset a table by deleting all rows
-Description: Students use 'delete all rows from table [data v]' to clear table contents while keeping column structure. This prepares a table for fresh data collection. They verify the table is empty (row count = 0) but columns still exist.
+Skill: Identify the median in a sorted dataset
+Description: Students examine small, pre-sorted datasets and identify the median (middle value) through visual inspection and counting. They explain why median differs from mean and when median is more useful (when data has extreme values). They connect to everyday situations: median is like finding the 'middle kid' when lining up by height.
 
 Dependencies:
-* T26.G4.02: Delete rows matching a specific value
+* T26.G3.07: Compute average of a column
 
 
 
 
 ID: T26.G4.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Explain median as the middle value in sorted data
-Description: Students examine small sorted datasets [2, 4, 5, 7, 9] and identify the median (5) by finding the middle position. They compare median vs mean when outliers exist: [2, 4, 5, 7, 100] has mean=23.6 but median=5. They explain why median better represents "typical" when extreme values exist.
+Skill: Calculate median using built-in blocks
+Description: Students use '[median v] of column [scores] in table [data v]' to find the middle value in table columns. They verify results by sorting data and finding the middle position manually.
 
 Dependencies:
-* T26.G4.01: Sort tables by a column to reveal patterns
+* T26.G4.03: Identify the median in a sorted dataset
 
 
 
 
 ID: T26.G4.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate median using built-in table blocks
-Description: Students use '[median v] of column [scores] in table [data v]' to compute the middle value. They verify by sorting the table and manually finding the middle row. They compare median and mean for datasets with and without outliers.
+Skill: Identify the mode in a dataset by counting
+Description: Students identify the mode (most frequent value) in small datasets by counting occurrences. They explain when mode is useful (finding most popular choice, most common response) and how it differs from mean and median.
 
 Dependencies:
-* T26.G4.04: Explain median as the middle value in sorted data
+* T26.G4.03: Identify the median in a sorted dataset
 
 
 
 
 ID: T26.G4.06
 Topic: T26 – Data Analysis & Storytelling
-Skill: Identify the mode as the most frequent value
-Description: Students find the mode (most common value) in datasets like [A, B, A, C, A, B] where mode = A (appears 3 times). They explain when mode is useful: finding the most popular choice, most common error, or most frequent response in survey data.
+Skill: Sort tables by a column
+Description: Students use 'sort table [data v] by column [score] [large to small v]' to organize data for analysis, understanding ascending vs descending order and how sorting reveals patterns (top performers, lowest values, alphabetical order).
 
 Dependencies:
-* T26.G4.04: Explain median as the middle value in sorted data
+* T26.G4.04: Calculate median using built-in blocks
 
 
 
 
 ID: T26.G4.07
 Topic: T26 – Data Analysis & Storytelling
-Skill: Filter rows by numeric condition using loops
-Description: Students implement filtering with loops: iterate through rows, check if value meets condition (score > 50), copy matching rows to a new table. They learn this technique enables custom filters that built-in blocks don't support (like ranges or combinations).
+Skill: Filter rows by condition using loops
+Description: Students implement filtering for range-based conditions (like keeping rows where score > 50) by iterating through rows using loops with conditional logic to copy matching rows to a new table. They learn when custom loops are needed versus built-in deletion blocks.
 
 Dependencies:
-* T26.G4.01: Sort tables by a column to reveal patterns
+* T26.G4.06: Sort tables by a column
 * T07.G3.01: Use a counted repeat loop
 * T08.G3.01: Use a simple if in a script
 
@@ -35823,113 +35560,91 @@ Dependencies:
 
 ID: T26.G4.08
 Topic: T26 – Data Analysis & Storytelling
-Skill: Analyze trends in line graphs over time
-Description: Students examine game score data across 10 rounds using line charts. They identify rising segments (improving), falling segments (declining), and flat segments (stable). They annotate the graph: "Scores improved from round 3-6, then dropped."
+Skill: Analyze change over time using line graphs
+Description: Students read game data (such as scores over 10 rounds) and use line graphs to identify segments where values rise, fall, or stay flat, building temporal analysis skills.
 
 Dependencies:
-* T26.G3.11: Draw a line chart to show change over time
-* T26.G4.01: Sort tables by a column to reveal patterns
+* T26.G3.11: Draw a line chart from table data
+* T26.G4.06: Sort tables by a column
 
 
 
 
 ID: T26.G4.09
 Topic: T26 – Data Analysis & Storytelling
-Skill: Inspect data quality before analysis
-Description: Students visually inspect tables using 'show table' to identify problems: empty cells (missing data), duplicate rows (repeated entries), impossible values (negative ages, scores > 100). They document each issue found before deciding how to handle it.
+Skill: Check data quality before analysis
+Description: Students inspect a table for specific issues: missing entries (empty cells), duplicate rows, or invalid numbers (e.g., negative ages), and decide how to handle each. They use visual inspection and 'show table' to identify problematic data.
 
 Dependencies:
-* T26.G4.07: Filter rows by numeric condition using loops
+* T26.G4.07: Filter rows by condition using loops
 
 
 
 
 ID: T26.G4.10
 Topic: T26 – Data Analysis & Storytelling
-Skill: Handle missing and invalid data in tables
-Description: Students implement data cleaning strategies: (1) skip rows with empty values using conditionals, (2) replace missing numbers with the column average, (3) delete rows with invalid values. They document their cleaning decisions and explain why each choice was made.
+Skill: Handle missing or invalid data
+Description: Students decide how to handle data quality issues: skip rows with missing values using conditional loops, replace missing numbers with averages using 'replace item' blocks, or flag invalid entries for review. They implement their chosen strategy and document their decisions.
 
 Dependencies:
-* T26.G4.09: Inspect data quality before analysis
+* T26.G4.09: Check data quality before analysis
 
 
 
 
 ID: T26.G4.11
 Topic: T26 – Data Analysis & Storytelling
-Skill: Write narrative captions explaining chart findings
-Description: Students write 2-3 sentence captions for charts following the pattern: (1) What does the chart show? (2) What's the key finding? (3) Who should care? Example: "This chart shows daily step counts. Steps increased steadily from Monday to Friday. This suggests students are more active during the school week."
+Skill: Create narrative captions for charts
+Description: Learners write 2–3 sentence captions summarizing key findings, audience, and implications for their visualizations. They practice explaining what the chart shows, who would care, and what action might follow.
 
 Dependencies:
-* T26.G4.08: Analyze trends in line graphs over time
-* T26.G3.09: Display data findings using sprite speech bubbles
+* T26.G4.08: Analyze change over time using line graphs
+* T26.G3.09: Build comparison statements with evidence
 
 
 
 
 ID: T26.G4.12
 Topic: T26 – Data Analysis & Storytelling
-Skill: Identify sampling bias in data collection
-Description: Students examine scenarios where samples don't represent everyone: surveying only athletes about favorite activities, asking only morning students about lunch preferences. They identify who's missing and explain how conclusions could be wrong. Key insight: "Who did we NOT ask?"
+Skill: Recognize sampling bias in data collection
+Description: Students examine scenarios where data might not represent everyone (e.g., surveying only students who play sports to learn about all students' favorite activities). They identify who is missing from the sample and explain how this could affect conclusions. This builds critical thinking about data sources.
 
 Dependencies:
-* T26.G4.09: Inspect data quality before analysis
-
-
-
-
-ID: T26.G4.13
-Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate data range to measure spread
-Description: Students compute range (largest - smallest) for a column to measure how spread out values are. They compare two datasets: Class A scores [70-90] range=20 vs Class B scores [40-100] range=60. They explain what larger range means (more variability, less consistent).
-
-Dependencies:
-* T26.G4.05: Calculate median using built-in table blocks
-
-
-
-
-ID: T26.G4.14
-Topic: T26 – Data Analysis & Storytelling
-Skill: Create a spoken data report using text-to-speech
-Description: Students build a multi-part spoken report combining TTS with computed statistics. The sprite announces: "Data Report: We analyzed [row count] scores. The average was [average]. The highest was [max] and lowest was [min]. Overall, performance was [above/below] average." Variables fill in computed values.
-
-Dependencies:
-* T26.G4.11: Write narrative captions explaining chart findings
-* T26.G3.13: Create a simple data story with narration using text-to-speech
+* T26.G4.09: Check data quality before analysis
+* T26.G3.13: Identify questions your data can and cannot answer
 
 
 
 
 ID: T26.G5.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Draw percentage charts showing parts of a whole
-Description: Students use 'draw [percentage v] chart using columns [categories] from table [data v]' to visualize proportions. They understand percentages show relative size (30% vs 70%) regardless of total count. They interpret: "Even though Group A has more people, Group B's percentage is higher."
+Skill: Draw percentage charts from table data
+Description: Students use 'draw [percentage v] chart using columns [categories] from table [data v]' to create charts showing parts of a whole. They understand that percentage charts show relative proportions and are useful for composition analysis.
 
 Dependencies:
-* T26.G3.12: Select the appropriate chart type for different data questions
+* T26.G3.12: Choose appropriate chart types for data
 
 
 
 
 ID: T26.G5.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Draw pie charts with category and value columns
-Description: Students use 'draw pie chart using category [type] and value [count] from table [data v]' for composition analysis. They understand pie charts show "what fraction of the whole" each category represents. They verify all slices add to 100%.
+Skill: Draw pie charts using category and value columns
+Description: Students use 'draw pie chart using category [type] and value [count] from table [data v]' to create pie charts where categories and values come from different columns. This specialized block automatically calculates percentages.
 
 Dependencies:
-* T26.G5.01: Draw percentage charts showing parts of a whole
+* T26.G5.01: Draw percentage charts from table data
 
 
 
 
 ID: T26.G5.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate percentages from raw counts
-Description: Students compute percentage: (part ÷ whole) × 100. Given "15 chose pizza out of 50 total," they calculate 15/50 = 0.30 = 30%. They display results: "Pizza: 30%, Salad: 20%, Burger: 50%". They verify percentages sum to 100%.
+Skill: Calculate percentages from grouped data
+Description: Students compute percentage breakdowns (e.g., 15 out of 50 = 30%) from categorized tables using division and display results, connecting raw counts to relative comparisons for interpretive analysis.
 
 Dependencies:
-* T26.G5.02: Draw pie charts with category and value columns
+* T26.G5.02: Draw pie charts using category and value columns
 * T09.G4.01: Read multiple inputs via ask blocks and apply them in conditions
 
 
@@ -35937,35 +35652,35 @@ Dependencies:
 
 ID: T26.G5.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Group data and compute statistics per category (GROUP BY)
-Description: Students use 'set table [summary v] to [average v] of column [score] in table [data v] by column [grade]' to create summary tables. They analyze "average score per grade" or "total sales per region." They compare groups: "Grade 5 averaged 85, Grade 6 averaged 78."
+Skill: Group data by category and compute statistics (GROUP BY)
+Description: Students use 'set table [summary v] to [average v] of column [score] in table [data v] by column [grade]' to create summary tables showing statistics per group (e.g., average score per grade level, total sales per region). This enables powerful comparative analysis across categories.
 
 Dependencies:
-* T26.G4.01: Sort tables by a column to reveal patterns
-* T26.G3.07: Calculate the average of a numeric column
+* T26.G4.06: Sort tables by a column
+* T26.G3.07: Compute average of a column
 
 
 
 
 ID: T26.G5.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Add widget labels and buttons to the stage
-Description: Students use widget blocks ('add button', 'add label') to create UI elements. They position widgets at specific coordinates and set initial text. They create a label showing "Total Records: 25" that updates when data changes.
+Skill: Add basic widgets to display information
+Description: Students learn to add simple text labels and buttons using CreatiCode widget blocks ('add button', 'add label'), position them on stage, and set initial text. This foundational skill prepares for interactive dashboards.
 
 Dependencies:
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T26.G5.03: Calculate percentages from raw counts
+* T26.G5.03: Calculate percentages from grouped data
 
 
 
 
 ID: T26.G5.06
 Topic: T26 – Data Analysis & Storytelling
-Skill: Respond to widget button clicks with code
-Description: Students use 'when widget [filterButton v] clicked' events to trigger actions. They connect buttons to operations: "Show High Scores" button filters to scores > 80, "Reset" button shows all data. They understand event-driven UI interaction.
+Skill: Respond to widget click events
+Description: Students use 'when widget [filterButton v] clicked' event blocks to trigger actions when users interact with buttons. They connect button clicks to data operations like filtering or chart updates.
 
 Dependencies:
-* T26.G5.05: Add widget labels and buttons to the stage
+* T26.G5.05: Add basic widgets to display information
 * T06.G4.01: Sequence multiple sprite events
 
 
@@ -35973,82 +35688,70 @@ Dependencies:
 
 ID: T26.G5.07
 Topic: T26 – Data Analysis & Storytelling
-Skill: Build a simple interactive data dashboard
-Description: Students combine widgets, tables, and charts into a dashboard. Clicking "Filter by Grade 5" filters data and redraws the chart. They create a cohesive interface where UI controls data display. They test that all buttons work correctly.
+Skill: Build a simple interactive dashboard
+Description: Students combine widgets, tables, and charts into an interactive dashboard where clicking a button filters the data and redraws the chart. They practice connecting user interface elements to data operations.
 
 Dependencies:
-* T26.G5.06: Respond to widget button clicks with code
-* T26.G4.07: Filter rows by numeric condition using loops
+* T26.G5.06: Respond to widget click events
+* T26.G4.07: Filter rows by condition using loops
 
 
 
 
 ID: T26.G5.08
 Topic: T26 – Data Analysis & Storytelling
-Skill: Explore correlation between two variables visually
-Description: Students plot two variables together (study hours vs test scores) using dual-column charts. They describe patterns: positive correlation (both increase together), negative correlation (one up, one down), no correlation (random). They state findings: "Students who studied more tended to score higher."
+Skill: Correlate two variables visually
+Description: Students create dual bar charts or overlaid line charts (using multi-column chart blocks) to explore relationships (e.g., comparing time played vs high score using side-by-side bars) and describe patterns they observe, such as positive correlation, negative correlation, or no clear relationship.
 
 Dependencies:
-* T26.G5.04: Group data and compute statistics per category (GROUP BY)
-* T26.G4.08: Analyze trends in line graphs over time
+* T26.G5.04: Group data by category and compute statistics (GROUP BY)
+* T26.G4.08: Analyze change over time using line graphs
 
 
 
 
 ID: T26.G5.09
 Topic: T26 – Data Analysis & Storytelling
-Skill: Compare datasets from two different sources
-Description: Students analyze two related tables (expected vs actual sales, predicted vs observed) to find discrepancies. They calculate differences for each row and identify which predictions were accurate. They hypothesize causes: "Week 3 actual was much higher than expected—maybe there was a sale."
+Skill: Compare data from two sources
+Description: Students analyze two related datasets to spot mismatches and hypothesize causes. For example, comparing expected versus actual values in a table. They use side-by-side table comparison or manual inspection to identify discrepancies.
 
 Dependencies:
-* T26.G5.08: Explore correlation between two variables visually
+* T26.G5.08: Correlate two variables visually
 
 
 
 
 ID: T26.G5.10
 Topic: T26 – Data Analysis & Storytelling
-Skill: Present data findings with charts and widget summaries
-Description: Students create a presentation combining: (1) a chart visualization, (2) a text widget with key insight, (3) a recommendation. Example: Chart shows declining scores; widget states "Scores dropped 15% this month"; recommendation: "Consider extra practice sessions."
+Skill: Present findings using widgets or dashboards
+Description: Learners assemble one chart + one key insight + one recommendation within CreatiCode using text widgets and dashboards, practicing clear data-driven communication for specific audiences. This skill focuses on in-platform presentation capabilities.
 
 Dependencies:
-* T26.G5.07: Build a simple interactive data dashboard
-* T26.G4.11: Write narrative captions explaining chart findings
+* T26.G5.07: Build a simple interactive dashboard
+* T26.G4.11: Create narrative captions for charts
 
 
 
 
 ID: T26.G5.11
 Topic: T26 – Data Analysis & Storytelling
-Skill: Formulate and test a hypothesis with data
-Description: Students state predictions before analysis: "I predict students who eat breakfast score higher." They analyze data to test the hypothesis, compare groups, and conclude: "The data supports/contradicts my hypothesis because..." This introduces the scientific method in data analysis.
+Skill: Formulate a hypothesis before analyzing data
+Description: Students practice stating what they expect to find before analyzing data (e.g., "I think students who practice more will have higher scores") and explain their reasoning. After analysis, they compare their hypothesis to actual findings. This introduces the scientific method in data analysis.
 
 Dependencies:
-* T26.G5.08: Explore correlation between two variables visually
-* T26.G4.12: Identify sampling bias in data collection
-
-
-
-
-ID: T26.G5.12
-Topic: T26 – Data Analysis & Storytelling
-Skill: Create an AI-generated image to illustrate data findings
-Description: Students use AI image generation blocks to create visuals that represent their data story. After finding "dogs are the most popular pet," they generate an image of "happy dogs in a park" to illustrate their report. They learn to combine data analysis with creative visual communication.
-
-Dependencies:
-* T26.G5.10: Present data findings with charts and widget summaries
-* T21.G4.01: Generate AI images from text descriptions
+* T26.G5.08: Correlate two variables visually
+* T26.G4.12: Recognize sampling bias in data collection
 
 
 
 
 ID: T26.G6.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Look up a row index by searching for a value
-Description: Students use 'row # of [John] in column [name] in table [students v]' to find which row contains a specific value. They understand this returns a number (row position) that can be used to retrieve other data from that row. They handle "not found" cases (-1).
+Skill: Look up row index by value
+Description: Students use 'row # of [John] in column [name] in table [students v]' to find which row contains a specific value. This is the first step in VLOOKUP-style operations for cross-referencing data.
 
 Dependencies:
-* T26.G5.04: Group data and compute statistics per category (GROUP BY)
+* T26.G5.04: Group data by category and compute statistics (GROUP BY)
 * T09.G4.04: Trace code with variables to predict outcomes
 
 
@@ -36056,22 +35759,22 @@ Dependencies:
 
 ID: T26.G6.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Perform VLOOKUP-style cross-table lookups
-Description: Students implement two-step lookups: (1) find row# where name="John", (2) get age from that row. They build lookup functions that find a student's grade given their name, similar to spreadsheet VLOOKUP. They handle cases where the lookup value doesn't exist.
+Skill: Look up values across tables (VLOOKUP)
+Description: Students use a two-step lookup process: first 'row # of [John] in column [name] in table [students v]' to find the matching row, then 'item at row (...) column [age] of table [students v]' to retrieve related information, similar to spreadsheet VLOOKUP operations.
 
 Dependencies:
-* T26.G6.01: Look up a row index by searching for a value
+* T26.G6.01: Look up row index by value
 
 
 
 
 ID: T26.G6.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Filter tables with AND conditions (multiple criteria)
-Description: Students filter rows where ALL conditions are true: "grade = 5 AND score > 80". They understand AND is restrictive—more conditions = fewer matches. They implement using loops with compound conditionals and verify filter results match expectations.
+Skill: Filter tables using AND conditions
+Description: Students implement filtering logic where multiple conditions must all be true (AND logic). They use loops with compound conditionals to check if rows meet all criteria (e.g., level = "Forest" AND score > 50), understanding that AND filters become more restrictive as conditions are added.
 
 Dependencies:
-* T26.G4.07: Filter rows by numeric condition using loops
+* T26.G4.07: Filter rows by condition using loops
 * T08.G4.01: Use an if-else block with compound conditions
 
 
@@ -36079,46 +35782,46 @@ Dependencies:
 
 ID: T26.G6.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Filter tables with OR conditions (any criteria)
-Description: Students filter rows where ANY condition is true: "grade = 5 OR grade = 6". They understand OR is permissive—more conditions = more matches. They contrast with AND: the same data filtered with AND vs OR produces different row counts.
+Skill: Filter tables using OR conditions
+Description: Students implement filtering logic where at least one condition must be true (OR logic). They learn to check if rows meet any of several criteria (e.g., level = "Forest" OR level = "Desert"), understanding that OR filters become less restrictive, contrasting with AND logic.
 
 Dependencies:
-* T26.G6.03: Filter tables with AND conditions (multiple criteria)
+* T26.G6.03: Filter tables using AND conditions
 
 
 
 
 ID: T26.G6.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Combine related data from two tables (JOIN)
-Description: Students merge two tables sharing a common column (student_id). They iterate through Table A, look up matching rows in Table B, and copy combined data to a new table. This database-style JOIN enables richer analysis from connected datasets.
+Skill: Combine data from two tables
+Description: Students learn to merge data from two related tables using lookups iteratively, copying matching rows into a new combined table. This prepares for database-style JOIN operations in data analysis.
 
 Dependencies:
-* T26.G6.02: Perform VLOOKUP-style cross-table lookups
-* T26.G6.04: Filter tables with OR conditions (any criteria)
+* T26.G6.02: Look up values across tables (VLOOKUP)
+* T26.G6.04: Filter tables using OR conditions
 
 
 
 
 ID: T26.G6.06
 Topic: T26 – Data Analysis & Storytelling
-Skill: Compare two groups statistically
-Description: Students split data into groups (Treatment vs Control, Version A vs B), compute statistics for each (average, median, range), calculate the difference, and evaluate: "Group A averaged 85, Group B averaged 72. The 13-point difference is large relative to the 20-point typical range."
+Skill: Compare two groups using data
+Description: Learners split data into two groups (Version A vs Version B) and evaluate which performs better by comparing averages using aggregation blocks, calculating the difference between group means, and stating conclusions about whether differences are large or small relative to the data range.
 
 Dependencies:
-* T26.G6.03: Filter tables with AND conditions (multiple criteria)
-* T26.G5.04: Group data and compute statistics per category (GROUP BY)
+* T26.G6.03: Filter tables using AND conditions
+* T26.G5.04: Group data by category and compute statistics (GROUP BY)
 
 
 
 
 ID: T26.G6.07
 Topic: T26 – Data Analysis & Storytelling
-Skill: Create pivot tables for multi-dimensional summaries
-Description: Students use 'pivot [data v] into [summary v] row groups [grade,gender] columns [score] methods [average]' to analyze data across multiple dimensions simultaneously. They read pivot tables to answer: "What's the average score for Grade 5 girls?" They understand how pivots reshape data for comparison.
+Skill: Create pivot tables for multi-dimensional analysis
+Description: Students use 'pivot [data v] into [summary v] row groups [grade,gender] columns [score] methods [average]' to create multi-dimensional summaries (e.g., average scores broken down by both grade AND gender). This enables complex comparative analysis across multiple grouping variables simultaneously.
 
 Dependencies:
-* T26.G5.04: Group data and compute statistics per category (GROUP BY)
+* T26.G5.04: Group data by category and compute statistics (GROUP BY)
 * T10.G4.01: Use list length and item access in expressions
 
 
@@ -36126,105 +35829,81 @@ Dependencies:
 
 ID: T26.G6.08
 Topic: T26 – Data Analysis & Storytelling
-Skill: Identify trends and cycles in time-series data
-Description: Students analyze multi-week data to distinguish: (1) trends (consistent direction over time), (2) cycles (repeating patterns like weekly spikes), (3) random fluctuations. They support conclusions with evidence: "Sales trend upward but spike every weekend (cyclical pattern)."
+Skill: Identify trends and patterns in time-series data
+Description: Students analyze multi-week data to identify trends (increasing, decreasing, cyclical patterns) and articulate patterns with supporting evidence from the data. They distinguish between short-term fluctuations and long-term trends.
 
 Dependencies:
-* T26.G5.08: Explore correlation between two variables visually
-* T26.G6.06: Compare two groups statistically
+* T26.G5.08: Correlate two variables visually
+* T26.G6.06: Compare two groups using data
 
 
 
 
 ID: T26.G6.09
 Topic: T26 – Data Analysis & Storytelling
-Skill: Export analysis results to CSV files
-Description: Students use 'export table [data v] as [analysis_results]' to save tables as CSV for sharing. They export filtered subsets, summary statistics, or full datasets. They understand CSV as a universal format readable by spreadsheets, databases, and other tools.
+Skill: Export tables to CSV files
+Description: Students use 'export table [data v] as [analysis_results]' to save analysis results as CSV files for sharing. This enables data exchange and collaboration beyond CreatiCode.
 
 Dependencies:
-* T26.G6.08: Identify trends and cycles in time-series data
+* T26.G6.08: Identify trends and patterns in time-series data
 
 
 
 
 ID: T26.G6.10
 Topic: T26 – Data Analysis & Storytelling
-Skill: Import external data from CSV files
-Description: Students use 'import file into table [imported v]' to load real-world CSV datasets. They inspect imported data for issues (wrong column types, encoding problems), understand file selection, and verify data loaded correctly by checking row counts and sample values.
+Skill: Import data from CSV files
+Description: Students use 'import file into table [imported v]' to load external data from CSV files into CreatiCode tables. This enables working with real-world datasets from other sources.
 
 Dependencies:
-* T26.G6.09: Export analysis results to CSV files
+* T26.G6.09: Export tables to CSV files
 
 
 
 
 ID: T26.G6.11
 Topic: T26 – Data Analysis & Storytelling
-Skill: Write structured analysis summaries (METRIC-INSIGHT-ACTION)
-Description: Students organize findings using a consistent structure: METRIC (the key number: "Average score: 78"), INSIGHT (the pattern: "Scores declined 12% from last month"), ACTION (the recommendation: "Investigate what changed"). They practice this format for clear, actionable communication.
+Skill: Create structured summaries with labeled findings
+Description: Learners condense findings into structured text formats using consistent labels: METRIC (key number), INSIGHT (pattern observed), ACTION (recommended next step). This teaches clear, organized data communication.
 
 Dependencies:
-* T26.G6.06: Compare two groups statistically
-* T26.G5.10: Present data findings with charts and widget summaries
+* T26.G6.06: Compare two groups using data
+* T26.G5.10: Present findings using widgets or dashboards
 
 
 
 
 ID: T26.G6.12
 Topic: T26 – Data Analysis & Storytelling
-Skill: Normalize data for fair comparisons across different scales
-Description: Students convert raw counts to rates for fair comparison: "goals per game" (not total goals) to compare players with different games played. They calculate normalized values: Player A (12 goals in 8 games = 1.5/game) vs Player B (10 goals in 5 games = 2.0/game). Player B is actually better!
+Skill: Normalize data for fair comparison
+Description: Students learn to convert raw counts into rates or percentages for fair comparison between groups of different sizes (e.g., calculating "goals per game" instead of "total goals" to compare players who played different numbers of games, or "percentage passing" to compare classes of different sizes). This builds understanding of when and why normalization matters.
 
 Dependencies:
-* T26.G5.03: Calculate percentages from raw counts
-* T26.G6.06: Compare two groups statistically
+* T26.G5.03: Calculate percentages from grouped data
+* T26.G6.06: Compare two groups using data
 
 
 
 
 ID: T26.G6.13
 Topic: T26 – Data Analysis & Storytelling
-Skill: Detect and critique misleading visualizations
-Description: Students identify manipulation techniques: truncated Y-axes that exaggerate differences, cherry-picked date ranges, 3D effects that distort proportions, dual Y-axes that imply false correlations. They explain how each trick misleads and propose fixes. This builds critical media literacy.
+Skill: Detect misleading visualizations
+Description: Students examine charts with manipulated axes, cherry-picked data ranges, or inappropriate chart types and explain how these choices could mislead viewers. They practice identifying common visualization tricks and suggest how to fix them. This develops critical media literacy.
 
 Dependencies:
-* T26.G6.08: Identify trends and cycles in time-series data
-* T26.G4.12: Identify sampling bias in data collection
-
-
-
-
-ID: T26.G6.14
-Topic: T26 – Data Analysis & Storytelling
-Skill: Create a data-driven story with multiple chapters
-Description: Students build a multi-part data story: (1) "The Question" - what we wanted to know, (2) "The Data" - where it came from and limitations, (3) "The Analysis" - what we computed, (4) "The Finding" - what we discovered, (5) "The Action" - what should happen next. They use TTS to narrate each chapter.
-
-Dependencies:
-* T26.G6.11: Write structured analysis summaries (METRIC-INSIGHT-ACTION)
-* T26.G4.14: Create a spoken data report using text-to-speech
-
-
-
-
-ID: T26.G6.15
-Topic: T26 – Data Analysis & Storytelling
-Skill: Use ChatGPT to help interpret data findings
-Description: Students send computed statistics to ChatGPT for interpretation: "My data shows: average=75, median=82, range=45. What might this tell us about the distribution?" They evaluate the AI's response against their own understanding and identify when AI interpretation is helpful vs when human judgment is needed.
-
-Dependencies:
-* T26.G6.11: Write structured analysis summaries (METRIC-INSIGHT-ACTION)
-* T21.G6.01: Send a prompt to XO and display the response
+* T26.G6.08: Identify trends and patterns in time-series data
+* T26.G4.12: Recognize sampling bias in data collection
 
 
 
 
 ID: T26.G7.01
 Topic: T26 – Data Analysis & Storytelling
-Skill: Read data from Google Sheets into tables
-Description: Students use 'read from google sheet: url [URL] sheet name [Sheet1] range [A1:D10] into table [data v]' to import cloud-stored data. They understand how to specify sheet name and cell range, handle shared vs private sheets, and verify data imported correctly.
+Skill: Read data from Google Sheets
+Description: Students use 'read from google sheet: url [URL] sheet name [Sheet1] range [A1:D10] into table [data v]' to import shared data from cloud spreadsheets. This enables collaboration with data stored online.
 
 Dependencies:
-* T26.G6.10: Import external data from CSV files
+* T26.G6.10: Import data from CSV files
 * T06.G5.01: Broadcast a custom message and respond in another sprite
 
 
@@ -36232,23 +35911,23 @@ Dependencies:
 
 ID: T26.G7.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Write analysis results back to Google Sheets
-Description: Students use 'write into google sheet: url [URL] sheet name [Sheet1] start cell [A1] from table [results v]' to publish findings. They create collaborative workflows where one person collects data, another analyzes it, and results appear in shared sheets automatically.
+Skill: Write data to Google Sheets
+Description: Students use 'write into google sheet: url [URL] sheet name [Sheet1] start cell [A1] from table [results v]' to publish findings to cloud spreadsheets. This enables real-time collaboration and data sharing beyond CreatiCode.
 
 Dependencies:
-* T26.G7.01: Read data from Google Sheets into tables
+* T26.G7.01: Read data from Google Sheets
 
 
 
 
 ID: T26.G7.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Build multi-chart dashboards with synchronized filters
-Description: Students create dashboards with multiple charts (bar + line + pie) that respond to the same filter using shared variables and broadcasts. Changing a filter triggers all charts to redraw. They design coherent multi-view analysis interfaces.
+Skill: Build multi-chart dashboards with linked filters
+Description: Students create dashboards with multiple charts (bar + line) that respond to the same filter using shared variables and broadcast messages. When a user changes the filter value, a broadcast message triggers all charts to redraw using the updated shared variable.
 
 Dependencies:
-* T26.G6.08: Identify trends and cycles in time-series data
-* T26.G5.07: Build a simple interactive data dashboard
+* T26.G6.08: Identify trends and patterns in time-series data
+* T26.G5.07: Build a simple interactive dashboard
 * T06.G5.01: Broadcast a custom message and respond in another sprite
 
 
@@ -36256,11 +35935,11 @@ Dependencies:
 
 ID: T26.G7.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Extract table columns to lists for specialized analysis
-Description: Students copy table column values to lists using loops because some analysis blocks require lists. They iterate through rows, adding each value to a list, preparing data for moving averages, statistical calculations, or chart blocks that only accept lists.
+Skill: Extract table column to list for processing
+Description: Students learn to copy values from a table column into a list using loops, iterating through each row and adding values to a list. This is required because some analysis blocks (like moving averages) work only on lists, not tables.
 
 Dependencies:
-* T26.G7.03: Build multi-chart dashboards with synchronized filters
+* T26.G7.03: Build multi-chart dashboards with linked filters
 * T10.G5.01: Use list length and item access in expressions
 
 
@@ -36268,22 +35947,22 @@ Dependencies:
 
 ID: T26.G7.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate moving averages to smooth noisy data
-Description: Students use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages. They compare raw vs smoothed line charts: raw shows daily noise, smoothed reveals underlying trends. They choose appropriate window sizes (larger = smoother but less responsive).
+Skill: Calculate moving averages for trend smoothing
+Description: Students use 'value from [simple v] moving average window [7] of list [daily_scores v]' to calculate rolling averages that reveal underlying trends by reducing noise in time-series data. They compare raw vs smoothed charts to interpret patterns more clearly.
 
 Dependencies:
-* T26.G7.04: Extract table columns to lists for specialized analysis
+* T26.G7.04: Extract table column to list for processing
 
 
 
 
 ID: T26.G7.06
 Topic: T26 – Data Analysis & Storytelling
-Skill: Calculate and analyze prediction residuals
-Description: Students compare predicted vs actual values, computing residuals (actual - predicted) for each data point. They identify patterns in errors: consistently positive residuals = under-prediction, negative = over-prediction, random = unbiased. They visualize residuals to evaluate prediction quality.
+Skill: Compare predictions to actual outcomes
+Description: Learners compare predicted values versus actual outcomes, calculate the difference (called a "residual") for each prediction, and identify patterns in errors to detect systematic over- or under-prediction.
 
 Dependencies:
-* T26.G7.05: Calculate moving averages to smooth noisy data
+* T26.G7.05: Calculate moving averages for trend smoothing
 * T09.G5.01: Model real-world quantities using variables and formulas
 
 
@@ -36291,11 +35970,11 @@ Dependencies:
 
 ID: T26.G7.07
 Topic: T26 – Data Analysis & Storytelling
-Skill: Automate chart regeneration when data changes
-Description: Students implement scripts that redraw charts automatically when underlying data changes. They use 'when I receive [dataUpdated]' to trigger chart regeneration after imports, filters, or new records. This creates responsive dashboards that stay current without manual intervention.
+Skill: Automate chart updates with variables
+Description: Students learn to connect chart blocks to table variables so that when data changes (via widget interaction, new imports, or computed updates), charts automatically redraw without manual regeneration. This prepares for automated reporting.
 
 Dependencies:
-* T26.G7.03: Build multi-chart dashboards with synchronized filters
+* T26.G7.03: Build multi-chart dashboards with linked filters
 * T09.G6.01: Model real-world quantities using variables and formulas
 
 
@@ -36303,72 +35982,48 @@ Dependencies:
 
 ID: T26.G7.08
 Topic: T26 – Data Analysis & Storytelling
-Skill: Evaluate fairness by comparing outcomes across groups
-Description: Students compute success rates separately for different demographic groups (e.g., accuracy by age group, completion rate by region). They identify disparities: "Group A succeeds 80% while Group B succeeds 60%." They discuss potential causes and fairness implications, connecting to AI ethics concepts.
+Skill: Evaluate fairness metrics across user groups
+Description: Students compute simple success rates or accuracy metrics separately for different user groups (e.g., by age or region), compare the results, and discuss any disparities found, tying to AI4K12's ethical lens for fairness evaluation.
 
 Dependencies:
-* T26.G7.06: Calculate and analyze prediction residuals
-* T26.G6.06: Compare two groups statistically
+* T26.G7.06: Compare predictions to actual outcomes
+* T26.G6.06: Compare two groups using data
 
 
 
 
 ID: T26.G7.09
 Topic: T26 – Data Analysis & Storytelling
-Skill: Write audience-tailored data reports
-Description: Students write reports with "Finding, Evidence, Recommendation" sections adapted to specific audiences. For teachers: technical details. For students: simple summaries. For parents: action items. They practice adjusting vocabulary, detail level, and emphasis for different readers.
+Skill: Write findings reports for an audience
+Description: Learners prepare a short report with "Finding, Evidence, Recommendation" sections aimed at teachers or peers, practicing clear data-driven communication tailored to their audience.
 
 Dependencies:
-* T26.G7.08: Evaluate fairness by comparing outcomes across groups
-* T26.G6.11: Write structured analysis summaries (METRIC-INSIGHT-ACTION)
+* T26.G7.08: Evaluate fairness metrics across user groups
+* T26.G6.11: Create structured summaries with labeled findings
 
 
 
 
 ID: T26.G7.10
 Topic: T26 – Data Analysis & Storytelling
-Skill: Design and analyze A/B tests
-Description: Students design controlled experiments: define hypothesis, split participants randomly into A/B groups, identify metrics to measure, determine sample size needed, collect data, and compare results. They conclude: "Version B improved completion by 15%, supporting our hypothesis."
+Skill: Design an A/B test to compare options
+Description: Students design simple experiments to compare two versions (e.g., two game difficulty levels, two tutorial approaches) by defining what to measure, how to split participants, and what difference would be meaningful. They collect data from both groups and compare results. This introduces experimental design concepts.
 
 Dependencies:
-* T26.G6.06: Compare two groups statistically
-* T26.G5.11: Formulate and test a hypothesis with data
+* T26.G6.06: Compare two groups using data
+* T26.G5.11: Formulate a hypothesis before analyzing data
 
 
 
 
 ID: T26.G7.11
 Topic: T26 – Data Analysis & Storytelling
-Skill: Analyze real-time streaming data with cloud variables
-Description: Students build dashboards that update automatically as cloud variables change (live game scores, sensor readings). They implement polling scripts that check for updates and refresh visualizations. They understand streaming vs batch analysis and when each is appropriate.
+Skill: Analyze real-time streaming data
+Description: Students create dashboards that automatically update as new data arrives using cloud variables. They implement scripts that monitor fast-changing values (like live game scores or sensor readings) and update visualizations in real-time, understanding the difference between static and streaming data analysis.
 
 Dependencies:
-* T26.G7.07: Automate chart regeneration when data changes
+* T26.G7.07: Automate chart updates with variables
 * T18.G5.01: Store and retrieve player data using cloud variables
-
-
-
-
-ID: T26.G7.12
-Topic: T26 – Data Analysis & Storytelling
-Skill: Use AI to generate data story narratives
-Description: Students send analysis summaries to ChatGPT with prompts like: "Turn these findings into a 3-paragraph news story for students: [stats]." They evaluate AI-generated narratives for accuracy, adjust tone and reading level, and combine AI-drafted text with their own charts for polished data stories.
-
-Dependencies:
-* T26.G7.09: Write audience-tailored data reports
-* T26.G6.15: Use ChatGPT to help interpret data findings
-
-
-
-
-ID: T26.G7.13
-Topic: T26 – Data Analysis & Storytelling
-Skill: Create scatter plots to visualize variable relationships
-Description: Students plot two numeric variables against each other (height vs weight, study time vs score) to visualize relationships. They identify patterns: linear clusters, curved relationships, outliers, no relationship. They use scatter plots to decide if correlation exists before calculating statistics.
-
-Dependencies:
-* T26.G6.08: Identify trends and cycles in time-series data
-* T26.G5.08: Explore correlation between two variables visually
 
 
 
@@ -36376,10 +36031,10 @@ Dependencies:
 ID: T26.G8.01
 Topic: T26 – Data Analysis & Storytelling
 Skill: Determine if differences are statistically meaningful
-Description: Students evaluate whether observed differences are real or due to chance. They compare difference magnitude to typical variation (standard deviation), use simple simulation (shuffle labels, recompute difference many times) to see if observed difference is unusual. They document assumptions and conclude with confidence levels.
+Description: Students use simple statistical reasoning (e.g., comparing differences to typical variation, or simulating many samples to see if patterns persist) to judge whether observed differences are likely real or due to chance, documenting their assumptions and methods.
 
 Dependencies:
-* T26.G7.08: Evaluate fairness by comparing outcomes across groups
+* T26.G7.08: Evaluate fairness metrics across user groups
 * T09.G6.01: Model real-world quantities using variables and formulas
 * T10.G6.01: Sort a table by a column
 
@@ -36388,11 +36043,11 @@ Dependencies:
 
 ID: T26.G8.02
 Topic: T26 – Data Analysis & Storytelling
-Skill: Automate complete report generation
-Description: Students build scripts that generate full reports at button press: import latest data, compute statistics, generate charts, fill text templates with current values, and assemble into a cohesive document. They create repeatable workflows for daily/weekly reporting that run consistently without manual steps.
+Skill: Automate report generation
+Description: Learners build scripts that assemble updated charts and textual findings (using variables to populate text templates) at the press of a button, supporting repeatable reporting workflows for ongoing data monitoring.
 
 Dependencies:
-* T26.G7.07: Automate chart regeneration when data changes
+* T26.G7.07: Automate chart updates with variables
 * T26.G8.01: Determine if differences are statistically meaningful
 * T06.G6.01: Trace event execution paths in a multi‑event program
 
@@ -36401,11 +36056,11 @@ Dependencies:
 
 ID: T26.G8.03
 Topic: T26 – Data Analysis & Storytelling
-Skill: Use AI to generate data-driven recommendations
-Description: Students construct analysis-informed prompts: "Data shows: average=75, completion rate dropped 20% at level 3, users spend 2x longer on level 5. Suggest 3 specific game balance improvements." They send to ChatGPT, evaluate responses against data, and refine prompts for better recommendations.
+Skill: Integrate data analysis into AI prompt engineering
+Description: Students extract key statistics from their analysis, construct prompts that include these metrics (e.g., "Given average score=75 and 20% drop-off at level 3, suggest improvements"), send to XO (CreatiCode's AI assistant), and critically evaluate whether the AI's recommendations align with the data.
 
 Dependencies:
-* T26.G8.02: Automate complete report generation
+* T26.G8.02: Automate report generation
 * T21.G6.01: Send a prompt to XO and display the response
 
 
@@ -36413,47 +36068,47 @@ Dependencies:
 
 ID: T26.G8.04
 Topic: T26 – Data Analysis & Storytelling
-Skill: Publish interactive data stories for audiences
-Description: Students create polished data stories combining: charts with annotations, written context explaining methodology, ethical considerations about data sources and limitations, and actionable recommendations. They publish to CreatiCode sharing or export for web viewing, reaching real audiences with their analysis.
+Skill: Publish data stories to a shared platform
+Description: Learners create polished data stories with charts, written context, ethical considerations, and calls to action, then publish to CreatiCode's sharing feature or export as a web page for others to view and learn from.
 
 Dependencies:
-* T26.G8.03: Use AI to generate data-driven recommendations
-* T26.G7.09: Write audience-tailored data reports
+* T26.G8.03: Integrate data analysis into AI prompt engineering
+* T26.G7.09: Write findings reports for an audience
 
 
 
 
 ID: T26.G8.05
 Topic: T26 – Data Analysis & Storytelling
-Skill: Build simple predictive models from historical trends
-Description: Students create predictive models using trend extrapolation: calculate growth rate from historical data, extend trends forward, predict future values. They state assumptions explicitly ("assuming growth continues at 5%/month"), test predictions against held-out data, and acknowledge prediction uncertainty.
+Skill: Build a predictive model using historical data
+Description: Students use historical trend data to create simple predictive models through trend extrapolation (e.g., extending a line of best fit, calculating growth rates and applying them forward). They make predictions for future values and explain the assumptions behind their predictions. This introduces basic predictive analytics.
 
 Dependencies:
-* T26.G7.05: Calculate moving averages to smooth noisy data
-* T26.G7.06: Calculate and analyze prediction residuals
+* T26.G7.05: Calculate moving averages for trend smoothing
+* T26.G7.06: Compare predictions to actual outcomes
 
 
 
 
 ID: T26.G8.06
 Topic: T26 – Data Analysis & Storytelling
-Skill: Communicate uncertainty and confidence levels in findings
-Description: Students express conclusions with appropriate uncertainty: "Based on 50 samples, we estimate 70-80% success rate (95% confidence)" or "This pattern is suggestive but not conclusive—more data needed." They use confidence intervals, sample size caveats, and explicit uncertainty ranges in all conclusions.
+Skill: Communicate uncertainty in findings
+Description: Students learn to express confidence in their conclusions using ranges and qualifiers (e.g., "Based on 20 samples, we estimate between 60-80% success rate" or "This pattern appeared in our data, but we would need more evidence to be certain"). They understand that data-driven conclusions have varying levels of certainty.
 
 Dependencies:
 * T26.G8.01: Determine if differences are statistically meaningful
-* T26.G7.10: Design and analyze A/B tests
+* T26.G7.10: Design an A/B test to compare options
 
 
 
 
 ID: T26.G8.07
 Topic: T26 – Data Analysis & Storytelling
-Skill: Peer review and improve data analyses
-Description: Students review sample or peer analyses and provide structured feedback: (1) Data quality issues, (2) Visualization problems, (3) Statistical reasoning gaps, (4) Communication clarity, (5) Specific improvement suggestions. They receive and respond to feedback on their own work, iterating to improve quality.
+Skill: Critique and improve an existing data analysis
+Description: Students review a peer's or sample data analysis project and provide constructive feedback on data quality, visualization choices, statistical reasoning, and communication clarity. They suggest specific improvements and explain their reasoning. This develops analytical peer review skills.
 
 Dependencies:
-* T26.G6.13: Detect and critique misleading visualizations
+* T26.G6.13: Detect misleading visualizations
 * T26.G8.01: Determine if differences are statistically meaningful
 
 
@@ -36461,50 +36116,13 @@ Dependencies:
 
 ID: T26.G8.08
 Topic: T26 – Data Analysis & Storytelling
-Skill: Consider data ethics and privacy in analysis
-Description: Students evaluate ethical dimensions: Is this data collected with consent? Could analysis harm individuals (even anonymized data can be re-identified)? Is the sample representative or biased against certain groups? They document ethical considerations in reports and propose mitigations for identified risks.
+Skill: Design a complete data investigation from question to recommendation
+Description: Students independently execute a full data analysis cycle: formulate an investigative question, identify needed data and potential biases, collect or import data, clean and validate it, analyze using appropriate statistical methods and visualizations, interpret findings with uncertainty acknowledged, and present actionable recommendations. This is a capstone project demonstrating mastery of the entire data analysis process.
 
 Dependencies:
-* T26.G8.07: Peer review and improve data analyses
-* T26.G7.08: Evaluate fairness by comparing outcomes across groups
-
-
-
-
-ID: T26.G8.09
-Topic: T26 – Data Analysis & Storytelling
-Skill: Design and execute a complete data investigation project
-Description: Students independently complete a full analysis cycle: (1) formulate research question, (2) identify data needs and potential biases, (3) collect/import data, (4) clean and validate, (5) analyze with appropriate methods, (6) visualize findings, (7) interpret with uncertainty acknowledged, (8) present recommendations, (9) consider ethics. This capstone demonstrates mastery of the entire data analysis process.
-
-Dependencies:
-* T26.G8.05: Build simple predictive models from historical trends
-* T26.G8.06: Communicate uncertainty and confidence levels in findings
-* T26.G8.08: Consider data ethics and privacy in analysis
-
-
-
-
-ID: T26.G8.10
-Topic: T26 – Data Analysis & Storytelling
-Skill: Create multi-modal data presentations with voice and visuals
-Description: Students combine all storytelling modalities: TTS narration walks through findings, AI-generated images illustrate key concepts, interactive charts let viewers explore, widget controls allow audience to filter by their interests. They design for accessibility with multiple ways to engage with the same data story.
-
-Dependencies:
-* T26.G8.04: Publish interactive data stories for audiences
-* T26.G7.12: Use AI to generate data story narratives
-* T21.G6.01: Generate an image based on a text prompt using AI
-
-
-
-
-ID: T26.G8.11
-Topic: T26 – Data Analysis & Storytelling
-Skill: Validate analysis reproducibility
-Description: Students ensure their analysis can be reproduced: document all data sources, cleaning steps, analysis decisions, and assumptions. They run analysis multiple times with same inputs to verify consistent results. They provide enough detail that another student could replicate their findings.
-
-Dependencies:
-* T26.G8.09: Design and execute a complete data investigation project
-* T26.G8.02: Automate complete report generation
+* T26.G8.05: Build a predictive model using historical data
+* T26.G8.06: Communicate uncertainty in findings
+* T26.G8.07: Critique and improve an existing data analysis
 
 
 
@@ -36521,35 +36139,13 @@ Dependencies:
 
 
 
-ID: T27.GK.01.01
-Topic: T27 – Chance & Simulations
-Skill: Explain why some events always happen using picture examples
-Description: **Student task:** Select the picture that shows WHY an event always happens. **Visual scenario:** Show 4 picture pairs: (A) "Ball falls" → student picks reason: "gravity pulls down" (picture of arrow pointing down), (B) "Ice melts in sun" → "sun is hot" (picture of sun with heat lines). Multiple choice for each. **Discussion prompt:** "The sun ALWAYS rises. Can anyone stop it?" (No—nature's rules). **Key concept:** Some events follow rules that never break. **Success criteria:** Match 3 of 4 events to correct reasons. _Implementation note: Matching game with picture-based reasons._
-
-Dependencies:
-* T27.GK.01: Sort picture cards into "will happen" and "won't happen"
-
-
-
-
 ID: T27.GK.02
 Topic: T27 – Chance & Simulations
 Skill: Select "maybe" events and place them in the middle bin
 Description: **Student task:** Given 6 new picture cards, select those showing uncertain events and place them in a "maybe" bin between "will happen" and "won't happen." **Visual scenario:** Cards show: (A) "Will it rain today?" with clouds in sky, (B) "Will I pick a red crayon?" showing hand reaching into mixed crayon box, (C) "Will the coin land heads?" showing a flipping coin, (D) "Will the spinner land on blue?" showing a 4-color spinner. The "will happen" and "won't happen" cards from GK.01 remain in their bins as anchors. **Success criteria:** Student correctly identifies 4+ cards as "maybe" events. **Discussion prompt:** "Why can't we know for sure what will happen?" _Implementation note: Three-bin sorting with audio confirmation. Auto-graded by correct placements._
 
 Dependencies:
-* T27.GK.01.01: Explain why some events always happen using picture examples
-
-
-
-
-ID: T27.GK.02.01
-Topic: T27 – Chance & Simulations
-Skill: Match random tools to their outcomes using picture cards
-Description: **Student task:** Match 4 picture cards of random tools (coin, die, spinner, grab bag) to picture cards showing their possible results. **Visual scenario:** Tools: (A) coin → heads or tails pictures, (B) 6-sided die → numbers 1-6 dots, (C) 4-color spinner → color circles, (D) bag with mixed candies → different candy colors. **Procedure:** Drag each tool card to its matching outcome card set. **Discussion prompt:** "What makes these tools special? We don't know what will happen until we try!" **Key concept:** Random tools give different results each time. **Success criteria:** Match all 4 tools to correct outcome sets. _Implementation note: Drag-to-match interface with visual outcome cards._
-
-Dependencies:
-* T27.GK.02: Select "maybe" events and place them in the middle bin
+* T27.GK.01: Sort picture cards into "will happen" and "won't happen"
 
 
 
@@ -36560,18 +36156,7 @@ Skill: Spin a picture spinner and compare results to hopes
 Description: **Student task:** Spin a 4-color paper spinner 5 times. Before each spin, tap the color you hope to land on. After spinning, tap the color you actually landed on. **Visual scenario:** Digital spinner with 4 equal sections (red, blue, green, yellow). Screen shows two columns: "I hoped for" and "I got." After 5 spins, student sees comparison table. **Key observation:** Students notice their hopes didn't control outcomes—sometimes they got what they hoped for, sometimes not. **Discussion prompt:** "Could you make the spinner land where you wanted? Why not?" **Success criteria:** Complete 5 spins and answer reflection question. _Implementation note: Animated spinner with tap-to-select prediction before each spin. Records hope vs outcome for comparison._
 
 Dependencies:
-* T27.GK.02.01: Match random tools to their outcomes using picture cards
-
-
-
-
-ID: T27.GK.04
-Topic: T27 – Chance & Simulations
-Skill: Count items in a picture bag and predict which color is easiest to pick
-Description: **Student task:** Look at a picture of a bag with colored balls visible inside. Count each color and predict which is easiest to pick randomly. **Visual scenario:** Transparent bag shows: 5 red balls, 2 blue balls, 1 green ball. **Questions:** (1) "How many red balls?" (5), (2) "How many blue balls?" (2), (3) "If you close your eyes and pick one, which color will you PROBABLY get?" (Red—there are more red). **Discussion prompt:** "Why is red easier to pick? Because there are MORE of them!" **Key concept:** More items = easier to pick randomly. **Success criteria:** Count all colors correctly, predict most likely color. _Implementation note: Interactive counting with highlight feature._
-
-Dependencies:
-* T27.GK.03: Spin a picture spinner and compare results to hopes
+* T27.GK.02: Select "maybe" events and place them in the middle bin
 
 
 
@@ -36582,7 +36167,7 @@ Skill: Predict coin flips and record outcomes with stickers
 Description: **Student task:** Predict "heads" or "tails" before each of 6 coin flips, then record what actually happens. **Visual scenario:** Recording sheet with two columns labeled with pictures: coin showing heads, coin showing tails. Before each flip, student taps prediction (heads/tails picture). After flip, student places a virtual sticker in the correct column. **Procedure:** (1) Tap prediction, (2) Watch coin flip animation, (3) Place sticker under matching result. **After 6 flips:** Count stickers in each column. Answer: "How many heads? How many tails? Were your guesses mostly right or mostly wrong?" **Success criteria:** Complete 6 flips with predictions and counts recorded correctly. _Implementation note: Animated coin flip with sticker placement. Auto-graded by correct recording._
 
 Dependencies:
-* T27.GK.04: Count items in a picture bag and predict which color is easiest to pick
+* T27.GK.03: Spin a picture spinner and compare results to hopes
 
 
 
@@ -36609,24 +36194,13 @@ Dependencies:
 
 
 
-ID: T27.G1.04
-Topic: T27 – Chance & Simulations
-Skill: Order events from impossible to certain on a picture line
-Description: **Student task:** Place 5 event picture cards on a line from "Impossible" to "Certain." **Visual scenario:** Line has markers: Impossible (0) - Maybe (middle) - Certain (1). Event cards: (A) Sun rising tomorrow (certain), (B) Rolling a 7 on a regular die (impossible), (C) Picking a red from 3 red + 3 blue (middle-maybe), (D) Dropping a ball and it falls (certain), (E) Getting heads on a coin (middle-maybe). **Procedure:** Drag each card to its position on the line. **Discussion prompt:** "Which events go in the middle? Why can't we be SURE about them?" **Key concept:** Events have different levels of certainty—some always happen, some never, some might. **Success criteria:** Place all 5 cards in approximately correct positions. _Implementation note: Drag-to-line interface with feedback on placement._
-
-Dependencies:
-* T27.G1.03: Sort picture cards by likelihood (more likely, less likely)
-
-
-
-
 ID: T27.G2.01
 Topic: T27 – Chance & Simulations
 Skill: Classify events as certain, possible, or impossible
 Description: **Student task:** Sort 9 illustrated picture cards into three labeled bins: "Certain" (always happens), "Possible" (might happen), and "Impossible" (cannot happen). **Visual scenarios:** Certain events: (A) sun rising tomorrow, (B) dropped rock falling down, (C) January coming after December. Possible events: (D) rolling a 3 on a die, (E) picking a red marble from bag with red and blue, (F) coin landing heads. Impossible events: (G) rolling 7 on a standard die, (H) drawing blue from bag with only red marbles, (I) person jumping to the moon. **Success criteria:** Sort all 9 cards correctly. **Extension question:** "Can you think of another possible event?" _Implementation note: Three-bin sorting with visual feedback showing why each answer is correct._
 
 Dependencies:
-* T27.G1.04: Order events from impossible to certain on a picture line
+* T27.G1.03: Sort picture cards by likelihood (more likely, less likely)
 
 
 
@@ -36677,17 +36251,6 @@ Description: **Student task:** Watch a pre-built CreatiCode spinner simulation r
 Dependencies:
 * T27.G2.04: Test whether predictions can beat random chance
 * T27.G2.02: Run a chance experiment and tally results
-
-
-
-
-ID: T27.G2.06
-Topic: T27 – Chance & Simulations
-Skill: Identify unfair spinners by comparing section sizes in pictures
-Description: **Student task:** Look at 4 spinner pictures and identify which ones are "fair" vs "unfair." **Visual scenario:** (A) 4 equal sections—FAIR, (B) One section takes half the circle—UNFAIR (that color has better chance), (C) 3 equal sections—FAIR, (D) 6 sections but one is twice as big—UNFAIR. **Questions for each:** "Would you want to play a game where everyone picks a color on this spinner? Why or why not?" **Key concept:** Fair means everyone has the SAME chance. If sections are different sizes, chances are different! **Discussion prompt:** "If you could pick any color on spinner B, which would you pick? Why?" (The big one—it has a better chance). **Success criteria:** Correctly classify 4 of 4 spinners as fair or unfair with reasoning. _Implementation note: Spinner pictures with interactive fair/unfair toggle and reasoning selection._
-
-Dependencies:
-* T27.G2.03: Compare spinners and decide which game is fair
 
 
 
@@ -36781,25 +36344,13 @@ Dependencies:
 
 
 
-ID: T27.G3.08
-Topic: T27 – Chance & Simulations
-Skill: Shuffle a list randomly and observe the results
-Description: **Student task:** Use CreatiCode's 'reshuffle list randomly' block to explore randomized ordering. **Build steps:** (1) Create a list with 5 items: [A, B, C, D, E], (2) Display the list, (3) Add 'reshuffle [mylist] randomly' block, (4) Display the list again. **Observation:** Run 5 times and write down each shuffled order. **Analysis questions:** (1) "Did you ever get the same order twice?" (Unlikely!), (2) "Did every letter appear in every position at least once across your 5 runs?" (Check!), (3) "Why is shuffling useful in games?" (For card dealing, random turn order, surprise elements). **Real-world connections:** Card shuffling, randomized quiz questions, music shuffle. **Key concept:** Shuffling rearranges items randomly—each possible order has equal chance. **Success criteria:** Successfully shuffle list multiple times, record different orderings. _Implementation note: Use data_reshuffle block._
-
-Dependencies:
-* T27.G3.07: Build a random number generator from scratch
-* T10.G3.02: Add an item to a list
-
-
-
-
 ID: T27.G4.01
 Topic: T27 – Chance & Simulations
 Skill: Map random numbers to named outcomes using if-statements
 Description: **Student task:** Extend a random generator to show meaningful words instead of raw numbers. **Build steps:** (1) Set 'roll' to pick random 1 to 4, (2) Add if-statements to convert: 'if roll = 1 then say "red"', 'else if roll = 2 then say "blue"', 'else if roll = 3 then say "green"', 'else say "yellow"'. **Testing:** Click green flag 20+ times. **Verification checklist:** □ Red appeared at least once, □ Blue appeared at least once, □ Green appeared at least once, □ Yellow appeared at least once. **Debugging scenario:** "What if you only see 3 colors after 20 tries? Is the code broken?" (Not necessarily—rare outcomes might need more tries. Try 50 times.) **Key concept:** Random numbers can drive meaningful outcomes—the number 1 BECOMES "red." **Success criteria:** All 4 colors appear within 25 tries, if-statement structure is correct. _Implementation note: Verification checklist auto-checks as outcomes appear._
 
 Dependencies:
-* T27.G3.08: Shuffle a list randomly and observe the results
+* T27.G3.07: Build a random number generator from scratch
 * T08.G3.01: Use a simple if in a script
 
 
@@ -37024,18 +36575,6 @@ Dependencies:
 * T27.G5.01.02: Analyze compound event distributions and explain why 7 is most common
 * T26.G4.02: Create a histogram from continuous data
 
-
-
-
-
-ID: T27.G5.07.01
-Topic: T27 – Chance & Simulations
-Skill: Generate batch random data using the set-random-list block
-Description: **Student task:** Use CreatiCode's 'set list to N random numbers' block to efficiently generate large datasets. **Build steps:** (1) 'set [rolls] to (100) random whole numbers between (1) and (6) [allow repetition]', (2) Display the list to verify 100 values, (3) Count each outcome (1-6) from the list. **Comparison:** This single block replaces a 100-iteration loop with pick random inside! **Efficiency test:** Time how long it takes to generate 1000 values with a loop vs with this block. **Analysis:** Generate 1000 die rolls, count frequencies, compare to expected ~167 each. **Extension:** Try 'no repetition' mode—what happens if you try to generate 10 unique numbers between 1 and 6? (Works—gives all 6 in random order. What about 100 unique numbers between 1 and 6? Error—impossible!). **Success criteria:** Generate batch data, understand repetition modes, count frequencies correctly. _Implementation note: Use data_setrandomlist block._
-
-Dependencies:
-* T27.G5.07: Create and analyze frequency distributions from simulation data
-* T27.G4.02.01: Automate data collection by logging trial results to a list
 
 
 
@@ -37437,111 +36976,38 @@ Dependencies:
 
 
 
-ID: T27.G8.07
-Topic: T27 – Chance & Simulations
-Skill: Use physics simulation for probability experiments (Galton board)
-Description: **Student task:** Build a virtual Galton board (bean machine) using CreatiCode's 2D physics engine to demonstrate the normal distribution. **Build steps:** (1) Initialize 2D physics world with gravity: 'initialize 2D physics world with gravity x [0] y [-100]', (2) Create rows of pegs (circles with frozen physics bodies), (3) Drop balls from top center with small random x offset, (4) Collect balls in bins at bottom, count per bin. **Physics setup:** Balls have restitution 50% (bounce), pegs have friction. **After 100+ balls:** The bin counts form a bell curve! **Analysis questions:** (1) "Why does a ball end up in the middle more often?" (Equal chance left/right at each peg → more paths to middle), (2) "How is this related to flipping coins?" (Each peg is like a coin flip—left or right). **Connection:** This is the Central Limit Theorem in physical form—many random choices sum to a normal distribution. **Success criteria:** Working Galton board, bell curve visible in bin counts. _Implementation note: Use physics engine blocks for realistic ball bouncing._
 
-Dependencies:
-* T27.G7.01: Build a predator-prey simulation with probabilistic behaviors
-* T27.G5.01.02: Analyze compound event distributions and explain why 7 is most common
-
-
-
-
-ID: T27.G8.08
-Topic: T27 – Chance & Simulations
-Skill: Apply variance reduction techniques to improve simulation efficiency
-Description: **Student task:** Learn and apply techniques to get accurate simulation results with fewer trials. **Problem:** Estimating probability of rare event (1%) with standard Monte Carlo requires 10,000+ trials for accuracy. **Technique 1—Stratified sampling:** Instead of fully random, ensure proportional sampling from known subgroups. Run both methods, compare variance. **Technique 2—Antithetic variates:** For each random number R, also use 1-R. Reduces variance because R and 1-R are negatively correlated. **Experiment:** Estimate π with 500 random points vs 250 pairs of antithetic points. Compare standard deviation of estimates over 20 runs. **Analysis questions:** (1) "Why does stratified sampling reduce variance?" (Guarantees coverage of all subgroups), (2) "When is antithetic sampling helpful?" (When outcome is monotonic in the random variable). **Key concept:** Smart sampling > brute force. Professional simulations use these techniques to save computation time. **Success criteria:** Implement both techniques, demonstrate reduced variance. _Implementation note: Variance comparison across multiple runs._
-
-Dependencies:
-* T27.G8.02: Use bootstrap sampling to estimate confidence intervals
-* T27.G7.04: Perform permutation tests to determine if differences are statistically meaningful
-
-
-
-
-ID: T27.G8.09
-Topic: T27 – Chance & Simulations
-Skill: Perform sensitivity analysis on simulation parameters
-Description: **Student task:** Systematically analyze how sensitive simulation outcomes are to changes in each input parameter. **Procedure:** (1) Identify all parameters: e.g., predator speed, prey speed, detection range, starting populations. (2) For each parameter, vary by ±10%, ±25%, ±50% while holding others constant. (3) Record outcome change (e.g., average prey survival time). (4) Calculate sensitivity index: (% change in output) / (% change in input). **Results table:** Parameter | Base value | Sensitivity index. **Interpretation:** High sensitivity (>1) means small input changes cause big output changes—these parameters need careful calibration! Low sensitivity (<0.1) means parameter barely matters. **Tornado diagram:** Sort parameters by sensitivity, create horizontal bar chart showing range of outcomes. **Key concept:** Sensitivity analysis identifies which assumptions matter most—crucial for model credibility. **Success criteria:** Analyze 4+ parameters, create tornado diagram, identify most sensitive parameter. _Implementation note: Automated parameter variation with tornado chart generation._
-
-Dependencies:
-* T27.G8.01: Build an automated simulation-to-dashboard pipeline
-* T27.G6.01.02: Automate parameter sweeps with nested loops
-
-
-
-
-ID: T27.G8.10
-Topic: T27 – Chance & Simulations
-Skill: Implement evolutionary optimization using random mutation and selection
-Description: **Student task:** Build a simple genetic algorithm to optimize a solution through random variation and selection. **Problem:** Find the best parameters for a game AI (speed, aggression, caution) to maximize score. **Algorithm:** (1) Create population of 10 random parameter sets, (2) Run each set in simulation, record scores, (3) Select top 3 performers as "parents", (4) Create new population by copying parents with random mutations (e.g., speed ± pick random -5 to 5), (5) Repeat for 20 generations. **Visualization:** Graph best score and average score per generation—should see improvement over time! **Analysis questions:** (1) "Why do we keep top performers?" (Preserve good solutions), (2) "Why add random mutations?" (Explore new possibilities, escape local optima), (3) "How is this like biological evolution?" (Survival of fittest + variation). **Real-world use:** Neural network training, game AI, logistics optimization. **Success criteria:** Algorithm improves scores over generations, visualize improvement. _Implementation note: Population list with mutation and selection logic._
-
-Dependencies:
-* T27.G8.01: Build an automated simulation-to-dashboard pipeline
-* T27.G7.01: Build a predator-prey simulation with probabilistic behaviors
-
-
-
-
-ID: T27.G8.11
-Topic: T27 – Chance & Simulations
-Skill: Use seeded random lists for batch simulation experiments
-Description: **Student task:** Leverage CreatiCode's 'set list to N random numbers with seed' block for efficient batch simulations. **Procedure:** (1) Generate 1000 random numbers with seed 42: 'set [randomList] to (1000) random numbers with seed (42)', (2) Use list values in simulation instead of calling pick random repeatedly, (3) Run same simulation on different seeds (42, 43, 44...) to create replications. **Advantages:** (A) Pre-generating is faster than per-trial generation, (B) Same seed = exact reproduction for debugging, (C) Different seeds = independent replications for statistics. **Experiment:** Run 100 trials each with seeds 1-20. Calculate mean and standard deviation of means across seeds. **The Central Limit Theorem:** Distribution of means is tighter than distribution of individual trials! **Analysis:** "Why do we run multiple seeds instead of one big run?" (Each seed is an independent experiment, giving us a sample of possible outcomes). **Success criteria:** Batch runs across 20 seeds, demonstrate mean convergence, explain CLT. _Implementation note: Use CreatiCode's seeded random list block._
-
-Dependencies:
-* T27.G6.02: Use random seeds for reproducible simulations
-* T27.G8.02: Use bootstrap sampling to estimate confidence intervals
-
-
-
-
-ID: T27.G8.12
-Topic: T27 – Chance & Simulations
-Skill: Visualize simulation results with real-time charts
-Description: **Student task:** Use CreatiCode's chart widget blocks to display live simulation data as bar, line, and pie charts. **Build steps:** (1) Collect simulation data in a list during run, (2) After collection: 'draw [bar v] chart using list [results] x (0) y (0) width (200) height (150)', (3) Add line chart for time series data: 'draw [line v] chart using columns [step,value] from table [data v]'. **Chart types:** Bar for comparing categories (outcomes A vs B vs C), Line for trends over time, Pie for proportions. **Dashboard:** Create multi-chart display showing different views of same data. **Interactivity:** Update chart after each parameter change to show real-time impact. **Professional practice:** Data scientists always visualize before analyzing—patterns visible in charts might be missed in numbers. **Success criteria:** Create 3 different chart types from simulation data, dashboard updates dynamically. _Implementation note: Use widget_drawchartusinglist and widget_drawchartusingcolumn blocks._
-
-Dependencies:
-* T27.G8.01: Build an automated simulation-to-dashboard pipeline
-* T27.G7.06.02: Aggregate and display population-level metrics from multi-agent simulations
-
-
-
-
-# T28 - Text Data & NLP Foundations (Phase 7 Optimized - November 2025)
-# Applied Phase 7 topic-focused optimizations:
+# T28 - Text Data & NLP Foundations (Phase 6 Optimized - November 2025)
+# Applied Phase 6 topic-focused optimizations:
 # MAJOR CHANGES:
-# 1. Enhanced K-2 Skills with Detailed Picture-Based Scenarios:
-#    - All K-2 skills now include **Student task**, **Visual scenario**, and **Implementation note**
-#    - Added specific picture card descriptions, sorting bins, and auto-grading criteria
-#    - GK.01: Sort cards into text/pictures/numbers (3 bins)
-#    - GK.02: Count letters with tap-to-count interaction
-#    - GK.03: Match words to pictures (line-drawing activity)
-#    - GK.04: Find text in real-world photo scenes
-#    - G1.01-G1.05: All updated with visual scenarios
-#    - G2.01-G2.05: All updated with visual scenarios
-# 2. Active Verbs Throughout:
-#    - "Explain how AI models tokenize" → "Demonstrate how AI models tokenize"
-#    - "Explain RAG concept" → "Build a simple RAG system"
-#    - All skills now use: Sort, Count, Circle, Predict, Match, Build, Debug, Trace, Analyze
-# 3. Improved Grade 3+ Skill Descriptions:
-#    - Added predict-then-verify structure for tracing skills
-#    - Added explicit examples (e.g., "Hello World" split by " " → ["Hello", "World"])
-#    - Added "Why it matters" connections to computational thinking
-# 4. ChatGPT/AI Skills Enhanced:
-#    - T28.G4.05.02: Added flow tracing (prompt → process → response → variable)
-#    - T28.G4.05.04: Added experimental comparison (temp=0 vs temp=1)
-#    - T28.G5.11: Build content safety checker (not just "use")
-#    - T28.G7.07: Build RAG system (not just "explain")
-# 5. Fixed Intra-Topic Dependencies:
-#    - Updated dependency references to match new skill titles
-# Total: 99 skills (maintained)
+# 1. Fixed Dependency Text Mismatches:
+#    - T28.G5.03.02: "Understand stop-words" → "Identify stop-words in word frequency results"
+#    - T28.G5.04.01: "Recognize emotional tone" → "Label emotional tone in sample texts"
+#    - T28.G6.01: "Understand tokenization concepts" → "Explain how AI models tokenize text"
+#    - T28.G8.05.02: "Understand regex pattern basics" → "Apply basic regex pattern syntax"
+# 2. Added 14 New Skills for Depth and Coverage:
+#    - T28.GK.04: Sort pictures by text/number content (picture-based game)
+#    - T28.G1.05: Predict next word in sentence patterns
+#    - T28.G2.05: Follow text commands in sequence (Simon Says concept)
+#    - T28.G3.06: Debug text comparison errors
+#    - T28.G4.08.01: Check if text is a number
+#    - T28.G4.08.02: Convert text to number
+#    - T28.G5.12: Find longest common substring
+#    - T28.G6.05.01: Select AI model size for task requirements
+#    - T28.G6.05.02: Attach image to chat for vision analysis
+#    - T28.G7.02.01: Translate text between languages
+#    - T28.G7.02.02: Build multi-lingual chatbot
+#    - T28.G7.06: Display text with rich text widget
+#    - T28.G7.07: Explain RAG (Retrieval-Augmented Generation) concept
+#    - T28.G8.07: Extract structured output from LLM
+# 3. Expanded Grade 7 from 6 to 10 skills (addressing thin coverage)
+# 4. All skills use active verbs throughout
+# Total: 85 → 99 skills (+14 new skills)
 
 ID: T28.GK.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Sort picture cards into text vs pictures vs numbers
-Description: **Student task:** Drag picture cards into three sorting bins labeled "Text," "Pictures," and "Numbers." **Visual scenario:** Picture cards show: the word "DOG" printed on paper, a photo of a dog, the number "5", a STOP sign, a smiley face drawing, the word "HELLO," price tag showing "$3," rainbow drawing. Three bins with icons. **Correct sorting:** Text bin: DOG, STOP sign text, HELLO. Pictures bin: dog photo, smiley face, rainbow. Numbers bin: 5, price tag. Audio prompt: "Text is letters that make words we can read." _Implementation note: Drag-drop sorting with 8 cards and 3 bins. Auto-graded by bin contents. CSTA: K-2-DA-07._
+Skill: Recognize text vs pictures
+Description: Students sort cards showing text (words/letters), pictures, and numbers into separate groups, identifying text as "letters that make words we can read."
 
 Dependencies:
 (none)
@@ -37552,11 +37018,11 @@ Dependencies:
 
 ID: T28.GK.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Count letters in words using picture cards
-Description: **Student task:** View word cards and tap to count letters, then drag each word to the correct "number of letters" bin. **Visual scenario:** Word cards show: CAT, DOG, SUN, FISH, BALL, HI. Bins labeled: "2 letters," "3 letters," "4 letters." Students tap each letter in a word (letters highlight as tapped), then the total count appears. Finally, drag word to correct bin. **Correct sorting:** 2 letters: HI. 3 letters: CAT, DOG, SUN. 4 letters: FISH, BALL. _Implementation note: Tap-to-count interaction followed by drag-drop sorting. Audio counts along: "One, two, three!" Auto-graded by letter counts and bin placement. CSTA: K-2-DA-07._
+Skill: Identify letters in text
+Description: Given simple words (CAT, DOG, SUN), students point to individual letters and count how many letters are in each word, building awareness of text structure.
 
 Dependencies:
-* T28.GK.01: Sort picture cards into text vs pictures vs numbers
+* T28.GK.01: Recognize text vs pictures
 
 
 
@@ -37564,22 +37030,22 @@ Dependencies:
 
 ID: T28.GK.03
 Topic: T28 – Text Data & NLP Foundations
-Skill: Match words to pictures to show text has meaning
-Description: **Student task:** Draw lines to connect word cards to matching picture cards. **Visual scenario:** Left column shows word cards: CAT, TREE, APPLE, STAR, HOUSE. Right column shows shuffled pictures: cat drawing, tree drawing, apple drawing, star shape, house drawing. Students draw lines connecting each word to its picture. After matching, audio says "The word CAT means this furry animal!" for each pair. **Why it matters:** Text carries meaning—the same word always points to the same thing. _Implementation note: Line-drawing matching activity with 5 pairs; audio reinforcement on completion. Auto-graded by correct pairings. CSTA: K-2-DA-07._
+Skill: Recognize that text has meaning
+Description: Students match simple written words to pictures (matching "CAT" to cat picture), understanding that text represents things and carries meaning.
 
 Dependencies:
-* T28.GK.02: Count letters in words using picture cards
+* T28.GK.02: Identify letters in text
 
 
 
 
 ID: T28.GK.04
 Topic: T28 – Text Data & NLP Foundations
-Skill: Find text in everyday pictures
-Description: **Student task:** View pictures of real-world scenes and tap to circle where you see text. **Visual scenario:** Scene 1: Grocery store aisle—circle "MILK" on carton, "SALE" sign, price tags. Scene 2: Street scene—circle "STOP" sign, store name "TOYS," street name sign. Scene 3: Book cover—circle title and author name. For each scene, audio asks "Where do you see words?" After circling, students tap to reveal why that text helps people (STOP tells cars to stop, price tells how much). _Implementation note: Tap-to-circle on 3 photo scenes, 2-4 text locations each. Auto-graded by circled regions. CSTA: K-2-DA-07._
+Skill: Sort pictures by text/number content
+Description: Students play a sorting game with picture cards that contain text or numbers (license plates, house numbers, store signs), categorizing them as "has text" or "has numbers," building visual text recognition.
 
 Dependencies:
-* T28.GK.03: Match words to pictures to show text has meaning
+* T28.GK.03: Recognize that text has meaning
 
 
 
@@ -37589,11 +37055,11 @@ Dependencies:
 
 ID: T28.G1.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Sort word cards by first letter into alphabet bins
-Description: **Student task:** Drag word cards into bins labeled with letters A, B, C, D. **Visual scenario:** Word cards show: APPLE, BALL, CAT, ANT, DOG, BANANA, CAKE, DUCK. Four bins with large letters A, B, C, D. Students drag each word to the bin matching its first letter. Visual hint: first letter of each word is highlighted in red. **Correct sorting:** A bin: APPLE, ANT. B bin: BALL, BANANA. C bin: CAT, CAKE. D bin: DOG, DUCK. **Why it matters:** Sorting words by first letter helps us look things up quickly, like in a dictionary! _Implementation note: Drag-drop sorting with 8 words and 4 bins. Auto-graded by bin contents. CSTA: K-2-DA-08._
+Skill: Sort words by first letter
+Description: Students organize word cards alphabetically by first letter (all A words together, all B words together), preparing for dictionary and lookup concepts.
 
 Dependencies:
-* T28.GK.03: Match words to pictures to show text has meaning
+* T28.GK.03: Recognize that text has meaning
 
 
 
@@ -37601,11 +37067,11 @@ Dependencies:
 
 ID: T28.G1.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Count words in a sentence by tapping each word
-Description: **Student task:** Tap each word in a sentence to count them, then select the correct total. **Visual scenario:** Sentence strips appear one at a time: "I SEE A CAT" (4 words), "THE DOG RUNS" (3 words), "SHE HAS A BIG RED BALL" (6 words). Students tap each word (words highlight and a counter increments: 1, 2, 3...). Then select the total from options. Key learning: spaces separate words—"I SEE" is 2 words, not 4 letters. **Why it matters:** Computers count words by finding spaces! _Implementation note: Tap-counting with 3 sentences; counter display; MCQ for total. Audio counts along. Auto-graded by final count selection. CSTA: K-2-DA-08._
+Skill: Count words in a sentence
+Description: Given simple sentences written on strips, students count how many words are in each sentence by pointing to each word, distinguishing between letters and words.
 
 Dependencies:
-* T28.GK.03: Match words to pictures to show text has meaning
+* T28.GK.03: Recognize that text has meaning
 
 
 
@@ -37613,11 +37079,11 @@ Dependencies:
 
 ID: T28.G1.03
 Topic: T28 – Text Data & NLP Foundations
-Skill: Sort word cards into meaning categories
-Description: **Student task:** Drag word cards into category bins, then explain one grouping choice. **Visual scenario:** Word cards: DOG, RED, RUN, APPLE, CAT, BLUE, JUMP, BANANA. Four bins with picture icons: Animals (paw print), Colors (rainbow), Actions (running stick figure), Foods (plate). Students drag each word to its category bin. After sorting, audio asks "Why did DOG go in Animals?" and student selects answer: (A) because dogs are pets [correct], (B) because dogs are red. **Why it matters:** Grouping words by meaning helps computers understand language! _Implementation note: Drag-drop sorting with 8 words, 4 bins, plus 1 MCQ explanation. Auto-graded by bin contents and MCQ. CSTA: K-2-DA-08._
+Skill: Group words by category
+Description: Students sort word cards into concrete categories: animals, colors, actions, foods. They explain why each word belongs in its group.
 
 Dependencies:
-* T28.GK.03: Match words to pictures to show text has meaning
+* T28.GK.03: Recognize that text has meaning
 
 
 
@@ -37625,22 +37091,22 @@ Dependencies:
 
 ID: T28.G1.04
 Topic: T28 – Text Data & NLP Foundations
-Skill: Circle matching words across sentences
-Description: **Student task:** Read sentences and tap to circle words that appear in more than one sentence. **Visual scenario:** Three sentences displayed: "THE CAT IS HAPPY." "THE DOG IS BIG." "MY CAT IS FAST." Student taps words appearing multiple times. Correct circles: THE (appears in sentences 1 & 2), CAT (appears in sentences 1 & 3), IS (appears in all 3). Matching words highlight in the same color when circled. Counter shows "Found 3 of 3 matching words!" **Why it matters:** Finding repeated words is how computers search for things in text! _Implementation note: Tap-to-circle with 3 sentences; color coding for matches. Auto-graded by identifying all repeated words. CSTA: K-2-DA-08._
+Skill: Identify same words in different sentences
+Description: Given 2-3 simple sentences, students find and circle words that appear in multiple sentences, building pattern recognition for word matching.
 
 Dependencies:
-* T28.G1.02: Count words in a sentence by tapping each word
+* T28.G1.02: Count words in a sentence
 
 
 
 
 ID: T28.G1.05
 Topic: T28 – Text Data & NLP Foundations
-Skill: Predict the next word in a pattern
-Description: **Student task:** Read a word pattern and select what comes next. **Visual scenario:** Pattern 1: "RED, BLUE, RED, BLUE, RED, ___" with options: BLUE [correct], GREEN, RED. Pattern 2: "I have a CAT. I have a DOG. I have a ___" with options: FISH [correct], CAT, HAVE. Pattern 3: "BIG, BIGGER, ___" with options: BIGGEST [correct], SMALL, BIG. Words in pattern are color-coded to show repeating structure. **Why it matters:** AI helpers predict the next word you might type—that's autocomplete! _Implementation note: 3 pattern-completion MCQs with visual pattern highlighting. Auto-graded by correct selections. CSTA: K-2-DA-09._
+Skill: Predict next word in sentence patterns
+Description: Students complete simple sentence patterns by predicting the next word (e.g., "red, blue, green, ___" or "I see a cat. I see a dog. I see a ___"), introducing word prediction concepts.
 
 Dependencies:
-* T28.G1.04: Circle matching words across sentences
+* T28.G1.04: Identify same words in different sentences
 
 
 
@@ -37650,11 +37116,11 @@ Dependencies:
 
 ID: T28.G2.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Identify rhyming and repeating word patterns
-Description: **Student task:** Read poems and tap words that rhyme or repeat, then label the pattern type. **Visual scenario:** Poem 1: "The CAT sat on a HAT, the RAT ran to the MAT." Tap rhyming words (CAT-HAT-RAT-MAT highlight same color). Poem 2: "I LIKE bikes. I LIKE kites. I LIKE to fly." Tap repeated phrase (I LIKE highlights). Label each: "rhyming" or "repeating." **Pattern recognition key:** Rhyming = same ending sounds, Repeating = exact same words. Counter shows "Found 4 rhymes!" or "Found 3 repeats!" **Why it matters:** Patterns help computers analyze poetry and songs! _Implementation note: Tap-to-highlight in 2 poems plus pattern labeling MCQ. Auto-graded by correct highlights and labels. CSTA: K-2-DA-09._
+Skill: Recognize text patterns (rhyming, repetition)
+Description: Students identify patterns in text such as rhyming words (cat/hat) or repeated words in a short poem, preparing for computational pattern matching.
 
 Dependencies:
-* T28.G1.04: Circle matching words across sentences
+* T28.G1.04: Identify same words in different sentences
 
 
 
@@ -37662,11 +37128,11 @@ Dependencies:
 
 ID: T28.G2.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Arrange sentences from shortest to longest by word count
-Description: **Student task:** Count words in each sentence strip, then drag to arrange from shortest to longest. **Visual scenario:** Four sentence strips: "RUN" (1 word), "I LIKE DOGS" (3 words), "SHE HAS A PET" (4 words), "THE CAT" (2 words). Students tap each strip to see word count, then drag strips into order: 1st slot (shortest) → 4th slot (longest). **Correct order:** RUN (1) → THE CAT (2) → I LIKE DOGS (3) → SHE HAS A PET (4). Visual shows length bars growing taller. **Why it matters:** Measuring text length helps computers organize and compare text! _Implementation note: Tap-to-count then drag-to-order with 4 strips. Auto-graded by final ordering. CSTA: K-2-DA-08._
+Skill: Sort sentences by length
+Description: Students arrange sentence strips from shortest to longest by counting words in each, understanding that text can be measured and compared.
 
 Dependencies:
-* T28.G1.02: Count words in a sentence by tapping each word
+* T28.G1.02: Count words in a sentence
 
 
 
@@ -37674,11 +37140,11 @@ Dependencies:
 
 ID: T28.G2.03
 Topic: T28 – Text Data & NLP Foundations
-Skill: Sort text cards into sentences vs word lists
-Description: **Student task:** Drag text cards into "Sentence" bin or "Word List" bin. **Visual scenario:** Text cards: "The dog runs fast." [sentence], "cat ball red" [word list], "I like pizza!" [sentence], "jump run walk hop" [word list], "Where is my hat?" [sentence], "apple banana grape" [word list]. Two bins with icons: Sentence (complete thought bubble), Word List (scattered words). **Rules shown:** Sentence = starts with capital, ends with . or ? or !, makes sense. Word List = just words, no ending, not a complete thought. **Why it matters:** Computers need to know if text is a sentence to understand it! _Implementation note: Drag-drop sorting with 6 cards and 2 bins. Auto-graded by bin contents. CSTA: K-2-DA-08._
+Skill: Distinguish sentences from word lists
+Description: Students identify which text is a complete sentence (has meaning, starts with capital, ends with period) versus a list of words, understanding text structure.
 
 Dependencies:
-* T28.G1.02: Count words in a sentence by tapping each word
+* T28.G1.02: Count words in a sentence
 
 
 
@@ -37686,23 +37152,23 @@ Dependencies:
 
 ID: T28.G2.04
 Topic: T28 – Text Data & NLP Foundations
-Skill: Follow find-and-replace instructions to change words
-Description: **Student task:** Read a sentence and replacement rule, then tap to swap the old word for the new word. **Visual scenario:** Rule card shows: "Find: CAT → Replace: DOG." Sentence: "THE CAT IS BIG. THE CAT IS SOFT." Student taps each CAT (it highlights), then taps the replace button. CAT transforms to DOG with animation. Final: "THE DOG IS BIG. THE DOG IS SOFT." Three rounds with different rules: (1) CAT→DOG, (2) RED→BLUE, (3) HAPPY→SAD. **Why it matters:** Find-and-replace is a super power—computers can change thousands of words instantly! _Implementation note: Interactive find-replace with 3 sentence transformations. Auto-graded by correct final sentences. CSTA: K-2-AP-13._
+Skill: Find and replace words in sentences
+Description: Given a sentence and replacement instructions ("change 'cat' to 'dog'"), students rewrite the sentence with the new word, preparing for programmatic text manipulation.
 
 Dependencies:
-* T28.G2.03: Sort text cards into sentences vs word lists
-* T28.G1.04: Circle matching words across sentences
+* T28.G2.03: Distinguish sentences from word lists
+* T28.G1.04: Identify same words in different sentences
 
 
 
 
 ID: T28.G2.05
 Topic: T28 – Text Data & NLP Foundations
-Skill: Execute text commands in the correct sequence
-Description: **Student task:** Read command cards and drag them to a character to execute in order. **Visual scenario:** Character sprite on screen. Command cards: "JUMP" "TURN" "WAVE" "SIT." Task: "Make the character JUMP, then TURN, then WAVE." Student drags command cards to the "Run" zone in correct order. Character animates each command as it executes. If wrong order (e.g., TURN first), character does wrong action and prompt says "Oops! Read the instructions again." **Why it matters:** Computers follow text instructions exactly in order—just like you're doing! _Implementation note: Drag-to-sequence then watch animation execute. 3 different command sequences. Auto-graded by correct sequence. CSTA: K-2-AP-12._
+Skill: Follow text commands in sequence
+Description: Students play a text-based "Simon Says" game where they read written commands ("clap twice", "turn around", "jump") and follow them in order, understanding text as executable instructions.
 
 Dependencies:
-* T28.G2.03: Sort text cards into sentences vs word lists
+* T28.G2.03: Distinguish sentences from word lists
 
 
 
@@ -37712,12 +37178,11 @@ Dependencies:
 
 ID: T28.G3.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Classify data types: text vs numbers vs images
-Description: Students examine data examples and classify each as text, number, or image data type. They sort cards showing: "Hello World" (text), 42 (number), a photo (image), "3.14" (text—because it has quotes!), emoji 😀 (image), -17 (number). Key insight: the same characters can be different types—"42" in quotes is text (can't do math), 42 without quotes is a number. Students predict what happens when you try to add "5" + "3" (answer: "53" concatenation, not 8). This establishes that computers treat data differently based on type.
-CSTA: 1B-DA-06
+Skill: Distinguish text data from numbers and pictures
+Description: Students sort cards showing words, sentences, numbers, and emojis to recognize text as a specific data type. They discuss how computers store and process text differently from numbers.
 
 Dependencies:
-* T28.G2.04: Follow find-and-replace instructions to change words
+* T28.G2.04: Find and replace words in sentences
 
 
 
@@ -37725,12 +37190,11 @@ Dependencies:
 
 ID: T28.G3.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Build a word counter using variables and loops
-Description: Students build a script that counts how many times a target word (e.g., "the") appears in a short paragraph. They use a counter variable initialized to 0, loop through each word in a word list, and increment the counter when a match is found. They display the final count using a variable monitor. Example: given "the cat sat on the mat," count "the" → result: 2. Students trace through the loop to predict the count before running.
-CSTA: 1B-AP-10
+Skill: Count word occurrences using variables
+Description: Learners build a script that counts how many times specific words appear in a short paragraph, storing counts in variables and displaying results using variable monitors.
 
 Dependencies:
-* T28.G3.01: Classify data types: text vs numbers vs images
+* T28.G3.01: Distinguish text data from numbers and pictures
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 
 
@@ -37739,12 +37203,11 @@ Dependencies:
 
 ID: T28.G3.03
 Topic: T28 – Text Data & NLP Foundations
-Skill: Build an automated word categorizer with conditionals
-Description: Students create a word categorizer that automatically sorts words into categories (emotions: happy, sad, angry; actions: run, jump, walk; places: school, park, home). Using if-then-else blocks, they check if a word is in a category list and add it to the appropriate output list. They trace through their logic to predict where "excited" would be categorized (emotion), then test. Students explain why their rules work and identify edge cases (what if a word fits two categories?).
-CSTA: 1B-AP-10
+Skill: Build automated word categorizer using conditionals and lists
+Description: Students build code that automatically categorizes words into meaning-based groups (emotion, action, place) using conditionals and lists. They explain their categorization logic, preparing for later metadata tagging and semantic understanding.
 
 Dependencies:
-* T28.G3.02: Build a word counter using variables and loops
+* T28.G3.02: Count word occurrences using variables
 
 
 
@@ -37752,12 +37215,11 @@ Dependencies:
 
 ID: T28.G3.04
 Topic: T28 – Text Data & NLP Foundations
-Skill: Compare messy vs clean prompts for AI helpers
-Description: Students compare two prompts asking the same question: Prompt A (messy): "wat iz teh captial of farnce???" Prompt B (clean): "What is the capital of France?" They predict which prompt will get a better AI response, then test both using ChatGPT. They observe that clean text produces clearer, more accurate responses. Students then practice cleaning up 3 messy prompts by fixing spelling, capitalization, and punctuation. This builds habits for effective AI communication.
-CSTA: 1B-IC-18
+Skill: Explain why clean text helps AI helpers
+Description: Learners compare two sample prompts (one with typos/unclear phrasing vs clean text) and discuss how clarity affects AI responses, building responsible AI use habits.
 
 Dependencies:
-* T28.G3.03: Build an automated word categorizer with conditionals
+* T28.G3.03: Build automated word categorizer using conditionals and lists
 
 
 
@@ -37765,24 +37227,22 @@ Dependencies:
 
 ID: T28.G3.05
 Topic: T28 – Text Data & NLP Foundations
-Skill: Test text equality using the = operator
-Description: Students use the equals operator to check if two text strings match exactly. They predict then verify: Does "cat" = "cat"? (yes) Does "Cat" = "cat"? (no—case matters!) Does "cat " = "cat"? (no—trailing space!) Students build a simple password checker: set password to "secret123", ask user to type password, use = to check if input matches. They trace through cases where comparison fails and identify why (case, spaces, typos).
-CSTA: 1B-AP-10
+Skill: Compare text for equality using "=" operator
+Description: Students use the equals operator to check if two text variables match exactly, understanding case-sensitive comparison. They test examples to see when texts are equal and when they differ.
 
 Dependencies:
-* T28.G3.02: Build a word counter using variables and loops
+* T28.G3.02: Count word occurrences using variables
 
 
 
 
 ID: T28.G3.06
 Topic: T28 – Text Data & NLP Foundations
-Skill: Debug text comparison failures
-Description: Students are given buggy code where text comparisons fail unexpectedly. Bug 1: Password "Secret" doesn't match user input "secret" (fix: case sensitivity). Bug 2: Keyword "hello" doesn't match " hello" from user input (fix: extra space). Bug 3: Command "stop!" doesn't match "stop" (fix: punctuation). Students trace through each comparison, identify the mismatch character-by-character, and propose fixes. They learn debugging strategies: log both strings, check length, compare character-by-character.
-CSTA: 1B-AP-15
+Skill: Debug text comparison errors
+Description: Students identify and fix common text comparison bugs (case mismatch, extra spaces, punctuation differences). They trace through comparison code to predict why two strings don't match as expected.
 
 Dependencies:
-* T28.G3.05: Test text equality using the = operator
+* T28.G3.05: Compare text for equality using "=" operator
 
 
 
@@ -37792,14 +37252,15 @@ Dependencies:
 
 ID: T28.G4.00
 Topic: T28 – Text Data & NLP Foundations
-Skill: Build an interactive text input/output program with ask and answer
-Description: Students use the 'ask [question] and wait' block to prompt users for text input, access the response via the 'answer' variable, store it in a named variable, and display it using 'say' blocks. They build a greeting program: ask "What's your name?", store answer in 'userName', then say "Hello, [userName]!". Students trace the data flow: user types → answer holds input → variable stores it → say displays it. They extend to ask 2-3 questions and combine answers in output.
-CSTA: 1B-AP-12
+Skill: Use ask/answer blocks for text input and display results
+Description: Students use the 'ask' block to get text input from users, store it in variables, and display it using 'say' blocks or variable monitors. They build simple text echo programs.
 
 Dependencies:
+* T04.G2.01: Identify the repeating unit in a longer pattern
+* T04.G2.02: Spot repeated step sequences in everyday algorithms
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
-* T09.G3.01.01: Create a new variable with a descriptive name
-* T28.G3.04: Compare messy vs clean prompts for AI helpers
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T28.G3.04: Explain why clean text helps AI helpers
 
 
 
@@ -37807,14 +37268,14 @@ Dependencies:
 
 ID: T28.G4.01.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Split text into a list of words using the split block
-Description: Students use the "set [list] to split of [text] with splitter [separator]" block to break a sentence into individual words. Example: "Hello World" split by " " → list with ["Hello", "World"]. They trace through: input text → split operation → resulting list. Students access individual words using "item # of [list]" and predict what item 1 and item 2 will be. They experiment with different separators (comma, dash) and predict results before running.
-CSTA: 2-AP-11
+Skill: Use the split block to break text into a list
+Description: Students use the "set [list] to split of [text] with splitter [separator]" block to break a sentence into individual words using space as the separator. They observe how the sentence becomes a list of words and access individual items.
 
 Dependencies:
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.01.04: Display variable value on stage using the variable monitor
 * T10.G3.03: Get the length of a list
-* T28.G4.00: Build an interactive text input/output program with ask and answer
+* T28.G4.00: Use ask/answer blocks for text input and display results
 
 
 
@@ -37822,12 +37283,11 @@ Dependencies:
 
 ID: T28.G4.01.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Combine list items into text using the join block
-Description: Students use the "join [list] into text with [separator]" block to combine list items back into a single text string. Example: ["red", "blue", "green"] joined with ", " → "red, blue, green". They predict the output for different separators: space (" ") makes a sentence, newline makes a vertical list, dash ("-") makes hyphenated text. Students build a program that takes words from user, adds to list, then joins to create a sentence.
-CSTA: 2-AP-11
+Skill: Use the join block to combine list items into text
+Description: Students use the "join [list] into text with [separator]" block to combine a list of words back into a sentence using space as the separator. They experiment with different separators like commas or newlines.
 
 Dependencies:
-* T28.G4.01.01: Split text into a list of words using the split block
+* T28.G4.01.01: Use the split block to break text into a list
 
 
 
@@ -37835,12 +37295,11 @@ Dependencies:
 
 ID: T28.G4.01.03
 Topic: T28 – Text Data & NLP Foundations
-Skill: Extract a specific part from text using the part-of block
-Description: Students use the "part [index] of [text] by [separator]" block to extract a specific segment directly without creating a full list. Example: part 2 of "apple,banana,cherry" by "," → "banana". They compare: split creates list first (good for multiple accesses), part-of gets one item directly (good for single access). Students predict outputs: part 1 of "John Smith" by " " → ? (John). They use this to extract first name, last name, or domain from email addresses.
-CSTA: 2-AP-11
+Skill: Use the part-of block to get specific segments
+Description: Students use the "part [index] of [text] by [separator]" block to directly extract a specific word from text without creating a full list. They compare this approach to splitting first.
 
 Dependencies:
-* T28.G4.01.01: Split text into a list of words using the split block
+* T28.G4.01.01: Use the split block to break text into a list
 
 
 
@@ -37848,13 +37307,13 @@ Dependencies:
 
 ID: T28.G4.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Access individual characters by position using "letter # of"
-Description: Students use Scratch's "letter # of [text]" operator to access specific characters by index (starting at 1). They predict: letter 1 of "Hello" → ? (H), letter 5 of "Hello" → ? (o). Students build a program that extracts: first letter (index 1), last letter (using length of text), middle letter (length / 2). They trace through "SCRATCH" to identify what letter 4 returns (A). This prepares for character-level text processing.
-CSTA: 2-AP-11
+Skill: Access individual characters using "letter # of" operator
+Description: Students use Scratch's "letter # of" operator to access and display specific characters from text by their position (index starting at 1). They extract first letter, last letter, or specific positions.
 
 Dependencies:
+* T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.01.04: Display variable value on stage using the variable monitor
-* T28.G4.00: Build an interactive text input/output program with ask and answer
+* T28.G4.00: Use ask/answer blocks for text input and display results
 
 
 
@@ -37863,11 +37322,11 @@ Dependencies:
 ID: T28.G4.03.01
 Topic: T28 – Text Data & NLP Foundations
 Skill: Count characters in text using "length of" operator
-Description: Students use Scratch's "length of [text]" operator to count characters. They predict then verify: length of "Hello" → 5, length of "Hi there" → 8 (space counts!), length of "" → 0. Students build a character counter that displays "Your message has X characters." They discover that spaces and punctuation count as characters. They predict: length of "A B" (3), length of "A  B" (4—two spaces!).
-CSTA: 2-AP-11
+Description: Students use Scratch's "length of" operator to count the total number of characters (including spaces and punctuation) in a text string. They explore how different texts have different lengths.
 
 Dependencies:
-* T28.G4.00: Build an interactive text input/output program with ask and answer
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T28.G4.00: Use ask/answer blocks for text input and display results
 
 
 
@@ -37875,13 +37334,12 @@ Dependencies:
 
 ID: T28.G4.03.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Count words by splitting text and measuring list length
-Description: Students combine split and list length to count words. Process: split "The quick brown fox" by " " → list of 4 items → length of list = 4 words. They compare character count (19) vs word count (4) and explain the difference. Students predict word counts before running: "Hello World" (2), "I am here" (3), "One" (1). They build a word counter tool and discuss edge cases: what about double spaces? (would create empty items).
-CSTA: 2-AP-11
+Skill: Count words in text using split and list length
+Description: Students split text on spaces to create a word list, then use the "length of [list]" block to count total words. They compare character count vs word count to understand the difference.
 
 Dependencies:
 * T10.G3.03: Get the length of a list
-* T28.G4.01.01: Split text into a list of words using the split block
+* T28.G4.01.01: Use the split block to break text into a list
 * T28.G4.03.01: Count characters in text using "length of" operator
 
 
@@ -37896,7 +37354,7 @@ Description: Learners use the "[uppercase/lowercase] of text [text]" block to co
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T09.G3.05: Trace code with variables to predict outcomes
-* T28.G4.00: Build an interactive text input/output program with ask and answer
+* T28.G4.00: Use ask/answer blocks for text input and display results
 
 
 
@@ -37931,12 +37389,12 @@ Dependencies:
 
 ID: T28.G4.05.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Analyze human vs AI summaries side-by-side
-Description: Students read a short paragraph (5-6 sentences about a topic like "Why dogs make good pets"). They write their own 1-2 sentence summary, then view an AI-generated summary. Using a comparison table, they annotate: What did AI include that I missed? What did I include that AI missed? What's different about the wording? Students conclude that AI summaries are tools that complement human thinking, not replace it.
-CSTA: 2-IC-20
+Skill: Compare human vs AI summaries (conceptual)
+Description: Students read a short text, write their own 1-2 sentence summary, then read an AI-generated summary. They discuss what each summary includes and omits, understanding AI summarization as a conceptual tool.
 
 Dependencies:
-* T28.G3.04: Compare messy vs clean prompts for AI helpers
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T28.G3.04: Explain why clean text helps AI helpers
 
 
 
@@ -37944,12 +37402,11 @@ Dependencies:
 
 ID: T28.G4.05.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Send a ChatGPT request and store the response in a variable
-Description: Students use the "OpenAI ChatGPT: request [prompt] result [variable]" block to send a simple question to ChatGPT. They trace the flow: prompt text → ChatGPT processes → response stored in variable → display with say block. Students ask "What is the capital of France?" and observe the response. They try 3 different questions and discuss: How long did it take? What format was the response? They verify the response is stored correctly by displaying the variable.
-CSTA: 2-AP-16
+Skill: Make a basic ChatGPT request and store the result
+Description: Students use the "OpenAI ChatGPT: request [prompt] result [variable]" block to send a simple text prompt to ChatGPT and store the response in a variable. They display the result using say blocks.
 
 Dependencies:
-* T28.G4.05.01: Analyze human vs AI summaries side-by-side
+* T28.G4.05.01: Compare human vs AI summaries (conceptual)
 * T08.G3.01: Use a simple if in a script
 * T09.G3.05: Trace code with variables to predict outcomes
 
@@ -37959,12 +37416,11 @@ Dependencies:
 
 ID: T28.G4.05.03
 Topic: T28 – Text Data & NLP Foundations
-Skill: Craft prompts for ChatGPT to summarize text
-Description: Students learn prompt engineering basics for summarization. They test prompts: (1) "Summarize this: [text]" (basic), (2) "Summarize this in 2 sentences: [text]" (length control), (3) "Summarize this for a 5th grader: [text]" (audience control). They compare outputs from each prompt style and identify which produces the best result for their needs. Students document: which prompt gave the shortest summary? Which was easiest to understand?
-CSTA: 2-AP-16
+Skill: Use ChatGPT to summarize text
+Description: Students craft prompts that ask ChatGPT to summarize longer text, experimenting with instructions like "Summarize this in 2 sentences" to control output length. They compare AI summaries to their own.
 
 Dependencies:
-* T28.G4.05.02: Send a ChatGPT request and store the response in a variable
+* T28.G4.05.02: Make a basic ChatGPT request and store the result
 
 
 
@@ -37972,12 +37428,11 @@ Dependencies:
 
 ID: T28.G4.05.04
 Topic: T28 – Text Data & NLP Foundations
-Skill: Experiment with ChatGPT temperature and length parameters
-Description: Students experiment with ChatGPT parameters: (1) Temperature: ask "Write a story about a cat" with temp=0 twice (same result!), then temp=1 twice (different results!). They explain: low temp = predictable/focused, high temp = creative/random. (2) Length: set max length to 50 vs 200 and compare response detail. Students predict: which temperature for a math answer? (0) Which for creative writing? (1). They document their findings in a table.
-CSTA: 2-IC-20
+Skill: Configure ChatGPT response length and temperature
+Description: Students adjust the "length" parameter to control how long responses can be, and experiment with the "temperature" parameter (0 = focused/deterministic, 1 = creative/random) to understand how it affects AI responses.
 
 Dependencies:
-* T28.G4.05.02: Send a ChatGPT request and store the response in a variable
+* T28.G4.05.02: Make a basic ChatGPT request and store the result
 
 
 
@@ -37985,12 +37440,12 @@ Dependencies:
 
 ID: T28.G4.06.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Substitute text using the replace block
-Description: Students use the "replace [old] with [new] in [text]" block to transform text. Examples: replace "cat" with "dog" in "The cat sat" → "The dog sat". They predict outputs before running: replace "a" with "o" in "banana" → ? (bonono—replaces ALL occurrences!). Students build a name customizer that replaces "[NAME]" in a template with user input. They discover replace is case-sensitive: replacing "Cat" won't change "cat".
-CSTA: 2-AP-11
+Skill: Use the replace block to substitute text
+Description: Students use the "replace [old] with [new] in [text]" block to substitute one word or character with another. They practice replacing names, fixing typos, or swapping words in sentences.
 
 Dependencies:
-* T28.G4.00: Build an interactive text input/output program with ask and answer
+* T07.G2.01: Identify when to use "repeat" vs "do once"
+* T28.G4.00: Use ask/answer blocks for text input and display results
 
 
 
@@ -37998,13 +37453,12 @@ Dependencies:
 
 ID: T28.G4.06.02
 Topic: T28 – Text Data & NLP Foundations
-Skill: Remove punctuation by replacing with empty text
-Description: Students remove punctuation using replace with empty string: replace "." with "" in "Hello. World." → "Hello World". They chain replacements: first remove ".", then ",", then "!", then "?". Students clean the text "Hi! How are you?" by removing all punctuation. They explain why this is useful for text analysis: "Hello!" and "Hello" should be treated as the same word. They trace through a 3-step cleanup process.
-CSTA: 2-AP-11
+Skill: Remove punctuation using the replace block
+Description: Students use replace to remove punctuation by replacing it with empty text (e.g., replace "." with ""). They chain multiple replace operations to remove periods, commas, exclamation marks, and question marks from text.
 
 Dependencies:
 * T28.G4.04.01: Convert text case using lowercase/uppercase operators
-* T28.G4.06.01: Substitute text using the replace block
+* T28.G4.06.01: Use the replace block to substitute text
 
 
 
@@ -38017,7 +37471,7 @@ Description: Students use the "position of [pattern] in [text]" block to find wh
 
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
-* T28.G4.02: Access individual characters by position using "letter # of"
+* T28.G4.02: Access individual characters using "letter # of" operator
 
 
 
@@ -38042,7 +37496,7 @@ Description: Students use the "[text] is a number?" boolean block to validate wh
 
 Dependencies:
 * T08.G3.01: Use a simple if in a script
-* T28.G4.00: Build an interactive text input/output program with ask and answer
+* T28.G4.00: Use ask/answer blocks for text input and display results
 
 
 
@@ -38066,7 +37520,7 @@ Description: Students create simple two-column tables (e.g., 'word' and 'count')
 Dependencies:
 * T07.G2.01: Identify when to use "repeat" vs "do once"
 * T11.G4.01: Define and call a simple custom block (no parameters)
-* T28.G4.01.01: Split text into a list of words using the split block
+* T28.G4.01.01: Use the split block to break text into a list
 
 
 
@@ -38187,7 +37641,7 @@ Skill: Use the parse sentence block to analyze grammar
 Description: Students use CreatiCode's "analyze sentence [text] and write into table [table]" block to identify parts of speech (nouns, verbs, adjectives) in a sentence. They examine the resulting table to see how each word is classified.
 
 Dependencies:
-* T28.G4.01.01: Split text into a list of words using the split block
+* T28.G4.01.01: Use the split block to break text into a list
 * T28.G4.10: Store text data in simple tables (2 columns max)
 * T10.G3.05: Loop through each item in a list
 
@@ -38279,12 +37733,11 @@ Dependencies:
 
 ID: T28.G5.10
 Topic: T28 – Text Data & NLP Foundations
-Skill: Demonstrate how AI models tokenize text differently than word splitting
-Description: Students compare word count vs token count for various texts. They analyze: "Hello world" (2 words, ~2 tokens), "ChatGPT" (1 word, ~2 tokens—surprise!), "running" (1 word, 1 token). Students predict then verify token estimates for 5 text samples. They calculate: if ChatGPT has a 4000 token limit and average word ≈ 1.3 tokens, approximately how many words can you send? (~3000). This practical understanding helps them write prompts that fit within limits.
-CSTA: 2-DA-08
+Skill: Explain how AI models tokenize text
+Description: Students demonstrate that AI models break text into tokens (not always whole words). They experiment with examples showing how 'running' might be 1 token but 'ChatGPT' might be 2 tokens and explain why token limits exist for AI APIs.
 
 Dependencies:
-* T28.G4.03.02: Count words by splitting text and measuring list length
+* T28.G4.03.02: Count words in text using split and list length
 
 
 
@@ -38292,12 +37745,11 @@ Dependencies:
 
 ID: T28.G5.11
 Topic: T28 – Text Data & NLP Foundations
-Skill: Build a content safety checker using the moderation block
-Description: Students use the "get moderation result for [text]" block to check if text contains inappropriate content. They build a content filter that: (1) takes user input, (2) runs moderation check, (3) if flagged, displays warning and blocks submission, (4) if safe, proceeds normally. Students test with various inputs (friendly message, rude message, borderline cases) and observe what gets flagged. They discuss why content moderation matters for responsible AI applications.
-CSTA: 2-IC-23
+Skill: Use content moderation to check text safety
+Description: Students use the "get moderation result for [text]" block to analyze text for inappropriate content. They build a simple content filter that warns users when text contains potentially harmful content.
 
 Dependencies:
-* T28.G4.05.02: Send a ChatGPT request and store the response in a variable
+* T28.G4.05.02: Make a basic ChatGPT request and store the result
 * T08.G4.01: Choose actions based on user input or sensor values
 
 
@@ -38320,16 +37772,17 @@ Dependencies:
 
 ID: T28.G6.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Analyze text metrics: characters, words, and estimated tokens
-Description: Students build a text analyzer that displays multiple metrics for input text: character count (length of), word count (split and list length), estimated token count (words × 1.3), and unique word count. They create a dashboard showing all metrics. Given a sample text, they predict all four metrics before running. Students use this to check if their ChatGPT prompts are within token limits and identify verbose text that could be shortened.
-CSTA: 2-DA-08
+Skill: Compare characters, words, and token counts
+Description: Students count characters (using "length of"), words (using split and count), and discuss GPT tokens. They note that actual token counting requires API calls; they estimate based on character/word counts and discuss why token limits matter for AI prompts.
 
 Dependencies:
+* T05.G5.01: Write clear user needs and requirements for a small app
 * T08.G4.01: Choose actions based on user input or sensor values
+* T09.G4.04: Use variables to control animation or game state
 * T10.G4.03: Add, remove, and access items from a list in a script
-* T28.G4.03.02: Count words by splitting text and measuring list length
+* T28.G4.03.02: Count words in text using split and list length
 * T28.G5.03.02: Build stop-word filter using tables
-* T28.G5.10: Demonstrate how AI models tokenize text differently than word splitting
+* T28.G5.10: Explain how AI models tokenize text
 
 
 
@@ -38416,7 +37869,7 @@ Skill: Select AI model size for task requirements
 Description: Students compare small vs large AI models using the model selection dropdown (e.g., GPT-3.5 vs GPT-4). They test both models on the same prompts, compare quality/speed/cost tradeoffs, and choose appropriate models for different tasks.
 
 Dependencies:
-* T28.G4.05.02: Send a ChatGPT request and store the response in a variable
+* T28.G4.05.02: Make a basic ChatGPT request and store the result
 * T28.G6.03.01: Use ChatGPT sessions for conversation context
 
 
@@ -38596,7 +38049,7 @@ Skill: Translate text between languages
 Description: Students use ChatGPT with system instructions to translate text between languages. They explore translation accuracy for different language pairs and text types.
 
 Dependencies:
-* T28.G4.05.02: Send a ChatGPT request and store the response in a variable
+* T28.G4.05.02: Make a basic ChatGPT request and store the result
 * T28.G6.03.02: Set system instructions for ChatGPT behavior
 
 
@@ -38684,9 +38137,8 @@ Dependencies:
 
 ID: T28.G7.07
 Topic: T28 – Text Data & NLP Foundations
-Skill: Build a simple RAG (Retrieval-Augmented Generation) system
-Description: Students implement a basic RAG pipeline: (1) User asks a question, (2) System searches a knowledge base for relevant snippets, (3) System adds retrieved snippets to the ChatGPT prompt, (4) ChatGPT generates answer grounded in the retrieved context. Students compare: direct question to ChatGPT vs RAG-enhanced question. They measure accuracy on factual questions about their knowledge base and document when RAG improves answers (specific facts) vs when it doesn't help (general knowledge).
-CSTA: 3A-AP-17
+Skill: Explain RAG (Retrieval-Augmented Generation) concept
+Description: Students explain how retrieval-augmented generation works: retrieving relevant documents/snippets from a knowledge base, then including them in AI prompts to ground responses in specific information. They identify when RAG is useful vs direct LLM queries.
 
 Dependencies:
 * T28.G7.01.01: Build keyword-based retrieval system
@@ -38698,15 +38150,20 @@ Dependencies:
 
 ID: T28.G8.01
 Topic: T28 – Text Data & NLP Foundations
-Skill: Design and build a modular text-processing pipeline
-Description: Students architect a text processing pipeline with 5+ stages, each implemented as a custom block: (1) Input: accept text from user or file, (2) Clean: trim whitespace, lowercase, remove punctuation, (3) Tokenize: split into words, (4) Filter: remove stop-words, (5) Analyze: compute frequency OR sentiment, (6) Output: display results or log to table. They trace data through each stage, debug a broken pipeline by isolating which stage fails, and refactor to add a new stage (e.g., lemmatization). Pipeline thinking is essential for AI-era text processing.
-CSTA: 3A-AP-17
+Skill: Build end-to-end text-processing pipelines
+Description: Build a multi-stage text processing pipeline with at least 5 stages: input → clean (trim, lowercase, remove punctuation) → tokenize (split) → filter (remove stop-words) → analyze (sentiment OR frequency) → output (display OR log to table). Students document each stage and use custom blocks for modularity.
 
 Dependencies:
 * T28.G7.01.01: Build keyword-based retrieval system
 * T28.G7.03: Audit text datasets for bias and coverage
 * T07.G6.01: Define custom blocks with inputs
 * T06.G6.01: Trace event execution paths in a multi‑event program
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T10.G6.01: Sort a table by a column
+
+* T02.G6.01: Use the pseudocode generation block
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
 
 
 
@@ -38875,34 +38332,32 @@ Dependencies:
 
 
 
-# T29 - Devices & Hardware Systems (Phase 7 Optimized - November 2025)
-# Applied Phase 7 topic-focused optimizations:
+# T29 - Devices & Hardware Systems (Phase 6 Optimized - November 2025)
+# Applied Phase 6 topic-focused optimizations:
 # MAJOR CHANGES:
-# 1. Added Virtual Joystick Skills (Mobile/Touch Input):
-#    - T29.G5.08: Add and configure virtual joysticks for mobile 3D controls
-#    - Fills gap in mobile input device coverage
-# 2. Added AR Tracking Skills:
-#    - T29.G6.07: Implement AR image tracking with anchor objects
-#    - T29.G7.09: Design AR face tracking experiences with mesh overlays
-#    - Leverages CreatiCode's unique AR camera capabilities
-# 3. Added Video Widget Skills:
-#    - T29.G5.09: Embed and control video content in CreatiCode projects
-#    - Covers YouTube embedding and video playback control
-# 4. Improved Active Verbs Throughout:
-#    - Replaced "Students analyze" with direct verbs
-#    - K-2: "Tap", "Drag", "Sort", "Match", "Circle"
-#    - G3+: "Create", "Program", "Debug", "Design", "Implement"
-# 5. Enhanced AI-Era Skills:
-#    - T29.G8.07: Design adaptive hardware interfaces using AI
-#    - Focuses on AI-assisted input adaptation and predictive interfaces
-# 6. Streamlined Dependencies:
-#    - Removed redundant cross-topic dependencies where intra-topic suffices
-#    - Ensured X-2 rule compliance throughout
-# Previous optimizations preserved:
-# - Camera progression: G3.05 → G4.06 → G4.06.01 → G5.05 → G6.05.01
-# - Speech progression: G3.06 → G4.07 → G6.05 → G6.05.02 → G6.05.03
-# - Body tracking: G5.06 → G6.06 → G6.06.01 → G6.06.03
-# Total: ~77 skills (added 7 new skills, improved verb usage)
+# 1. Reorganized Sub-Skills:
+#    - Fixed T29.G4.03.01 misplacement (camera widgets wrongly under latency) → moved to T29.G4.06
+#    - Renumbered G4-G6 skills for logical grouping
+# 2. Added Missing Progression Skills:
+#    - T29.G4.07: Preview recorded audio in CreatiCode (bridges G3.06 → G6.05)
+#    - T29.G5.07: Debug sensor input issues systematically
+#    - T29.G7.08: Profile and diagnose AI processing bottlenecks
+#    - T29.G8.05: Design multi-modal input systems combining sensors
+# 3. Strengthened K-2 Picture-Based Skills:
+#    - Enhanced descriptions with visual scenario details
+#    - Added T29.G2.06: Predict what happens when device connection breaks
+# 4. Active Verb Improvements Throughout:
+#    - "Compare" → "Analyze and select", "Differentiate" → "Trace and explain"
+#    - All skills use Trace, Debug, Design, Analyze, Predict, Create verbs
+# 5. Reorganized Camera/Speech/Body-Tracking Progressions:
+#    - Camera skills: G3.05 → G4.06 → G4.06.01 → G5.05 → G6.05.01 (clear progression)
+#    - Speech skills: G3.06 → G4.07 → G6.05 → G6.05.02 → G6.05.03
+#    - Body tracking: G5.06 → G6.06 → G6.06.01 → G6.06.03
+# 6. Added AI-Era Advanced Skills:
+#    - G7.08: Profile AI processing bottlenecks
+#    - G8.05: Design multi-modal input systems
+#    - G8.06: Evaluate sensor fusion architectures
+# Total: ~70 skills (added 8 new skills, reorganized structure)
 
 ID: T29.GK.01
 Topic: T29 – Devices & Hardware Systems
@@ -39059,7 +38514,7 @@ Dependencies:
 ID: T29.G3.01
 Topic: T29 – Devices & Hardware Systems
 Skill: Map project ideas to required sensors in CreatiCode
-Description: Analyze CreatiCode project ideas (voice assistant, gesture game, face tracking app, drawing program) and select the required hardware inputs for each. Identify which sensors are needed (microphone for voice, camera for face/gesture, keyboard for typing, mouse for drawing) and explain how the sensor data enables the project's functionality. Match 4 projects to their sensor requirements and write one sentence explaining each connection.
+Description: Students analyze CreatiCode project ideas (voice assistant, gesture game, face tracking app, drawing program) and select the required hardware inputs for each. Given a project description, students identify which sensors are needed (microphone for voice, camera for face/gesture, keyboard for typing, mouse for drawing) and explain how the sensor data enables the project's functionality. Practice involves matching 4 projects to their sensor requirements and writing one sentence explaining the connection.
 
 Dependencies:
 * T29.G2.01: Match internal computer parts to everyday analogies using picture cards
@@ -39072,7 +38527,7 @@ Dependencies:
 ID: T29.G3.02
 Topic: T29 – Devices & Hardware Systems
 Skill: Select appropriate input types for CreatiCode project scenarios
-Description: Analyze CreatiCode project scenarios and select the best input type for each. Given scenarios (platformer game, painting app, voice-controlled story, fitness tracker), choose between keyboard keys, mouse clicks/movement, camera feed, or microphone audio. Justify each selection by explaining why that input type fits the user experience (keyboard for precise control, mouse for freeform drawing, camera for motion, microphone for hands-free).
+Description: Students analyze CreatiCode project scenarios and select the best input type for each. Given scenarios (platformer game, painting app, voice-controlled story, fitness tracker), students choose between keyboard keys, mouse clicks/movement, camera feed, or microphone audio. Students justify their selection by explaining why that input type fits the user experience (keyboard for precise control, mouse for freeform drawing, camera for motion, microphone for hands-free).
 
 Dependencies:
 * T29.G2.02: Trace input-process-output flow using visual diagrams
@@ -39085,7 +38540,7 @@ Dependencies:
 ID: T29.G3.03
 Topic: T29 – Devices & Hardware Systems
 Skill: Analyze cloud save vs local export trade-offs in CreatiCode
-Description: Analyze scenarios requiring project storage decisions and select the best option. Given scenarios (sharing with friend, working offline at home, backing up important project, accessing from school and home), choose between CreatiCode cloud save (accessible anywhere with internet, auto-saves, easy sharing link) and local export (works offline, creates backup file, portable via USB). Complete a decision table listing pros/cons of each method.
+Description: Students analyze scenarios requiring project storage decisions and select the best option. Given scenarios (sharing with friend, working offline at home, backing up important project, accessing from school and home), students choose between CreatiCode cloud save (accessible anywhere with internet, auto-saves, easy sharing link) and local export (works offline, creates backup file, portable via USB). Students complete a decision table listing pros/cons of each method.
 
 Dependencies:
 * T29.G2.01: Match internal computer parts to everyday analogies using picture cards
@@ -39097,7 +38552,7 @@ Dependencies:
 ID: T29.G3.04
 Topic: T29 – Devices & Hardware Systems
 Skill: Trace how sensors provide data to CreatiCode programs
-Description: Trace the data path from physical sensors to program actions. Given a CreatiCode project (face filter app), diagram the flow: (1) camera captures light → (2) converts to image data (pixels) → (3) program analyzes image → (4) sprite responds. Complete similar traces for microphone (sound waves → audio data → speech text → sprite speaks) and motion sensor (movement → position values → character moves). Practice: fill-in-the-blank data flow diagrams.
+Description: Students trace the data path from physical sensors to program actions. Given a CreatiCode project (face filter app), students diagram: (1) camera captures light → (2) converts to image data (pixels) → (3) program analyzes image → (4) sprite responds. Students complete similar traces for microphone (sound waves → audio data → speech text → sprite speaks) and motion sensor (movement → position values → character moves). Practice: fill-in-the-blank data flow diagrams.
 
 Dependencies:
 * T29.G2.05: Match sensors to what they detect using picture cards
@@ -39296,7 +38751,7 @@ Dependencies:
 ID: T29.G5.01
 Topic: T29 – Devices & Hardware Systems
 Skill: Analyze device requirements for CreatiCode AI features
-Description: Analyze CreatiCode AI projects and create device requirement specifications. Given projects (voice assistant, pose game, face detection app, multiplayer game), list: (1) required hardware (camera resolution, microphone quality, processor speed), (2) required connectivity (internet for cloud APIs, bandwidth for real-time features), (3) optional enhancements (GPU for faster AI, higher frame rate camera). Complete a requirements matrix for 4 different AI project types.
+Description: Students analyze CreatiCode AI projects and create device requirement specifications. Given projects (voice assistant, pose game, face detection app, multiplayer game), students list: (1) required hardware (camera resolution, microphone quality, processor speed), (2) required connectivity (internet for cloud APIs, bandwidth for real-time features), (3) optional enhancements (GPU for faster AI, higher frame rate camera). Students complete a requirements matrix for 4 different AI project types.
 
 Dependencies:
 * T29.G4.01: Diagram data flow in CreatiCode AI-powered projects
@@ -39310,7 +38765,7 @@ Dependencies:
 ID: T29.G5.02
 Topic: T29 – Devices & Hardware Systems
 Skill: Design device-handling procedures for classroom projects
-Description: Create device handling checklists for group project work. Checklist items include: (1) pre-use inspection (check cables, test camera/microphone, log battery level), (2) during-use care (clean hands, stable surface, proper ventilation), (3) post-use procedures (save work, log out, sanitize shared devices, report issues). Analyze scenarios where poor device handling causes project failures and propose preventive measures.
+Description: Students create device handling checklists for group project work. Checklist items include: (1) pre-use inspection (check cables, test camera/microphone, log battery level), (2) during-use care (clean hands, stable surface, proper ventilation), (3) post-use procedures (save work, log out, sanitize shared devices, report issues). Students analyze scenarios where poor device handling causes project failures and propose preventive measures.
 
 Dependencies:
 * T29.G4.05: Identify accessibility hardware types and their purposes
@@ -39325,7 +38780,7 @@ Dependencies:
 ID: T29.G5.03
 Topic: T29 – Devices & Hardware Systems
 Skill: Analyze sensor data types and sampling rates for CreatiCode projects
-Description: Analyze how different sensors collect data at different rates and formats. Comparison table: Camera (30-60 fps, image frames), Microphone (44100 samples/sec, audio waveform), Motion sensor (60-120 Hz, position values). Explain: (1) why higher frame rates improve face tracking smoothness, (2) why audio sample rate affects speech recognition accuracy, (3) why polling rate matters for responsive gesture control. Match 4 project types to minimum sensor specifications.
+Description: Students analyze how different sensors collect data at different rates and formats. Comparison table: Camera (30-60 fps, image frames), Microphone (44100 samples/sec, audio waveform), Motion sensor (60-120 Hz, position values). Students explain: (1) why higher frame rates improve face tracking smoothness, (2) why audio sample rate affects speech recognition accuracy, (3) why polling rate matters for responsive gesture control. Practice: match 4 project types to minimum sensor specifications.
 
 Dependencies:
 * T29.G4.01: Diagram data flow in CreatiCode AI-powered projects
@@ -39339,7 +38794,7 @@ Dependencies:
 ID: T29.G5.04
 Topic: T29 – Devices & Hardware Systems
 Skill: Evaluate hardware configurations for accessibility outcomes
-Description: Analyze device setups and recommend configurations for users with different abilities. Given scenarios: (1) User with limited hand mobility needs to play a CreatiCode game → recommend switch interface + voice control, (2) User with visual impairment needs to create a project → recommend screen reader + audio feedback, (3) User with hearing impairment needs speech recognition → recommend visual captions + vibration feedback. Justify hardware choices based on user needs and CreatiCode feature compatibility.
+Description: Students analyze device setups and recommend configurations for users with different abilities. Given scenarios: (1) User with limited hand mobility needs to play a CreatiCode game → recommend switch interface + voice control, (2) User with visual impairment needs to create a project → recommend screen reader + audio feedback, (3) User with hearing impairment needs speech recognition → recommend visual captions + vibration feedback. Students justify hardware choices based on user needs and CreatiCode feature compatibility.
 
 Dependencies:
 * T29.G5.01: Analyze device requirements for CreatiCode AI features
@@ -39441,30 +38896,6 @@ Dependencies:
 * T29.G5.01: Analyze device requirements for CreatiCode AI features
 * T29.G4.06: Create keyboard-controlled interactions in CreatiCode
 * T29.G4.07: Create audio-reactive visualizations in CreatiCode
-
-
-
-
-ID: T29.G5.08
-Topic: T29 – Devices & Hardware Systems
-Skill: Add and configure virtual joysticks for mobile 3D controls
-Description: Program virtual joystick widgets for touch-based 3D game controls. Tasks: (1) use "add [left/right] joystick" block to create on-screen touch controllers, (2) customize joystick colors and scale for visibility, (3) read joystick properties (x, y displacement, pressed state, direction) to control character movement, (4) combine left joystick for movement + right joystick for camera rotation in a 3D game. Debug: joystick not responding (wrong side selected), movement inverted (x/y axis confusion), joystick obscures gameplay (scale too large).
-
-Dependencies:
-* T29.G5.05: Configure orbit cameras for 3D CreatiCode scenes
-* T29.G4.06: Create keyboard-controlled interactions in CreatiCode
-
-
-
-
-ID: T29.G5.09
-Topic: T29 – Devices & Hardware Systems
-Skill: Embed and control video content in CreatiCode projects
-Description: Add video widgets to play embedded video content within CreatiCode projects. Tasks: (1) use "add youtube video" block with URL, position, and size parameters, (2) control playback with start/pause/stop/mute commands, (3) use "seek to time" to jump to specific moments, (4) trigger events using "when video time is [seconds]" hat blocks for synchronized interactions. Create an interactive tutorial where video pauses at key moments for user input. Debug: video not loading (URL format), audio conflicts (multiple videos), timing issues (seeking while playing).
-
-Dependencies:
-* T29.G5.05: Configure orbit cameras for 3D CreatiCode scenes
-* T29.G4.06: Create keyboard-controlled interactions in CreatiCode
 
 
 
@@ -39641,23 +39072,10 @@ Dependencies:
 
 
 
-ID: T29.G6.07
-Topic: T29 – Devices & Hardware Systems
-Skill: Implement AR image tracking with anchor objects in CreatiCode
-Description: Create augmented reality experiences that track physical images as anchors. Tasks: (1) use "switch to AR LOGO camera" block to enable image tracking mode, (2) configure camera selection (front/back) and scale settings, (3) position 3D objects relative to the detected image anchor, (4) handle marker visibility (show/hide tracking indicator). Create an AR business card that displays 3D content when the CreatiCode logo is detected. Compare image tracking vs world tracking: image anchoring is more stable but requires printed markers; world tracking works anywhere but may drift. Debug: image not detected (lighting, angle), objects misaligned (scale mismatch).
-
-Dependencies:
-* T29.G5.05: Configure orbit cameras for 3D CreatiCode scenes
-* T29.G6.05.01: Create AR effects with webcam backgrounds in CreatiCode
-* T29.G6.04: Create device compatibility checklists for CreatiCode AI projects
-
-
-
-
 ID: T29.G7.01
 Topic: T29 – Devices & Hardware Systems
 Skill: Profile and optimize CreatiCode project performance
-Description: Use performance monitoring tools to identify and fix bottlenecks. Tasks: (1) use browser developer tools to monitor frame rate and CPU usage, (2) identify performance bottlenecks (too many sprites, AI processing frequency, large assets), (3) apply optimizations (reduce sprite count, lower AI update rate, compress images), (4) measure improvement quantitatively. Optimize a laggy project from 15fps to 60fps. Optimization strategies: sprite pooling, delayed AI updates, level-of-detail for distant objects. Document before/after metrics.
+Description: Students use performance monitoring tools to identify and fix bottlenecks. Tasks: (1) use browser developer tools to monitor frame rate and CPU usage, (2) identify performance bottlenecks (too many sprites, AI processing frequency, large assets), (3) apply optimizations (reduce sprite count, lower AI update rate, compress images), (4) measure improvement quantitatively. Students optimize a laggy project from 15fps to 60fps. Optimization strategies: sprite pooling, delayed AI updates, level-of-detail for distant objects. Document before/after metrics.
 
 Dependencies:
 * T29.G6.01: Interpret sensor specifications for CreatiCode project planning
@@ -39747,7 +39165,7 @@ Dependencies:
 ID: T29.G7.08
 Topic: T29 – Devices & Hardware Systems
 Skill: Profile and diagnose AI processing bottlenecks in CreatiCode
-Description: Profile AI-heavy projects to identify processing bottlenecks. Tasks: (1) measure time for each AI operation (face detection, speech recognition, image generation), (2) identify which operations block the main thread, (3) analyze cumulative processing load, (4) propose optimizations (reduce AI frequency, cache results, precompute). Profile a project using multiple AI features and create a bottleneck report: Operation | Time | Frequency | Optimization. Apply optimizations and measure improvement.
+Description: Students profile AI-heavy projects to identify processing bottlenecks. Tasks: (1) measure time for each AI operation (face detection, speech recognition, image generation), (2) identify which operations block the main thread, (3) analyze cumulative processing load, (4) propose optimizations (reduce AI frequency, cache results, precompute). Students profile a project using multiple AI features and create a bottleneck report: Operation | Time | Frequency | Optimization. Apply optimizations and measure improvement.
 
 Dependencies:
 * T29.G7.01: Profile and optimize CreatiCode project performance
@@ -39756,23 +39174,10 @@ Dependencies:
 
 
 
-ID: T29.G7.09
-Topic: T29 – Devices & Hardware Systems
-Skill: Design AR face tracking experiences with mesh overlays in CreatiCode
-Description: Create advanced AR face experiences using face mesh tracking. Tasks: (1) use "switch to AR face camera" block with mesh configuration options (face, eyes, mouth, lips), (2) enable face mesh overlay to visualize tracking points, (3) attach 3D objects to face mesh positions for filters/masks, (4) use face data table for detailed tracking (landmarks, expressions). Create a face filter app with glasses, hats, or masks that track facial movements. Compare face mesh AR vs simple face detection: mesh provides richer data but requires more processing. Debug: mesh flickering (low light), objects offset (wrong attachment point).
-
-Dependencies:
-* T29.G6.07: Implement AR image tracking with anchor objects in CreatiCode
-* T29.G6.06: Create gesture-controlled games with hand detection in CreatiCode
-* T29.G5.06: Create face-tracking interactions in CreatiCode projects
-
-
-
-
 ID: T29.G8.01
 Topic: T29 – Devices & Hardware Systems
 Skill: Design comprehensive device-cloud architecture for AI projects
-Description: Design architecture diagrams balancing local and cloud processing. Architecture layers: (1) Device layer: sensors, display, local storage, (2) Processing layer: what runs locally vs cloud, (3) Communication layer: API calls, data formats, error handling, (4) Cloud layer: AI services, costs, rate limits. Design architecture for a comprehensive AI assistant: camera (local), face detection (local), ChatGPT reasoning (cloud), image generation (cloud), TTS (local). Optimize for: latency-critical paths, privacy-sensitive data, offline functionality, cost efficiency.
+Description: Students design architecture diagrams balancing local and cloud processing. Architecture layers: (1) Device layer: sensors, display, local storage, (2) Processing layer: what runs locally vs cloud, (3) Communication layer: API calls, data formats, error handling, (4) Cloud layer: AI services, costs, rate limits. Students design architecture for a comprehensive AI assistant: camera (local), face detection (local), ChatGPT reasoning (cloud), image generation (cloud), TTS (local). Optimize for: latency-critical paths, privacy-sensitive data, offline functionality, cost efficiency.
 
 Dependencies:
 * T29.G7.04: Analyze cloud vs edge processing trade-offs in CreatiCode AI
@@ -39788,7 +39193,7 @@ Dependencies:
 ID: T29.G8.02
 Topic: T29 – Devices & Hardware Systems
 Skill: Evaluate device sustainability and lifecycle impacts
-Description: Research and evaluate the environmental impact of computing devices. Topics: (1) Energy consumption: device power usage, cloud processing energy cost, (2) E-waste: device lifespan, recycling options, toxic materials, (3) Supply chain: rare earth minerals, manufacturing conditions, transport emissions. Create a sustainability report for classroom devices: energy audit, lifespan estimate, recycling plan, sustainable alternatives. Propose 3 practices to reduce environmental impact while maintaining educational value.
+Description: Students research and evaluate the environmental impact of computing devices. Topics: (1) Energy consumption: device power usage, cloud processing energy cost, (2) E-waste: device lifespan, recycling options, toxic materials, (3) Supply chain: rare earth minerals, manufacturing conditions, transport emissions. Students create a sustainability report for classroom devices: energy audit, lifespan estimate, recycling plan, sustainable alternatives. Propose 3 practices to reduce environmental impact while maintaining educational value.
 
 Dependencies:
 * T29.G7.01: Profile and optimize CreatiCode project performance
@@ -39802,7 +39207,7 @@ Dependencies:
 ID: T29.G8.03
 Topic: T29 – Devices & Hardware Systems
 Skill: Create comprehensive hardware integration test plans
-Description: Create test plans ensuring software works across diverse hardware configurations. Test dimensions: (1) Device types: desktop, laptop, tablet, phone, (2) OS/Browser versions: Chrome, Safari, Firefox across versions, (3) Peripherals: different cameras, microphones, input devices, (4) Edge cases: permissions denied, hardware disconnected, low battery. Create a test matrix: Device | Browser | Camera | Microphone | Expected Result | Actual Result. Execute tests and document compatibility findings with recommended minimum specs.
+Description: Students create test plans ensuring software works across diverse hardware configurations. Test dimensions: (1) Device types: desktop, laptop, tablet, phone, (2) OS/Browser versions: Chrome, Safari, Firefox across versions, (3) Peripherals: different cameras, microphones, input devices, (4) Edge cases: permissions denied, hardware disconnected, low battery. Students create a test matrix: Device | Browser | Camera | Microphone | Expected Result | Actual Result. Execute tests and document compatibility findings with recommended minimum specs.
 
 Dependencies:
 * T29.G7.02: Design sensor redundancy and fail-safe systems for CreatiCode
@@ -39818,7 +39223,7 @@ Dependencies:
 ID: T29.G8.04
 Topic: T29 – Devices & Hardware Systems
 Skill: Author hardware requirement playbooks for team projects
-Description: Write comprehensive hardware playbooks for team replication. Playbook sections: (1) Hardware requirements: minimum and recommended specs, (2) Setup guide: step-by-step configuration with screenshots, (3) Troubleshooting: common issues and solutions, (4) Accessibility: alternative input options, accommodations, (5) Testing checklist: verification steps before deployment. Create a playbook for a complex CreatiCode AI project, test it with a peer who follows instructions, and iterate based on feedback. Final playbook enables anyone to replicate the setup.
+Description: Students write comprehensive hardware playbooks for team replication. Playbook sections: (1) Hardware requirements: minimum and recommended specs, (2) Setup guide: step-by-step configuration with screenshots, (3) Troubleshooting: common issues and solutions, (4) Accessibility: alternative input options, accommodations, (5) Testing checklist: verification steps before deployment. Students create a playbook for a complex CreatiCode AI project, test it with a peer who follows instructions, and iterate based on feedback. Final playbook enables anyone to replicate the setup.
 
 Dependencies:
 * T29.G8.03: Create comprehensive hardware integration test plans
@@ -39833,7 +39238,7 @@ Dependencies:
 ID: T29.G8.05
 Topic: T29 – Devices & Hardware Systems
 Skill: Design multi-modal input systems combining multiple sensors
-Description: Design systems that combine multiple input sensors for robust interaction. Multi-modal approaches: (1) Voice + gesture: speak command + point to target, (2) Face + hand: face for identity + hand for control, (3) Keyboard + camera: type for precision + camera for coarse control. Design a multi-modal interface for an accessibility-focused game: primary input (gesture), secondary input (voice), fallback (keyboard). Analyze benefits: redundancy, natural interaction, accessibility. Challenges: synchronization, conflict resolution, increased complexity.
+Description: Students design systems that combine multiple input sensors for robust interaction. Multi-modal approaches: (1) Voice + gesture: speak command + point to target, (2) Face + hand: face for identity + hand for control, (3) Keyboard + camera: type for precision + camera for coarse control. Students design a multi-modal interface for an accessibility-focused game: primary input (gesture), secondary input (voice), fallback (keyboard). Analyze benefits: redundancy, natural interaction, accessibility. Challenges: synchronization, conflict resolution, increased complexity.
 
 Dependencies:
 * T29.G7.08: Profile and diagnose AI processing bottlenecks in CreatiCode
@@ -39846,7 +39251,7 @@ Dependencies:
 ID: T29.G8.06
 Topic: T29 – Devices & Hardware Systems
 Skill: Evaluate sensor fusion architectures for enhanced AI interactions
-Description: Evaluate architectures that fuse data from multiple sensors for enhanced accuracy. Sensor fusion concepts: (1) Complementary: sensors cover different aspects (camera + microphone for video call), (2) Redundant: same data from multiple sources (face position from face detection + body tracking), (3) Cooperative: sensors work together (camera identifies speaker + microphone captures their voice). Design and implement a sensor fusion system: combine face tracking + hand detection for a "point and click" interface. Measure accuracy improvement over single-sensor approach.
+Description: Students evaluate architectures that fuse data from multiple sensors for enhanced accuracy. Sensor fusion concepts: (1) Complementary: sensors cover different aspects (camera + microphone for video call), (2) Redundant: same data from multiple sources (face position from face detection + body tracking), (3) Cooperative: sensors work together (camera identifies speaker + microphone captures their voice). Students design and implement a sensor fusion system: combine face tracking + hand detection for a "point and click" interface. Measure accuracy improvement over single-sensor approach.
 
 Dependencies:
 * T29.G8.05: Design multi-modal input systems combining multiple sensors
@@ -39857,23 +39262,10 @@ Dependencies:
 
 
 
-ID: T29.G8.07
-Topic: T29 – Devices & Hardware Systems
-Skill: Design adaptive hardware interfaces using AI-assisted input prediction
-Description: Design AI-enhanced interfaces that adapt to user behavior and preferences. Adaptive approaches: (1) Input prediction: AI predicts next action based on patterns (auto-complete gestures, anticipate menu selections), (2) Personalization: interface adapts to user's motor abilities (larger buttons for tremor, slower response for deliberate users), (3) Context awareness: switch input modes based on detected context (voice when hands busy, touch when quiet). Create an adaptive game controller that learns user preferences: track input patterns, adjust sensitivity/timing thresholds, offer personalized shortcuts. Evaluate: when does adaptation help vs confuse users? Design A/B test to measure effectiveness.
-
-Dependencies:
-* T29.G8.06: Evaluate sensor fusion architectures for enhanced AI interactions
-* T29.G8.05: Design multi-modal input systems combining multiple sensors
-* T29.G7.08: Profile and diagnose AI processing bottlenecks in CreatiCode
-
-
-
-
 ID: T30.GK.01
 Topic: T30 – Internet & Cloud: Kindergarten
-Skill: Sort devices into "connects to internet" vs "works alone" categories (picture-based)
-Description: Students drag picture cards of devices (tablet showing video call, laptop with web browser, smart speaker, game console with multiplayer game, smart watch, alarm clock, flashlight) into two bins: "Uses Internet" and "Works Alone." Audio narration helps non-readers. They tap to hear what each device does.
+Skill: Recognize devices that connect to the internet (picture-based)
+Description: Students look at pictures of various devices (tablet, laptop, smart speaker, game console, watch) and sort them into "connects to internet" vs "does not need internet" categories through picture-based drag-and-drop activities.
 CSTA: EK-SAS-NW-02
 
 Dependencies:
@@ -39993,8 +39385,8 @@ Dependencies:
 
 ID: T30.G3.02
 Topic: T30 – Internet & Cloud: Grade 3
-Skill: Label parts of URLs and explain how web addresses work
-Description: Students examine URLs and label their parts (https://, domain name like "creaticode.com", path like "/projects"). They compare URLs to street addresses: domain name = city, path = street and house number. They predict which URLs lead to the same website based on matching domain names.
+Skill: Explain what URLs and web addresses are
+Description: Students examine URLs and identify their parts (https://, domain name like "creaticode.com", path like "/projects"). They understand that URLs are addresses for finding things on the internet, like street addresses for houses.
 CSTA: E3-SAS-NW-02
 
 Dependencies:
@@ -40077,8 +39469,8 @@ Dependencies:
 
 ID: T30.G5.01
 Topic: T30 – Internet & Cloud: Grade 5
-Skill: Diagram and trace the request-response cycle in network communication
-Description: Students diagram the request-response pattern: user action → client sends request → server processes → server sends response → client displays result. They trace real examples (loading a webpage, fetching game data) and predict what happens at each step. They identify latency as time between request and response.
+Skill: Trace how a request-response cycle works
+Description: Students diagram the request-response pattern: user action → client sends request → server processes → server sends response → client displays result. They identify this pattern in web browsing, API calls, and online games.
 CSTA: E5-SAS-NW-02
 
 Dependencies:
@@ -40200,8 +39592,8 @@ Dependencies:
 
 ID: T30.G6.02
 Topic: T30 – Internet & Cloud: Grade 6
-Skill: Read data from Google Sheet into a table variable
-Description: Students use CreatiCode's "read from google sheet: url [URL] sheet name [SHEET] range [RANGE] into table [TABLE]" block to fetch data from a shared spreadsheet. They predict how changes to the spreadsheet affect their program and debug issues when data doesn't load (wrong URL, sheet name, or range). They trace the data flow from cloud to local table.
+Skill: Read data from Google Sheet using "read from google sheet" block
+Description: Students use CreatiCode's "read from google sheet: url [URL] sheet name [SHEET] range [RANGE] into table [TABLE]" block to read data from a shared spreadsheet into a table variable. They understand this fetches live cloud data that can change.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -40321,11 +39713,11 @@ Dependencies:
 ID: T30.G6.11
 Topic: T30 – Internet & Cloud: Grade 6
 Skill: Classify data privacy risks when sharing cloud data
-Description: Students review types of data that could be shared via cloud (usernames, game scores, chat messages, personal info). They classify each by privacy risk level (low/medium/high) and explain which data should be public vs private. They apply this understanding when deciding between public and private options in cloud data blocks.
+Description: Students review types of data that could be shared via cloud (usernames, game scores, chat messages, personal info). They classify each by privacy risk level (low/medium/high) and explain which data should be public vs private. They connect to the public/private option in cloud data blocks.
 CSTA: MS-SAS-SC-09
 
 Dependencies:
-* T30.G6.01: Trace the steps of an HTTP/HTTPS request
+* T30.G6.18: Save cloud data using "save data" block
 * T30.G4.02: Identify secure vs insecure websites
 
 
@@ -40547,8 +39939,8 @@ Dependencies:
 
 ID: T30.G7.07
 Topic: T30 – Internet & Cloud: Grade 7
-Skill: Query and retrieve data from database collections
-Description: Students use CreatiCode's "fetch from collection" block to retrieve filtered, sorted, and limited subsets of data. They design queries to answer questions like "find top 10 highest scores" or "list all players who joined today." They predict query results before running and debug when results don't match expectations.
+Skill: Fetch data from database using "fetch from collection" block
+Description: Students use CreatiCode's "fetch from collection [COLLECTION] into table [TABLE] where <COND> limit (N) sort by (FIELD1) [ORDER1] (FIELD2) [ORDER2]" block to retrieve documents from a collection with query conditions, limits, and sorting options.
 CSTA: MS-SAS-NW-06
 
 Dependencies:
@@ -40838,89 +40230,14 @@ Dependencies:
 * T30.G8.05: Design fallback strategies for cloud service failures
 * T30.G6.10: Measure and compare network latency effects
 
-ID: T30.G8.07
-Topic: T30 – Internet & Cloud: Grade 8
-Skill: Design API request patterns for efficient data access
-Description: Students analyze different API request patterns (polling vs event-driven updates, batching vs individual requests, caching strategies). They implement a project that minimizes cloud calls by caching data locally, batching multiple updates, and refreshing only when necessary. They measure and compare request counts and response times for different approaches.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T30.G8.02: Analyze bandwidth and latency requirements for cloud applications
-* T30.G6.10: Measure and compare network latency effects
-
-
-
-
-ID: T30.G8.08
-Topic: T30 – Internet & Cloud: Grade 8
-Skill: Implement data synchronization conflict resolution
-Description: Students identify scenarios where multiple users edit the same data simultaneously (collaborative documents, multiplayer game state). They implement conflict resolution strategies: last-write-wins, merge changes, or reject conflicts with user notification. They test their implementation by simulating concurrent edits from multiple browser windows.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T30.G7.01: Diagram client-server communication for multiplayer games
-* T30.G7.10: Update database records using "update collection" blocks
-
-
-
-
-ID: T30.G8.09
-Topic: T30 – Internet & Cloud: Grade 8
-Skill: Design scalable data structures for cloud storage
-Description: Students compare flat vs hierarchical data organization for different use cases (user profiles: flat, comment threads: hierarchical, game inventories: nested lists). They implement both approaches for a sample application and analyze trade-offs in query complexity, storage efficiency, and ease of updates.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T30.G7.06: Insert data into database collection using "insert from table" block
-* T30.G7.07: Fetch data from database using "fetch from collection" block
-
-
-
-
-ID: T30.G8.10
-Topic: T30 – Internet & Cloud: Grade 8
-Skill: Analyze rate limiting and quota management for cloud services
-Description: Students explain why cloud services implement rate limits (preventing abuse, ensuring fair access, managing server load). They implement request tracking in their projects, display remaining quota, and handle rate limit responses gracefully by queuing requests or displaying user-friendly wait messages.
-CSTA: MS-SAS-NW-05
-
-Dependencies:
-* T30.G8.07: Design API request patterns for efficient data access
-* T30.G8.05: Design fallback strategies for cloud service failures
-
-
-
-
-ID: T30.G8.11
-Topic: T30 – Internet & Cloud: Grade 8
-Skill: Compare cloud deployment regions and their trade-offs
-Description: Students analyze how server location affects latency for users in different geographic regions. They measure response times to different server locations, create a visualization of latency differences, and explain when to choose specific regions (user proximity, data residency requirements, redundancy for reliability).
-CSTA: MS-SAS-NW-05
-
-Dependencies:
-* T30.G8.02: Analyze bandwidth and latency requirements for cloud applications
-* T30.G7.20: Analyze trade-offs between network topologies
-
-
-
-
-ID: T30.G8.12
-Topic: T30 – Internet & Cloud: Grade 8
-Skill: Design event-driven cloud architectures
-Description: Students diagram event-driven patterns where actions trigger cloud responses (user action → event → cloud processing → notification to other users). They implement a project using cloud broadcasts and data change events to create reactive applications where multiple components respond to shared state changes automatically.
-CSTA: MS-SAS-NW-06
-
-Dependencies:
-* T30.G7.03: Broadcast multiplayer messages using "broadcast with parameter" block
-* T30.G6.18: Save cloud data using "save data" block
-
 
 
 
 
 ID: T31.GK.01
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Sort information into safe-to-share vs keep-private categories
-Description: Students sort illustrated cards showing different types of information (favorite color, favorite food, pet's name vs home address, phone number, parents' names) into "OK to share with friends" and "Keep private" bins. They practice the phrase "Ask a trusted adult first" when unsure. Focus is on recognizing that some information is special and needs protection.
+Skill: Sort safe vs private information using picture cards
+Description: Students sort illustrated cards showing different types of information (favorite color, pet's name vs home address, phone number, school name) into "OK to share with friends" and "Keep private" bins. They practice saying "Ask a trusted adult first" when unsure. Teacher reviews choices with class discussion.
 
 
 
@@ -40931,7 +40248,7 @@ Skill: Identify when to stop and tell an adult online
 Description: Students hear short audio-narrated scenario stories with picture scenes (stranger in chat asking for photo, pop-up with scary message, someone asking where they live) and select the correct response: stop using the device and tell a trusted adult.
 
 Dependencies:
-* T31.GK.01: Sort information into safe-to-share vs keep-private categories
+* T31.GK.01: Sort safe vs private information using picture cards
 
 
 
@@ -40942,7 +40259,7 @@ Skill: Compare short vs long passwords using visual length
 Description: Students compare visual representations of passwords using picture-based length comparisons. They see a short password shown as "cat" (3 boxes) vs a longer password shown with 8+ boxes containing mixed symbols (letters, numbers, special characters). They point to which password is harder to guess based on visual length and variety.
 
 Dependencies:
-* T31.GK.01: Sort information into safe-to-share vs keep-private categories
+* T31.GK.01: Sort safe vs private information using picture cards
 
 
 
@@ -40953,7 +40270,7 @@ Skill: Sort activities into online vs offline categories
 Description: Students drag picture cards showing activities (playing outside, watching videos on tablet, reading a paper book, video calling grandma, drawing with crayons, playing a phone game) into "Uses Internet" and "No Internet Needed" boxes. They count how many activities in each category.
 
 Dependencies:
-* T31.GK.01: Sort information into safe-to-share vs keep-private categories
+* T31.GK.01: Sort safe vs private information using picture cards
 
 
 
@@ -40964,18 +40281,18 @@ Skill: Match devices to lock symbols
 Description: Students see pictures of devices (phone, tablet, computer, game console) and match each to a "lock" picture to show that devices need protection. They discuss why we lock devices like we lock doors to our home.
 
 Dependencies:
-* T31.GK.01: Sort information into safe-to-share vs keep-private categories
+* T31.GK.01: Sort safe vs private information using picture cards
 
 
 
 
 ID: T31.G1.01
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain why some personal information must stay private
-Description: Students drag information cards into two columns: "Private - Don't Share Online" (full name, address, phone number, birthday, school name, family photos) vs "OK to Share" (favorite color, favorite animal, hobby). They match each private item to a consequence picture card showing what could go wrong if shared (stranger finds home, identity stolen, unsafe situation). Focus on understanding WHY information needs protection, not just which information.
+Skill: Categorize information as private or shareable
+Description: Students drag information cards into two columns: "Private - Don't Share Online" (full name, address, phone number, birthday, school name, family photos) vs "OK to Share" (favorite color, favorite animal, hobby). They explain why some information needs protection by pointing to matching consequence cards.
 
 Dependencies:
-* T31.GK.01: Sort information into safe-to-share vs keep-private categories
+* T31.GK.01: Sort safe vs private information using picture cards
 
 
 
@@ -41141,8 +40458,8 @@ Dependencies:
 
 ID: T31.G3.04
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Apply privacy settings to control who sees your projects
-Description: Students practice project privacy in CreatiCode: (1) Open sharing panel for their project, (2) Set project to Private, verify classmate cannot view it, (3) Share with specific classmate, verify they can now view, (4) Set to Public, discuss what "anyone can see" means. They create a decision chart: "When should I use Private vs Shared vs Public?" and apply it to 3 scenarios (school project, personal game, collaboration).
+Skill: Configure sharing settings for CreatiCode projects
+Description: Students practice project privacy in CreatiCode: (1) Open sharing panel for their project, (2) Set project to Private, verify classmate cannot view it, (3) Share with specific classmate, verify they can now view, (4) Set to Public, discuss what "anyone can see" means. They create a decision chart: "When should I use Private vs Shared vs Public?"
 
 _Implementation note: Uses CreatiCode platform sharing UI, not programming blocks._
 
@@ -41166,7 +40483,7 @@ Dependencies:
 
 ID: T31.G3.06
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Build a personal information protection plan
+Skill: Create a personal information protection plan
 Description: Students create a simple "My Safety Plan" by selecting from options: "I will keep private: ___" (select 3+ items), "I will ask an adult before: ___" (select 2+ items), "If something scary happens online, I will: ___" (select steps). They test their plan by applying it to 3 scenarios and checking if their plan covers each situation.
 
 Dependencies:
@@ -41176,26 +40493,14 @@ Dependencies:
 
 
 
-ID: T31.G3.07
-Topic: T31 – Cybersecurity & Digital Safety
-Skill: Identify safe vs risky behaviors in online games
-Description: Students evaluate online gaming scenarios for safety: (1) Stranger in game asks to be friends on another platform (risky - don't share contact info), (2) Game asks for birthday to give gift (risky - verify with adult), (3) Player uses mean words in chat (risky - mute/report, don't engage), (4) Friend from school invites to play (safe). They apply the "stranger in game = stranger in real life" rule and list 3 safe responses to risky situations. They explain why in-game currency scams target young players.
-
-Dependencies:
-* T31.G2.03: Choose kind vs unkind responses to online messages
-* T31.G3.05: Apply checklist to identify phishing messages
-
-
-
-
 ID: T31.G4.01
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Classify digital citizenship rules by who they protect
-Description: Students review a digital citizenship agreement with 10+ rules and categorize each rule into three buckets: (1) Rules that protect MY data (e.g., "Don't share passwords"), (2) Rules that protect OTHERS (e.g., "Be kind in comments"), (3) Rules that protect EVERYONE (e.g., "Report bad content"). They tally rules in each category and discuss which category has the most rules. They propose one new rule for each category based on their experiences.
+Skill: Categorize digital citizenship rules by protection type
+Description: Students review a digital citizenship agreement with 10+ rules and categorize each rule into three buckets: (1) Rules that protect MY data (e.g., "Don't share passwords"), (2) Rules that protect OTHERS (e.g., "Be kind in comments"), (3) Rules that protect EVERYONE (e.g., "Report bad content"). They tally rules in each category and discuss which category has the most rules.
 
 Dependencies:
 * T31.G3.02: Explain two-factor authentication using door lock analogy
-* T31.G3.06: Build a personal information protection plan
+* T31.G3.06: Create a personal information protection plan
 
 
 
@@ -41218,7 +40523,7 @@ Skill: Analyze a data breach story and list protective actions
 Description: Students read an age-appropriate news summary about a data breach (company X leaked user passwords). They answer: What information was stolen? How did attackers get it? They list 3 protective actions for affected users (change password, enable 2FA, check for suspicious activity) and 2 things the company should have done differently (encrypt passwords, limit data collection).
 
 Dependencies:
-* T31.G4.01: Classify digital citizenship rules by who they protect
+* T31.G4.01: Categorize digital citizenship rules by protection type
 * T31.G4.02: Compare password manager benefits and risks
 
 
@@ -41243,7 +40548,7 @@ Description: Students examine app store listings and websites and rate trustwort
 
 Dependencies:
 * T31.G3.03: Analyze browser address bars for safety indicators
-* T31.G4.01: Classify digital citizenship rules by who they protect
+* T31.G4.01: Categorize digital citizenship rules by protection type
 
 
 
@@ -41262,24 +40567,12 @@ Dependencies:
 
 ID: T31.G4.07
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Design a password strength scoring rubric
+Skill: Create a password strength scoring rubric
 Description: Students design a password strength rubric with point values: length (1 pt per char over 6), uppercase letters (1 pt), numbers (1 pt), symbols (2 pts), not a dictionary word (2 pts). They score 5 example passwords using their rubric and rank them from weakest to strongest. They test if their rubric matches expert ratings.
 
 Dependencies:
 * T31.G4.02: Compare password manager benefits and risks
 * T31.G3.02: Explain two-factor authentication using door lock analogy
-
-
-
-
-ID: T31.G4.08
-Topic: T31 – Cybersecurity & Digital Safety
-Skill: Evaluate QR code safety before scanning
-Description: Students learn QR code risks: (1) Examine how QR codes can link to malicious websites without showing the URL, (2) Identify suspicious QR code placements (stickers over official codes, random flyers), (3) Practice safe scanning: use phone's built-in preview feature to see URL before opening, check if URL matches expected destination. They sort 5 QR code scenarios into "Safe to scan" vs "Ask adult first" and explain their reasoning for each.
-
-Dependencies:
-* T31.G3.01: Label parts of URLs and email addresses
-* T31.G4.05: Rate app and website trustworthiness using multiple indicators
 
 
 
@@ -41291,7 +40584,7 @@ Description: Students examine 8 attack scenarios and classify each by tactic: ph
 
 Dependencies:
 * T31.G3.05: Apply checklist to identify phishing messages
-* T31.G4.01: Classify digital citizenship rules by who they protect
+* T31.G4.01: Categorize digital citizenship rules by protection type
 
 
 
@@ -41313,8 +40606,8 @@ Skill: Compare app privacy policies using a data collection chart
 Description: Students examine simplified privacy policy summaries for two apps and complete a comparison chart: Data collected (name, email, location, usage)? Who sees it (company only, advertisers, everyone)? Can you delete it (yes/no)? They score each app's privacy friendliness (1-5) and justify their ratings. They identify which app they'd recommend to a friend and why.
 
 Dependencies:
-* T31.G3.04: Apply privacy settings to control who sees your projects
-* T31.G4.01: Classify digital citizenship rules by who they protect
+* T31.G3.04: Configure sharing settings for CreatiCode projects
+* T31.G4.01: Categorize digital citizenship rules by protection type
 
 
 
@@ -41360,7 +40653,7 @@ Description: Students follow backup steps for their CreatiCode project: (1) File
 _Implementation note: Uses CreatiCode File menu, not programming blocks._
 
 Dependencies:
-* T31.G3.04: Apply privacy settings to control who sees your projects
+* T31.G3.04: Configure sharing settings for CreatiCode projects
 
 
 
@@ -41395,7 +40688,7 @@ Skill: Rank passwords by strength using established criteria
 Description: Students apply password strength criteria to rank 6 passwords from weakest to strongest: length (longer = stronger), character variety (letters + numbers + symbols), unpredictability (no dictionary words, no patterns like "123"). They score each password (0-10 pts) using a rubric and justify rankings. They identify which weak password would be cracked first and why.
 
 Dependencies:
-* T31.G4.07: Design a password strength scoring rubric
+* T31.G4.07: Create a password strength scoring rubric
 * T31.G4.04: Trace how 2FA blocks stolen password attacks
 
 
@@ -41415,8 +40708,8 @@ Dependencies:
 
 ID: T31.G6.01.01
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Explain how viruses and worms spread through systems
-Description: Students analyze self-replicating malware behavior: (1) Trace how a virus attaches to files and spreads when files are shared, (2) Diagram how worms travel through network connections without user action, (3) List warning signs (system slowdown, unknown processes, files appearing/changing), (4) Match each malware type to its primary defense (antivirus for viruses, firewall for worms). They compare one real-world example of each type and explain why worms can spread faster than viruses.
+Skill: Create a malware reference card for viruses and worms
+Description: Students research and create a reference card for self-replicating malware (viruses and worms) with four sections: How it spreads (email attachments, infected files, network connections), Warning signs (system slowdown, unknown processes, files appearing), Defense strategies (antivirus software, don't open unknown attachments, keep software updated), and Real example (choose one famous virus). They present their card to classmates.
 
 Dependencies:
 * T31.G4.03: Analyze a data breach story and list protective actions
@@ -41427,33 +40720,33 @@ Dependencies:
 
 ID: T31.G6.01.02
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Trace how ransomware encrypts files and demands payment
-Description: Students analyze ransomware attack chains: (1) Trace the infection path (phishing email → user clicks → malware downloads → files encrypted), (2) Explain what encryption does to make files inaccessible without a key, (3) Analyze why attackers demand cryptocurrency (hard to trace, irreversible). They debate why paying ransom is discouraged (funds criminals, no guarantee of recovery, may be targeted again) and demonstrate why regular backups defeat ransomware by restoring files without paying.
+Skill: Create a malware reference card for ransomware
+Description: Students create a reference card for ransomware with four sections: How it works (encrypts files, demands payment), Common attack methods (phishing emails, fake downloads, drive-by downloads), Warning signs (files inaccessible, ransom message appears), Defense and recovery (regular backups, don't pay ransom, report to authorities). They explain why backups defeat ransomware and why paying encourages more attacks.
 
 Dependencies:
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 
 
 
 
 ID: T31.G6.01.03
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Identify how spyware secretly collects personal data
-Description: Students analyze spyware behavior: (1) List what spyware collects (keystrokes revealing passwords, browsing history, screenshots, webcam/microphone access), (2) Trace how it arrives (bundled with "free" software, malicious ads, fake browser updates), (3) Identify warning signs in their own devices (homepage changed, new toolbars, slow performance, battery draining fast). They examine app permission requests and identify suspicious ones (flashlight app requesting microphone access). They list 3 personal items spyware could steal from them specifically.
+Skill: Create a malware reference card for spyware
+Description: Students create a reference card for spyware with four sections: What it does (tracks browsing, captures keystrokes, steals credentials), How it arrives (bundled with free software, malicious ads, fake updates), Warning signs (browser changes, unexpected pop-ups, slow performance, unknown programs), Defense (careful software installation, check permissions, anti-spyware tools). They identify which personal data spyware could steal from them.
 
 Dependencies:
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 
 
 
 
 ID: T31.G6.01.04
 Topic: T31 – Cybersecurity & Digital Safety
-Skill: Analyze how trojans disguise themselves as legitimate software
-Description: Students examine trojan deception techniques: (1) Compare legitimate vs trojan versions of the same app (official website vs suspicious download site), (2) List common disguises (cracked games, free movie downloads, "system optimizer" tools), (3) Trace what happens after installation (backdoor opens, data stolen, device joins botnet). They analyze 3 scenarios and identify which downloads are trojans based on red flags (too-good-to-be-true offers, unusual file sources, missing digital signatures). They explain why "if it's free, you might be the product."
+Skill: Create a malware reference card for trojans
+Description: Students create a reference card for trojan horses with four sections: Disguise tactics (fake game downloads, pirated software, "helpful" utilities), Hidden payload (backdoors, data theft, botnet recruitment), Warning signs (unexpected behavior, new programs appearing, security software disabled), Defense (download only from official sources, verify app signatures, use security software). They analyze a scenario to identify a trojan.
 
 Dependencies:
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 
 
 
@@ -41465,7 +40758,7 @@ Description: Students examine 5 sanitized phishing email examples and apply adva
 
 Dependencies:
 * T31.G5.01: Classify social engineering attacks by tactic type
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 
 
 
@@ -41477,7 +40770,7 @@ Description: Students draw diagrams showing how network attacks work: DoS attack
 
 Dependencies:
 * T31.G5.09: Encode and decode messages using substitution cipher (unplugged)
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 
 
 
@@ -41488,7 +40781,7 @@ Skill: Trace how malicious input can manipulate systems
 Description: Students learn conceptually how attackers use unexpected input to cause harm: entering very long text to overflow fields, typing special characters that confuse the system, or crafting input that changes how commands execute. Using non-code examples, they trace how a login form might be tricked if it doesn't validate input properly. They list 3 rules for safe input handling (limit length, filter special chars, treat all input as untrusted).
 
 Dependencies:
-* T31.G6.01.04: Analyze how trojans disguise themselves as legitimate software
+* T31.G6.01.04: Create a malware reference card for trojans
 * T31.G5.11: Trace data flow in a simple app and identify collection points
 
 
@@ -41538,7 +40831,7 @@ Description: Students analyze AI features and identify three threat categories: 
 
 Dependencies:
 * T31.G5.01: Classify social engineering attacks by tactic type
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 
 
 
@@ -41549,7 +40842,7 @@ Skill: Compare ethical vs malicious hacking through case studies
 Description: Students read 2 simplified case studies: one ethical (security researcher finds bug, reports responsibly, gets rewarded) and one malicious (attacker finds same bug, exploits it for profit). They complete a comparison chart: permission obtained (yes/no), goal (help/harm), outcome (fixed/damage), legal status. They explain why the same technical skills can be used for good or bad and discuss bug bounty programs.
 
 Dependencies:
-* T31.G6.01.01: Explain how viruses and worms spread through systems
+* T31.G6.01.01: Create a malware reference card for viruses and worms
 * T31.G4.03: Analyze a data breach story and list protective actions
 
 
@@ -41749,7 +41042,7 @@ Description: Students conduct privacy audits on projects using cameras, micropho
 
 Dependencies:
 * T31.G8.03.01: Test chatbots for prompt injection vulnerabilities
-* T31.G7.04: Debate facial recognition benefits and risks using structured arguments
+* T31.G5.05: Apply redaction techniques to protect PII
 
 
 
@@ -41818,53 +41111,6 @@ Dependencies:
 * T31.G8.02: Implement role-based access control in CreatiCode projects
 * T31.G8.03.04: Compile AI security audit report with risk ratings
 
-
-
-
-ID: T31.G7.07
-Topic: T31 – Cybersecurity & Digital Safety
-Skill: Detect deepfake videos and AI-generated images using verification techniques
-Description: Students learn to identify AI-generated media: (1) Examine sample deepfake videos for artifacts (unnatural blinking, blurred edges, inconsistent lighting, audio-lip sync issues), (2) Use reverse image search to find original sources, (3) Check metadata for signs of manipulation, (4) Apply the SIFT method (Stop, Investigate source, Find better coverage, Trace original). They analyze 5 media samples and correctly classify real vs AI-generated. They discuss how deepfakes threaten trust and list 3 situations where deepfakes could cause harm.
-
-Dependencies:
-* T31.G5.03: Compare app privacy policies using a data collection chart
-* T31.G6.06: Identify AI-specific security threats in projects
-
-
-
-
-ID: T31.G8.08
-Topic: T31 – Cybersecurity & Digital Safety
-Skill: Analyze AI-enhanced phishing attacks and their detection
-Description: Students examine how AI makes attacks more dangerous: (1) Compare traditional phishing (generic text, spelling errors) vs AI-generated phishing (personalized, perfect grammar, mimics writing style), (2) Analyze voice phishing (vishing) using AI voice cloning, (3) Identify new detection challenges when AI removes obvious red flags. They develop updated detection strategies: verify through separate channels, use code words with family, question urgency. They create a "trust but verify" protocol for suspicious communications.
-
-Dependencies:
-* T31.G6.02: Analyze phishing emails using advanced detection techniques
-* T31.G7.07: Detect deepfake videos and AI-generated images using verification techniques
-
-
-
-
-ID: T31.G8.09
-Topic: T31 – Cybersecurity & Digital Safety
-Skill: Apply zero-trust security principles to project design
-Description: Students learn zero-trust architecture: "never trust, always verify." They apply principles: (1) Verify every request regardless of source (check permissions even for logged-in users), (2) Use least-privilege access (give minimum permissions needed), (3) Assume breach (design as if attackers are already inside). They redesign a sample project with zero-trust principles: add verification at each step, remove implicit trust in internal components, log all access attempts. They compare before/after security posture.
-
-Dependencies:
-* T31.G8.02: Implement role-based access control in CreatiCode projects
-* T31.G8.06: Implement secure session management in multi-user projects
-
-
-
-
-ID: T31.G8.10
-Topic: T31 – Cybersecurity & Digital Safety
-Skill: Debug security vulnerabilities using systematic testing
-Description: Students practice structured security debugging: (1) Given a project with intentional security flaws, systematically test each input/feature, (2) Document each vulnerability found with reproduction steps, (3) Prioritize by severity (data exposure > functionality break > cosmetic), (4) Fix vulnerabilities one at a time and verify each fix doesn't break functionality, (5) Re-test to confirm vulnerabilities are closed. They debug a sample project with 5 planted vulnerabilities and successfully find and fix at least 4.
-
-Dependencies:
-* T31.G8.01.04: Write professional security test reports with severity ratings
-* T31.G7.06: Implement input sanitization to prevent manipulation
 
 
 
