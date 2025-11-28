@@ -107,7 +107,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 23) continue;
+      if ( iteration == 0 && i < 20) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -313,7 +313,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 
 ## Step 4: Output a summary of dependency changes. You must say something.
 
-Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now.`;
+Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now. You MUST make some improvements.`;
 
         let success = false;
         let retryCount = 0;

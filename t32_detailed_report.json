@@ -1,0 +1,2687 @@
+{
+  "themes": {
+    "Digital Safety & Well-being": [
+      {
+        "id": "T32.GK.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Point to pictures showing too much screen time",
+        "description": "Students look at picture cards showing different screen time scenarios (tired eyes, missing outdoor play, energetic after break) and point to pictures that show too much screen time. They connect picture cards of scenarios to feeling cards (tired/happy) to understand the effects.",
+        "dependencies": [
+          {
+            "id": "T01.GK.01",
+            "description": "Put pictures in order for getting ready for bed"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.G2.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Plan balanced tech schedules",
+        "description": "Learners design a simple daily routine that includes device time, outdoor play, meals, and sleep using picture cards and timers.",
+        "dependencies": [
+          {
+            "id": "T01.G1.01",
+            "description": "Put pictures in order to plant a seed"
+          },
+          {
+            "id": "T03.G1.03",
+            "description": "List steps for a simple classroom routine"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G2.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build a picture schedule balancing screen time with other activities",
+        "description": "Students build a picture schedule using activity cards showing how screen/device time fits alongside other activities (reading, outside play, meals, sleep). They arrange cards to create a balanced day and explain why balancing tech use with other activities keeps us healthy.",
+        "dependencies": [
+          {
+            "id": "T32.G2.02",
+            "description": "Plan balanced tech schedules"
+          },
+          {
+            "id": "T03.G1.03",
+            "description": "List steps for a simple classroom routine"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G5.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Debate digital well-being scenarios",
+        "description": "Students debate policy scenarios (device-free times, notifications settings, screen time limits) using evidence from research on focus, sleep, and mental health. They reference specific studies or data and use structured debate formats (claim, evidence, reasoning) to support their positions.",
+        "dependencies": [
+          {
+            "id": "T32.G4.03",
+            "description": "Identify tradeoffs in technology impacts"
+          },
+          {
+            "id": "T32.G4.05",
+            "description": "Test game accessibility features"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G7.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build transparency vs. security tradeoff simulator",
+        "description": "Students build an interactive demo simulating transparency vs. security tradeoffs for AI tools. They create: (1) A hypothetical AI system (e.g., content moderation bot, facial recognition for school safety), (2) Transparency controls using widgets: sliders to adjust transparency levels (from \"fully open source\" to \"completely proprietary\"), (3) Consequence simulation: As transparency changes, labels display changing outcomes (High transparency → \"Public can audit for bias, but bad actors can game the system\"; Low transparency → \"Harder to exploit, but community can't verify fairness\").",
+        "dependencies": [
+          {
+            "id": "T32.G6.08",
+            "description": "Analyze data privacy tradeoffs"
+          },
+          {
+            "id": "T32.G5.04",
+            "description": "Debate digital well-being scenarios"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.13",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze privacy and safety impacts",
+        "description": "Using the surveillance simulator built in T32.G7.12, students analyze their own collected data as a case study in AI perception ethics. They: (1) Review the logged data table and identify what privacy-sensitive information was captured (movement patterns, time spent in areas, behavioral classifications), (2) Analyze potential discrimination: Could the system treat people with different abilities unfairly? (e.g., mobility device users flagged as \"suspicious,\" different walking gaits misclassified), (3) Research real-world AI surveillance cases (school monitoring, public safety, retail analytics) and compare to their simulator, (4) Conduct a structured debate using a widget-based debate tool (buttons for \"Pro Safety\" vs \"Pro Privacy\" positions, text displays for arguments/evidence), (5) Write evidence-based ethical guidelines for when such systems are justified, including required safeguards (transparency, consent, bias testing, data minimization, human oversight).",
+        "dependencies": [
+          {
+            "id": "T32.G7.12",
+            "description": "Build AI perception surveillance simulator"
+          },
+          {
+            "id": "T15.G7.01",
+            "description": "Build interactive data displays with widgets"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.24",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Plan a lesson for younger coders",
+        "description": "Students plan a short lesson (10-15 minutes) to teach younger students a coding concept or tech safety topic (debugging basics, AI safety, online privacy). The plan includes: learning objective, step-by-step instructions, an activity, and how to check understanding.",
+        "dependencies": [
+          {
+            "id": "T32.G6.26",
+            "description": "Add ethics clauses to team charters"
+          },
+          {
+            "id": "T32.G5.11",
+            "description": "Evaluate representation and inclusion in tech career stories"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.04.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Design workshop curriculum for responsible tech",
+        "description": "Students plan a short lesson (10-15 minutes) to teach younger students a coding concept or tech safety topic (debugging basics, AI safety, online privacy). The plan includes: learning objective, step-by-step instructions, an activity, and how to check understanding. They select the workshop topic (screen balance, kindness, privacy, AI ethics).",
+        "dependencies": [
+          {
+            "id": "T32.G7.07",
+            "description": "Conduct bias audits for AI content generation (T20-T21)"
+          },
+          {
+            "id": "T32.G6.07",
+            "description": "Build ethics evaluation tool combining all lenses"
+          },
+          {
+            "id": "T02.G6.01",
+            "description": "Use the pseudocode generation block"
+          },
+          {
+            "id": "T07.G6.01",
+            "description": "Trace nested loops with variable bounds"
+          },
+          {
+            "id": "T09.G6.01",
+            "description": "Model real-world quantities using variables and formulas"
+          },
+          {
+            "id": "T32.G8.04.01",
+            "description": "Design workshop curriculum for responsible tech"
+          },
+          {
+            "id": "T16.G8.01",
+            "description": "Build complex multi-widget applications"
+          },
+          {
+            "id": "T32.G8.04.02",
+            "description": "Build interactive workshop tools"
+          },
+          {
+            "id": "T32.G8.03",
+            "description": "Integrate scoring and generate recommendations"
+          },
+          {
+            "id": "T15.G8.01",
+            "description": "Build complex multi-widget applications"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Resolve conflicts between ethical frameworks",
+        "description": "When frameworks conflict (e.g., beneficence supports surveillance for safety but autonomy opposes it), students must justify which framework should take priority for each specific case. They write reasoned arguments considering context, stakeholder impacts, and values, and present their decisions with supporting evidence.",
+        "dependencies": [
+          {
+            "id": "T32.G8.05",
+            "description": "Evaluate real proposals using the tool"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Apply tool to evaluate AI projects",
+        "description": "Using the impact assessment tool built in T32.G8.03, students conduct comprehensive evaluations of real CreatiCode community projects. They: (1) Select 3+ diverse community projects for evaluation (at least one using AI blocks T20-T23, at least one game, at least one educational tool), (2) Systematically assess each project using the tool, gathering evidence for each category: Test accessibility features, Review data collection practices, Analyze potential wellbeing impacts, Evaluate cultural representation, (3) Generate assessment reports: Use the tool's scoring output, Review ChatGPT-generated recommendations, Add their own observations and suggestions, (4) Create a comparative analysis using table variables: Which categories had lowest scores across projects? What common issues emerged? Which projects demonstrated best practices?, (5) Present findings to project creators with constructive, evidence-based recommendations. Students reflect on assessment challenges: How to score subjective categories consistently? When are tradeoffs acceptable? How to balance thoroughness with practicality?",
+        "dependencies": [
+          {
+            "id": "T32.G8.03",
+            "description": "Integrate scoring and generate recommendations"
+          },
+          {
+            "id": "T15.G8.01",
+            "description": "Build complex multi-widget applications"
+          },
+          {
+            "id": "T05.G6.01",
+            "description": "Apply empathy, needs, and accessibility checklist to a design"
+          },
+          {
+            "id": "T07.G6.01",
+            "description": "Trace nested loops with variable bounds"
+          },
+          {
+            "id": "T08.G6.01",
+            "description": "Use conditionals in physics simulations"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.10",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Lead peer workshops on responsible tech use",
+        "description": "Students design and build interactive workshop tools for teaching younger students about responsible tech use. They create: (1) Workshop topic selection: Choose from screen balance, online kindness, privacy awareness, or AI ethics, (2) Interactive teaching tool using widgets and blocks: For screen balance (timer widget showing healthy tech time limits, activity tracker), For online kindness (scenario simulator with multiple choice responses and consequence feedback), For privacy (information sorting game using drag-drop widgets), For AI ethics (bias demonstration tool using AI image generation blocks), (3) Assessment component: Quiz using widgets to check understanding, results stored in table variable, (4) Take-home materials: Printable guidelines generated from workshop data. Students pilot workshops with younger grades, collect feedback using widget-based surveys, and iterate on their tools based on what worked.",
+        "dependencies": [
+          {
+            "id": "T32.G7.15",
+            "description": "Facilitate community discussions on AI-powered tech policy"
+          },
+          {
+            "id": "T32.G7.24",
+            "description": "Plan a lesson for younger coders"
+          },
+          {
+            "id": "T32.G7.25",
+            "description": "Deliver a lesson to younger coders"
+          },
+          {
+            "id": "T03.G6.01",
+            "description": "Propose a module hierarchy for a medium project"
+          },
+          {
+            "id": "T07.G6.01",
+            "description": "Trace nested loops with variable bounds"
+          }
+        ],
+        "grade": "8"
+      }
+    ],
+    "AI Ethics": [
+      {
+        "id": "T32.G5.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Apply simple ethics questions to technology decisions",
+        "description": "Students learn to ask basic ethics questions when evaluating technologies: (1) Does it help people? Who benefits most?, (2) Is it fair? Can everyone use it?, (3) Do users have control and choice? They practice applying these questions to familiar technologies (apps, games, school tools) and document their evaluations. This scaffolds the formal ethics frameworks in G6.",
+        "dependencies": [
+          {
+            "id": "T32.G5.03",
+            "description": "Explain why technology impacts differ across contexts"
+          },
+          {
+            "id": "T32.G5.04",
+            "description": "Debate digital well-being scenarios"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G5.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Evaluate online sources using credibility criteria",
+        "description": "Students evaluate online information sources by checking: (1) Author/organization credentials, (2) Publication date and currency, (3) Evidence and citations provided, (4) Bias and purpose (inform vs. persuade vs. sell), (5) Corroboration with other sources. They rate sources as high/medium/low credibility and explain their reasoning.",
+        "dependencies": [
+          {
+            "id": "T32.G5.01",
+            "description": "Research technology impacts in one community"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G6.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Test AI image generation for bias",
+        "description": "Students test CreatiCode's T20 image generation blocks for bias. They generate 10+ images with prompts like \"doctor,\" \"nurse,\" \"CEO,\" \"teacher,\" \"engineer,\" \"artist\" and document demographic representation patterns using a table variable (columns: Prompt, Gender Observed, Race Observed, Age Observed, Stereotype Present?). They analyze patterns in the results.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T20.G6.01",
+            "description": "Generate images with AI (DALL-E blocks)"
+          },
+          {
+            "id": "T32.G4.05",
+            "description": "Test game accessibility features"
+          },
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build AI testing dashboard combining image and chatbot tests",
+        "description": "Students create a comprehensive testing dashboard using widgets that combines image generation and chatbot testing. The dashboard includes: dropdown to select AI tool (Image/Chat), text input for test prompt, buttons to record observations (Biased/Fair, Accurate/Inaccurate, Inclusive/Exclusive), and table display showing all logged test results. This consolidates data from T32.G6.01 and T32.G6.02.",
+        "dependencies": [
+          {
+            "id": "T32.G6.01",
+            "description": "Test AI image generation for bias"
+          },
+          {
+            "id": "T32.G6.02",
+            "description": "Test AI chatbots for accuracy and inclusivity"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Apply fairness lens (equal access and impact?)",
+        "description": "Students apply the fairness ethics lens to CreatiCode projects by asking: Can everyone use this equally? Are there accessibility barriers? Does it treat all users fairly? They test projects with accessibility features like text-to-speech and document barriers or inequities found.",
+        "dependencies": [
+          {
+            "id": "T32.G6.04",
+            "description": "Apply beneficence lens (does it help? who benefits?)"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          },
+          {
+            "id": "T32.G4.06",
+            "description": "Implement accessibility improvements"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Apply autonomy lens (user control and choice?)",
+        "description": "Students apply the autonomy ethics lens to CreatiCode projects by asking: Do users have control? Can they make informed choices? Is consent obtained? They check for consent mechanisms using widget buttons and evaluate whether users understand what data is collected and how it's used.",
+        "dependencies": [
+          {
+            "id": "T32.G6.05",
+            "description": "Apply fairness lens (equal access and impact?)"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build ethics evaluation tool combining all lenses",
+        "description": "Students build a comprehensive ethics evaluation tool using widgets that combines all three lenses (beneficence, fairness, autonomy). The tool includes: dropdown menu to select lens, text input for project URL/name, and labels to display evaluation questions for each lens. They document findings in a table variable with columns: Project, Lens, Evidence, Rating. Students use the tool to evaluate their own and community projects.",
+        "dependencies": [
+          {
+            "id": "T32.G6.06",
+            "description": "Apply autonomy lens (user control and choice?)"
+          },
+          {
+            "id": "T32.G5.03",
+            "description": "Explain why technology impacts differ across contexts"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Synthesize comprehensive AI ethics guidelines",
+        "description": "Using findings from T32.G6.03 testing dashboard, students synthesize comprehensive ethics guidelines for AI content generation (T20-T21). They: (1) Analyze test data using table variable operations to identify patterns (e.g., \"80% of 'CEO' images showed men\"), (2) Create an interactive ethics guidelines document using widgets: buttons to select AI type (Image/Chat), dropdown for ethical concern category (Bias, Misinformation, Inclusivity, Citation), labels displaying specific guidelines and evidence, (3) Develop decision frameworks: When is bias acceptable? How to write inclusive prompts? How to verify AI outputs? (4) Include concrete examples: \"Good prompt: 'diverse group of doctors' vs Biased prompt: 'doctor'\". Students present guidelines as a widget-based reference tool that other students can use when working with T21-T22 AI blocks.",
+        "dependencies": [
+          {
+            "id": "T32.G6.03",
+            "description": "Build AI testing dashboard combining image and chatbot tests"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.10",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Develop ethics guidelines for AI perception and assistance",
+        "description": "Students actively test AI perception and assistance tools to develop evidence-based guidelines. For perception: Test hand/body tracking with different skin tones and lighting, documenting accuracy variations. For coding assistants: Test AI coding help with different question types and English proficiency levels. Students build a testing demo using widgets that displays test results (table variables showing: test case, demographic/condition, accuracy rating, ethical concerns). Using findings, they create comprehensive guidelines addressing consent, surveillance concerns, equity in recognition accuracy, academic integrity, proper citation, and avoiding over-dependency.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T22.G6.01",
+            "description": "Use AI perception tools (hand/body tracking)"
+          },
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          },
+          {
+            "id": "T32.G6.09",
+            "description": "Synthesize comprehensive AI ethics guidelines"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.25",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze job descriptions for soft skills and values",
+        "description": "Students read the same job postings and identify: (1) collaboration and communication traits mentioned (teamwork, problem-solving, communication), (2) company values (accessibility, ethics, diversity, user focus), and (3) work style preferences (remote, team-based, independent). Students explain why these non-technical requirements matter.",
+        "dependencies": [
+          {
+            "id": "T32.G6.24",
+            "description": "Analyze job descriptions for technical skills"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.26",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Add ethics clauses to team charters",
+        "description": "Students amend their team charters with specific commitments about: (1) responsible AI use, (2) crediting sources and collaborators, (3) protecting user data and privacy, and (4) ensuring accessibility for all users. Teams discuss why each commitment matters.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T32.G5.10",
+            "description": "Complete a plan-build-feedback cycle"
+          },
+          {
+            "id": "T32.G6.07",
+            "description": "Build ethics evaluation tool combining all lenses"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G7.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build systematic testing framework for AI perception",
+        "description": "Students create a comprehensive testing framework to audit T23-T24 AI tools for bias. They build a test suite using widgets with dropdown menus to select test conditions (skin tone: light/medium/dark, lighting: bright/dim/mixed, English proficiency: native/intermediate/beginner) and automated data collection that logs results to table variables (columns: Tool Type, Test Condition, Accuracy Score, Error Type, Timestamp).",
+        "dependencies": [
+          {
+            "id": "T32.G7.07",
+            "description": "Conduct bias audits for AI content generation (T20-T21)"
+          },
+          {
+            "id": "T32.G6.10",
+            "description": "Develop ethics guidelines for AI perception and assistance (T22-T23)"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Propose solutions for detected bias",
+        "description": "Using the disparity analysis from T32.G7.02, students propose both technical solutions (better training data, adjustable sensitivity settings) and policy solutions (required bias testing before deployment, transparency requirements, regular audits). They present evidence-based recommendations with specific implementation steps.",
+        "dependencies": [
+          {
+            "id": "T32.G7.02",
+            "description": "Analyze audit data and identify disparities"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Conduct bias audits for AI content generation (T20-T21)",
+        "description": "Students systematically audit T20 image generation for representation across demographics and T21 chatbots for response quality by dialect/topic. They measure disparities, analyze root causes, and propose mitigation strategies. Students use table variables to log results (columns: Prompt, Demographic, Quality Rating) and create data visualizations showing disparity patterns.",
+        "dependencies": [
+          {
+            "id": "T32.G6.03",
+            "description": "Build AI testing dashboard combining image and chatbot tests"
+          },
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.14",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Debate ethics and propose policies",
+        "description": "Using findings from T32.G7.06 AI art gallery experiments, students research stakeholder perspectives and engage in structured debates about AI media generation ethics. They: (1) Research perspectives through interviews/articles: Artists' concerns about devaluation of work and copyright, Educators' views on AI in creative learning, Business perspectives on efficiency and cost, Consumers' views on AI disclosure, (2) Build an interactive debate tool using widgets: Buttons to select debate topics (AI art copyright, Training data attribution, Disclosure requirements, Artist compensation), Dropdown for stakeholder perspective (Artist, Business, Consumer, Educator, AI Researcher), Text display of arguments and counter-arguments for each position, (3) Conduct classroom debates using evidence from research and experiments, (4) Draft policy proposals addressing: Should AI art be copyrightable?, Should training data sources be credited/compensated?, When must AI generation be disclosed?, How can artists adapt/benefit? Students present proposals with specific, actionable recommendations grounded in their experimental evidence and stakeholder research.",
+        "dependencies": [
+          {
+            "id": "T32.G7.06",
+            "description": "Build AI art gallery with comparison data"
+          },
+          {
+            "id": "T15.G7.01",
+            "description": "Build interactive data displays with widgets"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.20",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Research emerging tech careers and required skills",
+        "description": "Students research new and emerging tech career paths (AI ethics specialist, sustainability technologist, accessibility engineer, VR/AR developer). For each career, students identify: the skills, education, and experiences needed to pursue them, and why these careers are growing.",
+        "dependencies": [
+          {
+            "id": "T32.G6.18",
+            "description": "Compare computing career clusters"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.21",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Discuss AI ethics and equity with tech professionals",
+        "description": "Students explore AI ethics, fairness, and responsible AI through case studies or conversations with professionals. They learn about: bias in AI systems, strategies for ensuring AI serves all communities equitably, and the role of AI ethics specialists.",
+        "dependencies": [
+          {
+            "id": "T32.G6.19",
+            "description": "Analyze representation in computing careers"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Draft equity-focused policy briefs for AI in education",
+        "description": "Students create data-driven policy briefs with integrated visualizations. They: (1) Research and collect data on AI equity issues: survey students about AI tool access, analyze AI output bias from their T32.G7.01 audits, review privacy policies from education AI tools, (2) Build data visualizations using table variables and sprite graphics: bar charts showing access disparities by demographic, pie charts of bias audit results, timeline of privacy incidents, (3) Draft one-page policy brief with embedded visualizations addressing differential access, bias in AI outputs, and privacy protection, (4) Create interactive brief using widgets: buttons to toggle between data views, clickable recommendations that expand to show supporting evidence and action steps. Students present briefs with specific, measurable action items grounded in their visualized data.",
+        "dependencies": [
+          {
+            "id": "T32.G7.15",
+            "description": "Facilitate community discussions on AI-powered tech policy"
+          },
+          {
+            "id": "T32.G6.11",
+            "description": "Analyze digital divide data"
+          },
+          {
+            "id": "T02.G6.01",
+            "description": "Use the pseudocode generation block"
+          },
+          {
+            "id": "T03.G6.01",
+            "description": "Propose a module hierarchy for a medium project"
+          },
+          {
+            "id": "T07.G6.01",
+            "description": "Trace nested loops with variable bounds"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.21",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Design a proposal for equitable AI use",
+        "description": "Students create a proposal for how AI tools could be deployed equitably in their school or community. The proposal includes: (1) specific AI tools and their benefits, (2) training programs needed, (3) access initiatives for underserved groups, and (4) safeguards against bias. Students present their proposal and gather feedback.",
+        "dependencies": [
+          {
+            "id": "T32.G8.20",
+            "description": "Analyze how AI impacts vary by community"
+          },
+          {
+            "id": "T32.G7.15",
+            "description": "Facilitate community discussions on AI-powered tech policy"
+          },
+          {
+            "id": "T32.G6.07",
+            "description": "Build ethics evaluation tool combining all lenses"
+          }
+        ],
+        "grade": "8"
+      }
+    ],
+    "Accessibility": [
+      {
+        "id": "T32.G4.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Test game accessibility features",
+        "description": "Students systematically test a CreatiCode game for accessibility barriers using a structured checklist. They test: (1) Audio independence: Can you understand it without sound? (Test by muting, check if visual cues exist), (2) Visual clarity: Can you see important elements? (Check sprite sizes, color contrast, text readability), (3) Input alternatives: Can you control it without a mouse? (Test keyboard-only play, check for multiple control options), (4) Instruction clarity: Can you understand instructions? (Check if text is clear, if help is available). Students use a widget-based testing form to document barriers found, rating each category (accessible/needs improvement/inaccessible) and recording specific issues in a table variable.",
+        "dependencies": [
+          {
+            "id": "T05.G3.01",
+            "description": "Put human‑centered design steps in order"
+          },
+          {
+            "id": "T05.G3.02",
+            "description": "Identify user needs from a short interview transcript"
+          },
+          {
+            "id": "T06.G3.01",
+            "description": "Build a green‑flag script that runs a 3–5 block sequence"
+          },
+          {
+            "id": "T07.G3.01",
+            "description": "Use repeat blocks to simplify code"
+          },
+          {
+            "id": "T12.G3.01",
+            "description": "Test and trace simple block-based scripts"
+          },
+          {
+            "id": "T15.G4.01",
+            "description": "Style widget text properties"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G4.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Implement accessibility improvements",
+        "description": "Based on barriers identified in T32.G4.05 testing, students implement accessibility improvements to a game using blocks. They choose at least two improvements from: (1) Add keyboard controls using when key pressed blocks for mouse-based actions, (2) Add text-to-speech instructions using AI Speaker blocks (T22), (3) Improve visual contrast by adjusting sprite colors and sizes, (4) Add visual indicators for audio cues (e.g., show sprite effects when sounds play), (5) Create an accessibility settings menu using widgets (toggle options for text size, contrast, sound on/off). Students document their improvements, test with peers, and reflect on how changes improve inclusion.",
+        "dependencies": [
+          {
+            "id": "T06.G3.01",
+            "description": "Build a green‑flag script that runs a 3–5 block sequence"
+          },
+          {
+            "id": "T07.G3.01",
+            "description": "Use repeat blocks to simplify code"
+          },
+          {
+            "id": "T12.G3.01",
+            "description": "Test and trace simple block-based scripts"
+          },
+          {
+            "id": "T15.G4.01",
+            "description": "Style widget text properties"
+          },
+          {
+            "id": "T21.G4.01",
+            "description": "Write clear, polite questions for a helper bot"
+          },
+          {
+            "id": "T32.G4.05",
+            "description": "Test game accessibility features"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G4.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify diverse tech careers via profiles and videos",
+        "description": "Students watch videos or read profiles about different technologists (UX designer, robotics technician, accessibility advocate). For each career, students write down: (1) what the person does daily, (2) what tools they use, and (3) one interesting fact.",
+        "dependencies": [
+          {
+            "id": "T32.G3.05",
+            "description": "Interview classmates to understand project needs"
+          },
+          {
+            "id": "T32.G3.08",
+            "description": "Identify what coders and digital designers do"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G5.11",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Evaluate representation and inclusion in tech career stories",
+        "description": "Students review tech marketing materials, career profiles, or news images. They identify: (1) who is shown (age, gender, background), (2) who might be missing, and (3) why diverse representation matters. Students sketch or describe a more inclusive alternative.",
+        "dependencies": [
+          {
+            "id": "T32.G4.08",
+            "description": "Identify diverse tech careers via profiles and videos"
+          },
+          {
+            "id": "T32.G3.05",
+            "description": "Interview classmates to understand project needs"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G5.13",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify tech careers that help others",
+        "description": "Students research tech jobs that focus on helping people: accessibility engineer (making tech usable for everyone), civic technologist (improving government services), health tech specialist (helping doctors and patients). Students describe how each job makes a positive difference.",
+        "dependencies": [
+          {
+            "id": "T32.G5.09",
+            "description": "Map personal interests to tech pathways"
+          },
+          {
+            "id": "T32.G5.11",
+            "description": "Evaluate representation and inclusion in tech career stories"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G6.19",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze representation in computing careers",
+        "description": "Students research demographics in computing fields using publicly available data. They identify underrepresented groups and discuss at least 3 barriers to entry (accessibility, geographic, socioeconomic, cultural factors). Students propose one way to improve representation.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G5.11",
+            "description": "Evaluate representation and inclusion in tech career stories"
+          },
+          {
+            "id": "T32.G6.18",
+            "description": "Compare computing career clusters"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G7.22",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Design cross-functional team diagrams",
+        "description": "Students create a diagram showing how different roles collaborate on a large project: design (UX/UI), engineering (front-end, back-end), QA (testing), and ethics/accessibility review. Students draw arrows showing how work flows between roles and identify potential communication challenges.",
+        "dependencies": [
+          {
+            "id": "T32.G6.23",
+            "description": "Conduct sprint reviews"
+          },
+          {
+            "id": "T32.G6.18",
+            "description": "Compare computing career clusters"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.23",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Facilitate inclusive collaboration",
+        "description": "Students analyze scenarios of exclusive behavior (interrupting, taking credit for others' work, ignoring quieter teammates) and inclusive behavior (making sure everyone speaks, giving credit, welcoming different perspectives). Students propose specific improvements for exclusive scenarios and practice facilitating discussions where everyone participates.",
+        "dependencies": [
+          {
+            "id": "T32.G5.10",
+            "description": "Complete a plan-build-feedback cycle"
+          },
+          {
+            "id": "T32.G5.11",
+            "description": "Evaluate representation and inclusion in tech career stories"
+          },
+          {
+            "id": "T32.G5.12",
+            "description": "Lead a team check-in meeting"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build accessibility and privacy assessment modules",
+        "description": "Students build the first two modules of an impact assessment tool using widgets. (1) Accessibility module: Checklist items for text-to-speech, keyboard controls, color contrast, instruction clarity - each with Yes/No/Partial/NA radio buttons and evidence text fields, (2) Privacy module: Checklist items for data collection, user consent, secure storage, data retention policy - with same rating structure. Each module calculates a score (1-5 scale) and stores results in a table variable.",
+        "dependencies": [
+          {
+            "id": "T32.G7.08",
+            "description": "Identify unintended consequences of new tech"
+          },
+          {
+            "id": "T32.G6.07",
+            "description": "Build ethics evaluation tool combining all lenses"
+          },
+          {
+            "id": "T15.G8.01",
+            "description": "Build complex multi-widget applications"
+          },
+          {
+            "id": "T05.G6.01",
+            "description": "Apply empathy, needs, and accessibility checklist to a design"
+          },
+          {
+            "id": "T06.G6.01",
+            "description": "Trace event execution paths in a multi‑event program"
+          },
+          {
+            "id": "T07.G6.01",
+            "description": "Trace nested loops with variable bounds"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build wellbeing and cultural sensitivity modules",
+        "description": "Building on T32.G8.01, students add two more assessment modules: (3) Wellbeing module: Checklist items for time limits, addictive patterns avoided, breaks encouraged, age-appropriate content, (4) Cultural sensitivity module: Checklist items for inclusive representation, stereotypes avoided, multiple perspectives, respectful content. Each follows the same rating structure (Yes/No/Partial/NA, evidence notes, 1-5 scoring).",
+        "dependencies": [
+          {
+            "id": "T32.G8.01",
+            "description": "Build accessibility and privacy assessment modules"
+          },
+          {
+            "id": "T15.G8.01",
+            "description": "Build complex multi-widget applications"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Integrate scoring and generate recommendations",
+        "description": "Students integrate all four assessment modules into one comprehensive tool. They add: (1) Navigation buttons to move between assessment categories, (2) Overall project score calculation (average across all four categories), (3) ChatGPT integration that analyzes the assessment data and generates specific, actionable recommendations (e.g., \"Project scored 2/5 on accessibility. Lacks keyboard controls - consider adding when key pressed blocks. Missing text-to-speech - add AI Speaker blocks\"). Students test their complete tool on sample projects to ensure scoring is consistent and recommendations are useful.",
+        "dependencies": [
+          {
+            "id": "T32.G8.02",
+            "description": "Build wellbeing and cultural sensitivity modules"
+          },
+          {
+            "id": "T21.G8.01",
+            "description": "Use ChatGPT for advanced analysis"
+          }
+        ],
+        "grade": "8"
+      }
+    ],
+    "Tech Careers": [
+      {
+        "id": "T32.GK.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Match community helpers to digital tools",
+        "description": "Students drag pictures of workers (teacher, doctor, farmer, artist) onto the digital tools they use (tablet, scanner, drone, camera). For each match, students say one way the tool helps that worker do their job better.",
+        "dependencies": [
+          {
+            "id": "T01.GK.01",
+            "description": "Answer what happens next in a sequence"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.GK.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Describe what a digital tool helps someone do",
+        "description": "Given a picture of someone using a tool (drawing on a tablet, having a video call), students say what job or task it helps with. Students practice identifying the purpose of common digital tools.",
+        "dependencies": [
+          {
+            "id": "T32.GK.05",
+            "description": "Match community helpers to digital tools"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.G1.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Sort picture cards of jobs that use computers",
+        "description": "Students sort picture cards showing different professions (scientist, musician, builder, nurse, chef) into piles: \"uses computers\" and \"does not use computers.\" For each job placed in the \"uses computers\" pile, students point to a picture card showing how that worker uses a digital tool.",
+        "dependencies": [
+          {
+            "id": "T32.GK.07",
+            "description": "Describe what a digital tool helps someone do"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G2.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Name jobs where people create digital things",
+        "description": "Students identify careers where people create digital content (game designer, animator, app builder) through picture sorting. Students describe what each job creates and one tool they might use.",
+        "dependencies": [
+          {
+            "id": "T32.G1.05",
+            "description": "List jobs that rely on computers"
+          },
+          {
+            "id": "T32.GK.07",
+            "description": "Describe what a digital tool helps someone do"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G4.11",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Categorize tech jobs by what they create",
+        "description": "Students sort tech career cards into categories: (1) people who make games, (2) people who build apps, (3) people who analyze data, (4) people who design how things look. Students give one example job for each category.",
+        "dependencies": [
+          {
+            "id": "T32.G2.08",
+            "description": "Name jobs where people create digital things"
+          },
+          {
+            "id": "T32.G4.08",
+            "description": "Identify diverse tech careers via profiles and videos"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G4.12",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Match skills to tech job requirements",
+        "description": "Students match skills (drawing, math, writing, problem-solving, talking to people) to different tech jobs. Students explain why a game designer needs creativity or why a data analyst needs math skills.",
+        "dependencies": [
+          {
+            "id": "T32.G4.08",
+            "description": "Identify diverse tech careers via profiles and videos"
+          },
+          {
+            "id": "T32.G4.11",
+            "description": "Categorize tech jobs by what they create"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G5.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze AI's differential impacts on workers and communities",
+        "description": "Learners research how AI affects different communities unequally: which jobs are most at risk, how impacts vary by education/income level, geographic disparities in AI adoption, and how T20-T23 AI tools might worsen or improve equity. They propose reskilling and policy solutions with social justice focus.",
+        "dependencies": [
+          {
+            "id": "T32.G4.03",
+            "description": "Identify tradeoffs in technology impacts"
+          },
+          {
+            "id": "T32.G4.04",
+            "description": "Understand advertising/persuasion online"
+          },
+          {
+            "id": "T09.G4.01",
+            "description": "Create and update a variable with meaningful names"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G6.14",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify software development careers",
+        "description": "Students research the software development career cluster, identifying: (1) 2-3 example job titles (software engineer, web developer, mobile app developer), (2) key skills needed (programming languages, problem-solving, debugging), and (3) typical tools used (code editors, version control, testing frameworks). Students create a summary chart of their findings.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G5.09",
+            "description": "Map personal interests to tech pathways"
+          },
+          {
+            "id": "T32.G5.13",
+            "description": "Identify tech careers that help others"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.15",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify hardware engineering careers",
+        "description": "Students research the hardware engineering career cluster, identifying: (1) 2-3 example job titles (hardware engineer, chip designer, robotics engineer), (2) key skills needed (electronics, physics, CAD design), and (3) typical tools/technologies used. Students create a summary chart of their findings.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G6.14",
+            "description": "Identify software development careers"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.16",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify data science careers",
+        "description": "Students research the data science career cluster, identifying: (1) 2-3 example job titles (data analyst, data scientist, business intelligence analyst), (2) key skills needed (statistics, data visualization, SQL), and (3) typical tools used (spreadsheets, databases, visualization software). Students create a summary chart of their findings.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G6.14",
+            "description": "Identify software development careers"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.17",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify AI and machine learning careers",
+        "description": "Students research the AI/ML career cluster, identifying: (1) 2-3 example job titles (ML engineer, AI researcher, NLP specialist), (2) key skills needed (math, programming, understanding of AI concepts), and (3) typical tools/technologies used. Students create a summary chart of their findings.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G6.14",
+            "description": "Identify software development careers"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.18",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Compare computing career clusters",
+        "description": "After researching all four career clusters (software, hardware, data, AI), students create a comparison chart showing similarities and differences. Students identify which cluster best matches their interests and explain why.",
+        "dependencies": [
+          {
+            "id": "T32.G6.14",
+            "description": "Identify software development careers"
+          },
+          {
+            "id": "T32.G6.15",
+            "description": "Identify hardware engineering careers"
+          },
+          {
+            "id": "T32.G6.16",
+            "description": "Identify data science careers"
+          },
+          {
+            "id": "T32.G6.17",
+            "description": "Identify AI and machine learning careers"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.20",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Connect AI skills to career pathways",
+        "description": "Students examine how AI skills learned in CreatiCode (image generation, chatbots, voice recognition, vision) connect to real-world AI career roles. Students identify: (1) which CreatiCode AI features they've used, (2) which careers use similar technology, and (3) what additional skills they would need for those careers.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G5.09",
+            "description": "Map personal interests to tech pathways"
+          },
+          {
+            "id": "T32.G6.17",
+            "description": "Identify AI and machine learning careers"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.24",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze job descriptions for technical skills",
+        "description": "Students read simplified job postings for tech roles. They highlight and list: (1) technical skills mentioned (programming languages, tools, platforms), (2) experience requirements, and (3) education preferences. Students identify which skills they already have and which they need to learn.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T32.G4.11",
+            "description": "Categorize tech jobs by what they create"
+          },
+          {
+            "id": "T32.G5.09",
+            "description": "Map personal interests to tech pathways"
+          },
+          {
+            "id": "T32.G6.18",
+            "description": "Compare computing career clusters"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G7.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify unintended consequences of new tech",
+        "description": "Students select a technology (delivery drones, facial recognition, social media algorithms) and create a detailed storyboard showing both intended use and unforeseen impacts. They identify at least 3 unintended consequences (privacy invasion, job displacement, environmental impact, social isolation, etc.) and propose specific mitigations for each. Storyboards can be digital or paper-based.",
+        "dependencies": [
+          {
+            "id": "T32.G6.07",
+            "description": "Build ethics evaluation tool combining all lenses"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.18",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Prepare interview questions for tech professionals",
+        "description": "Students prepare at least 5 thoughtful questions to ask a tech professional, covering: career journey, daily work, challenges faced, skills needed, and advice for students. Questions should be open-ended and specific to the professional's field.",
+        "dependencies": [
+          {
+            "id": "T32.G6.18",
+            "description": "Compare computing career clusters"
+          },
+          {
+            "id": "T32.G5.11",
+            "description": "Evaluate representation and inclusion in tech career stories"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.19",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Conduct and summarize a career interview",
+        "description": "Students interview a tech professional (in person, virtually, or via recorded profile) using their prepared questions. They create a written summary or presentation of key findings including: the professional's pathway, daily work, and recommendations for students.",
+        "dependencies": [
+          {
+            "id": "T32.G7.18",
+            "description": "Prepare interview questions for tech professionals"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.11",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify high school courses for tech careers",
+        "description": "Students research which high school courses support different tech career paths. For their target career (AI researcher, UX engineer, data scientist), they identify: (1) math courses needed (algebra, statistics, calculus), (2) science courses (computer science, physics), and (3) other relevant courses (art, communication, business).",
+        "dependencies": [
+          {
+            "id": "T32.G7.20",
+            "description": "Research emerging tech careers and required skills"
+          },
+          {
+            "id": "T32.G6.20",
+            "description": "Connect AI skills to career pathways"
+          },
+          {
+            "id": "T12.G6.01",
+            "description": "Trace complex code with multiple variables"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.12",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Plan extracurriculars and portfolio goals",
+        "description": "Students identify extracurricular activities that build skills for their target career: coding clubs, robotics teams, hackathons, internships, online courses. They set 3-5 specific portfolio goals (projects to complete, skills to demonstrate) for the next 2-3 years.",
+        "dependencies": [
+          {
+            "id": "T32.G8.11",
+            "description": "Identify high school courses for tech careers"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.13",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build a multi-year career roadmap",
+        "description": "Students combine their course plan and extracurricular goals into a complete multi-year roadmap for their target career. The roadmap includes: year-by-year milestones, skills to develop, projects to complete, and people/communities to connect with.",
+        "dependencies": [
+          {
+            "id": "T32.G8.12",
+            "description": "Plan extracurriculars and portfolio goals"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.15",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Write a student resume",
+        "description": "Students write a one-page resume including: contact information, objective/summary, skills (technical and soft skills), relevant projects/experience, and education. They tailor the resume to highlight skills mentioned in job descriptions they've analyzed.",
+        "dependencies": [
+          {
+            "id": "T32.G8.14",
+            "description": "Assemble a project portfolio"
+          },
+          {
+            "id": "T32.G6.25",
+            "description": "Analyze job descriptions for soft skills and values"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.16",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Practice interview skills",
+        "description": "Students conduct mock interviews with peers or mentors. They practice: answering common questions (tell me about yourself, describe a project, how do you handle challenges), asking good questions, and following up professionally. Students give and receive feedback on interview performance.",
+        "dependencies": [
+          {
+            "id": "T32.G8.15",
+            "description": "Write a student resume"
+          },
+          {
+            "id": "T32.G7.25",
+            "description": "Deliver a lesson to younger coders"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.17",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify jobs at risk of AI displacement",
+        "description": "Students research how AI and automation are changing different jobs. They identify at least 3 job categories at risk of displacement (jobs where AI might replace human workers) and explain why these jobs are vulnerable (repetitive tasks, pattern recognition, data processing).",
+        "dependencies": [
+          {
+            "id": "T32.G6.20",
+            "description": "Connect AI skills to career pathways"
+          },
+          {
+            "id": "T32.G7.21",
+            "description": "Discuss AI ethics and equity with tech professionals"
+          },
+          {
+            "id": "T03.G6.01",
+            "description": "Propose a module hierarchy for a medium project"
+          },
+          {
+            "id": "T10.G6.01",
+            "description": "Sort a table by a column"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.18",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify jobs augmented by AI",
+        "description": "Students research at least 3 job categories where AI augments (helps) human workers rather than replacing them. They explain how AI tools make these workers more effective (faster analysis, better decisions, reduced tedious work) while humans provide creativity, judgment, and relationship skills.",
+        "dependencies": [
+          {
+            "id": "T32.G8.17",
+            "description": "Identify jobs at risk of AI displacement"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.19",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Compare AI displacement vs augmentation patterns",
+        "description": "Students create a comparison chart showing displacement-risk jobs vs augmentation-opportunity jobs. They identify patterns: which types of tasks are most at risk, which skills remain valuable, and how workers can prepare for AI-augmented careers.",
+        "dependencies": [
+          {
+            "id": "T32.G8.18",
+            "description": "Identify jobs augmented by AI"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.23",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Facilitate a capstone retrospective with stakeholders",
+        "description": "Students run their planned retrospective meeting, facilitating discussion among peers and teachers. They: demonstrate their project, guide reflection discussions, collect feedback professionally, and publish documented action items and lessons learned for future teams.",
+        "dependencies": [
+          {
+            "id": "T32.G8.22",
+            "description": "Plan a capstone retrospective"
+          },
+          {
+            "id": "T08.G6.01",
+            "description": "Use conditionals in physics simulations"
+          },
+          {
+            "id": "T34.G6.01",
+            "description": "Analyze hardware computing eras (mainframe → PC → mobile)"
+          }
+        ],
+        "grade": "8"
+      }
+    ],
+    "Collaboration": [
+      {
+        "id": "T32.GK.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Take turns using a device to complete a task together",
+        "description": "Students view picture scenarios where two children want to use the same tablet. They pick the kind response (sharing, taking turns) and explain why teamwork helps everyone finish faster.",
+        "dependencies": [
+          {
+            "id": "T32.GK.05",
+            "description": "Match community helpers to digital tools"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.GK.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Describe ways people work together using picture cards",
+        "description": "Students look at picture cards showing teams working together (doctors and nurses, teachers and students, builders) and point to examples of people helping each other. Students describe one way the team members help each other using the picture cards as prompts.",
+        "dependencies": [
+          {
+            "id": "T32.GK.06",
+            "description": "Take turns using a device to complete a task together"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.G1.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Select picture cards showing good listening behaviors",
+        "description": "Students select picture cards showing good listening behaviors (eyes on speaker, waiting to talk, nodding) from a set that also includes poor listening (interrupting, looking away). Students sort cards into \"good listener\" and \"not listening\" piles and explain why teams need good listeners.",
+        "dependencies": [
+          {
+            "id": "T03.GK.01",
+            "description": "Tap picture cards to identify parts of a whole object"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G2.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Draw or describe teammates' different strengths",
+        "description": "Students draw or write about how classmates contribute different skills to a project using picture prompts. One friend might be good at drawing, another at building, another at telling stories. Students explain why having different strengths makes a team better.",
+        "dependencies": [
+          {
+            "id": "T32.G2.05",
+            "description": "Identify project roles in simple terms"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G2.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Practice polite communication using scenario cards",
+        "description": "Students use picture scenario cards showing group work situations. They practice using kind words when working together (\"please,\" \"thank you,\" \"great idea!\") by selecting speech bubble cards with polite phrases to match each scenario. Students role-play asking for help, offering help, or giving a compliment.",
+        "dependencies": [
+          {
+            "id": "T32.GK.06",
+            "description": "Take turns using a device to complete a task together"
+          },
+          {
+            "id": "T32.G1.07",
+            "description": "Show listening behaviors when working on a group tech task"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G3.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Draft simple team agreements",
+        "description": "Students fill out a team charter listing: team member names, each person's role (builder, tester, planner), the project goal, and one rule for working together (like \"listen when others talk\"). Teams discuss and agree on their charter.",
+        "dependencies": [
+          {
+            "id": "T32.G3.05",
+            "description": "Ask classmates simple questions to understand project needs"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G3.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Reflect on collaboration habits",
+        "description": "After a group activity, students answer: \"What did our team do well?\" and \"What could we do better next time?\" Students write or say one specific thing they will try differently.",
+        "dependencies": [
+          {
+            "id": "T32.G3.06",
+            "description": "Draft simple team agreements"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G4.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze technology impact tradeoffs",
+        "description": "Using the case study viewer, students analyze each scenario to identify tradeoffs: What is gained? What is lost? Who benefits? Who is harmed? They document at least 2 tradeoffs per case study and explain why the same technology can have different impacts on different groups.",
+        "dependencies": [
+          {
+            "id": "T32.G4.02",
+            "description": "Build interactive case study viewer with widgets"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G4.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Track work with a shared checklist",
+        "description": "Teams create a simple three-column chart (To Do / Doing / Done) on paper or whiteboard. They list tasks for a project, assign each task to a team member, and update the chart at least twice as they work.",
+        "dependencies": [
+          {
+            "id": "T05.G3.01",
+            "description": "Put human‑centered design steps in order"
+          },
+          {
+            "id": "T05.G3.02",
+            "description": "Identify user needs from a short interview transcript"
+          },
+          {
+            "id": "T32.G2.07",
+            "description": "Draw or describe teammates' different strengths"
+          },
+          {
+            "id": "T32.G3.06",
+            "description": "Draft simple team agreements"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G4.10",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Role-play resolving disagreements in a coding or design project",
+        "description": "Students act out scenarios where teammates disagree about a project decision (color scheme, character choice, which feature to add first). Students practice: (1) listening to both sides, (2) asking what the user needs, and (3) finding a fair solution together.",
+        "dependencies": [
+          {
+            "id": "T32.G3.06",
+            "description": "Draft simple team agreements"
+          },
+          {
+            "id": "T32.G3.07",
+            "description": "Reflect on collaboration habits"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G5.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Explain Consent for AI Data Collection",
+        "description": "Students research a technology's impact on different stakeholders (e.g., AI chatbots impact: students, teachers, tutors, textbook companies). They collect impact data via widget-based surveys (rating scales 1-5: How much does this help/harm you?). Responses are stored in Google Sheets using cloud blocks. Students create data visualizations using table variables showing which groups benefit most/least, then discuss equity implications.",
+        "dependencies": [
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          },
+          {
+            "id": "T18.G5.01",
+            "description": "Store data in a Google Sheet using blocks"
+          },
+          {
+            "id": "T15.G5.01",
+            "description": "Build a simple survey using widgets"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G5.10",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Complete a plan-build-feedback cycle",
+        "description": "Teams complete one cycle of: (1) plan a small CreatiCode feature together, (2) build it, (3) have another student test it and give feedback, (4) write notes about what to improve. Students learn that iteration (trying again with improvements) makes projects better.",
+        "dependencies": [
+          {
+            "id": "T32.G4.09",
+            "description": "Track work with a shared checklist"
+          },
+          {
+            "id": "T32.G3.07",
+            "description": "Reflect on collaboration habits"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G5.12",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Lead a team check-in meeting",
+        "description": "Students take turns leading a 5-minute team check-in where each member shares: (1) what they finished, (2) what they're working on, and (3) if they need help. The leader makes sure everyone gets a turn and writes down any blockers.",
+        "dependencies": [
+          {
+            "id": "T32.G4.09",
+            "description": "Track work with a shared checklist"
+          },
+          {
+            "id": "T32.G4.10",
+            "description": "Role-play resolving disagreements in a coding or design project"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G6.21",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Conduct daily stand-up meetings",
+        "description": "Teams practice running daily stand-up check-ins where each member briefly shares: (1) what they completed yesterday, (2) what they're working on today, and (3) any blockers. Stand-ups should be quick (under 10 minutes) and standing helps keep them short.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T32.G5.10",
+            "description": "Complete a plan-build-feedback cycle"
+          },
+          {
+            "id": "T32.G5.12",
+            "description": "Lead a team check-in meeting"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.22",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Maintain a team task board",
+        "description": "Teams create and maintain a digital or physical task board with columns (Backlog, To Do, In Progress, Review, Done). Students practice: (1) writing clear task cards, (2) moving tasks as they progress, and (3) keeping the board updated throughout a project.",
+        "dependencies": [
+          {
+            "id": "T32.G4.09",
+            "description": "Track work with a shared checklist"
+          },
+          {
+            "id": "T32.G6.21",
+            "description": "Conduct daily stand-up meetings"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.23",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Conduct sprint reviews",
+        "description": "At the end of a project phase, teams hold a sprint review meeting where they: (1) demonstrate what they built, (2) discuss what went well, (3) identify what to improve, and (4) plan action items for the next phase. Students practice giving and receiving constructive feedback.",
+        "dependencies": [
+          {
+            "id": "T32.G5.10",
+            "description": "Complete a plan-build-feedback cycle"
+          },
+          {
+            "id": "T32.G6.21",
+            "description": "Conduct daily stand-up meetings"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.27",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Document project contributions for a portfolio",
+        "description": "Students write a brief summary (1-2 paragraphs) of a CreatiCode project including: (1) what the project does, (2) their specific role and contributions, (3) skills they used (coding, design, collaboration), and (4) what they learned. This summary becomes a portfolio entry.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T32.G5.09",
+            "description": "Map personal interests to tech pathways"
+          },
+          {
+            "id": "T32.G5.10",
+            "description": "Complete a plan-build-feedback cycle"
+          },
+          {
+            "id": "T32.G6.23",
+            "description": "Conduct sprint reviews"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G7.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze audit data and identify disparities",
+        "description": "Building on T32.G7.01, students analyze the collected test data using table variable operations to calculate accuracy rates by demographic group and identify disparities (e.g., \"T23 hand tracking: 95% accurate for light skin, 78% for dark skin\"). They create visualizations (bar charts) showing disparity patterns clearly.",
+        "dependencies": [
+          {
+            "id": "T32.G7.01",
+            "description": "Build systematic testing framework for AI perception"
+          },
+          {
+            "id": "T15.G7.01",
+            "description": "Build interactive data displays with widgets"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.10",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze stakeholder impacts at different transparency levels",
+        "description": "Building on the simulator from T32.G7.09, students add a stakeholder impact display showing how different groups (users, developers, regulators, potential attackers) are affected by each transparency level. They use table widgets to show benefits and risks for each stakeholder at different transparency settings.",
+        "dependencies": [
+          {
+            "id": "T32.G7.09",
+            "description": "Build transparency vs. security tradeoff simulator"
+          },
+          {
+            "id": "T15.G7.01",
+            "description": "Build interactive data displays with widgets"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.26",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Use shared documents for team collaboration",
+        "description": "Students practice using shared documents (Google Docs, shared notes) for team projects. They learn to: (1) write in the same document without conflicts, (2) use comments to give feedback, (3) track changes and version history, and (4) resolve editing conflicts respectfully.",
+        "dependencies": [
+          {
+            "id": "T32.G6.22",
+            "description": "Maintain a team task board"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.27",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Use project tracking tools for team coordination",
+        "description": "Students practice using basic project tracking tools (task lists, shared checklists, simple project boards) to coordinate team work. They learn to: assign tasks, set deadlines, track progress, and communicate about blockers asynchronously.",
+        "dependencies": [
+          {
+            "id": "T32.G7.26",
+            "description": "Use shared documents for team collaboration"
+          },
+          {
+            "id": "T32.G6.27",
+            "description": "Document project contributions for a portfolio"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.20",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze how AI impacts vary by community",
+        "description": "Students examine how AI's workplace effects differ across communities based on: education level, income, geographic location, and access to technology training. They identify which groups face greater challenges and discuss why these disparities exist.",
+        "dependencies": [
+          {
+            "id": "T32.G8.19",
+            "description": "Compare AI displacement vs augmentation patterns"
+          },
+          {
+            "id": "T32.G6.19",
+            "description": "Analyze representation in computing careers"
+          },
+          {
+            "id": "T03.G6.01",
+            "description": "Propose a module hierarchy for a medium project"
+          },
+          {
+            "id": "T10.G6.01",
+            "description": "Sort a table by a column"
+          }
+        ],
+        "grade": "8"
+      },
+      {
+        "id": "T32.G8.22",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Plan a capstone retrospective",
+        "description": "Students plan a retrospective meeting for their final project, including: agenda (demo, what went well, improvements, lessons learned), who to invite (peers, teachers, mentors), feedback collection method (forms, discussion), and how to document outcomes for future teams.",
+        "dependencies": [
+          {
+            "id": "T32.G7.22",
+            "description": "Design cross-functional team diagrams"
+          },
+          {
+            "id": "T32.G7.23",
+            "description": "Facilitate inclusive collaboration"
+          },
+          {
+            "id": "T32.G6.23",
+            "description": "Conduct sprint reviews"
+          }
+        ],
+        "grade": "8"
+      }
+    ],
+    "Online Citizenship": [
+      {
+        "id": "T32.G2.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Practice online kindness scripts",
+        "description": "Students role-play responses to unkind messages (ignore, block, tell adult) and practice writing positive messages. They use picture cards showing scenarios and speech bubbles to practice kind communication strategies.",
+        "dependencies": [
+          {
+            "id": "T01.G1.01",
+            "description": "Put pictures in order to plant a seed"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G2.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Distinguish public vs. private information",
+        "description": "Students sort information cards (name, favorite color, home address, birthday, pet's name) into 'okay to share online' and 'keep private' piles. For each card, they explain WHY the information is private or safe to share (e.g., \"Home address is private because strangers could find where you live\" or \"Favorite color is safe because it doesn't help anyone locate you\").",
+        "dependencies": [
+          {
+            "id": "T32.G2.01",
+            "description": "Compare benefits and harms of a tech tool"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G3.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Develop class guidelines for respectful communication",
+        "description": "Students build a simple moderated chat room using widget blocks (text input, labels, buttons) and AI moderation. They create a chat interface where users type messages into a text input widget. Before displaying messages in a label widget, the program uses ChatGPT AI moderation blocks to check for inappropriate content (spam, unkindness, PII). If content violates guidelines, a warning label appears instead. Students collaboratively write the guidelines that inform the AI moderation prompts.",
+        "dependencies": [
+          {
+            "id": "T32.G3.01",
+            "description": "Evaluate digital footprints"
+          },
+          {
+            "id": "T08.G3.01",
+            "description": "Use a simple if in a script"
+          },
+          {
+            "id": "T15.G3.01",
+            "description": "Add a label widget to display text"
+          },
+          {
+            "id": "T21.G3.01",
+            "description": "Use ChatGPT blocks for simple queries"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G4.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Create a digital citizen pledge project",
+        "description": "Students use block coding to build an interactive pledge where users click to commit to positive online behaviors (be kind, protect privacy, ask before sharing) and see encouraging responses. The project uses button widgets for each pledge and displays affirmations when clicked.",
+        "dependencies": [
+          {
+            "id": "T06.G3.01",
+            "description": "Build a green‑flag script that runs a 3–5 block sequence"
+          },
+          {
+            "id": "T07.G3.01",
+            "description": "Use repeat blocks to simplify code"
+          },
+          {
+            "id": "T32.G3.01",
+            "description": "Evaluate digital footprints"
+          },
+          {
+            "id": "T32.G3.03",
+            "description": "Develop class guidelines for respectful communication"
+          }
+        ],
+        "grade": "4"
+      }
+    ],
+    "Critical Thinking": [
+      {
+        "id": "T32.G3.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Evaluate digital footprints",
+        "description": "Students create a project where typing a sample post (text input widget) displays a warning label if it contains common personal information keywords. Using if-blocks, they check for words like 'address', 'phone', 'school', 'live at' and display different warning messages (label widgets) for each type. Students test by categorizing 5 sample posts as 'safe to share' or 'reveals too much' based on which warnings appear.",
+        "dependencies": [
+          {
+            "id": "T32.G2.01",
+            "description": "Compare benefits and harms of a tech tool"
+          },
+          {
+            "id": "T06.G3.01",
+            "description": "Build a green‑flag script that runs a 3–5 block sequence"
+          },
+          {
+            "id": "T15.G3.01",
+            "description": "Add a label widget to display text"
+          },
+          {
+            "id": "T08.G3.01",
+            "description": "Use a simple if in a script"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G4.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Compare persuasive vs informative design patterns",
+        "description": "Students analyze actual CreatiCode community projects to identify persuasive design patterns (bright colors for \"buy\" buttons, countdown timers, celebrity endorsements in sprites). They create a project that demonstrates persuasive vs. informative design: two versions of the same app (e.g., a game invitation) where one uses persuasive tactics (flashing sprites, urgent language in labels) and one is neutral. Using widget blocks, they build both interfaces and have peers compare them, documenting which tactics they notice.",
+        "dependencies": [
+          {
+            "id": "T04.G3.01",
+            "description": "Use pattern recognition to simplify algorithms"
+          },
+          {
+            "id": "T06.G3.01",
+            "description": "Build a green‑flag script that runs a 3–5 block sequence"
+          },
+          {
+            "id": "T07.G3.01",
+            "description": "Use repeat blocks to simplify code"
+          },
+          {
+            "id": "T15.G4.01",
+            "description": "Style widget text properties"
+          },
+          {
+            "id": "T32.G3.02",
+            "description": "Discuss how algorithms influence what we see"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G5.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Explain why technology impacts differ across contexts",
+        "description": "Students analyze their comparison from T32.G5.02 to explain WHY the same technology has different impacts in different communities. They consider factors like infrastructure, resources, culture, education, and existing inequalities. They present their analysis with specific evidence from their research.",
+        "dependencies": [
+          {
+            "id": "T32.G5.02",
+            "description": "Compare impacts across two communities"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G6.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Apply beneficence lens (does it help? who benefits?)",
+        "description": "Students apply the beneficence ethics lens to CreatiCode projects by asking: Does this help people? Who benefits most? Who might be harmed? They use ChatGPT blocks to analyze project purpose and document their evaluation in a table variable.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T21.G6.01",
+            "description": "Use ChatGPT for analysis tasks"
+          },
+          {
+            "id": "T32.G5.07",
+            "description": "Apply simple ethics questions to technology decisions"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze data privacy tradeoffs",
+        "description": "Students build an interactive privacy policy demonstrator using widgets and cloud data blocks. They create a sample app (e.g., a quiz or game) that collects data points (name, age, score, location). Using widget blocks, they build: (1) A consent interface with checkboxes (buttons) for each data type, (2) Labels showing what each data type enables (\"Location → Show local leaderboard\"), (3) A \"Submit\" button that only saves checked data to a cloud table variable. Students compare full-data vs. minimal-data versions to analyze which features truly need which data. They write privacy statements justifying each data collection.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          },
+          {
+            "id": "T18.G6.01",
+            "description": "Store and retrieve data from cloud tables"
+          },
+          {
+            "id": "T32.G4.04",
+            "description": "Compare persuasive vs informative design patterns"
+          },
+          {
+            "id": "T32.G5.03",
+            "description": "Explain why technology impacts differ across contexts"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.11",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze digital divide data",
+        "description": "Students interpret data charts and graphs showing digital divide indicators (broadband availability by region/income, device ownership by demographic, internet speeds, digital literacy rates). They identify patterns and disparities, then propose specific, actionable community interventions to address access gaps (community wifi hotspots, device lending programs, digital literacy classes).",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T32.G5.03",
+            "description": "Explain why technology impacts differ across contexts"
+          },
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G7.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Generate and analyze AI art in different styles",
+        "description": "Students use T21 (DALL-E) blocks to generate art \"in the style of\" famous artists (e.g., \"landscape in Van Gogh style,\" \"portrait in Picasso style,\" \"photograph in Ansel Adams style\"). They document quality and similarity to original artists' work in a table variable with columns: Artist Style, Prompt, Quality Rating (1-5), Similarity to Original, Ethical Concerns.",
+        "dependencies": [
+          {
+            "id": "T32.G6.03",
+            "description": "Build AI testing dashboard combining image and chatbot tests"
+          },
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          },
+          {
+            "id": "T20.G7.01",
+            "description": "Generate complex images with AI"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.16",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Compare honest vs. misleading data visualizations",
+        "description": "Students analyze how data presentation affects interpretation. Given the same dataset (e.g., test scores over time, digital divide statistics), they create two visualizations using table variables and sprite graphics: (1) Honest version: Appropriate scale, full context, clear labels, complete data, (2) Misleading version: Truncated y-axis, cherry-picked time range, or misleading colors. Using widget buttons, users can toggle between versions. Students document how design choices change perception and write guidelines for ethical data visualization.",
+        "dependencies": [
+          {
+            "id": "T32.G6.11",
+            "description": "Analyze digital divide data"
+          },
+          {
+            "id": "T18.G7.01",
+            "description": "Create data visualizations using table variables"
+          },
+          {
+            "id": "T15.G7.01",
+            "description": "Build interactive data displays with widgets"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.17",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze deepfakes and synthetic media detection",
+        "description": "Students learn about deepfakes and synthetic media by examining examples and learning detection techniques. They identify warning signs (unnatural blinking, lighting inconsistencies, audio-visual mismatches, facial distortions). They build a checklist tool using widgets for evaluating media authenticity and practice applying it to sample videos/images. Students discuss implications for misinformation, consent, and trust in digital media.",
+        "dependencies": [
+          {
+            "id": "T32.G7.06",
+            "description": "Build AI art gallery with comparison data"
+          },
+          {
+            "id": "T32.G5.08",
+            "description": "Evaluate online sources using credibility criteria"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.07",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Analyze AI chatbots' impact on information literacy (Pairing with T22)",
+        "description": "Following T21 chatbot projects, students analyze how AI-generated answers affect research habits, critical thinking, misinformation spread, and educational equity. They examine differential impacts on students with varying digital literacy levels and propose guidelines for responsible chatbot use in academic settings.",
+        "dependencies": [
+          {
+            "id": "T32.G8.06",
+            "description": "Resolve conflicts between ethical frameworks"
+          },
+          {
+            "id": "T32.G7.07",
+            "description": "Conduct bias audits for AI content generation (T20-T21)"
+          },
+          {
+            "id": "T07.G6.01",
+            "description": "Trace nested loops with variable bounds"
+          },
+          {
+            "id": "T10.G6.01",
+            "description": "Sort a table by a column"
+          },
+          {
+            "id": "T12.G6.01",
+            "description": "Trace complex code with multiple variables"
+          }
+        ],
+        "grade": "8"
+      }
+    ],
+    "Privacy & Data": [
+      {
+        "id": "T32.G3.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Discuss how algorithms influence what we see",
+        "description": "Students build a simple recommendation simulator using variables, conditionals, and data visualization. They create a project where clicking different content types (sports, music, gaming) increments counters in a table variable. Using if-blocks and comparison operators, the program displays different \"recommended content\" labels based on which counters are highest, demonstrating how algorithms track behavior to shape recommendations. Students document patterns they observe and reflect on how this shapes viewing habits.",
+        "dependencies": [
+          {
+            "id": "T32.G3.01",
+            "description": "Evaluate digital footprints"
+          },
+          {
+            "id": "T08.G3.01",
+            "description": "Use a simple if in a script"
+          },
+          {
+            "id": "T09.G3.01.04",
+            "description": "Display variable value on stage using the variable monitor"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G3.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build an app that shows what data it collects",
+        "description": "Students build a simple app (quiz or game) that collects data using variables and widgets. They create visible indicators showing what's being collected: labels that update to show \"You've answered 5 questions\" (counter variable), \"Your high score: 100\" (performance data), \"You clicked on: Animals\" (preference tracking). Students then explain what the app \"knows\" about users and whether users can see what's collected.",
+        "dependencies": [
+          {
+            "id": "T32.G3.01",
+            "description": "Evaluate digital footprints"
+          },
+          {
+            "id": "T09.G3.01.04",
+            "description": "Display variable value on stage using the variable monitor"
+          },
+          {
+            "id": "T15.G3.01",
+            "description": "Add a label widget to display text"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G4.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Read and categorize tech impact case studies",
+        "description": "Students read provided case studies (drones delivering meds vs drones invading privacy, social media connecting vs isolating people) and organize them into a table variable with columns: technology, benefits, harms, affected community. They identify which communities are helped vs. harmed in each scenario.",
+        "dependencies": [
+          {
+            "id": "T04.G2.01",
+            "description": "Identify the repeating unit in a longer pattern"
+          },
+          {
+            "id": "T04.G2.02",
+            "description": "Spot repeated step sequences in everyday algorithms"
+          },
+          {
+            "id": "T32.G3.01",
+            "description": "Evaluate digital footprints"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G5.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Map personal interests to tech pathways",
+        "description": "Students list their hobbies and strengths (music, storytelling, sports, helping people, art). Then they match each interest to a tech role that uses it (sound designer, narrative designer, sports data analyst, civic technologist, graphic designer). Students explain why each match makes sense.",
+        "dependencies": [
+          {
+            "id": "T32.G4.11",
+            "description": "Categorize tech jobs by what they create"
+          },
+          {
+            "id": "T32.G4.08",
+            "description": "Identify diverse tech careers via profiles and videos"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G6.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Test AI chatbots for accuracy and inclusivity",
+        "description": "Students test T21 ChatGPT blocks for accuracy and inclusivity by checking: (1) Does it cite training data sources?, (2) Does it generate verifiable misinformation? (test factual claims), (3) Does it understand different English dialects? (test with AAVE, Indian English, etc.). They log findings to a table variable with columns: Test Type, Input, Output, Issues Found, Accuracy Rating.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T21.G6.01",
+            "description": "Use ChatGPT for complex conversations"
+          },
+          {
+            "id": "T32.G5.05",
+            "description": "Analyze AI's differential impacts on workers and communities"
+          },
+          {
+            "id": "T32.G5.08",
+            "description": "Evaluate online sources using credibility criteria"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.12",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build consent form and data collection system",
+        "description": "Students build a consent-based data collection system using widgets and conditional logic. They create: (1) A clear consent form with checkboxes (button widgets) for each data type (name, age, location, usage stats), (2) Explanatory labels for each data type showing why it's needed and how it will be used (e.g., \"Location → Show local leaderboard and connect you with nearby users\"), (3) Conditional data collection logic: Use if-blocks to check consent checkboxes before saving each data type to cloud tables, (4) Visual feedback: Labels showing which data was collected based on consent choices. Students test with different consent combinations to verify only consented data is stored.",
+        "dependencies": [
+          {
+            "id": "T05.G5.01",
+            "description": "Write clear user needs and requirements for a small app"
+          },
+          {
+            "id": "T06.G5.01",
+            "description": "Identify standard event patterns in a small game"
+          },
+          {
+            "id": "T08.G5.01",
+            "description": "Design multi-branch decision logic"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          },
+          {
+            "id": "T18.G6.01",
+            "description": "Store and retrieve data from cloud tables"
+          },
+          {
+            "id": "T32.G6.08",
+            "description": "Analyze data privacy tradeoffs"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G6.13",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Implement data viewing and deletion controls",
+        "description": "Building on T32.G6.12, students implement user data control features that demonstrate data ownership principles. They add: (1) \"View my data\" button that retrieves user's stored records from cloud tables and displays them in organized table widgets (showing what data exists, when it was collected, how it's being used), (2) \"Delete my data\" button that removes user records from cloud storage with confirmation dialog (button widget: \"Are you sure?\"), (3) \"Update my consent\" feature allowing users to revoke/grant permissions and delete previously collected data for changed permissions, (4) Export feature: Download data as text/table. Students test with peers and reflect on what makes consent \"informed\" (clear language, granular choices, revocable, transparency about data use).",
+        "dependencies": [
+          {
+            "id": "T32.G6.12",
+            "description": "Build consent form and data collection system"
+          },
+          {
+            "id": "T15.G6.01",
+            "description": "Create forms with multiple widget types"
+          },
+          {
+            "id": "T18.G6.01",
+            "description": "Store and retrieve data from cloud tables"
+          }
+        ],
+        "grade": "6"
+      },
+      {
+        "id": "T32.G7.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build AI art gallery with comparison data",
+        "description": "Students build an interactive gallery widget display showing AI-generated works with metadata (artist style referenced, generation time, prompt used, quality ratings, replacement potential). The gallery allows users to browse through generated images and view associated data. Students document patterns in what AI does well vs. poorly, and where human creativity remains essential.",
+        "dependencies": [
+          {
+            "id": "T32.G7.05",
+            "description": "Create AI-generated commercial assets"
+          },
+          {
+            "id": "T15.G7.01",
+            "description": "Build interactive data displays with widgets"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.12",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build AI perception surveillance simulator",
+        "description": "Students use CreatiCode's T22 perception blocks (hand detection, body pose tracking) to build a surveillance simulator demonstrating how AI perception can be used for monitoring. They create a project that: (1) Uses hand detection to count people entering/exiting a \"virtual space\" (tracking when hands appear/disappear, maintaining entry/exit counters using variables), (2) Uses body pose detection to classify movements (e.g., walking vs. running based on joint distance changes, standing vs. sitting based on body position), (3) Logs all detections to a table variable with detailed data (timestamp, movement type, duration, body position data), (4) Creates a monitoring dashboard using widgets: labels showing live counts, table display of detection log, buttons to start/stop/clear monitoring. Students experience first-hand what data AI perception systems can capture.",
+        "dependencies": [
+          {
+            "id": "T32.G6.08",
+            "description": "Analyze data privacy tradeoffs"
+          },
+          {
+            "id": "T32.G6.10",
+            "description": "Develop ethics guidelines for AI perception and assistance (T22-T23)"
+          },
+          {
+            "id": "T22.G7.01",
+            "description": "Use hand and body tracking for interactive projects"
+          }
+        ],
+        "grade": "7"
+      }
+    ],
+    "Other": [
+      {
+        "id": "T32.GK.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify a helpful use of technology",
+        "description": "Students pick pictures showing technology helping someone (video call grandma, drawing app for homework).",
+        "dependencies": [],
+        "grade": "K"
+      },
+      {
+        "id": "T32.GK.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Practice device sharing etiquette",
+        "description": "Students sort picture cards showing sharing behaviors (waiting your turn, asking nicely, grabbing) into \"kind\" and \"not kind\" categories to learn respectful device use.",
+        "dependencies": [
+          {
+            "id": "T01.GK.01",
+            "description": "Put pictures in order for getting ready for bed"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.GK.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Choose safe sharing in role-play",
+        "description": "Students act out scenarios deciding whether to share personal information (name, photo) with a pretend app character, choosing 'yes' or 'no' cards to practice safe information sharing.",
+        "dependencies": [
+          {
+            "id": "T32.GK.01",
+            "description": "Identify a helpful use of technology"
+          }
+        ],
+        "grade": "K"
+      },
+      {
+        "id": "T32.G1.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Sort good vs not-so-good choices and explain why",
+        "description": "Students categorize technology behaviors (pausing game to eat vs ignoring responsibilities) into \"good for me\"/\"not good for me\" using picture cards, then explain their reasoning by connecting each choice to a consequence picture (e.g., \"Pausing to eat is good because it keeps me healthy\").",
+        "dependencies": [
+          {
+            "id": "T01.GK.01",
+            "description": "Put pictures in order for getting ready for bed"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G1.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Match feelings to technology experiences",
+        "description": "Students match pictures of emotions (happy, sad, frustrated, excited) to technology scenarios (winning a game, losing progress, video calling family, waiting for slow loading) to understand emotional impacts of tech use.",
+        "dependencies": [
+          {
+            "id": "T01.GK.01",
+            "description": "Put pictures in order for getting ready for bed"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G1.03",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Circle design choices made by app creators",
+        "description": "Students look at picture cards showing app screens and circle design choices made by creators (characters, colors, sounds). They match circled elements to \"someone chose this\" labels to understand that people make technology choices.",
+        "dependencies": [
+          {
+            "id": "T01.GK.01",
+            "description": "Put pictures in order for getting ready for bed"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G1.04",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Match uncomfortable scenarios to trusted adults using picture cards",
+        "description": "Students use picture cards showing uncomfortable technology scenarios (mean message, scary image, stranger asking questions) and match them with picture cards of trusted adults who can help (parent, teacher, librarian).",
+        "dependencies": [
+          {
+            "id": "T32.G1.02",
+            "description": "Match feelings to technology experiences"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G1.06",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Sort picture cards showing technology helps vs problems",
+        "description": "Students sort picture cards showing technology scenarios (video chat with grandma, staying up too late playing games, learning with videos, eyes hurting from screen) into \"helps me\" or \"causes problems\" piles. Students explain their sorting using the pictures.",
+        "dependencies": [
+          {
+            "id": "T32.G1.05",
+            "description": "List jobs that rely on computers"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G1.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Match picture cards of creators to what they make",
+        "description": "Students use picture cards showing people who make apps and games (game designer, app builder, animator). They match each creator card to a picture card of what they create (a game, an app on a phone, a cartoon character).",
+        "dependencies": [
+          {
+            "id": "T32.G1.05",
+            "description": "List jobs that rely on computers"
+          }
+        ],
+        "grade": "1"
+      },
+      {
+        "id": "T32.G2.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Compare benefits and harms of a tech tool",
+        "description": "Students create simple pros/cons charts for tools like video sharing or messaging apps. They list at least 2 positives and 2 negatives for each tool, then draw or place pictures showing examples of each benefit and harm to create a visual comparison chart.",
+        "dependencies": [
+          {
+            "id": "T01.G1.07",
+            "description": "Decide if two algorithms finish with the same result"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G2.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Match project roles to tasks using picture cards",
+        "description": "Students use picture cards to match roles (story planner, builder, tester) to task cards in a project. For example, the \"builder\" card matches to \"puts blocks together,\" the \"tester\" card matches to \"tries it out,\" and the \"planner\" card matches to \"decides what to make.\"",
+        "dependencies": [
+          {
+            "id": "T32.G1.05",
+            "description": "List jobs that rely on computers"
+          }
+        ],
+        "grade": "2"
+      },
+      {
+        "id": "T32.G3.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Interview classmates to understand project needs",
+        "description": "Students interview a classmate or family member about what they would like in a simple app or game. Students write down at least two ideas they learned from their interview and practice asking follow-up questions.",
+        "dependencies": [
+          {
+            "id": "T32.G2.05",
+            "description": "Match project roles to tasks using picture cards"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G3.08",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Identify what coders and digital designers do",
+        "description": "Students watch a short video or look at pictures of programmers and digital designers at work. Students describe one thing these workers do (like write code or draw characters) and one tool they use (like a computer or drawing tablet).",
+        "dependencies": [
+          {
+            "id": "T32.G2.08",
+            "description": "Name jobs where people create digital things"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G3.09",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Practice giving and receiving helpful feedback",
+        "description": "Students practice giving kind and specific feedback on a classmate's work (\"I like how you used bright colors\" or \"Maybe add a sound effect\"). Students also practice saying \"thank you\" when receiving feedback, even if they disagree.",
+        "dependencies": [
+          {
+            "id": "T32.G2.09",
+            "description": "Practice polite communication in group work"
+          },
+          {
+            "id": "T32.G3.07",
+            "description": "Reflect on collaboration habits"
+          }
+        ],
+        "grade": "3"
+      },
+      {
+        "id": "T32.G4.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Build interactive case study viewer with widgets",
+        "description": "Students build an interactive case study viewer using widget blocks: buttons to select different case studies, and labels to display benefits/harms for each case. The viewer reads from the table variable created in T32.G4.01 and displays the organized information clearly.",
+        "dependencies": [
+          {
+            "id": "T32.G4.01",
+            "description": "Read and categorize tech impact case studies"
+          },
+          {
+            "id": "T07.G3.01",
+            "description": "Use repeat blocks to simplify code"
+          },
+          {
+            "id": "T15.G4.01",
+            "description": "Style widget text properties"
+          }
+        ],
+        "grade": "4"
+      },
+      {
+        "id": "T32.G5.01",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Research technology impacts in one community",
+        "description": "Students research a specific technology (e.g., mobile banking, telemedicine, agricultural drones) and document its benefits and challenges in one specific community. They gather evidence from at least 3 sources and create a summary chart.",
+        "dependencies": [
+          {
+            "id": "T32.G4.03",
+            "description": "Identify tradeoffs in technology impacts"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G5.02",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Compare impacts across two communities",
+        "description": "Building on T32.G5.01, students research the same technology in a second, different community (urban vs. rural, developed vs. developing nation, high vs. low income). They create a comparison chart showing how benefits and challenges differ between the two communities.",
+        "dependencies": [
+          {
+            "id": "T32.G5.01",
+            "description": "Research technology impacts in one community"
+          }
+        ],
+        "grade": "5"
+      },
+      {
+        "id": "T32.G7.05",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Create AI-generated commercial assets",
+        "description": "Students generate commercial assets using T21 blocks (logos for fictional companies, product images, stock photos of diverse scenarios). They create a comparison table logging: Prompt, Time to generate, Quality rating (1-5), Could this replace human work? (Yes/No/Partial), Ethical concerns noted. They conduct a time comparison study: Generate 10 images with AI (seconds) vs. estimate human creation time for similar work (hours/days).",
+        "dependencies": [
+          {
+            "id": "T32.G7.04",
+            "description": "Generate and analyze AI art in different styles"
+          },
+          {
+            "id": "T20.G7.01",
+            "description": "Generate complex images with AI"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.11",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Justify transparency recommendations with evidence",
+        "description": "Students test different transparency scenarios using their simulator, weigh tradeoffs across stakeholders, and justify a specific transparency recommendation with evidence from their simulation. They write a policy brief explaining their recommendation and addressing counterarguments.",
+        "dependencies": [
+          {
+            "id": "T32.G7.10",
+            "description": "Analyze stakeholder impacts at different transparency levels"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.15",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Facilitate community discussions on AI-powered tech policy",
+        "description": "Students design and conduct structured interviews with 3+ stakeholders (teachers, parents, students) about a local AI policy question (e.g., Should schools use AI proctoring? Should the school allow AI writing assistants?). They create interview protocols with at least 5 open-ended questions, document responses, and create a summary report identifying areas of agreement and disagreement on AI governance, connecting to AI applications.",
+        "dependencies": [
+          {
+            "id": "T32.G6.11",
+            "description": "Analyze digital divide data"
+          },
+          {
+            "id": "T32.G5.04",
+            "description": "Debate digital well-being scenarios"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G7.25",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Deliver a lesson to younger coders",
+        "description": "Students deliver their planned lesson to younger students. After teaching, they reflect on: what went well, what was challenging, how they adapted to student questions, and what they would change next time. Students develop leadership and communication skills.",
+        "dependencies": [
+          {
+            "id": "T32.G7.24",
+            "description": "Plan a lesson for younger coders"
+          }
+        ],
+        "grade": "7"
+      },
+      {
+        "id": "T32.G8.14",
+        "topic": "T32 – Digital Citizenship",
+        "skill": "Assemble a project portfolio",
+        "description": "Students select 3-5 of their best CreatiCode projects and organize them into a portfolio. For each project, they include: project name, description, their role, skills demonstrated, and a screenshot or link. Students arrange projects to show growth and variety.",
+        "dependencies": [
+          {
+            "id": "T32.G6.27",
+            "description": "Document project contributions for a portfolio"
+          },
+          {
+            "id": "T32.G6.24",
+            "description": "Analyze job descriptions for technical skills"
+          }
+        ],
+        "grade": "8"
+      }
+    ]
+  },
+  "issues": {
+    "kIssues": [],
+    "missingTopics": [
+      "Deepfake detection (only 1 skill: T32.G7.17)",
+      "AI content attribution (0 skills)",
+      "Algorithmic literacy/transparency (0 skills with \"algorithmic\")",
+      "Digital footprint management (only 1 skill: T32.G3.01)",
+      "Disinformation vs misinformation (0 skills with \"disinformation\")",
+      "AI-generated content disclosure (minimal coverage)",
+      "Data ownership & right to be forgotten (minimal coverage)",
+      "Filter bubbles & echo chambers (0 skills)",
+      "Social media algorithms & recommendation systems (minimal, only G3.02)",
+      "Cryptocurrency/blockchain ethics (0 skills)",
+      "IoT privacy concerns (0 skills)",
+      "Biometric data ethics (0 skills)",
+      "AI creativity vs human creativity (touched in G7 art skills)",
+      "Gaming addiction & dark patterns (minimal)",
+      "Online radicalization & extremism (0 skills)"
+    ],
+    "redundantSkills": {
+      "aiTesting": [
+        "T32.G3.01",
+        "T32.G4.05",
+        "T32.G4.06",
+        "T32.G5.10",
+        "T32.G6.01",
+        "T32.G6.02",
+        "T32.G6.03",
+        "T32.G6.05",
+        "T32.G6.09",
+        "T32.G6.10",
+        "T32.G7.01",
+        "T32.G7.03",
+        "T32.G7.11",
+        "T32.G7.13",
+        "T32.G8.03",
+        "T32.G8.09"
+      ],
+      "careers": [
+        "T32.GK.05",
+        "T32.GK.07",
+        "T32.G1.05",
+        "T32.G2.08",
+        "T32.G4.08",
+        "T32.G4.11",
+        "T32.G4.12",
+        "T32.G5.05",
+        "T32.G5.11",
+        "T32.G5.13",
+        "T32.G6.14",
+        "T32.G6.15",
+        "T32.G6.16",
+        "T32.G6.17",
+        "T32.G6.18",
+        "T32.G6.19",
+        "T32.G6.20",
+        "T32.G6.24",
+        "T32.G6.25",
+        "T32.G7.08",
+        "T32.G7.18",
+        "T32.G7.19",
+        "T32.G7.20",
+        "T32.G7.21",
+        "T32.G8.11",
+        "T32.G8.12",
+        "T32.G8.13",
+        "T32.G8.15",
+        "T32.G8.17",
+        "T32.G8.18",
+        "T32.G8.19"
+      ],
+      "workshops": [
+        "T32.G7.24",
+        "T32.G7.25",
+        "T32.G8.04.01",
+        "T32.G8.10"
+      ]
+    }
+  }
+}
