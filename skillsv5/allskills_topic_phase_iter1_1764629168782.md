@@ -6437,81 +6437,67 @@ Dependencies:
 * T03.G8.04.01: Justify module boundary decisions with trade-off analysis
 
 
-# T04 - Algorithm Patterns (Phase 11 Major Optimization - December 2025)
-# PHASE 11 MAJOR OPTIMIZATION - Comprehensive Pattern Mastery with Modern Patterns
+# T04 - Algorithm Patterns (Phase 10 Optimized - December 2025)
+# PHASE 10 MAJOR OVERHAUL - Professional-Grade Pattern Mastery
 #
-# PHILOSOPHY (Building on Phase 10):
+# PHILOSOPHY EVOLUTION (Building on Phase 9):
 # - Algorithm Patterns as TRANSFERABLE PROBLEM-SOLVING STRATEGIES
 # - Emphasis on pattern recognition, selection, and composition
 # - AI-human collaboration: patterns as shared vocabulary with AI tools
 # - Scalability thinking: patterns that work from toy examples to production
 # - Meta-cognitive skills: knowing WHEN and WHY to apply each pattern
-# - SORTING & SEARCHING as fundamental algorithmic thinking (NEW in Phase 11)
-# - OPTIMIZATION PATTERNS: memoization, caching, lazy evaluation (NEW in Phase 11)
 #
-# PHASE 11 NEW ADDITIONS (Building on Phase 10):
+# PHASE 10 NEW ADDITIONS:
 #
-# 1. UNPLUGGED SORTING & SEARCHING (K-2) - NEW STRAND
-#    - GK.09: Sort picture cards from smallest to biggest
-#    - GK.10: Find a specific picture card in a row (visual search)
-#    - G1.09: Compare two items and decide which comes first
-#    - G1.10: Sort 3-4 items using pairwise comparisons
-#    - G2.09: Find items in sorted vs unsorted arrangements
-#    - G2.10: Explain why sorted data is easier to search
-#
-# 2. SORTING ALGORITHM PATTERNS (G4-G6) - NEW STRAND
-#    - G4.16: Trace bubble sort on a small list
-#    - G4.17: Trace selection sort on a small list
-#    - G5.14: Implement bubble sort with nested loops
-#    - G5.15: Implement selection sort with find-minimum pattern
-#    - G6.15: Compare sorting algorithm efficiency visually
-#    - G6.16: Trace merge sort decomposition (divide pattern)
-#
-# 3. BINARY SEARCH PATTERN (G5-G7) - NEW STRAND
-#    - G5.16: Play the "guess the number" game (binary search intuition)
-#    - G6.17: Trace binary search step-by-step
-#    - G6.18: Implement binary search with halving pattern
-#    - G7.17: Compare linear vs binary search efficiency with large data
-#
-# 4. OPTIMIZATION PATTERNS (G7-G8) - NEW STRAND
-#    - G7.18: Identify repeated calculations that waste time
-#    - G7.19: Implement memoization to cache expensive results
-#    - G8.26: Apply caching patterns for expensive operations
-#    - G8.27: Implement lazy evaluation patterns (compute on demand)
-#
-# 5. PATTERN DECOMPOSITION THINKING (from Phase 10)
+# 1. PATTERN DECOMPOSITION THINKING (new strand)
 #    - GK.08: Break a big pattern into smaller repeating parts
 #    - G1.08: Identify the smallest repeating unit in complex patterns
 #    - G2.08: Decompose a multi-step routine into pattern components
 #    - G4.12: Decompose visual output to identify required patterns
 #    - G6.12: Decompose problems using pattern building blocks
 #
-# 6. PATTERN EFFICIENCY AWARENESS (enhanced in Phase 11)
+# 2. PATTERN EFFICIENCY AWARENESS (new strand)
 #    - G2.05.02: Compare pattern solutions by number of steps
 #    - G4.13: Predict which pattern approach completes faster
 #    - G5.12: Measure and compare pattern execution times
 #    - G7.15: Analyze pattern memory usage trade-offs
 #
-# 7. PATTERN GENERALIZATION (from Phase 10)
+# 3. PATTERN GENERALIZATION (new strand)
 #    - G3.13: Recognize the same pattern in different contexts
 #    - G5.13: Abstract a specific solution into a general pattern
 #    - G7.16: Document pattern variations and when to use each
 #    - G8.22: Create pattern catalogs for domain-specific problems
 #
-# 8. DEFENSIVE PATTERN PROGRAMMING (from Phase 10)
+# 4. DEFENSIVE PATTERN PROGRAMMING (new strand)
 #    - G4.14: Add boundary checks to loop patterns
 #    - G6.13: Implement pattern guard conditions
 #    - G8.23: Design fail-safe patterns with graceful degradation
 #
-# 9. AI-PATTERN COLLABORATION (from Phase 10)
+# 5. AI-PATTERN COLLABORATION (expanded)
 #    - G4.15: Ask AI to suggest patterns for simple problems
 #    - G6.14: Use AI to compare multiple pattern approaches
 #    - G8.24: Prompt AI with pattern constraints for better code
 #    - G8.25: Review and improve AI-suggested pattern compositions
 #
-# Total: 183 skills (21 new skills in Phase 11 for sorting, searching, binary search,
-# memoization, caching, lazy evaluation, and algorithm selection; enhanced algorithmic
-# thinking throughout K-8)
+# 6. ENHANCED K-2 COMPUTATIONAL THINKING:
+#    - More hands-on pattern manipulation
+#    - Prediction before execution
+#    - Pattern verbalization and explanation
+#    - Real-world pattern connections throughout
+#
+# 7. DEPENDENCY FIXES (Phase 10):
+#    - All X-2 rule violations corrected
+#    - Strengthened intra-topic progression
+#    - Clearer prerequisite chains for each strand
+#
+# 8. VERB UPGRADES (active, measurable):
+#    - "Match" → "Connect and justify", "Pair with explanation"
+#    - "Identify" → "Locate and mark", "Detect and highlight"
+#    - "Compare" → "Analyze and rank", "Evaluate with criteria"
+#    - Added: "Decompose", "Generalize", "Synthesize", "Validate"
+#
+# Total: ~165 skills (23 new skills for decomposition, efficiency,
+# generalization, defensive programming, and enhanced AI collaboration)
 
 ID: T04.GK.01
 Topic: T04 – Algorithm Patterns
@@ -6633,28 +6619,6 @@ Dependencies:
 
 
 
-ID: T04.GK.09
-Topic: T04 – Algorithm Patterns
-Skill: Sort picture cards from smallest to biggest
-Description: **Student task:** Drag picture cards showing different-sized objects into order from smallest to biggest. **Visual scenario:** Cards show: big elephant, tiny mouse, medium dog, small cat. Student drags to arrange: mouse → cat → dog → elephant. **Key insight:** Putting things in ORDER (sorting) is something computers do all the time! When things are in order, they're easier to find. _Implementation note: Drag-and-drop sorting with 3-5 picture cards; visual feedback shows correct ordering. Introduces SORTING as fundamental algorithmic concept. Auto-graded by final arrangement. PICTURE-BASED sorting activity. CSTA: EK-ALG-AF-01._
-
-Dependencies:
-* T04.GK.02: Drag the next picture card to extend a repeating pattern
-
-
-
-
-ID: T04.GK.10
-Topic: T04 – Algorithm Patterns
-Skill: Find a specific picture card in a row (visual search)
-Description: **Student task:** Look at a row of picture cards and tap on the card that matches the target picture. **Visual scenario:** Target shows "red apple." Row shows: banana, orange, red apple, grapes, pear (5-7 items). Student taps the red apple. With more cards, it takes longer to find! **Key insight:** Looking through items one by one to find something is called SEARCHING. The more items, the longer it takes! _Implementation note: Visual search activity with varying row lengths (4-8 cards); timer shows how long search takes. Introduces LINEAR SEARCH concept intuitively. Auto-graded by correct selection and time. PICTURE-BASED search activity. CSTA: EK-ALG-AF-01._
-
-Dependencies:
-* T04.GK.01: Select a row of picture cards showing a repeating pattern
-
-
-
-
 ID: T04.G1.01
 Topic: T04 – Algorithm Patterns
 Skill: Match picture cards of actions to a character's repeated movements
@@ -6767,28 +6731,6 @@ Description: **Student task:** Look at a longer pattern and find the SMALLEST gr
 Dependencies:
 * T04.GK.08: Break a big pattern into smaller repeating parts
 * T04.G1.03: Highlight the repeated steps in a row of picture cards
-
-
-
-
-ID: T04.G1.09
-Topic: T04 – Algorithm Patterns
-Skill: Compare two items and decide which comes first
-Description: **Student task:** Look at two picture cards and decide which one should come FIRST when putting them in order. **Visual scenario:** Card A shows "5 apples," Card B shows "2 apples." Question: "Which has FEWER apples and should come first?" Students tap Card B (2 apples). Repeat with different comparisons: biggest/smallest, tallest/shortest, A-Z order for letters. **Key insight:** Comparing two things and picking one is the basic step of SORTING. Computers sort by making lots of these comparisons! _Implementation note: Binary comparison activity with various attributes (size, quantity, alphabetical). Audio support for comparisons. PICTURE-BASED comparison activity. CSTA: E1-ALG-AF-01._
-
-Dependencies:
-* T04.GK.09: Sort picture cards from smallest to biggest
-
-
-
-
-ID: T04.G1.10
-Topic: T04 – Algorithm Patterns
-Skill: Sort 3-4 items using pairwise comparisons
-Description: **Student task:** Sort 3-4 picture cards by comparing pairs and swapping when needed. **Visual scenario:** Cards: 8, 3, 5, 1. System highlights pairs: "Is 8 bigger than 3? Yes, swap!" Student swaps. "Is 8 bigger than 5? Yes, swap!" Continue until sorted: 1, 3, 5, 8. **Key insight:** You can sort ANY list by comparing two items at a time and swapping if needed—that's how computers sort too! _Implementation note: Guided bubble-sort simulation with 3-4 items; visual highlighting of compared pair. Students physically drag to swap. Prepares for bubble sort understanding. PICTURE-BASED sorting algorithm preview. CSTA: E1-ALG-AF-01._
-
-Dependencies:
-* T04.G1.09: Compare two items and decide which comes first
 
 
 
@@ -6921,29 +6863,6 @@ Description: **Student task:** Look at two different pattern solutions for the s
 Dependencies:
 * T04.G2.05: Match a "repeat box" diagram to its expanded picture card sequence
 * T04.G2.04: Create a "repeat ___ times" label for a row of repeated picture cards
-
-
-
-
-ID: T04.G2.09
-Topic: T04 – Algorithm Patterns
-Skill: Find items faster in sorted vs unsorted arrangements
-Description: **Student task:** Find a target item in two arrangements—one sorted, one unsorted—and notice which is faster. **Visual scenario:** Task 1: Find "dog" in unsorted row: cat, fish, dog, bird, snake (must check each one). Task 2: Find "dog" in sorted row: bird, cat, dog, fish, snake (can skip to middle!). Timer shows sorted search is faster. **Key insight:** When things are in ORDER, you can find them FASTER! That's why sorting is so important. _Implementation note: Timed search comparison; students experience the efficiency difference. Prepares for binary search intuition. PICTURE-BASED efficiency discovery. CSTA: E1-ALG-AF-01._
-
-Dependencies:
-* T04.GK.10: Find a specific picture card in a row (visual search)
-* T04.G1.10: Sort 3-4 items using pairwise comparisons
-
-
-
-
-ID: T04.G2.10
-Topic: T04 – Algorithm Patterns
-Skill: Explain why sorted data is easier to search
-Description: **Student task:** After experiencing sorted vs unsorted search, explain WHY sorted is faster. **Visual scenario:** Student is prompted: "You found 'dog' faster in the sorted row. Why?" Multiple choice: A) "Sorted rows are prettier" B) "In sorted order, I know where to look based on alphabetical order" C) "The dog picture was bigger." **Correct answer:** B. Student then records: "In a sorted list, I can skip items because I know if the target comes before or after." **Key insight:** Sorting isn't just about neatness—it makes searching MUCH faster by letting us skip items! _Implementation note: Reflection activity after experiencing sorted search; builds metacognitive understanding. MCQ + voice recording. PICTURE-BASED reasoning activity. CSTA: E1-ALG-AF-01._
-
-Dependencies:
-* T04.G2.09: Find items faster in sorted vs unsorted arrangements
 
 
 
@@ -7427,30 +7346,6 @@ Dependencies:
 * T04.G4.11: Recognize algorithm patterns in apps and games
 
 
-ID: T04.G4.16
-Topic: T04 – Algorithm Patterns
-Skill: Trace bubble sort on a small list
-Description: **Student task:** Trace through bubble sort step-by-step on a small list, showing each comparison and swap. **Scenario:** List: [4, 2, 7, 1]. Students trace: "Compare 4 and 2: 4>2, swap → [2, 4, 7, 1]. Compare 4 and 7: 4<7, no swap. Compare 7 and 1: 7>1, swap → [2, 4, 1, 7]. Pass 1 done. Pass 2..." Continue until sorted: [1, 2, 4, 7]. **Assessment:** Students complete trace table showing list state after each comparison. Focus is on understanding HOW bubble sort works through systematic tracing.
-
-Dependencies:
-* T04.G4.02.01: Trace nested loop output step by step
-* T04.G2.10: Explain why sorted data is easier to search
-
-
-
-
-ID: T04.G4.17
-Topic: T04 – Algorithm Patterns
-Skill: Trace selection sort on a small list
-Description: **Student task:** Trace through selection sort step-by-step, finding minimum and swapping to front. **Scenario:** List: [4, 2, 7, 1]. Students trace: "Find minimum in [4,2,7,1]: 1 at position 3. Swap with position 0 → [1, 2, 7, 4]. Find minimum in [2,7,4]: 2 at position 1 (already in place). Find minimum in [7,4]: 4. Swap → [1, 2, 4, 7]." **Assessment:** Students trace finding minimum and swapping for each pass. Focus is on understanding selection sort's find-minimum-then-swap pattern.
-
-Dependencies:
-* T04.G4.16: Trace bubble sort on a small list
-* T04.G4.09: Use loops to iterate through all items in a list
-
-
-
-
 
 
 
@@ -7747,42 +7642,6 @@ Dependencies:
 * T04.G5.07: Apply a counter pattern to solve a counting problem
 
 
-ID: T04.G5.14
-Topic: T04 – Algorithm Patterns
-Skill: Implement bubble sort with nested loops
-Description: **Student task:** Implement bubble sort using nested loops to sort a list. **Scenario:** Given a list in CreatiCode, students write code with outer loop (passes) and inner loop (comparisons). Code swaps adjacent items if out of order. Students test with lists like [5, 2, 8, 1, 9] and verify output is [1, 2, 5, 8, 9]. **Assessment:** Code must correctly sort lists of varying sizes. Students explain why nested loops are needed (outer = passes, inner = comparisons per pass).
-
-Dependencies:
-* T04.G4.16: Trace bubble sort on a small list
-* T04.G4.02: Analyze nested loop code structure (outer vs inner loop)
-
-
-
-
-ID: T04.G5.15
-Topic: T04 – Algorithm Patterns
-Skill: Implement selection sort with find-minimum pattern
-Description: **Student task:** Implement selection sort using the find-minimum-then-swap pattern. **Scenario:** Students write code that: (1) finds minimum in unsorted portion, (2) swaps it to current position, (3) repeats for remaining items. Code uses counter for current position and inner loop to find minimum. Students test with various lists. **Assessment:** Code correctly sorts lists. Students explain the find-minimum pattern and why selection sort needs fewer swaps than bubble sort.
-
-Dependencies:
-* T04.G4.17: Trace selection sort on a small list
-* T04.G5.03.02: Implement a linear search pattern with conditional matching
-
-
-
-
-ID: T04.G5.16
-Topic: T04 – Algorithm Patterns
-Skill: Play the guess-the-number game (binary search intuition)
-Description: **Student task:** Play a number guessing game that develops binary search intuition. **Scenario:** Computer picks number 1-100. Student guesses, gets "too high" or "too low" feedback. Optimal strategy: always guess the MIDDLE of remaining range. With good strategy, find any number in ≤7 guesses! **Key insight:** By halving the search space each time, you can find any number incredibly fast. **Assessment:** Students explain their strategy and why guessing middle is optimal.
-
-Dependencies:
-* T04.G4.13: Predict which pattern approach completes faster
-* T04.G5.03: Identify linear search patterns in code
-
-
-
-
 
 
 
@@ -8033,54 +7892,6 @@ Description: **Student task:** Ask AI to explain trade-offs between different pa
 Dependencies:
 * T04.G6.11: Evaluate AI suggestions for pattern improvements
 * T04.G5.12: Measure and compare pattern execution times
-
-
-ID: T04.G6.15
-Topic: T04 – Algorithm Patterns
-Skill: Compare sorting algorithm efficiency visually
-Description: **Student task:** Run bubble sort and selection sort on the same data and compare their performance visually. **Scenario:** Use CreatiCode to animate both sorts on a list of 10 items. Count comparisons and swaps for each. Students observe: selection sort does fewer swaps but similar comparisons. Bubble sort is slower on nearly-sorted data. **Assessment:** Students complete comparison table and explain which algorithm is better for different situations.
-
-Dependencies:
-* T04.G5.14: Implement bubble sort with nested loops
-* T04.G5.15: Implement selection sort with find-minimum pattern
-
-
-
-
-ID: T04.G6.16
-Topic: T04 – Algorithm Patterns
-Skill: Trace merge sort decomposition (divide pattern)
-Description: **Student task:** Trace how merge sort divides a list recursively, then merges sorted sublists. **Scenario:** List: [8, 3, 5, 1, 7, 2, 6, 4]. Students trace: "Split into [8,3,5,1] and [7,2,6,4]. Split again: [8,3] [5,1] [7,2] [6,4]. Split to singles. Merge [3,8] [1,5] [2,7] [4,6]. Merge [1,3,5,8] [2,4,6,7]. Final merge [1,2,3,4,5,6,7,8]." **Assessment:** Students complete decomposition tree showing all splits and merges. Focus is on understanding the DIVIDE and CONQUER pattern.
-
-Dependencies:
-* T04.G6.15: Compare sorting algorithm efficiency visually
-* T04.G6.12: Decompose problems using pattern building blocks
-
-
-
-
-ID: T04.G6.17
-Topic: T04 – Algorithm Patterns
-Skill: Trace binary search step-by-step
-Description: **Student task:** Trace binary search on a sorted list, showing the halving pattern. **Scenario:** Sorted list: [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]. Find 23. Students trace: "Range 0-9, middle=4, list[4]=16<23, search right half. Range 5-9, middle=7, list[7]=56>23, search left half. Range 5-6, middle=5, list[5]=23. Found!" **Assessment:** Students complete trace showing range, middle, comparison, and new range for each step.
-
-Dependencies:
-* T04.G5.16: Play the guess-the-number game (binary search intuition)
-* T04.G5.03.03: Implement early-exit pattern in search
-
-
-
-
-ID: T04.G6.18
-Topic: T04 – Algorithm Patterns
-Skill: Implement binary search with halving pattern
-Description: **Student task:** Implement binary search using the halving pattern with low/high bounds. **Scenario:** Students write code: set low=1, high=list length. Loop: calculate middle, compare list[middle] to target. If equal, found! If target smaller, set high=middle-1. If target larger, set low=middle+1. Stop when low>high (not found). **Assessment:** Code correctly searches sorted lists. Students explain why binary search is O(log n) vs linear search O(n).
-
-Dependencies:
-* T04.G6.17: Trace binary search step-by-step
-* T04.G5.14: Implement bubble sort with nested loops
-
-
 
 
 
@@ -8354,42 +8165,6 @@ Description: **Student task:** Create documentation for pattern variations inclu
 Dependencies:
 * T04.G7.07: Explain the role of each pattern in a composite solution
 * T04.G6.12: Decompose problems using pattern building blocks
-
-
-ID: T04.G7.17
-Topic: T04 – Algorithm Patterns
-Skill: Compare linear vs binary search efficiency with large data
-Description: **Student task:** Compare linear and binary search performance on large datasets empirically. **Scenario:** Create sorted list of 1000 items. Time how long linear search takes vs binary search for various targets (beginning, middle, end, not found). Students observe: linear search averages ~500 comparisons; binary search needs only ~10 comparisons! **Assessment:** Students create comparison table with timing data and explain why binary search is exponentially faster on sorted data.
-
-Dependencies:
-* T04.G6.18: Implement binary search with halving pattern
-* T04.G5.12: Measure and compare pattern execution times
-
-
-
-
-ID: T04.G7.18
-Topic: T04 – Algorithm Patterns
-Skill: Identify repeated calculations that waste time
-Description: **Student task:** Identify code that performs the same calculation multiple times unnecessarily. **Scenario:** Code calculates expensive operation (like finding all primes up to N) inside a loop, recalculating the same values each iteration. Students identify: "The prime calculation doesn't depend on the loop variable, so it should be done ONCE before the loop, not N times." **Assessment:** Given 3-4 code snippets, students identify which calculations are wastefully repeated and suggest where to move them.
-
-Dependencies:
-* T04.G7.15: Analyze pattern memory usage trade-offs
-* T04.G7.17: Compare linear vs binary search efficiency with large data
-
-
-
-
-ID: T04.G7.19
-Topic: T04 – Algorithm Patterns
-Skill: Implement memoization to cache expensive results
-Description: **Student task:** Implement memoization pattern to cache results of expensive calculations. **Scenario:** Recursive Fibonacci is slow because it recalculates the same values. Students implement memoization: before calculating fib(n), check if result is in cache. If yes, return cached value. If no, calculate, store in cache, then return. Test: fib(30) goes from minutes to milliseconds! **Assessment:** Students implement memoized version and compare performance. Explain how caching transforms exponential time to linear time.
-
-Dependencies:
-* T04.G7.18: Identify repeated calculations that waste time
-* T04.G6.08: Apply 2D indexing patterns to access grid elements
-
-
 
 
 
@@ -8764,42 +8539,6 @@ Description: **Student task:** Receive AI-generated multi-pattern solutions and 
 Dependencies:
 * T04.G8.18: Validate and refactor AI-generated algorithm implementations
 * T04.G8.24: Prompt AI with pattern constraints for better code
-
-
-ID: T04.G8.26
-Topic: T04 – Algorithm Patterns
-Skill: Apply caching patterns for expensive operations
-Description: **Student task:** Implement caching pattern for expensive operations in real applications. **Scenario:** Application makes slow API calls or expensive calculations. Students implement: check cache first, return cached result if exists and not expired, otherwise compute/fetch, store in cache with timestamp, return result. Implement cache expiration (TTL). **Assessment:** Students implement cache with expiration for at least 2 different operations. Measure performance improvement.
-
-Dependencies:
-* T04.G7.19: Implement memoization to cache expensive results
-* T04.G8.12: Design AI data processing pipelines using CreatiCode AI blocks
-
-
-
-
-ID: T04.G8.27
-Topic: T04 – Algorithm Patterns
-Skill: Implement lazy evaluation patterns (compute on demand)
-Description: **Student task:** Implement lazy evaluation to delay expensive computations until needed. **Scenario:** Dashboard has 10 data panels but user only sees 3 at a time. Eager approach: compute all 10 on load (slow). Lazy approach: compute each panel only when user scrolls to it. Students implement: store computation function instead of result, execute only when accessed, cache result after first computation. **Assessment:** Students implement lazy loading for at least 2 scenarios. Compare eager vs lazy performance. Explain when lazy evaluation is beneficial (expensive computation, might not need all results).
-
-Dependencies:
-* T04.G8.26: Apply caching patterns for expensive operations
-* T04.G8.03.01: Evaluate pattern scalability for large datasets
-
-
-
-
-ID: T04.G8.28
-Topic: T04 – Algorithm Patterns
-Skill: Design optimal algorithm selection based on data characteristics
-Description: **Student task:** Choose algorithms based on data characteristics (size, sortedness, access patterns). **Scenario:** Given different scenarios: (A) search in sorted list of 1M items → binary search; (B) find if item exists in small list of 20 → linear search simpler; (C) frequently searching same data → cache results; (D) data changes frequently → avoid caching. Students create decision flowchart for algorithm selection. **Assessment:** Given 5 scenarios, students select optimal algorithm and justify based on data characteristics.
-
-Dependencies:
-* T04.G7.17: Compare linear vs binary search efficiency with large data
-* T04.G8.14: Analyze algorithm efficiency using Big-O reasoning
-
-
 
 
 
