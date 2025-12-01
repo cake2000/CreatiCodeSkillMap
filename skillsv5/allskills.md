@@ -2288,51 +2288,67 @@ Dependencies:
 * T01.G8.09: Refactor a medium-sized program for efficiency
 
 
-# T02 - Algorithm Diagrams (Phase 9 Optimized - November 2025)
-# Applied Phase 9 comprehensive optimizations:
-# MAJOR CHANGES FROM PHASE 8 → PHASE 9:
-# 1. NEW SKILLS ADDED (18 new skills for depth, visual programming, AI-era thinking):
-#    K-2 NEW SKILLS (picture-based):
-#    - T02.GK.07: Sort picture cards by step size (big steps vs small steps)
-#    - T02.G1.09: Predict which path a character takes through a branching diagram
-#    - T02.G2.12: Compare two diagrams and tap the one with more steps
-#    G3-5 NEW SKILLS (block-based):
-#    - T02.G3.12: Draw a flowchart programmatically using drawing blocks
-#    - T02.G4.10: Build a decision table for a multi-condition algorithm
-#    - T02.G4.11: Create an animated flowchart that highlights current step during execution
-#    - T02.G5.11: Design a flowchart for error handling with try/catch patterns
-#    G6-8 NEW SKILLS (advanced):
-#    - T02.G6.12: Draw a recursive algorithm diagram showing call stack
-#    - T02.G6.13: Build an interactive flowchart editor using sprites and clicks
-#    - T02.G7.10: Design a sequence diagram for multi-sprite message passing
-#    - T02.G7.11: Trace parallel algorithms showing concurrent execution paths
-#    - T02.G8.12: Draw a system architecture diagram showing component interactions
-#    - T02.G8.13: Use AI to generate flowcharts from natural language descriptions
-#    - T02.G8.14: Create algorithm diagrams for scalable systems (millions of data points)
-#    - T02.G8.15: Build a diagram version control system tracking changes over time
-#    - T02.G8.16: Design a formal specification from a flowchart for verification
-#    - T02.G8.17: Critique AI-generated diagrams and improve them systematically
-#    - T02.G8.18: Draw a pipeline diagram for data processing workflows
+# T02 - Algorithm Diagrams (Phase 10 Optimized - December 2025)
+# Applied Phase 10 comprehensive optimizations:
+# MAJOR CHANGES FROM PHASE 9 → PHASE 10:
+# 1. NEW SKILLS ADDED (24 new skills for depth, computational thinking, AI-era mastery):
+#    K-2 NEW SKILLS (picture-based, visual reasoning):
+#    - T02.GK.08: Match a diagram to its real-world outcome picture
+#    - T02.G1.10: Debug a diagram by finding the step that causes a wrong outcome
+#    - T02.G1.11: Predict outcomes for diagrams with different starting conditions
+#    - T02.G2.13: Build a diagram with a "wait for" step (introduces timing concepts)
+#    - T02.G2.14: Compare two diagrams and explain which is clearer for a helper
+#    G3-5 NEW SKILLS (block-based, algorithmic thinking):
+#    - T02.G3.13: Predict how many times each block executes in a simple script
+#    - T02.G3.14: Debug a flowchart by finding the missing connection
+#    - T02.G4.12: Trace a counting algorithm that skips by 2s, 3s, or 5s
+#    - T02.G4.13: Build a flowchart showing algorithm with early exit condition
+#    - T02.G4.14: Compare trace tables from two different algorithm approaches
+#    - T02.G5.12: Trace a swap algorithm exchanging two values
+#    - T02.G5.13: Build and trace a bubble sort visualization for 4 elements
+#    - T02.G5.14: Design an algorithm diagram showing data validation steps
+#    G6-8 NEW SKILLS (advanced algorithms, AI collaboration, systems):
+#    - T02.G6.14: Trace a selection sort algorithm showing minimum-finding passes
+#    - T02.G6.15: Draw a flowchart showing algorithm with multiple data sources
+#    - T02.G7.12: Trace a merge operation combining two sorted lists
+#    - T02.G7.13: Design a flowchart for event-driven algorithm with multiple triggers
+#    - T02.G7.14: Build algorithm animation showing backtracking (maze solving)
+#    - T02.G8.19: Design algorithm diagrams for distributed systems with message passing
+#    - T02.G8.20: Trace a graph traversal algorithm (BFS or DFS) on a simple graph
+#    - T02.G8.21: Critique and improve an AI-generated algorithm for bias and edge cases
+#    - T02.G8.22: Design modular algorithm architecture separating concerns
+#    - T02.G8.23: Build an algorithm complexity comparison tool with visual output
+#    - T02.G8.24: Create a comprehensive algorithm portfolio with multiple diagram types
 # 2. SKILLS ENHANCED for better active verbs and granularity:
-#    - All "Identify" → "Locate and tap" or "Find and highlight"
-#    - All "Understand" → "Explain" or "Demonstrate"
+#    - All "Identify" → "Locate and tap", "Find and highlight", or "Detect"
+#    - All "Understand" → "Explain", "Demonstrate", or "Verify"
 #    - Added prediction-verification cycles throughout
+#    - Enhanced debugging focus across all grades
 # 3. DEPENDENCY REFINEMENTS:
 #    - All X-2 rule validations confirmed
-#    - Strengthened visual → code progression
-#    - Added cross-skill connections for deeper learning paths
+#    - Strengthened visual → code → algorithm progression
+#    - Added sorting algorithm progression (G5 bubble → G6 selection → G7 merge concepts)
+#    - Better scaffolding for complex algorithm concepts
 # 4. ENHANCED AI INTEGRATION:
-#    - AI-generated diagram verification skills
-#    - Human-AI collaboration for complex diagrams
-#    - Critical thinking about AI diagram outputs
-# 5. REAL-WORLD DIAGRAM TYPES ADDED:
-#    - Decision tables, sequence diagrams, architecture diagrams
-#    - Pipeline diagrams, recursive call diagrams
-#    - Version control for diagrams
-# Previous Phase 8 optimizations preserved
-# Total: 119 skills (K:7, G1:9, G2:12, G3:13, G4:14, G5:11, G6:15, G7:16, G8:22 + sub-skills)
+#    - AI-generated diagram verification and improvement skills
+#    - Human-AI collaboration with explicit verification protocols
+#    - Critical evaluation of AI outputs for correctness and bias
+#    - AI as design partner for complex algorithms
+# 5. REAL-WORLD ALGORITHM TYPES EXPANDED:
+#    - Sorting algorithms: bubble sort, selection sort, merge concepts
+#    - Graph algorithms: BFS/DFS introduction at G8
+#    - Distributed systems: message passing, synchronization
+#    - Data validation and error handling patterns
+#    - Event-driven and backtracking algorithms
+# 6. COMPUTATIONAL THINKING EMPHASIS:
+#    - Explicit debugging skills at every grade level
+#    - Algorithm comparison and efficiency analysis
+#    - Pattern recognition in algorithm structures
+#    - Abstraction through flowchart templates
+# Previous Phase 9 optimizations preserved
+# Total: 143 skills (K:8, G1:11, G2:14, G3:15, G4:16, G5:14, G6:17, G7:18, G8:30)
 
-## KINDERGARTEN (7 skills - added T02.GK.07 for comparing step sizes)
+## KINDERGARTEN (8 skills - added T02.GK.08 for outcome matching)
 
 
 
@@ -2413,9 +2429,19 @@ Dependencies:
 * T02.GK.04: Fix a diagram by moving one misplaced picture box
 
 
+ID: T02.GK.08
+Topic: T02 – Algorithm Diagrams
+Skill: Match a diagram to its real-world outcome picture
+Description: **Student task:** Look at a completed picture diagram showing steps for a task. Then look at 3 outcome pictures and tap the one that shows what would happen if you followed the diagram. **Visual scenario:** Diagram shows: [get cup] → [pour milk] → [add cookies]. Outcome pictures: (A) glass of juice, (B) cup of milk with cookies, (C) empty cup. Question: "What do you get if you follow this diagram?" **Correct answer:** (B) cup of milk with cookies. _Implementation note: Tests diagram comprehension by predicting real-world results; bridges abstract diagrams to concrete outcomes. Large colorful pictures. Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
+
+Dependencies:
+* T02.GK.03: Label START and END boxes in a picture diagram
+* T02.GK.02: Place pictures into a diagram strip with numbered boxes
+
+
 ---
 
-## GRADE 1 (9 skills - added T02.G1.09 for path prediction)
+## GRADE 1 (11 skills - added T02.G1.10 debugging, T02.G1.11 conditional outcomes)
 
 
 
@@ -2514,9 +2540,29 @@ Dependencies:
 * T02.G1.07: Trace a two-step decision diagram with multiple question boxes
 
 
+ID: T02.G1.10
+Topic: T02 – Algorithm Diagrams
+Skill: Debug a diagram by finding the step that causes a wrong outcome
+Description: **Student task:** Look at a diagram that produces a wrong result. Find which step is causing the problem by tracing through and checking each step's effect. **Visual scenario:** Diagram for "making toast": [put bread in toaster] → [press button] → [take out bread] → [put butter on bread]. But the toast is burned! Students trace: Step 1 OK, Step 2 OK... wait, there's no "wait until done" step between pressing button and taking out bread! They tap the gap where a step is missing. Alternate version: one step says "wait 10 minutes" — that's too long! **Correct answer:** Identify the missing or wrong step. _Implementation note: Introduces debugging as systematic checking; connects outcome to step. Animated outcome shows "what went wrong." Auto-graded by correct identification. CSTA: E1‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G1.03: Trace a diagram and predict the final result
+* T02.G1.05: Debug a diagram by replacing the wrong box
+
+
+ID: T02.G1.11
+Topic: T02 – Algorithm Diagrams
+Skill: Predict outcomes for diagrams with different starting conditions
+Description: **Student task:** Look at the same diagram but with different starting information. Predict what happens in each case. **Visual scenario:** Diagram: [Check weather] → ◇Sunny?◇ → Yes: [Go to park] → END, No: [Stay inside] → END. Scenario 1: "Today is sunny!" What happens? → Go to park. Scenario 2: "Today is rainy!" What happens? → Stay inside. Scenario 3: "Today is cloudy but not raining!" What happens? → Discuss what "sunny" means — is cloudy still sunny? _Implementation note: Same algorithm, different inputs → different outputs; foundational for understanding parameters. Three scenarios with same diagram. Auto-graded by correct predictions. CSTA: E1‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G1.06: Trace a diagram with a Yes/No question box
+* T02.G1.09: Predict which path a character takes through a branching diagram
+
+
 ---
 
-## GRADE 2 (12 skills - added T02.G2.12 for comparing diagram complexity)
+## GRADE 2 (14 skills - added T02.G2.13 timing, T02.G2.14 clarity comparison)
 
 
 
@@ -2655,9 +2701,29 @@ Dependencies:
 * T02.GK.07: Sort picture cards by step size (big steps vs small steps)
 
 
+ID: T02.G2.13
+Topic: T02 – Algorithm Diagrams
+Skill: Build a diagram with a "wait for" step (introduces timing concepts)
+Description: **Student task:** Create a diagram that includes a "wait for" box — a special step where you wait until something happens before continuing. **Visual scenario:** Task: "Cross the street safely." Students build: [Walk to crosswalk] → [Push button] → [WAIT FOR: light turns green] → [Look both ways] → [Cross street] → [END]. The "WAIT FOR" box is shown differently (hourglass icon, different color). Discussion: "Why can't we skip the wait step?" _Implementation note: Introduces synchronization/timing concept; precursor to "wait until" blocks and event-driven thinking. Different visual for wait box. Auto-graded by correct wait placement. CSTA: E2‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G2.05: Trace a diagram with a Yes/No decision box
+* T02.G1.06: Trace a diagram with a Yes/No question box
+
+
+ID: T02.G2.14
+Topic: T02 – Algorithm Diagrams
+Skill: Compare two diagrams and explain which is clearer for a helper
+Description: **Student task:** Look at two diagrams for the same task. Decide which diagram would be easier for a helper (like a robot or friend) to follow, and explain why. **Visual scenario:** Task: "Make a paper airplane." Diagram A: [Fold paper] → [Throw]. Diagram B: [Get paper] → [Fold in half longways] → [Fold corners to center] → [Fold wings down] → [Throw]. Question: "Which diagram would help a robot make a better airplane?" **Answer:** Diagram B — it has more detail! Follow-up: "When might the shorter diagram be OK?" _Implementation note: Introduces diagram quality evaluation; connects to audience awareness and appropriate detail level. Side-by-side comparison with explain prompt. Auto-graded by selection + brief explanation. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑IM‑04._
+
+Dependencies:
+* T02.G2.12: Compare two diagrams and tap the one with more steps
+* T02.GK.07: Sort picture cards by step size (big steps vs small steps)
+
+
 ---
 
-## GRADE 3 (13 skills - added T02.G3.12 for programmatic flowchart drawing)
+## GRADE 3 (15 skills - added T02.G3.13 execution counting, T02.G3.14 flowchart debugging)
 
 
 
@@ -2807,9 +2873,29 @@ Dependencies:
 * T02.G3.01: Build and run a 4-block sequence in CreatiCode
 
 
+ID: T02.G3.13
+Topic: T02 – Algorithm Diagrams
+Skill: Predict how many times each block executes in a simple script
+Description: **Student task:** Look at a script with a repeat block. Without running it, predict how many times each block inside and outside the loop will execute. Fill in an execution count table. **Visual scenario:** Script: [move 10] → [repeat 3] → [turn 90] → [move 20] → [say "Done"]. Execution count table: Block | Count. "move 10" = 1, "turn 90" = 3, "move 20" = 3, "say Done" = 1. Students fill in counts BEFORE running, then verify by adding print blocks or running with counter variable. _Implementation note: Mental tracing of execution frequency; builds loop understanding. Table format for organized prediction. Auto-graded by prediction accuracy. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G3.08: Trace a repeat block script and predict the final result
+* T02.G3.02: Predict the outcome of a block sequence without running it
+
+
+ID: T02.G3.14
+Topic: T02 – Algorithm Diagrams
+Skill: Debug a flowchart by finding the missing connection
+Description: **Student task:** Look at a flowchart where one arrow/connection is missing. Find where the gap is and add the missing arrow to complete the flowchart. **Visual scenario:** Flowchart: (START) → [move 50] → [turn 90] [GAP — no arrow] [move 50] → (END). The flowchart has a broken flow between "turn 90" and the second "move 50". Students identify the gap and draw/drag an arrow to connect them. Question: "What happens if you try to follow this flowchart?" **Answer:** You get stuck at "turn 90" — don't know where to go next! _Implementation note: Flowchart integrity checking; emphasizes that every box needs incoming and outgoing connections (except START/END). Drag-drop arrow tool. Auto-graded by correct connection placement. CSTA: E3‑ALG‑AF‑01, E3‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G3.09: Draw a simple flowchart for a block script
+* T02.G2.11: Debug a diagram by adding a missing arrow connection
+
+
 ---
 
-## GRADE 4 (14 skills - added T02.G4.10 decision tables, T02.G4.11 animated flowcharts)
+## GRADE 4 (16 skills - added T02.G4.12 skip counting, T02.G4.13 early exit, T02.G4.14 trace comparison)
 
 
 
@@ -2989,9 +3075,39 @@ Dependencies:
 * T02.G4.05.02: Add strategic print blocks inside a loop to trace variable changes
 
 
+ID: T02.G4.12
+Topic: T02 – Algorithm Diagrams
+Skill: Trace a counting algorithm that skips by 2s, 3s, or 5s
+Description: **Student task:** Trace an algorithm that counts by a skip value (2, 3, or 5). Fill in a trace table predicting each value, then verify with console output. **Visual scenario:** Script: [set count to 0] → [repeat 5] → [change count by 3] → [print count]. Trace table: Iteration | count: 1|3, 2|6, 3|9, 4|12, 5|15. Students predict all values first, then run to verify. Follow-up: "What if we changed 'by 3' to 'by 5'?" Students predict new pattern without running. _Implementation note: Pattern recognition in counting; connects to math skip counting and prepares for multiplication/modulo thinking. Auto-graded by trace table accuracy + prediction of modified pattern. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G4.01: Predict and trace loop variable changes in a trace table
+* T02.G4.05.02: Add strategic print blocks inside a loop to trace variable changes
+
+
+ID: T02.G4.13
+Topic: T02 – Algorithm Diagrams
+Skill: Build a flowchart showing algorithm with early exit condition
+Description: **Student task:** Create a flowchart for an algorithm that might exit early — before all iterations complete. Show the exit path clearly with a different-colored arrow. **Visual scenario:** Task: "Find the first even number in a list." Flowchart: (START) → [set i to 1] → (Loop) → ◇Is list[i] even?◇ → Yes → [FOUND! Exit early] → (END). No → [i = i + 1] → ◇i > list length?◇ → Yes → [Not found] → (END). No → (back to Loop). Highlight the "Yes, found" path in green as the early exit. Students draw both the early exit path AND the "checked everything" path. _Implementation note: Early termination concept in flowcharts; essential for search algorithm understanding. Different visual treatment for exit paths. Auto-graded by correct early exit structure. CSTA: E4‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G4.04.03: Draw a flowchart with a decision diamond
+* T02.G4.07: Draw a flowchart with a loop symbol
+
+
+ID: T02.G4.14
+Topic: T02 – Algorithm Diagrams
+Skill: Compare trace tables from two different algorithm approaches
+Description: **Student task:** Given two different algorithms that solve the same problem, create trace tables for both. Compare the tables to understand how the algorithms differ in their approach and number of steps. **Visual scenario:** Task: "Sum numbers 1 to 4." Algorithm A (loop): [sum=0] → [repeat i from 1 to 4] → [sum += i]. Trace: 1,3,6,10 (4 iterations). Algorithm B (formula): [sum = 4 × 5 / 2]. Trace: 10 (1 step). Students create both trace tables and answer: "Which uses more steps?" "Which is easier to understand?" "Which would you use for summing 1 to 1000?" _Implementation note: Algorithm comparison through trace analysis; introduces efficiency thinking. Side-by-side trace tables. Auto-graded by correct traces + comparison insights. CSTA: E4‑ALG‑AF‑01, E4‑ALG‑IM‑04._
+
+Dependencies:
+* T02.G4.01: Predict and trace loop variable changes in a trace table
+* T02.G3.06: Compare two block scripts for the same task
+
+
 ---
 
-## GRADE 5 (11 skills - added T02.G5.11 error handling flowcharts)
+## GRADE 5 (14 skills - added T02.G5.12 swap, T02.G5.13 bubble sort, T02.G5.14 validation)
 
 
 
@@ -3118,9 +3234,39 @@ Dependencies:
 * T02.G5.04: Trace an algorithm with multiple exit points and predict which exit is taken
 
 
+ID: T02.G5.12
+Topic: T02 – Algorithm Diagrams
+Skill: Trace a swap algorithm exchanging two values
+Description: **Student task:** Trace an algorithm that swaps the values of two variables using a temporary variable. Track all three variables (a, b, temp) in a trace table, showing the state after each step. **Visual scenario:** Initial: a=5, b=8, temp=?. Algorithm: [temp = a] → [a = b] → [b = temp]. Trace table: Step | a | b | temp: Start|5|8|?, After step 1|5|8|5, After step 2|8|8|5, After step 3|8|5|5. Final: a=8, b=5 (swapped!). Students fill in trace table and verify: "Why do we need the temp variable?" _Implementation note: Classic swap pattern; foundational for sorting algorithms. Three-variable tracing. Auto-graded by trace table accuracy + explanation of temp necessity. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G5.03: Trace multiple variables including accumulators in custom trace tables
+* T02.G4.05.02: Add strategic print blocks inside a loop to trace variable changes
+
+
+ID: T02.G5.13
+Topic: T02 – Algorithm Diagrams
+Skill: Build and trace a bubble sort visualization for 4 elements
+Description: **Student task:** Create a visual representation of bubble sort on 4 numbers. Show each comparison, swap decision, and the state after each pass. Build a simple animation or trace table showing the sorting process. **Visual scenario:** List: [4, 2, 7, 1]. Pass 1: Compare 4-2 → swap → [2,4,7,1]. Compare 4-7 → no swap. Compare 7-1 → swap → [2,4,1,7]. Pass 2: [2,4,1,7] → ... Students create trace showing: Pass | Comparisons | Swaps | Result. Or build animated sprites that move and swap positions. Identify: "After each pass, what's guaranteed about the rightmost element?" _Implementation note: First sorting algorithm visualization; bubble sort chosen for simplicity. Can use sprites as visual elements or pure trace tables. Auto-graded by correct intermediate states. CSTA: E5‑ALG‑AF‑01, E5‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G5.12: Trace a swap algorithm exchanging two values
+* T02.G5.01: Trace nested loops using print blocks and a trace table
+
+
+ID: T02.G5.14
+Topic: T02 – Algorithm Diagrams
+Skill: Design an algorithm diagram showing data validation steps
+Description: **Student task:** Create a flowchart that validates input data before processing it. Include checks for: empty input, wrong type, out-of-range values. Show error handling for each invalid case. **Visual scenario:** Task: "Get a valid age (number between 0-120)." Flowchart: (START) → [Get input] → ◇Is empty?◇ → Yes → [Show "Please enter a number"] → (back to Get input). No → ◇Is a number?◇ → No → [Show "That's not a number!"] → (back). Yes → ◇Is 0-120?◇ → No → [Show "Age must be 0-120"] → (back). Yes → [Use valid age] → (END). Students draw the multi-check validation flow with specific error messages. _Implementation note: Input validation pattern; critical for robust programs. Shows multiple decision points with loops back. Auto-graded by correct validation sequence + error handling. CSTA: E5‑ALG‑AF‑01, E5‑PRO‑TR‑03._
+
+Dependencies:
+* T02.G5.07: Draw a flowchart with nested structures
+* T02.G5.11: Design a flowchart for error handling with try/catch patterns
+
+
 ---
 
-## GRADE 6 (15 skills - added T02.G6.12 recursive diagrams, T02.G6.13 interactive editor)
+## GRADE 6 (17 skills - added T02.G6.14 selection sort, T02.G6.15 multi-source)
 
 
 
@@ -3296,9 +3442,29 @@ Dependencies:
 * T02.G4.11: Create an animated flowchart that highlights current step during execution
 
 
+ID: T02.G6.14
+Topic: T02 – Algorithm Diagrams
+Skill: Trace a selection sort algorithm showing minimum-finding passes
+Description: **Student task:** Trace a selection sort algorithm, focusing on how each pass finds the minimum of the unsorted portion and swaps it into place. Create a detailed trace showing: which elements are compared, which minimum is found, and the list state after each pass. **Visual scenario:** List: [64, 25, 12, 22]. Pass 1: Find min of [64,25,12,22] → 12 at index 2. Swap with index 0 → [12,25,64,22]. Pass 2: Find min of [25,64,22] → 22 at index 3. Swap with index 1 → [12,22,64,25]. Pass 3: Find min of [64,25] → 25 at index 3. Swap with index 2 → [12,22,25,64]. Students trace each pass showing: Pass | Unsorted portion | Min found | Swap | Result. Compare to bubble sort: "Which checks fewer elements?" _Implementation note: Selection sort as second sorting algorithm; shows different strategy than bubble sort. Emphasizes algorithm comparison. Auto-graded by trace accuracy + comparison insight. CSTA: E6‑ALG‑AF‑01, E6‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G5.13: Build and trace a bubble sort visualization for 4 elements
+* T02.G6.07.01: Build a find-maximum algorithm with trace output
+
+
+ID: T02.G6.15
+Topic: T02 – Algorithm Diagrams
+Skill: Draw a flowchart showing algorithm with multiple data sources
+Description: **Student task:** Create a flowchart for an algorithm that combines data from multiple sources. Show data inputs coming from different places, how they merge, and the combined output. **Visual scenario:** Task: "Calculate final grade from homework (40%), quizzes (30%), and exam (30%)." Flowchart shows three input branches: [Get homework scores] → [Calculate HW average], [Get quiz scores] → [Calculate quiz average], [Get exam score]. These three paths converge at: [Combine: 0.4×HW + 0.3×quiz + 0.3×exam] → [Show final grade] → END. Students draw the merging flow pattern. Question: "What happens if one source is missing?" Add error paths. _Implementation note: Data aggregation pattern; common in real applications. Shows non-linear flow with multiple inputs. Auto-graded by correct merge structure + error handling. CSTA: E6‑ALG‑AF‑01, E6‑DATA‑02._
+
+Dependencies:
+* T02.G6.09: Convert a flowchart diagram directly to pseudocode text
+* T02.G5.14: Design an algorithm diagram showing data validation steps
+
+
 ---
 
-## GRADE 7 (16 skills - added T02.G7.10 sequence diagrams, T02.G7.11 parallel algorithms)
+## GRADE 7 (18 skills - added T02.G7.12 merge, T02.G7.13 event-driven, T02.G7.14 backtracking)
 
 
 
@@ -3496,9 +3662,39 @@ Dependencies:
 * T02.G7.01.02: Trace a physics simulation with position and velocity
 
 
+ID: T02.G7.12
+Topic: T02 – Algorithm Diagrams
+Skill: Trace a merge operation combining two sorted lists
+Description: **Student task:** Trace the merge operation that combines two already-sorted lists into one sorted list. Track pointers for each list and show how elements are selected and placed. **Visual scenario:** List A: [2, 5, 8]. List B: [1, 4, 6, 9]. Merge trace: Compare 2 vs 1 → take 1 from B → result [1]. Compare 2 vs 4 → take 2 from A → [1,2]. Compare 5 vs 4 → take 4 from B → [1,2,4]. Continue... Final: [1,2,4,5,6,8,9]. Trace table shows: Step | A pointer | B pointer | Compare | Take from | Result so far. Students fill complete trace and predict result before verifying. _Implementation note: Merge as foundational operation for merge sort; O(n) merge of sorted inputs. Builds toward divide-and-conquer understanding. Auto-graded by trace table accuracy. CSTA: E7‑ALG‑AF‑01, E7‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G6.14: Trace a selection sort algorithm showing minimum-finding passes
+* T02.G7.03.01: Build a linear search algorithm to find a target value
+
+
+ID: T02.G7.13
+Topic: T02 – Algorithm Diagrams
+Skill: Design a flowchart for event-driven algorithm with multiple triggers
+Description: **Student task:** Create a flowchart that shows an algorithm responding to multiple different events. Show how different triggers lead to different paths, and how the system returns to a "waiting" state. **Visual scenario:** Task: "Smart home controller." Flowchart: IDLE state (waiting) → receives different events: [motion detected] → [turn on lights] → [wait 5 min] → [turn off] → IDLE. [doorbell pressed] → [send phone notification] → [show camera] → IDLE. [temperature > 80] → [turn on AC] → [wait until temp < 75] → [turn off AC] → IDLE. Students draw the multi-trigger structure with clear event labels and return paths. _Implementation note: Event-driven design pattern; shows non-linear algorithm triggered by external events. Common in games, IoT, UI programming. Auto-graded by correct event-response structure. CSTA: E7‑ALG‑AF‑01, E7‑PRO‑PF‑01._
+
+Dependencies:
+* T02.G7.08: Design a flowchart showing multi-sprite algorithm coordination
+* T02.G6.11: Design a flowchart template for reuse across similar problems
+
+
+ID: T02.G7.14
+Topic: T02 – Algorithm Diagrams
+Skill: Build algorithm animation showing backtracking (maze solving)
+Description: **Student task:** Create a visual animation that shows a backtracking algorithm solving a maze. Show the algorithm trying a path, hitting a dead end, backing up, and trying another path. Display "tried" cells differently from "current path" cells. **Visual scenario:** Simple 5x5 maze grid. Animation shows: sprite moves right (mark as current) → moves down → dead end! → backtrack (change color to "tried, not part of solution") → try different direction → eventually find exit. Students see: green = current path, gray = tried and rejected, white = not yet explored. Final solution path highlighted. Discussion: "Why does the algorithm remember where it tried?" _Implementation note: Backtracking visualization; classic algorithm pattern for search problems. Uses sprite movement and costume/color changes. Auto-graded by correct animation sequence showing backtrack behavior. CSTA: E7‑ALG‑AF‑01, E7‑PRO‑PF‑01._
+
+Dependencies:
+* T02.G7.09: Build an algorithm visualization that animates execution with user controls
+* T02.G6.10: Create animated algorithm visualization using sprite movements
+
+
 ---
 
-## GRADE 8 (22 skills - added 7 advanced skills for AI-era, scalability, formal methods)
+## GRADE 8 (30 skills - added 8 advanced skills for AI-era mastery, graph algorithms, systems)
 
 
 
@@ -3744,43 +3940,133 @@ Dependencies:
 * T02.G4.09: Draw a data flow diagram showing input, process, and output
 
 
-# T03 - Problem Decomposition (Phase 7 Optimized - November 2025)
-# Applied Phase 7 comprehensive optimizations:
-# MAJOR CHANGES FROM PHASE 6:
-# 1. NEW SKILLS ADDED (18 new skills for depth, AI-era thinking, and team collaboration):
-#    - T03.G2.11: Debug a project plan with steps in wrong order
-#    - T03.G3.00.01: Match picture-based task steps to block code equivalents
-#    - T03.G3.00.02: Translate a picture step into multiple code blocks
-#    - T03.G4.14: Apply chosen decomposition strategy to implement a project
-#    - T03.G5.02.01: Label diagram connections with navigation conditions
-#    - T03.G5.11: Decompose a voice-controlled project into recognition/processing/response phases
-#    - T03.G6.11: Separate components suitable for AI assistance from those requiring human judgment
-#    - T03.G6.12: Design module isolation for independent AI vs deterministic testing
-#    - T03.G7.13: Identify which modules can be built independently vs sequentially for team work
-#    - T03.G7.14: Design module interfaces for clean team handoffs
-#    - T03.G8.17: Design iterative human-AI feedback loops in project architecture
-#    - T03.G8.18: Decompose for AI oversight with human checkpoints at critical decisions
-#    - T03.G8.19: Decompose privacy-sensitive projects separating public/private data components
-#    - T03.G8.20: Detect and mitigate AI bias in AI-assisted decomposition suggestions
-# 2. STRENGTHENED G2→G3 BRIDGE:
-#    - Added sub-skills T03.G3.00.01 and T03.G3.00.02 to ease picture-to-code transition
-#    - Added G2.11 for debugging order-based issues before coding
-# 3. TEAM COLLABORATION PROGRESSION:
-#    - Added G7.13 and G7.14 to prepare for G8.15 team development skill
-# 4. ENHANCED AI-ERA SKILLS:
-#    - Prompt engineering decomposition (G5)
-#    - AI vs human task separation (G6)
-#    - Human-AI feedback loops and oversight (G8)
-#    - Privacy-aware decomposition (G8)
-#    - AI bias detection in decomposition (G8)
-# 5. IMPROVED ACTIVE VERBS:
-#    - Changed "Evaluate" → "Compare and analyze" or "Critique"
-#    - Changed "Identify" → "Locate", "Find", or "Detect"
-# 6. ENHANCED DEPTH AT UPPER GRADES:
-#    - G6-G8 skills now address AI oversight, privacy, and bias
-#    - More sophisticated architectural thinking
-# Previous Phase 6 optimizations preserved
-# Total: 123 skills (was 109, added 14 new skills)
+ID: T02.G8.19
+Topic: T02 – Algorithm Diagrams
+Skill: Design algorithm diagrams for distributed systems with message passing
+Description: **Student task:** Create diagrams showing how algorithms work across multiple computers or processes that communicate through messages. Show message sends, receives, and how state synchronizes. **Visual scenario:** Task: "Multiplayer game score sync." Diagram shows: Player 1 computer | Server | Player 2 computer. When P1 scores: P1 → [send "score +10" to Server] → Server receives → [update global score] → [broadcast "new total: 150" to all] → P2 receives → [update local display]. Students draw timeline showing: message send (arrow out), network delay (dashed line), message receive (arrow in), local processing. Include: "What if a message is lost?" handling. _Implementation note: Distributed systems thinking; critical for modern applications. Shows asynchronous communication patterns. Auto-graded by correct message flow + error handling consideration. CSTA: E8‑ALG‑AF‑01, E8‑SYS‑02._
+
+Dependencies:
+* T02.G8.12: Draw a system architecture diagram showing component interactions
+* T02.G7.11: Trace parallel algorithms showing concurrent execution paths
+
+
+ID: T02.G8.20
+Topic: T02 – Algorithm Diagrams
+Skill: Trace a graph traversal algorithm (BFS or DFS) on a simple graph
+Description: **Student task:** Given a simple graph (5-7 nodes with connections), trace either breadth-first search (BFS) or depth-first search (DFS). Show the order nodes are visited, track which nodes are "seen but not yet processed" vs "fully processed". **Visual scenario:** Graph: A connects to B,C. B connects to D,E. C connects to F. Start at A. BFS trace: Visit A → queue [B,C] → visit B → queue [C,D,E] → visit C → queue [D,E,F] → ... Order: A,B,C,D,E,F (level by level). DFS trace: Visit A → stack [C,B] → visit B → stack [C,E,D] → visit D → ... Order: A,B,D,E,C,F (depth first). Students draw graph with numbered visit order, plus table tracking queue/stack state. _Implementation note: Graph algorithm introduction; BFS uses queue, DFS uses stack. Fundamental CS algorithms. Auto-graded by correct visit order + state tracking. CSTA: E8‑ALG‑AF‑01, E8‑ALG‑PS‑03._
+
+Dependencies:
+* T02.G7.14: Build algorithm animation showing backtracking (maze solving)
+* T02.G8.07: Analyze algorithm complexity by counting operations at different scales
+
+
+ID: T02.G8.21
+Topic: T02 – Algorithm Diagrams
+Skill: Critique and improve an AI-generated algorithm for bias and edge cases
+Description: **Student task:** Given an AI-generated algorithm (flowchart + pseudocode), systematically analyze it for: (1) potential bias in assumptions, (2) edge cases not handled, (3) unclear or ambiguous steps, (4) inefficiencies. Provide specific improvements. **Visual scenario:** AI generated algorithm for "suggest activity based on weather." Critique: (1) Bias: assumes outdoor activities are "better" — not accessible for all users. (2) Edge case: doesn't handle "weather unknown". (3) Unclear: "nice weather" not defined. (4) Inefficient: checks temperature twice. Students document each issue with evidence and propose fixes: add indoor options, define thresholds, combine checks. _Implementation note: Critical evaluation of AI with social awareness; combines technical and ethical analysis. Essential for responsible AI use. Auto-graded by issue identification quality + improvement proposals. CSTA: E8‑AI‑INT‑04, E8‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G8.17: Critique AI-generated diagrams and improve them systematically
+* T02.G8.10: Verify AI-generated algorithm against test cases to identify and correct errors
+
+
+ID: T02.G8.22
+Topic: T02 – Algorithm Diagrams
+Skill: Design modular algorithm architecture separating concerns
+Description: **Student task:** Decompose a complex algorithm into modular components with clear responsibilities. Create an architecture diagram showing: modules, their interfaces (what goes in/out), and how they connect. Apply separation of concerns. **Visual scenario:** Task: "Build a game with scoring, levels, and player management." Architecture: [Input Handler] → sends "player action" → [Game Logic] ← gets "level data" ← [Level Manager]. [Game Logic] → sends "score change" → [Score Manager] → sends "display update" → [UI Renderer]. Each module shows: inputs, outputs, responsibility. Students explain: "Why separate Score Manager from Game Logic?" _Implementation note: Software architecture principles; modular design for maintainability. Prepares for professional development practices. Auto-graded by clear module boundaries + correct interface definitions. CSTA: E8‑PRO‑PF‑01, E8‑ALG‑AF‑01._
+
+Dependencies:
+* T02.G8.12: Draw a system architecture diagram showing component interactions
+* T02.G8.11: Compare and reconcile algorithm diagrams from multiple team members
+
+
+ID: T02.G8.23
+Topic: T02 – Algorithm Diagrams
+Skill: Build an algorithm complexity comparison tool with visual output
+Description: **Student task:** Create a CreatiCode project that compares two algorithms visually. Input: list size. Output: animated comparison showing how many operations each algorithm takes, with visual representation (bars, graphs, or counters). **Visual scenario:** Tool compares linear search vs binary search. User enters list size (e.g., 100). Tool shows: Linear search: up to 100 comparisons (tall red bar growing). Binary search: max 7 comparisons (short green bar). Animation runs through searches, counting comparisons in real-time. Graph shows O(n) vs O(log n) growth curves. Students build the tool with input, both algorithms, comparison counters, and visual output. _Implementation note: Meta-tool for algorithm analysis; combines coding skills with algorithm understanding. Uses charts/graphs from T10 or custom drawing. Auto-graded by correct operation counts + visual representation. CSTA: E8‑ALG‑IM‑04, E8‑PRO‑PF‑01._
+
+Dependencies:
+* T02.G8.07: Analyze algorithm complexity by counting operations at different scales
+* T02.G7.09: Build an algorithm visualization that animates execution with user controls
+
+
+ID: T02.G8.24
+Topic: T02 – Algorithm Diagrams
+Skill: Create a comprehensive algorithm portfolio with multiple diagram types
+Description: **Student task:** Build a portfolio demonstrating mastery of algorithm diagramming. Include at least 5 different diagram types (flowchart, sequence diagram, state diagram, data flow diagram, architecture diagram) for a complex project. Each diagram should show a different aspect of the same system. **Visual scenario:** Project: "Multiplayer Drawing Game." Portfolio includes: (1) Flowchart: main game loop, (2) Sequence diagram: player join process, (3) State diagram: game states (waiting, playing, paused, ended), (4) Data flow: how drawing data moves from player to server to other players, (5) Architecture: client-server component structure. Students create all 5 diagrams for their project, with brief explanation of what each diagram shows. _Implementation note: Synthesis skill demonstrating diagram type selection; shows when to use each type. Portfolio format for assessment. Auto-graded by diagram variety + accuracy + appropriate type selection. CSTA: E8‑ALG‑AF‑01, E8‑PRO‑PF‑01._
+
+Dependencies:
+* T02.G8.12: Draw a system architecture diagram showing component interactions
+* T02.G8.06.01: Draw a state diagram for a multi-state algorithm
+* T02.G7.10: Design a sequence diagram for multi-sprite message passing
+
+
+# T03 - Problem Decomposition (Phase 8 Optimized - December 2025)
+# Applied Phase 8 comprehensive optimizations:
+# MAJOR CHANGES FROM PHASE 7:
+#
+# PHILOSOPHY: Problem Decomposition is THE core skill of computational thinking.
+# As AI handles more routine coding, decomposition becomes MORE critical, not less.
+# Students must learn to break complex problems into human-AI collaborative pieces.
+#
+# 1. NEW SKILLS ADDED (25 new skills for depth, meta-cognition, and AI-era collaboration):
+#    K-2 ENHANCEMENTS (Meta-cognitive foundations):
+#    - T03.GK.01.01: Explain why some picture cards are parts of a whole
+#    - T03.GK.03.01: Predict if a routine plan will work before testing
+#    - T03.GK.09: Decide if a task is "too big" and needs breaking down
+#    - T03.G1.07: Explain a decomposition choice to a partner
+#    - T03.G1.08: Recognize when a step is "too big" and needs splitting
+#    - T03.G2.12: Judge whether a project plan has enough detail
+#    - T03.G2.13: Combine two simple plans into one bigger plan
+#
+#    G3-G4 ENHANCEMENTS (Decomposition quality & iteration):
+#    - T03.G3.13: Explain why you decomposed a project a certain way
+#    - T03.G3.14: Revise a decomposition after testing reveals problems
+#    - T03.G4.15: Critique a peer's decomposition with constructive feedback
+#    - T03.G4.16: Decompose for reusability (identify parts others could use)
+#    - T03.G4.17: Determine appropriate decomposition granularity
+#
+#    G5-G6 ENHANCEMENTS (Earlier AI integration, collaboration prep):
+#    - T03.G5.12: Use XO to brainstorm initial decomposition ideas
+#    - T03.G5.13: Decompose for pair programming (driver/navigator split)
+#    - T03.G6.13: Predict which components will need the most iteration
+#    - T03.G6.14: Decompose an unfamiliar problem by analogy to known problems
+#
+#    G7-G8 ENHANCEMENTS (Professional-grade decomposition):
+#    - T03.G7.15: Decompose for incremental delivery (vertical slices)
+#    - T03.G7.16: Document decomposition decisions for future maintainers
+#    - T03.G8.21: Decompose for observability (monitoring, logging, debugging hooks)
+#    - T03.G8.22: Decompose for graceful degradation (what works if parts fail)
+#    - T03.G8.23: Compare AI-suggested decompositions against expert patterns
+#    - T03.G8.24: Decompose a legacy project for modernization
+#
+# 2. STRENGTHENED META-COGNITIVE PROGRESSION:
+#    - K: "What are the parts?" + "Why are these parts?"
+#    - G1-2: "Is this good?" + "Can it be better?"
+#    - G3-4: "Explain your thinking" + "Revise after feedback"
+#    - G5-6: "Use AI as thought partner" + "Prepare for teamwork"
+#    - G7-8: "Professional documentation" + "System-level thinking"
+#
+# 3. EARLIER AI TOOL INTEGRATION:
+#    - Moved XO usage from G6 to G5 (T03.G5.12)
+#    - AI-human decomposition thinking starts at G5, matures through G8
+#
+# 4. COLLABORATION SKILLS PROGRESSION:
+#    - G1: Explain to partner (verbal)
+#    - G4: Critique peer's work (structured feedback)
+#    - G5: Pair programming decomposition
+#    - G7-8: Team parallel development, interface design, handoffs
+#
+# 5. REAL-WORLD PROBLEM EMPHASIS:
+#    - Every coding skill ties to authentic problem contexts
+#    - AI-era skills reflect actual professional workflows
+#
+# 6. GRANULARITY AWARENESS:
+#    - GK.09, G1.08, G4.17: Explicit skills about "how small is small enough"
+#    - Critical meta-skill for avoiding over/under-decomposition
+#
+# Previous Phase 7 optimizations preserved
+# Total: 148 skills (was 123, added 25 new skills)
 
 ID: T03.GK.01
 Topic: T03 – Problem Decomposition
@@ -3788,6 +4074,14 @@ Skill: Locate and tap picture cards showing parts of a whole object
 Description: **Student task:** Locate and tap on picture cards showing individual parts that belong to a whole object. **Visual scenario:** See a picture card of a playground. Locate and tap on picture cards of parts: slide, swings, sandbox, bench. Distractors include unrelated items like a book or cup. PICTURE-BASED visual recognition activity with audio support for pre-readers.
 
 
+
+ID: T03.GK.01.01
+Topic: T03 – Problem Decomposition
+Skill: Explain why some picture cards are parts of a whole using speech bubbles
+Description: **Student task:** Select speech bubbles that explain WHY a picture card is part of a whole object. **Visual scenario:** After tapping "slide" as part of playground, choose from speech bubbles: "It's in the playground" ✓, "Kids slide down it" ✓, "It's blue" ✗ (color is not why it belongs). Multiple explanations for 3 parts. Introduces the meta-cognitive skill of JUSTIFYING decomposition choices. PICTURE-BASED reasoning activity with audio support.
+
+Dependencies:
+* T03.GK.01: Locate and tap picture cards showing parts of a whole object
 
 
 
@@ -3815,6 +4109,13 @@ Dependencies:
 * T01.GK.01: Put pictures in order for getting ready for bed
 
 
+ID: T03.GK.03.01
+Topic: T03 – Problem Decomposition
+Skill: Predict if a routine plan will work before testing it
+Description: **Student task:** Look at an arranged plan and tap "Will Work" or "Won't Work" before seeing the result. **Visual scenario:** Plan A: "add soap → scrub hands → turn on water → dry hands" — predict "Won't Work" (water should come first). Plan B: "get cup → pour milk → drink" — predict "Will Work" (correct order). See animated result confirming prediction. Builds prediction and verification thinking. PICTURE-BASED prediction activity with audio support.
+
+Dependencies:
+* T03.GK.03: Arrange 3–4 picture cards to plan steps in a routine
 
 
 
@@ -3876,6 +4177,14 @@ Dependencies:
 * T03.GK.07: Sort picture cards of a project into "do first" and "do last" piles
 
 
+ID: T03.GK.09
+Topic: T03 – Problem Decomposition
+Skill: Decide if a task is "too big" and needs breaking into smaller steps
+Description: **Student task:** Look at task cards and sort them into "Small Enough" or "Too Big – Break It Down." **Visual scenario:** Task "pick up toy" → Small Enough. Task "clean whole room" → Too Big (could be: pick up toys, make bed, put clothes away, dust shelf). Task "take one step" → Small Enough. Task "plan a party" → Too Big. Introduces the critical meta-skill of recognizing decomposition need. PICTURE-BASED sorting activity with audio narration explaining why big tasks are hard.
+
+Dependencies:
+* T03.GK.03: Arrange 3–4 picture cards to plan steps in a routine
+* T03.GK.08: Predict which picture card must come before another
 
 
 ID: T03.G1.01
@@ -3947,6 +4256,24 @@ Dependencies:
 * T03.GK.08: Predict which picture card must come before another
 
 
+ID: T03.G1.07
+Topic: T03 – Problem Decomposition
+Skill: Explain a decomposition choice to a partner using word bubbles
+Description: **Student task:** After arranging steps for a task, select word bubbles that explain WHY you put them in that order. **Visual scenario:** Task: "Make a peanut butter sandwich." After arranging steps, explain to robot partner: Select "I put 'get bread' first because you need bread to put stuff on" ✓, "I put 'spread peanut butter' after opening the jar because the jar needs to be open" ✓. Distractors: "I like peanut butter" ✗ (not a reason for order). Builds verbal articulation of decomposition reasoning. PICTURE-BASED explanation activity with audio support.
+
+Dependencies:
+* T03.G1.03: Arrange 4–5 step cards to plan a longer routine
+* T03.GK.01.01: Explain why some picture cards are parts of a whole
+
+
+ID: T03.G1.08
+Topic: T03 – Problem Decomposition
+Skill: Recognize when a step is "too big" and needs splitting into smaller steps
+Description: **Student task:** Look at a plan and tap on steps that are "too big" to do in one action. **Visual scenario:** Plan for "getting ready for school": Step 1 "wake up" ✓ (small enough), Step 2 "get dressed" ⚠ (too big - could be: get clothes, put on shirt, put on pants, put on socks), Step 3 "eat breakfast" ⚠ (too big - could be: get bowl, pour cereal, add milk, eat), Step 4 "brush teeth" ✓ (small enough). After tapping "too big" steps, see them expand into smaller steps. Builds granularity awareness. PICTURE-BASED analysis activity with audio support.
+
+Dependencies:
+* T03.GK.09: Decide if a task is "too big" and needs breaking down
+* T03.G1.03: Arrange 4–5 step cards to plan a longer routine
 
 
 
@@ -4078,6 +4405,25 @@ Dependencies:
 * T03.G2.10: Build a project plan from scattered subtask cards
 * T03.G2.09: Predict what breaks if a subtask is skipped
 
+
+ID: T03.G2.12
+Topic: T03 – Problem Decomposition
+Skill: Judge whether a project plan has enough detail to follow
+Description: **Student task:** Look at two project plans for the same goal and tap on the one that has enough detail to actually build. **Visual scenario:** Goal: "Make a character walk and talk." Plan A: "1. Add character, 2. Make it work." Plan B: "1. Add character sprite, 2. Add green flag event, 3. Add move blocks, 4. Add say block." Tap Plan B as "Ready to Build." Explain: "Plan A is too vague - 'make it work' doesn't tell you what to do." Develops judgment about decomposition quality. PICTURE-BASED evaluation activity with word cards.
+
+Dependencies:
+* T03.G2.10: Build a project plan from scattered subtask cards
+* T03.G1.08: Recognize when a step is "too big" and needs splitting
+
+
+ID: T03.G2.13
+Topic: T03 – Problem Decomposition
+Skill: Combine two simple plans into one bigger plan
+Description: **Student task:** Given two separate plans for two features, merge them into one combined project plan. **Visual scenario:** Plan 1 (Cat moves): "add cat sprite, add arrow key code, test movement." Plan 2 (Score counter): "add score variable, add score display, add point when clicked." Combined plan: "add cat sprite, add score variable, add arrow key code, add score display, add point when cat catches target, test everything." Determine which steps can happen in parallel vs which depend on others. PICTURE-BASED integration activity with word cards.
+
+Dependencies:
+* T03.G2.10: Build a project plan from scattered subtask cards
+* T03.G2.07: Group subtasks that work together for one feature
 
 
 ID: T03.G3.00
@@ -4270,6 +4616,25 @@ Dependencies:
 * T03.G3.07: Trace how two components interact in a project
 
 
+ID: T03.G3.13
+Topic: T03 – Problem Decomposition
+Skill: Explain why you decomposed a project a certain way
+Description: **Student task:** After creating a project plan, write 2-3 sentences explaining WHY you organized it that way. **Coding scenario:** Project: "Maze game." Student's decomposition: "1. Player movement, 2. Wall collision, 3. Goal detection, 4. Win message." Explanation: "I put player movement first because you need to move before you can hit walls. I put wall collision before goal because both use touching detection and walls are more common. I put win message last because it only happens after reaching the goal." Builds metacognitive awareness of decomposition reasoning. Auto-graded by explanation presence and logic quality. _CSTA: 1B-AP-11._
+
+Dependencies:
+* T03.G3.12: Build and test ONE feature before adding the next
+* T03.G3.06: Compare project plans and select the best sequence
+
+
+ID: T03.G3.14
+Topic: T03 – Problem Decomposition
+Skill: Revise a decomposition after testing reveals problems
+Description: **Student task:** After testing reveals that your plan has problems, revise the decomposition to fix them. **Coding scenario:** Original plan: "1. Add enemies, 2. Add player controls, 3. Add collision detection." Testing problem: "Can't test if enemies work because player can't move yet to collide with them." Revised plan: "1. Add player controls (can test movement alone), 2. Add one enemy, 3. Add collision detection (can test with real player), 4. Add more enemies." Document what changed and why. Develops iterative improvement of decompositions. Auto-graded by revision logic and documentation. _CSTA: 1B-AP-15._
+
+Dependencies:
+* T03.G3.13: Explain why you decomposed a project a certain way
+* T03.G3.11: Decompose a bug report into investigation steps
+
 
 ID: T03.G4.01
 Topic: T03 – Problem Decomposition
@@ -4460,6 +4825,35 @@ Dependencies:
 * T03.G4.02: Arrange subtasks in logical build order
 
 
+ID: T03.G4.15
+Topic: T03 – Problem Decomposition
+Skill: Critique a peer's decomposition with constructive feedback
+Description: **Student task:** Review another student's project decomposition and provide structured feedback: 2 things done well, 2 suggestions for improvement. **Coding scenario:** Peer's maze game plan: "1. Add sprites, 2. Add code, 3. Test, 4. Done." Critique: "Good: Has testing step, follows logical order." "Improve: 'Add sprites' is too vague - which sprites? 'Add code' should specify: movement code, collision code, win detection. Each should be its own step so you can test them separately." Provide revised decomposition. Develops constructive critique skills and deepens understanding through teaching. Auto-graded by feedback structure and revision quality. _CSTA: 1B-AP-11._
+
+Dependencies:
+* T03.G4.14: Apply chosen decomposition strategy to implement a project
+* T03.G3.13: Explain why you decomposed a project a certain way
+
+
+ID: T03.G4.16
+Topic: T03 – Problem Decomposition
+Skill: Decompose for reusability by identifying parts others could use
+Description: **Student task:** Look at your project decomposition and identify which components could be reused by others in different projects. **Coding scenario:** Maze game decomposition: "Player movement with arrow keys" → REUSABLE (any game needs movement), "Wall collision detection" → REUSABLE (many games have obstacles), "Maze-specific goal position" → NOT REUSABLE (specific to this maze), "Generic win celebration animation" → REUSABLE (any game could use it). For each reusable component, describe what would need to change to reuse it in a racing game. Develops design-for-reuse thinking. Auto-graded by reusability identification and adaptation description. _CSTA: 1B-AP-14._
+
+Dependencies:
+* T03.G4.10: Design custom block names and inputs for repeated patterns
+* T03.G3.09: Find and group sprites that need similar code
+
+
+ID: T03.G4.17
+Topic: T03 – Problem Decomposition
+Skill: Determine appropriate decomposition granularity for a task
+Description: **Student task:** Given a decomposition, judge whether it's too coarse (steps too big), too fine (steps too small), or just right. **Coding scenario:** Project: "Bouncing ball animation." Too coarse: "1. Make ball, 2. Make it bounce." Too fine: "1. Add ball sprite, 2. Set x to 0, 3. Set y to 0, 4. Set direction to 45, 5. Move 1 step, 6. Check if touching edge, 7. If yes turn, 8. Repeat step 5-7..." Just right: "1. Add ball sprite at center, 2. Set initial direction, 3. Create forever loop with move and if-on-edge-bounce." Explain criteria: "Each step should be testable but not so small you can't see progress." Auto-graded by granularity judgment and explanation. _CSTA: 1B-AP-11._
+
+Dependencies:
+* T03.G4.05.01: List three benefits of organizing code into modules
+* T03.G3.14: Revise a decomposition after testing reveals problems
+
 
 ID: T03.G5.01
 Topic: T03 – Problem Decomposition
@@ -4626,6 +5020,25 @@ Dependencies:
 * T03.G5.07: Decompose a 2D physics simulation into components
 
 
+ID: T03.G5.12
+Topic: T03 – Problem Decomposition
+Skill: Use XO to brainstorm initial decomposition ideas for a project
+Description: **Student task:** Prompt CreatiCode XO with a project idea and use its suggestions as a starting point for your own decomposition. Then identify what XO missed or got wrong. **Coding scenario:** Prompt XO: "I want to make a drawing app where you can pick colors and draw with the mouse." XO suggests features. Student analysis: "XO suggested: color picker, brush size, clear canvas, save drawing. Good suggestions! But XO missed: undo button (important for drawing), eraser tool, maybe fill bucket. XO's order was wrong: should do basic drawing first, then color picker, because you need something to test colors on." Create improved decomposition combining XO's good ideas with student additions. Introduces AI as a brainstorming partner at G5 level. Auto-graded by critique quality and improvement. _CSTA: 2-IC-23._
+
+Dependencies:
+* T03.G5.04: Decompose vague tasks into specific testable sub-tasks
+* T03.G4.15: Critique a peer's decomposition with constructive feedback
+
+
+ID: T03.G5.13
+Topic: T03 – Problem Decomposition
+Skill: Decompose a project for pair programming (driver/navigator roles)
+Description: **Student task:** Decompose a project into tasks suited for pair programming, where one person codes (driver) and another reviews/guides (navigator). **Coding scenario:** Platformer game project: "Task 1 - Player movement (driver codes, navigator watches for edge cases like going off screen)," "Task 2 - Platform collision (swap roles - new driver implements, navigator ensures player stands on top correctly)," "Task 3 - Coin collection (driver adds coins, navigator tracks which score logic is needed)." For each task, specify: what driver does, what navigator watches for, when to swap. Develops collaborative decomposition skills. Auto-graded by role specification and swap logic. _CSTA: 2-AP-13._
+
+Dependencies:
+* T03.G5.03: Create a complete dependency graph for all tasks
+* T03.G4.03: Assign subtasks to team roles
+
 
 ID: T03.G6.01
 Topic: T03 – Problem Decomposition
@@ -4773,6 +5186,25 @@ Dependencies:
 * T03.G6.11: Separate components suitable for AI assistance from those requiring human judgment
 * T03.G6.10: Decide when to decompose vs keep integrated
 
+
+ID: T03.G6.13
+Topic: T03 – Problem Decomposition
+Skill: Predict which components will need the most iteration during development
+Description: **Student task:** Analyze a project decomposition and predict which components are most likely to need multiple revision cycles, with justification. **Coding scenario:** AI quiz game decomposition: "Low iteration: Score display (clear requirements, simple logic), Data storage (standard pattern)." "Medium iteration: Question sequencing (may need adjustment based on testing), UI layout (may need polish)." "High iteration: AI question generation (unpredictable outputs, need prompt tuning), Difficulty calibration (requires user testing and adjustment)." Justification: "AI components are high-iteration because output quality is hard to predict. User-facing features need iteration based on feedback." Use this prediction to plan: "Start high-iteration components early to allow time for refinement." Auto-graded by prediction reasoning and planning application. _CSTA: 2-AP-15._
+
+Dependencies:
+* T03.G6.09: Identify when to use AI vs custom code for a subtask
+* T03.G5.04.02: Estimate effort for each sub-task
+
+
+ID: T03.G6.14
+Topic: T03 – Problem Decomposition
+Skill: Decompose an unfamiliar problem by analogy to known problems
+Description: **Student task:** When facing a new problem domain, find analogous problems you've solved before and adapt that decomposition. **Coding scenario:** New problem: "Build a recipe recommendation system." Analogy: "This is like the quiz game I made - both have: data items (questions/recipes), user preferences (answers/ingredients), selection logic (difficulty matching/ingredient matching), display (question cards/recipe cards)." Adapted decomposition: "Recipe Database Module (like Question Bank), User Preference Module (like Player Profile), Matching Algorithm Module (like Difficulty Selector), Display Module (like Question Display)." Document: what analogies helped, what parts are genuinely new and need original thinking. Develops transfer of decomposition skills to new domains. Auto-graded by analogy quality and adaptation. _CSTA: 2-AP-13._
+
+Dependencies:
+* T03.G6.01: Propose a module hierarchy for a medium-sized project
+* T03.G5.12: Use XO to brainstorm initial decomposition ideas
 
 
 ID: T03.G7.01
@@ -4957,6 +5389,25 @@ Dependencies:
 * T03.G7.13: Identify which modules can be built independently vs sequentially for team work
 * T03.G7.02.02: Identify interface contracts between components
 
+
+ID: T03.G7.15
+Topic: T03 – Problem Decomposition
+Skill: Decompose for incremental delivery using vertical slices
+Description: **Student task:** Decompose a project into "vertical slices" - each slice delivers a complete, testable user feature from UI to data, rather than building horizontal layers (all UI first, then all logic, then all data). **Coding scenario:** Quiz game vertical slices: "Slice 1 (Minimum viable): Show one hardcoded question with answer buttons → check answer → show correct/wrong feedback. (Complete flow, but minimal)." "Slice 2: Add score tracking that persists across questions." "Slice 3: Load questions from table variable instead of hardcoded." "Slice 4: Add question randomization." "Slice 5: Add timer and difficulty levels." Each slice is demonstrable to users. Contrast with horizontal: "All UI first, then all logic, then all data" - problem: nothing works until everything works. Auto-graded by slice completeness and user-testability. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G7.12: Decompose for testability (each piece independently verifiable)
+* T03.G6.03: Organize features into v1/v2/v3 milestones
+
+
+ID: T03.G7.16
+Topic: T03 – Problem Decomposition
+Skill: Document decomposition decisions for future maintainers
+Description: **Student task:** Write documentation explaining your decomposition decisions so someone else can understand why the project is organized this way. **Coding scenario:** Multiplayer game documentation: "Architecture Decision Record 1: Why separate Network Module from Game Logic? Decision: Keep networking isolated so game logic can be tested without network. Alternative considered: Embedded networking in game loop. Rejected because: makes debugging connection issues harder, can't test game offline. Trade-off accepted: More broadcasts needed between modules." Document 3+ key decisions with: What? Why? Alternatives? Trade-offs? This prepares students for professional development where code is maintained by others. Auto-graded by documentation completeness and reasoning quality. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G7.04: Compare and analyze trade-offs between two architecture designs
+* T03.G7.02: List architectural components with responsibility statements
 
 
 ID: T03.G8.01
@@ -5216,77 +5667,107 @@ Dependencies:
 * T03.G6.11: Separate components suitable for AI assistance from those requiring human judgment
 
 
+ID: T03.G8.21
+Topic: T03 – Problem Decomposition
+Skill: Decompose for observability with monitoring, logging, and debugging hooks
+Description: **Student task:** Design a decomposition that includes observability components - ways to monitor what the system is doing, log important events, and debug problems. **Coding scenario:** Multiplayer game decomposition with observability: "Monitoring Module: tracks player count, message rate, error count - displays in debug console panel." "Logging Strategy: Game events (player join/leave) → log with timestamp and player ID. Network events (message sent/received) → log with direction and size. Error events → log with full context and state." "Debug Hooks: Each module has a 'verbose mode' that logs internal state. Test buttons simulate events without real gameplay." Design: where to place logging (at module boundaries), what to log (state changes, errors, performance), how to enable/disable (debug flag variable). Uses CreatiCode console panel blocks. Auto-graded by observability coverage and practicality. _CSTA: 2-AP-17._
 
-# T04 - Algorithm Patterns (Phase 9 Optimized - November 2025)
-# PHASE 9 MAJOR OVERHAUL - Bold Changes for Excellence
+Dependencies:
+* T03.G8.11: Decompose a multiplayer project into components
+* T03.G7.12: Decompose for testability (each piece independently verifiable)
+
+
+ID: T03.G8.22
+Topic: T03 – Problem Decomposition
+Skill: Decompose for graceful degradation when components fail
+Description: **Student task:** Design a decomposition where if one component fails, the rest of the system continues working with reduced functionality rather than crashing completely. **Coding scenario:** AI-enhanced quiz game with graceful degradation: "If AI question generator fails: Fall back to pre-loaded question bank (reduced variety but functional)." "If network save fails: Cache locally and retry later (no data loss, delayed sync)." "If sound module fails: Continue without audio, show visual feedback instead." "If timer module fails: Switch to untimed mode." Decompose into: "Core Game Logic (must work): question display, answer checking, score tracking." "Enhancement Modules (can fail): AI generation, cloud sync, audio, timer." "Fallback Manager: detects failures, activates alternatives, logs issues." Design circuit breakers: "After 3 AI failures, disable AI for session and use fallbacks." Auto-graded by failure scenario coverage and fallback design. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G8.19: Decompose privacy-sensitive projects separating public and private data components
+* T03.G8.21: Decompose for observability with monitoring, logging, and debugging hooks
+
+
+ID: T03.G8.23
+Topic: T03 – Problem Decomposition
+Skill: Compare AI-suggested decompositions against expert patterns and best practices
+Description: **Student task:** Get decomposition suggestions from XO, then compare them against known expert patterns (MVC, component-based, event-driven) to evaluate quality and identify improvements. **Coding scenario:** Project: "Build a weather dashboard that fetches data and displays it." XO suggests: "1. Get weather data, 2. Show temperature, 3. Show forecast, 4. Add refresh button." Expert pattern comparison: "This is close to MVC pattern but missing clear separation. Model: Weather Data (fetch + store), View: Display Components (temperature, forecast), Controller: User Actions (refresh, change city)." Improved decomposition applying MVC: "Weather Model Module: handles API calls, caches data, notifies on updates. Display View Module: renders current conditions, forecasts, subscribes to Model updates. Interaction Controller: handles refresh clicks, city selection, triggers Model fetches." Document: What pattern was applied? Why is it better than XO's suggestion? What trade-offs does the pattern introduce? Auto-graded by pattern application accuracy and improvement justification. _CSTA: 2-AP-17, 2-IC-23._
+
+Dependencies:
+* T03.G8.14: Propose decomposition strategies for unknown problem domains
+* T03.G7.16: Document decomposition decisions for future maintainers
+
+
+ID: T03.G8.24
+Topic: T03 – Problem Decomposition
+Skill: Decompose a legacy project for modernization without breaking existing functionality
+Description: **Student task:** Given an old, monolithic project, design a decomposition plan to modernize it incrementally while keeping it working throughout the process. **Coding scenario:** Legacy project: Single sprite with 500 lines of code handling player, enemies, scoring, and sound all mixed together. Modernization plan: "Phase 1 (Zero risk): Extract score display code to Score Module - original code still works, just calls new module. Phase 2: Extract enemy behavior to Enemy Module - test original game behavior unchanged. Phase 3: Extract player controls - verify original controls still work. Phase 4: Clean up main sprite - now just coordinates modules." For each phase: What gets extracted? How to verify nothing broke? What's the rollback plan if problems occur? "Strangler Fig Pattern: New modules wrap old code, gradually replacing it." Document risks: "Phase 3 is highest risk because player controls affect everything." Auto-graded by incremental plan logic and risk mitigation. _CSTA: 2-AP-17._
+
+Dependencies:
+* T03.G8.09: Write a refactoring plan for a complex project
+* T03.G8.23: Compare AI-suggested decompositions against expert patterns
+
+
+# T04 - Algorithm Patterns (Phase 10 Optimized - December 2025)
+# PHASE 10 MAJOR OVERHAUL - Professional-Grade Pattern Mastery
 #
-# PHILOSOPHY SHIFT: Algorithm Patterns are about PROBLEM-SOLVING STRATEGIES
-# - Every skill emphasizes WHY patterns exist and WHEN to apply them
-# - Added "Explain your reasoning" and "Critique" components throughout
-# - Integrated AI-era skills across more grades (not just G7-G8)
-# - Strengthened connections to real-world problem solving
+# PHILOSOPHY EVOLUTION (Building on Phase 9):
+# - Algorithm Patterns as TRANSFERABLE PROBLEM-SOLVING STRATEGIES
+# - Emphasis on pattern recognition, selection, and composition
+# - AI-human collaboration: patterns as shared vocabulary with AI tools
+# - Scalability thinking: patterns that work from toy examples to production
+# - Meta-cognitive skills: knowing WHEN and WHY to apply each pattern
 #
-# MAJOR CHANGES FROM PHASE 8:
+# PHASE 10 NEW ADDITIONS:
 #
-# 1. FIXED DUPLICATE: Removed duplicate T04.G5.02.02 (was at two locations)
+# 1. PATTERN DECOMPOSITION THINKING (new strand)
+#    - GK.08: Break a big pattern into smaller repeating parts
+#    - G1.08: Identify the smallest repeating unit in complex patterns
+#    - G2.08: Decompose a multi-step routine into pattern components
+#    - G4.12: Decompose visual output to identify required patterns
+#    - G6.12: Decompose problems using pattern building blocks
 #
-# 2. NEW SKILL CATEGORIES ADDED:
-#    a) PATTERN COMMUNICATION (explaining pattern choices):
-#       - GK.06: Explain why your pattern choice works using picture cards
-#       - G1.07: Explain the difference between two patterns to a partner
-#       - G3.11: Describe a pattern's purpose without showing the code
-#       - G5.09: Document why a specific pattern was chosen
-#       - G7.13: Present pattern trade-offs to stakeholders
+# 2. PATTERN EFFICIENCY AWARENESS (new strand)
+#    - G2.05.02: Compare pattern solutions by number of steps
+#    - G4.13: Predict which pattern approach completes faster
+#    - G5.12: Measure and compare pattern execution times
+#    - G7.15: Analyze pattern memory usage trade-offs
 #
-#    b) PATTERN CRITIQUE & VERIFICATION:
-#       - G2.06: Spot a pattern that doesn't fit the sequence
-#       - G4.10: Critique a peer's pattern choice and suggest improvements
-#       - G6.09: Verify that code matches the intended pattern
-#       - G8.19: Lead code review for pattern implementation quality
+# 3. PATTERN GENERALIZATION (new strand)
+#    - G3.13: Recognize the same pattern in different contexts
+#    - G5.13: Abstract a specific solution into a general pattern
+#    - G7.16: Document pattern variations and when to use each
+#    - G8.22: Create pattern catalogs for domain-specific problems
 #
-#    c) REAL-WORLD PATTERN RECOGNITION:
-#       - GK.07: Find repeating patterns in everyday life (video examples)
-#       - G2.07: Connect daily routines to repeat patterns
-#       - G4.11: Recognize algorithm patterns in apps and games
-#       - G6.10: Analyze patterns in data processing pipelines
+# 4. DEFENSIVE PATTERN PROGRAMMING (new strand)
+#    - G4.14: Add boundary checks to loop patterns
+#    - G6.13: Implement pattern guard conditions
+#    - G8.23: Design fail-safe patterns with graceful degradation
 #
-#    d) COLLABORATIVE PATTERN DESIGN:
-#       - G3.12: Build a pattern solution with a partner
-#       - G5.10: Merge two partial pattern implementations
-#       - G7.14: Design composite patterns as a team
+# 5. AI-PATTERN COLLABORATION (expanded)
+#    - G4.15: Ask AI to suggest patterns for simple problems
+#    - G6.14: Use AI to compare multiple pattern approaches
+#    - G8.24: Prompt AI with pattern constraints for better code
+#    - G8.25: Review and improve AI-suggested pattern compositions
 #
-#    e) AI-ASSISTED PATTERN WORK (expanded to earlier grades):
-#       - G5.11: Use AI to explain unfamiliar patterns
-#       - G6.11: Evaluate AI suggestions for pattern improvements
-#       - G7.12: Evaluate when AI-generated code matches standard patterns
-#       - G8.17-18: Advanced AI collaboration for pattern development
+# 6. ENHANCED K-2 COMPUTATIONAL THINKING:
+#    - More hands-on pattern manipulation
+#    - Prediction before execution
+#    - Pattern verbalization and explanation
+#    - Real-world pattern connections throughout
 #
-# 3. ENHANCED DEBUGGING PROGRESSION:
-#    - GK.04.01, G1.06 (multi-error debugging)
-#    - G3.07.01 (off-by-one), G4.10.01 (nested loop bugs)
-#    - G5.04.02 (filter condition bugs), G6.04.01 (parameterized block bugs)
-#    - G7.05.01 (data flow bugs), G8.09 (multi-pattern bugs)
-#    - NEW: G8.20: Systematic debugging methodology for complex patterns
+# 7. DEPENDENCY FIXES (Phase 10):
+#    - All X-2 rule violations corrected
+#    - Strengthened intra-topic progression
+#    - Clearer prerequisite chains for each strand
 #
-# 4. STRENGTHENED K-2 COMPUTATIONAL THINKING:
-#    - More emphasis on WHY patterns work, not just recognition
-#    - Added prediction and reasoning skills
-#    - Connected patterns to everyday decision-making
+# 8. VERB UPGRADES (active, measurable):
+#    - "Match" → "Connect and justify", "Pair with explanation"
+#    - "Identify" → "Locate and mark", "Detect and highlight"
+#    - "Compare" → "Analyze and rank", "Evaluate with criteria"
+#    - Added: "Decompose", "Generalize", "Synthesize", "Validate"
 #
-# 5. ADVANCED G8 SKILLS FOR AI ERA:
-#    - Pattern composition at scale
-#    - Performance analysis and optimization
-#    - AI collaboration and validation
-#    - Team-based pattern library development
-#
-# 6. DEPENDENCY IMPROVEMENTS:
-#    - Fixed incorrect dependency references
-#    - Stronger K→G1→G2→G3 progression for pattern thinking
-#    - Added alternative dependency paths for flexibility
-#    - All intra-topic dependencies validated for X-2 rule
-#
-# Total: 142 skills (20 new skills added for communication, verification,
-# real-world connections, AI collaboration, and advanced debugging)
+# Total: ~165 skills (23 new skills for decomposition, efficiency,
+# generalization, defensive programming, and enhanced AI collaboration)
 
 ID: T04.GK.01
 Topic: T04 – Algorithm Patterns
@@ -5396,6 +5877,18 @@ Dependencies:
 
 
 
+ID: T04.GK.08
+Topic: T04 – Algorithm Patterns
+Skill: Break a big pattern into smaller repeating parts
+Description: **Student task:** Look at a longer pattern and tap to show where you would break it into smaller matching pieces. **Visual scenario:** Pattern shows: star-moon-star-moon-star-moon (6 cards). Student taps to show breaks: [star-moon] | [star-moon] | [star-moon]. They identify "star-moon" as the small piece that repeats. **Key insight:** Big patterns are made of smaller patterns that repeat! Breaking big things into small pieces is how computers think. _Implementation note: Interactive tap-to-divide activity; introduces DECOMPOSITION at kindergarten level. Visual highlighting shows groups after tapping. Auto-graded by correct grouping. PICTURE-BASED decomposition activity. CSTA: EK-ALG-AF-01, EK-CT-DE-01._
+
+Dependencies:
+* T04.GK.05.01: Classify patterns by their repeating unit length
+* T04.GK.05: Compare two patterns and select the one with more repetitions
+
+
+
+
 ID: T04.G1.01
 Topic: T04 – Algorithm Patterns
 Skill: Match picture cards of actions to a character's repeated movements
@@ -5496,6 +5989,18 @@ Description: **Student task:** Look at two different picture card patterns and e
 Dependencies:
 * T04.G1.05: Predict the next action in a repeating picture sequence
 * T04.GK.06: Explain why your pattern choice works using picture cards
+
+
+
+
+ID: T04.G1.08
+Topic: T04 – Algorithm Patterns
+Skill: Identify the smallest repeating unit in complex patterns
+Description: **Student task:** Look at a longer pattern and find the SMALLEST group that repeats. **Visual scenario:** Pattern shows: sun-moon-star-sun-moon-star-sun-moon-star (9 cards). Choices: A) "sun" (1 card), B) "sun-moon" (2 cards), C) "sun-moon-star" (3 cards). **Correct answer:** C - "sun-moon-star" is the smallest complete unit that repeats. **Key insight:** Finding the smallest repeating piece helps us understand and describe patterns efficiently. _Implementation note: MCQ with 3-4 choices showing different sized units; builds analytical thinking. Incorrect choices show incomplete patterns that don't repeat properly. PICTURE-BASED analysis activity. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+* T04.GK.08: Break a big pattern into smaller repeating parts
+* T04.G1.03: Highlight the repeated steps in a row of picture cards
 
 
 
@@ -5604,6 +6109,30 @@ Description: **Student task:** Match everyday routines to their pattern type. **
 Dependencies:
 * T04.G2.02: Highlight the repeated steps in an everyday routine shown with picture cards
 * T04.GK.07: Find repeating patterns in everyday life (video examples)
+
+
+
+
+ID: T04.G2.08
+Topic: T04 – Algorithm Patterns
+Skill: Decompose a multi-step routine into pattern components
+Description: **Student task:** Break down a longer routine into its pattern parts. **Visual scenario:** Routine: "Get ready for school" shown as 8 picture cards. Students identify which cards form repeating groups: [wake up alarm - get out of bed] (once), [brush teeth - rinse] (repeat 2: top teeth, bottom teeth), [get dressed] (once), [eat breakfast - clean dish] (once). **Key insight:** Complex tasks are made of smaller patterns—some happen once, some repeat! _Implementation note: Drag-to-group activity; students categorize steps as "do once" or "repeat" patterns. Builds DECOMPOSITION skills for coding. PICTURE-BASED structural analysis. CSTA: E1-ALG-AF-01, E1-CT-DE-01._
+
+Dependencies:
+* T04.G2.01: Select the repeating unit from a longer picture pattern
+* T04.G1.08: Identify the smallest repeating unit in complex patterns
+
+
+
+
+ID: T04.G2.05.02
+Topic: T04 – Algorithm Patterns
+Skill: Compare pattern solutions by number of steps
+Description: **Student task:** Look at two different pattern solutions for the same task and count which one uses fewer steps. **Visual scenario:** Task: "clap 4 times." Solution A: [clap] [clap] [clap] [clap] (4 cards). Solution B: [repeat 4: clap] (1 card with number). Question: "Which uses fewer cards?" **Correct answer:** Solution B (1 card vs 4 cards). **Key insight:** Using repeat patterns makes our instructions shorter and easier! _Implementation note: Side-by-side comparison with counting; introduces EFFICIENCY thinking at G2 level. Students count cards in each solution. PICTURE-BASED efficiency comparison. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+* T04.G2.05: Match a "repeat box" diagram to its expanded picture card sequence
+* T04.G2.04: Create a "repeat ___ times" label for a row of repeated picture cards
 
 
 
@@ -5791,6 +6320,18 @@ Description: **Student task:** Work with a partner to build a simple pattern-bas
 Dependencies:
 * T04.G3.02.01: Refactor repeated blocks into a loop
 * T04.G3.06: Fix a loop that repeats too many or too few times
+
+
+
+
+ID: T04.G3.13
+Topic: T04 – Algorithm Patterns
+Skill: Recognize the same pattern in different contexts
+Description: **Student task:** Identify when two code snippets use the same underlying pattern, even with different sprites and actions. **Scenario:** Snippet A: "repeat 4 [move 50, turn 90]" draws a square. Snippet B: "repeat 3 [say 'hi', wait 1]" makes a greeting. Question: "What pattern do both use?" **Correct answer:** Both use the "repeat N times" pattern—same structure, different content inside. **Assessment:** Students match 4-5 code snippets by their underlying pattern structure, ignoring surface differences. Focus is on PATTERN ABSTRACTION. CSTA: 1B-AP-11._
+
+Dependencies:
+* T04.G3.08: Identify which code structure matches an algorithm description
+* T04.G3.03: Match a "repeat N" loop to repeated behavior
 
 
 
@@ -6025,6 +6566,54 @@ Description: **Student task:** Analyze familiar apps or games and identify the a
 Dependencies:
 * T04.G4.05: Group code snippets that share the same algorithm pattern
 * T04.G3.11: Describe a pattern's purpose without showing the code
+
+
+
+
+ID: T04.G4.12
+Topic: T04 – Algorithm Patterns
+Skill: Decompose visual output to identify required patterns
+Description: **Student task:** Given a visual output (image or animation), work backwards to identify which patterns would create it. **Scenario:** Image shows a 3x4 grid of stars. Students decompose: "I see 3 rows, each with 4 stars. I need a repeat-3 outer loop for rows and repeat-4 inner loop for stars in each row." **Assessment:** Given 3-4 visual outputs, students list the patterns needed to create each. They explain how the visual structure maps to code structure. Focus is on REVERSE ENGINEERING from output to patterns.
+
+Dependencies:
+* T04.G4.02: Analyze nested loop code structure (outer vs inner loop)
+* T04.G4.01: Trace a loop that creates a visual pattern
+
+
+
+
+ID: T04.G4.13
+Topic: T04 – Algorithm Patterns
+Skill: Predict which pattern approach completes faster
+Description: **Student task:** Compare two pattern approaches for the same problem and predict which finishes first. **Scenario:** Task: "Check if name 'Alex' is in a list of 10 names." Approach A: Check each name one by one until found, then stop. Approach B: Check every name even after finding. Question: "Which approach is usually faster?" **Correct answer:** A—early exit saves time when target is found early. **Assessment:** Students predict for 3-4 scenarios and explain reasoning. Focus is on EFFICIENCY THINKING. CSTA: 1B-AP-11._
+
+Dependencies:
+* T04.G4.09: Use loops to iterate through all items in a list
+* T04.G4.06: Select the appropriate pattern to solve a new problem
+
+
+
+
+ID: T04.G4.14
+Topic: T04 – Algorithm Patterns
+Skill: Add boundary checks to loop patterns
+Description: **Student task:** Identify where a loop pattern could fail and add boundary checks to prevent errors. **Scenario:** Code loops through a list but crashes if the list is empty. Students add: "if (list length > 0) then [run loop]" to check the boundary condition first. **Assessment:** Given 3-4 loop patterns with potential issues, students identify the boundary problem and add appropriate guard checks. Focus is on DEFENSIVE PROGRAMMING with patterns.
+
+Dependencies:
+* T04.G4.09: Use loops to iterate through all items in a list
+* T04.G4.03: Identify and classify conditional patterns that handle boundary cases
+
+
+
+
+ID: T04.G4.15
+Topic: T04 – Algorithm Patterns
+Skill: Ask AI to suggest patterns for simple problems
+Description: **Student task:** Use CreatiCode's AI assistant (XO) to get pattern suggestions, then evaluate if the suggestion fits. **Scenario:** Problem: "Count how many red items are in my list." Student asks AI: "What pattern should I use to count items that match a condition?" AI suggests counter pattern. Student verifies: "Yes, counter fits because I'm counting occurrences, not summing values." **Assessment:** Students ask AI for pattern help on 2-3 problems, then justify whether each suggestion is appropriate. Focus is on AI-ASSISTED pattern selection with HUMAN VERIFICATION.
+
+Dependencies:
+* T04.G4.06.01: Justify pattern selection with reasoning
+* T04.G4.11: Recognize algorithm patterns in apps and games
 
 
 
@@ -6301,6 +6890,30 @@ Dependencies:
 
 
 
+ID: T04.G5.12
+Topic: T04 – Algorithm Patterns
+Skill: Measure and compare pattern execution times
+Description: **Student task:** Use CreatiCode's timer or counter blocks to measure how long different pattern approaches take. **Scenario:** Compare two search implementations: one that checks every item vs one with early-exit. Students add timer blocks before and after each search, run both on the same data, and compare results. **Assessment:** Students report timing data for 2-3 pattern comparisons and explain why faster versions are faster. Focus is on EMPIRICAL EFFICIENCY analysis.
+
+Dependencies:
+* T04.G5.03.04: Compare search efficiency with and without early-exit
+* T04.G5.05: Compare solutions that use a pattern vs those that don't
+
+
+
+
+ID: T04.G5.13
+Topic: T04 – Algorithm Patterns
+Skill: Abstract a specific solution into a general pattern
+Description: **Student task:** Take working code that solves one specific problem and generalize it into a reusable pattern. **Scenario:** Code that counts red items becomes "count items matching [condition]" pattern. Students identify: what's specific (red), what's general (matching condition), how to parameterize it. **Assessment:** Given 3 specific solutions, students create generalized pattern versions and test with different parameters. Focus is on PATTERN GENERALIZATION from concrete to abstract.
+
+Dependencies:
+* T04.G5.08: Create a custom block with one parameter for reusable patterns
+* T04.G5.07: Apply a counter pattern to solve a counting problem
+
+
+
+
 
 
 ID: T04.G6.01
@@ -6513,6 +7126,42 @@ Description: **Student task:** Use AI assistant to get suggestions for improving
 Dependencies:
 * T04.G5.11: Use AI to explain unfamiliar patterns
 * T04.G6.06: Compare two pattern-based solutions for efficiency and code clarity
+
+
+
+
+ID: T04.G6.12
+Topic: T04 – Algorithm Patterns
+Skill: Decompose problems using pattern building blocks
+Description: **Student task:** Break down a complex problem into smaller parts, each solvable with a known pattern. **Scenario:** Problem: "Find the average score of students who passed." Decomposition: Part 1 (filter pattern)—select passing scores. Part 2 (accumulator)—sum the passing scores. Part 3 (counter)—count passing students. Part 4 (compute)—divide sum by count. **Assessment:** Given 3 complex problems, students create decomposition diagrams showing pattern building blocks and data flow between them. Focus is on SYSTEMATIC PROBLEM DECOMPOSITION.
+
+Dependencies:
+* T04.G6.07.01: Decompose a problem into pattern components
+* T04.G5.13: Abstract a specific solution into a general pattern
+
+
+
+
+ID: T04.G6.13
+Topic: T04 – Algorithm Patterns
+Skill: Implement pattern guard conditions
+Description: **Student task:** Add guard conditions that check for invalid inputs or edge cases BEFORE running pattern logic. **Scenario:** Filter pattern that crashes on empty list or null condition. Students add guards: "if list exists AND list not empty AND condition is valid, then run filter, else return empty result." **Assessment:** Given 3 patterns with potential failure points, students identify edge cases and implement appropriate guards. Focus is on DEFENSIVE PATTERN IMPLEMENTATION.
+
+Dependencies:
+* T04.G4.14: Add boundary checks to loop patterns
+* T04.G6.04.01: Debug a parameterized custom block
+
+
+
+
+ID: T04.G6.14
+Topic: T04 – Algorithm Patterns
+Skill: Use AI to compare multiple pattern approaches
+Description: **Student task:** Ask AI to explain trade-offs between different pattern approaches, then verify by implementing both. **Scenario:** Problem can use nested loops OR list-based approach. Student asks AI: "Compare these two approaches for checking all pairs." AI explains trade-offs. Student implements both, measures performance, and validates AI's explanation. **Assessment:** Students compare AI-predicted trade-offs with actual implementation results. Focus is on AI-ASSISTED DESIGN DECISIONS with verification.
+
+Dependencies:
+* T04.G6.11: Evaluate AI suggestions for pattern improvements
+* T04.G5.12: Measure and compare pattern execution times
 
 
 
@@ -6762,6 +7411,30 @@ Description: **Student task:** Work in a team of 3-4 to design a multi-pattern s
 Dependencies:
 * T04.G7.05: Implement a combined pattern solution
 * T04.G6.09: Verify that code matches the intended pattern
+
+
+
+
+ID: T04.G7.15
+Topic: T04 – Algorithm Patterns
+Skill: Analyze pattern memory usage trade-offs
+Description: **Student task:** Compare pattern approaches based on memory requirements, not just speed. **Scenario:** Approach A stores all filtered items in a new list (uses more memory). Approach B processes items one at a time without storing (uses less memory but can't revisit). Students analyze: "Filter-then-process uses O(n) extra space; stream-process uses O(1) space." **Assessment:** Given 3 pattern pairs, students identify memory trade-offs and explain when each approach is preferable. Focus is on SPACE COMPLEXITY awareness.
+
+Dependencies:
+* T04.G7.10: Compare pattern-based implementations for long-term maintainability
+* T04.G6.06: Compare two pattern-based solutions for efficiency and code clarity
+
+
+
+
+ID: T04.G7.16
+Topic: T04 – Algorithm Patterns
+Skill: Document pattern variations and when to use each
+Description: **Student task:** Create documentation for pattern variations including use cases for each. **Scenario:** Search pattern variations: (A) Find first match, (B) Find all matches, (C) Find best match, (D) Check if any match exists. Students document: pattern name, when to use, code structure, example use case, common mistakes. **Assessment:** Students create a mini-pattern-guide covering 3-4 related pattern variations. Focus is on PATTERN DOCUMENTATION for knowledge transfer.
+
+Dependencies:
+* T04.G7.07: Explain the role of each pattern in a composite solution
+* T04.G6.12: Decompose problems using pattern building blocks
 
 
 
@@ -7091,70 +7764,123 @@ Dependencies:
 
 
 
-# T05 - Human-Centered Design (Phase 7 Major Revision - November 2025)
-# MAJOR RESTRUCTURING from Phase 6:
+
+ID: T04.G8.22
+Topic: T04 – Algorithm Patterns
+Skill: Create pattern catalogs for domain-specific problems
+Description: **Student task:** Develop a documented catalog of patterns for a specific problem domain. **Scenario:** Domain: "Educational quiz games." Students create catalog entries for: question-serving pattern, score-tracking pattern, progress-saving pattern, adaptive-difficulty pattern. Each entry includes: pattern name, problem it solves, code template, usage example, variations. **Assessment:** Catalog must include 4+ patterns with complete documentation and demonstrate patterns working together in a sample project. Focus is on SYSTEMATIC PATTERN ORGANIZATION.
+
+Dependencies:
+* T04.G8.16: Create reusable pattern libraries for team projects
+* T04.G7.16: Document pattern variations and when to use each
+
+
+
+
+ID: T04.G8.23
+Topic: T04 – Algorithm Patterns
+Skill: Design fail-safe patterns with graceful degradation
+Description: **Student task:** Design patterns that fail gracefully when something goes wrong. **Scenario:** Data-loading pattern: if API fails, try cache; if cache fails, show "offline" message with last-known data; if all fails, display helpful error. Students design cascading fallback logic. **Assessment:** Students create 2-3 patterns with multiple fallback levels and test failure scenarios. Focus is on RESILIENT PATTERN DESIGN for production systems.
+
+Dependencies:
+* T04.G6.13: Implement pattern guard conditions
+* T04.G8.09: Debug complex multi-pattern algorithm errors
+
+
+
+
+ID: T04.G8.24
+Topic: T04 – Algorithm Patterns
+Skill: Prompt AI with pattern constraints for better code
+Description: **Student task:** Learn to write prompts that guide AI to generate code using specific patterns. **Scenario:** Instead of "write code to find the highest score," prompt: "Using the reduce pattern, write code to find the maximum value in a list. Use a running-max accumulator initialized to negative infinity." Students compare AI outputs from vague vs pattern-constrained prompts. **Assessment:** Students demonstrate improved AI outputs by using pattern-specific prompts across 3 problem types. Focus is on PROMPT ENGINEERING for pattern-based code generation.
+
+Dependencies:
+* T04.G8.17: Design prompt strategies for AI to generate pattern-based solutions
+* T04.G7.12: Evaluate when AI-generated code matches standard patterns
+
+
+
+
+ID: T04.G8.25
+Topic: T04 – Algorithm Patterns
+Skill: Review and improve AI-suggested pattern compositions
+Description: **Student task:** Receive AI-generated multi-pattern solutions and systematically improve them. **Scenario:** AI generates a "filter-then-map-then-reduce" pipeline. Students review: Is the order optimal? Could patterns be combined? Are edge cases handled? Students refactor for efficiency, add guards, improve naming, and document the improved version. **Assessment:** Students improve 2-3 AI-generated solutions with documented reasoning for each change. Focus is on HUMAN-AI COLLABORATIVE REFINEMENT.
+
+Dependencies:
+* T04.G8.18: Validate and refactor AI-generated algorithm implementations
+* T04.G8.24: Prompt AI with pattern constraints for better code
+
+
+
+
+# T05 - Human-Centered Design (Phase 8 Major Revision - December 2025)
+# BOLD RESTRUCTURING from Phase 7:
 #
 # PHILOSOPHY SHIFT:
-# This revision refocuses T05 on CORE Human-Centered Design principles:
-# - Empathy & User Research (understanding users deeply)
-# - Ideation & Prototyping (designing solutions)
-# - Testing & Iteration (validating with real users)
-# - Accessibility & Inclusion (designing for all)
-# - Modern UX Patterns (AI-era interfaces)
+# T05 is now PURELY about Human-Centered Design - understanding users, designing for them,
+# testing with them, and iterating. ALL simulation/computational modeling moved to T04/T12.
 #
-# KEY CHANGES:
-# 1. REDUCED SIMULATION FOCUS: Simulation is computational modeling (better in T04/T12).
-#    Kept only skills where simulation relates to user behavior modeling.
+# CORE HCD PILLARS (across all grades):
+# 1. EMPATHY & UNDERSTANDING - Who are users? What do they need/feel/struggle with?
+# 2. USER RESEARCH - Interviews, observation, surveys, feedback collection
+# 3. IDEATION & DESIGN - Brainstorming, sketching, wireframing, prototyping
+# 4. TESTING & ITERATION - Usability testing, feedback incorporation, redesign
+# 5. ACCESSIBILITY & INCLUSION - Design for ALL abilities, contexts, preferences
+# 6. AI-AUGMENTED DESIGN - Using AI tools to enhance (not replace) human-centered thinking
 #
-# 2. STRENGTHENED EMPATHY STRAND (K-5):
-#    - Added emotion recognition in K-2
-#    - Added observation-based research skills
-#    - Added empathy mapping at G4
-#    - Added user journey mapping at G5
+# KEY CHANGES FROM PHASE 7:
+# 1. REMOVED ALL SIMULATION SKILLS (moved to T04/T12):
+#    - G2.03, G2.04 (simulation introduction) → T04
+#    - G3.04, G3.05, G3.07 (simulation variables/rules) → T04
+#    - G4.05, G4.05a, G4.06, G4.06.01-03 (simulation planning) → T04
+#    - G5.03, G5.03.01, G5.04, G5.06, G5.07, G5.08 (simulation design) → T04
+#    - G6.05, G6.06, G6.08, G6.09, G6.10 (simulation evaluation) → T04
+#    - G7.08, G7.08.01 (simulation testing) → T04
+#    - G8.03, G8.04 (simulation experiments) → T04
+#    This removes 25+ skills that didn't belong in HCD!
 #
-# 3. ENHANCED PROTOTYPING STRAND (G3-8):
-#    - Paper prototyping at G3
-#    - Wireframing at G4-5
-#    - CreatiCode widget implementation at G5-6
-#    - Interactive prototyping at G6-7
-#    - Full app prototyping at G8
+# 2. ADDED CRITICAL MISSING SKILLS:
+#    - G3: UI element recognition (bridge to wireframing)
+#    - G4: Persona CREATION from research (not just analysis)
+#    - G5: Iteration/redesign cycle skills
+#    - G6: Early AI safety awareness
+#    - G7: Design critique and peer review
+#    - G8: Design system thinking
 #
-# 4. ADDED MODERN UX PATTERNS (G5-8):
-#    - Micro-interactions and feedback design
-#    - Progressive disclosure
-#    - Voice UI design (with CreatiCode speech blocks)
-#    - Gesture-based interaction (with CreatiCode hand tracking)
-#    - Conversational UX (chatbot design with ChatGPT blocks)
+# 3. STRENGTHENED K-2 PROGRESSION:
+#    - GK: Added "design for someone different from me" concept
+#    - G1: Added "ask questions to understand" research skill
+#    - G2: Enhanced iteration cycle with explicit "try again" thinking
 #
-# 5. STRENGTHENED ACCESSIBILITY (all grades):
-#    - Visual accessibility (contrast, size, color-blindness)
-#    - Motor accessibility (keyboard nav, large targets)
-#    - Auditory accessibility (captions, visual alerts)
-#    - Cognitive accessibility (clear language, consistent layout)
-#    - Multimodal input (speech, gesture, touch fallbacks)
+# 4. ENHANCED ACCESSIBILITY STRAND:
+#    - G3: Universal design principles introduction
+#    - G4: WCAG-aligned contrast/readability basics
+#    - G5: Motor accessibility (keyboard, large targets)
+#    - G6-8: Multimodal accessibility (voice, gesture, screen reader)
 #
-# 6. ADDED AI-AUGMENTED DESIGN (G6-8):
-#    - AI as design partner (XO for brainstorming)
-#    - Chatbot personality design
-#    - AI safety and moderation
-#    - AI content personalization
-#    - Critical evaluation of AI suggestions
+# 5. MODERNIZED AI INTEGRATION:
+#    - G6: Recognize AI can help generate ideas (but humans decide)
+#    - G7: Use AI for design critique (with human judgment)
+#    - G8: Full AI-augmented design workflow + AI ethics in design
 #
-# VERB IMPROVEMENTS:
-# All skills use active, measurable verbs: Recognize, Match, Select, Predict,
-# Extract, Compose, Build, Test, Debug, Evaluate, Critique, Design, Implement
+# SKILL STRUCTURE IMPROVEMENTS:
+# - Every skill uses active verbs: Recognize, Match, Select, Predict, Create,
+#   Extract, Compose, Build, Test, Debug, Evaluate, Critique, Design, Implement
+# - K-2: All picture-based with specific visual scenarios
+# - G3-8: Clear auto-grading criteria with CreatiCode block references
+# - Sub-skills use .01, .02 notation for micro-steps
 #
-# TOTAL: 143 skills across K-8
-# Distribution: GK=5, G1=6, G2=8, G3=12, G4=18, G5=18, G6=17, G7=18, G8=25
-# (Note: Some simulation skills preserved for user behavior modeling context)
+# TOTAL: ~105 skills across K-8 (reduced from 143 by removing simulation)
+# Distribution: GK=7, G1=8, G2=8, G3=10, G4=14, G5=14, G6=14, G7=14, G8=16
 
-# === KINDERGARTEN (5 skills) ===
-# Focus: Recognizing helpers, simple usability, emotions in pictures
+# === KINDERGARTEN (7 skills) ===
+# Focus: Recognizing helpers, simple usability, emotions, designing for others
+# NEW: Added "design for someone different" and "why it helps" skills
 
 ID: T05.GK.01
 Topic: T05 – Human‑Centered Design
 Skill: Recognize who a tool helps from picture cards
-Description: Students see a picture card of a person and a tool (e.g., grandparent + smartphone, child + step stool) and click on "Who does this help?" from picture options. Picture-based selection activity with visual scenarios only. Builds foundation for thinking about users.
+Description: **Student task:** See a picture card of a person and a tool, then click on "Who does this help?" from picture options. **Visual scenario:** Picture shows grandparent with magnifying glass, child with step stool, person in wheelchair with ramp. Students tap the person who uses the tool. **Key concept:** Different people need different tools. _Auto-graded by correct selection. CSTA: EK-AP-ALG._
 
 
 
@@ -7162,7 +7888,7 @@ Description: Students see a picture card of a person and a tool (e.g., grandpare
 ID: T05.GK.02
 Topic: T05 – Human‑Centered Design
 Skill: Match problem pictures to helpful tool pictures
-Description: Students drag-and-drop to match picture cards showing simple everyday problems (e.g., picture of dark room) to picture cards showing tools that help (e.g., flashlight). Picture-based matching activity with visual scenarios only.
+Description: **Student task:** Drag-and-drop to match picture cards showing problems to picture cards showing tools that help. **Visual scenario:** Problems: dark room, can't reach high shelf, heavy door. Tools: flashlight, step stool, automatic door opener. **Key concept:** Tools are designed to solve problems! _Auto-graded by correct matches. CSTA: EK-AP-ALG._
 
 Dependencies:
 * T05.GK.01: Recognize who a tool helps from picture cards
@@ -7173,7 +7899,7 @@ Dependencies:
 ID: T05.GK.03
 Topic: T05 – Human‑Centered Design
 Skill: Select the easier-to-use version from two pictures
-Description: Students compare two picture cards of an interface/tool (big vs tiny button, clear vs cluttered screen) and click on which is easier to use. Picture-based comparison activity with visual scenarios only. Introduces usability thinking.
+Description: **Student task:** Compare two picture cards of a tool/screen and click on which is easier to use. **Visual scenario:** Side-by-side: (A) tablet with 3 big colorful buttons vs (B) tablet with 20 tiny gray buttons. Audio asks "Which is easier?" **Correct answer:** (A) with big buttons. **Key concept:** Good design is EASY to use! _Auto-graded by selection. CSTA: EK-AP-ALG._
 
 Dependencies:
 * T05.GK.02: Match problem pictures to helpful tool pictures
@@ -7184,7 +7910,7 @@ Dependencies:
 ID: T05.GK.04
 Topic: T05 – Human‑Centered Design
 Skill: Recognize happy and frustrated faces when using tools
-Description: Students see picture cards showing faces of people using tools (child smiling while using big buttons, adult frowning at tiny text) and sort them into "happy" and "frustrated" piles. Introduces emotional response to design. Picture-based sorting activity.
+Description: **Student task:** See picture cards showing people using tools and sort them into "happy" and "frustrated" piles. **Visual scenario:** Cards show: child smiling at big tablet buttons (happy), grandpa squinting at tiny phone text (frustrated), person in wheelchair using ramp (happy), child crying at broken toy (frustrated). Drag to two buckets. **Key concept:** Design affects how people FEEL! _Auto-graded by correct sorting. CSTA: EK-AP-ALG._
 
 Dependencies:
 * T05.GK.03: Select the easier-to-use version from two pictures
@@ -7195,21 +7921,40 @@ Dependencies:
 ID: T05.GK.05
 Topic: T05 – Human‑Centered Design
 Skill: Select a change picture that makes a device easier to use
-Description: Students see picture cards showing possible changes (bigger button, clearer text, speaker icon for sound) and click on which change would help a pictured character use a device. Picture-based selection activity with visual scenarios only.
+Description: **Student task:** See a frustrated user picture, then select which change would help them. **Visual scenario:** Shows grandma frustrated at tiny phone buttons. Changes: (A) make buttons bigger, (B) add more buttons, (C) make buttons smaller. **Correct answer:** (A) bigger buttons. **Key concept:** We can CHANGE designs to help people! _Auto-graded by selection. CSTA: EK-AP-ALG._
 
 Dependencies:
 * T05.GK.04: Recognize happy and frustrated faces when using tools
 
 
+ID: T05.GK.06
+Topic: T05 – Human‑Centered Design
+Skill: Choose a design that helps someone DIFFERENT from you
+Description: **Student task:** See a user who is different from you (older, younger, uses wheelchair, wears glasses) and pick the design that helps THEM, not you. **Visual scenario:** User: baby learning to walk. Options: (A) toy with big safe buttons, (B) tablet with small text, (C) sharp metal toy. **Correct answer:** (A) safe big buttons for baby. **Key concept:** Good designers think about OTHER people, not just themselves! _Auto-graded by selection. CSTA: EK-IC-C._
+
+Dependencies:
+* T05.GK.05: Select a change picture that makes a device easier to use
 
 
-# === GRADE 1 (6 skills) ===
+ID: T05.GK.07
+Topic: T05 – Human‑Centered Design
+Skill: Explain WHY a design helps by pointing to the helpful part
+Description: **Student task:** See a good design and tap the PART that makes it helpful. **Visual scenario:** Wheelchair-accessible water fountain with low spout. Audio asks "WHY does this help the person in the wheelchair?" Student taps the low spout. Audio confirms "Yes! It's low so they can reach!" **Key concept:** Designs have REASONS for being the way they are! _Auto-graded by hotspot tap. CSTA: EK-IC-C._
+
+Dependencies:
+* T05.GK.06: Choose a design that helps someone DIFFERENT from you
+
+
+
+
+# === GRADE 1 (8 skills) ===
 # Focus: Deeper empathy, matching users to designs, predicting struggles
+# NEW: Added "ask questions to understand users" research skill
 
 ID: T05.G1.01
 Topic: T05 – Human‑Centered Design
 Skill: Recognize what a character needs from a picture story
-Description: Students see a 2-3 panel picture story showing a character with a problem (e.g., child can't reach a shelf, person squinting at small text, someone lost in a building) and choose from picture options what the character needs (a step stool, bigger text, a map sign). Picture-based activity using visual scenarios only.
+Description: **Student task:** See a 2-3 panel picture story showing a character with a problem, then choose what they need. **Visual scenario:** Panel 1: Child looking up at library shelf too high. Panel 2: Child reaching and failing. Panel 3: [?] Options: (A) step stool, (B) smaller books, (C) more shelves. **Correct answer:** (A) step stool. **Key concept:** Stories help us understand what people need! _Auto-graded by selection. CSTA: E1-IC-C._
 
 Dependencies:
 * T05.GK.02: Match problem pictures to helpful tool pictures
@@ -7220,7 +7965,7 @@ Dependencies:
 ID: T05.G1.02
 Topic: T05 – Human‑Centered Design
 Skill: Match a need picture to a design solution picture
-Description: Students match picture cards showing problems (person squinting at screen, person in wheelchair at stairs, child confused by many buttons) to picture cards showing solutions (larger screen, ramp, fewer bigger buttons). Drag-and-drop picture matching activity.
+Description: **Student task:** Match 3 need pictures to 3 solution pictures by drawing lines. **Visual scenario:** Needs: (A) person squinting at screen, (B) person in wheelchair at stairs, (C) child overwhelmed by 20 buttons. Solutions: (1) larger text, (2) ramp, (3) fewer bigger buttons. **Correct matches:** A-1, B-2, C-3. **Key concept:** Every need has a design solution! _Auto-graded by correct line connections. CSTA: E1-IC-C._
 
 Dependencies:
 * T05.G1.01: Recognize what a character needs from a picture story
@@ -7231,7 +7976,7 @@ Dependencies:
 ID: T05.G1.03
 Topic: T05 – Human‑Centered Design
 Skill: Choose a better screen version for a pictured user
-Description: Students see a picture of a user (young child, elderly person with glasses, person using one hand) and two screen versions side by side, then click on which screen version would work better for that pictured user. Picture-based comparison activity.
+Description: **Student task:** See a specific user, then pick which of two screens works better FOR THEM. **Visual scenario:** User: grandpa with reading glasses. Screen A: large text, big buttons. Screen B: tiny text, many small icons. **Correct answer:** Screen A (large text). **Key concept:** Different users need different designs - match design to user! _Auto-graded by selection. CSTA: E1-IC-C._
 
 Dependencies:
 * T05.GK.03: Select the easier-to-use version from two pictures
@@ -7242,7 +7987,7 @@ Dependencies:
 ID: T05.G1.04
 Topic: T05 – Human‑Centered Design
 Skill: Choose one change picture that helps a pictured user
-Description: Students see a picture of a user with a specific need and a device/screen, then choose from 3-4 picture options showing possible changes (bigger buttons, added pictures, speaker icon, brighter colors) which change would help that user most. Picture-based selection activity.
+Description: **Student task:** See a user struggling with a device, then pick the ONE change that helps them most. **Visual scenario:** User: person with arm in cast trying to use two-hand game controller. Changes: (A) one-hand controller, (B) faster game, (C) smaller controller. **Correct answer:** (A) one-hand controller. **Key concept:** The BEST change solves their SPECIFIC problem! _Auto-graded by selection. CSTA: E1-IC-C._
 
 Dependencies:
 * T05.G1.02: Match a need picture to a design solution picture
@@ -7253,7 +7998,7 @@ Dependencies:
 ID: T05.G1.05
 Topic: T05 – Human‑Centered Design
 Skill: Predict which user will struggle with a pictured tool
-Description: Students see a picture of a tool (e.g., tablet with small buttons, toy with complicated instructions) and three user pictures (young child, teenager, elderly person). They predict which user might have the most trouble using the tool by clicking on their picture. Builds predictive thinking about user-tool fit. Picture-based selection activity.
+Description: **Student task:** See a tool with a design problem, then predict which user will struggle most. **Visual scenario:** Tool: tablet with tiny gray buttons and small text. Users: (A) teenager, (B) 4-year-old, (C) grandpa with glasses. **Correct answer:** Both (B) and (C) struggle, but (C) grandpa struggles most with tiny text. **Key concept:** Predict problems BEFORE they happen! _Auto-graded by selection. CSTA: E1-IC-C._
 
 Dependencies:
 * T05.G1.03: Choose a better screen version for a pictured user
@@ -7265,22 +8010,42 @@ Dependencies:
 ID: T05.G1.06
 Topic: T05 – Human‑Centered Design
 Skill: Sort emotion faces by how good the design made users feel
-Description: Students see 4 face pictures showing different emotions (very happy, okay, sad, confused) and drag them to match different design scenarios shown in pictures (easy app vs confusing app vs broken app). Builds understanding that design affects emotions. Picture-based sorting activity.
+Description: **Student task:** Drag 4 emotion faces to match 4 design scenarios. **Visual scenario:** Faces: very happy, okay, sad, confused. Scenarios: (1) easy app with big buttons → very happy, (2) app with too many options → confused, (3) broken app that crashes → sad, (4) plain but working app → okay. **Key concept:** Design quality = user emotions! _Auto-graded by correct matches. CSTA: E1-IC-C._
 
 Dependencies:
 * T05.GK.04: Recognize happy and frustrated faces when using tools
 * T05.G1.01: Recognize what a character needs from a picture story
 
 
+ID: T05.G1.07
+Topic: T05 – Human‑Centered Design
+Skill: Select good questions to ask a user about their needs
+Description: **Student task:** Pick the GOOD questions that help us learn what a user needs. **Visual scenario:** Want to make a game for your little sister. Questions: (A) "What games do you like?" - GOOD, (B) "You like MY favorite game, right?" - BAD (assumes answer), (C) "What's hard about games you play?" - GOOD, (D) "Do you even play games?" - BAD (yes/no). Select A and C. **Key concept:** Asking good questions helps us understand users! _Auto-graded by selecting both good questions. CSTA: E1-IC-C._
+
+Dependencies:
+* T05.G1.01: Recognize what a character needs from a picture story
+
+
+ID: T05.G1.08
+Topic: T05 – Human‑Centered Design
+Skill: Sequence a "design-try-fix" cycle using picture cards
+Description: **Student task:** Put 4 picture cards in order showing how designers work. **Visual scenario:** Cards (scrambled): (A) Designer thinks about user, (B) Designer makes something, (C) User tries it and gets confused, (D) Designer fixes the problem. **Correct order:** A → B → C → D. **Key concept:** Design is a cycle: think → make → test → fix! _Auto-graded by correct order. CSTA: E1-AP-ALG._
+
+Dependencies:
+* T05.G1.06: Sort emotion faces by how good the design made users feel
+* T05.G1.04: Choose one change picture that helps a pictured user
+
+
 
 
 # === GRADE 2 (8 skills) ===
-# Focus: User preferences, accessibility features, design cycles, bridging to text
+# Focus: User preferences, accessibility features, iteration cycles, bridging to text
+# REMOVED: G2.03 and G2.04 (simulation skills) - moved to T04
 
 ID: T05.G2.01
 Topic: T05 – Human‑Centered Design
 Skill: Match user pictures to preferred design pictures
-Description: Students see three picture cards of users (e.g., kid, adult, person with glasses) and drag-and-drop to match each to a preferred design picture (colorful icons, simple layout, high contrast). Picture-based matching activity with visual scenarios only.
+Description: **Student task:** Match 3 user pictures to 3 design pictures showing what each user prefers. **Visual scenario:** Users: (A) 5-year-old child, (B) business adult, (C) person with low vision. Designs: (1) colorful cartoon icons, (2) simple clean layout, (3) high contrast black/white with large text. **Correct matches:** A-1, B-2, C-3. **Key concept:** Different users have different preferences! _Auto-graded by correct line matches. CSTA: E2-IC-C._
 
 Dependencies:
 * T05.G1.03: Choose a better screen version for a pictured user
@@ -7291,94 +8056,86 @@ Dependencies:
 ID: T05.G2.02
 Topic: T05 – Human‑Centered Design
 Skill: Circle accessibility features in a picture
-Description: Students see interface screenshots and circle or click on accessibility features they can identify (large buttons, speaker icons for sound, picture labels, high contrast colors). Picture-based feature identification activity where students recognize helpful design elements.
+Description: **Student task:** See an interface screenshot and click on all the accessibility features you find. **Visual scenario:** App screen with: (A) large colorful buttons - YES, (B) speaker icon for audio - YES, (C) picture labels under text - YES, (D) high contrast colors - YES, (E) tiny gray text - NO (this is a problem!). Click 4 correct features. **Key concept:** Accessibility features help MORE people use the design! _Auto-graded by identifying 4 features. CSTA: E2-IC-C._
 
 Dependencies:
 * T05.G1.04: Choose one change picture that helps a pictured user
 
 
-
-
 ID: T05.G2.03
 Topic: T05 – Human‑Centered Design
-Skill: Match real situations to pretend computer versions
-Description: Students see picture pairs showing real things and their "pretend computer versions" (e.g., real traffic light vs animated traffic light on screen, real weather vs weather animation). They drag and drop to match which real situations have a computer pretend version, then choose which would be safer to try on computer first. Picture-based matching activity without written explanation.
-
-Dependencies:
-* T05.G1.01: Recognize what a character needs from a picture story
-
-
-
-
-ID: T05.G2.04
-Topic: T05 – Human‑Centered Design
-Skill: Choose what to include in a very simple simulation
-Description: Students see a picture of a situation (e.g., garden with sun, rain, flowers, bugs, fence). They drag and drop 2-3 pictures of important things to include in a "computer pretend version" to answer a question like "What helps the plant grow?" while leaving out unimportant details.
-
-Dependencies:
-* T05.G2.03: Match real situations to pretend computer versions
-
-
-
-
-ID: T05.G2.05
-Topic: T05 – Human‑Centered Design
 Skill: Drag picture labels to match needs shown in a picture story
-Description: Students see a 3-panel picture story of a user struggling with something (e.g., child squinting at tiny phone screen, grandparent confused by many buttons). They drag picture labels (magnifying glass for "bigger", fewer buttons icon for "simpler") to match each need. Picture-based labeling bridges to text-based work in G3.
+Description: **Student task:** See a picture story of user struggling, then drag picture labels to identify their needs. **Visual scenario:** 3-panel story: (1) Grandpa opens phone, (2) Grandpa squints at tiny buttons, (3) Grandpa looks frustrated. Labels: magnifying glass = "needs bigger", ear = "needs louder", clock = "needs faster". **Correct label:** Magnifying glass for "needs bigger". **Key concept:** We can NAME what users need! _Auto-graded by correct label. CSTA: E2-IC-C._
 
 Dependencies:
 * T05.G2.01: Match user pictures to preferred design pictures
 * T05.G2.02: Circle accessibility features in a picture
 
 
+ID: T05.G2.04
+Topic: T05 – Human‑Centered Design
+Skill: Read a one-sentence need and choose the matching solution picture
+Description: **Student task:** Read a sentence about a user need, then pick the picture that solves it. **Visual scenario:** Text: "Maria has trouble seeing small words on screens." Pictures: (A) bigger text, (B) louder speakers, (C) faster loading. **Correct answer:** (A) bigger text. **Key concept:** Match solutions to specific needs! _Bridges reading to visual reasoning. Auto-graded by selection. CSTA: E2-IC-C._
+
+Dependencies:
+* T05.G2.03: Drag picture labels to match needs shown in a picture story
+
+
+
+
+ID: T05.G2.05
+Topic: T05 – Human‑Centered Design
+Skill: Sequence 4 pictures showing design-test-improve cycle
+Description: **Student task:** Put 4 scrambled pictures in order showing the design cycle. **Visual scenario:** (A) Designer asks user questions, (B) Designer sketches an idea, (C) User tries the design and looks confused, (D) Designer changes the design based on feedback. **Correct order:** A → B → C → D. **Key concept:** Design is a CYCLE: ask → make → test → improve! _Auto-graded by correct order. CSTA: E2-AP-ALG._
+
+Dependencies:
+* T05.G2.03: Drag picture labels to match needs shown in a picture story
+* T05.G2.04: Read a one-sentence need and choose the matching solution picture
 
 
 ID: T05.G2.06
 Topic: T05 – Human‑Centered Design
-Skill: Read a one-sentence need and choose the matching solution picture
-Description: Students read a simple sentence describing a user need (e.g., "Maria has trouble seeing small words") and choose from 3 picture options showing solutions (bigger text, louder sound, faster loading). Introduces reading comprehension for user needs while keeping response picture-based.
-
-Dependencies:
-* T05.G2.05: Drag picture labels to match needs shown in a picture story
-
-
-
-
-ID: T05.G2.07
-Topic: T05 – Human‑Centered Design
-Skill: Sequence 4 pictures showing design-test-improve cycle
-Description: Students see 4 scrambled pictures showing: (1) person thinking about an idea, (2) person building/drawing something, (3) another person trying it and looking confused, (4) first person making changes. They drag pictures into correct order to show the design cycle. Prepares for G3.01 sequencing with more steps. Picture-based sequencing activity.
-
-Dependencies:
-* T05.G2.05: Drag picture labels to match needs shown in a picture story
-* T05.G2.06: Read a one-sentence need and choose the matching solution picture
-
-
-
-
-ID: T05.G2.08
-Topic: T05 – Human‑Centered Design
 Skill: Watch a picture story and spot what made a user confused
-Description: Students see a 3-4 panel picture story showing someone using a device and getting confused at one step (e.g., clicking wrong button, looking lost at a menu). They click on the panel where confusion happened. Introduces observation-based research. Picture-based selection activity.
+Description: **Student task:** See a 4-panel story of someone using a device and click on the panel where they got confused. **Visual scenario:** (1) Child opens app, (2) Child looks at menu with 15 options, (3) Child's face shows confusion and frustration, (4) Child gives up. **Correct answer:** Panel 3 (or 2 where the problem is). **Key concept:** WATCHING users helps us find problems! _Auto-graded by panel selection. CSTA: E2-IC-C._
 
 Dependencies:
 * T05.G1.06: Sort emotion faces by how good the design made users feel
 * T05.G2.02: Circle accessibility features in a picture
 
 
+ID: T05.G2.07
+Topic: T05 – Human‑Centered Design
+Skill: Select the SAME design but with ONE accessibility improvement
+Description: **Student task:** See a design with an accessibility problem, then pick the improved version. **Visual scenario:** Original: app with gray text on gray background (hard to read). Options: (A) same app with black text on white (high contrast) - CORRECT, (B) same app but smaller text, (C) same app but more buttons. **Key concept:** Small changes can make designs accessible to MORE people! _Auto-graded by selection. CSTA: E2-IC-C._
+
+Dependencies:
+* T05.G2.02: Circle accessibility features in a picture
+* T05.G2.04: Read a one-sentence need and choose the matching solution picture
 
 
-# === GRADE 3 (12 skills) ===
-# Focus: HCD process, user research basics, paper prototyping, accessibility matching
+ID: T05.G2.08
+Topic: T05 – Human‑Centered Design
+Skill: Predict if a user will be happy or confused with a design
+Description: **Student task:** See a user and a design, then predict how they'll feel using it. **Visual scenario:** User: child who can't read yet. Design: app with only text labels, no pictures. Predict: (A) happy, (B) confused, (C) angry. **Correct answer:** (B) confused (can't read the text!). **Key concept:** Think about users BEFORE they try your design! _Auto-graded by selection. CSTA: E2-IC-C._
+
+Dependencies:
+* T05.G2.06: Watch a picture story and spot what made a user confused
+* T05.G1.05: Predict which user will struggle with a pictured tool
+
+
+# === GRADE 3 (10 skills) ===
+# Focus: HCD process, user research basics, paper prototyping, UI element recognition
+# REMOVED: G3.04, G3.05, G3.07 (simulation skills) - moved to T04
+# ADDED: UI element recognition to bridge to wireframing
 
 ID: T05.G3.01
 Topic: T05 – Human‑Centered Design
 Skill: Arrange human-centered design steps into correct sequence
-Description: Students drag-and-drop cards showing HCD cycle phases ("learn about users," "plan design," "build prototype," "test with users," "improve") into correct order. Activity shows why iterative design matters - after testing, designers return to earlier steps to make improvements.
+Description: Students drag-and-drop 5 cards showing HCD cycle phases into correct order: (1) "Learn about users" → (2) "Plan design" → (3) "Build prototype" → (4) "Test with users" → (5) "Improve based on feedback". After ordering, students see that the cycle can REPEAT - testing leads back to improving and testing again. **Key concept:** HCD is iterative - we keep improving! _Auto-graded by correct order. CSTA: E3-AP-ALG._
 
 Dependencies:
-* T05.G2.06: Read a one-sentence need and choose the matching solution picture
-* T05.G2.07: Sequence 4 pictures showing design-test-improve cycle
+* T05.G2.04: Read a one-sentence need and choose the matching solution picture
+* T05.G2.05: Sequence 4 pictures showing design-test-improve cycle
 
 
 
@@ -7386,18 +8143,16 @@ Dependencies:
 ID: T05.G3.01.01
 Topic: T05 – Human‑Centered Design
 Skill: Locate the "learn about users" phase in a design story
-Description: Students read a short story about someone creating an app and select which part shows "learning about users" (e.g., asking friends what games they like, watching how someone uses a tablet). Multiple choice with 3-4 options.
+Description: Students read a short story about creating an app: "Sam wanted to make a homework app. First, Sam asked 5 classmates what homework problems they had. Then Sam drew some screens. Then Sam let a friend try it." Question: Which part shows "learning about users"? Options: (A) Asking classmates about problems - CORRECT, (B) Drawing screens, (C) Letting friend try it. **Key concept:** Research happens BEFORE building! _Auto-graded by MCQ. CSTA: E3-IC-C._
 
 Dependencies:
 * T05.G3.01: Arrange human-centered design steps into correct sequence
 
 
-
-
 ID: T05.G3.01.02
 Topic: T05 – Human‑Centered Design
 Skill: Locate the "test and improve" phase in a design story
-Description: Students read a short story about creating an app and select which part shows "testing and improving" (e.g., letting a friend try the app and then fixing the confusing button). Distinguishes testing from building or planning.
+Description: Students read story continuation: "Sam's friend tried the app. She said the Save button was too small to tap. Sam made the button bigger." Question: Which shows testing AND improving? Options: (A) Friend said button was small - testing only, (B) Sam made button bigger - improving only, (C) Both together - CORRECT. **Key concept:** Testing reveals problems, improving fixes them! _Auto-graded by MCQ. CSTA: E3-AP-ALG._
 
 Dependencies:
 * T05.G3.01: Arrange human-centered design steps into correct sequence
@@ -7408,11 +8163,11 @@ Dependencies:
 ID: T05.G3.02
 Topic: T05 – Human‑Centered Design
 Skill: Distinguish user needs from wants in an interview transcript
-Description: Students read 3-4 lines of a mock user interview (e.g., "I always forget my homework assignments. My teacher writes them on the board but I can't see well from the back row. I wish the app had cool animations.") and sort statements into "needs" (essential problems to solve) vs "wants" (nice-to-have preferences). Multiple choice format.
+Description: Students read a mock interview: "I always forget homework. My teacher writes on the board but I can't see from the back row. I wish the app had cool animations and dark mode." Sort statements into NEEDS vs WANTS: (A) "forget homework" → NEED, (B) "can't see from back" → NEED, (C) "cool animations" → WANT, (D) "dark mode" → WANT. **Key concept:** Needs are problems to SOLVE; wants are nice-to-haves! _Auto-graded by sorting. CSTA: E3-IC-C._
 
 Dependencies:
-* T05.G2.06: Read a one-sentence need and choose the matching solution picture
-* T05.G1.01: Identify what a character needs from pictures
+* T05.G2.04: Read a one-sentence need and choose the matching solution picture
+* T05.G1.01: Recognize what a character needs from a picture story
 
 
 
@@ -7420,22 +8175,20 @@ Dependencies:
 ID: T05.G3.02.01
 Topic: T05 – Human‑Centered Design
 Skill: Extract user constraints from an interview transcript
-Description: Students read interview quotes and extract constraints the user cannot change (e.g., "I can only use one hand," "I don't have internet at home," "I have 5 minutes between classes"). Distinguishes constraints from preferences. Builds toward G4 persona work.
+Description: Students read interview: "I can only use one hand because I broke my arm. I don't have internet at home. I only have 5 minutes between classes." Identify CONSTRAINTS (things user CANNOT change): (A) one hand - CONSTRAINT, (B) no internet - CONSTRAINT, (C) 5 minutes - CONSTRAINT, (D) wants dark mode - NOT a constraint (preference). **Key concept:** Constraints MUST be designed around! _Auto-graded by correct identification. CSTA: E3-IC-C._
 
 Dependencies:
 * T05.G3.02: Distinguish user needs from wants in an interview transcript
-
-
 
 
 ID: T05.G3.02.02
 Topic: T05 – Human‑Centered Design
 Skill: Summarize user's main problem in one sentence
-Description: After reading a short interview transcript, students write or select a one-sentence summary of the user's core problem (e.g., "Sam needs a way to remember homework because he can't see the board from his seat"). Practices distilling verbose input into actionable insight.
+Description: After reading interview, students select the BEST one-sentence summary. Interview: "I forget homework. Can't see the board from my seat. Teacher erases it too fast." Summaries: (A) "Sam likes dark mode" - WRONG (not mentioned), (B) "Sam needs a way to get homework info since he can't see the board" - CORRECT, (C) "Sam has 5 minutes" - WRONG (partial). **Key concept:** Summarizing helps focus design! _Auto-graded by MCQ. CSTA: E3-IC-C._
 
 Dependencies:
 * T05.G3.02: Distinguish user needs from wants in an interview transcript
-* T05.G3.02.01: Identify user constraints from an interview transcript
+* T05.G3.02.01: Extract user constraints from an interview transcript
 
 
 
@@ -7443,102 +8196,90 @@ Dependencies:
 ID: T05.G3.03
 Topic: T05 – Human‑Centered Design
 Skill: Select design improvements based on user feedback
-Description: Students read 1-2 short feedback comments from a mock user test (e.g., "The buttons are too small for me to tap" or "I couldn't find where to save my work") and select from 3-4 options which design change would best address the feedback. Multiple choice format with clear correct answer.
+Description: Students read feedback: "The buttons are too small for me to tap" and "I couldn't find where to save my work." Select the BEST fix for each: (A) Make buttons bigger - fixes button problem, (B) Add visible Save button - fixes save problem, (C) Change colors - doesn't fix either. **Key concept:** Match fixes to specific feedback! _Auto-graded by MCQ. CSTA: E3-IC-C._
 
 Dependencies:
 * T05.G2.02: Circle accessibility features in a picture
 
 
-
-
 ID: T05.G3.04
 Topic: T05 – Human‑Centered Design
-Skill: Select the main variable a simple simulation should display
-Description: Students select what the main "thing that changes" is in a simple simulation (e.g., plant height, number of cars) from multiple choice options, considering what question they want the simulation to help answer.
+Skill: Recognize common UI elements by name and purpose
+Description: Students match 5 UI element names to their pictures and purposes: (A) Button → clicking does action, (B) Text input → typing words, (C) Dropdown → choosing from list, (D) Checkbox → yes/no toggle, (E) Label → shows information. **Key concept:** UI elements have specific purposes - know them to design well! _Auto-graded by matching. Bridges to wireframing in G5. CSTA: E3-AP-ALG._
 
 Dependencies:
-* T05.G2.04: Choose what to include in a very simple simulation
-
-
+* T05.G3.03: Select design improvements based on user feedback
 
 
 ID: T05.G3.05
 Topic: T05 – Human‑Centered Design
-Skill: Select simple rules for a simulation
-Description: Students pick rules such as "if it rains, plant grows taller" from options to define simulation behavior, keeping each rule small and focused on one cause/effect.
-
-Dependencies:
-* T05.G2.04: Choose what to include in a very simple simulation
-
-
-
-
-ID: T05.G3.06
-Topic: T05 – Human‑Centered Design
 Skill: Match accessibility features to users who benefit
-Description: Students see accessibility features (captions, large text, high contrast, keyboard shortcuts, voice control) and match each to which user types benefit most (deaf/hard of hearing, low vision, motor difficulty, prefer keyboard). Bridges feature identification to issue recognition.
+Description: Match 5 accessibility features to user types: (A) Captions → deaf/hard of hearing, (B) Large text → low vision, (C) High contrast → color blindness, (D) Voice control → motor difficulty, (E) Keyboard shortcuts → can't use mouse. **Key concept:** Different features help different users! _Auto-graded by line matching. CSTA: E3-IC-C._
 
 Dependencies:
 * T05.G2.02: Circle accessibility features in a picture
 * T05.G2.01: Match user pictures to preferred design pictures
 
 
+ID: T05.G3.06
+Topic: T05 – Human‑Centered Design
+Skill: Identify which accessibility features are present in a design
+Description: Students see an interface screenshot and complete a checklist: ☑ Has large buttons? YES/NO, ☑ Has high contrast? YES/NO, ☑ Has captions on video? YES/NO, ☑ Has keyboard navigation? YES/NO. Mark each correctly. Then identify which MISSING feature would help most. **Key concept:** Audit designs for accessibility! _Auto-graded by checklist. CSTA: E3-IC-C._
+
+Dependencies:
+* T05.G3.05: Match accessibility features to users who benefit
 
 
 ID: T05.G3.07
 Topic: T05 – Human‑Centered Design
-Skill: Classify which questions a simulation can answer
-Description: Students see a list of questions about a real-world situation (e.g., "How many birds will there be next year?", "What color are the birds?", "What happens if we plant more trees?") and sort them into "simulation can help answer" vs "need other ways to find out." Builds understanding of what simulations are useful for.
+Skill: Select which UI element to use for a given task
+Description: User need: "I want users to pick their favorite color from 5 options." Which UI element? (A) Button - NO (buttons do actions), (B) Dropdown - YES (lets users choose from list), (C) Text input - NO (too much typing). **Key concept:** Choose the RIGHT element for the task! _Auto-graded by MCQ. CSTA: E3-AP-ALG._
 
 Dependencies:
-* T05.G3.04: Select the main variable a simple simulation should display
-* T05.G3.05: Select simple rules for a simulation
-
-
+* T05.G3.04: Recognize common UI elements by name and purpose
 
 
 ID: T05.G3.08
 Topic: T05 – Human‑Centered Design
-Skill: Identify which accessibility features are present in a design
-Description: Students look at an interface screenshot and identify which accessibility features it already has (e.g., large buttons, high contrast, captions) and which are missing. Creates a checklist of features present vs absent. Bridges G3.06 (matching features to users) to G4.03 (recognizing issues).
+Skill: Sketch a paper prototype for a simple app screen
+Description: Given user need "timer for homework breaks", students draw a paper prototype with at least 3 UI elements: (1) Start/Stop button, (2) Time display label, (3) Reset button. Label each element with its name and purpose. **Key concept:** Paper prototypes are fast and cheap to test! _Auto-graded by element count and labels. CSTA: E3-AP-ALG._
 
 Dependencies:
-* T05.G3.06: Match accessibility features to users who benefit
-
-
+* T05.G3.07: Select which UI element to use for a given task
+* T05.G3.01: Arrange human-centered design steps into correct sequence
 
 
 ID: T05.G3.09
 Topic: T05 – Human‑Centered Design
-Skill: Sketch a paper prototype for a simple app screen
-Description: Students draw a basic paper prototype for one app screen given a user need (e.g., "timer for homework breaks"). They include at least 3 UI elements (button, text, image area) and label each. Introduces rapid prototyping before digital tools.
+Skill: Test a paper prototype by role-playing as user and designer
+Description: Students work in pairs: (1) "User" points at elements and says what they want to do, (2) "Designer" moves paper pieces to show response. Then swap roles. Record: one thing that WORKED and one thing that CONFUSED the user. **Key concept:** Test early with real people! _Auto-graded by completing both roles. CSTA: E3-IC-C._
 
 Dependencies:
-* T05.G3.03: Select design improvements based on user feedback
-* T05.G3.01: Arrange human-centered design steps into correct sequence
-
-
+* T05.G3.08: Sketch a paper prototype for a simple app screen
+* T05.G2.06: Watch a picture story and spot what made a user confused
 
 
 ID: T05.G3.10
 Topic: T05 – Human‑Centered Design
-Skill: Test a paper prototype by role-playing as user and designer
-Description: Students work in pairs: one pretends to use a paper prototype by pointing at elements, the other moves paper pieces to simulate the app's response. They note one thing that worked and one thing that confused the "user." Introduces low-fidelity testing.
+Skill: Revise a paper prototype based on test feedback
+Description: Given feedback "The timer reset button is too small and hard to find," students select the BEST revision: (A) Make reset button bigger and put it next to Start - CORRECT, (B) Remove the reset button - WRONG (removes needed feature), (C) Change the timer color - WRONG (doesn't address feedback). **Key concept:** Iteration = test → feedback → improve! _Auto-graded by MCQ. CSTA: E3-AP-ALG._
 
 Dependencies:
-* T05.G3.09: Sketch a paper prototype for a simple app screen
-* T05.G2.08: Watch a picture story and spot what made a user confused
+* T05.G3.09: Test a paper prototype by role-playing as user and designer
+* T05.G3.03: Select design improvements based on user feedback
 
 
 
 
-# === GRADE 4 (16 skills) ===
-# Focus: Personas, empathy mapping, accessibility barriers, user stories, interview skills
+# === GRADE 4 (14 skills) ===
+# Focus: Personas (analysis AND creation), empathy mapping, accessibility barriers, user stories
+# REMOVED: G4.05, G4.05a, G4.06, G4.06.01-03 (simulation skills) - moved to T04
+# ADDED: Persona creation from research notes
 
 ID: T05.G4.01
 Topic: T05 – Human‑Centered Design
 Skill: Extract design-relevant details from a user persona
-Description: Students read a short persona card (3-4 sentences covering age, context, goals, constraints) and highlight or select which details would most influence design decisions. For example, from "Maya is 10, uses a tablet for homework, struggles to read small text, prefers colorful apps," students extract "struggles to read small text" as a key detail for design.
+Description: Persona: "Maya is 10, uses a tablet for homework, struggles to read small text, prefers colorful apps, has 30 min homework time." Which details affect design MOST? Select: (A) struggles to read small text - HIGH impact, (B) prefers colorful apps - MEDIUM impact, (C) age 10 - LOW impact (doesn't directly affect design), (D) 30 min time - MEDIUM impact. **Key concept:** Some persona details matter MORE for design! _Auto-graded by correct ranking. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G3.01: Arrange human-centered design steps into correct sequence
@@ -7550,7 +8291,7 @@ Dependencies:
 ID: T05.G4.01.01
 Topic: T05 – Human‑Centered Design
 Skill: Distinguish user constraints from preferences in a persona
-Description: Students read a persona and sort details into "constraints" (things the user cannot change, like vision difficulty) vs "preferences" (things the user likes but could adapt, like colorful apps). Helps students prioritize which persona details are essential to address.
+Description: Sort persona details into CONSTRAINTS (cannot change) vs PREFERENCES (can adapt): (A) "Uses one hand" → CONSTRAINT, (B) "Prefers blue colors" → PREFERENCE, (C) "Has low vision" → CONSTRAINT, (D) "Likes fast animations" → PREFERENCE. **Key concept:** Design MUST address constraints; preferences are nice-to-have! _Auto-graded by correct sorting. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G4.01: Extract design-relevant details from a user persona
@@ -7558,11 +8299,12 @@ Dependencies:
 
 ID: T05.G4.01.02
 Topic: T05 – Human‑Centered Design
-Skill: Prioritize persona details by design impact
-Description: Students rank 4-5 details from a persona by how much each affects design decisions. They drag details into high/medium/low impact tiers and justify their top choice. Builds systematic prioritization before design begins.
+Skill: Create a user persona from interview notes
+Description: Given interview notes: "Sam, age 12, uses phone for homework. Says: 'I forget due dates. I can't focus for long. I like games with rewards.'" Create persona card with 4 sections: (1) Name/Age: Sam, 12, (2) Context: uses phone for homework, (3) Needs: remember due dates, stay focused, (4) Motivations: rewards/gamification. **Key concept:** Transform research into usable personas! _Auto-graded by completing all sections. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G4.01.01: Distinguish user constraints from preferences in a persona
+* T05.G3.02.02: Summarize user's main problem in one sentence
 
 
 
@@ -7570,7 +8312,7 @@ Dependencies:
 ID: T05.G4.02
 Topic: T05 – Human‑Centered Design
 Skill: Match app design variants to user personas
-Description: Students see a persona description and two different app design screenshots, then select which design better matches the persona's needs. They also select from multiple choice options why that design is better suited (e.g., "Design A has larger buttons which helps Maya who struggles with small text").
+Description: Persona: "Maya struggles to read small text." Design A: large text, big buttons. Design B: tiny text, many small icons. Which matches Maya? Select Design A. Then explain WHY: "Design A has larger text which helps Maya who struggles with small text." **Key concept:** Match design choices to persona needs! _Auto-graded by design selection + explanation MCQ. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G3.02: Distinguish user needs from wants in an interview transcript
@@ -7582,11 +8324,11 @@ Dependencies:
 ID: T05.G4.03
 Topic: T05 – Human‑Centered Design
 Skill: Spot accessibility barriers in interface screenshots
-Description: Students view an interface screenshot containing accessibility issues and click on or circle specific problems: tiny text (hard to read), low contrast (text blends into background), missing captions (video has no subtitles), cluttered layout (too many elements). Activity requires locating at least 2 issues from the screenshot.
+Description: View interface screenshot and click on 3+ accessibility problems: (A) tiny gray text on gray background - LOW CONTRAST, (B) video with no subtitles - MISSING CAPTIONS, (C) 25 tiny buttons - CLUTTERED LAYOUT, (D) no keyboard focus indicator - MISSING KEYBOARD NAV. Identify at least 3. **Key concept:** Accessibility barriers exclude users! _Auto-graded by identifying 3+ issues. CSTA: E4-IC-C._
 
 Dependencies:
-* T05.G3.08: Identify which accessibility features are present in a design
-* T05.G3.06: Match accessibility features to users who benefit
+* T05.G3.06: Identify which accessibility features are present in a design
+* T05.G3.05: Match accessibility features to users who benefit
 
 
 
@@ -7594,7 +8336,7 @@ Dependencies:
 ID: T05.G4.03.01
 Topic: T05 – Human‑Centered Design
 Skill: Categorize accessibility barriers by type
-Description: Students see 4-5 accessibility issues and sort them into categories: visual barriers (text size, contrast, color-only indicators), motor barriers (small click targets, no keyboard access), auditory barriers (no captions, no visual alerts), or cognitive barriers (complex language, confusing layout). Builds systematic thinking about accessibility.
+Description: Sort 5 barriers into categories: (A) Tiny text → VISUAL, (B) Small click targets → MOTOR, (C) No captions → AUDITORY, (D) Complex jargon → COGNITIVE, (E) No keyboard access → MOTOR. **Key concept:** Different barrier types affect different users! _Auto-graded by correct categorization. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G4.03: Spot accessibility barriers in interface screenshots
@@ -7605,450 +8347,264 @@ Dependencies:
 ID: T05.G4.04
 Topic: T05 – Human‑Centered Design
 Skill: Select fixes for identified accessibility issues
-Description: Students see a specific accessibility issue (e.g., "Users with low vision can't read the small text") and select from 3-4 options which fix best addresses it (e.g., increase font size to 16px+, add text-to-speech, improve contrast, add magnification). Focus is matching the right solution to the right problem.
+Description: Issue: "Users with low vision can't read the small text." Select BEST fix: (A) Increase font size to 16px+ - CORRECT, (B) Make text italic - WRONG, (C) Add more text - WRONG, (D) Change text color to gray - WRONG (makes it worse!). **Key concept:** Match the right fix to the specific barrier! _Auto-graded by MCQ. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G4.03: Spot accessibility barriers in interface screenshots
 * T05.G3.03: Select design improvements based on user feedback
 
 
-
-
-ID: T05.G4.04a
-Topic: T05 – Human‑Centered Design
-Skill: Compose a user story in standard format
-Description: Given a short user scenario (e.g., "Sam is 8 and wants to track homework but often forgets due dates"), students complete a structured user story: "As a [user type], I need [feature] so that [benefit]." Students fill in blanks from dropdown menus or type short answers. Example completion: "As a student, I need reminders for due dates so that I don't forget my homework."
-
-Dependencies:
-* T05.G4.01: Identify design-relevant details in a user persona
-* T05.G4.02: Match app design variants to user personas
-
-
-
-
 ID: T05.G4.05
 Topic: T05 – Human‑Centered Design
-Skill: Categorize factors as included or ignored in a simulation
-Description: Students see a real-world situation and categorize factors by dragging them into "include" (2-3 important factors) and "ignore" (1-2 unimportant details) columns for the simulation.
+Skill: Compose a user story in standard format
+Description: Scenario: "Sam is 8 and wants to track homework but often forgets due dates." Complete user story template: "As a [student], I need [reminders for due dates] so that [I don't forget homework]." Fill in all 3 blanks correctly. **Key concept:** User stories connect WHO, WHAT, and WHY! _Auto-graded by correct template completion. CSTA: E4-IC-C._
 
 Dependencies:
-* T05.G3.04: Select the main variable a simple simulation should display
-* T05.G3.05: Select simple rules for a simulation
-
-
-
-
-ID: T05.G4.05a
-Topic: T05 – Human‑Centered Design
-Skill: Formulate questions a simulation should answer
-Description: Students see a real-world situation and write 2-3 specific questions that a simulation could help answer (e.g., "How will the population change if we add more food?", "What happens if we double the starting number?"). Builds on G3.07 by having students generate their own questions.
-
-Dependencies:
-* T05.G3.07: Classify which questions a simulation can answer
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-
-
+* T05.G4.01: Extract design-relevant details from a user persona
+* T05.G4.02: Match app design variants to user personas
 
 
 ID: T05.G4.06
 Topic: T05 – Human‑Centered Design
-Skill: Select the best justification for a simulation simplification
-Description: Students select the best reason from multiple choice options for why a given factor can be ignored in a simulation (e.g., too complex, not needed for the question, minimal impact on results).
+Skill: Select test tasks that reveal specific design problems
+Description: Suspected problem: "Users can't find the save button." Which test task reveals this? (A) "Please save your work" - CORRECT (directly tests the problem), (B) "What's your favorite color?" - WRONG, (C) "Do you like this app?" - WRONG (too vague). **Key concept:** Test tasks should target suspected problems! _Auto-graded by MCQ. CSTA: E4-IC-C._
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T05.G3.07: Classify which questions a simulation can answer
-
-
-
-
-ID: T05.G4.06.01
-Topic: T05 – Human‑Centered Design
-Skill: Predict simulation behavior from a simple rule set
-Description: Students see a simulation scenario with starting values (e.g., 10 rabbits, 20 carrots) and simple rules (e.g., "each step: rabbits eat 2 carrots, rabbits increase by 1"). They predict the values after 3 steps by applying rules mentally. Builds understanding of how simulation rules affect outcomes before coding.
-
-Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T05.G4.06: Select the best justification for a simulation simplification
-
-
-
-
-ID: T05.G4.06.02
-Topic: T05 – Human‑Centered Design
-Skill: Connect simulation factors to user personas
-Description: Given a user persona with a goal (e.g., farmer wanting to plan crop planting), students select which factors from a list would be most relevant to include in a simulation for that user. Connects HCD persona thinking to simulation design decisions.
-
-Dependencies:
-* T05.G4.01: Identify design-relevant details in a user persona
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-
-
-
-
-ID: T05.G4.06.03
-Topic: T05 – Human‑Centered Design
-Skill: Debug a mental simulation by finding rule conflict
-Description: Students see simulation rules that produce unexpected results (e.g., "rabbits increase by 5" and "rabbits decrease by 3 when food is low" both triggering). They identify the conflicting rules and explain why the result is confusing. Introduces debugging thinking for simulations.
-
-Dependencies:
-* T05.G4.06.01: Predict simulation behavior from a simple rule set
+* T05.G3.03: Select design improvements based on user feedback
+* T05.G4.02: Match app design variants to user personas
+* T05.G3.01.02: Locate the "test and improve" phase in a design story
 
 
 
 
 ID: T05.G4.07
 Topic: T05 – Human‑Centered Design
-Skill: Select test tasks that reveal specific design problems
-Description: Students see a suspected design problem (e.g., "Users can't find the save button") and select from 3-4 options which test task would best reveal it (e.g., "Ask user to save their work and observe" vs "Ask user to change colors" vs "Ask user about their favorite feature"). Multiple choice format introduces usability testing logic.
+Skill: Write an open-ended interview question
+Description: Topic: homework tracking. Write 1 GOOD interview question. Good: "What challenges do you face with homework?" (open-ended). Bad: "Do you like homework?" (yes/no). Bad: "Don't you think reminders would help?" (leading). **Key concept:** Open-ended questions get better information! _Auto-graded by question type check. CSTA: E4-IC-C._
 
 Dependencies:
-* T05.G3.03: Select design improvements based on user feedback
-* T05.G4.02: Match app design variants to user personas
-* T05.G3.01.02: Identify the "test and improve" phase in a design story
+* T05.G3.02: Distinguish user needs from wants in an interview transcript
+* T05.G4.01: Extract design-relevant details from a user persona
 
 
+ID: T05.G4.07.01
+Topic: T05 – Human‑Centered Design
+Skill: Detect leading questions in user research
+Description: Sort 5 questions into LEADING vs NEUTRAL: (A) "Don't you think the buttons are too small?" → LEADING, (B) "How do you feel about the button size?" → NEUTRAL, (C) "Wouldn't notifications be great?" → LEADING, (D) "What helps you remember tasks?" → NEUTRAL. **Key concept:** Leading questions bias responses! _Auto-graded by correct sorting. CSTA: E4-IC-C._
+
+Dependencies:
+* T05.G4.07: Write an open-ended interview question
+
+
+ID: T05.G4.07.02
+Topic: T05 – Human‑Centered Design
+Skill: Rewrite a leading question to be neutral
+Description: Leading question: "Wouldn't it be great if the app had notifications?" Rewrite as neutral: "How do you currently remember important tasks?" or "What methods help you stay organized?" **Key concept:** Transform bias into curiosity! _Auto-graded by neutrality check. CSTA: E4-IC-C._
+
+Dependencies:
+* T05.G4.07.01: Detect leading questions in user research
 
 
 ID: T05.G4.08
 Topic: T05 – Human‑Centered Design
-Skill: Write an open-ended interview question
-Description: Students write 1 interview question to learn about user needs for a given topic (e.g., homework tracking). Question must be open-ended (not yes/no). Good example: "What challenges do you face with homework?" Activity provides sentence starters and evaluates question quality.
-
-Dependencies:
-* T05.G3.02: Distinguish user needs from wants in an interview transcript
-* T05.G4.01: Identify design-relevant details in a user persona
-
-
-
-
-ID: T05.G4.08.01
-Topic: T05 – Human‑Centered Design
-Skill: Detect leading questions in user research
-Description: Students see 4-5 interview questions and detect which are "leading" (suggest an answer, like "Don't you think the buttons are too small?") vs "neutral" (like "How do you feel about the button size?"). Teaches unbiased question design.
-
-Dependencies:
-* T05.G4.08: Write an open-ended interview question
-
-
-
-
-ID: T05.G4.08.02
-Topic: T05 – Human‑Centered Design
-Skill: Rewrite a leading question to be neutral
-Description: Students see a leading question (e.g., "Wouldn't it be great if the app had notifications?") and rewrite it as a neutral question (e.g., "How do you currently remember important tasks?"). Practices transforming biased to unbiased questions.
-
-Dependencies:
-* T05.G4.08.01: Detect leading questions in user research
-
-
-
-
-ID: T05.G4.09
-Topic: T05 – Human‑Centered Design
 Skill: Create a simple empathy map for a user persona
-Description: Students complete an empathy map template with 4 quadrants (Says, Thinks, Does, Feels) based on a user scenario. For example, for a student struggling with homework: Says "I don't have time", Thinks "This is too hard", Does "Opens phone instead", Feels "Stressed". Deepens understanding of user experience.
+Description: Complete empathy map for student struggling with homework. 4 quadrants: SAYS: "I don't have time", THINKS: "This is too hard", DOES: "Opens phone instead", FEELS: "Stressed". Fill all 4 correctly. **Key concept:** Empathy maps reveal user's inner experience! _Auto-graded by quadrant completion. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G4.01: Extract design-relevant details from a user persona
 * T05.G4.01.01: Distinguish user constraints from preferences in a persona
 
 
-
-
-ID: T05.G4.10
+ID: T05.G4.09
 Topic: T05 – Human‑Centered Design
 Skill: Trace a user's steps through a simple app flow
-Description: Students see a 3-screen app mockup and trace the steps a user would take to complete a task (e.g., "Add a new reminder"). They number each action (tap button 1, type text 2, tap save 3) and identify any confusing steps. Introduces user flow analysis.
+Description: See 3-screen app mockup. Task: "Add a new reminder." Trace steps: (1) Tap "+" button on home screen, (2) Type reminder text, (3) Tap "Save". Number each action. Identify confusing step: "Where is the Save button? It's hidden at bottom." **Key concept:** User flow analysis finds friction! _Auto-graded by step numbering. CSTA: E4-IC-C._
 
 Dependencies:
 * T05.G4.02: Match app design variants to user personas
-* T05.G3.10: Test a paper prototype by role-playing as user and designer
+* T05.G3.09: Test a paper prototype by role-playing as user and designer
 
 
 
 
-# === GRADE 5 (20 skills) ===
-# Focus: Requirements, wireframing, user journeys, CreatiCode widget mapping, accessibility specs
+# === GRADE 5 (14 skills) ===
+# Focus: Requirements, wireframing, user journeys, CreatiCode widget implementation
+# REMOVED: G5.03, G5.03.01, G5.04, G5.06, G5.07, G5.08 (simulation skills) - moved to T04
+# ADDED: Iteration cycle skills, usability test execution
 
 ID: T05.G5.01
 Topic: T05 – Human‑Centered Design
 Skill: Write a requirements document with multiple user stories
-Description: Students complete a requirements document containing 3-4 user stories (using "As a... I need... so that..." format) for a simple app idea (e.g., pet care tracker, homework helper). Each user story addresses a different user need. Document also lists 2-3 app features that address these needs.
+Description: Create requirements doc for "pet care tracker" app with 3 user stories: (1) "As a pet owner, I need feeding reminders so I don't forget", (2) "As a parent, I need a pet task log so I can check if kids did chores", (3) "As a child, I need simple buttons so I can use it easily". List 2 features for each story. **Key concept:** Requirements connect user needs to features! _Auto-graded by 3 stories + features. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G4.04a: Compose a user story in standard format
-
-
+* T05.G4.05: Compose a user story in standard format
 
 
 ID: T05.G5.01.01
 Topic: T05 – Human‑Centered Design
 Skill: Map user stories to app features
-Description: Students see 3-4 user stories and 4-5 potential app features, then draw lines to match each user story to the feature(s) that would address it. Some features may address multiple stories; some stories may need multiple features. Practices connecting user needs to implementation.
+Description: Match 3 user stories to 5 features: Story "I need reminders" → Feature "Push notifications". Story "I need task log" → Features "Log screen" AND "History view". Note: some features serve multiple stories, some stories need multiple features. **Key concept:** Features should trace back to user needs! _Auto-graded by line connections. CSTA: E5-IC-C._
 
 Dependencies:
 * T05.G5.01: Write a requirements document with multiple user stories
-
-
 
 
 ID: T05.G5.01.02
 Topic: T05 – Human‑Centered Design
 Skill: Prioritize user stories by importance
-Description: Students rank 4-5 user stories by importance using criteria: How many users does it affect? Is it essential or nice-to-have? Does it block other functionality? Students drag stories into priority order and write one sentence justifying their top choice.
+Description: Rank 4 user stories using criteria: (1) How many users affected? (2) Essential or nice-to-have? (3) Blocks other features? Drag to priority order. Justify top choice: "Feeding reminders is #1 because ALL pet owners need it and pets could get hurt without it." **Key concept:** Prioritize by user impact! _Auto-graded by ranking + justification. CSTA: E5-IC-C._
 
 Dependencies:
 * T05.G5.01: Write a requirements document with multiple user stories
-
-
 
 
 ID: T05.G5.01.03
 Topic: T05 – Human‑Centered Design
 Skill: Detect conflicting user needs across stories
-Description: Students read 4-5 user stories and detect pairs that conflict (e.g., "As a child, I want lots of colors" vs "As a user with sensitivity, I want muted colors"). They explain why these conflict and which user group is larger or more critical.
+Description: Find conflict: Story A: "As a child, I want LOTS of bright colors!" vs Story B: "As a user with light sensitivity, I want MUTED colors." Identify: (1) What conflicts? (brightness), (2) Which group is larger? (children), (3) Which is more critical? (sensitivity - accessibility). **Key concept:** Conflicts require tradeoffs! _Auto-graded by conflict identification. CSTA: E5-IC-C._
 
 Dependencies:
 * T05.G5.01.02: Prioritize user stories by importance
 
 
-
-
 ID: T05.G5.01.04
 Topic: T05 – Human‑Centered Design
 Skill: Propose a compromise for conflicting user needs
-Description: Given conflicting user stories (from G5.01.03), students propose a design solution that addresses both (e.g., "Add a theme toggle so users can choose colorful or muted"). Practices negotiating competing requirements.
+Description: Given color conflict, propose compromise: "Add a theme toggle - 'Fun Mode' (bright) and 'Calm Mode' (muted) so users can choose." Check solution addresses BOTH user groups. **Key concept:** Good design finds creative solutions! _Auto-graded by addressing both needs. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G5.01.03: Identify conflicting user needs across stories
-
-
+* T05.G5.01.03: Detect conflicting user needs across stories
 
 
 ID: T05.G5.02
 Topic: T05 – Human‑Centered Design
 Skill: Arrange UI elements to create a basic wireframe
-Description: Students drag and drop basic UI elements (buttons, text areas, images, navigation bars) onto a screen template to create a simple wireframe layout for a given user story. Focus is on spatial arrangement and visual hierarchy - placing important elements prominently, grouping related items, ensuring logical flow.
+Description: Drag-drop UI elements onto screen template for "add pet" feature: (1) Header at top, (2) Text input for pet name, (3) Dropdown for pet type, (4) Large "Save" button at bottom. Focus on visual hierarchy and grouping. **Key concept:** Wireframes plan layout before coding! _Auto-graded by element placement. CSTA: E5-AP-ALG._
 
 Dependencies:
 * T05.G5.01: Write a requirements document with multiple user stories
+* T05.G3.07: Select which UI element to use for a given task
 
 
-
-
-ID: T05.G5.02a
+ID: T05.G5.02.01
 Topic: T05 – Human‑Centered Design
 Skill: Label wireframe elements with their purpose
-Description: Students add labels to a wireframe explaining what each UI element does (e.g., "Submit button," "User input field," "Help icon"). This practices connecting visual elements to their functional purpose.
+Description: Add labels to wireframe: "Pet Name Input" → "User types pet's name here", "Save Button" → "Confirms and saves new pet", "Cancel Link" → "Returns to home without saving". **Key concept:** Labels ensure everyone understands the design! _Auto-graded by label accuracy. CSTA: E5-AP-ALG._
 
 Dependencies:
 * T05.G5.02: Arrange UI elements to create a basic wireframe
 
 
-
-
-ID: T05.G5.02b
+ID: T05.G5.02.02
 Topic: T05 – Human‑Centered Design
 Skill: Explain how wireframe elements support user tasks
-Description: Students write a brief explanation for 2-3 wireframe elements, connecting each to a specific user task from the requirements (e.g., "The large 'Add' button helps users quickly add new items as stated in requirement #2").
+Description: Connect 3 elements to requirements: "Large Save button at bottom → helps 'simple buttons' user story by being easy to find and tap." Write explanations connecting design to user need. **Key concept:** Every design choice should have a reason! _Auto-graded by requirement connection. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G5.02a: Label wireframe elements with their purpose
+* T05.G5.02.01: Label wireframe elements with their purpose
 
 
-
-
-ID: T05.G5.02c
+ID: T05.G5.02.03
 Topic: T05 – Human‑Centered Design
 Skill: Create two design alternatives for the same user need
-Description: Students sketch two different UI layout approaches for the same user story, then identify one advantage and one disadvantage of each. Introduces design tradeoffs and exploring alternatives before committing to one approach.
+Description: For "add pet" screen, create 2 layouts: Alternative A: All fields on one screen. Alternative B: Step-by-step wizard (3 screens). Identify: A advantage "faster", A disadvantage "overwhelming". B advantage "simpler per screen", B disadvantage "more taps". **Key concept:** Explore options before deciding! _Auto-graded by 2 alternatives + tradeoffs. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G5.02b: Explain how wireframe elements support user tasks
+* T05.G5.02.02: Explain how wireframe elements support user tasks
 
 
 
 
 ID: T05.G5.03
 Topic: T05 – Human‑Centered Design
-Skill: Identify variables and initial values for a simulation
-Description: Students list or select variables (e.g., "number of rabbits") and their starting values from a story, as a planning step before building the simulation in CreatiCode using the variable blocks (e.g., T17/T25-T27).
+Skill: Create a usability test plan with tasks and success criteria
+Description: Create test plan for pet care app with 3 tasks: (1) "Add a new pet" - Success: complete in under 60 seconds, (2) "Find feeding reminder" - Success: find in 3 taps or less, (3) "View pet history" - Success: correct screen without help. **Key concept:** Measurable success criteria make testing objective! _Auto-graded by task + criteria pairs. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T05.G4.05a: Formulate questions a simulation should answer
-* T09.G3.03: Create a variable and display its value
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T03.G5.01: Write a feature list with subtasks for each feature
-
-
+* T05.G3.01: Arrange human-centered design steps into correct sequence
+* T05.G4.06: Select test tasks that reveal specific design problems
 
 
 ID: T05.G5.03.01
 Topic: T05 – Human‑Centered Design
-Skill: Distinguish state variables from parameters in a simulation
-Description: Students categorize simulation factors into "state variables" (things that change during simulation, like population count) vs "parameters" (things set at the start and stay constant, like growth rate). Builds understanding of simulation structure.
-
-Dependencies:
-* T05.G5.03: Identify variables and initial values for a simulation
-
-
-
-
-ID: T05.G5.04
-Topic: T05 – Human‑Centered Design
-Skill: Draft simple update rules for a simulation
-Description: Students choose or write rules for how variables change each step (e.g., "each month, rabbits double"), keeping each rule small and unambiguous so it can be implemented later in code using loops and conditionals.
-
-Dependencies:
-* T05.G3.05: Select simple rules for a simulation
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T07.G5.01: Simulate repeated experiments with a loop
-* T08.G5.01: Draw decision tree flowchart
-* T09.G5.01: Use multiple variables together in a single expression
-
-
-
-
-ID: T05.G5.05
-Topic: T05 – Human‑Centered Design
-Skill: Create a usability test plan with tasks and success criteria
-Description: Students create a usability test plan with 3-4 specific tasks for a tester to try (e.g., "Find the start button," "Add an item to cart," "Change your profile picture"). For each task, students define what success looks like (e.g., "User finds button within 10 seconds without asking for help"). Plan includes task descriptions and measurable success criteria.
-
-Dependencies:
-* T05.G3.01: Arrange human-centered design steps into correct sequence
-* T05.G4.07: Select test tasks that reveal specific design problems
-* T09.G3.03: Create a variable and display its value
-* T10.G5.01: Understand table structure (rows, columns, cells)
-* T02.G5.01: Trace a script with nested loops using debug print
-* T03.G5.01: Write a feature list with subtasks for each feature
-
-
-
-
-ID: T05.G5.05a
-Topic: T05 – Human‑Centered Design
 Skill: Specify accessibility features for a target user group
-Description: Given a user persona with a specific need (e.g., low vision, motor difficulty, hearing impairment), students select which accessibility features from a checklist should be included: high contrast colors, larger click targets, captions for audio, keyboard navigation, screen reader compatibility. They write 1 sentence explaining why each selected feature helps that user.
+Description: Persona: "User with low vision." Select features: ☑ High contrast - YES (helps see text), ☑ Large click targets - YES (easier to tap), ☐ Captions - NO (not vision-related), ☑ Screen reader support - YES (reads aloud). Explain each: "High contrast helps because low vision users need strong color differences." **Key concept:** Match accessibility to specific needs! _Auto-graded by correct selections + explanations. CSTA: E5-IC-C._
 
 Dependencies:
 * T05.G4.04: Select fixes for identified accessibility issues
 
 
+ID: T05.G5.04
+Topic: T05 – Human‑Centered Design
+Skill: Debug a wireframe for missing user flow
+Description: Review wireframe and find 2+ missing flow elements: (1) "No back button on Add Pet screen - user stuck!", (2) "No confirmation after Save - user unsure if it worked", (3) "No error message if name blank". Mark gaps and propose fixes. **Key concept:** Debug designs before coding! _Auto-graded by identifying 2+ gaps. CSTA: E5-IC-C._
+
+Dependencies:
+* T05.G5.02.02: Explain how wireframe elements support user tasks
+* T05.G5.03: Create a usability test plan with tasks and success criteria
+
+
+ID: T05.G5.05
+Topic: T05 – Human‑Centered Design
+Skill: Map wireframe elements to CreatiCode widgets
+Description: Map 5 wireframe elements to CreatiCode widgets: (A) "Pet Name field" → Text Input widget, (B) "Save button" → Button widget, (C) "Pet type selector" → Dropdown widget, (D) "Status display" → Label widget, (E) "Pet photo" → Sprite costume. **Key concept:** Know your tools before building! _Auto-graded by correct mapping. CSTA: E5-AP-ALG._
+
+Dependencies:
+* T05.G5.02.01: Label wireframe elements with their purpose
 
 
 ID: T05.G5.06
 Topic: T05 – Human‑Centered Design
-Skill: Plan what to measure in a simulation experiment
-Description: Students choose what data to record when running a simulation (e.g., population at each step), planning to use tables for data logging and charts for visualization.
+Skill: Specify widget properties for accessibility
+Description: Configure widgets for low vision user: (1) Label widget: font size 24+, high contrast colors, (2) Button widget: size 100x50+ pixels, clear text, bright background, (3) Text Input: large placeholder text, dark border. **Key concept:** Accessibility is in the details! _Auto-graded by property checklist. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G4.05: Categorize factors as included or ignored in a simulation
-* T03.G5.01: Write a feature list with subtasks for each feature
-
-
+* T05.G5.05: Map wireframe elements to CreatiCode widgets
+* T05.G5.03.01: Specify accessibility features for a target user group
 
 
 ID: T05.G5.07
 Topic: T05 – Human‑Centered Design
-Skill: Select design questions that can be tested with simulation
-Description: Given a list of design questions about an app idea (e.g., "Will users like the colors?", "How long until the character runs out of energy?", "Can users find the button?"), students sort them into "test with simulation" vs "test with real users." Builds understanding of when simulation is the right validation tool.
+Skill: Create a user journey map for a simple task
+Description: Map journey for "add new pet": Step 1 (Open app) → Happy, Step 2 (Tap + button) → Neutral, Step 3 (Fill form with many fields) → Frustrated - PAIN POINT, Step 4 (Tap Save) → Relieved, Step 5 (See confirmation) → Happy. Identify opportunity: "Reduce form fields at Step 3." **Key concept:** Journey maps reveal emotional experience! _Auto-graded by complete map. CSTA: E5-IC-C._
 
 Dependencies:
-* T05.G5.03: Identify variables and initial values for a simulation
-* T05.G5.05: Create a usability test plan with tasks and success criteria
-
-
+* T05.G4.09: Trace a user's steps through a simple app flow
+* T05.G4.08: Create a simple empathy map for a user persona
 
 
 ID: T05.G5.08
 Topic: T05 – Human‑Centered Design
-Skill: Plan CreatiCode widget layout for simulation controls
-Description: Students plan the UI for a simulation by selecting and positioning CreatiCode widgets: sliders for parameters (starting values), buttons for start/reset, labels for displaying current values, and chart areas for results. Connects HCD wireframing skills to simulation implementation.
+Skill: Design feedback for user actions in a prototype
+Description: Specify feedback for 4 actions: (1) Button tap → button changes color briefly, (2) Form submit → "Pet added!" success message, (3) Invalid input → red border + "Name required" error, (4) Delete → "Are you sure?" confirmation dialog. **Key concept:** Feedback tells users their action worked! _Auto-graded by 4 feedback specifications. CSTA: E5-AP-ALG._
 
 Dependencies:
 * T05.G5.02: Arrange UI elements to create a basic wireframe
-* T05.G5.03: Identify variables and initial values for a simulation
-
-
+* T05.G5.05: Map wireframe elements to CreatiCode widgets
 
 
 ID: T05.G5.09
 Topic: T05 – Human‑Centered Design
-Skill: Debug a wireframe for missing user flow
-Description: Students review a wireframe and identify missing steps in the user flow (e.g., "There's no way to go back from this screen," "How does the user confirm their choice?"). They mark the gaps and propose additions. Introduces debugging thinking for design artifacts.
-
-Dependencies:
-* T05.G5.02b: Explain how wireframe elements support user tasks
-* T05.G5.05: Create a usability test plan with tasks and success criteria
-
-
-ID: T05.G5.10
-Topic: T05 – Human‑Centered Design
-Skill: Map wireframe elements to CreatiCode widgets
-Description: Students take a wireframe design and map each UI element to the appropriate CreatiCode widget type: buttons (Button widget), text displays (Label widget), user input fields (Text Input widget), choice menus (Dropdown widget). They list each wireframe element and its matching CreatiCode widget, preparing for implementation.
-
-Dependencies:
-* T05.G5.02a: Label wireframe elements with their purpose
-* T05.G5.08: Plan CreatiCode widget layout for simulation controls
-
-
-ID: T05.G5.11
-Topic: T05 – Human‑Centered Design
-Skill: Specify widget properties for accessibility
-Description: Students configure CreatiCode widget properties to meet accessibility needs: large font sizes for Label widgets, high-contrast colors for Button widgets, clear placeholder text for Text Input widgets. They complete a checklist connecting each widget to its accessibility settings.
-
-Dependencies:
-* T05.G5.10: Map wireframe elements to CreatiCode widgets
-* T05.G5.05a: Specify accessibility features for a target user group
-
-
-
-
-ID: T05.G5.12
-Topic: T05 – Human‑Centered Design
-Skill: Create a user journey map for a simple task
-Description: Students create a journey map showing the steps, emotions, and pain points a user experiences while completing a task in an app. Map includes: steps (what user does), emotions (happy/neutral/frustrated at each step), and opportunities (where design could help). Visualizes the user experience over time.
-
-Dependencies:
-* T05.G4.10: Trace a user's steps through a simple app flow
-* T05.G4.09: Create a simple empathy map for a user persona
-
-
-
-
-ID: T05.G5.13
-Topic: T05 – Human‑Centered Design
-Skill: Design feedback for user actions in a prototype
-Description: Students specify what feedback users should receive for key actions: button press (color change, sound), form submission (success message), error (helpful error text). They list 3-4 user actions and the corresponding feedback. Introduces micro-interaction design.
-
-Dependencies:
-* T05.G5.02: Arrange UI elements to create a basic wireframe
-* T05.G5.10: Map wireframe elements to CreatiCode widgets
-
-
-
-
-ID: T05.G5.14
-Topic: T05 – Human‑Centered Design
 Skill: Build a clickable prototype in CreatiCode with buttons and labels
-Description: Students create a working prototype in CreatiCode with at least 3 button widgets that trigger actions (show/hide labels, change text, play sound). They test that clicking each button produces expected feedback. First hands-on implementation of HCD wireframe.
+Description: Build CreatiCode prototype with: (1) "Add Pet" button → shows pet form, (2) "Save" button → shows "Pet saved!" label, (3) "Cancel" button → hides form. Test all 3 buttons work correctly. Use Button widget click events and Label widget show/hide. **Key concept:** Prototypes test ideas before full build! _Auto-graded by working buttons. CSTA: E5-AP-ALG._
 
 Dependencies:
-* T05.G5.10: Map wireframe elements to CreatiCode widgets
-* T05.G5.11: Specify widget properties for accessibility
+* T05.G5.05: Map wireframe elements to CreatiCode widgets
+* T05.G5.06: Specify widget properties for accessibility
 
 
 
 
-# === GRADE 6 (18 skills) ===
-# Focus: HCD evaluation, user research synthesis, prototype implementation, voice UI
+# === GRADE 6 (14 skills) ===
+# Focus: HCD evaluation, user research synthesis, prototype implementation, voice UI, AI awareness
+# REMOVED: G6.05, G6.06, G6.08, G6.09, G6.10 (simulation skills) - moved to T04
+# ADDED: Early AI safety awareness, iteration skills
 
 ID: T05.G6.01
 Topic: T05 – Human‑Centered Design
 Skill: Evaluate a design using HCD principle checklist
-Description: Students review a small app design using a structured checklist with three HCD principles: (1) Empathy - does the design show understanding of users' context and feelings? (2) Needs - does it solve real user problems? (3) Accessibility - is it usable by people with different abilities? Students mark pass/fail for each item and identify 1-2 gaps.
+Description: Evaluate pet care app against 3 HCD principles: (1) EMPATHY: Does it understand user context? ✓ Shows feeding schedule based on pet type. (2) NEEDS: Solves real problems? ✓ Reminder notifications. (3) ACCESSIBILITY: Usable by all? ✗ FAIL - no keyboard navigation. Mark pass/fail, identify 1-2 gaps. **Key concept:** Systematic evaluation catches problems! _Auto-graded by checklist + gap identification. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G4.02: Match app design variants to user personas
@@ -8060,7 +8616,7 @@ Dependencies:
 ID: T05.G6.01.01
 Topic: T05 – Human‑Centered Design
 Skill: Rate a design on empathy criteria
-Description: Students evaluate a design specifically on empathy criteria: Does it acknowledge user frustrations? Does it use language appropriate for the target audience? Does it consider the user's context (time-pressed, distracted, stressed)? Students mark each criterion pass/fail and cite specific evidence from the design.
+Description: Students evaluate a design against specific empathy criteria: Does it acknowledge user frustrations (e.g., "We know homework is stressful" message)? Does it use age-appropriate language (simple words for young users, technical terms for experts)? Does it consider user context (quick actions for time-pressed users, autosave for distracted users)? Students complete a checklist marking each criterion as pass/fail and cite specific design evidence for each rating. Example: "FAIL - Uses jargon like 'optimize parameters' for 10-year-olds." **Key concept:** Empathy means understanding the user's emotional state and limitations! _Auto-graded by checklist completion with evidence citations. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.01: Evaluate a design using HCD principle checklist
@@ -8071,7 +8627,7 @@ Dependencies:
 ID: T05.G6.01.02
 Topic: T05 – Human‑Centered Design
 Skill: Rate a design on user needs criteria
-Description: Students evaluate a design specifically on whether it addresses user needs: Does each main feature solve a stated user problem? Are the most important tasks easy to complete? Does it avoid unnecessary features that distract from core needs? Students mark each criterion and explain their reasoning.
+Description: Students evaluate whether a design addresses actual user needs: Does each main feature solve a stated user problem (e.g., reminder feature solves "I forget tasks" problem)? Are the most important tasks easy to complete (e.g., adding a reminder takes 2 taps, not 8)? Does it avoid unnecessary features that distract from core needs (e.g., no animated mascot if users just want quick task entry)? Students complete a needs checklist, rate each criterion pass/fail, and write brief justifications. Example: "PASS - Quick-add button addresses user's 'I'm too busy for complex forms' need." **Key concept:** Every feature should trace back to a real user problem! _Auto-graded by checklist with justifications linked to user needs. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.01: Evaluate a design using HCD principle checklist
@@ -8082,7 +8638,7 @@ Dependencies:
 ID: T05.G6.01.03
 Topic: T05 – Human‑Centered Design
 Skill: Rate a design on accessibility criteria
-Description: Students evaluate a design specifically on accessibility: Is text readable (size, contrast)? Are interactive elements large enough? Does it work without color alone? Can it be used with keyboard only? Students mark each criterion pass/fail and note specific accessibility barriers found.
+Description: Students evaluate a design against specific accessibility criteria: Is text readable (minimum 14pt font, 4.5:1 contrast ratio)? Are interactive elements large enough (minimum 44x44 pixels for touch targets)? Does it work without color alone (not just "red means error" but also text/icons)? Can it be used with keyboard only (Tab to navigate, Enter to activate)? Students complete an accessibility checklist, mark each criterion pass/fail, and note specific barriers found. Example: "FAIL - 'Submit' button is 20x20 pixels, too small for users with motor difficulties." **Key concept:** Accessibility removes barriers for all users, not just those with disabilities! _Auto-graded by checklist with specific barrier documentation. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.01: Evaluate a design using HCD principle checklist
@@ -8093,7 +8649,7 @@ Dependencies:
 ID: T05.G6.02
 Topic: T05 – Human‑Centered Design
 Skill: Propose targeted design changes for HCD gaps
-Description: Given a design with identified HCD gaps (from checklist evaluation), students propose 2-3 specific changes. Each change must address one principle and be actionable: empathy (e.g., "add onboarding tutorial for new users"), needs (e.g., "add quick-access button for the most common task"), or accessibility (e.g., "add keyboard shortcuts for all main actions"). Changes must be specific, not vague.
+Description: Given a design with identified HCD gaps (from checklist evaluation), students propose 2-3 specific, actionable changes that address each principle. Each change must be concrete and implementable: Empathy change: "Add friendly onboarding tutorial that says 'Let's learn together!' for anxious new users," Needs change: "Add quick-add button at top for most common task (74% of users add tasks first)," Accessibility change: "Add keyboard shortcuts (Ctrl+N for new task) and document them in Help menu." Students specify which gap each change addresses and why the solution works. Example: "Change addresses accessibility gap by providing keyboard alternative to mouse-only 'Add' button." **Key concept:** Design improvements should be specific solutions, not vague suggestions! _Auto-graded by 2-3 changes with gap mapping and actionable details. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.01: Evaluate a design using HCD principle checklist
@@ -8104,7 +8660,7 @@ Dependencies:
 ID: T05.G6.03
 Topic: T05 – Human‑Centered Design
 Skill: Group user interview quotes by common theme
-Description: Students read 5-6 short user responses (mock interview quotes or survey answers about an app idea) and drag-and-drop quotes into 2-3 theme buckets they create (e.g., "speed concerns," "navigation confusion"). They label each theme with a short title.
+Description: Students analyze 5-6 user interview quotes or survey responses about an app and identify common themes through affinity mapping. They drag-and-drop quotes into 2-3 self-created theme buckets and label each theme. Example quotes: "I can't find the settings," "Where did my saved items go?", "The menu is confusing" → Theme: "Navigation confusion." Other quotes: "It takes too long to load," "Why is it so slow?" → Theme: "Performance issues." Students create meaningful theme labels and ensure all quotes are categorized. **Key concept:** Grouping feedback reveals patterns that individual quotes might hide! _Auto-graded by theme creation (2-3 themes), quote categorization, and descriptive theme labels. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G4.08: Write an open-ended interview question
@@ -8114,8 +8670,8 @@ Dependencies:
 
 ID: T05.G6.03.01
 Topic: T05 – Human‑Centered Design
-Skill: Flag outlier feedback that doesn't fit common themes
-Description: Given grouped feedback themes (from G6.03), students flag 1-2 quotes that don't fit any theme and decide whether to create a new theme or note them as edge cases. Builds nuanced analysis skills.
+Skill: Identify outlier feedback that doesn't fit common themes
+Description: After grouping feedback into themes (from G6.03), students identify 1-2 quotes that don't fit any existing theme and make a reasoned decision: create a new theme or mark as edge case. Example: Existing themes are "Navigation confusion" and "Performance issues." Outlier quote: "I love the purple color scheme!" Decision options: (A) Create new "Visual design" theme if multiple color comments exist, or (B) Mark as edge case if it's the only aesthetic comment. Students justify their decision: "Created new theme because 2 more quotes also mention visuals" OR "Marked as edge case because only 1 of 12 quotes mentions color." **Key concept:** Not all feedback fits neatly into patterns - learn to distinguish meaningful outliers from noise! _Auto-graded by outlier identification and justified decision. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.03: Group user interview quotes by common theme
@@ -8125,8 +8681,8 @@ Dependencies:
 
 ID: T05.G6.03.02
 Topic: T05 – Human‑Centered Design
-Skill: Weight themes by frequency and importance
-Description: Students count how many quotes support each theme and rank themes by (1) frequency and (2) impact on core functionality. They identify which theme should be addressed first and justify their choice.
+Skill: Prioritize themes by frequency and importance
+Description: Students count how many quotes support each theme and prioritize themes using dual criteria: (1) Frequency - how many users mentioned this? (2) Impact - does it affect core functionality or just nice-to-have features? They create a priority matrix and identify the top theme to address. Example: "Navigation confusion" theme has 8/12 quotes (high frequency) and blocks core tasks (high impact) → Priority #1. "Color preferences" has 2/12 quotes (low frequency) and doesn't affect functionality (low impact) → Priority #3. Students justify their top choice: "Address navigation first because it affects the most users (8) and prevents them from completing essential tasks." **Key concept:** Prioritize by combining frequency (how many) with severity (how critical)! _Auto-graded by frequency count, impact assessment, priority ranking, and justification. CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.03: Group user interview quotes by common theme
@@ -8138,7 +8694,7 @@ Dependencies:
 ID: T05.G6.04
 Topic: T05 – Human‑Centered Design
 Skill: Map user feedback to specific design changes
-Description: Students read 3-4 specific feedback items from user testing (e.g., "I couldn't find the save button," "The font is too small to read," "I got confused by too many options") and drag-and-drop to match each feedback to an appropriate design fix from a list (e.g., "Make save button larger and more prominent," "Increase font size," "Simplify menu structure").
+Description: Students read 3-4 specific user feedback items and match each to an appropriate design fix through drag-and-drop mapping. Example mappings: Feedback "I couldn't find the save button" → Fix "Make save button 2x larger and position at top-right (F-pattern scanning)," Feedback "The font is too small to read" → Fix "Increase font from 10pt to 16pt minimum," Feedback "I got confused by too many options" → Fix "Use progressive disclosure - show 3 common options, hide 8 advanced options behind 'More' button." Students ensure each feedback has one clear fix and that fixes directly address the stated problems. **Key concept:** Good design changes are specific responses to identified user problems! _Auto-graded by correct feedback-to-fix matching (one-to-one mapping). CSTA: E6-IC-C._
 
 Dependencies:
 * T05.G6.03: Group user interview quotes by common theme
