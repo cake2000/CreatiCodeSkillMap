@@ -1,103 +1,80 @@
-# T01 - Everyday Algorithms (Phase 11 Optimized - December 2025)
-# PHASE 11 MAJOR OVERHAUL - Algorithmic Thinking Mastery for AI Era
+# T01 - Everyday Algorithms (Phase 10 Optimized - November 2025)
+# PHASE 10 MAJOR OVERHAUL - AI-Era Computational Thinking Excellence
 #
-# PHILOSOPHY (Phase 11 - Bold Restructuring):
-# - Algorithms as MENTAL MODELS: tools for decomposing any problem
-# - ALGORITHM LITERACY: read, write, critique, adapt algorithms fluently
-# - ALGORITHMIC PATTERNS: recognize divide-and-conquer, greedy, backtracking
-# - REAL-WORLD MESSINESS: algorithms must handle imperfect, incomplete data
-# - AI PARTNERSHIP: AI generates options, humans evaluate and decide
-# - SCALABILITY MINDSET: always ask "what happens with 10x more data?"
+# PHILOSOPHY EVOLUTION (Building on Phase 9):
+# - Algorithms as THINKING TOOLS for solving real problems
+# - Emphasis on WHY algorithms work and WHEN to apply them
+# - AI-human collaboration: using AI as algorithm assistant, not replacement
+# - Scalability thinking: from 3 items to 3 million items
+# - Error recovery and robustness as first-class concerns
 #
-# PHASE 11 NEW SKILL CATEGORIES:
-#
-# 1. ALGORITHM DEFINITION & VOCABULARY (NEW - Foundational)
-#    - GK.00: Learn what an algorithm IS through everyday examples
-#    - G1.00: Distinguish algorithms from non-algorithms
-#    - G3.21: Name algorithm types (sequence, loop, decision)
-#    - G5.18: Use correct terminology in algorithm discussions
-#
-# 2. ALGORITHM READING & COMPREHENSION (NEW - Critical skill gap)
-#    - G3.22: Read and explain unfamiliar code without running it
-#    - G4.21: Read someone else's algorithm and predict behavior
-#    - G5.19: Read complex nested algorithms and trace execution
-#    - G6.18: Read algorithm documentation and implement from spec
-#
-# 3. ALGORITHMIC THINKING PATTERNS (NEW - Advanced problem-solving)
-#    - G5.20: Apply divide-and-conquer thinking to split problems
-#    - G6.19: Recognize when greedy approach works vs fails
-#    - G7.15: Design algorithms using backtracking (try, fail, retry)
-#    - G8.19: Combine multiple patterns in complex algorithms
-#
-# 4. HANDLING IMPERFECT DATA (NEW - Real-world readiness)
-#    - G4.22: Design algorithm that handles missing values
-#    - G5.21: Create algorithms that work with noisy/inconsistent data
-#    - G6.20: Validate and clean data before algorithm processing
-#    - G7.16: Design robust algorithms for unreliable inputs
-#
-# 5. ALGORITHM TRANSFER & APPLICATION (NEW - Cross-domain skills)
-#    - G3.23: Apply same algorithm pattern to different contexts
-#    - G4.23: Recognize same algorithm in different disguises
-#    - G5.22: Map real-world problems to known algorithm patterns
-#    - G6.21: Adapt algorithms from one domain to another
-#
-# 6. ALGORITHM EFFICIENCY INTUITION (Strengthened)
-#    - GK.12: Guess how many steps before counting
+# PHASE 10 NEW ADDITIONS:
+# 1. COMPUTATIONAL ESTIMATION (new category)
+#    - GK.12: Guess how many steps before counting (estimation intro)
 #    - G1.13: Predict if algorithm will be "quick" or "take a while"
 #    - G3.20: Estimate loop iterations before running
-#    - G4.24: Predict which of two approaches is faster
-#    - G5.16: Predict relative algorithm speeds with reasoning
-#    - G6.22: Identify bottleneck step in multi-step algorithm
-#    - G7.17: Analyze why some algorithms don't scale
+#    - G5.16: Predict relative algorithm speeds (this is faster than that)
 #
-# 7. ALGORITHM DEBUGGING PROGRESSION (Strengthened, systematic)
-#    - GK.13: Find the "oops" in a picture sequence
-#    - G1.14: Circle the wrong step in a broken routine
-#    - G2.25: Use elimination to find bugs (was it step 1? step 2?)
-#    - G3.24: Form hypothesis, test, confirm/reject debugging cycle
-#    - G4.25: Use binary search thinking to locate bugs faster
-#    - G5.23: Debug by adding strategic checkpoints
-#    - G6.23: Debug algorithms with multiple interacting bugs
+# 2. ERROR RECOVERY & ROBUSTNESS (new category)
+#    - G2.24: Plan what to do when a step goes wrong (contingency planning)
+#    - G4.20: Add "what if it fails?" checks to algorithms
+#    - G6.17: Design algorithms that recover gracefully from errors
 #
-# 8. AI-ASSISTED DEVELOPMENT (Expanded from G3)
-#    - G3.25: Ask AI for hints without getting full solutions
-#    - G4.26: Evaluate AI-suggested next steps critically
-#    - G5.17: Use AI to brainstorm algorithm approaches
+# 3. AI-ASSISTED ALGORITHM DEVELOPMENT (expanded)
+#    - G5.17: Use CreatiCode XO to brainstorm algorithm approaches
+#    - G7.14: Evaluate multiple AI-suggested algorithms and choose best
+#    - G8.17: Combine human creativity with AI efficiency analysis
+#
+# 4. ALGORITHM COMMUNICATION (from Phase 9)
+#    - GK.10: Explain your sequence choice to a partner
+#    - G1.12: Explain why one algorithm is better than another
+#    - G3.18: Describe algorithm behavior to someone who can't see the code
+#    - G5.14: Document algorithm design decisions for future readers
+#    - G7.12: Present algorithm trade-offs to stakeholders
+#
+# 5. ALGORITHM VERIFICATION & CRITIQUE (from Phase 9)
+#    - G2.21: Spot the flaw in a friend's algorithm
+#    - G4.17: Critique a peer's algorithm and suggest improvements
 #    - G6.14: Verify AI-generated algorithm suggestions
-#    - G7.14: Evaluate multiple AI-suggested algorithms
-#    - G8.17: Combine human creativity with AI analysis
+#    - G8.14: Lead code review for peer's algorithm implementation
 #
-# PRESERVED FROM PHASE 10:
-# - Communication skills: GK.10, G1.12, G3.18, G5.14, G7.12
-# - Verification/critique: G2.21, G4.17, G6.14, G8.14
-# - Real-world recognition: GK.11, G2.22, G4.18, G6.15
-# - Collaboration: G3.19, G5.15, G7.13, G8.15
-# - Adaptation: G2.23, G4.19, G6.16, G8.16
-# - Error recovery: G2.24, G4.20, G6.17
+# 6. REAL-WORLD ALGORITHM RECOGNITION (from Phase 9)
+#    - GK.11: Find algorithms in everyday activities
+#    - G2.22: Connect everyday decisions to if/then rules
+#    - G4.18: Recognize algorithms in apps and games
+#    - G6.15: Analyze algorithms behind recommendation systems
 #
-# DEPENDENCY PRINCIPLES (Phase 11):
-# - X-2 rule strictly enforced
-# - New foundational skills (GK.00, G1.00) added as prerequisites
-# - Reading skills precede writing skills at each level
-# - Pattern recognition precedes pattern application
+# 7. COLLABORATIVE ALGORITHM DESIGN (from Phase 9)
+#    - G3.19: Build an algorithm together with a partner
+#    - G5.15: Merge two partial algorithms into complete solution
+#    - G7.13: Design algorithm as a team with role assignments
+#    - G8.15: Coordinate multi-person algorithm development
 #
-# Total: ~210 skills (added ~25 new skills for reading, patterns,
-# data handling, transfer, debugging while preserving core progression)
-
-ID: T01.GK.00
-Topic: T01 – Everyday Algorithms
-Skill: Learn what an algorithm is through everyday examples
-Description: **Student task:** Watch short videos showing everyday algorithms (recipes, morning routines, tying shoes) and tap YES when an activity follows step-by-step instructions. **Visual scenario:** Video 1: Person making a sandwich following steps (algorithm!). Video 2: Leaves blowing randomly (not an algorithm). Video 3: Child getting dressed in order (algorithm!). **Key concept:** An algorithm is a LIST OF STEPS to do something. Algorithms have a START, STEPS IN ORDER, and an END. _Implementation note: Introduces the WORD "algorithm" with concrete examples before any sequencing tasks. Audio clearly says "This is called an algorithm!" Picture-based with voice support. Auto-graded by YES/NO selections. CSTA: EK-ALG-AF-01._
-
-
+# 8. ALGORITHM ADAPTATION & MODIFICATION (from Phase 9)
+#    - G2.23: Change one rule to make an algorithm work differently
+#    - G4.19: Adapt an algorithm to solve a similar but different problem
+#    - G6.16: Extend an algorithm to handle new requirements
+#    - G8.16: Refactor legacy algorithm to meet new constraints
+#
+# DEPENDENCY FIXES (Phase 10):
+# - Fixed T01.G4.06.02 → T01.G4.06 (was referencing non-existent .01)
+# - Fixed T01.G4.12 → T01.G4.05 (was referencing removed .02)
+# - All X-2 rule violations corrected
+# - Strengthened K→G1→G2→G3 bridge progression
+#
+# VERB UPGRADES (active, measurable):
+# - "Match" → "Connect and justify", "Pair with explanation"
+# - "Identify" → "Locate and mark", "Detect and highlight"
+# - "Compare" → "Analyze and defend choice", "Evaluate with criteria"
+# - Added "Construct", "Defend", "Critique", "Propose", "Verify", "Estimate"
+#
+# Total: ~185 skills (added 12 new skills for estimation, error recovery,
+# AI-assisted development while fixing dependency issues)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
 Skill: Sequence three picture cards for a bedtime routine
 Description: **Student task:** Drag 3 picture cards showing bedtime actions into the correct order from first to last. **Visual scenario:** Picture cards show: (A) child putting on pajamas, (B) child brushing teeth at sink, (C) child getting into bed with stuffed animal. **Correct order:** A → B → C. _Implementation note: Drag‑drop sequence with large, colorful picture cards; audio support reads card labels on hover. Auto-graded by final sequence position. CSTA: EK‑ALG‑AF‑01._
-
-Dependencies:
-* T01.GK.00: Learn what an algorithm is through everyday examples
 
 
 
@@ -229,28 +206,6 @@ Description: **Student task:** Before seeing all the steps in a routine, guess h
 Dependencies:
 * T01.GK.02: Sequence four picture cards for a classroom arrival routine
 * T01.GK.08: Count how many times an action repeats in an animation
-
-
-
-ID: T01.GK.13
-Topic: T01 – Everyday Algorithms
-Skill: Find the "oops" in a picture sequence
-Description: **Student task:** Look at a 4-card picture sequence where ONE card shows something wrong. Tap the "oops" card. **Visual scenario:** Sequence shows "making cereal": (A) get bowl, (B) pour cereal, (C) pour orange juice (OOPS! Should be milk!), (D) eat cereal. Students tap card C. **Key insight:** Algorithms can have BUGS - steps that don't belong or are wrong. Finding bugs is called DEBUGGING! _Implementation note: Introduces debugging concept at the earliest level with playful "oops" framing. Large picture cards with clear wrong action. Audio says "Can you find the oops?" Auto-graded by selection. CSTA: EK-ALG-AF-01, EK-ALG-PS-03._
-
-Dependencies:
-* T01.GK.04: Select the picture sequence that makes sense
-* T01.GK.05: Drag the misplaced picture card to its correct position
-
-
-
-ID: T01.G1.00
-Topic: T01 – Everyday Algorithms
-Skill: Distinguish algorithms from non-algorithms
-Description: **Student task:** Sort 6 picture cards into two groups: "Algorithm" (has ordered steps) vs "Not an Algorithm" (random or single action). **Visual scenario:** Algorithm examples: recipe for cookies, directions to school, steps to wash hands. Not-algorithm examples: a tree growing randomly, a single picture of a cat, dice rolling. Students drag cards to correct group. **Key insight:** Algorithms need: (1) more than one step, (2) steps in a specific order, (3) a goal to achieve. _Implementation note: Builds on GK.00 by requiring classification/sorting. Solidifies algorithm definition through counter-examples. Drag-drop sorting with two bins. Audio support. Auto-graded by correct groupings. CSTA: E1-ALG-AF-01._
-
-Dependencies:
-* T01.GK.00: Learn what an algorithm is through everyday examples
-* T01.GK.11: Find algorithms in everyday activities (video examples)
 
 
 
@@ -402,17 +357,6 @@ Description: **Student task:** Look at two picture-card algorithms side by side.
 Dependencies:
 * T01.GK.12: Guess how many steps before counting (estimation intro)
 * T01.G1.08: Select the shorter algorithm that achieves the same goal
-
-
-
-ID: T01.G1.14
-Topic: T01 – Everyday Algorithms
-Skill: Circle the wrong step in a broken routine
-Description: **Student task:** Look at a 5-card picture sequence that doesn't achieve its goal. Circle/tap the step that causes the problem. **Visual scenario:** Goal: "Get ready for school on time." Sequence: (A) wake up, (B) watch TV for 2 hours, (C) get dressed, (D) eat breakfast, (E) run to catch bus. Step B (watch TV for 2 hours) causes the problem - there's no time left! **Key insight:** One bad step can break the whole algorithm, even if other steps are correct. _Implementation note: Builds on GK.13 "oops" finding with reasoning about consequences. Requires understanding causality, not just spotting obvious wrong actions. Audio support. Auto-graded by selection. CSTA: E1-ALG-AF-01, E1-ALG-PS-03._
-
-Dependencies:
-* T01.GK.13: Find the "oops" in a picture sequence
-* T01.G1.06: Find and replace the wrong step in a routine
 
 
 
@@ -711,17 +655,6 @@ Dependencies:
 
 
 
-ID: T01.G2.25
-Topic: T01 – Everyday Algorithms
-Skill: Use elimination to find bugs systematically
-Description: **Student task:** A picture algorithm doesn't work. Test each step one-by-one to find which step has the bug. **Visual scenario:** Algorithm for "draw a square" on a 4x4 grid shows 4 steps. The result is a triangle instead of a square. Students test: "Was step 1 correct?" (YES - first side drawn correctly), "Was step 2 correct?" (YES - turn worked), "Was step 3 correct?" (NO - went wrong direction!). **Process:** Check steps in order, stop when you find the bug. **Key insight:** Debugging is like being a detective - check each clue until you find the problem! _Implementation note: Introduces systematic debugging through elimination. Interactive step-by-step testing interface. Teaches methodical approach vs. guessing randomly. Auto-graded by identifying correct buggy step. CSTA: E2-ALG-AF-01, E2-ALG-PS-03._
-
-Dependencies:
-* T01.G2.18.01: Find the mistake in a broken algorithm
-* T01.G1.14: Circle the wrong step in a broken routine
-
-
-
 ID: T01.G3.00
 Topic: T01 – Everyday Algorithms
 Skill: Arrange given blocks to match a picture sequence (bridge skill)
@@ -977,61 +910,6 @@ Dependencies:
 * T01.G1.13: Predict if algorithm will be "quick" or "take a while"
 * T01.G3.06: Trace a repeat loop to find total movement
 * T07.G3.01: Use a counted repeat loop
-
-
-
-ID: T01.G3.21
-Topic: T01 – Everyday Algorithms
-Skill: Name and classify algorithm structures (sequence, loop, decision)
-Description: **Student task:** Look at 6 code snippets and classify each as: SEQUENCE (steps in order, no repeating), LOOP (something repeats), or DECISION (if/then choice). **Visual scenario:** Snippet 1: "move 10, turn 90, say hello" → SEQUENCE. Snippet 2: "repeat 4 [move 10]" → LOOP. Snippet 3: "if touching edge then bounce" → DECISION. **Key insight:** All algorithms are built from these 3 building blocks! Knowing the names helps us talk about algorithms. _Implementation note: Vocabulary building for algorithm structures. Drag-drop classification or MCQ. Prepares students for more advanced pattern discussions. Auto-graded by correct classification. CSTA: E3-ALG-AF-01._
-
-Dependencies:
-* T01.G3.05: Replace repeated blocks with a repeat loop
-* T01.G3.08: Add a simple if/then to a script
-
-
-
-ID: T01.G3.22
-Topic: T01 – Everyday Algorithms
-Skill: Read and explain unfamiliar code without running it
-Description: **Student task:** Look at a short script (6-10 blocks) you haven't seen before. WITHOUT running it, explain in your own words what it does. **Visual scenario:** Script shows: "when green flag clicked, set color to blue, repeat 4 [move 50, turn 90, stamp]". Student explains: "This draws a blue square by moving and turning 4 times, leaving a stamp at each corner." **Assessment:** (1) Identifies the main action, (2) Correctly interprets the loop, (3) Predicts the output. **Key insight:** Reading code is as important as writing code - you'll read more code than you write! _Implementation note: Critical "code reading" skill often neglected. Text response or MCQ with explanation choices. Rubric-graded for accuracy and completeness. CSTA: E3-ALG-AF-01, E3-ALG-PS-03._
-
-Dependencies:
-* T01.G3.11: Choose the best description of what a short program does
-* T01.G3.06: Trace a repeat loop to find total movement
-
-
-
-ID: T01.G3.23
-Topic: T01 – Everyday Algorithms
-Skill: Apply the same algorithm pattern to different contexts
-Description: **Student task:** Learn an algorithm pattern in one context, then apply it in a completely different context. **Example:** Pattern learned: "repeat N times [do action, turn]" draws shapes. Context 1: Draw a square (repeat 4, turn 90). Context 2: Draw a triangle (repeat 3, turn 120). Context 3: Make a character do a dance (repeat 4, turn 90 with costume change). **Assessment:** Given new context "draw a hexagon", student applies pattern: repeat 6, turn 60. **Key insight:** Good algorithm patterns work in many situations! _Implementation note: Transfer learning - applying known patterns to new domains. Tests understanding of pattern abstraction vs. memorized solutions. Auto-graded by correct adaptation. CSTA: E3-ALG-AF-01, E3-ALG-PS-03._
-
-Dependencies:
-* T01.G3.07: Adjust a repeat count to match a pattern
-* T01.G3.21: Name and classify algorithm structures (sequence, loop, decision)
-
-
-
-ID: T01.G3.24
-Topic: T01 – Everyday Algorithms
-Skill: Debug using hypothesis-test-confirm cycle
-Description: **Student task:** A script has a bug. Use the scientific method to find it: (1) OBSERVE the wrong behavior, (2) HYPOTHESIZE what might be wrong, (3) TEST your hypothesis, (4) CONFIRM or try new hypothesis. **Visual scenario:** Script should draw a square but draws an L-shape. Student hypothesizes: "Maybe the loop count is wrong?" Tests by checking loop count (it's 2, should be 4). Confirms hypothesis and fixes bug. **Process:** Must complete all 4 steps, not just guess and check. **Key insight:** Debugging is scientific - form theories and test them! _Implementation note: Introduces formal debugging methodology. Multi-step process with scaffolded prompts for each stage. Builds on G2.25 elimination. Auto-graded by correct hypothesis identification and fix. CSTA: E3-ALG-PS-03, E3-PRO-TR-03._
-
-Dependencies:
-* T01.G2.25: Use elimination to find bugs systematically
-* T01.G3.17: Form hypothesis about why a program behaves unexpectedly
-
-
-
-ID: T01.G3.25
-Topic: T01 – Everyday Algorithms
-Skill: Ask AI for hints without getting complete solutions
-Description: **Student task:** Use CreatiCode XO (AI assistant) to get HINTS about a problem, not complete solutions. Practice asking good questions that help you learn. **Good questions:** "What block category should I look in?" "Is my loop count correct?" "What's wrong with my approach?" **Bad questions:** "Write the code for me" "What's the answer?" **Visual scenario:** Student is stuck on making a sprite bounce. Good prompt: "My sprite hits the edge but doesn't bounce. What should I check?" XO responds: "Look for the 'if on edge, bounce' block in Motion." Student finds it themselves! **Key insight:** AI is a learning helper, not a homework-doer. Ask for hints, not answers! _Implementation note: Early AI collaboration skill. Teaches appropriate AI interaction for learning. Uses CreatiCode XO for real interaction. Rubric-graded for question quality. CSTA: E3-ALG-AF-01. AI4K12: Human-AI collaboration._
-
-Dependencies:
-* T01.G3.18: Describe algorithm behavior to someone who can't see the code
-* T01.G3.19: Build an algorithm together with a partner (pair programming intro)
 
 
 
@@ -1360,73 +1238,6 @@ Dependencies:
 * T01.G2.24: Plan what to do when a step goes wrong (contingency planning)
 * T01.G4.15: Add conditional logic based on variable values
 * T08.G3.04: Use a simple if in a script
-
-
-
-ID: T01.G4.21
-Topic: T01 – Everyday Algorithms
-Skill: Read someone else's algorithm and predict its behavior
-Description: **Student task:** Look at a 15-25 block script written by someone else (with their variable names, their style). Without running it, predict what it does and what the output will be. **Visual scenario:** Script uses non-obvious variable names like "temp", "flag", "counter". Student must decipher: "This script counts how many times the sprite touches the edge, storing it in 'counter', and uses 'flag' to prevent double-counting." **Assessment:** (1) Correct behavior prediction, (2) Identification of all variables' purposes, (3) Prediction of output. **Key insight:** In real programming, you'll read others' code more than you write your own! _Implementation note: Extends G3.22 to larger, less-clear code. Critical skill for collaborative programming. MCQ + short answer. Auto-graded for behavior prediction accuracy. CSTA: E4-ALG-AF-01, E4-ALG-PS-03._
-
-Dependencies:
-* T01.G3.22: Read and explain unfamiliar code without running it
-* T01.G4.06: Identify and explain the purpose of variables in scripts
-
-
-
-ID: T01.G4.22
-Topic: T01 – Everyday Algorithms
-Skill: Design algorithm that handles missing values gracefully
-Description: **Student task:** Design an algorithm that works even when some data is missing. **Visual scenario:** A class grade calculator where some students have no test scores yet. Naive approach fails (divides by zero or shows "undefined"). Robust approach: "if student has scores, calculate average; else show 'No data yet'". **Assessment:** (1) Identify what could be missing, (2) Add appropriate checks, (3) Provide helpful message instead of error. **Key insight:** Real-world data is messy - good algorithms handle missing pieces gracefully! _Implementation note: Introduces data quality issues. Uses conditional logic to handle edge cases. Auto-graded by testing with complete and incomplete data. CSTA: E4-ALG-AF-01, E4-PRO-TR-03._
-
-Dependencies:
-* T01.G4.20: Add "what if it fails?" checks to algorithms
-* T01.G4.15: Add conditional logic based on variable values
-
-
-
-ID: T01.G4.23
-Topic: T01 – Everyday Algorithms
-Skill: Recognize the same algorithm in different disguises
-Description: **Student task:** Look at 3 algorithms that look different but do the same thing. Identify that they're the same pattern. **Visual scenario:** Algorithm A: Count red balls in a jar. Algorithm B: Count vowels in a word. Algorithm C: Count passing grades in a list. All three are "count items matching condition" but in different contexts. **Assessment:** Group the algorithms by underlying pattern, explain why they're the same. **Key insight:** Once you recognize an algorithm pattern, you can apply it anywhere! _Implementation note: Pattern recognition across domains. Builds abstraction skills. MCQ + matching + explanation. Auto-graded. CSTA: E4-ALG-AF-01, E4-ALG-PS-03._
-
-Dependencies:
-* T01.G3.23: Apply the same algorithm pattern to different contexts
-* T01.G4.03: Detect and mark repeating patterns of varying lengths in scripts
-
-
-
-ID: T01.G4.24
-Topic: T01 – Everyday Algorithms
-Skill: Predict which of two approaches is faster
-Description: **Student task:** Look at two algorithms that solve the same problem. Before running them, predict which will finish faster and explain why. **Visual scenario:** Find a name in a list. Approach A: Check every name from start to end. Approach B: Jump to middle, decide which half to search, repeat. With 100 names, A might check all 100; B checks at most 7. **Assessment:** Correct prediction + reasoning about step counts. **Key insight:** How you solve a problem matters as much as whether you solve it! _Implementation note: Builds efficiency intuition. Informal introduction to algorithmic complexity. Prepares for G5.16 formal efficiency comparisons. MCQ with reasoning. Auto-graded. CSTA: E4-ALG-AF-02._
-
-Dependencies:
-* T01.G3.20: Estimate loop iterations before running the program
-* T01.G4.12: Select the better algorithm and explain why
-
-
-
-ID: T01.G4.25
-Topic: T01 – Everyday Algorithms
-Skill: Use binary search thinking to locate bugs faster
-Description: **Student task:** When debugging a long script (20+ blocks), use binary search strategy: test the middle first, then narrow down to top half or bottom half. **Visual scenario:** Script has 20 blocks, bug somewhere inside. Instead of testing block 1, then 2, then 3... test block 10 first. If output is correct so far, bug is in blocks 11-20. Test block 15. Narrow down to 8 possible locations with just 2 tests! **Process:** Each test eliminates half the remaining possibilities. **Key insight:** Smart testing strategies find bugs faster than checking everything in order! _Implementation note: Applies algorithm concept (binary search) to debugging process. Teaches strategic thinking. Interactive debugging scenario with step counter. Auto-graded by number of tests needed to find bug. CSTA: E4-ALG-PS-03, E4-PRO-TR-03._
-
-Dependencies:
-* T01.G3.24: Debug using hypothesis-test-confirm cycle
-* T01.G4.14: Identify inner and outer loops in nested loop scripts
-
-
-
-ID: T01.G4.26
-Topic: T01 – Everyday Algorithms
-Skill: Evaluate AI-suggested next steps critically
-Description: **Student task:** When stuck, ask CreatiCode XO for a suggested next step. Before following the suggestion, evaluate: Is it correct? Does it make sense for my specific situation? **Visual scenario:** Student building a quiz game, stuck on score tracking. XO suggests: "Add a score variable and increase it by 1 for correct answers." Student evaluates: "Yes, I need a variable, but my quiz gives different points for different questions, so I should increase by 'question_points' not by 1." Modifies suggestion before using. **Assessment:** (1) Gets AI suggestion, (2) Evaluates its applicability, (3) Adapts if needed, (4) Implements correctly. **Key insight:** AI suggestions are starting points, not final answers - always evaluate before accepting! _Implementation note: Builds on G3.25 hint-asking to evaluation of suggestions. Critical AI collaboration skill. Uses CreatiCode XO. Rubric-graded for evaluation quality. CSTA: E4-ALG-AF-01. AI4K12: Human-AI collaboration._
-
-Dependencies:
-* T01.G3.25: Ask AI for hints without getting complete solutions
-* T01.G4.17: Critique a peer's algorithm and suggest improvements
-
 
 
 ID: T01.G5.00
@@ -1790,74 +1601,6 @@ Dependencies:
 * T01.G4.17: Critique a peer's algorithm and suggest improvements
 
 
-
-ID: T01.G5.18
-Topic: T01 – Everyday Algorithms
-Skill: Use correct terminology in algorithm discussions
-Description: **Student task:** In a discussion about algorithms, use correct technical terms: algorithm, sequence, loop, conditional, variable, parameter, input, output, iteration, debug, trace. **Assessment:** Given a paragraph describing an algorithm using informal language, rewrite it using correct terminology. **Example:** Informal: "The thing goes through all the numbers and adds them up, keeping track in a box." Formal: "The algorithm iterates through the list, using an accumulator variable to store the running sum." **Key insight:** Using correct vocabulary makes communication about algorithms clearer and more precise! _Implementation note: Vocabulary application in context. Builds on G3.21 classification to active use of terms. Fill-in-blank or rewriting task. Auto-graded by correct term usage. CSTA: E5-ALG-AF-01._
-
-Dependencies:
-* T01.G3.21: Name and classify algorithm structures (sequence, loop, decision)
-* T01.G5.00: Write algorithm in plain English before flowchart
-
-
-
-ID: T01.G5.19
-Topic: T01 – Everyday Algorithms
-Skill: Read and trace complex nested algorithms
-Description: **Student task:** Read a script with nested loops (loop inside a loop) or nested conditionals. Trace through it step-by-step to predict the final state. **Visual scenario:** Script draws a 3x3 grid of dots using nested loops: "repeat 3 [repeat 3 [stamp, move right], go to next row]". Student traces: Row 1: stamp at (0,0), (10,0), (20,0). Row 2: stamp at (0,10), (10,10), (20,10). Etc. **Assessment:** Correct final output prediction with trace table. **Key insight:** Complex algorithms are built from simple pieces - trace one layer at a time! _Implementation note: Extends G4.21 reading to nested structures. Critical for understanding complex algorithms. Tracing table + MCQ. Auto-graded by trace accuracy. CSTA: E5-ALG-AF-01, E5-ALG-PS-03._
-
-Dependencies:
-* T01.G4.21: Read someone else's algorithm and predict its behavior
-* T01.G4.14: Identify inner and outer loops in nested loop scripts
-
-
-
-ID: T01.G5.20
-Topic: T01 – Everyday Algorithms
-Skill: Apply divide-and-conquer thinking to split problems
-Description: **Student task:** Given a large problem, split it into smaller independent sub-problems, solve each sub-problem, then combine results. **Visual scenario:** Problem: "Find the two students with the closest birthdays in a class of 30." Divide-and-conquer: (1) Split class into groups of 10, (2) Find closest pair in each group, (3) Compare the three pairs to find overall closest. **Assessment:** (1) Identify how to split, (2) Solve sub-problems, (3) Combine correctly. **Key insight:** Big problems become manageable when you divide them into smaller pieces! _Implementation note: Introduces divide-and-conquer pattern. Teaches problem decomposition strategy. Applicable beyond coding to general problem-solving. Multi-step design task. Rubric-graded. CSTA: E5-ALG-AF-01, E5-ALG-PS-03._
-
-Dependencies:
-* T01.G4.23: Recognize the same algorithm in different disguises
-* T01.G5.15: Merge two partial algorithms into a complete solution
-
-
-
-ID: T01.G5.21
-Topic: T01 – Everyday Algorithms
-Skill: Create algorithms that handle noisy or inconsistent data
-Description: **Student task:** Design an algorithm that works correctly even when input data has errors, duplicates, or inconsistencies. **Visual scenario:** Calculate class average from a list of test scores. But the data has problems: some scores are negative (impossible), some are over 100 (data entry error), some students appear twice. **Algorithm must:** (1) Skip impossible values, (2) Handle duplicates, (3) Still calculate correct average. **Assessment:** Algorithm works on clean AND messy data. **Key insight:** Real data is never perfect - algorithms must be robust! _Implementation note: Extends G4.22 missing data to corrupted/inconsistent data. Practical skill for real-world programming. Auto-graded by testing with various data quality scenarios. CSTA: E5-ALG-AF-01, E5-PRO-TR-03._
-
-Dependencies:
-* T01.G4.22: Design algorithm that handles missing values gracefully
-* T01.G5.07.02: Fix an algorithm's edge case bug
-
-
-
-ID: T01.G5.22
-Topic: T01 – Everyday Algorithms
-Skill: Map real-world problems to known algorithm patterns
-Description: **Student task:** Given a real-world problem description, identify which algorithm pattern(s) it matches. **Visual scenario:** Problem: "A library wants to know which book was checked out most often last month." Student identifies: This is a "count frequency" problem (accumulation pattern) - count checkouts for each book, then "find maximum" (search pattern) to find the most popular. **Common patterns:** Search, Sort, Count/Accumulate, Filter, Transform. **Assessment:** Correct pattern identification + explanation of mapping. **Key insight:** Most problems fit a few common patterns - learn them and you can solve almost anything! _Implementation note: Pattern matching at problem level, not code level. Builds abstraction thinking. Prepares for algorithm design. MCQ + explanation. Auto-graded. CSTA: E5-ALG-AF-01, E5-ALG-PS-06._
-
-Dependencies:
-* T01.G4.23: Recognize the same algorithm in different disguises
-* T01.G5.04.01: Trace a "find the largest" algorithm
-* T01.G5.04.02: Trace a "count matches" algorithm
-
-
-
-ID: T01.G5.23
-Topic: T01 – Everyday Algorithms
-Skill: Debug by adding strategic checkpoints
-Description: **Student task:** When debugging a complex algorithm, add "checkpoint" outputs at strategic locations to narrow down where things go wrong. **Visual scenario:** Algorithm should find average of list but gives wrong answer. Add checkpoints: (1) After reading list: "Got 5 items", (2) After summing: "Sum is 150", (3) After dividing: "Average is 30". Running reveals: Sum shows 150 (correct for items 10,20,30,40,50), but average shows 25 (wrong!). Bug must be in the division step. **Key insight:** Strategic checkpoints divide a bug hunt into smaller searches! _Implementation note: Extends G4.16 logging to strategic checkpoint placement. Teaches methodical debugging of complex code. Uses CreatiCode console panel. Auto-graded by checkpoint placement quality. CSTA: E5-ALG-PS-03, E5-PRO-TR-03._
-
-Dependencies:
-* T01.G4.25: Use binary search thinking to locate bugs faster
-* T01.G4.16: Use console logging to trace algorithm execution
-
-
-
 ID: T01.G6.01
 Topic: T01 – Everyday Algorithms
 Skill: Compare efficiency of linear and binary search
@@ -2083,73 +1826,6 @@ Dependencies:
 * T08.G5.02: Use a simple if in a script
 
 
-
-ID: T01.G6.18
-Topic: T01 – Everyday Algorithms
-Skill: Read algorithm documentation and implement from specification
-Description: **Student task:** Given a written specification describing an algorithm (inputs, outputs, steps, edge cases), implement it correctly WITHOUT seeing example code. **Visual scenario:** Specification: "Binary Search Algorithm - Input: sorted list of numbers and target value. Output: position of target or -1 if not found. Process: Compare target to middle element. If equal, return position. If target smaller, search left half. If target larger, search right half. Repeat until found or no elements left." Student implements from description alone. **Assessment:** Correct implementation passing all test cases. **Key insight:** Real programmers often work from specifications, not examples - this is how new features get built! _Implementation note: Professional skill - implementing from documentation. Tests comprehension and translation ability. Auto-graded by test cases including edge cases. CSTA: MS-ALG-AF-01, MS-PRO-PF-01._
-
-Dependencies:
-* T01.G5.19: Read and trace complex nested algorithms
-* T01.G6.08: Implement code from a detailed flowchart
-
-
-
-ID: T01.G6.19
-Topic: T01 – Everyday Algorithms
-Skill: Recognize when greedy approach works vs fails
-Description: **Student task:** Analyze problems to determine if a "greedy" approach (always take the best option right now) will find the best solution or might fail. **Visual scenario:** Problem 1: Making change with US coins (25¢, 10¢, 5¢, 1¢). Greedy works: for 63¢, take 2 quarters, 1 dime, 3 pennies = optimal! Problem 2: Making change with weird coins (25¢, 15¢, 1¢). Greedy fails: for 30¢, greedy gives 25+5×1¢=6 coins, but 15+15=2 coins is better! **Assessment:** Given 4 problems, correctly classify which greedy solves optimally. **Key insight:** Greedy is fast and simple but doesn't always find the best answer - know when to use it! _Implementation note: Introduces greedy algorithm pattern and its limitations. Critical for algorithm design decisions. MCQ with reasoning. Auto-graded. CSTA: MS-ALG-AF-01, MS-ALG-PS-06._
-
-Dependencies:
-* T01.G5.20: Apply divide-and-conquer thinking to split problems
-* T01.G6.02: Compare how step counts grow with input size
-
-
-
-ID: T01.G6.20
-Topic: T01 – Everyday Algorithms
-Skill: Validate and clean data before algorithm processing
-Description: **Student task:** Before running the main algorithm, add a data validation step that checks and cleans input data. **Visual scenario:** Main algorithm: Calculate statistics for survey responses. Validation step needed: (1) Check all values are in valid range (1-5), (2) Remove duplicate submissions, (3) Handle missing values (use default or skip), (4) Log how many items were cleaned. **Assessment:** Validation correctly identifies and handles all data issues. **Key insight:** GIGO - Garbage In, Garbage Out. Clean data first, then analyze! _Implementation note: Extends G5.21 handling noisy data to proactive validation step. Teaches data quality as prerequisite. Coding task with validation + main algorithm. Auto-graded by handling various dirty datasets. CSTA: MS-ALG-AF-01, MS-PRO-TR-03._
-
-Dependencies:
-* T01.G5.21: Create algorithms that handle noisy or inconsistent data
-* T01.G6.04: Revise an algorithm to do less work
-
-
-
-ID: T01.G6.21
-Topic: T01 – Everyday Algorithms
-Skill: Adapt algorithms from one domain to another
-Description: **Student task:** Take an algorithm designed for one domain and adapt it to work in a completely different domain. **Visual scenario:** Original: Spell-checker algorithm that finds words similar to a misspelled word. Adaptation: Recommendation system that finds products similar to one a customer bought. Both use "similarity scoring" but with different data. **Assessment:** (1) Identify the core pattern that transfers, (2) Adapt data structures, (3) Implement in new domain, (4) Verify it works. **Key insight:** Once you understand the PATTERN, you can apply it anywhere! _Implementation note: Advanced transfer skill. Requires abstraction ability. Real-world examples showing algorithm reuse. Design + implementation task. Rubric-graded. CSTA: MS-ALG-AF-01, MS-ALG-PS-06._
-
-Dependencies:
-* T01.G5.22: Map real-world problems to known algorithm patterns
-* T01.G6.12: Classify algorithms into pattern families (vocabulary building)
-
-
-
-ID: T01.G6.22
-Topic: T01 – Everyday Algorithms
-Skill: Identify the bottleneck step in a multi-step algorithm
-Description: **Student task:** Given a multi-step algorithm, identify which step is the "bottleneck" - the one that takes the most time and limits overall performance. **Visual scenario:** Image processing algorithm: (1) Load image - 10ms, (2) Apply filter to each pixel - 500ms, (3) Save image - 15ms. The pixel processing step is the bottleneck at 500ms! **Assessment:** (1) Identify bottleneck correctly, (2) Explain why it's the bottleneck, (3) Suggest how improving it would help overall performance. **Key insight:** Speeding up non-bottleneck steps doesn't help much - find and fix the bottleneck! _Implementation note: Teaches performance analysis thinking. Uses timing/step count data. Prepares for optimization work. MCQ + reasoning. Auto-graded. CSTA: MS-ALG-AF-02, MS-ALG-PS-05._
-
-Dependencies:
-* T01.G5.16: Predict relative algorithm speeds with reasoning
-* T01.G6.09: Trace algorithm with early exit optimization
-
-
-
-ID: T01.G6.23
-Topic: T01 – Everyday Algorithms
-Skill: Debug algorithms with multiple interacting bugs
-Description: **Student task:** Debug an algorithm that has 2-3 bugs that interact with each other - fixing one bug might reveal another, or bugs might partially cancel each other out. **Visual scenario:** Sorting algorithm seems to work for small lists but fails for large ones. Bug 1: Off-by-one in loop (misses last element). Bug 2: Wrong comparison direction (sorts ascending instead of descending). When list is small, results look almost right. When list is large, both bugs become obvious. **Process:** (1) Find first bug, (2) Fix it, (3) Retest to reveal additional bugs, (4) Repeat until all bugs fixed. **Key insight:** Complex bugs often hide behind each other - fix one, test again, find the next! _Implementation note: Advanced debugging skill. Requires persistence and systematic approach. Uses scaffolded debugging environment. Auto-graded by all tests passing after fixes. CSTA: MS-ALG-PS-05, MS-PRO-TR-11._
-
-Dependencies:
-* T01.G5.23: Debug by adding strategic checkpoints
-* T01.G6.10: Design test suite covering normal, edge, and boundary cases
-
-
-
 ID: T01.G7.01
 Topic: T01 – Everyday Algorithms
 Skill: Identify the pattern family in a given program
@@ -2341,40 +2017,6 @@ Dependencies:
 * T01.G5.17: Use CreatiCode XO to brainstorm algorithm approaches
 * T01.G7.04: Compare efficiency of two algorithms qualitatively
 * T01.G6.14: Verify AI-generated algorithm suggestions before using them
-
-
-
-ID: T01.G7.15
-Topic: T01 – Everyday Algorithms
-Skill: Design algorithms using backtracking (try, fail, retry)
-Description: **Student task:** Design an algorithm that explores possibilities, backtracks when stuck, and tries different paths. **Visual scenario:** Maze solving: (1) Try going forward, (2) If stuck (wall or dead end), back up and try another direction, (3) Keep track of tried paths to avoid repeating, (4) Continue until exit found or all paths exhausted. **Assessment:** Correctly handles: (1) Trying one path, (2) Detecting failure, (3) Backtracking to last decision point, (4) Trying alternative. **Key insight:** Some problems require exploration - try something, if it fails, undo and try something else! _Implementation note: Introduces backtracking algorithm pattern. Critical for puzzle-solving, game AI, constraint satisfaction. Design + trace task. Auto-graded by correct backtracking behavior. CSTA: MS-ALG-AF-01, MS-ALG-PS-06._
-
-Dependencies:
-* T01.G6.19: Recognize when greedy approach works vs fails
-* T01.G7.02: Choose a pattern to solve a problem
-
-
-
-ID: T01.G7.16
-Topic: T01 – Everyday Algorithms
-Skill: Design robust algorithms for unreliable inputs
-Description: **Student task:** Design an algorithm that works correctly even when inputs come from unreliable sources (users typing, network data, sensors). **Visual scenario:** Weather app gets temperature from sensors. Inputs might be: missing, wildly wrong (sensor malfunction), delayed, or duplicated. Algorithm must: (1) Detect obviously wrong values (temperature of 500°F), (2) Handle missing data gracefully, (3) Deal with out-of-order arrivals, (4) Still produce reasonable output. **Assessment:** Algorithm handles all reliability issues correctly. **Key insight:** In the real world, you can't trust your inputs - build algorithms that are skeptical! _Implementation note: Advanced robustness skill. Real-world scenario with multiple failure modes. Builds on G6.20 data validation to handling unreliable streams. Design + implementation. Auto-graded by various unreliable input scenarios. CSTA: MS-ALG-AF-01, MS-PRO-TR-11._
-
-Dependencies:
-* T01.G6.20: Validate and clean data before algorithm processing
-* T01.G6.17: Design algorithms that recover gracefully from errors
-
-
-
-ID: T01.G7.17
-Topic: T01 – Everyday Algorithms
-Skill: Analyze why some algorithms don't scale
-Description: **Student task:** Given an algorithm that works fine for small inputs but becomes impossibly slow for large inputs, analyze WHY it doesn't scale. **Visual scenario:** Algorithm to find duplicate photos: compares every photo to every other photo. With 100 photos: 10,000 comparisons (fast). With 10,000 photos: 100,000,000 comparisons (too slow!). **Analysis:** (1) Identify the step that grows fastest, (2) Calculate how it grows (10x input → 100x work), (3) Explain why this is O(n²). **Assessment:** Correctly identify scaling problem and explain mathematically. **Key insight:** Algorithms that work for small data might be useless for big data - always ask "what happens when we 10x the input?" _Implementation note: Informal introduction to Big-O thinking. Uses concrete numbers before formal notation. MCQ + calculation + explanation. Auto-graded. CSTA: MS-ALG-AF-02, MS-ALG-PS-05._
-
-Dependencies:
-* T01.G6.22: Identify the bottleneck step in a multi-step algorithm
-* T01.G7.09: Analyze algorithm scalability with data tables
-
 
 
 ID: T01.G8.01
@@ -2646,89 +2288,68 @@ Dependencies:
 * T01.G8.09: Refactor a medium-sized program for efficiency
 
 
+# T02 - Algorithm Diagrams (Phase 10 Optimized - December 2025)
+# Applied Phase 10 comprehensive optimizations:
+# MAJOR CHANGES FROM PHASE 9 → PHASE 10:
+# 1. NEW SKILLS ADDED (24 new skills for depth, computational thinking, AI-era mastery):
+#    K-2 NEW SKILLS (picture-based, visual reasoning):
+#    - T02.GK.08: Match a diagram to its real-world outcome picture
+#    - T02.G1.10: Debug a diagram by finding the step that causes a wrong outcome
+#    - T02.G1.11: Predict outcomes for diagrams with different starting conditions
+#    - T02.G2.13: Build a diagram with a "wait for" step (introduces timing concepts)
+#    - T02.G2.14: Compare two diagrams and explain which is clearer for a helper
+#    G3-5 NEW SKILLS (block-based, algorithmic thinking):
+#    - T02.G3.13: Predict how many times each block executes in a simple script
+#    - T02.G3.14: Debug a flowchart by finding the missing connection
+#    - T02.G4.12: Trace a counting algorithm that skips by 2s, 3s, or 5s
+#    - T02.G4.13: Build a flowchart showing algorithm with early exit condition
+#    - T02.G4.14: Compare trace tables from two different algorithm approaches
+#    - T02.G5.12: Trace a swap algorithm exchanging two values
+#    - T02.G5.13: Build and trace a bubble sort visualization for 4 elements
+#    - T02.G5.14: Design an algorithm diagram showing data validation steps
+#    G6-8 NEW SKILLS (advanced algorithms, AI collaboration, systems):
+#    - T02.G6.14: Trace a selection sort algorithm showing minimum-finding passes
+#    - T02.G6.15: Draw a flowchart showing algorithm with multiple data sources
+#    - T02.G7.12: Trace a merge operation combining two sorted lists
+#    - T02.G7.13: Design a flowchart for event-driven algorithm with multiple triggers
+#    - T02.G7.14: Build algorithm animation showing backtracking (maze solving)
+#    - T02.G8.19: Design algorithm diagrams for distributed systems with message passing
+#    - T02.G8.20: Trace a graph traversal algorithm (BFS or DFS) on a simple graph
+#    - T02.G8.21: Critique and improve an AI-generated algorithm for bias and edge cases
+#    - T02.G8.22: Design modular algorithm architecture separating concerns
+#    - T02.G8.23: Build an algorithm complexity comparison tool with visual output
+#    - T02.G8.24: Create a comprehensive algorithm portfolio with multiple diagram types
+# 2. SKILLS ENHANCED for better active verbs and granularity:
+#    - All "Identify" → "Locate and tap", "Find and highlight", or "Detect"
+#    - All "Understand" → "Explain", "Demonstrate", or "Verify"
+#    - Added prediction-verification cycles throughout
+#    - Enhanced debugging focus across all grades
+# 3. DEPENDENCY REFINEMENTS:
+#    - All X-2 rule validations confirmed
+#    - Strengthened visual → code → algorithm progression
+#    - Added sorting algorithm progression (G5 bubble → G6 selection → G7 merge concepts)
+#    - Better scaffolding for complex algorithm concepts
+# 4. ENHANCED AI INTEGRATION:
+#    - AI-generated diagram verification and improvement skills
+#    - Human-AI collaboration with explicit verification protocols
+#    - Critical evaluation of AI outputs for correctness and bias
+#    - AI as design partner for complex algorithms
+# 5. REAL-WORLD ALGORITHM TYPES EXPANDED:
+#    - Sorting algorithms: bubble sort, selection sort, merge concepts
+#    - Graph algorithms: BFS/DFS introduction at G8
+#    - Distributed systems: message passing, synchronization
+#    - Data validation and error handling patterns
+#    - Event-driven and backtracking algorithms
+# 6. COMPUTATIONAL THINKING EMPHASIS:
+#    - Explicit debugging skills at every grade level
+#    - Algorithm comparison and efficiency analysis
+#    - Pattern recognition in algorithm structures
+#    - Abstraction through flowchart templates
+# Previous Phase 9 optimizations preserved
+# Total: 143 skills (K:8, G1:11, G2:14, G3:15, G4:16, G5:14, G6:17, G7:18, G8:30)
 
-ID: T01.G8.19
-Topic: T01 – Everyday Algorithms
-Skill: Combine multiple algorithmic patterns in complex solutions
-Description: **Student task:** Design and implement a complex algorithm that requires combining multiple patterns (e.g., search + sort + accumulation, or divide-and-conquer + backtracking). **Visual scenario:** Problem: "Find the three students whose combined scores come closest to a target without exceeding it." Solution combines: (1) Search pattern to examine combinations, (2) Accumulation to sum scores, (3) Greedy/backtracking to explore possibilities efficiently, (4) Comparison to track best answer. **Assessment:** (1) Correctly identifies needed patterns, (2) Combines them appropriately, (3) Solution is correct and reasonably efficient. **Key insight:** Real problems rarely fit a single pattern - expert problem-solvers combine patterns like building blocks! _Implementation note: Capstone algorithm design skill. Requires pattern mastery from earlier grades. Complex multi-step design + implementation. Rubric-graded for pattern selection, combination quality, and correctness. CSTA: MS-ALG-AF-01, MS-ALG-PS-06._
+## KINDERGARTEN (8 skills - added T02.GK.08 for outcome matching)
 
-Dependencies:
-* T01.G7.15: Design algorithms using backtracking (try, fail, retry)
-* T01.G8.13: Decompose complex problem into sub-algorithms
-* T01.G7.02: Choose a pattern to solve a problem
-
-
-
-# T02 - Algorithm Diagrams (Phase 11 Optimized - December 2025)
-# PHASE 11 MAJOR OVERHAUL - Visual Algorithm Literacy for AI Era
-#
-# PHILOSOPHY (Phase 11 - Bold Restructuring):
-# - DIAGRAM LITERACY: Read, write, critique, and adapt diagrams fluently
-# - DIAGRAMS AS COMMUNICATION: Tools for sharing algorithmic thinking with humans AND AI
-# - MULTIPLE REPRESENTATIONS: Same algorithm, different diagram types (flowchart, trace, state, sequence)
-# - READING BEFORE WRITING: Must understand others' diagrams before creating your own
-# - AI PARTNERSHIP: AI generates diagram drafts, humans verify and improve
-# - REAL-WORLD CONTEXT: Every diagram skill connected to authentic problem scenarios
-#
-# PHASE 11 NEW SKILL CATEGORIES:
-#
-# 1. DIAGRAM FUNDAMENTALS (NEW - Critical Foundation Missing in Phase 10)
-#    - T02.GK.00: Learn what a diagram IS and WHY we use pictures to show steps
-#    - T02.G1.00: Distinguish diagrams from other pictures (diagrams SHOW ORDER)
-#    - T02.G3.00: Explain why programmers use diagrams before coding
-#
-# 2. DIAGRAM READING & COMPREHENSION (NEW - Critical skill gap)
-#    - T02.GK.09: Read and follow a simple diagram made by someone else
-#    - T02.G2.15: Read an unfamiliar diagram and predict what happens
-#    - T02.G4.15: Read a peer's flowchart and identify its purpose
-#    - T02.G6.16: Read algorithm documentation and draw matching diagram
-#
-# 3. DIAGRAM QUALITY & CRITIQUE (NEW - Meta-cognitive skills)
-#    - T02.G1.12: Judge if a diagram is "good enough" for a helper to follow
-#    - T02.G3.15: Explain why one diagram is clearer than another
-#    - T02.G5.15: Critique a flowchart for missing steps or unclear labels
-#
-# 4. TRACE TABLE STANDARDIZATION (NEW - Consistent format across grades)
-#    - T02.G2.04 enhanced: Introduces standard trace table format
-#    - All trace skills now reference the same format: Step | Variable(s) | Value(s) | Action
-#
-# 5. GRAPH ALGORITHM SCAFFOLDING (NEW - Prerequisite for G8.20)
-#    - T02.G7.15: Draw a simple graph with nodes and edges
-#    - T02.G7.16: Trace a path through a graph following connections
-#    - T02.G8.20 enhanced: Now properly scaffolded by G7.15, G7.16
-#
-# 6. SORTING ALGORITHM PROGRESSION (FIXED - Dependencies were broken)
-#    - T02.G5.13: Bubble sort (depends on T02.G5.12 swap)
-#    - T02.G6.14: Selection sort (NOW depends on T02.G5.13 bubble sort)
-#    - T02.G7.12: Merge operation (NOW depends on T02.G6.14 selection sort)
-#
-# 7. EARLIER AI INTEGRATION (NEW - Start AI-assisted diagramming at G5)
-#    - T02.G5.16: Use AI to get hints for diagram structure
-#    - T02.G6.17: Compare your diagram to AI-generated version
-#    - Existing G8 AI skills preserved and enhanced
-#
-# 8. REAL-WORLD PROBLEM CONTEXTS (NEW - Authentic applications)
-#    - Every G3+ skill now includes real-world context
-#    - Examples: Game design, app development, robotics, data science
-#
-# DEPENDENCY PRINCIPLES (Phase 11):
-# - X-2 rule strictly enforced
-# - Reading skills precede writing skills at each level
-# - Trace table format introduced G2, reinforced throughout
-# - Graph foundations in G7 before graph algorithms in G8
-# - Sorting ladder: swap → bubble → selection → merge (dependencies fixed)
-#
-# Total: 156 skills (added 13 new skills: 3 foundational, 4 reading, 3 critique,
-# 2 graph scaffolding, 1 AI hint. Enhanced many existing skills with real-world context)
-# Skill counts: K:10, G1:13, G2:16, G3:16, G4:17, G5:16, G6:19, G7:20, G8:29
-
-## KINDERGARTEN (10 skills - added T02.GK.00 foundational, T02.GK.09 reading)
-
-
-ID: T02.GK.00
-Topic: T02 – Algorithm Diagrams
-Skill: Learn what a diagram is and why we use pictures to show steps
-Description: **Student task:** Watch a short video showing someone following picture steps (like a recipe with pictures), then tap YES when you see a "diagram" - pictures that show steps in order. **Visual scenario:** Video 1: Mom looking at a picture recipe showing [mix flour] → [add eggs] → [bake] to make cookies. Video 2: A random drawing of a cat (NOT a diagram). Video 3: Picture steps for putting on shoes [sock] → [shoe] → [tie]. Question: "Which ones show STEPS to follow?" Students tap YES for Videos 1 and 3. **Key concept:** A DIAGRAM uses pictures in ORDER to show how to do something. Diagrams HELP us remember what to do and in what ORDER. _Implementation note: Introduces the WORD "diagram" with concrete examples before any manipulation tasks. Audio clearly says "This is called a diagram!" Picture-based with voice support. Auto-graded by YES/NO selections. CSTA: EK-ALG-AF-01._
 
 
 
@@ -2738,7 +2359,6 @@ Skill: Tap the arrow showing "what comes next" in a picture strip
 Description: **Student task:** Look at a picture strip with 3 pictures connected by arrows (→). Tap the arrow that shows "what comes next" after brushing teeth. **Visual scenario:** Strip shows: [get toothbrush] →₁ [add toothpaste] →₂ [brush teeth]. Students tap arrow₁ or arrow₂ based on the question "Which arrow shows what happens after 'get toothbrush'?" **Correct answer:** Arrow₁. _Implementation note: Introduces arrows as directional symbols in diagrams; focuses on arrow meaning rather than sequencing. Large colorful arrows with highlight on tap. Auto-graded by selection. CSTA: EK‑ALG‑AF‑01._
 
 Dependencies:
-* T02.GK.00: Learn what a diagram is and why we use pictures to show steps
 * T01.GK.01: Sequence three picture cards for a bedtime routine
 
 
@@ -2819,27 +2439,11 @@ Dependencies:
 * T02.GK.02: Place pictures into a diagram strip with numbered boxes
 
 
-ID: T02.GK.09
-Topic: T02 – Algorithm Diagrams
-Skill: Read and follow a simple diagram made by someone else
-Description: **Student task:** Look at a picture diagram that a "friend" made. Follow the steps shown and tap the picture that shows what you should do NEXT. **Visual scenario:** Friend's diagram shows: [get paper] → [fold in half] → [draw a heart] → [give to mom]. Question 1: "Your friend made this for you! You just got the paper. What do you do next?" Answer: fold in half. Question 2: "You just folded. Now what?" Answer: draw a heart. **Key concept:** We can READ diagrams made by OTHER people to learn what to do. Diagrams help us share ideas! _Implementation note: First skill explicitly about reading OTHERS' diagrams; foundational for collaboration. Picture-based with story context. Auto-graded by correct next-step selections. CSTA: EK-ALG-AF-01._
-
-Dependencies:
-* T02.GK.03: Label START and END boxes in a picture diagram
-
-
 ---
 
-## GRADE 1 (13 skills - added T02.G1.00 distinguishing diagrams, T02.G1.12 diagram quality)
+## GRADE 1 (11 skills - added T02.G1.10 debugging, T02.G1.11 conditional outcomes)
 
 
-ID: T02.G1.00
-Topic: T02 – Algorithm Diagrams
-Skill: Distinguish diagrams from other pictures by identifying ORDER and STEPS
-Description: **Student task:** Look at different pictures and tap only the ones that are DIAGRAMS — pictures that show steps in ORDER. **Visual scenario:** Picture A: A painting of a sunset (NOT a diagram — no steps). Picture B: Picture steps for making a bed [straighten sheets] → [add pillow] → [put on blanket] (YES — a diagram!). Picture C: A photo of a cake (NOT a diagram — just one picture, no order). Picture D: Lego instructions showing [step 1: base] → [step 2: add blocks] → [step 3: roof] (YES — a diagram!). Students tap B and D. **Key concept:** A DIAGRAM shows STEPS in ORDER. Regular pictures don't show steps or order. _Implementation note: Explicitly teaches recognition of diagrams vs non-diagrams; foundational vocabulary. Audio explains "A diagram shows WHAT to do in ORDER." Auto-graded by correct selections. CSTA: E1-ALG-AF-01._
-
-Dependencies:
-* T02.GK.00: Learn what a diagram is and why we use pictures to show steps
 
 
 ID: T02.G1.01
@@ -2956,19 +2560,9 @@ Dependencies:
 * T02.G1.09: Predict which path a character takes through a branching diagram
 
 
-ID: T02.G1.12
-Topic: T02 – Algorithm Diagrams
-Skill: Judge if a diagram is "good enough" for a helper to follow
-Description: **Student task:** Look at 2-3 different diagrams for the same task. Decide which diagram a robot helper could follow best, and explain why. **Visual scenario:** Task: "Make a peanut butter sandwich." Diagram A: [get bread] → [eat] (too few steps — robot doesn't know about peanut butter!). Diagram B: [get bread] → [open peanut butter] → [spread on bread] → [eat] (better — robot knows all steps!). Diagram C: [go to kitchen] → [open drawer] → [get knife] → [get bread] → ... (maybe TOO many details?). Question: "Which diagram would help a robot best?" Students select B and explain: "It has all the important steps but isn't too long." _Implementation note: Introduces meta-cognitive evaluation of diagram quality; "good enough" thinking. Prepares for later critique skills. Auto-graded by selection + explanation keywords. CSTA: E1-ALG-AF-01, E1-ALG-IM-04._
-
-Dependencies:
-* T02.G1.08: Build two different diagrams that achieve the same goal
-* T02.GK.09: Read and follow a simple diagram made by someone else
-
-
 ---
 
-## GRADE 2 (16 skills - added T02.G2.15 reading unfamiliar diagrams)
+## GRADE 2 (14 skills - added T02.G2.13 timing, T02.G2.14 clarity comparison)
 
 
 
@@ -3127,38 +2721,19 @@ Dependencies:
 * T02.GK.07: Sort picture cards by step size (big steps vs small steps)
 
 
-ID: T02.G2.15
-Topic: T02 – Algorithm Diagrams
-Skill: Read an unfamiliar diagram and predict what happens
-Description: **Student task:** Look at a diagram you've never seen before. Figure out what task it shows and predict what would happen if you followed it. **Visual scenario:** Show an unfamiliar diagram: [get bucket] → [add water] → [add soap] → [get sponge] → [scrub car] → [rinse]. Question 1: "What task does this diagram show?" Answer choices: washing a car, making cookies, playing a game. Question 2: "What would the car look like after following this diagram?" Answer: clean! Question 3: "What step is MISSING?" Answer: dry the car. _Implementation note: Tests diagram comprehension with unfamiliar content; reading skills transfer. Prediction + gap identification. Auto-graded by selections + missing step identification. CSTA: E2-ALG-AF-01._
-
-Dependencies:
-* T02.G2.02: Match a text-label diagram to its picture diagram
-* T02.G1.12: Judge if a diagram is "good enough" for a helper to follow
-
-
 ---
 
-## GRADE 3 (16 skills - added T02.G3.00 why programmers use diagrams, T02.G3.15 diagram clarity)
+## GRADE 3 (15 skills - added T02.G3.13 execution counting, T02.G3.14 flowchart debugging)
+
+
 
 
 ID: T02.G3.00
-Topic: T02 – Algorithm Diagrams
-Skill: Explain why programmers use diagrams before coding
-Description: **Student task:** Watch a short video of a programmer planning with diagrams, then answer questions about WHY they used diagrams instead of jumping straight to code. **Visual scenario:** Video shows: Programmer says "I want to build a game where a cat catches mice." Before coding, they draw: [Start] → [Cat appears] → [Mice appear] → [Player moves cat] → [Check if touching mouse] → [Add point] → [Repeat]. Then they build blocks matching their diagram. Question 1: "Why did the programmer draw FIRST?" Answer options: (A) To plan the steps before typing (CORRECT), (B) Because they like drawing (wrong reason), (C) The computer told them to. Question 2: "What would happen if they skipped the diagram?" Discussion: Might forget steps, get confused, make more mistakes. **Key concept:** Diagrams help us THINK before we code. _Implementation note: Introduces diagrams as professional practice; meta-cognitive framing for why diagrams matter. Auto-graded by correct answer selections. CSTA: E3-ALG-AF-01, E3-PRO-PF-01._
-
-Dependencies:
-* T02.G2.15: Read an unfamiliar diagram and predict what happens
-* T02.G1.00: Distinguish diagrams from other pictures by identifying ORDER and STEPS
-
-
-ID: T02.G3.00.01
 Topic: T02 – Algorithm Diagrams
 Skill: Arrange provided blocks in the order shown by a diagram
 Description: **Student task:** Look at a simple 4-box diagram and arrange pre-made blocks to match the diagram order. Blocks are already provided; students only need to drag them into correct sequence. **Visual scenario:** Diagram: [set x to 0] → [move 50] → [turn 90] → [say "done"]. Four loose blocks are shown scrambled. Students drag blocks into the correct top-to-bottom order matching the diagram left-to-right. _Implementation note: Bridge between reading diagrams (G2) and building code (G3); scaffolds coding entry. Auto-graded by block arrangement. CSTA: E3-ALG-AF-01._
 
 Dependencies:
-* T02.G3.00: Explain why programmers use diagrams before coding
 * T02.G2.08: Match a text-label diagram to a block script (bridging skill)
 
 
@@ -3318,19 +2893,9 @@ Dependencies:
 * T02.G2.11: Debug a diagram by adding a missing arrow connection
 
 
-ID: T02.G3.15
-Topic: T02 – Algorithm Diagrams
-Skill: Explain why one diagram is clearer than another for a specific audience
-Description: **Student task:** Compare two flowcharts for the same algorithm. Explain WHY one is clearer for a specific audience (beginner, expert, or computer). **Visual scenario:** Algorithm: Draw a square. Flowchart A: Simple version with 4 boxes: [pen down] → [repeat 4: move, turn] → [pen up] → END. Flowchart B: Expanded version showing each iteration: [pen down] → [move 100] → [turn 90] → [move 100] → [turn 90] → [move 100] → [turn 90] → [move 100] → [turn 90] → [pen up] → END. Questions: (1) "Which is better for a BEGINNER?" Answer: B — shows every step clearly! (2) "Which is better for an EXPERT?" Answer: A — compact, assumes they know about loops. (3) "Which is better for a COMPUTER?" Answer: Both work the same! Students explain each answer. **Key concept:** Different audiences need different diagram styles. _Implementation note: Introduces audience-awareness in diagramming; meta-cognitive skill. Auto-graded by correct selection + explanation keywords. CSTA: E3-ALG-AF-01, E3-ALG-IM-04._
-
-Dependencies:
-* T02.G3.10: Match flowchart symbols to their meanings and demonstrate understanding
-* T02.G2.14: Compare two diagrams and explain which is clearer for a helper
-
-
 ---
 
-## GRADE 4 (17 skills - added T02.G4.15 reading peer flowcharts)
+## GRADE 4 (16 skills - added T02.G4.12 skip counting, T02.G4.13 early exit, T02.G4.14 trace comparison)
 
 
 
@@ -3540,19 +3105,9 @@ Dependencies:
 * T02.G3.06: Compare two block scripts for the same task
 
 
-ID: T02.G4.15
-Topic: T02 – Algorithm Diagrams
-Skill: Read a peer's flowchart and identify its purpose and any issues
-Description: **Student task:** Look at a flowchart created by another student (you haven't seen the original problem). Figure out what the flowchart is trying to do, then identify any issues or improvements. **Visual scenario:** Peer's flowchart shows: (START) → [set score to 0] → [repeat 10] → ◇dice > 3?◇ → Yes: [add 1 to score] → (loop back). No: (loop back) → END → [say score]. Students analyze: (1) "What is this flowchart trying to do?" Answer: Play a dice game, count how many rolls are above 3. (2) "What issue can you find?" Answer: The [say score] is after END — that's wrong! Should be before END. (3) "What question would you ask the creator?" Example: "What happens when dice equals exactly 3?" **Key concept:** Reading others' diagrams helps us learn and find bugs. _Implementation note: Peer code review at diagram level; builds collaboration skills. Structured critique format. Auto-graded by issue identification + question quality. CSTA: E4-ALG-AF-01, E4-PRO-TR-03._
-
-Dependencies:
-* T02.G4.07: Draw a flowchart with a loop symbol
-* T02.G3.15: Explain why one diagram is clearer than another for a specific audience
-
-
 ---
 
-## GRADE 5 (16 skills - added T02.G5.15 flowchart critique, T02.G5.16 AI diagram hints)
+## GRADE 5 (14 skills - added T02.G5.12 swap, T02.G5.13 bubble sort, T02.G5.14 validation)
 
 
 
@@ -3709,29 +3264,9 @@ Dependencies:
 * T02.G5.11: Design a flowchart for error handling with try/catch patterns
 
 
-ID: T02.G5.15
-Topic: T02 – Algorithm Diagrams
-Skill: Critique a flowchart for missing steps, unclear labels, and structural issues
-Description: **Student task:** Given a flowchart with intentional problems, systematically identify and categorize the issues: missing steps, unclear labels, wrong connections, and missing error handling. Propose specific fixes. **Visual scenario:** Flowchart for "Login to a website": (START) → [Enter username] → [Enter password] → ◇Correct?◇ → Yes: [Show home page] → END. No: (nothing — dead end!). Students identify: (1) Missing step: "Click login button" before the check, (2) Unclear label: "Correct?" — correct what? Should say "Password matches?", (3) Structural issue: No path exits DEAD END, (4) Missing error handling: What if network fails? Create checklist of 4+ issues with proposed fixes for each. **Key concept:** Systematic critique improves diagram quality. _Implementation note: Structured critique methodology; prepares for code review. Issue categories: completeness, clarity, structure, robustness. Auto-graded by issue identification + fix quality. CSTA: E5-ALG-AF-01, E5-PRO-TR-03._
-
-Dependencies:
-* T02.G5.07: Draw a flowchart with nested structures
-* T02.G4.15: Read a peer's flowchart and identify its purpose and any issues
-
-
-ID: T02.G5.16
-Topic: T02 – Algorithm Diagrams
-Skill: Use AI to get hints for diagram structure without getting the full solution
-Description: **Student task:** You're stuck on how to structure a diagram. Use the ChatGPT block to ask for HINTS (not the full answer). Evaluate the AI's hint, decide if it helps, and continue your diagram. **Visual scenario:** Task: Draw a flowchart for "finding the largest number in a list." Student is stuck. They ask ChatGPT: "I need to find the biggest number in a list. What should I think about first?" AI responds: "Think about: What value will you compare each number to? Where will you store your best answer so far?" Student realizes: "Oh! I need a variable to track the largest so far!" They don't ask for the full flowchart — just the thinking hint. Then they draw: [set max to first item] → [repeat for each item] → ◇item > max?◇ → Yes: [set max to item] → (continue). **Key concept:** AI can help you think, but YOU do the work. _Implementation note: Introduces AI-assisted learning with human ownership; critical skill for appropriate AI use. Auto-graded by hint request quality (not asking for full solution) + diagram completion. CSTA: E5-ALG-AF-01, E5-AI-INT-04._
-
-Dependencies:
-* T02.G5.07: Draw a flowchart with nested structures
-* T02.G4.11: Create an animated flowchart that highlights current step during execution
-
-
 ---
 
-## GRADE 6 (19 skills - added T02.G6.16 reading documentation, T02.G6.17 comparing to AI)
+## GRADE 6 (17 skills - added T02.G6.14 selection sort, T02.G6.15 multi-source)
 
 
 
@@ -3910,11 +3445,11 @@ Dependencies:
 ID: T02.G6.14
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a selection sort algorithm showing minimum-finding passes
-Description: **Student task:** Trace a selection sort algorithm, focusing on how each pass finds the minimum of the unsorted portion and swaps it into place. Create a detailed trace showing: which elements are compared, which minimum is found, and the list state after each pass. Compare to bubble sort to understand when each strategy is better. **Visual scenario:** List: [64, 25, 12, 22]. Pass 1: Find min of [64,25,12,22] → 12 at index 2. Swap with index 0 → [12,25,64,22]. Pass 2: Find min of [25,64,22] → 22 at index 3. Swap with index 1 → [12,22,64,25]. Pass 3: Find min of [64,25] → 25 at index 3. Swap with index 2 → [12,22,25,64]. Students trace each pass showing: Pass | Unsorted portion | Min found | Swap | Result. Compare to bubble sort: "Bubble sort swaps many times per pass. Selection sort swaps once per pass. Which is faster for swapping?" Answer: Selection sort makes fewer swaps (but same comparisons). _Implementation note: Selection sort as second sorting algorithm; builds on bubble sort understanding. Emphasizes algorithm comparison and tradeoffs. Auto-graded by trace accuracy + comparison insight. CSTA: E6‑ALG‑AF‑01, E6‑ALG‑PS‑03._
+Description: **Student task:** Trace a selection sort algorithm, focusing on how each pass finds the minimum of the unsorted portion and swaps it into place. Create a detailed trace showing: which elements are compared, which minimum is found, and the list state after each pass. **Visual scenario:** List: [64, 25, 12, 22]. Pass 1: Find min of [64,25,12,22] → 12 at index 2. Swap with index 0 → [12,25,64,22]. Pass 2: Find min of [25,64,22] → 22 at index 3. Swap with index 1 → [12,22,64,25]. Pass 3: Find min of [64,25] → 25 at index 3. Swap with index 2 → [12,22,25,64]. Students trace each pass showing: Pass | Unsorted portion | Min found | Swap | Result. Compare to bubble sort: "Which checks fewer elements?" _Implementation note: Selection sort as second sorting algorithm; shows different strategy than bubble sort. Emphasizes algorithm comparison. Auto-graded by trace accuracy + comparison insight. CSTA: E6‑ALG‑AF‑01, E6‑ALG‑PS‑03._
 
 Dependencies:
 * T02.G5.13: Build and trace a bubble sort visualization for 4 elements
-* T02.G6.07.02: Adapt find-maximum to find-minimum and trace the difference
+* T02.G6.07.01: Build a find-maximum algorithm with trace output
 
 
 ID: T02.G6.15
@@ -3927,29 +3462,9 @@ Dependencies:
 * T02.G5.14: Design an algorithm diagram showing data validation steps
 
 
-ID: T02.G6.16
-Topic: T02 – Algorithm Diagrams
-Skill: Read algorithm documentation and draw the matching diagram
-Description: **Student task:** Given written documentation describing an algorithm (in paragraph form, not as a diagram), draw a flowchart that accurately represents the documented algorithm. Verify by tracing through test cases. **Visual scenario:** Documentation: "The algorithm starts with a list of numbers. First, it checks if the list is empty — if so, it returns an error. Otherwise, it sets a variable 'sum' to 0. Then it goes through each number in the list, adding it to sum. Finally, it divides sum by the count of numbers and returns the average." Students draw: (START) → ◇List empty?◇ → Yes: [Return error] → END. No → [sum = 0] → [for each number] → [add to sum] → (loop) → [average = sum / count] → [return average] → END. Trace with [4, 8, 12] to verify: sum=24, count=3, average=8. **Key concept:** Documentation and diagrams are different representations of the same algorithm. _Implementation note: Reading documentation skill; reverse of flowchart-to-pseudocode. Auto-graded by diagram accuracy + trace verification. CSTA: E6-ALG-AF-01, E6-PRO-PF-01._
-
-Dependencies:
-* T02.G6.09: Convert a flowchart diagram directly to pseudocode text
-* T02.G5.08: Convert a flowchart to a block script
-
-
-ID: T02.G6.17
-Topic: T02 – Algorithm Diagrams
-Skill: Compare your diagram to an AI-generated version and evaluate differences
-Description: **Student task:** After creating your own flowchart for a problem, use ChatGPT to generate an alternative flowchart description. Compare the two versions and evaluate: What did you include that AI missed? What did AI include that you missed? Which is better for this situation? **Visual scenario:** Task: Create a flowchart for "checking if a password is strong." Student creates their version with checks for length, uppercase, and numbers. Then asks ChatGPT: "Describe a flowchart for checking password strength." AI version includes: length, uppercase, lowercase, number, AND special character checks. Comparison: (1) AI included more checks — more thorough! (2) Student's version is simpler — easier to understand. (3) Depending on context, either might be better. Students document: "I would add lowercase check from AI, but keep my simpler error messages." **Key concept:** AI is a thinking partner, not a replacement. Compare and learn from differences. _Implementation note: AI comparison skill; critical for AI-augmented workflow. Evaluative thinking about AI output. Auto-graded by comparison documentation quality. CSTA: E6-ALG-AF-01, E6-AI-INT-04._
-
-Dependencies:
-* T02.G6.11: Design a flowchart template for reuse across similar problems
-* T02.G5.16: Use AI to get hints for diagram structure without getting the full solution
-
-
 ---
 
-## GRADE 7 (20 skills - added T02.G7.15-16 graph foundations)
+## GRADE 7 (18 skills - added T02.G7.12 merge, T02.G7.13 event-driven, T02.G7.14 backtracking)
 
 
 
@@ -4150,11 +3665,11 @@ Dependencies:
 ID: T02.G7.12
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a merge operation combining two sorted lists
-Description: **Student task:** Trace the merge operation that combines two already-sorted lists into one sorted list. Track pointers for each list and show how elements are selected and placed. Compare to bubble and selection sort — this is a different strategy! **Visual scenario:** List A: [2, 5, 8]. List B: [1, 4, 6, 9]. Merge trace: Compare 2 vs 1 → take 1 from B → result [1]. Compare 2 vs 4 → take 2 from A → [1,2]. Compare 5 vs 4 → take 4 from B → [1,2,4]. Continue... Final: [1,2,4,5,6,8,9]. Trace table shows: Step | A pointer | B pointer | Compare | Take from | Result so far. Students fill complete trace and predict result before verifying. Discussion: "This only works if BOTH lists are already sorted. Why?" and "How is this different from bubble/selection sort?" **Key concept:** Merge is a building block for divide-and-conquer sorting. _Implementation note: Merge as foundational operation for merge sort; O(n) merge of sorted inputs. Builds toward divide-and-conquer understanding. Completes the sorting progression: swap → bubble → selection → merge. Auto-graded by trace table accuracy. CSTA: E7‑ALG‑AF‑01, E7‑ALG‑PS‑03._
+Description: **Student task:** Trace the merge operation that combines two already-sorted lists into one sorted list. Track pointers for each list and show how elements are selected and placed. **Visual scenario:** List A: [2, 5, 8]. List B: [1, 4, 6, 9]. Merge trace: Compare 2 vs 1 → take 1 from B → result [1]. Compare 2 vs 4 → take 2 from A → [1,2]. Compare 5 vs 4 → take 4 from B → [1,2,4]. Continue... Final: [1,2,4,5,6,8,9]. Trace table shows: Step | A pointer | B pointer | Compare | Take from | Result so far. Students fill complete trace and predict result before verifying. _Implementation note: Merge as foundational operation for merge sort; O(n) merge of sorted inputs. Builds toward divide-and-conquer understanding. Auto-graded by trace table accuracy. CSTA: E7‑ALG‑AF‑01, E7‑ALG‑PS‑03._
 
 Dependencies:
 * T02.G6.14: Trace a selection sort algorithm showing minimum-finding passes
-* T02.G7.03.02: Add trace output to visualize search algorithm steps
+* T02.G7.03.01: Build a linear search algorithm to find a target value
 
 
 ID: T02.G7.13
@@ -4177,29 +3692,9 @@ Dependencies:
 * T02.G6.10: Create animated algorithm visualization using sprite movements
 
 
-ID: T02.G7.15
-Topic: T02 – Algorithm Diagrams
-Skill: Draw a simple graph with nodes and edges to represent connections
-Description: **Student task:** Draw a graph diagram showing objects (nodes) and their connections (edges). Understand when a graph is the right diagram type vs a flowchart. **Visual scenario:** Task: "Draw a diagram showing which students are friends." Information: Alex is friends with Bo. Bo is friends with Chris. Chris is friends with Alex AND Dana. Dana is friends with Bo. Students draw: Four circles (nodes) labeled Alex, Bo, Chris, Dana. Lines (edges) connecting: Alex—Bo, Bo—Chris, Chris—Alex, Chris—Dana, Dana—Bo. Discussion: "This is NOT a flowchart because there's no start/end or flow. It's a GRAPH showing connections." Question: "Can you get from Alex to Dana? What paths exist?" Paths: Alex→Bo→Dana OR Alex→Chris→Dana. **Key concept:** Graphs show connections between things; flowcharts show steps in order. _Implementation note: Introduces graph diagrams as distinct from flowcharts; foundational for G8 graph algorithms. Auto-graded by correct node/edge structure. CSTA: E7-ALG-AF-01, E7-DATA-02._
-
-Dependencies:
-* T02.G7.10: Design a sequence diagram for multi-sprite message passing
-* T02.G6.15: Draw a flowchart showing algorithm with multiple data sources
-
-
-ID: T02.G7.16
-Topic: T02 – Algorithm Diagrams
-Skill: Trace a path through a graph following connections step by step
-Description: **Student task:** Given a graph and a starting node, trace a path through the graph to reach a goal node. Show each step and decision. Identify when multiple paths exist. **Visual scenario:** Graph: Cities A, B, C, D, E with roads connecting them. A—B, A—C, B—C, B—D, C—E, D—E. Task: "Find a path from A to E." Students trace: Option 1: A→B→D→E (3 steps). Option 2: A→C→E (2 steps). Option 3: A→B→C→E (3 steps). Fill in trace table: Step | Current Node | Options | Choose | Why. Students identify: shortest path is A→C→E. Discussion: "How would a computer find the shortest path? It would need to try all paths!" This leads to understanding why BFS/DFS algorithms exist. **Key concept:** Tracing graph paths prepares for understanding graph algorithms. _Implementation note: Manual graph traversal; prerequisite for BFS/DFS in G8. Auto-graded by valid path identification + shortest path recognition. CSTA: E7-ALG-AF-01, E7-ALG-PS-03._
-
-Dependencies:
-* T02.G7.15: Draw a simple graph with nodes and edges to represent connections
-* T02.G7.07.02: Trace binary search showing search space reduction at each step
-
-
 ---
 
-## GRADE 8 (29 skills - comprehensive AI-era mastery, graph algorithms, systems)
+## GRADE 8 (30 skills - added 8 advanced skills for AI-era mastery, graph algorithms, systems)
 
 
 
@@ -4458,11 +3953,11 @@ Dependencies:
 ID: T02.G8.20
 Topic: T02 – Algorithm Diagrams
 Skill: Trace a graph traversal algorithm (BFS or DFS) on a simple graph
-Description: **Student task:** Given a simple graph (5-7 nodes with connections), trace either breadth-first search (BFS) or depth-first search (DFS). Show the order nodes are visited, track which nodes are "seen but not yet processed" vs "fully processed". Compare BFS and DFS strategies. **Visual scenario:** Graph: A connects to B,C. B connects to D,E. C connects to F. Start at A, goal is F. BFS trace (uses QUEUE — first in, first out): Visit A → queue [B,C] → visit B → queue [C,D,E] → visit C → queue [D,E,F] → ... Order: A,B,C,D,E,F (level by level). DFS trace (uses STACK — last in, first out): Visit A → stack [C,B] → visit B → stack [C,E,D] → visit D → ... Order: A,B,D,E,C,F (depth first). Students draw graph with numbered visit order, plus table tracking queue/stack state. Discussion: "Which finds the SHORTEST path to F?" Answer: BFS (it explores level by level). "Which uses less memory for deep graphs?" Answer: DFS (smaller stack than queue). **Key concept:** BFS and DFS are fundamental graph exploration strategies with different tradeoffs. _Implementation note: Graph algorithm introduction; builds on G7 graph foundations. BFS uses queue, DFS uses stack. Fundamental CS algorithms. Auto-graded by correct visit order + state tracking. CSTA: E8‑ALG‑AF‑01, E8‑ALG‑PS‑03._
+Description: **Student task:** Given a simple graph (5-7 nodes with connections), trace either breadth-first search (BFS) or depth-first search (DFS). Show the order nodes are visited, track which nodes are "seen but not yet processed" vs "fully processed". **Visual scenario:** Graph: A connects to B,C. B connects to D,E. C connects to F. Start at A. BFS trace: Visit A → queue [B,C] → visit B → queue [C,D,E] → visit C → queue [D,E,F] → ... Order: A,B,C,D,E,F (level by level). DFS trace: Visit A → stack [C,B] → visit B → stack [C,E,D] → visit D → ... Order: A,B,D,E,C,F (depth first). Students draw graph with numbered visit order, plus table tracking queue/stack state. _Implementation note: Graph algorithm introduction; BFS uses queue, DFS uses stack. Fundamental CS algorithms. Auto-graded by correct visit order + state tracking. CSTA: E8‑ALG‑AF‑01, E8‑ALG‑PS‑03._
 
 Dependencies:
-* T02.G7.16: Trace a path through a graph following connections step by step
 * T02.G7.14: Build algorithm animation showing backtracking (maze solving)
+* T02.G8.07: Analyze algorithm complexity by counting operations at different scales
 
 
 ID: T02.G8.21
@@ -4506,77 +4001,72 @@ Dependencies:
 * T02.G7.10: Design a sequence diagram for multi-sprite message passing
 
 
-# T03 - Problem Decomposition (Phase 9 Optimized - December 2025)
-# Applied Phase 9 comprehensive optimizations:
-# MAJOR CHANGES FROM PHASE 8:
+# T03 - Problem Decomposition (Phase 8 Optimized - December 2025)
+# Applied Phase 8 comprehensive optimizations:
+# MAJOR CHANGES FROM PHASE 7:
 #
-# PHILOSOPHY: Problem Decomposition is THE foundational skill of computational thinking.
-# As AI handles routine coding, decomposition becomes the CRITICAL human skill.
-# Students must learn to: (1) break complexity into manageable pieces, (2) see structure
-# in chaos, (3) design for change, and (4) collaborate with AI through clear problem framing.
+# PHILOSOPHY: Problem Decomposition is THE core skill of computational thinking.
+# As AI handles more routine coding, decomposition becomes MORE critical, not less.
+# Students must learn to break complex problems into human-AI collaborative pieces.
 #
-# PHASE 9 NEW ADDITIONS & CHANGES:
+# 1. NEW SKILLS ADDED (25 new skills for depth, meta-cognition, and AI-era collaboration):
+#    K-2 ENHANCEMENTS (Meta-cognitive foundations):
+#    - T03.GK.01.01: Explain why some picture cards are parts of a whole
+#    - T03.GK.03.01: Predict if a routine plan will work before testing
+#    - T03.GK.09: Decide if a task is "too big" and needs breaking down
+#    - T03.G1.07: Explain a decomposition choice to a partner
+#    - T03.G1.08: Recognize when a step is "too big" and needs splitting
+#    - T03.G2.12: Judge whether a project plan has enough detail
+#    - T03.G2.13: Combine two simple plans into one bigger plan
 #
-# 1. NEW DECOMPOSITION DIMENSIONS (15 new skills):
-#    - CONCURRENT/PARALLEL DECOMPOSITION:
-#      - T03.G3.15: Decompose a project with multiple sprites acting simultaneously
-#      - T03.G5.14: Decompose real-time interactions (events happening at same time)
-#      - T03.G7.17: Decompose for parallel execution (what can run simultaneously)
+#    G3-G4 ENHANCEMENTS (Decomposition quality & iteration):
+#    - T03.G3.13: Explain why you decomposed a project a certain way
+#    - T03.G3.14: Revise a decomposition after testing reveals problems
+#    - T03.G4.15: Critique a peer's decomposition with constructive feedback
+#    - T03.G4.16: Decompose for reusability (identify parts others could use)
+#    - T03.G4.17: Determine appropriate decomposition granularity
 #
-#    - DATA-CENTRIC DECOMPOSITION:
-#      - T03.G4.18: Decompose by data structures needed (lists, variables, tables)
-#      - T03.G6.15: Decompose a project by data flow (where data comes from/goes)
-#      - T03.G8.25: Decompose by data lifecycle (creation, transformation, storage)
+#    G5-G6 ENHANCEMENTS (Earlier AI integration, collaboration prep):
+#    - T03.G5.12: Use XO to brainstorm initial decomposition ideas
+#    - T03.G5.13: Decompose for pair programming (driver/navigator split)
+#    - T03.G6.13: Predict which components will need the most iteration
+#    - T03.G6.14: Decompose an unfamiliar problem by analogy to known problems
 #
-#    - TIME-BASED DECOMPOSITION:
-#      - T03.G3.16: Decompose animations into timed phases
-#      - T03.G5.15: Decompose state machines (what states, what triggers transitions)
+#    G7-G8 ENHANCEMENTS (Professional-grade decomposition):
+#    - T03.G7.15: Decompose for incremental delivery (vertical slices)
+#    - T03.G7.16: Document decomposition decisions for future maintainers
+#    - T03.G8.21: Decompose for observability (monitoring, logging, debugging hooks)
+#    - T03.G8.22: Decompose for graceful degradation (what works if parts fail)
+#    - T03.G8.23: Compare AI-suggested decompositions against expert patterns
+#    - T03.G8.24: Decompose a legacy project for modernization
 #
-#    - CONSTRAINT-FIRST DECOMPOSITION:
-#      - T03.G4.19: Start decomposition from known constraints (limits, rules)
-#      - T03.G6.16: Decompose with resource constraints (memory, sprites, time)
+# 2. STRENGTHENED META-COGNITIVE PROGRESSION:
+#    - K: "What are the parts?" + "Why are these parts?"
+#    - G1-2: "Is this good?" + "Can it be better?"
+#    - G3-4: "Explain your thinking" + "Revise after feedback"
+#    - G5-6: "Use AI as thought partner" + "Prepare for teamwork"
+#    - G7-8: "Professional documentation" + "System-level thinking"
 #
-#    - USER/ACCESSIBILITY DECOMPOSITION:
-#      - T03.G5.16: Decompose by user interaction modes (keyboard, mouse, touch, voice)
-#      - T03.G7.18: Decompose for accessibility (different user needs)
+# 3. EARLIER AI TOOL INTEGRATION:
+#    - Moved XO usage from G6 to G5 (T03.G5.12)
+#    - AI-human decomposition thinking starts at G5, matures through G8
 #
-#    - ERROR RECOVERY DECOMPOSITION:
-#      - T03.G4.20: Decompose including "what if it goes wrong" steps
-#      - T03.G6.17: Design decomposition with fallback alternatives
+# 4. COLLABORATION SKILLS PROGRESSION:
+#    - G1: Explain to partner (verbal)
+#    - G4: Critique peer's work (structured feedback)
+#    - G5: Pair programming decomposition
+#    - G7-8: Team parallel development, interface design, handoffs
 #
-# 2. ENHANCED VALIDATION SKILLS:
-#    - T03.G3.17: Validate a decomposition plan BEFORE starting to code
-#    - T03.G5.17: Trace through a decomposition to find logical gaps
-#    - T03.G7.19: Review decomposition against requirements checklist
+# 5. REAL-WORLD PROBLEM EMPHASIS:
+#    - Every coding skill ties to authentic problem contexts
+#    - AI-era skills reflect actual professional workflows
 #
-# 3. RESTRUCTURING/PIVOTING SKILLS:
-#    - T03.G4.21: Recognize when decomposition is failing and needs restructuring
-#    - T03.G6.18: Pivot decomposition strategy mid-project when issues emerge
-#    - T03.G8.26: Decompose for evolutionary architecture (easy to change later)
+# 6. GRANULARITY AWARENESS:
+#    - GK.09, G1.08, G4.17: Explicit skills about "how small is small enough"
+#    - Critical meta-skill for avoiding over/under-decomposition
 #
-# 4. COLLABORATION-SPECIFIC DECOMPOSITION:
-#    - T03.G2.14: Decompose a task for "you do part, I do part" sharing
-#    - T03.G4.22: Split a project plan so two people can work without blocking each other
-#
-# 5. STRENGTHENED FOUNDATIONAL PROGRESSION (K-2):
-#    - Explicit "parts vs whole" vocabulary building
-#    - More concrete cause-and-effect reasoning
-#    - Early collaboration through sharing decomposition plans
-#
-# 6. PROFESSIONAL-GRADE ADDITIONS (G7-G8):
-#    - Domain-Driven Design thinking (decompose by business concepts)
-#    - Microservices thinking (independent deployable components)
-#    - Technical debt awareness in decomposition decisions
-#
-# META-COGNITIVE PROGRESSION ENHANCED:
-#    - K: "What are the parts?" + "Why these parts?" + "Did I miss any?"
-#    - G1-2: "Is this good?" + "Can it be better?" + "Can we share the work?"
-#    - G3-4: "Explain your thinking" + "What could go wrong?" + "Check BEFORE building"
-#    - G5-6: "Use AI as thought partner" + "Adapt when plans fail" + "Consider all users"
-#    - G7-8: "Design for change" + "Document for others" + "System-level resilience"
-#
-# Previous Phase 8 optimizations preserved
-# Total: 163 skills (was 148, added 15 new skills)
+# Previous Phase 7 optimizations preserved
+# Total: 148 skills (was 123, added 25 new skills)
 
 ID: T03.GK.01
 Topic: T03 – Problem Decomposition
@@ -4936,16 +4426,6 @@ Dependencies:
 * T03.G2.07: Group subtasks that work together for one feature
 
 
-ID: T03.G2.14
-Topic: T03 – Problem Decomposition
-Skill: Decompose a task for "you do part, I do part" sharing
-Description: **Student task:** Take a project plan and split it into two parts so two people can each do their share. **Visual scenario:** Project: "Make a card with a picture and music." Full plan: "draw picture, add text, record sound, add play button." Split for partners: "Partner 1: draw picture, add text" and "Partner 2: record sound, add play button." Both can work at the same time! Identify which splits work (independent tasks) vs which don't (if one person needs the other's work first). PICTURE-BASED collaboration planning activity with word cards.
-
-Dependencies:
-* T03.G2.13: Combine two simple plans into one bigger plan
-* T03.G2.07: Group subtasks that work together for one feature
-
-
 ID: T03.G3.00
 Topic: T03 – Problem Decomposition
 Skill: Decompose a picture-based task description into code-ready steps
@@ -5154,36 +4634,6 @@ Description: **Student task:** After testing reveals that your plan has problems
 Dependencies:
 * T03.G3.13: Explain why you decomposed a project a certain way
 * T03.G3.11: Decompose a bug report into investigation steps
-
-
-ID: T03.G3.15
-Topic: T03 – Problem Decomposition
-Skill: Decompose a project with multiple sprites acting simultaneously
-Description: **Student task:** Break down a project where multiple sprites need to act at the same time, identifying what each sprite does independently. **Coding scenario:** Project: "Two characters race across the screen when green flag clicked." Decomposition: "Sprite 1 (Cat): when green flag clicked, glide to right side. Sprite 2 (Dog): when green flag clicked, glide to right side (different speed)." Key insight: both scripts start at same time but run independently. Identify which actions are PARALLEL (happen at same time) vs SEQUENTIAL (one after another). Auto-graded by parallel vs sequential identification. _CSTA: 1B-AP-11._
-
-Dependencies:
-* T03.G3.12: Build and test ONE feature before adding the next
-* T03.G3.05: List main components of a coding project
-
-
-ID: T03.G3.16
-Topic: T03 – Problem Decomposition
-Skill: Decompose animations into timed phases
-Description: **Student task:** Break down an animation into timed phases, specifying what happens in each phase and how long it lasts. **Coding scenario:** Animation: "Character enters, bows, speaks, exits." Phase decomposition: "Phase 1 (2 sec): character glides in from left. Phase 2 (1 sec): character bows (costume change + wait). Phase 3 (3 sec): character says message. Phase 4 (2 sec): character glides out to right." Total: 8 seconds. Identify which phases must be sequential vs which could overlap. Auto-graded by phase identification and timing logic. _CSTA: 1B-AP-11._
-
-Dependencies:
-* T03.G3.15: Decompose a project with multiple sprites acting simultaneously
-* T03.G3.07: Trace and explain how two components interact in a project
-
-
-ID: T03.G3.17
-Topic: T03 – Problem Decomposition
-Skill: Validate a decomposition plan BEFORE starting to code
-Description: **Student task:** Before writing any code, check your decomposition plan against a validation checklist to catch problems early. **Coding scenario:** Decomposition for maze game: "1. Player movement, 2. Wall collision, 3. Win detection, 4. Score display." Validation checklist: "✓ Can I test step 1 alone? (Yes - player can move), ✓ Does step 2 depend on step 1? (Yes - need player to test collision), ✓ Are all features from description covered? (Check: movement ✓, walls ✓, winning ✓, score ✓), ✗ What about losing? (Missing! Add step 5: lose detection)." Find 1-2 issues in a decomposition by validating against checklist. Prevents wasted effort from flawed plans. Auto-graded by validation completeness and issue identification. _CSTA: 1B-AP-15._
-
-Dependencies:
-* T03.G3.14: Revise a decomposition after testing reveals problems
-* T03.G3.06: Compare project plans and select the best sequence
 
 
 ID: T03.G4.01
@@ -5405,56 +4855,6 @@ Dependencies:
 * T03.G3.14: Revise a decomposition after testing reveals problems
 
 
-ID: T03.G4.18
-Topic: T03 – Problem Decomposition
-Skill: Decompose by data structures needed (lists, variables, tables)
-Description: **Student task:** Break down a project by identifying what data structures are needed first, then what code uses them. **Coding scenario:** Project: "Quiz game that tracks which questions were answered correctly." Data-first decomposition: "Data structures needed: 1. questions list (stores question text), 2. answers list (stores correct answers), 3. score variable (tracks points), 4. current_question variable (tracks position). Code that uses data: display uses questions list, checking uses answers list, feedback updates score, navigation uses current_question." This approach ensures data design happens before code design. Auto-graded by data structure identification and usage mapping. _CSTA: 1B-AP-11._
-
-Dependencies:
-* T03.G4.13: Choose decomposition strategy (by data vs by action vs by user story)
-* T03.G4.05: Trace and evaluate how modules organize project components
-
-
-ID: T03.G4.19
-Topic: T03 – Problem Decomposition
-Skill: Start decomposition from known constraints (limits, rules)
-Description: **Student task:** Begin decomposition by listing constraints first, then design within those constraints. **Coding scenario:** Project: "3-level game." Constraints first: "1. Max 5 sprites (performance), 2. Must work on tablet (touch controls needed), 3. No sound (classroom use)." Constraint-aware decomposition: "Player sprite (1/5), Enemy sprite cloned 3 times (still 1 definition = 2/5), Background sprite (3/5), UI sprite for score (4/5), 1 sprite reserved for effects (5/5). Touch control: add virtual joystick instead of keyboard. Silent: use visual feedback instead of sounds." Shows how constraints shape the solution from the start. Auto-graded by constraint listing and constraint-respecting design. _CSTA: 1B-AP-11._
-
-Dependencies:
-* T03.G4.17: Determine appropriate decomposition granularity for a task
-* T03.G3.17: Validate a decomposition plan BEFORE starting to code
-
-
-ID: T03.G4.20
-Topic: T03 – Problem Decomposition
-Skill: Decompose including "what if it goes wrong" steps
-Description: **Student task:** Add error handling and "what if" steps to a decomposition plan. **Coding scenario:** Project: "User types name, game greets them." Original decomposition: "1. Show text input, 2. Get name, 3. Say hello." Improved with "what if" thinking: "1. Show text input, 2. Wait for input, 3. IF name is empty THEN show 'Please enter a name' and go back to step 2, 4. IF name is too long THEN truncate to 20 characters, 5. Say 'Hello [name]!'" Identify 2-3 "what could go wrong" scenarios and add steps to handle them. Develops defensive thinking in decomposition. Auto-graded by error case coverage. _CSTA: 1B-AP-15._
-
-Dependencies:
-* T03.G4.14: Apply chosen decomposition strategy to implement a project
-* T03.G3.11: Decompose a bug report into investigation steps
-
-
-ID: T03.G4.21
-Topic: T03 – Problem Decomposition
-Skill: Recognize when decomposition is failing and needs restructuring
-Description: **Student task:** Identify signs that your current decomposition isn't working and decide when to restructure. **Coding scenario:** Project started with decomposition: "1. Build all graphics, 2. Build all code, 3. Test everything." Warning signs: "Can't test anything until step 3 (too late), found bug in graphics at step 2 but already moved on, code doesn't fit with graphics because they were built separately." Recognition: "This decomposition is failing because I can't test early and find problems late." Restructured approach: "1. Build player sprite + movement code + test, 2. Build enemy sprite + AI code + test, 3. Integrate and test together." Learn to recognize: long delays before testing, components don't fit together, constant rework. Auto-graded by warning sign identification and restructuring logic. _CSTA: 1B-AP-15._
-
-Dependencies:
-* T03.G4.15: Critique a peer's decomposition with constructive feedback
-* T03.G3.14: Revise a decomposition after testing reveals problems
-
-
-ID: T03.G4.22
-Topic: T03 – Problem Decomposition
-Skill: Split a project plan so two people can work without blocking each other
-Description: **Student task:** Divide a project decomposition into two work streams that can proceed in parallel without waiting for each other. **Coding scenario:** Project: "Racing game with score tracking." Full plan: "1. Car sprite, 2. Car controls, 3. Track background, 4. Finish line detection, 5. Score variable, 6. Score display, 7. Timer, 8. Game over screen." Parallel split: "Person A (gameplay): 1, 2, 4, 7. Person B (visuals/score): 3, 5, 6, 8." Analysis: "A and B can both start immediately. A's finish line (4) needs car from (1) but A does both. B's score display (6) needs variable (5) but B does both. Integration point: Connect finish line to score update at the end." Identify: what each person needs, where they might block each other, how to minimize waiting. Auto-graded by parallel work identification and blocking analysis. _CSTA: 1B-IC-20._
-
-Dependencies:
-* T03.G4.03: Assign subtasks to team roles
-* T03.G2.14: Decompose a task for "you do part, I do part" sharing
-
-
 ID: T03.G5.01
 Topic: T03 – Problem Decomposition
 Skill: Write a feature list with subtasks for each feature
@@ -5536,7 +4936,7 @@ Description: **Student task:** For each sub-task, estimate relative effort (smal
 
 Dependencies:
 * T03.G5.04.01: Write acceptance criteria for each sub-task
-* T03.G5.03: Create a complete dependency graph for all tasks in a project plan
+* T03.G5.03: Mark dependencies between tasks in a project plan
 
 
 
@@ -5546,7 +4946,7 @@ Skill: Compare and rank two project plans with justified criteria
 Description: **Student task:** Compare two project plans, rank them by quality, and explain the ranking with specific criteria. **Coding scenario:** Plan A: tasks in random order, no dependencies marked, missing "test game." Plan B: logical order, dependencies shown, includes testing. Rank: "Plan B is better (score: 8/10) vs Plan A (score: 4/10)." Criteria: "1. Logical ordering (B: yes, A: no), 2. Dependencies shown (B: yes, A: no), 3. Testing included (B: yes, A: no), 4. Completeness (B: complete, A: missing step)." Auto-graded by criteria completeness and ranking logic. _CSTA: 1B-AP-15._
 
 Dependencies:
-* T03.G5.03: Create a complete dependency graph for all tasks in a project plan
+* T03.G5.03: Mark dependencies between tasks in a project plan
 * T03.G4.08: Find missing or unnecessary tasks in a project plan
 
 
@@ -5595,7 +4995,7 @@ Skill: Apply divide-and-conquer to break a large task into halves
 Description: **Student task:** Take a large task and repeatedly split it in half until each piece is manageable. **Coding scenario:** Task: "Build a 100-question quiz game." Split 1: "Build first 50 questions" + "Build last 50 questions." Split 2: "Build questions 1-25" + "Build questions 26-50." Continue until each piece is ~5-10 questions. Explain why this approach helps: "Each small piece can be tested independently." Auto-graded by split logic and justification. _CSTA: 2-AP-13._
 
 Dependencies:
-* T03.G5.03: Create a complete dependency graph for all tasks in a project plan
+* T03.G5.03: Mark dependencies between tasks in a project plan
 * T03.G5.04.02: Estimate effort for each sub-task
 
 
@@ -5640,46 +5040,6 @@ Dependencies:
 * T03.G4.03: Assign subtasks to team roles
 
 
-ID: T03.G5.14
-Topic: T03 – Problem Decomposition
-Skill: Decompose real-time interactions (events happening at same time)
-Description: **Student task:** Break down a project with multiple simultaneous interactions, identifying how different events can occur at the same time and how to handle them. **Coding scenario:** Project: "Game where player moves AND enemies chase AND timer counts down AND power-ups spawn randomly." Decomposition: "Concurrent systems: 1. Player control (forever loop checking keys), 2. Enemy AI (forever loop updating each enemy), 3. Timer (forever loop with wait 1 second), 4. Spawner (forever loop with random wait)." All 4 run simultaneously from green flag. Identify: which systems are independent (timer doesn't affect player), which interact (enemy needs player position), what happens when events collide (player touches enemy while collecting power-up). Auto-graded by concurrent system identification and interaction analysis. _CSTA: 2-AP-13._
-
-Dependencies:
-* T03.G5.13: Decompose a project for pair programming (driver/navigator roles)
-* T03.G3.15: Decompose a project with multiple sprites acting simultaneously
-
-
-ID: T03.G5.15
-Topic: T03 – Problem Decomposition
-Skill: Decompose state machines (what states, what triggers transitions)
-Description: **Student task:** Break down a project by identifying discrete states and what causes transitions between them. **Coding scenario:** Project: "Traffic light simulation." State decomposition: "States: GREEN, YELLOW, RED. Transitions: GREEN → YELLOW (after 30 seconds), YELLOW → RED (after 5 seconds), RED → GREEN (after 30 seconds). State behaviors: GREEN shows green costume, YELLOW shows yellow + plays warning sound, RED shows red + enables pedestrian walk." Identify: all states, all transitions, what triggers each transition, what happens in each state. Apply to game: "Character states: IDLE, WALKING, JUMPING, FALLING. IDLE → WALKING (when arrow pressed), etc." Auto-graded by state identification, transition completeness, and behavior specification. _CSTA: 2-AP-13._
-
-Dependencies:
-* T03.G5.14: Decompose real-time interactions (events happening at same time)
-* T03.G3.16: Decompose animations into timed phases
-
-
-ID: T03.G5.16
-Topic: T03 – Problem Decomposition
-Skill: Decompose by user interaction modes (keyboard, mouse, touch, voice)
-Description: **Student task:** Break down a project by separating different ways users can interact with it. **Coding scenario:** Project: "Drawing app that works on computer and tablet." Interaction mode decomposition: "Keyboard mode: arrow keys to move cursor, spacebar to toggle drawing. Mouse mode: click and drag to draw, scroll wheel for brush size. Touch mode: finger drag to draw, pinch to zoom. Voice mode: say 'clear' to clear canvas, say 'red/blue/green' to change color." Identify: which features each mode needs, which code is shared (drawing logic), which code is mode-specific (input detection), how to switch between modes or support multiple. Uses CreatiCode virtual joystick, speech recognition blocks. Auto-graded by mode identification and shared/specific code analysis. _CSTA: 2-AP-13._
-
-Dependencies:
-* T03.G5.11: Decompose a voice-controlled project into recognition/processing/response phases
-* T03.G5.07: Decompose a 2D physics simulation into components
-
-
-ID: T03.G5.17
-Topic: T03 – Problem Decomposition
-Skill: Trace through a decomposition to find logical gaps
-Description: **Student task:** Walk through a decomposition step-by-step as if building it, looking for missing pieces or logical problems. **Coding scenario:** Decomposition to trace: "1. Create player sprite, 2. Add arrow key movement, 3. Create enemy sprite, 4. Add collision detection, 5. Display game over when touched." Tracing reveals gaps: "Step 2: Movement works. Step 3: Enemy just sits there - MISSING: enemy movement/AI! Step 4: Collision detection - but what happens after? MISSING: What if player avoids enemy? No win condition! MISSING: Score or health system for progression." After tracing, create improved decomposition filling all gaps. Develops systematic review of plans before implementation. Auto-graded by gap identification and improvement quality. _CSTA: 2-AP-15._
-
-Dependencies:
-* T03.G5.12: Use XO to brainstorm initial decomposition ideas for a project
-* T03.G4.21: Recognize when decomposition is failing and needs restructuring
-
-
 ID: T03.G6.01
 Topic: T03 – Problem Decomposition
 Skill: Propose a module hierarchy for a medium-sized project
@@ -5714,7 +5074,7 @@ Description: **Student task:** Sort features into milestone columns: v1 (working
 
 Dependencies:
 * T03.G5.01: Write a feature list with subtasks for each feature
-* T03.G5.03: Create a complete dependency graph for all tasks in a project plan
+* T03.G5.03: Mark dependencies between tasks in a project plan
 
 
 ID: T03.G6.03.01
@@ -5735,7 +5095,7 @@ Description: **Student task:** Respond to a discovered constraint by moving feat
 
 Dependencies:
 * T03.G6.03: Organize features into v1/v2/v3 milestones
-* T03.G5.03: Create a complete dependency graph for all tasks in a project plan
+* T03.G5.03: Mark dependencies between tasks in a project plan
 
 
 
@@ -5847,46 +5207,6 @@ Dependencies:
 * T03.G5.12: Use XO to brainstorm initial decomposition ideas
 
 
-ID: T03.G6.15
-Topic: T03 – Problem Decomposition
-Skill: Decompose a project by data flow (where data comes from/goes)
-Description: **Student task:** Break down a project by tracing how data moves through the system, identifying sources, transformations, and destinations. **Coding scenario:** Project: "Weather display dashboard." Data flow decomposition: "SOURCE: Weather API fetch → table variable stores raw data. TRANSFORM: Parse temperature/humidity from table → calculate feels-like temperature → format for display. DESTINATION: Update temperature label widget → update humidity bar → update recommendation text." For each step: identify input data, what transformation happens, output data. Find bottlenecks: "All display depends on API fetch - if that fails, nothing works. Add: error state showing 'Data unavailable.'" Uses CreatiCode table variables, widgets, and fetch blocks. Auto-graded by data flow completeness and bottleneck identification. _CSTA: 2-AP-13._
-
-Dependencies:
-* T03.G6.07: Decompose a data pipeline project into stages
-* T03.G6.01: Propose a module hierarchy for a medium-sized project
-
-
-ID: T03.G6.16
-Topic: T03 – Problem Decomposition
-Skill: Decompose with resource constraints (memory, sprites, time)
-Description: **Student task:** Plan a decomposition that explicitly accounts for platform resource limits. **Coding scenario:** Project: "Large adventure game." Constraints: "Max 10 sprites, shared between all uses. 60-second level time limit. Mobile-friendly (no complex physics)." Resource-aware decomposition: "Sprites budget: Player (1), Enemies use cloning from 1 sprite (1), Items use cloning from 1 sprite (1), UI elements (2), Background (1), NPCs with cloning (1), Effects with cloning (1) = 8 sprites, 2 reserved for future." "Time budget per level: 40 sec gameplay + 10 sec cutscene + 10 sec buffer." "Performance budget: Use 2D movement instead of 3D, limit clones to 10 active, use static backgrounds." Document trade-offs: "Wanted 3D but went 2D for mobile performance." Auto-graded by constraint accounting and trade-off documentation. _CSTA: 2-AP-17._
-
-Dependencies:
-* T03.G6.13: Predict which components will need the most iteration
-* T03.G4.19: Start decomposition from known constraints (limits, rules)
-
-
-ID: T03.G6.17
-Topic: T03 – Problem Decomposition
-Skill: Design decomposition with fallback alternatives
-Description: **Student task:** For each risky component in your decomposition, design a simpler fallback that can be used if the primary approach fails. **Coding scenario:** Project: "AI-powered story game." Component risk analysis: "High risk: AI generates story (may be slow/fail/inappropriate). Fallback: pre-written story branches selected randomly." "Medium risk: Voice input for commands. Fallback: text input widget." "Low risk: Score display. No fallback needed (simple and reliable)." For high-risk components, implement BOTH primary and fallback, with automatic switching: "If AI response takes > 5 seconds OR contains flagged content, use fallback story." Document switching logic and when each fallback activates. Auto-graded by fallback design completeness and switching logic. _CSTA: 2-AP-17._
-
-Dependencies:
-* T03.G6.12: Design module isolation for independent AI vs deterministic testing
-* T03.G4.20: Decompose including "what if it goes wrong" steps
-
-
-ID: T03.G6.18
-Topic: T03 – Problem Decomposition
-Skill: Pivot decomposition strategy mid-project when issues emerge
-Description: **Student task:** Recognize when your current decomposition strategy isn't working and pivot to a different approach without starting over. **Coding scenario:** Original strategy: "Decomposed by feature (movement feature, scoring feature, sound feature)." Problem emerged: "Features are too interconnected - scoring needs collision, collision needs movement, sound plays on collision. Every change affects everything." Pivot strategy: "Switch to decomposition by LAYER instead: Input Layer (all user input), Game Logic Layer (all game rules including collision, scoring), Presentation Layer (all display and sound)." Migration plan: "Keep existing code, reorganize into new structure. Step 1: Move all input handling to Input module (low risk). Step 2: Move scoring + collision to Logic module (medium risk - test heavily). Step 3: Move display + sound to Presentation (low risk)." Document: what broke, why the pivot helps, how to migrate safely. Auto-graded by pivot rationale and migration plan quality. _CSTA: 2-AP-17._
-
-Dependencies:
-* T03.G6.14: Decompose an unfamiliar problem by analogy to known problems
-* T03.G4.21: Recognize when decomposition is failing and needs restructuring
-
-
 ID: T03.G7.01
 Topic: T03 – Problem Decomposition
 Skill: Trace how architecture organizes a complex project
@@ -5991,7 +5311,7 @@ Description: **Student task:** Read test results with failures and insert bug-fi
 
 Dependencies:
 * T03.G7.06: Write test cases for each module
-* T03.G5.03: Create a complete dependency graph for all tasks in a project plan
+* T03.G5.03: Mark dependencies between tasks in a project plan
 
 
 
@@ -6088,36 +5408,6 @@ Description: **Student task:** Write documentation explaining your decomposition
 Dependencies:
 * T03.G7.04: Compare and analyze trade-offs between two architecture designs
 * T03.G7.02: List architectural components with responsibility statements
-
-
-ID: T03.G7.17
-Topic: T03 – Problem Decomposition
-Skill: Decompose for parallel execution (what can run simultaneously)
-Description: **Student task:** Analyze a decomposition to identify which components can execute in parallel (at the same time) and which must be sequential, then optimize for maximum parallelism. **Coding scenario:** Project: "Game with player, 3 enemies, score display, and background music." Analysis: "Can run in PARALLEL: Player control loop, Enemy 1 AI loop, Enemy 2 AI loop, Enemy 3 AI loop, Music loop, Score display update. Must be SEQUENTIAL: Score increases AFTER collision detection (dependency). Collision check AFTER position updates (dependency)." Optimization: "Start all parallel loops from green flag. Chain sequential operations: position update → collision check → score update → display update. Use 'wait 0 seconds' to yield between expensive operations." Diagram showing parallel vs sequential flow. Auto-graded by parallelism identification and optimization logic. _CSTA: 2-AP-17._
-
-Dependencies:
-* T03.G7.13: Identify which modules can be built independently vs sequentially for team work
-* T03.G5.14: Decompose real-time interactions (events happening at same time)
-
-
-ID: T03.G7.18
-Topic: T03 – Problem Decomposition
-Skill: Decompose for accessibility (different user needs)
-Description: **Student task:** Decompose a project considering diverse user accessibility needs, creating components that can be configured or swapped for different abilities. **Coding scenario:** Project: "Educational quiz game accessible to all students." Accessibility decomposition: "Visual accessibility module: high contrast mode, enlarged text option, screen reader descriptions for images. Audio accessibility module: visual indicators for all sounds, captions for spoken content, volume controls. Motor accessibility module: keyboard-only navigation, extended time limits, larger click targets. Cognitive accessibility module: simplified mode with fewer distractions, progress indicators, undo functionality." For each module: identify default behavior, accessible alternative, how user activates it. Shared interface: "All modules use same game events, just respond differently." Test plan: "Verify game completable using only keyboard, only audio cues, only visual cues." Auto-graded by accessibility category coverage and implementation approach. _CSTA: 2-IC-20._
-
-Dependencies:
-* T03.G7.14: Design module interfaces for clean team handoffs
-* T03.G5.16: Decompose by user interaction modes (keyboard, mouse, touch, voice)
-
-
-ID: T03.G7.19
-Topic: T03 – Problem Decomposition
-Skill: Review decomposition against requirements checklist
-Description: **Student task:** Systematically review a completed decomposition against all original requirements to verify nothing was missed and all constraints are met. **Coding scenario:** Requirements: "1. User can create account (MUST), 2. User can save progress (MUST), 3. Game has 5 levels (MUST), 4. Sound effects (SHOULD), 5. Leaderboard (NICE-TO-HAVE), 6. Max load time 3 seconds (CONSTRAINT), 7. Works offline (CONSTRAINT)." Review decomposition: "✓ Account: covered by Auth Module. ✓ Save progress: covered by Data Module. ✓ 5 levels: Level Module has 5 level configs. ✓ Sound: Audio Module included. ✗ Leaderboard: NOT in decomposition - decide to add to v2. ✓ Load time: Lazy loading in Asset Module. ✗ Offline: NOT addressed - PROBLEM! Need to add offline caching." Action items from review: "Add offline cache component. Defer leaderboard to v2. Re-verify load time after building." Auto-graded by requirement coverage and gap identification. _CSTA: 2-AP-17._
-
-Dependencies:
-* T03.G7.16: Document decomposition decisions for future maintainers
-* T03.G5.17: Trace through a decomposition to find logical gaps
 
 
 ID: T03.G8.01
@@ -6415,26 +5705,6 @@ Description: **Student task:** Given an old, monolithic project, design a decomp
 Dependencies:
 * T03.G8.09: Write a refactoring plan for a complex project
 * T03.G8.23: Compare AI-suggested decompositions against expert patterns
-
-
-ID: T03.G8.25
-Topic: T03 – Problem Decomposition
-Skill: Decompose by data lifecycle (creation, transformation, storage)
-Description: **Student task:** Break down a data-intensive project by following data through its complete lifecycle: where it's created, how it's transformed, and where it ends up stored. **Coding scenario:** Project: "Student gradebook that tracks assignments and calculates grades." Data lifecycle decomposition: "CREATION: Teacher enters assignment scores via widget form → validate input (number 0-100) → store in assignments table. TRANSFORMATION: Calculate assignment average → apply weighting rules → determine letter grade → generate progress report. STORAGE: Save to cloud variable for persistence → export to table for download → cache locally for offline access." For each phase: identify what triggers it, what data format goes in, what format comes out, error handling for bad data. Trace a single grade from entry to final report. Identify data bottlenecks: "All reports depend on grades table - if corrupted, everything fails." Auto-graded by lifecycle phase coverage and data flow tracing. _CSTA: 2-DA-08._
-
-Dependencies:
-* T03.G8.13: Decompose a data dashboard project into query/transform/display layers
-* T03.G6.15: Decompose a project by data flow (where data comes from/goes)
-
-
-ID: T03.G8.26
-Topic: T03 – Problem Decomposition
-Skill: Decompose for evolutionary architecture (easy to change later)
-Description: **Student task:** Design a decomposition that anticipates future changes by making key decisions reversible and components swappable. **Coding scenario:** Project: "Quiz game that might add multiplayer later, might switch AI providers, might need offline mode." Evolutionary decomposition: "DECISION POINT 1: Data source. Current: Local table variable. Future: Could be cloud database. Solution: Data Access Module with abstract interface - swap implementation without changing game logic." "DECISION POINT 2: AI provider. Current: ChatGPT via CreatiCode. Future: Might switch. Solution: AI Wrapper Module that hides provider details." "DECISION POINT 3: Single vs multiplayer. Current: Single. Future: Might add multiplayer. Solution: Game State Module that could later sync with network - design state updates as messages from start." For each decision point: current choice, likely future change, how decomposition enables change, what would need modification. Document: "Modules are loosely coupled - can replace Data Access without touching Game Logic." Auto-graded by change scenario coverage and coupling analysis. _CSTA: 2-AP-17._
-
-Dependencies:
-* T03.G8.24: Decompose a legacy project for modernization without breaking existing functionality
-* T03.G8.04.01: Justify module boundary decisions with trade-off analysis
 
 
 # T04 - Algorithm Patterns (Phase 10 Optimized - December 2025)
