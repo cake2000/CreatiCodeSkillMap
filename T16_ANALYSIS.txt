@@ -1,0 +1,237 @@
+================================================================================
+T16 - 2D MOTION & PHYSICS - COMPLETE EXTRACTION & ANALYSIS
+================================================================================
+File: /media/binyu/USB2/dev/CreatiCodeSkillMap/skillsv5/allskills.md
+Section: Lines 26183-27676 (1494 lines)
+Extracted to: /media/binyu/USB2/dev/CreatiCodeSkillMap/T16_COMPLETE_EXTRACT.txt
+
+================================================================================
+SKILL COUNT BY GRADE LEVEL
+================================================================================
+Kindergarten (K):    6 skills
+Grade 1 (G1):        5 skills  
+Grade 2 (G2):        8 skills
+Grade 3 (G3):        5 skills
+Grade 4 (G4):        8 skills
+Grade 5 (G5):       30 skills
+Grade 6 (G6):       31 skills
+Grade 7 (G7):       22 skills
+Grade 8 (G8):       26 skills
+-------------------------
+TOTAL:             141 skills
+
+================================================================================
+GRADE DISTRIBUTION OBSERVATIONS
+================================================================================
+
+K-2 Foundation (19 skills):
+- K-2 are picture-based, no coding required
+- Focus on spatial reasoning, prediction, and physics intuition
+- Good progression from identifying motion → predicting outcomes → understanding physics concepts
+
+G3-4 Transition (13 skills):
+- Bridge from picture-based to coding
+- Introduction to motion blocks and basic physics concepts
+- Lighter skill count (appropriate for transition period)
+
+G5-6 Core Learning (61 skills):
+- HEAVY concentration here (43% of all skills)
+- G5: Dual track approach (manual physics + engine-based physics)
+- G6: Advanced physics engine features, collision groups, debugging
+- This is the "meat" of the topic
+
+G7-8 Advanced (48 skills):
+- G7: Complex simulations, force combinations, data analysis
+- G8: Game design, joints, optimization, AI integration
+- Strong computational thinking and engineering focus
+
+================================================================================
+MAJOR IMPROVEMENTS DOCUMENTED IN FILE
+================================================================================
+
+1. ENHANCED K-2 FOUNDATION (4 new skills added):
+   - T16.K.05: Identify relative motion between objects
+   - T16.G1.04: Predict acceleration effects  
+   - T16.G2.05: Trace energy transfer in collision chains
+   - T16.G2.06: Identify friction effects on motion
+
+2. STRENGTHENED G3-G4 BRIDGE (4 new skills):
+   - T16.G3.04: Use motion blocks to draw shapes
+   - T16.G4.04: Debug a broken motion animation
+   - T16.G4.05: Create smooth motion using glide blocks
+   - T16.G4.06: Build a simple racing game
+
+3. G5 PARALLEL TRACK STRUCTURE:
+   Track A (G5.01-G5.04): Manual physics with variables
+   Track B (G5.05-G5.13): Engine-based physics  
+   - T16.G5.14: Compare manual vs engine approaches (capstone)
+
+4. G6-G7 COMPUTATIONAL THINKING SKILLS:
+   - T16.G6.10: Predict collision outcomes
+   - T16.G6.11: Debug sprites passing through walls
+   - T16.G7.09: Trace physics simulation frame-by-frame
+   - T16.G7.10: Design physics experiment
+
+5. G8 AI INTEGRATION SKILLS:
+   - T16.G8.12: Create AI-controlled physics objects
+   - T16.G8.13: Use ML to optimize physics parameters
+   - T16.G8.14: Implement procedural level generation
+   - T16.G8.15: Build adaptive difficulty using physics telemetry
+
+6. FIXED DEPENDENCY ISSUES:
+   - T16.G6.01 and G6.02 now reference correct skill names
+
+7. ADDED SUB-SKILLS FOR DEPTH:
+   - T16.G5.06.04: Match collision shape to sprite artwork
+   - T16.G6.04.05: Create one-way platforms
+   - T16.G7.01.03: Calculate optimal launch angle
+
+================================================================================
+VERB ANALYSIS (Top 15)
+================================================================================
+Use (14), Create (10), Build (10), Identify (9), Predict (8), 
+Implement (7), Apply (7), Debug (6), Configure (6), Trace (5), 
+Compare (5), Enable (3), Design (3), Control (3), Calculate (2)
+
+ASSESSMENT: All verbs are specific and action-oriented. No vague verbs found.
+Examples of strong verb usage:
+- "Configure" instead of "use" or "understand"
+- "Trace" instead of "learn about"  
+- "Implement" instead of "create"
+- "Debug" instead of "fix"
+
+================================================================================
+ISSUES & OBSERVATIONS
+================================================================================
+
+STRENGTHS:
+✓ No duplicate skill names found
+✓ Strong verb usage (specific, measurable, action-oriented)
+✓ Clear progression from picture-based (K-2) to advanced coding (G7-8)
+✓ Dual track in G5 allows different learning paths
+✓ Good balance of hands-on skills and computational thinking
+✓ AI/ML integration in G8 is forward-thinking
+✓ Sub-skills (.01, .02, etc.) provide depth without overwhelming main sequence
+
+POTENTIAL CONCERNS:
+
+1. HEAVY G5-G6 LOAD:
+   - G5 has 30 skills, G6 has 31 skills (61 total = 43% of all T16 skills)
+   - This could be overwhelming for students
+   - Recommendation: Consider if some G6 skills could move to G7
+
+2. GRADE GAP PATTERN:
+   - K:6 → G1:5 → G2:8 → G3:5 → G4:8 (oscillating pattern)
+   - Not necessarily a problem, but worth noting
+   - May reflect natural topic pacing
+
+3. SUB-SKILL DEPTH:
+   - Some skills have 4+ sub-levels (e.g., T16.G5.06.00.01)
+   - Deep hierarchies can be hard to navigate
+   - But provide optional depth, which is valuable
+
+4. CROSS-TOPIC DEPENDENCIES:
+   - File notes "X-2 VIOLATION NOTE" for some G6-G7 skills
+   - States these are "acceptable since cross-topic dependencies"
+   - Dependencies on T07/T08/T09 from G3 create 3-4 grade gaps
+   - Marked for Phase 2 optimization
+
+5. MISSING PROGRESSION ELEMENTS:
+   - No obvious gaps in skill progression
+   - Each skill builds logically on prior skills
+   - Dependencies appear well-structured
+
+================================================================================
+SAMPLE SKILLS BY GRADE
+================================================================================
+
+KINDERGARTEN (K):
+T16.K.01: Identify which sprite moved (picture-based)
+T16.K.05: Identify relative motion between objects (picture-based)
+
+GRADE 1 (G1):
+T16.G1.01: Identify fast vs slow motion (picture-based)  
+T16.G1.04: Predict acceleration effects (picture-based)
+
+GRADE 2 (G2):
+T16.G2.01: Predict sprite direction from motion blocks (picture choices)
+T16.G2.06: Identify friction effects on motion (picture-based)
+
+GRADE 3 (G3):
+T16.G3.01: Trace how motion blocks change sprite position
+T16.G3.04: Use motion blocks to draw shapes (square, triangle)
+
+GRADE 4 (G4):
+T16.G4.01: Simulate falling with repeated motion
+T16.G4.06: Build a simple racing game with keyboard-controlled sprite
+
+GRADE 5 (G5):
+T16.G5.01: Apply gravity to a sprite using 2D physics
+T16.G5.05: Initialize a 2D physics world
+T16.G5.14: Compare manual vs engine approaches side-by-side (capstone)
+
+GRADE 6 (G6):
+T16.G6.01: Configure surface friction parameters
+T16.G6.04: Detect collisions for scoring or triggers
+T16.G6.11: Debug sprites passing through walls (tunneling diagnosis)
+
+GRADE 7 (G7):
+T16.G7.01: Launch a configurable projectile
+T16.G7.09: Trace physics simulation frame-by-frame
+T16.G7.10: Design a physics experiment to test a hypothesis
+
+GRADE 8 (G8):
+T16.G8.01: Design a physics-based arcade game concept
+T16.G8.12: Create AI-controlled physics objects (enemy that aims projectiles)
+T16.G8.15: Build adaptive difficulty using physics telemetry
+
+================================================================================
+KEY SKILL SEQUENCES
+================================================================================
+
+MANUAL PHYSICS PROGRESSION (G4-G5):
+T16.G4.01 → T16.G5.02 → T16.G5.03 → T16.G5.04
+Simulate falling → Track with variables → Add friction → Code bounce
+
+ENGINE PHYSICS PROGRESSION (G5-G6):
+T16.G5.05 → T16.G5.06 → T16.G5.08 → T16.G6.01 → T16.G6.02
+Initialize world → Attach body → Apply impulse → Configure friction → Control bounce
+
+COLLISION DETECTION PROGRESSION (G5-G6):
+T16.G5.10 → T16.G6.04 → T16.G6.05 → T16.G6.05.01
+Trace motion → Detect collisions → Add to groups → Enable filtering
+
+JOINTS PROGRESSION (G8):
+T16.G8.02 → T16.G8.02.01 → T16.G8.02.02 → T16.G8.02.03
+Fixed joints → Revolute joints → Prismatic joints → Debug joints
+
+GAME DESIGN PROGRESSION (G7-G8):
+T16.G7.06 → T16.G8.01 → T16.G8.01.01 → T16.G8.01.02
+Model scenario → Design game → Implement game → Balance difficulty
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. CONSIDER REDISTRIBUTING G5-G6 SKILLS:
+   - Move 3-5 G6 skills to G7 to balance the load
+   - Candidates: Advanced collision groups, performance optimization
+
+2. TRACK STUDENT COMPLETION DATA:
+   - Monitor if G5-G6 students complete all skills
+   - High abandonment rate would indicate overload
+
+3. PROVIDE LEARNING PATHS:
+   - Create "core" vs "enrichment" designations
+   - Let advanced students pursue sub-skills
+   - Let struggling students focus on main skills only
+
+4. ADDRESS X-2 VIOLATIONS IN PHASE 2:
+   - As noted in file, cross-topic dependencies create gaps
+   - Plan to revisit in cross-topic optimization phase
+
+5. CONSIDER SKILL GROUPING:
+   - Group related skills into mini-units (e.g., "Collision Detection Unit")
+   - Makes navigation easier for teachers and students
+
+================================================================================

@@ -1,0 +1,141 @@
+T16.K.01 - Identify which sprite moved (picture-based)
+T16.K.02 - Match sprite to position after motion (picture-based)
+T16.K.02.01 - Identify direction of motion from trail marks (picture-based)
+T16.K.03 - Identify objects that fall down (picture-based)
+T16.K.04 - Sequence two motion steps (picture-based)
+T16.K.05 - Identify relative motion between objects (picture-based)
+T16.G1.01 - Identify fast vs slow motion (picture-based)
+T16.G1.02 - Predict motion direction from arrow pictures (picture-based)
+T16.G1.02.01 - Predict final position after multiple arrow moves (picture-based)
+T16.G1.03 - Sort objects by how they fall (picture-based)
+T16.G1.04 - Predict acceleration effects (picture-based)
+T16.G2.01 - Predict sprite direction from motion blocks (picture choices)
+T16.G2.02 - Identify bouncing vs sliding motion (picture-based)
+T16.G2.02.01 - Predict which object will fall faster (picture-based)
+T16.G2.03 - Predict collision outcomes (picture-based)
+T16.G2.03.01 - Sequence collision events in order (picture-based)
+T16.G2.04 - Compare speeds of two moving objects (picture-based)
+T16.G2.05 - Trace energy transfer in collision chains (picture-based)
+T16.G2.06 - Identify friction effects on motion (picture-based)
+T16.G3.01 - Trace how motion blocks change sprite position
+T16.G3.02 - Predict direction and distance of sprite motion
+T16.G3.02.01 - Calculate position after motion with given starting point
+T16.G3.03 - Debug why sprite doesn't move as expected (picture-based debugging intro)
+T16.G3.04 - Use motion blocks to draw shapes (square, triangle)
+T16.G4.01 - Simulate falling with repeated motion
+T16.G4.01.01 - Compare different fall speeds in simulation
+T16.G4.02 - Explain speed as position change over time
+T16.G4.02.01 - Trace velocity changes during repeated motion
+T16.G4.03 - Build a simple bounce animation without physics engine
+T16.G4.04 - Debug a broken motion animation (sprite moves wrong direction)
+T16.G4.05 - Create smooth motion using glide blocks vs step-based motion
+T16.G4.06 - Build a simple racing game with keyboard-controlled sprite
+T16.G5.01 - Apply gravity to a sprite using 2D physics
+T16.G5.02 - Track gravity with velocity variables
+T16.G5.03 - Use horizontal speed and friction variables
+T16.G5.03.01 - Build a top-down vehicle with manual friction control
+T16.G5.04 - Code a manual bounce with energy loss
+T16.G5.04.01 - Create a simple platformer using manual gravity
+T16.G5.05 - Initialize a 2D physics world
+T16.G5.06 - Attach a dynamic body to a sprite
+T16.G5.06.00 - Practice creating multiple dynamic bodies
+T16.G5.06.00.01 - Use debug mode to visualize collision shapes
+T16.G5.06.01 - Choose Box vs Circle collision shapes
+T16.G5.06.01.01 - Use Capsule shapes for elongated objects
+T16.G5.06.01.02 - Use Convex Hull for sprite-fitted collision
+T16.G5.06.02 - Create sensor bodies for trigger zones
+T16.G5.06.03 - Create compound shapes for complex sprites
+T16.G5.06.04 - Match collision shape to sprite artwork
+T16.G5.07 - Build fixed boundaries for floors and walls
+T16.G5.08 - Apply an impulse to jump or push
+T16.G5.08.01 - Distinguish forces from impulses
+T16.G5.08.02 - Apply impulse at a position for rotation
+T16.G5.08.03 - Apply a single continuous force
+T16.G5.09 - Configure density for mass control
+T16.G5.09.01 - Configure friction percentage for sliding control
+T16.G5.09.02 - Configure restitution percentage for bounce control
+T16.G5.10 - Trace simple 2D physics motion
+T16.G5.10.01 - Remove physics body from a sprite
+T16.G5.11 - Debug missing physics setup
+T16.G5.12 - Choose manual vs engine-based physics
+T16.G5.13 - Use (speed) reporter to display total speed
+T16.G5.14 - Compare manual vs engine approaches side-by-side (capstone)
+T16.G6.01 - Configure surface friction parameters
+T16.G6.02 - Control restitution (bounce) parameters
+T16.G6.02.01 - Set velocity directly for physics bodies
+T16.G6.02.01.01 - Maintain constant speed in current direction
+T16.G6.02.01.02 - Read velocity reporters for verification
+T16.G6.02.01.03 - Set rotation speed directly
+T16.G6.02.02 - Compare dynamic vs movable body types
+T16.G6.03 - Build a movable (kinematic) moving platform
+T16.G6.04 - Detect collisions for scoring or triggers
+T16.G6.04.01 - Detect collision end events
+T16.G6.04.02 - Enable ground detection for jump control
+T16.G6.04.02.01 - Use ground slope reporter for inclined surfaces
+T16.G6.04.03 - Identify collision management needs
+T16.G6.04.04 - Build trigger zones and collectibles with sensor bodies
+T16.G6.04.05 - Create one-way platforms using collision filtering
+T16.G6.05 - Add sprites to collision groups
+T16.G6.05.01 - Enable collision filtering with other groups
+T16.G6.05.02 - Test collision group filtering behavior
+T16.G6.05.03 - Dynamically modify collision groups at runtime
+T16.G6.05.04 - Use dominance groups for one-way pushing
+T16.G6.06 - Blend manual and engine sprites in a level
+T16.G6.06.01 - Lock movement or rotation of physics bodies
+T16.G6.07 - Debug unstable physics behavior
+T16.G6.07.01 - Configure world border properties
+T16.G6.07.02 - Configure world borders for wrap-around or open-edge levels
+T16.G6.08 - Compare simulations to real-world motion
+T16.G6.08.01 - Build a pinball-style bumper using collision and impulse response
+T16.G6.09 - Use screen shake for collision impact effects
+T16.G6.09.01 - Create particle burst effect on high-speed collision
+T16.G6.10 - Predict collision outcomes before running simulation
+T16.G6.11 - Debug sprites passing through walls (tunneling diagnosis)
+T16.G7.01 - Launch a configurable projectile
+T16.G7.01.01 - Point sprite in movement direction
+T16.G7.01.02 - Enable CCD for fast projectiles
+T16.G7.01.03 - Calculate optimal launch angle for target distance
+T16.G7.02 - Combine multiple forces simultaneously
+T16.G7.02.01 - Clear forces and torques from physics bodies
+T16.G7.02.02 - Apply force at a position for continuous rotation
+T16.G7.03 - Simulate drag with manual force calculations
+T16.G7.03.01 - Use built-in damping as alternative to manual drag
+T16.G7.04 - Build chains or stacks of physics objects
+T16.G7.04.01 - Use continuous torque to rotate bodies
+T16.G7.04.01.01 - Apply torque impulse for instant rotation
+T16.G7.05 - Read velocity and mass reporters
+T16.G7.05.01 - Instrument and graph motion data
+T16.G7.05.02 - Use velocity reporters for UI speedometers and HUDs
+T16.G7.06 - Model a real-world physics scenario
+T16.G7.06.01 - Validate simulation accuracy with known physics formulas
+T16.G7.07 - Evaluate whether a simulation meets requirements
+T16.G7.07.01 - Create acceptance test cases for physics requirements
+T16.G7.08 - Create a physics-based sports game
+T16.G7.09 - Trace physics simulation frame-by-frame
+T16.G7.10 - Design a physics experiment to test a hypothesis
+T16.G8.01 - Design a physics-based arcade game concept
+T16.G8.01.01 - Implement physics arcade game mechanics
+T16.G8.01.02 - Balance and tune physics game difficulty
+T16.G8.02 - Implement fixed joints for connected objects
+T16.G8.02.01 - Implement revolute joints for hinges
+T16.G8.02.01.01 - Control revolute joint motors with speed and damping
+T16.G8.02.02 - Implement prismatic joints for sliding
+T16.G8.02.03 - Debug joint constraint issues
+T16.G8.03 - Build automated physics regression tests
+T16.G8.04 - Identify physics performance bottlenecks
+T16.G8.04.01 - Optimize collision shapes for performance
+T16.G8.05 - Control gravity scale and time speed
+T16.G8.05.01 - Create gravity transition zones between areas
+T16.G8.06 - Use instrumentation data to tune difficulty
+T16.G8.07 - Plan a physics-based puzzle game
+T16.G8.07.01 - Select appropriate joints for puzzle mechanics
+T16.G8.07.02 - Implement and test physics puzzle game
+T16.G8.08 - Design multi-level physics game with level progression
+T16.G8.09 - Implement object pooling for spawning many physics objects
+T16.G8.10 - Decompose complex physics behavior into testable sub-components
+T16.G8.11 - Apply physics patterns to new game genres
+T16.G8.11.01 - Document physics patterns as reusable templates
+T16.G8.12 - Create AI-controlled physics objects (enemy that aims projectiles)
+T16.G8.13 - Use machine learning to optimize physics parameters
+T16.G8.14 - Implement procedural level generation with physics constraints
+T16.G8.15 - Build adaptive difficulty using physics telemetry

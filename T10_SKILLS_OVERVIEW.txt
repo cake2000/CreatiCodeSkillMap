@@ -1,0 +1,231 @@
+====================================================================================================
+T10 – LISTS & TABLES: SKILL IDs AND NAMES BY GRADE LEVEL
+====================================================================================================
+
+SUMMARY:
+Total Skills: 176
+
+  Kindergarten   :  10 skills
+  Grade 1        :   8 skills
+  Grade 2        :  10 skills
+  Grade 3        :  17 skills
+  Grade 4        :  34 skills
+  Grade 5        :  29 skills
+  Grade 6        :  22 skills
+  Grade 7        :  24 skills
+  Grade 8        :  22 skills
+
+====================================================================================================
+
+
+KINDERGARTEN (10 skills)
+====================================================================================================
+  T10.GK.01            Classify picture cards into two groups by attribute
+  T10.GK.02            Count items in each sorted group
+  T10.GK.03            Compare group sizes to find which has more
+  T10.GK.04            Add a new item to the correct group
+  T10.GK.05            Find the first and last item in a row
+  T10.GK.06            Read information from a simple picture table
+  T10.GK.07            Match related items by drawing lines
+  T10.GK.08            Filter items by a special mark and count them
+  T10.GK.09            Explain why we group things together using picture cards
+  T10.GK.10            Find lists and tables in everyday life (picture examples)
+
+
+GRADE 1 (8 skills)
+====================================================================================================
+  T10.G1.01            Classify items using two combined rules (AND condition)
+  T10.G1.02            Build a picture tally chart from data
+  T10.G1.03            Locate specific values in a picture table
+  T10.G1.04            Identify the row or column with the maximum value
+  T10.G1.05            Predict and fill missing values in a table pattern
+  T10.G1.06            Select items matching multiple conditions (intersection)
+  T10.G1.07            Select items matching either of two conditions (union)
+  T10.G1.08            Decide whether to use one group or two groups for sorting
+
+
+GRADE 2 (10 skills)
+====================================================================================================
+  T10.G2.01            Convert a written list into a structured table
+  T10.G2.02            Append a new row to an existing table
+  T10.G2.03            Compare values across two rows in a table
+  T10.G2.04            Reorder table rows by a column value (manual sorting)
+  T10.G2.05            Filter table rows by marking those matching a condition
+  T10.G2.06            Count filtered rows that satisfy a condition
+  T10.G2.07            Recognize real-world examples of lists and tables
+  T10.G2.08            Trace through a table lookup step by step
+  T10.G2.09            Connect picture tables to real-world apps
+  T10.G2.10            Predict and verify table changes after adding or removing rows
+
+
+GRADE 3 (17 skills)
+====================================================================================================
+  T10.G3.01.01         Create a new list variable
+  T10.G3.01.02         Add an item to the end of a list
+  T10.G3.02            Read items from a list by position (index starts at 1)
+  T10.G3.03            Get the length of a list
+  T10.G3.04.01         Delete an item at a specific position
+  T10.G3.04.02         Clear all items from a list
+  T10.G3.05            Loop through each item in a list
+  T10.G3.06            Check if a list contains a specific item
+  T10.G3.07            Count items in a list that match a condition
+  T10.G3.08            Check if a list is empty before accessing
+  T10.G3.09            Increment or decrement a list item's value
+  T10.G3.10            Display a list monitor on the stage
+  T10.G3.11            Predict and trace list changes step by step
+  T10.G3.12            Debug a list program by identifying wrong positions
+  T10.G3.13            Use a list to store user inputs
+  T10.G3.14            Explain to a partner why a list is useful for a problem
+  T10.G3.15            Choose list or variables for a simple data storage problem
+
+
+GRADE 4 (34 skills)
+====================================================================================================
+  T10.G4.01.01         Find an item's position using built-in block
+  T10.G4.01.02         Implement manual linear search with loop
+  T10.G4.02            Store and retrieve parallel list data
+  T10.G4.03            Insert an item at a specific position in a list
+  T10.G4.04            Replace an item in a list
+  T10.G4.05            Use built-in blocks to sort a list
+  T10.G4.06.01         Find the smallest value in a list
+  T10.G4.06.02         Find the largest value in a list
+  T10.G4.06.03         Calculate the sum of all values in a list
+  T10.G4.06.04         Calculate the average of values in a list
+  T10.G4.06.05         Find the median value in a list
+  T10.G4.07            Find the maximum or minimum item in a list manually
+  T10.G4.08            Filter items from a list based on a condition
+  T10.G4.09            Build a high score list with parallel lists
+  T10.G4.10            Swap two items in a list
+  T10.G4.11.01         Copy one list to another (replacing contents)
+  T10.G4.11.02         Append one list to another (adding to end)
+  T10.G4.12            Split a text string into a list
+  T10.G4.13            Join list items into a text string
+  T10.G4.14            Reverse the order of items in a list
+  T10.G4.15            Randomly shuffle items in a list
+  T10.G4.16.01         Generate a list of random numbers with options
+  T10.G4.16.02         Generate seeded random list
+  T10.G4.17            Delete an item from a list by value
+  T10.G4.18            Loop through list indices
+  T10.G4.19            Find an item containing a substring
+  T10.G4.20            Select multiple items from a list by criteria
+  T10.G4.21            Extract a sublist from a range of positions
+  T10.G4.22            Transform each item in a list using a loop
+  T10.G4.23            Reduce a list to a single value using accumulation
+  T10.G4.24            Predict list state after a sequence of operations
+  T10.G4.25            Debug parallel list synchronization errors
+  T10.G4.26            Design a list structure for a game inventory system
+  T10.G4.27            Compare two lists for equality
+
+
+GRADE 5 (29 skills)
+====================================================================================================
+  T10.G5.01            Identify table structure (rows, columns, cells)
+  T10.G5.02            Create a table and add columns
+  T10.G5.03            Add rows of data to a table
+  T10.G5.04            Read a cell value from a table
+  T10.G5.05            Update a cell value in a table
+  T10.G5.06.01         Get the number of rows in a table
+  T10.G5.06.02         Find which row contains a value
+  T10.G5.07            Loop through table rows to compute aggregates
+  T10.G5.08            Use built-in table aggregate blocks
+  T10.G5.09.01         Delete a single row by index
+  T10.G5.09.02         Delete rows matching a condition
+  T10.G5.09.03         Clear all rows from a table
+  T10.G5.10            Convert between lists and tables
+  T10.G5.11.01         Add a column at a specific position
+  T10.G5.11.02         Delete a single column
+  T10.G5.11.03         Remove all columns from a table
+  T10.G5.12            Copy list data to table column
+  T10.G5.13            Insert a row at a specific position
+  T10.G5.14            Replace an entire row in a table
+  T10.G5.15            Get an entire row as a text string
+  T10.G5.16            Find a row by partial match
+  T10.G5.17            Increment or decrement a table cell value
+  T10.G5.18            Show and hide table monitors
+  T10.G5.19            Build a filtered table manually using conditionals
+  T10.G5.20            Debug table programs by tracing row and column access
+  T10.G5.21            Compare values across two columns in the same row
+  T10.G5.22            Compare tables vs parallel lists and justify choice
+  T10.G5.23            Model a real-world scenario with table schema design
+  T10.G5.24            Verify table operations produce expected results
+
+
+GRADE 6 (22 skills)
+====================================================================================================
+  T10.G6.01            Sort a table by a column
+  T10.G6.02            Filter table rows based on a condition
+  T10.G6.03            Copy and append tables
+  T10.G6.04            Use table lookup to find related data
+  T10.G6.05            Group data and compute aggregates per group
+  T10.G6.06            Use set operations on lists
+  T10.G6.07            Remove duplicate items from a list
+  T10.G6.08            Shuffle table rows randomly
+  T10.G6.09            Create and populate a nested list (2D array)
+  T10.G6.10            Access elements in a nested list using row and column indices
+  T10.G6.11            Iterate through all elements of a 2D array with nested loops
+  T10.G6.12            Implement queue operations (enqueue and dequeue)
+  T10.G6.13            Use frequency counting with lists
+  T10.G6.14            Merge two sorted lists into one sorted list
+  T10.G6.15            Swap adjacent items based on comparison
+  T10.G6.16            Find maximum in a sublist range
+  T10.G6.17            Parse text into structured list data
+  T10.G6.18            Select a random item from a list
+  T10.G6.19            Filter table rows using OR conditions
+  T10.G6.20            Choose between filtering and sorting for a data task
+  T10.G6.21            Verify data transformation correctness
+  T10.G6.22            Implement a simple lookup cache with lists
+
+
+GRADE 7 (24 skills)
+====================================================================================================
+  T10.G7.01            Pivot or reshape table data
+  T10.G7.02            Import external data into a table
+  T10.G7.03            Design a table schema for a real-world scenario
+  T10.G7.04            Visualize table data with charts
+  T10.G7.05            Clean and transform table data
+  T10.G7.06            Validate and handle missing data in tables
+  T10.G7.07            Analyze a dataset to find patterns or outliers
+  T10.G7.08            Use regex patterns to find items in lists
+  T10.G7.09            Read and write data with Google Sheets
+  T10.G7.10            Manage Google Sheets structure
+  T10.G7.11            Display formatted table snapshots
+  T10.G7.12            Export table data to a file
+  T10.G7.13            Save and load data to the cloud
+  T10.G7.14            Use AI to analyze table data
+  T10.G7.15            Implement stack operations (push and pop)
+  T10.G7.16            Use KNN classification with table data
+  T10.G7.17            Build a simple recommendation system using tables
+  T10.G7.18            Debug table operations by logging intermediate states
+  T10.G7.19            Insert and update database records from table data
+  T10.G7.20            Query and filter database collections into tables
+  T10.G7.21            Document data schema decisions for future readers
+  T10.G7.22            Process AI vision detection data stored in tables
+  T10.G7.23            Build a data-driven quiz or flashcard system using tables
+  T10.G7.24            Optimize table operations for large datasets
+
+
+GRADE 8 (22 skills)
+====================================================================================================
+  T10.G8.01            Use nested loops to compare data across two tables
+  T10.G8.02            Implement bubble sort algorithm step by step
+  T10.G8.03            Implement selection sort algorithm step by step
+  T10.G8.04            Build a simulation using table-based state
+  T10.G8.05            Query and report statistics from a complex dataset
+  T10.G8.06            Model relationships using multiple linked tables
+  T10.G8.07            Implement a hash table lookup using lists
+  T10.G8.08.01         Implement binary search on sorted lists
+  T10.G8.08.02         Use two-pointer technique for list problems
+  T10.G8.08.03         Apply sliding window algorithms
+  T10.G8.09            Implement a priority queue using sorted insertion
+  T10.G8.10            Parse and process structured text into tables
+  T10.G8.11            Design and implement a data pipeline with multiple transformations
+  T10.G8.12            Build a semantic search database from table data
+  T10.G8.13            Query semantic databases with natural language and filters
+  T10.G8.14            Use moving averages to analyze time-series data in lists
+  T10.G8.15            Store and retrieve AI vision data from tables
+  T10.G8.16            Parse and analyze AI-generated structured data
+  T10.G8.17            Design and test data validation rules for tables
+  T10.G8.18            Compare algorithmic efficiency for list operations
+  T10.G8.19            Build a complete AI-enhanced data application
+  T10.G8.20            Implement merge sort algorithm with recursion concept
+

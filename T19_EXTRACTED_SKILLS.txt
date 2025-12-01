@@ -1,0 +1,1050 @@
+================================================================================
+T19 – Algorithmic Art & Creative Coding: Complete Skill Map
+================================================================================
+
+
+================================================================================
+Kindergarten (6 skills)
+================================================================================
+
+ID: T19.GK.01
+Skill: Picture pattern detective
+Description: Students view short rows of colors/shapes (e.g., sun-moon-sun-moon) shown as picture cards and tap/circle the row that follows a clean repeat. The activity is entirely visual with drag-and-drop or tap-to-select interaction. No text reading required.
+Dependencies:
+  - T04.GK.01: Identify a simple repeating pattern
+
+
+ID: T19.GK.02
+Skill: Order art steps with cards
+Description: Learners drag picture cards showing simple art steps (e.g., picture of picking red crayon → picture of drawing big circle → picture of adding yellow dots) to match a finished coloring page. All cards show clear action pictures, no text reading required.
+Dependencies:
+  - T01.GK.01: Put pictures in order for getting ready for bed
+
+
+ID: T19.GK.03
+Skill: Continue the pattern trail
+Description: Students continue a pattern along a dotted path (e.g., flower-heart-flower-heart). They focus on spatial placement and rhythm.
+Dependencies:
+  - T04.GK.01: Identify a simple repeating pattern
+
+
+ID: T19.GK.04
+Skill: Fix the mixed-up art plan (picture-only)
+Description: Students look at a 3-step visual art plan with one incorrect picture card (e.g., a color that breaks the pattern) and drag-and-drop the correct card from a small set. No text reading required—all instructions are visual.
+Dependencies:
+  - T04.GK.01: Identify a simple repeating pattern
+
+
+ID: T19.GK.05
+Skill: Match colors to complete artwork (picture-only)
+Description: Students view an incomplete picture (e.g., a rainbow missing one stripe, a flower missing petals) and drag the correct colored shape from a palette to complete it. They focus on color recognition and matching. Activity uses large tap targets and high-contrast visuals.
+Dependencies:
+  - T04.GK.01: Identify a simple repeating pattern
+
+
+ID: T19.GK.06
+Skill: Predict what comes next in art sequence
+Description: Students view 2-3 pictures showing art in progress (e.g., blank page → one circle → two circles) and tap which picture shows the next step from three options. They predict simple sequences without reading. Activity reinforces cause-and-effect thinking in creative contexts.
+Dependencies:
+  - T19.GK.01: Picture pattern detective
+
+
+================================================================================
+Grade 1 (6 skills)
+================================================================================
+
+ID: T19.G1.01
+Skill: Match pattern rules to picture cards
+Description: Students view a short repeating design (e.g., two small stars then one big sun) and match it to the picture card that shows the rule (e.g., card showing 'small-small-big'). They do NOT need to write or verbally describe—they select from visual options.
+Dependencies:
+  - T01.GK.01: Put pictures in order for getting ready for bed
+
+
+ID: T19.G1.02
+Skill: Match directions to drawings
+Description: Learners match a simple written/audio direction set ("draw a blue square, then add three yellow dots under it") to the drawing it would produce.
+Dependencies:
+  - T03.GK.02: Match parts to whole objects
+
+
+ID: T19.G1.03
+Skill: Extend a quilt on a grid
+Description: Students complete a 2×3 or 3×3 art grid by adding the next tiles so the pattern continues horizontally and vertically.
+Dependencies:
+  - T01.GK.01: Put pictures in order for getting ready for bed
+
+
+ID: T19.G1.04
+Skill: Fix a wrong instruction (text-based)
+Description: Students hear an audio art direction set (with optional text for advanced readers) with one incorrect step (e.g., "draw circle, draw square, draw triangle" when the pattern shows two circles). They identify and select the replacement instruction from picture options with simple text labels.
+Dependencies:
+  - T01.GK.01: Put pictures in order for getting ready for bed
+
+
+ID: T19.G1.05
+Skill: Group pattern pieces by color or shape
+Description: Students drag picture cards showing pattern elements (colored shapes, pattern tiles) into labeled bins by color family or shape type. They classify elements that will be used together in patterns, practicing the categorization skills needed to select and organize art elements algorithmically. Audio labels support pre-readers.
+Dependencies:
+  - T04.GK.01: Identify a simple repeating pattern
+
+
+ID: T19.G1.06
+Skill: Trace a simple art recipe path
+Description: Students follow a visual trail showing 3-4 art steps and trace the path from start to finish, marking each step completed. They practice sequential tracking, building the foundation for following algorithms. Activity uses finger-trace interaction.
+Dependencies:
+  - T19.G1.01: Match pattern rules to picture cards
+
+
+================================================================================
+Grade 2 (6 skills)
+================================================================================
+
+ID: T19.G2.01
+Skill: Use repeat cards in an art recipe
+Description: Students compare two instruction sets for the same border: one long ("red square, red square, red square…") and one that uses a repeat card ("repeat red square 4 times"). They choose the concise, accurate version.
+Dependencies:
+  - T01.G1.04: Predict the next step in a story sequence
+
+
+ID: T19.G2.02
+Skill: Plan mirrored mosaics
+Description: Learners arrange tiles on one side of a line and then plan what tiles should appear on the other side so the design is symmetrical.
+Dependencies:
+  - T01.G1.04: Predict the next step in a story sequence
+
+
+ID: T19.G2.03
+Skill: Build layered pattern recipes
+Description: Students interpret instructions with background and foreground patterns (e.g., "repeat row A three times for the background, then repeat row B once on top") to build a stacked design combining two different repeating patterns.
+Dependencies:
+  - T19.G2.01: Use repeat cards in an art recipe
+  - T01.G2.02: Use "repeat" to make directions shorter
+
+
+ID: T19.G2.04
+Skill: Predict how a change affects the art
+Description: Students consider "what-if" prompts (e.g., "What happens if the second color changes from blue to green?") and select from visual options showing how the final pattern would change. They practice cause-and-effect reasoning in creative contexts.
+Dependencies:
+  - T19.G2.03: Build layered pattern recipes
+
+
+ID: T19.G2.05
+Skill: Debug a mixed-up pattern recipe
+Description: Students examine a pattern recipe that produces the wrong result and identify which instruction card is in the wrong position. They drag the card to its correct place to fix the recipe. They practice debugging logic in unplugged art contexts.
+Dependencies:
+  - T19.G2.03: Build layered pattern recipes
+
+
+ID: T19.G2.06
+Skill: Compare two art recipes for same result
+Description: Students view two different instruction sets that both create the same visual pattern. They identify which recipe is shorter (uses repeat efficiently) and explain why both work. They practice recognizing that multiple approaches can achieve the same creative goal.
+Dependencies:
+  - T19.G2.01: Use repeat cards in an art recipe
+
+
+================================================================================
+Grade 3 (16 skills)
+================================================================================
+
+ID: T19.G3.01
+Skill: Translate art recipe cards into blocks
+Description: Given a familiar art recipe (e.g., "draw a triangle, change color, repeat"), students select the block stack that matches the steps. This cements the link between unplugged thinking and coding.
+Dependencies:
+  - T07.G3.01: Use a counted repeat loop
+  - T19.G2.01: Use repeat cards in an art recipe
+
+
+ID: T19.G3.02
+Skill: Compare Pen blocks and Looks draw blocks
+Description: Students classify example projects as using either Pen blocks (trails during movement) or Looks draw blocks (shapes at sprite position). Given side-by-side examples, they identify which drawing system each project uses and explain that Pen draws trails while Looks blocks draw shapes directly. They understand that stamps don't exist in CreatiCode—each shape must be drawn fresh.
+Dependencies:
+  - T19.G3.01: Translate art recipe cards into blocks
+
+
+ID: T19.G3.02.01
+Skill: Identify when to use Pen blocks vs Looks blocks
+Description: Given a drawing goal (e.g., "draw a trail as sprite moves" vs "add shapes at specific positions"), students select whether Pen blocks or Looks blocks are the appropriate choice. They explain that Pen blocks draw trails during movement while Looks blocks draw shapes at the sprite's current position.
+Dependencies:
+  - T19.G3.02: Compare Pen blocks and Looks draw blocks
+
+
+ID: T19.G3.03
+Skill: Use pen down to start drawing trails
+Description: Students use the "pen down" block to make sprites leave a trail as they move. They understand that pen down turns on the trail and pen up turns it off. They create simple line drawings by moving sprites with pen down.
+Dependencies:
+  - T19.G3.02: Compare Pen blocks and Looks draw blocks
+
+
+ID: T19.G3.04
+Skill: Use pen up to stop drawing trails
+Description: Students use the "pen up" block to stop the trail when they want to move without drawing. They practice alternating pen down (drawing) and pen up (repositioning) to create patterns with gaps.
+Dependencies:
+  - T19.G3.03: Use pen down to start drawing trails
+
+
+ID: T19.G3.05
+Skill: Set pen color using color values
+Description: Students use the "set pen color" block with hex color values (#RRGGBBAA format) to change trail colors. They experiment with different colors and see how the trail color changes immediately after this block.
+Dependencies:
+  - T19.G3.04: Use pen up to stop drawing trails
+
+
+ID: T19.G3.06
+Skill: Set pen size to control trail width
+Description: Students use the "set pen size" block to make trails thicker or thinner. They experiment with different pen sizes (e.g., 1, 5, 10) and observe how this affects the visual weight of their drawings.
+Dependencies:
+  - T19.G3.05: Set pen color using color values
+
+
+ID: T19.G3.06.01
+Skill: Clear the canvas with erase all
+Description: Students use the "erase all" block to clear all pen trails before starting a new drawing. They understand that erase all removes trails but doesn't affect sprites. They practice the pattern: erase all → set pen properties → pen down → draw.
+Dependencies:
+  - T19.G3.06: Set pen size to control trail width
+
+
+ID: T19.G3.07
+Skill: Draw rectangles at sprite position
+Description: Students use the "draw rectangle" block from the Looks category to draw rectangles centered at the sprite's current position. They understand that each block call draws a new rectangle and that the sprite doesn't need pen down for this. They control width and height parameters.
+Dependencies:
+  - T19.G3.02: Compare Pen blocks and Looks draw blocks
+
+
+ID: T19.G3.08
+Skill: Draw ovals at sprite position
+Description: Students use the "draw oval" block from the Looks category to draw ovals/circles centered at the sprite's current position. They control width and height parameters to create circles (equal dimensions) or stretched ovals.
+Dependencies:
+  - T19.G3.07: Draw rectangles at sprite position
+
+
+ID: T19.G3.09
+Skill: Program a repeating border with loops
+Description: Students write a drawing program that repeats a sequence using a `repeat` block. They combine draw blocks (draw rectangle or draw oval) with motion blocks (move right, move down) to create border patterns. They see how loops reduce repetitive code.
+Dependencies:
+  - T19.G3.08: Draw ovals at sprite position
+  - T07.G3.01: Use a counted repeat loop
+
+
+ID: T19.G3.10
+Skill: Trace a drawing loop and predict output
+Description: Students read a short script using draw blocks in a loop (e.g., loop drawing rectangles with move blocks) and predict how many shapes or what final layout appears. This tracing skill builds understanding before tackling nested loops.
+Dependencies:
+  - T19.G3.09: Program a repeating border with loops
+
+
+ID: T19.G3.11
+Skill: Tile a grid with nested loops
+Description: Learners combine two loops—one for columns, one for rows—to fill a small grid with a pattern tile. This is the first double-loop exposure in an art context. They use go to x: y: blocks to position before drawing each tile.
+Dependencies:
+  - T19.G3.10: Trace a drawing loop and predict output
+
+
+ID: T19.G3.12
+Skill: Add simple randomness for variety
+Description: Students extend a loop-based drawing by adding `pick random` for shape colors, sizes, or x/y position variations. They add randomness to one property at a time (e.g., color) to see how it creates visual variety while maintaining pattern structure.
+Dependencies:
+  - T19.G3.11: Tile a grid with nested loops
+
+
+ID: T19.G3.13
+Skill: Use variables to change pattern size
+Description: Students create a variable for size or spacing and use it in their draw blocks to control pattern dimensions. They experiment with different values to see how one variable changes the entire design, preparing for variable incrementation in loops.
+Dependencies:
+  - T19.G3.12: Add simple randomness for variety
+  - T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T19.G3.14
+Skill: Debug a simple drawing script with incorrect output
+Description: Students examine a short drawing script (3-5 blocks) that produces unexpected output—shapes in wrong positions, wrong colors, or wrong sizes. They compare the actual output to the intended design, identify which block has the wrong value, and correct it. They verify their fix produces the correct visual result.
+Dependencies:
+  - T19.G3.09: Program a repeating border with loops
+  - T08.G3.01: Use a simple if in a script
+
+
+================================================================================
+Grade 4 (14 skills)
+================================================================================
+
+ID: T19.G4.01
+Skill: Implement incremental loops for spirals
+Description: Students write a loop that increases a variable (distance or angle) each iteration to create spiral patterns. They use `go to x: () y: ()` blocks with calculated positions and draw blocks (draw oval, draw rectangle) to place shapes along the spiral path. They focus on incrementing variables with the "change" block and mathematical position calculations using operators.
+Dependencies:
+  - T19.G3.13: Use variables to change pattern size
+  - T09.G3.02: Use change block to increase a variable
+  - T07.G3.01: Use a counted repeat loop
+
+
+ID: T19.G4.02
+Skill: Define a custom block for a tile pattern
+Description: Students create a custom block (no parameters yet) that draws a geometric tile pattern using draw blocks (draw rectangle, draw oval). They understand that the custom block encapsulates the drawing sequence and can be called multiple times.
+Dependencies:
+  - T19.G3.09: Program a repeating border with loops
+  - T11.G4.01: Define and call a simple custom block (no parameters)
+
+
+ID: T19.G4.03
+Skill: Call custom tile block in nested loops
+Description: Students use nested loops to call their custom tile block across the stage, creating tessellation patterns. They combine modular code structure (custom block) with iteration (nested loops) and coordinate calculations (positioning before each call).
+Dependencies:
+  - T19.G4.02: Define a custom block for a tile pattern
+  - T19.G3.11: Tile a grid with nested loops
+
+
+ID: T19.G4.04
+Skill: Control art with parameter variables
+Description: Students expose variables (e.g., sides, size, rotation) through sliders or input prompts and show how changing a value reshapes the art. They use the variable monitor or "ask and wait" to get user input, then use those values throughout their drawing code.
+Dependencies:
+  - T19.G4.01: Implement incremental loops for spirals
+  - T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T19.G4.05
+Skill: Create smooth animations with small movements
+Description: Students create animated drawings by using small movements in forever loops with wait blocks. They understand that small increments create smooth motion. They animate simple properties like position, rotation, or size changes over time.
+Dependencies:
+  - T19.G4.04: Control art with parameter variables
+  - T07.G3.03: Build a forever loop for simple animation
+
+
+ID: T19.G4.06
+Skill: Create a color palette list
+Description: Students create a list containing 3-5 hex color values (#RRGGBBAA format) representing their color palette. They understand that lists can store color values just like numbers or text. They manually add colors to the list.
+Dependencies:
+  - T19.G3.05: Set pen color using color values
+  - T10.G4.01: Create a list and add items through code
+
+
+ID: T19.G4.07
+Skill: Apply colors from a palette list in loops
+Description: Students iterate through their color palette list in a loop, using each color for different shapes in their pattern. They use "item # of list" to access colors and apply them to their drawing blocks, creating cohesive color schemes in their algorithmic art.
+Dependencies:
+  - T19.G4.06: Create a color palette list
+  - T10.G4.02: Use a loop to iterate through a list
+
+
+ID: T19.G4.08
+Skill: Debug a multi-loop art script
+Description: Students receive a script whose nested loops miscount, overlap, or use the wrong color. They identify the issue by tracing loop iterations and adjust counts, moves, or color changes. They verify their fix produces the intended visual output.
+Dependencies:
+  - T19.G3.14: Debug a simple drawing script with incorrect output
+  - T19.G3.11: Tile a grid with nested loops
+
+
+ID: T19.G4.09
+Skill: Recolor art with button clicks
+Description: Learners add a button event (when sprite clicked) that recolors the art with a different palette. They introduce light interactivity by changing color variables or cycling through a color list when the user clicks.
+Dependencies:
+  - T19.G4.07: Apply colors from a palette list in loops
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+
+ID: T19.G4.10
+Skill: Redraw art with key events
+Description: Students add keyboard event handlers (when key pressed) that clear and re-draw the art tile with modified parameters. This introduces full interactivity where different keys create different variations of the same algorithmic pattern.
+Dependencies:
+  - T19.G4.09: Recolor art with button clicks
+  - T06.G3.02: Use key‑press events
+
+
+ID: T19.G4.11
+Skill: Map small data lists to drawing positions
+Description: Students create a simple list of 3-5 numbers and use each value to control drawing positions (e.g., x-coordinates or heights). They practice the basic concept of reading data from a list and using it in go to or draw blocks to create visual output, preparing for full data visualization.
+Dependencies:
+  - T19.G4.07: Apply colors from a palette list in loops
+  - T10.G4.02: Use a loop to iterate through a list
+
+
+ID: T19.G4.12
+Skill: Generate colors using HSV values
+Description: Students use the color reporter block with HSV parameters (hue 0-100, saturation 0-100, brightness 0-100) to create colors programmatically. They understand that varying these parameters in loops creates gradients and dynamic palettes, going beyond fixed hex colors.
+Dependencies:
+  - T19.G4.06: Create a color palette list
+  - T09.G3.01.04: Display variable value on stage using the variable monitor
+
+
+ID: T19.G4.13
+Skill: Use console logging to trace art variable values
+Description: Students add console log blocks to their drawing scripts to print variable values (position, color, loop counter) during execution. They use the console panel to trace how values change each iteration and identify where calculations go wrong. They debug art algorithms by reading console output to find logic errors.
+Dependencies:
+  - T19.G4.01: Implement incremental loops for spirals
+  - T08.G3.01: Use a simple if in a script
+
+
+ID: T19.G4.14
+Skill: Create slider widgets to control art parameters
+Description: Students use the Widget blocks to create slider controls that adjust art parameters in real-time. They create a slider widget with min/max values, read the slider value into a variable, and use that variable to control drawing properties (size, spacing, rotation). They experience how widgets enable intuitive user interaction with parametric art.
+Dependencies:
+  - T19.G4.04: Control art with parameter variables
+  - T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
+
+
+================================================================================
+Grade 5 (15 skills)
+================================================================================
+
+ID: T19.G5.01
+Skill: Implement bar chart visualization from list
+Description: Students read values from a single list of numbers and implement algorithms to map data to visual properties. They iterate through the list, drawing rectangles with heights proportional to each data value. They focus on translating data values to coordinates and dimensions, creating a simple bar chart visualization.
+Dependencies:
+  - T19.G4.11: Map small data lists to drawing positions
+  - T10.G4.02: Use a loop to iterate through a list
+
+
+ID: T19.G5.02
+Skill: Map data to two visual properties
+Description: Students extend single-list visualization by using data to control TWO visual properties simultaneously (e.g., list values control both height and color of rectangles, or both x-position and size of circles). They use simple calculations or parallel lists to derive the second property from data.
+Dependencies:
+  - T19.G5.01: Implement bar chart visualization from list
+  - T10.G5.01: Use nested lists to represent structured data
+
+
+ID: T19.G5.03
+Skill: Animate a pattern with a counter variable
+Description: Students use a forever loop plus a counter variable to gradually grow, rotate, or fade a pattern. They increment the counter each frame and use it to modify drawing parameters, creating animated generative art that evolves over time.
+Dependencies:
+  - T19.G4.05: Create smooth animations with small movements
+  - T09.G3.02: Use change block to increase a variable
+
+
+ID: T19.G5.04
+Skill: Make art respond to mouse position
+Description: Students use mouse x and mouse y reporter blocks to make art change based on cursor position. They map mouse coordinates to drawing parameters (colors, sizes, positions) so the artwork responds dynamically as the user moves the mouse.
+Dependencies:
+  - T19.G4.10: Redraw art with key events
+  - T06.G3.03: Use mouse position in scripts
+
+
+ID: T19.G5.05
+Skill: Make art respond to keyboard input
+Description: Students add key-sensing blocks to continuously check which keys are pressed and modify art parameters accordingly. Unlike discrete key events, this creates continuous interactive control where holding keys affects the art in real-time.
+Dependencies:
+  - T19.G5.04: Make art respond to mouse position
+
+
+ID: T19.G5.06
+Skill: Create fractal-like nested patterns
+Description: Students draw a pattern, then nest smaller versions inside or around it using loops and custom blocks, mimicking fractal depth. They use size variables that decrease with each nesting level, creating recursive-looking patterns using iteration (not actual recursion).
+Dependencies:
+  - T19.G4.03: Call custom tile block in nested loops
+  - T11.G4.03: Add parameters to custom blocks
+
+
+ID: T19.G5.07
+Skill: Initialize a 3D scene for algorithmic art
+Description: Students use the `initialize 3D world` block to set up a 3D environment. They understand the 3D coordinate system: x (left-right), y (up-down), z (forward-back). They learn how to position the camera to view their 3D art. They understand that 3D art uses depth as an additional creative dimension.
+Dependencies:
+  - T19.G4.01: Implement incremental loops for spirals
+  - T09.G3.01.01: Create a new variable with a descriptive name
+
+
+ID: T19.G5.08
+Skill: Add box shapes algorithmically in loops
+Description: Students use the `add box` block inside loops to create patterns with boxes in 3D space. They calculate positions using loop variables and place multiple boxes at different coordinates. They control width, height, and depth to create varied structures. They focus on algorithmic placement, not manual positioning.
+Dependencies:
+  - T19.G5.07: Initialize a 3D scene for algorithmic art
+  - T07.G3.01: Use a counted repeat loop
+
+
+ID: T19.G5.09
+Skill: Add sphere shapes algorithmically in loops
+Description: Students use the `add sphere` block inside loops to create patterns with spheres in 3D space. They calculate positions using loop variables and mathematical formulas. They control diameter and segments parameters to balance smoothness with performance. They combine spheres with boxes to create varied 3D compositions.
+Dependencies:
+  - T19.G5.08: Add box shapes algorithmically in loops
+
+
+ID: T19.G5.10
+Skill: Add cylinder shapes algorithmically in loops
+Description: Students use the `add cylinder` block inside loops to create patterns with cylinders in 3D space. They calculate positions and use rotation to orient cylinders in different directions. They control height and diameter parameters. They understand how cylinders can create posts, pillars, or tubes in their 3D algorithmic art.
+Dependencies:
+  - T19.G5.09: Add sphere shapes algorithmically in loops
+
+
+ID: T19.G5.11
+Skill: Create 3D geometric patterns with multiple shapes
+Description: Students combine boxes, spheres, and cylinders in algorithmic patterns using loops and mathematical formulas. They create 3D structures where shape type varies based on loop conditions (e.g., every 3rd position uses sphere instead of box). They focus on composition and spatial arrangement in three dimensions.
+Dependencies:
+  - T19.G5.10: Add cylinder shapes algorithmically in loops
+  - T08.G3.01: Use a simple if in a script
+
+
+ID: T19.G5.12
+Skill: Explain data-to-visual design choices
+Description: Learners justify why certain colors, sizes, or motions represent data categories in their visualizations. They explain the reasoning behind their visual encoding choices (e.g., "I used red for high values because red signals intensity" or "I used position for time because it shows progression"). This reinforces the data-art connection.
+Dependencies:
+  - T19.G5.02: Map data to two visual properties
+
+
+ID: T19.G5.13
+Skill: Create video-sensing art with motion detection
+Description: Students use the video sensing blocks to detect motion from the camera and map it to drawing actions. They use "video motion on sprite" to trigger drawing when movement is detected, or "video direction" to control drawing direction. They create interactive art that responds to the viewer's physical movements in real-time.
+Dependencies:
+  - T19.G5.04: Make art respond to mouse position
+  - T06.G3.03: Use mouse position in scripts
+
+
+ID: T19.G5.14
+Skill: Create sound-reactive art with microphone input
+Description: Students use the "loudness" sensing block to detect sound levels from the microphone and map them to drawing parameters. They create art where louder sounds create bigger shapes, brighter colors, or faster movement. They understand that loudness returns a value from 0-100 that can drive visual changes.
+Dependencies:
+  - T19.G5.04: Make art respond to mouse position
+  - T06.G3.03: Use mouse position in scripts
+
+
+ID: T19.G5.15
+Skill: Create typographic art with text labels
+Description: Students use label widget blocks to place text elements as part of their algorithmic compositions. They position text labels at calculated coordinates in loops, vary font sizes and colors algorithmically, and create text-based patterns (concrete poetry, word clouds, or decorative typography). They explore how text becomes visual art when arranged with algorithmic precision.
+Dependencies:
+  - T19.G5.03: Animate a pattern with a counter variable
+  - T10.G4.02: Use a loop to iterate through a list
+
+
+================================================================================
+Grade 6 (17 skills)
+================================================================================
+
+ID: T19.G6.01
+Skill: Trace and explain an art algorithm
+Description: Students examine code with comments and section markers containing nested loops, variables, and color changes. They explain what each section (identified by comments) contributes to the final artwork. They trace variable values through iterations and explain how loops, conditionals, and calculations combine to create the visual result.
+Dependencies:
+  - T19.G5.06: Create fractal-like nested patterns
+  - T07.G5.01: Use a counted repeat loop
+
+
+ID: T19.G6.02
+Skill: Refactor repetitive art into loops
+Description: Learners take a long, repetitive art script (many similar blocks with slightly different values) and reorganize it using loops with incrementing variables. They maintain the same visual result while dramatically reducing code length. They demonstrate understanding of loop mechanics and abstraction.
+Dependencies:
+  - T19.G6.01: Trace and explain an art algorithm
+  - T11.G5.01: Identify repeated code that could become a custom block
+
+
+ID: T19.G6.03
+Skill: Refactor repetitive art into custom blocks
+Description: Students identify repeated drawing sequences and extract them into parameterized custom blocks. They replace multiple similar code sections with custom block calls that use different parameter values. They demonstrate understanding of abstraction and code modularity.
+Dependencies:
+  - T19.G6.02: Refactor repetitive art into loops
+  - T11.G5.03: Use parameters in custom blocks
+
+
+ID: T19.G6.04
+Skill: Use variables and conditionals to branch designs
+Description: Students create art where colors/shapes change based on variable thresholds. They use conditionals to alternate palettes when a counter is even, draw special motifs every 5th loop iteration, or change patterns based on position ranges. They combine variables, conditionals, and drawing to create complex rule-based art.
+Dependencies:
+  - T19.G5.03: Animate a pattern with a counter variable
+  - T08.G5.01: Use a simple if in a script
+
+
+ID: T19.G6.05
+Skill: Implement multi-field data visualization
+Description: Students implement algorithms to process structured data (nested lists representing objects with multiple attributes) and map different data fields to distinct visual properties. They draw shapes where x-position comes from one field, height from another, and color is determined by a third field value. They use iteration and conditional logic to process 2-3 data attributes simultaneously.
+Dependencies:
+  - T19.G5.02: Map data to two visual properties
+  - T10.G5.01: Use nested lists to represent structured data
+
+
+ID: T19.G6.06
+Skill: Apply sine functions to create wave patterns
+Description: Learners use sine functions (sine of loop counter) to produce smooth curves and waves in their art. They understand that sine values oscillate between -1 and 1, creating natural wave motion. They map sine outputs to positions, creating flowing patterns. They explain the relationship between the sine formula and resulting pattern.
+Dependencies:
+  - T19.G5.06: Create fractal-like nested patterns
+  - T09.G5.01: Model a character trait or game stat with a variable
+
+
+ID: T19.G6.07
+Skill: Apply cosine functions to create circular patterns
+Description: Students use both sine and cosine functions together to calculate positions on circles and spirals. They understand that sine gives y-coordinate and cosine gives x-coordinate for circular motion. They create circular arrangements of shapes by calculating positions with (cos(angle), sin(angle)).
+Dependencies:
+  - T19.G6.06: Apply sine functions to create wave patterns
+
+
+ID: T19.G6.07.01
+Skill: Create Lissajous curves with sine and cosine
+Description: Students generate Lissajous curves by using different frequencies for x (cosine) and y (sine) oscillations. They experiment with frequency ratios (1:2, 2:3, 3:4) to create figure-eight shapes and complex loops. They understand that ratio relationships produce predictable, mathematically beautiful patterns used in oscilloscope art.
+Dependencies:
+  - T19.G6.07: Apply cosine functions to create circular patterns
+
+
+ID: T19.G6.07.02
+Skill: Create spirograph patterns with parametric equations
+Description: Students implement spirograph-like patterns using parametric equations combining multiple sine/cosine terms. They layer oscillations at different scales (large circle + small circle rotations) to create intricate geometric designs. They control parameters like inner/outer radii and rotation speeds to generate varied hypotrochoid and epitrochoid curves.
+Dependencies:
+  - T19.G6.07.01: Create Lissajous curves with sine and cosine
+
+
+ID: T19.G6.08
+Skill: Apply color materials to 3D shapes
+Description: Students use material blocks to set colors on 3D shapes with diffusion (matte) or emission (glowing) properties. They understand that materials determine how surfaces appear. They apply different colors to different shapes in their algorithmic 3D art, creating visual variety and emphasis.
+Dependencies:
+  - T19.G5.11: Create 3D geometric patterns with multiple shapes
+
+
+ID: T19.G6.09
+Skill: Apply texture materials to 3D shapes
+Description: Students apply texture materials from CreatiCode's texture library to 3D shapes. They understand that textures add surface detail without additional geometry. They experiment with different textures (wood, metal, stone, fabric) and see how textures change the artistic appearance of their 3D patterns.
+Dependencies:
+  - T19.G6.08: Apply color materials to 3D shapes
+
+
+ID: T19.G6.10
+Skill: Apply roughness properties to 3D materials
+Description: Students adjust roughness properties (0 = shiny/reflective, 1 = matte/rough) to control surface appearance. They understand that roughness affects how light interacts with surfaces. They use varying roughness values in their algorithmic 3D art to create visual interest and material variety.
+Dependencies:
+  - T19.G6.09: Apply texture materials to 3D shapes
+
+
+ID: T19.G6.11
+Skill: Create 3D curves from calculated point lists
+Description: Students generate point lists using loops and math formulas (sine/cosine for spirals, parametric equations for helixes). They store calculated x, y, z positions in nested lists. They use these point lists with 3D curve blocks to create line sculptures in space. They understand how 2D math concepts extend to 3D with z-coordinates.
+Dependencies:
+  - T19.G6.07: Apply cosine functions to create circular patterns
+  - T10.G5.01: Use nested lists to represent structured data
+
+
+ID: T19.G6.12
+Skill: Create interactive 3D generative art
+Description: Students add interactivity to their 3D algorithmic art by mapping keyboard/mouse input to 3D transformations, camera angles, or generative parameters. They create art that viewers can explore and manipulate in real-time. They use key sensing or mouse position to control 3D art parameters dynamically.
+Dependencies:
+  - T19.G5.05: Make art respond to keyboard input
+  - T19.G5.11: Create 3D geometric patterns with multiple shapes
+
+
+ID: T19.G6.13
+Skill: Create hand-tracking art with finger positions
+Description: Students use CreatiCode's hand tracking blocks to detect hand landmarks and create art that responds to finger positions. They access individual finger positions from the hand tracking table variable and use them to control drawing position, color, or brush size. They create "air drawing" experiences where viewers paint by moving their hands in front of the camera.
+Dependencies:
+  - T19.G5.13: Create video-sensing art with motion detection
+  - T10.G5.01: Use nested lists to represent structured data
+
+
+ID: T19.G6.14
+Skill: Use finger gestures to control art parameters
+Description: Students use hand tracking to detect finger curl angles and use them as art parameters. They read finger curl values (0-180 degrees) to control art properties like brush size (closed fist = small, open hand = large), color hue, or pattern density. They create art tools that respond to natural hand gestures without touching any physical controls.
+Dependencies:
+  - T19.G6.13: Create hand-tracking art with finger positions
+
+
+ID: T19.G6.15
+Skill: Debug art algorithms using step-by-step execution
+Description: Students use CreatiCode's step-by-step execution feature to walk through their drawing algorithms one block at a time. They observe how each block changes the visual output and variable values. They identify logic errors by watching where the actual drawing diverges from their intended design. They practice systematic debugging of complex multi-loop art code.
+Dependencies:
+  - T19.G4.13: Use console logging to trace art variable values
+  - T19.G6.01: Trace and explain an art algorithm
+
+
+================================================================================
+Grade 7 (23 skills)
+================================================================================
+
+ID: T19.G7.01
+Skill: Compare efficiency of art algorithms
+Description: Students evaluate two code samples that draw the same design but with different performance characteristics. They identify which uses fewer operations, has better loop structure, or avoids redundant calculations. They choose the more efficient approach and justify why based on operation count or execution time.
+Dependencies:
+  - T19.G6.01: Trace and explain an art algorithm
+  - T07.G6.05: Fix a loop that runs too many or too few times
+
+
+ID: T19.G7.02
+Skill: Use repeat-until loops in art algorithms
+Description: Learners replace fixed `repeat` blocks with `repeat until` loops so a drawing continues until reaching a boundary or meeting a condition. They use conditionals to determine when the pattern is complete (e.g., repeat until x position > 400, or repeat until color brightness < 10). This creates more flexible, adaptive art algorithms.
+Dependencies:
+  - T19.G6.04: Use variables and conditionals to branch designs
+  - T08.G6.01: Use conditionals to control simulation steps
+
+
+ID: T19.G7.03
+Skill: Study parameter impact on aesthetics
+Description: Students create a parameterized art piece with exposed controls (sliders for randomness, angle change, speed). They systematically adjust each parameter one at a time and document in a table how each change affects specific aesthetic qualities (symmetry, balance, density, motion). They analyze which parameters have the strongest visual impact and explain why.
+Dependencies:
+  - T19.G6.04: Use variables and conditionals to branch designs
+  - T09.G6.01: Model real-world quantities using variables and formulas
+
+
+ID: T19.G7.04
+Skill: Analyze real generative artworks
+Description: Students examine professional algorithmic art or natural patterns (examples: Vera Molnár, Manfred Mohr, fractal geometry in nature) and write pseudocode or create simplified CreatiCode implementations showing the loops, math formulas, and randomness that likely generated them. They explain their reasoning for each algorithmic choice and compare their implementation to the original.
+Dependencies:
+  - T19.G6.01: Trace and explain an art algorithm
+  - T19.G6.07: Apply cosine functions to create circular patterns
+
+
+ID: T19.G7.05
+Skill: Configure basic particle emitter properties
+Description: Students create simple stationary particle effects using the `add prebuilt emitter` block. They adjust particle properties: color, lifetime (max life parameter), texture size, source size, and speed. They observe how each property change affects the visual result and explain that particles are temporary visual elements generated continuously.
+Dependencies:
+  - T19.G6.04: Use variables and conditionals to branch designs
+
+
+ID: T19.G7.06
+Skill: Configure particle color gradients
+Description: Students create particle emitters with color gradients that change over particle lifetime. They set start color and end color, creating effects like fire (yellow to red to black) or magic (blue to purple to transparent). They understand how color transitions create dynamic visual effects.
+Dependencies:
+  - T19.G7.05: Configure basic particle emitter properties
+
+
+ID: T19.G7.07
+Skill: Configure particle size changes
+Description: Students configure particles to change size over their lifetime (start size, end size). They create effects like growing bubbles, shrinking sparks, or expanding explosions. They understand how size changes affect perceived particle behavior and energy.
+Dependencies:
+  - T19.G7.06: Configure particle color gradients
+
+
+ID: T19.G7.08
+Skill: Create particle-based generative art
+Description: Students create standalone particle-based algorithmic art by combining color gradients, size changes, emission patterns, and movement. They use particle systems to create effects like flowing streams, energy fields, or abstract motion art. They control emitter position algorithmically, moving it in patterns to paint with particles.
+Dependencies:
+  - T19.G7.07: Configure particle size changes
+
+
+ID: T19.G7.09
+Skill: Implement L-system string generation
+Description: Students implement L-system (Lindenmayer system) rules by starting with an axiom string and repeatedly applying replacement rules. They understand that L-systems use string rewriting: each character is replaced according to rules (e.g., "A" → "AB", "B" → "A"). They generate strings through multiple iterations and see how simple rules create complex patterns.
+Dependencies:
+  - T19.G6.07: Apply cosine functions to create circular patterns
+  - T10.G6.02: Manipulate text with string operations
+
+
+ID: T19.G7.10
+Skill: Draw L-system fractal trees
+Description: Students translate L-system strings into visual patterns by interpreting characters as drawing commands (F = forward, + = turn left, - = turn right, [ = save position, ] = restore position). They draw fractal trees and Koch curves by processing the generated strings. They see how recursive rules create self-similar patterns.
+Dependencies:
+  - T19.G7.09: Implement L-system string generation
+  - T11.G7.02: Understand recursive thinking through examples
+
+
+ID: T19.G7.11
+Skill: Implement elementary cellular automaton rule lookup
+Description: Students create a rule lookup table that maps each 3-cell neighborhood pattern (000, 001, 010, ..., 111) to a next-state value (0 or 1). They implement rule numbers (e.g., Rule 30 = 00011110 in binary) by converting the rule number to its 8-bit representation and storing results in a list. They test their lookup by manually tracing specific neighborhood patterns.
+Dependencies:
+  - T19.G7.04: Analyze real generative artworks
+  - T10.G6.03: Implement algorithms using 2D tables
+
+
+ID: T19.G7.11.01
+Skill: Apply cellular automaton rules to generate rows
+Description: Students use their rule lookup table to generate new rows from previous rows. They iterate through each cell, extract its 3-cell neighborhood, look up the next state, and build the new row. They stack multiple generations vertically to visualize the automaton's evolution. They observe how different rules produce distinct visual patterns.
+Dependencies:
+  - T19.G7.11: Implement elementary cellular automaton rule lookup
+
+
+ID: T19.G7.11.02
+Skill: Visualize cellular automaton patterns
+Description: Students draw cellular automaton patterns by mapping cell states to colors and positions. They use draw blocks in nested loops to render the 2D grid of generations. They experiment with different color mappings (binary colors, gradients based on neighbor counts) to create visually striking representations of emergent patterns.
+Dependencies:
+  - T19.G7.11.01: Apply cellular automaton rules to generate rows
+
+
+ID: T19.G7.12
+Skill: Combine two generative techniques in one artwork
+Description: Students integrate two generative techniques (e.g., L-system trees with particle effects, or cellular automata patterns with mathematical curves) in a single project. They identify how one technique can feed into another (e.g., L-system endpoints trigger particle emission) and implement the connection.
+Dependencies:
+  - T19.G7.10: Draw L-system fractal trees
+  - T19.G7.11.02: Visualize cellular automaton patterns
+
+
+ID: T19.G7.13
+Skill: Add controlled randomness to generative systems
+Description: Students add controlled randomness to their hybrid generative art by varying parameters within defined ranges (e.g., random angle variations in L-systems between -15° and +15°, or random color selection from a palette). They explain how constraints keep randomness artistically coherent.
+Dependencies:
+  - T19.G7.12: Combine two generative techniques in one artwork
+
+
+ID: T19.G7.14
+Skill: Add point lights to 3D algorithmic art
+Description: Students add point lights (emitting equally in all directions) to their 3D generative art. They position lights algorithmically using loop variables. They control light color and intensity to create mood. They understand how light position affects shadows and highlights on their 3D shapes.
+Dependencies:
+  - T19.G5.11: Create 3D geometric patterns with multiple shapes
+
+
+ID: T19.G7.15
+Skill: Add directional lights to 3D algorithmic art
+Description: Students add directional lights (parallel rays like sunlight) to their 3D art. They control direction vector to determine where light comes from. They understand that directional lights don't have position (infinitely far away) but do have direction. They compare effects of point vs directional lights on their sculptures.
+Dependencies:
+  - T19.G7.14: Add point lights to 3D algorithmic art
+
+
+ID: T19.G7.16
+Skill: Use lighting to enhance 3D art mood
+Description: Students use multiple lights (point, directional, ambient) to create dramatic effects in their 3D generative art. They adjust light colors and intensities to create mood (warm vs cool, bright vs dark). They position lights to highlight patterns and create intentional shadows. They understand lighting as an artistic tool, not just illumination.
+Dependencies:
+  - T19.G7.15: Add directional lights to 3D algorithmic art
+
+
+ID: T19.G7.17
+Skill: Combine 3D shapes with particle effects
+Description: Students create dynamic 3D sculptures by combining algorithmic 3D shape placement with particle systems. They emit particles from shape positions, attach particle trails to moving 3D objects, or use particles to highlight 3D patterns. They understand how particles add motion and energy to static 3D geometry.
+Dependencies:
+  - T19.G7.08: Create particle-based generative art
+  - T19.G5.11: Create 3D geometric patterns with multiple shapes
+
+
+ID: T19.G7.18
+Skill: Generate custom 3D shapes from vertex lists
+Description: Students create original 3D shapes by calculating vertex positions using algorithms. They use loops to calculate x, y, z coordinates for each vertex based on mathematical formulas. They store positions in nested lists. They use these vertex lists with 3D shape creation blocks (add column, add cone with custom profiles) to generate unique geometric art beyond standard primitives.
+Dependencies:
+  - T19.G6.11: Create 3D curves from calculated point lists
+  - T10.G5.01: Use nested lists to represent structured data
+
+
+ID: T19.G7.19
+Skill: Generate AI sprites with algorithmic prompts
+Description: Students use the AI image generation blocks to create sprites from text prompts that they construct algorithmically. They build prompts by combining variables and lists (e.g., randomly selecting adjectives and subjects) to generate varied AI sprites. They use loops to generate multiple unique AI-created elements for their compositions. They integrate AI-generated assets into algorithmic art pieces.
+Dependencies:
+  - T19.G7.13: Add controlled randomness to generative systems
+  - T20.G5.02: Build a prompt with variables for AI image generation
+
+
+ID: T19.G7.20
+Skill: Create body-tracking interactive installations
+Description: Students use CreatiCode's body tracking blocks to detect full body pose keypoints and create interactive art installations. They read body keypoint positions (head, shoulders, elbows, hands, hips, knees, feet) from the tracking table and use them to control large-scale visual elements. They create art where the viewer's entire body becomes the controller, mapping body posture to colors, shapes, or animations.
+Dependencies:
+  - T19.G6.14: Use finger gestures to control art parameters
+  - T10.G6.03: Implement algorithms using 2D tables
+
+
+ID: T19.G7.21
+Skill: Create physics-based generative art with 2D physics
+Description: Students use CreatiCode's 2D physics engine to create generative art driven by physical simulation. They spawn physics-enabled shapes (circles, rectangles) with random initial velocities, apply gravity and forces, and let physics determine how shapes interact, bounce, and settle. They create compositions where the algorithm sets initial conditions but physics simulation determines the final visual outcome.
+Dependencies:
+  - T19.G7.13: Add controlled randomness to generative systems
+  - T17.G6.01: Initialize a 2D physics world
+
+
+================================================================================
+Grade 8 (24 skills)
+================================================================================
+
+ID: T19.G8.01
+Skill: Implement multi-dimensional data mapping
+Description: Students implement sophisticated algorithms to process complex datasets with 4+ attributes and map them to multiple visual channels simultaneously (size, color, motion, position, rotation, opacity). They use custom scaling functions to normalize different data ranges to visual ranges. They implement optimization strategies for handling larger datasets. This goes beyond G6 by handling more dimensions and considering performance.
+Dependencies:
+  - T19.G6.05: Implement multi-field data visualization
+  - T10.G7.01: Implement algorithms using complex nested data structures
+
+
+ID: T19.G8.02
+Skill: Create constrained generative artwork
+Description: Students combine randomness with constraints implemented as conditionals and boundary checks. They enforce limited color palettes (only use colors from approved list), symmetry rules (mirror operations), and bounding boxes (spatial constraints checked with if statements). The output is unique due to randomness yet cohesive due to constraints. They explain how constraints guide creativity.
+Dependencies:
+  - T19.G7.13: Add controlled randomness to generative systems
+  - T09.G6.01: Model real-world quantities using variables and formulas
+
+
+ID: T19.G8.03
+Skill: Evaluate authorship in generative art
+Description: Students write a position paper or participate in structured discussion analyzing authorship questions in algorithmic art. They address: Who is the artist—coder, algorithm, or viewer? How do we evaluate originality when code produces unique outputs? They discuss intellectual property (can you copyright an algorithm? a specific output?). They defend their positions with examples from art history and current practice.
+Dependencies:
+  - T19.G7.04: Analyze real generative artworks
+  - T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+
+
+ID: T19.G8.04
+Skill: Profile rendering performance
+Description: Students use timing methods to measure how long different parts of their art algorithm take to execute. They identify bottlenecks (nested loops with heavy operations, excessive drawing calls, redundant calculations). They understand frame rate concepts and measure frames per second in animated art.
+Dependencies:
+  - T19.G7.01: Compare efficiency of art algorithms
+  - T12.G6.01: Trace complex code with multiple variables
+
+
+ID: T19.G8.05
+Skill: Optimize algorithms to improve frame rate
+Description: Learners refactor slow algorithms using optimization techniques: reduce redundant calculations by storing values, decrease loop iterations by increasing step size, batch drawing operations, or cull off-screen elements. They profile before and after optimization to measure improvement. They hit target frame rates (30+ fps) while maintaining visual quality.
+Dependencies:
+  - T19.G8.04: Profile rendering performance
+  - T07.G6.02: Refactor complex repeated patterns into loops with variables
+
+
+ID: T19.G8.06
+Skill: Implement value noise for organic patterns
+Description: Students implement basic value noise by generating random values at grid points and interpolating between them. They use linear or smooth interpolation to create continuous gradients from discrete random samples. They apply noise values to control color, position offsets, or size variations, creating organic-looking patterns that avoid the harshness of pure randomness.
+Dependencies:
+  - T19.G7.13: Add controlled randomness to generative systems
+  - T10.G6.03: Implement algorithms using 2D tables
+
+
+ID: T19.G8.06.01
+Skill: Layer multiple noise octaves for detail
+Description: Students combine multiple layers of noise at different scales (octaves) to create rich, detailed patterns. They add high-frequency noise for fine detail and low-frequency noise for large-scale variation. They control amplitude and frequency per octave using multipliers. They create fractal-like patterns (fbm - fractional Brownian motion) for natural textures like clouds or terrain.
+Dependencies:
+  - T19.G8.06: Implement value noise for organic patterns
+
+
+ID: T19.G8.06.02
+Skill: Apply noise to modulate art parameters
+Description: Students use noise values to modulate various art parameters: color hue shifts, line thickness variation, shape displacement, rotation offsets. They map noise output (-1 to 1 or 0 to 1) to appropriate parameter ranges. They create cohesive organic variation across entire compositions, moving beyond random-per-element to spatially coherent randomness.
+Dependencies:
+  - T19.G8.06.01: Layer multiple noise octaves for detail
+
+
+ID: T19.G8.07
+Skill: Apply procedural materials to 3D art
+Description: Students apply their procedurally-generated texture patterns to 3D shapes in algorithmic art. They map calculated patterns to material color, roughness, or emission. They create unique 3D sculptures with custom algorithmic surfaces. They understand how procedural textures enable artistic control beyond pre-made texture libraries.
+Dependencies:
+  - T19.G8.06.02: Apply noise to modulate art parameters
+  - T19.G6.10: Apply roughness properties to 3D materials
+
+
+ID: T19.G8.08
+Skill: Implement dynamic lighting systems
+Description: Students create lighting that changes over time or responds to art parameters. They animate light positions in loops, adjust light colors based on data or music, or create pulsing light intensity. They implement multiple dynamic lights that interact with their 3D algorithmic sculptures, creating atmospheric and dramatic effects.
+Dependencies:
+  - T19.G7.16: Use lighting to enhance 3D art mood
+  - T19.G5.03: Animate a pattern with a counter variable
+
+
+ID: T19.G8.09
+Skill: Create advanced particle-based compositions
+Description: Students create sophisticated particle systems with multiple emitters, custom movement patterns (attracted to points, flowing along paths, orbital motion), and conditional particle behavior (change color when crossing boundaries, emit sub-particles on collision). They choreograph particle systems to create complex visual narratives and abstract compositions.
+Dependencies:
+  - T19.G7.08: Create particle-based generative art
+  - T08.G6.01: Use conditionals to control simulation steps
+
+
+ID: T19.G8.10
+Skill: Plan a multi-technique generative art project
+Description: Students design and outline a generative art project that integrates at least three advanced techniques (e.g., 3D geometry with procedural materials, dynamic lighting, particle systems). They create a planning document specifying which techniques to combine, how they will interact, and what aesthetic goals to achieve.
+Dependencies:
+  - T19.G8.07: Apply procedural materials to 3D art
+  - T19.G8.08: Implement dynamic lighting systems
+  - T19.G8.09: Create advanced particle-based compositions
+  - T19.G8.02: Create constrained generative artwork
+
+
+ID: T19.G8.10.01
+Skill: Implement a multi-technique generative artwork
+Description: Students build their planned generative art piece by coding the integration of multiple advanced techniques. They combine 3D geometry, procedural materials, dynamic lighting, and/or particle systems into a single cohesive project. They test and refine the interactions between techniques.
+Dependencies:
+  - T19.G8.10: Plan a multi-technique generative art project
+
+
+ID: T19.G8.10.02
+Skill: Document and present generative artwork
+Description: Students document their generative art project, explaining their artistic intent, technical implementation choices, and algorithmic decisions. They present their work, demonstrating how code creates art and reflecting on the creative process.
+Dependencies:
+  - T19.G8.10.01: Implement a multi-technique generative artwork
+
+
+ID: T19.G8.11
+Skill: Create AI-human collaborative art systems
+Description: Students design and implement art systems where AI generation and algorithmic code work together. They use ChatGPT blocks to generate descriptions, feed them to AI image generation, then algorithmically process or arrange the results. They create art pipelines that combine human-defined algorithms with AI creativity, exploring questions of authorship in hybrid systems.
+Dependencies:
+  - T19.G7.19: Generate AI sprites with algorithmic prompts
+  - T19.G8.03: Evaluate authorship in generative art
+
+
+ID: T19.G8.12
+Skill: Create adaptive art that responds to multiple sensor inputs
+Description: Students create sophisticated interactive art installations that respond to multiple input sources simultaneously: combining hand tracking, body tracking, video motion sensing, keyboard, and mouse inputs. They implement priority systems when inputs conflict and create smooth transitions between interaction modes. They design art experiences that adapt to how viewers choose to engage.
+Dependencies:
+  - T19.G7.20: Create body-tracking interactive installations
+  - T19.G6.12: Create interactive 3D generative art
+
+
+ID: T19.G8.13
+Skill: Design real-time collaborative networked art
+Description: Students use CreatiCode's multiplayer capabilities to create art that multiple users can contribute to simultaneously over the network. They implement synchronized variables for shared canvas state, use cloud variables to persist collaborative art, and design interaction rules that allow multiple artists to create together without conflict. They explore how networked collaboration changes the nature of artistic creation.
+Dependencies:
+  - T19.G8.12: Create adaptive art that responds to multiple sensor inputs
+  - T31.G7.01: Send and receive messages between players in real-time
+
+
+ID: T19.G8.14
+Skill: Implement flow field navigation for particles
+Description: Students create a 2D grid of direction vectors (angles stored in a table) that guide particle movement. Particles sample the grid at their current position to determine movement direction. They populate the flow field using noise functions or mathematical formulas. They create organic, flowing motion paths that look natural and cohesive.
+Dependencies:
+  - T19.G8.06.02: Apply noise to modulate art parameters
+  - T19.G8.09: Create advanced particle-based compositions
+
+
+ID: T19.G8.15
+Skill: Create animated flow field visualizations
+Description: Students animate flow fields by slowly changing the underlying direction vectors over time. They use time-varying noise or rotating angle offsets to create hypnotic, ever-changing flow patterns. They balance change rate with visual coherence, creating smooth transitions that maintain artistic intent while introducing temporal variation.
+Dependencies:
+  - T19.G8.14: Implement flow field navigation for particles
+
+
+ID: T19.G8.16
+Skill: Analyze computational complexity of art algorithms
+Description: Students analyze the time and space complexity of their generative art algorithms using Big-O notation concepts. They identify O(n), O(n²), and O(n³) patterns in nested loops. They predict how performance will scale with increased resolution, particle count, or iteration depth. They make informed decisions about algorithm design based on complexity analysis.
+Dependencies:
+  - T19.G8.05: Optimize algorithms to improve frame rate
+  - T12.G7.01: Trace complex code with multiple variables and functions
+
+
+ID: T19.G8.17
+Skill: Design art systems with separation of concerns
+Description: Students architect large generative art projects by separating data generation (math/noise), state management (variables/lists), rendering (draw blocks), and interaction (events/input). They use custom blocks to encapsulate each concern. They design systems where each part can be modified independently, demonstrating software engineering principles in creative coding contexts.
+Dependencies:
+  - T19.G8.10.01: Implement a multi-technique generative artwork
+  - T11.G7.01: Design custom blocks for code organization
+
+
+ID: T19.G8.18
+Skill: Use XO AI assistant to plan generative art algorithms
+Description: Students use CreatiCode's XO AI assistant to brainstorm and refine generative art concepts. They formulate questions about mathematical formulas for patterns, ask for suggestions on parameter ranges, and get help structuring complex algorithms. They learn to use AI as a creative collaborator while maintaining artistic vision and making final implementation decisions themselves.
+Dependencies:
+  - T19.G8.10: Plan a multi-technique generative art project
+  - T20.G7.03: Evaluate and refine AI responses for quality
+
+
+ID: T19.G8.19
+Skill: Build and iterate on generative art variations
+Description: Students create a parameterized generative art system and produce a series of 5+ distinct variations by systematically adjusting parameters. They document the relationship between parameters and visual outcomes, explaining which combinations create successful compositions. They practice the iterative refinement process used by professional generative artists.
+Dependencies:
+  - T19.G8.02: Create constrained generative artwork
+  - T19.G7.03: Study parameter impact on aesthetics
+
+
+ID: T19.G8.20
+Skill: Curate a digital portfolio of generative artworks
+Description: Students select their best generative art pieces, document the algorithms and techniques used in each, and organize them into a coherent portfolio. They write brief artist statements explaining their creative intent and technical approach. They demonstrate ability to communicate about computational art to non-technical audiences, preparing for real-world creative coding careers.
+Dependencies:
+  - T19.G8.19: Build and iterate on generative art variations
+  - T19.G8.10.02: Document and present generative artwork
+
+
+================================================================================
+TOTAL T19 SKILLS: 127
+================================================================================
+
+
+================================================================================
+ANALYSIS: Patterns, Issues, and Gaps
+================================================================================
+
+1. SKILLS DISTRIBUTION BY GRADE:
+   Grade K: 6 skills
+   Grade 1: 6 skills
+   Grade 2: 6 skills
+   Grade 3: 16 skills
+   Grade 4: 14 skills
+   Grade 5: 15 skills
+   Grade 6: 17 skills
+   Grade 7: 23 skills
+   Grade 8: 24 skills
+
+2. DEPENDENCY PATTERNS:
+   Total dependencies: 202
+   Within T19: 132 (65%)
+   Cross-topic: 70 (34%)
+
+3. SKILLS WITH NO DEPENDENCIES (potential entry points or gaps):
+
+4. SUB-SKILLS (granular breakdowns):
+   Found 10 sub-skills:
+      - T19.G3.02.01: Identify when to use Pen blocks vs Looks blocks
+      - T19.G3.06.01: Clear the canvas with erase all
+      - T19.G6.07.01: Create Lissajous curves with sine and cosine
+      - T19.G6.07.02: Create spirograph patterns with parametric equations
+      - T19.G7.11.01: Apply cellular automaton rules to generate rows
+      - T19.G7.11.02: Visualize cellular automaton patterns
+      - T19.G8.06.01: Layer multiple noise octaves for detail
+      - T19.G8.06.02: Apply noise to modulate art parameters
+      - T19.G8.10.01: Implement a multi-technique generative artwork
+      - T19.G8.10.02: Document and present generative artwork
+
+5. KEY PROGRESSIONS:
+   - K-2: Unplugged pattern recognition and art sequencing
+   - G3: Introduction to block coding with Pen and Looks drawing
+   - G4-5: Variables, loops, custom blocks, and interactivity
+   - G6-8: Advanced techniques (fractals, AI, 3D, generative art)

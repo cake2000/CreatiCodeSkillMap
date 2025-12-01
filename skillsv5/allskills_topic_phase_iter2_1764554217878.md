@@ -1,75 +1,61 @@
-# T01 - Everyday Algorithms (Phase 10 Optimized - November 2025)
-# PHASE 10 MAJOR OVERHAUL - AI-Era Computational Thinking Excellence
+# T01 - Everyday Algorithms (Phase 9 Optimized - November 2025)
+# PHASE 9 MAJOR OVERHAUL - Bold Changes for Excellence
 #
-# PHILOSOPHY EVOLUTION (Building on Phase 9):
-# - Algorithms as THINKING TOOLS for solving real problems
-# - Emphasis on WHY algorithms work and WHEN to apply them
-# - AI-human collaboration: using AI as algorithm assistant, not replacement
-# - Scalability thinking: from 3 items to 3 million items
-# - Error recovery and robustness as first-class concerns
+# PHILOSOPHY SHIFT: Algorithms are about THINKING, not just DOING
+# - Every skill now emphasizes WHY algorithms work, not just HOW
+# - Added "Defend your reasoning" and "Critique" components throughout
+# - Integrated AI-era skills: verifying AI suggestions, collaborative design
 #
-# PHASE 10 NEW ADDITIONS:
-# 1. COMPUTATIONAL ESTIMATION (new category)
-#    - GK.12: Guess how many steps before counting (estimation intro)
-#    - G1.13: Predict if algorithm will be "quick" or "take a while"
-#    - G3.20: Estimate loop iterations before running
-#    - G5.16: Predict relative algorithm speeds (this is faster than that)
-#
-# 2. ERROR RECOVERY & ROBUSTNESS (new category)
-#    - G2.24: Plan what to do when a step goes wrong (contingency planning)
-#    - G4.20: Add "what if it fails?" checks to algorithms
-#    - G6.17: Design algorithms that recover gracefully from errors
-#
-# 3. AI-ASSISTED ALGORITHM DEVELOPMENT (expanded)
-#    - G5.17: Use CreatiCode XO to brainstorm algorithm approaches
-#    - G7.14: Evaluate multiple AI-suggested algorithms and choose best
-#    - G8.17: Combine human creativity with AI efficiency analysis
-#
-# 4. ALGORITHM COMMUNICATION (from Phase 9)
-#    - GK.10: Explain your sequence choice to a partner
+# NEW SKILL CATEGORIES ADDED:
+# 1. ALGORITHM COMMUNICATION (explaining algorithms to others)
+#    - GK.10: Explain your sequence choice to a partner using picture cards
 #    - G1.12: Explain why one algorithm is better than another
-#    - G3.18: Describe algorithm behavior to someone who can't see the code
+#    - G3.18: Describe algorithm behavior to a partner who can't see the code
 #    - G5.14: Document algorithm design decisions for future readers
 #    - G7.12: Present algorithm trade-offs to stakeholders
 #
-# 5. ALGORITHM VERIFICATION & CRITIQUE (from Phase 9)
+# 2. ALGORITHM VERIFICATION & CRITIQUE
 #    - G2.21: Spot the flaw in a friend's algorithm
 #    - G4.17: Critique a peer's algorithm and suggest improvements
 #    - G6.14: Verify AI-generated algorithm suggestions
 #    - G8.14: Lead code review for peer's algorithm implementation
 #
-# 6. REAL-WORLD ALGORITHM RECOGNITION (from Phase 9)
-#    - GK.11: Find algorithms in everyday activities
+# 3. REAL-WORLD ALGORITHM RECOGNITION
+#    - GK.11: Find algorithms in everyday activities (video examples)
 #    - G2.22: Connect everyday decisions to if/then rules
-#    - G4.18: Recognize algorithms in apps and games
+#    - G4.18: Recognize algorithms in apps and games you use
 #    - G6.15: Analyze algorithms behind recommendation systems
 #
-# 7. COLLABORATIVE ALGORITHM DESIGN (from Phase 9)
-#    - G3.19: Build an algorithm together with a partner
-#    - G5.15: Merge two partial algorithms into complete solution
+# 4. COLLABORATIVE ALGORITHM DESIGN
+#    - G3.19: Build an algorithm together with a partner (pair programming intro)
+#    - G5.15: Merge two partial algorithms into a complete solution
 #    - G7.13: Design algorithm as a team with role assignments
 #    - G8.15: Coordinate multi-person algorithm development
 #
-# 8. ALGORITHM ADAPTATION & MODIFICATION (from Phase 9)
+# 5. ALGORITHM ADAPTATION & MODIFICATION
 #    - G2.23: Change one rule to make an algorithm work differently
 #    - G4.19: Adapt an algorithm to solve a similar but different problem
 #    - G6.16: Extend an algorithm to handle new requirements
 #    - G8.16: Refactor legacy algorithm to meet new constraints
 #
-# DEPENDENCY FIXES (Phase 10):
-# - Fixed T01.G4.06.02 → T01.G4.06 (was referencing non-existent .01)
-# - Fixed T01.G4.12 → T01.G4.05 (was referencing removed .02)
-# - All X-2 rule violations corrected
-# - Strengthened K→G1→G2→G3 bridge progression
+# CONSOLIDATED SKILLS (reduced redundancy):
+# - G4.03.01-03 merged into G4.03 (pattern identification at multiple scales)
+# - G4.05.01-02 merged into G4.05 (loop comparison with reasoning)
+# - G4.06.01-02 merged into G4.06 (variable understanding)
 #
 # VERB UPGRADES (active, measurable):
 # - "Match" → "Connect and justify", "Pair with explanation"
 # - "Identify" → "Locate and mark", "Detect and highlight"
 # - "Compare" → "Analyze and defend choice", "Evaluate with criteria"
-# - Added "Construct", "Defend", "Critique", "Propose", "Verify", "Estimate"
+# - Added "Construct", "Defend", "Critique", "Propose", "Verify"
 #
-# Total: ~185 skills (added 12 new skills for estimation, error recovery,
-# AI-assisted development while fixing dependency issues)
+# DEPENDENCY IMPROVEMENTS:
+# - Stronger K→G1→G2 picture-based progression
+# - Added alternative dependency paths for key skills
+# - All intra-topic dependencies validated for X-2 rule
+#
+# Total: ~175 skills (added 23 new skills for communication, verification,
+# collaboration, and real-world connections while consolidating 8 redundant skills)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -197,15 +183,6 @@ Dependencies:
 * T01.GK.01: Sequence three picture cards for a bedtime routine
 
 
-
-ID: T01.GK.12
-Topic: T01 – Everyday Algorithms
-Skill: Guess how many steps before counting (estimation intro)
-Description: **Student task:** Before seeing all the steps in a routine, guess how many steps it will have, then count to check. **Visual scenario:** Teacher shows the goal: "brushing teeth." Students guess: 2, 3, 4, or 5 steps? Then reveal cards: (A) get toothbrush, (B) add toothpaste, (C) brush teeth, (D) rinse. Count together: 4 steps! **Discussion:** "Was your guess close?" **Key insight:** Estimating helps us plan how long something will take! _Implementation note: Introduces computational estimation at the earliest level; develops intuition about algorithm size. MCQ for guess, then reveal and count together. Audio support throughout. Auto-graded by participation (any guess is valid). CSTA: EK‑ALG‑AF‑01. AI4K12: Estimation basics._
-
-Dependencies:
-* T01.GK.02: Sequence four picture cards for a classroom arrival routine
-* T01.GK.08: Count how many times an action repeats in an animation
 
 
 
@@ -346,17 +323,6 @@ Description: **Student task:** Look at two picture-card algorithms that both wor
 Dependencies:
 * T01.G1.08: Select the shorter algorithm that achieves the same goal
 * T01.GK.10: Explain your sequence choice to a partner using picture cards
-
-
-
-ID: T01.G1.13
-Topic: T01 – Everyday Algorithms
-Skill: Predict if algorithm will be "quick" or "take a while"
-Description: **Student task:** Look at two picture-card algorithms side by side. Predict which one will finish "quickly" and which will "take a while" based on step count. **Visual scenario:** Algorithm A: 2 cards (get cookie → eat cookie). Algorithm B: 6 cards (get bowl → add flour → add eggs → mix → bake → decorate). Question: "Which takes longer?" **Correct answer:** B takes longer because it has more steps! **Key insight:** More steps usually means more time. _Implementation note: Builds on GK.12 estimation; develops intuition about algorithm time without exact counting. Side-by-side visual comparison with "quick" vs "takes a while" buttons. Audio support. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01. AI4K12: Computational estimation._
-
-Dependencies:
-* T01.GK.12: Guess how many steps before counting (estimation intro)
-* T01.G1.08: Select the shorter algorithm that achieves the same goal
 
 
 
@@ -644,17 +610,6 @@ Dependencies:
 
 
 
-ID: T01.G2.24
-Topic: T01 – Everyday Algorithms
-Skill: Plan what to do when a step goes wrong (contingency planning)
-Description: **Student task:** Look at a picture algorithm and identify what could go wrong at each step. Then select a "Plan B" for when something fails. **Visual scenario:** Algorithm for "make toast": (1) get bread, (2) put in toaster, (3) push lever down, (4) wait, (5) get toast. Question: "What if there's no bread?" Students select Plan B from: (A) cry, (B) use something else like a bagel, (C) skip breakfast. **Correct answer:** (B) use something else. **Key insight:** Good algorithms have backup plans! _Implementation note: Introduces error handling and robustness at picture level. Develops resilience thinking. MCQ with picture-based failure scenarios and solutions. Auto-graded. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G2.10: Fix a wrong or missing if/then branch
-* T01.G2.18.02: Choose why an algorithm doesn't work
-
-
-
 ID: T01.G3.00
 Topic: T01 – Everyday Algorithms
 Skill: Arrange given blocks to match a picture sequence (bridge skill)
@@ -901,18 +856,6 @@ Dependencies:
 
 
 
-ID: T01.G3.20
-Topic: T01 – Everyday Algorithms
-Skill: Estimate loop iterations before running the program
-Description: **Student task:** Look at a script with a repeat loop. Before running it, estimate how many times the actions inside will happen. Then run the script and check your estimate. **Visual scenario:** Script shows: "repeat 6 times [move 10, turn 60]". Students estimate: 6 times! Run to verify: sprite draws a hexagon with 6 moves and 6 turns. **Part 2:** Script shows: "repeat 10 times [stamp]". Students estimate: 10 stamps! **Key insight:** The loop count tells us exactly how many times actions will repeat. _Implementation note: Builds computational estimation from GK.12→G1.13 into code context. Develops ability to reason about program behavior before running. MCQ estimation + verification through running. Auto-graded by estimation selection. CSTA: E3‑ALG‑AF‑01._
-
-Dependencies:
-* T01.G1.13: Predict if algorithm will be "quick" or "take a while"
-* T01.G3.06: Trace a repeat loop to find total movement
-* T07.G3.01: Use a counted repeat loop
-
-
-
 ID: T01.G4.00
 Topic: T01 – Everyday Algorithms
 Skill: Design algorithm steps before writing code
@@ -1048,7 +991,7 @@ Skill: Match variables to their purpose descriptions
 Description: **Student task:** Look at a script with 2-3 variables. Match each variable name to a description of what it stores. **Example:** Match "score" → "number of coins collected", "lives" → "how many tries remaining", "speed" → "how fast character moves". _Implementation note: Matching exercise or MCQ; auto-graded. CSTA: E4‑PRO‑DH‑02._
 
 Dependencies:
-* T01.G4.06: Identify and explain the purpose of variables in scripts
+* T01.G4.06.01: Identify variable names in a script
 
 
 
@@ -1139,7 +1082,7 @@ Skill: Select the better algorithm and explain why
 Description: **Student task:** Compare two working algorithms that achieve the same goal. Select which is better and choose the reason from options: (a) fewer blocks/shorter, (b) clearer/easier to understand, (c) uses better structures like loops. _Implementation note: Two-part MCQ: (1) select best algorithm, (2) select explanation. Auto-graded. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
-* T01.G4.05: Analyze and defend why loop versions are better than explicit repetition
+* T01.G4.05.02: Select reasons why the loop version is better
 * T01.G3.11: Choose the best description of what a short program does
 
 
@@ -1226,18 +1169,6 @@ Description: **Student task:** Take a working algorithm and modify it to solve a
 Dependencies:
 * T01.G4.04: Refactor repeated patterns into loops
 * T01.G2.23: Change one rule to make an algorithm work differently
-
-
-
-ID: T01.G4.20
-Topic: T01 – Everyday Algorithms
-Skill: Add "what if it fails?" checks to algorithms
-Description: **Student task:** Add conditional checks to handle potential failures in an algorithm. **Visual scenario:** A game algorithm that collects coins: "repeat until touching goal [move 10, if touching coin then add 1 to score]". Students add failure checks: "if touching enemy then subtract life, if lives = 0 then stop all". **Key insight:** Real algorithms need to handle things going wrong, not just the happy path! **Example cases:** (1) What if list is empty? (2) What if user clicks wrong button? (3) What if sprite goes off screen? _Implementation note: Builds on G2.24 contingency planning at code level. Teaches defensive programming. Coding task adding if/then blocks for failure cases. Auto-graded by testing failure scenarios. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
-
-Dependencies:
-* T01.G2.24: Plan what to do when a step goes wrong (contingency planning)
-* T01.G4.15: Add conditional logic based on variable values
-* T08.G3.04: Use a simple if in a script
 
 
 ID: T01.G5.00
@@ -1578,29 +1509,6 @@ Dependencies:
 * T01.G3.19: Build an algorithm together with a partner (pair programming intro)
 
 
-
-ID: T01.G5.16
-Topic: T01 – Everyday Algorithms
-Skill: Predict relative algorithm speeds before running
-Description: **Student task:** Look at two algorithms that solve the same problem. Before running them, predict which will finish first and explain why. **Visual scenario:** Algorithm A uses a single loop through 100 items. Algorithm B uses a loop inside a loop (nested) checking all pairs. Students predict: A is faster because it only checks each item once (100 checks), while B checks every pair (100×100 = 10,000 checks!). **Verification:** Run both with CreatiCode's console showing iteration count. **Key insight:** How algorithms are structured affects how fast they run. _Implementation note: Builds computational estimation to efficiency reasoning. Side-by-side comparison with prediction→verification cycle. Introduces nested loop as "slower" pattern. Auto-graded by prediction selection. CSTA: E5‑ALG‑AF‑02, E5‑ALG‑PS‑05._
-
-Dependencies:
-* T01.G3.20: Estimate loop iterations before running the program
-* T01.G5.06: Compare two algorithms for step counts (efficiency)
-* T07.G3.01: Use a counted repeat loop
-
-
-
-ID: T01.G5.17
-Topic: T01 – Everyday Algorithms
-Skill: Use CreatiCode XO to brainstorm algorithm approaches
-Description: **Student task:** Use CreatiCode's XO AI assistant to brainstorm different approaches to solving a problem. Evaluate at least 2 suggestions, choose one, and explain why. **Process:** (1) Describe the problem to XO, (2) Ask for 2-3 different approaches, (3) Compare the approaches XO suggests, (4) Choose the best one for your situation, (5) Explain your choice. **Example:** Problem: "Sort a list of scores from highest to lowest." XO might suggest: (a) compare neighbors and swap, (b) find largest and move to front, (c) divide and conquer. Student evaluates and chooses based on list size and clarity. **Skill focus:** AI AS BRAINSTORMING PARTNER - AI helps generate ideas, human makes final decision. _Implementation note: Uses CreatiCode XO for realistic AI-assisted algorithm design. Teaches that AI is a tool, not a replacement for thinking. Rubric-graded for evaluation quality. CSTA: E5‑ALG‑AF‑01, E5‑CS‑PC‑01. AI4K12: Human-AI collaboration._
-
-Dependencies:
-* T01.G5.00: Write algorithm in plain English before flowchart
-* T01.G4.17: Critique a peer's algorithm and suggest improvements
-
-
 ID: T01.G6.01
 Topic: T01 – Everyday Algorithms
 Skill: Compare efficiency of linear and binary search
@@ -1814,18 +1722,6 @@ Dependencies:
 * T01.G4.19: Adapt an algorithm to solve a similar but different problem
 
 
-
-ID: T01.G6.17
-Topic: T01 – Everyday Algorithms
-Skill: Design algorithms that recover gracefully from errors
-Description: **Student task:** Design an algorithm that can continue working even when parts of it fail, recovering gracefully instead of crashing. **Example:** A data-loading algorithm: (1) Try to load from fast cloud cache, (2) If that fails, try loading from slow database, (3) If that fails, show "offline mode" message, (4) Never crash or freeze. **Assessment:** (1) Identify 3 potential failure points, (2) Design recovery paths for each, (3) Ensure user always gets helpful feedback. **Key insight:** Professional algorithms assume things WILL go wrong and plan for it. _Implementation note: Builds on G4.20 basic error handling to sophisticated multi-level recovery. Design task with decision tree for error paths. Rubric-graded for completeness and user experience. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑TR‑11._
-
-Dependencies:
-* T01.G4.20: Add "what if it fails?" checks to algorithms
-* T01.G6.05.02: Analyze the impact of algorithmic bias on different groups
-* T08.G5.02: Use a simple if in a script
-
-
 ID: T01.G7.01
 Topic: T01 – Everyday Algorithms
 Skill: Identify the pattern family in a given program
@@ -2004,18 +1900,6 @@ Description: **Student task:** Work in a team of 3-4 to design an algorithm, wit
 
 Dependencies:
 * T01.G5.15: Merge two partial algorithms into a complete solution
-* T01.G6.14: Verify AI-generated algorithm suggestions before using them
-
-
-
-ID: T01.G7.14
-Topic: T01 – Everyday Algorithms
-Skill: Evaluate multiple AI-suggested algorithms and choose best
-Description: **Student task:** Get 3-4 algorithm suggestions from an AI assistant for a problem, then systematically evaluate and rank them using multiple criteria. **Process:** (1) Get AI suggestions (using CreatiCode XO or similar), (2) Create evaluation matrix with criteria: speed, memory, readability, edge case handling, (3) Score each algorithm on each criterion, (4) Choose the best overall fit with justification. **Example:** Problem: "Find all duplicate items in a list." AI suggests: (a) nested loops comparing each pair, (b) sort then check neighbors, (c) use a hash set to track seen items. Student evaluates: (a) is slow O(n²) but clear, (b) is O(n log n) but modifies list, (c) is O(n) but uses extra memory. For a real-time game with limited memory, student might choose (b). **Skill focus:** CRITICAL EVALUATION OF AI OUTPUT - AI is a tool that generates options, humans make informed decisions. _Implementation note: Multi-criteria evaluation task; uses CreatiCode XO for AI suggestions. Builds on G5.17 brainstorming to systematic evaluation. Rubric-graded for evaluation completeness and reasoning. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05. AI4K12: Human-AI collaboration, AI limitations._
-
-Dependencies:
-* T01.G5.17: Use CreatiCode XO to brainstorm algorithm approaches
-* T01.G7.04: Compare efficiency of two algorithms qualitatively
 * T01.G6.14: Verify AI-generated algorithm suggestions before using them
 
 
@@ -2262,30 +2146,6 @@ Description: **Student task:** Take an old, working algorithm and refactor it to
 Dependencies:
 * T01.G8.09: Refactor a medium-sized program for efficiency
 * T01.G6.16: Extend an algorithm to handle new requirements
-
-
-
-ID: T01.G8.17
-Topic: T01 – Everyday Algorithms
-Skill: Combine human creativity with AI efficiency analysis
-Description: **Student task:** Design an algorithm using human creativity (novel approach, unique insights), then use AI to analyze its efficiency and suggest optimizations. Accept, reject, or modify AI suggestions with justification. **Process:** (1) Design a creative algorithm solution to a complex problem, (2) Ask AI (CreatiCode XO) to analyze time/space complexity, (3) Get AI suggestions for optimization, (4) Evaluate each suggestion: Does it preserve the creative insight? Does it actually improve performance? (5) Apply the best suggestions while keeping the core creative approach. **Example:** Student designs a novel way to match players in a game based on play style. AI suggests: "use hash tables for O(1) lookup" and "sort players once instead of repeatedly." Student applies hash table suggestion (preserves core idea) but rejects sorting suggestion (would break real-time requirement). **Skill focus:** HUMAN-AI SYNERGY - humans provide creativity and judgment, AI provides analysis and optimization knowledge. _Implementation note: Creative design + AI consultation task. Uses CreatiCode XO for efficiency analysis. Rubric-graded for creative quality AND reasoning about AI suggestions. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05. AI4K12: Human-AI collaboration, AI as tool._
-
-Dependencies:
-* T01.G7.14: Evaluate multiple AI-suggested algorithms and choose best
-* T01.G8.12: Evaluate algorithm trade-offs (speed vs memory vs clarity)
-* T01.G8.09: Refactor a medium-sized program for efficiency
-
-
-
-ID: T01.G8.18
-Topic: T01 – Everyday Algorithms
-Skill: Design algorithms for large-scale data processing
-Description: **Student task:** Design an algorithm that can handle millions of data points efficiently, considering scalability challenges that don't exist with small data. **Considerations:** (1) Memory limits - can't load all data at once, (2) Time limits - O(n²) is unusable at scale, (3) Distribution - might need to split work across machines, (4) Approximation - sometimes "good enough" is better than "perfect but slow". **Example:** Design an algorithm to find the most popular song among 10 million users. Naive approach: count votes for each song. Scalable approach: process in chunks, aggregate partial counts, use streaming counter. **Assessment:** (1) Algorithm correctly handles large inputs, (2) Algorithm has reasonable time complexity, (3) Memory usage doesn't grow unbounded. **Skill focus:** SCALABILITY THINKING - essential for modern software that handles millions of users. _Implementation note: Design task with scalability analysis. Discussion of why school examples (10 items) differ from real-world (10 million items). Rubric-graded for scalability awareness. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05._
-
-Dependencies:
-* T01.G8.12: Evaluate algorithm trade-offs (speed vs memory vs clarity)
-* T01.G7.09: Analyze algorithm scalability with data tables
-* T01.G8.09: Refactor a medium-sized program for efficiency
 
 
 # T02 - Algorithm Diagrams (Phase 9 Optimized - November 2025)

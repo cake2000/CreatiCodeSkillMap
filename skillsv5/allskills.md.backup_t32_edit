@@ -1,75 +1,61 @@
-# T01 - Everyday Algorithms (Phase 10 Optimized - November 2025)
-# PHASE 10 MAJOR OVERHAUL - AI-Era Computational Thinking Excellence
+# T01 - Everyday Algorithms (Phase 9 Optimized - November 2025)
+# PHASE 9 MAJOR OVERHAUL - Bold Changes for Excellence
 #
-# PHILOSOPHY EVOLUTION (Building on Phase 9):
-# - Algorithms as THINKING TOOLS for solving real problems
-# - Emphasis on WHY algorithms work and WHEN to apply them
-# - AI-human collaboration: using AI as algorithm assistant, not replacement
-# - Scalability thinking: from 3 items to 3 million items
-# - Error recovery and robustness as first-class concerns
+# PHILOSOPHY SHIFT: Algorithms are about THINKING, not just DOING
+# - Every skill now emphasizes WHY algorithms work, not just HOW
+# - Added "Defend your reasoning" and "Critique" components throughout
+# - Integrated AI-era skills: verifying AI suggestions, collaborative design
 #
-# PHASE 10 NEW ADDITIONS:
-# 1. COMPUTATIONAL ESTIMATION (new category)
-#    - GK.12: Guess how many steps before counting (estimation intro)
-#    - G1.13: Predict if algorithm will be "quick" or "take a while"
-#    - G3.20: Estimate loop iterations before running
-#    - G5.16: Predict relative algorithm speeds (this is faster than that)
-#
-# 2. ERROR RECOVERY & ROBUSTNESS (new category)
-#    - G2.24: Plan what to do when a step goes wrong (contingency planning)
-#    - G4.20: Add "what if it fails?" checks to algorithms
-#    - G6.17: Design algorithms that recover gracefully from errors
-#
-# 3. AI-ASSISTED ALGORITHM DEVELOPMENT (expanded)
-#    - G5.17: Use CreatiCode XO to brainstorm algorithm approaches
-#    - G7.14: Evaluate multiple AI-suggested algorithms and choose best
-#    - G8.17: Combine human creativity with AI efficiency analysis
-#
-# 4. ALGORITHM COMMUNICATION (from Phase 9)
-#    - GK.10: Explain your sequence choice to a partner
+# NEW SKILL CATEGORIES ADDED:
+# 1. ALGORITHM COMMUNICATION (explaining algorithms to others)
+#    - GK.10: Explain your sequence choice to a partner using picture cards
 #    - G1.12: Explain why one algorithm is better than another
-#    - G3.18: Describe algorithm behavior to someone who can't see the code
+#    - G3.18: Describe algorithm behavior to a partner who can't see the code
 #    - G5.14: Document algorithm design decisions for future readers
 #    - G7.12: Present algorithm trade-offs to stakeholders
 #
-# 5. ALGORITHM VERIFICATION & CRITIQUE (from Phase 9)
+# 2. ALGORITHM VERIFICATION & CRITIQUE
 #    - G2.21: Spot the flaw in a friend's algorithm
 #    - G4.17: Critique a peer's algorithm and suggest improvements
 #    - G6.14: Verify AI-generated algorithm suggestions
 #    - G8.14: Lead code review for peer's algorithm implementation
 #
-# 6. REAL-WORLD ALGORITHM RECOGNITION (from Phase 9)
-#    - GK.11: Find algorithms in everyday activities
+# 3. REAL-WORLD ALGORITHM RECOGNITION
+#    - GK.11: Find algorithms in everyday activities (video examples)
 #    - G2.22: Connect everyday decisions to if/then rules
-#    - G4.18: Recognize algorithms in apps and games
+#    - G4.18: Recognize algorithms in apps and games you use
 #    - G6.15: Analyze algorithms behind recommendation systems
 #
-# 7. COLLABORATIVE ALGORITHM DESIGN (from Phase 9)
-#    - G3.19: Build an algorithm together with a partner
-#    - G5.15: Merge two partial algorithms into complete solution
+# 4. COLLABORATIVE ALGORITHM DESIGN
+#    - G3.19: Build an algorithm together with a partner (pair programming intro)
+#    - G5.15: Merge two partial algorithms into a complete solution
 #    - G7.13: Design algorithm as a team with role assignments
 #    - G8.15: Coordinate multi-person algorithm development
 #
-# 8. ALGORITHM ADAPTATION & MODIFICATION (from Phase 9)
+# 5. ALGORITHM ADAPTATION & MODIFICATION
 #    - G2.23: Change one rule to make an algorithm work differently
 #    - G4.19: Adapt an algorithm to solve a similar but different problem
 #    - G6.16: Extend an algorithm to handle new requirements
 #    - G8.16: Refactor legacy algorithm to meet new constraints
 #
-# DEPENDENCY FIXES (Phase 10):
-# - Fixed T01.G4.06.02 → T01.G4.06 (was referencing non-existent .01)
-# - Fixed T01.G4.12 → T01.G4.05 (was referencing removed .02)
-# - All X-2 rule violations corrected
-# - Strengthened K→G1→G2→G3 bridge progression
+# CONSOLIDATED SKILLS (reduced redundancy):
+# - G4.03.01-03 merged into G4.03 (pattern identification at multiple scales)
+# - G4.05.01-02 merged into G4.05 (loop comparison with reasoning)
+# - G4.06.01-02 merged into G4.06 (variable understanding)
 #
 # VERB UPGRADES (active, measurable):
 # - "Match" → "Connect and justify", "Pair with explanation"
 # - "Identify" → "Locate and mark", "Detect and highlight"
 # - "Compare" → "Analyze and defend choice", "Evaluate with criteria"
-# - Added "Construct", "Defend", "Critique", "Propose", "Verify", "Estimate"
+# - Added "Construct", "Defend", "Critique", "Propose", "Verify"
 #
-# Total: ~185 skills (added 12 new skills for estimation, error recovery,
-# AI-assisted development while fixing dependency issues)
+# DEPENDENCY IMPROVEMENTS:
+# - Stronger K→G1→G2 picture-based progression
+# - Added alternative dependency paths for key skills
+# - All intra-topic dependencies validated for X-2 rule
+#
+# Total: ~175 skills (added 23 new skills for communication, verification,
+# collaboration, and real-world connections while consolidating 8 redundant skills)
 
 ID: T01.GK.01
 Topic: T01 – Everyday Algorithms
@@ -197,15 +183,6 @@ Dependencies:
 * T01.GK.01: Sequence three picture cards for a bedtime routine
 
 
-
-ID: T01.GK.12
-Topic: T01 – Everyday Algorithms
-Skill: Guess how many steps before counting (estimation intro)
-Description: **Student task:** Before seeing all the steps in a routine, guess how many steps it will have, then count to check. **Visual scenario:** Teacher shows the goal: "brushing teeth." Students guess: 2, 3, 4, or 5 steps? Then reveal cards: (A) get toothbrush, (B) add toothpaste, (C) brush teeth, (D) rinse. Count together: 4 steps! **Discussion:** "Was your guess close?" **Key insight:** Estimating helps us plan how long something will take! _Implementation note: Introduces computational estimation at the earliest level; develops intuition about algorithm size. MCQ for guess, then reveal and count together. Audio support throughout. Auto-graded by participation (any guess is valid). CSTA: EK‑ALG‑AF‑01. AI4K12: Estimation basics._
-
-Dependencies:
-* T01.GK.02: Sequence four picture cards for a classroom arrival routine
-* T01.GK.08: Count how many times an action repeats in an animation
 
 
 
@@ -346,17 +323,6 @@ Description: **Student task:** Look at two picture-card algorithms that both wor
 Dependencies:
 * T01.G1.08: Select the shorter algorithm that achieves the same goal
 * T01.GK.10: Explain your sequence choice to a partner using picture cards
-
-
-
-ID: T01.G1.13
-Topic: T01 – Everyday Algorithms
-Skill: Predict if algorithm will be "quick" or "take a while"
-Description: **Student task:** Look at two picture-card algorithms side by side. Predict which one will finish "quickly" and which will "take a while" based on step count. **Visual scenario:** Algorithm A: 2 cards (get cookie → eat cookie). Algorithm B: 6 cards (get bowl → add flour → add eggs → mix → bake → decorate). Question: "Which takes longer?" **Correct answer:** B takes longer because it has more steps! **Key insight:** More steps usually means more time. _Implementation note: Builds on GK.12 estimation; develops intuition about algorithm time without exact counting. Side-by-side visual comparison with "quick" vs "takes a while" buttons. Audio support. Auto-graded by selection. CSTA: E1‑ALG‑AF‑01. AI4K12: Computational estimation._
-
-Dependencies:
-* T01.GK.12: Guess how many steps before counting (estimation intro)
-* T01.G1.08: Select the shorter algorithm that achieves the same goal
 
 
 
@@ -644,17 +610,6 @@ Dependencies:
 
 
 
-ID: T01.G2.24
-Topic: T01 – Everyday Algorithms
-Skill: Plan what to do when a step goes wrong (contingency planning)
-Description: **Student task:** Look at a picture algorithm and identify what could go wrong at each step. Then select a "Plan B" for when something fails. **Visual scenario:** Algorithm for "make toast": (1) get bread, (2) put in toaster, (3) push lever down, (4) wait, (5) get toast. Question: "What if there's no bread?" Students select Plan B from: (A) cry, (B) use something else like a bagel, (C) skip breakfast. **Correct answer:** (B) use something else. **Key insight:** Good algorithms have backup plans! _Implementation note: Introduces error handling and robustness at picture level. Develops resilience thinking. MCQ with picture-based failure scenarios and solutions. Auto-graded. CSTA: E2‑ALG‑AF‑01, E2‑ALG‑PS‑03._
-
-Dependencies:
-* T01.G2.10: Fix a wrong or missing if/then branch
-* T01.G2.18.02: Choose why an algorithm doesn't work
-
-
-
 ID: T01.G3.00
 Topic: T01 – Everyday Algorithms
 Skill: Arrange given blocks to match a picture sequence (bridge skill)
@@ -901,18 +856,6 @@ Dependencies:
 
 
 
-ID: T01.G3.20
-Topic: T01 – Everyday Algorithms
-Skill: Estimate loop iterations before running the program
-Description: **Student task:** Look at a script with a repeat loop. Before running it, estimate how many times the actions inside will happen. Then run the script and check your estimate. **Visual scenario:** Script shows: "repeat 6 times [move 10, turn 60]". Students estimate: 6 times! Run to verify: sprite draws a hexagon with 6 moves and 6 turns. **Part 2:** Script shows: "repeat 10 times [stamp]". Students estimate: 10 stamps! **Key insight:** The loop count tells us exactly how many times actions will repeat. _Implementation note: Builds computational estimation from GK.12→G1.13 into code context. Develops ability to reason about program behavior before running. MCQ estimation + verification through running. Auto-graded by estimation selection. CSTA: E3‑ALG‑AF‑01._
-
-Dependencies:
-* T01.G1.13: Predict if algorithm will be "quick" or "take a while"
-* T01.G3.06: Trace a repeat loop to find total movement
-* T07.G3.01: Use a counted repeat loop
-
-
-
 ID: T01.G4.00
 Topic: T01 – Everyday Algorithms
 Skill: Design algorithm steps before writing code
@@ -1048,7 +991,7 @@ Skill: Match variables to their purpose descriptions
 Description: **Student task:** Look at a script with 2-3 variables. Match each variable name to a description of what it stores. **Example:** Match "score" → "number of coins collected", "lives" → "how many tries remaining", "speed" → "how fast character moves". _Implementation note: Matching exercise or MCQ; auto-graded. CSTA: E4‑PRO‑DH‑02._
 
 Dependencies:
-* T01.G4.06: Identify and explain the purpose of variables in scripts
+* T01.G4.06.01: Identify variable names in a script
 
 
 
@@ -1139,7 +1082,7 @@ Skill: Select the better algorithm and explain why
 Description: **Student task:** Compare two working algorithms that achieve the same goal. Select which is better and choose the reason from options: (a) fewer blocks/shorter, (b) clearer/easier to understand, (c) uses better structures like loops. _Implementation note: Two-part MCQ: (1) select best algorithm, (2) select explanation. Auto-graded. CSTA: E4‑ALG‑IM‑04._
 
 Dependencies:
-* T01.G4.05: Analyze and defend why loop versions are better than explicit repetition
+* T01.G4.05.02: Select reasons why the loop version is better
 * T01.G3.11: Choose the best description of what a short program does
 
 
@@ -1226,18 +1169,6 @@ Description: **Student task:** Take a working algorithm and modify it to solve a
 Dependencies:
 * T01.G4.04: Refactor repeated patterns into loops
 * T01.G2.23: Change one rule to make an algorithm work differently
-
-
-
-ID: T01.G4.20
-Topic: T01 – Everyday Algorithms
-Skill: Add "what if it fails?" checks to algorithms
-Description: **Student task:** Add conditional checks to handle potential failures in an algorithm. **Visual scenario:** A game algorithm that collects coins: "repeat until touching goal [move 10, if touching coin then add 1 to score]". Students add failure checks: "if touching enemy then subtract life, if lives = 0 then stop all". **Key insight:** Real algorithms need to handle things going wrong, not just the happy path! **Example cases:** (1) What if list is empty? (2) What if user clicks wrong button? (3) What if sprite goes off screen? _Implementation note: Builds on G2.24 contingency planning at code level. Teaches defensive programming. Coding task adding if/then blocks for failure cases. Auto-graded by testing failure scenarios. CSTA: E4‑ALG‑AF‑01, E4‑PRO‑TR‑03._
-
-Dependencies:
-* T01.G2.24: Plan what to do when a step goes wrong (contingency planning)
-* T01.G4.15: Add conditional logic based on variable values
-* T08.G3.04: Use a simple if in a script
 
 
 ID: T01.G5.00
@@ -1578,29 +1509,6 @@ Dependencies:
 * T01.G3.19: Build an algorithm together with a partner (pair programming intro)
 
 
-
-ID: T01.G5.16
-Topic: T01 – Everyday Algorithms
-Skill: Predict relative algorithm speeds before running
-Description: **Student task:** Look at two algorithms that solve the same problem. Before running them, predict which will finish first and explain why. **Visual scenario:** Algorithm A uses a single loop through 100 items. Algorithm B uses a loop inside a loop (nested) checking all pairs. Students predict: A is faster because it only checks each item once (100 checks), while B checks every pair (100×100 = 10,000 checks!). **Verification:** Run both with CreatiCode's console showing iteration count. **Key insight:** How algorithms are structured affects how fast they run. _Implementation note: Builds computational estimation to efficiency reasoning. Side-by-side comparison with prediction→verification cycle. Introduces nested loop as "slower" pattern. Auto-graded by prediction selection. CSTA: E5‑ALG‑AF‑02, E5‑ALG‑PS‑05._
-
-Dependencies:
-* T01.G3.20: Estimate loop iterations before running the program
-* T01.G5.06: Compare two algorithms for step counts (efficiency)
-* T07.G3.01: Use a counted repeat loop
-
-
-
-ID: T01.G5.17
-Topic: T01 – Everyday Algorithms
-Skill: Use CreatiCode XO to brainstorm algorithm approaches
-Description: **Student task:** Use CreatiCode's XO AI assistant to brainstorm different approaches to solving a problem. Evaluate at least 2 suggestions, choose one, and explain why. **Process:** (1) Describe the problem to XO, (2) Ask for 2-3 different approaches, (3) Compare the approaches XO suggests, (4) Choose the best one for your situation, (5) Explain your choice. **Example:** Problem: "Sort a list of scores from highest to lowest." XO might suggest: (a) compare neighbors and swap, (b) find largest and move to front, (c) divide and conquer. Student evaluates and chooses based on list size and clarity. **Skill focus:** AI AS BRAINSTORMING PARTNER - AI helps generate ideas, human makes final decision. _Implementation note: Uses CreatiCode XO for realistic AI-assisted algorithm design. Teaches that AI is a tool, not a replacement for thinking. Rubric-graded for evaluation quality. CSTA: E5‑ALG‑AF‑01, E5‑CS‑PC‑01. AI4K12: Human-AI collaboration._
-
-Dependencies:
-* T01.G5.00: Write algorithm in plain English before flowchart
-* T01.G4.17: Critique a peer's algorithm and suggest improvements
-
-
 ID: T01.G6.01
 Topic: T01 – Everyday Algorithms
 Skill: Compare efficiency of linear and binary search
@@ -1814,18 +1722,6 @@ Dependencies:
 * T01.G4.19: Adapt an algorithm to solve a similar but different problem
 
 
-
-ID: T01.G6.17
-Topic: T01 – Everyday Algorithms
-Skill: Design algorithms that recover gracefully from errors
-Description: **Student task:** Design an algorithm that can continue working even when parts of it fail, recovering gracefully instead of crashing. **Example:** A data-loading algorithm: (1) Try to load from fast cloud cache, (2) If that fails, try loading from slow database, (3) If that fails, show "offline mode" message, (4) Never crash or freeze. **Assessment:** (1) Identify 3 potential failure points, (2) Design recovery paths for each, (3) Ensure user always gets helpful feedback. **Key insight:** Professional algorithms assume things WILL go wrong and plan for it. _Implementation note: Builds on G4.20 basic error handling to sophisticated multi-level recovery. Design task with decision tree for error paths. Rubric-graded for completeness and user experience. CSTA: MS‑ALG‑AF‑01, MS‑PRO‑TR‑11._
-
-Dependencies:
-* T01.G4.20: Add "what if it fails?" checks to algorithms
-* T01.G6.05.02: Analyze the impact of algorithmic bias on different groups
-* T08.G5.02: Use a simple if in a script
-
-
 ID: T01.G7.01
 Topic: T01 – Everyday Algorithms
 Skill: Identify the pattern family in a given program
@@ -2004,18 +1900,6 @@ Description: **Student task:** Work in a team of 3-4 to design an algorithm, wit
 
 Dependencies:
 * T01.G5.15: Merge two partial algorithms into a complete solution
-* T01.G6.14: Verify AI-generated algorithm suggestions before using them
-
-
-
-ID: T01.G7.14
-Topic: T01 – Everyday Algorithms
-Skill: Evaluate multiple AI-suggested algorithms and choose best
-Description: **Student task:** Get 3-4 algorithm suggestions from an AI assistant for a problem, then systematically evaluate and rank them using multiple criteria. **Process:** (1) Get AI suggestions (using CreatiCode XO or similar), (2) Create evaluation matrix with criteria: speed, memory, readability, edge case handling, (3) Score each algorithm on each criterion, (4) Choose the best overall fit with justification. **Example:** Problem: "Find all duplicate items in a list." AI suggests: (a) nested loops comparing each pair, (b) sort then check neighbors, (c) use a hash set to track seen items. Student evaluates: (a) is slow O(n²) but clear, (b) is O(n log n) but modifies list, (c) is O(n) but uses extra memory. For a real-time game with limited memory, student might choose (b). **Skill focus:** CRITICAL EVALUATION OF AI OUTPUT - AI is a tool that generates options, humans make informed decisions. _Implementation note: Multi-criteria evaluation task; uses CreatiCode XO for AI suggestions. Builds on G5.17 brainstorming to systematic evaluation. Rubric-graded for evaluation completeness and reasoning. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05. AI4K12: Human-AI collaboration, AI limitations._
-
-Dependencies:
-* T01.G5.17: Use CreatiCode XO to brainstorm algorithm approaches
-* T01.G7.04: Compare efficiency of two algorithms qualitatively
 * T01.G6.14: Verify AI-generated algorithm suggestions before using them
 
 
@@ -2262,30 +2146,6 @@ Description: **Student task:** Take an old, working algorithm and refactor it to
 Dependencies:
 * T01.G8.09: Refactor a medium-sized program for efficiency
 * T01.G6.16: Extend an algorithm to handle new requirements
-
-
-
-ID: T01.G8.17
-Topic: T01 – Everyday Algorithms
-Skill: Combine human creativity with AI efficiency analysis
-Description: **Student task:** Design an algorithm using human creativity (novel approach, unique insights), then use AI to analyze its efficiency and suggest optimizations. Accept, reject, or modify AI suggestions with justification. **Process:** (1) Design a creative algorithm solution to a complex problem, (2) Ask AI (CreatiCode XO) to analyze time/space complexity, (3) Get AI suggestions for optimization, (4) Evaluate each suggestion: Does it preserve the creative insight? Does it actually improve performance? (5) Apply the best suggestions while keeping the core creative approach. **Example:** Student designs a novel way to match players in a game based on play style. AI suggests: "use hash tables for O(1) lookup" and "sort players once instead of repeatedly." Student applies hash table suggestion (preserves core idea) but rejects sorting suggestion (would break real-time requirement). **Skill focus:** HUMAN-AI SYNERGY - humans provide creativity and judgment, AI provides analysis and optimization knowledge. _Implementation note: Creative design + AI consultation task. Uses CreatiCode XO for efficiency analysis. Rubric-graded for creative quality AND reasoning about AI suggestions. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05. AI4K12: Human-AI collaboration, AI as tool._
-
-Dependencies:
-* T01.G7.14: Evaluate multiple AI-suggested algorithms and choose best
-* T01.G8.12: Evaluate algorithm trade-offs (speed vs memory vs clarity)
-* T01.G8.09: Refactor a medium-sized program for efficiency
-
-
-
-ID: T01.G8.18
-Topic: T01 – Everyday Algorithms
-Skill: Design algorithms for large-scale data processing
-Description: **Student task:** Design an algorithm that can handle millions of data points efficiently, considering scalability challenges that don't exist with small data. **Considerations:** (1) Memory limits - can't load all data at once, (2) Time limits - O(n²) is unusable at scale, (3) Distribution - might need to split work across machines, (4) Approximation - sometimes "good enough" is better than "perfect but slow". **Example:** Design an algorithm to find the most popular song among 10 million users. Naive approach: count votes for each song. Scalable approach: process in chunks, aggregate partial counts, use streaming counter. **Assessment:** (1) Algorithm correctly handles large inputs, (2) Algorithm has reasonable time complexity, (3) Memory usage doesn't grow unbounded. **Skill focus:** SCALABILITY THINKING - essential for modern software that handles millions of users. _Implementation note: Design task with scalability analysis. Discussion of why school examples (10 items) differ from real-world (10 million items). Rubric-graded for scalability awareness. CSTA: MS‑ALG‑AF‑02, MS‑ALG‑PS‑05._
-
-Dependencies:
-* T01.G8.12: Evaluate algorithm trade-offs (speed vs memory vs clarity)
-* T01.G7.09: Analyze algorithm scalability with data tables
-* T01.G8.09: Refactor a medium-sized program for efficiency
 
 
 # T02 - Algorithm Diagrams (Phase 9 Optimized - November 2025)
@@ -53254,11 +53114,11 @@ Dependencies:
 
 ID: T32.G2.01
 Topic: T32 – Digital Citizenship
-Skill: Compare benefits and harms of a tech tool using picture charts
-Description: Students create simple pros/cons charts for tools like video sharing or messaging apps using picture cards. They sort benefit picture cards (learning new things, talking to family far away, making friends, creating art) and harm picture cards (feeling left out, seeing scary things, spending too much time, talking to strangers) into two columns. For each tool, they select at least 2 positives and 2 negatives and explain their choices using complete sentences.
+Skill: Compare benefits and harms of a tech tool
+Description: Students create simple pros/cons charts for tools like video sharing or messaging apps. They list at least 2 positives and 2 negatives for each tool, then draw or place pictures showing examples of each benefit and harm to create a visual comparison chart.
 
 Dependencies:
-* T32.G1.06: Sort technology scenarios into helps vs causes problems categories
+* T01.G1.07: Decide if two algorithms finish with the same result
 
 
 
@@ -53376,25 +53236,13 @@ Dependencies:
 
 
 
-ID: T32.G2.11
-Topic: T32 – Digital Citizenship
-Skill: Trace what happens to information shared online using picture cards
-Description: Students use picture cards to trace the journey of shared information. Given a starting scenario (posting a photo, sharing location, typing your name), students arrange picture cards showing what happens next: Who can see it? (friends, family, strangers, companies), Where does it go? (other phones, computers, the internet), How long does it stay? (forever, until deleted, copied many times). Students explain why "once shared, hard to take back" using the picture sequence. This scaffolds the digital footprint concept for G3 coding activities.
-
-Dependencies:
-* T32.G2.04: Distinguish public vs. private information
-* T32.G2.10: Sort information sources into trustworthy and not-sure categories
-
-
-
-
 ID: T32.G3.01
 Topic: T32 – Digital Citizenship
 Skill: Build digital footprint checker with warning labels
 Description: Students create a project where typing a sample post (text input widget) displays a warning label if it contains common personal information keywords. Using if-blocks, they check for words like 'address', 'phone', 'school', 'live at' and display different warning messages (label widgets) for each type. Students test by categorizing 5 sample posts as 'safe to share' or 'reveals too much' based on which warnings appear.
 
 Dependencies:
-* T32.G2.11: Trace what happens to information shared online using picture cards
+* T32.G2.01: Compare benefits and harms of a tech tool
 * T06.G3.01: Build a green‑flag script that runs a 3–5 block sequence
 * T15.G3.01: Add a label widget to display text
 * T08.G3.04: Use a simple if in a script
@@ -53717,7 +53565,7 @@ Skill: Ask basic AI fairness questions about CreatiCode projects
 Description: Students practice asking simple AI ethics questions when evaluating CreatiCode projects that use AI features (ChatGPT, image generation). They ask: (1) Does this AI feature help the user? How? (2) Could this AI feature make mistakes? What happens then? (3) Does everyone get the same quality results? Students test AI features with different inputs (simple vs complex prompts, different topics) and document whether results seem fair and helpful. This scaffolds the formal ethics frameworks introduced in G5-G6.
 
 Dependencies:
-* T32.G3.03: Build an AI-moderated chat room with class communication guidelines
+* T32.G3.03: Develop class guidelines for respectful communication
 * T32.G4.03: Analyze technology impact tradeoffs
 
 
@@ -53897,35 +53745,8 @@ Skill: Identify tech careers that help others
 Description: Students research tech jobs that focus on helping people: accessibility engineer (making tech usable for everyone), civic technologist (improving government services), health tech specialist (helping doctors and patients). Students describe how each job makes a positive difference.
 
 Dependencies:
-* T32.G5.10: Map personal interests to tech pathways
+* T32.G5.09: Map personal interests to tech pathways
 * T32.G5.11: Evaluate representation and inclusion in tech career stories
-
-
-
-
-ID: T32.G5.14
-Topic: T32 – Digital Citizenship
-Skill: Test AI tools for basic fairness using systematic prompts
-Description: Students conduct introductory AI fairness testing by generating 5+ outputs from AI tools (image generation or chatbots) using varied prompts (different professions, different names, different topics). They document results in a simple table (Prompt, Result, Fair/Unfair observation) and identify patterns. This scaffolds the systematic bias auditing in G6 by establishing basic testing methodology without requiring complex dashboards.
-
-Dependencies:
-* T32.G4.13: Ask basic AI fairness questions about CreatiCode projects
-* T32.G5.05: Analyze AI's differential impacts on workers and communities
-* T21.G5.01: Use ChatGPT blocks for interactive projects
-
-
-
-
-ID: T32.G5.15
-Topic: T32 – Digital Citizenship
-Skill: Create an accessibility testing checklist for projects
-Description: Building on G4 accessibility testing skills, students create a comprehensive checklist tool using widgets for evaluating CreatiCode projects. The checklist includes categories: audio accessibility (Can you play without sound?), visual accessibility (Is text readable? Sufficient contrast?), and input accessibility (Can you use keyboard only?). Students test 2-3 projects with their checklist and document findings in a table variable.
-
-Dependencies:
-* T32.G4.05.03: Create accessibility testing checklist tool
-* T15.G5.01: Build a simple survey using widgets
-
-
 
 
 
@@ -53941,7 +53762,7 @@ Dependencies:
 * T06.G5.01: Identify standard event patterns in a small game
 * T08.G5.02: Design multi-branch decision logic
 * T20.G6.01: Generate images with AI (DALL-E blocks)
-* T32.G5.14: Test AI tools for basic fairness using systematic prompts
+* T32.G5.15: Create an accessibility testing checklist for projects
 * T32.G5.05: Analyze AI's differential impacts on workers and communities
 
 
@@ -54550,7 +54371,7 @@ Skill: Prepare interview questions for tech professionals
 Description: Students prepare at least 5 thoughtful questions to ask a tech professional, covering: career journey, daily work, challenges faced, skills needed, and advice for students. Questions should be open-ended and specific to the professional's field.
 
 Dependencies:
-* T32.G6.14: Research and compare computing career clusters
+* T32.G6.18: Compare computing career clusters
 * T32.G5.11: Evaluate representation and inclusion in tech career stories
 
 
@@ -54575,7 +54396,7 @@ Skill: Research emerging tech careers and required skills
 Description: Students research new and emerging tech career paths (AI ethics specialist, sustainability technologist, accessibility engineer, VR/AR developer). For each career, students identify: the skills, education, and experiences needed to pursue them, and why these careers are growing.
 
 Dependencies:
-* T32.G6.14: Research and compare computing career clusters
+* T32.G6.18: Compare computing career clusters
 
 
 
@@ -54600,7 +54421,7 @@ Description: Students create a diagram showing how different roles collaborate o
 
 Dependencies:
 * T32.G6.23: Conduct sprint reviews
-* T32.G6.14: Research and compare computing career clusters
+* T32.G6.18: Compare computing career clusters
 
 
 
@@ -54665,21 +54486,6 @@ Description: Students practice using basic project tracking tools (task lists, s
 Dependencies:
 * T32.G7.26: Use shared documents for team collaboration
 * T32.G6.27: Document project contributions for a portfolio
-
-
-
-
-ID: T32.G7.28
-Topic: T32 – Digital Citizenship
-Skill: Design AI-human collaboration workflows
-Description: Students analyze and design effective AI-human collaboration patterns. They examine scenarios where AI assists human work (coding assistants, writing helpers, image generation for design) and identify: (1) tasks best suited for AI (repetitive, pattern-based, first drafts), (2) tasks requiring human judgment (ethics, creativity, context), (3) effective handoff points between AI and human work. Students build a CreatiCode project demonstrating one AI-human workflow: AI generates initial content (using ChatGPT blocks), human reviews/edits, AI refines based on feedback. They document guidelines for when to use AI assistance vs. do work independently.
-
-Dependencies:
-* T32.G7.07: Conduct bias audits for AI content generation (T20-T21)
-* T32.G6.09: Synthesize comprehensive AI ethics guidelines
-* T21.G7.01: Build multi-turn AI conversations
-
-
 
 
 
@@ -55015,86 +54821,18 @@ Dependencies:
 
 
 
-ID: T32.G8.24
-Topic: T32 – Digital Citizenship
-Skill: Build an AI-powered project with comprehensive ethics documentation
-Description: As a capstone integration of digital citizenship skills, students design and build a CreatiCode project that uses AI features (ChatGPT, image generation, or perception) with comprehensive ethics documentation. They create: (1) A functional project using AI blocks with clear user value proposition, (2) Ethics impact assessment using the tool built in T32.G8.03 (accessibility, privacy, wellbeing, cultural sensitivity scores), (3) Bias testing results from their AI components with documented mitigation strategies, (4) User consent flow for any data collection, (5) AI attribution and transparency documentation explaining what AI does in the project. Students present their project and ethics documentation to peers for review, demonstrating integration of technical skills with responsible AI development practices.
-
-Dependencies:
-* T32.G8.03: Integrate scoring and generate recommendations
-* T32.G8.21: Design a proposal for equitable AI use
-* T32.G7.28: Design AI-human collaboration workflows
-* T21.G8.01: Use ChatGPT for advanced analysis
-
-
-
-
-ID: T32.G8.25
-Topic: T32 – Digital Citizenship
-Skill: Mentor peers on responsible AI development practices
-Description: Students take on mentor roles, guiding younger students (G5-G7) through AI ethics considerations in their projects. They: (1) Review younger students' AI-powered projects using the ethics assessment tool, (2) Provide constructive feedback on bias testing, privacy practices, and accessibility, (3) Help troubleshoot ethical issues with specific recommendations, (4) Document common issues and solutions as a reference guide for future mentors. This reinforces their own learning while building leadership and communication skills. Students reflect on how teaching others deepened their understanding of responsible AI development.
-
-Dependencies:
-* T32.G8.24: Build an AI-powered project with comprehensive ethics documentation
-* T32.G8.10: Lead peer workshops on responsible tech use
-* T32.G7.25: Deliver a lesson to younger coders
-
-
-
-
-# T33 - Connected Services & Tool Wrappers
-# PHASE 9 OPTIMIZATION - November 2025
-#
-# MAJOR CHANGES IN THIS VERSION:
-# 1. ADDED NEW SKILL DOMAINS:
-#    - Speech Services (Text-to-Speech, Speech Recognition) - G6-G8
-#    - Machine Learning Services (KNN, Neural Networks) - G7-G8
-#    - Geolocation Services - G7
-#    - Video Widget Controls - G7
-#    - AI Service Orchestration - G8
-#
-# 2. RESTRUCTURED G6-G8 INTO LOGICAL SUB-CATEGORIES:
-#    - G6: Core Service Patterns (fetch, store, display)
-#    - G7: Advanced Queries & Real-time Services
-#    - G8: System Design & Multi-service Architecture
-#
-# 3. STRENGTHENED PROGRESSION:
-#    - K-2: Unplugged cloud concepts (10 skills)
-#    - G3-G4: Diagrammatic tracing and prediction (8 skills)
-#    - G5: Bridge to coding with hands-on observation (6 skills)
-#    - G6: Foundational service blocks (18 skills)
-#    - G7: Intermediate patterns and queries (22 skills)
-#    - G8: Advanced architecture and AI orchestration (20 skills)
-#
-# 4. ADDED AI-ERA SKILLS:
-#    - Evaluating AI service outputs
-#    - Designing prompts for API services
-#    - Orchestrating multiple AI services
-#    - Building AI-powered data pipelines
-#
-# 5. ACTIVE VERB UPGRADES:
-#    - "Understand" → "Explain", "Trace", "Predict"
-#    - "Learn" → "Demonstrate", "Build", "Debug"
-#
-# Total: 84 skills (was 78, added 6 new skills for speech, ML, and AI orchestration)
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# KINDERGARTEN (GK) - Cloud Concepts (Unplugged)
-# Theme: "Internet Helpers" - recognizing when apps need the cloud
-# ═══════════════════════════════════════════════════════════════════════════════
-
 ID: T33.GK.01
 Topic: T33 – Connected Services
 Skill: Sort picture cards of apps into online and offline groups
-Description: Using illustrated picture cards showing familiar apps (weather app, calculator, video chat, camera, maps, clock), students drag cards into two labeled boxes: "needs internet helpers" and "works alone." They explain their choices using phrases like "this one asks the cloud for help." They identify the cloud/wifi symbols that indicate internet connectivity on each card.
+Description: Using illustrated picture cards showing familiar apps (weather app, calculator, video chat, camera, maps, clock), students sort them into two boxes: "needs internet helpers" and "works alone." They explain their choices using simple language like "this one asks the cloud for help" and identify the cloud/wifi symbols that indicate internet connectivity.
 
 
 
 
 ID: T33.GK.02
 Topic: T33 – Connected Services
-Skill: Match cloud service icons to the content they deliver
-Description: Using illustrated picture cards, students drag cloud service icons (message bubble, music note, photo icon, video play button) to matching content cards (chat messages, songs, pictures, videos). They trace with their finger showing the "path" from cloud icon to content. They state that the internet brings different types of content from faraway computers.
+Skill: Match cloud services to what they provide
+Description: Using illustrated picture cards, students match cloud service icons (message bubble, music note, photo icon, video play button) to the content they provide (chat messages, songs, pictures, videos). They understand that the internet brings different types of content from faraway computers to their device.
 
 Dependencies:
 * T33.GK.01: Sort picture cards of apps into online and offline groups
@@ -55104,37 +54842,32 @@ Dependencies:
 
 ID: T33.GK.03
 Topic: T33 – Connected Services
-Skill: Circle devices that need internet helpers in daily activity scenes
-Description: Using illustrated picture cards showing a child's day (asking voice assistant for weather, playing offline game, video calling grandma, using calculator), students circle which activities need internet helpers. They draw a line from each circled activity to a cloud icon, showing the connection to "faraway computers."
+Skill: Identify which devices need internet helpers in picture scenes
+Description: Using illustrated picture cards showing a child's day (asking voice assistant for weather, playing offline game, video calling grandma, using calculator), students point to which activities need internet helpers. They circle the wifi or cloud symbol on devices that "talk to faraway computers."
 
 Dependencies:
-* T33.GK.02: Match cloud service icons to the content they deliver
+* T33.GK.02: Match cloud services to what they provide
 
 
 
 
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 1 (G1) - Request-Response Patterns (Unplugged)
-# Theme: "Waiting for Answers" - understanding that cloud services take time
-# ═══════════════════════════════════════════════════════════════════════════════
 
 ID: T33.G1.01
 Topic: T33 – Connected Services
 Skill: Sequence picture cards showing app waiting for internet response
-Description: Using illustrated picture cards, students arrange a 5-card sequence: (1) user taps app button, (2) app shows loading spinner, (3) cloud/server processes request, (4) answer returns to app, (5) app displays result. They point to the loading spinner card and state "this means waiting." They explain that internet helpers need time to respond.
+Description: Using illustrated picture cards, students arrange a sequence showing: (1) user taps app button, (2) app shows loading spinner, (3) cloud/server processes request, (4) answer returns to app, (5) app displays result. They explain that internet helpers need time to respond and identify the loading spinner as the "waiting" signal.
 
 Dependencies:
-* T33.GK.03: Circle devices that need internet helpers in daily activity scenes
+* T33.GK.03: Identify which devices need internet helpers in picture scenes
 
 
 
 
 ID: T33.G1.02
 Topic: T33 – Connected Services
-Skill: Sort activities into sharing vs not-sharing through cloud
-Description: Using illustrated picture cards showing scenarios (sending a photo to grandma, watching a video a friend shared, playing a game with someone far away, drawing alone), students sort cards into "sharing through cloud" and "not sharing." They state that cloud services help people share things even when not in the same place.
+Skill: Identify when people share through cloud services
+Description: Using illustrated picture cards showing scenarios (sending a photo to grandma, watching a video a friend shared, playing a game with someone far away), students identify which activities involve sharing through the cloud. They understand that cloud services help people share things even when they are not in the same place.
 
 Dependencies:
 * T33.G1.01: Sequence picture cards showing app waiting for internet response
@@ -55144,28 +54877,23 @@ Dependencies:
 
 ID: T33.G1.03
 Topic: T33 – Connected Services
-Skill: Match sending and receiving pairs in cloud sharing scenarios
-Description: Using illustrated picture cards, students match sender-receiver pairs: child sends drawing → grandma sees drawing on tablet; dad takes photo → photo appears on mom's phone. They draw a line from sender through a cloud icon to receiver, showing the "path" of content through the cloud.
+Skill: Match sending and receiving in cloud sharing scenarios
+Description: Using illustrated picture cards, students match pairs showing sending and receiving: child sends drawing → grandma sees drawing on her tablet; dad takes photo → photo appears on mom's phone. They trace the "path" of content through the cloud by drawing a line between sender and receiver cards.
 
 Dependencies:
-* T33.G1.02: Sort activities into sharing vs not-sharing through cloud
+* T33.G1.02: Identify when people share through cloud services
 
 
 
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 2 (G2) - Cloud Reliability & Storage (Unplugged)
-# Theme: "What If?" - handling failures and understanding persistence
-# ═══════════════════════════════════════════════════════════════════════════════
 
 ID: T33.G2.01
 Topic: T33 – Connected Services
 Skill: Predict what happens when app loses internet connection
-Description: Using illustrated picture cards showing scenarios (video call freezing, map not loading, game pausing), students predict and match consequences: "video freezes," "shows error," "uses old data." They sort app cards into "will still work" versus "will stop working" based on whether continuous internet is required.
+Description: Using illustrated picture cards showing scenarios (video call freezing, map not loading, game pausing), students predict and match what happens when an app loses internet: "video freezes," "shows error," "uses old data." They sort cards into "will still work" versus "will stop working" based on whether the feature needs continuous internet.
 
 Dependencies:
-* T33.G1.03: Match sending and receiving pairs in cloud sharing scenarios
+* T33.G1.03: Match sending and receiving in cloud sharing scenarios
 
 
 
@@ -55173,7 +54901,7 @@ Dependencies:
 ID: T33.G2.02
 Topic: T33 – Connected Services
 Skill: Sort picture cards of fast vs slow cloud responses
-Description: Using illustrated picture cards, students sort cloud activities by response time: "fast" (sending a short message, checking weather) versus "slow" (downloading a movie, uploading many photos). They point to the progress bar icon and state it appears for "slow" transfers. They explain why bigger content takes longer.
+Description: Using illustrated picture cards, students sort cloud activities by response time: "fast" (sending a short message, checking weather) versus "slow" (downloading a movie, uploading many photos). They explain why bigger content takes longer and identify the progress bar as a signal for slow transfers.
 
 Dependencies:
 * T33.G2.01: Predict what happens when app loses internet connection
@@ -55184,7 +54912,7 @@ Dependencies:
 ID: T33.G2.03
 Topic: T33 – Connected Services
 Skill: Match cloud storage icons to what gets saved
-Description: Using illustrated picture cards, students drag cloud storage icons (camera roll cloud, document cloud, game cloud) to matching content cards (photos, homework files, game progress). They state that cloud storage "keeps things safe even if the device breaks."
+Description: Using illustrated picture cards, students match cloud storage icons (camera roll cloud, document cloud, game cloud) to what gets saved (photos, homework files, game progress). They understand that cloud storage keeps things safe even if the device breaks or gets lost.
 
 Dependencies:
 * T33.G2.02: Sort picture cards of fast vs slow cloud responses
@@ -55195,7 +54923,7 @@ Dependencies:
 ID: T33.G2.04
 Topic: T33 – Connected Services
 Skill: Sequence picture cards showing cloud backup and restore
-Description: Using illustrated picture cards, students arrange a 5-card sequence: (1) child saves game progress, (2) progress goes to cloud, (3) tablet breaks, (4) new tablet connects to cloud, (5) game progress returns. They explain that cloud storage "remembers" even when devices change, using the phrase "my stuff is safe in the cloud."
+Description: Using illustrated picture cards, students arrange a sequence: (1) child saves game progress, (2) progress goes to cloud, (3) tablet breaks, (4) new tablet connects to cloud, (5) game progress returns. They explain that cloud storage "remembers" even when devices change.
 
 Dependencies:
 * T33.G2.03: Match cloud storage icons to what gets saved
@@ -55204,15 +54932,10 @@ Dependencies:
 
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 3 (G3) - Request-Response Diagrams
-# Theme: Diagrammatic understanding of client-server communication
-# ═══════════════════════════════════════════════════════════════════════════════
-
 ID: T33.G3.01
 Topic: T33 – Connected Services
 Skill: Trace data flow from app to cloud and back in diagram
-Description: Students examine illustrated diagrams showing data flow: user types question → app sends to cloud → cloud processes → cloud sends answer → app displays. They label each step by dragging labels to the correct arrow. They point to the loading spinner in the diagram and state "this is when the cloud is thinking."
+Description: Students examine illustrated diagrams showing data flow: user types question → app sends to cloud → cloud processes → cloud sends answer → app displays. They label each step and trace the path with their finger or cursor. They identify which step is happening when they see a loading spinner and explain why each step is needed.
 
 Dependencies:
 * T33.G2.04: Sequence picture cards showing cloud backup and restore
@@ -55223,8 +54946,8 @@ Dependencies:
 
 ID: T33.G3.02
 Topic: T33 – Connected Services
-Skill: Label request and response arrows in cloud communication diagrams
-Description: Students examine diagrams showing cloud communication and drag "REQUEST" and "RESPONSE" labels to the correct arrows. They provide examples: requests include "asking for weather" and "searching for videos"; responses include "temperature number" and "list of videos." They state "every cloud interaction has a request and a response."
+Skill: Identify request and response in cloud communication diagrams
+Description: Students examine diagrams showing cloud communication and label the "request" (question going to cloud) and "response" (answer coming back). They identify examples of requests (asking for weather, searching for a video) and responses (temperature number, list of videos). They understand every cloud interaction has a request-response pair.
 
 Dependencies:
 * T33.G3.01: Trace data flow from app to cloud and back in diagram
@@ -55234,38 +54957,33 @@ Dependencies:
 
 ID: T33.G3.03
 Topic: T33 – Connected Services
-Skill: Match questions to the cloud service that provides each answer
-Description: Students drag question cards to cloud service boxes: "What's the weather?" → weather service, "Translate this word" → translation service, "Find a video about cats" → video service, "What should I draw?" → AI service. They state that different cloud services specialize in different types of information.
+Skill: Predict which cloud service provides each type of answer
+Description: Students match questions to cloud services: "What's the weather?" goes to weather service, "Translate this word" goes to translation service, "Find a video about cats" goes to video service. They understand that different cloud services specialize in different types of information.
 
 Dependencies:
-* T33.G3.02: Label request and response arrows in cloud communication diagrams
+* T33.G3.02: Identify request and response in cloud communication diagrams
 
 
 
 
 ID: T33.G3.04
 Topic: T33 – Connected Services
-Skill: Order service types by typical response time
-Description: Students examine diagrams of different cloud requests and drag them into order from fastest to slowest: simple lookup (weather) → text search → AI text generation → image generation. They explain that complex tasks take longer because the cloud computer has to "think harder."
+Skill: Predict service response times in request-response diagrams
+Description: Students examine diagrams of different cloud requests and predict relative response times: asking "What is 2+2?" is fast, asking "Generate an image of a cat" is slow. They order service types by typical response time and explain that complex tasks take longer for the cloud to process.
 
 Dependencies:
-* T33.G3.03: Match questions to the cloud service that provides each answer
+* T33.G3.03: Predict which cloud service provides each type of answer
 
 
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 4 (G4) - Storage, Authentication & Service Categories
-# Theme: Deeper understanding of how cloud services organize and protect data
-# ═══════════════════════════════════════════════════════════════════════════════
 
 ID: T33.G4.01
 Topic: T33 – Connected Services
-Skill: Compare local vs cloud saving by tracing diagrams
-Description: Students trace two parallel diagrams: saving a drawing on "this device only" versus saving to "the cloud." They list tradeoffs in a table: local saves are faster but only on one device; cloud saves work everywhere but need internet. They predict which save method to use for homework (cloud) vs quick note (local) and justify their choice.
+Skill: Explain difference between saving locally and saving to cloud
+Description: Students compare two scenarios: saving a drawing on "this device only" versus saving to "the cloud." They trace what happens in each case using diagrams and explain tradeoffs: local saves are faster but only on one device; cloud saves work everywhere but need internet. They predict which save method to use for different situations (homework vs quick note).
 
 Dependencies:
-* T33.G3.04: Order service types by typical response time
+* T33.G3.04: Predict service response times in request-response diagrams
 * T30.G4.01: Explain how data travels across the internet
 
 
@@ -55274,10 +54992,10 @@ Dependencies:
 ID: T33.G4.02
 Topic: T33 – Connected Services
 Skill: Trace how login connects user to their cloud data
-Description: Students trace a 4-step diagram: user enters username/password → app sends credentials to cloud → cloud finds user's saved data → data returns to app. They explain why each person needs their own login and predict what happens if someone shares their password (others can access their data).
+Description: Students trace diagrams showing: user enters username/password → app sends credentials to cloud → cloud finds user's saved data → data is sent back to app. They explain why each person needs their own login to access their own cloud storage, and why sharing passwords lets others access your data.
 
 Dependencies:
-* T33.G4.01: Compare local vs cloud saving by tracing diagrams
+* T33.G4.01: Explain difference between saving locally and saving to cloud
 * T32.G4.01: Identify personal information that should stay private
 
 
@@ -55285,8 +55003,8 @@ Dependencies:
 
 ID: T33.G4.03
 Topic: T33 – Connected Services
-Skill: Categorize cloud services by function
-Description: Students drag cloud service cards into four categories: storage services (files, photos, backups), information services (weather, news, search), communication services (email, chat, video calls), and AI services (chatbots, image generation, translation). They write one distinguishing feature for each category.
+Skill: Categorize cloud services by what they store or provide
+Description: Students sort cloud service examples into categories: storage services (save files, photos, backups), information services (weather, news, search), communication services (email, chat, video calls), and entertainment services (streaming music, videos, games). They explain what distinguishes each category.
 
 Dependencies:
 * T33.G4.02: Trace how login connects user to their cloud data
@@ -55297,23 +55015,18 @@ Dependencies:
 ID: T33.G4.04
 Topic: T33 – Connected Services
 Skill: Debug service timeout scenarios in diagrams
-Description: Students examine diagrams showing cloud service problems: request sent but no response arrives, loading spinner keeps spinning, error message appears. They match each scenario to a cause (slow internet, server busy, service down). They identify the "timeout" step where the app gives up and explain why apps need timeouts to avoid waiting forever.
+Description: Students examine diagrams showing cloud service problems: request sent but no response arrives, loading spinner keeps spinning, error message appears. They predict causes (slow internet, server busy, service down) and identify the timeout step where the app gives up waiting. They explain why apps need timeouts to avoid waiting forever.
 
 Dependencies:
-* T33.G4.03: Categorize cloud services by function
+* T33.G4.03: Categorize cloud services by what they store or provide
 
 
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 5 (G5) - Bridge to Coding: API Concepts & First Observations
-# Theme: Transition from diagrams to running actual cloud blocks
-# ═══════════════════════════════════════════════════════════════════════════════
 
 ID: T33.G5.01
 Topic: T33 – Connected Services
-Skill: Categorize apps by connection type: real-time sync vs one-time fetch
-Description: Students sort app cards into two categories: real-time sync (shared whiteboard, multiplayer game, collaborative document) versus one-time fetch (weather check, webpage load, image search). They justify why multiplayer games need real-time sync (everyone sees changes instantly) but news apps use one-time fetch (content doesn't change while reading).
+Skill: Distinguish real-time sync from one-time fetch in app scenarios
+Description: Students compare two types of cloud connections: real-time sync (shared whiteboard where everyone sees changes instantly, multiplayer game positions) versus one-time fetch (checking weather once, loading a webpage). They categorize familiar apps by connection type and explain why games need real-time sync but news apps use one-time fetch.
 
 Dependencies:
 * T33.G4.04: Debug service timeout scenarios in diagrams
@@ -55325,11 +55038,11 @@ Dependencies:
 
 ID: T33.G5.02
 Topic: T33 – Connected Services
-Skill: Sort URL data into safe-to-share vs keep-private categories
-Description: Students examine example URLs containing embedded data (search queries, usernames, file IDs). They drag data elements into "safe to share" (test data, public facts, fictional names) versus "keep private" (real names, addresses, passwords). They write example "safe" test data for a project (fake name: "TestUser123").
+Skill: Identify what data is safe to share in URLs versus private
+Description: Students examine example URLs containing data (search queries, usernames, file IDs) and identify what information becomes visible when sharing a URL. They sort data into "safe to share" (test data, public facts, fictional names) versus "keep private" (real names, addresses, passwords). They create example "safe" test data for a hypothetical project.
 
 Dependencies:
-* T33.G5.01: Categorize apps by connection type: real-time sync vs one-time fetch
+* T33.G5.01: Distinguish real-time sync from one-time fetch in app scenarios
 * T32.G4.01: Identify personal information that should stay private
 
 
@@ -55338,11 +55051,11 @@ Dependencies:
 
 ID: T33.G5.03
 Topic: T33 – Connected Services
-Skill: Test which Cloud blocks require internet by running offline
-Description: Students examine CreatiCode's Cloud category blocks (Google Sheets, fetch URL, save data). They predict which require internet, then run a provided project and disconnect internet to test. They record which blocks succeed/fail offline and create a reference chart.
+Skill: Predict which Cloud blocks need internet by examining block categories
+Description: Students examine CreatiCode's Cloud category blocks (Google Sheets, fetch URL, cloud sessions) and predict which ones require internet connectivity. They test their predictions by running projects offline and observing which blocks fail. They create a simple reference chart categorizing blocks as "needs internet" or "works offline."
 
 Dependencies:
-* T33.G5.02: Sort URL data into safe-to-share vs keep-private categories
+* T33.G5.02: Identify what data is safe to share in URLs versus private
 * T30.G5.01: Trace how a device reaches an online service
 
 
@@ -55350,52 +55063,44 @@ Dependencies:
 
 ID: T33.G5.04
 Topic: T33 – Connected Services
-Skill: Explain APIs as the language programs use to talk to cloud services
-Description: Students state that API (Application Programming Interface) defines how programs ask cloud services for help. They trace diagrams showing: weather app sends city name via weather API → receives temperature; translation app sends word → receives translation. They complete fill-in-the-blank sentences about what APIs define.
+Skill: Explain how APIs let programs talk to cloud services
+Description: Students learn that API (Application Programming Interface) is how programs ask cloud services for help. They trace examples: a weather app uses a weather API to get temperature, a translation app uses a translation API to convert words. They understand that APIs define what questions a program can ask and what format the answers come in.
 
 Dependencies:
-* T33.G5.03: Test which Cloud blocks require internet by running offline
+* T33.G5.03: Predict which Cloud blocks need internet by examining block categories
 
 
 
 
 ID: T33.G5.05
 Topic: T33 – Connected Services
-Skill: Label parameters and return values in API request diagrams
-Description: Students examine API request diagrams and drag labels: "SERVICE" (weather API), "PARAMETER" (city name), "RETURN VALUE" (temperature). They open a cloud block's help popup and identify its parameters and return value. They repeat for 3 different block types.
+Skill: Identify parameters and return values in API requests
+Description: Students examine simple API request diagrams and identify: the service being called (weather API), the parameters being sent (city name), and the return value received (temperature). They practice reading block descriptions to find what inputs (parameters) a cloud block needs and what output (return value) it provides.
 
 Dependencies:
-* T33.G5.04: Explain APIs as the language programs use to talk to cloud services
+* T33.G5.04: Explain how APIs let programs talk to cloud services
 
 
 
 
 ID: T33.G5.06
 Topic: T33 – Connected Services
-Skill: Measure cloud block response times using console logging
-Description: Students run a provided CreatiCode project that calls a cloud block (fetch URL, save data). They add console log statements before and after the call to see timing. They use a timer variable to measure delay in seconds. They test 3 different service types and rank by response time.
+Skill: Run a simple cloud block and observe request-response timing
+Description: Students run a provided CreatiCode project that uses a simple cloud block (like fetch URL or save data). They use the console panel to observe when the request is sent and when the response arrives. They measure the delay with a timer variable and compare response times for different services. This bridges conceptual understanding to hands-on coding.
 
 Dependencies:
-* T33.G5.05: Label parameters and return values in API request diagrams
+* T33.G5.05: Identify parameters and return values in API requests
 
 
 
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 6 (G6) - Foundational Service Blocks
-# Theme: Core patterns for fetching, storing, and displaying cloud data
-# Sub-categories: Web Fetch, Google Sheets, Cloud Database, Media Loading, Speech
-# ═══════════════════════════════════════════════════════════════════════════════
-
-# --- SUB-CATEGORY: Web Content Fetching ---
 
 ID: T33.G6.01
 Topic: T33 – Connected Services
 Skill: Fetch web content using the fetch URL block and display it
-Description: Students use the `fetch web page as markdown from URL` block to retrieve content from a provided public URL. They display the result using say or label widget blocks. They observe the loading delay and test with 3 different URLs to see different content returned.
+Description: Students use the `fetch web page as markdown from URL` block to retrieve content from a provided public URL and display it using say or text blocks. They observe that the fetch takes time to complete and that the content appears after the network request finishes. They test with different URLs to see different content returned.
 
 Dependencies:
-* T33.G5.06: Measure cloud block response times using console logging
+* T33.G5.06: Run a simple cloud block and observe request-response timing
 * T08.G4.03: Use if-else to choose between two outcomes
 
 Note: For AI blocks, see Topic T32. For Multiplayer game blocks, see Topic T19.
@@ -55404,12 +55109,10 @@ Note: For AI blocks, see Topic T32. For Multiplayer game blocks, see Topic T19.
 
 
 
-# --- SUB-CATEGORY: Google Sheets Integration ---
-
 ID: T33.G6.02
 Topic: T33 – Connected Services
 Skill: Read data range from Google Sheets into a table variable
-Description: Students use the `read from google sheet` block to load data from a shared Google Sheet into a CreatiCode table variable. They specify URL, sheet name, range (e.g., A1:D10), and target table. They verify data loaded by displaying table contents in a loop. They test with different ranges.
+Description: Students use the `read from google sheet` block to load data from a shared Google Sheet into a CreatiCode table variable. They specify the sheet URL, sheet name, range (e.g., A1:D10), and target table name. They verify the data loaded correctly by displaying table contents using loops or table display blocks.
 
 Dependencies:
 * T33.G6.01: Fetch web content using the fetch URL block and display it
@@ -55497,12 +55200,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Cloud Database (CreatiCode Server) ---
-
 ID: T33.G6.09
 Topic: T33 – Connected Services
 Skill: Insert table rows into a cloud database collection
-Description: Students use `insert from table [TABLENAME] row from (START) to (END) into collection [COLLECTION]` to save table data to CreatiCode's cloud database. They create a score-logging project that saves game results. They verify data was saved by fetching it back.
+Description: Students use `insert from table [TABLENAME] row from (START) to (END) into collection [COLLECTION]` to save table data to CreatiCode's cloud database. They create a simple score-logging project that saves game results to persistent cloud storage. They verify data was saved by fetching it back.
 
 Dependencies:
 * T33.G6.03: Write table data to Google Sheets from starting cell
@@ -55561,12 +55262,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Media Loading from URLs ---
-
 ID: T33.G6.14
 Topic: T33 – Connected Services
 Skill: Add costume from URL to load external images
-Description: Students use `add costume named [NAME] from URL [URL] max width (W) max height (H)` to load images from web addresses into their project. The image downloads and becomes a costume they can switch to. They test with different URLs and observe scaling based on max dimensions.
+Description: Students use `add costume named [NAME] from URL [URL] max width (W) max height (H)` to load images from web addresses into their project. They understand that the image downloads from the internet and becomes a costume. They test with different image URLs and observe scaling based on max dimensions.
 
 Dependencies:
 * T33.G6.01: Fetch web content using the fetch URL block and display it
@@ -55588,12 +55287,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Leaderboard & User Data ---
-
 ID: T33.G6.16
 Topic: T33 – Connected Services
 Skill: Record player scores to game leaderboard
-Description: Students use `record player score (VALUE)` to save a score to the CreatiCode server leaderboard. Scores are associated with the logged-in user. They record different scores and observe how the leaderboard updates to show new rankings.
+Description: Students use `record player score (VALUE)` to save a score to the CreatiCode server leaderboard for the current project. They understand that scores are associated with the logged-in user. They test by recording different scores and observing how the leaderboard updates.
 
 Dependencies:
 * T33.G6.12: Save and load simple data to CreatiCode server
@@ -55626,12 +55323,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Error Handling & Debugging ---
-
 ID: T33.G6.19
 Topic: T33 – Connected Services
-Skill: Debug timing issues when cloud response arrives after expected
-Description: Students observe bugs where code runs before cloud data arrives (variable is empty when used). They add console logging to trace execution order. They learn that CreatiCode cloud blocks are blocking (wait for response before next block runs) and fix bugs caused by incorrect assumptions.
+Skill: Debug timing issues when cloud response arrives after next block runs
+Description: Students observe bugs where code runs before cloud data arrives (variable is empty when used). They use console logging to trace execution order and identify the race condition. They fix the bug by ensuring dependent code runs only after the cloud response arrives, learning that cloud blocks complete before the next block runs (blocking behavior).
 
 Dependencies:
 * T33.G6.07: Detect and handle empty or error responses from cloud services
@@ -55639,38 +55334,6 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Speech Services (NEW) ---
-
-ID: T33.G6.20
-Topic: T33 – Connected Services
-Skill: Convert text to speech using AI voice synthesis
-Description: Students use the `say [TEXT] in [LANGUAGE] as [VOICE]` block to have their project speak text aloud using cloud AI voice synthesis. They experiment with different languages and voice types. They adjust speed, pitch, and volume parameters. They build a talking character that reads story text.
-
-Dependencies:
-* T33.G6.01: Fetch web content using the fetch URL block and display it
-* T08.G4.03: Use if-else to choose between two outcomes
-
-
-
-ID: T33.G6.21
-Topic: T33 – Connected Services
-Skill: Capture speech input using speech recognition
-Description: Students use `start recognizing speech in [LANGUAGE]` and `end speech recognition` blocks to capture voice input. They retrieve the recognized text using `text from speech` reporter. They build a voice-activated project that responds to spoken commands or transcribes what the user says.
-
-Dependencies:
-* T33.G6.20: Convert text to speech using AI voice synthesis
-* T09.G5.01: Use multiple variables together in a single expression
-
-
-
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 7 (G7) - Advanced Queries, Real-time Services & New Service Types
-# Theme: Sophisticated data operations, live collaboration, and expanded service portfolio
-# Sub-categories: Database Queries, Cloud Sessions, Sheets Manipulation, Speech Advanced,
-#                 Geolocation, Video Widgets, AI Moderation, URL Handling, Data Design
-# ═══════════════════════════════════════════════════════════════════════════════
-
-# --- SUB-CATEGORY: Database Query Operations ---
 
 ID: T33.G7.01
 Topic: T33 – Connected Services
@@ -55763,15 +55426,13 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Real-time Cloud Sessions ---
-
 ID: T33.G7.08
 Topic: T33 – Connected Services
 Skill: Create a cloud session for real-time variable sharing
-Description: Students use `create cloud session [SESSION]` to establish a named session for real-time sharing of cloud variables. The session creator becomes the "host." Each session requires a unique ID (room name). Only cloud variables (not regular variables) synchronize across sessions.
+Description: Students use `create cloud session [SESSION]` to establish a named session that enables real-time sharing of cloud variables. They understand the session creator becomes the "host." Each session requires a unique ID (room name), and the creator shares this ID with collaborators. Only cloud variables (not regular variables) synchronize across sessions.
 
 Dependencies:
-* T33.G5.01: Categorize apps by connection type: real-time sync vs one-time fetch
+* T33.G5.01: Distinguish real-time sync from one-time fetch in app scenarios
 * T09.G5.01: Use multiple variables together in a single expression
 
 
@@ -55793,12 +55454,10 @@ Note: Cloud sessions synchronize cloud variables only. For full multiplayer game
 
 
 
-# --- SUB-CATEGORY: Advanced Google Sheets Manipulation ---
-
 ID: T33.G7.10
 Topic: T33 – Connected Services
 Skill: Insert and remove rows dynamically in Google Sheets
-Description: Students use `insert [COUNT] rows at row [START]` to add empty rows at a specific position, and `remove rows [FROM] to [TO]` to delete row ranges. Inserting shifts existing rows down; removing shifts rows up. They build data management systems that expand or archive data dynamically.
+Description: Students use `insert [COUNT] rows at row [START]` to add empty rows at a specific position, and `remove rows [FROM] to [TO]` to delete row ranges. They understand that inserting shifts existing rows down and removing shifts rows up. They build data management systems that expand or archive data dynamically.
 
 Dependencies:
 * T33.G6.08: List, add, and remove sheets in a Google Spreadsheet
@@ -55820,8 +55479,6 @@ Dependencies:
 
 
 
-
-# --- SUB-CATEGORY: Service Orchestration & Rate Limiting ---
 
 ID: T33.G7.12
 Topic: T33 – Connected Services
@@ -55849,26 +55506,22 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: URL Parameters & External Links ---
-
 ID: T33.G7.14
 Topic: T33 – Connected Services
 Skill: Read URL parameters to customize project behavior
-Description: Students use `read URL parameter [PARAMETER]` to get values passed in the project URL (e.g., ?mode=easy&level=3). They build projects that change behavior based on URL parameters: different starting levels, color themes, or preset configurations. This enables sharing customized project links.
+Description: Students use `read URL parameter [PARAMETER]` to get values passed in the project URL (e.g., ?mode=easy&level=3). They build projects that change behavior based on URL parameters: different starting levels, color themes, or preset configurations. They understand this enables sharing customized project links.
 
 Dependencies:
-* T33.G5.02: Sort URL data into safe-to-share vs keep-private categories
+* T33.G5.02: Identify what data is safe to share in URLs versus private
 * T09.G5.01: Use multiple variables together in a single expression
 
 
 
 
-# --- SUB-CATEGORY: AI Moderation Services ---
-
 ID: T33.G7.15
 Topic: T33 – Connected Services
 Skill: Use AI moderation to check text content
-Description: Students use `get moderation result for [TEXT]` to check if user-generated text is appropriate, receiving "Pass" or "Fail" results. They build projects that filter inappropriate content before displaying or storing it. They explain how moderation helps maintain safe online spaces.
+Description: Students use `get moderation result for [TEXT]` to check if user-generated text is appropriate, receiving "Pass" or "Fail" results. They build projects with user input that filter inappropriate content before displaying or storing it. They understand moderation helps maintain safe online spaces.
 
 Dependencies:
 * T33.G6.07: Detect and handle empty or error responses from cloud services
@@ -55901,11 +55554,9 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Video Widget Controls ---
-
 ID: T33.G7.18
 Topic: T33 – Connected Services
-Skill: Embed YouTube videos as widgets
+Skill: Add YouTube videos as widgets
 Description: Students use `add youtube video [URL] at X (X) Y (Y) width (WIDTH) height (HEIGHT)` to embed YouTube videos in their projects. They control video positioning and sizing. They build educational projects that include instructional videos or multimedia presentations.
 
 Dependencies:
@@ -55914,61 +55565,11 @@ Dependencies:
 
 
 
-ID: T33.G7.18.01
-Topic: T33 – Connected Services
-Skill: Control video playback programmatically
-Description: Students use video control blocks: `start video`, `pause video`, `stop video`, and `seek to (TIME) seconds` to control playback. They build interactive tutorials that pause videos at key moments for user interaction, or quiz apps that jump to specific video sections based on user answers.
-
-Dependencies:
-* T33.G7.18: Embed YouTube videos as widgets
-* T07.G5.01: Use timer blocks to control timing in programs
-
-
-
-
-# --- SUB-CATEGORY: Geolocation Services (NEW) ---
 
 ID: T33.G7.19
 Topic: T33 – Connected Services
-Skill: Retrieve user location using geolocation blocks
-Description: Students use `latitude` and `longitude` reporter blocks to get the user's current location coordinates. They display location on screen and explain that location data requires user permission. They build location-aware projects that customize content based on user's general area.
-
-Dependencies:
-* T33.G6.01: Fetch web content using the fetch URL block and display it
-* T32.G4.01: Identify personal information that should stay private
-
-
-
-ID: T33.G7.19.01
-Topic: T33 – Connected Services
-Skill: Get geographic information from coordinates
-Description: Students use `get geo info for latitude (LAT) longitude (LON)` to retrieve location details (continent, country, state, city) from coordinates. They build projects that display "You are in [City], [Country]" or customize greetings based on user's country.
-
-Dependencies:
-* T33.G7.19: Retrieve user location using geolocation blocks
-* T10.G5.01: Understand table structure (rows, columns, cells)
-
-
-
-# --- SUB-CATEGORY: Advanced Speech Services (NEW) ---
-
-ID: T33.G7.20
-Topic: T33 – Connected Services
-Skill: Implement continuous speech recognition for real-time transcription
-Description: Students use `start continuous speech recognition in [LANGUAGE] into list [LISTNAME]` to stream voice input continuously. They build real-time transcription displays that update as the user speaks. They compare continuous recognition to single-phrase recognition and choose appropriately for different use cases.
-
-Dependencies:
-* T33.G6.21: Capture speech input using speech recognition
-* T10.G5.01: Understand table structure (rows, columns, cells)
-
-
-
-# --- SUB-CATEGORY: Data Design & Synchronization ---
-
-ID: T33.G7.21
-Topic: T33 – Connected Services
 Skill: Design table schemas for cloud database collections
-Description: Students plan table structures before inserting data: choosing field names, deciding data types (text vs number), and considering which fields will be queried frequently. They implement a schema for a game (player name, score, level, timestamp) and explain why good schema design makes querying easier.
+Description: Students plan table structures before inserting data: choosing field names, deciding data types (text vs number), and considering which fields will be queried frequently. They implement a schema for a game (player name, score, level, timestamp) and explain why good schema design makes querying easier and more efficient.
 
 Dependencies:
 * T33.G7.04: Sort and limit cloud collection query results
@@ -55977,31 +55578,22 @@ Dependencies:
 
 
 
-ID: T33.G7.22
+ID: T33.G7.20
 Topic: T33 – Connected Services
 Skill: Implement data synchronization between local and cloud storage
 Description: Students build projects that work offline using local storage and sync to cloud when connected. They implement a sync strategy: save locally first for speed, then push to cloud for persistence. They handle sync conflicts when local and cloud data differ, choosing "last write wins" or "merge" strategies.
 
 Dependencies:
-* T33.G7.21: Design table schemas for cloud database collections
+* T33.G7.19: Design table schemas for cloud database collections
 * T33.G6.13: Save and load table data to CreatiCode server
 
 
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
-# GRADE 8 (G8) - System Design, AI Orchestration & Advanced Architecture
-# Theme: Building robust, scalable systems with multiple integrated services
-# Sub-categories: Caching & Resilience, Data Pipelines, Semantic Search, ML Services,
-#                 Web Search, Multi-service Architecture, AI Orchestration
-# ═══════════════════════════════════════════════════════════════════════════════
-
-# --- SUB-CATEGORY: Caching & Service Resilience ---
-
 ID: T33.G8.01
 Topic: T33 – Connected Services
 Skill: Cache service responses locally to reduce redundant API calls
-Description: Students implement a caching pattern: before calling an external service, check if the same request was made recently in a local cache table. If found, use the cached response; otherwise, make the call and store the result with a timestamp. They implement cache expiration. This reduces service calls and improves performance.
+Description: Students implement a caching pattern: before calling an external service, check if the same request was made recently by looking up a local table. If found, use the cached response; otherwise, make the call and store the result. They implement simple cache expiration using timestamps. This reduces service calls and improves performance.
 
 Dependencies:
 * T33.G7.12: Build workflows that combine multiple cloud services sequentially
@@ -56050,12 +55642,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Data Pipelines ---
-
 ID: T33.G8.05
 Topic: T33 – Connected Services
 Skill: Build a cloud-integrated data pipeline capstone project
-Description: Students build a complete data pipeline: fetch external data → validate and transform → store in Google Sheets or cloud database → display results. They handle errors at each stage, implement validation, and create a status dashboard. This integrates skills from G6 through G8.
+Description: Students build a complete data pipeline as a capstone: fetch external data → process and transform → store in Google Sheets or cloud database → display results. They handle errors at each stage, implement validation, and create a dashboard showing pipeline status. This integrates skills from G6 through G8.
 
 Dependencies:
 * T33.G8.04: Compare cloud-based and local implementations through hands-on testing
@@ -56063,12 +55653,11 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Semantic Search & Vector Databases ---
 
 ID: T33.G8.06
 Topic: T33 – Connected Services
 Skill: Create a semantic database from table data
-Description: Students use `create semantic database from table [TABLE]` to build a searchable knowledge base. The semantic database converts text into embeddings that allow meaning-based search rather than exact keyword matching. They populate a table with Q&A pairs or knowledge facts, then create the database.
+Description: Students use `create semantic database from table [TABLE]` to build a searchable knowledge base. They understand that the semantic database converts text into embeddings that allow meaning-based search rather than exact keyword matching. They populate a table with Q&A pairs or knowledge facts, then create the database for later querying.
 
 Dependencies:
 * T33.G6.10: Fetch all documents from a cloud database collection into a table
@@ -56101,12 +55690,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Web Search Integration ---
-
 ID: T33.G8.09
 Topic: T33 – Connected Services
 Skill: Perform web search and process results programmatically
-Description: Students use `web search [QUERY] store top (K) in table [TABLE]` to search the web from their project. Results include title, link, and snippet columns. They build projects that search for current information, parse the results, and display summaries or follow links for more detail.
+Description: Students use `web search [QUERY] store top (K) in table [TABLE]` to search the web from their project. They understand results include title, link, and snippet columns. They build projects that search for current information, parse the results, and display summaries or follow links for more detail.
 
 Dependencies:
 * T33.G8.02: Validate and sanitize data received from external services
@@ -56114,43 +55701,6 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: Machine Learning Services (NEW) ---
-
-ID: T33.G8.09.01
-Topic: T33 – Connected Services
-Skill: Create and train a K-Nearest Neighbors classifier
-Description: Students use `create KNN classifier from table [TABLE] with K value (K)` to build a simple machine learning classifier. They prepare training data in a table with feature columns and a label column. They use `predict for table [TABLE] with classifier [NAME]` to classify new data. They build a project that learns to categorize items.
-
-Dependencies:
-* T33.G8.06: Create a semantic database from table data
-* T10.G6.02: Filter table rows based on a condition
-
-
-
-ID: T33.G8.09.02
-Topic: T33 – Connected Services
-Skill: Build and train a neural network model
-Description: Students use `create NN model`, `add layer to NN model`, and `compile NN model` blocks to define a neural network architecture. They use `train NN model using table` to train on data. They observe training progress and use the model for predictions. They build a pattern recognition project.
-
-Dependencies:
-* T33.G8.09.01: Create and train a K-Nearest Neighbors classifier
-* T10.G6.01: Sort a table by a column
-
-
-
-ID: T33.G8.09.03
-Topic: T33 – Connected Services
-Skill: Save and load trained machine learning models
-Description: Students use `save NN model named [NAME]` to persist trained models to the CreatiCode server and `load NN model named [NAME]` to retrieve them. They understand that saving trained models avoids retraining. They build projects that train once and use the saved model for future predictions.
-
-Dependencies:
-* T33.G8.09.02: Build and train a neural network model
-* T33.G6.12: Save and load simple data to CreatiCode server
-
-
-
-
-# --- SUB-CATEGORY: Retry & Resilience Patterns ---
 
 ID: T33.G8.10
 Topic: T33 – Connected Services
@@ -56163,8 +55713,6 @@ Dependencies:
 
 
 
-
-# --- SUB-CATEGORY: Multi-service Architecture ---
 
 ID: T33.G8.11
 Topic: T33 – Connected Services
@@ -56190,12 +55738,10 @@ Dependencies:
 
 
 
-# --- SUB-CATEGORY: System Design & Architecture ---
-
 ID: T33.G8.13
 Topic: T33 – Connected Services
 Skill: Architect a service composition pattern for complex applications
-Description: Students design and document multi-service architectures where different cloud services work together: AI service provides text → TTS converts to speech → storage saves the audio. They create data flow diagrams showing service dependencies, identify single points of failure, and propose redundancy strategies.
+Description: Students design and document multi-service architectures where different cloud services work together: AI service provides text → TTS converts to speech → storage saves the audio. They create data flow diagrams showing service dependencies, identify single points of failure, and propose redundancy strategies. This develops systems thinking for distributed applications.
 
 Dependencies:
 * T33.G8.11: Build a multi-service integration dashboard
@@ -56207,7 +55753,7 @@ Dependencies:
 ID: T33.G8.14
 Topic: T33 – Connected Services
 Skill: Design event-driven service coordination patterns
-Description: Students implement event-driven patterns where one service triggers another: when new data arrives in the database, fetch related content from web; when moderation fails, notify user and log the event. They use "when variable changed" events to coordinate services without tight coupling, creating flexible architectures.
+Description: Students implement event-driven patterns where one service triggers another: when new data arrives in the database, fetch related content from web; when moderation fails, notify user and log the event. They use the "when variable changed" event to coordinate services without tight coupling, creating more maintainable and flexible architectures.
 
 Dependencies:
 * T33.G8.13: Architect a service composition pattern for complex applications
@@ -56219,46 +55765,11 @@ Dependencies:
 ID: T33.G8.15
 Topic: T33 – Connected Services
 Skill: Evaluate tradeoffs in service selection for real-world scenarios
-Description: Students analyze real-world scenarios (collaborative document editor, live trivia game, content moderation system) and evaluate which combination of cloud services best fits each use case. They consider latency requirements, data consistency needs, cost constraints, and offline capabilities to make informed architectural decisions.
+Description: Students analyze real-world scenarios (building a collaborative document editor, creating a live trivia game, designing a content moderation system) and evaluate which combination of cloud services best fits each use case. They consider factors like latency requirements, data consistency needs, cost constraints, and offline capabilities to make informed architectural decisions.
 
 Dependencies:
 * T33.G8.14: Design event-driven service coordination patterns
 * T33.G8.12: Analyze cloud service costs and optimize usage
-
-
-
-# --- SUB-CATEGORY: AI Service Orchestration (NEW) ---
-
-ID: T33.G8.16
-Topic: T33 – Connected Services
-Skill: Orchestrate multiple AI services in a single workflow
-Description: Students build workflows that chain AI services together: use ChatGPT to generate text → use TTS to speak it → use speech recognition for user response → use ChatGPT to respond. They handle the data flow between services and manage conversation state. They build an interactive AI assistant.
-
-Dependencies:
-* T33.G8.13: Architect a service composition pattern for complex applications
-* T33.G6.21: Capture speech input using speech recognition
-
-
-
-ID: T33.G8.17
-Topic: T33 – Connected Services
-Skill: Build an AI-powered knowledge base with semantic search
-Description: Students combine semantic database with AI services: populate knowledge base from structured data → query with natural language → use AI to synthesize answers from multiple results. They build a smart FAQ system or research assistant that finds and summarizes relevant information.
-
-Dependencies:
-* T33.G8.08: Filter semantic search results with WHERE conditions
-* T33.G8.16: Orchestrate multiple AI services in a single workflow
-
-
-
-ID: T33.G8.18
-Topic: T33 – Connected Services
-Skill: Design AI service fallback chains
-Description: Students implement fallback patterns for AI services: try primary AI service → if rate limited or error, switch to alternative service → if all fail, use cached responses or graceful degradation. They build robust AI applications that remain functional even when individual services are unavailable.
-
-Dependencies:
-* T33.G8.16: Orchestrate multiple AI services in a single workflow
-* T33.G8.10: Design retry logic for unreliable service calls
 
 
 
@@ -56287,6 +55798,7 @@ Dependencies:
 
 
 
+
 ID: T34.GK.02
 Topic: T34 – Computing History
 Skill: Match old and new technology in picture pairs
@@ -56308,6 +55820,7 @@ Description: Using picture cards (typewriter vs laptop, room-sized computer vs t
 
 Dependencies:
 * T34.GK.02.01: Match old and new communication tools in pictures
+
 
 
 
@@ -56346,23 +55859,6 @@ Dependencies:
 * T34.GK.02: Match old and new technology in picture pairs
 
 
-ID: T34.GK.07
-Topic: T34 – Computing History
-Skill: Act out being a "human computer" with picture instructions
-Description: Using picture cards showing simple step-by-step instructions (sort 3 colored blocks, count objects, match shapes), students follow the steps exactly like a computer would, learning that computers follow instructions one step at a time.
-
-Dependencies:
-* T34.GK.01: Locate computing tools in picture scenes
-
-
-ID: T34.GK.08
-Topic: T34 – Computing History
-Skill: Drag input and output pictures for computing devices
-Description: Using picture cards, students drag an "input" (voice command, button press, touch) to a device and then drag the matching "output" (music plays, light turns on, screen shows picture) to learn that computers take input and produce output.
-
-Dependencies:
-* T34.GK.05: Sort computing devices by what they help with
-
 
 
 ID: T34.G1.01
@@ -56390,6 +55886,7 @@ Description: Using picture cards showing multiple tasks (maps vs GPS, encycloped
 
 Dependencies:
 * T34.G1.01.01: Identify how one task changed with picture cards
+
 
 
 
@@ -56450,15 +55947,6 @@ Dependencies:
 * T34.G1.01: Compare life before and after a technology using picture stories
 
 
-ID: T34.G1.07
-Topic: T34 – Computing History
-Skill: Follow step-by-step picture instructions like early computers
-Description: Using picture cards showing numbered steps for a task (like sorting shapes by color), students execute each step in order and check off completed steps, experiencing how early computers needed very specific instructions.
-
-Dependencies:
-* T34.GK.07: Act out being a "human computer" with picture instructions
-* T34.G1.01: Compare life before and after a technology using picture stories
-
 
 
 ID: T34.G2.01
@@ -56469,6 +55957,7 @@ Description: Using picture cards showing tasks (taking photos, shopping, banking
 Dependencies:
 * T34.G1.01: Compare life before and after a technology using picture stories
 * T01.G1.01: Put pictures in order to plant a seed
+
 
 
 
@@ -56530,25 +56019,6 @@ Dependencies:
 * T34.G2.04: Sequence computing tool pictures from oldest to newest
 
 
-ID: T34.G2.07
-Topic: T34 – Computing History
-Skill: Execute a "punch card" sorting activity with picture strips
-Description: Using picture strips with holes in different positions representing simple codes, students sort the strips by matching hole patterns, experiencing how early computers read punched cards.
-
-Dependencies:
-* T34.G2.04: Sequence computing tool pictures from oldest to newest
-* T34.G1.07: Follow step-by-step picture instructions like early computers
-
-
-ID: T34.G2.08
-Topic: T34 – Computing History
-Skill: Trace how one invention led to another in pictures
-Description: Using picture cards showing invention chains (abacus to calculator to computer), students arrange cards in order and draw arrows showing how each invention helped create the next one.
-
-Dependencies:
-* T34.G2.04: Sequence computing tool pictures from oldest to newest
-* T34.G2.06: Match computing tools to the problems they solved
-
 
 
 ID: T34.G3.01
@@ -56559,6 +56029,7 @@ Description: Students drag milestone cards (first programmable loom 1801, ENIAC 
 Dependencies:
 * T34.G2.01: Complete "then vs now" comparison charts using picture cards
 * T34.G2.04: Sequence computing tool pictures from oldest to newest
+
 
 
 
@@ -56590,6 +56061,7 @@ Dependencies:
 
 
 
+
 ID: T34.G3.03
 Topic: T34 – Computing History
 Skill: Create profile cards for diverse computing pioneers
@@ -56618,14 +56090,15 @@ Dependencies:
 
 
 
+
 ID: T34.G3.05
 Topic: T34 – Computing History
-Skill: Simulate binary counting with on/off switches
-Description: Students use a CreatiCode project with toggle switches representing binary digits (0 and 1) to count from 0 to 15, observing how computers use only two states to represent all numbers.
+Skill: Sequence gaming platform evolution
+Description: Students order gaming platforms chronologically (arcade games 1970s, home consoles 1980s, handheld games 1990s, PC games 2000s, mobile games 2010s, VR 2020s) and write one example game type each platform made popular.
 
 Dependencies:
 * T34.G3.01: Sequence computing milestones on a timeline
-* T34.G2.07: Execute a "punch card" sorting activity with picture strips
+* T34.G3.04: Trace software interface evolution from text to visual
 
 
 ID: T34.G3.06
@@ -56668,15 +56141,6 @@ Dependencies:
 * T34.G3.06: Explain why early computers were room-sized
 
 
-ID: T34.G3.10
-Topic: T34 – Computing History
-Skill: Execute an algorithm like an early human computer
-Description: Students manually execute a simple sorting algorithm (like bubble sort on 5 numbers) step-by-step on paper, tracking each comparison and swap, understanding how human "computers" processed data before electronic computers existed.
-
-Dependencies:
-* T34.G3.05: Simulate binary counting with on/off switches
-* T34.G3.09: Identify the first "bug" story and its meaning
-
 
 
 ID: T34.G4.01
@@ -56690,6 +56154,7 @@ Dependencies:
 * T34.G3.02: Connect computing milestones to everyday activities
 
 
+
 ID: T34.G4.01.01
 Topic: T34 – Computing History
 Skill: Identify a single cause-effect link between two inventions
@@ -56700,6 +56165,7 @@ Dependencies:
 * T34.G3.02: Connect computing milestones to everyday activities
 
 
+
 ID: T34.G4.01.02
 Topic: T34 – Computing History
 Skill: Construct a multi-step cause-effect chain diagram
@@ -56707,6 +56173,7 @@ Description: Students build a diagram with at least three linked inventions show
 
 Dependencies:
 * T34.G4.01.01: Identify a single cause-effect link between two inventions
+
 
 
 
@@ -56721,6 +56188,7 @@ Dependencies:
 
 
 
+
 ID: T34.G4.03
 Topic: T34 – Computing History
 Skill: Trace data storage evolution
@@ -56729,6 +56197,7 @@ Description: Students create a timeline of data storage methods (punch cards, ma
 Dependencies:
 * T34.G3.01: Sequence computing milestones on a timeline
 * T34.G4.01: Construct cause-effect chains in computing history
+
 
 
 
@@ -56749,6 +56218,7 @@ Description: Students match internet milestones (ARPANET, WWW, first search engi
 
 Dependencies:
 * T34.G4.04: Sequence internet evolution milestones
+
 
 
 
@@ -56802,25 +56272,6 @@ Dependencies:
 * T34.G4.04: Sequence internet evolution milestones
 
 
-ID: T34.G4.10
-Topic: T34 – Computing History
-Skill: Simulate a simple sorting network in CreatiCode
-Description: Students build a CreatiCode project that visualizes how a sorting network works (a fixed pattern of comparisons), connecting historical computing methods to visual programming by animating data moving through compare-and-swap operations.
-
-Dependencies:
-* T34.G3.10: Execute an algorithm like an early human computer
-* T34.G4.09: Build a simple computing history quiz in CreatiCode
-
-
-ID: T34.G4.11
-Topic: T34 – Computing History
-Skill: Trace how algorithms evolved for the same problem
-Description: Students research how algorithms for a specific problem (like searching or sorting) evolved over computing history, from simple methods to more efficient ones, explaining why efficiency became critical as data grew.
-
-Dependencies:
-* T34.G4.06: Compare how the same task was programmed across eras
-* T34.G4.07: Explain Moore's Law using historical data
-
 
 
 ID: T34.G5.01
@@ -56831,6 +56282,7 @@ Description: Students research one social movement where computing was significa
 Dependencies:
 * T34.G4.01: Construct cause-effect chains in computing history
 * T34.G4.02: Compare regional computing adoption
+
 
 
 
@@ -56845,6 +56297,7 @@ Dependencies:
 
 
 
+
 ID: T34.G5.03
 Topic: T34 – Computing History
 Skill: Conduct interviews about technology changes
@@ -56856,6 +56309,7 @@ Dependencies:
 
 
 
+
 ID: T34.G5.04
 Topic: T34 – Computing History
 Skill: Analyze how internet changed communication
@@ -56864,6 +56318,7 @@ Description: Students compare pre-internet and post-internet communication metho
 Dependencies:
 * T34.G4.04: Sequence internet evolution milestones
 * T34.G5.01: Investigate a social movement where computing played a key role
+
 
 
 
@@ -56928,25 +56383,6 @@ Dependencies:
 * T34.G5.06: Trace the evolution of programming languages
 
 
-ID: T34.G5.11
-Topic: T34 – Computing History
-Skill: Simulate early text-based computing in CreatiCode
-Description: Students create a CreatiCode project simulating a text-based command interface (like early DOS or Unix), where users type simple commands and see text responses, understanding how users interacted with computers before GUIs.
-
-Dependencies:
-* T34.G4.10: Simulate a sorting network in CreatiCode
-* T34.G5.09: Build a CreatiCode timeline explorer with clickable eras
-
-
-ID: T34.G5.12
-Topic: T34 – Computing History
-Skill: Trace why specific algorithms became famous
-Description: Students research the history of 2-3 famous algorithms (PageRank, RSA encryption, Dijkstra's shortest path) and explain the problem each solved, why it mattered historically, and how it changed its field.
-
-Dependencies:
-* T34.G4.11: Trace how algorithms evolved for the same problem
-* T34.G5.06: Trace the evolution of programming languages
-
 
 
 ID: T34.G6.01
@@ -56961,6 +56397,7 @@ Dependencies:
 
 
 
+
 ID: T34.G6.02
 Topic: T34 – Computing History
 Skill: Analyze network computing eras (standalone to internet to cloud)
@@ -56969,6 +56406,7 @@ Description: Students compare standalone computing, internet-connected computing
 Dependencies:
 * T34.G5.04: Analyze how internet changed communication
 * T34.G6.01: Analyze hardware computing eras (mainframe to PC to mobile)
+
 
 
 
@@ -56984,6 +56422,7 @@ Dependencies:
 
 
 
+
 ID: T34.G6.04
 Topic: T34 – Computing History
 Skill: Analyze how user interface evolution expanded access
@@ -56992,6 +56431,7 @@ Description: Students trace UI evolution (command line to GUI to touchscreen to 
 Dependencies:
 * T34.G5.08: Trace the history of computing accessibility
 * T34.G6.03: Evaluate who had access to computing in different eras
+
 
 
 
@@ -57045,35 +56485,40 @@ Dependencies:
 * T34.G6.02: Analyze network computing eras (standalone to internet to cloud)
 
 
-ID: T34.G6.10
-Topic: T34 – Computing History
-Skill: Simulate a historical encryption method in CreatiCode
-Description: Students build a CreatiCode project implementing a historical cipher (Caesar cipher or Enigma-inspired substitution), then explain how cryptography evolved from these simple methods to modern encryption.
-
-Dependencies:
-* T34.G5.11: Simulate early text-based computing in CreatiCode
-* T34.G5.12: Trace why specific algorithms became famous
-
-
-ID: T34.G6.11
-Topic: T34 – Computing History
-Skill: Analyze how data structures evolved to handle scale
-Description: Students research how data structures evolved (arrays to linked lists to hash tables to distributed systems) to handle growing data volumes, explaining why each advancement was necessary as computing scaled.
-
-Dependencies:
-* T34.G5.12: Trace why specific algorithms became famous
-* T34.G6.01: Analyze hardware computing eras (mainframe to PC to mobile)
-
 
 
 ID: T34.G7.01
 Topic: T34 – Computing History
-Skill: Analyze AI development cycles and their causes
-Description: Students analyze the cycles of AI optimism and disappointment (1960s-70s boom, first AI winter, expert systems boom, second winter, modern deep learning boom), identifying what technical, economic, and social factors caused each phase.
+Skill: Construct a comprehensive AI history timeline
+Description: Students create a timeline of major AI breakthroughs (Turing test, expert systems, deep learning, large language models) and analyze how each changed human-computer interaction and what enabled the breakthrough.
 
 Dependencies:
-* T34.G6.09: Trace the history of AI from Turing to ChatGPT
+* T34.G5.01: Investigate a social movement where computing played a key role
+* T34.G5.02: Compare invention timelines across industries
 * T34.G6.01: Analyze hardware computing eras (mainframe to PC to mobile)
+
+
+
+ID: T34.G7.01.01
+Topic: T34 – Computing History
+Skill: Sequence early AI milestones (1950s-1980s)
+Description: Students place early AI milestones (Turing test proposal, first expert systems, early chatbots like ELIZA) on a timeline and explain the limitations of each era.
+
+Dependencies:
+* T34.G5.02: Compare invention timelines across industries
+* T34.G6.01: Analyze hardware computing eras (mainframe to PC to mobile)
+
+
+
+ID: T34.G7.01.02
+Topic: T34 – Computing History
+Skill: Trace modern AI breakthroughs (1990s-present)
+Description: Students create a timeline of modern AI developments (machine learning, deep learning, large language models) and identify what hardware or data advances enabled each breakthrough.
+
+Dependencies:
+* T34.G7.01.01: Sequence early AI milestones (1950s-1980s)
+
+
 
 
 ID: T34.G7.02
@@ -57087,6 +56532,7 @@ Dependencies:
 
 
 
+
 ID: T34.G7.03
 Topic: T34 – Computing History
 Skill: Design a museum-style exhibit about a computing pioneer
@@ -57095,6 +56541,7 @@ Description: Students plan a museum exhibit highlighting a computing pioneer inc
 Dependencies:
 * T34.G5.03: Conduct interviews about technology changes
 * T34.G6.05: Analyze a historical computing failure and its lessons
+
 
 
 
@@ -57120,6 +56567,16 @@ Dependencies:
 
 ID: T34.G7.06
 Topic: T34 – Computing History
+Skill: Compare AI winters and AI booms historically
+Description: Students analyze the cycles of AI optimism and disappointment (1960s-70s boom, first AI winter, expert systems boom, second winter, modern deep learning boom) and identify factors that caused each phase.
+
+Dependencies:
+* T34.G7.01: Construct a comprehensive AI history timeline
+* T34.G7.04: Identify and explain patterns of technological change
+
+
+ID: T34.G7.07
+Topic: T34 – Computing History
 Skill: Analyze the history of human-computer interaction
 Description: Students trace the evolution of HCI (batch processing to command line to GUI to touch to voice to gesture to brain-computer interfaces) and explain how each paradigm changed who could use computers and for what purposes, predicting the next major interaction paradigm.
 
@@ -57128,17 +56585,17 @@ Dependencies:
 * T34.G6.07: Analyze the history of computer graphics and visualization
 
 
-ID: T34.G7.07
+ID: T34.G7.08
 Topic: T34 – Computing History
 Skill: Trace the history of AI assistants in programming
 Description: Students research the evolution of programming assistance tools (syntax highlighting to autocomplete to IntelliSense to AI code completion to AI pair programming) and analyze how each generation changed programmer productivity and required skills.
 
 Dependencies:
-* T34.G7.01: Analyze AI development cycles and their causes
+* T34.G7.01: Construct a comprehensive AI history timeline
 * T34.G7.04: Identify and explain patterns of technological change
 
 
-ID: T34.G7.08
+ID: T34.G7.09
 Topic: T34 – Computing History
 Skill: Compare computing revolutions and their adoption patterns
 Description: Students analyze how different computing revolutions (mainframes, PCs, internet, smartphones, AI) were adopted, comparing initial skepticism, breakthrough moments, and mass adoption timelines to identify patterns that might predict future technology adoption.
@@ -57148,44 +56605,25 @@ Dependencies:
 * T34.G7.04: Identify and explain patterns of technological change
 
 
-ID: T34.G7.09
+ID: T34.G7.10
 Topic: T34 – Computing History
 Skill: Build a "talk to a pioneer" chatbot in CreatiCode
 Description: Students use CreatiCode's ChatGPT blocks to create an interactive chatbot that responds as a computing pioneer (Ada Lovelace, Alan Turing, Grace Hopper), incorporating historical facts about their life, era, and contributions.
 
 Dependencies:
 * T34.G6.08: Build an interactive pioneer biography in CreatiCode
-* T34.G7.01: Analyze AI development cycles and their causes
+* T34.G7.01: Construct a comprehensive AI history timeline
 
 
-ID: T34.G7.10
+ID: T34.G7.11
 Topic: T34 – Computing History
 Skill: Analyze how computing changed one field historically
 Description: Students select one field (medicine, music, science, education) and create a detailed analysis of how computing transformed it over 50 years, including specific technologies, key turning points, and remaining challenges.
 
 Dependencies:
 * T34.G7.04: Identify and explain patterns of technological change
-* T34.G7.08: Compare computing revolutions and their adoption patterns
+* T34.G7.09: Compare computing revolutions and their adoption patterns
 
-
-ID: T34.G7.11
-Topic: T34 – Computing History
-Skill: Build a historical algorithm visualization in CreatiCode
-Description: Students create a CreatiCode project that visualizes how a famous historical algorithm works (binary search, bubble sort, or Dijkstra's algorithm), showing step-by-step execution with animations and explaining why this algorithm was significant.
-
-Dependencies:
-* T34.G6.10: Simulate a historical encryption method in CreatiCode
-* T34.G6.11: Analyze how data structures evolved to handle scale
-
-
-ID: T34.G7.12
-Topic: T34 – Computing History
-Skill: Trace how computational complexity understanding evolved
-Description: Students research the history of computational complexity theory (P vs NP, Big O notation, NP-completeness), explaining how understanding what computers CANNOT do efficiently shaped the field as much as what they CAN do.
-
-Dependencies:
-* T34.G6.11: Analyze how data structures evolved to handle scale
-* T34.G7.04: Identify and explain patterns of technological change
 
 
 
@@ -57195,10 +56633,11 @@ Skill: Write evidence-based technology forecasts with supporting data
 Description: Students analyze historical patterns (processor speeds, adoption curves, AI progress) and write evidence-based forecasts for one future technology (AI tutors, AR classrooms, or quantum computing), citing specific historical data points.
 
 Dependencies:
-* T34.G7.01: Analyze AI development cycles and their causes
+* T34.G7.01: Construct a comprehensive AI history timeline
 * T34.G7.04: Identify and explain patterns of technological change
 * T03.G6.01: Propose a module hierarchy for a medium project
 * T21.G6.01.01: Make a basic ChatGPT request with one parameter
+
 
 
 
@@ -57214,6 +56653,7 @@ Dependencies:
 
 
 
+
 ID: T34.G8.03
 Topic: T34 – Computing History
 Skill: Gather primary sources for computing history research
@@ -57222,6 +56662,7 @@ Description: Students gather primary sources (oral histories, historical documen
 Dependencies:
 * T34.G6.03: Evaluate who had access to computing in different eras
 * T34.G7.03: Design a museum-style exhibit about a computing pioneer
+
 
 
 
@@ -57239,12 +56680,12 @@ Dependencies:
 
 ID: T34.G8.05
 Topic: T34 – Computing History
-Skill: Analyze how AI is transforming programming paradigms
-Description: Students analyze how AI tools (code completion, AI assistants, natural language to code) are changing programming, comparing current changes to historical paradigm shifts (assembly to high-level, procedural to object-oriented) and predicting future developments.
+Skill: Analyze how AI is changing the history of programming
+Description: Students analyze how AI tools (code completion, AI assistants, natural language to code) are changing programming, comparing current changes to historical paradigm shifts and predicting future developments.
 
 Dependencies:
-* T34.G7.01: Analyze AI development cycles and their causes
-* T34.G7.07: Trace the history of AI assistants in programming
+* T34.G7.01: Construct a comprehensive AI history timeline
+* T34.G7.06: Compare AI winters and AI booms historically
 
 
 ID: T34.G8.06
@@ -57283,8 +56724,8 @@ Skill: Predict the future of programming with AI
 Description: Students analyze historical programming paradigm shifts and current AI capabilities to write an evidence-based prediction about how programming might change in 10-20 years, considering what skills will remain valuable and what new skills may be needed.
 
 Dependencies:
-* T34.G7.07: Trace the history of AI assistants in programming
-* T34.G8.05: Analyze how AI is transforming programming paradigms
+* T34.G7.08: Trace the history of AI assistants in programming
+* T34.G8.05: Analyze how AI is changing the history of programming
 
 
 ID: T34.G8.10
@@ -57323,8 +56764,8 @@ Skill: Analyze the evolution of computing education
 Description: Students research how computing education evolved from specialized university courses (1960s) through Logo and BASIC (1980s) to visual programming and AI-assisted learning (2020s), analyzing what made each approach more or less accessible.
 
 Dependencies:
-* T34.G7.06: Analyze the history of human-computer interaction
-* T34.G8.05: Analyze how AI is transforming programming paradigms
+* T34.G7.07: Analyze the history of human-computer interaction
+* T34.G8.05: Analyze how AI is changing the history of programming
 
 
 ID: T34.G8.14
@@ -57333,38 +56774,8 @@ Skill: Create an AI-narrated history presentation in CreatiCode
 Description: Students build a CreatiCode project that uses ChatGPT blocks to generate dynamic narration about computing history events based on user selections, combined with text-to-speech to create an immersive audio-visual history experience.
 
 Dependencies:
-* T34.G7.09: Build a "talk to a pioneer" chatbot in CreatiCode
+* T34.G7.10: Build a "talk to a pioneer" chatbot in CreatiCode
 * T34.G8.10: Create an interactive timeline of computing history
-
-
-ID: T34.G8.15
-Topic: T34 – Computing History
-Skill: Trace how distributed computing evolved to enable modern systems
-Description: Students research the evolution from single-machine computing to distributed systems (mainframes to client-server to peer-to-peer to cloud to edge computing), explaining how each architecture enabled new types of applications and why understanding this history helps design modern systems.
-
-Dependencies:
-* T34.G7.12: Trace how computational complexity understanding evolved
-* T34.G8.02: Analyze a cross-cultural innovation ecosystem with historical context
-
-
-ID: T34.G8.16
-Topic: T34 – Computing History
-Skill: Build a CreatiCode simulation of historical computing constraints
-Description: Students create a CreatiCode project that simulates historical computing constraints (limited memory, slow processing, text-only display), challenging users to solve problems within those constraints and appreciating how modern conveniences evolved.
-
-Dependencies:
-* T34.G7.11: Build a historical algorithm visualization in CreatiCode
-* T34.G8.12: Build a multi-era computing comparison tool in CreatiCode
-
-
-ID: T34.G8.17
-Topic: T34 – Computing History
-Skill: Analyze how programming abstractions evolved to manage complexity
-Description: Students trace the evolution of programming abstractions (machine code to procedures to objects to functional programming to declarative AI), explaining how each layer of abstraction enabled programmers to build increasingly complex systems without managing every detail.
-
-Dependencies:
-* T34.G7.12: Trace how computational complexity understanding evolved
-* T34.G8.05: Analyze how AI is transforming programming paradigms
 
 
 

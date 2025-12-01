@@ -1,0 +1,2154 @@
+================================================================================
+T10 – Lists & Tables: ALL SKILLS ORGANIZED BY GRADE LEVEL
+================================================================================
+
+
+================================================================================
+KINDERGARTEN (10 skills)
+================================================================================
+
+ID: T10.GK.01
+Skill: Classify picture cards into two groups by attribute
+
+Description:
+**Student task:** Drag 4-6 picture cards into 2 colored boxes based on a visible attribute (color, shape, or type). **Visual scenario:** Picture cards show: red ball, blue car, red apple, blue block. Two boxes labeled "Red things" and "Blue things." **Correct answer:** Red ball and red apple go in "Red things" box; blue car and blue block go in "Blue things" box. **Why this matters:** Sorting is the first step in organizing data—computers store related items together in lists. _Implementation note: Drag-drop sorting with visual feedback. Auto-graded by final card positions in boxes. CSTA: EK-ALG-AF-01._
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.02
+Skill: Count items in each sorted group
+
+Description:
+**Student task:** After sorting picture cards into groups, count how many items are in each group and tap the correct count from picture choices. **Visual scenario:** Two boxes after sorting: "Pets" box has 3 animals (cat, dog, fish), "Wild animals" box has 2 animals (lion, bear). Question: "How many pets?" **Correct answer:** Tap the picture showing 3 dots. **Why this matters:** Counting items in a group is like finding the "length" of a list—a key operation programmers use constantly. _Implementation note: Multi-choice with dot representations (1-4 dots). Audio reads numbers on tap. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.01: Classify picture cards into two groups by attribute
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.03
+Skill: Compare group sizes to find which has more
+
+Description:
+**Student task:** Look at two groups of sorted items and tap the group that has more items. **Visual scenario:** Two boxes after sorting: "Circles" box has 4 shapes, "Triangles" box has 2 shapes. Question: "Which group has more?" **Correct answer:** Tap the "Circles" box. **Why this matters:** Comparing group sizes helps us make decisions about data—like finding which team has more players or which category is most popular. _Implementation note: Visual comparison activity with highlighting on selection. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.02: Count items in each sorted group
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.04
+Skill: Add a new item to the correct group
+
+Description:
+**Student task:** Look at two boxes with sorted picture cards. A new picture card appears. Drag it to the correct box. **Visual scenario:** "Animals" box has dog and cat pictures. "Foods" box has apple and banana pictures. New card shows a bird. **Correct answer:** Drag the bird card to the "Animals" box. **Why this matters:** This is like the "add to list" operation—putting a new item where it belongs. _Implementation note: Drag-drop with snap-to-box feedback. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.01: Classify picture cards into two groups by attribute
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.05
+Skill: Find the first and last item in a row
+
+Description:
+**Student task:** Look at a row of 3-5 picture cards arranged from left to right. Tap the first item, then tap the last item. **Visual scenario:** Five picture cards in a row: apple, banana, orange, grape, watermelon. **Correct answer:** Tap apple (first), then tap watermelon (last). _Implementation note: Sequential tap activity with visual order indicators. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T01.GK.03: Find the first and last pictures
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.06
+Skill: Read information from a simple picture table
+
+Description:
+**Student task:** Look at a picture table showing which child likes which fruit. Answer questions by tapping the correct cell. **Visual scenario:** 2x3 table with rows for "Sam" and "Lia", columns for "Fruit" showing apple and banana icons. Question: "What does Sam like?" **Correct answer:** Tap the cell showing Sam's fruit (apple). **Why this matters:** Tables organize information in rows and columns—this is how databases and spreadsheets store data. _Implementation note: Interactive table with cell highlighting on tap. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.01: Classify picture cards into two groups by attribute
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.07
+Skill: Match related items by drawing lines
+
+Description:
+**Student task:** Draw lines or drag to match pairs of related items. **Visual scenario:** Left column shows 3 animals (dog, fish, bird). Right column shows 3 homes (doghouse, fishbowl, nest). **Correct answer:** Dog→doghouse, fish→fishbowl, bird→nest. **Why this matters:** Matching pairs is like a lookup operation—finding related information across two lists. _Implementation note: Line-drawing or drag-drop matching with visual connection feedback. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.01: Classify picture cards into two groups by attribute
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.08
+Skill: Filter items by a special mark and count them
+
+Description:
+**Student task:** Look at a collection of picture cards. Some have a star mark. Tap all cards with stars, then count how many you found. **Visual scenario:** 6 picture cards showing toys. 3 cards have gold stars on them (teddy bear, ball, puzzle). **Correct answer:** Tap the 3 starred cards, then tap "3" from the number choices. **Why this matters:** This is filtering—selecting only the items that match a condition, a core data operation. _Implementation note: Multi-tap selection with counter display. CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.02: Count items in each sorted group
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.09
+Skill: Explain why we group things together using picture cards
+
+Description:
+**Student task:** After sorting picture cards into groups, explain WHY you put certain cards together. Point to each group and say what makes those cards belong together. **Visual scenario:** Student has sorted 6 animal cards into "Pets" (dog, cat, fish) and "Farm animals" (cow, pig, chicken). Student records or tells a partner: "I put dog, cat, and fish together because they live in people's homes. I put cow, pig, and chicken together because they live on farms." **Why this matters:** Explaining your grouping helps others understand your thinking and is the first step toward explaining data structure choices in programming. _Implementation note: Voice recording or partner activity. Teacher/AI evaluates explanation for clear reasoning about shared attributes. CSTA: EK-CS-PC-01._
+
+Dependencies:
+  * T10.GK.01: Classify picture cards into two groups by attribute
+  * T10.GK.04: Add a new item to the correct group
+
+--------------------------------------------------------------------------------
+
+ID: T10.GK.10
+Skill: Find lists and tables in everyday life (picture examples)
+
+Description:
+**Student task:** Look at pictures of real-world items and tap which ones are lists or tables. **Visual scenario:** Four pictures: (A) a grocery shopping list on paper, (B) a single apple, (C) a class schedule showing days and subjects in a grid, (D) a photograph of a dog. **Correct answer:** Tap A (shopping list is a list!) and C (class schedule is a table!). B and D are single items, not collections. **Why this matters:** Lists and tables are everywhere—once you recognize them, you can organize information like a computer does! _Implementation note: Multi-select with picture recognition. Audio explains "A list is a collection of items in order. A table organizes information in rows and columns." CSTA: EK-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.06: Read information from a simple picture table
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 1 (8 skills)
+================================================================================
+
+ID: T10.G1.01
+Skill: Classify items using two combined rules (AND condition)
+
+Description:
+**Student task:** Drag 6-8 items into groups where each item must match TWO rules (e.g., must be both "big" AND "red"). **Visual scenario:** 8 shape cards: big red circle, small red square, big blue triangle, small blue circle, big red square, small red triangle, big blue square, small blue square. Two boxes: "Big AND Red" and "Other." **Correct answer:** Only big red circle and big red square go in "Big AND Red" box; all others go in "Other" box. **Why this matters:** Filtering data often requires checking multiple conditions at once—this is the AND logic computers use. _Implementation note: Two-attribute classification with visual rule indicators. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.01: Classify picture cards into two groups by attribute
+  * T10.GK.04: Add a new item to the correct group
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.02
+Skill: Build a picture tally chart from data
+
+Description:
+**Student task:** Count items in categories and add tally marks or picture icons to show the count. **Visual scenario:** Picture shows 5 students' snack choices: 2 chose apple, 2 chose banana, 1 chose orange. Empty chart has rows for each snack. **Correct answer:** Add 2 tally marks (or 2 apple icons) in apple row, 2 in banana row, 1 in orange row. **Why this matters:** Tally charts are a simple way to collect and organize data—the foundation of data tables. _Implementation note: Interactive chart builder with drag-drop tally marks or icons. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.02: Count items in each sorted group
+  * T10.GK.06: Read information from a simple picture table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.03
+Skill: Locate specific values in a picture table
+
+Description:
+**Student task:** Answer questions by finding and tapping specific cells in a picture table with 3-4 rows and 3-4 columns. **Visual scenario:** 3x3 table showing 3 students (rows) and what they have: pencils, crayons, erasers (columns with number icons). Question: "How many pencils does Lia have?" **Correct answer:** Tap the cell at Lia's row, pencils column showing "5." **Why this matters:** Finding a specific value by row and column is exactly how computers look up data in tables. _Implementation note: Interactive table with question-guided cell selection. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.GK.06: Read information from a simple picture table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.04
+Skill: Identify the row or column with the maximum value
+
+Description:
+**Student task:** Look at a picture table and tap the row or column that has the most items in total. **Visual scenario:** 3x2 table showing students and their points. Row 1 (Sam): 5 stars. Row 2 (Lia): 8 stars. Row 3 (Max): 3 stars. Question: "Which student has the most stars?" **Correct answer:** Tap Lia's row (8 stars). **Why this matters:** Finding the maximum is a key aggregation—like finding the high score or the most popular item. _Implementation note: Visual comparison with highlighting on tap. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.G1.03: Locate specific values in a picture table
+  * T10.GK.03: Compare group sizes to find which has more
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.05
+Skill: Predict and fill missing values in a table pattern
+
+Description:
+**Student task:** Look at a table with a pattern in rows or columns. Some cells are empty. Drag the correct picture or number to fill the missing cells. **Visual scenario:** 3x3 table with alternating colors: Red, Blue, ?, Red, Blue, ?, Red, Blue, ?. **Correct answer:** Fill each ? with Red to continue the Red-Blue-Red pattern. **Why this matters:** Recognizing patterns in data helps predict missing values—a common task in data analysis. _Implementation note: Drag-drop pattern completion with visual feedback. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.G1.03: Locate specific values in a picture table
+  * T01.GK.07: Find the pattern that repeats
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.06
+Skill: Select items matching multiple conditions (intersection)
+
+Description:
+**Student task:** Look at a collection of picture cards. Find and tap all items that match TWO conditions at the same time (e.g., items that are both red AND round). **Visual scenario:** 8 cards showing shapes: red circle, blue circle, red square, green triangle, red triangle, blue square, green circle, red oval. Question: "Find all things that are both RED and ROUND." **Correct answer:** Tap only the red circle. **Why this matters:** This is the intersection of two groups—items that are in BOTH groups at once. _Implementation note: Multi-select activity with AND logic indicator. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.G1.01: Classify items using two combined rules (AND condition)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.07
+Skill: Select items matching either of two conditions (union)
+
+Description:
+**Student task:** Look at a collection of picture cards. Find and tap all items that match EITHER one condition OR another (e.g., items that are red OR round). **Visual scenario:** 8 cards showing shapes: red circle, blue circle, red square, green triangle, red triangle, blue square, green circle, red oval. Question: "Find all things that are RED or ROUND (or both)." **Correct answer:** Tap red circle, blue circle, red square, red triangle, green circle, red oval (6 cards total—anything red OR anything round). **Why this matters:** This is the union of two groups—items that are in EITHER group. Sometimes we want anything that matches at least one rule, not both rules. _Implementation note: Multi-select activity with OR logic indicator. Compare to T10.G1.06 to distinguish AND vs OR. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.G1.06: Select items matching multiple conditions (intersection)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G1.08
+Skill: Decide whether to use one group or two groups for sorting
+
+Description:
+**Student task:** Look at a collection of picture cards and decide: should we sort into ONE group (keep/discard) or TWO groups (category A/category B)? Choose the best sorting strategy. **Visual scenario:** Scenario 1: "We want to find all the red toys." → One group is best (red toys vs. not-red toys). Scenario 2: "We want to organize toys by type." → Two groups make sense (dolls vs. cars). **Correct answer:** Match each scenario to the right sorting approach. **Why this matters:** Choosing the right way to organize data is an important decision programmers make—sometimes one category is enough, sometimes you need multiple categories. _Implementation note: Matching activity connecting scenarios to strategies. CSTA: E1-ALG-AF-01._
+
+Dependencies:
+  * T10.G1.01: Classify items using two combined rules (AND condition)
+  * T10.GK.08: Filter items by a special mark and count them
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 2 (10 skills)
+================================================================================
+
+ID: T10.G2.01
+Skill: Convert a written list into a structured table
+
+Description:
+**Student task:** Read a list of information and fill in a table with labeled rows and columns. **Visual scenario:** Text list: "Sam has 3 apples, Lia has 2 oranges, Max has 5 bananas." Empty table with columns: Name, Fruit, Count. **Correct answer:** Fill 3 rows: (Sam, apples, 3), (Lia, oranges, 2), (Max, bananas, 5). **Why this matters:** Converting unstructured information into organized tables is a key data entry skill. _Implementation note: Interactive table builder with drag-drop or type-in fields. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G1.03: Locate specific values in a picture table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.02
+Skill: Append a new row to an existing table
+
+Description:
+**Student task:** Look at an existing picture table. You're given new information for a new student. Add a new row by filling in all the column values. **Visual scenario:** Table has 2 students with columns: Name, Favorite Color. You get: "Add Tom who likes Green." **Correct answer:** Add row 3: (Tom, Green). **Why this matters:** Adding rows is how tables grow—like adding new entries to a database or spreadsheet. _Implementation note: Interactive row addition with column-guided input. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.01: Convert a written list into a structured table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.03
+Skill: Compare values across two rows in a table
+
+Description:
+**Student task:** Look at two different rows in a table and answer questions about differences or similarities. **Visual scenario:** Table with columns: Student, Math Score, Reading Score. Row 1: (Sam, 85, 90). Row 2: (Lia, 80, 95). Question: "Who has a higher Math score?" **Correct answer:** Sam. "Who has a higher Reading score?" **Correct answer:** Lia. **Why this matters:** Comparing rows helps answer questions like "who performed better?" or "which product costs more?" _Implementation note: Guided comparison questions with row highlighting. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.01: Convert a written list into a structured table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.04
+Skill: Reorder table rows by a column value (manual sorting)
+
+Description:
+**Student task:** Rearrange rows in a simple table to put them in order by one column (e.g., from most to least points). **Visual scenario:** 3-row table: (Sam, 5 points), (Lia, 9 points), (Max, 3 points). Instruction: "Arrange from most to least points." **Correct answer:** Lia (9), Sam (5), Max (3). **Why this matters:** Sorting makes data easier to analyze—finding the top performer or lowest value becomes instant. _Implementation note: Drag-drop row reordering with visual order indicators. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.01: Convert a written list into a structured table
+  * T01.G1.01: Put pictures in order to plant a seed
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.05
+Skill: Filter table rows by marking those matching a condition
+
+Description:
+**Student task:** Look at a table and mark all rows where a specific column matches a condition. **Visual scenario:** 5-row table with student scores. Question: "Mark all students with 10 or more points." Rows: (Sam, 8), (Lia, 12), (Max, 15), (Eva, 6), (Tom, 10). **Correct answer:** Mark Lia, Max, and Tom rows. **Why this matters:** Filtering is how we find relevant data—like finding all orders over $100 or all students who passed. _Implementation note: Multi-select row marking with condition indicator. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.01: Convert a written list into a structured table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.06
+Skill: Count filtered rows that satisfy a condition
+
+Description:
+**Student task:** Look at a table and count how many rows satisfy a condition. **Visual scenario:** 5-row table with student scores: (Sam, 8), (Lia, 12), (Max, 15), (Eva, 6), (Tom, 10). Question: "How many students scored more than 5?" **Correct answer:** 5 students (all of them: Sam 8, Lia 12, Max 15, Eva 6, Tom 10 are all greater than 5). **Why this matters:** Counting filtered results answers questions like "how many people registered?" or "how many errors occurred?" _Implementation note: Count-focused activity with condition highlighting. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.05: Filter table rows by marking those matching a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.07
+Skill: Recognize real-world examples of lists and tables
+
+Description:
+Students transition from picture tables to recognizing that code can have "lists" - ordered collections of items that the computer stores and uses. **Student task:** Look at picture scenarios and tap which ones represent "lists" (ordered collections). **Visual scenario:** Four pictures: (A) shopping list on paper, (B) single ball, (C) music playlist on phone, (D) leaderboard with ranked players. **Correct answer:** Tap A, C, and D (all are ordered collections). **Why this matters:** Lists are everywhere in computing—playlists, contact lists, high scores, search results. Recognizing them prepares you for programming. _Implementation note: Multi-select concept recognition activity. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.01: Convert a written list into a structured table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.08
+Skill: Trace through a table lookup step by step
+
+Description:
+**Student task:** Given a picture table and a lookup question, show the step-by-step process to find the answer. **Visual scenario:** Table shows 4 students (rows) with columns: Name, Pet, Favorite Color. Question: "What pet does Sam have?" Step 1: Find the Name column. Step 2: Go down to find "Sam" row. Step 3: Stay in that row, move to Pet column. Step 4: Read the answer: "Dog." Student taps cells in order to show the lookup path. **Correct answer:** Tap Name header → Sam cell → Pet cell in Sam's row → Say "Dog." **Why this matters:** Tracing step-by-step is how we debug and verify our work—an essential computational thinking skill. _Implementation note: Sequential tap activity showing lookup path with visual trail. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.01: Convert a written list into a structured table
+  * T10.G1.03: Locate specific values in a picture table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.09
+Skill: Connect picture tables to real-world apps
+
+Description:
+**Student task:** Match picture tables to real-world applications that use similar data organization. **Visual scenario:** Three mini-tables: (1) Name-Phone Number table, (2) Day-Subject-Time table, (3) Item-Price table. Three apps: Contacts app, Calendar app, Shopping app. **Correct answer:** Match Name-Phone to Contacts, Day-Subject-Time to Calendar, Item-Price to Shopping. **Why this matters:** The tables you see in apps like contacts and calendars work just like the picture tables you're learning—same rows and columns, just on a screen! _Implementation note: Drag-and-drop matching with real app screenshots. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.07: Recognize real-world examples of lists and tables
+  * T10.G2.01: Convert a written list into a structured table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G2.10
+Skill: Predict and verify table changes after adding or removing rows
+
+Description:
+**Student task:** Look at a table, then predict what it will look like after adding or removing a row. Verify your prediction. **Visual scenario:** Table has 3 students: (Sam, 10 points), (Lia, 8 points), (Max, 12 points). Instruction: "We add a new student: Tom with 7 points." Student draws/selects the new table with 4 rows. Then: "Sam leaves the class." Student shows the table now has 3 rows without Sam. **Correct answer:** After add: 4-row table with Tom at bottom. After remove: 3-row table without Sam, others shift up. **Why this matters:** Predicting changes before making them helps catch mistakes—this is how programmers think before they code! _Implementation note: Table prediction with before/after comparison. CSTA: E2-ALG-AF-01._
+
+Dependencies:
+  * T10.G2.02: Append a new row to an existing table
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 3 (17 skills)
+================================================================================
+
+ID: T10.G3.01.01
+Skill: Create a new list variable
+
+Description:
+Students create a new list variable in the Variables palette by clicking "Make a List" and giving it a descriptive name (e.g., "fruits", "scores", "inventory"). Lists are containers that can hold multiple values, unlike regular variables which hold only one value. Students recognize that this is the first step before any list operations can be performed, and verify the empty list appears in the Variables palette.
+
+Dependencies:
+  * T09.G3.01.01: Create a new variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.01.02
+Skill: Add an item to the end of a list
+
+Description:
+Students use the `add [item] to [list]` block to add items one at a time to the end of a list. They observe how each item is added in sequence (1, 2, 3...) and note that lists grow dynamically as items are added. Students practice adding 3-4 items and use the list monitor to verify the growing list.
+
+Dependencies:
+  * T10.G3.01.01: Create a new list variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.02
+Skill: Read items from a list by position (index starts at 1)
+
+Description:
+Students use the `item (1) of [list]` block to retrieve specific items from a list by their position number (index). The first item is at position 1, second at position 2, etc. Students practice reading different positions and displaying or using the retrieved values, verifying the correct item is returned.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.03
+Skill: Get the length of a list
+
+Description:
+Students use the `length of [list]` block to find how many items are in a list. They observe that as items are added or removed, the length changes accordingly. This is essential for knowing the bounds when accessing list items and avoiding out-of-range errors.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.04.01
+Skill: Delete an item at a specific position
+
+Description:
+Students use the `delete (position) of [list]` block to remove an item from a specific position in the list. They observe how items after the deleted position shift down (e.g., item 3 becomes item 2) and verify that the list length decreases by 1. Students practice deleting items from different positions (beginning, middle, end) and predict the resulting list state.
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T10.G3.03: Get the length of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.04.02
+Skill: Clear all items from a list
+
+Description:
+Students use the `delete all of [list]` block to remove every item from a list at once, returning it to empty. Clearing is useful for starting fresh or resetting for a new game. Students observe that after clearing, the list length becomes 0 and verify the list monitor shows an empty list.
+
+Dependencies:
+  * T10.G3.04.01: Delete an item at a specific position
+  * T10.G3.03: Get the length of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.05
+Skill: Loop through each item in a list
+
+Description:
+Students use the `for each [item] in [list]` block to automatically visit every item in sequence. Unlike counted repeat loops where you specify a number of repetitions, this block iterates through all items regardless of list length. Students perform simple actions on each item (e.g., say each fruit name) and observe that every item is processed exactly once. Keep the list short (3-4 items) and actions simple.
+
+Dependencies:
+  * T07.G3.01: Use a counted repeat loop
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.06
+Skill: Check if a list contains a specific item
+
+Description:
+Students use the `[list] contains [item]?` block to check whether a value exists in a list. They combine this with conditionals to make decisions based on list membership (e.g., "if my fruits list contains 'apple' then say 'I have an apple!'"). Students test with items that are in the list and items that are not.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T08.G3.04: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.07
+Skill: Count items in a list that match a condition
+
+Description:
+Students loop through a short list and count items that match a simple condition (e.g., "count numbers greater than 5" or "count items equal to 'apple'"). They use a counter variable that increments inside a conditional inside a loop. Students predict the count before running and verify their prediction matches the result.
+
+Dependencies:
+  * T10.G3.05: Loop through each item in a list
+  * T08.G3.04: Use a simple if in a script
+  * T09.G3.01.02: Increment and decrement a variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.08
+Skill: Check if a list is empty before accessing
+
+Description:
+Students check whether a list is empty (has zero items) before trying to read from it, to avoid errors. They use the `length of [list] = 0` condition in an if-statement to guard list access. This defensive programming pattern prevents crashes when dealing with lists that might be empty.
+
+Dependencies:
+  * T10.G3.03: Get the length of a list
+  * T08.G3.04: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.09
+Skill: Increment or decrement a list item's value
+
+Description:
+Students use the `change item (position) of [list] by (amount)` block to modify numeric values in a list arithmetically (e.g., increase a player's score by 10, decrease health by 5). This block changes the value in place without needing to manually get-calculate-replace, making score updates and counters much simpler. For young learners who don't know negative numbers, the `reduce item (position) of [list] by (amount)` block provides a simpler way to decrease values. Students verify the change by reading the item before and after modification.
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T09.G3.01.02: Increment and decrement a variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.10
+Skill: Display a list monitor on the stage
+
+Description:
+Students enable the list monitor by checking the checkbox next to the list name in the Variables palette. The monitor displays all items with their positions (1, 2, 3...) and updates in real-time as items are added, removed, or changed. Students use visual feedback to verify list state and debug their programs by watching the monitor while running code.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.11
+Skill: Predict and trace list changes step by step
+
+Description:
+Students trace through a short sequence of list operations (3-5 blocks) and predict the final state of the list. Given blocks like: create list → add "apple" → add "banana" → delete item 1 → add "cherry", students write down what the list contains after each step and predict the final result ["banana", "cherry"]. This builds mental models of how lists work and prepares students for debugging. Students verify predictions by running the code and comparing actual vs expected results.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.04.01: Delete an item at a specific position
+  * T10.G3.10: Display a list monitor on the stage
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.12
+Skill: Debug a list program by identifying wrong positions
+
+Description:
+Students identify and fix bugs in list programs where items are accessed, inserted, or deleted at wrong positions. Given a buggy program that should add items to a shopping cart but produces incorrect results, students use step-by-step execution and list monitors to find where positions are off-by-one or incorrect. They practice common debugging patterns: verifying list contents after each operation, checking that indices are within bounds (1 to length), and understanding how deletions shift subsequent items.
+
+Dependencies:
+  * T10.G3.11: Predict and trace list changes step by step
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.13
+Skill: Use a list to store user inputs
+
+Description:
+Students create interactive programs that collect multiple inputs from users and store them in a list. They use the `ask and wait` block inside a loop to gather several responses (e.g., "Enter 3 favorite foods"), adding each answer to a list. After collection, they display or process the collected data, such as saying all items back to the user. This introduces the practical pattern of building lists dynamically from user interaction rather than hardcoding values.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T07.G3.01: Use a counted repeat loop
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.14
+Skill: Explain to a partner why a list is useful for a problem
+
+Description:
+Students explain their choice to use a list rather than separate variables. Given a scenario (e.g., "store 5 quiz scores"), they articulate to a partner or record: "I used a list because I have MANY similar items, and with a list I can add more items easily, loop through all items, and keep them organized together. If I used 5 separate variables, I couldn't easily add a 6th score or loop through them." Students practice explaining trade-offs: lists are better for collections of similar items, but single variables are fine for one or two distinct values. This communication skill is essential for collaborative programming and code reviews.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.05: Loop through each item in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G3.15
+Skill: Choose list or variables for a simple data storage problem
+
+Description:
+Students analyze a data storage scenario and decide whether to use a list or separate variables. Scenarios include: (A) "Store a player's name, score, and level" → 3 separate variables (different types of data), (B) "Store the names of 10 students" → list (many similar items), (C) "Store whether sound is on or off" → single variable (just one value). Students justify their choice and recognize patterns: lists are for "many of the same kind," variables are for "few different things." This decision-making skill prepares students for designing more complex data solutions.
+
+Dependencies:
+  * T10.G3.01.01: Create a new list variable
+  * T09.G3.01.01: Create a new variable
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 4 (34 skills)
+================================================================================
+
+ID: T10.G4.01.01
+Skill: Find an item's position using built-in block
+
+Description:
+Students use the `item # of [value] in [list]` block to find the position of a value in a list. They understand this returns the index of the first occurrence (or 0 if not found) and practice searching for items in different lists.
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.01.02
+Skill: Implement manual linear search with loop
+
+Description:
+Students implement a simple linear search algorithm by looping through a list, comparing each item to a target value, and reporting the position when found (or "not found" if the loop completes). They use a counter variable for the position and a conditional to check each item. This foundational algorithm skill teaches sequential searching and how the built-in block works internally.
+
+Dependencies:
+  * T10.G3.05: Loop through each item in a list
+  * T08.G3.04: Use a simple if in a script
+  * T09.G3.01.02: Increment and decrement a variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.02
+Skill: Store and retrieve parallel list data
+
+Description:
+Students use two lists in parallel (e.g., "playerNames" and "playerScores") where items at the same index are related. They add items to both lists together and use the same index to retrieve matching data (e.g., "the player at index 2 in names has the score at index 2 in scores"). Students recognize that keeping parallel lists synchronized is critical—adding to one requires adding to the other at the same position.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.03
+Skill: Insert an item at a specific position in a list
+
+Description:
+Students use the `insert [item] at (position) of [list]` block to add items at the beginning, middle, or end of a list. They observe how existing items shift to higher indices to make room and verify the new item appears at the correct position. Students practice inserting at position 1 (prepend), at length+1 (append), and at middle positions.
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T10.G3.03: Get the length of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.04
+Skill: Replace an item in a list
+
+Description:
+Students use the `replace item (position) of [list] with [value]` block to update an existing item without changing the list length. They practice replacing items based on position and recognize the difference between replacing (overwrites in place, same length) and inserting (shifts existing items, length increases).
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.05
+Skill: Use built-in blocks to sort a list
+
+Description:
+Students use CreatiCode's `sort list [list] from [large to small/small to large]` block to sort numeric or alphabetic lists. They observe how the order changes and note that sorting rearranges items by value. Students verify the sort by reading the first and last items to confirm the order direction.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.06.01
+Skill: Find the smallest value in a list
+
+Description:
+Students use the `[smallest v] of list [list]` block to find the minimum value in a numeric list. This block scans all items and returns the lowest value. Students practice with different lists and predict which value will be returned before running the code.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.03: Get the length of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.06.02
+Skill: Find the largest value in a list
+
+Description:
+Students use the `[largest v] of list [list]` block to find the maximum value in a numeric list. This block scans all items and returns the highest value. Students compare this to finding smallest and recognize when to use min vs max operations.
+
+Dependencies:
+  * T10.G4.06.01: Find the smallest value in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.06.03
+Skill: Calculate the sum of all values in a list
+
+Description:
+Students use the `[sum v] of list [list]` block to add up all numeric values in a list. This is useful for computing totals (total points, total money). Students verify results by manual addition with small lists to build confidence in the block's behavior.
+
+Dependencies:
+  * T10.G4.06.01: Find the smallest value in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.06.04
+Skill: Calculate the average of values in a list
+
+Description:
+Students use the `[average v] of list [list]` block to find the mean of all numeric values. Average represents a typical/central value and equals sum divided by length. Students apply this to practical scenarios like grade averages, temperature averages, and game score averages.
+
+Dependencies:
+  * T10.G3.03: Get the length of a list
+  * T10.G4.06.03: Calculate the sum of all values in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.06.05
+Skill: Find the median value in a list
+
+Description:
+Students use the `[median v] of list [list]` block to find the middle value when sorted. Median differs from average because it is less affected by outliers. Students identify scenarios where median is more useful than average (income data, test scores with extreme values) by comparing both measures on lists with outliers.
+
+Dependencies:
+  * T10.G4.05: Use built-in blocks to sort a list
+  * T10.G4.06.04: Calculate the average of values in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.07
+Skill: Find the maximum or minimum item in a list manually
+
+Description:
+Students write a loop to find the largest or smallest item in a numeric list without using built-in blocks. They initialize a "best so far" variable with the first item, loop through remaining items comparing each to the current best, and update the best when a better value is found. Students trace through a 5-item list and track how the "best so far" variable changes. This manual algorithm builds algorithmic thinking for aggregation operations.
+
+Dependencies:
+  * T10.G3.05: Loop through each item in a list
+  * T08.G3.04: Use a simple if in a script
+  * T09.G3.01.02: Increment and decrement a variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.08
+Skill: Filter items from a list based on a condition
+
+Description:
+Students loop through a list and build a new filtered list containing only items that satisfy a condition (e.g., "keep only scores > 50"). They create an empty result list, use conditionals inside a loop to check each item, and add matching items to the result list. Students verify the filtered list contains exactly the items that match the condition.
+
+Dependencies:
+  * T10.G3.05: Loop through each item in a list
+  * T08.G3.04: Use a simple if in a script
+  * T10.G3.01.02: Add an item to the end of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.09
+Skill: Build a high score list with parallel lists
+
+Description:
+Students create a leaderboard using two parallel lists (names and scores). When a new score is added, they find the correct position to insert it (to keep scores sorted in descending order) and insert both the name and score at matching positions. Students verify that the leaderboard remains sorted after each insertion.
+
+Dependencies:
+  * T10.G4.01.02: Implement manual linear search with loop
+  * T10.G4.02: Store and retrieve parallel list data
+  * T10.G4.03: Insert an item at a specific position in a list
+  * T10.G4.05: Use built-in blocks to sort a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.10
+Skill: Swap two items in a list
+
+Description:
+Students swap the positions of two items in a list using a temporary variable. They store one item in the temp variable, replace it with the other item, then put the temp value in the second position. Students trace through the three-step swap process and verify both items exchange positions correctly. This pattern is a building block for sorting algorithms.
+
+Dependencies:
+  * T10.G4.04: Replace an item in a list
+  * T09.G3.01.02: Increment and decrement a variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.11.01
+Skill: Copy one list to another (replacing contents)
+
+Description:
+Students use the `copy [list1] to [list2]` block to duplicate a list. This REPLACES all items in list2 with items from list1, so list2's original contents are lost. After copying, both lists have identical items but remain separate (changing one doesn't affect the other). Students verify independence by modifying one list and confirming the other remains unchanged.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.05: Loop through each item in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.11.02
+Skill: Append one list to another (adding to end)
+
+Description:
+Students use the `append [list1] to [list2]` block to add all items from list1 to the END of list2. This PRESERVES list2's original items and adds list1's items below them. Students compare append vs. copy and identify when each is appropriate: copy for backup/duplication, append for combining datasets.
+
+Dependencies:
+  * T10.G4.11.01: Copy one list to another (replacing contents)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.12
+Skill: Split a text string into a list
+
+Description:
+Students use the `set [list] to split of [text] with splitter [delimiter]` block to convert text into a list of items (e.g., split "apple,banana,orange" by "," to get a list of three fruits). Students experiment with different delimiters (comma, space, newline) and verify the resulting list contains the expected items. This introduces text processing and list creation from external data.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T09.G4.01: Use addition (+) in variable expressions
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.13
+Skill: Join list items into a text string
+
+Description:
+Students use the `join [list] into text with [delimiter]` block to combine list items into a single text string (e.g., join ["red", "green", "blue"] with ", " to get "red, green, blue"). This is the inverse of split and is useful for displaying list contents or saving list data as text.
+
+Dependencies:
+  * T10.G4.12: Split a text string into a list
+  * T09.G4.01: Use addition (+) in variable expressions
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.14
+Skill: Reverse the order of items in a list
+
+Description:
+Students use the `reverse [list]` block to flip item order (first becomes last, last becomes first). They observe the list monitor to see position changes. Reversing is useful for converting ascending to descending order, reversing time sequences, or inverting rankings.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.15
+Skill: Randomly shuffle items in a list
+
+Description:
+Students use the `reshuffle [list] randomly` block to randomly rearrange all items. Each shuffle produces a different random order. Applications include shuffling cards, randomizing quiz questions, or creating random starting positions. Students note that reshuffling destroys the original order (make a copy first if needed).
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.16.01
+Skill: Generate a list of random numbers with options
+
+Description:
+Students use the `set [list] to (N) random whole numbers between (min) and (max) [no repetition/allow repetition]` block to populate a list with random values. They select whether to allow duplicate numbers and apply this for generating test data, simulating dice rolls, or creating random scores.
+
+Dependencies:
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G3.03: Get the length of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.16.02
+Skill: Generate seeded random list
+
+Description:
+Students use the seeded random block `set [list] to (N) random numbers with seed (SEED)` which generates the same sequence when using the same seed. This enables reproducible randomness for games (same level layout with same seed) and testing scenarios requiring consistent random data. Students verify that the same seed always produces the same list.
+
+Dependencies:
+  * T10.G4.16.01: Generate a list of random numbers with options
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.17
+Skill: Delete an item from a list by value
+
+Description:
+Students use the `delete value [item] from [list]` block to remove the first occurrence of a specific value (e.g., delete "apple" from the fruits list). This finds and removes the item without needing to know its position, which differs from deleting by index. Students test with items that exist (removes first match) and items that don't exist (no change).
+
+Dependencies:
+  * T10.G3.04.01: Delete an item at a specific position
+  * T10.G3.06: Check if a list contains a specific item
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.18
+Skill: Loop through list indices
+
+Description:
+Students use the `for each index [i] in [list]` block to iterate through list positions (1, 2, 3...) instead of values. This is necessary when they need to know both the position and the value, or when they need to modify items while looping. Students compare index-based iteration to value-based iteration and identify use cases for each.
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T10.G3.05: Loop through each item in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.19
+Skill: Find an item containing a substring
+
+Description:
+Students use the `# of item containing [substring] in [list]` block to find the first list item that includes a partial match (e.g., find first name containing "son" in a names list). Students compare exact matching (T10.G4.01.01) to partial matching and identify when each is appropriate.
+
+Dependencies:
+  * T10.G4.01.01: Find an item's position using built-in block
+  * T09.G4.01: Use addition (+) in variable expressions
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.20
+Skill: Select multiple items from a list by criteria
+
+Description:
+Students use the `insert (N) [largest/smallest/random] items from [list1] into [list2]` block to extract top/bottom/random items efficiently. Applications include leaderboards (top 10 scores), random sampling (pick 5 random quiz questions), or filtering extremes (3 coldest days). Students verify results by checking that list2 contains exactly N items matching the specified criteria.
+
+Dependencies:
+  * T10.G4.05: Use built-in blocks to sort a list
+  * T10.G4.06.01: Find the smallest value in a list
+  * T10.G4.11.02: Append one list to another (adding to end)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.21
+Skill: Extract a sublist from a range of positions
+
+Description:
+Students create a new list containing items from a specific range within an existing list. Using a loop from start position to end position, they read each item from the source list and add it to a new result list. For example, to extract items 3-5 from a 10-item list, they loop from 3 to 5, reading and adding each item. This pattern is useful for pagination (show items 11-20), processing chunks of data, or splitting a list into smaller pieces.
+
+Dependencies:
+  * T10.G3.02: Read items from a list by position (index starts at 1)
+  * T10.G3.01.02: Add an item to the end of a list
+  * T07.G3.01: Use a counted repeat loop
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.22
+Skill: Transform each item in a list using a loop
+
+Description:
+Students iterate through a list and apply a transformation to each item (e.g., double all numbers, convert all text to uppercase, add a prefix to each name). They use a loop with index access to read each item, transform it, and replace it in the same position. This pattern introduces the map operation concept where every element is processed uniformly. Students trace through a 4-item list showing the before and after state.
+
+Dependencies:
+  * T10.G4.18: Loop through list indices
+  * T10.G4.04: Replace an item in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.23
+Skill: Reduce a list to a single value using accumulation
+
+Description:
+Students implement the accumulator pattern to reduce a list to a single result: start with an initial value (0 for sum, 1 for product, empty string for concatenation), loop through all items, and combine each item with the accumulator. Beyond sum (already covered), students apply this pattern to compute products of all numbers, concatenate all strings, or find the longest string. This introduces the reduce/fold concept foundational to functional programming.
+
+Dependencies:
+  * T10.G3.05: Loop through each item in a list
+  * T10.G4.06.03: Calculate the sum of all values in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.24
+Skill: Predict list state after a sequence of operations
+
+Description:
+Students read a sequence of 5-7 list operations (add, delete, insert, replace) and predict the final list contents without running the code. They trace through each operation step by step, writing the list state after each step, then verify their prediction by running the code. This skill emphasizes understanding how each operation modifies the list and develops mental execution abilities critical for debugging and algorithm design.
+
+Dependencies:
+  * T10.G3.11: Predict and trace list changes step by step
+  * T10.G4.03: Insert an item at a specific position in a list
+  * T10.G4.04: Replace an item in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.25
+Skill: Debug parallel list synchronization errors
+
+Description:
+Students identify and fix bugs where parallel lists become out of sync—a common error when working with related data in separate lists. Given buggy code where names and scores lists don't match up correctly (e.g., inserting into one list but not the other, or deleting at different positions), students trace through to find where synchronization breaks and fix the code. They develop the rule: "When modifying parallel lists, ALWAYS modify both at the same position." Students practice debugging scenarios: (1) adding to only one list, (2) deleting from wrong positions, (3) inserting at mismatched indices.
+
+Dependencies:
+  * T10.G4.02: Store and retrieve parallel list data
+  * T10.G4.03: Insert an item at a specific position in a list
+  * T10.G3.12: Debug a list program by identifying wrong positions
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.26
+Skill: Design a list structure for a game inventory system
+
+Description:
+Students design and implement a simple inventory system using lists. They identify what data needs to be stored (item names, quantities, maybe categories), decide between one list vs. parallel lists vs. list of formatted strings, and implement add/remove/display operations. Example: A simple game where the player collects items. Students design: items list ["sword", "shield", "potion"], quantities list [1, 1, 3]. They implement: add item (check if exists, increment or add new), remove item (decrement or remove if zero), display inventory (loop through and show). This project-based skill applies list concepts to a real game scenario.
+
+Dependencies:
+  * T10.G4.02: Store and retrieve parallel list data
+  * T10.G4.01.01: Find an item's position using built-in block
+  * T10.G3.09: Increment or decrement a list item's value
+
+--------------------------------------------------------------------------------
+
+ID: T10.G4.27
+Skill: Compare two lists for equality
+
+Description:
+Students write code to check if two lists contain the same items in the same order. They first check if lengths match, then loop through comparing each position. If any position differs, the lists are not equal. Students trace through comparisons and understand this is different from checking if lists have the same items in ANY order (which would require sorting or more complex checking). Applications include: verifying a copy was made correctly, checking if a shuffle changed anything, or validating user input matches expected sequence.
+
+Dependencies:
+  * T10.G4.18: Loop through list indices
+  * T10.G3.03: Get the length of a list
+  * T08.G3.04: Use a simple if in a script
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 5 (29 skills)
+================================================================================
+
+ID: T10.G5.01
+Skill: Identify table structure (rows, columns, cells)
+
+Description:
+Students identify and label the parts of a table: rows (horizontal, numbered), columns (vertical, named), and cells (values at row-column intersections). Given a sample table, they state the number of rows and columns, identify the value at a specific row-column intersection, and explain that each row represents one record while each column represents one attribute. Students recognize that a table is like having multiple parallel lists (one list per column) organized together, where all lists have the same length and items at the same position are related. A table makes it easier to manage related data than using many separate parallel lists.
+
+Dependencies:
+  * T10.G4.02: Store and retrieve parallel list data
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.02
+Skill: Create a table and add columns
+
+Description:
+Students create an empty table variable and use `add column [name] at position (n) to table [table]` to define the table structure. Columns must be created before data can be added to them, and the position parameter controls column order (1 = first column, 2 = second, etc.). Students verify the table structure by examining the table monitor.
+
+Dependencies:
+  * T10.G5.01: Identify table structure (rows, columns, cells)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.03
+Skill: Add rows of data to a table
+
+Description:
+Students use the `add to table [table]: [value1] [value2] ...` block to add rows of data. They ensure the number of values matches the number of columns and understand that rows are numbered starting from 1.
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.04
+Skill: Read a cell value from a table
+
+Description:
+Students use the `item at row (n) column [name] of table [table]` block to retrieve a specific value. They practice reading different cells and using the values in their programs.
+
+Dependencies:
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.05
+Skill: Update a cell value in a table
+
+Description:
+Students use the `replace item at row (n) column [name] of table [table] with [value]` block to modify existing data. They update cells based on position and understand this changes the table in place.
+
+Dependencies:
+  * T10.G5.04: Read a cell value from a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.06.01
+Skill: Get the number of rows in a table
+
+Description:
+Students use the `row count of table [table]` block to find how many rows exist in a table. They understand this is essential for loops (iterate from 1 to row count), checking if table is empty (row count = 0), and reporting table size.
+
+Dependencies:
+  * T10.G5.04: Read a cell value from a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.06.02
+Skill: Find which row contains a value
+
+Description:
+Students use the `row # of [value] in column [name] in table [table]` block to search for the first row where a specific column equals a value. They understand this returns the row number (index) or 0 if not found, enabling them to locate data for reading or updating.
+
+Dependencies:
+  * T10.G5.06.01: Get the number of rows in a table
+  * T10.G4.01.01: Find an item's position using built-in block
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.07
+Skill: Loop through table rows to compute aggregates
+
+Description:
+Students use a counted loop from 1 to `row count of table` to iterate through all rows. They access values in a specific column and compute totals (sum), counts, or find maximum/minimum values using a variable accumulator.
+
+Dependencies:
+  * T07.G3.01: Use a counted repeat loop
+  * T10.G5.06.01: Get the number of rows in a table
+  * T10.G5.04: Read a cell value from a table
+  * T09.G3.01.02: Increment and decrement a variable
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.08
+Skill: Use built-in table aggregate blocks
+
+Description:
+Students use CreatiCode's `[sum/average/smallest/largest/median] of column [name] in table [table]` blocks to compute statistics on a column without writing a loop. They compare this to manual aggregation using loops from the previous skill.
+
+Dependencies:
+  * T10.G5.07: Loop through table rows to compute aggregates
+  * T10.G4.06.01: Find the smallest value in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.09.01
+Skill: Delete a single row by index
+
+Description:
+Students use the `delete row (n) of table [table]` block to remove a specific row by its position number. They observe how remaining rows shift up (row 4 becomes row 3) and understand the row count decreases by 1.
+
+Dependencies:
+  * T10.G5.06.01: Get the number of rows in a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.09.02
+Skill: Delete rows matching a condition
+
+Description:
+Students use the `delete rows with column [name] of value [v] from table [table]` block to remove ALL rows where a specific column equals a value. They understand this can delete multiple rows at once (e.g., delete all students in grade 8) and is more efficient than looping to delete one by one.
+
+Dependencies:
+  * T10.G5.09.01: Delete a single row by index
+  * T10.G5.06.02: Find which row contains a value
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.09.03
+Skill: Clear all rows from a table
+
+Description:
+Students use the `delete all rows from table [table]` block to remove all data while preserving the column structure. They understand this is useful for resetting a table for new data without recreating columns, and compare this to deleting entire table vs. just clearing data.
+
+Dependencies:
+  * T10.G5.09.01: Delete a single row by index
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.10
+Skill: Convert between lists and tables
+
+Description:
+Students convert a list into a single-column table using available table operations and extract a column from a table into a list by looping through rows (or using a dedicated block if available). They understand when each data structure is more appropriate.
+
+Dependencies:
+  * T10.G5.03: Add rows of data to a table
+  * T10.G3.01.02: Add an item to the end of a list
+  * T07.G3.01: Use a counted repeat loop
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.11.01
+Skill: Add a column at a specific position
+
+Description:
+Students use the `add column [name] at position (n) to table [table]` block to insert a new column at a specific position (1 = first column, 2 = second, etc.). They understand existing columns shift right to make room, and the new column starts empty. They practice adding columns at beginning, middle, and end.
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.11.02
+Skill: Delete a single column
+
+Description:
+Students use the `delete column [name] from table [table]` block to permanently remove a column and ALL its data. They understand this cannot be undone, remaining columns shift left, and the table structure changes. They identify when column deletion is appropriate vs. just clearing cell values.
+
+Dependencies:
+  * T10.G5.11.01: Add a column at a specific position
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.11.03
+Skill: Remove all columns from a table
+
+Description:
+Students use the `delete all columns from table [table]` block to completely reset a table to empty structure (no columns, no rows). They understand this is more destructive than deleting all rows (which keeps columns) and use this when completely restructuring a table.
+
+Dependencies:
+  * T10.G5.11.02: Delete a single column
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.12
+Skill: Copy list data to table column
+
+Description:
+Students use the `copy list [list] to column [name] of table [table]` block to populate or replace an entire column with list values. They understand this requires the column to already exist and will overwrite existing data in that column.
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+  * T10.G3.01.02: Add an item to the end of a list
+  * T10.G5.10: Convert between lists and tables
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.13
+Skill: Insert a row at a specific position
+
+Description:
+Students use `insert at row (n) of table [table]: [cell1] [cell2] ...` to add a row at a specific position, shifting existing rows down. They understand the difference between appending (always adds at end) and inserting (can add anywhere).
+
+Dependencies:
+  * T10.G5.03: Add rows of data to a table
+  * T10.G4.03: Insert an item at a specific position in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.14
+Skill: Replace an entire row in a table
+
+Description:
+Students use `replace row (n) of table [table] with: [cell1] [cell2] ...` to overwrite all values in a row at once. They compare this to updating individual cells (T10.G5.05) and understand when replacing entire rows is more efficient.
+
+Dependencies:
+  * T10.G5.05: Update a cell value in a table
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.15
+Skill: Get an entire row as a text string
+
+Description:
+Students use `row (n) of table [table] separator [sep]` to extract all values from a row as a single text string with specified separator. They use this to display row data, save row snapshots, or pass row data to other parts of the program. They understand this returns text (e.g., "apple,banana,orange"), not a list data structure.
+
+Dependencies:
+  * T10.G5.04: Read a cell value from a table
+  * T10.G5.10: Convert between lists and tables
+  * T10.G4.12: Split a text string into a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.16
+Skill: Find a row by partial match
+
+Description:
+Students use `row # of item containing [substring] in column [name] in table [table]` to find the first row where a column value includes a substring (e.g., find student with "son" in last name). They compare exact vs partial matching.
+
+Dependencies:
+  * T10.G5.06.02: Find which row contains a value
+  * T10.G4.19: Find an item containing a substring
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.17
+Skill: Increment or decrement a table cell value
+
+Description:
+Students use `change item at row (n) column [name] of table [table] by (amount)` to modify numeric cell values arithmetically (e.g., increase a player's score by 10, decrease inventory by 3). For young learners, the `reduce item at row (n) column [name] of table [table] by (amount)` block provides a simpler way to decrease values without negative numbers. Students compare this to replacement (T10.G5.05) and recognize when arithmetic modification is more efficient than get-calculate-replace patterns.
+
+Dependencies:
+  * T10.G5.05: Update a cell value in a table
+  * T10.G5.04: Read a cell value from a table
+  * T10.G3.09: Increment or decrement a list item's value
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.18
+Skill: Show and hide table monitors
+
+Description:
+Students use `show table [table]` and `hide table [table]` blocks to display or hide the table monitor on the stage. Applications include debugging programs by observing table state, showing results to users, or hiding implementation details during gameplay.
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+  * T09.G3.01.04: Display variable value on stage using the variable monitor
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.19
+Skill: Build a filtered table manually using conditionals
+
+Description:
+Students create a new table containing only rows that match a specific condition by looping through the source table and using if-statements. For each row, they check if a column value meets a criterion (e.g., score > 80), and if so, add that row to a result table. This manual filtering approach builds the algorithmic thinking needed before using advanced built-in filter operations in Grade 6. Students trace through 5-7 sample rows and verify their filtered result contains exactly the matching rows.
+
+Dependencies:
+  * T10.G5.06.01: Get the number of rows in a table
+  * T10.G5.04: Read a cell value from a table
+  * T10.G5.03: Add rows of data to a table
+  * T08.G4.03: Combine two conditions with AND
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.20
+Skill: Debug table programs by tracing row and column access
+
+Description:
+Students identify and fix bugs in table programs where cells are accessed at wrong row-column combinations, rows are skipped in loops, or data is written to incorrect positions. Given a buggy program that should update a student gradebook but produces incorrect results, students use step-by-step execution and table monitors to trace which cells are being read or written. They practice common debugging patterns: logging row/column indices during loops, verifying cell values match expectations, and checking loop bounds against row count.
+
+Dependencies:
+  * T10.G5.04: Read a cell value from a table
+  * T10.G5.07: Loop through table rows to compute aggregates
+  * T10.G3.12: Debug a list program by identifying wrong positions
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.21
+Skill: Compare values across two columns in the same row
+
+Description:
+Students write programs that compare values in different columns of the same row to make decisions or compute derived values. Examples: compare "budget" and "spent" columns to find rows that are over budget, compare "expected" and "actual" columns to calculate differences, or compare "score1" and "score2" columns to determine which is higher. Students loop through rows, read both column values, apply comparison logic, and either flag rows, update a third column, or count matches.
+
+Dependencies:
+  * T10.G5.04: Read a cell value from a table
+  * T10.G5.07: Loop through table rows to compute aggregates
+  * T08.G4.03: Combine two conditions with AND
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.22
+Skill: Compare tables vs parallel lists and justify choice
+
+Description:
+Students analyze scenarios and decide whether parallel lists or a table is the better data structure, then justify their choice. Comparison factors: (1) Tables keep related data visibly together, making it harder to accidentally desynchronize; (2) Tables have built-in lookup and aggregate operations; (3) Parallel lists may be simpler for very basic needs. Given scenarios like "track 3 properties for 20 students," students explain: "A table is better because all student data stays in one row—I can't accidentally add a name without adding a score. Plus I can sort the whole table by any column." Students practice articulating trade-offs to a partner or in writing.
+
+Dependencies:
+  * T10.G5.01: Identify table structure (rows, columns, cells)
+  * T10.G4.02: Store and retrieve parallel list data
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.23
+Skill: Model a real-world scenario with table schema design
+
+Description:
+Students design a table structure to model a real-world scenario they choose (or are given). Steps: (1) Identify what "things" need to be tracked (these become rows), (2) Identify what properties each thing has (these become columns), (3) Choose appropriate column names, (4) Add sample data to verify the design works. Example scenarios: classroom seating chart, pet adoption records, library book tracking, sports team roster. Students present their design, explain why they chose those columns, and demonstrate with 3-5 sample rows. This design-thinking skill prepares students for database modeling.
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G5.24
+Skill: Verify table operations produce expected results
+
+Description:
+Students develop verification habits by checking that table operations produce correct results. Verification techniques: (1) Check row count before and after operations (did add increase by 1? did delete decrease by 1?), (2) Read back a cell value after updating to confirm the change, (3) Use table monitors to visually verify state, (4) Test edge cases (empty table, single row, first/last row operations). Given a table operation to perform, students write verification code that confirms the operation succeeded. This defensive programming skill prevents silent bugs in data manipulation.
+
+Dependencies:
+  * T10.G5.06.01: Get the number of rows in a table
+  * T10.G5.05: Update a cell value in a table
+  * T10.G5.18: Show and hide table monitors
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 6 (22 skills)
+================================================================================
+
+ID: T10.G6.01
+Skill: Sort a table by a column
+
+Description:
+Students use CreatiCode's `sort table [table] by column [name] [large to small/small to large]` block to reorder rows based on values in a column. They understand sorting preserves row integrity (all columns in a row stay together). Students verify the sort worked by reading cell values before and after.
+
+Dependencies:
+  * T10.G4.05: Use built-in blocks to sort a list
+  * T10.G5.04: Read a cell value from a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.02
+Skill: Filter table rows based on a condition
+
+Description:
+Students loop through a table and identify rows where a column value meets a condition (e.g., "find all students with score > 80"). They collect matching row numbers into a list or build a new filtered table containing only matching rows. Students verify their filter by checking that all rows in the result satisfy the condition.
+
+Dependencies:
+  * T10.G5.19: Build a filtered table manually using conditionals
+  * T08.G5.02: Use compound conditions with and/or/not
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.03
+Skill: Copy and append tables
+
+Description:
+Students use `copy table [t1] into [t2]` to duplicate a table and `append table [t1] to [t2]` to combine tables vertically. Vertical appending adds new rows below existing rows; both tables must have matching columns for append to work correctly.
+
+Dependencies:
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.04
+Skill: Use table lookup to find related data
+
+Description:
+Students use the `item in column [return_col] of [table] where column [search_col] equals [value]` block to look up data. For example, find a student's grade by looking up their name, similar to VLOOKUP in spreadsheets.
+
+Dependencies:
+  * T10.G5.06.02: Find which row contains a value
+  * T10.G5.04: Read a cell value from a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.05
+Skill: Group data and compute aggregates per group
+
+Description:
+Students use CreatiCode's `set table [result] to [method] of column [value_col] in table [source] by column [group_col]` block to group rows by a category and compute statistics (sum, average, count) for each group, creating a summary table.
+
+Dependencies:
+  * T10.G5.08: Use built-in table aggregate blocks
+  * T10.G6.02: Filter table rows based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.06
+Skill: Use set operations on lists
+
+Description:
+Students implement set operations like union (all unique items from both lists), intersection (only items in both lists), and difference (items in list1 but not list2) using loops and conditionals. They understand mathematical set concepts applied to lists.
+
+Dependencies:
+  * T10.G4.08: Filter items from a list based on a condition
+  * T10.G3.06: Check if a list contains a specific item
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.07
+Skill: Remove duplicate items from a list
+
+Description:
+Students write code to remove duplicate values from a list, keeping only one instance of each unique value. They loop through the list, check if each item already exists in a result list, and add only unique items.
+
+Dependencies:
+  * T10.G3.06: Check if a list contains a specific item
+  * T10.G4.08: Filter items from a list based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.08
+Skill: Shuffle table rows randomly
+
+Description:
+Students use the `reshuffle table [table] randomly` block to randomize row order while keeping row integrity (all columns in a row stay together). Applications include randomizing quiz questions stored in tables, shuffling game data, or anonymizing datasets for privacy.
+
+Dependencies:
+  * T10.G4.15: Randomly shuffle items in a list
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.09
+Skill: Create and populate a nested list (2D array)
+
+Description:
+Students create a list where each item is itself a list, forming a 2D grid structure. For example, a 3x3 tic-tac-toe board can be represented as a list of 3 rows, where each row is a list of 3 cells. Students create the structure by making an outer list, then adding inner lists as items. They populate cells by first accessing the inner list, then setting items within it. This introduces the concept of nested data structures as an alternative to tables for grid-based data.
+
+Dependencies:
+  * T10.G4.02: Store and retrieve parallel list data
+  * T10.G4.03: Insert an item at a specific position in a list
+  * T10.G4.04: Replace an item in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.10
+Skill: Access elements in a nested list using row and column indices
+
+Description:
+Students read and write values in a 2D list using two indices: first to select the row (outer list item), then to select the column (inner list item). For example, to get the value at row 2, column 3 of a grid, they use `item 3 of (item 2 of grid)`. Students practice navigating the nested structure and recognize that accessing requires two steps: outer index first, then inner index.
+
+Dependencies:
+  * T10.G6.09: Create and populate a nested list (2D array)
+  * T10.G4.18: Loop through list indices
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.11
+Skill: Iterate through all elements of a 2D array with nested loops
+
+Description:
+Students use nested loops to visit every cell in a 2D array: the outer loop iterates through rows (1 to number of rows), and the inner loop iterates through columns (1 to number of columns in that row). For each cell, they perform an operation like summing values, finding the maximum, or checking for a condition. Students trace through a 3x3 grid and predict the order in which cells are visited (row-major order).
+
+Dependencies:
+  * T10.G6.10: Access elements in a nested list using row and column indices
+  * T07.G6.01: Trace nested loops with variable bounds
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.12
+Skill: Implement queue operations (enqueue and dequeue)
+
+Description:
+Students implement queue behavior using a list: enqueue (add to end), dequeue (remove and return first item), and peek (read first item without removing). They use `add [item] to [queue]` for enqueue, `item (1) of [queue]` with `delete (1) of [queue]` for dequeue, and recognize FIFO (First-In-First-Out) behavior. Applications include task queues (process tasks in order received), print queues, breadth-first traversal, and simulating waiting lines. Students contrast FIFO (queue) with LIFO (stack) behavior by tracing the same operations on both data structures.
+
+Dependencies:
+  * T10.G4.03: Insert an item at a specific position in a list
+  * T10.G3.04.01: Delete an item at a specific position
+  * T10.G3.03: Get the length of a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.13
+Skill: Use frequency counting with lists
+
+Description:
+Students count occurrences of each unique value in a list by using parallel lists (one for unique values, one for counts). They loop through the source list, check if each item exists in the values list, and either increment its count or add a new entry. This technique enables finding the most/least frequent items, creating histograms, and analyzing data distributions. Students apply this to real scenarios like counting votes, tallying survey responses, or finding the mode of a dataset.
+
+Dependencies:
+  * T10.G4.02: Store and retrieve parallel list data
+  * T10.G4.01.01: Find an item's position using built-in block
+  * T10.G3.09: Increment or decrement a list item's value
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.14
+Skill: Merge two sorted lists into one sorted list
+
+Description:
+Students implement the merge algorithm: given two already-sorted lists, combine them into one sorted list without re-sorting. They use two pointers (one for each list), repeatedly compare the current items, add the smaller one to the result, and advance that pointer. This O(n) algorithm is more efficient than concatenating and re-sorting O(n log n), and is a building block for merge sort. Students trace through merging [1, 4, 7] and [2, 3, 8] step by step.
+
+Dependencies:
+  * T10.G4.05: Use built-in blocks to sort a list
+  * T10.G4.18: Loop through list indices
+  * T10.G3.08: Check if a list is empty before accessing
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.15
+Skill: Swap adjacent items based on comparison
+
+Description:
+Students practice the swap pattern in the context of sorting: compare two adjacent items, swap them if out of order, and recognize that multiple passes are needed to fully sort. They trace through swapping adjacent pairs and observe how items gradually move toward correct positions. This builds directly toward implementing bubble sort and selection sort algorithms in Grade 8.
+
+Dependencies:
+  * T10.G4.10: Swap two items in a list
+  * T10.G4.18: Loop through list indices
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.16
+Skill: Find maximum in a sublist range
+
+Description:
+Students extend the manual find-max algorithm (T10.G4.07) to find the maximum or minimum within a specific range of indices, not the entire list. They loop from a start position to an end position, tracking the best value and its position. This pattern is essential for selection sort (find min in remaining unsorted portion) and other range-based algorithms.
+
+Dependencies:
+  * T10.G4.07: Find the maximum or minimum item in a list manually
+  * T10.G4.21: Extract a sublist from a range of positions
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.17
+Skill: Parse text into structured list data
+
+Description:
+Students use text splitting and string operations to parse semi-structured text (like CSV lines, simple log entries, or formatted strings) into list items for programmatic processing. They use the split block to break text by delimiters, handle edge cases like extra spaces, and build lists from parsed text. This bridges text manipulation and list operations, preparing for complex data parsing in Grade 8.
+
+Dependencies:
+  * T10.G4.12: Split a text string into a list
+  * T10.G4.08: Filter items from a list based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.18
+Skill: Select a random item from a list
+
+Description:
+Students use the `item (random v) of [list]` block or generate a random index using `pick random (1) to (length of [list])` to select items at random. Applications include picking random quiz questions, selecting random game events, or implementing simple random sampling. Students verify that multiple runs produce different selections and understand the difference between random access and sequential access.
+
+Dependencies:
+  * T10.G4.18: Loop through list indices
+  * T10.G4.15: Randomly shuffle items in a list
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.19
+Skill: Filter table rows using OR conditions
+
+Description:
+Students extend filtering to OR conditions, finding rows that match ANY of several criteria. For example, "find all students who scored above 90 OR are in grade 8" requires checking two conditions and including the row if EITHER is true. Students implement this with `if <condition1> or <condition2>` inside a loop, understanding that OR is more inclusive than AND (more rows match). They compare results: AND filtering returns fewer rows (must meet ALL conditions), OR filtering returns more rows (must meet ANY condition). Applications include searching for records that could match multiple categories.
+
+Dependencies:
+  * T10.G6.02: Filter table rows based on a condition
+  * T08.G5.02: Use compound conditions with and/or/not
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.20
+Skill: Choose between filtering and sorting for a data task
+
+Description:
+Students analyze data tasks and decide whether filtering, sorting, or both is the appropriate operation. Decision framework: Filtering REMOVES rows that don't match (when you only want certain items), Sorting REORDERS all rows (when you want everything but in a different order), Sometimes you need both (filter first, then sort the results). Given scenarios: (1) "Show only students who passed" → Filter, (2) "Show all students ranked by score" → Sort, (3) "Show the top 5 highest scores" → Sort then take first 5 (or filter by threshold). Students justify their operation choice and implement the solution.
+
+Dependencies:
+  * T10.G6.02: Filter table rows based on a condition
+  * T10.G6.01: Sort a table by a column
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.21
+Skill: Verify data transformation correctness
+
+Description:
+Students develop verification strategies for data transformations: after filtering, sorting, or aggregating, how do you know the result is correct? Techniques: (1) Check result count matches expectations (filtered result should be smaller), (2) Spot-check specific values (does the first sorted item have the smallest value?), (3) Verify aggregates manually on small test data (calculate sum by hand, compare to code result), (4) Check that no data was accidentally lost or duplicated. Students practice verifying transformations and articulate what "correct" means for each operation type.
+
+Dependencies:
+  * T10.G6.02: Filter table rows based on a condition
+  * T10.G6.05: Group data and compute aggregates per group
+  * T10.G5.24: Verify table operations produce expected results
+
+--------------------------------------------------------------------------------
+
+ID: T10.G6.22
+Skill: Implement a simple lookup cache with lists
+
+Description:
+Students implement a basic caching pattern: store recently looked-up values to avoid redundant searching. Using two parallel lists (keys and values), they check if a key is already cached before doing an expensive lookup. If found in cache, return immediately; if not, perform the lookup, store the result in the cache, then return it. This introduces the concept of time-space trade-offs: using memory (cache) to save time (avoid repeated searches). Students measure the performance difference with and without caching on repeated lookups.
+
+Dependencies:
+  * T10.G6.04: Use table lookup to find related data
+  * T10.G4.02: Store and retrieve parallel list data
+  * T10.G4.01.01: Find an item's position using built-in block
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 7 (24 skills)
+================================================================================
+
+ID: T10.G7.01
+Skill: Pivot or reshape table data
+
+Description:
+Students use CreatiCode's `pivot [source] into [result] row groups [cols] columns [values] methods [methods]` block to reshape data from "long" format (many rows, few columns) to "wide" format (fewer rows, more columns) or vice versa, preparing data for different types of analysis.
+
+Dependencies:
+  * T10.G6.05: Group data and compute aggregates per group
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.02
+Skill: Import external data into a table
+
+Description:
+Students use the `import file into table [table]` block to load data from an external CSV file into a table. They understand file formats, handle the imported structure, and verify the data loaded correctly.
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+  * T10.G5.04: Read a cell value from a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.03
+Skill: Design a table schema for a real-world scenario
+
+Description:
+Students design the structure of a table (what columns to include, what data types they hold) to model a real-world domain. They create a table with appropriate column names, justify their design choices (why these columns? what data type?), and demonstrate by populating the table with sample data that validates their design. Example domains: Library catalog (columns: title, author, ISBN, genre, available_copies); Game inventory (item_name, item_type, quantity, value, rarity); Sports statistics (player_name, team, position, points, assists).
+
+Dependencies:
+  * T10.G5.02: Create a table and add columns
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.04
+Skill: Visualize table data with charts
+
+Description:
+Students use CreatiCode's chart blocks like `draw [line/bar/pie] chart using columns [...] from table [table]` to create visual representations of their data. They also use `draw [type] chart using category column [col1] value column [col2] from table [table]` for categorical data visualization (e.g., bar chart of sales by region, pie chart of votes by candidate). They choose appropriate chart types: line charts for trends over time, bar charts for comparing categories, and pie charts for showing proportions of a whole.
+
+Dependencies:
+  * T10.G5.08: Use built-in table aggregate blocks
+  * T10.G6.05: Group data and compute aggregates per group
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.05
+Skill: Clean and transform table data
+
+Description:
+Students apply data cleaning transformations to improve data quality. Techniques include: trimming whitespace from text, standardizing text case (uppercase/lowercase), removing or replacing invalid characters, and standardizing formats (date formats, phone numbers). Students write loops to process each row and apply these transformations, verifying improvements by spot-checking cleaned values.
+
+Dependencies:
+  * T10.G5.05: Update a cell value in a table
+  * T10.G5.07: Loop through table rows to compute aggregates
+  * T08.G5.02: Use compound conditions with and/or/not
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.06
+Skill: Validate and handle missing data in tables
+
+Description:
+Students detect data quality issues: missing values (empty cells), out-of-range values (e.g., age > 150), and invalid data types (text in numeric columns). They implement validation rules and handle issues by replacing missing values with defaults (e.g., 0 or "N/A"), deleting invalid rows, or marking rows for manual review. Students report the count of issues found and fixed.
+
+Dependencies:
+  * T10.G7.05: Clean and transform table data
+  * T10.G5.09.01: Delete a single row by index
+  * T08.G5.02: Use compound conditions with and/or/not
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.07
+Skill: Analyze a dataset to find patterns or outliers
+
+Description:
+Students examine a table of data and write code to find patterns (most frequent value, trends over time) or identify outliers (values much larger/smaller than typical). They combine aggregates, sorting, and conditionals to discover insights and report their findings with supporting evidence from the data.
+
+Dependencies:
+  * T10.G6.05: Group data and compute aggregates per group
+  * T10.G6.01: Sort a table by a column
+  * T08.G5.02: Use compound conditions with and/or/not
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.08
+Skill: Use regex patterns to find items in lists
+
+Description:
+Students use regular expression patterns to find items in lists that match complex text patterns (e.g., "find all emails," "find all phone numbers," "find all codes starting with A"). They use CreatiCode's regex blocks to extract matching items into a new list and verify the pattern matches only intended items.
+
+Dependencies:
+  * T10.G4.08: Filter items from a list based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.09
+Skill: Read and write data with Google Sheets
+
+Description:
+Students use `read from google sheet: url [url] sheet name [name] range [range] into table [table]` and `write into google sheet: url [url] sheet name [name] start cell [cell] from table [table]` to sync data with Google Sheets. They also use `list all sheets in google sheet at URL [url] into list [list]` to get names of all sheets in a spreadsheet for dynamic sheet selection. They learn to set up sharing, use proper URLs, and handle authentication.
+
+Dependencies:
+  * T10.G7.02: Import external data into a table
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.10
+Skill: Manage Google Sheets structure
+
+Description:
+Students use `add sheet [name] to google sheet at URL [url]`, `remove sheet [name]`, `insert [n] columns/rows in sheet [name]`, `remove [n] columns/rows from sheet [name]`, and `clear sheet [name] in google sheet at URL [url]` to programmatically manage spreadsheet structure. They understand when to modify structure vs. data.
+
+Dependencies:
+  * T10.G7.09: Read and write data with Google Sheets
+  * T10.G5.11.01: Add a column at a specific position
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.11
+Skill: Display formatted table snapshots
+
+Description:
+Students use `show snapshot of table [table] from row (start) to (end) with style [style] [color]` to create professionally formatted table displays with styling and color themes. They use this for presenting data in projects, creating reports, or showing partial table views.
+
+Dependencies:
+  * T10.G5.18: Show and hide table monitors
+  * T10.G7.04: Visualize table data with charts
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.12
+Skill: Export table data to a file
+
+Description:
+Students use `export table [table] as [filename]` to save table data as a downloadable CSV file. They understand CSV format (comma-separated values), when to export data (sharing results, backup, analysis in other tools), and how file export complements data import.
+
+Dependencies:
+  * T10.G7.02: Import external data into a table
+  * T10.G5.02: Create a table and add columns
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.13
+Skill: Save and load data to the cloud
+
+Description:
+Students use `save table [table] to server as [dataname]` and `load [dataname] from server into table [table]` to store and retrieve table data on CreatiCode's cloud server. They understand this enables data persistence (save progress, reload later), multi-session projects, and simple data sharing without Google Sheets integration.
+
+Dependencies:
+  * T10.G7.02: Import external data into a table
+  * T10.G7.09: Read and write data with Google Sheets
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.14
+Skill: Use AI to analyze table data
+
+Description:
+Students use CreatiCode's AI blocks to ask questions about table data (e.g., "What are the key insights from this sales data?" or "Summarize the trends in this dataset"). Students formulate clear questions, interpret AI responses, and verify AI suggestions against actual data.
+
+Dependencies:
+  * T10.G7.07: Analyze a dataset to find patterns or outliers
+  * T10.G5.08: Use built-in table aggregate blocks
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.15
+Skill: Implement stack operations (push and pop)
+
+Description:
+Students implement stack behavior using a list: push (add to end), pop (remove and return last item), and peek (read last item without removing). They use `add [item] to [stack]` for push, `item (length of [stack]) of [stack]` with `delete (length of [stack]) of [stack]` for pop, and recognize LIFO (Last-In-First-Out) behavior. Applications include undo functionality (push each action, pop to undo), expression evaluation, and backtracking algorithms. Students trace through a sequence of push/pop operations and predict the stack state after each.
+
+Dependencies:
+  * T10.G6.12: Implement queue operations (enqueue and dequeue)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.16
+Skill: Use KNN classification with table data
+
+Description:
+Students use CreatiCode's KNN (K-Nearest Neighbors) blocks to classify new data points based on existing labeled data stored in a table. They prepare training data in a table with feature columns and a label column, use the `add training data from table [table] features [cols] labels [col]` block, then classify new inputs using the trained model. Students experiment with different k values and observe how it affects classification accuracy. This introduces supervised machine learning concepts using familiar table data.
+
+Dependencies:
+  * T10.G7.03: Design a table schema for a real-world scenario
+  * T10.G5.08: Use built-in table aggregate blocks
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.17
+Skill: Build a simple recommendation system using tables
+
+Description:
+Students create a basic recommendation system using table data and similarity calculations. Given a table of users and their ratings/preferences (e.g., movie ratings, product reviews), students find similar users by comparing their ratings, then recommend items that similar users liked but the target user hasn't seen. They implement a simple similarity measure (count of matching ratings) and use table lookups to generate recommendations. This practical application combines table operations with real-world data analysis.
+
+Dependencies:
+  * T10.G6.04: Use table lookup to find related data
+  * T10.G6.05: Group data and compute aggregates per group
+  * T10.G5.07: Loop through table rows to compute aggregates
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.18
+Skill: Debug table operations by logging intermediate states
+
+Description:
+Students develop systematic debugging strategies for table programs: logging row/column values during loops using console output, checking boundary conditions (first row, last row, empty table), verifying column values match expected types, and using table snapshots to compare before/after states. Given a buggy table program, students add logging statements to trace execution, identify where values diverge from expectations, and fix the issue. This skill builds on list debugging (T10.G3.12) but addresses table-specific challenges like multi-column access patterns and row counting errors.
+
+Dependencies:
+  * T10.G5.20: Debug table programs by tracing row and column access
+  * T10.G7.06: Validate and handle missing data in tables
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.19
+Skill: Insert and update database records from table data
+
+Description:
+Students use CreatiCode's database blocks to persist table data beyond individual sessions. They use `insert from table [table] row from (start) to (end) into collection [collection]` to add records to a database collection, and `update collection [collection] from table [table]` to modify existing records. Students understand the difference between local tables (temporary, in memory) and database collections (persistent, shared), and design programs that sync data between tables and databases appropriately.
+
+Dependencies:
+  * T10.G7.09: Read and write data with Google Sheets
+  * T10.G7.03: Design a table schema for a real-world scenario
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.20
+Skill: Query and filter database collections into tables
+
+Description:
+Students use `fetch from collection [collection] into table [table] where <condition> limit (n) sort by (field) [order]` to retrieve database records matching specific criteria. They construct filter conditions, apply sorting, limit result counts for performance, and process the fetched data using table operations. This skill bridges the gap between simple table operations and real database querying, preparing students for SQL concepts.
+
+Dependencies:
+  * T10.G7.19: Insert and update database records from table data
+  * T10.G6.02: Filter table rows based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.21
+Skill: Document data schema decisions for future readers
+
+Description:
+Students write documentation explaining their data schema design choices. For a table they've created, they document: (1) Purpose of each column and what values it can contain, (2) Relationships between columns if any, (3) Why they chose this structure over alternatives, (4) Example queries the table is designed to support. This communication skill is essential for team projects—others need to understand your data design to work with it. Students practice writing clear, concise documentation and review each other's documentation for clarity.
+
+Dependencies:
+  * T10.G7.03: Design a table schema for a real-world scenario
+  * T10.G5.22: Compare tables vs parallel lists and justify choice
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.22
+Skill: Process AI vision detection data stored in tables
+
+Description:
+Students use CreatiCode's AI vision blocks that output to tables (hand detection, body pose, face detection) and write code to process the resulting structured data. The `run hand detection table [table]` block fills a table with finger curl angles and 3D coordinates; students access specific rows/columns to detect gestures (e.g., "thumbs up" = thumb extended, other fingers curled). Similarly, body pose detection outputs keypoints that students use to detect poses (arms raised, sitting, etc.). Students understand the table schema these AI blocks produce and write conditional logic to interpret the data for interactive applications.
+
+Dependencies:
+  * T10.G7.03: Design a table schema for a real-world scenario
+  * T10.G5.07: Loop through table rows to compute aggregates
+  * T10.G6.02: Filter table rows based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.23
+Skill: Build a data-driven quiz or flashcard system using tables
+
+Description:
+Students design and implement a complete quiz or flashcard application using table data. They design a table with columns for questions, correct answers, optional wrong answers (for multiple choice), and possibly difficulty/category. They implement: (1) Loading questions from the table, (2) Randomly selecting questions, (3) Checking user answers against correct answers, (4) Tracking score, (5) Optionally tracking which questions were missed for review. This project integrates many table skills into a practical, reusable application. Students can extend it by importing their own question sets from CSV files.
+
+Dependencies:
+  * T10.G7.02: Import external data into a table
+  * T10.G6.18: Select a random item from a list
+  * T10.G6.04: Use table lookup to find related data
+
+--------------------------------------------------------------------------------
+
+ID: T10.G7.24
+Skill: Optimize table operations for large datasets
+
+Description:
+Students learn strategies to make table operations faster on larger datasets (100+ rows). Techniques: (1) Filter early to reduce rows before processing, (2) Use built-in aggregate blocks instead of manual loops when possible, (3) Avoid repeated lookups by caching results, (4) Limit display operations (don't show all 500 rows at once). Students compare performance of optimized vs. naive approaches using timer blocks and understand that algorithmic choices matter more as data grows. This prepares students for thinking about scalability in real-world applications.
+
+Dependencies:
+  * T10.G7.07: Analyze a dataset to find patterns or outliers
+  * T10.G6.22: Implement a simple lookup cache with lists
+
+--------------------------------------------------------------------------------
+
+
+================================================================================
+GRADE 8 (22 skills)
+================================================================================
+
+ID: T10.G8.01
+Skill: Use nested loops to compare data across two tables
+
+Description:
+Students write nested loops to analyze relationships between two tables (e.g., matching orders to customers, finding common elements). The outer loop iterates through one table while the inner loop searches the other table for matches.
+
+Dependencies:
+  * T07.G6.01: Trace nested loops with variable bounds
+  * T10.G6.04: Use table lookup to find related data
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.02
+Skill: Implement bubble sort algorithm step by step
+
+Description:
+Students implement bubble sort by writing nested loops: the outer loop controls passes, the inner loop compares adjacent items and swaps if out of order. They trace through the algorithm to understand how items "bubble" to their correct positions.
+
+Dependencies:
+  * T10.G6.15: Swap adjacent items based on comparison
+  * T07.G6.01: Trace nested loops with variable bounds
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.03
+Skill: Implement selection sort algorithm step by step
+
+Description:
+Students implement selection sort by writing nested loops: the outer loop selects each position, the inner loop finds the minimum remaining element. They understand that selection sort makes fewer swaps than bubble sort.
+
+Dependencies:
+  * T10.G8.02: Implement bubble sort algorithm step by step
+  * T10.G6.16: Find maximum in a sublist range
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.04
+Skill: Build a simulation using table-based state
+
+Description:
+Students create a simulation (e.g., a game with multiple entities, a population model, an ecosystem) where entities and their properties are stored in a table. Each simulation step loops through rows to update values based on rules.
+
+Dependencies:
+  * T10.G7.03: Design a table schema for a real-world scenario
+  * T10.G5.07: Loop through table rows to compute aggregates
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.05
+Skill: Query and report statistics from a complex dataset
+
+Description:
+Students work with a realistic multi-column table (e.g., weather data, sports statistics, survey results) and write code to answer analytical questions: compute means, find percentiles, compare groups, identify trends, and format results as a report.
+
+Dependencies:
+  * T10.G7.07: Analyze a dataset to find patterns or outliers
+  * T10.G6.01: Sort a table by a column
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.06
+Skill: Model relationships using multiple linked tables
+
+Description:
+Students design and use multiple tables that reference each other (e.g., a Students table and a Grades table linked by student ID). They write code to perform lookups across tables to answer queries like "What are all grades for student X?"
+
+Dependencies:
+  * T10.G8.01: Use nested loops to compare data across two tables
+  * T10.G7.03: Design a table schema for a real-world scenario
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.07
+Skill: Implement a hash table lookup using lists
+
+Description:
+Students simulate a simple hash table by using a list where each position corresponds to a hash value computed using modulo operation (e.g., hash(key) = key mod list_length for numbers, or sum of character codes mod list_length for strings). They handle collisions using linear probing (check next positions) or chaining (store multiple items at one position using lists within lists). Implementation pattern: Use a list as the hash table, create a hash function using math operators and string blocks, use linear search as fallback for collisions, and compare performance to linear search to demonstrate the principle of constant-time lookup.
+
+Dependencies:
+  * T10.G8.03: Implement selection sort algorithm step by step
+  * T10.G6.13: Use frequency counting with lists
+  * T09.G7.01: Compare computational efficiency of different approaches
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.08.01
+Skill: Implement binary search on sorted lists
+
+Description:
+Students implement binary search algorithm to find items in O(log n) time instead of O(n) linear search. They repeatedly divide the sorted list's search space in half: compare the middle element to the target, then search either the left half (if target is smaller) or right half (if target is larger). Students trace through the algorithm step-by-step, counting comparisons, and compare performance to linear search to demonstrate logarithmic efficiency gains. This introduces divide-and-conquer algorithmic thinking.
+
+Dependencies:
+  * T10.G8.02: Implement bubble sort algorithm step by step
+  * T09.G7.01: Compare computational efficiency of different approaches
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.08.02
+Skill: Use two-pointer technique for list problems
+
+Description:
+Students apply two-pointer techniques where pointers move from both ends toward the center to solve problems efficiently. Common patterns: Finding pairs that sum to a target value (one pointer at start, one at end, move based on comparison), removing duplicates from sorted lists (slow and fast pointers), or checking palindromes (compare from both ends). Students implement at least one two-pointer algorithm, trace pointer movements, and understand how this technique avoids nested loops for certain problems.
+
+Dependencies:
+  * T10.G8.08.01: Implement binary search on sorted lists
+  * T09.G7.01: Compare computational efficiency of different approaches
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.08.03
+Skill: Apply sliding window algorithms
+
+Description:
+Students use sliding window algorithms to efficiently process contiguous subarrays by maintaining a window that slides through the data. Common applications: finding maximum sum of k consecutive elements, longest substring without repeating characters, or moving averages. Implementation pattern: Initialize window with first k elements, slide window right by adding next element and removing leftmost element, track window state (sum, max, set of unique items), update result after each slide. Students understand how sliding window reduces O(n*k) to O(n) by reusing previous computations.
+
+Dependencies:
+  * T10.G8.08.02: Use two-pointer technique for list problems
+  * T09.G7.01: Compare computational efficiency of different approaches
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.09
+Skill: Implement a priority queue using sorted insertion
+
+Description:
+Students implement a priority queue where items are always retrieved in priority order (highest or lowest first). They maintain a sorted list by inserting new items at the correct position (binary search for position, then insert) rather than sorting after each insertion. Students compare this O(n) insertion with O(1) removal to naive approaches (O(1) insertion with O(n) search for removal). Applications include task schedulers, event-driven simulations, and Dijkstra's algorithm foundations.
+
+Dependencies:
+  * T10.G8.08.01: Implement binary search on sorted lists
+  * T10.G6.12: Implement queue operations (enqueue and dequeue)
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.10
+Skill: Parse and process structured text into tables
+
+Description:
+Students write programs to parse structured text data (log files, configuration files, semi-structured reports) into tables for analysis. They use string operations (split, find, substring) to extract fields from each line, handle variations in format, skip header/footer lines, and build a clean table from messy input. This real-world skill prepares students for data engineering tasks where raw data must be cleaned and structured before analysis.
+
+Dependencies:
+  * T10.G7.05: Clean and transform table data
+  * T10.G6.17: Parse text into structured list data
+  * T10.G5.03: Add rows of data to a table
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.11
+Skill: Design and implement a data pipeline with multiple transformations
+
+Description:
+Students design a multi-step data processing pipeline: import raw data → clean/validate → transform → aggregate → visualize/export. They chain together table operations learned throughout T10 to build an end-to-end solution for a realistic scenario (e.g., process survey data, analyze game statistics, generate a report from transaction logs). Students document their pipeline design before implementing, handle errors gracefully, and verify output quality at each stage.
+
+Dependencies:
+  * T10.G8.05: Query and report statistics from a complex dataset
+  * T10.G7.02: Import external data into a table
+  * T10.G7.12: Export table data to a file
+  * T10.G7.06: Validate and handle missing data in tables
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.12
+Skill: Build a semantic search database from table data
+
+Description:
+Students use CreatiCode's `create semantic database from table [table]` block to build a searchable database where queries find results by meaning rather than exact keyword matching. They prepare a table with a required 'key' column and additional data columns, understand that the semantic database uses AI embeddings to find similar content, and test queries to verify relevant results are returned. Applications include building a FAQ search system, finding similar products, or creating a knowledge base that users can query in natural language.
+
+Dependencies:
+  * T10.G8.06: Model relationships using multiple linked tables
+  * T10.G7.14: Use AI to analyze table data
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.13
+Skill: Query semantic databases with natural language and filters
+
+Description:
+Students use `search semantic database with [query] store top (K) in table [result]` and `search semantic database with [query] where [condition] store top (K) in table [result]` to find relevant data using natural language queries. They experiment with different queries to understand how semantic similarity works, apply filters to narrow results, and compare semantic search to exact-match lookups. Students build a practical application (e.g., a smart assistant that answers questions from a knowledge base).
+
+Dependencies:
+  * T10.G8.12: Build a semantic search database from table data
+  * T10.G6.02: Filter table rows based on a condition
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.14
+Skill: Use moving averages to analyze time-series data in lists
+
+Description:
+Students use `value from [simple/exponential] moving average window [length] of list [list]` to smooth noisy data and identify trends. They understand that moving averages calculate the average over a sliding window, compare simple vs. exponential methods (exponential gives more weight to recent values), and apply this to real scenarios: smoothing sensor readings, analyzing stock prices, or detecting trends in game metrics. Students visualize raw vs. smoothed data to see the difference.
+
+Dependencies:
+  * T10.G8.03: Implement selection sort algorithm step by step
+  * T10.G7.07: Analyze a dataset to find patterns or outliers
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.15
+Skill: Store and retrieve AI vision data from tables
+
+Description:
+Students capture real-time AI data (hand detection, body pose, face detection) into tables using blocks like `run hand detection table [table]` and `run 2D body part recognition ... table [table]`. They understand the table structure output by these AI blocks (rows for each detected point, columns for x/y coordinates and confidence), write code to process this data (e.g., detect specific gestures, track movement over time), and combine AI sensing with table operations to build interactive applications.
+
+Dependencies:
+  * T10.G8.04: Build a simulation using table-based state
+  * T10.G7.03: Design a table schema for a real-world scenario
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.16
+Skill: Parse and analyze AI-generated structured data
+
+Description:
+Students process structured data returned by AI services: web search results stored in tables (`web search [query] store top (K) in table [table]`), NLP sentence analysis (`analyze sentence [text] and write into table [table]` which outputs word, lemma, part-of-speech, etc.), and geographic data (`get geo info for latitude (lat) longitude (lon) and write into table [table]`). Students write code to extract insights from these AI-generated tables: find the most relevant search result, identify verbs in a sentence, or determine the country for coordinates. This skill bridges AI capabilities with data processing skills.
+
+Dependencies:
+  * T10.G8.10: Parse and process structured text into tables
+  * T10.G7.22: Process AI vision detection data stored in tables
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.17
+Skill: Design and test data validation rules for tables
+
+Description:
+Students create comprehensive validation rules for table data and write code to enforce them. Validation types: (1) Type validation (numeric columns should contain numbers), (2) Range validation (age should be 0-150, percentage 0-100), (3) Format validation (email should contain @, date in correct format), (4) Referential validation (foreign key exists in related table), (5) Uniqueness validation (no duplicate IDs). Students implement validation as a function that checks all rows and returns a list of errors with row numbers and descriptions. They test validation rules with intentionally bad data to verify rules catch all issues.
+
+Dependencies:
+  * T10.G7.06: Validate and handle missing data in tables
+  * T10.G8.06: Model relationships using multiple linked tables
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.18
+Skill: Compare algorithmic efficiency for list operations
+
+Description:
+Students analyze and compare the efficiency of different approaches to the same problem. Case studies: (1) Linear search O(n) vs binary search O(log n) - measure time with 100 vs 1000 items, (2) Naive duplicate removal O(n²) vs sort-then-remove O(n log n), (3) Repeated single lookups vs batch lookup with caching. Students use timer blocks to measure actual performance, create data visualizations showing how time grows with input size, and articulate why some algorithms scale better. This introduces Big-O thinking without formal notation, preparing students for computer science studies.
+
+Dependencies:
+  * T10.G8.08.01: Implement binary search on sorted lists
+  * T10.G8.02: Implement bubble sort algorithm step by step
+  * T10.G7.24: Optimize table operations for large datasets
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.19
+Skill: Build a complete AI-enhanced data application
+
+Description:
+Students design and implement a comprehensive application that combines AI capabilities with data structures. Project options: (1) Smart FAQ system: import questions into table, create semantic search database, accept natural language queries, return relevant answers; (2) Gesture-controlled data browser: use hand detection table to navigate through data displays; (3) Automated data summarizer: import data, use AI to generate insights, display visualizations; (4) Multi-source data aggregator: pull data from web searches into tables, combine and analyze. Students document their design, implement the application, test with real data, and present their solution explaining how AI and data structures work together.
+
+Dependencies:
+  * T10.G8.12: Build a semantic search database from table data
+  * T10.G8.16: Parse and analyze AI-generated structured data
+  * T10.G8.11: Design and implement a data pipeline with multiple transformations
+
+--------------------------------------------------------------------------------
+
+ID: T10.G8.20
+Skill: Implement merge sort algorithm with recursion concept
+
+Description:
+Students implement merge sort by breaking a list into halves, sorting each half, then merging the sorted halves. While full recursion may be beyond block-based programming, students simulate the divide-and-conquer approach: manually split the list, sort the sublists (using built-in sort or bubble sort), then use the merge algorithm from G6. Students trace through the algorithm on paper showing how a list of 8 items is split into 4 pairs, sorted, merged into 2 sorted halves, then merged into the final sorted list. They compare merge sort's O(n log n) efficiency to bubble sort's O(n²) and understand why divide-and-conquer is powerful.
+
+Dependencies:
+  * T10.G6.14: Merge two sorted lists into one sorted list
+  * T10.G8.03: Implement selection sort algorithm step by step
+  * T10.G8.18: Compare algorithmic efficiency for list operations
+
+--------------------------------------------------------------------------------
