@@ -64,7 +64,7 @@ async function runAllScripts() {
   const gradeList = ["K", "1", "2", "3", "4", "5", "6", "7", "8"];
 
   const loadAvailableGradeTopics = () => {
-    const content = fs.readFileSync("./skillsv5/allskills.md", "utf8");
+    const content = fs.readFileSync("./skillsv6/allskills.md", "utf8");
     const set = new Set();
     const regex = /ID:\s*T(\d{2})\.G([K1-8])/g;
     let match;
@@ -102,12 +102,12 @@ async function runAllScripts() {
 
     // Back up allskills.md for this iteration
     const timestamp = Date.now();
-    const backupPath = `./skillsv5/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
-    execSync(`cp ./skillsv5/allskills.md "${backupPath}"`);
+    const backupPath = `./skillsv6/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
+    execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 28) continue;
+      if ( iteration == 0 && i < 7) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -120,7 +120,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
-- skillsv5/allskills.md for all current skills
+- skillsv6/allskills.md for all current skills
 - creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks, microbit extension for hardware related skills),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
 
 ## Step 2: For topic ${topic.code} only, fix these issues
@@ -156,7 +156,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 - DON'T be afraid of changes. Think outside the box and don't limit yourself by the existing skills design. We need to aim for top quality so every iteration should make significant improvements based on existing skills and go beyond it. There are ALWAYS ways to improve skills. Make bold changes if needed so that the skill map converge towards high quality faster.
 - Rethink deeply how IXL structures skills and dependencies for inspiration, and consider how to adapt those ideas to CreatiCode's unique environment. We are using coding and AI as tools for teaching problem-solving and computational thinking, so focus on that. Of course, the skills need to be generic, not tied to CreatiCode only, otherwise teachers or students will feel they are not learning genericly useful skills.
 
-## Step 3: Make the edits to skillsv5/allskills.md
+## Step 3: Make the edits to skillsv6/allskills.md
 
 ## Step 4: Output a summary of changes made. You must say something.
 
@@ -236,8 +236,8 @@ Use subagents/Task tool to keep context small. For simple standalone tasks for s
 
     // Back up allskills.md for this iteration
     const timestamp = Date.now();
-    const backupPath = `./skillsv5/allskills_grade_phase_iter${iteration + 1}_${timestamp}.md`;
-    execSync(`cp ./skillsv5/allskills.md "${backupPath}"`);
+    const backupPath = `./skillsv6/allskills_grade_phase_iter${iteration + 1}_${timestamp}.md`;
+    execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     const availableGradeTopics = loadAvailableGradeTopics();
@@ -282,7 +282,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
-- skillsv5/allskills.md for all current skills
+- skillsv6/allskills.md for all current skills
 - creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game category, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
 
 ## Step 2: For Grade ${grade} skills in ${topic.code} only, fix these issues
@@ -309,7 +309,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 - Add dependencies liberally
 - Focus ONLY on Grade ${grade} dependencies inside ${topic.code}
 
-## Step 3: Make the edits to skillsv5/allskills.md
+## Step 3: Make the edits to skillsv6/allskills.md
 
 ## Step 4: Output a summary of dependency changes. You must say something.
 
@@ -385,7 +385,7 @@ Use subagents/Task tool to keep context small. For simple standalone tasks for s
   console.log(`- Phase 1: Processed ${topics.length} topics × ${TOPIC_ITERATIONS} iterations`);
   console.log(`- Phase 2: Processed ${completedGradeTopicCombos} grade-topic combos across ${GRADE_ITERATIONS} iteration(s); skipped ${skippedGradeTopicCombos} empty combos`);
   console.log(`- Total: ${totalPassesCompleted} focused optimization passes executed`);
-  console.log(`\nCheck skillsv5/allskills.md for the optimized skill map.\n`);
+  console.log(`\nCheck skillsv6/allskills.md for the optimized skill map.\n`);
 }
 
 // Run the script
