@@ -107,7 +107,7 @@ async function runAllScripts() {
     console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
 
     for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 7) continue;
+      if ( iteration == 0 && i < 21) continue;
       const topic = topics[i];
       console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
       console.log(`${"─".repeat(50)}`);
@@ -121,7 +121,7 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
 - skillsv6/allskills.md for all current skills
-- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks, microbit extension for hardware related skills),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game, database, table variables, viewport blocks in motion, new operator blocks, microbit extension for hardware related skills),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them. You have to read the code in client or server repo since CreatiCode has made extensive changes beyond MIT Scratch. You can't assume block syntax or what blocks are available or what they would do unless you read the code and the reference files like blockdes8.txt yourself.
 
 ## Step 2: For topic ${topic.code} only, fix these issues
 
@@ -283,7 +283,7 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 ## Step 1: Read these files first
 - skillmap_run_context.md for project context
 - skillsv6/allskills.md for all current skills
-- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game category, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them.
+- creaticode.md for CreatiCode platform details, especially new blocks (such as AI chatgpt, text to speech, speech recognition, hand/body tracking, tensorflow, 3D, widgets for UI, 2D physics, multiplayer, cloud/p2p, fast-updating cloud variables that can be private and can take text values, game category, database, table variables, viewport blocks in motion, new operator blocks),  and tools like XO ai assistant, AI image generation, block help info popup, step by step execution, console panel for logging, folder of sprites in sprite info pane, advanced costume editor tools. They will allow us to design skills and practice problems to cover all k-8 computational thinking and coding concepts effectively. So read the code to learn exactly what they do when a skill is related to them. You have to read the code in client or server repo since CreatiCode has made extensive changes beyond MIT Scratch. You can't assume block syntax or what blocks are available or what they would do unless you read the code and the reference files like blockdes8.txt yourself.
 
 ## Step 2: For Grade ${grade} skills in ${topic.code} only, fix these issues
 
