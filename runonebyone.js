@@ -1,6 +1,35 @@
 const { execSync, spawnSync } = require("child_process");
 const fs = require("fs");
 
+const PROGRESS_FILE = "run_progress.json";
+
+const IS_GEMINI = 1;
+
+function loadState() {
+  if (fs.existsSync(PROGRESS_FILE)) {
+    try {
+      return JSON.parse(fs.readFileSync(PROGRESS_FILE, "utf8"));
+    } catch (e) {
+      console.error("Error reading progress file, starting fresh.", e);
+    }
+  }
+  return { 
+    phase: 1, 
+    iteration: 0, 
+    index1: 0, 
+    index2: 0,
+    stats: {
+      completedGradeTopicCombos: 0,
+      skippedGradeTopicCombos: 0
+    }
+  };
+}
+
+function saveState(phase, iteration, index1, index2, stats) {
+  const state = { phase, iteration, index1, index2, stats };
+  fs.writeFileSync(PROGRESS_FILE, JSON.stringify(state, null, 2));
+}
+
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
@@ -17,11 +46,18 @@ async function waitWithCountdown(minutes) {
 }
 
 async function runAllScripts() {
+  // Load previous state
+  let state = loadState();
+
   // Print start date and time
   const startTime = new Date();
   console.log("\n╔══════════════════════════════════════════════════════════╗");
   console.log(`║  Start Time: ${startTime.toLocaleString()}  ║`);
   console.log("╚══════════════════════════════════════════════════════════╝\n");
+
+  if (state.phase > 1 || state.iteration > 0 || state.index1 > 0) {
+    console.log(`🔄 Resuming from Phase ${state.phase}, Iteration ${state.iteration + 1}, Index ${state.index1}/${state.index2}...`);
+  }
 
   // All 34 topics identified from the skill map (Updated v7)
   const topics = [
@@ -88,33 +124,47 @@ async function runAllScripts() {
   console.log(`Phase 2: ${gradeList.length} grades × ${topics.length} topics × ${GRADE_ITERATIONS} iterations = ${phase2Combos * GRADE_ITERATIONS} possible grade-topic passes (skips combos with no skills)`);
   console.log(`Total: ${topics.length * TOPIC_ITERATIONS + phase2Combos * GRADE_ITERATIONS} focused passes\n`);
 
+  // Restore stats
+  let completedGradeTopicCombos = state.stats.completedGradeTopicCombos || 0;
+  let skippedGradeTopicCombos = state.stats.skippedGradeTopicCombos || 0;
+
   // PHASE 1: Topic-by-Topic Processing
-  console.log("===========================================");
-  console.log("PHASE 1: Topic-by-Topic Processing");
-  console.log(`Started at: ${new Date().toLocaleString()}`);
-  console.log("===========================================\n");
+  if (state.phase === 1) {
+    console.log("===========================================");
+    console.log("PHASE 1: Topic-by-Topic Processing");
+    console.log(`Started at: ${new Date().toLocaleString()}`);
+    console.log("===========================================\n");
 
-  for (let iteration = 0; iteration < TOPIC_ITERATIONS; iteration++) {
-    console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    console.log(`  Topic Phase - Iteration ${iteration + 1}/${TOPIC_ITERATIONS}`);
-    console.log(`  ${new Date().toLocaleString()}`);
-    console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
+    for (let iteration = 0; iteration < TOPIC_ITERATIONS; iteration++) {
+      if (iteration < state.iteration) continue;
 
-    // Back up allskills.md for this iteration
-    const timestamp = Date.now();
-    const backupPath = `./skillsv6/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
-    execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
-    console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
-
-    for (let i = 0; i < topics.length; i++) {
-      if ( iteration == 0 && i < 20) continue;
-      const topic = topics[i];
-      console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
-      console.log(`${"─".repeat(50)}`);
-
+      console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+      console.log(`  Topic Phase - Iteration ${iteration + 1}/${TOPIC_ITERATIONS}`);
       console.log(`  ${new Date().toLocaleString()}`);
+      console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
 
-      const topicPrompt = `AUTONOMOUS MODE: Do NOT ask any questions. Do NOT ask for clarification. Do NOT ask for permission. Proceed immediately with your best judgment. This is a non-interactive batch session.
+      // Back up allskills.md for this iteration
+      // Only backup if we're starting a new iteration or resuming the very first item of it
+      // But keeping it simple: overwrite backup if resuming mid-iteration is fine.
+      const timestamp = Date.now();
+      const backupPath = `./skillsv6/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
+      try {
+        execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
+        console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
+      } catch (e) {
+        console.error("Backup failed:", e.message);
+      }
+
+      for (let i = 0; i < topics.length; i++) {
+        if (iteration === state.iteration && i < state.index1) continue;
+
+        const topic = topics[i];
+        console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);
+        console.log(`${"─".repeat(50)}`);
+
+        console.log(`  ${new Date().toLocaleString()}`);
+
+        const topicPrompt = `AUTONOMOUS MODE: Do NOT ask any questions. Do NOT ask for clarification. Do NOT ask for permission. Proceed immediately with your best judgment. This is a non-interactive batch session.
 
 Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 
@@ -160,123 +210,160 @@ Your task: Optimize topic ${topic.code} (${topic.name}) in the skill map.
 
 ## Step 4: Output a summary of changes made. You must say something.
 
-Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now. Again, you MUST make some major bold improvements that significantly increase the overall quality of the skillmap!`;
+${IS_GEMINI ? "" : "Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens."} 
 
-      let success = false;
-      let retryCount = 0;
-      const maxRetries = 3000000; 
+Proceed now. Again, you MUST make some major bold improvements that significantly increase the overall quality of the skillmap!`;
 
-      while (!success && retryCount < maxRetries) {
-        try {
-          const result = spawnSync('claude', [
-            '--dangerously-skip-permissions',
-            '--add-dir', '../../scratch-workspace',
-            '--add-dir', '../../creaticode-ws',
-            '--add-dir', '../../ScratchCopilot',
-            '-p', topicPrompt
-          ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });
+        let success = false;
+        let retryCount = 0;
+        const maxRetries = 3000000; 
 
-          const output = result.stdout || '';
-          if (result.error) throw result.error;
+        while (!success && retryCount < maxRetries) {
+          try {
+            let result = null;
+            if (!IS_GEMINI) {
+              result = spawnSync('claude', [
+                '--dangerously-skip-permissions',
+                '--add-dir', '../../scratch-workspace',
+                '--add-dir', '../../creaticode-ws',
+                '--add-dir', '../../ScratchCopilot',
+                '-p', topicPrompt
+              ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });
+            } else {
+              result = spawnSync('gemini', [
+                '--yolo',
+                '--include-directories', '../../scratch-workspace',
+                '../../creaticode-ws',
+                '../../ScratchCopilot',
+                '-p', topicPrompt
+              ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });              
+            }
 
-          // Check for API errors
-          console.log(`\n⚠️  OUTPUT for topic ${topic.code}: ${output}`);
-          const outputLower = output.toLowerCase();
-          if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
-            console.log(`\n⚠️  API rate limit hit for topic ${topic.code}`);
-            console.log(`⏰ Waiting 3 minutes before retrying...`);
-            await waitWithCountdown(3);
-            console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
-            console.log(`⏰ time: ${new Date().toLocaleString()}...`);
-            retryCount++;
-          } else {
-            success = true;
-            console.log(`✅ Completed topic ${topic.code}`);
-            // wait one minute
-            console.log(`⏳ Waiting 0.1 minute to avoid rate limits...`);
-            await waitWithCountdown(0.1);
+            const output = result.stdout || '';
+            if (result.error) throw result.error;
+
+            // Check for API errors
+            console.log(`\n⚠️  OUTPUT for topic ${topic.code}: ${output}`);
+            const outputLower = output.toLowerCase();
+            if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
+              console.log(`\n⚠️  API rate limit hit for topic ${topic.code}`);
+              console.log(`⏰ Waiting 3 minutes before retrying...`);
+              await waitWithCountdown(3);
+              console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
+              console.log(`⏰ time: ${new Date().toLocaleString()}...`);
+              retryCount++;
+            } else {
+              success = true;
+              console.log(`✅ Completed topic ${topic.code}`);
+              // wait one minute
+              console.log(`⏳ Waiting 0.1 minute to avoid rate limits...`);
+              await waitWithCountdown(0.1);
+              
+              // Update state
+              saveState(1, iteration, i + 1, 0, { completedGradeTopicCombos, skippedGradeTopicCombos });
+            }
+          } catch (error) {
+            console.error(`\n❌ Error processing topic ${topic.code}:`, error.message.substring(0, 100));
+            const errorStr = error.toString().toLowerCase();
+            if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
+              console.log(`⏰ waiting 3 minutes ${new Date().toLocaleString()}...`);
+              await waitWithCountdown(3);
+              console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
+              retryCount++;
+            } else {
+               // Break on non-rate-limit errors to avoid infinite loops in testing
+               retryCount++;
+            }
           }
-        } catch (error) {
-          console.error(`\n❌ Error processing topic ${topic.code}:`, error.message.substring(0, 100));
-          const errorStr = error.toString().toLowerCase();
-          if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
-            console.log(`⏰ waiting 3 minutes ${new Date().toLocaleString()}...`);
-            await waitWithCountdown(3);
-            console.log(`\nRetrying topic ${topic.code} (Attempt ${retryCount + 1}/${maxRetries})...`);
-            retryCount++;
-          } else {
-             // Break on non-rate-limit errors to avoid infinite loops in testing
-             retryCount++;
-          }
+        }
+
+        if (!success) {
+          console.log(`⚠️  Failed to process topic ${topic.code} after ${maxRetries} retries`);
+          // Even if failed, we advance? Or just save state and move on?
+          // Original logic: proceeds to next loop iteration anyway after log.
+          saveState(1, iteration, i + 1, 0, { completedGradeTopicCombos, skippedGradeTopicCombos });
         }
       }
 
-      if (!success) {
-        console.log(`⚠️  Failed to process topic ${topic.code} after ${maxRetries} retries`);
-      }
+      console.log(`\n✅ Completed Topic Phase Iteration ${iteration + 1}/${TOPIC_ITERATIONS}`);
     }
-
-    console.log(`\n✅ Completed Topic Phase Iteration ${iteration + 1}/${TOPIC_ITERATIONS}`);
+    
+    // End of Phase 1, transition to Phase 2
+    state.phase = 2;
+    state.iteration = 0;
+    state.index1 = 0;
+    state.index2 = 0;
+    saveState(2, 0, 0, 0, { completedGradeTopicCombos, skippedGradeTopicCombos });
   }
 
   // PHASE 2: Grade+Topic Processing
-  console.log("\n\n===========================================");
-  console.log("PHASE 2: Grade+Topic Cross-Topic Dependency Checking");
-  console.log(`Started at: ${new Date().toLocaleString()}`);
-  console.log("===========================================\n");
+  if (state.phase === 2) {
+    console.log("\n\n===========================================");
+    console.log("PHASE 2: Grade+Topic Cross-Topic Dependency Checking");
+    console.log(`Started at: ${new Date().toLocaleString()}`);
+    console.log("===========================================\n");
 
-  let completedGradeTopicCombos = 0;
-  let skippedGradeTopicCombos = 0;
+    for (let iteration = 0; iteration < GRADE_ITERATIONS; iteration++) {
+      if (iteration < state.iteration) continue;
 
-  for (let iteration = 0; iteration < GRADE_ITERATIONS; iteration++) {
-    console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
-    console.log(`  Grade+Topic Phase - Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
-    console.log(`  ${new Date().toLocaleString()}`);
-    console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
+      console.log(`\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━`);
+      console.log(`  Grade+Topic Phase - Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
+      console.log(`  ${new Date().toLocaleString()}`);
+      console.log(`━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n`);
 
-    // Back up allskills.md for this iteration
-    const timestamp = Date.now();
-    const backupPath = `./skillsv6/allskills_grade_phase_iter${iteration + 1}_${timestamp}.md`;
-    execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
-    console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
+      // Back up allskills.md for this iteration
+      const timestamp = Date.now();
+      const backupPath = `./skillsv6/allskills_grade_phase_iter${iteration + 1}_${timestamp}.md`;
+      try {
+        execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
+        console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
+      } catch (e) {
+        console.error("Backup failed:", e.message);
+      }
 
-    const availableGradeTopics = loadAvailableGradeTopics();
+      const availableGradeTopics = loadAvailableGradeTopics();
 
-    for (let i = 0; i < gradeList.length; i++) {
-      const grade = gradeList[i];
-      console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade} across topics`);
-      console.log(`${"─".repeat(50)}`);
+      for (let i = 0; i < gradeList.length; i++) {
+        if (iteration === state.iteration && i < state.index1) continue;
 
-      for (let j = 0; j < topics.length; j++) {
-        const topic = topics[j];
-        const comboKey = `${grade}-${topic.code}`;
+        const grade = gradeList[i];
+        console.log(`\n[${i + 1}/${gradeList.length}] Processing Grade ${grade} across topics`);
+        console.log(`${"─".repeat(50)}`);
 
-        if (!availableGradeTopics.has(comboKey)) {
-          console.log(`  ⏭️  Skipping Grade ${grade} Topic ${topic.code} (${topic.name}) - no skills found`);
-          skippedGradeTopicCombos++;
-          continue;
-        }
+        for (let j = 0; j < topics.length; j++) {
+          if (iteration === state.iteration && i === state.index1 && j < state.index2) continue;
 
-        const comboIndex = (i * topics.length) + j + 1;
-        const comboTotal = gradeList.length * topics.length;
-        console.log(`\n  [${comboIndex}/${comboTotal}] Processing Grade ${grade} Topic ${topic.code}: ${topic.name}`);
-        console.log(`  ${"─".repeat(48)}`);
+          const topic = topics[j];
+          const comboKey = `${grade}-${topic.code}`;
 
-        // print date time
-        console.log(`    ${new Date().toLocaleString()}`);
+          if (!availableGradeTopics.has(comboKey)) {
+            console.log(`  ⏭️  Skipping Grade ${grade} Topic ${topic.code} (${topic.name}) - no skills found`);
+            skippedGradeTopicCombos++;
+            // Update state for skipped item
+            saveState(2, iteration, i, j + 1, { completedGradeTopicCombos, skippedGradeTopicCombos });
+            continue;
+          }
 
-        // Calculate allowed dependency grades
-        let allowedGrades;
-        if (grade === 'K') {
-          allowedGrades = 'K only';
-        } else if (grade === '1') {
-          allowedGrades = 'K and 1';
-        } else {
-          const gradeNum = parseInt(grade);
-          allowedGrades = `grades ${gradeNum - 2}, ${gradeNum - 1}, and ${gradeNum}`;
-        }
+          const comboIndex = (i * topics.length) + j + 1;
+          const comboTotal = gradeList.length * topics.length;
+          console.log(`\n  [${comboIndex}/${comboTotal}] Processing Grade ${grade} Topic ${topic.code}: ${topic.name}`);
+          console.log(`  ${"─".repeat(48)}`);
 
-        const gradeTopicPrompt = `AUTONOMOUS MODE: Do NOT ask any questions. Do NOT ask for clarification. Do NOT ask for permission. Proceed immediately with your best judgment. This is a non-interactive batch session.
+          // print date time
+          console.log(`    ${new Date().toLocaleString()}`);
+
+          // Calculate allowed dependency grades
+          let allowedGrades;
+          if (grade === 'K') {
+            allowedGrades = 'K only';
+          } else if (grade === '1') {
+            allowedGrades = 'K and 1';
+          } else {
+            const gradeNum = parseInt(grade);
+            allowedGrades = `grades ${gradeNum - 2}, ${gradeNum - 1}, and ${gradeNum}`;
+          }
+
+          const gradeTopicPrompt = `AUTONOMOUS MODE: Do NOT ask any questions. Do NOT ask for clarification. Do NOT ask for permission. Proceed immediately with your best judgment. This is a non-interactive batch session.
 
 Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${topic.code} (${topic.name}).
 
@@ -313,60 +400,74 @@ Your task: Fix cross-topic dependencies for Grade ${grade} skills in Topic ${top
 
 ## Step 4: Output a summary of dependency changes. You must say something.
 
-Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens. Proceed now. Again, you MUST make some major bold improvements that significantly increase the overall quality of the skillmap!`;
+${IS_GEMINI ? "" : "Use subagents/Task tool to keep context small. For simple standalone tasks for subagents, such as searching in a file, searching in codebase, writing scripts, aggregating text, you **MUST** instruct the subagent to use the sonnet model instead of opus, which is faster and costs less tokens."} 
 
-        let success = false;
-        let retryCount = 0;
-        const maxRetries = 30000000;
+Proceed now. Again, you MUST make some major bold improvements that significantly increase the overall quality of the skillmap!`;
 
-        while (!success && retryCount < maxRetries) {
-          try {
-            const result = spawnSync('claude', [
-              '--dangerously-skip-permissions',
-              '--add-dir', '../../scratch-workspace',
-              '--add-dir', '../../creaticode-ws',
-              '--add-dir', '../../ScratchCopilot',
-              '-p', gradeTopicPrompt
-            ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });
+          let success = false;
+          let retryCount = 0;
+          const maxRetries = 30000000;
 
-            const output = result.stdout || '';
-            if (result.error) throw result.error;
+          while (!success && retryCount < maxRetries) {
+            try {
+              const result = spawnSync('claude', [
+                '--dangerously-skip-permissions',
+                '--add-dir', '../../scratch-workspace',
+                '--add-dir', '../../creaticode-ws',
+                '--add-dir', '../../ScratchCopilot',
+                '-p', gradeTopicPrompt
+              ], { encoding: 'utf8', maxBuffer: 1024 * 1024 * 10 });
 
-            // Check for API errors
-              console.log(`\n⚠️  OUPUT for grade ${grade} topic ${topic.code}: ${output}`);
-            const outputLower = output.toLowerCase();
-            if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
-              console.log(`\n⚠️  API rate limit hit for grade ${grade} topic ${topic.code}`);
-              console.log(`⏰ Waiting 3 minutes before retrying...`);
-              await waitWithCountdown(3);
-              console.log(`⏰ retry time: ${new Date().toLocaleString()}...`);
-              retryCount++;
-            } else {
-              success = true;
-              completedGradeTopicCombos++;
-              console.log(`✅ Completed grade ${grade} topic ${topic.code}`);
-            }
-          } catch (error) {
-            console.error(`\n❌ Error processing grade ${grade} topic ${topic.code}:`, error.message.substring(0, 100));
-            const errorStr = error.toString().toLowerCase();
-            if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
-              console.log(`⏰ API limit - waiting 3 minutes...`);
-              await waitWithCountdown(3);
-              retryCount++;
-            } else {
-              console.error(`⚠️  Skipping grade ${grade} topic ${topic.code} after error`);
-              break;
+              const output = result.stdout || '';
+              if (result.error) throw result.error;
+
+              // Check for API errors
+                console.log(`\n⚠️  OUPUT for grade ${grade} topic ${topic.code}: ${output}`);
+              const outputLower = output.toLowerCase();
+              if (outputLower.includes("api error") || outputLower.includes("limit reached")) {
+                console.log(`\n⚠️  API rate limit hit for grade ${grade} topic ${topic.code}`);
+                console.log(`⏰ Waiting 3 minutes before retrying...`);
+                await waitWithCountdown(3);
+                console.log(`⏰ retry time: ${new Date().toLocaleString()}...`);
+                retryCount++;
+              } else {
+                success = true;
+                completedGradeTopicCombos++;
+                console.log(`✅ Completed grade ${grade} topic ${topic.code}`);
+                // Update state for success
+                saveState(2, iteration, i, j + 1, { completedGradeTopicCombos, skippedGradeTopicCombos });
+              }
+            } catch (error) {
+              console.error(`\n❌ Error processing grade ${grade} topic ${topic.code}:`, error.message.substring(0, 100));
+              const errorStr = error.toString().toLowerCase();
+              if (1 || errorStr.includes("api error") || errorStr.includes("usage limit")) {
+                console.log(`⏰ API limit - waiting 3 minutes...`);
+                await waitWithCountdown(3);
+                retryCount++;
+              } else {
+                console.error(`⚠️  Skipping grade ${grade} topic ${topic.code} after error`);
+                break;
+              }
             }
           }
-        }
 
-        if (!success) {
-          console.log(`⚠️  Failed to process grade ${grade} topic ${topic.code} after ${maxRetries} retries`);
+          if (!success) {
+            console.log(`⚠️  Failed to process grade ${grade} topic ${topic.code} after ${maxRetries} retries`);
+            // Update state for failure (skipping)
+            saveState(2, iteration, i, j + 1, { completedGradeTopicCombos, skippedGradeTopicCombos });
+          }
         }
+        
+        // Finished grade, clean state for next grade
+        saveState(2, iteration, i + 1, 0, { completedGradeTopicCombos, skippedGradeTopicCombos });
       }
-    }
 
-    console.log(`\n✅ Completed Grade+Topic Phase Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
+      console.log(`\n✅ Completed Grade+Topic Phase Iteration ${iteration + 1}/${GRADE_ITERATIONS}`);
+    }
+    
+    // Finished Phase 2
+    state.phase = 3;
+    saveState(3, 0, 0, 0, { completedGradeTopicCombos, skippedGradeTopicCombos });
   }
 
   const endTime = new Date();
@@ -386,6 +487,9 @@ Use subagents/Task tool to keep context small. For simple standalone tasks for s
   console.log(`- Phase 2: Processed ${completedGradeTopicCombos} grade-topic combos across ${GRADE_ITERATIONS} iteration(s); skipped ${skippedGradeTopicCombos} empty combos`);
   console.log(`- Total: ${totalPassesCompleted} focused optimization passes executed`);
   console.log(`\nCheck skillsv6/allskills.md for the optimized skill map.\n`);
+  
+  // Optional: Clear progress file on successful completion
+  // fs.unlinkSync(PROGRESS_FILE);
 }
 
 // Run the script
