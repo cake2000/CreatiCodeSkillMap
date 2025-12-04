@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const PROGRESS_FILE = "run_progress.json";
 
-const IS_GEMINI = 1;
+const IS_GEMINI = 0;
 
 function loadState() {
   if (fs.existsSync(PROGRESS_FILE)) {
