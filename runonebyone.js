@@ -146,17 +146,18 @@ async function runAllScripts() {
       // Back up allskills.md for this iteration
       // Only backup if we're starting a new iteration or resuming the very first item of it
       // But keeping it simple: overwrite backup if resuming mid-iteration is fine.
-      const timestamp = Date.now();
-      const backupPath = `./skillsv6/allskills_topic_phase_iter${iteration + 1}_${timestamp}.md`;
-      try {
-        execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
-        console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
-      } catch (e) {
-        console.error("Backup failed:", e.message);
-      }
 
       for (let i = 0; i < topics.length; i++) {
         if (iteration === state.iteration && i < state.index1) continue;
+
+        const timestamp = Date.now();
+        const backupPath = `./skillsv6/allskills_topic_phase_iter${iteration + 1}_${i}_${timestamp}.md`;
+        try {
+          execSync(`cp ./skillsv6/allskills.md "${backupPath}"`);
+          console.log(`📁 Backed up allskills.md to: ${backupPath.split('/').pop()}\n`);
+        } catch (e) {
+          console.error("Backup failed:", e.message);
+        }
 
         const topic = topics[i];
         console.log(`\n[${i + 1}/${topics.length}] Processing Topic ${topic.code}: ${topic.name}`);

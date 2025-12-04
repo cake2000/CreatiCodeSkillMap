@@ -1,0 +1,1616 @@
+# T09 - Variables & Expressions (Phase 14 Optimized - December 2025)
+#
+# PHASE 14 MAJOR OVERHAUL - EXPRESSION MASTERY & COMPUTATIONAL REASONING
+#
+# PHILOSOPHY: Variables & Expressions are the LANGUAGE of computational thinking.
+# In the AI era, programmers must reason about STATE (what values exist),
+# EXPRESSION EVALUATION (how values combine), PREDICTION (what will happen),
+# and DEBUGGING (why did it fail). This topic builds systematic reasoning skills.
+#
+# PHASE 14 BOLD CHANGES & CREATICODE INTEGRATION:
+#
+# 1. CREATICODE-SPECIFIC FEATURES INTEGRATED:
+#    - G4.32: NEW - Display variable using a Label Widget (modern UI)
+#    - G5.30: NEW - Control 3D object properties with variables (3D integration)
+#    - G6.30: NEW - Use variables to store Speech Recognition results (AI integration)
+#
+# 2. EXPRESSION LITERACY (K-2 visual foundation):
+#    - GK.11: Predict result of simple visual addition (3 apples + 2 apples = ?)
+#    - G1.09: Trace counter changes step-by-step through visual story
+#    - G2.13: Build simple expression from word problem (picture-based)
+#
+# 3. ARITHMETIC OPERATOR CONSOLIDATION (G3-G4):
+#    - G4.01-05: Unified operator skills
+#    - G4.06: Use negative numbers in expressions (standard Scratch pattern)
+#
+# 4. COUNTER PATTERNS & LOOPS:
+#    - G3.17: Count occurrences using a counter variable
+#    - G4.18: Use CreatiCode's for-loop block (efficient iteration)
+#    - G4.30: Implement count-up and count-down patterns with conditionals
+#    - G5.27: Trace counter through complex branching logic
+#
+# 5. EXPRESSION DEBUGGING:
+#    - G4.31: Debug wrong operator errors (+ vs -, * vs /)
+#    - G5.28: Debug wrong operand order errors (a-b vs b-a)
+#    - G6.28: Debug type mismatch in expressions
+#
+# 6. ADVANCED PATTERNS & AI:
+#    - G5.29: React to variable changes with when-variable-changed event
+#    - G6.29: Store and validate AI-generated numeric outputs
+#    - G8.30: Implement retrieval-augmented generation with variable context
+#
+# GRADE DISTRIBUTION (202 skills total):
+#   K: 11 skills
+#   G1: 9 skills
+#   G2: 13 skills
+#   G3: 17 skills
+#   G4: 32 skills (+1 new Widget skill)
+#   G5: 30 skills (+1 new 3D skill)
+#   G6: 30 skills (+1 new AI skill)
+#   G7: 30 skills
+#   G8: 30 skills
+#
+# KEY IMPROVEMENTS:
+# - Explicit integration of CreatiCode Widgets, 3D, and AI blocks
+# - Clarified 'reduce' vs 'change by negative' for standard block compliance
+# - Stronger progression from visual arithmetic to coded expressions
+# - New skills for modern UI (Label Widgets) vs old-school variable monitors
+
+ID: T09.GK.01
+Topic: T09 – Variables & Expressions
+Skill: Recognize that labels can show different numbers
+Description: **Student task:** Look at game pictures with labels like 'Score: 5', 'Lives: 3', 'Stars: 2'. Point to the label that shows how many stars you have. Then point to the label that shows your score. **Visual scenario:** A colorful game screen with a character, collected stars, and multiple labeled counters at different positions. _Implementation note: Picture-based hot-spot clicking. Show 3-4 labels and ask student to click the correct one. Audio prompt reads labels aloud. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T01.GK.02: Sequence three picture cards for a bedtime routine
+
+ID: T09.GK.02
+Topic: T09 – Variables & Expressions
+Skill: Identify which label changed after collecting something
+Description: **Student task:** Look at two game pictures: BEFORE and AFTER catching a star. Which label changed? Tap the label that is different. **Visual scenario:** Side-by-side screenshots: Left shows Score: 2, Stars: 1. Right shows Score: 2, Stars: 2. The Stars label changed! _Implementation note: Side-by-side before/after comparison with tap-to-select. Highlight feedback on correct answer. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.01: Recognize that labels can show different numbers
+
+ID: T09.GK.03
+Topic: T09 – Variables & Expressions
+Skill: Compare two counters in game pictures to find which is bigger
+Description: **Student task:** Look at the game picture. Player 1 has Score: 4. Player 2 has Score: 7. Tap the player who has MORE points! **Visual scenario:** Split-screen showing two game characters with their score labels clearly visible. _Implementation note: Picture comparison task. Audio asks 'Who has more points?' Extends GK.02 by comparing values across labels. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.02: Identify which label changed after collecting something
+
+ID: T09.GK.04
+Topic: T09 – Variables & Expressions
+Skill: Identify what a label is counting in a game picture
+Description: **Student task:** Look at the game picture with three labels: 'Hearts: 3', 'Coins: 5', 'Time: 10'. The picture shows coins scattered on screen. Tap the label that counts the coins! **Visual scenario:** A colorful game scene with visible coins, heart items, and a timer. Three labeled counters in corners. **Correct answer:** Tap 'Coins: 5'. _Implementation note: Tests understanding that labels track specific things. Student must match label name to visual items. Audio reads each label. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.03: Compare two counters in game pictures to find which is bigger
+
+ID: T09.GK.05
+Topic: T09 – Variables & Expressions
+Skill: Sort game characters by their counter values
+Description: **Student task:** Three animals finished a race! Duck has Stars: 2, Cat has Stars: 5, Dog has Stars: 3. Drag them onto the podium in order from MOST stars to FEWEST stars. Who gets first place? **Visual scenario:** Three cartoon animals with star counters displayed. A 1st-2nd-3rd podium to drag characters onto. **Correct answer:** Cat (5), Dog (3), Duck (2). _Implementation note: Drag-and-drop sorting activity. Extends GK.03 comparison to ordering three items. Audio celebrates correct ordering. Builds foundation for understanding sorted data. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.03: Compare two counters in game pictures to find which is bigger
+* T09.GK.04: Identify what a label is counting in a game picture
+
+ID: T09.GK.06
+Topic: T09 – Variables & Expressions
+Skill: Explain why counters help us remember things
+Description: **Student task:** Look at two game pictures. In Picture 1, a child is trying to remember how many stars they caught by counting on fingers (showing 3 fingers). In Picture 2, the same child looks at a 'Stars: 3' label on screen. Which way is easier to remember when you catch MORE stars? Tap the better picture! **Visual scenario:** Side-by-side comparison. Left: child with fingers up looking confused with 7 stars around them. Right: same child smiling, pointing at 'Stars: 7' label. **Correct answer:** Picture 2 (the label). **Why this matters:** Counters (variables) remember numbers for us automatically, even when numbers get big! _Implementation note: Introduces computational thinking communication - explaining WHY variables work. Audio explains 'The computer remembers for you!' CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.04: Identify what a label is counting in a game picture
+
+ID: T09.GK.07
+Topic: T09 – Variables & Expressions
+Skill: Connect counters to real-world examples
+Description: **Student task:** Look at pictures showing things that count in the real world. Which one is like a score counter in a game? Tap the matching picture! **Visual scenario:** Four pictures: (1) a piggy bank with coins going in (counting money), (2) a calendar with days crossed off (counting days), (3) a height chart showing a child growing (measuring height), (4) birthday cake with candles (counting age). Game counter shows 'Score: 5' going up when catching stars. **Correct answer:** Piggy bank (both count things that increase when you add more). _Implementation note: Connects abstract 'variable' concept to concrete real-world counters. Builds foundation for understanding variables as data storage. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.04: Identify what a label is counting in a game picture
+
+ID: T09.GK.08
+Topic: T09 – Variables & Expressions
+Skill: Predict counter order after game events
+Description: **Student task:** Three players are playing a game! Look at their starting scores and what happens next. After the events, who will have the MOST points? **Visual scenario:** Three characters with starting scores: Cat=3, Dog=2, Bird=4. Events shown as picture sequence: Cat catches 2 stars (+2), Dog catches 1 star (+1), Bird loses 1 star (-1). **Correct answer:** Cat wins with 5 points (Cat: 3+2=5, Dog: 2+1=3, Bird: 4-1=3). _Implementation note: Combines prediction with ordering/comparison. Students must track multiple changes and rank results. Early computational thinking with sequenced operations. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.05: Sort game characters by their counter values
+* T09.GK.06: Explain why counters help us remember things
+
+ID: T09.GK.09
+Topic: T09 – Variables & Expressions
+Skill: Match counter types to what they track
+Description: **Student task:** Different games need different counters! Match each game picture to the RIGHT kind of counter it needs. **Visual scenario:** Three game scenarios and three counter types to match: (1) Collecting coins game → 'Coins: 0' (counts up), (2) Racing to finish line → 'Distance Left: 100' (counts down), (3) Finding hidden objects → 'Found: 0 of 5' (counts up toward goal). Students drag lines to connect games with matching counter types. **Correct answer:** Each game matched to appropriate counter style. _Implementation note: Introduces concept that counters can count UP, count DOWN, or track progress toward a goal. Builds foundation for initialization and update direction choices. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.04: Identify what a label is counting in a game picture
+* T09.GK.07: Connect counters to real-world examples
+
+ID: T09.GK.10
+Topic: T09 – Variables & Expressions
+Skill: Act out being a counter through movement
+Description: **Student task:** You are the counter! Start sitting down (counter = 0). Every time teacher says 'Add one!' stand up a little higher. When teacher says 'Take away one!' crouch down a little. Can you show what happens when counter goes 0, 1, 2, 3, 2, 1, 0? **Activity:** Kinesthetic whole-body activity where students physically represent counter values with their body position (sitting = 0, crouching = 1-2, standing = 3-4, arms up = 5+). Class does it together, then individuals show sequences. **Why this matters:** Embodied learning creates stronger mental models of variables as things that can go up and down. _Implementation note: Unplugged activity with teacher calling out operations. Can be done as video demonstration with student responding to prompts. Auto-grade by having student select which position matches a given count. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.06: Explain why counters help us remember things
+* T09.GK.08: Predict counter order after game events
+
+ID: T09.GK.11
+Topic: T09 – Variables & Expressions
+Skill: Predict result of simple visual addition expression
+Description: **Student task:** Look at the picture equation! 3 apples PLUS 2 apples equals how many apples? Tap the answer: 4, 5, or 6? **Visual scenario:** Picture equation showing [3 apple icons] + [2 apple icons] = [?]. Multiple choice answers with apple groups of 4, 5, and 6. **Correct answer:** 5 apples. _Implementation note: Visual expression prediction using picture arithmetic. Foundational skill connecting visual counting to expression evaluation. Prepares for G1-G2 counter prediction and G3+ coded expressions. Auto-grade with tap selection. CSTA: EK‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.03: Compare two counters in game pictures to find which is bigger
+* T09.GK.05: Sort game characters by their counter values
+
+ID: T09.G1.01
+Topic: T09 – Variables & Expressions
+Skill: Change a displayed number by clicking a button
+Description: **Student task:** Click the big +1 button to add 1 to the counter. Watch the number go up! Click it 5 times. What number do you see now? **Visual scenario:** Large animated button with counter display starting at 0. Each click shows +1 animation and sound. _Implementation note: Large clickable button (minimum 48x48px) with animated counter. Audio feedback on each click. Final answer verification. CSTA: E1‑PRO‑PF‑02._
+
+Dependencies:
+* T09.GK.05: Sort game characters by their counter values
+* T03.G1.01: Match a part to its function using picture cards
+
+ID: T09.G1.02
+Topic: T09 – Variables & Expressions
+Skill: Track items collected using a picture counter
+Description: **Student task:** Drag the stars into the basket. Watch the star counter go up each time! How many stars did you collect? **Visual scenario:** 5 scattered stars on screen, a basket in corner, and a 'Stars: 0' counter that animates up with each drop. _Implementation note: Drag-and-drop with animated counter increment and celebration at completion. CSTA: E1‑PRO‑PF‑02._
+
+Dependencies:
+* T09.G1.01: Change a displayed number by clicking a button
+
+ID: T09.G1.03
+Topic: T09 – Variables & Expressions
+Skill: Predict counter value after collecting items
+Description: **Student task:** The counter shows 2. You are going to drag 3 more stars to the basket. What number will the counter show after? Tap your answer: 3, 4, or 5? **Visual scenario:** Counter at 2 with 3 uncollected stars visible. Multiple choice answers below. _Implementation note: Prediction before action. Student chooses answer, then drags stars to verify. Builds mental math with counters. CSTA: E1‑PRO‑PF‑02._
+
+Dependencies:
+* T09.G1.02: Track items collected using a picture counter
+
+ID: T09.G3.06
+Topic: T09 – Variables & Expressions
+Skill: Debug missing change/update block
+Description: **Student task:** Students inspect simple scripts (3-5 blocks) where a variable doesn't update as expected during gameplay. Focus on recognizing the symptom (score stays at 0 even after collecting items) and finding the missing "change [variable] by [amount]" block that should appear in the event handler. This builds pattern recognition for update-related bugs.
+
+Dependencies:
+* T09.G3.05: Debug missing initialization and wrong update values
+
+ID: T09.G3.07
+Topic: T09 – Variables & Expressions
+Skill: Trace code with variables to predict outcomes
+Description: **Student task:** Students trace a very short script (3-4 steps) where a variable changes in simple ways (set to 0, change by 1, change by 1 again), and predict the final value by reading and following the code. This skill focuses on understanding existing code and predicting outcomes, not creating new variables. Use small numbers and obvious changes.
+
+Dependencies:
+* T09.G3.06: Debug missing change/update block
+* T08.G3.10: Trace code with a single if/else
+
+ID: T09.G3.08
+Topic: T09 – Variables & Expressions
+Skill: Copy one variable's value to another variable
+Description: **Student task:** Students use "set [variable1] to [variable2]" to copy the value from one variable to another. They understand that this creates an independent copy - changing one variable later doesn't affect the other. Examples: "set backup_score to score", "set player_x to enemy_x". This bridges the gap between basic variable operations and using variables in complex expressions.
+
+Dependencies:
+* T09.G3.01: Create, initialize, and increment a variable
+
+ID: T09.G3.09
+Topic: T09 – Variables & Expressions
+Skill: Decrease a variable using negative numbers
+Description: **Student task:** Students use the standard `change [variable] by (-1)` block pattern to decrease a value. They understand that adding a negative number is the same as subtraction. Examples: "change lives by -1" when hit by enemy, "change time by -1" each second. This reinforces the number line concept where adding negative moves left/down.
+
+Dependencies:
+* T09.G3.02: Change and reduce variables with display monitoring
+
+ID: T09.G3.10
+Topic: T09 – Variables & Expressions
+Skill: Predict variable value changes before running code
+Description: **Student task:** Students examine a short script (4-6 blocks) with variable operations and predict what value each variable will have after the code runs, WITHOUT actually running the code. They write their prediction, then run the code to verify. This develops computational thinking by mentally simulating code execution. Example: Given "set score to 5, change score by 3, change score by 2", students predict score = 10 before running. This differs from G3.07 (tracing) by requiring prediction BEFORE execution and self-verification AFTER.
+
+Dependencies:
+* T09.G3.07: Trace code with variables to predict outcomes
+
+ID: T09.G3.11
+Topic: T09 – Variables & Expressions
+Skill: Explain why descriptive variable names improve code readability
+Description: **Student task:** Students compare code using descriptive variable names (like "score", "playerSpeed", "livesRemaining") versus non-descriptive names (like "x", "n", "thing1"). They identify which version is easier to understand and explain WHY descriptive names help: (1) you can understand what the variable stores without reading the whole program, (2) you make fewer mistakes when updating the right variable, (3) other people (or future you) can read the code more easily. Example: comparing "set s to s + 1" vs "set score to score + 1" - both work, but one is much clearer.
+
+Dependencies:
+* T09.G3.01: Create, initialize, and increment a variable
+* T09.G3.10: Predict variable value changes before running code
+
+ID: T09.G3.12
+Topic: T09 – Variables & Expressions
+Skill: Use console output to inspect variable values during execution
+Description: **Student task:** Students use `console log` or `say` blocks to display variable values at specific points in their code, creating a simple debugging trace. They run code and observe the console/stage output to verify that variables have expected values. Example: add "console log [score]" after each "change score by 10" to verify score increases correctly. This introduces systematic debugging using output inspection rather than just running code and hoping it works.
+
+Dependencies:
+* T09.G3.02: Change and reduce variables with display monitoring
+* T09.G3.07: Trace code with variables to predict outcomes
+
+ID: T09.G3.13
+Topic: T09 – Variables & Expressions
+Skill: Explain why a variable is needed for a specific problem
+Description: **Student task:** Students compare two solutions to the same problem: one using a variable, one without (using fixed values or asking user repeatedly). They explain which solution is better and why. Example: "Store the player's name in a variable so we can greet them multiple times" vs "ask for their name every time we want to say hello." They articulate benefits: (1) store information once, use many times, (2) code is easier to change, (3) program remembers user input. This computational thinking communication skill builds understanding of WHY variables exist.
+
+Dependencies:
+* T09.G3.01: Create, initialize, and increment a variable
+* T09.G3.11: Explain why descriptive variable names improve code readability
+
+ID: T09.G3.14
+Topic: T09 – Variables & Expressions
+Skill: Trace expression evaluation step-by-step
+Description: **Student task:** Students break down expression evaluation into steps, showing intermediate results. Given "set total to score + bonus" where score=5 and bonus=3, they write: "Step 1: Get score value (5), Step 2: Get bonus value (3), Step 3: Add them (5+3=8), Step 4: Store result in total (total=8)." This mental model of how expressions evaluate prepares them for debugging complex expressions in G4+.
+
+Dependencies:
+* T09.G3.07: Trace code with variables to predict outcomes
+* T09.G3.08: Copy one variable's value to another variable
+
+ID: T09.G3.15
+Topic: T09 – Variables & Expressions
+Skill: Compare two working solutions and explain trade-offs
+Description: **Student task:** Students compare two correct implementations of the same task and explain the differences. Example: Solution A uses one variable that gets updated; Solution B uses two variables and copies the final result. Both work! Students explain: (1) Which is easier to read? (2) Which is easier to debug? (3) Which would you choose and why? This computational thinking communication skill builds the ability to evaluate and justify design choices, not just write working code.
+
+Dependencies:
+* T09.G3.10: Predict variable value changes before running code
+* T09.G3.11: Explain why descriptive variable names improve code readability
+
+ID: T09.G3.16
+Topic: T09 – Variables & Expressions
+Skill: Build an expression from a word problem
+Description: **Student task:** Students translate word problems into variable expressions. Example: "You have some coins. You find 5 more coins. How do you write this in code?" Answer: "change coins by 5". Or: "Your score is coins times 10. How do you write this?" Answer: "set score to coins * 10". They practice recognizing keywords (total, difference, product, each) that indicate operations (+, -, *, /) and translating English descriptions into code expressions.
+
+Dependencies:
+* T09.G3.08: Copy one variable's value to another variable
+* T09.G3.14: Trace expression evaluation step-by-step
+
+ID: T09.G3.17
+Topic: T09 – Variables & Expressions
+Skill: Count occurrences using a counter variable
+Description: **Student task:** Students implement the "counting occurrences" pattern: initialize a counter to 0, then increment it each time a specific event occurs. Examples: count how many times the player jumps, count how many enemies are defeated, count button clicks. They build scripts like: "set jumpCount to 0" (on green flag), then "change jumpCount by 1" (when space key pressed). They understand this pattern answers the question "how many times did X happen?" which is fundamental to data collection, statistics, and game mechanics.
+
+Dependencies:
+* T09.G3.01: Create, initialize, and increment a variable
+* T09.G3.04: Use a variable in a simple conditional (if block)
+
+ID: T09.G4.01
+Topic: T09 – Variables & Expressions
+Skill: Recognize and create arithmetic expressions with variables
+Description: **Student task:** Students recognize that expressions combine variables and values using operators, and create their first expression using addition: "set total to score + bonus". They observe that the + operator combines two values into a sum and can be used with variables, literals, or other reporter blocks. They predict the result of simple expressions before running them. This establishes the foundation for all arithmetic operators.
+
+Dependencies:
+* T09.G3.07: Trace code with variables to predict outcomes
+* T09.G3.08: Copy one variable's value to another variable
+
+ID: T09.G4.02
+Topic: T09 – Variables & Expressions
+Skill: Use addition (+) in variable expressions
+Description: **Student task:** Students use the + operator block to create expressions that add values, such as "set total to score + bonus" or "set sum to a + b". They understand that the + operator combines two values into a sum and can be used with variables, literals, or other expressions. This extends the foundation with practical addition patterns.
+
+Dependencies:
+* T09.G4.01: Recognize and create arithmetic expressions with variables
+
+ID: T09.G4.03
+Topic: T09 – Variables & Expressions
+Skill: Use subtraction (-) in variable expressions
+Description: **Student task:** Students use the - operator block to create expressions that subtract values, such as "set remaining to total - used" or "set difference to a - b". They understand that the - operator finds the difference between two values and can compute negative results.
+
+Dependencies:
+* T09.G4.01: Recognize and create arithmetic expressions with variables
+
+ID: T09.G4.04
+Topic: T09 – Variables & Expressions
+Skill: Use multiplication (*) in expressions
+Description: **Student task:** Students use the * operator to create expressions that multiply values, such as "set total to lives * 100" or "set area to width * height". They understand that multiplication scales one value by another.
+
+Dependencies:
+* T09.G4.01: Recognize and create arithmetic expressions with variables
+
+ID: T09.G4.05
+Topic: T09 – Variables & Expressions
+Skill: Use division (/) in expressions
+Description: **Student task:** Students use the / operator to create expressions that divide values, such as "set average to sum / count" or "set half to total / 2". They understand that division splits one value by another and may produce decimal results.
+
+Dependencies:
+* T09.G4.01: Recognize and create arithmetic expressions with variables
+
+ID: T09.G4.06
+Topic: T09 – Variables & Expressions
+Skill: Combine two arithmetic operators in a single expression
+Description: **Student task:** Students write expressions that combine exactly two operators in one statement using the same type of operation, such as "a + b + c" or "x * y * z". They learn to nest operator blocks in Scratch/CreatiCode and read the resulting expression. This is simpler than mixing different operator types and prepares for G6.02 precedence rules.
+
+Dependencies:
+* T09.G4.02: Use addition (+) in variable expressions
+* T09.G4.03: Use subtraction (-) in variable expressions
+* T09.G4.04: Use multiplication (*) in expressions
+* T09.G4.05: Use division (/) in expressions
+
+ID: T09.G4.07
+Topic: T09 – Variables & Expressions
+Skill: Store and use user input in a variable
+Description: **Student task:** Students use an "ask and wait" or input block to capture user input (a number or text), store it in a variable, and then use that variable in later blocks or conditionals.
+
+Dependencies:
+* T06.G3.04: Build a key‑press script that controls a sprite
+* T09.G3.04: Use a variable in a simple conditional (if block)
+
+ID: T09.G4.08
+Topic: T09 – Variables & Expressions
+Skill: Use a variable as a loop counter
+Description: **Student task:** Students create a counter variable (e.g., "i" or "count"), set it to a starting value before a loop, and change it by 1 inside the loop each iteration. They display or use the counter value to see it change (e.g., say the number, or use it to position a sprite). This introduces the for-loop pattern: initialize before loop, update inside loop. Example: set i to 1, repeat 5 times: say i, change i by 1.
+
+Dependencies:
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.02: Change and reduce variables with display monitoring
+
+ID: T09.G4.09
+Topic: T09 – Variables & Expressions
+Skill: Use equals (=) and less than (<) comparison operators in conditionals
+Description: **Student task:** Students use the equals (=) and less than (<) operators in conditionals to compare variable values. Examples: "if score = 10 then say 'You win!'", "if lives < 1 then broadcast game_over". They understand that comparisons evaluate to true/false and control which code runs. These are the foundational comparisons: = checks for exact match, < checks if left value is smaller than right.
+
+Dependencies:
+* T09.G3.04: Use a variable in a simple conditional (if block)
+* T09.G3.07: Trace code with variables to predict outcomes
+
+ID: T09.G4.10
+Topic: T09 – Variables & Expressions
+Skill: Use greater than (>) operator in conditionals
+Description: **Student task:** Students use the greater than (>) operator to check if one value exceeds another. Examples: "if score > 100 then say 'High score!'", "if health > 0 then keep playing". They understand that > is the opposite of < and when to use each based on what they want to check.
+
+Dependencies:
+* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+
+ID: T09.G4.11
+Topic: T09 – Variables & Expressions
+Skill: Use not equal (≠) and inclusive comparison (≥, ≤) operators
+Description: **Student task:** Students use CreatiCode's extended comparison operators: not equal (≠) to check if values are different, greater-or-equal (≥) for "at least" conditions, and less-or-equal (≤) for "at most" conditions. Examples: "if lives ≠ 0 then keep playing", "if score ≥ 100 then unlock bonus level", "if health ≤ 20 then show warning". They understand that ≥/≤ include the boundary value unlike >/< which exclude it.
+
+Dependencies:
+* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+* T09.G4.10: Use greater than (>) operator in conditionals
+
+ID: T09.G4.12
+Topic: T09 – Variables & Expressions
+Skill: Debug expression evaluation errors
+Description: **Student task:** Students identify and fix bugs where expressions produce wrong results due to: (1) wrong operator used (+ instead of *, / instead of -), (2) operands in wrong order (a - b vs b - a matters for subtraction/division), or (3) missing/extra operands. They trace expression evaluation step-by-step to find the error. Example: "set average to sum / count" should be "sum / count" not "count / sum". This introduces debugging of mathematical logic distinct from variable usage bugs.
+
+Dependencies:
+* T09.G4.06: Combine two arithmetic operators in a single expression
+* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+
+ID: T09.G4.13
+Topic: T09 – Variables & Expressions
+Skill: Use a flag variable to track state (0/1 or true/false)
+Description: **Student task:** Students create variables (using 0/1 or meaningful names like "game_over") to remember whether an event occurred. They set the flag when the event happens (e.g., "set has_key to 1" when collecting a key) and check it in conditionals to control later behavior (e.g., "if has_key = 1 then open door"). This introduces state tracking, where a variable's value persists and affects future decisions.
+
+Dependencies:
+* T06.G3.02: Build a green‑flag script that runs a 3–5 block sequence
+* T09.G3.04: Use a variable in a simple conditional (if block)
+* T09.G3.05: Debug missing initialization and wrong update values
+
+ID: T09.G4.14
+Topic: T09 – Variables & Expressions
+Skill: Use random number blocks to set variable values
+Description: **Student task:** Students use the "pick random (min) to (max)" block to set variables to random values, enabling games with unpredictable elements like random enemy positions, random prizes, or dice rolls.
+
+Dependencies:
+* T09.G3.01: Create, initialize, and increment a variable
+
+ID: T09.G4.15
+Topic: T09 – Variables & Expressions
+Skill: Choose appropriate variable display modes (normal, large, slider)
+Description: **Student task:** Students right-click on a variable monitor and choose between display modes: normal (shows name and value), large (shows only value in big text), or slider (shows value with draggable control). They understand when each mode is useful for different purposes (large for score display, slider for testing/adjusting values).
+
+Dependencies:
+* T09.G3.02: Change and reduce variables with display monitoring
+* T12.G3.01: Test and trace simple block-based scripts
+
+ID: T09.G4.16
+Topic: T09 – Variables & Expressions
+Skill: Debug variable used before initialization
+Description: **Student task:** Students examine a program where a variable is used in an expression or conditional before being initialized (set to a starting value). They trace through the code to identify that the variable needs to be initialized at program start or before first use. This builds on G3.05 by handling scripts with 6-10 blocks in more complex contexts.
+
+Dependencies:
+* T07.G3.01: Use a counted repeat loop
+* T09.G3.06: Debug missing change/update block
+* T09.G4.08: Use a variable as a loop counter
+* T12.G3.01: Test and trace simple block-based scripts
+
+ID: T09.G4.17
+Topic: T09 – Variables & Expressions
+Skill: Debug wrong variable or update frequency errors
+Description: **Student task:** Students examine programs where the wrong variable is used in an expression (e.g., using "lives" instead of "score") OR a variable is updated the wrong number of times (often in loops - counter increments on every frame instead of once per event). They trace through the code to identify which variable should be used based on intended logic, or trace loop iterations to identify update frequency problems. This consolidates the two common intermediate debugging patterns.
+
+Dependencies:
+* T07.G3.01: Use a counted repeat loop
+* T09.G4.08: Use a variable as a loop counter
+* T09.G4.16: Debug variable used before initialization
+* T12.G3.01: Test and trace simple block-based scripts
+
+ID: T09.G4.18
+Topic: T09 – Variables & Expressions
+Skill: Use CreatiCode's for-loop block with automatic variable
+Description: **Student task:** Students use CreatiCode's `for [variable] from (start) to (limit) at step (step)` block (found in Control category) which automatically manages a loop counter variable. Examples: "for i from 1 to 10 at step 1" counts 1,2,3...10, or "for i from 0 to 100 at step 10" counts 0,10,20...100. This is more efficient than manually initializing and changing a counter inside a repeat loop. Students compare both approaches and understand when to use each.
+
+Dependencies:
+* T07.G3.01: Use a counted repeat loop
+* T09.G4.08: Use a variable as a loop counter
+
+ID: T09.G4.19
+Topic: T09 – Variables & Expressions
+Skill: Use variables with pen blocks for drawing patterns
+Description: **Student task:** Students use variables to control pen drawing operations, creating patterns based on variable values. They use a counter variable to change pen size, color, or position during drawing. Examples: draw concentric circles where each circle's radius is determined by a counter variable, or draw a spiral where the distance moved increases by a variable amount each iteration. This connects variables to visual output and demonstrates how changing numbers create patterns.
+
+Dependencies:
+* T09.G4.08: Use a variable as a loop counter
+* T09.G4.18: Use CreatiCode's for-loop block with automatic variable
+
+ID: T09.G4.20
+Topic: T09 – Variables & Expressions
+Skill: Build a countdown timer using variables
+Description: **Student task:** Students create a countdown timer that starts at a value (e.g., 10 seconds) and decreases to 0. They initialize a timer variable, use the `change [variable] by -1` block inside a loop with a 1-second wait, and display the countdown. They add a conditional to detect when the timer reaches 0 and trigger an action (say "Time's up!", end game). This practical application combines initialization, reduction, display, and conditionals in a common game mechanic.
+
+Dependencies:
+* T09.G3.09: Decrease a variable using negative numbers
+* T09.G4.08: Use a variable as a loop counter
+* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+
+ID: T09.G4.21
+Topic: T09 – Variables & Expressions
+Skill: Store intermediate calculation results in variables
+Description: **Student task:** Students break down complex calculations into steps by storing intermediate results in variables. Instead of writing one large expression, they compute each step separately. Example: to calculate area of a border (outer - inner area), first "set outerArea to outerWidth * outerHeight", then "set innerArea to innerWidth * innerHeight", then "set borderArea to outerArea - innerArea". This pattern makes code more readable, easier to debug (can check each step), and prepares for more complex multi-step algorithms.
+
+Dependencies:
+* T09.G4.06: Combine two arithmetic operators in a single expression
+* T09.G4.12: Debug expression evaluation errors
+
+ID: T09.G4.22
+Topic: T09 – Variables & Expressions
+Skill: Implement boundary checking with min and max guards
+Description: **Student task:** Students use conditionals to keep variable values within valid ranges. They implement patterns like: "if health > maxHealth then set health to maxHealth" and "if x < 0 then set x to 0". They understand that many games and simulations require variables to stay within bounds (health can't exceed max, position can't go off-screen, score can't be negative). This defensive programming pattern prevents bugs and ensures consistent behavior.
+
+Dependencies:
+* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+* T09.G4.11: Use not equal (≠) and inclusive comparison (≥, ≤) operators
+* T09.G4.13: Use a flag variable to track state (0/1 or true/false)
+
+ID: T09.G4.23
+Topic: T09 – Variables & Expressions
+Skill: Debug expression evaluation using console inspection
+Description: **Student task:** Students debug expressions that produce wrong results by adding console log statements to inspect intermediate values. They identify where in a multi-step expression the error occurs. Example: "set result to (a + b) * c" gives wrong answer; add "console log [a]", "console log [b]", "console log [a + b]" to find which value is incorrect. This combines G3.12 console skills with G4.12 expression debugging.
+
+Dependencies:
+* T09.G3.12: Use console output to inspect variable values during execution
+* T09.G4.12: Debug expression evaluation errors
+
+ID: T09.G4.24
+Topic: T09 – Variables & Expressions
+Skill: Plan variable lifecycle before coding
+Description: **Student task:** Students plan variable usage before writing code by answering: (1) What variables do I need? (2) What are their initial values? (3) When/where do they change? (4) When/where are they read? They create a simple variable plan table for a small project (3-5 variables). Example: for a jumping game, plan: "jumpHeight: starts at 0, increases when space pressed, decreases each frame, read by sprite y-position." This planning skill prevents common bugs and builds design thinking.
+
+Dependencies:
+* T09.G4.13: Use a flag variable to track state (0/1 or true/false)
+* T09.G4.16: Debug variable used before initialization
+
+ID: T09.G4.25
+Topic: T09 – Variables & Expressions
+Skill: Identify when to create a new variable vs. reuse existing
+Description: **Student task:** Students analyze code scenarios and decide whether to create a new variable or reuse an existing one. They understand trade-offs: (1) reusing saves memory but may overwrite needed data, (2) creating new variables makes code clearer but uses more memory. Example: calculating "totalWithTax = total * 1.08" - should we reuse "total" or create "totalWithTax"? Answer: create new variable to preserve both values. This decision-making skill builds variable lifecycle awareness.
+
+Dependencies:
+* T09.G4.21: Store intermediate calculation results in variables
+* T09.G4.24: Plan variable lifecycle before coding
+
+ID: T09.G4.26
+Topic: T09 – Variables & Expressions
+Skill: Justify variable design choices to a peer
+Description: **Student task:** Students explain their variable design decisions to a classmate (or in written form). They answer questions like: "Why did you name this variable 'playerHealth' instead of 'h'?", "Why did you initialize lives to 3 instead of 0?", "Why did you use a separate highScore variable instead of reusing score?" This communication skill requires articulating reasoning, not just making correct choices. Students practice receiving feedback and considering alternative designs.
+
+Dependencies:
+* T09.G4.24: Plan variable lifecycle before coding
+* T09.G4.25: Identify when to create a new variable vs. reuse existing
+
+ID: T09.G4.27
+Topic: T09 – Variables & Expressions
+Skill: Predict result of nested operator blocks visually
+Description: **Student task:** Students examine Scratch/CreatiCode block structures where operator blocks are nested inside each other and predict the result without running. Example: a visual block showing "( (3 + 5) * 2 )" - students identify that the inner block (3+5=8) evaluates first, then the outer block (8*2=16). They read the visual nesting structure to determine evaluation order. This visual literacy skill is essential for understanding how block-based expressions work differently from text formulas.
+
+Dependencies:
+* T09.G4.06: Combine two arithmetic operators in a single expression
+* T09.G4.21: Store intermediate calculation results in variables
+
+ID: T09.G4.28
+Topic: T09 – Variables & Expressions
+Skill: Write multi-step calculations as intermediate variable assignments
+Description: **Student task:** Students convert complex calculations into a series of simple steps, each storing a result in a named intermediate variable. Example: Calculate total price with tax and discount. Instead of: "set finalPrice to (price * quantity) * (1 - discount) * (1 + taxRate)", write: "set subtotal to price * quantity", "set afterDiscount to subtotal * (1 - discount)", "set finalPrice to afterDiscount * (1 + taxRate)". They verify each step produces expected values. This skill emphasizes clarity and debuggability over compact expressions.
+
+Dependencies:
+* T09.G4.21: Store intermediate calculation results in variables
+* T09.G4.27: Predict result of nested operator blocks visually
+
+ID: T09.G4.29
+Topic: T09 – Variables & Expressions
+Skill: Identify subexpressions that can be computed independently
+Description: **Student task:** Students analyze complex expressions and identify which parts can be computed independently (in parallel) vs which must wait for other results. Given "(a + b) * (c - d)", they identify that "a + b" and "c - d" can be computed independently, but the multiplication must wait for both. They practice: (1) Drawing dependency diagrams showing which operations depend on others, (2) Identifying "parallel" subexpressions in nested blocks, (3) Explaining why some operations must be sequential. This computational thinking skill builds understanding of data dependencies and prepares for parallel computing concepts.
+
+Dependencies:
+* T09.G4.06: Combine two arithmetic operators in a single expression
+* T09.G4.27: Predict result of nested operator blocks visually
+
+ID: T09.G4.30
+Topic: T09 – Variables & Expressions
+Skill: Implement count-up and count-down patterns with conditionals
+Description: **Student task:** Students build both count-up and count-down counter patterns with conditional actions at threshold values. Count-up example: "set score to 0", "change score by 10", "if score >= 100 then broadcast level_up". Count-down example: "set timeLeft to 30", "change timeLeft by -1", "if timeLeft <= 0 then broadcast game_over". They implement both patterns and explain when each is appropriate (earning points vs depleting resources). This consolidates the counter pattern with conditional triggers.
+
+Dependencies:
+* T09.G3.17: Count occurrences using a counter variable
+* T09.G4.09: Use equals (=) and less than (<) comparison operators in conditionals
+* T09.G4.20: Build a countdown timer using variables
+
+ID: T09.G4.31
+Topic: T09 – Variables & Expressions
+Skill: Debug wrong operator errors in expressions
+Description: **Student task:** Students identify and fix bugs where the wrong arithmetic operator is used. Given buggy code like "set average to total + count" (should be /), they trace the expression, identify the symptom (average is way too large), recognize the wrong operator, and fix it. They practice: (1) "+" instead of "-" bugs (score goes up when it should go down), (2) "*" instead of "/" bugs (result is huge instead of small), (3) "/" instead of "*" bugs (result is fraction instead of large). This systematic approach to operator debugging builds precision in expression writing.
+
+Dependencies:
+* T09.G4.02: Use addition (+) in variable expressions
+* T09.G4.03: Use subtraction (-) in variable expressions
+* T09.G4.04: Use multiplication (*) in expressions
+* T09.G4.05: Use division (/) in expressions
+* T09.G4.12: Debug expression evaluation errors
+
+ID: T09.G4.32
+Topic: T09 – Variables & Expressions
+Skill: Display variable using a Label Widget
+Description: **Student task:** Students use the `set value to [variable] for widget [labelName]` block to display a variable's value on a Label Widget, instead of using the standard stage monitor. They understand this allows for better UI design (custom fonts, colors, positioning) and multiple displays. This introduces the concept of binding data (variable) to UI (widget).
+
+Dependencies:
+* T09.G3.03: Use variable reporter blocks in other blocks
+* T09.G4.15: Choose appropriate variable display modes (normal, large, slider)
+
+ID: T09.G5.01
+Topic: T09 – Variables & Expressions
+Skill: Use multiple variables together in a single expression
+Description: **Student task:** Students write expressions that reference 2-3 different variables in one calculation, such as "set area to width * height" or "set total to price * quantity". The focus is on using multiple named variables (not just literals) to compute a result, understanding that variables can reference each other.
+
+Dependencies:
+* T09.G4.06: Combine two arithmetic operators in a single expression
+* T09.G4.17: Debug wrong variable or update frequency errors
+
+ID: T09.G5.02
+Topic: T09 – Variables & Expressions
+Skill: Create and use string variables
+Description: **Student task:** Students create variables that hold text instead of numbers (e.g., name, message, status). They set string values using "set [myName] to [Alice]" and display them using say blocks or labels.
+
+Dependencies:
+* T06.G5.01: Identify standard event patterns in a small game
+* T09.G4.07: Store and use user input in a variable
+
+ID: T09.G5.03
+Topic: T09 – Variables & Expressions
+Skill: Create and use boolean variables with true/false values
+Description: **Student task:** Students create variables that hold boolean (true/false) values instead of numbers or text. They set boolean values using logic blocks and use them in conditionals to control program flow. Examples: "set isJumping to true", "if isJumping = true then...". This is more intuitive than using 0/1 for flags.
+
+Dependencies:
+* T08.G5.01: Draw decision tree flowchart
+* T09.G4.13: Use a flag variable to track state (0/1 or true/false)
+
+ID: T09.G5.04
+Topic: T09 – Variables & Expressions
+Skill: Identify and choose appropriate variable types for data
+Description: **Student task:** Students identify the three main variable types (number, string, boolean) and explain what each can store. They predict what happens when mixing types (e.g., adding a number to a string produces concatenation, not arithmetic). Given a scenario, they choose the appropriate variable type: "score" → number for calculations, "playerName" → string for text, "gameOver" → boolean for true/false state. This skill is essential for avoiding type-related bugs.
+
+Dependencies:
+* T09.G5.02: Create and use string variables
+* T09.G5.03: Create and use boolean variables with true/false values
+
+ID: T09.G5.05
+Topic: T09 – Variables & Expressions
+Skill: Join strings using concatenation
+Description: **Student task:** Students use the `join` block to combine multiple text values into one string, such as "join [Hello ] [name]" to create personalized messages. They understand that join combines text end-to-end without spaces unless explicitly added.
+
+Dependencies:
+* T06.G5.01: Identify standard event patterns in a small game
+* T09.G5.02: Create and use string variables
+
+ID: T09.G5.06
+Topic: T09 – Variables & Expressions
+Skill: Use multi-input join with separator
+Description: **Student task:** Students use the advanced join block `join [T1] [T2] [T3] [T4] [T5] [T6] with [SEPARATOR]` to combine multiple strings with a separator between them. They apply this for creating CSV data, formatted lists, or comma-separated values. Example: join names with ", " to create "Alice, Bob, Carol".
+
+Dependencies:
+* T09.G5.05: Join strings using concatenation
+
+ID: T09.G5.07
+Topic: T09 – Variables & Expressions
+Skill: Use variables as settings to control program behavior
+Description: **Student task:** Students create variables that control game or program settings (e.g., player_speed, enemy_count, difficulty_level) and use them throughout the code so changing one value updates the entire program's behavior. This demonstrates the power of variables as configurable parameters.
+
+Dependencies:
+* T09.G4.17: Debug wrong variable or update frequency errors
+* T11.G5.01: Decompose a problem into logical custom block boundaries
+
+ID: T09.G5.08
+Topic: T09 – Variables & Expressions
+Skill: Use the accumulator pattern to compute running totals
+Description: **Student task:** Students implement the accumulator pattern: initialize a variable to 0, then add values to it repeatedly (in a loop or across events) to compute totals. They understand this pattern is essential for sums, averages, and statistics. Example: "set total to 0", then in loop: "change total by (item value)".
+
+Dependencies:
+* T04.G5.01: Identify and classify counter update patterns in code
+* T06.G5.01: Identify standard event patterns in a small game
+* T07.G5.01: Simulate repeated experiments with a loop
+* T09.G4.08: Use a variable as a loop counter
+* T09.G4.17: Debug wrong variable or update frequency errors
+
+ID: T09.G5.09
+Topic: T09 – Variables & Expressions
+Skill: Trace a counter through loop iterations to predict final value
+Description: **Student task:** Students trace a script where a counter variable starts at a value and changes inside a repeat loop, tracking its value at each iteration and predicting the final value. Example: "set i to 0, repeat 5 times: change i by 2" results in i = 10. This extends G3.07 tracing to multi-iteration contexts.
+
+Dependencies:
+* T02.G5.01: Trace a script with nested loops using debug print
+* T04.G5.01: Identify and classify counter update patterns in code
+* T07.G5.01: Simulate repeated experiments with a loop
+* T09.G4.08: Use a variable as a loop counter
+
+ID: T09.G5.10
+Topic: T09 – Variables & Expressions
+Skill: Trace code with multiple interacting variables
+Description: **Student task:** Students trace code involving 2-3 variables that interact through expressions, recording each variable's value at each step. Focus on understanding how assignment order affects results (e.g., "set a to b" before vs after "set b to 5").
+
+Dependencies:
+* T02.G5.01: Trace a script with nested loops using debug print
+* T09.G5.01: Use multiple variables together in a single expression
+* T09.G5.09: Trace a counter through loop iterations to predict final value
+
+ID: T09.G5.11
+Topic: T09 – Variables & Expressions
+Skill: Track high score using variable comparison
+Description: **Student task:** Students implement a high score system: compare current score to high_score variable, and if current is greater, update high_score. This combines accumulator tracking with conditional updates and persists the "best so far" value.
+
+Dependencies:
+* T04.G5.01: Identify and classify counter update patterns in code
+* T08.G5.01: Draw decision tree flowchart
+* T09.G4.11: Use not equal (≠) and inclusive comparison (≥, ≤) operators
+* T09.G5.08: Use the accumulator pattern to compute running totals
+
+ID: T09.G5.12
+Topic: T09 – Variables & Expressions
+Skill: Apply basic text formatting using string operations
+Description: **Student task:** Students combine string variables and join operations to create formatted output messages. They build messages like "Player: [name] - Score: [score]" by joining text literals with variable values. This prepares them for more advanced string operations in Grade 6 by practicing composition of text from multiple parts.
+
+Dependencies:
+* T09.G5.06: Use multi-input join with separator
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G5.13
+Topic: T09 – Variables & Expressions
+Skill: Use variables for animation state machines
+Description: **Student task:** Students create a state variable (e.g., "animation_state" with values like "idle", "walking", "jumping") to control which animation plays and what behaviors are active. They use conditionals to check the state and switch between states based on events. Example: "if animation_state = walking then switch costume to walk1, else if animation_state = jumping then switch costume to jump1". This pattern is essential for character controllers and game entities.
+
+Dependencies:
+* T09.G4.13: Use a flag variable to track state (0/1 or true/false)
+* T09.G5.02: Create and use string variables
+* T09.G5.04: Identify and choose appropriate variable types for data
+
+ID: T09.G5.14
+Topic: T09 – Variables & Expressions
+Skill: Swap two variable values using a temporary variable
+Description: **Student task:** Students implement the classic swap algorithm: create a temporary variable, copy one value to temp, copy second value to first variable, copy temp to second variable. Example: to swap a=3 and b=5, use "set temp to a, set a to b, set b to temp". They understand why a direct swap fails ("set a to b, set b to a" loses the original value of a). This fundamental algorithm pattern is essential for sorting, shuffling, and many other algorithms.
+
+Dependencies:
+* T09.G3.08: Copy one variable's value to another variable
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G5.15
+Topic: T09 – Variables & Expressions
+Skill: Define and use constant variables for configuration
+Description: **Student task:** Students create variables intended to be set once and never changed during program execution (constants). They use ALL_CAPS naming convention to indicate constants (e.g., MAX_LIVES, GRAVITY, SCREEN_WIDTH) and set them at program start. They understand constants make code more maintainable—changing one constant updates all places it's used. Example: "set JUMP_HEIGHT to 50" used throughout the code; changing it once changes all jumps. Students contrast constants with variables that change during execution.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G5.16
+Topic: T09 – Variables & Expressions
+Skill: Refactor repeated literal values into named variables
+Description: **Student task:** Students identify code where the same literal value appears multiple times (e.g., "move 50 steps" appears in 5 places) and refactor by creating a named variable (e.g., "set moveDistance to 50") and replacing all occurrences with the variable. They understand benefits: (1) changing the value in one place updates everywhere, (2) the name documents what the value means, (3) reduces chance of inconsistent updates. This "Don't Repeat Yourself" (DRY) principle is fundamental to maintainable code.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G5.15: Define and use constant variables for configuration
+
+ID: T09.G5.17
+Topic: T09 – Variables & Expressions
+Skill: Design variable update rules for game mechanics
+Description: **Student task:** Students design the variable logic for common game mechanics by specifying: (1) what variables are needed, (2) their initial values, (3) when and how they change, and (4) what conditions check them. Examples: health system (health starts at 100, decreases when hit, can't go below 0 or above max, game over when 0), scoring system (score starts at 0, increases on collect, displays on stage), or power-up system (hasPowerUp starts false, becomes true on collect, enables special ability, expires after timer). This design-before-code approach builds planning skills.
+
+Dependencies:
+* T09.G5.13: Use variables for animation state machines
+* T09.G5.15: Define and use constant variables for configuration
+* T09.G4.22: Implement boundary checking with min and max guards
+
+ID: T09.G5.18
+Topic: T09 – Variables & Expressions
+Skill: Debug variables in loops using step-by-step console tracing
+Description: **Student task:** Students debug loop-based variable bugs by adding console output inside loops to trace values at each iteration. They identify: (1) initialization errors (wrong starting value), (2) update errors (wrong increment), (3) off-by-one errors (loop runs wrong number of times). Example: "repeat 5: change counter by 2, console log [counter]" helps verify counter increases correctly. This extends G3.12 console debugging to loops.
+
+Dependencies:
+* T09.G3.12: Use console output to inspect variable values during execution
+* T09.G5.09: Trace a counter through loop iterations to predict final value
+
+ID: T09.G5.19
+Topic: T09 – Variables & Expressions
+Skill: Integrate table variables with regular variables for structured data
+Description: **Student task:** Students use table variables (from T10 Lists & Tables) to store collections of related data, then extract values into regular variables for processing. Example: store player stats in a table (name, score, level columns), then "set playerName to item 1 of row 1 of statsTable" to extract a specific player's name. They understand when to use tables (for collections) vs regular variables (for single values), and how to move data between them.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G5.20
+Topic: T09 – Variables & Expressions
+Skill: Critique variable naming in given code and improve it
+Description: **Student task:** Students review code with poor variable names and suggest improvements. Given code with names like "x", "temp1", "data", "thing", they identify which names are unclear and propose better alternatives. They explain WHY each suggestion is better: "x should be playerX because it stores the player's horizontal position." This skill develops code review abilities and reinforces naming best practices by analyzing others' code, not just writing their own.
+
+Dependencies:
+* T09.G3.11: Explain why descriptive variable names improve code readability
+* T09.G5.15: Define and use constant variables for configuration
+
+ID: T09.G5.21
+Topic: T09 – Variables & Expressions
+Skill: Order expression evaluation steps explicitly
+Description: **Student task:** Students are given a complex expression and must number the evaluation steps in correct order. Example: "set result to (a + b) * (c - d)" with a=2, b=3, c=10, d=4. Steps to order: (A) Compute a+b=5, (B) Compute c-d=6, (C) Multiply results=30, (D) Store in result. Correct order: A and B can be in either order (both first), then C, then D. This explicit ordering builds deep understanding of expression evaluation, especially recognizing that independent subexpressions can evaluate in any order.
+
+Dependencies:
+* T09.G4.27: Predict result of nested operator blocks visually
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G5.22
+Topic: T09 – Variables & Expressions
+Skill: Design variable schema for a mini-project before coding
+Description: **Student task:** Students plan all variables needed for a small project (5-10 variables) BEFORE writing any code. They create a specification document listing: (1) variable name, (2) what it stores, (3) initial value, (4) when/how it changes, (5) where it's used. Example: For a "Catch the Falling Objects" game, plan variables for score, lives, speed, gameOver flag, highScore. They review and refine their schema, then implement the code. This design-first approach reduces bugs and teaches professional planning practices.
+
+Dependencies:
+* T09.G4.24: Plan variable lifecycle before coding
+* T09.G5.17: Design variable update rules for game mechanics
+
+ID: T09.G5.23
+Topic: T09 – Variables & Expressions
+Skill: Build compound expressions step-by-step from requirements
+Description: **Student task:** Students translate multi-part requirements into compound expressions by building them incrementally. Example requirement: "Score is base points (10) times multiplier, plus bonus if bonus is active, minus penalty if penalty is active." Students identify the parts, build each subexpression, then combine: "set score to (10 * multiplier) + (if bonusActive then bonus else 0) - (if penaltyActive then penalty else 0)". They verify their expression handles all cases correctly. This skill bridges the gap between requirements and implementation.
+
+Dependencies:
+* T09.G5.01: Use multiple variables together in a single expression
+* T09.G5.21: Order expression evaluation steps explicitly
+
+ID: T09.G5.24
+Topic: T09 – Variables & Expressions
+Skill: Identify variable invariants that must always be true
+Description: **Student task:** Students identify conditions that should ALWAYS be true about their variables (invariants) and explain why. Examples: "score is always >= 0" (score can't be negative), "lives is always between 0 and maxLives", "currentLevel <= totalLevels". They practice: (1) Stating invariants for given code, (2) Checking if code maintains invariants, (3) Finding code that BREAKS invariants. This introduces formal reasoning about program correctness - a key skill for writing bug-free code. Example: Given health system code, identify the invariant "0 <= health <= maxHealth" and check if all update operations maintain it.
+
+Dependencies:
+* T09.G4.22: Implement boundary checking with min and max guards
+* T09.G5.17: Design variable update rules for game mechanics
+
+ID: T09.G5.25
+Topic: T09 – Variables & Expressions
+Skill: Rewrite expressions for clarity vs efficiency
+Description: **Student task:** Students compare equivalent expressions and discuss trade-offs between clarity and efficiency. Example: "distance = sqrt(dx*dx + dy*dy)" is efficient but "dxSquared = dx*dx; dySquared = dy*dy; sumSquares = dxSquared + dySquared; distance = sqrt(sumSquares)" is clearer for debugging. They practice: (1) Rewriting compact expressions into step-by-step versions for clarity, (2) Combining step-by-step code into compact expressions for efficiency, (3) Deciding when each style is appropriate (prototyping vs production, simple vs complex logic). This meta-skill helps students make informed coding style decisions.
+
+Dependencies:
+* T09.G4.28: Write multi-step calculations as intermediate variable assignments
+* T09.G5.21: Order expression evaluation steps explicitly
+
+ID: T09.G5.26
+Topic: T09 – Variables & Expressions
+Skill: Create minimal reproducible examples for variable bugs
+Description: **Student task:** Students learn to isolate variable bugs by creating minimal reproducible examples (MREs). Given a complex program with a bug, they: (1) Identify which variables are involved, (2) Remove unrelated code while preserving the bug, (3) Create the smallest program that still shows the problem, (4) Document exact steps to reproduce. Example: "My score doesn't update correctly" gets reduced to 5-10 blocks showing just the scoring logic with the bug. This professional debugging skill helps students get better help and understand bugs more deeply.
+
+Dependencies:
+* T09.G5.18: Debug variables in loops using step-by-step console tracing
+* T09.G5.22: Design variable schema for a mini-project before coding
+
+ID: T09.G5.27
+Topic: T09 – Variables & Expressions
+Skill: Trace counter through complex branching logic
+Description: **Student task:** Students trace counter variables through code with nested conditionals and multiple branches. Given code like: "if touching enemy then (if hasShield then change shield by -1, else change health by -1)", they trace all possible paths and predict counter values for each scenario. They create trace tables with columns for each variable and rows for each execution path. This extends G5.09 loop tracing to conditional branching contexts.
+
+Dependencies:
+* T09.G4.30: Implement count-up and count-down patterns with conditionals
+* T09.G5.09: Trace a counter through loop iterations to predict final value
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G5.28
+Topic: T09 – Variables & Expressions
+Skill: Debug wrong operand order errors in expressions
+Description: **Student task:** Students identify and fix bugs where operands are in the wrong order. Given "set change to payment - price" (should be "price - payment" if calculating what customer owes, or correct if calculating change given), they analyze the context to determine correct operand order. They practice: (1) Subtraction order bugs (a-b vs b-a gives different results), (2) Division order bugs (a/b vs b/a), (3) Understanding that order matters for - and / but not for + and *. This precision skill prevents subtle calculation errors.
+
+Dependencies:
+* T09.G4.31: Debug wrong operator errors in expressions
+* T09.G5.01: Use multiple variables together in a single expression
+
+ID: T09.G5.29
+Topic: T09 – Variables & Expressions
+Skill: React to variable changes with when-variable-changed event
+Description: **Student task:** Students use CreatiCode's `when variable [name] changed` event block to trigger scripts automatically whenever a specific variable's value changes. This enables reactive programming patterns where scripts respond to state changes without polling. Examples: update a UI label when score changes, play sound when health drops, trigger animation when level increases. Students compare this approach to a "forever loop checking if variable changed" and understand the efficiency benefits.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G5.17: Design variable update rules for game mechanics
+
+ID: T09.G5.30
+Topic: T09 – Variables & Expressions
+Skill: Control 3D object properties with variables
+Description: **Student task:** Students use variables to control 3D object properties dynamically. They link a variable (e.g., "scaleFactor", "rotationX") to 3D blocks like `set size to [scaleFactor]` or `turn x by [rotationX]`. They use loops to update the variable, creating dynamic 3D animations like a pulsing sphere or rotating cube. This connects variables to the 3D world.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G5.13: Use variables for animation state machines
+
+ID: T09.G6.01
+Topic: T09 – Variables & Expressions
+Skill: Model real-world quantities using variables and formulas
+Description: **Student task:** Students create variables representing real-world quantities (e.g., distance, time, money, temperature) and update them using formulas. Examples: total_cost = price × quantity, distance = speed × time. This connects math formulas to programming.
+
+Dependencies:
+* T09.G5.08: Use the accumulator pattern to compute running totals
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G6.02
+Topic: T09 – Variables & Expressions
+Skill: Apply operator precedence rules (PEMDAS) in expressions
+Description: **Student task:** Students write and evaluate expressions mixing addition/subtraction with multiplication/division, understanding that * and / are evaluated before + and -. They learn to read and predict evaluation order in expressions like "a + b * c" (multiply first, then add). This focuses on understanding the default order of operations.
+
+Dependencies:
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G6.03
+Topic: T09 – Variables & Expressions
+Skill: Use parentheses to override operator precedence
+Description: **Student task:** Students use parentheses to control evaluation order in expressions, overriding default PEMDAS precedence. They predict and explain different results from "(a + b) * c" vs "a + b * c". This enables them to write expressions that match their intended calculation order.
+
+Dependencies:
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+
+ID: T09.G6.04
+Topic: T09 – Variables & Expressions
+Skill: Use exponents (^) and modulo (%) operators
+Description: **Student task:** Students use the power operator (^) to compute squares, cubes, and other powers (e.g., "set area to side ^ 2"), and the modulo operator (% or mod) to find remainders from division. They apply modulo to practical tasks like determining odd/even numbers (n mod 2), cycling through values, or creating repeating patterns. Example: "if score mod 10 = 0" to trigger events every 10 points.
+
+Dependencies:
+* T09.G6.03: Use parentheses to override operator precedence
+
+ID: T09.G6.05
+Topic: T09 – Variables & Expressions
+Skill: Use string length and join operations
+Description: **Student task:** Students use `length of [string]` to get the character count of text and combine it with join operations for validation and formatting. They apply this to validate input (e.g., check password length) and create formatted output. Example: "if length of [name] > 10".
+
+Dependencies:
+* T09.G5.05: Join strings using concatenation
+
+ID: T09.G6.06
+Topic: T09 – Variables & Expressions
+Skill: Extract characters with letter-of operator
+Description: **Student task:** Students use the `letter (position) of [text]` block to extract a single character from a specific position in a string. They apply this for character-by-character text processing, validation, or creating acronyms. Example: "letter 1 of [name]" to get first initial.
+
+Dependencies:
+* T09.G6.05: Use string length and join operations
+
+ID: T09.G6.07
+Topic: T09 – Variables & Expressions
+Skill: Find and extract text with position and substring operators
+Description: **Student task:** Students use `position of [search] in [text]` to find where a substring appears (returns position number, or 0 if not found), and `substring of [text] from position (start) to (end)` to extract parts of strings. They apply this for text searching, parsing, and extracting portions like initials or file extensions. Example: check if email contains "@", extract first name from full name.
+
+Dependencies:
+* T09.G6.06: Extract characters with letter-of operator
+
+ID: T09.G6.08
+Topic: T09 – Variables & Expressions
+Skill: Transform text with replace, split, and case operators
+Description: **Student task:** Students use `replace [old] with [new] in [text]` to substitute text, `split [text] by [delimiter]` to break strings into lists, and `[CASE v] of text [T]` for uppercase/lowercase conversion. They apply these for text normalization, parsing CSV data, formatting output, and case-insensitive comparisons. Example: replace all spaces with underscores, split "apple,banana,cherry" by ",", convert to uppercase for shouting effects.
+
+Dependencies:
+* T09.G6.07: Find and extract text with position and substring operators
+
+ID: T09.G6.09
+Topic: T09 – Variables & Expressions
+Skill: Use temporary variables for multi-step calculations
+Description: **Student task:** Students create temporary variables to hold intermediate results in multi-step calculations. For example, when calculating average: first compute total, then count, then divide total by count. This improves code readability and enables debugging by inspecting intermediate states.
+
+Dependencies:
+* T09.G5.08: Use the accumulator pattern to compute running totals
+* T09.G6.03: Use parentheses to override operator precedence
+
+ID: T09.G6.10
+Topic: T09 – Variables & Expressions
+Skill: Trace variable values across multiple event handlers
+Description: **Student task:** Students trace how variables maintain their values across different event handlers and broadcasts. They predict the value of a variable after a sequence of events: one script sets a variable and broadcasts a message, another script receiving that broadcast reads the updated value. This demonstrates coordination between different parts of a program through shared variable state.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+
+ID: T09.G6.11
+Topic: T09 – Variables & Expressions
+Skill: Debug off-by-one and comparison operator errors
+Description: **Student task:** Students debug scripts where variables control program flow through conditionals and loops. Common bugs include: wrong comparison operator (using > instead of >=), off-by-one errors in loop conditions, or variables not being reset. This extends G4.17 by focusing on control-flow bugs.
+
+Dependencies:
+* T09.G4.17: Debug wrong variable or update frequency errors
+* T09.G5.10: Trace code with multiple interacting variables
+
+ID: T09.G6.12
+Topic: T09 – Variables & Expressions
+Skill: Use variables to parameterize AI prompts dynamically
+Description: **Student task:** Students create variables to store user preferences, settings, or context information, then use these variables to construct dynamic AI prompts. Examples: "set style to [answer]", then "ask AI to draw [subject] in [style] style", or "set difficulty to [hard]", then "ask AI to generate [difficulty] math problem". This demonstrates how variables enable personalized and adaptive AI interactions.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G5.12: Apply basic text formatting using string operations
+
+ID: T09.G6.13
+Topic: T09 – Variables & Expressions
+Skill: Use the expression calculator block for complex formulas
+Description: **Student task:** Students use CreatiCode's `calculate expression [text]` block to evaluate mathematical expressions written as text strings. This allows for dynamic formula evaluation where the expression itself can be constructed or modified at runtime. Examples: "calculate expression [(1 + 1) * (2^4)]" returns 32, or building a formula string from user input like "calculate expression [join [price] [* 1.08]]" for tax calculation. Students understand when to use this vs regular operator blocks.
+
+Dependencies:
+* T09.G5.12: Apply basic text formatting using string operations
+* T09.G6.04: Use exponents (^) and modulo (%) operators
+
+ID: T09.G6.14
+Topic: T09 – Variables & Expressions
+Skill: Build dynamic UI with widget-bound variables
+Description: **Student task:** Students connect variables to CreatiCode UI widgets (labels, text inputs, sliders) to create interactive interfaces. They use variables to display values in label widgets, read user input from text fields into variables, and bind slider widgets to control variable values. Example: create a "Speed: [speed]" label that updates automatically, or use a slider widget to let users adjust difficulty level stored in a variable. This pattern is essential for building user-friendly applications.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G6.10: Trace variable values across multiple event handlers
+
+ID: T09.G6.15
+Topic: T09 – Variables & Expressions
+Skill: Convert between data types explicitly
+Description: **Student task:** Students explicitly convert between data types: number to string using join (e.g., "join [] [score]" converts score to text), string to number using arithmetic (e.g., "set num to [textValue] + 0" or explicit conversion blocks), and understand implicit type coercion. They predict and debug type-related errors such as comparing "5" (string) with 5 (number) or concatenating numbers unintentionally. Example: converting user input from text to number before doing calculations.
+
+Dependencies:
+* T09.G5.04: Identify and choose appropriate variable types for data
+* T09.G6.05: Use string length and join operations
+
+ID: T09.G6.16
+Topic: T09 – Variables & Expressions
+Skill: Validate text patterns with includes/starts/ends operators
+Description: **Student task:** Students use CreatiCode's text validation operators to check string patterns: `[text] includes [search]` to check if text contains a substring, `[text] starts with [prefix]` to check beginning, and `[text] ends with [suffix]` to check ending. They apply these for input validation and filtering. Examples: check if email includes "@", check if filename ends with ".png", check if command starts with "/". These operators support case-insensitive matching with the ignore case option.
+
+Dependencies:
+* T09.G5.05: Join strings using concatenation
+* T09.G6.07: Find and extract text with position and substring operators
+
+ID: T09.G6.17
+Topic: T09 – Variables & Expressions
+Skill: Implement undo functionality using variable history
+Description: **Student task:** Students implement a simple undo feature by storing the previous value of a variable before changing it. Pattern: "set previousValue to currentValue" before "set currentValue to newValue", then undo restores with "set currentValue to previousValue". They extend this to store multiple previous values in a list for multi-level undo. Example: in a drawing app, store previous x,y positions to undo the last move; in a game editor, store previous object positions. This introduces the concept of state history for reversible actions.
+
+Dependencies:
+* T09.G5.14: Swap two variable values using a temporary variable
+* T09.G6.09: Use temporary variables for multi-step calculations
+
+ID: T09.G6.18
+Topic: T09 – Variables & Expressions
+Skill: Trace variables through nested conditional branches
+Description: **Student task:** Students trace code with nested if/else structures (2-3 levels deep) to predict variable values. They create a trace table showing the variable's value at each decision point and through each branch. Example: if score > 100 { if hasBonus { multiplier = 3 } else { multiplier = 2 } } else { multiplier = 1 } - trace what multiplier becomes for different score and hasBonus values. This prepares for debugging complex conditional logic.
+
+Dependencies:
+* T09.G5.10: Trace code with multiple interacting variables
+* T09.G6.11: Debug off-by-one and comparison operator errors
+
+ID: T09.G6.19
+Topic: T09 – Variables & Expressions
+Skill: Model complex real-world systems with multiple variable types
+Description: **Student task:** Students design variable structures for complex scenarios requiring numbers, strings, and booleans together. Examples: weather system (temperature:number, condition:string, isRaining:boolean), character RPG stats (name:string, health:number, level:number, isAlive:boolean). They justify their type choices and explain relationships between variables. This synthesis skill demonstrates mastery of variable types working together.
+
+Dependencies:
+* T09.G5.04: Identify and choose appropriate variable types for data
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T09.G6.15: Convert between data types explicitly
+
+ID: T09.G6.20
+Topic: T09 – Variables & Expressions
+Skill: Trace AI prompt variables to debug unexpected AI outputs
+Description: **Student task:** Students debug AI interactions where variables in prompts cause unexpected outputs. They trace how variable values are inserted into AI prompt strings and identify problems: (1) variable contains unexpected value, (2) variable is undefined/empty, (3) variable formatting creates invalid prompts. Example: "Generate a story about [character]" gives weird results because character variable = "undefined". They add console logging to inspect variable values before sending to AI. This combines variable debugging with AI integration skills.
+
+Dependencies:
+* T09.G5.18: Debug variables in loops using step-by-step console tracing
+* T09.G6.12: Use variables to parameterize AI prompts dynamically
+
+ID: T09.G6.21
+Topic: T09 – Variables & Expressions
+Skill: Debug expressions with type coercion errors
+Description: **Student task:** Students identify and fix bugs caused by implicit type conversion in expressions. Examples: "5" + "3" = "53" (string concatenation, not 8), comparing "10" < "9" (string comparison, true because "1" < "9" lexicographically). They trace expression evaluation to identify where type coercion causes unexpected behavior, then apply explicit conversions to fix. This skill is essential for robust code that handles user input and mixed data sources.
+
+Dependencies:
+* T09.G6.05: Use string length and join operations
+* T09.G6.15: Convert between data types explicitly
+
+ID: T09.G6.22
+Topic: T09 – Variables & Expressions
+Skill: Review and improve variable design in existing code
+Description: **Student task:** Students perform code review focused on variable usage in a 20-50 block program. They identify issues: (1) poor naming, (2) missing initialization, (3) unused variables, (4) variables that could be constants, (5) scope problems, (6) unclear purpose. They document findings and suggest specific improvements with reasoning. Example: "The variable 'x' on line 5 should be renamed 'enemySpawnX' because it stores where enemies appear." This professional skill prepares students for collaborative development and code maintenance.
+
+Dependencies:
+* T09.G5.20: Critique variable naming in given code and improve it
+* T09.G6.11: Debug off-by-one and comparison operator errors
+
+ID: T09.G6.23
+Topic: T09 – Variables & Expressions
+Skill: Simplify complex expressions using algebraic properties
+Description: **Student task:** Students recognize and apply algebraic simplifications to expressions: "x + x + x" → "x * 3", "x * 1" → "x", "x + 0" → "x", "x * 0" → "0", "x - x" → "0". They identify expressions in code that can be simplified and explain the mathematical property used. Example: "set speed to baseSpeed + 0" should be "set speed to baseSpeed". This skill builds mathematical reasoning and code optimization awareness.
+
+Dependencies:
+* T09.G6.02: Apply operator precedence rules (PEMDAS) in expressions
+* T09.G6.04: Use exponents (^) and modulo (%) operators
+
+ID: T09.G6.24
+Topic: T09 – Variables & Expressions
+Skill: Use variables to implement stateful UI behavior
+Description: **Student task:** Students use variables to track UI state and create responsive interfaces. Examples: toggle buttons (isMenuOpen), radio button selection (selectedOption), multi-step forms (currentStep), input validation state (isEmailValid). They implement complete UI patterns where user interactions update state variables, which in turn control what's displayed. This connects variable management to practical application development.
+
+Dependencies:
+* T09.G6.10: Trace variable values across multiple event handlers
+* T09.G6.14: Build dynamic UI with widget-bound variables
+
+ID: T09.G6.25
+Topic: T09 – Variables & Expressions
+Skill: Write preconditions and postconditions for variable updates
+Description: **Student task:** Students formalize what must be true BEFORE (precondition) and AFTER (postcondition) variable operations. Examples: For "change health by -damage", precondition: "damage >= 0", postcondition: "health decreased by damage amount". They practice: (1) Writing preconditions for functions that update variables, (2) Writing postconditions that describe the effect, (3) Identifying when preconditions are violated (causing bugs). This formal thinking prevents bugs by making assumptions explicit. Example: "setLevel(newLevel)" has precondition "newLevel > 0 AND newLevel <= maxLevels" and postcondition "currentLevel == newLevel".
+
+Dependencies:
+* T09.G5.24: Identify variable invariants that must always be true
+* T09.G6.11: Debug off-by-one and comparison operator errors
+
+ID: T09.G6.26
+Topic: T09 – Variables & Expressions
+Skill: Refactor global variables into structured data
+Description: **Student task:** Students identify when multiple related global variables should be grouped into structured data. Given scattered variables like "player_x, player_y, player_health, player_score, player_name", they recognize these belong together and refactor using naming conventions (player_*) or table variables. They practice: (1) Identifying variable clusters that represent one entity, (2) Planning how to group them (naming prefix, table row), (3) Refactoring existing code to use the grouped structure. This professional refactoring skill reduces bugs from inconsistent updates and prepares for object-oriented thinking.
+
+Dependencies:
+* T09.G5.19: Integrate table variables with regular variables for structured data
+* T09.G6.22: Review and improve variable design in existing code
+
+ID: T09.G6.27
+Topic: T09 – Variables & Expressions
+Skill: Analyze expression complexity and suggest simplifications
+Description: **Student task:** Students analyze expressions for unnecessary complexity and suggest simplifications. They identify: (1) Redundant operations (x * 1, x + 0), (2) Repeated subexpressions that could be stored in a variable, (3) Overly complex expressions that could be split, (4) Mathematical simplifications (x * 2 + x * 3 = x * 5). Given complex expression code, they propose specific simplifications with reasoning. Example: "set result to (a * b) + (a * b) + (a * b)" simplifies to "set temp to a * b; set result to temp * 3". This optimization skill builds mathematical reasoning and code efficiency awareness.
+
+Dependencies:
+* T09.G5.25: Rewrite expressions for clarity vs efficiency
+* T09.G6.23: Simplify complex expressions using algebraic properties
+
+ID: T09.G6.28
+Topic: T09 – Variables & Expressions
+Skill: Debug type mismatch errors in expressions
+Description: **Student task:** Students identify and fix bugs caused by mixing incompatible types in expressions. Given code where a string variable is used in arithmetic ("set result to playerName + 10") or a number is treated as a string, they trace the problem and apply fixes. They practice: (1) Recognizing type error symptoms (unexpected concatenation, NaN results), (2) Adding explicit type conversions, (3) Validating data types before operations. This extends G6.21 type coercion debugging to cover explicit type mismatches that cause expression failures.
+
+Dependencies:
+* T09.G5.28: Debug wrong operand order errors in expressions
+* T09.G6.15: Convert between data types explicitly
+* T09.G6.21: Debug expressions with type coercion errors
+
+ID: T09.G6.29
+Topic: T09 – Variables & Expressions
+Skill: Store and validate AI-generated numeric outputs
+Description: **Student task:** Students capture numeric outputs from AI blocks (ChatGPT, speech recognition, sensors) in variables and validate them before use. They implement patterns: (1) Parse AI text response to extract numbers using string operations, (2) Check if value is within expected range (e.g., 0-100 for percentage), (3) Handle invalid outputs gracefully (set default, ask again, show error). Example: Ask AI "pick a number 1-10", store response, validate it's actually a number in range before using. This prepares for robust AI integration.
+
+Dependencies:
+* T09.G6.12: Use variables to parameterize AI prompts dynamically
+* T09.G6.15: Convert between data types explicitly
+* T09.G6.28: Debug type mismatch errors in expressions
+
+ID: T09.G6.30
+Topic: T09 – Variables & Expressions
+Skill: Use variables to store Speech Recognition results
+Description: **Student task:** Students use the `text from speech` reporter block and store its value in a variable for processing. They create scripts that listen for speech, save the result to a "userCommand" variable, and then use string matching to decide what to do. Example: "if userCommand = 'jump' then...". This connects AI input (speech) to variable storage and control flow.
+
+Dependencies:
+* T09.G6.05: Use string length and join operations
+* T09.G6.16: Validate text patterns with includes/starts/ends operators
+
+ID: T09.G7.01
+Topic: T09 – Variables & Expressions
+Skill: Model dynamic systems where variables change over time
+Description: **Student task:** Students create simulations where variables represent quantities that change each frame or time step. Examples: position updated by velocity, population growing by percentage, temperature cooling. They set up update rules (e.g., "change position by speed") and observe how repeated updates create realistic animations.
+
+Dependencies:
+* T07.G5.01: Simulate repeated experiments with a loop
+* T09.G6.09: Use temporary variables for multi-step calculations
+
+ID: T09.G7.02
+Topic: T09 – Variables & Expressions
+Skill: Use rounding and absolute value functions
+Description: **Student task:** Students use rounding functions to convert decimals to integers: round() rounds to nearest, floor() rounds down, ceiling() rounds up. They also use abs() to get magnitude without regard to sign. They understand when each is appropriate. Examples: "set rounded_score to round(score)" for display, "set pages to ceiling(items / 10)" for pagination, "set distance to abs(x1 - x2)" for magnitude.
+
+Dependencies:
+* T09.G6.04: Use exponents (^) and modulo (%) operators
+
+ID: T09.G7.03
+Topic: T09 – Variables & Expressions
+Skill: Use square root and distance functions
+Description: **Student task:** Students use the sqrt() function to find square roots and distance 2D block to calculate Euclidean distance between points. They apply these for distance formulas (Pythagorean theorem), collision detection ranges, or proximity checks. Examples: "set distance to sqrt((x2-x1)^2 + (y2-y1)^2)" or using the built-in distance block for simplified calculations.
+
+Dependencies:
+* T09.G7.02: Use rounding and absolute value functions
+
+ID: T09.G7.04
+Topic: T09 – Variables & Expressions
+Skill: Use min, max, and direction functions
+Description: **Student task:** Students use min() and max() functions to keep variable values within bounds and the direction block to calculate angles between points. Examples: "set x to max(0, min(480, x))" to keep x between 0 and 480, "set health to max(0, health)" to prevent negative health, or calculate angle toward moving target for aiming mechanics. These are essential for game boundaries, clamping values, and trajectory calculations.
+
+Dependencies:
+* T09.G7.03: Use square root and distance functions
+
+ID: T09.G7.05
+Topic: T09 – Variables & Expressions
+Skill: Compute average using sum and count variables
+Description: **Student task:** Students implement average calculation: maintain a sum variable (accumulating values) and a count variable (tracking how many), then compute average by dividing sum by count. This combines multiple variable patterns and connects to data analysis.
+
+Dependencies:
+* T09.G5.08: Use the accumulator pattern to compute running totals
+* T09.G6.09: Use temporary variables for multi-step calculations
+
+ID: T09.G7.06
+Topic: T09 – Variables & Expressions
+Skill: Use compound conditions (AND, OR, NOT) with variables
+Description: **Student task:** Students create conditional expressions using logical operators (AND, OR, NOT) to combine multiple variable comparisons. Example: "if score > 10 AND lives > 0" or "if NOT game_over". This enables more nuanced decision logic.
+
+Dependencies:
+* T09.G5.11: Track high score using variable comparison
+* T09.G6.11: Debug off-by-one and comparison operator errors
+
+ID: T09.G7.07
+Topic: T09 – Variables & Expressions
+Skill: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+Description: **Student task:** Students choose the appropriate scope when creating variables: for-this-sprite for private data each sprite clone needs separately (e.g., individual clone's speed, health), and for-all-sprites for shared data like game score that all sprites can read and update. They debug scope-related bugs where a variable unexpectedly shows the same value across all clones, or where sprites can't access needed data. They demonstrate sharing data between sprites using for-all-sprites variables.
+
+Dependencies:
+* T09.G5.07: Use variables as settings to control program behavior
+* T09.G6.01: Model real-world quantities using variables and formulas
+
+ID: T09.G7.08
+Topic: T09 – Variables & Expressions
+Skill: Save and load variables from files (import/export)
+Description: **Student task:** Students use file export operations to save variable values to a file and file import operations to load them back. This enables persistent storage of game state, settings, or high scores that survives beyond program execution. They understand how to format data for export/import and create complete save/load functionality.
+
+Dependencies:
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+
+ID: T09.G7.09
+Topic: T09 – Variables & Expressions
+Skill: Predict behavior changes from modifying variable values
+Description: **Student task:** Students analyze existing code and predict how behavior changes when variable initialization values, update amounts, or conditions are modified. Example: "If speed changes from 5 to 10, what happens?" This is analytical reasoning about code without running it.
+
+Dependencies:
+* T09.G6.11: Debug off-by-one and comparison operator errors
+* T09.G7.01: Model dynamic systems where variables change over time
+
+ID: T09.G7.10
+Topic: T09 – Variables & Expressions
+Skill: Use regex test to validate text patterns
+Description: **Student task:** Students use the regex test operation to check if a text string matches a regular expression pattern, returning true or false. They apply this for input validation (e.g., checking if email format is valid, if password meets requirements). Example: test if text matches pattern "^[A-Za-z]+$" for letters only.
+
+Dependencies:
+* T09.G6.08: Transform text with replace, split, and case operators
+
+ID: T09.G7.11
+Topic: T09 – Variables & Expressions
+Skill: Use regex match to find pattern occurrences
+Description: **Student task:** Students use the regex match operation to find all occurrences of a pattern in text, returning a list of matches. They apply this for extracting data (e.g., finding all numbers in text, extracting hashtags from messages). Example: match all words starting with capital letters.
+
+Dependencies:
+* T09.G7.10: Use regex test to validate text patterns
+
+ID: T09.G7.12
+Topic: T09 – Variables & Expressions
+Skill: Use regex replace and split for pattern-based text processing
+Description: **Student task:** Students use regex replace to substitute text matching a pattern with replacement text, and regex split to break text into parts based on a pattern delimiter (not just fixed strings). They apply these for advanced text processing: removing all digits, normalizing whitespace, flexible parsing. Examples: replace all sequences of spaces with single space, split by any whitespace using pattern "\s+".
+
+Dependencies:
+* T09.G7.11: Use regex match to find pattern occurrences
+
+ID: T09.G7.13
+Topic: T09 – Variables & Expressions
+Skill: Debug variable scope and update timing errors
+Description: **Student task:** Students identify and fix bugs related to variable scope (using for-this-sprite when for-all-sprites was needed, or vice versa) and update timing (variable read before being set in another script). They trace variable values across multiple sprites and event handlers to diagnose why a variable has an unexpected value. This prepares them for G8 concurrent update debugging.
+
+Dependencies:
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+* T09.G7.09: Predict behavior changes from modifying variable values
+
+ID: T09.G7.14
+Topic: T09 – Variables & Expressions
+Skill: Design variable naming conventions for maintainability
+Description: **Student task:** Students establish and follow consistent variable naming conventions (e.g., camelCase, snake_case, descriptive names) for their projects. They understand how good naming improves code readability and maintainability. They refactor existing code to use better variable names and explain why certain names are clearer than others. Examples: "playerSpeed" vs "ps", "highScore" vs "hs", "isGameOver" vs "flag1".
+
+Dependencies:
+* T09.G6.10: Trace variable values across multiple event handlers
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+
+ID: T09.G7.15
+Topic: T09 – Variables & Expressions
+Skill: Design multi-variable reactive systems with change events
+Description: **Student task:** Students design complex reactive systems where multiple variable-changed events coordinate behavior. Building on G5.29's basic variable-changed event, they now: (1) Chain variable changes (when scoreChanged triggers levelCheck, which may trigger levelChanged), (2) Prevent infinite loops from circular dependencies, (3) Coordinate multiple sprites responding to the same variable change, (4) Debug unexpected cascade effects. Example: score change triggers UI update, achievement check, AND sound effect - students ensure all handlers complete without conflicts.
+
+Dependencies:
+* T09.G5.29: React to variable changes with when-variable-changed event
+* T09.G6.10: Trace variable values across multiple event handlers
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+
+ID: T09.G7.16
+Topic: T09 – Variables & Expressions
+Skill: Store and process AI model outputs in variables
+Description: **Student task:** Students use variables to capture outputs from AI blocks (ChatGPT responses, image recognition results, speech-to-text transcriptions) and process them for further use. They understand that AI blocks store their results in specified variables, then use string operations or conditionals to extract meaning from the responses. Example: "ChatGPT request [question] result [aiResponse]", then "if aiResponse includes yes then do action". This connects AI capabilities to programmatic decision-making.
+
+Dependencies:
+* T09.G5.12: Apply basic text formatting using string operations
+* T09.G6.12: Use variables to parameterize AI prompts dynamically
+* T09.G7.10: Use regex test to validate text patterns
+
+ID: T09.G7.17
+Topic: T09 – Variables & Expressions
+Skill: Create multiplayer game state with shared variables
+Description: **Student task:** Students design variable structures for multiplayer games where multiple players need access to shared state. They use for-all-sprites variables for global game state (game_phase, current_turn), and consider how cloud variables can synchronize state across connected players. Example: create turn-based game with "currentPlayer" variable that all sprites check, or shared "gameOver" flag that affects all players. Students plan variable scoping to ensure appropriate data sharing vs privacy.
+
+Dependencies:
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+* T09.G7.13: Debug variable scope and update timing errors
+
+ID: T09.G7.18
+Topic: T09 – Variables & Expressions
+Skill: Debug race conditions in concurrent variable updates
+Description: **Student task:** Students identify and fix race conditions where multiple scripts attempt to update the same variable simultaneously, causing unpredictable results. They trace scenarios like: two "when I receive" handlers both trying to update score, or collision handler running while another script reads the same variable. They apply fixes such as using flags to prevent concurrent access, ordering operations carefully, or using atomic update patterns. Example: two clones both increment a shared counter at the same time, causing some increments to be lost.
+
+Dependencies:
+* T09.G7.13: Debug variable scope and update timing errors
+* T09.G7.17: Create multiplayer game state with shared variables
+
+ID: T09.G7.19
+Topic: T09 – Variables & Expressions
+Skill: Implement linear interpolation for smooth animations (tweening)
+Description: **Student task:** Students implement linear interpolation (lerp) to create smooth transitions between values. The lerp formula is: result = start + (end - start) * t, where t goes from 0 to 1. They use this for smooth movement, color fading, size transitions, and easing animations. Example: smoothly move a sprite from position A to position B by updating "set x to startX + (endX - startX) * progress" where progress increases from 0 to 1. Students understand that tweening creates professional-quality animations compared to abrupt changes.
+
+Dependencies:
+* T09.G7.01: Model dynamic systems where variables change over time
+* T09.G7.04: Use min, max, and direction functions
+
+ID: T09.G7.20
+Topic: T09 – Variables & Expressions
+Skill: Extract structured data from text using split and part-of operators
+Description: **Student task:** Students use the `split [text] by [delimiter]` block to break structured text into parts, and `part (index) of [text] by [separator]` to extract specific fields. They apply this to parse CSV data, extract fields from formatted strings, or process structured input. Examples: split "apple,banana,cherry" by "," to get individual fruits, extract username from "user:password" format, parse coordinates from "x:100,y:200" string. This connects string manipulation to data processing workflows.
+
+Dependencies:
+* T09.G6.08: Transform text with replace, split, and case operators
+* T09.G7.10: Use regex test to validate text patterns
+
+ID: T09.G7.21
+Topic: T09 – Variables & Expressions
+Skill: Use AI to generate variable-based code from natural language
+Description: **Student task:** Students use CreatiCode's AI assistant (XO) or ChatGPT blocks to generate code snippets involving variables from natural language descriptions. They describe what they want: "Create a score variable that starts at 0 and increases by 10 when touching a coin", then evaluate, test, and potentially modify the AI-generated code. They learn to: (1) write clear prompts that specify variable names and behaviors, (2) verify the generated code works correctly, (3) identify and fix any issues in AI-generated variable logic. This skill prepares students for AI-assisted programming workflows.
+
+Dependencies:
+* T09.G6.12: Use variables to parameterize AI prompts dynamically
+* T09.G7.16: Store and process AI model outputs in variables
+
+ID: T09.G7.22
+Topic: T09 – Variables & Expressions
+Skill: Implement performance-aware variable update patterns
+Description: **Student task:** Students identify performance issues where variables are updated too frequently or unnecessarily, causing lag. They apply optimization patterns: (1) throttling (update at most once per N frames), (2) change detection (only update if value actually changed), (3) caching (store expensive calculations). Example: instead of recalculating distance to target every frame, cache the value and only recalculate when positions change. They measure performance before/after optimization using frame rate or timing variables.
+
+Dependencies:
+* T09.G7.01: Model dynamic systems where variables change over time
+* T09.G7.09: Predict behavior changes from modifying variable values
+
+ID: T09.G7.23
+Topic: T09 – Variables & Expressions
+Skill: Design variable state for AI conversation memory
+Description: **Student task:** Students design variable structures to enable AI systems to "remember" conversation context across multiple interactions. They create variables for: user preferences mentioned earlier, conversation topics discussed, follow-up questions, interaction count. Example: AI tutor remembers student's favorite subject (stored in variable) and references it in later explanations. They implement: (1) detecting key information from AI responses using string operations, (2) storing extracted info in variables, (3) injecting stored context into future prompts.
+
+Dependencies:
+* T09.G6.12: Use variables to parameterize AI prompts dynamically
+* T09.G7.16: Store and process AI model outputs in variables
+* T09.G7.20: Extract structured data from text using split and part-of operators
+
+ID: T09.G7.24
+Topic: T09 – Variables & Expressions
+Skill: Use AI to explain what variable code does
+Description: **Student task:** Students use AI tools (XO assistant or ChatGPT blocks) to analyze and explain existing variable code. They paste code and ask: "What does this code do?", "What will the variable 'score' equal after this runs?", "What happens if 'lives' starts at 0 instead of 3?" They critically evaluate AI explanations: (1) Is it correct? (2) Did it miss anything? (3) Can it explain edge cases? This develops AI-assisted learning skills and builds ability to verify AI-generated explanations through reasoning.
+
+Dependencies:
+* T09.G7.09: Predict behavior changes from modifying variable values
+* T09.G7.21: Use AI to generate variable-based code from natural language
+
+ID: T09.G7.25
+Topic: T09 – Variables & Expressions
+Skill: Implement exponential backoff using variables
+Description: **Student task:** Students implement the exponential backoff pattern: a delay that doubles after each failed attempt. They create variables for: currentDelay (starts at 1), attemptCount, maxDelay. Pattern: on failure, "set currentDelay to currentDelay * 2", cap with "if currentDelay > maxDelay then set currentDelay to maxDelay". Applications: retry logic for network requests, rate limiting, progressive difficulty. This algorithmic pattern teaches geometric growth and practical resilience strategies.
+
+Dependencies:
+* T09.G7.01: Model dynamic systems where variables change over time
+* T09.G7.04: Use min, max, and direction functions
+
+ID: T09.G7.26
+Topic: T09 – Variables & Expressions
+Skill: Debug state inconsistencies across event handlers
+Description: **Student task:** Students identify and fix bugs where multiple event handlers leave variables in inconsistent states. Example: "when key pressed" and "when clicked" both modify playerState but assume different starting values. They trace event sequences that cause problems: (1) identify which handlers access shared variables, (2) trace what happens if events fire in different orders, (3) add state validation or synchronization to ensure consistency. This prepares for G8 concurrent programming challenges.
+
+Dependencies:
+* T09.G7.13: Debug variable scope and update timing errors
+* T09.G7.18: Debug race conditions in concurrent variable updates
+
+ID: T09.G7.27
+Topic: T09 – Variables & Expressions
+Skill: Verify invariants during debugging
+Description: **Student task:** Students use invariant checking as a debugging technique. They: (1) Identify the invariants that should hold (from G5.24/G6.25), (2) Add console logs that display invariant conditions at key points, (3) Run code and watch for invariant violations, (4) Trace back to find what operation broke the invariant. Example: For a game with "health invariant: 0 <= health <= maxHealth", add "console log [health >= 0 AND health <= maxHealth]" after every health update. When it logs "false", they found the bug. This systematic debugging approach catches bugs earlier.
+
+Dependencies:
+* T09.G6.25: Write preconditions and postconditions for variable updates
+* T09.G7.13: Debug variable scope and update timing errors
+
+ID: T09.G7.28
+Topic: T09 – Variables & Expressions
+Skill: Implement observer pattern for variable change notifications
+Description: **Student task:** Students implement a basic observer pattern where changes to key variables automatically trigger notification to other parts of the program. They use CreatiCode's "when variable changed" event block to create reactive systems. Examples: UI automatically updates when score changes, sound plays when health drops below threshold, save system triggers when game state changes. They design: (1) Which variables are "observable", (2) What reactions should occur on changes, (3) How to prevent infinite update loops. This pattern is fundamental to modern reactive programming.
+
+Dependencies:
+* T09.G7.15: Design multi-variable reactive systems with change events
+* T09.G7.17: Create multiplayer game state with shared variables
+
+ID: T09.G7.29
+Topic: T09 – Variables & Expressions
+Skill: Use bisection to isolate variable bugs in large programs
+Description: **Student task:** Students apply binary search thinking to debugging: systematically divide the program in half to find which section contains the bug. For variable bugs: (1) Add console log at middle of program, (2) Check if variable is correct at that point, (3) If correct, bug is in second half; if wrong, bug is in first half, (4) Repeat with smaller sections. This O(log n) approach finds bugs faster than linear searching through code. Example: Variable shows wrong value at end of 100-block program; bisection finds the bug in 7 checks instead of 100.
+
+Dependencies:
+* T09.G5.26: Create minimal reproducible examples for variable bugs
+* T09.G7.26: Debug state inconsistencies across event handlers
+
+ID: T09.G7.30
+Topic: T09 – Variables & Expressions
+Skill: Design prompts that correctly describe variable state
+Description: **Student task:** Students learn to write AI prompts that accurately communicate variable state for debugging or code generation. They practice: (1) Describing current variable values clearly, (2) Explaining the expected vs actual behavior, (3) Providing context about variable types and purposes, (4) Structuring prompts so AI understands the data model. Example: Instead of "my score is broken", write "I have a variable 'score' (number, starts at 0, increments by 10 on coin touch). Expected: 30 after 3 coins. Actual: 10. Here's my code..." This prompt engineering skill maximizes AI assistance effectiveness.
+
+Dependencies:
+* T09.G6.20: Trace AI prompt variables to debug unexpected AI outputs
+* T09.G7.24: Use AI to explain what variable code does
+
+ID: T09.G8.01
+Topic: T09 – Variables & Expressions
+Skill: Use variables to track index position in linear search
+Description: **Student task:** Students implement a linear search algorithm that uses a variable to track the current index position while searching through values. They initialize an index variable, update it in each iteration, and use it to check each position until finding the target value or reaching the end.
+
+Dependencies:
+* T02.G6.02: Use the pseudocode generation block
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G7.06: Use compound conditions (AND, OR, NOT) with variables
+* T09.G7.09: Predict behavior changes from modifying variable values
+
+ID: T09.G8.02
+Topic: T09 – Variables & Expressions
+Skill: Use flag variables in search algorithms to track found status
+Description: **Student task:** Students use a boolean flag variable (e.g., "found") to remember whether a search has succeeded. They set the flag to false initially, update it to true when the target is found, and check it to determine next actions. This pattern helps control loop termination and post-search behavior.
+
+Dependencies:
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G8.01: Use variables to track index position in linear search
+
+ID: T09.G8.03
+Topic: T09 – Variables & Expressions
+Skill: Use variables in iterative approximation algorithms
+Description: **Student task:** Students implement iterative approximation algorithms (e.g., Newton's method for square roots, binary search for values) that use variables to track and refine estimates across multiple iterations. They understand convergence criteria and when to stop iterating.
+
+Dependencies:
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G8.02: Use flag variables in search algorithms to track found status
+
+ID: T09.G8.04
+Topic: T09 – Variables & Expressions
+Skill: Simplify and optimize variable expressions
+Description: **Student task:** Students identify opportunities to simplify expressions: replacing "x + x + x" with "x * 3", factoring common subexpressions, or replacing a counting loop with a direct formula. They evaluate trade-offs between readability and efficiency.
+
+Dependencies:
+* T06.G6.01: Trace event execution paths in a multi‑event program
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G6.04: Use exponents (^) and modulo (%) operators
+* T09.G7.09: Predict behavior changes from modifying variable values
+* T10.G6.01: Sort a table by a column
+
+ID: T09.G8.05
+Topic: T09 – Variables & Expressions
+Skill: Use trigonometric functions in expressions
+Description: **Student task:** Students use sine, cosine, tangent, and their inverse functions (asin, acos, atan) to calculate angles and circular motion. They apply these to create circular paths, calculate trajectory angles, or convert between polar and Cartesian coordinates. Examples: "set x to radius * cos(angle)", "set angle to atan2(dy, dx)" for direction to target.
+
+Dependencies:
+* T02.G6.02: Use the pseudocode generation block
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G7.03: Use square root and distance functions
+* T11.G6.16: Analyze a program's structure using a checklist and suggest specific improvements
+
+ID: T09.G8.06
+Topic: T09 – Variables & Expressions
+Skill: Use logarithmic and exponential functions in expressions
+Description: **Student task:** Students use natural logarithm (ln), base-10 logarithm (log), and exponential functions (e^x, 10^x) in calculations. They apply these for exponential growth/decay models, compound interest, scientific calculations, or data transformations. Examples: modeling population growth, radioactive decay, pH calculations, or converting between logarithmic and linear scales.
+
+Dependencies:
+* T09.G8.05: Use trigonometric functions in expressions
+
+ID: T09.G8.07
+Topic: T09 – Variables & Expressions
+Skill: Use cloud variables for persistent data storage
+Description: **Student task:** Students use cloud variables to save data that persists across sessions and is shared between users. They understand that cloud variables are stored on a server and updated in real-time, enabling high scores, user preferences, or multiplayer data sharing.
+
+Dependencies:
+* T04.G6.01: Group snippets by underlying algorithm pattern
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+* T09.G7.08: Save and load variables from files (import/export)
+* T15.G6.01: Evaluate an interface for usability
+
+ID: T09.G8.08
+Topic: T09 – Variables & Expressions
+Skill: Debug variable scope and concurrent update errors
+Description: **Student task:** Students identify and fix bugs in programs with multiple sprites sharing variables: scope confusion (for-this-sprite vs for-all-sprites), race conditions when multiple scripts update the same variable, or initialization order dependencies. They trace variable states across concurrent scripts.
+
+Dependencies:
+* T02.G6.02: Use the pseudocode generation block
+* T05.G6.01: Apply empathy, needs, and accessibility checklist to a design
+* T07.G6.01: Trace nested loops with variable bounds
+* T09.G7.13: Debug variable scope and update timing errors
+
+ID: T09.G8.09
+Topic: T09 – Variables & Expressions
+Skill: Use variables to manage state in multi-turn AI conversations
+Description: **Student task:** Students use variables to track conversation context across multiple AI interactions. Examples: storing user preferences mentioned earlier, tracking conversation topics, maintaining dialogue history, or counting interaction rounds. They understand how variables enable AI systems to "remember" previous interactions and provide contextually relevant responses. Example: "set userFavoriteColor to [answer]", then later "generate poem about [userFavoriteColor]".
+
+Dependencies:
+* T09.G6.10: Trace variable values across multiple event handlers
+* T09.G6.12: Use variables to parameterize AI prompts dynamically
+* T09.G7.07: Choose and apply correct variable scope (for-this-sprite vs for-all-sprites)
+
+ID: T09.G8.10
+Topic: T09 – Variables & Expressions
+Skill: Analyze variable usage patterns for code optimization
+Description: **Student task:** Students analyze their code to identify variable usage patterns and optimization opportunities: variables that are set but never read (dead code), variables updated unnecessarily, or calculations that could be cached in variables instead of recomputed. They refactor code to eliminate redundant variable operations and improve efficiency while maintaining correctness.
+
+Dependencies:
+* T09.G7.09: Predict behavior changes from modifying variable values
+* T09.G7.14: Design variable naming conventions for maintainability
+* T09.G8.04: Simplify and optimize variable expressions
+
+ID: T09.G8.11
+Topic: T09 – Variables & Expressions
+Skill: Translate mathematical formulas into code expressions
+Description: **Student task:** Students translate real-world formulas (distance = speed × time, area = π × r², compound interest) into variable assignments and expressions. They handle operator precedence, multi-step calculations, and unit considerations. This capstone skill demonstrates mastery of variables and expressions.
+
+Dependencies:
+* T09.G6.01: Model real-world quantities using variables and formulas
+* T09.G6.03: Use parentheses to override operator precedence
+* T09.G7.05: Compute average using sum and count variables
+
+ID: T09.G8.12
+Topic: T09 – Variables & Expressions
+Skill: Use fast-updating cloud variables for real-time synchronization
+Description: **Student task:** Students use CreatiCode's cloud variable system to create real-time multiplayer experiences. They join or create cloud sessions with `join cloud session` or `create cloud session named`, then use cloud variables that automatically sync across all connected players. They understand the difference between regular cloud variables (for persistence) and fast-updating cloud variables (for real-time gameplay). Example: sync player positions in a multiplayer racing game, or create a collaborative drawing canvas where strokes appear for all users in real-time.
+
+Dependencies:
+* T09.G7.17: Create multiplayer game state with shared variables
+* T09.G8.07: Use cloud variables for persistent data storage
+
+ID: T09.G8.13
+Topic: T09 – Variables & Expressions
+Skill: Use variables with web search and semantic database results
+Description: **Student task:** Students use variables to work with CreatiCode's web search and semantic database blocks. They store search results (from `web search [query] store top (K) in table`) and semantic query results in table variables, then extract and process specific fields. Example: search for information about a topic, store results in a table variable, extract the first result's summary, and display it to the user. This connects AI-powered information retrieval to variable-based data processing.
+
+Dependencies:
+* T09.G7.16: Store and process AI model outputs in variables
+* T09.G8.09: Use variables to manage state in multi-turn AI conversations
+
+ID: T09.G8.14
+Topic: T09 – Variables & Expressions
+Skill: Build adaptive AI systems using variable-based context
+Description: **Student task:** Students design AI interactions that adapt based on accumulated variable state. They track user preferences, interaction history, and conversation context in variables, then use this context to modify AI prompts and responses. Example: build a personalized tutor that tracks which topics the user struggles with (stored in variables), adjusts difficulty based on success rate, and provides targeted help. This represents advanced integration of variables with AI capabilities for intelligent, context-aware applications.
+
+Dependencies:
+* T09.G7.16: Store and process AI model outputs in variables
+* T09.G8.09: Use variables to manage state in multi-turn AI conversations
+* T09.G8.10: Analyze variable usage patterns for code optimization
+
+ID: T09.G8.15
+Topic: T09 – Variables & Expressions
+Skill: Use variables for memoization and caching
+Description: **Student task:** Students implement memoization by storing computed results in variables to avoid redundant calculations. They create cache variables that store previously computed values and check the cache before recalculating. Example: caching Fibonacci numbers, storing collision detection results that are reused in the same frame, or caching expensive AI query results. Students measure performance improvement from caching and understand trade-offs between memory usage and computation time.
+
+Dependencies:
+* T09.G8.04: Simplify and optimize variable expressions
+* T09.G8.10: Analyze variable usage patterns for code optimization
+
+ID: T09.G8.16
+Topic: T09 – Variables & Expressions
+Skill: Design variable schemas for complex state management
+Description: **Student task:** Students design organized variable naming schemes and structures for managing complex application state. They create variable hierarchies using naming conventions (e.g., player_health, player_x, player_y for player state), document their variable schemas, and plan how different parts of the program will read and update shared state. Example: designing the variable structure for a game with multiple levels, inventory system, and save/load functionality. This capstone skill demonstrates mastery of variables for large-scale applications.
+
+Dependencies:
+* T09.G7.14: Design variable naming conventions for maintainability
+* T09.G8.10: Analyze variable usage patterns for code optimization
+* T09.G8.14: Build adaptive AI systems using variable-based context
+
+ID: T09.G8.17
+Topic: T09 – Variables & Expressions
+Skill: Generate procedural content using noise functions
+Description: **Student task:** Students use CreatiCode's `noise at x (x) y (y) seed (seed)` function to generate smooth, random-looking values for procedural content generation. They understand that noise functions produce consistent values for the same inputs (unlike random), creating coherent patterns. Applications include: terrain generation (height maps), texture variations, natural movement patterns, and organic shapes. Example: use noise to create a rolling hills landscape where y-position varies smoothly based on x-position, or generate random-looking but reproducible tree positions for a forest.
+
+Dependencies:
+* T09.G7.01: Model dynamic systems where variables change over time
+* T09.G8.05: Use trigonometric functions in expressions
+
+ID: T09.G8.18
+Topic: T09 – Variables & Expressions
+Skill: Solve equations dynamically with the solve equation block
+Description: **Student task:** Students use CreatiCode's `solve equation [equation]` block to solve mathematical equations at runtime. The block takes an equation string and returns variable values (e.g., "solve equation [x + y = 10, x + 2y = 12]" returns "x,8,y,2"). They parse the returned values into separate variables using split operations. Applications include: physics simulations (solving for unknown forces), game mechanics (calculating required speeds to reach targets), and educational tools (checking student equation solutions). This advanced skill combines string handling with mathematical problem-solving.
+
+Dependencies:
+* T09.G6.13: Use the expression calculator block for complex formulas
+* T09.G7.20: Extract structured data from text using split and part-of operators
+
+ID: T09.G8.19
+Topic: T09 – Variables & Expressions
+Skill: Debug variable bugs with AI-assisted analysis
+Description: **Student task:** Students use AI tools to help diagnose and fix variable-related bugs. They describe the bug symptoms to an AI ("My score variable stays at 0 even when I collect coins") and provide relevant code. They learn to: (1) write effective bug descriptions that include expected vs actual behavior, (2) evaluate AI debugging suggestions critically, (3) verify that suggested fixes actually work, (4) understand WHY the fix works rather than just applying it blindly. This skill develops meta-cognitive debugging abilities enhanced by AI collaboration.
+
+Dependencies:
+* T09.G7.13: Debug variable scope and update timing errors
+* T09.G7.21: Use AI to generate variable-based code from natural language
+* T09.G8.08: Debug variable scope and concurrent update errors
+
+ID: T09.G8.20
+Topic: T09 – Variables & Expressions
+Skill: Design variable structures for AI training data collection
+Description: **Student task:** Students design and implement variable structures to collect training data for AI systems. They create variables and lists to store: user interactions (clicks, answers, times), game play patterns (moves, scores, strategies), or sensor data (positions, velocities). They understand how this data can train AI models to make predictions or adapt behavior. Example: collect player movement patterns in a game to train an AI opponent, or store user preferences to personalize content. This connects variables to machine learning data pipelines.
+
+Dependencies:
+* T09.G8.14: Build adaptive AI systems using variable-based context
+* T09.G8.16: Design variable schemas for complex state management
+
+ID: T09.G8.21
+Topic: T09 – Variables & Expressions
+Skill: Analyze variable memory usage and optimize for large-scale applications
+Description: **Student task:** Students analyze how many variables their program uses and estimate memory consumption. They identify opportunities to reduce memory usage: (1) reusing temporary variables instead of creating new ones, (2) clearing large string/data variables when no longer needed, (3) using efficient data types (numbers instead of strings where possible). They compare memory-efficient vs memory-wasteful implementations and justify trade-offs between memory and code clarity.
+
+Dependencies:
+* T09.G8.10: Analyze variable usage patterns for code optimization
+* T09.G8.15: Use variables for memoization and caching
+* T09.G8.16: Design variable schemas for complex state management
+
+ID: T09.G8.22
+Topic: T09 – Variables & Expressions
+Skill: Build table-integrated variable systems for complex data workflows
+Description: **Student task:** Students design systems that combine table variables (for structured collections) with regular variables (for processing). They implement complete workflows: (1) load data from tables into variables for filtering/sorting, (2) perform calculations using variables, (3) store results back in tables. Example: load product inventory from table, calculate discounted prices using variables, update price column in table. They use table blocks with variable-driven row/column access for dynamic data processing.
+
+Dependencies:
+* T09.G5.19: Integrate table variables with regular variables for structured data
+* T09.G8.16: Design variable schemas for complex state management
+
+ID: T09.G8.23
+Topic: T09 – Variables & Expressions
+Skill: Design end-to-end AI application with complete variable state management
+Description: **Student task:** Students design and implement a complete AI-enhanced application demonstrating mastery of variables with AI: (1) user input captured in variables, (2) variables used to construct dynamic AI prompts, (3) AI outputs stored in variables, (4) extracted data processed with expressions, (5) results displayed using variable-bound UI elements, (6) conversation state persists across interactions. Example: AI-powered quiz app that tracks user name, score, difficulty preference, generates personalized questions, evaluates answers, and adapts difficulty. This capstone skill synthesizes variables, expressions, AI integration, and state management.
+
+Dependencies:
+* T09.G8.09: Use variables to manage state in multi-turn AI conversations
+* T09.G8.14: Build adaptive AI systems using variable-based context
+* T09.G8.19: Debug variable bugs with AI-assisted analysis
+
